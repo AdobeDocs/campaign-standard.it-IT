@@ -14,7 +14,7 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
 
 ---
 
@@ -191,21 +191,47 @@ Il frammento può essere utilizzato in qualsiasi messaggio e-mail creato con E-m
 
 ### Saving content as a fragment {#saving-content-as-a-fragment}
 
-Quando si modifica un'e-mail con E-mail Designer, non è possibile salvare direttamente parte dell'e-mail come frammento.
+Durante la modifica di un'e-mail con Posta elettronica, è possibile salvare direttamente parte dell'e-mail come frammento.
 
-È necessario copiare il codice HTML corrispondente alla sezione che si desidera salvare in un nuovo frammento.
+1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
+
+   ![](assets/email_designer_save-as-fragment.png)
+
+1. Dall'area di lavoro, selezionare le strutture che compongono il frammento.
+
+   ![](assets/email_designer_save-as-fragment_select.png)
+
+   >[!NOTE]
+   >
+   >È possibile selezionare solo strutture adiacenti tra loro.
+
+1. Click **[!UICONTROL Create]**.
+
+1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
+
+   ![](assets/email_designer_save-as-fragment_popup.png)
+
+1. To find the fragment that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
+
+   ![](assets/email_designer_save-as-fragment_list.png)
+
+1. Per utilizzare il nuovo frammento, aprire altri contenuti e-mail e selezionarli dall'elenco dei frammenti.
+
+![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
->A tal fine, dovete avere familiarità con il codice HTML.
+>To do this, you need to be familiar with HTML code.
 
-Per salvare come frammento alcuni contenuti e-mail creati, procedere come segue.
+To save as a fragment some email content that you created, follow the steps below.
 
-1. When editing an email in the Email Designer, select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of that email.
-1. Selezionate e copiate l'HTML corrispondente alla parte che desiderate salvare.
-1. Go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. When editing an email in the Email Designer, select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of that email.
+1. Select and copy the HTML corresponding to the part that you want to save.
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
-1. Select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of the fragment.
-1. Incollate l'HTML che avete copiato laddove appropriato.
-1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.
+1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
+1. Paste the HTML that you copied where appropriate.
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 
