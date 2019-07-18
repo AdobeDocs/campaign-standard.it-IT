@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ Aggiunta di una nuova pagina sulle limitazioni della pagina di destinazione. [Ul
 
 È stato aggiunto un caso d'uso su come richiamare un profilo utilizzando una chiave di identificazione composita. [Ulteriori informazioni](../../developing/using/uc-calling-resource-id-key.md)
 
-È stata aggiunta una raccomandazione riguardo l'utilizzo di consegne ricorrenti senza periodo di aggressività durante la chiamata di un worfkflow con parametri. [Ulteriori informazioni](../../automating/using/calling-a-workflow-with-external-parameters.md)
+È stata aggiunta una raccomandazione riguardo l'utilizzo di consegne ricorrenti senza periodi di aggregazione durante la chiamata di un flusso di lavoro con parametri. [Ulteriori informazioni](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+È stata aggiornata la sezione su come salvare il contenuto e-mail come frammento nel messaggio e-mail di Designer. [Ulteriori informazioni](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
