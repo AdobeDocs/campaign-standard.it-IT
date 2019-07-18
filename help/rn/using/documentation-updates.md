@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
 
 ---
 
@@ -26,6 +26,14 @@ Scopri tutti gli ultimi aggiornamenti per la documentazione di Adobe Campaign St
 Questa pagina elenca tutte le nuove funzioni e gli aggiornamenti della documentazione per ogni versione di Adobe Campaign Standard.
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+
+## July 2019 {#release-july-2019}
+
+Aggiunta di una nuova pagina sulle limitazioni della pagina di destinazione. [Ulteriori informazioni](../../channels/using/landing-page-limitations.md)
+
+È stato aggiunto un caso d'uso su come richiamare un profilo utilizzando una chiave di identificazione composita. [Ulteriori informazioni](../../developing/using/uc-calling-resource-id-key.md)
+
+È stata aggiunta una raccomandazione riguardo l'utilizzo di consegne ricorrenti senza periodo di aggressività durante la chiamata di un worfkflow con parametri. [Ulteriori informazioni](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
