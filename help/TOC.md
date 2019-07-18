@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Aiuto di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: ea91676043ef021da8ba484004cb6798989118c1
+source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
 
 ---
 
@@ -298,6 +298,7 @@ source-git-commit: ea91676043ef021da8ba484004cb6798989118c1
       + [Configurazione definizione filtro](developing/using/configuring-filter-definition.md)
       + [Aggiornamento della struttura del database](developing/using/updating-the-database-structure.md)
       + [Eliminazione di una risorsa](developing/using/deleting-a-resource.md)
+      + [Chiamata di una risorsa utilizzando una chiave di identificazione composita](developing/using/uc-calling-resource-id-key.md)
    + Use case: Extending the API {#use-case--extending-the-api}
       + [Informazioni sull'estensione dell'API](developing/using/about-extending-the-api.md)
       + [Passaggio 1: Aggiungere campi estensione alla risorsa profilo](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
