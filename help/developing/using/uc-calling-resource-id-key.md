@@ -4,7 +4,7 @@ seo-title: Chiamata di una risorsa utilizzando una chiave di identificazione com
 description: Chiamata di una risorsa utilizzando una chiave di identificazione composita
 seo-description: Come richiamare una risorsa utilizzando una chiave di identificazione composita
 translation-type: tm+mt
-source-git-commit: 8aea0483bcb1b104e5bd2b13426a1ac590c8efaf
+source-git-commit: b9bc9163cc02efea8549a21fa947956dc9d3824a
 
 ---
 
@@ -94,13 +94,13 @@ To use the filter definition from the interface, use a **[!UICONTROL Query]** ac
 Per usare la definizione del filtro dalle API REST di Campaign Standard, utilizzate la sintassi seguente:
 
 ```
-GET /profileAndServicesExt/&lt;resourceName&gt;&lt;filterName&gt;?&lt;param1_parameter&gt;=&lt;value&gt;&&lt;param2_parameter&gt;=&lt;value&gt;
+GET /profileAndServicesExt/<resourceName><filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
 ```
 
 Nel nostro caso, la sintassi per recuperare un profilo dalla categoria "spring" e con l'ID CRM "123456" sarà:
 
 ```
-GET https://mc.adobe.io/&lt;ORGANIZATION&gt;/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
+GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
 For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
