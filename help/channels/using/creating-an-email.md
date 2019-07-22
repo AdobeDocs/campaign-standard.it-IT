@@ -14,7 +14,7 @@ discoiquuid: b 27 e 0170-e 73 f -4782-8568-02927 fb 374 f 4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
 
@@ -62,7 +62,9 @@ You can create an email from a [campaign](../../start/using/marketing-activities
    >
    >Per poter salvare l'e-mail, occorre innanzitutto apportare alcune modifiche al contenuto. If you click **[!UICONTROL Cancel]** at this point, you will not complete the wizard and your email will not be created.
 
-   Viene quindi visualizzato il dashboard e-mail. For more on this, see [Approving messages](../../sending/using/preparing-the-send.md).
+   Viene quindi visualizzato il dashboard e-mail. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+
+   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. Potete, ad esempio, configurare l'e-mail in modo che la sua etichetta venga calcolata al momento della preparazione della distribuzione. Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
