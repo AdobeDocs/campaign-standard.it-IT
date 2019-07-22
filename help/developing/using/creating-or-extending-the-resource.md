@@ -14,7 +14,7 @@ discoiquuid: 8 dc 45 c 37-6908-407 e -8 e 41-4 a 4188 cba 2 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: a7c7a46fdba2395c773582923c6bd647c2d6c9d6
 
 ---
 
@@ -43,6 +43,10 @@ Per creare o estendere una risorsa:
    * **[!UICONTROL Create a new resource]**: Immettere i **[!UICONTROL Label]****[!UICONTROL ID]** campi e i campi. **[!UICONTROL ID]** Il campo è obbligatorio. Se lasciate vuoto il campo Etichetta, questo verrà automaticamente completato dall'ID.
 
       ![](assets/schema_extension_2.png)
+
+      >[!NOTE]
+      >
+      >Consigliamo di utilizzare il massimo di 30 caratteri.
 
    * **[!UICONTROL Extend an existing resource]**: Selezionate la risorsa da estendere.
 
