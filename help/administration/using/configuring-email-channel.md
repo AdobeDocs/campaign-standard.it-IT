@@ -15,7 +15,7 @@ context-tags: Extaccountemail, overview; Emailconfig, main; Ruleset, overview; d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -143,7 +143,7 @@ This section details the list of parameters available in the properties screen o
 
 >[!NOTE]
 >
->Alcuni parametri sono disponibili solo nei modelli. Parameters you can access [depend on your permissions](../../administration/using/types-of-users.md).
+>Alcuni parametri sono disponibili solo nei modelli. Parameters you can access [depend on your permissions](../../administration/using/users-management.md).
 
 To edit the properties of an email or an email template, use the **[!UICONTROL Edit properties]** button.
 
@@ -250,7 +250,10 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
    >
    >Typologies, which can be accessed via the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
 
-* **[!UICONTROL Compute the label during delivery analysis]**: consente di calcolare il valore etichetta dell'e-mail durante la fase di preparazione del messaggio.
+* **[!UICONTROL Compute the label during delivery preparation]**: consente di calcolare il valore etichetta dell'e-mail durante la fase di preparazione del messaggio utilizzando campi di personalizzazione, blocchi di contenuto e testo dinamico.
+
+   È inoltre possibile personalizzare l'etichetta di consegna con variabili di eventi dichiarate nell'attività del segnale esterno del flusso di lavoro. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+
 * **[!UICONTROL Save SQL queries in the log]**: questa opzione consente di aggiungere registri di query SQL nel diario durante la fase di preparazione.
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
