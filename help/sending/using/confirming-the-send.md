@@ -15,7 +15,7 @@ context-tags: distribuzione, distribuzione, indietro
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 ---
 
@@ -43,6 +43,10 @@ Invio del messaggio.
 >[!NOTE]
 >
 >Se il messaggio viene pianificato, verrà inviato al raggiungimento dell'ora. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+
+Se utilizzi una consegna ricorrente senza periodi di aggregazione, puoi richiedere conferma prima dell'invio della consegna. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
 
 **[!UICONTROL Deployment]** Il blocco mostra l'avanzamento dell'invio.
 
