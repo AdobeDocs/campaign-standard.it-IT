@@ -14,7 +14,7 @@ discoiquuid: 3 ffda 143-f 42 a -4 cf 9-b 43 c-e 53 d 24549025
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
 
@@ -91,6 +91,10 @@ Per creare un blocco di contenuto, effettuate le seguenti operazioni:
 1. Enter the content of the content block(s), and click the **[!UICONTROL Create]** button.
 
 Adesso, il blocco di contenuto può essere usato nell'editor del contenuto di un messaggio o di una pagina di destinazione.
+
+>[!CAUTION]
+>
+>When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. In HTML gli spazi vuoti vengono visualizzati sullo schermo e influenzeranno quindi il layout del contenuto.
 
 ## About targeting dimension {#about-targeting-dimension}
 
