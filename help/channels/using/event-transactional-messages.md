@@ -15,7 +15,7 @@ context-tags: Deliverytransactionaltemplate, overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
 
 ---
 
@@ -313,8 +313,6 @@ Ad esempio, l'evento non poteva essere assegnato a una consegna di esecuzione po
 
 Una volta che l'evento è stato assegnato a una consegna di esecuzione, il messaggio transazionali potrebbe non riuscire a causa di un errore temporaneo, se la casella postale del destinatario è completa ad esempio. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Se un evento transazionali è stato assegnato a una consegna di esecuzione non riuscito, questo evento viene posticipato e riprovato in un secondo momento. Quando viene riprovato, viene assegnato a una nuova consegna dell'esecuzione.
-
 >[!NOTE]
 >
 >Quando un evento viene assegnato a una consegna di esecuzione, viene visualizzato nei registri di invio di questa consegna dell'esecuzione e solo in questa fase. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
@@ -323,9 +321,7 @@ Se un evento transazionali è stato assegnato a una consegna di esecuzione non r
 
 **Invio di registri di registro**
 
-Quando un evento transazionali è stato assegnato a una consegna di esecuzione non riuscito, questo evento viene posticipato e riprovato qualche minuto dopo. Quando viene riprovato, viene assegnato a una nuova consegna dell'esecuzione.
-
-Tuttavia, i registri di invio della nuova consegna dell'esecuzione non vengono immediatamente aggiornati (l'aggiornamento viene eseguito tramite un flusso di lavoro pianificato). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
+Nel processo di tentativi, i registri di invio della nuova consegna dell'esecuzione non vengono immediatamente aggiornati (l'aggiornamento viene eseguito tramite un flusso di lavoro pianificato). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
 **Consegna esecuzione non riuscita**
 
