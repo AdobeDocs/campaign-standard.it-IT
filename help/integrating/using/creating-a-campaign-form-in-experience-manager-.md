@@ -14,7 +14,7 @@ discoiquuid: 4 a 8 b 5807-87 dd -4 db 4-bd 67-890 f 0 adae 932
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -25,7 +25,7 @@ Puoi creare i "moduli" nei siti AEM e mappare i campi di un modulo nei campi del
 
 Per creare un modulo Adobe Campaign sul sito AEM:
 
-1. Nel sito AEM, crea una nuova pagina basata sul modello** Adobe Campaign Profile**.
+1. In your AEM site, create a new page based on the **Adobe Campaign Profile** template.
 
    ![](assets/aem_content_forms.png)
 
