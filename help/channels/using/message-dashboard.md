@@ -15,7 +15,7 @@ context-tags: distribuzione, principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ Il pannello del messaggio è un'area di lavoro composta da icone diverse, raggru
 La barra grigia raggruppa diverse icone collegate al messaggio.
 
 * **[!UICONTROL Summary]**: mostra/nasconde le informazioni principali relative al messaggio.
-* **[!UICONTROL Edit properties]**: consente di modificare i parametri avanzati del messaggio.
+* **[!UICONTROL Edit properties]**: consente di modificare i parametri [avanzati del messaggio](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Reports]**: consente di accedere ai rapporti relativi al messaggio.
 
 **Argomenti correlati:**
