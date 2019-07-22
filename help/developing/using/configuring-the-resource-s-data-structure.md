@@ -15,7 +15,7 @@ context-tags: Cusresource, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
 
 ---
 
@@ -44,6 +44,7 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    >[!NOTE]
    >
    >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
+   >È consigliabile utilizzare il massimo di 30 caratteri.
 
    ![](assets/schema_extension_4.png)
 
@@ -81,7 +82,11 @@ Ciascuna risorsa deve avere almeno una chiave univoca. Ad esempio, è possibile 
 
 1. Use the **[!UICONTROL Create element]** button to create a key.
 
-   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can be edited.
+   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+
+   >[!NOTE]
+   >
+   >È consigliabile utilizzare il massimo di 30 caratteri.
 
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
@@ -102,6 +107,11 @@ La definizione degli indici è consigliata ma non obbligatoria.
    ![](assets/schema_extension_26.png)
 
 1. The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+
+   >[!NOTE]
+   >
+   >È consigliabile utilizzare il massimo di 30 caratteri.
+
 1. Per definire gli elementi che compongono questo indice, selezionate i campi da quelli creati per la risorsa.
 
    ![](assets/schema_extension_27.png)
@@ -135,6 +145,10 @@ Un collegamento indica l'associazione di una tabella con altre tabelle.
    ![](assets/schema_extension_29.png)
 
 1. In the **[!UICONTROL New link]** screen, the **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+
+   >[!NOTE]
+   >
+   >È consigliabile utilizzare il massimo di 30 caratteri.
 
    >[!CAUTION]
    >
@@ -242,6 +256,11 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
    ![](assets/schema_extension_30.png)
 
 1. Se necessario, modificate l'etichetta e l'ID della risorsa.
+
+   >[!NOTE]
+   >
+   >È consigliabile utilizzare il massimo di 30 caratteri.
+
 1. Per limitare l'accesso a questa risorsa a determinate unità organizzative, specificatele qui. Solo gli utenti di unità autorizzate potranno lavorare con questa risorsa nell'applicazione.
 1. Salvate le modifiche.
 
