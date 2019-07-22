@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 830292bd6f5bbd143ad0c674aaac67b67abc5665
+source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
 
 ---
 
@@ -26,6 +26,117 @@ Stai cercando una versione specifica di Adobe Campaign Standard?
 Ogni rilascio viene fornito con nuove funzionalità e patch. Fate clic su una versione per visualizzarne il contenuto. Consult the [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) to find out when the next release will happen.
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). Also consult the list of [Deprecated and Removed Features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
+
+### What's new? {#what-s-new-3}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Functionality<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> External API Activity (Public Beta)<br /> </td> 
+   <td> <p>Per una personalizzazione più approfondita, l'attività API esterna consente di portare dati da sistemi esterni in un flusso di lavoro tramite una chiamata REST API. Gli endpoint REST possono essere un sistema di gestione clienti, Adobe I/O Runtime o un endpoint REST di Adobe Experience Cloud (ad es. Piattaforma dati, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Report on workflow segment<br /> </td> 
+   <td> <p>Questa funzione consente agli esperti di marketing di suddividere le prestazioni di distribuzione in base al codice del segmento. Quando crei un flusso di lavoro e utilizzi un'attività di segmentazione per assegnare segmenti alla popolazione di consegna, questi segmenti possono ora entrare nella stessa consegna. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Security enhancements {#security-enhancements-2}
+
+* Risolto un problema di sicurezza per evitare attacchi Denial of Service (DoS) su richieste non valide per ottenere immagini. (CAMP -33454)
+
+### Email Designer enhancements {#email-designer-enhancements-3}
+
+* È stato risolto un problema che causava aggiunta di tag di stile HTML aggiuntivi a un modello HTML ogni volta che veniva aggiunto un componente, che poteva aumentare notevolmente le dimensioni del modello. (CAMP -34694)
+* È stato risolto un problema che poteva impedire la disponibilità di alcune opzioni di menu della barra degli strumenti superiore destra. (CAMP -34577)
+* È stato risolto un problema che si verificava quando il blocco di contenuto URL della pagina Speculare veniva inserito in un contenuto e-mail. (CAMP -34779)
+* È stato risolto un problema che si verificava durante l'utilizzo del codice JPS in un messaggio e-mail, rendendo difficile la modifica del contenuto. (CAMP -34574)
+* È stato risolto un problema che causava il troncamento delle immagini nella parte superiore quando vi veniva aggiunto un collegamento ipertestuale. (CAMP -34382)
+* Risoluzione di un problema di visualizzazione durante l'utilizzo di E-mail Designer con Firefox. (CAMP -34364)
+* Risolti diversi problemi che si verificavano nella modalità Avanzate durante la definizione del contenuto dinamico in un messaggio e-mail. (CAMP -34351, CAMP -34333, CAMP -34331)
+* Risolti diversi problemi che si verificavano con l'editor di regole di contenuto dinamico (CAMP -34304, CAMP -34303).
+* È stato risolto un problema che poteva impedire la visualizzazione del campo Collegamento nel riquadro Impostazioni di Designer e-mail (CAMP -33749).
+* È stato risolto un problema relativo all'icona YouTube che era sovrapportata nelle e-mail inviate. (CAMP -33726)
+* Risolto un problema di sicurezza che rendeva modificabile il contenuto della pagina speculare. (CAMP -33691)
+* È stato risolto un problema che rispediva l'output HTML quando si utilizzava il simbolo maggiore di quello dinamico. (CAMP -33688)
+* È stato risolto un problema che si verificava utilizzando l'opzione Annulla durante la modifica del testo in E-mail Designer. (CAMP -32565)
+* È stato risolto un problema che causava altri tag durante l'annullamento degli stili invece di rimuoverli. (CAMP -32359)
+* È ora possibile definire se ogni immagine utilizzata in un'e-mail verrà visualizzata solo sui dispositivi desktop o su dispositivi mobili.
+* È ora possibile impostare la larghezza e l'altezza di un componente Contenuto Social.
+* È stato risolto un problema che impediva la rimozione del codice sorgente precedente del contenuto dinamico dopo l'eliminazione del contenuto dinamico.
+* È stato risolto un problema che poteva impedire l'aggiornamento dell'oggetto di un'e-mail dopo la modifica.
+* È stato risolto un problema che impediva a un n: La struttura delle colonne viene selezionata una volta rilasciata nell'area di lavoro.
+* È stato risolto un problema che rendeva la miniatura del messaggio sfocata nel dashboard e-mail.
+* È stato risolto un problema che impediva la corretta visualizzazione dello sfondo per le e-mail ricevute in Outlook.
+* Risolti alcuni problemi di ordinamento nella home page di Designer di e-mail.
+* È stato risolto un problema che si verificava durante la duplicazione di varianti quando si utilizzavano contenuti dinamici.
+* Alcuni campi non desiderati sono stati rimossi dal riquadro Impostazioni di Designer di e-mail.
+
+### Other improvements {#other-improvements-3}
+
+* Grazie all'integrazione con Adobe Experience Platform Services Services, Adobe Campaign è ora compatibile con l'invio di messaggi di marketing basati sulla posizione agli abbonati all'applicazione mobile tramite l'SDK della piattaforma Experience Platform. For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* La funzione di reporting è stata migliorata per migliorare l'esperienza. Per utilizzare questa funzione, è necessario accettare il Contratto di utilizzo dei rapporti dinamici. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* Nei flussi di lavoro, è stata aggiunta una nuova opzione per l'anteprima delle dieci esecuzioni successive di un flusso di lavoro. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* Nell'attività Pianificatore, una nuova opzione consente di selezionare un giorno specifico di una settimana specifica per le consegne mensili. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* Quando si creano consegne ricorrenti senza periodi di aggregazione, il dashboard di consegna ora consente di confermare la conferma prima dell'invio della consegna. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* Ora potete personalizzare l'etichetta di una distribuzione con variabili degli eventi dichiarate nell'attività del segnale esterno del flusso di lavoro. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* La query di eliminazione GDPR è stata migliorata per migliorare le prestazioni. (CAMP -33504)
+* L'opzione "ftp" è stata rimossa dall'interfaccia di configurazione dell'account esterno. (CAMP -34472)
+
+### Other changes {#other-changes-2}
+
+* Nell'interfaccia delle proprietà di consegna è stato aggiunto un avviso. Specifica che le consegne vengono preparate in base al loro periodo di aggregazione e ti permettono di chiamare il flusso di lavoro più volte al giorno, accertandoti che non abbiano alcun punto. (CAMP -34393)
+* È stato aggiunto un avviso nelle schermate di configurazione delle risorse personalizzate. Consigliamo di utilizzare massimo 30 caratteri per ID risorsa personalizzati. Ciò si applica anche a campi di risorse, chiavi, indici e collegamenti personalizzati.
+* Viene visualizzato un messaggio quando si tenta di eliminare un messaggio transazionale utilizzato da una pagina di destinazione come messaggio di conferma.
+* Un avviso ora viene visualizzato nei registri dei flussi di lavoro quando un'attività è in esecuzione da oltre 6 ore. Questo non vale per le attività di notifica push, consegna, segnale, avvio, fine, fine, fork, pianificazione e attesa.
+* Un avviso ora viene visualizzato nei registri dei flussi di lavoro quando raggiungete il numero massimo di flussi di lavoro in esecuzione contemporaneamente.
+* I flussi di lavoro che sono stati in pausa o in stato non riuscito per oltre 7 giorni vengono ora interrotti per poter utilizzare meno spazio su disco. L'attività di pulizia viene visualizzata nei registri di workflow.
+* Quando si utilizza un'attività «Trasferimento file», ora viene registrato un errore se la dimensione del file supera lo spazio disponibile su disco.
+* L'azione Reindirizza all'URL di destinazione non può più essere selezionata per il pulsante secondario nei messaggi in-app.
+
+### Patches {#patches-3}
+
+* È stato risolto un problema che potrebbe causare errori di accesso al GDPR.
+* È stato risolto un problema che poteva causare la cancellazione di attivatori quando venivano ricevuti più attivatori per un profilo univoco.
+* È stato risolto un problema che poteva causare un errore errato di pubblicazione delle risorse personalizzato dopo l'accesso.
+* È stato risolto un problema che visualizzava una pagina vuota durante la creazione o l'estensione di una risorsa personalizzata.
+* È stato risolto un problema che impediva a un pubblico con appsubscriptionrcp di essere disponibile come dimensione di targeting per il targeting in una distribuzione mobile.
+* È stato corretto un errore a causa del quale gli indirizzi e-mail netti non venivano inseriti in quarantena. (CAMP -24587)
+* È stato risolto un problema che si verificava quando si aggiungeva una regola di tipo typology e quindi si eliminava prima di salvare il testo. (CAMP -32789)
+* È stato risolto un problema che poteva impedire la visualizzazione del contenuto della pagina di destinazione durante la disabilitazione del contenuto dinamico. (CAMP -32924)
+* È stato risolto un problema relativo alle consegne ricorrenti che si verificavano quando si utilizzava la personalizzazione negli attributi di una consegna principale. (CAMP -32983)
+* È stato risolto un problema in flussi di lavoro che impediva di leggere i risultati di una transizione contenente dati di messaggi SMS in arrivo. (CAMP -33134)
+* È stato risolto un problema nei flussi di lavoro che si verificava durante la combinazione di attività di foratura e di esclusione per creare audience. (CAMP -33401)
+* È stato risolto un problema che poteva impedire la visualizzazione del contenuto della pagina speculare e l'invio di messaggi per le consegne ricorrenti. (CAMP -33413)
+* Risolto un problema che causava un errore quando si utilizzava un'attività Unione tra profili e audience. Questo problema è stato causato da un'incompatibilità delle chiavi di identificazione nelle transizioni di input. (CAMP -33713)
+* Risolto un problema nelle attività di test che impediva all'espressione "reccount" di utilizzare la sintassi corretta quando si faceva doppio clic su di essa. (CAMP -33756)
+* È stato risolto un problema che poteva causare un messaggio di errore all'apertura dei registri di workflow tecnica Fatturazione. (CAMP -34313)
+* È stato risolto un problema nelle pagine di destinazione che poteva verificarsi durante la configurazione dei campi caselle di controllo con iscrizioni. (CAMP -34369)
+* È stato risolto un problema che si verificava durante la configurazione di un elenco e l'aggiunta del campo «icona». (CAMP -34585)
+* È stato risolto un problema che impediva l'utilizzo di "|" e " %" come separatori di data o ora nelle attività del flusso di lavoro di caricamento dei file. (CAMP -34706)
+* È stato risolto un problema che si verificava nei flussi di lavoro quando si aggiungeva un'attività, si salvava il flusso di lavoro e quindi si toccava il pulsante «Indietro» del browser. L'attività appena aggiunta è stata rimossa dall'area di lavoro. (CAMP -34788)
+* È stato risolto un problema che si verificava quando si utilizzavano condizioni di visibilità con caselle di controllo nelle pagine di destinazione. (CAMP -34802)
+* È stato risolto un problema nell'attività Arricchimento che impediva la visualizzazione dei campi nella scheda «Additional data» (Dati aggiuntivi), se la dimensione di filtro era impostata su di tracciamento e la dimensione di destinazione al profilo.
+* È stato risolto un problema che causava un messaggio di errore durante l'esportazione di una risorsa "workflowtemplate".
+* È stato risolto un problema che si verificava durante la creazione di un nuovo profilo, che impediva il salvataggio del campo «Codice Paese/Regione», se selezionato dalla finestra di dialogo.
+* Risolti diversi problemi che si verificavano quando si utilizzava il modello di importazione Direct Mail (updatequarantinesdeliverylogsdirectmail).
+* È stato risolto un problema relativo all'integrazione Risorse on Demand.
+* È stato risolto un problema che si verificava durante lo zoom nella visualizzazione Timeline. (CAMP -33628)
+* È stato risolto un problema che impediva l'invio immediato delle prove per i messaggi e-mail con data e ora pianificate. (CAMP -33723)
+* È stato risolto un problema relativo ai messaggi transazionali generati dai registri di errore quando un utente si disconnetteva. (CAMP -31698)
+* È stato corretto un errore che poteva verificarsi in ambienti specifici durante la pianificazione di un messaggio e-mail.
+* È stato risolto un problema a causa del quale il flusso di lavoro di prestazioni per la distribuzione aggiornata non andava a buon fine.
+* È stato risolto un problema di sicurezza che causava il blocco del contenuto dell'e-mail quando l'oggetto conteneva più righe.
+
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
