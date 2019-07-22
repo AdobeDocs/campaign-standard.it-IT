@@ -15,7 +15,7 @@ context-tags: flusso di lavoro, panoramica; flusso di lavoro, principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
 
 ---
 
@@ -28,7 +28,7 @@ Un flusso di lavoro viene sempre avviato manualmente. However, once started, it 
 
 >[!CAUTION]
 >
->È consigliabile non eseguire più di 5 flussi di lavoro contemporaneamente. Quando si eseguono troppi flussi di lavoro contemporaneamente, il sistema può esaurire le risorse e diventare instabile. È inoltre consigliabile distribuire i flussi di lavoro nel tempo.
+> Adobe consiglia ai clienti di dare priorità alle esecuzioni del flusso di lavoro ed eseguire fino a venti esecuzioni simultanee di flussi di lavoro per ottenere in modo coerente le prestazioni massime nell'istanza. Possono essere pianificate più di venti esecuzioni di flussi di lavoro simultanee e vengono eseguite in sequenza per impostazione predefinita. Puoi regolare le impostazioni predefinite per il numero massimo di esecuzioni simultanee del flusso di lavoro inviando un ticket all'Assistenza clienti.
 
 Azioni relative all'esecuzione (avvio, interruzione, pausa, ecc.) are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 
