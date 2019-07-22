@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -26,6 +26,16 @@ Scopri tutti gli ultimi aggiornamenti per la documentazione di Adobe Campaign St
 Questa pagina elenca tutte le nuove funzioni e gli aggiornamenti della documentazione per ogni versione di Adobe Campaign Standard.
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+
+## Release 19.3 - July 30 {#release-19-3---july-2019}
+
+### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
+
+Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. Specifica che le consegne vengono preparate in base al loro periodo di aggregazione e che, se pianificate di chiamare il flusso di lavoro più volte al giorno, assicuratevi che non abbiano alcun periodo.
+
+Sono state aggiunte informazioni su come personalizzare l'etichetta di una distribuzione con variabili degli eventi dichiarate nell'attività del segnale esterno del flusso di lavoro. [Ulteriori informazioni](../../developing/using/uc-calling-resource-id-key.md)
 
 ## July 2019 {#release-july-2019}
 
@@ -201,7 +211,7 @@ The Configuring a mobile application using Adobe Experience Platform SDKs sectio
 
 Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
 
-È stata aggiornata la sezione Tipo di utenti. [Ulteriori informazioni](../../administration/using/types-of-users.md)
+È stata aggiornata la sezione Tipo di utenti. [Ulteriori informazioni](../../administration/using/users-management.md)
 
 ## Release 18.9 - September 2018 {#release-18-9---september-2018}
 
@@ -461,7 +471,7 @@ Nuovo video Report dinamico. [Ulteriori informazioni](../../start/using/how-to-v
 
 Aggiunte raccomandazioni sull'account S 3. [Ulteriori informazioni](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-Aggiornamento della sezione sui diversi tipi di utenti. [Ulteriori informazioni](../../administration/using/types-of-users.md)
+Aggiornamento della sezione sui diversi tipi di utenti. [Ulteriori informazioni](../../administration/using/users-management.md)
 
 Aggiornamento della sezione sulla personalizzazione delle origini immagine. [Ulteriori informazioni](../../designing/using/personalizing-an-image-source.md)
 
@@ -551,7 +561,7 @@ Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/a
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
 
-Sezione aggiunta ai diversi tipi di utenti di Adobe Campaign. [Ulteriori informazioni](../../administration/using/types-of-users.md)
+Sezione aggiunta ai diversi tipi di utenti di Adobe Campaign. [Ulteriori informazioni](../../administration/using/users-management.md)
 
 La guida del flusso di lavoro è stata riorganizzata e estesa. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
 
