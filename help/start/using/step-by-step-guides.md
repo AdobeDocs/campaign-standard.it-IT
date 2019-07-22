@@ -14,7 +14,7 @@ discoiquuid: d 7088 c 18-7 daf -4 c 30-b 633-2 f 19496 b 1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -40,7 +40,7 @@ Per ulteriori informazioni su Adobe Campaign, verifica i casi d'uso ed esempi se
 
 * [Passaggi principali per progettare un messaggio e-mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch): leggete i passaggi principali per progettare contenuti e-mail da zero.
 * [Utilizzo di Experience Cloud Triggers con Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md): inviare e-mail personalizzate ai clienti seguendo comportamenti specifici seguiti da Adobe Analytics sul tuo sito Web.
-* [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-of-adding-a-resource.md): scoprite come creare nuove risorse o estendere quelli esistenti.
+* [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md): scoprite come creare nuove risorse o estendere quelli esistenti.
 * [Importazione del modello di flusso di lavoro](../../automating/using/importing-data.md#example--import-workflow-template): utilizzare un modello di importazione per importare regolarmente file con la stessa struttura.
 * [Configurazione di un processo](../../channels/using/setting-up-a-double-opt-in-process.md)di rinuncia: scoprite come inviare un'e-mail collegata a una pagina di destinazione per confermare l'iscrizione a un cliente.
 * [Personalizzate un'e-mail](../../designing/using/example--email-personalization.md): personalizzare un'e-mail in base all'età del cliente.
