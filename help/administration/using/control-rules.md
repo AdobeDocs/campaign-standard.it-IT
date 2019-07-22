@@ -14,7 +14,7 @@ discoiquuid: 305 ishde -6424-4 c 6 f-b 11 b -1 e 8 bdbad 6 ef 1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -58,3 +58,6 @@ I valori possibili sono:
 
    Quando un controllo richiede che la personalizzazione dei messaggi sia completa, selezionate questa fase.
 
+>[!NOTE]
+>
+>Per motivi di sicurezza, il contenuto delle regole di controllo non può essere modificato. **[!UICONTROL Code]** Il campo è di sola lettura.
