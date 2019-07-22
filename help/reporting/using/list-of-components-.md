@@ -14,7 +14,7 @@ discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -83,7 +83,7 @@ La tabella seguente fornisce l'elenco delle dimensioni utilizzate nei rapporti e
   </tr> 
   <tr> 
    <td> Profiles<br /> </td> 
-   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-of-adding-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> I dati per questa dimensione vengono recuperati non appena la risorsa personalizzata collegata al campo del profilo viene pubblicata.<br /> </td> 
+   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> I dati per questa dimensione vengono recuperati non appena la risorsa personalizzata collegata al campo del profilo viene pubblicata.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push platform<br /> </td> 
