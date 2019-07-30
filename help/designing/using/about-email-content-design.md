@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcn 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
+source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
 
 ---
 
@@ -128,6 +128,26 @@ For more on converting an existing email into an Email Designer-compatible email
 * Non è possibile salvare direttamente come frammento alcuni contenuti di un'e-mail che si sta modificando in Email Designer. È necessario copiare e incollare il codice HTML corrispondente a tale contenuto in un nuovo frammento. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Quando si modificano gli stili, sono disponibili solo i font Web ufficialmente supportati dalla maggior parte dei client e-mail.
 * Gli stili non possono essere salvati come tema per riuso futuro. Tuttavia, lo stile CSS può essere salvato in un modello di contenuto o in un messaggio e-mail. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+
+### Email Designer updates {#email-designer-updates}
+
+Il miglioramento continuo di Designer Designer è migliorato. Se è stato creato un contenuto e-mail da zero, da un modello out-of-the-box o se avete creato dei frammenti, al successivo apertura del contenuto potrebbe essere visualizzato il seguente messaggio di aggiornamento:
+
+![](assets/email_designer_fragment-patch-message.png)
+
+Adobe consiglia di aggiornare i contenuti alla versione più recente per evitare problemi quali problemi di collisione CSS. Click **[!UICONTROL Update now]**.
+
+Se si verifica un errore durante l'aggiornamento del contenuto, controllate il codice HTML e correggetelo prima di eseguire nuovamente questo aggiornamento.
+
+Per i frammenti, tenete presente quanto segue:
+
+* Se si desidera aggiungere un frammento a una nuova e-mail o a un modello e se si riceve questo messaggio, è necessario aggiornare prima il frammento.
+
+* Se si dispone di più frammenti, è necessario aggiornare ciascun frammento che si desidera utilizzare in un contenuto e-mail.
+
+* Per evitare l'impatto sui messaggi e-mail correnti, poiché alcuni possono essere all'interno della fase di preparazione o in una campagna specifica in cui non si desidera apportare modifiche, è possibile non aggiornare alcuni frammenti.
+
+* È comunque possibile inviare e-mail in cui un frammento non aggiornato è già utilizzato, ma tale frammento non è modificabile.
 
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 
