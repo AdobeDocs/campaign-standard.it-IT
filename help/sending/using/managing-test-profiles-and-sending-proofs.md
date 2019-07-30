@@ -15,7 +15,7 @@ context-tags: Seedmember, panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ Devi inviare tutte le prove necessarie fino alla finalizzazione del contenuto de
 **Argomento correlato:**
 
 [Invio di un test, preparazione e invio di un](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) video e-mail
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+Questa sezione descrive come inviare le prove utilizzando dati reali del cliente accessibili tramite un flusso di lavoro, anziché utilizzare i dati di profilo falsi. Questo consente di verificare che le variabili utilizzate nel flusso di lavoro siano precise e di visualizzare il messaggio ricevuto dai destinatari.
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   Questo profilo di test diventa parte del pubblico di destinazione.
+
+   >[!NOTE]
+   >
+   >Quando si utilizza un profilo di prova come abbondanza, per qualsiasi campo arricchito di un messaggio, i dati aggiuntivi corrispondenti vengono selezionati in modo casuale da un profilo di destinazione reale e assegnati al profilo di prova dell'abbondanza.
+
+1. Accedete all'elenco delle attività di marketing e create un flusso di lavoro di test.
+
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
+1. Aggiungere dati aggiuntivi da una tabella collegata. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. Drag and drop an **Email delivery** activity into your workflow and open it.
+
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
+1. Dal dashboard del messaggio e-mail, selezionate il profilo di prova con l'utilizzo delle abbondanze creato.
+
+1. Aggiungete ai campi di personalizzazione dei contenuti e-mail i dati aggiuntivi definiti nell'attività Query.
+
+1. Salva l'e-mail e avvia il flusso di lavoro.
+
+Durante la preparazione del messaggio, il conteggio di destinazione include il profilo di prova selezionato.
+Una volta inviato il messaggio, i dati aggiuntivi vengono sostituiti dai dati provenienti da un profilo reale.
+
+>[!NOTE]
+>
+>Vengono sostituiti solo i dati aggiuntivi. Per il profilo di prova non vengono utilizzati dati di profilo reali quali nome o cognome.
