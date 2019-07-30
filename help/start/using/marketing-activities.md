@@ -15,7 +15,7 @@ context-tags: attività, panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
 
 ---
 
@@ -51,6 +51,7 @@ Nella zona principale, ogni tipo di attività nell'elenco ha un'icona:
 * ![](assets/marketing_email_icon.png) : E-mail
 * ![](assets/marketing_sms_icon.png) : SMS
 * ![](assets/marketing_push_icon.png) : Notifica push
+* ![](assets/marketing_lp_icon.png) : Messaggio in-app
 * ![](assets/marketing_lp_icon.png) : Pagina di destinazione
 * ![](assets/marketing_workflow_icon.png) : Flusso di lavoro
 
