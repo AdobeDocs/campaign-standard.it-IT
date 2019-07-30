@@ -14,7 +14,7 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
+source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
 
 ---
 
@@ -193,6 +193,10 @@ Il frammento può essere utilizzato in qualsiasi messaggio e-mail creato con E-m
 
 Durante la modifica di un'e-mail con Posta elettronica, è possibile salvare direttamente parte dell'e-mail come frammento.
 
+>[!CAUTION]
+>
+>Non è possibile salvare come frammento una struttura contenente campi di personalizzazione, contenuto dinamico o un altro frammento.
+
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
    ![](assets/email_designer_save-as-fragment.png)
@@ -215,7 +219,7 @@ Durante la modifica di un'e-mail con Posta elettronica, è possibile salvare dir
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. Per utilizzare il nuovo frammento, aprire altri contenuti e-mail e selezionarli dall'elenco dei frammenti.
+1. Per utilizzare il nuovo frammento, aprire qualsiasi contenuto e-mail e selezionarlo dall'elenco dei frammenti.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
