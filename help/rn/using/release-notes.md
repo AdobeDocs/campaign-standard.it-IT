@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>Per una personalizzazione più approfondita, l'attività API esterna consente di portare dati da sistemi esterni in un flusso di lavoro tramite una chiamata REST API. Gli endpoint REST possono essere un sistema di gestione clienti, Adobe I/O Runtime o un endpoint REST di Adobe Experience Cloud (ad es. Piattaforma dati, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+   <td> <p>Per una personalizzazione più approfondita, l'attività API esterna consente di portare dati da sistemi esterni in un flusso di lavoro tramite una chiamata REST API. Gli endpoint REST possono essere un sistema di gestione clienti, Adobe I/O Runtime o un endpoint REST di Adobe Experience Cloud (ad es. Piattaforma dati, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>Questa funzione consente agli esperti di marketing di suddividere le prestazioni di distribuzione in base al codice del segmento. Quando crei un flusso di lavoro e utilizzi un'attività di segmentazione per assegnare segmenti alla popolazione di consegna, questi segmenti possono ora entrare nella stessa consegna. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>Questa funzione consente agli esperti di marketing di suddividere le prestazioni di distribuzione in base al codice del segmento. Quando crei un flusso di lavoro e utilizzi un'attività di segmentazione per assegnare segmenti alla popolazione di consegna, questi segmenti possono ora entrare nella stessa consegna. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,8 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * È stato risolto un problema che rispediva l'output HTML quando si utilizzava il simbolo maggiore di quello dinamico. (CAMP -33688)
 * È stato risolto un problema che si verificava utilizzando l'opzione Annulla durante la modifica del testo in E-mail Designer. (CAMP -32565)
 * È stato risolto un problema che causava altri tag durante l'annullamento degli stili invece di rimuoverli. (CAMP -32359)
-* È ora possibile definire se ogni immagine utilizzata in un'e-mail verrà visualizzata solo sui dispositivi desktop o su dispositivi mobili.
-* È ora possibile impostare la larghezza e l'altezza di un componente Contenuto Social.
+* Ora potete definire se ogni componente utilizzato in un'e-mail verrà visualizzato solo sui dispositivi desktop o solo sui dispositivi mobili.
+* Ora potete impostare la larghezza e l'altezza di un componente Contenuto social.
 * È stato risolto un problema che impediva la rimozione del codice sorgente precedente del contenuto dinamico dopo l'eliminazione del contenuto dinamico.
 * È stato risolto un problema che poteva impedire l'aggiornamento dell'oggetto di un'e-mail dopo la modifica.
 * È stato risolto un problema che impediva a un n: La struttura delle colonne viene selezionata una volta rilasciata nell'area di lavoro.
@@ -91,6 +91,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * Ora potete personalizzare l'etichetta di una distribuzione con variabili degli eventi dichiarate nell'attività del segnale esterno del flusso di lavoro. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * La query di eliminazione GDPR è stata migliorata per migliorare le prestazioni. (CAMP -33504)
 * L'opzione "ftp" è stata rimossa dall'interfaccia di configurazione dell'account esterno. (CAMP -34472)
+* Ora potete attivare e disattivare l'opzione Modalità di test SMTP per ogni messaggio e-mail. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP -34602)
 
 ### Other changes {#other-changes-2}
 
@@ -123,7 +124,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * È stato risolto un problema nelle pagine di destinazione che poteva verificarsi durante la configurazione dei campi caselle di controllo con iscrizioni. (CAMP -34369)
 * È stato risolto un problema che si verificava durante la configurazione di un elenco e l'aggiunta del campo «icona». (CAMP -34585)
 * È stato risolto un problema che impediva l'utilizzo di "|" e " %" come separatori di data o ora nelle attività del flusso di lavoro di caricamento dei file. (CAMP -34706)
-* È stato risolto un problema che si verificava nei flussi di lavoro quando si aggiungeva un'attività, si salvava il flusso di lavoro e quindi si toccava il pulsante «Indietro» del browser. L'attività appena aggiunta è stata rimossa dall'area di lavoro. (CAMP -34788)
 * È stato risolto un problema che si verificava quando si utilizzavano condizioni di visibilità con caselle di controllo nelle pagine di destinazione. (CAMP -34802)
 * È stato risolto un problema nell'attività Arricchimento che impediva la visualizzazione dei campi nella scheda «Additional data» (Dati aggiuntivi), se la dimensione di filtro era impostata su di tracciamento e la dimensione di destinazione al profilo.
 * È stato risolto un problema che causava un messaggio di errore durante l'esportazione di una risorsa "workflowtemplate".
