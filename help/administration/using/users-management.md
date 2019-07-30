@@ -14,7 +14,7 @@ discoiquuid: 08 c 8712 a -0066-4 b 8 b -8471-2656 b 8 fb 23 ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
 
 ---
 
@@ -124,13 +124,13 @@ Per aggiungere un utente all'istanza, devi prima crearlo nell'Admin Console prim
 
    ![](assets/create_user_4.png)
 
-L'utente viene ora creato e deve ricevere un'e-mail di reindirizzamento alla finestra seguente, in cui l'utente deve impostare una password e quindi accettare il termine d'uso. Questo utente potrà quindi connettersi all'istanza Adobe Campaign Standard.
+L'utente viene ora creato e deve ricevere un'e-mail di reindirizzamento alla finestra seguente, in cui l'utente deve impostare una password e accettare il termine dell'accordo. Questo utente potrà quindi connettersi all'istanza Adobe Campaign Standard.
 
 ![](assets/create_user_5.png)
 
 L'utente verrà sincronizzato con Adobe Campaign Standard non appena accede all'istanza.
 
-Puoi verificare se l'utente è stato sincronizzato correttamente con Adobe Campaign:
+Puoi quindi verificare se l'utente è stato sincronizzato correttamente con Adobe Campaign:
 
 1. From the advanced menu **[!UICONTROL Administration > Users & Security > Users]** select your previously created user.
 
@@ -149,3 +149,5 @@ Puoi verificare se l'utente è stato sincronizzato correttamente con Adobe Campa
 1. In the **[!UICONTROL Authorized connection zone]** field, select through which way your user will connect to this instance, e.g. internal network or VPN.
 
 1. Click **[!UICONTROL Save]**.
+
+L'utente è ora pronto per utilizzare Adobe Campaign Standard.
