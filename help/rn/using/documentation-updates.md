@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -59,7 +59,7 @@ Sono stati aggiunti un diagramma che descrive come i diversi modelli in-app gest
 
 È stata aggiunta una nuova sezione su Email Designer consigliati. [Ulteriori informazioni](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-È stata aggiunta una nuova sezione su come inviare le prove tramite dati reali del cliente. [Ulteriori informazioni](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 È stata aggiunta una nuova sezione sulle best practice per il flusso di lavoro. [Ulteriori informazioni](../../automating/using/best-practices-workflows.md)
 
