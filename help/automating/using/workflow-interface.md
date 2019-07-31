@@ -15,7 +15,7 @@ context-tags: flusso di lavoro, principale; flusso di lavoro, panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -26,8 +26,8 @@ Puoi creare flussi di lavoro per gestire interi processi nelle campagne e nei pr
 
 La schermata di modifica del flusso di lavoro è composta dai seguenti elementi:
 
-* [Palette](../../automating/using/workflow-interface.md#palette), che fa riferimento alle attività disponibili
-* [Area di lavoro](../../automating/using/workflow-interface.md#workspace), in cui le attività sono configurate e organizzate
+* [Palette,](../../automating/using/workflow-interface.md#palette)che fa riferimento alle attività disponibili.
+* The [Workspace](../../automating/using/workflow-interface.md#workspace), in which the activities are configured and organized.
 * The [Action bar](../../automating/using/workflow-interface.md#action-bar), which is made up of buttons that allow you to interact with the workflow and/or its components.
 * The [Quick actions](../../automating/using/workflow-interface.md#quick-actions), which appear around a selected activity, allow you to interact with it.
 
