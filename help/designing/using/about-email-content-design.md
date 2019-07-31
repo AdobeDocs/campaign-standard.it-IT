@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcn 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
+source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
 
 ---
 
@@ -133,7 +133,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 Il miglioramento continuo di Designer Designer è migliorato. Se è stato creato un contenuto e-mail da zero, da un modello out-of-the-box o se avete creato dei frammenti, al successivo apertura del contenuto potrebbe essere visualizzato il seguente messaggio di aggiornamento:
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 Adobe consiglia di aggiornare i contenuti alla versione più recente per evitare problemi quali problemi di collisione CSS. Click **[!UICONTROL Update now]**.
 
@@ -181,7 +181,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 In questa sezione viene illustrato come convertire un messaggio e-mail esistente in un messaggio e-mail compatibile con Designer.
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in ' [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
 
 Tuttavia, se si desidera creare un framework di modelli modulari e frammenti che possono essere combinati per riutilizzarli in più e-mail, è consigliabile convertire l'HTML e-mail in un modello di Designer e-mail.
 
