@@ -12,7 +12,7 @@ context-tags: Externalapi, workflow, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ Questi messaggi di registro vengono utilizzati per registrare informazioni su co
   <tr> 
    <td> WKF -560246 - Chiave dell'intestazione HTTP non valida (chiave intestazione: ' % s ').</td> 
    <td> <p>La chiave dell'intestazione HTTP è negativa (chiave intestazione: ' % s ').</p>
-   <p> Nota: Questo errore viene registrato quando la chiave dell'intestazione personalizzata non riesce in base a [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF -560248: la chiave dell'intestazione HTTP non è consentita (chiave intestazione: ' % s ').</td> 
@@ -206,7 +206,7 @@ Questi messaggi di registro vengono utilizzati per registrare informazioni su co
   <tr> 
    <td> WKF -560247 - Il valore dell'intestazione AHTTP è errato (valore dell'intestazione: ' % s ').</td> 
    <td> <p>Il valore dell'intestazione HTTP è errato (valore dell'intestazione: ' % s '). </p>
-    <p>Nota: Questo errore viene registrato quando il valore dell'intestazione personalizzato non riesce in base a [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF -560240 - payload JSON non ha proprietà valida '% s '.</td> 
