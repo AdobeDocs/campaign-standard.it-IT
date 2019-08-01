@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcn 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
+source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
 
 ---
 
@@ -484,7 +484,7 @@ L'integrazione di Adobe Campaign Standard con Dreamweaver consente di modificare
 
 * **Aggiungere la personalizzazione delle campagne in Dreamweaver**
 
-   For the email developer there is no longer a need to add text like [[FIRSTNAME_PLACEHOLDER]] nor to look up the syntax of your data model’s tables. La barra degli strumenti Campagna di Dreamweaver si collega direttamente al modello dati dell'istanza Campaign. Ciò significa che puoi inserire tutti i dati che desideri personalizzare da un qualcosa come Nome a Indirizzo. Se avete creato blocchi di contenuto in Campaign, potete anche estrarre quelli direttamente in Dreamweaver.
+   For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. La barra degli strumenti Campagna di Dreamweaver si collega direttamente al modello dati dell'istanza Campaign. Ciò significa che puoi inserire tutti i dati che desideri personalizzare da un qualcosa come Nome a Indirizzo. Se avete creato blocchi di contenuto in Campaign, potete anche estrarre quelli direttamente in Dreamweaver.
 
 This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
 
