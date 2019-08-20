@@ -14,14 +14,14 @@ discoiquuid: 4337 a 80 b -0 fb 9-4 a 37-postal 3-fe 2121 a 66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
 
 ---
 
 
-# Fatigue rules{#fatigue-rules}
+# Regole di affaticamento{#fatigue-rules}
 
-## About fatigue rules {#about-fatigue-rules}
+## Informazioni sulle regole di affaticamento {#about-fatigue-rules}
 
 Le regole di affaticamento consentono agli esperti di marketing di impostare regole aziendali multicanale globali che escluderanno automaticamente i profili superflui dalle campagne.
 
@@ -37,41 +37,41 @@ Argomenti correlati:
 * [Gestione di tipologie](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Regole per i tipi di telefono](../../administration/using/about-typology-rules.md#typology-rules)
 
-## Creating a fatigue rule {#creating-a-fatigue-rule}
+## Creazione di una regola di tipo fatigue {#creating-a-fatigue-rule}
 
-To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the following steps:
+Per creare e configurare una regola **[!UICONTROL Fatigue]** di tipo tipologia, effettuate le seguenti operazioni:
 
-1. Click the Adobe Campaign logo, in the top left corner of the interface, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
+1. Fai clic sul logo Adobe Campaign, nell'angolo in alto a sinistra dell'interfaccia, quindi seleziona **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 
-1. From the list of typology rules, click **[!UICONTROL Create]**.
+1. Dall'elenco delle regole di composizione, fate clic **[!UICONTROL Create]** su.
 
    ![](assets/fatigue.png)
 
-1. In the **[!UICONTROL Rule type]** field, select **[!UICONTROL Fatigue]**.
+1. Nel **[!UICONTROL Rule type]** campo, selezionare **[!UICONTROL Fatigue]**.
 
    ![](assets/fatigue3.png)
 
-1. In the **[!UICONTROL Channel]** field, select which channel your rule will apply to. You can either select a single channel (email, SMS, direct mail, mobile application) or select **[!UICONTROL All channels]**. See [Choosing the channel](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. Nel **[!UICONTROL Channel]** campo, selezionate il canale a cui applicare la regola. Puoi selezionare un singolo canale (e-mail, SMS, posta diretta, applicazione mobile) o selezionare **[!UICONTROL All channels]**. Consultate [Scelta del canale](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
    ![](assets/fatigue5.png)
 
-1. In the **[!UICONTROL General]** tab, define the method for calculating the maximum number of messages per profile. Potete scegliere una soglia costante o una variabile. Puoi anche definire la soglia per i profili e le consegne. For more on this, refer to [Defining the threshold](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. Nella **[!UICONTROL General]** scheda, definire il metodo per calcolare il numero massimo di messaggi per profilo. Potete scegliere una soglia costante o una variabile. Puoi anche definire la soglia per i profili e le consegne. Per ulteriori informazioni, consultate [Definizione della soglia](../../administration/using/fatigue-rules.md#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
-1. Choose a **[!UICONTROL Sliding period]** on which the typology rule will apply. For more on this, refer to [Setting the sliding period](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. Scegliete una **[!UICONTROL Sliding period]** su cui applicare la regola relativa alla tipologia. Per ulteriori informazioni, consultate [Impostazione del periodo di scorrimento](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
 
    ![](assets/fatigue6.png)
 
    In questo esempio (vedere le videate precedenti), scegliamo di inviare un numero massimo di 4 messaggi in un periodo di 15 giorni.
 
-1. In the **[!UICONTROL Application criteria]** tab, you can choose to apply this rule to all deliveries or restrict the applicability of the rule according to the message to send. La regola viene eseguita solo se la condizione dell'applicazione è soddisfatta. Ad esempio, è possibile applicare la regola solo sui messaggi con un'etichetta che inizia con una determinata parola o con un ID che contiene determinate lettere. See [Restricting the applicability of a filtering rule](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
+1. Nella **[!UICONTROL Application criteria]** scheda, potete scegliere di applicare questa regola a tutte le consegne o limitare l'applicabilità della regola in base al messaggio da inviare. La regola viene eseguita solo se la condizione dell'applicazione è soddisfatta. Ad esempio, è possibile applicare la regola solo sui messaggi con un'etichetta che inizia con una determinata parola o con un ID che contiene determinate lettere. Consultate [Limitazione dell'applicabilità di una regola di filtro](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
 
    ![](assets/fatigue20.png)
 
-1. Select the **[!UICONTROL Typologies]** tab and link your typology rule to the typology used for your deliveries. See [Managing typologies](../../administration/using/about-typology-rules.md#managing-typologies) and [Typology rules](../../administration/using/about-typology-rules.md#typology-rules).
+1. Selezionate la **[!UICONTROL Typologies]** scheda e collegate la regola di digitazione al testo usato per le consegne. Consultate [Gestione di tipolazioni](../../administration/using/about-typology-rules.md#managing-typologies) e [regole Typology](../../administration/using/about-typology-rules.md#typology-rules).
 
    ![](assets/fatigue12.png)
 
@@ -79,7 +79,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
    >
    >La tipologia può essere definita nel modello di consegna, da applicare automaticamente a tutte le consegne create con questo modello.
 
-Durante la preparazione di consegna, i profili sono esclusi dalla consegna, se applicabile, in base al numero di consegne già inviate. Potete visualizzare i risultati dell'esecuzione della regola fatigue nei registri di consegna. See [Viewing the fatigue results](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results).
+Durante la preparazione di consegna, i profili sono esclusi dalla consegna, se applicabile, in base al numero di consegne già inviate. Potete visualizzare i risultati dell'esecuzione della regola fatigue nei registri di consegna. Consultate [Visualizzazione dei risultati](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results)di affaticamento.
 
 ![](assets/fatigue16.png)
 
@@ -87,9 +87,9 @@ Durante la preparazione di consegna, i profili sono esclusi dalla consegna, se a
 >
 >Affinché le regole di affaticamento funzionino, è necessario definire una data di contatto per la distribuzione. Se scegli di inviare subito i messaggi, la regola di affaticamento non verrà applicata.
 
-## Choosing the channel {#choosing-the-channel}
+## Scelta del canale {#choosing-the-channel}
 
-Sono disponibili regole di affaticamento per diversi canali. The channel is defined in the **[!UICONTROL Channel]** field of the typology rule settings. You can either select a single channel or select **[!UICONTROL All channels]**.
+Sono disponibili regole di affaticamento per diversi canali. Il canale è definito nel **[!UICONTROL Channel]** campo delle impostazioni delle regole di composizione. Potete selezionare un singolo canale o selezionare **[!UICONTROL All channels]**.
 
 ![](assets/fatigue5.png)
 
@@ -112,9 +112,9 @@ Sono disponibili i seguenti canali:
 
 Le regole di affaticamento sono compatibili con tutti i tipi di consegna: consegne una tantum, consegne ricorrenti, consegne di flussi di lavoro e messaggi transazionali.
 
-**I messaggi transazionali** possono essere utilizzati per inviare messaggi del servizio mirati a un evento (rtevent) nonché ai messaggi di marketing (profili di targeting), ad esempio un messaggio di remarketing. Le regole di fatigue sono compatibili solo con i messaggi di marketing (profili di targeting). I messaggi transazionali degli eventi non contengono informazioni sul profilo, pertanto non sono compatibili con le regole di affaticamento (anche nel caso di un arricchimento con profili). With the support of marketing messages in transactional messaging, you can **apply a fatigue rule to all channels including marketing transactional messages**.
+**I messaggi transazionali** possono essere utilizzati per inviare messaggi del servizio mirati a un evento (rtevent) nonché ai messaggi di marketing (profili di targeting), ad esempio un messaggio di remarketing. Le regole di fatigue sono compatibili solo con i messaggi di marketing (profili di targeting). I messaggi transazionali degli eventi non contengono informazioni sul profilo, pertanto non sono compatibili con le regole di affaticamento (anche nel caso di un arricchimento con profili). Grazie al supporto dei messaggi di marketing nei messaggi transazionali, puoi **applicare una regola fatigue a tutti i canali, compresi i messaggi transazionali di marketing**.
 
-## Defining the threshold {#defining-the-threshold}
+## Definizione della soglia {#defining-the-threshold}
 
 Ogni regola di affaticamento definisce una soglia, ovvero il numero massimo di messaggi che possono essere inviati a un profilo in un determinato periodo. Una volta raggiunta questa soglia, non sarà più possibile eseguire consegne fino alla fine del periodo considerato. Questo processo consente di escludere automaticamente un profilo da una consegna se un messaggio supera la soglia del set, evitando così eccessiva precauzione.
 
@@ -130,48 +130,48 @@ Per impostazione predefinita, la soglia è costante e è necessario indicare un 
 
 **Utilizzo di una soglia variabile**
 
-To define a variable threshold, select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field.
+Per definire una soglia di variabile, selezionare il **[!UICONTROL Depends on the recipient]** valore nel **[!UICONTROL Threshold type]** campo.
 
 ![](assets/fatigue15.png)
 
 Sono quindi disponibili due opzioni:
 
-* selezionare un campo profilo: la soglia varia per ogni profilo in base al campo selezionato. For example, if you have extended the profiles resource with a 'Communication frequency' field, click the button on the right of the **[!UICONTROL Threshold computation formula]** field and select your field. Per ogni profilo, la soglia assumerà il valore del campo «Communication Frequency».
+* selezionare un campo profilo: la soglia varia per ogni profilo in base al campo selezionato. Ad esempio, se avete esteso la risorsa dei profili con un campo «Frequenza communication», fate clic sul pulsante a destra del **[!UICONTROL Threshold computation formula]** campo e selezionate il campo. Per ogni profilo, la soglia assumerà il valore del campo «Communication Frequency».
 
    ![](assets/fatigue21.png)
 
-* define a formula: click the second button on the right of the **[!UICONTROL Threshold computation formula]** field to define an advanced threshold calculation formula. Ad esempio, puoi indicizzare il numero di messaggi autorizzati in base al segmento a cui appartiene il profilo. Ciò significa che un profilo appartenente al segmento Web potrebbe ricevere più messaggi rispetto ad altri profili. An **[!UICONTROL Iif (@origin='Web', 5, 3)]** type formula authorizes the delivery of 5 messages to profiles of the Web segment and 3 for other segments.
+* definire una formula: fare clic sul secondo pulsante sul lato destro del **[!UICONTROL Threshold computation formula]** campo per definire una formula di calcolo della soglia avanzata. Ad esempio, puoi indicizzare il numero di messaggi autorizzati in base al segmento a cui appartiene il profilo. Ciò significa che un profilo appartenente al segmento Web potrebbe ricevere più messaggi rispetto ad altri profili. Una **[!UICONTROL Iif (@origin='Web', 5, 3)]** formula di tipo autorizza l'invio di 5 messaggi ai profili del segmento Web e 3 per altri segmenti.
 
    ![](assets/fatigue14.png)
 
 **Miglioramento della soglia di profili e consegne**
 
-Per impostazione predefinita, tutti i messaggi sono presi in considerazione per il calcolo della soglia. Check the **[!UICONTROL Refine Threshold on profiles and deliveries]** box to filter the profiles and deliveries to count when preparing the delivery.
+Per impostazione predefinita, tutti i messaggi sono presi in considerazione per il calcolo della soglia. Selezionate **[!UICONTROL Refine Threshold on profiles and deliveries]** la casella per filtrare i profili e le consegne al momento della preparazione della distribuzione.
 
-In the following example, only male profiles are counted and only deliveries with a label starting with **Newsletters** are counted.
+Nell'esempio seguente, vengono conteggiati solo i profili maschile e vengono conteggiati solo le consegne con un'etichetta che inizia con **le newsletter** .
 
 ![](assets/fatigue13.png)
 
-Refining the threshold on deliveries is different than restricting the applicability of the entire rule ( **[!UICONTROL Application criteria]** tab):
+La modifica della soglia delle consegne è diversa dall'applicazione dell'intera regola ( **[!UICONTROL Application criteria]** tabulazione):
 
 * **[!UICONTROL Application criteria]**: scegliete di eseguire la regola o non in base a criteri specifici. Ad esempio, se la condizione dell'applicazione è'Etichetta inizia con Newsletter ', la regola si applica solo alle consegne che rispettano questa condizione. Se l'etichetta della consegna inizia con «Promozione», la regola non viene eseguita.
 * **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: Tutte le consegne che utilizzano questa regola di tipologia eseguiranno la regola, ma tu decidi, tra le consegne passate e pianificate, quali desideri conteggiare. Ad esempio, se la restrizione è'Etichetta inizia con Newsletter ', la regola verrà eseguita anche se l'etichetta di consegna inizia con «Promo». Esso conta, nel periodo scorrevole selezionato, il numero di consegne la cui etichetta inizia con'Newsletter '.
 
-## Setting the sliding period {#setting-the-sliding-period}
+## Impostazione del periodo scorrevole {#setting-the-sliding-period}
 
-Le regole di fatigue sono definite nei periodi di scorrimento n-day. The period is configured in the **[!UICONTROL Sliding period]** section, for example 2 weeks, 7 days or 5 hours.
+Le regole di fatigue sono definite nei periodi di scorrimento n-day. Il periodo è configurato nella **[!UICONTROL Sliding period]** sezione, ad esempio 2 settimane, 7 giorni o 5 ore.
 
 ![](assets/fatigue6.png)
 
 Quando la regola viene eseguita, vengono prese in considerazione sia le consegne passate che quelle pianificate. Questo garantisce che, in un determinato periodo di scorrimento, la soglia non venga mai superata.
 
-For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date ** and 48 hours **after the contact date**. Pertanto, il periodo selezionato viene raddoppiato per consentire l'integrazione delle consegne future e di quelle precedenti.
+Ad esempio, se si definisce un periodo di 48 ore, il sistema avrà una durata di 48 ore **prima della data di contatto** e 48 ore **dopo la data di contatto**. Pertanto, il periodo selezionato viene raddoppiato per consentire l'integrazione delle consegne future e di quelle precedenti.
 
-To restrict the deliveries taken into account to a 2-week period, enter **Day** and **7** or 1 week in the **Sliding period** section. Nel calcolo vengono prese in considerazione le consegne inviate fino a 7 giorni prima della data di consegna e pianificate fino a 7 giorni dopo la data di consegna in cui viene applicata la regola.
+Per limitare le consegne considerate a un periodo di 2 settimane, immettere **Giorno** e **7** o 1 settimane **nella** sezione Periodo di scorrimento. Nel calcolo vengono prese in considerazione le consegne inviate fino a 7 giorni prima della data di consegna e pianificate fino a 7 giorni dopo la data di consegna in cui viene applicata la regola.
 
-## Viewing the fatigue results {#viewing-the-fatigue-results}
+## Visualizzazione dei risultati di affaticamento {#viewing-the-fatigue-results}
 
-Durante la preparazione di consegna, i profili sono esclusi dalla consegna, se applicabile, in base al numero di consegne già inviate. To view fatigue rule execution results, click the button in the bottom right corner of the **[!UICONTROL Deployment]** block.
+Durante la preparazione di consegna, i profili sono esclusi dalla consegna, se applicabile, in base al numero di consegne già inviate. Per visualizzare i risultati di esecuzione della regola fatigue, fate clic sul pulsante nell'angolo inferiore destro del **[!UICONTROL Deployment]** blocco.
 
 ![](assets/fatigue22.png)
 
@@ -189,7 +189,7 @@ Sono disponibili tre schede, che mostrano i dettagli dei risultati di esecuzione
 
    ![](assets/fatigue19.png)
 
-## Viewing the fatigue rule summary report {#viewing-the-fatigue-rule-summary-report}
+## Visualizzazione del rapporto di riepilogo delle regole di affaticamento {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign offre un rapporto dedicato sulle regole di affaticamento per aiutarti a capire come vengono applicati alle tue campagne. Questo consente di imparare in che modo le campagne influiscono l'un l'altro e di apportare le regolazioni corrette.
 
@@ -218,11 +218,11 @@ Nella tabella inferiore sono visualizzate tutte le consegne nel periodo selezion
 >
 >I dati visualizzati non sono contestuali per il programma, il messaggio o la campagna da cui accedete al report. Questo rapporto visualizza tutte le regole e le consegne di affaticamento per tutte le unità aziendali. In questo modo potete ottenere una visualizzazione globale di tutte le consegne per comprendere in che modo le campagne vengono influenzate da altri.
 
-## Examples {#examples}
+## Esempi {#examples}
 
 Esistono diverse opzioni per l'implementazione di gestione affaticata. Di seguito sono riportati alcuni esempi di ciò che potete fare:
 
-* Create a fatigue rule using a **constant threshold** that applies to **all channels**:
+* Create una regola di fatigue **utilizzando una soglia** costante applicata **a tutti i canali**:
 
    Supponiamo che crei una regola multicanale con una soglia costante di 3 per un periodo di 7 giorni.
 
@@ -230,15 +230,15 @@ Esistono diverse opzioni per l'implementazione di gestione affaticata. Di seguit
 
    ![](assets/fatigue23.png)
 
-* Create a fatigue rule using a **variable threshold** based on a **profile field**:
+* Crea una regola di affaticamento utilizzando una **soglia variabile** basata su **un campo profilo**:
 
    Hai esteso la risorsa dei profili con un campo «Limite communication», per definire una soglia diversa per ogni profilo. Nella regola di affaticamento, definite una soglia variabile basata su questo campo e selezionate un periodo di 2 giorni. Prendiamo due esempi di profili: John ha un limite di comunicazione pari a 1 e David ha una soglia pari a 2. Entrambe le sessioni hanno già ricevuto un messaggio e-mail per la newsletter ieri. Decidi di inviare un'altra e-mail oggi stesso. Solo David la riceverà, perché John è stato escluso dalla destinazione.
 
    ![](assets/fatigue24.png)
 
-* Create a fatigue rule using a **threshold computation formula**:
+* Create una regola di fatigue utilizzando una **formula di calcolo della soglia**:
 
-   Vuoi modificare la soglia in base all'età dei tuoi profili. Se un profilo è inferiore a 40, si desidera definire un limite di 4 e per i profili precedenti, un limite di 2. Invece di definire questa soglia per ogni profilo con un campo esteso, puoi creare una formula direttamente nella regola di affaticamento per calcolare la soglia in base ai profili dell'età. In our example, the formula would be **[!UICONTROL Iif (@age<40, 4, 2)]**.
+   Vuoi modificare la soglia in base all'età dei tuoi profili. Se un profilo è inferiore a 40, si desidera definire un limite di 4 e per i profili precedenti, un limite di 2. Invece di definire questa soglia per ogni profilo con un campo esteso, puoi creare una formula direttamente nella regola di affaticamento per calcolare la soglia in base ai profili dell'età. Nell'esempio, la formula **[!UICONTROL Iif (@age<40, 4, 2)]** sarebbe.
 
    ![](assets/fatigue25.png)
 
@@ -246,7 +246,7 @@ Esistono diverse opzioni per l'implementazione di gestione affaticata. Di seguit
    >
    >Questa sezione include anche un esempio passo passo di una regola di affaticamento utilizzando una formula di calcolo della soglia.
 
-* Create a fatigue rule that **refines the threshold** on profiles and deliveries:
+* Crea una regola di affaticamento che **regola la soglia** su profili e consegne:
 
    Hai esteso la risorsa dei profili con un campo «Score» e hai esteso anche la risorsa delle consegne con un campo «Tipo». Desiderate definire una soglia costante pari a 3, ma escludere dal conteggio tutte le consegne del tipo "Alert" o "Black Friday" e tutti i profili con un punteggio maggiore di 10. Quando la regola viene eseguita, verrà conteggiata, tra le consegne passate e pianificate, tutte le consegne che non sono del tipo Alert (Avviso) o «Black Friday» inviato a profili il cui punteggio è inferiore a 10.
 
@@ -256,35 +256,35 @@ Ecco un esempio passo-passo di una regola di affaticamento utilizzando una formu
 
 In questo caso d'uso, desideriamo creare una regola di tipo tipologico per impedire la consegna di più di 2 messaggi settimanali a profili premium e 2 messaggi settimanali ai profili standard.
 
-To identify customers and prospects, we extended the profiles resource with the **[!UICONTROL Status]** field, which contains 0 for premium profiles and 1 for standard profiles.
+Per identificare clienti e potenziali clienti, abbiamo esteso la risorsa dei profili con il **[!UICONTROL Status]** campo, che contiene 0 per i profili premium e 1 per i profili standard.
 
 Per creare la regola, effettuate le seguenti operazioni:
 
-1. Create a new **Fatigue** type typology rule.
-1. In the **[!UICONTROL Threshold]** section, we want to create a formula to calculate the threshold depending on each profile. Select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field, then click the icon the second button on the right of the **[!UICONTROL Threshold computation formula]** field.
+1. Create una nuova **regola di tipo Tipo fatigue** .
+1. Nella **[!UICONTROL Threshold]** sezione, vogliamo creare una formula per calcolare la soglia a seconda di ciascun profilo. Selezionate il **[!UICONTROL Depends on the recipient]** valore nel **[!UICONTROL Threshold type]** campo, quindi fate clic sull'icona il secondo pulsante sul lato destro del **[!UICONTROL Threshold computation formula]** campo.
 
    ![](assets/fatigue7.png)
 
-1. In the **[!UICONTROL List of functions]** section, double-click the **Iif** function in the **[!UICONTROL Others]** node.
+1. Nella **[!UICONTROL List of functions]** sezione, fare doppio clic sulla **funzione Iif** nel **[!UICONTROL Others]** nodo.
 
    ![](assets/fatigue8.png)
 
-1. Then select the profile's **Status** in the **[!UICONTROL Available fields]** section.
+1. Quindi selezionate **lo stato del profilo** nella **[!UICONTROL Available fields]** sezione.
 
    ![](assets/fatigue9.png)
 
-1. Enter the desired values to create the following formula: **Iif(@status=0,2,4)**
+1. Inserite i valori desiderati per creare la formula seguente: **Iif (@ status = 0,2,4)**
 
    ![](assets/fatigue10.png)
 
    Questa formula consente di assegnare il valore 2 se lo stato è uguale a 0 e il valore 4 per tutti gli altri stati.
 
-1. Click **[!UICONTROL Confirm]** to approve the formula.
-1. Indicate the **[!UICONTROL Sliding period]** on which the rule will apply: 7 days in this case, to restrict the deliveries taken into account to a 2-week period.
+1. Fate clic per **[!UICONTROL Confirm]** approvare la formula.
+1. Indica il **[!UICONTROL Sliding period]** punto in cui applicare la regola: 7 giorni in questo caso, per limitare le consegne considerate a un periodo di 2 settimane.
 
    ![](assets/fatigue11.png)
 
-1. Ora collegate la regola appena creata a una tipologia per applicarla alle consegne. To do this, select the **[!UICONTROL Typologies]** tab, click **[!UICONTROL Create element]** and select the typology used for your deliveries.
+1. Ora collegate la regola appena creata a una tipologia per applicarla alle consegne. A tal fine, selezionate la **[!UICONTROL Typologies]** scheda, fate clic **[!UICONTROL Create element]** e selezionate il testo usato per le consegne.
 
    ![](assets/fatigue12.png)
 
