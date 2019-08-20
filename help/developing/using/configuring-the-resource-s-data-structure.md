@@ -15,16 +15,16 @@ context-tags: Cusresource, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
+source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
 
 ---
 
 
-# Configuring the resource's data structure{#configuring-the-resource-s-data-structure}
+# Configurazione della struttura dati della risorsa{#configuring-the-resource-s-data-structure}
 
 Dopo aver creato una nuova risorsa personalizzata, è necessario configurare la struttura dati.
 
-When editing the resource, in the **[!UICONTROL Data structure]** tab, you can add:
+Quando si modifica la risorsa, nella **[!UICONTROL Data structure]** scheda è possibile aggiungere:
 
 * [Campi](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)
 * [Tasti di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
@@ -32,81 +32,81 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
 * [Collegamenti](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 * [Invio di registri](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-## Adding fields to a resource {#adding-fields-to-a-resource}
+## Aggiunta di campi a una risorsa {#adding-fields-to-a-resource}
 
 È possibile aggiungere nuovi campi a una risorsa per memorizzare dati che non fanno parte del modello dati della casella.
 
-1. Use the **[!UICONTROL Create element]** button to create a field.
+1. Utilizzare **[!UICONTROL Create element]** il pulsante per creare un campo.
 1. Specificate un'etichetta, un ID, un tipo di campo e definite la lunghezza massima consentita per questo campo.
 
    **[!UICONTROL ID]** Il campo è obbligatorio e deve essere univoco per ogni campo aggiunto.
 
    >[!NOTE]
    >
-   >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
+   >Se lasciate vuoto **[!UICONTROL Label]** il campo, questo verrà automaticamente completato dall'ID.
    >È consigliabile utilizzare il massimo di 30 caratteri.
 
    ![](assets/schema_extension_4.png)
 
-1. To modify one of the fields, check the **[!UICONTROL Edit Properties]** button.
+1. Per modificare uno dei campi, controllare il **[!UICONTROL Edit Properties]** pulsante.
 
    ![](assets/schema_extension_24.png)
 
-1. In the **[!UICONTROL Field definition]** screen, you can define a category that will be used for the audience and targeting, or even add a description.
+1. Nella **[!UICONTROL Field definition]** schermata, puoi definire una categoria che verrà utilizzata per l'audience e il targeting o anche aggiungere una descrizione.
 
    ![](assets/schema_extension_5.png)
 
-1. Check the **[!UICONTROL Specify a list of authorized values]** option if you need to define values that will be offered to the user (enumeration values).
+1. Controllare **[!UICONTROL Specify a list of authorized values]** l'opzione se è necessario definire i valori che verranno offerti all'utente (valori di enumerazione).
 
-   Then, click **[!UICONTROL Create element]** and specify a **[!UICONTROL Label]** and **[!UICONTROL Value]**. Aggiungere tutti i valori necessari.
+   Quindi, fate clic **[!UICONTROL Create element]** su e specificate un e **[!UICONTROL Label]****[!UICONTROL Value]**. Aggiungere tutti i valori necessari.
 
-1. Once you have added your fields, check the **[!UICONTROL Add audit fields]** box to include fields detailing the creation date, the user that created the resource, the date, and the author of the last modification.
-1. Check the **[!UICONTROL Add access authorization management fields]** box to include the fields stating who has access rights to that particular resource.
+1. Dopo aver aggiunto i campi, controllate la **[!UICONTROL Add audit fields]** casella per includere i campi che contengono la data di creazione, l'utente che ha creato la risorsa, la data e l'autore dell'ultima modifica.
+1. Selezionate **[!UICONTROL Add access authorization management fields]** la casella per includere i campi che contengono i diritti di accesso a quella particolare risorsa.
 
-   Questi campi vengono visualizzati nei dati e nei metadati che possono essere visualizzati una volta che l'aggiornamento del database è stato eseguito. For more on this, refer to the [Updating the database structure](../../developing/using/updating-the-database-structure.md) section.
+   Questi campi vengono visualizzati nei dati e nei metadati che possono essere visualizzati una volta che l'aggiornamento del database è stato eseguito. Per ulteriori informazioni, consultate [la sezione Aggiornamento della struttura del](../../developing/using/updating-the-database-structure.md) database.
 
-1. Check the **[!UICONTROL Add automatic ID]** field to automatically generate an ID. Tenete presente che le entità esistenti rimarranno vuote.
-1. To modify the way in which the name of the resource elements will appear in the lists and creation steps, check the **[!UICONTROL Personalize the resource title]** box. Selezionate un campo da quelli creati per la risorsa.
+1. Selezionate **[!UICONTROL Add automatic ID]** il campo per generare automaticamente un ID. Tenete presente che le entità esistenti rimarranno vuote.
+1. Per modificare il modo in cui il nome degli elementi delle risorse verrà visualizzato negli elenchi e nei passaggi di creazione, controllate la **[!UICONTROL Personalize the resource title]** casella. Selezionate un campo da quelli creati per la risorsa.
 
    ![](assets/schema_extension_18.png)
 
 I campi della risorsa sono ora definiti.
 
-## Defining identification keys {#defining-identification-keys}
+## Definizione delle chiavi di identificazione {#defining-identification-keys}
 
 Ciascuna risorsa deve avere almeno una chiave univoca. Ad esempio, è possibile specificare una chiave in modo che due prodotti non abbiano lo stesso ID in una tabella di acquisto.
 
-1. Specify it in the **[!UICONTROL Automatic primary key]** section the size for the storage if you would like to have a technical key automatically and incrementally generated.
+1. Specificatela nella **[!UICONTROL Automatic primary key]** sezione per la memorizzazione se desiderate che una chiave tecnica sia generata automaticamente e in modo incrementale.
 
    ![](assets/schema_extension_6.png)
 
-1. Use the **[!UICONTROL Create element]** button to create a key.
+1. Usate **[!UICONTROL Create element]** il pulsante per creare una chiave.
 
-   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+   I **[!UICONTROL Label]** campi sono **[!UICONTROL ID]** completati per impostazione predefinita, ma potete modificarli.
 
    >[!NOTE]
    >
    >È consigliabile utilizzare il massimo di 30 caratteri.
 
-1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
+1. Per definire gli elementi che compongono questa chiave, fate clic **[!UICONTROL Create element]** su e selezionate i campi creati per la risorsa.
 
    ![](assets/schema_extension_7.png)
 
-   Created keys are displayed in the **[!UICONTROL Custom keys]** section.
+   Le chiavi create vengono visualizzate nella **[!UICONTROL Custom keys]** sezione.
 
 Vengono ora create le chiavi di identificazione per la risorsa.
 
-## Defining indexes {#defining-indexes}
+## Definizione di indici {#defining-indexes}
 
 Un indice può fare riferimento a uno o più campi di risorse. Gli indici consentono al database di ordinare i record per riutilizzarli più facilmente. Essi ottimizzano le prestazioni delle query SQL.
 
 La definizione degli indici è consigliata ma non obbligatoria.
 
-1. Use the **[!UICONTROL Create element]** button to create an index.
+1. Utilizzate **[!UICONTROL Create element]** il pulsante per creare un indice.
 
    ![](assets/schema_extension_26.png)
 
-1. The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+1. I **[!UICONTROL Label]** campi sono **[!UICONTROL ID]** completati per impostazione predefinita, ma potete modificarli.
 
    >[!NOTE]
    >
@@ -118,33 +118,33 @@ La definizione degli indici è consigliata ma non obbligatoria.
 
 1. Click **[!UICONTROL Confirm]**.
 
-The indexes that were created appear in the list in the **[!UICONTROL Index]** section.
+Gli indici creati vengono visualizzati nell'elenco nella **[!UICONTROL Index]** sezione.
 
-## Defining links with other resources {#defining-links-with-other-resources}
+## Definizione di collegamenti con altre risorse {#defining-links-with-other-resources}
 
 Un collegamento indica l'associazione di una tabella con altre tabelle.
 
-1. Use the **[!UICONTROL Create element]** button to create a link to a target resource.
+1. Usate **[!UICONTROL Create element]** il pulsante per creare un collegamento a una risorsa di destinazione.
 1. Click **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
 1. Le risorse vengono visualizzate in ordine alfabetico e possono essere filtrate per nome. Il nome tecnico viene visualizzato tra parentesi.
 
-   Select an element from the list and click **[!UICONTROL Confirm]**.
+   Selezionate un elemento dall'elenco e fate clic **[!UICONTROL Confirm]** su.
 
    ![](assets/schema_extension_9.png)
 
-1. Select the **[!UICONTROL Link type]** according to cardinality. A seconda del tipo di sottolineatura selezionato, il comportamento se i record vengono eliminati o duplicati può variare.
+1. Selezionate i **[!UICONTROL Link type]** criteri in base alla cardinalità. A seconda del tipo di sottolineatura selezionato, il comportamento se i record vengono eliminati o duplicati può variare.
 
    I vari tipi di collegamento sono i seguenti:
 
    * **[!UICONTROL 1 cardinality simple link]**: Un'occorrenza della tabella di origine può avere al massimo un'occorrenza corrispondente della tabella di destinazione.
    * **[!UICONTROL N cardinality collection link]**: Un'occorrenza della tabella di origine può avere diverse occorrenze corrispondenti della tabella di destinazione, ma una occorrenza della tabella di destinazione può avere al massimo un'occorrenza corrispondente della tabella di origine.
-   * **[!UICONTROL 0 or 1 cardinality simple link]**: Un'occorrenza della tabella di origine può avere al massimo un'occorrenza corrispondente della tabella di destinazione o nessuno. Note that this kind of **[!UICONTROL Link type]** can cause performance issue.
+   * **[!UICONTROL 0 or 1 cardinality simple link]**: Un'occorrenza della tabella di origine può avere al massimo un'occorrenza corrispondente della tabella di destinazione o nessuno. Tenete presente che questo tipo di **[!UICONTROL Link type]** prestazioni può causare problemi di prestazioni.
    ![](assets/schema_extension_29.png)
 
-1. In the **[!UICONTROL New link]** screen, the **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+1. Nella **[!UICONTROL New link]** schermata, i campi **[!UICONTROL Label]** sono **[!UICONTROL ID]** completati per impostazione predefinita, ma potete modificarli.
 
    >[!NOTE]
    >
@@ -155,61 +155,61 @@ Un collegamento indica l'associazione di una tabella con altre tabelle.
    >Non è possibile rinominare un collegamento dopo la creazione. Per rinominare un collegamento, è necessario eliminarlo e crearlo di nuovo.
 
 1. **[!UICONTROL Category for the audience and targeting]** L'elenco consente di assegnare questo collegamento a una categoria che lo rende più visibile nello strumento di query.
-1. If needed, the **[!UICONTROL Reverse link definition]** section allows you to display the label and ID of the resource in the targeted resource.
-1. Define the behavior of the records referenced by the link in the **[!UICONTROL Behavior if deleted/duplicated]** section.
+1. Se necessario, la **[!UICONTROL Reverse link definition]** sezione consente di visualizzare l'etichetta e l'ID della risorsa nella risorsa con targeting.
+1. Definire il comportamento dei record a cui fa riferimento il collegamento nella **[!UICONTROL Behavior if deleted/duplicated]** sezione.
 
    Per impostazione predefinita, il record di destinazione verrà eliminato una volta che il collegamento non viene più fatto riferimento.
 
    ![](assets/schema_extension_16.png)
 
-1. In the **[!UICONTROL Join definition]** section, the default **[!UICONTROL Use the primary keys to make the join]** option is selected but you can choose between two options:
+1. Nella **[!UICONTROL Join definition]** sezione, l'opzione predefinita **[!UICONTROL Use the primary keys to make the join]** è selezionata, ma è possibile scegliere tra due opzioni:
 
    * **[!UICONTROL Use the primary key to make the join]**: Questa definizione di partecipazione consente di utilizzare la chiave primaria dei profili per riconciliare con la chiave primaria degli acquisti.
-   * **[!UICONTROL Define specific join conditions]**: Questa definizione di partecipazione consente di selezionare manualmente i campi che verranno uniti a entrambe le risorse. Please note that if data are not correctly configured, the **Purchase** record will not be visible.
+   * **[!UICONTROL Define specific join conditions]**: Questa definizione di partecipazione consente di selezionare manualmente i campi che verranno uniti a entrambe le risorse. Se i dati non sono configurati correttamente, il **record acquisto** non sarà visibile.
    ![](assets/schema_extension_17.png)
 
-The links created are displayed in the list in the **[!UICONTROL Links]** section.
+I collegamenti creati vengono visualizzati nell'elenco nella **[!UICONTROL Links]** sezione.
 
 **Esempio: Collegare una risorsa creata con la risorsa «Profili»**
 
-In this example, we want to link a new resource **Purchase** with the **Profiles **custom resource:
+In questo esempio, desideriamo collegare un nuovo **acquisto delle risorse** con la **risorsa** personalizzata Profili:
 
-1. Create your new **Purchase** resource.
-1. To link it with the **Profiles** custom resource, unfold the **[!UICONTROL Links]** section in the **[!UICONTROL Data structure]** tab and click **[!UICONTROL Create element]**.
-1. Select the target resource, here **[!UICONTROL Profiles (profile)]**.
-1. In this example, keep the default **[!UICONTROL 1 cardinality simple link]** Link type selected.
+1. Create la nuova **risorsa di acquisto** .
+1. Per collegarlo alla risorsa personalizzata **Profili** , aprite la **[!UICONTROL Links]** sezione nella **[!UICONTROL Data structure]** scheda e fate clic **[!UICONTROL Create element]** su.
+1. Selezionate la risorsa di destinazione, qui **[!UICONTROL Profiles (profile)]**.
+1. In questo esempio, mantenere selezionato il tipo **[!UICONTROL 1 cardinality simple link]** di collegamento predefinito.
 
    ![](assets/custom_resource_link_to_profile_2.png)
 
-1. Choose a join definition, here keep the default **[!UICONTROL Use the primary key to make the join]**.
+1. Scegliete una definizione di partecipazione, quindi mantenete l'impostazione predefinita **[!UICONTROL Use the primary key to make the join]**.
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
-1. If needed, you can define a detail screen to be able to edit **Purchase** and link it to a profile.
+1. Se necessario, è possibile definire una schermata dei dettagli per modificare **l'acquisto** e collegarlo a un profilo.
 
-   Unfold the **[!UICONTROL Detail screen configuration]** section and check the **[!UICONTROL Define a detail screen]** to configure the screen that corresponds to each element of the resource. Se non selezionate questa casella, la visualizzazione dettagli degli elementi di questa risorsa non sarà accessibile.
+   Aprite la **[!UICONTROL Detail screen configuration]** sezione e selezionate la **[!UICONTROL Define a detail screen]** schermata che corrisponde a ciascun elemento della risorsa. Se non selezionate questa casella, la visualizzazione dettagli degli elementi di questa risorsa non sarà accessibile.
 
 1. Click **[!UICONTROL Create element]**.
-1. Select your linked resource and click **[!UICONTROL Add]**.
+1. Selezionate la risorsa collegata e fate clic **[!UICONTROL Add]** su.
 
-   Your new resource will then be available in the advanced menu by selecting **[!UICONTROL Client data]** &gt; **[!UICONTROL Purchase]**.
+   La nuova risorsa sarà quindi disponibile nel menu avanzato selezionando **[!UICONTROL Client data]** &gt; **[!UICONTROL Purchase]**.
 
    ![](assets/custom_resource_link_to_profile_4.png)
 
-1. Once your configuration is done, click **[!UICONTROL Confirm]**.
+1. Una volta effettuata la configurazione, fate clic **[!UICONTROL Confirm]** su.
 
    Ora potete pubblicare la nuova risorsa.
 
-By adding this link, a **Purchase** tab is added to the profiles detail screen from the **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Profiles]** menu. Please note that this is specific to the **[!UICONTROL Profile]** resource.
+Aggiungendo questo collegamento, viene aggiunta una scheda **Acquisto** alla schermata dei dettagli dei profili dal menu **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Profiles]** . Tenete presente che questo è specifico per **[!UICONTROL Profile]** la risorsa.
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## Defining sending logs extension {#defining-sending-logs-extension}
+## Definizione dell'estensione dei registri di invio {#defining-sending-logs-extension}
 
 L'estensione del registro di invio consente di:
 
-* to extend dynamic report capabilities by **adding profile custom fields**
-* to extend the sending logs data with **segment code and profile data**
+* per estendere le funzionalità di rapporti dinamiche **aggiungendo campi personalizzati del profilo**
+* per estendere i dati di registro con il codice **del segmento e i dati del profilo**
 
 **Estensione con un codice di segmento**
 
@@ -217,11 +217,11 @@ L'utente può estendere i registri con il codice del segmento proveniente dal mo
 
 Il codice del segmento deve essere definito nel flusso di lavoro.
 
-To activate this extension, check the option **[!UICONTROL Add segment code]**.
+Per attivare questa estensione, controllate l'opzione **[!UICONTROL Add segment code]**.
 
 ![](assets/sendinglogsextension_1.png)
 
-For more information on segment code, refer to the [Segmentation](../../automating/using/segmentation.md) section.
+Per ulteriori informazioni sul codice del segmento, consulta la sezione [Segmentazione](../../automating/using/segmentation.md) .
 
 **Estensione con un campo profilo**
 
@@ -231,27 +231,27 @@ For more information on segment code, refer to the [Segmentation](../../automati
 
 ![](assets/sendinglogsextension_2.png)
 
-Click **[!UICONTROL Add field]** and select any custom field from the profile resource.
+Fate clic **[!UICONTROL Add field]** su un campo personalizzato e selezionatelo dalla risorsa del profilo.
 
-In order to generate a new sub-dimension linked to the Profile dimension, check the **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** option.
+Per generare una nuova sottodimensione collegata alla dimensione Profilo, controlla l' **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** opzione.
 
 ![](assets/sendinglogsextension_3.png)
 
 Da Reporting dinamico, puoi trascinare e rilasciare la dimensione del campo personalizzato in una tabella a forma libera.
 
-For more information on Dynamic Reporting, refer to the [List of components](../../reporting/using/list-of-components-.md).
+Per ulteriori informazioni su Reporting dinamico, consulta l' [Elenco dei componenti](../../reporting/using/list-of-components-.md).
 
 >[!CAUTION]
 >
 >Il numero di campi inviati a Reporting dinamico è limitato a 20.
 
-## Editing resource properties {#editing-resource-properties}
+## Modifica delle proprietà delle risorse {#editing-resource-properties}
 
-In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the status of the newly created resource. Potete gestirne l'accesso e le proprietà generali.
+Nella schermata delle risorse personalizzate, il **[!UICONTROL Summary]** riquadro indica lo stato della risorsa appena creata. Potete gestirne l'accesso e le proprietà generali.
 
 ![](assets/schema_extension_3.png)
 
-1. Click the **[!UICONTROL Edit properties]** button to add a description.
+1. Fate clic **[!UICONTROL Edit properties]** sul pulsante per aggiungere una descrizione.
 
    ![](assets/schema_extension_30.png)
 
@@ -266,7 +266,7 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
 
 Le modifiche vengono salvate. È necessario pubblicare nuovamente la risorsa per applicarle.
 
-## Generating a unique ID for profiles and custom resources {#generating-a-unique-id-for-profiles-and-custom-resources}
+## Generazione di un ID univoco per profili e risorse personalizzate {#generating-a-unique-id-for-profiles-and-custom-resources}
 
 Per impostazione predefinita, i profili e le risorse personalizzate non hanno alcun ID aziendale al momento della creazione. Potete abilitare un'opzione che genera automaticamente un ID univoco quando vengono creati gli elementi. Questo ID può essere usato per:
 
@@ -276,12 +276,12 @@ Per impostazione predefinita, i profili e le risorse personalizzate non hanno al
 Può essere attivato solo per i profili e le risorse personalizzate.
 
 1. Create un'estensione alla risorsa dei profili o create una nuova risorsa.
-1. In the data structure definition, check the **[!UICONTROL Add automatic ID field]** option, under the **[!UICONTROL Fields]** section.
+1. Nella definizione della struttura dati, controllare **[!UICONTROL Add automatic ID field]** l'opzione sotto la **[!UICONTROL Fields]** sezione.
 1. Salvate e pubblicate la modifica apportata alla risorsa. Se desiderate che questo meccanismo venga applicato agli elementi creati tramite l'API, controllate l'opzione per estendere l'API.
 
-The **[!UICONTROL ACS ID]** field is now available and automatically populated when new elements are created manually, from the API, or inserted from an import workflow. Il campo ID ACS è un campo UUID ed è indicizzato.
+Il **[!UICONTROL ACS ID]** campo è ora disponibile e popolato automaticamente quando i nuovi elementi vengono creati manualmente, dall'API o inseriti da un flusso di lavoro di importazione. Il campo ID ACS è un campo UUID ed è indicizzato.
 
-When exporting profiles or custom resources, you can now add the **[!UICONTROL ACS ID]** column if it has been enabled for that resource. Puoi riutilizzare questo ID in strumenti esterni per identificare i record.
+Quando si esportano profili o risorse personalizzate, ora è possibile aggiungere la **[!UICONTROL ACS ID]** colonna se è stata abilitata per tale risorsa. Puoi riutilizzare questo ID in strumenti esterni per identificare i record.
 
 ![](assets/export_id_field.png)
 
