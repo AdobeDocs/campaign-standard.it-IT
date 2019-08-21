@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcn 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
+source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
 
 ---
 
@@ -125,7 +125,6 @@ Per ulteriori informazioni sulla conversione di un messaggio e-mail esistente in
 ### Limitazioni di Designer per e-mail {#email-designer-limitations}
 
 * Non è possibile utilizzare i campi di personalizzazione in un frammento. Per ulteriori informazioni sui frammenti, vedere [questa sezione](../../designing/using/defining-the-email-structure.md#about-fragments).
-* Non è possibile salvare direttamente come frammento alcuni contenuti di un'e-mail che si sta modificando in Email Designer. È necessario copiare e incollare il codice HTML corrispondente a tale contenuto in un nuovo frammento. Per ulteriori informazioni, vedere [Salvataggio del contenuto come frammento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Quando si modificano gli stili, sono disponibili solo i font Web ufficialmente supportati dalla maggior parte dei client e-mail.
 * Gli stili non possono essere salvati come tema per riuso futuro. Tuttavia, lo stile CSS può essere salvato in un modello di contenuto o in un messaggio e-mail. Per ulteriori informazioni sugli stili, [consultate questa sezione](../../designing/using/editing-email-styles.md).
 
