@@ -14,7 +14,7 @@ context-tags: flusso di lavoro, panoramica; flusso di lavoro, principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ Per ulteriori informazioni, consulta [Gestione dei pacchetti](../../automating/u
 
 ## Esportazione di elenchi{#exporting-lists}
 
-L'opzione Elenco di esportazione consente di esportare un massimo di 100,000 righe per impostazione predefinita e definite dall'opzione **Nms_ exportlistlimit**. Questa opzione può essere gestita dall'amministratore funzionale, in **Amministrazione** &gt; **Impostazioni applicazione** &gt; **Opzioni**.
+L'opzione Elenco di esportazione consente di esportare un massimo di 100,000 righe per impostazione predefinita e definite dall'opzione **Nms_ exportlistlimit**. Questa opzione può essere gestita dall'amministratore funzionale, in **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
 Per ulteriori informazioni, consultate [Esportazione di elenchi](../../automating/using/exporting-lists.md).
 
 ## Risoluzione dei problemi{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Per ulteriori informazioni, consultate [Monitorare l'esecuzione del flusso di la
 
 Potete analizzare le query SQL nella scheda Registro.
 
-1. Nell'area di lavoro del flusso di lavoro, fate clic **su Modifica proprietà**.
-1. **In Generale** &gt; **Esegui**, controllate **le query SQL nel registro** ed **Esegui nelle opzioni del motore** e fate clic **su Conferma**.
+1. Nell'area di lavoro del flusso di lavoro, fate clic **[!UICONTROL Edit properties]** su.
+1. In **[!UICONTROL General]** &gt; **[!UICONTROL Execution]**, controllate le **[!UICONTROL Save SQL queries in the log]****[!UICONTROL Execute in the engine]** opzioni e fate clic **[!UICONTROL Confirm]**.
 
 **Per visualizzare le query SQL nel registro:**
-1. Fate clic **su Registro e attività**.
-1. Nella scheda **Registro** , aprite il **pannello Ricerca** .
-1. Selezionate **Visualizza solo registri SQL**.
+1. Click **[!UICONTROL Log and Tasks]**.
+1. Aprire **[!UICONTROL Logs]** il **[!UICONTROL Search]** pannello nella scheda.
+1. Check **[!UICONTROL Display SQL logs only]**.
 
-La query viene visualizzata nella colonna **Messaggio** dei registri.
+La query viene visualizzata nella **[!UICONTROL Message]** colonna dei registri.
 
 ### Utilizzo dei registri di distribuzione{#using-delivery-logs}
 
