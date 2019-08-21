@@ -14,12 +14,12 @@ context-tags: flusso di lavoro, panoramica; flusso di lavoro, principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
+source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ---
 
 
-# Workflow best practices{#workflow-best-practices}
+# Best practice per il flusso di lavoro{#workflow-best-practices}
 
 Con Adobe Campaign, puoi configurare tutti i tipi di flusso di lavoro per eseguire un'ampia gamma di attività. Tuttavia, durante la progettazione e l'esecuzione dei flussi di lavoro, è necessario essere molto prudenti in quanto un'implementazione insoddisfacente può causare prestazioni, errori e problemi di piattaforma errati. Sotto un elenco di best practice e suggerimenti per la risoluzione di problemi.
 
@@ -27,7 +27,7 @@ Con Adobe Campaign, puoi configurare tutti i tipi di flusso di lavoro per esegui
 >
 >La progettazione e l'esecuzione del flusso di lavoro devono essere eseguite da un utente avanzato Adobe Campaign.
 
-## Naming{#naming}
+## Denominazione{#naming}
 
 Per semplificare la risoluzione dei problemi del flusso di lavoro, Adobe consiglia di assegnare un nome e etichettare esplicitamente i flussi di lavoro. Compilare il campo di descrizione del flusso di lavoro per riepilogare il processo da eseguire in modo che l'operatore possa facilmente comprenderlo.
 Se il flusso di lavoro fa parte di un processo che prevede più flussi di lavoro, puoi utilizzare i numeri per immetterli chiaramente.
@@ -40,13 +40,13 @@ Ad esempio:
 * 010 - Esportazione - Registri di consegna esportazione
 * 011 - Esportazione - Registri di tracciamento esportazione
 
-## Duplicating workflows{#duplicating-workflows}
+## Duplicazione dei flussi di lavoro{#duplicating-workflows}
 
-Potete duplicare i flussi di lavoro. In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. Una volta duplicate, le modifiche del flusso di lavoro non vengono portate alla copia del flusso di lavoro. La copia del flusso di lavoro può essere modificata.
+Potete duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, passate il mouse sul flusso di lavoro e fate clic **[!UICONTROL Duplicate element]**. Una volta duplicate, le modifiche del flusso di lavoro non vengono portate alla copia del flusso di lavoro. La copia del flusso di lavoro può essere modificata.
 
 ![](assets/duplicating_workflow.png)
 
-## Execution{#execution}
+## Esecuzione{#execution}
 
 ### Numero di flussi di lavoro
 
@@ -66,15 +66,15 @@ I flussi di lavoro che sono stati in pausa o in stato non riuscito per più di 7
 
 È possibile eseguire un flusso di lavoro contenente transizioni non ancora chiamate: viene generato un messaggio di avviso e il flusso di lavoro si interrompe una volta raggiunta la transizione ma non genera un errore. Potete anche avviare un flusso di lavoro senza una progettazione completata e completarlo man mano che passate.
 
-For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
+Per ulteriori informazioni, consulta [Esecuzione dei flussi di lavoro](../../automating/using//executing-a-workflow.md).
 
-## Activity{#activity}
+## Attività{#activity}
 
 ### Progettazione del flusso di lavoro
 
-To ensure that the workflow ends properly, use an **[!UICONTROL End activity]**. Evitate di uscire dall'ultima transizione di un flusso di lavoro.
+Per assicurare che il flusso di lavoro termini correttamente, utilizza un **[!UICONTROL End activity]**. Evitate di uscire dall'ultima transizione di un flusso di lavoro.
 
-To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
+Per accedere alla visualizzazione dettagli delle transizioni, controllate l' **[!UICONTROL Keep interim results]** opzione nella sezione Esecuzione delle proprietà del flusso di lavoro.
 
 >[!CAUTION]
 >
@@ -83,57 +83,76 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 ![](assets/keep_interim_best_practices.png)
 
 
-### Labelling activities{#activity-labeling}
+### Attività di etichettatura{#activity-labeling}
 
 Durante lo sviluppo del flusso di lavoro, viene generato un nome per ogni attività, come per tutti gli oggetti Adobe Campaign. Mentre il nome di un'attività è generato dallo strumento e non può essere modificato, consigliamo di etichettarlo con un nome esplicito al momento della configurazione.
 
-### Duplicating activities{#activity-duplicating}
+### Duplicazione delle attività{#activity-duplicating}
 
-Per duplicare le attività esistenti, potete utilizzare copy-paste. In tal modo vengono mantenute le impostazioni definite originariamente. For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
+Per duplicare le attività esistenti, potete utilizzare copy-paste. In tal modo vengono mantenute le impostazioni definite originariamente. Per ulteriori informazioni, consultate [Duplicazione delle attività del flusso di lavoro](../../automating/using/workflow-interface.md).
 
-### Scheduler activity{#acheduler-activity}
+### Attività del pianificatore{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. Se lo stesso ramo di un flusso di lavoro dispone di diversi pianificatori (collegati l'uno all'altro), il numero di attività da eseguire verrà moltiplicato esponenzialmente, il che comporterebbe un sovraccarico significativo del database.
+Durante la creazione del flusso di lavoro, è necessario usarne uno **[!UICONTROL Scheduler activity]** solo per ramo. Se lo stesso ramo di un flusso di lavoro dispone di diversi pianificatori (collegati l'uno all'altro), il numero di attività da eseguire verrà moltiplicato esponenzialmente, il che comporterebbe un sovraccarico significativo del database.
 
-You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
+Fai clic su **[!UICONTROL Preview next executions]** un'anteprima delle dieci esecuzioni successive dei tuoi flussi di lavoro.
 
 ![](assets/preview_scheduler.png)
 
-For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
+Per ulteriori informazioni, consultate Attività [del pianificatore](../../automating/using/scheduler.md).
 
-## Calling workflow with parameters{#workflow-with-parameters}
+## Chiamata di workflow con parametri{#workflow-with-parameters}
 
-Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). I tipi di parametri devono anche essere coerenti con i valori previsti.
+Accertatevi che nome e numero di parametri siano identici a quelli definiti durante la chiamata del flusso di lavoro (consultate [Definizione dei parametri durante la chiamata del flusso di lavoro](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). I tipi di parametri devono anche essere coerenti con i valori previsti.
 
-Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. In caso contrario, si verificherà un errore durante l'esecuzione dell'attività.
+Accertatevi che tutti i parametri siano stati dichiarati nel **[!UICONTROL External signal activity]**. In caso contrario, si verificherà un errore durante l'esecuzione dell'attività.
 
-For more information, see [Calling a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Per ulteriori informazioni, consultate [Chiamata di un flusso di lavoro con parametri esterni](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Exporting packages{#exporting-packages}
+## Esportazione di pacchetti{#exporting-packages}
 
 Per esportare i pacchetti, le risorse esportate non devono contenere ID predefiniti. Pertanto, gli ID di risorse opuscole devono essere modificati utilizzando un nome diverso dai modelli forniti come standard da Adobe Campaign Standard.
-For more information, see [Managing packages](../../automating/using/managing-packages.md).
+Per ulteriori informazioni, consulta [Gestione dei pacchetti](../../automating/using/managing-packages.md).
 
-## Exporting lists{#exporting-lists}
+## Esportazione di elenchi{#exporting-lists}
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
-For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
+L'opzione Elenco di esportazione consente di esportare un massimo di 100,000 righe per impostazione predefinita e definite dall'opzione **Nms_ exportlistlimit**. Questa opzione può essere gestita dall'amministratore funzionale, in **Amministrazione** &gt; **Impostazioni applicazione** &gt; **Opzioni**.
+Per ulteriori informazioni, consultate [Esportazione di elenchi](../../automating/using/exporting-lists.md).
 
-## Troubleshooting{#workflow-troubleshooting}
+## Risoluzione dei problemi{#workflow-troubleshooting}
 
 Adobe Campaign offre vari registri per comprendere meglio i problemi del flusso di lavoro.
 
-### Using workflow logs{#using-workflow-logs}
+### Utilizzo dei registri di workflow{#using-workflow-logs}
 
-Potete accedere ai registri di workflow per monitorare l'esecuzione delle attività. Indicizza le operazioni eseguite e gli errori di esecuzione in base all'ordine cronologico.
-For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+Potete accedere ai registri di workflow per monitorare l'esecuzione delle attività. Indicizza le operazioni eseguite e gli errori di esecuzione in base all'ordine cronologico. La scheda Registri è costituita dalla cronologia dell'esecuzione di tutte o alcune attività selezionate.
+La scheda Attività descrive la sequenza di esecuzione delle attività. Per ottenere ulteriori informazioni su un'attività, fate clic su un'attività.
+Per ulteriori informazioni, consultate [Monitorare l'esecuzione del flusso di lavoro](../../automating/using/executing-a-workflow.md#monitoring).
 
-### Using delivery logs{#using-delivery-logs}
+#### Risoluzione dei problemi delle attività di gestione dei dati{#troubleshooting-data-management-activities}
+
+Potete analizzare le query SQL nella scheda Registro.
+
+1. Nell'area di lavoro del flusso di lavoro, fate clic **su Modifica proprietà**.
+1. **In Generale** &gt; **Esegui**, controllate **le query SQL nel registro** ed **Esegui nelle opzioni del motore** e fate clic **su Conferma**.
+
+**Per visualizzare le query SQL nel registro:**
+1. Fate clic **su Registro e attività**.
+1. Nella scheda **Registro** , aprite il **pannello Ricerca** .
+1. Selezionate **Visualizza solo registri SQL**.
+
+La query viene visualizzata nella colonna **Messaggio** dei registri.
+
+### Utilizzo dei registri di distribuzione{#using-delivery-logs}
 
 I registri di distribuzione consentono di monitorare il successo delle consegne. I registri di esclusione restituiscono messaggi esclusi durante la preparazione dell'invio. L'invio di registri fornisce lo stato della consegna per ogni profilo.
-For more information, refer to [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md).
+Per ulteriori informazioni, consulta [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md).
 
-### Using delivery alerting{#delivery-alerting}
+### Utilizzo degli avvisi sulla distribuzione{#delivery-alerting}
 
 La funzione di avvisi sulla distribuzione è un sistema di gestione avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche relative all'esecuzione delle consegne.
-For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+Per ulteriori informazioni, fare riferimento agli avvisi [sulla distribuzione](../../sending/using/receiving-alerts-when-failures-happen.md).
+
+**Argomenti correlati:**
+
+* [Gestione degli errori](../../automating/using/executing-a-workflow.md#error-management)
