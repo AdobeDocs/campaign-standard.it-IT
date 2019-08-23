@@ -14,7 +14,7 @@ discoiquuid: 4337 a 80 b -0 fb 9-4 a 37-postal 3-fe 2121 a 66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -36,6 +36,7 @@ Argomenti correlati:
 * [Preparazione](../../administration/using/configuring-email-channel.md#preparation)
 * [Gestione di tipologie](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Regole per i tipi di telefono](../../administration/using/about-typology-rules.md#typology-rules)
+* [Ottimizzazione della frequenza di comunicazione per impedire l'affaticamento dei contatti](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Creazione di una regola di tipo fatigue {#creating-a-fatigue-rule}
 
