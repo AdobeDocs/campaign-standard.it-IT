@@ -14,14 +14,14 @@ discoiquuid: f 7 a 5 e 935-54 cf -422 e -8459-27221409 a 200
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
 
-# Personalizing the subject line of an email{#personalizing-the-subject-line-of-an-email}
+# Personalizzazione dell'oggetto di un'e-mail{#personalizing-the-subject-line-of-an-email}
 
-## Personalizing an email subject {#personalizing-an-email-subject}
+## Personalizzazione di un oggetto e-mail {#personalizing-an-email-subject}
 
 L'oggetto del messaggio è obbligatorio per preparare e inviare il messaggio.
 
@@ -29,7 +29,7 @@ L'oggetto del messaggio è obbligatorio per preparare e inviare il messaggio.
 >
 >Se l'oggetto è vuoto, viene visualizzato un avviso nel dashboard Messaggio e in Email Designer.
 
-To configure the email subject, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
+Per configurare l'oggetto dell'e-mail, passare alla **[!UICONTROL Properties]** scheda della home page di Designer di e-mail (accessibile tramite l'icona principale) e compilare la **[!UICONTROL Subject]** sezione.
 
 ![](assets/email_designer_subject.png)
 
@@ -41,7 +41,7 @@ Puoi anche aggiungere campi personalizzati, blocchi di contenuto e contenuti din
 * [Aggiunta di un blocco di contenuto](../../designing/using/adding-a-content-block.md)
 * [Definizione del contenuto dinamico in un'e-mail](../../designing/using/defining-dynamic-content-in-an-email.md)
 
-## Predictive subject line {#predictive-subject-line}
+## Oggetto predittivo {#predictive-subject-line}
 
 Quando si modifica un'e-mail, è possibile provare diversi oggetti e ottenere una stima della relativa frequenza prima di inviarla.
 
@@ -51,13 +51,13 @@ Per impostazione predefinita questa funzione è disattivata. Viene attivato quan
 >
 >Questa funzione è disponibile per i messaggi e-mail e per i database contenenti contenuto inglese. Il modello preparato non sarà coerente e darà luogo a risultati erronei se l'istanza contiene e-mail in altre lingue. L'opzione che consente di testare un oggetto è visibile solo se nell'istanza è già disponibile un modello.
 
-### Testing a subject {#testing-a-subject}
+### Verifica di un oggetto {#testing-a-subject}
 
 Per provare l'oggetto:
 
 1. Crea o apri l'e-mail.
 1. Aprite il contenuto e inserite l'oggetto dell'e-mail nel campo di immissione corrispondente.
-1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. Potete comunque modificare l'oggetto da questa finestra.
+1. Fate clic sul **[!UICONTROL Test subject]** pulsante per accedere alla **[!UICONTROL Test your subject line]** finestra. Potete comunque modificare l'oggetto da questa finestra.
 1. Seleziona il modello corretto da considerare per la stima della frequenza aperta. Sono disponibili diversi modelli, ciascuno dei quali corrisponde a un settore specifico.
 1. Click **[!UICONTROL Test]**.
 
@@ -80,28 +80,28 @@ Vengono calcolati diversi indicatori e viene visualizzato un set di strumenti:
 
 ![](assets/predictive_subject_line_example.png)
 
-### Importing models {#importing-models}
+### Importazione di modelli {#importing-models}
 
 Per impostazione predefinita, non esiste alcun modello in esecuzione sul server Adobe Campaign. Esistono due modi per ottenere un modello e attivare la funzione:
 
 * Puoi formare un modello locale dai dati dei messaggi e-mail precedenti:
 
    * Se utilizzi già Adobe Campaign, il modello locale verrà automaticamente preparato sui messaggi che hai già inviato.
-   * Se non conosci Adobe Campaign, puoi estrarre un file CSV dal sistema precedente/ESP che contiene 4 colonne: data, oggetto, inviato, si apre. To do that, go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** and follow the instructions provided on the successive screens. Al termine del caricamento dell'oggetto, importate un modello locale come descritto di seguito. Il modello locale viene automaticamente preparato con i dati caricati.
+   * Se non conosci Adobe Campaign, puoi estrarre un file CSV dal sistema precedente/ESP che contiene 4 colonne: data, oggetto, inviato, si apre. A tal fine, accedete **[!UICONTROL Administration]** a &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** e seguite le istruzioni fornite nelle schermate successive. Al termine del caricamento dell'oggetto, importate un modello locale come descritto di seguito. Il modello locale viene automaticamente preparato con i dati caricati.
    * Se non conosci Adobe Campaign e non riesci a ottenere un file CSV come descritto qui sopra, puoi utilizzare un modello predefinito o attendere fino a quando non hai sufficiente dati di consegna nel sistema per formare un modello locale. Il sistema determina automaticamente se il set di dati corrente contiene dati sufficienti per riconoscere i pattern e per formare il modello.
 
       >[!NOTE]
       >
       >Non esiste alcun numero definito di oggetti necessari per formare il proprio modello. Per essere in grado di formare gli oggetti, è necessario che le righe siano diverse e senza duplicati. Se i dati da elaborare non sono sufficienti, il sistema non sarà in grado di formare il modello. Nell'istanza è presente solo un modello preparato.
-   To train a local model, download the subjectLineTraining.xml from [here](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) and use the [package import](../../automating/using/managing-packages.md) feature to upload it to your Adobe Campaign instance. Un flusso di lavoro tecnico effettua automaticamente la formazione.
+   Per formare un modello locale, scaricate subjectLineTraining.xml da [qui](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) e utilizzate la [funzione di importazione](../../automating/using/managing-packages.md) del pacchetto per caricarlo nell'istanza Adobe Campaign. Un flusso di lavoro tecnico effettua automaticamente la formazione.
 
-   The first time you want to train a model, an administrator can force the **[!UICONTROL SubjectLine Training workflow]** to start from the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** menu.
+   La prima volta che desiderate formare un modello, un amministratore può forzare **[!UICONTROL SubjectLine Training workflow]** l'avvio dal menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** .
 
    Una volta caricato e preparato un modello, la funzione viene attivata automaticamente e accanto al campo dell'oggetto dei messaggi viene visualizzata una nuova opzione.
 
    Quindi, il flusso di lavoro tecnico continua a formare il modello ogni settimana.
 
-* Potete importare modelli preconfigurati specifici per determinate industrie (medici, ecc.) using the [package import](../../automating/using/managing-packages.md) feature. These models are available [here](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) and cannot be trained.
+* Potete importare modelli preconfigurati specifici per determinate industrie (medici, ecc.) utilizzando [la funzione di importazione](../../automating/using/managing-packages.md) del pacchetto. Questi modelli sono disponibili [qui](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) e non possono essere pubblicati.
 
    Una volta caricato un modello, la funzione viene attivata automaticamente e accanto al campo dell'oggetto dei messaggi viene visualizzata una nuova opzione.
 
@@ -116,3 +116,6 @@ I modelli disponibili sono:
 * Settore medico: subjectInsightMedical.xml
 * Modello da formare: Subjectlinetraeup. xml.
 
+**Argomento correlato:**
+
+* [Ottimizzazione degli oggetti con previsioni Adobe Sensei](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
