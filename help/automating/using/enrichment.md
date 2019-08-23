@@ -15,61 +15,61 @@ context-tags: arricchimento, principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
 
-# Enrichment{#enrichment}
+# Arricchimento{#enrichment}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/enrichment.png)
 
-The **[!UICONTROL Enrichment]** activity is an advanced activity that allows you to define additional data to process in your workflow.
+L' **[!UICONTROL Enrichment]** attività è un'attività avanzata che consente di definire dati aggiuntivi da elaborare nel flusso di lavoro.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Enrichment]** activity is generally used following targeting activities or after importing a file and before activities that allow the use of targeted data.
+L **[!UICONTROL Enrichment]** 'attività viene utilizzata in genere per attività di targeting o dopo l'importazione di un file e prima delle attività che consentono l'uso di dati mirati.
 
-This activity contains more advanced enrichment functions than the **[!UICONTROL Query]** activity. Some simple cases of enrichment can be directly performed in the [Query activity](../../automating/using/query.md#enriching-data).
+Questa attività contiene funzioni di arricchimento più avanzate dell' **[!UICONTROL Query]** attività. Alcuni casi semplici di arricchimento possono essere eseguiti direttamente nell'attività [Query](../../automating/using/query.md#enriching-data).
 
-With the **[!UICONTROL Enrichment]** activity, you can leverage the inbound transition and configure the activity to complete the output transition with additional data. Consente di combinare dati provenienti da più set o di creare collegamenti a una risorsa temporanea.
+Con l' **[!UICONTROL Enrichment]** attività, potete sfruttare la transizione in entrata e configurare l'attività per completare la transizione di output con dati aggiuntivi. Consente di combinare dati provenienti da più set o di creare collegamenti a una risorsa temporanea.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-To configure an **[!UICONTROL Enrichment]** activity:
+Per configurare un **[!UICONTROL Enrichment]** 'attività:
 
-1. Drag and drop an **[!UICONTROL Enrichment]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. If the activity has several inbound transitions, select the **[!UICONTROL Primary set]**. I dati aggiuntivi configurati in questa attività saranno aggiunti al set principale nella transizione in uscita.
+1. Trascina un **[!UICONTROL Enrichment]** 'attività nel flusso di lavoro.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante dalle azioni rapide visualizzate.
+1. Se l'attività ha diverse transizioni in entrata, selezionate l ' **[!UICONTROL Primary set]**. I dati aggiuntivi configurati in questa attività saranno aggiunti al set principale nella transizione in uscita.
 
-   Se il set principale contiene già dati aggiuntivi, potete scegliere di mantenerli o rimuoverli. If you uncheck the **[!UICONTROL Keep all additional data from the main set]** option, only the additional data configured in the **[!UICONTROL Enrichment]** are kept in the outbound transition.
+   Se il set principale contiene già dati aggiuntivi, potete scegliere di mantenerli o rimuoverli. Se deselezionate questa **[!UICONTROL Keep all additional data from the main set]** opzione, solo i dati aggiuntivi configurati in **[!UICONTROL Enrichment]** vengono mantenuti nella transizione in uscita.
 
-1. If there are several inbound transitions, define relations between the primary set and the other inbound data in the **[!UICONTROL Advanced Relations]** tab of the activity. You can add several relations using the **[!UICONTROL Add element]** button.
+1. In presenza di diverse transizioni in entrata, definite le relazioni tra il set principale e gli altri dati in entrata nella **[!UICONTROL Advanced Relations]** scheda dell'attività. È possibile aggiungere più rapporti utilizzando il **[!UICONTROL Add element]** pulsante.
 
    Quando definite una nuova relazione, selezionate il set di dati in entrata che desiderate collegare al set principale. Quindi definite il tipo di relazione. Sono disponibili diversi tipi di relazioni, a seconda dei dati in entrata e del modello dati:
 
    * **[!UICONTROL 1 cardinality simple link]**: Ogni record dei dati in entrata è associato a uno e un solo record dal set principale. Ogni record del set principale ha un record associato nei dati collegati.
    * **[!UICONTROL N cardinality collection link]**: 0, 1 o più record (N) registrati dai dati collegati possono essere associati a 1 record del set principale.
    * **[!UICONTROL 0 or 1 cardinality simple link]**: i record del set principale possono essere associati a 0 o 1 record dai dati collegati, ma non più di uno.
-   Once the **[!UICONTROL Cardinality]** is defined, define a **[!UICONTROL Reconciliation criteria]**. The **[!UICONTROL Source expression]** of the reconciliation criteria can be a field from the target resource, an [expression](../../automating/using/advanced-expression-editing.md) or directly a value specified between quotes.
+   Una volta definito, **[!UICONTROL Cardinality]** definire un **[!UICONTROL Reconciliation criteria]**. I **[!UICONTROL Source expression]** criteri di riconciliazione possono essere un campo dalla risorsa di destinazione, un ['espressione](../../automating/using/advanced-expression-editing.md) o direttamente un valore specificato tra virgolette.
 
-   Define a **[!UICONTROL Label]** and an **[!UICONTROL ID]** that will be easy to identify later in the workflow.
+   Definite una **[!UICONTROL Label]** e un' **[!UICONTROL ID]** altra che sarà facilmente individuabile più avanti nel flusso di lavoro.
 
    >[!NOTE]
    >
-   >You can only define relations between the primary set and the other inbound transitions connected to the **[!UICONTROL Enrichment]** activity. For simpler cases aiming at defining relations with database resources, use a [Reconciliation](../../automating/using/reconciliation.md) activity.
+   >Potete definire solo le relazioni tra il set principale e le altre transizioni in entrata collegate all' **[!UICONTROL Enrichment]** attività. Per casi più semplici destinati alla definizione delle relazioni con le risorse del database, utilizzate un'attività [di riconciliazione](../../automating/using/reconciliation.md) .
 
-1. Define the additional data from the **[!UICONTROL Additional data]** tab of the activity. You can define additional data (simple fields, aggregates and collections) related to the targeting dimension of the primary set or based on the links created in the **[!UICONTROL Advanced relations]** tab of the **[!UICONTROL Enrichment]** activity.
+1. Definite i dati aggiuntivi dalla **[!UICONTROL Additional data]** scheda dell'attività. Potete definire ulteriori dati (campi semplici, aggregati e raccolte) correlati alla dimensione di targeting del set principale o in base ai collegamenti creati nella **[!UICONTROL Advanced relations]** scheda dell **[!UICONTROL Enrichment]** 'attività.
 
-   Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+   Consultare la [sezione Arricchimento dei dati](../../automating/using/query.md#enriching-data) .
 
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-The data is now available to use in the activities connected after the **[!UICONTROL Enrichment]**. For example, you can find it under the **[!UICONTROL Additional data (targetData)]** link of the personalization fields explorer in an email content.
+I dati sono ora disponibili per l'utilizzo nelle attività connesse dopo l ' **[!UICONTROL Enrichment]**. Ad esempio, è possibile trovarlo sotto il **[!UICONTROL Additional data (targetData)]** collegamento dei campi di personalizzazione in un contenuto e-mail.
 
-## Example: Enriching profile data with data contained in a file {#example--enriching-profile-data-with-data-contained-in-a-file}
+## Esempio: Arricchimento dei dati di profilo con i dati contenuti in un file {#example--enriching-profile-data-with-data-contained-in-a-file}
 
 Questo esempio mostra come arricchire i dati di profilo con i dati di acquisto contenuti in un file. Qui si consideri che i dati di acquisto sono memorizzati in un sistema di terze parti. Ogni profilo può contenere più acquisti memorizzati nel file. L'obiettivo finale del flusso di lavoro consiste nell'inviare un messaggio e-mail ai profili di destinazione che hanno acquistato almeno due elementi per la loro fedeltà.
 
@@ -90,25 +90,25 @@ Il flusso di lavoro è configurato come segue:
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   Con questo esempio di file, useremo l'indirizzo e-mail per riconciliare i dati con i profili del database. You can also enable unique IDs as described in [this document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   Con questo esempio di file, useremo l'indirizzo e-mail per riconciliare i dati con i profili del database. Potete inoltre abilitare ID univoci come descritto in [questo documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* **[!UICONTROL Enrichment]** Un'attività che crea un collegamento tra i dati della transazione caricati dal file e quelli selezionati nell ' **[!UICONTROL Query]**. The link is defined in the **[!UICONTROL Advanced relations]** tab of the activity. The link is based on the transition coming from the **[!UICONTROL Load file]** activity. Utilizza il campo «email» della risorsa del profilo e la colonna «cliente» del file importato come criteri di riconciliazione.
+* **[!UICONTROL Enrichment]** Un'attività che crea un collegamento tra i dati della transazione caricati dal file e quelli selezionati nell ' **[!UICONTROL Query]**. Il collegamento è definito nella **[!UICONTROL Advanced relations]** scheda dell'attività. Il collegamento si basa sulla transizione proveniente dall' **[!UICONTROL Load file]** attività. Utilizza il campo «email» della risorsa del profilo e la colonna «cliente» del file importato come criteri di riconciliazione.
 
    ![](assets/enrichment_example_workflow2.png)
 
-   Once the link is created, two sets of **[!UICONTROL Additional data]** are added:
+   Una volta creato il collegamento, vengono aggiunti **[!UICONTROL Additional data]** due set:
 
-   * Una raccolta di due righe corrispondenti alle due ultime transazioni di ogni profilo. Per questa raccolta, il nome del prodotto, la data di transazione e il prezzo del prodotto vengono aggiunti come dati aggiuntivi. Un ordinamento decrescente viene applicato ai dati. To create the collection, from the **[!UICONTROL Additional data]** tab:
+   * Una raccolta di due righe corrispondenti alle due ultime transazioni di ogni profilo. Per questa raccolta, il nome del prodotto, la data di transazione e il prezzo del prodotto vengono aggiunti come dati aggiuntivi. Un ordinamento decrescente viene applicato ai dati. Per creare la raccolta, dalla **[!UICONTROL Additional data]** scheda:
 
-      Select the link previously defined in the **[!UICONTROL Advanced relations]** tab of the activity.
+      Selezionate il collegamento precedentemente definito nella **[!UICONTROL Advanced relations]** scheda dell'attività.
 
       ![](assets/enrichment_example_workflow3.png)
 
-      Check **[!UICONTROL Collection]** and specify the number of lines to retrieve (2 in this example). In this screen, you can customize the **[!UICONTROL Alias]** and the **[!UICONTROL Label]** of the collection. Tali valori saranno visibili nelle attività seguenti del flusso di lavoro quando si fa riferimento a questa raccolta.
+      Controllate **[!UICONTROL Collection]** e specificate il numero di righe da recuperare (2 in questo esempio). In questa schermata, potete personalizzare l' **[!UICONTROL Alias]** e la **[!UICONTROL Label]** raccolta. Tali valori saranno visibili nelle attività seguenti del flusso di lavoro quando si fa riferimento a questa raccolta.
 
       ![](assets/enrichment_example_workflow4.png)
 
-      As **[!UICONTROL Data]** to keep for the collection, select the columns that will be used in the final delivery.
+      Come **[!UICONTROL Data]** per la raccolta, selezionate le colonne che verranno utilizzate nella distribuzione finale.
 
       ![](assets/enrichment_example_workflow6.png)
 
@@ -116,25 +116,29 @@ Il flusso di lavoro è configurato come segue:
 
       ![](assets/enrichment_example_workflow7.png)
 
-   * Un aggregato complessivo che conta il numero totale di transazioni per ogni profilo. Questo aggregato verrà utilizzato in seguito per filtrare profili con almeno due transazioni registrate. To create the aggregate, from the **[!UICONTROL Additional data]** tab:
+   * Un aggregato complessivo che conta il numero totale di transazioni per ogni profilo. Questo aggregato verrà utilizzato in seguito per filtrare profili con almeno due transazioni registrate. Per creare l'aggregazione, dalla **[!UICONTROL Additional data]** scheda:
 
-      Select the link previously defined in the **[!UICONTROL Advanced relations]** tab of the activity.
+      Selezionate il collegamento precedentemente definito nella **[!UICONTROL Advanced relations]** scheda dell'attività.
 
       ![](assets/enrichment_example_workflow3.png)
 
-      Select **[!UICONTROL Aggregate]**.
+      Seleziona **[!UICONTROL Aggregate]**.
 
       ![](assets/enrichment_example_workflow8.png)
 
-      As **[!UICONTROL Data]** to keep, define a **Count All** aggregate. Se necessario, specificate un alias personalizzato per trovarlo più rapidamente nelle attività seguenti.
+      Come **[!UICONTROL Data]** per mantenere, definite un **Totale complessivo** . Se necessario, specificate un alias personalizzato per trovarlo più rapidamente nelle attività seguenti.
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A **[!UICONTROL Segmentation]** activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene effettuata sull'aggregazione precedentemente definita.
+* Un **[!UICONTROL Segmentation]** 'attività con un solo segmento, che recupera profili della destinazione iniziale con almeno due transazioni registrate. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene effettuata sull'aggregazione precedentemente definita.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* **[!UICONTROL Email delivery]** Un'attività che utilizza i dati aggiuntivi definiti nel metodo **[!UICONTROL Enrichment]** per recuperare in modo dinamico i due ultimi acquisti effettuati dal profilo. The additional data can be found in the **Additional data (TargetData)** node when adding a personalization field.
+* **[!UICONTROL Email delivery]** Un'attività che utilizza i dati aggiuntivi definiti nel metodo **[!UICONTROL Enrichment]** per recuperare in modo dinamico i due ultimi acquisti effettuati dal profilo. Durante l'aggiunta di un campo personalizzato **si possono trovare dati aggiuntivi nel** nodo dati aggiuntivi (targetdata).
 
    ![](assets/enrichment_example_workflow10.png)
+
+**Argomento correlato:**
+
+* [Arricchimento dei profili cliente con dati esterni](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 
