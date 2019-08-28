@@ -14,7 +14,7 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -167,10 +167,10 @@ Puoi creare frammenti di contenuto personalizzati per utilizzarli in base alle e
 
 1. Vai a **[!UICONTROL Resources]** &gt; e **[!UICONTROL Content templates & fragments]** fai clic **[!UICONTROL Create]** su.
 1. Fare clic sull'etichetta e-mail per accedere alla **[!UICONTROL Properties]** scheda di Email Designer.
-1. Specificare un'etichetta riconoscibile e selezionare i seguenti parametri per trovare il frammento più tardi nelle nuove e-mail:
+1. Specificare un'etichetta riconoscibile e selezionare i seguenti parametri per trovare il frammento durante la modifica del contenuto dell'e-mail:
 
    * Poiché i frammenti sono compatibili solo con le e-mail, selezionarli **[!UICONTROL Delivery]** dall'elenco **[!UICONTROL Content type]** a discesa.
-   * Selezionare **[!UICONTROL Fragment]** dall'elenco **[!UICONTROL HTML type]** a discesa per utilizzare il contenuto come frammento nelle e-mail.
+   * Selezionare **[!UICONTROL Fragment]** dall'elenco **[!UICONTROL HTML type]** a discesa per utilizzare il contenuto come frammento.
    ![](assets/email_designer_createfragment.png)
 
 1. Se necessario, è possibile impostare un'immagine che verrà utilizzata come miniatura per il frammento. Selezionarlo dalla **[!UICONTROL Thumbnail]** scheda delle proprietà del modello.
@@ -179,23 +179,29 @@ Puoi creare frammenti di contenuto personalizzati per utilizzarli in base alle e
 
    La miniatura verrà visualizzata accanto all'etichetta del frammento quando si modifica un messaggio e-mail.
 
-1. Salvate le modifiche per tornare all'area di lavoro principale.
-1. Aggiungere un componente struttura e un componente di contenuto personalizzabili in base alle esigenze.
+1. Chiudete **[!UICONTROL Properties]** la scheda per tornare all'area di lavoro principale.
+1. Aggiungere componenti struttura e componenti di contenuto personalizzabili in base alle esigenze.
+
+   >[!NOTE]
+   >
+   >I frammenti non possono includere campi personalizzati, contenuto dinamico o un altro frammento.
+   >La visualizzazione [mobile non](../../designing/using/about-email-content-design.md#switching-to-mobile-view) è disponibile nei frammenti.
+
 1. Una volta modificato, salvare il frammento.
 
-Il frammento può essere utilizzato in qualsiasi messaggio e-mail creato con E-mail Designer. Viene visualizzata sotto la **[!UICONTROL Fragments]** sezione della palette.
+Questo frammento può essere utilizzato in qualsiasi messaggio e-mail creato con E-mail Designer. Viene visualizzata sotto la **[!UICONTROL Fragments]** sezione della palette.
 
 >[!NOTE]
 >
->Non è possibile inserire campi personalizzati all'interno di un frammento, a meno che non sia utilizzato nell'e-mail. A tal fine, è necessario sbloccare il frammento. Vedere [Informazioni sui frammenti](../../designing/using/defining-the-email-structure.md#about-fragments).
+>Non è possibile inserire campi personalizzati all'interno di un frammento, a meno che non sia utilizzato in un'e-mail o sbloccati. Vedere [Informazioni sui frammenti](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ### Salvataggio del contenuto come frammento {#saving-content-as-a-fragment}
 
 Durante la modifica di un'e-mail con Posta elettronica, è possibile salvare direttamente parte dell'e-mail come frammento.
 
->[!CAUTION]
->
->Non è possibile salvare come frammento una struttura contenente campi di personalizzazione, contenuto dinamico o un altro frammento.
+* Non è possibile salvare come frammento una struttura contenente campi di personalizzazione, contenuto dinamico o un altro frammento.
+* È possibile selezionare solo strutture adiacenti tra loro.
+<!--* You cannot select an empty structure.-->
 
 1. Quando si modifica un'e-mail in Designer e-mail, selezionare **[!UICONTROL Save as fragment]** dalla barra degli strumenti principale.
 
@@ -207,7 +213,8 @@ Durante la modifica di un'e-mail con Posta elettronica, è possibile salvare dir
 
    >[!NOTE]
    >
-   >È possibile selezionare solo strutture adiacenti tra loro.
+   >Accertarsi di selezionare strutture adiacenti, che non includono campi personalizzati, contenuto dinamico o un altro frammento.
+   <!--You cannot select an empty structure.-->
 
 1. Click **[!UICONTROL Create]**.
 
@@ -222,6 +229,9 @@ Durante la modifica di un'e-mail con Posta elettronica, è possibile salvare dir
 1. Per utilizzare il nuovo frammento, aprire qualsiasi contenuto e-mail e selezionarlo dall'elenco dei frammenti.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+>[!NOTE]
+>La visualizzazione [mobile non](../../designing/using/about-email-content-design.md#switching-to-mobile-view) è disponibile nei frammenti. Se desiderate modificare una visualizzazione per dispositivi mobili, effettuate questa operazione prima di salvare il contenuto come frammento.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
