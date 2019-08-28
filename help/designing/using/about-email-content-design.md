@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcn 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -429,6 +429,10 @@ Puoi impostare questa opzione tramite la visualizzazione mobile o desktop.
    Ora viene applicato il colore di sfondo definito nella visualizzazione desktop: diventa grigio (non vuoto).
 
    L'unica eccezione è l' **[!UICONTROL Border color]** impostazione. Se disattivato nella visualizzazione mobile, non viene più applicato alcun bordo, anche se nella visualizzazione desktop è definito un colore del bordo.
+
+>[!NOTE]
+>
+>La visualizzazione mobile non è disponibile nei [frammenti](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ## Modalità Testo normale e HTML {#plain-text-and-html-modes}
 
