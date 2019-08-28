@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
+source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
 
 ---
 
@@ -32,6 +32,10 @@ Puoi anche consultare le Note [sulla versione di Adobe Campaign](../../rn/using/
 Nella sezione Risoluzione dei problemi relativi al flusso di lavoro è stata aggiunta una procedura su come visualizzare le query SQL nella scheda Registro. [Ulteriori informazioni](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 È stato aggiunto un nuovo articolo della guida, con informazioni relative ai sottodomini e alla gestione dei certificati all'interno del Pannello di controllo. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
+La sezione che descrive i modelli e i frammenti di contenuto è stata aggiornata. [Ulteriori informazioni](../../start/using/about-templates.md#content-templates)
+
+È stata aggiunta una nuova sezione su come salvare il contenuto e-mail come modello in Email Designer. [Ulteriori informazioni](../../start/using/about-templates.md#saving-content-as-template)
 
 ## Rilascio 19.3 - Luglio 2019 {#release-19-3---july-2019}
 
