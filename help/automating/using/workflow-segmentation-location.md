@@ -15,7 +15,7 @@ context-tags: 'flusso di lavoro, casi di utilizzo, query, segmentazione, consegn
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -45,11 +45,7 @@ Nota: Per raggiungere tutte le persone entrate a Boston, disattivate l'opzione M
 1. Click **[!UICONTROL Confirm]**.
 1. In **[!UICONTROL List of outbound segments]**, fai clic **[!UICONTROL Add an element]** su di esso ![](assets/edit_darkgrey-24px.png) per creare un segmento di destinazione delle persone nella seconda città. Qui Chicago.
 1. Trascinate **[!UICONTROL Location]** e rilasciate **[!UICONTROL City]** con l'operatore **[!UICONTROL equals to]** e inserite **[!UICONTROL Chicago]** il valore.
-
->[!NOTE]
->
->Per raggiungere tutte le persone entrate in Chicago, non considerare il caso in cui deselezionare l'opzione Distinzione tra maiuscole e minuscole.
-
+1. Per raggiungere tutte le persone entrate in Chicago, non considerare il caso in cui deselezionare l'opzione Distinzione tra maiuscole e minuscole.
 1. Click **[!UICONTROL Confirm]**.
 
 ## Creazione di un'e-mail di consegna{#creating-an-email-delivery}
