@@ -15,7 +15,7 @@ context-tags: flusso di lavoro, casi d'uso, query
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ Puoi inviare un'offerta tramite e-mail all'anniversario della creazione del prof
 1. In **[!UICONTROL Execution frequency]**, seleziona **[!UICONTROL Daily]**.
 1. Seleziona un **[!UICONTROL Time]** e l' **[!UICONTROL Repetition frequency]** esecuzione del flusso di lavoro.
 1. Selezionate una **[!UICONTROL Start]** data e **[!UICONTROL Expiration]** il flusso di lavoro.
+1. Confermate l'attività e salvate il flusso di lavoro.
 
 >[!NOTE]
 >
 >Per avviare il flusso di lavoro in un determinato fuso orario, nella **[!UICONTROL Execution options]** scheda impostate il fuso orario per il pianificatore nel **[!UICONTROL Time zone]** campo.
 
 ![](assets/time_zone.png)
-
-1. Confermate l'attività e salvate il flusso di lavoro.
 
 ## Creazione di un'attività query {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ Click **[!UICONTROL Confirm]**.
 1. Nell **[!UICONTROL Query]** 'editor, selezionate la prima query e duplicatela.
 1. Aprite il duplicato.
 1. Sostituite **[!UICONTROL Day]** nella **[!UICONTROL Month]** query.
-Si consiglia di:
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. Click **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
+
+Si consiglia di:
+
+``` Month(@created) = Month(GetDate()) ```
 
 Viene visualizzata la query finale:
 
