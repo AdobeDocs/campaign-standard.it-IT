@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
+source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
 
 ---
 
@@ -28,6 +28,8 @@ Questa pagina elenca tutte le nuove funzioni e gli aggiornamenti della documenta
 Puoi anche consultare le Note [sulla versione di Adobe Campaign](../../rn/using/release-notes.md).
 
 ## Aggiornamenti della documentazione - Agosto 2019 {#doc-updates-august-2019}
+
+È stata aggiunta una nuova sezione con casi di utilizzo su flussi di lavoro che si incentrano sulle query. [Ulteriori informazioni](../../automating/using/workflow-created-query-with-complement.md)
 
 Nella sezione Risoluzione dei problemi relativi al flusso di lavoro è stata aggiunta una procedura su come visualizzare le query SQL nella scheda Registro. [Ulteriori informazioni](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
@@ -279,7 +281,7 @@ Importazione automatica del contenuto da un URL in fase di preparazione. [Ulteri
 
 ### Altri aggiornamenti della documentazione forniti con il rilascio {#other-documentation-updates-coming-with-the-release-4}
 
-Aggiunta di una nuova nota tecnica sul protocollo e sulle impostazioni di connettore SMS. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+Aggiunta di una nuova nota tecnica sul protocollo e sulle impostazioni di connettore SMS. [Read more](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Aggiornamento dell'integrazione Experience Manager con la documentazione di Adobe Campaign. [Ulteriori informazioni](../../reporting/using/creating-a-custom-profile-dimension.md)
 
