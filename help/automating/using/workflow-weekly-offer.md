@@ -15,7 +15,7 @@ context-tags: flusso di lavoro, casi d'uso, query, consegna, pianificazione
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -37,14 +37,13 @@ Potete inviare un messaggio e-mail ogni martedì a tutti i clienti per Offerte s
 1. Selezionate un **[!UICONTROL Time]** 'e-mail **[!UICONTROL Repetition frequency]** per le consegne.
 1. In **[!UICONTROL Days of the week]**, seleziona **[!UICONTROL Tuesday]**.
 1. Specificate un **[!UICONTROL Start]** parametro e **[!UICONTROL Expiration]** un parametro per il flusso di lavoro.
+1. Confermate l'attività e salvate il flusso di lavoro.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >Per avviare il flusso di lavoro in una **[!UICONTROL Time Zone]****[!UICONTROL Execution options]** scheda specifica, impostate il fuso orario per il pianificatore nel campo Fuso orario.
-
-1. Confermate l'attività e salvate il flusso di lavoro.
 
 ## Creazione di un'attività query{#creating-a-query-activity}
 
