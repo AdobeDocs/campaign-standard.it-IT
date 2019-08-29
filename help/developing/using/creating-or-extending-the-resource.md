@@ -14,12 +14,12 @@ discoiquuid: 8 dc 45 c 37-6908-407 e -8 e 41-4 a 4188 cba 2 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7c7a46fdba2395c773582923c6bd647c2d6c9d6
+source-git-commit: 50620788c05b76cc2f69c19c26f968ca15a02048
 
 ---
 
 
-# Creating or extending the resource{#creating-or-extending-the-resource}
+# Creazione o estensione della risorsa{#creating-or-extending-the-resource}
 
 Gli amministratori possono creare una nuova risorsa da zero o creare un'estensione di una risorsa esistente per lavorare sui dati che non fanno parte del modello dati predefinito.
 
@@ -37,7 +37,7 @@ Possono essere estese solo le seguenti risorse out-of-the-box:
 
 Per creare o estendere una risorsa:
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom Resources]**, click the **[!UICONTROL Create]** button.
+1. Da **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom Resources]**, fate clic sul **[!UICONTROL Create]** pulsante.
 1. Scegliete l'azione da eseguire:
 
    * **[!UICONTROL Create a new resource]**: Immettere i **[!UICONTROL Label]****[!UICONTROL ID]** campi e i campi. **[!UICONTROL ID]** Il campo è obbligatorio. Se lasciate vuoto il campo Etichetta, questo verrà automaticamente completato dall'ID.
@@ -46,12 +46,12 @@ Per creare o estendere una risorsa:
 
       >[!NOTE]
       >
-      >Consigliamo di utilizzare il massimo di 30 caratteri.
+      >È consigliabile utilizzare il massimo di 30 caratteri.
 
    * **[!UICONTROL Extend an existing resource]**: Selezionate la risorsa da estendere.
 
       ![](assets/schema_extension_10.png)
 
-1. Click **[!UICONTROL Create]** to create the resource, which will then take on the **[!UICONTROL Draft]** status in case of new resource or the **[!UICONTROL Editing]** status in case of extension.
+1. Fate clic per **[!UICONTROL Create]** creare la risorsa, che assumerà **[!UICONTROL Draft]** lo stato in caso di nuova risorsa o **[!UICONTROL Editing]** dello stato in caso di estensione.
 
-La nuova risorsa viene creata e ora può essere configurata. For more on resource configuration, refer to [Configuring the resource's data structure](../../developing/using/configuring-the-resource-s-data-structure.md).
+La nuova risorsa viene creata e ora può essere configurata. Per ulteriori informazioni sulla configurazione delle risorse, consultate [Configurazione della struttura dati della risorsa](../../developing/using/configuring-the-resource-s-data-structure.md).
