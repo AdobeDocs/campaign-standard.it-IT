@@ -15,7 +15,7 @@ context-tags: flusso di lavoro, casi di utilizzo, segmentazione
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ Potete inviare un messaggio e-mail ai clienti: uno per i client creati meno di u
 1. Passa il cursore del mouse sul segmento e fai clic ![](assets/edit_darkgrey-24px.png) sui clienti aggiunti quest'anno nel database.
 1. Trascinate **[!UICONTROL Profiles]** e selezionate **[!UICONTROL Created]** il tipo **[!UICONTROL Relative]** di filtro.
 1. Modificate **[!UICONTROL Level of precision]** e **[!UICONTROL Year]** selezionate **[!UICONTROL This year]**.
-
->[!NOTE]
->
->Per osservare la struttura della regola, fate clic **[!UICONTROL Advanced Mode]** su.
-
 1. Fate clic **[!UICONTROL Confirm]** due volte.
 1. In **[!UICONTROL Advanced Options]**, verifica **[!UICONTROL Generate complement]** di creare un segmento con i destinatari rimanenti.
 1. Click **[!UICONTROL Confirm]**.
 1. Click **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>Per osservare la struttura della regola, fate clic **[!UICONTROL Advanced Mode]** su.
 
 ## Creazione di una consegna e-mail {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ Potete inviare un messaggio e-mail ai clienti: uno per i client creati meno di u
 1. Per creare il layout dell'e-mail, fai clic **[!UICONTROL Email Designer]** su.
 1. Inserire elementi o selezionare un modello esistente.
 1. Personalizzate l'e-mail con offerte specifiche per ogni consegna.
-
-Per ulteriori informazioni, fare riferimento [alla progettazione di un messaggio e-mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-
 1. Fate clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Click **[!UICONTROL Save]**.
+
+Per ulteriori informazioni, fare riferimento [alla progettazione di un messaggio e-mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 
 **Argomenti correlati:**
 
