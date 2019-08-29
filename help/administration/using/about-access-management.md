@@ -14,29 +14,29 @@ discoiquuid: 54028 f 63-c 9 ca -4397-a 079-e 27 e 0 cfdebf 6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25fd443c580d83eb4de0a8becfcbae8f450525cb
+source-git-commit: 52547aedf10cfaf8e4edf0b496d6bf108e8c41f6
 
 ---
 
 
-# About access management{#about-access-management}
+# Informazioni sulla gestione degli accessi{#about-access-management}
 
 Adobe Campaign consente di definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o rifiutano l'accesso a determinate funzionalità o oggetti nell'interfaccia. Queste autorizzazioni sono basate su due concetti:
 
-* **Unità organizzative**: Queste consentono di definire una gerarchia di autorizzazioni sui diversi oggetti della piattaforma (e-mail, flussi di lavoro, modelli, utenti, profili, ecc.). Refer to the [Organizational units](../../administration/using/organizational-units.md) section.
-* **Ruoli**: Un insieme di diritti unitarie che consentono di definire le autorizzazioni assegnate a utenti e gruppi di utenti. Refer to the [List of roles](../../administration/using/list-of-roles.md) section.
+* **Unità organizzative**: Queste consentono di definire una gerarchia di autorizzazioni sui diversi oggetti della piattaforma (e-mail, flussi di lavoro, modelli, utenti, profili, ecc.). Fate riferimento [alla sezione Unità](../../administration/using/organizational-units.md) aziendali.
+* **Ruoli**: Un insieme di diritti unitarie che consentono di definire le autorizzazioni assegnate a utenti e gruppi di utenti. Fate riferimento alla [sezione Elenco di ruoli](../../administration/using/list-of-roles.md) .
 
-   Combinando le unità organizzative, i ruoli offrono agli utenti una vista filtrata dell'interfaccia e definiscono il loro accesso alle diverse funzioni. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   Combinando le unità organizzative, i ruoli offrono agli utenti una vista filtrata dell'interfaccia e definiscono il loro accesso alle diverse funzioni. Per ulteriori informazioni, fare riferimento alla tabella [Authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 >[!CAUTION]
 >
->La funzionalità relativa all'unità geografica è stata rimossa. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>La funzionalità relativa all'unità geografica è stata rimossa. Per ulteriori informazioni, consultate questa [pagina](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
-Roles, groups, and organizational units can be managed by the functional administrator of the platform, under the **[!UICONTROL Administration > Users & Security]** menu.
+Ruoli, gruppi e unità organizzative possono essere gestiti dall'amministratore funzionale della piattaforma, sotto il **[!UICONTROL Administration > Users & Security]** menu.
 
 ![](assets/user_management_1.png)
 
-Users are managed in the Admin console (refer to the [Managing groups and users](../../administration/using/managing-groups-and-users.md) section or the [Admin console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+Gli utenti vengono gestiti in Admin Console (fare riferimento alla [sezione Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md) o alla [documentazione](https://helpx.adobe.com/enterprise/managing/user-guide.html)della console Admin).
 
 ![](assets/user_management_6.png)
 
