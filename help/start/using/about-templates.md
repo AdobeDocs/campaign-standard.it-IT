@@ -14,7 +14,7 @@ discoiquuid: 95218 ebe -5430-42 a 2-b 900-1 dadbbc 92 d 99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -58,15 +58,15 @@ I modelli di contenuto HTML sono accessibili dalla schermata **[!UICONTROL Resou
 
 ![](assets/content_templates_list.png)
 
-I modelli di contenuto forniti sono di sola lettura. Per modificarne uno, occorre prima duplicarlo.
+I modelli di contenuto forniti sono di sola lettura. Per modificarne uno, occorre prima duplicare il modello desiderato.
 
 È possibile creare nuovi modelli o frammenti e definire i propri contenuti. Per ulteriori informazioni, vedere [Creazione di un modello di contenuto](../../start/using/about-templates.md#creating-a-content-template) e [Creazione di un frammento di contenuto](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-Quando si modificano i contenuti con E-mail Designer, è inoltre possibile creare dei modelli di contenuto salvando i contenuti come frammento o modello. Per ulteriori informazioni, vedere [Salvataggio del contenuto come modello](../../start/using/about-templates.md#saving-content-as-template) e [Salvataggio del contenuto come frammento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+Quando si modificano i contenuti con E-mail Designer, è inoltre possibile creare dei modelli di contenuto salvando il contenuto come frammento o come modello. Per ulteriori informazioni, vedere [Salvataggio del contenuto come modello](../../start/using/about-templates.md#saving-content-as-template) e [Salvataggio del contenuto come frammento](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
 ### Modelli di contenuto e-mail forniti tramite e-mail {#email-content-templates}
 
-È possibile gestire i contenuti HTML disponibili nella **[!UICONTROL Templates]** scheda della [home page di Designer di](../../designing/using/about-email-content-design.md#about-the-email-designer) e-mail.
+È possibile gestire il contenuto HTML offerta nella **[!UICONTROL Templates]** scheda della home page [di Designer di](../../designing/using/about-email-content-design.md#about-the-email-designer) e-mail.
 
 I modelli di contenuto e-mail forniti includono diciotto layout ottimizzati per dispositivi mobili e quattro modelli reattivi di alta classe progettati dagli artisti Behance. Corrispondono agli utilizzi più recenti quali messaggi di benvenuto clienti, newsletter e e-mail di ripartecipazione. Possono essere personalizzati con il contenuto dei marchi per semplificare il processo di progettazione e-mail da zero.
 
