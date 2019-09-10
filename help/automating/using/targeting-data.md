@@ -14,37 +14,43 @@ discoiquuid: 382 ea 74 e -1662-4 c 64-96 d 7-676040586913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Targeting data{#targeting-data}
+# Targeting dei dati{#targeting-data}
 
-## Selecting data {#selecting-data}
+## Selezione dei dati {#selecting-data}
 
 Potete selezionare i dati utilizzando le attività seguenti:
 
-* The **[!UICONTROL Query]** activity allows you to filter and extract a population of elements from the Adobe Campaign database. See the [Query](../../automating/using/query.md) section.
-* The **[!UICONTROL Incremental query]** activity allows you to filter and extract a population of elements from the Adobe Campaign database. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Questo consente di eseguire il targeting solo di elementi nuovi Vedere la sezione. [Sezione query incrementale](../../automating/using/incremental-query.md) .
-* The **[!UICONTROL Read audience]** activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.See the [Read audience](../../automating/using/read-audience.md) section.
+* L' **[!UICONTROL Query]** attività consente di filtrare ed estrarre una popolazione di elementi dal database Adobe Campaign. Consultate la sezione [Query](../../automating/using/query.md) .
+* L' **[!UICONTROL Incremental query]** attività consente di filtrare ed estrarre una popolazione di elementi dal database Adobe Campaign. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Questo consente di eseguire il targeting solo di elementi nuovi Vedere la sezione. [Sezione query incrementale](../../automating/using/incremental-query.md) .
+* L' **[!UICONTROL Read audience]** attività consente di recuperare un'audience esistente e di perfezionarla applicando condizioni [di filtro aggiuntive. Consultate la](../../automating/using/read-audience.md) sezione Leggi audience.
 
-## Segmenting data {#segmenting-data}
+## Segmentazione dei dati {#segmenting-data}
 
 Adobe Campaign consente di elaborare i set sui dati in entrata. Potete quindi combinare diverse popolazioni, escluderne parte o mantenere solo i dati comuni a più destinazioni.
 
-* The **[!UICONTROL Union]** activity allows you to regroup the result of multiple activities into a single target. See the [Union](../../automating/using/union.md) section.
-* The **[!UICONTROL Intersection]** activity allows you to keep only the elements common to the different inbound populations in the activity. See the [Intersection](../../automating/using/intersection.md) section.
-* The **[!UICONTROL Exclusion]** activity allows you to exclude elements from one population according to certain criteria. See the [Exclusion](../../automating/using/exclusion.md) section.
-* The **[!UICONTROL Segmentation]** activity lets you create one or several segments from a population calculated by activities placed earlier in the workflow. Alla fine dell'attività, possono essere elaborate con una singola transizione o con transizioni diverse. See the [Segmentation](../../automating/using/segmentation.md) section.
+* L' **[!UICONTROL Union]** attività consente di riportare il risultato di più attività in una singola destinazione. Consultate la sezione [Unione](../../automating/using/union.md) .
+* L' **[!UICONTROL Intersection]** attività consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata dell'attività. Consultate Sezione [Intersezione](../../automating/using/intersection.md) .
+* L' **[!UICONTROL Exclusion]** attività consente di escludere gli elementi di una popolazione in base a determinati criteri. Vedere la sezione [Esclusione](../../automating/using/exclusion.md) .
+* L' **[!UICONTROL Segmentation]** attività consente di creare uno o più segmenti da una popolazione calcolata in base alle attività inserite in precedenza nel flusso di lavoro. Alla fine dell'attività, possono essere elaborate con una singola transizione o con transizioni diverse. Consulta la sezione [Segmentazione](../../automating/using/segmentation.md) .
 
-## Enriching data {#enriching-data}
+## Arricchimento dei dati {#enriching-data}
 
 I dati identificati e raccolti possono essere arricchiti, aggregati e manipolati per ottimizzare la costruzione di target. Potete semplificare e ottimizzare i processi di targeting includendo dati non modellati nel mart dati.
 
-The **[!UICONTROL Additional data]** tab of the **[!UICONTROL Query]** and **[!UICONTROL Incremental query]** activities allows you to enrich the data targeted by the query and transfer this data to the following workflow activities, where it can be utilized. In particolare, potete aggiungere:
+La **[!UICONTROL Additional data]** scheda delle **[!UICONTROL Query]** attività e **[!UICONTROL Incremental query]** consente di arricchire i dati mirati dalla query e di trasferire questi dati alle seguenti attività del flusso di lavoro, dove può essere utilizzato. In particolare, potete aggiungere:
 
 * Dati semplici
 * Aggregati
 * Raccolte
 
+**Argomenti correlati**
+
+* [Caso d'uso: Creazione di una consegna e-mail una tantum](../../automating/using/workflow-weekly-offer.md)
+* [Caso d'uso: Creazione di una distribuzione segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
+* [Caso d'uso: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso d'uso: Flusso di lavoro di retargeting che invia una nuova consegna a non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
