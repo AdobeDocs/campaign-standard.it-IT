@@ -14,30 +14,33 @@ discoiquuid: 40503917-7 a 53-4 d 99-96 a 4-57 aa 9 e 98 ec 87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Discovering workflows{#discovering-workflows}
+# Individuazione dei flussi di lavoro{#discovering-workflows}
 
-Adobe Campaign offers a comprehensive [graphical environment](../../automating/using/workflow-interface.md) that allows you to design [complex processes](../../automating/using/workflow-operating-principles.md) including segmentation, campaign execution, file processing, approvals, etc. Principles and best practices are described in [this section](../../automating/using/building-a-workflow.md).
+Adobe Campaign offre un ambiente [grafico completo](../../automating/using/workflow-interface.md) che consente di progettare [processi](../../automating/using/workflow-operating-principles.md) complessi, quali segmentazione, esecuzione di campagne, elaborazione file, approvazioni ecc. I principi e le procedure ottimali sono descritti in [questa sezione](../../automating/using/building-a-workflow.md).
 
 Ad esempio, potete utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo, quindi importarne i record nel database Adobe Campaign.
 
 Un flusso di lavoro può anche coinvolgere gli utenti assegnando loro attività o invitando le attività eseguite. Ciò significa che potete assegnare un'attività a uno o più utenti per lavorare sul contenuto o specificare target, nonché approvare le prove prima di inviare il messaggio.
 
-Workflows can be used in **different contexts**, as for example:
+I flussi di lavoro possono essere utilizzati in **contesti** diversi, ad esempio:
 
-* Targeting per gestire audience o inviare messaggi. For more on this, refer to [Channel activities](../../automating/using/about-channel-activities.md) and [Targeting activities](../../automating/using/about-targeting-activities.md).
-* Gestione dati (ETL) per manipolare i dati. For more on this, refer to [Data management activities](../../automating/using/about-data-management-activities.md).
-* Importazione di dati nel database Campagna. For more on this, refer to [Importing and exporting data](../../automating/using/about-data-import-and-export.md).
-* Processi tecnici come pulizia del database, recupero delle informazioni di tracciamento, ecc. Learn more about technical workflows in [this section](../../administration/using/technical-workflows.md).
+* Targeting per gestire audience o inviare messaggi. Per ulteriori informazioni, fai riferimento alle attività [Canale](../../automating/using/about-channel-activities.md) e [alle attività Targeting](../../automating/using/about-targeting-activities.md).
+* Gestione dati (ETL) per manipolare i dati. Per ulteriori informazioni, consultate Attività di gestione [dei dati](../../automating/using/about-data-management-activities.md).
+* Importazione di dati nel database Campagna. Per ulteriori informazioni, consultate [Importare ed esportare i dati](../../automating/using/about-data-import-and-export.md).
+* Processi tecnici come pulizia del database, recupero delle informazioni di tracciamento, ecc. Scopri ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](../../administration/using/technical-workflows.md).
 
-I flussi di lavoro sono inoltre accessibili dall'API standard di Adobe Campaign. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+I flussi di lavoro sono inoltre accessibili dall'API standard di Adobe Campaign. Per ulteriori informazioni, consulta la documentazione [dedicata](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
 
 **Argomenti correlati:**
 
 * [Principi operative del flusso di lavoro](../../automating/using/workflow-operating-principles.md)
 * [Informazioni sull'importazione e l'esportazione di dati](../../automating/using/about-data-import-and-export.md)
-
+* [Caso d'uso: Creazione di una consegna e-mail una tantum](../../automating/using/workflow-weekly-offer.md)
+* [Caso d'uso: Creazione di una distribuzione segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
+* [Caso d'uso: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso d'uso: Flusso di lavoro di retargeting che invia una nuova consegna a non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
