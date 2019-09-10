@@ -15,14 +15,14 @@ context-tags: Queryfilter, overview; audience, principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Editing queries{#editing-queries}
+# Modifica delle query{#editing-queries}
 
-## About query editor {#about-query-editor}
+## Informazioni sull'editor query {#about-query-editor}
 
 L'editor query è una procedura guidata che consente di filtrare i dati contenuti nel database Adobe Campaign.
 
@@ -30,13 +30,13 @@ Questa funzione consente di creare una popolazione per un targeting migliore dei
 
 Diverse funzionalità dell'applicazione lo utilizzano per:
 
-* Create **Query** type **audiences**
-* Define **email** targets
-* Define populations in **workflow** activities
+* Creare **audience** di tipo **Query**
+* Definire **target e-mail**
+* Definire le popolazioni nelle **attività del flusso di lavoro**
 
-## Query editor interface {#query-editor-interface}
+## Interfaccia dell'editor Query {#query-editor-interface}
 
-The query editor is made up of a **Palette** and a **Workspace**.
+L'editor query è composto da **una palette** e da un **'area di lavoro**.
 
 ![](assets/query_editor_overview.png)
 
@@ -47,53 +47,53 @@ La palette, posizionata sul lato sinistro dell'editor, è divisa in due schede c
 * **Le scelte rapide**, per impostazione predefinita, oppure create dall'amministratore dell'istanza. Qui troverai campi, nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N e altri filtri predefiniti.
 * **Esplora risorse** consente di accedere a tutti i campi disponibili nella risorsa di destinazione: nodi, elementi di raggruppamento, collegamenti (1-1 e 1-N).
 
-Gli elementi contenuti nelle schede devono essere spostati nell'area di lavoro per essere configurati e presi in considerazione per la query. Depending on the targeting dimension selected (see [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)), you can:
+Gli elementi contenuti nelle schede devono essere spostati nell'area di lavoro per essere configurati e presi in considerazione per la query. A seconda della dimensione di targeting selezionata (consultate [Dimensioni e risorse Targeting](../../automating/using/query.md#targeting-dimensions-and-resources)), potete:
 
 * Selezione di tipi di pubblico o profili uno per uno
 * Usare filtri predefiniti
 * Definire regole semplici per i campi scelti
 * Definire regole avanzate che consentono di applicare funzioni a determinati campi
 
-### Workspace {#workspace}
+### Area di lavoro {#workspace}
 
 L'area di lavoro è la zona centrale in cui potete configurare e combinare regole, tipi di pubblico e filtri predefiniti aggiunti dalla palette.
 
-When you move an element from the palette into the workspace, a new window opens and you can start [Creating queries](../../automating/using/editing-queries.md#creating-queries).
+Quando si sposta un elemento dalla palette nell'area di lavoro, si apre una nuova finestra e si può avviare [la creazione di query](../../automating/using/editing-queries.md#creating-queries).
 
-## Creating queries {#creating-queries}
+## Creazione di query {#creating-queries}
 
 L'editor query può essere utilizzato per definire un'audience o eseguire il test del profilo in un messaggio, una popolazione in un flusso di lavoro e per creare un'audience di tipo «tipo di query».
 
-Queries can be defined in the **[!UICONTROL Audience]** window while creating a delivery or in a **Query** activity while creating a workflow.
+Le query possono essere definite nella **[!UICONTROL Audience]** finestra durante la creazione di una consegna o in un'attività **Query** durante la creazione di un flusso di lavoro.
 
 1. Spostare un elemento dalla palette nell'area di lavoro. Viene aperta la finestra per la modifica della regola.
 
-   * For a string or numerical **field**, specify the comparison operator and the value.
+   * Per un **campo** stringa o numerico, specificate l'operatore di confronto e il valore.
 
       ![](assets/query_editor_audience_definition2.png)
 
-   * For a date or date and time **field**, you can choose to define a specific date, a range between two dates, or a period relative to the query's execution date.
+   * Per un **campo data o data e ora**, potete scegliere di definire una data specifica, un intervallo tra due date o un punto rispetto alla data di esecuzione della query.
 
       ![](assets/query_editor_date_field.png)
 
-   * For a Boolean **field**, check the boxes linked to the possible values for the field.
-   * For a **grouping** field, select the grouping field on which you want to create the rule, then define the condition in the same way as for the other fields.
+   * Per un **campo** booleano, controllate le caselle collegate ai possibili valori per il campo.
+   * Per un **campo di raggruppamento** , seleziona il campo di raggruppamento su cui vuoi creare la regola, quindi definisci la condizione come per gli altri campi.
 
       ![](assets/query_editor_audience_definition4.png)
 
-   * For a **1-1** link with another database resource, select a value directly from the table targeted.
+   * Per un **collegamento 1-1** con un'altra risorsa di database, selezionate un valore direttamente dalla tabella con targeting.
 
       ![](assets/query_editor_audience_definition5.png)
 
-   * For a **1-N** link with another database resource, you can define a sub-query on the fields of this second resource.
+   * Per un **collegamento 1-N** con un'altra risorsa di database, potete definire una sottoquery sui campi di questa seconda risorsa.
 
       Non è necessario specificare una condizione secondaria.
 
-      For example, you can only select the **[!UICONTROL Exists]** operator on the profile tracking logs and approve the rule. La regola restituirà tutti i profili per i quali esistono i registri di tracciamento.
+      Ad esempio, potete selezionare l' **[!UICONTROL Exists]** operatore solo nei registri di tracciamento profilo e approvare la regola. La regola restituirà tutti i profili per i quali esistono i registri di tracciamento.
 
       ![](assets/query_editor_audience_definition6.png)
 
-   * For a **predefined filter**, enter or select the elements you like according to the criteria offered.
+   * Per un filtro **** predefinito, immettete o selezionate gli elementi desiderati in base ai criteri offerti.
 
       Gli amministratori possono creare filtri per facilitare query complesse e ripetitive. Queste vengono visualizzate nell'editor query sotto forma di regole pre-configurate e limitano il numero di passaggi necessari per eseguire l'utente.
 
@@ -106,7 +106,7 @@ Queries can be defined in the **[!UICONTROL Audience]** window while creating a 
    * **[!UICONTROL OR]**: un'unione di due criteri. Gli elementi che corrispondono ad almeno uno dei due criteri vengono considerati.
    * **[!UICONTROL EXCEPT]**: criteri di esclusione. Gli elementi che corrispondono al primo criterio vengono considerati a meno che non corrispondano al secondo criterio.
 
-1. You can now calculate and preview the number of elements targeted by your query using the ![](assets/count.png) and ![](assets/preview.png) buttons from the action bar.
+1. Ora potete calcolare e visualizzare in anteprima il numero di elementi interessati dalla query utilizzando i ![](assets/count.png) pulsanti e i ![](assets/preview.png) pulsanti dalla barra delle azioni.
 
    ![](assets/query_editor_combining_rules.png)
 
@@ -118,4 +118,7 @@ Le query sono ora create e definite, il che consente di creare una popolazione p
 
 * [Funzioni avanzate](../../automating/using/advanced-expression-editing.md)
 * [Definizione dei filtri](../../developing/using/configuring-filter-definition.md)
-
+* [Caso d'uso: Creazione di una consegna e-mail una tantum](../../automating/using/workflow-weekly-offer.md)
+* [Caso d'uso: Creazione di una distribuzione segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
+* [Caso d'uso: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso d'uso: Flusso di lavoro di retargeting che invia una nuova consegna a non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
