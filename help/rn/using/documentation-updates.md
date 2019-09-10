@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
+source-git-commit: 815a0aba5a31346e3cd8dcaf0c24ee311da81ed1
 
 ---
 
@@ -26,6 +26,14 @@ Scopri tutti gli ultimi aggiornamenti per la documentazione di Adobe Campaign St
 Questa pagina elenca tutte le nuove funzioni e gli aggiornamenti della documentazione per ogni versione di Adobe Campaign Standard.
 
 Puoi anche consultare le Note [sulla versione di Adobe Campaign](../../rn/using/release-notes.md).
+
+## Aggiornamenti della documentazione - Settembre 2019 {#doc-updates-september-2019}
+
+Nella sezione Notifiche push è stata aggiunta una nuova sezione su come creare e aggiornare le informazioni sul profilo in base ai dati di iscrizione dell'applicazione mobile. [Ulteriori informazioni](../../channels/using/updating-profile-with-mobile-app-data.md)
+
+È stato aggiunto un nuovo esempio che mostra come inviare un messaggio e-mail contenente dati aggiuntivi recuperati da un'attività del file di caricamento. [Ulteriori informazioni](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+
+È stata aggiunta una nuova sezione sulla modalità di utilizzo delle abbondanze. [Ulteriori informazioni](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
 
 ## Aggiornamenti della documentazione - Agosto 2019 {#doc-updates-august-2019}
 
@@ -281,7 +289,7 @@ Importazione automatica del contenuto da un URL in fase di preparazione. [Ulteri
 
 ### Altri aggiornamenti della documentazione forniti con il rilascio {#other-documentation-updates-coming-with-the-release-4}
 
-Aggiunta di una nuova nota tecnica sul protocollo e sulle impostazioni di connettore SMS. [Read more](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+Aggiunta di una nuova nota tecnica sul protocollo e sulle impostazioni di connettore SMS. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Aggiornamento dell'integrazione Experience Manager con la documentazione di Adobe Campaign. [Ulteriori informazioni](../../reporting/using/creating-a-custom-profile-dimension.md)
 
