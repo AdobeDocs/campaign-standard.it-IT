@@ -15,7 +15,7 @@ context-tags: flusso di lavoro, casi d'uso, query, consegna, pianificazione
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -52,6 +52,8 @@ Potete inviare un messaggio e-mail ogni martedì a tutti i clienti per Offerte s
 1. Selezionare **[!UICONTROL is not empty]** come operatore.
 1. In **[!UICONTROL Shortcuts]** &gt; **[!UICONTROL General]**, aggiungete profili e selezionate **[!UICONTROL no longer contact by email]** insieme al valore **[!UICONTROL No]**.
 1. Click **[!UICONTROL Confirm]**.
+
+![](assets/wf-complement-query.png)
 
 ## Creazione di una consegna e-mail{#creating-an-email-delivery}
 
