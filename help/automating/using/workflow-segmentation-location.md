@@ -15,7 +15,7 @@ context-tags: 'flusso di lavoro, casi di utilizzo, query, segmentazione, consegn
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -35,6 +35,8 @@ Potete inviare un messaggio e-mail di targeting ai clienti con offerte nei negoz
 1. In **[!UICONTROL Shortcuts]**, trascinate **[!UICONTROL Profiles]** e selezionate il campo **[!UICONTROL email]** con l'operatore **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]**, trascinate **[!UICONTROL Profiles]** e selezionate il campo **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.
 1. Fate clic **[!UICONTROL Confirm]** due volte.
+
+![](assets/wf-complement-query.png)
 
 ## Creazione di un'attività di segmentazione{#creating-a-segmentation-activity}
 
@@ -63,6 +65,8 @@ Per ulteriori informazioni, fare riferimento [alla progettazione di un messaggio
 
 1. Fate clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-segmentation-location.png)
 
 **Argomenti correlati:**
 
