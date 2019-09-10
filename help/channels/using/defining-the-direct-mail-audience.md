@@ -15,31 +15,33 @@ context-tags: delivery, directmailcontent, back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
 
 
-# Defining the direct mail audience{#defining-the-direct-mail-audience}
+# Definizione del pubblico di posta diretta{#defining-the-direct-mail-audience}
 
 You can either define the audience in the creation wizard or by clicking on the **Audience** section of the delivery dashboard.
 
 ![](assets/direct_mail_15.png)
 
-## Defining the main target {#defining-the-main-target}
+## Definizione della destinazione principale {#defining-the-main-target}
 
 Per la posta diretta, i profili di destinazione sono quelli che verranno inclusi nel file di estrazione che invierete al provider di posta diretta.
 
-Per ogni profilo di destinazione, nel file di estrazione viene aggiunta una nuova linea. The amount of profile information that will be included for each recipient is defined in the [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) screen.
+Per ogni profilo di destinazione, nel file di estrazione viene aggiunta una nuova linea. La quantità di informazioni sul profilo che verranno incluse per ciascun destinatario è definita nella schermata [di estrazione](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) .
 
 >[!CAUTION]
 >
->Accertatevi che i profili includano un indirizzo postale in quanto queste informazioni sono essenziali per il provider di posta diretta. Also make sure you have checked the **[!UICONTROL Address specified]** box in your profiles' information. See [Recommendations](../../channels/using/about-direct-mail.md#recommendations).
+>Accertatevi che i profili includano un indirizzo postale in quanto queste informazioni sono essenziali per il provider di posta diretta. Verificate inoltre di aver selezionato la **[!UICONTROL Address specified]** casella nelle informazioni dei profili. Vedete [Recommendations](../../channels/using/about-direct-mail.md#recommendations).
 
-## Adding test and trap profiles {#adding-test-and-trap-profiles}
+## Aggiunta di profili di test e abbondanza {#adding-test-and-trap-profiles}
 
-Aggiungete profili di prova in modo da poter sottoporre a test il file con un numero limitato di profili. Consente di creare rapidamente un esempio di file per verificare e convalidare la struttura prima di preparare il file effettivo. Refer to [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Aggiungete profili di prova in modo da poter sottoporre a test il file con un numero limitato di profili. Consente di creare rapidamente un esempio di file per verificare e convalidare la struttura prima di preparare il file effettivo. Consultate [Gestione dei profili di prova e Invio delle prove](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-L'utilizzo delle abbondanze è essenziale per le consegne di posta diretta. Ad esempio, consentono di verificare che il provider di posta diretta stia inviando effettivamente la comunicazione e che non invii l'elenco dei client a un altro fornitore.
+L'utilizzo delle abbondanze è essenziale per le consegne di posta diretta. Consentono di verificare che il provider di posta diretta stia inviando effettivamente la comunicazione e che non invii l'elenco dei client a un altro fornitore. Vedere [Uso delle abbondanze](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
-Per le consegne di posta diretta, le abbondanze vengono aggiunte durante l'estrazione e nel documento di output. By default, they are inserted in the sorting order of the output file, but you can choose to insert them at the end or the beginning of the file ( **[!UICONTROL Trap insertion mode]** tab).
+Per le consegne di posta diretta, le abbondanze vengono aggiunte durante l'estrazione e nel documento di output. Per impostazione predefinita, vengono inseriti nell'ordinamento del file di output, ma potete scegliere di inserirli all'inizio o all'inizio del file. Quando definite il pubblico, selezionate l'opzione desiderata dalla **[!UICONTROL Trap insertion mode]** scheda.
+
+![](assets/direct_mail_trap_insertion_mode.png)
