@@ -15,7 +15,7 @@ context-tags: 'flusso di lavoro, casi d''uso, query, attesa, consegna '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Potete inviare un messaggio e-mail ai clienti e quindi inviarli a coloro che non
 1. In **[!UICONTROL Shortcuts]**, trascinate **[!UICONTROL Profiles]** e selezionate **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no ]**.
 1. Click **[!UICONTROL Confirm]**.
 
+![](assets/wf-complement-query.png)
+
 ## Creazione di un'e-mail di consegna{#creating-an-email-delivery}
 
 1. Trascina un****[!UICONTROL Email delivery]e-mail di consegna dopo ogni segmento.
@@ -44,7 +46,6 @@ Potete inviare un messaggio e-mail ai clienti e quindi inviarli a coloro che non
 1. Selezionate **[!UICONTROL Add an outbound transition without the population]** e fate clic **[!UICONTROL Next]** su.
 1. Selezionate un modello e-mail e fate clic **[!UICONTROL Next]** su.
 1. Immettete le proprietà e-mail e fate clic **[!UICONTROL Next]** su.
-1. Rinominare l'offerta **e-mail di posta** elettronica.
 1. Per creare il layout dell'e-mail, fai clic **[!UICONTROL Using the Email Designer]** su.
 1. Inserire elementi o selezionare un modello esistente.
 1. Personalizzate l'e-mail con offerte specifiche per ogni posizione. Per ulteriori informazioni, consultate [la progettazione di un'e-mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
@@ -76,6 +77,8 @@ Potete inviare un messaggio e-mail ai clienti e quindi inviarli a coloro che non
 Per ulteriori informazioni, fare riferimento [alla progettazione di un SMS](../../channels/using/creating-an-sms-message.md).
 1. Fate clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Click **[!UICONTROL Save]**.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **Argomenti correlati:**
 
