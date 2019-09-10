@@ -15,7 +15,7 @@ context-tags: delivery, mobileappcontent, back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b514387a803de25c6ddcc41bdf0e56692cfa446
+source-git-commit: 64c7de127285ca56b6af398b0a0c3f1470756fe4
 
 ---
 
@@ -105,7 +105,7 @@ Per creare il flusso di lavoro, effettuate le operazioni seguenti:
       ![](assets/update_profile5.png)
 
 1. Configurate l' **[!UICONTROL Update data]** attività.
-   1. Nella **[!UICONTROL Identification]** scheda, accertatevi che la dimensione **[UICONTROL di aggiornamento]** sia impostata su "Profili (profilo)", quindi fate clic sul **[!UICONTROL Create element]** pulsante per aggiungere un campo come criterio di riconciliazione.
+   1. Nella **[!UICONTROL Identification]** scheda, accertatevi che il **[!UICONTROL Dimension to update]** campo sia impostato su "Profili (profilo)", quindi fate clic sul **[!UICONTROL Create element]** pulsante per aggiungere un campo come criterio di riconciliazione.
 
       ![](assets/update_profile_createelement.png)
 
@@ -115,7 +115,7 @@ Per creare il flusso di lavoro, effettuate le operazioni seguenti:
       ![](assets/update_profile7.png)
 
    1. Nella **[!UICONTROL Fields to update]** scheda, fai clic sul **[!UICONTROL Create element]** pulsante, quindi mappi i campi provenienti dalla tabella appsubscriptionrcp (**[!UICONTROL Source]** campo) con i campi che desideri aggiornare nella tabella Profilo (**[!UICONTROL Destination]** campo).
-   1. Nel **[!UICONTROL Enabled if]** campo, aggiungere un'espressione per fare in modo che il campo corrispondente nella tabella Profilo venga aggiornato solo se il campo sorgente contiene un valore. A tal fine, seleziona il campo dall'elenco, quindi aggiungi il messaggio "!= "" (se il campo Sorgente è "[target/@ cusemail]" nell'Editor espressioni, assicuratevi di digitare[] "target/@ cusemsem!!"= "").
+   1. Nel **[!UICONTROL Enabled if]** campo, aggiungere un'espressione per fare in modo che il campo corrispondente nella tabella Profilo venga aggiornato solo se il campo sorgente contiene un valore. A tal fine, seleziona il campo dall'elenco, quindi aggiungi il messaggio "!= "" (se il campo Sorgente è `[target/@cusEmail]` nell'Editor espressioni, assicuratevi di digitare `[target/@cusEmail] != ''"`).
 
       ![](assets/update_profile8.png)
 
