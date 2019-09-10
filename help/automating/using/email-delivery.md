@@ -15,28 +15,28 @@ context-tags: distribuzione, flusso di lavoro principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Email delivery{#email-delivery}
+# Consegna e-mail{#email-delivery}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/email.png)
 
 ![](assets/recurrentemail.png)
 
-The **[!UICONTROL Email delivery]** activity allows you to configure sending an email in a workflow. This can be a **single send** email and sent just once, or it can be a **recurring** email.
+L' **[!UICONTROL Email delivery]** attività consente di configurare l'invio di un'e-mail in un flusso di lavoro. Può trattarsi di **una sola e-mail inviata** e inviata una sola volta, oppure può essere un **messaggio e-mail ricorrente** .
 
 Le e-mail di invio singolo sono e-mail standard, inviate una volta.
 
 Le e-mail ricorrenti consentono di inviare lo stesso messaggio e-mail più volte a destinazioni diverse in un determinato periodo di tempo. Puoi aggregare le consegne per periodo per ottenere rapporti che corrispondono alle tue esigenze.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Email delivery]** activity is generally used to automate sending an email to a target calculated in the same workflow.
+L **[!UICONTROL Email delivery]** 'attività viene utilizzata in genere per automatizzare l'invio di un'e-mail a una destinazione calcolata nello stesso flusso di lavoro.
 
 Se collegate a un pianificatore, potete definire e-mail ricorrenti.
 
@@ -44,26 +44,26 @@ I destinatari e-mail vengono definiti a monte dell'attività nello stesso flusso
 
 La preparazione del messaggio viene attivata in base ai parametri di esecuzione del flusso di lavoro. Dal pannello del messaggio, potete selezionare se richiedere o meno una conferma manuale per inviare il messaggio (richiesto per impostazione predefinita). Puoi avviare il flusso di lavoro manualmente oppure inserire un'attività pianificatore nel flusso di lavoro per automatizzare l'esecuzione.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop an **[!UICONTROL Email delivery]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. Trascina un **[!UICONTROL Email delivery]** 'attività nel flusso di lavoro.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante dalle azioni rapide visualizzate.
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button from the activity's quick actions. This button is specific to the **[!UICONTROL Email delivery]** activity. Potete accedere alle proprietà dell'e-mail tramite la barra delle azioni nel dashboard e-mail.
+   >Potete accedere alle proprietà generali e alle opzioni avanzate dell'attività (e non della distribuzione stessa) tramite ![](assets/dlv_activity_params-24px.png) il pulsante dalle azioni rapide dell'attività. Questo pulsante è specifico dell' **[!UICONTROL Email delivery]** attività. Potete accedere alle proprietà dell'e-mail tramite la barra delle azioni nel dashboard e-mail.
 
 1. Selezionate la modalità di invio e-mail:
 
    * **[!UICONTROL Email]**: l'e-mail viene inviata una sola volta. Potete specificare qui se desiderate aggiungere una transizione in uscita all'attività. I diversi tipi di transizione sono descritti al punto 7 di questa procedura.
-   * **[!UICONTROL Recurring email]**: il messaggio e-mail viene inviato più volte, a seconda della frequenza definita in un **[!UICONTROL Scheduler]** 'attività. Selezionare il periodo di aggregazione delle mandate. This allows you to regroup all the sends that occur during the defined period in one single email that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
+   * **[!UICONTROL Recurring email]**: il messaggio e-mail viene inviato più volte, a seconda della frequenza definita in un **[!UICONTROL Scheduler]** 'attività. Selezionare il periodo di aggregazione delle mandate. Questo consente di rigenerare tutte le invii che si verificano durante il periodo definito con una sola e-mail denominata **Esecuzione ricorrente** e accessibili dall'elenco delle attività di marketing dell'applicazione.
 
       Ad esempio, per un messaggio e-mail di compleanno ricorrente inviato ogni giorno, potete scegliere di aggregare le mandate al mese. Questo consente di ricevere ogni giorno i rapporti sulla distribuzione, anche se l'e-mail viene inviata ogni giorno.
 
-1. Selezionate un tipo di e-mail. The email types come from email templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** menu.
+1. Selezionate un tipo di e-mail. I tipi di e-mail provengono dai modelli e-mail definiti nel menu **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** .
 1. Inserite le proprietà generali dell'e-mail. Potete allegarlo a una campagna esistente. L'etichetta dell'attività di consegna del flusso di lavoro viene aggiornata con l'etichetta e-mail.
-1. Definite il contenuto dell'e-mail. Refer to the section concerning [content editing](../../designing/using/about-email-content-design.md).
-1. By default, the **[!UICONTROL Email delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL Email delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. Definite il contenuto dell'e-mail. Fare riferimento alla sezione relativa alla modifica [dei contenuti](../../designing/using/about-email-content-design.md).
+1. Per impostazione predefinita, l **[!UICONTROL Email delivery]** 'attività non include transizioni in uscita. Se desiderate aggiungere una transizione in uscita all' **[!UICONTROL Email delivery]** attività, andate alla **[!UICONTROL General]** scheda delle opzioni di attività avanzate ( ![](assets/dlv_activity_params-24px.png) pulsante nelle azioni rapide dell'attività), quindi controllate una delle seguenti opzioni:
 
    * **[!UICONTROL Add outbound transition without the population]**: consente di generare una transizione in uscita contenente la stessa popolazione della transizione in ingresso.
    * **[!UICONTROL Add outbound transition with the population]**: consente di generare una transizione in uscita contenente la popolazione a cui è stata inviata l'e-mail. I membri della destinazione sono esclusi durante la preparazione della consegna (quarantena, e-mail non valida, ecc.) sono esclusi da questa transizione.
@@ -72,37 +72,43 @@ La preparazione del messaggio viene attivata in base ai parametri di esecuzione 
 
 Quando riaprite l'attività, viene portato direttamente al dashboard e-mail. Solo il relativo contenuto può essere modificato.
 
-Per impostazione predefinita, l'avvio di un flusso di lavoro di consegna attiva solo la preparazione del messaggio. L'invio di messaggi creati da un flusso di lavoro deve comunque essere confermato dopo che il flusso di lavoro è stato avviato. But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. Deselezionando questa opzione, i messaggi vengono inviati senza ulteriore preavviso una volta completata la preparazione.
+Per impostazione predefinita, l'avvio di un flusso di lavoro di consegna attiva solo la preparazione del messaggio. L'invio di messaggi creati da un flusso di lavoro deve comunque essere confermato dopo che il flusso di lavoro è stato avviato. Tuttavia, dal pannello del messaggio, e solo se il messaggio è stato creato da un flusso di lavoro, potete disattivare l' **[!UICONTROL Request confirmation before sending messages]** opzione. Deselezionando questa opzione, i messaggi vengono inviati senza ulteriore preavviso una volta completata la preparazione.
 
-## Remarks {#remarks}
+## Commenti {#remarks}
 
 Le consegne create all'interno di un flusso di lavoro sono accessibili nell'elenco delle attività di marketing dell'applicazione. Potete visualizzare lo stato di esecuzione del flusso di lavoro utilizzando il dashboard. I collegamenti nel riquadro di riepilogo delle e-mail consentono di accedere direttamente agli elementi collegati (flusso di lavoro, campagna, consegna padre nel caso di un messaggio e-mail periodico).
 
 ![](assets/wkf_display_recurrent_executions_2.png)
 
-Tuttavia, per impostazione predefinita, le esecuzioni di consegne ricorrenti sono mascherate. To view them, check the **[!UICONTROL Show recurring executions]** option in the marketing activities' search panel.
+Tuttavia, per impostazione predefinita, le esecuzioni di consegne ricorrenti sono mascherate. Per visualizzarle, controllate l' **[!UICONTROL Show recurring executions]** opzione nel pannello di ricerca delle attività di marketing.
 
 ![](assets/wkf_display_recurrent_executions.png)
 
-In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Email delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+Nelle consegne principali, accessibili dall'elenco delle attività di marketing o direttamente tramite le esecuzioni ricorrenti associate, potete visualizzare il numero totale di invii che sono stati elaborati (in base al periodo di aggregazione specificato quando l' **[!UICONTROL Email delivery]** attività è stata configurata). A tal fine, apri la visualizzazione Dettagli del **[!UICONTROL Deployment]** blocco della consegna principale selezionando ![](assets/wkf_dlv_detail_button.png).
 
 ![](assets/wkf_display_recurrent_executions_3.png)
 
-## Example {#example}
+## Esempio {#example}
 
 ![](assets/wkf_delivery_example_1.png)
 
 Questo esempio è un flusso di lavoro di compleanno. Ogni giorno viene inviato un messaggio e-mail a profili il cui compleanno si trova in quel giorno. A tal fine:
 
-* The **[!UICONTROL Scheduler]** allows you to start the workflow every day at 8am.
+* Consente **[!UICONTROL Scheduler]** di avviare il flusso di lavoro ogni giorno alle 8.
 
    ![](assets/wkf_delivery_example_2.png)
 
-* The **[!UICONTROL Query]** activity allows you to calculate the profiles who have provided an email and whose birthday it is on the current day, every time the workflow is executed. Il calcolo di compleanno viene eseguito utilizzando un filtro predefinito disponibile nella palette nello strumento di modifica query.
+* L' **[!UICONTROL Query]** attività consente di calcolare i profili che hanno fornito un'e-mail e il cui compleanno si trova sul giorno corrente, ogni volta che viene eseguito il flusso di lavoro. Il calcolo di compleanno viene eseguito utilizzando un filtro predefinito disponibile nella palette nello strumento di modifica query.
 
    ![](assets/wkf_delivery_example_3.png)
 
-* The **[!UICONTROL Email]** is recurring. Le mandate vengono aggregate per mese. Pertanto, tutte le e-mail inviate in un mese vengono aggregate in una sola visualizzazione. In one year, 365 deliveries are therefore executed but they are regrouped into 12 views (also called **recurring executions**) in the Adobe Campaign interface. La cronologia e i dettagli del rapporto vengono visualizzati ogni mese e non per ogni invio.
+* The **[!UICONTROL Email]** recurring. Le mandate vengono aggregate per mese. Pertanto, tutte le e-mail inviate in un mese vengono aggregate in una sola visualizzazione. In un anno, sono quindi eseguite 365 consegne, ma vengono suddivise in 12 visualizzazioni (dette **anche esecuzioni ricorrenti**) nell'interfaccia di Adobe Campaign. La cronologia e i dettagli del rapporto vengono visualizzati ogni mese e non per ogni invio.
 
    ![](assets/wkf_delivery_example_4.png)
 
+**Argomenti correlati**
+
+* [Caso d'uso: Creazione di una consegna e-mail una tantum](../../automating/using/workflow-weekly-offer.md)
+* [Caso d'uso: Creazione di una distribuzione segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
+* [Caso d'uso: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso d'uso: Flusso di lavoro di retargeting che invia una nuova consegna a non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
