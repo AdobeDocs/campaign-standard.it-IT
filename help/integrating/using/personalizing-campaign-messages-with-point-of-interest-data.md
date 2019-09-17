@@ -1,71 +1,71 @@
 ---
-title: Personalizzazione dei messaggi campagna con i dati dei punti di interesse
-seo-title: Personalizzazione dei messaggi campagna con i dati dei punti di interesse
-description: Personalizzazione dei messaggi campagna con i dati dei punti di interesse
-seo-description: Scopri come creare un messaggio personalizzato basato sul percorso degli abbonati con l'integrazione dei dati relativi ai punti di interesse.
-page-status-flag: never-activated
-uuid: d 74 c 3 e 55-f 130-441 b-bc 2 a -06 ddcd 5 d 9784
+title: Personalizzazione dei messaggi della campagna con i dati dei punti di interesse
+seo-title: Personalizzazione dei messaggi della campagna con i dati dei punti di interesse
+description: Personalizzazione dei messaggi della campagna con i dati dei punti di interesse
+seo-description: Scopri come creare un messaggio personalizzato basato sulla posizione degli abbonati con l'integrazione dei dati del punto di interesse.
+page-status-flag: mai attivato
+uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: integrazione
-content-type: riferimento
-topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: a 1736 ba 3-5121-4 d 01-bf 04-ebb 7 e 701 e 2 e 0
+products: SG_CAMPAIGN/STANDARD
+audience: integration
+content-type: reference
+topic-tags: utilizzo di campagne e analisi per dispositivi mobili
+discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
 
-# Personalizing Campaign messages with Point of Interest data{#personalizing-campaign-messages-with-point-of-interest-data}
+# Personalizzazione dei messaggi della campagna con i dati dei punti di interesse{#personalizing-campaign-messages-with-point-of-interest-data}
 
-In Adobe Campaign, puoi utilizzare i dati dei punti di interesse raccolti dagli abbonati dell'applicazione mobile per inviare messaggi di marketing personalizzati, ad esempio un messaggio e-mail.
+In Adobe Campaign, puoi utilizzare i dati dei punti di interesse raccolti dagli abbonati all'applicazione mobile per inviare loro messaggi di marketing personalizzati, ad esempio un'e-mail.
 
-Puoi reagire solo ai dati dei punti di interesse con le consegne standard. [I messaggi transazionali](../../channels/using/about-transactional-messaging.md) non possono utilizzare i dati sulla posizione.
+Puoi reagire solo sui dati dei punti di interesse con consegne standard. [I messaggi](../../channels/using/about-transactional-messaging.md) transazionali non possono utilizzare i dati sulla posizione.
 
-Il primo problema è circa 10 minuti.
+La prima reazione è di circa 10 minuti.
 
-In questo caso, decidi di inviare un messaggio e-mail a tutti gli iscritti che hanno visitato il tuo negozio Boston nelle ultime due settimane.
+In questo caso, si decide di inviare un'e-mail a tutti gli abbonati che hanno visitato il vostro Boston Store nelle ultime due settimane.
 
-1. Create un'attività di marketing tramite e-mail.
-1. When defining the delivery's audience, drag and drop the **[!UICONTROL Subscriptions to an application]** element into the workspace.
+1. Creare un'attività di e-mail marketing.
+1. Quando definite il pubblico della distribuzione, trascinate l' **[!UICONTROL Subscriptions to an application]** elemento nell'area di lavoro.
 
    ![](assets/poi_subscriptions_app.png)
 
-   Managing audiences is detailed in the [Defining audiences](../../audiences/using/creating-audiences.md) section.
+   La gestione delle audience è dettagliata nella sezione [Definizione delle audience](../../audiences/using/creating-audiences.md) .
 
-1. In the **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** window, drag and drop the **[!UICONTROL POI Location Subscription]** element into the workspace.
+1. Nella **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** finestra, trascinate l’ **[!UICONTROL POI Location Subscription]** elemento nell’area di lavoro.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. In the **[!UICONTROL Add a rule - POI Location Subscription]** window, enter the label of the Point of Interest that you want to use.
+1. Nella **[!UICONTROL Add a rule - POI Location Subscription]** finestra, immettere l'etichetta del punto di interesse che si desidera utilizzare.
 
    ![](assets/poi_location_subscription.png)
 
-1. In the **[!UICONTROL Filter type]** field, select **[!UICONTROL Relative]**.
-1. Check the **[!UICONTROL Preceding days]** option and enter **[!UICONTROL 15]** in the corresponding field.
-1. Definire il numero di volte in cui l'utente deve aver visitato il punto di interesse.
-1. Click **[!UICONTROL Confirm]** to save your audience.
+1. Nel **[!UICONTROL Filter type]** campo selezionare **[!UICONTROL Relative]**.
+1. Selezionare l' **[!UICONTROL Preceding days]** opzione e immettere **[!UICONTROL 15]** nel campo corrispondente.
+1. Definisci quante volte l'utente deve aver visitato il punto di interesse.
+1. Fate clic **[!UICONTROL Confirm]** per salvare il pubblico.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
-1. Aggiungete contenuto all'e-mail.
+1. Aggiungete contenuto all’e-mail.
 
    ![](assets/poi_email_content.png)
 
 1. Confermate la creazione dell'attività per visualizzare il dashboard dell'e-mail.
-1. Invia il messaggio.
+1. Invia il tuo messaggio.
 
-L'e-mail con l'offerta sconto 10% verrà inviata agli utenti iscritti che:
+L'e-mail con l'offerta di sconto del 10% verrà inviata agli abbonati che:
 
-* Visitato il Boston Store almeno una volta nelle ultime due settimane.
-* La tua applicazione mobile è stata in primo piano almeno una volta durante la visita.
+* Ho visitato il tuo Boston Store almeno una volta nelle ultime due settimane.
+* L'applicazione mobile è stata messa in primo piano almeno una volta durante la visita.
 
 **Argomenti correlati:**
 
-* [Creazione di un'e-mail](../../channels/using/creating-an-email.md)
-* [Definizione del contenuto](../../designing/using/example--email-personalization.md)
+* [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
+* [Definizione del contenuto](../../designing/using/personalization.md#example-email-personalization)
 * [Invio di messaggi](../../sending/using/confirming-the-send.md)
 
