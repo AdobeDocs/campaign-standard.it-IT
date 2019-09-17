@@ -2,36 +2,36 @@
 title: Pannello messaggio
 seo-title: Pannello messaggio
 description: Pannello messaggio
-seo-description: Scoprite come è composto il dashboard di messaggio, compresa la barra delle azioni e i vari blocchi funzionali.
-page-status-flag: never-activated
-uuid: 9 bb 44 ee 8-2 cf 6-43 ce -94 a 4-367 f 4 e 469713
+seo-description: Scopri di cosa è composto il dashboard dei messaggi, inclusa la barra delle azioni e i vari blocchi funzionali.
+page-status-flag: mai attivato
+uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canali
-content-type: riferimento
-topic-tags: about-communication-channels
-discoiquuid: 90 a 78742-697 f -46 da -8 c 54-108048 e 57 b 67
-context-tags: distribuzione, principale
+content-type: reference
+topic-tags: about-communication-channel
+discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
+context-tags: consegna,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
 
-# Message dashboard{#message-dashboard}
+# Pannello messaggio{#message-dashboard}
 
-Il pannello del messaggio è un'area di lavoro composta da icone diverse, raggruppate in una barra di azione e vari blocchi funzionali che consentono di stabilire i parametri del messaggio e di inviarli. Questi elementi vengono presentati di seguito.
+Il dashboard dei messaggi è un'area di lavoro composta da diverse icone, raggruppate in una barra delle azioni, e da vari blocchi funzionali che consentono di stabilire i parametri del messaggio e inviarli. Questi elementi sono presentati di seguito.
 
 ![](assets/delivery_dashboard_2.png)
 
-## Gray bar {#gray-bar}
+## Barra grigia {#gray-bar}
 
 La barra grigia raggruppa diverse icone collegate al messaggio.
 
 * **[!UICONTROL Summary]**: mostra/nasconde le informazioni principali relative al messaggio.
-* **[!UICONTROL Edit properties]**: consente di modificare i parametri [avanzati del messaggio](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL Edit properties]**: consente di modificare i parametri [](../../administration/using/configuring-email-channel.md#list-of-email-properties)avanzati del messaggio.
 * **[!UICONTROL Reports]**: consente di accedere ai rapporti relativi al messaggio.
 
 **Argomenti correlati:**
@@ -39,42 +39,42 @@ La barra grigia raggruppa diverse icone collegate al messaggio.
 * [Configurazione dei canali](../../administration/using/about-channel-configuration.md)
 * [Accesso ai rapporti](../../reporting/using/about-dynamic-reports.md)
 
-## Action bar {#action-bar}
+## Barra delle azioni {#action-bar}
 
-La barra delle azioni presenta icone diverse che consentono di interagire con il messaggio.
+La barra delle azioni ha diverse icone che consentono di interagire con il messaggio.
 
 ![](assets/delivery_dashboard_4.png)
 
-A seconda dei parametri configurati e dell'avanzamento, alcune icone potrebbero non essere disponibili.
+A seconda dei parametri impostati e dell’avanzamento, alcune icone potrebbero non essere disponibili.
 
-* **[!UICONTROL Show proofs]**: mostra/nasconde l'elenco di prove che sono state inviate, se esistono. Questo pulsante è abilitato solo dopo aver inviato le prove.
+* **[!UICONTROL Show proofs]**: mostra/nasconde l’elenco delle prove che sono state inviate, se esistenti. Questo pulsante è attivato solo dopo l’invio delle prove.
 
-   For more on proofs, see [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+   Per ulteriori informazioni sulle prove di stampa, consultate [Gestione dei profili di test e invio delle prove](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: consente di selezionare la modalità di approvazione da utilizzare: **[!UICONTROL Email rendering]** o **[!UICONTROL Proof]** entrambi. For more on test profiles, see [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* **[!UICONTROL Send a test]**: consente di selezionare la modalità di approvazione da utilizzare: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** o entrambi per un'e-mail. Per ulteriori informazioni sui profili di test, consultate [Invio di prove](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
 
-   Questo pulsante è abilitato solo dopo aver configurato i profili di prova.
+   Questo pulsante è attivato solo dopo che sono stati definiti i profili di test.
 
    >[!NOTE]
    >
-   >For an SMS message, there is no other choice: it is automatically a **[!UICONTROL Proof]**.
+   >Per un messaggio SMS, non esiste altra scelta: è automaticamente un **[!UICONTROL Proof]**.
 
-* **[!UICONTROL Prepare send]**: inizia a preparare l'invio. The **[!UICONTROL Deployment]** block appears and displays the result of the preparation. Questo pulsante viene visualizzato solo dopo che la destinazione è stata inserita. Potete interrompere la preparazione in qualsiasi momento utilizzando il pulsante corrispondente.
+* **[!UICONTROL Prepare send]**: inizia a preparare l'invio. Il **[!UICONTROL Deployment]** blocco viene visualizzato e visualizza il risultato della preparazione. Questo pulsante viene visualizzato solo dopo che è stata immessa la destinazione. È possibile interrompere la preparazione in qualsiasi momento utilizzando il pulsante corrispondente.
 
-   For more on message preparation, [Preparing the send](../../sending/using/preparing-the-send.md).
+   Per ulteriori informazioni sulla preparazione dei messaggi, [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]**: conferma l'invio del messaggio. The sending statistics appear in the **[!UICONTROL Deployment]** block. Questo pulsante viene visualizzato solo dopo che l'invio è stato preparato. You can stop or pause the send at any time using the **Stop send** and **[!UICONTROL Pause]** buttons.
+* **[!UICONTROL Confirm send]**: conferma l’invio del messaggio. Le statistiche di invio vengono visualizzate nel **[!UICONTROL Deployment]** blocco. Questo pulsante viene visualizzato solo dopo che l’invio è stato preparato. Puoi interrompere o mettere in pausa l’invio in qualsiasi momento utilizzando i **pulsanti Interrompi invio** e **[!UICONTROL Pause]** Interrompi.
 
-   For more on confirming sending, see [Sending messages](../../sending/using/confirming-the-send.md).
+   Per ulteriori informazioni sulla conferma dell’invio, consulta [Invio di messaggi](../../sending/using/confirming-the-send.md).
 
-## Blocks {#blocks}
+## Blocchi {#blocks}
 
-La schermata principale è composta da blocchi diversi. Fate clic all'interno di un blocco per accedere alla schermata del parametro corrispondente:
+Lo schermo principale è costituito da diversi blocchi. Fate clic all’interno di un blocco per accedere alla schermata dei parametri corrispondente:
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: consente di tenere traccia dell'avanzamento della preparazione o dell'invio dei messaggi. Fate clic sul pulsante nella sezione inferiore destra di questo blocco per accedere ai registri di invio e analisi. Questo blocco viene visualizzato solo dopo che l'invio è stato preparato. Per ulteriori informazioni. See [Confirming send](../../sending/using/confirming-the-send.md).
-* **[!UICONTROL Audience]**: consente di stabilire la destinazione principale del messaggio nonché i profili di prova. See [Creating audiences](../../audiences/using/creating-audiences.md).
-* **[!UICONTROL Schedule]**: consente di specificare la data in cui verrà inviato il messaggio. See [Scheduling](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: consente di definire il contenuto del messaggio e visualizzarne l'anteprima. See [Defining content](../../designing/using/designing-content-in-adobe-campaign.md).
+* **[!UICONTROL Deployment]**: consente di monitorare l’avanzamento della preparazione o dell’invio dei messaggi. Fare clic sul pulsante che si trova nella sezione inferiore destra di questo blocco per accedere ai registri di invio e analisi. Questo blocco viene visualizzato solo dopo che l'invio è stato preparato. Per ulteriori informazioni su questo argomento. Consultate [Conferma dell’invio](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Audience]**: consente di stabilire la destinazione principale del messaggio e i profili di test. Consultate [Creazione di audience](../../audiences/using/creating-audiences.md).
+* **[!UICONTROL Schedule]**: consente di specificare la data in cui verrà inviato il messaggio. Vedere [Pianificazione](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Content]**: consente di definire il contenuto del messaggio e visualizzarne l'anteprima. Vedi [Passaggi chiave per inviare un messaggio](../../channels/using/key-steps-to-send-a-message.md).
 
