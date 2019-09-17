@@ -1,52 +1,52 @@
 ---
-title: Creazione di un'e-mail multilingue
-seo-title: Creazione di un'e-mail multilingue
-description: Creazione di un'e-mail multilingue
-seo-description: Attenetevi alla procedura seguente per creare un destinatario per e-mail in più lingue con lingue diverse.
-page-status-flag: never-activated
-uuid: e 90 f 4 ec 8-14 e 3-4304-b 5 fc-horn 0 ba 08 a 4 ef
+title: Creazione di un messaggio e-mail in più lingue
+seo-title: Creazione di un messaggio e-mail in più lingue
+description: Creazione di un messaggio e-mail in più lingue
+seo-description: Per creare un'e-mail di destinazione multilingue con diverse lingue preferite, effettuate le seguenti operazioni.
+page-status-flag: mai attivato
+uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canali
-content-type: riferimento
+content-type: reference
 topic-tags: email-messages
-discoiquuid: 79231445-1 d 51-499 a-adcf -0 c 0 f 6 db 1 cfa 3
+discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Creazione di un'e-mail multilingue{#creating-a-multilingual-email}
+# Creazione di un messaggio e-mail in più lingue{#creating-a-multilingual-email}
 
-Puoi inviare un messaggio e-mail multilingue a profili con lingue diverse: ogni profilo riceverà una variante del messaggio e-mail nella lingua preferita.
+Potete inviare un messaggio e-mail in più lingue a profili con diverse lingue preferite: ogni profilo riceverà una variante dell'e-mail nella sua lingua preferita.
 
-A tal fine, verificare che sia disponibile un modello e-mail multilingue. In caso contrario, scopri come crearne uno in [questa sezione](../../start/using/creating-a-multilingual-template.md).
+A questo scopo, verificate di disporre di un modello e-mail in più lingue. In caso contrario, scopri come crearne uno in [questa sezione](../../start/using/creating-a-multilingual-template.md).
 
-L'audience è basata su profili con informazioni di lingua preferite.
+L'audience è basata su profili con informazioni sulla lingua preferita completate.
 
-1. Crea una nuova e-mail basata su un modello [multilingue](../../start/using/creating-a-multilingual-template.md).
+1. Create un nuovo messaggio e-mail basato su un modello [](../../start/using/creating-a-multilingual-template.md)multilingue.
 
    ![](assets/multi_create1.png)
 
-1. Definite le proprietà generali e il pubblico di destinazione dell'e-mail, esattamente come per un'e-mail standard. Fate riferimento alla [sezione Creazione di audience](../../audiences/using/creating-audiences.md) .
-1. Al quarto passaggio della procedura guidata Creazione, definite le opzioni della variante. Se il [modello multilingue contiene](../../start/using/creating-a-multilingual-template.md) già tutti i parametri corretti, potete fare clic direttamente sul **[!UICONTROL Create]** pulsante.
+1. Definite le proprietà generali e il pubblico di destinazione del messaggio e-mail, come per un messaggio e-mail standard. Consultate la sezione [Creazione di audience](../../audiences/using/creating-audiences.md) .
+1. Al quarto passaggio della procedura guidata di creazione, definite le opzioni della variante. Se il modello [](../../start/using/creating-a-multilingual-template.md) multilingue contiene già tutti i parametri giusti, potete fare clic direttamente sul **[!UICONTROL Create]** pulsante.
 
    ![](assets/multi_create4.png)
 
-   Se necessario, aggiungere varianti utilizzando il **[!UICONTROL Add an element]** pulsante. **[!UICONTROL Default]** la variante non deve essere eliminata. Quando viene impostata, **[!UICONTROL default]**[per scegliere la variante viene utilizzata la lingua](../../audiences/using/creating-profiles.md) preferita del profilo. È anche possibile impostare **[!UICONTROL Default]** la variante su qualsiasi altra lingua.
+   Se necessario, aggiungere varianti utilizzando il **[!UICONTROL Add an element]** pulsante. **[!UICONTROL Default]** la variante non deve essere eliminata. Quando è impostato su **[!UICONTROL default]**, [la lingua](../../audiences/using/creating-profiles.md) preferita del profilo viene utilizzata per scegliere la variante. È inoltre possibile impostare la **[!UICONTROL Default]** variante su qualsiasi altra lingua.
 
-1. Conferma la creazione e-mail: il pannello e-mail verrà quindi visualizzato.
-1. Definire il contenuto e-mail per ogni variante. A seconda del modello scelto, potete definire diversi argomenti, vari nomi di mittente o diversi contenuti. Utilizzare il menu a discesa per spostarsi tra le diverse varianti dell'elemento. Per ulteriori informazioni, consulta [la sezione Editor](../../designing/using/about-email-content-design.md) di contenuto.
+1. Conferma creazione e-mail: viene visualizzata la dashboard e-mail.
+1. Definite il contenuto dell'e-mail per ogni variante. A seconda del modello scelto, potete definire diversi soggetti, diversi nomi di mittenti o diversi contenuti diversi. Utilizzate il menu a discesa per navigare tra le diverse varianti dell'elemento. Per ulteriori informazioni, consulta la sezione Editor [](../../designing/using/overview.md) contenuto.
 
    ![](assets/multi_selectcontent.png)
 
-1. Verifica e convalida il messaggio. Fate riferimento alla [sezione Invio della prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) .
-1. Pianificate l'invio con **[!UICONTROL Send after confirmation option]**.
-1. Una volta inviato il messaggio e-mail, potete accedere ai suoi registri e ai relativi rapporti per misurare il successo della campagna. For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
+1. Verifica e convalida del messaggio. Fare riferimento alla sezione [Invio della prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) .
+1. Pianificare l'invio con il **[!UICONTROL Send after confirmation option]**.
+1. Una volta inviato il messaggio e-mail, potete accedere ai registri e ai rapporti relativi per misurare il successo della campagna. For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
 
 **Argomento correlato:**
 
-* [Raggiungere audience in più lingue mediante un unico flusso di lavoro](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Raggiungere audience in più lingue con un unico flusso di lavoro](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
