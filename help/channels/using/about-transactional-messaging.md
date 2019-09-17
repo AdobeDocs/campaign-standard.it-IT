@@ -3,112 +3,112 @@ title: Informazioni sui messaggi transazionali
 seo-title: Informazioni sui messaggi transazionali
 description: Informazioni sui messaggi transazionali
 seo-description: Scopri i diversi tipi di messaggi transazionali che puoi inviare e come vengono utilizzati in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 8470 e 9 e 2-ee 17-456 f -9 e 4 c -460 e 69 c 78 a 2 c
+page-status-flag: mai attivato
+uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canali
-content-type: riferimento
-topic-tags: transactional-messaging
-discoiquuid: 71 a 4 d 5 d 5-fe 2 a -4 ce 5-b 22 b-a 4736 f 7 add 83
+content-type: reference
+topic-tags: messaggistica transazionale
+discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d93c2600299a8d2ec3672b3d82222f423878034c
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# About transactional messaging{#about-transactional-messaging}
+# Informazioni sui messaggi transazionali{#about-transactional-messaging}
 
 Puoi creare e gestire messaggi transazionali personalizzati in Adobe Campaign.
 
-Un messaggio transazionale è una comunicazione singola e univoca inviata a un utente da un fornitore quale un sito Web.
+Un messaggio transazionale è una comunicazione singola e univoca inviata a un utente da un fornitore, ad esempio un sito Web.
 
-* Questo tipo di messaggio è particolarmente atteso, in quanto contiene informazioni che il destinatario desidera controllare o confermare. Potrebbe essere un messaggio di benvenuto dopo la creazione di un account, ad esempio un'attestazione ricevuta da un ordine, una bolletta o un messaggio che conferma la modifica della password.
-* Si tratta di un messaggio importante che definisce la relazione client: l'utente deve essere inviato in tempo reale. Il ritardo tra l'attivazione dell'evento e l'invio del messaggio deve pertanto essere molto breve.
-* In genere, i messaggi transazionali hanno tassi di apertura elevati.
+* Questo tipo di messaggio è particolarmente atteso, in quanto contiene informazioni che il destinatario desidera controllare o confermare. Potrebbe trattarsi di un messaggio di benvenuto dopo la creazione di un account, ad esempio, o di una conferma della spedizione di un ordine, di una fattura o di un messaggio di conferma della modifica della password.
+* È un messaggio importante che definisce la relazione del cliente: l'utente prevede che venga inviato in tempo reale. Il ritardo tra l'attivazione dell'evento e l'arrivo del messaggio deve quindi essere molto breve.
+* I messaggi transazionali generalmente hanno tassi di apertura elevati.
 
-Adobe Campaign consente di integrare questa funzionalità con un sistema di informazioni che invia eventi da trasformare in messaggi transazionali personalizzati.
+Adobe Campaign consente di integrare questa funzionalità con un sistema di informazioni che invia gli eventi da trasformare in messaggi transazionali personalizzati.
 
 >[!NOTE]
 >
->I messaggi transazionali possono essere inviati tramite e-mail, SMS o notifica push, a seconda delle opzioni. Controllate il contratto di licenza.
+>I messaggi transazionali possono essere inviati tramite e-mail, SMS o notifiche push, a seconda delle opzioni. Controllare il contratto di licenza.
 
 In Adobe Campaign sono disponibili due tipi di messaggi transazionali:
 
-* [Messaggi transazionali evento](../../channels/using/event-transactional-messages.md) destinati a un evento. I dati contenuti nell'evento vengono utilizzati per definire la destinazione di consegna.
-* [Profili di targeting dei messaggi](../../channels/using/profile-transactional-messages.md) transazionali provenienti dal database di marketing di Adobe Campaign. Puoi utilizzare le informazioni del database Adobe Campaign per inviare un messaggio di transazione basato sui profili di marketing dei clienti.
+* [Messaggi](../../channels/using/event-transactional-messages.md) transazionali evento indirizzati a un evento. I dati contenuti nell'evento stesso vengono utilizzati per definire il target di consegna.
+* [Profili di targeting dei messaggi](../../channels/using/profile-transactional-messages.md) transazionali dal database di marketing di Adobe Campaign. Puoi utilizzare le informazioni contenute nel database Adobe Campaign per inviare un messaggio transazionale basato sui profili di marketing dei clienti.
 
-Il tipo di messaggio viene definito durante la configurazione dell'evento che verrà trasformato in un messaggio transazionale. See [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
+Il tipo di messaggio viene definito durante la configurazione dell'evento che verrà trasformato in un messaggio transazionale. Consulta Configurazione dei messaggi [transazionali](../../administration/using/configuring-transactional-messaging.md).
 
 >[!NOTE]
 >
->Adobe Campaign stabilisce la priorità dell'elaborazione dei messaggi transazionali attraverso qualsiasi altra consegna.
+>Adobe Campaign dà priorità all'elaborazione dei messaggi transazionali rispetto a qualsiasi altra consegna.
 
-I messaggi transazionali sono disponibili anche dall'API standard di Adobe Campaign. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+I messaggi transazionali sono disponibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)dedicata.
 
-## Transactional messaging operating principle {#transactional-messaging-operating-principle}
+## Principio operativo della messaggistica transattiva {#transactional-messaging-operating-principle}
 
-Prendiamo l'esempio di una società che dispone di un sito Web e in questo sito Web gli utenti possono acquistare prodotti.
+Prendiamo l'esempio di un'azienda che ha un sito web e su questo sito i suoi utenti possono acquistare prodotti.
 
-Adobe Campaign consente di inviare un messaggio e-mail di notifica agli utenti del sito che hanno aggiunto prodotti al carrello: quando una di esse lascia il sito senza oltrepassarlo, viene automaticamente inviato un messaggio e-mail di abbandono al carrello.
+Adobe Campaign consente di inviare un messaggio e-mail di notifica agli utenti del sito che hanno aggiunto prodotti al carrello: quando uno di loro lascia il sito senza andare attraverso con i loro acquisti, un'e-mail di abbandono carrello viene inviata automaticamente a loro.
 
-I passaggi per posizionarlo sono:
+I passi per la realizzazione di questo progetto sono:
 
-1. Configurate un evento che verrà denominato "abbandono del carrello" e pubblicate la configurazione dell'evento, che crea automaticamente un messaggio transazionale. Creating and publishing an event are presented in the [Configuring an event to send an event transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
-1. Il messaggio transazionali deve essere personalizzato, testato e pubblicato. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
-1. Inoltre, per attivare l'evento quando un client abbandona il carrello, questo evento deve essere inviato dal sito Web della società utilizzando l'API REST di Adobe Campaign Standard. See [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+1. Configurate un evento denominato "abbandono del carrello" e pubblicate la configurazione dell'evento, che crea automaticamente un messaggio transazionale. La creazione e la pubblicazione di un evento sono presentate nella sezione [Configurazione di un evento per l’invio di un messaggio](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) transazionale evento.
+1. Il messaggio transazionale deve essere personalizzato, testato e pubblicato. Consultate Messaggi transazionali [evento](../../channels/using/event-transactional-messages.md).
+1. Inoltre, affinché l'evento possa essere attivato quando un cliente abbandona il carrello, questo evento deve essere inviato dal sito Web della società tramite l'API REST di Adobe Campaign Standard. Consultate Integrazione [](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)del sito.
 
-Una volta eseguiti tutti questi passaggi, non appena un utente lascia il sito senza ordinare i prodotti nel carrello, ricevono automaticamente un messaggio e-mail di notifica.
+Una volta che tutti questi passaggi sono stati eseguiti, non appena un utente lascia il sito senza ordinare i prodotti nel suo carrello, riceve automaticamente un'e-mail di notifica.
 
-## Transactional messaging limitations {#transactional-messaging-limitations}
+## Limitazioni per i messaggi transazionali {#transactional-messaging-limitations}
 
-### Design and publication {#design-and-publication}
+### Progettazione e pubblicazione {#design-and-publication}
 
-Mentre progettate e pubblicate messaggi transazionali, alcuni dei passaggi da eseguire non possono essere ripristinati. È necessario conoscere i seguenti limiti:
+Durante la progettazione e la pubblicazione di messaggi transazionali, alcuni dei passaggi da eseguire non possono essere ripristinati. È necessario essere consapevoli dei seguenti limiti:
 
-* Per ogni configurazione di evento è possibile utilizzare un solo canale. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Una volta creato l'evento, non potete modificare il canale. Pertanto, se un messaggio non viene inviato correttamente, è necessario progettare il meccanismo per inviarlo da un altro canale utilizzando un flusso di lavoro. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
-* You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Non è possibile ripristinare una pubblicazione, ma potete annullare la pubblicazione di un evento: questa operazione rende inaccessibile l'evento e il messaggio transazionali associato. See [Unpublishing an event](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
-* L'unico messaggio transazionale che può essere associato a un evento è il messaggio che viene creato automaticamente al momento della pubblicazione dell'evento. See [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
+* Per ogni configurazione dell'evento è possibile utilizzare un solo canale. Consultate [Creazione di un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Una volta creato l'evento, non potete cambiare il canale. Pertanto, se un messaggio non viene inviato correttamente, è necessario progettare il meccanismo che consenta di inviarlo da un altro canale utilizzando un flusso di lavoro. Consulta [Dati e processi](../../automating/using/workflow-data-and-processes.md)del flusso di lavoro.
+* Non potete modificare la dimensione di targeting ( **[!UICONTROL Real-time event]** o **[!UICONTROL Profile]** ) dopo la creazione dell'evento. Consultate [Creazione di un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Non è possibile ripristinare una pubblicazione, ma è possibile annullare la pubblicazione di un evento: questa operazione rende inaccessibili l'evento e il messaggio di transazione associato. Consultate [Annullamento della pubblicazione di un evento](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
+* L'unico messaggio transazionale che può essere associato a un evento è il messaggio creato automaticamente al momento della pubblicazione dell'evento. Consultate [Anteprima e pubblicazione dell’evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
 
-### Personalization {#personalization}
+### Personalizzazione {#personalization}
 
-Il modo in cui potete personalizzare il contenuto di un messaggio dipende dal tipo di messaggio transazionale. Le specificità sono elencate di seguito:
+Il modo in cui puoi personalizzare il contenuto di un messaggio dipende dal tipo di messaggio transazionale. Le specifiche sono elencate di seguito:
 
-**Messaggi transazionali basati su evento**:
+**Messaggi** transazionali basati su eventi:
 
-* Le informazioni di personalizzazione provengono dai dati contenuti nell'evento stesso. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
-* You cannot use **Unsubscription link** content blocks in an event transactional message.
-* La messaggistica transazionale basata su evento dovrebbe utilizzare solo i dati presenti nell'evento inviato per definire il destinatario e la personalizzazione dei contenuti dei messaggi. Tuttavia, puoi arricchire il contenuto del messaggio transazionale utilizzando informazioni provenienti dal database Adobe Campaign. See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-* Poiché i messaggi transazionali degli eventi non contengono informazioni sul profilo, non sono compatibili con le regole di affaticamento, anche nel caso di un arricchimento con profili. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+* Le informazioni sulla personalizzazione provengono dai dati contenuti nell'evento stesso. Consultate Messaggi transazionali [evento](../../channels/using/event-transactional-messages.md).
+* Non potete utilizzare blocchi di contenuto di collegamento **** Annulla iscrizione in un messaggio transazionale evento.
+* I messaggi transazionali basati su eventi dovrebbero utilizzare solo i dati presenti nell'evento inviato per definire il destinatario e la personalizzazione del contenuto del messaggio. Tuttavia, puoi arricchire il contenuto del messaggio transazionale utilizzando le informazioni contenute nel database di Adobe Campaign. Consultate [Arricchimento del contenuto](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)dei messaggi transazionali.
+* Poiché i messaggi relativi alle transazioni di evento non contengono informazioni sul profilo, non sono compatibili con le regole di affaticamento, anche nel caso di un arricchimento con i profili. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
 
-**Messaggi transazionali basati su profilo**:
+**Messaggi** transazionali basati su profilo:
 
-* Le informazioni di personalizzazione possono provenire dai dati contenuti nell'evento o dal record di profilo riconciliato. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
-* You can use **Unsubscription link** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/adding-a-content-block.md).
-* Le regole di fatigue sono compatibili con i messaggi transazionali del profilo. See [Fatigue rules](../../administration/using/fatigue-rules.md).
+* Le informazioni sulla personalizzazione possono provenire dai dati contenuti nell'evento o dal record di profilo riconciliato. Consulta Messaggi transazionali [di profilo](../../channels/using/profile-transactional-messages.md).
+* Puoi utilizzare i blocchi di contenuto dei collegamenti **** Annulla iscrizione in un messaggio di transazione profilo. Consultate [Aggiunta di un blocco](../../designing/using/personalization.md#adding-a-content-block)di contenuto.
+* Le regole di Fatigue sono compatibili con i messaggi transazionali del profilo. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
 
-I prodotti sono disponibili solo nei messaggi e-mail transazionali. See [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+Gli elenchi di prodotti sono disponibili solo nei messaggi e-mail transazionali. Consulta [Utilizzo degli elenchi di prodotti in un messaggio](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)transazionale.
 
-### Permissions and branding {#permissions-and-branding}
+### Autorizzazioni e marchio {#permissions-and-branding}
 
-When it comes to [branding](../../administration/using/branding.md) management, transactional messaging enables less flexibility than standard messaging. Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** organizational unit. Per ulteriori informazioni, leggi la descrizione dettagliata di seguito.
+Per quanto riguarda la gestione dei [marchi](../../administration/using/branding.md) , i messaggi transazionali offrono una flessibilità inferiore rispetto ai messaggi standard. Adobe consiglia di collegare tutti i marchi utilizzati nei messaggi transazionali all'unità **[!UICONTROL All]** organizzativa. Per ulteriori informazioni, consulta la spiegazione dettagliata riportata di seguito.
 
-Quando si modifica un messaggio transazionale, è possibile collegarlo a un marchio per applicare automaticamente alcuni parametri quali il marchio o il logo del marchio. The **[!UICONTROL Default brand]** is selected by default in the transactional message properties.
+Quando modificate un messaggio transazionale, potete collegarlo a un marchio per applicare automaticamente alcuni parametri, ad esempio il nome del marchio o il logo del marchio. L'opzione **[!UICONTROL Default brand]** è selezionata per impostazione predefinita nelle proprietà dei messaggi transazionali.
 
 ![](assets/message-center_branding.png)
 
-To access the transactional messages, you must be part of the **[!UICONTROL Message Center agents]** (mcExec) security group, which is linked to the **[!UICONTROL Message Center]** [organizational unit](../../administration/using/organizational-units.md). Therefore, all objects (including branding) used in a transactional message must be visible from the **[!UICONTROL Message Center]** organizational unit, meaning that these objects must be in the **[!UICONTROL Message Center]** or **[!UICONTROL All]** organizational units.
+Per accedere ai messaggi transazionali, è necessario far parte del gruppo di sicurezza **[!UICONTROL Message Center agents]** (mcExec), collegato all'unità **[!UICONTROL Message Center]** [](../../administration/using/organizational-units.md)organizzativa. Pertanto, tutti gli oggetti (compresa la marca) utilizzati in un messaggio transazionale devono essere visibili dall'unità **[!UICONTROL Message Center]** organizzativa, il che significa che tali oggetti devono essere nelle unità **[!UICONTROL Message Center]** o **[!UICONTROL All]** organizzative.
 
-However, if the brand selected in the message properties is linked to an organizational unit which is different from **[!UICONTROL Message Center]** or **[!UICONTROL All]**, this will cause an error and you will not be able to send the transactional message.
+Tuttavia, se il marchio selezionato nelle proprietà del messaggio è collegato a un'unità organizzativa diversa da **[!UICONTROL Message Center]** o **[!UICONTROL All]**, si verificherà un errore e non sarà possibile inviare il messaggio transazionale.
 
-Therefore, if you want to use multi-branding in the context of transactional messaging, you should link all brands either to the **[!UICONTROL Message Center]** organizational unit or to the **[!UICONTROL All]** organizational unit.
+Pertanto, se si desidera utilizzare il multi-branding nel contesto dei messaggi transazionali, è necessario collegare tutti i marchi all'unità **[!UICONTROL Message Center]** organizzativa o all'unità **[!UICONTROL All]** organizzativa.
 
-### Exporting and importing transactional messages {#exporting-and-importing-transactional-messages}
+### Esportazione e importazione di messaggi transazionali {#exporting-and-importing-transactional-messages}
 
-* To export a transactional message, you need to include the corresponding event configuration when [creating the package export](../../automating/using/managing-packages.md#creating-a-package).
-* Once the transactional message is [imported through a package](../../automating/using/managing-packages.md#importing-a-package), it is not displayed in the transactional message list. You need to [publish](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) the event configuration in order to make the associated transactional message available.
+* Per esportare un messaggio transazionale, è necessario includere la configurazione dell'evento corrispondente al momento della [creazione dell'esportazione](../../automating/using/managing-packages.md#creating-a-package)del pacchetto.
+* Una volta [importato il messaggio transazionale tramite un pacchetto](../../automating/using/managing-packages.md#importing-a-package), non viene visualizzato nell'elenco dei messaggi transazionali. Per rendere disponibile il messaggio transazionale associato, è necessario [pubblicare](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) la configurazione dell'evento.
 
