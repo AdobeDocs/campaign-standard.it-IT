@@ -2,43 +2,43 @@
 title: Organizzazione delle campagne
 seo-title: Organizzazione delle campagne
 description: Organizzazione delle campagne
-seo-description: Adobe Campaign è uno strumento potente per la gestione delle campagne tra canali che ti aiuta a allineare le strategie online e offline per creare esperienze cliente personalizzate.
-page-status-flag: never-activated
-uuid: 027 f 6787-d 2 ef -44 ae-a 40 a -8 facdfe 2 ae 77
+seo-description: Adobe Campaign è un potente strumento di gestione delle campagne multicanale che ti consente di allineare le tue strategie online e offline per creare esperienze cliente personalizzate.
+page-status-flag: mai attivato
+uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: riferimento
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: aee 81724-b 425-47 b 4-af 92-e 55 eff 97836 f
+discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 80dffe691855a22f1a337df5fb4bda58c8bcc4a0
 
 ---
 
 
-# Campaign orchestration{#campaign-orchestration}
+# Organizzazione delle campagne{#campaign-orchestration}
 
-Adobe Campaign è uno strumento potente per la gestione delle campagne tra canali che ti aiuta a allineare le strategie online e offline per creare esperienze cliente personalizzate. Adobe Campaign offre una piattaforma per la gestione delle campagne che consente di controllare l'intero processo di creazione, esecuzione e monitoraggio delle campagne cross-channel, nonché di inviare messaggi personalizzati in base al profilo, al comportamento, alle preferenze e alle esigenze dei client. Puoi facilmente orchestrare, modellare e automatizzare l'intero processo di marketing e integrare con altre soluzioni Adobe.
+Adobe Campaign è un potente strumento di gestione delle campagne multicanale che ti consente di allineare le tue strategie online e offline per creare esperienze cliente personalizzate. Adobe Campaign offre una piattaforma per la gestione delle campagne che consente di controllare l'intero processo di creazione, esecuzione e tracciamento delle campagne su più canali, nonché di inviare messaggi personalizzati in base al profilo, al comportamento, alle preferenze e alle esigenze dei clienti. Puoi orchestrare, modellare e automatizzare facilmente l'intero processo di marketing e integrarti con altre soluzioni Adobe.
 
 Le funzionalità chiave di Adobe Campaign sono:
 
-* Creazione e crescita del database di marketing: gestione profilo, meccanismi di importazione/esportazione, query editor.
-* Segmentazione dati, gestione dati e funzionalità di targeting per inviare il messaggio giusto al pubblico giusto.
-* Organizzazione delle campagne tra canali, gestione e conduzione tramite il piano di marketing e diverse attività di marketing: pagine di destinazione, flussi di lavoro, messaggi online e offline, messaggi transazionali ecc.
-* Progettazione e distribuzione dei messaggi su canali di comunicazione online e offline, inclusa l'ottimizzazione della consegna delle e-mail per più dispositivi tramite test e strategie di progettazione reattive, SMS, notifiche push e messaggi inapp.
-* Generazione di rapporti operativi per monitorare l'impatto delle campagne e pilota della tua soluzione e funzionalità di reporting dinamico per creare rapporti personalizzati.
+* Creazione e crescita di database marketing: gestione dei profili, meccanismi di importazione/esportazione, editor di query.
+* Segmentazione dei dati, gestione dei dati e funzionalità di targeting per inviare il messaggio giusto al pubblico giusto.
+* Organizzazione, gestione ed esecuzione di campagne su più canali attraverso il piano di marketing e varie attività di marketing: pagine di destinazione, flussi di lavoro, messaggi online e offline, messaggi transazionali, ecc.
+* Progettazione e distribuzione di messaggi su canali di comunicazione online e offline, inclusa l'ottimizzazione della distribuzione delle e-mail per più dispositivi tramite strategie di progettazione reattiva e di test, SMS, notifiche push e messaggi InApp.
+* Generazione di report operativi per monitorare l'impatto delle campagne e controllare la soluzione, nonché funzionalità di reporting dinamico per creare report personalizzati.
 
 ![](assets/overview_home_page.png)
 
-I passaggi principali per creare e gestire una campagna di marketing con Adobe Campaign sono:
+I passaggi chiave per creare e orchestrare una campagna di marketing con Adobe Campaign sono:
 
-* **Preparazione** : questa fase iniziale consente all'utente di formalizzare le necessità, l'intento e l'obiettivo della campagna: creazione del piano di marketing, identificazione della destinazione, definizione del contenuto e modalità di creazione, risultati previsti e persone coinvolte.
-* **Targeting** - La fase di targeting consente all'utente di definire la modalità di raccolta dati, la struttura, la segmentazione, l'audience, i semi e i test, le condizioni di filtro da progettare, ecc. Durante questa fase, potete anche configurare metodi di iscrizione/annullamento della sottoscrizione. See [Profiles and audiences](../../audiences/using/about-profiles.md).
-* **Creazione di messaggi e contenuti** - Questa fase richiede la selezione del canale [di comunicazione](../../channels/using/discovering-communication-channels.md) e [la progettazione del contenuto dei messaggi](../../designing/using/designing-content-in-adobe-campaign.md). You can also design [landing pages](../../designing/using/about-landing-page-content-design.md) to acquire or update profiles, and grow your database. See [Creating an email](../../channels/using/creating-an-email.md), [Creating an SMS message](../../channels/using/creating-an-sms-message.md), [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md), [Creating an InApp message](../../channels/using/about-in-app-messaging.md), [Creating a direct mail delivery](../../channels/using/creating-the-direct-mail.md).
-* **Test e invio** - La fase di esecuzione consente all'utente di eseguire i vari passaggi di convalida (contenuto, target) in particolare mediante schermate di anteprima e inviando una prova agli approvatori prima di inviarli. See [Testing and sending](../../sending/using/about-sending-messages-with-campaign.md).
-* **Monitoraggio e reporting** : una volta che la campagna è stata eseguita e i diversi messaggi sono stati inviati, l'area di visualizzazione consente all'utente di raccogliere i diversi stati delle mandate, nonché le informazioni di tracciamento e monitoraggio. I rapporti sulla campagna e sulla consegna vengono generati per tenere traccia dell'impatto della campagna e delle attività dei destinatari. See [Reporting tools](../../reporting/using/about-dynamic-reports.md).
-* **Automazione** - Durante questa fase, fattori aggiuntivi quali i metodi di implementazione del meccanismo di importazione/esportazione, la gestione dei dati e le modalità di aggiornamento, l'identificazione dei dati personalizzati e così via. sono definiti. See [Workflows and data management](../../automating/using/workflow-data-and-processes.md).
+* **Preparazione** - Questa fase iniziale consente all'utente di formalizzare la necessità, l'intenzione e l'obiettivo della campagna: creazione del piano di marketing, identificazione del target, definizione del contenuto e della modalità di creazione, risultati attesi e persone coinvolte.
+* **Targeting** - La fase di targeting consente all'utente di definire la modalità di raccolta dei dati, la struttura, la segmentazione, il pubblico, i semi e i test, le condizioni di filtraggio per la progettazione, ecc. Durante questa fase, potete anche impostare metodi di iscrizione/annullamento sottoscrizione. Consulta [Profili e audience](../../audiences/using/about-profiles.md).
+* **Creazione di messaggi e contenuti** - Questa fase prevede la selezione del canale [di](../../channels/using/discovering-communication-channels.md)comunicazione. Potete anche progettare pagine [di](../../channels/using/about-landing-page-content-design.md) destinazione per acquisire o aggiornare i profili e ampliare il database. Consultate [Creazione di un’e-mail](../../channels/using/creating-an-email.md), [Creazione di un messaggio](../../channels/using/creating-an-sms-message.md)SMS, [Creazione di una notifica](../../channels/using/preparing-and-sending-a-push-notification.md)push, [Creazione di un messaggio](../../channels/using/about-in-app-messaging.md)InApp, [Creazione di una consegna](../../channels/using/creating-the-direct-mail.md)diretta tramite posta elettronica.
+* **Test e invio** - La fase di esecuzione consente all'utente di eseguire le varie fasi di convalida (contenuto, destinazione), in particolare attraverso gli schermi di anteprima e inviando una prova agli approvatori, prima di inviarla. Consulta [Test e invio](../../sending/using/about-sending-messages-with-campaign.md).
+* **Monitoraggio e reporting** : dopo l'esecuzione della campagna e l'invio dei diversi messaggi, questa fase consente all'utente di raccogliere i diversi stati degli invii e le informazioni di monitoraggio e monitoraggio. I rapporti sulla campagna e sulla consegna vengono generati per monitorare l'impatto della campagna e delle attività dei destinatari. Consultate Strumenti [di](../../reporting/using/about-dynamic-reports.md)reporting.
+* **Automazione** - In questa fase, fattori aggiuntivi come i metodi di implementazione del meccanismo di importazione/esportazione, le modalità di gestione e aggiornamento dei dati, l'identificazione dei dati di personalizzazione, ecc. sono definiti. Consulta [Flussi di lavoro e gestione](../../automating/using/workflow-data-and-processes.md)dei dati.
 
