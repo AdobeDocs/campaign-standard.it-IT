@@ -2,39 +2,42 @@
 title: Personalizzazione dei messaggi SMS
 seo-title: Personalizzazione dei messaggi SMS
 description: Personalizzazione dei messaggi SMS
-seo-description: Scopri la specificità delle opzioni di translitazione durante la personalizzazione dei messaggi SMS.
-page-status-flag: never-activated
-uuid: 123 fe 70 c-c 279-40 a 3-88 b 6-6 bfb 2453 ec 83
+seo-description: Scopri la specificità delle opzioni di traduzione durante la personalizzazione dei messaggi SMS.
+page-status-flag: mai attivato
+uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: canali
-content-type: riferimento
+content-type: reference
 topic-tags: sms-messages
-discoiquuid: 7 c 64785 c-e 3 c 2-4 caa-a 547-002990 aae 3 f 9
-delivercontext-tags: Deliverycreation, wizard; delivery, smscontent, back; delivery, smscontent, back
+discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
+delivercontext-tags: deliveryCreation,procedura guidata;consegna,smsContent,back;consegna,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Personalizing SMS messages{#personalizing-sms-messages}
+# Personalizzazione dei messaggi SMS{#personalizing-sms-messages}
 
-The principles for personalizing SMS messages are the same as those for [emails](../../designing/using/inserting-a-personalization-field.md). Tuttavia, è necessario conoscere le opzioni di translitazione in quanto possono influire sulla codifica e quindi sul numero di messaggi SMS da inviare. For more on this, refer to the [Transliteration and SMS length](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+I principi per la personalizzazione dei messaggi SMS sono gli stessi applicati alle [e-mail](../../designing/using/personalization.md#inserting-a-personalization-field). È tuttavia necessario essere consapevoli delle opzioni di traslazione in quanto queste possono influenzare la codifica e quindi il numero di messaggi SMS da inviare. Per ulteriori informazioni, consulta la sezione [Traslitterazione e lunghezza](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) SMS.
 
-Di seguito viene fornito un messaggio SMS di esempio contenente campi di personalizzazione che, a seconda che siano stati selezionati o meno, non generino lo stesso numero di invia:
+Di seguito è riportato un esempio di SMS contenente campi di personalizzazione che, a seconda che sia stata selezionata o meno la traslitterazione, non genereranno lo stesso numero di invii:
 
-**Hey &lt; firstname &gt; &lt; lastname &gt;, sono disponibili nuovi prodotti. Come and check them out in store!**
+**Hey &lt; NomeNome &gt; &lt; Cognome &gt;, sono ora disponibili nuovi prodotti. Vieni a controllarle al negozio!**
 
-* Per un destinatario denominato «John Smith», in quanto non contiene caratteri speciali, Adobe Campaign sceglierà la codifica GSM che autorizza fino a 160 caratteri per SMS. Il messaggio verrà quindi inviato in una singola parte.
-* Per un destinatario denominatò Raphaël Forêt ', i caratteri «ë» e «ê» non possono essere codificati in GSM. A seconda se la traslittura è stata abilitata o meno, Adobe Campaign può selezionare tra due comportamenti:
+* Per un destinatario denominato 'John Smith', poiché non contiene caratteri speciali, Adobe Campaign sceglierà la codifica GSM che consentirà di immettere fino a 160 caratteri per messaggio SMS. Il messaggio verrà pertanto inviato in una sola parte.
+* Per un destinatario denominato Raphaël Forêt, i caratteri 'ë' e 'ê' non possono essere codificati in GSM. A seconda che la traslitterazione sia stata abilitata o meno, Adobe Campaign può selezionare due comportamenti:
 
-   * Se la traslittura è autorizzata "ë" e "ê" verrà sostituita da "e", il che significa che la codifica GSM può essere utilizzata e quindi è possibile utilizzare fino a 160 caratteri nell'SMS. Questo messaggio verrà inviato come singolo messaggio SMS, ma sarà leggermente alterato.
-   * Se la traslittura non è autorizzata, Adobe Campaign sceglie di inviare il messaggio in formato binario (Unicode): Tutti i caratteri verranno quindi inviati come tali. Poiché i messaggi SMS in Unicode sono limitati a 70 caratteri, Adobe Campaign dovrà inviare il messaggio in due parti.
+   * Se la traslitterazione è autorizzata 'ë' e 'ê' sarà sostituito da 'e', il che significa che la codifica GSM può essere utilizzata e quindi è possibile utilizzare fino a 160 caratteri nell'SMS. Questo messaggio verrà inviato come singolo messaggio SMS, ma verrà leggermente modificato.
+   * Se la traslitterazione non è autorizzata, Adobe Campaign sceglierà di inviare il messaggio in formato binario (Unicode): tutti i caratteri verranno quindi inviati come tali. Poiché i messaggi SMS in Unicode sono limitati a 70 caratteri, Adobe Campaign dovrà inviare il messaggio in due parti.
 
 >[!NOTE]
 >
->L'algoritmo che sceglie automaticamente la codifica migliore viene eseguita in modo indipendente per ogni messaggio, caso per caso. In tal modo, solo i messaggi personalizzati che richiedono la codifica Unicode verranno inviati in Unicode, tutti gli altri utilizzeranno la codifica GSM.
+>L'algoritmo che sceglie automaticamente la codifica migliore viene eseguito in modo indipendente per ogni messaggio, caso per caso. In questo modo, solo i messaggi personalizzati che richiedono la codifica Unicode verranno inviati in Unicode; tutti gli altri utilizzeranno la codifica GSM.
 
+## Mittente SMS {#sms-sender}
+
+Potete personalizzare il nome del mittente SMS. Per ulteriori informazioni, consulta la sezione relativa alla configurazione [](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) SMS.
