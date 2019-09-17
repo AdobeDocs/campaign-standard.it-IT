@@ -1,104 +1,104 @@
 ---
-title: Query incrementali
-seo-title: Query incrementali
-description: Query incrementali
-seo-description: L'attività query incrementale consente di filtrare ed estrarre una popolazione di elementi dal database Adobe Campaign.
-page-status-flag: never-activated
-uuid: 73 b 42422-e 815-43 ef -84 c 0-97 c 4433 ccc 98
+title: ' Query incrementale'
+seo-title: ' Query incrementale'
+description: ' Query incrementale'
+seo-description: L'attività di query incrementale consente di filtrare ed estrarre una serie di elementi dal database Adobe Campaign.
+page-status-flag: mai attivato
+uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: targeting-activity
-discoiquuid: 80961 e 73-42 ec -463 a -8496-cff 69 fab 0475
-context-tags: incremental, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di targeting
+discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
+context-tags: incrementale,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Incremental query{#incremental-query}
+#  Query incrementale{#incremental-query}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/incremental.png)
 
-The **[!UICONTROL Incremental query]** activity allows you to filter and extract a population of elements from the Adobe Campaign database. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. In questo modo potete eseguire il targeting solo di nuovi elementi.
+L' **[!UICONTROL Incremental query]** attività consente di filtrare ed estrarre una serie di elementi dal database di Adobe Campaign. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Questo consente di eseguire il targeting solo dei nuovi elementi.
 
-You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. Questi dati sono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso.
+È possibile definire **[!UICONTROL Additional data]** per la popolazione di destinazione tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso.
 
-L'attività utilizza lo strumento di modifica query. This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
+L'attività utilizza lo strumento di editor di query. Questo strumento è dettagliato in una sezione [](../../automating/using/editing-queries.md#about-query-editor)dedicata.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-An **[!UICONTROL Incremental query]** has to be linked to a **[!UICONTROL Scheduler]** in order to define the execution frequency of the workflow, and therefore the query.
+Per definire la frequenza di esecuzione del flusso di lavoro, e quindi la query, **[!UICONTROL Incremental query]** è necessario collegare un oggetto **[!UICONTROL Scheduler]** a un oggetto.
 
-The **[!UICONTROL Processed data]** tab, which is specific to this activity, allows you to view any results of the activity's previous executions, if required.
+La **[!UICONTROL Processed data]** scheda, specifica per questa attività, consente di visualizzare eventuali risultati delle esecuzioni precedenti dell'attività, se necessario.
 
-The **[!UICONTROL Incremental query]** activity can be used for various types of uses:
+L' **[!UICONTROL Incremental query]** attività può essere utilizzata per vari tipi di usi:
 
-* Segmentazione della destinazione di messaggi, audience e così via
+* Segmentazione di singoli utenti per definire la destinazione di un messaggio, un pubblico ecc.
 * Esportazione dei dati.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop an **[!UICONTROL Incremental query]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]**.
+1. Trascinate e rilasciate un' **[!UICONTROL Incremental query]** attività nel flusso di lavoro.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Se desiderate eseguire una query su una risorsa diversa dalla risorsa del profilo, andate alla **[!UICONTROL Properties]** scheda dell'attività e selezionate un **[!UICONTROL Resource]** e un **[!UICONTROL Targeting dimension]**.
 
-   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
+   Questo **[!UICONTROL Resource]** consente di perfezionare i filtri visualizzati nella palette, mentre il **[!UICONTROL Targeting dimension]**, contestuale rispetto alla risorsa selezionata, corrisponde al tipo di popolazione che si desidera ottenere (profili identificati, consegne, dati collegati alla risorsa selezionata, ecc.).
 
-1. In the **[!UICONTROL Target]** tab, run your query by defining and combining rules.
-1. In the **[!UICONTROL Processed data]** tab, choose the incremental mode you want to use for the next executions of the workflow:
+1. Nella **[!UICONTROL Target]** scheda, eseguire la query definendo e combinando le regole.
+1. Nella **[!UICONTROL Processed data]** scheda, scegliete la modalità incrementale da utilizzare per le successive esecuzioni del flusso di lavoro:
 
-   * **[!UICONTROL Use the exclusion of the results of previous executions]**: i risultati delle esecuzioni precedenti per ogni nuova esecuzione sono esclusi.
-   * **[!UICONTROL Use a date field]**: le esecuzioni successive prendono in considerazione solo i risultati che hanno il campo data selezionato maggiore o uguale all'ultima data di esecuzione dell **[!UICONTROL Incremental query]** 'attività. You can select any date field pertaining to the resource selected in the **[!UICONTROL Properties]** tab. Questa modalità offre prestazioni migliori durante la query di risorse di grandi dimensioni come i dati del registro.
+   * **[!UICONTROL Use the exclusion of the results of previous executions]**: sono esclusi i risultati delle esecuzioni precedenti per ogni nuova esecuzione.
+   * **[!UICONTROL Use a date field]**: le esecuzioni successive tengono conto solo dei risultati con il campo data selezionato maggiore o uguale all'ultima data di esecuzione dell' **[!UICONTROL Incremental query]** attività. È possibile selezionare qualsiasi campo data relativo alla risorsa selezionata nella **[!UICONTROL Properties]** scheda. Questa modalità offre prestazioni migliori quando si esegue una query su risorse di grandi dimensioni come i dati di registro.
 
-      Dopo la prima esecuzione del flusso di lavoro, puoi vedere in questa scheda l'ultima data di esecuzione che verrà utilizzata per l'esecuzione successiva. Viene aggiornato automaticamente ogni volta che il flusso di lavoro viene eseguito. È comunque possibile ignorare questo valore immettendo manualmente un nuovo elemento in modo da adattarlo alle proprie esigenze.
+      Dopo la prima esecuzione del flusso di lavoro, in questa scheda puoi vedere l'ultima data di esecuzione che verrà utilizzata per l'esecuzione successiva. Viene aggiornato automaticamente ogni volta che viene eseguito il flusso di lavoro. Potete comunque ignorare questo valore immettendo manualmente un nuovo valore in modo che sia adatto alle vostre esigenze.
    >[!NOTE]
    >
-   >The **[!UICONTROL Use a date field]** mode allows more flexibility depending on the date field that is selected. Ad esempio, se il campo selezionato corrisponde a una data di modifica, la modalità campo data consentirà di recuperare dati aggiornati di recente, mentre l'altro metodo escluderà semplicemente le registrazioni già impostate come destinazione in un'esecuzione precedente, anche se sono state modificate dall'ultima esecuzione del flusso di lavoro.
+   >La **[!UICONTROL Use a date field]** modalità consente una maggiore flessibilità a seconda del campo data selezionato. Ad esempio, se il campo selezionato corrisponde a una data di modifica, la modalità campo data consente di recuperare i dati che sono stati aggiornati di recente, mentre l'altra modalità esclude semplicemente le registrazioni che erano già state oggetto di un'esecuzione precedente, anche se sono state modificate dopo l'ultima esecuzione del flusso di lavoro.
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. Questi dati sono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle di database di Adobe Campaign collegate alla dimensione di targeting della query. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+1. È possibile definire **[!UICONTROL Additional data]** per la popolazione di destinazione tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle del database Adobe Campaign collegate alla dimensione di targeting della query. Consultate la sezione [Arricchimento dei dati](../../automating/using/query.md#enriching-data) .
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Enriching data {#enriching-data}
+## Arricchimento dei dati {#enriching-data}
 
-Just as for a query, you can enrich the data from an **[!UICONTROL Incremental query]**. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+Come per una query, potete arricchire i dati da un **[!UICONTROL Incremental query]**. Consultate la sezione [Arricchimento dei dati](../../automating/using/query.md#enriching-data) .
 
-## Example: incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}
+## Esempio: query incrementale per gli abbonati a un servizio {#example--incremental-query-on-subscribers-to-a-service}
 
-The following example shows the configuration of an **[!UICONTROL Incremental query]** activity which filters the profiles in the Adobe Campaign database that are subscribed to the **Running Newsletter** service, to send them a welcome email containing a promo code.
+L'esempio seguente mostra la configurazione di un' **[!UICONTROL Incremental query]** attività che filtra i profili nel database Adobe Campaign sottoscritti al servizio **Running Newsletter** , per inviare loro un messaggio e-mail di benvenuto contenente un codice promozionale.
 
 Il flusso di lavoro è costituito dai seguenti elementi:
 
 ![](assets/incremental_query_example1.png)
 
-* A **[!UICONTROL Scheduler]** activity, to execute the workflow every Monday at 6 am.
+* Un' **[!UICONTROL Scheduler]** attività, per eseguire il flusso di lavoro ogni lunedì alle 6.
 
    ![](assets/incremental_query_example2.png)
 
-* An **[!UICONTROL Incremental query]** activity, which targets all of the current subscribers during the first execution, then only the new subscribers of that week during the following executions.
+* Un' **[!UICONTROL Incremental query]** attività, che esegue il targeting per tutti gli utenti correnti durante la prima esecuzione, quindi solo per i nuovi sottoscrittori della settimana durante le seguenti esecuzioni.
 
    ![](assets/incremental_query_example3.png)
 
-* An **[!UICONTROL Email delivery]** activity. Il flusso di lavoro viene eseguito una volta alla settimana, ma è possibile aggregare le e-mail inviate e i risultati al mese, ad esempio per generare rapporti per un periodo di un mese intero e non per una sola settimana.
+* Un' **[!UICONTROL Email delivery]** attività. Il flusso di lavoro viene eseguito una volta alla settimana, ma potete aggregare i messaggi e-mail inviati e i risultati mensili, ad esempio per generare rapporti su un periodo di un intero mese e non solo una settimana.
 
-   To do this, choose to create a **[!UICONTROL Recurring email]** here regrouping the emails and the results **[!UICONTROL By month]**.
+   A questo scopo, scegliete di creare una **[!UICONTROL Recurring email]** struttura che raggruppa le e-mail e i risultati **[!UICONTROL By month]**.
 
    Definite il contenuto dell'e-mail e inserite il codice promozionale di benvenuto.
 
-   For more on this, refer to the [Email delivery](../../automating/using/email-delivery.md) and [Defining email content](../../designing/using/about-personalization.md) sections.
+   Per ulteriori informazioni, consultate le sezioni [Invio](../../automating/using/email-delivery.md) e-mail e [Definizione del contenuto](../../designing/using/personalization.md) e-mail.
 
-Quindi avviate l'esecuzione del flusso di lavoro. Ogni settimana i nuovi abbonati riceveranno il messaggio e-mail di benvenuto con il codice promozionale.
+Quindi avviate l'esecuzione del flusso di lavoro. Ogni settimana i nuovi abbonati riceveranno l'e-mail di benvenuto con il codice promozionale.
 
-## Example: incremental query on delivery logs {#example--incremental-query-on-delivery-logs}
+## Esempio: query incrementale sui registri di consegna {#example--incremental-query-on-delivery-logs}
 
-You can use an **[!UICONTROL Incremental query]** activity to regularly export new logs in files. Può essere utile ad esempio per utilizzare i dati del registro in reporting esterni o strumenti BI.
+Potete utilizzare un' **[!UICONTROL Incremental query]** attività per esportare regolarmente nuovi file di registro. Può essere utile, ad esempio, se si desidera utilizzare i dati di registro in strumenti di reporting o BI esterni.
 
-A complete example is available in the [Exporting logs](../../automating/using/exporting-logs.md) section.
+Un esempio completo è disponibile nella sezione [Esportazione dei registri](../../automating/using/exporting-logs.md) .
