@@ -1,47 +1,47 @@
 ---
-title: Guide passo-passo
-seo-title: Guide passo-passo
-description: Guide passo-passo
-seo-description: Scopri le nozioni di base di Adobe Campaign tramite semplici procedure passo passo ed esperienza della soluzione.
-page-status-flag: never-activated
-uuid: 8 d 6 d 5 f 62-e 564-4 b 5 b -86 ef -2 b 7 ac 5 f 8 ab 62
+title: Guide dettagliate
+seo-title: Guide dettagliate
+description: Guide dettagliate
+seo-description: Scopri le nozioni di base di Adobe Campaign attraverso semplici procedure passo passo e sperimenta la potenza della soluzione.
+page-status-flag: mai attivato
+uuid: 8d6d5f62-e564-4b5b-86ef-2b7ac5f8ab62
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: riferimento
-topic-tags: tutorial
-discoiquuid: d 7088 c 18-7 daf -4 c 30-b 633-2 f 19496 b 1143
+content-type: reference
+topic-tags: esercitazioni
+discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
 
-# Step-by-step guides{#step-by-step-guides}
+# Guide dettagliate{#step-by-step-guides}
 
-Scopri i nostri intuitivi guide passo-passo con Adobe Campaign.
+Inizia con Adobe Campaign consultando le nostre intuitive guide dettagliate.
 
-* [Creazione di un messaggio e-mail personalizzato](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html): creare e inviare e-mail personalizzate a un pubblico ben preciso.
-* [Offrire un abbonamento a un servizio](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html): creare un'iscrizione a una newsletter utilizzando una pagina di destinazione.
-* [Creazione di una pagina di destinazione](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html): gestire i modelli di pagina di destinazione e creare nuove pagine di destinazione pronte per l'uso.
-* [Esportazione e importazione di un pacchetto di risorse personalizzate](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html): esportare e importare un pacchetto di risorse personalizzate da un ambiente di sviluppo a un ambiente di produzione.
-* [Creazione di un flusso di lavoro per messaggi tra canali](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html): creare un flusso di lavoro segmentando una popolazione per inviare una consegna e-mail e una consegna SMS.
-* [Creazione di un'e-mail con Experience Manager e Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): creare un contenuto e-mail in Adobe Experience Manager e utilizzarlo in un messaggio e-mail in Adobe Campaign Standard.
-* [Distribuzione con Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html): scopri alcune delle best practice che puoi utilizzare per distribuire con Adobe Campaign, dalla creazione e il targeting per l'invio e il monitoraggio.
-* [Ottimizzazione del recapito](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html): scopri i concetti chiave e le best practice relative al recapito nonché gli strumenti offerti da Adobe Campaign per ottimizzare le consegne.
-* [Regolamento generale sulla protezione dei dati](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): scopri gli strumenti e le funzionalità forniti da Adobe Campaign, oltre alle best practice, per diventare conformi al GDPR.
+* [Creazione di un’e-mail](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)personalizzata: creazione e invio di e-mail personalizzate a un pubblico mirato.
+* [Offerta di iscrizione a un servizio](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html): create un’iscrizione a una newsletter utilizzando una pagina di destinazione.
+* [Creazione di una pagina](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html)di destinazione: gestire i modelli delle pagine di destinazione e creare nuove pagine di destinazione pronte per l’uso.
+* [Esportazione e importazione di un pacchetto di risorse](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html)personalizzate: esportare e importare un pacchetto di risorse personalizzate da un ambiente di sviluppo a un ambiente di produzione.
+* [Creazione di un flusso di lavoro](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html)per messaggi tra canali: create un flusso di lavoro segmentando una popolazione per inviare una consegna e-mail e un SMS.
+* [Creazione di un'e-mail con Experience Manager e Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): create un contenuto e-mail in Adobe Experience Manager e utilizzatelo in un messaggio e-mail in Adobe Campaign Standard.
+* [Distribuzione con Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html): scopri alcune delle best practice che puoi utilizzare per distribuire con Adobe Campaign, dalla creazione e il targeting all'invio e al monitoraggio.
+* [Ottimizzazione del recapito](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html): scopri i concetti chiave e le best practice relative alla recapito dei prodotti e gli strumenti offerti da Adobe Campaign per ottimizzare le consegne.
+* [Regolamento](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)generale sulla protezione dei dati: scopri gli strumenti e le funzionalità forniti da Adobe Campaign, oltre alle best practice, per aiutarti a diventare conforme ai requisiti GDPR.
 
-Per ulteriori informazioni su Adobe Campaign, verifica i casi d'uso ed esempi seguenti:
+Per saperne di più su Adobe Campaign, consulta i casi di utilizzo e gli esempi seguenti:
 
-* [Importazione di profili](../../automating/using/importing-data.md#example--import-workflow-template): importare nuovi profili client con un flusso di lavoro all'istanza Adobe Campaign per aggiornare il database e inviare e-mail.
-* [Passaggi chiave per inviare un messaggio](../../channels/using/key-steps-to-send-a-message.md): informazioni su come creare e inviare messaggi tramite passaggio.
+* [Importazione di profili](../../automating/using/importing-data.md#example--import-workflow-template): importa nuovi profili client con un flusso di lavoro nell’istanza di Adobe Campaign per aggiornare il database e inviare e-mail.
+* [Passaggi chiave per inviare un messaggio](../../channels/using/key-steps-to-send-a-message.md): scopri come creare e inviare i messaggi passo passo.
 
-* [Passaggi principali per progettare un messaggio e-mail](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch): leggete i passaggi principali per progettare contenuti e-mail da zero.
-* [Utilizzo di Experience Cloud Triggers con Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md): inviare e-mail personalizzate ai clienti seguendo comportamenti specifici seguiti da Adobe Analytics sul tuo sito Web.
-* [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md): scoprite come creare nuove risorse o estendere quelli esistenti.
-* [Importazione del modello di flusso di lavoro](../../automating/using/importing-data.md#example--import-workflow-template): utilizzare un modello di importazione per importare regolarmente file con la stessa struttura.
-* [Configurazione di un processo](../../channels/using/setting-up-a-double-opt-in-process.md)di rinuncia: scoprite come inviare un'e-mail collegata a una pagina di destinazione per confermare l'iscrizione a un cliente.
-* [Personalizzate un'e-mail](../../designing/using/example--email-personalization.md): personalizzare un'e-mail in base all'età del cliente.
+* [Passaggi chiave per progettare un messaggio e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch): leggi i passaggi chiave per progettare contenuti e-mail da zero.
+* [Utilizzo di Experience Cloud Triggers con Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md): inviate e-mail personalizzate ai vostri clienti in seguito a comportamenti specifici tracciati da Adobe Analytics sul vostro sito Web.
+* [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md): scoprite come creare nuove risorse o estendere quelle esistenti.
+* [Importazione del modello](../../automating/using/importing-data.md#example--import-workflow-template)di flusso di lavoro: usate il modello di importazione per importare regolarmente file con la stessa struttura.
+* [Impostazione di un processo](../../channels/using/setting-up-a-double-opt-in-process.md)di doppio consenso: scoprite come inviare un'e-mail collegata a una pagina di destinazione per confermare l'iscrizione di un cliente.
+* [Personalizza un messaggio e-mail](../../designing/using/personalization.md#example-email-personalization): personalizzare un'e-mail in base all'età del cliente.
 
