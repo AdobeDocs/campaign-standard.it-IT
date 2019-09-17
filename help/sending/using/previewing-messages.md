@@ -2,39 +2,39 @@
 title: Anteprima dei messaggi
 seo-title: Anteprima dei messaggi
 description: Anteprima dei messaggi
-seo-description: Scoprite come visualizzare in anteprima un messaggio nell'editor di contenuto o in E-mail Designer.
-page-status-flag: never-activated
-uuid: 8 dffca 95-59 fe -4 e 9 b -93 cb -73 b 33 ffde 020
+seo-description: Scopri come visualizzare in anteprima un messaggio nell'editor del contenuto o in Designer e-mail.
+page-status-flag: mai attivato
+uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: invio
-content-type: riferimento
-topic-tags: preparazione-and-testing-messages
-discoiquuid: 8428 f 8 ac -8 ef 5-46 cd -9 d 93-10 ec 0 ecd 3
+content-type: reference
+topic-tags: preparazione e verifica dei messaggi
+discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 ---
 
 
-# Previewing messages{#previewing-messages}
+# Anteprima dei messaggi{#previewing-messages}
 
-After adding test profiles in the **[!UICONTROL Audience]** window, you can preview your message to check its personalization and how your recipients will see your delivery.
+Dopo aver aggiunto i profili di test nella **[!UICONTROL Audience]** finestra, puoi visualizzare l’anteprima del messaggio per verificarne la personalizzazione e vedere in che modo i destinatari vedranno la tua distribuzione.
 
-1. In the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer), click the **[!UICONTROL Preview]** button.
+1. In [Email Designer](../../designing/using/overview.md), fare clic sul **[!UICONTROL Preview]** pulsante.
 
    ![](assets/sending_preview.png)
 
-   Una visualizzazione desktop e una visualizzazione mobile reattiva dell'e-mail sono visualizzate affiancati.
+   Una vista desktop e una vista mobile reattiva dell’e-mail vengono visualizzate affiancate.
 
-1. Durante ogni anteprima viene eseguito un controllo antispam automatico. Click the **[!UICONTROL Anti-spam analysis]** button to find out more about the warning.
+1. Durante ogni anteprima viene eseguito un controllo automatico dello spam. Fare clic sul **[!UICONTROL Anti-spam analysis]** pulsante per ulteriori informazioni sull'avviso.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Select the **[!UICONTROL Change profile]** button to choose the test profile you want to test the personalization elements on.
-1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
+1. Fate clic sul **[!UICONTROL Change profile]** pulsante per scegliere il profilo di test su cui sottoporre a test gli elementi di personalizzazione.
+1. Per uscire dalla **[!UICONTROL Preview]** modalità, fare clic sul **[!UICONTROL Edit]** pulsante in alto a sinistra dello schermo.
 
    ![](assets/sending_preview_edit.png)
 
