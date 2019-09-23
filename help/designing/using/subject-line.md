@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
+source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
 
 ---
 
@@ -29,27 +29,27 @@ L'oggetto del messaggio è obbligatorio per preparare e inviare il messaggio.
 
 Per configurare l'oggetto dell'e-mail, passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l'icona principale) e compilare la **[!UICONTROL Subject]** sezione.
 
-**Per definire l’oggetto di un messaggio e-mail**:
+**To define the subject line of an email**:
 
-1. Create un messaggio e-mail.
-1. Chiudi la homepage.
-1. Passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l'icona principale) e compilare la **[!UICONTROL Subject]** sezione.
+1. Create an email.
+1. Close homepage.
+1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
 
 ![](assets/email_designer_subject.png)
 
-Puoi anche aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici alla riga dell’oggetto facendo clic sulle icone corrispondenti.
+You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
 
-**Argomenti correlati:**
+**Related topics:**
 
-* [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Aggiunta di un blocco di contenuto](../../designing/using/personalization.md#adding-a-content-block)
-* [Definizione di contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Predictive subject line {#predictive-subject-line}
 
-Quando modificate un’e-mail, potete provare diverse righe di oggetto e ottenere una stima del tasso di apertura prima di inviarla.
+When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
 
-Questa funzione è disattivata per impostazione predefinita. Viene attivata quando viene importato il primo modello. Un modello è il risultato di set di dati di formazione specifici per un determinato settore. I modelli consentono al sistema di prevedere la frequenza di apertura dell'e-mail quando viene inviata una nuova riga oggetto.
+This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Per definire il nome del mittente che verrà visualizzato nell'intestazione dei 
 
    Questo campo può essere personalizzato. A tal fine, puoi aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici facendo clic sulle icone sotto il nome del mittente.
 
-* Impossibile modificare il **[!UICONTROL From: email address]** campo da questa sezione. Potete modificarlo modificandone le proprietà dal relativo dashboard. Per ulteriori informazioni, consulta [Elenco dei parametri](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzati per le e-mail.
+* Impossibile modificare il **[!UICONTROL From: email address]** campo da questa sezione. Potete modificarlo modificandone le proprietà dal relativo dashboard. Per ulteriori informazioni, consultate [Elenco dei parametri](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzati per le e-mail.
 
 >[!NOTE]
 >
