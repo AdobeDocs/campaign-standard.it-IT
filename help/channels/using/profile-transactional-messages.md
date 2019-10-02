@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cdf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -45,7 +45,7 @@ I passaggi per creare, personalizzare e pubblicare un messaggio di transazione p
 Le differenze sono elencate di seguito.
 
 1. Vai al messaggio transazionale creato per modificarlo.
-1. Nel messaggio di transazione, fai clic sulla **[!UICONTROL Content]** sezione. Oltre al modello transazionale, potete anche scegliere il modello e-mail predefinito, con le destinazioni **[!UICONTROL Profile]**.
+1. Nel messaggio di transazione, fai clic sulla **[!UICONTROL Content]** sezione. Oltre al modello di transazione, potete anche scegliere qualsiasi targeting per modello e-mail **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
