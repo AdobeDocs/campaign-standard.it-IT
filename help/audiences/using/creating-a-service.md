@@ -15,7 +15,7 @@ context-tags: servizio,procedura guidata;servizio,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32a11ad57eee6bc0b7ab693fbaa55811f36f94dc
+source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
 
 ---
 
@@ -34,27 +34,27 @@ Per configurare un servizio:
 
    ![](assets/lp_service_parameters.png)
 
-1. Compila il **[!UICONTROL Service label]** campo. L'etichetta del servizio è obbligatoria quando si utilizza un messaggio di conferma personalizzato.
+1. Fill in the  field. **[!UICONTROL Service label]** L'etichetta del servizio è obbligatoria quando si utilizza un messaggio di conferma personalizzato.
 
 1. Selezionate un modello di messaggio di conferma per iscrizioni e annullamento delle iscrizioni. Sono disponibili tre modalità:
 
-   * **[!UICONTROL No message]**: questa modalità consente di creare un servizio senza un messaggio di conferma.
-   * **[!UICONTROL Default message]**: in questa modalità verrà utilizzato il messaggio transazionale di conferma dell'iscrizione o dell'annullamento dell'iscrizione. I messaggi di conferma predefiniti sono generici e saranno identici per tutti i servizi che utilizzano la modalità predefinita.
+   * **[!UICONTROL No message]**: this mode allows you to create a service without a confirmation message.
+   * **[!UICONTROL Default message]**: this mode will use the default subscription or unsubscription confirmation transactional message. The default confirmation messages are generic and will be the same for all services that use the default mode.
 
-      >[NOTA]
+      >[NOTE]
       >
-      >Puoi modificare un messaggio predefinito facendo clic sulla relativa etichetta nella **[!UICONTROL Service properties]** sezione o selezionandolo dall'elenco dei messaggi transazionali di Adobe Campaign, dopo aver selezionato la **[!UICONTROL Show internal transactional messages]** casella.
+      >You can modify a default message by clicking its label in the  section or by selecting it from the Adobe Campaign transactional message list, after checking the  box.**[!UICONTROL Service properties]****[!UICONTROL Show internal transactional messages]**
 
-   * **[!UICONTROL Custom message]**: questa modalità consente di gestire messaggi di conferma personalizzati, specifici per ogni servizio. Quindi seleziona il **[!UICONTROL Custom subscription event configuration]** quale è associato a un modello di messaggio [](../../channels/using/about-transactional-messaging.md) transazionale specifico. Per ulteriori informazioni, consultate [Conferma dell’iscrizione a un servizio](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Custom message]**: questa modalità consente di gestire messaggi di conferma personalizzati, specifici per ogni servizio. You then select the  which is associated with a specific transactional message template. **[!UICONTROL Custom subscription event configuration]**[](../../channels/using/about-transactional-messaging.md) For more on this, see [Confirming subscription to a service](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Salvate il servizio. È ora pronto per essere utilizzato.
 
-Una volta creato il servizio, potete iniziare a promuoverlo.
+Once a service has been created, you can start promoting it.
 
-**Argomenti correlati:**
+**Related topics:**
 
-* [Gestione di un servizio e delle iscrizioni](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) video
-* [Promozione di un servizio](../../audiences/using/promoting-a-service.md)
-* [Creazione di un'audience composta da abbonati](../../audiences/using/creating-audiences.md#creating-list-audiences)
+* [Managing a service and subscriptions video](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
+* [Promoting a service](../../audiences/using/promoting-a-service.md)
+* [Creating an audience made of subscribers](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Collegamento di un modulo a un servizio in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
 
