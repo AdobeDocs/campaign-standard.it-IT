@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bcf4a2e2b522b084d63c7bf15293b177f1c96333
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
@@ -31,7 +31,7 @@ Se scegliete di utilizzare il messaggio predefinito, potete modificarne il conte
 * Potete personalizzare il contenuto del messaggio solo con campi limitati dal contesto dell'evento.
 * Questo messaggio sarà lo stesso per tutti i servizi che utilizzano la modalità predefinita.
 
-Per inviare un messaggio di conferma specifico per un determinato servizio, potete creare un messaggio di conferma personalizzato, in cui potrete sfruttare anche i campi di personalizzazione di altre risorse. A tal fine, devi creare e configurare un messaggio transazionale. È possibile fare riferimento a questo messaggio:
+Per inviare un'e-mail di conferma specifica per un determinato servizio, potete creare un messaggio personalizzato in cui potrete sfruttare anche i campi di personalizzazione provenienti da altre risorse. A tal fine, devi creare e configurare un messaggio transazionale. È possibile fare riferimento a questo messaggio:
 * Dal servizio stesso. Per ulteriori informazioni, consulta [Configurazione del messaggio di conferma da un servizio](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
 * Da una pagina di destinazione di iscrizione. Per ulteriori informazioni, vedere [Configurazione del messaggio di conferma da una pagina](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)di destinazione.
 
@@ -166,7 +166,7 @@ I passaggi per progettare il messaggio di transazione sono descritti in questa [
 
 ### Passaggio 2: Creazione e configurazione del servizio {#step-2--create-and-configure-the-service-2}
 
-1. Dal menu avanzato **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROLSServizi]** tramite il logo Adobe Campaign, create un servizio.
+1. Dal menu avanzato **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** tramite il logo Adobe Campaign, crea un servizio.
 1. Andate alla **[!UICONTROL Service properties]** sezione, a cui si accede tramite il ![](assets/edit_darkgrey-24px.png) pulsante nel dashboard del servizio.
 1. Compila il **[!UICONTROL Service label]** campo. Questa etichetta verrà visualizzata nel messaggio di conferma e nella pagina di destinazione dell'iscrizione.
 1. Fate clic su **[!UICONTROL Confirm]** e salvate il servizio.
