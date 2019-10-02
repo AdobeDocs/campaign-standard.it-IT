@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4f9d8ec6c5fc8dec8e4ad16930a183cda665a15
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -26,6 +26,12 @@ Scopri tutti gli ultimi aggiornamenti della documentazione di Adobe Campaign Sta
 In questa pagina sono elencate tutte le nuove funzioni e gli aggiornamenti della documentazione per ciascuna versione di Adobe Campaign Standard.
 
 Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione di Adobe Campaign.
+
+## Aggiornamenti della documentazione - Ottobre 2019 {#doc-updates-october-2019}
+
+È stata aggiunta una nuova sezione che descrive come inviare un'e-mail di conferma automatica personalizzata ai profili con sottoscrizione a un servizio specifico. [Leggi tutto](../../audiences/using/confirming-subscription-to-a-service.md)
+
+La sezione Messaggistica transazionale è stata modificata con gli ultimi aggiornamenti dell'interfaccia utente, inclusa la modifica del contenuto con Email Designer. [Leggi tutto](../../channels/using/event-transactional-messages.md)
 
 ## Aggiornamenti della documentazione - Settembre 2019 {#doc-updates-september-2019}
 
