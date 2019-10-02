@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: aeb0e7bc6765b23042fafd34fb360d4e3046adcd
 
 ---
 
@@ -120,7 +120,7 @@ L'accesso a una pagina di destinazione può essere limitato ai visitatori identi
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Selezionare **[!UICONTROL Preload visitor data]**.
+1.  Selezionare **[!UICONTROL Preload visitor data]**.
 
    Se un visitatore della pagina corrisponde a un profilo nel database, i suoi dati vengono visualizzati nei campi del modulo che sono mappati con i dati del database e vengono presi in considerazione gli elementi di personalizzazione della pagina di destinazione.
 
