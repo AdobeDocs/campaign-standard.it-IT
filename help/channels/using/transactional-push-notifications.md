@@ -14,7 +14,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -64,7 +64,7 @@ L'azienda invierà una notifica push transazionale per utente (identificata con 
 
    ![](assets/message-center_push_content.png)
 
-   Per trovare questi campi, fare clic sulla matita accanto a un elemento, quindi selezionare **[!UICONTROL Insert personalization field]** &gt; **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   Per trovare questi campi, fate clic sulla matita accanto a un elemento, quindi selezionate **[!UICONTROL Insert personalization field]** &gt; **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** **[!UICONTROL Event context]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -113,13 +113,13 @@ Ad esempio, un'azienda aerea desidera inviare un'ultima chiamata per l'imbarco a
 
 1. Vai al messaggio transazionale creato per modificarlo. Consultate Messaggi transazionali [evento](../../channels/using/event-transactional-messages.md).
 
-   ![](assets/message-center_push_message_profile.png)
+   <!--![](assets/message-center_push_message_profile.png)-->
 
 1. Fai clic sul **[!UICONTROL Content]** blocco per modificare il titolo e il corpo del messaggio.
 
    A differenza delle configurazioni basate su eventi in tempo reale, puoi accedere direttamente a tutte le informazioni sul profilo per personalizzare il messaggio. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field)di personalizzazione.
 
-   ![](assets/message-center_push_content_profile.png)
+   <!--![](assets/message-center_push_content_profile.png)-->
 
    Per ulteriori informazioni sulla modifica di un contenuto di notifica push. Consultate [Creazione di una notifica](../../channels/using/preparing-and-sending-a-push-notification.md)push.
 
