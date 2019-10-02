@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 ---
 
@@ -83,21 +83,27 @@ Ora potete accedere al messaggio creato e selezionare il profilo di test aggiorn
 
 Per impostare la personalizzazione in un messaggio transazionale, segui i passaggi riportati di seguito:
 
-1. Fai clic sul **[!UICONTROL Content]** blocco per modificare l'oggetto e il contenuto del messaggio. Per questo esempio, importate un modello HTML contenente immagini, il foglio di stile e un file HTML. L'importazione di modelli HTML viene presentata nella sezione [Caricamento di un contenuto](../../designing/using/using-existing-content.md) esistente.
+1. Fai clic sul **[!UICONTROL Content]** blocco per modificare l'oggetto e il contenuto del messaggio. Per questo esempio, selezionate un modello contenente immagini e testo. Per ulteriori informazioni sui modelli di contenuto e-mail, consultate [Progettazione mediante i modelli](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
-1. Inserisci il contenuto del messaggio. In questo esempio sono stati aggiunti tre campi di personalizzazione: cognome, ultimo prodotto consultato, importo totale del carrello. Il collegamento al carrello abbandonato è un collegamento a un URL esterno che reindirizzerà la persona al suo carrello. Questo parametro non è gestito in Adobe Campaign.
+1. Aggiungi un oggetto e modifica il contenuto del messaggio in base alle tue esigenze.
 
-   Per aggiungere i campi definiti al momento della creazione dell’evento (consultate [Configurazione di un evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)), inserite un campo di personalizzazione nel contenuto del messaggio. Potete trovare i campi selezionando **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   >[NOTA]
+   >
+   >Il collegamento al carrello abbandonato è un collegamento a un URL esterno che reindirizzerà la persona al suo carrello. Questo parametro non è gestito in Adobe Campaign.
+
+1. In questo esempio, si desidera aggiungere tre campi definiti al momento della [creazione dell'evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): nome, ultimo prodotto consultato, importo totale del carrello. A tal fine, [inserire un campo](../../designing/using/personalization.md#inserting-a-personalization-field) di personalizzazione nel contenuto del messaggio.
+
+1. Passate a tali campi tramite **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7.png)
 
-1. Per arricchire il contenuto del messaggio, aggiungete i campi selezionandoli dalla tabella con cui avete collegato l’evento. Nel nostro esempio, selezionare il **[!UICONTROL Title (salutation)]** campo nella **[!UICONTROL Profile]** tabella.
+1. Per arricchire il contenuto del messaggio, aggiungete i campi selezionandoli dalla tabella con cui avete collegato l’evento. Nel nostro esempio, seleziona il **[!UICONTROL Title (salutation)]** campo nella **[!UICONTROL Profile]** tabella tramite **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
-   I passaggi per l'inserimento di un campo di personalizzazione sono descritti dettagliatamente nella sezione [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field) di personalizzazione.
+1. Inserite tutti i campi necessari.
 
    ![](assets/message-center_8.png)
 
@@ -115,7 +121,7 @@ Potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di
 
 >[!CAUTION]
 >
->Gli elenchi dei prodotti sono disponibili solo quando si modificano i messaggi e-mail transazionali tramite l'interfaccia di [Email Designer](../../designing/using/overview.md#email-designer) .
+>Gli elenchi di prodotti sono disponibili solo quando si modificano i messaggi e-mail transazionali tramite l'interfaccia di [Email Designer](../../designing/using/overview.md#email-designer) .
 
 Per aggiungere un elenco di prodotti abbandonati in un messaggio transazionale, segui i passaggi indicati di seguito.
 
