@@ -1,27 +1,27 @@
 ---
-title: Definizione dell’oggetto e del mittente di un messaggio e-mail
-seo-title: Definizione dell’oggetto e del mittente di un messaggio e-mail
-description: Definizione dell’oggetto e del mittente di un messaggio e-mail
-seo-description: Scoprite come definire l'oggetto e il mittente di un'e-mail in Designer e-mail.
-page-status-flag: mai attivato
+title: Defining the subject line and the sender of an email
+seo-title: Defining the subject line and the sender of an email
+description: Defining the subject line and the sender of an email
+seo-description: Discover how to define the subject line and the sender of an email in the Email Designer.
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
+source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
 
 ---
 
 
-# Definizione dell’oggetto e del mittente di un messaggio e-mail{#defining-the-subject-line-of-an-email}
+# Defining the subject line and the sender of an email{#defining-the-subject-line-of-an-email}
 
-L'oggetto del messaggio è obbligatorio per preparare e inviare il messaggio.
+The message subject is mandatory to prepare and send the message.
 
 >[!NOTE]
 >
@@ -29,27 +29,27 @@ L'oggetto del messaggio è obbligatorio per preparare e inviare il messaggio.
 
 Per configurare l'oggetto dell'e-mail, passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l'icona principale) e compilare la **[!UICONTROL Subject]** sezione.
 
-**To define the subject line of an email**:
+**Per definire l’oggetto di un messaggio e-mail**:
 
-1. Create an email.
-1. Close homepage.
-1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
+1. Create un messaggio e-mail.
+1. Chiudi la homepage.
+1. Passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l'icona principale) e compilare la **[!UICONTROL Subject]** sezione.
 
 ![](assets/email_designer_subject.png)
 
-You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
+Puoi anche aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici alla riga dell’oggetto facendo clic sulle icone corrispondenti.
 
-**Related topics:**
+**Argomenti correlati:**
 
-* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
-* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Aggiunta di un blocco di contenuto](../../designing/using/personalization.md#adding-a-content-block)
+* [Definizione di contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Predictive subject line {#predictive-subject-line}
 
-When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
+Quando modificate un’e-mail, potete provare diverse righe di oggetto e ottenere una stima del tasso di apertura prima di inviarla.
 
-This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted.
+Questa funzione è disattivata per impostazione predefinita. Viene attivata quando viene importato il primo modello. Un modello è il risultato di set di dati di formazione specifici per un determinato settore. I modelli consentono al sistema di prevedere la frequenza di apertura dell'e-mail quando viene inviata una nuova riga oggetto.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ This feature is disabled by default. It is enabled when the first model is impor
 
 **Argomento correlato**
 
-* [Verifica di una riga oggetto](../../sending/using/testing-subject-line-email.md)
+* [Verifica dell’oggetto di un messaggio e-mail](../../sending/using/testing-subject-line-email.md)
 
 ## Mittente e-mail {#email-sender}
 
@@ -65,17 +65,17 @@ Per definire il nome del mittente che verrà visualizzato nell'intestazione dei 
 
 ![](assets/delivery_content_edition16.png)
 
-* Il **[!UICONTROL From: name]** campo consente di inserire il nome del mittente. Per impostazione predefinita, nel campo viene inserito automaticamente il blocco **Nome** mittente predefinito. Adobe Campaign fa riferimento alla configurazione del canale e-mail (dal menu avanzato **[!UICONTROL Administration > Channels > Email > Email accounts]** tramite il logo Adobe Campaign) per designare il mittente.
+* Il **[!UICONTROL From: name]** campo consente di inserire il nome del mittente. Per impostazione predefinita, nel campo viene inserito automaticamente il blocco **Nome** mittente predefinito. Adobe Campaign refers to the email channel configuration (from the advanced menu  via the Adobe Campaign logo) to designate this sender.**[!UICONTROL Administration > Channels > Email > Email accounts]**
 
-   Puoi cambiare il nome del mittente facendo clic sul blocco del nome **del** mittente. Il campo diventa quindi modificabile ed è possibile immettere il nome che si desidera utilizzare.
+   You can change the sender name by clicking the Sender name block. **** The field then becomes editable and you can enter the name you would like to use.
 
-   Questo campo può essere personalizzato. A tal fine, puoi aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici facendo clic sulle icone sotto il nome del mittente.
+   This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
 
-* Impossibile modificare il **[!UICONTROL From: email address]** campo da questa sezione. Potete modificarlo modificandone le proprietà dal relativo dashboard. Per ulteriori informazioni, consultate [Elenco dei parametri](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzati per le e-mail.
+* The  field cannot be edited from this section. **[!UICONTROL From: email address]** You can change it by editing the properties of the email from its dashboard. For more information, see List of email advanced parameters.[](../../administration/using/configuring-email-channel.md#advanced-parameters)
 
 >[!NOTE]
 >
->I parametri dell'intestazione non devono essere vuoti. L'indirizzo del mittente è obbligatorio per consentire l'invio di un'e-mail (standard RFC). Adobe Campaign controlla la sintassi degli indirizzi e-mail immessi.
+>The header parameters must not be empty. The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign checks the syntax of email addresses entered.
 
 **Argomenti correlati:**
 
