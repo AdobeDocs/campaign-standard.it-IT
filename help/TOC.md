@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: utente finale
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
+source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
 
 ---
 
@@ -36,21 +36,21 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [Timeline](start/using/timeline.md)
    + Gestione dei modelli {#managing-templates}
       + [I modelli](start/using/about-templates.md)
-      + [Creazione di un nuovo modello](start/using/creating-a-new-template.md)
-      + [Creazione di un modello multilingue](start/using/creating-a-multilingual-template.md)
-      + [Utilizzo di un modello](start/using/using-a-template.md)
-   + Esercitazioni {#tutorials}
-      + [Guide dettagliate](start/using/step-by-step-guides.md)
-      + [Video introduttivi](start/using/how-to-videos.md)
-+ Profili e audience {#profiles-and-audiences}
-   + [Informazioni su profili e audience](audiences/using/about-profiles-and-audiences.md)
-   + Gestione dei profili {#managing-profiles}
-      + [Informazioni sui profili](audiences/using/about-profiles.md)
-      + [Creazione di profili](audiences/using/creating-profiles.md)
-      + [Modifica dei profili](audiences/using/editing-profiles.md)
-      + [Profilo cliente integrato](audiences/using/integrated-customer-profile.md)
-      + [Profili attivi](audiences/using/active-profiles.md)
-   + Gestione dell'audience {#managing-audiences}
+      + [Creating a new template](start/using/creating-a-new-template.md)
+      + [Creating a multilingual template](start/using/creating-a-multilingual-template.md)
+      + [Using a template](start/using/using-a-template.md)
+   + Tutorials {#tutorials}
+      + [Step-by-step guides](start/using/step-by-step-guides.md)
+      + [How-to videos](start/using/how-to-videos.md)
++ Profiles and audiences {#profiles-and-audiences}
+   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
+   + Managing profiles {#managing-profiles}
+      + [About profiles](audiences/using/about-profiles.md)
+      + [Creating profiles](audiences/using/creating-profiles.md)
+      + [Editing profiles](audiences/using/editing-profiles.md)
+      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
+      + [Active profiles](audiences/using/active-profiles.md)
+   + Managing audiences {#managing-audiences}
       + [Informazioni sui tipi di pubblico](audiences/using/about-audiences.md)
       + [Creazione di audience](audiences/using/creating-audiences.md)
       + [Selezione di un'audience in un messaggio](audiences/using/selecting-an-audience-in-a-message.md)
@@ -78,25 +78,25 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
    + Messaggi SMS {#sms-messages}
       + [Informazioni sui messaggi SMS](channels/using/about-sms-messages.md)
       + [Creazione di un messaggio SMS](channels/using/creating-an-sms-message.md)
-      + [Personalizzazione dei messaggi SMS](channels/using/personalizing-sms-messages.md)
+      + [Personalizing SMS messages](channels/using/personalizing-sms-messages.md)
       + [Gestione SMS in arrivo](channels/using/managing-incoming-sms.md)
       + [Informazioni sulla progettazione di contenuto SMS e push](channels/using/about-sms-and-push-content-design.md)
       + [Interfaccia dell'editor di contenuti SMS e push](channels/using/sms-and-push-content-editor-interface.md)
-      + [Definizione del testo dinamico](channels/using/defining-dynamic-text.md)
-   + Notifiche push {#push-notifications}
-      + [Informazioni sulle notifiche push](channels/using/about-push-notifications.md)
-      + [Preparazione e invio di una notifica push](channels/using/preparing-and-sending-a-push-notification.md)
-      + [Personalizzazione di una notifica push](channels/using/customizing-a-push-notification.md)
-      + [Creazione di una notifica push multilingue](channels/using/creating-a-multilingual-push-notification.md)
-      + [Creazione e aggiornamento delle informazioni sul profilo in base ai dati delle applicazioni mobili](channels/using/updating-profile-with-mobile-app-data.md)
-   + Messaggistica in-app {#in-app-messaging}
-      + [Informazioni sui messaggi in-app](channels/using/about-in-app-messaging.md)
+      + [Defining dynamic text](channels/using/defining-dynamic-text.md)
+   + Push notifications {#push-notifications}
+      + [About push notifications](channels/using/about-push-notifications.md)
+      + [Preparing and sending a push notification](channels/using/preparing-and-sending-a-push-notification.md)
+      + [Customizing a push notification](channels/using/customizing-a-push-notification.md)
+      + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
+      + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
+   + In-App messaging {#in-app-messaging}
+      + [About In-App messaging](channels/using/about-in-app-messaging.md)
       + [Preparazione e invio di un messaggio in-app](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Personalizzazione di un messaggio in-app](channels/using/customizing-an-in-app-message.md)
-   + Posta diretta {#direct-mail}
-      + [Informazioni sulla posta diretta](channels/using/about-direct-mail.md)
-      + [Torna al mittente](channels/using/return-to-sender.md)
-      + [Creazione della posta diretta](channels/using/creating-the-direct-mail.md)
+      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
+   + Direct mail {#direct-mail}
+      + [About direct mail](channels/using/about-direct-mail.md)
+      + [Return to sender](channels/using/return-to-sender.md)
+      + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
       + [Definizione dell'audience di direct mailing](channels/using/defining-the-direct-mail-audience.md)
       + [Definizione del contenuto della posta diretta](channels/using/defining-the-direct-mail-content.md)
       + [Esempio di posta diretta in un flusso di lavoro](channels/using/example-of-direct-mail-in-a-workflow.md)
@@ -125,22 +125,22 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
    + [Definizione dell’oggetto e del mittente](designing/using/subject-line.md)
    + [Progettazione di e-mail da zero](designing/using/designing-from-scratch.md)
    + [Progettazione di e-mail con contenuto esistente](designing/using/using-existing-content.md)
-   + [Progettazione di e-mail con contenuto riutilizzabile](designing/using/using-reusable-content.md)
-   + [Progettazione di e-mail con più soluzioni](designing/using/using-integrations.md)
+   + [Designing emails using reusable content](designing/using/using-reusable-content.md)
+   + [Multi-solution email design](designing/using/using-integrations.md)
    + [Personalizzazione](designing/using/personalization.md)
-   + [Modalità testo normale e HTML](designing/using/plain-text-html-modes.md)
-   + [Gestione degli stili](designing/using/styles.md)
-   + [Gestione dei collegamenti](designing/using/links.md)
+   + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
+   + [Managing email styles](designing/using/styles.md)
+   + [Managing links](designing/using/links.md)
    + [Gestione delle immagini](designing/using/images.md)
-+ Test e invio {#testing-and-sending}
-   + [Informazioni sull'invio di messaggi con Campaign](sending/using/about-sending-messages-with-campaign.md)
-   + Preparazione e verifica dei messaggi {#preparing-and-testing-messages}
-      + [Anteprima dei messaggi](sending/using/previewing-messages.md)
-      + [Preparazione dell’invio](sending/using/preparing-the-send.md)
-      + [Gestione dei profili di test e invio delle prove](sending/using/managing-test-profiles-and-sending-proofs.md)
-      + [Verifica dell’oggetto di un messaggio e-mail](sending/using/testing-subject-line-email.md)
-      + [Rendering e-mail](sending/using/email-rendering.md)
-   + Pianificazione dei messaggi {#sheduling-messages}
++ Testing and Sending {#testing-and-sending}
+   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
+   + Preparing and testing messages {#preparing-and-testing-messages}
+      + [Previewing messages](sending/using/previewing-messages.md)
+      + [Preparing the send](sending/using/preparing-the-send.md)
+      + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Testing the subject line of an email](sending/using/testing-subject-line-email.md)
+      + [Email rendering](sending/using/email-rendering.md)
+   + Sheduling messages {#sheduling-messages}
       + [Informazioni sulla pianificazione dei messaggi](sending/using/about-scheduling-messages.md)
       + [Ottimizzazione del tempo di invio](sending/using/optimizing-the-sending-time.md)
       + [Invio di messaggi al fuso orario del destinatario](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
@@ -170,21 +170,21 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [Rapporto in-app](reporting/using/in-app-report.md)
       + [Non risultati finali e rimbalzi](reporting/using/non-deliverables-and-bounces.md)
       + [Apre](reporting/using/opens.md)
-      + [Report notifiche push](reporting/using/push-notification-report.md)
+      + [Push notification report](reporting/using/push-notification-report.md)
       + [SMS report](reporting/using/sms-report.md)
-      + [Indicatori di tracciamento](reporting/using/tracking-indicators.md)
-      + [Annulla sottoscrizioni](reporting/using/unsubscriptions.md)
-      + [URL e flussi di clic](reporting/using/urls-and-click-streams.md)
+      + [Tracking indicators](reporting/using/tracking-indicators.md)
+      + [Unsubscriptions](reporting/using/unsubscriptions.md)
+      + [URLs and click streams](reporting/using/urls-and-click-streams.md)
       + [Clic](reporting/using/hot-clicks.md)
-   + Personalizzazione dei rapporti {#customizing-reports}
-      + [Aggiunta di pannelli](reporting/using/adding-panels.md)
-      + [Aggiunta di visualizzazioni](reporting/using/adding-visualizations.md)
-      + [Aggiunta di componenti](reporting/using/adding-components.md)
-      + [Creazione di una dimensione di profilo personalizzata](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Creazione di un rapporto basato sui segmenti del flusso di lavoro](reporting/using/creating-a-report-workflow-segment.md)
-+ Integrazione con Adobe Cloud {#integrating-with-adobe-cloud}
+   + Customizing reports {#customizing-reports}
+      + [Adding panels](reporting/using/adding-panels.md)
+      + [Adding visualizations](reporting/using/adding-visualizations.md)
+      + [Adding components](reporting/using/adding-components.md)
+      + [Creating a custom profile dimension](reporting/using/creating-a-custom-profile-dimension.md)
+      + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
++ Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
    + [Informazioni sulle integrazioni delle campagne](integrating/using/about-campaign-integrations.md)
-   + Utilizzo di Campaign ed Experience Manager {#working-with-campaign-and-experience-manager}
+   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
       + [Integrazione con Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Creazione di un modulo Campaign in Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Utilizzo di Campaign e Target {#working-with-campaign-and-target}
