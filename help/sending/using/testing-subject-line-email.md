@@ -1,6 +1,6 @@
 ---
-title: Testing the subject line of an email
-seo-title: Testing the subject line of an email
+title: Verifica dell’oggetto di un messaggio e-mail
+seo-title: Verifica dell’oggetto di un messaggio e-mail
 description: Verifica dell’oggetto di un messaggio e-mail
 seo-description: Scoprite come definire l'oggetto di un'e-mail in Designer e-mail.
 page-status-flag: mai attivato
@@ -14,11 +14,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
+source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
 
 ---
 
-# Verifica di un oggetto {#testing-a-subject}
+# Verifica dell’oggetto di un messaggio e-mail {#testing-a-subject}
 
 Per testare l’oggetto, effettuate le seguenti operazioni:
 
@@ -36,26 +36,26 @@ Il soggetto viene quindi analizzato.
 
 Vengono calcolati diversi indicatori e viene visualizzato un set di strumenti per facilitare l’utente:
 
-* **Tasso** aperto previsto: Questo grafico fornisce un'idea del tasso di apertura previsto per l'e-mail con l'oggetto corrente.
-* **Subject length: This indicator lets you see if the current length of the subject is correct or whether it would need to be longer or shorter.**
-* **Parole** colorate: Durante il test dell'oggetto, le parole evidenziate in verde sono le parole che contribuiscono maggiormente ad aumentare la previsione di tasso aperto. Words highlighted in red are the words that contribute the least to increasing the open rate prediction. If you add or remove words in the subject, highlighted words will change.
-* **Categorie e suggerimenti** per le parole: Verso la parte inferiore della finestra, vengono visualizzate una serie di categorie rilevanti per il modello selezionato. These categories are sorted by order of importance and they allow you to see whether your subject contains words that are associated with it via a check symbol. Each category contains a set of suggested words that could be used in your subject to make it more relevant and increase the open rate. These words are the words that are used the most often in a given category.
+* **Predicted open rate: This chart gives you an idea of the open rate you can expect for the email with its current subject.**
+* **Lunghezza** oggetto: Questo indicatore consente di verificare se la lunghezza corrente del soggetto è corretta o se deve essere più lunga o più breve.
+* **Colored words: When testing the subject, words highlighted in green are the words that contribute the most to increasing the open rate prediction.** Words highlighted in red are the words that contribute the least to increasing the open rate prediction. If you add or remove words in the subject, highlighted words will change.
+* **Categories and word suggestions: Towards the lower part of the window, a number of relevant categories for the selected model are displayed.** Queste categorie sono ordinate in base all'ordine di importanza e consentono di verificare se l'oggetto contiene parole associate tramite un simbolo di spunta. Each category contains a set of suggested words that could be used in your subject to make it more relevant and increase the open rate. Queste parole sono le parole utilizzate più spesso in una determinata categoria.
 
 >[!NOTE]
 >
->Personalization fields and punctuation marks are stripped from the subject analysis. In the case of dynamic/conditional text, all variants are considered as one subject line.
+>I campi di personalizzazione e gli indicatori di punteggiatura vengono rimossi dall’analisi dell’oggetto. In the case of dynamic/conditional text, all variants are considered as one subject line.
 
 ![](assets/predictive_subject_line_example.png)
 
-## Importing models {#importing-models}
+## Importazione di modelli {#importing-models}
 
-By default, there is no model running on your Adobe Campaign server. There are two ways to get a model and activate the feature:
+Per impostazione predefinita, sul server Adobe Campaign non è in esecuzione alcun modello. There are two ways to get a model and activate the feature:
 
-* You can train a local model from the data of your previous email messages:
+* È possibile formare un modello locale dai dati dei messaggi e-mail precedenti:
 
    * If you are already using Adobe Campaign, the local model will be automatically trained on the messages that you have already sent.
-   * If you are new to Adobe Campaign, you can extract a CSV file from your previous system/ESP that contains 4 columns: date, subject, sent, opens. A tale scopo, passare a **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** e seguire le istruzioni fornite sugli schermi successivi. Al termine del caricamento dell’oggetto, importate un modello locale come descritto di seguito. Il modello locale viene addestrato automaticamente con i dati caricati.
-   * If you are new to Adobe Campaign and cannot get a CSV file as described above, you can use a pre-trained model or wait until you have enough delivery data in your system to train a local model. Il sistema determinerà automaticamente se il set di dati corrente contiene dati sufficienti per riconoscere i pattern e formare il modello.
+   * Se non avete mai usato Adobe Campaign, potete estrarre un file CSV dal sistema/ESP precedente che contiene 4 colonne: data, oggetto, inviato, aperto. A tale scopo, passare a **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** e seguire le istruzioni fornite sugli schermi successivi. When the subject upload is complete, import a local model as described below. Il modello locale viene addestrato automaticamente con i dati caricati.
+   * Se non avete mai avuto accesso ad Adobe Campaign e non potete ottenere un file CSV come descritto in precedenza, potete utilizzare un modello preformato o aspettare che nel sistema siano presenti dati di consegna sufficienti per formare un modello locale. Il sistema determinerà automaticamente se il set di dati corrente contiene dati sufficienti per riconoscere i pattern e formare il modello.
 
       >[!NOTE]
       >
@@ -81,4 +81,4 @@ I modelli disponibili per l'uso sono:
 * Industria cosmetica: subjectInsightCosmetic.xml
 * Industria dei supermercati: subjectInsightSupermarket.xml
 * Settore medicale: subjectInsightMedical.xml
-* Modello per il treno: subjectlineTraining.x
+* Modello per il treno: subjectlineTraining.xml.
