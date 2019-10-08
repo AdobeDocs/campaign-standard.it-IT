@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
+source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 ---
 
@@ -62,7 +62,7 @@ Il messaggio e-mail di conferma è un messaggio transazionale in quanto reagisce
 
    ![](assets/confirmation_publicLabel-field.png)
 
-   >[NOTA]
+   >[!NOTE]
    >
    >Il **[!UICONTROL publicLabel]** campo è obbligatorio. Se non lo aggiungete alla struttura dati dell'evento, Adobe Campaign non sarà in grado di eseguire la riconciliazione con il servizio. Con la sottoscrizione a un servizio, questo campo verrà compilato con il **[!UICONTROL Service label]** relativo servizio.
 
@@ -74,7 +74,7 @@ Il messaggio e-mail di conferma è un messaggio transazionale in quanto reagisce
 
    ![](assets/confirmation_publicLabel-join.png)
 
-   >[NOTA]
+   >[!NOTE]
    >
    >In questo modo potrai usare i campi di personalizzazione della **[!UICONTROL Service]** risorsa nel messaggio di transazione.
 
@@ -109,7 +109,7 @@ L’e-mail di conferma è un messaggio transazionale basato sull’evento appena
 
    ![](assets/confirmation_service-label.png)
 
-   >[NOTA]
+   >[!NOTE]
    >
    >È necessario compilare questo campo per abilitare la riconciliazione con il messaggio di transazione.
 
@@ -120,7 +120,11 @@ L’e-mail di conferma è un messaggio transazionale basato sull’evento appena
 
 1. Fate clic su **[!UICONTROL Confirm]** e salvate il servizio.
 
-Ogni volta che un profilo si iscrive a questo servizio, riceve il messaggio transazionale definito dall'utente, con campi personalizzati mappati al servizio selezionato. Un messaggio verrà inviato solo la prima volta che l'utente si iscrive.
+Ogni volta che un profilo si iscrive a questo servizio, riceve il messaggio transazionale definito dall'utente, con campi personalizzati mappati al servizio selezionato.
+
+>[!NOTE]
+>
+>Un messaggio verrà inviato solo la prima volta che l'utente si iscrive.
 
 ## Configurazione del messaggio di conferma da una pagina di destinazione {#configuring-confirmation-message-from-landing-page}
 
@@ -147,7 +151,7 @@ Il messaggio e-mail di conferma è un messaggio [](../../channels/using/about-tr
 
    ![](assets/confirmation_serviceName-field.png)
 
-   >[NOTA]
+   >[!NOTE]
    >
    >Il **[!UICONTROL serviceName]** campo è obbligatorio. Se non lo aggiungete alla struttura dati dell'evento, Adobe Campaign non sarà in grado di eseguire la riconciliazione con il servizio sottoscritto.
 
@@ -156,7 +160,7 @@ Il messaggio e-mail di conferma è un messaggio [](../../channels/using/about-tr
 
    ![](assets/confirmation_serviceName-join.png)
 
-   >[NOTA]
+   >[!NOTE]
    >
    >In questo modo potrai usare i campi di personalizzazione della [!UICONTROL Service] risorsa nel messaggio di transazione.
 
@@ -171,7 +175,7 @@ I passaggi per progettare il messaggio di transazione sono descritti in questa [
 1. Compila il **[!UICONTROL Service label]** campo. Questa etichetta verrà visualizzata nel messaggio di conferma e nella pagina di destinazione dell'iscrizione.
 1. Fate clic su **[!UICONTROL Confirm]** e salvate il servizio.
 
-### Passaggio 3: Creare e configurare la pagina di destinazione {#step-3--create-and-configure-the-landing-page}
+### Passaggio 3:Creare e configurare la pagina di destinazione {#step-3--create-and-configure-the-landing-page}
 
 Create una pagina di destinazione di iscrizione che verrà pubblicata sul sito Web.
 
@@ -192,6 +196,6 @@ Per creare e configurare questa pagina di destinazione, effettuate le seguenti o
 
 Ogni volta che un profilo si iscrive alla newsletter inviando la pagina di destinazione, riceve il messaggio di conferma definito con campi personalizzati mappati al servizio.
 
->[NOTA]
+>[!NOTE]
 >
 >Un messaggio viene inviato ogni volta che la pagina di destinazione viene inviata, anche se il profilo è già sottoscritto.
