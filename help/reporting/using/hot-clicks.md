@@ -15,7 +15,7 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -30,7 +30,7 @@ Presenta il contenuto del messaggio (HTML e/o testo) con la percentuale di clic 
 
 ![](assets/delivery_reports_10.png)
 
-Se avete creato contenuto dinamico per la distribuzione, potete visualizzare le percentuali per ogni condizione definita. Per ulteriori informazioni sull'inserimento di contenuto condizionale in una consegna, consultate [Definizione del contenuto](../../channels/using/defining-dynamic-content-in-a-landing-page.md)dinamico.
+Se avete creato contenuto dinamico per la distribuzione, potete visualizzare le percentuali per ogni condizione definita. Per ulteriori informazioni sull'inserimento di contenuto condizionale in una consegna, consultate [Definizione del contenuto](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)dinamico.
 
 Ad esempio, supponiamo di aver creato una consegna con le seguenti condizioni:
 
