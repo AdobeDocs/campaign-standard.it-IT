@@ -14,7 +14,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -159,7 +159,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
 
 ### Miglioramenti {#improvements-2}
 
-* L' **[!UICONTROL History]** API è stata aggiunta ad Adobe.IO. Consente di accedere alle informazioni relative alla cronologia marketing di un profilo: numero di punti di contatto, consegne inviate, URL pagina mirror ecc. Per ulteriori informazioni, consultare il caso [d'uso](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) dedicato.
+* L' **[!UICONTROL History]** API è stata aggiunta ad Adobe.IO. Consente di accedere alle informazioni relative alla cronologia marketing di un profilo: numero di punti di contatto, consegne inviate, URL pagina mirror ecc. Per ulteriori informazioni, consultare il caso [d'uso](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) dedicato.
 * Il flusso di lavoro **[!UICONTROL Database cleanup]** tecnico è stato ottimizzato per garantire prestazioni migliori per il backup del database.
 * Creative Designer per e-mail è ora disponibile anche in francese e tedesco.
 
@@ -481,7 +481,7 @@ Alcuni problemi possono verificarsi quando si utilizzano collegamenti di aiuto c
   </tr> 
   <tr> 
    <td> Attivazione attività segnale API<br /> </td> 
-   <td> È ora possibile attivare un'attività di segnale per i flussi di lavoro direttamente dall'API di Adobe Campaign Standard.<br /> Per ulteriori informazioni, consultare la documentazione <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank"></a> dettagliata .<br /> </td> 
+   <td> È ora possibile attivare un'attività di segnale per i flussi di lavoro direttamente dall'API di Adobe Campaign Standard.<br /> Per ulteriori informazioni, consultare la documentazione <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank"></a> dettagliata .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
