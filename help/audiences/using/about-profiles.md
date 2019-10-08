@@ -2,35 +2,35 @@
 title: Informazioni sui profili
 seo-title: Informazioni sui profili
 description: Informazioni sui profili
-seo-description: I contatti sono memorizzati come profili nel database Campaign e aggiornati attraverso l'intero ciclo di vita.
-page-status-flag: never-activated
-uuid: 087 f 91 a 4-6 e 69-488 e -9 aa 0-424 d 23 d 396 ed
+seo-description: I contatti vengono memorizzati come profili nel database Campaign e aggiornati per l'intero ciclo di vita.
+page-status-flag: mai attivato
+uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audience
-content-type: riferimento
-topic-tags: managing-profiles
-discoiquuid: a 35 e 736 c-a 17 b -420 c -8411-0 debc 3 c 6275 a
-context-tags: destinatario, panoramica
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: managing-profile
+discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
+context-tags: destinatario,panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# About profiles{#about-profiles}
+# Informazioni sui profili{#about-profiles}
 
-Adobe Campaign consente di gestire i contatti nell'intero ciclo di vita: creazione, importazione, targeting, tracciamento azioni, aggiornamenti ecc. I contatti sono memorizzati nel database come profili contenenti le informazioni collegate: cognome, nome, indirizzo, abbonamenti, consegne, ecc.
+Adobe Campaign consente di gestire i contatti per l'intero ciclo di vita: creazione, importazione, targeting, tracciamento delle azioni, aggiornamenti ecc. I contatti sono memorizzati nel database come profili contenenti le informazioni ad essi collegate: cognome, nome, indirizzo, iscrizioni, consegne, ecc.
 
 >[!NOTE]
 >
->I profili sono disponibili anche tramite l'API standard di Adobe Campaign. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) .
+>I profili sono disponibili anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) dedicata.
 
 ![](assets/marketing_history.png)
 
-Quando create campagne, potete definire la destinazione delle consegne selezionando i profili in base a criteri semplici o avanzati. Tecnicamente, un profilo è una voce nel database contenente tutte le informazioni richieste per il targeting, i comportamenti idonei e di tracciamento.
+Quando create campagne, potete definire la destinazione delle consegne selezionando i profili in base a criteri semplici o avanzati. Tecnicamente, un profilo è una voce nel database che contiene tutte le informazioni necessarie per i comportamenti di targeting, qualificazione e tracciamento.
 
-Un profilo può essere: un client, un prospect, una sottoscrizione individuale a una newsletter, un destinatario, un utente o qualsiasi altra denominazione a seconda dell'organizzazione. To define various types of profiles, use [targeting dimensions](../../automating/using/query.md#targeting-dimensions-and-resources).
+Un profilo può essere: un cliente, un potenziale, un singolo iscritto a una newsletter, un destinatario, un utente o qualsiasi altra denominazione a seconda dell’organizzazione. Per definire vari tipi di profili, utilizzate le dimensioni [di](../../automating/using/query.md#targeting-dimensions-and-resources)targeting.
 
