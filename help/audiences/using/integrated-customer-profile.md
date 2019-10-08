@@ -2,44 +2,44 @@
 title: Profilo cliente integrato
 seo-title: Profilo cliente integrato
 description: Profilo cliente integrato
-seo-description: '" Monitora ogni interazione cliente in una sola visualizzazione: Il profilo cliente integrato di Adobe Campaign viene aggiornato nel corso del ciclo di vita del cliente ".'
-page-status-flag: never-activated
-uuid: da 2 eb 13 a -2268-4 a 99-939 c-c 6388 f 5 d 34 f 3
+seo-description: '"Monitora ogni interazione con il cliente in un''unica visualizzazione: Il profilo cliente integrato in Adobe Campaign viene aggiornato per tutto il ciclo di vita del cliente."'
+page-status-flag: mai attivato
+uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audience
-content-type: riferimento
-topic-tags: managing-profiles
-discoiquuid: d 44656 e 8-e 652-45 fc-a 05 c -0 d 5 ffe 456 ecb
-context-tags: Marketinghistory, main
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: managing-profile
+discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
+context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Integrated customer profile{#integrated-customer-profile}
+# Profilo cliente integrato{#integrated-customer-profile}
 
-Un profilo cliente integrato è disponibile per ogni contatto del database. Questa cronologia di marketing combina tutte le informazioni di marketing rilevanti sui contatti con un client in una sola visualizzazione. Puoi quindi accedere a tutti i comportamenti digitali, alle transazioni online e offline in una posizione centrale: informazioni di contatto, e-mail ricevute, registri di tracciamento, iscrizioni e annullamento delle sottoscrizioni, ecc.
+È disponibile un profilo cliente integrato per ogni contatto del database. Questa cronologia marketing combina tutte le informazioni di marketing rilevanti relative al contatto con un cliente in un'unica vista. Potete quindi accedere a tutti i comportamenti digitali, le transazioni online e offline in una posizione centrale: informazioni di contatto, e-mail ricevute, registri di tracciamento, iscrizioni e cancellazioni di iscrizioni, ecc.
 
-Per accedere al profilo integrato del cliente, i passaggi sono i seguenti:
+Per accedere al profilo cliente integrato, effettuate le seguenti operazioni:
 
-1. From the Adobe Campaign home page, click the **[!UICONTROL Customer profiles]** card or the **Profiles** tab.
-1. Selezionate un contatto.
+1. Dalla home page di Adobe Campaign, fai clic sulla **[!UICONTROL Customer profiles]** scheda o sulla scheda **Profili** .
+1. Selezionare un contatto.
 
    ![](assets/mkt_hist_access.png)
 
-You can then access the **Marketing history** of this contact.
+Potete quindi accedere alla cronologia **di** marketing di questo contatto.
 
 ![](assets/mkt_hist_view.png)
 
-Le informazioni chiave sul profilo vengono raccolte in questa pagina e nell'elenco degli eventi.
+Le informazioni chiave sul profilo sono raccolte in questa pagina, così come l'elenco degli eventi.
 
-Fate clic su un evento nell'elenco per aprirlo: potete accedere al messaggio inviato o al servizio a cui ha effettuato la sottoscrizione.
+Fate clic su un evento nell’elenco per aprirlo: puoi accedere al messaggio inviato o al servizio a cui il profilo ha effettuato la sottoscrizione.
 
 >[!NOTE]
 >
->La cronologia di marketing è inoltre accessibile tramite l'API standard di Adobe Campaign. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
+>La cronologia del marketing è accessibile anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) dedicata.
 
