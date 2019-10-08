@@ -14,7 +14,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -29,7 +29,7 @@ I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, off
 * Inserire blocchi di personalizzazione [predefiniti](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalizzare il mittente](../../designing/using/subject-line.md) di un'e-mail o di un SMS
 * [Personalizzare l’oggetto](../../designing/using/subject-line.md) di un messaggio e-mail o utilizzare le funzionalità [Predictive dell’oggetto](../../designing/using/subject-line.md#predictive-subject-line) per ottimizzarlo
-* Creare contenuto [condizionale in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* Creare contenuto [condizionale in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Inserire testo [](../../channels/using/defining-dynamic-text.md) dinamico in un messaggio SMS o in una notifica push
 
 ![](assets/delivery_content_43.png)
