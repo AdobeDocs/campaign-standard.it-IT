@@ -14,7 +14,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,7 +37,7 @@ Quando create un’e-mail, potete scegliere di utilizzare un modello predefinito
 
 Per aumentare l'efficienza delle campagne di marketing, personalizza i tuoi contenuti. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field) di personalizzazione e [Aggiunta di un blocco](../../designing/using/personalization.md#adding-a-content-block)di contenuto.
 
-Potete anche definire contenuti dinamici che variano a seconda di ciascun profilo. Consultate [Definizione del contenuto dinamico in un’e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) e [Definizione del contenuto dinamico in una pagina](../../channels/using/defining-dynamic-content-in-a-landing-page.md)di destinazione.
+Potete anche definire contenuti dinamici che variano a seconda di ciascun profilo. Consultate [Definizione del contenuto dinamico in un’e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) e [Definizione del contenuto dinamico in una pagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)di destinazione.
 
 Ottimizza i tuoi messaggi e le pagine di destinazione con collegamenti e immagini. Consultate [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link) e [Inserimento di immagini](../../designing/using/images.md#inserting-images).
 
