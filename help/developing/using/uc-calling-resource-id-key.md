@@ -4,7 +4,7 @@ seo-title: Chiamata di una risorsa tramite una chiave di identificazione composi
 description: Chiamata di una risorsa tramite una chiave di identificazione composita
 seo-description: Scopri come chiamare una risorsa utilizzando una chiave di identificazione composita
 translation-type: tm+mt
-source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -25,7 +25,7 @@ Argomenti correlati:
 
 * [Creazione o estensione della risorsa](../../developing/using/creating-or-extending-the-resource.md)
 * [Definizione dei tasti di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API REST di Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [API REST di Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Passaggio 1: Configurare la chiave di identificazione{#step-1-configure-the-identification-key}
 
@@ -106,4 +106,4 @@ Nel nostro caso, la sintassi per recuperare un profilo dalla categoria "molla" c
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Per ulteriori informazioni, consulta la documentazione [sulle API REST di](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)Campaign Standard.
+Per ulteriori informazioni, consulta la documentazione [sulle API REST di](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)Campaign Standard.
