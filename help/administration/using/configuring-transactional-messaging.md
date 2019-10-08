@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -51,7 +51,7 @@ Iniziate creando l'evento corrispondente alle vostre esigenze.
 
 1. Selezionate la dimensione di targeting corrispondente alla configurazione dell'evento desiderata e fate clic su **[!UICONTROL Create]**.
 
-   I messaggi transazionali basati su eventi sono destinati ai dati contenuti nell'evento stesso, mentre i messaggi transazionali basati su profilo sono destinati ai dati contenuti nel database di Adobe Campaign. Per ulteriori informazioni, consultate Configurazione [specifica dell'evento](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)transazionale.
+   I messaggi transazionali basati su eventi sono destinati ai dati contenuti nell'evento stesso, mentre i messaggi transazionali basati su profilo sono destinati ai dati contenuti nel database di Adobe Campaign. Per ulteriori informazioni, consultate Configurazioni [specifiche per gli eventi](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)transazionali.
 
 ## Definizione degli attributi dell’evento {#defining-the-event-attributes}
 
@@ -186,7 +186,7 @@ Dopo aver creato un evento, dovrete integrare l’attivazione di questo evento n
 
 Nell'esempio descritto nella sezione relativa ai principi [operativi per i messaggi](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) transazionali, si desidera attivare un evento di abbandono del carrello ogni volta che uno dei clienti abbandona il sito Web prima di acquistare i prodotti nel carrello. A tal fine, lo sviluppatore Web del sito Web deve utilizzare l'API REST standard di Adobe Campaign.
 
-Consultate la Documentazione [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) REST API.
+Consultate la Documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) REST API.
 
 ## Configurazioni specifiche per eventi transazionali {#transactional-event-specific-configurations}
 
