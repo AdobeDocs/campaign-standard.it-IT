@@ -3,36 +3,36 @@ title: Esecuzione di un flusso di lavoro
 seo-title: Esecuzione di un flusso di lavoro
 description: Esecuzione di un flusso di lavoro
 seo-description: Scopri come eseguire e monitorare un flusso di lavoro.
-page-status-flag: never-activated
-uuid: ff 02 b 74 e -53 e 8-49 c 6-bf 8 e -0 c 729 eaa 7 d 25
+page-status-flag: mai attivato
+uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: workflow-general-operation
-discoiquuid: 906 c 85 ea -83 b 7-4268-86 da-cd 353 f 1 dc 591
-context-tags: flusso di lavoro, panoramica; flusso di lavoro, principale
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: workflow generale
+discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
+context-tags: flusso di lavoro,panoramica;flusso di lavoro,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Executing a workflow{#executing-a-workflow}
+# Esecuzione di un flusso di lavoro{#executing-a-workflow}
 
-## About workflow execution {#about-workflow-execution}
+## Informazioni sull'esecuzione del flusso di lavoro {#about-workflow-execution}
 
-Un flusso di lavoro viene sempre avviato manualmente. However, once started, it can remain inactive, depending on the information specified in a [Scheduler](../../automating/using/scheduler.md) activity.
+Un flusso di lavoro viene sempre avviato manualmente. Tuttavia, una volta avviato, può rimanere inattivo, a seconda delle informazioni specificate in un'attività [Scheduler](../../automating/using/scheduler.md) .
 
 >[!CAUTION]
 >
-> Adobe consiglia ai clienti di dare priorità alle esecuzioni del flusso di lavoro ed eseguire fino a venti esecuzioni simultanee di flussi di lavoro per ottenere in modo coerente le prestazioni massime nell'istanza. Possono essere pianificate più di venti esecuzioni di flussi di lavoro simultanee e vengono eseguite in sequenza per impostazione predefinita. Puoi regolare le impostazioni predefinite per il numero massimo di esecuzioni simultanee del flusso di lavoro inviando un ticket all'Assistenza clienti.
+> Adobe consiglia ai clienti di assegnare la priorità alle esecuzioni dei flussi di lavoro e di eseguire fino a venti esecuzioni simultanee per ottenere in modo coerente il massimo delle prestazioni nell’istanza. Per impostazione predefinita, è possibile pianificare più di venti esecuzioni simultanee del flusso di lavoro e l'esecuzione sequenziale sarà eseguita per impostazione predefinita. Puoi regolare le impostazioni predefinite per il numero massimo di esecuzioni simultanee del flusso di lavoro inviando un ticket all'Assistenza clienti.
 
-Azioni relative all'esecuzione (avvio, interruzione, pausa, ecc.) are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
+Azioni relative all’esecuzione (avvio, arresto, pausa, ecc.) sono processi **asincroni** : il comando viene salvato e diventerà effettivo una volta che il server sarà disponibile ad applicarlo.
 
-In un flusso di lavoro, il risultato di ogni attività viene generalmente inviato all'attività seguente tramite una transizione, rappresentata da una freccia.
+In un flusso di lavoro, il risultato di ogni attività viene in genere inviato alla seguente attività tramite una transizione, rappresentata da una freccia.
 
 Una transizione non viene terminata se non è collegata a un'attività di destinazione.
 
@@ -40,221 +40,221 @@ Una transizione non viene terminata se non è collegata a un'attività di destin
 
 >[!NOTE]
 >
->È possibile eseguire un flusso di lavoro contenente transizioni non ancora chiamate: viene generato un messaggio di avviso e il flusso di lavoro si interrompe una volta raggiunta la transizione, ma questo non genererà un errore. Potete anche avviare un flusso di lavoro senza aver completato completamente la progettazione e completarlo man mano che passate.
+>È comunque possibile eseguire un flusso di lavoro contenente transizioni non interrotte: viene generato un messaggio di avviso e il flusso di lavoro viene messo in pausa una volta raggiunta la transizione, ma questo non genera un errore. Potete anche avviare un flusso di lavoro senza aver completato completamente la progettazione e completarlo man mano che procedete.
 
-Una volta eseguita un'attività, il numero di record inviati nella transizione viene visualizzato al di sopra di esso.
+Una volta eseguita un'attività, il numero di record inviati nella transizione viene visualizzato sopra di essa.
 
 ![](assets/wkf_transition_count.png)
 
-È possibile aprire le transizioni per verificare che i dati inviati siano corretti durante o dopo l'esecuzione del flusso di lavoro. È possibile visualizzare i dati e la struttura dati.
+Potete aprire le transizioni per verificare che i dati inviati siano corretti durante o dopo l'esecuzione del flusso di lavoro. È possibile visualizzare i dati e la struttura dei dati.
 
-Per impostazione predefinita, sono accessibili solo i dettagli dell'ultima transizione del flusso di lavoro. To be able to access the results of the preceding activities, you need to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties, before starting the workflow.
+Per impostazione predefinita, è possibile accedere solo ai dettagli dell'ultima transizione del flusso di lavoro. Per poter accedere ai risultati delle attività precedenti, è necessario selezionare l' **[!UICONTROL Keep interim results]** opzione nella **[!UICONTROL Execution]** sezione delle proprietà del flusso di lavoro prima di avviare il flusso di lavoro.
 
 >[!NOTE]
 >
->Questa opzione consuma molta memoria ed è concepita per aiutare a costruire un flusso di lavoro e a garantire che sia configurata e eseguita correttamente. Lasciatela non selezionata per le istanze di produzione.
+>Questa opzione consuma molta memoria ed è stata progettata per aiutare a creare un flusso di lavoro e garantire che sia configurato e si comporti correttamente. Lasciatela deselezionata sulle istanze di produzione.
 
-When a transition is open, you can edit its **[!UICONTROL Label]** or link a **[!UICONTROL Segment code]** to it. A tal fine, modificate i campi corrispondenti e confermate le modifiche.
+Quando una transizione è aperta, potete modificarne la transizione **[!UICONTROL Label]** o **[!UICONTROL Segment code]** collegarvi. A questo scopo, modificate i campi corrispondenti e confermate le modifiche.
 
-## Controlling a workflow from the REST API {#controlling-a-workflow-from-the-rest-api}
+## Controllo di un flusso di lavoro dall’API REST {#controlling-a-workflow-from-the-rest-api}
 
-Using the REST API, you can **start**, **pause**, **resume** and **stop** a workflow.
+Utilizzando REST API potete **avviare**, **mettere in pausa**, **riprendere** e **arrestare** un flusso di lavoro.
 
-You can find more details and examples of REST calls in the [API documentation.](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+Per ulteriori dettagli ed esempi di chiamate REST, consulta la documentazione [API.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
 
-## Life cycle {#life-cycle}
+## Ciclo di vita {#life-cycle}
 
-Il ciclo di vita di un flusso di lavoro comprende tre passaggi principali e ciascun passaggio è collegato a uno stato e a un colore:
+Il ciclo di vita di un flusso di lavoro comprende tre passaggi principali, ciascuno dei quali è collegato a uno stato e a un colore:
 
 * **Modifica** (grigio)
 
-   This is the initial design phase of a workflow (refer to [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)). Il flusso di lavoro non è ancora gestito dal server e può essere modificato senza rischi.
+   Si tratta della fase iniziale di progettazione di un flusso di lavoro (vedere [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md#creating-a-workflow)). Il flusso di lavoro non è ancora gestito dal server e può essere modificato senza rischi.
 
 * **In corso** (blu)
 
-   Una volta completata la fase iniziale della progettazione, il flusso di lavoro può essere avviato e gestito dal server.
+   Una volta completata la fase di progettazione iniziale, il flusso di lavoro può essere avviato e gestito dal server.
 
-* **Completato** (verde)
+* **Finito** (verde)
 
-   Un flusso di lavoro è terminato una volta che non sono più presenti attività in corso o se un operatore ha interrotto esplicitamente l'istanza.
+   Un flusso di lavoro viene completato una volta che non sono più presenti attività in corso o quando un operatore ha interrotto in modo esplicito l'istanza.
 
-Una volta avviata, un flusso di lavoro può avere anche due stati:
+Una volta avviato, un flusso di lavoro potrebbe presentare anche altri due stati:
 
 * **Avviso** (giallo)
 
-   The workflow could not finish or was paused using the ![](assets/pause_darkgrey-24px.png) or ![](assets/check_pause_darkgrey-24px.png) buttons.
+   Impossibile completare il flusso di lavoro o è stato messo in pausa utilizzando i ![](assets/pause_darkgrey-24px.png) pulsanti o ![](assets/check_pause_darkgrey-24px.png) .
 
-* **Sbagliato** (rosso)
+* **Erroneo** (rosso)
 
-   Si è verificato un errore durante l'esecuzione di un flusso di lavoro. Il flusso di lavoro è stato interrotto e l'utente deve eseguire un'azione. To find out more about this error, use the ![](assets/printpreview_darkgrey-24px.png) button to access the workflow log (refer to [Monitoring](../../automating/using/executing-a-workflow.md#monitoring)).
+   Errore durante l'esecuzione di un flusso di lavoro. Il flusso di lavoro è stato arrestato e l'utente deve eseguire un'azione. Per ulteriori informazioni su questo errore, utilizzare il ![](assets/printpreview_darkgrey-24px.png) pulsante per accedere al registro del flusso di lavoro (fare riferimento a [Monitoraggio](../../automating/using/executing-a-workflow.md#monitoring)).
 
-L'elenco delle attività di marketing consente di visualizzare tutti i flussi di lavoro e i relativi stati. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
+L'elenco delle attività di marketing consente di visualizzare tutti i flussi di lavoro e i relativi stati. Per ulteriori informazioni, consulta [Gestione delle attività](../../start/using/marketing-activities.md#about-marketing-activities)di marketing.
 
 ![](assets/wkf_execution_3.png)
 
-## Execution commands {#execution-commands}
+## Comandi di esecuzione {#execution-commands}
 
-Le icone nella barra delle azioni consentono di avviare, tracciare e modificare l'esecuzione di un flusso di lavoro. See [Action bar](../../automating/using/workflow-interface.md#action-bar).
+Le icone nella barra delle azioni consentono di avviare, tenere traccia e modificare l'esecuzione di un flusso di lavoro. Vedere Barra [](../../automating/using/workflow-interface.md#action-bar)delle azioni.
 
 ![](assets/wkf_execution_2.png)
 
 Le azioni disponibili sono le seguenti:
 
-**Start**
+**Inizio**
 
-![](assets/play_darkgrey-24px.png) Il pulsante avvia l'esecuzione di un flusso di lavoro, che quindi assume lo **stato in corso** (blu). Se il flusso di lavoro è stato messo in pausa, viene ripreso, altrimenti viene avviato e le attività iniziali vengono attivate.
+Il ![](assets/play_darkgrey-24px.png) pulsante avvia l'esecuzione di un flusso di lavoro, che assume quindi lo stato **In corso** (blu). Se il flusso di lavoro è stato messo in pausa, viene ripreso, altrimenti viene avviato e le attività iniziali vengono attivate.
 
 >[!NOTE]
 >
->L'avvio è un processo asincrono: la richiesta viene salvata e sarà elaborata il prima possibile dal motore di esecuzione del flusso di lavoro.
+>Avvio è un processo asincrono: la richiesta viene salvata e verrà elaborata al più presto dal motore di esecuzione del flusso di lavoro.
 
 **Pausa**
 
-![](assets/pause_darkgrey-24px.png) Il pulsante mette in pausa l'esecuzione. The workflow takes on the **Warning** (yellow) status. Nessuna nuova attività verrà attivata finché non viene ripresa, ma le operazioni in corso non vengono sospese.
+Il ![](assets/pause_darkgrey-24px.png) pulsante mette in pausa l'esecuzione. Il flusso di lavoro assume lo stato **Avviso** (giallo). Nessuna nuova attività verrà attivata fino alla sua ripresa, ma le operazioni in corso non saranno sospese.
 
 **Interrompi**
 
-![](assets/stop_darkgrey-24px.png) Il pulsante interrompe un flusso di lavoro che viene eseguito, che quindi assumerà lo **stato Completato** (verde). Le operazioni in corso vengono interrotte, se possibile, e le importazioni o le query SQL in corso vengono immediatamente annullate. Non è possibile riprendere dal flusso di lavoro nello stesso punto in cui è stato interrotto.
+Il ![](assets/stop_darkgrey-24px.png) pulsante interrompe un flusso di lavoro in esecuzione, che assumerà quindi lo stato **Completato** (verde). Le operazioni in corso vengono interrotte, se possibile, e le importazioni o le query SQL in corso vengono immediatamente annullate. Non è possibile riprendere il flusso di lavoro dalla stessa posizione in cui è stato interrotto.
 
 **Riavvia**
 
-The ![](assets/pauseplay_darkgrey-24px.png) button involves stopping, then restarting a workflow. Nella maggior parte dei casi, questo consente di riavviare più rapidamente. It can also be useful to automate restarting once stopping takes a certain amount of time, because the ![](assets/play_darkgrey-24px.png) button is only available when the stop is effective.
+Il ![](assets/pauseplay_darkgrey-24px.png) pulsante comporta l'arresto, quindi il riavvio di un flusso di lavoro. Nella maggior parte dei casi, questo consente di riavviare più rapidamente. Può essere utile anche automatizzare il riavvio una volta che l'arresto richiede un certo tempo, perché il ![](assets/play_darkgrey-24px.png) pulsante è disponibile solo quando l'arresto è effettivo.
 
-Quando sono selezionate una o più attività in un flusso di lavoro, sono disponibili altre azioni, ad esempio:
+Quando si selezionano una o più attività in un flusso di lavoro, è possibile eseguire altre azioni, ad esempio:
 
 **Esecuzione immediata**
 
-![](assets/pending_darkgrey-24px.png) Il pulsante avvia tutte le attività in sospeso selezionate il prima possibile.
+Il ![](assets/pending_darkgrey-24px.png) pulsante avvia tutte le attività in sospeso selezionate il prima possibile.
 
 **Esecuzione normale**
 
-![](assets/check_darkgrey-24px.png) Il pulsante riattiva tutte le attività in pausa o disattivate.
+Il ![](assets/check_darkgrey-24px.png) pulsante riattiva tutte le attività in pausa o disattivate.
 
 **Esecuzione sospesa**
 
-![](assets/check_pause_darkgrey-24px.png) Il pulsante mette in pausa il flusso di lavoro nell'attività selezionata: tale attività e tutti quelli che lo seguono (nello stesso ramo) non vengono eseguiti.
+Il ![](assets/check_pause_darkgrey-24px.png) pulsante mette in pausa il flusso di lavoro nell'attività selezionata: questa attività e tutte quelle che la seguono (nello stesso ramo) non vengono eseguite.
 
 **Nessuna esecuzione**
 
-![](assets/checkdisable.png) Il pulsante disattiva tutte le attività selezionate.
+Il ![](assets/checkdisable.png) pulsante disattiva tutte le attività selezionate.
 
 >[!NOTE]
 >
->Le azioni rapide consentono di accedere a diverse azioni relative a una particolare attività e di visualizzare quando un'attività è selezionata.
+>Le azioni rapide consentono di accedere a diverse azioni relative a una particolare attività e vengono visualizzate quando un'attività è selezionata.
 
-## Monitoring {#monitoring}
+## Monitoraggio {#monitoring}
 
-The ![](assets/printpreview_darkgrey-24px.png) icon opens the workflow log and task menu.
+L' ![](assets/printpreview_darkgrey-24px.png) icona apre il registro del flusso di lavoro e il menu delle attività.
 
-The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties)). Durante questa durata, tutti i messaggi vengono salvati, anche dopo un riavvio. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
+La cronologia del flusso di lavoro viene salvata per la durata specificata nelle opzioni di esecuzione del flusso di lavoro (vedere Proprietà [del](../../automating/using/executing-a-workflow.md#workflow-properties)flusso di lavoro). Durante questa durata, tutti i messaggi vengono quindi salvati, anche dopo il riavvio. Se non si desidera salvare i messaggi da un'esecuzione precedente, è necessario eliminare la cronologia facendo clic sul ![](assets/delete_darkgrey-24px.png) pulsante.
 
-The **[!UICONTROL Log]** tab contains the execution history of all the activities or any selected activities. Indicizza le operazioni eseguite e gli errori di esecuzione in base all'ordine cronologico.
+La **[!UICONTROL Log]** scheda contiene la cronologia di esecuzione di tutte le attività o di tutte le attività selezionate. Esso indicizza le operazioni eseguite e gli errori di esecuzione in ordine cronologico.
 
 ![](assets/wkf_execution_4.png)
 
-The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. Fate clic su un'attività per ottenere ulteriori informazioni.
+La **[!UICONTROL Tasks]** scheda descrive la sequenza di esecuzione delle attività. Fate clic su un’attività per ottenere ulteriori informazioni.
 
 ![](assets/wkf_execution_5.png)
 
 In questi due elenchi:
 
-* Fate clic sul contatore per visualizzare il numero totale di attività in base al filtro applicato. Il contatore viene visualizzato per impostazione predefinita se il numero di elementi nell'elenco è inferiore a 30.
-* **[!UICONTROL Configure list]** Il pulsante consente di scegliere le informazioni visualizzate, definire l'ordine delle colonne e ordinare l'elenco.
-* Potete usare i filtri per trovare le informazioni necessarie. Utilizzate il campo di ricerca per cercare un testo specifico nei nomi delle attività del flusso di lavoro (ad esempio: " query ") e i registri.
+* Fare clic sul contatore per visualizzare il numero totale di attività in base al filtro applicato. Il contatore viene visualizzato per impostazione predefinita se il numero di elementi nell'elenco è inferiore a 30.
+* Il **[!UICONTROL Configure list]** pulsante consente di scegliere le informazioni visualizzate, definire l’ordine delle colonne e ordinare l’elenco.
+* Potete utilizzare i filtri per trovare le informazioni necessarie in modo più rapido. Usate il campo di ricerca per cercare un testo specifico nei nomi delle attività del flusso di lavoro (ad esempio: "query") e registri.
 
-## Error management {#error-management}
+## Gestione errori {#error-management}
 
-Quando si verifica un errore, il flusso di lavoro viene messo in pausa e l'attività che era in esecuzione quando si verifica l'errore lampeggia in rosso.
+Quando si verifica un errore, il flusso di lavoro viene messo in pausa e l'attività che veniva eseguita quando l'errore veniva rilevato lampeggia in rosso.
 
-Lo stato del flusso di lavoro diventa rosso e l'errore viene registrato nel registro.
+Lo stato del flusso di lavoro diventa rosso e l’errore viene registrato nel registro.
 
-Potete configurare il flusso di lavoro in modo che non si interrompa e continui a essere eseguito senza errori. To do this, go to the workflow properties via the ![](assets/edit_darkgrey-24px.png) button and, in the **[!UICONTROL Execution]** section, select the **Ignore** option in the **In case of error** field.
+Potete configurare il flusso di lavoro in modo che non venga messo in pausa e che continui a essere eseguito senza errori. A questo scopo, passare alle proprietà del flusso di lavoro tramite il ![](assets/edit_darkgrey-24px.png) pulsante e, nella **[!UICONTROL Execution]** sezione, selezionare l'opzione **Ignora** nel campo **In caso di errore** .
 
-In questo caso, l'attività errata viene interrotta. Questa modalità è particolarmente adatta ai flussi di lavoro progettati per riprovare a eseguire nuovamente l'operazione (azioni periodiche).
+In questo caso, l'attività errata viene interrotta. Questa modalità è particolarmente adatta ai flussi di lavoro progettati per ripetere l'operazione in un secondo momento (azioni periodiche).
 
 >[!NOTE]
 >
->Potete applicare questa configurazione singolarmente per ogni attività. To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. See [Activity execution options](../../automating/using/executing-a-workflow.md#activity-execution-options).
+>Potete applicare questa configurazione singolarmente per ogni attività. A questo scopo, selezionate un'attività e apritela utilizzando l'azione rapida ![](assets/edit_darkgrey-24px.png). Selezionate quindi la modalità di gestione degli errori nella scheda Opzioni **** esecuzione. Consultate Opzioni [di esecuzione](../../automating/using/executing-a-workflow.md#activity-execution-options)dell'attività.
 
-The **[!UICONTROL Execution]** section of the workflow properties also allows you to define a number of **[!UICONTROL Consecutive errors]** that are authorized before the workflow execution is automatically suspended. Fintanto che questo numero non viene raggiunto, gli elementi errati vengono ignorati e gli altri rami del flusso di lavoro vengono eseguiti normalmente. Se questo numero viene raggiunto, il flusso di lavoro viene sospeso e i supervisori del flusso di lavoro ricevono una notifica automatica (e-mail e notifica in-app). See [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties) and [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+La **[!UICONTROL Execution]** sezione delle proprietà del flusso di lavoro consente inoltre di definire un numero di **[!UICONTROL Consecutive errors]** autorizzazioni prima che l'esecuzione del flusso di lavoro venga automaticamente sospesa. Finché questo numero non viene raggiunto, gli elementi errati vengono ignorati e gli altri rami del flusso di lavoro vengono eseguiti normalmente. Se questo numero viene raggiunto, il flusso di lavoro viene sospeso e i supervisori del flusso di lavoro ricevono automaticamente una notifica (notifica e-mail e in-app). Vedi Proprietà [del](../../automating/using/executing-a-workflow.md#workflow-properties) flusso di lavoro e notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
-I supervisori possono anche essere definiti nelle proprietà di esecuzione del flusso di lavoro.
+I supervisori possono essere definiti anche nelle proprietà di esecuzione del flusso di lavoro.
 
-## Workflow properties {#workflow-properties}
+## Proprietà flusso di lavoro {#workflow-properties}
 
-To modify a workflow's execution options, use the ![](assets/edit_darkgrey-24px.png) button to access the workflow properties and select the **[!UICONTROL Execution]** section.
+Per modificare le opzioni di esecuzione di un flusso di lavoro, utilizzate il ![](assets/edit_darkgrey-24px.png) pulsante per accedere alle proprietà del flusso di lavoro e selezionate la **[!UICONTROL Execution]** sezione.
 
-**[!UICONTROL Default affinity]** Il campo consente di forzare l'esecuzione di un flusso di lavoro o di un'attività di flusso di lavoro su un particolare computer.
+Il **[!UICONTROL Default affinity]** campo consente di forzare l'esecuzione di un flusso di lavoro o di un'attività di workflow su un computer specifico.
 
-In the **[!UICONTROL History in days]** field, specify the duration after which the history must be purged.
+Nel **[!UICONTROL History in days]** campo, specificare la durata dopo la quale la cronologia deve essere eliminata.
 
-You can choose to check the **[!UICONTROL Save SQL queries in the log]** and **[!UICONTROL Execute in the engine (do not use in production)]** options if necessary.
+Se necessario, è possibile selezionare le opzioni **[!UICONTROL Save SQL queries in the log]** e **[!UICONTROL Execute in the engine (do not use in production)]** .
 
-Check the **[!UICONTROL Keep interim results]** option if you would like to be able to view the detail of transitions. Avviso: il controllo di questa opzione può rallentare notevolmente l'esecuzione del flusso di lavoro.
+Selezionate l’ **[!UICONTROL Keep interim results]** opzione per visualizzare i dettagli delle transizioni. Avviso: se si seleziona questa opzione, l'esecuzione del flusso di lavoro potrebbe risultare notevolmente rallentata.
 
-The **[!UICONTROL Severity]** field allows you to specify a level of priority for executing workflows in your Adobe Campaign instance. Verranno eseguiti prima i flussi di lavoro critici.
+Il **[!UICONTROL Severity]** campo consente di specificare un livello di priorità per l'esecuzione dei flussi di lavoro nell'istanza di Adobe Campaign. I flussi di lavoro critici verranno prima eseguiti.
 
-The **[!UICONTROL Supervisors]** field is where you can define the group of people to notify (email and in-app notification) if the workflow encounters an error. Se non viene definito alcun gruppo, non verrà notificato alcun gruppo. For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+Questo **[!UICONTROL Supervisors]** campo consente di definire il gruppo di persone da notificare (e-mail e notifica in-app) in caso di errore nel flusso di lavoro. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta le notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
-**[!UICONTROL In case of error]** Il campo consente di specificare l'azione da eseguire qualora l'attività dovesse rilevare un errore. Sono disponibili due opzioni:
+Il **[!UICONTROL In case of error]** campo consente di specificare l'azione da eseguire in caso di errore nell'attività. Sono disponibili due opzioni:
 
-* **Sospendi il processo**: il flusso di lavoro viene sospeso automaticamente. The workflow status is then **Erroneous** and the color associated turns red. Una volta risolto il problema, riavviate il flusso di lavoro.
-* **Ignora**: l'attività non viene eseguita e, come risultato, nessuna delle attività che lo segue (nello stesso ramo). Ciò potrebbe risultare utile per attività ricorrenti. Se il ramo ha un pianificatore collocato a monte, questo dovrebbe attivarsi alla data di esecuzione successiva.
+* **Sospendere il processo**: il flusso di lavoro viene automaticamente sospeso. Lo stato del flusso di lavoro è quindi **Erroneo** e il colore associato diventa rosso. Una volta risolto il problema, riavviate il flusso di lavoro.
+* **Ignora**: l'attività non viene eseguita, e di conseguenza nessuna delle attività che la seguono (nello stesso ramo). Ciò può risultare utile per le attività ricorrenti. Se il ramo dispone di un pianificatore posizionato a monte, questo deve essere attivato alla data di esecuzione successiva.
 
-   By selecting this option, you can also define a number of **[!UICONTROL Consecutive errors]** that are authorized:
+   Selezionando questa opzione, puoi anche definire un numero di **[!UICONTROL Consecutive errors]** utenti autorizzati:
 
-   * If the number specified is **[!UICONTROL 0]**, or as long as the number specified is not reached, activities that encounter errors are ignored. Gli altri rami del flusso di lavoro vengono eseguiti normalmente.
-   * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]**. Se sono stati definiti dei supervisori, vengono notificati automaticamente da un messaggio e-mail.
+   * Se il numero specificato è **[!UICONTROL 0]** o finché il numero specificato non viene raggiunto, le attività che rilevano errori vengono ignorate. Gli altri rami del flusso di lavoro vengono eseguiti normalmente.
+   * Se viene raggiunto il numero specificato, l'intero flusso di lavoro viene sospeso e diventa **[!UICONTROL Erroneous]**. Se i supervisori sono stati definiti, vengono automaticamente informati tramite e-mail.
 
 ![](assets/wkf_execution_6.png)
 
-## Activity properties {#activity-properties}
+## Proprietà dell'attività {#activity-properties}
 
-### General properties of an activity {#general-properties-of-an-activity}
+### Proprietà generali di un'attività {#general-properties-of-an-activity}
 
-Each activity has a **[!UICONTROL Properties]** tab. Questa scheda consente di modificare i parametri generali dell'attività, in particolare l'etichetta e l'ID. La configurazione di questa scheda è facoltativa.
+Ogni attività ha una **[!UICONTROL Properties]** scheda. Questa scheda consente di modificare i parametri generali dell'attività, in particolare l'etichetta e l'ID. La configurazione di questa scheda è facoltativa.
 
-### Managing an activity's outbound transitions {#managing-an-activity-s-outbound-transitions}
+### Gestione delle transizioni in uscita di un'attività {#managing-an-activity-s-outbound-transitions}
 
-Per impostazione predefinita, alcune attività non dispongono di una transizione in uscita. You can add one from the **[!UICONTROL Transitions]** tab or from the activity's **[!UICONTROL Properties]** tab to apply other processes to your population in the same workflow.
+Per impostazione predefinita, alcune attività non hanno una transizione in uscita. Potete aggiungerne uno dalla **[!UICONTROL Transitions]** scheda o dalla **[!UICONTROL Properties]** scheda dell'attività per applicare altri processi alla popolazione nello stesso flusso di lavoro.
 
 A seconda delle attività, potete aggiungere diversi tipi di transizioni in uscita:
 
 * Transizione standard: popolazione calcolata dall'attività
-* Transizione senza popolazione: questo tipo di transizione in uscita può essere aggiunto per continuare il flusso di lavoro e non contiene popolazioni per evitare inutili spazi nel sistema.
-* Rifiuta: popolazione rifiutata. Ad esempio, se i dati in entrata dell'attività non sono stati elaborati perché era errato o incompleto.
+* Transizione senza popolazione: questo tipo di transizione in uscita può essere aggiunto per continuare il flusso di lavoro e non contiene alcuna popolazione per non utilizzare spazio inutile sul sistema.
+* Rifiuta: rifiutata la popolazione. Ad esempio, se non è stato possibile elaborare i dati in entrata dell'attività perché errati o incompleti.
 * Complemento: popolazione rimanente dopo l'esecuzione dell'attività. Ad esempio, se un'attività di segmentazione è configurata per salvare solo una percentuale della popolazione in entrata.
 
-If applicable, specify a **[!UICONTROL Segment code]** for the activity's outbound transition. Questo codice del segmento consente di identificare la provenienza dei sottoinsiemi dalla popolazione di destinazione e, successivamente, di servire a scopo di personalizzazione dei messaggi.
+Se applicabile, specificate una **[!UICONTROL Segment code]** per la transizione in uscita dell'attività. Questo codice del segmento ti consentirà di identificare da dove provengono i sottoinsiemi della popolazione di destinazione e, successivamente, di servire a scopi di personalizzazione dei messaggi.
 
-### Activity execution options {#activity-execution-options}
+### Opzioni di esecuzione dell'attività {#activity-execution-options}
 
-In the activity's properties screen, there is an **[!UICONTROL Advanced options]** tab that lets you define the activity's execution mode and behavior in case of errors.
+Nella schermata delle proprietà dell'attività, è presente una **[!UICONTROL Advanced options]** scheda che consente di definire la modalità di esecuzione e il comportamento dell'attività in caso di errori.
 
-To access these options, select an activity in a workflow, then open it using the ![](assets/edit_darkgrey-24px.png) button from the action bar.
+Per accedere a queste opzioni, selezionate un'attività in un flusso di lavoro, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante presente nella barra delle azioni.
 
 ![](assets/wkf_advanced_parameters.png)
 
-**[!UICONTROL Execution]** Il campo consente di definire l'azione da eseguire quando l'attività viene avviata. Sono disponibili tre opzioni:
+Il **[!UICONTROL Execution]** campo consente di definire l’azione da eseguire all’avvio dell’attività. Sono disponibili tre opzioni:
 
 * **Normale**: l'attività viene eseguita normalmente.
-* **Abilita ma non viene eseguito**: L'attività viene messa in pausa e, di conseguenza, tutti i processi futuri successivi. Questo può diventare utile se desiderate essere presente quando l'attività viene avviata.
-* **Non abilitare**: l'attività non viene eseguita e di conseguenza non tutte le attività successive (nello stesso ramo).
+* **Abilita ma non esegui**: l'attività viene messa in pausa, e di conseguenza anche tutti i processi successivi. Questo può risultare utile se desiderate essere presenti all’avvio dell’attività.
+* **Non abilitare**: l'attività non viene eseguita e, di conseguenza, non sono eseguite tutte le attività successive (nello stesso ramo).
 
-**[!UICONTROL In case of error]** Il campo consente di specificare l'azione da eseguire qualora l'attività dovesse rilevare un errore. Sono disponibili due opzioni:
+Il **[!UICONTROL In case of error]** campo consente di specificare l'azione da eseguire in caso di errore nell'attività. Sono disponibili due opzioni:
 
-* **Sospendi il processo**: il flusso di lavoro viene sospeso automaticamente. The workflow status is then **Erroneous** and the color associated turns red. Una volta risolto il problema, riavviate il flusso di lavoro.
-* **Ignora**: l'attività non viene eseguita e, come risultato, nessuna delle attività che lo segue (nello stesso ramo). Ciò potrebbe risultare utile per attività ricorrenti. Se il ramo ha un pianificatore collocato a monte, questo dovrebbe attivarsi alla data di esecuzione successiva.
+* **Sospendere il processo**: il flusso di lavoro viene automaticamente sospeso. Lo stato del flusso di lavoro è quindi **Erroneo** e il colore associato diventa rosso. Una volta risolto il problema, riavviate il flusso di lavoro.
+* **Ignora**: l'attività non viene eseguita, e di conseguenza nessuna delle attività che la seguono (nello stesso ramo). Ciò può risultare utile per le attività ricorrenti. Se il ramo dispone di un pianificatore posizionato a monte, questo deve essere attivato alla data di esecuzione successiva.
 
-**[!UICONTROL Behavior]** Il campo consente di definire la procedura da seguire se vengono utilizzate attività asincrone. Sono disponibili due opzioni:
+Il **[!UICONTROL Behavior]** campo consente di definire la procedura da seguire se vengono utilizzate le attività asincrone. Sono disponibili due opzioni:
 
-* **Più attività autorizzate**: più attività possono essere eseguite contemporaneamente anche se la prima non è terminata.
-* **L'attività corrente ha priorità**: Una volta in corso un'attività, questa ha priorità. Fintanto che un'attività è ancora in corso, non viene eseguita nessun'altra attività.
+* **Più attività autorizzate**: è possibile eseguire più attività contemporaneamente anche se la prima non è stata completata.
+* **L'attività corrente ha priorità**: una volta che un'attività è in corso, questa è una priorità. Finché un'attività è ancora in corso, non verrà eseguita alcuna altra attività.
 
-**[!UICONTROL Max. execution duration]** Il campo consente di specificare una durata come "30 s" o "1 h". Se l'attività non viene completata dopo la durata della durata specificata, viene attivato un avviso. Questo non ha alcun impatto sulla modalità di funzionamento delle funzioni del flusso di lavoro.
+Il **[!UICONTROL Max. execution duration]** campo consente di specificare una durata, ad esempio "30 s" o "1 h". Se l'attività non è finita dopo che è trascorso il periodo specificato, viene attivato un avviso. Questo non ha alcun impatto sul funzionamento del flusso di lavoro.
 
-**[!UICONTROL Affinity]** Il campo consente di forzare l'esecuzione di un flusso di lavoro o di un'attività di flusso di lavoro su un particolare computer. A tal fine, dovete specificare una o più affinità per il flusso di lavoro o l'attività in questione.
+Il **[!UICONTROL Affinity]** campo consente di forzare l'esecuzione di un flusso di lavoro o di un'attività di workflow su un computer specifico. A questo scopo, dovete specificare una o più affinità per il flusso di lavoro o l'attività in questione.
 
-The **[!UICONTROL Time zone]** field allows you to select the time zone of the activity. Adobe Campaign consente di gestire le differenze temporali tra più paesi nella stessa istanza. L'impostazione applicata è configurata quando l'istanza viene creata.
+Il **[!UICONTROL Time zone]** campo consente di selezionare il fuso orario dell'attività. Adobe Campaign consente di gestire le differenze di tempo tra più paesi sulla stessa istanza. L'impostazione applicata viene configurata al momento della creazione dell'istanza.
 
-The **Comment** field is a free field that allows you to add a note.
+Il campo **Commento** è un campo gratuito che consente di aggiungere una nota.
