@@ -14,7 +14,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -51,7 +51,7 @@ Il primo passo per chiamare un flusso di lavoro con parametri consiste nel dichi
 
 ## Definizione dei parametri durante la chiamata del flusso di lavoro {#defining-the-parameters-when-calling-the-workflow}
 
-In questa sezione viene illustrato come definire i parametri durante la chiamata di un flusso di lavoro. Per ulteriori informazioni su come eseguire questa operazione da una chiamata API, consulta la documentazione [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST APIs.
+In questa sezione viene illustrato come definire i parametri durante la chiamata di un flusso di lavoro. Per ulteriori informazioni su come eseguire questa operazione da una chiamata API, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST APIs.
 
 Prima di definire i parametri, accertatevi che:
 
@@ -225,7 +225,7 @@ Prima di configurare i flussi di lavoro, è necessario creare i flussi di lavoro
 
 ### Passaggio 1: Configurazione della chiamata API {#step-1--configuring-the-api-call}
 
-Effettuare una chiamata API per attivare Workflow 1 con i parametri. Per ulteriori informazioni sulla sintassi delle chiamate API, consulta la documentazione [sulle API REST di](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign Standard.
+Effettuare una chiamata API per attivare Workflow 1 con i parametri. Per ulteriori informazioni sulla sintassi delle chiamate API, consulta la documentazione [sulle API REST di](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign Standard.
 
 Nel nostro caso, vogliamo chiamare il flusso di lavoro con i parametri seguenti:
 
