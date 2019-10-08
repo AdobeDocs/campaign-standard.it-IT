@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -46,7 +46,7 @@ Il tipo di messaggio viene definito durante la configurazione dell'evento che ve
 >
 >Adobe Campaign dà priorità all'elaborazione dei messaggi transazionali rispetto a qualsiasi altra consegna.
 
-I messaggi transazionali sono disponibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)dedicata.
+I messaggi transazionali sono disponibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)dedicata.
 
 ## Principio operativo della messaggistica transattiva {#transactional-messaging-operating-principle}
 
@@ -63,6 +63,10 @@ I passi per la realizzazione di questo progetto sono:
 Una volta che tutti questi passaggi sono stati eseguiti, non appena un utente lascia il sito senza ordinare i prodotti nel suo carrello, riceve automaticamente un'e-mail di notifica.
 
 ## Limitazioni per i messaggi transazionali {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>Per accedere ai messaggi transazionali, è necessario disporre dei diritti di amministrazione.
 
 ### Progettazione e pubblicazione {#design-and-publication}
 
@@ -95,13 +99,13 @@ Gli elenchi di prodotti sono disponibili solo nei messaggi e-mail transazionali.
 
 ### Autorizzazioni e marchio {#permissions-and-branding}
 
-Per quanto riguarda la gestione dei [marchi](../../administration/using/branding.md) , i messaggi transazionali offrono una flessibilità inferiore rispetto ai messaggi standard. Adobe consiglia di collegare tutti i marchi utilizzati nei messaggi transazionali all'unità **[!UICONTROL All]** organizzativa. Per ulteriori informazioni, consulta la spiegazione dettagliata riportata di seguito.
+Per quanto riguarda la gestione dei [marchi](../../administration/using/branding.md) , i messaggi transazionali offrono una flessibilità inferiore rispetto ai messaggi standard. Adobe consiglia di collegare tutti i marchi utilizzati nei messaggi transazionali all'unità **[!UICONTROL All]** [](../../administration/using/organizational-units.md)organizzativa. Per ulteriori informazioni, consulta la spiegazione dettagliata riportata di seguito.
 
 Quando modificate un messaggio transazionale, potete collegarlo a un marchio per applicare automaticamente alcuni parametri, ad esempio il nome del marchio o il logo del marchio. L'opzione **[!UICONTROL Default brand]** è selezionata per impostazione predefinita nelle proprietà dei messaggi transazionali.
 
 ![](assets/message-center_branding.png)
 
-Per accedere ai messaggi transazionali, è necessario far parte del gruppo di sicurezza **[!UICONTROL Message Center agents]** (mcExec), collegato all'unità **[!UICONTROL Message Center]** [](../../administration/using/organizational-units.md)organizzativa. Pertanto, tutti gli oggetti (compresa la marca) utilizzati in un messaggio transazionale devono essere visibili dall'unità **[!UICONTROL Message Center]** organizzativa, il che significa che tali oggetti devono essere nelle unità **[!UICONTROL Message Center]** o **[!UICONTROL All]** organizzative.
+Tutti gli oggetti (compreso il marchio) utilizzati in un messaggio di transazione devono essere visibili dall'unità **[!UICONTROL Message Center]** organizzativa, il che significa che tali oggetti devono trovarsi nelle unità **[!UICONTROL Message Center]** o **[!UICONTROL All]** organizzazione.
 
 Tuttavia, se il marchio selezionato nelle proprietà del messaggio è collegato a un'unità organizzativa diversa da **[!UICONTROL Message Center]** o **[!UICONTROL All]**, si verificherà un errore e non sarà possibile inviare il messaggio transazionale.
 
