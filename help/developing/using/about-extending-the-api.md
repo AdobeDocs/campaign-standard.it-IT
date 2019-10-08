@@ -3,34 +3,34 @@ title: Informazioni sull'estensione dell'API
 seo-title: Informazioni sull'estensione dell'API
 description: Informazioni sull'estensione dell'API
 seo-description: null
-page-status-flag: never-activated
-uuid: c 7 b 9 c 171-0409-4707-9 d 45-3 fa 72 aee 8008
+page-status-flag: mai attivato
+uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: sviluppo
-content-type: riferimento
-topic-tags: use-case—extending-the-api
-discoiquuid: 304 e 7779-42 d 2-430 a -9704-8 c 599 a 4 eb 1 da
+products: SG_CAMPAIGN/STANDARD
+audience: development
+content-type: reference
+topic-tags: use-case—extension-the-api
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# About extending the API{#about-extending-the-api}
+# Informazioni sull'estensione dell'API{#about-extending-the-api}
 
-Questo caso di utilizzo fornisce l'exposition dei campi estesi per i profili delle risorse personalizzate nell'API dei profili pubblici. Ad esempio, per aggiornare istantaneamente il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
+In questo caso di utilizzo viene illustrata l'esposizione dei campi estesi per i profili di risorse personalizzati nell'API Profili pubblici. Ad esempio, per aggiornare immediatamente il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
-In order to publish the API, you need to have the **[!UICONTROL Datamodel]** role.
+Per pubblicare l'API, è necessario avere il **[!UICONTROL Datamodel]** ruolo.
 
 * Estensione della risorsa personalizzata Profili
-* Pubblicazione dell'estensione
-* Verifica che i campi estesi siano disponibili nell'API
+* Pubblicazione dell’estensione
+* Verifica della disponibilità dei campi estesi nell'API
 
 **Argomenti correlati:**
 
 * [Informazioni sulle risorse personalizzate](../../developing/using/data-model-concepts.md)
-* [Documentazione API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Documentazione API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
