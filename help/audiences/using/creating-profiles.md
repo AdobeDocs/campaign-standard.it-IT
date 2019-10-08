@@ -2,73 +2,73 @@
 title: Creazione di profili
 seo-title: Creazione di profili
 description: Creazione di profili
-seo-description: Scopri come creare profili e raccogliere dati sui tuoi contatti, utilizzando API, funzionalità di importazione, acquisizione online, aggiornamenti automatici o manuali.
-page-status-flag: never-activated
-uuid: a 5 f 5 a 58 a-e 798-400 f -8648-05 dc 843 d 5557
+seo-description: Scopri come creare profili e raccogliere dati sui tuoi contatti utilizzando API, funzionalità di importazione, acquisizione online, aggiornamenti automatici o manuali.
+page-status-flag: mai attivato
+uuid: a5f5a58a-e798-400f-8648-05dc843d5557
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audience
-content-type: riferimento
-topic-tags: managing-profiles
-discoiquuid: 4 ab 8 a 984-f 898-4 fff-ad 8 c-ed 8 f 95362 f 96
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: managing-profile
+discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f883986392f6b739832093e0473591aa39dfcbfe
+source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
 
 ---
 
 
-# Creating profiles{#creating-profiles}
+# Creazione di profili{#creating-profiles}
 
-In Adobe Campaign, i profili vengono utilizzati per impostazione predefinita per definire il target principale dei messaggi.
+In Adobe Campaign, i profili sono utilizzati per impostazione predefinita per definire la destinazione principale dei messaggi.
 
 Per creare o aggiornare un profilo in Campaign, puoi:
 
-* Import a profile list from a file, via a [workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* Collect data online, via [landing pages](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html)
-* Create bulk via [REST API](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-* Synchronize profiles from [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
-* Immettere i dati utilizzando le schermate dell'interfaccia grafica, come illustrato di seguito
+* Importazione di un elenco di profili da un file tramite un [flusso di lavoro](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* Raccolta di dati online tramite pagine di [destinazione](../../channels/using/about-landing-pages.md)
+* Creazione in massa tramite API [REST](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* Sincronizzare i profili da [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* Inserire i dati utilizzando le schermate dell'interfaccia grafica, come illustrato di seguito
 
-Ad esempio, per creare un nuovo profilo direttamente nell'interfaccia utente, segui i passaggi seguenti:
+Ad esempio, per creare un nuovo profilo direttamente nell’interfaccia utente, effettuate le seguenti operazioni:
 
-1. From the Adobe Campaign home page, click the **Customer Profiles** card or the **Profiles** tab to access the list of profiles.
+1. Dalla home page di Adobe Campaign, fai clic sulla scheda Profili **** cliente o sulla scheda **Profili** per accedere all'elenco dei profili.
 
    ![](assets/profile_creation_1.png)
 
-1. Then click **[!UICONTROL Create]**.
+1. Quindi fate clic **[!UICONTROL Create]**.
 
    ![](assets/profile_creation.png)
 
-1. Inserite i dati del profilo.
+1. Immettete i dati del profilo.
 
    ![](assets/profile_creation1.png)
 
-   * The contact information, such as first name, last name, gender, date of birth, photo, preferred language (for [multilingual emails](../../channels/using/creating-a-multilingual-email.md)) helps better personalize deliveries.
-   * The profile's **[!UICONTROL Time zone]** is used to send deliveries at the profile's time zone. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * The **[!UICONTROL Channels]** category, which contains the email address, mobile phone number, opt-out information, lets you know on which channel the profile is reachable.
-   * The **[!UICONTROL No longer contact]** category is updated as soon as the profile unsubscribe to a channel.
-   * The **[!UICONTROL Address]** category contains the postal address that needs to be filled along with the **[!UICONTROL Address specified]** option to send [direct mail](../../channels/using/about-direct-mail.md) to this profile. If the **[!UICONTROL Address specified]** option is not checked, this profile will be excluded from every direct mail delivery.
-   * The **[!UICONTROL Access authorization]** category indicates the profile's organizational units (to [manage permissions](../../administration/using/about-access-management.md)). See also [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles).
-   * The **[!UICONTROL Traceability]** category automatically updates with information concerning the user who created or modified the profile.
+   * Le informazioni di contatto, come nome, cognome, sesso, data di nascita, foto, lingua preferita (per le e-mail [](../../channels/using/creating-a-multilingual-email.md)multilingue) consentono di personalizzare meglio le consegne.
+   * Il profilo **[!UICONTROL Time zone]** viene utilizzato per inviare le consegne al fuso orario del profilo. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * La **[!UICONTROL Channels]** categoria, che contiene l'indirizzo e-mail, il numero di telefono cellulare, le informazioni di rifiuto, vi consente di sapere su quale canale il profilo è raggiungibile.
+   * La **[!UICONTROL No longer contact]** categoria viene aggiornata non appena il profilo annulla la sottoscrizione a un canale.
+   * La **[!UICONTROL Address]** categoria contiene l'indirizzo postale che deve essere compilato insieme all' **[!UICONTROL Address specified]** opzione per inviare la posta [](../../channels/using/about-direct-mail.md) diretta a questo profilo. Se l' **[!UICONTROL Address specified]** opzione non è selezionata, questo profilo verrà escluso da ogni consegna diretta per posta.
+   * La **[!UICONTROL Access authorization]** categoria indica le unità organizzative del profilo (per [gestire le autorizzazioni](../../administration/using/about-access-management.md)). Consultate anche [Profili](../../administration/using/organizational-units.md#partitioning-profiles)di partizionamento.
+   * La **[!UICONTROL Traceability]** categoria si aggiorna automaticamente con le informazioni relative all'utente che ha creato o modificato il profilo.
 
-1. Click **[!UICONTROL Create]** to save the profile.
+1. Fate clic **[!UICONTROL Create]** per salvare il profilo.
 
-Il profilo viene ora visualizzato nell'elenco.
-
->[!NOTE]
->
->La creazione dei profili è possibile anche tramite l'API standard di Adobe Campaign. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
-
-I profili possono essere suddivisi anche in base alle unità organizzative. To add the organizational fields to your profiles, refer to the [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles) section.
+Il profilo verrà ora visualizzato nell'elenco.
 
 >[!NOTE]
 >
->Il campo lingua preferito viene usato per selezionare la lingua quando si inviano messaggi in più lingue. For more information about the multilingual messages [refer to this page](../../channels/using/creating-a-multilingual-email.md).
+>La creazione di profili è possibile anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) dedicata.
+
+I profili possono essere suddivisi in base alle unità organizzative. Per aggiungere i campi organizzativi ai profili, fare riferimento alla sezione Profili [](../../administration/using/organizational-units.md#partitioning-profiles) partizionamento.
+
+>[!NOTE]
+>
+>Il campo della lingua preferita viene utilizzato per selezionare la lingua durante l'invio di messaggi in più lingue. Per ulteriori informazioni sui messaggi multilingue, [fare riferimento a questa pagina](../../channels/using/creating-a-multilingual-email.md).
 
 **Argomenti correlati:**
 
-* [Creazione di una guida passo-passo per una pagina](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html) di destinazione
+* [Informazioni sulle pagine](../../channels/using/about-landing-pages.md) di destinazione guida dettagliata
 * [Importazione di profili](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
