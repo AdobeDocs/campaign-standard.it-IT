@@ -14,7 +14,7 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -879,7 +879,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
   </tr> 
   <tr> 
    <td> Digital Content Editor - Contenuti dinamici<br /> </td> 
-   <td> L'interfaccia del contenuto dinamico è stata migliorata. Le frecce ora sembrano consentire la navigazione tra i diversi contenuti dinamici, direttamente nel corpo dell'e-mail.<br /> Per ulteriori informazioni sull’utilizzo di questa funzionalità, consulta la documentazione <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md"></a>dettagliata.<br /> </td> 
+   <td> L'interfaccia del contenuto dinamico è stata migliorata. Le frecce ora sembrano consentire la navigazione tra i diversi contenuti dinamici, direttamente nel corpo dell'e-mail.<br /> Per ulteriori informazioni sull’utilizzo di questa funzionalità, consulta la documentazione <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
    <td> Digital Content Editor - Testo dinamico<br /> </td> 
@@ -963,7 +963,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
   </tr> 
   <tr> 
    <td> Editor di contenuto: Contenuto dinamico<br /> </td> 
-   <td> È possibile definire contenuti diversi che verranno visualizzati in modo dinamico all'utente in base alle condizioni definite tramite l'editor di espressioni.<br /> Fare riferimento alla documentazione <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md"></a>dettagliata.<br /> </td> 
+   <td> È possibile definire contenuti diversi che verranno visualizzati in modo dinamico all'utente in base alle condizioni definite tramite l'editor di espressioni.<br /> Fare riferimento alla documentazione <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
    <td> E-mail<br /> </td> 
@@ -1057,7 +1057,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
   </tr> 
   <tr> 
    <td> Digital Content Editor: Selettore <strong>blocchi</strong><br /> </td> 
-   <td> Quando si seleziona un blocco nell'editor di contenuti HTML, viene visualizzata una breadcrumb nella parte inferiore dell'area di modifica. Questo consente di navigare e selezionare facilmente diversi elementi.<br /> Fare riferimento alla documentazione <a href="../../channels/using/managing-landing-page-structure-and-style.md"></a>dettagliata.<br /> </td> 
+   <td> Quando si seleziona un blocco nell'editor di contenuti HTML, viene visualizzata una breadcrumb nella parte inferiore dell'area di modifica. Questo consente di navigare e selezionare facilmente diversi elementi.<br /> Fare riferimento alla documentazione <a href="../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style"></a>dettagliata.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
