@@ -15,7 +15,7 @@ context-tags: landingPage,procedura guidata;landingPage,panoramica;landingPage,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
 
 ---
 
@@ -24,26 +24,14 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Campaign viene fornito con pagine di destinazione, moduli Web che possono essere utilizzati per acquisire informazioni sui tipi di pubblico, offrire iscrizioni a un servizio, visualizzare i dati e ampliare il database. Le pagine di destinazione possono essere utilizzate anche per acquisire o aggiornare i profili esistenti.
 
->[!CAUTION]
->
->Le pagine di destinazione possono essere utilizzate solo per aggiornare i profili.
+Per ulteriori informazioni sui passaggi necessari per impostare una pagina di destinazione, consulta [questa sezione](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
-Campaign viene fornito con un set di modelli di pagina di destinazione incorporati:
+**Argomenti correlati:**
 
-* **[!UICONTROL Acquisition]**: questo è il modello predefinito per le pagine di destinazione, che consente di acquisire e aggiornare i dati nel database Campaign.
-* **[!UICONTROL Subscription]**: questo modello deve essere utilizzato per offrire iscrizioni a un servizio.
-* **[!UICONTROL Unsubscription]**: questo modello può essere collegato da un’e-mail inviata agli abbonati a un servizio per consentire loro di annullare l’iscrizione a questo servizio.
-* **[!UICONTROL Blacklist]**: questo modello deve essere utilizzato quando un profilo non vuole più essere contattato da Campaign. Per ulteriori informazioni sull'inserimento in blacklist, consultate [Informazioni sull'opt-in e l'opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* [Video](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) sulla creazione di un’esercitazione sulla pagina di destinazione
+* [Utilizzo di una pagina di destinazione per l’iscrizione a un servizio](../../audiences/using/creating-a-service.md)
 
-Questi modelli sono proposti per impostazione predefinita quando si crea una nuova pagina di destinazione.
-
-![](assets/lp_creation_1.png)
-
-Adobe consiglia di creare modelli personalizzati duplicando un modello incorporato. Alcuni parametri possono essere impostati solo nei modelli delle pagine di destinazione e non possono essere modificati direttamente nelle pagine di destinazione.
-
->[!NOTE]
->
->Per accedere ai modelli della pagina di destinazione, fai clic sul logo Adobe Campaign in alto a sinistra e seleziona **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**.
+## Ciclo di vita delle pagine di destinazione {#landing-pages-life-cycle}
 
 L’intero ciclo di vita di una pagina di destinazione è il seguente:
 
@@ -56,7 +44,39 @@ L’intero ciclo di vita di una pagina di destinazione è il seguente:
 
 Una volta creata e pubblicata, potete rendere la pagina di destinazione accessibile tramite un sito Web o [inserire un collegamento diretto alla pagina di destinazione in un messaggio e-mail](../../designing/using/links.md#inserting-a-link).
 
-**Argomenti correlati:**
+## Limitazioni per la pagina di destinazione{#landing-page-limitations}
 
-* [Video sulla creazione di una pagina](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) di destinazione
-* [Utilizzo di una pagina di destinazione per sottoscrivere un servizio](../../audiences/using/creating-a-service.md)
+La sezione seguente elenca i limiti di cui dovreste essere consapevoli prima di iniziare a impostare le pagine di destinazione.
+
+**Scrittura e aggiornamento dei dati**
+
+* Le pagine di destinazione sono limitate solo a **[!UICONTROL Profile]** **[!UICONTROL Subscription]** risorse e risorse. La registrazione può essere salvata e aggiornata da **[!UICONTROL Profile]** e da una sottoscrizione o annullamento della sottoscrizione a un **[!UICONTROL Service]**.
+Per ulteriori informazioni sulla configurazione delle risorse, vedere [Configurazione della struttura](../../developing/using/configuring-the-resource-s-data-structure.md)dati della risorsa.
+
+>[!CAUTION]
+>
+>Una pagina di destinazione non può visualizzare o aggiornare i dati provenienti da altre risorse oltre a **[!UICONTROL Profile]** e **[!UICONTROL Subscription]**.
+
+**Precaricamento**
+
+* La pagina di destinazione non può visualizzare automaticamente un elenco di record, non può elencare i servizi a cui sono già stati sottoscritti profili. Per ulteriori informazioni sui servizi, consultare questa [pagina](../../audiences/using/creating-a-service.md).
+
+* La pagina di destinazione con un modulo precompilato (i dati vengono precaricati con la pagina) è accessibile solo da un'e-mail di Adobe Campaign. Non è possibile accedere a tale modulo da una pagina Web.
+
+**Riconciliazione**
+
+* Il comportamento di riconciliazione è il seguente: non appena viene trovata una partita, il processo di riconciliazione si interrompe. Ciò significa che la riconciliazione può essere fatta solo su un record di profilo e non su più record in presenza di duplicati.
+
+Ad esempio, vuoi inviare la seguente pagina di destinazione di acquisizione ai tuoi profili per aggiornare il database Campaign con i numeri di cellulare dei tuoi profili.
+
+![](assets/landing_page_limitation_1.png)
+
+Se uno dei profili inserisce nuove informazioni nella pagina di destinazione ma presenta già un profilo duplicato, verrà aggiornato il profilo corrispondente alla data di creazione più recente, in quanto la priorità dei profili dipende solo dalla data di creazione.
+
+Qui è stato aggiornato solo il primo profilo, perché si trattava della voce più vecchia.
+
+![](assets/landing_page_limitation_2.png)
+
+**Verifica delle pagine di destinazione**
+
+* Le pagine di destinazione funzionano solo sui profili e non sui profili di prova, il che significa che non è possibile sottoporre a test le pagine di destinazione come parte di una prova e-mail.
