@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ Affinché l'evento attivi l'invio di un messaggio transazionale, è necessario p
 
 >[!NOTE]
 >
->Per accedere ai messaggi transazionali, è necessario disporre dei diritti di amministrazione o essere visualizzati nel gruppo di sicurezza **[!UICONTROL Message Center agents]** (mcExec). I messaggi relativi alle transazioni di eventi non contengono informazioni sul profilo, pertanto non sono compatibili con le regole di affaticamento (anche nel caso di un arricchimento con i profili). Consultate [Regole](../../administration/using/fatigue-rules.md#choosing-the-channel)di fatica.
+>Per accedere ai messaggi transazionali, devi far parte del gruppo di **[!UICONTROL Administrators (all units)]** sicurezza.
+>
+>I messaggi relativi alle transazioni di eventi non contengono informazioni sul profilo, pertanto non sono compatibili con le regole di affaticamento (anche nel caso di un arricchimento con i profili). Consultate [Regole](../../administration/using/fatigue-rules.md#choosing-the-channel)di fatica.
 
 ## Definizione di un profilo di test in un messaggio transazione {#defining-a-test-profile-in-a-transactional-message}
 
@@ -109,7 +111,7 @@ Per impostare la personalizzazione in un messaggio transazionale, segui i passag
 
 1. Visualizzate l'anteprima del messaggio selezionando il profilo definito per l'evento.
 
-   La procedura per visualizzare l'anteprima di un messaggio è dettagliata nella sezione [Anteprima messaggi](../../sending/using/preparing-the-send.md) .
+   La procedura per visualizzare l'anteprima di un messaggio è dettagliata nella sezione [Anteprima messaggi](../../sending/using/previewing-messages.md) .
 
    ![](assets/message-center_9.png)
 
@@ -121,7 +123,7 @@ Potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di
 
 >[!CAUTION]
 >
->Gli elenchi di prodotti sono disponibili solo quando si modificano i messaggi e-mail transazionali tramite l'interfaccia di [Email Designer](../../designing/using/overview.md#email-designer) .
+>Gli elenchi dei prodotti sono disponibili solo quando si modificano i messaggi e-mail transazionali tramite l'interfaccia di [Email Designer](../../designing/using/overview.md#email-designer) .
 
 Per aggiungere un elenco di prodotti abbandonati in un messaggio transazionale, segui i passaggi indicati di seguito.
 
@@ -258,7 +260,7 @@ Per accedere ai rapporti relativi al messaggio transazionale, usa il **[!UICONTR
 
 Puoi sospendere la pubblicazione del messaggio transazionale utilizzando, ad esempio, il **[!UICONTROL Pause]** pulsante per modificare i dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database Adobe Campaign.
 
-Gli eventi in coda vengono conservati durante un periodo di tempo definito nell'API REST (consultate la documentazione [REST API) o nell'evento trigger, se utilizzate il servizio di base Triggers (consultate](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Utilizzo di Campaign e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Gli eventi in coda vengono conservati durante un periodo di tempo definito nell'API REST (consultate la documentazione [REST API) o nell'evento trigger, se utilizzate il servizio di base Triggers (consultate](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Utilizzo di Campaign e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
