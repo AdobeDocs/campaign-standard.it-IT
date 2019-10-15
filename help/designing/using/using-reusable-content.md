@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ---
 
@@ -36,7 +36,7 @@ Scopri come gestire l’edizione del contenuto delle e-mail. Designer e-mail con
 
 Per ulteriori informazioni su come creare un'e-mail da un modello predefinito, vedere Progettazione [e-](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)mail.
 
-### Creazione di un modello di contenuto {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 Potete creare modelli di contenuto personalizzati da usare il maggior numero di volte necessario.
 
@@ -199,9 +199,12 @@ Ora che la struttura delle e-mail è compilata, potete modificare lo stile di og
 1. Chiudete la **[!UICONTROL Properties]** scheda per tornare all'area di lavoro principale.
 1. Aggiungere componenti di struttura e contenuti personalizzabili in base alle esigenze.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >I frammenti non possono includere campi di personalizzazione, contenuti dinamici o altri frammenti.
+   >
+   >Evitare di salvare come contenuto di frammento con componenti struttura vuoti. Una volta inserito il frammento &gt;non sarà più possibile modificarlo.
+   >
    >La visualizzazione [](../../designing/using/styles.md#switching-to-mobile-view) mobile non è disponibile nei frammenti.
 
 1. Una volta modificato, salvare il frammento.
