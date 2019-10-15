@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 
 ---
 
@@ -172,6 +172,30 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 1. Procedere in modo simile per regolare l'allineamento e la spaziatura delle altre colonne.
 
    ![](assets/des_adjusting_columns.png)
+
+1. Salvare le modifiche.
+
+### Informazioni sugli stili dei collegamenti {#about-styling-links}
+
+È possibile sottolineare un collegamento e selezionarne il colore e la destinazione in Designer e-mail.
+
+1. In un componente in cui è inserito un collegamento, seleziona il testo dell’etichetta del collegamento.
+
+1. Nelle impostazioni del componente, verificate **[!UICONTROL Underline link]** di sottolineare il testo dell’etichetta del collegamento.
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. Per selezionare il contesto di navigazione in cui verrà aperto il collegamento, seleziona una **[!UICONTROL Target]**.
+
+   ![](assets/stylelinks-target.png)
+
+1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Link color]**.
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. Scegliete il colore desiderato.
+
+   ![](assets/stylelinks-colorchanged.png)
 
 1. Salvare le modifiche.
 
