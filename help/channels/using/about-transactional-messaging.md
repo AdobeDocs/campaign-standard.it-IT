@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
 
 ---
 
@@ -61,6 +61,14 @@ I passi per la realizzazione di questo progetto sono:
 1. Inoltre, affinché l'evento possa essere attivato quando un cliente abbandona il carrello, questo evento deve essere inviato dal sito Web della società tramite l'API REST di Adobe Campaign Standard. Consultate Integrazione [](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)del sito.
 
 Una volta che tutti questi passaggi sono stati eseguiti, non appena un utente lascia il sito senza ordinare i prodotti nel suo carrello, riceve automaticamente un'e-mail di notifica.
+
+## Processo di pubblicazione di messaggi transazionali {#transactional-messaging-pub-process}
+
+Il grafico seguente illustra il processo di pubblicazione dei messaggi transazionali.
+
+![](assets/message-center_pub-process.png)
+
+Per ulteriori informazioni sui passaggi di configurazione dell'evento, consulta Configurazione dei messaggi [transazionali](../../administration/using/configuring-transactional-messaging.md).
 
 ## Limitazioni per i messaggi transazionali {#transactional-messaging-limitations}
 
