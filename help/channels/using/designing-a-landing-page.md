@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ Quando una pagina di destinazione viene inviata da un visitatore, potete configu
 
 ## Impostazione delle autorizzazioni e precaricamento dei dati {#setting-permissions-and-pre-loading-data}
 
-L'accesso a una pagina di destinazione può essere limitato ai visitatori identificati, che provengono da un collegamento in un messaggio inviato da Campaign, ad esempio. In questo caso, potete precaricare i relativi dati nella pagina di destinazione. Per eseguire questa operazione:
+L'accesso a una pagina di destinazione può essere limitato ai visitatori identificati, che provengono da un collegamento in un messaggio inviato da Campaign, ad esempio, o a una specifica unità organizzativa.
+Nel caso di visitatori identificati, potete precaricare i loro dati nella pagina di destinazione. Per eseguire questa operazione:
 
 1. Modificate le proprietà della pagina di destinazione a cui accedete tramite l’ ![](assets/edit_darkgrey-24px.png) icona nel dashboard della pagina di destinazione e visualizzate i **[!UICONTROL Access & loading]** parametri.
 
@@ -384,6 +385,26 @@ L'accesso a una pagina di destinazione può essere limitato ai visitatori identi
 
 * Utilizzate i parametri URL per identificare i visitatori, utilizzando l' **[!UICONTROL Authorize visitor identification via URL parameters]** opzione: quindi dovete scegliere il tasto di caricamento e mappare i parametri del filtro con i parametri dell'URL corrispondente.
 * Autorizzate qualsiasi visitatore ad accedere alla pagina di destinazione utilizzando l' **[!UICONTROL Authorize unidentified visitors]** opzione.
+
+Le pagine di destinazione possono essere collegate a un’unità organizzativa. In questo modo verrà definito l'accesso degli utenti alle diverse pagine di destinazione. Per assegnare un'unità organizzativa:
+
+1. Accedete alle proprietà della pagina di destinazione tramite l’ **[!UICONTROL Edit properties]** icona .
+
+   ![](assets/lp_parameters_google3.png)
+
+1. Spiega il **[!UICONTROL Access authorization]**.
+
+1. Fare clic sul menu a discesa e selezionare l'unità organizzativa. Per ulteriori informazioni sulla creazione di un'unità organizzativa, consultare questa [pagina](../../administration/using/organizational-units.md).
+
+   ![](assets/lp_org_unit_2.png)
+
+1. I **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Access authorization]** e **[!UICONTROL Last modified]** i campi vengono completati automaticamente.
+
+1. Fate clic **[!UICONTROL Confirm]** quindi **[!UICONTROL Save]**.
+
+Ora è possibile accedere alla pagina di destinazione e gestirla solo dagli utenti nell’unità organizzativa selezionata.
+
+![](assets/lp_org_unit_3.png)
 
 ## Impostazione di Google reCAPTCHA {#setting-google-recaptcha}
 
