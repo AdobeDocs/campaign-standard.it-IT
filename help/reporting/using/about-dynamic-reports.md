@@ -1,90 +1,98 @@
 ---
-title: Informazioni sui rapporti dinamici
-seo-title: Informazioni sui rapporti dinamici
-description: Informazioni sui rapporti dinamici
-seo-description: Con rapporti dinamici, puoi trascinare variabili e dimensioni nel tuo ambiente a forma libera e analizzare il successo delle campagne.
-page-status-flag: never-activated
-uuid: a 84 a 18 bd -4 e 33-466 e-a 6 ce-d 7008 fe 12746
+title: Informazioni sui report dinamici
+seo-title: Informazioni sui report dinamici
+description: Informazioni sui report dinamici
+seo-description: Con i rapporti dinamici, trascina e rilascia variabili e dimensioni nell’ambiente a forma libera e analizza il successo delle campagne.
+page-status-flag: mai attivato
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: reporting
-content-type: riferimento
+content-type: reference
 topic-tags: informazioni sui rapporti
-discoiquuid: bbb 41 c 38-12 c 1-4625-85 d 5-69627 e 2 f 4 b 39
+discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 4d3f2efb118e07247caa15ef7edaa67657d164ea
 
 ---
 
 
-# About dynamic reports{#about-dynamic-reports}
+# Informazioni sui report dinamici{#about-dynamic-reports}
 
 >[!NOTE]
 >
->Only users with administration rights or with organizational units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/users-management.md).
+>Solo gli utenti con diritti di amministrazione o con unità organizzative impostate su **Tutto** possono creare o salvare un nuovo rapporto. For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
 
-La funzione di reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale. Consente di accedere ai dati di profilo, abilitando l'analisi demografica in base a dimensioni del profilo quali genere, città ed età, oltre a dati di campagna e-mail funzionali come aperture e clic. Con l'interfaccia di trascinamento, puoi esplorare i dati, determinare in che modo le campagne e-mail vengono eseguite sui segmenti di clienti più importanti e misurarne l'impatto sui destinatari.
+I rapporti dinamici forniscono rapporti completamente personalizzabili e in tempo reale. Consente l'accesso ai dati del profilo e l'analisi demografica per dimensioni del profilo quali genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. L'interfaccia di trascinamento consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari.
 
-Grazie al menu di trascinamento e alle visualizzazioni personalizzabili, la funzione dei rapporti dinamici consente di combinare dimensioni, metriche e intervallo di tempo in qualsiasi combinazione, con suddivisioni e confronti illimitati.
+Grazie al menu di trascinamento e alle visualizzazioni personalizzabili, la funzione di report dinamici consente di combinare dimensioni, metriche e intervallo di tempo in qualsiasi combinazione, con suddivisioni e confronti illimitati.
 
 
 **Argomenti correlati:**
 
-* [Elenco rapporti](../../reporting/using/defining-the-report-period.md)
+* [Elenco report](../../reporting/using/defining-the-report-period.md)
 * [Unità organizzative](../../administration/using/organizational-units.md)
-* [Video sui rapporti](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) dinamici
+* [Video per report](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-dynamic-report-feature-video-use.html) dinamici
 
-## Accessing dynamic reports {#accessing-dynamic-reports}
+## Accesso ai rapporti dinamici {#accessing-dynamic-reports}
 
-I rapporti sono accessibili:
+È possibile accedere ai report:
 
-* From the home page by selecting **[!UICONTROL Reports]** tab in the top bar or the **[!UICONTROL Reports]** card to access reports for all deliveries.
+* Dalla home page selezionando **[!UICONTROL Reports]** la scheda nella barra superiore o nella **[!UICONTROL Reports]** scheda per accedere ai rapporti per tutte le consegne.
 
    ![](assets/campaign_reports_access.png)
 
-* In each program, campaign, and message, from the **Reports** button by clicking **Dynamic Reports** to only view the reports specific to the delivery.
+* In ciascun programma, campagna e messaggio, dal pulsante **Rapporti** , facendo clic su Rapporti **** dinamici per visualizzare solo i rapporti specifici per la consegna.
 
    ![](assets/campaign_reports_description.png)
 
-Alcuni rapporti non possono essere disponibili subito dopo la consegna, a seconda del tempo necessario per raccogliere e elaborare le informazioni.
+Alcuni rapporti non possono essere disponibili subito dopo la consegna, a seconda del tempo necessario per raccogliere ed elaborare le informazioni.
 
 I rapporti dinamici sono suddivisi in due categorie:
 
-* **Modelli**, che possono essere modificati copiandoli mediante l'opzione **Salva come** (**Progetto &gt; Salva con nome.**) nel modello.
-* **Rapporti personalizzati** (identificati in blu), che possono essere creati direttamente facendo clic sul **pulsante Crea nuovo progetto** nella home page **Rapporti** .
+* **Modelli**, che possono essere modificati copiandoli con l’opzione **Salva con nome** (**Progetto &gt; Salva con nome).**) nel modello.
+* **Report** personalizzati (identificati in blu), che possono essere creati direttamente facendo clic sul pulsante **Crea nuovo progetto** nella home page **Report** .
 
 >[!NOTE]
 >
->I dati vengono filtrati in base alle unità organizzative.
+>I dati vengono filtrati in base alle unità aziendali.
 
 ![](assets/dynamic_report_overview.png)
 
+## Accordo di utilizzo per rapporti dinamici {#dynamic-reporting-usage-agreement}
 
-## Dynamic reporting usage agreement {#dynamic-reporting-usage-agreement}
+>[!NOTE]
+>
+>Queste modifiche si applicano solo a partire dalla release Campaign Standard 19.4.
 
-I rapporti dinamici consentono di filtrare il rapporto in base ai dati del profilo con le dimensioni del profilo.
-
-Le dimensioni del profilo possono essere visualizzate e utilizzate nei rapporti solo dopo l'accettazione del contratto di utilizzo dinamico del rapporto. Per impostazione predefinita, l'accordo è visibile e può essere accettato o rifiutato solo da utenti assegnati con diritti di amministrazione.
-
-Questo contratto consente il trasferimento e l'archiviazione negli Stati Uniti dei seguenti dati di profilo: città, paese/regione, stato, genere e segmenti a livello di età.
-
-Accettando questo contratto, tutti i dati europei e non europei verranno trasferiti negli Stati Uniti.
-
-![](assets/pii_window.png)
+Lo scopo dell'accordo di utilizzo di reporting dinamico è di fungere da consenso popup per l'elaborazione dei dati. Per impostazione predefinita, il contratto è visibile e può essere accettato o rifiutato solo dagli utenti ai quali sono stati assegnati diritti di amministrazione.
 
 Sono disponibili tre opzioni:
 
-* **[!UICONTROL Ask me later]**: Facendo clic su Chiedi in un secondo momento, la finestra si interrompe per 24 ore.
-* **[!UICONTROL Accept]**: Accettando questo contratto, autorizzate Adobe Campaign a raccogliere informazioni di identificazione personali dei clienti e a trasferire gli utenti negli Stati Uniti.
-* **[!UICONTROL Decline]**: Rifiutando il contratto, le dimensioni del profilo non saranno incluse nei rapporti e le informazioni di identificazione personale dei clienti non saranno raccolte o inviate.
+* **[!UICONTROL Ask me later]**: Facendo clic su Chiedi più tardi, la finestra smetterà di visualizzare per 24 ore.
+* **[!UICONTROL Accept]**: Accettando questo contratto, l'Utente autorizza Adobe Campaign a raccogliere i dati di identificazione personale dei clienti e a trasferirli al reporting o al centro dati.
+* **[!UICONTROL Decline]**: Rifiutando l'accordo, le dimensioni del profilo non verranno visualizzate nei rapporti e i dati personali dei clienti non verranno raccolti o inviati. In questo caso, externalID verrà comunque raccolto e utilizzato per identificare gli utenti finali.
 
-This choice is not final, you can always change it by selecting **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
+Nella tabella seguente sono riportati gli eventi che si verificano dopo l'accettazione del contratto in base alla propria area geografica.
 
-Il valore può essere modificato in qualsiasi momento. The value -1 corresponds to **[!UICONTROL Ask me later]**, 1 **[!UICONTROL Accept]** and 0 **[!UICONTROL Decline]**.
+|  | Generazione di rapporti dinamici | Connettore Microsoft Dynamics 365 |
+|---|---|---|
+| Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br>Informazioni complete (città, paese, regione, stato, genere e segmenti in base all'età) e profili personalizzati inviati al centro di reporting statunitense. Per ulteriori informazioni sulle dimensioni del profilo, consulta questa [pagina](../../reporting/using/list-of-components-.md) | **Funzionalità disponibile**. <br>Tutti i campi out-of-the-box e dei profili personalizzati e i campi evento Adobe Campaign Standard vengono elaborati nel centro dati degli Stati Uniti. |
+| EMEA (Europa Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Informazioni complete (città, paese, regione, stato, genere e segmenti in base all'età) e profili personalizzati inviati al centro di reporting EMEA. Per ulteriori informazioni sulle dimensioni del profilo, consulta questa [pagina](../../reporting/using/list-of-components-.md) | **Funzionalità disponibile.** Campi di profili predefiniti e <br>personalizzati e campi evento Adobe Campaign Standard elaborati nel centro dati EMEA. **[!UICONTROL Control data]** che contiene i dati di registrazione di I/O Adobe e gli ID degli eventi degli utenti finali del cliente inviati e memorizzati nel centro dati statunitense. |
+
+Nella tabella seguente sono riportati gli eventi che si verificano dopo il rifiuto del contratto a seconda della regione. Anche in caso di rifiuto del contratto, sarà comunque disponibile la generazione di rapporti sulle consegne e l'integrazione con Microsoft Dynamics 365.
+
+| Regione | Generazione di rapporti dinamici | Connettore Microsoft Dynamics 365 |
+|---|---|---|
+| Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br> Nessun'informazione out-of-the-box e informazioni sui profili personalizzati inviate al centro di reporting statunitense, ad eccezione di ExternalID. | **Funzionalità disponibile**. <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati USA, ad eccezione di ID esterni e ID destinatario. <br>Tutti i campi evento Adobe Campaign Standard elaborati nel centro dati degli Stati Uniti, ad eccezione del codice del segmento e dell'ID della pagina mirror. |
+| EMEA (Europa Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Nessuna informazione disponibile e nessuna informazione sui profili personalizzati inviati al centro di reporting EMEA, ad eccezione di ExternalID. | **Funzionalità disponibile.** <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati EMEA, ad eccezione di ID esterno e ID destinatario. <br>Tutti i campi evento Adobe Campaign Standard elaborati nel centro dati EMEA, ad eccezione del codice del segmento e dell'ID della pagina mirror. |
+
+Questa scelta non è finale, potete sempre modificarla selezionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
+
+Il valore può essere modificato in qualsiasi momento. Il valore 1 corrisponde a **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** e 3 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)
-
