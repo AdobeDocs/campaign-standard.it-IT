@@ -2,46 +2,46 @@
 title: Aggiunta di componenti
 seo-title: Aggiunta di componenti
 description: Aggiunta di componenti
-seo-description: Trascina i componenti nella tabella a forma libera per iniziare a filtrare i dati e generare il rapporto.
-page-status-flag: never-activated
-uuid: a 1 aa 880 c -4 ee 8-4 ffb-b 3 bf -45249 e 6 d 446 f
+seo-description: Trascina i componenti nella tabella a forma libera per iniziare a filtrare i dati e a creare il rapporto.
+page-status-flag: mai attivato
+uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: reporting
-content-type: riferimento
-topic-tags: personalizzazione dei rapporti
-discoiquuid: a 773 b 7 a 8-c 290-4 c 81-bb 52-48 acc 14 fc 89 f
+content-type: reference
+topic-tags: personalizzazione dei report
+discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# Adding components{#adding-components}
+# Aggiunta di componenti{#adding-components}
 
 I componenti consentono di personalizzare i rapporti con dimensioni, metriche e periodi di tempo diversi.
 
-1. Click the **[!UICONTROL Components]** tab to access the list of components.
+1. Fare clic sulla **[!UICONTROL Components]** scheda per accedere all'elenco dei componenti.
 
    ![](assets/dynamic_report_components.png)
 
-1. Each category presented in the **[!UICONTROL Components]** tab displays the five most used items, click the name of a category to access its full list of components.
+1. Ogni categoria presentata nella **[!UICONTROL Components]** scheda visualizza i cinque elementi più utilizzati, fate clic sul nome di una categoria per accedere al relativo elenco completo di componenti.
 
-   La tabella Componenti è suddivisa in quattro categorie:
+   La tabella dei componenti è suddivisa in quattro categorie:
 
-   * **Dimensioni**: Ottenere i dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario, oppure il successo di una consegna.
-   * **Metriche**: Ottieni dettagli sullo stato di un messaggio. Ad esempio, se un messaggio è stato inviato e lo ha aperto.
-   * **[!UICONTROL Segments]**: Filtrare i dati in base all'intervallo di età del destinatario. **[!UICONTROL Segments]** può essere trascinato e rilasciato direttamente in una tabella a forma libera o nella barra superiore del pannello.
+   * **Dimensioni**: Ottenete i dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario, o l'esito positivo della consegna.
+   * **Metriche**: Ottieni informazioni sullo stato di un messaggio. Ad esempio, se un messaggio è stato inviato e l’utente lo ha aperto.
+   * **[!UICONTROL Segments]**: Filtra i dati in base all'intervallo di età del destinatario. **[!UICONTROL Segments]** può essere trascinato e rilasciato direttamente in una tabella a forma libera o nella barra superiore del pannello. A partire dalla release Campaign 19.4, l'opzione **[!UICONTROL Exclude proof]** sarà già selezionata per impostazione predefinita, ma può essere modificata se necessario.
 
-      Questa categoria è disponibile solo dopo che l'amministratore ha approvato i termini e le condizioni del Contratto di utilizzo dinamico dei rapporti che verranno visualizzati sullo schermo. If the administrator declines the agreement, the segments will not be visible in the **[!UICONTROL Components]** tab and data will not be collected.
+      Questa categoria è disponibile solo dopo che l'amministratore ha approvato i termini e le condizioni del contratto di utilizzo di reporting dinamico che verrà visualizzato sullo schermo. Se l'amministratore rifiuta il contratto, i segmenti non saranno visibili nella **[!UICONTROL Components]** scheda e i dati non saranno raccolti.
 
    * **Ora**: Impostare un periodo di tempo per la tabella.
 
-1. Trascina i componenti in un pannello per avviare il filtraggio dei dati.
+1. Trascinate e rilasciate i componenti in un pannello per iniziare a filtrare i dati.
 
-Potete trascinare e rilasciare tutti i componenti necessari e confrontarli tra loro.
+Puoi trascinare e rilasciare tutti i componenti necessari e confrontarli tra loro.
 
 **Argomenti correlati:**
 
