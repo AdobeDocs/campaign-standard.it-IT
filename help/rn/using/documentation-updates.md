@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
 
 ---
 
@@ -26,6 +26,24 @@ Scopri tutti gli ultimi aggiornamenti della documentazione di Adobe Campaign Sta
 In questa pagina sono elencate tutte le nuove funzioni e gli aggiornamenti della documentazione per ciascuna versione di Adobe Campaign Standard.
 
 Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione di Adobe Campaign.
+
+## Rilascio 19.4 - ottobre 2019 {#release-19-4---october-2019}
+
+### Nuove funzionalità incluse nella release {#new-capabilities-included-in-the-release-20}
+
+California Consumer Privacy Act (CCPA) - [Leggi tutto](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Integrazione con Microsoft Dynamics 365 (GA) - [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### Altri aggiornamenti della documentazione in arrivo con il rilascio {#other-documentation-updates-coming-with-the-release-18}
+
+L'elenco dei messaggi di errore per Campaign Standard e Classic è stato aggiornato. [Leggi tutto](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+La guida introduttiva al GDPR è stata migliorata e arricchita. È ora una documentazione sulla gestione della privacy che include GDPR e CCPA. [Leggi tutto](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+
+È stato aggiunto un nuovo grafico che presenta il processo di pubblicazione dei messaggi transazionali. [Leggi tutto](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+La guida introduttiva sulle procedure ottimali per la distribuzione è stata aggiornata. [Leggi tutto](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## Aggiornamenti della documentazione - Ottobre 2019 {#doc-updates-october-2019}
 
