@@ -15,7 +15,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 ---
 
@@ -35,6 +35,7 @@ L'editor del contenuto in-app consente di scegliere tra due modalità di messagg
 
 * [Invio del messaggio in-app](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Generazione di rapporti in-app](../../reporting/using/in-app-report.md)
+* [Implementazione del tracciamento delle notifiche locali](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## Personalizzazione con un modello di messaggio {#customizing-with-a-message-template}
 
@@ -140,6 +141,7 @@ Puoi aggiungere fino a due pulsanti al messaggio in-app.
 ## Personalizzazione di un tipo di messaggio di notifica locale {#customizing-a-local-notification-message-type}
 
 Le notifiche locali possono essere attivate solo da un'app in un momento particolare e in base a un evento. Avviseranno gli utenti che qualcosa sta accadendo nella loro app anche senza avere accesso a Internet.
+Per informazioni su come tenere traccia delle notifiche locali, consultate questa [pagina](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
 
 Per personalizzare una notifica locale:
 
