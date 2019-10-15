@@ -4,96 +4,100 @@ seo-title: API esterna
 description: API esterna
 seo-description: null
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: targeting-activity
-context-tags: Externalapi, workflow, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di targeting
+context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+source-git-commit: 597396beb733c8f0b739720e951d2a42f5645af6
 
 ---
 
 
-# External API {#external-api}
+# API esterna {#external-api}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/wf_externalAPI.png)
 
-The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via a **REST API** call.
+L' **[!UICONTROL External API]** attività porta i dati nel flusso di lavoro da un sistema **** esterno tramite una chiamata API **** REST.
 
-The REST endpoints can be a customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) instance or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+Gli endpoint REST possono essere un sistema di gestione dei clienti, un'istanza Runtime [I/O di](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe o un endpoint REST di Experience Cloud (Piattaforma dati, Target, Analytics, Campaign, ecc.).
+
+>[!NOTE]
+>
+>Per motivi di sicurezza, l'utilizzo di JSSP non è supportato in Campaign Standard. Se è necessario eseguire il codice, potete chiamare un'istanza runtime di I/O Adobe tramite l'attività API esterna.
 
 >[!CAUTION]
 >
->Questa funzionalità è attualmente in versione beta pubblica. È necessario accettare il contratto di utilizzo prima di iniziare a utilizzare l'attività API esterna. Poiché questa funzionalità beta pubblica non è stata ancora rilasciata commercialmente da Adobe, non è supportata da Adobe Client Care, può contenere errori e potrebbe non funzionare nonché altre funzionalità rilasciate.
+>Questa funzionalità è attualmente nella versione beta pubblica. Prima di iniziare a utilizzare l'attività API esterna, dovete accettare l'accordo di utilizzo. Nota: poiché questa funzionalità beta pubblica non è ancora stata rilasciata in commercio da Adobe, non è supportata da Adobe Client Care, potrebbe contenere errori e potrebbe non funzionare come altre funzionalità rilasciate.
 
-Le caratteristiche principali di questa attività sono:
+Le principali caratteristiche di questa attività sono:
 
-* Possibilità di trasmettere dati in un formato JSON a un endpoint REST API di terze parti
-* Possibilità di ricevere una risposta JSON, mapparla sulle tabelle di output e passare a altre attività del flusso di lavoro.
-* Gestione non riuscita con transizione in uscita in uscita
+* Possibilità di trasmettere dati in formato JSON a un endpoint API REST di terze parti
+* Possibilità di ricevere una risposta JSON indietro, mapparla alle tabelle di output e passare a valle ad altre attività del flusso di lavoro.
+* Gestione degli errori con una transizione specifica in uscita
 
-Per questa attività sono stati inseriti i seguenti controlli:
+Per questa attività sono stati istituiti i seguenti presidi:
 
-* Limite dimensione dati risposta http 5 MB
-* Timeout richiesta 60 secondi
-* I reindirizzamenti HTTP non sono consentiti
+* Limite dimensione dati risposta HTTP 5 MB
+* Timeout richiesta: 60 secondi
+* Reindirizzamenti HTTP non consentiti
 * Gli URL non HTTPS vengono rifiutati
-* " Accetta: application/json "headheader e" Content-Type: application/json» è consentita l'intestazione della risposta
+* "Accetta: header della richiesta application/json" e "Content-Type: l'intestazione della risposta application/json" è consentita
 
 >[!CAUTION]
 >
->Tieni presente che l'attività è destinata al recupero dei dati su vasta campagna (serie più recente di offerte, valutazioni più recenti e così via) non per il recupero di informazioni specifiche per ogni profilo, in quanto può causare grandi quantità di dati da trasferire. If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
+>Nota che l'attività è destinata al recupero di dati a livello di campagna (ultimi set di offerte, ultimi punteggi ecc.) non per il recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d'uso lo richiede, la raccomandazione consiste nell'utilizzare l'attività [Trasferisci file](../../automating/using/transfer-file.md) .
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-Drag and drop an **[!UICONTROL External API]** activity into your workflow and open the activity to start the configuration.
+Trascinate e rilasciate un' **[!UICONTROL External API]** attività nel flusso di lavoro e aprite l'attività per avviare la configurazione.
 
-### Mappatura in entrata
+### Mapping in entrata
 
-La mappatura in entrata è una tabella temporanea generata da una precedente attività in entrata che verrà visualizzata e inviata come JSON nell'interfaccia utente.
-In base a questa tabella temporanea, l'utente può apportare modifiche ai dati in ingresso.
+La mappatura in entrata è una tabella temporanea generata da un'attività in entrata precedente che verrà visualizzata e inviata come JSON nell'interfaccia utente.
+In base a questa tabella temporanea, l'utente può apportare modifiche ai dati in entrata.
 
 ![](assets/externalAPI-inbound.png)
 
-The **Inbound resource** dropdown lets you select the query activity that will create the temporary table.
+Il menu a discesa delle risorse **** in entrata consente di selezionare l'attività di query che creerà la tabella temporanea.
 
-The **Add count parameter** checkbox will a count value for each row coming from the temporary table. Questa casella di controllo è disponibile solo se l'attività in entrata genera una tabella temporanea.
+La casella di controllo **Aggiungi parametro** di conteggio fornirà un valore di conteggio per ogni riga proveniente dalla tabella temporanea. Questa casella di controllo è disponibile solo se l'attività in entrata genera una tabella temporanea.
 
-The **Inbound Columns** section allow the user to add any fields from the inbound transition table. Le colonne selezionate saranno le chiavi nell'oggetto dati. L'oggetto dati nel JSON sarà un elenco array contenente dati per le colonne selezionate da ogni riga della tabella di transizione in entrata.
+La sezione Colonne **** in entrata consente all'utente di aggiungere qualsiasi campo dalla tabella di transizione in entrata. Le colonne selezionate saranno le chiavi nell'oggetto dati. L'oggetto dati nel JSON sarà un elenco di array contenente i dati per le colonne selezionate da ogni riga della tabella di transizione in entrata.
 
-The **customize parameter** text box lets you add a valid JSON with additional data needed by the external API. Questi dati aggiuntivi saranno aggiunti all'oggetto params nel JSON generato.
+La casella di testo **Personalizza parametro** consente di aggiungere un JSON valido con dati aggiuntivi richiesti dall'API esterna. Questi dati aggiuntivi verranno aggiunti all'oggetto params nel JSON generato.
 
-### Mappatura in uscita
+### Mapping in uscita
 
-This tab lets you define the sample **JSON structure** returned by the API Call.
+Questa scheda consente di definire la struttura **** JSON di esempio restituita dalla chiamata API.
 
 ![](assets/externalAPI-outbound.png)
 
-The JSON structure pattern is: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+Il pattern di struttura JSON è: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
-The sample JSON definition must have the **following characteristics**:
+La definizione JSON di esempio deve avere le **seguenti caratteristiche**:
 
-* **data** è un nome di proprietà obbligatorio in JSON, il contenuto di "dati" è un array JSON.
-* **Gli elementi** Array devono contenere proprietà di primo livello (i livelli più dettagliati non sono supportati).
-   **I nomi delle proprietà** terminerebbero a diventare nomi di colonna per lo schema di output della tabella temporanea di output.
-* **La definizione del nome** della colonna si basa sul primo elemento dell'array "dati".
-Columns definition (add/remove) and the type value of the property can be edited in the **Column definition** tab.
+* **data** è un nome di proprietà obbligatorio nel JSON, il contenuto di "data" è un array JSON.
+* **Gli elementi** array devono contenere proprietà di primo livello (i livelli più profondi non sono supportati).
+   **I nomi** delle proprietà finirebbero per diventare nomi di colonna per lo schema di output della tabella temporanea di output.
+* **La definizione del nome** della colonna è basata sul primo elemento dell'array "data".
+La definizione delle colonne (aggiungere/rimuovere) e il valore del tipo della proprietà possono essere modificati nella scheda Definizione **** colonna.
 
-If the **parsing is validated** a message appears and invite you to customize the data mapping in the "Column definition" tab. In altri casi, viene visualizzato un messaggio di errore.
+Se l' **analisi viene convalidata** , viene visualizzato un messaggio e si invita a personalizzare la mappatura dei dati nella scheda "Definizione colonna". In altri casi, viene visualizzato un messaggio di errore.
 
 ### Esecuzione
 
-This tab lets you define the **HTTPS Endpoint** that will send data to ACS. If needed, you can enter authentication information in the fields below.
+Questa scheda consente di definire l'endpoint **** HTTPS che invierà i dati ad ACS. Se necessario, potete immettere le informazioni di autenticazione nei campi seguenti.
 ![](assets/externalAPI-execution.png)
 
 ### Proprietà
 
-This tab lets you control **general properties** on the external API activity like the displayed label in the UI. L'ID interno non è personalizzabile.
+Questa scheda consente di controllare le proprietà **** generali dell'attività API esterna, come l'etichetta visualizzata nell'interfaccia utente. L'ID interno non è personalizzabile.
 
 ![](assets/externalAPI-properties.png)
 
@@ -101,127 +105,127 @@ This tab lets you control **general properties** on the external API activity li
 
 >[!NOTE]
 >
->This tab appears when the **response data format** is completed and validated in Outbound Mapping tab.
+>Questa scheda viene visualizzata quando il formato **dei dati della** risposta viene completato e convalidato nella scheda Mappatura in uscita.
 
-The **Column definition** tab allows you to precisely specify the data structure of each column in order to import data that does not contain any errors and make it match the types that are already present in the Adobe Campaign database for future operations.
+La scheda Definizione **** colonna consente di specificare con precisione la struttura di dati di ogni colonna al fine di importare dati che non contengono errori e di farli corrispondere ai tipi già presenti nel database Adobe Campaign per le operazioni future.
 
 ![](assets/externalAPI-column.png)
 
-Ad esempio, è possibile modificare l'etichetta di una colonna, selezionandone il tipo (stringa, numero intero, data, ecc.)oppure specifica anche l'elaborazione degli errori.
+Ad esempio, è possibile modificare l'etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) oppure specificare l'elaborazione degli errori.
 
-For more information, refer to the [Load File](../../automating/using/load-file.md) section.
+Per ulteriori informazioni, consultare la sezione [Carica file](../../automating/using/load-file.md) .
 
 ### Transizione
 
-This tab lets you activate the **outbound transition** and its label. This specific transition is useful in case of **timeout** or if the payload exceed the **data size limit**.
+Questa scheda consente di attivare la transizione **in uscita** e la relativa etichetta. Questa transizione specifica è utile in caso di **timeout** o se il payload supera il limite **di dimensione** dei dati.
 
 ![](assets/externalAPI-transition.png)
 
 ### Opzioni di esecuzione
 
-Questa scheda è disponibile nella maggior parte delle attività del flusso di lavoro. For more information, consult the [Activity properties](../../automating/using/executing-a-workflow.md#activity-properties) section.
+Questa scheda è disponibile nella maggior parte delle attività del flusso di lavoro. Per ulteriori informazioni, consulta la sezione Proprietà [](../../automating/using/executing-a-workflow.md#activity-properties) attività.
 
 ![](assets/externalAPI-options.png)
 
 ## Risoluzione dei problemi
 
-Due tipi di messaggi di registro aggiunti a questa nuova attività del flusso di lavoro: informazioni ed errori. Possono aiutarti a risolvere eventuali problemi potenziali.
+Esistono due tipi di messaggi di registro aggiunti a questa nuova attività del flusso di lavoro: informazioni ed errori. Possono essere utili per risolvere eventuali problemi.
 
 ### Informazioni
 
-Questi messaggi di registro vengono utilizzati per registrare informazioni su punti di controllo utili durante l'esecuzione dell'attività del flusso di lavoro. In modo specifico, i seguenti messaggi di registro vengono utilizzati per registrare il primo tentativo anche un tentativo di tentativi (e motivo per cui non si verificano precedenti tentativi) per accedere all'API.
+Questi messaggi di registro vengono utilizzati per registrare informazioni su punti di controllo utili durante l'esecuzione dell'attività del flusso di lavoro. In modo specifico, i messaggi di registro seguenti vengono utilizzati per registrare il primo tentativo e il tentativo di effettuare un nuovo tentativo (motivo del primo tentativo non riuscito) di accedere all'API.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Message format<br /> </th> 
-   <th> Example<br /> </th> 
+   <th> Formato messaggio<br /> </th> 
+   <th> Esempio<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Richiamo dell'URL dell'API '% s '.</td> 
-   <td> <p>URL di richiamo APì https://example.com/api/v1/web-coupon?count=2'.</p></td> 
+   <td> Richiamo dell'URL API '%s'.</td> 
+   <td> <p>Richiamo dell'URL API 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> Aggiornamento dell'URL dell'API '% s ', tentativo precedente non riuscito ('% s ').</td> 
-   <td> <p>Aggiornamento dell'URL dell'APì https://example.com/api/v1/web-coupon?count=2', tentativo precedente non riuscito ('HTTP - 401 ').</p></td>
+   <td> Nuovo URL API '%s'. Tentativo precedente non riuscito ('%s').</td> 
+   <td> <p>Nuovo URL API 'https://example.com/api/v1/web-coupon?count=2', tentativo precedente non riuscito ('HTTP - 401').</p></td>
   </tr> 
   <tr> 
-   <td> Trasferimento del contenuto da '% s '(% s/% s).</td> 
-   <td> <p>Trasferimento del contenuto dà https://example.com/api/v1/web-coupon?count=2' (1234/1234).</p></td> 
+   <td> Trasferimento del contenuto da '%s' (%s / %s).</td> 
+   <td> <p>Trasferimento di contenuti da 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
   </tr>
  </tbody> 
 </table>
 
 ### Errori
 
-Questi messaggi di registro vengono utilizzati per registrare informazioni su condizioni di errore impreviste, che in ultima analisi possono causare errori nell'attività del flusso di lavoro.
+Questi messaggi di registro vengono utilizzati per registrare informazioni sulle condizioni di errore impreviste, che possono causare il fallimento dell'attività del flusso di lavoro.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Code - Message format<br /> </th> 
-   <th> Example<br /> </th> 
+   <th> Codice - Formato messaggio<br /> </th> 
+   <th> Esempio<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF -560250 - API request body exceeded limit (limit: ' % d ').</td> 
-   <td> <p>Limite superato del corpo della richiesta API (limite: ' 5242880 ').</p></td> 
+   <td> WKF-560250: limite superato per il corpo della richiesta API (limite: '%d').</td> 
+   <td> <p>Limite superato del corpo della richiesta API (limite: '5242880').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF -560239 - Limite di risposta API superato (limite: ' % d ').</td> 
-   <td> <p>Limite superamento della risposta API (limite: 5242880 ').</p></td> 
+   <td> WKF-560239: limite di risposta API superato (limite: '%d').</td> 
+   <td> <p>Limite di risposta API superato (limite: 5242880').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF -560245 - URL API non analizzato (errore: ' % d ').</td> 
-   <td> <p>Impossibile analizzare l'URL dell'API (errore: ' -2010 ').</p>
-   <p> Nota: Questo errore viene registrato quando l'URL API non riesce a rispettare le regole di convalida.</p></td>
+   <td> WKF-560245: impossibile analizzare l'URL API (errore: '%d').</td> 
+   <td> <p>Impossibile analizzare l'URL API (errore: '-2010').</p>
+   <p> Nota: Questo errore viene registrato quando l'URL API non supera le regole di convalida.</p></td>
   </tr> 
   <tr>
-   <td> WKF -560244: l'host dell'URL API non deve essere «localhost» o letterale indirizzo IP (host URL: ' % s ').</td> 
-   <td> <p>L'host dell'URL API non deve essere «localhost» o letterale indirizzo IP (host URL: ' localhost ').</p>
-    <p>L'host dell'URL API non deve essere «localhost» o letterale indirizzo IP (host URL: ' 192.168.0.5 ').</p>
-    <p>L'host dell'URL API non deve essere «localhost» o letterale indirizzo IP (host URL: ' [2001]').</p></td>
+   <td> WKF-560244: l'host dell'URL API non deve essere 'localhost' o letterale di indirizzo IP (host URL: '%s').</td> 
+   <td> <p>L'host dell'URL API non deve essere 'localhost' o letterale di indirizzo IP (host URL: 'localhost').</p>
+    <p>L'host dell'URL API non deve essere 'localhost' o letterale di indirizzo IP (host URL: '192.168.0.5').</p>
+    <p>L'host dell'URL API non deve essere 'localhost' o letterale di indirizzo IP (host URL: "[2001]").</p></td>
   </tr> 
   <tr> 
-   <td> WKF -560238 - URL API deve essere un URL protetto (https) (URL richiesto: ' % s ').</td> 
-   <td> <p>L'URL API deve essere un URL protetto (https) (URL richiesto: ' https://example.com/api/v1/web-coupon?count=2').</p></td> 
+   <td> WKF-560238 - L'URL API deve essere un URL protetto (https) (URL richiesto: '%s').</td> 
+   <td> <p>L'URL API deve essere un URL protetto (https) (URL richiesto: "https://example.com/api/v1/web-coupon?count=2').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF -560249 - Impossibile creare il codice JSON del corpo della richiesta. Error when adding '% s '.</td> 
-   <td> <p>Impossibile creare il codice JSON del corpo della richiesta. Error when adding'params '.</p>
-    <p>Impossibile creare il codice JSON del corpo della richiesta. Errore durante l'aggiunta dì datì.</p></td>
+   <td> WKF-560249: impossibile creare il corpo della richiesta JSON. Errore durante l'aggiunta di '%s'.</td> 
+   <td> <p>Impossibile creare il corpo della richiesta JSON. Errore durante l'aggiunta di 'params'.</p>
+    <p>Impossibile creare il corpo della richiesta JSON. Errore durante l'aggiunta di 'data'.</p></td>
   </tr> 
   <tr> 
-   <td> WKF -560246 - Chiave dell'intestazione HTTP non valida (chiave intestazione: ' % s ').</td> 
-   <td> <p>La chiave dell'intestazione HTTP è negativa (chiave intestazione: ' % s ').</p>
-   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
+   <td> WKF-560246 - Chiave di intestazione HTTP non valida (chiave di intestazione: '%s').</td> 
+   <td> <p>Chiave di intestazione HTTP non valida (chiave di intestazione: '%s').</p>
+   <p> Nota: Questo errore viene registrato quando la chiave di intestazione personalizzata non supera la convalida secondo <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
-   <td> WKF -560248: la chiave dell'intestazione HTTP non è consentita (chiave intestazione: ' % s ').</td> 
-   <td> <p>La chiave dell'intestazione HTTP non è consentita (chiave intestazione: ' Accetto ').</p></td> 
+   <td> WKF-560248 - Chiave di intestazione HTTP non consentita (chiave di intestazione: '%s').</td> 
+   <td> <p>La chiave di intestazione HTTP non è consentita (chiave di intestazione: 'Accetto').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF -560247 - Il valore dell'intestazione AHTTP è errato (valore dell'intestazione: ' % s ').</td> 
-   <td> <p>Il valore dell'intestazione HTTP è errato (valore dell'intestazione: ' % s '). </p>
-    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
+   <td> WKF-560247 - Il valore dell'intestazione AHTTP è errato (valore dell'intestazione: '%s').</td> 
+   <td> <p>Il valore dell'intestazione HTTP è errato (valore dell'intestazione: '%s'). </p>
+    <p>Nota: Questo errore viene registrato quando il valore dell'intestazione personalizzata non supera la convalida secondo <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
-   <td> WKF -560240 - payload JSON non ha proprietà valida '% s '.</td> 
-   <td> <p>Payload JSON non ha proprietà valida "blah".</p></td>
+   <td> WKF-560240 - Il payload JSON ha una proprietà non valida '%s'.</td> 
+   <td> <p>Il payload JSON ha una proprietà "blah" non valida.</p></td>
   </tr> 
   <tr>
-   <td> WKF -560241 - JSON non formattato o formato non valido.</td> 
-   <td> <p>JSON non formattato o formato non valido.</p>
-   <p>Nota: Questo messaggio si applica solo all'analisi del corpo di risposta dall'API esterna e viene registrato quando si cerca di verificare se il corpo della risposta è conforme al formato JSON mandatato da questa attività.</p></td>
+   <td> WKF-560241 - JSON non valido o formato inaccettabile.</td> 
+   <td> <p>JSON non valido o formato non valido.</p>
+   <p>Nota: Questo messaggio si applica solo all'analisi del corpo della risposta dall'API esterna e viene registrato quando si tenta di convalidare la conformità del corpo della risposta al formato JSON richiesto da questa attività.</p></td>
   </tr>
   <tr> 
-   <td> WKF -560246 - Attività non riuscita (motivo: ' % s ').</td> 
-   <td> <p>Quando l'attività non riesce a causa di risposta di errore HTTP 401 - Attività non riuscita (motivo: ' HTTP - 401 ')</p>
-        <p>Quando l'attività non riesce a causa di una chiamata interna non riuscita - Attività non riuscita (motivo: ' Irc - -nn ').</p>
-        <p>Quando l'attività non riesce a causa di un'intestazione Content-Type non valida. - Attività non riuscita (motivo: ' Content-Type - application/html ').</p></td> 
+   <td> WKF-560246 - Attività non riuscita (motivo: '%s').</td> 
+   <td> <p>Quando l'attività non riesce a causa di una risposta di errore HTTP 401 - Attività non riuscita (motivo: 'HTTP - 401')</p>
+        <p>Quando l'attività non riesce a causa di una chiamata interna non riuscita - Attività non riuscita (motivo: 'iRc - -Nn').</p>
+        <p>Quando l'attività non riesce a causa di un'intestazione Content-Type non valida. - Attività non riuscita (motivo: 'Content-Type - application/html').</p></td> 
   </tr>
  </tbody> 
 </table>
