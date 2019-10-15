@@ -14,18 +14,139 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: c1ffc4d5ab10cc2210b6d47466e556a1dcf9c722
 
 ---
 
 
 # Note sulla versione{#release-notes}
 
-Stai cercando una versione specifica di Adobe Campaign Standard?
+Tutte le versioni 2019, con le relative nuove funzioni e patch, sono elencate in questa pagina. Sono inclusi anche gli aggiornamenti del Pannello di controllo.
 
-Ogni versione include nuove funzioni e patch. Fate clic su una versione per visualizzarne il contenuto. Consulta la [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) per sapere quando avverrà la prossima release.
+Risorse aggiuntive:
 
-Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates.md) documentazione per Adobe Campaign Standard. Per una versione precedente, consulta le pagine seguenti: Note [sulla versione](../../rn/using/release-notes-2018.md)2018, Note [sulla versione](../../rn/using/release-notes-2017.md)2017, [2015-2016 - Note](../../rn/using/release-notes-2015-2016.md)sulla versione. Consultare anche l'elenco delle funzioni [obsolete e rimosse](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+* [Pianificazione rilascio campagna](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [Ultimi aggiornamenti della documentazione](../../rn/using/documentation-updates.md)
+* [Funzioni obsolete e rimosse](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [Pannello di controllo](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* Note sulla versione precedente: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
+
+## Rilascio 19.4 - ottobre 2019 {#release-19-4---october-2019}
+
+### Cosa c'è di nuovo? {#what-s-new-5}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Funzionalità<br /> </th> 
+   <th> Descrizione<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> California Consumer Privacy Act (CCPA)<br /> </td> 
+   <td> <p>CCPA è la nuova legge sulla privacy dello Stato californiano che armonizza e aggiorna i requisiti di protezione dei dati in vigore dal 1° gennaio 2020. CCPA si applica ai clienti di Adobe Campaign che detengono i dati per i soggetti dati residenti in California.</p>
+   <p>Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo colgendo l'opportunità di includere funzionalità aggiuntive per facilitare la disponibilità dell'APP:</p>
+   <ul>
+    <li>Diritto di accesso e Diritto di eliminazione: stiamo sfruttando le funzionalità aggiunte per il GDPR. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Ulteriori informazioni</a> </li>
+    <li><p>Quando si crea una richiesta di privacy, ora è possibile selezionare il tipo di regolamento: GDPR o CCPA.<p>
+      <p><strong>Nota</strong>: questo nuovo campo è obbligatorio. Se utilizzi l'API per la privacy di Campaign per le tue richieste di accesso ed eliminazione, dovrai includerla nel payload. Consultate la documentazione <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">sulle</a>API.</p></li>
+    <li>Alla risorsa Profili è stato aggiunto un campo di rifiuto <strong></strong> CCPA per consentire agli utenti di Adobe Campaign di verificare se un consumatore ha rinunciato alla vendita di Informazioni personali. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Ulteriori</a>informazioni.</li>
+  </ul>
+</td> 
+  </tr> 
+  <tr> 
+   <td> Integrazione di Microsoft Dynamics 365 (GA)<br /> </td> 
+   <td> 
+    <p>È ora disponibile l'integrazione tra Adobe Campaign Standard e Microsoft Dynamics 365. Potrai trasferire i tuoi record di contatti e entità personalizzati da Dynamics 365 a Campaign e recuperare i dati degli eventi e-mail da Campaign a Dynamics 365 per migliorare l'allineamento vendite/marketing.</p>
+    <p>Per configurare questa integrazione, consultate la documentazione <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html"></a> dettagliata.</p>
+  </td>
+  </tr> 
+ </tbody> 
+</table>
+
+### Miglioramenti {#improvements-3}
+
+* La finestra a comparsa di consenso per il reporting dinamico è stata aggiornata per includere l'integrazione di Adobe Campaign Standard e Microsoft Dynamics 365. Accettando i termini, i dati del profilo saranno inclusi quando si utilizzano l'integrazione Adobe Campaign Standard / Microsoft Dynamics 365 e i rapporti dinamici. [Leggi tutto](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* È stato risolto un problema che causava la visualizzazione di date di contatto errate durante la ricezione degli avvisi di consegna.
+* Quando un evento messaggio transazionale viene inviato con un parametro di contesto sconosciuto, Campaign ora restituisce un messaggio di errore "400" invece di "500". (CAMP-28632)
+* È stato aggiunto un nuovo segmento **Escludi prova** nel reporting dinamico. Questo segmento è ora selezionato per impostazione predefinita per filtrare i rapporti. [Leggi tutto](../../reporting/using/list-of-components-.md#segments)
+* L'opzione **Scadenza** messaggio è stata aggiunta alla notifica push. Consente di specificare una data di scadenza in cui il messaggio non verrà più inviato da Apple (APNS) o Android (FCM). [Leggi tutto](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* Sono stati apportati miglioramenti all'attività del file **** Load: i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all'errore che si verifica quando un file non viene caricato. La transizione in uscita generata durante l'attivazione dell'opzione **Mantieni i rifiuti in un file** è stata rinominata **Rifiuti**. [Leggi tutto](../../automating/using/load-file.md#load-files)
+* Sono stati aggiunti registri multilingue ai file di registro di invio per comprendere meglio gli errori di invio dovuti alle lingue mancanti nei file CSV caricati.
+
+### Miglioramenti della sicurezza {#security-enhancements-3}
+
+* È stato risolto un problema che causava la rimozione di tutti i dati tranne l'indirizzo e-mail presente nell'elenco di quarantena durante l'eliminazione delle informazioni di un profilo in quarantena tramite una richiesta di privacy.
+* È stata migliorata la protezione contro le iniezioni nelle intestazioni delle e-mail.
+* È stata migliorata la protezione contro gli attacchi SSRF in cui è possibile utilizzare espressioni xtk (HTML per e-mail, contenuto di testo e oggetto, SMS e contenuto di notifica push).
+
+### Miglioramenti di Email Designer {#email-designer-enhancements-4}
+
+* Quando si modifica un collegamento utilizzando la finestra di progettazione e-mail, è ora possibile utilizzare l'opzione **Sottolineato collegamento** . Inoltre, è stata aggiunta una proprietà **Target** con il valore predefinito impostato su **Nessuno**. [Leggi tutto](../../designing/using/styles.md#about-styling-links)
+* È stato risolto un problema di colore sui collegamenti in componenti di testo nel corpo di un messaggio e-mail. (CAMP-37330)
+* È stato risolto un problema che impediva la rimozione dei collegamenti associati durante l'eliminazione di un'immagine. (CAMP-37234)
+* È stato risolto un problema che impediva il salvataggio delle modifiche nelle impostazioni **Ordine** del contenuto dinamico in una condizione. (CAMP-36883)
+* È stato risolto un problema durante la ricerca delle pagine di destinazione. La ricerca è stata estesa dalle 50 create per prime a tutto il database. (CAMP-36839)
+* È stato risolto un problema che si verificava durante il salvataggio delle modifiche sul mittente dell’e-mail in **Da: Campo nome** . (CAMP-36606)
+* L’avviso di compatibilità dei componenti carosello è stato modificato per riflettere i client e-mail supportati.
+* È stato risolto un problema di visualizzazione su dispositivi mobili. L'attributo height ora è sempre impostato su "height: auto" quando si aggiunge o si carica una nuova immagine in un messaggio e-mail. (CAMP-35497)
+* È stato risolto un problema che lasciava gli stili e i tag meta nell’HTML quando si eliminava un frammento da un componente struttura. (CAMP-35390)
+* È stato risolto un problema relativo ai frammenti durante l'aggiornamento del contenuto riutilizzabile. (CAMP-35186)
+* È stato risolto un problema che si verificava durante la visualizzazione nelle e-mail del contenuto condizionale solo per dispositivi mobili. (CAMP-35155)
+* È stato corretto un problema a causa del quale venivano visualizzati in modo casuale gli spazi unificatori a larghezza zero. (CAMP-35116)
+* È stato risolto un problema relativo alla posizione dei pulsanti nella finestra di dialogo **Salva come frammento** .
+* È stato corretto un problema di anteprima quando si aggiungeva un tag HTML in un titolo immagine e testo alternativo.
+* È stato risolto un problema che si verificava durante la modifica, nella finestra di progettazione e-mail, dei collegamenti creati nelle e-mail dall'editor legacy.
+* È stato risolto un problema che lasciava nel contenuto dei tag di stile duplicati.
+* È stato risolto un problema relativo al formato della data durante l'inserimento di un campo di personalizzazione in un messaggio e-mail.
+* È stato corretto un problema di salvataggio quando si passava dalla modalità HTML al testo normale.
+* È stato risolto un problema che si verificava quando si faceva clic sull'opzione Blocca e sblocca che aggiungeva i valori dei margini nel pannello delle proprietà dello stile in linea.
+* È stato risolto un problema con la dimensione dell'anteprima mobile per migliorare il rendering.
+* È stato risolto un problema relativo alla dimensione dei pulsanti nei modelli e nei frammenti.
+* È stato risolto un problema relativo alla dimensione delle immagini quando queste venivano inserite in un componente pulsante.
+
+### Altre modifiche {#other-changes-3}
+
+* L'intervallo di tempo predefinito per il quale i dati vengono visualizzati nelle pagine KPI di consegna e nella pagina Generazione rapporti dinamica è stato allineato per evitare discrepanze nei risultati dei rapporti. (CAMP-35148)
+* È stato aggiunto un messaggio di errore nei registri alla scadenza del certificato dell'applicazione.
+* L'anteprima del calcolo del payload ora include la dimensione del campo personalizzato per evitare errori di notifica push. (CAMP-35303)
+* Il nome del file **** Rifiuta nell'attività del file **** Carica ora può essere personalizzato nello stesso modo in cui si trovava nell'attività di esportazione **** File.
+* Ora è possibile accedere a tutte le entità personalizzate che non sono collegate ad alcuna entità out-of-the-box tramite l'API.
+* Sono state migliorate le prestazioni del database su risorse di grandi dimensioni.
+* Le descrizioni di alcuni errori che si verificavano durante l'invio di messaggi SMS sono state rese più chiare. (CAMP-36558)
+* Viene ora visualizzato un messaggio di errore durante l'esecuzione dell'attività **Scheduler** di un flusso di lavoro connessa a se stessa, direttamente o attraverso diverse attività, in quanto ciò potrebbe causare il blocco del server del flusso di lavoro dell'istanza.
+* Sono stati apportati miglioramenti per risolvere eventuali problemi relativi ai messaggi transazionali: il collegamento "Dati" è stato rinominato "Ultimi eventi transazionali" nella schermata di configurazione dell’evento, e ora elenca gli eventi ricevuti ordinati in ordine decrescente. Inoltre, è stato creato un nuovo stato evento transazionale: "targetingFailed". Quando il modulo di messaggistica transazionale non riesce ad arricchire un collegamento utilizzato per il targeting dei messaggi, l'evento transazionale ora si troverà in questo nuovo stato (invece dello stato "routingFailed").
+* Sono stati apportati miglioramenti all'interfaccia quando si limita l'accesso alla pagina di destinazione a unità geografiche o organizzative specifiche. Lo scopo è avvertire che la pagina di destinazione può essere soggetta a condizioni di visibilità: la selezione di un'unità geografica e organizzativa al momento della creazione di una pagina di destinazione è ora obbligatoria. Un banner con informazioni correlate ora viene visualizzato una volta selezionata un'unità. Il messaggio di errore visualizzato durante la verifica della pagina di destinazione è stato reso più chiaro.
+* Nelle API Campaign Standard non è possibile modificare le chiavi personalizzate utilizzando un'operazione PATCH se il valore della chiave è diverso dalla chiave di origine o se si utilizza la chiave aziendale come URI anziché quella fornita da Adobe.
+* La lingua "Albanese - Macedonia" è stata aggiunta all'elenco a discesa della lingua preferita. (CAMP-35396)
+
+### Patch {#patches-4}
+
+* È stato risolto un problema che impediva l'ordinamento o la ricerca dei report pianificati.
+* È stato risolto un problema con le regole Triggers che causava la combinazione di regole AND e OR.
+* È stato risolto un problema che causava la visualizzazione della proprietà Mobile come Eliminato in Launch. (CAMP-35382)
+* È stato risolto un problema che impediva la sincronizzazione delle proprietà mobili di Adobe Launch in Adobe Campaign. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
+* È stato risolto un problema che causava un errore nei messaggi push transazionali quando gli eventi venivano arricchiti con i dati del profilo. (CAMP-34385)
+* È stato risolto un problema che impediva la sincronizzazione delle proprietà mobili su più ambienti. (CAMP-37060)
+* È stato risolto un problema che si verificava quando, in una notifica push, veniva selezionato un modello utilizzando una formula per la data del contatto. (CAMP-35300)
+* È stato risolto un problema che poteva causare l'arresto anomalo del servizio di invio dei messaggi. (CAMP-35287)
+* È stato risolto un problema relativo alle e-mail dirette ricorrenti, tutte definite con la prima data dell'evento. (CAMP-35139)
+* È stato risolto un problema con le risorse personalizzate **Profili** di nuova estensione che non erano disponibili per le query. (CAMP-35119)
+* È stata corretta la modalità **Ripara struttura** del database per le istanze con la configurazione Shaccing attivata. (CAMP-35118)
+* È stato risolto un problema che causava un errore del registro SQL durante l'aggiunta di dati aggregati nei log di trasmissione. (CAMP-35034)
+* È stato risolto un problema relativo alle transizioni durante la creazione di un'attività di **segmentazione** . (CAMP-35033)
+* È stato risolto un problema nell'attività **Query** che impediva alla funzione **Encryption_aescbcDecrypt** di decrittografare la funzione **Encryption_aescbcEncrypt** . (CAMP-34952)
+* È stato risolto un problema che poteva impedire la visualizzazione dei log **di** tracciamento nelle consegne. (CAMP-34855)
+* È stato risolto un problema che, quando si utilizzava una formula di data personalizzata per l'ottimizzazione dell'ora di **** invio, poteva impedire l'invio delle notifiche push a causa di errori con i dati aggiuntivi del flusso di lavoro. (CAMP-30336)
+* È stato risolto un problema che poteva impedire la pubblicazione di risorse personalizzate. (CAMP-37425)
+* È stato risolto un problema che impediva agli utenti Admin di modificare i pacchetti di importazione.  (CAMP-37176)
+* È stato risolto un problema nei flussi di lavoro che impediva l'invio di prove, se l'attività di consegna era connessa a un'attività di audience **di** lettura vuota. (CAMP-37164)
+* È stato risolto un problema che impediva l'importazione di risorse personalizzate in un nuovo ambiente. (CAMP-36506)
+* È stato risolto un problema nei rapporti sul clic con il pulsante destro del mouse che poteva determinare la visualizzazione delle percentuali da parte delle immagini (CAMP-36407)
+* È stato risolto un problema che si verificava durante il tentativo di esportazione di un campo di descrizione della consegna. (CAMP-35467)
+* È stato risolto un problema che poteva lasciare lo stato di una consegna come "Inizio in sospeso" anche se la consegna era terminata. (CAMP-35355)
+* È stato risolto un problema che impediva la visualizzazione dei registri del flusso di lavoro dopo l'attivazione e la disabilitazione dei registri SQL.
 
 ## Aggiornamento del Pannello di controllo - Agosto 2019 {#controlpanel-update---august-2019}
 
