@@ -2,83 +2,83 @@
 title: Risoluzione dei problemi
 seo-title: Risoluzione dei problemi
 description: Risoluzione dei problemi
-seo-description: Qui trovi domande comuni correlate alla generazione di rapporti dinamici.
-page-status-flag: never-activated
-uuid: a 84 a 18 bd -4 e 33-466 e-a 6 ce-d 7008 fe 12746
+seo-description: Qui trovi le domande più frequenti relative ai rapporti dinamici.
+page-status-flag: mai attivato
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: beneat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: reporting
-content-type: riferimento
-topic-tags: risoluzione dei problemi
-discoiquuid: bbb 41 c 38-12 c 1-4625-85 d 5-69627 e 2 f 4 b 39
+content-type: reference
+topic-tags: risoluzione
+discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
+source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
 
 ---
 
 
-# Troubleshooting{#troubleshooting}
+# Risoluzione dei problemi{#troubleshooting}
 
-In questa sezione potete trovare domande comuni correlate a rapporti dinamici.
+In questa sezione potete trovare domande comuni relative al reporting dinamico.
 
-## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows {#unique-open-clicks-no-match}
+## Per le aperture univoche e i clic univoci, il conteggio nella riga aggregata non corrisponde a quelli in singole righe {#unique-open-clicks-no-match}
 
 Questo è un comportamento previsto.
-Possiamo seguire questo esempio per spiegare questo comportamento.
+Per spiegare questo comportamento, possiamo prendere l'esempio seguente.
 
-Viene inviato un messaggio e-mail ai profili P 1 e P 2.
+Viene inviata un'e-mail ai profili P1 e P2.
 
-P 1 apre l'e-mail due volte il primo giorno e quindi la struttura ad albero il secondo giorno.
+P1 apre l'e-mail due volte il primo giorno e tre volte il secondo giorno.
 
-Mentre P 2 apre l'e-mail il primo giorno e non la riapre nei giorni seguenti.
+P2 apre invece l’e-mail una volta il primo giorno e non la riapre nei giorni successivi.
 Di seguito è riportata una rappresentazione visiva dell'interazione dei profili con l'e-mail inviata:
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Giorno</strong><br /> </th> 
-   <th align="center"> <strong>Aperture</strong><br /> </th> 
-   <th align="center"> <strong>Aperture univoche</strong><br /> </th> 
+   <th align="center"> <strong>Apre</strong><br /> </th> 
+   <th align="center"> <strong>Aperture</strong> univoche <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> Giorno 1<br /> </td> 
    <td align="center"> 2 + 1 = 3<br /> </td> 
    <td align="center"> 1 + 1 = 2<br /> </td> 
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> Giorno 2<br /> </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
   </tr>
  </tbody> 
 </table>
 
-To understand the overall number of unique opens, we need to sum up the row counts of **[!UICONTROL Unique Opens]** which gives us the value 3. Tuttavia, poiché l'e-mail è stata impostata come destinazione solo per 2 profili, la frequenza Open (Apri) dovrebbe mostrare 150%.
+Per capire il numero complessivo di aperture univoche, dobbiamo riassumere i conteggi delle righe **[!UICONTROL Unique Opens]** che ci danno il valore 3. Tuttavia, dal momento che l'e-mail è stata indirizzata solo a 2 profili, la percentuale di apertura dovrebbe essere del 150%.
 
-To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique Opens]** is maintained to be the number of unique broadlogs that were opened. In questo caso, anche se P 1 ha aperto l'e-mail il Giorno 1 e il Giorno 2, la sua univoca apertura sarà ancora 1.
+Per non ottenere una percentuale superiore a 100, la definizione di **[!UICONTROL Unique Opens]** viene mantenuta come il numero di log univoci aperti. In questo caso anche se P1 ha aperto l'e-mail il Giorno 1 e il Giorno 2, le sue aperture univoche saranno ancora 1.
 
-Ciò si tradurrà nella tabella seguente:
+Questo si tradurrà nella seguente tabella:
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Giorno</strong><br /> </th> 
-   <th align="center"> <strong>Aperture</strong><br /> </th> 
-   <th align="center"> <strong>Aperture univoche</strong><br /> </th> 
+   <th align="center"> <strong>Apre</strong><br /> </th> 
+   <th align="center"> <strong>Aperture</strong> univoche <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> Giorno 1<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> Giorno 2<br /> </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td> 
   </tr> 
@@ -87,35 +87,35 @@ Ciò si tradurrà nella tabella seguente:
 
 >[!NOTE]
 >
->I conteggi unici si basano su uno schizzo basato su HLL, che potrebbe causare lievi inesattezze a conteggio di grandi dimensioni.
+>I conteggi univoci si basano su uno schizzo basato su HLL. Ciò potrebbe causare lievi inesattezze nei conteggi più grandi.
 
-## Open counts do not match the Database count {#open-counts-no-match-database}
+## I conteggi aperti non corrispondono al conteggio del database {#open-counts-no-match-database}
 
-This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **[!UICONTROL Open]** action.
+Ciò può essere dovuto al fatto che, nel reporting dinamico, le euristica vengono utilizzate per tenere traccia delle aperture anche quando non è possibile monitorare l' **[!UICONTROL Open]** azione.
 
-For example, if a user has disabled images on their client and click on a link in the email, the **[!UICONTROL Open]** may not be tracked by the database but the **[!UICONTROL Click]** will.
+Ad esempio, se un utente ha disattivato le immagini sul proprio client e fa clic su un collegamento presente nell’e-mail, il database potrebbe non **[!UICONTROL Open]** tenerne traccia, ma **[!UICONTROL Click]** lo farà.
 
-Therefore, the **[!UICONTROL Open]** tracking logs counts may not have the same count in the database.
+Pertanto, i conteggi dei registri di **[!UICONTROL Open]** tracciamento potrebbero non avere lo stesso conteggio nel database.
 
-Such occurrences are added as **"an email click implies an email open"**.
+Tali occorrenze vengono aggiunte come **"un clic e-mail implica l’apertura di un’e-mail"**.
 
 >[!NOTE]
 >
->Dato che i conteggi unici sono basati su uno schizzo basato su HLL, possono essere riscontrate lievi incoerenze tra i conteggi.
+>Poiché i conteggi univoci si basano su uno sketch basato su HLL, è possibile riscontrare piccole incongruenze tra i conteggi.
 
-## Come vengono calcolati i calcoli periodici/transazionali?
+## Come vengono calcolati i conteggi delle consegne ricorrenti/transazionali?
 
-Quando si utilizzano consegne ricorrenti e transazionali, i conteggi saranno attribuiti sia alle consegne principali che secondarie.
+Quando si lavora con consegne ricorrenti e transazionali, i conteggi vengono attribuiti sia alle consegne principali che a quelle secondarie.
 
-We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
+Possiamo prendere l'esempio di una consegna ricorrente denominata **R1** impostata per essere eseguita ogni giorno al giorno 1 (RC1), al giorno 2 (RC2) e al giorno 3 (RC3).
 
-Supponiamo che solo una persona abbia aperto più volte tutte le consegne secondarie. In this case, the individual recurring child deliveries will show the **[!UICONTROL Open]** count as 1 for each.
+Supponiamo che solo una singola persona abbia aperto tutte le consegne di bambini più volte. In questo caso, le singole consegne figlio ricorrenti visualizzeranno il **[!UICONTROL Open]** conteggio come 1 per ciascuna.
 
-However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **[!UICONTROL Unique open]** as 1.
+Tuttavia, poiché la stessa persona ha fatto clic su tutte le consegne, anche la consegna ricorrente padre avrà **[!UICONTROL Unique open]** come 1.
 
-After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique counts** is changed from **Number of unique persons interacting with the delivery** to **Number of unique messages interacted**.
+Dopo la release di Adobe Campaign Standard 19.2.1, la definizione dei conteggi **** univoci viene cambiata da **Numero di persone univoche che interagiscono con la consegna** a **Numero di messaggi univoci interagiti**.
 
-Prima della versione standard di Adobe Campaign 19.2.1, i rapporti presentavano i seguenti elementi:
+Prima della versione Adobe Campaign Standard 19.2.1, i rapporti erano come segue:
 
 <table> 
  <thead> 
@@ -123,8 +123,8 @@ Prima della versione standard di Adobe Campaign 19.2.1, i rapporti presentavano 
    <th align="center"> <strong>Consegna</strong><br /> </th> 
    <th align="center"> <strong>Inviato</strong><br /> </th> 
    <th align="center"> <strong>Consegnato</strong><br /> </th>
-   <th align="center"> <strong>Aperture</strong><br /> </th> 
-   <th align="center"> <strong>Aperture univoche</strong><br /> </th>
+   <th align="center"> <strong>Apre</strong><br /> </th> 
+   <th align="center"> <strong>Aperture</strong> univoche <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -159,7 +159,7 @@ Prima della versione standard di Adobe Campaign 19.2.1, i rapporti presentavano 
  </tbody> 
 </table>
 
-Dopo la versione standard di Adobe Campaign Standard 19.2.1, i rapporti sono:
+Dopo la release di Adobe Campaign Standard 19.2.1, i rapporti sono simili ai seguenti:
 
 <table> 
  <thead> 
@@ -167,8 +167,8 @@ Dopo la versione standard di Adobe Campaign Standard 19.2.1, i rapporti sono:
    <th align="center"> <strong>Consegna</strong><br /> </th> 
    <th align="center"> <strong>Inviato</strong><br /> </th> 
    <th align="center"> <strong>Consegnato</strong><br /> </th>
-   <th align="center"> <strong>Aperture</strong><br /> </th> 
-   <th align="center"> <strong>Aperture univoche</strong><br /> </th>
+   <th align="center"> <strong>Apre</strong><br /> </th> 
+   <th align="center"> <strong>Aperture</strong> univoche <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -203,16 +203,26 @@ Dopo la versione standard di Adobe Campaign Standard 19.2.1, i rapporti sono:
  </tbody> 
 </table>
 
-## What is the colors' signification in my reports' table? {#reports-color-signification}
+## Qual è il significato dei colori nella tabella dei miei rapporti? {#reports-color-signification}
 
-I colori visualizzati sui rapporti vengono randomizzati e non possono essere personalizzati. Rappresentano una barra di avanzamento e sono visualizzate per evidenziare meglio il valore massimo raggiunto nei rapporti.
+I colori visualizzati nei rapporti sono randomizzati e non possono essere personalizzati. Rappresentano una barra di avanzamento e vengono visualizzati per evidenziare meglio il valore massimo raggiunto nei rapporti.
 
-Nell'esempio seguente, la cella ha lo stesso colore perché il suo valore è 100%.
+Nell'esempio seguente, la cella ha lo stesso colore, poiché il suo valore è 100%.
 
 ![](assets/troubleshooting_1.png)
 
-If you change the **Conditional formatting** to custom, when the value reaches the upper limit the cell will get greener. Tuttavia, se raggiunge il limite inferiore, viene redatta.
+Se si modifica il valore **[!UICONTROL Conditional formatting]** in personalizzato, quando il valore raggiunge il limite superiore la cella diventa più verde. Invece, se raggiunge il limite inferiore, diventa più rosso.
 
-For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
+Ad esempio, in questo caso, impostate il valore **[!UICONTROL Upper limit]** su 500 e **[!UICONTROL Lower limit**] su 0.
 
 ![](assets/troubleshooting_2.png)
+
+## Perché il valore N/D viene visualizzato nei miei rapporti?
+
+![](assets/troubleshooting_3.png)
+
+Il valore **N/D** può talvolta essere visualizzato nei rapporti dinamici. Questo può essere visualizzato per due motivi:
+
+* La consegna è stata eliminata ed è visualizzata qui come **N/D** per non causare discrepanze nei risultati.
+* Quando trascinate e rilasciate la **[!UICONTROL Transactional Delivery]** dimensione nei rapporti, il valore **N/D** potrebbe comparire come risultato. Ciò accade perché il report dinamico recupera ogni consegna anche se non sono transazionali.
+Questo può accadere anche quando trascina e rilascia la **[!UICONTROL Delivery]** dimensione nel report, ma in questo caso il valore **N/D** rappresenterà le consegne transazionali.
