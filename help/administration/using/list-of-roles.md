@@ -1,46 +1,46 @@
 ---
-title: Elenco dei ruoli
-seo-title: Elenco dei ruoli
-description: Elenco dei ruoli
-seo-description: Consultate l'elenco dei ruoli che potete assegnare ai vostri utenti.
-page-status-flag: never-activated
-uuid: 128 aaf 9 b -9 b 7 d -49 f 3-9 e 1 f -72 e 79 a 29 baa 0
+title: Elenco di ruoli
+seo-title: Elenco di ruoli
+description: Elenco di ruoli
+seo-description: Scopri l’elenco dei ruoli che puoi assegnare ai tuoi utenti.
+page-status-flag: mai attivato
+uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: riferimento
+content-type: reference
 topic-tags: utenti e sicurezza
-discoiquuid: ceaa 3 c 94-9 e 1 a -4271-b 443-b 00 b 4068929 f
-context-tags: ruolo, panoramica; ruolo, principale
+discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
+context-tags: ruolo,panoramica;ruolo,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
 
 ---
 
 
-# List of roles{#list-of-roles}
+# Elenco di ruoli{#list-of-roles}
 
-Per impostazione predefinita, Adobe Campaign offre un insieme di ruoli che consentono di definire le autorizzazioni unitarie assegnate a utenti e gruppi di utenti. Combinando le unità organizzative, i ruoli offrono agli utenti una vista filtrata dell'interfaccia e definiscono il loro accesso alle diverse funzioni. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+Per impostazione predefinita, Adobe Campaign offre un set di ruoli che consente di definire autorizzazioni unitarie assegnate a utenti e gruppi di utenti. Insieme alle unità organizzative, i ruoli forniscono agli utenti una visualizzazione filtrata dell'interfaccia e definiscono il loro accesso alle diverse funzioni. Per ulteriori informazioni, consultare la tabella [](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)Ruoli e autorizzazioni.
 
-![](assets/user_management_3.png)
+[![immagine](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
+I ruoli possono essere gestiti dal **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
 I diritti predefiniti sono:
 
-* **[!UICONTROL Administration]**: Amministrazione generica destra.
-* **[!UICONTROL Datamodel]**: Destra per eseguire pubblicazioni e creare risorse personalizzate.
-* **[!UICONTROL Export]**: Destra per esportare i dati.
-* **[!UICONTROL Generic import]**: Destra per eseguire un'importazione generica sui dati. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]**: Destra per creare, modificare, avviare la preparazione di distribuzione e inviare prove.
-* **[!UICONTROL Start deliveries]**: Destra per convalidare le consegne precedentemente preparate.
-* **[!UICONTROL Workflow]**: Destra per utilizzare i flussi di lavoro.
+* **[!UICONTROL Administration]**: Diritto di amministrazione generico.
+* **[!UICONTROL Datamodel]**: Diritto di eseguire pubblicazioni e creare risorse personalizzate.
+* **[!UICONTROL Export]**: Diritto di esportare i dati.
+* **[!UICONTROL Generic import]**: Diritto di eseguire un'importazione generica sui dati. Affinché questo funzioni, è necessario collegare il **[!UICONTROL Generic import]** ruolo al **[!UICONTROL Workflow]** ruolo.
+* **[!UICONTROL Prepare deliveries]**: Diritto di creare, modificare, preparare ed eliminare consegne. Gli utenti con questo ruolo possono preparare la consegna ma non inviarla.
+* **[!UICONTROL Start deliveries]**: Diritto di creare, modificare, preparare, inviare ed eliminare consegne.
+* **[!UICONTROL Workflow]**: Diritto di creare, modificare, avviare ed eliminare flussi di lavoro. Gli utenti con questo ruolo non possono inviare una consegna nemmeno in un flusso di lavoro.
 
 >[!CAUTION]
 >
->Il ruolo DELIVERABILITY è riservato solo agli amministratori di Adobe. Non deve essere assegnato a un utente.
+>I **[!UICONTROL Deliverability]** ruoli, **[!UICONTROL Command execution]**, **[!UICONTROL Export]****[!UICONTROL File access]** e **[!UICONTROL Message Center push]** sono esclusivamente per gli amministratori Adobe a uso interno. Non devono essere concessi a un utente.
 
 **Argomenti correlati:**
 
