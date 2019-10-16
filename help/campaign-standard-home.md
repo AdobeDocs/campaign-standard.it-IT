@@ -5,7 +5,7 @@ solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
+source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
 
 ## Novità
 
-* **[Progettazione](channels/using/event-transactional-messages.md)**<br/>e-mail Utilizzare la finestra di progettazione e-mail nei messaggi transazionali.
+* **[Gestione](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>della privacy Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
 
-* **[Segmenti](reporting/using/creating-a-report-workflow-segment.md)**<br/>del flusso di lavoro Crea un rapporto basato sui segmenti del flusso di lavoro.
+* **[Best practice](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>per la distribuzione Ulteriori informazioni sulle best practice relative alla progettazione e all'invio dei contenuti.
 
-* **[Nuovi casi](automating/using/workflow-created-query-with-complement.md)**<br/>di utilizzo del flusso di lavoro Leggi i casi di utilizzo della query del flusso di lavoro.
+* **[Progettazione](designing/using/designing-content-in-adobe-campaign.md)**<br/>e-mail Consulta la documentazione riorganizzata della finestra di progettazione e-mail.
 
-* **[Carica attività](automating/using/load-file.md)**<br/>file Utilizza l’attività Carica file per inviare un messaggio e-mail contenente dati aggiuntivi.
+* **[Pagine](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>di destinazione Ulteriori informazioni sulla configurazione di una pagina di destinazione.
 
 [Fai clic qui per ulteriori aggiornamenti](rn/using/documentation-updates.md)
 
