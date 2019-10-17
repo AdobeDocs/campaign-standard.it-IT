@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
+source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
 
 ---
 
@@ -44,6 +44,8 @@ La guida introduttiva al GDPR è stata migliorata e arricchita. È ora una docum
 È stato aggiunto un nuovo grafico che presenta il processo di pubblicazione dei messaggi transazionali. [Leggi tutto](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
 La guida introduttiva sulle procedure ottimali per la distribuzione è stata aggiornata. [Leggi tutto](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+È stata aggiunta una nuova sezione. Fornisce una panoramica dei diversi metodi che consentono di arricchire il database di Campaign Standard. [Leggi tutto](../../start/using/enriching-campaign-database.md)
 
 ## Aggiornamenti della documentazione - Ottobre 2019 {#doc-updates-october-2019}
 
