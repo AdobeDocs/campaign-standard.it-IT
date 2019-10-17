@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: utente finale
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 9512ddb0b23b862b1a9b0ca5ee6e51436011bf66
+source-git-commit: ff0f9f46b0badbcd9a3b8febb49f8d76d949af6a
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: 9512ddb0b23b862b1a9b0ca5ee6e51436011bf66
       + [Contenuti dinamici e personalizzati](start/using/dynamic-and-personalized-content.md)
       + [Tracciamento, monitoraggio e reporting](start/using/tracking--monitoring-and-reporting.md)
       + [Integrazione con le soluzioni Adobe](start/using/integrating-with-adobe-solutions.md)
+      + [Database delle campagne di arricchimento](start/using/enriching-campaign-database.md)
    + Rilevamento dell'interfaccia {#discovering-the-interface}
       + [Informazioni sull'interfaccia](start/using/about-the-interface.md)
       + [Descrizione interfaccia](start/using/interface-description.md)
