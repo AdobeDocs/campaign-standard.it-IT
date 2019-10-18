@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a206521e458620c7b452f403353fec482fe18dee
+source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
 
 ---
 
@@ -49,7 +49,7 @@ Risorse aggiuntive:
    <p>Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo colgendo l'opportunità di includere funzionalità aggiuntive per facilitare la disponibilità dell'APP:</p>
    <ul>
     <li>Diritto di accesso e Diritto di eliminazione: stiamo sfruttando le funzionalità aggiunte per il GDPR. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Ulteriori informazioni</a> </li>
-    <li><p>Durante la creazione di una richiesta per la privacy, il tipo di regolamento (GDPR o CCPA) è stato aggiunto al Servizio di base per la privacy. Questo metodo è quello da utilizzare per tutte le richieste di accesso ed eliminazione. L'utilizzo dell'API e dell'interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto. Tuttavia, se devi ancora utilizzare questi metodi nella versione 19.4, il tipo di regolamento è stato aggiunto nell'interfaccia e nell'API di Campaign ed è obbligatorio. Per l'interfaccia, il valore predefinito sarà impostato su GDPR. Per l'API, dovrete includere questo campo nel payload. Consultate la documentazione <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">sulle</a>API.</p></li>
+    <li><p>Durante la creazione di una richiesta per la privacy, il tipo di regolamento (GDPR o CCPA) è stato aggiunto al Servizio di base per la privacy. Questo metodo è quello da utilizzare per tutte le richieste di accesso ed eliminazione. L'utilizzo dell'API e dell'interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto.  Consultate l'articolo <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Funzioni</a>obsolete e rimosse.</p></li>
     <li>Alla risorsa Profili è stato aggiunto un campo di rifiuto <strong></strong> CCPA per consentire agli utenti di Adobe Campaign di verificare se un consumatore ha rinunciato alla vendita di Informazioni personali. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Ulteriori</a>informazioni.</li>
   </ul>
     <p>Fate riferimento al <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">video</a>dimostrativo.</p>
