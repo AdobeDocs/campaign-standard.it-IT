@@ -14,7 +14,7 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign consente di scambiare e condividere audience/segmenti con le dive
 L'integrazione supporta due tipi di Adobe Experience Cloud ID:
 
 * **ID** visitatore: questo tipo di ID consente di riconciliare i visitatori di Adobe Experience Cloud con i profili di Adobe Campaign.
-* **ID** dichiarato: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con i profili presenti nel database Adobe Campaign. Questa integrazione supporta ID dichiarati regolari, ID dichiarati con hash e ID dichiarati crittografati. Per **[!UICONTROL Declared ID]** la validità, fare riferimento a questa [pagina](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
+* **ID** dichiarato: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con i profili presenti nel database Adobe Campaign. Questa integrazione supporta ID dichiarati regolari, ID dichiarati con hash e ID dichiarati crittografati. Per ulteriori informazioni sulla **[!UICONTROL Declared ID]** validità, fare riferimento a questa [pagina](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
 
    La cifratura consente di condividere dati cifrati in origini dati (ad esempio PII) utilizzando l'ID dichiarato specificando l'algoritmo di cifratura.
 
