@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
 
 ---
 
@@ -26,12 +26,12 @@ Potete creare un messaggio e-mail che inizia da nuovo:
 
 * Potete creare un’e-mail da un quadro vuoto aggiungendo facilmente la struttura e i componenti di contenuto e personalizzarne il contenuto per inviarne rapidamente la distribuzione. È inoltre possibile gestire completamente gli elementi di stile. Per ulteriori informazioni, [inizia rapidamente](../../designing/using/quick-start.md#from-scratch-email) o consulta la documentazione [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
 
-* Per creare un’e-mail da modelli predefiniti, selezionate un modello e create il nuovo contenuto da qui. [Ulteriori informazioni](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)
+* Per creare un’e-mail da modelli predefiniti, selezionate un modello e create il nuovo contenuto da qui. [Ulteriori informazioni](quick-start.md#building-content-from-an-out-of-the-box-template)
 
 Potete anche creare un’e-mail con contenuto esistente:
 
-* Potete convertire un contenuto HTML esistente (creato esternamente o nell’editor precedente). [Ulteriori informazioni](../../designing/using/quick-start.md#converting-an-html-content)
-* Potete importare immediatamente un contenuto HTML esistente in modalità compatibilità. [Ulteriori informazioni](../../designing/using/quick-start.md#compatibility-mode)
+* Potete convertire un contenuto HTML esistente (creato esternamente o nell’editor precedente). [Ulteriori informazioni](quick-start.md#converting-an-html-content)
+* Potete importare immediatamente un contenuto HTML esistente in modalità compatibilità. [Ulteriori informazioni](quick-start.md#compatibility-mode)
 
 ## Senza contenuto esistente {#without-existing-content}
 
