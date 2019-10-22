@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: utente finale
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
+source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
 
 ---
 
@@ -136,7 +136,7 @@ source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
       + [Gestione dei profili di test e invio delle prove](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [Verifica dell’oggetto di un messaggio e-mail](sending/using/testing-subject-line-email.md)
       + [Rendering e-mail](sending/using/email-rendering.md)
-   + Pianificazione dei messaggi {#sheduling-messages}
+   + Pianificazione dei messaggi {#scheduling-messages}
       + [Informazioni sulla pianificazione dei messaggi](sending/using/about-scheduling-messages.md)
       + [Ottimizzazione del tempo di invio](sending/using/optimizing-the-sending-time.md)
       + [Invio di messaggi al fuso orario del destinatario](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
