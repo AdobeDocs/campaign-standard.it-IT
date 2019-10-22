@@ -14,7 +14,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consulta questa [tabella](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). Se due componenti non sono compatibili, nella cella viene visualizzato il valore **Nessuno**.
 
-![](assets/dynamic_report_compatibility.png)
+[![immagine](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 ## Dimensioni {#dimensions}
 
@@ -50,7 +50,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
    <td> Città registrata nel profilo del destinatario.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Paese<br /> </td> 
+   <td> Paese/regione<br /> </td> 
    <td> Paese registrato nel profilo del destinatario.<br /> </td> 
   </tr> 
   <tr> 
