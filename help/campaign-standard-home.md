@@ -4,7 +4,7 @@ seo-title: Documentazione di Adobe Campaign Standard
 solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
@@ -16,13 +16,17 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ## Novità
 
-* **[Gestione](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>della privacy Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
+* **[Gestione della privacy](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)**<br/>
+Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
 
-* **[Best practice](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>per la distribuzione Ulteriori informazioni sulle best practice relative alla progettazione e all'invio dei contenuti.
+* **[Best practice per la distribuzione di contenuti](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)**<br/>
+Ulteriori informazioni sulle best practice relative alla progettazione e all'invio dei contenuti.
 
-* **[Progettazione](designing/using/designing-content-in-adobe-campaign.md)**<br/>e-mail Consulta la documentazione riorganizzata della finestra di progettazione e-mail.
+* **[Finestra di progettazione e-mail](designing/using/designing-content-in-adobe-campaign.md)**<br/>
+Consulta la documentazione riorganizzata della finestra di progettazione e-mail.
 
-* **[Pagine](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>di destinazione Ulteriori informazioni sulla configurazione di una pagina di destinazione.
+* **[Pagine di destinazione](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+Ulteriori informazioni sulla configurazione di una pagina di destinazione.
 
 [Fai clic qui per ulteriori aggiornamenti](rn/using/documentation-updates.md)
 
@@ -37,17 +41,18 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <div>
     <a href="administration/using/about-access-management.md"><strong>Ruoli e gruppi di protezione</strong></a>
     </div>
-    <em></em>Scopri come definire autorizzazioni e assegnare ruoli agli utenti di Campaign.
+    <em>Scopri come definire autorizzazioni e assegnare ruoli agli utenti di Campaign.</em>
     <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="Designer" src="start/using/assets/design.png" />
+      <img alt="Finestra di progettazione e-mail" src="start/using/assets/design.png" />
     </a>
     <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Progettare un'e-mail</strong></a>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Progettazione di un'e-mail</strong></a>
     </div>
-    <em>Scopri come utilizzare il progettista di e-mail per creare e-mail</em>reattive e personalizzate <br>
+    <em>Scopri come utilizzare la finestra di progettazione e-mail per creare e-mail dinamiche e personalizzate</em>
+    <br>
   </td>
   <td valign="top">
        <img alt="Sviluppatori" src="start/using/assets/dev.png" />
@@ -55,7 +60,7 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <strong>Risorse per sviluppatori</strong>
     </div>
     <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">API di Adobe Campaign</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
+    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Trigger di Adobe Experience Cloud</a></em></p>
     <br>
   </td>
 </tr>
@@ -66,10 +71,10 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 * [Note sulla versione](rn/using/release-notes.md)
 
-* [Pannello di controllo](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Pannello di controllo Campaign](https://helpx.adobe.com/it/campaign/kb/control-panel.html)
 
-* [Video introduttivi](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [Guida alla pianificazione della versione](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [Guida alla pianificazione della versione](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html)
 
-* [Funzioni obsolete e rimosse](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
