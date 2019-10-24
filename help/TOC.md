@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: utente finale
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
+source-git-commit: cceab9f275a0e40804c548d127c54030b75b7cbc
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
 # Guida di Adobe Campaign Standard {#using}
 
 + [Documentazione del prodotto](campaign-standard-home.md)
-+ Note sulla versione {#release-notes}
++ Release Notes {#release-notes}
    + [Note sulla versione](rn/using/release-notes.md)
    + [Note sulla versione 2018](rn/using/release-notes-2018.md)
    + [Note sulla versione 2017](rn/using/release-notes-2017.md)
@@ -25,7 +25,6 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Contenuti dinamici e personalizzati](start/using/dynamic-and-personalized-content.md)
       + [Tracciamento, monitoraggio e reporting](start/using/tracking--monitoring-and-reporting.md)
       + [Integrazione con le soluzioni Adobe](start/using/integrating-with-adobe-solutions.md)
-      + [Database delle campagne di arricchimento](start/using/enriching-campaign-database.md)
    + Rilevamento dell'interfaccia {#discovering-the-interface}
       + [Informazioni sull'interfaccia](start/using/about-the-interface.md)
       + [Descrizione interfaccia](start/using/interface-description.md)
@@ -42,7 +41,7 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Utilizzo di un modello](start/using/using-a-template.md)
    + Esercitazioni {#tutorials}
       + [Guide dettagliate](start/using/step-by-step-guides.md)
-      + [Video introduttivi](start/using/how-to-videos.md)
+      + [Video tutorial](start/using/how-to-videos.md)
 + Profili e audience {#profiles-and-audiences}
    + [Informazioni su profili e audience](audiences/using/about-profiles-and-audiences.md)
    + Gestione dei profili {#managing-profiles}
