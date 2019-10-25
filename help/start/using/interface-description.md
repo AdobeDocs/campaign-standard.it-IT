@@ -14,7 +14,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -57,7 +57,7 @@ I principi di navigazione sono:
 
 * Il **[!UICONTROL Adobe Campaign]** logo nell’angolo in alto a sinistra della pagina consente di accedere alle funzioni e alle configurazioni avanzate. I menu dipendono dal profilo e dalle autorizzazioni.
 
-   Il menu avanzato è presentato nella sezione [Menu](../../start/using/interface-description.md#advanced-menu) Avanzato.
+   Il menu avanzato è presentato nella sezione [Menu](#advanced-menu) Avanzato.
 
 * Il **[!UICONTROL Home]** collegamento consente di visualizzare la home page di Adobe Campaign.
 * I **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]****[!UICONTROL Audiences]** e **[!UICONTROL Reports]** i collegamenti consentono di accedere alle viste collegate a tali funzionalità.
