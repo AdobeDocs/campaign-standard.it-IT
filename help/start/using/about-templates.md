@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -60,9 +60,9 @@ I modelli di contenuto HTML sono accessibili dalla schermata **[!UICONTROL Resou
 
 I modelli di contenuto forniti sono di sola lettura. Per modificarne uno, dovete prima duplicare il modello desiderato.
 
-È possibile creare nuovi modelli o frammenti e definire contenuti personalizzati. Per ulteriori informazioni, consultate [Creazione di un modello](../../start/using/about-templates.md#creating-a-content-template) di contenuto e [Creazione di un frammento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)di contenuto.
+È possibile creare nuovi modelli o frammenti e definire contenuti personalizzati. Per ulteriori informazioni, consultate [Creazione di un modello](#creating-a-content-template) di contenuto e [Creazione di un frammento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)di contenuto.
 
-Quando si modifica il contenuto con Designer e-mail, è anche possibile creare modelli di contenuto salvando il contenuto come frammento o modello. Per ulteriori informazioni, consultate [Salvataggio di contenuti come modelli](../../start/using/about-templates.md#saving-content-as-template) e [Salvataggio di contenuti come frammenti](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+Quando si modifica il contenuto con Designer e-mail, è anche possibile creare modelli di contenuto salvando il contenuto come frammento o modello. Per ulteriori informazioni, consultate [Salvataggio di contenuti come modelli](#saving-content-as-template) e [Salvataggio di contenuti come frammenti](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 ### Modelli per contenuti e-mail forniti con i prodotti {#email-content-templates}
 
@@ -77,7 +77,7 @@ I modelli di contenuto e-mail forniti con il prodotto includono diciotto layout 
 * Scoprite come personalizzare i modelli di contenuto [in questo video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
 * Per ulteriori informazioni sulla modifica dei contenuti, consultate [Informazioni sulla progettazione](../../designing/using/overview.md)dei contenuti e-mail.
 
-### Creazione di un modello di contenuto {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 Potete creare modelli di contenuto personalizzati da usare il maggior numero di volte necessario.
 
