@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ Scopri come gestire l’edizione del contenuto delle e-mail. Designer e-mail con
 
 ### Modelli di contenuto {#content-templates}
 
-È possibile gestire il contenuto HTML che verrà offerto nella **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/overview.md) . I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli 'Feather' hanno margini, mentre i modelli 'Astro' non ne hanno uno. Per ulteriori informazioni, consulta Modelli [di](../../designing/using/using-reusable-content.md#content-templates)contenuto.
+È possibile gestire il contenuto HTML che verrà offerto nella **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/overview.md) . I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli 'Feather' hanno margini, mentre i modelli 'Astro' non ne hanno uno. Per ulteriori informazioni, consulta Modelli [di](#content-templates)contenuto.
 
 ![](assets/template_content.png)
 
@@ -93,7 +93,7 @@ Quando modificate un'e-mail con Designer e-mail, potete salvare direttamente il 
 
 È ora possibile creare un modello e-mail con Designer e-mail. Utilizzate i componenti di contenuto per riflettere le diverse sezioni dell’e-mail e regolate le impostazioni in modo da avvicinarli il più possibile alla newsletter originale. Infine, inserire i frammenti appena creati.
 
-1. Utilizzando e-mail Designer, create un modello. Per ulteriori informazioni, consulta Modelli [di](../../designing/using/using-reusable-content.md#content-templates)contenuto.
+1. Utilizzando e-mail Designer, create un modello. Per ulteriori informazioni, consulta Modelli [di](#content-templates)contenuto.
 1. Inserite diversi componenti struttura nel modello, corrispondenti all’intestazione, al piè di pagina e al corpo dell’e-mail. Per ulteriori informazioni sull'aggiunta di componenti struttura, vedere [Modifica della struttura delle e-mail con Progettazione](../../designing/using/designing-from-scratch.md#defining-the-email-structure)e-mail.
 1. Inserite tutti i componenti di contenuto necessari per creare il corpo della newsletter. Questo sarà il contenuto modificabile del messaggio e-mail che verrà aggiornato ogni mese.
 
@@ -134,8 +134,8 @@ Sono disponibili nell’interfaccia in **Risorse** &gt; Frammenti di **contenuto
 
 Per utilizzare al meglio i frammenti in Designer e-mail:
 
-* Creare frammenti personalizzati. Consultate [Creazione di un frammento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) di contenuto e [Salvataggio del contenuto come frammento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
-* Utilizzateli il numero di volte necessario nelle e-mail. Consultate [Inserimento di elementi in un messaggio e-mail](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email).
+* Creare frammenti personalizzati. Consultate [Creazione di un frammento](#creating-a-content-fragment) di contenuto e [Salvataggio del contenuto come frammento](#saving-content-as-a-fragment).
+* Utilizzateli il numero di volte necessario nelle e-mail. Consultate [Inserimento di elementi in un messaggio e-mail](#inserting-elements-into-an-email).
 * Quando si modifica un frammento, le modifiche vengono sincronizzate: vengono propagati automaticamente a tutte le e-mail (purché non siano ancora state preparate o inviate) contenenti tale frammento.
 
 Se aggiunti a un messaggio e-mail, per impostazione predefinita i frammenti sono bloccati. Se si desidera modificare un frammento per un messaggio e-mail specifico, è possibile interrompere la sincronizzazione con il frammento originale sbloccandolo nel messaggio e-mail in cui è utilizzato. Le modifiche non verranno più sincronizzate.
@@ -150,7 +150,7 @@ Il frammento diventa un componente standalone che non è più collegato al framm
 
 Per definire il contenuto del messaggio e-mail, potete aggiungere elementi di contenuto nei componenti struttura precedentemente inseriti. Consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
 
-1. Per accedere agli elementi di contenuto, fate clic sull'icona **+** a sinistra. Selezionare [Frammenti](../../designing/using/using-reusable-content.md#about-fragments) o componenti [](../../designing/using/designing-from-scratch.md#about-content-components)contenuto.
+1. Per accedere agli elementi di contenuto, fate clic sull'icona **+** a sinistra. Selezionare [Frammenti](#about-fragments) o componenti [](../../designing/using/designing-from-scratch.md#about-content-components)contenuto.
 1. Se si conosce già l'etichetta o parte dell'etichetta del frammento da aggiungere, è possibile cercarlo.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -167,7 +167,7 @@ Per definire il contenuto del messaggio e-mail, potete aggiungere elementi di co
 
    >[!NOTE]
    >
-   >I frammenti vengono bloccati per impostazione predefinita quando vengono aggiunti a un messaggio e-mail. È possibile interrompere la sincronizzazione con il frammento originale se si desidera modificare il frammento per un messaggio e-mail specifico o apportare le modifiche direttamente nel frammento. Vedere [Informazioni sui frammenti](../../designing/using/using-reusable-content.md#about-fragments).
+   >I frammenti vengono bloccati per impostazione predefinita quando vengono aggiunti a un messaggio e-mail. È possibile interrompere la sincronizzazione con il frammento originale se si desidera modificare il frammento per un messaggio e-mail specifico o apportare le modifiche direttamente nel frammento. Vedere [Informazioni sui frammenti](#about-fragments).
 
 1. Ripetete questa procedura per tutti gli elementi da aggiungere all’e-mail.
 1. Salva l’e-mail.
@@ -176,7 +176,7 @@ Ora che la struttura delle e-mail è compilata, potete modificare lo stile di og
 
 >[!NOTE]
 >
->Se un frammento viene modificato, le modifiche vengono propagate automaticamente nelle e-mail in cui è utilizzato. Per ulteriori informazioni, vedere [Informazioni sui frammenti](../../designing/using/using-reusable-content.md#about-fragments).
+>Se un frammento viene modificato, le modifiche vengono propagate automaticamente nelle e-mail in cui è utilizzato. Per ulteriori informazioni, vedere [Informazioni sui frammenti](#about-fragments).
 
 ### Creazione di un frammento di contenuto {#creating-a-content-fragment}
 
@@ -213,7 +213,7 @@ Questo frammento può essere utilizzato in qualsiasi e-mail creata con Designer 
 
 >[!NOTE]
 >
->Non è possibile inserire campi di personalizzazione all'interno di un frammento a meno che non siano utilizzati in un messaggio e-mail e sbloccati. Vedere [Informazioni sui frammenti](../../designing/using/using-reusable-content.md#about-fragments).
+>Non è possibile inserire campi di personalizzazione all'interno di un frammento a meno che non siano utilizzati in un messaggio e-mail e sbloccati. Vedere [Informazioni sui frammenti](#about-fragments).
 
 ### Salvataggio del contenuto come frammento {#saving-content-as-a-fragment}
 
@@ -275,7 +275,7 @@ Utilizzando e-mail Designer, creare un frammento per ciascuna sezione riutilizza
 
 A questo scopo, effettuate le seguenti operazioni:
 
-1. In Adobe Campaign, vai a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** e crea un frammento per la tua intestazione. Per ulteriori informazioni, vedere [Creazione di un frammento](../../designing/using/using-reusable-content.md#creating-a-content-fragment)di contenuto.
+1. In Adobe Campaign, vai a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** e crea un frammento per la tua intestazione. Per ulteriori informazioni, vedere [Creazione di un frammento](#creating-a-content-fragment)di contenuto.
 1. Aggiungere al frammento tutti i componenti di struttura necessari.
 
 ![](assets/des_loading_compatible_fragment_1.png)
