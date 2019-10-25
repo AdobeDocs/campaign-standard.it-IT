@@ -1,72 +1,72 @@
 ---
-title: Monitoraggio delle iscrizioni
-seo-title: Monitoraggio delle iscrizioni
-description: Monitoraggio delle iscrizioni
-seo-description: Scoprite come tenere traccia dei sottoscrittori e misurare il successo dei servizi tramite dashboard e rapporti.
-page-status-flag: never-activated
-uuid: b 0 d 8 eb 80-fa 51-4518-a 5 e 6-56 de 4046 f 6 ff
+title: Monitoraggio delle sottoscrizioni
+seo-title: Monitoraggio delle sottoscrizioni
+description: Monitoraggio delle sottoscrizioni
+seo-description: Scoprite come monitorare gli abbonati e misurare il successo dei servizi utilizzando dashboard e rapporti.
+page-status-flag: mai attivato
+uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audience
-content-type: riferimento
-topic-tags: gestione iscrizioni
-discoiquuid: 36750524-eb 54-47 e 8-aa 1 b-ae 0 b 94 f 58 cb 1
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: gestione delle sottoscrizioni
+discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Monitoring subscriptions{#monitoring-subscriptions}
+# Monitoraggio delle sottoscrizioni{#monitoring-subscriptions}
 
 Utilizza l'interfaccia di Adobe Campaign per monitorare i tuoi abbonati e misurare il successo dei tuoi servizi.
 
-Sono disponibili diverse opzioni per monitorare le iscrizioni e le iscrizioni:
+Sono disponibili diverse opzioni per monitorare le sottoscrizioni e annullarle:
 
-* Visualizzate l'elenco di persone attualmente sottoscritte al vostro servizio dal dashboard del servizio. See [Service dashboard](../../audiences/using/monitoring-subscriptions.md#service-dashboard).
-* consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. See [Subscription history](../../audiences/using/monitoring-subscriptions.md#subscription-history).
-* display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. See [Service reports](../../audiences/using/monitoring-subscriptions.md#service-reports).
-* find the list of services a person has subscribed from its **Profile**. See [History of events linked to a profile](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
+* Visualizzate l'elenco delle persone attualmente sottoscritte al servizio dal dashboard del servizio. Consultate Pannello [dei](#service-dashboard)servizi.
+* consultate la cronologia delle sottoscrizioni e delle sottoscrizioni dalla scheda Cronologia **** iscrizioni nel dashboard del servizio. Consultate Cronologia [](#subscription-history)iscrizioni.
+* visualizza un rapporto che descrive l'evoluzione delle sottoscrizioni e delle sottoscrizioni nei **Report** di servizio. Consultate Rapporti sui [servizi](#service-reports).
+* trova l'elenco dei servizi che una persona ha sottoscritto dal suo **profilo**. Consultate [Cronologia degli eventi collegati a un profilo](#history-of-events-linked-to-a-profile).
 
-## Service dashboard {#service-dashboard}
+## Pannello del servizio {#service-dashboard}
 
-Per visualizzare l'elenco di persone che hanno effettuato la sottoscrizione a un servizio:
+Per visualizzare l’elenco delle persone che hanno effettuato la sottoscrizione a un servizio:
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. Selezionate il servizio desiderato per visualizzare la dashboard corrispondente.
-1. The list of people subscribed to the service can be found in the **Subscriptions** tab.
+1. Vai all'elenco dei servizi tramite il menu avanzato **Profili e pubblico** &gt; **Servizi**, accessibile dal logo di Adobe Campaign.
+1. Selezionate il servizio desiderato per visualizzare il dashboard corrispondente.
+1. L'elenco delle persone sottoscritte al servizio si trova nella scheda **Iscrizioni** .
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Subscription history {#subscription-history}
+## Cronologia iscrizioni {#subscription-history}
 
-Per consultare la cronologia di iscrizione e annullamento dell'iscrizione:
+Per consultare la cronologia dell'iscrizione e dell'annullamento dell'iscrizione:
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. Selezionate il servizio desiderato per visualizzare la dashboard corrispondente.
-1. Select the **Subscription history** tab to display the dates on which each person subscribed and unsubscribed.
+1. Vai all'elenco dei servizi tramite il menu avanzato **Profili e pubblico** &gt; **Servizi**, accessibile dal logo di Adobe Campaign.
+1. Selezionate il servizio desiderato per visualizzare il dashboard corrispondente.
+1. Selezionate la scheda Cronologia **** iscrizione per visualizzare le date in cui ogni utente ha effettuato la sottoscrizione e ha annullato la sottoscrizione.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Service reports {#service-reports}
+## Rapporti sui servizi {#service-reports}
 
-Per visualizzare un rapporto dettagliato sull'evoluzione delle iscrizioni e delle iscrizioni:
+Per visualizzare un rapporto con informazioni dettagliate sull'evoluzione delle sottoscrizioni e delle sottoscrizioni:
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
-1. Selezionate il servizio desiderato per visualizzare la dashboard corrispondente.
-1. Click the **Reports** button in the action bar, then **Subscription monitoring** in the selection screen.
+1. Vai all'elenco dei servizi tramite il menu avanzato **Profili e pubblico** &gt; **Servizi**, accessibile dal logo di Adobe Campaign.
+1. Selezionate il servizio desiderato per visualizzare il dashboard corrispondente.
+1. Fate clic sul pulsante **Rapporti** nella barra delle azioni, quindi sul monitoraggio delle **** iscrizioni nella schermata di selezione.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. The **Service summary** report presents the number of subscriptions, the overall evolution of subscriptions, and a curve showing the progress over time.
+1. Il rapporto di riepilogo **del** servizio presenta il numero di sottoscrizioni, l’evoluzione complessiva delle sottoscrizioni e una curva che mostra l’avanzamento nel tempo.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## History of events linked to a profile {#history-of-events-linked-to-a-profile}
+## Cronologia degli eventi collegati a un profilo {#history-of-events-linked-to-a-profile}
 
-Per consultare l'elenco dei servizi a cui è iscritto un contatto, potete consultare la cronologia di marketing. For more on this, refer to the [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) section.
+Per consultare l'elenco dei servizi sottoscritti da un contatto, è possibile consultare la cronologia di marketing. Per ulteriori informazioni, consulta la sezione [Profilo](../../audiences/using/integrated-customer-profile.md) cliente integrato.
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 
