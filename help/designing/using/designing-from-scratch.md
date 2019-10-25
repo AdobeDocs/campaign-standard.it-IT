@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,8 +28,8 @@ Scopri come gestire l’edizione del contenuto delle e-mail. Designer e-mail con
 Di seguito sono riportati i passaggi principali per creare e progettare un contenuto di e-mail da zero tramite Designer e-mail:
 
 1. Create un’e-mail e apritene il contenuto.
-1. Aggiungete componenti struttura per dare forma al messaggio e-mail. Consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
-1. Inserire componenti e frammenti di contenuto nei componenti della struttura. Vedere [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure)di contenuto.
+1. Aggiungete componenti struttura per dare forma al messaggio e-mail. Consultate [Modifica della struttura](#defining-the-email-structure)delle e-mail.
+1. Inserire componenti e frammenti di contenuto nei componenti della struttura. Vedere [Aggiunta di frammenti e componenti](#defining-the-email-structure)di contenuto.
 1. Aggiungete le immagini e modificate il testo del messaggio e-mail. Consultate [Inserimento di immagini](../../designing/using/images.md#inserting-images).
 1. Personalizza la tua e-mail aggiungendo campi di personalizzazione, collegamenti e così via. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field)di personalizzazione, [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link) e [Definizione di contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Definite l’oggetto del messaggio e-mail. Consultate [Personalizzazione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
