@@ -2,70 +2,70 @@
 title: Monitoraggio di una consegna
 seo-title: Monitoraggio di una consegna
 description: Monitoraggio di una consegna
-seo-description: Scopri come monitorare una distribuzione.
-page-status-flag: never-activated
-uuid: 7772 c 607-debd -40 fd -8322-4 d 49119979 b 4
+seo-description: Scopri come monitorare una consegna.
+page-status-flag: mai attivato
+uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: invio
-content-type: riferimento
+content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: eb 9 fa 216-4568-423 a -9396-8 f 7 b 82181 ae 9
-context-tags: distribuzione, principale
+discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
+context-tags: consegna,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Monitoring a delivery{#monitoring-a-delivery}
+# Monitoraggio di una consegna{#monitoring-a-delivery}
 
 Esistono diversi modi per monitorare una consegna e misurarne l'impatto:
 
-* **Registri dei messaggi**: Questi registri sono accessibili direttamente dal dashboard messaggio. Mostrano i dettagli dell'invio, la destinazione e il motivo, nonché le informazioni di tracciamento quali aperture e clic.
+* **Registri** messaggi: Tali registri sono accessibili direttamente dal dashboard dei messaggi. Mostra i dettagli dell’invio, quale destinazione è stata esclusa e perché, nonché le informazioni di tracciamento come aperture e clic.
 
-   To view the message logs, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+   Per visualizzare i registri dei messaggi, fai clic sull'icona in basso a destra del **[!UICONTROL Deployment]** blocco.
 
-   Several tabs contain information (if it exists) regarding the **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** and **[!UICONTROL Tracked URLs]**. See [Delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+   Diverse schede contengono informazioni (se presenti) relative a **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]****[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Consultate [Registri](#delivery-logs)di consegna.
 
    ![](assets/sending_delivery1.png)
 
-   Il registro contiene tutti i messaggi relativi alla consegna e alle prove. Le icone specifiche consentono di identificare errori o avvertenze. For more on this, see [Approving messages](../../sending/using/previewing-messages.md).
+   Il registro contiene tutti i messaggi relativi alla consegna e alle prove. Icone specifiche consentono di identificare errori o avvisi. Per ulteriori informazioni, consulta [Approvare i messaggi](../../sending/using/previewing-messages.md).
 
-   You can export the log by clicking the **[!UICONTROL Export list]** button.
+   Per esportare il registro, fate clic sul **[!UICONTROL Export list]** pulsante .
 
    ![](assets/sending_delivery2.png)
 
-* **Avvisi sulla distribuzione**: Per tenere traccia dei successi o degli errori della distribuzione, Adobe Campaign fornisce un sistema di avvisi e-mail che invia notifiche per informare gli utenti di importanti attività del sistema.
-* **Rapporti**: Dal pannello del messaggio potete accedere a diversi rapporti per questo messaggio specifico. You also have a **[!UICONTROL Reports]** menu that allows you to access a complete list of built-in or custom reports that you can use to outline specific metrics related to your message or campaign.
-* Un amministratore può anche esportare i registri in un file separato che può essere elaborato nei propri strumenti di reporting o BI. For more on this, see [Exporting logs](../../automating/using/exporting-logs.md).
+* **Avvisi** di distribuzione: Per tenere traccia dei successi o degli errori di consegna, Adobe Campaign fornisce un sistema di avvisi e-mail che invia notifiche per informare gli utenti di importanti attività del sistema.
+* **Rapporti**: Dal dashboard dei messaggi, puoi accedere a diversi rapporti per questo messaggio specifico. È inoltre disponibile un **[!UICONTROL Reports]** menu che consente di accedere a un elenco completo di report predefiniti o personalizzati da utilizzare per delineare metriche specifiche correlate al messaggio o alla campagna.
+* Un amministratore può anche esportare i registri in un file separato che può essere elaborato con i propri strumenti di reporting o BI. Per ulteriori informazioni, consultate [Esportazione dei registri](../../automating/using/exporting-logs.md).
 
 **Argomenti correlati:**
 
 * [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapporti](../../reporting/using/about-dynamic-reports.md)
 
-## Delivery logs {#delivery-logs}
+## Registri di consegna {#delivery-logs}
 
-### Sending logs {#sending-logs}
+### Invio di registri {#sending-logs}
 
-**[!UICONTROL Sending logs]** La scheda offre una cronologia di ogni occorrenza di questa consegna. L'elenco dei messaggi inviati e i relativi stati sono memorizzati qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
+La **[!UICONTROL Sending logs]** scheda offre una cronologia di ogni occorrenza della consegna. L'elenco dei messaggi inviati e i relativi stati è memorizzato qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
 
-For each profile with a **[!UICONTROL Sent]** status, the **[!UICONTROL Date]** column shows when the message was sent.
+Per ogni profilo con **[!UICONTROL Sent]** stato, la **[!UICONTROL Date]** colonna mostra quando è stato inviato il messaggio.
 
 ![](assets/sending_delivery3.png)
 
-### Exclusion logs {#exclusion-logs}
+### Registri di esclusione {#exclusion-logs}
 
-The **[!UICONTROL Exclusion logs]** tab lists all the messages that have been excluded from the target sent and specifies the reason for the send failure.
+La **[!UICONTROL Exclusion logs]** scheda elenca tutti i messaggi che sono stati esclusi dalla destinazione inviata e specifica il motivo dell'errore di invio.
 
 ![](assets/sending_delivery4.png)
 
-### Exclusion causes {#exclusion-causes}
+### Cause di esclusione {#exclusion-causes}
 
-**[!UICONTROL Exclusion causes]** Nella scheda viene visualizzato il volume (in numero di messaggi) dei messaggi che sono stati esclusi dalla destinazione di destinazione.
+Nella **[!UICONTROL Exclusion causes]** scheda viene visualizzato il volume (in numero di messaggi) dei messaggi esclusi dall'invio di destinazione.
 
 ![](assets/sending_delivery5.png)
 
