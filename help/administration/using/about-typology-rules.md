@@ -1,107 +1,107 @@
 ---
-title: Informazioni sulle regole di digitazione
-seo-title: Informazioni sulle regole di digitazione
-description: Informazioni sulle regole di digitazione
-seo-description: Scopri in che modo le regole di tipologie funzionano in Adobe Campaign.
-page-status-flag: never-activated
-uuid: a 98 ebc 36-172 d -4 f 46-b 6 ee-b 2636 a 1007 c 9
+title: Informazioni sulle regole di tipologia
+seo-title: Informazioni sulle regole di tipologia
+description: Informazioni sulle regole di tipologia
+seo-description: Scopri come funzionano le regole di tipologia in Adobe Campaign.
+page-status-flag: mai attivato
+uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: riferimento
-topic-tags: working-with-typology-rules
-discoiquuid: 2590 d 94 c -51 ef -4 c 0 f-b 1 ec-c 2837 e 94 da 40
-context-tags: informazioni dettagliate, panoramica; Typologyrule, main; Typologyrule, overview
+content-type: reference
+topic-tags: regole di utilizzo
+discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
+context-tags: tipologia,panoramica;regolaTipologia,principale;regolaTipologia,panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# About typology rules{#about-typology-rules}
+# Informazioni sulle regole di tipologia{#about-typology-rules}
 
-Una tipologia è un insieme di regole, eseguite durante la fase di analisi messaggio, che consentono la destinazione, il contenuto e la configurazione dei seguenti elementi da convalidare: oggetto, URL, immagini, collegamento non sottoscrizione, dimensione di prova ecc.
+Una tipologia è un insieme di regole, eseguite durante la fase di analisi dei messaggi, che consentono la convalida della destinazione, del contenuto e della configurazione dei seguenti elementi: oggetto, URL, immagini, collegamento di annullamento dell’iscrizione, dimensioni della prova, ecc.
 
-In Adobe Campaign, ogni messaggio contiene un collegamento a un tipo di sondaggio. This link is defined in the advanced parameters of the delivery template's properties (for more on this, refer to the [Preparation](../../administration/using/configuring-email-channel.md#preparation) section).
+In Adobe Campaign, ogni messaggio contiene un collegamento a una tipologia. Questo collegamento è definito nei parametri avanzati delle proprietà del modello di consegna (per ulteriori informazioni, consulta la sezione [Preparazione](../../administration/using/configuring-email-channel.md#preparation) ).
 
 >[!NOTE]
 >
->A ogni messaggio è consentito assegnare solo una singola tipologia.
+>A ciascun messaggio è possibile assegnare solo una singola tipologia.
 
-For each typology, the **[!UICONTROL Typology rules]** section lists the set of rules for this typology.
+Per ogni tipologia, la **[!UICONTROL Typology rules]** sezione elenca il set di regole per questa tipologia.
 
 ![](assets/typology_typo-rule-list.png)
 
-## Managing typologies {#managing-typologies}
+## Gestione delle tipologie {#managing-typologies}
 
-Per impostazione predefinita sono presenti diverse tipologie di testo nell'applicazione. In base alle esigenze, potete creare le vostre tipologie di testo o modificare quelli esistenti.
+Diverse tipologie sono presenti nell'applicazione per impostazione predefinita. In base alle vostre esigenze, potete creare tipologie personalizzate o modificare quelle esistenti.
 
-1. Access the **[!UICONTROL List of typologies]** from the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu.
-1. Selezionate un tipo di testo per modificarne il contenuto e le proprietà o crearne uno nuovo.
+1. Accedete al **[!UICONTROL List of typologies]** menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** .
+1. Selezionate una tipologia per modificarne il contenuto e le proprietà o crearne una nuova.
 
    ![](assets/typology_list.png)
 
-1. Definire il tipo di tipologia. I typolgies possono essere Standard o Filtro tipolizza.
-1. Add the typology rules you need using the **[!UICONTROL Add an element]** button or remove the ones you do not want to use.
+1. Definire il tipo di tipologia. Le tipologie possono essere di tipo Standard o Filtraggio.
+1. Aggiungere le regole di tipologia necessarie utilizzando il **[!UICONTROL Add an element]** pulsante o rimuovere quelle che non si desidera utilizzare.
 
-   Potete modificare l'ordine in cui le regole vengono applicate per una determinata tipologia. A tal fine, spostate gli elementi per modificare l'ordine di visualizzazione sullo schermo. I numeri corrispondenti all'ordine di esecuzione vengono ricalcolati automaticamente. The rule application mode is presented in the [Typology rules execution order](../../administration/using/about-typology-rules.md#typology-rules-execution-order) section.
+   È possibile modificare l'ordine in cui vengono applicate le regole per una determinata tipologia. A questo scopo, spostate gli elementi per modificare l'ordine in cui appaiono sullo schermo. I numeri corrispondenti all'ordine di esecuzione vengono quindi automaticamente ricalcolati. La modalità di applicazione della regola viene presentata nella sezione Ordine [di esecuzione delle regole di](#typology-rules-execution-order) tipo.
 
    Le regole visualizzate in questa schermata sono accessibili in modalità di sola lettura.
 
-La tipologia è pronta per essere utilizzata. Potete selezionarlo nelle proprietà del messaggio o nelle proprietà del modello di messaggio.
+La tua tipologia è pronta per essere utilizzata. Puoi selezionarlo nelle proprietà del messaggio o nelle proprietà del modello di messaggio.
 
 >[!NOTE]
 >
->**[!UICONTROL IP affinity]** Il campo consente di gestire le affinità in base alla configurazione. Questi sono definiti nel file di configurazione dell'istanza. Se desiderate utilizzare le affinità, contattate l'amministratore.
+>Il **[!UICONTROL IP affinity]** campo consente di gestire le affinità in base alla configurazione. Questi sono definiti nel file di configurazione dell'istanza. Se desiderate utilizzare le affinità, contattate l'amministratore.
 
-## Typology rules {#typology-rules}
+## Regole di tipologia {#typology-rules}
 
-Le regole tipografiche sono regole aziendali applicate durante la preparazione del messaggio. Vengono utilizzati per verificare se un messaggio è valido e soddisfa i criteri di qualità. Inoltre, controlla se ogni membro del pubblico di destinazione è idoneo a ricevere il messaggio.
+Le regole di tipologia sono regole aziendali applicate durante la preparazione dei messaggi. Vengono utilizzati per verificare se un messaggio è valido e soddisfa i criteri di qualità. Controllano inoltre se ogni membro del pubblico di destinazione è idoneo a ricevere il messaggio.
 
-Typology rules are available under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]** menu.
+Le regole di tipologia sono disponibili nel menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]** .
 
 Esistono due tipi di regole:
 
-* **Regole di filtro** : consente di escludere una parte della destinazione del messaggio in base ai criteri definiti in una query, ad esempio profili posti in quarantena o profili ai quali è già stato inviato un certo numero di messaggi e-mail. See [Filtering rules](../../administration/using/filtering-rules.md).
-* **Regole fatigue** : consente di definire un numero massimo di messaggi per profilo per evitare che tali messaggi vengano ignorati. See [Fatigue rules](../../administration/using/fatigue-rules.md).
-* **Regole di controllo** : consentire all'utente di controllare la validità e la qualità dei messaggi prima dell'invio, come visualizzazione dei caratteri, dimensioni del messaggio SMS, formato dell'indirizzo ecc. See [Control rules](../../administration/using/control-rules.md).
+* **Regole di filtro** : consente di escludere una parte della destinazione del messaggio in base ai criteri definiti in una query, ad esempio profili o profili in quarantena già inviati da un certo numero di e-mail. Consultate [Regole](../../administration/using/filtering-rules.md)di filtro.
+* **Regole di fatica** : consente di definire un numero massimo di messaggi per profilo per evitare richieste eccessive. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
+* **Regole di controllo** : consentire all'utente di verificare la validità e la qualità dei messaggi prima dell'invio, ad esempio la visualizzazione dei caratteri, la dimensione dei messaggi SMS, il formato dell'indirizzo, ecc. Vedere [Regole](../../administration/using/control-rules.md)di controllo.
 
-Una regola tipografica può essere applicata a un solo canale o a tutti i canali.
+Una regola di tipologia può essere applicata a un solo canale o a tutti i canali.
 
 ![](assets/typology_channel.png)
 
-In the **[!UICONTROL Properties]** of a typology rule, you can set its execution order. Quando dovete applicare più regole, l'ordine di esecuzione di ciascuna regola determina quelli da elaborare per primo. For more on this, refer to the [Typology rules execution order](../../administration/using/about-typology-rules.md#typology-rules-execution-order) section.
+Nel caso **[!UICONTROL Properties]** di una regola di tipologia, è possibile impostare il relativo ordine di esecuzione. Quando è necessario applicare più regole, l'ordine di esecuzione di ciascuna regola determina quelle da elaborare per prime. Per ulteriori informazioni, fare riferimento alla sezione Ordine [di esecuzione delle regole di](#typology-rules-execution-order) tipo.
 
 ![](assets/typology_rule-active.png)
 
-A typology rule can be deactivated through its **[!UICONTROL Properties]** if you do not want the rule to be applied at the moment that the messages concerned by the rule are analyzed.
+Una regola di tipologia può essere disattivata tramite la relativa **[!UICONTROL Properties]** se non si desidera che la regola venga applicata nel momento in cui i messaggi interessati dalla regola vengono analizzati.
 
 ![](assets/typology_rule-order.png)
 
-In the **[!UICONTROL Targeting context]** category, you can select the **Targeting dimension** and **Filtering dimension** depending on the data that you want to target.
+Nella **[!UICONTROL Targeting context]** categoria, potete selezionare la dimensione **** Targeting e la dimensione **** Filtraggio in base ai dati da destinare.
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
+Per impostazione predefinita, il filtraggio viene eseguito sul **[!UICONTROL Profiles]**. Ad esempio, se la regola è indirizzata a un'applicazione mobile, **[!UICONTROL Filtering dimension]** è possibile modificarla in **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Typology rules execution order {#typology-rules-execution-order}
+## Ordine di esecuzione delle regole di tipologia {#typology-rules-execution-order}
 
-Le regole di digitazione vengono eseguite in un ordine specificato durante le fasi di targeting, analisi e personalizzazione dei messaggi.
+Le regole di tipologia vengono eseguite in un ordine specificato durante le fasi di targeting, analisi e personalizzazione dei messaggi.
 
-In modalità standard, le regole vengono applicate nella sequenza seguente:
+In modalità operativa standard, le regole vengono applicate nella sequenza seguente:
 
 1. Regole di controllo, se applicate all'inizio del targeting.
 1. Regole di filtro:
 
-   * Regole native dell'applicazione per la qualifica dell'indirizzo: indirizzo definito/indirizzo non verificato/indirizzo in blacklist/indirizzo/indirizzo in quarantena.
+   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo non verificato / indirizzo inserito in lista nera / indirizzo in quarantena / qualità indirizzo non verificato.
    * Regole di filtro definite dall'utente.
 
 1. Regole di controllo, se applicate alla fine del targeting.
-1. Regole di controllo, se applicate all'inizio della personalizzazione.
-1. Regole di controllo, se applicate alla fine della personalizzazione.
+1. Regole di controllo, se applicate all’inizio della personalizzazione.
+1. Regole di controllo, se applicate al termine della personalizzazione.
 
-Tuttavia, potete adattare l'ordine di esecuzione dello stesso tipo di regole in ogni tipologia. In realtà, quando più regole vengono eseguite durante la stessa fase di elaborazione del messaggio, potete scegliere l'ordine in cui vengono applicate.
+Tuttavia, è possibile adattare l'ordine di esecuzione dello stesso tipo di regole in ogni tipologia. Infatti, quando più regole vengono eseguite durante la stessa fase di elaborazione dei messaggi, è possibile scegliere l'ordine in cui vengono applicate.
 
-Ad esempio, una regola di filtro con l'ordine di esecuzione posizionato sul numero 20 verrà eseguita prima di una regola di filtro il cui ordine di esecuzione è posizionato al numero 30.
+Ad esempio, una regola di filtro il cui ordine di esecuzione è posizionato al numero 20 verrà eseguita prima di una regola di filtro il cui ordine di esecuzione è posizionato al numero 30.
