@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
+source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
 
 ---
 
@@ -49,16 +49,16 @@ Per selezionare una colonna, potete anche effettuare le seguenti operazioni:
 1. Selezionate un componente struttura (direttamente nel messaggio e-mail o utilizzando la struttura ad albero disponibile nella **palette** sinistra).
 1. Dalla barra degli strumenti **** contestuale, fate clic **[!UICONTROL Select a column]** per scegliere la colonna desiderata.
 
-Vedere un esempio in [questa sezione](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding).
+Vedere un esempio in [questa sezione](#example--adjusting-vertical-alignment-and-padding).
 
 ### Regolazione delle impostazioni di stile {#adjusting-style-settings}
 
-1. Selezionate un elemento nel messaggio e-mail. Per ulteriori informazioni, consultate [Selezione di un elemento](../../designing/using/styles.md#selecting-an-element).
+1. Selezionate un elemento nel messaggio e-mail. Per ulteriori informazioni, consultate [Selezione di un elemento](#selecting-an-element).
 1. Regolate le impostazioni in base alle vostre esigenze. Ogni elemento selezionato offre un set di impostazioni diverso.
 
-   Potete inserire sfondi, modificare le dimensioni, modificare l’allineamento orizzontale o verticale, gestire i colori, aggiungere [spaziatura o margini](../../designing/using/styles.md#selecting-an-element)e così via.
+   Potete inserire sfondi, modificare le dimensioni, modificare l’allineamento orizzontale o verticale, gestire i colori, aggiungere [spaziatura o margini](#selecting-an-element)e così via.
 
-   A tal fine, utilizzate le opzioni visualizzate nel **[!UICONTROL Settings]** riquadro o [aggiungete gli attributi](../../designing/using/styles.md#adding-inline-styling-attributes)di stile in linea.
+   A tal fine, utilizzate le opzioni visualizzate nel **[!UICONTROL Settings]** riquadro o [aggiungete gli attributi](#adding-inline-styling-attributes)di stile in linea.
 
    ![](assets/des_settings_pane.png)
 
@@ -220,7 +220,7 @@ Lo stile viene quindi applicato all'elemento selezionato. Se gli elementi second
 
 Potete regolare il design reattivo di un’e-mail modificando separatamente tutte le opzioni di stile per la visualizzazione mobile. Ad esempio, potete adattare margini e spaziatura, usare font di dimensioni più piccole o grandi, modificare i pulsanti o applicare colori di sfondo diversi, specifici per la versione mobile dell’e-mail.
 
-Tutte le opzioni di stile sono disponibili nella visualizzazione mobile. Le impostazioni di stile di Designer e-mail sono presentate nella sezione [Modifica stili](../../designing/using/styles.md) e-mail.
+Tutte le opzioni di stile sono disponibili nella visualizzazione mobile. Le impostazioni di stile di Designer e-mail sono presentate nella sezione [Modifica stili](#editing-email-styles) e-mail.
 
 1. Create un messaggio e-mail e iniziate a modificare il contenuto. Per ulteriori informazioni, consultate [Progettazione di contenuti e-mail da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Per accedere alla visualizzazione dedicata per dispositivi mobili, fate clic sul **[!UICONTROL Switch to mobile view]** pulsante .
