@@ -1,84 +1,84 @@
 ---
-title: Servizi iscrizione
-seo-title: Servizi iscrizione
-description: Servizi iscrizione
-seo-description: L'attività Servizi iscrizione consente di prendere i profili in massa e di iscriversi a un servizio o di annullarne la sottoscrizione.
-page-status-flag: never-activated
-uuid: 56637024-15 ab -4145-9 c 48-3 fbd 27 ab 8 af 8
+title: ' Servizi iscrizione'
+seo-title: ' Servizi iscrizione'
+description: ' Servizi iscrizione'
+seo-description: L’attività Servizi iscrizione consente di prendere profili in massa e iscriverli a un servizio o annullarne l’iscrizione.
+page-status-flag: mai attivato
+uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: gestione dati-attività
-discoiquuid: 74 a 6 df 0 e-fd 85-4404-a 42 c -9 a 7406512717
-context-tags: Setofservice, workflow, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: gestione dei dati
+discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
+context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Subscription Services{#subscription-services}
+#  Servizi iscrizione{#subscription-services}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/wf_subscription.png)
 
-The **[!UICONTROL Subscription Services]** activity allows you to take profiles in mass and subscribe them to a service or unsubscribe them from a service.
+L' **[!UICONTROL Subscription Services]** attività consente di prendere profili in massa e iscriverli a un servizio o annullarne l'iscrizione a un servizio.
 
 >[!CAUTION]
 >
->Quando l'iscrizione viene gestita nel contesto di un flusso di lavoro, i profili sottoscrittori o non registrati non ricevono le diverse e-mail di conferma definite nelle proprietà del servizio.
+>Quando l’iscrizione viene gestita nel contesto di un flusso di lavoro, i profili sottoscritti o non sottoscritti non ricevono i diversi messaggi e-mail di conferma definiti nelle proprietà del servizio.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Subscription Services]** activity is the only Adobe Campaign functionality which allows multiple profiles to be subscribed to or to be unsubscribed from a service in a single action.
+L' **[!UICONTROL Subscription Services]** attività è l'unica funzionalità di Adobe Campaign che consente a più profili di essere sottoscritti o di annullare l'iscrizione a un servizio da un'unica azione.
 
 Potete utilizzare questa attività dopo aver eseguito il targeting o aver importato un file con dati identificati.
 
-Se specificato in un file attraverso colonne dedicate, questa attività consente anche di scegliere l'azione (iscrizione o annullamento dell'iscrizione) e il servizio su cui eseguire l'azione.
+Se specificata in un file tramite colonne dedicate, questa attività consente anche di scegliere l'azione (sottoscrizione o annullamento della sottoscrizione) e il servizio su cui eseguire l'azione.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop a **[!UICONTROL Subscription Services]** activity into your workflow.
-1. Connettetela dopo altre attività di targeting, ad esempio una query o una riconciliazione dopo un'importazione.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Service]** for which you would like to manage the subscriptions using one of the following options:
+1. Trascinate e rilasciate un' **[!UICONTROL Subscription Services]** attività nel flusso di lavoro.
+1. Connettilo dopo altre attività di targeting, ad esempio una query o una riconciliazione dopo un'importazione.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Selezionate le **[!UICONTROL Service]** sottoscrizioni per le quali desiderate gestire una delle seguenti opzioni:
 
-   * **[!UICONTROL Select a specific service]**: Selezionare manualmente un servizio.
-   * **[!UICONTROL Select services from the inbound transition]**: il servizio viene specificato nella transizione in ingresso. Ad esempio, è possibile importare un file che specifica il servizio da gestire per ogni riga. If you choose this option, make sure a link has been created beforehand between the data and the **Service** resource, as shown in [this example](../../automating/using/subscription-services.md#example--updating-multiple-subscription-statuses-from-a-file).
+   * **[!UICONTROL Select a specific service]**: selezionate manualmente un servizio.
+   * **[!UICONTROL Select services from the inbound transition]**: il servizio è specificato nella transizione in entrata. Ad esempio, è possibile importare un file che specifica il servizio da gestire per ogni riga. Se scegli questa opzione, accertati che sia stato creato un collegamento tra i dati e la risorsa **Servizio** , come mostrato in [questo esempio](#example--updating-multiple-subscription-statuses-from-a-file).
 
-      Il servizio su cui eseguire l'operazione viene selezionato in modo dinamico per ogni record.
+      Il servizio su cui eseguire l'operazione viene quindi selezionato dinamicamente per ciascun record.
 
-1. Select the **[!UICONTROL Operation type]** to execute using one of the following options:
+1. Selezionate la modalità **[!UICONTROL Operation type]** da eseguire utilizzando una delle seguenti opzioni:
 
-   * **[!UICONTROL Select a specific operation type]**: Seleziona manualmente se desideri **[!UICONTROL Subscribe]** o **[!UICONTROL Unsubscribe]** meno.
-   * **[!UICONTROL Select an operation type from a path of inbound transition]**: selezionare la colonna dei dati in entrata che specifica l'operazione da eseguire per ogni record.
+   * **[!UICONTROL Select a specific operation type]**: selezionate manualmente se desiderate **[!UICONTROL Subscribe]** o **[!UICONTROL Unsubscribe]** profili.
+   * **[!UICONTROL Select an operation type from a path of inbound transition]**: selezionare la colonna dei dati in entrata che specifica l'operazione da eseguire per ciascun record.
 
-      In questa colonna, l'operazione deve essere specificata come booleano o Integer. Use **0** to unsubscribe a record and **1** to subscribe.
+      In questa colonna, l'operazione deve essere specificata come booleana o come numero intero. Utilizzate **0** per annullare l’iscrizione di un record e **1** per iscrivervi.
 
-      In case the values contained in an imported file do not match the above requirements, you can still use the [Remapping of values](../../automating/using/load-file.md#column-format) option available in the **[!UICONTROL Load file]** activity
+      Se i valori contenuti in un file importato non corrispondono ai requisiti di cui sopra, potete comunque utilizzare l'opzione [Remapping dei valori](../../automating/using/load-file.md#column-format) disponibile nell' **[!UICONTROL Load file]** attività
 
-1. Se i dati in entrata contengono una colonna con la data di iscrizione del profilo al servizio, selezionatela. Potete lasciarlo vuoto ma non viene impostata alcuna data di iscrizione durante l'esecuzione del flusso di lavoro.
-1. Definire l'origine dell'iscrizione. You can set it to one of the fields of the inbound data or to a constant value of your choice by checking the **[!UICONTROL Set a constant as origin]** option. Potete lasciarlo vuoto ma non viene impostata alcuna origine durante l'esecuzione del flusso di lavoro.
+1. Se i dati in entrata contengono una colonna corrispondente alla data di iscrizione del profilo al servizio, selezionatela. Potete lasciare vuoto il campo ma non impostare alcuna data di iscrizione durante l’esecuzione del flusso di lavoro.
+1. Definire l'origine della sottoscrizione. È possibile impostarlo su uno dei campi dei dati in entrata o su un valore costante selezionato dall'utente, selezionando l' **[!UICONTROL Set a constant as origin]** opzione. Potete lasciarlo vuoto ma non viene impostata alcuna origine durante l'esecuzione del flusso di lavoro.
 1. Se necessario, potete generare una transizione in uscita. Questa transizione contiene esattamente gli stessi dati dell'attività in entrata.
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-   Ora è pronto per essere eseguito. Una volta eseguito, puoi visualizzare i profili che hanno effettuato la sottoscrizione o la sottoscrizione dal servizio nei dettagli del servizio.
+   È ora pronto per essere eseguito. Una volta eseguiti, potete visualizzare i profili per i quali è stata sottoscritta o che è stata annullata la sottoscrizione al servizio nei dettagli del servizio.
 
-## Example: Subscribing profiles to a specific service after importing a file {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## Esempio: Iscrizione di profili a un servizio specifico dopo l’importazione di un file {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-Questo esempio illustra come importare un file contenente profili e iscriversi a un servizio esistente. Dopo aver importato il file, è necessario eseguire una riconciliazione affinché i dati importati possano essere identificati come profili. Per assicurare che il file non contenga duplicati, viene eseguita un'attività di deduplicazione sui dati.
+Questo esempio illustra come importare un file contenente profili e iscriverlo a un servizio esistente. Dopo l'importazione del file, è necessario eseguire una riconciliazione in modo che i dati importati possano essere identificati come profili. Per garantire che il file non contenga duplicati, sui dati verrà eseguita un'attività di deduplicazione.
 
 Il flusso di lavoro viene presentato come segue:
 
 ![](assets/subscription_activity_example1.png)
 
-* A **[!UICONTROL Load file]** activity loads the profile file and defines the structure of the imported columns.
+* Un' **[!UICONTROL Load file]** attività carica il file di profilo e definisce la struttura delle colonne importate.
 
-   Per questo esempio, il file caricato è in formato. csv e contiene i dati seguenti:
+   Per questo esempio, il file caricato è in formato .csv e contiene i dati seguenti:
 
    ```
    lastname;firstname;email;birthdate;subdate
@@ -95,29 +95,29 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/subscription_activity_example2.png)
 
-* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Only the **[!UICONTROL Identification]** tab is configured. Identifica i dati del file in base agli indirizzi e-mail dei profili.
+* Un' **[!UICONTROL Reconciliation]** attività identifica i dati del file come appartenenti alla dimensione del profilo del database Adobe Campaign. È configurata solo la **[!UICONTROL Identification]** scheda. Identifica i dati del file in base agli indirizzi e-mail dei profili.
 
    ![](assets/subscription_activity_example3.png)
 
-* A **[!UICONTROL Deduplication]** based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. Se i dati importati dal file contengono duplicati, l'iscrizione a un servizio non riesce per tutti i dati.
+* Un **[!UICONTROL Deduplication]** basato sul campo **e-mail** della risorsa temporanea (derivante dalla riconciliazione) identifica eventuali duplicati. Se i dati importati dal file contengono duplicati, la sottoscrizione a un servizio non riuscirà per tutti i dati.
 
    ![](assets/subscription_activity_example5.png)
 
-* A **[!UICONTROL Subscription Services]** activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
+* Un' **[!UICONTROL Subscription Services]** attività consente di selezionare il servizio al quale devono essere sottoscritti i profili, il campo corrispondente alla data di iscrizione e l'origine dell'iscrizione.
 
    ![](assets/subscription_activity_example4.png)
 
-## Example: Updating multiple subscription statuses from a file {#example--updating-multiple-subscription-statuses-from-a-file}
+## Esempio: Aggiornamento di più stati di iscrizione da un file {#example--updating-multiple-subscription-statuses-from-a-file}
 
-Questo esempio illustra come importare un file contenente profili e aggiornare l'iscrizione a diversi servizi specificati nel file. Dopo aver importato il file, è necessario eseguire una riconciliazione affinché i dati importati possano essere identificati come profili con un collegamento ai servizi. Per assicurare che il file non contenga duplicati, viene eseguita un'attività di deduplicazione sui dati.
+Questo esempio illustra come importare un file contenente dei profili e aggiornare la propria sottoscrizione a diversi servizi specificati nel file. Dopo l'importazione del file, è necessario eseguire una riconciliazione in modo che i dati importati possano essere identificati come profili con un collegamento ai servizi. Per garantire che il file non contenga duplicati, sui dati verrà eseguita un'attività di deduplicazione.
 
 Il flusso di lavoro viene presentato come segue:
 
 ![](assets/subscription_activity_example1.png)
 
-* A **[!UICONTROL Load file]** activity loads the profile file and defines the structure of the imported columns.
+* Un' **[!UICONTROL Load file]** attività carica il file di profilo e definisce la struttura delle colonne importate.
 
-   Per questo esempio, il file caricato è in formato. csv e contiene i dati seguenti:
+   Per questo esempio, il file caricato è in formato .csv e contiene i dati seguenti:
 
    ```
    lastname;firstname;email;birthdate;service;operation
@@ -134,27 +134,27 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/subscription_example_load_file.png)
 
-   Come hai notato, l'operazione è specificata nel file come "sub" o "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. Per soddisfare questo requisito, la modifica dei valori viene eseguita nel dettaglio della colonna "operation".
+   Come avrete notato, l'operazione è specificata nel file come "sub" o "non sub". Il sistema prevede che un valore **booleano** o **Intero** riconosca l'operazione da eseguire: "0" per annullare l’iscrizione e "1" per iscriversi. Per soddisfare questo requisito, viene eseguito un nuovo mapping dei valori nel dettaglio della colonna "operation".
 
    ![](assets/subscription_example_remapping.png)
 
-   Se il file utilizza già "0" e "1" per identificare l'operazione, non è necessario rimappare tali valori. Only make sure that the column is processed as a **Boolean** or **Integer** in the **[!UICONTROL Column definition]** tab.
+   Se il file utilizza già "0" e "1" per identificare l'operazione, non è necessario rimappare tali valori. Assicurarsi solo che la colonna sia elaborata come **booleano** o **Intero** nella **[!UICONTROL Column definition]** scheda.
 
-* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Through the **[!UICONTROL Identification]** tab, the **email** field of the file is matched to the **email** field of the profile resource.
+* Un' **[!UICONTROL Reconciliation]** attività identifica i dati del file come appartenenti alla dimensione del profilo del database Adobe Campaign. Tramite la **[!UICONTROL Identification]** scheda, il campo **e-mail** del file corrisponde al campo **e-mail** della risorsa del profilo.
 
    ![](assets/subscription_activity_example3.png)
 
-   In the **[!UICONTROL Relations]** tab, a link is created with the service resource to allow the **service** field of the file to be recognized. In this example, the values match the **name** field of the service resource.
+   Nella **[!UICONTROL Relations]** scheda, viene creato un collegamento con la risorsa del servizio per consentire il riconoscimento del campo del **servizio** del file. In questo esempio, i valori corrispondono al campo del **nome** della risorsa del servizio.
 
    ![](assets/subscription_example_service_relation.png)
 
-* A **[!UICONTROL Deduplication]** based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. È importante eliminare i duplicati perché l'iscrizione a un servizio non avrà esito negativo per tutti i dati in caso di duplicati.
+* Un **[!UICONTROL Deduplication]** basato sul campo **e-mail** della risorsa temporanea (derivante dalla riconciliazione) identifica i duplicati. È importante eliminare i duplicati, in quanto la sottoscrizione a un servizio non riesce per tutti i dati in caso di duplicati.
 
    ![](assets/subscription_activity_example5.png)
 
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* A **[!UICONTROL Subscription Services]** identifica i servizi da aggiornare come provenienti dalla transizione, attraverso il collegamento creato nell' **[!UICONTROL Reconciliation]** attività.
 
-   The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Qui è possibile selezionare solo campi booleani o interi. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
+   Il file **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operativo** del file. Qui è possibile selezionare solo campi booleani o Interi. Se la colonna del file che contiene l'operazione da eseguire non viene visualizzata nell'elenco, accertatevi di aver impostato correttamente il formato della colonna nell' **[!UICONTROL Load file]** attività, come spiegato in precedenza in questo esempio.
 
    ![](assets/subscription_activity_example_from_file.png)
 
