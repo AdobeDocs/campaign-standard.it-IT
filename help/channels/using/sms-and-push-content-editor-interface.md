@@ -15,7 +15,7 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 L'editor di contenuti SMS e push è organizzato in due diverse sezioni che consentono di visualizzare e modificare il messaggio.
 
-1. La barra **delle** azioni contiene le opzioni generali per la pagina. Potete inserire campi di personalizzazione o blocchi di contenuto, aggiungere testo condizionale e visualizzare in anteprima il contenuto SMS da qui. Consultate la barra delle azioni per [SMS e editor di contenuti push](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar).
-1. La zona **di** modifica dello schermo consente di inserire direttamente il messaggio di testo e selezionare la posizione in cui si desidera inserire la personalizzazione. Consultate Modalità di edizione [SMS e contenuti push](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes).
+1. La barra **delle** azioni contiene le opzioni generali per la pagina. Potete inserire campi di personalizzazione o blocchi di contenuto, aggiungere testo condizionale e visualizzare in anteprima il contenuto SMS da qui. Consultate la barra delle azioni per [SMS e editor di contenuti push](#sms-and-push-content-editor-action-bar).
+1. La zona **di** modifica dello schermo consente di inserire direttamente il messaggio di testo e selezionare la posizione in cui si desidera inserire la personalizzazione. Consultate Modalità di edizione [SMS e contenuti push](#sms-and-push-content-edition-modes).
 
 ## Barra delle azioni dell'editor di contenuti SMS e push {#sms-and-push-content-editor-action-bar}
 
