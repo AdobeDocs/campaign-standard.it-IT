@@ -14,7 +14,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,9 +31,9 @@ Questa funzione utilizza le lingue preferite specificate nei profili dei destina
 
 Per utilizzare varianti di contenuto multilingue per la distribuzione delle notifiche push, effettuate le seguenti operazioni:
 
-* [Passaggio 1: Carica variante di contenuto multilingue](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
-* [Passaggio 2: Visualizzare in anteprima e finalizzare una notifica push utilizzando varianti di contenuto multilingue](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [Passaggio 3: Inviare e analizzare la consegna di notifiche push in più lingue](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Passaggio 1: Carica variante di contenuto multilingue](#step-1--upload-multilingual-content-variant)
+* [Passaggio 2: Visualizzare in anteprima e finalizzare una notifica push utilizzando varianti di contenuto multilingue](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Passaggio 3: Inviare e analizzare la consegna di notifiche push in più lingue](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## Passaggio 1: Carica variante di contenuto multilingue {#step-1--upload-multilingual-content-variant}
 
