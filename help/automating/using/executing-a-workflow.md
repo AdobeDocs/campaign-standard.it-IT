@@ -15,7 +15,7 @@ context-tags: flusso di lavoro,panoramica;flusso di lavoro,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ Una volta avviato, un flusso di lavoro potrebbe presentare anche altri due stati
 
 * **Erroneo** (rosso)
 
-   Errore durante l'esecuzione di un flusso di lavoro. Il flusso di lavoro è stato arrestato e l'utente deve eseguire un'azione. Per ulteriori informazioni su questo errore, utilizzare il ![](assets/printpreview_darkgrey-24px.png) pulsante per accedere al registro del flusso di lavoro (fare riferimento a [Monitoraggio](../../automating/using/executing-a-workflow.md#monitoring)).
+   Errore durante l'esecuzione di un flusso di lavoro. Il flusso di lavoro è stato arrestato e l'utente deve eseguire un'azione. Per ulteriori informazioni su questo errore, utilizzare il ![](assets/printpreview_darkgrey-24px.png) pulsante per accedere al registro del flusso di lavoro (fare riferimento a [Monitoraggio](#monitoring)).
 
 L'elenco delle attività di marketing consente di visualizzare tutti i flussi di lavoro e i relativi stati. Per ulteriori informazioni, consulta [Gestione delle attività](../../start/using/marketing-activities.md#about-marketing-activities)di marketing.
 
@@ -146,7 +146,7 @@ Il ![](assets/checkdisable.png) pulsante disattiva tutte le attività selezionat
 
 L' ![](assets/printpreview_darkgrey-24px.png) icona apre il registro del flusso di lavoro e il menu delle attività.
 
-La cronologia del flusso di lavoro viene salvata per la durata specificata nelle opzioni di esecuzione del flusso di lavoro (vedere Proprietà [del](../../automating/using/executing-a-workflow.md#workflow-properties)flusso di lavoro). Durante questa durata, tutti i messaggi vengono quindi salvati, anche dopo il riavvio. Se non si desidera salvare i messaggi da un'esecuzione precedente, è necessario eliminare la cronologia facendo clic sul ![](assets/delete_darkgrey-24px.png) pulsante.
+La cronologia del flusso di lavoro viene salvata per la durata specificata nelle opzioni di esecuzione del flusso di lavoro (vedere Proprietà [del](#workflow-properties)flusso di lavoro). Durante questa durata, tutti i messaggi vengono quindi salvati, anche dopo il riavvio. Se non si desidera salvare i messaggi da un'esecuzione precedente, è necessario eliminare la cronologia facendo clic sul ![](assets/delete_darkgrey-24px.png) pulsante.
 
 La **[!UICONTROL Log]** scheda contiene la cronologia di esecuzione di tutte le attività o di tutte le attività selezionate. Esso indicizza le operazioni eseguite e gli errori di esecuzione in ordine cronologico.
 
@@ -174,9 +174,9 @@ In questo caso, l'attività errata viene interrotta. Questa modalità è partico
 
 >[!NOTE]
 >
->Potete applicare questa configurazione singolarmente per ogni attività. A questo scopo, selezionate un'attività e apritela utilizzando l'azione rapida ![](assets/edit_darkgrey-24px.png). Selezionate quindi la modalità di gestione degli errori nella scheda Opzioni **** esecuzione. Consultate Opzioni [di esecuzione](../../automating/using/executing-a-workflow.md#activity-execution-options)dell'attività.
+>Potete applicare questa configurazione singolarmente per ogni attività. A questo scopo, selezionate un'attività e apritela utilizzando l'azione rapida ![](assets/edit_darkgrey-24px.png). Selezionate quindi la modalità di gestione degli errori nella scheda Opzioni **** esecuzione. Consultate Opzioni [di esecuzione](#activity-execution-options)dell'attività.
 
-La **[!UICONTROL Execution]** sezione delle proprietà del flusso di lavoro consente inoltre di definire un numero di **[!UICONTROL Consecutive errors]** autorizzazioni prima che l'esecuzione del flusso di lavoro venga automaticamente sospesa. Finché questo numero non viene raggiunto, gli elementi errati vengono ignorati e gli altri rami del flusso di lavoro vengono eseguiti normalmente. Se questo numero viene raggiunto, il flusso di lavoro viene sospeso e i supervisori del flusso di lavoro ricevono automaticamente una notifica (notifica e-mail e in-app). Vedi Proprietà [del](../../automating/using/executing-a-workflow.md#workflow-properties) flusso di lavoro e notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+La **[!UICONTROL Execution]** sezione delle proprietà del flusso di lavoro consente inoltre di definire un numero di **[!UICONTROL Consecutive errors]** autorizzazioni prima che l'esecuzione del flusso di lavoro venga automaticamente sospesa. Finché questo numero non viene raggiunto, gli elementi errati vengono ignorati e gli altri rami del flusso di lavoro vengono eseguiti normalmente. Se questo numero viene raggiunto, il flusso di lavoro viene sospeso e i supervisori del flusso di lavoro ricevono automaticamente una notifica (notifica e-mail e in-app). Vedi Proprietà [del](#workflow-properties) flusso di lavoro e notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
 I supervisori possono essere definiti anche nelle proprietà di esecuzione del flusso di lavoro.
 
