@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -63,7 +63,7 @@ Una volta creato il collegamento, puoi comunque modificarlo dal riquadro Imposta
 
 ![](assets/des_link_edit.png)
 
-Quando si modifica un'e-mail con [Email Designer](../../designing/using/overview.md), è possibile accedere e modificare facilmente i collegamenti creati dalla tabella, elencando tutti gli URL inclusi nell'e-mail. Questo elenco consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consultate [Informazioni sugli URL](../../designing/using/links.md#about-tracked-urls)tracciati.
+Quando si modifica un'e-mail con [Email Designer](../../designing/using/overview.md), è possibile accedere e modificare facilmente i collegamenti creati dalla tabella, elencando tutti gli URL inclusi nell'e-mail. Questo elenco consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consultate [Informazioni sugli URL](#about-tracked-urls)tracciati.
 
 ![](assets/des_link_list.png)
 
