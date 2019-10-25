@@ -14,7 +14,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -29,10 +29,10 @@ In questo caso, vogliamo aggiornare i nostri profili con il nuovo campo utilizza
 
 A tale scopo, attenetevi alla procedura seguente:
 
-* [Passaggio 1: Estendi la risorsa del profilo](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [Passaggio 2: Estendere il profilo di test](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [Passaggio 3: Pubblicare la risorsa personalizzata](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [Passaggio 4: Aggiornamento e targeting dei profili con un flusso di lavoro](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [Passaggio 1: Estendi la risorsa del profilo](#step-1--extend-the-profile-resource)
+* [Passaggio 2: Estendere il profilo di test](#step-2--extend-the-test-profile)
+* [Passaggio 3: Pubblicare la risorsa personalizzata](#step-3--publish-your-custom-resource)
+* [Passaggio 4: Aggiornamento e targeting dei profili con un flusso di lavoro](#step-4--update-and-target-profiles-with-a-workflow)
 
 Il seguente campo verrà aggiunto ai nostri profili e potrà essere mirato in una consegna:
 
