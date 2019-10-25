@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,8 +32,8 @@ Se scegliete di utilizzare il messaggio predefinito, potete modificarne il conte
 * Questo messaggio sarà lo stesso per tutti i servizi che utilizzano la modalità predefinita.
 
 Per inviare un'e-mail di conferma specifica per un determinato servizio, potete creare un messaggio personalizzato in cui potrete sfruttare anche i campi di personalizzazione provenienti da altre risorse. A tal fine, devi creare e configurare un messaggio transazionale. È possibile fare riferimento a questo messaggio:
-* Dal servizio stesso. Per ulteriori informazioni, consulta [Configurazione del messaggio di conferma da un servizio](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
-* Da una pagina di destinazione di iscrizione. Per ulteriori informazioni, vedere [Configurazione del messaggio di conferma da una pagina](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)di destinazione.
+* Dal servizio stesso. Per ulteriori informazioni, consulta [Configurazione del messaggio di conferma da un servizio](#configuring-confirmation-message-from-service).
+* Da una pagina di destinazione di iscrizione. Per ulteriori informazioni, vedere [Configurazione del messaggio di conferma da una pagina](#configuring-confirmation-message-from-landing-page)di destinazione.
 
 ## Configurazione del messaggio di conferma da un servizio {#configuring-confirmation-message-from-service}
 
@@ -166,7 +166,7 @@ Il messaggio e-mail di conferma è un messaggio [](../../channels/using/about-tr
 
 #### Progettare il messaggio di conferma {#design-the-confirmation-message-2}
 
-I passaggi per progettare il messaggio di transazione sono descritti in questa [sezione](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1).
+I passaggi per progettare il messaggio di transazione sono descritti in questa [sezione](#design-the-confirmation-message-1).
 
 ### Passaggio 2: Creazione e configurazione del servizio {#step-2--create-and-configure-the-service-2}
 
