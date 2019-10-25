@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ Per impostare la personalizzazione in un messaggio transazionale, segui i passag
 
    ![](assets/message-center_9.png)
 
-   Potete verificare che i campi di personalizzazione corrispondano alle informazioni inserite nel profilo di test. Per ulteriori informazioni, vedi [Definizione di un profilo di test in un messaggio](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)transazionale.
+   Potete verificare che i campi di personalizzazione corrispondano alle informazioni inserite nel profilo di test. Per ulteriori informazioni, vedi [Definizione di un profilo di test in un messaggio](#defining-a-test-profile-in-a-transactional-message)transazionale.
 
 ## Utilizzo degli elenchi di prodotti in un messaggio transazionale {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ Per ulteriori informazioni sulla creazione di una raccolta e campi correlati dur
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Per ulteriori informazioni sulla definizione di un profilo di test in un messaggio transazionale, consulta [questa sezione](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   Per ulteriori informazioni sulla definizione di un profilo di test in un messaggio transazionale, consulta [questa sezione](#defining-a-test-profile-in-a-transactional-message).
 
 ## Verifica di un messaggio transattivo {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ Facendo clic **[!UICONTROL Unpublish]** potete annullare la pubblicazione dei me
 
 >[!NOTE]
 >
->Per pubblicare nuovamente il messaggio, dovete tornare alla configurazione dell'evento corrispondente, pubblicarlo e quindi pubblicare il messaggio. Per ulteriori informazioni, consulta [Pubblicazione di un messaggio](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transazionale.
+>Per pubblicare nuovamente il messaggio, dovete tornare alla configurazione dell'evento corrispondente, pubblicarlo e quindi pubblicare il messaggio. Per ulteriori informazioni, consulta [Pubblicazione di un messaggio](#publishing-a-transactional-message)transazionale.
 
-Se annulli la pubblicazione di un messaggio transazionale in pausa, potresti dover attendere fino a 24 ore prima di pubblicarlo nuovamente. In questo modo il flusso di lavoro **[!UICONTROL Database cleanup]** pulirà tutti gli eventi inviati alla coda. I passaggi per mettere in pausa un messaggio sono descritti nella sezione [Sospensione di una pubblicazione](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) di messaggi transazionali.
+Se annulli la pubblicazione di un messaggio transazionale in pausa, potresti dover attendere fino a 24 ore prima di pubblicarlo nuovamente. In questo modo il flusso di lavoro **[!UICONTROL Database cleanup]** pulirà tutti gli eventi inviati alla coda. I passaggi per mettere in pausa un messaggio sono descritti nella sezione [Sospensione di una pubblicazione](#suspending-a-transactional-message-publication) di messaggi transazionali.
 
 Il **[!UICONTROL Database cleanup]** flusso di lavoro, che viene eseguito ogni giorno alle 4 del mattino, è accessibile tramite **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]**.
 
@@ -288,7 +288,7 @@ Selezionando un messaggio transazionale, puoi eliminarlo con il **[!UICONTROL De
 
 * **Messaggi** transazionali: Per eliminare un messaggio transazionale, è necessario annullare la pubblicazione del messaggio e non interromperlo.
 
-   Se il messaggio di transazione non viene pubblicato, è necessario annullare la pubblicazione anche della configurazione dell'evento per eliminare correttamente il messaggio di transazione, a meno che non venga collegato un altro messaggio di transazione all'evento corrispondente. Per ulteriori informazioni su come annullare la pubblicazione di un messaggio transazionale, consulta questa [sezione](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+   Se il messaggio di transazione non viene pubblicato, è necessario annullare la pubblicazione anche della configurazione dell'evento per eliminare correttamente il messaggio di transazione, a meno che non venga collegato un altro messaggio di transazione all'evento corrispondente. Per ulteriori informazioni su come annullare la pubblicazione di un messaggio transazionale, consulta questa [sezione](#unpublishing-a-transactional-message).
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ Un messaggio transazionale temporaneamente non consegnato è soggetto a tentativ
 
 Quando un messaggio di transazione non viene inviato, si verificano due tentativi nei sistemi:
 
-* A livello di messaggistica transazionale, un messaggio transazionale può non riuscire prima che l'evento venga assegnato a un'esecuzione, ossia tra la ricezione dell'evento e la preparazione della consegna. Consultate Processo dei tentativi di elaborazione [degli eventi](../../channels/using/event-transactional-messages.md#event-processing-retry-process).
-* A livello del processo di invio, una volta che l'evento è stato assegnato a un recapito di esecuzione, il messaggio di transazione potrebbe non riuscire a causa di un errore temporaneo. Consulta Processo [per l'invio del](../../channels/using/event-transactional-messages.md#message-sending-retry-process)messaggio.
+* A livello di messaggistica transazionale, un messaggio transazionale può non riuscire prima che l'evento venga assegnato a un'esecuzione, ossia tra la ricezione dell'evento e la preparazione della consegna. Consultate Processo dei tentativi di elaborazione [degli eventi](#event-processing-retry-process).
+* A livello del processo di invio, una volta che l'evento è stato assegnato a un recapito di esecuzione, il messaggio di transazione potrebbe non riuscire a causa di un errore temporaneo. Consulta Processo [per l'invio del](#message-sending-retry-process)messaggio.
 
 ### Processo dei tentativi di elaborazione degli eventi {#event-processing-retry-process}
 
