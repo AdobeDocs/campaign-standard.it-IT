@@ -15,7 +15,7 @@ context-tags: extAccountEmail,panoramica;emailConfig,main;ruleSet,overview;deliv
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -173,7 +173,7 @@ La **[!UICONTROL Send]** sezione è disponibile solo per i modelli e-mail. Conti
 
 I messaggi temporaneamente non consegnati sono soggetti a un nuovo tentativo automatico. Questa sezione indica quanti tentativi devono essere eseguiti il giorno successivo all'inizio dell'invio ( **[!UICONTROL Max. number of retries]** ) e il ritardo minimo tra i tentativi ( **[!UICONTROL Retry period]** ).
 
-Per impostazione predefinita, cinque tentativi sono pianificati per il primo giorno con un intervallo minimo di un'ora, distribuiti nelle 24 ore del giorno. Un nuovo tentativo al giorno viene programmato dopo tale data e fino alla scadenza della consegna, definita nella sezione Parametri [del periodo di](../../administration/using/configuring-email-channel.md#validity-period-parameters) validità.
+Per impostazione predefinita, cinque tentativi sono pianificati per il primo giorno con un intervallo minimo di un'ora, distribuiti nelle 24 ore del giorno. Un nuovo tentativo al giorno viene programmato dopo tale data e fino alla scadenza della consegna, definita nella sezione Parametri [del periodo di](#validity-period-parameters) validità.
 
 Il numero di tentativi può essere modificato a livello globale (contattare l'amministratore tecnico Adobe) o per ogni modello di consegna o consegna
 
@@ -206,7 +206,7 @@ Se abilitate l'opzione della modalità di prova SMTP per un modello e-mail, ques
 >Quando questa opzione è abilitata per un messaggio e-mail, nessun messaggio verrà inviato finché non viene deselezionato.
 >Nel dashboard del modello e-mail o del modello e-mail verrà visualizzato un avviso.
 
-Per ulteriori informazioni sulla configurazione di SMTP, vedere la sezione [Elenco dei parametri](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) SMTP dell'e-mail.
+Per ulteriori informazioni sulla configurazione di SMTP, vedere la sezione [Elenco dei parametri](#list-of-email-smtp-parameters) SMTP dell'e-mail.
 
 ### Parametri periodo di validità {#validity-period-parameters}
 
