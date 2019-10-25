@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
 
 ---
 
@@ -39,8 +39,8 @@ Quando create un’e-mail o una pagina di destinazione, potete scegliere di cari
 
    * [Modelli](../../designing/using/using-reusable-content.md#content-templates)di contenuto: fare clic sulla **[!UICONTROL Templates]** scheda.
    * [Contenuto da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), per iniziare nuovo: fare clic sul **[!UICONTROL Create]** pulsante.
-   * [Contenuto del computer come file](../../designing/using/using-existing-content.md#importing-content-from-a-file)ZIP o HTML: fare clic sul **[!UICONTROL Upload]** pulsante.
-   * [Contenuto da un URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) esistente (solo per le e-mail): fare clic sul **[!UICONTROL Import from URL]** pulsante.
+   * [Contenuto del computer come file](#importing-content-from-a-file)ZIP o HTML: fare clic sul **[!UICONTROL Upload]** pulsante.
+   * [Contenuto da un URL](#importing-content-from-a-url) esistente (solo per le e-mail): fare clic sul **[!UICONTROL Import from URL]** pulsante.
    ![](assets/des_loading_2.png)
 
 1. Caricate il contenuto. Il contenuto selezionato sostituisce quello corrente.
@@ -49,7 +49,7 @@ Quando create un’e-mail o una pagina di destinazione, potete scegliere di cari
 
    >[!NOTE]
    >
-   >Designer [e-](../../designing/using/overview.md) mail utilizza tag specifici. Il contenuto HTML standard caricato in Campaign deve corrispondere al tag previsto per essere completamente compatibile e modificabile da Email Designer. Se non corrisponde, il contenuto viene caricato in modalità [](../../designing/using/using-existing-content.md#compatibility-mode)compatibilità. Per rendere compatibili i contenuti esistenti, consulta [questa sezione](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
+   >Designer [e-](../../designing/using/overview.md) mail utilizza tag specifici. Il contenuto HTML standard caricato in Campaign deve corrispondere al tag previsto per essere completamente compatibile e modificabile da Email Designer. Se non corrisponde, il contenuto viene caricato in modalità [](#compatibility-mode)compatibilità. Per rendere compatibili i contenuti esistenti, consulta [questa sezione](#editing-existing-contents-with-the-email-designer).
 
 **Argomenti correlati:**
 
@@ -60,7 +60,7 @@ Quando create un’e-mail o una pagina di destinazione, potete scegliere di cari
 
 Per sfruttare appieno le possibilità di edizione di [Email Designer](../../designing/using/overview.md), l'HTML caricato deve contenere tag specifici che lo rendono conforme con l'editor WYSIWYG.
 
-Se tutto o parte dell’HTML non dispone di questo tag, il contenuto viene caricato in modalità [compatibilità](../../designing/using/using-existing-content.md#compatibility-mode).
+Se tutto o parte dell’HTML non dispone di questo tag, il contenuto viene caricato in modalità [compatibilità](#compatibility-mode).
 
 Per rendere un contenuto esterno esistente completamente modificabile in Designer e-mail, consultare la sezione [Progettazione di un'e-mail utilizzando il contenuto](../../designing/using/using-existing-content.md) esistente.
 
