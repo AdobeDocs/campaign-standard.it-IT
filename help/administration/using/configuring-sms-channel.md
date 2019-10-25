@@ -2,113 +2,113 @@
 title: Configurazione del canale SMS
 seo-title: Configurazione del canale SMS
 description: Configurazione del canale SMS
-seo-description: '" Consulta i passaggi di configurazione SMS: operazioni di instradamento, codifica, formati e proprietà avanzate. "'
-page-status-flag: never-activated
-uuid: 5 f 13 dbd 5-9522-4199-8 d 9 a -44 c 397 cb 2458
+seo-description: '"Scopri i passaggi di configurazione SMS: routing, codifica, formati e proprietà avanzate. "'
+page-status-flag: mai attivato
+uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: riferimento
-topic-tags: configuring-channels
-discoiquuid: 356 d 4 d 4 f -3 d 5 a -468 c-bff 8-96767 cd 8 fff 6
-context-tags: Extaccountmobile, panoramica; Extaccount, main; delivery, smscontent, back
+content-type: reference
+topic-tags: configurazione dei canali
+discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
+context-tags: extAccountMobile,panoramica;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 866567d63dd2798eb56d42d4e163e5484c9b4d68
+source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
 
 ---
 
 
-# Configuring SMS channel{#configuring-sms-channel}
+# Configurazione del canale SMS{#configuring-sms-channel}
 
-To send SMS messages, one or several external accounts must be configured by an administrator under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL SMS]** &gt; **[!UICONTROL SMS accounts]** menu.
+Per inviare messaggi SMS, uno o più account esterni devono essere configurati da un amministratore nel menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL SMS]** &gt; **[!UICONTROL SMS accounts]** .
 
-The steps for creating and modifying an external account are detailed in the [External accounts](../../administration/using/external-accounts.md) section. Sotto i parametri specifici di account esterni per l'invio di messaggi SMS.
+I passaggi per creare e modificare un account esterno sono descritti in dettaglio nella sezione [Conti](../../administration/using/external-accounts.md) esterni. Di seguito sono riportati i parametri specifici degli account esterni per l'invio di messaggi SMS.
 
-## Defining an SMS Routing {#defining-an-sms-routing}
+## Definizione di un ciclo SMS {#defining-an-sms-routing}
 
-The external account **[!UICONTROL SMS routing via SMPP]** is provided by default, but it can be useful to add other accounts.
+L'account esterno **[!UICONTROL SMS routing via SMPP]** è fornito per impostazione predefinita, ma può essere utile aggiungere altri account.
 
-Se desiderate utilizzare il protocollo SMPP, potete anche creare un nuovo account esterno. For more information on SMS protocol and settings, refer to this [technical note](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+Se desiderate utilizzare il protocollo SMPP, potete anche creare un nuovo account esterno. Per ulteriori informazioni sul protocollo e sulle impostazioni SMS, consultare questa nota [tecnica](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
-1. Create a new external account from **[!UICONTROL Administration > Application settings > External accounts]**.
-1. Define the account type as **[!UICONTROL Routing]**, the channel as **[!UICONTROL Mobile (SMS)]** and the delivery mode as **[!UICONTROL Bulk delivery]**.
+1. Crea un nuovo account esterno da **[!UICONTROL Administration > Application settings > External accounts]**.
+1. Definite il tipo di account come **[!UICONTROL Routing]**, il canale come **[!UICONTROL Mobile (SMS)]** e la modalità di consegna come **[!UICONTROL Bulk delivery]**.
 
-   Once these routing parameters have been defined, the SMS connector ( **[!UICONTROL Generic SMPP]** ) is selected automatically. Questo connettore consente ad Adobe Campaign di inviare messaggi SMS direttamente ai profili di destinazione connettendosi a un breve centro di servizi di messaggio (SMS-C) tramite il protocollo SMPP.
+   Una volta definiti questi parametri di routing, il connettore SMS ( **[!UICONTROL Generic SMPP]** ) viene selezionato automaticamente. Questo connettore consente ad Adobe Campaign di inviare messaggi SMS direttamente ai profili di destinazione, collegandosi a un centro di servizi di messaggi brevi (SMS-C) tramite il protocollo SMPP.
 
    ![](assets/sms_routing.png)
 
 1. Definire le impostazioni di connessione.
 
-   Per immettere le impostazioni di connessione specifiche per l'invio dei messaggi SMS, contattate il provider di servizi SMS che fornirà spiegazioni su come completare i diversi campi account esterni.
+   Per immettere le impostazioni di connessione specifiche per l'invio di messaggi SMS, contattare il provider di servizi SMS che vi spiegherà come completare i diversi campi dell'account esterno.
 
    ![](assets/sms_connection.png)
 
-   The **[!UICONTROL Enable TLS over SMPP]** option allows you to encrypt SMPP traffic.
+   L' **[!UICONTROL Enable TLS over SMPP]** opzione consente di crittografare il traffico SMPP.
 
-   **[!UICONTROL Enable verbose SMPP traces in the log file]** consente di scaricare tutto il traffico SMPP nei file di registro. Questa opzione deve essere attivata per risolvere eventuali problemi del connettore e per confrontare il traffico visualizzato dal fornitore.
+   **[!UICONTROL Enable verbose SMPP traces in the log file]** consente di scaricare tutto il traffico SMPP nei file di registro. Questa opzione deve essere abilitata per la risoluzione dei problemi del connettore e per il confronto con il traffico rilevato dal provider.
 
-1. Contact Adobe who will give you the value to enter into the **[!UICONTROL SMS-C implementation name]** field, depending on the provider chosen.
-1. Definite le impostazioni del canale SMPP. You can learn more in the [SMS encoding and formats](../../administration/using/configuring-sms-channel.md#sms-encoding-and-formats) section.
+1. Contattate Adobe che vi darà il valore da immettere nel **[!UICONTROL SMS-C implementation name]** campo, a seconda del fornitore scelto.
+1. Definire le impostazioni dei canali SMPP. Per ulteriori informazioni, consulta la sezione dedicata alla codifica [SMS e ai formati](#sms-encoding-and-formats) .
 
-   Enable the **[!UICONTROL Store incoming MO in the database]** if you want all incoming SMS to be stored in the inSMS table. For more information on how to retrieve your incoming SMS, refer to this [section](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
+   Abilitate l' **[!UICONTROL Store incoming MO in the database]** opzione se desiderate che tutti gli SMS in ingresso siano memorizzati nella tabella inSMS. Per ulteriori informazioni su come recuperare gli SMS in arrivo, consulta questa [sezione](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
-   The **[!UICONTROL Enable Real-time KPI updates during SR processing]** option allows the **[!UICONTROL Delivered]** or **[!UICONTROL Bounces + Errors]** KPIs to be updated in real time after sending your delivery. These KPIs can be found in the **[!UICONTROL Deployment]** window and are directly recalculated from the SR (Status Report) received from the provider.
+   L’ **[!UICONTROL Enable Real-time KPI updates during SR processing]** opzione consente di aggiornare i **[!UICONTROL Delivered]** KPI o **[!UICONTROL Bounces + Errors]** i KPI in tempo reale dopo l’invio. Questi KPI si trovano nella **[!UICONTROL Deployment]** finestra e vengono ricalcolati direttamente dall'SR (Report di stato) ricevuto dal provider.
 
    ![](assets/sms_connection_1.png)
 
-1. Define the **[!UICONTROL Throughput and timeouts]** parameters.
+1. Definite i **[!UICONTROL Throughput and timeouts]** parametri.
 
-   Puoi specificare la velocità massima di messaggi in uscita ("MT", Mobile Terminated) in MT al secondo. Se immettete "0" nel campo corrispondente, la velocità sarà illimitata.
+   È possibile specificare il volume massimo di messaggi in uscita ("MT", Mobile Terminated) in MT al secondo. Se si inserisce "0" nel campo corrispondente, la velocità effettiva sarà illimitata.
 
    I valori di tutti i campi corrispondenti alle durate devono essere completati in secondi.
 
-1. Definite i parametri specifici di SMS-C nel caso in cui sia necessario definire una specifica mappatura di codifica. For more information, refer to the [SMSC specifics](../../administration/using/configuring-sms-channel.md#smsc-specifics) section.
+1. Definite i parametri specifici di SMS-C nel caso sia necessario definire una mappatura di codifica specifica. Per ulteriori informazioni, fare riferimento alla sezione [SMSC](#smsc-specifics) .
 
-   Enable the **[!UICONTROL Send full phone number (send characters other than digits)]** option if you don't want to respect the SMPP protocol and transfer the **[!UICONTROL +]** prefix to the server of the SMS provider (SMS-C).
+   Abilitate l' **[!UICONTROL Send full phone number (send characters other than digits)]** opzione se non desiderate rispettare il protocollo SMPP e trasferire il **[!UICONTROL +]** prefisso al server del provider SMS (SMS-C).
 
-   However, given that certain providers require the use of the **[!UICONTROL +]** prefix, it is advised that you check with your provider and they will suggest that you enable this option if necessary.
+   Tuttavia, dato che alcuni fornitori richiedono l'uso del **[!UICONTROL +]** prefisso, si consiglia di consultare il provider e si consiglia di abilitare questa opzione se necessario.
 
-1. Se necessario, definire risposte automatiche per attivare azioni in base al contenuto di una risposta. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
-1. Salvate la configurazione dell'account esterno di instradamento SMS.
+1. Se necessario, definire le risposte automatiche per attivare azioni in base al contenuto di una risposta. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+1. Salvate la configurazione dell'account esterno di routing SMS.
 
-Ora puoi utilizzare il nuovo indirizzamento per inviare messaggi SMS con Adobe Campaign.
+Ora puoi usare il nuovo routing per inviare messaggi SMS con Adobe Campaign.
 
-## SMS encoding and formats {#sms-encoding-and-formats}
+## Codifica e formati SMS {#sms-encoding-and-formats}
 
-### SMS encoding, length and transliteration {#sms-encoding--length-and-transliteration}
+### Codifica, lunghezza e traslitterazione SMS {#sms-encoding--length-and-transliteration}
 
 Per impostazione predefinita, il numero di caratteri in un SMS soddisfa gli standard GSM (Global System for Mobile Communications).
 
-I messaggi SMS con codifica GSM sono limitati a 160 caratteri, oppure 153 caratteri per SMS per messaggi inviati in più parti.
+I messaggi SMS che utilizzano la codifica GSM sono limitati a 160 caratteri, o 153 caratteri per SMS per i messaggi inviati in più parti.
 
 >[!NOTE]
 >
->Alcuni caratteri contano come due (parentesi quadre, quadre quadre, simbolo euro ecc.). The list of available GSM characters is presented in the [Table of characters - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard) section.
+>Alcuni caratteri contano come due (parentesi quadre, simboli dell'euro, ecc.). L'elenco dei caratteri GSM disponibili è presentato nella sezione [Tabella dei caratteri - GSM Standard](#table-of-characters---gsm-standard) .
 
-Se lo si desidera, è possibile autorizzare la trasformazione dei caratteri controllando la casella corrispondente.
+Se lo desideri, puoi autorizzare la traslazione dei caratteri selezionando la casella corrispondente.
 
 ![](assets/sms_transliteration.png)
 
-La traslittura consiste nella sostituzione di un carattere di SMS per un altro quando tale carattere non viene considerato dallo standard GSM.
+La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando tale carattere non è preso in considerazione dallo standard GSM.
 
-* If transliteration is **authorized**, each character that is not taken into account is replaced by a GSM character when the message is sent. Ad esempio, la lettera "ë" viene sostituita da "e". Il messaggio viene quindi leggermente modificato, ma il limite di caratteri rimarrà invariato.
-* When transliteration is **not authorized**, each message that contains characters that are not taken into account is sent in binary format (Unicode): all of the characters are therefore sent as they are. Tuttavia, i messaggi SMS con Unicode sono limitati a 70 caratteri (o 67 caratteri per SMS per messaggi inviati in più parti). Se viene superato il numero massimo di caratteri, vengono inviati diversi messaggi, che possono quindi creare costi aggiuntivi.
+* Se la traslitterazione è **autorizzata**, ogni carattere non preso in considerazione viene sostituito da un carattere GSM al momento dell'invio del messaggio. Ad esempio, la lettera "ë" è sostituita da "e". Il messaggio viene quindi leggermente modificato, ma il limite di caratteri rimane lo stesso.
+* Quando la traslitterazione **non è autorizzata**, ogni messaggio che contiene caratteri non presi in considerazione viene inviato in formato binario (Unicode): tutti i caratteri vengono quindi inviati così come sono. Tuttavia, i messaggi SMS che utilizzano Unicode sono limitati a 70 caratteri (o 67 caratteri per SMS per i messaggi inviati in più parti). Se viene superato il numero massimo di caratteri, verranno inviati diversi messaggi, con conseguenti costi aggiuntivi.
 
 >[!CAUTION]
 >
->L'inserimento di campi personalizzati nel contenuto del messaggio SMS può introdurre caratteri che non vengono considerati in base alla codifica GSM. A content example is offered in the [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md) section.
+>L'inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Un esempio di contenuto è disponibile nella sezione [Personalizzazione dei messaggi](../../channels/using/personalizing-sms-messages.md) SMS.
 
-Per impostazione predefinita, la trasformazione dei caratteri è disattivata. Se desiderate mantenere invariati tutti i caratteri nei messaggi SMS, per non modificare i nomi corretti ad esempio, è consigliabile non abilitare questa opzione.
+Per impostazione predefinita, la traduzione dei caratteri è disabilitata. Se si desidera che tutti i caratteri nei messaggi SMS siano mantenuti invariati, per non modificare ad esempio i nomi propri, si consiglia di non abilitare questa opzione.
 
-Tuttavia, se i messaggi SMS contengono molti caratteri che generano messaggi Unicode, potete scegliere di abilitare questa opzione per limitare i costi di invio dei messaggi.
+Tuttavia, se i messaggi SMS contengono molti caratteri che generano messaggi Unicode, è possibile abilitare questa opzione per limitare i costi di invio dei messaggi.
 
-### Table of characters - GSM Standard {#table-of-characters---gsm-standard}
+### Tabella di caratteri - GSM Standard {#table-of-characters---gsm-standard}
 
-In questa sezione sono presentati i caratteri presi in considerazione dallo standard GSM. Tutti i caratteri inseriti nel corpo del messaggio, diversi da quelli indicati di seguito, convertono l'intero messaggio in formato binario (Unicode) e quindi limitarlo a 70 caratteri. For more on this, refer to the [SMS encoding, length and transliteration](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+Questa sezione presenta i caratteri presi in considerazione dallo standard GSM. Tutti i caratteri inseriti nel corpo del messaggio, diversi da quelli indicati di seguito, convertono l'intero messaggio in formato binario (Unicode) e quindi lo limitano a 70 caratteri. Per ulteriori informazioni, consulta la sezione dedicata alla codifica [SMS, alla lunghezza e alla traslitterazione](#sms-encoding--length-and-transliteration) .
 
-**Caratteri di base**
+**Caratteri base**
 
 <table> 
  <tbody> 
@@ -198,12 +198,12 @@ In questa sezione sono presentati i caratteri presi in considerazione dallo stan
    <td> (<br /> </td> 
    <td> 8<br /> </td> 
    <td> H<br /> </td> 
-   <td> X<br /> </td> 
+   <td>  X<br /> </td> 
    <td> h<br /> </td> 
    <td> x<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ç<br /> </td> 
+   <td> OA<br /> </td> 
    <td> <img height="21px" src="assets/theta.png" /> <br /> </td> 
    <td> )<br /> </td> 
    <td> 9 </td> 
@@ -228,13 +228,13 @@ In questa sezione sono presentati i caratteri presi in considerazione dallo stan
    <td> +<br /> </td> 
    <td> ;<br /> </td> 
    <td> K<br /> </td> 
-   <td> Ä<br /> </td> 
+   <td> Execute<br /> </td> 
    <td> k<br /> </td> 
    <td> ä<br /> </td> 
   </tr> 
   <tr> 
    <td> ø<br /> </td> 
-   <td> Æ<br /> </td> 
+   <td> AE<br /> </td> 
    <td> ,<br /> </td> 
    <td> &lt;<br /> </td> 
    <td> L<br /> </td> 
@@ -248,17 +248,17 @@ In questa sezione sono presentati i caratteri presi in considerazione dallo stan
    <td> -<br /> </td> 
    <td> = </td> 
    <td> M<br /> </td> 
-   <td> Ñ<br /> </td> 
+   <td> question<br /> </td> 
    <td> m<br /> </td> 
-   <td> ñ<br /> </td> 
+   <td> D<br /> </td> 
   </tr> 
   <tr> 
-   <td> Å<br /> </td> 
+   <td> ank<br /> </td> 
    <td> ß<br /> </td> 
    <td> .<br /> </td> 
    <td> &gt;<br /> </td> 
    <td> N<br /> </td> 
-   <td> Ü<br /> </td> 
+   <td> ü<br /> </td> 
    <td> n<br /> </td> 
    <td> ü<br /> </td> 
   </tr> 
@@ -275,11 +275,11 @@ In questa sezione sono presentati i caratteri presi in considerazione dallo stan
  </tbody> 
 </table>
 
-SP: Spazio
+SP: Space
 
 ESC: Esc
 
-LF: Feed linea
+LF: Avanzamento riga
 
 CR: Ritorno a capo
 
@@ -287,71 +287,71 @@ CR: Ritorno a capo
 
 ^ { } [ ~ ] | €
 
-### SMSC specifics {#smsc-specifics}
+### Specifiche SMSC {#smsc-specifics}
 
 >[!NOTE]
 >
->Queste opzioni consentono di adattare il connettore per lavorare con SMSC non standard (ovvero non con esattamente le specifiche SMPP 3.4) oppure con requisiti di codifica specifici e devono essere configurati solo dagli utenti avanzati.
+>Queste opzioni consentono di adattare il connettore in modo che funzioni con SMSC non standard (ovvero non esattamente conforme alle specifiche SMPP 3.4) o con requisiti di codifica specifici e devono essere configurate solo da utenti esperti.
 
-Quando si invia un messaggio SMS, Adobe Campaign può utilizzare una o più codifiche di testo. Ogni codifica ha un proprio set di caratteri specifico e determina il numero di caratteri che rientrano in un messaggio SMS.
+Quando invii un messaggio SMS, Adobe Campaign può utilizzare una o più codifiche di testo. Ogni codifica ha un set di caratteri specifico e determina il numero di caratteri che possono essere inclusi in un messaggio SMS.
 
-**[!UICONTROL DATA_CODING]** Il campo consente ad Adobe Campaign di comunicare con SMS-C quale codifica viene utilizzata.
+Il **[!UICONTROL DATA_CODING]** campo consente ad Adobe Campaign di comunicare all'SMS-C quale codifica viene utilizzata.
 
 >[!NOTE]
 >
->The mapping between the **data_coding** value and the encoding actually used is standardized. Nevertheless, certain SMS-C have their own specific mapping: in this case, your **Adobe Campaign** administrator needs to declare this mapping. Per ulteriori informazioni, consultate il vostro fornitore.
+>La mappatura tra il valore **data_coding** e la codifica effettivamente utilizzata è standardizzata. Tuttavia, alcuni SMS-C hanno una propria mappatura specifica: in questo caso, l'amministratore di **Adobe Campaign** deve dichiarare questa mappatura. Consultate il vostro fornitore per ulteriori informazioni.
 
-**[!UICONTROL Define a specific mapping of encodings]** La funzionalità consente di dichiarare **i dati data_ codings** e di forzare la codifica, se necessario: A tal fine, specificare una codifica singola nella tabella.
+La **[!UICONTROL Define a specific mapping of encodings]** funzionalità consente di dichiarare **data_codings** e forzare la codifica, se necessario: a tal fine, specificate una singola codifica nella tabella.
 
 **Configurazione**
 
-* When the **[!UICONTROL Define a specific mapping of encodings]** functionality is not checked, the connector takes on a generic behavior:
+* Quando la **[!UICONTROL Define a specific mapping of encodings]** funzionalità non è selezionata, il connettore assume un comportamento generico:
 
-   * It will try to use GSM encoding to which it assigns the value **data_coding = 0**.
-   * If GSM encoding fails, it will use **UCS2** encoding to which it assigns the value **data_coding = 8**.
+   * Proverà a utilizzare la codifica GSM a cui assegna il valore **data_coding = 0**.
+   * Se la codifica GSM non riesce, utilizzerà la codifica **UCS2** a cui assegna il valore **data_coding = 8**.
    ![](assets/sms_data_coding.png)
 
-* When the **[!UICONTROL Define a specific mapping of encodings]** functionality is checked, you can define the encodings that you would like to use as well as the linked **[!UICONTROL data_coding]** field values. Adobe Campaign proverà a utilizzare la prima codifica nell'elenco, quindi le seguenti, se la prima codifica risulta impossibile.
+* Quando la **[!UICONTROL Define a specific mapping of encodings]** funzionalità è selezionata, è possibile definire sia le codifiche che i valori dei **[!UICONTROL data_coding]** campi collegati. Adobe Campaign cercherà di utilizzare la prima codifica nell'elenco, quindi la seguente, se la prima codifica risulta impossibile.
 
-   The order of declaration is important: it is recommended that you put the list in ascending order **of cost** in order to favor the encodings allowing you to fit as many characters as possible in each SMS message.
+   L'ordine di dichiarazione è importante: si consiglia di inserire l'elenco in ordine crescente **di costo** per favorire le codifiche che consentono di contenere il maggior numero possibile di caratteri in ogni messaggio SMS.
 
-   Dichiarare solo le codifiche che si desidera utilizzare. Se alcune codifiche fornite da SMS-C non devono corrispondere a quelle dell'uso, non dichiararle nell'elenco.
+   Dichiarare solo le codifiche che si desidera utilizzare. Se alcune delle codifiche fornite dall'SMS-C non devono corrispondere al vostro scopo di utilizzo, non dichiararle nell'elenco.
 
    ![](assets/sms_data_coding1.png)
 
-### Automatic reply sent to the MO {#automatic-reply-sent-to-the-mo}
+### Risposta automatica inviata al MO {#automatic-reply-sent-to-the-mo}
 
-Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, è possibile configurare messaggi che vengono inviati automaticamente e l'azione da eseguire.
+Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, puoi configurare i messaggi che gli vengono automaticamente inviati e l'azione da eseguire.
 
 For more information, refer to [this section](../../channels/using/managing-incoming-sms.md).
 
-## Configuring SMS properties {#configuring-sms-properties}
+## Configurazione delle proprietà SMS {#configuring-sms-properties}
 
-Questa sezione descrive l'elenco di parametri univoci di SMS nella schermata Proprietà di una consegna SMS o di un modello SMS.
+Questa sezione descrive l'elenco dei parametri unici per SMS nella schermata delle proprietà di un SMS delivery o di un modello SMS.
 
-The specific parameters for sending SMS messages are regrouped in the **[!UICONTROL Send]** and in the **[!UICONTROL Advanced parameters]** sections.
+I parametri specifici per l'invio di messaggi SMS sono raggruppati nelle sezioni **[!UICONTROL Send]** e nelle **[!UICONTROL Advanced parameters]** .
 
 ![](assets/sms_options.png)
 
-* The **[!UICONTROL From]** option allows you to personalize the name of the SMS message sender using a string of characters. Si tratta del nome che verrà visualizzato come nome mittente del messaggio SMS sul telefono cellulare del destinatario.
+* L' **[!UICONTROL From]** opzione consente di personalizzare il nome del mittente del messaggio SMS utilizzando una stringa di caratteri. Nome che verrà visualizzato come nome mittente del messaggio SMS sul telefono cellulare del destinatario.
 
-   Se questo campo è vuoto, sarà il numero di origine fornito nell'account esterno che verrà utilizzato. Se non viene fornito alcun numero di origine, sarà il codice breve che verrà utilizzato. The external account specific to SMS delivery is presented in the [External SMS account](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+   Se questo campo è vuoto, sarà il numero di origine fornito nell'account esterno che verrà utilizzato. Se non viene fornito alcun numero di origine, verrà utilizzato il codice breve. L'account esterno specifico per la consegna SMS è presentato nella sezione [Esterno account](#defining-an-sms-routing) SMS.
 
    ![](assets/sms_smpp.png)
 
    >[!CAUTION]
    >
-   >Controllate la normativa del vostro paese in merito alla modifica dell'indirizzo del mittente. È inoltre necessario rivolgersi al provider di servizi SMS per verificare se offrire questa funzionalità.
+   >Controlla la legislazione del tuo paese riguardo alla modifica dell'indirizzo del mittente. È inoltre necessario verificare con il provider di servizi SMS se offre questa funzionalità.
 
-* The **[!UICONTROL Maximum number of SMS per message]** option allows you to define the number of SMS messages to use to send a message. Se questo numero viene superato, il messaggio non verrà inviato.
+* L' **[!UICONTROL Maximum number of SMS per message]** opzione consente di definire il numero di messaggi SMS da utilizzare per inviare un messaggio. Se questo numero viene superato, il messaggio non verrà inviato.
 
    >[!CAUTION]
    >
-   >Se sono stati inseriti campi di personalizzazione o testo condizionale nel contenuto del messaggio SMS, la lunghezza del messaggio e, come risultato, il numero di messaggi SMS da inviare possono variare da un destinatario all'altro. For more on this, refer to the [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md) section.
+   >Se hai inserito campi di personalizzazione o testo condizionale nel contenuto del tuo messaggio SMS, la lunghezza del messaggio e, di conseguenza, il numero di messaggi SMS da inviare possono variare da un destinatario all'altro. Per ulteriori informazioni, consulta la sezione [Personalizzazione dei messaggi](../../channels/using/personalizing-sms-messages.md) SMS.
 
-* **[!UICONTROL Transmission mode]** Il campo consente di determinare il metodo di consegna per i messaggi SMS:
+* Il **[!UICONTROL Transmission mode]** campo consente di determinare il metodo di consegna dei messaggi SMS:
 
-   * **[!UICONTROL Saved on SIM card]**: il messaggio viene memorizzato nella scheda SIM del destinatario.
-   * **[!UICONTROL Saved on mobile]**: il messaggio viene memorizzato nella memoria interna del telefono.
-   * **[!UICONTROL Flash]**: il messaggio viene visualizzato sul telefono mobile del destinatario come notifica, quindi scompare senza essere salvato.
+   * **[!UICONTROL Saved on SIM card]**: il messaggio è memorizzato sulla scheda SIM del destinatario.
+   * **[!UICONTROL Saved on mobile]**: il messaggio è memorizzato nella memoria interna del telefono.
+   * **[!UICONTROL Flash]**: il messaggio viene visualizzato sul telefono cellulare del destinatario come notifica, quindi scompare senza essere salvato.
 
