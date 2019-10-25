@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Il contenuto e la visualizzazione dei messaggi inviati da Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati in base ai criteri in base ai profili. In generale, Adobe Campaign consente di:
 
-* Inserire campi di personalizzazione dinamica. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field)di personalizzazione.
-* Inserisci blocchi di personalizzazione predefiniti. Consultate [Aggiunta di un blocco](../../designing/using/personalization.md#adding-a-content-block)di contenuto.
-* Personalizza il mittente di un messaggio e-mail. Consulta [Personalizzazione del mittente](../../designing/using/personalization.md#personalizing-the-sender).
+* Inserire campi di personalizzazione dinamica. Consultate [Inserimento di un campo](#inserting-a-personalization-field)di personalizzazione.
+* Inserisci blocchi di personalizzazione predefiniti. Consultate [Aggiunta di un blocco](#adding-a-content-block)di contenuto.
+* Personalizza il mittente di un messaggio e-mail. Consulta [Personalizzazione del mittente](#personalizing-the-sender).
 * Personalizza l’oggetto di un messaggio e-mail. Consultate [Personalizzazione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Creare contenuto condizionale. Consultate [Definizione del contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* Creare contenuto condizionale. Consultate [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email)
 
 ## Personalizzazione del mittente {#personalizing-the-sender}
 
@@ -148,7 +148,7 @@ Per creare un blocco di contenuto, effettuate le seguenti operazioni:
    * **[!UICONTROL Landing page]**: Il blocco di contenuto può essere utilizzato solo in una pagina di destinazione.
    ![](assets/content_bloc_02.png)
 
-1. Potete selezionare un **[!UICONTROL Targeting dimension]**. Per ulteriori informazioni, consultate [Informazioni sulla dimensione](../../designing/using/personalization.md#about-targeting-dimension)di targeting.
+1. Potete selezionare un **[!UICONTROL Targeting dimension]**. Per ulteriori informazioni, consultate [Informazioni sulla dimensione](#about-targeting-dimension)di targeting.
 
    ![](assets/content_bloc_04.png)
 
@@ -178,9 +178,9 @@ Per ulteriori informazioni, consulta [Impostazione del targeting di dimensioni e
 
 **Argomenti correlati:**
 
-* [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Aggiunta di un blocco di contenuto](../../designing/using/personalization.md#adding-a-content-block)
-* [Definizione di contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserimento di un campo di personalizzazione](#inserting-a-personalization-field)
+* [Aggiunta di un blocco di contenuto](#adding-a-content-block)
+* [Definizione di contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email)
 
 ## Personalizzazione di un’origine immagine{#personalizing-an-image-source}
 
@@ -228,7 +228,7 @@ Queste condizioni adottano la sintassi dell'espressione XTK (ad es. **context.pr
 
 In un messaggio e-mail potete definire contenuti diversi che verranno visualizzati in modo dinamico ai destinatari in base alle condizioni definite tramite l'editor di espressioni. Ad esempio, dalla stessa e-mail, puoi fare in modo che ogni profilo riceva un messaggio diverso in base alla sua fascia di età.
 
-La definizione del contenuto dinamico è diversa dalla [definizione delle condizioni](../../designing/using/personalization.md#defining-a-visibility-condition)di visibilità.
+La definizione del contenuto dinamico è diversa dalla [definizione delle condizioni](#defining-a-visibility-condition)di visibilità.
 
 1. Selezionare un frammento, un componente o un elemento. In questo esempio, selezionate un’immagine.
 1. Fate clic sull’ **[!UICONTROL Dynamic content]** icona nella barra degli strumenti contestuale.
@@ -261,7 +261,7 @@ La definizione del contenuto dinamico è diversa dalla [definizione delle condiz
 
    ![](assets/dynamic_content_7.png)
 
-   Il contenuto verrà visualizzato nella palette in ordine di priorità, dall'alto verso il basso. For more on priorities, refer to [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+   Il contenuto verrà visualizzato nella palette in ordine di priorità, dall'alto verso il basso. For more on priorities, refer to [this section](#defining-dynamic-content-in-an-email).
 
 1. Caricate una nuova immagine per la variante appena definita.
 
@@ -318,13 +318,13 @@ Il messaggio e-mail viene creato come segue:
 
    ![](assets/delivery_content_43.png)
 
-   L’aggiunta e la configurazione di contenuto dinamico sono descritti in dettaglio nella sezione [Definizione del contenuto dinamico di una sezione e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) .
+   L’aggiunta e la configurazione di contenuto dinamico sono descritti in dettaglio nella sezione [Definizione del contenuto dinamico di una sezione e-mail](#defining-dynamic-content-in-an-email) .
 
 * I campi di personalizzazione e il contenuto dinamico vengono applicati al testo. A seconda dell’intervallo di età del profilo, l’e-mail inizia con il nome del profilo oppure con il titolo e il cognome del profilo.
 
    ![](assets/delivery_content_44.png)
 
-   L’aggiunta e la configurazione dei campi di personalizzazione sono descritti in dettaglio nella sezione [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field) di personalizzazione.
+   L’aggiunta e la configurazione dei campi di personalizzazione sono descritti in dettaglio nella sezione [Inserimento di un campo](#inserting-a-personalization-field) di personalizzazione.
 
 ### Configurazione delle immagini {#configuring-images}
 
@@ -371,7 +371,7 @@ In questo esempio, il contenuto dinamico applicato ai testi è configurato come 
 **Per eseguire il targeting dei profili di età compresa tra 18 e 27 anni:**
 
 1. Selezionate il componente struttura desiderato e aggiungete un contenuto dinamico.
-1. Modificate il contenuto dinamico e configurate le espressioni di targeting. Consultate [Configurazione delle immagini](../../designing/using/personalization.md#configuring-images).
+1. Modificate il contenuto dinamico e configurate le espressioni di targeting. Consultate [Configurazione delle immagini](#configuring-images).
 1. Nel componente struttura, nella posizione desiderata, fate clic sull’ **[!UICONTROL Personalize]** icona nella barra degli strumenti contestuale e selezionate **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
@@ -385,7 +385,7 @@ In questo esempio, il contenuto dinamico applicato ai testi è configurato come 
 **Per eseguire il targeting dei profili di oltre 27 anni:**
 
 1. Selezionate il componente struttura desiderato e aggiungete un contenuto dinamico.
-1. Modificate il contenuto dinamico e configurate le espressioni di targeting. Consultate [Configurazione delle immagini](../../designing/using/personalization.md#configuring-images).
+1. Modificate il contenuto dinamico e configurate le espressioni di targeting. Consultate [Configurazione delle immagini](#configuring-images).
 1. Nel componente struttura, nella posizione desiderata, fate clic sull’ **[!UICONTROL Personalize]** icona nella barra degli strumenti contestuale e selezionate **[!UICONTROL Insert personalization field]**.
 1. Selezionare **[!UICONTROL Title]** dall'elenco a discesa.
 1. Procedere in modo simile per aggiungere il **[!UICONTROL Last name]** campo.
