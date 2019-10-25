@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: utente finale
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -154,7 +154,7 @@ source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
    + Informazioni sui rapporti {#about-reporting}
       + [Informazioni sui report dinamici](reporting/using/about-dynamic-reports.md)
       + [Interfaccia di reporting](reporting/using/reporting-interface.md)
-      + [Elenco dei componenti ](reporting/using/list-of-components-.md)
+      + [Elenco dei componenti](reporting/using/list-of-components-.md)
       + [Calcolo indicatore](reporting/using/indicator-calculation.md)
       + [Risoluzione dei problemi](reporting/using/troubleshooting.md)
    + Elenco dei rapporti {#list-of-reports}
