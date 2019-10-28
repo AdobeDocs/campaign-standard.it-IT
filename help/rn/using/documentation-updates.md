@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ La guida introduttiva al GDPR è stata migliorata e arricchita. È ora una docum
 
 La guida introduttiva sulle procedure ottimali per la distribuzione è stata aggiornata. [Leggi tutto](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+È stata aggiunta una nuova sezione. Fornisce una panoramica dei diversi metodi che consentono di arricchire il database di Campaign Standard. [Leggi tutto](../../start/using/enriching-campaign-database.md)
+
+È stata aggiunta una nuova sezione che descrive come assegnare uno stile ai collegamenti con Designer e-mail. [Leggi tutto](../../designing/using/styles.md#about-styling-links)
 
 ## Aggiornamenti della documentazione - Ottobre 2019 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ La guida introduttiva sulle procedure ottimali per la distribuzione è stata agg
 La sezione Messaggistica transazionale è stata modificata con gli ultimi aggiornamenti dell'interfaccia utente, inclusa la modifica del contenuto con Email Designer. [Leggi tutto](../../channels/using/event-transactional-messages.md)
 
 Il capitolo delle pagine di destinazione è stato riorganizzato. È stata inoltre arricchita da una nuova sezione che descrive i passaggi necessari per impostare una pagina di destinazione. [Leggi tutto](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+La pagina di integrazione di Audience Manager è stata aggiornata per riflettere le modifiche apportate all’ID **** dichiarato. [Leggi tutto](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Aggiornamenti della documentazione - Settembre 2019 {#doc-updates-september-2019}
 
