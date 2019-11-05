@@ -1,46 +1,44 @@
 ---
 title: Aggiunta di visualizzazioni
-seo-title: Aggiunta di visualizzazioni
-description: Aggiunta di visualizzazioni
-seo-description: I rapporti dinamici offrono un set di visualizzazioni per aggiungere una rappresentazione grafica al report.
-page-status-flag: never-activated
-uuid: f 4 d 851 c 1-8 ef 8-4295-a 7 bc-eb 9608 fbc 497
+description: I rapporti dinamici offrono una serie di visualizzazioni per aggiungere una rappresentazione grafica al rapporto.
+page-status-flag: mai attivato
+uuid: f4d851c1-8ef8-4295-a7bc-eb9608fbc497
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: reporting
-content-type: riferimento
-topic-tags: personalizzazione dei rapporti
-discoiquuid: 6170342 b -7 e 16-4 cc 5-81 a 0-fa 0 bef 8569 a 8
+content-type: reference
+topic-tags: personalizzazione dei report
+discoiquuid: 6170342b-7e16-4cc5-81a0-fa0bef8569a8
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Adding visualizations{#adding-visualizations}
+# Aggiunta di visualizzazioni{#adding-visualizations}
 
-The **Visualizations** tab lets you drag and drop visualization items, such as area, donut and graph. Le visualizzazioni offrono rappresentazioni grafiche dei dati.
+La scheda **Visualizzazioni** consente di trascinare e rilasciare elementi di visualizzazione, ad esempio area, ciambella e grafico. Le visualizzazioni forniscono rappresentazioni grafiche dei dati.
 
-1. In the **[!UICONTROL Visualizations]** tab, drag and drop a visualization item in a panel.
+1. Nella **[!UICONTROL Visualizations]** scheda, trascina e rilascia un elemento di visualizzazione in un pannello.
 
    ![](assets/dynamic_report_visualization_1.png)
 
-1. Dopo aver aggiunto una visualizzazione al pannello, i rapporti dinamici rilevano automaticamente i dati nella tabella a forma libera. Seleziona le impostazioni per la visualizzazione.
-1. If you have more than one freeform table, choose the available data source to add in your graph in the **Data Source Settings** window. Questa finestra è disponibile anche facendo clic sul punto colorato accanto al titolo della visualizzazione.
+1. Dopo aver aggiunto una visualizzazione al pannello, i report dinamici rilevano automaticamente i dati nella tabella a forma libera. Seleziona le impostazioni per la visualizzazione.
+1. Se disponi di più tabelle a forma libera, scegli l’origine dati disponibile da aggiungere nel grafico nella finestra Impostazioni **origine** dati. Questa finestra è disponibile anche facendo clic sul punto colorato accanto al titolo della visualizzazione.
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Click the **[!UICONTROL Visualization]** settings button to directly change the graph type or what is displayed on it, such as:
+1. Fate clic sul pulsante **[!UICONTROL Visualization]** Impostazioni per modificare direttamente il tipo di grafico o il contenuto visualizzato, ad esempio:
 
    * **Percentuali**: Visualizza i valori in percentuale.
-   * **Ancoraggio asse Y su zero**: Forza l'asse y a zero anche se i valori sono compresi sopra zero.
-   * **Legenda visibile**: Consente di nascondere la legenda.
-   * **Normalizzazione**: Impone la corrispondenza dei valori.
-   * **Visualizza asse doppio**: Aggiunge un altro asse al grafico.
+   * **Ancoraggio asse Y su zero**: Forza l'asse y a zero anche se i valori sono superiori a zero.
+   * **Legenda visibile**: Ti permette di nascondere la leggenda.
+   * **Normalizzazione**: Forza la corrispondenza dei valori.
+   * **Visualizza asse** doppio: Aggiunge un altro asse al grafico.
    * **Limite massimo elementi**: Limita il numero di grafici visualizzati.
-   * **Soglia**: Consente di impostare una soglia per il grafico. Viene visualizzata come linea punteggiata nera.
+   * **Soglia**: Consente di impostare una soglia per il grafico. Viene visualizzata come una linea punteggiata nera.
    ![](assets/dynamic_report_visualization_3.png)
 
-Questa visualizzazione consente di visualizzare in modo più chiaro i dati nei rapporti.
+Questa visualizzazione consente di avere una visualizzazione più chiara dei dati nei rapporti.
