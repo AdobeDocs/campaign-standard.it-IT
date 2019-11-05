@@ -1,8 +1,6 @@
 ---
-title: Definizione del contenuto della posta diretta
-seo-title: Definizione del contenuto della posta diretta
-description: Definizione del contenuto della posta diretta
-seo-description: Scoprite come definire il contenuto per la distribuzione diretta della posta.
+title: Definizione del contenuto della direct mail
+description: Scoprite come definire il contenuto per la distribuzione diretta della posta.
 page-status-flag: mai attivato
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Definizione del contenuto della posta diretta{#defining-the-direct-mail-content}
+# Definizione del contenuto della direct mail{#defining-the-direct-mail-content}
 
 Potete definire il contenuto nell’ultima schermata della creazione guidata oppure facendo clic sulla sezione **Contenuto** del dashboard di distribuzione.
 
