@@ -1,8 +1,6 @@
 ---
 title: Progettazione contenuto e-mail di avvio rapido
-seo-title: Progettazione contenuto e-mail di avvio rapido
-description: Progettazione contenuto e-mail di avvio rapido
-seo-description: Iniziate a creare contenuto e-mail con Designer e-mail.
+description: Iniziate a creare contenuto e-mail con Designer e-mail.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
