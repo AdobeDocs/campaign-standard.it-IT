@@ -1,8 +1,6 @@
 ---
 title: Segnale esterno
-seo-title: Segnale esterno
-description: Segnale esterno
-seo-description: L'attività di segnale esterno attiva un flusso di lavoro quando alcune condizioni vengono soddisfatte in un altro flusso di lavoro.
+description: L'attività di segnale esterno attiva un flusso di lavoro quando alcune condizioni vengono soddisfatte in un altro flusso di lavoro.
 page-status-flag: mai attivato
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: segnale,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
