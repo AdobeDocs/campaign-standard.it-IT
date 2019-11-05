@@ -1,49 +1,47 @@
 ---
 title: AND-join
-seo-title: AND-join
-description: AND-join
-seo-description: L'attività di partecipazione AND consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
-page-status-flag: never-activated
-uuid: 9 b 54 fd 4 c -9915-400 f-a 494-74 e 52 c 329 b 8 a
+description: L'attività AND-join consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
+page-status-flag: mai attivato
+uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: esecuzione-attività
-discoiquuid: 4 b 55 efa 2-652 e -4493-bfa 7-eaee 59 b 383 ca
-context-tags: andjoin, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di esecuzione
+discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
+context-tags: andjoin,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # AND-join{#and-join}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/and_join.png)
 
-The **[!UICONTROL AND-join]** activity allows you to synchronize multiple execution branches of a workflow.
+L' **[!UICONTROL AND-join]** attività consente di sincronizzare più rami di esecuzione di un flusso di lavoro.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL AND-join]** activity only triggers its outbound transition once all the inbound transitions are activated, in other words, once all of the preceding activities have finished.
+L' **[!UICONTROL AND-join]** attività attiva la propria transizione in uscita solo una volta che tutte le transizioni in entrata vengono attivate, in altre parole, una volta completate tutte le attività precedenti.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Rilascia più attività, come query nel flusso di lavoro, per formare almeno due rami di esecuzione diversi.
-1. Drag and drop an **[!UICONTROL AND-join]** activity into your workflow.
-1. Collegatela dopo i due diversi rami che desiderate sincronizzare.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Selezionate il set principale da mantenere nella transizione in uscita. Se non selezionate alcun set, viene inviata una popolazione casuale dall'attività.
+1. Rilasciate più attività, ad esempio query, nel flusso di lavoro per creare almeno due rami di esecuzione diversi.
+1. Trascinate e rilasciate un' **[!UICONTROL AND-join]** attività nel flusso di lavoro.
+1. Connettetelo dopo i due rami diversi che desiderate sincronizzare.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Selezionare il set principale da mantenere nella transizione in uscita. Se non selezionate alcun set, verrà inviata una popolazione casuale dall'attività.
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example {#example}
+## Esempio {#example}
 
-The following example shows two workflow branches before they are joined with the **[!UICONTROL AND-join]** activity. File extraction can only take place when the three inbound transitions of the **[!UICONTROL AND-join]** activity are enabled.
+L'esempio seguente mostra due rami del flusso di lavoro prima che siano uniti all' **[!UICONTROL AND-join]** attività. L'estrazione dei file può avvenire solo quando sono abilitate le tre transizioni in entrata dell' **[!UICONTROL AND-join]** attività.
 
 ![](assets/wkf_and-join_example.png)
 
