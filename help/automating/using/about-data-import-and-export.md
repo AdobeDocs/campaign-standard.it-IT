@@ -1,37 +1,35 @@
 ---
-title: Informazioni sull'importazione e l'esportazione di dati
-seo-title: Informazioni sull'importazione e l'esportazione di dati
-description: Informazioni sull'importazione e l'esportazione di dati
-seo-description: Scopri i diversi modi per importare ed esportare dati con Adobe Campaign.
-page-status-flag: never-activated
-uuid: f 6810364-555 c -4 b 72-8 a 9 c -4 ae 2 fcb 2 ba 63
+title: Informazioni sull’importazione e sull’esportazione di dati
+description: Scopri le diverse modalità di importazione ed esportazione dei dati con Adobe Campaign.
+page-status-flag: mai attivato
+uuid: f6810364-555c-4b72-8a9c-4ae2fcb2ba63
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: import-and-exporting-data
-discoiquuid: 31215773-6 c 0 c -48 f 1-9101-da 0 ea 2 a 366 da
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: importazione ed esportazione di dati
+discoiquuid: 31215773-6c0c-48f1-9101-da0ea2a366da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About data import and export{#about-data-import-and-export}
+# Informazioni sull’importazione e sull’esportazione di dati{#about-data-import-and-export}
 
-A seconda delle esigenze aziendali, puoi importare ed esportare dati con Adobe Campaign:
+A seconda delle esigenze aziendali, con Adobe Campaign puoi importare ed esportare i dati in diversi modi:
 
-* **Pacchetti**: sono file XML che consentono di esportare e importare configurazioni e set di dati da un'istanza Adobe Campaign a un altro. Gli aggiornamenti del sistema vengono eseguiti anche tramite importazioni di pacchetti.
-* **Elenchi**: tutte le schermate elenco possono essere configurate e i dati visualizzati vengono esportati in un file separato.
-* **Flussi di lavoro**: importare dati dai file e utilizzarli per aggiornare il database o inviare e-mail. Potete anche selezionare i dati da esportare nei file. I flussi di lavoro sono il metodo migliore per automatizzare aggiornamenti regolari, come le importazioni di profilo.
+* **Pacchetti**: i pacchetti sono file XML che consentono di esportare e importare configurazioni e set di dati da un'istanza di Adobe Campaign a un'altra. Gli aggiornamenti di sistema vengono eseguiti anche tramite le importazioni di pacchetti.
+* **Elenchi**: è possibile configurare tutte le schermate elenco e esportare i dati visualizzati in un file separato.
+* **Flussi** di lavoro: importare dati dai file e usarli per aggiornare il database o inviare e-mail. È inoltre possibile selezionare i dati da esportare nei file. I flussi di lavoro sono il modo migliore per automatizzare gli aggiornamenti regolari, come le importazioni di profili.
 
-Durante la progettazione dei processi di importazione, è consigliabile utilizzare i modelli di workflow che si adattano in base alle esigenze. For more on how to set up a workflow template to import data, refer to [this use case](../../automating/using/importing-data.md#example--import-workflow-template).
+Durante la progettazione dei processi di importazione, è consigliabile utilizzare modelli di flusso di lavoro adattabili alle proprie esigenze. Per ulteriori informazioni su come impostare un modello di flusso di lavoro per l’importazione di dati, consulta [questo caso](../../automating/using/importing-data.md#example--import-workflow-template)di utilizzo.
 
-Adobe Campaign also offers a simplified way to perform regular imports which consists in designing **import templates**. I modelli di importazione sono modelli di flussi di lavoro specializzati disponibili tramite uno schermo dedicato. Una volta progettato, l'utente che esegue l'importazione deve caricare il file da importare in una visualizzazione semplificata.
+Adobe Campaign offre inoltre un modo semplificato per effettuare importazioni regolari, che consiste nella progettazione di modelli **di** importazione. I modelli di importazione sono modelli di flusso di lavoro specializzati disponibili tramite una schermata dedicata. Una volta progettato, l'utente che esegue l'importazione deve caricare solo il file da importare in una visualizzazione semplificata.
 
-**Argomenti correlati**:
+**Argomenti** correlati:
 
 * [Importazione di dati con modelli di importazione](../../automating/using/importing-data-with-import-templates.md)
 * [Definizione dei modelli di importazione](../../automating/using/defining-import-templates.md)
