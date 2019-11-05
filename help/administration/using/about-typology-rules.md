@@ -1,8 +1,6 @@
 ---
 title: Informazioni sulle regole di tipologia
-seo-title: Informazioni sulle regole di tipologia
-description: Informazioni sulle regole di tipologia
-seo-description: Scopri come funzionano le regole di tipologia in Adobe Campaign.
+description: Scopri come funzionano le regole di tipologia in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: tipologia,panoramica;regolaTipologia,principale;regolaTipologia,pa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
