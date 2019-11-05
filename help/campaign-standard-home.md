@@ -1,11 +1,10 @@
 ---
 keywords: Campaign Standard;home;popular topics
-seo-title: Documentazione di Adobe Campaign Standard
 solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -16,10 +15,10 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ## Novità
 
-* **[Gestione della privacy](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)**<br/>
+* **[Gestione della privacy](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
 
-* **[Best practice per la distribuzione di contenuti](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)**<br/>
+* **[Best practice per la distribuzione di contenuti](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
 Ulteriori informazioni sulle best practice relative alla progettazione e all'invio dei contenuti.
 
 * **[Finestra di progettazione e-mail](designing/using/designing-content-in-adobe-campaign.md)**<br/>
@@ -71,10 +70,10 @@ Ulteriori informazioni sulla configurazione di una pagina di destinazione.
 
 * [Note sulla versione](rn/using/release-notes.md)
 
-* [Pannello di controllo Campaign](https://helpx.adobe.com/it/campaign/kb/control-panel.html)
+* [Pannello di controllo Campaign](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
 * [Video tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [Guida alla pianificazione della versione](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html)
+* [Guida alla pianificazione della versione](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-* [Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Funzioni obsolete e rimosse](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
