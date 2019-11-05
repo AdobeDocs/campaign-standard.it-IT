@@ -1,8 +1,6 @@
 ---
-title: ' Servizi iscrizione'
-seo-title: ' Servizi iscrizione'
-description: ' Servizi iscrizione'
-seo-description: L’attività Servizi iscrizione consente di prendere profili in massa e iscriverli a un servizio o annullarne l’iscrizione.
+title: Servizi sottoscrizione
+description: L’attività Servizi iscrizione consente di prendere profili in massa e iscriverli a un servizio o annullarne l’iscrizione.
 page-status-flag: mai attivato
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-#  Servizi iscrizione{#subscription-services}
+# Servizi sottoscrizione{#subscription-services}
 
 ## Descrizione {#description}
 
