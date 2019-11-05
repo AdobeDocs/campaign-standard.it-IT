@@ -1,55 +1,53 @@
 ---
 title: Esclusione
-seo-title: Esclusione
-description: Esclusione
-seo-description: L'attività di esclusione consente di escludere gli elementi di una popolazione in base a determinati criteri.
-page-status-flag: never-activated
-uuid: b 79 e 7 f 73-37 a 0-4 ec 3-ac 5 a -5449 dc 1 b 1 f 22
+description: L'attività Esclusione consente di escludere elementi da una popolazione in base a determinati criteri.
+page-status-flag: mai attivato
+uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: targeting-activity
-discoiquuid: d 5312 fcd -43 ad -428 e-bde 9-90 f 062 e 9358 c
-context-tags: esclusione, principale
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di targeting
+discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
+context-tags: esclusione,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Exclusion{#exclusion}
+# Esclusione{#exclusion}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/exclusion.png)
 
-The **[!UICONTROL Exclusion]** activity allows you to exclude elements from one population according to certain criteria.
+L' **[!UICONTROL Exclusion]** attività consente di escludere elementi da una popolazione in base a determinati criteri.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Exclusion]** activity is used essentially to carry out additional filtering on inbound transition populations.
+L' **[!UICONTROL Exclusion]** attività è utilizzata essenzialmente per realizzare ulteriori filtraggi sulle popolazioni di transizione in entrata.
 
-Un set principale è definito nelle transizioni in entrata. I membri di altre transizioni in entrata sono esclusi dal set principale. La transizione in uscita dell'attività di esclusione contiene solo i membri del set principale che non si sono incontrati nelle altre transizioni in entrata.
+Un set primario è definito tra le transizioni in entrata. I membri di altre transizioni in entrata sono esclusi dal set primario. La transizione in uscita dell'attività di esclusione contiene solo i membri del set primario che non si sono incontrati nelle altre transizioni in entrata.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop an **[!UICONTROL Exclusion]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Primary set]** from the inbound transitions. Questo è il set da cui gli elementi sono esclusi. Gli altri set corrispondono agli elementi prima di essere esclusi dal set principale.
+1. Trascinate e rilasciate un' **[!UICONTROL Exclusion]** attività nel flusso di lavoro.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Selezionare le transizioni **[!UICONTROL Primary set]** in entrata. Questo è il set da cui gli elementi sono esclusi. Gli altri set corrispondono agli elementi prima di essere esclusi dal set principale.
 
    >[!NOTE]
    >
-   >Le transizioni in entrata devono contenere lo stesso tipo di popolazione. Ad esempio, se il set principale contiene profili di test, le altre transizioni devono contenere anche profili di prova.
+   >Le transizioni in entrata devono contenere lo stesso tipo di popolazione. Ad esempio, se il set principale contiene profili di test, le altre transizioni devono contenere anche profili di test.
 
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
+1. Se necessario, gestite le [Transizioni](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) dell'attività per accedere alle opzioni avanzate per la popolazione in uscita.
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example {#example}
+## Esempio {#example}
 
-L'esempio seguente mostra due attività di query configurate per filtrare i profili dal database Adobe Campaign che hanno compreso tra 18 e 27 anni e che hanno un indirizzo e-mail non valido. I profili con indirizzi e-mail non validi vengono quindi esclusi dal primo set. Questo consente di inviare un messaggio e-mail ad esempio.
+L'esempio seguente mostra due attività di query configurate per filtrare i profili dal database di Adobe Campaign che hanno tra i 18 e i 27 anni e hanno un indirizzo e-mail non valido. I profili con indirizzi e-mail non validi vengono quindi esclusi dal primo set. Questo consente di inviare un messaggio e-mail, ad esempio.
 
 ![](assets/wkf_exclusion_example.png)
 
