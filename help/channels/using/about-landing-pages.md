@@ -1,8 +1,6 @@
 ---
 title: Informazioni sulle pagine di destinazione
-seo-title: Informazioni sulle pagine di destinazione
-description: Informazioni sulle pagine di destinazione
-seo-description: Scopri le pagine di destinazione di Campaign e il loro ciclo di vita.
+description: Scopri le pagine di destinazione di Campaign e il loro ciclo di vita.
 page-status-flag: mai attivato
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: landingPage,procedura guidata;landingPage,panoramica;landingPage,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
