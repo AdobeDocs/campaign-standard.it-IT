@@ -1,45 +1,43 @@
 ---
 title: Stati delle risorse
-seo-title: Stati delle risorse
-description: Stati delle risorse
-seo-description: Scopri i diversi stati di risorse in base al loro stato di pubblicazione.
-page-status-flag: never-activated
-uuid: 215 c 0 a 2 e -27 ec -43 f 3-baac -1 eaac 7640784
+description: Scoprite i diversi stati delle risorse in base al relativo stato di pubblicazione.
+page-status-flag: mai attivato
+uuid: 215c0a2e-27ec-43f3-baac-1eaac7640784
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: sviluppo
-content-type: riferimento
+products: SG_CAMPAIGN/STANDARD
+audience: development
+content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 85516477-1 b 95-4273-a 0 a 7-d 2 cbb 9950 afd
+discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Resource statuses{#resource-statuses}
+# Stati delle risorse{#resource-statuses}
 
-Le risorse possono avere stati diversi in base alla pubblicazione o allo stato di attivazione.
+Le risorse possono avere stati diversi in base al loro stato di pubblicazione o attivazione.
 
-There are two columns dedicated to displaying these statuses in the **[!UICONTROL Custom resources]** screen.
+Sono disponibili due colonne dedicate alla visualizzazione di questi stati sullo **[!UICONTROL Custom resources]** schermo.
 
 ![](assets/schema_colonne_1.png)
 
 **Stati pubblicazione**
 
-* **Bozza**: la risorsa è stata appena creata o rielaborata. Per creare le tabelle di database e le API corrispondenti, la risorsa deve essere ripubblicata. Se una risorsa viene rielaborata, viene automaticamente riprodotta dopo il passaggio di pubblicazione.
-* **Re-draft in sospeso**: la risorsa è stata rielaborata. Il processo di ribozza si verifica durante la pubblicazione successiva. La riprogettazione è irreversibile. Diversi messaggi di avviso avvisa l'utente di questo fatto sia durante la riscrittura che durante la preparazione alla pubblicazione.
+* **Bozza**: la risorsa è stata appena creata o rielaborata. Per creare le tabelle del database e le API corrispondenti, la risorsa deve essere ripubblicata. Se una risorsa viene rielaborata, viene automaticamente resa inattiva dopo il passaggio di pubblicazione.
+* **Ricarica** in sospeso: la risorsa è stata rielaborata. Il processo di rielaborazione verrà eseguito durante la pubblicazione successiva. La riformulazione è irreversibile. Diversi messaggi di avviso avvisano l’utente di questo problema sia durante la rielaborazione che durante la preparazione della pubblicazione.
 
-   For more on re-drafting, see [Deleting a resource](../../developing/using/deleting-a-resource.md).
+   Per ulteriori informazioni sulla rielaborazione, consultate [Eliminazione di una risorsa](../../developing/using/deleting-a-resource.md).
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Cancel re-draft]** option is available when the resource that you want to re-draft still contains links through other resources with the "Published" status. Questa opzione consente di ripristinare il processo di ribozza. Le risorse personalizzate torneranno a rispondere ai loro stati originali.
+   >L' **[!UICONTROL Cancel re-draft]** opzione è disponibile quando la risorsa che si desidera rigenerare contiene ancora collegamenti tramite altre risorse con lo stato "Pubblicato". Questa opzione consente di ripristinare il processo di "ri-bozza". Le risorse personalizzate torneranno quindi agli stati originali.
 
-* **Pubblicato**: la risorsa è stata pubblicata. Se la risorsa viene modificata dopo la data dell'ultima modifica, viene visualizzato un messaggio che chiede all'utente di ripubblicare per prendere in considerazione le modifiche più recenti.
+* **Pubblicato**: la risorsa è stata pubblicata. Se la risorsa viene modificata dopo l’ultima data di modifica, viene visualizzato un messaggio in cui si chiede all’utente di ripubblicare il contenuto per tenere conto delle ultime modifiche.
 
-**[!UICONTROL Do not publish latest modifications]** Il campo impedisce che le modifiche vengano prese in considerazione durante pubblicazioni future.
+Il **[!UICONTROL Do not publish latest modifications]** campo impedisce che le modifiche vengano prese in considerazione durante pubblicazioni future.
 
-Questo campo può essere configurato nella definizione della risorsa personalizzata.
+Questo campo può essere configurato nella definizione delle risorse personalizzate.
