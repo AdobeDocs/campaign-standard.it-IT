@@ -1,8 +1,6 @@
 ---
-title: Configurazione dei messaggi transazionali
-seo-title: Configurazione dei messaggi transazionali
-description: Configurazione dei messaggi transazionali
-seo-description: Scopri come configurare i messaggi transazionali.
+title: Configurazione della messaggistica transazionale
+description: Scopri come configurare i messaggi transazionali.
 page-status-flag: mai attivato
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configurazione dei messaggi transazionali{#configuring-transactional-messaging}
+# Configurazione della messaggistica transazionale{#configuring-transactional-messaging}
 
 Per inviare un messaggio transazionale con Adobe Campaign, è necessario innanzitutto descrivere la struttura dei dati dell'evento.
 
@@ -63,7 +61,7 @@ I passaggi per aggiungere e modificare i campi sono gli stessi delle risorse [](
 
 >[!NOTE]
 >
->Se desiderate creare un messaggio transazionale multilingue, definite un attributo di evento aggiuntivo con l’ **[!UICONTROL AC_language]** ID. Ciò vale solo per i messaggi relativi alle transazioni degli eventi. Dopo la pubblicazione dell’evento, i passaggi per modificare il contenuto di un messaggio transazionale in più lingue sono gli stessi di un messaggio e-mail standard in più lingue. Consultate [Creazione di un’e-mail](../../channels/using/creating-a-multilingual-email.md)in più lingue.
+>Se desiderate creare un messaggio transazionale multilingue, definite un attributo di evento aggiuntivo con l’ **[!UICONTROL AC_language]** ID. Ciò vale solo per i messaggi relativi alle transazioni degli eventi. Dopo la pubblicazione dell’evento, i passaggi per modificare il contenuto di un messaggio transazionale in più lingue sono gli stessi di un messaggio e-mail standard in più lingue. See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
 
 ## Definizione delle raccolte di dati {#defining-data-collections}
 
@@ -160,7 +158,7 @@ Prima di poter utilizzare l’evento, dovete visualizzarlo in anteprima e pubbli
 >
 >Ogni volta che modificate l’evento, dovete fare di **[!UICONTROL Publish]** nuovo clic per generare l’API REST aggiornata che verrà utilizzata dallo sviluppatore del sito Web.
 
-Una volta pubblicato l’evento, viene automaticamente creato un messaggio transazionale collegato al nuovo evento. Affinché questo evento possa attivare l’invio di un messaggio transazionale, è necessario modificare e pubblicare il messaggio appena creato. Consultate Messaggi transazionali [evento](../../channels/using/event-transactional-messages.md).
+Una volta pubblicato l’evento, viene automaticamente creato un messaggio transazionale collegato al nuovo evento. Affinché questo evento possa attivare l’invio di un messaggio transazionale, è necessario modificare e pubblicare il messaggio appena creato. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 Puoi accedere al messaggio transazionale creato direttamente dal collegamento nell’area a sinistra.
 
