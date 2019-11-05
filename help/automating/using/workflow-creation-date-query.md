@@ -1,8 +1,6 @@
 ---
 title: '"Workflow use-case: Creazione di consegne alla data di creazione del profilo"'
-seo-title: '"Workflow use-case: Creazione di consegne alla data di creazione del profilo"'
 description: '"Workflow use-case: Creazione di consegne alla data di creazione del profilo"'
-seo-description: '"Workflow use-case: Creazione di consegne alla data di creazione del profilo"'
 page-status-flag: mai attivato
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: workflow,use-case,query
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -105,6 +103,6 @@ Per ulteriori informazioni, consultate [progettare un'e-mail](../../designing/us
 **Argomenti correlati:**
 
 * [Query](../../automating/using/query.md)
-* [Scheduler](../../automating/using/scheduler.md)
-* [Invio e-mail](../../automating/using/email-delivery.md)
+* [Pianificazione](../../automating/using/scheduler.md)
+* [Recapito e-mail](../../automating/using/email-delivery.md)
 * [Canale e-mail](../../channels/using/creating-an-email.md)
