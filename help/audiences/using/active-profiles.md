@@ -1,33 +1,31 @@
 ---
 title: Profili attivi
-seo-title: Profili attivi
-description: Profili attivi
-seo-description: Puoi accedere a un rapporto dedicato sulle metriche dei clienti e visualizzare i profili attivi nel database campagna.
-page-status-flag: never-activated
-uuid: ee 8 ac 493-c 297-49 ca-aed 4-3976 d 8 a 685 a 4
+description: Puoi accedere a un rapporto dedicato sulle metriche dei clienti e visualizzare i profili attivi nel database Campaign.
+page-status-flag: mai attivato
+uuid: ee8ac493-c297-49ca-aed4-3976d8a685a4
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audience
-content-type: riferimento
-topic-tags: managing-profiles
-discoiquuid: e 029213 f -0 b 65-41 b 1-8 adf -34 fa 813 b 0 c 70
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: managing-profile
+discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Active profiles{#active-profiles}
+# Profili attivi{#active-profiles}
 
-Adobe Campaign fornisce un rapporto che mostra il numero di profili attivi. Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione. Only administrators can access this report, under **[!UICONTROL Administration > Customer metrics]**.
+ Adobe Campaign fornisce un rapporto che mostra il numero di profili attivi. Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione. Solo gli amministratori possono accedere a questo rapporto, in **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_active_profiles1.png)
 
-The **[!UICONTROL Billing]** technical workflow generates every month a report containing the number of active profiles that were targeted during the last 12-month rolling period.
+Il flusso di lavoro **[!UICONTROL Billing]** tecnico genera ogni mese un rapporto contenente il numero di profili attivi per i quali è stato eseguito il targeting negli ultimi 12 mesi.
 
-I profili che sono stati esclusi durante la preparazione di consegna (regole di tipologie e quarantena) non vengono considerati. Un profilo mirato da più consegne verrà conteggiato solo una volta. Nella parte inferiore del rapporto, troverai l'elenco dei profili attivi per ogni dimensione di targeting.
+I profili esclusi durante la preparazione della consegna (regole di tipologia, quarantena) non vengono presi in considerazione. Un profilo di destinazione per più consegne verrà conteggiato una sola volta. In fondo al rapporto, troverete l'elenco dei profili attivi per ogni dimensione di targeting.
 
 ![](assets/audience_active_profiles2.png)
 
