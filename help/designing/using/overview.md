@@ -1,8 +1,6 @@
 ---
 title: Utilizzo di Email Designer
-seo-title: Utilizzo di Email Designer
-description: Utilizzo di Email Designer
-seo-description: Scoprite il Designer e-mail e come abilita il contenuto della progettazione e-mail.
+description: Scoprite il Designer e-mail e come abilita il contenuto della progettazione e-mail.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
