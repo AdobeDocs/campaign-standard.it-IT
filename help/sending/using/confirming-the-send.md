@@ -1,78 +1,76 @@
 ---
-title: Conferma dell'invio
-seo-title: Conferma dell'invio
-description: Conferma dell'invio
-seo-description: Scopri come finalizzare la preparazione dei messaggi.
-page-status-flag: never-activated
-uuid: 1 eaecb 32-ffd 2-45 d 0-a 8 b 4-f 97 bee 59 a 1 bd
+title: Conferma dell’invio
+description: Scopri come finalizzare la preparazione dei messaggi.
+page-status-flag: mai attivato
+uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: invio
-content-type: riferimento
-topic-tags: invio-and-tracking-messages
-discoiquuid: 8 bb 160 b 1-7 de 9-4 c 1 f-bb 89-b 2 e 5 fdafed 41
-context-tags: distribuzione, distribuzione, indietro
+content-type: reference
+topic-tags: invio e tracciamento di messaggi
+discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
+context-tags: consegna,distribuzione,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Confirming the send{#confirming-the-send}
+# Conferma dell’invio{#confirming-the-send}
 
-Dopo aver preparato i messaggi e i passaggi di approvazione sono stati eseguiti, puoi inviarli. For more on messages preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
+Una volta completata la preparazione dei messaggi e la fase di approvazione, puoi inviarli. Per ulteriori informazioni sulla preparazione dei messaggi, consulta [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
 
-Only users with the **[!UICONTROL Start deliveries]** role can confirm send. For more on this, refer to the [List of roles](../../administration/using/list-of-roles.md) section.
+Solo gli utenti con il **[!UICONTROL Start deliveries]** ruolo possono confermare l’invio. Per ulteriori informazioni, consultare la sezione [Elenco di ruoli](../../administration/using/list-of-roles.md) .
 
 Gli utenti senza questo ruolo visualizzeranno il seguente messaggio:
 
 ![](assets/confirm_delivery_2.png)
 
-To send your delivery, click the **[!UICONTROL Confirm send]** button found in the message's action bar.
+Per inviare la consegna, fai clic sul **[!UICONTROL Confirm send]** pulsante nella barra delle azioni del messaggio.
 
 ![](assets/confirm_delivery.png)
 
-You will be asked to finalize the send definitively by clicking the **[!UICONTROL OK]** button.
+Verrà chiesto di finalizzare l'invio definitivamente facendo clic sul **[!UICONTROL OK]** pulsante.
 
 ![](assets/confirm_delivery1.png)
 
-Invio del messaggio.
+Il messaggio viene inviato.
 
 >[!NOTE]
 >
->Se il messaggio viene pianificato, verrà inviato al raggiungimento dell'ora. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+>Se il messaggio è pianificato, verrà inviato al momento dell'invio. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
 
-Se utilizzi una consegna ricorrente senza periodi di aggregazione, puoi richiedere conferma prima dell'invio della consegna. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+Se si utilizza una consegna periodica senza periodo di aggregazione, è possibile richiedere conferma prima dell'invio della consegna. A questo scopo, aprite il **[!UICONTROL Schedule]** blocco del dashboard di consegna, quindi attivate l'opzione dedicata.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-**[!UICONTROL Deployment]** Il blocco mostra l'avanzamento dell'invio.
+Il **[!UICONTROL Deployment]** blocco mostra l'avanzamento dell'invio.
 
-Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone shows your KPIs (Key Performance Indicator) data , including:
+Una volta inviato il messaggio ai contatti, la **[!UICONTROL Deployment]** zona mostra i dati KPI (Key Performance Indicator), inclusi:
 
-* Numero di messaggi da distribuire
+* Numero di messaggi da inviare
 * Numero di messaggi inviati
-* Percentuale di messaggi consegnati
-* Percentuale di errori ed errori
+* Percentuale di messaggi inviati
+* Percentuale di errori e rimbalzi
 * Percentuale di messaggi aperti
-* La percentuale di clic nei messaggi (per le e-mail)
+* Percentuale di clic nei messaggi (per e-mail)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Open rate]** and **[!UICONTROL Click-through rate]** are updated every hour.
+   >Il **[!UICONTROL Open rate]** e **[!UICONTROL Click-through rate]** vengono aggiornati ogni ora.
 
 ![](assets/sending_delivery.png)
 
-If the KPIs take too long to update or don't take into account the results from the sending logs, click the **[!UICONTROL Compute stats]** button in the **[!UICONTROL Deployment]** window.
+Se l'aggiornamento dei KPI richiede troppo tempo o non tiene conto dei risultati dei registri di invio, fare clic sul **[!UICONTROL Compute stats]** pulsante nella **[!UICONTROL Deployment]** finestra.
 
 ![](assets/sending_delivery7.png)
 
-Il messaggio può essere visualizzato nella cronologia di uno dei profili client che compongono parte del pubblico. See [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
+Il messaggio può essere visualizzato nella cronologia di uno dei profili cliente che costituisce parte del pubblico. See [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
 
-Una volta inviato un messaggio, potete tenere traccia del comportamento dei destinatari e monitorarlo per misurarne l'impatto. Per ulteriori informazioni, consultare le sezioni seguenti:
+Una volta inviato il messaggio, puoi tenere traccia del comportamento dei destinatari e monitorarlo per misurarne l’impatto. Per ulteriori informazioni, consulta le sezioni seguenti:
 
-* [Messaggi di tracciamento](../../sending/using/tracking-messages.md)
+* [Tracciamento dei messaggi](../../sending/using/tracking-messages.md)
 * [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md)
 
