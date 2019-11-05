@@ -1,8 +1,6 @@
 ---
 title: Configurazione del canale SMS
-seo-title: Configurazione del canale SMS
-description: Configurazione del canale SMS
-seo-description: '"Scopri i passaggi di configurazione SMS: routing, codifica, formati e proprietà avanzate. "'
+description: '"Scopri i passaggi di configurazione SMS: routing, codifica, formati e proprietà avanzate. "'
 page-status-flag: mai attivato
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: extAccountMobile,panoramica;extAccount,main;delivery,smsContent,ba
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
