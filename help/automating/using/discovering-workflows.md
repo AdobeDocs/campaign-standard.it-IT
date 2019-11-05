@@ -1,8 +1,6 @@
 ---
-title: Scoprire i flussi di lavoro
-seo-title: Scoprire i flussi di lavoro
-description: Scoprire i flussi di lavoro
-seo-description: Adobe Campaign offre un ambiente grafico completo che consente di progettare e automatizzare i processi.
+title: Esplorazione dei flussi di lavoro
+description: Adobe Campaign offre un ambiente grafico completo che consente di progettare e automatizzare i processi.
 page-status-flag: mai attivato
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Scoprire i flussi di lavoro{#discovering-workflows}
+# Esplorazione dei flussi di lavoro{#discovering-workflows}
 
 Adobe Campaign offre un ambiente [](../../automating/using/workflow-interface.md) grafico completo che consente di progettare processi [](../../automating/using/workflow-operating-principles.md) complessi, tra cui segmentazione, esecuzione delle campagne, elaborazione dei file, approvazioni ecc. I principi e le best practice sono descritti in [questa sezione](../../automating/using/building-a-workflow.md).
 
@@ -39,7 +37,7 @@ I flussi di lavoro sono accessibili anche dall'API Adobe Campaign Standard. Per 
 **Argomenti correlati:**
 
 * [Principi operativi del flusso di lavoro](../../automating/using/workflow-operating-principles.md)
-* [Informazioni sull'importazione e l'esportazione di dati](../../automating/using/about-data-import-and-export.md)
+* [Informazioni sull’importazione e sull’esportazione di dati](../../automating/using/about-data-import-and-export.md)
 * [Caso di utilizzo: Creare una consegna di e-mail una volta alla settimana](../../automating/using/workflow-weekly-offer.md)
 * [Caso di utilizzo: Creazione di una consegna segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
 * [Caso di utilizzo: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
