@@ -1,36 +1,34 @@
 ---
 title: Controllo dei registri di esportazione
-seo-title: Controllo dei registri di esportazione
-description: Controllo dei registri di esportazione
-seo-description: Gli amministratori possono tenere traccia delle esportazioni effettuate da Adobe Campaign.
-page-status-flag: never-activated
-uuid: 2 a 93485 e-f 6 b 9-4 b 01-b 3 a 1-c 91 f 2739 d 188
+description: Gli amministratori possono tenere traccia delle esportazioni effettuate da Adobe Campaign.
+page-status-flag: mai attivato
+uuid: 2a93485e-f6b9-4b01-b3a1-c91f2739d188
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: riferimento
+content-type: reference
 topic-tags: utenti e sicurezza
-discoiquuid: 1033 d 0 ce-a 400-47 ad-afda-bcf 7419 c 94 c 7
+discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Auditing export logs{#auditing-export-logs}
+# Controllo dei registri di esportazione{#auditing-export-logs}
 
-From **[!UICONTROL Administration]** &gt; **[!UICONTROL Users & Security]** &gt; **[!UICONTROL Export audits]**, administrators can view a list of all the following exports, including their date and the user who performed the export:
+Da **[!UICONTROL Administration]** &gt; **[!UICONTROL Users & Security]** &gt; **[!UICONTROL Export audits]**, gli amministratori possono visualizzare un elenco di tutte le esportazioni seguenti, inclusa la data e l’utente che ha eseguito l’esportazione:
 
-* File upload from a **[!UICONTROL Transfer file]** activity in a workflow.
-* Esportate l'elenco da un elenco o da un elenco secondario.
-* File scaricato dal dashboard di distribuzione di un messaggio Direct Mail.
+* Caricamento di file da un' **[!UICONTROL Transfer file]** attività in un flusso di lavoro.
+* Esportazione di elenchi da un elenco o da un sottoelenco.
+* File scaricato dal dashboard di consegna di un messaggio di posta diretta.
 
 >[!NOTE]
 >
->Non vengono tracciate altre esportazioni. L'elenco delle esportazioni viene eliminato ogni 6 mesi per impostazione predefinita.
+>Altre esportazioni non vengono tracciate. Per impostazione predefinita, l’elenco delle esportazioni viene eliminato ogni 6 mesi.
 
-Nel riquadro a sinistra, potete filtrare le esportazioni da visualizzare in base alle vostre esigenze.
+Nel riquadro a sinistra potete filtrare le esportazioni da visualizzare in base alle esigenze.
 
-You can export the list as a separate file, as described in the [Exporting lists](../../automating/using/exporting-lists.md) section.
+Potete esportare l’elenco come file separato, come descritto nella sezione [Esportazione di elenchi](../../automating/using/exporting-lists.md) .
