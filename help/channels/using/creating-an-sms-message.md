@@ -1,8 +1,6 @@
 ---
 title: Creazione di un messaggio SMS
-seo-title: Creazione di un messaggio SMS
-description: Creazione di un messaggio SMS
-seo-description: Per creare un messaggio SMS inviato singolo in Adobe Campaign, procedi come indicato di seguito.
+description: Per creare un messaggio SMS inviato singolo in Adobe Campaign, procedi come indicato di seguito.
 page-status-flag: mai attivato
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: sauviat
@@ -15,7 +13,7 @@ delivercontext-tags: deliveryCreation,procedura guidata
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -55,7 +53,7 @@ Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
 1. Aggiungi contenuto al tuo SMS. Potete anche definire il contenuto facendo clic sulla **[!UICONTROL Content]** sezione del dashboard di distribuzione, una volta completata la creazione di SMS. Consultate [La progettazione](../../channels/using/about-sms-and-push-content-design.md)di contenuti SMS.
 
-   Se hai inserito campi di personalizzazione o testo condizionale nel contenuto del messaggio SMS, la lunghezza del messaggio può variare da un destinatario all'altro. infatti, questi fattori possono introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Questo è il motivo per cui la lunghezza del messaggio deve essere valutata una volta effettuata la personalizzazione. Consulta [Personalizzazione dei messaggi](../../channels/using/personalizing-sms-messages.md)SMS.
+   Se hai inserito campi di personalizzazione o testo condizionale nel contenuto del messaggio SMS, la lunghezza del messaggio può variare da un destinatario all'altro. infatti, questi fattori possono introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Questo è il motivo per cui la lunghezza del messaggio deve essere valutata una volta effettuata la personalizzazione. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_creation_4.png)
 
