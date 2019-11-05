@@ -1,8 +1,6 @@
 ---
 title: '"Workflow use-case: Segmentazione sulla posizione"'
-seo-title: '"Workflow use-case: Segmentazione sulla posizione"'
 description: '"Workflow use-case: Segmentazione sulla posizione"'
-seo-description: '"Workflow use-case: Segmentazione sulla posizione"'
 page-status-flag: mai attivato
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: 'workflow,use-case,query,segmentazione,consegna '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -72,4 +70,4 @@ Per ulteriori informazioni, consultate [progettare un'e-mail](../../designing/us
 
 * [Attività query](../../automating/using/query.md)
 * [Attività di segmentazione](../../automating/using/segmentation.md)
-* [Invio e-mail](../../automating/using/email-delivery.md)
+* [Recapito e-mail](../../automating/using/email-delivery.md)
