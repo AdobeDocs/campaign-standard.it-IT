@@ -1,8 +1,6 @@
 ---
 title: Segmentazione e targeting
-seo-title: Segmentazione e targeting
-description: Segmentazione e targeting
-seo-description: '"Ulteriori informazioni su profili, targeting e creazione di audience in Campaign: crea tipi di pubblico, importa contatti e condividi i tipi di pubblico con le soluzioni Experience Cloud, evitando affaticamenti di marketing."'
+description: '"Ulteriori informazioni su profili, targeting e creazione di audience in Campaign: crea tipi di pubblico, importa contatti e condividi i tipi di pubblico con le soluzioni Experience Cloud, evitando affaticamenti di marketing."'
 page-status-flag: mai attivato
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
