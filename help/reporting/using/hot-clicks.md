@@ -1,8 +1,6 @@
 ---
-title: Clic
-seo-title: Clic
-description: Clic
-seo-description: Con il rapporto "Hot Click out-of-the-box", scopri dove il cliente ha fatto clic sulla tua consegna.
+title: Hot click
+description: Con il rapporto "Hot Click out-of-the-box", scopri dove il cliente ha fatto clic sulla tua consegna.
 page-status-flag: mai attivato
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Clic{#hot-clicks}
+# Hot click{#hot-clicks}
 
 È possibile accedere a questo rapporto dal **[!UICONTROL Reports]** pulsante in ogni consegna o messaggio transazionale.
 
