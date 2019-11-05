@@ -1,8 +1,6 @@
 ---
 title: Esecuzione di un flusso di lavoro
-seo-title: Esecuzione di un flusso di lavoro
-description: Esecuzione di un flusso di lavoro
-seo-description: Scopri come eseguire e monitorare un flusso di lavoro.
+description: Scopri come eseguire e monitorare un flusso di lavoro.
 page-status-flag: mai attivato
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: flusso di lavoro,panoramica;flusso di lavoro,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
