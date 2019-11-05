@@ -1,8 +1,6 @@
 ---
 title: Modifica dei profili
-seo-title: Modifica dei profili
-description: Modifica dei profili
-seo-description: Scopri come modificare i profili esistenti e accedere alle informazioni di contatto, ai canali preferiti, ai registri di tracciamento, alle iscrizioni ecc.
+description: Scopri come modificare i profili esistenti e accedere alle informazioni di contatto, ai canali preferiti, ai registri di tracciamento, alle iscrizioni ecc.
 page-status-flag: mai attivato
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -43,7 +41,7 @@ L'edizione Profili è anche possibile tramite l'API Adobe Campaign Standard. Per
 
 Argomento correlato:
 
-* [Profilo cliente integrato](../../audiences/using/integrated-customer-profile.md)
+* [Integrated customer profile](../../audiences/using/integrated-customer-profile.md)
 * [Invio al fuso orario del destinatario](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
 ## Dati generali del profilo {#general-profile-data}
@@ -57,7 +55,7 @@ La **[!UICONTROL General]** scheda raggruppa le seguenti informazioni sul profil
 
 ![](assets/profile_creation4.png)
 
-## Invio e tracciamento dei registri {#sending-and-tracking-logs}
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 Le **[!UICONTROL Sending logs]** e **[!UICONTROL Tracking logs]** le schede raggruppano l'elenco delle consegne che sono state inviate al profilo e tutti i dati di tracciamento correlati.
 
