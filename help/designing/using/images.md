@@ -1,8 +1,6 @@
 ---
 title: Gestione delle immagini nelle e-mail
-seo-title: Gestione delle immagini nelle e-mail
-description: Gestione delle immagini nelle e-mail
-seo-description: Scoprite come gestire le immagini nei messaggi e-mail con Designer e-mail.
+description: Scoprite come gestire le immagini nei messaggi e-mail con Designer e-mail.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
