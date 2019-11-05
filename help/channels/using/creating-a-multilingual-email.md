@@ -1,8 +1,6 @@
 ---
-title: Creazione di un messaggio e-mail in più lingue
-seo-title: Creazione di un messaggio e-mail in più lingue
-description: Creazione di un messaggio e-mail in più lingue
-seo-description: Per creare un'e-mail di destinazione multilingue con diverse lingue preferite, effettuate le seguenti operazioni.
+title: Creazione di un messaggio e-mail multilingue
+description: Per creare un'e-mail di destinazione multilingue con diverse lingue preferite, effettuate le seguenti operazioni.
 page-status-flag: mai attivato
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creazione di un messaggio e-mail in più lingue{#creating-a-multilingual-email}
+# Creazione di un messaggio e-mail multilingue{#creating-a-multilingual-email}
 
 Potete inviare un messaggio e-mail in più lingue a profili con diverse lingue preferite: ogni profilo riceverà una variante dell'e-mail nella sua lingua preferita.
 
