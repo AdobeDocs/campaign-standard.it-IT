@@ -1,38 +1,36 @@
 ---
 title: Informazioni sulle attività di esecuzione
-seo-title: Informazioni sulle attività di esecuzione
-description: Informazioni sulle attività di esecuzione
-seo-description: Le attività di esecuzione sono disponibili dal lato sinistro della schermata.
-page-status-flag: never-activated
-uuid: af 2 d 19 d 7-a 819-4064-806 f -46 e 946387799
+description: Le attività di esecuzione sono disponibili sul lato sinistro dello schermo.
+page-status-flag: mai attivato
+uuid: af2d19d7-a819-4064-806f-46e946387799
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: esecuzione-attività
-discoiquuid: b 1 c 53 b 8 f -4 e 8 d -4 a 10-8 b 01-4997 a 558 e 144
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di esecuzione
+discoiquuid: b1c53b8f-4e8d-4a10-8b01-4997a558e144
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About execution activities{#about-execution-activities}
+# Informazioni sulle attività di esecuzione{#about-execution-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Execution]** section.
+Dalla palette, sul lato sinistro dello schermo, aprire la **[!UICONTROL Execution]** sezione.
 
-Le attività seguenti sono specifiche per l'organizzazione e l'esecuzione dei flussi di lavoro. La loro attività principale è coordinare le altre attività.
+Le seguenti attività sono specifiche per l'organizzazione e l'esecuzione di flussi di lavoro. Il loro compito principale è quello di coordinare le altre attività.
 
 ![](assets/wkf_execution_activities.png)
 
-**[!UICONTROL Execution]** La sezione include le attività seguenti:
+La **[!UICONTROL Execution]** sezione include le seguenti attività:
 
 * [Inizio e fine](../../automating/using/start-and-end.md)
-* [Foratura](../../automating/using/fork.md)
+* [Fork](../../automating/using/fork.md)
 * [AND-join](../../automating/using/and-join.md)
-* [Pianificatore](../../automating/using/scheduler.md)
+* [Pianificazione](../../automating/using/scheduler.md)
 * [Attendi](../../automating/using/wait.md)
 * [Segnale esterno](../../automating/using/external-signal.md)
 * [Test](../../automating/using/test.md)
