@@ -1,8 +1,6 @@
 ---
 title: Ricezione degli avvisi in caso di errori
-seo-title: Ricezione degli avvisi in caso di errori
-description: Ricezione degli avvisi in caso di errori
-seo-description: Scopri come utilizzare il sistema di gestione degli avvisi.
+description: Scopri come utilizzare il sistema di gestione degli avvisi.
 page-status-flag: mai attivato
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -278,6 +276,6 @@ Di seguito sono riportati alcuni possibili motivi per ricevere le notifiche di a
 **Argomenti correlati:**
 
 * [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)
-* [Gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
+* [Riconoscimento della gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Gestione della blacklist in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
