@@ -1,8 +1,6 @@
 ---
 title: Chiamata di un flusso di lavoro con parametri esterni
-seo-title: Chiamata di un flusso di lavoro con parametri esterni
-description: Chiamata di un flusso di lavoro con parametri esterni
-seo-description: Questa sezione descrive come chiamare un flusso di lavoro con parametri esterni.
+description: Questa sezione descrive come chiamare un flusso di lavoro con parametri esterni.
 page-status-flag: mai attivato
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -87,7 +85,7 @@ Per configurare l' **[!UICONTROL End]** attività, attenetevi alla procedura seg
 
    ![](assets/extsignal_monitoring_3.png)
 
-## Personalizzazione di un flusso di lavoro con parametri esterni {#customizing-a-workflow-with-external-parameters}
+## Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 Una volta attivato il flusso di lavoro, i parametri vengono assimilati nelle variabili degli eventi e possono essere utilizzati per personalizzare le attività del flusso di lavoro.
 
