@@ -1,8 +1,6 @@
 ---
-title: Spedizione diretta
-seo-title: Spedizione diretta
-description: Spedizione diretta
-seo-description: L'attività di consegna diretta della posta consente di configurare l'invio di una singola e-mail di invio diretto o periodico in un flusso di lavoro.
+title: Recapito direct mail
+description: L'attività di consegna diretta della posta consente di configurare l'invio di una singola e-mail di invio diretto o periodico in un flusso di lavoro.
 page-status-flag: mai attivato
 uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Spedizione diretta{#direct-mail-delivery}
+# Recapito direct mail{#direct-mail-delivery}
 
 ## Descrizione {#description}
 
