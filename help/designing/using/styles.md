@@ -1,8 +1,6 @@
 ---
 title: Gestione degli stili
-seo-title: Gestione degli stili
-description: Gestione degli stili
-seo-description: Scoprite come gestire gli stili delle e-mail in Designer e-mail.
+description: Scoprite come gestire gli stili delle e-mail in Designer e-mail.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Gestione degli stili {#managing-styles}
+# Managing Styles {#managing-styles}
 
 ## Modifica degli stili e-mail{#editing-email-styles}
 
