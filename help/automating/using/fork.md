@@ -1,48 +1,46 @@
 ---
-title: Foratura
-seo-title: Foratura
-description: Foratura
-seo-description: L'attività Fork consente di creare transizioni in uscita per avviare diverse attività contemporaneamente.
-page-status-flag: never-activated
-uuid: e 4 eaf 69 b -84 ee -4 f 79-8 b 80-99284697 cd 2 c
+title: Fork
+description: L'attività Fork consente di creare transizioni in uscita per avviare più attività contemporaneamente.
+page-status-flag: mai attivato
+uuid: e4eaf69b-84ee-4f79-8b80-99284697cd2c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: esecuzione-attività
-discoiquuid: f 8 ffe 7 af-e 18 c -4599-8 fd 0-fcd 192565323
-context-tags: fork, principale
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di esecuzione
+discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
+context-tags: fork,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # Fork{#fork}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/fork.png)
 
-The **[!UICONTROL Fork]** activity allows you to create outbound transitions to start several activities at the same time.
+L' **[!UICONTROL Fork]** attività consente di creare transizioni in uscita per avviare più attività contemporaneamente.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Fork]** activity allows you to carry out several different activities independently within the same workflow.
+L' **[!UICONTROL Fork]** attività consente di eseguire diverse attività indipendentemente all'interno dello stesso flusso di lavoro.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop a **[!UICONTROL Fork]** activity into your workflow.
-1. Connettetevi alle altre attività che vengono prima di essa, come query.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specificare il numero di transizioni in uscita mediante la creazione, l'eliminazione o la duplicazione. Potete anche attribuire un nome e un'etichetta.
+1. Trascinate e rilasciate un' **[!UICONTROL Fork]** attività nel flusso di lavoro.
+1. Connettetelo alle altre attività che vengono prima di esso, come le query.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Specificate il numero di transizioni in uscita creandole, eliminandole o duplicandole. Potete anche attribuire loro un nome e un'etichetta.
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example {#example}
+## Esempio {#example}
 
-L'esempio seguente mostra un'intersezione di due attività di query che interessano profili dal database Adobe Campaign, in questo caso donne che risiedono a Parigi. L'attività della foratura consente di utilizzare più attività contemporaneamente: uno che salva il pubblico in modo da ricordare la popolazione calcolata e un altro che segmenta la popolazione per inviare due e-mail con contenuto mirato per ogni segmento. Il primo e-mail viene inviato alle donne bianche età tra 18 e 40 e un altro targeting delle donne parsimonie età superiore al 40.
+L'esempio seguente mostra un'intersezione di due attività di query destinate ai profili provenienti dal database Adobe Campaign, in questo caso, alle donne che vivono a Parigi. L'attività di forchetta consente quindi di utilizzare più attività contemporaneamente: uno che salva l'audience per ricordare la popolazione calcolata e l'altro che segmenta la popolazione inviando due e-mail diverse con un contenuto mirato per ciascun segmento. La prima e-mail viene inviata alle donne parigine di età compresa tra i 18 e i 40 anni e alle altre donne parigine di età superiore ai 40 anni.
 
 ![](assets/wkf_fork_example.png)
 
