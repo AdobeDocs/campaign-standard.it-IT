@@ -1,8 +1,6 @@
 ---
 title: Modelli per pagine di destinazione
-seo-title: Modelli per pagine di destinazione
-description: Modelli per pagine di destinazione
-seo-description: Ulteriori informazioni sui modelli delle pagine di destinazione.
+description: Ulteriori informazioni sui modelli delle pagine di destinazione.
 page-status-flag: mai attivato
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaite
@@ -15,7 +13,7 @@ context-tags: landingPage,procedura guidata;landingPage,panoramica;landingPage,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
