@@ -1,8 +1,6 @@
 ---
 title: Integrazione con le soluzioni Adobe
-seo-title: Integrazione con le soluzioni Adobe
-description: Integrazione con le soluzioni Adobe
-seo-description: Scopri in che modo le integrazioni con i servizi e le soluzioni di base di Adobe Experience Cloud, come Adobe Analytics ed Experience Manager, possono migliorare la strategia di Adobe Campaign con approfondimenti dettagliati e una gestione conveniente dei contenuti.
+description: Scopri in che modo le integrazioni con i servizi e le soluzioni di base di Adobe Experience Cloud, come Adobe Analytics ed Experience Manager, possono migliorare la strategia di Adobe Campaign con approfondimenti dettagliati e una gestione conveniente dei contenuti.
 page-status-flag: mai attivato
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
