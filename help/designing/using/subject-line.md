@@ -1,27 +1,25 @@
 ---
-title: Defining the subject line and the sender of an email
-seo-title: Defining the subject line and the sender of an email
-description: Defining the subject line and the sender of an email
-seo-description: Discover how to define the subject line and the sender of an email in the Email Designer.
-page-status-flag: never-activated
+title: Definizione dell’oggetto e del mittente di un messaggio e-mail
+description: Scoprite come definire l'oggetto e il mittente di un'e-mail in Designer e-mail.
+page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: designing
+audience: progettazione
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Defining the subject line and the sender of an email{#defining-the-subject-line-of-an-email}
+# Definizione dell’oggetto e del mittente di un messaggio e-mail{#defining-the-subject-line-of-an-email}
 
-The message subject is mandatory to prepare and send the message.
+L'oggetto del messaggio è obbligatorio per preparare e inviare il messaggio.
 
 >[!NOTE]
 >
@@ -65,17 +63,17 @@ Per definire il nome del mittente che verrà visualizzato nell'intestazione dei 
 
 ![](assets/delivery_content_edition16.png)
 
-* Il **[!UICONTROL From: name]** campo consente di inserire il nome del mittente. Per impostazione predefinita, nel campo viene inserito automaticamente il blocco **Nome** mittente predefinito. Adobe Campaign refers to the email channel configuration (from the advanced menu  via the Adobe Campaign logo) to designate this sender.**[!UICONTROL Administration > Channels > Email > Email accounts]**
+* Il **[!UICONTROL From: name]** campo consente di inserire il nome del mittente. Per impostazione predefinita, nel campo viene inserito automaticamente il blocco **Nome** mittente predefinito. Adobe Campaign fa riferimento alla configurazione del canale e-mail (dal menu avanzato **[!UICONTROL Administration > Channels > Email > Email accounts]** tramite il logo Adobe Campaign) per designare il mittente.
 
-   You can change the sender name by clicking the Sender name block. **** The field then becomes editable and you can enter the name you would like to use.
+   Puoi cambiare il nome del mittente facendo clic sul blocco del nome **del** mittente. Il campo diventa quindi modificabile ed è possibile immettere il nome che si desidera utilizzare.
 
-   This field can be personalized. To do this, you can add personalization fields, content blocks and dynamic content by clicking the icons below the sender name.
+   Questo campo può essere personalizzato. A tal fine, puoi aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici facendo clic sulle icone sotto il nome del mittente.
 
-* The  field cannot be edited from this section. **[!UICONTROL From: email address]** You can change it by editing the properties of the email from its dashboard. For more information, see List of email advanced parameters.[](../../administration/using/configuring-email-channel.md#advanced-parameters)
+* Impossibile modificare il **[!UICONTROL From: email address]** campo da questa sezione. Potete modificarlo modificandone le proprietà dal relativo dashboard. Per ulteriori informazioni, consultate [Elenco dei parametri](../../administration/using/configuring-email-channel.md#advanced-parameters)avanzati per le e-mail.
 
 >[!NOTE]
 >
->The header parameters must not be empty. The sender's address is mandatory to allow an email to be sent (RFC standard). Adobe Campaign checks the syntax of email addresses entered.
+>I parametri dell'intestazione non devono essere vuoti. L'indirizzo del mittente è obbligatorio per consentire l'invio di un'e-mail (standard RFC). Adobe Campaign controlla la sintassi degli indirizzi e-mail immessi.
 
 **Argomenti correlati:**
 
