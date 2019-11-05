@@ -1,59 +1,57 @@
 ---
 title: Unione
-seo-title: Unione
-description: Unione
-seo-description: L'attività Unione consente di riportare il risultato di più attività in una singola destinazione.
-page-status-flag: never-activated
-uuid: fafc 3 ce 9-2212-4403-8754-cfbb 28 ba 6 e 26
+description: L'attività dell'Unione consente di raggruppare il risultato di più attività in un unico obiettivo.
+page-status-flag: mai attivato
+uuid: fafc3ce9-2212-4403-8754-cfbb28ba6e26
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: targeting-activity
-discoiquuid: 99 a 8 c 3 a 5-7 d 90-4 dbb-aa 37-1 d 0 a 84719 cf 6
-context-tags: union, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di targeting
+discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
+context-tags: unione,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Union{#union}
+# Unione{#union}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/union.png)
 
-The **[!UICONTROL Union]** activity allows you to regroup the result of multiple activities into a single target.
+L' **[!UICONTROL Union]** attività consente di raggruppare il risultato di più attività in un unico target.
 
 >[!NOTE]
 >
->I set non devono necessariamente essere coerenti.
+>I set non devono necessariamente essere omogenei.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Union]** activity is used to combine the populations from inbound transitions when performing a segmentation, defining an audience, or when preparing the message target for example.
+L' **[!UICONTROL Union]** attività viene utilizzata per combinare le popolazioni provenienti da transizioni in entrata quando si esegue una segmentazione, si definisce un'audience o, ad esempio, quando si prepara la destinazione del messaggio.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop a **[!UICONTROL Union]** activity into your workflow.
-1. Connettetevi alle altre attività che vengono prima di essa, come query.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Reconciliation type]** to define how duplicates are from the confrontation between inbound populations are handled:
+1. Trascinate e rilasciate un' **[!UICONTROL Union]** attività nel flusso di lavoro.
+1. Connettetelo alle altre attività che vengono prima di esso, come le query.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Selezionare l'opzione **[!UICONTROL Reconciliation type]** per definire il modo in cui i duplicati vengono gestiti dal confronto tra le popolazioni in ingresso:
 
    * **[!UICONTROL Keys only]**: questa è la modalità predefinita. L'attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. Questa opzione può essere utilizzata solo se le popolazioni in entrata sono omogenee.
-   * **[!UICONTROL All shared columns]**: I dati vengono riconciliati in base a tutte le colonne in comune con le transizioni in entrata. Occorre quindi selezionare il set principale che verrà mantenuto nel caso di duplicati. Questa opzione può essere utilizzata se le dimensioni di targeting della popolazione in entrata sono diverse.
-   * **[!UICONTROL A selection of columns]**: selezionare questa opzione per definire l'elenco delle colonne in cui sarà applicata la riconciliazione dei dati. Occorre anzitutto selezionare il set principale (che contiene i dati sorgente), quindi le colonne da utilizzare per l'unione.
+   * **[!UICONTROL All shared columns]**: I dati vengono riconciliati in base a tutte le colonne in comune con le transizioni in entrata. Pertanto, è necessario selezionare il set principale che verrà mantenuto in caso di un duplicato. Questa opzione può essere utilizzata se le dimensioni di targeting della popolazione in entrata sono diverse.
+   * **[!UICONTROL A selection of columns]**: selezionare questa opzione per definire l'elenco di colonne alle quali verrà applicata la riconciliazione dei dati. È innanzitutto necessario selezionare il set principale (quello contenente i dati di origine), quindi le colonne da utilizzare per il join.
 
-1. Check the **[!UICONTROL Use common additional data only]** box if you would like to keep only the additional data that is in all inbound transitions.
-1. If you would like to limit the size of the final population, check the **[!UICONTROL Limit size of generated population]** box. The size can be specified in the **[!UICONTROL Maximum number of records]** field.
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the calculated population.
+1. Selezionare la **[!UICONTROL Use common additional data only]** casella se si desidera conservare solo i dati aggiuntivi presenti in tutte le transizioni in entrata.
+1. Per limitare la dimensione della popolazione finale, selezionate la **[!UICONTROL Limit size of generated population]** casella. È possibile specificare la dimensione nel **[!UICONTROL Maximum number of records]** campo.
+1. Se necessario, gestite le [Transizioni](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) dell'attività per accedere alle opzioni avanzate per la popolazione calcolata.
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example {#example}
+## Esempio {#example}
 
-L'esempio seguente mostra il risultato di due attività di query che mirano a ristabilire i profili dal database Adobe Campaign che hanno tra 18 e 27 anni e quelli che hanno una durata compresa tra 34 e 40 anni. Il risultato contiene tutti i profili delle due query o il numero massimo di record, se applicabile, nel corso della configurazione.
+L'esempio seguente mostra il risultato di due attività di query volte a raggruppare i profili dal database Adobe Campaign che hanno tra i 18 e i 27 anni e che hanno tra i 34 e i 40 anni. Il risultato contiene tutti i profili delle due query o il numero massimo di record, se applicabile, come specificato durante la configurazione.
 
 ![](assets/wkf_union_example.png)
