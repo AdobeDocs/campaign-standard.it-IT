@@ -1,8 +1,6 @@
 ---
 title: Risoluzione dei problemi
-seo-title: Risoluzione dei problemi
-description: Risoluzione dei problemi
-seo-description: Qui trovi le domande più frequenti relative ai rapporti dinamici.
+description: Qui trovi le domande più frequenti relative ai rapporti dinamici.
 page-status-flag: mai attivato
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: beneat
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -39,7 +37,7 @@ Di seguito è riportata una rappresentazione visiva dell'interazione dei profili
  <thead> 
   <tr> 
    <th align="center"> <strong>Giorno</strong><br /> </th> 
-   <th align="center"> <strong>Apre</strong><br /> </th> 
+   <th align="center"> <strong>Messaggi aperti</strong> <br /> </th> 
    <th align="center"> <strong>Aperture</strong> univoche <br /> </th> 
   </tr> 
  </thead> 
@@ -67,7 +65,7 @@ Questo si tradurrà nella seguente tabella:
  <thead> 
   <tr> 
    <th align="center"> <strong>Giorno</strong><br /> </th> 
-   <th align="center"> <strong>Apre</strong><br /> </th> 
+   <th align="center"> <strong>Messaggi aperti</strong> <br /> </th> 
    <th align="center"> <strong>Aperture</strong> univoche <br /> </th> 
   </tr> 
  </thead> 
@@ -123,7 +121,7 @@ Prima della versione Adobe Campaign Standard 19.2.1, i rapporti erano come segue
    <th align="center"> <strong>Consegna</strong><br /> </th> 
    <th align="center"> <strong>Inviato</strong><br /> </th> 
    <th align="center"> <strong>Consegnato</strong><br /> </th>
-   <th align="center"> <strong>Apre</strong><br /> </th> 
+   <th align="center"> <strong>Messaggi aperti</strong> <br /> </th> 
    <th align="center"> <strong>Aperture</strong> univoche <br /> </th>
   </tr> 
  </thead> 
@@ -167,7 +165,7 @@ Dopo la release di Adobe Campaign Standard 19.2.1, i rapporti sono simili ai seg
    <th align="center"> <strong>Consegna</strong><br /> </th> 
    <th align="center"> <strong>Inviato</strong><br /> </th> 
    <th align="center"> <strong>Consegnato</strong><br /> </th>
-   <th align="center"> <strong>Apre</strong><br /> </th> 
+   <th align="center"> <strong>Messaggi aperti</strong> <br /> </th> 
    <th align="center"> <strong>Aperture</strong> univoche <br /> </th>
   </tr> 
  </thead> 
