@@ -1,8 +1,6 @@
 ---
 title: Personalizzazione
-seo-title: Personalizzazione
-description: Personalizzazione
-seo-description: Scoprite come personalizzare un'e-mail in Designer e-mail.
+description: Scoprite come personalizzare un'e-mail in Designer e-mail.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,7 +24,7 @@ Il contenuto e la visualizzazione dei messaggi inviati da Adobe Campaign possono
 * Inserire campi di personalizzazione dinamica. Consultate [Inserimento di un campo](#inserting-a-personalization-field)di personalizzazione.
 * Inserisci blocchi di personalizzazione predefiniti. Consultate [Aggiunta di un blocco](#adding-a-content-block)di contenuto.
 * Personalizza il mittente di un messaggio e-mail. Consulta [Personalizzazione del mittente](#personalizing-the-sender).
-* Personalizza l’oggetto di un messaggio e-mail. Consultate [Personalizzazione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* Personalizza l’oggetto di un messaggio e-mail. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * Creare contenuto condizionale. Consultate [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email)
 
 ## Personalizzazione del mittente {#personalizing-the-sender}
@@ -419,5 +417,4 @@ L'immagine è cambiata grazie al contenuto dinamico, e lo slogan che appare è l
 **Argomenti correlati:**
 
 * [Creazione di audience](../../audiences/using/creating-audiences.md)
-* [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
-
+* [Preparazione dell’invio](../../sending/using/preparing-the-send.md
