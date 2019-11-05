@@ -1,8 +1,6 @@
 ---
 title: Gestione dei profili di test e invio delle prove
-seo-title: Gestione dei profili di test e invio delle prove
-description: Gestione dei profili di test e invio delle prove
-seo-description: Scoprite come gestire profili e prove di test.
+description: Scoprite come gestire profili e prove di test.
 page-status-flag: mai attivato
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -158,12 +156,12 @@ Quando si definisce l'audience di un messaggio:
 
    ![](assets/trap_select.png)
 
-1. Una volta che il contenuto del messaggio è pronto, fai clic sul **[!UICONTROL Prepare]** pulsante. Consultate [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
+1. Una volta che il contenuto del messaggio è pronto, fai clic sul **[!UICONTROL Prepare]** pulsante. See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Accertatevi di aver selezionato una destinazione principale. In caso contrario, il messaggio non può essere inviato.
 
-1. Fate clic sul **[!UICONTROL Confirm]** pulsante. Consultate [Conferma dell’invio](../../sending/using/confirming-the-send.md).
+1. Fate clic sul **[!UICONTROL Confirm]** pulsante. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
@@ -171,4 +169,4 @@ Il messaggio viene inviato alla destinazione principale e al profilo di test.
 
 >[!NOTE]
 >
->Quando si utilizza un profilo di prova come trap, per tutti i campi arricchiti di un messaggio, i dati aggiuntivi corrispondenti vengono scelti in modo casuale da un profilo di destinazione reale e assegnati al profilo di prova dell’abbondanza. Per ulteriori informazioni sull'arricchimento, consulta [questo esempio](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>Quando si utilizza un profilo di prova come trap, per tutti i campi arricchiti di un messaggio, i dati aggiuntivi corrispondenti vengono scelti in modo casuale da un profilo di destinazione reale e assegnati al profilo di prova dell’abbondanza. Per ulteriori informazioni sull'arricchimento, consulta [questo esempio](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file)
