@@ -1,41 +1,39 @@
 ---
 title: Indicatori di tracciamento
-seo-title: Indicatori di tracciamento
-description: Indicatori di tracciamento
-seo-description: Con gli indicatori di tracciamento inclusi nel rapporto, scopri il comportamento dei clienti quando ricevono messaggi e-mail.
-page-status-flag: never-activated
-uuid: b 2 df 8846-4 caf -45 e 6-a 8 ff-ee 37655383 c 2
+description: Grazie al rapporto out-of-the-box degli indicatori di tracciamento, scopri il comportamento dei clienti che ricevono i messaggi e-mail.
+page-status-flag: mai attivato
+uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: reporting
-content-type: riferimento
-topic-tags: list-of-reports
-discoiquuid: 64 abc 885-2 aec -423 f-bf 5 b -5 a 623 a 16 ca 6 d
-context-tags: Deliverytrackingreports, main; Campaigntrackingreport, main; Programtrackingreport, main
+content-type: reference
+topic-tags: elenco di rapporti
+discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
+context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tracking indicators{#tracking-indicators}
+# Indicatori di tracciamento{#tracking-indicators}
 
-The **[!UICONTROL Tracking indicators]** report contains the key indicators for tracking behavior after email messages are received.
+Il **[!UICONTROL Tracking indicators]** rapporto contiene gli indicatori chiave per il tracciamento del comportamento dopo la ricezione dei messaggi e-mail.
 
 >[!NOTE]
 >
->Per accedere a tali dati, il tracciamento deve essere abilitato durante la preparazione di una distribuzione.
+>Per accedere a questi dati, è necessario abilitare il tracciamento durante la preparazione della consegna.
 
 ![](assets/delivery_reports_2.png)
 
-The **[!UICONTROL Tracking indicators]** table and **Top 5 deliveries** graph contain the available data for email tracking, such as:
+La **[!UICONTROL Tracking indicators]** tabella e il grafico delle **prime 5 consegne** contiene i dati disponibili per il tracciamento delle e-mail, ad esempio:
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati con successo. Gli errori alzati vengono presi in considerazione. Tuttavia, le lamentele (dichiarazioni di spam) e messaggi away quali «non sono disponibili» non vengono prese in considerazione.
-* **Apri**: Numero di volte in cui un messaggio è stato aperto in una consegna.
-* **Fate clic** su: Il numero di volte in cui è stato fatto clic sul contenuto in una consegna.
-* **Annullato**: Numero di clic sul collegamento di iscrizione.
-* **Spam:** Numero di destinatari che hanno dichiarato un messaggio e-mail come spam.
-* **Pagina speculare**: Numero di clic sul collegamento della pagina speculare.
+* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente. Vengono presi in considerazione gli errori generati (rimbalzi). tuttavia, non si tiene conto dei reclami (dichiarazioni di spam) e dei messaggi inviati via via, come "fuori sede".
+* **Apri**: Il numero di volte in cui un messaggio è stato aperto in una consegna.
+* **Fate clic**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
+* **Annulla sottoscrizione**: Il numero di clic sul collegamento di iscrizione.
+* **** Spam: Numero di destinatari che hanno dichiarato spam un'e-mail.
+* **Pagina** speculare: Numero di clic sul collegamento della pagina mirror.
 
