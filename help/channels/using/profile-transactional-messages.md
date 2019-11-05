@@ -1,8 +1,6 @@
 ---
 title: Messaggi sulle transazioni di profilo
-seo-title: Messaggi sulle transazioni di profilo
-description: Messaggi sulle transazioni di profilo
-seo-description: Scopri come creare e pubblicare un messaggio di transazione profilo.
+description: Scopri come creare e pubblicare un messaggio di transazione profilo.
 page-status-flag: mai attivato
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cdf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -42,7 +40,7 @@ Affinché l'evento attivi l'invio di un messaggio transazionale, è necessario p
 
 ## Invio di un messaggio di transazione profilo {#sending-a-profile-transactional-message}
 
-I passaggi per creare, personalizzare e pubblicare un messaggio di transazione profilo sono gli stessi che per un messaggio di transazione evento. Consultate Messaggi transazionali [evento](../../channels/using/event-transactional-messages.md).
+I passaggi per creare, personalizzare e pubblicare un messaggio di transazione profilo sono gli stessi che per un messaggio di transazione evento. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 Le differenze sono elencate di seguito.
 
