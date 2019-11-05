@@ -1,8 +1,6 @@
 ---
 title: Gestione dei dati del modulo della pagina di destinazione
-seo-title: Gestione dei dati del modulo della pagina di destinazione
-description: Gestione dei dati del modulo della pagina di destinazione
-seo-description: Scoprite come gestire i dati del modulo della pagina di destinazione.
+description: Scoprite come gestire i dati del modulo della pagina di destinazione.
 page-status-flag: mai attivato
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: lemaite
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
