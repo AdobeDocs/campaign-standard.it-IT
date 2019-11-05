@@ -1,8 +1,6 @@
 ---
-title: Conti esterni
-seo-title: Conti esterni
-description: Conti esterni
-seo-description: Configurate gli account esterni per configurare le connessioni con sistemi esterni come i server SFTP.
+title: Account esterni
+description: Configurate gli account esterni per configurare le connessioni con sistemi esterni come i server SFTP.
 page-status-flag: mai attivato
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
@@ -15,12 +13,12 @@ internal: n
 snippet: y
 context-tags: extAccount,principale;extAccount,panoramica
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Conti esterni{#external-accounts}
+# Account esterni{#external-accounts}
 
 Un account esterno è una configurazione che consente di configurare e verificare l'accesso a un server esterno ad Adobe Campaign.
 
