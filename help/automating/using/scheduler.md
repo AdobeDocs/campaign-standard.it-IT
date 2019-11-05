@@ -1,79 +1,77 @@
 ---
-title: Pianificatore
-seo-title: Pianificatore
-description: Pianificatore
-seo-description: L'attività del pianificatore consente di pianificare quando un flusso di lavoro o un'attività viene avviata.
-page-status-flag: never-activated
-uuid: f 5 e 50 a 11-8 dc 9-4 d 98-9531-024 c 0 fb 3 f 7 da
+title: Pianificazione
+description: L'attività Scheduler consente di pianificare quando viene avviato un flusso di lavoro o un'attività.
+page-status-flag: mai attivato
+uuid: f5e50a11-8dc9-4d98-9531-024c0fb3f7da
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: esecuzione-attività
-discoiquuid: 0 fb 16 cea -3941-404 f -899 c -33 f 81 ced 4 ed 5
-context-tags: pianificazione, principale
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di esecuzione
+discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
+context-tags: pianificazione,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3216d09e18cd249e3f2a6aae74254bc172538810
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Scheduler{#scheduler}
+# Pianificazione{#scheduler}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/scheduler.png)
 
-The **[!UICONTROL Scheduler]** activity allows you to schedule when a workflow or an activity is started.
+L' **[!UICONTROL Scheduler]** attività consente di pianificare quando viene avviato un flusso di lavoro o un'attività.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Scheduler]** activity should be considered as a scheduled start. The activity positioning rules within the chart are the same as for the **[!UICONTROL Start]** activity. Questa attività non deve avere una transizione in entrata.
+L' **[!UICONTROL Scheduler]** attività deve essere considerata come un inizio pianificato. Le regole di posizionamento dell'attività all'interno del grafico sono le stesse dell' **[!UICONTROL Start]** attività. Questa attività non deve avere una transizione in entrata.
 
-When building your workflow, only use one **[!UICONTROL Scheduler]** activity per branch and remember to set a time zone. Altrimenti, verrà impostato sul fuso orario del server.
+Durante la creazione del flusso di lavoro, utilizzate una sola **[!UICONTROL Scheduler]** attività per ramo e ricordate di impostare un fuso orario. In caso contrario verrà impostato per l'esecuzione nel fuso orario del server.
 
 >[!CAUTION]
 >
->The **[!UICONTROL Repetition frequency]** of the activity cannot be less than 10 minutes. Pertanto, non è possibile eseguire automaticamente un flusso di lavoro più di una volta ogni 10 minuti.
+>La durata **[!UICONTROL Repetition frequency]** dell'attività non può essere inferiore a 10 minuti. Ciò significa che non è possibile eseguire automaticamente un flusso di lavoro più volte ogni 10 minuti.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specify the **[!UICONTROL Execution frequency]**:
+1. Trascinate e rilasciate un' **[!UICONTROL Scheduler]** attività nel flusso di lavoro.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Specificate **[!UICONTROL Execution frequency]**:
 
    * **[!UICONTROL Once]**: il flusso di lavoro viene eseguito una sola volta.
-   * **[!UICONTROL Several times a day]**: il flusso di lavoro viene eseguito regolarmente più volte al giorno. Potete configurare le esecuzioni in orari specifici o periodicamente.
-   * **[!UICONTROL Daily]**: il flusso di lavoro viene eseguito alla data e all'ora specificate una volta al giorno.
-   * **[!UICONTROL Weekly]**: il flusso di lavoro viene eseguito a un momento specificato, una o più volte a settimana.
-   * **[!UICONTROL Monthly]**: il flusso di lavoro viene eseguito a un momento specificato, una o più volte al mese. È possibile selezionare mesi, quando è necessario eseguire il flusso di lavoro. Puoi anche impostare le esecuzioni per giorno specifico del mese, ad esempio il secondo martedì del mese.
-   * **[!UICONTROL Yearly]**: il flusso di lavoro viene eseguito a un momento specificato, una o più volte all'anno.
+   * **[!UICONTROL Several times a day]**: il flusso di lavoro viene eseguito regolarmente più volte al giorno. Potete impostare le esecuzioni in orari specifici o periodicamente.
+   * **[!UICONTROL Daily]**: il flusso di lavoro viene eseguito una volta al giorno in un momento specifico.
+   * **[!UICONTROL Weekly]**: il flusso di lavoro viene eseguito in un momento specificato, una o più volte alla settimana.
+   * **[!UICONTROL Monthly]**: il flusso di lavoro viene eseguito in un momento specificato, una o più volte al mese. Potete selezionare i mesi, quando è necessario eseguire il flusso di lavoro. Potete anche impostare le esecuzioni in un giorno feriale specifico del mese, ad esempio il secondo martedì del mese.
+   * **[!UICONTROL Yearly]**: il flusso di lavoro viene eseguito in un momento specificato, una o più volte all'anno.
 
-1. Definite i dettagli di esecuzione in base alla frequenza selezionata. I campi di dettaglio possono variare a seconda della frequenza utilizzata (tempo, frequenza di ripetizione, giorni specificati, ecc.).
+1. Definire i dettagli di esecuzione in base alla frequenza selezionata. I campi di dettaglio possono variare a seconda della frequenza utilizzata (tempo, frequenza di ripetizione, giorni specificati, ecc.).
 
    >[!NOTE]
    >
-   >**[!UICONTROL Repetition frequency]** Il campo consente di ridurre i tempi di attivazione del flusso di lavoro. For example, if you select a daily execution period and the repetition frequency is set at **2** (days), the workflow will be triggered every two days. Non può essere inferiore a 10 minuti. If the repetition frequency is set at **0** (also the default value), this option is not taken into account and the workflow will run according to the execution frequency specified.
+   >Il **[!UICONTROL Repetition frequency]** campo consente di posizionare gli spazi vuoti quando viene attivato il flusso di lavoro. Ad esempio, se selezionate un periodo di esecuzione giornaliero e la frequenza di ripetizione è impostata su **2** (giorni), il flusso di lavoro verrà attivato ogni due giorni. Non può essere inferiore a 10 minuti. Se la frequenza di ripetizione è impostata su **0** (anche il valore predefinito), questa opzione non viene presa in considerazione e il flusso di lavoro viene eseguito in base alla frequenza di esecuzione specificata.
 
-1. Specifica quando scade l'esecuzione:
+1. Specificate quando scade l'esecuzione:
 
-   * **[!UICONTROL Never]**: il flusso di lavoro verrà eseguito, in base alla frequenza specificata, senza alcun limite all'intervallo o al numero di iterazioni.
-   * **[!UICONTROL After a certain number of iterations]**: il flusso di lavoro verrà eseguito in base alla frequenza specificata, fino al raggiungimento del limite **X** . The **[!UICONTROL Number of iterations]** will therefore need to be specified.
-   * **[!UICONTROL On a specific date]**: il flusso di lavoro verrà eseguito in base alla frequenza specificata, fino a una data specifica. Sarà pertanto necessario specificare la scadenza di esecuzione.
+   * **[!UICONTROL Never]**: il flusso di lavoro verrà eseguito, in base alla frequenza specificata, senza alcun limite all'intervallo di tempo o al numero di iterazioni.
+   * **[!UICONTROL After a certain number of iterations]**: il flusso di lavoro verrà eseguito in base alla frequenza specificata, fino al raggiungimento del limite di **X** . Occorre pertanto **[!UICONTROL Number of iterations]** precisare le misure.
+   * **[!UICONTROL On a specific date]**: il flusso di lavoro verrà eseguito in base alla frequenza specificata, fino a una data specifica. Occorre pertanto precisare il termine per l'esecuzione.
 
-1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
+1. Controlla la pianificazione delle dieci esecuzioni successive del flusso di lavoro facendo clic su **[!UICONTROL Preview next executions]**.
 
-1. In the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. Questo consente di avviare il flusso di lavoro in un determinato fuso orario, in caso contrario il flusso di lavoro verrà eseguito nel fuso orario del server per impostazione predefinita.
+1. Nella **[!UICONTROL Execution options]** scheda, impostare il fuso orario per il pianificatore nel **[!UICONTROL Time zone]** campo. Questo consente di avviare il flusso di lavoro in un fuso orario specifico, altrimenti il flusso di lavoro verrà eseguito nel fuso orario del server per impostazione predefinita.
 
-   For more information on sending delivery depending on the recipient's time zone, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) or this [example](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) of a recurring workflow.
+   Per ulteriori informazioni sull'invio della consegna in base al fuso orario del destinatario, consulta questa [sezione](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) o questo [esempio](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) di flusso di lavoro periodico.
 
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example {#example}
+## Esempio {#example}
 
-Nell'esempio seguente, l'attività è configurata in modo da avviare il flusso di lavoro su base settimanale, ogni altro lunedì alle 7, per una durata non determinata.
+Nell'esempio seguente, l'attività è configurata in modo che avvii il flusso di lavoro settimanalmente, ogni due lunedì alle 7 del mattino, per una durata indeterminata.
 
 ![](assets/wkf_scheduler_example.png)
 
