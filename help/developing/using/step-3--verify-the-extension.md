@@ -1,27 +1,25 @@
 ---
-title: '" Passaggio 3: Verifica l''estensione "'
-seo-title: '" Passaggio 3: Verifica l''estensione "'
-description: '" Passaggio 3: Verifica l''estensione "'
-seo-description: Scopri come accedere al campo esteso con l'API REST.
-page-status-flag: never-activated
-uuid: 35 ba 89 a 5-a 354-466 f -91 a 0-50 de 111 a 2 e 00
+title: '"Passaggio 3: verificare l’estensione"'
+description: Scopri come accedere al campo esteso con l’API Rest.
+page-status-flag: mai attivato
+uuid: 35ba89a5-a354-466f-91a0-50de111a2e00
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: sviluppo
-content-type: riferimento
-topic-tags: use-case—extending-the-api
-discoiquuid: 21 bad 242-5921-445 c -8 df 9-3 d 57 dbe 35197
+products: SG_CAMPAIGN/STANDARD
+audience: development
+content-type: reference
+topic-tags: use-case—extension-the-api
+discoiquuid: 21bad242-5921-445c-8df9-3d57dbe35197
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Step 3: Verify the extension{#step-verify-the-extension}
+# Passaggio 3: verificare l’estensione{#step-verify-the-extension}
 
-1. Eseguite un'operazione GET sui metadati dell'API di Extension &amp; Services Extension per verificare se il campo aggiunto nella risorsa personalizzata Profili è ora disponibile.
+1. Effettuate un'operazione GET sui metadati dell'API Profili e servizi di estensione per verificare se il campo aggiunto nella risorsa personalizzata Profili è ora disponibile.
 
    ```
    GET profileAndServicesExt/resourceType/profile
