@@ -1,37 +1,35 @@
 ---
 title: Invio di notifiche interne
-seo-title: Invio di notifiche interne
-description: Invio di notifiche interne
-seo-description: Scopri come inviare notifiche di sistema in tempo reale agli utenti di Adobe Campaign.
-page-status-flag: never-activated
-uuid: f 196 f 025-dbb 9-4268-9 d 7 d-ff 626994 b 447
+description: Scopri come inviare notifiche di sistema in tempo reale agli utenti di Adobe Campaign.
+page-status-flag: mai attivato
+uuid: f196f025-dbb9-4268-9d7d-ff626994b447
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: riferimento
+content-type: reference
 topic-tags: application-settings
-discoiquuid: 4 d 51229 a -745 a -4 f 24-b 1 c 2-22 fa 203 b 499 c
+discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Sending internal notifications{#sending-internal-notifications}
+# Invio di notifiche interne{#sending-internal-notifications}
 
-Adobe Campaign vi offre la possibilità di ricevere notifiche su importanti attività del sistema direttamente all'interno dell'applicazione. Le notifiche in tempo reale tengono informati gli interessati e forniscono agli utenti la possibilità di intervenire immediatamente e direttamente sulle notifiche dell'attività dall'interno dell'applicazione. Il risultato per i team è l'agilità avanzata, l'efficienza e l'esecuzione più fluida delle campagne.
+Adobe Campaign ti offre la possibilità di ricevere notifiche su importanti attività del sistema direttamente all'interno dell'applicazione.  Le notifiche in tempo reale tengono informate le parti interessate e forniscono agli utenti la possibilità di agire immediatamente e direttamente sulle notifiche delle attività dall'interno dell'applicazione. Il risultato per i team è un'agilità avanzata, un'efficienza e un'esecuzione più fluida delle campagne.
 
 ![](assets/pulse_3.png)
 
 È possibile configurare le notifiche per i seguenti oggetti:
 
-* **[!UICONTROL A/B Test emails]**: l'autore e i modificatori dell'e-mail ricevono una notifica che è stata scelta una variante (modalità automatica) o che è necessario scegliere una variante (modalità manuale). Facendo clic sulla notifica viene visualizzata l'e-mail corrispondente. Le notifiche sono attivate per impostazione predefinita nel modello di test A/B integrato. If you want to deactivate them, edit the properties of the email or the email template and uncheck the box located under **General &gt; Notifications**. For more information on A/B Test emails, refer to [Creating an AB Test](../../channels/using/designing-an-a-b-test-email.md). For more on email properties, refer to [List of email properties](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL A/B Test emails]**: al creatore dell’e-mail e al modificatore o ai modificatori viene notificato che è stata scelta una variante (modalità automatica) o che è necessario scegliere una variante (modalità manuale). Facendo clic sulla notifica viene visualizzato il messaggio e-mail corrispondente. Le notifiche sono attivate per impostazione predefinita nel modello di test A/B fornito con il prodotto. Se desiderate disattivarli, modificate le proprietà del modello e-mail o del modello e-mail e deselezionate la casella in **Generale &gt; Notifiche**. Per ulteriori informazioni sulle e-mail di test A/B, vedere [Creazione di un test](../../channels/using/designing-an-a-b-test-email.md)AB. Per ulteriori informazioni sulle proprietà delle e-mail, consulta [Elenco delle proprietà](../../administration/using/configuring-email-channel.md#list-of-email-properties)delle e-mail.
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**: Ogni membro del gruppo di sicurezza selezionato riceve notifica (e-mail e notifica in-app) ogni volta che un flusso di lavoro viene visualizzato in un errore. Facendo clic sulla notifica o sul collegamento e-mail viene visualizzato il flusso di lavoro corrispondente. Per impostazione predefinita, le notifiche sono disattivate nel modello di flusso di lavoro preimpostato. If you want to activate them, edit the properties of the workflow or workflow template and add a security group under **General &gt; Execution &gt; Error management &gt; Supervisors**. For more information on security groups, refer to [Managing groups and users](../../administration/using/managing-groups-and-users.md). For more on workflow properties, refer to [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties).
+* **[!UICONTROL Workflows]**: ogni membro del gruppo di protezione selezionato riceve una notifica (e-mail e notifica in-app) ogni volta che si verifica un errore in un flusso di lavoro. Facendo clic sulla notifica o sul collegamento e-mail viene visualizzato il flusso di lavoro corrispondente. Le notifiche sono disattivate per impostazione predefinita nel modello di flusso di lavoro predefinito. Se desiderate attivarli, modificate le proprietà del modello di flusso di lavoro o di workflow e aggiungete un gruppo di sicurezza in **Generale &gt; Esecuzione &gt; Gestione errori &gt; Autorità di vigilanza**. Per ulteriori informazioni sui gruppi di sicurezza, consultate [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md). Per ulteriori informazioni sulle proprietà del flusso di lavoro, vedere Proprietà [del](../../automating/using/executing-a-workflow.md#workflow-properties)flusso di lavoro.
 
    ![](assets/pulse_1.png)
 
