@@ -1,27 +1,25 @@
 ---
 title: Monitoraggio delle modifiche al modello dati
-seo-title: Monitoraggio delle modifiche al modello dati
-description: Monitoraggio delle modifiche al modello dati
-seo-description: Scopri come diagnosticare il modello dati di Adobe Campaign.
-page-status-flag: never-activated
-uuid: 994 f 1 e 85-107 d -4348-a 197-87 a 95853 fca 6
+description: Scopri come diagnosticare il modello dati di Adobe Campaign.
+page-status-flag: mai attivato
+uuid: 994f1e85-107d-4348-a197-87a95853fca6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: sviluppo
-content-type: riferimento
+products: SG_CAMPAIGN/STANDARD
+audience: development
+content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: c 6375 a 92-339 f -4123-bc 69-b 0 da 1 unknown 577
+discoiquuid: c6375a92-339f-4123-bc69-b0da1deaf577
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Monitoring data model changes{#monitoring-data-model-changes}
+# Monitoraggio delle modifiche al modello dati{#monitoring-data-model-changes}
 
-**[!UICONTROL Diagnosis]** Il menu consente di consultare i diversi oggetti tecnici generati dall'applicazione per analizzarli.
+Il **[!UICONTROL Diagnosis]** menu consente di consultare i diversi oggetti tecnici generati dall'applicazione, per analizzarli.
 
 >[!NOTE]
 >
@@ -31,7 +29,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 È possibile visualizzare i seguenti tipi di oggetti:
 
-* Schemi dati
+* Schemi di dati
 * Pagine Web
 * Filtri
 * Navigazione
