@@ -1,8 +1,6 @@
 ---
 title: Note sulla versione 2017
-seo-title: Note sulla versione 2017
-description: Note sulla versione 2017
-seo-description: In questa pagina sono elencate tutte le versioni 2017 di Adobe Campaign Standard.
+description: In questa pagina sono elencate tutte le versioni 2017 di Adobe Campaign Standard.
 page-status-flag: mai attivato
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -267,7 +265,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </thead> 
  <tbody> 
   <tr> 
-   <td> Posta diretta<br /> </td> 
+   <td> Direct mail<br /> </td> 
    <td> Sfruttate la barriera digitale e collegatevi al mondo fisico con il primo canale offline di Adobe Campaign Standard, Direct Mail. Questa funzione consente di personalizzare e generare il file richiesto dai provider di posta diretta nell'ambito delle campagne multicanale. Utilizza Posta diretta per coinvolgere nuovamente i clienti o per migliorare l'esperienza dei clienti con un accattivante punto di contatto tattile che indirizza i clienti all'app, al sito Web o allo store.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../channels/using/about-direct-mail.md"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
