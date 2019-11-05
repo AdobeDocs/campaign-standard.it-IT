@@ -1,8 +1,6 @@
 ---
-title: Carica file
-seo-title: Carica file
-description: Carica file
-seo-description: L'attività Carica file consente di importare dati in un modulo strutturato per utilizzarli in Adobe Campaign.
+title: Caricare file
+description: L'attività Carica file consente di importare dati in un modulo strutturato per utilizzarli in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Carica file{#load-file}
+# Caricare file{#load-file}
 
 ## Descrizione {#description}
 
