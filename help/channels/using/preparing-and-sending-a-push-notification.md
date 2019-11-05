@@ -1,8 +1,6 @@
 ---
 title: Preparazione e invio di una notifica push
-seo-title: Preparazione e invio di una notifica push
-description: Preparazione e invio di una notifica push
-seo-description: Segui questi passaggi per creare una notifica push con invio singolo in Adobe Campaign.
+description: Segui questi passaggi per creare una notifica push con invio singolo in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -61,7 +59,7 @@ I passaggi per creare una notifica push con Adobe Campaign sono:
 
 1. Ora potete personalizzare la notifica push. Innanzitutto, scegliete lo stile del messaggio: **[!UICONTROL Alert/Message/Badge]** o **[!UICONTROL Silent push]**. I tipi di notifica push sono descritti nella sezione [Informazioni sulle notifiche](../../channels/using/about-push-notifications.md) push.
 
-   Modificate il contenuto della notifica push e definite le opzioni avanzate. Consultate [Personalizzazione di una notifica](../../channels/using/customizing-a-push-notification.md)push.
+   Modificate il contenuto della notifica push e definite le opzioni avanzate. See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/push_notif_content.png)
 
