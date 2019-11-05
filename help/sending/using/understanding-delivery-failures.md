@@ -1,8 +1,6 @@
 ---
 title: Informazioni sugli errori di consegna
-seo-title: Informazioni sugli errori di consegna
-description: Informazioni sugli errori di consegna
-seo-description: Scopri come gestire gli errori di consegna con Campaign.
+description: Scopri come gestire gli errori di consegna con Campaign.
 page-status-flag: mai attivato
 uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -35,7 +33,7 @@ I messaggi possono essere esclusi durante la preparazione del recapito se un ind
 
 **Argomenti correlati:**
 
-* [Gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
+* [Riconoscimento della gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Gestione della blacklist in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Identificazione degli errori di consegna per un messaggio {#identifying-delivery-failures-for-a-message}
