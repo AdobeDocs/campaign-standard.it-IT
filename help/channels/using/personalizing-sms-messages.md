@@ -1,8 +1,6 @@
 ---
 title: Personalizzazione dei messaggi SMS
-seo-title: Personalizzazione dei messaggi SMS
-description: Personalizzazione dei messaggi SMS
-seo-description: Scopri la specificità delle opzioni di traduzione durante la personalizzazione dei messaggi SMS.
+description: Scopri la specificità delle opzioni di traduzione durante la personalizzazione dei messaggi SMS.
 page-status-flag: mai attivato
 uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: sauviat
@@ -15,7 +13,7 @@ delivercontext-tags: deliveryCreation,procedura guidata;consegna,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
