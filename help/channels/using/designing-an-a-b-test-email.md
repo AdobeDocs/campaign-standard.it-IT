@@ -1,8 +1,6 @@
 ---
 title: Progettazione di un messaggio e-mail per test A/B
-seo-title: Progettazione di un messaggio e-mail per test A/B
-description: Progettazione di un messaggio e-mail per test A/B
-seo-description: Scopri la funzionalità di test A/B e segui questi passaggi per creare un'e-mail da un modello di test A/B in Adobe Campaign.
+description: Scopri la funzionalità di test A/B e segui questi passaggi per creare un'e-mail da un modello di test A/B in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: consegna,abTesting,back;deliveryCreation,procedura guidata;consegn
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ Potete scegliere di variare il contenuto, l'oggetto o il mittente dell'e-mail.
 >
 >Non è possibile eseguire test A/B sulle e-mail create in Adobe Experience Manager.
 
-## Creazione di un messaggio e-mail di test A/B {#creating-an-a-b-test-email}
+## Creating an A/B test email {#creating-an-a-b-test-email}
 
 È possibile creare un test A/B utilizzando la procedura guidata standard per la creazione di e-mail, alla quale viene aggiunto un passaggio di configurazione del test A/B. La creazione di un messaggio e-mail standard è descritta in [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md) .
 
