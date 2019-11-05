@@ -1,8 +1,6 @@
 ---
 title: Note sulla versione 2015-2016
-seo-title: Note sulla versione 2015-2016
-description: Note sulla versione 2015-2016
-seo-description: In questa pagina sono elencate tutte le versioni 2015 e 2016 di Adobe Campaign Standard.
+description: In questa pagina sono elencate tutte le versioni 2015 e 2016 di Adobe Campaign Standard.
 page-status-flag: mai attivato
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -1079,11 +1077,11 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
    <td> Ora è possibile accedere ai report direttamente da un programma o una campagna. Il rapporto di riepilogo <strong>sulla</strong> consegna è stato aggiunto a livello di programma.<br /> Fare riferimento alla documentazione <a href="../../reporting/using/delivery-summary.md"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Aggiorna dati<br /> </td> 
+   <td> Aggiornare dati<br /> </td> 
    <td> Nei flussi di lavoro, l'attività <strong>Aggiorna dati</strong> disponibile dispone di una nuova opzione, che consente di collegare automaticamente i campi dati in entrata con i campi di uno schema dell'applicazione. Questo facilita il processo di selezione per l'aggiornamento dei campi.<br /> Fare riferimento alla documentazione <a href="../../automating/using/update-data.md"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Invio e-mail<br /> </td> 
+   <td> Recapito e-mail<br /> </td> 
    <td> Nei flussi di lavoro, ora è possibile accedere alle opzioni avanzate dell'attività di consegna <strong></strong> e-mail tramite un pulsante specifico nella barra delle azioni. Questo pulsante è disponibile solo se è selezionata un'attività di consegna <strong></strong> e-mail. Il vantaggio principale è che consente di aggiungere una transizione in uscita all'attività e di modificare il nome dell'attività così come viene visualizzata nel flusso di lavoro.<br /> Fare riferimento alla documentazione <a href="../../automating/using/email-delivery.md"></a>dettagliata.<br /> </td> 
   </tr> 
  </tbody> 
