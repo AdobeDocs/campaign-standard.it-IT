@@ -1,8 +1,6 @@
 ---
 title: Progettazione di contenuti in Adobe Campaign
-seo-title: Progettazione di contenuti in Adobe Campaign
-description: Progettazione di contenuti in Adobe Campaign
-seo-description: Scopri tutti gli elementi che puoi definire nei contenuti con Adobe Campaign.
+description: Scopri tutti gli elementi che puoi definire nei contenuti con Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Campaign Email Designer{#designing-content-in-adobe-campaign}
+# E-mail Designer di Campaign{#designing-content-in-adobe-campaign}
 
 Dopo aver creato un'e-mail in Adobe Campaign, devi definirne il contenuto.
 
