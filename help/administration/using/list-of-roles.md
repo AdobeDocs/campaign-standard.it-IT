@@ -1,8 +1,6 @@
 ---
 title: Elenco di ruoli
-seo-title: Elenco di ruoli
-description: Elenco di ruoli
-seo-description: Scopri l’elenco dei ruoli che puoi assegnare ai tuoi utenti.
+description: Scopri l’elenco dei ruoli che puoi assegnare ai tuoi utenti.
 page-status-flag: mai attivato
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: ruolo,panoramica;ruolo,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
