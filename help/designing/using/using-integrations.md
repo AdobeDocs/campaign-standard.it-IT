@@ -1,8 +1,6 @@
 ---
 title: 'Progettazione di e-mail tramite integrazioni Adobe Campaign '
-seo-title: 'Progettazione di e-mail tramite integrazioni Adobe Campaign  '
-description: 'Progettazione di e-mail tramite integrazioni Adobe Campaign '
-seo-description: Scopri come progettare e-mail tramite le integrazioni Adobe Campaign in e-mail Designer.
+description: Scopri come progettare e-mail tramite le integrazioni Adobe Campaign in e-mail Designer.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -50,7 +48,7 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Designer e-mail<br /> </th> 
+   <th> Email Designer<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -129,7 +127,7 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
   <tr> 
    <td> <strong>Per saperne di più</strong><br /> </td> 
    <td> Vedere <a href="../../designing/using/overview.md">Informazioni su Designer e-mail</a><br /> </td> 
-   <td> Consultate <a href="../../integrating/using/integrating-with-experience-manager.md">Integrazione con Experience Manager</a><br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
    <td> Guarda <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guarda questo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a><br /> </td> 
   </tr> 
  </tbody> 
