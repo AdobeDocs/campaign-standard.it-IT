@@ -1,8 +1,6 @@
 ---
-title: Regole di fatica
-seo-title: Regole di fatica
-description: Regole di fatica
-seo-description: Crea regole di affaticamento per gestire la comunicazione eccessiva con i profili.
+title: Regole di affaticamento
+description: Crea regole di affaticamento per gestire la comunicazione eccessiva con i profili.
 page-status-flag: mai attivato
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Regole di fatica{#fatigue-rules}
+# Regole di affaticamento{#fatigue-rules}
 
 ## Informazioni sulle regole di affaticamento {#about-fatigue-rules}
 
@@ -100,7 +98,7 @@ Sono disponibili i seguenti canali:
 
 * E-mail
 * Mobile (SMS)
-* Posta diretta
+* Direct mail
 * Applicazione mobile: questo canale consente di inviare notifiche push ai profili o agli abbonati alle app. Se scegli di inviare notifiche ai profili, saranno compatibili con le regole di affaticamento multicanale.
 
    >[!CAUTION]
