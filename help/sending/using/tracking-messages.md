@@ -1,8 +1,6 @@
 ---
 title: Tracciamento dei messaggi
-seo-title: Tracciamento dei messaggi
-description: Tracciamento dei messaggi
-seo-description: Scopri come tenere traccia del comportamento dei destinatari della distribuzione.
+description: Scopri come tenere traccia del comportamento dei destinatari della distribuzione.
 page-status-flag: mai attivato
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
