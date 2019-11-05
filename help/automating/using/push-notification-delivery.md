@@ -1,120 +1,118 @@
 ---
-title: Consegna delle notifiche push
-seo-title: Consegna delle notifiche push
-description: Consegna delle notifiche push
-seo-description: L'attività di consegna delle notifiche push consente di configurare l'invio di una notifica push singola o periodica in un flusso di lavoro.
-page-status-flag: never-activated
-uuid: 994 d 8 fe 3-29 f 0-4 b 5 c -89 ee-c 6 be 7 c 60 a 31 b
+title: Recapito notifiche push
+description: L'attività di consegna delle notifiche push consente di configurare l'invio di una singola notifica push o di una notifica push ricorrente in un flusso di lavoro.
+page-status-flag: mai attivato
+uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: channel-activity
-discoiquuid: e 61 bdaee -4 b 48-4845-a 2 a 5-574 b 577 ea 796
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di canale
+discoiquuid: e61bdate-4b48-4845-a2a5-574b577ea796
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Push notification delivery{#push-notification-delivery}
+# Recapito notifiche push{#push-notification-delivery}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/push.png)
 
 ![](assets/recurrentpush.png)
 
-The **[!UICONTROL Push notification]** activity allows you to configure sending a push notification in a workflow. This can be a **single send** notification and sent just once, or it can be a **recurring** notification.
+L' **[!UICONTROL Push notification]** attività consente di configurare l'invio di una notifica push in un flusso di lavoro. Può trattarsi di una **singola notifica di invio** e inviata una sola volta, oppure di una notifica **ricorrente** .
 
-Le notifiche di invio singole sono consegne standard di notifiche push per dispositivi mobili, inviate una volta.
+Le notifiche di invio singolo sono notifiche push standard delle app mobili, inviate una volta.
 
-Le notifiche ricorrenti consentono di inviare più volte la stessa notifica push dell'app mobile a target diversi in un determinato periodo di tempo. Puoi aggregare le consegne per periodo per ottenere rapporti che corrispondono alle tue esigenze.
+Le notifiche ricorrenti consentono di inviare la stessa notifica push dell'app mobile più volte a destinazioni diverse in un periodo definito. È possibile aggregare le consegne per periodo al fine di ottenere rapporti che corrispondano alle proprie esigenze.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Push notification]** activity is generally used to automate sending a notification to a target calculated in the same workflow.
+L' **[!UICONTROL Push notification]** attività viene generalmente utilizzata per automatizzare l'invio di una notifica a una destinazione calcolata nello stesso flusso di lavoro.
 
-Se collegate a un pianificatore, potete definire notifiche push ricorrenti.
+Se collegato a un pianificatore, puoi definire notifiche push ricorrenti.
 
-I destinatari vengono definiti a monte dell'attività nello stesso flusso di lavoro, mediante attività di targeting quali query, intersezioni ecc.
+I destinatari vengono definiti a monte dell'attività nello stesso flusso di lavoro, tramite attività di targeting come query, intersezioni ecc.
 
-La preparazione del messaggio viene attivata in base ai parametri di esecuzione del flusso di lavoro. Dal pannello del messaggio, potete selezionare se richiedere o meno una conferma manuale per inviare il messaggio (richiesto per impostazione predefinita). Puoi avviare il flusso di lavoro manualmente oppure inserire un'attività pianificatore nel flusso di lavoro per automatizzare l'esecuzione.
+La preparazione dei messaggi viene attivata in base ai parametri di esecuzione del flusso di lavoro. Dal dashboard dei messaggi, puoi scegliere se richiedere o meno una conferma manuale per l'invio del messaggio (richiesta per impostazione predefinita). È possibile avviare il flusso di lavoro manualmente o inserire un'attività pianificatore nel flusso di lavoro per automatizzare l'esecuzione.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop a **[!UICONTROL Push notification]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. Trascinate e rilasciate un' **[!UICONTROL Push notification]** attività nel flusso di lavoro.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button from the activity's quick actions. This button is specific to the **[!UICONTROL Push notification]** activity. Potete accedere alle proprietà della notifica push tramite la barra delle azioni nella dashboard push.
+   >Potete accedere alle proprietà generali e alle opzioni avanzate dell'attività (e non della distribuzione stessa) tramite il ![](assets/dlv_activity_params-24px.png) pulsante dalle azioni rapide dell'attività. Questo pulsante è specifico per l' **[!UICONTROL Push notification]** attività. Le proprietà della notifica push sono accessibili tramite la barra delle azioni nel dashboard push.
 
-1. Seleziona la modalità di invio notifica push:
+1. Selezionate la modalità di invio della notifica push:
 
-   * **[!UICONTROL Single notification]**: la notifica push viene inviata una sola volta. Potete specificare qui se desiderate aggiungere una transizione in uscita all'attività. I diversi tipi di transizione sono descritti al punto 7 di questa procedura.
-   * **[!UICONTROL Recurring notification]**: la notifica push viene inviata più volte, a seconda della frequenza definita in un **[!UICONTROL Scheduler]** 'attività. Selezionare il periodo di aggregazione delle mandate. This allows you to regroup all the sends that occur during the defined period in one single push notification that is also called **recurring execution** and can be accessed from the application's marketing activity list.
+   * **[!UICONTROL Single notification]**: la notifica push viene inviata una sola volta. Potete specificare qui se desiderate aggiungere o meno una transizione in uscita all'attività. I diversi tipi di transizione sono descritti nel passaggio 7 di questa procedura.
+   * **[!UICONTROL Recurring notification]**: la notifica push viene inviata più volte, in base alla frequenza definita in un' **[!UICONTROL Scheduler]** attività. Selezionare il periodo di aggregazione delle mandate. Questo consente di raggruppare tutte le invii che si verificano durante il periodo definito in un'unica notifica push denominata anche esecuzione **** periodica e accessibile dall'elenco delle attività di marketing dell'applicazione.
 
-      Ad esempio, per una notifica di compleanno ricorrente inviata ogni giorno, potete scegliere di aggregare le mandate al mese. Questo consente di ricevere rapporti sulla distribuzione mensile, anche se la notifica viene inviata ogni giorno.
+      Ad esempio, per una notifica di compleanno ricorrente, inviata ogni giorno, potete scegliere di aggregare le invii al mese. Questo consente di ricevere rapporti sulla consegna su base mensile anche se la notifica viene inviata ogni giorno.
 
-1. Selezionate un tipo di notifica. These types come from push notifications templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** menu.
-1. Immettete le proprietà generali della notifica push. Potete allegarlo a una campagna esistente. L'etichetta dell'attività di consegna del flusso di lavoro viene aggiornata con l'etichetta di notifica push.
-1. Definire il contenuto delle notifiche push. See [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
-1. By default, the **[!UICONTROL Push notification]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL Push Notification]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. Selezionate un tipo di notifica. Questi tipi provengono dai modelli delle notifiche push definiti nel **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** menu.
+1. Immettete le proprietà generali per la notifica push. Potete anche allegarlo a una campagna esistente. L'etichetta dell'attività di consegna del flusso di lavoro viene aggiornata con l'etichetta di notifica push.
+1. Definite il contenuto della notifica push. Consultate [Creazione di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
+1. Per impostazione predefinita, l' **[!UICONTROL Push notification]** attività non include transizioni in uscita. Se desiderate aggiungere una transizione in uscita all' **[!UICONTROL Push Notification]** attività, andate alla **[!UICONTROL General]** scheda delle opzioni di attività avanzate ( ![](assets/dlv_activity_params-24px.png) pulsante nelle azioni rapide dell'attività), quindi selezionate una delle seguenti opzioni:
 
-   * **[!UICONTROL Add outbound transition without the population]**: consente di generare una transizione in uscita contenente la stessa popolazione della transizione in ingresso.
-   * **[!UICONTROL Add outbound transition with the population]**: consente di generare una transizione in uscita contenente la popolazione a cui è stata inviata la notifica. I membri della destinazione esclusi durante la preparazione di consegna sono esclusi da questa transizione.
+   * **[!UICONTROL Add outbound transition without the population]**: questo consente di generare una transizione in uscita che contiene esattamente la stessa popolazione della transizione in entrata.
+   * **[!UICONTROL Add outbound transition with the population]**: questo consente di generare una transizione in uscita contenente la popolazione a cui è stata inviata la notifica. I membri del target esclusi durante la preparazione della consegna sono esclusi da questa transizione.
 
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-Quando riaprite l'attività, viene portato direttamente al dashboard delle notifiche push. Solo il relativo contenuto può essere modificato.
+Quando riaprite l'attività, venite portati direttamente al dashboard di notifica push. È possibile modificare solo il contenuto.
 
-Per impostazione predefinita, l'avvio di un flusso di lavoro di consegna attiva solo la preparazione del messaggio. L'invio di messaggi creati da un flusso di lavoro deve comunque essere confermato dopo che il flusso di lavoro è stato avviato. But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. Deselezionando questa opzione, i messaggi vengono inviati senza ulteriore preavviso una volta completata la preparazione.
+Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva solo la preparazione dei messaggi. L'invio di messaggi creati da un flusso di lavoro deve ancora essere confermato dopo l'avvio del flusso di lavoro. Tuttavia, dal dashboard dei messaggi e solo se il messaggio è stato creato da un flusso di lavoro, potete disattivare l' **[!UICONTROL Request confirmation before sending messages]** opzione. Deselezionando questa opzione, i messaggi vengono inviati senza ulteriore preavviso una volta completata la preparazione.
 
-## Remarks {#remarks}
+## Osservazioni {#remarks}
 
-Le consegne create all'interno di un flusso di lavoro sono accessibili nell'elenco delle attività di marketing dell'applicazione. Potete visualizzare lo stato di esecuzione del flusso di lavoro utilizzando il dashboard. I collegamenti nel riquadro riepilogo delle notifiche push consentono di accedere direttamente agli elementi collegati (flusso di lavoro, campagna ecc.).
+Le consegne create all'interno di un flusso di lavoro sono accessibili nell'elenco delle attività di marketing dell'applicazione. Potete visualizzare lo stato di esecuzione del flusso di lavoro utilizzando il dashboard. I collegamenti nel riquadro di riepilogo delle notifiche push consentono di accedere direttamente agli elementi collegati (flusso di lavoro, campagna ecc.).
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Push notification]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+Nelle consegne principali, a cui è possibile accedere dall'elenco delle attività di marketing, è possibile visualizzare il numero totale di invii che sono stati elaborati (in base al periodo di aggregazione specificato al momento della configurazione dell' **[!UICONTROL Push notification]** attività). A tal fine, aprire la visualizzazione dettagli del **[!UICONTROL Deployment]** blocco di consegna principale selezionando ![](assets/wkf_dlv_detail_button.png).
 
-## Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}
+## Invio di una notifica push ricorrente con un flusso di lavoro {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)
 
-In questo esempio, una notifica push personalizzata viene inviata ogni giorno del mese alle 8 per gli abbonati dell'applicazione mobile a seconda dei loro fusi orari. A tal fine:
+In questo esempio, una notifica push personalizzata viene inviata ogni primo giorno del mese alle 20:00 agli abbonati dell'applicazione mobile a seconda dei fusi orari. Per eseguire questa operazione:
 
-1. The **[!UICONTROL Scheduler]** activity allows you to start the workflow days before the start of the delivery to be able to send the notification to every subscriber at 8 pm in any given time zone:
+1. L' **[!UICONTROL Scheduler]** attività consente di avviare i giorni del flusso di lavoro prima dell'inizio della consegna per poter inviare la notifica a tutti gli abbonati alle 20:00 in un dato fuso orario:
 
-   * In the **[!UICONTROL Execution frequency]** field, select Monthly.
-   * Select 8 pm in the **[!UICONTROL Time]** field.
-   * Scegli il giorno in cui la consegna verrà inviata ogni mese.
-   * Seleziona una data di inizio per il flusso di lavoro, almeno un giorno prima dell'inizio della distribuzione. In caso contrario, alcuni destinatari ricevono il messaggio un giorno dopo se l'ora selezionata è già trascorsa nei relativi fusi orari.
-   * In the **[!UICONTROL Execution options]** tab, select at which time zone your workflow will start in the **[!UICONTROL Time zone]** field. Qui, ad esempio, il flusso di lavoro inizierà dalle 8 alle, una settimana prima del primo giorno del mese, per consentire la creazione delle consegne per tutti i fusi orari applicabili.
+   * Nel **[!UICONTROL Execution frequency]** campo, selezionare Mensile.
+   * Selezionare le 20:00 nel **[!UICONTROL Time]** campo.
+   * Scegliere il giorno in cui verrà inviata la consegna ogni mese.
+   * Selezionate una data di inizio per il flusso di lavoro, almeno un giorno prima dell’inizio della consegna. In caso contrario, alcuni destinatari potrebbero ricevere il messaggio un giorno dopo se l’ora selezionata è già passata nei loro fusi orari.
+   * Nella **[!UICONTROL Execution options]** scheda, selezionare il fuso orario in cui il flusso di lavoro verrà avviato nel **[!UICONTROL Time zone]** campo. Qui, ad esempio, il flusso di lavoro inizia alle 20:00 ora del Pacifico, una settimana prima del primo giorno del mese, per consentire la creazione di un certo numero di consegne per tutti i fusi orari applicabili.
    ![](assets/wkf_push_example_5.png)
 
-1. The **Query** activity allows you to target your VIP customers aged between 20-30, who have subscribed to your mobile application and who did not open the email you sent:
+1. L'attività **Query** consente di eseguire il targeting dei clienti VIP di età compresa tra i 20 e i 30 anni, che si sono abbonati all'applicazione mobile e che non hanno aperto l'e-mail inviata:
 
-   * Selezionate un'audience (i clienti VIP) e filtrate l'età.
-   * Drag and drop the **Subscriptions to an application** element into the workspace. Select **Exists** and select the mobile application that you want to use.
-   * Selezionate l'e-mail inviata ai clienti.
-   * Drag and drop the **Delivery logs (logs)** element into the workspace and select **Exists** to target all of the customers who received the email.
-   * Drag and drop the **Tracking logs (tracking)** element into the workspace and select **Does not exist** to target all of the customers who did not open the email.
+   * Selezionate un'audience (i vostri clienti VIP) e filtratene l'età.
+   * Trascinate le **iscrizioni a un elemento applicazione** nell’area di lavoro. Selezionate **Esiste** e selezionate l’applicazione mobile da usare.
+   * Selezionate l’e-mail inviata ai clienti.
+   * Trascinate e rilasciate l’elemento dei registri di **consegna (file di registro)** nell’area di lavoro e selezionate **Esiste** per indirizzare tutti i clienti che hanno ricevuto l’e-mail.
+   * Trascinate l’elemento dei registri di **tracciamento (tracciamento)** nell’area di lavoro e selezionate **Non esiste** per indirizzare tutti i clienti che non hanno aperto l’e-mail.
 
       ![](assets/wkf_push_example_2.png)
 
-1. The **Push notification** activity allows you to enter the content of your message and to select the personalization fields that you want to use:
+1. L'attività di notifica **** push consente di immettere il contenuto del messaggio e selezionare i campi di personalizzazione che si desidera utilizzare:
 
-   * Select the **[!UICONTROL Recurring notification]** option.
-   * Definire il contenuto delle notifiche push. For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).
-   * In the **[!UICONTROL Schedule]** block, select **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Here, we chose the **[!UICONTROL Time zone of the contact date]** Pacific as in the workflow **[!UICONTROL Scheduler]**.
-   * In the **[!UICONTROL Optimize the sending time per recipient]** field, select **[!UICONTROL Send at the recipient's time zone]**.
+   * Selezionate l’ **[!UICONTROL Recurring notification]** opzione.
+   * Definite il contenuto della notifica push. Per ulteriori informazioni sul contenuto delle notifiche push, consultate questa [sezione](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * Nel **[!UICONTROL Schedule]** blocco selezionare **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Qui abbiamo scelto il **[!UICONTROL Time zone of the contact date]** Pacifico come nel flusso di lavoro **[!UICONTROL Scheduler]**.
+   * Nel **[!UICONTROL Optimize the sending time per recipient]** campo selezionare **[!UICONTROL Send at the recipient's time zone]**.
 
       ![](assets/wkf_push_example_4.png)
 
-1. Click the **[!UICONTROL Start]** button to start your recurring workflow.
+1. Fate clic sul **[!UICONTROL Start]** pulsante per avviare il flusso di lavoro periodico.
 
    ![](assets/wkf_push_example_3.png)
 
-Il flusso di lavoro è ora in esecuzione. It will start at the chosen start date of the **[!UICONTROL Scheduler]** at 8 pm Pacific time, the recurring push will then be sent every first day of the month at 8 pm depending on the customers time zone.
+Il flusso di lavoro è ora in esecuzione. Comincerà dalla data di inizio scelta delle **[!UICONTROL Scheduler]** 20:00 ora del Pacifico, il push periodico verrà inviato ogni primo giorno del mese alle 20:00 a seconda del fuso orario dei clienti.
