@@ -1,32 +1,30 @@
 ---
-title: Identificazione dei profili di rinuncia per una consegna
-seo-title: Identificazione dei profili di rinuncia per una consegna
-description: Identificazione dei profili di rinuncia per una consegna
-seo-description: Scopri come identificare i profili di rinuncia per una consegna.
-page-status-flag: never-activated
-uuid: ad 09 a 4 d 3-7 ad 6-47 b 8-9 c 56-73 bbaba 6 fa 60
+title: Identificazione dei profili di diniego per una consegna
+description: Scopri come identificare i profili di rifiuto per una consegna.
+page-status-flag: mai attivato
+uuid: ad09a4d3-7ad6-47b8-9c56-73bbaba6fa60
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audience
-content-type: riferimento
-topic-tags: understanding-opt-in-and-opt-out
-discoiquuid: 896859 da-a 230-4 f 13-9 b 1 f-cbff 34 b 3 c 0 e 0
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: comprensione dei processi di opt-in e opt-out
+discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Identifying opt-out profiles for a delivery{#identifying-opt-out-profiles-for-a-delivery}
+# Identificazione dei profili di diniego per una consegna{#identifying-opt-out-profiles-for-a-delivery}
 
-Opt-out profiles for a specific delivery are listed after the preparation phase, in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard.
+I profili di rifiuto per una consegna specifica sono elencati dopo la fase di preparazione, nella **[!UICONTROL Exclusion logs]** scheda del dashboard di consegna.
 
 ![](assets/exclusion_blacklisting.png)
 
 **Argomenti correlati:**
 
-* [Monitoraggio di una distribuzione](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [Preparazione dell'invio](../../sending/using/preparing-the-send.md).
+* [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+* [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
 
