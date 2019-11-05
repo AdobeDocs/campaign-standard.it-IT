@@ -1,8 +1,6 @@
 ---
 title: Note sulla versione
-seo-title: Note sulla versione
-description: Note sulla versione
-seo-description: In questa pagina sono elencate tutte le versioni recenti di Adobe Campaign Standard.
+description: In questa pagina sono elencate tutte le versioni recenti di Adobe Campaign Standard.
 page-status-flag: mai attivato
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -28,12 +26,12 @@ Risorse aggiuntive:
 * [Pianificazione rilascio campagna](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Ultimi aggiornamenti della documentazione](../../rn/using/documentation-updates.md)
 * [Funzioni obsolete e rimosse](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Pannello di controllo](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Pannello di controllo Campaign](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Note sulla versione precedente: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Rilascio 19.4 - ottobre 2019 {#release-19-4---october-2019}
 
-### Cosa c'è di nuovo? {#what-s-new-5}
+### What's new? {#what-s-new-5}
 
 <table> 
  <thead> 
@@ -150,7 +148,7 @@ Risorse aggiuntive:
 
 ## Aggiornamento del Pannello di controllo - Agosto 2019 {#controlpanel-update---august-2019}
 
-### Cosa c'è di nuovo? {#what-s-new-4}
+### What's new? {#what-s-new-4}
 
 Abbiamo aggiunto nuove funzionalità affinché gli utenti Admin ricevano notifiche prima della scadenza dei certificati SSL per i loro domini. Per ulteriori informazioni, consulta la documentazione [](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)dettagliata.
 
@@ -160,7 +158,7 @@ Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS. Ques
 
 ## Rilascio 19.3 - luglio 2019 {#release-19-3---july-2019}
 
-### Cosa c'è di nuovo? {#what-s-new-3}
+### What's new? {#what-s-new-3}
 
 <table> 
  <thead> 
@@ -280,13 +278,13 @@ Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS. Ques
 
 ## Rilascio 19.2.4 - giugno 2019 {#release-19-2-4---june-2019}
 
-### Designer e-mail {#email-designer-2}
+### Email Designer {#email-designer-2}
 
 * È stato risolto un problema che impediva agli utenti di modificare i frammenti in caso di utilizzo di tag di stile vuoti nell'HTML. Questa è una correzione per CAMP-33778 in 19.2.3.
 
 ## Rilascio 19.2.3 - giugno 2019 {#release-19-2-3---june-2019}
 
-### Designer e-mail {#email-designer-1}
+### Email Designer {#email-designer-1}
 
 È stata introdotta una serie di miglioramenti e correzioni per ottimizzare i frammenti nella release 19.2. I frammenti creati di recente funzioneranno perfettamente. I frammenti creati in precedenza sono stati disattivati e devono essere migrati nel nuovo formato. A tal fine, fare clic su ciascun frammento e convalidarne la migrazione nel nuovo formato. È consigliabile verificare alcuni frammenti prima di eseguire la migrazione di tutti.
 
@@ -305,7 +303,7 @@ Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS. Ques
 
 ## Rilascio 19.2 - maggio 2019 {#release-19-2---may-2019}
 
-### Cosa c'è di nuovo? {#what-s-new-}
+### What's new? {#what-s-new-}
 
 <table> 
  <thead> 
@@ -316,7 +314,7 @@ Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS. Ques
  </thead> 
  <tbody> 
   <tr> 
-   <td> Pannello di controllo<br /> </td> 
+   <td> Pannello di controllo Campaign<br /> </td> 
    <td> <p>Per migliorare l'efficienza del lavoro di amministratore, puoi monitorare facilmente la capacità e gestire le impostazioni delle tue istanze (a partire dalla gestione dei server SFTP).</p><p>Per ulteriori informazioni, consultate la documentazione <a href="https://helpx.adobe.com/campaign/kb/control-panel.html"></a> dettagliata e il video <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">sulle</a>procedure.</p></td> 
   </tr> 
   <tr> 
@@ -423,7 +421,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 ## Rilascio 19.1 - febbraio 2019 {#release-19-1---february-2019}
 
-### Cosa c'è di nuovo? {#what-s-new--1}
+### What's new? {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -529,7 +527,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 ## Rilascio 19.0 - gennaio 2019 {#release-19-0---january-2019}
 
-### Cosa c'è di nuovo? {#what-s-new--2}
+### What's new? {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -581,7 +579,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * L'elenco dei paesi disponibili per la definizione dell'indirizzo di un profilo è stato arricchito. (CAMP-26707)
 * Viene ora visualizzato un messaggio di errore quando si tenta di importare un flusso di lavoro integrato.
 
-### Designer e-mail {#email-designer}
+### Email Designer {#email-designer}
 
 * È stato risolto un problema che consentiva la funzionalità dell'unità geografica su un modello e-mail o un frammento di contenuto creato con Designer e-mail, anche se questa funzionalità era disabilitata in Adobe Campaign, rendendo il modello o il frammento non disponibile quando si tentava di accedervi nuovamente. (CAMP-28174)
 * È stato risolto un problema che impediva il salvataggio delle condizioni di contenuto dinamico durante la modifica del contenuto con Designer e-mail. (CAMP-27905)
