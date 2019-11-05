@@ -1,35 +1,33 @@
 ---
 title: Informazioni sulla configurazione dei canali
-seo-title: Informazioni sulla configurazione dei canali
-description: Informazioni sulla configurazione dei canali
-seo-description: '" Ogni canale deve essere configurato: configurazione tecnica, proprietà e modelli del messaggio. "'
-page-status-flag: never-activated
-uuid: 867 b 1 c 4 b -4 c 79-4 c 52-9 d 0 a-ef 71993 e 50 a 2
+description: '"Ogni canale deve essere configurato: configurazione tecnica, proprietà del messaggio e modelli."'
+page-status-flag: mai attivato
+uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: riferimento
-topic-tags: configuring-channels
-discoiquuid: 406 c 955 a-b 2 d 2-4099-9918-95 f 5 fa 966067
+content-type: reference
+topic-tags: configurazione dei canali
+discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About channel configuration{#about-channel-configuration}
+# Informazioni sulla configurazione dei canali{#about-channel-configuration}
 
-Tutti i canali di comunicazione in Adobe Campaign devono essere configurati correttamente per poter inviare efficacemente messaggi.
+Tutti i canali di comunicazione in Adobe Campaign devono essere configurati correttamente per poter inviare messaggi in modo efficace.
 
 Le diverse configurazioni sono le seguenti:
 
-* Configurazione tecnica del canale, compresa l'instradamento, le regole di elaborazione, i parametri di capacità, ecc.
-* Modelli e proprietà di messaggio. Tutti i messaggi sono basati su un modello. Adobe Campaign viene fornito con un set di modelli predefiniti per tutti i canali attivati. Potete duplicarli e personalizzarli.
-* Proprietà messaggio. Quando create un nuovo messaggio, potete finalizzare le proprietà in base alle vostre esigenze.
+* Configurazione tecnica del canale, compresi routing, regole di elaborazione, parametri di recapito, ecc.
+* Modelli e proprietà dei messaggi. Tutti i messaggi si basano su un modello. Adobe Campaign viene fornito con un set di modelli predefiniti per tutti i canali attivati. Potete duplicare e personalizzare questi modelli.
+* Proprietà del messaggio. Quando crei un nuovo messaggio, puoi perfezionare le proprietà in base alle tue esigenze.
 * Alcuni canali offrono configurazioni aggiuntive facoltative, come CCN e-mail.
 
-**[!UICONTROL Channel]** Il menu raggruppa i parametri tecnici collegati ai diversi canali dell'applicazione (E-mail, SMS) nonché a gestione ortografia e quarantena.
+Il **[!UICONTROL Channel]** menu raggruppa i parametri tecnici collegati ai diversi canali di applicazione (Email, SMS), nonché la gestione della tipologia e della quarantena.
 
-Administrators can access these configurations in the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** menu.
+Gli amministratori possono accedere a queste configurazioni nel **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** menu.
