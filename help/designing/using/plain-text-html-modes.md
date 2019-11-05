@@ -1,8 +1,6 @@
 ---
 title: Modalità testo normale e HTML
-seo-title: Modalità testo normale e HTML
-description: Modalità testo normale e HTML
-seo-description: Scoprite il testo normale e le modalità HTML
+description: Scoprite il testo normale e le modalità HTML
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2045c69398902a8e942e20c70287d7f3e9570837
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
