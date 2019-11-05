@@ -1,8 +1,6 @@
 ---
 title: Preparazione e invio di un messaggio in-app
-seo-title: Preparazione e invio di un messaggio in-app
-description: Preparazione e invio di un messaggio in-app
-seo-description: Create un messaggio in-app per indirizzare gli utenti iscritti all'applicazione con contenuto specifico.
+description: Create un messaggio in-app per indirizzare gli utenti iscritti all'applicazione con contenuto specifico.
 page-status-flag: mai attivato
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: consegna,trigger,back;deliveryCreation,procedura guidata
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -126,7 +124,7 @@ I passaggi per creare un messaggio in-app standalone con Adobe Campaign sono:
 
    ![](assets/inapp_creating_5.png)
 
-1. Modificate il contenuto del messaggio e definite le opzioni avanzate. Consultate [Personalizzazione di un messaggio](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html)in-app.
+1. Modificate il contenuto del messaggio e definite le opzioni avanzate. See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
@@ -137,7 +135,7 @@ Il messaggio in-app ora è pronto per essere inviato al pubblico di destinazione
 **Argomenti correlati:**
 
 * [Personalizzazione di un messaggio in-app](../../channels/using/customizing-an-in-app-message.md)
-* [Rapporto in-app](../../reporting/using/in-app-report.md)
+* [Report in-app](../../reporting/using/in-app-report.md)
 * [Invio di un messaggio in-app in un flusso di lavoro](../../automating/using/in-app-delivery.md)
 
 ## Invio del messaggio in-app {#sending-your-in-app-message}
@@ -168,6 +166,6 @@ Una volta completata la preparazione della consegna e che sono state eseguite le
 
 **Argomenti correlati:**
 
-* [Rapporto in-app](../../reporting/using/in-app-report.md)
+* [Report in-app](../../reporting/using/in-app-report.md)
 * [Invio di un messaggio in-app in un flusso di lavoro](../../automating/using/in-app-delivery.md)
 
