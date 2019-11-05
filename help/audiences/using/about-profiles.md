@@ -1,8 +1,6 @@
 ---
 title: Informazioni sui profili
-seo-title: Informazioni sui profili
-description: Informazioni sui profili
-seo-description: I contatti vengono memorizzati come profili nel database Campaign e aggiornati per l'intero ciclo di vita.
+description: I contatti vengono memorizzati come profili nel database Campaign e aggiornati per l'intero ciclo di vita.
 page-status-flag: mai attivato
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: destinatario,panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
