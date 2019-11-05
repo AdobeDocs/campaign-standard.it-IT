@@ -1,81 +1,79 @@
 ---
-title: Aggiorna dati
-seo-title: Aggiorna dati
-description: Aggiorna dati
-seo-description: L'attività di dati Aggiorna consente di eseguire un aggiornamento di massa sui campi del database.
-page-status-flag: never-activated
-uuid: 1 dc 55 db 5-affd -4688-b 673-adfb 8 c 1338 b 5
+title: Aggiornare dati
+description: L'attività Aggiorna dati consente di eseguire un aggiornamento di massa sui campi del database.
+page-status-flag: mai attivato
+uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: gestione dati-attività
-discoiquuid: 4 db 83 c 95-4 b 75-4 a 16-8 dbf-bd 8940431 fa 9
-context-tags: writer, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: gestione dei dati
+discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
+context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Update data{#update-data}
+# Aggiornare dati{#update-data}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/data_update.png)
 
-The **[!UICONTROL Update data]** activity allows you to perform a mass update on fields in the database.
+L' **[!UICONTROL Update data]** attività consente di eseguire un aggiornamento di massa sui campi del database.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **Update data** activity can be used after importing a file in order to insert the data recovered into the Adobe Campaign database. Diverse opzioni consentono di personalizzare i dati.
+L'attività **Aggiorna dati** può essere utilizzata dopo l'importazione di un file per inserire i dati recuperati nel database di Adobe Campaign. Diverse opzioni consentono di personalizzare l'aggiornamento dei dati.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop an **[!UICONTROL Update data]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specify the **[!UICONTROL Operation type]** to be carried out:
+1. Trascinate e rilasciate un' **[!UICONTROL Update data]** attività nel flusso di lavoro.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Specificare le modalità **[!UICONTROL Operation type]** da eseguire:
 
-   * **[!UICONTROL Insert or update]**: inserire dati o aggiornarli se sono già presenti nel database.
-   * **[!UICONTROL Insert only]**: inserire solo dati. I record già esistenti non vengono aggiornati. Se sono definiti criteri di riconciliazione, verranno aggiunti solo i record non riconciliati.
+   * **[!UICONTROL Insert or update]**: inserire dati o aggiornarli se i record esistono già nel database.
+   * **[!UICONTROL Insert only]**: inserire solo i dati. I record già esistenti non vengono aggiornati. Se sono definiti criteri di riconciliazione, verranno aggiunti solo i record non riconciliati.
 
-      Check the **[!UICONTROL Generate an outbound transition for rejects]** box if the data imported contains certain records that already exist in the database to avoid any possible errors.
+      Selezionare la **[!UICONTROL Generate an outbound transition for rejects]** casella se i dati importati contengono alcuni record già presenti nel database per evitare possibili errori.
 
-   * **[!UICONTROL Update]**: aggiornare i dati dei record già esistenti nel database.
+   * **[!UICONTROL Update]**: aggiornare i dati dei record già esistenti solo nel database.
    * **[!UICONTROL Delete]**: eliminare i dati.
    >[!NOTE]
    >
-   >**[!UICONTROL Batch size]** Il campo consente di definire la dimensione batch massima per i dati da caricare.
+   >Il **[!UICONTROL Batch size]** campo consente di definire la dimensione batch massima per i dati da caricare.
 
-1. In the **[!UICONTROL Identification]** tab, specify how to identify the records in the database:
+1. Nella **[!UICONTROL Identification]** scheda, specificare come identificare i record nel database:
 
-   * **[!UICONTROL Using the targeting dimension]**: selezionate quindi **[!UICONTROL Dimension to update]** il **[!UICONTROL Keys for finding records]** nome. For more this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * If the data entered matches an existing targeting dimension, select the **[!UICONTROL Using one or more links]** option. Then select the **[!UICONTROL Dimension to update]**.
+   * **[!UICONTROL Using the targeting dimension]**: selezionate il **[!UICONTROL Dimension to update]** pulsante e specificate il **[!UICONTROL Keys for finding records]**. Per ulteriori informazioni, consulta [Impostazione del targeting di dimensioni e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * Se i dati immessi corrispondono a una dimensione di targeting esistente, selezionate l' **[!UICONTROL Using one or more links]** opzione. Quindi selezionate il **[!UICONTROL Dimension to update]**.
    Se il tipo di operazione selezionato richiede un aggiornamento, è necessario utilizzare le chiavi di riconciliazione.
 
-1. In the **[!UICONTROL Fields to update]** tab, specify the fields on which the update will be applied and, if necessary, add conditions so that this update is carried out. To do this, use the **[!UICONTROL Taken into account if]** column. Le condizioni vengono applicate una dopo l'altra nell'ordine degli elenchi. Usate le frecce a destra per modificare l'ordine degli aggiornamenti. Potete usare più volte lo stesso campo di destinazione.
+1. Nella **[!UICONTROL Fields to update]** scheda, specificate i campi in cui verrà applicato l'aggiornamento e, se necessario, aggiungete le condizioni in modo da eseguire l'aggiornamento. A questo scopo, utilizzare la **[!UICONTROL Taken into account if]** colonna. Le condizioni vengono applicate una dopo l'altra in ordine di elenco. Utilizzate le frecce a destra per cambiare l'ordine degli aggiornamenti. È possibile utilizzare lo stesso campo di destinazione più volte.
 
-   You can automatically link fields using the ![](assets/wkf_magic_wand-24px.png) button. Il collegamento automatico rileva i campi con lo stesso nome.
+   È possibile collegare automaticamente i campi utilizzando il ![](assets/wkf_magic_wand-24px.png) pulsante . Il collegamento automatico rileva i campi con lo stesso nome.
 
-   During an **[!UICONTROL Insert or update]** type operation, you can individually select the operation to apply for each field. To do this, select the value you would like in the **[!UICONTROL Operation]** column.
+   Durante un'operazione di **[!UICONTROL Insert or update]** tipo, è possibile selezionare singolarmente l'operazione da applicare a ciascun campo. A questo scopo, selezionate il valore desiderato nella **[!UICONTROL Operation]** colonna.
 
    >[!NOTE]
    >
-   >**Gestione degli aggiornamenti** I **[!UICONTROL lastModified]** campi e **[!UICONTROL modifiedBy]****[!UICONTROL created]** vengono **[!UICONTROL createdBy]** aggiornati automaticamente quando viene eseguita un'attività dati di aggiornamento, a meno che la relativa configurazione non venga eseguita esplicitamente nella tabella di aggiornamento del campo. L'aggiornamento viene eseguito solo nei record in cui è stata rilevata almeno una differenza. Se i valori sono identici, non viene eseguito nessun aggiornamento.
+   >**Gestione degli aggiornamenti** I **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL created]** e **[!UICONTROL createdBy]** i campi vengono aggiornati automaticamente all'esecuzione di un'attività di aggiornamento dei dati, a meno che la loro configurazione non venga eseguita esplicitamente nella tabella di aggiornamento dei campi. L'aggiornamento viene eseguito solo sui record in cui è stata rilevata almeno una differenza. Se i valori sono identici, non viene effettuato alcun aggiornamento.
 
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
+1. Se necessario, gestite le [Transizioni](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) dell'attività per accedere alle opzioni avanzate per la popolazione in uscita.
 
-   If you have selected **[!UICONTROL Insert only]** and the data imported may contain records that are already present in the database, check the **[!UICONTROL Generate an outbound transition for the rejects]** box to avoid any possible errors.
+   Se avete selezionato **[!UICONTROL Insert only]** e i dati importati possono contenere record già presenti nel database, selezionate la **[!UICONTROL Generate an outbound transition for the rejects]** casella per evitare eventuali errori.
 
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example {#example}
+## Esempio {#example}
 
-The following activity shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. Questo flusso di lavoro consente di aggiungere o aggiornare profili al database Adobe Campaign con i dati recuperati dal file. La chiave di riconciliazione utilizzata è l'indirizzo e-mail.
+L'attività seguente mostra la configurazione di un' **[!UICONTROL Update data]** attività dopo un' **[!UICONTROL Load file]** attività. Lo scopo di questo flusso di lavoro è quello di aggiungere o aggiornare profili al database Adobe Campaign con i dati recuperati dal file. La chiave di riconciliazione utilizzata è l'indirizzo e-mail.
 
-The file loaded is a **.txt** format file containing the following example data:
+Il file caricato è un file in formato **.txt** contenente i dati di esempio seguenti:
 
 ```
 lastname;firstname;email;birthdate
@@ -90,7 +88,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-The **[!UICONTROL Update data]** activity is configured as follows:
+L' **[!UICONTROL Update data]** attività è configurata come segue:
 
 ![](assets/deduplication_example2_writer1.png)
 
