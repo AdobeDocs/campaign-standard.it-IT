@@ -1,8 +1,6 @@
 ---
 title: Creazione di una dimensione di profilo personalizzata
-seo-title: Creazione di una dimensione di profilo personalizzata
-description: Creazione di una dimensione di profilo personalizzata
-seo-description: Scoprite come creare una dimensione di profilo personalizzata basata sui dati di profilo personalizzati.
+description: Scoprite come creare una dimensione di profilo personalizzata basata sui dati di profilo personalizzati.
 page-status-flag: mai attivato
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
