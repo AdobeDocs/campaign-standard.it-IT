@@ -1,8 +1,6 @@
 ---
 title: 'Personalizzazione delle e-mail '
-seo-title: Informazioni su e-mail designer
-description: Informazioni su e-mail designer
-seo-description: Scoprite Email Designer che consente di progettare contenuti per le e-mail.
+description: Scoprite Email Designer che consente di progettare contenuti per le e-mail.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
