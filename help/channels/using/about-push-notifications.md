@@ -1,8 +1,6 @@
 ---
 title: Informazioni sulle notifiche push
-seo-title: Informazioni sulle notifiche push
-description: Informazioni sulle notifiche push
-seo-description: Scopri le principali specificità del canale di notifica push in Adobe Campaign.
+description: Scopri le principali specificità del canale di notifica push in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: mobileApp,panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
