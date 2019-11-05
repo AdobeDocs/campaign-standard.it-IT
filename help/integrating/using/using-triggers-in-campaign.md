@@ -1,8 +1,6 @@
 ---
-title: Utilizzo degli attivatori in Campaign
-seo-title: Utilizzo degli attivatori in Campaign
-description: Utilizzo degli attivatori in Campaign
-seo-description: null
+title: Utilizzo di Triggers in Campaign
+description: null
 page-status-flag: mai attivato
 uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Utilizzo degli attivatori in Campaign{#using-triggers-in-campaign}
+# Utilizzo di Triggers in Campaign{#using-triggers-in-campaign}
 
 ## Creazione di un trigger mappato in Campaign {#creating-a-mapped-trigger-in-campaign}
 
