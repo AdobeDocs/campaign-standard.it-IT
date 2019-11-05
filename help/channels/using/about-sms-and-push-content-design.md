@@ -1,8 +1,6 @@
 ---
 title: Informazioni sulla progettazione di contenuto SMS e push
-seo-title: Informazioni sulla progettazione di contenuto SMS e push
-description: Informazioni sulla progettazione di contenuto SMS e push
-seo-description: Scopri l'editor utilizzato per modificare il contenuto dei messaggi SMS e delle notifiche push in Adobe Campaign.
+description: Scopri l'editor utilizzato per modificare il contenuto dei messaggi SMS e delle notifiche push in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
