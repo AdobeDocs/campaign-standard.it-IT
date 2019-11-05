@@ -1,8 +1,6 @@
 ---
-title: Informazioni sull'estensione dell'API
-seo-title: Informazioni sull'estensione dell'API
-description: Informazioni sull'estensione dell'API
-seo-description: null
+title: Informazioni sull’estensione dell’API
+description: null
 page-status-flag: mai attivato
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Informazioni sull'estensione dell'API{#about-extending-the-api}
+# Informazioni sull’estensione dell’API{#about-extending-the-api}
 
 In questo caso di utilizzo viene illustrata l'esposizione dei campi estesi per i profili di risorse personalizzati nell'API Profili pubblici. Ad esempio, per aggiornare immediatamente il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
