@@ -1,8 +1,6 @@
 ---
-title: Interfaccia flusso di lavoro
-seo-title: Interfaccia flusso di lavoro
-description: Interfaccia flusso di lavoro
-seo-description: Scopri l’interfaccia e le opzioni per creare, modificare ed eseguire un flusso di lavoro.
+title: Interfaccia del flusso di lavoro
+description: Scopri l’interfaccia e le opzioni per creare, modificare ed eseguire un flusso di lavoro.
 page-status-flag: mai attivato
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: flusso di lavoro,principale;flusso di lavoro,panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Interfaccia flusso di lavoro{#workflow-interface}
+# Interfaccia del flusso di lavoro{#workflow-interface}
 
 Puoi creare flussi di lavoro per gestire interi processi nelle campagne e nei programmi.
 
