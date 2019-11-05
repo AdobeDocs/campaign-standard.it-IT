@@ -1,8 +1,6 @@
 ---
 title: 'Progettazione di e-mail da zero '
-seo-title: 'Progettazione di e-mail da zero '
-description: 'Progettazione di e-mail da zero '
-seo-description: Scoprite come progettare e-mail da contenuti e-mail nuovi in Designer e-mail.
+description: Scoprite come progettare e-mail da contenuti e-mail nuovi in Designer e-mail.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ Di seguito sono riportati i passaggi principali per creare e progettare un conte
 1. Inserire componenti e frammenti di contenuto nei componenti della struttura. Vedere [Aggiunta di frammenti e componenti](#defining-the-email-structure)di contenuto.
 1. Aggiungete le immagini e modificate il testo del messaggio e-mail. Consultate [Inserimento di immagini](../../designing/using/images.md#inserting-images).
 1. Personalizza la tua e-mail aggiungendo campi di personalizzazione, collegamenti e così via. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field)di personalizzazione, [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link) e [Definizione di contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. Definite l’oggetto del messaggio e-mail. Consultate [Personalizzazione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. Definite l’oggetto del messaggio e-mail. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Visualizzate l’anteprima del messaggio e-mail.
 1. Salvate il contenuto e continuate con il messaggio dopo aver definito un'audience e pianificato correttamente l'invio.
 
@@ -158,7 +156,7 @@ Elenco dei componenti disponibili in Designer e-mail:
 **Argomenti** correlati:
 
 - [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
-- [Selezione di un'audience in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Selezione di un’audience in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md)
 - [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
-- [Rendering e-mail](../../sending/using/email-rendering.md)
+- [Rendering di e-mail](../../sending/using/email-rendering.md)
