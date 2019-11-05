@@ -1,8 +1,6 @@
 ---
 title: Aggiornamento della struttura del database
-seo-title: Aggiornamento della struttura del database
-description: Aggiornamento della struttura del database
-seo-description: Scopri come aggiornare il database Adobe Campaign.
+description: Scopri come aggiornare il database Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: distribuire,main;eventCusResource,panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -34,7 +32,7 @@ Per applicare le modifiche eseguite sulle risorse, è necessario eseguire un agg
 
 >[!NOTE]
 >
->Se un campo di una risorsa personalizzata utilizzata in un evento viene modificato o eliminato, l'evento corrispondente viene automaticamente annullato. Consulta [Configurazione dei messaggi](../../administration/using/configuring-transactional-messaging.md)transazionali.
+>Se un campo di una risorsa personalizzata utilizzata in un evento viene modificato o eliminato, l'evento corrispondente viene automaticamente annullato. See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
 1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, quindi **[!UICONTROL Publishing]**.
 1. Per impostazione predefinita, l'opzione **[!UICONTROL Determine modifications since the last publication]** è selezionata, il che significa che verranno applicate solo le modifiche eseguite dall'ultimo aggiornamento.
