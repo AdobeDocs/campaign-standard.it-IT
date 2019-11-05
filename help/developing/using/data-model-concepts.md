@@ -1,45 +1,43 @@
 ---
 title: Concetti del modello dati
-seo-title: Concetti del modello dati
-description: Concetti del modello dati
-seo-description: Scopri il modello dati Adobe Campaign e come modificarlo.
-page-status-flag: never-activated
-uuid: cacd 563 f -6936-4 b 3 e -83 e 3-5 d 4 ae 31 d 44 e 8
+description: Scopri il modello dati di Adobe Campaign e come modificarlo.
+page-status-flag: mai attivato
+uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: sviluppo
-content-type: riferimento
+products: SG_CAMPAIGN/STANDARD
+audience: development
+content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 4 e 0468 da -3052-4 ce 5-8174-45 aba 1 f 5 c 4 ed
-context-tags: Cusresource, overview; Eventcusresource, overview
+discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
+context-tags: cusResource,panoramica;eventCusResource,panoramica
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Data model concepts{#data-model-concepts}
+# Concetti del modello dati{#data-model-concepts}
 
-Adobe Campaign viene fornito con un modello dati predefinito. This data model can be modified by [administrators](../../administration/using/users-management.md#functional-administrators) who are able to add new resources or extensions to existing resources.
+Adobe Campaign viene fornito con un modello dati predefinito. Questo modello di dati può essere modificato dagli [amministratori](../../administration/using/users-management.md#functional-administrators) che possono aggiungere nuove risorse o estensioni alle risorse esistenti.
 
 >[!CAUTION]
 >
->La creazione e la modifica delle risorse sono operazioni sensibili che devono essere eseguite solo dagli utenti esperti.
+>La creazione e la modifica di risorse sono operazioni sensibili che devono essere eseguite solo da utenti esperti.
 
-The **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** menu, accessed via the Adobe Campaign logo, allows you to manage your **custom resources**, **publish** them, and **access the diagnostic tools**.
+Il menu **[!UICONTROL Administration]** &gt;, accessibile tramite il logo Adobe Campaign, consente di gestire le risorse **[!UICONTROL Development]** **personalizzate,** pubblicarle **e** accedere agli strumenti **** diagnostici.
 
 I dati utilizzati da Adobe Campaign sono definiti tramite risorse diverse.
 
-You can **enrich the data template** that is provided by creating your own custom resources, such as purchase or product tables.
+È possibile **arricchire il modello** di dati fornito creando risorse personalizzate, ad esempio tabelle di acquisto o di prodotti.
 
-Le risorse integrate (come campagne, e-mail o audience) non possono essere modificate. Tuttavia, le risorse personalizzate possono essere estese per aggiungere nuovi campi.
+Le risorse pronte all'uso (come campagne, e-mail o audience) non possono essere modificate. Tuttavia, è possibile estendere le risorse personalizzate per aggiungere nuovi campi.
 
 >[!NOTE]
 >
->You can find a datamodel representation for the out-of-the-box resources [here](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html).
+>Puoi trovare una rappresentazione del modello di dati per le risorse pronte all’uso [qui](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html).
 
-You can also **configure the navigation** in the screens corresponding to the resource created.
+Potete anche **configurare la navigazione** nelle schermate corrispondenti alla risorsa creata.
 
-I campi dell'estensione vengono generati con un prefisso in modo che non siano mai in conflitto con i campi inclusi.
+I campi di estensione vengono generati con un prefisso in modo che non entrino mai in conflitto con i campi forniti.
