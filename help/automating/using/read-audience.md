@@ -1,66 +1,64 @@
 ---
 title: Leggi audience
-seo-title: Leggi audience
-description: Leggi audience
-seo-description: L'attività Leggi audience consente di recuperare un pubblico esistente e di perfezionarlo applicando condizioni di filtro aggiuntive.
-page-status-flag: never-activated
-uuid: 58 c 54 e 71-f 4 a 7-4 ae 9-80 a 3-33 c 379 ab 1 db 9
+description: L'attività Leggi audience consente di recuperare un'audience esistente e di perfezionarla applicando ulteriori condizioni di filtro.
+page-status-flag: mai attivato
+uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: targeting-activity
-discoiquuid: 674684 e 5-8830-4 d 2 f-ba 97-59 ed 4 ba 7422 f
-context-tags: Readaudience, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di targeting
+discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
+context-tags: readAudience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Read audience{#read-audience}
+# Leggi audience{#read-audience}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/prefill.png)
 
-The **[!UICONTROL Read audience]** activity allows you to retrieve an existing audience and to refine it by applying additional filtering conditions.
+L' **[!UICONTROL Read audience]** attività consente di recuperare un'audience esistente e di perfezionarla applicando ulteriori condizioni di filtro.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Read audience]** activity is a simpler version of the **[!UICONTROL Query]** activity designed for cases where you only need to select an existing audience.
+L' **[!UICONTROL Read audience]** attività è una versione più semplice dell' **[!UICONTROL Query]** attività progettata per i casi in cui è solo necessario selezionare un'audience esistente.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drop a **[!UICONTROL Read audience]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the audience you want to retrieve from the **[!UICONTROL Properties]** tab.
+1. Rilascia un' **[!UICONTROL Read audience]** attività nel flusso di lavoro.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Selezionate il pubblico da recuperare dalla **[!UICONTROL Properties]** scheda.
 
-   You can retrieve audiences of the following types: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** and **[!UICONTROL Experience Cloud]**. For more information on audience types, refer to the [Audiences](../../audiences/using/about-audiences.md) documentation.
+   Puoi recuperare tipi di pubblico dei seguenti tipi: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** e **[!UICONTROL Experience Cloud]**. Per ulteriori informazioni sui tipi di pubblico, consulta la documentazione [Audiences](../../audiences/using/about-audiences.md) .
 
-   The **[!UICONTROL Use a dynamic audience]** option lets you define the name of the audience to target based on the workflow's events variables. For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+   L' **[!UICONTROL Use a dynamic audience]** opzione consente di definire il nome dell'audience di cui eseguire il targeting in base alle variabili degli eventi del flusso di lavoro. Per ulteriori informazioni, vedere la sezione [Personalizzazione delle attività con variabili](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) di eventi.
 
    ![](assets/readaudience_activity1.png)
 
-1. If you want to apply additional filtering to the selected audience, add conditions via the **[!UICONTROL Source filtering]** tab of the activity.
+1. Se desiderate applicare un filtro aggiuntivo all'audience selezionata, aggiungete condizioni tramite la **[!UICONTROL Source filtering]** scheda dell'attività.
 
-   For more information about creating filtering conditions, refer to the [Creating queries](../../automating/using/editing-queries.md#creating-queries) documentation.
+   Per ulteriori informazioni sulla creazione di condizioni di filtraggio, consultare la documentazione [Creazione di query](../../automating/using/editing-queries.md#creating-queries) .
 
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example: Reconcile a File audience with the database {#example--reconcile-a-file-audience-with-the-database}
+## Esempio: Riconciliare un pubblico di file con il database {#example--reconcile-a-file-audience-with-the-database}
 
-This example shows how to use the **[!UICONTROL Read audience]** activity to reconcile an audience directly created from a file import.
+Questo esempio mostra come utilizzare l' **[!UICONTROL Read audience]** attività per riconciliare un'audience creata direttamente da un'importazione di file.
 
-Durante l'importazione di un file, potete salvarne direttamente il contenuto in un'audience. Questo tipo di pubblico è un'audience di file e i relativi dati non sono collegati a risorse di database.
+Durante l'importazione di un file, potete salvarne direttamente il contenuto in un pubblico. Questo pubblico è un pubblico di file e i relativi dati non sono collegati ad alcuna risorsa di database.
 
-Il flusso di lavoro di importazione è indicato di seguito:
+Il flusso di lavoro di importazione è stato progettato come segue:
 
 ![](assets/readaudience_activity_example3.png)
 
-* A [Load file](../../automating/using/load-file.md) activity uploads a file containing profiles data that were extracted from an external tool.
+* Un'attività [Carica file](../../automating/using/load-file.md) carica un file contenente i dati dei profili estratti da uno strumento esterno.
 
    Ad esempio:
 
@@ -78,28 +76,28 @@ Il flusso di lavoro di importazione è indicato di seguito:
    Ross;Timothy;04/07/1986;timross@example.com;157643
    ```
 
-* A [Save audience](../../automating/using/save-audience.md) activity saves the incoming data as an audience. Poiché i dati non sono ancora stati riconciliati, l'audience è un'audience di file e i relativi dati non vengono ancora riconosciuti come dati di profilo.
+* Un'attività [Salva audience](../../automating/using/save-audience.md) salva i dati in arrivo come pubblico. Poiché i dati non sono ancora stati riconciliati, l'audience è un'audience di File e i suoi dati non sono ancora riconosciuti come dati di profilo.
 
-Il flusso di lavoro per la riconciliazione è stato realizzato come segue:
+Il flusso di lavoro di riconciliazione è progettato come segue:
 
 ![](assets/readaudience_activity_example2.png)
 
-* A **[!UICONTROL Read audience]** activity uploads the File audience created in the import workflow. I dati del pubblico non sono ancora riconciliati con il database Adobe Campaign.
-* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the incoming data as profiles through its **[!UICONTROL Identification]** tab. For example by using the **email** field as reconciliation criteria.
-* An [Update data](../../automating/using/update-data.md) activity inserts and updates the profiles resource of the database with the incoming data. As the data is already identified as profiles, you can select the **[!UICONTROL Directly using the targeting dimension]** option and select **[!UICONTROL Profiles]** in the **[!UICONTROL Identification]** tab of the activity. Quindi, è sufficiente aggiungere l'elenco dei campi da aggiornare nella scheda di base.
+* Un' **[!UICONTROL Read audience]** attività carica l'audience File creata nel flusso di lavoro di importazione. I dati sul pubblico non sono ancora riconciliati con il database Adobe Campaign.
+* Un'attività di [riconciliazione](../../automating/using/reconciliation.md) identifica i dati in arrivo come profili attraverso la relativa **[!UICONTROL Identification]** scheda. Ad esempio, utilizzando il campo **email** come criterio di riconciliazione.
+* Un'attività [Aggiorna dati](../../automating/using/update-data.md) inserisce e aggiorna la risorsa dei profili del database con i dati in arrivo. Poiché i dati sono già identificati come profili, potete selezionare l' **[!UICONTROL Directly using the targeting dimension]** opzione e **[!UICONTROL Profiles]** nella **[!UICONTROL Identification]** scheda dell'attività. Quindi, è sufficiente aggiungere l'elenco dei campi che devono essere aggiornati nella scheda in base.
 
-## Example: Union on two refined audiences {#example--union-on-two-refined-audiences}
+## Esempio: Unione su due tipi di pubblico raffinati {#example--union-on-two-refined-audiences}
 
-The workflow defined in this example shows the union of two **[!UICONTROL Read audience]** activities. L'obiettivo di questo flusso di lavoro consiste nell'inviare un'e-mail a membri Gold o Silver che hanno una durata compresa tra 18 e 30 anni.
+Il flusso di lavoro definito in questo esempio mostra l'unione di due **[!UICONTROL Read audience]** attività. L'obiettivo di questo flusso di lavoro è quello di inviare un'e-mail ai membri Gold o Silver che hanno tra i 18 e i 30 anni.
 
-Sono già state create audience specifiche nel sistema per tenere traccia dei membri Gold e Silver.
+Nel sistema sono già state create audience specifiche per tenere traccia dei membri Gold e Silver.
 
 Il flusso di lavoro è progettato come segue:
 
 ![](assets/readaudience_activity_example1.png)
 
-* A first **[!UICONTROL Read audience]** activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.
-* A second **[!UICONTROL Read audience]** activity that retrieves the Silver members audience and refines it by selecting only profiles that are between 18 and 30 years old.
-* **[!UICONTROL Union]** Un'attività che unisce le popolazioni da entrambe **[!UICONTROL Read audiences]** le attività a una popolazione finale.
-* An **[!UICONTROL Email delivery]** activity that sends the email to the population coming from the **[!UICONTROL Union]** activity.
+* Una prima **[!UICONTROL Read audience]** attività che recupera l'audience dei membri Gold e la perfeziona selezionando solo i profili con età compresa tra 18 e 30 anni.
+* Una seconda **[!UICONTROL Read audience]** attività che recupera l'audience dei membri Silver e la perfeziona selezionando solo i profili con età compresa tra 18 e 30 anni.
+* Un' **[!UICONTROL Union]** attività che unisce le popolazioni da entrambe **[!UICONTROL Read audiences]** le attività ad una popolazione finale.
+* Un' **[!UICONTROL Email delivery]** attività che invia l'e-mail alla popolazione proveniente dall' **[!UICONTROL Union]** attività.
 
