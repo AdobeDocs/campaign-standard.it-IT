@@ -1,39 +1,37 @@
 ---
 title: Creazione di un modello multilingue
-seo-title: Creazione di un modello multilingue
-description: Creazione di un modello multilingue
-seo-description: Scopri come definire ed eseguire le consegne e-mail/SMS in più lingue tramite una singola distribuzione basata sulla lingua preferita dei clienti specifici. Segnala le prestazioni di ogni distribuzione fino alla lingua e ai singoli livelli.
-page-status-flag: never-activated
-uuid: 7 a 2 cd 5 f 7-c 0 fc -4825-a 770-a 62816 c 66 b 3 f
+description: Scopri come definire ed eseguire le consegne di e-mail/SMS in più lingue attraverso un'unica distribuzione basata sulla lingua preferita dei clienti che si trovano automaticamente segmentati. Report sulle prestazioni di ogni distribuzione fino al livello della lingua e dei singoli livelli.
+page-status-flag: mai attivato
+uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: riferimento
+content-type: reference
 topic-tags: gestione dei modelli
-discoiquuid: 064 c 5 c 4 a-f 579-4 bab-adf 3-51 c 92 eb 4518 f
+discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creating a multilingual template{#creating-a-multilingual-template}
+# Creazione di un modello multilingue{#creating-a-multilingual-template}
 
-Un modello multilingue è un modello specifico per gestire messaggi in più lingue.
+Un modello multilingue è un modello specifico per la gestione dei messaggi multilingue.
 
-This kind of template is available for **Email and SMS messages** and useable in standalone mode, within a workflow or in a recurring delivery.
+Questo tipo di modello è disponibile per i messaggi **** e-mail e SMS e può essere utilizzato in modalità standalone, all'interno di un flusso di lavoro o in una consegna periodica.
 
-Nei modelli delle funzioni multilingue, la gestione delle lingue si basa su varianti. **Ogni variante rappresenta una lingua.**
+Nei modelli delle funzioni multilingue, la gestione della lingua è basata sulle varianti. **Ogni variante rappresenta una lingua.**
 
 Adobe Campaign Standard è in grado di impostare un massimo di 40 varianti.
 
-Adobe Campaign viene fornito con una lingua predefinita impostata su IT. La lingua predefinita può essere modificata in un'altra variante, ma non deve mai essere eliminata.
+Adobe Campaign viene fornito con una lingua predefinita impostata su EN. La lingua predefinita può essere modificata in un'altra variante, ma non deve mai essere eliminata.
 
-Durante la creazione dei modelli, è possibile aggiungere il numero di varianti corrispondenti al numero di lingue necessarie nel messaggio.
+Durante la creazione del modello, potete aggiungere il numero di varianti corrispondente al numero di lingue necessarie nel messaggio.
 
-Per eseguire la creazione di un modello SMS o e-mail, attenetevi alla procedura seguente:
+Per creare un modello SMS o e-mail, effettuate le seguenti operazioni:
 
 1. Duplica un modello multilingue esistente (SMS o E-mail).
 
@@ -41,28 +39,28 @@ Per eseguire la creazione di un modello SMS o e-mail, attenetevi alla procedura 
 
    >[!NOTE]
    >
-   >You can also modify an existing standard template in a multilingual template by clicking on the **[!UICONTROL Initialize content variant]** button in the template properties.
+   >Potete anche modificare un modello standard esistente in un modello multilingue facendo clic sul **[!UICONTROL Initialize content variant]** pulsante nelle proprietà del modello.
 
-1. Modifica le proprietà per personalizzare etichetta, tracciamento ecc.
-1. Modificare il numero di varianti desiderato facendo clic sulla sezione varianti. La finestra variants viene visualizzata
+1. Modificate le proprietà per personalizzare l’etichetta, il tracciamento, ecc.
+1. Modificate il numero di varianti desiderate facendo clic sulla sezione delle varianti. Viene visualizzata la finestra delle varianti
 
    ![](assets/multi_template_variants.png)
 
-   È possibile aggiungere o rimuovere varianti. To add a variant, complete the **[!UICONTROL New content variant]** window.
+   È possibile aggiungere o rimuovere varianti. Per aggiungere una variante, completare la **[!UICONTROL New content variant]** finestra.
 
    ![](assets/multi_template_newvariant.png)
 
    >[!NOTE]
    >
-   >Non eliminare la variante «predefinita» poiché è la variante inviata ai profili senza un parametro lingua preferito completato.
+   >Non eliminare la variante "predefinita", in quanto è la variante inviata ai profili senza un parametro di lingua preferito completato.
 
-1. Se necessario, personalizzate la variante dell'etichetta e fate clic su Conferma.
-1. È inoltre possibile aggiungere direttamente il contenuto per ogni variante.
+1. Se necessario, personalizzare la variante dell'etichetta e fare clic su Conferma.
+1. Potete anche aggiungere direttamente il contenuto per ogni variante.
 
-Ora sei pronto per creare un messaggio e-mail o un messaggio SMS basato su questo modello multilingue.
+È ora possibile creare un messaggio e-mail o un messaggio SMS basato su questo modello multilingue.
 
 **Argomenti correlati:**
 
-* [Creazione di un'e-mail multilingue](../../channels/using/creating-a-multilingual-email.md)
+* [Creazione di un messaggio e-mail multilingue](../../channels/using/creating-a-multilingual-email.md)
 * [Creazione di profili](../../audiences/using/creating-profiles.md)
 
