@@ -1,39 +1,37 @@
 ---
 title: Eliminazione di una risorsa
-seo-title: Eliminazione di una risorsa
-description: Eliminazione di una risorsa
-seo-description: 'Come eliminare una risorsa '
-page-status-flag: never-activated
-uuid: 5 de 27589-6 fa 5-412 c -8 e 5 a-a 4976 de 05715
+description: 'Scopri come eliminare una risorsa '
+page-status-flag: mai attivato
+uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: sviluppo
-content-type: riferimento
-topic-tags: adding-or-extending-a-resource
-discoiquuid: 0130733 d -4 e 3 f -40 cd-b 959-56381 f 2 c 8 f 44
+products: SG_CAMPAIGN/STANDARD
+audience: development
+content-type: reference
+topic-tags: aggiunta o estensione di una risorsa
+discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Deleting a resource{#deleting-a-resource}
+# Eliminazione di una risorsa{#deleting-a-resource}
 
-To delete a resource, the resource in question must be a **[!UICONTROL Draft]**. The resource is in **[!UICONTROL Draft]** status if:
+Per eliminare una risorsa, la risorsa in questione deve essere una **[!UICONTROL Draft]**. La risorsa è nello **[!UICONTROL Draft]** stato se:
 
-* È stato appena creato e non è ancora stato pubblicato.
-* Se è già stato pubblicato, la risorsa deve essere rielaborata.
+* È appena stato creato e non è ancora stato pubblicato.
+* Se è già stata pubblicata, la risorsa deve essere rielaborata.
 
 >[!CAUTION]
 >
->La riprogettazione e l'eliminazione di una risorsa personalizzata sono operazioni sensibili che possono influenzare altre risorse. Queste azioni devono essere eseguite solo da un utente esperto.
+>La ridefinizione e l'eliminazione di una risorsa personalizzata sono operazioni sensibili che possono avere un impatto su altre risorse. Queste azioni devono essere eseguite solo da un utente esperto.
 
-Per riproporre ed eliminare una risorsa pubblicata:
+Per ridisegnare ed eliminare una risorsa pubblicata:
 
-1. Selezionate la risorsa da riproporre.
-1. Click the **[!UICONTROL Re-draft]** button in the action bar.
+1. Selezionate la risorsa da ridisegnare.
+1. Fate clic sul **[!UICONTROL Re-draft]** pulsante nella barra delle azioni.
 
    ![](assets/schema_extension_uc26.png)
 
@@ -41,19 +39,19 @@ Per riproporre ed eliminare una risorsa pubblicata:
 
    >[!CAUTION]
    >
-   >Questa azione è definitiva: la tabella o le colonne del database della risorsa verranno eliminate definitivamente quando la modifica viene pubblicata, il che può causare collegamenti interrotti da altre risorse personalizzate. Resta disponibile solo la definizione delle risorse.
+   >Tale azione è definitiva: la tabella o le colonne del database della risorsa e i relativi dati verranno eliminati definitivamente al momento della pubblicazione della modifica, con possibili collegamenti interrotti da altre risorse personalizzate. Rimarrà disponibile solo la definizione di risorsa.
 
    ![](assets/schema_extension_uc27.png)
 
    >[!NOTE]
    >
-   >If you re-draft an extension of the out-of-the-box **Profiles (profile)** resource, you must also re-draft any **Test profile (seedMember)** extension you may have defined. For more on extending the profile resource, see [this section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Se si riprogetta un'estensione della risorsa **Profili out-of-the-box (profilo)** , è inoltre necessario ridisegnare qualsiasi estensione del profilo di **test (seedMember)** eventualmente definita. Per ulteriori informazioni sull'estensione della risorsa del profilo, consulta [questa sezione](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Pubblicate la risorsa. For more detailed steps, refer to [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Pubblicate la risorsa. Per ulteriori dettagli, consultate [Pubblicazione di una risorsa](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizzata.
 
-   The resource then goes into **Draft** mode and its activation status is **[!UICONTROL Inactive]**.
+   La risorsa passa quindi alla modalità **Bozza** e il suo stato di attivazione è **[!UICONTROL Inactive]**.
 
-1. In **[!UICONTROL List]** mode, check the resource to delete then click the ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** icon.
+1. In **[!UICONTROL List]** modalità selezionare la risorsa da eliminare, quindi fare clic sull’ ![](assets/delete_darkgrey-24px.png) icona **[!UICONTROL Delete element]** .
 
    ![](assets/schema_extension_uc28.png)
 
@@ -61,5 +59,5 @@ La risorsa viene eliminata dal modello dati.
 
 >[!NOTE]
 >
->Se un campo di una risorsa personalizzata utilizzato in un evento viene modificato o eliminato, l'evento corrispondente verrà automaticamente non pubblicato. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
+>Se un campo di una risorsa personalizzata utilizzata in un evento viene modificato o eliminato, l'evento corrispondente viene automaticamente annullato. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
