@@ -1,34 +1,32 @@
 ---
 title: Tracciamento, monitoraggio e reporting
-seo-title: Tracciamento, monitoraggio e reporting
-description: Tracciamento, monitoraggio e reporting
-seo-description: Scopri come tenere traccia dei messaggi e comprendere il comportamento dei clienti arricchendo i dati del profilo. Con Adobe Campaign, usa gli strumenti di reporting e analisi per capitalizzare ogni nuova campagna.
-page-status-flag: never-activated
-uuid: 09592947-e 65 f -4 be 4-b 39 f -1 e 0 c 9 f 6 d 014 b
+description: Scopri come tenere traccia dei messaggi e comprendere il comportamento dei clienti arricchendo i dati del loro profilo. Con Adobe Campaign, utilizza gli strumenti di reporting e analisi per sfruttare al meglio ogni nuova campagna.
+page-status-flag: mai attivato
+uuid: 09592947-e65f-4be4-b39f-1e0c9f6d014b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: riferimento
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: fc 9 b 08 e 8-74 e 5-45 f 6-b 484-90 f 6 b 3161030
+discoiquuid: fc9b08e8-74e5-45f6-b484-90f6b3161030
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tracking, monitoring and reporting{#tracking-monitoring-and-reporting}
+# Tracciamento, monitoraggio e reporting{#tracking-monitoring-and-reporting}
 
-Oltre ai modelli di generazione rapporti potenti e forniti, Adobe Campaign consente di creare rapporti personalizzati su una distribuzione, una campagna, un utente o un livello di segmento. Monitora i messaggi e comprendi i comportamenti dei tuoi clienti arricchendo progressivamente i loro dati di profilo. Gli strumenti di reporting e analisi consentono di capitalizzare ogni nuova campagna, di impostare in modo più mirato le azioni di marketing e di ottimizzarne l'impatto e il ritorno sugli investimenti.
+Oltre a potenti modelli di reporting out-of-the-box, Adobe Campaign consente di creare rapporti personalizzati a livello di consegna, campagna, utente o segmento. Monitora i tuoi messaggi e capisci il comportamento dei clienti arricchendo progressivamente i loro dati di profilo. Gli strumenti di reporting e analisi consentono di sfruttare al meglio ogni nuova campagna, di indirizzare meglio le azioni di marketing e di ottimizzarne l'impatto e il ritorno sull'investimento.
 
-L'interfaccia grafica permette di accedere facilmente agli indicatori principali e alle statistiche di consegna.
+L'interfaccia grafica fornisce un accesso rapido e semplice agli indicatori principali e alle statistiche di distribuzione.
 
 ![](assets/dynamic_report_intro.png)
 
-L'interfaccia utente di reporting campagna facilita la creazione di rapporti dinamici. Puoi utilizzare le variabili di trascinamento per personalizzare i rapporti e analizzare il successo delle campagne. A seconda della complessità delle query e dei calcoli, i dati possono essere aggregati in una visualizzazione a elenco o a un accesso in un formato che semplifica la generazione di rapporti di analisi di marketing.
+L’interfaccia utente per il reporting delle campagne facilita la creazione di rapporti dinamici. Potete utilizzare le variabili di trascinamento per personalizzare i rapporti e analizzare il successo delle campagne. A seconda della complessità delle query e dei calcoli, i dati possono essere aggregati in una vista a elenco o accedete in un formato che semplifica la generazione di report di analisi di marketing.
 
-For more information on reports, refer to the [Accessing reports](../../reporting/using/about-dynamic-reports.md) section.
+Per ulteriori informazioni sui rapporti, consultare la sezione [Accesso ai rapporti](../../reporting/using/about-dynamic-reports.md) .
 
-Con Adobe Campaign puoi monitorare e tenere traccia di ogni consegna singolarmente. Il pannello dei messaggi visualizza i registri dedicati a processi di follow-up, regole e possibili errori e avvisi. For more about delivery monitoring, refer to the [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md) section. Tracking principles and capabilities are presented in the [Tracking messages](../../sending/using/tracking-messages.md) section.
+Con Adobe Campaign, puoi monitorare e monitorare ogni singola consegna. Il pannello dei messaggi visualizza i registri dedicati per i processi di follow-up, le regole e identificare eventuali errori e avvisi. Per ulteriori informazioni sul monitoraggio delle consegne, consulta la sezione [Monitoraggio delle consegne](../../sending/using/monitoring-a-delivery.md) . I principi e le funzionalità di tracciamento sono presentati nella sezione Messaggi [di](../../sending/using/tracking-messages.md) tracciamento.
