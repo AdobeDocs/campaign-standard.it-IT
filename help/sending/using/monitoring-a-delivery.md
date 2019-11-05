@@ -1,8 +1,6 @@
 ---
 title: Monitoraggio di una consegna
-seo-title: Monitoraggio di una consegna
-description: Monitoraggio di una consegna
-seo-description: Scopri come monitorare una consegna.
+description: Scopri come monitorare una consegna.
 page-status-flag: mai attivato
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: consegna,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
