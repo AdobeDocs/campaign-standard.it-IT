@@ -1,10 +1,8 @@
 ---
 title: Chiamata di una risorsa tramite una chiave di identificazione composita
-seo-title: Chiamata di una risorsa tramite una chiave di identificazione composita
-description: Chiamata di una risorsa tramite una chiave di identificazione composita
-seo-description: Scopri come chiamare una risorsa utilizzando una chiave di identificazione composita
+description: Scopri come chiamare una risorsa utilizzando una chiave di identificazione composita
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
