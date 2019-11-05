@@ -1,8 +1,6 @@
 ---
-title: Gestione SMS in arrivo
-seo-title: Gestione SMS in arrivo
-description: Gestione SMS in arrivo
-seo-description: Scopri come gestire STOP SMS e archiviare gli SMS in arrivo in Adobe Campaign.
+title: Gestione degli SMS in arrivo
+description: Scopri come gestire STOP SMS e archiviare gli SMS in arrivo in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
 contentOwner: sauviat
@@ -15,12 +13,12 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Gestione SMS in arrivo{#managing-incoming-sms}
+# Gestione degli SMS in arrivo{#managing-incoming-sms}
 
 ## Gestione di STOP SMS {#managing-stop-sms}
 
