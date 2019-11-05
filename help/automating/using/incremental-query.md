@@ -1,8 +1,6 @@
 ---
-title: ' Query incrementale'
-seo-title: ' Query incrementale'
-description: ' Query incrementale'
-seo-description: L'attività di query incrementale consente di filtrare ed estrarre una serie di elementi dal database Adobe Campaign.
+title: Query incrementale
+description: L'attività di query incrementale consente di filtrare ed estrarre una serie di elementi dal database Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: incrementale,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-#  Query incrementale{#incremental-query}
+# Query incrementale{#incremental-query}
 
 ## Descrizione {#description}
 
