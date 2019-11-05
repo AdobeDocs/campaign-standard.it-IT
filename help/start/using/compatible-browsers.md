@@ -1,29 +1,27 @@
 ---
 title: Browser compatibili
-seo-title: Browser compatibili
-description: Browser compatibili
-seo-description: Adobe Campaign Standard è compatibile con la maggior parte dei browser e con i sistemi operativi principali. Scopri l'elenco completo.
-page-status-flag: never-activated
-uuid: 745599 a 6-6 b 06-4052-82 ee -62 a 766 f 4922 b
+description: Adobe Campaign Standard è compatibile con la maggior parte dei browser e dei sistemi operativi principali. Scopri l'elenco completo.
+page-status-flag: mai attivato
+uuid: 745599a6-6b06-4052-82ee-62a766f4922b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: riferimento
-topic-tags: informazioni sull'interfaccia
-discoiquuid: dfc 188 f 2-957 b -4 f 93-bb 54-c 369 d 7333 b 9 f
+content-type: reference
+topic-tags: individuazione dell'interfaccia
+discoiquuid: dfc188f2-957b-4f93-bb54-c369d7333b9f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Compatible browsers{#compatible-browsers}
+# Browser compatibili{#compatible-browsers}
 
-Adobe Campaign Standard è compatibile con la maggior parte dei browser per computer e con i sistemi operativi principali per i tablet.
+Adobe Campaign Standard è compatibile con la maggior parte dei browser per computer e con i sistemi operativi principali per tablet.
 
-Adobe Campaign Standard supporta solo orizzontale come modalità di visualizzazione sui tablet.
+Adobe Campaign Standard supporta solo la modalità orizzontale come modalità di visualizzazione sui tablet.
 
 Elenco dei browser compatibili con Adobe Campaign Standard:
 
