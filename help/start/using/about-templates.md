@@ -1,8 +1,6 @@
 ---
-title: I modelli
-seo-title: I modelli
-description: I modelli
-seo-description: '"I modelli di Adobe Campaign consentono di preconfigurare i parametri in base alle esigenze: i modelli possono contenere una configurazione completa o parziale dell''attività di marketing, per semplificare l''utilizzo di Adobe Campaign per gli utenti finali non tecnici."'
+title: Informazioni sui modelli
+description: '"I modelli di Adobe Campaign consentono di preconfigurare i parametri in base alle esigenze: i modelli possono contenere una configurazione completa o parziale dell''attività di marketing, per semplificare l''utilizzo di Adobe Campaign per gli utenti finali non tecnici."'
 page-status-flag: mai attivato
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# I modelli{#about-templates}
+# Informazioni sui modelli{#about-templates}
 
 ## Modelli di attività di marketing {#marketing-activity-templates}
 
