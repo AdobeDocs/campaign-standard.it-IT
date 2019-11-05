@@ -1,8 +1,6 @@
 ---
 title: Messaggi di follow-up
-seo-title: Messaggi di follow-up
-description: Messaggi di follow-up
-seo-description: Scopri come creare e pubblicare un messaggio di follow-up.
+description: Scopri come creare e pubblicare un messaggio di follow-up.
 page-status-flag: mai attivato
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -127,5 +125,5 @@ Una volta avviato il flusso di lavoro, ogni cliente che ha ricevuto la notifica 
 
 >[!NOTE]
 >
->Se hai selezionato la dimensione di **[!UICONTROL Profile]** targeting al momento della creazione della configurazione dell'evento, il messaggio di follow-up utilizzerà anche il database di marketing di Adobe Campaign. Consulta Messaggi transazionali [di profilo](../../channels/using/profile-transactional-messages.md).
+>Se hai selezionato la dimensione di **[!UICONTROL Profile]** targeting al momento della creazione della configurazione dell'evento, il messaggio di follow-up utilizzerà anche il database di marketing di Adobe Campaign. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 
