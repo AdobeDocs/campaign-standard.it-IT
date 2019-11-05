@@ -1,41 +1,39 @@
 ---
-title: Configurazione dell'integrazione con Campaign-Target
-seo-title: Configurazione dell'integrazione con Campaign-Target
-description: Configurazione dell'integrazione con Campaign-Target
-seo-description: Scopri come configurare l'integrazione di Adobe Target per iniziare a utilizzare il contenuto dinamico in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 0 df 5701 c-dc 26-4 c 30-9 af 9-ebf 92815 d 90 c
+title: Configurazione dell’integrazione Campaign-Target
+description: Scopri come configurare l'integrazione di Adobe Target per iniziare a utilizzare il contenuto dinamico in Adobe Campaign.
+page-status-flag: mai attivato
+uuid: 0df5701c-dc26-4c30-9af9-ebf92815d90c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: integrazione
-content-type: riferimento
-topic-tags: working-with-campaign-and-target
-discoiquuid: f 7 fb 2084-dd 6 f -4 aa 2-940 f-e 48713146635
+products: SG_CAMPAIGN/STANDARD
+audience: integration
+content-type: reference
+topic-tags: con campagna e destinazione
+discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuring the Campaign-Target integration{#configuring-the-campaign-target-integration}
+# Configurazione dell’integrazione Campaign-Target{#configuring-the-campaign-target-integration}
 
-L'integrazione tra Adobe Campaign e Adobe Target consente di inserire contenuto dinamico nella distribuzione.
+L'integrazione tra Adobe Campaign e Adobe Target consente di inserire nella distribuzione contenuti dinamici.
 
-In Adobe Campaign è necessario innanzi tutto una configurazione per utilizzare le funzionalità di integrazione con Adobe Target e deve essere gestito dall'amministratore funzionale.
+Per utilizzare le funzionalità di integrazione con Adobe Target è innanzitutto necessario disporre di una configurazione in Adobe Campaign, che deve essere gestita dall'amministratore funzionale.
 
 Per questa procedura sono necessari i seguenti elementi:
 
 * Un tenant Adobe Experience Cloud
-* Un tenant di Adobe Target
+* Un tenant Adobe Target
 * Una rawbox di Adobe Target specificata per stabilire la connessione con Adobe Campaign
 
-1. From the advanced menu, via the Adobe Campaign logo in the top left corner, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
-1. Per configurare il server e le opzioni tenant per Adobe Target, compila i campi seguenti:
+1. Dal menu avanzato, utilizzando il logo Adobe Campaign nell'angolo in alto a sinistra, seleziona **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
+1. Per configurare le opzioni server e tenant per Adobe Target, compila i seguenti campi di conseguenza:
 
-   * **[!UICONTROL TNT_TenantName]**: del tenant di Adobe Target. This value corresponds to the name of the Adobe Target **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**: Server Adobe Target utilizzato per l'integrazione. Questa opzione è già disponibile per impostazione predefinita. This value corresponds to the Adobe Target **[!UICONTROL Server Domain]**, followed by the **/m2** value. For example: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]**: nome del tenant di Adobe Target. Questo valore corrisponde al nome di Adobe Target **[!UICONTROL Client]**.
+   * **[!UICONTROL TNT_EdgeServer]**: Server Adobe Target utilizzato per l'integrazione. Questa opzione è già disponibile per impostazione predefinita. Questo valore corrisponde ad Adobe Target **[!UICONTROL Server Domain]**, seguito dal valore **/m2** . Ad esempio: **tt.omtrdc.net/m2**.
    ![](assets/tar_options.png)
 
-Gli utenti possono ora aggiungere immagini dinamiche in una consegna con Adobe Target.
+Gli utenti possono ora aggiungere immagini dinamiche in una distribuzione con Adobe Target.
