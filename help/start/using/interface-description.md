@@ -1,8 +1,6 @@
 ---
 title: Descrizione interfaccia
-seo-title: Descrizione interfaccia
-description: Descrizione interfaccia
-seo-description: '"Scopri come navigare e utilizzare l''area di lavoro di Adobe Campaign: home page, barra superiore, menu avanzati e barre delle azioni."'
+description: '"Scopri come navigare e utilizzare l''area di lavoro di Adobe Campaign: home page, barra superiore, menu avanzati e barre delle azioni."'
 page-status-flag: mai attivato
 uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
