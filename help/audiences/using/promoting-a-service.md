@@ -1,8 +1,6 @@
 ---
 title: Promozione di un servizio
-seo-title: Promozione di un servizio
-description: Promozione di un servizio
-seo-description: Utilizza Adobe Campaign per promuovere un servizio e coinvolgere i clienti attraverso pagine di destinazione dedicate, e-mail o direttamente sul tuo sito web.
+description: Utilizza Adobe Campaign per promuovere un servizio e coinvolgere i clienti attraverso pagine di destinazione dedicate, e-mail o direttamente sul tuo sito web.
 page-status-flag: mai attivato
 uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
