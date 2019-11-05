@@ -1,8 +1,6 @@
 ---
 title: 'Progettazione di e-mail con contenuto esistente '
-seo-title: 'Progettazione di e-mail con contenuto esistente '
-description: 'Progettazione di e-mail con contenuto esistente '
-seo-description: Scoprite come progettare e-mail utilizzando il contenuto esistente di e-mail in Designer e-mail.
+description: Scoprite come progettare e-mail utilizzando il contenuto esistente di e-mail in Designer e-mail.
 page-status-flag: mai attivato
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
-# Progettazione utilizzando il contenuto esistente {#designing-using-existing-content}
+# Designing using existing content {#designing-using-existing-content}
 
 ## Selezione di un contenuto esistente{#selecting-an-existing-content}
 
