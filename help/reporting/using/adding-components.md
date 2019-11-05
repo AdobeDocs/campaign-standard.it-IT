@@ -1,8 +1,6 @@
 ---
 title: Aggiunta di componenti
-seo-title: Aggiunta di componenti
-description: Aggiunta di componenti
-seo-description: Trascina i componenti nella tabella a forma libera per iniziare a filtrare i dati e a creare il rapporto.
+description: Trascina i componenti nella tabella a forma libera per iniziare a filtrare i dati e a creare il rapporto.
 page-status-flag: mai attivato
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -46,5 +44,5 @@ Puoi trascinare e rilasciare tutti i componenti necessari e confrontarli tra lor
 **Argomenti correlati:**
 
 * [Elenco dei componenti](../../reporting/using/list-of-components-.md)
-* [Elenco dei rapporti](../../reporting/using/defining-the-report-period.md)
+* [Elenco dei report](../../reporting/using/defining-the-report-period.md)
 
