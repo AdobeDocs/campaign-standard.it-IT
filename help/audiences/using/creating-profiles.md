@@ -1,8 +1,6 @@
 ---
 title: Creazione di profili
-seo-title: Creazione di profili
-description: Creazione di profili
-seo-description: Scopri come creare profili e raccogliere dati sui tuoi contatti utilizzando API, funzionalità di importazione, acquisizione online, aggiornamenti automatici o manuali.
+description: Scopri come creare profili e raccogliere dati sui tuoi contatti utilizzando API, funzionalità di importazione, acquisizione online, aggiornamenti automatici o manuali.
 page-status-flag: mai attivato
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
