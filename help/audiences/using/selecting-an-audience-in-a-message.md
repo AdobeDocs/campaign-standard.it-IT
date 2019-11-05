@@ -1,60 +1,58 @@
 ---
-title: Selezione di un'audience in un messaggio
-seo-title: Selezione di un'audience in un messaggio
-description: Selezione di un'audience in un messaggio
-seo-description: '" Procedura passo-passo per scegliere le audience di un messaggio e-mail: popolazione di destinazione principale e profili di test. "'
-page-status-flag: never-activated
-uuid: 7 d 8 f 8446-f 2 e 0-49 c 1-83 f 6-9667 b 29 bc 228
+title: Selezione di un’audience in un messaggio
+description: '"Procedura dettagliata per scegliere il pubblico di un messaggio e-mail: popolazione target principale e profili di test."'
+page-status-flag: mai attivato
+uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audience
-content-type: riferimento
-topic-tags: gestione dei tipi di pubblico
-discoiquuid: 158 da 6 ff -8899-4 e 7 b-b 925-8 a 42 c 3 de 46 a 1
-context-tags: Deliverycreation, wizard; distribuzione, pubblico,
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: management-audience
+discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
+context-tags: deliveryCreation,procedura guidata;consegna,pubblico,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Selecting an audience in a message{#selecting-an-audience-in-a-message}
+# Selezione di un’audience in un messaggio{#selecting-an-audience-in-a-message}
 
-Adobe Campaign consente di configurare diversi tipi di profilo all'interno dell'audience di un messaggio.
+Adobe Campaign consente di configurare diversi tipi di profilo all'interno del pubblico di un messaggio.
 
-Le audience possono essere definite quando si crea il messaggio tramite la procedura guidata di creazione o nel caso in cui il messaggio sia già stato creato.
+È possibile definire il pubblico al momento della creazione del messaggio tramite la procedura guidata di creazione o dal dashboard dei messaggi, se il messaggio è già stato creato.
 
 >[!NOTE]
 >
->Se l'audience è stata integrata in un flusso di lavoro e arricchita con dati aggiuntivi, non sarà possibile utilizzare tali dati per personalizzare una consegna standalone. Possono essere utilizzati solo da una distribuzione eseguita in un flusso di lavoro.
+>Se l'audience è stata creata all'interno di un flusso di lavoro e arricchita di dati aggiuntivi, non sarà possibile utilizzare questi dati per personalizzare una distribuzione autonoma. Possono essere utilizzati solo da una consegna eseguita in un flusso di lavoro.
 
-1. Dal dashboard, passate al blocco di pubblico per iniziare.
+1. Dal dashboard, andate al blocco del pubblico per iniziare.
 
    ![](assets/delivery_audience_definition_1.png)
 
-   Viene visualizzata la schermata per definire l'audience. Dispone di due schede che consentono di definire separatamente ogni tipo di pubblico che riceverà il messaggio:
+   Viene visualizzata la schermata che consente di definire le audience. Sono disponibili due schede che consentono di definire separatamente ogni tipo di pubblico a cui verrà inviato il messaggio:
 
    * Target
-   * Profili di test
+   * Profili di prova
    ![](assets/delivery_audience_definition_2.png)
 
-1. Define the main **[!UICONTROL Target]** of the email. Questo è il pubblico di destinazione del messaggio e-mail.
+1. Definite il principale **[!UICONTROL Target]** del messaggio e-mail. Si tratta del pubblico di destinazione regolare del messaggio e-mail.
 
-   The target is defined in the **[!UICONTROL Target]** tab and is made up of identified profiles from your database.
+   La destinazione è definita nella **[!UICONTROL Target]** scheda ed è composta da profili identificati provenienti dal database.
 
-   You can establish your main target using the [query editor](../../automating/using/editing-queries.md#creating-queries) functionalities.
+   È possibile stabilire la destinazione principale utilizzando le funzionalità dell'editor [](../../automating/using/editing-queries.md#creating-queries) query.
 
-   In this tab, the **[!UICONTROL Shortcuts]** palette only contains predefined filters and the audiences that have been defined in the identified profiles. The **[!UICONTROL Explorer]** tab allows you to access additional configurations.
+   In questa scheda, la **[!UICONTROL Shortcuts]** palette contiene solo i filtri predefiniti e le audience definite nei profili identificati. La **[!UICONTROL Explorer]** scheda consente di accedere a configurazioni aggiuntive.
 
-   Puoi quindi riutilizzare e combinare i tipi di pubblico esistenti, applicarvi altri filtri, ecc.
+   Potete quindi riutilizzare e combinare le audience esistenti, applicare ulteriori filtri, ecc.
 
-1. Define the **[!UICONTROL Test profiles]** you want to use for the email. I profili di prova riceveranno le prove che potete inviare prima di testare l'e-mail prima di inviarla alla destinazione principale.
+1. Definite il tipo di **[!UICONTROL Test profiles]** e-mail da utilizzare. I profili di test riceveranno le prove che potete inviare prima di testare l'e-mail prima di inviarla alla destinazione principale.
 
-   For more information on configuring test profiles, refer to the [Test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md) section.
+   Per ulteriori informazioni sulla configurazione dei profili di test, consultare la sezione Profili [di](../../sending/using/managing-test-profiles-and-sending-proofs.md) test.
 
-Il blocco di audience viene quindi aggiornato e mostra che è stato selezionato un profilo target e test per l'e-mail in questione.
+Il blocco audience viene quindi aggiornato e mostra che sono stati selezionati un profilo target e di test per l'e-mail in questione.
 
 ![](assets/delivery_audience_definition_3.png)
 
