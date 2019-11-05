@@ -1,8 +1,6 @@
 ---
-title: Configurazione dell’integrazione dei dati Campaign-Points of Interest
-seo-title: Configurazione dell’integrazione dei dati Campaign-Points of Interest
-description: Configurazione dell’integrazione dei dati Campaign-Points of Interest
-seo-description: Scopri come configurare la funzione Dati punti di interesse in Adobe Campaign per l'invio di messaggi personalizzati in base alla posizione degli abbonati.
+title: Configurazione dell’integrazione dei dati Campaign-Punti di interesse
+description: Scopri come configurare la funzione Dati punti di interesse in Adobe Campaign per l'invio di messaggi personalizzati in base alla posizione degli abbonati.
 page-status-flag: mai attivato
 uuid: 0689a06c-cc1a-442f-95b8-a07fEC85d79
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configurazione dell’integrazione dei dati Campaign-Points of Interest{#configuring-campaign-points-of-interest-data-integration}
+# Configurazione dell’integrazione dei dati Campaign-Punti di interesse{#configuring-campaign-points-of-interest-data-integration}
 
 ## Configurazione dell’integrazione dei dati Campaign-Points of Interest con gli SDK della piattaforma Adobe Experience {#configuring-campaign-poi-aep-sdk}
 
