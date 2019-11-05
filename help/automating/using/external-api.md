@@ -1,8 +1,6 @@
 ---
 title: API esterna
-seo-title: API esterna
-description: API esterna
-seo-description: null
+description: null
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automatizzazione
@@ -12,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 597396beb733c8f0b739720e951d2a42f5645af6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
