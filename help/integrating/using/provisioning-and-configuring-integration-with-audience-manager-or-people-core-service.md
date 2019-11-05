@@ -1,8 +1,6 @@
 ---
-title: Provisioning e configurazione dell'integrazione con i servizi di base di Audience Manager o Persone
-seo-title: Provisioning e configurazione dell'integrazione con i servizi di base di Audience Manager o Persone
-description: Provisioning e configurazione dell'integrazione con i servizi di base di Audience Manager o Persone
-seo-description: 'Scopri come configurare l''integrazione dei servizi di base Audience Manager/Persone per iniziare a condividere audience o segmenti con le diverse soluzioni Adobe Experience Cloud. '
+title: Provisioning e configurazione dell’integrazione con i servizi di base di Audience Manager o Persone
+description: 'Scopri come configurare l''integrazione dei servizi di base Audience Manager/Persone per iniziare a condividere audience o segmenti con le diverse soluzioni Adobe Experience Cloud. '
 page-status-flag: mai attivato
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Provisioning e configurazione dell'integrazione con i servizi di base di Audience Manager o Persone{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Provisioning e configurazione dell’integrazione con i servizi di base di Audience Manager o Persone{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 Il provisioning e la configurazione del core Audience Manager e Persone in Adobe Campaign si svolgono in due passaggi: [Inviare una richiesta ad Adobe](#submitting-request-to-adobe) e quindi [configurare l'integrazione in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
@@ -27,7 +25,7 @@ Il provisioning e la configurazione del core Audience Manager e Persone in Adobe
 
 L'integrazione con i servizi di base di Audience Manager (AAM) o Persone consente di importare ed esportare audience o segmenti in Adobe Campaign.
 
-Questa integrazione deve prima essere configurata. Per richiedere il provisioning di questa integrazione, scrivete un messaggio e-mail a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con le seguenti informazioni:
+Questa integrazione deve prima essere configurata. Per richiedere il provisioning di questa integrazione, invia un messaggio e-mail a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con le seguenti informazioni:
 
 <table> 
  <tbody> 
@@ -70,7 +68,7 @@ Questa integrazione deve prima essere configurata. Per richiedere il provisionin
 
 Se utilizzi Adobe Audience Manager invece del servizio core Persone, **[!UICONTROL Declared ID]** funzionerà in tutti gli scenari.
 
-Potete inoltrare una richiesta di **[!UICONTROL Declared ID]** provisioning al seguente indirizzo: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
+You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Configurazione dell'integrazione in Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
