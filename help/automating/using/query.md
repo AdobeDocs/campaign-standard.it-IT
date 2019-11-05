@@ -1,8 +1,6 @@
 ---
 title: Query
-seo-title: Query
-description: Query
-seo-description: L'attività Query consente di filtrare ed estrarre una serie di elementi dal database Adobe Campaign.
+description: L'attività Query consente di filtrare ed estrarre una serie di elementi dal database Adobe Campaign.
 page-status-flag: mai attivato
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: query,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
