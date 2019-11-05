@@ -1,8 +1,6 @@
 ---
 title: Utilizzo del servizio di base Campaign e Assets
-seo-title: Utilizzo del servizio di base Campaign e Assets
-description: Utilizzo del servizio di base Campaign e Assets
-seo-description: Utilizza tutte le risorse condivise in Adobe Experience Cloud nei messaggi e nelle pagine di destinazione di Adobe Campaign grazie all'integrazione con il servizio di base Assets.
+description: Utilizza tutte le risorse condivise in Adobe Experience Cloud nei messaggi e nelle pagine di destinazione di Adobe Campaign grazie all'integrazione con il servizio di base Assets.
 page-status-flag: mai attivato
 uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
