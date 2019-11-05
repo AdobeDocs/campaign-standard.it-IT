@@ -1,8 +1,6 @@
 ---
 title: Informazioni sui report dinamici
-seo-title: Informazioni sui report dinamici
-description: Informazioni sui report dinamici
-seo-description: Con i rapporti dinamici, trascina e rilascia variabili e dimensioni nell’ambiente a forma libera e analizza il successo delle campagne.
+description: Con i rapporti dinamici, trascina e rilascia variabili e dimensioni nell’ambiente a forma libera e analizza il successo delle campagne.
 page-status-flag: mai attivato
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
