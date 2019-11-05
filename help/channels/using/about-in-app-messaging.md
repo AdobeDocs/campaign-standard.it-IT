@@ -1,8 +1,6 @@
 ---
-title: Informazioni sui messaggi in-app
-seo-title: Informazioni sui messaggi in-app
-description: Informazioni sui messaggi in-app
-seo-description: Visualizza messaggi o avvisi all'interno dell'applicazione mobile con messaggi in-app.
+title: Informazioni sulla messaggistica in-app
+description: Visualizza messaggi o avvisi all'interno dell'applicazione mobile con messaggi in-app.
 page-status-flag: mai attivato
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: consegna,trigger,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Informazioni sui messaggi in-app{#about-in-app-messaging}
+# Informazioni sulla messaggistica in-app{#about-in-app-messaging}
 
 Messaggistica in-app è un canale di messaggistica che consente di visualizzare un messaggio quando l'utente è attivo all'interno dell'applicazione mobile. Questo tipo di messaggio è complementare alle notifiche push inviate al centro di notifica del telefono degli utenti. Per ulteriori informazioni sul canale di notifica push, consulta questa [sezione](../../channels/using/about-push-notifications.md).
 
@@ -42,6 +40,6 @@ Per iniziare a inviare messaggi in-app sulle applicazioni mobili che utilizzano 
 
 **Contenuto correlato:**
 
-* [Rapporto in-app](../../reporting/using/in-app-report.md)
+* [Report in-app](../../reporting/using/in-app-report.md)
 * [Domande frequenti su push e in-app](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 * [Casi di utilizzo per dispositivi mobili supportati in Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
