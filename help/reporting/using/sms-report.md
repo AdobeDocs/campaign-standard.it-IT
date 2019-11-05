@@ -1,33 +1,31 @@
 ---
-title: Rapporto SMS
-seo-title: Rapporto SMS
-description: Rapporto SMS
-seo-description: 'Con il rapporto aggiornato, scopri il successo delle consegne SMS. '
-page-status-flag: never-activated
-uuid: af 672 a 56-f 304-4 ea 9-99 b 1-e 9886 a 6 e 1823
+title: Report SMS
+description: 'Con il report out-of-the-box SMS, scopri il successo delle tue consegne di SMS. '
+page-status-flag: mai attivato
+uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: reporting
-content-type: riferimento
-topic-tags: list-of-reports
-discoiquuid: a 9 afbb 76-d 2 b 3-44 c 7-b 97 a -1694501 aa 913
+content-type: reference
+topic-tags: elenco di rapporti
+discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Rapporto SMS{#sms-report}
+# Report SMS{#sms-report}
 
-Il rapporto **SMS** fornisce dettagli sulle consegne SMS, ad esempio le percentuali di consegna e i tassi di rimbalzo.
+Il rapporto **SMS** fornisce informazioni dettagliate sulle consegne degli SMS, ad esempio sui tassi di invio e di rimbalzo.
 
 ![](assets/dynamic_report_sms.png)
 
-La tabella **riepilogativa** SMS, i grafici e i numeri di riepilogo contengono i dati disponibili per le consegne SMS inviate.
+La tabella di riepilogo **** SMS, i grafici e i numeri di riepilogo contengono i dati disponibili per le consegne via SMS che sono state inviate.
 
-* **Elaborato/inviato**: Il numero di SMS inviati.
-* **Consegnato**: Numero di SMS consegnati.
-* **Bounce + Errors**: Numero di messaggi che non è stato possibile distribuire.
+* **Elaborato/inviato**: Numero di SMS inviati.
+* **Consegnato**: Numero di SMS inviati.
+* **Punti + Errori**: Numero di messaggi che non è stato possibile recapitare.
 
