@@ -1,8 +1,6 @@
 ---
-title: Pannello messaggio
-seo-title: Pannello messaggio
-description: Pannello messaggio
-seo-description: Scopri di cosa è composto il dashboard dei messaggi, inclusa la barra delle azioni e i vari blocchi funzionali.
+title: Dashboard messaggi
+description: Scopri di cosa è composto il dashboard dei messaggi, inclusa la barra delle azioni e i vari blocchi funzionali.
 page-status-flag: mai attivato
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: consegna,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Pannello messaggio{#message-dashboard}
+# Dashboard messaggi{#message-dashboard}
 
 Il dashboard dei messaggi è un'area di lavoro composta da diverse icone, raggruppate in una barra delle azioni, e da vari blocchi funzionali che consentono di stabilire i parametri del messaggio e inviarli. Questi elementi sono presentati di seguito.
 
@@ -76,5 +74,5 @@ Lo schermo principale è costituito da diversi blocchi. Fate clic all’interno 
 * **[!UICONTROL Deployment]**: consente di monitorare l’avanzamento della preparazione o dell’invio dei messaggi. Fare clic sul pulsante che si trova nella sezione inferiore destra di questo blocco per accedere ai registri di invio e analisi. Questo blocco viene visualizzato solo dopo che l'invio è stato preparato. Per ulteriori informazioni su questo argomento. Consultate [Conferma dell’invio](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: consente di stabilire la destinazione principale del messaggio e i profili di test. Consultate [Creazione di audience](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: consente di specificare la data in cui verrà inviato il messaggio. Vedere [Pianificazione](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: consente di definire il contenuto del messaggio e visualizzarne l'anteprima. Vedi [Passaggi chiave per inviare un messaggio](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Content]**: consente di definire il contenuto del messaggio e visualizzarne l'anteprima. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
