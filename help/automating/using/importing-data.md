@@ -1,8 +1,6 @@
 ---
 title: Importazione di dati
-seo-title: Importazione di dati
-description: Importazione di dati
-seo-description: Scopri come importare i dati con un flusso di lavoro.
+description: Scopri come importare i dati con un flusso di lavoro.
 page-status-flag: mai attivato
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
