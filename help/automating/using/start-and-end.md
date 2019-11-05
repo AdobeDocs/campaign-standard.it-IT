@@ -1,55 +1,53 @@
 ---
 title: Inizio e fine
-seo-title: Inizio e fine
-description: Inizio e fine
-seo-description: Le attività Start e Fine consentono di contrassegnare chiaramente dove inizia e termina il flusso di lavoro.
-page-status-flag: never-activated
-uuid: 146 b 6337-122 c -453 d -8 ffd -5 c 157 db 29217
+description: Le attività Inizio e Fine consentono di contrassegnare chiaramente dove inizia e termina il flusso di lavoro.
+page-status-flag: mai attivato
+uuid: 146b6337-122c-453d-8ffd-5c157db29217
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: esecuzione-attività
-discoiquuid: a 0 a 8 a 725-8 ede -4626-9798-b 86924 b 58 beb
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di esecuzione
+discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Start and end{#start-and-end}
+# Inizio e fine{#start-and-end}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/start.png)
 
 ![](assets/end.png)
 
-The **[!UICONTROL Start]** and **[!UICONTROL End]** activities allow you to clearly mark where your workflow starts and ends.
+Le attività **[!UICONTROL Start]** e **[!UICONTROL End]** consentono di contrassegnare chiaramente dove inizia e termina il flusso di lavoro.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-L'esecuzione di un flusso di lavoro inizia con le attività senza una transizione in entrata e si interrompe quando non ci sono più attività in corso. Nevertheless, you can add **[!UICONTROL Start]** and **[!UICONTROL End]** activities to clearly mark the starting and ending points of a workflow. Questa funzione è particolarmente utile per flussi di lavoro relativamente complessi.
+L'esecuzione di un flusso di lavoro inizia con le attività senza una transizione in entrata e si arresta quando non sono più presenti attività in corso. Tuttavia, potete aggiungere **[!UICONTROL Start]** e **[!UICONTROL End]** attività per contrassegnare chiaramente i punti iniziale e finale di un flusso di lavoro. Questo è particolarmente utile per flussi di lavoro relativamente complessi.
 
-It is a best practice to use an **[!UICONTROL End]** activity instead of leaving the last transition of a workflow on its own to ensure that the workflow properly ends.
+È consigliabile utilizzare un' **[!UICONTROL End]** attività invece di uscire dall'ultima transizione di un flusso di lavoro per assicurarsi che il flusso di lavoro termini correttamente.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop a **[!UICONTROL Start]** or **[!UICONTROL End]** activity into your workflow.
-1. Put the **[!UICONTROL Start]** activity in front of other activities such as queries, and the **[!UICONTROL End]** activity after a series of activities.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. You can configure the **End** object so that it interrupts all of the workflow's ongoing tasks, including those that have not finished. A tal fine, selezionate l'opzione corrispondente.
+1. Trascinate un’ **[!UICONTROL Start]** **[!UICONTROL End]** attività o un’attività nel flusso di lavoro.
+1. Posizionare l' **[!UICONTROL Start]** attività davanti ad altre attività, come le query, e dopo una serie di **[!UICONTROL End]** attività.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. È possibile configurare l'oggetto **End** in modo che interrompa tutte le attività in corso del flusso di lavoro, incluse quelle che non sono state completate. A questo scopo, selezionare l'opzione corrispondente.
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Triggering another workflow {#triggering-another-workflow}
+## Attivazione di un altro flusso di lavoro {#triggering-another-workflow}
 
-Using the **[!UICONTROL External signal]** tab of an **[!UICONTROL End]** activity, you can trigger another workflow. Refer to the [External signal](../../automating/using/external-signal.md) section.
+Utilizzando la **[!UICONTROL External signal]** scheda di un' **[!UICONTROL End]** attività, potete attivare un altro flusso di lavoro. Fare riferimento alla sezione [Segnale](../../automating/using/external-signal.md) esterno.
 
-## Example {#example}
+## Esempio {#example}
 
-The following example shows how a complex workflow is executed with a **[!UICONTROL Start]** activity and several **[!UICONTROL End]** activities. **[!UICONTROL Stop all tasks in progress]** La casella è stata controllata per la prima **[!UICONTROL End]** attività. Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section).
+L'esempio seguente mostra come viene eseguito un flusso di lavoro complesso con un' **[!UICONTROL Start]** attività e diverse **[!UICONTROL End]** attività. La **[!UICONTROL Stop all tasks in progress]** casella è stata selezionata per la prima **[!UICONTROL End]** attività. Al termine dell’attività corrispondente, verrà interrotto l’intero flusso di lavoro: avrà lo stesso effetto di quando il ![](assets/stop_darkgrey-24px.png) pulsante è stato selezionato (fare riferimento alla sezione della barra [delle](../../automating/using/workflow-interface.md#action-bar) azioni).
 
 ![](assets/wkf_start_end_example.png)
 
