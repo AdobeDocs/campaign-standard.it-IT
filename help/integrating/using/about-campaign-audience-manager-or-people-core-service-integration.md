@@ -1,8 +1,6 @@
 ---
-title: Informazioni sull'integrazione di Campaign-Audience Manager o dei servizi di base Persone
-seo-title: Informazioni sull'integrazione di Campaign-Audience Manager o dei servizi di base Persone
-description: Informazioni sull'integrazione di Campaign-Audience Manager o dei servizi di base Persone
-seo-description: Con l'integrazione dei servizi di base Audience Manager/Persone, puoi condividere audience o segmenti all'interno delle diverse soluzioni Adobe Experience Cloud.
+title: Informazioni sull’integrazione di Campaign-Audience Manager o del servizio di base Persone
+description: Con l'integrazione dei servizi di base Audience Manager/Persone, puoi condividere audience o segmenti all'interno delle diverse soluzioni Adobe Experience Cloud.
 page-status-flag: mai attivato
 uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Informazioni sull'integrazione di Campaign-Audience Manager o dei servizi di base Persone{#about-campaign-audience-manager-or-people-core-service-integration}
+# Informazioni sull’integrazione di Campaign-Audience Manager o del servizio di base Persone{#about-campaign-audience-manager-or-people-core-service-integration}
 
 Adobe Campaign consente di scambiare e condividere audience/segmenti con le diverse applicazioni Adobe Experience Cloud. L'integrazione di **Adobe Campaign** con il servizio **di base** Persone (noto anche come servizio **di base** Profili e pubblico) o Adobe Audience Manager consente di:
 
