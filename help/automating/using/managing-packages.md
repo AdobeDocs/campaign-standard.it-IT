@@ -1,8 +1,6 @@
 ---
 title: Gestione dei pacchetti
-seo-title: Gestione dei pacchetti
-description: Gestione dei pacchetti
-seo-description: Gli amministratori possono definire pacchetti per lo scambio di risorse tra diverse istanze di Adobe Campaign attraverso file XML strutturati.
+description: Gli amministratori possono definire pacchetti per lo scambio di risorse tra diverse istanze di Adobe Campaign attraverso file XML strutturati.
 page-status-flag: mai attivato
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: packageDef,panoramica;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
