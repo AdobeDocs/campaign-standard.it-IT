@@ -1,8 +1,6 @@
 ---
 title: Informazioni sui messaggi transazionali
-seo-title: Informazioni sui messaggi transazionali
-description: Informazioni sui messaggi transazionali
-seo-description: Scopri i diversi tipi di messaggi transazionali che puoi inviare e come vengono utilizzati in Adobe Campaign.
+description: Scopri i diversi tipi di messaggi transazionali che puoi inviare e come vengono utilizzati in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -57,7 +55,7 @@ Adobe Campaign consente di inviare un messaggio e-mail di notifica agli utenti d
 I passi per la realizzazione di questo progetto sono:
 
 1. Configurate un evento denominato "abbandono del carrello" e pubblicate la configurazione dell'evento, che crea automaticamente un messaggio transazionale. La creazione e la pubblicazione di un evento sono presentate nella sezione [Configurazione di un evento per l’invio di un messaggio](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) transazionale evento.
-1. Il messaggio transazionale deve essere personalizzato, testato e pubblicato. Consultate Messaggi transazionali [evento](../../channels/using/event-transactional-messages.md).
+1. Il messaggio transazionale deve essere personalizzato, testato e pubblicato. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. Inoltre, affinché l'evento possa essere attivato quando un cliente abbandona il carrello, questo evento deve essere inviato dal sito Web della società tramite l'API REST di Adobe Campaign Standard. Consultate Integrazione [](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)del sito.
 
 Una volta che tutti questi passaggi sono stati eseguiti, non appena un utente lascia il sito senza ordinare i prodotti nel suo carrello, riceve automaticamente un'e-mail di notifica.
@@ -81,7 +79,7 @@ Per ulteriori informazioni sui passaggi di configurazione dell'evento, consulta 
 Durante la progettazione e la pubblicazione di messaggi transazionali, alcuni dei passaggi da eseguire non possono essere ripristinati. È necessario essere consapevoli dei seguenti limiti:
 
 * Per ogni configurazione dell'evento è possibile utilizzare un solo canale. Consultate [Creazione di un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Una volta creato l'evento, non potete cambiare il canale. Pertanto, se un messaggio non viene inviato correttamente, è necessario progettare il meccanismo che consenta di inviarlo da un altro canale utilizzando un flusso di lavoro. Consulta [Dati e processi](../../automating/using/workflow-data-and-processes.md)del flusso di lavoro.
+* Una volta creato l'evento, non potete cambiare il canale. Pertanto, se un messaggio non viene inviato correttamente, è necessario progettare il meccanismo che consenta di inviarlo da un altro canale utilizzando un flusso di lavoro. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
 * Non potete modificare la dimensione di targeting ( **[!UICONTROL Real-time event]** o **[!UICONTROL Profile]** ) dopo la creazione dell'evento. Consultate [Creazione di un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Non è possibile ripristinare una pubblicazione, ma è possibile annullare la pubblicazione di un evento: questa operazione rende inaccessibili l'evento e il messaggio di transazione associato. Consultate [Annullamento della pubblicazione di un evento](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * L'unico messaggio transazionale che può essere associato a un evento è il messaggio creato automaticamente al momento della pubblicazione dell'evento. Consultate [Anteprima e pubblicazione dell’evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
@@ -92,14 +90,14 @@ Il modo in cui puoi personalizzare il contenuto di un messaggio dipende dal tipo
 
 **Messaggi** transazionali basati su eventi:
 
-* Le informazioni sulla personalizzazione provengono dai dati contenuti nell'evento stesso. Consultate Messaggi transazionali [evento](../../channels/using/event-transactional-messages.md).
+* Le informazioni sulla personalizzazione provengono dai dati contenuti nell'evento stesso. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 * Non potete utilizzare blocchi di contenuto di collegamento **** Annulla iscrizione in un messaggio transazionale evento.
 * I messaggi transazionali basati su eventi dovrebbero utilizzare solo i dati presenti nell'evento inviato per definire il destinatario e la personalizzazione del contenuto del messaggio. Tuttavia, puoi arricchire il contenuto del messaggio transazionale utilizzando le informazioni contenute nel database di Adobe Campaign. Consultate [Arricchimento del contenuto](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)dei messaggi transazionali.
 * Poiché i messaggi relativi alle transazioni di evento non contengono informazioni sul profilo, non sono compatibili con le regole di affaticamento, anche nel caso di un arricchimento con i profili. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
 
 **Messaggi** transazionali basati su profilo:
 
-* Le informazioni sulla personalizzazione possono provenire dai dati contenuti nell'evento o dal record di profilo riconciliato. Consulta Messaggi transazionali [di profilo](../../channels/using/profile-transactional-messages.md).
+* Le informazioni sulla personalizzazione possono provenire dai dati contenuti nell'evento o dal record di profilo riconciliato. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 * Puoi utilizzare i blocchi di contenuto dei collegamenti **** Annulla iscrizione in un messaggio di transazione profilo. Consultate [Aggiunta di un blocco](../../designing/using/personalization.md#adding-a-content-block)di contenuto.
 * Le regole di Fatigue sono compatibili con i messaggi transazionali del profilo. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
 
