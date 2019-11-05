@@ -1,8 +1,6 @@
 ---
 title: Modifica delle query
-seo-title: Modifica delle query
-description: Modifica delle query
-seo-description: Creare una popolazione grazie ai filtri e alle regole predefiniti.
+description: Creare una popolazione grazie ai filtri e alle regole predefiniti.
 page-status-flag: mai attivato
 uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: queryFilter,panoramica;audience,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
