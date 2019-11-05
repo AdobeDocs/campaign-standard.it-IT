@@ -1,8 +1,6 @@
 ---
 title: Aggiunta di contenuto dinamico Target
-seo-title: Aggiunta di contenuto dinamico Target
-description: Aggiunta di contenuto dinamico Target
-seo-description: Scopri come aggiungere contenuto dinamico Adobe Target in una delle distribuzioni di Adobe Campaign.
+description: Scopri come aggiungere contenuto dinamico Adobe Target in una delle distribuzioni di Adobe Campaign.
 page-status-flag: mai attivato
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
