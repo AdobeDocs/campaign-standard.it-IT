@@ -1,45 +1,43 @@
 ---
 title: 'Creazione di un modulo Campaign in Experience Manager '
-seo-title: 'Creazione di un modulo Campaign in Experience Manager '
-description: 'Creazione di un modulo Campaign in Experience Manager '
-seo-description: Con l'integrazione di Adobe Experience Manager, potete creare moduli direttamente in AEM per creare e aggiornare profili o gestire iscrizioni.
-page-status-flag: never-activated
-uuid: 43057 f 81-d 47 d -4 b 96-b 150-217 c 289 cd 608
+description: Con l'integrazione di Adobe Experience Manager, puoi creare moduli direttamente in AEM per creare e aggiornare profili o gestire iscrizioni.
+page-status-flag: mai attivato
+uuid: 43057f81-d47d-4b96-b150-217c289cd608
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: integrazione
-content-type: riferimento
-topic-tags: working-with-campaign-and-experience-manager
-discoiquuid: 4 a 8 b 5807-87 dd -4 db 4-bd 67-890 f 0 adae 932
+products: SG_CAMPAIGN/STANDARD
+audience: integration
+content-type: reference
+topic-tags: working with-campaign-and-experience-manager
+discoiquuid: 4a8b5807-87dd-4db4-bd67-890f0adae932
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creating a Campaign form in Experience Manager {#creating-a-campaign-form-in-experience-manager}
+# Creazione di un modulo Campaign in Experience Manager {#creating-a-campaign-form-in-experience-manager}
 
-Puoi creare i "moduli" nei siti AEM e mappare i campi di un modulo nei campi del database Adobe Campaign. Questo consente di creare e aggiornare i profili o di gestire le iscrizioni a un servizio.
+Puoi creare "moduli" sui tuoi siti AEM e mappare i campi di un modulo sui campi del database Adobe Campaign. Questo consente di creare e aggiornare profili o gestire le iscrizioni a un servizio.
 
 Per creare un modulo Adobe Campaign sul sito AEM:
 
-1. In your AEM site, create a new page based on the **Adobe Campaign Profile** template.
+1. Nel tuo sito AEM, crea una nuova pagina basata sul modello di profilo **di** Adobe Campaign.
 
    ![](assets/aem_content_forms.png)
 
-1. In the page properties, select the **[!UICONTROL Cloud Service]** corresponding to your Adobe Campaign instance.
+1. Nelle proprietà della pagina, seleziona il **[!UICONTROL Cloud Service]** corrispondente all’istanza di Adobe Campaign.
 
    ![](assets/aem_content_forms_2.png)
 
-1. Select the form type from the **[!UICONTROL Form Start]** component:
+1. Selezionate il tipo di modulo dal **[!UICONTROL Form Start]** componente:
 
    * **Adobe Campaign: Salva profilo**
-   * **Adobe Campaign: Iscrizione ai Servizi**
-   * **Adobe Campaign: Annulla iscrizione ai servizi**
+   * **Adobe Campaign: Iscriviti ai servizi**
+   * **Adobe Campaign: Annulla sottoscrizione a servizi**
 
-1. Modifica il contenuto del modulo aggiungendo campi e componenti diversi da mappare sui campi del database di Adobe Campaign.
-1. Verificate e pubblicate il modulo per renderlo accessibile sul sito AEM.
+1. Modifica il contenuto del modulo aggiungendo campi e componenti diversi che puoi mappare ai campi del database di Adobe Campaign.
+1. Sottoponete a test e pubblicate il modulo per renderlo accessibile sul sito AEM.
 
-For more information, refer to the [detailed documentation](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/adobe-campaign-forms.html).
+Per ulteriori informazioni, consulta la documentazione [](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/adobe-campaign-forms.html)dettagliata.
