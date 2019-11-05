@@ -1,8 +1,6 @@
 ---
-title: Invio e-mail
-seo-title: Invio e-mail
-description: Invio e-mail
-seo-description: L'attività di distribuzione e-mail consente di configurare l'invio di un'e-mail singola o ricorrente in un flusso di lavoro.
+title: Recapito e-mail
+description: L'attività di distribuzione e-mail consente di configurare l'invio di un'e-mail singola o ricorrente in un flusso di lavoro.
 page-status-flag: mai attivato
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: consegna,flusso di lavoro,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Invio e-mail{#email-delivery}
+# Recapito e-mail{#email-delivery}
 
 ## Descrizione {#description}
 
