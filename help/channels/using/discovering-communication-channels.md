@@ -1,8 +1,6 @@
 ---
-title: Individuazione dei canali di comunicazione
-seo-title: Individuazione dei canali di comunicazione
-description: Individuazione dei canali di comunicazione
-seo-description: Scopri come inviare messaggi personalizzati su diversi canali e come creare campagne multicanale per meglio indirizzare i destinatari.
+title: Esplorazione dei canali di comunicazione
+description: Scopri come inviare messaggi personalizzati su diversi canali e come creare campagne multicanale per meglio indirizzare i destinatari.
 page-status-flag: mai attivato
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Individuazione dei canali di comunicazione{#discovering-communication-channels}
+# Esplorazione dei canali di comunicazione{#discovering-communication-channels}
 
 Adobe Campaign consente di creare e inviare messaggi personalizzati su vari canali e di misurarne l'efficacia attraverso report dedicati.
 
