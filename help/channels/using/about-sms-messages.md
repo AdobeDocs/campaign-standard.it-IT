@@ -1,8 +1,6 @@
 ---
 title: Informazioni sui messaggi SMS
-seo-title: Informazioni sui messaggi SMS
-description: Informazioni sui messaggi SMS
-seo-description: Scopri le principali specificità del canale SMS in Adobe Campaign.
+description: Scopri le principali specificità del canale SMS in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: sauviat
@@ -15,7 +13,7 @@ delivercontext-tags: deliveryCreation,procedura guidata;consegna,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -43,7 +41,7 @@ Per inviare messaggi SMS a un telefono cellulare è necessario:
 
 * [Gestione dei modelli](../../start/using/about-templates.md)
 * [Configurazione SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
-* [SMS report](../../reporting/using/sms-report.md)
+* [Report SMS](../../reporting/using/sms-report.md)
 
 ## Modello di consegna SMS {#sms-delivery-template}
 
