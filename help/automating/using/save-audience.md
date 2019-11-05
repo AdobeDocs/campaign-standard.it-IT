@@ -1,94 +1,92 @@
 ---
-title: Salva pubblico
-seo-title: Salva pubblico
-description: Salva pubblico
-seo-description: L'attività Salva audience consente di aggiornare un'audience esistente o di creare un nuovo pubblico dalla popolazione calcolata a monte in un flusso di lavoro.
-page-status-flag: never-activated
-uuid: 8 babb 173-fa 59-44 a 7-a 2 a 5-49 f 45 ba 6 bf 99
+title: Salva audience
+description: L'attività Salva audience consente di aggiornare un'audience esistente o di creare una nuova audience dalla popolazione calcolata a monte in un flusso di lavoro.
+page-status-flag: mai attivato
+uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: targeting-activity
-discoiquuid: 1 f 6 bb 048-7 abd -499 b-a 4 b 0-187 f 9492 dc 47
-context-tags: Saveaudience, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: attività di targeting
+discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
+context-tags: saveAudience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Save audience{#save-audience}
+# Salva audience{#save-audience}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/save_audience.png)
 
-The **[!UICONTROL Save audience]** activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created or updated from this activity are **List** or **File** audiences. They are added to the list of application audiences, and are made available via the **[!UICONTROL Audiences]** menu.
+L' **[!UICONTROL Save audience]** attività consente di aggiornare un'audience esistente o di creare una nuova audience dalla popolazione calcolata a monte in un flusso di lavoro. Le audience create o aggiornate da questa attività sono audience **List** o **File** . Vengono aggiunti all'elenco dei tipi di pubblico delle applicazioni e sono disponibili tramite il **[!UICONTROL Audiences]** menu.
 
 >[!NOTE]
 >
->If the audience created through the **[!UICONTROL Save audience]** activity has been enriched with additional data, you will not be able to use these data to personalize a standalone delivery. Possono essere utilizzati solo da una distribuzione eseguita in un flusso di lavoro.
+>Se l'audience creata tramite l' **[!UICONTROL Save audience]** attività è stata arricchita di dati aggiuntivi, non sarà possibile utilizzare questi dati per personalizzare una distribuzione autonoma. Possono essere utilizzati solo da una consegna eseguita in un flusso di lavoro.
 
-Questa attività consente anche di esportare profili come pubblico/segmenti di Adobe Experience Cloud. Questo consente di sfruttare queste audience in altre soluzioni Adobe Experience Cloud. For more information about shared audiences, refer to [Working with Campaign and People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+Questa attività consente anche di esportare i profili come audience/segmenti di Adobe Experience Cloud. Questo consente di sfruttare questi tipi di pubblico in altre soluzioni Adobe Experience Cloud. Per ulteriori informazioni sui tipi di pubblico condivisi, consulta [Utilizzo dei servizi](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)di base Campaign e People.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Save audience]** activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences.
+L' **[!UICONTROL Save audience]** attività è essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nello stesso flusso di lavoro, convertendoli in audience riutilizzabili.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drop a **[!UICONTROL Save audience]** activity into your workflow.
-1. Connettetela dopo le altre attività di targeting, ad esempio una query, un'intersezione, un'unione o un'esclusione.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Selezionate l'azione da eseguire:
+1. Rilascia un' **[!UICONTROL Save audience]** attività nel flusso di lavoro.
+1. Connettilo dopo le altre attività di targeting, come una query, un'intersezione, un'unione o un'esclusione.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Selezionate l’azione da eseguire:
 
    * **[!UICONTROL Update an existing audience]**: Selezionate un'audience esistente e scegliete il tipo di aggiornamento:
 
-      * **[!UICONTROL Replace audience content with new data]**: Viene sostituito tutto il contenuto del pubblico. I vecchi dati vanno persi. Vengono mantenuti solo i dati provenienti dalla transizione in ingresso dell'attività del pubblico.
-      * **[!UICONTROL Complete audience with new data]**: I vecchi dati del pubblico vengono mantenuti e vengono aggiunti i dati della transizione in entrata dell'attività del pubblico.
+      * **[!UICONTROL Replace audience content with new data]**: Viene sostituito l'intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati provenienti dalla transizione in entrata dell'attività Salva audience.
+      * **[!UICONTROL Complete audience with new data]**: I vecchi dati del pubblico vengono conservati e i dati provenienti dalla transizione in entrata dell'attività di salvataggio del pubblico vengono aggiunti ad essa.
    * **[!UICONTROL Create then update an audience]**: Immettete il nome dell'audience e selezionate il tipo di aggiornamento. Se l'audience non esiste già, viene creata. Se esiste già, viene aggiornato in base alla modalità selezionata:
 
-      * **[!UICONTROL Replace audience content with new data]**: Viene sostituito tutto il contenuto del pubblico. I vecchi dati vanno persi. Vengono mantenuti solo i dati provenienti dalla transizione in ingresso dell'attività del pubblico.
+      * **[!UICONTROL Replace audience content with new data]**: Viene sostituito l'intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati provenienti dalla transizione in entrata dell'attività Salva audience.
 
-         Attenzione, questa opzione elimina il tipo di pubblico e la dimensione di targeting del pubblico aggiornato.
+         Attenzione, questa opzione elimina il tipo di pubblico e la dimensione di targeting dell'audience aggiornata.
 
-      * **[!UICONTROL Complete audience with new data]**: I vecchi dati del pubblico vengono mantenuti e vengono aggiunti i dati della transizione in entrata dell'attività del pubblico.
+      * **[!UICONTROL Complete audience with new data]**: I vecchi dati del pubblico vengono conservati e i dati provenienti dalla transizione in entrata dell'attività di salvataggio del pubblico vengono aggiunti ad essa.
 
-         Attenzione, questa opzione causa un errore se il tipo di pubblico o la dimensione di targeting dell'audience aggiornata non sono compatibili con la configurazione corrente del flusso di lavoro. Ad esempio, non potete completare un tipo di pubblico con profili provenienti da una query.
-   * **[!UICONTROL Create a new audience]**: Inserite il nome dell'audience da creare. L'ora e la data in cui l'audience viene creata verranno automaticamente aggiunte al nome del pubblico. Questo rende il pubblico univoco ogni volta che il flusso di lavoro viene eseguito.
-   * **[!UICONTROL Share in Adobe Experience Cloud]**: Se hai dei profili mirati e desideri esportare il pubblico in Adobe Experience Cloud, seleziona questa opzione, quindi seleziona un pubblico condiviso esistente o crea un nuovo pubblico.
+         Attenzione: questa opzione genera un errore se il tipo di pubblico o la dimensione di targeting dell'audience aggiornata non sono compatibili con la configurazione corrente del flusso di lavoro. Ad esempio, non è possibile completare un pubblico di tipo file con profili provenienti da una query.
+   * **[!UICONTROL Create a new audience]**: Immettete il nome dell'audience da creare. L'ora e la data di creazione dell'audience verranno automaticamente aggiunte al nome dell'audience. Questo rende l'audience univoca ogni volta che viene eseguito il flusso di lavoro.
+   * **[!UICONTROL Share in Adobe Experience Cloud]**: Se hai dei profili di destinazione e desideri esportare il pubblico in Adobe Experience Cloud, seleziona questa opzione, quindi seleziona un'audience condivisa esistente o crei una nuova audience.
 
-      Also select a **[!UICONTROL Shared Data source]** that corresponds to the resource of the data contained in the audience so that the data is correctly reconciled in Adobe Experience Cloud.
+      Seleziona anche un elemento **[!UICONTROL Shared Data source]** che corrisponda alla risorsa dei dati contenuti nel pubblico in modo che i dati vengano correttamente riconciliati in Adobe Experience Cloud.
 
-      Using this option, the shared audience is not added to the list of Adobe Campaign audiences available via the **[!UICONTROL Audiences]** menu.
+      Utilizzando questa opzione, l'audience condivisa non viene aggiunta all'elenco dei tipi di pubblico di Adobe Campaign disponibili tramite il **[!UICONTROL Audiences]** menu.
 
       >[!NOTE]
       >
-      >Questa opzione è disponibile solo se la funzionalità di audience condivisa con Adobe Experience Cloud è stata configurata dall'amministratore. For more information, refer to [Working with Campaign and People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-   Il tipo di audience salvato o disponibile durante un aggiornamento dipende dalle attività collocate a monte nel flusso di lavoro.
+      >Questa opzione è disponibile solo se l'amministratore ha configurato la funzionalità di audience condivise con Adobe Experience Cloud. Per ulteriori informazioni, consulta [Utilizzo dei servizi](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)di base Campaign and People.
+   Il tipo di audience salvato o disponibile durante un aggiornamento dipende dalle attività posizionate a monte nel flusso di lavoro.
 
-   If the targeting dimension of the audience is unknown when it is saved (for example if it is from an imported file), the audience is created or updated as a **[!UICONTROL File]** type audience.
+   Se la dimensione di targeting dell'audience è sconosciuta al momento del salvataggio (ad esempio, se proviene da un file importato), l'audience viene creata o aggiornata come **[!UICONTROL File]** tipo di pubblico.
 
-   If the targeting dimension of the saved audience is already defined when it is saved (for example, if it comes from a targeting, after a query, etc.), then the audience is saved or updated as a **[!UICONTROL List]** type audience.
+   Se la dimensione di targeting dell'audience salvata è già definita quando viene salvata (ad esempio, se proviene da un targeting, dopo una query, ecc.), l'audience viene salvata o aggiornata come **[!UICONTROL List]** tipo di pubblico.
 
-   The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **[!UICONTROL Audiences]** menu. Le colonne disponibili da questa vista corrispondono alle colonne della transizione in ingresso dell'attività del tipo di pubblico del flusso di lavoro. Ad esempio: le colonne del file importato, i dati aggiuntivi aggiunti da una query.
+   Il contenuto dell'audience salvata è quindi disponibile nella visualizzazione Dettagli dell'audience, a cui è possibile accedere dal **[!UICONTROL Audiences]** menu. Le colonne disponibili in questa visualizzazione corrispondono alle colonne della transizione in entrata dell'attività Salva audience del flusso di lavoro. Ad esempio: le colonne del file importato, i dati aggiuntivi aggiunti da una query.
 
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example {#example}
+## Esempio {#example}
 
-Il flusso di lavoro definito in questo esempio mostra un aggiornamento regolare dell'audience dal targeting:
+Il flusso di lavoro definito in questo esempio mostra un aggiornamento regolare del pubblico dal targeting:
 
-* It is automatically executed once a month using a **[!UICONTROL Scheduler]**.
-* You can use a **[!UICONTROL Query]** to recover all the profiles subscribed to the different application services available.
-* The **[!UICONTROL Save audience]** activity updates the audience by deleting profiles that have unsubscribed from the service since the last workflow execution and by adding the newly subscribed profiles.
+* Viene eseguito automaticamente una volta al mese utilizzando un **[!UICONTROL Scheduler]**.
+* Potete utilizzare un **[!UICONTROL Query]** per recuperare tutti i profili sottoscritti ai diversi servizi applicativi disponibili.
+* L' **[!UICONTROL Save audience]** attività aggiorna l'audience eliminando i profili che hanno annullato la sottoscrizione al servizio dall'ultima esecuzione del flusso di lavoro e aggiungendo i profili con sottoscrizione nuova.
 
 ![](assets/save_audience_example_1.png)
 
-The **[!UICONTROL Save audience]** activity is configured as follows:
+L' **[!UICONTROL Save audience]** attività è configurata come segue:
 
 ![](assets/save_audience_example_2.png)
 
