@@ -1,8 +1,6 @@
 ---
 title: Configurazione del canale e-mail
-seo-title: Configurazione del canale e-mail
-description: Configurazione del canale e-mail
-seo-description: Scoprite come configurare il canale e-mail.
+description: Scoprite come configurare il canale e-mail.
 page-status-flag: mai attivato
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: extAccountEmail,panoramica;emailConfig,main;ruleSet,overview;deliv
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -56,7 +54,7 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
 **Argomento** correlato:
 
-[Gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
+[Riconoscimento della gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 
 ## Account di routing e-mail {#email-routing-accounts}
 
@@ -68,7 +66,7 @@ Il tipo di account deve essere sempre impostato su **[!UICONTROL Routing]**, il 
 
 **Argomento** correlato:
 
-[Conti esterni](../../administration/using/external-accounts.md)
+[Account esterni](../../administration/using/external-accounts.md)
 
 ## Regole di elaborazione e-mail {#email-processing-rules}
 
