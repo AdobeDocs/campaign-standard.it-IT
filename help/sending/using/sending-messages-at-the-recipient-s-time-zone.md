@@ -1,8 +1,6 @@
 ---
-title: Invio di messaggi al fuso orario del destinatario
-seo-title: Invio di messaggi al fuso orario del destinatario
-description: Invio di messaggi al fuso orario del destinatario
-seo-description: Scopri come inviare messaggi al fuso orario del destinatario.
+title: Invio di messaggi con il fuso orario del destinatario
+description: Scopri come inviare messaggi al fuso orario del destinatario.
 page-status-flag: mai attivato
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: data980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Invio di messaggi al fuso orario del destinatario{#sending-messages-at-the-recipient-s-time-zone}
+# Invio di messaggi con il fuso orario del destinatario{#sending-messages-at-the-recipient-s-time-zone}
 
 Quando gestisci una campagna in cui la data e l'ora sono importanti, puoi pianificare una consegna che tenga conto dell'ora locale di ciascun destinatario: riceveranno e-mail, SMS o notifiche push al momento previsto, nel loro fuso orario.
 
