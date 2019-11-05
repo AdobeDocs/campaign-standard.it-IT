@@ -1,8 +1,6 @@
 ---
 title: Attività di marketing
-seo-title: Attività di marketing
-description: Attività di marketing
-seo-description: '"Scopri come creare e gestire le tue attività di marketing: campagne, e-mail, SMS e notifiche push, pagine di destinazione, flussi di lavoro. Puoi progettare facilmente una nuova attività, modificarne una esistente e consultarne lo stato e la validità."'
+description: '"Scopri come creare e gestire le tue attività di marketing: campagne, e-mail, SMS e notifiche push, pagine di destinazione, flussi di lavoro. Puoi progettare facilmente una nuova attività, modificarne una esistente e consultarne lo stato e la validità."'
 page-status-flag: mai attivato
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
