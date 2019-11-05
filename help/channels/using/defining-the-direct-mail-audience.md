@@ -1,8 +1,6 @@
 ---
-title: Definizione dell'audience di direct mailing
-seo-title: Definizione dell'audience di direct mailing
-description: Definizione dell'audience di direct mailing
-seo-description: Scopri come definire la destinazione per la consegna diretta per la posta.
+title: Definizione dell’audience della direct mail
+description: Scopri come definire la destinazione per la consegna diretta per la posta.
 page-status-flag: mai attivato
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: sauviat
@@ -15,12 +13,12 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Definizione dell'audience di direct mailing{#defining-the-direct-mail-audience}
+# Definizione dell’audience della direct mail{#defining-the-direct-mail-audience}
 
 Potete definire l'audience nella procedura guidata di creazione oppure facendo clic sulla sezione **Pubblico** del dashboard di distribuzione.
 
@@ -38,7 +36,7 @@ Per ciascun profilo di destinazione, nel file di estrazione viene aggiunta una n
 
 ## Aggiunta di profili di test e trap {#adding-test-and-trap-profiles}
 
-Aggiungete profili di prova in modo da poter testare il file con un numero limitato di profili. Consente di creare rapidamente un esempio di file per verificare e convalidare la struttura prima di preparare il file effettivo. Consultate [Gestione dei profili di test e invio delle prove di stampa](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Aggiungete profili di prova in modo da poter testare il file con un numero limitato di profili. Consente di creare rapidamente un esempio di file per verificare e convalidare la struttura prima di preparare il file effettivo. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
 L'uso di trappole è essenziale per la consegna diretta per corrispondenza. Consentono di verificare che il provider di posta diretta stia inviando la comunicazione e che non inviino l'elenco dei clienti a un altro provider. Consultate [Utilizzo delle trappole](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
