@@ -1,37 +1,35 @@
 ---
-title: Non consegnati e rimbalzi
-seo-title: Non consegnati e rimbalzi
-description: Non consegnati e rimbalzi
-seo-description: 'Con i rapporti non consegnati e il rapporto aggiornato, scopri gli errori che possono verificarsi per la consegna. '
-page-status-flag: never-activated
-uuid: b 70 ae 9 ec-b 659-42 bf-b 663-73615307005 b
+title: Messaggi non recapitati e non trasferibili
+description: 'Con il rapporto Non consegnabili e rimbalzi out-of-the-box, scopri gli errori che possono verificarsi per la consegna. '
+page-status-flag: mai attivato
+uuid: b70ae9ec-b659-42bf-b663-73615307005b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: reporting
-content-type: riferimento
-topic-tags: list-of-reports
-discoiquuid: 3567 f 9 f 9-ef 57-441 c -8844-198 bbf 962 c 9 d
-context-tags: Deliverynondeliverablesbouncesreport, main; Campaignnondeliverablesbouncesreport, main; Programnondeliverablesbouncesreport, main
+content-type: reference
+topic-tags: elenco di rapporti
+discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
+context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Non-deliverables and bounces{#non-deliverables-and-bounces}
+# Messaggi non recapitati e non trasferibili{#non-deliverables-and-bounces}
 
-**[!UICONTROL Non-deliverables and bounces]** Il rapporto fornisce dettagli su tutti gli errori riscontrati durante una distribuzione.
+Il **[!UICONTROL Non-deliverables and bounces]** rapporto fornisce dettagli su tutti gli errori rilevati durante la consegna.
 
 ![](assets/delivery_reports_7.png)
 
-**[!UICONTROL Overview]** La tabella contiene i dati disponibili in merito ai possibili errori riscontrati per ogni consegna, ad esempio:
+La **[!UICONTROL Overview]** tabella contiene i dati disponibili relativi ai possibili errori riscontrati per ogni consegna, ad esempio:
 
-* **Elaborato/inviato**: Numero di messaggi e-mail inviati.
+* **Elaborato/inviato**: Numero di e-mail inviate.
 * **Consegnato**: Numero di e-mail distribuite.
-* **Rimbalza leggero**: Il numero totale di errori temporanei, ad esempio una casella completa.
-* **Rimbalzi rigidi**: Il numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
-* **Bounce + Errors**: Numero di messaggi che non è stato possibile distribuire.
+* **Soft bounce**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
+* **Rimbalzo** rigido: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
+* **Punti + Errori**: Numero di messaggi che non è stato possibile recapitare.
 
-The **Breakdown by domain** table lists the bounces per recipients' domains.
+Nella tabella **Suddivisione per dominio** sono elencati i limiti per i domini dei destinatari.
