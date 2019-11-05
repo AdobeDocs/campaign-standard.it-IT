@@ -1,8 +1,6 @@
 ---
 title: Progettazione di una pagina di destinazione
-seo-title: Progettazione di una pagina di destinazione
-description: Progettazione di una pagina di destinazione
-seo-description: Per progettare il contenuto di una pagina di destinazione e collegarla a un servizio, effettuate le seguenti operazioni.
+description: Per progettare il contenuto di una pagina di destinazione e collegarla a un servizio, effettuate le seguenti operazioni.
 page-status-flag: mai attivato
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
