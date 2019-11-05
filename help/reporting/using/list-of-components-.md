@@ -1,8 +1,6 @@
 ---
 title: 'Elenco dei componenti '
-seo-title: 'Elenco dei componenti '
-description: 'Elenco dei componenti '
-seo-description: Consulta l’elenco di tutti i componenti disponibili nei report dinamici e le relative definizioni.
+description: Consulta l’elenco di tutti i componenti disponibili nei report dinamici e le relative definizioni.
 page-status-flag: mai attivato
 uuid: a2403806-8df4-4bb1-back2-2689dc584ae0
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
