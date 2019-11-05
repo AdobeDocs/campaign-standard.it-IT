@@ -1,8 +1,6 @@
 ---
 title: Messaggi sulle transazioni degli eventi
-seo-title: Messaggi sulle transazioni degli eventi
-description: Messaggi sulle transazioni degli eventi
-seo-description: Scoprite come creare e pubblicare un messaggio di transazione evento.
+description: Scoprite come creare e pubblicare un messaggio di transazione evento.
 page-status-flag: mai attivato
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
