@@ -1,31 +1,29 @@
 ---
-title: Consegna di consegna
-seo-title: Consegna di consegna
-description: Consegna di consegna
-seo-description: Con il report Distribuzione out-of-the-box, scopri il successo della distribuzione.
-page-status-flag: never-activated
-uuid: 51888 b 63-f 507-43 ea -8 faf -5 b 3 c 00 eb 1800
+title: Velocità effettiva di consegna
+description: Grazie al report out-of-the-box sul throughput di consegna, scopri il successo della tua consegna.
+page-status-flag: mai attivato
+uuid: 51888b63-f507-43ea-8faf-5b3c00eb1800
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: reporting
-content-type: riferimento
-topic-tags: list-of-reports
-discoiquuid: 394402 ac -0290-41 e 7-a 8 e 2-e 7 cdd 9 addf 28
-context-tags: Deliverythroughputreport, main; Campaignthroughputreport, main; Programthroughputreport, main
+content-type: reference
+topic-tags: elenco di rapporti
+discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
+context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Delivery throughput{#delivery-throughput}
+# Velocità effettiva di consegna{#delivery-throughput}
 
-Questo rapporto contiene dati relativi alla consegna di una mandata, o più mandate. Fornisce:
+Questo rapporto contiene i dati relativi alla velocità di consegna di una o più invii. Fornisce:
 
 * Numero di messaggi elaborati all'ora
-* The **[!UICONTROL Top 5 deliveries]** table and complementary summary numbers that show the five deliveries with the best gain in retries.
+* La **[!UICONTROL Top 5 deliveries]** tabella e i numeri di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei tentativi.
 
 ![](assets/delivery_reports_1.png)
 
