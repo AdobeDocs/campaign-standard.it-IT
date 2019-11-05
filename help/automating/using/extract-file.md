@@ -1,98 +1,96 @@
 ---
-title: Estrai file
-seo-title: Estrai file
-description: Estrai file
-seo-description: L'attività Estrai file consente di esportare dati da Adobe Campaign sotto forma di file esterno.
-page-status-flag: never-activated
-uuid: 631 f 0 fbd -9 e 8 d -4 f 77-a 338-fcb 7 f 4 fc 1774
+title: Estrarre file
+description: L'attività del file Extract consente di esportare dati da Adobe Campaign sotto forma di file esterno.
+page-status-flag: mai attivato
+uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automazione
-content-type: riferimento
-topic-tags: gestione dati-attività
-discoiquuid: a 06509 f 9-4731-4187-b 43 d -3 bfa 361284 d 3
-context-tags: Fileexport, main
+products: SG_CAMPAIGN/STANDARD
+audience: automatizzazione
+content-type: reference
+topic-tags: gestione dei dati
+discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
+context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Extract file{#extract-file}
+# Estrarre file{#extract-file}
 
-## Description {#description}
+## Descrizione {#description}
 
 ![](assets/export.png)
 
-The **[!UICONTROL Extract file]** activity allows you to export data from Adobe Campaign in the form of an external file.
+L' **[!UICONTROL Extract file]** attività consente di esportare dati da Adobe Campaign sotto forma di file esterno.
 
-## Context of use {#context-of-use}
+## Contesto di utilizzo {#context-of-use}
 
-Il modo in cui i dati vengono estratti viene definito durante la configurazione dell'attività.
+Il modo in cui verranno estratti i dati viene definito al momento della configurazione dell'attività.
 
 >[!CAUTION]
 >
->The **[!UICONTROL Extract file]** activity must be placed after a **[!UICONTROL Query]** activity in order to be used.
+>L' **[!UICONTROL Extract file]** attività deve essere collocata dopo un' **[!UICONTROL Query]** attività per essere utilizzata.
 
-## Configuration {#configuration}
+## Configurazione {#configuration}
 
-1. Drag and drop an **[!UICONTROL Extract file]** activity into your workflow.
+1. Trascinate e rilasciate un' **[!UICONTROL Extract file]** attività nel flusso di lavoro.
 
    ![](assets/wkf_data_export1.png)
 
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Enter the label of the **Output file**. L'etichetta del file verrà compilata automaticamente con la data e l'ora in cui è stata creata. Ad esempio: recipients_20150815_081532.txt per un file generato il 15 agosto 2015 alle 08:15:32.
+1. Selezionate l'attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Immettere l'etichetta del file **** Output. L'etichetta del file verrà automaticamente completata con la data e l'ora in cui è stato creato, in modo che sia univoca. Ad esempio: Recipients_20150815_081532.txt per un file ha generato il 15 agosto 2015 alle 08:15:32.
 
    >[!NOTE]
    >
-   >It is possible to use the **[!UICONTROL formatDate]** function in this field to specify the file name.
+   >È possibile utilizzare la **[!UICONTROL formatDate]** funzione in questo campo per specificare il nome del file.
 
-1. If you like, you can zip the output file by selecting **[!UICONTROL Compression]** in the **[!UICONTROL Add a pre-processing step]** field. Il file di output verrà compresso in un file GZIP (.gz).
-1. Click the ![](assets/add_darkgrey-24px.png) or **[!UICONTROL Add an element]** button to add an output column.
+1. Se lo desideri, puoi comprimere il file di output selezionando **[!UICONTROL Compression]** nel **[!UICONTROL Add a pre-processing step]** campo. Il file di output verrà compresso in un file GZIP (.gz).
+1. Fate clic sul ![](assets/add_darkgrey-24px.png) pulsante o **[!UICONTROL Add an element]** per aggiungere una colonna di output.
 
    ![](assets/wkf_data_export2.png)
 
-   Viene aperta una nuova finestra.
+   Si aprirà una nuova finestra.
 
    ![](assets/wkf_data_export3.png)
 
-1. Immettete un'espressione. To do this, you can select an existing expression or create a new one using the **expression editor**.
-1. Confermare l'espressione.
+1. Immettere un'espressione. A questo scopo, è possibile selezionare un'espressione esistente o crearne una nuova utilizzando l'editor **di** espressioni.
+1. Confermate l'espressione.
 
    L'espressione viene aggiunta alle colonne di output.
 
-1. Create tutte le colonne necessarie. Potete modificare le colonne facendo clic sulle relative espressioni ed etichette.
+1. Create tutte le colonne necessarie. Per modificare le colonne, fare clic sulle relative espressioni ed etichette.
 
-   Se esportate i profili e desiderate utilizzarli in uno strumento esterno, accertatevi di esportare un unico identificatore. Per impostazione predefinita, non tutti i profili hanno un identificatore univoco, a seconda del modo in cui vengono aggiunti al database. For more information, refer to the [Generating a unique ID for profiles](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources) section.
+   Se esportate i profili e desiderate utilizzarli in uno strumento esterno, accertatevi di esportare un identificatore univoco. Per impostazione predefinita, non tutti i profili hanno un identificatore univoco, a seconda del modo in cui vengono aggiunti al database. Per ulteriori informazioni, consulta la sezione [Generazione di un ID univoco per i profili](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources) .
 
-1. Click the **[!UICONTROL File structure]** tab to configure the output, date, and number formats for the file that will be exported.
+1. Fare clic sulla **[!UICONTROL File structure]** scheda per configurare i formati di output, data e numero per il file da esportare.
 
-   Check the **[!UICONTROL Export labels instead of internal values of enumerations]** option in case you export enumeration values. Questa opzione consente di ottenere etichette più brevi facili da comprendere invece di ID.
+   Selezionare l' **[!UICONTROL Export labels instead of internal values of enumerations]** opzione nel caso in cui si esportino i valori di enumerazione. Questa opzione consente di recuperare etichette più brevi che possono essere facilmente comprensibili al posto degli ID.
 
-1. In the **[!UICONTROL Properties]** tab, select the **[!UICONTROL Do not generate a file if the inbound transition is empty]** option to avoid creating and uploading empty files on SFTP servers if the inbound transition is empty.
+1. Nella **[!UICONTROL Properties]** scheda, selezionate l' **[!UICONTROL Do not generate a file if the inbound transition is empty]** opzione per evitare di creare e caricare file vuoti sui server SFTP se la transizione in entrata è vuota.
 1. Confermate la configurazione dell'attività e salvate il flusso di lavoro.
 
-## Example {#example}
+## Esempio {#example}
 
-The following example illustrates how to configure an **[!UICONTROL Extract file]** activity after a **[!UICONTROL Query]** activity.
+L'esempio seguente illustra come configurare un' **[!UICONTROL Extract file]** attività dopo un' **[!UICONTROL Query]** attività.
 
-Questo flusso di lavoro consente di esportare un elenco di profili sotto forma di file esterno, in modo che i dati possano essere utilizzati all'esterno di Adobe Campaign.
+Scopo di questo flusso di lavoro è esportare un elenco di profili sotto forma di file esterno in modo che i dati possano essere utilizzati al di fuori di Adobe Campaign.
 
-1. Drag and drop an **[!UICONTROL Extract file]** activity into your workflow and place it after the **[!UICONTROL Query]** activity.
+1. Trascinate e rilasciate un' **[!UICONTROL Extract file]** attività nel flusso di lavoro e inseritela dopo l' **[!UICONTROL Query]** attività.
 
-   In questo esempio, la query viene eseguita su tutti i profili da 18 a 30.
+   In questo esempio, la query viene eseguita su tutti i profili di età compresa tra 18 e 30 anni.
 
-1. Aprite l'attività Estrai file per modificarla.
+1. Aprite l'attività del file Extract per modificarla.
 1. Denominate il file di output.
 1. Aggiungere colonne di output.
 
-   In questo esempio, l'e-mail, l'età, la data di nascita, il nome e il cognome dei profili vengono aggiunti come colonne di output.
+   In questo esempio, l’e-mail, l’età, la data di nascita, il nome e il cognome dei profili vengono aggiunti come colonne di output.
 
    ![](assets/wkf_data_export6.png)
 
-1. Click the **[!UICONTROL File structure]** tab to define:
+1. Fare clic sulla **[!UICONTROL File structure]** scheda per definire:
 
    * Formato di output CSV
 
@@ -103,12 +101,12 @@ Questo flusso di lavoro consente di esportare un elenco di profili sotto forma d
       ![](assets/wkf_data_export9.png)
 
 1. Confermate l'attività.
-1. Drag and drop a **[!UICONTROL Transfer file]** activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
-1. Open the activity and choose the **[!UICONTROL File upload]** action.
+1. Trascinate e rilasciate un' **[!UICONTROL Transfer file]** attività dopo l' **[!UICONTROL Extract file]** attività per recuperare il file di estrazione su un account esterno.
+1. Aprite l'attività e scegliete l' **[!UICONTROL File upload]** azione.
 
    ![](assets/wkf_data_export11.png)
 
-1. Selezionate l'account esterno e immettete il percorso della cartella sul server.
+1. Selezionate l’account esterno e immettete il percorso della cartella sul server.
 
    ![](assets/wkf_data_export12.png)
 
