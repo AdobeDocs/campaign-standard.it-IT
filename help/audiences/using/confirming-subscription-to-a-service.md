@@ -1,8 +1,6 @@
 ---
-title: Conferma dell’iscrizione a un servizio
-seo-title: Conferma dell’iscrizione a un servizio
-description: Conferma dell’iscrizione a un servizio
-seo-description: Attenetevi a questa procedura per impostare un messaggio di conferma per i profili che si iscrivono a un servizio in Adobe Campaign.
+title: Conferma della sottoscrizione a un servizio
+description: Attenetevi a questa procedura per impostare un messaggio di conferma per i profili che si iscrivono a un servizio in Adobe Campaign.
 page-status-flag: mai attivato
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Conferma dell’iscrizione a un servizio{#confirming-subscription-to-a-service}
+# Conferma della sottoscrizione a un servizio{#confirming-subscription-to-a-service}
 
 ## Informazioni sull'invio della conferma di iscrizione {#sending-subscription-confirmation}
 
