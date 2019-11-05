@@ -1,36 +1,34 @@
 ---
-title: Informazioni sulla rinuncia e la rinuncia in Campaign
-seo-title: Informazioni sulla rinuncia e la rinuncia in Campaign
-description: Informazioni sulla rinuncia e la rinuncia in Campaign
-seo-description: La rinuncia (blacklist) restituisce un profilo non più destinato ad alcun tipo di consegna o da consegne di un canale specifico.
-page-status-flag: never-activated
-uuid: 501 d 9485-976 b -4 de 7-b 242-6886 f 2814 c 6 c
+title: Informazioni sul consenso e diniego in Campaign
+description: Il rifiuto (o blacklist) fa sì che un profilo non venga più mirato da alcuna consegna o dalle consegne da un canale specifico.
+page-status-flag: mai attivato
+uuid: 501d9485-976b-4de7-b242-6886f2814c6c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: audience
-content-type: riferimento
-topic-tags: understanding-opt-in-and-opt-out
-discoiquuid: 2 f 26 ec 22-0809-4541-b 2 a 1-e 84 ff 868 ba 6 e
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: comprensione dei processi di opt-in e opt-out
+discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About opt-in and opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}
+# Informazioni sul consenso e diniego in Campaign{#about-opt-in-and-opt-out-in-campaign}
 
-La rinuncia (blacklist) restituisce un profilo non più destinato ad alcun tipo di consegna o da consegne di un canale specifico.
+Il rifiuto (o blacklist) fa sì che un profilo non venga più mirato da alcuna consegna o dalle consegne da un canale specifico.
 
-Per concedere ai profili la capacità di rifiutare o rifiutare, dovete creare una pagina di destinazione dedicata. For more on this, refer to [Setting up opt-in and opt-out landing pages](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
+Per offrire ai profili la possibilità di scegliere se aderire o rifiutare, dovete creare una pagina di destinazione dedicata. Per ulteriori informazioni, vedere [Impostazione delle pagine](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)di destinazione di consenso e di rifiuto.
 
-I profili possono anche essere attivati o disattivati manualmente da un operatore. For more on this, refer to [Managing opt-in and opt-out from a profile](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+I profili possono anche essere scelti manualmente da un operatore. Per ulteriori informazioni, fare riferimento a [Gestione del consenso e del rifiuto da un profilo](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
-I profili di rinuncia vengono esclusi automaticamente durante l'analisi della distribuzione per velocizzare le consegne (il tasso di errore ha un effetto significativo sulla velocità di consegna).
+I profili di rifiuto vengono automaticamente esclusi durante l'analisi della consegna per accelerare le consegne (il tasso di errore ha un effetto significativo sulla velocità di consegna).
 
 >[!NOTE]
 >
->Opt-out applies to **Profiles**, as opposed to quarantine which is linked to an **email address** or **phone number**. La scelta di un profilo, pertanto, escluderà dall'invio tutti gli indirizzi associati. Se un utente dispone di due profili nel database, sarà comunque indirizzato dalle consegne in quanto la rinuncia di uno solo dei profili è consentita. Per essere certi che tutti i suoi indirizzi siano esclusi, aggiungerli alle relative posizioni. For more on this, refer to [this page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>Il rifiuto si applica ai **profili**, invece della quarantena collegata a un indirizzo **** e-mail o a un numero **di** telefono. L'esclusione di un profilo escluderà quindi dalle consegne tutti gli indirizzi ad esso collegati. Se un utente ha due profili nel database, sarà comunque preso di mira dalle consegne, in quanto solo uno dei suoi profili è l'opzione di rifiuto. Per assicurarsi che tutti i suoi indirizzi siano esclusi, aggiungeteli agli indirizzi delle quarantena. For more on this, refer to [this page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
-For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).
+Per ulteriori informazioni sulle iscrizioni ai servizi, consultare [questa pagina](../../audiences/using/about-subscriptions.md).
