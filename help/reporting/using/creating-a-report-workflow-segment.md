@@ -1,8 +1,6 @@
 ---
-title: Creazione di un rapporto basato sui segmenti del flusso di lavoro
-seo-title: Creazione di un rapporto basato sui segmenti del flusso di lavoro
-description: Creazione di un rapporto basato sui segmenti del flusso di lavoro
-seo-description: Scopri come controllare il successo della distribuzione in base ai segmenti dei flussi di lavoro nei tuoi rapporti.
+title: Creazione di un report basato sui segmenti del flusso di lavoro
+description: Scopri come controllare il successo della distribuzione in base ai segmenti dei flussi di lavoro nei tuoi rapporti.
 page-status-flag: mai attivato
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: beneat
@@ -14,12 +12,12 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creazione di un rapporto basato sui segmenti del flusso di lavoro{#creating-a-report-workflow-segment}
+# Creazione di un report basato sui segmenti del flusso di lavoro{#creating-a-report-workflow-segment}
 
 Dopo aver creato un flusso di lavoro e aver filtrato la popolazione in un pubblico di destinazione diverso, potete misurare l'efficienza delle campagne di marketing in base ai segmenti definiti in questo flusso di lavoro di targeting.
 Per eseguire il targeting di questi segmenti nei report:
