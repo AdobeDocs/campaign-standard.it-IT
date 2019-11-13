@@ -12,16 +12,16 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
 
 ---
 
 
 # Elenco dei componenti {#list-of-components}
 
-Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consulta questa [tabella](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). Se due componenti non sono compatibili, nella cella viene visualizzato il valore **Nessuno**.
+Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consulta questa [tabella](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Se due componenti non sono compatibili, nella cella viene visualizzato il valore **Nessuno**.
 
-[![immagine](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+![](assets/dynamic_report_compatibility.png)
 
 ## Dimensioni {#dimensions}
 
