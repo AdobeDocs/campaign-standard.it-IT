@@ -13,16 +13,16 @@ context-tags: ruolo,panoramica;ruolo,principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
 
 # Elenco di ruoli{#list-of-roles}
 
-Per impostazione predefinita, Adobe Campaign offre un set di ruoli che consente di definire autorizzazioni unitarie assegnate a utenti e gruppi di utenti. Insieme alle unità organizzative, i ruoli forniscono agli utenti una visualizzazione filtrata dell'interfaccia e definiscono il loro accesso alle diverse funzioni. Per ulteriori informazioni, consultare la tabella [](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)Ruoli e autorizzazioni.
+Per impostazione predefinita, Adobe Campaign offre un set di ruoli che consente di definire autorizzazioni unitarie assegnate a utenti e gruppi di utenti. Insieme alle unità organizzative, i ruoli forniscono agli utenti una visualizzazione filtrata dell'interfaccia e definiscono il loro accesso alle diverse funzioni. Per ulteriori informazioni, consultare la tabella [](/help/administration/using/assets/acs_rights.pdf)Ruoli e autorizzazioni.
 
-[![immagine](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+![](assets/user_management_3.png)
 
 I ruoli possono essere gestiti dal **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
