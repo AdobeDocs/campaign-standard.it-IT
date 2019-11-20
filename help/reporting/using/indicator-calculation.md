@@ -1,18 +1,18 @@
 ---
 title: Calcolo indicatore
 description: Comprendi i risultati dei tuoi report con un elenco della formula di ogni metrica.
-page-status-flag: mai attivato
-uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec733
+page-status-flag: never-activated
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: informazioni sui rapporti
+topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
 
 ---
 
@@ -131,7 +131,7 @@ Le tabelle riportate di seguito forniscono l'elenco degli indicatori utilizzati 
   </tr> 
   <tr> 
    <td> Apri<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @univocheApre<br /> </td> 
    <td> count(@trackingUrlType=2 + univoco(@trackingUrlType=1,2,3,6,10,11) - univoco(@trackingUrlType=2)<br /> </td> 
    <td> </td> 
   </tr> 
