@@ -1,18 +1,18 @@
 ---
 title: Provisioning e configurazione dell’integrazione con i servizi di base di Audience Manager o Persone
 description: 'Scopri come configurare l''integrazione dei servizi di base Audience Manager/Persone per iniziare a condividere audience o segmenti con le diverse soluzioni Adobe Experience Cloud. '
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integration
+audience: integrating
 content-type: reference
-topic-tags: lavoro con campagna e pubblico-manager o persone-servizio di base
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
 
 ---
 
@@ -66,7 +66,9 @@ Questa integrazione deve prima essere configurata. Per richiedere il provisionin
 * Se i tipi di pubblico sono condivisi da Adobe Campaign ad Ad Cloud tramite il servizio di base Persone, non potrai utilizzare il **[!UICONTROL Declared ID]** provisioning per il backfill storico dei tipi di pubblico. È inoltre prevista una certa latenza durante la creazione di audience.
 * Se i tipi di pubblico vengono condivisi da Adobe Analytics ad Adobe Campaign tramite il servizio core Persone, i segmenti non verranno popolati in Adobe Campaign con **[!UICONTROL Declared ID]**.
 
-Se utilizzi Adobe Audience Manager invece del servizio core Persone, **[!UICONTROL Declared ID]** funzionerà in tutti gli scenari.
+>[!NOTE]
+>
+>Se utilizzi Adobe Audience Manager invece del servizio core Persone, **[!UICONTROL Declared ID]** funzionerà in tutti gli scenari.
 
 You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
