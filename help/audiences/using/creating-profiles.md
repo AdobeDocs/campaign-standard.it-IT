@@ -1,18 +1,18 @@
 ---
 title: Creazione di profili
 description: Scopri come creare profili e raccogliere dati sui tuoi contatti utilizzando API, funzionalità di importazione, acquisizione online, aggiornamenti automatici o manuali.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: managing-profile
+topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -25,7 +25,7 @@ Per creare o aggiornare un profilo in Campaign, puoi:
 
 * Importazione di un elenco di profili da un file tramite un [flusso di lavoro](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * Raccolta di dati online tramite pagine di [destinazione](../../channels/using/about-landing-pages.md)
-* Creazione in massa tramite API [REST](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* Creazione in massa tramite API [REST](../../api/using/about-campaign-standard-apis.md)
 * Sincronizzare i profili da [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * Inserire i dati utilizzando le schermate dell'interfaccia grafica, come illustrato di seguito
 
@@ -57,7 +57,7 @@ Il profilo verrà ora visualizzato nell'elenco.
 
 >[!NOTE]
 >
->La creazione di profili è possibile anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) dedicata.
+>La creazione di profili è possibile anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-profiles.md)dedicata.
 
 I profili possono essere suddivisi in base alle unità organizzative. Per aggiungere i campi organizzativi ai profili, fare riferimento alla sezione Profili [](../../administration/using/organizational-units.md#partitioning-profiles) partizionamento.
 
