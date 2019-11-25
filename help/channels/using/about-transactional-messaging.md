@@ -1,18 +1,18 @@
 ---
 title: Informazioni sui messaggi transazionali
 description: Scopri i diversi tipi di messaggi transazionali che puoi inviare e come vengono utilizzati in Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: messaggistica transazionale
+topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -44,7 +44,7 @@ Il tipo di messaggio viene definito durante la configurazione dell'evento che ve
 >
 >Adobe Campaign dà priorità all'elaborazione dei messaggi transazionali rispetto a qualsiasi altra consegna.
 
-I messaggi transazionali sono disponibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)dedicata.
+I messaggi transazionali sono disponibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-transactional-messages.md)dedicata.
 
 ## Principio operativo della messaggistica transattiva {#transactional-messaging-operating-principle}
 
