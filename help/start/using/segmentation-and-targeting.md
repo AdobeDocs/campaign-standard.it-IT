@@ -1,7 +1,7 @@
 ---
 title: Segmentazione e targeting
 description: '"Ulteriori informazioni su profili, targeting e creazione di audience in Campaign: crea tipi di pubblico, importa contatti e condividi i tipi di pubblico con le soluzioni Experience Cloud, evitando affaticamenti di marketing."'
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
 
 ---
 
@@ -29,7 +29,7 @@ La funzione profili cliente integra tutti i dati dei clienti in un'unica posizio
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign propone diversi meccanismi per l'acquisizione dei profili: raccolta di dati online tramite pagine [di](../../channels/using/about-landing-pages.md)destinazione, meccanismi [di importazione manuali o](../../automating/using/about-data-import-and-export.md)automatizzati, input [](../../audiences/using/creating-profiles.md) diretto nell'interfaccia di Adobe Campaign, creazione in blocco tramite le API [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign.
+Adobe Campaign propone diversi meccanismi per l'acquisizione dei profili: raccolta di dati online tramite pagine [di](../../channels/using/about-landing-pages.md)destinazione, meccanismi [di importazione manuali o](../../automating/using/about-data-import-and-export.md)automatizzati, input [](../../audiences/using/creating-profiles.md) diretto nell'interfaccia di Adobe Campaign, creazione in blocco tramite le API [](../../api/using/about-campaign-standard-apis.md)Campaign.
 
 **Argomenti correlati:**
 
