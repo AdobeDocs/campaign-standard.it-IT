@@ -1,19 +1,19 @@
 ---
 title: Esecuzione di un flusso di lavoro
 description: Scopri come eseguire e monitorare un flusso di lavoro.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: workflow generale
+topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
-context-tags: flusso di lavoro,panoramica;flusso di lavoro,principale
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -58,7 +58,7 @@ Quando una transizione è aperta, potete modificarne la transizione **[!UICONTRO
 
 Utilizzando REST API potete **avviare**, **mettere in pausa**, **riprendere** e **arrestare** un flusso di lavoro.
 
-Per ulteriori dettagli ed esempi di chiamate REST, consulta la documentazione [API.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+Per ulteriori dettagli ed esempi di chiamate REST, consulta la documentazione [API.](../../api/using/managing-workflows.md)
 
 ## Ciclo di vita {#life-cycle}
 
