@@ -1,9 +1,9 @@
 ---
 title: Arricchimento del database
 description: Scopri i diversi metodi per arricchire il database.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: lemaite
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -66,7 +66,7 @@ Per ulteriori informazioni su questa integrazione, consulta la documentazione []
 
 Le API Campaign Standard consentono di eseguire operazioni per aggiornare il database come la creazione, l'aggiornamento o l'eliminazione di profili o servizi.
 
-Per ulteriori informazioni sull'utilizzo delle API, consulta la documentazione [](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)dedicata.
+Per ulteriori informazioni sull'utilizzo delle API, consulta la documentazione [](../../api/using/about-campaign-standard-apis.md)dedicata.
 
 >[!CAUTION]
 >
