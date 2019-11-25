@@ -1,18 +1,18 @@
 ---
 title: Informazioni sulle integrazioni di Campaign
 description: Adobe Campaign consente di utilizzare altre soluzioni Adobe e combinare le loro diverse funzionalità.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integration
+audience: integrating
 content-type: reference
 topic-tags: about-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -31,7 +31,7 @@ A seconda dell'ambiente, altre soluzioni possono essere collegate ad Adobe Exper
 
 Un'organizzazione è l'entità che consente all'amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L'organizzazione funziona come un'azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un'organizzazione è il vostro nome aziendale. Tuttavia, un'azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è dettagliata nel portale [dell'Aiuto di](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
 
-Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, consulta la documentazione [sulle](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)API.
+Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, consulta la documentazione [sulle](../../api/using/about-campaign-standard-apis.md)API.
 
 >[!NOTE]
 >
