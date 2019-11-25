@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
+source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
 
 ---
 
@@ -28,6 +28,8 @@ Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione d
 ## Aggiornamenti della documentazione - Novembre 2019 {#doc-updates-november-2019}
 
 È stato aggiunto un nuovo caso d’uso che descrive come creare un gruppo di controllo utilizzando un flusso di lavoro in Campaign Standard. Ulteriori[informazioni](../../automating/using/workflow-control-group.md)
+
+Il set di documenti API è stato integrato nella documentazione di Campaign Standard.[Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
 ## Rilascio 19.4 - ottobre 2019 {#release-19-4---october-2019}
 
@@ -50,6 +52,8 @@ La guida introduttiva sulle procedure ottimali per la distribuzione è stata agg
 È stata aggiunta una nuova sezione. Fornisce una panoramica dei diversi metodi che consentono di arricchire il database di Campaign Standard. [Leggi tutto](../../start/using/enriching-campaign-database.md)
 
 È stata aggiunta una nuova sezione che descrive come assegnare uno stile ai collegamenti con Designer e-mail. [Leggi tutto](../../designing/using/styles.md#about-styling-links)
+
+Informazioni relative alla privacy sono state aggiunte alla documentazione API [Fare clic qui](../../api/using/privacy-management.md)
 
 ## Aggiornamenti della documentazione - Ottobre 2019 {#doc-updates-october-2019}
 
@@ -167,7 +171,7 @@ La [pagina](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) segue
 
 Sono state aggiunte informazioni sulla nuova opzione di ordinamento nell'attività **Trasferisci file** . [Leggi tutto](../../automating/using/transfer-file.md)
 
-La documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) REST API è stata aggiornata:
+La documentazione [](../../api/using/about-campaign-standard-apis.md) REST API è stata aggiornata:
 
 * È stata aggiunta una nuova sezione con informazioni generiche sui motivi per cui è stato utilizzato l'API REST di Campaign Standard.
 * È stata resa disponibile una raccolta di richieste API preconfigurate, che rappresenta i casi di utilizzo più comuni.
@@ -347,7 +351,7 @@ La guida Utenti e sicurezza è stata aggiornata per riflettere il deprezzamento 
 
 ### Nuove funzionalità incluse nella release {#new-capabilities-included-in-the-release-5}
 
-La documentazione API è stata aggiornata con informazioni sull'API **History** . È stato aggiunto un caso di utilizzo su come recuperare la pagina mirror per una consegna inviata a un profilo. [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+La documentazione API è stata aggiornata con informazioni sull'API **History** . È stato aggiunto un caso di utilizzo su come recuperare la pagina mirror per una consegna inviata a un profilo. [Leggi tutto](../../api/using/interacting-with-marketing-history.md)
 
 ### Altri aggiornamenti della documentazione in arrivo con il rilascio {#other-documentation-updates-coming-with-the-release-5}
 
@@ -361,7 +365,7 @@ Aggiornamento della definizione del ruolo Prepara consegne. [Leggi tutto](../../
 
 È stato aggiunto un esempio nella sezione Attività query su come eseguire il targeting dei profili che hanno fatto clic su un collegamento specifico in una consegna. [Leggi tutto](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-Aggiunta una sezione nella documentazione API relativa ai filtri **** personalizzati. [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+Aggiunta una sezione nella documentazione API relativa ai filtri **** personalizzati. [Leggi tutto](../../api/using/filtering.md)
 
 ## Rilascio 18.5 - maggio 2018 {#release-18-5---may-2018}
 
@@ -411,7 +415,7 @@ Utilizzo delle risorse personalizzate nei messaggi transazionali - [Leggi tutto]
 
 ### Altri aggiornamenti della documentazione in arrivo con il rilascio {#other-documentation-updates-coming-with-the-release-7}
 
-Le funzionalità dei gruppi API GDPR consentono l'elaborazione automatica delle richieste GDPR. [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+Le funzionalità dei gruppi API GDPR consentono l'elaborazione automatica delle richieste GDPR. [Leggi tutto](../../api/using/privacy-management.md)
 
 Sono state aggiunte informazioni su come impostare le pagine di destinazione per consentire ai destinatari di essere inseriti in blacklist. [Leggi tutto](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -485,7 +489,7 @@ Miglioramenti push - Leggi tutto [qui](../../channels/using/preparing-and-sendin
 
 Consegne ottimizzate per il fuso orario - [Per saperne di più](../../automating/using/scheduler.md)
 
-Attivazione attività segnale API - [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+Attivazione attività segnale API - [Leggi tutto](../../api/using/managing-workflows.md)
 
 ### Altri aggiornamenti della documentazione in arrivo con il rilascio {#other-documentation-updates-coming-with-the-release-9}
 
@@ -535,11 +539,11 @@ La [sezione](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) Con
 
 La documentazione SMS è stata aggiornata con alcuni chiarimenti aggiunti alla sezione risposte [automatiche](../../channels/using/managing-incoming-sms.md#managing-stop-sms) SMS.
 
-Nuova sezione dedicata alla gestione del flusso di lavoro tramite l'API. [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+Nuova sezione dedicata alla gestione del flusso di lavoro tramite l'API. [Leggi tutto](../../api/using/managing-workflows.md)
 
-Nuova sezione dedicata alle chiavi primarie e all'utilizzo di un business ID come chiave nell'API. [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+Nuova sezione dedicata alle chiavi primarie e all'utilizzo di un business ID come chiave nell'API. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
-Informazioni aggiunte sui filtri semplici e multipli nell'API. [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+Informazioni aggiunte sui filtri semplici e multipli nell'API. [Leggi tutto](../../api/using/filtering.md)
 
 ## Rilascio 17.9 - settembre 2017 {#release-17-9---september-2017}
 
@@ -689,7 +693,7 @@ Risorse collegate nelle API REST - [Ulteriori informazioni](../../developing/usi
 
 Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l'esperienza utente. [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l'esperienza utente. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
 Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
 
@@ -699,7 +703,7 @@ Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/usi
 
 Esportazione log per report esterni - [Per saperne di più](../../automating/using/exporting-logs.md)
 
-API di messaggistica transazionale - [Leggi tutto](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+API di messaggistica transazionale - [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
 Funzionalità di marketing per i messaggi transazionali - [Per saperne di più](../../channels/using/profile-transactional-messages.md)
 
@@ -723,7 +727,7 @@ Nuova pagina principale della documentazione e nuovo aspetto.
 
 Informazioni sulle autorizzazioni utente: è stato aggiunto un caso d’uso. Consultate anche la matrice delle autorizzazioni [utente](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-Utilizzo delle API: è stato aggiunto un caso [di utilizzo di estensione](../../developing/using/about-extending-the-api.md) API. Consultate anche la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)API.
+Utilizzo delle API: è stato aggiunto un caso [di utilizzo di estensione](../../developing/using/about-extending-the-api.md) API. Consultate anche la documentazione [](../../api/using/about-campaign-standard-apis.md)API.
 
 Messaggi di errore campagna: accedi all'elenco completo dei messaggi di errore in Campaign v6 e Standard, filtrati per versione e lingua. [Leggi tutto](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
