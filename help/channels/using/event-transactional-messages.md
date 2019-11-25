@@ -1,19 +1,19 @@
 ---
 title: Messaggi sulle transazioni degli eventi
 description: Scoprite come creare e pubblicare un messaggio di transazione evento.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: messaggistica transazionale
+topic-tags: transactional-messaging
 discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -258,7 +258,7 @@ Per accedere ai rapporti relativi al messaggio transazionale, usa il **[!UICONTR
 
 Puoi sospendere la pubblicazione del messaggio transazionale utilizzando, ad esempio, il **[!UICONTROL Pause]** pulsante per modificare i dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database Adobe Campaign.
 
-Gli eventi in coda vengono conservati durante un periodo di tempo definito nell'API REST (consultate la documentazione [REST API) o nell'evento trigger, se utilizzate il servizio di base Triggers (consultate](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Utilizzo di Campaign e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Gli eventi in coda vengono conservati durante un periodo di tempo definito nell'API REST (consultate la documentazione [REST API) o nell'evento trigger se utilizzate il servizio di base Triggers (consultate](../../api/using/about-campaign-standard-apis.md)Utilizzo di Campaign e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
