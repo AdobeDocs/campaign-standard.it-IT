@@ -1,19 +1,19 @@
 ---
 title: Integrated customer profile
 description: '"Monitora ogni interazione con il cliente in un''unica visualizzazione: Il profilo cliente integrato in Adobe Campaign viene aggiornato per tutto il ciclo di vita del cliente."'
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: managing-profile
+topic-tags: managing-profiles
 discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
 
@@ -39,5 +39,4 @@ Fate clic su un evento nell’elenco per aprirlo: puoi accedere al messaggio inv
 
 >[!NOTE]
 >
->La cronologia del marketing è accessibile anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) dedicata.
-
+>La cronologia del marketing è accessibile anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/interacting-with-marketing-history.md) dedicata.
