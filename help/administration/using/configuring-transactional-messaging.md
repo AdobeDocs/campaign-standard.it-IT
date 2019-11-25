@@ -1,18 +1,18 @@
 ---
 title: Configurazione della messaggistica transazionale
 description: Scopri come configurare i messaggi transazionali.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
-topic-tags: configurazione dei canali
+topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -49,7 +49,7 @@ Iniziate creando l'evento corrispondente alle vostre esigenze.
 
 1. Selezionate la dimensione di targeting corrispondente alla configurazione dell'evento desiderata e fate clic su **[!UICONTROL Create]**.
 
-   I messaggi transazionali basati su eventi sono destinati ai dati contenuti nell'evento stesso, mentre i messaggi transazionali basati su profilo sono destinati ai dati contenuti nel database di Adobe Campaign. Per ulteriori informazioni, consultate Configurazioni [specifiche per gli eventi](#transactional-event-specific-configurations)transazionali.
+   I messaggi transazionali basati su eventi sono destinati ai dati contenuti nell'evento stesso, mentre i messaggi transazionali basati su profilo sono destinati ai dati contenuti nel database di Adobe Campaign. Per ulteriori informazioni, consultate Configurazione [specifica dell'evento](#transactional-event-specific-configurations)transazionale.
 
 ## Definizione degli attributi dell’evento {#defining-the-event-attributes}
 
@@ -184,7 +184,7 @@ Dopo aver creato un evento, dovrete integrare l’attivazione di questo evento n
 
 Nell'esempio descritto nella sezione relativa ai principi [operativi per i messaggi](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) transazionali, si desidera attivare un evento di abbandono del carrello ogni volta che uno dei clienti abbandona il sito Web prima di acquistare i prodotti nel carrello. A tal fine, lo sviluppatore Web del sito Web deve utilizzare l'API REST standard di Adobe Campaign.
 
-Consultate la Documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) REST API.
+Consultate la Documentazione [](../../api/using/managing-transactional-messages.md) REST API.
 
 ## Configurazioni specifiche per eventi transazionali {#transactional-event-specific-configurations}
 
