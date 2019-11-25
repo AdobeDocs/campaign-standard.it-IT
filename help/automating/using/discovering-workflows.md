@@ -1,18 +1,18 @@
 ---
 title: Esplorazione dei flussi di lavoro
 description: Adobe Campaign offre un ambiente grafico completo che consente di progettare e automatizzare i processi.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: workflow e gestione dei dati
+topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -32,7 +32,7 @@ I flussi di lavoro possono essere utilizzati in contesti **** diversi, ad esempi
 * Importazione di dati nel database Campaign. Per ulteriori informazioni, vedere [Importazione ed esportazione di dati](../../automating/using/about-data-import-and-export.md).
 * Processi tecnici come pulizia del database, recupero delle informazioni di tracciamento, ecc. Ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](../../administration/using/technical-workflows.md).
 
-I flussi di lavoro sono accessibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows)dedicata.
+I flussi di lavoro sono accessibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-workflows.md)dedicata.
 
 **Argomenti correlati:**
 
