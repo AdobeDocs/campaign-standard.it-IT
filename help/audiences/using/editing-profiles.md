@@ -1,18 +1,18 @@
 ---
 title: Modifica dei profili
 description: Scopri come modificare i profili esistenti e accedere alle informazioni di contatto, ai canali preferiti, ai registri di tracciamento, alle iscrizioni ecc.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: managing-profile
+topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -37,7 +37,7 @@ Per modificare un profilo esistente e consultare i dati ad esso associati o modi
    >
    >È possibile modificare solo le informazioni nella **[!UICONTROL General]** scheda, fatta eccezione per la **[!UICONTROL Traceability]** sezione.
 
-L'edizione Profili è anche possibile tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) dedicata.
+L'edizione Profili è anche possibile tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-profiles.md) dedicata.
 
 Argomento correlato:
 
