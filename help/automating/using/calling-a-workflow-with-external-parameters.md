@@ -1,18 +1,18 @@
 ---
 title: Chiamata di un flusso di lavoro con parametri esterni
 description: Questa sezione descrive come chiamare un flusso di lavoro con parametri esterni.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: workflow generale
+topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -49,7 +49,7 @@ Il primo passo per chiamare un flusso di lavoro con parametri consiste nel dichi
 
 ## Definizione dei parametri durante la chiamata del flusso di lavoro {#defining-the-parameters-when-calling-the-workflow}
 
-In questa sezione viene illustrato come definire i parametri durante la chiamata di un flusso di lavoro. Per ulteriori informazioni su come eseguire questa operazione da una chiamata API, consulta la documentazione [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)REST APIs.
+In questa sezione viene illustrato come definire i parametri durante la chiamata di un flusso di lavoro. Per ulteriori informazioni su come eseguire questa operazione da una chiamata API, consulta la documentazione [](../../api/using/managing-workflows.md)REST APIs.
 
 Prima di definire i parametri, accertatevi che:
 
@@ -223,7 +223,7 @@ Prima di configurare i flussi di lavoro, è necessario creare i flussi di lavoro
 
 ### Passaggio 1: Configurazione della chiamata API {#step-1--configuring-the-api-call}
 
-Effettuare una chiamata API per attivare Workflow 1 con i parametri. Per ulteriori informazioni sulla sintassi delle chiamate API, consulta la documentazione [sulle API REST di](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Campaign Standard.
+Effettuare una chiamata API per attivare Workflow 1 con i parametri. Per ulteriori informazioni sulla sintassi delle chiamate API, consulta la documentazione [sulle API REST di](../../api/using/managing-workflows.md)Campaign Standard.
 
 Nel nostro caso, vogliamo chiamare il flusso di lavoro con i parametri seguenti:
 
