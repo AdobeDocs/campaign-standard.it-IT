@@ -1,19 +1,19 @@
 ---
 title: Gestione dei dati del modulo della pagina di destinazione
 description: Scoprite come gestire i dati del modulo della pagina di destinazione.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
-contentOwner: lemaite
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: landing page
+topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ![](assets/delivery_content_9.png)
 
 * La zona di input **Campo** consente di selezionare un campo di database da collegare al campo del modulo.
-* L'opzione **Obbligatorio** consente di autorizzare l'invio della pagina solo se l'utente ha compilato il campo. Se non viene compilato un campo obbligatorio, verrà visualizzato un messaggio di errore.
+* L’opzione **Obbligatorio** consente di autorizzare l’invio della pagina solo se l’utente ha compilato il campo. Se non viene compilato un campo obbligatorio, verrà visualizzato un messaggio di errore.
 
 ## Mapping dei campi modulo {#mapping-form-fields}
 
@@ -51,26 +51,6 @@ I campi di input vengono utilizzati per memorizzare o aggiornare i dati nel data
 >[!NOTE]
 >
 >I campi predefiniti delle pagine di destinazione incorporate sono preconfigurati. Potete modificarle come necessario.
-
-## Collegamento di un modulo a un servizio {#linking-a-form-to-a-service}
-
-È possibile collegare un modulo a un servizio in modo che i profili possano sottoscrivere un servizio specifico durante la convalida delle pagine di destinazione.
-
-I parametri per collegare una pagina di destinazione consentono di specificare il tipo di azione eseguita e se la pagina di destinazione è specificamente collegata a un singolo servizio o se è generica.
-
-Per selezionare il servizio da collegare, è necessario:
-
-1. Modificate le proprietà della pagina di destinazione a cui accedete tramite l’ ![](assets/edit_darkgrey-24px.png) icona nel dashboard della pagina di destinazione e visualizzate i **[!UICONTROL Job]** parametri.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. Scegli **[!UICONTROL Subscription]** nell'elenco a **[!UICONTROL Specific actions]** discesa.
-
-   ![](assets/lp_parameters_5.png)
-
-1. Selezionate **[!UICONTROL Specific service]** per collegare la pagina di destinazione a un singolo servizio. Non selezionate questa opzione se desiderate utilizzare diversi servizi con la pagina di destinazione.
-
-   Utilizzate l' **[!UICONTROL Specified service in the URL]** opzione per consentire l'utilizzo della pagina di destinazione per diversi servizi. È pertanto necessario fare riferimento alla pagina di destinazione al momento della configurazione del servizio.
 
 ## Archiviazione dei dati e riconciliazione{#data-storage-and-reconciliation}
 
