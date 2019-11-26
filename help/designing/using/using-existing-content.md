@@ -1,18 +1,18 @@
 ---
 title: 'Progettazione di e-mail con contenuto esistente '
 description: Scoprite come progettare e-mail utilizzando il contenuto esistente di e-mail in Designer e-mail.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,7 +52,7 @@ Quando create un’e-mail o una pagina di destinazione, potete scegliere di cari
 **Argomenti correlati:**
 
 * [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
-* [Gestione delle pagine di destinazione](../../channels/using/about-landing-pages.md)
+* [Gestione delle pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Modifica di contenuti esistenti con Designer e-mail{#editing-existing-contents-with-the-email-designer}
 
