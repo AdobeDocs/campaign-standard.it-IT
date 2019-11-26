@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -24,7 +24,7 @@ In Adobe Campaign, i profili sono utilizzati per impostazione predefinita per de
 Per creare o aggiornare un profilo in Campaign, puoi:
 
 * Importazione di un elenco di profili da un file tramite un [flusso di lavoro](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* Raccolta di dati online tramite pagine di [destinazione](../../channels/using/about-landing-pages.md)
+* Raccolta di dati online tramite pagine di [destinazione](../../channels/using/getting-started-with-landing-pages.md)
 * Creazione in massa tramite API [REST](../../api/using/about-campaign-standard-apis.md)
 * Sincronizzare i profili da [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * Inserire i dati utilizzando le schermate dell'interfaccia grafica, come illustrato di seguito
@@ -67,6 +67,6 @@ I profili possono essere suddivisi in base alle unità organizzative. Per aggiun
 
 **Argomenti correlati:**
 
-* [Informazioni sulle pagine](../../channels/using/about-landing-pages.md) di destinazione guida dettagliata
+* [Informazioni sulle pagine](../../channels/using/getting-started-with-landing-pages.md) di destinazione guida dettagliata
 * [Importazione di profili](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
