@@ -1,19 +1,19 @@
 ---
 title: Progettazione di una pagina di destinazione
-description: Per progettare il contenuto di una pagina di destinazione e collegarla a un servizio, effettuate le seguenti operazioni.
-page-status-flag: mai attivato
+description: Scoprite come progettare il contenuto di una pagina di destinazione.
+page-status-flag: never-activated
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: landing page
+topic-tags: landing-pages
 discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -162,7 +162,7 @@ La **barra degli strumenti** è un elemento contestuale dell’interfaccia dell�
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Inserire un blocco</span> di contenuto <br /> </td> 
    <td> Elemento testo<br /> </td> 
-   <td> Consente di aggiungere un blocco di personalizzazione al contenuto. Fare riferimento a <a href="../../designing/using/personalization.md#adding-a-content-block">Aggiunta di un blocco</a>di contenuto.<br /> </td> 
+   <td> Consente di aggiungere al contenuto un blocco di personalizzazione. Fare riferimento a <a href="../../designing/using/personalization.md#adding-a-content-block">Aggiunta di un blocco</a>di contenuto.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
@@ -347,83 +347,3 @@ Nella palette:
 * Il contenuto attualmente selezionato viene visualizzato in blu.
 
 ![](assets/dynamic_content_lp_4.png)
-
-## Conferma invio pagina di destinazione {#confirm-a-landing-page-submission}
-
-Quando una pagina di destinazione viene inviata da un visitatore, potete configurare le azioni attivate. Per eseguire questa operazione:
-
-1. Modificate le proprietà della pagina di destinazione a cui accedete tramite l’ ![](assets/edit_darkgrey-24px.png) icona nel dashboard della pagina di destinazione e visualizzate i **[!UICONTROL Job]** parametri.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. Nella **[!UICONTROL Specific actions]** sezione , selezionare **[!UICONTROL Start sending message]** per determinare l'invio di un messaggio automatico, ad esempio per confermare l'iscrizione a un servizio. È quindi necessario selezionare un modello di consegna e-mail.
-
-   Se a livello di servizio è già configurato un messaggio di conferma, non selezionarne uno in questa schermata per evitare l'invio di più messaggi di conferma. Fare riferimento a [Configurare un servizio](../../audiences/using/creating-a-service.md).
-
-1. Crea **[!UICONTROL Additional data]** per abilitare la memorizzazione di dati aggiuntivi durante l'invio della pagina di destinazione. Questi dati non sono visibili agli utenti che visitano la pagina. Vengono presi in considerazione solo i valori costanti.
-
-   ![](assets/lp_parameters_6.png)
-
-## Impostazione delle autorizzazioni e precaricamento dei dati {#setting-permissions-and-pre-loading-data}
-
-L'accesso a una pagina di destinazione può essere limitato ai visitatori identificati, che provengono da un collegamento in un messaggio inviato da Campaign, ad esempio, o a una specifica unità organizzativa.
-Nel caso di visitatori identificati, potete precaricare i loro dati nella pagina di destinazione. Per eseguire questa operazione:
-
-1. Modificate le proprietà della pagina di destinazione a cui accedete tramite l’ ![](assets/edit_darkgrey-24px.png) icona nel dashboard della pagina di destinazione e visualizzate i **[!UICONTROL Access & loading]** parametri.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. Selezionare **[!UICONTROL Preload visitor data]**.
-
-   Se un visitatore della pagina corrisponde a un profilo nel database, i suoi dati vengono visualizzati nei campi del modulo che sono mappati con i dati del database e vengono presi in considerazione gli elementi di personalizzazione della pagina di destinazione.
-
-   ![](assets/lp_parameters_3.png)
-
-È inoltre possibile:
-
-* Utilizzate i parametri URL per identificare i visitatori, utilizzando l' **[!UICONTROL Authorize visitor identification via URL parameters]** opzione: quindi dovete scegliere il tasto di caricamento e mappare i parametri del filtro con i parametri dell'URL corrispondente.
-* Autorizzate qualsiasi visitatore ad accedere alla pagina di destinazione utilizzando l' **[!UICONTROL Authorize unidentified visitors]** opzione.
-
-Le pagine di destinazione possono essere collegate a un’unità organizzativa. In questo modo verrà definito l'accesso degli utenti alle diverse pagine di destinazione. Per assegnare un'unità organizzativa:
-
-1. Accedete alle proprietà della pagina di destinazione tramite l’ **[!UICONTROL Edit properties]** icona .
-
-   ![](assets/lp_parameters_google3.png)
-
-1. Spiega il **[!UICONTROL Access authorization]**.
-
-1. Fare clic sul menu a discesa e selezionare l'unità organizzativa. Per ulteriori informazioni sulla creazione di un'unità organizzativa, consultare questa [pagina](../../administration/using/organizational-units.md).
-
-   ![](assets/lp_org_unit_2.png)
-
-1. I **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Access authorization]** e **[!UICONTROL Last modified]** i campi vengono completati automaticamente.
-
-1. Fate clic **[!UICONTROL Confirm]** quindi **[!UICONTROL Save]**.
-
-Ora è possibile accedere alla pagina di destinazione e gestirla solo dagli utenti nell’unità organizzativa selezionata.
-
-![](assets/lp_org_unit_3.png)
-
-## Impostazione di Google reCAPTCHA {#setting-google-recaptcha}
-
-È possibile impostare Google reCAPTCHA V3 con la pagina di destinazione per proteggerlo dallo spam e dagli abusi causati dai bot. Per poterlo usare con la pagina di destinazione, dovete innanzitutto creare un account esterno. Per ulteriori informazioni su come configurarlo, consulta questa [sezione](../../administration/using/external-accounts.md#google-recaptcha-external-account).
-
-Una volta configurato il tuo account esterno Google reCAPTCHA V3, puoi aggiungerlo alla pagina di destinazione:
-
-1. Prima di pubblicare la pagina di destinazione, accedete alle proprietà della pagina a cui si accede tramite l’ ![](assets/edit_darkgrey-24px.png) icona dal dashboard della pagina di destinazione.
-
-   ![](assets/lp_parameters_google3.png)
-
-1. Aprite il **[!UICONTROL Access & loading]** menu.
-1. Selezionare l' **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** opzione.
-1. Selezionate l'account esterno Google reCAPTCHA creato in precedenza.
-
-   ![](assets/lp_parameters_google.png)
-
-1. Click **[!UICONTROL Confirm]**.
-
-La pagina di destinazione è ora configurata con Google reCAPTCHA, visibile nella parte inferiore della pagina.
-
-![](assets/lp_parameters_google2.png)
-
-Google reCAPTCHA restituirà quindi un punteggio basato sulle interazioni degli utenti con la pagina. Per verificare il punteggio, collegatevi alla console [di amministrazione di](https://g.co/recaptcha/admin)Google.
