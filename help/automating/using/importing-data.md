@@ -1,18 +1,18 @@
 ---
 title: Importazione di dati
 description: Scopri come importare i dati con un flusso di lavoro.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: workflow generale
+topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,6 +88,26 @@ Per mantenere la coerenza dei dati nel database Adobe Campaign, segui i principi
 * I dati transazionali devono avere una chiave di riconciliazione e devono essere riconciliati con i dati esistenti al fine di evitare la creazione di duplicati.
 * **Importa i file correlati in ordine**. Se l’importazione è composta da più file che dipendono l’uno dall’altro, il flusso di lavoro deve verificare che i file vengano importati nell’ordine corretto. Quando un file ha esito negativo, gli altri file non vengono importati.
 * **Deduplicare**, riconciliare e mantenere la coerenza quando si importano i dati.
+
+## Gestione dei dati crittografati {#managing-encrypted-data}
+
+In alcuni casi, i dati da importare sui server delle campagne potrebbero dover essere crittografati, ad esempio se contengono dati PII.
+
+Per importare o esportare file crittografati, è innanzitutto necessario contattare l'Assistenza clienti Adobe in modo che fornisca all'istanza i comandi di cifratura/decrittazione necessari.
+
+A tal fine, inviare una richiesta indicando:
+
+* L' **etichetta** che verrà visualizzata nell'interfaccia di Campaign per utilizzare il comando. Ad esempio "Cifra file".
+* Il **comando** da installare nell’istanza.
+Ad esempio, per decifrare un file con PGP, il comando sarà:
+
+   ```
+   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+   ```
+
+Una volta elaborata la richiesta, i comandi di cifratura/decrittazione saranno disponibili nel **!UICONTROL Pre-processing stage]** campo dalle **[!UICONTROL Data loading (file)]** attività e **[!UICONTROL Extracting data (file)]** . Potete utilizzarli per decifrare o cifrare i file da importare o esportare.
+
+![](assets/preprocessing-encryption.png)
 
 ## Esempio: Importa modello di flusso di lavoro {#example--import-workflow-template}
 
@@ -197,4 +217,3 @@ Questo esempio mostra come impostare un flusso di lavoro che può essere riutili
 Ora è possibile utilizzare il modello ed è disponibile per ogni nuovo flusso di lavoro. È quindi necessario specificare il file contenente i dati da importare nell' **[!UICONTROL Load file]** attività.
 
 ![](assets/import_template_example9.png)
-
