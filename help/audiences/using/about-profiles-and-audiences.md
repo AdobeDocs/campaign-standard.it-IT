@@ -1,18 +1,18 @@
 ---
 title: Informazioni su profili e audience
 description: '"Ulteriori informazioni sulla gestione di profili e audience in Adobe Campaign: definire popolazioni mirate, selezionare audience, filtrare destinatari, raccogliere dati e aggiornare profili."'
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: informazioni sui profili e sui tipi di pubblico
+topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign crea profili cliente avanzati in tempo reale, consentendo di dist
 
    Utilizzando i flussi di lavoro e l'editor di query, puoi creare tipi di pubblico ai quali verranno indirizzate le campagne di marketing, in base alle informazioni disponibili, alle attività e alla cronologia di marketing. Questo consente di filtrare i profili sottoscritti, di campionare o di creare audience target su un numero illimitato di criteri.
 
-Prima di inviare i messaggi a un contatto, è necessario assicurarsi di ottenerne l'autorizzazione. In caso contrario, le e-mail potrebbero essere contrassegnate come spam e questo potrebbe avere un impatto sulla vostra capacità di distribuzione della piattaforma. Per essere certi di creare un database di profilo sano, assicurati questa autorizzazione come primo passo. Con Campaign, ti consigliamo di utilizzare semplici meccanismi di opt-in e opt-out tramite [i servizi](../../audiences/using/creating-a-service.md)e le pagine [di](../../channels/using/about-landing-pages.md) destinazione per aggiornare le informazioni di contatto e ampliare il database.
+Prima di inviare i messaggi a un contatto, è necessario assicurarsi di ottenerne l'autorizzazione. In caso contrario, le e-mail potrebbero essere contrassegnate come spam e questo potrebbe avere un impatto sulla vostra capacità di distribuzione della piattaforma. Per essere certi di creare un database di profilo sano, assicurati questa autorizzazione come primo passo. Con Campaign, ti consigliamo di utilizzare semplici meccanismi di opt-in e opt-out tramite [i servizi](../../audiences/using/creating-a-service.md)e le pagine [di](../../channels/using/getting-started-with-landing-pages.md) destinazione per aggiornare le informazioni di contatto e ampliare il database.
 
 Fornendo collegamenti di annullamento dell'iscrizione nei messaggi, i profili verranno inseriti in blacklist quando necessario, e quindi miglioreranno il recapito della piattaforma. Per ulteriori informazioni sull'inserimento in blacklist, consulta [Informazioni sull'opt-in e la rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
