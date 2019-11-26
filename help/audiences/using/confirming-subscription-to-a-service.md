@@ -1,18 +1,18 @@
 ---
 title: Conferma della sottoscrizione a un servizio
 description: Attenetevi a questa procedura per impostare un messaggio di conferma per i profili che si iscrivono a un servizio in Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: gestione delle sottoscrizioni
+topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -173,13 +173,13 @@ I passaggi per progettare il messaggio di transazione sono descritti in questa [
 1. Compila il **[!UICONTROL Service label]** campo. Questa etichetta verrà visualizzata nel messaggio di conferma e nella pagina di destinazione dell'iscrizione.
 1. Fate clic su **[!UICONTROL Confirm]** e salvate il servizio.
 
-### Passaggio 3:Creare e configurare la pagina di destinazione {#step-3--create-and-configure-the-landing-page}
+### Passaggio 3: Creare e configurare la pagina di destinazione {#step-3--create-and-configure-the-landing-page}
 
 Create una pagina di destinazione di iscrizione che verrà pubblicata sul sito Web.
 
 Per creare e configurare questa pagina di destinazione, effettuate le seguenti operazioni:
 
-1. Progettate una [nuova pagina](../../channels/using/about-landing-pages.md) di destinazione basata sul **[!UICONTROL Subscription]** modello.
+1. Progettate una [nuova pagina](../../channels/using/getting-started-with-landing-pages.md) di destinazione basata sul **[!UICONTROL Subscription]** modello.
 1. Modificare le proprietà della pagina di destinazione. Nella sezione **[!UICONTROL Job]** &gt; **[!UICONTROL Specific actions]** , selezionate l' **[!UICONTROL Specific service]** opzione e scegliete il servizio appena creato dall'elenco a discesa.
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ Per creare e configurare questa pagina di destinazione, effettuate le seguenti o
 
 1. Personalizzare il contenuto della pagina di destinazione.
 
-1. [Test e pubblicazione](../../channels/using/sharing-a-landing-page.md) della pagina di destinazione.
+1. [Test e pubblicazione](../../channels/using/testing-publishing-landing-page.md) della pagina di destinazione.
 
 Ogni volta che un profilo si iscrive alla newsletter inviando la pagina di destinazione, riceve il messaggio di conferma definito con campi personalizzati mappati al servizio.
 
