@@ -1,18 +1,18 @@
 ---
 title: Gestione utenti
 description: 'Gli utenti di Adobe Campaign hanno ruoli specifici. Scoprite i tipi di utente principali. '
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
-topic-tags: utenti e sicurezza
+topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -94,7 +94,7 @@ Di seguito sono elencate le attività principali che possono eseguire:
 * [Gestione di programmi e campagne](../../start/using/programs-and-campaigns.md): creare campagne di marketing con diversi tipi di attività (e-mail, messaggi SMS, notifiche push, flussi di lavoro, pagine di destinazione).
 * Gestire [profili](../../audiences/using/about-profiles.md) e profili [di](../../sending/using/managing-test-profiles-and-sending-proofs.md)prova: gestire i destinatari identificati e di test che verranno interessati dalle consegne. Aggiungi informazioni quali nome, cognome, informazioni di contatto, iscrizioni, e-mail, ecc.
 * [Crea e invia messaggi](../../sending/using/confirming-the-send.md): create il messaggio, selezionate il pubblico, definite il contenuto del messaggio e i relativi elementi di personalizzazione, inviate prove di autenticità e inviate il messaggio finale al pubblico.
-* [Creare e pubblicare pagine](../../channels/using/about-landing-pages.md)di destinazione: creare e gestire un set di servizi che si desidera offrire ai clienti, ad esempio moduli di iscrizione o di annullamento dell'iscrizione.
+* [Creare e pubblicare pagine](../../channels/using/getting-started-with-landing-pages.md)di destinazione: creare e gestire un set di servizi che si desidera offrire ai clienti, ad esempio moduli di iscrizione o di annullamento dell'iscrizione.
 * [Creare ed eseguire flussi di lavoro](../../automating/using/building-a-workflow.md)campagna: automatizza i processi delle campagne utilizzando i flussi di lavoro.
 * Controlla le tue attività di marketing attraverso i rapporti [](../../reporting/using/defining-the-report-period.md)disponibili.
 
