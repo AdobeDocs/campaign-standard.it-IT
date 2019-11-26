@@ -1,18 +1,18 @@
 ---
 title: Impostazione di un doppio processo di consenso
 description: Segui questi passaggi per impostare un processo di doppio consenso utilizzando le pagine di destinazione in Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: landing page
+topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -41,7 +41,7 @@ Il processo di impostazione del meccanismo di doppio consenso inizia con la crea
 
 Per creare e configurare questa pagina di destinazione, è necessario:
 
-1. Progettate una [nuova pagina](../../channels/using/about-landing-pages.md) di destinazione basata sul **[!UICONTROL Profile acquisition (acquisition)]** modello. Inserire l'etichetta "**CONFERMA**".
+1. Progettate una [nuova pagina](../../channels/using/getting-started-with-landing-pages.md) di destinazione basata sul **[!UICONTROL Profile acquisition (acquisition)]** modello. Inserire l'etichetta "**CONFERMA**".
 
    Se è necessario utilizzare [i servizi](../../audiences/using/about-subscriptions.md), è anche possibile utilizzare il **[!UICONTROL Subscription (sub)]** modello.
 
@@ -67,7 +67,7 @@ Per creare e configurare questa pagina di destinazione, è necessario:
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [Test e pubblicazione](../../channels/using/sharing-a-landing-page.md) della pagina di destinazione.
+1. [Test e pubblicazione](../../channels/using/testing-publishing-landing-page.md) della pagina di destinazione.
 
 ## Passaggio 2: Creare il messaggio e-mail di conferma {#step-2--create-the-confirmation-email}
 
@@ -127,7 +127,7 @@ Devi creare la pagina di destinazione dell’acquisizione iniziale: il modulo di
 
 Per creare e configurare questa pagina di destinazione, è necessario:
 
-1. Progettate una [nuova pagina](../../channels/using/about-landing-pages.md) di destinazione basata sul **[!UICONTROL Profile acquisition (acquisition)]** modello. Inserire l'etichetta "**ACQUISIZIONE**".
+1. Progettate una [nuova pagina](../../channels/using/getting-started-with-landing-pages.md) di destinazione basata sul **[!UICONTROL Profile acquisition (acquisition)]** modello. Inserire l'etichetta "**ACQUISIZIONE**".
 1. Modificate le proprietà della pagina di destinazione: nella sezione **[!UICONTROL Job]** &gt; **[!UICONTROL Additional data]** , fate clic su **[!UICONTROL Add an element]** e immettete il percorso contestuale seguente:
 
    /context/profile/blackList
@@ -149,6 +149,6 @@ Per creare e configurare questa pagina di destinazione, è necessario:
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [Test e pubblicazione](../../channels/using/sharing-a-landing-page.md) della pagina di destinazione.
+1. [Test e pubblicazione](../../channels/using/testing-publishing-landing-page.md) della pagina di destinazione.
 
 È ora configurato il meccanismo di doppio consenso. È possibile eseguire e verificare la procedura da fine a fine, a partire dall'URL pubblico di questa pagina di **[!UICONTROL ACQUISITION]** destinazione. Questo URL viene visualizzato nel dashboard della pagina di destinazione.
