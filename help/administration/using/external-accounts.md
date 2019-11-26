@@ -1,7 +1,7 @@
 ---
 title: Account esterni
 description: Configurate gli account esterni per configurare le connessioni con sistemi esterni come i server SFTP.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -11,9 +11,9 @@ topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
-context-tags: extAccount,principale;extAccount,panoramica
+context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -134,7 +134,7 @@ Mentre configurate questo nuovo account esterno, dovete fornire i seguenti detta
 
 Il meccanismo Google reCAPTCHA consente di proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Questo non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro ed è basato sulle interazioni con il tuo sito. Per registrare il sito, fare riferimento a questa [pagina](https://www.google.com/recaptcha/admin/create). È necessario scegliere il tipo V3 reCAPTCHA.
 
-Per aggiungere Google reCAPTCHA V3 alla pagina di destinazione, è necessario prima configurarla nel tuo account esterno. Per ulteriori informazioni su come aggiungerlo alla pagina di destinazione, consulta questa [sezione](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha).
+Per aggiungere Google reCAPTCHA V3 alla pagina di destinazione, è necessario prima configurarla nel tuo account esterno. Per ulteriori informazioni su come aggiungerlo alla pagina di destinazione, consulta questa [sezione](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Per un account esterno Google reCAPTCHA V3, fornite i seguenti dettagli:
 
@@ -146,4 +146,3 @@ Per un account esterno Google reCAPTCHA V3, fornite i seguenti dettagli:
    Il valore 0,0 **[!UICONTROL Threshold]** indica che probabilmente si tratta di un bot e 1,0 probabilmente una buona interazione. Per impostazione predefinita, è possibile utilizzare una soglia pari a 0,5.
 
 ![](assets/external_accounts_3.png)
-
