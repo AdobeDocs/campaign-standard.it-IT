@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -108,12 +108,13 @@ source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
       + [Notifiche push transazionali](channels/using/transactional-push-notifications.md)
       + [Messaggi di follow-up](channels/using/follow-up-messages.md)
    + Pagine di destinazione {#landing-pages}
-      + [Informazioni sulle pagine di destinazione](channels/using/about-landing-pages.md)
-      + [Passaggi principali per impostare una pagina di destinazione](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [Informazioni sulle pagine di destinazione](channels/using/getting-started-with-landing-pages.md)
+      + [Passaggi principali per impostare una pagina di destinazione](channels/using/getting-started-with-landing-pages.md)
       + [Informazioni sui modelli di pagina di destinazione](channels/using/landing-page-templates.md)
+      + [Configurazione di una pagina di destinazione](channels/using/configuring-landing-page.md)
       + [Progettazione di una pagina di destinazione](channels/using/designing-a-landing-page.md)
       + [Gestione dei dati del modulo della pagina di destinazione](channels/using/managing-landing-page-form-data.md)
-      + [Condivisione di una pagina di destinazione](channels/using/sharing-a-landing-page.md)
+      + [Verifica e pubblicazione di una pagina di destinazione](channels/using/testing-publishing-landing-page.md)
       + [Impostazione di un doppio processo di consenso](channels/using/setting-up-a-double-opt-in-process.md)
 + Progettazione di contenuti e-mail {#designing-content}
    + [E-mail Designer di Campaign](designing/using/designing-content-in-adobe-campaign.md)
