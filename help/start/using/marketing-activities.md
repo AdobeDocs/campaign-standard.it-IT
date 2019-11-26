@@ -1,19 +1,19 @@
 ---
 title: Attività di marketing
 description: '"Scopri come creare e gestire le tue attività di marketing: campagne, e-mail, SMS e notifiche push, pagine di destinazione, flussi di lavoro. Puoi progettare facilmente una nuova attività, modificarne una esistente e consultarne lo stato e la validità."'
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
-topic-tags: piani di marketing
+topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -44,7 +44,7 @@ Il **[!UICONTROL Create]** pulsante può essere utilizzato per creare una nuova 
 
 Nella zona principale, ogni tipo di attività nell'elenco ha un'icona:
 
-* ![](assets/marketing_program_icon.png) : Program
+* ![](assets/marketing_program_icon.png) :Program
 * ![](assets/marketing_campaign_icon.png) :Campaign
 * ![](assets/marketing_email_icon.png) :E-mail
 * ![](assets/marketing_sms_icon.png) : SMS
@@ -88,7 +88,7 @@ In base al contesto, è possibile:
 * [Creare una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Creare un messaggio InApp](../../channels/using/about-in-app-messaging.md)
 * [Creare un flusso di lavoro](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Creare una pagina di destinazione](../../channels/using/about-landing-pages.md)
+* [Creare una pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md)
 * [Creare una campagna](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [Creare un programma](../../start/using/programs-and-campaigns.md#creating-a-program)
 
