@@ -1,18 +1,18 @@
 ---
 title: Gestione del consenso e del diniego in Campaign
 description: Comprendi in che modo l'opt-in e l'opt-out vengono gestiti in Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: comprensione dei processi di opt-in e opt-out
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -35,9 +35,9 @@ Potete anche impostare una **[!UICONTROL BlackList]** pagina di destinazione che
 
 >[!NOTE]
 >
->Le pagine di destinazione possono essere utilizzate anche per abilitare l'iscrizione ai servizi. For more on this, refer to [this page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
+>Le pagine di destinazione possono essere utilizzate anche per abilitare l'iscrizione ai servizi. For more on this, refer to [this page](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
-1. Creare una **[!UICONTROL Profile acquisition]** pagina di destinazione (vedere [questa sezione](../../channels/using/about-landing-pages.md)).
+1. Creare una **[!UICONTROL Profile acquisition]** pagina di destinazione (vedere [questa sezione](../../channels/using/getting-started-with-landing-pages.md)).
 1. Aggiungi una casella di controllo nel contenuto della pagina di destinazione per ciascun canale desiderato, quindi collegala al campo corrispondente dal database Campaign.
 
    ![](assets/optin_landingpage_1.png)
@@ -53,7 +53,7 @@ Potete anche impostare una **[!UICONTROL BlackList]** pagina di destinazione che
 
 ### Impostazione di una pagina di destinazione per rifiutare tutte le consegne {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Per consentire agli utenti di rifiutare tutte le consegne, dovete creare e pubblicare una pagina di **[!UICONTROL BlackList]** destinazione. Per ulteriori informazioni sulla creazione delle pagine di destinazione, consulta [questa pagina](../../channels/using/about-landing-pages.md).
+Per consentire agli utenti di rifiutare tutte le consegne, dovete creare e pubblicare una pagina di **[!UICONTROL BlackList]** destinazione. Per ulteriori informazioni sulla creazione delle pagine di destinazione, consulta [questa pagina](../../channels/using/getting-started-with-landing-pages.md).
 
 Quando un utente fa clic sul collegamento della pagina di destinazione, l' **[!UICONTROL No longer contact (by any channel)]** opzione nel profilo viene automaticamente selezionata.
 
