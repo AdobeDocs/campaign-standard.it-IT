@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -24,7 +24,7 @@ Ulteriori informazioni sulle best practice relative alla progettazione e all'inv
 * **[Finestra di progettazione e-mail](designing/using/designing-content-in-adobe-campaign.md)**<br/>
 Consulta la documentazione riorganizzata della finestra di progettazione e-mail.
 
-* **[Pagine di destinazione](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+* **[Pagine di destinazione](channels/using/getting-started-with-landing-pages.md)**<br/>
 Ulteriori informazioni sulla configurazione di una pagina di destinazione.
 
 [Fai clic qui per ulteriori aggiornamenti](rn/using/documentation-updates.md)
