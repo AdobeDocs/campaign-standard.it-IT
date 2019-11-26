@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -327,7 +327,7 @@ Il Pannello di controllo è disponibile solo per i clienti ospitati su AWS. Ques
   </tr> 
   <tr> 
    <td> Miglioramento delle pagine di destinazione - Google reCAPTCHA<br /> </td> 
-   <td> <p>Sfruttate Google reCAPTCHA per evitare spam sulle pagine di destinazione senza richiedere alcuna azione da parte dei clienti.</p><p>Per ulteriori informazioni, consulta la documentazione <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha"></a>dettagliata.</p></td> 
+   <td> <p>Sfruttate Google reCAPTCHA per evitare spam sulle pagine di destinazione senza richiedere alcuna azione da parte dei clienti.</p><p>Per ulteriori informazioni, consulta la documentazione <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha"></a>dettagliata.</p></td> 
   </tr> 
  </tbody> 
 </table>
