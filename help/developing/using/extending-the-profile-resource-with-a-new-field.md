@@ -1,18 +1,18 @@
 ---
 title: Estensione della risorsa profilo con un nuovo campo
 description: Scopri come estendere la risorsa del profilo.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: development
+audience: developing
 content-type: reference
-topic-tags: casi di utilizzo—estensione delle risorse
+topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -147,7 +147,7 @@ Il nuovo campo delle risorse è ora pronto per essere utilizzato e mirato in una
 
 ## Passaggio 4: Aggiornamento e targeting dei profili con un flusso di lavoro {#step-4--update-and-target-profiles-with-a-workflow}
 
-Per aggiornare i profili con i dati per il nuovo campo personalizzato, puoi creare una pagina di destinazione utilizzando il **[!UICONTROL Profile acquisition]** modello. Per ulteriori informazioni sulle pagine di destinazione, consultare questa [pagina](../../channels/using/about-landing-pages.md).
+Per aggiornare i profili con i dati per il nuovo campo personalizzato, puoi creare una pagina di destinazione utilizzando il **[!UICONTROL Profile acquisition]** modello. Per ulteriori informazioni sulle pagine di destinazione, consultare questa [pagina](../../channels/using/getting-started-with-landing-pages.md).
 
 Qui vogliamo eseguire il targeting in un profilo di flusso di lavoro che non ha compilato questo campo. Riceveranno un'e-mail con la richiesta di aggiornare il profilo per ricevere newsletter e offerte personalizzate. Ogni profilo riceverà quindi una newsletter personalizzata in base ai loro interessi.
 
