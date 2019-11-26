@@ -1,19 +1,19 @@
 ---
 title: Creazione di un servizio
 description: Scoprite come creare il vostro primo servizio e configurarlo per inviare le conferme e-mail ai vostri abbonati.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: gestione delle sottoscrizioni
+topic-tags: managing-subscriptions
 discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
-context-tags: servizio,procedura guidata;servizio,principale
+context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -54,5 +54,4 @@ Una volta creato il servizio, potete iniziare a promuoverlo.
 * [Gestione di un servizio e delle iscrizioni](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) video
 * [Promozione di un servizio](../../audiences/using/promoting-a-service.md)
 * [Creazione di un'audience composta da abbonati](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [Collegamento di un modulo a un servizio in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
-
+* [Collegamento di una pagina di destinazione a un servizio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
