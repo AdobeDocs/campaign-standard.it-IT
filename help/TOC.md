@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
 
 ---
 
@@ -108,8 +108,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
       + [Notifiche push transazionali](channels/using/transactional-push-notifications.md)
       + [Messaggi di follow-up](channels/using/follow-up-messages.md)
    + Pagine di destinazione {#landing-pages}
-      + [Informazioni sulle pagine di destinazione](channels/using/getting-started-with-landing-pages.md)
-      + [Passaggi principali per impostare una pagina di destinazione](channels/using/getting-started-with-landing-pages.md)
+      + [Guida introduttiva alle pagine di destinazione](channels/using/getting-started-with-landing-pages.md)
       + [Informazioni sui modelli di pagina di destinazione](channels/using/landing-page-templates.md)
       + [Configurazione di una pagina di destinazione](channels/using/configuring-landing-page.md)
       + [Progettazione di una pagina di destinazione](channels/using/designing-a-landing-page.md)
