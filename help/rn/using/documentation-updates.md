@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -40,6 +40,10 @@ Il set di documenti API è stato integrato nella documentazione di Campaign Stan
 La guida introduttiva alla creazione di un messaggio e-mail personalizzato è stata spostata e aggiornata. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 La guida introduttiva sulle procedure ottimali per la distribuzione è stata aggiornata. [Leggi tutto](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+Il modello dati è stato integrato nella documentazione di Campaign Standard. [Leggi tutto](../../developing/using/datamodel-audience.md)
+
+Il nuovo endpoint API **/customResources** è stato aggiunto alla documentazione API.[Leggi tutto](../../api/using/interacting-with-custom-resources.md)
 
 ## Rilascio 19.4 - ottobre 2019 {#release-19-4---october-2019}
 
