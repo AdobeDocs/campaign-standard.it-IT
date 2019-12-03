@@ -13,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -30,7 +30,7 @@ L' **[!UICONTROL External signal]** attività attiva un flusso di lavoro quando 
 
 L' **[!UICONTROL External signal]** attività viene utilizzata per organizzare e orchestrare diversi processi che fanno parte dello stesso percorso del cliente in flussi di lavoro diversi. Consente di avviare un flusso di lavoro da un altro, consentendo di supportare percorsi cliente più complessi e di monitorare e reagire meglio in caso di problemi.
 
-L' **[!UICONTROL External signal]** attività è progettata per essere inserita come prima attività di un flusso di lavoro. Può essere attivata dall’ **[!UICONTROL End]** attività di un altro flusso di lavoro o da una chiamata REST API (per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-workflows.md)API).
+L' **[!UICONTROL External signal]** attività è progettata per essere inserita come prima attività di un flusso di lavoro. Può essere attivata dall’ **[!UICONTROL End]** attività di un altro flusso di lavoro o da una chiamata REST API (per ulteriori informazioni, consulta la documentazione [](../../api/using/triggering-a-signal-activity.md)API).
 
 Quando viene attivato, i parametri esterni possono essere definiti e disponibili nelle variabili degli eventi del flusso di lavoro. La procedura per chiamare un flusso di lavoro con parametri esterni è descritta in [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -56,7 +56,7 @@ Durante la configurazione di un segnale esterno, è importante prima configurare
 
    >[!NOTE]
    >
-   >Per attivare il flusso di lavoro di destinazione da un altro flusso di lavoro, procedere come segue. Se desiderate attivare il flusso di lavoro di destinazione da una chiamata REST API, consultate la documentazione [](../../api/using/managing-workflows.md) API per ulteriori dettagli.
+   >Per attivare il flusso di lavoro di destinazione da un altro flusso di lavoro, procedere come segue. Se desiderate attivare il flusso di lavoro di destinazione da una chiamata REST API, consultate la documentazione [](../../api/using/triggering-a-signal-activity.md) API per ulteriori dettagli.
 
 1. Aprite il flusso di lavoro di origine e selezionate un' **[!UICONTROL End]** attività. Se non è disponibile alcuna **[!UICONTROL End]** attività, aggiungerne una dopo l'ultima attività di un ramo del flusso di lavoro.
 
