@@ -12,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -37,7 +37,7 @@ Per modificare un profilo esistente e consultare i dati ad esso associati o modi
    >
    >È possibile modificare solo le informazioni nella **[!UICONTROL General]** scheda, fatta eccezione per la **[!UICONTROL Traceability]** sezione.
 
-L'edizione Profili è anche possibile tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-profiles.md) dedicata.
+L'edizione Profili è anche possibile tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/updating-profiles.md) dedicata.
 
 Argomento correlato:
 
