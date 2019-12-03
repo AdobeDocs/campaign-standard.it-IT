@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab5725b326de2f1cb4c5d15d0d3c0303a6bf0f06
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -89,7 +89,7 @@ Il token non è valido (chiamata IMS impropria utilizzata per generare un token)
 
 * **Non vedo il mio profilo dopo la creazione**
 
-A seconda della configurazione dell’istanza, il profilo creato deve essere associato a un’ **organizzazioneUnit**. Per informazioni su come aggiungere questo campo nella creazione, consulta [questa sezione](../../api/using/managing-profiles.md).
+A seconda della configurazione dell’istanza, il profilo creato deve essere associato a un’ **organizzazioneUnit**. Per informazioni su come aggiungere questo campo nella creazione, consulta [questa sezione](../../api/using/creating-profiles.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
