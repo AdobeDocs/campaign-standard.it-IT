@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -32,7 +32,7 @@ I flussi di lavoro possono essere utilizzati in contesti **** diversi, ad esempi
 * Importazione di dati nel database Campaign. Per ulteriori informazioni, vedere [Importazione ed esportazione di dati](../../automating/using/about-data-import-and-export.md).
 * Processi tecnici come pulizia del database, recupero delle informazioni di tracciamento, ecc. Ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](../../administration/using/technical-workflows.md).
 
-I flussi di lavoro sono accessibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-workflows.md)dedicata.
+I flussi di lavoro sono accessibili anche dall'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/controlling-a-workflow.md)dedicata.
 
 **Argomenti correlati:**
 
