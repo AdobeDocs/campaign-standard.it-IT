@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -57,7 +57,7 @@ Il profilo verrà ora visualizzato nell'elenco.
 
 >[!NOTE]
 >
->La creazione di profili è possibile anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-profiles.md)dedicata.
+>La creazione di profili è possibile anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/creating-profiles.md)dedicata.
 
 I profili possono essere suddivisi in base alle unità organizzative. Per aggiungere i campi organizzativi ai profili, fare riferimento alla sezione Profili [](../../administration/using/organizational-units.md#partitioning-profiles) partizionamento.
 
