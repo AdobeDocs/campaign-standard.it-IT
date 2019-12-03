@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -58,7 +58,7 @@ Quando una transizione è aperta, potete modificarne la transizione **[!UICONTRO
 
 Utilizzando REST API potete **avviare**, **mettere in pausa**, **riprendere** e **arrestare** un flusso di lavoro.
 
-Per ulteriori dettagli ed esempi di chiamate REST, consulta la documentazione [API.](../../api/using/managing-workflows.md)
+Per ulteriori dettagli ed esempi di chiamate REST, consulta la documentazione [API.](../../api/using/controlling-a-workflow.md)
 
 ## Ciclo di vita {#life-cycle}
 
