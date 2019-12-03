@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign consente di gestire i contatti per l'intero ciclo di vita: creazi
 
 >[!NOTE]
 >
->I profili sono disponibili anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/managing-profiles.md)dedicata.
+>I profili sono disponibili anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/retrieving-profiles.md)dedicata.
 
 ![](assets/marketing_history.png)
 
