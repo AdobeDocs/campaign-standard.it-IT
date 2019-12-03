@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -24,8 +24,8 @@ Gli endpoint disponibili per l'API REST di Adobe Campaign:
 * **/profileAndServices**: interagisci con i campi out of the box. I campi estesi non sono accessibili con questo endpoint.
 * **/profileAndServicesExt**: interagisci con i campi personalizzati aggiunti durante l'estensione di risorse personalizzata Profilo o Servizi. For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
 * **/&lt;transactionalAPI&gt;**: interagisci con l'API dei messaggi transazionali (il nome dell'endpoint API dei messaggi transazionali dipende dalla configurazione dell'istanza). For more on this, refer to [this section](../../api/using/managing-transactional-messages.md).
-* **/workflow/esecuzione**: interagisci con i flussi di lavoro. For more on this, refer to [this section](../../api/using/managing-workflows.md).
-* **/privacy/privacyTool**: interagisci con l’API per la privacy per consentire il processo automatico delle richieste di privacy. For more on this, refer to [this section](../../api/using/privacy-management.md).
+* **/workflow/esecuzione**: interagisci con i flussi di lavoro. For more on this, refer to [this section](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacyTool**: interagisci con l’API per la privacy per consentire il processo automatico delle richieste di privacy. For more on this, refer to [this section](../../api/using/creating-a-privacy-request.md).
 * **/history**: recuperare la cronologia di marketing dei profili. Per ulteriori informazioni sui profili cliente integrati in Campaign, consulta la documentazione [di](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)Campaign.
 
 Per impostazione predefinita, le risorse principali disponibili per le API **profileAndServices** e **profileAndServicesExt** sono:
