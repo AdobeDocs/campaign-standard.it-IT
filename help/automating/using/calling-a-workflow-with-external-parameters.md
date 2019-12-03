@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -49,7 +49,7 @@ Il primo passo per chiamare un flusso di lavoro con parametri consiste nel dichi
 
 ## Definizione dei parametri durante la chiamata del flusso di lavoro {#defining-the-parameters-when-calling-the-workflow}
 
-In questa sezione viene illustrato come definire i parametri durante la chiamata di un flusso di lavoro. Per ulteriori informazioni su come eseguire questa operazione da una chiamata API, consulta la documentazione [](../../api/using/managing-workflows.md)REST APIs.
+In questa sezione viene illustrato come definire i parametri durante la chiamata di un flusso di lavoro. Per ulteriori informazioni su come eseguire questa operazione da una chiamata API, consulta la documentazione [](../../api/using/triggering-a-signal-activity.md)REST APIs.
 
 Prima di definire i parametri, accertatevi che:
 
@@ -223,7 +223,7 @@ Prima di configurare i flussi di lavoro, è necessario creare i flussi di lavoro
 
 ### Passaggio 1: Configurazione della chiamata API {#step-1--configuring-the-api-call}
 
-Effettuare una chiamata API per attivare Workflow 1 con i parametri. Per ulteriori informazioni sulla sintassi delle chiamate API, consulta la documentazione [sulle API REST di](../../api/using/managing-workflows.md)Campaign Standard.
+Effettuare una chiamata API per attivare Workflow 1 con i parametri. Per ulteriori informazioni sulla sintassi delle chiamate API, consulta la documentazione [sulle API REST di](../../api/using/triggering-a-signal-activity.md)Campaign Standard.
 
 Nel nostro caso, vogliamo chiamare il flusso di lavoro con i parametri seguenti:
 
