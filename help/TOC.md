@@ -20,7 +20,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
    + [Aggiornamenti alla documentazione](rn/using/documentation-updates.md)
 + Guida introduttiva {#getting-started}
    + Informazioni su Adobe Campaign {#about-adobe-campaign}
-      + [Orchestrazione Campaign](start/using/campaign-orchestration.md)
+      + [Orchestrazione campagna](start/using/campaign-orchestration.md)
       + [Segmentazione e targeting](start/using/segmentation-and-targeting.md)
       + [Contenuti dinamici e personalizzati](start/using/dynamic-and-personalized-content.md)
       + [Tracciamento, monitoraggio e reporting](start/using/tracking--monitoring-and-reporting.md)
