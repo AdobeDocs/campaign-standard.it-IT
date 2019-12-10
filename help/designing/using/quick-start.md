@@ -1,37 +1,42 @@
 ---
-title: Progettazione contenuto e-mail di avvio rapido
+title: Guida introduttiva all'e-mail designer
 description: Iniziate a creare contenuto e-mail con Designer e-mail.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 ---
 
-# Progettazione contenuto e-mail di avvio rapido{#quick-start}
+# Guida introduttiva all'e-mail designer {#quick-start}
 
 Designer e-mail offre quattro modi per creare e-mail.
 
-Potete creare un messaggio e-mail che inizia da nuovo:
+È possibile creare un messaggio e-mail [che inizia da nuovo in Designer](#without-existing-content)e-mail:
 
 * Potete creare un’e-mail da un quadro vuoto aggiungendo facilmente la struttura e i componenti di contenuto e personalizzarne il contenuto per inviarne rapidamente la distribuzione. È inoltre possibile gestire completamente gli elementi di stile. Per ulteriori informazioni, [inizia rapidamente](#from-scratch-email) o consulta la documentazione [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
 
 * Per creare un’e-mail da modelli predefiniti, selezionate un modello e create il nuovo contenuto da qui. [Ulteriori informazioni](#building-content-from-an-out-of-the-box-template)
 
-Potete anche creare un’e-mail con contenuto esistente:
+Potete anche creare un’e-mail [con contenuto](#with-existing-content)esistente:
 
 * Potete convertire un contenuto HTML esistente (creato esternamente o nell’editor precedente). [Ulteriori informazioni](#converting-an-html-content)
 * Potete importare immediatamente un contenuto HTML esistente in modalità compatibilità. [Ulteriori informazioni](#compatibility-mode)
 
-## Senza contenuto esistente {#without-existing-content}
+| Senza contenuto | Con contenuto |
+|---|---|
+| Creazione di un'e-mail da zero | Conversione di un contenuto HTML esistente |
+| Creazione di contenuti da un modello integrato | Importazione di un HTML esistente |
+
+## Progettazione di e-mail con l'editor {#without-existing-content}
 
 ### Creazione di un'e-mail da zero {#from-scratch-email}
 
@@ -63,7 +68,7 @@ Nei componenti Struttura, trascinate e rilasciate i componenti per il layout da 
 
 Potete aggiungere diversi componenti di contenuto alle e-mail, ad esempio immagini, testo e pulsanti. Per ulteriori informazioni, vedete Componenti [](../../designing/using/designing-from-scratch.md#about-content-components)contenuto.
 
-* Immagine
+* **Immagine**
 
 1. In Componenti **contenuto**, trascina l’immagine in uno dei componenti della struttura.
 1. Fate clic su **Sfoglia**.
@@ -71,7 +76,7 @@ Potete aggiungere diversi componenti di contenuto alle e-mail, ad esempio immagi
 
 ![](assets/browse-image-quick-start.png)
 
-* Testo con personalizzazione
+* **Testo con personalizzazione**
 
 1. In Componenti **contenuto**, trascinate il testo in uno dei componenti della struttura.
 1. Fate clic sul componente e inserite il testo.
@@ -80,7 +85,7 @@ Potete aggiungere diversi componenti di contenuto alle e-mail, ad esempio immagi
 
 ![](assets/edit-text-quick-start.png)
 
-* HTML
+* **HTML**
 
 1. In Componenti **contenuto**, trascina e rilascia HTML in uno dei componenti della struttura.
 1. Fate clic su **Mostra il codice** sorgente.
@@ -113,7 +118,7 @@ Potete creare un'e-mail da modelli predefiniti, come messaggi di benvenuto ai cl
 
 1. Create un’e-mail e apritene il contenuto. Per ulteriori informazioni, consultate [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md).
 1. Fate clic sull’icona Home per accedere alla **[!UICONTROL Email Designer]** pagina principale.
-1. Fate clic sulla **[!UICONTROL Templates]** scheda.
+1.  Fate clic sulla **[!UICONTROL Templates]** scheda.
 1. Scegliete un modello HTML integrato.
 I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli 'Feather' hanno margini, mentre i modelli 'Astro' non ne hanno uno. Per ulteriori informazioni, consulta Modelli [di](../../designing/using/using-reusable-content.md#content-templates)contenuto.
 1. Passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l'icona principale) e compilare la **[!UICONTROL Subject]** sezione.
@@ -123,7 +128,7 @@ I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad 
 1. Modificate il contenuto di ciascun elemento in base alle vostre esigenze: immagini, testo, collegamenti.
 1. Se necessario, adattate le opzioni di stile al contenuto. Per ulteriori informazioni, consultate [Modifica degli stili](../../designing/using/styles.md)delle e-mail.
 
-## Con contenuto esistente {#with-existing-content}
+## Utilizzo di un contenuto e-mail esistente {#with-existing-content}
 
 Se si desidera creare un framework di modelli e frammenti modulari che possano essere combinati per il riutilizzo in più e-mail, è consigliabile convertire l'HTML dell'e-mail in un modello di E-mail Designer.
 
@@ -171,7 +176,7 @@ Dopo aver identificato tutti i blocchi, in Designer e-mail ripetere la seguente 
 1. Aggiungere un componente struttura. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
 1. Aggiungete un componente HTML. Per ulteriori informazioni, vedere [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiate e incollate il codice HTML nel componente.
-1. Passate alla visualizzazione mobile. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/styles.md#switching-to-mobile-view).
+1. Passate alla visualizzazione mobile. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    La vista reattiva non funziona perché il CSS non è presente.
 
