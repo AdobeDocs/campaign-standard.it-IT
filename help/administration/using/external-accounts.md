@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 68921819a5335626e45678ec569172ffef46a636
 
 ---
 
@@ -105,7 +105,11 @@ Per memorizzare il file in modalità crittografata S3, selezionare la **[!UICONT
 
 Le informazioni necessarie vengono in genere fornite dal provider del server a cui ci si sta connettendo.
 
-Specificate l' **[!UICONTROL AWS Region]** endpoint associato. È possibile controllare le regioni supportate e le versioni delle firme nella documentazione [ufficiale di](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) Amazon S3.
+Specificate l' **[!UICONTROL AWS Region]** endpoint associato. È possibile consultare le regioni supportate e le versioni delle firme nella documentazione [ufficiale di](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
+
+>[!NOTE]
+>
+>L' **[!UICONTROL Receiver server]** utente deve essere inserito senza l'area AWS. In seguito verrà aggiunto automaticamente all'URL.
 
 ### Consigli account Amazon S3 {#amazon-s3-account-recommendations}
 
