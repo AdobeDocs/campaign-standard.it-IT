@@ -1,27 +1,25 @@
 ---
 title: Gestione degli stili
 description: Scoprite come gestire gli stili delle e-mail in Designer e-mail.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ---
 
 
 # Managing Styles {#managing-styles}
 
-## Modifica degli stili e-mail{#editing-email-styles}
-
-### Modifica di un elemento {#editing-an-element}
+## Modifica di un elemento {#editing-an-element}
 
 In Designer e-mail, quando si seleziona un elemento, nel **[!UICONTROL Settings]** riquadro vengono visualizzate diverse opzioni specifiche per il tipo di contenuto selezionato. Potete usare queste opzioni per cambiare facilmente lo stile dell’e-mail.
 
@@ -49,7 +47,7 @@ Per selezionare una colonna, potete anche effettuare le seguenti operazioni:
 
 Vedere un esempio in [questa sezione](#example--adjusting-vertical-alignment-and-padding).
 
-### Regolazione delle impostazioni di stile {#adjusting-style-settings}
+## Regolazione delle impostazioni di stile {#adjusting-style-settings}
 
 1. Selezionate un elemento nel messaggio e-mail. Per ulteriori informazioni, consultate [Selezione di un elemento](#selecting-an-element).
 1. Regolate le impostazioni in base alle vostre esigenze. Ogni elemento selezionato offre un set di impostazioni diverso.
@@ -62,7 +60,7 @@ Vedere un esempio in [questa sezione](#example--adjusting-vertical-alignment-and
 
 1. Salvate il contenuto.
 
-### Informazioni su spaziatura e margini {#about-padding-and-margin}
+## Informazioni su spaziatura e margini {#about-padding-and-margin}
 
 L'interfaccia di Designer e-mail consente di regolare rapidamente le impostazioni di spaziatura e margini.
 
@@ -88,7 +86,7 @@ Per entrambe **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, fate clic sull'
 
 ![](assets/des_padding_lock_icon.png)
 
-### Informazioni sull'allineamento {#about-alignment}
+## Allineamento stile {#about-alignment}
 
 * **Allineamento** testo: posizionare il cursore del mouse su un testo e utilizzare la barra degli strumenti contestuale per allinearlo.
 
@@ -102,7 +100,7 @@ Per entrambe **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, fate clic sull'
 
    ![](assets/des_set_vertical_alignment.png)
 
-### Informazioni sugli sfondi {#about-backgrounds}
+## Impostazione degli sfondi {#about-backgrounds}
 
 Per impostare gli sfondi con Designer e-mail, Adobe consiglia quanto segue:
 
@@ -144,7 +142,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 
    Potete anche impostare un'immagine di sfondo a livello di colonna, ma questa impostazione viene utilizzata raramente.
 
-#### Esempio: regolazione dell'allineamento verticale e della spaziatura {#example--adjusting-vertical-alignment-and-padding}
+### Esempio: regolazione dell'allineamento verticale e della spaziatura {#example--adjusting-vertical-alignment-and-padding}
 
 È necessario regolare la spaziatura e l'allineamento verticale all'interno di un componente struttura composto da tre colonne. A questo scopo, effettuate le seguenti operazioni:
 
@@ -173,7 +171,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 
 1. Salvare le modifiche.
 
-### Informazioni sugli stili dei collegamenti {#about-styling-links}
+## Collegamenti stile {#about-styling-links}
 
 >[!NOTE]
 >
@@ -201,7 +199,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 
 1. Salvare le modifiche.
 
-### Aggiunta di attributi di stile in linea {#adding-inline-styling-attributes}
+## Aggiunta di attributi di stile in linea {#adding-inline-styling-attributes}
 
 Nell'interfaccia di Designer e-mail, quando si seleziona un elemento e ne vengono visualizzate le impostazioni nel pannello laterale, è possibile personalizzare gli attributi in linea e il relativo valore per tale elemento specifico.
 
@@ -218,7 +216,7 @@ Lo stile viene quindi applicato all'elemento selezionato. Se gli elementi second
 
 Potete regolare il design reattivo di un’e-mail modificando separatamente tutte le opzioni di stile per la visualizzazione mobile. Ad esempio, potete adattare margini e spaziatura, usare font di dimensioni più piccole o grandi, modificare i pulsanti o applicare colori di sfondo diversi, specifici per la versione mobile dell’e-mail.
 
-Tutte le opzioni di stile sono disponibili nella visualizzazione mobile. Le impostazioni di stile di Designer e-mail sono presentate nella sezione [Modifica stili](#editing-email-styles) e-mail.
+Tutte le opzioni di stile sono disponibili nella visualizzazione mobile. Le impostazioni di stile di Designer e-mail sono precedentemente presentate in questa pagina.
 
 1. Create un messaggio e-mail e iniziate a modificare il contenuto. Per ulteriori informazioni, consultate [Progettazione di contenuti e-mail da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Per accedere alla visualizzazione dedicata per dispositivi mobili, fate clic sul **[!UICONTROL Switch to mobile view]** pulsante .
