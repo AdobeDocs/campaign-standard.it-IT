@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
 
 ---
 
@@ -24,6 +24,14 @@ Scopri tutti gli ultimi aggiornamenti della documentazione di Adobe Campaign Sta
 In questa pagina sono elencate tutte le nuove funzioni e gli aggiornamenti della documentazione per ciascuna versione di Adobe Campaign Standard.
 
 Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione di Adobe Campaign.
+
+## Aggiornamenti della documentazione - Dicembre 2019 {#doc-updates-december-2019}
+
+La documentazione relativa alla configurazione dell'account esterno di S3 è stata aggiornata. [Leggi tutto](../../administration/using/external-accounts.md#amazon-s3-external-account)
+
+La sezione Progettazione del contenuto dell’e-mail è stata riorganizzata. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
+
+La guida introduttiva per la distribuzione è stata integrata nella documentazione di base e aggiornata. [Leggi tutto](../../sending/using/about-deliverability.md)
 
 ## Aggiornamenti della documentazione - Novembre 2019 {#doc-updates-november-2019}
 
@@ -289,7 +297,7 @@ Disponibilità generale di Email Designer - [Leggi tutto](../../designing/using/
 
 Elenco prodotti nelle e-mail transazionali - [Per saperne di più](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-Visualizzazione mobile in Designer e-mail - [Leggi tutto](../../designing/using/styles.md#switching-to-mobile-view)
+Visualizzazione mobile in Designer e-mail - [Leggi tutto](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 Miglioramenti della versione beta della messaggistica in-app - [Leggi tutto](../../channels/using/about-in-app-messaging.md)
 
