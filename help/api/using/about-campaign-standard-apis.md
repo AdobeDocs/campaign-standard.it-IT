@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
 
 ---
 
@@ -27,6 +27,10 @@ Con le API Adobe Campaign Standard, puoi accedere alle seguenti funzionalità:
 * Gestione delle sottoscrizioni ai servizi
 * Invia messaggi transazionali
 * Recuperare dati dal modello dati personalizzato
+
+>[!NOTE]
+>
+>Prima di eseguire le chiamate API, controllate le limitazioni di scala corrispondenti al contratto di licenza. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 Per utilizzare l'API Campaign Standard, è necessario un account di I/O Adobe. Questo è un primo passo obbligatorio per andare avanti e scoprire le funzionalità API.
 For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
