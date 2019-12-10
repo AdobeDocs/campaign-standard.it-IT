@@ -1,19 +1,19 @@
 ---
 title: Velocità effettiva di consegna
 description: Grazie al report out-of-the-box sul throughput di consegna, scopri il successo della tua consegna.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 51888b63-f507-43ea-8faf-5b3c00eb1800
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: elenco di rapporti
+topic-tags: list-of-reports
 discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 ---
 
@@ -26,4 +26,3 @@ Questo rapporto contiene i dati relativi alla velocità di consegna di una o pi�
 * La **[!UICONTROL Top 5 deliveries]** tabella e i numeri di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei tentativi.
 
 ![](assets/delivery_reports_1.png)
-
