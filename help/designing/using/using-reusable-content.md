@@ -1,18 +1,18 @@
 ---
 title: 'Creazione e utilizzo di contenuti riutilizzabili '
 description: Iniziate a creare contenuto e-mail riutilizzabile con Designer e-mail.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Scopri come gestire l’edizione del contenuto delle e-mail. Designer e-mail consente di creare modelli e frammenti con contenuti predefiniti personalizzati e di riutilizzarli per le seguenti consegne.
 
-## Progettazione utilizzando i modelli {#designing-templates}
+## Progettazione di e-mail utilizzando i modelli {#designing-templates}
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ Ora che la struttura delle e-mail è compilata, potete modificare lo stile di og
    >
    >Evitare di salvare come contenuto di frammento con componenti struttura vuoti. Una volta inserito il frammento &gt;non sarà più possibile modificarlo.
    >
-   >La visualizzazione [](../../designing/using/styles.md#switching-to-mobile-view) mobile non è disponibile nei frammenti.
+   >La visualizzazione [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) mobile non è disponibile nei frammenti.
 
 1. Una volta modificato, salvare il frammento.
 
@@ -249,7 +249,7 @@ Quando si modifica un'e-mail con Designer e-mail, è possibile salvare direttame
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->La visualizzazione [](../../designing/using/styles.md#switching-to-mobile-view) mobile non è disponibile nei frammenti. Se desiderate modificare la visualizzazione di un'e-mail mobile, fatela prima di salvare il contenuto come un frammento.
+>La visualizzazione [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) mobile non è disponibile nei frammenti. Se desiderate modificare la visualizzazione di un'e-mail mobile, fatela prima di salvare il contenuto come un frammento.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
