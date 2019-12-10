@@ -1,22 +1,25 @@
 ---
 title: 'Progettazione di e-mail tramite integrazioni Adobe Campaign '
 description: Scopri come progettare e-mail tramite le integrazioni Adobe Campaign in e-mail Designer.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
 
 ---
 
+
 # Progettazione di e-mail con più soluzioni {#multi-solution-email-design}
+
+Adobe Campaign offre diverse opzioni di creazione e-mail. È possibile utilizzare soluzioni come Dreamweaver per modificare il contenuto delle e-mail e creare messaggi reattivi in Designer e-mail. Puoi anche inviare contenuti tramite e-mail con Adobe Experience Manager e utilizzarli nelle e-mail in Adobe Campaign Standard.
 
 ## Modifica del contenuto in Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -63,13 +66,13 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
   <tr> 
    <td> <strong>Scrivi HTML</strong><br /> </td> 
    <td> Supportato<br /> </td> 
-   <td> Non supportato<br /> </td> 
+   <td>  Non supportato<br /> </td> 
    <td> Supportato<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Aggiorna HTML</strong><br /> </td> 
    <td> Solo all’interno di un componente HTML<br /> </td> 
-   <td> Non supportato<br /> </td> 
+   <td>  Non supportato<br /> </td> 
    <td> Supportato<br /> </td> 
   </tr> 
   <tr> 
@@ -81,8 +84,8 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
   <tr> 
    <td> <strong>Personalizzazione avanzata</strong><br /> </td> 
    <td> Supportato<br /> </td> 
-   <td> Non supportato<br /> </td> 
-   <td> Non supportato<br /> </td> 
+   <td>  Non supportato<br /> </td> 
+   <td>  Non supportato<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prova/Anteprima</strong><br /> </td> 
@@ -93,42 +96,50 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
   <tr> 
    <td> <strong>Elenco prodotti</strong><br /> </td> 
    <td> Supportato nei messaggi transazionali e-mail<br /> </td> 
-   <td> Non supportato<br /> </td> 
-   <td> Non supportato<br /> </td> 
+   <td>  Non supportato<br /> </td> 
+   <td>  Non supportato<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Vantaggi</strong><br /> </td> 
    <td> 
-     - Semplice creazione di e-mail tramite trascinamento<br/>- Funzionalità simili all'editor<br/>di contenuti legacy - Contenuto riutilizzabile con frammenti
+     <p>- Facile creazione delle e-mail attraverso la funzione di trascinamento</p>
+     <p>- Funzionalità simili all'editor di contenuti legacy</p>
+     <p>- Contenuto riutilizzabile con frammenti</p>
   </td> 
    <td> 
-     - Riutilizzo delle risorse dal sito Web nelle e-mail<br/>- Utilizzo della potenza di Experience Manager nei contenuti delle e-mail
+     <p>- Riutilizzo di risorse da siti Web nelle e-mail</p>
+     <p>- Utilizzo della potenza di Experience Manager nei contenuti delle e-mail</p>
     </td> 
    <td> 
-    - Possibilità per uno sviluppatore di codificare direttamente un'e-mail<br/>- Sincronizzazione<br/>bidirezionale - Modifica offline in Dreamweaver e sincronizzazione in un secondo momento<br/>- Caricamento delle immagini in Adobe Campaign tramite Dreamweaver
+    <p>- Possibilità per uno sviluppatore di codificare direttamente un'e-mail</p>
+    <p>- Sincronizzazione bidirezionale</p>
+    <p>- Modifica offline in Dreamweaver e sincronizzazione in un secondo momento</p>
+    <p>- Caricamento di immagini in Adobe Campaign tramite Dreamweaver</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Limitazioni</strong><br /> </td> 
    <td> 
-     - Nessun contenuto condizionale nei frammenti<br/>- Non è possibile utilizzare i frammenti di Experience Manager
+     <p>- Nessun contenuto condizionale all'interno dei frammenti</p>
+     <p>- Non è possibile utilizzare i frammenti di Experience Manager</p>
   </td> 
    <td> 
-     - Personalizzazione avanzata difficile da implementare<br/>- Invio di test in Adobe Campaign
+     <p>- Personalizzazione avanzata difficile da implementare</p>
+     <p>- Invio di test in Adobe Campaign</p>
   </td> 
    <td> Contenuto dinamico non supportato<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Pubblico</strong><br /> </td> 
+   <td> <strong>Audience</strong><br /> </td> 
    <td> Esperti di marketing che desiderano mantenere la flessibilità di utilizzare i componenti HTML in combinazione con le funzioni di trascinamento della selezione<br /> </td> 
    <td> Gli addetti al marketing utilizzano già Experience Manager e desiderano utilizzare modelli e-mail standard con poca personalizzazione<br /> </td> 
    <td> Sviluppatori che desiderano codificare i contenuti delle e-mail e integrarli direttamente con Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Per saperne di più</strong><br /> </td> 
-   <td> Vedere <a href="../../designing/using/overview.md">Informazioni su Designer e-mail</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
-   <td> Guarda <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guarda questo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a><br /> </td> 
+   <td> Vedere <a href="../../designing/using/overview.md">Informazioni su Designer</a>e-mail.<br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
+   <td> Consulta <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guarda questo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
