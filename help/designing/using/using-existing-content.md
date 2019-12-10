@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
 
 ---
 
@@ -62,7 +62,7 @@ Se tutto o parte dell’HTML non dispone di questo tag, il contenuto viene caric
 
 Per rendere un contenuto esterno esistente completamente modificabile in Designer e-mail, consultare la sezione [Progettazione di un'e-mail utilizzando il contenuto](../../designing/using/using-existing-content.md) esistente.
 
-## Importazione {#importing}
+## Importazione di un contenuto e-mail esistente {#importing}
 
 ### Importazione di contenuto da un file {#importing-content-from-a-file}
 
@@ -211,7 +211,7 @@ Dopo aver identificato tutti i blocchi, in Designer e-mail ripetere la seguente 
 1. Aggiungere un componente struttura. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
 1. Aggiungete un componente HTML. Per ulteriori informazioni, vedere [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiate e incollate il codice HTML nel componente.
-1. Passate alla visualizzazione mobile. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/styles.md#switching-to-mobile-view).
+1. Passate alla visualizzazione mobile. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    La vista reattiva non funziona perché il CSS non è presente.
 
@@ -228,6 +228,15 @@ Dopo aver identificato tutti i blocchi, in Designer e-mail ripetere la seguente 
 
    >[!NOTE]
    >
-   >Non modificate il CSS generato da Designer e-mail: `<style acrite-template-css="true">` e `<style acrite-custom-styles="" type="text/css">`. Dopo questa operazione, accertatevi di aggiungere lo stile.
+   >Accertatevi di aggiungere lo stile dopo questo in un altro tag di stile personalizzato.
+   >
+   >Non modificate il CSS generato da Designer e-mail:
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
 
 1. Tornate alla visualizzazione mobile per verificare che il contenuto sia correttamente visualizzato e salvare le modifiche.
