@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 
 ---
 
@@ -437,7 +437,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
   </tr> 
   <tr> 
    <td> Integrazione di Launch per l'app mobile<br /> </td> 
-   <td> <p>Questa release contiene l'integrazione di Adobe Campaign con le versioni GA delle estensioni Android e iOS per Adobe Campaign Standard in Adobe Experience Platform Launch e Mobile SDK. Queste estensioni supportano la messaggistica push, la messaggistica in-app e gli aggiornamenti del profilo delle app per dispositivi mobili.</p><p> Per ulteriori informazioni, consulta la documentazione <a href="../../administration/using/about-typology-rules.md#typology-rules"></a>dettagliata.</p> </td> 
+   <td> <p>Questa release contiene l'integrazione di Adobe Campaign con le versioni GA delle estensioni Android e iOS per Adobe Campaign Standard in Adobe Experience Platform Launch e Mobile SDK. Queste estensioni supportano la messaggistica push, la messaggistica in-app e gli aggiornamenti del profilo delle app per dispositivi mobili.</p><p> Per ulteriori informazioni, consulta la documentazione <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html"></a>dettagliata.</p> </td> 
   </tr> 
   <tr> 
    <td> Messaggistica in-app mobile<br /> </td> 
@@ -475,7 +475,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 * Quando effettuate modifiche in visualizzazione mobile, potete nascondere alcuni componenti solo nella visualizzazione mobile per un utilizzo efficace dello spazio.
 
-   Per ulteriori informazioni, consulta la documentazione [](../../designing/using/styles.md#switching-to-mobile-view)dettagliata.
+   Per ulteriori informazioni, consulta la documentazione [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)dettagliata.
 
 * Ora potete aggiungere canali social personalizzati al modello e-mail sopra a quelli già disponibili.
 * È stato risolto un problema che impediva lo scorrimento verso il basso del menu della struttura quando si utilizzavano più di 18 strutture. (CAMP-31173)
@@ -554,7 +554,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
   </tr> 
   <tr> 
    <td> Visualizzazione mobile in Designer e-mail<br /> </td> 
-   <td> <p>È ora possibile passare a una visualizzazione mobile dedicata durante la modifica del contenuto delle e-mail. Questo consente di ottimizzare il design reattivo di un’e-mail modificando separatamente tutte le opzioni di stile per la visualizzazione mobile, ad esempio adattando i margini, le dimensioni dei font più piccole, i diversi colori di sfondo e così via.</p><p> Per ulteriori informazioni, consulta la documentazione <a href="../../designing/using/styles.md#switching-to-mobile-view"></a>dettagliata.</p> </td> 
+   <td> <p>È ora possibile passare a una visualizzazione mobile dedicata durante la modifica del contenuto delle e-mail. Questo consente di ottimizzare il design reattivo di un’e-mail modificando separatamente tutte le opzioni di stile per la visualizzazione mobile, ad esempio adattando i margini, le dimensioni dei font più piccole, i diversi colori di sfondo e così via.</p><p> Per ulteriori informazioni, consulta la documentazione <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view"></a>dettagliata.</p> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti della versione beta della messaggistica in-app<br /> </td> 
