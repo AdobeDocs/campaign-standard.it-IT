@@ -1,18 +1,18 @@
 ---
 title: Definizione del periodo del report
 description: Il periodo di tempo del rapporto consente di filtrare i dati in base alle date prescelte.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: elenco di rapporti
+topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 ---
 
@@ -28,4 +28,3 @@ Per modificare il filtro, selezionate una data di inizio e un periodo oppure uti
 Il rapporto viene aggiornato automaticamente quando viene applicato o modificato un filtro. Il periodo di rapporto selezionato disciplinerà gli eventi che si sono verificati nel periodo, non l'intero set di dati delle consegne che sono stati creati nell'intervallo, ad esempio se una consegna è stata eseguita dal 1° al 5 gennaio e il periodo di rapporto è dal 1° al 2 gennaio, potrebbero essere visualizzati dati parziali. Questo può influenzare i conteggi di apertura/clic, dal momento che l'apertura o il clic possono verificarsi anche un mese dopo l'invio.
 
 ![](assets/campaign_reports_5.png)
-
