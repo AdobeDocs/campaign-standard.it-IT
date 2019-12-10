@@ -12,7 +12,7 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f8590860a260738fd1b50be782a929a761f0078
+source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
 
 ---
 
@@ -26,7 +26,7 @@ Inizia con Adobe Campaign consultando le nostre intuitive guide dettagliate.
 * [Creazione di un flusso di lavoro](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html)per messaggi tra canali: create un flusso di lavoro segmentando una popolazione per inviare una consegna e-mail e un SMS.
 * [Creazione di un'e-mail con Experience Manager e Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html): create un contenuto e-mail in Adobe Experience Manager e utilizzatelo in un messaggio e-mail in Adobe Campaign Standard.
 * [Distribuzione con Adobe Campaign](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html): scopri alcune delle best practice che puoi utilizzare per distribuire con Adobe Campaign, dalla creazione e il targeting all'invio e al monitoraggio.
-* [Ottimizzazione del recapito](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html): scopri i concetti chiave e le best practice relative alla recapito dei prodotti e gli strumenti offerti da Adobe Campaign per ottimizzare le consegne.
+* [Ottimizzazione del recapito](../../sending/using/about-deliverability.md): scopri i concetti chiave e le best practice relative alla recapito dei prodotti e gli strumenti offerti da Adobe Campaign per ottimizzare le consegne.
 * [Regolamento](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)generale sulla protezione dei dati: scopri gli strumenti e le funzionalità forniti da Adobe Campaign, oltre alle best practice, per aiutarti a diventare conforme ai requisiti GDPR.
 
 Per saperne di più su Adobe Campaign, consulta i casi di utilizzo e gli esempi seguenti:
