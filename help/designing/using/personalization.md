@@ -1,23 +1,23 @@
 ---
-title: Personalizzazione
+title: Personalizzazione del contenuto delle e-mail
 description: Scoprite come personalizzare un'e-mail in Designer e-mail.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
 
-# Personalizzazione {#personalization}
+# Personalizzazione del contenuto delle e-mail {#personalization}
 
 Il contenuto e la visualizzazione dei messaggi inviati da Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati in base ai criteri in base ai profili. In generale, Adobe Campaign consente di:
 
@@ -206,7 +206,7 @@ Adobe Campaign consente di personalizzare una o più immagini nel messaggio in b
 
 ### Definizione di una condizione di visibilità{#defining-a-visibility-condition}
 
-Potete specificare una condizione di visibilità su qualsiasi elemento. Sarà visibile solo se la condizione è rispettata.
+Potete specificare una condizione di visibilità per qualsiasi elemento. Sarà visibile solo se la condizione è rispettata.
 
 Per aggiungere una condizione di visibilità, selezionare un blocco e immettere la condizione da rispettare nel **[!UICONTROL Visibility condition]** campo delle relative impostazioni.
 
@@ -241,7 +241,7 @@ La definizione del contenuto dinamico è diversa dalla [definizione delle condiz
 
    >[!NOTE]
    >
-   >Il contenuto deve sempre avere una variante predefinita. Non potete eliminarlo.
+   >Il contenuto deve sempre avere una variante predefinita. Non potete eliminarla.
 
 1. Fare clic sul **[!UICONTROL Edit]** pulsante per definire le condizioni di visualizzazione della prima variante alternativa.
 
@@ -417,4 +417,5 @@ L'immagine è cambiata grazie al contenuto dinamico, e lo slogan che appare è l
 **Argomenti correlati:**
 
 * [Creazione di audience](../../audiences/using/creating-audiences.md)
-* [Preparazione dell’invio](../../sending/using/preparing-the-send.md
+* [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
+
