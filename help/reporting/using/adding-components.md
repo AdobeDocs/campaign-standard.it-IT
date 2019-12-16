@@ -1,18 +1,18 @@
 ---
 title: Aggiunta di componenti
 description: Trascina i componenti nella tabella a forma libera per iniziare a filtrare i dati e a creare il rapporto.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: personalizzazione dei report
+topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -31,7 +31,7 @@ I componenti consentono di personalizzare i rapporti con dimensioni, metriche e 
 
    * **Dimensioni**: Ottenete i dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario, o l'esito positivo della consegna.
    * **Metriche**: Ottieni informazioni sullo stato di un messaggio. Ad esempio, se un messaggio è stato inviato e l’utente lo ha aperto.
-   * **[!UICONTROL Segments]**: Filtra i dati in base all'intervallo di età del destinatario. **[!UICONTROL Segments]** può essere trascinato e rilasciato direttamente in una tabella a forma libera o nella barra superiore del pannello. A partire dalla release Campaign 19.4, l'opzione **[!UICONTROL Exclude proof]** sarà già selezionata per impostazione predefinita, ma può essere modificata se necessario.
+   * **[!UICONTROL Segments]**: Filtra i dati in base all'intervallo di età del destinatario. **[!UICONTROL Segments]** può essere trascinato e rilasciato direttamente in una tabella a forma libera o nella barra superiore del pannello. Per impostazione predefinita, il **[!UICONTROL Exclude proof]** segmento è già selezionato, ma può essere modificato se necessario.
 
       Questa categoria è disponibile solo dopo che l'amministratore ha approvato i termini e le condizioni del contratto di utilizzo di reporting dinamico che verrà visualizzato sullo schermo. Se l'amministratore rifiuta il contratto, i segmenti non saranno visibili nella **[!UICONTROL Components]** scheda e i dati non saranno raccolti.
 
