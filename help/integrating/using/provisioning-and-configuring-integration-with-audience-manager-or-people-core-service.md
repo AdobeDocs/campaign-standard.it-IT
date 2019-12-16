@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
 
 ---
 
@@ -43,11 +43,11 @@ Questa integrazione deve prima essere configurata. Per richiedere il provisionin
   </tr> 
   <tr> 
    <td> <strong>Ambiente:</strong><br /> </td> 
-   <td> Esempio: Produzione </td> 
+   <td> Esempio:Produzione </td> 
   </tr> 
   <tr> 
    <td> <strong>AAM o Servizio Persone</strong><br /> </td> 
-   <td> Esempio: Adobe Audience Manager </td> 
+   <td> Esempio: Adobe Audience Manager. Assicuratevi di indicare al team di provisioning se siete in possesso o meno della licenza di Audience Manager.</td> 
   </tr> 
   <tr> 
    <td> <strong>ID dichiarato o ID visitatore</strong><br /> </td> 
@@ -59,18 +59,6 @@ Questa integrazione deve prima essere configurata. Per richiedere il provisionin
   </tr> 
  </tbody> 
 </table>
-
-* **[!UICONTROL Declared ID]** funziona per ogni integrazione di audience condivisa. Se utilizzate il servizio di base Persone, l'utilizzo di **[!UICONTROL Declared ID]** può cambiare a seconda della soluzione:
-
-* Se i tipi di pubblico sono condivisi da Adobe Campaign ad Adobe Target tramite il servizio di base Persone, **[!UICONTROL Declared ID]** è possibile effettuare il provisioning.
-* Se i tipi di pubblico sono condivisi da Adobe Campaign ad Ad Cloud tramite il servizio di base Persone, non potrai utilizzare il **[!UICONTROL Declared ID]** provisioning per il backfill storico dei tipi di pubblico. È inoltre prevista una certa latenza durante la creazione di audience.
-* Se i tipi di pubblico vengono condivisi da Adobe Analytics ad Adobe Campaign tramite il servizio core Persone, i segmenti non verranno popolati in Adobe Campaign con **[!UICONTROL Declared ID]**.
-
->[!NOTE]
->
->Se utilizzi Adobe Audience Manager invece del servizio core Persone, **[!UICONTROL Declared ID]** funzionerà in tutti gli scenari.
-
-You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Configurazione dell'integrazione in Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
@@ -102,7 +90,7 @@ Gli account esterni sono ora configurati per questa integrazione.
 
 In Audience Manager vengono create le due seguenti origini dati: Adobe Campaign (MID) e Adobe Campaign (DichiaredId). Allo stesso tempo, queste due origini dati sono disponibili in Adobe Campaign:
 
-* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: Si tratta di un'origine dati out-of-the-box configurata per impostazione predefinita per l'ID visitatore. I segmenti creati da Campaign faranno parte di questa origine dati.
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**:Si tratta di un'origine dati out-of-the-box configurata per impostazione predefinita per l'ID visitatore. I segmenti creati da Campaign faranno parte di questa origine dati.
 * **Origine dati ID** dichiarata: Questa origine dati deve essere creata e mappata con la definizione dell'origine **[!UICONTROL DeclaredId]** dati da Audience Manager.
 
 Nel caso di più siti Web con domini diversi, Adobe Campaign non supporta la riconciliazione basata su ECID.
