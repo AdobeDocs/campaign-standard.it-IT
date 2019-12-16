@@ -1,18 +1,18 @@
 ---
 title: Creazione di un report basato sui segmenti del flusso di lavoro
 description: Scopri come controllare il successo della distribuzione in base ai segmenti dei flussi di lavoro nei tuoi rapporti.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: beneat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: personalizzazione dei report
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -92,7 +92,7 @@ I codici dei segmenti verranno raccolti non appena avrai abilitato il codice dei
 
    ![](assets/report_segment_3.png)
 
-1. Personalizza le tue consegne in base alle diverse popolazioni mirate. Per ulteriori informazioni sulla creazione di e-mail, consultate questa [pagina](../../designing/using/overview.md).
+1. Personalizza le tue consegne in base alle diverse popolazioni mirate. Per ulteriori informazioni sulla creazione di e-mail, consultate questa [pagina](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Salvare il flusso di lavoro.
 
