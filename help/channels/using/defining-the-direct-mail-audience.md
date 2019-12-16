@@ -1,11 +1,11 @@
 ---
 title: Definizione dell’audience della direct mail
 description: Scopri come definire la destinazione per la consegna diretta per la posta.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
 topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ---
 
@@ -28,7 +28,7 @@ Potete definire l'audience nella procedura guidata di creazione oppure facendo c
 
 Per la posta diretta, i profili di destinazione sono quelli che verranno inclusi nel file di estrazione che invierete al vostro provider di posta diretta.
 
-Per ciascun profilo di destinazione, nel file di estrazione viene aggiunta una nuova riga. La quantità di informazioni di profilo che verranno incluse per ciascun destinatario è definita nella schermata [Definizione dell'estrazione](#defining-the-extraction) .
+Per ciascun profilo di destinazione, nel file di estrazione viene aggiunta una nuova riga. La quantità di informazioni di profilo che verranno incluse per ciascun destinatario è definita nella schermata [Definizione dell'estrazione](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) .
 
 >[!CAUTION]
 >
