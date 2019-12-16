@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
+source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
 
 ---
 
@@ -279,6 +279,7 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Esportazione dei registri](automating/using/exporting-logs.md)
       + [Gestione dei pacchetti](automating/using/managing-packages.md)
       + [Esportazione di elenchi](automating/using/exporting-lists.md)
+      + [Caso di utilizzo:Esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
    + Casi di utilizzo: flussi di lavoro {#workflow-use-case}
       + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
       + [Creazione di consegne nella data di creazione](automating/using/workflow-creation-date-query.md)
