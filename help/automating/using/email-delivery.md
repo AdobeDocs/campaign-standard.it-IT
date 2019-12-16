@@ -1,19 +1,19 @@
 ---
 title: Recapito e-mail
 description: L'attività di distribuzione e-mail consente di configurare l'invio di un'e-mail singola o ricorrente in un flusso di lavoro.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: attività di canale
+topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
-context-tags: consegna,flusso di lavoro,principale
+context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -60,7 +60,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 
 1. Selezionate un tipo di e-mail. I tipi di e-mail sono ricavati dai modelli e-mail definiti nel menu **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** .
 1. Immettete le proprietà generali del messaggio e-mail. Potete anche allegarlo a una campagna esistente. L'etichetta dell'attività di distribuzione del flusso di lavoro viene aggiornata con l'etichetta e-mail.
-1. Definite il contenuto dell’e-mail. Consultate la sezione sulla modifica dei [contenuti](../../designing/using/overview.md).
+1. Definite il contenuto dell’e-mail. Consultate la sezione sulla modifica dei [contenuti](../../designing/using/designing-content-in-adobe-campaign.md).
 1. Per impostazione predefinita, l' **[!UICONTROL Email delivery]** attività non include transizioni in uscita. Se desiderate aggiungere una transizione in uscita all' **[!UICONTROL Email delivery]** attività, andate alla **[!UICONTROL General]** scheda delle opzioni di attività avanzate ( ![](assets/dlv_activity_params-24px.png) pulsante nelle azioni rapide dell'attività), quindi selezionate una delle seguenti opzioni:
 
    * **[!UICONTROL Add outbound transition without the population]**: questo consente di generare una transizione in uscita che contiene esattamente la stessa popolazione della transizione in entrata.
@@ -74,11 +74,11 @@ Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiv
 
 ## Osservazioni {#remarks}
 
-Le consegne create all'interno di un flusso di lavoro sono accessibili nell'elenco delle attività di marketing dell'applicazione. Potete visualizzare lo stato di esecuzione del flusso di lavoro utilizzando il dashboard. I collegamenti nel riquadro del riepilogo delle e-mail consentono di accedere direttamente agli elementi collegati (flusso di lavoro, campagna, consegna padre in caso di e-mail ricorrenti).
+Le consegne create all'interno di un flusso di lavoro sono accessibili nell'elenco delle attività di marketing dell'applicazione. Potete visualizzare lo stato di esecuzione del flusso di lavoro utilizzando il dashboard. I collegamenti nel riquadro di riepilogo delle e-mail consentono di accedere direttamente agli elementi collegati (flusso di lavoro, campagna, consegna padre in caso di e-mail ricorrenti).
 
 ![](assets/wkf_display_recurrent_executions_2.png)
 
-Tuttavia, per impostazione predefinita, le esecuzioni di consegne ricorrenti sono mascherate. Per visualizzarli, seleziona l' **[!UICONTROL Show recurring executions]** opzione nel pannello di ricerca delle attività di marketing.
+Tuttavia, per impostazione predefinita, le esecuzioni di consegne ricorrenti sono mascherate. Per visualizzarli, selezionate l' **[!UICONTROL Show recurring executions]** opzione nel pannello di ricerca delle attività di marketing.
 
 ![](assets/wkf_display_recurrent_executions.png)
 
