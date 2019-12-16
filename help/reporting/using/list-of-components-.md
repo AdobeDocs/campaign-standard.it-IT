@@ -1,18 +1,18 @@
 ---
 title: 'Elenco dei componenti '
 description: Consulta l’elenco di tutti i componenti disponibili nei report dinamici e le relative definizioni.
-page-status-flag: mai attivato
-uuid: a2403806-8df4-4bb1-back2-2689dc584ae0
+page-status-flag: never-activated
+uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: informazioni sui rapporti
+topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -40,7 +40,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
    <td> Browser da cui è stato aperto il messaggio o su cui è stato fatto clic.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br /> </td> 
+   <td> Campagna<br /> </td> 
    <td> Etichetta e ID della campagna.<br /> </td> 
   </tr> 
   <tr> 
@@ -254,7 +254,7 @@ Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate ne
   </tr> 
   <tr> 
    <td> Annulla sottoscrizione<br /> </td> 
-   <td> Numero di clic sul collegamento di annullamento della sottoscrizione.<br /> </td> 
+   <td>  Numero di clic sul collegamento di annullamento della sottoscrizione.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -459,7 +459,7 @@ Nella tabella seguente sono elencati i segmenti utilizzati nei report e le relat
   </tr> 
     <tr> 
    <td> Escludi prova<br /> </td> 
-   <td> Escludi le prove di stampa dai rapporti (solo a partire dalla versione di Campaign 19.4)<br /> </td> 
+   <td> Escludere le prove di stampa dai report<br /> </td> 
   </tr> 
  </tbody> 
 </table>
