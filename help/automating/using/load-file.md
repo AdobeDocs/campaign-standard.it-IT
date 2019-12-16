@@ -1,24 +1,24 @@
 ---
 title: Caricare file
 description: L'attività Carica file consente di importare dati in un modulo strutturato per utilizzarli in Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: gestione dei dati
+topic-tags: data-management-activities
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
 
-# Caricare file{#load-file}
+# Caricare file {#load-file}
 
 ## Descrizione {#description}
 
@@ -80,7 +80,7 @@ La configurazione dell'attività prevede due passaggi. Innanzitutto, occorre def
 
    La **[!UICONTROL Column definition]** scheda consente di specificare con precisione la struttura dati di ciascuna colonna al fine di importare dati che non contengono errori (ad esempio, utilizzando la gestione null) e di farli corrispondere ai tipi già presenti nel database Adobe Campaign per le operazioni future.
 
-   Ad esempio, è possibile modificare l'etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.)  oppure specificare l'elaborazione degli errori.
+   Ad esempio, è possibile modificare l'etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) oppure specificare l'elaborazione degli errori.
 
    Per ulteriori informazioni, consultare la sezione Formato [](#column-format) colonna.
 
@@ -152,7 +152,7 @@ La formattazione delle colonne consente di definire il valore di elaborazione di
    * **[!UICONTROL Insert NULL in the corresponding field]**: autorizza valori vuoti. Il valore NULL viene quindi inserito.
    * **[!UICONTROL Generate an error]**: genera un errore se un valore è vuoto.
 
-## Esempio 1: Aggiornamento del database {#example-1-update-the-database}
+## Esempio 1:Aggiornamento del database {#example-1-update-the-database}
 
 L'attività del file di caricamento struttura principalmente i dati provenienti da un'attività del file di trasferimento per integrarlo nei dati esistenti.
 
