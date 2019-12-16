@@ -1,19 +1,19 @@
 ---
 title: Creazione di un nuovo modello
 description: Scoprite come creare un nuovo modello, dai modelli di attività out-of-box esistenti per e-mail, SMS, notifiche push, ecc.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
-topic-tags: gestione dei modelli
+topic-tags: managing-templates
 discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
 context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -39,5 +39,5 @@ I modelli creati possono quindi essere selezionati dall'utente standard nella pr
 **Argomenti correlati:**
 
 * [Branding](../../administration/using/branding.md)
-* [Progettazione di contenuti](../../designing/using/overview.md)
+* [Progettazione di contenuti](../../designing/using/designing-content-in-adobe-campaign.md)
 
