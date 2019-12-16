@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -143,7 +143,7 @@ Sono state aggiunte informazioni su come personalizzare l'etichetta di una conse
 
 È stato aggiunto un avviso relativo al modo in cui gli spazi vuoti aggiuntivi possono influenzare il layout di un contenuto e-mail. [Leggi tutto](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-È stata aggiunta una nuova sezione relativa agli aggiornamenti consigliati per e-mail Designer. [Leggi tutto](../../designing/using/overview.md#email-designer-updates)
+È stata aggiunta una nuova sezione relativa agli aggiornamenti consigliati per e-mail Designer. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -247,7 +247,7 @@ Miglioramenti del flusso di lavoro - Per saperne di più, [consulta](../../autom
 
 ### Altri aggiornamenti della documentazione in arrivo con il rilascio {#other-documentation-updates-coming-with-the-release-1}
 
-La nuova esperienza di registrazione per la creazione di contenuti e-mail e altri miglioramenti a E-mail Designer sono stati aggiunti al capitolo Modifica del contenuto dell'e-mail. [Leggi tutto](../../designing/using/overview.md#email-designer-home-page)
+La nuova esperienza di registrazione per la creazione di contenuti e-mail e altri miglioramenti a E-mail Designer sono stati aggiunti al capitolo Modifica del contenuto dell'e-mail. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 È stata aggiunta una nuova sezione sulle limitazioni dei messaggi transazionali. [Leggi tutto](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -293,7 +293,7 @@ Sono state aggiunte informazioni nella sezione Attività file di estrazione sull
 
 ### Nuove funzionalità incluse nella release {#new-capabilities-included-in-the-release-2}
 
-Disponibilità generale di Email Designer - [Leggi tutto](../../designing/using/overview.md)
+Disponibilità generale di Email Designer - [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Elenco prodotti nelle e-mail transazionali - [Per saperne di più](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -303,7 +303,7 @@ Miglioramenti della versione beta della messaggistica in-app - [Leggi tutto](../
 
 ### Altri aggiornamenti della documentazione in arrivo con il rilascio {#other-documentation-updates-coming-with-the-release-2}
 
-La guida Progettazione contenuti è stata aggiornata per riflettere la disponibilità generale di Email Designer e la deprecazione dell'editor di contenuti e-mail legacy. [Leggi tutto](../../designing/using/overview.md)
+La guida Progettazione contenuti è stata aggiornata per riflettere la disponibilità generale di Email Designer e la deprecazione dell'editor di contenuti e-mail legacy. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Aggiornamento della documentazione di notifica [](../../channels/using/about-in-app-messaging.md) in-app [e](../../channels/using/about-push-notifications.md) push.
 
@@ -359,7 +359,7 @@ Importazione automatizzata dei contenuti da un URL al momento della preparazione
 
 Aggiornamento dell'integrazione di Experience Manager con la documentazione di Adobe Campaign. [Leggi tutto](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-La guida "Progettazione dei contenuti" è stata completamente riorganizzata, in particolare per presentare i due editor che consentono di progettare contenuti per le e-mail. [Leggi tutto](../../designing/using/overview.md)
+La guida "Progettazione dei contenuti" è stata completamente riorganizzata, in particolare per presentare i due editor che consentono di progettare contenuti per le e-mail. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Scoprite come rendere semplicemente modificabili i contenuti esterni con Creative SDK creando frammenti dalle e-mail esistenti. [Leggi tutto](../../designing/using/designing-from-scratch.md)
 
@@ -421,7 +421,7 @@ Scoprite le procedure ottimali per l'utilizzo dei server SFTP ospitati da Adobe.
 
 L'elenco degli SKU Analytics supportati per l'integrazione con Triggers è stato aggiornato. [Leggi tutto](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Alcune pagine della documentazione dell’editor dei contenuti sono state unite per offrire una visualizzazione più completa delle diverse azioni disponibili. [Leggi tutto](../../designing/using/overview.md)
+Alcune pagine della documentazione dell’editor dei contenuti sono state unite per offrire una visualizzazione più completa delle diverse azioni disponibili. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Rilascio 18.3 - marzo 2018 {#release-18-3---march-2018}
 
@@ -429,7 +429,7 @@ Alcune pagine della documentazione dell’editor dei contenuti sono state unite 
 
 Regolamento generale UE sulla protezione dei dati (GDPR) - [Leggi tutto](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Creative Designer per e-mail - [Leggi tutto](../../designing/using/overview.md)
+Creative Designer per e-mail - [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Distribuzione push multilingue - [Per saperne di più](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -443,7 +443,7 @@ Sono state aggiunte informazioni su come impostare le pagine di destinazione per
 
 La sezione [Configurazione dei messaggi](../../administration/using/configuring-transactional-messaging.md) transazionali è stata riorganizzata ed è stato aggiunto un caso [d'uso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) dettagliato.
 
-È stata aggiunta una nota tecnica per apprendere come generare un file CSV multilingue da usare per le notifiche push. [Leggi tutto](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+È stata aggiunta una nota tecnica per apprendere come generare un file CSV multilingue da usare per le notifiche push. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Sono state aggiunte informazioni sul modello di importazione **Aggiorna notifiche dirette e registri** di consegna. [Leggi tutto](../../automating/using/defining-import-templates.md)
 
@@ -751,7 +751,7 @@ Informazioni sulle autorizzazioni utente: è stato aggiunto un caso d’uso. Con
 
 Utilizzo delle API: è stato aggiunto un caso [di utilizzo di estensione](../../developing/using/about-extending-the-api.md) API. Consultate anche la documentazione [](../../api/using/about-campaign-standard-apis.md)API.
 
-Messaggi di errore campagna: accedi all'elenco completo dei messaggi di errore in Campaign v6 e Standard, filtrati per versione e lingua. [Leggi tutto](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Messaggi di errore campagna: accedi all'elenco completo dei messaggi di errore in Campaign v6 e Standard, filtrati per versione e lingua. [Leggi tutto](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Caso di utilizzo multi-marchio - [Leggi tutto](../../administration/using/branding.md)
 
