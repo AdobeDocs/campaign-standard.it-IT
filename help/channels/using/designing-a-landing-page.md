@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -30,7 +30,7 @@ Il contenuto delle pagine di destinazione è progettato tramite l'editor di cont
 
 >[!NOTE]
 >
->Se l'istanza è stata installata prima della release di Adobe Campaign Standard 19.0, potete comunque accedere all'editor dei contenuti dell'e-mail legacy. L’interfaccia, i principi di utilizzo e configurazione sono principalmente gli stessi descritti di seguito per le pagine di destinazione. Tuttavia, tutte le funzioni potrebbero non essere disponibili o mantenute nell’editor dei contenuti e-mail legacy, che è diventato obsoleto a partire dalla versione 19.0. Per modificare rapidamente il contenuto delle e-mail mediante un'interfaccia a trascinamento con funzioni estese, utilizzare [Email Designer](../../designing/using/overview.md).
+>Se l'istanza è stata installata prima della release di Adobe Campaign Standard 19.0, potete comunque accedere all'editor dei contenuti dell'e-mail legacy. L’interfaccia, i principi di utilizzo e configurazione sono principalmente gli stessi descritti di seguito per le pagine di destinazione. Tuttavia, tutte le funzioni potrebbero non essere disponibili o mantenute nell’editor dei contenuti e-mail legacy, che è diventato obsoleto a partire dalla versione 19.0. Per modificare rapidamente il contenuto delle e-mail mediante un'interfaccia a trascinamento con funzioni estese, utilizzare [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Questa pagina descrive le specificità dell’editor dei contenuti della pagina di destinazione. Per ulteriori informazioni sulle azioni comuni a una o più attività di marketing, consulta queste sezioni dalla guida **Progettazione del contenuto** delle e-mail:
 
@@ -38,7 +38,7 @@ Questa pagina descrive le specificità dell’editor dei contenuti della pagina 
 * [Aggiunta di un blocco](../../designing/using/personalization.md#adding-a-content-block)di contenuto.
 * [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link).
 * [Inserimento di immagini](../../designing/using/images.md).
-* [Best practice generali per la progettazione](../../designing/using/overview.md#content-design-best-practices)dei contenuti.
+* [Best practice generali per la progettazione](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)dei contenuti.
 
 >[!NOTE]
 >Se la pagina di destinazione è già predefinita in formato HTML, potete importarla direttamente utilizzando il **[!UICONTROL Change content]** pulsante.
