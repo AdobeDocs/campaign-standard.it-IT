@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -29,7 +29,7 @@ Per migliorare il tasso di recapito delle e-mail e assicurarsi che le e-mail arr
 * **Rimuovi iscrizione e pagina** di destinazione: Il collegamento di annullamento della sottoscrizione è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale.
 * **Utilizza gli strumenti** offerti da Adobe Campaign per ottimizzare il contenuto delle e-mail (analisi della distribuzione, analisi anti-spam).
 
-Per ulteriori informazioni sulla modifica del contenuto delle e-mail, consultare la panoramica [di Designer e-](../../designing/using/designing-content-in-adobe-campaign.md) mail e le procedure [consigliate per la progettazione dei](../../designing/using/overview.md#content-design-best-practices)messaggi.
+Per ulteriori informazioni sulla modifica del contenuto delle e-mail, consultare la panoramica [di Designer e-](../../designing/using/designing-content-in-adobe-campaign.md) mail e le procedure [consigliate per la progettazione dei](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)messaggi.
 
 ## Nome e indirizzo del mittente {#sender-name}
 
