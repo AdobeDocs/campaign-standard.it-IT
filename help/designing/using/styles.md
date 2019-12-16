@@ -12,18 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
+source-git-commit: ddbf8ea62c4f8bba4ea53dc1daa7064704c97db2
 
 ---
 
 
 # Managing Styles {#managing-styles}
 
-## Modifica di un elemento {#editing-an-element}
 
 In Designer e-mail, quando si seleziona un elemento, nel **[!UICONTROL Settings]** riquadro vengono visualizzate diverse opzioni specifiche per il tipo di contenuto selezionato. Potete usare queste opzioni per cambiare facilmente lo stile dell’e-mail.
 
-### Selezione di un elemento {#selecting-an-element}
+## Selezione di un elemento {#selecting-an-element}
 
 Per selezionare un elemento nell'interfaccia di Designer e-mail, è possibile:
 
