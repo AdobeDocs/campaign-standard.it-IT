@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
 ### Altre modifiche {#other-changes-1}
 
 * Il timeout di condivisione dei report è stato aumentato da uno a quattro minuti per evitare qualsiasi errore di timeout.
-* Quando modificate il contenuto di un messaggio e-mail, per impostazione predefinita viene aperto il nuovo Creative Designer. Se lo desiderate, potete comunque tornare all'editor di contenuti predefinito in qualsiasi momento dopo aver salvato le modifiche. Per ulteriori informazioni, consulta la documentazione [](../../designing/using/overview.md)dettagliata.
+* Quando modificate il contenuto di un messaggio e-mail, per impostazione predefinita viene aperto il nuovo Creative Designer. Se lo desiderate, potete comunque tornare all'editor di contenuti predefinito in qualsiasi momento dopo aver salvato le modifiche. Per ulteriori informazioni, consulta la documentazione [](../../designing/using/designing-content-in-adobe-campaign.md)dettagliata.
 * In Creative Designer, è ora possibile aggiungere un nuovo componente contenuto a un messaggio e-mail: il carosello. Per ulteriori informazioni, consulta la documentazione [](../../designing/using/designing-from-scratch.md#about-content-components)dettagliata.
 * In un rapporto con un clic del messaggio di transazione, quando fate clic sul pulsante **Modifica profilo** , vengono elencati solo i profili di test collegati all'evento definito per il messaggio di transazione.
 
@@ -317,7 +317,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
      <li> Creazione e salvataggio di un modello di contenuto e-mail e utilizzo dei modelli salvati per la creazione di e-mail </li> 
      <li> Creare e salvare frammenti di contenuto (ad esempio intestazione, piè di pagina, articolo ecc.) per semplificare la creazione di contenuti e garantire la coerenza del marchio </li> 
      <li> Passa facilmente dalla creazione nell’interfaccia di trascinamento alla modifica diretta HTML di un messaggio e-mail facendo clic su un pulsante </li> 
-    </ul> Creative Designer per e-mail è disponibile solo in inglese.<br /> Per ulteriori informazioni, consultate la documentazione <a href="../../designing/using/overview.md"></a> dettagliata e guardate questo <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
+    </ul> Creative Designer per e-mail è disponibile solo in inglese.<br /> Per ulteriori informazioni, consultate la documentazione <a href="../../designing/using/designing-content-in-adobe-campaign.md"></a> dettagliata e guardate questo <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Distribuzione push multilingue<br /> </td> 
