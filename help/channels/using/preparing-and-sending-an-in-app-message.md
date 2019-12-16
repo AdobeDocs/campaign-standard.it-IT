@@ -13,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -118,7 +118,7 @@ I passaggi per creare un messaggio in-app standalone con Adobe Campaign sono:
 
 1. Se si utilizza un **[!UICONTROL Places]** attivatore, i dati contestuali Luoghi, i metadati personalizzati Luoghi o il tipo di evento Luoghi verranno popolati automaticamente in base a tutte le librerie e ai relativi punti di interesse creati in Adobe Places.
 
-   Tieni presente che questo attivatore verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell'estensione Luoghi in Experience Platform Launch. Per ulteriori informazioni sull'estensione Places e su come installarla, consulta questa [documentazione](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension).
+   Tieni presente che questo attivatore verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell'estensione Luoghi in Experience Platform Launch. Per ulteriori informazioni sull'estensione Places e su come installarla, consulta questa [documentazione](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Nella **[!UICONTROL Frequency & duration]** scheda, scegli la frequenza dell'attivatore, la data di inizio e di fine, il giorno della settimana e l'ora del giorno in cui sarà attivo il messaggio in-app.
 
