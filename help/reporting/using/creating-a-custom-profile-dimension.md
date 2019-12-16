@@ -1,18 +1,18 @@
 ---
 title: Creazione di una dimensione di profilo personalizzata
 description: Scoprite come creare una dimensione di profilo personalizzata basata sui dati di profilo personalizzati.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: personalizzazione dei report
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -137,7 +137,7 @@ Dopo aver pubblicato il campo del profilo, puoi iniziare la consegna. In questo 
    ![](assets/custom_profile_17.png)
 
 1. Al termine del filtraggio, fate clic **[!UICONTROL Confirm]** quindi su **[!UICONTROL Next]**.
-1. Definisci e personalizza il contenuto del messaggio, il nome del mittente e l'oggetto. Per ulteriori informazioni sulla creazione di e-mail, consultate questa [pagina](../../designing/using/overview.md).
+1. Definisci e personalizza il contenuto del messaggio, il nome del mittente e l'oggetto. Per ulteriori informazioni sulla creazione di e-mail, consultate questa [pagina](../../designing/using/designing-content-in-adobe-campaign.md).
 
    Quindi fate clic su **[!UICONTROL Create]**.
 
