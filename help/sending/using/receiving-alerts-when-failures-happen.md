@@ -1,18 +1,18 @@
 ---
 title: Ricezione degli avvisi in caso di errori
 description: Scopri come utilizzare il sistema di gestione degli avvisi.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: invio
+audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -206,7 +206,7 @@ Nella **[!UICONTROL Criteria parameters]** scheda di una dashboard [avvisi](#cre
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: Viene inviata una notifica per tutte le consegne con uno **[!UICONTROL Start pending]** stato maggiore della durata specificata in questo campo, **[!UICONTROL Start pending]** stato che significa che i messaggi non sono ancora stati presi in considerazione dal sistema.
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: Per il **[!UICONTROL In progress]** criterio vengono prese in considerazione solo le consegne iniziate (con **[!UICONTROL Deliveries with low throughput]** stato) per più della durata specificata.
 * **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: Per il **[!UICONTROL Deliveries with low throughput]** criterio vengono prese in considerazione solo le consegne con una percentuale di messaggi elaborati inferiore alla percentuale specificata.
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Per il **[!UICONTROL Deliveries with low throughput]** criterio vengono prese in considerazione solo le consegne con un throughput inferiore al valore specificato.
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Per il **[!UICONTROL Deliveries with low throughput]** criterio vengono prese in considerazione solo le consegne con una velocità effettiva inferiore al valore specificato.
 * **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: Vengono prese in considerazione solo le consegne con una percentuale di messaggi elaborati superiore alla percentuale specificata.
 
 ### Frequenza avvisi {#alerting-frequency}
@@ -263,7 +263,7 @@ Di seguito sono riportati alcuni possibili motivi per ricevere le notifiche di a
 
    * Crea regole di tipologia di filtro per escludere una parte della destinazione del messaggio durante l'analisi del recapito, ad esempio i destinatari in quarantena. Consultate [Creazione di una regola](../../administration/using/filtering-rules.md)di filtro.
    * Aggiornate regolarmente il database dei clienti per mantenere buoni processi di gestione della quarantena. Consultate [Le quarantena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * In generale, è possibile migliorare l'offerta al meglio. Consulta la guida dettagliata sulla [gestione della recapito](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) di Adobe Campaign v7 e contatta il tuo amministratore di Adobe Campaign per assistenza.
+   * In generale, è possibile migliorare l'offerta al meglio. Consulta la documentazione dettagliata sulla [distribuzione](../../sending/using/about-deliverability.md) di Adobe Campaign e contatta il tuo amministratore di Adobe Campaign per assistenza.
 
 
 
