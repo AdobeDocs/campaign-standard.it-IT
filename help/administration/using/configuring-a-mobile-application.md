@@ -1,25 +1,25 @@
 ---
 title: Configurazione di un’applicazione mobile
 description: Scopri come configurare Adobe Campaign per l'invio di notifiche push o messaggi in-app tramite SDK V4 o l'SDK della piattaforma Experience.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
-topic-tags: configurazione dei canali
+topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 ---
 
 
 # Configurazione di un’applicazione mobile{#configuring-a-mobile-application}
 
-Le notifiche push o i messaggi in-app vengono ricevuti su applicazioni mobili che devono essere configurate in Adobe Mobile Services per la prima volta a seconda del canale che si desidera utilizzare.
+Le notifiche push o i messaggi in-app vengono ricevuti su applicazioni mobili che devono essere configurate in Adobe Campaign Standard per la prima volta a seconda del canale che si desidera utilizzare.
 
 * Per inviare messaggi in-app e notifiche push, le tue applicazioni mobili devono essere configurate in Adobe Campaign sfruttando gli SDK di Adobe Experience Platform. Consultate [Utilizzo di Adobe Experience Platform SDK](#using-adobe-experience-platform-sdk).
 
