@@ -1,19 +1,19 @@
 ---
 title: Personalizzazione di una notifica push
 description: Scopri come personalizzare le notifiche push con diverse opzioni avanzate.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: notifiche push
+topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 ---
 
@@ -107,10 +107,6 @@ Per aggiungere una categoria in una notifica push:
 A seconda dell'azione dell'utente, l'applicazione riceve una notifica in modo da poter eseguire tutte le attività associate.
 
 ## Aggiunta di una data di scadenza {#add-expiration-date}
-
->[!NOTE]
->
->Queste modifiche si applicano solo a partire dalla release Campaign Standard 19.4.
 
 Impostando una data di scadenza sulla notifica push, puoi impostare una data di scadenza specifica in cui il messaggio non verrà più inviato da Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) o Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)).
 
