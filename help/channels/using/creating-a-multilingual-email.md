@@ -1,18 +1,18 @@
 ---
 title: Creazione di un messaggio e-mail multilingue
 description: Per creare un'e-mail di destinazione multilingue con diverse lingue preferite, effettuate le seguenti operazioni.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -37,7 +37,7 @@ L'audience è basata su profili con informazioni sulla lingua preferita completa
    Se necessario, aggiungere varianti utilizzando il **[!UICONTROL Add an element]** pulsante. **[!UICONTROL Default]** la variante non deve essere eliminata. Quando è impostato su **[!UICONTROL default]**, [la lingua](../../audiences/using/creating-profiles.md) preferita del profilo viene utilizzata per scegliere la variante. È inoltre possibile impostare la **[!UICONTROL Default]** variante su qualsiasi altra lingua.
 
 1. Conferma creazione e-mail: viene visualizzata la dashboard e-mail.
-1. Definite il contenuto dell'e-mail per ogni variante. A seconda del modello scelto, potete definire diversi soggetti, diversi nomi di mittenti o diversi contenuti diversi. Utilizzate il menu a discesa per navigare tra le diverse varianti dell'elemento. Per ulteriori informazioni, consulta la sezione Editor [](../../designing/using/overview.md) contenuto.
+1. Definite il contenuto dell'e-mail per ogni variante. A seconda del modello scelto, potete definire diversi soggetti, diversi nomi di mittenti o diversi contenuti diversi. Utilizzate il menu a discesa per navigare tra le diverse varianti dell'elemento. Per ulteriori informazioni, consulta la sezione Editor [](../../designing/using/designing-content-in-adobe-campaign.md) contenuto.
 
    ![](assets/multi_selectcontent.png)
 
