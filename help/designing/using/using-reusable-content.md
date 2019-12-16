@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -28,7 +28,7 @@ Scopri come gestire l’edizione del contenuto delle e-mail. Designer e-mail con
 
 ### Modelli di contenuto {#content-templates}
 
-È possibile gestire il contenuto HTML che verrà offerto nella **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/overview.md) . I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli 'Feather' hanno margini, mentre i modelli 'Astro' non ne hanno uno. Per ulteriori informazioni, consulta Modelli [di](#content-templates)contenuto.
+È possibile gestire il contenuto HTML che verrà offerto nella **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) . I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli 'Feather' hanno margini, mentre i modelli 'Astro' non ne hanno uno. Per ulteriori informazioni, consulta Modelli [di](#content-templates)contenuto.
 
 ![](assets/template_content.png)
 
@@ -52,7 +52,7 @@ L’esempio seguente mostra come creare un modello di contenuto per e-mail.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Questa miniatura verrà visualizzata nella **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+   Questa miniatura verrà visualizzata nella **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 1. Chiudete la **[!UICONTROL Properties]** scheda per tornare all'area di lavoro principale.
 1. Aggiungere componenti di struttura e contenuti personalizzabili in base alle esigenze.
@@ -61,7 +61,7 @@ L’esempio seguente mostra come creare un modello di contenuto per e-mail.
    > Non potete inserire campi di personalizzazione o contenuto condizionale all'interno di un modello di contenuto.
 1. Dopo aver modificato il modello, salvatelo.
 
-Questo modello può essere utilizzato in qualsiasi e-mail creata con Designer e-mail. Selezionatela dalla **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+Questo modello può essere utilizzato in qualsiasi e-mail creata con Designer e-mail. Selezionatela dalla **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 ![](assets/content_template_new.png)
 
@@ -83,7 +83,7 @@ Quando modificate un'e-mail con Designer e-mail, potete salvare direttamente il 
 
 1. Per trovare il modello appena creato, passate a **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
 
-1. Per utilizzare il nuovo modello, selezionarlo dalla **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+1. Per utilizzare il nuovo modello, selezionarlo dalla **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
 
    ![](assets/content_template_new.png)
 
@@ -170,7 +170,7 @@ Per definire il contenuto del messaggio e-mail, potete aggiungere elementi di co
 1. Ripetete questa procedura per tutti gli elementi da aggiungere all’e-mail.
 1. Salva l’e-mail.
 
-Ora che la struttura delle e-mail è compilata, potete modificare lo stile di ogni elemento di contenuto. Consultate [Modifica di un elemento](../../designing/using/styles.md#editing-an-element).
+Ora che la struttura delle e-mail è compilata, potete modificare lo stile di ogni elemento di contenuto. Consultate [Modifica di un elemento](../../designing/using/styles.md).
 
 >[!NOTE]
 >
