@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -70,7 +70,7 @@ Risorse aggiuntive:
 * Quando un evento messaggio transazionale viene inviato con un parametro di contesto sconosciuto, Campaign ora restituisce un messaggio di errore "400" invece di "500". (CAMP-28632)
 * È stato aggiunto un nuovo segmento **Escludi prova** nel reporting dinamico. Questo segmento è ora selezionato per impostazione predefinita per filtrare i rapporti. [Leggi tutto](../../reporting/using/list-of-components-.md#segments)
 * L'opzione **Scadenza** messaggio è stata aggiunta alla notifica push. Consente di specificare una data di scadenza in cui il messaggio non verrà più inviato da Apple (APNS) o Android (FCM). [Leggi tutto](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Sono stati apportati miglioramenti all'attività del file **** Load: i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all'errore che si verifica quando un file non viene caricato. La transizione in uscita generata durante l'attivazione dell'opzione **Mantieni i rifiuti in un file** è stata rinominata **Rifiuti**. [Leggi tutto](../../automating/using/load-file.md#load-files)
+* Sono stati apportati miglioramenti all'attività del file **** Load: i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all'errore che si verifica quando un file non viene caricato. La transizione in uscita generata durante l'attivazione dell'opzione **Mantieni i rifiuti in un file** è stata rinominata **Rifiuti**. [Leggi tutto](../../automating/using/load-file.md)
 * Sono stati aggiunti registri multilingue ai file di registro di invio per comprendere meglio gli errori di invio dovuti alle lingue mancanti nei file CSV caricati.
 
 ### Miglioramenti della sicurezza {#security-enhancements-3}
@@ -469,7 +469,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 * La nuova esperienza di registrazione vi consentirà di avviare la creazione di e-mail in modo più rapido e di accedere più facilmente alla documentazione e alle esercitazioni.
 
-   Per ulteriori informazioni, consulta la documentazione [](../../designing/using/overview.md#email-designer-home-page)dettagliata.
+   Per ulteriori informazioni, consulta la documentazione [](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)dettagliata.
 
 * Ora puoi configurare il numero di colonne e la larghezza in base alle tue esigenze.
 
@@ -548,7 +548,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
      <li> Possibilità di <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperare automaticamente i contenuti da un URL al momento della preparazione</a> </li> 
      <li> Modelli <a href="../../designing/using/using-reusable-content.md#content-templates">di contenuto</a>out-of-the-box completamente conformi. </li> 
     </ul> 
-    <p>Per ulteriori informazioni, consultate la documentazione <a href="../../designing/using/overview.md"></a> dettagliata e il video <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">sulle</a>procedure. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l'editor del contenuto delle e-mail legacy ora è obsoleto. Per ulteriori informazioni, consultare questa <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">pagina</a>.</p> </td> 
+    <p>Per ulteriori informazioni, consultate la documentazione <a href="../../designing/using/designing-content-in-adobe-campaign.md"></a> dettagliata e il video <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">sulle</a>procedure. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l'editor del contenuto delle e-mail legacy ora è obsoleto. Per ulteriori informazioni, consultare questa <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">pagina</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Elenco prodotti nelle e-mail transazionali<br /> </td> 
