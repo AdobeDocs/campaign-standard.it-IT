@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Per recuperare il file che contiene tutte le informazioni associate a un valore di riconciliazione, procedere come segue:
 
-1. Eseguite una richiesta **POST** per creare una nuova richiesta con l’attributo **type="access"**, consultate [Creazione di una nuova richiesta](#creating-a-privacy-request)di privacy.
+1. Eseguite una richiesta **POST** per creare una nuova richiesta con l’attributo **type="access"**, consultate [Creazione di una nuova richiesta](../../api/using/creating-a-privacy-request.md)di privacy.
 
 1. Eseguite una richiesta **GET** per recuperare informazioni sulla richiesta.
 
