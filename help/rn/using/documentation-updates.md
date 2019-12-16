@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
+source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
 
 ---
 
@@ -32,6 +32,8 @@ La documentazione relativa alla configurazione dell'account esterno di S3 è sta
 La sezione Progettazione del contenuto dell’e-mail è stata riorganizzata. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
 
 La guida introduttiva per la distribuzione è stata integrata nella documentazione di base e aggiornata. [Leggi tutto](../../sending/using/about-deliverability.md)
+
+La guida introduttiva su come esportare/importare risorse personalizzate è stata integrata nella documentazione di base. [Leggi tutto](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Aggiornamenti della documentazione - Novembre 2019 {#doc-updates-november-2019}
 
@@ -86,8 +88,6 @@ Informazioni relative alla privacy sono state aggiunte alla documentazione API [
 La sezione Messaggistica transazionale è stata modificata con gli ultimi aggiornamenti dell'interfaccia utente, inclusa la modifica del contenuto con Email Designer. [Leggi tutto](../../channels/using/event-transactional-messages.md)
 
 Il capitolo delle pagine di destinazione è stato riorganizzato. È stata inoltre arricchita da una nuova sezione che descrive i passaggi necessari per impostare una pagina di destinazione. [Leggi tutto](../../channels/using/getting-started-with-landing-pages.md)
-
-La pagina di integrazione di Audience Manager è stata aggiornata per riflettere le modifiche apportate all’ID **** dichiarato. [Leggi tutto](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Aggiornamenti della documentazione - Settembre 2019 {#doc-updates-september-2019}
 
