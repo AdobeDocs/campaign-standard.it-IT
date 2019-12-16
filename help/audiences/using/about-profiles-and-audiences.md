@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -39,7 +39,7 @@ Identifica i clienti in modo più efficace su tutti i tuoi canali utilizzando pr
 
 >[!CAUTION]
 >
->Devi sempre rispettare i criteri di utilizzo accettabili di [Adobe Campaign](http://www.adobe.com/legal/terms/aup.html).
+>Devi sempre rispettare i criteri di utilizzo accettabili di [Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 Il GDPR è la nuova legge dell’Unione europea sulla privacy che armonizza e aggiorna i requisiti in materia di protezione dei dati. Il Regolamento GDPR si applica ai clienti Adobe Campaign che detengono dati per i soggetti dati residenti nell'UE. Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità in qualità di Data Processor per includere funzionalità aggiuntive, al fine di facilitare la tua disponibilità come Data Controller per determinate richieste GDPR.
 
