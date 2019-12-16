@@ -1,19 +1,19 @@
 ---
 title: Progettazione di un messaggio e-mail per test A/B
 description: Scopri la funzionalità di test A/B e segui questi passaggi per creare un'e-mail da un modello di test A/B in Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
-context-tags: consegna,abTesting,back;deliveryCreation,procedura guidata;consegna,principale
+context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -57,7 +57,7 @@ Nel contesto specifico di un test A/B:
       La prova deve essere di almeno un'ora affinché tutti i dati di tracciamento siano raccolti e presi in considerazione correttamente per selezionare la variante vincente.
    ![](assets/ab_parameters.png)
 
-1. Una volta definiti i parametri di test A/B, passate al passaggio successivo della procedura guidata e definite il contenuto dell'e-mail. A seconda del modello scelto, potete definire diversi soggetti, diversi nomi di mittenti o diversi contenuti diversi. Utilizzate il carosello per navigare tra le diverse varianti dell'elemento. Per ulteriori informazioni, consulta la sezione Editor [](../../designing/using/overview.md) contenuto.
+1. Una volta definiti i parametri di test A/B, passate al passaggio successivo della procedura guidata e definite il contenuto dell'e-mail. A seconda del modello scelto, potete definire diversi soggetti, diversi nomi di mittenti o diversi contenuti diversi. Utilizzate il carosello per navigare tra le diverse varianti dell'elemento. Per ulteriori informazioni, consulta la sezione Editor [](../../designing/using/designing-content-in-adobe-campaign.md) contenuto.
 
    ![](assets/create_ab_testing2.png)
 
