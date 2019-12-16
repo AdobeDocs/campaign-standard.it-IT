@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b2df5ca4d38e35f57815924ffbe0313dc1a22b29
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -52,8 +52,8 @@ Per ulteriori informazioni, consulta [Informazioni sulla gestione](../../sending
 **Come posso sapere se uno dei miei IP è in lista nera? Come posso rimuovere la blacklist dei miei IP?**
 
 Per verificare se l'indirizzo IP è inserito in una blacklist, potete usare diversi siti Web per verificarlo:
-* http://mxtoolbox.com/
-* http://whatismyipaddress.com/blacklist-check
+* https://mxtoolbox.com/
+* https://whatismyipaddress.com/blacklist-check
 * http://www.blacklistalert.org/
 
 In genere, il risultato della verifica dell'indirizzo IP restituirà un elenco contenente i dettagli della blacklist e il nome del sito Web che ha inserito in blacklist l'indirizzo IP.
