@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 68921819a5335626e45678ec569172ffef46a636
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -115,9 +115,9 @@ Specificate l' **[!UICONTROL AWS Region]** endpoint associato. È possibile cons
 
 Per facilitare l'impostazione del vostro account Amazon S3, vi consigliamo di seguire le seguenti raccomandazioni:
 
-* Crea criteri fissi rigidi per limitare l'accesso ai bucket S3. È possibile configurare il criterio del bucket durante la creazione di un bucket. Per ulteriori informazioni, consultate la documentazione [di](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)Amazon S3.
+* Crea criteri fissi rigidi per limitare l'accesso ai bucket S3. È possibile configurare il criterio del bucket durante la creazione di un bucket. Per ulteriori informazioni, consultate la documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)Amazon S3.
 * Durante la creazione di un account esterno, abilitare la crittografia per memorizzare dati sensibili nel bucket S3 selezionando la **[!UICONTROL Keep files in S3 encrypted]** casella.
-* Concedere autorizzazioni bucket per specificare chi può accedere all'oggetto in un bucket. Per ulteriori informazioni sull'autorizzazione bucket, fare riferimento alla documentazione [Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Concedere autorizzazioni bucket per specificare chi può accedere all'oggetto in un bucket. Per ulteriori informazioni sull'autorizzazione bucket, fare riferimento alla documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3.
 
 ## Account esterno di Adobe Experience Manager {#adobe-experience-manager-external-account}
 
