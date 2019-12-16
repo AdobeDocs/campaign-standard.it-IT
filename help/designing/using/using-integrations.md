@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -137,7 +137,7 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
   </tr> 
   <tr> 
    <td> <strong>Per saperne di più</strong><br /> </td> 
-   <td> Vedere <a href="../../designing/using/overview.md">Informazioni su Designer</a>e-mail.<br /> </td> 
+   <td> Vedere <a href="../../designing/using/designing-content-in-adobe-campaign.md">Informazioni su Designer</a>e-mail.<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
    <td> Consulta <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guarda questo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a>.<br /> </td> 
   </tr> 
