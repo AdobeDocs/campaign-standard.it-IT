@@ -1,18 +1,18 @@
 ---
 title: Note sulla versione 2017
 description: In questa pagina sono elencate tutte le versioni 2017 di Adobe Campaign Standard.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
-topic-tags: release standard di campagna
+topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -329,7 +329,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
   </tr> 
   <tr> 
    <td> Integrazione Dreamweaver live<br /> </td> 
-   <td> L'integrazione tra Adobe Campaign e Dreamweaver ora è live. Ora funziona con l'ultima versione ufficiale di Dreamweaver (17.0.2).<br /> Ciò richiede l'installazione dell'estensione Adobe Campaign Integration da qui: <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br /> Per ulteriori informazioni, consultate questo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a>.<br /> </td> 
+   <td> L'integrazione tra Adobe Campaign e Dreamweaver ora è live. Ora funziona con l'ultima versione ufficiale di Dreamweaver (17.0.2).<br /> Ciò richiede l'installazione dell'estensione Adobe Campaign Integration da qui: <a href="http://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Per ulteriori informazioni, consultate questo <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
