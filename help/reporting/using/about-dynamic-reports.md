@@ -1,18 +1,18 @@
 ---
 title: Informazioni sui report dinamici
 description: Con i rapporti dinamici, trascina e rilascia variabili e dimensioni nell’ambiente a forma libera e analizza il successo delle campagne.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: informazioni sui rapporti
+topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/dynamic_report_intro.png)
 
-I rapporti dinamici forniscono rapporti completamente personalizzabili e in tempo reale. Consente l'accesso ai dati del profilo e l'analisi demografica per dimensioni del profilo quali genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. L'interfaccia di trascinamento consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari.
+Dynamic Reporting (Generazione di rapporti dinamica) fornisce report completamente personalizzabili e in tempo reale. Consente l'accesso ai dati del profilo e l'analisi demografica per dimensioni del profilo quali genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. L'interfaccia di trascinamento consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari.
 
 Grazie al menu di trascinamento e alle visualizzazioni personalizzabili, la funzione di report dinamici consente di combinare dimensioni, metriche e intervallo di tempo in qualsiasi combinazione, con suddivisioni e confronti illimitati.
 
@@ -63,10 +63,6 @@ I rapporti dinamici sono suddivisi in due categorie:
 
 ## Accordo di utilizzo per rapporti dinamici {#dynamic-reporting-usage-agreement}
 
->[!NOTE]
->
-> A partire dalla versione 19.4 di Campaign Standard, la finestra a comparsa di consenso per il reporting dinamico è stata aggiornata per includere l'integrazione di Adobe Campaign Standard e Microsoft Dynamics 365.
-
 Lo scopo dell'accordo di utilizzo di reporting dinamico è di fungere da consenso popup per l'elaborazione dei dati. Per impostazione predefinita, il contratto è visibile e può essere accettato o rifiutato solo dagli utenti ai quali sono stati assegnati diritti di amministrazione.
 
 Sono disponibili tre opzioni:
@@ -92,7 +88,5 @@ Nella tabella seguente sono riportati gli eventi che si verificano dopo il rifiu
 Questa scelta non è finale, potete sempre modificarla selezionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** &gt; **[!UICONTROL Application Settings]** &gt; **[!UICONTROL Options]**.
 
 Il valore può essere modificato in qualsiasi momento. Il valore 1 corrisponde a **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** e 3 **[!UICONTROL Accept]**.
-
-Per le versioni precedenti ad Adobe Campaign Standard 19.4, il valore -1 corrisponde a **[!UICONTROL Ask me later]**, 0 **[!UICONTROL Decline]** e 1 **[!UICONTROL Accept]**.
 
 ![](assets/pii_window_2.png)
