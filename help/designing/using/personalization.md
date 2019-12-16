@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -61,11 +61,11 @@ Adobe Campaign consente di inserire un campo dal database nella pagina, ad esemp
 
 >[!NOTE]
 >
->Le immagini seguenti mostrano come inserire un campo di personalizzazione utilizzando [Email Designer](../../designing/using/overview.md) per un messaggio e-mail.
+>Le immagini seguenti mostrano come inserire un campo di personalizzazione utilizzando [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) per un messaggio e-mail.
 
 Per aggiungere un campo di personalizzazione al contenuto:
 
-1. Fare clic all'interno di un blocco di testo, fare clic sull' **[!UICONTROL Personalize]** icona dalla barra degli strumenti contestuale e selezionare **[!UICONTROL Insert personalization field]**. Per ulteriori informazioni sull'interfaccia di Designer e-mail, vedere [questa sezione](../../designing/using/overview.md#email-designer-interface).
+1. Fare clic all'interno di un blocco di testo, fare clic sull' **[!UICONTROL Personalize]** icona dalla barra degli strumenti contestuale e selezionare **[!UICONTROL Insert personalization field]**. Per ulteriori informazioni sull'interfaccia di Designer e-mail, vedere [questa sezione](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -91,11 +91,11 @@ Adobe Campaign offre un elenco di blocchi di contenuto preconfigurati. Questi bl
 
 >[!NOTE]
 >
->Le immagini seguenti mostrano come inserire un blocco di contenuto tramite [Email Designer](../../designing/using/overview.md) per un messaggio e-mail.
+>Le immagini seguenti mostrano come inserire un blocco di contenuto tramite [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) per un messaggio e-mail.
 
 Per aggiungere un blocco di contenuto:
 
-1. Fare clic all'interno di un blocco di testo, fare clic sull' **[!UICONTROL Personalize]** icona dalla barra degli strumenti contestuale e selezionare **[!UICONTROL Insert content block]**. Per ulteriori informazioni sull'interfaccia di Designer e-mail, vedere [questa sezione](../../designing/using/overview.md#email-designer-interface).
+1. Fare clic all'interno di un blocco di testo, fare clic sull' **[!UICONTROL Personalize]** icona dalla barra degli strumenti contestuale e selezionare **[!UICONTROL Insert content block]**. Per ulteriori informazioni sull'interfaccia di Designer e-mail, vedere [questa sezione](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
