@@ -12,7 +12,7 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
 ---
 
@@ -36,7 +36,7 @@ Risorse aggiuntive:
 * [Distribuzione di pacchetti:Principio di funzionamento](../../developing/using/data-model-concepts.md)
 * [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Passaggio 1: Esportazione della struttura {#exporting-the-structure}
+##  Esportazione della struttura {#exporting-the-structure}
 
 In questa sezione verrà eseguita un'esportazione del primo pacchetto con informazioni dettagliate sulla struttura fisica dei dati delle risorse personalizzate.
 
