@@ -1,18 +1,18 @@
 ---
 title: Aggiunta di pannelli
 description: Il rapporto dinamico consente di aggiungere un pannello per filtrare meglio i dati in base al periodo di tempo scelto.
-page-status-flag: mai attivato
-uuid: 8e76e837-5efc-4250-8192-de1a0bd62fe
+page-status-flag: never-activated
+uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: personalizzazione dei report
+topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ Ogni tabella e visualizzazione può essere ridimensionata e spostata per persona
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. A partire dalla versione Campaign 19.4, l'opzione **[!UICONTROL Exclude proof]** sarà già selezionata per impostazione predefinita. Se necessario, potete modificarlo trascinando una delle due opzioni **[!UICONTROL Segments]** dalla **[!UICONTROL Components]** scheda alla barra superiore.
+1. Il **[!UICONTROL Exclude proof]** segmento è già selezionato per impostazione predefinita. Se necessario, potete modificarlo trascinando una delle due opzioni **[!UICONTROL Segments]** dalla **[!UICONTROL Components]** scheda alla barra superiore.
 
    ![](assets/dynamic_report_panel_3.png)
 
