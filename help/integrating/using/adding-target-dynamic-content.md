@@ -1,18 +1,18 @@
 ---
 title: Aggiunta di contenuto dinamico Target
 description: Scopri come aggiungere contenuto dinamico Adobe Target in una delle distribuzioni di Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integration
+audience: integrating
 content-type: reference
-topic-tags: con campagna e destinazione
+topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -26,8 +26,8 @@ Durante la modifica di un messaggio e-mail, puoi inserire un'immagine dinamica d
 Prima di accedere all'immagine in Adobe Campaign, è necessario effettuare le seguenti operazioni in Adobe Target:
 
 * Create una o più offerte [di](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html)reindirizzamento, nelle quali dovete specificare l'URL dell'immagine che state utilizzando.
-* Create una o più [audience](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html), per definire il target dell'attività.
-* Create un'attività di composer [esperienza basata su](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) modulo, in cui dovete selezionare una rawbox e specificare diverse esperienze, a seconda del numero di offerte di reindirizzamento create. Per ogni esperienza, dovete selezionare una delle offerte di reindirizzamento create.
+* Create una o più [audience](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html), per definire il target dell'attività.
+* Create un'attività di composer [esperienza basata su](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) modulo, in cui dovete selezionare una rawbox e specificare diverse esperienze, a seconda del numero di offerte di reindirizzamento create. Per ogni esperienza, dovete selezionare una delle offerte di reindirizzamento create.
 * Crea segmenti utilizzando le informazioni di Adobe Campaign per specificare le esperienze. Per utilizzare i dati di Adobe Campaign nelle regole di selezione dell'offerta, devi specificare i dati nella rawbox in Adobe Target.
 
 1. Creare una consegna tramite e-mail.
@@ -54,6 +54,6 @@ Prima di accedere all'immagine in Adobe Campaign, è necessario effettuare le se
 **Argomenti correlati:**
 
 * [Adobe Target Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
-* [Informazioni sulla progettazione del contenuto delle e-mail](../../designing/using/overview.md)
+* [Informazioni sulla progettazione del contenuto delle e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalizzare le immagini delle e-mail in video in tempo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) reale
 
