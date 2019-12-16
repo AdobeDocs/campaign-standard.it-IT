@@ -1,18 +1,18 @@
 ---
 title: Creazione di un messaggio e-mail
 description: Per creare un'e-mail con invio singolo in Adobe Campaign, procedi come indicato di seguito.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -47,7 +47,7 @@ Puoi creare un'e-mail da una [campagna](../../start/using/marketing-activities.m
 
    ![](assets/email_creation_3.png)
 
-1. Definite e personalizzate il contenuto del messaggio, il nome del mittente e l'oggetto utilizzando [Email Designer](../../designing/using/overview.md). Per ulteriori informazioni, consultate [Informazioni sulla progettazione](../../designing/using/overview.md)del contenuto delle e-mail.
+1. Definite e personalizzate il contenuto del messaggio, il nome del mittente e l'oggetto utilizzando [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md). Per ulteriori informazioni, consultate [Informazioni sulla progettazione](../../designing/using/designing-content-in-adobe-campaign.md)del contenuto delle e-mail.
 
    ![](assets/email_creation_4.png)
 
