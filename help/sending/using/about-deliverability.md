@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -73,7 +73,7 @@ Gli ISP solitamente dispongono di uno strumento importante per segnalare un mess
 
 ## Invio agli indirizzi delle melanzane {#honeypot-addresses}
 
-I provider di servizi Internet e altre organizzazioni (fare riferimento a http://www.projecthoneypot.org/) utilizzano caselle di posta che non corrispondono a persone fisiche ma sono create semplicemente per ingannare gli spammer. Questi cosiddetti indirizzi "vaso di miele" sono pubblicati sul Web per essere raccolti dagli spambots e quindi catturare mittenti illegittimi. L'uso di un doppio meccanismo di opt-in impedisce l'aggiunta di questo tipo di indirizzo a un elenco. Quando si utilizza un elenco di terze parti, è necessario essere certi dei metodi utilizzati dal relativo manutentore.
+I provider di servizi Internet e altre organizzazioni (fare riferimento a https://www.projecthoneypot.org/) utilizzano caselle di posta che non corrispondono a persone fisiche ma sono create semplicemente per ingannare gli spammer. Questi cosiddetti indirizzi "vaso di miele" sono pubblicati sul Web per essere raccolti dagli spambots e quindi catturare mittenti illegittimi. L'uso di un doppio meccanismo di opt-in impedisce l'aggiunta di questo tipo di indirizzo a un elenco. Quando si utilizza un elenco di terze parti, è necessario essere certi dei metodi utilizzati dal relativo manutentore.
 
 ## Adattamento del contenuto dei messaggi {#adapt-message-content}
 
