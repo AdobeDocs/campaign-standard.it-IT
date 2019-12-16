@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
+source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 
 ---
 
@@ -29,7 +29,7 @@ Risorse aggiuntive:
 * [Pannello di controllo Campaign](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Note sulla versione precedente: [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
-## Rilascio 19.4 - ottobre 2019 {#release-19-4---october-2019}
+## Rilascio 19.4 - dicembre 2019 {#release-19-4---october-2019}
 
 ### What's new? {#what-s-new-5}
 
@@ -81,6 +81,8 @@ Risorse aggiuntive:
 
 ### Miglioramenti di Email Designer {#email-designer-enhancements-4}
 
+* È stato risolto un problema che impediva il tracciamento dei collegamenti di annullamento iscrizione, iscrizione e pagina di destinazione quando venivano inseriti in un messaggio e-mail. (CAMP-37809)
+* È stato risolto un problema che poteva causare errori durante la creazione di un nuovo messaggio e-mail e la selezione di un modello. (CAMP-38000)
 * Quando si modifica un collegamento utilizzando la finestra di progettazione e-mail, è ora possibile utilizzare l'opzione **Sottolineato collegamento** . Inoltre, è stata aggiunta una proprietà **Target** con il valore predefinito impostato su **Nessuno**. [Leggi tutto](../../designing/using/styles.md#about-styling-links)
 * È stato risolto un problema di colore sui collegamenti in componenti di testo nel corpo di un messaggio e-mail. (CAMP-37330)
 * È stato risolto un problema che impediva la rimozione dei collegamenti associati durante l'eliminazione di un'immagine. (CAMP-37234)
