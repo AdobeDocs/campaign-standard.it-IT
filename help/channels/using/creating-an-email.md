@@ -12,34 +12,34 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
 
 ---
 
 
 # Creazione di un messaggio e-mail{#creating-an-email}
 
-Puoi creare un'e-mail da una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity), dalla [home page](../../start/using/interface-description.md#home-page)di Adobe Campaign o dall'elenco [delle attività di](../../start/using/marketing-activities.md#about-marketing-activities)marketing. Potete anche creare e-mail singole e ricorrenti da un flusso di lavoro.
+Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity), dalla [home page](../../start/using/interface-description.md#home-page)di Adobe Campaign o dall&#39;elenco [delle attività di](../../start/using/marketing-activities.md#about-marketing-activities)marketing. Potete anche creare e-mail singole e ricorrenti da un flusso di lavoro.
 
-1. Dopo aver iniziato a creare un'attività di e-mail marketing, seleziona il modello da utilizzare.
+1. Dopo aver iniziato a creare un&#39;attività di e-mail marketing, seleziona il modello da utilizzare.
 
-   Per impostazione predefinita, potete scegliere tra diversi modelli per ogni attività di marketing. Questo consente di preconfigurare alcuni parametri in base alle esigenze e di assegnare un marchio alla consegna. Per ulteriori informazioni, consultate [Gestione dei modelli](../../start/using/about-templates.md).
+   Per impostazione predefinita, potete scegliere tra diversi modelli per ogni attività di marketing. Questo consente di preconfigurare alcuni parametri in base alle esigenze e di assegnare un marchio alla consegna. Per ulteriori informazioni, consultate [Gestione dei modelli](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Per visualizzarle, selezionate le caselle a sinistra (pannello **[!UICONTROL Filter]** laterale).
+   >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Per visualizzarle, selezionate le caselle a sinistra (pannello **[!UICONTROL Filter]**laterale).
 
-1. Immettete le proprietà generali del messaggio e-mail. Potete immettere un nome nel campo **Etichetta** e modificare l’ID. Sia il nome dell'attività che il relativo ID vengono visualizzati nell'interfaccia, ma non sono visibili ai destinatari del messaggio.
+1. Immettete le proprietà generali del messaggio e-mail. Potete immettere un nome nel campo **Etichetta** e modificare l’ID. Sia il nome dell&#39;attività che il relativo ID vengono visualizzati nell&#39;interfaccia, ma non sono visibili ai destinatari del messaggio.
 
-   Potete aggiungere una descrizione che l'utente può visualizzare nel contenuto della campagna.
+   Potete aggiungere una descrizione che l&#39;utente può visualizzare nel contenuto della campagna.
 
    ![](assets/email_creation_2.png)
 
    >[!NOTE]
    >
-   >Puoi creare l'e-mail all'interno di una campagna padre dalla pagina principale o dall'elenco delle attività di marketing. Selezionatela dalle campagne già create.
+   >Puoi creare l&#39;e-mail all&#39;interno di una campagna padre dalla pagina principale o dall&#39;elenco delle attività di marketing. Selezionatela dalle campagne già create.
 
 1. Definisci la destinazione del messaggio in base ai criteri aziendali. Consultate [Gestione dei profili](../../audiences/using/about-profiles.md).
 
@@ -47,7 +47,7 @@ Puoi creare un'e-mail da una [campagna](../../start/using/marketing-activities.m
 
    ![](assets/email_creation_3.png)
 
-1. Definite e personalizzate il contenuto del messaggio, il nome del mittente e l'oggetto utilizzando [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md). Per ulteriori informazioni, consultate [Informazioni sulla progettazione](../../designing/using/designing-content-in-adobe-campaign.md)del contenuto delle e-mail.
+1. Definite e personalizzate il contenuto del messaggio, il nome del mittente e l&#39;oggetto utilizzando [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md). Per ulteriori informazioni, consultate [Informazioni sulla progettazione](../../designing/using/designing-content-in-adobe-campaign.md)del contenuto delle e-mail.
 
    ![](assets/email_creation_4.png)
 
@@ -58,11 +58,11 @@ Puoi creare un'e-mail da una [campagna](../../start/using/marketing-activities.m
 
    >[!NOTE]
    >
-   >Per poter salvare l’e-mail, è innanzitutto necessario apportare alcune modifiche al contenuto. Se fate clic **[!UICONTROL Cancel]** a questo punto, la procedura guidata non verrà completata e il messaggio e-mail non verrà creato.
+   >Per poter salvare l’e-mail, è innanzitutto necessario apportare alcune modifiche al contenuto. Se fate clic **[!UICONTROL Cancel]**a questo punto, la procedura guidata non verrà completata e il messaggio e-mail non verrà creato.
 
-   Viene quindi visualizzato il dashboard e-mail. Consente di controllare il messaggio e [preparare l'invio](../../sending/using/preparing-the-send.md).
+   Viene quindi visualizzato il dashboard e-mail. Consente di controllare il messaggio e [preparare l&#39;invio](../../sending/using/preparing-the-send.md).
 
-   Il **[!UICONTROL Edit properties]** pulsante in alto a destra consente di modificare le proprietà del messaggio e-mail. Ad esempio, potete configurare l’e-mail in modo che la relativa etichetta venga calcolata al momento della preparazione della consegna.  I parametri disponibili sono elencati in [questa sezione](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   Il **[!UICONTROL Edit properties]**pulsante in alto a destra consente di modificare le proprietà del messaggio e-mail. Ad esempio, potete configurare l’e-mail in modo che la relativa etichetta venga calcolata al momento della preparazione della consegna.  I parametri disponibili sono elencati in[questa sezione](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -86,12 +86,12 @@ Puoi creare un'e-mail da una [campagna](../../start/using/marketing-activities.m
 
    ![](assets/confirm_delivery.png)
 
-1. Misura l'impatto del messaggio con i report di consegna. Per ulteriori informazioni sui rapporti, consulta [questa sezione](../../reporting/using/about-dynamic-reports.md).
+1. Misura l&#39;impatto del messaggio con i report di consegna. Per ulteriori informazioni sui rapporti, consulta [questa sezione](../../reporting/using/about-dynamic-reports.md).
 
 **Argomenti** correlati:
 
 * [Creazione di un video e-mail](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
 * [Creazione di una guida dettagliata sull’e-mail](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html) personalizzata
-* [Video sull'integrazione](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) di Adobe Campaign e Dreamweaver
+* [Video sull&#39;integrazione](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) di Adobe Campaign e Dreamweaver
 * [Integrazione con Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
