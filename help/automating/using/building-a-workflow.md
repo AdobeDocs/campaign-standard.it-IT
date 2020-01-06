@@ -1,19 +1,19 @@
 ---
 title: Creazione di un flusso di lavoro
 description: Questa sezione descrive i principi principali e le procedure ottimali per la creazione di un nuovo flusso di lavoro.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: workflow generale
+topic-tags: workflow-general-operation
 discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
-context-tags: flusso di lavoro,procedura guidata;flusso di lavoro,principale
+context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -28,9 +28,9 @@ Questa sezione descrive i principi principali e le procedure ottimali per la cre
 
 ## Creazione di un flusso di lavoro {#creating-a-workflow}
 
-Puoi creare un flusso di lavoro da un programma, una campagna o l'elenco delle attività di marketing.
+Puoi creare un flusso di lavoro da un programma, una campagna o l&#39;elenco delle attività di marketing.
 
-La creazione di un'attività di marketing è dettagliata nella sezione [Creazione di attività](../../start/using/marketing-activities.md#creating-a-marketing-activity) di marketing.
+La creazione di un&#39;attività di marketing è dettagliata nella sezione [Creazione di attività](../../start/using/marketing-activities.md#creating-a-marketing-activity) di marketing.
 
 1. Dopo aver iniziato a creare un tipo di flusso di lavoro attività di marketing, seleziona il modello da utilizzare.
 
@@ -38,23 +38,23 @@ La creazione di un'attività di marketing è dettagliata nella sezione [Creazion
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, ogni attività di marketing offre diversi tipi. che consentono di preconfigurare alcuni parametri in base alle esigenze. Per ulteriori informazioni, consultare la sezione [Gestione dei modelli](../../start/using/about-templates.md) .
+   >Per impostazione predefinita, ogni attività di marketing offre diversi tipi. che consentono di preconfigurare alcuni parametri in base alle esigenze. Per ulteriori informazioni, consultare la sezione [Gestione dei modelli](../../start/using/marketing-activity-templates.md) .
 
 1. Immettete le proprietà generali del flusso di lavoro.
 
    ![](assets/workflow_creation_2.png)
 
-   Potete immettere un nome nel campo **Etichetta** e modificare l’ID. Il nome dell'attività e il relativo ID vengono visualizzati nell'interfaccia, ma non sono visibili dai destinatari del messaggio.
+   Potete immettere un nome nel campo **Etichetta** e modificare l’ID. Il nome dell&#39;attività e il relativo ID vengono visualizzati nell&#39;interfaccia, ma non sono visibili dai destinatari del messaggio.
 
    >[!NOTE]
    >
    >Puoi creare il flusso di lavoro all’interno di una campagna padre dall’elenco delle attività di marketing. Potete collegare questo flusso di lavoro a una campagna selezionandone una già creata.
 
-   Potete aggiungere una descrizione che l'utente può visualizzare nel contenuto della campagna.
+   Potete aggiungere una descrizione che l&#39;utente può visualizzare nel contenuto della campagna.
 
-   Poiché semplifica la ricerca e la risoluzione dei problemi se non vengono eseguite nei modi previsti, Adobe consiglia di assegnare ai flussi di lavoro nomi ed etichette corretti: compilare il campo di descrizione del flusso di lavoro per riepilogare il processo da eseguire in modo che l'operatore possa capirlo facilmente.
+   Poiché semplifica la ricerca e la risoluzione dei problemi se non vengono eseguite nei modi previsti, Adobe consiglia di assegnare ai flussi di lavoro nomi ed etichette corretti: compilare il campo di descrizione del flusso di lavoro per riepilogare il processo da eseguire in modo che l&#39;operatore possa capirlo facilmente.
 
-1. Conferma la creazione dell'attività e il dashboard per tale attività verrà visualizzato. Per ulteriori informazioni, consulta la sezione dell’interfaccia [](../../automating/using/workflow-interface.md) Flusso di lavoro.
+1. Confermate la creazione dell&#39;attività e verrà visualizzata la dashboard per tale attività. Per ulteriori informazioni, consulta la sezione dell’interfaccia [](../../automating/using/workflow-interface.md) Flusso di lavoro.
 
 **Argomento correlato:**
 
@@ -68,24 +68,24 @@ La creazione di un'attività di marketing è dettagliata nella sezione [Creazion
 >
 >Se la palette non è visualizzata, fare clic sul primo pulsante della barra degli strumenti per visualizzarla.
 
-Le attività sono raggruppate per categoria all'interno delle diverse sezioni della palette.
+Le attività sono raggruppate per categoria all&#39;interno delle diverse sezioni della palette.
 
 * La prima sezione contiene attività di targeting.
 * La seconda sezione contiene le attività di esecuzione, utilizzate principalmente per coordinare altre attività.
-* La terza sezione contiene attività che possono essere utilizzate per inviare messaggi su canali diversi. Le attività in questa sezione possono variare a seconda dei canali abilitati nell'istanza.
+* La terza sezione contiene attività che possono essere utilizzate per inviare messaggi su canali diversi. Le attività in questa sezione possono variare a seconda dei canali abilitati nell&#39;istanza.
 * La quarta sezione contiene le attività di gestione dei file e dei dati.
 
 Per creare il diagramma:
 
-1. Aggiungete un'attività trascinandola dalla palette e rilasciandola nel diagramma.
+1. Aggiungete un&#39;attività trascinandola dalla palette e rilasciandola nel diagramma.
 
-   Ad esempio, aggiungere un'attività **Start** e quindi un'attività di distribuzione **** tramite e-mail nel diagramma.
+   Ad esempio, aggiungere un&#39;attività **Start** e quindi un&#39;attività di distribuzione **** tramite e-mail nel diagramma.
 
-1. Collegate le attività trascinando la transizione dell'attività **Avvia** e rilasciandola sull'attività di consegna **tramite** e-mail.
+1. Collegate le attività trascinando la transizione dell&#39;attività **Avvia** e rilasciandola sull&#39;attività di consegna **tramite** e-mail.
 
    >[!NOTE]
    >
-   >Potete collegare automaticamente un'attività alla precedente inserendo la nuova attività alla fine della transizione della precedente.
+   >Potete collegare automaticamente un&#39;attività alla precedente inserendo la nuova attività alla fine della transizione della precedente.
 
 1. Aggiungete le attività necessarie e collegatele per completare il flusso di lavoro.
 
@@ -95,7 +95,7 @@ Per creare il diagramma:
 
 Una volta collegate le attività del flusso di lavoro, potete personalizzare le transizioni tra di esse con l’ **etichetta** desiderata. A questo scopo, fate doppio clic sulla transizione per accedere alle relative proprietà.
 
-Inoltre, **[!UICONTROL Targeting]** e **[!UICONTROL Data management (ETL)]** le attività consentono di definire codici **di** segmento per le loro transizioni in uscita. Potete quindi creare rapporti basati su questi codici di segmento per misurare l'efficienza delle campagne di marketing. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+Inoltre, **[!UICONTROL Targeting]**e**[!UICONTROL Data management (ETL)]** le attività consentono di definire codici **di** segmento per le loro transizioni in uscita. Potete quindi creare rapporti basati su questi codici di segmento per misurare l&#39;efficienza delle campagne di marketing. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Casi di utilizzo del flusso di lavoro:**
 
@@ -106,11 +106,11 @@ Inoltre, **[!UICONTROL Targeting]** e **[!UICONTROL Data management (ETL)]** le 
 
 ## Configurazione delle attività {#configuring-activities}
 
-Per impostazione predefinita, le attività non sono impostate e non elaborano correttamente i dati se non sono configurate. Ogni attività contiene diverse schede per gestire configurazioni specifiche e opzioni generiche dell'attività come transizioni in uscita, etichette e così via.
+Per impostazione predefinita, le attività non sono impostate e non elaborano correttamente i dati se non sono configurate. Ogni attività contiene diverse schede per gestire configurazioni specifiche e opzioni generiche dell&#39;attività come transizioni in uscita, etichette e così via.
 
 1. Assicuratevi che tutte le attività siano correttamente connesse. Alcune attività richiedono di rilevare la struttura o la natura dei dati in arrivo per offrire le opzioni di configurazione corrette.
-1. Fate doppio clic su un'attività o selezionatela e fate clic sull'azione **[!UICONTROL Edit]** contestuale per aprire la relativa finestra di configurazione.
-1. Modificate l'etichetta dell'attività.
-1. Definire tutte le diverse opzioni necessarie per elaborare i dati. Fate riferimento alla sezione specifica dell'attività di questa documentazione per apprendere le possibili opzioni per ogni attività.
-1. Salvate l'attività e ripetete queste operazioni per ogni attività del flusso di lavoro.
+1. Fate doppio clic su un&#39;attività o selezionatela e fate clic sull&#39;azione **[!UICONTROL Edit]**contestuale per aprire la relativa finestra di configurazione.
+1. Modificate l&#39;etichetta dell&#39;attività.
+1. Definire tutte le diverse opzioni necessarie per elaborare i dati. Fate riferimento alla sezione specifica dell&#39;attività di questa documentazione per apprendere le possibili opzioni per ogni attività.
+1. Salvate l&#39;attività e ripetete queste operazioni per ogni attività del flusso di lavoro.
 1. Salvare il flusso di lavoro.
