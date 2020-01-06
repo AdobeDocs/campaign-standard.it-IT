@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
@@ -27,19 +27,15 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
       + [Integrazione con le soluzioni Adobe](start/using/integrating-with-adobe-solutions.md)
       + [Arricchimento database Campaign](start/using/enriching-campaign-database.md)
    + Esplorazione dell’interfaccia {#discovering-the-interface}
-      + [Informazioni sull'interfaccia](start/using/about-the-interface.md)
+      + [Informazioni sull&#39;interfaccia](start/using/about-the-interface.md)
       + [Descrizione interfaccia](start/using/interface-description.md)
       + [Browser compatibili](start/using/compatible-browsers.md)
       + [Personalizzazione degli elenchi](start/using/customizing-lists.md)
    + Piani di marketing {#marketing-plans}
       + [Programmi e campagne](start/using/programs-and-campaigns.md)
       + [Attività di marketing](start/using/marketing-activities.md)
+      + [Modelli di attività di marketing](start/using/marketing-activity-templates.md)
       + [Timeline](start/using/timeline.md)
-   + Gestione dei modelli {#managing-templates}
-      + [Informazioni sui modelli](start/using/about-templates.md)
-      + [Creazione di un nuovo modello](start/using/creating-a-new-template.md)
-      + [Creazione di un modello multilingue](start/using/creating-a-multilingual-template.md)
-      + [Utilizzo di un modello](start/using/using-a-template.md)
    + Esercitazioni {#tutorials}
       + [Guide dettagliate](start/using/step-by-step-guides.md)
       + [Video dimostrativi](start/using/how-to-videos.md)
@@ -157,7 +153,7 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
       + [Migliorare la tua reputazione](sending/using/improving-reputation.md)
       + [Whitelists](sending/using/whitelists.md)
       + [Raccomandazioni tecniche](sending/using/technical-recommendations.md)
-      + [Monitoraggio dell'offerta](sending/using/monitor-deliverability.md)
+      + [Monitoraggio dell&#39;offerta](sending/using/monitor-deliverability.md)
       + [Risoluzione dei problemi](sending/using/troubleshooting.md)
 + Reporting {#reporting}
    + Informazioni sul reporting {#about-reporting}
@@ -279,7 +275,7 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
       + [Esportazione dei registri](automating/using/exporting-logs.md)
       + [Gestione dei pacchetti](automating/using/managing-packages.md)
       + [Esportazione di elenchi](automating/using/exporting-lists.md)
-      + [Caso di utilizzo:Esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
+      + [Caso di utilizzo: Esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
    + Casi di utilizzo: flussi di lavoro {#workflow-use-case}
       + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
       + [Creazione di consegne nella data di creazione](automating/using/workflow-creation-date-query.md)
@@ -357,7 +353,7 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
    + Informazioni sulle API Campaign Standard {#about-campaign-standard-apis}
       + [Panoramica](api/using/about-campaign-standard-apis.md)
       + [Perché utilizzare le API di Campaign Standard](api/using/why-using-campaign-standard-apis.md)
-      + [Impostazione dell'accesso API](api/using/setting-up-api-access.md)
+      + [Impostazione dell&#39;accesso API](api/using/setting-up-api-access.md)
    + Concetti globali {#global-concepts}
       + [Must-read](api/using/must-read.md)
       + [Endpoint](api/using/endpoints.md)
@@ -388,13 +384,13 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
    + [Gestione dei messaggi delle transazioni](api/using/managing-transactional-messages.md)
    + Gestione dei flussi di lavoro {#managing-workflows}
       + [Controllo di un flusso di lavoro](api/using/controlling-a-workflow.md)
-      + [Attivazione di un'attività di segnale](api/using/triggering-a-signal-activity.md)
+      + [Attivazione di un&#39;attività di segnale](api/using/triggering-a-signal-activity.md)
    + Gestione delle unità organizzative {#managing-organizational-units}
-      + [Recupero dell'unità organizzativa di un profilo](api/using/retrieving-an-organizational-unit.md)
-      + [Aggiornamento dell'unità organizzativa di un profilo](api/using/updating-profile-organizational-unit.md)
-      + [Aggiornamento degli attributi di un'unità organizzativa](api/using/updating-organizational-unit-attributes.md)
+      + [Recupero dell&#39;unità organizzativa di un profilo](api/using/retrieving-an-organizational-unit.md)
+      + [Aggiornamento dell&#39;unità organizzativa di un profilo](api/using/updating-profile-organizational-unit.md)
+      + [Aggiornamento degli attributi di un&#39;unità organizzativa](api/using/updating-organizational-unit-attributes.md)
    + Gestione delle unità geografiche {#managing-geographical-units}
-      + [Recupero dell'unità geografica di un profilo](api/using/retrieving-a-geographical-unit.md)
-      + [Aggiornamento dell'unità geografica di un profilo](api/using/updating-a-geographical-unit.md)
+      + [Recupero dell&#39;unità geografica di un profilo](api/using/retrieving-a-geographical-unit.md)
+      + [Aggiornamento dell&#39;unità geografica di un profilo](api/using/updating-a-geographical-unit.md)
       + [Aggiornamento degli attributi di un’unità geografica](api/using/updating-geographical-unit-attributes.md)
    + [Risoluzione dei problemi](api/using/troubleshooting.md)
