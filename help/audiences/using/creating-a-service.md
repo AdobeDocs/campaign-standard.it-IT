@@ -13,37 +13,37 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
 
 # Creazione di un servizio{#creating-a-service}
 
-Per poter gestire le iscrizioni, è innanzitutto necessario creare un servizio e configurarlo. La configurazione di un nuovo servizio consente di specificare le conferme e-mail che i profili riceveranno al momento dell’iscrizione o dell’annullamento dell’iscrizione al servizio. Verranno inoltre definite le pagine di destinazione di iscrizione e annullamento dell'iscrizione collegate al servizio. Ad esempio, un collegamento di iscrizione a un servizio inserito in un messaggio e-mail indirizza automaticamente il profilo alla pagina di destinazione dell'iscrizione specificata nel servizio.
+Per poter gestire le iscrizioni, è innanzitutto necessario creare un servizio e configurarlo. La configurazione di un nuovo servizio consente di specificare le conferme e-mail che i profili riceveranno al momento dell’iscrizione o dell’annullamento dell’iscrizione al servizio. Verranno inoltre definite le pagine di destinazione di iscrizione e annullamento dell&#39;iscrizione collegate al servizio. Ad esempio, un collegamento di iscrizione a un servizio inserito in un messaggio e-mail indirizza automaticamente il profilo alla pagina di destinazione dell&#39;iscrizione specificata nel servizio.
 
 Per configurare un servizio:
 
-1. Dal menu avanzato **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** tramite il logo Adobe Campaign, aggiungi un nuovo servizio o seleziona un servizio esistente. Se create un nuovo servizio, seguite semplicemente i passaggi indicati sullo schermo.
+1. Dal menu avanzato **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Services]** tramite il logo Adobe Campaign, aggiungi un nuovo servizio o seleziona un servizio esistente. Se create un nuovo servizio, seguite semplicemente i passaggi indicati sullo schermo.
 
-   È disponibile un modello di servizio predefinito. Questo modello è preconfigurato con pagine di destinazione predefinite ed e-mail di conferma. Potete creare altri modelli per definire configurazioni specifiche. Per ulteriori informazioni, consulta la sezione [Gestione dei modelli](../../start/using/about-templates.md) .
+   È disponibile un modello di servizio predefinito. Questo modello è preconfigurato con pagine di destinazione predefinite ed e-mail di conferma. Potete creare altri modelli per definire configurazioni specifiche. Per ulteriori informazioni, consulta la sezione [Gestione dei modelli](../../start/using/marketing-activity-templates.md) .
 
-1. Nella **[!UICONTROL Service properties]** sezione, a cui si accede tramite il ![](assets/edit_darkgrey-24px.png) pulsante nel dashboard del servizio, configurate i messaggi di conferma per le sottoscrizioni e le sottoscrizioni.
+1. Nella **[!UICONTROL Service properties]**sezione, a cui si accede tramite il![](assets/edit_darkgrey-24px.png)pulsante nel dashboard del servizio, configurate i messaggi di conferma per le sottoscrizioni e le sottoscrizioni.
 
    ![](assets/lp_service_parameters.png)
 
-1. Compila il **[!UICONTROL Service label]** campo. L'etichetta del servizio è obbligatoria quando si utilizza un messaggio di conferma personalizzato.
+1. Compila il **[!UICONTROL Service label]**campo. L&#39;etichetta del servizio è obbligatoria quando si utilizza un messaggio di conferma personalizzato.
 
 1. Selezionate un modello di messaggio di conferma per iscrizioni e annullamento delle iscrizioni. Sono disponibili tre modalità:
 
    * **[!UICONTROL No message]**: questa modalità consente di creare un servizio senza un messaggio di conferma.
-   * **[!UICONTROL Default message]**: in questa modalità verrà utilizzato il messaggio transazionale di conferma dell'iscrizione o dell'annullamento dell'iscrizione. I messaggi di conferma predefiniti sono generici e saranno identici per tutti i servizi che utilizzano la modalità predefinita.
+   * **[!UICONTROL Default message]**: in questa modalità verrà utilizzato il messaggio transazionale di conferma dell&#39;iscrizione o dell&#39;annullamento dell&#39;iscrizione. I messaggi di conferma predefiniti sono generici e saranno identici per tutti i servizi che utilizzano la modalità predefinita.
 
       >[!NOTE]
       >
-      >Puoi modificare un messaggio predefinito facendo clic sulla relativa etichetta nella **[!UICONTROL Service properties]** sezione o selezionandolo dall'elenco dei messaggi transazionali di Adobe Campaign, dopo aver selezionato la **[!UICONTROL Show internal transactional messages]** casella.
+      >Puoi modificare un messaggio predefinito facendo clic sulla relativa etichetta nella **[!UICONTROL Service properties]**sezione o selezionandolo dall&#39;elenco dei messaggi transazionali di Adobe Campaign, dopo aver selezionato la**[!UICONTROL Show internal transactional messages]** casella.
 
-   * **[!UICONTROL Custom message]**: questa modalità consente di gestire messaggi di conferma personalizzati, specifici per ogni servizio. Quindi seleziona il **[!UICONTROL Custom subscription event configuration]** quale è associato a un modello di messaggio [](../../channels/using/about-transactional-messaging.md) transazionale specifico. Per ulteriori informazioni, consultate [Conferma dell’iscrizione a un servizio](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Custom message]**: questa modalità consente di gestire messaggi di conferma personalizzati, specifici per ogni servizio. Quindi seleziona il**[!UICONTROL Custom subscription event configuration]** quale è associato a un modello di messaggio [](../../channels/using/about-transactional-messaging.md) transazionale specifico. Per ulteriori informazioni, consultate [Conferma dell’iscrizione a un servizio](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Salvate il servizio. È ora pronto per essere utilizzato.
 
@@ -53,5 +53,5 @@ Una volta creato il servizio, potete iniziare a promuoverlo.
 
 * [Gestione di un servizio e delle iscrizioni](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) video
 * [Promozione di un servizio](../../audiences/using/promoting-a-service.md)
-* [Creazione di un'audience composta da abbonati](../../audiences/using/creating-audiences.md#creating-list-audiences)
+* [Creazione di un&#39;audience composta da abbonati](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Collegamento di una pagina di destinazione a un servizio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
