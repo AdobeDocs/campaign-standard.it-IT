@@ -1,11 +1,11 @@
 ---
 title: Creazione della direct mail
 description: Segui questi passaggi per creare una consegna diretta per la posta in Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
 topic-tags: direct-mail
 discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -26,11 +26,11 @@ La creazione di una consegna diretta per posta è molto simile alla creazione di
 
    >[!NOTE]
    >
-   >Potete anche aggiungere un'attività di posta diretta in un flusso di lavoro. Per ulteriori informazioni, consulta la guida [Flussi](../../automating/using/direct-mail-delivery.md) di lavoro.
+   >Potete anche aggiungere un&#39;attività di posta diretta in un flusso di lavoro. Per ulteriori informazioni, consulta la guida [Flussi](../../automating/using/direct-mail-delivery.md) di lavoro.
 
    ![](assets/direct_mail_1.png)
 
-1. Scegliete il modello predefinito **[!UICONTROL Direct mail]** o uno dei modelli personalizzati. Per ulteriori informazioni sui modelli, consultare la sezione [Gestione dei modelli](../../start/using/about-templates.md) .
+1. Scegliete il modello predefinito **[!UICONTROL Direct mail]**o uno dei modelli personalizzati. Per ulteriori informazioni sui modelli, consultare la sezione[Gestione dei modelli](../../start/using/marketing-activity-templates.md).
 
    ![](assets/direct_mail_2.png)
 
@@ -50,25 +50,25 @@ La creazione di una consegna diretta per posta è molto simile alla creazione di
 
    ![](assets/direct_mail_5.png)
 
-1. Fate clic sulla **[!UICONTROL Schedule]** sezione del dashboard consegna per definire la data di contatto. Per la posta diretta, la data di contatto è obbligatoria. Per ulteriori informazioni, vedere [Programmazione dell'invio](../../sending/using/about-scheduling-messages.md).
+1. Fate clic sulla **[!UICONTROL Schedule]**sezione del dashboard consegna per definire la data di contatto. Per la posta diretta, la data di contatto è obbligatoria. Per ulteriori informazioni, vedere[Programmazione dell&#39;invio](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/direct_mail_8.png)
 
 1. Se avete aggiunto dei profili di test (consultate [Aggiunta di profili](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)di test e di trap), potete verificare la distribuzione prima di preparare il file finale. Consente di creare un file di esempio contenente solo i profili di prova selezionati.
 
-   Fate clic su **[!UICONTROL Test]** per generare il file di esempio. Fare clic su **[!UICONTROL Summary]**, nell'angolo superiore sinistro, quindi selezionare **[!UICONTROL Proofs]**. Nella parte sinistra dello schermo, selezionare la prova e fare clic su **[!UICONTROL Download file]**.
+   Fate clic su **[!UICONTROL Test]**per generare il file di esempio. Fare clic su**[!UICONTROL Summary]**, nell&#39;angolo superiore sinistro, quindi selezionare **[!UICONTROL Proofs]**. Nella parte sinistra dello schermo, selezionare la prova e fare clic su**[!UICONTROL Download file]**.
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Export]** ruolo è necessario per consentire ad Adobe Campaign di esportare il file e renderlo disponibile per il download. Contattare l'amministratore.
+   >Il **[!UICONTROL Export]**ruolo è necessario per consentire ad Adobe Campaign di esportare il file e renderlo disponibile per il download. Contattare l&#39;amministratore.
 
    ![](assets/direct_mail_19.png)
 
-1. Una volta definiti il contenuto della distribuzione, il pubblico e la data di contatto, fate clic sul **[!UICONTROL Prepare]** pulsante, nel dashboard di distribuzione.
+1. Una volta definiti il contenuto della distribuzione, il pubblico e la data di contatto, fate clic sul **[!UICONTROL Prepare]**pulsante, nel dashboard della distribuzione.
 
    ![](assets/direct_mail_16.png)
 
-   Vengono applicate le regole di tipologia. Ad esempio, tutti gli indirizzi postali non specificati sono esclusi dalla destinazione. Per questo motivo, accertatevi di aver selezionato la **[!UICONTROL Address specified]** casella nelle informazioni dei profili (consultate [Recommendations](../../channels/using/about-direct-mail.md#recommendations)). Se avete definito un **[!UICONTROL Maximum volume of message]** nelle proprietà di posta diretta o a livello di modello, sarà applicato anche qui.
+   Vengono applicate le regole di tipologia. Ad esempio, tutti gli indirizzi postali non specificati sono esclusi dalla destinazione. Per questo motivo, accertatevi di aver selezionato la **[!UICONTROL Address specified]**casella nelle informazioni dei profili (consultate[Recommendations](../../channels/using/about-direct-mail.md#recommendations)). Se avete definito un**[!UICONTROL Maximum volume of message]** nelle proprietà di posta diretta o a livello di modello, sarà applicato anche qui.
 
    ![](assets/direct_mail_25.png)
 
@@ -76,27 +76,27 @@ La creazione di una consegna diretta per posta è molto simile alla creazione di
    >
    >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
 
-1. Fare clic su **[!UICONTROL Explore file]** per visualizzare in anteprima le prime 100 righe del file.
+1. Fare clic su **[!UICONTROL Explore file]**per visualizzare in anteprima le prime 100 righe del file.
 
    ![](assets/direct_mail_18.png)
 
-   Il file completo è accessibile per il download locale nella parte sinistra dello schermo. Il download del file genera una voce di registro nel **[!UICONTROL Export audits]** menu. Per ulteriori informazioni sui controlli delle esportazioni, consultare la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md) .
+   Il file completo è accessibile per il download locale nella parte sinistra dello schermo. Il download del file genera una voce di registro nel **[!UICONTROL Export audits]**menu. Per ulteriori informazioni sui controlli delle esportazioni, consultare la sezione[Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Export]** ruolo è necessario per consentire ad Adobe Campaign di esportare il file e renderlo disponibile per il download. Contattare l'amministratore.
+   >Il **[!UICONTROL Export]**ruolo è necessario per consentire ad Adobe Campaign di esportare il file e renderlo disponibile per il download. Contattare l&#39;amministratore.
 
-   Per modificare il contenuto della distribuzione, è sufficiente fare clic sul **[!UICONTROL Regenerate file]** pulsante per tenere conto della modifica. Non è necessario rivedere la preparazione.
+   Per modificare il contenuto della distribuzione, è sufficiente fare clic sul **[!UICONTROL Regenerate file]**pulsante per tenere conto della modifica. Non è necessario rivedere la preparazione.
 
    ![](assets/direct_mail_21.png)
 
-1. Per confermare che il file è definitivo, fate clic su **[!UICONTROL Confirm]** nel dashboard di consegna.
+1. Per confermare che il file è definitivo, fate clic su **[!UICONTROL Confirm]**nel dashboard di consegna.
 
    ![](assets/direct_mail_20.png)
 
 È ora possibile inviare il file di estrazione al provider di posta diretta. A tal fine, sono disponibili diverse opzioni:
 
 * Inviatelo via e-mail, con il file allegato
-* Invia tramite Campaign: esegui la posta diretta in un [flusso](../../automating/using/direct-mail-delivery.md) di lavoro **[!UICONTROL Transfer file]** della campagna e aggiungi un messaggioper inviare il file, ad esempio tramite FTP. Vedere [Trasferimento del file](../../automating/using/transfer-file.md).
+* Invia tramite Campaign: esegui la posta diretta in un [flusso](../../automating/using/direct-mail-delivery.md) di lavoro **[!UICONTROL Transfer file]**della campagna e aggiungi un messaggioper inviare il file, ad esempio tramite FTP. Vedere[Trasferimento del file](../../automating/using/transfer-file.md).
 
-Il provider recupera l'elenco degli indirizzi errati e invia queste informazioni ad Adobe Campaign, che elenca automaticamente in blacklist gli indirizzi errati. See [Return to sender](../../channels/using/return-to-sender.md).
+Il provider recupera l&#39;elenco degli indirizzi errati e invia queste informazioni ad Adobe Campaign, che elenca automaticamente in blacklist gli indirizzi errati. See [Return to sender](../../channels/using/return-to-sender.md).
