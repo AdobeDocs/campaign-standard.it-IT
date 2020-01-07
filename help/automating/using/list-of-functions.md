@@ -1,18 +1,18 @@
 ---
 title: Elenco delle funzioni
 description: Lo strumento di modifica delle query consente di utilizzare funzioni avanzate per eseguire filtri complessi.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: filter-data
-discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562face6
+topic-tags: filtering-data
+discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Informazioni sulle funzioni {#about-functions}
 
-Lo strumento di modifica delle query consente di utilizzare funzioni avanzate per eseguire filtri complessi. A tal fine, la palette degli strumenti contiene l' **[!UICONTROL Expression]** elemento che è possibile utilizzare nell'area di lavoro. Ulteriori informazioni su questo elemento sono dettagliate in una sezione [](../../automating/using/advanced-expression-editing.md)specifica.
+Lo strumento di modifica delle query consente di utilizzare funzioni avanzate per eseguire filtri complessi. A tal fine, la palette degli strumenti contiene l&#39; **[!UICONTROL Expression]**elemento che è possibile utilizzare nell&#39;area di lavoro. Ulteriori informazioni su questo elemento sono dettagliate in una sezione[](../../automating/using/advanced-expression-editing.md)specifica.
 
 Questo elemento consente di inserire manualmente le condizioni. Qui è possibile utilizzare le funzioni definite nelle sezioni seguenti.
 
@@ -321,7 +321,7 @@ Le funzioni relative al valore numerico vengono utilizzate per convertire il tes
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Restituisce il numero intero più grande maggiore o uguale a un numero<br /> </td> 
+   <td> Restituisce il numero intero più grande minore o uguale a un numero<br /> </td> 
    <td> Floor(&lt;numero&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -662,7 +662,7 @@ Le funzioni stringa vengono utilizzate per manipolare un insieme di stringhe.
 
 ## Aggregati {#aggregates}
 
-Le funzioni di aggregazione sono disponibili solo quando si [aggiungono dati](../../automating/using/query.md#enriching-data) aggiuntivi dall' **[!UICONTROL Query]** attività di un flusso di lavoro.
+Le funzioni di aggregazione sono disponibili solo quando si [aggiungono dati](../../automating/using/query.md#enriching-data) aggiuntivi dall&#39; **[!UICONTROL Query]**attività di un flusso di lavoro.
 
 Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insieme di valori.
 
