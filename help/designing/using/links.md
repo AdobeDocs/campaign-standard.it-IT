@@ -1,5 +1,5 @@
 ---
-title: Gestione dei collegamenti
+title: Aggiunta di collegamenti
 description: Scoprite come gestire i collegamenti con e-mail Designer.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,16 +12,16 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
 
 ---
 
 
-# Collegamenti {#links}
+# Aggiunta di collegamenti {#links}
 
 ## Inserimento di un collegamento {#inserting-a-link}
 
-L'editor consente di personalizzare un'e-mail o una pagina di destinazione inserendo collegamenti negli elementi di contenuto HTML.
+L&#39;editor consente di personalizzare un&#39;e-mail o una pagina di destinazione inserendo collegamenti negli elementi di contenuto HTML.
 
 Puoi inserire un collegamento in qualsiasi elemento di pagina: immagine, parola, gruppo di parole, blocco di testo, ecc.
 
@@ -29,7 +29,7 @@ Puoi inserire un collegamento in qualsiasi elemento di pagina: immagine, parola,
 >
 >Le immagini seguenti mostrano come inserire un collegamento tramite [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) in un messaggio e-mail.
 
-1. Selezionate un elemento e fate clic **[!UICONTROL Insert link]** sulla barra degli strumenti contestuale.
+1. Selezionate un elemento e fate clic **[!UICONTROL Insert link]**sulla barra degli strumenti contestuale.
 
    ![](assets/des_insert_link.png)
 
@@ -41,27 +41,27 @@ Puoi inserire un collegamento in qualsiasi elemento di pagina: immagine, parola,
 
    * **Pagina** di destinazione: consente di accedere a una pagina di destinazione di Adobe Campaign.
    * **Collegamento** iscrizione: inserite un collegamento per iscrivervi a un servizio Adobe Campaign.
-   * **Collegamento** di annullamento sottoscrizione: inserite un collegamento per annullare l'iscrizione a un servizio Adobe Campaign.
-   * **Collegamento che definisce un’azione**: definire un'azione quando si fa clic su un elemento nella pagina di destinazione.
+   * **Collegamento** di annullamento sottoscrizione: inserite un collegamento per annullare l&#39;iscrizione a un servizio Adobe Campaign.
+   * **Collegamento che definisce un’azione**: definire un&#39;azione quando si fa clic su un elemento nella pagina di destinazione.
 
       >[!NOTE]
       >
       >Questo tipo di collegamento è disponibile solo per le pagine di destinazione.
 
 1. È possibile modificare il testo visualizzato al destinatario.
-1. Potete impostare il comportamento del browser quando l'utente fa clic sul collegamento (ad esempio, apri una nuova finestra).
+1. Potete impostare il comportamento del browser quando l&#39;utente fa clic sul collegamento (ad esempio, apri una nuova finestra).
 
    >[!NOTE]
    >
    >La definizione del comportamento del browser si applica solo alle pagine di destinazione.
 
-1. Salvare le modifiche.
+1.  Salvare le modifiche.
 
-Una volta creato il collegamento, puoi comunque modificarlo dal riquadro Impostazioni. Fate clic sull’icona matita per modificarne i parametri.
+Una volta creato il collegamento, puoi comunque modificarlo dal riquadro Impostazioni. Fate clic sull&#39;icona matita per modificarne i parametri.
 
 ![](assets/des_link_edit.png)
 
-Quando si modifica un'e-mail con [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), è possibile accedere e modificare facilmente i collegamenti creati dalla tabella, elencando tutti gli URL inclusi nell'e-mail. Questo elenco consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consultate [Informazioni sugli URL](#about-tracked-urls)tracciati.
+Quando si modifica un&#39;e-mail con [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), è possibile accedere e modificare facilmente i collegamenti creati dalla tabella, elencando tutti gli URL inclusi nell&#39;e-mail. Questo elenco consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consultate [Informazioni sugli URL](#about-tracked-urls)tracciati.
 
 ![](assets/des_link_list.png)
 
@@ -79,7 +79,7 @@ Quando si modifica un'e-mail con [Email Designer](../../designing/using/designin
 
 Adobe Campaign consente di monitorare il comportamento dei destinatari quando fanno clic su un URL incluso in un messaggio e-mail. Per ulteriori informazioni sul tracciamento, consulta [questa sezione](../../sending/using/tracking-messages.md#about-tracking).
 
-L' **[!UICONTROL Links]** icona nella barra delle azioni visualizza automaticamente l'elenco di tutti gli URL del contenuto che verranno tracciati.
+L&#39; **[!UICONTROL Links]**icona nella barra delle azioni visualizza automaticamente l&#39;elenco di tutti gli URL del contenuto che verranno tracciati.
 
 ![](assets/des_links.png)
 
@@ -87,7 +87,7 @@ L' **[!UICONTROL Links]** icona nella barra delle azioni visualizza automaticame
 >
 >Il tracciamento è attivato per impostazione predefinita. Questa funzionalità è disponibile solo per le e-mail, se il tracciamento è stato attivato in Adobe Campaign. Per ulteriori informazioni sui parametri di tracciamento, consulta [questa sezione](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
-L'URL, la categoria, l'etichetta e il tipo di tracciamento di ciascun collegamento possono essere modificati da questo elenco. Per modificare un collegamento, fai clic sull’icona matita corrispondente.
+L&#39;URL, la categoria, l&#39;etichetta e il tipo di tracciamento di ciascun collegamento possono essere modificati da questo elenco. Per modificare un collegamento, fai clic sull’icona matita corrispondente.
 
 ![](assets/des_links_tracking.png)
 
@@ -104,13 +104,13 @@ Potete inoltre disattivare o attivare il tracciamento per ogni URL.
 
 >[!NOTE]
 >
->Per impostazione predefinita in Adobe Campaign, tutti gli URL del contenuto vengono tracciati, ad eccezione dell'URL **della pagina** Mirror e del collegamento **Annulla sottoscrizione** .
+>Per impostazione predefinita in Adobe Campaign, tutti gli URL del contenuto vengono tracciati, ad eccezione dell&#39;URL **della pagina** Mirror e del collegamento **Annulla sottoscrizione** .
 
-Potete raggruppare gli URL modificando il **[!UICONTROL Category]** campo, a seconda degli URL utilizzati nel messaggio. Queste categorie possono essere visualizzate come rapporti, ad esempio negli [URL e nei flussi](../../reporting/using/urls-and-click-streams.md)di clic.
+Potete raggruppare gli URL modificando il **[!UICONTROL Category]**campo, a seconda degli URL utilizzati nel messaggio. Queste categorie possono essere visualizzate come rapporti, ad esempio negli[URL e nei flussi](../../reporting/using/urls-and-click-streams.md)di clic.
 
 ![](assets/des_link_tracking_category.png)
 
-Durante la creazione di un rapporto, dalla **[!UICONTROL Components]** scheda selezionare **[!UICONTROL Dimension]** e scorrere l'elenco verso il basso per accedere ai componenti di tracciamento. Ad esempio, trascinate **[!UICONTROL Tracking URL Category]** nell’area di lavoro per visualizzare i risultati in base alla categoria di tracciamento di ciascun URL su cui avete fatto clic.
+Durante la creazione di un rapporto, dalla **[!UICONTROL Components]**scheda selezionare**[!UICONTROL Dimension]** e scorrere l&#39;elenco verso il basso per accedere ai componenti di tracciamento. Ad esempio, trascinate **[!UICONTROL Tracking URL Category]**nell’area di lavoro per visualizzare i risultati in base alla categoria di tracciamento di ciascun URL su cui avete fatto clic.
 
 ![](assets/des_link_tracking_report.png)
 
