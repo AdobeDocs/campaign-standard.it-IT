@@ -1,23 +1,23 @@
 ---
-title: Gestione delle immagini nelle e-mail
+title: Utilizzo delle immagini
 description: Scoprite come gestire le immagini nei messaggi e-mail con Designer e-mail.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 
 ---
 
 
-# Immagini {#images}
+# Utilizzo delle immagini {#images}
 
 ## Inserimento di immagini{#inserting-images}
 
@@ -33,16 +33,16 @@ Se attivato, puoi modificare le immagini con Adobe Creative SDK. Consultate [Mod
 
 >[!CAUTION]
 >
->Se scegliete di aggiungere un'immagine direttamente modificando la versione HTML dell'e-mail, non dovete richiamare i file **esterni in un tag** &lt;script&gt; della pagina HTML. Questi file non verranno importati nel server Adobe Campaign.
+>Se scegliete di aggiungere un&#39;immagine direttamente modificando la versione HTML dell&#39;e-mail, non dovete richiamare i file **esterni in un tag** &lt;script> della pagina HTML. Questi file non verranno importati nel server Adobe Campaign.
 
 ### Inserimento di immagini in un messaggio e-mail {#inserting-images-in-an-email}
 
 1. Aggiungere un componente struttura. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
-1. All’interno di questo componente struttura, aggiungete un componente **[!UICONTROL Image]** contenuto.
+1. All’interno di questo componente struttura, aggiungete un componente **[!UICONTROL Image]**contenuto.
 
    ![](assets/des_insert_images_1.png)
 
-1. Click **[!UICONTROL Browse]**. Trascinare un’immagine o fare clic per selezionare un file dal computer.
+1. Clic **[!UICONTROL Browse]**. Trascinare un’immagine o fare clic per selezionare un file dal computer.
 
    ![](assets/des_insert_images_2.png)
 
@@ -53,7 +53,7 @@ Se attivato, puoi modificare le immagini con Adobe Creative SDK. Consultate [Mod
 
 ## Impostazione delle proprietà immagine{#setting-up-image-properties}
 
-Quando si seleziona un blocco che contiene un'immagine, nella palette sono disponibili le seguenti proprietà:
+Quando si seleziona un blocco che contiene un&#39;immagine, nella palette sono disponibili le seguenti proprietà:
 
 * **Abilita la personalizzazione** consente di personalizzare l’origine delle immagini. Consultate [Personalizzazione di un’origine](../../designing/using/personalization.md#personalizing-an-image-source)immagine.
 * **Titolo** immagine consente di definire un titolo per l’immagine.
@@ -61,7 +61,7 @@ Quando si seleziona un blocco che contiene un'immagine, nella palette sono dispo
 * Quando modificate un’e-mail, **Stile** consente di specificare la dimensione dell’immagine, lo sfondo e il bordo.
 * Quando modificate una pagina di destinazione, **Dimensioni** consente di specificare le dimensioni dell’immagine in pixel.
 
-L’editor consente di lavorare con **tutti i tipi** di immagini i cui formati sono compatibili con i browser. Per essere compatibili con l’editor, le animazioni **di tipo** "Flash" devono essere inserite in una pagina HTML come segue:
+L’editor consente di lavorare con **tutti i tipi** di immagini i cui formati sono compatibili con i browser. Per essere compatibili con l’editor, le animazioni **di tipo** &quot;Flash&quot; devono essere inserite in una pagina HTML come segue:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
@@ -81,7 +81,7 @@ L’editor di immagini offre un potente componente dell’interfaccia utente per
 Per modificare un’immagine con Adobe Creative SDK:
 
 1. Selezionate l’immagine.
-1. Nella barra degli strumenti, fate clic sull'icona Creative Cloud.
+1. Nella barra degli strumenti, fate clic sull&#39;icona Creative Cloud.
 
    ![](assets/des_creative_sdk_icon.png)
 
@@ -89,7 +89,7 @@ Per modificare un’immagine con Adobe Creative SDK:
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. Fate clic su **[!UICONTROL Save]** quando vengono apportate le modifiche. L'immagine aggiornata viene salvata sul server di Adobe Campaign e pronta per essere utilizzata.
+1. Fate clic su **[!UICONTROL Save]**quando vengono apportate le modifiche. L&#39;immagine aggiornata viene salvata sul server di Adobe Campaign e pronta per essere utilizzata.
 
 >[!NOTE]
 Gli strumenti disponibili nell’editor di immagini non possono essere personalizzati.
