@@ -12,22 +12,22 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
 
 # E-mail Designer di Campaign{#designing-content-in-adobe-campaign}
 
-Dopo aver creato un'e-mail in Adobe Campaign, devi definirne il contenuto.
+Dopo aver creato un&#39;e-mail in Adobe Campaign, devi definirne il contenuto.
 
-E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un'interfaccia a trascinamento con integrazione nativa di Creative Cloud. Sia che stiate partendo da una lavagna vuota, o sfruttando frammenti di contenuto o modelli esistenti, progettate e perfezionate tutti i contenuti per ogni e-mail, sia essa promozionale o transazionale.
+E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un&#39;interfaccia a trascinamento con integrazione nativa di Creative Cloud. Sia che stiate partendo da una lavagna vuota, o sfruttando frammenti di contenuto o modelli esistenti, progettate e perfezionate tutti i contenuti per ogni e-mail, sia essa promozionale o transazionale.
 
-Progettato per fornire HTML ottimizzati per la progettazione reattiva, e-mail Designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un'e-mail, a un modello o a un frammento direttamente tramite l'interfaccia utente. Puoi passare direttamente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
+Progettato per fornire HTML ottimizzati per la progettazione reattiva, e-mail Designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un&#39;e-mail, a un modello o a un frammento direttamente tramite l&#39;interfaccia utente. Puoi passare direttamente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
 
 Designer e-mail consente di creare contenuti e modelli di contenuto e-mail. È compatibile con e-mail semplici, e-mail transazionali, e-mail di test A/B, e-mail in più lingue ed e-mail ricorrenti.
 
-Per iniziare a utilizzare e-mail Designer, guarda questo [set di video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) che illustrano le funzionalità generali di e-mail Designer e come progettare un'e-mail da zero o utilizzando i modelli.
+Per iniziare a utilizzare e-mail Designer, guarda questo [set di video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) che illustrano le funzionalità generali di e-mail Designer e come progettare un&#39;e-mail da zero o utilizzando i modelli.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
@@ -36,12 +36,12 @@ Per iniziare a utilizzare e-mail Designer, guarda questo [set di video](https://
 * Per ulteriori informazioni sulla creazione di contenuto:
    * Da zero, consulta [Progettazione di e-mail da zero](../../designing/using/designing-from-scratch.md).
    * Utilizzando il contenuto esistente, consultate [Progettazione con contenuto](../../designing/using/using-existing-content.md)esistente.
-   * Utilizzando le integrazioni, consultate [Progettazione](../../designing/using/using-integrations.md)di e-mail con più soluzioni.
+   * Utilizzando le integrazioni Creative Cloud, consultate [Progettazione](../../designing/using/using-integrations.md)di e-mail con più soluzioni.
 * Per ulteriori informazioni sulla personalizzazione, consulta [Personalizzazione](../../designing/using/personalization.md).
 
 Quando create un messaggio e-mail, potete scegliere di utilizzare un modello predefinito o di caricare un contenuto esistente da un’altra origine. Consultate [Selezione di un contenuto](../../designing/using/using-existing-content.md#selecting-an-existing-content)esistente.
 
-Per aumentare l'efficienza delle campagne di marketing, personalizza i tuoi contenuti. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field) di personalizzazione e [Aggiunta di un blocco](../../designing/using/personalization.md#adding-a-content-block)di contenuto.
+Per aumentare l&#39;efficienza delle campagne di marketing, personalizza i tuoi contenuti. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field) di personalizzazione e [Aggiunta di un blocco](../../designing/using/personalization.md#adding-a-content-block)di contenuto.
 
 Potete anche definire contenuti dinamici che variano a seconda di ciascun profilo. Consultate [Definizione del contenuto dinamico in un’e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) e [Definizione del contenuto dinamico in una pagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)di destinazione.
 
@@ -51,7 +51,7 @@ Ottimizza i tuoi messaggi e le pagine di destinazione con collegamenti e immagin
 
 Designer e-mail offre diverse opzioni che consentono di creare, modificare e personalizzare ogni aspetto del contenuto.
 
-L'interfaccia è composta da diverse aree che offrono diverse funzionalità:
+L&#39;interfaccia è composta da diverse aree che offrono diverse funzionalità:
 
 ![](assets/email_designer_overview.png)
 
@@ -69,33 +69,33 @@ La barra degli strumenti **contestuale** dell’interfaccia dell’editor offre 
 
 ### Pagina principale di Designer e-mail {#email-designer-home-page}
 
-Quando [create un messaggio e-mail](../../channels/using/creating-an-email.md), la pagina principale viene visualizzata automaticamente quando si seleziona il contenuto dell'e-mail **[!UICONTROL Email Designer]** .
+Quando [create un messaggio e-mail](../../channels/using/creating-an-email.md), la pagina principale viene visualizzata automaticamente quando si seleziona il contenuto dell&#39;e-mail **[!UICONTROL Email Designer]**.
 
 ![](assets/email_designer_home_page.png)
 
-La **[!UICONTROL Properties]** scheda consente di modificare i dettagli dell'e-mail, ad esempio l'etichetta, l'indirizzo e il nome del mittente o l'oggetto dell'e-mail. Per accedere a questa scheda, fai clic sull’etichetta dell’e-mail nella parte superiore dello schermo.
+La **[!UICONTROL Properties]**scheda consente di modificare i dettagli dell&#39;e-mail, ad esempio l&#39;etichetta, l&#39;indirizzo e il nome del mittente o l&#39;oggetto dell&#39;e-mail. Per accedere a questa scheda, fai clic sull’etichetta dell’e-mail nella parte superiore dello schermo.
 
 ![](assets/email_designer_home_properties.png)
 
-La **[!UICONTROL Templates]** scheda consente di scegliere tra i contenuti HTML predefiniti o i modelli già creati per iniziare rapidamente a progettare l’e-mail. Consultate Modelli [di](../../designing/using/using-reusable-content.md#content-templates)contenuto.
+La **[!UICONTROL Templates]**scheda consente di scegliere tra i contenuti HTML predefiniti o i modelli già creati per iniziare rapidamente a progettare l’e-mail. Consultate Modelli[di](../../designing/using/using-reusable-content.md#content-templates)contenuto.
 
 ![](assets/email_designer_home_templates.png)
 
-La **[!UICONTROL Learn & support]** scheda consente di accedere facilmente alla documentazione e alle esercitazioni correlate.
+La **[!UICONTROL Learn & support]**scheda consente di accedere facilmente alla documentazione e alle esercitazioni correlate.
 
 ![](assets/email_designer_home_support.png)
 
 Se non si seleziona un modello, la home page di Designer e-mail consente inoltre di scegliere come iniziare a progettare il contenuto:
 
-* Fate clic sul **[!UICONTROL Create]** pulsante per iniziare un nuovo contenuto da zero. Consultate [Progettazione di contenuti e-mail da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Fate clic sul **[!UICONTROL Upload]** pulsante per caricare un file dal computer. Consultate [Importazione di contenuto da un file](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Fate clic sul **[!UICONTROL Import from URL]** pulsante per recuperare il contenuto esistente da un URL. Consultate [Importazione di contenuto da un URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Fate clic sul **[!UICONTROL Create]**pulsante per iniziare un nuovo contenuto da zero. Consultate[Progettazione di contenuti e-mail da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Fate clic sul **[!UICONTROL Upload]**pulsante per caricare un file dal computer. Consultate[Importazione di contenuto da un file](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Fate clic sul **[!UICONTROL Import from URL]**pulsante per recuperare il contenuto esistente da un URL. Consultate[Importazione di contenuto da un URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## Terminologia {#terminology}
 
 **Modelli**: I modelli sono strutture di e-mail che potete creare e riutilizzare per diverse consegne.
 
-**Frammenti**: Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail.
+**Frammenti**:Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail.
 
 **Componenti** struttura: Elementi strutturali che definiscono il layout del messaggio e-mail.
 
@@ -105,7 +105,7 @@ Se non si seleziona un modello, la home page di Designer e-mail consente inoltre
 
 Per utilizzare in modo appropriato il Designer e-mail e creare le e-mail migliori il più semplicemente possibile, si consiglia di applicare i seguenti principi:
 
-* Utilizzate lo stile in linea anziché CSS e CSS separati nella sezione &lt;head&gt; dell'HTML. Utilizzando lo stile in linea potete ottimizzare il salvataggio e il riutilizzo dei frammenti di contenuto.
+* Utilizzate lo stile in linea anziché CSS e CSS separati nella sezione &lt;head> dell&#39;HTML. Utilizzando lo stile in linea potete ottimizzare il salvataggio e il riutilizzo dei frammenti di contenuto.
 
    Consultate [Aggiunta di attributi](../../designing/using/styles.md#adding-inline-styling-attributes)di stile in linea.
 
@@ -117,7 +117,7 @@ Per utilizzare in modo appropriato il Designer e-mail e creare le e-mail miglior
 
 * Durante la modifica del contenuto **** e-mail:
 
-   Visualizzare l'anteprima dei messaggi prima di inviarli. Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consultate Rendering [e-](../../sending/using/email-rendering.md)mail.
+   Visualizzare l&#39;anteprima dei messaggi prima di inviarli. Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consultate Rendering [e-](../../sending/using/email-rendering.md)mail.
 
 Una maggiore progettazione e best practice generali relative ai messaggi sono illustrate nella seguente guida passo-passo di Adobe Campaign: Best practice [di distribuzione con Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
@@ -127,9 +127,9 @@ E-mail Designer è in continuo miglioramento. Se avete creato un contenuto e-mai
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe consiglia di aggiornare il contenuto alla versione più recente per evitare problemi quali problemi di collisione CSS. Click **[!UICONTROL Update now]**.
+Adobe consiglia di aggiornare il contenuto alla versione più recente per evitare problemi quali problemi di collisione CSS. Clic **[!UICONTROL Update now]**.
 
-Se si verifica un errore durante l'aggiornamento del contenuto, controllate il codice HTML e correggetelo prima di eseguire nuovamente l'aggiornamento.
+Se si verifica un errore durante l&#39;aggiornamento del contenuto, controllate il codice HTML e correggetelo prima di eseguire nuovamente l&#39;aggiornamento.
 
 Per quanto riguarda i frammenti, tenere presente quanto segue:
 
@@ -141,7 +141,7 @@ Per quanto riguarda i frammenti, tenere presente quanto segue:
 
 * È comunque possibile inviare e-mail in cui un frammento non aggiornato è già utilizzato, ma tale frammento non è modificabile.
 
-* L'aggiornamento dei frammenti utilizzati nelle e-mail già preparate non ha alcun impatto su tali e-mail.
+* L&#39;aggiornamento dei frammenti utilizzati nelle e-mail già preparate non ha alcun impatto su tali e-mail.
 
 ## Limiti di Email Designer {#email-designer-limitations}
 
