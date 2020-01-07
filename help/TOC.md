@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
 
 ---
 
@@ -117,9 +117,9 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
    + [Definizione dell’oggetto e-mail e del mittente](designing/using/subject-line.md)
    + Creazione di contenuto e-mail{#building-email-content}
       + [Progettazione di e-mail da zero](designing/using/designing-from-scratch.md)
-      + [Progettazione di e-mail con contenuto esistente](designing/using/using-existing-content.md)
-      + [Progettazione di e-mail con contenuto riutilizzabile](designing/using/using-reusable-content.md)
-      + [Progettazione di e-mail mediante integrazioni basate su più soluzioni](designing/using/using-integrations.md)
+      + [Utilizzo di contenuto esistente](designing/using/using-existing-content.md)
+      + [Utilizzo di contenuti riutilizzabili](designing/using/using-reusable-content.md)
+      + [Utilizzo di integrazioni con più soluzioni](designing/using/using-integrations.md)
       + [Modifica di testo normale, HTML e e-mail per dispositivi mobili](designing/using/plain-text-html-modes.md)
    + [Personalizzazione del contenuto delle e-mail](designing/using/personalization.md)
    + [Gestione degli stili e-mail](designing/using/styles.md)
@@ -187,8 +187,9 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 + Integrazione con Adobe Cloud {#integrating-with-adobe-cloud}
    + [Informazioni sulle integrazioni di Campaign](integrating/using/about-campaign-integrations.md)
    + Utilizzo di Campaign ed Experience Manager {#working-with-campaign-and-experience-manager}
-      + [Integrazione con Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Creazione di un modulo Campaign in Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Informazioni sull&#39;integrazione di Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [Creazione di un contenuto e-mail in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
+      + [Creazione di un modulo Campaign in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Utilizzo di Campaign e Target {#working-with-campaign-and-target}
       + [Informazioni sull’integrazione di Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configurazione dell’integrazione Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
@@ -283,6 +284,7 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
       + [Creazione di una segmentazione sulla posizione](automating/using/workflow-segmentation-location.md)
       + [Retargeting di non-openers](automating/using/workflow-cross-channel-retargeting.md)
       + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
+      + [Creazione di una distribuzione tra canali](automating/using/workflow-cross-channel-delivery.md)
 + Sviluppo {#developing}
    + Informazioni sulle risorse personalizzate {#about-custom-resources}
       + [Concetti del modello dati](developing/using/data-model-concepts.md)
