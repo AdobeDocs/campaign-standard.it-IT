@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -23,25 +23,25 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. È possibile utilizzar
 
 ## Modifica del contenuto in Dreamweaver {#editing-content-in-dreamweaver}
 
-L'integrazione di Adobe Campaign Standard con Dreamweaver consente di modificare il contenuto di un'e-mail nell'interfaccia di Dreamweaver. Potete accedere alla potente interfaccia di Dreamweaver per progettare e sviluppare contenuti e-mail reattivi.
+L&#39;integrazione di Adobe Campaign Standard con Dreamweaver consente di modificare il contenuto di un&#39;e-mail nell&#39;interfaccia di Dreamweaver. Potete accedere alla potente interfaccia di Dreamweaver per progettare e sviluppare contenuti e-mail reattivi.
 
 * **Sincronizzazione bidirezionale**
 
-   Ogni volta che una modifica viene effettuata in un prodotto, viene aggiornata in tempo reale nell'altro. Se desiderate modificare il colore del testo in Dreamweaver, non appena apportate la modifica, il colore del testo è live in Campaign. Inoltre, quando selezionate il codice in Dreamweaver o Campaign, poiché i numeri di riga sono identici, la selezione rimane tra i due prodotti, il che è molto utile quando cercate qualcosa di specifico nel codice.
+   Ogni volta che una modifica viene effettuata in un prodotto, viene aggiornata in tempo reale nell&#39;altro. Se desiderate modificare il colore del testo in Dreamweaver, non appena apportate la modifica, il colore del testo è live in Campaign. Inoltre, quando selezionate il codice in Dreamweaver o Campaign, poiché i numeri di riga sono identici, la selezione rimane tra i due prodotti, il che è molto utile quando cercate qualcosa di specifico nel codice.
 
 * **Caricare immagini locali in Adobe Campaign tramite Dreamweaver**
 
-   Quando create o modificate un'e-mail in Dreamweaver, potete semplicemente selezionare un'immagine dal desktop o dal computer locale. Dreamweaver vi ha sempre consentito di farlo, quando Dreamweaver e Campaign sono connessi, il file locale viene immediatamente caricato nel server di Adobe Campaign: non è necessario caricare manualmente le immagini quando il contenuto cambia. Inoltre, garantisce che le immagini più recenti siano sempre live in Campaign.
+   Quando create o modificate un&#39;e-mail in Dreamweaver, potete semplicemente selezionare un&#39;immagine dal desktop o dal computer locale. Dreamweaver vi ha sempre consentito di farlo, quando Dreamweaver e Campaign sono connessi, il file locale viene immediatamente caricato nel server di Adobe Campaign: non è necessario caricare manualmente le immagini quando il contenuto cambia. Inoltre, garantisce che le immagini più recenti siano sempre live in Campaign.
 
 * **Aggiunta di personalizzazione delle campagne in Dreamweaver**
 
-   Per lo sviluppatore di e-mail non è più necessario aggiungere testo come `[[FIRSTNAME_PLACEHOLDER]]` né cercare la sintassi delle tabelle del modello dati. La barra degli strumenti Campagna in Dreamweaver si collega direttamente al modello dati dell'istanza Campaign. Ciò significa che puoi inserire qualsiasi dato desideri per la personalizzazione da qualcosa come Nome all'Indirizzo. Se avete creato blocchi di contenuto in Campaign, potete anche estrarli direttamente in Dreamweaver.
+   Per lo sviluppatore di e-mail non è più necessario aggiungere testo come `[[FIRSTNAME_PLACEHOLDER]]` né cercare la sintassi delle tabelle del modello dati. La barra degli strumenti Campagna in Dreamweaver si collega direttamente al modello dati dell&#39;istanza Campaign. Ciò significa che puoi inserire qualsiasi dato desideri per la personalizzazione da qualcosa come Nome all&#39;Indirizzo. Se avete creato blocchi di contenuto in Campaign, potete anche estrarli direttamente in Dreamweaver.
 
 Questa funzionalità è dettagliata nella documentazione di Dreamweaver accessibile [qui](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). È disponibile anche un [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) dimostrativo.
 
 ## Modifica del contenuto in Experience Manager {#editing-content-in-experience-manager}
 
-Il contenuto dell'e-mail può essere modificato in Experience Manager e quindi utilizzato per uno o più messaggi e-mail in Adobe Campaign Standard. Fare riferimento a [questo documento](../../integrating/using/integrating-with-experience-manager.md).
+Il contenuto dell&#39;e-mail può essere modificato in Experience Manager e quindi utilizzato per uno o più messaggi e-mail in Adobe Campaign Standard. Fare riferimento a [questo documento](../../integrating/using/integrating-with-experience-manager.md).
 
 ## Confronto delle opzioni di progettazione e-mail {#email-design-options-comparison}
 
@@ -66,13 +66,13 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
   <tr> 
    <td> <strong>Scrivi HTML</strong><br /> </td> 
    <td> Supportato<br /> </td> 
-   <td>  Non supportato<br /> </td> 
+   <td> Non supportato<br /> </td> 
    <td> Supportato<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Aggiorna HTML</strong><br /> </td> 
    <td> Solo all’interno di un componente HTML<br /> </td> 
-   <td>  Non supportato<br /> </td> 
+   <td> Non supportato<br /> </td> 
    <td> Supportato<br /> </td> 
   </tr> 
   <tr> 
@@ -84,8 +84,8 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
   <tr> 
    <td> <strong>Personalizzazione avanzata</strong><br /> </td> 
    <td> Supportato<br /> </td> 
-   <td>  Non supportato<br /> </td> 
-   <td>  Non supportato<br /> </td> 
+   <td> Non supportato<br /> </td> 
+   <td> Non supportato<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Prova/Anteprima</strong><br /> </td> 
@@ -96,8 +96,8 @@ Adobe Campaign offre diverse opzioni di creazione e-mail. La tabella seguente mo
   <tr> 
    <td> <strong>Elenco prodotti</strong><br /> </td> 
    <td> Supportato nei messaggi transazionali e-mail<br /> </td> 
-   <td>  Non supportato<br /> </td> 
-   <td>  Non supportato<br /> </td> 
+   <td> Non supportato<br /> </td> 
+   <td> Non supportato<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Vantaggi</strong><br /> </td> 
