@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ La **[!UICONTROL Tracking]**sezione contiene i seguenti parametri:
 
 La **[!UICONTROL Advanced parameters]**sezione contiene più parametri.
 
-I primi due campi consentono di inserire le informazioni necessarie per elaborare le intestazioni dei messaggi e-mail (indirizzo di risposta e indirizzo di risposta). Queste informazioni possono essere personalizzate. A tal fine, fate clic sul pulsante a destra del campo che verrà modificato, quindi aggiungete i campi di personalizzazione. L’inserimento e l’utilizzo dei campi di personalizzazione sono descritti dettagliatamente nella sezione [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field) di personalizzazione.
+I primi campi consentono di inserire le informazioni necessarie per elaborare le intestazioni dei messaggi e-mail. È possibile gestire qui l&#39;indirizzo e il testo della risposta, nonché l&#39;indirizzo del mittente (che riempie il campo &quot;Da:&quot;). Queste informazioni possono essere personalizzate.
+
+Fate clic sul pulsante a destra del campo da modificare, quindi aggiungete il campo di personalizzazione, il blocco di contenuto o il testo dinamico.
+
+![](assets/advancedparameters.png)
+
+L&#39;inserimento e l&#39;utilizzo del contenuto di personalizzazione sono descritti dettagliatamente nella documentazione [Personalizzazione del contenuto](../../designing/using/personalization.md) dell&#39;e-mail.
 
 #### Contesto di destinazione {#target-context}
 
@@ -326,4 +332,3 @@ Ccn e-mail è attivato nel modello [di](../../start/using/marketing-activity-tem
 >[!NOTE]
 >
 >Se le e-mail inviate all&#39;indirizzo CCN vengono aperte e si fa clic su di esse, queste verranno prese in considerazione nell&#39;analisi **[!UICONTROL Total opens]**e**[!UICONTROL Clicks]** dall&#39;analisi di invio, il che potrebbe causare errori di calcolo.
-
