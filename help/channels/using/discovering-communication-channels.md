@@ -1,25 +1,25 @@
 ---
 title: Esplorazione dei canali di comunicazione
 description: Scopri come inviare messaggi personalizzati su diversi canali e come creare campagne multicanale per meglio indirizzare i destinatari.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: about-communication-channel
+topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
 
 # Esplorazione dei canali di comunicazione{#discovering-communication-channels}
 
-Adobe Campaign consente di creare e inviare messaggi personalizzati su vari canali e di misurarne l'efficacia attraverso report dedicati.
+Adobe Campaign consente di creare e inviare messaggi personalizzati su vari canali e di misurarne l&#39;efficacia attraverso report dedicati.
 
 Consente inoltre di creare campagne tra canali per destinatari migliori.
 
@@ -41,5 +41,4 @@ L’amministratore funzionale incaricato della configurazione dei modelli può d
 
 **Argomenti** correlati:
 
-* [Ottimizzazione della recapito](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [Ottimizzazione della recapito](../../sending/using/about-deliverability.md)
