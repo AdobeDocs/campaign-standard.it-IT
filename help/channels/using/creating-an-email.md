@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
+source-git-commit: c099527702ef3d9484a47a033f309f3194a70f17
 
 ---
 
@@ -91,7 +91,6 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 **Argomenti** correlati:
 
 * [Creazione di un video e-mail](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
-* [Creazione di una guida dettagliata sull’e-mail](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html) personalizzata
+* [Creazione di una guida dettagliata sull’e-mail](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) personalizzata
 * [Video sull&#39;integrazione](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) di Adobe Campaign e Dreamweaver
 * [Integrazione con Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
-
