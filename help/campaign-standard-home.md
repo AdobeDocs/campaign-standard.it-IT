@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -15,17 +15,13 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ## Novità
 
-* **[Gestione della privacy](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
+* **[Gestione della privacy](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
 
-* **[Best practice per la distribuzione di contenuti](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
-Ulteriori informazioni sulle best practice relative alla progettazione e all'invio dei contenuti.
+* **[Best practice per la distribuzione di contenuti](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Ulteriori informazioni sulle best practice relative alla progettazione e all&#39;invio dei contenuti.
 
-* **[Finestra di progettazione e-mail](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-Consulta la documentazione riorganizzata della finestra di progettazione e-mail.
+* **[Finestra di progettazione e-mail](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulta la documentazione riorganizzata della finestra di progettazione e-mail.
 
-* **[Pagine di destinazione](channels/using/getting-started-with-landing-pages.md)**<br/>
-Ulteriori informazioni sulla configurazione di una pagina di destinazione.
+* **[Guida](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>a Campaign Standard Mobile Ulteriori informazioni sulle linee guida generali per le consegne per dispositivi mobili.
 
 [Fai clic qui per ulteriori aggiornamenti](rn/using/documentation-updates.md)
 
@@ -80,4 +76,4 @@ Ulteriori informazioni sulla configurazione di una pagina di destinazione.
 
 * [Note tecniche](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
-* [Guida all'implementazione di Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+* [Guida all&#39;implementazione di Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
