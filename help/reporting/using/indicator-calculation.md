@@ -12,14 +12,18 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
 
 
 # Calcolo indicatore{#indicator-calculation}
 
-Le tabelle riportate di seguito forniscono l'elenco degli indicatori utilizzati nei diversi rapporti e la relativa formula di calcolo in base al tipo di consegna.
+>[!NOTE]
+>
+>Per elaborare e gestire meglio volumi elevati e analisi in tempo reale, il reporting dinamico utilizza aggregati approssimativi per stime di conteggio distinte. Le aggregazioni approssimative offrono un utilizzo limitato della memoria e sono spesso più veloci dei calcoli esatti.
+
+Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizzati nei diversi rapporti e la relativa formula di calcolo in base al tipo di consegna.
 
 ## Recapito e-mail {#email-delivery}
 
@@ -152,13 +156,7 @@ Le tabelle riportate di seguito forniscono l'elenco degli indicatori utilizzati 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantena/@sent<br /> </td> 
    <td> Denominatore per il calcolo del tasso si basa sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Rifiutato<br /> </td> 
-   <td> @rifiutato<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Rifiutato<br /> </td> 
    <td> @rifiutato<br /> </td> 
