@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
+source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
@@ -29,7 +29,7 @@ L&#39;obiettivo è selezionare un&#39;audience dai destinatari del database e se
 Per maggiori dettagli sui flussi di lavoro e sui diversi canali disponibili in Adobe Campaign, consulta i documenti seguenti:
 
 * [Esplorazione dei flussi di lavoro](../../automating/using/discovering-workflows.md)
-* [Canali di comunicazione](../../channels/using/discovering-communication-channels.md)
+* [Esplorazione dei canali di comunicazione](../../channels/using/discovering-communication-channels.md)
 
 ## Creazione di un flusso di lavoro {#creating-workflow}
 
@@ -126,7 +126,7 @@ Adobe Campaign consente di aggiungere consegne a un flusso di lavoro. A questo s
 
 Per creare una consegna e-mail:
 
-1. Trascinare un segmento **[!UICONTROL Email delivery]**dopo il primo.
+1. Trascinate e rilasciate un segmento **[!UICONTROL Email delivery]**dopo il primo segmento.
 1. Fate doppio clic sull&#39;attività per modificarla.
 1. Selezionare **[!UICONTROL Simple email]**.
 1. Selezionate **[!UICONTROL Add an outbound transition with the population]**e fate clic su**[!UICONTROL Next]**.
