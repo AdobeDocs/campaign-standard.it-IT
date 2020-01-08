@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -109,7 +109,7 @@ Nella sezione Notifiche push è stata aggiunta una nuova sezione su come creare 
 
 Nella pagina è stata aggiunta una nota sull’opzione **Launch_URL_Campaign** su come configurare un’applicazione mobile tramite gli SDK di Adobe Experience Platform. [Leggi tutto](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-La guida al progettista delle e-mail è stata riorganizzata. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
+La guida di Progettazione e-mail è stata riorganizzata. [Leggi tutto](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Aggiornamenti della documentazione - Agosto 2019 {#doc-updates-august-2019}
 
