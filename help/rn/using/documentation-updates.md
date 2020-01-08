@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -117,7 +117,7 @@ La guida di Progettazione e-mail è stata riorganizzata. [Leggi tutto](../../des
 
 Nella sezione Risoluzione dei problemi del flusso di lavoro è stata aggiunta una procedura per visualizzare le query SQL nella scheda Registro. [Leggi tutto](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-È stato aggiunto un nuovo articolo della guida, con informazioni relative ai sottodomini e alla gestione dei certificati all&#39;interno del Pannello di controllo. [Leggi tutto](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+È stato aggiunto un nuovo articolo della guida, con informazioni relative ai sottodomini e alla gestione dei certificati all&#39;interno del Pannello di controllo. [Leggi tutto](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 La sezione che descrive i modelli di contenuto e i frammenti è stata aggiornata. [Leggi tutto](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -179,7 +179,7 @@ Aggiunta di un avviso nella documentazione delle risorse personalizzata. È cons
 
 ### Nuove funzionalità incluse nella release {#new-capabilities-included-in-the-release}
 
-Pannello di controllo - [Leggi tutto](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Pannello di controllo - [Leggi tutto](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Notifiche locali - [Leggi tutto](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
