@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 * **[Best practice per la distribuzione di contenuti](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Ulteriori informazioni sulle best practice relative alla progettazione e all&#39;invio dei contenuti.
 
-* **[Finestra di progettazione e-mail](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulta la documentazione riorganizzata della finestra di progettazione e-mail.
+* **[Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>e-mail Consultare la documentazione di Progettazione e-mail riorganizzata.
 
 * **[Guida](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>a Campaign Standard Mobile Ulteriori informazioni sulle linee guida generali per le consegne per dispositivi mobili.
 
@@ -46,8 +46,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Progettazione di un'e-mail</strong></a>
     </div>
-    <em>Scopri come utilizzare la finestra di progettazione e-mail per creare e-mail dinamiche e personalizzate</em>
-    <br>
+    <em>Scopri come utilizzare e-mail Designer per creare e-mail</em>reattive e personalizzate <br>
   </td>
   <td valign="top">
        <img alt="Sviluppatori" src="start/using/assets/dev.png" />
