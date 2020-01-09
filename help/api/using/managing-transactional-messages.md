@@ -1,5 +1,5 @@
 ---
-title: Gestione dei messaggi transazionali
+title: Gestione dei messaggi delle transazioni
 description: Scopri come gestire i messaggi transazionali con le API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
 
 ---
 
 
-# Gestione dei messaggi transazionali {#managing-transactional-messages}
+# Gestione dei messaggi delle transazioni {#managing-transactional-messages}
 
 ## Informazioni sui messaggi transazionali
 
@@ -25,11 +25,11 @@ Dopo aver creato un evento, dovrete integrare l’attivazione di questo evento n
 
 >[!NOTE]
 >
->La creazione e la pubblicazione di un evento sono descritte nella documentazione relativa <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">alla</a>campagna.
+>La creazione e la pubblicazione di un evento sono presentate in [questa sezione](../../administration/using/configuring-transactional-messaging.md).
 
-Ad esempio, si desidera che venga attivato un evento "abbandono carrello" ogni volta che un cliente abbandona il sito Web prima di acquistare i prodotti nel carrello. A tal fine, lo sviluppatore Web deve utilizzare REST Transactional Messages API.
+Ad esempio, si desidera che venga attivato un evento &quot;abbandono carrello&quot; ogni volta che un cliente abbandona il sito Web prima di acquistare i prodotti nel carrello. A tal fine, lo sviluppatore Web deve utilizzare REST Transactional Messages API.
 
-1. Lo sviluppatore invia una richiesta in base al metodo POST, che attiva l' [invio dell'evento](#sending-a-transactional-event)transazionale.
+1. Lo sviluppatore invia una richiesta in base al metodo POST, che attiva l&#39; [invio dell&#39;evento](#sending-a-transactional-event)transazionale.
 1. La risposta alla richiesta POST contiene una chiave primaria, che consente allo sviluppatore di inviare una o più richieste tramite una richiesta GET. In questo modo è in grado di ottenere lo stato [dell’](#transactional-event-status)evento.
 
 ## Invio di un evento transazionale {#sending-a-transactional-event}
@@ -40,21 +40,21 @@ L’evento transazionale viene inviato tramite una richiesta POST con la seguent
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZZAZIONE&gt;**: l’ID organizzazione personale. Fare riferimento a [questa sezione](../../api/using/must-read.md).
+* **&lt;ORGANIZZAZIONE>**: l’ID organizzazione personale. Fare riferimento a [questa sezione](../../api/using/must-read.md).
 
-* **&lt;transactionalAPI&gt;**: endPoints dell'API dei messaggi transazionali.
+* **&lt;transactionalAPI>**: endPoints dell&#39;API dei messaggi transazionali.
 
-   Il nome dell'endpoint API dei messaggi transazionali dipende dalla configurazione dell'istanza. Corrisponde al valore "mc" seguito dall’ID organizzazione personale. Prendiamo l’esempio della società Geometrixx, con "geometrixx" come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
+   Il nome dell&#39;endpoint API dei messaggi transazionali dipende dalla configurazione dell&#39;istanza. Corrisponde al valore &quot;mc&quot; seguito dall’ID organizzazione personale. Prendiamo l’esempio della società Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   (L'endpoint API dei messaggi transazionali è visibile anche durante l'anteprima API)
+   (L&#39;endpoint API dei messaggi transazionali è visibile anche durante l&#39;anteprima API)
 
-* **&lt;eventID&gt;**: il tipo di evento da inviare. Questo ID viene generato al momento della creazione della definizione dell’evento. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**: il tipo di evento da inviare. Questo ID viene generato al momento della creazione della definizione dell’evento. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### Intestazione richiesta POST
 
-La richiesta deve contenere un "Content-Type: application/json" header.
+La richiesta deve contenere un &quot;Content-Type: application/json&quot; header.
 
 È necessario aggiungere un charset, ad esempio **utf-8**. Questo valore dipende dall’applicazione REST in uso.
 
@@ -69,16 +69,16 @@ La richiesta deve contenere un "Content-Type: application/json" header.
 
 ### corpo della richiesta POST
 
-I dati dell’evento sono contenuti nel corpo JSON POST. La struttura dell'evento dipende dalla sua definizione. Il pulsante Anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+I dati dell’evento sono contenuti nel corpo JSON POST. La struttura dell&#39;evento dipende dalla sua definizione. Il pulsante Anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
-Al contenuto dell'evento possono essere aggiunti i seguenti parametri facoltativi per gestire l'invio di messaggi transazionali collegati all'evento:
+Al contenuto dell&#39;evento possono essere aggiunti i seguenti parametri facoltativi per gestire l&#39;invio di messaggi transazionali collegati all&#39;evento:
 
-* **scadenza** (facoltativo): dopo tale data, l'invio dell'evento transazionale verrà annullato.
-* **pianificato** (facoltativo): a partire da tale data, l'evento transazionale verrà elaborato e il messaggio transazionale verrà inviato.
+* **scadenza** (facoltativo): dopo tale data, l&#39;invio dell&#39;evento transazionale verrà annullato.
+* **pianificato** (facoltativo): a partire da tale data, l&#39;evento transazionale verrà elaborato e il messaggio transazionale verrà inviato.
 
 >[!NOTE]
 >
->I valori dei parametri "scadenza" e "programmata" seguono il formato ISO 8601. La norma ISO 8601 specifica l’uso della lettera maiuscola "T" per separare la data e l’ora. Tuttavia, può essere rimosso dall'ingresso o dall'uscita per una migliore leggibilità.
+>I valori dei parametri &quot;scadenza&quot; e &quot;programmata&quot; seguono il formato ISO 8601. La norma ISO 8601 specifica l’uso della lettera maiuscola &quot;T&quot; per separare la data e l’ora. Tuttavia, può essere rimosso dall&#39;ingresso o dall&#39;uscita per una migliore leggibilità.
 
 ### Risposta alla richiesta POST
 
@@ -88,7 +88,7 @@ La risposta POST restituisce lo stato dell’evento transazionale al momento del
 
 <br/>
 
-***Richiesta di esempio***
+***Richiesta di esempio ***
 
 Richiesta POST per inviare l’evento.
 
@@ -136,14 +136,14 @@ Risposta alla richiesta POST.
 
 ### Stato evento transazionale {#transactional-event-status}
 
-Nella risposta, il campo "status" consente di sapere se l’evento è stato elaborato o meno:
+Nella risposta, il campo &quot;status&quot; consente di sapere se l’evento è stato elaborato o meno:
 
-* **in sospeso**: l'evento è in sospeso. L'evento assume questo stato quando è appena stato attivato.
-* **elaborazione**: l'evento è in attesa di consegna; viene trasformato in un messaggio e il messaggio viene inviato.
+* **in sospeso**: l&#39;evento è in sospeso. L&#39;evento assume questo stato quando è appena stato attivato.
+* **elaborazione**: l&#39;evento è in attesa di consegna; viene trasformato in un messaggio e il messaggio viene inviato.
 * **messi in pausa**: il processo evento è in pausa. Non viene più elaborata, ma tenuta in coda nel database di Adobe Campaign. Per ulteriori informazioni, consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
-* **elaborati**: l'evento è stato elaborato e il messaggio è stato inviato correttamente.
-* **ignorato**: l'evento è stato ignorato dalla consegna, in genere quando un indirizzo è in quarantena.
-* **deliveryFailed**: si è verificato un errore di consegna durante l'elaborazione dell'evento.
+* **elaborati**: l&#39;evento è stato elaborato e il messaggio è stato inviato correttamente.
+* **ignorato**: l&#39;evento è stato ignorato dalla consegna, in genere quando un indirizzo è in quarantena.
+* **deliveryFailed**: si è verificato un errore di consegna durante l&#39;elaborazione dell&#39;evento.
 * **routingFailed**: la fase di routing non è riuscita. Ciò potrebbe verificarsi, ad esempio, quando il tipo di evento specificato non è possibile trovare.
-* **tooOld**: l'evento è scaduto prima che fosse possibile elaborarlo. Ciò può accadere per vari motivi, ad esempio, quando un'invio ha esito negativo diverse volte (questo determina l'assenza di un evento) o quando il server non è più in grado di elaborare gli eventi dopo essere stato sovraccaricato.
+* **tooOld**: l&#39;evento è scaduto prima che fosse possibile elaborarlo. Ciò può accadere per vari motivi, ad esempio, quando un&#39;invio ha esito negativo diverse volte (questo determina l&#39;assenza di un evento) o quando il server non è più in grado di elaborare gli eventi dopo essere stato sovraccaricato.
 * **targetingFailed**: Campaign Standard non è riuscito ad arricchire un collegamento utilizzato per il targeting dei messaggi.
