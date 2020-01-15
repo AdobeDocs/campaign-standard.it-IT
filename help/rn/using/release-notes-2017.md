@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
 
 ## Rilascio 17.10 - ottobre 2017 {#release-17-10---october-2017}
 
-### Nuove funzionalità {#new-capabilities}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -48,65 +48,65 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches}
+**Patch**
 
-#### Piattaforma {#platform}
+_Piattaforma_
 
 * È stato risolto un problema che poteva impedire la corretta decompressione dei file ZIP di grandi dimensioni.
-* La sicurezza nella gestione del marchio è stata migliorata. La modifica del nome e dell'indirizzo del mittente di un marchio ora è riservata agli amministratori tecnici Adobe.
-* Per migliorare la sicurezza, i contenuti generati dagli utenti (immagini, pagine mirror, pagine di destinazione, ecc.) non può più essere servito dal dominio adobe.com. È ora obbligatorio utilizzare il proprio dominio per gestire queste risorse, tramite l'utilizzo del marchio.
+* La sicurezza nella gestione del marchio è stata migliorata. La modifica del nome e dell&#39;indirizzo del mittente di un marchio ora è riservata agli amministratori tecnici Adobe.
+* Per migliorare la sicurezza, i contenuti generati dagli utenti (immagini, pagine mirror, pagine di destinazione, ecc.) non può più essere servito dal dominio adobe.com. È ora obbligatorio utilizzare il proprio dominio per gestire queste risorse, tramite l&#39;utilizzo del marchio.
 * È stato risolto un problema di interfaccia durante la visualizzazione e il filtro delle attività di marketing.
-* È stato risolto un problema che impediva l'aggiornamento dei campi della data di iscrizione con una chiamata API POST Rest.
+* È stato risolto un problema che impediva l&#39;aggiornamento dei campi della data di iscrizione con una chiamata API POST Rest.
 
-#### E-mail, SMS e posta diretta {#emails--sms-messages-and-direct-mail}
+_E-mail, SMS e posta diretta_
 
 * È stato risolto un problema che poteva impedire il targeting di un pubblico di tipo elenco in un messaggio, causando il fallimento della preparazione.
 * Lingue mancanti aggiunte nelle funzionalità di distribuzione di e-mail in più lingue.
-* La miniatura del contenuto, visualizzata sul dashboard di distribuzione, ora viene aggiornata automaticamente quando l'utente modifica e salva il contenuto.
-* È stato risolto un problema relativo al fuso orario che impediva l'apertura di una consegna.
+* La miniatura del contenuto, visualizzata sul dashboard di distribuzione, ora viene aggiornata automaticamente quando l&#39;utente modifica e salva il contenuto.
+* È stato risolto un problema relativo al fuso orario che impediva l&#39;apertura di una consegna.
 
-#### Notifiche push {#push-notifications}
+_Notifiche push_
 
 * Quando si configura il canale di notifica push, la piattaforma del provider push per iOS deve essere **apns** e per Android **gcm**.
-* Risolto un errore che impediva l'aggiunta dell'app mobile iOS nell'interfaccia di Adobe Campaign.
+* Risolto un errore che impediva l&#39;aggiunta dell&#39;app mobile iOS nell&#39;interfaccia di Adobe Campaign.
 * Le notifiche push ora sono supportate sia nelle applicazioni mobili Android con abilitazione GCM che nelle applicazioni mobili FCM.
 * È stato corretto un errore che impediva il salvataggio del contenuto durante la duplicazione di un modello di notifica push.
 * È ora possibile creare o aggiornare un profilo dal database di Adobe Campaign riconciliando i dati degli utenti delle applicazioni mobili.
-* Adobe Campaign ora dà priorità all'elaborazione delle notifiche push transazionali rispetto alle notifiche push standard.
+* Adobe Campaign ora dà priorità all&#39;elaborazione delle notifiche push transazionali rispetto alle notifiche push standard.
 
-#### Rapporti {#reports}
+_Rapporti_
 
-* È stato risolto un problema che impediva la visualizzazione delle percentuali di clic con il tasto di scelta rapida nel contenuto dell'e-mail.
+* È stato risolto un problema che impediva la visualizzazione delle percentuali di clic con il tasto di scelta rapida nel contenuto dell&#39;e-mail.
 * È stato risolto un problema relativo alla metrica della blacklist che veniva conteggiata come rimbalzo rigido invece di rimbalzo.
 * È stato risolto un problema che causava la visualizzazione dei conteggi negativi nei dati di riepilogo.
 * È stato risolto un problema che causava il conteggio dei profili nel segmento di età errato.
 * Le formule di calcolo soft e hard bounce sono cambiate.
 
-#### Flussi di lavoro {#workflows}
+_Flussi di lavoro_
 
-* È stato risolto un problema nell' **[!UICONTROL Load file]** attività che poteva causare errori dopo l'aggiunta e la rimozione manuale delle colonne nell'attività.
-* Il flusso di lavoro **[!UICONTROL deliverabilityUpdate]** tecnico è ora pianificato per essere eseguito alle 2 del mattino, ora del server.
-* È stato risolto un problema di sicurezza che consentiva di eseguire un'esportazione di elenco senza il ruolo di esportazione.
-* È stato risolto un problema relativo all' **[!UICONTROL Reconciliation]** attività.
-* È stato risolto un problema relativo all'utilizzo di caratteri jolly nell' **[!UICONTROL File Transfer]** attività.
+* È stato risolto un problema nell&#39; **[!UICONTROL Load file]**attività che poteva causare errori dopo l&#39;aggiunta e la rimozione manuale delle colonne nell&#39;attività.
+* Il flusso di lavoro **[!UICONTROL deliverabilityUpdate]**tecnico è ora pianificato per essere eseguito alle 2 del mattino, ora del server.
+* È stato risolto un problema di sicurezza che consentiva di eseguire un&#39;esportazione di elenco senza il ruolo di esportazione.
+* È stato risolto un problema relativo all&#39; **[!UICONTROL Reconciliation]**attività.
+* È stato risolto un problema relativo all&#39;utilizzo di caratteri jolly nell&#39; **[!UICONTROL File Transfer]**attività.
 
-#### Profili e audience {#profiles-and-audiences}
+_Profili e audience_
 
 * È stato risolto un problema che poteva impedire che in alcuni casi specifici si tenesse correttamente conto di una condizione di una query, generando risultati erronei.
-* È stato risolto un problema che impediva l'accesso ai profili se questi venivano utilizzati come destinazione in un messaggio preparato ma mai inviato e scaduto.
+* È stato risolto un problema che impediva l&#39;accesso ai profili se questi venivano utilizzati come destinazione in un messaggio preparato ma mai inviato e scaduto.
 
-#### Integrazioni {#integrations}
+_Integrazioni_
 
 * È stato risolto un problema che poteva impedire la corretta visualizzazione e selezione di alcune origini dati create per gli attivatori.
 
-#### Risorse personalizzate {#custom-resources}
+_Risorse personalizzate_
 
 * È stato risolto un problema che si verificava nelle schermate elenco per cui le righe di risorse personalizzate potevano essere visualizzate senza alcun dato.
-* È stato risolto un problema che impediva la visualizzazione di campi di tipo booleano con valore 'False' in risorse personalizzate.
+* È stato risolto un problema che impediva la visualizzazione di campi di tipo booleano con valore &#39;False&#39; in risorse personalizzate.
 
 ## Rilascio 17.9 - settembre 2017 {#release-17-9---september-2017}
 
-### Nuove funzionalità {#new-capabilities-1}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -131,54 +131,54 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-1}
+**Patch**
 
-#### Piattaforma {#platform-1}
+_Piattaforma_
 
-* Alcuni clienti devono poter utilizzare un ID proveniente da Adobe Campaign Standard in quanto non gestiscono una chiave univoca per identificare i propri record. Questo ID (ID **** ACS) può essere esportato e utilizzato come chiave di riconciliazione durante l'aggiornamento dei dati. Per ulteriori informazioni, consulta la documentazione [](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)dettagliata.
-* Il protocollo FTP è stato dichiarato obsoleto. È ora necessario utilizzare SFTP. Per non bloccare le implementazioni esistenti, le configurazioni esistenti sull'FTP continueranno a funzionare come prima, ma l'opzione non verrà visualizzata per le nuove attività.
+* Alcuni clienti devono poter utilizzare un ID proveniente da Adobe Campaign Standard in quanto non gestiscono una chiave univoca per identificare i propri record. Questo ID (ID **** ACS) può essere esportato e utilizzato come chiave di riconciliazione durante l&#39;aggiornamento dei dati. Per ulteriori informazioni, consulta la documentazione [](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)dettagliata.
+* Il protocollo FTP è stato dichiarato obsoleto. È ora necessario utilizzare SFTP. Per non bloccare le implementazioni esistenti, le configurazioni esistenti sull&#39;FTP continueranno a funzionare come prima, ma l&#39;opzione non verrà visualizzata per le nuove attività.
 
-#### E-mail, SMS e posta diretta {#emails--sms-messages-and-direct-mail-1}
+_E-mail, SMS e posta diretta_
 
 * È ora possibile creare nuovi criteri di avviso per utilizzarli nelle notifiche di avviso relative alla consegna. Per ulteriori informazioni, consulta la documentazione [](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)dettagliata.
-* Le notifiche di avviso sulla consegna hanno una nuova progettazione e l'esperienza utente del dashboard di avvisi sulla consegna è stata migliorata.
+* Le notifiche di avviso sulla consegna hanno una nuova progettazione e l&#39;esperienza utente del dashboard di avvisi sulla consegna è stata migliorata.
 * Ora, quando un account esterno di routing è disattivato, nelle consegne interessate viene visualizzato un avviso (e-mail, SMS e push) e il pulsante **Anteprima** è nascosto in queste consegne.
-* È stato risolto un problema che causava un errore nell'anteprima di un test A/B sul contenuto dell'e-mail quando il testo dinamico era abilitato nella riga oggetto.
+* È stato risolto un problema che causava un errore nell&#39;anteprima di un test A/B sul contenuto dell&#39;e-mail quando il testo dinamico era abilitato nella riga oggetto.
 
-#### Messaggi transazionali {#transactional-messages}
+_Messaggi transazionali_
 
-* È ora possibile definire quando si desidera inviare un messaggio di follow-up, ad esempio 3 giorni dopo l'invio di un messaggio transazionale. Per ulteriori informazioni, consulta la documentazione [](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)dettagliata.
+* È ora possibile definire quando si desidera inviare un messaggio di follow-up, ad esempio 3 giorni dopo l&#39;invio di un messaggio transazionale. Per ulteriori informazioni, consulta la documentazione [](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)dettagliata.
 * È ora possibile definire la data a partire dalla quale inviare i messaggi transazionali collegati a un evento.
-* È stato risolto un problema che causava un errore SQL durante l'esecuzione di un flusso di lavoro contenente un messaggio di follow-up dopo l'eliminazione dei profili collegati agli eventi ricevuti ed elaborati.
+* È stato risolto un problema che causava un errore SQL durante l&#39;esecuzione di un flusso di lavoro contenente un messaggio di follow-up dopo l&#39;eliminazione dei profili collegati agli eventi ricevuti ed elaborati.
 * È stato corretto un errore che impediva di eliminare un profilo collegato a un evento.
 * È stato risolto un problema che poteva impedire il funzionamento del reindirizzamento dei collegamenti tracciati.
 * È stato risolto un problema che impediva di disabilitare il tracciamento per alcuni collegamenti in un messaggio e-mail o SMS.
 
-#### Rapporti {#reports-1}
+_Rapporti_
 
 * Il rapporto **Clic** con attivazione è stato migliorato. Inoltre, ora è possibile visualizzare clic a seconda di ogni contenuto condizionale definito in una consegna e visualizzare clic per ogni esecuzione di consegne ricorrenti o messaggi transazionali. Per ulteriori informazioni, consulta la documentazione [](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)dettagliata.
 * È stato risolto un problema che impediva alla metrica quarantena di recuperare dati corretti.
 * Al widget calendario è stato aggiunto un nuovo intervallo di tempo predefinito.
 * Le metriche [dei report](../../reporting/using/indicator-calculation.md) dinamici e i KPI [delle](../../sending/using/confirming-the-send.md) campagne (visualizzati sul dashboard dei messaggi inviati) sono stati allineati per una maggiore coerenza.
-* È stato risolto un problema che poteva causare l'arresto anomalo del gasdotto su debian 7.
+* È stato risolto un problema che poteva causare l&#39;arresto anomalo del gasdotto su debian 7.
 
-#### Flussi di lavoro {#workflows-1}
+_Flussi di lavoro_
 
 * È stato risolto un problema che poteva impedire il funzionamento della conservazione dei file importati.
 
-#### Integrazioni {#integrations-1}
+_Integrazioni_
 
-* Le eVar ed eventi ora sono supportati per l'integrazione di Analytics e Campaign.
-* Quando si invia un'e-mail con il contenuto del carrello abbandonato, il parametro payload per gli elementi rimossi dal carrello ora è facoltativo.
+* Le eVar ed eventi ora sono supportati per l&#39;integrazione di Analytics e Campaign.
+* Quando si invia un&#39;e-mail con il contenuto del carrello abbandonato, il parametro payload per gli elementi rimossi dal carrello ora è facoltativo.
 
-#### Profili e audience {#profiles-and-audiences-1}
+_Profili e audience_
 
 * Adobe Campaign ora fornisce un rapporto che mostra il numero di profili attivi. Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione. Per ulteriori informazioni, consulta la documentazione [](../../audiences/using/active-profiles.md)dettagliata.
-* È stato risolto un problema che impediva la sottoscrizione dei profili a un servizio quando si utilizzava l'API Profili e servizi.
+* È stato risolto un problema che impediva la sottoscrizione dei profili a un servizio quando si utilizzava l&#39;API Profili e servizi.
 
 ## Rilascio 17.7 - luglio 2017 {#release-17-7---july-2017}
 
-### Nuove funzionalità {#new-capabilities-2}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -215,46 +215,46 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-2}
+**Patch**
 
-#### Generale {#general}
+_Generale_
 
-* È stato risolto un problema che consentiva a qualsiasi utente di esportare elenchi. Ora è consentito solo agli utenti con **[!UICONTROL Export]** ruolo.
+* È stato risolto un problema che consentiva a qualsiasi utente di esportare elenchi. Ora è consentito solo agli utenti con **[!UICONTROL Export]**ruolo.
 
-#### E-mail, SMS e posta diretta {#emails--sms-messages-and-direct-mail-2}
+_E-mail, SMS e posta diretta_
 
-* È stato risolto un problema con il flusso di lavoro **updateDeliveryExecInfo** che impostava l'indicatore **Per distribuire** su 0 per le consegne via SMS.
-* Nei parametri **** avanzati delle proprietà del modello di consegna, l'elenco a discesa **Routing** ora visualizza solo gli account esterni corrispondenti al tipo di messaggio del modello. Ad esempio, un modello di consegna per e-mail visualizza solo gli account esterni per le e-mail.
-* È stato risolto un problema con il formato e-mail **[!UICONTROL Text]** preferito definito per i profili di test.
+* È stato risolto un problema con il flusso di lavoro **updateDeliveryExecInfo** che impostava l&#39;indicatore **Per distribuire** su 0 per le consegne via SMS.
+* Nei parametri **** avanzati delle proprietà del modello di consegna, l&#39;elenco a discesa **Routing** ora visualizza solo gli account esterni corrispondenti al tipo di messaggio del modello. Ad esempio, un modello di consegna per e-mail visualizza solo gli account esterni per le e-mail.
+* È stato risolto un problema con il formato e-mail **[!UICONTROL Text]**preferito definito per i profili di test.
 * È stato risolto un problema che causava un errore Javascript nella selezione del fuso orario predefinito nella schermata di definizione della pianificazione di una consegna.
 * È stato risolto un problema che impediva la visualizzazione dei trap nei registri di invio.
 * Nella schermata di selezione dei modelli della procedura guidata per la creazione della consegna, i modelli di test A/B e follow-up ora sono nascosti per impostazione predefinita. Per ulteriori informazioni, consultare la documentazione [dettagliata](../../channels/using/creating-an-email.md).
-* È stato risolto un problema che consentiva a qualsiasi utente di inviare le consegne. Ora è consentito solo agli utenti con **[!UICONTROL Start deliveries]** ruolo. Per ulteriori informazioni, consultare la documentazione [dettagliata](../../sending/using/confirming-the-send.md).
+* È stato risolto un problema che consentiva a qualsiasi utente di inviare le consegne. Ora è consentito solo agli utenti con **[!UICONTROL Start deliveries]**ruolo. Per ulteriori informazioni, consultare la documentazione[dettagliata](../../sending/using/confirming-the-send.md).
 
-#### Notifiche push {#push-notifications-1}
+_Notifiche push_
 
-* È stato risolto un problema con l'URL dell'endpoint **di tracciamento** campagna che impediva il reporting.
+* È stato risolto un problema con l&#39;URL dell&#39;endpoint **di tracciamento** campagna che impediva il reporting.
 * È stato risolto un problema che impediva la visualizzazione del titolo della notifica push sui dispositivi Android.
 * È stato risolto un problema che impediva la visualizzazione della notifica push sui dispositivi iOS quando la notifica push conteneva solo un titolo (e niente nel corpo del messaggio).
-* È stato corretto un problema a causa del quale veniva forzato il tracciamento degli URL degli allegati multimediali in una distribuzione, che impediva l'incorporazione di video e immagini nella distribuzione. Il tracciamento degli URL del tipo mediaAttachmentURL ora è disattivato per impostazione predefinita per le notifiche push.
+* È stato corretto un problema a causa del quale veniva forzato il tracciamento degli URL degli allegati multimediali in una distribuzione, che impediva l&#39;incorporazione di video e immagini nella distribuzione. Il tracciamento degli URL del tipo mediaAttachmentURL ora è disattivato per impostazione predefinita per le notifiche push.
 
-#### Rapporti {#reports-2}
+_Rapporti_
 
 * È stato corretto un problema a causa del quale i valori apparivano diversi tra grafici e tabelle.
 * È stato corretto un problema a causa del quale i valori delle notifiche push venivano visualizzati come valori e-mail.
 * È stato risolto un problema che mostrava valori sconosciuti quando si creava una consegna al di fuori di una campagna.
-* È stato corretto un problema a causa del quale i dati del report SMS venivano visualizzati come dati dell'applicazione mobile.
+* È stato corretto un problema a causa del quale i dati del report SMS venivano visualizzati come dati dell&#39;applicazione mobile.
 
-#### Flussi di lavoro {#workflows-2}
+_Flussi di lavoro_
 
 * È ora possibile filtrare i registri del flusso di lavoro (periodo di tempo e ricerca del testo). Per ulteriori informazioni, consultare la documentazione [dettagliata](../../automating/using/executing-a-workflow.md#monitoring).
-* È ora disponibile un'opzione nelle consegne del flusso di lavoro per disattivare la conferma prima dell'invio.
+* È ora disponibile un&#39;opzione nelle consegne del flusso di lavoro per disattivare la conferma prima dell&#39;invio.
 * È stato risolto un problema che impediva di impostare una transizione in uscita nella creazione guidata di consegna ricorrente.
-* È stato risolto un problema che si verificava durante l'utilizzo di un'attività di query del flusso di lavoro basata su un campo di risorse personalizzato con un'enumerazione contenente molti valori
+* È stato risolto un problema che si verificava durante l&#39;utilizzo di un&#39;attività di query del flusso di lavoro basata su un campo di risorse personalizzato con un&#39;enumerazione contenente molti valori
 
 ## Rilascio 17.5 - maggio 2017 {#release-17-5---may-2017}
 
-### Nuove funzionalità {#new-capabilities-3}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -275,33 +275,33 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-3}
+**Patch**
 
-#### Aggiornamenti dell'interfaccia {#interface-updates}
+_Aggiornamenti dell&#39;interfaccia_
 
-* Nella barra superiore, il **[!UICONTROL Timeline]** collegamento è stato rimosso e sostituito con un collegamento a **[!UICONTROL Programs & Campaigns]** .
+* Nella barra superiore, il **[!UICONTROL Timeline]**collegamento è stato rimosso e sostituito con un collegamento a**[!UICONTROL Programs & Campaigns]** .
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages}
+_E-mail e messaggi SMS_
 
-* È stato risolto un problema che causava la visualizzazione del colore errato per lo stato **[!UICONTROL Retry in progress]** di consegna. Il colore era grigio invece del blu.
+* È stato risolto un problema che causava la visualizzazione del colore errato per lo stato **[!UICONTROL Retry in progress]**di consegna. Il colore era grigio invece del blu.
 
-#### Flussi di lavoro {#workflows-3}
+_Flussi di lavoro_
 
-* È stato risolto un problema che si verificava durante la modifica dell'azione da eseguire in un' **[!UICONTROL Transfer file]** attività.
+* È stato risolto un problema che si verificava durante la modifica dell&#39;azione da eseguire in un&#39; **[!UICONTROL Transfer file]**attività.
 
-#### Rapporti {#reports-3}
+_Rapporti_
 
-* I calcoli **[!UICONTROL Spam]** e gli **[!UICONTROL Spam rate]** indicatori sono stati modificati.
-* Le **[!UICONTROL Bounce]** metriche sono state migliorate per ottenere risultati più precisi.
+* I calcoli **[!UICONTROL Spam]**e gli**[!UICONTROL Spam rate]** indicatori sono stati modificati.
+* Le **[!UICONTROL Bounce]**metriche sono state migliorate per ottenere risultati più precisi.
 
-#### Notifiche push {#push-notifications-2}
+_Notifiche push_
 
 * È stato risolto un problema che impediva di fare clic su un evento push nella cronologia marketing di un profilo.
-* È stato migliorato l'utilizzo delle notifiche push nei flussi di lavoro.
+* È stato migliorato l&#39;utilizzo delle notifiche push nei flussi di lavoro.
 
 ## Rilascio 17.4 - aprile 2017 {#release-17-4---april-2017}
 
-### Nuove funzionalità {#new-capabilities-4}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -334,59 +334,59 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-4}
+**Patch**
 
-#### Piattaforma {#platform-2}
+_Piattaforma_
 
 * È stato corretto un problema di consumo di memoria.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-1}
+_E-mail e messaggi SMS_
 
-* È stato risolto un problema che impediva la corretta sincronizzazione del contenuto con le ultime modifiche durante l'anteprima di un messaggio.
-* È stato risolto un problema che impediva la creazione o l'eliminazione di una regola di elaborazione e-mail MX o Domain.
+* È stato risolto un problema che impediva la corretta sincronizzazione del contenuto con le ultime modifiche durante l&#39;anteprima di un messaggio.
+* È stato risolto un problema che impediva la creazione o l&#39;eliminazione di una regola di elaborazione e-mail MX o Domain.
 * È stato risolto un problema che poteva impedire l’invio di e-mail con più alias.
 * È stato risolto un problema che impediva la visualizzazione dei log di consegna del trap nei registri di invio del recapito.
 * È stato risolto un problema che causava un errore durante la visualizzazione degli URL tracciati di una consegna senza alcun URL nel relativo contenuto.
-* È stato risolto un problema che impediva la corretta applicazione degli attributi dimensione dell'immagine nel messaggio inviato.
+* È stato risolto un problema che impediva la corretta applicazione degli attributi dimensione dell&#39;immagine nel messaggio inviato.
 
-#### Messaggi transazionali {#transactional-messages-1}
+_Messaggi transazionali_
 
 * Il campo rtEventHistoId non è più esposto come campo di personalizzazione in un modello di messaggio transazionale.
 
-#### Pagine di destinazione {#landing-pages}
+_Pagine di destinazione_
 
-* Abbiamo ottimizzato il **[!UICONTROL by email]** filtro utilizzato nelle pagine di destinazione per riconciliare i nuovi sottoscrittori con i profili di database.
+* Abbiamo ottimizzato il **[!UICONTROL by email]**filtro utilizzato nelle pagine di destinazione per riconciliare i nuovi sottoscrittori con i profili di database.
 * È stato risolto un problema che causava la visualizzazione di input di testo libero invece delle caselle di controllo quando si utilizzavano campi booleani in una configurazione del modulo.
 * È stato risolto un problema che impediva la generazione delle miniature delle pagine di destinazione.
 
-#### Flussi di lavoro {#workflows-4}
+_Flussi di lavoro_
 
-* È stato corretto un errore di visualizzazione durante la modifica di un' **[!UICONTROL End]** attività o **[!UICONTROL External Signal]** un'attività (solo in Safari).
-* È stato migliorato il messaggio di errore visualizzato durante la modifica di un' **[!UICONTROL Read Audience]** attività contenente un'audience errata.
-* È stato risolto un problema che poteva causare un errore SQL durante l'esecuzione di un'attività di iscrizione.
+* È stato corretto un errore di visualizzazione durante la modifica di un&#39; **[!UICONTROL End]**attività o**[!UICONTROL External Signal]** un&#39;attività (solo in Safari).
+* È stato migliorato il messaggio di errore visualizzato durante la modifica di un&#39; **[!UICONTROL Read Audience]**attività contenente un&#39;audience errata.
+* È stato risolto un problema che poteva causare un errore SQL durante l&#39;esecuzione di un&#39;attività di iscrizione.
 
-#### Integrazioni {#integrations-2}
+_Integrazioni_
 
 * Dati dei punti di interesse: è stato corretto un errore che si verificava durante il conteggio dei sottoscrittori della posizione.
 
-#### Audience e query {#audiences-and-queries}
+_Audience e query_
 
-* È stato risolto un problema che impediva l'utilizzo di aggregati di somma e media in una raccolta nell'editor di query.
-* È stato risolto un problema che poteva impedire il ricaricamento dell'editor query dopo la modifica della risorsa del filtro.
+* È stato risolto un problema che impediva l&#39;utilizzo di aggregati di somma e media in una raccolta nell&#39;editor di query.
+* È stato risolto un problema che poteva impedire il ricaricamento dell&#39;editor query dopo la modifica della risorsa del filtro.
 
-#### Rapporti {#reports-4}
+_Rapporti_
 
 * È stato risolto un problema che impediva il corretto calcolo delle metriche Open Rate durante la selezione di più righe in una tabella.
 * È stato corretto un errore che mostrava solo le metriche come valori interi. Ora è possibile visualizzare le metriche con i decimali.
 
-#### Notifiche push {#push-notifications-3}
+_Notifiche push_
 
-* È stato risolto un problema che impediva la visualizzazione di un messaggio di errore durante la creazione di un'applicazione Android collegata a un'app mobile che non era stata creata correttamente in MCPNS.
+* È stato risolto un problema che impediva la visualizzazione di un messaggio di errore durante la creazione di un&#39;applicazione Android collegata a un&#39;app mobile che non era stata creata correttamente in MCPNS.
 * È stato risolto un problema che consentiva a un utente di aggiungere suoni a una notifica invisibile.
 
 ## Rilascio 17.2 - marzo 2017 {#release-17-2---march-2017}
 
-### Nuove funzionalità {#new-capabilities-5}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -446,30 +446,30 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-5}
+**Patch**
 
-#### Generale {#general-1}
+_Generale_
 
-* È ora possibile aggiungere dati di profilo durante l'esportazione dei registri di consegna.
+* È ora possibile aggiungere dati di profilo durante l&#39;esportazione dei registri di consegna.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-2}
+_E-mail e messaggi SMS_
 
-* È stato risolto un problema a causa del quale l' **[!UICONTROL Request confirmation before sending messages]** opzione rimaneva selezionata anche dopo averla deselezionata e aver salvato la consegna.
-* È stato risolto un problema che poteva impedire l'annullamento della pubblicazione di e-mail transazionali.
-* È stato corretto un problema a causa del quale il contenuto non poteva essere sincronizzato correttamente con le ultime modifiche prima di visualizzare l'anteprima di una distribuzione.
+* È stato risolto un problema a causa del quale l&#39; **[!UICONTROL Request confirmation before sending messages]**opzione rimaneva selezionata anche dopo averla deselezionata e aver salvato la consegna.
+* È stato risolto un problema che poteva impedire l&#39;annullamento della pubblicazione di e-mail transazionali.
+* È stato corretto un problema a causa del quale il contenuto non poteva essere sincronizzato correttamente con le ultime modifiche prima di visualizzare l&#39;anteprima di una distribuzione.
 
-#### Pagine di destinazione {#landing-pages-1}
+_Pagine di destinazione_
 
 * È stato corretto un errore che impediva di modificare un utente quando faceva clic nel contenuto di una pagina di destinazione.
 
-#### Flussi di lavoro {#workflows-5}
+_Flussi di lavoro_
 
-* È stato risolto un problema che poteva impedire la lettura del contenuto della transizione di rifiuto di un' **[!UICONTROL Load file]** attività.
-* È stato risolto un problema che impediva alle colonne scambiate di essere prese in considerazione quando si configurava un' **[!UICONTROL Load file]** attività.
+* È stato risolto un problema che poteva impedire la lettura del contenuto della transizione di rifiuto di un&#39; **[!UICONTROL Load file]**attività.
+* È stato risolto un problema che impediva alle colonne scambiate di essere prese in considerazione quando si configurava un&#39; **[!UICONTROL Load file]**attività.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
-### Nuove funzionalità {#new-capabilities-6}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -509,37 +509,37 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-6}
+**Patch**
 
-#### Generale {#general-2}
+_Generale_
 
-* Le **[!UICONTROL Access authorization]** opzioni sono tornate alle proprietà della pagina di destinazione.
-* È stato risolto un problema che poteva causare il rendering di una vecchia immagine invece dell'immagine corretta. Ciò si verificava se l'immagine sorgente era stata aggiornata nella definizione di contenuto di una pagina di consegna o di destinazione.
+* Le **[!UICONTROL Access authorization]**opzioni sono tornate alle proprietà della pagina di destinazione.
+* È stato risolto un problema che poteva causare il rendering di una vecchia immagine invece dell&#39;immagine corretta. Ciò si verificava se l&#39;immagine sorgente era stata aggiornata nella definizione di contenuto di una pagina di consegna o di destinazione.
 * È stato risolto un problema che impediva agli utenti di modificare alcuni campi in un account esterno SFTP esistente.
-* Sono stati corretti diversi problemi di interfaccia utente. Ad esempio, gli utenti possono modificare gli attributi del profilo e salvare le modifiche senza problemi con l'interfaccia utente.
+* Sono stati corretti diversi problemi di interfaccia utente. Ad esempio, gli utenti possono modificare gli attributi del profilo e salvare le modifiche senza problemi con l&#39;interfaccia utente.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-3}
+_E-mail e messaggi SMS_
 
 * È stato risolto un problema relativo ai modelli di consegna con contenuto HTML contenente un
 
-#### Notifiche push {#push-notifications-4}
+_Notifiche push_
 
-* È stato risolto un problema che poteva impedire il postback di un'applicazione al server Adobe Campaign.
-* È stato risolto un problema che poteva impedire **[!UICONTROL Play a sound]** e **[!UICONTROL Custom fields]** di cui tener conto per Android.
-* È stato risolto un problema che poteva causare l'aggiunta di un carattere di escape aggiuntivo ai caratteri Unicode utilizzati per Emojis.
-* Quando il token di registrazione di un utente iscritto viene inserito in blacklist, lo stato corrispondente viene aggiornato immediatamente nell'elenco degli utenti iscritti all'applicazione in Adobe Campaign.
+* È stato risolto un problema che poteva impedire il postback di un&#39;applicazione al server Adobe Campaign.
+* È stato risolto un problema che poteva impedire **[!UICONTROL Play a sound]**e**[!UICONTROL Custom fields]** di cui tener conto per Android.
+* È stato risolto un problema che poteva causare l&#39;aggiunta di un carattere di escape aggiuntivo ai caratteri Unicode utilizzati per Emojis.
+* Quando il token di registrazione di un utente iscritto viene inserito in blacklist, lo stato corrispondente viene aggiornato immediatamente nell&#39;elenco degli utenti iscritti all&#39;applicazione in Adobe Campaign.
 
-#### Flussi di lavoro {#workflows-6}
+_Flussi di lavoro_
 
-* È stato risolto un problema che poteva impedire l'anteprima delle query sulle risorse dell'evento (ad esempio, rtEvent).
-* Il file di rifiuto generato da un' **[!UICONTROL Load file]** attività ora può essere recuperato nella relativa transizione in uscita ed elaborato nell'attività successiva. Ad esempio, caricate il file di rifiuto tramite un server SFTP utilizzando **[!UICONTROL Transfer file]** .
-* È stato risolto un problema che poteva impedire a un utente di limitare la popolazione di un segmento se **[!UICONTROL Temporary resource]** era stato selezionato nella **[!UICONTROL General]** scheda di **[!UICONTROL Segmentation]** .
-* **[!UICONTROL Scheduler]** le attività non possono più essere impostate per attivare un flusso di lavoro più volte ogni 10 minuti.
-* È stato risolto un problema che poteva impedire **[!UICONTROL Use common columns]** il corretto funzionamento in un' **[!UICONTROL Union]** attività.
+* È stato risolto un problema che poteva impedire l&#39;anteprima delle query sulle risorse dell&#39;evento (ad esempio, rtEvent).
+* Il file di rifiuto generato da un&#39; **[!UICONTROL Load file]**attività ora può essere recuperato nella relativa transizione in uscita ed elaborato nell&#39;attività successiva. Ad esempio, caricate il file di rifiuto tramite un server SFTP utilizzando**[!UICONTROL Transfer file]** .
+* È stato risolto un problema che poteva impedire a un utente di limitare la popolazione di un segmento se **[!UICONTROL Temporary resource]**era stato selezionato nella**[!UICONTROL General]** scheda di **[!UICONTROL Segmentation]**.
+* **[!UICONTROL Scheduler]**le attività non possono più essere impostate per attivare un flusso di lavoro più volte ogni 10 minuti.
+* È stato risolto un problema che poteva impedire **[!UICONTROL Use common columns]**il corretto funzionamento in un&#39;**[!UICONTROL Union]** attività.
 
-#### Integrazioni {#integrations-3}
+_Integrazioni_
 
-* È stato risolto un problema che poteva causare un errore durante la distribuzione di un attivatore evento in Adobe Campaign. Questo errore si verificava quando i metadati "Probabilità di restituzione entro 30 giorni" venivano aggiunti al trigger di abbandono in Adobe Marketing Cloud.
-* È stato risolto un problema che poteva causare la cancellazione del campo Dimensione destinazione da parte del flusso di lavoro tecnico durante l'importazione di audience dal servizio di base Persone. Impossibile recuperare le audience importate dalle query successive.
-* È stato risolto un problema che poteva causare il fallimento dell' **[!UICONTROL Save audience]** attività di un flusso di lavoro quando l'opzione **[!UICONTROL Share in Adobe Marketing Cloud]** era selezionata.
+* È stato risolto un problema che poteva causare un errore durante la distribuzione di un attivatore evento in Adobe Campaign. Questo errore si verificava quando i metadati &quot;Probabilità di restituzione entro 30 giorni&quot; venivano aggiunti al trigger di abbandono in Adobe Marketing Cloud.
+* È stato risolto un problema che poteva causare la cancellazione del campo Dimensione destinazione da parte del flusso di lavoro tecnico durante l&#39;importazione di audience dal servizio di base Persone. Impossibile recuperare le audience importate dalle query successive.
+* È stato risolto un problema che poteva causare il fallimento dell&#39; **[!UICONTROL Save audience]**attività di un flusso di lavoro quando l&#39;opzione**[!UICONTROL Share in Adobe Marketing Cloud]** era selezionata.
 
