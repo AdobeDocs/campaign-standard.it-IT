@@ -12,22 +12,22 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # Risorse personalizzate {#custom-resources}
 
-Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. È possibile arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati, ad esempio le tabelle di acquisto o di prodotto.
+Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. È possibile arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati o tabelle personalizzate, ad esempio tabelle di acquisto o di prodotto.
 
-Le risorse personalizzate sono accessibili tramite API che utilizzano l'endpoint **/profileAndServicesExt** e il nome della risorsa personalizzata.
+Le risorse personalizzate sono accessibili tramite API che utilizzano l&#39;endpoint **/profileAndServicesExt** e il nome della risorsa personalizzata.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Per le risorse che non sono pronte all’uso, utilizzate sempre il prefisso <b>"cus"</b> prima del nome della risorsa.
+>Per le risorse che non sono pronte all’uso, utilizzate sempre il prefisso <b>&quot;cus&quot;</b> prima del nome della risorsa.
 
 Puoi eseguire qualsiasi operazione con risorse personalizzate, purché collegate alla tabella Profilo. Ad esempio, consideriamo la struttura delle tabelle di seguito:
 
@@ -37,7 +37,7 @@ In tal caso, tutte le risorse dalle tabelle **Transazione**, **TransactionDetail
 
 <br/>
 
-***Richiesta di esempio***
+***Richiesta di esempio ***
 
 Esempio di richiesta GET per accedere alla risorsa profileAndServicesExt estesa.
 
@@ -49,7 +49,7 @@ Esempio di richiesta GET per accedere alla risorsa profileAndServicesExt estesa.
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-Restituisce l'elenco di tutte le risorse personalizzate collegate. Potete quindi utilizzare gli URL delle risorse per eseguire qualsiasi attività API descritta in questa documentazione.
+Restituisce l&#39;elenco di tutte le risorse personalizzate collegate. Potete quindi utilizzare gli URL delle risorse per eseguire qualsiasi attività API descritta in questa documentazione.
 
 ```
 {
@@ -74,8 +74,8 @@ Restituisce l'elenco di tutte le risorse personalizzate collegate. Potete quindi
 }
 ```
 
-Per ulteriori informazioni sull'estensione del modello dati, consulta la documentazione Campaign:
+Per ulteriori informazioni sull&#39;estensione del modello dati, consulta la documentazione Campaign:
 
 * [Concetti del modello dati](../../developing/using/data-model-concepts.md)
-* [Estensione dell'API](../../developing/using/about-extending-the-api.md)
+* [Estensione dell&#39;API](../../developing/using/about-extending-the-api.md)
 * [Definizione di collegamenti con altre risorse](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
