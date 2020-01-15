@@ -1,18 +1,18 @@
 ---
 title: Note sulla versione 2015-2016
 description: In questa pagina sono elencate tutte le versioni 2015 e 2016 di Adobe Campaign Standard.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
-topic-tags: release standard di campagna
+topic-tags: campaign-standard-releases
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
 
 ---
 
@@ -27,7 +27,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
 
 ## Rilascio 16.11 - novembre 2016 {#release-16-11---november-2016}
 
-### Nuove funzionalità {#new-capabilities}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -48,48 +48,48 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches}
+**Patch**
 
-#### Generale {#general}
+_Generale_
 
 * Sono stati risolti diversi problemi di sicurezza.
 * Sono stati risolti diversi problemi relativi ai campi vuoti o duplicati nell’API REST.
-* Ora puoi creare messaggi SMS e notifiche push direttamente dalla home page dell'applicazione.
+* Ora puoi creare messaggi SMS e notifiche push direttamente dalla home page dell&#39;applicazione.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages}
+_E-mail e messaggi SMS_
 
-* È stato risolto un problema che impediva agli utenti di caricare file zip nell'editor del contenuto.
-* È stato risolto un problema che impediva l'apertura di una prova dopo l'invio.
-* È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante l'accesso al **[!UICONTROL Hot Clicks]** report in un'e-mail di test A/B.
-* È stato risolto un problema che impediva l'applicazione delle modifiche apportate utilizzando la **[!UICONTROL Show source]** modalità.
-* È stato risolto un problema che poteva impedire l'importazione di file predittivi del modello xml della linea oggetto.
-* È ora disponibile una nuova schermata dedicata all'importazione di dati per il modello di formazione della linea oggetto in **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** .
-* È stato risolto un problema che consentiva agli utenti non amministratori di modificare le maschere autorizzate nella schermata di configurazione dell'e-mail.
+* È stato risolto un problema che impediva agli utenti di caricare file zip nell&#39;editor del contenuto.
+* È stato risolto un problema che impediva l&#39;apertura di una prova dopo l&#39;invio.
+* È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante l&#39;accesso al **[!UICONTROL Hot Clicks]**report in un&#39;e-mail di test A/B.
+* È stato risolto un problema che impediva l&#39;applicazione delle modifiche apportate utilizzando la **[!UICONTROL Show source]**modalità.
+* È stato risolto un problema che poteva impedire l&#39;importazione di file predittivi del modello xml della linea oggetto.
+* È ora disponibile una nuova schermata dedicata all&#39;importazione di dati per il modello di formazione della linea oggetto in **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]**.
+* È stato risolto un problema che consentiva agli utenti non amministratori di modificare le maschere autorizzate nella schermata di configurazione dell&#39;e-mail.
 
-#### Notifiche push {#push-notifications}
+_Notifiche push_
 
-* È stato risolto un problema che impediva la visualizzazione dei registri e dei registri eventi di invio per i destinatari dopo l'invio di una notifica push tramite il **[!UICONTROL Send push on profiles]** modello.
+* È stato risolto un problema che impediva la visualizzazione dei registri e dei registri eventi di invio per i destinatari dopo l&#39;invio di una notifica push tramite il **[!UICONTROL Send push on profiles]**modello.
 * È stato risolto un problema che poteva impedire la creazione di nuove applicazioni mobili.
 
-#### Flussi di lavoro {#workflows}
+_Flussi di lavoro_
 
-* È stato risolto un problema di prestazioni che si verificava durante l'utilizzo dell' **[!UICONTROL Subscription]** attività.
+* È stato risolto un problema di prestazioni che si verificava durante l&#39;utilizzo dell&#39; **[!UICONTROL Subscription]**attività.
 * È stato risolto un problema che impediva il funzionamento di un flusso di lavoro quando il suo nome interno conteneva uno spazio.
 
-#### Integrazioni {#integrations}
+_Integrazioni_
 
-* È stato risolto un problema che poteva causare un errore durante l'utilizzo dell'opzione **Immagine condivisa da Adobe Marketing Cloud** in un messaggio e-mail.
+* È stato risolto un problema che poteva causare un errore durante l&#39;utilizzo dell&#39;opzione **Immagine condivisa da Adobe Marketing Cloud** in un messaggio e-mail.
 
-#### Risorse personalizzate {#custom-resources}
+_Risorse personalizzate_
 
 * Anteprima del registro API migliorata tra due pubblicazioni di campi API estesi.
-* È stato risolto un problema che impediva l'eliminazione di una risorsa personalizzata prima della pubblicazione.
-* È stato risolto un problema che impediva l'estensione dei profili e l'impostazione delle chiavi di identificazione con un campo dinamico.
+* È stato risolto un problema che impediva l&#39;eliminazione di una risorsa personalizzata prima della pubblicazione.
+* È stato risolto un problema che impediva l&#39;estensione dei profili e l&#39;impostazione delle chiavi di identificazione con un campo dinamico.
 * È stato risolto un problema che poteva verificarsi quando si aggiungevano collegamenti in una risorsa personalizzata.
 
 ## Rilascio 16.10 - ottobre 2016 {#release-16-10---october-2016}
 
-### Nuove funzionalità {#new-capabilities-1}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -118,43 +118,43 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-1}
+**Patch**
 
-#### Generale {#general-1}
+_Generale_
 
 * Sono stati risolti diversi problemi di sicurezza.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-1}
+_E-mail e messaggi SMS_
 
-* La schermata di configurazione dell'account esterno SMS ( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** ) è stata migliorata. Diversi parametri sono stati aggiunti nella **[!UICONTROL SMSC specifics]** sezione per supportare i codici di errore nel campo "Testo".
+* La schermata di configurazione dell&#39;account esterno SMS ( **[!UICONTROL Administration > Channels > SMS > SMS accounts]**) è stata migliorata. Diversi parametri sono stati aggiunti nella**[!UICONTROL SMSC specifics]** sezione per supportare i codici di errore nel campo &quot;Testo&quot;.
 
-#### Notifiche push {#push-notifications-1}
+_Notifiche push_
 
-* È stato risolto un problema che impediva la visualizzazione dei filtri predefiniti durante la modifica del pubblico di una notifica push basata sul modello **[!UICONTROL Send via push notification]** (mobileApp).
-* La schermata di configurazione dell'applicazione mobile ( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** ) ora mostra un messaggio per indicare che la piattaforma iOS o Android è stata creata correttamente.
+* È stato risolto un problema che impediva la visualizzazione dei filtri predefiniti durante la modifica del pubblico di una notifica push basata sul modello **[!UICONTROL Send via push notification]**(mobileApp).
+* La schermata di configurazione dell&#39;applicazione mobile ( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]**) ora mostra un messaggio per indicare che la piattaforma iOS o Android è stata creata correttamente.
 
-#### Pagine di destinazione {#landing-pages}
+_Pagine di destinazione_
 
-* Sono stati risolti dei problemi che impedivano l'invio di e-mail di conferma all'invio di un modulo della pagina di destinazione.
+* Sono stati risolti dei problemi che impedivano l&#39;invio di e-mail di conferma all&#39;invio di un modulo della pagina di destinazione.
 
-#### Audience e query {#audiences-and-queries}
+_Audience e query_
 
-* Sono stati risolti diversi problemi che si verificavano durante la selezione di un profilo nell'editor di query.
+* Sono stati risolti diversi problemi che si verificavano durante la selezione di un profilo nell&#39;editor di query.
 
-#### Messaggi transazionali {#transactional-messages}
+_Messaggi transazionali_
 
-* È stato corretto un errore che impediva l'annullamento della pubblicazione di un modello transazionale.
-* È stato risolto un problema che causava la visualizzazione degli eventi di attivazione nell'elenco degli eventi.
+* È stato corretto un errore che impediva l&#39;annullamento della pubblicazione di un modello transazionale.
+* È stato risolto un problema che causava la visualizzazione degli eventi di attivazione nell&#39;elenco degli eventi.
 
-#### Integrazioni {#integrations-1}
+_Integrazioni_
 
-* È stato risolto un problema che impediva l'utilizzo di un'audience condivisa in una consegna dopo l'aggiornamento di tale audience.
-* È stato risolto un problema che impediva l'utilizzo di una risorsa condivisa ( **[!UICONTROL Image shared from Adobe Marketing Cloud]** opzione) in una pagina di destinazione.
-* Risolti i problemi che si verificavano durante la modifica di un'audience condivisa importata da Adobe Audience Manager.
+* È stato risolto un problema che impediva l&#39;utilizzo di un&#39;audience condivisa in una consegna dopo l&#39;aggiornamento di tale audience.
+* È stato risolto un problema che impediva l&#39;utilizzo di una risorsa condivisa ( **[!UICONTROL Image shared from Adobe Marketing Cloud]**opzione) in una pagina di destinazione.
+* Risolti i problemi che si verificavano durante la modifica di un&#39;audience condivisa importata da Adobe Audience Manager.
 
 ## Rilascio 16.9 - settembre 2016 {#release-16-9---september-2016}
 
-### Nuove funzionalità {#new-capabilities-2}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -187,36 +187,36 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-2}
+**Patch**
 
-#### Generale {#general-2}
+_Generale_
 
 * Questa versione introduce nuove funzionalità di filtraggio e ricerca negli elenchi di interfaccia. Questa nuova funzione è disponibile, ad esempio, nei registri (consegna, tracciamento), nei servizi (iscrizione, cronologia iscrizioni), nei tipi di pubblico e nelle transizioni dei flussi di lavoro.
 * Sono stati risolti diversi problemi di visualizzazione relativi al numero di punti di contatto in un profilo cliente.
 * Sono stati corretti diversi problemi di tipologia.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-2}
+_E-mail e messaggi SMS_
 
 * È stato corretto un errore che consentiva la modifica di prove errate. Ora sono di sola lettura.
 * È stato corretto un problema a causa del quale un destinatario veniva incluso in blacklist quando un SMS era troppo lungo o presentava problemi di codifica.
 
-#### Risorse personalizzate {#custom-resources-1}
+_Risorse personalizzate_
 
 * È stato corretto un errore che impediva la visualizzazione di tutti i risultati quando si utilizzavano i filtri avanzati di una risorsa personalizzata.
 
-#### Messaggi transazionali {#transactional-messages-1}
+_Messaggi transazionali_
 
-* Un prefisso viene ora aggiunto automaticamente all'identificatore di una nuova definizione di evento.
-* L'icona che rappresenta i messaggi transazionali nell'interfaccia è stata modificata.
+* Un prefisso viene ora aggiunto automaticamente all&#39;identificatore di una nuova definizione di evento.
+* L&#39;icona che rappresenta i messaggi transazionali nell&#39;interfaccia è stata modificata.
 
-#### Integrazioni {#integrations-2}
+_Integrazioni_
 
-* È stato corretto un errore di visualizzazione che si verificava quando un'immagine ad alta risoluzione veniva inserita tramite l'opzione **Immagine dinamica da Adobe Target** .
-* Risolto un errore che consentiva di salvare un'audience condivisa anche se l'ID di destinazione non era impostato in Origine dati AMC.
+* È stato corretto un errore di visualizzazione che si verificava quando un&#39;immagine ad alta risoluzione veniva inserita tramite l&#39;opzione **Immagine dinamica da Adobe Target** .
+* Risolto un errore che consentiva di salvare un&#39;audience condivisa anche se l&#39;ID di destinazione non era impostato in Origine dati AMC.
 
 ## Rilascio 16.7 - Luglio 2016 {#release-16-7---july-2016}
 
-### Nuove funzionalità {#new-capabilities-3}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -245,32 +245,32 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-3}
+**Patch**
 
-#### Generale {#general-3}
+_Generale_
 
-* È stato corretto un errore che poteva causare la visualizzazione di campi irrilevanti al posto dei campi da completare. Ciò si verifica dopo che l'operatore di confronto è stato modificato più volte durante la modifica di una condizione in una query.
-* È stato corretto il comportamento dell'opzione **[!UICONTROL The last X days/months/quarters/years]** durante la definizione di una condizione di filtro relativa per un campo data. Il periodo calcolato è ora un periodo scorrevole relativo alla data e all'ora del server e non basato sul calendario.
+* È stato corretto un errore che poteva causare la visualizzazione di campi irrilevanti al posto dei campi da completare. Ciò si verifica dopo che l&#39;operatore di confronto è stato modificato più volte durante la modifica di una condizione in una query.
+* È stato corretto il comportamento dell&#39;opzione **[!UICONTROL The last X days/months/quarters/years]**durante la definizione di una condizione di filtro relativa per un campo data. Il periodo calcolato è ora un periodo scorrevole relativo alla data e all&#39;ora del server e non basato sul calendario.
 
-#### Flussi di lavoro {#workflows-1}
+_Flussi di lavoro_
 
-* Risolto un errore che restituiva un elenco errato di valori nella schermata per la selezione della dimensione di targeting nelle proprietà di un' **[!UICONTROL Query]** attività.
-* È stato corretto un errore che causava la selezione dell'operatore **Exists** quando si aggiungeva un aggregato medio o di conteggio su un elemento raccolta in un' **[!UICONTROL Query]** attività.
+* Risolto un errore che restituiva un elenco errato di valori nella schermata per la selezione della dimensione di targeting nelle proprietà di un&#39; **[!UICONTROL Query]**attività.
+* È stato corretto un errore che causava la selezione dell&#39;operatore **Exists** quando si aggiungeva un aggregato medio o di conteggio su un elemento raccolta in un&#39; **[!UICONTROL Query]**attività.
 
-#### Modifica del contenuto {#content-editing}
+_Modifica del contenuto_
 
-* È stato corretto un errore che poteva causare problemi di visualizzazione (progettazione reattiva) durante l'importazione di contenuto HTML: gli attributi di stile non vengono più riscritti quando il contenuto viene aperto per la prima volta dopo essere stato importato.
-* È stato corretto un errore di non blocco causato dall'aggiunta di una condizione in una variante di contenuto dinamica.
+* È stato corretto un errore che poteva causare problemi di visualizzazione (progettazione reattiva) durante l&#39;importazione di contenuto HTML: gli attributi di stile non vengono più riscritti quando il contenuto viene aperto per la prima volta dopo essere stato importato.
+* È stato corretto un errore di non blocco causato dall&#39;aggiunta di una condizione in una variante di contenuto dinamica.
 * È stato corretto un errore causato dall’aggiunta di una casella di controllo nel contenuto di una pagina di destinazione. La casella di controllo era inutilizzabile.
-* È stato corretto un errore che si verificava durante l'eliminazione del testo in un blocco se il cursore era posizionato all'inizio del blocco in questione.
+* È stato corretto un errore che si verificava durante l&#39;eliminazione del testo in un blocco se il cursore era posizionato all&#39;inizio del blocco in questione.
 
-#### Messaggi transazionali {#transactional-messages-2}
+_Messaggi transazionali_
 
-* Quando integrate un sito Web, ora potete definire una data di scadenza per un determinato evento. Una volta trascorsa questa data, il messaggio corrispondente all'evento non può più essere inviato.
+* Quando integrate un sito Web, ora potete definire una data di scadenza per un determinato evento. Una volta trascorsa questa data, il messaggio corrispondente all&#39;evento non può più essere inviato.
 
 ## Rilascio 16.6 - Giugno 2016 {#release-16-6---june-2016}
 
-### Nuove funzionalità {#new-capabilities-4}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -287,47 +287,47 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-4}
+**Patch**
 
-#### Generale {#general-4}
+_Generale_
 
 * Le descrizioni comandi sono ora disattivate sui dispositivi mobili per garantire che le informazioni visualizzate sullo schermo siano di facile lettura.
-* È stato corretto un errore che impediva all'utente di scorrere il contenuto di alcune aree sullo schermo dell'iPad.
+* È stato corretto un errore che impediva all&#39;utente di scorrere il contenuto di alcune aree sullo schermo dell&#39;iPad.
 * Sono stati corretti diversi errori di compatibilità rilevati durante la modifica del contenuto in Internet Explorer 11.
-* È stato corretto un errore che impediva l'accesso ai registri dettagliati in caso di mancata riuscita dell'importazione dei dati per la prima volta.
+* È stato corretto un errore che impediva l&#39;accesso ai registri dettagliati in caso di mancata riuscita dell&#39;importazione dei dati per la prima volta.
 * È stato corretto un errore che poteva impedire il salvataggio di un filtro di intervallo.
 * È stato corretto un errore che impediva la visualizzazione degli elementi di una risorsa durante la configurazione della modalità di visualizzazione di un elenco.
 * È stato corretto un errore in Query Editor Explorer. I risultati restituiti dal campo di ricerca sono stati conservati nella cronologia delle ricerche e sono stati visualizzati per ogni nuova ricerca.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-3}
+_E-mail e messaggi SMS_
 
 * È stato corretto un errore che impediva il recupero delle informazioni collegate ai rimbalzi nei registri di consegna.
-* È stato corretto un errore che impediva l'accesso al contesto in un blocco di contenuto dinamico di un messaggio transazionale.
-* È stato corretto un errore che impediva la definizione di un collegamento URL sul testo dinamico nel contenuto di un'e-mail.
+* È stato corretto un errore che impediva l&#39;accesso al contesto in un blocco di contenuto dinamico di un messaggio transazionale.
+* È stato corretto un errore che impediva la definizione di un collegamento URL sul testo dinamico nel contenuto di un&#39;e-mail.
 * È stata corretta la visualizzazione della barra superiore della procedura guidata per la creazione della consegna.
 * La chiave primaria di una consegna non può più essere utilizzata come campo di personalizzazione.
 
-#### Flussi di lavoro {#workflows-2}
+_Flussi di lavoro_
 
-* Le transizioni tra due attività di un flusso di lavoro ora mostrano il numero di elementi calcolati e trasferiti da un'attività all'altra.
-* I campi non compatibili ora vengono nascosti quando in un' **[!UICONTROL Query]** attività vengono aggiunti dati aggiuntivi.
+* Le transizioni tra due attività di un flusso di lavoro ora mostrano il numero di elementi calcolati e trasferiti da un&#39;attività all&#39;altra.
+* I campi non compatibili ora vengono nascosti quando in un&#39; **[!UICONTROL Query]**attività vengono aggiunti dati aggiuntivi.
 * La finestra di definizione aggregata, visualizzata quando si aggiungono dati aggiuntivi, è stata migliorata per offrire solo opzioni compatibili con i dati in uso (ad esempio: il calcolo di una media è possibile solo per i dati numerici).
-* L'avvio o il riavvio di un flusso di lavoro tecnico integrato ora può essere eseguito solo da un utente con diritti di amministrazione.
+* L&#39;avvio o il riavvio di un flusso di lavoro tecnico integrato ora può essere eseguito solo da un utente con diritti di amministrazione.
 
-#### Pagine di destinazione {#landing-pages-1}
+_Pagine di destinazione_
 
 * È stato corretto un errore che poteva troncare le chiavi di codifica AES a 32 bit nelle proprietà di una pagina di destinazione.
-* È stato corretto un errore che impediva la corretta visualizzazione dell'editor di query durante la definizione di una condizione di visibilità o durante l'aggiunta di contenuto dinamico a una pagina di destinazione.
+* È stato corretto un errore che impediva la corretta visualizzazione dell&#39;editor query durante la definizione di una condizione di visibilità o durante l&#39;aggiunta di contenuto dinamico a una pagina di destinazione.
 
-#### Risorse personalizzate {#custom-resources-2}
+_Risorse personalizzate_
 
-* L' **[!UICONTROL Switch to parameters]** opzione ora è nascosta quando si definisce un filtro correlato alle sottoscrizioni di un profilo a un servizio.
+* L&#39; **[!UICONTROL Switch to parameters]**opzione ora è nascosta quando si definisce un filtro correlato alle sottoscrizioni di un profilo a un servizio.
 * È stato corretto un errore che poteva verificarsi quando un collegamento di tipo 0-1 veniva configurato da una risorsa personalizzata.
 * È stato corretto un errore che, se pertinente, poteva impedire la modifica del valore **predefinito** Costante definito quando si aggiungeva un campo **Data e ora** in una risorsa personalizzata.
 
 ## Rilascio 16.5 - maggio 2016 {#release-16-5---may-2016}
 
-### Nuove funzionalità {#new-capabilities-5}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -356,56 +356,56 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-5}
+**Patch**
 
-#### Generale {#general-5}
+_Generale_
 
 * Varie interfacce Nuove funzionalità conformi agli standard di Marketing Cloud.
 * Standardizzazione dei diversi tipi di elenco a discesa.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-4}
+_E-mail e messaggi SMS_
 
-* È stato corretto un errore che impediva l'invio di e-mail in caso fosse specificata la maschera dell'indirizzo di errore.
+* È stato corretto un errore che impediva l&#39;invio di e-mail in caso fosse specificata la maschera dell&#39;indirizzo di errore.
 * Il protocollo TLS ora è supportato per la consegna delle e-mail. Una nuova colonna nella gestione MX consente di definire il comportamento TLS desiderato per ciascun dominio.
-* L'interfaccia SMS è stata migliorata.
+* L&#39;interfaccia SMS è stata migliorata.
 
-#### Flussi di lavoro {#workflows-3}
+_Flussi di lavoro_
 
 * Interfaccia del flusso di lavoro Nuove funzionalità.
 * È stato corretto un errore che si verificava durante la visualizzazione delle azioni rapide.
-* È stato corretto un errore che poteva causare un errore in un flusso di lavoro quando si utilizzava un'attività di **[!UICONTROL Segmentation]** tipo contenente un collegamento 1-N.
-* È stato corretto un errore che impediva l'apertura delle transizioni di un flusso di lavoro su un dispositivo ibrido.
-* È stato corretto un errore che impediva la visualizzazione del pulsante Pausa all'avvio di un flusso di lavoro per la prima volta.
+* È stato corretto un errore che poteva causare un errore in un flusso di lavoro quando si utilizzava un&#39;attività di **[!UICONTROL Segmentation]**tipo contenente un collegamento 1-N.
+* È stato corretto un errore che impediva l&#39;apertura delle transizioni di un flusso di lavoro su un dispositivo ibrido.
+* È stato corretto un errore che impediva la visualizzazione del pulsante Pausa all&#39;avvio di un flusso di lavoro per la prima volta.
 
-#### Editor di contenuti {#content-editor}
+_Editor di contenuti_
 
-* L'editor contenuti ora consente di personalizzare qualsiasi URL contenuto in un'e-mail o in una pagina di destinazione. Fare riferimento alla documentazione [](../../designing/using/personalization.md#personalizing-urls)dettagliata.
+* L&#39;editor contenuti ora consente di personalizzare qualsiasi URL contenuto in un&#39;e-mail o in una pagina di destinazione. Fare riferimento alla documentazione [](../../designing/using/personalization.md#personalizing-urls)dettagliata.
 * È stato corretto un errore che poteva causare la perdita di immagini aggiunte nella procedura guidata di creazione della distribuzione e il relativo contenuto veniva successivamente modificato.
 
-#### Risorse personalizzate {#custom-resources-3}
+_Risorse personalizzate_
 
-* È stato corretto un errore che si verificava durante l'aggiunta di un collegamento personalizzato di tipo 1-N nella schermata di configurazione di una risorsa personalizzata.
+* È stato corretto un errore che si verificava durante l&#39;aggiunta di un collegamento personalizzato di tipo 1-N nella schermata di configurazione di una risorsa personalizzata.
 * Migliorata la visualizzazione della barra di avanzamento durante la preparazione e la pubblicazione di risorse personalizzate.
-* È stato corretto un errore che si verificava durante la visualizzazione dell'elenco di collegamenti di una risorsa personalizzata.
+* È stato corretto un errore che si verificava durante la visualizzazione dell&#39;elenco di collegamenti di una risorsa personalizzata.
 
-#### Messaggi transazionali {#transactional-messages-3}
+_Messaggi transazionali_
 
-* La facilità di utilizzo dell'interfaccia e le prestazioni e la robustezza del motore di messaggi transazionali sono stati ottimizzati.
+* La facilità di utilizzo dell&#39;interfaccia e le prestazioni e la robustezza del motore di messaggi transazionali sono stati ottimizzati.
 * Ora è possibile sospendere temporaneamente la pubblicazione di un modello di messaggio transazionale. Per ulteriori informazioni, consulta la documentazione [](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication)dettagliata.
-* È stato corretto un errore che poteva causare l'aggiunta di un blocco di contenuto con una dimensione di targeting incompatibile in un modello di messaggio transazionale.
-* È stato corretto un errore che impediva la visualizzazione dell'anteprima API in una schermata di configurazione dell'evento.
+* È stato corretto un errore che poteva causare l&#39;aggiunta di un blocco di contenuto con una dimensione di targeting incompatibile in un modello di messaggio transazionale.
+* È stato corretto un errore che impediva la visualizzazione dell&#39;anteprima API in una schermata di configurazione dell&#39;evento.
 
-#### Audience e query {#audiences-and-queries-1}
+_Audience e query_
 
-* Diverse patch relative all'utilizzo delle date nell'editor di query. Fare riferimento alla documentazione [](../../automating/using/editing-queries.md#creating-queries)dettagliata.
+* Diverse patch relative all&#39;utilizzo delle date nell&#39;editor di query. Fare riferimento alla documentazione [](../../automating/using/editing-queries.md#creating-queries)dettagliata.
 
-#### Amministrazione {#administration}
+_Amministrazione_
 
-* È stato risolto un errore relativo al nome del gruppo di sicurezza "Utenti standard" che impediva agli utenti di effettuare l'accesso.
+* È stato risolto un errore relativo al nome del gruppo di sicurezza &quot;Utenti standard&quot; che impediva agli utenti di effettuare l&#39;accesso.
 
 ## Rilascio 16.3 - marzo 2016 {#release-16-3---march-2016}
 
-### Nuove funzionalità {#new-capabilities-6}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -430,38 +430,38 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-6}
+**Patch**
 
-#### Generale {#general-6}
+_Generale_
 
-* È stato corretto un errore di visualizzazione che si verificava durante l'ordinamento di un elenco: la freccia che indica l'ordinamento di una colonna può essere utilizzata solo per alcuni tipi di dati.
+* È stato corretto un errore di visualizzazione che si verificava durante l&#39;ordinamento di un elenco: la freccia che indica l&#39;ordinamento di una colonna può essere utilizzata solo per alcuni tipi di dati.
 * Risolto un errore che limitava il numero di elementi visualizzati in un menu a discesa quando una regola veniva aggiunta in una query.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-5}
+_E-mail e messaggi SMS_
 
 * È stato corretto un errore che poteva impedire l’accesso al report di rendering e-mail.
-* La fase di preparazione dell'invio per un messaggio ora restituisce un errore se l'indirizzo del mittente non è specificato.
+* La fase di preparazione dell&#39;invio per un messaggio ora restituisce un errore se l&#39;indirizzo del mittente non è specificato.
 
-#### Flussi di lavoro {#workflows-4}
+_Flussi di lavoro_
 
 * Alcune opzioni di formattazione del file erano visibili, ma non tenevano conto quando veniva estratto un file in formato CSV. Queste opzioni ora non sono più visibili.
-* È stato risolto un errore che si verificava quando l' **[!UICONTROL Delete the source files after transfer]** opzione era selezionata per il trasferimento di un file di **[!UICONTROL SFTP]** tipo.
-* È stato corretto un errore che poteva impedire la visualizzazione del contatore e dell'anteprima dei **[!UICONTROL Query]** dati dopo l'aggiornamento della pagina.
-* È stato corretto un errore causato dall'apertura di determinate transizioni in un flusso di lavoro, in particolare dopo un'attività di consegna o una query in cui le dimensioni di targeting e filtro erano diverse.
-* È stato corretto un errore che impediva l'inserimento di un campo di personalizzazione in un'attività di distribuzione di un flusso di lavoro se il flusso di lavoro non veniva salvato dopo l'aggiunta dell'attività.
-* È stato corretto un errore che impediva la visualizzazione della dimensione di targeting della transizione in uscita di un'attività di consegna delle e-mail.
+* È stato risolto un errore che si verificava quando l&#39; **[!UICONTROL Delete the source files after transfer]**opzione era selezionata per il trasferimento di un file di**[!UICONTROL SFTP]** tipo.
+* È stato corretto un errore che poteva impedire la visualizzazione del contatore e dell&#39;anteprima dei **[!UICONTROL Query]**dati dopo l&#39;aggiornamento della pagina.
+* È stato corretto un errore causato dall&#39;apertura di determinate transizioni in un flusso di lavoro, in particolare dopo un&#39;attività di consegna o una query in cui le dimensioni di targeting e filtro erano diverse.
+* È stato corretto un errore che impediva l&#39;inserimento di un campo di personalizzazione in un&#39;attività di distribuzione di un flusso di lavoro se il flusso di lavoro non veniva salvato dopo l&#39;aggiunta dell&#39;attività.
+* È stato corretto un errore che impediva la visualizzazione della dimensione di targeting della transizione in uscita di un&#39;attività di consegna delle e-mail.
 
-#### Pagine di destinazione {#landing-pages-2}
+_Pagine di destinazione_
 
 * È stato corretto un errore che impediva il corretto funzionamento dei campi di personalizzazione in un blocco di contenuto localizzabile in una pagina di destinazione.
 
-#### Risorse personalizzate {#custom-resources-4}
+_Risorse personalizzate_
 
-* È stato corretto un errore che impediva di eseguire una ricerca su una risorsa personalizzata se l' **[!UICONTROL Add search fields]** opzione della definizione della schermata delle risorse era selezionata e se erano stati selezionati più campi nella **[!UICONTROL Filter zone composition]** .
+* È stato corretto un errore che impediva di eseguire una ricerca su una risorsa personalizzata se l&#39; **[!UICONTROL Add search fields]**opzione della definizione della schermata delle risorse era selezionata e se erano stati selezionati più campi nella**[!UICONTROL Filter zone composition]** .
 
 ## Rilascio 16.2 - febbraio 2016 {#release-16-2---february-2016}
 
-### Nuove funzionalità {#new-capabilities-7}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -490,48 +490,48 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-7}
+**Patch**
 
-#### Generale {#general-7}
+_Generale_
 
 * Sono stati corretti diversi errori di visualizzazione in report, elenchi e query.
 * Sono stati corretti diversi errori di compatibilità e visualizzazione sui dispositivi mobili.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-6}
+_E-mail e messaggi SMS_
 
 * È stato corretto un errore che poteva impedire la visualizzazione del pulsante utilizzato per inserire campi di personalizzazione durante la creazione di un messaggio (e-mail o SMS).
 * È stato corretto un errore che poteva impedire la corretta trasmissione dei messaggi SMS inviati tramite Mblox.
 
-#### Audience e query {#audiences-and-queries-2}
+_Audience e query_
 
-* È stato corretto un errore di conteggio che poteva essere causato dall'aggiunta di una condizione aggiuntiva in una query, dopo aver modificato la dimensione di filtro.
-* È stato corretto un errore che poteva causare un'impaginazione non corretta durante l'anteprima dei risultati di una query.
+* È stato corretto un errore di conteggio che poteva essere causato dall&#39;aggiunta di una condizione aggiuntiva in una query, dopo aver modificato la dimensione di filtro.
+* È stato corretto un errore che poteva causare un&#39;impaginazione non corretta durante l&#39;anteprima dei risultati di una query.
 
-#### Modifica del contenuto {#content-editing-1}
+_Modifica del contenuto_
 
-* È stato corretto un errore che poteva impedire che la configurazione del contenuto dinamico venisse presa in considerazione correttamente quando si utilizzava un'enumerazione personalizzata.
+* È stato corretto un errore che poteva impedire che la configurazione del contenuto dinamico venisse presa in considerazione correttamente quando si utilizzava un&#39;enumerazione personalizzata.
 
-#### Flussi di lavoro {#workflows-5}
+_Flussi di lavoro_
 
-* È stato corretto un errore che poteva impedire l'esecuzione di qualsiasi azione in un flusso di lavoro in presenza di una riga vuota nella **[!UICONTROL Fields to update]** scheda di un' **[!UICONTROL Update data]** attività.
-* È stato corretto un errore che impediva l'importazione di dati contenenti informazioni di unità geografica/organizzativa.
-* È stato corretto un errore causato dall'aggiunta di un **[!UICONTROL Change axis]** tipo di **[!UICONTROL Exclusion]** regola.
-* È stato corretto un errore che poteva causare la creazione di un segmento aggiuntivo indesiderato durante la manipolazione di una transizione in uscita di un' **[!UICONTROL Segmentation]** attività.
+* È stato corretto un errore che poteva impedire l&#39;esecuzione di qualsiasi azione in un flusso di lavoro in presenza di una riga vuota nella **[!UICONTROL Fields to update]**scheda di un&#39;**[!UICONTROL Update data]** attività.
+* È stato corretto un errore che impediva l&#39;importazione di dati contenenti informazioni di unità geografica/organizzativa.
+* È stato corretto un errore causato dall&#39;aggiunta di un **[!UICONTROL Change axis]**tipo di**[!UICONTROL Exclusion]** regola.
+* È stato corretto un errore che poteva causare la creazione di un segmento aggiuntivo indesiderato durante la manipolazione di una transizione in uscita di un&#39; **[!UICONTROL Segmentation]**attività.
 * È stato corretto un errore causato dal caricamento di un file in un modello di workflow.
-* È stato corretto un errore che poteva impedire l'utilizzo degli spazi come separatori di colonna in un' **[!UICONTROL Load file]** attività.
+* È stato corretto un errore che poteva impedire l&#39;utilizzo degli spazi come separatori di colonna in un&#39; **[!UICONTROL Load file]**attività.
 
-#### Risorse personalizzate {#custom-resources-5}
+_Risorse personalizzate_
 
-* È stato corretto un errore che impediva la rielaborazione dello stato di una risorsa personalizzata dopo l'importazione di un pacchetto, se la risorsa era stata pubblicata al momento dell'esportazione.
+* È stato corretto un errore che impediva la rielaborazione dello stato di una risorsa personalizzata dopo l&#39;importazione di un pacchetto, se la risorsa era stata pubblicata al momento dell&#39;esportazione.
 
-#### Pacchetti {#packages}
+_Pacchetti_
 
-* È stato corretto un errore che impediva l'esportazione di un pacchetto contenente un flusso di lavoro.
+* È stato corretto un errore che impediva l&#39;esportazione di un pacchetto contenente un flusso di lavoro.
 * È stato corretto un errore che poteva impedire la selezione di diversi elementi della stessa risorsa.
 
 ## Rilascio 16.1 - gennaio 2016 {#release-16-1---january-2016}
 
-### Nuove funzionalità {#new-capabilities-8}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -564,63 +564,63 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-8}
+**Patch**
 
-#### Generale {#general-8}
+_Generale_
 
 * È stata migliorata la compatibilità con Internet Explorer e Chrome per dispositivi ibridi/touchscreen.
-* Risolto un errore che poteva causare la perdita di tutti i dati immessi per un nuovo profilo utente/profilo/test se l'indirizzo e-mail indicato conteneva errori di sintassi.
+* Risolto un errore che poteva causare la perdita di tutti i dati immessi per un nuovo profilo utente/profilo/test se l&#39;indirizzo e-mail indicato conteneva errori di sintassi.
 
-#### E-mail e messaggi SMS {#emails-and-sms-messages-7}
+_E-mail e messaggi SMS_
 
 * È stato corretto un errore che poteva impedire la generazione della miniatura del contenuto nella schermata di anteprima dell’e-mail.
 * È stato corretto un errore che poteva impedire la visualizzazione del contenuto non elaborato di un messaggio (e-mail o SMS) nella schermata di anteprima del messaggio.
 
-#### Audience e query {#audiences-and-queries-3}
+_Audience e query_
 
 * Risolto un errore che poteva impedire la creazione di un pubblico di tipo **Query** nella risorsa **Servizio** .
-* È stato corretto un errore che poteva impedire la corretta visualizzazione dell'elenco delle funzioni durante la modifica di una condizione di una query in modalità avanzata.
+* È stato corretto un errore che poteva impedire la corretta visualizzazione dell&#39;elenco delle funzioni durante la modifica di una condizione di una query in modalità avanzata.
 * È stato corretto un errore che poteva impedire la creazione di un pubblico di tipo **Query** se conteneva criteri basati sulle raccolte.
 * È stato corretto un errore che poteva impedire la creazione di query contenenti filtri per i KPI di consegna.
-* È stato corretto un errore che poteva impedire l'anteprima del contenuto di un'audience creata da un flusso di lavoro.
+* È stato corretto un errore che poteva impedire l&#39;anteprima del contenuto di un&#39;audience creata da un flusso di lavoro.
 
-#### Risorse personalizzate {#custom-resources-6}
+_Risorse personalizzate_
 
 * È stato corretto un errore che poteva causare un arresto anomalo del server se una risorsa personalizzata conteneva un campo con un valore dinamico predefinito.
-* È stato corretto un errore causato dallo spostamento, quindi dall'eliminazione di un elemento nella **[!UICONTROL Detail screen configuration]** sezione durante la definizione delle schermate di una risorsa personalizzata.
-* È stato corretto un errore che si verificava quando era stato definito un valore predefinito per un elenco di **numeri interi** che non includeva **0** nell'intervallo di valori possibili.
-* È stato corretto un errore che poteva impedire l'aggiunta di un elemento nella configurazione della schermata di dettaglio di una risorsa personalizzata dopo una reinizializzazione.
+* È stato corretto un errore causato dallo spostamento, quindi dall&#39;eliminazione di un elemento nella **[!UICONTROL Detail screen configuration]**sezione durante la definizione delle schermate di una risorsa personalizzata.
+* È stato corretto un errore che si verificava quando era stato definito un valore predefinito per un elenco di **numeri interi** che non includeva **0** nell&#39;intervallo di valori possibili.
+* È stato corretto un errore che poteva impedire l&#39;aggiunta di un elemento nella configurazione della schermata di dettaglio di una risorsa personalizzata dopo una reinizializzazione.
 
-#### Flussi di lavoro {#workflows-6}
+_Flussi di lavoro_
 
-* È stato corretto un errore che poteva causare la visualizzazione dei log di tutte le attività di un flusso di lavoro invece di visualizzare solo quelle dell'attività selezionata.
-* Risolto un errore nell' **[!UICONTROL Scheduler]** attività. L' **[!UICONTROL Day of the month]** opzione non è stata presa in considerazione correttamente e sostituita da **[!UICONTROL Week day]** .
-* È stato corretto un errore che poteva impedire a un' **[!UICONTROL Scheduler]** attività di funzionare correttamente con la modalità di scadenza impostata su **[!UICONTROL After a certain number of iterations]** .
-* Risolto un errore che si verificava durante l'esportazione di dati tramite un' **[!UICONTROL Extract file]** attività. Il numero di righe presenti nel file di esportazione era inferiore al numero di elementi esportati.
-* È stato corretto un errore che poteva impedire la selezione di un file in un' **[!UICONTROL Load file]** attività.
-* È stato corretto un errore che impediva l'eliminazione dei campi che venivano aggiornati in un' **[!UICONTROL Update data]** attività.
+* È stato corretto un errore che poteva causare la visualizzazione dei log di tutte le attività di un flusso di lavoro invece di visualizzare solo quelle dell&#39;attività selezionata.
+* Risolto un errore nell&#39; **[!UICONTROL Scheduler]**attività. L&#39;**[!UICONTROL Day of the month]** opzione non è stata presa in considerazione correttamente e sostituita da **[!UICONTROL Week day]**.
+* È stato corretto un errore che poteva impedire a un&#39; **[!UICONTROL Scheduler]**attività di funzionare correttamente con la modalità di scadenza impostata su**[!UICONTROL After a certain number of iterations]** .
+* Risolto un errore che si verificava durante l&#39;esportazione di dati tramite un&#39; **[!UICONTROL Extract file]**attività. Il numero di righe presenti nel file di esportazione era inferiore al numero di elementi esportati.
+* È stato corretto un errore che poteva impedire la selezione di un file in un&#39; **[!UICONTROL Load file]**attività.
+* È stato corretto un errore che impediva l&#39;eliminazione dei campi che venivano aggiornati in un&#39; **[!UICONTROL Update data]**attività.
 * È stato corretto un errore che impediva il salvataggio delle modifiche apportate a un flusso di lavoro dopo l’apertura dei registri di esecuzione del flusso di lavoro.
-* Risolto un errore che causava l'esecuzione di un' **[!UICONTROL Load file]** attività due volte se era configurata per l'utilizzo del file dalla sua transizione in ingresso e questo file era stato caricato utilizzando un' **[!UICONTROL Transfer file]** attività.
-* Risolto un errore che poteva impedire ad alcune entità temporanee di essere elaborate correttamente da un'attività **Esclusione** .
-* È stato corretto un errore che poteva impedire a un' **[!UICONTROL Query]** attività di essere eseguita correttamente se la dimensione di targeting e la dimensione di filtro configurate nell'attività erano diverse.
-* È stato corretto un errore relativo alla denominazione automatica delle transizioni in uscita aggiunte a un' **[!UICONTROL Fork]** attività che poteva impedire il salvataggio del flusso di lavoro.
+* Risolto un errore che causava l&#39;esecuzione di un&#39; **[!UICONTROL Load file]**attività due volte se era configurata per l&#39;utilizzo del file dalla sua transizione in ingresso e questo file era stato caricato utilizzando un&#39;**[!UICONTROL Transfer file]** attività.
+* Risolto un errore che poteva impedire ad alcune entità temporanee di essere elaborate correttamente da un&#39;attività **Esclusione** .
+* È stato corretto un errore che poteva impedire a un&#39; **[!UICONTROL Query]**attività di essere eseguita correttamente se la dimensione di targeting e la dimensione di filtro configurate nell&#39;attività erano diverse.
+* È stato corretto un errore relativo alla denominazione automatica delle transizioni in uscita aggiunte a un&#39; **[!UICONTROL Fork]**attività che poteva impedire il salvataggio del flusso di lavoro.
 
-#### Modifica del contenuto {#content-editing-2}
+_Modifica del contenuto_
 
-* È stato corretto un errore che poteva causare la visualizzazione non desiderata di un'icona o di una barra di ricerca durante la modifica del contenuto.
+* È stato corretto un errore che poteva causare la visualizzazione non desiderata di un&#39;icona o di una barra di ricerca durante la modifica del contenuto.
 
-#### Pagine di destinazione {#landing-pages-3}
+_Pagine di destinazione_
 
-* È stato corretto un errore che impediva l'importazione di una pagina di destinazione tramite l'importazione di un pacchetto.
+* È stato corretto un errore che impediva l&#39;importazione di una pagina di destinazione tramite l&#39;importazione di un pacchetto.
 
-#### Messaggi transazionali {#transactional-messages-4}
+_Messaggi transazionali_
 
-* È ora possibile specificare un indirizzo IP attendibile nei parametri di sicurezza dell'operatore agente push di Message Center.
+* È ora possibile specificare un indirizzo IP attendibile nei parametri di sicurezza dell&#39;operatore agente push di Message Center.
 * È stato corretto un errore che poteva impedire la creazione di un nuovo tipo di evento.
 
 ## Rilascio 15.11 - novembre 2015 {#release-15-11---november-2015}
 
-### Nuove funzionalità {#new-capabilities-9}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -657,52 +657,52 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-9}
+**Patch**
 
-#### Generale {#general-9}
+_Generale_
 
-* È stato corretto un errore che poteva impedire l'accesso ai parametri generali di un'istanza da un account amministratore.
+* È stato corretto un errore che poteva impedire l&#39;accesso ai parametri generali di un&#39;istanza da un account amministratore.
 * **I dati mobili** vengono ora presi correttamente in considerazione nelle risorse personalizzate.
-* È stato corretto un errore di visualizzazione nell'elenco delle importazioni semplificate eseguite, causato dalla modifica dello stato del modello corrispondente.
+* È stato corretto un errore di visualizzazione nell&#39;elenco delle importazioni semplificate eseguite, causato dalla modifica dello stato del modello corrispondente.
 
-#### Pagine di destinazione {#landing-pages-4}
+_Pagine di destinazione_
 
 * Sono stati corretti alcuni elementi dei modelli delle pagine di destinazione che potevano essere visualizzati in modo non corretto in francese sulle istanze inglesi.
 
-#### Audiences {#audiences}
+_Audiences_
 
-* È stato corretto un errore che poteva impedire ai tipi di pubblico importati da Adobe Marketing Cloud di essere visualizzati nell'elenco dei tipi di pubblico.
+* È stato corretto un errore che poteva impedire ai tipi di pubblico importati da Adobe Marketing Cloud di essere visualizzati nell&#39;elenco dei tipi di pubblico.
 * È stato corretto un errore che poteva forzare la distinzione tra maiuscole e minuscole durante la definizione di una query.
 * È stato corretto un errore che poteva impedire ai tipi di pubblico di essere filtrati durante la definizione di una query.
-* È stato corretto un errore che poteva impedire la cancellazione di un'azione in un'audience.
+* È stato corretto un errore che poteva impedire la cancellazione di un&#39;azione in un&#39;audience.
 
-#### Flussi di lavoro {#workflows-7}
+_Flussi di lavoro_
 
-* È stato corretto un errore che poteva impedire la configurazione manuale dei campi che dovevano essere aggiornati in un' **[!UICONTROL Update data]** attività.
-* È stato corretto un errore che poteva causare il caricamento infinito dell' **[!UICONTROL Query]** attività all'apertura se il flusso di lavoro non era stato salvato dopo l'inserimento dell'attività nel diagramma.
-* È stato corretto un errore che poteva causare l'interruzione del server durante il conteggio o l'anteprima di un'audience selezionata da un **[!UICONTROL Query]** flusso di lavoro.
-* È stato corretto un errore non critico che poteva essere visualizzato all'apertura di un'attività in un flusso di lavoro.
-* È stato corretto un errore che impediva a un' **[!UICONTROL Scheduler]** attività di essere configurata per eseguire un flusso di lavoro più volte al giorno.
+* È stato corretto un errore che poteva impedire la configurazione manuale dei campi che dovevano essere aggiornati in un&#39; **[!UICONTROL Update data]**attività.
+* È stato corretto un errore che poteva causare il caricamento infinito dell&#39; **[!UICONTROL Query]**attività all&#39;apertura se il flusso di lavoro non era stato salvato dopo l&#39;inserimento dell&#39;attività nel diagramma.
+* È stato corretto un errore che poteva causare l&#39;interruzione del server durante il conteggio o l&#39;anteprima di un&#39;audience selezionata da un **[!UICONTROL Query]**flusso di lavoro.
+* È stato corretto un errore non critico che poteva essere visualizzato all&#39;apertura di un&#39;attività in un flusso di lavoro.
+* È stato corretto un errore che impediva a un&#39; **[!UICONTROL Scheduler]**attività di essere configurata per eseguire un flusso di lavoro più volte al giorno.
 * È stato corretto un errore che poteva causare la visualizzazione di campi nei quali non era possibile eseguire una query in determinate attività del flusso di lavoro.
-* È stato corretto un errore che poteva impedire all'utente di individuare i KPI aggiunti da una consegna **[!UICONTROL Query]** in uscita nella transizione in uscita.
-* È stato corretto un errore che poteva impedire la creazione di un pubblico di file dopo l'importazione di un file in un flusso di lavoro.
-* È stato corretto un errore che poteva impedire l'aggiornamento dei dati sui profili in caso di utilizzo del campo **location/address3** della risorsa.
+* È stato corretto un errore che poteva impedire all&#39;utente di individuare i KPI aggiunti da una consegna **[!UICONTROL Query]**in uscita nella transizione in uscita.
+* È stato corretto un errore che poteva impedire la creazione di un pubblico di file dopo l&#39;importazione di un file in un flusso di lavoro.
+* È stato corretto un errore che poteva impedire l&#39;aggiornamento dei dati sui profili in caso di utilizzo del campo **location/address3** della risorsa.
 * È stato corretto un errore che impediva la duplicazione di raccolte eterogenee di attività in un flusso di lavoro.
-* È stato corretto un errore che impediva la visualizzazione dell'SQL, consentendo la diagnosi degli errori per una consegna periodica in un flusso di lavoro.
+* È stato corretto un errore che impediva la visualizzazione dell&#39;SQL, consentendo la diagnosi degli errori per una consegna periodica in un flusso di lavoro.
 
-#### Editor di contenuti {#content-editor-1}
+_Editor di contenuti_
 
 * È stato corretto un errore che impediva la ricerca nel codice sorgente di una pagina di destinazione o di un messaggio e-mail.
 
-#### Pacchetti {#packages-1}
+_Pacchetti_
 
-* Sono stati corretti diversi errori che potevano impedire l'esportazione di alcuni tipi di elementi nei pacchetti (in particolare pagine di destinazione, flussi di lavoro).
-* È stato corretto un errore che causava la visualizzazione dell'etichetta di importazione del pacchetto precedente se l'etichetta era stata modificata.
-* È stato corretto un errore che poteva causare la visualizzazione di risorse incompatibili nell'elenco delle risorse esportabili.
+* Sono stati corretti diversi errori che potevano impedire l&#39;esportazione di determinati tipi di elementi nei pacchetti (in particolare pagine di destinazione, flussi di lavoro).
+* È stato corretto un errore che causava la visualizzazione dell&#39;etichetta di importazione del pacchetto precedente se l&#39;etichetta era stata modificata.
+* È stato corretto un errore che poteva causare la visualizzazione di risorse incompatibili nell&#39;elenco delle risorse esportabili.
 
 ## Rilascio 15.10 - ottobre 2015 {#release-15-10---october-2015-}
 
-### Nuove funzionalità {#new-capabilities-10}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -735,54 +735,54 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-10}
+**Patch**
 
-#### E-mail {#email}
+_E-mail_
 
 * È stato corretto un errore che impediva il corretto funzionamento di un collegamento di annullamento iscrizione da una pagina mirror.
 * È stato corretto un errore che poteva impedire la corretta visualizzazione dell’etichetta di consegna e-mail nella pagina di modifica dell’e-mail.
-* È stato corretto un errore che poteva impedire la selezione di un **[!UICONTROL Routing]** account esterno in un modello di consegna duplicato.
+* È stato corretto un errore che poteva impedire la selezione di un **[!UICONTROL Routing]**account esterno in un modello di consegna duplicato.
 
-#### Audiences {#audiences-1}
+_Audiences_
 
 * È stato risolto un errore che si verificava durante un conteggio di audience se nella query era stato utilizzato un collegamento da 1 a 1.
 * È stato corretto un errore che poteva impedire la selezione di un profilo nel pubblico di destinazione di una e-mail di consegna.
 
-#### Flussi di lavoro {#workflows-8}
+_Flussi di lavoro_
 
 * È stato corretto un errore che poteva causare problemi di visualizzazione durante la configurazione di una distribuzione e-mail in un flusso di lavoro.
-* È stato corretto un errore che poteva impedire il corretto funzionamento dell' **[!UICONTROL Load file]** attività. Viene quindi visualizzato un messaggio di errore vuoto.
-* È stato corretto un errore che poteva impedire il corretto funzionamento dell' **[!UICONTROL Transfer file]** attività. I diritti di accesso non sono sempre stati presi in considerazione correttamente.
-* È stato corretto un errore che poteva impedire l’esportazione di un file se il flusso di lavoro conteneva un **[!UICONTROL Recurring email]** .
-* È stato corretto un errore che poteva impedire la creazione di un'e-mail di consegna in un flusso di lavoro o impedire che l'oggetto e il contenuto definito venissero presi in considerazione.
-* È stato corretto un errore che poteva impedire la selezione di una chiave di riconciliazione in un'attività durante la configurazione del flusso di lavoro di un modello di importazione semplificato. **[!UICONTROL Update data]**
-* È stato corretto un errore che poteva impedire il salvataggio di un flusso di lavoro dopo l'eliminazione di un'attività.
+* È stato corretto un errore che poteva impedire il corretto funzionamento dell&#39; **[!UICONTROL Load file]**attività. Viene quindi visualizzato un messaggio di errore vuoto.
+* È stato corretto un errore che poteva impedire il corretto funzionamento dell&#39; **[!UICONTROL Transfer file]**attività. I diritti di accesso non sono sempre stati presi in considerazione correttamente.
+* È stato corretto un errore che poteva impedire l’esportazione di un file se il flusso di lavoro conteneva un **[!UICONTROL Recurring email]**.
+* È stato corretto un errore che poteva impedire la creazione di un&#39;e-mail di consegna in un flusso di lavoro o impedire che l&#39;oggetto e il contenuto definito venissero presi in considerazione.
+* È stato corretto un errore che poteva impedire la selezione di una chiave di riconciliazione in un&#39;attività durante la configurazione del flusso di lavoro di un modello di importazione semplificato. **[!UICONTROL Update data]**
+* È stato corretto un errore che poteva impedire il salvataggio di un flusso di lavoro dopo l&#39;eliminazione di un&#39;attività.
 
-#### Piattaforma {#platform}
+_Piattaforma_
 
-* È stato corretto un errore che poteva impedire la creazione di un nuovo elemento se una risorsa personalizzata conteneva un collegamento al tipo di risorsa dell'elemento.
+* È stato corretto un errore che poteva impedire la creazione di un nuovo elemento se una risorsa personalizzata conteneva un collegamento al tipo di risorsa dell&#39;elemento.
 * È stato corretto un errore che poteva causare un ritardo di 15 minuti per la scrittura di alcuni registri.
-* È stato corretto un errore che poteva impedire la visualizzazione dell'elenco delle attività di marketing in base alle **[!UICONTROL Date]** colonne o **[!UICONTROL Indicators]** .
+* È stato corretto un errore che poteva impedire la visualizzazione dell&#39;elenco delle attività di marketing in base alle **[!UICONTROL Date]**colonne o**[!UICONTROL Indicators]** .
 
-#### Pagine di destinazione {#landing-pages-5}
+_Pagine di destinazione_
 
 * È stato corretto un errore che si verificava quando si selezionava un profilo di prova per visualizzare in anteprima una pagina di destinazione.
 
-#### Messaggi transazionali {#transactional-messages-5}
+_Messaggi transazionali_
 
-* È stato corretto un errore che poteva causare l'arresto anomalo dell'applicazione dopo l'eliminazione di un evento in un profilo di prova.
+* È stato corretto un errore che poteva causare l&#39;arresto anomalo dell&#39;applicazione dopo l&#39;eliminazione di un evento in un profilo di prova.
 
-#### Rapporti {#reports}
+_Rapporti_
 
-* Risolto un errore che poteva causare l'invio di dati non corretti per i report **[!UICONTROL deliveryThroughputReport]** e **[!UICONTROL deliveryTrackingReport]** .
+* Risolto un errore che poteva causare l&#39;invio di dati non corretti per i report **[!UICONTROL deliveryThroughputReport]**e**[!UICONTROL deliveryTrackingReport]** .
 
-#### Editor di contenuti {#content-editor-2}
+_Editor di contenuti_
 
-* È stato corretto un errore di gestione tag HTML che si verificava durante l'elaborazione dei blocchi di contenuto dinamici.
+* È stato corretto un errore di gestione tag HTML che si verificava durante l&#39;elaborazione dei blocchi di contenuto dinamici.
 
 ## Rilascio 15.8 - Agosto 2015 {#release-15-8---august-2015}
 
-### Nuove funzionalità {#new-capabilities-11}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -819,41 +819,41 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-11}
+**Patch**
 
-#### Display {#display}
+_Display_
 
-* È stato corretto un errore che poteva causare la sovrapposizione di due campi nell'editor query in Safari.
+* È stato corretto un errore che poteva causare la sovrapposizione di due campi nell&#39;editor query in Safari.
 
-#### Editor di contenuti {#content-editor-3}
+_Editor di contenuti_
 
-* È stato corretto un errore che impediva l'utilizzo dei caratteri '&lt;', '&amp;' e '&gt;' in un oggetto e-mail.
+* È stato corretto un errore che impediva l&#39;utilizzo dei caratteri &#39;&lt;&#39;, &#39;&amp;&#39; e &#39;>&#39; in un oggetto e-mail.
 
-#### E-mail {#email-1}
+_E-mail_
 
-* È stato corretto un errore che impediva all'utente di aggiungere testo dopo il testo dinamico.
+* È stato corretto un errore che impediva all&#39;utente di aggiungere testo dopo il testo dinamico.
 
-#### Elenchi {#lists}
+_Elenchi_
 
 * È stato corretto un errore che impediva la corretta esportazione della colonna **Messaggio** nei registri di esecuzione del flusso di lavoro.
 
-#### Profili e audience {#profiles-and-audiences}
+_Profili e audience_
 
 * È stato corretto un errore che causava una doppia conferma di quando un elemento veniva duplicato o eliminato. **Dispositivi ibridi che utilizzano solo** Internet Explorer 11.
 
-#### Flussi di lavoro {#workflows-9}
+_Flussi di lavoro_
 
 * È stato corretto un errore che poteva impedire l’invio di e-mail da un flusso di lavoro.
-* Risolto un errore che poteva impedire l'esecuzione di un flusso di lavoro quando il nome del file di rifiuto non era specificato in un' **[!UICONTROL Load file]** attività.
-* Risolto un errore che poteva impedire l'esecuzione di un flusso di lavoro quando **[!UICONTROL Execution frequency]** di un' **[!UICONTROL Schedule]** attività era impostata su **[!UICONTROL Daily]** .
+* Risolto un errore che poteva impedire l&#39;esecuzione di un flusso di lavoro quando il nome del file di rifiuto non era specificato in un&#39; **[!UICONTROL Load file]**attività.
+* Risolto un errore che poteva impedire l&#39;esecuzione di un flusso di lavoro quando **[!UICONTROL Execution frequency]**di un&#39;**[!UICONTROL Schedule]** attività era impostata su **[!UICONTROL Daily]**.
 
-#### Piattaforma {#platform-1}
+_Piattaforma_
 
 * È stato corretto un errore che impediva la generazione delle miniature in un ambiente con bilanciamento del carico.
 
 ## Rilascio 15.7 - Luglio 2015 {#release-15-7---july-2015}
 
-### Nuove funzionalità {#new-capabilities-12}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -895,33 +895,33 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-12}
+**Patch**
 
-#### Installazione {#installation}
+_Installazione_
 
 * I nomi delle istanze di Adobe Campaign ora sono limitati a 32 caratteri.
 
-#### Flussi di lavoro {#workflows-10}
+_Flussi di lavoro_
 
-* È stato corretto un errore che poteva impedire il targeting di una risorsa 'consegna' durante la modifica di una query in un flusso di lavoro.
-* È stato corretto un errore che poteva impedire l'elaborazione di alcune risorse collegate durante la modifica di una query in un flusso di lavoro.
-* È stato corretto un errore che poteva impedire la modifica di un'attività di consegna **** ricorrente se il flusso di lavoro era già stato eseguito.
+* È stato corretto un errore che poteva impedire il targeting di una risorsa &#39;consegna&#39; durante la modifica di una query in un flusso di lavoro.
+* È stato corretto un errore che poteva impedire l&#39;elaborazione di alcune risorse collegate durante la modifica di una query in un flusso di lavoro.
+* È stato corretto un errore che poteva impedire la modifica di un&#39;attività di consegna **** ricorrente se il flusso di lavoro era già stato eseguito.
 
-#### E-mail {#emails}
+_E-mail_
 
-* È stato corretto un errore che impediva di controllare gli errori di sintassi JavaScript prima di inviare un messaggio e-mail quando veniva aggiunto un contenuto dinamico tramite l'editor di espressioni.
+* È stato corretto un errore che impediva di controllare gli errori di sintassi JavaScript prima di inviare un messaggio e-mail quando veniva aggiunto un contenuto dinamico tramite l&#39;editor di espressioni.
 
-#### Pagine di destinazione {#landing-pages-6}
+_Pagine di destinazione_
 
 * È stato corretto un errore che impediva la modifica di una pagina di destinazione da un tablet.
 
-#### Servizio di base risorse {#assets-core-service}
+_Servizio di base risorse_
 
-* Quando si seleziona una risorsa condivisa da un'e-mail o una pagina di destinazione in fase di modifica, l'elenco delle risorse disponibili ora viene filtrato per Adobe Campaign.
+* Quando si seleziona una risorsa condivisa da un&#39;e-mail o una pagina di destinazione in fase di modifica, l&#39;elenco delle risorse disponibili ora viene filtrato per Adobe Campaign.
 
 ## Rilascio 15.6 - Giugno 2015 {#release-15-6---june-2015}
 
-### Nuove funzionalità {#new-capabilities-13}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -944,7 +944,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
    <td> Una nuova attività di file <strong></strong> Extract consente di esportare dati dal database Adobe Campaign sotto forma di file esterno da un flusso di lavoro. <br /> Limitazione: attualmente non è possibile utilizzare nomi dinamici per i file di output.<br /> Fare riferimento alla documentazione <a href="../../automating/using/extract-file.md"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Flussi di lavoro:Attività di pianificazione<br /> </td> 
+   <td> Flussi di lavoro: Attività di pianificazione<br /> </td> 
    <td> Widget migliorato che consente di selezionare il tempo di esecuzione dell'attività <strong>Scheduler</strong> in un flusso di lavoro.<br /> </td> 
   </tr> 
   <tr> 
@@ -970,49 +970,49 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-13}
+**Patch**
 
-#### Elenchi {#lists-1}
+_Elenchi_
 
-* Se si elimina un elemento da un elenco, l'elenco viene aggiornato automaticamente.
+* Se si elimina un elemento da un elenco, l&#39;elenco viene aggiornato automaticamente.
 * È stato corretto un errore che impediva la selezione di elementi da un elenco contenente una sola colonna.
-* È stato risolto un errore che causava la perdita delle modifiche applicate alla visualizzazione di un elenco dopo l'aggiornamento della pagina.
-* Ora è possibile visualizzare sia il secondo nome che il titolo dei profili di test nell'elenco dei profili di test.
+* È stato risolto un errore che causava la perdita delle modifiche applicate alla visualizzazione di un elenco dopo l&#39;aggiornamento della pagina.
+* Ora è possibile visualizzare sia il secondo nome che il titolo dei profili di test nell&#39;elenco dei profili di test.
 * È stato corretto un errore che si verificava selezionando una casella di controllo in un elenco con Mozilla Firefox.
 
-#### Audiences {#audiences-2}
+_Audiences_
 
-* È stato corretto un errore che impediva l'utilizzo del **[!UICONTROL Add]** pulsante nell'interfaccia dell'audience.
+* È stato corretto un errore che impediva l&#39;utilizzo del **[!UICONTROL Add]**pulsante nell&#39;interfaccia dell&#39;audience.
 
-#### E-mail {#emails-1}
+_E-mail_
 
-* È stato corretto un errore JavaScript che impediva al pulsante di anteprima di essere utilizzato due volte in una riga durante la modifica di un'e-mail.
-* È stato corretto un errore che impediva l'utilizzo dei **[!UICONTROL Edit properties]** pulsanti e dei **[!UICONTROL Show proofs]** pulsanti sui tablet Microsoft Surface Pro3 con Internet Explorer 11.
-* È stato corretto un errore che poteva impedire la visualizzazione dei log di invio di un'e-mail.
+* È stato corretto un errore JavaScript che impediva al pulsante di anteprima di essere utilizzato due volte in una riga durante la modifica di un&#39;e-mail.
+* È stato corretto un errore che impediva l&#39;utilizzo dei **[!UICONTROL Edit properties]**pulsanti e dei**[!UICONTROL Show proofs]** pulsanti sui tablet Microsoft Surface Pro3 con Internet Explorer 11.
+* È stato corretto un errore che poteva impedire la visualizzazione dei log di invio di un&#39;e-mail.
 
-#### Pagine di destinazione {#landing-pages-7}
+_Pagine di destinazione_
 
-* È stato corretto un errore che impediva l'utilizzo del blocco di contenuto del logo **** marchio durante la modifica del contenuto in una pagina di destinazione.
-* È stato corretto un errore che impediva la visualizzazione delle pagine di destinazione nell'elenco delle attività di marketing se per la pagina di destinazione erano specificate date di validità.
+* È stato corretto un errore che impediva l&#39;utilizzo del blocco di contenuto del logo **** marchio durante la modifica del contenuto in una pagina di destinazione.
+* È stato corretto un errore che impediva la visualizzazione delle pagine di destinazione nell&#39;elenco delle attività di marketing se per la pagina di destinazione erano specificate date di validità.
 
-#### Flussi di lavoro {#workflows-11}
+_Flussi di lavoro_
 
-* È stato corretto un errore che impediva il corretto funzionamento di un segmento in modalità di gruppo durante la configurazione di un'attività di **segmentazione** .
-* Risolto un errore che impediva la selezione di una transizione dopo aver configurato un'attività **di segmentazione** .
-* Risolto un errore che impediva l'eliminazione di una transizione dopo aver configurato un'attività **di segmentazione** .
-* È stato corretto un errore che impediva il conteggio e l'anteprima delle popolazioni all'interno di un'attività di **segmentazione** .
-* È stato corretto un errore che impediva l'eliminazione effettiva di un'e-mail ricorrente.
-* È stato risolto un errore che causava la visualizzazione dei dati di un'attività del file **di** trasferimento eliminata in una nuova attività del file **di** trasferimento.
-* È stato corretto un errore che impediva di tenere correttamente in considerazione una regola di esclusione all'interno di un'attività **Esclusione** .
-* È stato corretto un errore che si verificava durante l'eliminazione di un'attività di consegna e-mail in un flusso di lavoro. Le consegne corrispondenti vengono ora rimosse dall'elenco delle attività di marketing.
+* È stato corretto un errore che impediva il corretto funzionamento di un segmento in modalità di gruppo durante la configurazione di un&#39;attività di **segmentazione** .
+* Risolto un errore che impediva la selezione di una transizione dopo aver configurato un&#39;attività **di segmentazione** .
+* Risolto un errore che impediva l&#39;eliminazione di una transizione dopo aver configurato un&#39;attività **di segmentazione** .
+* È stato corretto un errore che impediva il conteggio e l&#39;anteprima delle popolazioni all&#39;interno di un&#39;attività di **segmentazione** .
+* È stato corretto un errore che impediva l&#39;eliminazione effettiva di un&#39;e-mail ricorrente.
+* È stato risolto un errore che causava la visualizzazione dei dati di un&#39;attività del file **di** trasferimento eliminata in una nuova attività del file **di** trasferimento.
+* È stato corretto un errore che impediva di tenere correttamente in considerazione una regola di esclusione all&#39;interno di un&#39;attività **Esclusione** .
+* È stato corretto un errore che si verificava durante l&#39;eliminazione di un&#39;attività di consegna e-mail in un flusso di lavoro. Le consegne corrispondenti vengono ora rimosse dall&#39;elenco delle attività di marketing.
 
-#### Navigazione {#navigation}
+_Navigazione_
 
 * È ora possibile utilizzare il tasto di tabulazione per navigare correttamente tra i campi della stessa pagina.
 
 ## Rilascio 15.4 - Aprile 2015 {#release-15-4---april-2015}
 
-### Nuove funzionalità {#new-capabilities-14}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -1062,7 +1062,7 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
 
 ## Rilascio 15.3 - marzo 2015 {#release-15-3---march-2015}
 
-### Nuove funzionalità {#new-capabilities-15}
+**Nuove funzionalità**
 
 <table> 
  <thead> 
@@ -1087,14 +1087,14 @@ Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates
  </tbody> 
 </table>
 
-### Patch {#patches-14}
+**Patch**
 
-#### Generale {#general-10}
+_Generale_
 
 * È stato corretto un errore che impediva la visualizzazione del destinatario durante la creazione di una consegna.
-* È stato corretto un errore che impediva l'utilizzo di un'audience basata su una condizione "Destinatari che hanno aperto".
-* È stato corretto un errore che impediva l'eliminazione di un profilo vuoto.
-* È stato corretto un errore che si verificava durante l'anteprima di una consegna.
-* È stato corretto un errore che impediva la duplicazione di un'attività di marketing.
-* È stato corretto un errore che si verificava durante l'eliminazione di una campagna.
+* È stato corretto un errore che impediva l&#39;utilizzo di un&#39;audience basata su una condizione &quot;Destinatari che hanno aperto&quot;.
+* È stato corretto un errore che impediva l&#39;eliminazione di un profilo vuoto.
+* È stato corretto un errore che si verificava durante l&#39;anteprima di una consegna.
+* È stato corretto un errore che impediva la duplicazione di un&#39;attività di marketing.
+* È stato corretto un errore che si verificava durante l&#39;eliminazione di una campagna.
 
