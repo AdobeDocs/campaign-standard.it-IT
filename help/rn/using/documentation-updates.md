@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
 
 ---
 
@@ -34,6 +34,8 @@ La sezione Calcolo indicatore per i report dinamici è stata aggiornata. [Leggi 
 È stata aggiunta una nuova pagina sulle linee guida generali per le consegne di Mobile in Adobe Campaign Standard. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 La documentazione Utilizzo di Campaign ed Experience Manager è stata aggiornata con una nuova sezione **Suggerimenti sull&#39;utilizzo dell&#39;integrazione** Campaign-Experience Manager. [Leggi tutto](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+
+La homepage della documentazione API è stata migliorata con reindirizzamenti ai diversi argomenti. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
 ## Aggiornamenti della documentazione - Dicembre 2019 {#doc-updates-december-2019}
 
