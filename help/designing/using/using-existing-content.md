@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ## Selezione di un contenuto esistente{#selecting-an-existing-content}
 
-Adobe Campaign viene fornito con un set di contenuti predefiniti per aiutarti a iniziare. Puoi usare uno di questi o, se il contenuto del messaggio che devi inviare è in fase di preparazione all'esterno di Adobe Campaign, puoi importarlo dal computer o da un URL.
+Adobe Campaign viene fornito con un set di contenuti predefiniti per aiutarti a iniziare. Puoi usare uno di questi o, se il contenuto del messaggio che devi inviare è in fase di preparazione all&#39;esterno di Adobe Campaign, puoi importarlo dal computer o da un URL.
 
 Quando create un’e-mail o una pagina di destinazione, potete scegliere di caricare un contenuto esistente da un’altra origine.
 
@@ -29,16 +29,16 @@ Quando create un’e-mail o una pagina di destinazione, potete scegliere di cari
 >Le immagini seguenti mostrano come caricare un contenuto esistente utilizzando [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Dopo aver creato l’e-mail o la pagina di destinazione, apritene il contenuto.
-1. Fate clic sull’icona Home per accedere alla **[!UICONTROL Email Designer]** pagina principale.
+1. Fate clic sull’icona Home per accedere alla **[!UICONTROL Email Designer]**pagina principale.
 
    ![](assets/des_loading_1.png)
 
 1. Selezionate l’origine del contenuto da caricare:
 
-   * [Modelli](../../designing/using/using-reusable-content.md#content-templates)di contenuto: fare clic sulla **[!UICONTROL Templates]** scheda.
-   * [Contenuto da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), per iniziare nuovo: fare clic sul **[!UICONTROL Create]** pulsante.
-   * [Contenuto del computer come file](#importing-content-from-a-file)ZIP o HTML: fare clic sul **[!UICONTROL Upload]** pulsante.
-   * [Contenuto da un URL](#importing-content-from-a-url) esistente (solo per le e-mail): fare clic sul **[!UICONTROL Import from URL]** pulsante.
+   * [Modelli](../../designing/using/using-reusable-content.md#content-templates)di contenuto: fare clic sulla **[!UICONTROL Templates]**scheda.
+   * [Contenuto da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), per iniziare nuovo: fare clic sul **[!UICONTROL Create]**pulsante.
+   * [Contenuto del computer come file](#importing-content-from-a-file)ZIP o HTML: fare clic sul **[!UICONTROL Upload]**pulsante.
+   * [Contenuto da un URL](#importing-content-from-a-url) esistente (solo per le e-mail): fare clic sul **[!UICONTROL Import from URL]**pulsante.
    ![](assets/des_loading_2.png)
 
 1. Caricate il contenuto. Il contenuto selezionato sostituisce quello corrente.
@@ -56,17 +56,17 @@ Quando create un’e-mail o una pagina di destinazione, potete scegliere di cari
 
 ## Modifica di contenuti esistenti con Designer e-mail{#editing-existing-contents-with-the-email-designer}
 
-Per sfruttare appieno le possibilità di edizione di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), l'HTML caricato deve contenere tag specifici che lo rendono conforme con l'editor WYSIWYG.
+Per sfruttare appieno le possibilità di edizione di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), l&#39;HTML caricato deve contenere tag specifici che lo rendono conforme con l&#39;editor WYSIWYG.
 
 Se tutto o parte dell’HTML non dispone di questo tag, il contenuto viene caricato in modalità [compatibilità](#compatibility-mode).
 
-Per rendere un contenuto esterno esistente completamente modificabile in Designer e-mail, consultare la sezione [Progettazione di un'e-mail utilizzando il contenuto](../../designing/using/using-existing-content.md) esistente.
+Per rendere un contenuto esterno esistente completamente modificabile in Designer e-mail, consultare la sezione [Progettazione di un&#39;e-mail utilizzando il contenuto](../../designing/using/using-existing-content.md) esistente.
 
 ## Importazione di un contenuto e-mail esistente {#importing}
 
 ### Importazione di contenuto da un file {#importing-content-from-a-file}
 
-Dalla home page di Designer e-mail, fare clic sul **[!UICONTROL Upload]** pulsante per caricare un file dal computer, quindi confermare.
+Dalla home page di Designer e-mail, fare clic sul **[!UICONTROL Upload]**pulsante per caricare un file dal computer, quindi confermare.
 
 Non esistono vincoli per la struttura del file zip. Tuttavia, il riferimento ai file HTML deve essere relativo e rispettare la struttura ad albero della cartella zip.
 
@@ -84,7 +84,7 @@ Sono supportati i seguenti formati per l’importazione:
 Prima di importare contenuto da un URL, accertatevi che sia conforme ai seguenti requisiti:
 
 * Il contenuto deve essere disponibile al pubblico tramite questo URL.
-* Per motivi di sicurezza, **[!UICONTROL https]** sono consentiti solo gli URL che iniziano con.
+* Per motivi di sicurezza, **[!UICONTROL https]**sono consentiti solo gli URL che iniziano con.
 * Accertatevi che tutte le risorse (immagini, CSS) siano impostate in collegamenti assoluti e in HTTPS. In caso contrario, dopo l’invio dell’e-mail, la pagina mirror viene visualizzata senza le relative risorse. Esempio di definizione di collegamento assoluto:
 
    ```
@@ -97,45 +97,45 @@ Prima di importare contenuto da un URL, accertatevi che sia conforme ai seguenti
 
 Per recuperare contenuto esistente da un URL, effettuate le seguenti operazioni:
 
-1. Dalla home page di Designer e-mail, selezionare il **[!UICONTROL Import from URL]** pulsante.
+1. Dalla home page di Designer e-mail, selezionare il **[!UICONTROL Import from URL]**pulsante.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. Definite l’URL dal quale verrà recuperato il contenuto.
-1. Click **[!UICONTROL Confirm]**.
+1. Clic **[!UICONTROL Confirm]**.
 
 **Argomento correlato:**
 
-[Importazione di contenuti da un video URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+[Importazione di contenuti da un video URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent)
 
 ### Recupero automatico del contenuto da un URL al momento della preparazione {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
-L’importazione di contenuto da un URL durante la preparazione dei messaggi consente di recuperare il contenuto HTML più recente ogni volta che l’e-mail viene preparata. In questo modo, il contenuto delle e-mail ricorrenti è sempre aggiornato al momento dell'invio. Questa funzione consente inoltre di creare un messaggio pianificato in una data specifica, anche se il contenuto non è ancora pronto.
+L’importazione di contenuto da un URL durante la preparazione dei messaggi consente di recuperare il contenuto HTML più recente ogni volta che l’e-mail viene preparata. In questo modo, il contenuto delle e-mail ricorrenti è sempre aggiornato al momento dell&#39;invio. Questa funzione consente inoltre di creare un messaggio pianificato in una data specifica, anche se il contenuto non è ancora pronto.
 
 Per recuperare i contenuti in fase di preparazione, effettuate le seguenti operazioni:
 
-1. Selezionate l’ **[!UICONTROL Content imported during preparation]** opzione.
+1. Selezionate l’ **[!UICONTROL Content imported during preparation]**opzione.
 
    ![](assets/email_designer_importfromurl2.png)
 
-1. Il contenuto dell'URL viene visualizzato nell'editor come contenuto di sola lettura.
+1. Il contenuto dell&#39;URL viene visualizzato nell&#39;editor come contenuto di sola lettura.
 
    >[!CAUTION]
    >
-   >A questo punto, la visualizzazione HTML nell'editor del contenuto non dovrebbe essere presa in considerazione. Sarà recuperato nella fase di preparazione.
+   >A questo punto, la visualizzazione HTML nell&#39;editor del contenuto non dovrebbe essere presa in considerazione. Sarà recuperato nella fase di preparazione.
 
-1. Per visualizzare l’anteprima del contenuto dell’URL recuperato, aprire il messaggio dopo averlo creato e fare clic sul **[!UICONTROL Preview]** pulsante.
+1. Per visualizzare l’anteprima del contenuto dell’URL recuperato, aprire il messaggio dopo averlo creato e fare clic sul **[!UICONTROL Preview]**pulsante.
 
-È possibile personalizzare l'URL remoto da cui verrà recuperato il contenuto. A questo scopo, effettuate le seguenti operazioni:
+È possibile personalizzare l&#39;URL remoto da cui verrà recuperato il contenuto. A questo scopo, effettuate le seguenti operazioni:
 
-1. Fare clic sull'etichetta e-mail nella parte superiore dello schermo per accedere alla **[!UICONTROL Properties]** scheda Email Designer.
-1. Trova il **[!UICONTROL Remote URL]** campo.
+1. Fare clic sull&#39;etichetta e-mail nella parte superiore dello schermo per accedere alla **[!UICONTROL Properties]**scheda Email Designer.
+1. Trova il **[!UICONTROL Remote URL]**campo.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Inserite il campo di personalizzazione desiderato, il blocco di contenuto o il testo dinamico.
 
-   Il blocco **[!UICONTROL Current date - YYYYMMDD]** di contenuto, ad esempio, consente di inserire la data del giorno.
+   Il blocco **[!UICONTROL Current date - YYYYMMDD]**di contenuto, ad esempio, consente di inserire la data del giorno.
 
    >[!NOTE]
    >
@@ -143,11 +143,11 @@ Per recuperare i contenuti in fase di preparazione, effettuate le seguenti opera
 
 ### Modalità compatibilità {#compatibility-mode}
 
-Quando si carica un contenuto, questo deve contenere tag specifici per essere completamente conforme e modificabile con l'editor WYSIWYG di Designer e-mail.
+Quando si carica un contenuto, questo deve contenere tag specifici per essere completamente conforme e modificabile con l&#39;editor WYSIWYG di Designer e-mail.
 
-Se tutto o parte dell’HTML caricato non è conforme ai tag previsti, il contenuto viene caricato in "modalità compatibilità", che limita le possibilità di edizione nell’interfaccia utente.
+Se tutto o parte dell’HTML caricato non è conforme ai tag previsti, il contenuto viene caricato in &quot;modalità compatibilità&quot;, che limita le possibilità di edizione nell’interfaccia utente.
 
-Quando un contenuto viene caricato in modalità di compatibilità, potete comunque eseguire le seguenti modifiche tramite l'interfaccia (le azioni non disponibili sono nascoste):
+Quando un contenuto viene caricato in modalità di compatibilità, potete comunque eseguire le seguenti modifiche tramite l&#39;interfaccia (le azioni non disponibili sono nascoste):
 
 * Modifica del testo o modifica di un’immagine
 * Inserimento di collegamenti e campi di personalizzazione
@@ -158,7 +158,7 @@ Quando un contenuto viene caricato in modalità di compatibilità, potete comunq
 
 Altre modifiche, come l’aggiunta di nuove sezioni al messaggio e-mail o lo stile avanzato, devono essere effettuate direttamente nel codice sorgente del messaggio e-mail tramite la modalità HTML.
 
-Per ulteriori informazioni sulla conversione di un'e-mail esistente in un'e-mail compatibile con e-mail Designer, consultare [questa sezione](../../designing/using/using-existing-content.md).
+Per ulteriori informazioni sulla conversione di un&#39;e-mail esistente in un&#39;e-mail compatibile con e-mail Designer, consultare [questa sezione](../../designing/using/using-existing-content.md).
 
 **Argomento** correlato:
 
@@ -168,9 +168,9 @@ Per ulteriori informazioni sulla conversione di un'e-mail esistente in un'e-mail
 
 ## Conversione di un contenuto HTML {#converting-an-html-content}
 
-Se si desidera creare un framework di modelli e frammenti modulari che possano essere combinati per il riutilizzo in più e-mail, è consigliabile convertire l'HTML dell'e-mail in un modello di E-mail Designer.
+Se si desidera creare un framework di modelli e frammenti modulari che possano essere combinati per il riutilizzo in più e-mail, è consigliabile convertire l&#39;HTML dell&#39;e-mail in un modello di E-mail Designer.
 
-Questo caso di utilizzo consente di convertire rapidamente un'e-mail HTML in componenti di E-mail Designer.
+Questo caso di utilizzo consente di convertire rapidamente un&#39;e-mail HTML in componenti di E-mail Designer.
 
 >[!CAUTION]
 >
@@ -180,7 +180,7 @@ Questo caso di utilizzo consente di convertire rapidamente un'e-mail HTML in com
 >
 >Come la modalità di compatibilità, un componente HTML è modificabile con opzioni limitate: è possibile eseguire solo edizioni interne.
 
-Al di fuori di Email Designer, assicurarsi che l'HTML originale sia diviso in sezioni riutilizzabili.
+Al di fuori di Email Designer, assicurarsi che l&#39;HTML originale sia diviso in sezioni riutilizzabili.
 
 In caso contrario, tagliare i diversi blocchi dal codice HTML. Ad esempio:
 
@@ -204,7 +204,7 @@ In caso contrario, tagliare i diversi blocchi dal codice HTML. Ad esempio:
 <!-- //3 COLUMN w/CTA (SCALED) -->
 ```
 
-Dopo aver identificato tutti i blocchi, in Designer e-mail ripetere la seguente procedura per ciascuna sezione dell'e-mail esistente:
+Dopo aver identificato tutti i blocchi, in Designer e-mail ripetere la seguente procedura per ciascuna sezione dell&#39;e-mail esistente:
 
 1. Aprite il Designer e-mail per creare un contenuto e-mail vuoto.
 1. Impostate gli attributi a livello di corpo: colori di sfondo, larghezza, ecc. Per ulteriori informazioni, consultate [Modifica degli stili](../../designing/using/styles.md)delle e-mail.
