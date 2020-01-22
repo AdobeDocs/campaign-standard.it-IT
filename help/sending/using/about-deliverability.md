@@ -13,16 +13,14 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ---
 
 
 # Informazioni sul recapito{#about-deliverability}
 
-Distribuzione o come misurare il successo delle campagne che raggiungono la inbox dei destinatari senza rimbalzare o essere contrassegnate come spam.
-
-Adobe Campaign Deliverability è un servizio a pagamento disponibile in diverse offerte. Contatta il servizio commerciale o di recapito.
+La possibilità di distribuire i dati consente di misurare il successo delle campagne che raggiungono la inbox dei destinatari senza rimbalzare o essere contrassegnate come spam.
 
 Il tasso di recapito dipende da numerosi fattori, in particolare:
 
@@ -38,7 +36,7 @@ Il tasso di recapito dipende da numerosi fattori, in particolare:
 
 Per ottimizzare la recapito dei messaggi e-mail di Adobe Campaign, consigliamo di utilizzare le best practice elencate di seguito. I problemi di recapito sono generalmente legati alle misure di protezione contro lo spam attuate dai provider di servizi Internet e dagli amministratori dei server di posta elettronica.
 
-Per "recapito e-mail" si intende il set di caratteristiche che determinano la capacità di un messaggio di raggiungere la destinazione, tramite un indirizzo e-mail personale, entro un breve periodo di tempo e con la qualità prevista in termini di contenuto e formato. Queste caratteristiche sono suddivise in quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Insieme, costituiscono la base di un programma di recapito e-mail di successo.
+Per &quot;recapito e-mail&quot; si intende il set di caratteristiche che determinano la capacità di un messaggio di raggiungere la destinazione, tramite un indirizzo e-mail personale, entro un breve periodo di tempo e con la qualità prevista in termini di contenuto e formato. Queste caratteristiche sono suddivise in quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Insieme, costituiscono la base di un programma di recapito e-mail di successo.
 
 Il tasso di recapito corrisponde al numero di e-mail inviate correttamente ai destinatari.
 Di seguito è riportato un elenco dei punti chiave da verificare per garantire una buona consegna.
@@ -61,11 +59,11 @@ Innanzitutto, consultare la documentazione sugli strumenti di recapito forniti c
 
 ## Verifica della configurazione di rete {#network-configuration}
 
-Gli spammer cercano di nascondere la loro identità reale e di conseguenza rendono i loro server difficili da identificare. Una configurazione di rete legittima che non tenti di nascondere l'identità del server è essenziale per inviare e-mail in grandi volumi.
+Gli spammer cercano di nascondere la loro identità reale e di conseguenza rendono i loro server difficili da identificare. Una configurazione di rete legittima che non tenti di nascondere l&#39;identità del server è essenziale per inviare e-mail in grandi volumi.
 
 ## Invio a indirizzi validi {#valid-addresses}
 
-Gli spammer usano spesso generatori di indirizzi basati su elenchi di nomi e nomi frequenti; inoltre, raramente elaborano le notifiche tecniche inviate dai server di posta. Un elevato numero di indirizzi non validi viene spesso interpretato come un segno di spam. I meccanismi di doppio consenso e l'efficace gestione dei messaggi tecnici di rimbalzo consentono di evitare questo problema.
+Gli spammer usano spesso generatori di indirizzi basati su elenchi di nomi e nomi frequenti; inoltre, raramente elaborano le notifiche tecniche inviate dai server di posta. Un elevato numero di indirizzi non validi viene spesso interpretato come un segno di spam. I meccanismi di doppio consenso e l&#39;efficace gestione dei messaggi tecnici di rimbalzo consentono di evitare questo problema.
 
 ## Riduzione del tasso di reclamo {#reduce-complaint-rate}
 
@@ -73,11 +71,11 @@ Gli ISP solitamente dispongono di uno strumento importante per segnalare un mess
 
 ## Invio agli indirizzi delle melanzane {#honeypot-addresses}
 
-I provider di servizi Internet e altre organizzazioni (fare riferimento a https://www.projecthoneypot.org/) utilizzano caselle di posta che non corrispondono a persone fisiche ma sono create semplicemente per ingannare gli spammer. Questi cosiddetti indirizzi "vaso di miele" sono pubblicati sul Web per essere raccolti dagli spambots e quindi catturare mittenti illegittimi. L'uso di un doppio meccanismo di opt-in impedisce l'aggiunta di questo tipo di indirizzo a un elenco. Quando si utilizza un elenco di terze parti, è necessario essere certi dei metodi utilizzati dal relativo manutentore.
+I provider di servizi Internet e altre organizzazioni (fare riferimento a https://www.projecthoneypot.org/) utilizzano caselle di posta che non corrispondono a persone fisiche ma sono create semplicemente per ingannare gli spammer. Questi cosiddetti indirizzi &quot;vaso di miele&quot; sono pubblicati sul Web per essere raccolti dagli spambots e quindi catturare mittenti illegittimi. L&#39;uso di un doppio meccanismo di opt-in impedisce l&#39;aggiunta di questo tipo di indirizzo a un elenco. Quando si utilizza un elenco di terze parti, è necessario essere certi dei metodi utilizzati dal relativo manutentore.
 
 ## Adattamento del contenuto dei messaggi {#adapt-message-content}
 
-In misura minore, il contenuto di alcuni messaggi può portare alcuni filtri per rilevarlo come spam. L'uso di determinate parole, l'uso di punti esclamativi nella riga dell'oggetto e all'interno dei messaggi sono letti come segni di spam. È noto che gli spammers sostituiscono il testo con le immagini per evitare che il testo offensivo venga analizzato automaticamente dai filtri anti-spam. In risposta a ciò, un messaggio (in formato HTML) con un'elevata percentuale di immagini o immagini come allegati potrebbe finire per essere bloccato.
+In misura minore, il contenuto di alcuni messaggi può portare alcuni filtri per rilevarlo come spam. L&#39;uso di determinate parole, l&#39;uso di punti esclamativi nella riga dell&#39;oggetto e all&#39;interno dei messaggi sono letti come segni di spam. È noto che gli spammers sostituiscono il testo con le immagini per evitare che il testo offensivo venga analizzato automaticamente dai filtri anti-spam. In risposta a ciò, un messaggio (in formato HTML) con un&#39;elevata percentuale di immagini o immagini come allegati potrebbe finire per essere bloccato.
 
 ## Invio regolare {#regular-deliveries}
 
