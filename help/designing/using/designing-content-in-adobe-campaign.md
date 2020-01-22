@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -27,7 +27,7 @@ Progettato per fornire HTML ottimizzati per la progettazione reattiva, e-mail De
 
 Designer e-mail consente di creare contenuti e modelli di contenuto e-mail. È compatibile con e-mail semplici, e-mail transazionali, e-mail di test A/B, e-mail in più lingue ed e-mail ricorrenti.
 
-Per iniziare a utilizzare e-mail Designer, guarda questo [set di video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) che illustrano le funzionalità generali di e-mail Designer e come progettare un&#39;e-mail da zero o utilizzando i modelli.
+Per iniziare a utilizzare e-mail Designer, guarda questo [set di video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generali di e-mail Designer e come progettare un&#39;e-mail da zero o utilizzando i modelli.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
