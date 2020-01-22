@@ -12,20 +12,24 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
 
 ---
 
 
 # Informazioni sull’estensione dell’API{#about-extending-the-api}
 
-In questo caso di utilizzo viene illustrata l'esposizione dei campi estesi per i profili di risorse personalizzati nell'API Profili pubblici. Ad esempio, per aggiornare immediatamente il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
+In questo caso di utilizzo viene illustrata l&#39;esposizione di campi estesi per i profili di risorse personalizzati nell&#39;API Profili pubblici. Ad esempio, per aggiornare immediatamente il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
-Per pubblicare l'API, è necessario avere il **[!UICONTROL Datamodel]** ruolo.
+>[!NOTE]
+>
+>Per pubblicare l&#39;API, accertatevi di disporre del **[!UICONTROL Datamodel]**ruolo.
 
-* Estensione della risorsa personalizzata Profili
-* Pubblicazione dell’estensione
-* Verifica della disponibilità dei campi estesi nell'API
+I passaggi per esporre i campi estesi nell&#39;API pubblica sono i seguenti:
+
+1. [Aggiungere i campi di estensione alla risorsa Profilo](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [Pubblicare l’estensione](../../developing/using/step-2--publish-the-extension.md)
+1. [Verifica che i nuovi campi estesi siano disponibili nell&#39;API](../../developing/using/step-3--verify-the-extension.md)
 
 **Argomenti correlati:**
 
