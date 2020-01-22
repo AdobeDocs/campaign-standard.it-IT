@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -34,7 +34,7 @@ In questa pagina troverete informazioni su ciascuno di questi passaggi, oltre a 
 
 **Argomenti correlati:**
 
-* [Video](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) sulla creazione di un’esercitazione sulla pagina di destinazione
+* [Video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) sulla creazione di un’esercitazione sulla pagina di destinazione
 * [Creazione di un servizio](../../audiences/using/creating-a-service.md)
 * [Impostazione di un doppio processo di consenso](setting-up-a-double-opt-in-process.md)
 
@@ -44,18 +44,18 @@ La sezione seguente elenca i limiti di cui dovreste essere consapevoli prima di 
 
 **Scrittura e aggiornamento dei dati**
 
-* Le pagine di destinazione sono limitate solo a **[!UICONTROL Profile]** **[!UICONTROL Subscription]** risorse e risorse. La registrazione può essere salvata e aggiornata da **[!UICONTROL Profile]** e da una sottoscrizione o annullamento della sottoscrizione a un **[!UICONTROL Service]**.
+* Le pagine di destinazione sono limitate solo a **[!UICONTROL Profile]****[!UICONTROL Subscription]** risorse e risorse. La registrazione può essere salvata e aggiornata da **[!UICONTROL Profile]**e da una sottoscrizione o annullamento della sottoscrizione a un**[!UICONTROL Service]**.
 Per ulteriori informazioni sulla configurazione delle risorse, vedere [Configurazione della struttura](../../developing/using/configuring-the-resource-s-data-structure.md)dati della risorsa.
 
 >[!CAUTION]
 >
->Una pagina di destinazione non può visualizzare o aggiornare i dati provenienti da altre risorse oltre a **[!UICONTROL Profile]** e **[!UICONTROL Subscription]**.
+>Una pagina di destinazione non può visualizzare o aggiornare i dati provenienti da altre risorse oltre a **[!UICONTROL Profile]**e**[!UICONTROL Subscription]**.
 
 **Precaricamento**
 
 * La pagina di destinazione non può visualizzare automaticamente un elenco di record, non può elencare i servizi a cui sono già stati sottoscritti profili. Per ulteriori informazioni sui servizi, consultare questa [pagina](../../audiences/using/creating-a-service.md).
 
-* La pagina di destinazione con un modulo precompilato (i dati vengono precaricati con la pagina) è accessibile solo da un'e-mail di Adobe Campaign. Non è possibile accedere a tale modulo da una pagina Web.
+* La pagina di destinazione con un modulo precompilato (i dati vengono precaricati con la pagina) è accessibile solo da un&#39;e-mail di Adobe Campaign. Non è possibile accedere a tale modulo da una pagina Web.
 
 **Riconciliazione**
 
@@ -79,7 +79,7 @@ Qui è stato aggiornato solo il primo profilo, perché si trattava della voce pi
 
 Prima di impostare una pagina di destinazione, il primo passaggio consiste nel configurare un modello di pagina di destinazione che corrisponda alle vostre esigenze. Una volta pronto il modello, tutte le pagine di destinazione basate su di esso saranno preconfigurate con i parametri desiderati.
 
-1. Dal menu avanzato, tramite il logo Adobe Campaign, selezionate **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**, quindi duplicate il modello da utilizzare.
+1. Dal menu avanzato, tramite il logo Adobe Campaign, selezionate **[!UICONTROL Resources]**/**[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**, quindi duplicate il modello da utilizzare.
 1. Nelle proprietà del modello, specificate tutti i parametri che le pagine di destinazione devono avere in comune. Ad esempio: la dimensione di targeting, i parametri di accesso alla pagina per i visitatori identificati o non identificati, le azioni specifiche per la convalida del modulo da parte di un visitatore, il marchio/logo da utilizzare nel contenuto, ecc. Per ulteriori informazioni sulle proprietà delle pagine di destinazione, consulta [questa sezione](../../channels/using/configuring-landing-page.md)
 1. Salva le modifiche.
 
@@ -130,7 +130,7 @@ Per ulteriori informazioni su come testare una pagina di destinazione, consulta 
 
 ## Passaggio Pubblicare la pagina di destinazione {#publish-the-landing-page}
 
-Una volta completati i test, potete pubblicare la pagina di destinazione utilizzando il **[!UICONTROL Publish]** pulsante della barra delle azioni nel dashboard. Un blocco di monitoraggio mostra l’avanzamento e lo stato della pubblicazione.
+Una volta completati i test, potete pubblicare la pagina di destinazione utilizzando il **[!UICONTROL Publish]**pulsante della barra delle azioni nel dashboard. Un blocco di monitoraggio mostra l’avanzamento e lo stato della pubblicazione.
 
 Quando si pubblica una pagina di destinazione, questa diventa accessibile online. Dopo la pubblicazione, potete sempre aggiornarla: a questo scopo, è necessario ripubblicarlo dopo ogni modifica. Potete inoltre annullare la pubblicazione di una pagina di destinazione in qualsiasi momento in modo che non sia più disponibile.
 
