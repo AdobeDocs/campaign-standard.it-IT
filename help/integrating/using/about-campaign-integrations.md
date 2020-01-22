@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -21,15 +21,15 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 Questa sezione descrive le integrazioni funzionali disponibili tra la versione corrente di Adobe Campaign e altre soluzioni e servizi.
 
-Le diverse integrazioni presentate di seguito consentono di combinare le funzionalità di distribuzione e gestione avanzata delle campagne di Adobe Campaign con una serie di soluzioni create per personalizzare l'esperienza degli utenti.
+Le diverse integrazioni presentate di seguito consentono di combinare le funzionalità di distribuzione e gestione avanzata delle campagne di Adobe Campaign con una serie di soluzioni create per personalizzare l&#39;esperienza degli utenti.
 
 >[!NOTE]
 >
 > Per impostazione predefinita, Adobe Campaign è già collegato a un account Adobe Experience Cloud.
 
-A seconda dell'ambiente, altre soluzioni possono essere collegate ad Adobe Experience Cloud. Sono collegate come organizzazioni (o tenant).
+A seconda dell&#39;ambiente, altre soluzioni possono essere collegate ad Adobe Experience Cloud. Sono collegate come organizzazioni (o tenant).
 
-Un'organizzazione è l'entità che consente all'amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L'organizzazione funziona come un'azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un'organizzazione è il vostro nome aziendale. Tuttavia, un'azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è dettagliata nel portale [dell'Aiuto di](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
+Un&#39;organizzazione è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un&#39;organizzazione è il vostro nome aziendale. Tuttavia, un&#39;azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è dettagliata nel portale [dell&#39;Aiuto di](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
 
 Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, consulta la documentazione [sulle](../../api/using/about-campaign-standard-apis.md)API.
 
@@ -94,7 +94,7 @@ Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, 
    <td> Dreamweaver<br /> </td> 
    <td> Consente di modificare un contenuto e-mail da Dreamweaver e di sincronizzarlo con Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Creare e-mail personalizzate con il video di Dreamweaver</a> <br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">utilizzare l'estensione Campaign per Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Creare e-mail personalizzate con il video di Dreamweaver</a> <br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">utilizzare l'estensione Campaign per Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
