@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b26f83cd84d85d4794278af5df5d4308b2de467f
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -46,7 +46,7 @@ Quando si modifica il contenuto con Designer e-mail, è anche possibile creare m
 
 **Argomenti correlati:**
 
-* Scoprite come personalizzare i modelli di contenuto [in questo video](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* Scoprite come personalizzare i modelli di contenuto [in questo video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
 * Per ulteriori informazioni sulla modifica dei contenuti, consultate [Informazioni sulla progettazione](../../designing/using/designing-content-in-adobe-campaign.md)dei contenuti e-mail.
 
 ### Creating a content template {#creating-a-content-template}
