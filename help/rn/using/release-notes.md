@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
+source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 ---
 
@@ -34,9 +34,8 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   Adobe Experience Platform Data Connector è ora integrato con Adobe Campaign Standard. Puoi rendere disponibili i dati della tua campagna su Adobe Experience Platform mappando i dati XTK (i dati acquisiti in Campaign) su Adobe Experience Platform Data Model (XDM). </p>
-    <p>Per ulteriori informazioni su questa funzionalità e condizioni per attivarla, consulta la documentazione <a href="../../administration/using/aep-about-data-connector.md"></a>dettagliata.</p>
+   <td> <p>Adobe Experience Platform Data Connector è ora integrato con Adobe Campaign Standard. Puoi rendere disponibili i dati della tua campagna su Adobe Experience Platform mappando i dati XTK (i dati acquisiti in Campaign) su Adobe Experience Platform Data Model (XDM). </p>
+    <p>Questa funzionalità è disponibile solo per i clienti ospitati in Azure. Per ulteriori informazioni su questa funzionalità e condizioni per attivarla, consulta la documentazione <a href="../../administration/using/aep-about-data-connector.md"></a>dettagliata.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -45,28 +44,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integrazione con il servizio Destinazione pubblico (versione beta) </strong><br /> </th> 
+   <th> <strong>Destinazioni audience (beta) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Il servizio Destinazioni di pubblico ora è integrato con Adobe Campaign Standard. Puoi creare tipi di pubblico altamente mirati basati su insiemi di dati grandi e complessi e condividere questi segmenti in tempo reale con altre soluzioni Adobe Experience Cloud.</p>
-    <p>Per ulteriori informazioni su questa funzionalità e condizioni per attivarla, consulta la documentazione <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a>dettagliata.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>MTA avanzata campagna per messaggi transazionali</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>I messaggi transazionali ora vengono inviati dall'MTA avanzata di Adobe Campaign, che fornisce un'infrastruttura di invio aggiornata per migliorare la recapito, il throughput e la gestione dei bounce.</p>
-    <p>Per ulteriori informazioni, consulta la documentazione <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html"></a>dettagliata.</p>
+   <td> <p>Destinazioni audience consente di condividere segmenti da Adobe Experience Platform ad Adobe Campaign.</p>
+    <p>Questa funzionalità è disponibile solo per i clienti ospitati in Azure. Per ulteriori informazioni su questa funzionalità e condizioni per attivarla, consulta la documentazione <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a>dettagliata.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,11 +58,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 
 **Miglioramenti**
 
+* Disponibilità globale del MTA avanzato: i messaggi (inclusi i messaggi transazionali) ora vengono inviati dall&#39;MTA avanzato di Adobe Campaign, che fornisce un&#39;infrastruttura di invio aggiornata che consente di migliorare la recapito, il throughput e la gestione dei bounce. [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * È stata migliorata la gestione del fuso orario. Ora puoi definire un fuso orario [specifico](../../automating/using/building-a-workflow.md) per un intero flusso di lavoro. Il fuso orario selezionato verrà applicato a tutte le attività del flusso di lavoro. Le informazioni sul fuso orario configurato per l&#39;operatore o il server ora vengono visualizzate nell&#39;interfaccia (nei registri e dopo aver selezionato un fuso orario). (CAMP-37672)
 
-* Le API Campaign Standard ora consentono di eseguire l&#39;impaginazione quando si utilizzano tabelle di grandi dimensioni, aggiungendo l&#39;URL `_forcePagination=true parameter` alla chiamata. [Leggi tutto](../../api/using/pagination.md)
+* Le API Campaign Standard ora consentono di eseguire l&#39;impaginazione quando si utilizzano tabelle di grandi dimensioni, aggiungendo il `_forcePagination=true` parametro all&#39;URL della chiamata. [Leggi tutto](../../api/using/pagination.md)
 
-* L&#39;ID del registro di distribuzione (un identificatore univoco per ciascun registro) è ora disponibile nei registri di consegna e nei registri di tracciamento delle risorse per tutte le dimensioni di targeting. Questo consente di identificare i registri di invio o tracciamento, ad esempio durante l’esportazione.
+* L&#39;ID del registro di distribuzione (un identificatore univoco per ciascun registro) è ora disponibile nei registri di consegna e nei registri di tracciamento delle risorse per tutte le dimensioni di targeting. Questo consente di identificare i registri di invio o tracciamento, ad esempio durante l’esportazione. [Leggi tutto](../../automating/using/exporting-logs.md)
 
 **Miglioramenti di Email Designer**
 
