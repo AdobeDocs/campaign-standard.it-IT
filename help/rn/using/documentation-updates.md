@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c85af1d7eebc59cba784a03803d23bef354dd8
+source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
 
 ---
 
@@ -31,9 +31,7 @@ Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione d
 
 Connettore dati Adobe Experience Platform (versione beta) - [Per saperne di più](../../administration/using/aep-about-data-connector.md)
 
-Integrazione con il servizio Destinazioni Pubblico (versione beta) - [Per saperne di più](../../audiences/using/aep-about-audience-destinations-service.md)
-
-Campaign Enhanced MTA per messaggi transazionali - [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+Destinazioni audience (beta) - [Leggi tutto](../../audiences/using/aep-about-audience-destinations-service.md)
 
 ### Altri aggiornamenti della documentazione in arrivo con il rilascio
 
