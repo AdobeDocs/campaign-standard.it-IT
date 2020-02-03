@@ -13,7 +13,7 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -22,7 +22,13 @@ source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 Questo rapporto contiene i dati relativi alla velocità di consegna di una o più invii. Fornisce:
 
-* Numero di messaggi elaborati all'ora
-* La **[!UICONTROL Top 5 deliveries]** tabella e i numeri di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei tentativi.
+* Numero di messaggi elaborati all&#39;ora
+* La **[!UICONTROL Top 5 deliveries]**tabella e i numeri di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei tentativi.
 
 ![](assets/delivery_reports_1.png)
+
+>[!IMPORTANT]
+>
+>Una volta effettuato l’aggiornamento all’MTA avanzata, la **[!UICONTROL Delivery throughput]**pagina non visualizza più il throughput ai destinatari delle e-mail. Mostra la velocità effettiva per il inoltro dei messaggi da Campaign all&#39;MTA avanzato.
+>
+>Per ulteriori informazioni sull&#39;MTA avanzata di Adobe Campaign, consulta questo [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
