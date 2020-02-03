@@ -1,5 +1,5 @@
 ---
-title: Paginazione
+title: Numerazione delle pagine
 description: Scoprite come eseguire le operazioni di impaginazione.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,28 +12,26 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
 
 ---
 
 
-# Paginazione
+# Numerazione delle pagine
 
 Per impostazione predefinita, in un elenco vengono caricate 25 risorse.
 
 Il parametro **_lineCount** consente di limitare il numero di risorse elencate nella risposta.  È quindi possibile utilizzare il nodo **successivo** per visualizzare i risultati successivi.
 
->[!NOTE]&gt;
+>[!NOTE]>
 >
 >Utilizzare sempre il valore URL restituito nel nodo **successivo** per eseguire una richiesta di impaginazione.
 >
 >La richiesta **_lineStart** viene calcolata e deve essere sempre utilizzata all’interno dell’URL restituito nel nodo **successivo** .
 
-<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
-
 <br/>
 
-***Richiesta di esempio***
+***Richiesta di esempio ***
 
 Esempio di richiesta GET per visualizzare 1 record della risorsa profilo.
 
@@ -45,9 +43,7 @@ Esempio di richiesta GET per visualizzare 1 record della risorsa profilo.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-<!-- dans l'exemple, avoir le node "next"-->
-
-Risposta alla richiesta.
+Risposta alla richiesta, con il nodo **successivo** per eseguire l&#39;impaginazione.
 
 ```
 {
@@ -60,6 +56,24 @@ Risposta alla richiesta.
             ...
         }
     ],
+    "next": {
+        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
+        lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
+    }
     ...
 }
 ```
+
+Per impostazione predefinita, il nodo **successivo** non è disponibile quando si interagisce con tabelle con un&#39;elevata quantità di dati. Per poter eseguire l’impaginazione, devi aggiungere il parametro **_forcePagination=true** all’URL della chiamata.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+>[!NOTE]
+>
+>Il numero di record al di sopra dei quali una tabella viene considerata grande è definito nell&#39;opzione Campaign Standard **XtkBigTableThreshold** . Il valore predefinito è 100.000 record.
