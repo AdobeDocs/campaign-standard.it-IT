@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -27,6 +27,8 @@ Ogni oggetto e utente della piattaforma è collegato a un&#39;unità organizzati
 >[!CAUTION]
 >
 >Se un utente non è collegato ad alcuna unità, non sarà in grado di connettersi ad Adobe Campaign. Se si desidera limitare l&#39;accesso a un utente o a un gruppo specifico di utenti, non collegarlo all&#39; **[!UICONTROL All]**unità.
+>
+>Per impostazione predefinita, l&#39;unità **[!UICONTROL All (all)]**organizzativa viene assegnata al gruppo di**[!UICONTROL Administrators]** sicurezza. È di sola lettura e non può essere modificato.
 
 Un utente ha accesso in sola lettura a tutti gli oggetti nelle unità principali. Ha accesso in lettura e scrittura a tutti gli oggetti della sua unità e delle sue unità figlie. Un utente non ha accesso agli oggetti in rami paralleli.
 
