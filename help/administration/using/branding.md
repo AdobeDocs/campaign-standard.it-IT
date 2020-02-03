@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ Il principio principale di configurazione e utilizzo dei marchi è:
 1. Crea uno o più modelli di consegna e pagina di destinazione per questo marchio. Fare riferimento alla sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md) .
 1. Crea messaggi e pagine di destinazione in base a questo modello. Consultate [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md) e [Creazione di una pagina](../../channels/using/designing-a-landing-page.md) di destinazione.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >I marchi non possono essere creati o modificati dagli utenti finali: queste operazioni devono essere eseguite dall&#39;amministratore tecnico di Adobe Campaign. Per qualsiasi richiesta, contatta l&#39;Assistenza clienti Adobe. Il multi-branding non può essere utilizzato nel contesto dei messaggi transazionali. Per ulteriori informazioni, consulta Messaggi [transazionali e branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
@@ -62,7 +62,7 @@ Un **marchio** è definito dalle seguenti caratteristiche:
    * **Rispondi a (indirizzo e-mail)** con l&#39;indirizzo e-mail a cui il cliente può rispondere.
    * **Rispondi a (nome)** con il nome del marchio.
    * **Errore (indirizzo e-mail)** con l&#39;indirizzo e-mail da utilizzare in caso di errore.
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Dopo aver aggiornato i parametri di intestazione delle e-mail, se il nome e l&#39;indirizzo e-mail del mittente non sono cambiati nell&#39;e-mail creata dal modello, controllate le impostazioni avanzate del modello.
 
@@ -73,6 +73,9 @@ Un **marchio** è definito dalle seguenti caratteristiche:
    * **URL esterno del server** applicazione utilizzato per ospitare e accedere alle diverse pagine di destinazione create.
    * **URL esterno del server** di tracciamento utilizzato come URL tracciato durante le consegne.
    * **URL esterno del server** delle pagine mirror utilizzato come pagina mirror predefinita nelle distribuzioni.
+   >[!NOTE]
+   >
+   >Se gli URL del server dell&#39;applicazione e del server delle pagine mirror non sono protetti (ovvero se non si inizia con https://), l&#39;anteprima della pagina di destinazione e il rendering della pagina mirror non possono essere visualizzati dall&#39;interfaccia utente di Campaign.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, che definisce la configurazione del tracciamento degli URL per il marchio.
 
@@ -118,7 +121,7 @@ In questo esempio, creeremo un nuovo marchio correlato ai viaggi e lo useremo in
 
 #### Configurare un nuovo marchio {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La configurazione del marchio è gestita da Adobe solo perché richiede autorizzazioni specifiche e impostazioni tecniche.
 
