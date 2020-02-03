@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
 
 ---
 
@@ -15,7 +15,8 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + [Ultimi aggiornamenti](rn/using/documentation-updates.md)
 + Note sulla versione {#release-notes}
    + [Ultima versione](rn/using/release-notes.md)
-   + Rilasci precedenti {#previous-releases}
+   + Versioni precedenti {#previous-releases}
+      + [Note sulla versione 2019](rn/using/release-notes-2019.md)
       + [Note sulla versione 2018](rn/using/release-notes-2018.md)
       + [Note sulla versione 2017](rn/using/release-notes-2017.md)
 + Guida introduttiva {#getting-started}
@@ -61,6 +62,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Informazioni sul consenso e diniego in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestione del consenso e del diniego in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identificazione dei profili di diniego per una consegna](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+   + Utilizzo di Adobe Experience Platform {#working-with-adobe-experience-platform}
+      + [Informazioni sul servizio Destinazioni pubblico](audiences/using/aep-about-audience-destinations-service.md)
+      + [Gestione dei tipi di pubblico di Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
+      + [Utilizzo di Unified Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Canali di comunicazione {#communication-channels}
    + Informazioni sui canali di comunicazione {#about-communication-channels}
       + [Esplorazione dei canali di comunicazione](channels/using/discovering-communication-channels.md)
@@ -113,15 +118,15 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Impostazione di un doppio processo di consenso](channels/using/setting-up-a-double-opt-in-process.md)
 + Progettazione di contenuti e-mail {#designing-content}
    + [E-mail Designer di Campaign](designing/using/designing-content-in-adobe-campaign.md)
-   + [Guida introduttiva a Email Designer](designing/using/quick-start.md)
+   + [Guida introduttiva a E-mail Designer](designing/using/quick-start.md)
    + [Definizione dell’oggetto e-mail e del mittente](designing/using/subject-line.md)
-   + Creazione di contenuto e-mail{#building-email-content}
+   + Creazione di contenuti e-mail{#building-email-content}
       + [Progettazione di e-mail da zero](designing/using/designing-from-scratch.md)
-      + [Utilizzo di contenuto esistente](designing/using/using-existing-content.md)
-      + [Utilizzo di contenuti riutilizzabili](designing/using/using-reusable-content.md)
+      + [Utilizzo di contenuti esistenti](designing/using/using-existing-content.md)
+      + [Elaborazione di contenuti riutilizzabili](designing/using/using-reusable-content.md)
       + [Utilizzo di integrazioni con più soluzioni](designing/using/using-integrations.md)
-      + [Modifica di testo normale, HTML e e-mail per dispositivi mobili](designing/using/plain-text-html-modes.md)
-   + [Personalizzazione del contenuto delle e-mail](designing/using/personalization.md)
+      + [Modifica di e-mail per dispositivi mobili, in HTML o testo normale](designing/using/plain-text-html-modes.md)
+   + [Personalizzazione di contenuti e-mail](designing/using/personalization.md)
    + [Gestione degli stili e-mail](designing/using/styles.md)
    + [Gestione dei collegamenti](designing/using/links.md)
    + [Gestione delle immagini](designing/using/images.md)
@@ -146,14 +151,14 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Ricezione degli avvisi in caso di errori](sending/using/receiving-alerts-when-failures-happen.md)
       + [Informazioni sugli errori di consegna](sending/using/understanding-delivery-failures.md)
       + [Riconoscimento della gestione della quarantena](sending/using/understanding-quarantine-management.md)
-   + Gestione della recapito {#managing-deliverability}
-      + [Informazioni sul recapito](sending/using/about-deliverability.md)
+   + Gestione delle consegne {#managing-deliverability}
+      + [Informazioni sul recapito messaggi](sending/using/about-deliverability.md)
       + [Avvio di una nuova piattaforma](sending/using/starting-new-platform.md)
-      + [Controllo del contenuto delle e-mail](sending/using/control-email-content.md)
-      + [Migliorare la tua reputazione](sending/using/improving-reputation.md)
+      + [Controllo di contenuti e-mail](sending/using/control-email-content.md)
+      + [Crescita reputazione](sending/using/improving-reputation.md)
       + [Certificazione IP](sending/using/ip-certification.md)
       + [Raccomandazioni tecniche](sending/using/technical-recommendations.md)
-      + [Monitoraggio dell&#39;offerta](sending/using/monitor-deliverability.md)
+      + [Monitoraggio del recapito messaggi](sending/using/monitor-deliverability.md)
       + [Risoluzione dei problemi](sending/using/troubleshooting.md)
 + Reporting {#reporting}
    + Informazioni sul reporting {#about-reporting}
@@ -178,6 +183,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Sottoscrizioni non riuscite](reporting/using/unsubscriptions.md)
       + [URL e flussi di clic](reporting/using/urls-and-click-streams.md)
       + [Hot click](reporting/using/hot-clicks.md)
+      + [Riepilogo del servizio](reporting/using/service-summary.md)
    + Personalizzazione dei report {#customizing-reports}
       + [Aggiunta di pannelli](reporting/using/adding-panels.md)
       + [Aggiunta di visualizzazioni](reporting/using/adding-visualizations.md)
@@ -187,8 +193,8 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + Integrazione con Adobe Cloud {#integrating-with-adobe-cloud}
    + [Informazioni sulle integrazioni di Campaign](integrating/using/about-campaign-integrations.md)
    + Utilizzo di Campaign ed Experience Manager {#working-with-campaign-and-experience-manager}
-      + [Informazioni sull&#39;integrazione di Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Creazione di un contenuto e-mail in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
+      + [Informazioni sull’integrazione di Campaign ed Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [Creazione di contenuti e-mail in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Creazione di un modulo Campaign in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Utilizzo di Campaign e Target {#working-with-campaign-and-target}
       + [Informazioni sull’integrazione di Campaign-Target](integrating/using/about-campaign-target-integration.md)
@@ -276,7 +282,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Esportazione dei registri](automating/using/exporting-logs.md)
       + [Gestione dei pacchetti](automating/using/managing-packages.md)
       + [Esportazione di elenchi](automating/using/exporting-lists.md)
-      + [Caso di utilizzo: Esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
+      + [Caso di utilizzo: esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
    + Casi di utilizzo: flussi di lavoro {#workflow-use-case}
       + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
       + [Creazione di consegne nella data di creazione](automating/using/workflow-creation-date-query.md)
@@ -284,7 +290,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Creazione di una segmentazione sulla posizione](automating/using/workflow-segmentation-location.md)
       + [Retargeting di non-openers](automating/using/workflow-cross-channel-retargeting.md)
       + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
-      + [Creazione di una distribuzione tra canali](automating/using/workflow-cross-channel-delivery.md)
+      + [Creazione di recapito messaggi cross-channel](automating/using/workflow-cross-channel-delivery.md)
+   + Utilizzo dei tipi di pubblico di Adobe Experience Platform {working with-aep-audience}
+      + [Targeting dei tipi di pubblico di Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
+      + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Sviluppo {#developing}
    + Informazioni sulle risorse personalizzate {#about-custom-resources}
       + [Concetti del modello dati](developing/using/data-model-concepts.md)
@@ -308,6 +317,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Estensione della risorsa profilo con un nuovo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Estensione delle sottoscrizioni a una risorsa dell’applicazione](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modello dati {#datamodel}
+      + [Introduzione](developing/using/datamodel-introduction.md)
       + [Audience](developing/using/datamodel-audience.md)
       + [Campagna](developing/using/datamodel-campaign.md)
       + [Consegna](developing/using/datamodel-delivery.md)
@@ -351,6 +361,12 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Invio di notifiche interne](administration/using/sending-internal-notifications.md)
       + [Conservazione dei dati](administration/using/data-retention.md)
       + [Aggiornamenti e operazioni di manutenzione](administration/using/updates-and-maintenance-operations.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+      + [Panoramica del modello di dati della piattaforma Experience](administration/using/aep-data-model-overview.md)
+      + [Definizione mapping](administration/using/aep-mapping-definition.md)
+      + [Mapping attivazione](administration/using/aep-mapping-activation.md)
+      + [Attivazione dell&#39;assimilazione dei dati tramite API](administration/using/aep-triggering-data-ingestion.md)
 + Utilizzo delle API {#working-with-apis}
    + Informazioni sulle API Campaign Standard {#about-campaign-standard-apis}
       + [Panoramica](api/using/about-campaign-standard-apis.md)
@@ -369,30 +385,30 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Risorse personalizzate](api/using/custom-resources.md)
    + [Interazione con risorse personalizzate](api/using/interacting-with-custom-resources.md)
    + Gestione dei profili {#managing-profiles}
-      + [Recupero dei profili](api/using/retrieving-profiles.md)
+      + [Recupero profili](api/using/retrieving-profiles.md)
       + [Aggiornamento dei profili](api/using/updating-profiles.md)
       + [Creazione di profili](api/using/creating-profiles.md)
-   + Gestione di servizi e iscrizioni {#managing-services-and-subscriptiopns}
+   + Gestione di servizi e sottoscrizioni {#managing-services-and-subscriptiopns}
       + [Creazione di un servizio](api/using/creating-a-service.md)
-      + [Recupero di sottoscrizioni](api/using/retrieving-subscriptions.md)
-      + [Eseguire iscrizioni](api/using/perform-subscriptions.md)
-      + [Eliminazione delle sottoscrizioni](api/using/deleting-subscriptions.md)
+      + [Recupero sottoscrizioni](api/using/retrieving-subscriptions.md)
+      + [Effettuare sottoscrizioni](api/using/perform-subscriptions.md)
+      + [Eliminazione di sottoscrizioni](api/using/deleting-subscriptions.md)
    + [Interazione con la cronologia di marketing](api/using/interacting-with-marketing-history.md)
    + Gestione della privacy {#privacy-management}
-      + [Creazione di una richiesta di privacy](api/using/creating-a-privacy-request.md)
-      + [Monitoraggio di una richiesta di privacy](api/using/monitoring-a-privacy-request.md)
-      + [Recupero dei file di dati sulla privacy](api/using/retrieving-privacy-data-files.md)
-      + [Gestione del rifiuto CCPA](api/using/managing-ccpa-opt-out.md)
+      + [Creazione di richieste di privacy](api/using/creating-a-privacy-request.md)
+      + [Monitoraggio di richieste di privacy](api/using/monitoring-a-privacy-request.md)
+      + [Recupero file di dati sulla privacy](api/using/retrieving-privacy-data-files.md)
+      + [Gestione dell’opt-out CCPA](api/using/managing-ccpa-opt-out.md)
    + [Gestione dei messaggi delle transazioni](api/using/managing-transactional-messages.md)
    + Gestione dei flussi di lavoro {#managing-workflows}
-      + [Controllo di un flusso di lavoro](api/using/controlling-a-workflow.md)
-      + [Attivazione di un&#39;attività di segnale](api/using/triggering-a-signal-activity.md)
+      + [Controllo dei flussi di lavoro](api/using/controlling-a-workflow.md)
+      + [Attivazione di attività di segnale](api/using/triggering-a-signal-activity.md)
    + Gestione delle unità organizzative {#managing-organizational-units}
-      + [Recupero dell&#39;unità organizzativa di un profilo](api/using/retrieving-an-organizational-unit.md)
-      + [Aggiornamento dell&#39;unità organizzativa di un profilo](api/using/updating-profile-organizational-unit.md)
-      + [Aggiornamento degli attributi di un&#39;unità organizzativa](api/using/updating-organizational-unit-attributes.md)
+      + [Recupero unità organizzativa di un profilo](api/using/retrieving-an-organizational-unit.md)
+      + [Aggiornamento dell’unità organizzativa di un profilo](api/using/updating-profile-organizational-unit.md)
+      + [Aggiornamento degli attributi di un’unità organizzativa](api/using/updating-organizational-unit-attributes.md)
    + Gestione delle unità geografiche {#managing-geographical-units}
-      + [Recupero dell&#39;unità geografica di un profilo](api/using/retrieving-a-geographical-unit.md)
-      + [Aggiornamento dell&#39;unità geografica di un profilo](api/using/updating-a-geographical-unit.md)
+      + [Recupero unità geografica di un profilo](api/using/retrieving-a-geographical-unit.md)
+      + [Aggiornamento dell’unità geografica di un profilo](api/using/updating-a-geographical-unit.md)
       + [Aggiornamento degli attributi di un’unità geografica](api/using/updating-geographical-unit-attributes.md)
    + [Risoluzione dei problemi](api/using/troubleshooting.md)
