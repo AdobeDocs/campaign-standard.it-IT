@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,13 +25,10 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 In questa sezione scoprirai come mappare un campo Campaign Standard con un campo Experience Data Model (XDM).
 
->[!NOTE]
->
->Per eseguire questa attività, i prerequisiti sono:
->
-> * una definizione dello schema XDM tramite l&#39;interfaccia o utilizzando l&#39;API REST associata a XDM
-> * creazione di set di dati in base alla definizione dello schema XDM
+Per eseguire questa attività, i prerequisiti sono:
 
+* una definizione dello schema XDM tramite l&#39;interfaccia o utilizzando l&#39;API REST associata a XDM
+* creazione di set di dati in base alla definizione dello schema XDM
 
 1. Vai a **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**e scegli la**[!UICONTROL Data mappings]** voce.
 
@@ -78,8 +75,8 @@ Se il valore XDM è definito come enumerazione nello schema XDM, è possibile ut
 
 Per modificare una mappatura XDM, apritela, modificate le informazioni desiderate e salvatela.
 
+![](assets/aep_editmapping.png)
+
 >[!IMPORTANT]
 >
 >Per il momento, se si modifica un valore nella **[!UICONTROL Field mappings]**sezione e si fa clic all&#39;esterno del campo, la modifica non viene visualizzata nell&#39;interfaccia finché non si fa clic sul**[!UICONTROL Save]** pulsante. Questo comportamento si verifica solo una volta, quando la modifica **[!UICONTROL Field Mappings]**è la prima modifica sulla pagina.
-
-![](assets/aep_editmapping.png)
