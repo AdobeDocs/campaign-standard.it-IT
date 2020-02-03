@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
+source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 * **[Gestione della privacy](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
 
-* **[Best practice per la distribuzione di contenuti](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Ulteriori informazioni sulle best practice relative alla progettazione e all&#39;invio dei contenuti.
+* **[Best practice](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>per la distribuzione Ulteriori informazioni sulle best practice relative alla progettazione e all&#39;invio dei contenuti.
 
 * **[Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>e-mail Consultare la documentazione di Designer e-mail riorganizzata.
 
-* **[Guida](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>a Campaign Standard Mobile Ulteriori informazioni sulle linee guida generali per le consegne per dispositivi mobili.
+* **[Guida Campaign Standard per dispositivi mobili](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Ulteriori informazioni sulle linee guida generali delle consegne su dispositivi mobili.
 
 [Fai clic qui per ulteriori aggiornamenti](rn/using/documentation-updates.md)
 
@@ -44,9 +44,10 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
       <img alt="Finestra di progettazione e-mail" src="start/using/assets/design.png" />
     </a>
     <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Progettazione di un'e-mail</strong></a>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Progettazione di un’e-mail</strong></a>
     </div>
-    <em>Scopri come utilizzare e-mail Designer per creare e-mail</em>reattive e personalizzate <br>
+    <em>Scopri come utilizzare E-mail Designer per creare e-mail dinamiche e personalizzate</em>
+    <br>
   </td>
   <td valign="top">
        <img alt="Sviluppatori" src="start/using/assets/dev.png" />
