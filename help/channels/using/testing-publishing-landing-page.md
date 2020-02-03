@@ -12,7 +12,7 @@ discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 ---
 
@@ -27,7 +27,7 @@ Prima di pubblicare una pagina di destinazione, è necessario eseguire i test: c
 
 Poiché la pagina di destinazione avrà un impatto sulla piattaforma e sui dati, è necessario verificarne accuratamente l’esecuzione. Per eseguire questa operazione:
 
-1. Fate clic sul **[!UICONTROL Test]** pulsante nella barra delle azioni della pagina di destinazione.
+1. Fate clic sul **[!UICONTROL Test]**pulsante nella barra delle azioni della pagina di destinazione.
 1. Dalla schermata di test, selezionate un profilo di test e un servizio di test se la pagina di destinazione è destinata a gestire le iscrizioni.
 
    ![](assets/lp_test_2.png)
@@ -35,13 +35,17 @@ Poiché la pagina di destinazione avrà un impatto sulla piattaforma e sui dati,
 1. Immettete i dati nei campi e selezionate le opzioni.
 1. Inviate la pagina di destinazione e controllate gli aggiornamenti nel database.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Quando il modulo viene inviato, vengono aggiornati il servizio e il profilo utilizzati.
 
 1. Ripetete questa operazione con vari profili e dati.
 
    È inoltre possibile generare la miniatura della pagina di destinazione da questa schermata.
+
+>[!NOTE]
+>
+>Se l&#39;URL del server applicazione non è sicuro (ovvero se non inizia con https://), l&#39;anteprima della pagina di destinazione non può essere visualizzata dall&#39;interfaccia utente di Campaign. Questo server viene definito durante la [configurazione dei marchi](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Impostazione dei parametri di validità {#setting-up-validity-parameters}
 
@@ -51,7 +55,7 @@ Prima della pubblicazione, per motivi di sicurezza e per prestazioni della piatt
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Imposta data e ora di scadenza nella **[!UICONTROL Publication]** sezione: la pagina di destinazione verrà automaticamente annullata la pubblicazione alla data specificata e non sarà più disponibile.
+1. Imposta data e ora di scadenza nella **[!UICONTROL Publication]**sezione: la pagina di destinazione verrà automaticamente annullata la pubblicazione alla data specificata e non sarà più disponibile.
 
    Puoi selezionare il fuso orario da prendere in considerazione per questa data e ora.
 
@@ -59,12 +63,12 @@ Prima della pubblicazione, per motivi di sicurezza e per prestazioni della piatt
 
    ![](assets/lp_settings_general.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Potete inoltre definire una data e un'ora di distribuzione: la pagina di destinazione verrà quindi pubblicata automaticamente alla data specificata.
+>Potete inoltre definire una data e un&#39;ora di distribuzione: la pagina di destinazione verrà quindi pubblicata automaticamente alla data specificata.
 
 ## Pubblicazione di una pagina di destinazione {#publishing-a-landing-page}
 
 Quando pubblicate una pagina di destinazione, questa viene pubblicata dal vivo ed è accessibile dai visitatori.
 
-Potete annullare la pubblicazione o aggiornare e ripubblicare la pagina di destinazione in qualsiasi momento, tramite il **[!UICONTROL Publish]** pulsante . Tuttavia, se la ripubblicazione non riesce e la pagina di destinazione non è ancora stata annullata, la prima versione rimarrà online.
+Potete annullare la pubblicazione o aggiornare e ripubblicare la pagina di destinazione in qualsiasi momento, tramite il **[!UICONTROL Publish]**pulsante . Tuttavia, se la ripubblicazione non riesce e la pagina di destinazione non è ancora stata annullata, la prima versione rimarrà online.
