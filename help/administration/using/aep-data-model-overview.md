@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -27,7 +27,7 @@ Experience Data Model (XDM) è un insieme standard di schemi di dati in cui i da
 
 La creazione e gestione degli schemi XDM è disponibile con un&#39;API dedicata o con l&#39;interfaccia utente XDM.
 
-## Area di lavoro XDM (#xdm-workspace)
+## Area di lavoro XDM {#xdm-workspace}
 
 XDM Workspace consente di visualizzare, creare ed estendere gli schemi di dati.
 
