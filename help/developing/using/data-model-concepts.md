@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
 
 ---
 
@@ -26,17 +26,17 @@ Adobe Campaign viene fornito con un modello dati predefinito. Questo modello di 
 >
 >La creazione e la modifica di risorse sono operazioni sensibili che devono essere eseguite solo da utenti esperti.
 
-Il menu **[!UICONTROL Administration]** &gt;, accessibile tramite il logo Adobe Campaign, consente di gestire le risorse **[!UICONTROL Development]** **personalizzate,** pubblicarle **e** accedere agli strumenti **** diagnostici.
+Il menu **[!UICONTROL Administration]**>, accessibile tramite il logo Adobe Campaign, consente di gestire le risorse**[!UICONTROL Development]** **personalizzate,** pubblicarle **e** accedere agli strumenti **** diagnostici.
 
 I dati utilizzati da Adobe Campaign sono definiti tramite risorse diverse. È possibile **arricchire il modello** di dati fornito creando risorse personalizzate, ad esempio tabelle di acquisto o di prodotti.
 
-Le risorse pronte all'uso (come campagne, e-mail o audience) non possono essere modificate. Tuttavia, è possibile estendere le risorse personalizzate per aggiungere nuovi campi.
+Le risorse pronte all&#39;uso (come campagne, e-mail o audience) non possono essere modificate. Tuttavia, è possibile estendere le risorse personalizzate per aggiungere nuovi campi.
 
 I campi di estensione vengono generati con un prefisso in modo che non entrino mai in conflitto con i campi forniti.
 
 >[!NOTE]
 >
->Puoi trovare una rappresentazione del modello di dati per le risorse pronte all’uso [qui](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html).
+>Puoi trovare una rappresentazione del modello di dati per le risorse pronte all’uso [qui](../../developing/using/datamodel-introduction.md).
 
 Potete anche **configurare la navigazione** nelle schermate corrispondenti alla risorsa creata.
 
