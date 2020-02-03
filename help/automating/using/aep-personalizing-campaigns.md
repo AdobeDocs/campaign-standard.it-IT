@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -31,11 +31,13 @@ A tal fine, è necessario aggiungere questi attributi all&#39; **[!UICONTROL Rea
 
 1. Aprite l&#39; **[!UICONTROL Read audience]**attività. Nella**[!UICONTROL Additional data]** scheda, fare clic sul **[!UICONTROL Create element]**pulsante.
 
-   >[!NOTE]
-   >
-   >La **[!UICONTROL Additional data]**scheda è disponibile solo dopo che è stato selezionato un pubblico Adobe Experience Platform.
+   La **[!UICONTROL Additional data]**scheda è disponibile solo dopo che è stato selezionato un pubblico Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
+
+   >[!NOTE]
+   >
+   >I tipi di dati relativi a array e mappe non sono supportati in questa funzione. Inoltre, nel selettore verranno visualizzati solo i dati dello schema di unione.
 
 1. Selezionare il campo XDM desiderato dall&#39;elenco, quindi fare clic su **[!UICONTROL Confirm]**.
 
