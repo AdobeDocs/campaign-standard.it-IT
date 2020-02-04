@@ -3,14 +3,14 @@ title: API esterna
 description: null
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: attività di targeting
+topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
@@ -21,17 +21,17 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/wf_externalAPI.png)
 
-L' **[!UICONTROL External API]** attività porta i dati nel flusso di lavoro da un sistema **** esterno tramite una chiamata API **** REST.
+L&#39; **[!UICONTROL External API]**attività porta i dati nel flusso di lavoro da un sistema****esterno tramite una chiamata API****REST.
 
-Gli endpoint REST possono essere un sistema di gestione dei clienti, un'istanza Runtime [I/O di](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe o un endpoint REST di Experience Cloud (Piattaforma dati, Target, Analytics, Campaign, ecc.).
+Gli endpoint REST possono essere un sistema di gestione dei clienti, un&#39;istanza Runtime [I/O di](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe o un endpoint REST di Experience Cloud (Piattaforma dati, Target, Analytics, Campaign, ecc.).
 
 >[!NOTE]
 >
->Per motivi di sicurezza, l'utilizzo di JSSP non è supportato in Campaign Standard. Se è necessario eseguire il codice, potete chiamare un'istanza runtime di I/O Adobe tramite l'attività API esterna.
+>Per motivi di sicurezza, l&#39;utilizzo di JSSP non è supportato in Campaign Standard. Se è necessario eseguire il codice, potete chiamare un&#39;istanza runtime di I/O Adobe tramite l&#39;attività API esterna.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Questa funzionalità è attualmente nella versione beta pubblica. Prima di iniziare a utilizzare l'attività API esterna, dovete accettare l'accordo di utilizzo. Nota: poiché questa funzionalità beta pubblica non è ancora stata rilasciata in commercio da Adobe, non è supportata da Adobe Client Care, potrebbe contenere errori e potrebbe non funzionare come altre funzionalità rilasciate.
+>Questa funzionalità è attualmente in versione beta. Prima di iniziare a utilizzare l&#39;attività API esterna, dovete accettare l&#39;accordo di utilizzo. Nota: poiché la funzionalità beta non è ancora stata rilasciata in commercio da Adobe, non è supportata da Adobe Client Care, potrebbe contenere errori e potrebbe non funzionare così come altre funzionalità rilasciate.
 
 Le principali caratteristiche di questa attività sono:
 
@@ -45,30 +45,30 @@ Per questa attività sono stati istituiti i seguenti presidi:
 * Timeout richiesta: 60 secondi
 * Reindirizzamenti HTTP non consentiti
 * Gli URL non HTTPS vengono rifiutati
-* "Accetta: header della richiesta application/json" e "Content-Type: l'intestazione della risposta application/json" è consentita
+* &quot;Accetta: header della richiesta application/json&quot; e &quot;Content-Type: l&#39;intestazione della risposta application/json&quot; è consentita
 
 >[!CAUTION]
 >
->Nota che l'attività è destinata al recupero di dati a livello di campagna (ultimi set di offerte, ultimi punteggi ecc.) non per il recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d'uso lo richiede, la raccomandazione consiste nell'utilizzare l'attività [Trasferisci file](../../automating/using/transfer-file.md) .
+>Nota che l&#39;attività è destinata al recupero di dati a livello di campagna (ultimi set di offerte, ultimi punteggi ecc.) non per il recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d&#39;uso lo richiede, la raccomandazione consiste nell&#39;utilizzare l&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) .
 
 ## Configurazione {#configuration}
 
-Trascinate e rilasciate un' **[!UICONTROL External API]** attività nel flusso di lavoro e aprite l'attività per avviare la configurazione.
+Trascinate e rilasciate un&#39; **[!UICONTROL External API]**attività nel flusso di lavoro e aprite l&#39;attività per avviare la configurazione.
 
 ### Mapping in entrata
 
-La mappatura in entrata è una tabella temporanea generata da un'attività in entrata precedente che verrà visualizzata e inviata come JSON nell'interfaccia utente.
-In base a questa tabella temporanea, l'utente può apportare modifiche ai dati in entrata.
+La mappatura in entrata è una tabella temporanea generata da un&#39;attività in entrata precedente che verrà visualizzata e inviata come JSON nell&#39;interfaccia utente.
+In base a questa tabella temporanea, l&#39;utente può apportare modifiche ai dati in entrata.
 
 ![](assets/externalAPI-inbound.png)
 
-Il menu a discesa delle risorse **** in entrata consente di selezionare l'attività di query che creerà la tabella temporanea.
+Il menu a discesa delle risorse **** in entrata consente di selezionare l&#39;attività di query che creerà la tabella temporanea.
 
-La casella di controllo **Aggiungi parametro** di conteggio fornirà un valore di conteggio per ogni riga proveniente dalla tabella temporanea. Questa casella di controllo è disponibile solo se l'attività in entrata genera una tabella temporanea.
+La casella di controllo **Aggiungi parametro** di conteggio fornirà un valore di conteggio per ogni riga proveniente dalla tabella temporanea. Questa casella di controllo è disponibile solo se l&#39;attività in entrata genera una tabella temporanea.
 
-La sezione Colonne **** in entrata consente all'utente di aggiungere qualsiasi campo dalla tabella di transizione in entrata. Le colonne selezionate saranno le chiavi nell'oggetto dati. L'oggetto dati nel JSON sarà un elenco di array contenente i dati per le colonne selezionate da ogni riga della tabella di transizione in entrata.
+La sezione Colonne **** in entrata consente all&#39;utente di aggiungere qualsiasi campo dalla tabella di transizione in entrata. Le colonne selezionate saranno le chiavi nell&#39;oggetto dati. L&#39;oggetto dati nel JSON sarà un elenco di array contenente i dati per le colonne selezionate da ogni riga della tabella di transizione in entrata.
 
-La casella di testo **Personalizza parametro** consente di aggiungere un JSON valido con dati aggiuntivi richiesti dall'API esterna. Questi dati aggiuntivi verranno aggiunti all'oggetto params nel JSON generato.
+La casella di testo **Personalizza parametro** consente di aggiungere un JSON valido con dati aggiuntivi richiesti dall&#39;API esterna. Questi dati aggiuntivi verranno aggiunti all&#39;oggetto params nel JSON generato.
 
 ### Mapping in uscita
 
@@ -80,22 +80,22 @@ Il pattern di struttura JSON è: `{“data”:[{“key”:“value”}, {“key�
 
 La definizione JSON di esempio deve avere le **seguenti caratteristiche**:
 
-* **data** è un nome di proprietà obbligatorio nel JSON, il contenuto di "data" è un array JSON.
+* **data** è un nome di proprietà obbligatorio nel JSON, il contenuto di &quot;data&quot; è un array JSON.
 * **Gli elementi** array devono contenere proprietà di primo livello (i livelli più profondi non sono supportati).
    **I nomi** delle proprietà finirebbero per diventare nomi di colonna per lo schema di output della tabella temporanea di output.
-* **La definizione del nome** della colonna è basata sul primo elemento dell'array "data".
+* **La definizione del nome** della colonna è basata sul primo elemento dell&#39;array &quot;data&quot;.
 La definizione delle colonne (aggiungere/rimuovere) e il valore del tipo della proprietà possono essere modificati nella scheda Definizione **** colonna.
 
-Se l' **analisi viene convalidata** , viene visualizzato un messaggio e si invita a personalizzare la mappatura dei dati nella scheda "Definizione colonna". In altri casi, viene visualizzato un messaggio di errore.
+Se l&#39; **analisi viene convalidata** , viene visualizzato un messaggio e si invita a personalizzare la mappatura dei dati nella scheda &quot;Definizione colonna&quot;. In altri casi, viene visualizzato un messaggio di errore.
 
 ### Esecuzione
 
-Questa scheda consente di definire l'endpoint **** HTTPS che invierà i dati ad ACS. Se necessario, potete immettere le informazioni di autenticazione nei campi seguenti.
+Questa scheda consente di definire l&#39;endpoint **** HTTPS che invierà i dati ad ACS. Se necessario, potete immettere le informazioni di autenticazione nei campi seguenti.
 ![](assets/externalAPI-execution.png)
 
 ### Proprietà
 
-Questa scheda consente di controllare le proprietà **** generali dell'attività API esterna, come l'etichetta visualizzata nell'interfaccia utente. L'ID interno non è personalizzabile.
+Questa scheda consente di controllare le proprietà **** generali dell&#39;attività API esterna, come l&#39;etichetta visualizzata nell&#39;interfaccia utente. L&#39;ID interno non è personalizzabile.
 
 ![](assets/externalAPI-properties.png)
 
@@ -109,7 +109,7 @@ La scheda Definizione **** colonna consente di specificare con precisione la str
 
 ![](assets/externalAPI-column.png)
 
-Ad esempio, è possibile modificare l'etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) oppure specificare l'elaborazione degli errori.
+Ad esempio, è possibile modificare l&#39;etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) oppure specificare l&#39;elaborazione degli errori.
 
 Per ulteriori informazioni, consultare la sezione [Carica file](../../automating/using/load-file.md) .
 
@@ -131,7 +131,7 @@ Esistono due tipi di messaggi di registro aggiunti a questa nuova attività del 
 
 ### Informazioni
 
-Questi messaggi di registro vengono utilizzati per registrare informazioni su punti di controllo utili durante l'esecuzione dell'attività del flusso di lavoro. In modo specifico, i messaggi di registro seguenti vengono utilizzati per registrare il primo tentativo e il tentativo di effettuare un nuovo tentativo (motivo del primo tentativo non riuscito) di accedere all'API.
+Questi messaggi di registro vengono utilizzati per registrare informazioni su punti di controllo utili durante l&#39;esecuzione dell&#39;attività del flusso di lavoro. In modo specifico, i messaggi di registro seguenti vengono utilizzati per registrare il primo tentativo e il tentativo di effettuare un nuovo tentativo (motivo del primo tentativo non riuscito) di accedere all&#39;API.
 
 <table> 
  <thead> 
@@ -158,7 +158,7 @@ Questi messaggi di registro vengono utilizzati per registrare informazioni su pu
 
 ### Errori
 
-Questi messaggi di registro vengono utilizzati per registrare informazioni sulle condizioni di errore impreviste, che possono causare il fallimento dell'attività del flusso di lavoro.
+Questi messaggi di registro vengono utilizzati per registrare informazioni sulle condizioni di errore impreviste, che possono causare il fallimento dell&#39;attività del flusso di lavoro.
 
 <table> 
  <thead> 
