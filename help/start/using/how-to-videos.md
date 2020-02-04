@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ Scopri le funzionalità chiave guardando i nostri video [dimostrativi su](https:
 * [Configurazione di un elenco](https://video.tv.adobe.com/v/25288?captions=ita): configura un elenco in Adobe Campaign.
 * [Creazione di un rapporto](https://video.tv.adobe.com/v/25264?captions=ita): crea un rapporto dinamico personalizzato.
 
-Oltre a questi brevi e dettagliati video, potete trovare anche corsi [di](https://training.adobe.com/training/courses.html) formazione e video [di](http://www.adobe.com/training/video.html) presentazione sul nostro sito web.
+Oltre a questi brevi e dettagliati video, potete trovare anche corsi [di](https://training.adobe.com/training/courses.html) formazione e video [di](https://www.adobe.com/training/video.html) presentazione sul nostro sito web.
