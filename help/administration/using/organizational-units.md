@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 Ogni oggetto e utente della piattaforma è collegato a un&#39;unità organizzativa. Questa unità consente di definire una struttura gerarchica per fornire agli utenti una visualizzazione filtrata. L&#39;unità di un utente definisce il livello di accesso per i diversi oggetti piattaforma.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Se un utente non è collegato ad alcuna unità, non sarà in grado di connettersi ad Adobe Campaign. Se si desidera limitare l&#39;accesso a un utente o a un gruppo specifico di utenti, non collegarlo all&#39; **[!UICONTROL All]**unità.
 >
@@ -103,7 +103,7 @@ Per impostazione predefinita, i campi dell’unità organizzativa non sono dispo
 
 Gli utenti non possono accedere ai profili senza unità organizzative.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >È consigliabile aggiungere questa opzione prima di importare qualsiasi profilo. Se avete già importato il database dei clienti, è necessario un aggiornamento per impostare i valori delle unità organizzative sui profili già importati.
 
