@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,7 +47,7 @@ Nella guida Utilizzo delle API sono state aggiunte informazioni sul parametro ne
 
 È disponibile una nuova sezione che descrive gli avvisi che possono essere visualizzati in una dashboard dei messaggi. [Leggi tutto](../../channels/using/message-dashboard.md#warnings)
 
-È ora disponibile la documentazione MTA avanzata di Adobe Campaign. [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+È ora disponibile la documentazione MTA avanzata di Adobe Campaign, che descrive l&#39;infrastruttura di invio aggiornata per migliorare la recapito, il throughput e la gestione dei bounce. [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 Sono state aggiunte note per indicare che gli URL del server dell&#39;applicazione e del server delle pagine mirror devono essere protetti affinché la pagina di destinazione e le anteprime delle pagine mirror vengano visualizzate dall&#39;interfaccia utente di Campaign. [Leggi tutto](../../administration/using/branding.md#configuring-and-using-brands)
 
