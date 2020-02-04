@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -26,11 +26,11 @@ Le pagine di destinazione vengono create come qualsiasi attività [di](../../sta
 
 Durante la progettazione di una pagina di destinazione, è necessario definire il contenuto della pagina stessa, la pagina di conferma e la pagina di errore. Utilizzate lo switcher sotto la barra delle azioni per visualizzare e configurare ciascuna di queste pagine.
 
-Il contenuto delle pagine di destinazione è progettato tramite l'editor di contenuti di Campaign.
+Il contenuto delle pagine di destinazione è progettato tramite l&#39;editor di contenuti di Campaign.
 
 >[!NOTE]
 >
->Se l'istanza è stata installata prima della release di Adobe Campaign Standard 19.0, potete comunque accedere all'editor dei contenuti dell'e-mail legacy. L’interfaccia, i principi di utilizzo e configurazione sono principalmente gli stessi descritti di seguito per le pagine di destinazione. Tuttavia, tutte le funzioni potrebbero non essere disponibili o mantenute nell’editor dei contenuti e-mail legacy, che è diventato obsoleto a partire dalla versione 19.0. Per modificare rapidamente il contenuto delle e-mail mediante un'interfaccia a trascinamento con funzioni estese, utilizzare [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+>Se l&#39;istanza è stata installata prima della release di Adobe Campaign Standard 19.0, potete comunque accedere all&#39;editor dei contenuti dell&#39;e-mail legacy. L’interfaccia, i principi di utilizzo e configurazione sono principalmente gli stessi descritti di seguito per le pagine di destinazione. Tuttavia, tutte le funzioni potrebbero non essere disponibili o mantenute nell’editor dei contenuti e-mail legacy, che è diventato obsoleto a partire dalla versione 19.0. Per modificare rapidamente il contenuto delle e-mail mediante un&#39;interfaccia a trascinamento con funzioni estese, utilizzare [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Questa pagina descrive le specificità dell’editor dei contenuti della pagina di destinazione. Per ulteriori informazioni sulle azioni comuni a una o più attività di marketing, consulta queste sezioni dalla guida **Progettazione del contenuto** delle e-mail:
 
@@ -41,21 +41,21 @@ Questa pagina descrive le specificità dell’editor dei contenuti della pagina 
 * [Best practice generali per la progettazione](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)dei contenuti.
 
 >[!NOTE]
->Se la pagina di destinazione è già predefinita in formato HTML, potete importarla direttamente utilizzando il **[!UICONTROL Change content]** pulsante.
+>Se la pagina di destinazione è già predefinita in formato HTML, potete importarla direttamente utilizzando il **[!UICONTROL Change content]**pulsante.
 >
->Prima di importare una pagina HTML in Adobe Campaign, accertatevi che si apra e venga visualizzata correttamente nei vari browser. Se la pagina HTML contiene script JavaScript, questi devono essere eseguiti senza errori all'esterno dell'editor. In generale, evitare di utilizzare gli script nel contenuto dei messaggi per essere certi che vengano elaborati correttamente dai client e-mail.
+>Prima di importare una pagina HTML in Adobe Campaign, accertatevi che si apra e venga visualizzata correttamente nei vari browser. Se la pagina HTML contiene script JavaScript, questi devono essere eseguiti senza errori all&#39;esterno dell&#39;editor. In generale, evitare di utilizzare gli script nel contenuto dei messaggi per essere certi che vengano elaborati correttamente dai client e-mail.
 
-## Interfaccia dell'editor del contenuto della pagina di destinazione{#landing-page-content-editor-interface}
+## Interfaccia dell&#39;editor del contenuto della pagina di destinazione{#landing-page-content-editor-interface}
 
-L'editor del contenuto della pagina di destinazione consente di definire, modificare e personalizzare facilmente il contenuto in Adobe Campaign. Per accedervi, fate clic sul **[!UICONTROL Content]** blocco in una dashboard della pagina di destinazione.
+L&#39;editor del contenuto della pagina di destinazione consente di definire, modificare e personalizzare facilmente il contenuto in Adobe Campaign. Per accedervi, fate clic sul **[!UICONTROL Content]**blocco in una dashboard della pagina di destinazione.
 
-L'editor dei contenuti è organizzato in tre diverse sezioni. Queste sezioni consentono di visualizzare e modificare il contenuto.
+L&#39;editor dei contenuti è organizzato in tre diverse sezioni. Queste sezioni consentono di visualizzare e modificare il contenuto.
 
 ![](assets/des_lp_content_8.png)
 
 1. La **palette** a sinistra dello schermo consente di modificare le opzioni generali collegate a un blocco selezionato. Le opzioni che è possibile modificare sono: colore di sfondo, bordo, allineamento del testo, condizione di visibilità, ecc. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field)di personalizzazione.
 1. La barra **delle** azioni contiene le opzioni generali per la pagina. Potete selezionare un modello e modificare la modalità di visualizzazione.
-1. La zona **di** modifica principale consente di interagire direttamente con il contenuto tramite la barra degli strumenti contestuale: inserire un collegamento in un'immagine, modificare il font, eliminare un campo e così via.
+1. La zona **di** modifica principale consente di interagire direttamente con il contenuto tramite la barra degli strumenti contestuale: inserire un collegamento in un&#39;immagine, modificare il font, eliminare un campo e così via.
 
 La barra **delle** azioni contiene diversi pulsanti che consentono di interagire con il contenuto in fase di creazione.
 
@@ -135,13 +135,13 @@ La **barra degli strumenti** è un elemento contestuale dell’interfaccia dell�
    <td> Consente di accedere a una pagina di destinazione di Adobe Campaign. I dettagli sulla configurazione di un collegamento sono riportati nella sezione <a href="../../designing/using/links.md#inserting-a-link">Inserimento di un collegamento</a> .<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Collegamento</span> iscrizione <br /> </td> 
    <td> Qualsiasi elemento<br /> </td> 
    <td> Consente di inserire un collegamento di iscrizione al servizio. I dettagli sulla configurazione di un collegamento sono riportati nella sezione <a href="../../designing/using/links.md#inserting-a-link">Inserimento di un collegamento</a> .<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Collegamento</span> di annullamento sottoscrizione <br /> </td> 
    <td> Qualsiasi elemento<br /> </td> 
    <td> Consente di inserire un collegamento per l’annullamento dell’iscrizione di un servizio. I dettagli sulla configurazione di un collegamento sono riportati nella sezione <a href="../../designing/using/links.md#inserting-a-link">Inserimento di un collegamento</a> .<br /> </td> 
@@ -162,7 +162,7 @@ La **barra degli strumenti** è un elemento contestuale dell’interfaccia dell�
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Inserire un blocco</span> di contenuto <br /> </td> 
    <td> Elemento testo<br /> </td> 
-   <td> Consente di aggiungere al contenuto un blocco di personalizzazione. Fare riferimento a <a href="../../designing/using/personalization.md#adding-a-content-block">Aggiunta di un blocco</a>di contenuto.<br /> </td> 
+   <td> Consente di aggiungere un blocco di personalizzazione al contenuto. Fare riferimento a <a href="../../designing/using/personalization.md#adding-a-content-block">Aggiunta di un blocco</a>di contenuto.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
@@ -243,13 +243,13 @@ La **barra degli strumenti** è un elemento contestuale dell’interfaccia dell�
 
 ### Gestione dei blocchi nell’editor dei contenuti {#managing-blocks-in-the-content-editor}
 
-I diversi elementi di contenuto HTML vengono visualizzati nella pagina di destinazione come blocchi, corrispondenti al tag **&lt;div&gt;** **&lt;/div&gt;** . Selezionare un blocco per interagire con esso. Sarà quindi circondata da una scatola blu.
+I diversi elementi di contenuto HTML vengono visualizzati nella pagina di destinazione come blocchi, corrispondenti al tag **&lt;div>** **&lt;/div>** . Selezionare un blocco per interagire con esso. Sarà quindi circondata da una scatola blu.
 
 ![](assets/des_lp_content_1.png)
 
-Se è selezionato un blocco, gli oggetti principali dell'elemento HTML corrispondente verranno visualizzati in una breadcrumb situata nella parte inferiore della zona di modifica.
+Se è selezionato un blocco, gli oggetti principali dell&#39;elemento HTML corrispondente verranno visualizzati in una breadcrumb situata nella parte inferiore della zona di modifica.
 
-Quando il mouse passa sopra uno degli elementi di breadcrumb, l'elemento interessato viene evidenziato. È quindi possibile spostarsi facilmente tra i diversi blocchi e selezionare esattamente l'elemento HTML da modificare.
+Quando il mouse passa sopra uno degli elementi di breadcrumb, l&#39;elemento interessato viene evidenziato. È quindi possibile spostarsi facilmente tra i diversi blocchi e selezionare esattamente l&#39;elemento HTML da modificare.
 
 ![](assets/des_lp_content_2.png)
 
@@ -263,7 +263,7 @@ Parametri definiti per un elemento in un blocco (collegamenti, campi di personal
 
 ![](assets/des_lp_content_4.png)
 
-### Aggiunta di un bordo e uno sfondo nell'editor contenuti {#adding-a-border-and-a-background-in-the-content-editor}
+### Aggiunta di un bordo e uno sfondo nell&#39;editor contenuti {#adding-a-border-and-a-background-in-the-content-editor}
 
 È inoltre possibile definire un colore **di** sfondo selezionando un colore dal grafico. Questo colore viene applicato al blocco selezionato.
 
@@ -275,26 +275,26 @@ Parametri definiti per un elemento in un blocco (collegamenti, campi di personal
 
 ### Modifica dello stile del testo nell’editor del contenuto {#changing-the-text-style-in-the-content-editor}
 
-Per modificare lo stile del testo, è necessario fare clic all'interno di un blocco di testo.
+Per modificare lo stile del testo, è necessario fare clic all&#39;interno di un blocco di testo.
 
-Per modificare l'allineamento del testo, selezionare una delle tre icone seguenti nella palette a sinistra:
+Per modificare l&#39;allineamento del testo, selezionare una delle tre icone seguenti nella palette a sinistra:
 
 ![](assets/des_lp_content_7.png)
 
-* **Allinea a sinistra**: allinea il testo a sinistra del blocco selezionato (aggiunge stile="text-align: left;").
-* **Centro**: centra il testo nel blocco selezionato (aggiunge stile="text-align: center;").
-* **Allinea a destra**: allinea il testo a destra del blocco selezionato (aggiunge stile="text-align: right;").
+* **Allinea a sinistra**: allinea il testo a sinistra del blocco selezionato (aggiunge stile=&quot;text-align: left;&quot;).
+* **Centro**: centra il testo nel blocco selezionato (aggiunge stile=&quot;text-align: center;&quot;).
+* **Allinea a destra**: allinea il testo a destra del blocco selezionato (aggiunge stile=&quot;text-align: right;&quot;).
 
 È inoltre possibile utilizzare la barra degli strumenti per modificare gli attributi del font: adattare le dimensioni del font, rendere il testo in grassetto o corsivo, sottolineare o modificare il colore del testo. Fare riferimento a [questa sezione](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
 ### Inserimento di immagini in una pagina di destinazione {#inserting-images-in-a-landing-page}
 
 1. Nel contenuto di una pagina di destinazione, selezionate un blocco contenente un’immagine.
-1. Selezionare il **[!UICONTROL Insert]** pulsante.
+1. Selezionare il **[!UICONTROL Insert]**pulsante.
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. Scegliere **[!UICONTROL Local image]** dalla barra degli strumenti contestuale.
+1. Scegliere **[!UICONTROL Local image]**dalla barra degli strumenti contestuale.
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -312,7 +312,7 @@ Per definire il contenuto dinamico in una pagina di destinazione, selezionate un
 
 ![](assets/dynamic_content_lp_1.png)
 
-Alcuni blocchi, come le immagini, non possono essere selezionati direttamente. In questo caso, selezionare il blocco principale utilizzando la breadcrumb. Potete quindi modificare tutti gli elementi inclusi in questo elemento padre, incluse le immagini. La condizione verrà applicata a tutti gli elementi secondari all'interno del blocco principale.
+Alcuni blocchi, come le immagini, non possono essere selezionati direttamente. In questo caso, selezionare il blocco principale utilizzando la breadcrumb. Potete quindi modificare tutti gli elementi inclusi in questo elemento padre, incluse le immagini. La condizione verrà applicata a tutti gli elementi secondari all&#39;interno del blocco principale.
 
 La breadcrumb viene presentata nella sezione [Gestione dei blocchi](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style) .
 
@@ -320,7 +320,7 @@ I passaggi successivi per definire il contenuto dinamico in una pagina di destin
 
 >[!NOTE]
 >
->Se un elemento variante è evidenziato in rosso, significa che non è ancora stata definita un'espressione.
+>Se un elemento variante è evidenziato in rosso, significa che non è ancora stata definita un&#39;espressione.
 
 È possibile spostarsi tra i diversi contenuti dinamici di un blocco. Per eseguire questa operazione:
 
@@ -332,18 +332,18 @@ I passaggi successivi per definire il contenuto dinamico in una pagina di destin
 
    ![](assets/dynamic_content_lp_2.png)
 
-   Le frecce su ciascun lato si attenuano a seconda che sia stato raggiunto l'ultimo o il primo contenuto dinamico disponibile.
+   Le frecce su ciascun lato si attenuano a seconda che sia stato raggiunto l&#39;ultimo o il primo contenuto dinamico disponibile.
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. Per eliminare tutte le condizioni applicate a un blocco, selezionarlo e fare clic sull' **[!UICONTROL Disable dynamic content]** icona.
+1. Per eliminare tutte le condizioni applicate a un blocco, selezionarlo e fare clic sull&#39; **[!UICONTROL Disable dynamic content]**icona.
 1. Selezionate il contenuto dinamico da mantenere.
 
    ![](assets/dynamic_content_lp_5.png)
 
 Nella palette:
 
-* I contenuti con un'espressione immessa non sono più evidenziati in rosso, ma sono visualizzati in grigio.
+* I contenuti con un&#39;espressione immessa non sono più evidenziati in rosso, ma sono visualizzati in grigio.
 * Il contenuto attualmente selezionato viene visualizzato in blu.
 
 ![](assets/dynamic_content_lp_4.png)
