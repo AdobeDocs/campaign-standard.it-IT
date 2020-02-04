@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 >
 >Il servizio Destinazioni audience è attualmente in versione beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta l&#39;Assistenza clienti Adobe.
 
-Consentono di migliorare le esperienze dei clienti sfruttando [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP) per creare audience altamente mirate basate su set di dati grandi e complessi. Adobe Experience Platform riunisce i dati di profilo, comportamentali e a più entità tra le origini online e offline, incluso Adobe Analytics, per aiutarti a creare una vista a 360° del cliente, consentendoti di gestire efficacemente le esperienze dei clienti.
+Consentono di migliorare le esperienze dei clienti sfruttando [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP) per creare audience altamente mirate basate su set di dati grandi e complessi. Adobe Experience Platform riunisce i dati di profilo, comportamentali e a più entità tra le origini online e offline, incluso Adobe Analytics, per aiutarti a creare una vista a 360 gradi del cliente, consentendoti di gestire efficacemente le esperienze dei clienti.
 
 Adobe Campaign Standard utilizzerà quindi il servizio Destinazioni **** audience per recuperare una raccolta di profili, noti come **Audience**, da AEP per i programmi di campagna con più passaggi e/o tra canali.
 
