@@ -1,5 +1,5 @@
 ---
-title: Creazione di un modello multilingue
+title: Modelli per messaggi multilingue
 description: Scopri come definire ed eseguire le consegne di e-mail/SMS in più lingue attraverso un'unica distribuzione basata sulla lingua preferita dei clienti segmentati automaticamente. Report sulle prestazioni di ogni distribuzione fino al livello della lingua e dei singoli livelli.
 page-status-flag: never-activated
 uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
@@ -12,7 +12,7 @@ discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
