@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -329,7 +329,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Integrazione Dreamweaver live<br /> </td> 
-   <td> L'integrazione tra Adobe Campaign e Dreamweaver ora è live. Ora funziona con l'ultima versione ufficiale di Dreamweaver (17.0.2).<br /> Ciò richiede l'installazione dell'estensione Adobe Campaign Integration da qui: <a href="http://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Per ulteriori informazioni, consultate questo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> L'integrazione tra Adobe Campaign e Dreamweaver ora è live. Ora funziona con l'ultima versione ufficiale di Dreamweaver (17.0.2).<br /> Ciò richiede l'installazione dell'estensione Adobe Campaign Integration da qui: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Per ulteriori informazioni, consultate questo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
