@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -52,7 +52,7 @@ Per creare un pubblico Adobe Experience Platform direttamente in Campaign Standa
 
 1. Per creare correttamente un segmento, devi selezionare un criterio **di** unione che corrisponda allo scopo di marketing per questo segmento.
 
-   Nel riquadro delle impostazioni, è selezionato un criterio di unione predefinito per la piattaforma. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida utente di [Segment Builder](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   Nel riquadro delle impostazioni, è selezionato un criterio di unione predefinito per la piattaforma. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida [utente di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment Builder.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
