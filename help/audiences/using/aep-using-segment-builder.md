@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ Il Generatore di segmenti unificato deve ora essere visualizzato nell&#39;area d
 
 1. Accertatevi che nel riquadro delle impostazioni sia selezionato il criterio di unione desiderato.
 
-   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida utente di [Segment Builder](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida [utente di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment Builder.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ Il Generatore di segmenti unificato deve ora essere visualizzato nell&#39;area d
 
 Nel riquadro a sinistra sono elencati tutti gli attributi, gli eventi e le audience disponibili per la creazione di regole.
 
-I campi elencati sono attributi acquisiti dalla società e possono essere resi disponibili tramite il sistema [](https://www.adobe.io/apis/experienceplatform/home/xdm.html)Experience Data Model (XDM).
+I campi elencati sono attributi acquisiti dalla società e resi disponibili tramite il sistema [](https://www.adobe.io/apis/experienceplatform/home/xdm.html)Experience Data Model (XDM).
 
 I campi sono organizzati in schede:
 
@@ -138,7 +138,7 @@ A questo scopo, effettuate le seguenti operazioni:
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. Configurare l&#39;operatore tra i due campi come desiderato. In questo esempio, il nostro segmento richiede che il codice postale dell&#39;indirizzo principale non sia uguale all&#39;indirizzo di lavoro uno.
+1. Configurare l&#39;operatore tra i due campi come desiderato. In questo esempio, desideriamo che il nostro segmento si rivolga ai profili con l&#39;indirizzo di casa diverso dall&#39;indirizzo di lavoro.
 
    ![](assets/aep_audiences_comparing_3.png)
 
