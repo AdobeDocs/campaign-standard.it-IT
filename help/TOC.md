@@ -292,7 +292,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Retargeting di non-openers](automating/using/workflow-cross-channel-retargeting.md)
       + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
       + [Creazione di recapito messaggi cross-channel](automating/using/workflow-cross-channel-delivery.md)
-   + Utilizzo dei tipi di pubblico di Adobe Experience Platform {working with-aep-audience}
+   + Utilizzo dei tipi di pubblico di Adobe Experience Platform {#working-with-aep-audiences}
       + [Targeting dei tipi di pubblico di Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Sviluppo {#developing}
