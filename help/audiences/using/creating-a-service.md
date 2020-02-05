@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
+source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
 
 ---
 
@@ -36,7 +36,7 @@ Per configurare un servizio:
 
    ![](assets/lp_service_expiration.png)
 
-Puoi utilizzare la data di scadenza in un&#39;attività di segmentazione per eseguire il targeting dei profili sottoscritti per un servizio non scaduto.
+   Puoi utilizzare la data di scadenza in un&#39;attività di segmentazione per eseguire il targeting dei profili sottoscritti per un servizio non scaduto.
 
 1. Compila il **[!UICONTROL Service label]**campo. L&#39;etichetta del servizio è obbligatoria quando si utilizza un messaggio di conferma personalizzato.
 
