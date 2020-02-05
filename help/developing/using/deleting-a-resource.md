@@ -51,7 +51,7 @@ Per ridisegnare ed eliminare una risorsa pubblicata:
 
    La risorsa passa quindi alla modalità **Bozza** e il suo stato di attivazione è **[!UICONTROL Inactive]**.
 
-1. In **[!UICONTROL List]**modalità selezionare la risorsa da eliminare, quindi fare clic sull’![](assets/delete_darkgrey-24px.png)icona**[!UICONTROL Delete element]** .
+1. In **[!UICONTROL List]** modalità selezionare la risorsa da eliminare, quindi fare clic sull’![](assets/delete_darkgrey-24px.png)icona **[!UICONTROL Delete element]** .
 
    ![](assets/schema_extension_uc28.png)
 
