@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -84,7 +84,7 @@ I campi sono organizzati in schede:
 >
 >Per ulteriori informazioni, consulta la documentazione [](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)dedicata.
 
-Per impostazione predefinita, il generatore di segmenti unificati visualizza i campi per i quali sono presenti dati. Per visualizzare lo schema completo, compresi i campi per i quali i dati non sono presenti, attivare l&#39; **[!UICONTROL Show full XDM schema]**opzione dalle impostazioni.
+Per impostazione predefinita, il generatore di segmenti unificati visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, compresi i campi per i quali i dati non sono presenti, attivare l&#39; **[!UICONTROL Show full XDM schema]**opzione dalle impostazioni.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -116,7 +116,7 @@ Per creare una regola, effettuate le seguenti operazioni:
 
    Potete aggiungere tutte le regole aggiuntive necessarie per eseguire il targeting dei profili appropriati.
 
-   Quando si aggiunge una regola a un contenitore, questa viene aggiunta a tutte le regole esistenti con l&#39;operatore AND. Fare clic sull&#39;operatore per accedere all&#39;opzione per modificarla in OR.
+   Quando si aggiunge una regola a un contenitore, questa viene aggiunta a tutte le regole esistenti con l&#39;operatore logico AND. Se necessario, fare clic sull&#39;operatore logico per modificarlo.
 
    ![](assets/aep_audiences_andoperator.png)
 
