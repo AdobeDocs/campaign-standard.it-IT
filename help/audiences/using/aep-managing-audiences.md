@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ## Accesso ai tipi di pubblico di Adobe Experience Platform
 
-Per accedere al generatore di segmenti di Adobe Experience Platform, andate alla **[!UICONTROL Audiences]**scheda nella home page di Campaign Standard (o al**[!UICONTROL Audiences]** collegamento nell&#39;intestazione), quindi selezionate l&#39; **[!UICONTROL Adobe Experience Platform]**opzione.
+Per accedere al generatore di segmenti di Adobe Experience Platform, andate alla **[!UICONTROL Audiences]**scheda nella home page di Campaign Standard (o al**[!UICONTROL Audiences]** collegamento nell&#39;intestazione), quindi selezionate l&#39; **[!UICONTROL Adobe Experience Platform]**ambiente.
 
 ![](assets/aep_audiences_access.png)
 
-Verrai indirizzato prima alla pagina dell’elenco dei segmenti di Adobe Experience Platform, alla quale, se necessario, è possibile accedere ai segmenti di Adobe Experience Platform già esistenti per ulteriori modifiche.
+Verrai indirizzato prima alla pagina dell’elenco dei segmenti di Adobe Experience Platform, alla quale è possibile accedere ai segmenti di Adobe Experience Platform già esistenti per un’ulteriore modifica.
 
 Sono disponibili una barra di ricerca e un filtro per individuare il segmento desiderato della piattaforma Adobe Experience.
 
