@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -28,11 +28,11 @@ Consentono di migliorare le esperienze dei clienti sfruttando [Adobe Experience 
 
 Adobe Campaign Standard utilizzerà quindi il servizio Destinazioni **** audience per recuperare una raccolta di profili, noti come **Audience**, da AEP per i programmi di campagna con più passaggi e/o tra canali.
 
-**Le audience** vengono create dai primi **segmenti** di creazione, che sono essenzialmente un insieme di regole basate praticamente su qualsiasi variabile (ad esempio, profilo, evento, dati multi-entità) all&#39;interno di un profilo cliente da AEP per creare un target multidimensionale. In [questi documenti](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicati è possibile fare riferimento ai concetti globali relativi a Unified Profile &amp; Segmentation Services.
+**Le audience** vengono create dai primi **segmenti** di creazione, che sono essenzialmente un insieme di regole basate praticamente su qualsiasi variabile (ad esempio, profilo, evento, dati multi-entità) all&#39;interno di un profilo cliente da AEP per creare un target multidimensionale. In [questi documenti](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicati si fa riferimento ai concetti globali relativi a Unified Profile &amp; Segmentation Services.
 
-Dopo aver creato un segmento, puoi attivarlo come pubblico per una distribuzione nei flussi di lavoro [](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Inoltre, puoi utilizzare i dati contestuali di Adobe Experience Platform per [personalizzare](../../automating/using/aep-personalizing-campaigns.md) e aggiungere contenuti dinamici alle campagne, se necessario.
+Dopo aver creato un segmento, puoi attivarlo come pubblico per una distribuzione nei flussi di lavoro [](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Inoltre, puoi utilizzare i dati contestuali di Adobe Experience Platform per [personalizzare](../../automating/using/aep-personalizing-campaigns.md) e aggiungere contenuti dinamici alle campagne.
 
-I video dimostrativi sono disponibili anche in [questa sezione](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+In [questa sezione](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)sono disponibili anche i video introduttivi.
 
 Termini utilizzati in queste sezioni:
 
