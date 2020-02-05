@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
+source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector è ora integrato con Adobe Campaign Standard. Puoi rendere disponibili i dati della tua campagna su Adobe Experience Platform mappando i dati XTK (i dati acquisiti in Campaign) su Adobe Experience Platform Data Model (XDM). </p>
-    <p>Questa funzionalità è disponibile solo per i clienti ospitati in Azure. Per ulteriori informazioni su questa funzionalità e condizioni per attivarla, consulta la documentazione <a href="../../administration/using/aep-about-data-connector.md"></a>dettagliata.</p>
+    <p>Questa funzionalità è disponibile solo per i clienti ospitati in Azure. Per ulteriori informazioni su questa funzionalità e sulle condizioni di attivazione, consulta la documentazione <a href="../../administration/using/aep-about-data-connector.md"></a> dettagliata e il <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video</a>sulle procedure.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Destinazioni audience consente di condividere segmenti da Adobe Experience Platform ad Adobe Campaign.</p>
-    <p>Questa funzionalità è disponibile solo per i clienti ospitati in Azure. Per ulteriori informazioni su questa funzionalità e condizioni per attivarla, consulta la documentazione <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a>dettagliata.</p>
+    <p>Questa funzionalità è disponibile solo per i clienti ospitati in Azure. Per ulteriori informazioni su questa funzionalità e sulle condizioni di attivazione, consulta la documentazione <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a> dettagliata e il <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">video</a>sulle procedure. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,6 +87,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 **Patch**
 
+* È stato risolto un problema che impediva l&#39;eliminazione dei dati utente nei registri di esclusione durante l&#39;esecuzione di una richiesta di eliminazione della privacy. (CAMP-39003)
 * È stato risolto un problema che causava problemi di accessibilità durante il ridimensionamento del testo in un elemento contenitore.
 * È stato risolto un problema che impediva agli utenti di ignorare la finestra a comparsa Calendario visualizzata al passaggio del mouse nelle attività di marketing.
 * È stato risolto un problema nell&#39; **[!UICONTROL External API]**attività che visualizzava il**[!UICONTROL Confirm]** pulsante anche quando non venivano modificati dati.
