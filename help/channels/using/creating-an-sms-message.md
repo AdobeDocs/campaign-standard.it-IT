@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -26,7 +26,7 @@ I parametri SMS avanzati sono descritti in dettaglio nella sezione relativa alla
 
 Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
-* Account **[!UICONTROL Routing]**esterno configurato sul**[!UICONTROL Mobile (SMS)]** canale con la **[!UICONTROL Bulk delivery]**modalità. Per ulteriori informazioni, vedere la sezione[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* Account **[!UICONTROL Routing]** esterno configurato sul **[!UICONTROL Mobile (SMS)]** canale con la **[!UICONTROL Bulk delivery]** modalità. Per ulteriori informazioni, vedere la sezione [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
 * Un modello di consegna correttamente collegato a questo account esterno.
 
 1. Creare una consegna SMS. Puoi farlo dalla [home page](../../start/using/interface-description.md#home-page)di Adobe Campaign, in una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity) o nell&#39;elenco [delle attività di](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketing.
@@ -51,7 +51,7 @@ Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
    ![](assets/sms_creation_3.png)
 
-1. Aggiungi contenuto al tuo SMS. Potete anche definire il contenuto facendo clic sulla **[!UICONTROL Content]**sezione del dashboard di distribuzione, una volta completata la creazione di SMS. Consultate[La progettazione](../../channels/using/about-sms-and-push-content-design.md)di contenuti SMS.
+1. Aggiungi contenuto al tuo SMS. Potete anche definire il contenuto facendo clic sulla **[!UICONTROL Content]** sezione del dashboard di distribuzione, una volta completata la creazione di SMS. Consultate [La progettazione](../../channels/using/about-sms-and-push-content-design.md)di contenuti SMS.
 
    Se hai inserito campi di personalizzazione o testo condizionale nel contenuto del messaggio SMS, la lunghezza del messaggio può variare da un destinatario all&#39;altro. infatti, questi fattori possono introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Questo è il motivo per cui la lunghezza del messaggio deve essere valutata una volta effettuata la personalizzazione. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -67,7 +67,7 @@ Per creare e inviare messaggi SMS a un cellulare, è necessario:
    >
    >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
 
-1. Inviare prove per controllare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere la sezione [Invio della prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) .
+1. Inviare prove per controllare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere la sezione [Invio della prova](../../sending/using/sending-proofs.md) .
 1. Conferma l’invio del messaggio. L&#39;invio avrà inizio di conseguenza rispetto alla pianificazione definita.
 
    ![](assets/sms_creation_7.png)
