@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -38,7 +38,7 @@ Il principio principale di configurazione e utilizzo dei marchi è:
 >
 >I marchi non possono essere creati o modificati dagli utenti finali: queste operazioni devono essere eseguite dall&#39;amministratore tecnico di Adobe Campaign. Per qualsiasi richiesta, contatta l&#39;Assistenza clienti Adobe. Il multi-branding non può essere utilizzato nel contesto dei messaggi transazionali. Per ulteriori informazioni, consulta Messaggi [transazionali e branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-I marchi si trovano nel **[!UICONTROL Administration > Instance settings > Brand configuration]**menu.
+I marchi si trovano nel **[!UICONTROL Administration > Instance settings > Brand configuration]** menu.
 
 Per impostazione predefinita, un marchio appena creato è visibile solo agli utenti ai quali l&#39;amministratore ha assegnato i diritti corrispondenti.
 
@@ -53,7 +53,7 @@ Un **marchio** è definito dalle seguenti caratteristiche:
    * **URL** del sito Web ed etichetta **del** sito Web del marchio
    * **Logo marchio**
 
-* **[!UICONTROL Header parameters of sent emails]**che personalizza i contenuti visualizzati dai destinatari delle campagne. Questa sezione contiene i campi seguenti:
+* **[!UICONTROL Header parameters of sent emails]** che personalizza i contenuti visualizzati dai destinatari delle campagne. Questa sezione contiene i campi seguenti:
 
    ![](assets/branding_04_header.png)
 
@@ -75,7 +75,7 @@ Un **marchio** è definito dalle seguenti caratteristiche:
    * **URL esterno del server** delle pagine mirror utilizzato come pagina mirror predefinita nelle distribuzioni.
    >[!NOTE]
    >
-   >Se gli URL del server dell&#39;applicazione e del server delle pagine mirror non sono protetti (ovvero se non si inizia con https://), l&#39;anteprima della pagina di destinazione e il rendering della pagina mirror non possono essere visualizzati dall&#39;interfaccia utente di Campaign.
+   >Per visualizzare l&#39;anteprima della pagina di destinazione e il rendering della pagina mirror nell&#39;interfaccia utente di Campaign, è necessario proteggere gli URL del server dell&#39;applicazione e del server delle pagine mirror. In tal caso, per configurare questi URL utilizzate https:// anziché http://.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, che definisce la configurazione del tracciamento degli URL per il marchio.
 
@@ -95,7 +95,7 @@ Per utilizzare i parametri definiti per un marchio, deve essere collegato a un m
 
 Una volta creato il modello, potete collegarlo a un marchio. Per eseguire questa operazione:
 
-1. Fate clic sul **[!UICONTROL Edit properties]**pulsante per accedere alle proprietà del modello.
+1. Fate clic sul **[!UICONTROL Edit properties]** pulsante per accedere alle proprietà del modello.
 
    ![](assets/branding_04.png)
 
@@ -103,11 +103,11 @@ Una volta creato il modello, potete collegarlo a un marchio. Per eseguire questa
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, l’opzione **[!UICONTROL Default brand (branding)]**è selezionata.
+   >Per impostazione predefinita, l’opzione **[!UICONTROL Default brand (branding)]** è selezionata.
 
    ![](assets/branding_05.png)
 
-   Per visualizzare la configurazione del marchio selezionato, fai clic sull’ **[!UICONTROL Navigate to the detail of the element selected]**icona .
+   Per visualizzare la configurazione del marchio selezionato, fai clic sull’ **[!UICONTROL Navigate to the detail of the element selected]** icona .
 
    ![](assets/branding_06.png)
 
@@ -125,7 +125,7 @@ In questo esempio, creeremo un nuovo marchio correlato ai viaggi e lo useremo in
 >
 >La configurazione del marchio è gestita da Adobe solo perché richiede autorizzazioni specifiche e impostazioni tecniche.
 
-1. L&#39;amministratore di Adobe Campaign crea il marchio in **[!UICONTROL Administration > Instance settings > Brand configuration]**. Aggiunge le** Vacanze nell&#39;elemento Tropici **dal menu avanzato e configura il**[!UICONTROL ID]** e il **[!UICONTROL Header parameters of sent emails]**marchio.
+1. L&#39;amministratore di Adobe Campaign crea il marchio in **[!UICONTROL Administration > Instance settings > Brand configuration]**. Aggiunge le **Vacanze nell&#39;elemento Tropici** dal menu avanzato e configura il **[!UICONTROL ID]** e il **[!UICONTROL Header parameters of sent emails]** marchio.
 
    ![](assets/branding_07.png)
 
@@ -160,11 +160,11 @@ In qualità di responsabile della distribuzione, hai il compito di creare i mode
 
 Per creare un messaggio e-mail collegato a un marchio, effettuate le seguenti operazioni:
 
-1. Fate clic sul **[!UICONTROL Create]**pulsante dal**[!UICONTROL Marketing activities]** menu.
+1. Fate clic sul **[!UICONTROL Create]** pulsante dal **[!UICONTROL Marketing activities]** menu.
 
    ![](assets/branding_14.png)
 
-1. Selezionate l&#39; **[!UICONTROL Email]**attività, quindi scegliete il modello collegato al nuovo marchio.
+1. Selezionate l&#39; **[!UICONTROL Email]** attività, quindi scegliete il modello collegato al nuovo marchio.
 
    ![](assets/branding_15.png)
 
