@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -30,7 +30,7 @@ Affinché l&#39;evento attivi l&#39;invio di un messaggio transazionale, è nece
 
 >[!NOTE]
 >
->Per accedere ai messaggi transazionali, devi far parte del gruppo di **[!UICONTROL Administrators (all units)]**sicurezza.
+>Per accedere ai messaggi transazionali, devi far parte del gruppo di **[!UICONTROL Administrators (all units)]** sicurezza.
 >
 >I messaggi relativi alle transazioni di eventi non contengono informazioni sul profilo, pertanto non sono compatibili con le regole di affaticamento (anche nel caso di un arricchimento con i profili). Consultate [Regole](../../administration/using/fatigue-rules.md#choosing-the-channel)di fatica.
 
@@ -40,7 +40,7 @@ Definite un profilo di test adattato, che vi consentirà di visualizzare l&#39;a
 
 ### Creazione di un profilo di test all&#39;interno del messaggio transazionale {#creating-a-test-profile-within-the-transactional-----------message}
 
-1. Per accedere al messaggio creato, fai clic sul **[!UICONTROL Adobe Campaign]**logo, nell’angolo in alto a sinistra, quindi seleziona**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**>**[!UICONTROL Transactional messages]**.
+1. Per accedere al messaggio creato, fai clic sul **[!UICONTROL Adobe Campaign]** logo, nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
@@ -48,7 +48,7 @@ Definite un profilo di test adattato, che vi consentirà di visualizzare l&#39;a
 
    ![](assets/message-center_test-profile.png)
 
-1. Specificate le informazioni da inviare in formato JSON nella **[!UICONTROL Event data used for personalization]**sezione. Questo è il contenuto che verrà utilizzato per visualizzare l&#39;anteprima del messaggio e quando il profilo di test riceve la prova.
+1. Specificate le informazioni da inviare in formato JSON nella **[!UICONTROL Event data used for personalization]** sezione. Questo è il contenuto che verrà utilizzato per visualizzare l&#39;anteprima del messaggio e quando il profilo di test riceve la prova.
 
    ![](assets/message-center_event-data.png)
 
@@ -56,17 +56,17 @@ Definite un profilo di test adattato, che vi consentirà di visualizzare l&#39;a
    >
    >È inoltre possibile inserire le informazioni relative alla tabella del profilo. Consultate [Arricchimento del contenuto](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)dei messaggi transazionali.
 
-1. Dopo la creazione, il profilo di test verrà prespecificato nel messaggio transazionale. Fai clic sul **[!UICONTROL Test profiles]**blocco del messaggio per controllare la destinazione della prova.
+1. Dopo la creazione, il profilo di test verrà prespecificato nel messaggio transazionale. Fai clic sul **[!UICONTROL Test profiles]** blocco del messaggio per controllare la destinazione della prova.
 
    ![](assets/message-center_5.png)
 
 ### Creazione di un profilo di test all&#39;esterno del messaggio transazionale {#creating-a-test-profile-outside-the-transactional-----------message}
 
-Potete anche creare un nuovo profilo di test o usarne uno già esistente nel **[!UICONTROL Test profiles]**menu.
+Potete anche creare un nuovo profilo di test o usarne uno già esistente nel **[!UICONTROL Test profiles]** menu.
 
-1. Fate clic sul **[!UICONTROL Adobe Campaign]**logo, nell’angolo in alto a sinistra, quindi selezionate**[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. Nella **[!UICONTROL Event]**sezione della pagina del profilo di test selezionato, selezionate l’evento appena creato. In questo esempio, selezionare &quot;abbandono carrello (EVTcartAbandonment)&quot;.
-1. Specificate le informazioni da inviare in formato JSON nella casella di **[!UICONTROL Event data]**testo.
+1. Fate clic sul **[!UICONTROL Adobe Campaign]** logo, nell’angolo in alto a sinistra, quindi selezionate **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Nella **[!UICONTROL Event]** sezione della pagina del profilo di test selezionato, selezionate l’evento appena creato. In questo esempio, selezionare &quot;abbandono carrello (EVTcartAbandonment)&quot;.
+1. Specificate le informazioni da inviare in formato JSON nella casella di **[!UICONTROL Event data]** testo.
 
    ![](assets/message-center_3.png)
 
@@ -76,14 +76,14 @@ Ora potete accedere al messaggio creato e selezionare il profilo di test aggiorn
 
 **Argomenti correlati:**
 
-* [Gestione dei profili di test](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md)
 * [Definizione delle audience](../../audiences/using/creating-audiences.md)
 
 ## Personalizzazione di un messaggio transattivo {#personalizing-a-transactional-message}
 
 Per impostare la personalizzazione in un messaggio transazionale, segui i passaggi riportati di seguito:
 
-1. Fai clic sul **[!UICONTROL Content]**blocco per modificare l&#39;oggetto e il contenuto del messaggio. Per questo esempio, selezionate un modello contenente immagini e testo. Per ulteriori informazioni sui modelli di contenuto e-mail, consultate[Progettazione mediante i modelli](../../designing/using/using-reusable-content.md#designing-templates).
+1. Fai clic sul **[!UICONTROL Content]** blocco per modificare l&#39;oggetto e il contenuto del messaggio. Per questo esempio, selezionate un modello contenente immagini e testo. Per ulteriori informazioni sui modelli di contenuto e-mail, consultate [Progettazione mediante i modelli](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
@@ -95,11 +95,11 @@ Per impostare la personalizzazione in un messaggio transazionale, segui i passag
 
 1. In questo esempio, si desidera aggiungere tre campi definiti al momento della [creazione dell&#39;evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): nome, ultimo prodotto consultato, importo totale del carrello. A tal fine, [inserire un campo](../../designing/using/personalization.md#inserting-a-personalization-field) di personalizzazione nel contenuto del messaggio.
 
-1. Passate a tali campi tramite **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Passate a tali campi tramite **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7.png)
 
-1. Per arricchire il contenuto del messaggio, aggiungete i campi selezionandoli dalla tabella con cui avete collegato l’evento. Nel nostro esempio, seleziona il **[!UICONTROL Title (salutation)]**campo nella**[!UICONTROL Profile]** tabella tramite **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Per arricchire il contenuto del messaggio, aggiungete i campi selezionandoli dalla tabella con cui avete collegato l’evento. Nel nostro esempio, seleziona il **[!UICONTROL Title (salutation)]** campo nella **[!UICONTROL Profile]** tabella tramite **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -135,16 +135,16 @@ Potete inoltre guardare un set di video che illustrano i passaggi necessari per 
 
 Prima di poter utilizzare un elenco di prodotti in un messaggio di transazione, è necessario definire a livello di evento l&#39;elenco dei prodotti e i campi per ciascun prodotto dell&#39;elenco da visualizzare. Per ulteriori informazioni, vedere [Definizione delle raccolte](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)di dati.
 
-1. Nel messaggio transazionale, fate clic sul **[!UICONTROL Content]**blocco per modificare il contenuto dell’e-mail.
+1. Nel messaggio transazionale, fate clic sul **[!UICONTROL Content]** blocco per modificare il contenuto dell’e-mail.
 1. Trascinare un componente struttura nell’area di lavoro. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
 
    Ad esempio, selezionate un componente struttura a una colonna e aggiungete un componente testo, un componente immagine e un componente pulsante. Per ulteriori informazioni, vedere [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. Selezionate il componente struttura appena creato e fate clic sull’ **[!UICONTROL Enable product listing]**icona nella barra degli strumenti contestuale.
+1. Selezionate il componente struttura appena creato e fate clic sull’ **[!UICONTROL Enable product listing]** icona nella barra degli strumenti contestuale.
 
    ![](assets/message-center_loop_create.png)
 
-   Il componente struttura viene evidenziato con un fotogramma arancione e le **[!UICONTROL Product listing]**impostazioni vengono visualizzate nella palette a sinistra.
+   Il componente struttura viene evidenziato con un fotogramma arancione e le **[!UICONTROL Product listing]** impostazioni vengono visualizzate nella palette a sinistra.
 
    ![](assets/message-center_loop_palette.png)
 
@@ -154,15 +154,15 @@ Prima di poter utilizzare un elenco di prodotti in un messaggio di transazione, 
    * **[!UICONTROL Column]**: verticalmente, ovvero ciascun elemento accanto all’altro sulla stessa riga.
    >[!NOTE]
    >
-   >L’ **[!UICONTROL Column]**opzione è disponibile solo quando si utilizza un componente struttura a più colonne (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]**e**[!UICONTROL 4:4 column]** ). Quando modificate l’elenco dei prodotti, compilate solo la prima colonna: le altre colonne non saranno prese in considerazione. Per ulteriori informazioni sulla selezione dei componenti struttura, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
+   >L’ **[!UICONTROL Column]** opzione è disponibile solo quando si utilizza un componente struttura a più colonne ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** e **[!UICONTROL 4:4 column]** ). Quando modificate l’elenco dei prodotti, compilate solo la prima colonna: le altre colonne non saranno prese in considerazione. Per ulteriori informazioni sulla selezione dei componenti struttura, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
 
-1. Selezionare la raccolta dati creata durante la configurazione dell&#39;evento correlato al messaggio di transazione. Potete trovarlo in **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**nodo.
+1. Selezionare la raccolta dati creata durante la configurazione dell&#39;evento correlato al messaggio di transazione. Potete trovarlo in **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** nodo.
 
    ![](assets/message-center_loop_selection.png)
 
    Per ulteriori informazioni sulla configurazione dell&#39;evento, consultate [Definizione delle raccolte](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)di dati.
 
-1. Utilizzate l&#39;elenco a **[!UICONTROL First item]**discesa per selezionare l&#39;elemento che avvierà l&#39;elenco visualizzato nel messaggio e-mail.
+1. Utilizzate l&#39;elenco a **[!UICONTROL First item]** discesa per selezionare l&#39;elemento che avvierà l&#39;elenco visualizzato nel messaggio e-mail.
 
    Ad esempio, se selezionate 2, il primo elemento della raccolta non verrà visualizzato nell&#39;e-mail. L&#39;elenco dei prodotti inizierà sul secondo elemento.
 
@@ -170,7 +170,7 @@ Prima di poter utilizzare un elenco di prodotti in un messaggio di transazione, 
 
    >[!NOTE]
    >
-   >Se desiderate che gli elementi dell’elenco siano visualizzati in verticale ( **[!UICONTROL Column]**), il numero massimo di elementi è limitato in base al componente struttura selezionato (2, 3 o 4 colonne). Per ulteriori informazioni sulla selezione dei componenti struttura, consultate[Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
+   >Se desiderate che gli elementi dell’elenco siano visualizzati in verticale ( **[!UICONTROL Column]** ), il numero massimo di elementi è limitato in base al componente struttura selezionato (2, 3 o 4 colonne). Per ulteriori informazioni sulla selezione dei componenti struttura, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
 
 ### Compilazione dell&#39;elenco dei prodotti {#populating-the-product-listing}
 
@@ -178,36 +178,36 @@ Per visualizzare un elenco dei prodotti provenienti dall&#39;evento collegato al
 
 Per ulteriori informazioni sulla creazione di una raccolta e campi correlati durante la configurazione dell&#39;evento, vedere [Definizione delle raccolte](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)di dati.
 
-1. Selezionate il componente immagine inserito, selezionate **[!UICONTROL Enable personalization]**e fate clic sulla matita nel riquadro Impostazioni.
+1. Selezionate il componente immagine inserito, selezionate **[!UICONTROL Enable personalization]** e fate clic sulla matita nel riquadro Impostazioni.
 
    ![](assets/message-center_loop_image.png)
 
-1. Selezionate **[!UICONTROL Add personalization field]**nella**[!UICONTROL Image source URL]** finestra che si apre.
+1. Selezionate **[!UICONTROL Add personalization field]** nella **[!UICONTROL Image source URL]** finestra che si apre.
 
-   Dal nodo **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, aprite il nodo corrispondente alla raccolta creata (qui**[!UICONTROL Product list]** ) e selezionate il campo immagine definito (qui **[!UICONTROL Product image]**). Clic**[!UICONTROL Save]**.
+   Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** , aprite il nodo corrispondente alla raccolta creata (qui **[!UICONTROL Product list]** ) e selezionate il campo immagine definito (qui **[!UICONTROL Product image]** ). Clic **[!UICONTROL Save]**.
 
    ![](assets/message-center_loop_product-image.png)
 
    Il campo di personalizzazione selezionato viene ora visualizzato nel riquadro Impostazioni.
 
-1. Nella posizione desiderata, selezionate **[!UICONTROL Insert personalization field]**dalla barra degli strumenti contestuale.
+1. Nella posizione desiderata, selezionate **[!UICONTROL Insert personalization field]** dalla barra degli strumenti contestuale.
 
    ![](assets/message-center_loop_product.png)
 
-1. Dal nodo **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, aprite il nodo corrispondente alla raccolta creata (qui**[!UICONTROL Product list]** ) e selezionate il campo creato (qui **[!UICONTROL Product name]**). Clic**[!UICONTROL Confirm]**.
+1. Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** , aprite il nodo corrispondente alla raccolta creata (qui **[!UICONTROL Product list]** ) e selezionate il campo creato (qui **[!UICONTROL Product name]** ). Clic **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_loop_product_node.png)
 
    Il campo di personalizzazione selezionato viene ora visualizzato nella posizione desiderata nel contenuto dell&#39;e-mail.
 
 1. Procedere in modo simile per inserire il prezzo.
-1. Selezionare del testo e **[!UICONTROL Insert link]**dalla barra degli strumenti contestuale.
+1. Selezionare del testo e **[!UICONTROL Insert link]** dalla barra degli strumenti contestuale.
 
    ![](assets/message-center_loop_link_insert.png)
 
-1. Selezionate **[!UICONTROL Add personalization field]**nella**[!UICONTROL Insert link]** finestra che si apre.
+1. Selezionate **[!UICONTROL Add personalization field]** nella **[!UICONTROL Insert link]** finestra che si apre.
 
-   Dal nodo **[!UICONTROL Context]**>**[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, aprite il nodo corrispondente alla raccolta creata (qui**[!UICONTROL Product list]** ) e selezionate il campo URL creato (qui **[!UICONTROL Product URL]**). Clic**[!UICONTROL Save]**.
+   Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** , aprite il nodo corrispondente alla raccolta creata (qui **[!UICONTROL Product list]** ) e selezionate il campo URL creato (qui **[!UICONTROL Product URL]** ). Clic **[!UICONTROL Save]**.
 
    >[!CAUTION]
    >
@@ -217,7 +217,7 @@ Per ulteriori informazioni sulla creazione di una raccolta e campi correlati dur
 
    Il campo di personalizzazione selezionato viene ora visualizzato nel riquadro Impostazioni.
 
-1. Selezionate il componente struttura sul quale viene applicato l’elenco di prodotti e selezionate **[!UICONTROL Show fallback]**per definire un contenuto predefinito.
+1. Selezionate il componente struttura sul quale viene applicato l’elenco di prodotti e selezionate **[!UICONTROL Show fallback]** per definire un contenuto predefinito.
 
    ![](assets/message-center_loop_fallback_show.png)
 
@@ -228,7 +228,7 @@ Per ulteriori informazioni sulla creazione di una raccolta e campi correlati dur
    Il contenuto di riserva verrà visualizzato se la raccolta è vuota quando l&#39;evento viene attivato, ad esempio se un cliente non ha nulla nel suo carrello.
 
 1. Nel riquadro Impostazioni, modificate gli stili per l&#39;elenco dei prodotti. Per ulteriori informazioni, consultate [Modifica degli stili](../../designing/using/styles.md)delle e-mail.
-1. Visualizzate l&#39;anteprima del messaggio e-mail utilizzando un profilo di prova collegato all&#39;evento transazionale rilevante per il quale avete definito i dati della raccolta. Ad esempio, aggiungere le seguenti informazioni nella **[!UICONTROL Event data]**sezione relativa al profilo di test da utilizzare:
+1. Visualizzate l&#39;anteprima del messaggio e-mail utilizzando un profilo di prova collegato all&#39;evento transazionale rilevante per il quale avete definito i dati della raccolta. Ad esempio, aggiungere le seguenti informazioni nella **[!UICONTROL Event data]** sezione relativa al profilo di test da utilizzare:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
@@ -240,7 +240,7 @@ Dopo aver salvato il messaggio transazionale, puoi inviare una prova per verific
 
 ![](assets/message-center_10.png)
 
-I passaggi per l&#39;invio di una prova sono descritti in [Invio di una prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) .
+I passaggi per l&#39;invio di una prova sono descritti in [Invio di una prova](../../sending/using/sending-proofs.md) .
 
 ## Pubblicazione di un messaggio transazionale {#publishing-a-transactional-message}
 
@@ -250,13 +250,13 @@ Dopo aver controllato il messaggio transazionale, puoi pubblicarlo.
 
 Ora, non appena si attiva l&#39;evento &quot;abbandono carrello&quot;, viene visualizzato automaticamente un messaggio contenente il titolo e il cognome del destinatario, l&#39;URL del carrello, l&#39;ultimo prodotto consultato o un elenco di prodotti se avete definito un elenco di prodotti e l&#39;importo totale del carrello da inviare.
 
-Per accedere ai rapporti relativi al messaggio transazionale, usa il **[!UICONTROL Reports]**pulsante. Consultate[Rapporti](../../reporting/using/about-dynamic-reports.md).
+Per accedere ai rapporti relativi al messaggio transazionale, usa il **[!UICONTROL Reports]** pulsante. Consultate [Rapporti](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
 ## Sospensione di una pubblicazione di messaggi transazionali {#suspending-a-transactional-message-publication}
 
-Puoi sospendere la pubblicazione del messaggio transazionale utilizzando, ad esempio, il **[!UICONTROL Pause]**pulsante per modificare i dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database Adobe Campaign.
+Puoi sospendere la pubblicazione del messaggio transazionale utilizzando, ad esempio, il **[!UICONTROL Pause]** pulsante per modificare i dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database Adobe Campaign.
 
 Gli eventi in coda vengono conservati durante un periodo di tempo definito nell&#39;API REST (consultate la documentazione [REST API) o nell&#39;evento trigger se utilizzate il servizio di base Triggers (consultate](../../api/using/about-campaign-standard-apis.md)Utilizzo di Campaign e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
@@ -266,7 +266,7 @@ Quando si fa clic **[!UICONTROL Resume]**, vengono elaborati tutti gli eventi in
 
 ## Annullamento della pubblicazione di un messaggio transattivo {#unpublishing-a-transactional-message}
 
-Facendo clic **[!UICONTROL Unpublish]**potete annullare la pubblicazione dei messaggi transazionali, ma anche la pubblicazione dell’evento corrispondente, che elimina dall’API REST la risorsa corrispondente all’evento creato in precedenza. Ora, anche se l’evento viene attivato nel sito Web, i messaggi corrispondenti non vengono più inviati e non vengono memorizzati nel database.
+Facendo clic **[!UICONTROL Unpublish]** potete annullare la pubblicazione dei messaggi transazionali, ma anche la pubblicazione dell’evento corrispondente, che elimina dall’API REST la risorsa corrispondente all’evento creato in precedenza. Ora, anche se l’evento viene attivato nel sito Web, i messaggi corrispondenti non vengono più inviati e non vengono memorizzati nel database.
 
 ![](assets/message-center_unpublish-template.png)
 
@@ -274,15 +274,15 @@ Facendo clic **[!UICONTROL Unpublish]**potete annullare la pubblicazione dei mes
 >
 >Per pubblicare nuovamente il messaggio, dovete tornare alla configurazione dell&#39;evento corrispondente, pubblicarlo e quindi pubblicare il messaggio. Per ulteriori informazioni, consulta [Pubblicazione di un messaggio](#publishing-a-transactional-message)transazionale.
 
-Se annulli la pubblicazione di un messaggio transazionale in pausa, potresti dover attendere fino a 24 ore prima di pubblicarlo nuovamente. In questo modo il flusso di lavoro **[!UICONTROL Database cleanup]**pulirà tutti gli eventi inviati alla coda. I passaggi per mettere in pausa un messaggio sono descritti nella sezione[Sospensione di una pubblicazione](#suspending-a-transactional-message-publication)di messaggi transazionali.
+Se annulli la pubblicazione di un messaggio transazionale in pausa, potresti dover attendere fino a 24 ore prima di pubblicarlo nuovamente. In questo modo il flusso di lavoro **[!UICONTROL Database cleanup]** pulirà tutti gli eventi inviati alla coda. I passaggi per mettere in pausa un messaggio sono descritti nella sezione [Sospensione di una pubblicazione](#suspending-a-transactional-message-publication) di messaggi transazionali.
 
-Il **[!UICONTROL Database cleanup]**flusso di lavoro, che viene eseguito ogni giorno alle 4 del mattino, è accessibile tramite**[!UICONTROL Administration]** > **[!UICONTROL Application settings]**>**[!UICONTROL Workflows]**.
+Il **[!UICONTROL Database cleanup]** flusso di lavoro, che viene eseguito ogni giorno alle 4 del mattino, è accessibile tramite **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
 ## Eliminazione di un messaggio transattivo {#deleting-a-transactional-message}
 
 ![](assets/message-center_delete-template.png)
 
-Selezionando un messaggio transazionale, puoi eliminarlo con il **[!UICONTROL Delete element]**pulsante anche se è già stato pubblicato. Tuttavia, l&#39;eliminazione di un messaggio transattivo può essere eseguita solo a determinate condizioni:
+Selezionando un messaggio transazionale, puoi eliminarlo con il **[!UICONTROL Delete element]** pulsante anche se è già stato pubblicato. Tuttavia, l&#39;eliminazione di un messaggio transattivo può essere eseguita solo a determinate condizioni:
 
 * **Messaggi** transazionali: Per eliminare un messaggio transazionale, è necessario annullare la pubblicazione del messaggio e non interromperlo.
 
@@ -321,13 +321,13 @@ Una volta che l&#39;evento è stato assegnato a un recapito di esecuzione, il me
 
 >[!NOTE]
 >
->Quando un evento viene assegnato a un&#39;esecuzione, viene visualizzato nei registri di invio dell&#39;esecuzione e solo in questa fase. Le consegne non riuscite vengono visualizzate nella **[!UICONTROL Execution list]**scheda del messaggio di transazione.
+>Quando un evento viene assegnato a un&#39;esecuzione, viene visualizzato nei registri di invio dell&#39;esecuzione e solo in questa fase. Le consegne non riuscite vengono visualizzate nella **[!UICONTROL Execution list]** scheda del messaggio di transazione.
 
 ### Limitazioni {#limitations}
 
 **Invio aggiornamento log**
 
-Nel processo dei tentativi, i registri di invio della nuova esecuzione non vengono aggiornati immediatamente (l&#39;aggiornamento viene eseguito tramite un flusso di lavoro pianificato). Ciò significa che il messaggio potrebbe trovarsi nello **[!UICONTROL Pending]**stato anche se l&#39;evento transazionale è stato elaborato dal nuovo invio di esecuzione.
+Nel processo dei tentativi, i registri di invio della nuova esecuzione non vengono aggiornati immediatamente (l&#39;aggiornamento viene eseguito tramite un flusso di lavoro pianificato). Ciò significa che il messaggio potrebbe trovarsi nello **[!UICONTROL Pending]** stato anche se l&#39;evento transazionale è stato elaborato dal nuovo invio di esecuzione.
 
 **Esecuzione non riuscita**
 
