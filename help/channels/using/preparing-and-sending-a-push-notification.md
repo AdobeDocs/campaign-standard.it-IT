@@ -13,7 +13,7 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 I passaggi per creare una notifica push con Adobe Campaign sono:
 
-1. Dalla **[!UICONTROL Marketing activities]** finestra, [crea una nuova attività di marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+1. Dalla **[!UICONTROL Marketing activities]** finestra, [crea una nuova attività](../../start/using/marketing-activities.md#creating-a-marketing-activity)di marketing.
 
    Puoi anche creare una singola notifica push da una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity) o dalla [home page](../../start/using/interface-description.md#home-page)di Adobe Campaign.
 
-   Potete anche utilizzare un&#39;attività di consegna delle notifiche push in un flusso di lavoro. Questa attività viene presentata nella sezione relativa alla consegna [delle notifiche push](../../automating/using/push-notification-delivery.md).
+   Potete anche utilizzare un&#39;attività di consegna delle notifiche push in un flusso di lavoro. Questa attività viene presentata nella sezione relativa alla consegna [delle notifiche](../../automating/using/push-notification-delivery.md) push.
 
 1. Selezionare **[!UICONTROL Push notification]**.
 1. Selezionate un modello.
@@ -39,8 +39,7 @@ I passaggi per creare una notifica push con Adobe Campaign sono:
 
    * **[!UICONTROL Send push to Campaign profiles]**: utilizza questo modello per eseguire il targeting dei profili Adobe Campaign CRM che si sono abbonati all&#39;applicazione mobile e hanno acconsentito alla ricezione di notifiche push. Puoi inserire campi di [personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field) nella notifica push, ad esempio il nome del destinatario.
    * **[!UICONTROL Send push to app subscribers]**: utilizzate questo modello per inviare una notifica push a tutti gli utenti noti e anonimi di applicazioni mobili che hanno acconsentito alla ricezione di notifiche dall’applicazione. Puoi personalizzare questi messaggi con i dati raccolti dall’applicazione mobile.
-   
-   Potete anche selezionare modelli multilingue. Per ulteriori informazioni, consultate [Creazione di una notifica push multilingue](../../channels/using/creating-a-multilingual-push-notification.md).
+   Potete anche selezionare modelli multilingue. Per ulteriori informazioni, consultate [Creazione di una notifica](../../channels/using/creating-a-multilingual-push-notification.md)push multilingue.
 
    Per ulteriori informazioni sui modelli, consultare la sezione [Gestione dei modelli](../../start/using/marketing-activity-templates.md) .
 
@@ -72,7 +71,7 @@ I passaggi per creare una notifica push con Adobe Campaign sono:
 
 1. Prima di inviare la notifica, potete testarla con i profili di test e vedere esattamente cosa vedranno i destinatari prima di inviare la consegna. Seleziona **[!UICONTROL Audiences]** dal riepilogo della consegna e fai clic sulla **[!UICONTROL Test profiles]** scheda.
 
-   Per ulteriori informazioni sull&#39;invio dei test, vedere [Profili di test](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+   Per ulteriori informazioni sull&#39;invio dei test, vedere Profili [di](../../sending/using/sending-proofs.md)test.
 
 1. Selezionate i profili di test e fate clic **[!UICONTROL Preview]** per visualizzare la notifica: il contenuto è personalizzato con i dati del profilo di test.
 1. Controllate il layout della notifica push su diversi dispositivi: selezionate iPhone, telefono Android, iPad o tablet Android per visualizzare l&#39;anteprima del rendering.
@@ -93,7 +92,7 @@ Le notifiche push possono essere inviate a un&#39;audience selezionata in Adobe 
 
    ![](assets/push_send_1.png)
 
-1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window.
+1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Tieni presente che il conteggio **[!UICONTROL To deliver]** è inferiore a quello di **[!UICONTROL Targeted]** a causa di esclusioni che possono essere visualizzate facendo clic sul pulsante ![](assets/lp_link_properties.png) nella parte inferiore della finestra **[!UICONTROL Deployment]**.
 
    ![](assets/push_send_2.png)
 
@@ -108,7 +107,7 @@ Le notifiche push possono essere inviate a un&#39;audience selezionata in Adobe 
    ![](assets/push_send_7.png)
 
 1. Ora puoi fare clic **[!UICONTROL Confirm]** per iniziare a inviare le notifiche push.
-1. Controlla lo stato della distribuzione tramite il dashboard e i registri dei messaggi. Per ulteriori informazioni, consulta [Invio di messaggi](../../sending/using/confirming-the-send.md) e [log di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+1. Controlla lo stato della distribuzione tramite il dashboard e i registri dei messaggi. Per ulteriori informazioni, consulta [Invio di messaggi](../../sending/using/confirming-the-send.md) e log [di](../../sending/using/monitoring-a-delivery.md#delivery-logs)consegna.
 
    In questo esempio, il pannello dei messaggi mostra che Adobe Campaign ha tentato di inviare due notifiche push: uno è stato consegnato correttamente al dispositivo e un altro non è riuscito. Per sapere perché la consegna presenta errori, fate clic sul ![](assets/lp_link_properties.png) pulsante in fondo alla **[!UICONTROL Deployment]** finestra.
 
