@@ -1,30 +1,30 @@
 ---
 title: Personalizzazione di un messaggio in-app
 description: Scopri come personalizzare i messaggi in-app con diverse opzioni.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: messaggi in-app
+topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
 
 # Personalizzazione di un messaggio in-app{#customizing-an-in-app-message}
 
-Per ottimizzare il messaggio in-app, Adobe Campaign consente di accedere a una serie di opzioni avanzate durante la progettazione di un'app.
+Per ottimizzare il messaggio in-app, Adobe Campaign consente di accedere a una serie di opzioni avanzate durante la progettazione di un&#39;app.
 
-L'editor del contenuto in-app consente di scegliere tra due modalità di messaggio in-app:
+L&#39;editor del contenuto in-app consente di scegliere tra due modalità di messaggio in-app:
 
-* [Modello](#customizing-with-a-message-template)messaggio: questo modello consente di personalizzare completamente l'applicazione con immagini o video e pulsanti di azione.
+* [Modello](#customizing-with-a-message-template)messaggio: questo modello consente di personalizzare completamente l&#39;applicazione con immagini o video e pulsanti di azione.
 * [Messaggio](#customizing-with-a-custom-html-message)personalizzato: questo modello consente di importare codice HTML personalizzato.
 
 ![](assets/inapp_customize_1.png)
@@ -41,15 +41,15 @@ L'editor del contenuto in-app consente di scegliere tra due modalità di messagg
 
 Il **[!UICONTROL Layout]** menu a discesa offre quattro opzioni diverse tra cui scegliere a seconda delle esigenze di messaggistica:
 
-* **[!UICONTROL Full page]**: Questo tipo di layout copre l'intero schermo dei dispositivi per il pubblico.
+* **[!UICONTROL Full page]**: Questo tipo di layout copre l&#39;intero schermo dei dispositivi per il pubblico.
 
    Supporta i componenti per contenuti multimediali (immagine, video), testo e pulsante.
 
-* **[!UICONTROL Large modal]**: Questo layout viene visualizzato in una grande finestra in stile avviso. L'applicazione rimane visibile in background.
+* **[!UICONTROL Large modal]**: Questo layout viene visualizzato in una grande finestra in stile avviso. L&#39;applicazione rimane visibile in background.
 
    Supporta i componenti per contenuti multimediali (immagine, video), testo e pulsante.
 
-* **[!UICONTROL Small modal]**: Questo layout viene visualizzato come una piccola finestra di avviso, l'applicazione rimane visibile in background.
+* **[!UICONTROL Small modal]**: Questo layout viene visualizzato come una piccola finestra di avviso, l&#39;applicazione rimane visibile in background.
 
    Supporta i componenti per contenuti multimediali (immagine, video), testo e pulsante.
 
@@ -61,13 +61,13 @@ Il **[!UICONTROL Layout]** menu a discesa offre quattro opzioni diverse tra cui 
 
    Può supportare solo audio, testo e destinazione. Per ulteriori informazioni sulla notifica locale, consultate [Personalizzazione di un tipo](#customizing-a-local-notification-message-type)di messaggio di notifica locale.
 
-Ogni tipo di layout può essere visualizzato in anteprima su diversi dispositivi quali telefono, tablet, piattaforma, ad esempio Android o iOS e l'orientamento, ad esempio orizzontale o verticale nella finestra destra dell'editor di contenuti.
+Ogni tipo di layout può essere visualizzato in anteprima su diversi dispositivi quali telefono, tablet, piattaforma, ad esempio Android o iOS e l&#39;orientamento, ad esempio orizzontale o verticale nella finestra destra dell&#39;editor di contenuti.
 
 ![](assets/inapp_customize_4.png)
 
 ### Media {#media}
 
-Il **[!UICONTROL Media]** menu a discesa consente di aggiungere contenuti multimediali al messaggio in-app per creare un'esperienza coinvolgente per l'utente finale.
+Il **[!UICONTROL Media]** menu a discesa consente di aggiungere contenuti multimediali al messaggio in-app per creare un&#39;esperienza coinvolgente per l&#39;utente finale.
 
 1. Selezionate l’immagine **[!UICONTROL Media Type]** desiderata e il video desiderato.
 1. Per il tipo di **[!UICONTROL Image]** supporto, immettete l’URL nel **[!UICONTROL Media URL]** campo in base ai formati supportati.
@@ -109,13 +109,13 @@ Se necessario, puoi anche aggiungere un titolo e un contenuto del messaggio al m
 
 Puoi aggiungere fino a due pulsanti al messaggio in-app.
 
-1. Nell' **[!UICONTROL Buttons]** elenco a discesa, immettete il testo del primo pulsante nella **[!UICONTROL Primary]** categoria.
+1. Nell&#39; **[!UICONTROL Buttons]** elenco a discesa, immettete il testo del primo pulsante nella **[!UICONTROL Primary]** categoria.
 
    ![](assets/inapp_customize_12.png)
 
 1. Scegliete quale delle due azioni **[!UICONTROL Dismiss]** e **[!UICONTROL Redirect]** verrà assegnato al pulsante principale.
-1. Nella **[!UICONTROL Secondary]** categoria, aggiungete un secondo pulsante all'app, se necessario, immettendo il testo.
-1. Selezionare l'azione associata al secondo pulsante.
+1. Nella **[!UICONTROL Secondary]** categoria, aggiungete un secondo pulsante all&#39;app, se necessario, immettendo il testo.
+1. Selezionare l&#39;azione associata al secondo pulsante.
 1. Se avete scelto l’ **[!UICONTROL Redirect]** azione, immettete l’URL Web o il collegamento profondo nel **[!UICONTROL Destination URL]** campo.
 
    ![](assets/inapp_customize_13.png)
@@ -130,15 +130,15 @@ Puoi aggiungere fino a due pulsanti al messaggio in-app.
 ### Impostazioni {#settings}
 
 1. Nella **[!UICONTROL Settings]** categoria, selezionate il colore di sfondo tra luce e buio.
-1. Scegliete di visualizzare o meno un pulsante Chiudi con l' **[!UICONTROL Show close button]** opzione per fornire agli utenti la possibilità di chiudere il messaggio in-app.
-1. Selezionare se l'allineamento del pulsante sarà orizzontale o verticale con l' **[!UICONTROL Button alignment]** opzione.
+1. Scegliete di visualizzare o meno un pulsante Chiudi con l&#39; **[!UICONTROL Show close button]** opzione per fornire agli utenti la possibilità di chiudere il messaggio in-app.
+1. Selezionare se l&#39;allineamento del pulsante sarà orizzontale o verticale con l&#39; **[!UICONTROL Button alignment]** opzione.
 1. Scegli se il messaggio in-app può essere chiuso automaticamente o meno dopo alcuni secondi.
 
    ![](assets/inapp_customize_7.png)
 
 ## Personalizzazione di un tipo di messaggio di notifica locale {#customizing-a-local-notification-message-type}
 
-Le notifiche locali possono essere attivate solo da un'app in un momento particolare e in base a un evento. Avviseranno gli utenti che qualcosa sta accadendo nella loro app anche senza avere accesso a Internet.
+Le notifiche locali possono essere attivate solo da un&#39;app in un momento particolare e in base a un evento. Avviseranno gli utenti che qualcosa sta accadendo nella loro app anche senza avere accesso a Internet.
 Per informazioni su come tenere traccia delle notifiche locali, consultate questa [pagina](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
 
 Per personalizzare una notifica locale:
@@ -152,9 +152,9 @@ Per personalizzare una notifica locale:
    ![](assets/inapp_customize_18.png)
 
 1. Sotto la **[!UICONTROL Advanced option]** categoria, nel **[!UICONTROL Wait to display]** campo, scegliete il tempo in secondi per la visualizzazione sullo schermo della notifica locale una volta attivato l’evento.
-1. Nel **[!UICONTROL Sound]** campo, inserire il nome del file audio, con l'estensione, che deve essere riprodotto dal dispositivo mobile quando viene ricevuta la notifica locale.
+1. Nel **[!UICONTROL Sound]** campo, inserire il nome del file audio, con l&#39;estensione, che deve essere riprodotto dal dispositivo mobile quando viene ricevuta la notifica locale.
 
-   Il file audio viene riprodotto durante la trasmissione della notifica se il file è definito nel pacchetto dell'applicazione mobile. In caso contrario, viene riprodotto l'audio predefinito del dispositivo.
+   Il file audio viene riprodotto durante la trasmissione della notifica se il file è definito nel pacchetto dell&#39;applicazione mobile. In caso contrario, viene riprodotto l&#39;audio predefinito del dispositivo.
 
    ![](assets/inapp_customize_19.png)
 
@@ -162,7 +162,7 @@ Per personalizzare una notifica locale:
 1. Per trasmettere dati personalizzati nel payload sotto forma di coppia di valori chiave, è possibile aggiungere campi personalizzati alla notifica locale. Nella **[!UICONTROL Custom fields]** categoria, fare clic sul **[!UICONTROL Create an element]** pulsante.
 1. Inserite **[!UICONTROL Keys]** quindi il **[!UICONTROL Values]** codice associato a ogni chiave.
 
-   La gestione e lo scopo dei campi personalizzati dipendono interamente dall'app mobile.
+   La gestione e lo scopo dei campi personalizzati dipendono interamente dall&#39;app mobile.
 
 1. Nella **[!UICONTROL Apple options]** categoria, compila i **[!UICONTROL Category]** campi per aggiungere un ID categoria per le azioni personalizzate, se disponibile nell’applicazione mobile Apple.
 
@@ -176,11 +176,11 @@ La **[!UICONTROL Custom message]** modalità consente di importare direttamente 
 
 Per fare questo, basta trascinare e rilasciare o selezionare il file dal computer.
 
-Il file deve avere un layout specifico che può essere trovato facendo clic sull'opzione **Scarica il file** di esempio.
+Il file deve avere un layout specifico che può essere trovato facendo clic sull&#39;opzione **Scarica il file** di esempio.
 
 ![](assets/inapp_customize_16.png)
 
-Puoi anche trovare un elenco di requisiti HTML personalizzati per un'importazione corretta in Adobe Campaign.
+Puoi anche trovare un elenco di requisiti HTML personalizzati per un&#39;importazione corretta in Adobe Campaign.
 
 ![](assets/inapp_customize_3.png)
 
@@ -194,10 +194,10 @@ Prima di inviare il messaggio in-app, potete eseguire il test con i profili di t
 
    ![](assets/inapp_sending_2.png)
 
-1. Fate clic sul **[!UICONTROL Select a test profile]** pulsante e selezionate uno dei profili di test per iniziare a visualizzare l'anteprima della distribuzione. Per ulteriori informazioni sui profili di test, consultate questa [sezione](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. Fate clic sul **[!UICONTROL Select a test profile]** pulsante e selezionate uno dei profili di test per iniziare a visualizzare l&#39;anteprima della distribuzione. Per ulteriori informazioni sui profili di test, consultate questa [sezione](../../audiences/using/managing-test-profiles.md).
 1. Controlla il messaggio su diversi dispositivi, ad esempio Android, iPhone o persino tablet. Puoi anche verificare se i campi di personalizzazione recuperano i dati corretti.
 
    ![](assets/inapp_sending_3.png)
 
-1. Ora puoi inviare il messaggio e misurarne l'impatto con i rapporti di consegna. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
+1. Ora puoi inviare il messaggio e misurarne l&#39;impatto con i rapporti di consegna. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
 
