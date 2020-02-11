@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ Dopo aver definito la destinazione e creato il contenuto di un messaggio, è nec
 
 * [Informazioni sulla pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md)
 * [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
-* [Gestione dei profili di test e invio delle prove](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Invio di prove](../../sending/using/sending-proofs.md)
 * [Rendering di e-mail](../../sending/using/email-rendering.md)
 * [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Ottimizzazione della recapito](../../sending/using/about-deliverability.md)
