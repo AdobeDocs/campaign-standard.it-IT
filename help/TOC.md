@@ -3,8 +3,8 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: ht
-source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -48,6 +48,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Modifica dei profili](audiences/using/editing-profiles.md)
       + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
       + [Profili attivi](audiences/using/active-profiles.md)
+      + [Gestione dei profili di test](audiences/using/managing-test-profiles.md)
    + Gestione dell’audience {#managing-audiences}
       + [Informazioni sui tipi di audience](audiences/using/about-audiences.md)
       + [Creazione di audience](audiences/using/creating-audiences.md)
@@ -136,9 +137,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + Preparazione e verifica dei messaggi {#preparing-and-testing-messages}
       + [Anteprima dei messaggi](sending/using/previewing-messages.md)
       + [Preparazione dell’invio](sending/using/preparing-the-send.md)
-      + [Gestione dei profili di test e invio delle prove](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Invio di prove](sending/using/sending-proofs.md)
       + [Verifica dell’oggetto di un messaggio e-mail](sending/using/testing-subject-line-email.md)
       + [Rendering di e-mail](sending/using/email-rendering.md)
+      + [Utilizzo delle trappole](sending/using/using-traps.md)
    + Pianificazione dei messaggi {#scheduling-messages}
       + [Informazioni sulla pianificazione dei messaggi](sending/using/about-scheduling-messages.md)
       + [Ottimizzazione del tempo di invio](sending/using/optimizing-the-sending-time.md)
