@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -30,18 +30,18 @@ L&#39;audience è basata su profili con informazioni sulla lingua preferita comp
    ![](assets/multi_create1.png)
 
 1. Definite le proprietà generali e il pubblico di destinazione del messaggio e-mail, come per un messaggio e-mail standard. Consultate la sezione [Creazione di audience](../../audiences/using/creating-audiences.md) .
-1. Al quarto passaggio della procedura guidata di creazione, definite le opzioni della variante. Se il modello [](../../channels/using/multilingual-messages-template.md) multilingue contiene già tutti i parametri giusti, potete fare clic direttamente sul **[!UICONTROL Create]**pulsante.
+1. Al quarto passaggio della procedura guidata di creazione, definite le opzioni della variante. Se il modello [](../../channels/using/multilingual-messages-template.md) multilingue contiene già tutti i parametri giusti, potete fare clic direttamente sul **[!UICONTROL Create]** pulsante.
 
    ![](assets/multi_create4.png)
 
-   Se necessario, aggiungere varianti utilizzando il **[!UICONTROL Add an element]**pulsante.**[!UICONTROL Default]** la variante non deve essere eliminata. Quando è impostato su **[!UICONTROL default]**,[la lingua](../../audiences/using/creating-profiles.md)preferita del profilo viene utilizzata per scegliere la variante. È inoltre possibile impostare la**[!UICONTROL Default]** variante su qualsiasi altra lingua.
+   Se necessario, aggiungere varianti utilizzando il **[!UICONTROL Add an element]** pulsante. **[!UICONTROL Default]** la variante non deve essere eliminata. Quando è impostato su **[!UICONTROL default]**, [la lingua](../../audiences/using/creating-profiles.md) preferita del profilo viene utilizzata per scegliere la variante. È inoltre possibile impostare la **[!UICONTROL Default]** variante su qualsiasi altra lingua.
 
 1. Conferma creazione e-mail: viene visualizzata la dashboard e-mail.
 1. Definite il contenuto dell&#39;e-mail per ogni variante. A seconda del modello scelto, potete definire diversi soggetti, diversi nomi di mittenti o diversi contenuti diversi. Utilizzate il menu a discesa per navigare tra le diverse varianti dell&#39;elemento. Per ulteriori informazioni, consulta la sezione Editor [](../../designing/using/designing-content-in-adobe-campaign.md) contenuto.
 
    ![](assets/multi_selectcontent.png)
 
-1. Verifica e convalida del messaggio. Fare riferimento alla sezione [Invio della prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) .
+1. Verifica e convalida del messaggio. Fare riferimento alla sezione [Invio della prova](../../sending/using/sending-proofs.md) .
 1. Pianificare l&#39;invio con il **[!UICONTROL Send after confirmation option]**.
 1. Una volta inviato il messaggio e-mail, potete accedere ai registri e ai rapporti relativi per misurare il successo della campagna. For more on reporting, refer to [this section](../../reporting/using/about-dynamic-reports.md).
 
