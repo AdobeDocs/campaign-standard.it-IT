@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,7 +39,7 @@ La documentazione sulla gestione della privacy è stata aggiornata con informazi
 
 Le note sulla versione sono state riorganizzate e migliorate. [Leggi tutto](../../rn/using/release-notes.md)
 
-Sono state aggiunte informazioni relative al gruppo di sicurezza Amministratori, specificando che l&#39;unità **[!UICONTROL All (all)]**organizzativa è assegnata al gruppo e non può essere modificata.[Leggi tutto](../../administration/using/managing-groups-and-users.md)
+Sono state aggiunte informazioni relative al gruppo di sicurezza Amministratori, specificando che l&#39;unità **[!UICONTROL All (all)]** organizzativa è assegnata al gruppo e non può essere modificata. [Leggi tutto](../../administration/using/managing-groups-and-users.md)
 
 Sono state aggiunte informazioni su come definire un fuso orario specifico da utilizzare per impostazione predefinita in un flusso di lavoro. [Leggi tutto](../../automating/using/building-a-workflow.md)
 
@@ -137,7 +137,7 @@ Nella sezione Notifiche push è stata aggiunta una nuova sezione su come creare 
 
 È stato aggiunto un nuovo esempio che mostra come inviare un messaggio e-mail contenente dati aggiuntivi recuperati da un&#39;attività del file di caricamento. [Leggi tutto](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-È stata aggiunta una nuova sezione su come utilizzare i trap. [Leggi tutto](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+È stata aggiunta una nuova sezione su come utilizzare i trap. [Leggi tutto](../../sending/using/using-traps.md).
 
 Nella pagina è stata aggiunta una nota sull’opzione **Launch_URL_Campaign** su come configurare un’applicazione mobile tramite gli SDK di Adobe Experience Platform. [Leggi tutto](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -515,15 +515,15 @@ Aggiunte informazioni su come preparare un messaggio in una consegna [Ulteriori 
 
 Le note sulla versione sono state riorganizzate in diverse pagine in modo da ottenere una visualizzazione più globale di tutte le diverse versioni.
 
-La **[!UICONTROL Working with typologies]**sezione è stata aggiornata per migliorare la visibilità.[Leggi tutto](../../administration/using/about-typology-rules.md)
+La **[!UICONTROL Working with typologies]** sezione è stata aggiornata per migliorare la visibilità. [Leggi tutto](../../administration/using/about-typology-rules.md)
 
-È ora disponibile una nuova opzione che consente di ottenere prestazioni quando si definiscono molti dati aggiuntivi in un **[!UICONTROL Query]**.[Leggi tutto](../../automating/using/query.md)
+È ora disponibile una nuova opzione che consente di ottenere prestazioni quando si definiscono molti dati aggiuntivi in un **[!UICONTROL Query]** . [Leggi tutto](../../automating/using/query.md)
 
 L’esempio di importazione del profilo è stato aggiornato con alcuni suggerimenti per consentire ai profili di ricevere e-mail dirette. [Leggi tutto](../../automating/using/importing-data.md)
 
-Una nuova attività è disponibile nei flussi di lavoro: l&#39; **[!UICONTROL Enrichment]**attività.[Leggi tutto](../../automating/using/enrichment.md)
+Una nuova attività è disponibile nei flussi di lavoro: l&#39; **[!UICONTROL Enrichment]** attività. [Leggi tutto](../../automating/using/enrichment.md)
 
-L&#39; **[!UICONTROL Subscription Services]**attività è stata aggiornata per supportare più casi di utilizzo, incluso l&#39;utilizzo di un singolo file per aggiornare le iscrizioni a più servizi.[Leggi tutto](../../automating/using/subscription-services.md)
+L&#39; **[!UICONTROL Subscription Services]** attività è stata aggiornata per supportare più casi di utilizzo, incluso l&#39;utilizzo di un singolo file per aggiornare le iscrizioni a più servizi. [Leggi tutto](../../automating/using/subscription-services.md)
 
 È stato aggiunto un caso d’uso dettagliato su come preparare una consegna. [Leggi tutto](../../sending/using/preparing-the-send.md)
 
@@ -533,7 +533,7 @@ La sezione che include l&#39;elenco delle autorizzazioni è stata rimossa. [Ulte
 
 Sono state aggiunte informazioni su come inviare una consegna in base ai fusi orari degli utenti in un flusso di lavoro periodico. [Leggi tutto](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Riorganizzazione della **[!UICONTROL Customizing a push notification]**sezione con casi di utilizzo dettagliati.[Leggi tutto](../../channels/using/customizing-a-push-notification.md)
+Riorganizzazione della **[!UICONTROL Customizing a push notification]** sezione con casi di utilizzo dettagliati. [Leggi tutto](../../channels/using/customizing-a-push-notification.md)
 
 Nuova sezione dedicata alla gestione delle liste nere. [Leggi tutto](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
