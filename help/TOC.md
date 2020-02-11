@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Integrazione con le soluzioni Adobe](start/using/integrating-with-adobe-solutions.md)
       + [Arricchimento database Campaign](start/using/enriching-campaign-database.md)
    + Esplorazione dell’interfaccia {#discovering-the-interface}
-      + [Informazioni sull&#39;interfaccia](start/using/about-the-interface.md)
+      + [Informazioni sull’interfaccia](start/using/about-the-interface.md)
       + [Descrizione interfaccia](start/using/interface-description.md)
       + [Browser compatibili](start/using/compatible-browsers.md)
       + [Personalizzazione degli elenchi](start/using/customizing-lists.md)
@@ -292,7 +292,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Retargeting di non-openers](automating/using/workflow-cross-channel-retargeting.md)
       + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
       + [Creazione di recapito messaggi cross-channel](automating/using/workflow-cross-channel-delivery.md)
-   + Utilizzo dei tipi di pubblico di Adobe Experience Platform {#working-with-aep-audiences}
+   + Utilizzo dei tipi di pubblico di Adobe Experience Platform {working with-aep-audiences}
       + [Targeting dei tipi di pubblico di Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Sviluppo {#developing}
@@ -363,16 +363,16 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Conservazione dei dati](administration/using/data-retention.md)
       + [Aggiornamenti e operazioni di manutenzione](administration/using/updates-and-maintenance-operations.md)
    + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-      + [Panoramica del modello di dati della piattaforma Experience](administration/using/aep-data-model-overview.md)
-      + [Definizione mapping](administration/using/aep-mapping-definition.md)
-      + [Mapping attivazione](administration/using/aep-mapping-activation.md)
-      + [Attivazione dell&#39;assimilazione dei dati tramite API](administration/using/aep-triggering-data-ingestion.md)
+      + [Informazioni su Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+      + [Panoramica del modello di dati di Experience Platform](administration/using/aep-data-model-overview.md)
+      + [Definizione mappature](administration/using/aep-mapping-definition.md)
+      + [Attivazione mappature](administration/using/aep-mapping-activation.md)
+      + [Attivazione dell’assimilazione dei dati tramite API](administration/using/aep-triggering-data-ingestion.md)
 + Utilizzo delle API {#working-with-apis}
    + Informazioni sulle API Campaign Standard {#about-campaign-standard-apis}
       + [Panoramica](api/using/about-campaign-standard-apis.md)
       + [Perché utilizzare le API di Campaign Standard](api/using/why-using-campaign-standard-apis.md)
-      + [Impostazione dell&#39;accesso API](api/using/setting-up-api-access.md)
+      + [Impostazione dell’accesso API](api/using/setting-up-api-access.md)
    + Concetti globali {#global-concepts}
       + [Must-read](api/using/must-read.md)
       + [Endpoint](api/using/endpoints.md)
