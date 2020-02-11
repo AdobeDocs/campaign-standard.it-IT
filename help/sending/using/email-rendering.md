@@ -1,18 +1,18 @@
 ---
 title: Rendering di e-mail
 description: Scoprite la funzione di rendering delle e-mail.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: invio
+audience: sending
 content-type: reference
-topic-tags: preparazione e verifica dei messaggi
+topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -33,7 +33,7 @@ Dopo aver creato la consegna dell’e-mail e definito il contenuto e la popolazi
 
    ![](assets/email_rendering_05.png)
 
-1. Utilizzate l'editor di query per definire i profili di test da utilizzare, inclusi i profili di test utilizzati per il rendering **e-** mail. Consultate [I profili](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)di test.
+1. Utilizzate l&#39;editor di query per definire i profili di test da utilizzare, inclusi i profili di test utilizzati per il rendering **e-** mail. Consultate [I profili](../../audiences/using/managing-test-profiles.md)di test.
 
    ![](assets/email_rendering_06.png)
 
@@ -48,7 +48,7 @@ Dopo aver creato la consegna dell’e-mail e definito il contenuto e la popolazi
 
    >[!NOTE]
    >
-   >L’ **[!UICONTROL Proof + Email rendering]** opzione consente di inviare una prova e utilizzare simultaneamente la funzione di rendering e-mail. Puoi far approvare il messaggio dai destinatari della prova e allo stesso tempo puoi verificare il modo in cui il messaggio verrà ricevuto a seconda delle inbox di destinazione. In questo caso, è necessario anche selezionare Prove profili. Consultate [I profili](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)di test.
+   >L’ **[!UICONTROL Proof + Email rendering]** opzione consente di inviare una prova e utilizzare simultaneamente la funzione di rendering e-mail. Puoi far approvare il messaggio dai destinatari della prova e allo stesso tempo puoi verificare il modo in cui il messaggio verrà ricevuto a seconda delle inbox di destinazione. In questo caso, è necessario anche selezionare Prove profili. Consultate [I profili](../../audiences/using/managing-test-profiles.md)di test.
 
    La consegna del test viene inviata.
 
@@ -56,7 +56,7 @@ Dopo aver creato la consegna dell’e-mail e definito il contenuto e la popolazi
 
    ![](assets/email_rendering_03.png)
 
-1. Dall' **[!UICONTROL Proofs]** elenco, fare clic sull' **[!UICONTROL Access email rendering]** icona.
+1. Dall&#39; **[!UICONTROL Proofs]** elenco, fare clic sull&#39; **[!UICONTROL Access email rendering]** icona.
 
    ![](assets/email_rendering_04.png)
 
@@ -65,16 +65,16 @@ Viene visualizzato il rapporto dedicato sul rendering delle e-mail. Consultate D
 **Argomenti** correlati:
 
 * [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
-* [Gestione dei profili di test e invio delle prove](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Invio di prove](../../sending/using/sending-proofs.md)
 * [Editor query](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Descrizione rapporto rendering e-mail {#email-rendering-report-description}
 
-Questo rapporto presenta i rendering delle e-mail così come appaiono al destinatario. I rendering e-mail possono variare a seconda del modo in cui il destinatario apre la consegna dell'e-mail: in un browser, su un dispositivo mobile o tramite un'applicazione e-mail.
+Questo rapporto presenta i rendering delle e-mail così come appaiono al destinatario. I rendering e-mail possono variare a seconda del modo in cui il destinatario apre la consegna dell&#39;e-mail: in un browser, su un dispositivo mobile o tramite un&#39;applicazione e-mail.
 
 >[!NOTE]
 >
->Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con il rendering **** E-mail abilitato diminuisce di un'unità i rendering disponibili (denominati token). Se sei un client Litmus, puoi usare il tuo account Litmus per fornire e utilizzare il rendering E-mail in Adobe Campaign. Per ulteriori informazioni, contattate il vostro responsabile commerciale Adobe.
+>Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con il rendering **** E-mail abilitato diminuisce di un&#39;unità i rendering disponibili (denominati token). Se sei un client Litmus, puoi usare il tuo account Litmus per fornire e utilizzare il rendering E-mail in Adobe Campaign. Per ulteriori informazioni, contattate il vostro responsabile commerciale Adobe.
 
 Il riepilogo del rapporto mostra il numero di messaggi ricevuti, indesiderati (spam), non ricevuti o in attesa di ricezione.
 
