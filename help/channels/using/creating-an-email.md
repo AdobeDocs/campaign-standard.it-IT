@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
    >[!NOTE]
    >
-   >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Per visualizzarle, selezionate le caselle a sinistra (pannello **[!UICONTROL Filter]**laterale).
+   >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Per visualizzarle, selezionate le caselle a sinistra (pannello **[!UICONTROL Filter]** laterale).
 
 1. Immettete le proprietà generali del messaggio e-mail. Potete immettere un nome nel campo **Etichetta** e modificare l’ID. Sia il nome dell&#39;attività che il relativo ID vengono visualizzati nell&#39;interfaccia, ma non sono visibili ai destinatari del messaggio.
 
@@ -43,7 +43,7 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
 1. Definisci la destinazione del messaggio in base ai criteri aziendali. Consultate [Gestione dei profili](../../audiences/using/about-profiles.md).
 
-   Puoi anche definire i profili di test che convalideranno il messaggio. Consultate [Gestione dei profili](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)di test.
+   Puoi anche definire i profili di test che convalideranno il messaggio. Consultate [Gestione dei profili](../../audiences/using/managing-test-profiles.md)di test.
 
    ![](assets/email_creation_3.png)
 
@@ -58,11 +58,11 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
    >[!NOTE]
    >
-   >Per poter salvare l’e-mail, è innanzitutto necessario apportare alcune modifiche al contenuto. Se fate clic **[!UICONTROL Cancel]**a questo punto, la procedura guidata non verrà completata e il messaggio e-mail non verrà creato.
+   >Per poter salvare l’e-mail, è innanzitutto necessario apportare alcune modifiche al contenuto. Se fate clic **[!UICONTROL Cancel]** a questo punto, la procedura guidata non verrà completata e il messaggio e-mail non verrà creato.
 
    Viene quindi visualizzato il dashboard e-mail. Consente di controllare il messaggio e [preparare l&#39;invio](../../sending/using/preparing-the-send.md).
 
-   Il **[!UICONTROL Edit properties]**pulsante in alto a destra consente di modificare le proprietà del messaggio e-mail. Ad esempio, potete configurare l’e-mail in modo che la relativa etichetta venga calcolata al momento della preparazione della consegna.  I parametri disponibili sono elencati in[questa sezione](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   Il **[!UICONTROL Edit properties]** pulsante in alto a destra consente di modificare le proprietà del messaggio e-mail. Ad esempio, potete configurare l’e-mail in modo che la relativa etichetta venga calcolata al momento della preparazione della consegna.  I parametri disponibili sono elencati in [questa sezione](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -78,7 +78,7 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
    >
    >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Per ulteriori informazioni, consultate [Regole](../../administration/using/fatigue-rules.md)di Fatigue.
 
-1. Inviare prove per controllare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere [Invio della prova](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+1. Inviare prove per controllare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere [Invio della prova](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
