@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -24,20 +24,20 @@ Esistono diversi modi per monitorare una consegna e misurarne l&#39;impatto:
 
 * **Registri** messaggi: Tali registri sono accessibili direttamente dal dashboard dei messaggi. Mostra i dettagli dell’invio, quale destinazione è stata esclusa e perché, nonché le informazioni di tracciamento come aperture e clic.
 
-   Per visualizzare i registri dei messaggi, fai clic sull&#39;icona in basso a destra del **[!UICONTROL Deployment]**blocco.
+   Per visualizzare i registri dei messaggi, fai clic sull&#39;icona in basso a destra del **[!UICONTROL Deployment]** blocco.
 
-   Diverse schede contengono informazioni (se presenti) relative a **[!UICONTROL Sending logs]**,**[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]****[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Consultate[Registri](#delivery-logs)di consegna.
+   Diverse schede contengono informazioni (se presenti) relative a **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]****[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Consultate [Registri](#delivery-logs)di consegna.
 
    ![](assets/sending_delivery1.png)
 
    Il registro contiene tutti i messaggi relativi alla consegna e alle prove. Icone specifiche consentono di identificare errori o avvisi. Per ulteriori informazioni, consulta [Approvare i messaggi](../../sending/using/previewing-messages.md).
 
-   Per esportare il registro, fate clic sul **[!UICONTROL Export list]**pulsante .
+   Per esportare il registro, fate clic sul **[!UICONTROL Export list]** pulsante .
 
    ![](assets/sending_delivery2.png)
 
 * **Avvisi** di distribuzione: Per tenere traccia dei successi o degli errori di consegna, Adobe Campaign fornisce un sistema di avvisi e-mail che invia notifiche per informare gli utenti di importanti attività del sistema.
-* **Rapporti**: Dal dashboard dei messaggi, puoi accedere a diversi rapporti per questo messaggio specifico. È inoltre disponibile un **[!UICONTROL Reports]**menu che consente di accedere a un elenco completo di report predefiniti o personalizzati da utilizzare per delineare metriche specifiche correlate al messaggio o alla campagna.
+* **Rapporti**: Dal dashboard dei messaggi, puoi accedere a diversi rapporti per questo messaggio specifico. È inoltre disponibile un **[!UICONTROL Reports]** menu che consente di accedere a un elenco completo di report predefiniti o personalizzati da utilizzare per delineare metriche specifiche correlate al messaggio o alla campagna.
 * Un amministratore può anche esportare i registri in un file separato che può essere elaborato con i propri strumenti di reporting o BI. Per ulteriori informazioni, consultate [Esportazione dei registri](../../automating/using/exporting-logs.md).
 
 **Argomenti correlati:**
@@ -49,9 +49,9 @@ Esistono diversi modi per monitorare una consegna e misurarne l&#39;impatto:
 
 ### Invio di registri {#sending-logs}
 
-La **[!UICONTROL Sending logs]**scheda offre una cronologia di ogni occorrenza della consegna. L&#39;elenco dei messaggi inviati e i relativi stati è memorizzato qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
+La **[!UICONTROL Sending logs]** scheda offre una cronologia di ogni occorrenza della consegna. L&#39;elenco dei messaggi inviati e i relativi stati è memorizzato qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
 
-Per ogni profilo con **[!UICONTROL Sent]**stato, la**[!UICONTROL Date]** colonna mostra quando è stato inviato il messaggio.
+Per ogni profilo con **[!UICONTROL Sent]** stato, la **[!UICONTROL Date]** colonna mostra quando è stato inviato il messaggio.
 
 ![](assets/sending_delivery3.png)
 
@@ -65,16 +65,16 @@ Tutti i dettagli del registro di invio sono di sola lettura. È inoltre possibil
 
 >[!NOTE]
 >
->Se l&#39;URL del server della pagina mirror non è sicuro (ovvero se non inizia con https://), il rendering della pagina mirror non può essere visualizzato dall&#39;interfaccia utente di Campaign. Questo server viene definito durante la [configurazione dei marchi](../../administration/using/branding.md#configuring-and-using-brands).
+>Per visualizzare il rendering della pagina mirror nell&#39;interfaccia utente di Campaign, l&#39;URL del server della pagina mirror deve essere protetto. In tal caso, utilizzate https:// anziché http:// per impostare questo URL al momento della [configurazione del marchio](../../administration/using/branding.md#configuring-and-using-brands).
 
 ### Registri di esclusione {#exclusion-logs}
 
-La **[!UICONTROL Exclusion logs]**scheda elenca tutti i messaggi che sono stati esclusi dalla destinazione inviata e specifica il motivo dell&#39;errore di invio.
+La **[!UICONTROL Exclusion logs]** scheda elenca tutti i messaggi che sono stati esclusi dalla destinazione inviata e specifica il motivo dell&#39;errore di invio.
 
 ![](assets/sending_delivery4.png)
 
 ### Cause di esclusione {#exclusion-causes}
 
-Nella **[!UICONTROL Exclusion causes]**scheda viene visualizzato il volume (in numero di messaggi) dei messaggi esclusi dall&#39;invio di destinazione.
+Nella **[!UICONTROL Exclusion causes]** scheda viene visualizzato il volume (in numero di messaggi) dei messaggi esclusi dall&#39;invio di destinazione.
 
 ![](assets/sending_delivery5.png)
