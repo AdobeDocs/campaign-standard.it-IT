@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
+source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 # Ultima versione{#latest-release}
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | Rilasci [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) controllo| Aggiornamenti [alla](../../rn/using/documentation-updates.md) documentazione| [Note](../../rn/using/release-notes-2019.md) sulla versione precedente| Funzioni [obsolete](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Rilascio 20.1.2 - febbraio 2020 {#release-20-1-2---february-2020}
+
+**Miglioramenti di Email Designer**
+
+È stato risolto un problema che causava l&#39;aggiunta di un elemento tag HTML in un frammento obsoleto al momento della patch e del salvataggio del contenuto. (CAMP-40685) È stato risolto un problema che aggiungeva uno spazio quando si utilizzava il contenuto dinamico. (CAMP-40605) È stato risolto un problema durante la configurazione di un modello di e-mail transazionale. (CAMP-40604)
 
 ## Rilascio 20.1 - febbraio 2020 {#release-20-1---february-2020}
 
@@ -90,9 +96,9 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 * È stato risolto un problema che impediva l&#39;eliminazione dei dati utente nei registri di esclusione durante l&#39;esecuzione di una richiesta di eliminazione della privacy. (CAMP-39003)
 * È stato risolto un problema che causava problemi di accessibilità durante il ridimensionamento del testo in un elemento contenitore.
 * È stato risolto un problema che impediva agli utenti di ignorare la finestra a comparsa Calendario visualizzata al passaggio del mouse nelle attività di marketing.
-* È stato risolto un problema nell&#39; **[!UICONTROL External API]**attività che visualizzava il**[!UICONTROL Confirm]** pulsante anche quando non venivano modificati dati.
-* È stato risolto un problema che si verificava durante l&#39;utilizzo di un&#39; **[!UICONTROL Union]**attività su query con dimensioni target diverse. I dati di transizione mostravano solo record dalla dimensione di targeting del set principale. (CAMP-36831)
-* È stato risolto un problema che poteva causare un errore durante l&#39;utilizzo di un&#39; **[!UICONTROL Reconciliation]**attività in contesti specifici, ad esempio con due attività in entrata, una delle quali era un&#39;attività di esclusione. (CAMP-37490)
+* È stato risolto un problema nell&#39; **[!UICONTROL External API]** attività che visualizzava il **[!UICONTROL Confirm]** pulsante anche quando non venivano modificati dati.
+* È stato risolto un problema che si verificava durante l&#39;utilizzo di un&#39; **[!UICONTROL Union]** attività su query con dimensioni target diverse. I dati di transizione mostravano solo record dalla dimensione di targeting del set principale. (CAMP-36831)
+* È stato risolto un problema che poteva causare un errore durante l&#39;utilizzo di un&#39; **[!UICONTROL Reconciliation]** attività in contesti specifici, ad esempio con due attività in entrata, una delle quali era un&#39;attività di esclusione. (CAMP-37490)
 * Sono stati risolti i problemi di prestazioni che possono verificarsi durante la selezione e l&#39;aggiornamento dei profili di test. (CAMP-37976)
 * È stato risolto un problema che poteva visualizzare le pagine di errore durante la sottoscrizione o l&#39;annullamento della sottoscrizione tramite le pagine di destinazione. (CAMP-37771)
 * È stato risolto un problema che si verificava durante il caricamento del contenuto in formato zip, con i file PNG a cui veniva fatto riferimento nell’HTML con la loro estensione in lettere maiuscole. (CAMP-37913)
