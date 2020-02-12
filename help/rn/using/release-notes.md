@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
+source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 **Miglioramenti di Email Designer**
 
-È stato risolto un problema che causava l&#39;aggiunta di un elemento tag HTML in un frammento obsoleto al momento della patch e del salvataggio del contenuto. (CAMP-40685) È stato risolto un problema che aggiungeva uno spazio quando si utilizzava il contenuto dinamico. (CAMP-40605) È stato risolto un problema durante la configurazione di un modello di e-mail transazionale. (CAMP-40604)
+* È stato risolto un problema che causava l&#39;aggiunta di un elemento tag HTML in un frammento obsoleto al momento della patch e del salvataggio del contenuto. (CAMP-40685)
+* È stato risolto un problema che aggiungeva uno spazio quando si utilizzava il contenuto dinamico. (CAMP-40605)
+* È stato risolto un problema durante la configurazione di un modello e-mail transazionale. (CAMP-40604)
 
 ## Rilascio 20.1 - febbraio 2020 {#release-20-1---february-2020}
 
