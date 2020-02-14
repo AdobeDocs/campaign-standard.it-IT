@@ -23,7 +23,7 @@ Ulteriori informazioni sulle best practice relative alla progettazione e all’i
 
 * **[E-mail Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consulta la documentazione riorganizzata di E-mail Designer.
 
-* **[Guida Campaign Standard per dispositivi mobili](Https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/>
+* **[Guida Campaign Standard per dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/>
 Ulteriori informazioni sulle linee guida generali delle consegne su dispositivi mobili.
 
 [Fai clic qui per ulteriori aggiornamenti](rn/using/documentation-updates.md)
