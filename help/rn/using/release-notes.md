@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # Ultima versione{#latest-release}
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | Rilasci [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) controllo| Aggiornamenti [alla](../../rn/using/documentation-updates.md) documentazione| [Note](../../rn/using/release-notes-2019.md) sulla versione precedente| Funzioni [obsolete](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Rilascio 20.1.3 - febbraio 2020 {#release-20-1-3---february-2020}
+
+* È stato risolto un problema di regressione introdotto in 20.1 da CAMP-39273 per i clienti che utilizzano la scappatoia. CAMP-39273 è stato ripristinato.
 
 ## Rilascio 20.1.2 - febbraio 2020 {#release-20-1-2---february-2020}
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * È stato risolto un problema che causava discrepanze nei conteggi di annullamento sottoscrizione nel reporting dinamico. (CAMP-39949)
 * È stato risolto un problema che impediva la visualizzazione degli indirizzi nella schermata dei registri di invio durante l&#39;invio di messaggi in-app.
 * È stato risolto un problema che impediva l&#39;aggiornamento dei registri di invio SMS con il numero corretto di errori. (CAMP-38395)
+* Risolto un problema che consentiva alle chiamate post di iscrizione dell&#39;applicazione di aggiornare i token di notifica push. (CAMP-39273)
