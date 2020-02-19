@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: 77ceb5e5ca05fc3ee350d8e50fe0c957dec6ea26
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 >
 >Il servizio Destinazioni audience è attualmente in versione beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta l&#39;Assistenza clienti Adobe.
 
-Consentono di migliorare le esperienze dei clienti sfruttando [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP) per creare audience altamente mirate basate su set di dati grandi e complessi. Adobe Experience Platform riunisce i dati di profilo, comportamentali e a più entità tra le origini online e offline, incluso Adobe Analytics, per aiutarti a creare una vista a 360 gradi del cliente, consentendoti di gestire efficacemente le esperienze dei clienti.
+Consentono di migliorare le esperienze dei clienti sfruttando [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) per creare audience altamente mirate basate su set di dati grandi e complessi. Adobe Experience Platform riunisce i dati di profilo, comportamentali e a più entità tra le origini online e offline, incluso Adobe Analytics, per aiutarti a creare una vista a 360 gradi del cliente, consentendoti di gestire efficacemente le esperienze dei clienti.
 
-Adobe Campaign Standard utilizzerà quindi il servizio Destinazioni **** audience per recuperare una raccolta di profili, noti come **Audience**, da AEP per i programmi di campagna con più passaggi e/o tra canali.
+Adobe Campaign Standard utilizzerà quindi il servizio Destinazioni **** audience per recuperare una raccolta di profili, noti come **Audiences**, da Adobe Experience Platform per i programmi di campagna con più passaggi e/o tra canali.
 
-**Le audience** vengono create dai primi **segmenti** di creazione, che sono essenzialmente un insieme di regole basate praticamente su qualsiasi variabile (ad esempio, profilo, evento, dati multi-entità) all&#39;interno di un profilo cliente da AEP per creare un target multidimensionale. In [questi documenti](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicati si fa riferimento ai concetti globali relativi a Unified Profile &amp; Segmentation Services.
+**I tipi di pubblico** vengono creati dai primi **segmenti** di creazione, che sono essenzialmente un insieme di regole basate praticamente su qualsiasi variabile (ad esempio, profilo, evento, dati multi-entità) all&#39;interno di un profilo cliente da Adobe Experience Platform per creare un target multidimensionale. In [questi documenti](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dedicati si fa riferimento ai concetti globali relativi a Unified Profile &amp; Segmentation Services.
 
 Dopo aver creato un segmento, puoi attivarlo come pubblico per una distribuzione nei flussi di lavoro [](../../automating/using/aep-targeting-audiences.md)Campaign Standard. Inoltre, puoi utilizzare i dati contestuali di Adobe Experience Platform per [personalizzare](../../automating/using/aep-personalizing-campaigns.md) e aggiungere contenuti dinamici alle campagne.
 
