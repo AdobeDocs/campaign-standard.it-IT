@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -96,11 +96,6 @@ Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, 
    <td> 
     <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Creare e-mail personalizzate con il video di Dreamweaver</a> <br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">utilizzare l'estensione Campaign per Dreamweaver</a> 
   </td> 
-  </tr> 
-  <tr> 
-   <td> Creative SDK<br /> </td> 
-   <td> Consente di modificare le immagini e di utilizzare un set completo di funzioni basato su Adobe Creative SDK per migliorare le immagini direttamente nell’editor dei contenuti.<br /> </td> 
-   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">Modifica delle immagini con Adobe Creative SDK</a><br /> </td> 
   </tr> 
   <tr> 
    <td> SDK della piattaforma Experience<br /> </td> 
