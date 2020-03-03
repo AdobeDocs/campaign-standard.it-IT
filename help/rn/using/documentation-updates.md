@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
 
 ---
 
@@ -24,6 +24,18 @@ Scopri tutti gli ultimi aggiornamenti della documentazione di Adobe Campaign Sta
 In questa pagina sono elencate tutte le nuove funzioni e gli aggiornamenti della documentazione per ciascuna versione di Adobe Campaign Standard.
 
 Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione di Adobe Campaign.
+
+## Aggiornamenti della documentazione - Marzo 2020 {#doc-updates-march-2020}
+
+La documentazione sulla configurazione di un’applicazione mobile e le pagine correlate sono state aggiornate per riflettere l’ammortamento SDK V4. [Leggi tutto](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+
+La documentazione sull&#39;integrazione di Adobe Campaign Standard / Adobe Experience Manager è stata aggiornata e migliorata. [Leggi tutto](../../integrating/using/configure-experience-manager.md)
+
+La documentazione di Campaign Email Designer e le relative pagine sono state aggiornate per riflettere l&#39;ammortamento di Adobe Creative SDK. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+È ora disponibile una nuova sezione dedicata alle best practice per il modello dati Campaign Standard. [Leggi tutto](../../developing/using/data-model-best-practices.md)
+
+Sono state aggiunte informazioni sulla destra **[!UICONTROL Workflow]** fuori campo. [Leggi tutto](../../administration/using/list-of-roles.md)
 
 ## Rilascio 20.1 - febbraio 2019 {#release-20-1---february-2020}
 
