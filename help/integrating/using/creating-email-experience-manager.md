@@ -31,7 +31,7 @@ I prerequisiti sono:
 
 Accedete all’istanza di authoring di Adobe Experience Manager e sfogliate il sito per accedere alla cartella che contiene il contenuto dell’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/29996)
+>[!VIDEO](https://images-tv.adobe.com/mpcv3/2674d459-d57b-413b-9d34-9fd941666023_1575035768.854x480at800_h264.mp4)
 
 ## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
