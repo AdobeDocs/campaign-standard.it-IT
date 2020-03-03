@@ -21,6 +21,10 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | Rilasci [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) controllo| Aggiornamenti [alla](../../rn/using/documentation-updates.md) documentazione| [Note](../../rn/using/release-notes-2019.md) sulla versione precedente| Funzioni [obsolete](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## Rilascio 20.1.4 - febbraio 2020 {#release-20-1-4---february-2020}
+
+* È stato risolto un problema che si verificava all&#39;apertura di un&#39;attività **Leggi pubblico** sui flussi di lavoro esistenti. (CAMP-41002)
+
 ## Rilascio 20.1.3 - febbraio 2020 {#release-20-1-3---february-2020}
 
 * È stato risolto un problema di regressione introdotto in 20.1 da CAMP-39273 per i clienti che utilizzano la scappatoia. CAMP-39273 è stato ripristinato.
