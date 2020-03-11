@@ -31,7 +31,7 @@ I prerequisiti sono:
 
 Accedete all’istanza di authoring di Adobe Experience Manager e sfogliate il sito per accedere alla cartella che contiene il contenuto dell’e-mail.
 
->[!VIDEO](https://images-tv.adobe.com/mpcv3/2674d459-d57b-413b-9d34-9fd941666023_1575035768.854x480at800_h264.mp4)
+>[!VIDEO](https://video.tv.adobe.com/v/29996)
 
 ## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
@@ -70,7 +70,7 @@ Per creare un contenuto e-mail in Adobe Experience Manager:
 
 1. Dalla **[!UICONTROL Workflow]** scheda, selezionare il flusso di lavoro di **[!UICONTROL Approve for Adobe Campaign]** convalida. Non potrai inviare un&#39;e-mail in Adobe Campaign se utilizza un contenuto non approvato.
 
-1. Una volta definiti il contenuto e i parametri di invio, potete procedere all&#39;approvazione, preparazione e invio dell&#39;e-mail in Adobe Campaign Standard.
+1. Una volta definiti il contenuto e i parametri di invio, potete procedere all&#39;approvazione, alla preparazione e all&#39;invio dell&#39;e-mail in Adobe Campaign Standard.
 
    Per ulteriori informazioni, guardate il seguente video:
 
