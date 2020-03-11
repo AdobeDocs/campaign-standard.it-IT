@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
+source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
 
 ---
 
@@ -29,7 +29,7 @@ Tutte le date di rilascio sono soggette a modifica: consigliamo di visitare ques
 
 Iscriviti per [ricevere le notifiche](https://www.adobe.com/subscription/priority-product-update.html) sulla versione e ricevere informazioni sugli ultimi rilasci di Adobe Experience Cloud direttamente nella casella in entrata.
 
-## Release 20.1.4 - Aggiornamento di febbraio {#release-20-1-4---february-release-update}
+## Release 20.2.1 - Rilascio di aprile {#release-20-2-april-release}
 
 Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note](../../rn/using/release-notes.md)sulla versione. Per ulteriori domande, contatta l&#39;Assistenza clienti [Adobe](https://support.neolane.net/webApp/extranetLogin).
 
@@ -43,11 +43,11 @@ Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati d
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> 17 - 18 febbraio 2020<br /> </td> 
+   <td> 23 - 24 marzo 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produzione<br /> </td> 
-   <td> 20 febbraio - 5 marzo 2020<br /> </td> 
+   <td> 31 marzo - 6 aprile 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,15 +66,15 @@ A: Con l&#39;aggiornamento dell&#39;istanza di staging, Adobe consiglia di conva
 
 **D: Sarà possibile accedere all&#39;istanza durante il processo di aggiornamento?**
 
-A:No. Durante l&#39;aggiornamento dell&#39;istanza, il database potrebbe non essere accessibile in pochi minuti. Tutti i processi si riavviano automaticamente.
+A: No. Durante l&#39;aggiornamento dell&#39;istanza, il database potrebbe non essere accessibile in pochi minuti. Tutti i processi si riavviano automaticamente.
 
 **D: I messaggi continueranno a essere inviati?**
 
-A:No. I messaggi non verranno inviati nel giro di pochi minuti. Al termine dell&#39;aggiornamento, i processi vengono riavviati automaticamente.
+A: No. I messaggi non verranno inviati nel giro di pochi minuti. Al termine dell&#39;aggiornamento, i processi vengono riavviati automaticamente.
 
 **D: I flussi di lavoro continueranno a essere eseguiti e a inviare le consegne?**
 
-A:No. Durante l&#39;aggiornamento della build, il server del flusso di lavoro e MTA vengono entrambi interrotti. Ciò significa che i flussi di lavoro non verranno eseguiti e che le consegne non verranno inviate nel giro di pochi minuti. Nessuna azione richiesta: i flussi di lavoro inizieranno nuovamente non appena l&#39;istanza viene aggiornata.
+A: No. Durante l&#39;aggiornamento della build, il server del flusso di lavoro e MTA vengono entrambi interrotti. Ciò significa che i flussi di lavoro non verranno eseguiti e che le consegne non verranno inviate nel giro di pochi minuti. Nessuna azione richiesta: i flussi di lavoro inizieranno nuovamente non appena l&#39;istanza viene aggiornata.
 
 **D: I collegamenti di tracciamento nei messaggi continueranno a funzionare durante l&#39;aggiornamento?**
 
