@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
+source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 
 ---
 
@@ -152,6 +152,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + Invio e tracciamento dei messaggi {#sending-and-tracking-messages}
       + [Conferma dell’invio](sending/using/confirming-the-send.md)
       + [Tracciamento dei messaggi](sending/using/tracking-messages.md)
+      + [Archiviazione con CCN e-mail](sending/using/archiving.md)
    + Monitoraggio dei messaggi {#monitoring-messages}
       + [Monitoraggio di una consegna](sending/using/monitoring-a-delivery.md)
       + [Ricezione degli avvisi in caso di errori](sending/using/receiving-alerts-when-failures-happen.md)
