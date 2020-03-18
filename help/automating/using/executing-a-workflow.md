@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -176,7 +176,7 @@ Nelle proprietà [del](#workflow-properties)flusso di lavoro sono disponibili op
 
 Le opzioni possibili sono:
 
-* **[!UICONTROL Supervisors]**: consente di definire il gruppo di persone da notificare (e-mail e notifica in-app) in caso di errore nel flusso di lavoro. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta le notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+* **[!UICONTROL Supervisors]**: consente di definire il gruppo di persone a cui inviare una notifica (e-mail e notifica in-app) in caso di errore nel flusso di lavoro. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta le notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
 * **[!UICONTROL In case of error]**: consente di specificare l&#39;azione da eseguire in caso di errore dell&#39;attività. Sono disponibili due opzioni:
 
@@ -209,7 +209,7 @@ Le opzioni possibili sono:
 
 * **[!UICONTROL Save SQL queries in the log]**: consente di salvare le query SQL dal flusso di lavoro nei registri.
 
-* ***[!UICONTROL Keep interim results]**: selezionate questa opzione per visualizzare i dettagli delle transizioni. Avviso: se si seleziona questa opzione, l&#39;esecuzione del flusso di lavoro potrebbe risultare notevolmente rallentata.
+* **[!UICONTROL Keep interim results]**: selezionate questa opzione per visualizzare i dettagli delle transizioni. Avviso: se si seleziona questa opzione, l&#39;esecuzione del flusso di lavoro potrebbe risultare notevolmente rallentata.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: consente di eseguire il flusso di lavoro localmente, a scopo di verifica dell’ambiente di sviluppo.
 
