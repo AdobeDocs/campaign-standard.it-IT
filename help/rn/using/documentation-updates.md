@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione d
 
 ## Aggiornamenti della documentazione - Marzo 2020 {#doc-updates-march-2020}
 
-Informazioni più dettagliate sull&#39;MTA Enhanced sono state aggiunte alla documentazione di base, in particolare per quanto riguarda le regole di elaborazione e-mail e la qualifica di posta indesiderata [Leggi tutto](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Informazioni più dettagliate sull&#39;MTA avanzata sono state aggiunte alla documentazione di base, in particolare per quanto riguarda le regole di elaborazione delle e-mail e la qualifica della posta indesiderata. [Leggi tutto](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 La sezione dedicata all&#39;archiviazione con CCN e-mail è stata spostata e aggiornata. [Leggi tutto](../../sending/using/archiving.md)
 
