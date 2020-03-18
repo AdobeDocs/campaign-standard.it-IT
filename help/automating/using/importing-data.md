@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ca603abd9b4ef1a9272a89acb62dee545b76114
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -131,7 +131,7 @@ Una volta elaborata la richiesta, i comandi di cifratura/decrittazione saranno d
 * [Caricare file](../../automating/using/load-file.md)
 * [Estrarre file](../../automating/using/extract-file.md)
 
-## Creazione di un modello di flusso di lavoro per l’importazione di dati {#example--import-workflow-template}
+## Creazione di modelli di workflow per l&#39;importazione di dati {#example--import-workflow-template}
 
 L’utilizzo di un modello di importazione è una procedura consigliata se è necessario importare regolarmente file con la stessa struttura.
 
@@ -206,7 +206,7 @@ Questo esempio mostra come impostare un flusso di lavoro che può essere riutili
 
       >[!NOTE]
       >
-      >Se prevedete di inviare e-mail dirette a questi profili, accertatevi di includere un indirizzo postale, in quanto queste informazioni sono essenziali per il fornitore di posta diretta. Verificate inoltre che sia selezionata la **[!UICONTROL Address specified]** casella delle informazioni del profilo. Per aggiornare questa opzione da un flusso di lavoro, è sufficiente aggiungere un elemento ai campi da aggiornare, specificare **1** come **[!UICONTROL Source]** e selezionare il `postalAddress/@addrDefined` campo come **[!UICONTROL Destination]**. Per ulteriori informazioni sulla posta diretta e sull&#39;uso dell&#39; **[!UICONTROL Address specified]** opzione, consulta [questo documento](../../channels/using/about-direct-mail.md#recommendations).
+      >Se prevedete di inviare e-mail dirette a questi profili, accertatevi di includere un indirizzo postale, in quanto queste informazioni sono essenziali per il fornitore di posta diretta. Verificate inoltre che sia selezionata la **[!UICONTROL Address specified]** casella delle informazioni del profilo. Per aggiornare questa opzione da un flusso di lavoro, è sufficiente aggiungere un elemento ai campi da aggiornare, specificare **1** come **[!UICONTROL Source]** e selezionare il campo **postalAddress/@addrDefined** come **[!UICONTROL Destination]**. Per ulteriori informazioni sulla posta diretta e sull&#39;uso dell&#39; **[!UICONTROL Address specified]** opzione, consulta [questo documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configurate l&#39; **[!UICONTROL Deduplication]** attività che si trova dopo la transizione contenente profili non riconciliati:
 
