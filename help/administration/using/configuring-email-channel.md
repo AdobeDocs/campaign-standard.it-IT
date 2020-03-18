@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
+source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
 
 ---
 
@@ -78,84 +78,86 @@ Le regole predefinite sono le seguenti:
 
 ### Messaggi di rimbalzo {#bounce-mails}
 
-Quando un&#39;e-mail non riesce, il server dei messaggi remoto restituisce un messaggio di errore bounce all&#39;indirizzo specificato nelle impostazioni dell&#39;applicazione.
+Per i messaggi di errore di consegna sincrona, l&#39;MTA avanzata determina il tipo di rimbalzo e la qualifica e invia tali informazioni a Campaign. Per ulteriori informazioni sull&#39;MTA avanzata di Adobe Campaign, consulta questo [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-Adobe Campaign confronta il contenuto di ogni messaggio di rimbalzo con le stringhe nell&#39;elenco delle regole, quindi le assegna uno dei tre tipi di errore.
-
->[!IMPORTANT]
->
->Dopo l&#39;aggiornamento all&#39;MTA avanzato, i titoli di rimbalzo nella tabella Campagna **[!UICONTROL Message qualification]** non vengono più utilizzati. Per i messaggi di errore di consegna sincrona, l&#39;MTA avanzata determina il tipo di rimbalzo e la qualifica e invia tali informazioni a Campaign. I rimbalzi asincroni sono ancora qualificati dal processo inMail.
->
->Per ulteriori informazioni sull&#39;MTA avanzata di Adobe Campaign, consulta questo [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-L&#39;utente può creare regole personalizzate.
+I messaggi di rimbalzo asincroni sono ancora qualificati dal processo Campaign inMail attraverso la **[!UICONTROL Bounce mails]** regola.
 
 >[!IMPORTANT]
 >
->Quando importate un pacchetto e aggiornate i dati tramite il flusso di lavoro **Aggiorna per la recapito** , le regole create dall&#39;utente vengono sovrascritte.
+>Dopo l&#39;aggiornamento all&#39;MTA avanzato, i titoli di rimbalzo nella tabella Campagna **[!UICONTROL Message qualification]** non vengono più utilizzati. Per ulteriori informazioni sulla qualifica della posta indesiderata, consulta questa [sezione](../../sending/using/understanding-delivery-failures.md).
 
-### Gestione dei domini e-mail {#managing-email-domains}
-
-Le regole di gestione del dominio vengono utilizzate per regolare il flusso di e-mail in uscita per un dominio specifico. Se necessario, vengono campionati i messaggi di rimbalzo e l’invio di blocchi.
-
-Il server di messaggistica di Adobe Campaign applica regole specifiche per i domini, quindi le regole per il caso generale rappresentate da un asterisco nell&#39;elenco delle regole.
+<!--The user can create his own rules.
 
 >[!IMPORTANT]
 >
->Una volta effettuato l’aggiornamento all’MTA avanzata, l’MTA avanzata esegue la firma dell’autenticazione tramite e-mail DKIM (DomainKeys Identified Mail). La firma DKIM da parte dell&#39;MTA della campagna nativa verrà disattivata all&#39;interno della **[!UICONTROL Domain management]** tabella come parte dell&#39;aggiornamento MTA avanzato.
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+
+### Gestione dei domini di posta elettronica {#managing-email-domains}
+
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+The **SMTP parameters** act as filters applied for a blocking rule.
+
+* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
+
+>[!IMPORTANT]
 >
->Per ulteriori informazioni sull&#39;MTA avanzata di Adobe Campaign, consulta questo [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Dopo l&#39;aggiornamento all&#39;MTA avanzato, le regole di Adobe Campaign **[!UICONTROL Domain management]** non vengono più utilizzate.
 
-Per configurare le regole di gestione del dominio, è sufficiente impostare una soglia e selezionare alcuni parametri SMTP. Una **soglia** è un limite calcolato come percentuale di errore oltre il quale tutti i messaggi verso un dominio specifico vengono bloccati.
+**La firma dell&#39;autenticazione dell&#39;e-mail DKIM (DomainKeys Identified Mail)** viene fatta dall&#39;MTA avanzata per tutti i messaggi con tutti i domini. Non firma con **Sender ID**, **DomainKeys**, **DKIM** o **S/MIME** , se non diversamente specificato a livello Enhanced MTA.
 
-I parametri **** SMTP fungono da filtri applicati per una regola di blocco.
-
-* È possibile scegliere se attivare o meno determinati standard di identificazione e chiavi di crittografia per controllare il nome di dominio, ad esempio **Sender ID**, **DomainKeys**, **DKIM** e **S/MIME**.
-* **Relè** SMTP: consente di configurare l’indirizzo IP e la porta di un server di inoltro per un determinato dominio.
+Per ulteriori informazioni sull&#39;MTA avanzata di Adobe Campaign, consulta questo [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### Gestione MX {#mx-management}
 
-Ogni regola definisce una maschera di indirizzo per l&#39;MX. È pertanto ammissibile qualsiasi MX il cui nome corrisponda a questa maschera. La maschera può contenere &quot;*&quot; e &quot;?&quot; caratteri generici.
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
 
-Ad esempio, i seguenti indirizzi:
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-* a.mx.yahoo.com
-* b.mx.yahoo.com
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
+
+>[!IMPORTANT]
+>
+>Dopo l&#39;aggiornamento all&#39;MTA avanzato, le regole di throughput di **[!UICONTROL MX management]** consegna di Adobe Campaign non vengono più utilizzate.
+
+L&#39;MTA avanzata utilizza le proprie regole MX che le consentono di personalizzare il throughput in base al dominio in base alla reputazione storica dell&#39;e-mail e al feedback in tempo reale proveniente dai domini in cui invii le e-mail.
+
+Per ulteriori informazioni sull&#39;MTA avanzata di Adobe Campaign, consulta questo [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+
+For example, the following addresses:
+
+* a.mx.yahoo.com 
+* b.mx.yahoo.com 
 * c.mx.yahoo.com
 
-sono compatibili con le seguenti maschere:
+are compatible with the following masks:
 
-* *.yahoo.com
+* &#42;.yahoo.com
 * ?.mx.yahoo.com
 
-Queste regole vengono applicate in sequenza: viene applicata la prima regola la cui maschera MX è compatibile con l&#39;MX di destinazione.
+These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
+
+The following parameters are available for each rule:
+
+* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
+
+    * A number: the rule will only apply to this publicId.
+    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+
+  If the field is empty, the rule applies to all IDs.
+
+* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
+* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
 >[!IMPORTANT]
 >
->Una volta effettuato l&#39;aggiornamento all&#39;MTA avanzato, le regole di throughput di gestione **** MX di Adobe Campaign non vengono più utilizzate. L&#39;MTA avanzata utilizza le proprie regole MX che le consentono di personalizzare il throughput in base al dominio in base alla reputazione storica dell&#39;e-mail e al feedback in tempo reale proveniente dai domini in cui invii le e-mail.
->
->Per ulteriori informazioni sull&#39;MTA avanzata di Adobe Campaign, consulta questo [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
-Per ogni regola sono disponibili i seguenti parametri:
-
-* **[!UICONTROL Range of IDs]**: questa opzione consente di indicare gli intervalli di identificatori (publicId) per i quali si applica la regola. Potete specificare:
-
-   * Numero: la regola verrà applicata solo a publicId.
-   * Un intervallo di numeri (numero1-numero2): la regola verrà applicata a tutti gli publicID tra questi due numeri.
-   Se il campo è vuoto, la regola si applica a tutti gli ID.
-
-* **[!UICONTROL Shared]**: questa opzione indica che il numero massimo di messaggi all&#39;ora e di connessioni si applica a tutte le MX collegate a questa regola.
-* **[!UICONTROL Maximum number of connections]**: numero massimo di connessioni simultanee a un MX da un dato indirizzo.
-* **Numero massimo di messaggi**: numero massimo di messaggi che possono essere inviati da una connessione. Dopo questo valore, la connessione viene chiusa e ne viene riaperta una nuova.
-* **[!UICONTROL Messages per hour]**: numero massimo di messaggi che possono essere inviati in un&#39;ora per un MX tramite un dato indirizzo.
-
->[!IMPORTANT]
->
->* Se i parametri sono stati modificati, è necessario riavviare il server di consegna (MTA).
->* La modifica o la creazione di regole di gestione è riservata esclusivamente agli utenti esperti.
->
-
-
+>* The delivery server (MTA) must be restarted if the parameters have been changed. 
+>* The modification or creation of management rules is for expert users only. -->
 
 ## Elenco delle proprietà delle e-mail {#list-of-email-properties}
 
@@ -238,14 +240,14 @@ La **[!UICONTROL Validity period]** sezione contiene i seguenti parametri:
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**:Adobe Campaign invia i messaggi a partire dalla data di inizio. Questo campo consente di specificare la durata durante la quale i messaggi possono essere inviati.
+* **[!UICONTROL Delivery duration]**: Adobe Campaign invia i messaggi a partire dalla data di inizio. Questo campo consente di specificare la durata durante la quale i messaggi possono essere inviati.
 
    >[!IMPORTANT]
    >
    >Dopo l&#39;aggiornamento all&#39;MTA avanzata, il **[!UICONTROL Delivery duration]** parametro nelle consegne di Campaign viene utilizzato solo se impostato su 3,5 giorni o meno. Se si definisce un valore superiore a 3,5 giorni, non verrà preso in considerazione. Tutti gli impatti sono descritti nel documento MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
 
 * **[!UICONTROL Resource validity duration]**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
-* **[!UICONTROL Mirror page management]**: la pagina mirror è una pagina HTML accessibile online tramite un browser Web. Il contenuto è identico al contenuto dell’e-mail. Per impostazione predefinita, la pagina mirror viene generata se il collegamento viene inserito nel contenuto della posta. Questo campo consente di modificare il modo in cui viene generata la pagina:
+* **[!UICONTROL Mirror page management]**: la pagina mirror è una pagina HTML accessibile online tramite un browser Web. Il contenuto è identico al contenuto dell’e-mail. Per impostazione predefinita, la pagina mirror viene generata se il collegamento viene inserito nel contenuto della posta elettronica. Questo campo consente di modificare il modo in cui viene generata la pagina:
 
    >[!IMPORTANT]
    >
@@ -331,37 +333,3 @@ La **[!UICONTROL Access authorization]** sezione contiene i seguenti parametri:
    >Potete configurare le unità organizzative dal menu **Amministrazione** > **Utenti e sicurezza** .
 
 * I **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Modified by]** e **[!UICONTROL Last modified]** i campi vengono completati automaticamente.
-
-## Archiviazione di e-mail {#archiving-emails}
-
-Puoi configurare Adobe Campaign per mantenere una copia dei messaggi e-mail inviati dalla tua piattaforma.
-
-Tuttavia, Adobe Campaign non gestisce i file archiviati. Consente di inviare i messaggi di vostra scelta a un indirizzo dedicato, da dove possono essere elaborati e archiviati utilizzando un sistema esterno.
-
-Quando attivata nel modello di consegna, questa funzione consente di inviare una copia esatta dei messaggi inviati corrispondenti a un indirizzo e-mail CCN (invisibile ai destinatari della consegna) che è necessario specificare.
-
-### Recommendations e limitazioni {#recommendations-and-limitations}
-
-* Questa funzione è facoltativa. Controllare il contratto di licenza e contattare il responsabile commerciale di riferimento per attivarlo.
-* L&#39;indirizzo CCN desiderato deve essere fornito al team Adobe che lo configurerà automaticamente.
-* È possibile utilizzare un solo indirizzo e-mail CCN.
-* Vengono prese in considerazione solo le e-mail inviate correttamente. I rimbalzi non lo sono.
-* Per motivi di privacy, le e-mail in CCN devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII) sicure.
-* Quando si crea un nuovo modello di consegna, CCN e-mail non è abilitata per impostazione predefinita, anche se l&#39;opzione è stata acquistata. È necessario attivarlo manualmente in ogni modello di consegna in cui si desidera utilizzarlo.
-
-### Attivazione dell&#39;archiviazione delle e-mail {#activating-email-archiving}
-
-Ccn e-mail è attivato nel modello [di](../../start/using/marketing-activity-templates.md)e-mail tramite un&#39;opzione dedicata:
-
-1. Andate a **Risorse** > **Modelli** > Modelli **di** consegna.
-1. Duplica il modello predefinito **[!UICONTROL Send via email]** .
-1. Selezionate il modello duplicato.
-1. Fate clic sul **[!UICONTROL Edit properties]** pulsante per modificare le proprietà del modello.
-1. Expand the **[!UICONTROL Send]** section.
-1. Selezionare la **[!UICONTROL Archive emails]** casella per conservare una copia di tutti i messaggi inviati per ogni consegna basata su questo modello.
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->Se le e-mail inviate all&#39;indirizzo CCN vengono aperte e si fa clic su di esse, queste verranno prese in considerazione nell&#39;analisi **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dall&#39;analisi di invio, il che potrebbe causare errori di calcolo.
