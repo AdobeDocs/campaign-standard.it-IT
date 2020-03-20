@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
 
 ---
 
@@ -23,7 +23,7 @@ Cerchi una versione 2017 specifica di Adobe Campaign Standard?
 
 Ogni versione include nuove funzioni e patch. Fate clic su una versione per visualizzarne il contenuto.
 
-Visualizza gli ultimi aggiornamenti [della](../../rn/using/documentation-updates.md) documentazione per Adobe Campaign Standard. Per una versione più recente, consulta questa [pagina](../../rn/using/release-notes.md).
+Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) documentazione più recenti per Adobe Campaign Standard. Per una versione più recente, consulta questa [pagina](../../rn/using/release-notes.md).
 
 ## Rilascio 17.10 - ottobre 2017 {#release-17-10---october-2017}
 
@@ -68,7 +68,7 @@ _E-mail, SMS e posta diretta_
 _Notifiche push_
 
 * Quando si configura il canale di notifica push, la piattaforma del provider push per iOS deve essere **apns** e per Android **gcm**.
-* Risolto un errore che impediva l&#39;aggiunta dell&#39;app mobile iOS nell&#39;interfaccia di Adobe Campaign.
+* È stato risolto un errore che impediva l&#39;aggiunta dell&#39;app mobile iOS nell&#39;interfaccia di Adobe Campaign.
 * Le notifiche push ora sono supportate sia nelle applicazioni mobili Android con abilitazione GCM che nelle applicazioni mobili FCM.
 * È stato corretto un errore che impediva il salvataggio del contenuto durante la duplicazione di un modello di notifica push.
 * È ora possibile creare o aggiornare un profilo dal database di Adobe Campaign riconciliando i dati degli utenti delle applicazioni mobili.
@@ -84,11 +84,11 @@ _Rapporti_
 
 _Flussi di lavoro_
 
-* È stato risolto un problema nell&#39; **[!UICONTROL Load file]**attività che poteva causare errori dopo l&#39;aggiunta e la rimozione manuale delle colonne nell&#39;attività.
-* Il flusso di lavoro **[!UICONTROL deliverabilityUpdate]**tecnico è ora pianificato per essere eseguito alle 2 del mattino, ora del server.
+* È stato risolto un problema nell&#39; **[!UICONTROL Load file]** attività che poteva causare errori dopo l&#39;aggiunta e la rimozione manuale delle colonne nell&#39;attività.
+* Il flusso di lavoro **[!UICONTROL deliverabilityUpdate]** tecnico è ora pianificato per essere eseguito alle 2 del mattino, ora del server.
 * È stato risolto un problema di sicurezza che consentiva di eseguire un&#39;esportazione di elenco senza il ruolo di esportazione.
-* È stato risolto un problema relativo all&#39; **[!UICONTROL Reconciliation]**attività.
-* È stato risolto un problema relativo all&#39;utilizzo di caratteri jolly nell&#39; **[!UICONTROL File Transfer]**attività.
+* È stato risolto un problema relativo all&#39; **[!UICONTROL Reconciliation]** attività.
+* È stato risolto un problema relativo all&#39;utilizzo di caratteri jolly nell&#39; **[!UICONTROL File Transfer]** attività.
 
 _Profili e audience_
 
@@ -118,7 +118,7 @@ _Risorse personalizzate_
  <tbody> 
   <tr> 
    <td> Libreria di modelli e-mail<br /> </td> 
-   <td> Sono stati introdotti diciotto nuovi modelli reattivi creati in due splendidi temi: Astro e Feather. Questi modelli personalizzabili non sono applicabili al settore e sono pronti per essere utilizzati immediatamente. I modelli includono contenuti per una serie di casi di utilizzo per progettare e distribuire le campagne di e-mail marketing in modo più rapido, efficiente e perfetto che mai.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../designing/using/using-reusable-content.md#content-templates"></a>dettagliata.<br /> </td> 
+   <td> Sono stati introdotti diciotto nuovi modelli reattivi creati in due splendidi temi: Astro e Feather. Questi modelli personalizzabili non sono agnostici del settore e sono pronti per essere utilizzati immediatamente. I modelli includono contenuti per una serie di casi di utilizzo per progettare e distribuire le campagne di e-mail marketing in modo più rapido, efficiente e perfetto che in passato.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../designing/using/using-reusable-content.md#content-templates"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
    <td> Generazione di rapporti dinamici con dati profilo<br /> </td> 
@@ -158,7 +158,7 @@ _Rapporti_
 
 * Il rapporto **Clic** con attivazione è stato migliorato. Inoltre, ora è possibile visualizzare clic a seconda di ogni contenuto condizionale definito in una consegna e visualizzare clic per ogni esecuzione di consegne ricorrenti o messaggi transazionali. Per ulteriori informazioni, consulta la documentazione [](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)dettagliata.
 * È stato risolto un problema che impediva alla metrica quarantena di recuperare dati corretti.
-* Al widget calendario è stato aggiunto un nuovo intervallo di tempo predefinito.
+* Al widget del calendario è stato aggiunto un nuovo intervallo di tempo predefinito.
 * Le metriche [dei report](../../reporting/using/indicator-calculation.md) dinamici e i KPI [delle](../../sending/using/confirming-the-send.md) campagne (visualizzati sul dashboard dei messaggi inviati) sono stati allineati per una maggiore coerenza.
 * È stato risolto un problema che poteva causare l&#39;arresto anomalo del gasdotto su debian 7.
 
@@ -190,7 +190,7 @@ _Profili e audience_
  <tbody> 
   <tr> 
    <td> Invio di e-mail e SMS in più lingue<br /> </td> 
-   <td> Definite ed eseguite le consegne di e-mail e SMS in più lingue attraverso un'unica distribuzione basata sulla lingua preferita dei clienti segmentati automaticamente. Report sulle prestazioni di ogni distribuzione fino al livello della lingua e dei singoli livelli.<br /> Sempre più aziende devono affrontare la sfida di distribuire contenuti in più lingue man mano che crescono a livello nazionale e internazionale. La semplificazione della distribuzione dei messaggi localizzati è pertanto un elemento chiave di una strategia di comunicazione efficace per le multinazionali; società in paesi con più lingue; e le aziende che desiderano personalizzare ulteriormente i propri contenuti a livello linguistico, indipendentemente dal luogo in cui risiedono i clienti. Per ulteriori informazioni, consulta la documentazione <a href="../../channels/using/creating-a-multilingual-email.md"></a>dettagliata.<br /> </td> 
+   <td> Definite ed eseguite le consegne di e-mail e SMS in più lingue attraverso un'unica distribuzione basata sulla lingua preferita dei clienti segmentati automaticamente. Report sulle prestazioni di ogni distribuzione fino al livello della lingua e dei singoli livelli.<br /> Sempre più aziende devono affrontare la sfida di distribuire contenuti in più lingue man mano che crescono sia in patria che all'estero. La semplificazione della distribuzione dei messaggi localizzati è pertanto un elemento chiave di una strategia di comunicazione efficace per le multinazionali; società in paesi con più lingue; e le aziende che desiderano personalizzare ulteriormente i propri contenuti a livello linguistico, indipendentemente dal luogo in cui risiedono i clienti. Per ulteriori informazioni, consulta la documentazione <a href="../../channels/using/creating-a-multilingual-email.md"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notifiche di Adobe Campaign<br /> </td> 
@@ -219,17 +219,17 @@ _Profili e audience_
 
 _Generale_
 
-* È stato risolto un problema che consentiva a qualsiasi utente di esportare elenchi. Ora è consentito solo agli utenti con **[!UICONTROL Export]**ruolo.
+* È stato risolto un problema che consentiva a qualsiasi utente di esportare elenchi. Ora è consentito solo agli utenti con **[!UICONTROL Export]** ruolo.
 
 _E-mail, SMS e posta diretta_
 
 * È stato risolto un problema con il flusso di lavoro **updateDeliveryExecInfo** che impostava l&#39;indicatore **Per distribuire** su 0 per le consegne via SMS.
 * Nei parametri **** avanzati delle proprietà del modello di consegna, l&#39;elenco a discesa **Routing** ora visualizza solo gli account esterni corrispondenti al tipo di messaggio del modello. Ad esempio, un modello di consegna per e-mail visualizza solo gli account esterni per le e-mail.
-* È stato risolto un problema con il formato e-mail **[!UICONTROL Text]**preferito definito per i profili di test.
+* È stato risolto un problema con il formato e-mail **[!UICONTROL Text]** preferito definito per i profili di test.
 * È stato risolto un problema che causava un errore Javascript nella selezione del fuso orario predefinito nella schermata di definizione della pianificazione di una consegna.
 * È stato risolto un problema che impediva la visualizzazione dei trap nei registri di invio.
 * Nella schermata di selezione dei modelli della procedura guidata per la creazione della consegna, i modelli di test A/B e follow-up ora sono nascosti per impostazione predefinita. Per ulteriori informazioni, consultare la documentazione [dettagliata](../../channels/using/creating-an-email.md).
-* È stato risolto un problema che consentiva a qualsiasi utente di inviare le consegne. Ora è consentito solo agli utenti con **[!UICONTROL Start deliveries]**ruolo. Per ulteriori informazioni, consultare la documentazione[dettagliata](../../sending/using/confirming-the-send.md).
+* È stato risolto un problema che consentiva a qualsiasi utente di inviare le consegne. Ora è consentito solo agli utenti con **[!UICONTROL Start deliveries]** ruolo. Per ulteriori informazioni, consultare la documentazione [dettagliata](../../sending/using/confirming-the-send.md).
 
 _Notifiche push_
 
@@ -270,7 +270,7 @@ _Flussi di lavoro_
   </tr> 
   <tr> 
    <td> Ccn e-mail<br /> </td> 
-   <td> Ccn e-mail consente di salvare messaggi e-mail univoci inviati a singoli destinatari, consentendo al marchio di archiviarli. Aggiungendo un indirizzo e-mail CCN a tutte le e-mail, i clienti di Adobe Campaign Standard possono conservare una copia esatta di ogni e-mail con questa funzione. Si tratta di un requisito giuridico comune per il settore dei servizi finanziari ed è utile per aiutare i centri di assistenza clienti a risolvere i conflitti in tempo reale.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../administration/using/configuring-email-channel.md#archiving-emails"></a>dettagliata.<br /> </td> 
+   <td> Ccn e-mail consente di salvare messaggi e-mail univoci inviati a singoli destinatari, consentendo al marchio di archiviarli. Aggiungendo un indirizzo e-mail CCN a tutte le e-mail, i clienti di Adobe Campaign Standard possono conservare una copia esatta di ogni e-mail con questa funzione. Si tratta di un requisito giuridico comune per il settore dei servizi finanziari ed è utile per aiutare i centri di assistenza clienti a risolvere i conflitti in tempo reale.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../sending/using/archiving.md"></a>dettagliata.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -279,27 +279,27 @@ _Flussi di lavoro_
 
 _Aggiornamenti dell&#39;interfaccia_
 
-* Nella barra superiore, il **[!UICONTROL Timeline]**collegamento è stato rimosso e sostituito con un collegamento a**[!UICONTROL Programs & Campaigns]** .
+* Nella barra superiore, il **[!UICONTROL Timeline]** collegamento è stato rimosso e sostituito con un collegamento a **[!UICONTROL Programs & Campaigns]** .
 
 _E-mail e messaggi SMS_
 
-* È stato risolto un problema che causava la visualizzazione del colore errato per lo stato **[!UICONTROL Retry in progress]**di consegna. Il colore era grigio invece del blu.
+* È stato risolto un problema che causava la visualizzazione del colore errato per lo stato **[!UICONTROL Retry in progress]** di consegna. Il colore era grigio invece del blu.
 
 _Flussi di lavoro_
 
-* È stato risolto un problema che si verificava durante la modifica dell&#39;azione da eseguire in un&#39; **[!UICONTROL Transfer file]**attività.
+* È stato risolto un problema che si verificava durante la modifica dell&#39;azione da eseguire in un&#39; **[!UICONTROL Transfer file]** attività.
 
 _Rapporti_
 
-* I calcoli **[!UICONTROL Spam]**e gli**[!UICONTROL Spam rate]** indicatori sono stati modificati.
-* Le **[!UICONTROL Bounce]**metriche sono state migliorate per ottenere risultati più precisi.
+* I calcoli **[!UICONTROL Spam]** e gli **[!UICONTROL Spam rate]** indicatori sono stati modificati.
+* Le **[!UICONTROL Bounce]** metriche sono state migliorate per ottenere risultati più precisi.
 
 _Notifiche push_
 
 * È stato risolto un problema che impediva di fare clic su un evento push nella cronologia marketing di un profilo.
 * È stato migliorato l&#39;utilizzo delle notifiche push nei flussi di lavoro.
 
-## Rilascio 17.4 - aprile 2017 {#release-17-4---april-2017}
+## Rilascio 17.4 - Aprile 2017 {#release-17-4---april-2017}
 
 **Nuove funzionalità**
 
@@ -312,7 +312,7 @@ _Notifiche push_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Funzionalità edizione Immagine migliorate con Creative SDK<br /> </td> 
+   <td> Funzionalità edizione delle immagini migliorate con Creative SDK<br /> </td> 
    <td> Ora potete accedere a un set completo di funzioni basato su Creative SDK per migliorare le immagini direttamente nell'editor dei contenuti durante la modifica di e-mail o la pagina di destinazione.<br /> Questa funzione non richiede l'acquisizione di soluzioni Creative Cloud aggiuntive.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
@@ -321,7 +321,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Notifiche push ricorrenti<br /> </td> 
-   <td> Ora puoi configurare notifiche push ricorrenti in un flusso di lavoro. Potete utilizzare notifiche push ricorrenti in situazioni in cui i clienti si aspettano aggiornamenti periodici, come promemoria settimanali per controllare nuovi contenuti o promozioni.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../automating/using/push-notification-delivery.md"></a>dettagliata.<br /> </td> 
+   <td> Ora puoi configurare notifiche push ricorrenti in un flusso di lavoro. Potete utilizzare notifiche push ricorrenti in situazioni in cui i clienti si aspettano aggiornamenti periodici, come promemoria settimanali per il check-out di nuovi contenuti o promozioni.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../automating/using/push-notification-delivery.md"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
    <td> Connettore Amazon S3 (Simple Storage Service)<br /> </td> 
@@ -355,14 +355,14 @@ _Messaggi transazionali_
 
 _Pagine di destinazione_
 
-* Abbiamo ottimizzato il **[!UICONTROL by email]**filtro utilizzato nelle pagine di destinazione per riconciliare i nuovi sottoscrittori con i profili di database.
-* È stato risolto un problema che causava la visualizzazione di input di testo libero invece delle caselle di controllo quando si utilizzavano campi booleani in una configurazione del modulo.
+* Abbiamo ottimizzato il **[!UICONTROL by email]** filtro utilizzato nelle pagine di destinazione per riconciliare i nuovi sottoscrittori con i profili di database.
+* È stato risolto un problema che causava la visualizzazione di input di testo gratuiti invece delle caselle di controllo quando si utilizzavano campi booleani in una configurazione del modulo.
 * È stato risolto un problema che impediva la generazione delle miniature delle pagine di destinazione.
 
 _Flussi di lavoro_
 
-* È stato corretto un errore di visualizzazione durante la modifica di un&#39; **[!UICONTROL End]**attività o**[!UICONTROL External Signal]** un&#39;attività (solo in Safari).
-* È stato migliorato il messaggio di errore visualizzato durante la modifica di un&#39; **[!UICONTROL Read Audience]**attività contenente un&#39;audience errata.
+* È stato corretto un errore di visualizzazione durante la modifica di un&#39; **[!UICONTROL End]** attività o **[!UICONTROL External Signal]** un&#39;attività (solo in Safari).
+* È stato migliorato il messaggio di errore visualizzato durante la modifica di un&#39; **[!UICONTROL Read Audience]** attività contenente un&#39;audience errata.
 * È stato risolto un problema che poteva causare un errore SQL durante l&#39;esecuzione di un&#39;attività di iscrizione.
 
 _Integrazioni_
@@ -372,7 +372,7 @@ _Integrazioni_
 _Audience e query_
 
 * È stato risolto un problema che impediva l&#39;utilizzo di aggregati di somma e media in una raccolta nell&#39;editor di query.
-* È stato risolto un problema che poteva impedire il ricaricamento dell&#39;editor query dopo la modifica della risorsa del filtro.
+* È stato risolto un problema che poteva impedire il ricaricamento dell&#39;editor di query dopo la modifica della risorsa del filtro.
 
 _Rapporti_
 
@@ -454,7 +454,7 @@ _Generale_
 
 _E-mail e messaggi SMS_
 
-* È stato risolto un problema a causa del quale l&#39; **[!UICONTROL Request confirmation before sending messages]**opzione rimaneva selezionata anche dopo averla deselezionata e aver salvato la consegna.
+* È stato risolto un problema a causa del quale l&#39; **[!UICONTROL Request confirmation before sending messages]** opzione rimaneva selezionata anche dopo averla deselezionata e aver salvato la consegna.
 * È stato risolto un problema che poteva impedire l&#39;annullamento della pubblicazione di e-mail transazionali.
 * È stato corretto un problema a causa del quale il contenuto non poteva essere sincronizzato correttamente con le ultime modifiche prima di visualizzare l&#39;anteprima di una distribuzione.
 
@@ -464,8 +464,8 @@ _Pagine di destinazione_
 
 _Flussi di lavoro_
 
-* È stato risolto un problema che poteva impedire la lettura del contenuto della transizione di rifiuto di un&#39; **[!UICONTROL Load file]**attività.
-* È stato risolto un problema che impediva alle colonne scambiate di essere prese in considerazione quando si configurava un&#39; **[!UICONTROL Load file]**attività.
+* È stato risolto un problema che poteva impedire la lettura del contenuto della transizione di rifiuto di un&#39; **[!UICONTROL Load file]** attività.
+* È stato risolto un problema che impediva alle colonne scambiate di essere prese in considerazione quando si configurava un&#39; **[!UICONTROL Load file]** attività.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
@@ -513,10 +513,10 @@ _Flussi di lavoro_
 
 _Generale_
 
-* Le **[!UICONTROL Access authorization]**opzioni sono tornate alle proprietà della pagina di destinazione.
+* Le **[!UICONTROL Access authorization]** opzioni sono tornate alle proprietà della pagina di destinazione.
 * È stato risolto un problema che poteva causare il rendering di una vecchia immagine invece dell&#39;immagine corretta. Ciò si verificava se l&#39;immagine sorgente era stata aggiornata nella definizione di contenuto di una pagina di consegna o di destinazione.
 * È stato risolto un problema che impediva agli utenti di modificare alcuni campi in un account esterno SFTP esistente.
-* Sono stati corretti diversi problemi di interfaccia utente. Ad esempio, gli utenti possono modificare gli attributi del profilo e salvare le modifiche senza problemi con l&#39;interfaccia utente.
+* Sono stati corretti diversi problemi di interfaccia utente. Ad esempio, gli utenti ora possono modificare gli attributi di profilo e salvare le modifiche senza problemi con l&#39;interfaccia utente.
 
 _E-mail e messaggi SMS_
 
@@ -525,21 +525,21 @@ _E-mail e messaggi SMS_
 _Notifiche push_
 
 * È stato risolto un problema che poteva impedire il postback di un&#39;applicazione al server Adobe Campaign.
-* È stato risolto un problema che poteva impedire **[!UICONTROL Play a sound]**e**[!UICONTROL Custom fields]** di cui tener conto per Android.
+* È stato risolto un problema che poteva impedire **[!UICONTROL Play a sound]** e **[!UICONTROL Custom fields]** di cui tener conto per Android.
 * È stato risolto un problema che poteva causare l&#39;aggiunta di un carattere di escape aggiuntivo ai caratteri Unicode utilizzati per Emojis.
 * Quando il token di registrazione di un utente iscritto viene inserito in blacklist, lo stato corrispondente viene aggiornato immediatamente nell&#39;elenco degli utenti iscritti all&#39;applicazione in Adobe Campaign.
 
 _Flussi di lavoro_
 
 * È stato risolto un problema che poteva impedire l&#39;anteprima delle query sulle risorse dell&#39;evento (ad esempio, rtEvent).
-* Il file di rifiuto generato da un&#39; **[!UICONTROL Load file]**attività ora può essere recuperato nella relativa transizione in uscita ed elaborato nell&#39;attività successiva. Ad esempio, caricate il file di rifiuto tramite un server SFTP utilizzando**[!UICONTROL Transfer file]** .
-* È stato risolto un problema che poteva impedire a un utente di limitare la popolazione di un segmento se **[!UICONTROL Temporary resource]**era stato selezionato nella**[!UICONTROL General]** scheda di **[!UICONTROL Segmentation]**.
-* **[!UICONTROL Scheduler]**le attività non possono più essere impostate per attivare un flusso di lavoro più volte ogni 10 minuti.
-* È stato risolto un problema che poteva impedire **[!UICONTROL Use common columns]**il corretto funzionamento in un&#39;**[!UICONTROL Union]** attività.
+* Il file di rifiuto generato da un&#39; **[!UICONTROL Load file]** attività ora può essere recuperato nella relativa transizione in uscita ed elaborato nell&#39;attività successiva. Ad esempio, caricate il file di rifiuto tramite un server SFTP utilizzando **[!UICONTROL Transfer file]** .
+* È stato risolto un problema che poteva impedire a un utente di limitare la popolazione di un segmento se **[!UICONTROL Temporary resource]** era stato selezionato nella **[!UICONTROL General]** scheda di **[!UICONTROL Segmentation]** .
+* **[!UICONTROL Scheduler]** le attività non possono più essere impostate per attivare un flusso di lavoro più volte ogni 10 minuti.
+* È stato risolto un problema che poteva impedire **[!UICONTROL Use common columns]** il corretto funzionamento in un&#39; **[!UICONTROL Union]** attività.
 
 _Integrazioni_
 
 * È stato risolto un problema che poteva causare un errore durante la distribuzione di un attivatore evento in Adobe Campaign. Questo errore si verificava quando i metadati &quot;Probabilità di restituzione entro 30 giorni&quot; venivano aggiunti al trigger di abbandono in Adobe Marketing Cloud.
 * È stato risolto un problema che poteva causare la cancellazione del campo Dimensione destinazione da parte del flusso di lavoro tecnico durante l&#39;importazione di audience dal servizio di base Persone. Impossibile recuperare le audience importate dalle query successive.
-* È stato risolto un problema che poteva causare il fallimento dell&#39; **[!UICONTROL Save audience]**attività di un flusso di lavoro quando l&#39;opzione**[!UICONTROL Share in Adobe Marketing Cloud]** era selezionata.
+* È stato risolto un problema che poteva causare il fallimento dell&#39; **[!UICONTROL Save audience]** attività di un flusso di lavoro quando l&#39;opzione **[!UICONTROL Share in Adobe Marketing Cloud]** era selezionata.
 
