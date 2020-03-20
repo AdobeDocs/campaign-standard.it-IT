@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 490908e5fe0810c0a07c73fef5040ddb42983019
+source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
 
 ---
 
@@ -50,7 +50,7 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
   <tr> 
    <td> <p> A partire dalla versione 20.1, SDK v4 è obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Ulteriori</a>informazioni.</p><br/>
    <p>L’SDK <a href="https://aep-sdks.gitbook.io/docs/"></a> Adobe Experience Platform Mobile (in precedenza denominato v5) supporterà esclusivamente le funzionalità e le funzionalità di Adobe Experience Cloud in arrivo.</p></br>
-     <p>Data di rimozione destinazione:30 settembre 2020</p>
+     <p>Data di rimozione destinazione: 30 settembre 2020</p>
      </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,7 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
  <tbody> 
   <tr> 
    <td> <p>Adobe Creative SDK è stato disattivato. Di conseguenza, l'edizione dell'immagine fornita da Creative SDK nelle e-mail di Campaign Standard è obsoleta a partire dalla release 20.1.</p></br>
-  <p> Data di rimozione destinazione:Marzo 2020 - Rilascio Campaign 20.2</p>
+  <p> Data di rimozione destinazione: Marzo 2020 - Rilascio Campaign 20.2</p>
    </td> 
   </tr> 
  </tbody> 
@@ -78,9 +78,9 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione Campaign 19.4, l'utilizzo dell'API Campaign e dell'interfaccia per l'accesso e l'eliminazione delle richieste è obsoleto. Utilizzate il servizio <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">di base sulla privacy di</a>Adobe.</p></br>
+   <td> <p>A partire dalla versione Campaign 19.4, l'utilizzo dell'API Campaign e dell'interfaccia per l'accesso e l'eliminazione delle richieste è obsoleto. L'eliminazione del profilo in due fasi non sarà disponibile. Utilizzate il servizio <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">di base sulla privacy di</a>Adobe.</p></br>
    <p>Vedi anche Gestione della <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">privacy in Campaign Standard</a>.</p>
-  <p> Data di rimozione destinazione:Luglio 2020 - Rilascio Campaign 20.5</p>
+  <p> Data di rimozione destinazione: Luglio 2020 - Rilascio Campaign 20.5</p>
    </td> 
   </tr> 
  </tbody> 
@@ -96,7 +96,7 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
   <tr> 
    <td> <p>A partire dalla versione di Campaign 19.0, l'editor e-mail legacy è diventato obsoleto. Utilizzate <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">il nuovo e-mail Designer</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
    <p>Leggete <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">questa sezione</a> per apprendere come adattare i modelli delle e-mail per il nuovo editor.</p></br>
-  <p> Data di rimozione destinazione:Ottobre 2020 - Rilascio Campaign 20.6</p>
+  <p> Data di rimozione destinazione: Ottobre 2020 - Rilascio Campaign 20.6</p>
    </td> 
   </tr> 
  </tbody> 
