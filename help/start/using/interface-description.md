@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
 
 ---
 
@@ -41,10 +41,10 @@ La pagina principale è composta da una serie di schede che consentono di accede
 * La **[!UICONTROL Create a Direct mail]** scheda porta all&#39;assistente per la creazione diretta della posta. Fare riferimento alla sezione [Creazione di una posta](../../channels/using/creating-the-direct-mail.md) diretta.
 * La **[!UICONTROL Create a push notification]** scheda porta all&#39;assistente per la creazione delle notifiche. Questo assistente consente di scegliere un tipo di notifica push, selezionare i destinatari del messaggio e definire il contenuto. Fate riferimento alla sezione [Creazione di una notifica](../../channels/using/preparing-and-sending-a-push-notification.md) push.
 * La **[!UICONTROL Create an InApp message]** scheda vi porta all&#39;assistente di creazione InApp. Questa assistente consente di selezionare il tipo di messaggio InApp che si desidera creare, definire le relative proprietà, pubblico e contenuto. Fate riferimento alla sezione [Creazione di un messaggio](../../channels/using/about-in-app-messaging.md) InApp.
-* La **[!UICONTROL Marketing activities]** scheda contiene l&#39;elenco completo di tutte le attività, i programmi e le campagne, in particolare e-mail, SMS, flussi di lavoro e pagine di destinazione. Da qui potete filtrare gli elementi ricercando per nome, data, stato o tipo di attività. Per ulteriori informazioni, consultate la sezione Elenco [attività](../../start/using/marketing-activities.md#about-marketing-activities) marketing.
+* La **[!UICONTROL Marketing activities]** scheda contiene l&#39;elenco completo di tutte le attività, i programmi e le campagne, in particolare e-mail, SMS, flussi di lavoro e pagine di destinazione. Da qui potete filtrare gli elementi ricercando per nome, data, stato o tipo di attività. Per ulteriori informazioni, consulta la sezione Elenco [attività](../../start/using/marketing-activities.md#about-marketing-activities) marketing.
 * La **[!UICONTROL Programs & campaigns]** scheda consente di visualizzare l&#39;elenco dei programmi in cui è possibile creare e gestire le campagne. Fare riferimento all&#39;elenco [](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)Programma.
 * La **[!UICONTROL Timeline]** scheda vi porta direttamente a una cronologia interattiva delle attività di marketing, nella quale potete consultare i programmi in corso e i loro contenuti. Fare riferimento alla [timeline](../../start/using/timeline.md).
-* La **[!UICONTROL Customer profiles]** scheda porta direttamente all&#39;elenco dei profili. Da qui è possibile consultare gli eventi relativi a ciascuno dei profili presenti nell&#39;elenco. Consultate [Gestione dei profili](../../audiences/using/about-profiles.md).
+* La **[!UICONTROL Customer profiles]** scheda porta direttamente all&#39;elenco dei profili. Da qui è possibile consultare gli eventi relativi a ciascuno dei profili presenti nell&#39;elenco. Fare riferimento a [Gestione dei profili](../../audiences/using/about-profiles.md).
 * La **[!UICONTROL Audiences]** scheda vi porta direttamente all&#39;elenco delle audience. Da qui potete accedere a tipi di pubblico esistenti e crearne di nuovi. Fate riferimento a [Gestione dell&#39;audience](../../audiences/using/about-audiences.md).
 
 ## Barra superiore {#top-bar}
@@ -60,12 +60,25 @@ I principi di navigazione sono:
 * Il **[!UICONTROL Home]** collegamento consente di visualizzare la home page di Adobe Campaign.
 * I **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]****[!UICONTROL Audiences]** e **[!UICONTROL Reports]** i collegamenti consentono di accedere alle viste collegate a tali funzionalità.
 * Il **[!UICONTROL Help]** pulsante permette di accedere alla documentazione del prodotto e all’aiuto contestuale, alle note sulla versione, ai numeri di versione, alle note legali, nonché ai collegamenti verso la comunità Adobe Experience Cloud e l’assistenza clienti.
-
-   ![](assets/ux_help.png)
-
-* L&#39;icona **Seleziona soluzione** consente di passare a un&#39;altra soluzione Adobe Experience Cloud e alle impostazioni del profilo.
+* Il pulsante Organizzazione
+* L&#39;icona **dello switcher** della soluzione consente di passare a un&#39;altra soluzione Adobe Experience Cloud e alle impostazioni del profilo.
 * L&#39;icona **Notifiche** visualizza gli avvisi o le informazioni più recenti.
 * L’icona **Utente** consente di visualizzare le informazioni collegate al profilo. Consente di accedere al **[!UICONTROL Sign out]** pulsante.
+
+### Aiuto {#help}
+
+* **[!UICONTROL Search]** consente di recuperare documentazione, articoli e video e filtrare il contenuto per soluzione
+
+* **[!UICONTROL Help]** tab
+   * I collegamenti consentono di accedere rapidamente agli articoli, alla documentazione e ai video relativi alla pagina che si sta sfogliando
+   * **[!UICONTROL Learning]** questo collegamento consente di accedere a Experience League.
+   * **[!UICONTROL Community]** questo collegamento consente di accedere al forum dedicato alle domande su ACS.
+
+* **[!UICONTROL Support]** tab consente di creare un biglietto di supporto e di contattarci via telefono o Twitter.
+
+* **[!UICONTROL Feedback ]** tab consente di condividere problemi e idee sulla soluzione.
+
+   ![](assets/ux_help.png)
 
 ## Menu Avanzate {#advanced-menu}
 
@@ -115,7 +128,7 @@ Il contenuto e il formato di visualizzazione della zona centrale possono variare
 
    ![](assets/ux_liste.png)
 
-   Un contatore consente di conoscere il numero di elementi. Se questo numero supera 30, è necessario fare clic su questo contatore per ottenere il numero totale.
+   Un contatore consente di conoscere il numero di elementi. Se questo numero supera i 30, è necessario fare clic su questo contatore per ottenere il numero totale.
 
 * Una **dashboard** che presenta una panoramica di tutti i parametri collegati a un&#39;attività. Questa schermata include aree interattive che consentono di separare e configurare i diversi concetti in modo indipendente.
 
@@ -142,4 +155,3 @@ Questa barra contiene non solo azioni comuni come ricerca e filtro, ma anche azi
 * Per le azioni relative alle schermate dei tipi di **area** di lavoro, fare riferimento alla sezione della barra [delle](../../automating/using/workflow-interface.md#action-bar) azioni relativa ai flussi di lavoro.
 * Per ulteriori informazioni sulle azioni relative alle schermate **dashboard** , consulta la sezione Pannello [](../../channels/using/message-dashboard.md) messaggio.
 * Per le azioni relative alle schermate dei tipi di **elenco** , fare riferimento alla sezione [Personalizzazione degli elenchi](../../start/using/customizing-lists.md) di seguito.
-
