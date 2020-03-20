@@ -12,14 +12,14 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # Informazioni sull’invio di messaggi con Campaign{#about-sending-messages-with-campaign}
 
-Dopo aver definito la destinazione e creato il contenuto di un messaggio, è necessario testarla e approvarla prima di inviarla alla destinazione principale. Per eseguire questa operazione:
+Dopo aver definito la destinazione e creato il contenuto di un messaggio, è necessario testarla e approvarla prima di inviare il messaggio alla destinazione principale. Per eseguire questa operazione:
 
 * Visualizzate l&#39;anteprima della distribuzione utilizzando un profilo di test.
 * Pianificare l&#39;invio: definire quando inviare il messaggio.
