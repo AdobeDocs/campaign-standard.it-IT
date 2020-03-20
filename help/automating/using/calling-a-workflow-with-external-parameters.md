@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -21,22 +21,22 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Campaign Standard consente di richiamare un flusso di lavoro con parametri (un nome di audience per il targeting, un nome di file da importare, una parte del contenuto del messaggio, ecc.). In questo modo, puoi integrare facilmente le automatizzazioni Campaign con il sistema esterno.
 
-Prendiamo l'esempio seguente, in cui desideriamo inviare e-mail direttamente da un CMS. In tal caso, potete configurare il sistema per selezionare l'audience e il contenuto dell'e-mail nel CMS. Facendo clic su Invia, si chiamerà un flusso di lavoro Campaign con questi parametri, che consente di utilizzarli nel flusso di lavoro per definire il pubblico e il contenuto dell'URL da utilizzare nella distribuzione.
+Prendiamo l&#39;esempio seguente, in cui desideriamo inviare e-mail direttamente da un CMS. In tal caso, potete configurare il sistema per selezionare l&#39;audience e il contenuto dell&#39;e-mail nel CMS. Facendo clic su Invia, si chiamerà un flusso di lavoro Campaign con questi parametri, per consentirvi di utilizzarli nel flusso di lavoro per definire il pubblico e il contenuto dell&#39;URL da utilizzare nella distribuzione.
 
 La procedura da seguire per chiamare un flusso di lavoro con parametri è la seguente:
 
-1. Dichiarare i parametri nell' **[!UICONTROL External signal]** attività. Vedete [Dichiarazione dei parametri nell'attività](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)del segnale esterno.
-1. Configurate l' **[!UICONTROL End]** attività o la chiamata API per definire i parametri e attivare l' **[!UICONTROL External signal]** attività del flusso di lavoro.
+1. Dichiarare i parametri nell&#39; **[!UICONTROL External signal]** attività. Vedete [Dichiarazione dei parametri nell&#39;attività](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)del segnale esterno.
+1. Configurate l&#39; **[!UICONTROL End]** attività o la chiamata API per definire i parametri e attivare l&#39; **[!UICONTROL External signal]** attività del flusso di lavoro.
 
-Una volta attivato il flusso di lavoro, i parametri vengono assimilati nelle variabili di eventi del flusso di lavoro e possono essere utilizzati all'interno del flusso di lavoro. Consultate [Personalizzazione di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)esterni.
+Una volta attivato il flusso di lavoro, i parametri vengono assimilati nelle variabili di eventi del flusso di lavoro e possono essere utilizzati all&#39;interno del flusso di lavoro. Consultate [Personalizzazione di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)esterni.
 
 ![](assets/extsignal_process.png)
 
-## Dichiarazione dei parametri nell'attività del segnale esterno {#declaring-the-parameters-in-the-external-signal-activity}
+## Dichiarazione dei parametri nell&#39;attività del segnale esterno {#declaring-the-parameters-in-the-external-signal-activity}
 
-Il primo passo per chiamare un flusso di lavoro con parametri consiste nel dichiararlo in un' **[!UICONTROL External signal]** attività.
+Il primo passo per chiamare un flusso di lavoro con parametri consiste nel dichiararlo in un&#39; **[!UICONTROL External signal]** attività.
 
-1. Aprite l' **[!UICONTROL External signal]** attività, quindi selezionate la **[!UICONTROL Parameters]** scheda.
+1. Aprite l&#39; **[!UICONTROL External signal]** attività, quindi selezionate la **[!UICONTROL Parameters]** scheda.
 1. Fate clic sul **[!UICONTROL Create element]** pulsante, quindi specificate il nome e il tipo di ogni parametro.
 
    >[!CAUTION]
@@ -53,30 +53,30 @@ In questa sezione viene illustrato come definire i parametri durante la chiamata
 
 Prima di definire i parametri, accertatevi che:
 
-* I parametri sono stati dichiarati nell' **[!UICONTROL External Signal]** attività. Vedete [Dichiarazione dei parametri nell'attività](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)del segnale esterno.
-* Il flusso di lavoro contenente l'attività del segnale è in esecuzione.
+* I parametri sono stati dichiarati nell&#39; **[!UICONTROL External Signal]** attività. Vedete [Dichiarazione dei parametri nell&#39;attività](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)del segnale esterno.
+* Il flusso di lavoro contenente l&#39;attività del segnale è in esecuzione.
 
-Per configurare l' **[!UICONTROL End]** attività, attenetevi alla procedura seguente:
+Per configurare l&#39; **[!UICONTROL End]** attività, attenetevi alla procedura seguente:
 
-1. Aprite l' **[!UICONTROL End]** attività, quindi selezionate la **[!UICONTROL External signal]** scheda.
+1. Aprite l&#39; **[!UICONTROL End]** attività, quindi selezionate la **[!UICONTROL External signal]** scheda.
 1. Seleziona il flusso di lavoro e l’attività del segnale esterno da chiamare.
 1. Fate clic sul **[!UICONTROL Create element]** pulsante per aggiungere un parametro, quindi compilate il relativo nome e valore.
 
-   * **[!UICONTROL Name]**: il nome dichiarato nell' **[!UICONTROL External signal]** attività (vedere [Dichiarazione dei parametri nell'attività](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)del segnale esterno).
+   * **[!UICONTROL Name]**: il nome dichiarato nell&#39; **[!UICONTROL External signal]** attività (vedere [Dichiarazione dei parametri nell&#39;attività](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)del segnale esterno).
    * **[!UICONTROL Value]**: il valore che si desidera assegnare al parametro. Il valore deve seguire la sintassi **** Standard, descritta in [questa sezione](../../automating/using/advanced-expression-editing.md#standard-syntax).
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >Accertatevi che tutti i parametri siano stati dichiarati nell' **[!UICONTROL External signal]** attività. In caso contrario, si verificherà un errore durante l'esecuzione dell'attività.
+   >Accertatevi che tutti i parametri siano stati dichiarati nell&#39; **[!UICONTROL External signal]** attività. In caso contrario, si verificherà un errore durante l&#39;esecuzione dell&#39;attività.
 
-1. Una volta definiti i parametri, confermate l'attività, quindi salvate il flusso di lavoro.
+1. Una volta definiti i parametri, confermate l&#39;attività, quindi salvate il flusso di lavoro.
 
-## Monitoraggio delle variabili evento {#monitoring-the-events-variables}
+## Monitoraggio delle variabili di eventi {#monitoring-the-events-variables}
 
-È possibile monitorare le variabili di eventi disponibili nel flusso di lavoro, compresi i parametri esterni dichiarati. A questo scopo, effettuate le seguenti operazioni:
+È possibile monitorare le variabili di eventi disponibili nel flusso di lavoro, compresi i parametri esterni dichiarati. A questo scopo, attenetevi alla procedura seguente:
 
-1. Selezionate l'attività che segue l'attività, quindi fate clic sul **[!UICONTROL External signal]** **[!UICONTROL Log and tasks]** pulsante.
+1. Selezionate l&#39;attività che segue l&#39;attività, quindi fate clic sul **[!UICONTROL External signal]** **[!UICONTROL Log and tasks]** pulsante.
 1. Nella **[!UICONTROL Tasks]** scheda, fare clic ![](assets/edit_darkgrey-24px.png) sul pulsante.
 
    ![](assets/extsignal_monitoring_2.png)
@@ -89,15 +89,15 @@ Per configurare l' **[!UICONTROL End]** attività, attenetevi alla procedura seg
 
 Una volta attivato il flusso di lavoro, i parametri vengono assimilati nelle variabili degli eventi e possono essere utilizzati per personalizzare le attività del flusso di lavoro.
 
-Possono, ad esempio, essere utilizzati per definire il pubblico da leggere nell' **[!UICONTROL Read audience]** attività, il nome del file da trasferire nell' **[!UICONTROL Transfer file]** attività, ecc.
+Possono, ad esempio, essere utilizzati per definire il pubblico da leggere nell&#39; **[!UICONTROL Read audience]** attività, il nome del file da trasferire nell&#39; **[!UICONTROL Transfer file]** attività, ecc.
 
-Le attività che possono essere personalizzate con variabili di eventi sono descritte in [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Le attività che possono essere personalizzate con variabili di eventi sono descritte in dettaglio in [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
 ### Uso delle variabili di evento {#using-events-variables}
 
-Le variabili evento sono utilizzate all'interno di un'espressione che deve rispettare la sintassi **[](../../automating/using/advanced-expression-editing.md#standard-syntax)** Standard.
+Le variabili evento sono utilizzate all&#39;interno di un&#39;espressione che deve rispettare la sintassi **[](../../automating/using/advanced-expression-editing.md#standard-syntax)**Standard.
 
-La sintassi per l'utilizzo delle variabili di evento deve seguire il formato seguente e utilizzare il nome del parametro definito nell' **[!UICONTROL External signal]** attività (vedere [Dichiarazione dei parametri nell'attività](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)di segnale esterno):
+La sintassi per l&#39;utilizzo delle variabili di evento deve seguire il formato seguente e utilizzare il nome del parametro definito nell&#39; **[!UICONTROL External signal]** attività (vedere [Dichiarazione dei parametri nell&#39;attività](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)di segnale esterno):
 
 ```
 $(vars/@parameterName)
@@ -110,49 +110,49 @@ In questa sintassi, la funzione **$** restituisce il tipo di dati **stringa** . 
 * **$boolean**: true/false.
 * **$datetime**: timestamp.
 
-Quando si utilizza una variabile in un'attività, l'interfaccia fornisce aiuto per chiamarla.
+Quando si utilizza una variabile in un&#39;attività, l&#39;interfaccia fornisce aiuto per chiamarla.
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png): selezionate la variabile degli eventi tra tutte le variabili disponibili nel flusso di lavoro (consultate ).
+* ![](assets/extsignal_picker.png): selezionate la variabile degli eventi tra tutte le variabili disponibili nel flusso di lavoro.
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): modificare le espressioni combinando variabili e funzioni. Per ulteriori informazioni sull'Editor espressioni, consulta [questa sezione](../../automating/using/advanced-expression-editing.md).
+* ![](assets/extsignal_expression_editor.png): modificare le espressioni combinando variabili e funzioni. Per ulteriori informazioni sull&#39;Editor espressioni, consulta [questa sezione](../../automating/using/advanced-expression-editing.md).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
 **Argomenti correlati:**
 
-* [Modificare un'espressione](../../automating/using/advanced-expression-editing.md#edit-an-expression)
+* [Modificare un&#39;espressione](../../automating/using/advanced-expression-editing.md#edit-an-expression)
 * [Sintassi standard](../../automating/using/advanced-expression-editing.md#standard-syntax)
 * [Elenco delle funzioni](../../automating/using/list-of-functions.md)
 
-### Personalizzazione di attività con variabili di eventi {#customizing-activities-with-events-variables}
+### Personalizzazione delle attività con le variabili degli eventi {#customizing-activities-with-events-variables}
 
-Le variabili evento possono essere utilizzate per personalizzare diverse attività, elencate nella sezione seguente. Per ulteriori informazioni su come chiamare una variabile da un'attività, consultate [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#using-events-variables).
+Le variabili evento possono essere utilizzate per personalizzare diverse attività, elencate nella sezione seguente. Per ulteriori informazioni su come chiamare una variabile da un&#39;attività, consultate [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** activity: definire l'audience di cui eseguire il targeting in base alle variabili di evento.
+**[!UICONTROL Read audience]** activity: definire l&#39;audience di cui eseguire il targeting in base alle variabili di evento.
 
-Per ulteriori informazioni sull'utilizzo dell'attività, consultate la sezione [](../../automating/using/read-audience.md)dedicata.
+Per ulteriori informazioni sull&#39;utilizzo dell&#39;attività, consultate la sezione [](../../automating/using/read-audience.md)dedicata.
 
 ![](assets/extsignal_activities_audience.png)
 
 **[!UICONTROL Test]** activity: creare condizioni basate su variabili di eventi.
 
-Per ulteriori informazioni sull'utilizzo dell'attività, consultate la sezione [](../../automating/using/test.md)dedicata.
+Per ulteriori informazioni sull&#39;utilizzo dell&#39;attività, consultate la sezione [](../../automating/using/test.md)dedicata.
 
 ![](assets/extsignal_activities_test.png)
 
 **[!UICONTROL Transfer file]** activity: personalizzare il file da trasferire in base alle variabili degli eventi.
 
-Per ulteriori informazioni sull'utilizzo dell'attività, consultate la sezione [](../../automating/using/transfer-file.md)dedicata.
+Per ulteriori informazioni sull&#39;utilizzo dell&#39;attività, consultate la sezione [](../../automating/using/transfer-file.md)dedicata.
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** activity: in una query è possibile fare riferimento ai parametri utilizzando espressioni che combinano variabili di eventi e funzioni. A questo scopo, aggiungete una regola e fate clic sul **[!UICONTROL Advanced mode]** collegamento per accedere alla finestra di modifica delle espressioni (consultate Modifica [delle espressioni](../../automating/using/advanced-expression-editing.md)avanzate).
 
-Per ulteriori informazioni sull'utilizzo dell'attività, consultate la sezione [](../../automating/using/query.md)dedicata.
+Per ulteriori informazioni sull&#39;utilizzo dell&#39;attività, consultate la sezione [](../../automating/using/query.md)dedicata.
 
 ![](assets/extsignal_activities_query.png)
 
@@ -162,20 +162,20 @@ Per ulteriori informazioni sull'utilizzo dell'attività, consultate la sezione [
 >
 >I valori dei parametri di consegna vengono recuperati ogni volta che la consegna viene preparata.
 >
->La preparazione delle consegne ricorrenti si basa sul periodo **di** aggregazione delle consegne. Ad esempio, se il periodo di aggregazione è "per giorno", la consegna verrà preparata solo una volta al giorno. Se il valore di un parametro di consegna viene modificato durante il giorno, non verrà aggiornato nella consegna, come è già stato preparato una volta.
+>La preparazione delle consegne ricorrenti si basa sul periodo **di** aggregazione delle consegne. Ad esempio, se il periodo di aggregazione è &quot;per giorno&quot;, la consegna verrà preparata solo una volta al giorno. Se il valore di un parametro di consegna viene modificato durante il giorno, non verrà aggiornato nella consegna, come è già stato preparato una volta.
 >
->Se prevedete di richiamare il flusso di lavoro più volte al giorno, utilizzate l' [!UICONTROL No aggregation] opzione in modo che i parametri di consegna vengano aggiornati ogni volta. Per ulteriori informazioni sulla configurazione delle consegne ricorrenti, consulta [questa sezione](/help/automating/using/email-delivery.md#configuration).
+>Se prevedete di richiamare il flusso di lavoro più volte al giorno, utilizzate l&#39; [!UICONTROL No aggregation] opzione in modo che i parametri di consegna vengano aggiornati ogni volta. Per ulteriori informazioni sulla configurazione delle consegne ricorrenti, consulta [questa sezione](/help/automating/using/email-delivery.md#configuration).
 
-Per personalizzare una consegna basata su variabili di eventi, è innanzitutto necessario dichiarare nell'attività di consegna le variabili che si desidera utilizzare:
+Per personalizzare una consegna basata su variabili di eventi, è innanzitutto necessario dichiarare nell&#39;attività di consegna le variabili che si desidera utilizzare:
 
-1. Selezionate l'attività, quindi fate clic sul ![](assets/dlv_activity_params-24px.png) pulsante per accedere alle impostazioni.
-1. Selezionate la **[!UICONTROL General]** scheda, quindi aggiungete le variabili evento che saranno disponibili come campi di personalizzazione nella distribuzione.
+1. Selezionate l&#39;attività, quindi fate clic sul ![](assets/dlv_activity_params-24px.png) pulsante per accedere alle impostazioni.
+1. Selezionate la **[!UICONTROL General]** scheda, quindi aggiungete le variabili di evento che saranno disponibili come campi di personalizzazione nella distribuzione.
 
    ![](assets/extsignal_activities_delivery.png)
 
 1. Fate clic sul **[!UICONTROL Confirm]** pulsante.
 
-Le variabili degli eventi dichiarati ora sono disponibili nell'elenco dei campi di personalizzazione. Puoi utilizzarli nella consegna per eseguire le azioni seguenti:
+Le variabili degli eventi dichiarati ora sono disponibili nell&#39;elenco dei campi di personalizzazione. Puoi utilizzarli nella consegna per eseguire le azioni seguenti:
 
 * Definite il nome del modello da utilizzare per la consegna.
 
@@ -185,7 +185,7 @@ Le variabili degli eventi dichiarati ora sono disponibili nell'elenco dei campi 
 
    ![](assets/extsignal_activities_template.png)
 
-* Personalizza la consegna: quando si seleziona un campo di personalizzazione per configurare una consegna, nell' **[!UICONTROL Workflow parameters]** elemento sono disponibili variabili di eventi. Puoi usarli come qualsiasi campo di personalizzazione, ad esempio per definire l’oggetto di consegna, il mittente e così via.
+* Personalizza la consegna: quando si seleziona un campo di personalizzazione per configurare una consegna, nell&#39; **[!UICONTROL Workflow parameters]** elemento sono disponibili variabili di eventi. Puoi usarli come qualsiasi campo di personalizzazione, ad esempio per definire l’oggetto di consegna, il mittente e così via.
 
    La personalizzazione della distribuzione è dettagliata in [questa sezione](../../designing/using/personalization.md).
 
@@ -199,27 +199,27 @@ Le variabili degli eventi dichiarati ora sono disponibili nell'elenco dei campi 
 
 ![](assets/extsignal_activities_segment.png)
 
-**Etichetta** consegna: definire l'etichetta di consegna in base alle variabili degli eventi.
+**Etichetta** consegna: definire l&#39;etichetta di consegna in base alle variabili degli eventi.
 
 ![](assets/extsignal_activities_label.png)
 
-## Caso di utilizzo {#use-case}
+## Caso d’uso {#use-case}
 
 Il caso d’uso seguente mostra come chiamare il flusso di lavoro con i parametri all’interno dei flussi di lavoro.
 
-L'obiettivo è attivare un flusso di lavoro da una chiamata API con parametri esterni. Questo flusso di lavoro caricherà i dati nel database da un file e creerà un'audience associata. Una volta creata l'audience, verrà attivato un secondo flusso di lavoro per inviare un messaggio personalizzato con i parametri esterni definiti nella chiamata API.
+L&#39;obiettivo è attivare un flusso di lavoro da una chiamata API con parametri esterni. Questo flusso di lavoro caricherà i dati nel database da un file e creerà un&#39;audience associata. Una volta creata l&#39;audience, verrà attivato un secondo flusso di lavoro per inviare un messaggio personalizzato con i parametri esterni definiti nella chiamata API.
 
 Per eseguire questo caso di utilizzo, è necessario eseguire le azioni seguenti:
 
 1. **Eseguite una chiamata** API per attivare Workflow 1 con parametri esterni. Vedere [Passaggio 1: Configurazione della chiamata](../../automating/using/calling-a-workflow-with-external-parameters.md#step-1--configuring-the-api-call)API.
-1. **Crea flusso di lavoro 1**: il flusso di lavoro trasferisce un file e lo carica nel database. Quindi, verrà verificato se i dati sono vuoti o meno e alla fine salverà i profili in un'audience. Infine, attiverà Workflow 2. Vedere [Passaggio 2: Configurazione del flusso di lavoro 1](../../automating/using/calling-a-workflow-with-external-parameters.md#step-2--configuring-workflow-1).
-1. **Crea flusso di lavoro 2**: il flusso di lavoro leggerà l'audience creata nel Flusso di lavoro 1, quindi invierà un messaggio personalizzato ai profili, con un codice del segmento personalizzato con i parametri. Vedere [Passaggio 3: Configurazione del flusso di lavoro 2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
+1. **Crea flusso di lavoro 1**: il flusso di lavoro trasferirà un file e lo caricherà nel database. Quindi, verrà verificato se i dati sono vuoti o meno e alla fine salverà i profili in un&#39;audience. Infine, attiverà Workflow 2. Vedere [Passaggio 2: Configurazione del flusso di lavoro 1](../../automating/using/calling-a-workflow-with-external-parameters.md#step-2--configuring-workflow-1).
+1. **Crea flusso di lavoro 2**: il flusso di lavoro leggerà l&#39;audience creata nel Flusso di lavoro 1, quindi invierà un messaggio personalizzato ai profili, con un codice del segmento personalizzato con i parametri. Vedere [Passaggio 3: Configurazione del flusso di lavoro 2](../../automating/using/calling-a-workflow-with-external-parameters.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
 ### Prerequisiti {#prerequisites}
 
-Prima di configurare i flussi di lavoro, è necessario creare i flussi di lavoro 1 e 2 con un' **[!UICONTROL External signal]** attività in ciascuno di essi. In questo modo, potrai eseguire il targeting di queste attività di segnale quando chiami i flussi di lavoro.
+Prima di configurare i flussi di lavoro, è necessario creare i flussi di lavoro 1 e 2 con un&#39; **[!UICONTROL External signal]** attività in ciascuno di essi. In questo modo, potrai eseguire il targeting di queste attività di segnale quando chiami i flussi di lavoro.
 
 ### Passaggio 1: Configurazione della chiamata API {#step-1--configuring-the-api-call}
 
@@ -255,19 +255,19 @@ Il flusso di lavoro 1 verrà creato come segue:
 * **[!UICONTROL Load file]** activity: carica i dati dal file importato nel database.
 * **[!UICONTROL Update data]** activity: inserire o aggiornare il database con i dati del file importato.
 * **[!UICONTROL Test]** activity: verifica se sono presenti dati importati.
-* **[!UICONTROL Save audience]** activity: se il file contiene dei dati, salva i profili in un'audience.
+* **[!UICONTROL Save audience]** activity: se il file contiene dei dati, salva i profili in un&#39;audience.
 * **[!UICONTROL End activity]** activity: chiama Workflow 2 con i parametri che si desidera utilizzare al suo interno.
 
 ![](assets/extsignal_uc_wkf1.png)
 
 Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
-1. Dichiarare i parametri definiti nella chiamata API. A questo scopo, aprite l' **[!UICONTROL External signal]** attività, quindi aggiungete i nomi e i tipi dei parametri.
+1. Dichiarare i parametri definiti nella chiamata API. A questo scopo, aprite l&#39; **[!UICONTROL External signal]** attività, quindi aggiungete i nomi e i tipi dei parametri.
 
    ![](assets/extsignal_uc1.png)
 
-1. Aggiungete un' **[!UICONTROL Transfer file]** attività per importare i dati nel database. A tale scopo, trascinate l'attività, apritela, quindi selezionate la **[!UICONTROL Protocol]** scheda.
-1. Selezionate l' **[!UICONTROL Use a dynamic file path]** opzione, quindi utilizzate il parametro **fileToTarget** come file da trasferire:
+1. Aggiungete un&#39; **[!UICONTROL Transfer file]** attività per importare i dati nel database. A tale scopo, trascinate l&#39;attività, apritela, quindi selezionate la **[!UICONTROL Protocol]** scheda.
+1. Selezionate l&#39; **[!UICONTROL Use a dynamic file path]** opzione, quindi utilizzate il parametro **fileToTarget** come file da trasferire:
 
    ```
    $(vars/@fileToTarget)
@@ -277,11 +277,11 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
 1. Caricate i dati dal file nel database.
 
-   A tal fine, trascinate un' **[!UICONTROL Load file]** attività nel flusso di lavoro, quindi configuratela in base alle vostre esigenze.
+   A tal fine, trascinate un&#39; **[!UICONTROL Load file]** attività nel flusso di lavoro, quindi configuratela in base alle vostre esigenze.
 
 1. Inserite e aggiornate il database con i dati del file importato.
 
-   A tal fine, trascinate un' **[!UICONTROL Update data]** attività, quindi selezionate la **[!UICONTROL Identification]** scheda per aggiungere un criterio di riconciliazione (nel nostro caso, il campo **e-mail** ).
+   A tal fine, trascinate un&#39; **[!UICONTROL Update data]** attività, quindi selezionate la **[!UICONTROL Identification]** scheda per aggiungere un criterio di riconciliazione (nel nostro caso, il campo **e-mail** ).
 
    ![](assets/extsignal_uc3.png)
 
@@ -289,7 +289,7 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
    ![](assets/extsignal_uc4.png)
 
-1. Verificate se i dati vengono recuperati dal file. A tal fine, trascinate un' **[!UICONTROL Test]** attività nel flusso di lavoro, quindi fate clic sul **[!UICONTROL Add an element]** pulsante per aggiungere una condizione.
+1. Verificate se i dati vengono recuperati dal file. A tal fine, trascinate un&#39; **[!UICONTROL Test]** attività nel flusso di lavoro, quindi fate clic sul **[!UICONTROL Add an element]** pulsante per aggiungere una condizione.
 1. Assegnare un nome e definire la condizione. Nel nostro caso, vogliamo verificare se la transizione in uscita contiene dati con la sintassi seguente:
 
    ```
@@ -298,8 +298,8 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
    ![](assets/extsignal_uc5.png)
 
-1. Se i dati vengono recuperati, salvarli in un'audience. A questo scopo, aggiungete un' **[!UICONTROL Save audience]** attività alla transizione **Target non vuota** , quindi apritela.
-1. Selezionate l' **[!UICONTROL Use a dynamic label]** opzione, quindi utilizzate il parametro **fileToTarget** come etichetta dell'audience:
+1. Se i dati vengono recuperati, salvarli in un&#39;audience. A questo scopo, aggiungete un&#39; **[!UICONTROL Save audience]** attività alla transizione **Target non vuota** , quindi apritela.
+1. Selezionate l&#39; **[!UICONTROL Use a dynamic label]** opzione, quindi utilizzate il parametro **fileToTarget** come etichetta dell&#39;audience:
 
    ```
    $(vars/@fileToTarget)
@@ -307,11 +307,11 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
    ![](assets/extsignal_uc6.png)
 
-1. Trascina e rilascia un' **[!UICONTROL End]** attività che chiamerà Flusso di lavoro 2 con i parametri, quindi aprila.
-1. Selezionate la **[!UICONTROL External signal]** scheda, quindi specificate il flusso di lavoro da attivare e l'attività del segnale associata.
+1. Trascina e rilascia un&#39; **[!UICONTROL End]** attività che chiamerà Flusso di lavoro 2 con i parametri, quindi aprila.
+1. Selezionate la **[!UICONTROL External signal]** scheda, quindi specificate il flusso di lavoro da attivare e l&#39;attività del segnale associata.
 1. Definite i parametri che desiderate utilizzare in Workflow 2 e i relativi valori associati.
 
-   Nel nostro caso, vogliamo trasmettere i parametri originariamente definiti nella chiamata API (**fileToTarget** e **scontoDesc**), e un parametro aggiuntivo **segmentCode** con un valore costante ("sconto del 20%").
+   Nel nostro caso, vogliamo trasmettere i parametri originariamente definiti nella chiamata API (**fileToTarget** e **scontoDesc**), e un parametro aggiuntivo **segmentCode** con un valore costante (&quot;sconto del 20%&quot;).
 
    ![](assets/extsignal_uc7.png)
 
@@ -323,7 +323,7 @@ Il flusso di lavoro 2 verrà creato come segue:
 
 * **[!UICONTROL External signal]** activity: dove i parametri devono essere dichiarati per essere utilizzati nel flusso di lavoro.
 * **[!UICONTROL Read audience]** activity: legge il pubblico salvato nel Flusso di lavoro 1.
-* **[!UICONTROL Email delivery]** activity: invia un messaggio ricorrente all'audience di destinazione, personalizzato con parametri.
+* **[!UICONTROL Email delivery]** activity: invia un messaggio ricorrente all&#39;audience di destinazione, personalizzato con parametri.
 
 ![](assets/extsignal_uc_wkf2.png)
 
@@ -331,12 +331,12 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
 1. Dichiarare i parametri definiti nel Flusso di lavoro 1.
 
-   A questo scopo, aprite l' **[!UICONTROL External signal]** attività, quindi aggiungete il nome e il tipo di ogni parametro definito nell' **[!UICONTROL End]** attività del Flusso di lavoro 1.
+   A tal fine, aprite l&#39; **[!UICONTROL External signal]** attività, quindi aggiungete il nome e il tipo di ogni parametro definito nell&#39; **[!UICONTROL End]** attività del Flusso di lavoro 1.
 
    ![](assets/extsignal_uc8.png)
 
-1. Utilizza il pubblico salvato nel Flusso di lavoro 1. A questo scopo, trascinate un' **[!UICONTROL Read audience]** attività nel flusso di lavoro, quindi apritela.
-1. Selezionate l' **[!UICONTROL Use a dynamic audience]** opzione, quindi utilizzate il parametro **fileToTarget** come nome dell'audience da leggere:
+1. Utilizza l&#39;audience salvata nel Flusso di lavoro 1. A questo scopo, trascinate un&#39; **[!UICONTROL Read audience]** attività nel flusso di lavoro, quindi apritela.
+1. Selezionate l&#39; **[!UICONTROL Use a dynamic audience]** opzione, quindi utilizzate il parametro **fileToTarget** come nome dell&#39;audience da leggere:
 
    ```
    $(vars/@fileToTarget)
@@ -356,17 +356,17 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
    ![](assets/extsignal_uc10.png)
 
-1. Trascinate e rilasciate un' **[!UICONTROL Email delivery]** attività per inviare un messaggio all'audience.
-1. Identificare i parametri da utilizzare nel messaggio per personalizzare con il parametro **scontoDesc** . A questo scopo, aprite le opzioni avanzate dell'attività, quindi aggiungete il nome e il valore del parametro.
+1. Trascinate e rilasciate un&#39; **[!UICONTROL Email delivery]** attività per inviare un messaggio all&#39;audience.
+1. Identificare i parametri da utilizzare nel messaggio per personalizzare con il parametro **scontoDesc** . A questo scopo, aprite le opzioni avanzate dell&#39;attività, quindi aggiungete il nome e il valore del parametro.
 
    ![](assets/extsignal_uc10b.png)
 
-1. Ora puoi configurare il messaggio. Aprite l'attività, quindi selezionate **[!UICONTROL Recurring email]**.
+1. Ora puoi configurare il messaggio. Aprite l&#39;attività, quindi selezionate **[!UICONTROL Recurring email]**.
 
    ![](assets/extsignal_uc11.png)
 
 1. Selezionate il modello da usare, quindi definite le proprietà dell’e-mail in base alle vostre esigenze.
-1. Usa il parametro **scontoDesc** come campo di personalizzazione. A questo scopo, selezionatelo dall’elenco dei campi di personalizzazione.
+1. Utilizzate il parametro **scontoDesc** come campo di personalizzazione. A questo scopo, selezionatelo dall’elenco dei campi di personalizzazione.
 
    ![](assets/extsignal_uc13.png)
 
