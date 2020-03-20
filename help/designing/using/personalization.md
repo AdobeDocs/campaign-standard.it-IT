@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
@@ -24,14 +24,14 @@ Il contenuto e la visualizzazione dei messaggi inviati da Adobe Campaign possono
 * Inserire campi di personalizzazione dinamica. Consultate [Inserimento di un campo](#inserting-a-personalization-field)di personalizzazione.
 * Inserisci blocchi di personalizzazione predefiniti. Consultate [Aggiunta di un blocco](#adding-a-content-block)di contenuto.
 * Personalizza il mittente di un messaggio e-mail. Consulta [Personalizzazione del mittente](#personalizing-the-sender).
-* Personalizza l’oggetto di un messaggio e-mail. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* Personalizzare l’oggetto di un messaggio e-mail. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * Creare contenuto condizionale. Consultate [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email).
 
 ## Personalizzazione del mittente {#personalizing-the-sender}
 
 Per definire il nome del mittente che verrà visualizzato nell&#39;intestazione dei messaggi inviati, passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l&#39;icona principale). Per ulteriori informazioni, consulta [Definizione del mittente di un’e-mail](../../designing/using/subject-line.md#email-sender).
 
-Puoi cambiare il nome del mittente facendo clic sul blocco del nome **del** mittente. Il campo diventa quindi modificabile ed è possibile immettere il nome che si desidera utilizzare.
+Per modificare il nome del mittente, fai clic sul blocco del nome **del** mittente. Il campo diventa quindi modificabile ed è possibile immettere il nome che si desidera utilizzare.
 
 Questo campo può essere personalizzato. A tal fine, puoi aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici facendo clic sulle icone sotto il nome del mittente.
 
@@ -49,11 +49,11 @@ Adobe Campaign consente di personalizzare uno o più URL nel messaggio aggiungen
 
    ![](assets/des_personalize_links.png)
 
-1.  Salvare le modifiche.
+1. Salvare le modifiche.
 
 >[!NOTE]
 >
->La personalizzazione degli URL non può essere applicata né al nome del dominio né all’estensione dell’URL. Se la personalizzazione non è corretta, durante l&#39;analisi dei messaggi verrà visualizzato un messaggio di errore. Quando si seleziona un blocco di contenuto, non è possibile selezionare elementi quali **Collega a pagina** mirror. Questo tipo di blocchi è vietato all&#39;interno di un collegamento.
+>La personalizzazione degli URL non può essere applicata né al nome del dominio, né all’estensione dell’URL. Se la personalizzazione non è corretta, durante l&#39;analisi dei messaggi verrà visualizzato un messaggio di errore. Quando si seleziona un blocco di contenuto, non è possibile selezionare elementi quali **Collega a pagina** mirror. Questo tipo di blocchi è vietato all&#39;interno di un collegamento.
 
 ## Inserimento di un campo di personalizzazione{#inserting-a-personalization-field}
 
@@ -134,7 +134,7 @@ Puoi definire nuovi blocchi di contenuto che verranno inseriti in un messaggio o
 Per creare un blocco di contenuto, effettuate le seguenti operazioni:
 
 1. Fare clic **[!UICONTROL Resources > Content blocks]** dal menu avanzato per accedere all&#39;elenco dei blocchi di contenuto.
-1. Fate clic sul **[!UICONTROL Create]** pulsante o duplicate un blocco di contenuto preesistente.
+1. Fare clic sul **[!UICONTROL Create]** pulsante o duplicare un blocco di contenuto preesistente.
 
    ![](assets/content_bloc_01.png)
 
@@ -168,7 +168,7 @@ La dimensione di targeting consente di definire in quale tipo di messaggio è po
 
 In effetti, quando modificate un messaggio, potete selezionare solo i blocchi di contenuto con una dimensione di targeting compatibile con la dimensione di targeting del messaggio.
 
-Ad esempio, la dimensione di targeting del **[!UICONTROL Unsubscription link]** blocco è **[!UICONTROL Profiles]** perché contiene campi di personalizzazione specifici per la **[!UICONTROL Profiles]** risorsa. Pertanto, non potete utilizzare un **[!UICONTROL Unsubscription link]** blocco in un messaggio [transazionale](../../channels/using/event-transactional-messages.md)evento, perché la dimensione di targeting di quel tipo di messaggio è **[!UICONTROL Real-time events]**. Tuttavia, puoi utilizzare il blocco di collegamento **** Annulla sottoscrizione in un messaggio [transazionale di](../../channels/using/profile-transactional-messages.md)profilo, perché la dimensione di targeting di quel tipo di messaggio è **Profili**. Infine, il **[!UICONTROL Link to mirror page]** blocco non ha una dimensione di targeting, pertanto puoi utilizzarlo in qualsiasi messaggio.
+Ad esempio, la dimensione di targeting del **[!UICONTROL Unsubscription link]** blocco è **[!UICONTROL Profiles]** perché contiene campi di personalizzazione specifici per la **[!UICONTROL Profiles]** risorsa. Pertanto, non potete utilizzare un **[!UICONTROL Unsubscription link]** blocco in un messaggio [transazionale](../../channels/using/event-transactional-messages.md)evento, perché la dimensione di targeting di quel tipo di messaggio è **[!UICONTROL Real-time events]**. Tuttavia, puoi utilizzare il blocco di collegamento **** Annulla sottoscrizione in un messaggio [transazionale di](../../channels/using/profile-transactional-messages.md)profilo, perché la dimensione di targeting di quel tipo di messaggio è **Profili**. Infine, il **[!UICONTROL Link to mirror page]** blocco non ha una dimensione di targeting, pertanto è possibile utilizzarlo in qualsiasi messaggio.
 
 Se lasciate vuoto questo campo, il blocco di contenuto sarà compatibile con tutti i messaggi, indipendentemente dalla dimensione di targeting. Se imposti una dimensione di targeting, tale blocco sarà compatibile solo con i messaggi che hanno la stessa dimensione di targeting.
 
@@ -206,7 +206,7 @@ Adobe Campaign consente di personalizzare una o più immagini nel messaggio in b
 
 ### Definizione di una condizione di visibilità{#defining-a-visibility-condition}
 
-Potete specificare una condizione di visibilità su qualsiasi elemento. Sarà visibile solo se la condizione è rispettata.
+Potete specificare una condizione di visibilità per qualsiasi elemento. Sarà visibile solo se la condizione è rispettata.
 
 Per aggiungere una condizione di visibilità, selezionare un blocco e immettere la condizione da rispettare nel **[!UICONTROL Visibility condition]** campo delle relative impostazioni.
 
@@ -220,7 +220,7 @@ Queste condizioni adottano la sintassi dell&#39;espressione XTK (ad es. **contex
 
 >[!NOTE]
 >
->Impossibile definire una condizione per un blocco che contiene già un sottoelemento con un contenuto dinamico o un blocco che già costituisce un contenuto dinamico. I blocchi dinamici non visibili come elenchi a discesa non possono essere modificati.
+>Non è possibile definire una condizione per un blocco che contiene già un sottoelemento con un contenuto dinamico o un blocco che già costituisce un contenuto dinamico. I blocchi dinamici non visibili come elenchi a discesa non possono essere modificati.
 
 ### Definizione di contenuto dinamico in un messaggio e-mail{#defining-dynamic-content-in-an-email}
 
@@ -275,7 +275,7 @@ La definizione del contenuto dinamico è diversa dalla [definizione delle condiz
 
    Ad esempio, potete aggiungere un’immagine diversa da visualizzare alle persone di età compresa tra i 26 e i 35 anni.
 
-1. Procedere in modo simile per qualsiasi altro elemento del messaggio e-mail che si desidera visualizzare in modo dinamico. Può essere testo, pulsante, frammento, ecc.  Salvare le modifiche.
+1. Procedere in modo simile per qualsiasi altro elemento del messaggio e-mail che si desidera visualizzare in modo dinamico. Può essere testo, pulsante, frammento, ecc. Salvare le modifiche.
 
 >[!CAUTION]
 >
@@ -292,13 +292,13 @@ Nell&#39;editor di espressioni, quando si definisce un contenuto dinamico, l&#39
 
 1. Potete definire due diversi contenuti dinamici con **due condizioni** diverse, ad esempio:
 
-   **** Condizione 1: il genere del profilo è maschile,
+   **Condizione 1:** il genere del profilo è maschile,
 
-   **** Condizione 2: il profilo ha tra i 20 e i 30 anni.
+   **Condizione 2:** il profilo ha tra i 20 e i 30 anni.
 
    ![](assets/delivery_content_61.png)
 
-   Alcuni profili nel database corrispondono alle due condizioni, ma è possibile inviare solo un&#39;e-mail con un contenuto dinamico.
+   Alcuni profili nel database corrispondono alle due condizioni, ma è possibile inviare un solo messaggio e-mail con un solo contenuto dinamico.
 
 1. È quindi necessario definire la priorità per il contenuto dinamico. Una condizione con un ordine di priorità **1** (e quindi il contenuto dinamico corrispondente) verrà inviata a un profilo anche se un&#39;altra condizione il cui ordine di priorità è **2** o **3** è soddisfatto anche da questo profilo.
 
@@ -350,7 +350,7 @@ In questo esempio, il contenuto dinamico applicato alle immagini è configurato 
 
 1. Confermate le modifiche.
 
-**Per eseguire il targeting dei profili di oltre 27 anni:**
+**Per eseguire il targeting dei profili di età pari o superiore a 27 anni:**
 
 1. Selezionare il contenuto dinamico dalla palette e modificarlo.
 1. Modificare l&#39;etichetta e selezionare il **[!UICONTROL Age]** campo dal **[!UICONTROL Profile]** nodo.
@@ -380,7 +380,7 @@ In questo esempio, il contenuto dinamico applicato ai testi è configurato come 
 
 1. Il campo di personalizzazione viene quindi inserito perfettamente nel contenuto dinamico selezionato.
 
-**Per eseguire il targeting dei profili di oltre 27 anni:**
+**Per eseguire il targeting dei profili di età pari o superiore a 27 anni:**
 
 1. Selezionate il componente struttura desiderato e aggiungete un contenuto dinamico.
 1. Modificate il contenuto dinamico e configurate le espressioni di targeting. Consultate [Configurazione delle immagini](#configuring-images).
@@ -402,7 +402,7 @@ Senza i profili di prova, l&#39;e-mail visualizzata per impostazione predefinita
 
 Il messaggio e-mail non contiene campi di personalizzazione e viene utilizzata l&#39;immagine predefinita.
 
-Il primo profilo di test corrisponde a un client di età compresa tra 18 e 27 anni. Selezionando questo profilo viene visualizzato il seguente messaggio e-mail:
+Il primo profilo di test corrisponde a un client di età compresa tra 18 e 27 anni. Selezionando questo profilo, viene visualizzato il seguente messaggio e-mail:
 
 ![](assets/delivery_content_46.png)
 
