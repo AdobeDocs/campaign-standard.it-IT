@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 ---
 
@@ -24,10 +24,14 @@ Per ottimizzare il messaggio in-app, Adobe Campaign consente di accedere a una s
 
 L&#39;editor del contenuto in-app consente di scegliere tra due modalità di messaggio in-app:
 
-* [Modello](#customizing-with-a-message-template)messaggio: questo modello consente di personalizzare completamente l&#39;applicazione con immagini o video e pulsanti di azione.
+* [Modello](#customizing-with-a-message-template)messaggio: questo modello consente di personalizzare completamente l&#39;app con immagini o video e pulsanti di azione.
 * [Messaggio](#customizing-with-a-custom-html-message)personalizzato: questo modello consente di importare codice HTML personalizzato.
 
 ![](assets/inapp_customize_1.png)
+
+>[!NOTE]
+>
+> Il rendering dei messaggi in-app è supportato solo per Android API 19 e versioni successive.
 
 **Argomenti correlati:**
 
@@ -67,7 +71,7 @@ Ogni tipo di layout può essere visualizzato in anteprima su diversi dispositivi
 
 ### Media {#media}
 
-Il **[!UICONTROL Media]** menu a discesa consente di aggiungere contenuti multimediali al messaggio in-app per creare un&#39;esperienza coinvolgente per l&#39;utente finale.
+L&#39; **[!UICONTROL Media]** elenco a discesa consente di aggiungere contenuti multimediali al messaggio in-app per creare un&#39;esperienza coinvolgente per l&#39;utente finale.
 
 1. Selezionate l’immagine **[!UICONTROL Media Type]** desiderata e il video desiderato.
 1. Per il tipo di **[!UICONTROL Image]** supporto, immettete l’URL nel **[!UICONTROL Media URL]** campo in base ai formati supportati.
@@ -129,7 +133,7 @@ Puoi aggiungere fino a due pulsanti al messaggio in-app.
 
 ### Impostazioni {#settings}
 
-1. Nella **[!UICONTROL Settings]** categoria, selezionate il colore di sfondo tra luce e buio.
+1. Nella **[!UICONTROL Settings]** categoria, selezionate il colore di sfondo tra chiaro e scuro.
 1. Scegliete di visualizzare o meno un pulsante Chiudi con l&#39; **[!UICONTROL Show close button]** opzione per fornire agli utenti la possibilità di chiudere il messaggio in-app.
 1. Selezionare se l&#39;allineamento del pulsante sarà orizzontale o verticale con l&#39; **[!UICONTROL Button alignment]** opzione.
 1. Scegli se il messaggio in-app può essere chiuso automaticamente o meno dopo alcuni secondi.
@@ -151,7 +155,7 @@ Per personalizzare una notifica locale:
 
    ![](assets/inapp_customize_18.png)
 
-1. Sotto la **[!UICONTROL Advanced option]** categoria, nel **[!UICONTROL Wait to display]** campo, scegliete il tempo in secondi per la visualizzazione sullo schermo della notifica locale una volta attivato l’evento.
+1. Sotto la **[!UICONTROL Advanced option]** categoria, nel **[!UICONTROL Wait to display]** campo, scegliete il tempo in secondi per la visualizzazione sullo schermo della notifica locale dopo l’attivazione dell’evento.
 1. Nel **[!UICONTROL Sound]** campo, inserire il nome del file audio, con l&#39;estensione, che deve essere riprodotto dal dispositivo mobile quando viene ricevuta la notifica locale.
 
    Il file audio viene riprodotto durante la trasmissione della notifica se il file è definito nel pacchetto dell&#39;applicazione mobile. In caso contrario, viene riprodotto l&#39;audio predefinito del dispositivo.
