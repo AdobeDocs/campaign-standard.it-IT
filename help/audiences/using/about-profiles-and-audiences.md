@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -29,11 +29,11 @@ Adobe Campaign crea profili cliente avanzati in tempo reale, consentendo di dist
 
 * Le audience sono elenchi di profili basati su un criterio specifico o un insieme di criteri specifici.
 
-   Utilizzando i flussi di lavoro e l'editor di query, puoi creare tipi di pubblico ai quali verranno indirizzate le campagne di marketing, in base alle informazioni disponibili, alle attività e alla cronologia di marketing. Questo consente di filtrare i profili sottoscritti, di campionare o di creare audience target su un numero illimitato di criteri.
+   Utilizzando i flussi di lavoro e l&#39;editor di query, puoi creare tipi di pubblico ai quali verranno indirizzate le campagne di marketing, in base alle informazioni disponibili, alle attività e alla cronologia di marketing. Questo consente di filtrare i profili sottoscritti, di campionare o di creare audience target su un numero illimitato di criteri.
 
-Prima di inviare i messaggi a un contatto, è necessario assicurarsi di ottenerne l'autorizzazione. In caso contrario, le e-mail potrebbero essere contrassegnate come spam e questo potrebbe avere un impatto sulla vostra capacità di distribuzione della piattaforma. Per essere certi di creare un database di profilo sano, assicurati questa autorizzazione come primo passo. Con Campaign, ti consigliamo di utilizzare semplici meccanismi di opt-in e opt-out tramite [i servizi](../../audiences/using/creating-a-service.md)e le pagine [di](../../channels/using/getting-started-with-landing-pages.md) destinazione per aggiornare le informazioni di contatto e ampliare il database.
+Prima di inviare i messaggi a un contatto, è necessario assicurarsi di ottenerne l&#39;autorizzazione. In caso contrario, le e-mail potrebbero essere contrassegnate come spam e questo potrebbe avere un impatto sulla vostra capacità di distribuzione della piattaforma. Per essere certi di creare un database di profilo sano, assicurati questa autorizzazione come primo passo. Con Campaign, ti consigliamo di utilizzare semplici meccanismi di opt-in e opt-out tramite [i servizi](../../audiences/using/creating-a-service.md)e le pagine [di](../../channels/using/getting-started-with-landing-pages.md) destinazione per aggiornare le informazioni di contatto e ampliare il database.
 
-Fornendo collegamenti di annullamento dell'iscrizione nei messaggi, i profili verranno inseriti in blacklist quando necessario, e quindi miglioreranno il recapito della piattaforma. Per ulteriori informazioni sull'inserimento in blacklist, consulta [Informazioni sull'opt-in e la rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornendo collegamenti di annullamento dell&#39;iscrizione nei messaggi, i profili verranno inseriti in blacklist quando necessario, e quindi miglioreranno il recapito della piattaforma. Per ulteriori informazioni sull&#39;inserimento in blacklist, consulta [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Identifica i clienti in modo più efficace su tutti i tuoi canali utilizzando profili cliente integrati e segmenti personalizzati. Se conosci i tuoi clienti, interessi, dati demografici e preferenze per i canali, è più facile creare esperienze personalizzate che vengono notate.
 
@@ -41,7 +41,7 @@ Identifica i clienti in modo più efficace su tutti i tuoi canali utilizzando pr
 >
 >Devi sempre rispettare i criteri di utilizzo accettabili di [Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
-Il GDPR è la nuova legge dell’Unione europea sulla privacy che armonizza e aggiorna i requisiti in materia di protezione dei dati. Il Regolamento GDPR si applica ai clienti Adobe Campaign che detengono dati per i soggetti dati residenti nell'UE. Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità in qualità di Data Processor per includere funzionalità aggiuntive, al fine di facilitare la tua disponibilità come Data Controller per determinate richieste GDPR.
+Il GDPR è la nuova legge dell’Unione europea sulla privacy che armonizza e aggiorna i requisiti in materia di protezione dei dati. Il Regolamento GDPR si applica ai clienti Adobe Campaign che detengono dati per i soggetti dati residenti nell&#39;UE. Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità in qualità di Data Processor per includere funzionalità aggiuntive, al fine di facilitare la tua disponibilità in qualità di Data Controller per determinate richieste GDPR.
 
 Fai riferimento a questa [guida](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) per saperne di più sugli strumenti e le funzionalità forniti da Adobe Campaign per aiutarti a diventare conforme ai requisiti GDPR.
 
