@@ -13,22 +13,21 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
 
 # Informazioni sui profili{#about-profiles}
 
-Adobe Campaign consente di gestire i contatti per l'intero ciclo di vita: creazione, importazione, targeting, tracciamento delle azioni, aggiornamenti ecc. I contatti sono memorizzati nel database come profili contenenti le informazioni ad essi collegate: cognome, nome, indirizzo, iscrizioni, consegne, ecc.
+Adobe Campaign consente di gestire i contatti per l&#39;intero ciclo di vita: creazione, importazione, targeting, tracciamento delle azioni, aggiornamenti ecc. I contatti sono memorizzati nel database come profili contenenti le informazioni ad essi collegate: cognome, nome, indirizzo, iscrizioni, consegne, ecc.
 
 >[!NOTE]
 >
->I profili sono disponibili anche tramite l'API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/retrieving-profiles.md)dedicata.
+>I profili sono disponibili anche tramite l&#39;API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/retrieving-profiles.md)dedicata.
 
 ![](assets/marketing_history.png)
 
-Quando create campagne, potete definire la destinazione delle consegne selezionando i profili in base a criteri semplici o avanzati. Tecnicamente, un profilo è una voce nel database che contiene tutte le informazioni necessarie per i comportamenti di targeting, qualificazione e tracciamento.
+Quando create campagne, potete definire la destinazione delle consegne selezionando i profili in base a criteri semplici o avanzati. Tecnicamente, un profilo è una voce nel database che contiene tutte le informazioni necessarie per il targeting, le qualifiche e i comportamenti di tracciamento.
 
 Un profilo può essere: un cliente, un potenziale, un singolo iscritto a una newsletter, un destinatario, un utente o qualsiasi altra denominazione a seconda dell’organizzazione. Per definire vari tipi di profili, utilizzate le dimensioni [di](../../automating/using/query.md#targeting-dimensions-and-resources)targeting.
-
