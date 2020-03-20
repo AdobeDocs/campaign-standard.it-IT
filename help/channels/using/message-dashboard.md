@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -71,7 +71,7 @@ Lo schermo principale è costituito da diversi blocchi. Fate clic all’interno 
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: consente di monitorare l’avanzamento della preparazione o dell’invio dei messaggi. Fare clic sul pulsante che si trova nella sezione inferiore destra di questo blocco per accedere ai registri di invio e analisi. Questo blocco viene visualizzato solo dopo che l&#39;invio è stato preparato. Per ulteriori informazioni su questo argomento. Consultate [Conferma dell’invio](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**: consente di monitorare l’avanzamento della preparazione o dell’invio dei messaggi. Fare clic sul pulsante nella sezione inferiore destra di questo blocco per accedere ai registri di invio e analisi. Questo blocco viene visualizzato solo dopo che l&#39;invio è stato preparato. Per ulteriori informazioni su questo argomento. Consultate [Conferma dell’invio](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: consente di stabilire la destinazione principale del messaggio e i profili di test. Consultate [Creazione di audience](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: consente di specificare la data in cui verrà inviato il messaggio. Vedere [Pianificazione](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Content]**: consente di definire il contenuto del messaggio e visualizzarne l&#39;anteprima. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
@@ -96,7 +96,7 @@ Segue un elenco dei messaggi che è possibile visualizzare:
 
    Se viene visualizzato questo messaggio, si verifica un problema a livello di definizione dell&#39;affinità IP o a livello di processo di invio. Contattate l’amministratore Adobe.
 
-* *&quot;Questo messaggio transazionale è un modello di messaggio transazionale integrato. Se desiderate modificarlo, dovete duplicarlo e lavorare sulla copia.&quot;*
+* *&quot;Si tratta di un modello di messaggio transazionale integrato. Se desiderate modificarlo, dovete duplicarlo e lavorare sulla copia.&quot;*
 
    Alcuni di questi modelli di messaggi transazionali forniti con il prodotto sono modelli integrati per pagine di destinazione. Per ulteriori informazioni, consulta [questa sezione](../../channels/using/landing-page-templates.md).
 
