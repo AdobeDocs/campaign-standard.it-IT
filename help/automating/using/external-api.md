@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -21,17 +21,17 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-L&#39; **[!UICONTROL External API]**attività porta i dati nel flusso di lavoro da un sistema****esterno tramite una chiamata API****REST.
+L&#39; **[!UICONTROL External API]** attività porta i dati nel flusso di lavoro da un sistema **** esterno tramite una chiamata API **** REST.
 
 Gli endpoint REST possono essere un sistema di gestione dei clienti, un&#39;istanza Runtime [I/O di](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe o un endpoint REST di Experience Cloud (Piattaforma dati, Target, Analytics, Campaign, ecc.).
 
 >[!NOTE]
 >
->Per motivi di sicurezza, l&#39;utilizzo di JSSP non è supportato in Campaign Standard. Se è necessario eseguire il codice, potete chiamare un&#39;istanza runtime di I/O Adobe tramite l&#39;attività API esterna.
+>Per motivi di sicurezza, l&#39;utilizzo di JSSP non è supportato in Campaign Standard. Se è necessario eseguire il codice, potete chiamare un&#39;istanza di runtime di I/O Adobe tramite l&#39;attività API esterna.
 
 >[!IMPORTANT]
 >
->Questa funzionalità è attualmente in versione beta. Prima di iniziare a utilizzare l&#39;attività API esterna, dovete accettare l&#39;accordo di utilizzo. Nota: poiché la funzionalità beta non è ancora stata rilasciata in commercio da Adobe, non è supportata da Adobe Client Care, potrebbe contenere errori e potrebbe non funzionare così come altre funzionalità rilasciate.
+>Questa funzionalità è attualmente in versione beta. Prima di iniziare a utilizzare l&#39;attività API esterna, è necessario accettare l&#39;accordo di utilizzo. Nota: poiché la funzionalità beta non è ancora stata rilasciata in commercio da Adobe, non è supportata da Adobe Client Care, potrebbe contenere errori e potrebbe non funzionare così come altre funzionalità rilasciate.
 
 Le principali caratteristiche di questa attività sono:
 
@@ -41,19 +41,19 @@ Le principali caratteristiche di questa attività sono:
 
 Per questa attività sono stati istituiti i seguenti presidi:
 
-* Limite dimensione dati risposta HTTP 5 MB
-* Timeout richiesta: 60 secondi
-* Reindirizzamenti HTTP non consentiti
+* Limite dimensione dati risposta HTTP 50 MB
+* Timeout richiesta: 10 minuti
+* I reindirizzamenti HTTP non sono consentiti
 * Gli URL non HTTPS vengono rifiutati
 * &quot;Accetta: header della richiesta application/json&quot; e &quot;Content-Type: l&#39;intestazione della risposta application/json&quot; è consentita
 
 >[!CAUTION]
 >
->Nota che l&#39;attività è destinata al recupero di dati a livello di campagna (ultimi set di offerte, ultimi punteggi ecc.) non per il recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d&#39;uso lo richiede, la raccomandazione consiste nell&#39;utilizzare l&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) .
+>L&#39;attività è destinata al recupero di dati a livello di campagna (ultimi set di offerte, ultimi punteggi ecc.) non per il recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d&#39;uso lo richiede, la raccomandazione consiste nell&#39;utilizzare l&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) .
 
 ## Configurazione {#configuration}
 
-Trascinate e rilasciate un&#39; **[!UICONTROL External API]**attività nel flusso di lavoro e aprite l&#39;attività per avviare la configurazione.
+Trascinate e rilasciate un&#39; **[!UICONTROL External API]** attività nel flusso di lavoro e aprite l&#39;attività per avviare la configurazione.
 
 ### Mapping in entrata
 
@@ -109,9 +109,9 @@ La scheda Definizione **** colonna consente di specificare con precisione la str
 
 ![](assets/externalAPI-column.png)
 
-Ad esempio, è possibile modificare l&#39;etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) oppure specificare l&#39;elaborazione degli errori.
+Ad esempio, è possibile modificare l&#39;etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) o anche specificare l&#39;elaborazione degli errori.
 
-Per ulteriori informazioni, consultare la sezione [Carica file](../../automating/using/load-file.md) .
+Per ulteriori informazioni, vedere la sezione [Carica file](../../automating/using/load-file.md) .
 
 ### Transizione
 
