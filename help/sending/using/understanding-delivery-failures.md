@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ I possibili motivi di un mancato recapito sono:
 
 * **[!UICONTROL User unknown]** (tipo rigido): l&#39;indirizzo non esiste. Per questo profilo non verranno tentate altre consegne.
 * **[!UICONTROL Quarantined address]** (tipo rigido): l&#39;indirizzo è stato messo in quarantena.
-* **[!UICONTROL Unreachable]** (tipo morbido/rigido): si è verificato un errore nella catena di distribuzione dei messaggi (incidente sul relay SMTP, dominio temporaneamente irraggiungibile, ecc.). In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge il 5.
+* **[!UICONTROL Unreachable]** (tipo morbido/rigido): si è verificato un errore nella catena di distribuzione dei messaggi (ad esempio, dominio temporaneamente non raggiungibile). In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge il 5.
 * **[!UICONTROL Address empty]** (tipo rigido): l&#39;indirizzo non è definito.
 * **[!UICONTROL Mailbox full]** (tipo morbido): la cassetta postale di questo utente è piena e non può accettare altri messaggi. Questo indirizzo può essere rimosso dall&#39;elenco di quarantena per effettuare un altro tentativo. Viene rimosso automaticamente dopo 30 giorni.
 
