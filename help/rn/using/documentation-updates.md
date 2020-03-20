@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
@@ -24,6 +24,34 @@ Scopri tutti gli aggiornamenti più recenti della documentazione di Adobe Campai
 In questa pagina sono elencate tutte le nuove funzioni e gli aggiornamenti della documentazione per ciascuna versione di Adobe Campaign Standard.
 
 Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione di Adobe Campaign.
+
+## Rilascio 20.2 - marzo 2020 {#release-20-2---march-2020}
+
+**Nuove funzionalità incluse nella release**
+
+Integrazione BLOB di Azure - [Ulteriori informazioni](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+Interfaccia e dominio unificati Experience Cloud - [Leggi tutto](../../start/using/interface-description.md#top-bar)
+
+Test e-mail con profili di destinazione - [Leggi tutto](../../sending/using/testing-messages-using-target.md)
+
+**Altri aggiornamenti della documentazione in arrivo con il rilascio**
+
+È stato aggiunto un limite al rendering dei messaggi in-app. [Leggi tutto](../../channels/using/customizing-an-in-app-message.md)
+
+Sono state aggiunte informazioni su come utilizzare gli aggregati in un&#39; **[!UICONTROL Query]** attività. [Leggi tutto](../../automating/using/query.md#adding-an-aggregate)
+
+Limitazione aggiunta con MCPNS durante la configurazione di un&#39;applicazione mobile. [Leggi tutto](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+Una nuova sezione sulle linee guida di configurazione è stata aggiunta alla guida di amministrazione. La sezione relativa ai browser e ai sistemi operativi compatibili è stata spostata dalla Guida introduttiva a questa sezione. In questa sezione è stata aggiunta anche la nota tecnica sugli endpoint di rete di Campaign Standard. [Leggi tutto](../../administration/using/about-configuration-guidelines.md)
+
+È ora disponibile una nuova sezione che descrive come eliminare la configurazione di un evento. [Leggi tutto](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+La pagina che descrive come testare l’oggetto di un messaggio e-mail per visualizzarne il tasso di apertura è stata aggiornata e migliorata, inclusa una nuova sezione per la [risoluzione dei problemi](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Leggi tutto](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+Le sezioni di messaggistica transazionali sono state aggiornate per riflettere i miglioramenti e gli aggiornamenti più recenti dell&#39;interfaccia utente. [Leggi tutto](../../channels/using/about-transactional-messaging.md)
+
+Sono state aggiornate le informazioni relative ai guardrail delle attività API esterne. [Leggi tutto](../../automating/using/external-api.md)
 
 ## Aggiornamenti della documentazione - Marzo 2020 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Sono state aggiunte informazioni sulla destra **[!UICONTROL Workflow]** fuori ca
 
 Sono state aggiunte informazioni sulle proprietà **[!UICONTROL History in days field]** disponibili nei flussi di lavoro. [Leggi tutto](../../automating/using/executing-a-workflow.md)
 
-## Rilascio 20.1 - febbraio 2019 {#release-20-1---february-2020}
+## Rilascio 20.1 - febbraio 2020 {#release-20-1---february-2020}
 
 **Nuove funzionalità incluse nella release**
 
@@ -281,7 +309,7 @@ La sezione Gestione dei collegamenti è stata aggiornata con informazioni aggiun
 
 La sezione Pubblicazione di una risorsa con estensione API è stata chiarita e aggiornata con le ultime modifiche dell’interfaccia utente. [Leggi tutto](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-La sezione Archiviazione delle e-mail è stata rinominata e riorganizzata. [Leggi tutto](../../administration/using/configuring-email-channel.md#archiving-emails)
+La sezione Archiviazione delle e-mail è stata rinominata e riorganizzata. [Leggi tutto](../../sending/using/archiving.md)
 
 La sezione Creazione di un messaggio e-mail è stata aggiornata per riflettere le ultime modifiche apportate all’interfaccia. [Leggi tutto](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ La nuova esperienza di registrazione per la creazione di contenuti e-mail e altr
 
 La sezione Creazione di blocchi di contenuto personalizzati è stata migliorata con dettagli sulle dimensioni di targeting. [Leggi tutto](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-È stato aggiunto un avviso che indica che Designer e-mail non supporta Internet Explorer 11. [Leggi tutto](../../start/using/compatible-browsers.md)
+È stato aggiunto un avviso che indica che Designer e-mail non supporta Internet Explorer 11. [Leggi tutto](../../administration/using/compatible-browsers.md)
 
 Nella sezione Eliminazione di una risorsa sono stati aggiunti avvisi sull’impatto della rielaborazione. [Leggi tutto](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Sono state aggiunte informazioni sul nuovo campo nell&#39;attività di aggiornam
 
 Aggiornamento del contenuto [Importazione da una documentazione URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) con informazioni relative alla finestra di progettazione e-mail.
 
-Microsoft Edge (ultima versione) è stato aggiunto all&#39;elenco dei browser compatibili per i computer. [Leggi tutto](../../start/using/compatible-browsers.md)
+Microsoft Edge (ultima versione) è stato aggiunto all&#39;elenco dei browser compatibili per i computer. [Leggi tutto](../../administration/using/compatible-browsers.md)
 
 Sono state aggiunte informazioni sulla nuova opzione nell&#39;attività del file Extract che impediscono la generazione di un file se la transizione in entrata è vuota. [Leggi tutto](../../automating/using/extract-file.md)
 
@@ -777,7 +805,7 @@ Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../
 
 Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
-Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
+Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro per segnali [](../../automating/using/external-signal.md) esterni.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
