@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ---
 
@@ -28,13 +28,13 @@ Potete gestire i profili di test dal menu avanzato **[!UICONTROL Profiles & audi
 
 Un profilo di test contiene informazioni di contatto fittizie, o informazioni di contatto controllate dal mittente, che possono quindi essere utilizzate in un messaggio nei seguenti contesti:
 
-* Per l&#39;invio di **prove**: la prova è un messaggio specifico utilizzato per controllare il messaggio prima di inviare la consegna finale ai destinatari. Un profilo di prova è incaricato di controllare la consegna, per quanto riguarda il contenuto e il formato. Consultate [Invio delle prove](../../sending/using/sending-proofs.md).
-* Per il rendering **e-** mail: il profilo di test del rendering e-mail viene utilizzato per verificare il modo in cui un messaggio viene visualizzato in base alla inbox del messaggio che lo riceve. Ad esempio, webmail, servizio messaggi, dispositivi mobili ecc. Consultate Rendering [](../../sending/using/email-rendering.md)e-mail.
+* Per l&#39;invio di **prove**: La prova è un messaggio specifico utilizzato per controllare il messaggio prima di inviare la consegna finale ai destinatari. Un profilo di prova è incaricato di controllare la consegna, per quanto riguarda il contenuto e il formato. Consultate [Invio delle prove](../../sending/using/sending-proofs.md).
+* Per il rendering **e-** mail: Il profilo di test del rendering e-mail viene utilizzato per verificare il modo in cui un messaggio viene visualizzato in base alla inbox del messaggio che lo riceve. Ad esempio, webmail, servizio messaggi, dispositivi mobili ecc. Consultate Rendering [](../../sending/using/email-rendering.md)e-mail.
 
    Il rendering **e-** mail utilizzato è di sola lettura. I profili di test con questo utilizzo sono disponibili solo out-of-the-box in Adobe Campaign.
 
-* Come **abbondanza**: il messaggio viene inviato al profilo di test esattamente come viene inviato alla destinazione principale. Consultate [Utilizzo delle trappole](../../sending/using/using-traps.md).
-* Per **visualizzare in anteprima** i messaggi: quando visualizzate l&#39;anteprima di un messaggio per verificare gli elementi di personalizzazione, potete selezionare un profilo di test. Consultate [Anteprima dei messaggi](/help/sending/using/previewing-messages.md).
+* Come **abbondanza**: Il messaggio viene inviato al profilo di test esattamente come viene inviato alla destinazione principale. Consultate [Utilizzo delle trappole](../../sending/using/using-traps.md).
+* Per **visualizzare in anteprima** i messaggi: Quando visualizzate l&#39;anteprima di un messaggio per verificare gli elementi di personalizzazione, potete selezionare un profilo di test. Consultate [Anteprima dei messaggi](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
@@ -69,7 +69,7 @@ Il profilo di test verrà quindi aggiunto all&#39;elenco dei profili.
 
 **Argomento correlato:**
 
-[Creazione di un video profilo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) di prova
+[Video sulla creazione di un profilo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) di prova
 
 ## Modifica dei profili di prova {#editing-test-profiles}
 
