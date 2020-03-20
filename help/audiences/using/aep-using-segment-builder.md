@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -60,7 +60,7 @@ Il Generatore di segmenti unificato deve ora essere visualizzato nell&#39;area d
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. Fate clic sul **[!UICONTROL Create segment]**pulsante.
+1. Fate clic sul **[!UICONTROL Create segment]** pulsante.
 
 ## Ricerca dei campi corretti per un segmento
 
@@ -84,7 +84,7 @@ I campi sono organizzati in schede:
 >
 >Per ulteriori informazioni, consulta la documentazione [](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)dedicata.
 
-Per impostazione predefinita, il generatore di segmenti unificati visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, compresi i campi per i quali i dati non sono presenti, attivare l&#39; **[!UICONTROL Show full XDM schema]**opzione dalle impostazioni.
+Per impostazione predefinita, il generatore di segmenti unificati visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, compresi i campi per i quali i dati non sono presenti, attivare l&#39; **[!UICONTROL Show full XDM schema]** opzione dalle impostazioni.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -96,9 +96,9 @@ Il simbolo alla fine di ciascun campo fornisce informazioni aggiuntive sull&#39;
 
 >[!NOTE]
 >
->La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la guida [utente di Generatore di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)segmenti.
+>La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la guida [utente di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment Builder (Generatore di segmenti).
 
-Per creare una regola, effettuate le seguenti operazioni:
+Per creare una regola, attenetevi alla procedura seguente:
 
 1. Trovate il campo nel riquadro a sinistra che riflette gli attributi o gli eventi su cui si baserà la regola.
 
@@ -108,9 +108,9 @@ Per creare una regola, effettuate le seguenti operazioni:
 
    ![](assets/aep_audiences_malegender.png)
 
-   La popolazione stimata corrispondente al segmento viene automaticamente ricalcolata nella **[!UICONTROL Segment Properties]**sezione.
+   La popolazione stimata corrispondente al segmento viene automaticamente ricalcolata nella **[!UICONTROL Segment Properties]** sezione.
 
-1. Il **[!UICONTROL View Profiles]**pulsante consente di visualizzare un&#39;anteprima dei primi 20 record corrispondenti alla regola e di convalidare rapidamente il segmento.
+1. Il **[!UICONTROL View Profiles]** pulsante consente di visualizzare un&#39;anteprima dei primi 20 record corrispondenti alla regola e di convalidare rapidamente il segmento.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -134,7 +134,7 @@ A questo scopo, effettuate le seguenti operazioni:
 
 1. Selezionare il secondo campo (ad esempio, il codice postale dell&#39;indirizzo di lavoro) che verrà confrontato con il primo campo.
 
-   Trascinatelo nell’area di lavoro centrale, nello stesso contenitore del primo campo, nella **[!UICONTROL Drop here to compare operands]**casella.
+   Trascinatelo nell’area di lavoro centrale, nello stesso contenitore del primo campo, nella **[!UICONTROL Drop here to compare operands]** casella.
 
    ![](assets/aep_audiences_comparing_2.png)
 
