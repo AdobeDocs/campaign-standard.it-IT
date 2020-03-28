@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -35,21 +35,6 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
   <tr> 
    <td> <p>Il connettore di archiviazione BLOB di Azure ora può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un'attività di flusso di lavoro <strong>di trasferimento file</strong> . </p>
     <p>Per ulteriori informazioni, consulta la documentazione <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account"></a>dettagliata.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Interfaccia unificata di Experience Cloud</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>La barra superiore dell'interfaccia è stata migliorata per migliorare l'esperienza in tutte le applicazioni Experience Cloud. L'intestazione ora consente di passare più facilmente tra le soluzioni e visualizza la guida e le notifiche migliorate.</p>
-    <p>Per ulteriori informazioni, consulta la documentazione <a href="../../start/using/interface-description.md#top-bar"></a>dettagliata. </p>
    </td> 
   </tr> 
  </tbody> 
