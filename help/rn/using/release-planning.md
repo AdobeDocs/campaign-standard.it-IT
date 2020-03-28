@@ -43,7 +43,7 @@ Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati d
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> 1 - 2 aprile 2020<br /> </td> 
+   <td> 31 marzo - 1 aprile 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produzione<br /> </td> 
