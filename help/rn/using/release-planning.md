@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
+source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
 
 ---
 
@@ -43,11 +43,11 @@ Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati d
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> 23 - 24 marzo 2020<br /> </td> 
+   <td> 1 - 2 aprile 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produzione<br /> </td> 
-   <td> 31 marzo - 6 aprile 2020<br /> </td> 
+   <td> 6 - 9 aprile 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,4 +84,4 @@ A: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l&#39;aggio
 
 A: Quando accedete a Campaign, viene visualizzata una finestra a comparsa di notifica della versione, con l&#39;ultima versione.
 
-Per qualsiasi altra domanda, contatta l&#39;Assistenza clienti [Adobe](https://support.neolane.net/webApp/extranetLogin).
+Per qualsiasi altra domanda, contatta l&#39;Assistenza clienti [di](https://support.neolane.net/webApp/extranetLogin)Adobe.
