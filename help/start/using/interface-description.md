@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
+source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
 
 ---
 
@@ -60,25 +60,12 @@ I principi di navigazione sono:
 * Il **[!UICONTROL Home]** collegamento consente di visualizzare la home page di Adobe Campaign.
 * I **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]****[!UICONTROL Audiences]** e **[!UICONTROL Reports]** i collegamenti consentono di accedere alle viste collegate a tali funzionalità.
 * Il **[!UICONTROL Help]** pulsante permette di accedere alla documentazione del prodotto e all’aiuto contestuale, alle note sulla versione, ai numeri di versione, alle note legali, nonché ai collegamenti verso la comunità Adobe Experience Cloud e l’assistenza clienti.
-* Il pulsante Organizzazione
-* L&#39;icona **dello switcher** della soluzione consente di passare a un&#39;altra soluzione Adobe Experience Cloud e alle impostazioni del profilo.
-* L&#39;icona **Notifiche** visualizza gli avvisi o le informazioni più recenti.
-* L’icona **Utente** consente di visualizzare le informazioni collegate al profilo. Consente di accedere al **[!UICONTROL Sign out]** pulsante.
-
-### Aiuto {#help}
-
-* **[!UICONTROL Search]** consente di recuperare documentazione, articoli e video e filtrare il contenuto per soluzione
-
-* **[!UICONTROL Help]** tab
-   * I collegamenti consentono di accedere rapidamente agli articoli, alla documentazione e ai video relativi alla pagina che si sta sfogliando
-   * **[!UICONTROL Learning]** questo collegamento consente di accedere a Experience League.
-   * **[!UICONTROL Community]** questo collegamento consente di accedere al forum dedicato alle domande su ACS.
-
-* **[!UICONTROL Support]** tab consente di creare un biglietto di supporto e di contattarci via telefono o Twitter.
-
-* **[!UICONTROL Feedback ]** tab consente di condividere problemi e idee sulla soluzione.
 
    ![](assets/ux_help.png)
+
+* L&#39;icona **Seleziona soluzione** consente di passare a un&#39;altra soluzione Adobe Experience Cloud e alle impostazioni del profilo.
+* L&#39;icona **Notifiche** visualizza gli avvisi o le informazioni più recenti.
+* L’icona **Utente** consente di visualizzare le informazioni collegate al profilo. Consente di accedere al **[!UICONTROL Sign out]** pulsante.
 
 ## Menu Avanzate {#advanced-menu}
 
