@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -35,14 +35,14 @@ Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, 
 
 >[!NOTE]
 >
->Adobe Campaign Standard può anche connettersi a Microsoft Dynamics 365: questa integrazione consente la sincronizzazione di tutti i dati di contatto disponibili nel sistema CRM, rendendo disponibili tutti i dati di contatto pertinenti per le attività della campagna. Per ulteriori informazioni su questa integrazione, consulta [Utilizzo di Campaign e Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+>Adobe Campaign Standard può anche connettersi a Microsoft Dynamics 365: questa integrazione consente la sincronizzazione di tutti i dati di contatto disponibili nel sistema CRM, rendendo disponibili tutti i dati di contatto pertinenti per le attività della campagna. Per ulteriori informazioni su questa integrazione, consulta [Utilizzo di Campaign e Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 
 <table> 
  <thead> 
   <tr> 
    <th> Soluzione<br /> </th> 
-   <th> Caso di utilizzo<br /> </th> 
+   <th> Use Case<br /> </th> 
    <th> Consultare<br /> </th> 
   </tr> 
  </thead> 
@@ -56,7 +56,7 @@ Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, 
   </tr> 
   <tr> 
    <td> Target<br /> Classic, Standard<br /> </td> 
-   <td> Consente di inserire immagini calcolate in modo dinamico da Adobe Target all'apertura di un'e-mail creata e inviata da Adobe Campaign.<br /> </td> 
+   <td> Consente di inserire immagini che vengono calcolate dinamicamente da Adobe Target all'apertura di un'e-mail creata e inviata da Adobe Campaign.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a> <br/>, <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">integrazione di Campaign e Target</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">personalizzazione delle immagini e-mail in video in tempo</a> reale (passaggio 3)
     </td> 
