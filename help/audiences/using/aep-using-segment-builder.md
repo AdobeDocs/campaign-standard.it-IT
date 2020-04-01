@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 >
 >Il servizio Destinazioni audience è attualmente in versione beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta l&#39;Assistenza clienti Adobe.
 
-Unified Segment Builder (Generatore di segmenti unificato) consente di creare audience definendo regole basate sui dati provenienti da [Unified Profile Service](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
+Unified Segment Builder (Generatore di segmenti unificato) consente di creare audience definendo regole basate sui dati provenienti da [Unified Profile Service](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
-Questa sezione presenta i concetti globali per la creazione di un segmento. Per informazioni dettagliate sullo stesso Generatore di segmenti unificato, consulta la guida [utente di Generatore di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)segmenti.
+Questa sezione presenta i concetti globali per la creazione di un segmento. Per informazioni dettagliate sullo stesso Generatore di segmenti unificato, consulta la guida [utente di Generatore di](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmenti.
 
 L&#39;interfaccia Unified Segment Builder (Generatore di segmenti unificato) è composta come segue:
 
@@ -48,7 +48,7 @@ Il Generatore di segmenti unificato deve ora essere visualizzato nell&#39;area d
 
 1. Accertatevi che nel riquadro delle impostazioni sia selezionato il criterio di unione desiderato.
 
-   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida [utente di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment Builder.
+   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida [utente di](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -82,7 +82,7 @@ I campi sono organizzati in schede:
 >
 >**La segmentazione** multi-entità consente di estendere i dati del profilo con dati aggiuntivi basati su prodotti, store o altre classi non di profilo. Una volta connessi, i dati di altre classi diventano disponibili come se fossero nativi dello schema Profilo.
 >
->Per ulteriori informazioni, consulta la documentazione [](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)dedicata.
+>Per ulteriori informazioni, consulta la documentazione [](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)dedicata.
 
 Per impostazione predefinita, il generatore di segmenti unificati visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, compresi i campi per i quali i dati non sono presenti, attivare l&#39; **[!UICONTROL Show full XDM schema]** opzione dalle impostazioni.
 
@@ -96,7 +96,7 @@ Il simbolo alla fine di ciascun campo fornisce informazioni aggiuntive sull&#39;
 
 >[!NOTE]
 >
->La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la guida [utente di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment Builder (Generatore di segmenti).
+>La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la guida [utente di](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder (Generatore di segmenti).
 
 Per creare una regola, attenetevi alla procedura seguente:
 
