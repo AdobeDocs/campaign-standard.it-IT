@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 ## Rilascio 19.4 - dicembre 2019 {#release-19-4---october-2019}
 
-**Cosa c&#39;è di nuovo?**
+**Novità?**
 
 <table> 
  <thead> 
@@ -56,7 +56,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
   <tr> 
    <td> 
     <p>È ora disponibile l'integrazione tra Adobe Campaign Standard e Microsoft Dynamics 365. Potrai trasferire i tuoi record di contatti e entità personalizzati da Dynamics 365 a Campaign e recuperare i dati degli eventi e-mail da Campaign a Dynamics 365 per migliorare l'allineamento vendite/marketing.</p>
-    <p>Fate riferimento alla documentazione <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html"></a> dettagliata per configurare questa integrazione e visualizzare il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html"></a>dimostrativo.</p>
+    <p>Fate riferimento alla documentazione <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md"></a> dettagliata per configurare questa integrazione e visualizzare il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html"></a>dimostrativo.</p>
   </td>
   </tr> 
  </tbody> 
@@ -66,7 +66,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 * La finestra a comparsa di consenso per il reporting dinamico è stata aggiornata per includere l&#39;integrazione di Adobe Campaign Standard e Microsoft Dynamics 365. Accettando i termini, i dati del profilo saranno inclusi quando si utilizzano l&#39;integrazione Adobe Campaign Standard / Microsoft Dynamics 365 e i rapporti dinamici. [Leggi tutto](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * È stato risolto un problema che causava la visualizzazione di date di contatto errate durante la ricezione degli avvisi di consegna.
-* Quando un evento messaggio transazionale viene inviato con un parametro di contesto sconosciuto, Campaign ora restituisce un messaggio di errore &quot;400&quot; invece di &quot;500&quot;. (CAMP-28632)
+* Quando un evento di messaggio transazionale viene inviato con un parametro di contesto sconosciuto, Campaign ora restituisce un messaggio di errore &quot;400&quot; invece di &quot;500&quot;. (CAMP-28632)
 * È stato aggiunto un nuovo segmento **Escludi prova** nel reporting dinamico. Questo segmento è ora selezionato per impostazione predefinita per filtrare i rapporti. [Leggi tutto](../../reporting/using/list-of-components-.md#segments)
 * L&#39;opzione **Scadenza** messaggio è stata aggiunta alla notifica push. Consente di specificare una data di scadenza in cui il messaggio non verrà più inviato da Apple (APNS) o Android (FCM). [Leggi tutto](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Sono stati apportati miglioramenti all&#39;attività del file **** Load: i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all&#39;errore che si verifica quando un file non viene caricato. La transizione in uscita generata durante l&#39;attivazione dell&#39;opzione **Mantieni i rifiuti in un file** è stata rinominata **Rifiuti**. [Leggi tutto](../../automating/using/load-file.md)
@@ -76,13 +76,13 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 * È stato risolto un problema che causava la rimozione di tutti i dati tranne l&#39;indirizzo e-mail presente nell&#39;elenco di quarantena durante l&#39;eliminazione delle informazioni di un profilo in quarantena tramite una richiesta di privacy.
 * È stata migliorata la protezione contro le iniezioni nelle intestazioni delle e-mail.
-* È stata migliorata la protezione contro gli attacchi SSRF in cui è possibile utilizzare espressioni xtk (HTML per e-mail, contenuto di testo e oggetto, SMS e contenuto di notifica push).
+* È stata migliorata la protezione contro gli attacchi SSRF in cui è possibile utilizzare espressioni xtk (HTML dell&#39;e-mail, contenuto di testo e oggetto, SMS e contenuto delle notifiche push).
 
 **Miglioramenti di Email Designer**
 
 * È stato risolto un problema che impediva il tracciamento dei collegamenti di annullamento iscrizione, iscrizione e pagina di destinazione quando venivano inseriti in un messaggio e-mail. (CAMP-37809)
 * È stato risolto un problema che poteva causare errori durante la creazione di un nuovo messaggio e-mail e la selezione di un modello. (CAMP-38000)
-* Quando si modifica un collegamento utilizzando Designer e-mail, è ora possibile utilizzare l&#39;opzione Collegamento **** sottolineato. Inoltre, è stata aggiunta una proprietà **Target** con il valore predefinito impostato su **Nessuno**. [Leggi tutto](../../designing/using/styles.md#about-styling-links)
+* Quando si modifica un collegamento utilizzando Designer e-mail, è ora possibile utilizzare l&#39;opzione **Sottolineato collegamento** . Inoltre, è stata aggiunta una proprietà **Target** con il valore predefinito impostato su **Nessuno**. [Leggi tutto](../../designing/using/styles.md#about-styling-links)
 * È stato risolto un problema di colore sui collegamenti in componenti di testo nel corpo di un messaggio e-mail. (CAMP-37330)
 * È stato risolto un problema che impediva la rimozione dei collegamenti associati durante l&#39;eliminazione di un&#39;immagine. (CAMP-37234)
 * È stato risolto un problema che impediva il salvataggio delle modifiche nelle impostazioni **Ordine** del contenuto dinamico in una condizione. (CAMP-36883)
@@ -149,7 +149,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 ## Rilascio 19.3 - luglio 2019 {#release-19-3---july-2019}
 
-**Cosa c&#39;è di nuovo?**
+**Novità?**
 
 <table> 
  <thead> 
@@ -161,11 +161,11 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
  <tbody> 
   <tr> 
    <td> Attività API esterna (versione beta pubblica)<br /> </td> 
-   <td> <p>Per una personalizzazione più approfondita, Attività API esterna consente di portare dati da sistemi esterni in un flusso di lavoro tramite una chiamata REST API. Gli endpoint REST possono essere un sistema di gestione dei clienti, un runtime Adobe I/O o un endpoint REST di Adobe Experience Cloud (ad esempio, piattaforma dati, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente nella versione beta pubblica.</p><p>Per ulteriori informazioni, consultate la documentazione <a href="../../automating/using/external-api.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">sulle</a>procedure.</p></td> 
+   <td> <p>Per una personalizzazione più approfondita, Attività API esterna consente di portare dati da sistemi esterni in un flusso di lavoro tramite una chiamata REST API. Gli endpoint REST possono essere un sistema di gestione dei clienti, un runtime Adobe I/O o un endpoint REST di Adobe Experience Cloud (ad esempio, Piattaforma dati, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente nella versione beta pubblica.</p><p>Per ulteriori informazioni, consultate la documentazione <a href="../../automating/using/external-api.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">sulle</a>procedure.</p></td> 
   </tr> 
   <tr> 
    <td> Report sul segmento del flusso di lavoro<br /> </td> 
-   <td> <p>Questa funzione consente agli esperti di marketing di suddividere le prestazioni di consegna per codice del segmento. Quando create un flusso di lavoro e utilizzate un'attività di segmentazione per assegnare segmenti alla popolazione di distribuzione, questi segmenti ora possono passare alla stessa distribuzione. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna.</p><p>Per ulteriori informazioni, consultate la documentazione <a href="../../reporting/using/creating-a-report-workflow-segment.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">sulle</a>procedure.</p></td>
+   <td> <p>Questa funzione consente agli esperti di marketing di suddividere le prestazioni di consegna per codice del segmento. Quando create un flusso di lavoro e utilizzate un'attività di segmentazione per assegnare segmenti alla popolazione di distribuzione, questi segmenti ora possono passare alla stessa consegna. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna.</p><p>Per ulteriori informazioni, consultate la documentazione <a href="../../reporting/using/creating-a-report-workflow-segment.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">sulle</a>procedure.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -179,7 +179,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 * È stato risolto un problema che causava l&#39;aggiunta di tag di stile HTML aggiuntivi a un modello HTML ogni volta che veniva aggiunto un componente, con un conseguente aumento vertiginoso delle dimensioni del modello. (CAMP-34694)
 * È stato risolto un problema che poteva impedire la disponibilità di alcune opzioni del menu della barra degli strumenti superiore destra. (CAMP-34577)
 * È stato risolto un problema che si verificava quando il blocco contenuto URL pagina mirror veniva inserito in un contenuto e-mail. (CAMP-34779)
-* È stato risolto un problema che si verificava quando si utilizzava il codice JSPP in un messaggio e-mail, rendendo difficile la modifica del contenuto. (CAMP-34574)
+* È stato risolto un problema che si verificava quando si utilizzava il codice JSPP in un messaggio e-mail, rendendo difficoltosa la modifica del contenuto. (CAMP-34574)
 * È stato risolto un problema che causava il troncamento delle immagini in cima quando veniva loro aggiunto un collegamento ipertestuale. (CAMP-34382)
 * È stato risolto un problema di visualizzazione che si verificava durante l&#39;utilizzo di Email Designer con Firefox. (CAMP-34364)
 * Sono stati risolti diversi problemi che si verificavano in modalità Avanzato durante la definizione del contenuto dinamico in un messaggio e-mail. (CAMP-34351, CAMP-34333, CAMP-34331)
@@ -190,7 +190,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 * È stato risolto un problema che causava l&#39;interruzione dell&#39;output HTML quando si utilizzava il simbolo maggiore di nel contenuto dinamico. (CAMP-33688)
 * È stato risolto un problema che si verificava durante l&#39;utilizzo dell&#39;opzione Annulla durante la modifica del testo in Designer e-mail. (CAMP-32565)
 * È stato risolto un problema che causava la creazione di tag aggiuntivi durante l&#39;annullamento degli stili invece di rimuoverli. (CAMP-32359)
-* Ora potete definire se ogni componente utilizzato in un messaggio e-mail verrà visualizzato solo sui dispositivi desktop o solo sui dispositivi mobili.
+* Potete ora definire se ciascun componente utilizzato in un messaggio e-mail verrà visualizzato solo sui dispositivi desktop o solo sui dispositivi mobili.
 * Ora potete impostare la larghezza e l&#39;altezza di un componente di contenuto Social.
 * È stato risolto un problema che impediva la rimozione del vecchio codice sorgente del contenuto dinamico dopo l&#39;eliminazione di tale contenuto dinamico.
 * È stato risolto un problema che poteva impedire l’aggiornamento dell’oggetto di un messaggio e-mail dopo la modifica.
@@ -203,11 +203,11 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 **Altri miglioramenti**
 
-* Grazie all&#39;integrazione con Adobe Experience Platform Location Services, Adobe Campaign è ora compatibile con l&#39;invio di messaggi di marketing basati sulla posizione agli abbonati dell&#39;applicazione mobile tramite l&#39;SDK di Experience Platform. Per ulteriori informazioni, consulta la documentazione [](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)dettagliata.
+* Grazie all&#39;integrazione con i servizi di localizzazione di Adobe Experience Platform, Adobe Campaign è ora compatibile con l&#39;invio di messaggi di marketing basati sulla posizione agli abbonati dell&#39;applicazione mobile tramite l&#39;SDK di Experience Platform. Per ulteriori informazioni, consulta la documentazione [](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)dettagliata.
 * La funzione di reporting è stata migliorata per migliorare l&#39;esperienza. Per utilizzare questa funzione, devi accettare il contratto di utilizzo di reporting dinamico. Per ulteriori informazioni, consulta la documentazione [](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)dettagliata.
-* Nei flussi di lavoro è stata aggiunta una nuova opzione per visualizzare in anteprima le dieci esecuzioni successive di un flusso di lavoro. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/scheduler.md)dettagliata.
+* Nei flussi di lavoro, è stata aggiunta una nuova opzione per visualizzare in anteprima le dieci esecuzioni successive di un flusso di lavoro. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/scheduler.md)dettagliata.
 * Nell&#39;attività Scheduler, una nuova opzione consente di selezionare un giorno specifico di una settimana per le consegne mensili. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/scheduler.md)dettagliata.
-* Quando si creano consegne ricorrenti senza periodo di aggregazione, il dashboard di consegna ora consente di richiedere conferma prima dell&#39;invio. Per ulteriori informazioni, consulta la documentazione [](../../sending/using/confirming-the-send.md)dettagliata.
+* Quando si creano consegne ricorrenti senza periodo di aggregazione, il dashboard di consegna ora consente di richiedere la conferma prima dell&#39;invio. Per ulteriori informazioni, consulta la documentazione [](../../sending/using/confirming-the-send.md)dettagliata.
 * Ora puoi personalizzare l&#39;etichetta di una consegna con le variabili evento dichiarate nell&#39;attività del segnale esterno del flusso di lavoro. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/calling-a-workflow-with-external-parameters.md)dettagliata.
 * La query di eliminazione GDPR è stata migliorata per migliorare le prestazioni. (CAMP-33504)
 * L&#39;opzione &quot;ftp&quot; è stata rimossa dall&#39;interfaccia di configurazione dell&#39;account esterno. (CAMP-34472)
@@ -220,7 +220,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 * Ora viene visualizzato un messaggio quando si tenta di eliminare un messaggio transazionale utilizzato da una pagina di destinazione come messaggio di conferma.
 * Nei registri dei flussi di lavoro viene ora visualizzato un avviso quando un&#39;attività è in esecuzione da più di 6 ore. Ciò non si applica alle attività di notifica push, Consegna, Segnale, Inizio, Fine, Fork, E-joint, Pianificazione e Attesa.
 * Nei registri dei flussi di lavoro viene ora visualizzato un avviso quando raggiungete il numero massimo di flussi di lavoro in esecuzione contemporaneamente.
-* I flussi di lavoro in stato di pausa o di mancata riuscita per oltre 7 giorni vengono ora interrotti per ridurre lo spazio su disco. L’attività di pulizia viene visualizzata nei registri del flusso di lavoro.
+* I flussi di lavoro in stato di pausa o di mancata riuscita per più di 7 giorni vengono ora interrotti per ridurre lo spazio su disco. L’attività di pulizia viene visualizzata nei registri del flusso di lavoro.
 * Quando si utilizza un&#39;attività &quot;Trasferisci file&quot;, ora viene registrato un errore se la dimensione del file supera lo spazio disponibile su disco.
 * L&#39;azione Reindirizza all&#39;URL di destinazione non può più essere selezionata per il pulsante secondario nei messaggi in-app.
 
@@ -251,7 +251,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 * Sono stati risolti diversi problemi che si verificavano durante l&#39;utilizzo del modello di importazione Direct Mail (updateQuarantinesDeliveryLogsDirectMail).
 * È stato risolto un problema relativo all&#39;integrazione Assets on Demand.
 * È stato risolto un problema che si verificava eseguendo lo zoom in nella visualizzazione Timeline. (CAMP-33628)
-* È stato risolto un problema che impediva l&#39;invio immediato delle prove per i messaggi e-mail con data e ora pianificata. (CAMP-33723)
+* È stato risolto un problema che impediva l&#39;invio immediato delle prove per i messaggi e-mail con una data e un&#39;ora pianificate. (CAMP-33723)
 * È stato risolto un problema relativo ai messaggi transazionali che generavano log degli errori quando un utente si disconnetteva. (CAMP-31698)
 * È stato corretto un errore che poteva verificarsi in ambienti specifici durante la pianificazione di un messaggio e-mail.
 * È stato risolto un problema che causava il fallimento del flusso di lavoro di esecuzione dell&#39;aggiornamento.
@@ -279,7 +279,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 È stata introdotta una serie di miglioramenti e correzioni per ottimizzare i frammenti nella release 19.2. I frammenti creati di recente funzioneranno perfettamente. I frammenti creati in precedenza sono stati disattivati e devono essere migrati nel nuovo formato. A tal fine, fare clic su ciascun frammento e convalidarne la migrazione nel nuovo formato. È consigliabile verificare alcuni frammenti prima di eseguire la migrazione di tutti.
 
-* È stato risolto un problema che impediva agli utenti di modificare un frammento dopo averlo sbloccato. Questo problema interessava i frammenti esistenti durante l&#39;aggiornamento a 19.2. (CAMP-33778)
+* È stato risolto un problema che impediva agli utenti di modificare un frammento dopo averlo sbloccato. Questo problema interessava i frammenti esistenti durante l&#39;aggiornamento alla versione 19.2. (CAMP-33778)
 * È stato risolto un problema durante l&#39;utilizzo del contenuto dinamico. Nell’HTML sono stati aggiunti spazi aggiuntivi.
 
 **Altri miglioramenti**
@@ -294,7 +294,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 ## Rilascio 19.2 - maggio 2019 {#release-19-2---may-2019}
 
-**Cosa c&#39;è di nuovo?**
+**Novità?**
 
 <table> 
  <thead> 
@@ -318,7 +318,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
   </tr> 
   <tr> 
    <td> Miglioramento delle pagine di destinazione - Google reCAPTCHA<br /> </td> 
-   <td> <p>Sfruttate Google reCAPTCHA per evitare spam sulle pagine di destinazione senza richiedere alcuna azione da parte dei clienti.</p><p>Per ulteriori informazioni, consulta la documentazione <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha"></a>dettagliata.</p></td> 
+   <td> <p>Sfruttate Google reCAPTCHA per evitare lo spam sulle pagine di destinazione senza richiedere alcuna azione da parte dei clienti.</p><p>Per ulteriori informazioni, consulta la documentazione <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha"></a>dettagliata.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -344,7 +344,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 * È stato risolto un problema che impediva il caricamento dei frammenti nella palette a sinistra di Designer e-mail.
 * È stato risolto un problema che impediva la visualizzazione dei frammenti creati durante l&#39;edizione del contenuto dell&#39;e-mail nella palette a sinistra di Designer e-mail durante l&#39;aggiornamento dell&#39;elenco dei frammenti.
 * Sono stati corretti diversi problemi che si verificavano durante l&#39;utilizzo del contenuto dinamico in un&#39;e-mail.
-* È stato risolto un problema che si verificava con il selettore colore durante il tentativo di definire un colore utilizzando i valori RGB.
+* È stato risolto un problema che si verificava con il selettore colore quando si tentava di definire un colore utilizzando i valori RGB.
 * È stato risolto un problema che impediva alla pagina mirror di essere reattiva durante la ricezione dell&#39;e-mail su un dispositivo mobile.
 
 **Miglioramenti dei messaggi transazionali**
@@ -363,7 +363,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 * È stata aggiunta una nuova opzione all&#39;account esterno di SMS. Consente di limitare il numero massimo di processi MTA che inviano SMS per controllare meglio il numero di connessioni parallele. Per ulteriori informazioni, consultare la nota tecnica relativa al protocollo e alle impostazioni [del connettore](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) SMS.
 * Quando si pubblica una risorsa con estensione API, se l&#39;API è già stata pubblicata, ora viene aggiornata automaticamente ogni volta che viene pubblicata di nuovo. In precedenza questa azione era manuale e l&#39;aggiornamento dell&#39;API non riusciva a interrompere la risorsa del profilo o del servizio di questa API. Per ulteriori informazioni, consulta la documentazione [](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)dettagliata.
-* La dimensione del codice ZIP è stata rimossa da Generazione rapporti dinamica. È consigliabile utilizzare le dimensioni Città, Paese e Stato.
+* La dimensione del codice ZIP è stata rimossa da Dynamic Reporting (Generazione di rapporti dinamica). È consigliabile utilizzare le dimensioni Città, Paese e Stato.
 * Il trigger dell&#39;evento &quot;Primo avvio&quot; del ciclo di vita per i messaggi in-app è stato rimosso.
 * Quando si esporta un pacchetto con gruppi di protezione, ora contiene i ruoli assegnati a ciascun gruppo. (CAMP-32960)
 * Nell&#39;attività Carica file, una nuova opzione consente di verificare che le colonne del file che state caricando corrispondano alla definizione della colonna. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/load-file.md)dettagliata. (CAMP-32229)
@@ -373,7 +373,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * Nell&#39;attività del file Extract, le funzionalità Javascript sono state aggiornate quando si definisce il nome di un file da esportare. Nel campo Output è ora disponibile solo la funzione formatDate. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/extract-file.md)dettagliata.
 * È stata migliorata la generazione automatica degli ID di sequenza per le risorse personalizzate. Per impostazione predefinita, le chiavi primarie per le nuove risorse personalizzate sono ora a 64 bit.
 * È stata migliorata la modalità di test della pubblicazione delle risorse personalizzata. Ora agli utenti viene visualizzato un messaggio di avviso se l&#39;ultima pubblicazione di risorse personalizzata non è riuscita e non è fissa. Dopo un errore di pubblicazione di una risorsa personalizzata, è possibile ripristinare l&#39;ultima versione di lavoro. Per ulteriori informazioni, consulta la documentazione [](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)dettagliata.
-* È stata aggiunta una nuova opzione nell&#39;attività del file di trasferimento. Consente di ordinare i file quando si utilizza l’azione di download dei file in modalità SFTP. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/transfer-file.md)dettagliata. (CAMP-33109)
+* È stata aggiunta una nuova opzione nell&#39;attività del file di trasferimento. Consente di ordinare i file quando si utilizza l’azione di download dei file, in modalità SFTP. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/transfer-file.md)dettagliata. (CAMP-33109)
 
 **Patch**
 
@@ -383,15 +383,15 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * È stato risolto un errore che causava un errore nel flusso di lavoro di condivisione dei report.
 * È stato corretto un errore che impediva agli utenti di inviare messaggi in-app con un semplice URL multimediale.
 * È stato risolto un problema che causava la visualizzazione di un&#39;app mobile anche se il relativo certificato non era caricato nell&#39;istanza.
-* È stato corretto un errore che impediva il funzionamento dei campi di personalizzazione quando si utilizza **Target per tutti gli utenti di un modello di app** per dispositivi mobili.
+* È stato corretto un errore che impediva il funzionamento dei campi di personalizzazione quando si utilizza **Target per tutti gli utenti di un modello di app** Mobile.
 * È stato eseguito il provisioning delle nuove istanze Campaign Standard. (CAMP-32635 E CAMP-32344)
 * È stato corretto un errore che impediva la personalizzazione della formula della data in un flusso di lavoro. (CAMP-30336)
 * È stato risolto un problema che si verificava durante la definizione di una formula di data personalizzata che poteva impedire la disponibilità dei campi &quot;Dati aggiuntivi&quot; e &quot;Codice segmento&quot; nell&#39;elenco a discesa. (CAMP-32383)
 * È stato risolto un problema che poteva impedire alle attività &quot;Trasferisci file&quot; e &quot;Estrai file&quot; di trovare i file rifiutati se erano crittografati. (CAMP-32377)
 * È stato risolto un problema nelle API che poteva impedire al filtro lineCount di eseguire il rendering del conteggio totale esatto. (CAMP-31424)
 * È stato risolto un problema nelle pagine di destinazione che poteva impedire ai campi di input di visualizzare il valore aggiornato una volta che era stato modificato. (CAMP-31401)
-* È stato risolto un problema che poteva provocare un&#39;attivazione inattesa dell&#39;attività del segnale.
-* È stato risolto un problema che poteva impedire la visualizzazione dell&#39;anteprima e-mail quando il pubblico era vuoto.
+* È stato risolto un problema che poteva provocare l&#39;attivazione inattesa di un&#39;attività di segnale.
+* È stato risolto un problema che poteva impedire la visualizzazione dell&#39;anteprima e-mail quando l&#39;audience era vuota.
 * È stato risolto un problema nell&#39;attività &quot;Estrai file&quot; che poteva generare un file mentre l&#39;opzione &quot;Non generare un file se la transizione in entrata è vuota&quot; era attivata.
 * È stato risolto un problema che causava la disattivazione del flusso di lavoro di recapito se il completamento non andava a buon fine.
 * È stato risolto un problema che poteva impedire agli utenti di salvare o pianificare i rapporti. (CAMP-31133)
@@ -401,7 +401,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 **Miglioramenti di Email Designer**
 
 * È stato risolto un problema che impediva la modifica di un modello dopo il salvataggio.
-* Sono stati risolti diversi problemi durante l&#39;utilizzo di un modello creato in precedenza in un&#39;e-mail.
+* Sono stati corretti diversi problemi durante l&#39;utilizzo di un modello creato in precedenza in un&#39;e-mail.
 * È stato risolto un problema che impediva ai componenti di essere nascosti nei modelli importati.
 
 **Altri miglioramenti**
@@ -412,7 +412,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 ## Rilascio 19.1 - febbraio 2019 {#release-19-1---february-2019}
 
-**Cosa c&#39;è di nuovo?**
+**Novità?**
 
 <table> 
  <thead> 
@@ -424,7 +424,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
  <tbody> 
   <tr> 
    <td> Miglioramenti per i rapporti sui canali push<br /> </td> 
-   <td> <p>Sono stati aggiunti diversi miglioramenti alla generazione di rapporti sui canali push per consentirvi di misurare il coinvolgimento degli utenti in modo più intuitivo. Con questa versione, stiamo espandendo l'elenco delle metriche dei canali push in tre diverse metriche: Impressioni, clic, aperture (App Open) per misurare e analizzare in modo più efficace l'interazione degli utenti con le notifiche push. Inoltre, stiamo standardizzando la definizione e l'implementazione di queste metriche. Il rapporto integrato della notifica push è stato migliorato anche con visualizzazioni e metriche comunemente utilizzate.</p><p> Per ulteriori informazioni, consulta la documentazione <a href="../../reporting/using/push-notification-report.md"></a>dettagliata.</p> </td> 
+   <td> <p>Sono stati aggiunti diversi miglioramenti alla generazione di rapporti sui canali push per consentirvi di misurare il coinvolgimento degli utenti in modo più intuitivo. Con questa versione, stiamo espandendo l'elenco delle metriche dei canali push in tre diverse metriche: Impressioni, clic, aperture (App Open) per misurare e analizzare in modo più efficace l'interazione degli utenti con le notifiche push. Insieme a questo, stiamo anche standardizzando la definizione e l'implementazione di queste metriche. Il rapporto integrato della notifica push è stato migliorato anche con visualizzazioni e metriche comunemente utilizzate.</p><p> Per ulteriori informazioni, consulta la documentazione <a href="../../reporting/using/push-notification-report.md"></a>dettagliata.</p> </td> 
   </tr> 
   <tr> 
    <td> Integrazione di Launch per l'app mobile<br /> </td> 
@@ -484,7 +484,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * I messaggi di avviso e di errore che possono essere visualizzati durante la navigazione nell&#39;interfaccia sono stati resi più chiari e facili da comprendere.
 * È ora possibile aggiungere all&#39;elenco dei profili le colonne relative ai campi opt-in e opt-out (&quot;Non contattare più...&quot;).
 * L’elenco a discesa Fuso orario nella schermata di creazione del profilo è stato spostato dalla sezione Indirizzo alla sezione superiore dell’interfaccia.
-* È ora possibile aggiungere separatori durante la configurazione delle schermate delle risorse personalizzate, per organizzare i campi in categorie.
+* È ora possibile aggiungere dei separatori durante la configurazione delle schermate delle risorse personalizzate, per organizzare i campi in categorie.
 
    Per ulteriori informazioni, consulta la documentazione [](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)dettagliata.
 
@@ -499,14 +499,14 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * È stato risolto un problema che rallentava l&#39;invio di messaggi da altri canali se l&#39;invio era limitato per un canale quando l&#39;invio di messaggi da tutti i canali veniva attivato contemporaneamente.
 * È stato risolto un problema che causava l&#39;avvio dell&#39;MTA per l&#39;invio di messaggi SMS quando la connessione dell&#39;account esterno non era ancora stabilita.
 * È stato risolto un problema che si verificava con la frequenza e l&#39;ora di inizio dell&#39;esecuzione dell&#39;attività dell&#39;Utilità di pianificazione. (CAMP-30745)
-* È stato risolto un problema che poteva verificarsi con la generazione PKEY quando si utilizzavano risorse di profilo estese. (CAMP-30285)
+* È stato risolto un problema che poteva verificarsi con la generazione PKEY quando si utilizzavano le risorse del profilo esteso. (CAMP-30285)
 * È stato risolto un problema che poteva verificarsi con le regole di Fatigue basate su un giorno di calendario. (CAMP-30136)
 * È stato risolto un problema che poteva verificarsi quando si tentava di accedere a risorse personalizzate con nomi che terminavano con &quot;Base&quot;. (CAMP-30109)
 * È stato risolto un problema che impediva l’utilizzo di una chiamata PATCH per sottoscrivere un profilo a un servizio. (CAMP-29728)
 * È stato risolto un problema che poteva danneggiare un flusso di lavoro durante l&#39;importazione di un file XML tramite l&#39;attività Carica file. (CAMP-29208 e CAMP-28205)
 * È stato risolto un problema che impediva la generazione di collegamenti di cardinalità inversa durante il collegamento di risorse personalizzate. (CAMP-30476)
 * È stato risolto un problema che impediva di estendere i log di consegna solo quando si utilizzava il codice del segmento.
-* È stato risolto un problema che poteva duplicare le righe quando si utilizzava l&#39;attività di trasferimento file nei flussi di lavoro.
+* È stato risolto un problema che poteva duplicare le righe quando si utilizzava l&#39;attività di trasferimento dei file nei flussi di lavoro.
 * È stato risolto un problema che impediva l&#39;invio dei rapporti pianificati al momento scelto.
 * È stato risolto un problema che causava una discrepanza tra i KPI &quot;Per distribuire&quot; e &quot;Inviato&quot; per una consegna in-app in un flusso di lavoro.
 * È stato risolto un problema che impediva il monitoraggio per un messaggio in-app creato con un HTML personalizzato.
@@ -518,7 +518,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 ## Rilascio 19.0 - gennaio 2019 {#release-19-0---january-2019}
 
-**Cosa c&#39;è di nuovo?**
+**Novità?**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -537,7 +537,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
      <li> Possibilità di <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperare automaticamente i contenuti da un URL al momento della preparazione</a> </li> 
      <li> Modelli <a href="../../designing/using/using-reusable-content.md#content-templates">di contenuto</a>out-of-the-box completamente conformi. </li> 
     </ul> 
-    <p>Per ulteriori informazioni, consultate la documentazione <a href="../../designing/using/designing-content-in-adobe-campaign.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">sulle</a>procedure. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l'editor del contenuto delle e-mail legacy ora è obsoleto. Per ulteriori informazioni, consultare questa <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">pagina</a>.</p> </td> 
+    <p>Per ulteriori informazioni, consultate la documentazione <a href="../../designing/using/designing-content-in-adobe-campaign.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">sulle</a>procedure. I miglioramenti e le correzioni sono elencati di seguito.</p><p>Di conseguenza, l'editor del contenuto delle e-mail legacy ora è obsoleto. Per ulteriori informazioni, consultare questa <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">pagina</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Elenco prodotti nelle e-mail transazionali<br /> </td> 
@@ -562,7 +562,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 **Miglioramenti**
 
-* Una nuova opzione nell&#39;attività di caricamento dei dati ora consente di applicare una fase di post-elaborazione al file contenente i record rifiutati (ad esempio. Compressione formato ZIP). (CAMP-24521)
+* Una nuova opzione nell&#39;attività di caricamento dei dati ora consente di applicare una fase di post-elaborazione al file contenente i record rifiutati (ad esempio. Compressione del formato ZIP). (CAMP-24521)
 * Una nuova opzione nell&#39;attività di aggiornamento dei dati ora consente di configurare la dimensione batch massima per i dati da caricare. (CAMP-28400)
 * È stata migliorata la selezione dello stato dell&#39;indirizzo dei profili. Quando si seleziona un paese, l&#39;elenco a discesa &quot;Stato&quot; ora viene aggiornato automaticamente con i valori degli stati pertinenti. (CAMP-28874)
 * Una nuova opzione nell&#39;attività del file Extract ora impedisce la generazione di un file se la transizione in entrata è vuota. In questo modo si evita di creare e caricare file vuoti sui server SFTP.
@@ -590,7 +590,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 * È stato risolto un problema che causava la visualizzazione di log di consegna non corretti nel reporting dinamico. (CAMP-23446)
 * È stato risolto un problema che poteva interessare i numeri nel rapporto Riepilogo rimbalzo (CAMP-28703)
-* È stato risolto un problema con l&#39;integrazione del servizio core Campaign and Assets che poteva impedire la visualizzazione delle risorse durante la selezione **[!UICONTROL Image shared from Adobe Experience Cloud]**in un messaggio e-mail (CAMP-28732).
+* È stato risolto un problema con l&#39;integrazione del servizio core Campaign and Assets che poteva impedire la visualizzazione delle risorse durante la selezione **[!UICONTROL Image shared from Adobe Experience Cloud]** in un messaggio e-mail (CAMP-28732).
 * È stato risolto un problema che impediva l&#39;invio di messaggi SMS contenenti il carattere &quot;uno&quot; anche se la traslitterazione era autorizzata nell&#39;account esterno SMPP. (CAMP-29041)
 * È stato risolto un problema che poteva visualizzare record duplicati quando si utilizzava un&#39;attività di segmentazione nei flussi di lavoro. (CAMP-28743)
 * È stato risolto un problema che impediva l&#39;eliminazione di una delle mappature dei valori su una colonna in un&#39;attività del flusso di lavoro. (CAMP-28708)
