@@ -1,6 +1,6 @@
 ---
 title: Gestione dei tipi di pubblico di Adobe Experience Platform
-description: Scopri come gestire Adobe Experience Platform in Campaign Standard.
+description: Scopri come gestire Adobe Experience Platform all'interno di Campaign Standard.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ## Accesso ai tipi di pubblico di Adobe Experience Platform
 
-Per accedere al generatore di segmenti di Adobe Experience Platform, andate alla **[!UICONTROL Audiences]**scheda nella home page di Campaign Standard (o al**[!UICONTROL Audiences]** collegamento nell&#39;intestazione), quindi selezionate l&#39; **[!UICONTROL Adobe Experience Platform]**ambiente.
+Per accedere al generatore di segmenti di Adobe Experience Platform, andate alla **[!UICONTROL Audiences]** scheda nella home page di Campaign Standard (o al **[!UICONTROL Audiences]** collegamento nell&#39;intestazione), quindi selezionate l&#39; **[!UICONTROL Adobe Experience Platform]** ambiente.
 
 ![](assets/aep_audiences_access.png)
 
@@ -40,7 +40,7 @@ Sono disponibili una barra di ricerca e un filtro per individuare il segmento de
 
 Per creare un pubblico Adobe Experience Platform direttamente in Campaign Standard, procedi come segue:
 
-1. Dalla pagina dell’elenco dei segmenti di Adobe Experience Platform, fate clic sul **[!UICONTROL New audience]**pulsante situato nell’angolo destro.
+1. Dalla pagina dell’elenco dei segmenti di Adobe Experience Platform, fate clic sul **[!UICONTROL New audience]** pulsante situato nell’angolo destro.
 
    ![](assets/aep_audiences_creation_create.png)
 
@@ -52,13 +52,13 @@ Per creare un pubblico Adobe Experience Platform direttamente in Campaign Standa
 
 1. Per creare correttamente un segmento, devi selezionare un criterio **di** unione che corrisponda allo scopo di marketing per questo segmento.
 
-   Nel riquadro delle impostazioni, è selezionato un criterio di unione predefinito per la piattaforma. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida [utente di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment Builder.
+   Nel riquadro delle impostazioni, è selezionato un criterio di unione predefinito per la piattaforma. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida [utente di](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. Definite le regole che identificheranno i profili da recuperare nel pubblico.
 
-   A questo scopo, trascina gli attributi e/o gli eventi desiderati dal riquadro a sinistra nell&#39;area di lavoro, definisce le regole corrispondenti, quindi fai clic sul **[!UICONTROL Create segment]**pulsante per salvare il segmento (consulta[Utilizzo di Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
+   A questo scopo, trascina gli attributi e/o gli eventi desiderati dal riquadro a sinistra nell&#39;area di lavoro, definisce le regole corrispondenti, quindi fai clic sul **[!UICONTROL Create segment]** pulsante per salvare il segmento (consulta [Utilizzo di Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
    ![](assets/aep_audiences_creation_query.png)
 
@@ -68,6 +68,6 @@ L&#39;audience è ora pronta per essere attivata e può essere utilizzata come d
 
 Per modificare un&#39;audience, aprirla e modificarne le regole in base alle esigenze all&#39;interno dell&#39;interfaccia Unified Segment Builder (vedere [Utilizzo di Unified Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
-Una volta completate le modifiche, fate clic sul **[!UICONTROL Save segment]**pulsante per aggiornare il pubblico.
+Una volta completate le modifiche, fate clic sul **[!UICONTROL Save segment]** pulsante per aggiornare il pubblico.
 
 ![](assets/aep_audiences_editing.png)
