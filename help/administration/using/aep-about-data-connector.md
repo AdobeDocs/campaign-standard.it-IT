@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Platform Data Connector
+title: Informazioni su Adobe Experience Platform Data Connector
 description: Gestisci schemi XDM per rendere disponibili i dati di Campaign Standard su Adobe Experience Platform.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -12,12 +12,12 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
+source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
 
 ---
 
 
-# Adobe Experience Platform Data Connector {#about-aep-data-connector}
+# Informazioni su Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
@@ -46,21 +46,25 @@ I video dimostrativi sono disponibili anche in [questa pagina](https://docs.adob
 
 * La mappatura della casella è disponibile solo per i campi forniti in Campaign Standard per impostazione predefinita. Per acquisire tutti i campi e le risorse personalizzati, ogni cliente deve definire una propria mappatura.
 
-* Adobe Experience Platform Data Connector invia i dati del profilo attraverso la piattaforma a intervalli regolari &#x200B;. La durata dell&#39;intervallo è di 15 minuti. Questo valore non è modificabile.
-
-   >[!NOTE]
-   >
-   >Questa durata può essere modificata utilizzando le API [](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)Adobe Experience Platform.
+* Adobe Experience Platform Data Connector invia i dati del profilo attraverso la piattaforma a intervalli regolari &#x200B;. La durata dell&#39;intervallo è di 15 minuti. Questo valore può essere modificato utilizzando le API [](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)Adobe Experience Platform.
 
 * Il tecnico dei dati può pubblicare, modificare e mettere in pausa la mappatura da Campaign ad Adobe Experience Platform.
 
-* È possibile mappare qualsiasi dimensione di targeting. La raccomandazione prevede un&#39;unica mappatura per tutti i campi in un&#39;unica dimensione di targeting.
+* È possibile mappare qualsiasi dimensione di targeting. La raccomandazione consiste nell&#39;avere un&#39;unica mappatura per tutti i campi in un&#39;unica dimensione di targeting.
 
 * Tutti gli aggiornamenti di profilo, inclusi gli opt-in/opt-out di canale, fanno parte dell&#39;aggiornamento batch.
 
 * Qualsiasi modifica allo schema di Adobe Campaign Standard o XDM deve essere rimappata manualmente. &#x200B;
 
 * I dati del registro di tracciamento e del registro di trasmissione vengono trasferiti automaticamente in Adobe Experience Platform come Eventi esperienza. Questa assimilazione viene trasmessa in streaming in tempo reale ad Adobe Experience Platform.
+
+* Experience Cloud ID Service (ECID) è un identificatore dispositivo inviato per impostazione predefinita con Experience Events.
+
+   Si tratta di un ID univoco e costante assegnato a un visitatore, che può essere utilizzato dal servizio Identità piattaforma per identificare lo stesso visitatore e i relativi dati in diverse soluzioni Experience Cloud. Per ulteriori informazioni, consulta l’Aiuto [del servizio](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud ID.
+
+   >[!NOTE]
+   >
+   >Tenete presente che, se due o più profili condividono uno stesso dispositivo, l’ECID sarebbe lo stesso per questi due profili nel servizio Identità unificata.
 
 ## Limitazioni {#limitations}
 
@@ -72,4 +76,4 @@ I video dimostrativi sono disponibili anche in [questa pagina](https://docs.adob
 
 * Le restrizioni sulle azioni di marketing diventano applicabili solo dopo l&#39;applicazione delle etichette DULE in Adobe Experience Platform. Prima di tale data, tutti i dati sono disponibili per tutti i tipi di azioni di marketing.
 
-* Ogni 15 minuti, il processo batch è in esecuzione e identifica i record modificati dall&#39;ultimo batch. Se tutti i record cambiano allo stesso timestamp, potrebbe apparire un collo di bottiglia delle prestazioni per gestire l&#39;inserimento di tutti i profili
+* Ogni 15 minuti, il processo batch è in esecuzione e identifica i record modificati dall&#39;ultimo batch. Se tutti i record cambiano allo stesso timestamp, potrebbe apparire un collo di bottiglia delle prestazioni per gestire l&#39;assimilazione di tutti i profili
