@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -198,37 +198,47 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [Aggiunta di componenti](reporting/using/adding-components.md)
       + [Creazione di una dimensione di profilo personalizzata](reporting/using/creating-a-custom-profile-dimension.md)
       + [Creazione di un report basato sui segmenti del flusso di lavoro](reporting/using/creating-a-report-workflow-segment.md)
-+ Integrazione con Adobe Cloud {#integrating-with-adobe-cloud}
++ Integrazione con altre soluzioni {#integrating-with-adobe-cloud}
    + [Informazioni sulle integrazioni di Campaign](integrating/using/about-campaign-integrations.md)
-   + Utilizzo di Campaign ed Experience Manager {#working-with-campaign-and-experience-manager}
+   + Campaign ed Experience Manager {#working-with-campaign-and-experience-manager}
       + [Informazioni sull’integrazione di Campaign ed Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configurazione dell&#39;integrazione Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Creazione di contenuti e-mail in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Creazione di un modulo Campaign in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Utilizzo di Campaign e Target {#working-with-campaign-and-target}
+   + Campaign e Target {#working-with-campaign-and-target}
       + [Informazioni sull’integrazione di Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configurazione dell’integrazione Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
       + [Aggiunta di contenuto dinamico Target](integrating/using/adding-target-dynamic-content.md)
-   + Utilizzo di Campaign e Analytics {#working-with-campaign-and-analytics}
+   + Campaign e Analytics {#working-with-campaign-and-analytics}
       + [Informazioni sull’integrazione di Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configurare l’integrazione Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensioni e metriche di Campaign in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Utilizzo di Campaign e Audience Manager o del servizio di base Persone {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Informazioni sull’integrazione di Campaign-Audience Manager o del servizio di base Persone](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Provisioning e configurazione dell’integrazione con i servizi di base di Audience Manager o Persone](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Risoluzione dei problemi](integrating/using/troubleshooting.md)
       + [Condivisione di audience con Audience Manager o il servizio di base Persone](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilizzo del servizio di base Campaign e Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Utilizzo di Campaign e Analytics per dispositivi mobili {#working-with-campaign-and-analytics-for-mobile}
+   + Campaign e Analytics per Mobile {#working-with-campaign-and-analytics-for-mobile}
       + [Informazioni sull’integrazione dei dati Campaign-Punti di interesse](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configurazione dell’integrazione dei dati Campaign-Punti di interesse](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalizzazione dei messaggi di Campaign con i dati dei punti di interesse](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Utilizzo di Campaign e Triggers {#working-with-campaign-and-triggers}
+   + Campaign e Triggers {#working-with-campaign-and-triggers}
       + [Informazioni su Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configurazione di Triggers in Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilizzo di Triggers in Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Verifica degli attivatori](integrating/using/testing-your-triggers.md)
       + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
+   + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Configurare l&#39;integrazione Adobe IO per Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Utilizzo di Campaign Standard e Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+         + [Utilizzo di Campaign Standard e Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Avvisi e raccomandazioni](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Richiesta e configurazione di Microsoft Dynamics 365 con integrazione Campaign Standard](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Utilizzo di Microsoft Dynamics 365 con integrazione di Campaign Standard](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Configurare Microsoft Dynamics 365 per l&#39;integrazione con Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Configurare l&#39;integrazione Unifi per Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [Mappatura risorse personalizzate della campagna e entità personalizzate Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Gestione di processi e dati {#managing-processes-and-data}
    + Flussi di lavoro e gestione dei dati {#about-workflows-and-data-management}
       + [Dati e processi del flusso di lavoro](automating/using/workflow-data-and-processes.md)
