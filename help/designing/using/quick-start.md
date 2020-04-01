@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva a Email Designer
+title: Guida introduttiva a E-mail Designer
 description: Iniziate a creare contenuto e-mail con Designer e-mail.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
-# Guida introduttiva a Email Designer {#quick-start}
+# Guida introduttiva a E-mail Designer {#quick-start}
 
 Designer e-mail offre quattro modi per creare e-mail.
 
@@ -51,9 +51,9 @@ Puoi creare facilmente un&#39;e-mail, aggiungere componenti e personalizzare i l
 
 ### Aggiunta di una riga oggetto {#add-a-subject-line}
 
-Le righe oggetto sono obbligatorie quando si invia un&#39;e-mail. Per ulteriori informazioni, consultate [Definizione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md).
+Le righe dell&#39;oggetto sono obbligatorie quando si invia un&#39;e-mail. Per ulteriori informazioni, consultate [Definizione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md).
 
-1. Passare alla **[!UICONTROL Properties]**scheda della home page di Designer e-mail (accessibile tramite l&#39;icona principale) e compilare la**[!UICONTROL Subject]** sezione.
+1. Passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l&#39;icona principale) e compilare la **[!UICONTROL Subject]** sezione.
 
 ![](assets/subject-line-quick-start.png)
 
@@ -61,7 +61,7 @@ Le righe oggetto sono obbligatorie quando si invia un&#39;e-mail. Per ulteriori 
 
 I componenti struttura definiranno il layout dell’e-mail. Per ulteriori informazioni, consultate [Definizione della struttura di un messaggio e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-Nei componenti Struttura, trascinate e rilasciate i componenti per il layout da usare.
+Nei componenti Struttura, trascinate e rilasciate i componenti per il layout che desiderate usare.
 
 >[!NOTE]
 >
@@ -83,8 +83,8 @@ Potete aggiungere diversi componenti di contenuto alle e-mail, ad esempio immagi
 
 * **Testo con personalizzazione**
 
-1. In Componenti **contenuto**, trascinate il testo in uno dei componenti della struttura.
-1. Fate clic sul componente e inserite il testo.
+1. In **Content Components (Componenti** contenuto), trascinate il testo in uno dei componenti della struttura.
+1. Fate clic sul componente e immettete il testo.
 1. Per aggiungere un campo di personalizzazione, fate clic su **Inserisci campo** di personalizzazione nella barra degli strumenti.
 1. Selezionare il campo desiderato, ad esempio Nome.
 
@@ -99,7 +99,7 @@ Potete aggiungere diversi componenti di contenuto alle e-mail, ad esempio immagi
 
 ![](assets/html-component-source-code.png)
 
-Se avete familiarità con l’HTML, potete copiare e incollare il codice HTML dal piè di pagina originale utilizzando il componente **[!UICONTROL Html]**contenuto. Per ulteriori informazioni, consultate[Informazioni sui componenti](../../designing/using/designing-from-scratch.md#about-content-components)di contenuto.
+Se avete familiarità con l’HTML, potete copiare e incollare il codice HTML dal piè di pagina originale utilizzando il componente **[!UICONTROL Html]** contenuto. Per ulteriori informazioni, consultate [Informazioni sui componenti](../../designing/using/designing-from-scratch.md#about-content-components)di contenuto.
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -122,12 +122,12 @@ Ora puoi salvare e inviare il tuo messaggio e-mail.
 Potete creare un&#39;e-mail da modelli predefiniti, come messaggi di benvenuto ai clienti, newsletter ed e-mail di nuovo coinvolgimento e personalizzarle.
 
 1. Create un’e-mail e apritene il contenuto. Per ulteriori informazioni, consultate [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md).
-1. Fate clic sull’icona Home per accedere alla **[!UICONTROL Email Designer]**pagina principale.
-1.  Fate clic sulla **[!UICONTROL Templates]**scheda.
+1. Fate clic sull’icona Home per accedere alla **[!UICONTROL Email Designer]** pagina principale.
+1. Fate clic sulla **[!UICONTROL Templates]** scheda.
 1. Scegliete un modello HTML integrato.
 I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli &#39;Feather&#39; hanno margini, mentre i modelli &#39;Astro&#39; non ne hanno uno. Per ulteriori informazioni, consulta Modelli [di](../../designing/using/using-reusable-content.md#content-templates)contenuto.
-1. Passare alla **[!UICONTROL Properties]**scheda della home page di Designer e-mail (accessibile tramite l&#39;icona principale) e compilare la**[!UICONTROL Subject]** sezione.
-1. Potete combinare questi elementi per creare diverse varianti di e-mail. Ad esempio, potete duplicare una sezione e-mail selezionando un componente struttura e facendo clic **[!UICONTROL Duplicate]**sulla barra degli strumenti contestuale.
+1. Passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l&#39;icona principale) e compilare la **[!UICONTROL Subject]** sezione.
+1. Potete combinare questi elementi per creare diverse varianti di e-mail. Ad esempio, potete duplicare una sezione e-mail selezionando un componente struttura e facendo clic **[!UICONTROL Duplicate]** sulla barra degli strumenti contestuale.
 1. Potete spostare gli elementi utilizzando la freccia blu a sinistra per trascinare un componente struttura sotto o sopra un altro. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
 1. Potete anche spostare i componenti per cambiare l&#39;organizzazione di ciascun elemento struttura. Per ulteriori informazioni, vedere [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modificate il contenuto di ciascun elemento in base alle vostre esigenze: immagini, testo, collegamenti.
@@ -137,9 +137,9 @@ I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad 
 
 Se si desidera creare un framework di modelli e frammenti modulari che possano essere combinati per il riutilizzo in più e-mail, è consigliabile convertire l&#39;HTML dell&#39;e-mail in un modello di E-mail Designer.
 
-### Conversione di un contenuto HTML {#converting-an-html-content}
+### Conversione del contenuto HTML {#converting-an-html-content}
 
-Questo caso di utilizzo consente di convertire rapidamente un&#39;e-mail HTML in componenti di E-mail Designer.
+Questo caso di utilizzo offre un modo rapido per convertire le e-mail HTML in componenti di E-mail Designer.
 
 >[!CAUTION]
 >
@@ -149,7 +149,7 @@ Questo caso di utilizzo consente di convertire rapidamente un&#39;e-mail HTML in
 >
 >Come la modalità di compatibilità, un componente HTML è modificabile con opzioni limitate: è possibile eseguire solo edizioni interne.
 
-Al di fuori di Email Designer, assicurarsi che l&#39;HTML originale sia diviso in sezioni riutilizzabili.
+Al di fuori di Designer e-mail, assicurarsi che l&#39;HTML originale sia diviso in sezioni riutilizzabili.
 
 1. Aprite il Designer e-mail per creare un contenuto e-mail vuoto.
 1. Impostate gli attributi a livello di corpo: colori di sfondo, larghezza, ecc. Per ulteriori informazioni, consultate [Modifica degli stili](../../designing/using/styles.md)delle e-mail.
@@ -217,7 +217,7 @@ Quando si carica un contenuto, questo deve contenere tag specifici per essere co
 
 Se tutto o parte dell’HTML caricato non è conforme ai tag previsti, il contenuto viene caricato in &quot;modalità compatibilità&quot;, che limita le possibilità di edizione nell’interfaccia utente.
 
-Quando un contenuto viene caricato in modalità di compatibilità, potete comunque eseguire le seguenti modifiche tramite l&#39;interfaccia (le azioni non disponibili sono nascoste):
+Quando un contenuto viene caricato in modalità di compatibilità, è comunque possibile eseguire le seguenti modifiche tramite l&#39;interfaccia (le azioni non disponibili sono nascoste):
 
 * Modifica del testo o modifica di un’immagine
 * Inserimento di collegamenti e campi di personalizzazione
