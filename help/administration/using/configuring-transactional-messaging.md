@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -156,24 +156,25 @@ Prima di poter utilizzare l’evento, dovete visualizzarlo in anteprima e pubbli
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >Ogni volta che modificate l’evento, dovete fare di **[!UICONTROL Publish]** nuovo clic per generare l’API REST aggiornata che verrà utilizzata dallo sviluppatore del sito Web.
 
->[!NOTE]
->
->Ogni volta che modificate l’evento, dovete fare di **[!UICONTROL Publish]** nuovo clic per generare l’API REST aggiornata che verrà utilizzata dallo sviluppatore del sito Web.
+   Una volta pubblicato l’evento, viene automaticamente creato un messaggio transazionale collegato al nuovo evento.
 
-Una volta pubblicato l’evento, viene automaticamente creato un messaggio transazionale collegato al nuovo evento. Affinché questo evento possa attivare l’invio di un messaggio transazionale, è necessario modificare e pubblicare il messaggio appena creato. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. Puoi accedere direttamente a questo messaggio transazionale tramite il collegamento situato nell’area a sinistra.
 
-Puoi accedere al messaggio transazionale creato direttamente dal collegamento nell’area a sinistra.
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+Affinché l’evento possa attivare l’invio di un messaggio transazionale, è necessario modificare e pubblicare il messaggio appena creato. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 È inoltre necessario integrare questo evento attivatore nel sito Web. Consultate [Integrazione dell’attivazione dell’evento in un sito Web](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+Una volta che Adobe Campaign inizia a ricevere eventi correlati a questa configurazione dell&#39;evento, il **[!UICONTROL Latest transactional events]** collegamento nella **[!UICONTROL History]** sezione consente di accedere agli eventi più recenti inviati dal servizio di terze parti ed elaborati da Adobe Campaign.
+
+![](assets/message-center_latest-events.png)
+
+Gli eventi (in formato JSON) sono elencati tra quelli più recenti e quelli meno recenti. Questo elenco consente di controllare dati quali il contenuto o lo stato di un evento, a scopo di controllo e debug.
 
 ### Annullamento della pubblicazione di un evento {#unpublishing-an-event}
 
@@ -345,7 +346,7 @@ Per ulteriori informazioni sulla creazione e la pubblicazione delle risorse, con
 
    ![](assets/message-center_usecase2.png)
 
-1. Crea una condizione di partecipazione tra il campo &quot;ID prodotto&quot; precedentemente aggiunto al messaggio e il campo corrispondente della **[!UICONTROL Purchase]** risorsa
+1. Crea una condizione di partecipazione tra il campo &quot;ID prodotto&quot; precedentemente aggiunto al messaggio e il campo corrispondente della **[!UICONTROL Purchase]** risorsa.
 
    ![](assets/message-center_usecase3.png)
 
