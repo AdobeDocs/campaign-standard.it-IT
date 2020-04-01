@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -24,6 +24,17 @@ Scopri tutti gli aggiornamenti più recenti della documentazione di Adobe Campai
 In questa pagina sono elencate tutte le nuove funzioni e gli aggiornamenti della documentazione per ciascuna versione di Adobe Campaign Standard.
 
 Puoi anche consultare le [Note](../../rn/using/release-notes.md)sulla versione di Adobe Campaign.
+
+## Aggiornamenti della documentazione - Aprile 2020 {#doc-updates-april-2020}
+
+L&#39;integrazione di Microsoft Dynamics 365 con Adobe Campaign Standard è stata integrata nella documentazione di base nella guida all&#39;integrazione con altre soluzioni. [Leggi tutto](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Ulteriori risorse sono state aggiunte alla home page della documentazione. [Leggi tutto](../../campaign-standard-home.md)
+
+Nella documentazione del Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sul servizio Experience Cloud ID. [Leggi tutto](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+La sezione Configurazione dei messaggi transazionali è stata migliorata con informazioni su come accedere agli eventi transazionali più recenti e alle schermate aggiornate. [Leggi tutto](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## Rilascio 20.2 - marzo 2020 {#release-20-2---march-2020}
 
@@ -45,7 +56,7 @@ Una nuova sezione sulle linee guida di configurazione è stata aggiunta alla gui
 
 È ora disponibile una nuova sezione che descrive come eliminare la configurazione di un evento. [Leggi tutto](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-La pagina che descrive come testare l’oggetto di un messaggio e-mail per visualizzarne il tasso di apertura è stata aggiornata e migliorata, inclusa una nuova sezione per la [risoluzione dei problemi](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Leggi tutto](../../sending/using/testing-subject-line-email.md#troubleshooting)
+La pagina che descrive come testare l’oggetto di un messaggio e-mail per visualizzarne il tasso di apertura è stata aggiornata e migliorata, inclusa una nuova sezione per la [risoluzione dei problemi](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Leggi tutto](../../sending/using/testing-subject-line-email.md)
 
 Le sezioni di messaggistica transazionali sono state aggiornate per riflettere i miglioramenti e gli aggiornamenti più recenti dell&#39;interfaccia utente. [Leggi tutto](../../channels/using/about-transactional-messaging.md)
 
@@ -147,7 +158,7 @@ Il nuovo endpoint API **/customResources** è stato aggiunto alla documentazione
 
 California Consumer Privacy Act (CCPA) - [Leggi tutto](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Integrazione con Microsoft Dynamics 365 (GA) - [Per saperne di più](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Integrazione con Microsoft Dynamics 365 (GA) - [Per saperne di più](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **Altri aggiornamenti della documentazione in arrivo con il rilascio**
 
@@ -211,7 +222,7 @@ Report sul segmento del flusso di lavoro - [Leggi tutto](../../reporting/using/c
 
 La Guida all&#39;implementazione di Campaign Standard è ora live.[Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-È stato creato un set di nuovi articoli della Guida relativi all&#39;implementazione e all&#39;utilizzo del connettore Microsoft Dynamics 365. Al momento questa funzione è disponibile solo in versione limitata.[Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+È stato creato un set di nuovi articoli della Guida relativi all&#39;implementazione e all&#39;utilizzo del connettore Microsoft Dynamics 365. Al momento questa funzione è disponibile solo in versione limitata.[Leggi tutto](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Una nota è stata aggiunta nella sezione [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md) sulla preparazione della consegna e il relativo periodo di aggregazione.
 
@@ -803,7 +814,7 @@ Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../
 
 Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
-Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro per segnali [](../../automating/using/external-signal.md) esterni.
+Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
