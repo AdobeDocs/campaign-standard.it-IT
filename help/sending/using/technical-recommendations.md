@@ -13,33 +13,31 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
 
 ---
 
 
 # Raccomandazioni tecniche{#technical-recommendations}
 
-Inoltre, di seguito sono elencate diverse tecniche, configurazioni e strumenti utilizzabili per migliorare il tasso di recapito.
+Di seguito sono elencate diverse tecniche, configurazioni e strumenti utilizzabili per migliorare il tasso di recapito. Di seguito sono riportate alcune definizioni dei principali termini tecnici.
 
-Di seguito sono riportate alcune definizioni dei principali termini tecnici.
+**Inverti DNS**: Adobe Campaign verifica se per un indirizzo IP è stato specificato un DNS inverso e che questo indichi correttamente l&#39;IP.
 
-**Inverti DNS** Adobe Campaign verifica se viene fornito un DNS inverso per un indirizzo IP e che questo indichi correttamente l'IP.
+**Le regole** MX vengono utilizzate per controllare la velocità alla quale Campaign MTA (Message Transfer Agent) invia e-mail a ogni singolo dominio e-mail o ISP (ad esempio, hotmail.com, comcast.net). Tali regole si basano in genere sui limiti pubblicati dagli ISP (ad esempio, non includono più di 20 messaggi per ogni connessione SMTP).
 
-**Le regole** MX vengono utilizzate per controllare la velocità alla quale Campaign MTA (Message Transfer Agent) invia e-mail a ciascun dominio e-mail o ISP (ad esempio, hotmail.com, comcast.net). Tali regole si basano in genere sui limiti pubblicati dagli ISP (ad esempio, non includono più di 20 messaggi per ogni connessione SMTP).
+**TLS** (Transport Layer Security) è un protocollo di cifratura che può essere utilizzato per proteggere la connessione tra due server e-mail e proteggere il contenuto di un&#39;e-mail dalla lettura da parte di altri destinatari.
 
-**TLS** TLS (Transport Layer Security) è un protocollo di cifratura che può essere utilizzato per proteggere la connessione tra due server di posta elettronica e proteggere il contenuto di un'e-mail dalla lettura da parte di altri destinatari.
+**SPF** (Sender Policy Framework) è uno standard di autenticazione tramite e-mail che consente al proprietario di un dominio di specificare quali server e-mail possono inviare e-mail per conto di tale dominio. Questo standard utilizza il dominio nell&#39;intestazione &quot;Return-Path&quot; dell&#39;e-mail (detto anche indirizzo &quot;Envelope From&quot;).
 
-**SPF** SPF (Sender Policy Framework) è uno standard di autenticazione tramite e-mail che consente al proprietario di un dominio di specificare quali server e-mail possono inviare e-mail per conto di tale dominio. Questo standard utilizza il dominio nell'intestazione "Return-Path" dell'e-mail (detto anche indirizzo "Envelope From").
+**L&#39;autenticazione DKIM** (Domain Keys Identified Mail) è un successore di SPF e utilizza la crittografia a chiave pubblica che consente al server di posta elettronica ricevente di verificare che un messaggio sia stato effettivamente inviato dalla persona o dall&#39;entità da cui sostiene di essere stato inviato, e se il contenuto del messaggio sia stato alterato tra il momento dell&#39;invio originale (e DKIM &quot;signed&quot;) e l&#39;ora in cui è stato ricevuto. In genere, questo standard utilizza il dominio nell’intestazione &quot;Da&quot; o &quot;Mittente&quot;.
 
-**L'autenticazione DKIM** DKIM (Domain Keys Identified Mail) è un successore di SPF e utilizza la crittografia a chiave pubblica che consente al server di posta elettronica ricevente di verificare che un messaggio sia stato effettivamente inviato dalla persona o dall'entità da cui sostiene di essere stato inviato e se il contenuto del messaggio sia stato alterato tra il momento in cui è stato inviato originariamente (e DKIM "firmato") e l'ora in cui è stato ricevuto. In genere, questo standard utilizza il dominio nell’intestazione "Da" o "Mittente".
-
-**DMARC** DMARC (Domain-based Message Authentication, Reporting and Conformance) è la forma più recente di autenticazione tramite e-mail e si basa sia sull'autenticazione SPF che su quella DKIM per determinare se un'e-mail viene passata o meno. DMARC è unico e potente in due modi molto importanti:
+**DMARC** (Domain-based Message Authentication, Reporting and Conformance) è la forma più recente di autenticazione e-mail e si basa sia sull&#39;autenticazione SPF che su quella DKIM per determinare se un&#39;e-mail viene passata o meno. DMARC è unico e potente in due modi molto importanti:
 * Conformità: consente al mittente di indicare agli ISP cosa fare con qualsiasi messaggio che non riesce ad autenticarsi (ad es. non accettarlo).
-* Reporting: fornisce al mittente un rapporto dettagliato che mostra tutti i messaggi che non hanno superato l'autenticazione DMARC, insieme al dominio "Da" e all'indirizzo IP utilizzati per ciascuno di essi. Questo consente a un'azienda di identificare e-mail legittime che non ottengono l'autenticazione e che necessitano di alcuni tipi di "correzione" (ad esempio, l'aggiunta di indirizzi IP al record SPF), nonché le fonti e la prevalenza dei tentativi di phishing nei propri domini e-mail.
+* Reporting: fornisce al mittente un rapporto dettagliato che mostra tutti i messaggi che non hanno superato l&#39;autenticazione DMARC, insieme al dominio &quot;Da&quot; e all&#39;indirizzo IP utilizzati per ciascuno di essi. Questo consente a un&#39;azienda di identificare e-mail legittime che non ottengono l&#39;autenticazione e che necessitano di alcuni tipi di &quot;correzione&quot; (ad esempio, l&#39;aggiunta di indirizzi IP al proprio record SPF), nonché le fonti e la prevalenza dei tentativi di phishing nei propri domini e-mail.
 
 DMARC può sfruttare i report generati da 250ok.
 
-**SMTP**(Simple Mail Transfer Protocol) è uno standard Internet per la trasmissione di posta elettronica.
+**SMTP** (Simple Mail Transfer Protocol) è uno standard Internet per la trasmissione di posta elettronica.
 
-**Gli IP** Adobe dedicati forniscono una strategia IP dedicata a ciascun cliente con un IP di espansione per creare una reputazione e ottimizzare le prestazioni di distribuzione.
+**IP** dedicati: Adobe offre una strategia IP dedicata a ciascun cliente con un IP di espansione per creare una reputazione e ottimizzare le prestazioni di distribuzione.
