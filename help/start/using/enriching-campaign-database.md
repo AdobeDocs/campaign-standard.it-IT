@@ -12,22 +12,22 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
 
 # Arricchimento del database{#enriching-the-database}
 
-Campaign Standard offre diversi strumenti per incrementare il database di marketing. Questa sezione descrive i diversi metodi che potete utilizzare per inserire i dati in Campaign, con riferimenti alle documentazione dedicata.
+Campaign Standard offre diversi strumenti per incrementare il database di marketing. Questa sezione descrive i diversi metodi che potete utilizzare per inserire i dati in Campaign, con riferimenti alle documentazione dedicate.
 
 ## Importazione di dati tramite flussi di lavoro {#importing-data-through-workflows}
 
-I flussi di lavoro consentono di raccogliere i dati e importarli nel database Campaign mediante l'uso di [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) attività.
+I flussi di lavoro consentono di raccogliere i dati e importarli nel database Campaign mediante l&#39;uso di [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) attività.
 
-Informazioni generiche e best practice per l'importazione di dati tramite flussi di lavoro sono presentate in [questa sezione](../../automating/using/importing-data.md).
+Informazioni generiche e best practice per l&#39;importazione di dati tramite flussi di lavoro sono presentate in [questa sezione](../../automating/using/importing-data.md).
 
-È inoltre possibile impostare modelli per l'importazione di dati. L’utilizzo dei modelli di importazione è una procedura consigliata se è necessario importare file con la stessa struttura su base regolare.
+È inoltre possibile impostare modelli per l&#39;importazione di dati. L’utilizzo dei modelli di importazione è una procedura consigliata se è necessario importare file con la stessa struttura su base regolare.
 
 Potete impostare due tipi di modelli:
 
@@ -35,7 +35,7 @@ Potete impostare due tipi di modelli:
 
    Un esempio di modello di flusso di lavoro per l’importazione dei dati è illustrato in [questa sezione](../../automating/using/importing-data.md#example--import-workflow-template).
 
-* **Importa modelli** dati: come per i modelli di workflow, si tratta di modelli basati su flussi di lavoro configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** .
+* **Importa modelli** di dati: come per i modelli di workflow, si tratta di modelli basati su flussi di lavoro configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** .
 
    Per ulteriori informazioni sui modelli di dati di importazione, consulta la documentazione [](../../automating/using/importing-data-with-import-templates.md)dedicata.
 
@@ -47,16 +47,16 @@ Il principio è il seguente:
 
 * Crea e progetta la pagina di destinazione aggiungendo campi di input per la raccolta dei dati (nome, cognome, e-mail, ecc.).
 * Mappare ogni campo di input con il campo corrispondente del database.
-* Rendere la pagina di destinazione disponibile online tramite un sito Web o tramite un collegamento diretto a un messaggio.
+* Rendete la pagina di destinazione disponibile online tramite un sito Web o tramite un collegamento diretto a un messaggio.
 
 Per ulteriori informazioni sulle pagine di destinazione, consulta la documentazione [](../../channels/using/getting-started-with-landing-pages.md)dedicata.
 
 ## Sincronizzazione dei profili da Microsoft Dynamics 365
 
-L'integrazione di Campaign Standard con Microsoft Dynamics 365 consente di trasmettere i dati di contatto da Microsoft Dynamics 365 al database Campaign.
-Questi contatti sono quindi visibili nell'elenco Profili e possono essere indirizzati nelle campagne di marketing.
+L&#39;integrazione di Campaign Standard con Microsoft Dynamics 365 consente di trasmettere i dati di contatto da Microsoft Dynamics 365 al database Campaign.
+Questi contatti sono quindi visibili nell&#39;elenco Profili e possono essere indirizzati nelle campagne di marketing.
 
-Per ulteriori informazioni su questa integrazione, consulta la documentazione [](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)dedicata.
+Per ulteriori informazioni su questa integrazione, consulta la documentazione [](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)dedicata.
 
 >[!NOTE]
 >
@@ -64,10 +64,10 @@ Per ulteriori informazioni su questa integrazione, consulta la documentazione []
 
 ## Importazione di dati tramite chiamate API
 
-Le API Campaign Standard consentono di eseguire operazioni per aggiornare il database come la creazione, l'aggiornamento o l'eliminazione di profili o servizi.
+Le API Campaign Standard consentono di eseguire operazioni per aggiornare il database come la creazione, l&#39;aggiornamento o l&#39;eliminazione di profili o servizi.
 
-Per ulteriori informazioni sull'utilizzo delle API, consulta la documentazione [](../../api/using/about-campaign-standard-apis.md)dedicata.
+Per ulteriori informazioni sull&#39;utilizzo delle API, consulta la documentazione [](../../api/using/about-campaign-standard-apis.md)dedicata.
 
 >[!CAUTION]
 >
->Prima di eseguire la creazione di massa dei profili o l'aggiornamento tramite chiamate API, controllate i limiti di scala corrispondenti al contratto di licenza. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Prima di eseguire la creazione di massa dei profili o l&#39;aggiornamento tramite chiamate API, controllate i limiti di scala corrispondenti al contratto di licenza. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
