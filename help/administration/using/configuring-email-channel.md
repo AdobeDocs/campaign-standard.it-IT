@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -251,7 +251,7 @@ La **[!UICONTROL Validity period]** sezione contiene i seguenti parametri:
 
    >[!IMPORTANT]
    >
-   >È necessario che sia stato definito un contenuto HTML per il messaggio e-mail per la pagina mirror da creare.
+   >Il contenuto HTML deve essere stato definito per l&#39;e-mail per la pagina mirror da creare.
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modalità predefinita): la pagina mirror viene generata se il collegamento viene inserito nel contenuto della posta.
    * **Forza la generazione della pagina** mirror: anche se nei messaggi non viene inserito alcun collegamento alla pagina mirror, verrà creata la pagina mirror.
