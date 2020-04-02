@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -34,17 +34,16 @@ Dettagli diagramma di flusso (mappatura ai passaggi precedenti):
 1. Leggete questo articolo, controllate le notifiche e i passaggi di configurazione.
 
 1. Inviate una richiesta di account a adobe-support@unifisoftware.com; Unifi richiederà le seguenti informazioni quando richiedete un account:
-* Nome utente
-* Cognome utente
-* E-mail utente
-* Nome società
-* Regione (America del Nord, EMEA o APAC)
-* Tipo di utilizzo:  Tipo di cliente (utenti cliente che utilizzeranno i dati di produzione in questa integrazione), o Tipo di partner (consulenti partner che stanno testando l&#39;integrazione per capire meglio in modo da poter aiutare i clienti Campaign) o Tipo di interno (utenti interni Adobe che stanno testando l&#39;integrazione per comprendere meglio la soluzione)
-* Stato dei dati di Campaign Standard (a partire da un database pulito o con l&#39;integrazione di dati esistenti)
-* ID tenant della campagna (consultate Configurare la sezione Integrazione campagna al punto 3 per ottenere l&#39;ID tenant)
-* URL istanza campagna
-
-Tempo di risposta previsto da Unifi: 1 ora durante le normali ore di ufficio negli Stati Uniti (dalle 9.00 alle 17.00 ora del Pacifico, lun - ven, escluse le vacanze).
+   * Nome utente
+   * Cognome utente
+   * E-mail utente
+   * Nome società
+   * Regione (America del Nord, EMEA o APAC)
+   * Tipo di utilizzo:  Tipo di cliente (utenti cliente che utilizzeranno i dati di produzione in questa integrazione), o Tipo di partner (consulenti partner che stanno testando l&#39;integrazione per capire meglio in modo da poter aiutare i clienti Campaign) o Tipo di interno (utenti interni Adobe che stanno testando l&#39;integrazione per comprendere meglio la soluzione)
+   * Stato dei dati di Campaign Standard (a partire da un database pulito o con l&#39;integrazione di dati esistenti)
+   * ID tenant della campagna (consultate Configurare la sezione Integrazione campagna al punto 3 per ottenere l&#39;ID tenant)
+   * URL istanza campagna
+   Tempo di risposta previsto da Unifi: 1 ora durante le normali ore di ufficio negli Stati Uniti (dalle 9.00 alle 17.00 ora del Pacifico, lun - ven, escluse le vacanze).
 
 1. Completa i passaggi successivi al provisioning per Microsoft Dynamics 365 e per Campaign Standard.
 Invia inoltre un ticket all&#39;Assistenza clienti Adobe (direttamente o tramite il contatto Adobe) per far sì che nell&#39;istanza Campaign sia attivato il flag della funzione di accesso singolo. I partner devono contattare l&#39;assistenza clienti Adobe per attivare il flag di funzione, contattando l&#39;assistenza clienti Adobe.
