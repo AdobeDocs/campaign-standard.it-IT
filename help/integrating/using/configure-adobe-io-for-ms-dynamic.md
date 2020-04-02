@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -129,8 +129,8 @@ Dopo aver immesso le informazioni, verranno generati due file: **[!UICONTROL cer
 
 1. Selezionate il profilo di prodotto nel titolo:
 
-* L&#39;ID organizzazione dell&#39;istanza della campagna
-* **[!UICONTROL Administrators]**
+   * L&#39;ID organizzazione dell&#39;istanza della campagna
+   * **[!UICONTROL Administrators]**
 
 Esempio:  Campaign Standard - Your campaign-organizerID - Administrators
 
