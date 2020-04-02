@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
 
 ---
 
@@ -231,7 +231,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
       + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Configurare l&#39;integrazione Adobe IO per Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Utilizzo di Campaign Standard e Microsoft Dynamics 365]{#configuring-acs-ms-dynamics}
+      + Utilizzo di Campaign Standard e Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Utilizzo di Campaign Standard e Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Avvisi e raccomandazioni](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Richiesta e configurazione di Microsoft Dynamics 365 con integrazione Campaign Standard](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
