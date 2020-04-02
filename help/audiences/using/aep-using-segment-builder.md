@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -66,11 +66,11 @@ Il Generatore di segmenti unificato deve ora essere visualizzato nell&#39;area d
 
 Nel riquadro a sinistra sono elencati tutti gli attributi, gli eventi e le audience disponibili per la creazione di regole.
 
-I campi elencati sono attributi acquisiti dalla società e resi disponibili tramite il sistema [](https://www.adobe.io/apis/experienceplatform/home/xdm.html)Experience Data Model (XDM).
+I campi elencati sono attributi acquisiti dalla società e resi disponibili tramite il sistema [](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)Experience Data Model (XDM).
 
 I campi sono organizzati in schede:
 
-* **[!UICONTROL Attributes]**: Attributi dei profili esistenti che possono provenire dal database Adobe Campaign e/o da Adobe Experience Platform. Si riferiscono alle informazioni statiche allegate a un profilo (ad esempio, indirizzo e-mail, paese di residenza, stato del programma fedeltà, ecc.).
+* **[!UICONTROL Attributes]**: Attributi dei profili esistenti che possono essere originati dal database Adobe Campaign e/o da Adobe Experience Platform. Si riferiscono alle informazioni statiche allegate a un profilo (ad esempio, indirizzo e-mail, paese di residenza, stato del programma fedeltà, ecc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
