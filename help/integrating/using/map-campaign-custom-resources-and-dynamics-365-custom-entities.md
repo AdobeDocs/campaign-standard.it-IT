@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ Il cliente dispone di un veicolo entità personalizzato predefinito in Dynamics 
 
 Le entità personalizzate del cliente in Dynamics 365 possono essere visualizzate nel Pannello vendite facendo clic sul menu a discesa accanto a Dynamics 365.  Le entità personalizzate del cliente sono raggruppate in **[!UICONTROL Extensions]**.
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 I dati del veicolo possono essere visualizzati facendo clic sull&#39;entità **[!UICONTROL vehicle]** personalizzata.  Cfr. l&#39;elenco dei veicoli riportato di seguito.
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 La relazione dell&#39; **[!UICONTROL vehicle]** entità con l&#39; **[!UICONTROL Contact]** entità può essere visualizzata di seguito. **[!UICONTROL Parental]** è stato scelto per il **[!UICONTROL Type of Behavior]**.
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Configurazione in Campaign Standard
 
 In Campaign, le risorse personalizzate del cliente possono essere visualizzate facendo clic **[!UICONTROL Adobe Campaign]** nell&#39;angolo in alto a sinistra, quindi selezionando **[!UICONTROL Client data]**.
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### Mappatura di risorse personalizzate ed entità personalizzate
 
@@ -82,14 +82,14 @@ La risorsa **[!UICONTROL vehicle]** personalizzata doveva essere precedentemente
 
 Fate clic su **[!UICONTROL Adobe Campaign]** nell&#39;angolo superiore sinistro, quindi fate clic su **[!UICONTROL Administration > Development > Custom Resources]**.
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. Fate clic su **[!UICONTROL Custom Resources]**.
 1. Fate clic sul **[!UICONTROL Create]** pulsante.  Viene aperta una finestra a comparsa.
 1. Seleziona **[!UICONTROL Create a new resource]** e immetti **[!UICONTROL Vehicle]** come etichetta e ID.
 1. Clic **[!UICONTROL Create]**.
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 Campaign visualizzerà quindi le strutture dei dati e la pagina di collegamento.  Sono stati aggiunti diversi campi.
 
@@ -97,23 +97,23 @@ Campaign visualizzerà quindi le strutture dei dati e la pagina di collegamento.
 * Profilo associato è l’ID del profilo a cui è collegato il record del veicolo; quando è collegato, verrà collegato al **[!UICONTROL externalId]** campo della tabella Profilo.
 * VIN e Nome del veicolo sono campi per acquisire informazioni sul veicolo.
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >Ciascuna risorsa personalizzata deve avere un campo univoco con un ID di externalId (esattamente).  Questo campo viene associato al campo ID della risorsa personalizzata in Dynamics 365 (vedere di seguito).
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### Definire i tasti di identificazione
 
 Il passo successivo consiste nel definire i tasti di identificazione.  Innanzitutto, create i tasti di identificazione, come illustrato di seguito.
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 Nella schermata Definizione chiave, accertatevi di selezionare il **[!UICONTROL externalId]** campo.
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ In **[!UICONTROL Filter Definition]**, fare clic su **[!UICONTROL Add an element
 Assegnare l&#39;etichetta e assegnare l&#39;ID al nome **[!UICONTROL ExternalId]**.
 Clic **[!UICONTROL Add]**.
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 Ora, fai clic su Modifica sul nuovo elemento filtro aggiunto e configura il filtro per l’immagine sottostante.  Se si immette **[!UICONTROL externalId]** nel **[!UICONTROL Parameters]** campo e si fa clic sul segno più, **[!UICONTROL externalId_parameter]** verrà visualizzato.  Selezionate questo come parametro.
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### Definire il collegamento
 
@@ -143,13 +143,13 @@ Verrà quindi specificato il collegamento della risorsa personalizzata.  In ques
 1. In **[!UICONTROL Join Definitions]**, selezionate **[!UICONTROL Define specific join conditions]**.
 1. Quindi fate clic su **[!UICONTROL Add an element]**.
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 Per la definizione di join, immettiamo i valori seguenti.
 
 La **[!UICONTROL @externalId]** voce è il campo externalId della tabella del profilo e la **[!UICONTROL ProfileExternalId]** voce è l&#39;ID del campo corrispondente nella risorsa personalizzata veicoli.  Quando il valore externalId di un record di profilo viene immesso nel **[!UICONTROL ProfileExternalId]** campo di un record di veicolo, i due record saranno collegati tra loro.
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 Confermate le modifiche e salvate l&#39;entità personalizzata.
 
@@ -161,21 +161,21 @@ Il passo finale consiste nel pubblicare la risorsa personalizzata.
 1. Mantenete l’opzione predefinita: **[!UICONTROL Determine modifications since the last publication]**.
 1. Fare clic **[!UICONTROL Prepare Publication]** e attendere il completamento.
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 Fare clic **[!UICONTROL Publish]** e attendere il completamento.
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### Programma di ingresso Unifi
 
 Presupponendo che il cliente abbia già popolato l&#39;entità personalizzata del veicolo in Dynamics 365 e che Unifi abbia impostato i propri processi di entità personalizzata del veicolo e i relativi programmi con, il cliente dovrebbe essere in grado di avviare il programma di ingresso per l&#39;entità veicolo.
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 Dopo il completamento del processo di ingresso, i dati del veicolo ora possono essere visualizzati nella risorsa personalizzata **[!UICONTROL Vehicle]** popolata di recente in Campaign.
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **Argomenti correlati**
 
