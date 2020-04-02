@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -45,7 +45,7 @@ Un token di accesso OAuth consente ad Unifi di autenticarsi con l&#39;istanza di
 
 I passaggi principali sono descritti nel seguente video:
 
-** VIDEO**
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Per generare il token di accesso OAuth, segui i passaggi descritti di seguito.
 
@@ -57,12 +57,12 @@ Per generare il token di accesso OAuth, segui i passaggi descritti di seguito.
 
 1. Fate clic **[!UICONTROL New registration]** nella parte superiore dello schermo.
 
-![](assets/MSdynACSIntegration-7.png)
+   ![](assets/MSdynACSIntegration-7.png)
 
-Compilate la schermata di registrazione dell&#39;app:
+1. Compilate la schermata di registrazione dell&#39;app:
 
-* Nome: adobe campaign
-* Tipo di account supportato: **[!UICONTROL Accounts in this organizational directory only]** (valore predefinito)
+   * Nome: adobe campaign
+   * Tipo di account supportato: **[!UICONTROL Accounts in this organizational directory only]** (valore predefinito)
 
 Per ulteriori informazioni sulla creazione di una nuova applicazione, consultare [questa sezione](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
@@ -104,25 +104,24 @@ Questo nuovo utente è un utente generico. Sarà utilizzato dall&#39;applicazion
 
 1. Passa all&#39;istanza di Dynamics 365 ed effettua l&#39;accesso come amministratore.
 
-1. Fare clic sull&#39;icona dell&#39;ingranaggio nell&#39;angolo superiore destro e fare clic su **[!UICONTROL Advanced Setting]**s. Nel banner superiore, fate clic sul menu a discesa accanto a **[!UICONTROL Settings]**, quindi fate clic su **[!UICONTROL Security > Users]**.
+1. Fate clic sull&#39;icona dell&#39;ingranaggio nell&#39;angolo superiore destro e fate clic su **[!UICONTROL Advanced Settings]**. Nel banner superiore, fate clic sul menu a discesa accanto a **[!UICONTROL Settings]**, quindi fate clic su **[!UICONTROL Security > Users]**.
 
 1. Fare clic sul menu a discesa fino a **[!UICONTROL Application Users]**. Clic **[!UICONTROL New]**.
 
 1. Accertati che sia disponibile un elenco a discesa accanto all’icona dell’utente **[!UICONTROL USER:APPLICATION USER]**.
 
-Compilate lo schermo per il nuovo utente.  Suggerimenti sui parametri:
+   Compilate lo schermo per il nuovo utente.  Suggerimenti sui parametri:
 
-* **[!UICONTROL User Name]** (e-mail): adobeapi@`<hostname>`, dove `<hostname>` è il nome host dell&#39;istanza Dynamics 365
-* **[!UICONTROL Application ID]**: ID dell&#39;applicazione registrata in Azure AD (obbligatorio)
-* Potete lasciare vuoto **[!UICONTROL Application ID URI]** e **[!UICONTROL Azure AD Object ID]**
-* **[!UICONTROL Full Name]**: API Adobe
-* **[!UICONTROL Email]**: come **[!UICONTROL User Name]** (o e-mail dell&#39;amministratore, se lo desiderate)
-
-Per ulteriori informazioni sulla creazione dell&#39;utente dell&#39;app, consulta [questa sezione](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   * **[!UICONTROL User Name]** (e-mail): adobeapi@`<hostname>`, dove `<hostname>` è il nome host dell&#39;istanza Dynamics 365
+   * **[!UICONTROL Application ID]**: ID dell&#39;applicazione registrata in Azure AD (obbligatorio)
+   * Potete lasciare vuoto **[!UICONTROL Application ID URI]** e **[!UICONTROL Azure AD Object ID]**
+   * **[!UICONTROL Full Name]**: API Adobe
+   * **[!UICONTROL Email]**: come **[!UICONTROL User Name]** (o e-mail dell&#39;amministratore, se lo desiderate)
+   Per ulteriori informazioni sulla creazione dell&#39;utente dell&#39;app, consulta [questa sezione](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
 
 1. Fate clic sull&#39;icona dell&#39;utente e caricate un&#39;icona di Adobe Campaign; questa è l&#39;icona che verrà visualizzata nella visualizzazione Timeline quando nuovi eventi Adobe verranno visualizzati in Dynamics 365.
 
-***getfile***
+<!-- ***getfile*** adobe campaign logo-->
 
 1. Aprite l’elenco dei ruoli utente facendo clic **[!UICONTROL MANAGE ROLES]** sulla barra multifunzione superiore.
 
