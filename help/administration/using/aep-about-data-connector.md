@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -38,15 +38,15 @@ I video dimostrativi sono disponibili anche in [questa pagina](https://docs.adob
 >
 >Questa operazione può essere eseguita tramite le API o l&#39;interfaccia di Adobe Experience Platform. Per maggiori informazioni, consulta la documentazione dedicata:
 >
->* [Abilita un set di dati per il profilo cliente in tempo reale](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [Configurare un set di dati per il profilo cliente e il servizio identità in tempo reale mediante le API](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [Abilita un set di dati per il profilo cliente in tempo reale](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
+>* [Configurare un set di dati per il profilo cliente e il servizio identità in tempo reale mediante le API](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
 
 
 ## Concetti chiave {#key-concepts}
 
 * La mappatura della casella è disponibile solo per i campi forniti in Campaign Standard per impostazione predefinita. Per acquisire tutti i campi e le risorse personalizzati, ogni cliente deve definire una propria mappatura.
 
-* Adobe Experience Platform Data Connector invia i dati del profilo attraverso la piattaforma a intervalli regolari &#x200B;. La durata dell&#39;intervallo è di 15 minuti. Questo valore può essere modificato utilizzando le API [](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)Adobe Experience Platform.
+* Adobe Experience Platform Data Connector invia i dati del profilo attraverso la piattaforma a intervalli regolari &#x200B;. La durata dell&#39;intervallo è di 15 minuti. Questo valore può essere modificato utilizzando le API [](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)Adobe Experience Platform.
 
 * Il tecnico dei dati può pubblicare, modificare e mettere in pausa la mappatura da Campaign ad Adobe Experience Platform.
 
