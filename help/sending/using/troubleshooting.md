@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
+source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 ---
 
@@ -39,7 +39,8 @@ Se il problema persiste, contatta i servizi commerciali o di recapito o il suppo
 
    * Lo stato **[!UICONTROL Blacklisted]** è il risultato di un ciclo di feedback (quando una persona segnala un messaggio come spam).
 
-   * Lo stato **[!UICONTROL Quarantined]** è il risultato di un rimbalzo morbido o duro. Per ulteriori informazioni, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md).
+   * Lo stato **[!UICONTROL Quarantined]** è il risultato di un rimbalzo morbido o duro.
+   Per ulteriori informazioni, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
 
 * **Cosa significano i diversi motivi di errore di quarantena?**
 
