@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -33,7 +33,7 @@ XDM Workspace consente di visualizzare, creare ed estendere gli schemi di dati.
 
 Per accedere all&#39;interfaccia utente XDM, apri Adobe Experience Platform. Passare alla finestra Modello dati per creare o estendere uno schema XDM.
 
-Consulta la documentazione [completa di](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/xdm_system/xdm_system_in_experience_platform.md)XDM Workspace.
+Consulta la documentazione [completa di](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)XDM Workspace.
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ Consulta la documentazione [completa di](https://www.adobe.io/apis/experiencepla
 * Visualizzare i descrittori dello schema
 * Creare, aggiornare ed eliminare i descrittori dello schema
 
-Tutti i dettagli per manipolare le chiamate API sono disponibili nella Guida per [sviluppatori](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+Tutti i dettagli per manipolare le chiamate API sono disponibili nella Guida per [sviluppatori](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
