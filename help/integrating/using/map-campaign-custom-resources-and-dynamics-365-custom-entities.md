@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -137,7 +137,7 @@ Ora, fai clic su Modifica sul nuovo elemento filtro aggiunto e configura il filt
 
 Verrà quindi specificato il collegamento della risorsa personalizzata.  In questo caso, abbiamo scelto di collegare l&#39;entità **[!UICONTROL Vehicles]** personalizzata (origine) all&#39;entità dei profili (destinazione) utilizzando un **[!UICONTROL 1 cardinality simple link]**.
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. Nella **[!UICONTROL Link definitions]** schermata, scegliete l’opzione di eliminazione: **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. Questa opzione viene scelta in modo che, quando si elimina un profilo, vengano eliminati anche **[!UICONTROL Vehicle]** i record collegati a tale profilo.
 1. In **[!UICONTROL Join Definitions]**, selezionate **[!UICONTROL Define specific join conditions]**.
