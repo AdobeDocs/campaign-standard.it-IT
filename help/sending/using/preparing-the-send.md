@@ -1,18 +1,18 @@
 ---
 title: Preparazione dell’invio
 description: Scopri come definire la preparazione prima dell’invio.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: invio
+audience: sending
 content-type: reference
-topic-tags: preparazione e verifica dei messaggi
+topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -47,20 +47,20 @@ La preparazione corrisponde alla fase di calcolo della popolazione target e gene
 
 1. Si apre la **[!UICONTROL Deployment]** finestra, correggete eventuali errori e riavviate la preparazione.
 
-   Nell'ultimo messaggio di registro sono visualizzati tutti i messaggi di errore e il numero di errori. Un'icona specifica mostra il tipo di errore rilevato: l’icona gialla indica un errore di elaborazione non critico; l’icona rossa indica un errore critico che impedisce l’avvio della consegna.
+   Nell&#39;ultimo messaggio di registro sono visualizzati tutti i messaggi di errore e il numero di errori. Un&#39;icona specifica mostra il tipo di errore rilevato: l’icona gialla indica un errore di elaborazione non critico; l’icona rossa indica un errore critico che impedisce l’avvio della consegna.
 
    ![](assets/preparing_delivery_3.png)
 
-1. Controllare le statistiche di preparazione prima di confermare l'invio dei messaggi. Se il numero di messaggi da inviare non corrisponde alla configurazione, modificate la popolazione di destinazione (consultate [Selezione di un'audience in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)) e riavviate la preparazione.
+1. Controllare le statistiche di preparazione prima di confermare l&#39;invio dei messaggi. Se il numero di messaggi da inviare non corrisponde alla configurazione, modificate la popolazione di destinazione (consultate [Selezione di un&#39;audience in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)) e riavviate la preparazione.
 
 Una volta completata la preparazione, il messaggio è pronto per essere inviato. Per ulteriori informazioni, vedere [Conferma dell’invio](../../sending/using/confirming-the-send.md).
 
 **Regole di tipologia**
 
-Adobe Campaign viene fornito con un set di regole di tipologia integrate applicate durante la preparazione dei messaggi. Vengono utilizzati per verificare se un messaggio è valido e soddisfa i criteri di qualità. Vedere [Tipologie](../../administration/using/about-typology-rules.md). Potete definire regole di tipologia personalizzate, ad esempio impostare regole di affaticamento tra canali globali che escludano automaticamente i profili con eccesso di sollecitazione dalle campagne. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
+Adobe Campaign viene fornito con un set di regole di tipologia integrate applicate durante la preparazione dei messaggi. Vengono utilizzati per verificare se un messaggio è valido e soddisfa i criteri di qualità. Vedere [Tipologie](../../sending/using/about-typology-rules.md). Potete definire regole di tipologia personalizzate, ad esempio impostare regole di affaticamento tra canali globali che escludano automaticamente i profili con eccesso di sollecitazione dalle campagne. Consultate [Regole](../../sending/using/fatigue-rules.md)di fatica.
 
 **Controllo messaggi SMS**
 
-Se hai inserito campi di personalizzazione o testo condizionale nel contenuto del messaggio SMS, questi fattori possono introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Quando viene eseguita la preparazione, viene monitorata la lunghezza del messaggio e, se supera il limite, viene visualizzato un messaggio di avviso.
+Se hai inserito campi di personalizzazione o testo condizionale nel contenuto del messaggio SMS, questi fattori possono introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Durante l&#39;esecuzione della preparazione, viene monitorata la lunghezza del messaggio e, se supera il limite, viene visualizzato un messaggio di avviso.
 
 Per ulteriori informazioni, consulta le sezioni Codifica [SMS, lunghezza e traslitterazione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) e [Personalizzazione dei messaggi](../../channels/using/personalizing-sms-messages.md) SMS.
