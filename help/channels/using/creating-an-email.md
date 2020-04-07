@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -29,7 +29,7 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
    >[!NOTE]
    >
-   >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Per visualizzarle, selezionate le caselle a sinistra (pannello **[!UICONTROL Filter]** laterale).
+   >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Per visualizzarle, selezionare le caselle a sinistra (pannello **[!UICONTROL Filter]** laterale).
 
 1. Immettete le proprietà generali del messaggio e-mail. Potete immettere un nome nel campo **Etichetta** e modificare l’ID. Sia il nome dell&#39;attività che il relativo ID vengono visualizzati nell&#39;interfaccia, ma non sono visibili ai destinatari del messaggio.
 
@@ -43,7 +43,7 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
 1. Definisci la destinazione del messaggio in base ai criteri aziendali. Consultate [Gestione dei profili](../../audiences/using/about-profiles.md).
 
-   Puoi anche definire i profili di test che convalideranno il messaggio. Consultate [Gestione dei profili](../../audiences/using/managing-test-profiles.md)di test.
+   Puoi anche definire i profili di test che convalideranno il messaggio. Consultate [Gestione dei profili](../../audiences/using/managing-test-profiles.md)di prova.
 
    ![](assets/email_creation_3.png)
 
@@ -76,13 +76,13 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
    >[!NOTE]
    >
-   >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Per ulteriori informazioni, consultate [Regole](../../administration/using/fatigue-rules.md)di Fatigue.
+   >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Per ulteriori informazioni, consultate [Regole](../../sending/using/fatigue-rules.md)di Fatigue.
 
-1. Inviare prove per controllare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere [Invio della prova](../../sending/using/sending-proofs.md).
+1. Inviate prove per verificare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere [Invio della prova](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
-1. Invia il messaggio e controllane la distribuzione tramite il dashboard e i registri dei messaggi. Vedere [Invio di messaggi](../../sending/using/confirming-the-send.md).
+1. Invia il messaggio e controllane la distribuzione tramite il dashboard e i registri dei messaggi. Consulta [Invio di messaggi](../../sending/using/confirming-the-send.md).
 
    ![](assets/confirm_delivery.png)
 
