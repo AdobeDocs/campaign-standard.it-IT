@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -42,7 +42,7 @@ In Adobe Campaign sono disponibili due tipi di notifica push:
 
 È possibile configurare alcune configurazioni specifiche per definire il comportamento delle notifiche. For more on this, refer to [this section](../../channels/using/customizing-a-push-notification.md).
 
-In qualità di utente esperto, per definire queste configurazioni specifiche, consulta le [note tecniche](https://helpx.adobe.com/campaign/kb/acs-article-list.html)sulle app mobili.
+In qualità di utente esperto, per definire queste configurazioni specifiche, consulta le [note tecniche](https://helpx.adobe.com/it/campaign/kb/acs-article-list.html)sulle app mobili.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ In qualità di utente esperto, per definire queste configurazioni specifiche, co
 * [Preparazione e invio di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Creazione di una notifica push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Report notifiche push](../../reporting/using/push-notification-report.md)
-* [Guida per dispositivi mobili Campaign Standard](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Guida per dispositivi mobili Campaign Standard](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)
 
 ## Prerequisiti {#prerequisites}
 
@@ -61,21 +61,18 @@ In qualità di utente esperto, per definire queste configurazioni specifiche, co
 >Per sfruttare la funzione di notifica push di Campaign, devi fornire un certificato push valido in formato .pem senza password.
 Se disponete di un certificato p12 valido, potete facilmente convertirlo in un file .pem utilizzando le risorse online.
 
-Innanzitutto, per poter iniziare a inviare notifiche push, devi configurare l’applicazione mobile utilizzando gli SDK di Experience Platform. Per ulteriori informazioni, consultare questa [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
-
 Prima di inviare le notifiche push, devi:
 
-1. Assicurati di poter accedere al **[!UICONTROL Mobile app]** canale in Adobe Campaign.
-1. Configura l’applicazione mobile in:
+1. In Adobe Campaign, assicurati di poter accedere al **[!UICONTROL Push notification]** canale. Se non riuscite ad accedere a questi canali, contattate il team di account.
 
-   * Adobe Campaign
-   * Interfaccia di Adobe Mobile Services
+1. Verifica che l&#39;utente disponga delle autorizzazioni necessarie in Adobe Campaign Standard e Experience Platform Launch.
 
-1. Esegui la configurazione specifica dell’applicazione mobile:
+1. In Experience Platform Launch, crea una proprietà mobile. Per ulteriori informazioni, consultate [Configurare una proprietà](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)mobile.
 
-   * Crea un pacchetto del file di configurazione scaricato dall&#39;interfaccia di Adobe Mobile Services con l&#39;applicazione mobile.
-   * Integra l’SDK di Experience Cloud Mobile nella tua applicazione mobile.
+1. In Experience Platform Launch, installa l’ **[!UICONTROL Adobe Campaign Standard]** estensione.
 
-1. Definite i dati che desiderate raccogliere dagli utenti iscritti all&#39;applicazione. Gli abbonati dell&#39;applicazione mobile che dispongono di un profilo nel database di Adobe Campaign vengono riconciliati in base ai criteri definiti.
+1. In Adobe Campaign Standard configurate la proprietà mobile creata in Experience Platform Launch. Per ulteriori informazioni, consulta [Configurazione dell’applicazione Experience Platform Launch in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
 
-Dopo aver configurato l&#39;applicazione mobile, ora puoi iniziare a preparare e inviare i messaggi in-app. Per ulteriori informazioni, consultate [Preparazione e invio di una notifica](../../channels/using/preparing-and-sending-a-push-notification.md)push.
+1. Aggiungi la configurazione specifica per il canale alla configurazione dell’applicazione mobile. Per ulteriori informazioni, consulta Configurazione dell’applicazione specifica per il [canale in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+
+1. Per supportare le implementazioni di casi di utilizzo per dispositivi mobili, consulta le istruzioni dettagliate sulle estensioni, le regole di avvio della piattaforma Experience e l’implementazione SDK nei casi di utilizzo [Mobile supportati in Adobe Campaign Standard utilizzando gli SDK](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)di Adobe Experience Platform.
