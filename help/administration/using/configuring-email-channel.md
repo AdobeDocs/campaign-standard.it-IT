@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ## Parametri canale e-mail {#email-channel-parameters}
 
-La schermata di configurazione e-mail consente di definire i parametri per il canale e-mail.
+La schermata di configurazione e-mail consente di definire i parametri per il canale e-mail. Gli amministratori possono accedere a queste configurazioni nel **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**menu.
 
 ![](assets/channels_1.png)
 
@@ -38,23 +38,29 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
    Adobe Campaign invia i messaggi a partire dalla data di inizio. Il **[!UICONTROL Message delivery duration]** campo consente di specificare la durata durante la quale i messaggi possono essere inviati.
 
+   >[!IMPORTANT]
+   >
+   >Dopo l&#39;aggiornamento all&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, il **[!UICONTROL Message delivery duration]** parametro nelle consegne di Campaign viene utilizzato solo se impostato su 3,5 giorni o meno. Se si definisce un valore superiore a 3,5 giorni, non verrà preso in considerazione.
+
    Il **[!UICONTROL Online resources validity duration]** campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
 
 * **Tentativi**
 
-   I messaggi temporaneamente non consegnati sono soggetti a un nuovo tentativo automatico. Questa sezione indica quanti tentativi devono essere eseguiti il giorno successivo all’inizio dell’invio (**numero di tentativi**) e il ritardo minimo tra i tentativi (periodo **** tentativi).
+   I messaggi temporaneamente non consegnati sono soggetti a un nuovo tentativo automatico. Per ulteriori informazioni, vedere [Tentativi dopo un errore](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)temporaneo di consegna.
 
-   Per impostazione predefinita, cinque tentativi sono pianificati per il primo giorno con un intervallo minimo di un&#39;ora, distribuiti nelle 24 ore del giorno. Un nuovo tentativo al giorno viene programmato dopo tale data e fino alla scadenza della consegna, definita nella **[!UICONTROL Delivery parameters]** sezione.
+   >[!IMPORTANT]
+   >
+   >Una volta effettuato l&#39;aggiornamento all&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, le impostazioni dei **tentativi** in Campaign vengono ignorate. Il **[!UICONTROL Number of retries]** (numero di tentativi da eseguire il giorno successivo all&#39;avvio dell&#39;invio) e il **[!UICONTROL Retry period]** (ritardo minimo tra i tentativi) vengono gestiti dall&#39;MTA avanzata, in base al livello di prestazioni di un IP sia storicamente che attualmente in un determinato dominio.
+
+   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **Parametri di quarantena e-mail**
 
-   Nel **[!UICONTROL Time between two significant errors]** campo, immettere un valore per definire l&#39;ora in cui l&#39;applicazione attende prima di incrementare il contatore di errori in caso di errore. Valore predefinito: **&quot;1d&quot;**, per 1 giorno.
+   Nel **[!UICONTROL Time between two significant errors]** campo, immettere un valore per definire l&#39;ora in cui l&#39;applicazione attende prima di incrementare il contatore di errori in caso di errore. Il valore predefinito è **&quot;1d&quot;**, per 1 giorno.
 
-   Una volta raggiunto il **[!UICONTROL Maximum number of errors before quarantine]** valore, l&#39;indirizzo e-mail viene quindi messo in quarantena. Valore predefinito: **&quot;5&quot;**: l&#39;indirizzo verrà messo in quarantena al sesto errore. Ciò significa che il contatto sarà automaticamente escluso dalle consegne successive.
+   Una volta raggiunto il **[!UICONTROL Maximum number of errors before quarantine]** valore, l&#39;indirizzo e-mail viene quindi messo in quarantena. Il valore predefinito è **&quot;5&quot;**: l&#39;indirizzo verrà messo in quarantena al quinto errore. Ciò significa che il contatto sarà automaticamente escluso dalle consegne successive.
 
-**Argomento** correlato:
-
-[Riconoscimento della gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
+   Per ulteriori informazioni sulle quarantena, vedere [Informazioni sulla gestione](../../sending/using/understanding-quarantine-management.md)della quarantena.
 
 ## Account di routing e-mail {#email-routing-accounts}
 
@@ -74,7 +80,7 @@ Gli amministratori **[!UICONTROL Email processing rules]** possono accedervi tra
 
 Queste regole contengono l&#39;elenco di stringhe di caratteri che possono essere restituite dai server remoti e che consentono di qualificare l&#39;errore (**Hard**, **Soft** o **Ignored**).
 
-Le regole predefinite sono le seguenti:
+Le regole predefinite sono le seguenti.
 
 ### Messaggi di rimbalzo {#bounce-mails}
 
@@ -84,7 +90,7 @@ I messaggi di rimbalzo asincroni sono ancora qualificati dal processo Campaign i
 
 >[!IMPORTANT]
 >
->Dopo l&#39;aggiornamento all&#39;MTA avanzato, i titoli di rimbalzo nella tabella Campagna **[!UICONTROL Message qualification]** non vengono più utilizzati. Per ulteriori informazioni sulla qualifica della posta indesiderata, consulta questa [sezione](../../sending/using/understanding-delivery-failures.md).
+>Dopo l&#39;aggiornamento all&#39;MTA avanzato, i titoli di rimbalzo nella tabella Campagna **[!UICONTROL Message qualification]** non vengono più utilizzati. Per ulteriori informazioni sulla qualifica della posta indesiderata, consulta questa [sezione](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 <!--The user can create his own rules.
 
@@ -193,11 +199,19 @@ La **[!UICONTROL Send]** sezione è disponibile solo per i modelli e-mail. Conti
 
 #### Parametri dei tentativi {#retries-parameters}
 
-I messaggi temporaneamente non consegnati sono soggetti a un nuovo tentativo automatico. Questa sezione indica quanti tentativi devono essere eseguiti il giorno successivo all&#39;inizio dell&#39;invio ( **[!UICONTROL Max. number of retries]** ) e il ritardo minimo tra i tentativi ( **[!UICONTROL Retry period]** ).
+I messaggi temporaneamente non consegnati sono soggetti a un nuovo tentativo automatico. Per ulteriori informazioni, vedere [Tentativi dopo un errore](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)temporaneo di consegna.
 
-Per impostazione predefinita, cinque tentativi sono pianificati per il primo giorno con un intervallo minimo di un&#39;ora, distribuiti nelle 24 ore del giorno. Un nuovo tentativo al giorno viene programmato dopo tale data e fino alla scadenza della consegna, definita nella sezione Parametri [del periodo di](#validity-period-parameters) validità.
+>[!IMPORTANT]
+>
+>Una volta effettuato l&#39;aggiornamento all&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, le impostazioni dei **tentativi** in Campaign vengono ignorate. Il **[!UICONTROL Retry period]** (ritardo minimo tra i tentativi) e il **[!UICONTROL Max. number of retries]** (numero di tentativi da eseguire il giorno successivo all&#39;avvio dell&#39;invio) sono gestiti dall&#39;MTA avanzata, in base al livello di prestazioni di un IP sia storicamente che attualmente in un determinato dominio.
 
-Il numero di tentativi può essere modificato a livello globale (contattare l&#39;amministratore tecnico Adobe) o per ogni modello di consegna o consegna
+<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
+
+By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
+
+The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+
+Momentum non rispetta l&#39;impostazione della durata di consegna (definita nella sezione Parametri [del periodo di](#validity-period-parameters) validità) in Campaign, ma solo fino a 3,5 giorni. A questo punto, tutti i messaggi nella coda dei tentativi verranno rimossi dalla coda e inviati nuovamente come rimbalzo. Per ulteriori informazioni sugli errori di consegna, consulta questa [sezione](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
 #### Parametri del formato e-mail {#email-format-parameters}
 
@@ -236,17 +250,19 @@ La **[!UICONTROL Validity period]** sezione contiene i seguenti parametri:
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**: quando questa casella è deselezionata, è necessario immettere una durata nei campi **[!UICONTROL Delivery duration]** e **[!UICONTROL Resource validity limit]** . Selezionare questa casella se si desidera definire date e ore specifiche.
+* **[!UICONTROL Explicitly set validity dates]**: quando questa casella è deselezionata, è necessario immettere una durata nei campi **[!UICONTROL Delivery duration]** e **[!UICONTROL Resource validity limit]** .
+
+   Selezionare questa casella se si desidera definire date e ore specifiche.
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**: Adobe Campaign invia i messaggi a partire dalla data di inizio. Questo campo consente di specificare la durata durante la quale i messaggi possono essere inviati.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign invia i messaggi a partire dalla data di inizio. Questo campo consente di specificare la durata durante la quale i messaggi possono essere inviati.
 
    >[!IMPORTANT]
    >
-   >Dopo l&#39;aggiornamento all&#39;MTA avanzata, il **[!UICONTROL Delivery duration]** parametro nelle consegne di Campaign viene utilizzato solo se impostato su 3,5 giorni o meno. Se si definisce un valore superiore a 3,5 giorni, non verrà preso in considerazione. Tutti gli impatti sono descritti nel documento MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+   >Dopo l&#39;aggiornamento all&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, il **[!UICONTROL Delivery duration]** parametro nelle consegne di Campaign viene utilizzato solo se impostato su 3,5 giorni o meno. Se si definisce un valore superiore a 3,5 giorni, non verrà preso in considerazione.
 
-* **[!UICONTROL Resource validity duration]**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
+* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
 * **[!UICONTROL Mirror page management]**: la pagina mirror è una pagina HTML accessibile online tramite un browser Web. Il contenuto è identico al contenuto dell’e-mail. Per impostazione predefinita, la pagina mirror viene generata se il collegamento viene inserito nel contenuto della posta elettronica. Questo campo consente di modificare il modo in cui viene generata la pagina:
 
    >[!IMPORTANT]
@@ -302,7 +318,7 @@ La preparazione dei messaggi è dettagliata nella sezione [Approvare i messaggi]
 
    >[!NOTE]
    >
-   >Le tipologie, a cui è possibile accedere tramite il **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, sono presentate nella sezione [Tipologie](../../administration/using/about-typology-rules.md) .
+   >Le tipologie, a cui è possibile accedere tramite il **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, sono presentate nella sezione [Tipologie](../../sending/using/about-typology-rules.md) .
 
 * **[!UICONTROL Compute the label during delivery preparation]**: consente di calcolare il valore dell’etichetta dell’e-mail durante la fase di preparazione dei messaggi utilizzando campi di personalizzazione, blocchi di contenuto e testo dinamico.
 
