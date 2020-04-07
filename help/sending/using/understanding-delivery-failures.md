@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ---
 
@@ -25,7 +25,7 @@ Quando una consegna non può essere inviata a un profilo, il server remoto invia
 
 >[!NOTE]
 >
->**I messaggi di errore e-mail** (o &quot;rimbalzi&quot;) sono qualificati dal processo inMail. **I messaggi di errore SMS** (o &quot;SR&quot; per &quot;Report di stato&quot;) sono qualificati dal processo MTA.
+>**I messaggi di errore e-mail** (o &quot;rimbalzi&quot;) sono qualificati dall&#39;MTA avanzata (rimbalzi sincroni) o dal processo inMail (rimbalzi asincroni). **I messaggi di errore SMS** (o &quot;SR&quot; per &quot;Report di stato&quot;) sono qualificati dal processo MTA.
 
 I messaggi possono essere esclusi durante la preparazione del recapito se un indirizzo viene messo in quarantena o se un profilo viene inserito in una blacklist. I messaggi esclusi sono elencati nella **[!UICONTROL Exclusion logs]** scheda del dashboard di distribuzione (vedere [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -56,7 +56,7 @@ I possibili motivi di un mancato recapito sono:
 
 * **[!UICONTROL User unknown]** (tipo rigido): l&#39;indirizzo non esiste. Per questo profilo non verranno tentate altre consegne.
 * **[!UICONTROL Quarantined address]** (tipo rigido): l&#39;indirizzo è stato messo in quarantena.
-* **[!UICONTROL Unreachable]** (tipo morbido/rigido): si è verificato un errore nella catena di distribuzione dei messaggi (ad esempio, dominio temporaneamente non raggiungibile). In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge il 5.
+* **[!UICONTROL Unreachable]** (tipo morbido/rigido): si è verificato un errore nella catena di distribuzione dei messaggi (ad esempio, dominio temporaneamente non raggiungibile). In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge 5.
 * **[!UICONTROL Address empty]** (tipo rigido): l&#39;indirizzo non è definito.
 * **[!UICONTROL Mailbox full]** (tipo morbido): la cassetta postale di questo utente è piena e non può accettare altri messaggi. Questo indirizzo può essere rimosso dall&#39;elenco di quarantena per effettuare un altro tentativo. Viene rimosso automaticamente dopo 30 giorni.
 
@@ -80,9 +80,21 @@ I possibili motivi di un mancato recapito sono:
 
 Se un messaggio non riesce a causa di un errore temporaneo del tipo **Ignorato** , i tentativi verranno eseguiti durante la durata del recapito. Per ulteriori informazioni sui tipi di errori, consulta Tipi di errori di [consegna e motivi](#delivery-failure-types-and-reasons).
 
-Per modificare la durata di una consegna, passate ai parametri avanzati del modello di consegna o consegna e specificate la durata desiderata nel campo corrispondente. Le proprietà di consegna avanzate sono presentate in [questa sezione](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Una volta effettuato l&#39;aggiornamento all&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, le impostazioni dei **tentativi** in Campaign vengono ignorate. Il numero di tentativi (il numero di tentativi da eseguire il giorno successivo all&#39;avvio dell&#39;invio) e il ritardo minimo tra i tentativi vengono gestiti dall&#39;MTA avanzata, in base al livello di prestazioni di un IP sia storicamente che attualmente in un determinato dominio.
 
-La configurazione predefinita consente cinque tentativi a intervalli di un&#39;ora, seguiti da un nuovo tentativo al giorno per quattro giorni. Il numero di tentativi può essere modificato a livello globale (rivolgetevi al vostro amministratore tecnico Adobe) o per ogni modello di consegna o consegna (consultate [questa sezione](../../administration/using/configuring-email-channel.md#sending-parameters)).
+Per modificare la durata di una consegna, andate ai parametri avanzati del modello di consegna o consegna e modificate il **[!UICONTROL Delivery duration]** campo della sezione Periodo [di](../../administration/using/configuring-email-channel.md#validity-period-parameters) validità.
+
+>[!IMPORTANT]
+>
+>Dopo l&#39;aggiornamento all&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, il **[!UICONTROL Delivery duration]** parametro nelle consegne di Campaign viene utilizzato solo se impostato su 3,5 giorni o meno. Se si definisce un valore superiore a 3,5 giorni, non verrà preso in considerazione.
+
+Ad esempio, se si desidera che i tentativi di consegna interrompano dopo un giorno, è possibile impostare la durata di consegna su **1 d**, e l&#39;MTA avanzata rispetterà tale impostazione rimuovendo i messaggi nella coda dei tentativi dopo un giorno.
+
+>[!NOTE]
+>
+>Una volta che un messaggio è rimasto nella coda MTA avanzata per 3,5 giorni e non è riuscito a distribuirlo, si verificherà un timeout e il suo stato verrà aggiornato da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** nei registri [di](../../sending/using/monitoring-a-delivery.md#delivery-logs)consegna.
+
+<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Errori sincroni e asincroni {#synchronous-and-asynchronous-errors}
 
