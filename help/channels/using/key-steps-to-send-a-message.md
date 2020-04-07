@@ -12,25 +12,25 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
 
 # Passaggi fondamentali per l’invio di un messaggio{#key-steps-to-send-a-message}
 
-Per informazioni sulle procedure ottimali di consegna, consulta le procedure [ottimali di](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) consegna.
+Per informazioni sulle procedure ottimali di consegna, consulta le procedure [ottimali di](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html) consegna.
 
 La creazione e l&#39;invio di messaggi avviene nei seguenti passaggi:
 
 1. Creare un&#39; **[!UICONTROL Email]**, una **[!UICONTROL SMS]**, un&#39; **[!UICONTROL direct mail]** attività di **[!UICONTROL push notification]** marketing o Fate riferimento a [Creazione di un&#39;e-mail](../../channels/using/creating-an-email.md), [Creazione di un SMS](../../channels/using/creating-an-sms-message.md), [Creazione di una consegna](../../channels/using/creating-the-direct-mail.md) diretta e [Creazione di una notifica](../../channels/using/preparing-and-sending-a-push-notification.md)push.
-1. Seleziona le audience del messaggio. Consultate [Creazione di audience](../../audiences/using/creating-audiences.md).
+1. Seleziona le audience del messaggio. Fate riferimento a [Creazione di audience](../../audiences/using/creating-audiences.md).
 1. Definite il contenuto del messaggio e i relativi elementi di personalizzazione. Per ricevere e-mail o contenuti specifici per altri canali, fare riferimento all’editor [del](../../designing/using/designing-content-in-adobe-campaign.md) contenuto.
 1. Iniziate a preparare l&#39;invio per calcolare la popolazione di destinazione e generare il contenuto del messaggio. Consultare [Messaggi](../../sending/using/preparing-the-send.md)di approvazione.
 
    >[!NOTE]
    >
-   >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
+   >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Consultate [Regole](../../sending/using/fatigue-rules.md)di fatica.
 
 1. Invia prove. Fare riferimento a [Invio di prove](../../sending/using/sending-proofs.md).
 1. Invia il messaggio e controllane la consegna. Fare riferimento a [Invio di messaggi](../../sending/using/confirming-the-send.md).
