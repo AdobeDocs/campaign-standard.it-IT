@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -26,7 +26,7 @@ I parametri SMS avanzati sono descritti in dettaglio nella sezione relativa alla
 
 Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
-* Account **[!UICONTROL Routing]** esterno configurato sul **[!UICONTROL Mobile (SMS)]** canale con la **[!UICONTROL Bulk delivery]** modalità. Per ulteriori informazioni, vedere la sezione [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
+* Un account **[!UICONTROL Routing]** esterno configurato sul **[!UICONTROL Mobile (SMS)]** canale con la **[!UICONTROL Bulk delivery]** modalità. Per ulteriori informazioni, vedere la sezione [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
 * Un modello di consegna correttamente collegato a questo account esterno.
 
 1. Creare una consegna SMS. Puoi farlo dalla [home page](../../start/using/interface-description.md#home-page)di Adobe Campaign, in una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity) o nell&#39;elenco [delle attività di](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketing.
@@ -57,7 +57,7 @@ Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
    ![](assets/sms_creation_4.png)
 
-1. Conferma la creazione del messaggio. Viene visualizzata la dashboard.
+1. Conferma la creazione del messaggio. Viene quindi visualizzata la dashboard.
 1. Pianificare l’invio. L&#39;SMS può essere inviato manualmente subito dopo la preparazione del messaggio o automaticamente a una data pianificata. Vedere [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md).
 1. Prepara il messaggio per analizzarne la validità, la personalizzazione e il target.
 
@@ -65,9 +65,9 @@ Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
    >[!NOTE]
    >
-   >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
+   >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Consultate [Regole](../../sending/using/fatigue-rules.md)di fatica.
 
-1. Inviare prove per controllare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere la sezione [Invio della prova](../../sending/using/sending-proofs.md) .
+1. Inviate prove per verificare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere la sezione [Invio della prova](../../sending/using/sending-proofs.md) .
 1. Conferma l’invio del messaggio. L&#39;invio avrà inizio di conseguenza rispetto alla pianificazione definita.
 
    ![](assets/sms_creation_7.png)
