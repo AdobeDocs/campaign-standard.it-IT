@@ -1,42 +1,42 @@
 ---
 title: Messaggi sulle transazioni di profilo
 description: Scopri come creare e pubblicare un messaggio di transazione profilo.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: canali
+audience: channels
 content-type: reference
-topic-tags: messaggistica transazionale
-discoiquuid: dcb90afc-42c3-419e-8345-79cdf969e41
+topic-tags: transactional-messaging
+discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
 
 # Messaggi sulle transazioni di profilo{#profile-transactional-messages}
 
-Puoi inviare messaggi transazionali basati sui profili di marketing dei clienti, per:
+Puoi inviare messaggi transazionali basati sui profili di marketing dei clienti, che consentono di:
 
-* Applica regole di tipologia di marketing, ad esempio **[!UICONTROL Blacklisted address]** o [regole](../../administration/using/fatigue-rules.md)di affaticamento.
+* Applica regole di tipologia di marketing, ad esempio **[!UICONTROL Blacklisted address]** o [regole](../../sending/using/fatigue-rules.md)di affaticamento.
 * Includi il collegamento di annullamento della sottoscrizione nei messaggi.
 * Aggiungete i messaggi transazionali al reporting globale sulla distribuzione.
 * Utilizza i messaggi transazionali nel percorso del cliente.
 
-Dopo aver creato e pubblicato un evento (l'abbandono del carrello come nell' [esempio](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) precedente), il messaggio transazionale corrispondente viene creato automaticamente.
+Dopo aver creato e pubblicato un evento (l&#39;abbandono del carrello come nell&#39; [esempio](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) precedente), il messaggio transazionale corrispondente viene creato automaticamente.
 
 I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento per l’invio di un messaggio](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) transazionale di profilo.
 
-Affinché l'evento attivi l'invio di un messaggio transazionale, è necessario personalizzare il messaggio, testarlo e pubblicarlo.
+Affinché l&#39;evento attivi l&#39;invio di un messaggio transazionale, è necessario personalizzare il messaggio, testarlo e pubblicarlo.
 
 >[!NOTE]
 >
 >Per accedere ai messaggi transazionali, devi far parte del gruppo di **[!UICONTROL Administrators (all units)]** sicurezza.
 >
->Le regole di Fatigue sono compatibili con i messaggi transazionali del profilo. Consultate [Regole](../../administration/using/fatigue-rules.md)di fatica.
+>Le regole di Fatigue sono compatibili con i messaggi transazionali del profilo. Consultate [Regole](../../sending/using/fatigue-rules.md)di fatica.
 
 ## Invio di un messaggio di transazione profilo {#sending-a-profile-transactional-message}
 
@@ -51,7 +51,7 @@ Le differenze sono elencate di seguito.
 
 1. Selezionate il modello e-mail predefinito.
 
-   Analogamente a tutte le e-mail di marketing, include un collegamento per annullare l'iscrizione.
+   Analogamente a tutte le e-mail di marketing, include un collegamento per annullare l&#39;iscrizione.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
@@ -61,9 +61,9 @@ Le differenze sono elencate di seguito.
 
 ## Monitoraggio della distribuzione di messaggi transazionali di profilo {#monitoring-a-profile-transactional-message-delivery}
 
-Dopo aver pubblicato il messaggio e aver completato l'integrazione con il sito, puoi monitorare la distribuzione.
+Dopo aver pubblicato il messaggio e aver completato l&#39;integrazione con il sito, puoi monitorare la distribuzione.
 
-1. Per visualizzare il registro di distribuzione dei messaggi, fai clic sull'icona in basso a destra del **[!UICONTROL Deployment]** blocco.
+1. Per visualizzare il registro di distribuzione dei messaggi, fai clic sull&#39;icona in basso a destra del **[!UICONTROL Deployment]** blocco.
 
    Per ulteriori informazioni sull’accesso ai registri, consulta [Monitoraggio della distribuzione](../../sending/using/monitoring-a-delivery.md).
 
@@ -84,5 +84,5 @@ Questa regola fa parte di una tipologia specifica che si applica a tutti i messa
 **Argomenti** correlati:
 
 * [Integrazione del sito](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [Tipologie](../../administration/using/about-typology-rules.md)
+* [Tipologie](../../sending/using/about-typology-rules.md)
 
