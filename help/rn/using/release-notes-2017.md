@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
+source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
 
 ---
 
@@ -39,7 +39,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
  <tbody> 
   <tr> 
    <td> Fatigue Management<br /> </td> 
-   <td> La funzione Fatigue Management consente di creare regole per la gestione della comunicazione eccessiva con i profili. Le regole di affaticamento sono facili da creare, ma sono estremamente flessibili con funzionalità quali conteggio dei messaggi su più canali (inclusi i messaggi transazionali), conteggio solo di consegne specifiche o applicazione di regole a profili specifici.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../administration/using/fatigue-rules.md"></a>dettagliata.<br /> </td> 
+   <td> La funzione Fatigue Management consente di creare regole per la gestione della comunicazione eccessiva con i profili. Le regole di affaticamento sono facili da creare, ma sono estremamente flessibili con funzionalità quali conteggio dei messaggi su più canali (inclusi i messaggi transazionali), conteggio solo di consegne specifiche o applicazione di regole a profili specifici.<br /> Per ulteriori informazioni, consulta la documentazione <a href="../../sending/using/fatigue-rules.md"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creazione di contenuti: Importazione da un URL<br /> </td> 
