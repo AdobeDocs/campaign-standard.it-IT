@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 
 ---
 
@@ -43,7 +43,8 @@ Potete utilizzare questa attività per recuperare i dati che saranno quindi stru
    * **Download** file: consente di scaricare un file.
    * **Caricamento** file: consente di caricare un file. Il caricamento di un file da un file Adobe Campaign genera una voce di registro nel **[!UICONTROL Export audits]** menu. Per ulteriori informazioni sui controlli delle esportazioni, consultare la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md) .
    * **Test per verificare se il file esiste**: consente di verificare se è presente un file.
-   * **Elenco** file: consente di elencare i file presenti in Adobe Campaign.
+   * **Elenco** file: consente di elencare i file presenti sul server definito nella **[!UICONTROL Protocol]** scheda. Questa azione viene utilizzata principalmente a scopo di debug, per verificare se l&#39;attività è configurata in base alle esigenze prima di scaricare i file dal server remoto.
+
 1. Selezionare il protocollo da utilizzare:
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
@@ -55,7 +56,7 @@ Potete utilizzare questa attività per recuperare i dati che saranno quindi stru
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: questa opzione è disponibile quando si seleziona l’ **[!UICONTROL File listing]** azione. Consente di indicizzare tutti i file presenti sul server nella variabile di evento **vars.filenames** , in cui i nomi dei file sono separati dai **&#39;n&#39;** caratteri.
+   * **[!UICONTROL List all files]**: questa opzione è disponibile quando si seleziona l’ **[!UICONTROL File listing]** azione.nella **[!UICONTROL General]** scheda. Consente di indicizzare tutti i file presenti sul server nella variabile di evento **vars.filenames** , in cui i nomi dei file sono separati dai **&#39;n&#39;** caratteri.
 
 1. La **[!UICONTROL If no files are found]** sezione della **[!UICONTROL Advanced options]** scheda consente di configurare azioni specifiche in caso di errori o file inesistenti rilevati all&#39;avvio dell&#39;attività.
 
