@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
 ---
 
@@ -32,7 +32,7 @@ Affinché l&#39;evento attivi l&#39;invio di un messaggio transazionale, è nece
 >
 >Per accedere ai messaggi transazionali, devi far parte del gruppo di **[!UICONTROL Administrators (all units)]** sicurezza.
 >
->I messaggi relativi alle transazioni di eventi non contengono informazioni sul profilo, pertanto non sono compatibili con le regole di affaticamento (anche nel caso di un arricchimento con i profili). Consultate [Regole](../../administration/using/fatigue-rules.md#choosing-the-channel)di fatica.
+>I messaggi relativi alle transazioni di eventi non contengono informazioni sul profilo, pertanto non sono compatibili con le regole di affaticamento (anche nel caso di un arricchimento con i profili). Consultate [Regole](../../sending/using/fatigue-rules.md#choosing-the-channel)di fatica.
 
 ## Definizione di un profilo di test in un messaggio transazione {#defining-a-test-profile-in-a-transactional-message}
 
@@ -70,14 +70,14 @@ Potete anche creare un nuovo profilo di test o usarne uno già esistente nel **[
 
    ![](assets/message-center_3.png)
 
-1.  Salvare le modifiche.
+1. Salvare le modifiche.
 
 Ora potete accedere al messaggio creato e selezionare il profilo di test aggiornato.
 
 **Argomenti correlati:**
 
 * [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md)
-* [Definizione delle audience](../../audiences/using/creating-audiences.md)
+* [Definizione dei tipi di pubblico](../../audiences/using/creating-audiences.md)
 
 ## Personalizzazione di un messaggio transattivo {#personalizing-a-transactional-message}
 
@@ -119,9 +119,9 @@ Per impostare la personalizzazione in un messaggio transazionale, segui i passag
 
 Potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati nel contenuto di un&#39;e-mail transazionale. Ad esempio, in un messaggio e-mail di abbandono del carrello puoi includere un elenco di tutti i prodotti inclusi nei carrelli degli utenti al momento dell&#39;uscita dal sito Web, con un&#39;immagine, il prezzo e un collegamento a ciascun prodotto.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Gli elenchi dei prodotti sono disponibili solo quando si modificano i messaggi e-mail transazionali tramite l&#39;interfaccia di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) .
+>Gli elenchi di prodotti sono disponibili solo quando si modificano i messaggi e-mail transazionali tramite l&#39;interfaccia di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) .
 
 Per aggiungere un elenco di prodotti abbandonati in un messaggio transazionale, segui i passaggi indicati di seguito.
 
@@ -133,7 +133,7 @@ Potete inoltre guardare un set di video che illustrano i passaggi necessari per 
 
 ### Definizione di un elenco di prodotti {#defining-a-product-listing}
 
-Prima di poter utilizzare un elenco di prodotti in un messaggio di transazione, è necessario definire a livello di evento l&#39;elenco dei prodotti e i campi per ciascun prodotto dell&#39;elenco da visualizzare. Per ulteriori informazioni, vedere [Definizione delle raccolte](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)di dati.
+Prima di poter utilizzare un elenco di prodotti in un messaggio di transazione, è necessario definire a livello di evento l&#39;elenco dei prodotti e i campi per ciascun prodotto dell&#39;elenco che si desidera visualizzare. Per ulteriori informazioni, vedere [Definizione delle raccolte](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)di dati.
 
 1. Nel messaggio transazionale, fate clic sul **[!UICONTROL Content]** blocco per modificare il contenuto dell’e-mail.
 1. Trascinare un componente struttura nell’area di lavoro. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
@@ -209,7 +209,7 @@ Per ulteriori informazioni sulla creazione di una raccolta e campi correlati dur
 
    Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** , aprite il nodo corrispondente alla raccolta creata (qui **[!UICONTROL Product list]** ) e selezionate il campo URL creato (qui **[!UICONTROL Product URL]** ). Clic **[!UICONTROL Save]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Per motivi di sicurezza, accertati di inserire il campo di personalizzazione all’interno di un collegamento che inizia con un nome di dominio statico appropriato.
 
@@ -225,7 +225,7 @@ Per ulteriori informazioni sulla creazione di una raccolta e campi correlati dur
 
    ![](assets/message-center_loop_fallback.png)
 
-   Il contenuto di riserva verrà visualizzato se la raccolta è vuota quando l&#39;evento viene attivato, ad esempio se un cliente non ha nulla nel suo carrello.
+   Il contenuto di fallback verrà visualizzato se la raccolta è vuota quando l&#39;evento viene attivato, ad esempio se un cliente non ha nulla nel suo carrello.
 
 1. Nel riquadro Impostazioni, modificate gli stili per l&#39;elenco dei prodotti. Per ulteriori informazioni, consultate [Modifica degli stili](../../designing/using/styles.md)delle e-mail.
 1. Visualizzate l&#39;anteprima del messaggio e-mail utilizzando un profilo di prova collegato all&#39;evento transazionale rilevante per il quale avete definito i dati della raccolta. Ad esempio, aggiungere le seguenti informazioni nella **[!UICONTROL Event data]** sezione relativa al profilo di test da utilizzare:
@@ -256,45 +256,53 @@ Per accedere ai rapporti relativi al messaggio transazionale, usa il **[!UICONTR
 
 ## Sospensione di una pubblicazione di messaggi transazionali {#suspending-a-transactional-message-publication}
 
-Puoi sospendere la pubblicazione del messaggio transazionale utilizzando, ad esempio, il **[!UICONTROL Pause]** pulsante per modificare i dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database Adobe Campaign.
+Puoi sospendere la pubblicazione del messaggio transazionale utilizzando, ad esempio, il **[!UICONTROL Pause]** pulsante per modificare i dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database di Adobe Campaign.
 
 Gli eventi in coda vengono conservati durante un periodo di tempo definito nell&#39;API REST (consultate la documentazione [REST API) o nell&#39;evento trigger se utilizzate il servizio di base Triggers (consultate](../../api/using/about-campaign-standard-apis.md)Utilizzo di Campaign e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
-Quando si fa clic **[!UICONTROL Resume]**, vengono elaborati tutti gli eventi in coda (purché non scaduti). Ora contengono tutte le modifiche apportate durante la sospensione della pubblicazione del modello.
+Quando si fa clic su **[!UICONTROL Resume]**, vengono elaborati tutti gli eventi in coda (a condizione che non siano scaduti). Ora contengono tutte le modifiche apportate durante la sospensione della pubblicazione del modello.
 
 ## Annullamento della pubblicazione di un messaggio transattivo {#unpublishing-a-transactional-message}
 
-Facendo clic **[!UICONTROL Unpublish]** potete annullare la pubblicazione dei messaggi transazionali, ma anche la pubblicazione dell’evento corrispondente, che elimina dall’API REST la risorsa corrispondente all’evento creato in precedenza. Ora, anche se l’evento viene attivato nel sito Web, i messaggi corrispondenti non vengono più inviati e non vengono memorizzati nel database.
+Facendo clic **[!UICONTROL Unpublish]** potete annullare la pubblicazione dei messaggi transazionali, ma anche la pubblicazione dell’evento corrispondente, che elimina dall’API REST la risorsa corrispondente all’evento creato in precedenza.
 
 ![](assets/message-center_unpublish-template.png)
+
+Ora, anche se l’evento viene attivato nel sito Web, i messaggi corrispondenti non vengono più inviati e non vengono memorizzati nel database.
 
 >[!NOTE]
 >
 >Per pubblicare nuovamente il messaggio, dovete tornare alla configurazione dell&#39;evento corrispondente, pubblicarlo e quindi pubblicare il messaggio. Per ulteriori informazioni, consulta [Pubblicazione di un messaggio](#publishing-a-transactional-message)transazionale.
 
-Se annulli la pubblicazione di un messaggio transazionale in pausa, potresti dover attendere fino a 24 ore prima di pubblicarlo nuovamente. In questo modo il flusso di lavoro **[!UICONTROL Database cleanup]** pulirà tutti gli eventi inviati alla coda. I passaggi per mettere in pausa un messaggio sono descritti nella sezione [Sospensione di una pubblicazione](#suspending-a-transactional-message-publication) di messaggi transazionali.
+Se annulli la pubblicazione di un messaggio transazionale in pausa, potresti dover attendere fino a 24 ore prima di pubblicarlo nuovamente. In questo modo il flusso di lavoro **[!UICONTROL Database cleanup]** pulirà tutti gli eventi inviati alla coda.
+
+I passaggi per mettere in pausa un messaggio sono descritti nella sezione [Sospensione di una pubblicazione](#suspending-a-transactional-message-publication) di messaggi transazionali.
 
 Il **[!UICONTROL Database cleanup]** flusso di lavoro, che viene eseguito ogni giorno alle 4 del mattino, è accessibile tramite **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
 ## Eliminazione di un messaggio transattivo {#deleting-a-transactional-message}
 
+Dopo aver annullato la pubblicazione di un messaggio transazionale o se un messaggio transazionale non è ancora stato pubblicato, puoi eliminarlo dall&#39;elenco dei messaggi transazionali. Per eseguire questa operazione:
+
+1. Fate clic sul **[!UICONTROL Adobe Campaign]** logo, nell’angolo in alto a sinistra, quindi selezionate **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Passa il mouse sul messaggio desiderato.
+1. Fate clic sul **[!UICONTROL Delete element]** pulsante.
+
 ![](assets/message-center_delete-template.png)
 
-Selezionando un messaggio transazionale, puoi eliminarlo con il **[!UICONTROL Delete element]** pulsante anche se è già stato pubblicato. Tuttavia, l&#39;eliminazione di un messaggio transattivo può essere eseguita solo a determinate condizioni:
+Tuttavia, l&#39;eliminazione di un messaggio transattivo può essere eseguita solo a determinate condizioni:
 
-* **Messaggi** transazionali: Per eliminare un messaggio transazionale, è necessario annullare la pubblicazione del messaggio e non interromperlo.
+* Assicurati che il messaggio di transazione abbia lo **[!UICONTROL Draft]** stato, altrimenti non potrai eliminarlo. Lo **[!UICONTROL Draft]** stato si applica a un messaggio che non è ancora stato pubblicato o che è stato [annullato](#unpublishing-a-transactional-message) (e non è stato [messo in pausa](#suspending-a-transactional-message-publication)).
 
-   Se il messaggio di transazione non viene pubblicato, è necessario annullare la pubblicazione anche della configurazione dell&#39;evento per eliminare correttamente il messaggio di transazione, a meno che non venga collegato un altro messaggio di transazione all&#39;evento corrispondente. Per ulteriori informazioni su come annullare la pubblicazione di un messaggio transazionale, consulta questa [sezione](#unpublishing-a-transactional-message).
+* **Messaggi** transazionali: A meno che non sia collegato un altro messaggio transazionale all&#39;evento corrispondente, se il messaggio transazionale non viene pubblicato, anche la configurazione dell&#39;evento deve essere annullata per eliminare correttamente il messaggio transazionale. Per ulteriori informazioni, consultate [Annullamento della pubblicazione di un evento](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Se elimini un messaggio transazionale che ha già inviato delle notifiche, i registri di invio e tracciamento verranno eliminati.
 
-* **Messaggi transazionali da un modello evento out-of-the-box (messaggi transazionali interni)**: Per eliminare un messaggio transazionale interno, il messaggio non deve essere pubblicato e non messo in pausa.
-
-   Inoltre, non dovrebbe essere l&#39;unico messaggio di transazione nell&#39;evento, gli altri messaggi devono essere collegati all&#39;evento corrispondente.
+* **Messaggi transazionali da un modello evento out-of-the-box (messaggi transazionali interni)**: Se un messaggio transazionale interno è l&#39;unico associato all&#39;evento interno corrispondente, non può essere eliminato. È innanzitutto necessario creare un altro messaggio transazionale duplicandolo o tramite il menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
 
 ## Processo dei tentativi di messaggi transazionali {#transactional-message-retry-process}
 
@@ -317,7 +325,7 @@ Ad esempio, non è stato possibile assegnare l&#39;evento a un recapito di esecu
 
 ### Processo tentativi di invio messaggi {#message-sending-retry-process}
 
-Una volta che l&#39;evento è stato assegnato a un recapito di esecuzione, il messaggio di transazione può non riuscire a causa di un errore temporaneo, ad esempio se la cassetta postale del destinatario è piena. Per ulteriori informazioni, vedere [Riprova dopo un errore](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)temporaneo di consegna.
+Una volta che l&#39;evento è stato assegnato a un recapito di esecuzione, il messaggio di transazione può non riuscire a causa di un errore temporaneo, ad esempio se la cassetta postale del destinatario è piena. Per ulteriori informazioni, vedere [Tentativi dopo un errore](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)temporaneo di consegna.
 
 >[!NOTE]
 >
