@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
@@ -146,7 +146,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 * È stato risolto un problema relativo all&#39;attività di trasferimento file che poteva verificarsi quando il nome file conteneva spazi vuoti. (CAMP-25936)
 * È stato risolto un problema che poteva verificarsi quando si utilizzava il pulsante di riconnessione dopo la scadenza di una sessione. (CAMP-25560)
 * È stato risolto un problema che poteva causare esclusioni durante l&#39;invio di consegne con ottimizzazione del fuso orario associata alle regole di affaticamento. (CAMP-25425)
-* È stato risolto un problema che impediva l&#39;eliminazione di dati con un collegamento di tipo 0-1 durante l&#39;utilizzo della funzione GDPR API.
+* È stato risolto un problema che, durante l&#39;utilizzo della funzione GDPR API, poteva impedire l&#39;eliminazione di dati con un collegamento di tipo 0-1.
 * È stato risolto un problema che poteva causare un messaggio di errore durante l&#39;annullamento dell&#39;edizione di una regola di tipo fatigue.
 * È stato risolto un problema che poteva verificarsi durante l&#39;anteprima di un contenuto di consegna dopo la modifica.
 * È stato risolto un problema che poteva verificarsi durante l&#39;elaborazione dei file zip CSV durante l&#39;utilizzo dell&#39;opzione di decompressione.
@@ -479,7 +479,7 @@ Alcuni problemi possono verificarsi quando si utilizzano collegamenti di aiuto c
   </tr> 
   <tr> 
    <td> Attivazione attività segnale API<br /> </td> 
-   <td> È ora possibile attivare un'attività di segnale per i flussi di lavoro direttamente dall'API di Adobe Campaign Standard.<br /> Per ulteriori informazioni, consulta la documentazione <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md"></a> dettagliata .<br /> </td> 
+   <td> È ora possibile attivare un'attività di segnale per i flussi di lavoro direttamente dall'API di Adobe Campaign Standard.<br /> Per ulteriori informazioni, consulta la documentazione <a href="/help/api/using/triggering-a-signal-activity.md"></a> dettagliata .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
