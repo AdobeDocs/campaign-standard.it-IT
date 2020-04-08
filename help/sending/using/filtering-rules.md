@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ Le regole di filtro consentono di escludere una parte della destinazione del mes
 La tabella seguente fornisce informazioni sulle regole di filtraggio pronte all’uso, nonché sui relativi canali.
 
 | Etichetta | Canale | Descrizione |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione di destinazione senza un indirizzo specifico (indirizzo e-mail, indirizzo postale, ecc.) secondo il canale selezionato). |
 | **[!UICONTROL Blacklisted address]** | Tutto | Esclude gli indirizzi inseriti in blacklist. |
 | **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al **[!UICONTROL Address]** campo popolazione di destinazione. |
