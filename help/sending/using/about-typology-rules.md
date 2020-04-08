@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9c0e3cc4609e747bbfebeb90049862f29c9d8d9
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -32,5 +32,5 @@ I passaggi per creare e applicare una tipologia ai messaggi sono:
 
 1. Creare regole di tipologia (vedere [questa sezione](../../sending/using/managing-typology-rules.md#creating-a-typology-rule)).
 1. Create una tipologia e fate riferimento alle regole create al suo interno (consultate [questa sezione](../../sending/using/managing-typologies.md#creating-a-typology)).
-1. Configura la consegna per utilizzare la tipologia creata (vedi [questa sezione](../../sending/using/managing-typologies.md#applying-typologies-to-messages)).
+1. Configurate la distribuzione in modo da utilizzare la tipologia creata (consultate [questa sezione](../../sending/using/managing-typologies.md#applying-typologies-to-messages)).
 1. Durante la preparazione dei messaggi, i profili sono esclusi quando il criterio è soddisfatto. Potete controllare i registri per monitorare le esclusioni.
