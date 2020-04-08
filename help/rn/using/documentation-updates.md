@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ L&#39;integrazione di Microsoft Dynamics 365 con Adobe Campaign Standard è stat
 
 Ulteriori risorse sono state aggiunte alla home page della documentazione. [Leggi tutto](../../campaign-standard-home.md)
 
-Nella documentazione del Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sul servizio Experience Cloud ID. [Leggi tutto](../../administration/using/aep-about-data-connector.md#key-concepts)
+Informazioni sul servizio Experience Cloud ID (ECID) sono state aggiunte alla documentazione del connettore dati di Adobe Experience Platform. [Leggi tutto](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 La sezione Configurazione dei messaggi transazionali è stata migliorata con informazioni su come accedere agli eventi transazionali più recenti e alle schermate aggiornate. [Leggi tutto](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 La sezione relativa alle tipologie e alle regole di tipologia è stata migliorata e aggiornata con informazioni aggiuntive sulle regole di tipologia predefinite. [Leggi tutto](../../sending/using/about-typology-rules.md)
 
-Sono state aggiunte informazioni sull&#39;azione **[!UICONTROL Transfer file]** dell&#39; **!UICONTROL File listing]** attività. [Leggi tutto](../../automating/using/transfer-file.md)
+Sono state aggiunte informazioni sull&#39;azione **[!UICONTROL Transfer file]** dell&#39; **[!UICONTROL File listing]** attività. [Leggi tutto](../../automating/using/transfer-file.md)
 
 La documentazione sui tentativi dopo un errore temporaneo di consegna è stata aggiornata con ulteriori dettagli su come i tentativi vengono gestiti una volta aggiornato all&#39;MTA avanzato. [Leggi tutto](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
@@ -821,7 +821,7 @@ Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../
 
 Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
-Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro per segnali [](../../automating/using/external-signal.md) esterni.
+Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
