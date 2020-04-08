@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ Potete quindi:
 | Pagine utili | Risorse aggiuntive |
 |---|---|
 | [Ottimizzazione della recapito](../../sending/using/about-deliverability.md) | [Gestione della fatica](../../sending/using/fatigue-rules.md) |
-| [Monitoraggio di una consegna](../../audiences/using/creating-profiles.md) | [Progettazione di e-mail di test A/B](../../channels/using/designing-an-a-b-test-email.md) |
+| [Velocità di consegna controllata](../../reporting/using/delivery-throughput.md) | [Progettazione di e-mail di test A/B](../../channels/using/designing-an-a-b-test-email.md) |
 | [Ricezione di una notifica in caso di errore](../../sending/using/receiving-alerts-when-failures-happen.md) | [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md) |
-| [Creazione di un gruppo di controllo](../../automating/using/workflow-control-group.md) | [Ricezione di una notifica in caso di errore](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [Velocità di consegna controllata](../../reporting/using/delivery-throughput.md) | [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md) |
+| [Creazione di un gruppo di controllo](../../automating/using/workflow-control-group.md) | [Invio di messaggi di follow-up](../../channels/using/follow-up-messages.md) |
