@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
 
 ---
 
@@ -129,7 +129,7 @@ Per importare profili da utilizzare per il test da un&#39;audience, attenetevi a
 >
 >Se importi nuovamente la stessa audience, con indirizzi e/o prefissi di sostituzione diversi, i profili verranno aggiunti all&#39;elenco oltre a quelli dell&#39;importazione precedente.
 
-    ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_added.png)
 
 ## Anteprima del messaggio con i profili di destinazione
 
