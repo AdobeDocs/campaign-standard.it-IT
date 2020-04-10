@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
+source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 ---
 
@@ -27,9 +27,9 @@ Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di
 
 Tutte le date di rilascio sono soggette a modifica: consigliamo di visitare questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
 
-Iscriviti per [ricevere le notifiche](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) sulla versione e ricevere informazioni sugli ultimi rilasci di Adobe Experience Cloud direttamente nella casella in entrata.
+**NUOVO!** Iscriviti alle notifiche [di rilascio di](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard per ottenere informazioni sulle prossime release direttamente nella casella in entrata.
 
-## Release 20.2.1 - Rilascio di aprile {#release-20-2-april-release}
+## Release 20.3.1 - Rilascio di maggio {#release-20-3-may-release}
 
 Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note](../../rn/using/release-notes.md)sulla versione. Per ulteriori domande, contatta l&#39;Assistenza clienti [Adobe](https://support.neolane.net/webApp/extranetLogin).
 
@@ -43,11 +43,11 @@ Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati d
  <tbody> 
   <tr> 
    <td> Stage<br /> </td> 
-   <td> 31 marzo - 1 aprile 2020<br /> </td> 
+   <td> 27-28 aprile 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Produzione<br /> </td> 
-   <td> 6 - 9 aprile 2020<br /> </td> 
+   <td> 4 - 11 maggio 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati d
 
 **D: Qual è l&#39;impatto?**
 
-A: Le modifiche sono elencate nelle Note sulla [versione](../../rn/using/release-notes.md), compresi i collegamenti alla relativa documentazione. Adobe consiglia inoltre di consultare la pagina [Funzioni](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)obsolete e rimosse. Queste pagine sono disponibili per la nuova versione alla data di aggiornamento dell&#39;ambiente Stage.
+A: Le modifiche sono elencate nelle Note sulla [versione](../../rn/using/release-notes.md), compresi i collegamenti alla relativa documentazione. Adobe consiglia inoltre di consultare la pagina [Funzioni](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)obsolete e rimosse. Queste pagine sono disponibili per la nuova versione alla data di aggiornamento dell&#39;ambiente Stage.
 
 **D: Qual è il processo di convalida?**
 
