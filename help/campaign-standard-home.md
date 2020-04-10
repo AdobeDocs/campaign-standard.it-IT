@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
+source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 ---
 
@@ -17,9 +17,11 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 * **[Test e-mail tramite profili](sending/using/testing-messages-using-target.md)**<br/>mirati Scoprite come sottoporre a test le e-mail su profili con targeting reale.
 
-* **[Gestione della privacy](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
+* **[Gestione della privacy](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)**<br/>
+Scopri gli strumenti forniti da Adobe Campaign per aiutarti con la conformità alla privacy.
 
-* **[Guida Campaign Standard per dispositivi mobili](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Ulteriori informazioni sulle linee guida generali delle consegne su dispositivi mobili.
+* **[Guida Campaign Standard per dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/>
+Ulteriori informazioni sulle linee guida generali delle consegne su dispositivi mobili.
 
 [Fai clic qui per ulteriori aggiornamenti](rn/using/documentation-updates.md)
 
@@ -63,9 +65,9 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 | Pagine utili | Risorse per sviluppatori |
 |---|---|
-| [Note sulla versione](rn/using/release-notes.md) | [Guida all&#39;implementazione](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
-| [Documentazione del Pannello di controllo](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Documentazione API](api/using/about-campaign-standard-apis.md) |
+| [Note sulla versione](rn/using/release-notes.md) | [Guida all&#39;implementazione](https://helpx.adobe.com/it/campaign/kb/campaign-standard-implementation-guide.html) |
+| [Documentazione del Pannello di controllo](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) | [API campagna](api/using/about-campaign-standard-apis.md) |
 | [Video dimostrativi](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Elenco dei messaggi di errore](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [Guida alla pianificazione della versione](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Modello dati Campaign Standard](developing/using/datamodel-introduction.md) |
-| [Funzioni obsolete e rimosse](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Integrazioni di campagne](integrating/using/about-campaign-integrations.md) |
-| [Guida introduttiva a Campaign Standard](start/using/campaign-orchestration.md) | [Note tecniche](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Pianificazione rilascio](rn/using/release-planning.md) | [Campaign data model](developing/using/datamodel-introduction.md) |
+| [Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html) | [Guida per più soluzioni](integrating/using/about-campaign-integrations.md) |
+| [Guida introduttiva a Campaign Standard](start/using/campaign-orchestration.md) | [Note tecniche](https://helpx.adobe.com/it/campaign/kb/acs-article-list.html) |
