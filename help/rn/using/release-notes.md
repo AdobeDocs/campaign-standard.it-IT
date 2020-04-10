@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * È stato risolto un problema che impediva l&#39;eliminazione manuale di una richiesta di privacy in Campaign dopo l&#39;elaborazione, anche dopo la pulizia, dei dati associati alla richiesta.
 * È stato risolto un problema che poteva verificarsi durante l&#39;anteprima o l&#39;invio di messaggi che includevano caratteri speciali da Adobe Experience Manager.
 * È stato risolto un problema che poteva verificarsi nei flussi di lavoro durante l&#39;esecuzione di un&#39;attività con diverse transizioni in entrata.
+* È stato risolto un problema che impediva agli utenti standard di utilizzare &quot;Iscrizioni a un&#39;applicazione&quot; come dimensione di destinazione in una query di workflow o una consegna. (CAMP-37618)
