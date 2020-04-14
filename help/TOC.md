@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + Test e invio {#testing-and-sending}
    + [Informazioni sull’invio di messaggi con Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Preparazione e verifica dei messaggi {#preparing-and-testing-messages}
-      + [Anteprima dei messaggi](sending/using/previewing-messages.md)
+      + [Anteprima delle consegne](sending/using/previewing-messages.md)
       + [Preparazione dell’invio](sending/using/preparing-the-send.md)
       + [Invio di prove](sending/using/sending-proofs.md)
       + [Verifica dei messaggi e-mail tramite profili di destinazione](sending/using/testing-messages-using-target.md)
