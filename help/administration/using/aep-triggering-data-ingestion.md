@@ -1,5 +1,5 @@
 ---
-title: Attivazione dell'assimilazione dei dati tramite API
+title: Attivazione dell’assimilazione dei dati tramite API
 description: Scoprite come attivare l'assimilazione dei dati tramite le API.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -12,16 +12,16 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
 
-# Attivazione dell&#39;assimilazione dei dati tramite API {#triggering-data-ingestion-apis}
+# Attivazione dell’assimilazione dei dati tramite API {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->Campaign Standard Data Service è attualmente in versione beta, che potrebbe essere oggetto di aggiornamenti frequenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta l&#39;Assistenza clienti Adobe.
+>Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta l&#39;Assistenza clienti Adobe.
 
 Adobe Campaign Standard consente di attivare l’assimilazione immediata delle mappature dati tramite API e di recuperare lo stato delle richieste di assimilazione.
 
@@ -31,14 +31,14 @@ Questa pagina descrive come attivare e recuperare lo stato di inserimento delle 
 
 Prima di utilizzare le API, la mappatura dei dati deve essere stata configurata e pubblicata all&#39;interno dell&#39;interfaccia di Campaign Standard. Per ulteriori informazioni, consulta le sezioni seguenti:
 
-* [Definizione mapping](../../administration/using/aep-mapping-definition.md)
-* [Mapping attivazione](../../administration/using/aep-mapping-activation.md)
+* [Definizione mappature](../../administration/using/aep-mapping-definition.md)
+* [Attivazione mappature](../../administration/using/aep-mapping-activation.md)
 
 Una volta creata la mappatura dei dati, devi impedirne l&#39;esecuzione in modo da poterla attivare dalle API ogni volta che vuoi. A questo scopo, effettuate le seguenti operazioni:
 
-1. In Campaign Standard, andate al **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**[!UICONTROL Status of data export to platform]** menu.
+1. In Campaign Standard, andate al **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
-1. Fare doppio clic sulla mappatura dati per aprirla, quindi fare clic sul **[!UICONTROL Stop]**pulsante.
+1. Fare doppio clic sulla mappatura dati per aprirla, quindi fare clic sul **[!UICONTROL Stop]** pulsante.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -104,7 +104,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i processi correlati sono disponibili nell&#39;interfaccia di Campaign Standard, nel menu **!UICONTROL [Stato dell&#39;esportazione dei dati nella piattaforma]** (consultate Attivazione [](../../administration/using/aep-mapping-activation.md)mapping).
+Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i processi correlati sono disponibili nell&#39;interfaccia di Campaign Standard, nel menu **!UICONTROL [Stato dell&#39;esportazione dei dati nella piattaforma ]**(consultate Attivazione[](../../administration/using/aep-mapping-activation.md)mappatura).
 
 L&#39;operazione GET restituisce le informazioni seguenti:
 
