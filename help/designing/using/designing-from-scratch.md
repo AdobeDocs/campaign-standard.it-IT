@@ -1,18 +1,18 @@
 ---
 title: 'Progettazione di e-mail da zero '
 description: Scoprite come progettare e-mail da contenuti e-mail nuovi in Designer e-mail.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: progettazione
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -32,7 +32,7 @@ Di seguito sono riportati i passaggi principali per creare e progettare un conte
 1. Personalizza la tua e-mail aggiungendo campi di personalizzazione, collegamenti e così via. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field)di personalizzazione, [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link) e [Definizione di contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Definite l’oggetto del messaggio e-mail. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Visualizzate l’anteprima del messaggio e-mail.
-1. Salvate il contenuto e continuate con il messaggio dopo aver definito un'audience e pianificato correttamente l'invio.
+1. Salvate il contenuto e continuate con il messaggio dopo aver definito un&#39;audience e pianificato correttamente l&#39;invio.
 
 Potete anche guardare questo video [](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ita)introduttivo.
 
@@ -42,7 +42,7 @@ Potete anche guardare questo video [](https://video.tv.adobe.com/v/22771/?autopl
 
 ### Definizione struttura e-mail {#defining-the-email-structure}
 
-Designer e-mail consente di definire facilmente la struttura dell'e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, potete progettare la forma del messaggio e-mail in pochi secondi.
+Designer e-mail consente di definire facilmente la struttura dell&#39;e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, potete progettare la forma dell’e-mail in pochi secondi.
 
 Per modificare la struttura di un messaggio e-mail:
 
@@ -75,9 +75,9 @@ Una volta definita la struttura, potete aggiungere frammenti di contenuto e comp
 
 ### Utilizzo dei componenti di contenuto {#about-content-components}
 
- I componenti contenuto sono componenti vuoti e non elaborati che possono essere modificati una volta inseriti in un messaggio e-mail.
+I componenti contenuto sono componenti vuoti e non elaborati che possono essere modificati una volta inseriti in un messaggio e-mail.
 
-È possibile aggiungere tutti i componenti di contenuto desiderati in un componente struttura. Potete anche spostarle all’interno del componente struttura o in un altro componente struttura.
+È possibile aggiungere tutti i componenti di contenuto desiderati in un componente struttura. È inoltre possibile spostarle all’interno del componente struttura o in un altro componente struttura.
 
 Elenco dei componenti disponibili in Designer e-mail:
 
@@ -87,7 +87,7 @@ Elenco dei componenti disponibili in Designer e-mail:
 
    È inoltre possibile salvare i pulsanti nei frammenti da riutilizzare. Per ulteriori informazioni, vedere [Creazione di un frammento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) di contenuto e [Salvataggio del contenuto come frammento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-1. Selezionare **[!UICONTROL Fallback view]** per visualizzare l'immagine di fallback in Designer e-mail.
+Selezionare **[!UICONTROL Fallback view]** per visualizzare l&#39;immagine di fallback in Designer e-mail.
 
 - **[!UICONTROL Text]**
 
@@ -103,7 +103,7 @@ Elenco dei componenti disponibili in Designer e-mail:
 
    >[!NOTE]
    >
-   >Un componente HTML gratuito può essere modificato con opzioni limitate. Se tutti gli stili non sono allineati, accertatevi di aggiungere il CSS appropriato nella sezione **head** del codice HTML, altrimenti l'e-mail non sarà reattiva. Utilizzate il **[!UICONTROL Preview]** pulsante per verificare la reattività del contenuto (consultate [Anteprima dei messaggi](../../sending/using/previewing-messages.md)).
+   >Un componente HTML gratuito può essere modificato con opzioni limitate. Se tutti gli stili non sono allineati, accertatevi di aggiungere il CSS appropriato nella sezione **head** del codice HTML, altrimenti l&#39;e-mail non sarà reattiva. Utilizzate il **[!UICONTROL Preview]** pulsante per verificare la reattività del contenuto (consultate [Anteprima dei messaggi](../../sending/using/previewing-messages.md)).
 
    Per rendere semplicemente un contenuto esterno conforme a E-mail Designer, Adobe consiglia di creare un messaggio da zero e di copiare il contenuto del messaggio e-mail esistente in frammenti e componenti.
 
@@ -113,7 +113,7 @@ Elenco dei componenti disponibili in Designer e-mail:
 
    >[!NOTE]
    >
-   >Il nuovo contenuto non sarà la copia esatta dell'e-mail originale, ma i passaggi seguenti vi guideranno attraverso la creazione di un messaggio che sarà il più vicino possibile.
+   >Il nuovo contenuto non sarà la copia esatta dell&#39;e-mail originale, ma i passaggi seguenti vi guideranno attraverso la creazione di un messaggio che sarà il più vicino possibile.
 
    **Prima di copiare il contenuto**
 
@@ -147,7 +147,7 @@ Elenco dei componenti disponibili in Designer e-mail:
    1. Selezionate un’immagine di fallback dal computer.
    ![](assets/des_carousel_fallback.png)
 
-   Il componente carosello non è compatibile con tutti i programmi e-mail. Caricate un fallback per visualizzare un'immagine invece quando il carosello non è supportato nell'e-mail.
+   Il componente carosello non è compatibile con tutti i programmi e-mail. Caricate un fallback per visualizzare un&#39;immagine invece quando il carosello non è supportato nell&#39;e-mail.
 
    >[!NOTE]
    >
