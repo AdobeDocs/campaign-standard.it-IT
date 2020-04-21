@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ Quando una consegna non può essere inviata a un profilo, il server remoto invia
 
 >[!NOTE]
 >
->**I messaggi di errore e-mail** (o &quot;rimbalzi&quot;) sono qualificati dall&#39;MTA avanzata (rimbalzi sincroni) o dal processo inMail (rimbalzi asincroni). **I messaggi di errore SMS** (o &quot;SR&quot; per &quot;Report di stato&quot;) sono qualificati dal processo MTA.
+>**I messaggi di errore e-mail** (o &quot;rimbalzi&quot;) sono qualificati dall&#39;MTA avanzata (rimbalzi sincroni) o dal processo inMail (rimbalzi asincroni).
+>
+>**I messaggi di errore SMS** (o &quot;SR&quot; per &quot;Report di stato&quot;) sono qualificati dal processo MTA.
 
 I messaggi possono essere esclusi durante la preparazione del recapito se un indirizzo viene messo in quarantena o se un profilo viene inserito in una blacklist. I messaggi esclusi sono elencati nella **[!UICONTROL Exclusion logs]** scheda del dashboard di distribuzione (vedere [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -56,7 +58,7 @@ I possibili motivi di un mancato recapito sono:
 
 * **[!UICONTROL User unknown]** (tipo rigido): l&#39;indirizzo non esiste. Per questo profilo non verranno tentate altre consegne.
 * **[!UICONTROL Quarantined address]** (tipo rigido): l&#39;indirizzo è stato messo in quarantena.
-* **[!UICONTROL Unreachable]** (tipo morbido/rigido): si è verificato un errore nella catena di distribuzione dei messaggi (ad esempio, dominio temporaneamente non raggiungibile). In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge 5.
+* **[!UICONTROL Unreachable]** (tipo morbido/rigido): si è verificato un errore nella catena di distribuzione dei messaggi (ad esempio, dominio temporaneamente non raggiungibile). In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge il 5.
 * **[!UICONTROL Address empty]** (tipo rigido): l&#39;indirizzo non è definito.
 * **[!UICONTROL Mailbox full]** (tipo morbido): la cassetta postale di questo utente è piena e non può accettare altri messaggi. Questo indirizzo può essere rimosso dall&#39;elenco di quarantena per effettuare un altro tentativo. Viene rimosso automaticamente dopo 30 giorni.
 
@@ -80,13 +82,13 @@ I possibili motivi di un mancato recapito sono:
 
 Se un messaggio non riesce a causa di un errore temporaneo del tipo **Ignorato** , i tentativi verranno eseguiti durante la durata del recapito. Per ulteriori informazioni sui tipi di errori, consulta Tipi di errori di [consegna e motivi](#delivery-failure-types-and-reasons).
 
-Una volta effettuato l&#39;aggiornamento all&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, le impostazioni dei **tentativi** in Campaign vengono ignorate. Il numero di tentativi (il numero di tentativi da eseguire il giorno successivo all&#39;avvio dell&#39;invio) e il ritardo minimo tra i tentativi vengono gestiti dall&#39;MTA avanzata, in base al livello di prestazioni di un IP sia storicamente che attualmente in un determinato dominio.
+Il numero di tentativi (il numero di tentativi da eseguire il giorno successivo all&#39;inizio dell&#39;invio) e il ritardo minimo tra i tentativi sono ora gestiti dall&#39;MTA avanzata di Adobe Campaign, in base alle prestazioni di un IP sia storicamente che attualmente in un determinato dominio. Le impostazioni **Riprova** in Campaign vengono ignorate.
 
 Per modificare la durata di una consegna, andate ai parametri avanzati del modello di consegna o consegna e modificate il **[!UICONTROL Delivery duration]** campo della sezione Periodo [di](../../administration/using/configuring-email-channel.md#validity-period-parameters) validità.
 
 >[!IMPORTANT]
 >
->Dopo l&#39;aggiornamento all&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, il **[!UICONTROL Delivery duration]** parametro nelle consegne di Campaign viene utilizzato solo se impostato su 3,5 giorni o meno. Se si definisce un valore superiore a 3,5 giorni, non verrà preso in considerazione.
+>**Il **[!UICONTROL Delivery duration]**parametro nelle consegne di Campaign ora viene utilizzato solo se impostato su un massimo di 3,5 giorni.** Se definisci un valore superiore a 3,5 giorni, non verrà preso in considerazione in quanto ora è gestito dall&#39;MTA avanzata di Adobe Campaign.
 
 Ad esempio, se si desidera che i tentativi di consegna interrompano dopo un giorno, è possibile impostare la durata di consegna su **1 d**, e l&#39;MTA avanzata rispetterà tale impostazione rimuovendo i messaggi nella coda dei tentativi dopo un giorno.
 
@@ -105,19 +107,13 @@ Una consegna può non riuscire immediatamente (errore sincrono), o successivamen
 
 ## Qualificazione della posta {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->Dopo l&#39;aggiornamento all&#39;MTA avanzato, i titoli di rimbalzo nella tabella Campagna **[!UICONTROL Message qualification]** non vengono più utilizzati.
-
-Per i messaggi di errore di consegna sincrona, l&#39;MTA avanzata determina il tipo di rimbalzo e la qualifica e invia tali informazioni a Campaign. Per ulteriori informazioni sull&#39;MTA avanzata di Adobe Campaign, consulta questo [documento](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Per i messaggi di errore di consegna sincrona, l&#39;MTA avanzata determina il tipo di rimbalzo e la qualifica e invia tali informazioni a Campaign.
 
 I rimbalzi asincroni sono ancora qualificati dal processo inMail attraverso le **[!UICONTROL Inbound email]** regole. Per accedere a queste regole, fai clic sul **[!UICONTROL Adobe Campaign]** logo, in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, consulta questa [sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>La qualifica di posta indesiderata ora è gestita dall&#39;MTA avanzato di Adobe Campaign. I titoli di rimbalzo nella tabella Campagna **[!UICONTROL Message qualification]** non vengono più utilizzati.
 
 <!--Bounces can have the following qualification statuses:
 
