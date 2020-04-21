@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -40,7 +40,7 @@ Una volta attivato, è necessario attivare CCN e-mail dall’ **[!UICONTROL Arch
 
 >[!NOTE]
 >
->Attualmente le e-mail archiviate non possono essere inviate con l&#39;MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign, anche se si è già passati all&#39;MTA avanzata.
+>Attualmente le e-mail archiviate non possono essere inviate con l&#39;MTA avanzato di Adobe Campaign, anche se si è già passati all&#39;MTA avanzata.
 
 ## Attivazione dell&#39;archiviazione delle e-mail {#activating-email-archiving}
 
