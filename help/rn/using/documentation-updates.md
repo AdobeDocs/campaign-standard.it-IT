@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ La documentazione sui tentativi dopo un errore temporaneo di consegna è stata a
 La sezione Eliminazione di un messaggio transazionale è stata migliorata e chiarita. [Leggi tutto](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 La sezione **Anteprima delle consegne** è stata aggiornata con gli esempi di consegne per dispositivi mobili.[Leggi tutto](../../sending/using/previewing-messages.md)
+
+Sono state aggiunte le best practice relative ai messaggi transazionali e all&#39;eliminazione degli eventi in tempo reale inutilizzati. [Leggi tutto](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+La sezione Configurazione del canale e-mail è stata aggiornata con chiarimenti su tutte le impostazioni e-mail ora gestite dall&#39;MTA avanzata di Adobe Campaign. [Leggi tutto](../../administration/using/configuring-email-channel.md)
 
 ## Rilascio 20.2 - aprile 2020 {#release-20-2---april-2020}
 
@@ -823,7 +827,7 @@ Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../
 
 Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
-Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
+Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro per segnali [](../../automating/using/external-signal.md) esterni.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
