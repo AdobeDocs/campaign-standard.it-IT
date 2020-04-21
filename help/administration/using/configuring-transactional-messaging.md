@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
+source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 ---
 
@@ -30,6 +30,10 @@ Una volta pubblicato l’evento, viene automaticamente creato il messaggio trans
 ## Creazione di un evento {#creating-an-event}
 
 Iniziate creando l&#39;evento corrispondente alle vostre esigenze.
+
+>[!NOTE]
+>
+>Il numero di eventi in tempo reale creati può avere un impatto sulla piattaforma. Per garantire prestazioni ottimali, eliminate gli eventi in tempo reale di cui non avete più bisogno. Consultate [Eliminazione di un evento](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
 
 1. Fate clic sul **[!UICONTROL Adobe Campaign]** logo, nell’angolo in alto a sinistra, quindi selezionate **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Fate clic sul **[!UICONTROL Create]** pulsante.
@@ -95,7 +99,7 @@ Anteprima API per questo esempio:
 
 L&#39;arricchimento del contenuto dei messaggi transazionali con le informazioni provenienti dal database di Adobe Campaign consente di personalizzare i messaggi. Dal cognome o dall&#39;ID CRM di ciascuno dei destinatari, ad esempio, puoi recuperare dati quali l&#39;indirizzo o la data di nascita o qualsiasi altro campo personalizzato aggiunto nella tabella Profilo, al fine di personalizzare le informazioni inviate.
 
-È possibile arricchire il contenuto dei messaggi transazionali con informazioni provenienti da risorse estese **[!UICONTROL Profile]** o **[!UICONTROL Service]** .
+È possibile arricchire il contenuto dei messaggi transazionali con informazioni provenienti da un sito esteso **[!UICONTROL Profile and services Ext API]**. Per ulteriori informazioni, consultate [Estensione dell&#39;API: Pubblicazione dell’estensione](../../developing/using/step-2--publish-the-extension.md)
 
 Queste informazioni possono essere memorizzate anche in nuove risorse. In tal caso, la risorsa deve essere collegata direttamente alla **[!UICONTROL Profile]** o alle **[!UICONTROL Service]** risorse oppure tramite un&#39;altra tabella. Ad esempio, nella configurazione seguente, è possibile arricchire il contenuto del messaggio di transazione con informazioni provenienti dalla **[!UICONTROL Product]** risorsa come la categoria di prodotto o l&#39;ID, se la **[!UICONTROL Product]** risorsa è collegata alla **[!UICONTROL Profile]** risorsa.
 
