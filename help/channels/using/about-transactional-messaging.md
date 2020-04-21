@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ I messaggi transazionali sono disponibili anche dall&#39;API Adobe Campaign Stan
 
 >[!IMPORTANT]
 >
->Dopo l&#39;aggiornamento all&#39;MTA [](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)avanzata, tutti i messaggi transazionali vengono inviati con l&#39;MTA avanzata di Adobe Campaign per migliorare la recapito, il throughput e la gestione dei bounce. Tutti gli impatti sono gli stessi dei messaggi di marketing standard e sono descritti nel documento MTA [avanzato di](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+>Tutti i messaggi transazionali ora vengono inviati con l&#39;MTA avanzato di Adobe Campaign per migliorare la recapito, il throughput e la gestione dei bounce. Tutti gli impatti sono gli stessi dei messaggi di marketing standard.
 
 ## Principio operativo della messaggistica transattiva {#transactional-messaging-operating-principle}
 
