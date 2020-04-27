@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -49,7 +49,7 @@ Fornendo collegamenti di annullamento dell&#39;iscrizione nei messaggi, i profil
 
 ## Conformità alla privacy
 
-Adobe Campaign offre una serie di strumenti per aiutarti a rispettare le normative sulla privacy per GDPR, CCPA e altre leggi sulla privacy. Scopri di più in questo [articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla Gestione della privacy e sulle funzioni che forniamo per gestire il Diritto di accesso, il Diritto di essere Dimenticato, il consenso, la conservazione dei dati e i ruoli utente. Troverai anche le best practice, per aiutarti a rispettare la Privacy quando utilizzi il nostro servizio.
+Adobe Campaign offre una serie di strumenti per aiutarti a rispettare le normative sulla privacy per GDPR, CCPA e altre leggi sulla privacy. Scopri di più in questo [articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla Gestione della privacy e sulle funzioni che forniamo per gestire il Diritto di accesso, il Diritto di essere Dimenticato, il consenso, la conservazione dei dati e i ruoli utente. Troverai anche le best practice per aiutarti a rispettare la Privacy quando utilizzi il nostro servizio.
 
 ## Argomenti correlati
 
