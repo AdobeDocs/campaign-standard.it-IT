@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: e5c21e1398d5fbe39761ab00ada24263317e6742
 
 ---
 
@@ -176,7 +176,7 @@ Nelle proprietà [del](#workflow-properties)flusso di lavoro sono disponibili op
 
 Le opzioni possibili sono:
 
-* **[!UICONTROL Supervisors]**: consente di definire il gruppo di persone a cui inviare una notifica (e-mail e notifica in-app) in caso di errore nel flusso di lavoro. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta le notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+* **[!UICONTROL Supervisors]**: consente di definire il gruppo di persone da notificare (e-mail e notifica in-app) in caso di errore nel flusso di lavoro. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta le notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
 
 * **[!UICONTROL In case of error]**: consente di specificare l&#39;azione da eseguire in caso di errore dell&#39;attività. Sono disponibili due opzioni:
 
@@ -199,7 +199,7 @@ Le opzioni possibili sono:
 
 * **[!UICONTROL Default affinity]**: questo campo consente di forzare l&#39;esecuzione di un flusso di lavoro o di un&#39;attività di workflow su un computer specifico.
 
-* **[!UICONTROL History in days]**: specifica il numero di giorni dopo i quali la cronologia deve essere eliminata. La cronologia è composta da tutti gli elementi correlati come registri, attività, eventi. Il valore predefinito è 30 giorni per i modelli di flusso di lavoro predefiniti.
+* **[!UICONTROL History in days]**: specifica il numero di giorni dopo i quali la cronologia deve essere eliminata. La cronologia contiene elementi correlati al flusso di lavoro: registri, attività, eventi (oggetti tecnici collegati all&#39;operazione del flusso di lavoro), nonché file scaricati dall&#39; **[!UICONTROL Transfer file]** attività. Il valore predefinito è 30 giorni per i modelli di flusso di lavoro predefiniti.
 
    La rimozione della cronologia viene eseguita dal flusso di lavoro tecnico di pulizia del database, che viene eseguito quotidianamente per impostazione predefinita (vedere [Elenco di flussi di lavoro](../../administration/using/technical-workflows.md)tecnici).
 
