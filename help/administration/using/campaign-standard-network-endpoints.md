@@ -12,7 +12,7 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
+source-git-commit: f84e38d2ce8912823af1c96086bcbc73bae1f508
 
 ---
 
@@ -27,7 +27,6 @@ Questi sono i diversi endpoint utilizzati in Campaign Standard.
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Tracciamento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Creative SDK per editor di immagini | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
 | Integrazione di Assets | `https://*.marketing-assets.adobe.com` |
 | Servizi Adobe interni | `https://*.adobe.io` |
 | Sondaggi | `https://adobe.allegiancetech.com` |
