@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -60,7 +60,7 @@ Quando modificate la risorsa, nella **[!UICONTROL Data structure]** scheda potet
 1. Dopo aver aggiunto i campi, selezionate la **[!UICONTROL Add audit fields]** casella per includere i campi con dettagli sulla data di creazione, l’utente che ha creato la risorsa, la data e l’autore dell’ultima modifica.
 1. Selezionate la **[!UICONTROL Add access authorization management fields]** casella per includere i campi in cui sono indicati gli utenti con diritti di accesso a tale risorsa.
 
-   Questi campi vengono visualizzati nei dati e nei metadati che possono essere visualizzati dopo l&#39;aggiornamento del database. Per ulteriori informazioni, vedere [Aggiornamento della struttura](../../developing/using/updating-the-database-structure.md) del database.
+   Questi campi vengono visualizzati nei dati e nei metadati che possono essere visualizzati una volta che è stato eseguito l&#39;aggiornamento del database. Per ulteriori informazioni, vedere [Aggiornamento della struttura](../../developing/using/updating-the-database-structure.md) del database.
 
 1. Controllare il **[!UICONTROL Add automatic ID]** campo per generare automaticamente un ID. Le entità esistenti rimarranno vuote. Per ulteriori informazioni, consulta [Generazione di un ID univoco per i profili e le risorse](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)personalizzate.
 1. Per modificare il modo in cui il nome degli elementi della risorsa verrà visualizzato negli elenchi e nelle fasi di creazione, selezionate la **[!UICONTROL Customize the title of the resource elements]** casella di controllo. Selezionare un campo tra quelli creati per la risorsa.
@@ -69,7 +69,7 @@ Quando modificate la risorsa, nella **[!UICONTROL Data structure]** scheda potet
 
    >[!NOTE]
    >
-   >Se non si seleziona questa opzione, la chiave primaria automatica (creata automaticamente ogni volta che un&#39;entità viene aggiunta alla tabella) verrà utilizzata quando si elencano tutte le entità da questa tabella.
+   >Se non si seleziona questa opzione, la chiave primaria automatica (che viene creata automaticamente ogni volta che un&#39;entità viene aggiunta alla tabella) verrà utilizzata quando si elencano tutte le entità da questa tabella.
 
 I campi della risorsa sono ora definiti.
 
@@ -81,7 +81,7 @@ Ciascuna risorsa deve avere almeno una chiave univoca. Ad esempio, potete specif
 
    ![](assets/schema_extension_6.png)
 
-1. Utilizzare il **[!UICONTROL Create element]** pulsante per creare una chiave.
+1. Usate il **[!UICONTROL Create element]** pulsante per creare una chiave.
 
    I campi **[!UICONTROL Label]** e **[!UICONTROL ID]** sono completati per impostazione predefinita, ma è possibile modificarli.
 
@@ -159,7 +159,7 @@ Un collegamento descrive l&#39;associazione di una tabella con altre tabelle.
    >
    >Utilizzate un massimo di 30 caratteri.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Non è possibile rinominare un collegamento dopo la creazione. Per rinominare un collegamento, è necessario eliminarlo e crearlo di nuovo.
 
@@ -221,7 +221,7 @@ Aggiungendo questo collegamento, una scheda **Acquisto** viene aggiunta alla sch
 
 L’estensione del registro di invio consente di:
 
-* estensione delle funzionalità dei rapporti dinamici **aggiungendo campi personalizzati del profilo**
+* estensione delle funzionalità dei rapporti dinamici mediante l&#39; **aggiunta di campi personalizzati del profilo**
 * per estendere i dati dei log di invio con il codice **del segmento e i dati di profilo**
 
 **Estendi con un codice di segmento**
@@ -244,7 +244,7 @@ Per ulteriori informazioni sul codice del segmento, consulta la sezione [Segment
 
 ![](assets/sendinglogsextension_2.png)
 
-Fate clic su **[!UICONTROL Add field]** e selezionate un campo personalizzato dalla risorsa profilo.
+Fate clic su **[!UICONTROL Add field]** e selezionate un campo personalizzato dalla risorsa del profilo.
 
 Per generare una nuova dimensione secondaria collegata alla dimensione Profilo, selezionate l’ **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** opzione.
 
@@ -254,7 +254,7 @@ Da Generazione di rapporti dinamici, puoi trascinare la dimensione del campo per
 
 Per ulteriori informazioni su Dynamic Reporting (Generazione di rapporti dinamica), consultare l&#39; [Elenco dei componenti](../../reporting/using/list-of-components-.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Il numero di campi inviati a Dynamic Reporting è limitato a 20.
 
@@ -274,10 +274,10 @@ Nella schermata delle risorse personalizzate, il **[!UICONTROL Summary]** riquad
    >
    >Utilizzate un massimo di 30 caratteri.
 
-1. Per limitare l&#39;accesso a questa risorsa a determinate unità organizzative, specificatele qui. Solo gli utenti di unità autorizzate potranno lavorare con questa risorsa nell&#39;applicazione.
+1. Se è necessario limitare l&#39;accesso a questa risorsa a determinate unità organizzative, specificatele qui. Solo gli utenti di unità autorizzate potranno lavorare con questa risorsa nell&#39;applicazione.
 1. Salvare le modifiche.
 
-Le modifiche vengono salvate. Per applicarle, è necessario pubblicare nuovamente la risorsa.
+Le modifiche vengono salvate. Per applicarle, è necessario pubblicare di nuovo la risorsa.
 
 ## Generazione di un ID univoco per profili e risorse personalizzate {#generating-a-unique-id-for-profiles-and-custom-resources}
 
