@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,19 +21,21 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 Per inviare un messaggio transazionale con Adobe Campaign, è necessario innanzitutto descrivere la struttura dei dati dell&#39;evento.
 
-La configurazione dell&#39;evento deve essere eseguita da un **amministratore** seguendo la procedura seguente:
+La configurazione dell&#39;evento deve essere eseguita da un [amministratore](../../administration/using/users-management.md#functional-administrators) seguendo la procedura indicata di seguito.
 
-La configurazione può variare a seconda del tipo di messaggio transazionale che si desidera inviare. Per ulteriori informazioni, vedere Configurazioni specifiche per gli eventi [transazionali.](#transactional-event-specific-configurations)
+>[!NOTE]
+>
+>La configurazione può variare a seconda del tipo di messaggio transazionale che si desidera inviare. Per ulteriori informazioni, consultate Configurazioni [specifiche per gli eventi](#transactional-event-specific-configurations)transazionali.
 
 Una volta pubblicato l’evento, viene automaticamente creato il messaggio transazionale corrispondente. Per ulteriori informazioni sui messaggi transazionali, consulta [questa pagina](../../channels/using/about-transactional-messaging.md).
 
 ## Creazione di un evento {#creating-an-event}
 
-Iniziate creando l&#39;evento corrispondente alle vostre esigenze.
+Per iniziare, create l&#39;evento corrispondente alle vostre esigenze.
 
 >[!NOTE]
 >
->Il numero di eventi in tempo reale creati può avere un impatto sulla piattaforma. Per garantire prestazioni ottimali, eliminate gli eventi in tempo reale di cui non avete più bisogno. Consultate [Eliminazione di un evento](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
+>Solo gli utenti che detengono il **[!UICONTROL Administration]** ruolo e fanno parte dell’unità **[!UICONTROL All]** [](../../administration/using/organizational-units.md) organizzativa dispongono dei diritti appropriati per creare una configurazione dell’evento.
 
 1. Fate clic sul **[!UICONTROL Adobe Campaign]** logo, nell’angolo in alto a sinistra, quindi selezionate **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Fate clic sul **[!UICONTROL Create]** pulsante.
@@ -55,6 +57,10 @@ Iniziate creando l&#39;evento corrispondente alle vostre esigenze.
 
    I messaggi transazionali basati su eventi sono destinati ai dati contenuti nell&#39;evento stesso, mentre i messaggi transazionali basati su profilo sono destinati ai dati contenuti nel database di Adobe Campaign. Per ulteriori informazioni, consultate Configurazioni [specifiche per gli eventi](#transactional-event-specific-configurations)transazionali.
 
+>[!NOTE]
+>
+>Il numero di eventi in tempo reale creati può avere un impatto sulla piattaforma. Per garantire prestazioni ottimali, eliminate gli eventi in tempo reale di cui non avete più bisogno. Consultate [Eliminazione di un evento](#deleting-an-event).
+
 ## Definizione degli attributi dell’evento {#defining-the-event-attributes}
 
 Nella **[!UICONTROL Fields]** sezione, definite gli attributi che saranno integrati nel contenuto dell&#39;evento e che potranno quindi essere utilizzati per personalizzare il messaggio di transazione.
@@ -71,7 +77,7 @@ La procedura per aggiungere e modificare i campi è la stessa utilizzata per le 
 
 Potete aggiungere al contenuto dell&#39;evento una raccolta di elementi, ciascuno stesso elemento con diversi attributi.
 
-Questa raccolta può essere utilizzata in un messaggio e-mail transazionale per aggiungere elenchi di prodotti al contenuto del messaggio, ad esempio un elenco di prodotti - con il prezzo, il numero di riferimento, la quantità, ecc. per ogni prodotto dell&#39;elenco.
+Questa raccolta può essere utilizzata in un messaggio e-mail transazionale per aggiungere elenchi di [prodotti](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) al contenuto del messaggio, ad esempio un elenco di prodotti - con il prezzo, il numero di riferimento, la quantità, ecc. per ogni prodotto dell&#39;elenco.
 
 1. Nella **[!UICONTROL Collections]** sezione fare clic sul **[!UICONTROL Create element]** pulsante.
 
@@ -84,6 +90,12 @@ Questa raccolta può essere utilizzata in un messaggio e-mail transazionale per 
 
    ![](assets/message-center_collection_fields.png)
 
+1. La **[!UICONTROL Enrichment]** scheda consente di arricchire ogni elemento della raccolta. Questo ti consentirà di personalizzare gli elementi dell&#39;elenco di prodotti corrispondente con informazioni provenienti dal database Adobe Campaign o da altre risorse che hai creato.
+
+>[!NOTE]
+>
+>I passaggi per l&#39;arricchimento degli elementi di una raccolta sono gli stessi descritti nella sezione [Arricchimento dell&#39;evento](#enriching-the-transactional-message-content) . Tenete presente che l&#39;arricchimento dell&#39;evento non consente di arricchire una raccolta: è necessario aggiungere un arricchimento alla raccolta stessa nella **[!UICONTROL Collections]** sezione.
+
 Una volta pubblicati l&#39;evento e il messaggio, potrete utilizzare questa raccolta nel messaggio transazionale.
 
 Anteprima API per questo esempio:
@@ -95,9 +107,9 @@ Anteprima API per questo esempio:
 * [Anteprima e pubblicazione dell’evento](#previewing-and-publishing-the-event)
 * [Utilizzo degli elenchi di prodotti in un messaggio transazionale](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## Arricchimento del contenuto dei messaggi transazionali {#enriching-the-transactional-message-content}
+## Arricchimento dell’evento {#enriching-the-transactional-message-content}
 
-L&#39;arricchimento del contenuto dei messaggi transazionali con le informazioni provenienti dal database di Adobe Campaign consente di personalizzare i messaggi. Dal cognome o dall&#39;ID CRM di ciascuno dei destinatari, ad esempio, puoi recuperare dati quali l&#39;indirizzo o la data di nascita o qualsiasi altro campo personalizzato aggiunto nella tabella Profilo, al fine di personalizzare le informazioni inviate.
+Puoi arricchire il contenuto dei messaggi transazionali con informazioni provenienti dal database di Adobe Campaign per personalizzare i messaggi. Dal cognome o dall&#39;ID CRM di ciascuno dei destinatari, ad esempio, puoi recuperare dati quali l&#39;indirizzo o la data di nascita o qualsiasi altro campo personalizzato aggiunto nella tabella Profilo, al fine di personalizzare le informazioni inviate.
 
 È possibile arricchire il contenuto dei messaggi transazionali con informazioni provenienti da un sito esteso **[!UICONTROL Profile and services Ext API]**. Per ulteriori informazioni, consultate [Estensione dell&#39;API: Pubblicazione dell’estensione](../../developing/using/step-2--publish-the-extension.md)
 
