@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ Per implementare le regole di affaticamento, è necessario definire un numero ma
 Argomenti correlati:
 
 * [Preparazione](../../administration/using/configuring-email-channel.md#preparation)
-* [Gestione delle tipologie](../../sending/using/about-typology-rules.md#managing-typologies)
-* [Regole di tipologia](../../sending/using/about-typology-rules.md#typology-rules)
+* [Gestione delle tipologie](../../sending/using/managing-typologies.md)
+* [Regole di tipologia](../../sending/using/managing-typology-rules.md)
 * [Ottimizzazione della frequenza di comunicazione per evitare affaticamento del contatto](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Creazione di una regola di affaticamento {#creating-a-fatigue-rule}
