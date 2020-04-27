@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
+source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 ---
 
@@ -21,23 +21,35 @@ source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ![](assets/wf_externalAPI.png)
 
-L&#39; **[!UICONTROL External API]** attività porta i dati nel flusso di lavoro da un sistema **** esterno tramite una chiamata API **** REST.
+L&#39; **[!UICONTROL External API]** attività porta i dati nel flusso di lavoro da un sistema **** esterno tramite una chiamata API **** HTTP.
 
-Gli endpoint REST possono essere un sistema di gestione dei clienti, un&#39;istanza Runtime [I/O di](https://www.adobe.io/apis/experienceplatform/runtime.html) Adobe o un endpoint REST di Experience Cloud (Piattaforma dati, Target, Analytics, Campaign, ecc.).
+Gli endpoint di sistema esterni possono essere endpoint API pubblici, sistemi di gestione clienti o istanze di applicazioni server (ad esempio, Runtime [I/O di](https://www.adobe.io/apis/experienceplatform/runtime.html)Adobe), per citare alcune categorie.
 
 >[!NOTE]
 >
 >Per motivi di sicurezza, l&#39;utilizzo di JSSP non è supportato in Campaign Standard. Se è necessario eseguire il codice, potete chiamare un&#39;istanza di runtime di I/O Adobe tramite l&#39;attività API esterna.
-
->[!IMPORTANT]
->
->Questa funzionalità è attualmente in versione beta. Prima di iniziare a utilizzare l&#39;attività API esterna, è necessario accettare l&#39;accordo di utilizzo. Nota: poiché la funzionalità beta non è ancora stata rilasciata in commercio da Adobe, non è supportata da Adobe Client Care, potrebbe contenere errori e potrebbe non funzionare così come altre funzionalità rilasciate.
 
 Le principali caratteristiche di questa attività sono:
 
 * Possibilità di trasmettere dati in formato JSON a un endpoint API REST di terze parti
 * Possibilità di ricevere una risposta JSON indietro, mapparla alle tabelle di output e passare a valle ad altre attività del flusso di lavoro.
 * Gestione degli errori con una transizione specifica in uscita
+
+### Transizione da Beta a GA {#from-beta-to-ga}
+
+Con la release 20.3 di Campaign Standard, la funzionalità API esterna è stata spostata da Beta a Disponibilità generale (GA).
+
+Di conseguenza, se si utilizzano le attività Beta External API, è necessario sostituirle con attività GA External API in tutti i flussi di lavoro.  I flussi di lavoro che utilizzano la versione beta dell&#39;API esterna cesseranno di funzionare a partire dalla versione 20.3.
+
+Quando si sostituiscono le attività API esterne, aggiungere la nuova attività API esterna al flusso di lavoro, copiare manualmente i dettagli di configurazione, quindi eliminare la vecchia attività.
+
+>[!NOTE]
+>
+>Non potrete copiare i valori di intestazione perché mascherati all&#39;interno dell&#39;attività.
+
+Quindi, riconfigurate altre attività nel flusso di lavoro che puntano a e/o utilizzano i dati dell&#39;attività API esterna beta per puntare a e/o utilizzare i dati della nuova attività API esterna. Esempi di attività: distribuzione delle e-mail (campi di personalizzazione), attività di arricchimento, ecc.
+
+### Limitazioni e tuteli {#guardrails}
 
 Per questa attività sono stati istituiti i seguenti presidi:
 
@@ -49,7 +61,21 @@ Per questa attività sono stati istituiti i seguenti presidi:
 
 >[!CAUTION]
 >
->L&#39;attività è destinata al recupero di dati a livello di campagna (ultimi set di offerte, ultimi punteggi ecc.) non per il recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d&#39;uso lo richiede, la raccomandazione consiste nell&#39;utilizzare l&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) .
+>L&#39;attività è destinata al recupero di dati a livello di campagna (ultimi set di offerte, punteggi più recenti, ecc.), non al recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d&#39;uso lo richiede, la raccomandazione consiste nell&#39;utilizzare l&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) .
+
+
+Sono state istituite garanzie specifiche per la JSON:
+
+* **Profondità** massima JSON: limita la profondità massima di un JSON nidificato personalizzato che può essere elaborato a 10 livelli.
+* **Lunghezza** massima chiave JSON: limita a 255 la lunghezza massima della chiave interna generata. Questa chiave è associata all&#39;ID colonna.
+* **Numero massimo di chiavi duplicate JSON consentite**:  limita a 150 il numero totale massimo di nomi di proprietà JSON duplicati, utilizzati come ID colonna.
+
+
+L&#39;attività non è supportata dalla struttura JSON come:
+
+* Combinazione di un oggetto array con altri elementi non array
+* L&#39;oggetto array JSON è nidificato all&#39;interno di uno o più oggetti array intermedi.
+
 
 ## Configurazione {#configuration}
 
@@ -64,7 +90,7 @@ In base a questa tabella temporanea, l&#39;utente può apportare modifiche ai da
 
 Il menu a discesa delle risorse **** in entrata consente di selezionare l&#39;attività di query che creerà la tabella temporanea.
 
-La casella di controllo **Aggiungi parametro** di conteggio fornirà un valore di conteggio per ogni riga proveniente dalla tabella temporanea. Questa casella di controllo è disponibile solo se l&#39;attività in entrata genera una tabella temporanea.
+La casella di controllo **Aggiungi parametro** di conteggio aggiungerà un valore di conteggio per ogni riga proveniente dalla tabella temporanea. Questa casella di controllo è disponibile solo se l&#39;attività in entrata genera una tabella temporanea.
 
 La sezione Colonne **** in entrata consente all&#39;utente di aggiungere qualsiasi campo dalla tabella di transizione in entrata. Le colonne selezionate saranno le chiavi nell&#39;oggetto dati. L&#39;oggetto dati nel JSON sarà un elenco di array contenente i dati per le colonne selezionate da ogni riga della tabella di transizione in entrata.
 
@@ -76,17 +102,26 @@ Questa scheda consente di definire la struttura **** JSON di esempio restituita 
 
 ![](assets/externalAPI-outbound.png)
 
-Il pattern di struttura JSON è: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+Il parser JSON è progettato per contenere i tipi di pattern di struttura JSON standard, con alcune eccezioni. Un esempio di pattern standard è:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 La definizione JSON di esempio deve avere le **seguenti caratteristiche**:
 
-* **data** è un nome di proprietà obbligatorio nel JSON, il contenuto di &quot;data&quot; è un array JSON.
 * **Gli elementi** array devono contenere proprietà di primo livello (i livelli più profondi non sono supportati).
-   **I nomi** delle proprietà finirebbero per diventare nomi di colonna per lo schema di output della tabella temporanea di output.
+   **I nomi** delle proprietà finiranno per diventare nomi di colonna per lo schema di output della tabella temporanea di output.
+* **Gli elementi** JSON da acquisire devono essere a 10 o meno livelli di nidificazione nella risposta JSON.
 * **La definizione del nome** della colonna è basata sul primo elemento dell&#39;array &quot;data&quot;.
 La definizione delle colonne (aggiungere/rimuovere) e il valore del tipo della proprietà possono essere modificati nella scheda Definizione **** colonna.
 
-Se l&#39; **analisi viene convalidata** , viene visualizzato un messaggio e si invita a personalizzare la mappatura dei dati nella scheda &quot;Definizione colonna&quot;. In altri casi, viene visualizzato un messaggio di errore.
+**Comportamento della casella** di controllo Appiattito:
+
+Casella di controllo Appiattito (impostazione predefinita: non selezionato) indica se appiattire o meno il JSON su una mappa chiave/valore.
+
+* Quando la **casella di controllo è disattivata** (non selezionata), il JSON di esempio viene analizzato per cercare un oggetto matrice. L&#39;utente dovrà fornire una versione rifilata del formato JSON di esempio di risposta API in modo che Adobe Campaign possa determinare esattamente quale array gli utenti sono interessati a utilizzare. Al momento dell&#39;authoring del flusso di lavoro, il percorso dell&#39;oggetto array nidificato verrà determinato e registrato, in modo che possa essere utilizzato in fase di esecuzione per accedere all&#39;oggetto array dal corpo di risposta JSON ricevuto dalla chiamata API.
+
+* Quando la **casella di controllo è abilitata** (selezionata), il JSON di esempio verrà appiattito e tutte le proprietà specificate nel JSON di esempio fornito verranno utilizzate per creare colonne della tabella temporanea di output e visualizzate nella scheda Definizioni colonna. Se nel JSON di esempio è presente un oggetto array, anche tutti gli elementi di tali oggetti array verranno appiattiti.
+
+
+Se l&#39; **analisi viene convalidata**, viene visualizzato un messaggio che invita a personalizzare la mappatura dei dati nella scheda &quot;Definizione colonna&quot;. In altri casi, viene visualizzato un messaggio di errore.
 
 ### Esecuzione
 
@@ -111,7 +146,7 @@ La scheda Definizione **** colonna consente di specificare con precisione la str
 
 Ad esempio, è possibile modificare l&#39;etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) o anche specificare l&#39;elaborazione degli errori.
 
-Per ulteriori informazioni, vedere la sezione [Carica file](../../automating/using/load-file.md) .
+Per ulteriori informazioni, consultare la sezione [Carica file](../../automating/using/load-file.md) .
 
 ### Transizione
 
