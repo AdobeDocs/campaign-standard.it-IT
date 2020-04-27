@@ -1,7 +1,7 @@
 ---
 title: Flussi di lavoro tecnici
 description: I flussi di lavoro tecnici sono flussi di lavoro standard progettati per gestire i processi tecnici in background in Adobe Campaign, garantendo il corretto funzionamento della piattaforma.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -12,7 +12,7 @@ discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -50,7 +50,7 @@ I flussi di lavoro tecnici vengono utilizzati per gestire i processi tecnici e d
   <tr> 
    <td> <span class="uicontrol">Fatturazione</span><br /> </td> 
    <td> <span class="uicontrol">fatturazione</span><br /> </td> 
-   <td> Questo flusso di lavoro invia il rapporto sull'attività del sistema all'utente di fatturazione tramite e-mail. Per impostazione predefinita, viene avviato automaticamente ogni giorno alle 1 del mattino.<br /> </td> 
+   <td> Questo flusso di lavoro invia il rapporto sull'attività del sistema all'utente di fatturazione tramite e-mail. Per impostazione predefinita, viene avviato automaticamente ogni giorno alle 1.00.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Pulizia</span> del database <br /> </td> 
@@ -97,6 +97,12 @@ I flussi di lavoro tecnici vengono utilizzati per gestire i processi tecnici e d
    <td> <span class="uicontrol">kpiSharing</span><br /> </td> 
    <td> Questo flusso di lavoro invia i dati KPI ogni 15 minuti da Adobe Campaign Standard ad Adobe Analytics.<br /> </td> 
   </tr> 
+    </tr> 
+   <tr> 
+   <td> <span class="uicontrol">Sincronizza con Launch</span><br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
+   <td> Questo flusso di lavoro sincronizza le proprietà dei dispositivi mobili Adobe Launch importate in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Aggiornamento dell'esecuzione</span> del recapito <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span><br /> </td> 
@@ -110,7 +116,7 @@ I flussi di lavoro tecnici vengono utilizzati per gestire i processi tecnici e d
   <tr> 
    <td> <span class="uicontrol">Aggiorna stato</span> evento <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span><br /> </td> 
-   <td> Questo flusso di lavoro consente di attribuire uno stato a un evento. <br /> Sono disponibili i seguenti stati dell'evento: <strong>In sospeso</strong>: L'evento è in coda. Non è ancora stato assegnato alcun modello di messaggio.<br /> Consegna <span class="uicontrol">in sospeso</span> : L'evento è nella coda, gli è stato assegnato un modello di messaggio e viene elaborato dal recapito.<br /> <strong>Inviato</strong>: Questo stato viene copiato dai registri di consegna. Significa che la consegna è stata inviata.<br /> <strong>Ignorato dalla consegna</strong>: Questo stato viene copiato dai registri di consegna. Significa che la consegna è stata ignorata.<br /> <strong>Consegna non riuscita</strong>: Questo stato viene copiato dai registri di consegna. Significa che la consegna non è riuscita.<br /> <span class="uicontrol">Evento non preso in considerazione</span> : Impossibile collegare l'evento a un modello di messaggio. L'evento non verrà elaborato.<br /> </td> 
+   <td> Questo flusso di lavoro consente di attribuire uno stato a un evento. Sono disponibili i seguenti stati dell'evento:<br /> <strong>In sospeso</strong>: L'evento è in coda. Non è ancora stato assegnato alcun modello di messaggio.<br /> Consegna <span class="uicontrol">in sospeso</span> : L'evento è nella coda, gli è stato assegnato un modello di messaggio e viene elaborato dal recapito.<br /> <strong>Inviato</strong>: Questo stato viene copiato dai registri di consegna. Significa che la consegna è stata inviata.<br /> <strong>Ignorato dalla consegna</strong>: Questo stato viene copiato dai registri di consegna. Significa che la consegna è stata ignorata.<br /> <strong>Consegna non riuscita</strong>: Questo stato viene copiato dai registri di consegna. Significa che la consegna non è riuscita.<br /> <span class="uicontrol">Evento non preso in considerazione</span> : Impossibile collegare l'evento a un modello di messaggio. L'evento non verrà elaborato.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Aggiornamento per recapito</span><br /> </td> 
