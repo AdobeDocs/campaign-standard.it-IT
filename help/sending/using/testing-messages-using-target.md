@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ Per utilizzare i profili di destinazione per il test, è innanzitutto necessario
 
    Se si desidera aggiungere un prefisso specifico alla riga dell&#39;oggetto delle prove, compilare il **[!UICONTROL Subject line prefix]** campo.
 
+   >[!NOTE]
+   >
+   >Il prefisso della riga dell&#39;oggetto può contenere fino a 500 caratteri.
+
    ![](assets/substitution_address.png)
 
    Il prefisso verrà visualizzato come segue:
@@ -116,6 +120,10 @@ Per importare profili da utilizzare per il test da un&#39;audience, attenetevi a
    ![](assets/substitution_audience_import.png)
 
 1. Selezionate il pubblico da utilizzare, quindi immettete l&#39;indirizzo di sostituzione e il prefisso da utilizzare per le prove di stampa inviate al pubblico.
+
+   >[!NOTE]
+   >
+   >Il prefisso della riga dell&#39;oggetto può contenere fino a 500 caratteri.
 
    ![](assets/substitution_audience_define.png)
 
