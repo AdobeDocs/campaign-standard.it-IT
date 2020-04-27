@@ -12,14 +12,14 @@ discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
 
 # Modelli per messaggi multilingue {#multilingual-messages-template}
 
-Un modello multilingue è un modello specifico per la gestione dei messaggi multilingue. Questo tipo di modello è disponibile per ****Email** e messaggi **** SMS e può essere utilizzato in modalità standalone, all&#39;interno di un flusso di lavoro o in una consegna periodica.
+Un modello multilingue è un modello specifico per la gestione dei messaggi multilingue. Questo tipo di modello è disponibile per i messaggi **e-mail** e **SMS** e può essere utilizzato in modalità standalone, all&#39;interno di un flusso di lavoro o in una consegna periodica.
 
 Nei modelli delle funzioni multilingue, la gestione della lingua è basata sulle varianti. **Ogni variante rappresenta una lingua**. Adobe Campaign Standard è in grado di impostare un massimo di 40 varianti.
 
@@ -35,14 +35,14 @@ Per creare un modello SMS o e-mail, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Potete anche modificare un modello standard esistente in un modello multilingue facendo clic sul **[!UICONTROL Initialize content variant]**pulsante nelle proprietà del modello.
+   >Potete anche modificare un modello standard esistente in un modello multilingue facendo clic sul **[!UICONTROL Initialize content variant]** pulsante nelle proprietà del modello.
 
-1. Modificate le proprietà per personalizzare l’etichetta, il tracciamento, ecc.
+1. Modificate le proprietà per personalizzare l’etichetta, il tracciamento e così via.
 1. Modificate il numero di varianti desiderate facendo clic sulla sezione delle varianti. Viene visualizzata la finestra delle varianti
 
    ![](assets/multi_template_variants.png)
 
-   È possibile aggiungere o rimuovere varianti. Per aggiungere una variante, completare la **[!UICONTROL New content variant]**finestra.
+   È possibile aggiungere o rimuovere varianti. Per aggiungere una variante, completare la **[!UICONTROL New content variant]** finestra.
 
    ![](assets/multi_template_newvariant.png)
 
