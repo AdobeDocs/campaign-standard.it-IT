@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -26,18 +26,18 @@ Adobe Campaign viene fornito con un modello dati predefinito. Questo modello di 
 >
 >La creazione e la modifica di risorse sono operazioni sensibili che devono essere eseguite solo da utenti esperti.
 
-Il menu **[!UICONTROL Administration]**>, accessibile tramite il logo Adobe Campaign, consente di gestire le risorse**[!UICONTROL Development]** **personalizzate,** pubblicarle **e** accedere agli strumenti **** diagnostici.
+Il menu **[!UICONTROL Administration]** >, accessibile tramite il logo Adobe Campaign, consente di gestire le risorse **[!UICONTROL Development]** **personalizzate,** pubblicarle **e** accedere agli strumenti **** diagnostici.
 
 I dati utilizzati da Adobe Campaign sono definiti tramite risorse diverse. È possibile **arricchire il modello** di dati fornito creando risorse personalizzate, ad esempio tabelle di acquisto o di prodotti.
 
-Le risorse pronte all&#39;uso (come campagne, e-mail o audience) non possono essere modificate. Tuttavia, è possibile estendere le risorse personalizzate per aggiungere nuovi campi.
+Le risorse incorporate (come campagne, e-mail o audience) non possono essere modificate. Tuttavia, è possibile estendere le risorse personalizzate per aggiungere nuovi campi.
 
-I campi di estensione vengono generati con un prefisso in modo che non entrino mai in conflitto con i campi forniti.
+I campi di estensione vengono generati con un prefisso in modo che non entrino mai in conflitto con i campi incorporati.
 
 >[!NOTE]
 >
->Puoi trovare una rappresentazione del modello di dati per le risorse pronte all’uso [qui](../../developing/using/datamodel-introduction.md).
+>Potete trovare una rappresentazione del modello di dati per le risorse incorporate in [questa pagina](../../developing/using/datamodel-introduction.md).
 
-Potete anche **configurare la navigazione** nelle schermate corrispondenti alla risorsa creata.
+Potete anche [configurare la navigazione](configuring-the-screen-definition.md) nelle schermate corrispondenti alla risorsa creata.
 
 È possibile **esportare e importare** risorse personalizzate, ad esempio da uno sviluppo a un ambiente di produzione. Per ulteriori informazioni, consulta questo caso [di utilizzo](../../automating/using/exporting-importing-custom-resources.md)passo.
