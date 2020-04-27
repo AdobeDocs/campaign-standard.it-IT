@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -42,21 +42,21 @@ I passaggi principali per creare una regola di tipologia sono i seguenti:
 
 1. Accedere al **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** menu, quindi fare clic **[!UICONTROL Create]**.
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. Immettere la tipologia **[!UICONTROL Label]**, quindi specificare **[!UICONTROL Channel]** a quale regola applicare.
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. Specificate la regola di tipologia **[!UICONTROL Type]**, quindi configuratela in base alle vostre esigenze. La configurazione delle regole di tipologia varia a seconda del tipo. Per ulteriori informazioni, consultare le sezioni **[Regole](../../sending/using/filtering-rules.md)**di filtraggio e Regole**[ di](../../sending/using/fatigue-rules.md)** Fatigue.
 
 1. Selezionare le tipologie in cui si desidera includere la nuova regola. A questo scopo, selezionate la **[!UICONTROL Typologies]** scheda, quindi fate clic sul **[!UICONTROL Create element]** pulsante.
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. Selezionate la tipologia desiderata, quindi fate clic **[!UICONTROL Confirm]**.
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. Dopo aver selezionato tutte le tipologie, fare clic **[!UICONTROL Create]** per confermare la creazione della regola di tipologia.
 
@@ -69,7 +69,7 @@ In modalità operativa standard, le regole vengono applicate nella sequenza segu
 1. Regole di controllo, se applicate all&#39;inizio del targeting.
 1. Regole di filtro:
 
-   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo non verificato / indirizzo inserito in una lista nera / indirizzo messo in quarantena / qualità indirizzo.
+   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo non verificato / indirizzo inserito in lista nera / indirizzo in quarantena / qualità indirizzo non verificato.
    * Regole di filtro definite dall&#39;utente.
 
 1. Regole di controllo, se applicate alla fine del targeting.
