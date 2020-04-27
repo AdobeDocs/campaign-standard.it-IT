@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -25,19 +25,19 @@ Campaign viene fornito con un set di modelli di pagina di destinazione incorpora
 * **[!UICONTROL Acquisition]**: questo è il modello predefinito per le pagine di destinazione, che consente di acquisire e aggiornare i dati nel database Campaign.
 * **[!UICONTROL Subscription]**: questo modello deve essere utilizzato per offrire iscrizioni a un servizio.
 * **[!UICONTROL Unsubscription]**: questo modello può essere collegato da un’e-mail inviata agli abbonati a un servizio per consentire loro di annullare l’iscrizione a questo servizio.
-* **[!UICONTROL Blacklist]**: questo modello deve essere utilizzato quando un profilo non vuole più essere contattato da Campaign. Per ulteriori informazioni sull'inserimento in blacklist, consultate [Informazioni sull'opt-in e l'opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Blacklist]**: questo modello deve essere utilizzato quando un profilo non vuole più essere contattato da Campaign. Per ulteriori informazioni sull&#39;inserimento in blacklist, consultate [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Questi modelli sono proposti per impostazione predefinita quando si crea una nuova pagina di destinazione.
 
 ![](assets/lp_creation_1.png)
 
-Per accedere ai modelli della pagina di destinazione, fai clic sul logo Adobe Campaign in alto a sinistra e seleziona **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**.
+Per accedere ai modelli della pagina di destinazione, fai clic sul logo Adobe Campaign in alto a sinistra e seleziona **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
 
 >[!NOTE]
 >
 >Adobe consiglia di creare modelli personalizzati duplicando un modello incorporato. Alcuni parametri possono essere impostati solo nei modelli delle pagine di destinazione e non possono essere modificati direttamente nelle pagine di destinazione.
 
-Durante la creazione di un modello, si consiglia di aggiungere un attributo **'type'** ai tag. Queste informazioni verranno elaborate dall'editor e aiuteranno l'utente a collegare un campo di database al campo del modulo durante la configurazione dell'applicazione Web.
+Durante la creazione di un modello, si consiglia di aggiungere un attributo **&#39;type&#39;** ai tag. Queste informazioni verranno elaborate dall&#39;editor e aiuteranno l&#39;utente a collegare un campo di database al campo del modulo durante la configurazione dell&#39;applicazione Web.
 
 Esempio di codice HTML nel modello:
 
@@ -45,4 +45,4 @@ Esempio di codice HTML nel modello:
 <input id="email" type="email" name="email"/>
 ```
 
-L'elenco ufficiale degli attributi 'type' è disponibile al seguente indirizzo: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
+L&#39;elenco ufficiale degli attributi &#39;type&#39; è disponibile al seguente indirizzo: [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
