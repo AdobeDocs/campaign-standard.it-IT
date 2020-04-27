@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -27,7 +27,7 @@ Questo documento delinea le raccomandazioni chiave durante la progettazione del 
 >
 >Per creare e modificare le risorse al fine di estendere il modello dati predefinito di Adobe Campaign, consulta [questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
 >
->Puoi trovare una rappresentazione modello dati delle risorse pronte all’uso [qui](../../developing/using/datamodel-introduction.md).
+>È possibile trovare una rappresentazione modello dati delle risorse integrate in [questa pagina](../../developing/using/datamodel-introduction.md).
 
 ## Panoramica {#overview}
 
