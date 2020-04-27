@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # Configurazione del canale e-mail{#configuring-email-channel}
 
-In qualità di [amministratore](../../administration/using/about-administrating-adobe-campaign.md)di Campaign, puoi configurare le impostazioni dei canali e-mail. Queste impostazioni avanzate includono parametri generali del canale e-mail, account di routing e-mail, regole di elaborazione e-mail e proprietà e-mail. In questa pagina verrà illustrato come modificare i valori predefiniti per l&#39;e-mail generale e i parametri di invio.
+In qualità di [amministratore](../../administration/using/users-management.md#functional-administrators)di Campaign, puoi configurare le impostazioni dei canali e-mail. Queste impostazioni avanzate includono parametri generali del canale e-mail, account di routing e-mail, regole di elaborazione e-mail e proprietà e-mail. In questa pagina verrà illustrato come modificare i valori predefiniti per l&#39;e-mail generale e i parametri di invio.
 
 Tenete presente che alcune impostazioni e-mail ora sono gestite dall&#39;MTA avanzato di Adobe Campaign. Pertanto:
 * Alcune configurazioni nell&#39;interfaccia utente di Campaign non sono più applicate:
@@ -273,7 +273,7 @@ La preparazione dei messaggi è dettagliata nella sezione [Approvare i messaggi]
 
    >[!NOTE]
    >
-   >Le tipologie, a cui è possibile accedere tramite il **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, sono presentate nella sezione [Tipologie](../../sending/using/about-typology-rules.md) .
+   >Le tipologie, accessibili tramite il menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , sono presentate in [questa sezione](../../sending/using/about-typology-rules.md).
 
 * **[!UICONTROL Compute the label during delivery preparation]**: consente di calcolare il valore dell’etichetta dell’e-mail durante la fase di preparazione dei messaggi utilizzando campi di personalizzazione, blocchi di contenuto e testo dinamico.
 
