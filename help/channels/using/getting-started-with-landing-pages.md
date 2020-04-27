@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c71c207d724dac914935b3667527a3ce4403dd63
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c71c207d724dac914935b3667527a3ce4403dd63
 
 Campaign viene fornito con pagine di destinazione, moduli Web che possono essere utilizzati per acquisire informazioni sui tipi di pubblico, offrire iscrizioni a un servizio, visualizzare i dati e ampliare il database. Le pagine di destinazione possono essere utilizzate anche per acquisire o aggiornare i profili esistenti.
 
-Le pagine di destinazione possono essere utilizzate anche per impostare un meccanismo di doppio consenso, consentendo di proteggere la piattaforma da indirizzi e-mail o spambots errati o non validi. Per ulteriori informazioni, consulta il caso [di utilizzo](../../channels/using/setting-up-a-double-opt-in-process.md)dedicato.
+Le pagine di destinazione possono essere utilizzate anche per impostare un meccanismo di doppio consenso, che consente di proteggere la piattaforma da indirizzi e-mail o spambots errati o non validi. Per ulteriori informazioni, consulta il caso [d’uso](../../channels/using/setting-up-a-double-opt-in-process.md)dedicato.
 
 I passaggi principali per impostare le pagine di destinazione sono i seguenti:
 
@@ -40,11 +40,11 @@ In questa pagina troverete informazioni su ciascuno di questi passaggi, oltre a 
 
 ## Limitazioni per la pagina di destinazione{#landing-page-limitations}
 
-La sezione seguente elenca i limiti di cui dovreste essere consapevoli prima di iniziare a impostare le pagine di destinazione.
+La sezione seguente elenca i limiti di cui dovreste essere a conoscenza prima di iniziare a impostare le pagine di destinazione.
 
 **Scrittura e aggiornamento dei dati**
 
-* Le pagine di destinazione sono limitate solo a **[!UICONTROL Profile]** **[!UICONTROL Subscription]** risorse e risorse. La registrazione può essere salvata e aggiornata da **[!UICONTROL Profile]** e da una sottoscrizione o annullamento della sottoscrizione a un **[!UICONTROL Service]**.
+* Le pagine di destinazione sono limitate solo a **[!UICONTROL Profile]** risorse e risorse **[!UICONTROL Subscription]** . La registrazione può essere salvata e aggiornata da **[!UICONTROL Profile]** e da una sottoscrizione o annullamento della sottoscrizione a un **[!UICONTROL Service]**.
 Per ulteriori informazioni sulla configurazione delle risorse, vedere [Configurazione della struttura](../../developing/using/configuring-the-resource-s-data-structure.md)dati della risorsa.
 
 >[!CAUTION]
@@ -53,7 +53,7 @@ Per ulteriori informazioni sulla configurazione delle risorse, vedere [Configura
 
 **Precaricamento**
 
-* La pagina di destinazione non può visualizzare automaticamente un elenco di record, non può elencare i servizi a cui sono già stati sottoscritti profili. Per ulteriori informazioni sui servizi, consultare questa [pagina](../../audiences/using/creating-a-service.md).
+* La pagina di destinazione non può visualizzare automaticamente un elenco di record, non può elencare i servizi a cui sono già stati sottoscritti profili. Per ulteriori informazioni sui servizi, fare riferimento a questa [pagina](../../audiences/using/creating-a-service.md).
 
 * La pagina di destinazione con un modulo precompilato (i dati vengono precaricati con la pagina) è accessibile solo da un&#39;e-mail di Adobe Campaign. Non è possibile accedere a tale modulo da una pagina Web.
 
@@ -130,7 +130,7 @@ Per ulteriori informazioni su come testare una pagina di destinazione, consulta 
 
 ## Passaggio 5 - Pubblicare la pagina di destinazione {#publish-the-landing-page}
 
-Una volta completati i test, potete pubblicare la pagina di destinazione utilizzando il **[!UICONTROL Publish]** pulsante della barra delle azioni nel dashboard. Un blocco di monitoraggio mostra l’avanzamento e lo stato della pubblicazione.
+Una volta che i test hanno esito positivo, potete pubblicare la pagina di destinazione utilizzando il **[!UICONTROL Publish]** pulsante presente nella barra delle azioni del dashboard. Un blocco di monitoraggio mostra l’avanzamento e lo stato della pubblicazione.
 
 Quando si pubblica una pagina di destinazione, questa diventa accessibile online. Dopo la pubblicazione, potete sempre aggiornarla: a questo scopo, è necessario ripubblicarlo dopo ogni modifica. Potete inoltre annullare la pubblicazione di una pagina di destinazione in qualsiasi momento in modo che non sia più disponibile.
 
