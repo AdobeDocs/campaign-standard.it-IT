@@ -11,19 +11,29 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51a3faaf839a678aeb99c533f0f67f103c7913d6
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
-# Introduzione al modello dati{#data-model-introduction}
+# Descrizione del modello dati{#data-model-introduction}
 
 Adobe Campaign viene fornito con un modello dati predefinito.
 
-Il modello di dati di Adobe Campaign Standard visualizza la struttura SQL predefinita per un insieme di risorse correlate al marketing.
+Il modello dati di Adobe Campaign Standard visualizza la struttura SQL integrata per un insieme di risorse correlate al marketing.
 
-Questo contenuto è destinato ai servizi di consulenza o agli sviluppatori.
+Questa sezione è destinata agli esperti o agli sviluppatori di Campaign.
 
-Per ogni risorsa, in una tabella sono elencati i campi SQL con caratteristiche disponibili quali nome interno, tipo e dettagli di enumerazione. Una seconda parte introduce i filtri out-of-the-box associati alla risorsa. Ogni filtro viene fornito con il relativo elenco di parametri.
+Per ogni risorsa, nelle sottopagine è disponibile una tabella in cui sono elencati i campi SQL con le caratteristiche disponibili, ad esempio: nome interno, tipo e dettagli di enumerazione. Vengono elencati anche i filtri predefiniti associati alla risorsa. Ogni filtro viene fornito con il relativo elenco di parametri.
 
-Questo modello di dati può essere modificato dagli [amministratori](../../administration/using/users-management.md#functional-administrators) che possono aggiungere nuove risorse o estensioni alle risorse esistenti.
+>[!NOTE]
+>Il modello dati della campagna può essere modificato solo dagli [amministratori](../../administration/using/users-management.md#functional-administrators) .
+
+## Argomenti correlati{#data-model-related}
+
+| Pagine utili | Risorse aggiuntive |
+|---|---|
+| [Guida introduttiva al modello dati](data-model-concepts.md) | [Estendi la risorsa del profilo](extending-the-profile-resource-with-a-new-field.md) |
+| [Best practice per i modelli di dati](data-model-best-practices.md) | [Estendi la risorsa di iscrizione](extending-the-subscriptions-to-an-application-resource.md) |
+| [Aggiungere una nuova risorsa](key-steps-to-add-a-resource.md) | [Estendi l&#39;API del profilo](about-extending-the-api.md) |
+| [Creazione o estensione di una risorsa](creating-or-extending-the-resource.md) | [Chiamare una risorsa con una chiave composita](uc-calling-resource-id-key.md) |
