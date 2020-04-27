@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,37 +35,38 @@ Adobe Campaign Standard è compatibile con Adobe Experience Manager 6.1, 6.2, 6.
 
    Poiché i modelli e-mail sono modificabili in Adobe Experience Manager, la modifica di qualsiasi modello in Adobe Experience Manager potrebbe risultare più semplice. Ma alcuni modelli non sono facilmente adattabili. Per questa integrazione non sono consigliati modelli personalizzati specifici per un cliente, che devono essere modificati direttamente in Adobe Campaign Standard.
 
-   Per ulteriori informazioni sui modelli, consultare questa [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
+   Per ulteriori informazioni sui modelli, fare riferimento a questa [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html).
 
 * **Accertatevi che Externalizer sia stato configurato durante l&#39;implementazione**
 
    La configurazione dell&#39;Externalizer durante l&#39;implementazione di Experience Manager per Adobe Campaign Standard consente di trasformare un percorso di risorsa in un URL. Questo consente di rendere le immagini visibili sulla pagina. Se l&#39;Externalizer non è configurato correttamente, i messaggi e-mail conterranno immagini interrotte.
 
-   Per informazioni su come configurare l&#39;Externalizer, consulta questa [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html)
+   Per informazioni su come configurare l&#39;Externalizer, consulta questa [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html).
 
 * **Organizzate i modelli delle e-mail per evitare abusi.**
 
-   Mantenendo i modelli organizzati, è possibile che i modelli appropriati si trovino nelle cartelle appropriate e che non vengano selezionati per errore quelli sbagliati. Durante l&#39;implementazione, è necessario creare percorsi per salvare i modelli nei luoghi giusti.
+   Mantenendo i modelli organizzati, è possibile che i modelli appropriati si trovino nelle cartelle appropriate e che non si scelgano quelli sbagliati per errore. Durante l&#39;implementazione, è necessario creare percorsi per salvare i modelli nei luoghi giusti.
 
-   Per ulteriori informazioni sui modelli, consulta questa [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability)
+   Per ulteriori informazioni sui modelli, fare riferimento a questa [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability).
 
 * **Introduzione rapida ai componenti forniti.**
 
    I componenti forniti in Adobe Experience Manager per Adobe Campaign Standard possono aiutarti a iniziare rapidamente se i modelli non sono complessi.
-In Experience Manager sono disponibili sette componenti out-of-the-box che puoi utilizzare:
-   1. Intestazione
-   1. Immagine
-   1. Collegamento
-   1. Modello immagini Scene7
-   1. Riferimento mirato
-   1. Testo e immagine
-   1. Testo e personalizzazione
+In Experience Manager sono disponibili sette componenti out-of-the-box che puoi iniziare a usare:
 
-* **HTML for email è diverso da HTML per Web**
+   * Intestazione
+   * Immagine
+   * Collegamento
+   * Modello immagini Scene7
+   * Riferimento mirato
+   * Testo e immagine
+   * Testo e personalizzazione
+
+* **L’HTML per le e-mail è diverso da HTML per il Web**
 
    È importante comprendere che non è possibile utilizzare gli stessi componenti utilizzati nel contenuto Web per i modelli di e-mail. L’utilizzo di componenti predefiniti assicura che i componenti siano compatibili con le e-mail.
 
-* **Scollegare i contenuti dai modelli e riutilizzarli ripetutamente.**
+* **Scollegare i contenuti dai modelli e riutilizzarli più e più volte.**
 
    Quando configurate le e-mail in Campaign Standard e selezionate un modello Experience Manager, potete scegliere solo uno che non sia già stato collegato a un&#39;altra campagna. In caso contrario, se modificate il contenuto in Adobe Experience Manager per una campagna e lo aggiornate, potete avere un impatto involontario sul contenuto dell&#39;altra campagna.
 Per evitare questo problema, una volta completato l’utilizzo del modello, potete scollegarlo per riutilizzarlo. È sufficiente selezionare il modello e fare clic **[!UICONTROL Delete the link with Adobe Experience Manager content]**.
