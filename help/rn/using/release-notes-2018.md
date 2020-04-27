@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 ---
 
@@ -108,7 +108,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
   </tr> 
   <tr> 
    <td> Filtro della tipologia per gli abbonati alle app mobili<br /> </td> 
-   <td> Iscrizioni di supporto nel filtro della tipologia: quando si specificano i criteri di filtro per una regola di tipologia, le sottoscrizioni di applicazione possono essere selezionate come dimensioni di filtraggio e targeting, fornendo la possibilità di filtrare gli attributi per gli utenti con o senza un profilo. <br /> Per ulteriori informazioni, consulta la documentazione <a href="../../sending/using/about-typology-rules.md#typology-rules"></a>dettagliata.<br /> </td> 
+   <td> Iscrizioni di supporto nel filtro della tipologia: quando si specificano i criteri di filtro per una regola di tipologia, le sottoscrizioni di applicazione possono essere selezionate come dimensioni di filtraggio e targeting, fornendo la possibilità di filtrare gli attributi per gli utenti con o senza un profilo. <br /> Per ulteriori informazioni, consulta la documentazione <a href="../../sending/using/about-typology-rules.md"></a>dettagliata.<br /> </td> 
   </tr> 
   <tr> 
    <td> Importazione automatizzata dei contenuti da un URL durante la preparazione dei messaggi<br /> </td> 
