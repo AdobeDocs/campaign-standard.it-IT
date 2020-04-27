@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -60,7 +60,7 @@ Per creare una regola di tipo filtro, effettuate le seguenti operazioni:
 
 1. Selezionate il tipo di **[!UICONTROL Filtering]** regola, quindi specificate il canale desiderato.
 
-1. Nella scheda Criteri **[!UICONTROdi filtro]** sL, selezionate le iscrizioni nella **[!UICONTROL Subscription]** categoria.
+1. Nella **[!UICONTROL Filtering criteria]** scheda, selezionate le iscrizioni nella **[!UICONTROL Subscription]** categoria.
 
    ![](assets/typology_create-rule-subscription.png)
 
