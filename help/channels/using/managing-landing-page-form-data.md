@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 8c24e048c698f7ad699e83a753c114fcfd25f6a0
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 * La zona di input **Campo** consente di selezionare un campo di database da collegare al campo del modulo.
 * L’opzione **Obbligatorio** consente di autorizzare l’invio della pagina solo se l’utente ha compilato il campo. Se non viene compilato un campo obbligatorio, verrà visualizzato un messaggio di errore.
 
-## Mapping dei campi modulo {#mapping-form-fields}
+## Mappatura dei campi modulo {#mapping-form-fields}
 
 I campi di input vengono utilizzati per memorizzare o aggiornare i dati nel database Campaign. A tal fine, è necessario collegare i campi del database con aree di input, pulsanti di scelta o blocchi di tipo casella di controllo. Per eseguire questa operazione:
 
@@ -38,15 +38,12 @@ I campi di input vengono utilizzati per memorizzare o aggiornare i dati nel data
 
    ![](assets/editing_lp_content_4.png)
 
-1. Scegliere un campo di database da collegare al campo modulo nella zona di **[!UICONTROL Field]** selezione.
+1. Scegliere un campo di database da collegare al campo modulo nella zona di **[!UICONTROL Field]** selezione. Le pagine di destinazione possono essere mappate solo con **Profili**.
 
-   Quando l’ **[!UICONTROL Mandatory]** opzione è selezionata, la pagina può essere inviata solo se l’utente ha completato il campo. Se un campo obbligatorio non è completato, quando l'utente convalida la pagina viene visualizzato un messaggio di errore.
+1. Se necessario, selezionate l’ **[!UICONTROL Mandatory]** opzione. La pagina può essere inviata solo se l’utente ha completato questo campo. Se un campo obbligatorio non è completato, quando l&#39;utente convalida la pagina viene visualizzato un messaggio di errore.
 
-   >[!NOTE]
-   >
-   >Le pagine di destinazione possono essere mappate solo con **Profili**.
-
-1. Definire il tipo di campo scegliendo, ad esempio **[!UICONTROL Text]**, **[!UICONTROL Number]** o **[!UICONTROL Date]** nell'area di **[!UICONTROL HTML type of the field]** selezione.
+1. Definire il tipo di campo scegliendo, ad esempio **[!UICONTROL Text]**, **[!UICONTROL Number]** o **[!UICONTROL Date]** nell&#39;area di **[!UICONTROL HTML type of the field]** selezione.
+Se scegliete un&#39;opzione obbligatoria **[!UICONTROL Checkbox]**, accertatevi che sia di **[!UICONTROL Field]** tipo.
 
 >[!NOTE]
 >
@@ -64,4 +61,4 @@ Per eseguire questa operazione:
 
 1. Selezionate **[!UICONTROL Reconciliation key]**: questi campi del database (ad esempio: e-mail, nome e cognome) vengono utilizzati per determinare se il visitatore ha un profilo già noto nel database di Adobe Campaign. Questo consente di aggiornare o creare un profilo, in base ai parametri della strategia di aggiornamento definiti.
 1. Definite il **[!UICONTROL Form parameter mapping]**: questa sezione consente di mappare i parametri dei campi della pagina di destinazione e quelli utilizzati nella chiave di riconciliazione.
-1. Selezionate **[!UICONTROL Update strategy]**: se la chiave di riconciliazione recupera un profilo di database esistente, è possibile scegliere di aggiornarlo con i dati immessi nel modulo oppure impedire l'aggiornamento.
+1. Selezionate **[!UICONTROL Update strategy]**: se la chiave di riconciliazione recupera un profilo di database esistente, è possibile scegliere di aggiornarlo con i dati immessi nel modulo oppure impedire l&#39;aggiornamento.
