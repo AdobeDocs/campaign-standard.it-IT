@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -139,7 +139,7 @@ Per diversi casi di utilizzo si consiglia la frequenza seguente:
 >
 >Per impostazione predefinita, gli eventi di marketing SEND vengono filtrati fuori dal processo di uscita.  Se desideri visualizzare gli eventi di marketing SEND in Dynamics 365, devi modificare il filtro (passaggio 5) del processo di uscita in Unifi.
 
-Unifi dispone di due ruoli separati, un utente proprietario e un utente di analisi di sola lettura. Un utente proprietario ha la capacità di modificare processi e pianificazioni, mentre l&#39;analista di sola lettura non lo è.  Per una determinata istanza di cliente può essere presente un solo utente proprietario.  Se il cliente deve cambiare il singolo assegnato come utente proprietario, può inviare un messaggio a [adobe-support@unifisoftware.com](mailto: adobe-support@unifisoftware.com) con la modifica richiesta.
+Unifi dispone di due ruoli separati, un utente proprietario e un utente di analisi di sola lettura. Un utente proprietario ha la capacità di modificare processi e pianificazioni, mentre l&#39;analista di sola lettura non lo è.  Per una determinata istanza di cliente può essere presente un solo utente proprietario.  Se il cliente deve cambiare il singolo assegnato come utente proprietario, può inviare un messaggio e-mail a [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) con la modifica richiesta.
 
 La configurazione, i dettagli del processo, la configurazione e il monitoraggio di Unifi sono presentati nei video seguenti.
 
