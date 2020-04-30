@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ I video dimostrativi sono disponibili anche in [questa pagina](https://docs.adob
 
 * Il trasferimento out-of-the-box degli eventi di iscrizione non è supportato. Per trasferire gli eventi di iscrizione, puoi creare XDM e dataset corrispondenti in Adobe Experience Platform, quindi configurare una mappatura dati personalizzata per questi dati.
 
-* Per quanto riguarda le richieste di privacy, i clienti devono effettuare richieste separate per il servizio di privacy di base di Campaign e per Adobe Experience Platform per poter accedere ed eliminare le azioni.
+* Per quanto riguarda le richieste di privacy (entrambe le azioni di accesso ed eliminazione), i clienti devono effettuare richieste separate: uno per Campaign tramite l&#39;integrazione del servizio di base sulla privacy (vedete [questa sezione](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)) e uno per Adobe Experience Platform tramite il suo servizio [](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)sulla privacy. Per ulteriori informazioni sulle richieste di accesso ed eliminazione, consultate [questa pagina](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess).
 
 * Per ciascun campo XDM, l&#39;etichettatura DULE deve essere realizzata in Adobe Experience Platform. Questa è responsabilità del cliente applicare etichette DULE.
 
