@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ Attività API esterna (GA) - [Leggi tutto](../../automating/using/external-api.m
 
 **Altri aggiornamenti della documentazione in arrivo con il rilascio**
 
-* Sono state aggiunte informazioni sul **[!UICONTROL History in days]** campo nelle proprietà dei flussi di lavoro, che ora include i file scaricati dall&#39; **[!UICONTROL Transfer file]** attività. [Leggi tutto](../../automating/using/executing-a-workflow.md)
+Sono state aggiunte informazioni sul **[!UICONTROL History in days]** campo nelle proprietà dei flussi di lavoro, che ora include i file scaricati dall&#39; **[!UICONTROL Transfer file]** attività. [Leggi tutto](../../automating/using/executing-a-workflow.md)
 
-* Nella sezione relativa alla sostituzione del profilo sono state aggiunte informazioni relative al limite di 500 caratteri del prefisso della riga oggetto. [Leggi tutto](../../sending/using/testing-messages-using-target.md)
+Nella sezione relativa alla sostituzione del profilo sono state aggiunte informazioni relative al limite di 500 caratteri del prefisso della riga oggetto. [Leggi tutto](../../sending/using/testing-messages-using-target.md)
+
+Alla documentazione di base è stata aggiunta una nuova sezione dedicata alla privacy e al consenso. [Leggi tutto](../../start/using/privacy.md)
+
+* È stato aggiunto un caso di utilizzo per consentire la conversione delle e-mail dell&#39;editor legacy in e-mail Designer. [Leggi tutto](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* È stata aggiunta una sezione per le domande frequenti su Designer e-mail. [Leggi tutto](../../designing/using/faq-email-designer.md)
 
 ## Aggiornamenti della documentazione - Aprile 2020 {#doc-updates-april-2020}
 
@@ -839,7 +845,7 @@ Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../
 
 Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
 
-Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro per segnali [](../../automating/using/external-signal.md) esterni.
+Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
