@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
 
-# Mappatura risorse personalizzate della campagna e entità personalizzate Dynamics 365
+# Mappatura delle risorse personalizzate di Campaign ed entità personalizzate di Dynamics 365
 
 Scopri come mappare risorse personalizzate ed entità personalizzate nel contesto dell&#39;integrazione tra Adobe Campaign Standard e Microsoft Dynamics 365.
 
@@ -59,15 +59,15 @@ Il cliente dispone di un veicolo entità personalizzato predefinito in Dynamics 
 
 Le entità personalizzate del cliente in Dynamics 365 possono essere visualizzate nel Pannello vendite facendo clic sul menu a discesa accanto a Dynamics 365.  Le entità personalizzate del cliente sono raggruppate in **[!UICONTROL Extensions]**.
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 I dati del veicolo possono essere visualizzati facendo clic sull&#39;entità **[!UICONTROL vehicle]** personalizzata.  Cfr. l&#39;elenco dei veicoli riportato di seguito.
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 La relazione dell&#39; **[!UICONTROL vehicle]** entità con l&#39; **[!UICONTROL Contact]** entità può essere visualizzata di seguito. **[!UICONTROL Parental]** è stato scelto per il **[!UICONTROL Type of Behavior]**.
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Configurazione in Campaign Standard
 
@@ -102,7 +102,7 @@ Campaign visualizzerà quindi le strutture dei dati e la pagina di collegamento.
 >
 >Ciascuna risorsa personalizzata deve avere un campo univoco con un ID di externalId (esattamente).  Questo campo viene associato al campo ID della risorsa personalizzata in Dynamics 365 (vedere di seguito).
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### Definire i tasti di identificazione
 
@@ -170,7 +170,7 @@ Fare clic **[!UICONTROL Publish]** e attendere il completamento.
 
 Presupponendo che il cliente abbia già popolato l&#39;entità personalizzata del veicolo in Dynamics 365 e che Unifi abbia impostato i propri processi di entità personalizzata del veicolo e i relativi programmi con, il cliente dovrebbe essere in grado di avviare il programma di ingresso per l&#39;entità veicolo.
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 Dopo il completamento del processo di ingresso, i dati del veicolo ora possono essere visualizzati nella risorsa personalizzata **[!UICONTROL Vehicle]** popolata di recente in Campaign.
 
