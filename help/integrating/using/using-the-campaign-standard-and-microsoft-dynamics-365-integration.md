@@ -1,5 +1,5 @@
 ---
-title: Utilizzo di Microsoft Dynamics 365 con integrazione di Campaign Standard
+title: Utilizzo dell'integrazione di Microsoft Dynamics 365
 description: Scopri come utilizzare Microsoft Dynamics 365 con integrazione Campaign Standard
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Utilizzo di Microsoft Dynamics 365 con integrazione di Campaign Standard
+# Utilizzo dell&#39;integrazione di Microsoft Dynamics 365
 
 Questa integrazione può eseguire diversi processi:
 
@@ -90,23 +90,23 @@ Per visualizzare la timeline di un contatto, accedi all&#39;elenco dei contatti 
 
 Di seguito è riportata un&#39;istantanea della schermata Contatti per &quot;Dynamics User&quot;.  Nella visualizzazione Timeline, noterete che all&#39;utente di Dynamics è stato inviato un messaggio e-mail associato con Nome campagna &quot;2019LoyaltyCamp&quot; e Nome consegna &quot;DM190&quot;.  Dynamics User ha aperto l&#39;e-mail e ha fatto clic su un URL nell&#39;e-mail; entrambe queste azioni hanno creato eventi che vengono visualizzati anche di seguito.  Se si guarda all&#39;angolo destro, viene visualizzata la scheda RA (Relationship Assistant); al momento, contiene un&#39;attività da seguire sull&#39;URL su cui è stato fatto clic.
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Vedere di seguito per una panoramica della visualizzazione Timeline per l&#39;utente di Dynamics.
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 Di seguito è riportato un primo piano della scheda Relationship Assistant (RA).  L&#39;app AppSource contiene un flusso di lavoro che controlla un evento Adobe Email URL Click.  Quando si verifica questo evento, crea un&#39;attività e imposta una data di scadenza.  Questo consente all&#39;attività di essere visualizzata nella scheda RA, conferendogli un&#39;ulteriore visibilità.  Esiste un flusso di lavoro simile per gli eventi di rimbalzo e-mail di Adobe, con l&#39;aggiunta di un&#39;attività per la quadratura dell&#39;indirizzo e-mail non valido.  Questi flussi di lavoro possono essere disattivati nella soluzione.
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 Se si fa clic sull&#39;oggetto dell&#39;evento di invio, verrà visualizzato un modulo simile a quello riportato di seguito.  I moduli per gli eventi open e bounce sono simili.
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 Il modulo per gli eventi click URL e-mail aggiunge un attributo aggiuntivo per l&#39;URL su cui è stato fatto clic:
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 Segue un elenco degli attributi e una descrizione:
 
