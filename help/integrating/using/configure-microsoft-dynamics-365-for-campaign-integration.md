@@ -1,5 +1,5 @@
 ---
-title: Configurare Microsoft Dynamics 365 per l'integrazione con Campaign
+title: Configurazione di Microsoft Dynamics 365 per l’integrazione con Campaign
 description: Scopri come configurare Microsoft Dynamics 365 per l'integrazione con Campaign.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
@@ -12,12 +12,12 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
 
-# Configurare Microsoft Dynamics 365 per l&#39;integrazione con Campaign
+# Configurazione di Microsoft Dynamics 365 per l’integrazione con Campaign
 
 Scopri come configurare l&#39;integrazione con Microsoft Dynamics 365 e attivare i dati CRM nelle comunicazioni tra canali con Adobe Campaign Standard.
 
@@ -57,7 +57,7 @@ Per generare il token di accesso OAuth, segui i passaggi descritti di seguito.
 
 1. Fate clic **[!UICONTROL New registration]** nella parte superiore dello schermo.
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Compilate la schermata di registrazione dell&#39;app:
 
@@ -74,7 +74,7 @@ Per ulteriori informazioni sulla creazione di una nuova applicazione, consultare
 
 1. Dalla schermata della panoramica dell&#39;app, nel sottomenu a sinistra, fai clic su **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Inserite una descrizione, impostate la durata e fate clic su **[!UICONTROL OK]**.
 
@@ -90,11 +90,11 @@ Per ulteriori informazioni sulla generazione di un segreto client, consultate qu
 
 1. Da questa schermata o dalla schermata della panoramica dell&#39;app, fate clic su **[!UICONTROL API permissions]** nel sottomenu a sinistra.  Dopo aver fatto clic **[!UICONTROL Add a permission]**, è necessario selezionare **[!UICONTROL Dynamics CRM]** il menu.
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. Quindi selezionate la casella per **[!UICONTROL user_impersonation]**, quindi fate clic sul **[!UICONTROL Add permissions]** pulsante.
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 Per ulteriori informazioni sulla configurazione delle autorizzazioni, consultate [questa sezione](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
 
@@ -138,7 +138,7 @@ Seguite le istruzioni riportate nel seguente collegamento per trovare l&#39;ID t
 Per integrare l&#39;app Dynamics 365 nell&#39;ambiente Campaign Standard, procedi come segue:
 
 1. Passa al seguente collegamento: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) e cerca _Adobe Campaign for Dynamics 365_ nella barra di ricerca.
-In alternativa, puoi accedere a questo [collegamento](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview).
+In alternativa, puoi accedere a questo [collegamento](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
 1. Seguite le istruzioni per installare l&#39;app per l&#39;istanza Dynamics 365.
 1. Una volta installato, accedi all&#39;istanza di Dynamics 365 ed effettua l&#39;accesso come amministratore.
 1. Fate clic sull&#39;icona dell&#39;ingranaggio nell&#39;angolo superiore destro e fate clic su **[!UICONTROL Advanced Settings]**. Nel banner superiore, fate clic sul menu a discesa accanto a **[!UICONTROL Settings]**, quindi fate clic su **[!UICONTROL Processes]** sotto **[!UICONTROL Process Center]**.
@@ -156,5 +156,5 @@ Al termine di questa configurazione, puoi configurare la configurazione Unifi. P
 **Argomenti correlati**
 
 * [Campaign Standard - Integrazione con Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Configurare l&#39;integrazione Adobe IO per Microsoft Dynamics 365](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
+* [Configurazione di Adobe IO per l’integrazione con Microsoft Dynamics 365](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
 * [Configurare Unifi per l&#39;integrazione di Campaign - Microsoft Dynamics 365](../../integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
