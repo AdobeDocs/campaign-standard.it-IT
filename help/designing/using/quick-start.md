@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 ---
 
@@ -22,14 +22,14 @@ Designer e-mail offre quattro modi per creare e-mail.
 
 È possibile creare un messaggio e-mail [che inizia da nuovo in Designer](#without-existing-content)e-mail:
 
-* Potete creare un’e-mail da un quadro vuoto aggiungendo facilmente la struttura e i componenti di contenuto e personalizzarne il contenuto per inviarne rapidamente la distribuzione. È inoltre possibile gestire completamente gli elementi di stile. Per ulteriori informazioni, [inizia rapidamente](#from-scratch-email) o consulta la documentazione [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
+1. Potete **creare un’e-mail da un quadro** vuoto aggiungendo facilmente struttura e componenti di contenuto e personalizzarne il contenuto per inviarne rapidamente una distribuzione. È inoltre possibile gestire completamente gli elementi di stile. Per ulteriori informazioni, [inizia rapidamente](#from-scratch-email) o consulta la documentazione [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)completa.
 
-* Per creare un’e-mail da modelli predefiniti, selezionate un modello e create il nuovo contenuto da qui. [Ulteriori informazioni](#building-content-from-an-out-of-the-box-template)
+1. Per **creare un’e-mail da un modello** predefinito, selezionate un modello e create il nuovo contenuto da qui. [Ulteriori informazioni](#building-content-from-an-out-of-the-box-template)
 
 Potete anche creare un’e-mail [con contenuto](#with-existing-content)esistente:
 
-* Potete convertire un contenuto HTML esistente (creato esternamente o nell’editor precedente). [Ulteriori informazioni](#converting-an-html-content)
-* Potete importare immediatamente un contenuto HTML esistente in modalità compatibilità. [Ulteriori informazioni](#compatibility-mode)
+1. Potete **convertire un contenuto** HTML esistente (creato esternamente o nell’editor precedente). [Ulteriori informazioni](#converting-an-html-content)
+1. Potete **importare immediatamente un contenuto** HTML esistente in modalità di compatibilità. [Ulteriori informazioni](#compatibility-mode)
 
 | Senza contenuto | Con contenuto |
 |---|---|
@@ -95,7 +95,7 @@ Potete aggiungere diversi componenti di contenuto alle e-mail, ad esempio immagi
 1. In Componenti **contenuto**, trascina e rilascia HTML in uno dei componenti della struttura.
 1. Fate clic su **Mostra il codice** sorgente.
 1. Inserite il contenuto HTML.
-1. Fate clic su **Salva**.
+1. Fai clic su **Salva**.
 
 ![](assets/html-component-source-code.png)
 
@@ -111,7 +111,7 @@ Potete regolare lo stile delle e-mail, ad esempio modificando la spaziatura di u
 1. Sulla destra, nella palette, passare a **Spaziatura**.
 1. Fate clic sull&#39;icona Blocca per interrompere la sincronizzazione tra i parametri superiore e inferiore o tra destra e sinistra.
 1. Regolare la **spaziatura** in base alle esigenze.
-1. Fate clic su **Salva**.
+1. Fai clic su **Salva**.
 
 ![](assets/padding-quick-start.png)
 
@@ -139,7 +139,7 @@ Se si desidera creare un framework di modelli e frammenti modulari che possano e
 
 ### Conversione del contenuto HTML {#converting-an-html-content}
 
-Questo caso di utilizzo offre un modo rapido per convertire le e-mail HTML in componenti di E-mail Designer.
+Questo caso di utilizzo offre un modo rapido per convertire le e-mail HTML in componenti di E-mail Designer. Per ulteriori informazioni su questo argomento, consultate [Conversione del contenuto](../../designing/using/using-existing-content.md#converting-an-html-content)HTML.
 
 >[!CAUTION]
 >
@@ -149,84 +149,9 @@ Questo caso di utilizzo offre un modo rapido per convertire le e-mail HTML in co
 >
 >Come la modalità di compatibilità, un componente HTML è modificabile con opzioni limitate: è possibile eseguire solo edizioni interne.
 
-Al di fuori di Designer e-mail, assicurarsi che l&#39;HTML originale sia diviso in sezioni riutilizzabili.
-
-1. Aprite il Designer e-mail per creare un contenuto e-mail vuoto.
-1. Impostate gli attributi a livello di corpo: colori di sfondo, larghezza, ecc. Per ulteriori informazioni, consultate [Modifica degli stili](../../designing/using/styles.md)delle e-mail.
-
-In caso contrario, tagliare i diversi blocchi dal codice HTML. Ad esempio, di seguito è riportata una sezione chiaramente identificata:
-
-```
-<!-- 3 COLUMN w/CTA (SCALED) -->
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
-<tbody>
-<tr>
-<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
-<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
-<tbody>
-<tr>
-...
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- //3 COLUMN w/CTA (SCALED) -->
-```
-
-Dopo aver identificato tutti i blocchi, in Designer e-mail ripetere la seguente procedura per ciascuna sezione dell&#39;e-mail esistente:
-
-1. Aggiungere un componente struttura. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
-1. Aggiungete un componente HTML. Per ulteriori informazioni, vedere [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copiate e incollate il codice HTML nel componente.
-1. Passate alla visualizzazione mobile. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
-
-   La vista reattiva non funziona perché il CSS non è presente.
-
-1. Per risolvere il problema, passare alla modalità codice sorgente e copiare e incollare la sezione di stile in una nuova sezione di stile. Ad esempio:
-
-   ```
-   <style type="text/css">
-   a {text-decoration:none;}
-   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
-   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
-   ...
-   </style>
-   ```
-
-   >[!NOTE]
-   >
-   >Accertatevi di aggiungere lo stile dopo questo in un altro tag di stile personalizzato.
-   >
-   >Non modificate il CSS generato da Designer e-mail:
-   >
-   >* `<style data-name="default" type="text/css">(##)</style>`
-   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
-   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
-   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
-   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
-
-1. Tornate alla visualizzazione mobile per verificare che il contenuto sia correttamente visualizzato e salvare le modifiche.
 
 ### Importazione e modifica di un messaggio e-mail HTML {#compatibility-mode}
 
 Quando si carica un contenuto, questo deve contenere tag specifici per essere completamente conforme e modificabile con l&#39;editor WYSIWYG di Designer e-mail.
 
-Se tutto o parte dell’HTML caricato non è conforme ai tag previsti, il contenuto viene caricato in &quot;modalità compatibilità&quot;, che limita le possibilità di edizione nell’interfaccia utente.
-
-Quando un contenuto viene caricato in modalità di compatibilità, è comunque possibile eseguire le seguenti modifiche tramite l&#39;interfaccia (le azioni non disponibili sono nascoste):
-
-* Modifica del testo o modifica di un’immagine
-* Inserimento di collegamenti e campi di personalizzazione
-* Modificare alcune opzioni di stile per il blocco HTML selezionato
-* Definizione del contenuto condizionale
-
-![](assets/email_designer_compatibility.png)
-
-Altre modifiche, come l’aggiunta di nuove sezioni al messaggio e-mail o lo stile avanzato, devono essere effettuate direttamente nel codice sorgente del messaggio e-mail tramite la modalità HTML.
-Anche se la modalità di compatibilità non consente di utilizzare la funzione di trascinamento, garantisce lo stesso set di funzioni dell’editor legacy.
-
-Per ulteriori informazioni sulla conversione di un&#39;e-mail esistente in un&#39;e-mail compatibile con e-mail Designer, consultare [questa sezione](../../designing/using/using-existing-content.md).
+Per ulteriori informazioni sulla conversione di un&#39;e-mail esistente in un&#39;e-mail compatibile con e-mail Designer, consultare [questa sezione](../../designing/using/using-existing-content.md#compatibility-mode).
