@@ -1,5 +1,5 @@
 ---
-title: Richiesta e configurazione di Microsoft Dynamics 365 con integrazione Campaign Standard
+title: Richiesta e configurazione dell'integrazione con Microsoft Dynamics 365
 description: Scopri come richiedere e configurare Microsoft Dynamics 365 con integrazione Campaign Standard
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Richiesta di Microsoft Dynamics 365 con integrazione Campaign Standard
+# Richiesta e configurazione dell&#39;integrazione con Microsoft Dynamics 365
 
 Per eseguire il provisioning di questa integrazione, è necessario seguire i passaggi indicati di seguito.
 
