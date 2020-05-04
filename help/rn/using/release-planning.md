@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
+source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
 
 ---
 
 
-# Pianificazione rilascio {#release-planning}
+# Pianificazione del rilascio {#release-planning}
 
 Adobe migliora continuamente le proprie soluzioni aggiungendo nuove funzionalità, miglioramenti e correzioni.
 
@@ -33,23 +33,23 @@ Tutte le date di rilascio sono soggette a modifica: consigliamo di visitare ques
 
 Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note](../../rn/using/release-notes.md)sulla versione. Per ulteriori domande, contatta l&#39;Assistenza clienti [Adobe](https://support.neolane.net/webApp/extranetLogin).
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Ambiente<br /> </th> 
-   <th> Date<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Stage<br /> </td> 
-   <td> 27-28 aprile 2020<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Produzione<br /> </td> 
-   <td> 4 - 11 maggio 2020<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <thead>
+  <tr>
+   <th> Ambiente<br /> </th>
+   <th> Date<br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Stage<br /> </td>
+   <td><s>27 - 28 aprile 2020</s> posticipato<br /> </td>
+  </tr>
+  <tr>
+   <td> Produzione<br /> </td>
+   <td><s>4 - 11 maggio 2020</s> ritardato<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 
@@ -84,4 +84,4 @@ A: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l&#39;aggio
 
 A: Quando accedete a Campaign, viene visualizzata una finestra a comparsa di notifica della versione, con l&#39;ultima versione.
 
-Per qualsiasi altra domanda, contatta l&#39;Assistenza clienti [di](https://support.neolane.net/webApp/extranetLogin)Adobe.
+Per qualsiasi altra domanda, contatta l&#39;Assistenza clienti [Adobe](https://support.neolane.net/webApp/extranetLogin).
