@@ -1,5 +1,5 @@
 ---
-title: Informazioni sulle API Campaign Standard
+title: Introduzione alle API Campaign Standard
 description: Ulteriori informazioni sulle API di Campaign Standard.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,59 +12,29 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 27ca2116c49f9c23a56c178a3e3f7baf2f755c45
+source-git-commit: 181f7114bd7b9d633de44687320f0c897e146862
 
 ---
 
 
-# Informazioni sulle API Campaign Standard {#about-campaign-standard-apis}
+# Get started with Campaign Standard APIs {#get-started-apis}
 
 Le API Campaign Standard mirano a **creare integrazioni** per Adobe Campaign Standard e a **creare il proprio ecosistema** interfacciando Adobe Campaign Standard con il pannello di tecnologie che utilizzi.
 
 Con le API Adobe Campaign Standard, puoi accedere alle seguenti funzionalità:
 
-<table>
-<tr>
-    <td valign="top">
-        <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="condizioni" src="assets/icon_profile.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="condizioni" src="assets/icon_services.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="condizioni" src="assets/icon_customresources.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="condizioni" src="assets/icon_marketinghistory.svg"/></a>
-    </td>
+<table><tr>
+ <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="condizioni" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profili</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="condizioni" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Servizi e iscrizioni</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="condizioni" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Risorse personalizzate</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="condizioni" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Cronologia marketing</a></p></td>
 </tr>
 <tr>
-<td>Profili</td>
-<td>Servizi e iscrizioni</td>
-<td>Risorse personalizzate</td>
-<td>Cronologia marketing</td>
-</tr>
-<tr>
-    <td valign="top">
-        <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="condizioni" src="assets/icon_privacy.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="condizioni" src="assets/icon_transactionalmessage.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="condizioni" src="assets/icon_workflows.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="condizioni" src="assets/icon_units.svg"/></a>
-    </td>
-</tr>
-<tr>
-<td>Gestione della privacy</td>
-<td>Messaggi transazionali</td>
-<td>Flussi di lavoro</td>
-<td>Unità organizzative</td>
-</td>
-</table>
+<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="condizioni" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Gestione della privacy</a></p></td>
+<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="condizioni" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">Messaggi transazionali</a></p></td>
+<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="condizioni" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">Flussi di lavoro</a></p></td>
+<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="condizioni" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">Unità organizzative</a></p></td>
+</tr></table>
 
 >[!NOTE]
 >
@@ -79,6 +49,6 @@ Le API che forniamo utilizzano concetti **** standard con un&#39;interfaccia RES
 >
 >Tutti gli esempi funzionano con Postman ma sentiti libero di usare il tuo client REST preferito.
 
-Tutti gli endpoint sono descritti in modo approfondito in questa documentazione con le nozioni generali da conoscere per la manipolazione dell&#39;API, il riferimento API completo, gli esempi di codice e le guide rapide.
+Tutti gli endpoint sono descritti in modo approfondito in questa documentazione con le nozioni generali da conoscere per la manipolazione dell&#39;API, il riferimento API completo, gli esempi di codice e le guide di avvio rapido.
 
 Se qualcosa manca o sembra sbagliato, chiedete alla [comunità](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
