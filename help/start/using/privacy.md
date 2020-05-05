@@ -1,6 +1,6 @@
 ---
-title: Informazioni sulla privacy e sulle raccomandazioni in Adobe Campaign Standard
-description: Questa sezione descrive la gestione della privacy in Adobe Campaign Standard.
+title: Privacy e consenso in Adobe Campaign Standard
+description: Questa sezione fornisce una panoramica sulla privacy, i dati personali e la gestione del consenso in Adobe Campaign Standard, oltre agli strumenti disponibili per gestirli.
 page-status-flag: never-activated
 uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0d7dc73afb2e3b69f461d0e389451c9deabc1f23
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
