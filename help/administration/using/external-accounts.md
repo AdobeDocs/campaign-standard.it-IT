@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -124,7 +124,7 @@ Per facilitare l&#39;impostazione del vostro account Amazon S3, vi consigliamo d
 
 Gli account esterni di Adobe Experience Manager vengono utilizzati per l&#39;integrazione di Campaign con Experience Manager.
 
-I processi e i requisiti relativi a questa integrazione sono disponibili in [questo documento](../../integrating/using/about-campaign-integrations.md).
+I processi e i requisiti relativi a questa integrazione sono disponibili in [questo documento](../../integrating/using/get-started-campaign-integrations.md).
 
 Mentre configurate questo nuovo account esterno, dovete fornire i seguenti dettagli:
 
