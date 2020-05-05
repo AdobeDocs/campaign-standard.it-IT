@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
 
 ---
 
@@ -38,13 +38,18 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
 ![](assets/channels_1.png)
 
-* **Parametri di intestazione delle e-mail inviate**
+* **Campi maschere autorizzati**
 
-   In questa sezione, puoi specificare l&#39;indirizzo **[!UICONTROL masks]** autorizzato per il mittente e l&#39;indirizzo di errore. Se vengono utilizzate più maschere, queste devono essere separate da virgole. Quando questi campi vengono compilati, Adobe Campaign verifica che gli indirizzi immessi siano validi durante la fase di preparazione dei messaggi. Questa modalità operativa assicura che non vengano utilizzati indirizzi che possano causare problemi di recapito. Sia il mittente che l&#39;indirizzo di errore sono impostati da Adobe. Per aggiornarli, contatta il team di assistenza clienti Adobe.
+   Vengono **[!UICONTROL Header parameters of sent emails]** elencati gli indirizzi e-mail autorizzati che è possibile utilizzare per inviare e-mail ai destinatari (indirizzo del mittente) e per notificare loro eventuali errori (indirizzo di errore).  Adobe Campaign verifica che gli indirizzi immessi siano validi durante la fase di preparazione dei messaggi. Questa modalità operativa assicura che non vengano utilizzati indirizzi che possano causare problemi di recapito.
+   * Sia il mittente che l&#39;indirizzo di errore sono impostati da Adobe. Questi campi non possono essere vuoti.
+   * Non è possibile modificare tali campi. Per aggiornare un indirizzo, contatta il team di assistenza clienti Adobe.
+   * Per aggiungere un altro indirizzo, potete utilizzare il Pannello [di](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) controllo per impostare un nuovo sottodominio o contattare il team di assistenza clienti di Adobe. Tenete presente che se vengono utilizzate più maschere, queste saranno separate da virgole.
+   * È buona norma impostare gli indirizzi utilizzando una stella come **@yourdomain.com*: consente di utilizzare qualsiasi indirizzo che termina con il nome del sottodominio.
 
 * **Realizzazione**
 
-   Questo ID è fornito dal team di assistenza clienti Adobe. È obbligatorio per il corretto funzionamento dei rapporti sulla recapito.
+   L&#39; **[!UICONTROL Delivery reports ID]** assistenza è fornita dal team di assistenza clienti Adobe. Identifica ogni istanza con un ID di recapito che viene utilizzato nei rapporti tecnici di recapito.
+   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Parametri di consegna**
 
@@ -71,6 +76,7 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
    Nel **[!UICONTROL Time between two significant errors]** campo, immettere un valore per definire l&#39;ora in cui l&#39;applicazione attende prima di incrementare il contatore di errori in caso di errore. Il valore predefinito è **&quot;1d&quot;**, per 1 giorno.
 
    Una volta raggiunto il **[!UICONTROL Maximum number of errors before quarantine]** valore, l&#39;indirizzo e-mail viene quindi messo in quarantena. Il valore predefinito è **&quot;5&quot;**: l&#39;indirizzo verrà messo in quarantena al quinto errore. Ciò significa che il contatto sarà automaticamente escluso dalle consegne successive.
+   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    Per ulteriori informazioni sulle quarantena, vedere [Informazioni sulla gestione](../../sending/using/understanding-quarantine-management.md)della quarantena.
 
