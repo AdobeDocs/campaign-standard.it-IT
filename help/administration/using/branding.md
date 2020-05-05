@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
 ---
 
@@ -28,7 +28,7 @@ Gli amministratori tecnici possono definire uno o più marchi per immettere cent
 
 ## Configurazione e utilizzo dei marchi {#configuring-and-using-brands}
 
-Il principio principale di configurazione e utilizzo dei marchi è:
+Il principio principale della configurazione e dell&#39;utilizzo dei marchi è:
 
 1. Crea e configura il marchio: questa operazione richiede autorizzazioni specifiche ed è eseguita dall&#39;amministratore tecnico di Adobe Campaign.
 1. Crea uno o più modelli di consegna e pagina di destinazione per questo marchio. Fare riferimento alla sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md) .
@@ -36,7 +36,9 @@ Il principio principale di configurazione e utilizzo dei marchi è:
 
 >[!IMPORTANT]
 >
->I marchi non possono essere creati o modificati dagli utenti finali: queste operazioni devono essere eseguite dall&#39;amministratore tecnico di Adobe Campaign. Per qualsiasi richiesta, contatta l&#39;Assistenza clienti Adobe. Il multi-branding non può essere utilizzato nel contesto dei messaggi transazionali. Per ulteriori informazioni, consulta Messaggi [transazionali e branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>I marchi non possono essere creati o modificati dagli utenti finali: queste operazioni devono essere eseguite dall&#39;amministratore tecnico di Adobe Campaign. Per qualsiasi richiesta, contatta l&#39;Assistenza clienti Adobe.
+>
+>Il multi-branding non può essere utilizzato nel contesto dei messaggi transazionali. Per ulteriori informazioni, consulta Messaggi [transazionali e branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
 I marchi si trovano nel **[!UICONTROL Administration > Instance settings > Brand configuration]** menu.
 
@@ -123,13 +125,13 @@ In questo esempio, creeremo un nuovo marchio correlato ai viaggi e lo useremo in
 
 >[!IMPORTANT]
 >
->La configurazione del marchio è gestita da Adobe solo perché richiede autorizzazioni specifiche e impostazioni tecniche.
+>La configurazione del marchio è gestita da Adobe solo in quanto richiede autorizzazioni specifiche e impostazioni tecniche.
 
 1. L&#39;amministratore di Adobe Campaign crea il marchio in **[!UICONTROL Administration > Instance settings > Brand configuration]**. Aggiunge le **Vacanze nell&#39;elemento Tropici** dal menu avanzato e configura il **[!UICONTROL ID]** e il **[!UICONTROL Header parameters of sent emails]** marchio.
 
    ![](assets/branding_07.png)
 
-1. L’amministratore configura quindi l’URL del **server esposto su Internet** in modo da poter utilizzare le pagine di destinazione e gli URL di tracciamento.
+1. L’amministratore configura quindi l’URL del **server esposto su Internet** in modo da poter utilizzare le pagine di destinazione e quindi gli URL di tracciamento.
 
    In questo esempio, lo strumento **Web Analytics** utilizzato è **Google Analytics**. L’amministratore configura l’URL di tracciamento come segue:
 
