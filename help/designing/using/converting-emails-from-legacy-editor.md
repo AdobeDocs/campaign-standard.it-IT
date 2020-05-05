@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 Iniziate a utilizzare e-mail Designer e create modelli e frammenti riutilizzabili dal codice HTML dell&#39;e-mail creato nell&#39;editor legacy.
 
-Questo caso d&#39;uso consente di creare un modello di E-mail Designer utilizzando un&#39;e-mail HTML e dividendolo in componenti HTML in Designer e-mail.
-
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Questa sezione è destinata agli utenti esperti che hanno familiarità con il codice HTML.
+
+Questo caso d&#39;uso consente di creare un modello di E-mail Designer utilizzando un&#39;e-mail HTML e dividendolo in componenti HTML in Designer e-mail.
 
 >[!NOTE]
 >
@@ -96,21 +96,21 @@ Per visualizzare la versione HTML del messaggio e-mail, fate clic su **[!UICONTR
 
 ### Creare il modello e-mail e la relativa struttura
 
-1. Trascinate e rilasciate **[!UICONTROL Structure Components]** il layout del messaggio e-mail.
+1. Trascinate e rilasciate **[!UICONTROL Structure components]** il layout del messaggio e-mail.
 
-Dobbiamo creare 11 componenti della struttura.
+1. Ripetere la procedura il numero di volte necessario. Dobbiamo creare 11 componenti della struttura.
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### Inserimento di componenti di contenuto HTML
 
-1. Inserite un **[!UICONTROL HTML component]** elemento in ogni **[!UICONTROL structure component]** .
+1. Inserite un **[!UICONTROL HTML component]** elemento in ogni **[!UICONTROL Structure component]** .
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
 1. Per ciascuna sezione, fate clic su **[!UICONTROL Show source code]** .
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. Inserite la sezione HTML.
 
@@ -122,7 +122,7 @@ Ora potete controllare il rendering dell&#39;e-mail.
 
 ### Gestione degli stili per adattarli alla visualizzazione mobile
 
-Inserite elementi CSS per assicurarvi che il messaggio e-mail sia adatto alla visualizzazione mobile.
+1. Inserite elementi CSS per assicurarvi che il messaggio e-mail sia adatto alla visualizzazione mobile.
 
 1. Passate al codice sorgente e copiate e incollate la sezione di stile in una nuova sezione di stile.
 
