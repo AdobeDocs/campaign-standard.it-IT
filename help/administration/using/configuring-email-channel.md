@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
    * Sia il mittente che l&#39;indirizzo di errore sono impostati da Adobe. Questi campi non possono essere vuoti.
    * Non è possibile modificare tali campi. Per aggiornare un indirizzo, contatta il team di assistenza clienti Adobe.
    * Per aggiungere un altro indirizzo, potete utilizzare il Pannello [di](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) controllo per impostare un nuovo sottodominio o contattare il team di assistenza clienti di Adobe. Tenete presente che se vengono utilizzate più maschere, queste saranno separate da virgole.
-   * È buona norma impostare gli indirizzi utilizzando una stella come **@yourdomain.com*: consente di utilizzare qualsiasi indirizzo che termina con il nome del sottodominio.
+   * È buona norma impostare gli indirizzi utilizzando una stella come *@yourdomain.com: consente di utilizzare qualsiasi indirizzo che termina con il nome del sottodominio.
 
 * **Realizzazione**
 
