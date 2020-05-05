@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -258,7 +258,7 @@ Per accedere ai rapporti relativi al messaggio transazionale, usa il **[!UICONTR
 
 Puoi sospendere la pubblicazione del messaggio transazionale utilizzando, ad esempio, il **[!UICONTROL Pause]** pulsante per modificare i dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database di Adobe Campaign.
 
-Gli eventi in coda vengono conservati durante un periodo di tempo definito nell&#39;API REST (consultate la documentazione [REST API) o nell&#39;evento trigger se utilizzate il servizio di base Triggers (consultate](../../api/using/about-campaign-standard-apis.md)Utilizzo di Campaign e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Gli eventi in coda vengono conservati durante un periodo di tempo definito nell&#39;API REST (consultate la documentazione [REST API) o nell&#39;evento trigger se utilizzate il servizio di base Triggers (consultate](../../api/using/get-started-apis.md)Utilizzo di Campaign e Experience Cloud Triggers [](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
