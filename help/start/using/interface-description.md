@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
+source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
 
 ---
 
@@ -101,7 +101,7 @@ L’ **[!UICONTROL Resources]** icona permette di accedere alle seguenti funzion
 
 ### Amministrazione {#administration}
 
-L’ **[!UICONTROL Administration]** icona permette di accedere alle funzionalità avanzate che possono essere eseguite solo da un amministratore funzionale. Per ulteriori informazioni, consulta la sezione [Amministrazione](../../administration/using/about-administrating-adobe-campaign.md) .
+L’ **[!UICONTROL Administration]** icona permette di accedere alle funzionalità avanzate che possono essere eseguite solo da un amministratore funzionale. Per ulteriori informazioni, consulta la sezione [Amministrazione](../../administration/using/get-started-campaign-administration.md) .
 
 ## Zona centrale {#central-zone}
 
