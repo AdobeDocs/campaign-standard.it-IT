@@ -1,19 +1,19 @@
 ---
 title: Creazione di audience
 description: Scopri come creare audience in Adobe Campaign.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: fe99b31b-a949-4832-b0e6-2b36d1c8be80
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: management-audience
+topic-tags: managing-audiences
 discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
-context-tags: readAudience,principale;audience,panoramica;consegna,pubblico,back
+context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Creazione di audience di query {#creating-query-audiences}
 
-Questa sezione descrive come creare un'audience **Query** . Potete anche creare audience dall'importazione di un file o dal targeting in un [flusso di lavoro](../../automating/using/discovering-workflows.md).
+Questa sezione descrive come creare un&#39;audience **Query** . Potete anche creare audience dall&#39;importazione di un file o dal targeting in un [flusso di lavoro](../../automating/using/get-started-workflows.md).
 
-Dall'elenco dei tipi di pubblico, puoi creare dei tipi di pubblico eseguendo delle query sui profili di Adobe Campaign o importando un pubblico Adobe Experience Cloud.
+Dall&#39;elenco dei tipi di pubblico, puoi creare dei tipi di pubblico eseguendo delle query sui profili di Adobe Campaign o importando un pubblico Adobe Experience Cloud.
 
-1. Passate all'elenco delle audience tramite la **[!UICONTROL Audiences]** scheda o la scheda.
+1. Passate all&#39;elenco delle audience tramite la **[!UICONTROL Audiences]** scheda o la scheda.
 
    ![](assets/audiences_query_1.png)
 
@@ -34,22 +34,22 @@ Dall'elenco dei tipi di pubblico, puoi creare dei tipi di pubblico eseguendo del
 
    ![](assets/audiences_query.png)
 
-1. Denominate il pubblico. L'etichetta dell'audience viene utilizzata nell'elenco delle audience e nella palette dello strumento di query.
+1. Denominate il pubblico. L&#39;etichetta dell&#39;audience viene utilizzata nell&#39;elenco delle audience e nella palette dello strumento di query.
 1. Scegliete un tipo di **[!UICONTROL Query]** pubblico: le audience definite da una query vengono ricalcolate a ogni ulteriore utilizzo.
 
    ![](assets/audience_type_selection.png)
 
-1. Quindi selezionate il **[!UICONTROL Targeting dimension]** tipo di filtro che desiderate utilizzare per filtrare i clienti. Ogni audience è costituita da una singola dimensione di targeting. Ad esempio, non potete creare un'audience composta da profili, profili di test e sottoscrittori. Per ulteriori informazioni sulle dimensioni di targeting, consultate [questa pagina](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Quindi selezionate il **[!UICONTROL Targeting dimension]** tipo di filtro che desiderate utilizzare per filtrare i clienti. Ogni audience è costituita da una singola dimensione di targeting. Ad esempio, non potete creare un&#39;audience composta da profili, profili di test e sottoscrittori. Per ulteriori informazioni sulle dimensioni di targeting, consultate [questa pagina](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Create la query per definire la popolazione di audience. Fare riferimento alla sezione sulla [modifica delle query](../../automating/using/editing-queries.md).
 1. Fate clic sul **[!UICONTROL Create]** pulsante per salvare il pubblico.
 
 >[!NOTE]
 >
->Puoi aggiungere una descrizione a questo pubblico e definire le autorizzazioni di accesso tramite l' **[!UICONTROL Edit properties]** icona.
+>Puoi aggiungere una descrizione a questo pubblico e definire le autorizzazioni di accesso tramite l&#39; **[!UICONTROL Edit properties]** icona.
 
-## Creazione di audience da elenco {#creating-list-audiences}
+## Creazione di tipi di pubblico di elenchi {#creating-list-audiences}
 
-Questa sezione descrive come creare un pubblico **Elenco** dopo il targeting in un flusso di lavoro. Potete anche creare audience importando un file in un [flusso di lavoro](../../automating/using/discovering-workflows.md) o tramite una query dal **[!UICONTROL Audiences]** menu.
+Questa sezione descrive come creare un pubblico **Elenco** dopo il targeting in un flusso di lavoro. Potete anche creare audience importando un file in un [flusso di lavoro](../../automating/using/get-started-workflows.md) o tramite una query dal **[!UICONTROL Audiences]** menu.
 
 Per creare un pubblico **Elenco** , procedere come segue:
 
@@ -57,13 +57,13 @@ Per creare un pubblico **Elenco** , procedere come segue:
 
    ![](assets/audiences_list_1.png)
 
-1. Trascinare e rilasciare, quindi configurare le attività di targeting che consentiranno di selezionare una popolazione con una dimensione **nota** . L'elenco delle attività disponibili e la relativa configurazione sono descritti in dettaglio nella sezione Attività [di](../../automating/using/about-targeting-activities.md) targeting.
+1. Trascinare e rilasciare, quindi configurare le attività di targeting che consentiranno di selezionare una popolazione con una dimensione **nota** . L&#39;elenco delle attività disponibili e la relativa configurazione sono descritti in dettaglio nella sezione Attività [di](../../automating/using/about-targeting-activities.md) targeting.
 
-   Potete utilizzare un' **[!UICONTROL Query]** attività, o importare dati utilizzando un' **[!UICONTROL Load file]** attività prima di utilizzare un' **[!UICONTROL Reconciliation]** attività per identificare la dimensione dei dati importati. Qui, vogliamo indirizzare i destinatari che si sono iscritti a Sport Newsletter con un' **[!UICONTROL Query]** attività .
+   È possibile utilizzare un&#39; **[!UICONTROL Query]** attività, o importare dati utilizzando un&#39; **[!UICONTROL Load file]** attività prima di utilizzare un&#39; **[!UICONTROL Reconciliation]** attività per identificare la dimensione dei dati importati. Qui, vogliamo indirizzare i destinatari che si sono iscritti a Sport Newsletter con un&#39; **[!UICONTROL Query]** attività .
 
    ![](assets/audiences_list_2.png)
 
-1. Dopo il targeting, trascina e rilascia un' **[!UICONTROL Save audience]** attività nel flusso di lavoro. Ad esempio, potete scegliere di **[!UICONTROL Create or update an audience]** creare e aggiornare automaticamente il pubblico con nuovi dati. In questo caso, aggiungete un' **[!UICONTROL Scheduler]** attività all'inizio del flusso di lavoro.
+1. Dopo il targeting, trascina e rilascia un&#39; **[!UICONTROL Save audience]** attività nel flusso di lavoro. Ad esempio, potete scegliere di **[!UICONTROL Create or update an audience]** creare e aggiornare automaticamente il pubblico con nuovi dati. In questo caso, aggiungete un&#39; **[!UICONTROL Scheduler]** attività all&#39;inizio del flusso di lavoro.
 
    Per ulteriori informazioni sulla configurazione di questa attività, consultate la sezione [Salva pubblico](../../automating/using/save-audience.md) .
 
@@ -73,29 +73,29 @@ Per creare un pubblico **Elenco** , procedere come segue:
 
    Dal momento che **[!UICONTROL Save audience]** viene posizionato dopo un targeting con una dimensione nota, le audience create tramite questa attività sono audience **List** .
 
-   Il contenuto dell'audience salvata è quindi disponibile nella visualizzazione dettagliata dell'audience a cui è possibile accedere tramite l'elenco delle audience. Le colonne disponibili in questa visualizzazione corrispondono alle colonne della transizione in entrata dell'attività di salvataggio del flusso di lavoro. Ad esempio: le colonne del file importato, i dati aggiuntivi aggiunti da una query.
+   Il contenuto dell&#39;audience salvata è quindi disponibile nella visualizzazione dettagliata dell&#39;audience a cui è possibile accedere tramite l&#39;elenco delle audience. Le colonne disponibili in questa visualizzazione corrispondono alle colonne della transizione in entrata dell&#39;attività di salvataggio del flusso di lavoro. Ad esempio: le colonne del file importato, i dati aggiuntivi aggiunti da una query.
 
    ![](assets/audiences_list_4.png)
 
 ## Creazione di audience di file {#creating-file-audiences}
 
-In questa sezione viene illustrato come creare un pubblico di **file** importando un file in un flusso di lavoro. Potete anche creare audience da un'attività di targeting in un [flusso di lavoro](../../automating/using/discovering-workflows.md) o tramite una query dal **[!UICONTROL Audiences]** menu.
+In questa sezione viene illustrato come creare un pubblico di **file** importando un file in un flusso di lavoro. Potete anche creare audience da un&#39;attività di targeting in un [flusso di lavoro](../../automating/using/get-started-workflows.md) o tramite una query dal **[!UICONTROL Audiences]** menu.
 
 Per creare un pubblico di **file** , procedere come segue:
 
 1. Nella scheda Attività **** marketing, fai clic su **Crea** , quindi seleziona **Flusso di lavoro**.
-1. Trascinare e rilasciare, quindi configurare un' **[!UICONTROL Load file]** attività che consenta di importare una popolazione con una dimensione **sconosciuta** al momento dell'esecuzione del flusso di lavoro. Per ulteriori informazioni sulla configurazione di questa attività, consultate la sezione [Carica file](../../automating/using/load-file.md) .
+1. Trascinare e rilasciare, quindi configurare un&#39; **[!UICONTROL Load file]** attività che consenta di importare una popolazione con una dimensione **sconosciuta** al momento dell&#39;esecuzione del flusso di lavoro. Per ulteriori informazioni sulla configurazione di questa attività, consultate la sezione [Carica file](../../automating/using/load-file.md) .
 
    ![](assets/audience_files_1.png)
 
-1. Trascinate e rilasciate un' **[!UICONTROL Save audience]** attività dopo l' **[!UICONTROL Load file]** attività. Per ulteriori informazioni sulla configurazione di questa attività, consultate la sezione [Salva pubblico](../../automating/using/save-audience.md) .
+1. Trascinate e rilasciate un&#39; **[!UICONTROL Save audience]** attività dopo l&#39; **[!UICONTROL Load file]** attività. Per ulteriori informazioni sulla configurazione di questa attività, consultate la sezione [Salva pubblico](../../automating/using/save-audience.md) .
 1. Salvate e avviate il flusso di lavoro.
 
    ![](assets/audience_files_2.png)
 
-   Poiché la dimensione dati **[!UICONTROL Save audience]** viene inserita dopo un'importazione, è sconosciuta e le audience create tramite questa attività sono audience **File** .
+   Poiché la dimensione dati **[!UICONTROL Save audience]** viene inserita dopo un&#39;importazione, è sconosciuta e le audience create tramite questa attività sono audience **File** .
 
-   Il contenuto dell'audience salvata è quindi disponibile nella visualizzazione dettagliata dell'audience a cui è possibile accedere tramite l'elenco delle audience. Le colonne disponibili in questa visualizzazione corrispondono alle colonne della transizione in entrata dell'attività di salvataggio del flusso di lavoro. Ad esempio: le colonne del file importato, i dati aggiuntivi aggiunti da una query.
+   Il contenuto dell&#39;audience salvata è quindi disponibile nella visualizzazione dettagliata dell&#39;audience a cui è possibile accedere tramite l&#39;elenco delle audience. Le colonne disponibili in questa visualizzazione corrispondono alle colonne della transizione in entrata dell&#39;attività di salvataggio del flusso di lavoro. Ad esempio: le colonne del file importato, i dati aggiuntivi aggiunti da una query.
 
    ![](assets/audience_files_3.png)
 
@@ -111,18 +111,18 @@ Per il corretto funzionamento di questa integrazione, è innanzitutto necessario
 
 ## Modifica delle audience {#editing-audiences}
 
-Esistono diversi modi per modificare un'audience in base al tipo:
+Esistono diversi modi per modificare un&#39;audience in base al tipo:
 
-* Per modificare un'audience di **Query** , andate all'elenco dei tipi di pubblico tramite il **[!UICONTROL Audiences]** menu o la **[!UICONTROL Audiences]** scheda dalla home page di Adobe Campaign.
+* Per modificare un&#39;audience di **Query** , andate all&#39;elenco dei tipi di pubblico tramite il **[!UICONTROL Audiences]** menu o la **[!UICONTROL Audiences]** scheda dalla home page di Adobe Campaign.
 
-   Apri il pubblico interessato. È possibile modificare tutti gli elementi di un'audience creata in precedenza.
+   Apri il pubblico interessato. È possibile modificare tutti gli elementi di un&#39;audience creata in precedenza.
 
    >[!CAUTION]
    >
    >Se si modifica la query, **[!UICONTROL Filtering dimension]** le regole precedentemente definite andranno perdute.
 
-* Per modificare un pubblico **Elenco** o **File** , modificate il flusso di lavoro da cui è stato creato e modificate l' **[!UICONTROL Save audience]** attività. Avviate il flusso di lavoro in modo che l'audience venga modificata.
-* Per modificare un'audience di **Experience Cloud** , fai riferimento alla sezione [Importazione/Esportazione di audience con il servizio](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) di base Persone.
+* Per modificare un pubblico **Elenco** o **File** , modificate il flusso di lavoro da cui è stato creato e modificate l&#39; **[!UICONTROL Save audience]** attività. Avviate il flusso di lavoro in modo che l&#39;audience venga modificata.
+* Per modificare un pubblico di **Experience Cloud** , fai riferimento alla sezione [Importazione/Esportazione di tipi di pubblico con il servizio](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) di base Persone.
 
 ## Eliminazione dei tipi di pubblico {#deleting-audiences}
 
@@ -143,7 +143,7 @@ A questo scopo:
 
 La data di scadenza è ora configurata. Non appena questa data viene raggiunta, il pubblico viene eliminato automaticamente.
 
-Oppure, se devi eliminare un'audience, puoi semplicemente selezionare una o più audience e fare clic sul **[!UICONTROL Delete element]** pulsante.
+Oppure, se devi eliminare un&#39;audience, puoi semplicemente selezionare una o più audience e fare clic sul **[!UICONTROL Delete element]** pulsante.
 
 ![](assets/audience_delete_1.png)
 
