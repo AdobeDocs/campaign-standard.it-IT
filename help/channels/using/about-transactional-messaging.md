@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -83,7 +83,7 @@ Per ulteriori informazioni sui passaggi di configurazione dell&#39;evento, consu
 Durante la progettazione e la pubblicazione di messaggi transazionali, alcuni dei passaggi da eseguire non possono essere ripristinati. È necessario essere consapevoli dei seguenti limiti:
 
 * Per ogni configurazione dell&#39;evento è possibile utilizzare un solo canale. Consultate [Creazione di un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Una volta creato l&#39;evento, non potete cambiare il canale. Pertanto, se un messaggio non viene inviato correttamente, è necessario progettare il meccanismo che consenta di inviarlo da un altro canale utilizzando un flusso di lavoro. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
+* Una volta creato l&#39;evento, non potete cambiare il canale. Pertanto, se un messaggio non viene inviato correttamente, è necessario progettare il meccanismo che consenta di inviarlo da un altro canale utilizzando un flusso di lavoro. See [Workflow data and processes](../../automating/using/get-started-workflows.md).
 * Non potete modificare la dimensione di targeting ( **[!UICONTROL Real-time event]** o **[!UICONTROL Profile]** ) dopo la creazione dell&#39;evento. Consultate [Creazione di un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Non è possibile ripristinare una pubblicazione, ma è possibile annullare la pubblicazione di un evento: questa operazione rende inaccessibili l&#39;evento e il messaggio di transazione associato. Consultate [Annullamento della pubblicazione di un evento](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * L&#39;unico messaggio transazionale che può essere associato a un evento è il messaggio creato automaticamente al momento della pubblicazione dell&#39;evento. Consultate [Anteprima e pubblicazione dell’evento](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
@@ -115,7 +115,7 @@ Quando modificate un messaggio transazionale, potete collegarlo a un marchio per
 
 ![](assets/message-center_branding.png)
 
-Tutti gli oggetti (compreso il marchio) utilizzati in un messaggio di transazione devono essere visibili dall&#39;unità **[!UICONTROL Message Center]** organizzativa, il che significa che tali oggetti devono trovarsi nelle unità **[!UICONTROL Message Center]** o **[!UICONTROL All]** organizzazione.
+Tutti gli oggetti (compreso il marchio) utilizzati in un messaggio di transazione devono essere visibili dall&#39;unità **[!UICONTROL Message Center]** organizzativa, il che significa che tali oggetti devono trovarsi nelle unità **[!UICONTROL Message Center]** o **[!UICONTROL All]** organizzative.
 
 Tuttavia, se il marchio selezionato nelle proprietà del messaggio è collegato a un&#39;unità organizzativa diversa da **[!UICONTROL Message Center]** o **[!UICONTROL All]**, si verificherà un errore e non sarà possibile inviare il messaggio transazionale.
 
