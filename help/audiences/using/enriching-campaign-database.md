@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -66,7 +66,7 @@ Per ulteriori informazioni su questa integrazione, consulta la documentazione []
 
 Le API Campaign Standard consentono di eseguire operazioni per aggiornare il database come la creazione, l&#39;aggiornamento o l&#39;eliminazione di profili o servizi.
 
-Per ulteriori informazioni sull&#39;utilizzo delle API, consulta la documentazione [](../../api/using/about-campaign-standard-apis.md)dedicata.
+Per ulteriori informazioni sull&#39;utilizzo delle API, consulta la documentazione [](../../api/using/get-started-apis.md)dedicata.
 
 >[!CAUTION]
 >
