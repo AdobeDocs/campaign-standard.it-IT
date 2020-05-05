@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -78,7 +78,7 @@ Sfruttate la funzione di avviso sulla distribuzione per tenere traccia dei succe
 
 **Amplia il modello** dati Campaign Standard con campi e risorse personalizzate e monitora tutte le modifiche apportate al modello dati in un&#39;unica visualizzazione. [Introduzione al modello dati Campaign Standard](../../developing/using/get-started-data-model.md)
 
-**Sfruttate le API** REST per eseguire varie operazioni e integrare Campaign Standard con il vostro ecosistema. [Introduzione alle API REST di Campaign Standard](../../api/using/about-campaign-standard-apis.md)
+**Sfruttate le API** REST per eseguire varie operazioni e integrare Campaign Standard con il vostro ecosistema. [Introduzione alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
 
 **Amministrazione di Campaign** da un&#39;unica visualizzazione: monitorare l&#39;istanza, gestire le autorizzazioni degli utenti. Configurate i server esterni per la connessione all’istanza e i parametri per i canali di comunicazione. [Introduzione all&#39;amministrazione di Campaign Standard](../../administration/using/get-started-campaign-administration.md)
 
