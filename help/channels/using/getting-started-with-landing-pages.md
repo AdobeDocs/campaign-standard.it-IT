@@ -13,18 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
 
 ---
 
 
 # Guida introduttiva alle pagine di destinazione {#getting-started-with-landing-pages}
-
-## Informazioni sulle pagine di destinazione {#about-landing-pages}
-
-Campaign viene fornito con pagine di destinazione, moduli Web che possono essere utilizzati per acquisire informazioni sui tipi di pubblico, offrire iscrizioni a un servizio, visualizzare i dati e ampliare il database. Le pagine di destinazione possono essere utilizzate anche per acquisire o aggiornare i profili esistenti.
-
-Le pagine di destinazione possono essere utilizzate anche per impostare un meccanismo di doppio consenso, che consente di proteggere la piattaforma da indirizzi e-mail o spambots errati o non validi. Per ulteriori informazioni, consulta il caso [d’uso](../../channels/using/setting-up-a-double-opt-in-process.md)dedicato.
 
 I passaggi principali per impostare le pagine di destinazione sono i seguenti:
 
