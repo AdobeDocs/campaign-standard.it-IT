@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ La sezione Calcolo indicatore per i report dinamici è stata aggiornata. [Leggi 
 
 La documentazione Utilizzo di Campaign ed Experience Manager è stata aggiornata con una nuova sezione **Suggerimenti sull&#39;utilizzo dell&#39;integrazione** Campaign-Experience Manager. [Leggi tutto](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-La homepage della documentazione API è stata migliorata con reindirizzamenti ai diversi argomenti. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
+La homepage della documentazione API è stata migliorata con reindirizzamenti ai diversi argomenti. [Leggi tutto](../../api/using/get-started-apis.md)
 
 ## Aggiornamenti della documentazione - Dicembre 2019 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ La documentazione del Pannello di controllo è stata integrata nel nuovo set di 
 
 La tabella di calcolo **dell&#39;** indicatore è stata aggiornata. [Leggi tutto](../../reporting/using/indicator-calculation.md)
 
-Il set di documenti API è stato integrato nella documentazione di Campaign Standard.[Leggi tutto](../../api/using/about-campaign-standard-apis.md)
+Il set di documenti API è stato integrato nella documentazione di Campaign Standard.[Leggi tutto](../../api/using/get-started-apis.md)
 
 La guida introduttiva alla creazione di un messaggio e-mail personalizzato è stata spostata e aggiornata. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ La [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-stand
 
 Sono state aggiunte informazioni sulla nuova opzione di ordinamento nell&#39;attività **Trasferisci file** . [Leggi tutto](../../automating/using/transfer-file.md)
 
-La documentazione [](../../api/using/about-campaign-standard-apis.md) REST API è stata aggiornata:
+La documentazione [](../../api/using/get-started-apis.md) REST API è stata aggiornata:
 
 * È stata aggiunta una nuova sezione con informazioni generiche sui motivi per cui è stato utilizzato l&#39;API REST di Campaign Standard.
 * È stata resa disponibile una raccolta di richieste API preconfigurate, che rappresenta i casi di utilizzo più comuni.
@@ -697,7 +697,7 @@ La documentazione SMS è stata aggiornata con alcuni chiarimenti aggiunti alla s
 
 Nuova sezione dedicata alla gestione del flusso di lavoro tramite l&#39;API. [Leggi tutto](../../api/using/controlling-a-workflow.md)
 
-Nuova sezione dedicata alle chiavi primarie e all&#39;utilizzo di un business ID come chiave nell&#39;API. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
+Nuova sezione dedicata alle chiavi primarie e all&#39;utilizzo di un business ID come chiave nell&#39;API. [Leggi tutto](../../api/using/get-started-apis.md)
 
 Informazioni aggiunte sui filtri semplici e multipli nell&#39;API. [Leggi tutto](../../api/using/filtering.md)
 
@@ -849,9 +849,9 @@ Risorse collegate nelle API REST - [Ulteriori informazioni](../../developing/usi
 
 Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
+Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/get-started-apis.md)
 
-Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro per segnali [](../../automating/using/external-signal.md) esterni.
+Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
@@ -859,7 +859,7 @@ Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/usi
 
 Esportazione log per report esterni - [Per saperne di più](../../automating/using/exporting-logs.md)
 
-API di messaggistica transazionale - [Leggi tutto](../../api/using/about-campaign-standard-apis.md)
+API di messaggistica transazionale - [Leggi tutto](../../api/using/get-started-apis.md)
 
 Funzionalità di marketing per i messaggi transazionali - [Per saperne di più](../../channels/using/profile-transactional-messages.md)
 
