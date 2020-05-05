@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 Una volta configurato il flusso di lavoro con un pubblico [di](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Experience Platform, puoi personalizzare i messaggi con attributi di profilo che esistono esclusivamente in Experience Data Model (XDM).
 
-A tal fine, è necessario aggiungere questi attributi all&#39; **[!UICONTROL Read audience]**attività:
+A tal fine, è necessario aggiungere questi attributi all&#39; **[!UICONTROL Read audience]** attività:
 
-1. Aprite l&#39; **[!UICONTROL Read audience]**attività. Nella**[!UICONTROL Additional data]** scheda, fare clic sul **[!UICONTROL Create element]**pulsante.
+1. Aprite l&#39; **[!UICONTROL Read audience]** attività. Nella **[!UICONTROL Additional data]** scheda, fare clic sul **[!UICONTROL Create element]** pulsante.
 
-   La **[!UICONTROL Additional data]**scheda è disponibile solo dopo che è stato selezionato un pubblico Adobe Experience Platform.
+   La **[!UICONTROL Additional data]** scheda è disponibile solo dopo che è stato selezionato un pubblico Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -43,7 +43,7 @@ A tal fine, è necessario aggiungere questi attributi all&#39; **[!UICONTROL Rea
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Fare clic sul **[!UICONTROL Add]**pulsante per aggiungerlo all&#39;elenco di dati aggiuntivi.
+1. Fare clic sul **[!UICONTROL Add]** pulsante per aggiungerlo all&#39;elenco di dati aggiuntivi.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -51,12 +51,12 @@ A tal fine, è necessario aggiungere questi attributi all&#39; **[!UICONTROL Rea
 
    >[!NOTE]
    >
-   >Potete aggiungere un massimo di 20 campi XDM in un&#39; **[!UICONTROL Read audience]**attività.
+   >Potete aggiungere un massimo di 20 campi XDM in un&#39; **[!UICONTROL Read audience]** attività.
 
-1. Una volta aggiunti tutti i campi, fate clic sul **[!UICONTROL Confirm]**pulsante per salvare le modifiche. Ora saranno disponibili per personalizzare le consegne.
+1. Una volta aggiunti tutti i campi, fate clic sul **[!UICONTROL Confirm]** pulsante per salvare le modifiche. Ora saranno disponibili per personalizzare le consegne.
 
 Per ulteriori informazioni su come creare e personalizzare le consegne, consulta la documentazione di Campaign Standard:
 
-* [Esplorazione dei canali di comunicazione](../../channels/using/discovering-communication-channels.md)
+* [Esplorazione dei canali di comunicazione](../../channels/using/get-started-communication-channels.md)
 * [Informazioni sulle attività dei canali](../../automating/using/about-channel-activities.md)
 * [Personalizzazione delle consegne](../../designing/using/personalization.md)
