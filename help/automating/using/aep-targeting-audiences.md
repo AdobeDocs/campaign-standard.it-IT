@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -27,9 +27,9 @@ Dopo aver creato un&#39;audience [](../../audiences/using/aep-about-audience-des
 
 Per attivare un pubblico Adobe Experience Platform nei tuoi flussi di lavoro, procedi come segue:
 
-1. Aggiungete un&#39; **[!UICONTROL Read audience]**attività nel flusso di lavoro, quindi apritela.
+1. Aggiungete un&#39; **[!UICONTROL Read audience]** attività nel flusso di lavoro, quindi apritela.
 
-1. Selezionate l&#39; **[!UICONTROL Adobe Experience Platform]**opzione in**[!UICONTROL Type of audience]**, quindi aggiungete il pubblico desiderato.
+1. Selezionate l&#39; **[!UICONTROL Adobe Experience Platform]** opzione in **[!UICONTROL Type of audience]**, quindi aggiungete il pubblico desiderato.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -37,7 +37,7 @@ Per attivare un pubblico Adobe Experience Platform nei tuoi flussi di lavoro, pr
 
    Facendo clic sul pulsante occhio, potrai accedere semplicemente al Generatore di segmenti unificati (in un&#39;altra scheda) associato al pubblico selezionato all&#39;interno di Campaign.
 
-1. Selezionate un **[!UICONTROL Platform data mapping]**elemento per specificare la dimensione di targeting desiderata per il pubblico selezionato di Adobe Experience Platform.
+1. Selezionate un **[!UICONTROL Platform data mapping]** elemento per specificare la dimensione di targeting desiderata per il pubblico selezionato di Adobe Experience Platform.
 
    Per impostazione predefinita, la chiave primaria (ad esempio, iRecipientID per la tabella Profilo, iAppSubscriptionID per la tabella AppSubscription) utilizzata per la riconciliazione sarà automaticamente disponibile dall’elenco a discesa. Per eseguire il targeting all&#39;esterno della chiave primaria, è necessario creare uno **spazio dei nomi** personalizzato.
 
@@ -47,25 +47,25 @@ Per attivare un pubblico Adobe Experience Platform nei tuoi flussi di lavoro, pr
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Questo elenco contiene tutte le mappature XDM (Experience Data Model) configurate nell&#39;istanza. Per ulteriori informazioni su Adobe Experience Platform Data Connector, consulta [questo documento](../../administration/using/aep-about-data-connector.md)dedicato.
+   Questo elenco contiene tutte le mappature XDM (Experience Data Model) configurate nell&#39;istanza. Per ulteriori informazioni su Adobe Experience Platform Data Connector, consulta [questo documento](../../developing/using/aep-about-data-connector.md)dedicato.
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Una volta configurate correttamente le dimensioni di pubblico e di destinazione, fate clic sul **[!UICONTROL Confirm]**pulsante per salvare le modifiche.
+1. Una volta configurate correttamente le dimensioni di pubblico e di destinazione, fate clic sul **[!UICONTROL Confirm]** pulsante per salvare le modifiche.
 
-Ora puoi configurare il flusso di lavoro con altre attività. Ad esempio, potete collegare un&#39; **[!UICONTROL Email delivery]**attività per inviare un&#39;e-mail all&#39;audience selezionata.
+Ora puoi configurare il flusso di lavoro con altre attività. Ad esempio, potete collegare un&#39; **[!UICONTROL Email delivery]** attività per inviare un&#39;e-mail all&#39;audience selezionata.
 
 ![](assets/aep_wkf_email.png)
 
 >[!NOTE]
 >
->Campaign Standard consente di eseguire il targeting del pubblico Adobe Experience Platform all&#39;interno di tutti i canali di distribuzione: E-mail, messaggi SMS, messaggi di posta diretta, notifiche push e messaggi in-app.
+>Campaign Standard consente di eseguire il targeting del pubblico Adobe Experience Platform all&#39;interno di tutti i canali di distribuzione: E-mail, messaggi SMS, messaggi e-mail diretti, notifiche push e messaggi in-app.
 >
 >*Nota: Per tutti i messaggi push e in-app, Campaign Standard supporta solo le consegne per i soli profili noti.
 
 Per ulteriori informazioni sull&#39;utilizzo dei flussi di lavoro e delle consegne, consulta le sezioni seguenti:
 
-* [Esplorazione dei flussi di lavoro](../../automating/using/discovering-workflows.md)
+* [Esplorazione dei flussi di lavoro](../../automating/using/get-started-workflows.md)
 * [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)
-* [Esplorazione dei canali di comunicazione](../../channels/using/discovering-communication-channels.md)
+* [Esplorazione dei canali di comunicazione](../../channels/using/get-started-communication-channels.md)
 * [Informazioni sulle attività dei canali](../../automating/using/about-channel-activities.md)
