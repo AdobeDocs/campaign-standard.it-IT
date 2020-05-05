@@ -12,14 +12,14 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
 
 # Note sulla versione 2019{#release-notes-2019}
 
-[Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | Rilasci [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) controllo| Aggiornamenti [alla](../../rn/using/documentation-updates.md) documentazione| [Ultime note](../../rn/using/release-notes.md) sulla versione| Funzioni [obsolete](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | Rilasci del [Pannello di controllo](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | Aggiornamenti [alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione più recenti](../../rn/using/release-notes.md) | Funzioni [obsolete](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Rilascio 19.4 - dicembre 2019 {#release-19-4---october-2019}
 
@@ -37,7 +37,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
    <p>Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo colgendo l'opportunità di includere funzionalità aggiuntive per facilitare la disponibilità dell'APP:</p>
    <ul>
     <li>Diritto di accesso e Diritto di eliminazione: stiamo sfruttando le funzionalità aggiunte per il GDPR. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Ulteriori informazioni</a> </li>
-    <li><p>Durante la creazione di una richiesta per la privacy, il tipo di regolamento (GDPR o CCPA) è stato aggiunto al Servizio di base per la privacy. Questo metodo è quello da utilizzare per tutte le richieste di accesso ed eliminazione. L'utilizzo dell'API e dell'interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto.  Consultate l'articolo <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Funzioni</a>obsolete e rimosse.</p></li>
+    <li><p>Durante la creazione di una richiesta per la privacy, il tipo di regolamento (GDPR o CCPA) è stato aggiunto al Servizio di base per la privacy. Questo metodo è quello da utilizzare per tutte le richieste di accesso ed eliminazione. L'utilizzo dell'API e dell'interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto.  Consultate l'articolo <a href="https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html">Funzioni</a>obsolete e rimosse.</p></li>
     <li>Alla risorsa Profili è stato aggiunto un campo di rifiuto <strong></strong> CCPA per consentire agli utenti di Adobe Campaign di verificare se un consumatore ha rinunciato alla vendita di Informazioni personali. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Ulteriori</a>informazioni.</li>
   </ul>
     <p>Fate riferimento al <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">video</a>dimostrativo.</p>
@@ -306,7 +306,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
  <tbody> 
   <tr> 
    <td> Pannello di controllo Campaign<br /> </td> 
-   <td> <p>Per migliorare l'efficienza del lavoro di amministratore, puoi monitorare facilmente la capacità e gestire le impostazioni delle tue istanze (a partire dalla gestione dei server SFTP).</p><p>Per ulteriori informazioni, consultate la documentazione <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">sulle</a>procedure.</p></td> 
+   <td> <p>Per migliorare l'efficienza del lavoro di amministratore, puoi monitorare facilmente la capacità e gestire le impostazioni delle tue istanze (a partire dalla gestione dei server SFTP).</p><p>Per ulteriori informazioni, consultate la documentazione <a href="https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">sulle</a>procedure.</p></td> 
   </tr> 
   <tr> 
    <td> Notifiche locali<br /> </td> 
@@ -368,7 +368,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * Quando si esporta un pacchetto con gruppi di protezione, ora contiene i ruoli assegnati a ciascun gruppo. (CAMP-32960)
 * Nell&#39;attività Carica file, una nuova opzione consente di verificare che le colonne del file che state caricando corrispondano alla definizione della colonna. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/load-file.md)dettagliata. (CAMP-32229)
 * I flussi di lavoro possono ora essere avviati con un payload, consentendo di utilizzare e condividere parametri esterni tra le attività all&#39;interno del flusso di lavoro. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/calling-a-workflow-with-external-parameters.md)dettagliata. (CAMP-29412 e CAMP-29413)
-* Le API Campaign Standard ora ti consentono di aggiornare le unità geografiche e organizzative dei profili utilizzando un payload. Per ulteriori informazioni, consulta la documentazione [](../../api/using/about-campaign-standard-apis.md)dettagliata.
+* Le API Campaign Standard ora ti consentono di aggiornare le unità geografiche e organizzative dei profili utilizzando un payload. Per ulteriori informazioni, consulta la documentazione [](../../api/using/get-started-apis.md)dettagliata.
 * I messaggi di errore quando un oggetto del database non è accessibile sono stati resi più chiari.
 * Nell&#39;attività del file Extract, le funzionalità Javascript sono state aggiornate quando si definisce il nome di un file da esportare. Nel campo Output è ora disponibile solo la funzione formatDate. Per ulteriori informazioni, consulta la documentazione [](../../automating/using/extract-file.md)dettagliata.
 * È stata migliorata la generazione automatica degli ID di sequenza per le risorse personalizzate. Per impostazione predefinita, le chiavi primarie per le nuove risorse personalizzate sono ora a 64 bit.
@@ -490,7 +490,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 **Altre modifiche**
 
-* Adobe Campaign e Adobe Experience Cloud non supporteranno più Microsoft Internet Explorer 11 a partire dalla release Primavera 2019 e Campaign Standard 19.2. Passate a Microsoft Edge o a un altro browser supportato. Consultate [Pagina delle funzioni](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) obsolete e rimosse.
+* Adobe Campaign e Adobe Experience Cloud non supporteranno più Microsoft Internet Explorer 11 a partire dalla release Primavera 2019 e Campaign Standard 19.2. Passate a Microsoft Edge o a un altro browser supportato. Consultate [Pagina delle funzioni](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html) obsolete e rimosse.
 * Il campo del codice **del** paese dalla risorsa Profilo è stato rinominato in codice **del** paese/regione.
 
 **Patch**
@@ -537,7 +537,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
      <li> Possibilità di <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperare automaticamente i contenuti da un URL al momento della preparazione</a> </li> 
      <li> Modelli <a href="../../designing/using/using-reusable-content.md#content-templates">di contenuto</a>out-of-the-box completamente conformi. </li> 
     </ul> 
-    <p>Per ulteriori informazioni, consultate la documentazione <a href="../../designing/using/designing-content-in-adobe-campaign.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">sulle</a>procedure. I miglioramenti e le correzioni sono elencati di seguito.</p><p>Di conseguenza, l'editor del contenuto delle e-mail legacy ora è obsoleto. Per ulteriori informazioni, consultare questa <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">pagina</a>.</p> </td> 
+    <p>Per ulteriori informazioni, consultate la documentazione <a href="../../designing/using/designing-content-in-adobe-campaign.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">sulle</a>procedure. I miglioramenti e le correzioni sono elencati di seguito.</p><p>Di conseguenza, l'editor del contenuto delle e-mail legacy ora è obsoleto. Per ulteriori informazioni, consultare questa <a href="https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html">pagina</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Elenco prodotti nelle e-mail transazionali<br /> </td> 
