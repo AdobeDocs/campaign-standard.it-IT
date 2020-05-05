@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
 
 Adobe Campaign Standard consente di attivare l’assimilazione immediata delle mappature dati tramite API e di recuperare lo stato delle richieste di assimilazione.
 
-Questa pagina descrive come attivare e recuperare lo stato di inserimento delle mappature dati. Per informazioni globali sulle API Campaign Standard, consulta [questa sezione](../../api/using/about-campaign-standard-apis.md).
+Questa pagina descrive come attivare e recuperare lo stato di inserimento delle mappature dati. Per informazioni globali sulle API Campaign Standard, consulta [questa sezione](../../api/using/get-started-apis.md).
 
 ## Prerequisiti {#prerequisites}
 
