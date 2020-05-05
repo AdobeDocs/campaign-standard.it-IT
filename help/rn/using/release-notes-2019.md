@@ -602,7 +602,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * Sono state rimosse le password che venivano visualizzate in modo invisibile in alcuni log SMS.
 * È stato risolto un problema che causava un errore nelle connessioni al simulatore SMPP a causa di una password vuota inviata da Adobe Campaign.
 * È stato risolto un problema che impediva l&#39;invio di campagne in caso di connessioni SMS instabili.
-* È stato risolto un problema che causava la visualizzazione di invii eliminati nel reporting dinamico.
+* È stato risolto un problema che causava la visualizzazione di consegne eliminate nel reporting dinamico.
 * È stato risolto un problema che poteva impedire il recupero di dati aggiuntivi dai registri di consegna, dai registri di tracciamento e dall&#39;esclusione delle tabelle dei registri, quando si utilizzava un&#39;attività di arricchimento in un flusso di lavoro.
 * È stato risolto un problema con le richieste di eliminazione GDPR che poteva verificarsi quando si utilizzava un tipo di collegamento &quot;N collegamento raccolta cardinalità&quot; e l&#39;opzione &quot;Eliminazione del record di destinazione implica l&#39;eliminazione dei riferimenti ai record tramite il collegamento&quot;.
 * È stato risolto un problema di condivisione dei report.
