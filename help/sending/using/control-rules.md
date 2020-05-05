@@ -12,7 +12,7 @@ discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40de67f4c918b26de6d306ce6af5cb8832741d6f
+source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
 
 ---
 
@@ -44,7 +44,7 @@ Un insieme di regole predefinite garantisce i controlli standard. La tabella seg
 | **[!UICONTROL Check URL labels]** | E-mail | All&#39;inizio della personalizzazione | Controlla che ciascun URL di tracciamento disponga di un&#39;etichetta. |
 | **[!UICONTROL Check URLs]** | E-mail | All&#39;inizio della personalizzazione | Controlla gli URL di tracciamento (presenza del carattere &quot;&amp;&quot;). |
 
-## Fase di esecuzione delle regole di controllo (fasi di esecuzione delle regole di controllo)
+## Fase di esecuzione delle regole di controllo {#control-rules-execution-phases}
 
 Le regole di controllo possono essere applicate in diverse fasi del ciclo di vita della consegna:
 
