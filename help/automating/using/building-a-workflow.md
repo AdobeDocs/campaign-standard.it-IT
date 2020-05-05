@@ -13,18 +13,27 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e04b70012188b455382406df167328f963d577da
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
 
 # Creazione di un flusso di lavoro{#building-a-workflow}
 
-Questa sezione descrive i principi principali e le procedure ottimali per la creazione di un nuovo flusso di lavoro:
+Questa sezione descrive i principi principali e le procedure ottimali per la creazione di un nuovo flusso di lavoro.
 
-* Creazione di un flusso di lavoro.
-* Aggiunta e collegamento di attività.
-* Configurazione delle attività.
+## Principi operativi del flusso di lavoro{#workflow-operating-principles}
+
+Un flusso di lavoro è una **sequenza di attività** configurabili. Ogni attività ha un ruolo specifico nel processo. Il risultato di ogni attività viene inoltrato alla seguente attività da una **transizione**, rappresentata da una freccia.
+
+Il tipo di dati scambiati tra un&#39;attività e un&#39;altra può influenzare la configurazione delle seguenti attività. Ad esempio, se una popolazione viene stabilita prima dell&#39;attività di consegna delle e-mail, può fungere da destinazione per l&#39;e-mail in questione.
+
+Potete aprire le attività per controllare o modificare i parametri prima o dopo l&#39;esecuzione del flusso di lavoro.
+
+Potete aprire le transizioni per verificare che i dati inviati siano corretti durante o dopo l&#39;esecuzione del flusso di lavoro. Per accedere alla visualizzazione dettagliata delle transizioni, è necessario selezionare l&#39; **[!UICONTROL Keep interim results]** opzione nella **[!UICONTROL Execution]** sezione delle proprietà del flusso di lavoro.
+
+![](assets/workflow_overview.png)
+
 
 ## Creazione di un flusso di lavoro {#creating-a-workflow}
 
