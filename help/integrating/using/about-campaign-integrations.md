@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -31,7 +31,7 @@ A seconda dell&#39;ambiente, altre soluzioni possono essere collegate ad Adobe E
 
 Un&#39;organizzazione è l&#39;entità che consente all&#39;amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L&#39;organizzazione funziona come un&#39;azienda che abbraccia tutti i prodotti e le soluzioni Experience Cloud. Nella maggior parte dei casi, un&#39;organizzazione è il vostro nome aziendale. Tuttavia, un&#39;azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è dettagliata nel portale [dell&#39;Aiuto di](https://marketing.adobe.com/resources/help/it_IT/mcloud/organizations.html)Adobe Experience Cloud.
 
-Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, consulta la documentazione [sulle](../../api/using/about-campaign-standard-apis.md)API.
+Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, consulta la documentazione [sulle](../../api/using/get-started-apis.md)API.
 
 >[!NOTE]
 >
