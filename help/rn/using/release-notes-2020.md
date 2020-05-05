@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
+source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
 
 ---
 
 
 # Note sulla versione 2020{#release-notes-2020}
 
-[Release Planning](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | Rilasci [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) controllo| Aggiornamenti [alla](../../rn/using/documentation-updates.md) documentazione| [Note](../../rn/using/release-notes-2019.md) sulla versione precedente| Funzioni [obsolete](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
+[Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | Rilasci del [Pannello di controllo](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | Aggiornamenti [alla documentazione](../../rn/using/documentation-updates.md) | Note sulla versione [precedente](../../rn/using/release-notes-2019.md) | Funzioni [obsolete](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Rilascio 20.2 - aprile 2020 {#release-20-2---april-2020}
 
@@ -89,7 +89,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 >[!NOTE]
 >
->Le funzionalità di Adobe Experience Platform di Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette a aggiornamenti frequenti senza preavviso. Consultare la documentazione dettagliata: Connettore [dati della piattaforma](../../administration/using/aep-about-data-connector.md)Experience, Destinazioni [Pubblico](../../audiences/using/aep-about-audience-destinations-service.md)
+>Le funzionalità di Adobe Experience Platform di Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette a aggiornamenti frequenti senza preavviso. Consultare la documentazione dettagliata: [Connettore](../../developing/using/aep-about-data-connector.md)dati della piattaforma Experience, Destinazioni [Pubblico](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * Nei registri del flusso di lavoro, ogni 10 minuti, Campaign ora visualizza il numero di record già elaborati dal processo attualmente in esecuzione.
 * È stato risolto un problema che poteva verificarsi durante l&#39;importazione di un profilo Adobe Experience Platform eliminato dal database.
@@ -136,7 +136,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector è ora integrato con Adobe Campaign Standard. Puoi rendere disponibili i dati della tua campagna su Adobe Experience Platform mappando i dati XTK (i dati acquisiti in Campaign) su Adobe Experience Platform Data Model (XDM). </p>
-    <p>Questa funzionalità è disponibile solo per i clienti ospitati in Azure. Per ulteriori informazioni su questa funzionalità e sulle condizioni di attivazione, consulta la documentazione <a href="../../administration/using/aep-about-data-connector.md"></a> dettagliata e il <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video</a>sulle procedure.</p>
+    <p>Questa funzionalità è disponibile solo per i clienti ospitati in Azure. Per ulteriori informazioni su questa funzionalità e sulle condizioni di attivazione, consulta la documentazione <a href="../../developing/using/aep-about-data-connector.md"></a> dettagliata e il <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video</a>sulle procedure.</p>
    </td> 
   </tr> 
  </tbody> 
