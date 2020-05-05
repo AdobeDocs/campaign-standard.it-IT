@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -28,7 +28,7 @@ La posta diretta è un canale offline che consente di personalizzare e generare 
 
 I canali online consentono di creare i messaggi (e-mail, SMS, distribuzione di app mobili, ecc.) e inviali al tuo pubblico direttamente da Adobe Campaign. Con i canali offline, è diverso. Quando prepari la consegna diretta per posta, Adobe Campaign genera un file contenente tutti i profili di destinazione e le informazioni di contatto scelte (ad esempio l&#39;indirizzo postale). Sarà quindi possibile inviare questo file al provider di posta diretta che si occuperà dell&#39;invio effettivo.
 
-Nella sezione seguente viene illustrato come creare e generare una distribuzione di posta diretta con un solo colpo. È inoltre possibile includere un&#39;attività di posta diretta in un flusso di lavoro per orchestrare campagne che combinano canali online e offline. Per ulteriori informazioni, consulta la guida [Flussi](../../automating/using/workflow-data-and-processes.md) di lavoro.
+Nella sezione seguente viene illustrato come creare e generare una distribuzione di posta diretta con un solo colpo. È inoltre possibile includere un&#39;attività di posta diretta in un flusso di lavoro per orchestrare campagne che combinano canali online e offline. Per ulteriori informazioni, consulta la guida [Flussi](../../automating/using/get-started-workflows.md) di lavoro.
 
 Il processo utente in Adobe Campaign è il seguente:
 
