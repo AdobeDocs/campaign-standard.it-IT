@@ -14,6 +14,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '2479'
+ht-degree: 0%
 
 ---
 
@@ -121,7 +124,7 @@ Potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di
 
 >[!IMPORTANT]
 >
->Gli elenchi di prodotti sono disponibili solo quando si modificano i messaggi e-mail transazionali tramite l&#39;interfaccia di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) .
+>Gli elenchi dei prodotti sono disponibili solo quando si modificano i messaggi e-mail transazionali tramite l&#39;interfaccia di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) .
 
 Per aggiungere un elenco di prodotti abbandonati in un messaggio transazionale, segui i passaggi indicati di seguito.
 
