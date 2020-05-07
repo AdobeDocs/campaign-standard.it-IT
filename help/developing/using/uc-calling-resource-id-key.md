@@ -3,6 +3,9 @@ title: Chiamata di una risorsa tramite una chiave di identificazione composita
 description: Scopri come chiamare una risorsa utilizzando una chiave di identificazione composita
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 3%
 
 ---
 
