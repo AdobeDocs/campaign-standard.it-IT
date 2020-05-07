@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 1%
 
 ---
 
@@ -69,7 +72,7 @@ Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, 
     </td> 
   </tr> 
   <tr> 
-   <td> Adobe Audience Manager e il servizio di base Persone (profili e audience)<br /> </td> 
+   <td> Adobe Audience Manager e il servizio di base Persone (Profili e pubblico)<br /> </td> 
    <td> Consente di scambiare tipi di pubblico con le diverse applicazioni Adobe Experience Cloud utilizzate.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servizio di base Persone (profili e audience)</a><br /> </td> 
   </tr> 
