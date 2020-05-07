@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5775'
+ht-degree: 1%
 
 ---
 
@@ -717,7 +720,7 @@ Elenco dettagliato di tutti i componenti disponibili in Report dinamici e alcune
 
 Elenco dettagliato di KPI condivisi con Adobe Analytics. [Leggi tutto](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-Nuovo video Report dinamico. [Leggi tutto](../../start/using/how-to-videos.md)
+Nuovo video Report dinamico.
 
 Aggiunte le raccomandazioni per l&#39;account S3. [Leggi tutto](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Canale Direct Mail - Torna al mittente, [Leggi tutto](../../channels/using/retur
 
 **Altri aggiornamenti della documentazione in arrivo con il rilascio**
 
-Le guide [e i](../../start/using/step-by-step-guides.md) video [](../../start/using/how-to-videos.md) introduttivi sono stati raggruppati in una sezione dedicata.
+Le guide e i video introduttivi sono stati raggruppati in una sezione dedicata.
 
 La documentazione relativa al rendering per e-mail è stata aggiornata. [Leggi tutto](../../sending/using/email-rendering.md)
 
