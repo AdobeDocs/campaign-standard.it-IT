@@ -14,6 +14,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '1556'
+ht-degree: 0%
 
 ---
 
@@ -138,7 +141,7 @@ When you are performing an initial import with very high volumes of data insert 
 In [questa sezione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)viene illustrata la definizione di collegamenti con altre risorse.
 
 * Sebbene sia possibile unire qualsiasi tabella in un flusso di lavoro, Adobe consiglia di definire collegamenti comuni tra le risorse direttamente nella definizione della struttura dati.
-* Il collegamento deve essere definito in linea con i dati effettivi nelle tabelle. Una definizione errata potrebbe avere un impatto sui dati recuperati tramite collegamenti, ad esempio la duplicazione inattesa di record.
+* Il collegamento deve essere definito in linea con i dati effettivi nelle tabelle. Una definizione errata potrebbe avere un impatto sui dati recuperati tramite collegamenti, ad esempio la duplicazione imprevista di record.
 * Denominate il collegamento in modo coerente con il nome della risorsa: il nome del collegamento deve essere utile per comprendere la tabella lontana.
 * Non assegnate un nome a un collegamento con &quot;id&quot; come suffisso. Ad esempio, denominatelo &quot;transaction&quot; anziché &quot;transactionId&quot;.
 
