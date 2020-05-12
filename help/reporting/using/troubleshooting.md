@@ -12,7 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
+source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 5%
 
 ---
 
@@ -36,9 +39,9 @@ Di seguito è riportata una rappresentazione visiva dell&#39;interazione dei pro
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Giorno</strong><br /> </th> 
+   <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Messaggi aperti</strong> <br /> </th> 
-   <th align="center"> <strong>Aperture</strong> univoche <br /> </th> 
+   <th align="center"> <strong>Aperture univoche</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -64,9 +67,9 @@ Questo si tradurrà nella seguente tabella:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Giorno</strong><br /> </th> 
+   <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>Messaggi aperti</strong> <br /> </th> 
-   <th align="center"> <strong>Aperture</strong> univoche <br /> </th> 
+   <th align="center"> <strong>Aperture univoche</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -100,6 +103,57 @@ Tali occorrenze vengono aggiunte come **&quot;un clic e-mail implica l’apertur
 >[!NOTE]
 >
 >Poiché i conteggi univoci si basano su uno schizzo basato su HLL, è possibile riscontrare piccole incongruenze tra i conteggi.
+
+## Come vengono calcolati i conteggi delle consegne ricorrenti/transazionali? {#counts-recurring-deliveries}
+
+Quando si lavora con consegne ricorrenti e transazionali, i conteggi vengono attribuiti sia alle consegne principali che a quelle secondarie.
+Possiamo prendere l&#39;esempio di una consegna ricorrente denominata **R1** impostata per essere eseguita ogni giorno al giorno 1 (RC1), al giorno 2 (RC2) e al giorno 3 (RC3).
+Supponiamo che solo una singola persona abbia aperto tutte le consegne di bambini più volte. In questo caso, le singole consegne figlio ricorrenti visualizzeranno il **[!UICONTROL Open]** conteggio come 1 per ciascuna.
+Tuttavia, poiché la stessa persona ha fatto clic su tutte le consegne, anche la consegna ricorrente padre avrà **[!UICONTROL Unique open]** come 1.
+
+I rapporti devono essere simili ai seguenti:
+
+<table> 
+ <thead> 
+  <tr> 
+   <th align="center"> <strong>Consegna</strong> <br /> </th> 
+   <th align="center"> <strong>Inviato</strong> <br /> </th> 
+   <th align="center"> <strong>Consegnato</strong> <br /> </th>
+   <th align="center"> <strong>Messaggi aperti</strong> <br /> </th> 
+   <th align="center"> <strong>Aperture univoche</strong> <br /> </th>
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td align="center"> <strong>R1<br/> </td> 
+   <td align="center"> <strong>100<br/> </td> 
+   <td align="center"> <strong>90<br/> </td> 
+   <td align="center"> <strong>10<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
+  </tr> 
+  <tr> 
+   <td align="center"> RC1<br/> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 6<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr>
+    <tr> 
+   <td align="center"> RC2<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 30<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+    <tr> 
+   <td align="center"> RC3<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Qual è il significato dei colori nella tabella dei miei rapporti? {#reports-color-signification}
 
