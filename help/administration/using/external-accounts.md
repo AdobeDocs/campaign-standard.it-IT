@@ -13,7 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+workflow-type: tm+mt
+source-wordcount: '1551'
+ht-degree: 0%
 
 ---
 
@@ -158,7 +161,7 @@ Per un account esterno Google reCAPTCHA V3, fornite i seguenti dettagli:
 >
 >Le informazioni necessarie per configurare l&#39;account esterno in Adobe Campaign Standard sono disponibili nel portale di Azure selezionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-Il connettore di archiviazione BLOB di Azure può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività di flusso di lavoro **[!UICONTROLTdi trasferimento file]** . For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Il connettore di archiviazione BLOB di Azure può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività di **[!UICONTROL Transfer file]** flusso di lavoro. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Per un account esterno di archiviazione BLOB di Microsoft Azure, fornire i seguenti dettagli:
 
