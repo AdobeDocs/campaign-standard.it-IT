@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
 * **Campi maschere autorizzati**
 
-   Vengono **[!UICONTROL Header parameters of sent emails]** elencati gli indirizzi e-mail autorizzati che è possibile utilizzare per inviare e-mail ai destinatari (indirizzo del mittente) e per notificare loro eventuali errori (indirizzo di errore).  Adobe Campaign verifica che gli indirizzi immessi siano validi durante la fase di preparazione dei messaggi. Questa modalità operativa assicura che non vengano utilizzati indirizzi che possano causare problemi di recapito.
+   La **[!UICONTROL Header parameters of sent emails]** sezione elenca gli indirizzi e-mail autorizzati che potete utilizzare per inviare e-mail ai destinatari (indirizzo del mittente) e per consentire loro di inviare risposte automatizzate come rimbalzi asincroni, risposte non in ufficio, ecc. (indirizzo di errore).  Adobe Campaign verifica che gli indirizzi immessi siano validi durante la fase di preparazione dei messaggi. Questa modalità operativa assicura che non vengano utilizzati indirizzi che possano causare problemi di recapito.
    * Sia il mittente che l&#39;indirizzo di errore sono impostati da Adobe. Questi campi non possono essere vuoti.
    * Non è possibile modificare tali campi. Per aggiornare un indirizzo, contatta il team di assistenza clienti Adobe.
    * Per aggiungere un altro indirizzo, potete utilizzare il Pannello [di](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) controllo per impostare un nuovo sottodominio o contattare il team di assistenza clienti di Adobe. Tenete presente che se vengono utilizzate più maschere, queste saranno separate da virgole.
@@ -53,7 +56,7 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
 * **Parametri di consegna**
 
-   Adobe Campaign invia i messaggi a partire dalla data di inizio. Il **[!UICONTROL Message delivery duration]** campo consente di specificare la durata durante la quale i messaggi possono essere inviati.
+   Adobe Campaign invia i messaggi a partire dalla data di inizio. Il **[!UICONTROL Message delivery duration]** campo consente di specificare l&#39;intervallo di tempo entro il quale verrà ritentato qualsiasi messaggio nel recapito che rilevi un errore temporaneo o un rimbalzo morbido.
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
 * **Parametri di quarantena e-mail**
 
-   Nel **[!UICONTROL Time between two significant errors]** campo, immettere un valore per definire l&#39;ora in cui l&#39;applicazione attende prima di incrementare il contatore di errori in caso di errore. Il valore predefinito è **&quot;1d&quot;**, per 1 giorno.
+   Nel **[!UICONTROL Time between two significant errors]** campo, immettere un valore per definire l&#39;ora in cui l&#39;applicazione attende prima di incrementare il contatore di errori in caso di errore con rimbalzo non corretto. Il valore predefinito è **&quot;1d&quot;**, per 1 giorno.
 
    Una volta raggiunto il **[!UICONTROL Maximum number of errors before quarantine]** valore, l&#39;indirizzo e-mail viene quindi messo in quarantena. Il valore predefinito è **&quot;5&quot;**: l&#39;indirizzo verrà messo in quarantena al quinto errore. Ciò significa che il contatto sarà automaticamente escluso dalle consegne successive.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -102,9 +105,9 @@ I domini e-mail e le regole MX ora sono gestiti dall&#39;MTA avanzata di Adobe C
 
 ### Messaggi di rimbalzo {#bounce-mails}
 
-I messaggi di rimbalzo asincroni sono ancora qualificati dal processo Campaign inMail attraverso la **[!UICONTROL Bounce mails]** regola.
+I messaggi di rimbalzo asincroni sono ancora qualificati dal processo Campaign inMail attraverso le **[!UICONTROL Bounce mails]** regole.
 
-Questa regola contiene l&#39;elenco di stringhe di caratteri che possono essere restituite dai server remoti e che consentono di qualificare l&#39;errore (**Hard**, **Soft** o **Ignored**).
+Queste regole contengono l&#39;elenco di stringhe di caratteri che possono essere restituite dai server remoti e che consentono di qualificare l&#39;errore (**Hard**, **Soft** o **Ignored**).
 
 >[!NOTE]
 >
