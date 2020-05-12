@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '5775'
+source-wordcount: '5807'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ Oltre alle Note [sulla](../../rn/using/release-notes.md)versione di Adobe Campai
 La pagina di panoramica di Campaign Standard è stata arricchita e riorganizzata in temi tematici. [Leggi tutto](../../start/using/about-campaign-standard.md)
 
 La sezione Parametri del canale e-mail è stata chiarita con ulteriori informazioni sui campi delle maschere autorizzate e sull’ID dei rapporti di consegna. [Leggi tutto](../../administration/using/configuring-email-channel.md)
+
+La configurazione di un’applicazione mobile mediante gli SDK di Adobe Experience Platform è ora disponibile nella documentazione di base con ulteriori informazioni relative all’SDK per app mobile Sync Mobile dal flusso di lavoro tecnico di Launch. [Leggi tutto](../../administration/using/configuring-a-mobile-application.md)
 
 ## Rilascio 20.3 - maggio 2020 {#release-20-3---may-2020}
 
@@ -854,7 +856,7 @@ Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../
 
 Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/get-started-apis.md)
 
-Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro per segnali [](../../automating/using/external-signal.md) esterni.
+Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
