@@ -37,20 +37,20 @@ ht-degree: 93%
       + [Attività di marketing](start/using/marketing-activities.md)
       + [Modelli di attività di marketing](start/using/marketing-activity-templates.md)
       + [Timeline](start/using/timeline.md)
-+ Profili e audience {#profiles-and-audiences}
++ Profili e pubblico {#profiles-and-audiences}
    + [Introduzione a profili e audience](audiences/using/get-started-profiles-and-audiences.md)
    + Gestione dei profili {#managing-profiles}
       + [Informazioni sui profili](audiences/using/about-profiles.md)
       + [Creazione di profili](audiences/using/creating-profiles.md)
       + [Modifica dei profili](audiences/using/editing-profiles.md)
-      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
+      + [Profilo cliente integrato](audiences/using/integrated-customer-profile.md)
       + [Profili attivi](audiences/using/active-profiles.md)
       + [Gestione dei profili di test](audiences/using/managing-test-profiles.md)
-      + [Arricchimento database Campaign](audiences/using/enriching-campaign-database.md)
-   + Gestione dell’audience {#managing-audiences}
-      + [Informazioni sui tipi di audience](audiences/using/about-audiences.md)
-      + [Creazione di audience](audiences/using/creating-audiences.md)
-      + [Selezione di un’audience in un messaggio](audiences/using/selecting-an-audience-in-a-message.md)
+      + [Arricchimento del database di Campaign](audiences/using/enriching-campaign-database.md)
+   + Gestione dei tipi di pubblico {#managing-audiences}
+      + [Informazioni sui tipi di pubblico](audiences/using/about-audiences.md)
+      + [Creazione di un pubblico](audiences/using/creating-audiences.md)
+      + [Selezione di un pubblico in un messaggio](audiences/using/selecting-an-audience-in-a-message.md)
    + Gestione delle sottoscrizioni {#managing-subscriptions}
       + [Informazioni sulle sottoscrizioni](audiences/using/about-subscriptions.md)
       + [Creazione di un servizio](audiences/using/creating-a-service.md)
@@ -90,11 +90,11 @@ ht-degree: 93%
       + [Preparazione e invio di una notifica push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personalizzazione di una notifica push](channels/using/customizing-a-push-notification.md)
       + [Creazione di una notifica push multilingue](channels/using/creating-a-multilingual-push-notification.md)
-      + [Generazione di un file CSV per le notifiche push multilingue](channels/using/generating-csv-multilingual-push.md)
+      + [Generazione di un file CSV per notifiche push multilingue](channels/using/generating-csv-multilingual-push.md)
       + [Creazione e aggiornamento delle informazioni sul profilo in base ai dati delle applicazioni mobili](channels/using/updating-profile-with-mobile-app-data.md)
       + [Implementazione del tracciamento push](channels/using/push-tracking.md)
-      + [Visualizzazione di un&#39;immagine da una notifica push di Adobe Campaign Standard](channels/using/image-push-notification.md)
-      + [Informazioni sulla struttura del payload delle notifiche push di Campaign Standard](channels/using/push-payload.md)
+      + [Visualizzazione di un’immagine da una notifica push di Adobe Campaign Standard](channels/using/image-push-notification.md)
+      + [Struttura del payload per le notifiche push di Campaign Standard](channels/using/push-payload.md)
    + Messaggistica in-app {#in-app-messaging}
       + [Informazioni sulla messaggistica in-app](channels/using/about-in-app-messaging.md)
       + [Preparazione e invio di un messaggio in-app](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -103,7 +103,7 @@ ht-degree: 93%
       + [Informazioni sulla direct mail](channels/using/about-direct-mail.md)
       + [Rendi al mittente](channels/using/return-to-sender.md)
       + [Creazione della direct mail](channels/using/creating-the-direct-mail.md)
-      + [Definizione dell’audience della direct mail](channels/using/defining-the-direct-mail-audience.md)
+      + [Definizione del pubblico della direct mail](channels/using/defining-the-direct-mail-audience.md)
       + [Definizione del contenuto della direct mail](channels/using/defining-the-direct-mail-content.md)
       + [Esempio di direct mail in un flusso di lavoro](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Messaggi transazionali {#transactional-messaging}
@@ -142,7 +142,7 @@ ht-degree: 93%
       + [Anteprima delle consegne](sending/using/previewing-messages.md)
       + [Preparazione dell’invio](sending/using/preparing-the-send.md)
       + [Invio di prove](sending/using/sending-proofs.md)
-      + [Verifica delle e-mail tramite profili target](sending/using/testing-messages-using-target.md)
+      + [Verifica dei messaggi e-mail tramite profili di destinazione](sending/using/testing-messages-using-target.md)
       + [Verifica dell’oggetto di un messaggio e-mail](sending/using/testing-subject-line-email.md)
       + [Rendering di e-mail](sending/using/email-rendering.md)
       + [Utilizzo delle “trappole”](sending/using/using-traps.md)
@@ -222,17 +222,17 @@ ht-degree: 93%
       + [Informazioni sull’integrazione di Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configurare l’integrazione Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensioni e metriche di Campaign in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign e Audience Manager o servizio di base Persone {#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [Informazioni sull’integrazione di Campaign-Audience Manager o del servizio di base Persone](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Provisioning e configurazione dell’integrazione con i servizi di base di Audience Manager o Persone](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+   + Campaign e Audience Manager o il servizio core People {#working-with-campaign-and-audience-manager-or-people-core-service}
+      + [Informazioni sull’integrazione di Campaign con Audience Manager o il servizio core People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+      + [Provisioning e configurazione dell’integrazione con Audience Manager o il servizio core People](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Risoluzione dei problemi](integrating/using/troubleshooting.md)
-      + [Condivisione di audience con Audience Manager o il servizio di base Persone](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-      + [Utilizzo del servizio di base Campaign e Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
+      + [Condivisione dei tipi di pubblico con Audience Manager o il servizio core People](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+      + [Utilizzo di Campaign con il servizio core Assets](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign e Analytics per dispositivi mobili {#working-with-campaign-and-analytics-for-mobile}
       + [Informazioni sull’integrazione dei dati Campaign-Punti di interesse](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configurazione dell’integrazione dei dati Campaign-Punti di interesse](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalizzazione dei messaggi di Campaign con i dati dei punti di interesse](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign e trigger {#working-with-campaign-and-triggers}
+   + Campaign e Triggers {#working-with-campaign-and-triggers}
       + [Informazioni su Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configurazione di Triggers in Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilizzo di Triggers in Campaign](integrating/using/using-triggers-in-campaign.md)
@@ -268,8 +268,8 @@ ht-degree: 93%
       + [Intersezione](automating/using/intersection.md)
       + [Esclusione](automating/using/exclusion.md)
       + [Segmentazione](automating/using/segmentation.md)
-      + [Leggi audience](automating/using/read-audience.md)
-      + [Salva audience](automating/using/save-audience.md)
+      + [Leggi pubblico](automating/using/read-audience.md)
+      + [Salva pubblico](automating/using/save-audience.md)
       + [Deduplicazione](automating/using/deduplication.md)
       + [Arricchimento](automating/using/enrichment.md)
    + Attività di esecuzione {#execution-activities}
@@ -317,7 +317,7 @@ ht-degree: 93%
       + [Retargeting di non-openers](automating/using/workflow-cross-channel-retargeting.md)
       + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
       + [Creazione di recapito messaggi cross-channel](automating/using/workflow-cross-channel-delivery.md)
-   + Utilizzo dei tipi di pubblico con Adobe Experience Platform {#working-with-aep-audiences}
+   + Utilizzo dei tipi di pubblico di Adobe Experience Platform {#working-with-aep-audiences}
       + [Targeting dei tipi di pubblico di Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Sviluppo {#developing}
@@ -346,7 +346,7 @@ ht-degree: 93%
       + [Estensione delle sottoscrizioni a una risorsa dell’applicazione](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modello dati {#datamodel}
       + [Introduzione](developing/using/datamodel-introduction.md)
-      + [Audience](developing/using/datamodel-audience.md)
+      + [Pubblico](developing/using/datamodel-audience.md)
       + [Campagna](developing/using/datamodel-campaign.md)
       + [Consegna](developing/using/datamodel-delivery.md)
       + [Pagine di destinazione](developing/using/datamodel-landingpage.md)
