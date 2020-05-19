@@ -12,7 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '4623'
+ht-degree: 0%
 
 ---
 
@@ -90,7 +93,7 @@ _Flussi di lavoro_
 * È stato risolto un problema relativo all&#39; **[!UICONTROL Reconciliation]** attività.
 * È stato risolto un problema relativo all&#39;utilizzo di caratteri jolly nell&#39; **[!UICONTROL File Transfer]** attività.
 
-_Profili e audience_
+_Profili e pubblico_
 
 * È stato risolto un problema che poteva impedire che in alcuni casi specifici si tenesse correttamente conto di una condizione di una query, generando risultati erronei.
 * È stato risolto un problema che impediva l&#39;accesso ai profili se questi venivano utilizzati come destinazione in un messaggio preparato ma mai inviato e scaduto.
@@ -171,7 +174,7 @@ _Integrazioni_
 * Le eVar ed eventi ora sono supportati per l&#39;integrazione di Analytics e Campaign.
 * Quando si invia un&#39;e-mail con il contenuto del carrello abbandonato, il parametro payload per gli elementi rimossi dal carrello ora è facoltativo.
 
-_Profili e audience_
+_Profili e pubblico_
 
 * Adobe Campaign ora fornisce un rapporto che mostra il numero di profili attivi. Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione. Per ulteriori informazioni, consulta la documentazione [](../../audiences/using/active-profiles.md)dettagliata.
 * È stato risolto un problema che impediva la sottoscrizione dei profili a un servizio quando si utilizzava l&#39;API Profili e servizi.
@@ -247,7 +250,7 @@ _Rapporti_
 
 _Flussi di lavoro_
 
-* È ora possibile filtrare i registri del flusso di lavoro (periodo di tempo e ricerca del testo). Per ulteriori informazioni, consultare la documentazione [dettagliata](../../automating/using/executing-a-workflow.md#monitoring).
+* È ora possibile filtrare i registri del flusso di lavoro (periodo di tempo e ricerca del testo). Per ulteriori informazioni, consultare la documentazione [dettagliata](../../automating/using/monitoring-workflow-execution.md).
 * È ora disponibile un&#39;opzione nelle consegne del flusso di lavoro per disattivare la conferma prima dell&#39;invio.
 * È stato risolto un problema che impediva di impostare una transizione in uscita nella creazione guidata di consegna ricorrente.
 * È stato risolto un problema che si verificava durante l&#39;utilizzo di un&#39;attività di query del flusso di lavoro basata su un campo di risorse personalizzato con un&#39;enumerazione contenente molti valori
