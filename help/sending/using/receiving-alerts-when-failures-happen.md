@@ -12,7 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 1%
 
 ---
 
@@ -197,7 +200,7 @@ Nella **[!UICONTROL Criteria parameters]** scheda di una dashboard [avvisi](#cre
 
 * **[!UICONTROL Maximum ratio of soft bounce errors]**: Viene inviata una notifica per tutte le consegne con un rapporto di errore soft bounce maggiore del valore specificato. Per impostazione predefinita, il valore di questo campo è impostato su 0,05 (5%).
 
-   Per ulteriori informazioni sugli errori di rimbalzo soft, consulta [Qualificazione](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Elenco dei tipi](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)di consegna non riuscita.
+   Per ulteriori informazioni sugli errori di rimbalzo soft, consulta Qualificazione [e](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) elenco dei tipi [](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)di consegna non riuscita.
 
 * **[!UICONTROL Maximum ratio of hard bounce errors]**: Viene inviata una notifica per tutte le consegne con un rapporto di errore rimbalzo rigido maggiore del valore specificato. Per impostazione predefinita, il valore di questo campo è impostato su 0,05 (5%).
 
@@ -206,7 +209,7 @@ Nella **[!UICONTROL Criteria parameters]** scheda di una dashboard [avvisi](#cre
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: Viene inviata una notifica per tutte le consegne con uno **[!UICONTROL Start pending]** stato maggiore della durata specificata in questo campo, **[!UICONTROL Start pending]** stato che significa che i messaggi non sono ancora stati presi in considerazione dal sistema.
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: Per il **[!UICONTROL In progress]** criterio vengono prese in considerazione solo le consegne iniziate (con **[!UICONTROL Deliveries with low throughput]** stato) per più della durata specificata.
 * **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: Per il **[!UICONTROL Deliveries with low throughput]** criterio vengono prese in considerazione solo le consegne con una percentuale di messaggi elaborati inferiore alla percentuale specificata.
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Per il **[!UICONTROL Deliveries with low throughput]** criterio vengono prese in considerazione solo le consegne con una velocità effettiva inferiore al valore specificato.
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Per il **[!UICONTROL Deliveries with low throughput]** criterio vengono prese in considerazione solo le consegne con un throughput inferiore al valore specificato.
 * **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: Vengono prese in considerazione solo le consegne con una percentuale di messaggi elaborati superiore alla percentuale specificata.
 
 ### Frequenza avvisi {#alerting-frequency}
@@ -237,7 +240,7 @@ Di seguito sono riportati alcuni possibili motivi per ricevere le notifiche di a
    * Timeout della connessione tra il server di distribuzione di Adobe Campaign e il server di ricezione
    * Un problema di recapito
    * Flusso di lavoro errato
-   Se la consegna viene attivata con un flusso di lavoro, verificate che il flusso di lavoro sia stato avviato correttamente. Per ulteriori informazioni, consultate [Esecuzione di un flusso di lavoro](../../automating/using/executing-a-workflow.md). In caso contrario, contattate l&#39;amministratore di Adobe Campaign per risolvere il problema.
+   Se la consegna viene attivata con un flusso di lavoro, verificate che il flusso di lavoro sia stato avviato correttamente. Per ulteriori informazioni, consultate [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md). In caso contrario, contattate l&#39;amministratore di Adobe Campaign per risolvere il problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Un errore può verificarsi durante la preparazione della consegna nei seguenti casi:
 
