@@ -12,7 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ Ad esempio:
 
 ## Duplicazione dei flussi di lavoro{#duplicating-workflows}
 
-Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, passate il mouse sul flusso di lavoro e fate clic su**[!UICONTROL Duplicate element]**. Una volta duplicate, le modifiche del flusso di lavoro non vengono riportate nella copia del flusso di lavoro. È possibile modificare la copia del flusso di lavoro.
+Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, passate il mouse sul flusso di lavoro e fate clic su **[!UICONTROL Duplicate element]**. Una volta duplicate, le modifiche del flusso di lavoro non vengono riportate nella copia del flusso di lavoro. È possibile modificare la copia del flusso di lavoro.
 
 ![](assets/duplicating_workflow.png)
 
@@ -64,7 +67,7 @@ I flussi di lavoro in stato di pausa o di mancata riuscita per più di 7 giorni 
 
 È comunque possibile eseguire un flusso di lavoro contenente transizioni non interrotte: genererà un messaggio di avviso e il flusso di lavoro verrà messo in pausa una volta raggiunta la transizione, ma non genererà un errore. Potete anche avviare un flusso di lavoro senza una progettazione completa e completarlo man mano che proseguite.
 
-Per ulteriori informazioni, vedere [Esecuzione di flussi di lavoro](../../automating/using//executing-a-workflow.md).
+Per ulteriori informazioni, vedere [Esecuzione di flussi di lavoro](../../automating/using/about-workflow-execution.md).
 
 ### Fuso orario
 
@@ -77,7 +80,7 @@ Le proprietà del flusso di lavoro consentono di definire un fuso orario specifi
 
 Per garantire il corretto completamento del flusso di lavoro, utilizzate un **[!UICONTROL End activity]**. Evitate di lasciare l’ultima transizione di un flusso di lavoro per conto proprio.
 
-Per accedere alla visualizzazione dettagliata delle transizioni, selezionate l&#39; **[!UICONTROL Keep interim results]**opzione nella sezione Esecuzione delle proprietà del flusso di lavoro.
+Per accedere alla visualizzazione dettagliata delle transizioni, selezionate l&#39; **[!UICONTROL Keep interim results]** opzione nella sezione Esecuzione delle proprietà del flusso di lavoro.
 
 >[!CAUTION]
 >
@@ -88,15 +91,15 @@ Per accedere alla visualizzazione dettagliata delle transizioni, selezionate l&#
 
 ### Attività di etichettatura{#activity-labeling}
 
-Durante lo sviluppo del flusso di lavoro, viene generato un nome per ogni attività, come per tutti gli oggetti Adobe Campaign. Mentre il nome di un&#39;attività viene generato dallo strumento e non può essere modificato, al momento della configurazione è consigliabile assegnargli un nome esplicito.
+Durante lo sviluppo del flusso di lavoro, viene generato un nome per ogni attività, come per tutti gli oggetti di Adobe Campaign. Anche se il nome di un&#39;attività viene generato dallo strumento e non può essere modificato, al momento della configurazione è consigliabile assegnargli un nome esplicito.
 
 ### Duplicazione delle attività{#activity-duplicating}
 
-Per duplicare le attività esistenti, potete utilizzare il comando Copia-Incolla. In questo modo, potete mantenere le impostazioni originariamente definite. Per ulteriori informazioni, vedere [Duplicazione delle attività](../../automating/using/workflow-interface.md)del flusso di lavoro.
+Per duplicare le attività esistenti, potete utilizzare la funzione di copia e incolla. In questo modo, potete mantenere le impostazioni originariamente definite. Per ulteriori informazioni, vedere [Duplicazione delle attività](../../automating/using/workflow-interface.md)del flusso di lavoro.
 
-###  Attività di pianificazione{#acheduler-activity}
+### Attività di pianificazione{#acheduler-activity}
 
-Durante la creazione del flusso di lavoro, usate solo un **[!UICONTROL Scheduler activity]**ramo per ramo. Se lo stesso ramo di un flusso di lavoro include più pianificatori (collegati tra loro), il numero di attività da eseguire verrà moltiplicato in modo esponenziale, con conseguente notevole sovraccarico del database.
+Durante la creazione del flusso di lavoro, usate solo un **[!UICONTROL Scheduler activity]** ramo per ramo. Se lo stesso ramo di un flusso di lavoro include più pianificatori (collegati tra loro), il numero di attività da eseguire verrà moltiplicato in modo esponenziale, con conseguente notevole sovraccarico del database.
 
 Puoi visualizzare in anteprima le dieci esecuzioni successive dei flussi di lavoro facendo clic su **[!UICONTROL Preview next executions]**.
 
@@ -119,8 +122,8 @@ Per ulteriori informazioni, consultate [Gestione dei pacchetti](../../automating
 
 ## Esportazione di elenchi{#exporting-lists}
 
-L’opzione di elenco di esportazione consente di esportare un massimo di 100.000 righe per impostazione predefinita e definita dall’opzione **** Nms_ExportListLimit. Questa opzione può essere gestita dall&#39;amministratore funzionale, in **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
-Per ulteriori informazioni, vedere[Esportazione di elenchi](../../automating/using/exporting-lists.md).
+L’opzione di elenco di esportazione consente di esportare un massimo di 100.000 righe per impostazione predefinita e definita dall’opzione **** Nms_ExportListLimit. Questa opzione può essere gestita dall&#39;amministratore funzionale, in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+Per ulteriori informazioni, vedere [Esportazione di elenchi](../../automating/using/exporting-lists.md).
 
 ## Risoluzione dei problemi{#workflow-troubleshooting}
 
@@ -130,21 +133,21 @@ Adobe Campaign offre diversi registri per comprendere meglio i problemi dei flus
 
 Potete accedere ai registri del flusso di lavoro per monitorare l’esecuzione delle attività. Esso indicizza le operazioni eseguite e gli errori di esecuzione in ordine cronologico. La scheda Registri è costituita dalla cronologia dell’esecuzione di tutte o di alcune attività selezionate.
 Nella scheda Attività viene illustrata la sequenza di esecuzione delle attività. Per ottenere ulteriori informazioni su un&#39;attività, fate clic su un&#39;attività.
-Per ulteriori informazioni, vedere Esecuzione [del flusso di lavoro di](../../automating/using/executing-a-workflow.md#monitoring)monitoraggio.
+Per ulteriori informazioni, vedere Esecuzione [del flusso di lavoro di](../../automating/using/monitoring-workflow-execution.md)monitoraggio.
 
 #### Troubleshooting data management activities{#troubleshooting-data-management-activities}
 
 È possibile analizzare le query SQL nella scheda Registro.
 
 1. Nell’area di lavoro del flusso di lavoro, fate clic su **[!UICONTROL Edit properties]**.
-1. In **[!UICONTROL General]**>**[!UICONTROL Execution]**, selezionate le **[!UICONTROL Save SQL queries in the log]**opzioni e**[!UICONTROL Execute in the engine]** fate clic su **[!UICONTROL Confirm]**.
+1. In **[!UICONTROL General]** > **[!UICONTROL Execution]**, selezionate le **[!UICONTROL Save SQL queries in the log]** opzioni e **[!UICONTROL Execute in the engine]** fate clic su **[!UICONTROL Confirm]**.
 
 **Per visualizzare le query SQL nel registro:**
 1. Clic **[!UICONTROL Log and Tasks]**.
-1. Nella **[!UICONTROL Logs]**scheda, aprite il**[!UICONTROL Search]** pannello.
+1. Nella **[!UICONTROL Logs]** scheda, aprite il **[!UICONTROL Search]** pannello.
 1. Controlla **[!UICONTROL Display SQL logs only]**.
 
-La query viene visualizzata nella **[!UICONTROL Message]**colonna dei registri.
+La query viene visualizzata nella **[!UICONTROL Message]** colonna dei registri.
 
 ### Utilizzo dei registri di consegna{#using-delivery-logs}
 
@@ -154,8 +157,8 @@ Per ulteriori informazioni, vedere [Informazioni sugli errori](../../sending/usi
 ### Utilizzo degli avvisi sulla consegna{#delivery-alerting}
 
 La funzione di avviso sulla distribuzione è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle consegne.
-Per ulteriori informazioni, consulta [Avviso](../../sending/using/receiving-alerts-when-failures-happen.md)sulla consegna.
+Per ulteriori informazioni, consulta Avvisi sulla [consegna](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 **Argomenti correlati:**
 
-* [Gestione errori](../../automating/using/executing-a-workflow.md#error-management)
+* [Gestione errori](../../automating/using/monitoring-workflow-execution.md)
