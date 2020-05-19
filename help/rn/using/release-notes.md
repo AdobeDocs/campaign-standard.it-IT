@@ -12,14 +12,17 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 0%
 
 ---
 
 
 # Ultima versione{#latest-release}
 
-[Release Planning](../../rn/using/release-planning.md) | Rilasci [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) controllo| Aggiornamenti [alla](../../rn/using/documentation-updates.md) documentazione| [Note](../../rn/using/release-notes-2020.md) sulla versione precedente| Funzioni [obsolete](../../rn/using/deprecated-features.md)
+[Pianificazione rilascio](../../rn/using/release-planning.md) | Rilasci del [Pannello di controllo](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | Aggiornamenti [alla documentazione](../../rn/using/documentation-updates.md) | Note sulla versione [precedente](../../rn/using/release-notes-2020.md) | Funzioni [obsolete](../../rn/using/deprecated-features.md)
 
 ## Rilascio 20.3 - maggio 2020 {#release-20-3---may-2020}
 
@@ -91,7 +94,7 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 * Le caselle di controllo ora possono essere obbligatorie in una pagina di destinazione.
 * Quando si scarica il file CSV di un rapporto dinamico, il limite di 200 righe è stato rimosso. Ora puoi includere ogni riga del rapporto. (CAMP-40810)
 * È stata aggiunta la lingua ES-US nell&#39;elenco delle lingue pronte all&#39;uso per le e-mail in più lingue. (CAMP-42279)
-* I file scaricati con un&#39;attività di trasferimento file ora verranno eliminati dopo X giorni, dove X è determinato dal campo **Cronologia in giorni** nel menu **Esecuzione** delle proprietà Flusso di lavoro. [Leggi tutto](../../automating/using/executing-a-workflow.md#workflow-properties)
+* I file scaricati con un&#39;attività di trasferimento file ora verranno eliminati dopo X giorni, dove X è determinato dal campo **Cronologia in giorni** nel menu **Esecuzione** delle proprietà Flusso di lavoro. [Leggi tutto](../../automating/using/managing-execution-options.md)
 
 **Integrazioni con la piattaforma Experience**
 
