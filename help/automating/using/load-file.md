@@ -13,7 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1771'
+ht-degree: 0%
 
 ---
 
@@ -105,7 +108,7 @@ La configurazione dell&#39;attività prevede due passaggi. Innanzitutto, è nece
 
 1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
 
-Se si verifica un errore con l&#39;attività dopo l&#39;esecuzione del flusso di lavoro, fare riferimento ai registri per ottenere ulteriori dettagli sui valori errati nel file. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
+Se si verifica un errore con l&#39;attività dopo l&#39;esecuzione del flusso di lavoro, fare riferimento ai registri per ottenere ulteriori dettagli sui valori errati nel file. For more on workflows logs, refer to [this section](../../automating/using/monitoring-workflow-execution.md).
 
 ## Formato colonna {#column-format}
 
