@@ -10,7 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1703'
+ht-degree: 0%
 
 ---
 
@@ -158,7 +161,7 @@ Questa scheda consente di attivare la transizione **in uscita** e la relativa et
 
 ### Opzioni di esecuzione
 
-Questa scheda è disponibile nella maggior parte delle attività del flusso di lavoro. Per ulteriori informazioni, consulta la sezione Proprietà [](../../automating/using/executing-a-workflow.md#activity-properties) attività.
+Questa scheda è disponibile nella maggior parte delle attività del flusso di lavoro. Per ulteriori informazioni, consulta la sezione Proprietà [](../../automating/using/activity-properties.md) attività.
 
 ![](assets/externalAPI-options.png)
 
