@@ -13,7 +13,10 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +75,7 @@ La creazione di un&#39;attività di marketing è dettagliata nella sezione [Crea
 **Argomento correlato:**
 
 * [Creazione di un video di workflow](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
-* [Proprietà flusso di lavoro](../../automating/using/executing-a-workflow.md#workflow-properties)
+* [Proprietà flusso di lavoro](../../automating/using/managing-execution-options.md)
 
 ## Aggiunta e collegamento di attività {#adding-and-linking-activities}
 
