@@ -12,7 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: e22a2fcfd36adc1d4c9b62b1fd336e553c69b5af
+workflow-type: tm+mt
+source-wordcount: '1961'
+ht-degree: 0%
 
 ---
 
@@ -122,7 +125,7 @@ Ad esempio, per decifrare un file con PGP, il comando sarà:
    <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
    ```
 
-Una volta elaborata la richiesta, i comandi di cifratura/decrittazione saranno disponibili nel **!UICONTROL Pre-processing stage]** campo dalle **[!UICONTROL Load file]** attività e **[!UICONTROL Extract file]** . Potete utilizzarli per decifrare o cifrare i file da importare o esportare.
+Una volta elaborata la richiesta, i comandi di cifratura/decrittazione saranno disponibili nel **[!UICONTROL Pre-processing stage]** campo dalle **[!UICONTROL Load file]** attività e **[!UICONTROL Extract file]** . Potete utilizzarli per decifrare o cifrare i file da importare o esportare.
 
 ![](assets/preprocessing-encryption.png)
 
