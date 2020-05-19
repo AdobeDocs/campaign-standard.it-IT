@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 93%
+source-wordcount: '1451'
+ht-degree: 92%
 
 ---
 
@@ -239,7 +239,6 @@ ht-degree: 93%
       + [Verifica degli attivatori](integrating/using/testing-your-triggers.md)
       + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Configurazione di Adobe IO per l’integrazione con Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Utilizzo di Campaign Standard e Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Introduzione all&#39;integrazione con Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Informazioni sull&#39;integrazione con Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -257,8 +256,14 @@ ht-degree: 93%
       + [Dati di targeting](automating/using/targeting-data.md)
       + [Importazione di dati](automating/using/importing-data.md)
       + [Utilizzo dei dati del flusso di lavoro](automating/using/using-workflow-data.md)
-      + [Esecuzione di un flusso di lavoro](automating/using/executing-a-workflow.md)
       + [Procedure consigliate per i flussi di lavoro](automating/using/best-practices-workflows.md)
+   + [Esecuzione di un flusso di lavoro]{#executing-a-workflow}
+      + [Informazioni sull&#39;esecuzione del flusso di lavoro](automating/using/about-workflow-execution.md)
+      + [Ciclo di vita del flusso di lavoro](automating/using/workflow-life-cycle.md)
+      + [Comandi di esecuzione](automating/using/execution-commands.md)
+      + [Esecuzione del flusso di lavoro di monitoraggio](automating/using/monitoring-workflow-execution.md)
+      + [Gestione delle opzioni di esecuzione](automating/using/managing-execution-options.md)
+      + [Gestione delle proprietà delle attività](automating/using/activity-properties.md)
    + [Chiamata di un flusso di lavoro con parametri esterni](automating/using/calling-a-workflow-with-external-parameters.md)
    + Attività di targeting {#targeting-activities}
       + [Informazioni sulle attività di targeting](automating/using/about-targeting-activities.md)
