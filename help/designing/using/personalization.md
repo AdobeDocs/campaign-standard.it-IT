@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ Una volta generata la personalizzazione (ad esempio, durante l’anteprima e la 
 
 >[!NOTE]
 >
->Se l’e-mail viene creata da un flusso di lavoro, i dati aggiuntivi calcolati nel flusso di lavoro sono disponibili anche nei campi di personalizzazione. Per ulteriori informazioni sull&#39;aggiunta di dati aggiuntivi da un flusso di lavoro, vedere la sezione [Arricchimento dei dati](../../automating/using/targeting-data.md#enriching-data) .
+>Se l’e-mail viene creata da un flusso di lavoro, i dati aggiuntivi calcolati nel flusso di lavoro sono disponibili anche nei campi di personalizzazione. Per ulteriori informazioni sull&#39;aggiunta di dati aggiuntivi da un flusso di lavoro, vedere la sezione [Arricchimento dei dati](../../automating/using/about-targeting-activities.md#enriching-data) .
 
 ## Aggiunta di un blocco di contenuto{#adding-a-content-block}
 
@@ -416,6 +419,6 @@ L&#39;immagine è cambiata grazie al contenuto dinamico, e lo slogan che appare 
 
 **Argomenti correlati:**
 
-* [Creazione di audience](../../audiences/using/creating-audiences.md)
+* [Creazione di un pubblico](../../audiences/using/creating-audiences.md)
 * [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
 
