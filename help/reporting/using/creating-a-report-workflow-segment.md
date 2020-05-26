@@ -12,14 +12,17 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 2%
 
 ---
 
 
 # Creazione di un report basato sui segmenti del flusso di lavoro{#creating-a-report-workflow-segment}
 
-Dopo aver creato un flusso di lavoro e aver filtrato la popolazione in un pubblico di destinazione diverso, potete misurare l'efficienza delle campagne di marketing in base ai segmenti definiti in questo flusso di lavoro di targeting.
+Dopo aver creato un flusso di lavoro e aver filtrato la popolazione in un pubblico di destinazione diverso, potete misurare l&#39;efficienza delle campagne di marketing in base ai segmenti definiti in questo flusso di lavoro di targeting.
 Per eseguire il targeting di questi segmenti nei report:
 
 * [Passaggio 1: Aggiorna risorsa personalizzata profili con segmenti](#step-1--update-profiles-custom-resource-segments)
@@ -34,7 +37,7 @@ Per eseguire il targeting di questi segmenti nei report:
 
 Prima di generare rapporti sul codice del segmento, è necessario aggiornare la risorsa **[!UICONTROL Profiles]** personalizzata per memorizzare i codici del segmento.
 
-1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]**, quindi seleziona la **[!UICONTROL Profile (profile)]** risorsa.
+1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**, quindi seleziona la **[!UICONTROL Profile (profile)]** risorsa.
 1. Nel **[!UICONTROL Sending logs extension]** menu dalla **[!UICONTROL Data structure]** scheda, selezionate **[!UICONTROL Add segment code]** per consentire la memorizzazione dei codici dei segmenti dai flussi di lavoro di targeting e inviarli ai report dinamici.
 
    Il rapporto **[!UICONTROL Segment code]** sarà quindi disponibile nella sezione **[!UICONTROL Profile]** Dimensioni del rapporto.
@@ -44,7 +47,7 @@ Prima di generare rapporti sul codice del segmento, è necessario aggiornare la 
 1. Salvate la risorsa personalizzata.
 
 1. È ora necessario pubblicare la risorsa personalizzata.
-Dal menu avanzato, selezionate **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publishing]**.
+Dal menu avanzato, selezionate **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**.
 
    ![](assets/custom_profile_7.png)
 
@@ -57,21 +60,21 @@ I codici dei segmenti verranno raccolti non appena avrai abilitato il codice dei
 ## Passaggio 2: Creazione di un flusso di lavoro con i segmenti {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
->Se la transizione di input per la consegna dell’e-mail è vuota, per impostazione predefinita viene aggiunto il codice Segmento dalla transizione precedente.
+>Se la transizione di input per la consegna dell’e-mail è vuota, per impostazione predefinita verrà aggiunto il codice Segmento dalla transizione precedente.
 
-È innanzitutto necessario creare un flusso di lavoro con popolazione di destinazione diversa. Qui, vogliamo inviare un'e-mail che sarà personalizzata a seconda dell'età del nostro pubblico: una consegna per i profili da 20 a 30 anni e un'altra per quelli da 30 a 40 anni.
+È innanzitutto necessario creare un flusso di lavoro con popolazione di destinazione diversa. Qui, desideriamo inviare un&#39;e-mail che sarà personalizzata a seconda dell&#39;età del nostro pubblico: una consegna per i profili da 20 a 30 anni e un&#39;altra per quelli da 30 a 40 anni.
 
 1. Crea il flusso di lavoro. Per ulteriori dettagli su come creare il flusso di lavoro, consultate questa [pagina](../../automating/using/building-a-workflow.md).
 
-1. Aggiungete un' **[!UICONTROL Query]** attività trascinandola dalla palette e rilasciandola nell'area di lavoro.
+1. Aggiungete un&#39; **[!UICONTROL Query]** attività trascinandola dalla palette e rilasciandola nell&#39;area di lavoro.
 
 1. Esegue il targeting dei profili da 20 a 40 anni per suddividerli successivamente in popolazioni più mirate.
 
    ![](assets/report_segment_1.png)
 
-1. Aggiungete un' **[!UICONTROL Segmentation]** attività per suddividere i risultati della query in due popolazioni mirate. Per ulteriori informazioni sulla segmentazione, consulta questa [pagina](../../automating/using/targeting-data.md#segmenting-data).
+1. Aggiungete un&#39; **[!UICONTROL Segmentation]** attività per suddividere i risultati della query in due popolazioni mirate. Per ulteriori informazioni sulla segmentazione, consulta questa [pagina](../../automating/using/segmentation.md).
 
-1. Fate doppio clic sull' **[!UICONTROL Segmentation]** attività per configurarla. Modificate il primo segmento facendo clic su **[!UICONTROL Edit properties]**.
+1. Fate doppio clic sull&#39; **[!UICONTROL Segmentation]** attività per configurarla. Modificate il primo segmento facendo clic su **[!UICONTROL Edit properties]**.
 
    ![](assets/report_segment_7.png)
 
@@ -81,14 +84,14 @@ I codici dei segmenti verranno raccolti non appena avrai abilitato il codice dei
 
 1. Fai clic **[!UICONTROL Add an element]** per creare il secondo segmento e configurarlo come descritto nei passaggi descritti sopra per eseguire il targeting dei profili tra i 30 e i 40 anni.
 
-1. Modificare la **[!UICONTROL Segment code]** voce per ogni popolazione da trasmettere tramite reporting dinamico.
+1. Modificare la **[!UICONTROL Segment code]** voce per ogni popolazione da trasmettere attraverso il reporting dinamico.
 
    >[!NOTE]
    >Questo passaggio è obbligatorio, altrimenti non sarai in grado di capire su quali segmenti generare i rapporti.
 
    ![](assets/report_segment_9.png)
 
-1. Trascinare un' **[!UICONTROL Email delivery]** attività dopo i segmenti.
+1. Trascinare un&#39; **[!UICONTROL Email delivery]** attività dopo i segmenti.
 
    ![](assets/report_segment_3.png)
 
