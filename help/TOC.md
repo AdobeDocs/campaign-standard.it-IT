@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 92%
+source-wordcount: '1453'
+ht-degree: 91%
 
 ---
 
@@ -253,9 +253,6 @@ ht-degree: 92%
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
       + [Interfaccia del flusso di lavoro](automating/using/workflow-interface.md)
       + [Creazione di un flusso di lavoro](automating/using/building-a-workflow.md)
-      + [Dati di targeting](automating/using/targeting-data.md)
-      + [Importazione di dati](automating/using/importing-data.md)
-      + [Utilizzo dei dati del flusso di lavoro](automating/using/using-workflow-data.md)
       + [Procedure consigliate per i flussi di lavoro](automating/using/best-practices-workflows.md)
    + Esecuzione di un flusso di lavoro {#executing-a-workflow}
       + [Informazioni sull&#39;esecuzione del flusso di lavoro](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [Elenco delle funzioni](automating/using/list-of-functions.md)
    + Importazione ed esportazione di dati {#importing-and-exporting-data}
       + [Informazioni sull’importazione e sull’esportazione di dati](automating/using/about-data-import-and-export.md)
+      + [Best practice di importazione](automating/using/import-best-practices.md)
       + [Importazione di dati con modelli di importazione](automating/using/importing-data-with-import-templates.md)
-      + [Definizione dei modelli di importazione](automating/using/defining-import-templates.md)
+      + [Creazione di modelli di workflow per l&#39;importazione di dati](automating/using/creating-import-workflow-templates.md)
+      + [Gestione dei dati crittografati](automating/using/managing-encrypted-data.md)
       + [Esportazione dei registri](automating/using/exporting-logs.md)
       + [Gestione dei pacchetti](automating/using/managing-packages.md)
       + [Esportazione di elenchi](automating/using/exporting-lists.md)
