@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 6%
+source-wordcount: '523'
+ht-degree: 5%
 
 ---
 
@@ -89,8 +89,7 @@ Infine, gli elenchi [di](../../automating/using/exporting-lists.md) esportazione
 
 Ulteriori informazioni:
 
-* [Importazione di dati](../../automating/using/importing-data.md)
-* [Utilizzo dei dati del flusso di lavoro](../../automating/using/using-workflow-data.md)
+* [Importazione ed esportazione di dati](../../automating/using/about-data-import-and-export.md)
 * [Caso di utilizzo: esportazione/importazione di risorse personalizzate](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Risorse aggiuntive
