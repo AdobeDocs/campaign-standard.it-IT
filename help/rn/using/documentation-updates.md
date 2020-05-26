@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '5807'
+source-wordcount: '5809'
 ht-degree: 1%
 
 ---
@@ -584,7 +584,7 @@ La sezione [Configurazione dei messaggi](../../administration/using/configuring-
 
 È stata aggiunta una nota tecnica per apprendere come generare un file CSV multilingue da usare per le notifiche push. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Sono state aggiunte informazioni sul modello di importazione **Aggiorna notifiche dirette e registri** di consegna. [Leggi tutto](../../automating/using/defining-import-templates.md)
+Sono state aggiunte informazioni sul modello di importazione **Aggiorna notifiche dirette e registri** di consegna. [Leggi tutto](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 Aggiornamento dell&#39;elenco dei flussi di lavoro tecnici. [Leggi tutto](../../administration/using/technical-workflows.md)
 
@@ -616,7 +616,7 @@ La **[!UICONTROL Working with typologies]** sezione è stata aggiornata per migl
 
 È ora disponibile una nuova opzione che consente di ottenere prestazioni quando si definiscono molti dati aggiuntivi in un **[!UICONTROL Query]** . [Leggi tutto](../../automating/using/query.md)
 
-L’esempio di importazione del profilo è stato aggiornato con alcuni suggerimenti per consentire ai profili di ricevere e-mail dirette. [Leggi tutto](../../automating/using/importing-data.md)
+L’esempio di importazione del profilo è stato aggiornato con alcuni suggerimenti per consentire ai profili di ricevere e-mail dirette. [Leggi tutto](../../automating/using/about-data-import-and-export.md)
 
 Una nuova attività è disponibile nei flussi di lavoro: l&#39; **[!UICONTROL Enrichment]** attività. [Leggi tutto](../../automating/using/enrichment.md)
 
@@ -818,7 +818,7 @@ Integrazione Dreamweaver live - [Leggi tutto](https://docs.adobe.com/content/hel
 
 Sezione aggiunta ai diversi tipi di utenti di Adobe Campaign. [Leggi tutto](../../administration/using/users-management.md)
 
-La guida Workflow è stata riorganizzata ed estesa. Scopri come [creare](../../automating/using/building-a-workflow.md) ed [eseguire](../../automating/using/about-workflow-execution.md) un flusso di lavoro, come [eseguire il targeting](../../automating/using/targeting-data.md) e [gestire](../../automating/using/targeting-data.md#enriching-data) i tuoi dati, come [importare](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) i dati e come utilizzare i dati del flusso di lavoro per aggiornare il database o inviare consegne.
+La guida Workflow è stata riorganizzata ed estesa. Scopri come [creare](../../automating/using/building-a-workflow.md) ed [eseguire](../../automating/using/about-workflow-execution.md) un flusso di lavoro, come [eseguire il targeting](../../automating/using/about-targeting-activities.md) e [gestire](../../automating/using/about-targeting-activities.md#enriching-data) i dati, come [importare ed esportare](../../automating/using/about-data-import-and-export.md) i dati e come utilizzare i dati del flusso di lavoro per aggiornare il database o inviare consegne.
 
 Il calcolo degli indicatori di report ora è disponibile per i report dinamici, inclusi la descrizione completa e la formula di calcolo. [Leggi tutto](../../reporting/using/indicator-calculation.md)
 
