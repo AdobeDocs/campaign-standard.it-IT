@@ -12,7 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '1144'
+ht-degree: 0%
 
 ---
 
@@ -63,13 +66,13 @@ Gli amministratori di funzionalità sono gli unici utenti che possono accedere a
 
 Di seguito sono elencate le attività principali che possono eseguire:
 
-* [Gestisci utenti e autorizzazioni](../../administration/using/about-access-management.md): gestire l&#39;accesso alla piattaforma (utenti, ruoli, gruppi di sicurezza, unità).
+* [Gestione di utenti e autorizzazioni](../../administration/using/about-access-management.md): gestire l&#39;accesso alla piattaforma (utenti, ruoli, gruppi di sicurezza, unità).
 * [Configurare i diversi canali](../../administration/using/about-channel-configuration.md): impostare i diversi canali della piattaforma, nonché la gestione della tipologia e della quarantena.
 * [Configurare le impostazioni](../../administration/using/external-accounts.md)generali dell’applicazione: configurare i diversi elementi dell’applicazione (account esterni, opzioni, flussi di lavoro tecnici).
 * [Sviluppare nuove funzionalità per migliorare le funzionalità](../../developing/using/data-model-concepts.md)pronte all&#39;uso: gestire le risorse personalizzate e accedere agli strumenti diagnostici.
 * [Impostate i parametri](../../administration/using/branding.md)di istanza: definisci i tuoi marchi e configurane le impostazioni (logo, gestione del tracciamento, dominio URL per accedere alle pagine di destinazione, ecc.).
 * [Esportare e importare pacchetti](../../automating/using/managing-packages.md)di dati: scambiare risorse tra diverse istanze di Adobe Campaign tramite file XML strutturati.
-* [Esportare registri](../../automating/using/exporting-logs.md) e [definire modelli](../../automating/using/defining-import-templates.md)di importazione.
+* [Esportate i registri](../../automating/using/exporting-logs.md) e [definite i modelli](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)di importazione.
 
 ### Utenti avanzati {#advanced-users}
 
@@ -81,18 +84,18 @@ Di seguito sono elencate le attività principali che possono eseguire:
 
 * [Creazione ed esecuzione di flussi di lavoro](../../automating/using/about-data-management-activities.md)complessi per la gestione dei dati: importare, arricchire e trasformare i dati per alimentare il database oppure esportare i dati necessari in file esterni per elaborarli nei propri strumenti.
 * [Gestire i modelli](../../start/using/marketing-activity-templates.md): gestisci i tuoi modelli per preconfigurare alcuni parametri delle tue attività di marketing in base alle tue esigenze.
-* [Crea query](../../automating/using/editing-queries.md#about-query-editor) e [gestisci il pubblico](../../audiences/using/about-audiences.md): create i tipi di pubblico manualmente utilizzando le query o automaticamente utilizzando flussi di lavoro dedicati.
+* [Crea query](../../automating/using/editing-queries.md#about-query-editor) e [gestisci i tipi di pubblico](../../audiences/using/about-audiences.md): create i tipi di pubblico manualmente utilizzando le query o automaticamente utilizzando flussi di lavoro dedicati.
 * [Eseguire la modifica](../../automating/using/editing-queries.md#about-query-editor)avanzata delle espressioni: utilizzare funzioni avanzate per manipolare i valori utilizzati per eseguire query specifiche come date, stringhe, campi numerici, ordinamento, ecc.
 * [Esportare elenchi](../../automating/using/exporting-lists.md) e [importare dati utilizzando modelli](../../automating/using/importing-data-with-import-templates.md)di importazione esistenti.
 
 ### Utenti di base {#basic-users}
 
-Grazie all&#39;amministratore funzionale e agli utenti avanzati, gli addetti al marketing possono personalizzare, distribuire e monitorare le proprie campagne senza dover preoccuparsi della configurazione tecnica. A tal fine, devono essere assegnati, ad esempio, i ruoli **[!UICONTROL Prepare deliveries]** e **[!UICONTROL Workflow]** **[!UICONTROL Start deliveries]** out-of-the-box. Questi ruoli vengono combinati nel gruppo di sicurezza **[!UICONTROL Standard Users]** out-of-the-box. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+Grazie all&#39;amministratore funzionale e agli utenti avanzati, gli esperti di marketing possono personalizzare, distribuire e monitorare le proprie campagne senza dover preoccuparsi della configurazione tecnica. A tal fine, devono essere assegnati, ad esempio, i ruoli **[!UICONTROL Prepare deliveries]** e **[!UICONTROL Workflow]** **[!UICONTROL Start deliveries]** out-of-the-box. Questi ruoli vengono combinati nel gruppo di sicurezza **[!UICONTROL Standard Users]** out-of-the-box. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
 
 Di seguito sono elencate le attività principali che possono eseguire:
 
 * [Gestione di programmi e campagne](../../start/using/programs-and-campaigns.md): creare campagne di marketing con diversi tipi di attività (e-mail, messaggi SMS, notifiche push, flussi di lavoro, pagine di destinazione).
-* Gestire [profili](../../audiences/using/about-profiles.md) e profili [di](../../audiences/using/managing-test-profiles.md)prova: gestire i destinatari identificati e di test che verranno interessati dalle consegne. Aggiungi informazioni quali nome, cognome, informazioni di contatto, iscrizioni, e-mail, ecc.
+* Gestire [profili](../../audiences/using/about-profiles.md) e profili [di](../../audiences/using/managing-test-profiles.md)prova: gestire i destinatari identificati e di test che verranno interessati dalle consegne. Aggiungete informazioni quali nome, cognome, informazioni di contatto, iscrizioni, e-mail, ecc.
 * [Crea e invia messaggi](../../sending/using/confirming-the-send.md): create il messaggio, selezionate il pubblico, definite il contenuto del messaggio e i relativi elementi di personalizzazione, inviate prove di autenticità e inviate il messaggio finale al pubblico.
 * [Creare e pubblicare pagine](../../channels/using/getting-started-with-landing-pages.md)di destinazione: creare e gestire un set di servizi che si desidera offrire ai clienti, ad esempio moduli di iscrizione o di annullamento dell&#39;iscrizione.
 * [Creare ed eseguire flussi di lavoro](../../automating/using/building-a-workflow.md)campagna: automatizza i processi delle campagne utilizzando i flussi di lavoro.
@@ -112,7 +115,7 @@ Per aggiungere un utente all&#39;istanza, devi prima crearlo nell&#39;Admin Cons
 
    ![](assets/create_user_2.png)
 
-1. Dalla **[!UICONTROL User details]** scheda, inserite i dettagli dell&#39;utente, ad esempio indirizzo e-mail, nome e cognome.
+1. Dalla **[!UICONTROL User details]** scheda, inserite i dettagli dell&#39;utente, ad esempio l&#39;indirizzo e-mail, il nome e il cognome.
 
    ![](assets/create_user_3.png)
 
@@ -134,7 +137,7 @@ Puoi quindi verificare che l&#39;utente sia stato sincronizzato correttamente in
 
 1. Aggiornate il **[!UICONTROL Mobile]**, **[!UICONTROL Time zone]** o **[!UICONTROL Regional settings]** se necessario.
 
-1. Controllare il gruppo di sicurezza dell&#39;utente. Qui potete vedere che all&#39;utente è stato assegnato il gruppo di **[!UICONTROL Administrators]** sicurezza.
+1. Controllare il gruppo di protezione dell&#39;utente. Qui potete vedere che all&#39;utente è stato assegnato il gruppo di **[!UICONTROL Administrators]** sicurezza.
 
    >[!Note]
    >
