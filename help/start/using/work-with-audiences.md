@@ -12,7 +12,7 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 2%
@@ -64,11 +64,11 @@ Campaign Standard offre diversi strumenti per incrementare il database di market
 
 ### Importazione di dati tramite flussi di lavoro {#importing-data-through-workflows}
 
-I flussi di lavoro consentono di raccogliere i dati e importarli nel database Campaign mediante l&#39;uso di [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) attività. Informazioni generiche e best practice per l&#39;importazione di dati tramite flussi di lavoro sono presentate in [questa sezione](../../automating/using/importing-data.md).
+I flussi di lavoro consentono di raccogliere i dati e importarli nel database Campaign mediante l&#39;uso di [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) attività. Informazioni generiche e best practice per l&#39;importazione di dati tramite flussi di lavoro sono presentate in [questa sezione](../../automating/using/about-data-import-and-export.md).
 
 È inoltre possibile impostare modelli per l&#39;importazione di dati. L’utilizzo dei modelli di importazione è una procedura consigliata se è necessario importare file con la stessa struttura su base regolare. Potete impostare due tipi di modelli:
 
-* **Modelli** flusso di lavoro: si tratta di flussi di lavoro preconfigurati che potete impostare una volta in base alle vostre esigenze e riutilizzare ogni volta che desiderate importare i dati e aggiornare il database. Un esempio di modello di flusso di lavoro per l’importazione dei dati è illustrato in [questa sezione](../../automating/using/importing-data.md#example--import-workflow-template).
+* **Modelli** flusso di lavoro: si tratta di flussi di lavoro preconfigurati che potete impostare una volta in base alle vostre esigenze e riutilizzare ogni volta che desiderate importare i dati e aggiornare il database. Un esempio di modello di flusso di lavoro per l’importazione dei dati è illustrato in [questa sezione](../../automating/using/creating-import-workflow-templates.md).
 
 * **Importa modelli** di dati: come per i modelli di workflow, si tratta di modelli basati su flussi di lavoro configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** . Per ulteriori informazioni sui modelli di dati di importazione, consulta la documentazione [](../../automating/using/importing-data-with-import-templates.md)dedicata.
 
@@ -125,8 +125,8 @@ Grazie ai flussi di lavoro e all&#39;editor di query, puoi creare audience che v
 
 **Leggi tutto**
 
-* [Informazioni sui tipi di audience](../../audiences/using/about-audiences.md)
-* [Creazione di audience](../../audiences/using/creating-audiences.md)
+* [Informazioni sui tipi di pubblico](../../audiences/using/about-audiences.md)
+* [Creazione di un pubblico](../../audiences/using/creating-audiences.md)
 
 ## Gestione della privacy {#privacy-management}
 
