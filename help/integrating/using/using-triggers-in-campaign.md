@@ -12,7 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ## Creazione di un trigger mappato in Campaign {#creating-a-mapped-trigger-in-campaign}
 
-Devi accertarti di definire i comportamenti da monitorare in anticipo in Adobe Experience Cloud (servizio **[!UICONTROL Triggers]**di base). Per ulteriori informazioni, consulta la documentazione[di](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)Adobe Experience Cloud. Quando si definisce il trigger, è necessario abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta ecc.), in Adobe Experience Cloud è necessario aggiungere un nuovo attivatore.
+Devi accertarti di definire i comportamenti da monitorare in anticipo in Adobe Experience Cloud (servizio **[!UICONTROL Triggers]** di base). Per ulteriori informazioni, consulta la documentazione [di](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)Adobe Experience Cloud. Quando si definisce il trigger, è necessario abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta ecc.), in Adobe Experience Cloud è necessario aggiungere un nuovo attivatore.
 
 Ora devi creare un evento di attivazione in Adobe Campaign basato su un attivatore Adobe Experience Cloud esistente.
 
@@ -29,33 +32,32 @@ Guardate questo [video](https://helpx.adobe.com/marketing-cloud/how-to/email-mar
 
 I passi per la realizzazione di questo progetto sono:
 
-1. Fate clic sul **[!UICONTROL Adobe Campaign]**logo, nell’angolo in alto a sinistra, quindi selezionate**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**>**[!UICONTROL Experience Cloud Triggers]**.
+1. Fate clic sul **[!UICONTROL Adobe Campaign]** logo, nell’angolo in alto a sinistra, quindi selezionate **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
-1. Fate clic sul **[!UICONTROL Create]**pulsante. Viene visualizzata la procedura guidata di creazione, che elenca tutti gli attivatori definiti in Adobe Experience Cloud. Nella**[!UICONTROL Fired by Analytics]** colonna viene visualizzato il numero di eventi inviati dall&#39;attivatore Adobe Experience Cloud a Campaign. Si tratta della mappatura dei trigger creati nell&#39;interfaccia Experience Cloud.
+1. Fate clic sul **[!UICONTROL Create]** pulsante. Viene visualizzata la procedura guidata di creazione, che elenca tutti gli attivatori definiti in Adobe Experience Cloud. Nella **[!UICONTROL Fired by Analytics]** colonna viene visualizzato il numero di eventi inviati dall&#39;attivatore Adobe Experience Cloud a Campaign. Si tratta della mappatura dei trigger creati nell&#39;interfaccia Experience Cloud.
 
    ![](assets/remarketing_2.png)
 
 1. Seleziona l’attivatore Adobe Experience Cloud da usare e fai clic su **[!UICONTROL Next]**.
 1. Configurare le proprietà generali del trigger. In questa fase della procedura guidata, specificate anche il canale e la dimensione di targeting da utilizzare per il trigger (consultate Dimensioni e risorse [di](../../automating/using/query.md#targeting-dimensions-and-resources)targeting). Quindi, confermate la creazione dell&#39;attivatore.
-1. Fare clic sul pulsante a destra del **[!UICONTROL Event content and enrichment]**campo per visualizzare il contenuto del payload. Questa schermata consente inoltre di arricchire i dati dell&#39;evento con i dati del profilo memorizzati nel database Adobe Campaign. L&#39;arricchimento viene effettuato come per un messaggio transazionale standard.
+1. Fare clic sul pulsante a destra del **[!UICONTROL Event content and enrichment]** campo per visualizzare il contenuto del payload. Questa schermata consente inoltre di arricchire i dati dell&#39;evento con i dati del profilo memorizzati nel database Adobe Campaign. L&#39;arricchimento viene effettuato come per un messaggio transazionale standard.
 
    ![](assets/remarketing_3.png)
 
-1. Nel **[!UICONTROL Transactional message validity duration]**campo, definite la durata di validità del messaggio dopo l&#39;invio dell&#39;evento da parte di Analytics. Se viene definita una durata di 2 giorni, il messaggio non verrà più inviato dopo che tale durata è passata. Se si mettono in pausa diversi messaggi, questi non verranno inviati se vengono ripresi dopo un certo periodo di tempo.
+1. Nel **[!UICONTROL Transactional message validity duration]** campo, definite la durata di validità del messaggio dopo l&#39;invio dell&#39;evento da parte di Analytics. Se viene definita una durata di 2 giorni, il messaggio non verrà più inviato dopo che tale durata è passata. Se si mettono in pausa diversi messaggi, questi non verranno inviati se vengono ripresi dopo un certo periodo di tempo.
 
    ![](assets/remarketing_4.png)
 
-1. Se in Analytics è definito un punteggio di propensione (consultate la documentazione [di](https://marketing.adobe.com/resources/help/en_US/insight/client/c_visitor_propensity.html)Experience Cloud), puoi scegliere di non inviare il messaggio se il cliente ha un&#39;alta probabilità di tornare sul sito Web nel prossimo futuro. Il contenuto della valutazione e della soglia è disponibile nel contenuto del payload in modo da poter utilizzare tali valori per personalizzare il messaggio. Per utilizzare questa opzione, selezionate la casella in fondo allo schermo. I clienti con una forte probabilità di tornare sul sito nel prossimo futuro non riceveranno alcun messaggio.
-1. Fate clic sul **[!UICONTROL Publish]**pulsante per avviare la pubblicazione dell&#39;evento di attivazione.
-1. Se è necessario apportare una modifica allo schema di attivazione anche dopo la pubblicazione dell&#39;evento di attivazione, fare clic sul **[!UICONTROL Update schema]**pulsante per recuperare le modifiche più recenti.
+1. Fate clic sul **[!UICONTROL Publish]** pulsante per avviare la pubblicazione dell&#39;evento di attivazione.
+1. Se è necessario apportare una modifica allo schema di attivazione anche dopo la pubblicazione dell&#39;evento di attivazione, fare clic sul **[!UICONTROL Update schema]** pulsante per recuperare le modifiche più recenti.
 
    Nota: questa azione consente di annullare la pubblicazione dell&#39;attivatore e del messaggio di transazione. Successivamente, sarà necessario ripubblicarlo.
 
    ![](assets/remarketing_11.png)
 
-Il **[!UICONTROL Show Trigger in Experience Cloud]**pulsante consente di visualizzare la definizione dell&#39;attivatore in Adobe Experience Cloud.
+Il **[!UICONTROL Show Trigger in Experience Cloud]** pulsante consente di visualizzare la definizione dell&#39;attivatore in Adobe Experience Cloud.
 
 Una volta pubblicato l’evento, viene automaticamente creato un modello transazionale collegato al nuovo evento. È quindi necessario modificare e pubblicare il modello appena creato. Per ulteriori informazioni, consultare la sezione [Modifica del modello](../../start/using/marketing-activity-templates.md) .
 
@@ -69,7 +71,7 @@ Affinché l’evento attivi l’invio di un messaggio transazionale, è necessar
 >
 >Se annullate la pubblicazione del modello, l&#39;evento di attivazione verrà automaticamente annullato.
 
-Durante la modifica del contenuto, puoi aggiungere un campo di personalizzazione in base alle informazioni inviate dall&#39;attivatore di Analytics. Se arricchisci i dati dell&#39;evento con i dati del profilo di Adobe Campaign, puoi personalizzare il messaggio in base a tali informazioni. Per personalizzare il messaggio, seleziona **[!UICONTROL Transactional event]**>**[!UICONTROL Event context]** e seleziona un campo.
+Durante la modifica del contenuto, puoi aggiungere un campo di personalizzazione in base alle informazioni inviate dall&#39;attivatore di Analytics. Se arricchisci i dati dell&#39;evento con i dati del profilo di Adobe Campaign, puoi personalizzare il messaggio in base a tali informazioni. Per personalizzare il messaggio, seleziona **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** e seleziona un campo.
 
 ![](assets/remarketing_8.png)
 
