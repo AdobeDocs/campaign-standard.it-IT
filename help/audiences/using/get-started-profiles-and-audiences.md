@@ -12,7 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 5%
 
 ---
 
@@ -51,9 +54,9 @@ Ulteriori informazioni:
 * [Informazioni sui profili](../../audiences/using/about-profiles.md)
 * [Profili attivi](../../audiences/using/active-profiles.md)
 * [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md)
-* [Arricchimento database Campaign](../../audiences/using/enriching-campaign-database.md)
-* [Informazioni sui tipi di audience](../../audiences/using/about-audiences.md)
-* [Selezione di un’audience in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Arricchimento del database di Campaign](../../audiences/using/enriching-campaign-database.md)
+* [Informazioni sui tipi di pubblico](../../audiences/using/about-audiences.md)
+* [Selezione di un pubblico in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## Autorizzazione e consenso {#permission}
 
@@ -91,5 +94,5 @@ Troverai anche le best practice, per aiutarti a rispettare la Privacy quando uti
 * [Utilizzo del servizio Destinazioni di pubblico](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Utilizzo di Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Pubblico condiviso Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [Utilizzo dei flussi di lavoro per importare i profili](../../automating/using/importing-data.md)
+* [Utilizzo dei flussi di lavoro per importare i profili](../../automating/using/creating-import-workflow-templates.md)
 * [Video su profili e audience](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
