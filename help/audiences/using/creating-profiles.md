@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -26,7 +26,7 @@ In Adobe Campaign, i profili sono utilizzati per impostazione predefinita per de
 
 Per creare o aggiornare un profilo in Campaign, puoi:
 
-* Importazione di un elenco di profili da un file tramite un [flusso di lavoro](../../automating/using/importing-data.md#example--import-workflow-template)
+* Importazione di un elenco di profili da un file tramite un [flusso di lavoro](../../automating/using/creating-import-workflow-templates.md)
 * Raccolta di dati online tramite pagine di [destinazione](../../channels/using/getting-started-with-landing-pages.md)
 * Creazione in massa tramite API [REST](../../api/using/get-started-apis.md)
 * Sincronizzare i profili da [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
