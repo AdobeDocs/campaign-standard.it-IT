@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ Le [principali legislazioni](#privacy-regulations) si riferiscono alle diverse e
 
 Di conseguenza, in quanto azienda che raccoglie e condivide dati personali, sei il Titolare del trattamento dei dati, i tuoi clienti sono i Soggetti dati e Adobe Campaign agisce come un Processore dei dati quando gestisci i loro dati personali come da te indicato. In quanto titolare del trattamento dei dati, è responsabilità dell&#39;utente gestire la relazione con gli interessati, ad esempio per la gestione delle richieste [di](#privacy-requests)privacy.
 
-Durante l&#39;integrazione di Campaign con altre soluzioni Experience Cloud in cui i tipi di pubblico possono essere trasferiti da un sistema all&#39;altro, come il servizio [Destinazioni](../../audiences/using/aep-about-audience-destinations-service.md)audience, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o il servizio](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)di base Persone, o con altre soluzioni come [Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md), devi prestare maggiore attenzione alla protezione dei dati personali.
+Durante l&#39;integrazione di Campaign con altre soluzioni Experience Cloud in cui i tipi di pubblico possono essere trasferiti da un sistema all&#39;altro, come il servizio [Destinazioni](../../audiences/using/aep-about-audience-destinations-service.md)audience, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o il servizio](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)di base Persone, o con altre soluzioni come [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), devi prestare maggiore attenzione alla protezione dei dati personali.
 
 ## Acquisizione dati {#data-acquisition}
 
