@@ -12,7 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
+source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 2%
 
 ---
 
@@ -56,27 +59,23 @@ Se una consegna non riesce, si verificano tre tipi di errori:
 
 I possibili motivi di un mancato recapito sono:
 
-* **[!UICONTROL User unknown]** (tipo rigido): l&#39;indirizzo non esiste. Per questo profilo non verranno tentate altre consegne.
-* **[!UICONTROL Quarantined address]** (tipo rigido): l&#39;indirizzo è stato messo in quarantena.
-* **[!UICONTROL Unreachable]** (tipo morbido/rigido): si è verificato un errore nella catena di distribuzione dei messaggi (ad esempio, dominio temporaneamente non raggiungibile). In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge il 5.
-* **[!UICONTROL Address empty]** (tipo rigido): l&#39;indirizzo non è definito.
-* **[!UICONTROL Mailbox full]** (tipo morbido): la cassetta postale di questo utente è piena e non può accettare altri messaggi. Questo indirizzo può essere rimosso dall&#39;elenco di quarantena per effettuare un altro tentativo. Viene rimosso automaticamente dopo 30 giorni.
-
-   Per consentire la rimozione automatica dell’indirizzo dall’elenco degli indirizzi in quarantena, è necessario avviare il flusso di lavoro tecnico **[!UICONTROL Database cleanup]**.
-
-* **[!UICONTROL Refused]** (tipo morbido/rigido): l&#39;indirizzo è stato messo in quarantena a causa di un feedback di sicurezza come rapporto di spam. In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge il 5.
-* **[!UICONTROL Duplicate]**: l&#39;indirizzo è già stato rilevato nella segmentazione.
-* **[!UICONTROL Not defined]** (tipo morbido): l&#39;indirizzo è nella qualifica perché gli errori non sono ancora stati incrementati.
-
-   Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore di errori aumenta, che avviserà i team tecnici.
-
-* **[!UICONTROL Error ignored]**: l&#39;indirizzo è nella whitelist e in ogni caso vi verrà inviato un messaggio e-mail.
-* **[!UICONTROL Blacklisted address]**: l&#39;indirizzo è stato inserito in una blacklist al momento dell&#39;invio.
-* **[!UICONTROL Account disabled]** (tipo morbido/rigido): quando Internet Access Provider (IAP) rileva un lungo periodo di inattività, può chiudere l&#39;account dell&#39;utente: le consegne all&#39;indirizzo dell&#39;utente saranno quindi impossibili. Il tipo Soft o Hard dipende dal tipo di errore ricevuto: se l&#39;account è temporaneamente disattivato a causa di sei mesi di inattività e può essere ancora attivato, lo stato **[!UICONTROL Erroneous]** verrà assegnato e la consegna verrà ritentata. Se l&#39;errore ricevuto segnala che l&#39;account è disattivato in modo permanente, verrà inviato direttamente a Quarantine.
-* **[!UICONTROL Not connected]**: il telefono cellulare del profilo viene spento o non è connesso alla rete quando il messaggio viene inviato.
-* **[!UICONTROL Invalid domain]** (tipo morbido): il dominio dell&#39;indirizzo e-mail non è corretto o non esiste più. Questo profilo verrà nuovamente eseguito il targeting fino a raggiungere 5. Successivamente, il record verrà impostato sullo stato Quarantine e non verrà seguito alcun nuovo tentativo.
-* **[!UICONTROL Text too long]**: il numero di caratteri nel messaggio SMS supera il limite. Per ulteriori informazioni, consulta Codifica [SMS, lunghezza e traslitterazione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
-* **[!UICONTROL Character not supported by encoding]**: il messaggio SMS contiene uno o più caratteri non supportati dalla codifica. &amp;Per ulteriori informazioni, vedere [Tabella di caratteri - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+| Etichetta errore | Tipo errore | Descrizione |
+---------|----------|---------
+| **[!UICONTROL User unknown]** | Rigido | L&#39;indirizzo non esiste. Per questo profilo non verranno tentate altre consegne. |
+| **[!UICONTROL Quarantined address]** | Rigido | L&#39;indirizzo è stato messo in quarantena. |
+| **[!UICONTROL Unreachable]** | Soft/Hard | Si è verificato un errore nella catena di distribuzione dei messaggi (ad esempio, dominio temporaneamente non raggiungibile). In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge il 5. |
+| **[!UICONTROL Address empty]** | Rigido | Indirizzo non definito. |
+| **[!UICONTROL Mailbox full]** | Morbido | La cassetta postale di questo utente è piena e non può accettare altri messaggi. Questo indirizzo può essere rimosso dall&#39;elenco di quarantena per effettuare un altro tentativo. Viene rimosso automaticamente dopo 30 giorni. Per consentire la rimozione automatica dell’indirizzo dall’elenco degli indirizzi in quarantena, è necessario avviare il flusso di lavoro tecnico **[!UICONTROL Database cleanup]**. |
+| **[!UICONTROL Refused]** | Soft/Hard | L&#39;indirizzo è stato messo in quarantena a causa di un feedback sulla sicurezza come rapporto di spam. In base all&#39;errore restituito dal provider, l&#39;indirizzo verrà inviato direttamente alla quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato della quarantena o finché il numero di errori non raggiunge il 5. |
+| **[!UICONTROL Duplicate]** | Ignorato | L&#39;indirizzo è già stato rilevato nella segmentazione. |
+| **[!UICONTROL Not defined]** | Morbido | l&#39;indirizzo è nella qualifica perché gli errori non sono ancora stati incrementati. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore di errori aumenta, che avviserà i team tecnici. |
+| **[!UICONTROL Error ignored]** | Ignorato | L&#39;indirizzo è nella whitelist e vi verrà inviato un messaggio e-mail in ogni caso. |
+| **[!UICONTROL Blacklisted address]** | Rigido | l&#39;indirizzo è stato inserito in una blacklist al momento dell&#39;invio. |
+| **[!UICONTROL Account disabled]** | Soft/Hard | Quando Internet Access Provider (IAP) rileva un lungo periodo di inattività, può chiudere l&#39;account dell&#39;utente: le consegne all&#39;indirizzo dell&#39;utente saranno quindi impossibili. Il tipo Soft o Hard dipende dal tipo di errore ricevuto: se l&#39;account è temporaneamente disattivato a causa di sei mesi di inattività e può essere ancora attivato, lo stato **[!UICONTROL Erroneous]** verrà assegnato e la consegna verrà ritentata. Se l&#39;errore ricevuto segnala che l&#39;account è disattivato in modo permanente, verrà inviato direttamente a Quarantine. |
+| **[!UICONTROL Not connected]** | Ignorato | Il telefono cellulare del profilo viene spento o non è connesso alla rete quando il messaggio viene inviato. |
+| **[!UICONTROL Invalid domain]** | Morbido | Il dominio dell&#39;indirizzo e-mail non è corretto o non esiste più. Questo profilo verrà nuovamente eseguito il targeting fino a raggiungere 5. Successivamente, il record verrà impostato sullo stato Quarantine e non verrà seguito alcun nuovo tentativo. |
+| **[!UICONTROL Text too long]** | Ignorato | Il numero di caratteri nel messaggio SMS supera il limite. Per ulteriori informazioni, consulta Codifica [SMS, lunghezza e traslitterazione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
+| **[!UICONTROL Character not supported by encoding]** | Ignorato | Il messaggio SMS contiene uno o più caratteri non supportati dalla codifica. &amp;Per ulteriori informazioni, vedere [Tabella di caratteri - GSM Standard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
 ## Tentativi dopo un errore temporaneo di consegna {#retries-after-a-delivery-temporary-failure}
 
