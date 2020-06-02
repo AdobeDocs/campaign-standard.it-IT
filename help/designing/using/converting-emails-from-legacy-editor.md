@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 Iniziate a utilizzare e-mail Designer e create modelli e frammenti riutilizzabili dal codice HTML dell&#39;e-mail creato nell&#39;editor legacy.
 
->[!IMPORTANT]
->
->Questa sezione è destinata agli utenti esperti che hanno familiarità con il codice HTML.
-
 Questo caso d&#39;uso consente di creare un modello di E-mail Designer utilizzando un&#39;e-mail HTML e dividendolo in componenti HTML in Designer e-mail.
 
 >[!NOTE]
 >
 >Come la modalità di compatibilità, un componente HTML è modificabile con opzioni limitate: è possibile eseguire solo edizioni interne.
+
+>[!IMPORTANT]
+>
+>Questa sezione è destinata agli utenti esperti che hanno familiarità con il codice HTML.
 
 ## Preparazione del contenuto delle e-mail
 
