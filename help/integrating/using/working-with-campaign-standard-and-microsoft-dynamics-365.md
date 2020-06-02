@@ -7,17 +7,24 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-experience-manager
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
+source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 0%
 
 ---
 
 
 # Introduzione all&#39;integrazione con Microsoft Dynamics 365
+
+>[!IMPORTANT]
+>
+>Questa integrazione non è al momento disponibile. È in corso di sviluppo un nuovo connettore che sarà disponibile in futuro. Per ulteriori informazioni, contattate il rappresentante commerciale di Adobe.
 
 Attiva i dati CRM sulla comunicazione tra canali: scopri come trasferire i contatti da Microsoft Dynamics 365 ad Adobe Campaign e condividere i dati sulle prestazioni delle campagne (invii, aperture, clic e rimbalzi) da Adobe Campaign a Microsoft Dynamics 365.
 
@@ -25,9 +32,7 @@ Attiva i dati CRM sulla comunicazione tra canali: scopri come trasferire i conta
 >
 >L&#39;integrazione con Microsoft Dynamics 365 / Adobe Campaign Standard supporta solo l&#39;app **Vendite** Microsoft Dynamics 365.
 
-## Vantaggi e casi di utilizzo
-
-### Principi
+## Principi
 
 L&#39;integrazione di Adobe Campaign e Microsoft Dynamics 365 consente la sincronizzazione di tutti i dati di contatto disponibili nel sistema CRM, rendendo disponibili tutti i dati di contatto pertinenti per le attività della campagna.
 
@@ -41,9 +46,7 @@ Questa integrazione è stata progettata per supportare tre casi di utilizzo prin
 1. Invio di eventi di marketing tramite e-mail (invii, aperture, clic e rimbalzi) da Campaign a Dynamics 365 per visualizzare l&#39;archivio vendite nell&#39;interfaccia di Dynamics 365
 1. Sincronizzazione di entità personalizzate da Dynamics 365 a Campaign per consentirne l&#39;utilizzo per la segmentazione e la personalizzazione
 
-Guardate il video sulla funzione di integrazione standard di Dynamics 365-Campaign [qui](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html).
-
-### Vantaggi principali
+## Vantaggi principali
 
 * Messaggistica coerente tra vendite e marketing
 
