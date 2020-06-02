@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 1%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
@@ -36,17 +36,12 @@ Un&#39;organizzazione è l&#39;entità che consente all&#39;amministratore di co
 
 Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, consulta la documentazione [sulle](../../api/using/get-started-apis.md)API.
 
->[!NOTE]
->
->Adobe Campaign Standard può anche connettersi a Microsoft Dynamics 365: questa integrazione consente la sincronizzazione di tutti i dati di contatto disponibili nel sistema CRM, rendendo disponibili tutti i dati di contatto pertinenti per le attività della campagna. Per ulteriori informazioni su questa integrazione, consulta [Utilizzo di Campaign e Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
-
-
 <table> 
  <thead> 
   <tr> 
    <th> Soluzione<br /> </th> 
    <th> Use Case<br /> </th> 
-   <th> Consultare<br /> </th> 
+   <th> Fai riferimento a<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -72,7 +67,7 @@ Per integrare i flussi di dati provenienti da altri sistemi con Adobe Campaign, 
     </td> 
   </tr> 
   <tr> 
-   <td> Adobe Audience Manager e il servizio di base Persone (Profili e pubblico)<br /> </td> 
+   <td> Adobe Audience Manager e il servizio di base Persone (profili e audience)<br /> </td> 
    <td> Consente di scambiare tipi di pubblico con le diverse applicazioni Adobe Experience Cloud utilizzate.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servizio di base Persone (profili e audience)</a><br /> </td> 
   </tr> 
