@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
+source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 91%
+source-wordcount: '1403'
+ht-degree: 92%
 
 ---
 
@@ -239,15 +239,7 @@ ht-degree: 91%
       + [Verifica degli attivatori](integrating/using/testing-your-triggers.md)
       + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + Utilizzo di Campaign Standard e Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-         + [Introduzione all&#39;integrazione con Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [Informazioni sull&#39;integrazione con Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Richiesta e configurazione dell&#39;integrazione con Microsoft Dynamics 365](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Utilizzo dell&#39;integrazione di Microsoft Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Configurazione di Adobe IO per l’integrazione con Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Configurazione di Microsoft Dynamics 365 per l’integrazione con Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Configurazione di Unifi per l’integrazione con Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [Mappatura delle risorse personalizzate di Campaign ed entità personalizzate di Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Introduzione all&#39;integrazione con Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Gestione di processi e dati {#managing-processes-and-data}
    + [Introduzione alla gestione dei dati e dei processi](automating/using/get-started-workflows.md)
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
