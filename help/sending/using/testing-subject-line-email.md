@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +30,7 @@ Questa funzione è disattivata per impostazione predefinita. Viene attivata quan
 
 >[!NOTE]
 >
->Questa funzione è disponibile per i messaggi e-mail e per i database che contengono solo contenuti in lingua inglese. Il modello preparato non sarà coerente e porterà a risultati errati se l&#39;istanza contiene e-mail in altre lingue. L&#39;opzione che consente di testare un oggetto è visibile solo se un modello è già disponibile nell&#39;istanza.
+>Questa funzione è disponibile per i messaggi e-mail e per i database che contengono solo contenuti in lingua inglese. Il modello preparato non sarà coerente e porterà a risultati errati se l&#39;istanza contiene e-mail in altre lingue. L’opzione che consente di testare un oggetto è visibile solo se un modello è già disponibile nell’istanza.
 
 Per ulteriori informazioni sull&#39;importazione di modelli, vedere questa [sezione](#importing-models).
 
@@ -75,19 +78,19 @@ Per impostazione predefinita, sul server Adobe Campaign non è in esecuzione alc
 
 >[!NOTE]
 >
->Non esiste un numero definito di linee oggetto necessarie per formare il proprio modello. Per ulteriori informazioni, consulta [Risoluzione](#troubleshooting)dei problemi.
+>Non esiste un numero definito di linee oggetto necessarie per formare il proprio modello. For more on this, see [Troubleshooting](#troubleshooting).
 >
 >È possibile avere un solo modello addestrato sull&#39;istanza.
 
 Per formare un modello locale:
-1. Scarica subjectLineTraining.xml da [qui](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) e utilizza la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricarlo nell’istanza di Adobe Campaign. Un flusso di lavoro tecnico eseguirà automaticamente la formazione per voi.
+1. Scarica subjectLineTraining.xml da [qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) e utilizza la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricarlo nell’istanza di Adobe Campaign. Un flusso di lavoro tecnico eseguirà automaticamente la formazione per voi.
 1. La prima volta che si desidera formare un modello, un amministratore può imporre l&#39; **[!UICONTROL SubjectLine Training workflow]** avvio dal menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 1. Una volta che un modello è stato caricato e preparato, la funzione viene attivata automaticamente e accanto al campo dell&#39;oggetto dei messaggi viene visualizzata una nuova opzione.
 1. Quindi, il flusso di lavoro tecnico continuerà automaticamente a formare il modello ogni settimana.
 
 ### Importazione di modelli preformati {#pre-trained-models}
 
-Per accedere a questi modelli, fai clic [qui](https://support.neolane.net/webApp/extranetLogin) e vai a **[!UICONTROL Download Center]**. Utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricare un modello nell&#39;istanza di Adobe Campaign.
+Per accedere a questi modelli, fare clic [qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricare un modello nell&#39;istanza di Adobe Campaign.
 
 I modelli disponibili per l&#39;uso sono:
 
