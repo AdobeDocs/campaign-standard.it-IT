@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
+source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 4%
 
 ---
 
@@ -32,9 +32,9 @@ Tutte le date di rilascio sono soggette a modifica: consigliamo di visitare ques
 
 **NUOVO!** Iscriviti alle notifiche [di rilascio di](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard per ottenere informazioni sulle prossime release direttamente nella casella in entrata.
 
-## Release 20.3.1 - Rilascio di maggio {#release-20-3-may-release}
+## Release 20.4 - Rilascio di ottobre {#release-20-4-oct-release}
 
-Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note](../../rn/using/release-notes.md)sulla versione. Per ulteriori domande, contatta l&#39;Assistenza clienti [Adobe](https://support.neolane.net/webApp/extranetLogin).
+Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note](../../rn/using/release-notes.md)sulla versione. Per ulteriori domande, contatta l&#39;Assistenza clienti [Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati d
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>26 - 27 maggio 2020<br /> </td>
+   <td>21 - 22 settembre 2020<br /> </td>
   </tr>
   <tr>
    <td> Produzione<br /> </td>
-   <td>28 maggio - 1 giugno 2020<br /> </td>
+   <td>28 settembre - 5 ottobre 2020<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ A: Le modifiche sono elencate nelle Note sulla [versione](../../rn/using/release
 
 **D: Qual è il processo di convalida?**
 
-A: Con l&#39;aggiornamento dell&#39;istanza di staging, Adobe consiglia di convalidare i processi e i casi di utilizzo con questa nuova versione e di segnalare eventuali problemi ad [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin).
+A: Con l&#39;aggiornamento dell&#39;istanza di staging, Adobe consiglia di convalidare i processi e i casi di utilizzo con questa nuova versione e di segnalare eventuali problemi ad [Adobe Client Care](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
 **D: Sarà possibile accedere all&#39;istanza durante il processo di aggiornamento?**
 
@@ -87,4 +87,4 @@ A: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l&#39;aggio
 
 A: Quando accedete a Campaign, viene visualizzata una finestra a comparsa di notifica della versione, con l&#39;ultima versione.
 
-Per qualsiasi altra domanda, contatta l&#39;Assistenza clienti [Adobe](https://support.neolane.net/webApp/extranetLogin).
+Per qualsiasi altra domanda, contatta l&#39;Assistenza clienti [Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
