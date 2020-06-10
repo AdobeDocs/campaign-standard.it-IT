@@ -12,7 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +26,7 @@ Prima di premere il **[!UICONTROL Send]** pulsante, accertatevi che il messaggio
 
 Per consentire questo, Adobe Campaign acquisisce il rendering e lo rende disponibile in un rapporto dedicato. Questo consente di visualizzare in anteprima il messaggio inviato nei diversi contesti in cui potrebbe essere ricevuto.
 
-I client per dispositivi mobili, messaggi e messaggi Web disponibili per il rendering **e-mail in Adobe Campaign sono elencati nel** sito [Web di Litmus (fate clic su](https://litmus.com/email-testing) Visualizza tutti i client **** e-mail).
+I client per dispositivi mobili, messaggi e messaggi Web disponibili per il rendering **** e-mail in Adobe Campaign sono elencati nel [sito](https://litmus.com/email-testing) Web di Litmus (fate clic su **Visualizza tutti i client** e-mail).
 
 ## Verifica del rapporto di rendering per e-mail {#checking-the-email-rendering-report}
 
@@ -62,7 +65,7 @@ Dopo aver creato la consegna dell’e-mail e definito il contenuto e la popolazi
 
 Viene visualizzato il rapporto dedicato sul rendering delle e-mail. Consultate Descrizione [del rapporto di rendering per e-](#email-rendering-report-description)mail.
 
-**Argomenti** correlati:
+**Argomenti correlati**:
 
 * [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
 * [Invio di prove](../../sending/using/sending-proofs.md)
@@ -70,17 +73,17 @@ Viene visualizzato il rapporto dedicato sul rendering delle e-mail. Consultate D
 
 ## Descrizione rapporto rendering e-mail {#email-rendering-report-description}
 
-Questo rapporto presenta i rendering delle e-mail così come appaiono al destinatario. I rendering e-mail possono variare a seconda del modo in cui il destinatario apre la consegna dell&#39;e-mail: in un browser, su un dispositivo mobile o tramite un&#39;applicazione e-mail.
+Questo rapporto presenta i rendering delle e-mail così come appaiono al destinatario. I rendering e-mail possono essere diversi a seconda del modo in cui il destinatario apre la consegna dell&#39;e-mail: in un browser, su un dispositivo mobile o tramite un&#39;applicazione e-mail.
 
 >[!NOTE]
 >
->Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con il rendering **** E-mail abilitato diminuisce di un&#39;unità i rendering disponibili (denominati token). Se sei un client Litmus, puoi usare il tuo account Litmus per fornire e utilizzare il rendering E-mail in Adobe Campaign. Per ulteriori informazioni, contattate il vostro responsabile commerciale Adobe.
+>Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con il rendering **** E-mail abilitato diminuisce di un&#39;unità i rendering disponibili (denominati token).
 
 Il riepilogo del rapporto mostra il numero di messaggi ricevuti, indesiderati (spam), non ricevuti o in attesa di ricezione.
 
 ![](assets/inbox_rendering_report.png)
 
-La relazione è divisa in tre parti: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, e **[!UICONTROL Webmails]**. Scorrete il rapporto verso il basso per visualizzare tutti i rendering raggruppati in queste tre categorie.
+La relazione è divisa in tre parti: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** e **[!UICONTROL Webmails]**. Scorrete il rapporto verso il basso per visualizzare tutti i rendering raggruppati in queste tre categorie.
 
 ![](assets/inbox_rendering_report_3.png)
 
