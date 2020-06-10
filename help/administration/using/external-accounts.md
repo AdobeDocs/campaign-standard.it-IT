@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 0%
+source-wordcount: '1554'
+ht-degree: 3%
 
 ---
 
@@ -29,12 +29,12 @@ Questi account esterni possono essere utilizzati nei flussi di lavoro di Campaig
 
 È possibile impostare i seguenti tipi di account esterni:
 
-* SFTP. For more on this, refer to [this section](#sftp-external-account).
-* Amazon Storage Service (S3). For more on this, refer to [this section](#amazon-s3-external-account).
-* Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
-* Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
-* Archivio BLOB di Microsoft Azure. For more on this, refer to [this section](#microsoft-azure-external-account).
+* SFTP. Per ulteriori informazioni al riguardo, consulta [questa sezione](#sftp-external-account).
+* Amazon Storage Service (S3). Per ulteriori informazioni al riguardo, consulta [questa sezione](#amazon-s3-external-account).
+* Adobe Experience Manager. Per ulteriori informazioni al riguardo, consulta [questa sezione](#adobe-experience-manager-external-account).
+* Adobe Analytics. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
+* Google reCAPTCHA. Per ulteriori informazioni al riguardo, consulta [questa sezione](#google-recaptcha-external-account).
+* Archivio BLOB di Microsoft Azure. Per ulteriori informazioni al riguardo, consulta [questa sezione](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Adobe Campaign viene fornito con un set di account esterni predefiniti. Per conf
 
 Gli account esterni sono utilizzati da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro delle campagne. Quando imposti un trasferimento di file in un flusso di lavoro o uno scambio di dati con un&#39;altra applicazione (Adobe Target, Experience Manager, ecc.), devi selezionare un account esterno.
 
-1. Fate clic sul **[!UICONTROL Create]** pulsante.
+1. Fai clic sul pulsante **[!UICONTROL Create]**. 
 1. Immettere un&#39;etichetta. L&#39;etichetta e l&#39;ID verranno utilizzati per selezionare account esterni nei flussi di lavoro.
 1. Selezionate il tipo di account da creare.
 1. Configurate l&#39;accesso all&#39;account specificando le credenziali, l&#39;indirizzo del server, il numero di porta e le chiavi, se necessario.
@@ -86,9 +86,9 @@ Per evitare tali problemi, Adobe consiglia di seguire le procedure ottimali ripo
 * Talvolta, effettuate l’accesso a SFTP per verificare direttamente ciò che vi si trova.
 * Ricorda che la gestione del disco SFTP è principalmente una tua responsabilità.
 
-Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere inseriti nella white list dell&#39;istanza Campaign. La whitelist degli indirizzi IP può essere richiesta tramite un ticket [di](https://support.neolane.net)supporto, insieme alla fornitura della chiave pubblica da utilizzare per l&#39;autenticazione.
+Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere inseriti nella white list dell&#39;istanza Campaign. La whitelist degli indirizzi IP può essere richiesta tramite un ticket [di](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html)supporto, insieme alla fornitura della chiave pubblica da utilizzare per l&#39;autenticazione.
 
-I server SFTP possono essere gestiti dal Pannello di controllo. Per ulteriori informazioni, consultare la documentazione [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html)controllo.
+I server SFTP possono essere gestiti dal Pannello di controllo. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Specificate l&#39; **[!UICONTROL AWS Region]** endpoint associato. È possibile 
 
 Per facilitare l&#39;impostazione del vostro account Amazon S3, vi consigliamo di seguire le seguenti raccomandazioni:
 
-* Crea criteri fissi rigidi per limitare l&#39;accesso ai bucket S3. È possibile configurare il criterio del bucket durante la creazione di un bucket. Per ulteriori informazioni, consulta la documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)Amazon S3.
+* Crea criteri fissi rigidi per limitare l&#39;accesso ai bucket S3. È possibile configurare il criterio del bucket durante la creazione di un bucket. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Durante la creazione di un account esterno, abilitare la crittografia per memorizzare dati sensibili nel bucket S3 selezionando la **[!UICONTROL Keep files in S3 encrypted]** casella.
 * Concedere autorizzazioni bucket per specificare chi può accedere all&#39;oggetto in un bucket. Per ulteriori informazioni sull&#39;autorizzazione bucket, fare riferimento alla documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3.
 
@@ -168,7 +168,7 @@ Per un account esterno di archiviazione BLOB di Microsoft Azure, fornire i segue
 * A **[!UICONTROL Label]** e **[!UICONTROL ID]** del tuo account esterno
 * **[!UICONTROL Type]**: Archivio BLOB di Microsoft Azure
 * I vostri **[!UICONTROL Account name]** e **[!UICONTROL Account key]**. Per sapere dove trovare il nome e la chiave del tuo account, fai riferimento a questa [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* La tua **[!UICONTROL Endpoint suffix]**. È disponibile all&#39;interno **[!UICONTROL Connection string]** del **[!UICONTROL Access keys]** menu nel portale di Azure. Per ulteriori informazioni, consultare questa [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* La tua **[!UICONTROL Endpoint suffix]**. È disponibile all&#39;interno **[!UICONTROL Connection string]** del **[!UICONTROL Access keys]** menu nel portale di Azure. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Il tuo **[!UICONTROL Container]** nome. Se state pensando di utilizzare più di un contenitore, dovete creare tutti gli account esterni come contenitori.
 * L’ **[!UICONTROL Concurrency]** opzione consente di regolare la velocità dei trasferimenti di file.
 
