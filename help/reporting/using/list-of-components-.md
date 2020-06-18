@@ -12,7 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +68,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
   </tr> 
   <tr> 
    <td> Genere<br /> </td> 
-   <td> Genere del destinatario, ad esempio maschio o femmina. Se il campo genere è vuoto nel profilo del destinatario, il valore sarà none.<br /> </td> 
+   <td> Genere del destinatario, ad esempio maschio o femmina. Se il campo di genere è vuoto nel profilo del destinatario, il valore sarà none.<br /> </td> 
   </tr> 
   <tr> 
    <td> Azioni messaggio in-app<br /> </td> 
@@ -80,8 +83,8 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
    <td> Nome dell’applicazione mobile<br /> </td> 
   </tr> 
   <tr> 
-   <td> Piattaforma<br /> </td> 
-   <td> Piattaforma del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio.<br /> </td> 
+   <td> Platform<br /> </td> 
+   <td> Platform del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profili<br /> </td> 
@@ -89,7 +92,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
   </tr> 
   <tr> 
    <td> Piattaforma push<br /> </td> 
-   <td> Piattaforma del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android.<br /> </td> 
+   <td> Platform del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dominio destinatario<br /> </td> 
@@ -136,7 +139,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
 
 ## Metriche {#metrics}
 
-Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate nei report e le relative definizioni in base al tipo di consegna.
+Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzate nei report e le relative definizioni in base al tipo di consegna.
 
 ### Metriche e-mail e SMS {#email-and-sms-metrics}
 
@@ -149,12 +152,12 @@ Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate ne
  </thead> 
  <tbody> 
   <tr> 
-   <td> Blacklist<br /> </td> 
+   <td> Elenco blocchi<br /> </td> 
    <td> Numero di destinatari che hanno dichiarato un'e-mail come spam o posta indesiderata.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tariffa Blacklist<br /> </td> 
-   <td> Percentuale di consegne contrassegnate come in lista nera.<br /> </td> 
+   <td> Frequenza elenco blocchi<br /> </td> 
+   <td> Percentuale di consegne contrassegnate nell'elenco dei blocchi.<br /> </td> 
   </tr> 
   <tr> 
    <td> Punti + errori<br /> </td> 
@@ -162,7 +165,7 @@ Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate ne
   </tr> 
   <tr> 
    <td> Rimbalzo + Frequenza errori<br /> </td> 
-   <td> Percentuale di e-mail rimbalzate rispetto a quelle inviate.<br /> </td> 
+   <td> Percentuale di messaggi e-mail rimbalzati rispetto a quelli inviati tramite e-mail.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic<br /> </td> 
@@ -197,7 +200,7 @@ Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate ne
    <td> Percentuale di clic sul collegamento della pagina mirror rispetto al totale dei messaggi di consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic offerta<br /> </td> 
+   <td> Clic sull'offerta<br /> </td> 
    <td> Numero di volte in cui è stato fatto clic su un'offerta in una consegna.<br /> </td> 
   </tr> 
   <tr> 
@@ -254,7 +257,7 @@ Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate ne
   </tr> 
   <tr> 
    <td> Annulla sottoscrizione<br /> </td> 
-   <td>  Numero di clic sul collegamento di annullamento della sottoscrizione.<br /> </td> 
+   <td> Numero di clic sul collegamento di annullamento della sottoscrizione.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -295,7 +298,7 @@ Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate ne
   </tr> 
   <tr> 
    <td> Impressioni<br /> </td> 
-   <td> Numero di volte in cui una notifica push viene inviata al dispositivo e lasciata inalterata nel Centro notifiche. Nella maggior parte dei casi, il numero di impression deve essere simile al numero consegnato. In questo modo il dispositivo riceve il messaggio e ritorna al server.<br /> </td> 
+   <td> Numero di volte in cui una notifica push viene inviata al dispositivo e lasciata inalterata nel Centro notifiche. Nella maggior parte dei casi, il numero di impression deve essere simile al numero consegnato. In questo modo il dispositivo riceve il messaggio e le ritorna al server.<br /> </td> 
   </tr> 
   <tr> 
    <td> Elaborato/inviato<br /> </td> 
@@ -352,7 +355,7 @@ Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate ne
   </tr> 
   <tr> 
    <td> Licenza in-app<br /> </td> 
-   <td> Numero totale di messaggi che i destinatari hanno chiuso facendo clic sul pulsante Chiudi o chiudendo automaticamente.<br /> </td> 
+   <td> Numero totale di messaggi che i destinatari hanno chiuso facendo clic sul pulsante di chiusura o con la chiusura automatica.<br /> </td> 
   </tr> 
   <tr> 
    <td> Frequenza di licenziamento in-app<br /> </td> 
@@ -360,7 +363,7 @@ Le tabelle riportate di seguito forniscono l'elenco delle metriche utilizzate ne
   </tr> 
   <tr> 
    <td> Elaborato/inviato<br /> </td> 
-   <td> Numero totale di messaggi in-app inviati da Adobe Campaign nell'ambito del processo di consegna inviata.<br /> </td> 
+   <td> Numero totale di messaggi in-app inviati da  Adobe Campaign nell'ambito del processo di consegna inviata.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressioni univoche<br /> </td> 
