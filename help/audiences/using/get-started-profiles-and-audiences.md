@@ -1,6 +1,6 @@
 ---
 title: Introduzione a profili e audience
-description: '"Ulteriori informazioni sulla gestione di profili e audience in Adobe Campaign: definire popolazioni mirate, selezionare audience, filtrare destinatari, raccogliere dati e aggiornare profili."'
+description: '"Ulteriori informazioni sulla gestione di profili e audience all''interno  Adobe Campaign: definire popolazioni mirate, selezionare audience, filtrare destinatari, raccogliere dati e aggiornare profili."'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 5%
+source-wordcount: '609'
+ht-degree: 6%
 
 ---
 
@@ -43,13 +43,13 @@ Quando create campagne o messaggi, potete specificare la destinazione delle cons
 
 Identifica i clienti in modo più efficace su tutti i tuoi canali utilizzando profili **cliente** integrati e segmenti **** personalizzati. Se conosci i tuoi clienti, interessi, dati demografici e preferenze per i canali, è più facile creare esperienze personalizzate che vengono notate.
 
-Adobe Campaign crea profili cliente avanzati in tempo reale, consentendo di distribuire offerte più pertinenti e personalizzate man mano che cambiano le preferenze del cliente. Inoltre, Adobe Campaign integra funzionalità avanzate di analisi, gestione dei dati e targeting per creare audience.
+ Adobe Campaign crea profili cliente avanzati in tempo reale, consentendo di distribuire offerte più pertinenti e personalizzate man mano che cambiano le preferenze del cliente. Inoltre,  Adobe Campaign integra funzionalità avanzate di analisi, gestione dei dati e targeting per creare audience.
 
-**I profili** sono singoli contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie affinché il profilo sia mirato, qualificato e monitorato individualmente: Adobe Campaign è in grado di monitorare ogni interazione sia dai canali online che offline e di unirla in un unico profilo.
+**I profili** sono singoli contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie affinché il profilo sia mirato, qualificato e monitorato individualmente:  Adobe Campaign può tenere traccia di ogni interazione dai canali online e offline e unirla in un unico profilo.
 
 **Le audience** sono elenchi di profili basati su un criterio specifico o un insieme di criteri specifici. Utilizzando i flussi di lavoro e l&#39;editor di query, puoi creare tipi di pubblico ai quali verranno indirizzate le campagne di marketing, in base alle informazioni disponibili, alle attività e alla cronologia di marketing. Questo consente di filtrare i profili sottoscritti, di campionare o di creare audience target su un numero illimitato di criteri.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Informazioni sui profili](../../audiences/using/about-profiles.md)
 * [Profili attivi](../../audiences/using/active-profiles.md)
@@ -66,13 +66,13 @@ Prima di inviare i messaggi a un contatto, è necessario assicurarsi di ottenern
 
 Con Campaign, ti consigliamo di utilizzare **semplici meccanismi** di opt-in e di opt-out tramite [i servizi](../../audiences/using/creating-a-service.md)e pagine [di](../../channels/using/getting-started-with-landing-pages.md) destinazione per aggiornare le informazioni di contatto e ampliare il tuo database.
 
-Fornendo collegamenti **di** annullamento dell&#39;iscrizione nei messaggi, i profili verranno inseriti in blacklist quando necessario, e quindi miglioreranno il recapito della piattaforma. Per ulteriori informazioni sull&#39;inserimento in blacklist, consulta [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Se nei messaggi **non si dispone di collegamenti** per l&#39;annullamento dell&#39;iscrizione, i profili verranno aggiunti all&#39;elenco dei blocchi, se necessario, e quindi miglioreranno la funzionalità di recapito della piattaforma. Per ulteriori informazioni sulla gestione degli elenchi di blocchi, consultate [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->Devi rispettare i criteri di utilizzo accettabili di [Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>È necessario rispettare i criteri di utilizzo [Adobe Campaign accettabili](https://www.adobe.com/legal/terms/aup.html).
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Informazioni sulle sottoscrizioni](../../audiences/using/about-subscriptions.md)
 * [Informazioni sul consenso e diniego in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
@@ -81,7 +81,7 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign offre una serie di strumenti per aiutarti a rispettare le normative sulla **privacy** per GDPR, CCPA e altre leggi sulla privacy.
+ Adobe Campaign offre una serie di strumenti per aiutarti a rispettare le leggi sulla **privacy** per GDPR, CCPA e altre leggi sulla privacy.
 
 Scopri di più in questo [articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla Gestione della privacy e sulle funzioni che forniamo per gestire il Diritto di accesso, il Diritto di essere Dimenticato, il consenso, la conservazione dei dati e i ruoli utente.
 
