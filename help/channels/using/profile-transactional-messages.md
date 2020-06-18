@@ -12,7 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 Puoi inviare messaggi transazionali basati sui profili di marketing dei clienti, che consentono di:
 
-* Applica regole di tipologia di marketing, ad esempio **[!UICONTROL Blacklisted address]** o [regole](../../sending/using/fatigue-rules.md)di affaticamento.
+* Applica regole di tipologia di marketing, ad esempio **[!UICONTROL Address on block list]** o [regole](../../sending/using/fatigue-rules.md)di affaticamento.
 * Includi il collegamento di annullamento della sottoscrizione nei messaggi.
 * Aggiungete i messaggi transazionali al reporting globale sulla distribuzione.
 * Utilizza i messaggi transazionali nel percorso del cliente.
@@ -71,17 +74,17 @@ Dopo aver pubblicato il messaggio e aver completato l&#39;integrazione con il si
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Selezionate la **[!UICONTROL Exclusions logs]** scheda per visualizzare i destinatari che sono stati esclusi dalla destinazione del messaggio, ad esempio gli indirizzi in lista nera.
+1. Selezionate la **[!UICONTROL Exclusions logs]** scheda per visualizzare i destinatari che sono stati esclusi dalla destinazione del messaggio, ad esempio gli indirizzi nell&#39;elenco dei blocchi.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Per qualsiasi profilo che ha rinunciato, la regola di **[!UICONTROL Blacklisted address]** tipologia ha escluso il destinatario corrispondente.
+Per qualsiasi profilo che ha rinunciato, la regola di **[!UICONTROL Address on block list]** tipologia ha escluso il destinatario corrispondente.
 
 Questa regola fa parte di una tipologia specifica che si applica a tutti i messaggi transazionali basati sulla **[!UICONTROL Profile]** tabella.
 
 ![](assets/message-center_marketing_typology.png)
 
-**Argomenti** correlati:
+**Argomenti correlati**:
 
 * [Integrazione del sito](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
 * [Tipologie](../../sending/using/about-typology-rules.md)
