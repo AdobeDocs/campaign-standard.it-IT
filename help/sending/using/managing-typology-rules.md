@@ -13,7 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 6%
 
 ---
 
@@ -24,11 +27,11 @@ source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 Le regole di tipologia sono regole aziendali che consentono di eseguire controlli e filtrare il messaggio prima di inviarlo. I tipi disponibili di regole di tipologia sono:
 
-* **Regole di filtro** : Questo tipo di regola consente di escludere una parte della destinazione del messaggio in base ai criteri definiti in una query, ad esempio profili o profili in quarantena già inviati da un certo numero di e-mail. For more on this, refer to [this section](../../sending/using/filtering-rules.md).
+* **Regole di filtro** : Questo tipo di regola consente di escludere una parte della destinazione del messaggio in base ai criteri definiti in una query, ad esempio profili o profili in quarantena già inviati da un certo numero di e-mail. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/filtering-rules.md).
 
-* **Regole di fatica** : Questo tipo di regole consente di definire un numero massimo di messaggi per profilo per evitare di richiederli in eccesso. For more on this, refer to [this section](../../sending/using/fatigue-rules.md).
+* **Regole di fatica** : Questo tipo di regole consente di definire un numero massimo di messaggi per profilo per evitare di richiederli in eccesso. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/fatigue-rules.md).
 
-* **Regole di controllo** : Questo tipo di regole consente all&#39;utente di verificare la validità e la qualità dei messaggi prima di essere inviati, come la visualizzazione del carattere, la dimensione del messaggio SMS, il formato dell&#39;indirizzo, ecc. For more on this, refer to [this section](../../sending/using/control-rules.md).
+* **Regole di controllo** : Questo tipo di regole consente all&#39;utente di verificare la validità e la qualità dei messaggi prima di essere inviati, come la visualizzazione del carattere, la dimensione del messaggio SMS, il formato dell&#39;indirizzo, ecc. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/control-rules.md).
 
 Le regole di tipologia sono disponibili nel menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** .
 
@@ -69,7 +72,7 @@ In modalità operativa standard, le regole vengono applicate nella sequenza segu
 1. Regole di controllo, se applicate all&#39;inizio del targeting.
 1. Regole di filtro:
 
-   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo non verificato / indirizzo inserito in lista nera / indirizzo in quarantena / qualità indirizzo non verificato.
+   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo non verificato / indirizzo nell&#39;elenco dei blocchi / indirizzo messo in quarantena / qualità indirizzo.
    * Regole di filtro definite dall&#39;utente.
 
 1. Regole di controllo, se applicate alla fine del targeting.
