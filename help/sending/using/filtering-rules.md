@@ -12,7 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,7 @@ La tabella seguente fornisce informazioni sulle regole di filtraggio pronte all�
 | Etichetta | Canale | Descrizione |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione di destinazione senza un indirizzo specifico (indirizzo e-mail, indirizzo postale, ecc.) secondo il canale selezionato). |
-| **[!UICONTROL Blacklisted address]** | Tutto | Esclude gli indirizzi inseriti in blacklist. |
+| **[!UICONTROL Blocklisted address]** | Tutto | Esclude gli indirizzi che si trovano nell&#39;elenco dei blocchi. |
 | **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al **[!UICONTROL Address]** campo popolazione di destinazione. |
 | **[!UICONTROL Exclude mobile applications]** | Applicazione mobile | Sono escluse le iscrizioni all&#39;app che non corrispondono all&#39;applicazione mobile definita nel messaggio. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Sono escluse le iscrizioni all&#39;app che non corrispondono all&#39;applicazione mobile definita nel messaggio (modello in-app). |
@@ -44,7 +47,7 @@ Sono inoltre disponibili due regole di esclusione per le seguenti regole di filt
 
 Durante l&#39;analisi delle e-mail, queste regole confrontano gli indirizzi e-mail dei destinatari con gli indirizzi o i nomi di dominio vietati contenuti in un elenco di soppressione globale crittografato gestito nell&#39;istanza di recapito. In caso di corrispondenza, il messaggio non viene inviato al destinatario.
 
-Questo per evitare di essere inseriti in blacklist a causa di attività dannose, soprattutto l&#39;uso di uno Spamtrap. Ad esempio, se si utilizza uno Spamtrap per effettuare la sottoscrizione tramite uno dei moduli Web, viene automaticamente inviata una e-mail di conferma a tale Spamtrap, che ne determina la blacklist automatica dell&#39;indirizzo.
+Questo per evitare di essere aggiunto all&#39;elenco dei blocchi a causa di attività dannose, in particolare l&#39;uso di uno Spamtrap. Ad esempio, se si utilizza uno Spamtrap per effettuare la sottoscrizione tramite uno dei moduli Web, viene automaticamente inviato un messaggio e-mail di conferma a tale Spamtrap, con l&#39;aggiunta automatica dell&#39;indirizzo all&#39;elenco dei blocchi.
 
 >[!NOTE]
 >
@@ -76,7 +79,7 @@ Per creare una regola di tipo filtro, effettuate le seguenti operazioni:
 
    ![](assets/typology_create-rule-typology.png)
 
-1. Accertatevi che la tipologia sia selezionata nel modello di consegna o consegna che desiderate utilizzare. For more on this, refer to [this section](../../sending/using/managing-typologies.md#applying-typologies-to-messages).
+1. Accertatevi che la tipologia sia selezionata nel modello di consegna o consegna che desiderate utilizzare. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/managing-typologies.md#applying-typologies-to-messages).
 
    ![](assets/typology_template.png)
 
@@ -84,7 +87,7 @@ Ogni volta che questa regola viene utilizzata in un messaggio, gli abbonati che 
 
 ## Configurazione del contesto di targeting delle regole di filtro {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard consente di configurare le dimensioni **Targeting** e **Filtraggio** da utilizzare in base ai dati di destinazione.
+Campaign Standard consente di configurare le dimensioni **Targeting** e **Filtraggio** in base ai dati da destinare.
 
 A questo scopo, aprire le proprietà della regola di tipologia, quindi accedere alla **[!UICONTROL Advanced information]** sezione.
 
