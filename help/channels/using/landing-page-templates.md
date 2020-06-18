@@ -13,7 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
@@ -25,13 +28,13 @@ Campaign viene fornito con un set di modelli di pagina di destinazione incorpora
 * **[!UICONTROL Acquisition]**: questo è il modello predefinito per le pagine di destinazione, che consente di acquisire e aggiornare i dati nel database Campaign.
 * **[!UICONTROL Subscription]**: questo modello deve essere utilizzato per offrire iscrizioni a un servizio.
 * **[!UICONTROL Unsubscription]**: questo modello può essere collegato da un’e-mail inviata agli abbonati a un servizio per consentire loro di annullare l’iscrizione a questo servizio.
-* **[!UICONTROL Blacklist]**: questo modello deve essere utilizzato quando un profilo non vuole più essere contattato da Campaign. Per ulteriori informazioni sull&#39;inserimento in blacklist, consultate [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Block list]**: questo modello deve essere utilizzato quando un profilo non vuole più essere contattato da Campaign. Per ulteriori informazioni sulla gestione degli elenchi di blocchi, consultate [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Questi modelli sono proposti per impostazione predefinita quando si crea una nuova pagina di destinazione.
 
 ![](assets/lp_creation_1.png)
 
-Per accedere ai modelli della pagina di destinazione, fai clic sul logo Adobe Campaign in alto a sinistra e seleziona **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
+Per accedere ai modelli della pagina di destinazione, fate clic sul logo del Adobe Campaign  nell’angolo in alto a sinistra e selezionate **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
 
 >[!NOTE]
 >
