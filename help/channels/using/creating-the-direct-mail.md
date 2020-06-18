@@ -1,6 +1,6 @@
 ---
 title: Creazione della direct mail
-description: Segui questi passaggi per creare una consegna diretta per la posta in Adobe Campaign.
+description: Per creare una consegna diretta per la posta in  Adobe Campaign, effettuate le seguenti operazioni.
 page-status-flag: never-activated
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 La creazione di una consegna diretta per posta è molto simile alla creazione di un&#39;e-mail regolare. I passaggi seguenti descrivono la configurazione specifica per questo canale. Per ulteriori informazioni sulle altre opzioni, consultate [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md) .
 
-1. Crea una nuova consegna diretta. Puoi crearne uno dalla [home page](../../start/using/interface-description.md#home-page)di Adobe Campaign, in una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity) o in un elenco [di attività di](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketing.
+1. Crea una nuova consegna diretta. Potete crearne uno dalla [home page](../../start/using/interface-description.md#home-page)del Adobe Campaign , in una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity) o in un elenco [di attività](../../start/using/programs-and-campaigns.md#creating-a-campaign)di marketing.
 
    >[!NOTE]
    >
@@ -60,7 +63,7 @@ La creazione di una consegna diretta per posta è molto simile alla creazione di
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Export]** ruolo è necessario per consentire ad Adobe Campaign di esportare il file e renderlo disponibile per il download. Contattare l&#39;amministratore.
+   >Il **[!UICONTROL Export]** ruolo è necessario per consentire  Adobe Campaign di esportare il file e renderlo disponibile per il download. Contattare l&#39;amministratore.
 
    ![](assets/direct_mail_19.png)
 
@@ -84,7 +87,7 @@ La creazione di una consegna diretta per posta è molto simile alla creazione di
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Export]** ruolo è necessario per consentire ad Adobe Campaign di esportare il file e renderlo disponibile per il download. Contattare l&#39;amministratore.
+   >Il **[!UICONTROL Export]** ruolo è necessario per consentire  Adobe Campaign di esportare il file e renderlo disponibile per il download. Contattare l&#39;amministratore.
 
    Per modificare il contenuto della distribuzione, è sufficiente fare clic sul **[!UICONTROL Regenerate file]** pulsante per tenere conto della modifica. Non è necessario rivedere la preparazione.
 
@@ -99,4 +102,4 @@ La creazione di una consegna diretta per posta è molto simile alla creazione di
 * Inviatelo via e-mail, con il file allegato
 * Invia tramite Campaign: esegui la posta diretta in un [flusso](../../automating/using/direct-mail-delivery.md) di lavoro **[!UICONTROL Transfer file]** della campagna e aggiungi un messaggioper inviare il file, ad esempio tramite FTP. Consulta [Trasferisci file](../../automating/using/transfer-file.md).
 
-Il provider recupera l&#39;elenco degli indirizzi errati e invia queste informazioni ad Adobe Campaign, che elenca automaticamente in blacklist gli indirizzi errati. See [Return to sender](../../channels/using/return-to-sender.md).
+Il provider recupera l&#39;elenco degli indirizzi errati e invia queste informazioni al Adobe Campaign  che aggiunge automaticamente all&#39;elenco blocchi gli indirizzi errati. See [Return to sender](../../channels/using/return-to-sender.md).
