@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 # Account esterni{#external-accounts}
 
-Un account esterno è una configurazione che consente di configurare e verificare l&#39;accesso a un server esterno ad Adobe Campaign.
+Un account esterno è una configurazione che consente di configurare e verificare l’accesso a un server esterno al Adobe Campaign .
 
 Questi account esterni possono essere utilizzati nei flussi di lavoro di Campaign per accedere e gestire i dati.
 
@@ -31,8 +31,8 @@ Questi account esterni possono essere utilizzati nei flussi di lavoro di Campaig
 
 * SFTP. Per ulteriori informazioni al riguardo, consulta [questa sezione](#sftp-external-account).
 * Amazon Storage Service (S3). Per ulteriori informazioni al riguardo, consulta [questa sezione](#amazon-s3-external-account).
-* Adobe Experience Manager. Per ulteriori informazioni al riguardo, consulta [questa sezione](#adobe-experience-manager-external-account).
-* Adobe Analytics. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
+*  Adobe Experience Manager. Per ulteriori informazioni al riguardo, consulta [questa sezione](#adobe-experience-manager-external-account).
+* Adobe  Analytics. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Per ulteriori informazioni al riguardo, consulta [questa sezione](#google-recaptcha-external-account).
 * Archivio BLOB di Microsoft Azure. Per ulteriori informazioni al riguardo, consulta [questa sezione](#microsoft-azure-external-account).
 
@@ -44,9 +44,9 @@ Gli account esterni possono essere configurati dagli amministratori nel **[!UICO
 
 ## Creazione di un account esterno {#creating-an-external-account}
 
-Adobe Campaign viene fornito con un set di account esterni predefiniti. Per configurare le connessioni con i sistemi esterni, come i server FTP utilizzati per i trasferimenti di file, potete creare i vostri account esterni.
+ Adobe Campaign viene fornito con una serie di conti esterni predefiniti. Per configurare le connessioni con i sistemi esterni, come i server FTP utilizzati per i trasferimenti di file, potete creare i vostri account esterni.
 
-Gli account esterni sono utilizzati da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro delle campagne. Quando imposti un trasferimento di file in un flusso di lavoro o uno scambio di dati con un&#39;altra applicazione (Adobe Target, Experience Manager, ecc.), devi selezionare un account esterno.
+Gli account esterni sono utilizzati da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro delle campagne. Quando si configura un trasferimento di file in un flusso di lavoro o uno scambio di dati con un&#39;altra applicazione ( Adobe Target,  Experience Manager, ecc.), è necessario selezionare un account esterno.
 
 1. Fai clic sul pulsante **[!UICONTROL Create]**. 
 1. Immettere un&#39;etichetta. L&#39;etichetta e l&#39;ID verranno utilizzati per selezionare account esterni nei flussi di lavoro.
@@ -86,7 +86,7 @@ Per evitare tali problemi, Adobe consiglia di seguire le procedure ottimali ripo
 * Talvolta, effettuate l’accesso a SFTP per verificare direttamente ciò che vi si trova.
 * Ricorda che la gestione del disco SFTP è principalmente una tua responsabilità.
 
-Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere inseriti nella white list dell&#39;istanza Campaign. La whitelist degli indirizzi IP può essere richiesta tramite un ticket [di](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html)supporto, insieme alla fornitura della chiave pubblica da utilizzare per l&#39;autenticazione.
+Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere aggiunti all&#39;elenco Consenti nell&#39;istanza Campaign. L&#39;aggiunta di indirizzi IP all&#39;elenco di indirizzi consentiti può essere richiesta tramite un ticket [di](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html)supporto, insieme alla fornitura della chiave pubblica da utilizzare per l&#39;autenticazione.
 
 I server SFTP possono essere gestiti dal Pannello di controllo. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -123,16 +123,16 @@ Per facilitare l&#39;impostazione del vostro account Amazon S3, vi consigliamo d
 * Durante la creazione di un account esterno, abilitare la crittografia per memorizzare dati sensibili nel bucket S3 selezionando la **[!UICONTROL Keep files in S3 encrypted]** casella.
 * Concedere autorizzazioni bucket per specificare chi può accedere all&#39;oggetto in un bucket. Per ulteriori informazioni sull&#39;autorizzazione bucket, fare riferimento alla documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3.
 
-## Account esterno di Adobe Experience Manager {#adobe-experience-manager-external-account}
+##  conto esterno del Adobe Experience Manager {#adobe-experience-manager-external-account}
 
-Gli account esterni di Adobe Experience Manager vengono utilizzati per l&#39;integrazione di Campaign con Experience Manager.
+ account esterni del Adobe Experience Manager vengono utilizzati per l&#39;integrazione di Campaign con  Experience Manager.
 
 I processi e i requisiti relativi a questa integrazione sono disponibili in [questo documento](../../integrating/using/get-started-campaign-integrations.md).
 
 Mentre configurate questo nuovo account esterno, dovete fornire i seguenti dettagli:
 
-* Server: immettete l&#39;URL del server Adobe Experience Manager. Ad esempio, **http://aem.domain.com:4502**.
-* Credenziali account AEM: utilizzate l&#39;account che potrà accedere all&#39;istanza di Adobe Experience Manager. Deve essere un account appartenente al gruppo remoto della campagna in Experience Manager.
+* Server: immettete l’URL del server del Adobe Experience Manager . Ad esempio, **http://aem.domain.com:4502**.
+* Credenziali account AEM: utilizzate l&#39;account che accederà all&#39;istanza del Adobe Experience Manager . Deve essere un account appartenente al gruppo remoto della campagna in  Experience Manager.
 
 ## Account esterno Google reCAPTCHA {#google-recaptcha-external-account}
 
@@ -159,9 +159,9 @@ Per un account esterno Google reCAPTCHA V3, fornite i seguenti dettagli:
 
 >[!NOTE]
 >
->Le informazioni necessarie per configurare l&#39;account esterno in Adobe Campaign Standard sono disponibili nel portale di Azure selezionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+>Le informazioni necessarie per configurare l&#39;account esterno in  Adobe Campaign Standard sono disponibili nel portale di Azure selezionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-Il connettore di archiviazione BLOB di Azure può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un&#39;attività di **[!UICONTROL Transfer file]** flusso di lavoro. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Il connettore di archiviazione BLOB di Azure può essere utilizzato per importare o esportare dati in  Adobe Campaign tramite un&#39;attività di **[!UICONTROL Transfer file]** flusso di lavoro. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Per un account esterno di archiviazione BLOB di Microsoft Azure, fornire i seguenti dettagli:
 
@@ -174,13 +174,13 @@ Per un account esterno di archiviazione BLOB di Microsoft Azure, fornire i segue
 
 ![](assets/external_accounts_4.png)
 
-Una volta configurato, fai clic **[!UICONTROL Test connection]** per collegare Adobe Campaign all&#39;archiviazione BLOB di Microsoft Azure.
+Una volta configurato, fare clic **[!UICONTROL Test connection]** per collegare  Adobe Campaign all&#39;archiviazione BLOB di Microsoft Azure.
 
 ### Consigli per l&#39;archiviazione BLOB di Microsoft Azure {#azure-blob-recommendations}
 
 **Cifratura**
 
-Adobe Campaign utilizza una connessione protetta (HTTPS) per accedere all&#39;account di archiviazione BLOB di Microsoft Azure.
+ Adobe Campaign utilizza una connessione protetta (HTTPS) per accedere all&#39;account di archiviazione BLOB di Microsoft Azure.
 
 **Chiave account**
 
