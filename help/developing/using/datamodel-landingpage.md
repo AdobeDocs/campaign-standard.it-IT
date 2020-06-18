@@ -13,7 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1727'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +76,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>campaign (campaignBase)</td>
-         <td>Campaign</td>
+         <td>Campagna</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -148,7 +151,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>Ungherese - hu - hu</li>
                <li>Svedese (Finlandia) - sv_FI - sv_FI</li>
                <li>Giapponese - ja - ja</li>
-               <li>"Ebraico - egli -"</li>
+               <li>"Ebraico" - "lui"</li>
                <li>Coreano - ko - ko</li>
                <li>Svedese - sv - sv</li>
                <li>Svezia (svedese) - sv_SE - sv_SE</li>
@@ -214,7 +217,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>Ungherese - hu - hu</li>
                <li>Svedese (Finlandia) - sv_FI - sv_FI</li>
                <li>Giapponese - ja - ja</li>
-               <li>"Ebraico - egli -"</li>
+               <li>"Ebraico" - "lui"</li>
                <li>Coreano - ko - ko</li>
                <li>Svedese - sv - sv</li>
                <li>Svezia (svedese) - sv_SE - sv_SE</li>
@@ -330,9 +333,9 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td>
             <ul>
                <li>In corso - avviato - avviato</li>
-               <li>Editing - edizione</li>
+               <li>Editing - edizione - edizione</li>
                <li>Finito - finito - finito</li>
-               <li>Avviso - Avviso</li>
+               <li>Avvertenza - Avviso</li>
                <li>Erroneo - errore - errore</li>
                <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
             </ul>
@@ -376,7 +379,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>program (programBase)</td>
-         <td>Program</td>
+         <td>Programma</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -428,7 +431,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td>enumerazione (byte) </td>
          <td>
             <ul>
-               <li>Lista nera - 3</li>
+               <li>Blocklist - blockList - 3</li>
                <li>Nessuna azione specifica - Nessuno - 0</li>
                <li>Annullamento sottoscrizione - annullamento sottoscrizione - 2</li>
                <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
@@ -633,7 +636,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
             <ul>
                <li>Generico - generico - 0</li>
                <li>Annullamento dell'iscrizione da un servizio - annullamento dell'iscrizione - 3</li>
-               <li>Lista nera - lista nera - 4</li>
+               <li>Blocklist - blockList - 4</li>
                <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
                <li>Acquisizione - acquisizione - 1</li>
                <li>Iscrizione a un servizio - iscrizione - 2</li>
