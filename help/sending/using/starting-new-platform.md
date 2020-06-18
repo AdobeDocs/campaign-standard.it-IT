@@ -1,6 +1,6 @@
 ---
-title: Avvio di una nuova piattaforma con Adobe Campaign Standard
-description: Scopri come configurare una nuova piattaforma mantenendo la reputazione del dominio e dell'indirizzo IP con Adobe Campaign Standard.
+title: Avvio di una nuova piattaforma con  Adobe Campaign Standard
+description: Scopri come impostare una nuova piattaforma mantenendo la reputazione del dominio e dell'indirizzo IP con  Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f83cf866f1c9fa53687e6cee26306d33327bd822
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: f83cf866f1c9fa53687e6cee26306d33327bd822
 
 Mantenere la reputazione del dominio e dell&#39;indirizzo IP è fondamentale. Di seguito sono riportati alcuni consigli per la creazione di una nuova piattaforma.
 
-L&#39;invio di e-mail su una nuova piattaforma è un passaggio sensibile in quanto la piattaforma non dispone di alcuna cronologia di utilizzo e non ha alcuna reputazione (quando gli IP di invio non sono mai stati utilizzati a questo scopo). Gli ISP sono naturalmente sospettosi degli indirizzi IP che non sono mai stati utilizzati per inviare email e che improvvisamente iniziano a inviare grandi volumi di traffico email. In effetti, gli spammer generalmente utilizzano indirizzi IP &quot;sconosciuti&quot; (cioè indirizzi che non sono mai stati inseriti in blacklist) per inviare il maggior numero possibile di messaggi prima del rilevamento.
+L&#39;invio di e-mail su una nuova piattaforma è un passaggio sensibile in quanto la piattaforma non dispone di alcuna cronologia di utilizzo e non ha alcuna reputazione (quando gli IP di invio non sono mai stati utilizzati a questo scopo). Gli ISP sono naturalmente sospettosi degli indirizzi IP che non sono mai stati utilizzati per inviare email e che improvvisamente iniziano a inviare grandi volumi di traffico email. In effetti, gli spammer generalmente utilizzano indirizzi IP &quot;sconosciuti&quot; (indirizzi che non sono mai stati aggiunti a un elenco di blocchi) per inviare il maggior numero possibile di messaggi prima del rilevamento.
 
 Non ci si può aspettare di raggiungere la velocità operativa in termini di output all&#39;inizio della fase di produzione. Inoltre, non si dovrebbe tentare di inviare messaggi a questo tasso, in quanto potrebbe indurre gli ISP a bloccare gli indirizzi di invio e a compromettere gravemente il resto della fase di avvio.
 
