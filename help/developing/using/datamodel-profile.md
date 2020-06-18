@@ -10,7 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 0%
 
 ---
 
@@ -51,43 +54,43 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackList</td>
+                  <td>blockList</td>
                   <td>Nessun contatto (da un canale)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>Non contatta più tramite e-mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>Non contatta più via fax</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>Nessun contatto più tramite SMS</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>Nessun contatto più telefonico</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>Nessun contatto tramite posta diretta</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPushnotification</td>
+                  <td>blockListPushnotification</td>
                   <td>Nessun contatto più tramite notifica push</td>
                   <td>boolean </td>
                   <td> </td>
@@ -601,7 +604,7 @@ Received (hasReceivedDelivery)
 </tr>
 </table>
 
-Iscritti (iscritti)
+Abbonati (iscritti)
 
 <table>
 <tr>
