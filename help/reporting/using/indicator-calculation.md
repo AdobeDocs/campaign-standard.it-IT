@@ -12,7 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 1%
 
 ---
 
@@ -30,9 +33,9 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etichetta</strong><br /> </th> 
-   <th> <strong>Nome</strong> campo <br /> </th> 
-   <th> <strong>Formula</strong> di calcolo dell'indicatore <br /> </th> 
+   <th> <strong>Etichetta</strong> <br /> </th> 
+   <th> <strong>Nome campo</strong> <br /> </th> 
+   <th> <strong>Formula di calcolo indicatore</strong> <br /> </th> 
    <th> <strong>Commenti</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -44,15 +47,15 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklist<br /> </td> 
-   <td> @blacklist<br /> </td> 
+   <td> Bloccato<br /> </td> 
+   <td> @blocklist<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tariffa Blacklist<br /> </td> 
-   <td> @rateBlacklist<br /> </td> 
-   <td> @blacklist/@sent<br /> </td> 
+   <td> Tasso di blocco<br /> </td> 
+   <td> @rateBlocklists<br /> </td> 
+   <td> @blocklist/@sent<br /> </td> 
    <td> Denominatore per il calcolo del tasso si basa sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
   </tr> 
   <tr> 
@@ -200,7 +203,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Non raggiungibile <br /> </td> 
+   <td> Non Raggiungibile <br /> </td> 
    <td> @non raggiungibile<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
@@ -231,9 +234,9 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etichetta</strong><br /> </th> 
-   <th> <strong>Nome</strong> campo <br /> </th> 
-   <th> <strong>Formula</strong> di calcolo dell'indicatore <br /> </th> 
+   <th> <strong>Etichetta</strong> <br /> </th> 
+   <th> <strong>Nome campo</strong> <br /> </th> 
+   <th> <strong>Formula di calcolo indicatore</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -280,7 +283,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   <tr> 
    <td> Impressioni univoche<br /> </td> 
    <td> @uniqueimpression<br /> </td> 
-   <td> @Unique(@count(status=view))<br /> </td> 
+   <td> @univoche(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic<br /> </td> 
@@ -305,9 +308,9 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Etichetta</strong><br /> </th> 
-   <th> <strong>Nome</strong> campo <br /> </th> 
-   <th> <strong>Formula</strong> di calcolo dell'indicatore <br /> </th> 
+   <th> <strong>Etichetta</strong> <br /> </th> 
+   <th> <strong>Nome campo</strong> <br /> </th> 
+   <th> <strong>Formula di calcolo indicatore</strong> <br /> </th> 
    <th> <strong>Commenti</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -333,8 +336,8 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   <tr> 
    <td> Impressioni univoche<br /> </td> 
    <td> @uniqueimpression<br /> </td> 
-   <td> @Unique(@count(status=view))<br /> </td> 
-   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> @univoche(@count(status=view))<br /> </td> 
+   <td> Per gli utenti <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e gli utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic in-app <br /> </td> 
@@ -346,7 +349,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Clic in-app univoci<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @univoche(@count (status=clic)<br /> </td> 
-   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per gli utenti <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e gli utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Frequenza di click-through in-app<br /> </td> 
@@ -364,7 +367,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Licenze univoche in-app<br /> </td> 
    <td> @unicedismissal<br /> </td> 
    <td> @univoche(@count (status=close))<br /> </td> 
-   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per gli utenti <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e gli utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Frequenza di licenziamento in-app<br /> </td> 
