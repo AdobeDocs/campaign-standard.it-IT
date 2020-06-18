@@ -1,26 +1,29 @@
 ---
 title: Raggruppamento per domini
 description: Con il rapporto suddiviso per domini out-of-the-box, scopri i dati sulle prestazioni delle tue consegne a seconda del dominio del cliente.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: 75a64c81-325b-422f-b6ef-deb06eec7f7b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: elenco di rapporti
+topic-tags: list-of-reports
 discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
 
 # Raggruppamento per domini{#breakdown-by-domains}
 
-Questo rapporto contiene i dati sulle prestazioni per ciascun dominio rappresentato nel pubblico per una consegna tramite e-mail. Se si tratta di un rapporto di campagna o di programma, i dati sulle prestazioni sono disponibili per più audience. Questi dati consentono di analizzare il comportamento di ciascun dominio in risposta a eventi specifici. Ad esempio, visualizzazione dei collegamenti, inserimento in blacklist degli URL e così via.
+Questo rapporto contiene i dati sulle prestazioni per ciascun dominio rappresentato nel pubblico per una consegna tramite e-mail. Se si tratta di un rapporto di campagna o di programma, i dati sulle prestazioni sono disponibili per più audience. Questi dati consentono di analizzare il comportamento di ciascun dominio in risposta a eventi specifici. Ad esempio, la visualizzazione del collegamento, l&#39;URL nell&#39;elenco dei blocchi, ecc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -39,5 +42,5 @@ La seconda tabella, Statistiche **di** tracciamento, contiene i dati disponibili
 * **Fate clic**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
 * **Annulla sottoscrizione**: Il numero di clic sul collegamento di iscrizione.
 * **Pagina** speculare: Numero di clic sul collegamento della pagina mirror.
-* **Blacklist**: Il numero di destinatari che hanno dichiarato un'e-mail come spam o posta indesiderata (consultate [Gestione dell'inserimento in blacklist in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **Bloccato**: Il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata (consultate Gestione dell&#39;elenco dei [blocchi in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 
