@@ -10,7 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 0%
 
 ---
 
@@ -45,43 +48,43 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackList</td>
+                  <td>blockList</td>
                   <td>Nessun contatto (da un canale)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>Non contatta più tramite e-mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>Non contatta più via fax</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>Nessun contatto più tramite SMS</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>Nessun contatto più telefonico</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>Nessun contatto tramite posta diretta</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPushnotification</td>
+                  <td>blockListPushnotification</td>
                   <td>Nessun contatto più tramite notifica push</td>
                   <td>boolean </td>
                   <td> </td>
@@ -142,7 +145,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>email</td>
-                  <td> E-mail</td>
+                  <td>E-mail</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -161,7 +164,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>firstName</td>
                   <td>Nome</td>
-                  <td>stringa (30)</td>
+                  <td>string (50)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -198,7 +201,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>lastName</td>
                   <td>Cognome</td>
-                  <td>string (50)</td>
+                  <td>stringa (30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -556,7 +559,7 @@ Received (hasReceivedDelivery)
 </tr>
 </table>
 
-Iscritti (iscritti)
+Abbonati (iscritti)
 
 <table>
 <tr>
