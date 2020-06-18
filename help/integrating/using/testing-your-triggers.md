@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 1%
 
 # Verifica degli attivatori{#testing-your-triggers}
 
-I seguenti suggerimenti per la risoluzione dei problemi ti aiuteranno a risolvere i problemi più comuni che potresti incontrare quando utilizzi Triggers con Adobe Campaign:
+I seguenti suggerimenti per la risoluzione dei problemi aiuteranno a risolvere i problemi più comuni che si possono incontrare quando si utilizzano Attivatori con  Adobe Campaign:
 
 **La funzionalità è attivata?**
 
-Per verificare se l&#39;integrazione Triggers - Campagna è attivata, fai clic sul logo Adobe Campaign, nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti vedere l&#39; **[!UICONTROL Experience Cloud Triggers]** elemento.
+Per verificare se l&#39;integrazione Attivatori - Campagna è attivata, fai clic sul logo del Adobe Campaign , nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti vedere l&#39; **[!UICONTROL Experience Cloud Triggers]** elemento.
 
 Se lo vedi, passa al passaggio successivo.
 
@@ -36,11 +36,11 @@ In caso contrario, contattate il vostro responsabile commerciale Adobe o il part
 
 Segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) per creare un trigger.
 
-Se l&#39;attivatore viene creato, passare al passaggio successivo. In caso contrario, significa che la connessione del punto finale dell&#39;attivatore non è riuscita. Verifica se il provisioning di Triggers in Experience Cloud (servizi di attivazione). In caso contrario, contattate il vostro responsabile commerciale Adobe o il partner di servizi professionali. Sono necessarie le seguenti informazioni:
+Se l&#39;attivatore viene creato, passare al passaggio successivo. In caso contrario, significa che la connessione del punto finale dell&#39;attivatore non è riuscita. Verificate se il provisioning di Triggers in  Experience Cloud (Servizi attivazione). In caso contrario, contattate il vostro responsabile commerciale Adobe o il partner di servizi professionali. Sono necessarie le seguenti informazioni:
 
 * Nome società Marketing Cloud
 * ID ORG IMS
-* Società di accesso Analytics (può corrispondere al Nome società Marketing Cloud)
+*  Società di accesso Analytics (può corrispondere al Nome società Marketing Cloud)
 
 **Provare a pubblicare il trigger**
 
@@ -52,11 +52,11 @@ Se la pubblicazione ha esito positivo, passare al passaggio successivo. In caso 
 
 Seguite i passaggi descritti in [Modifica del modello](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) di messaggi transazionali per modificare e pubblicare il modello transazionale. Quindi, verificare la generazione dell&#39;attivatore dal sito Web.
 
-Se l&#39;attivatore viene ricevuto da Analytics, passa al passaggio successivo. In caso contrario, verificare i seguenti elementi:
+Se l&#39;attivatore viene ricevuto da  Analytics, passare al passaggio successivo. In caso contrario, verificare i seguenti elementi:
 
-* Trigger è abilitato per Analytics
-* Il sito Web utilizzato MCID e Analytics è abilitato in DTM
-* La suite di rapporti Analytics corretta viene utilizzata durante la creazione di attivatori
+* Trigger è abilitato per  Analytics
+* Il sito Web utilizzato per MCID e  Analytics è abilitato in DTM
+*  suite di rapporti Analytics corretta viene utilizzata durante la creazione di attivatori
 
 **Il trigger ricevuto da Campaign?**
 
@@ -77,7 +77,7 @@ In caso affermativo, seguire le seguenti linee guida:
 In caso contrario, passate al passaggio successivo. In caso affermativo, seguire le seguenti linee guida:
 
 * Verificate che il modello transazionale sia pubblicato.
-* Verificate che il profilo non sia in lista nera.
+* Verificare che il profilo non sia nell&#39;elenco dei blocchi.
 * Controllare l&#39;applicazione delle regole di tipologia.
 * Controlla i registri dei messaggi transazionali.
 
