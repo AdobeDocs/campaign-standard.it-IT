@@ -13,7 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '1274'
+ht-degree: 4%
 
 ---
 
@@ -22,16 +25,16 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 >[!NOTE]
 >
->La personalizzazione in-app si basa su un campo di collegamento che in genere è un ID CRM e/o un ID di accesso app mobile. Sei l'unico responsabile della protezione di questo campo di collegamento quando utilizzato in connessione con Adobe Campaign. Se non riesci a proteggere i campi di collegamento, il messaggio personalizzato potrebbe essere vulnerabile. Adobe non sarà responsabile dei danni derivanti dall'accesso o dall'uso non autorizzati di dati di profilo se non segui le procedure di composizione, gestione e protezione del campo di collegamento sicuro.
+>La personalizzazione in-app si basa su un campo di collegamento che in genere è un ID CRM e/o un ID di accesso all&#39;app mobile. L&#39;utente è l&#39;unico responsabile della protezione di questo campo di collegamento quando viene utilizzato in relazione  Adobe Campaign. Se non riesci a proteggere i campi di collegamento, il messaggio personalizzato potrebbe essere vulnerabile. Adobe non sarà responsabile dei danni derivanti dall&#39;accesso o dall&#39;uso non autorizzati di dati di profilo se non segui le procedure di composizione, gestione e protezione del campo di collegamento sicuro.
 
-In Adobe Campaign sono disponibili tre tipi di messaggi in-app:
+In  Adobe Campaign sono disponibili tre tipi di messaggi in-app:
 
-* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Questo tipo di messaggio ti consente di eseguire il targeting dei profili Adobe Campaign (profili CRM) che hanno effettuato la sottoscrizione all'applicazione mobile. Questo tipo di messaggio può essere personalizzato con tutti gli attributi di profilo disponibili in Adobe Campaign, ma richiede una stretta di mano sicura tra l'SDK di Mobile e il servizio di messaggistica in-app di Campaign per garantire che i messaggi con informazioni personali e riservate siano utilizzati solo da utenti autorizzati.
+* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Questo tipo di messaggio consente di eseguire il targeting  profili di Adobe Campaign (profili CRM) che hanno effettuato l&#39;iscrizione all&#39;applicazione mobile. Questo tipo di messaggio può essere personalizzato con tutti gli attributi di profilo disponibili in  Adobe Campaign, ma richiede un handshake protetto tra Mobile SDK e il servizio di messaggistica in-app di Campaign per garantire che i messaggi con informazioni personali e riservate siano utilizzati solo da utenti autorizzati.
 
-   Per scaricare questo tipo di messaggio sui dispositivi degli utenti, Mobile SDK deve inviare i campi di collegamento utilizzati per connettere un profilo mobile a un profilo CRM in Adobe Campaign. Per ulteriori informazioni sulle API SDK necessarie per supportare In-App, consulta questa [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
+   Per scaricare questo tipo di messaggio sui dispositivi degli utenti, Mobile SDK deve inviare i campi di collegamento utilizzati per connettere un profilo mobile a un profilo CRM in  Adobe Campaign. Per ulteriori informazioni sulle API SDK necessarie per supportare In-App, consulta questa [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference).
 
-* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Questo tipo di messaggio consente di inviare messaggi a tutti gli utenti (correnti o futuri) dell'applicazione mobile anche se non dispongono di un profilo esistente in Adobe Campaign. La personalizzazione non è quindi possibile quando si personalizzano i messaggi in quanto il profilo utente potrebbe non esistere nemmeno in Adobe Campaign.
-* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Questo tipo di messaggio consente di eseguire il targeting di tutti gli utenti noti o anonimi di un'app mobile con un profilo mobile in Adobe Campaign. Questo tipo di messaggi può essere personalizzato utilizzando solo attributi non personali e non sensibili e non richiede una stretta di mano sicura tra l'SDK di Mobile e il servizio di messaggistica in-app di Adobe Campaign.
+* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Questo tipo di messaggio consente di inviare messaggi a tutti gli utenti (correnti o futuri) dell’applicazione mobile anche se non dispongono di un profilo esistente nel  Adobe Campaign. La personalizzazione non è quindi possibile quando si personalizzano i messaggi in quanto il profilo utente potrebbe non esistere nel  Adobe Campaign.
+* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Questo tipo di messaggio consente di eseguire il targeting di tutti gli utenti noti o anonimi di un&#39;app mobile con un profilo mobile  Adobe Campaign. Questo tipo di messaggi può essere personalizzato utilizzando solo attributi non personali e non sensibili e non richiede un handshake protetto tra Mobile SDK e  Adobe Campaign  servizio di messaggistica in-app.
 
    Per ulteriori informazioni su come gestire i dati personali e riservati, consulta [Gestione dei campi del profilo mobile con dati](#handling-mobile-profile-fields-with-personal-and-sensitive-data)personali e sensibili.
 
@@ -39,31 +42,31 @@ In Adobe Campaign sono disponibili tre tipi di messaggi in-app:
 
 ## Gestione dei campi del profilo mobile con dati personali e sensibili {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers.
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
-Questa risorsa deve essere estesa per raccogliere i dati che si intende inviare dal dispositivo mobile ad Adobe Campaign. A tale scopo, fare riferimento a questa [pagina](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) per i passaggi dettagliati.
+Questa risorsa deve essere estesa per raccogliere i dati che si intende inviare dal dispositivo mobile al Adobe Campaign . A tale scopo, fare riferimento a questa [pagina](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) per i passaggi dettagliati.
 
 Per abilitare la personalizzazione dei messaggi in-app in modo più sicuro, i campi del profilo mobile da questa risorsa devono essere configurati di conseguenza. In your **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, when creating your new mobile profiles fields, check **[!UICONTROL Personal and Sensitive]** to make them unavailable during In-App messages personalization.
 
 >[!NOTE]
 >
->Se disponi di un'implementazione esistente con estensione di risorse personalizzata in questa tabella, ti consigliamo di etichettare i campi in modo appropriato prima di sfruttarli per la personalizzazione dei messaggi in-app.
+>Se disponi di un&#39;implementazione esistente con estensione di risorse personalizzata in questa tabella, ti consigliamo di etichettare i campi in modo appropriato prima di sfruttarli per la personalizzazione dei messaggi in-app.
 
 ![](assets/in_app_personal_data_2.png)
 
 Once your **[!UICONTROL Subscriptions to an application]** custom resource is configured and published, you can start preparing your In-App delivery using the **[!UICONTROL Target users based on their Mobile profile (inApp)]** template. Only non-personal and non-sensitive fields will be available from **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource for personalization.
 
-If you require personalization with **Personal and Sensitive** fields, we recommend using the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template which has additional security mechanism to ensure that your users' PII data remains secure.
+If you require personalization with **Personal and Sensitive** fields, we recommend using the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template which has additional security mechanism to ensure that your users&#39; PII data remains secure.
 
 ## Preparazione del messaggio in-app {#preparing-your-in-app-message}
 
-I passaggi per creare un messaggio in-app standalone con Adobe Campaign sono:
+I passaggi per creare un messaggio in-app indipendente con  Adobe Campaign sono:
 
-1. Dalla home page di Adobe Campaign, fai clic sulla **[!UICONTROL In-App messaging]** scheda.
+1. Dalla home page  Adobe Campaign, fate clic sulla **[!UICONTROL In-App messaging]** scheda.
 
-   Puoi anche creare un'app in-app dalla scheda Attività **** marketing, facendo clic sul **[!UICONTROL Create]** pulsante.
+   Puoi anche creare un&#39;app in-app dalla scheda Attività **** marketing, facendo clic sul **[!UICONTROL Create]** pulsante.
 
-   Puoi anche creare un messaggio in-app da una campagna, dalla home page di Adobe Campaign o in un flusso di lavoro.
+   È inoltre possibile creare un messaggio in-app da una campagna, dalla home page del Adobe Campaign  o in un flusso di lavoro.
 
 1. Seleziona messaggio **** in-app.
 
@@ -79,11 +82,11 @@ I passaggi per creare un messaggio in-app standalone con Adobe Campaign sono:
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Immettete le proprietà del messaggio in-app e selezionate l'app mobile nel **[!UICONTROL Associate a Mobile App to a delivery]** campo. Nota: se non hai configurato l'app mobile con Adobe Campaign Standard, non verrà visualizzata nell'elenco. Per ulteriori informazioni sulla configurazione dell’applicazione mobile, consulta questa [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Immettete le proprietà del messaggio in-app e selezionate l&#39;app mobile nel **[!UICONTROL Associate a Mobile App to a delivery]** campo. Nota: se non hai configurato l&#39;app mobile con  Adobe Campaign Standard, non verrà visualizzata nell&#39;elenco. Per ulteriori informazioni sulla configurazione dell’applicazione mobile, consulta questa [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/inapp_creating_3.png)
 
-1. Seleziona l'audience di cui vuoi eseguire il targeting per il messaggio in-app. Il pubblico viene previamente filtrato in base all'applicazione mobile associata a questa distribuzione.
+1. Seleziona l&#39;audience di cui vuoi eseguire il targeting per il messaggio in-app. Il pubblico viene previamente filtrato in base all&#39;applicazione mobile associata a questa distribuzione.
 
    Si noti che questo passaggio non è necessario con l’applicazione **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]** in quanto riguarda tutti gli utenti di un’applicazione mobile.
 
@@ -93,34 +96,34 @@ I passaggi per creare un messaggio in-app standalone con Adobe Campaign sono:
 
    Sono disponibili quattro categorie di eventi:
 
-   * **[!UICONTROL Mobile Application events]**: Eventi personalizzati implementati nell'applicazione mobile.
+   * **[!UICONTROL Mobile Application events]**: Eventi personalizzati implementati nell&#39;applicazione mobile.
 
       Per ulteriori informazioni sulle creazioni degli eventi, consultate questa [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
    * **[!UICONTROL Life Cycle events]**: Eventi del ciclo di vita pronti supportati dall’SDK di Adobe Mobile.
 
-      Per ulteriori informazioni sugli eventi del ciclo di vita, consultare questa [pagina](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
+      Per ulteriori informazioni sugli eventi del ciclo di vita, consultare questa [pagina](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
 
-   * **[!UICONTROL Analytics Events]**: Le tre categorie seguenti sono supportate a seconda degli strumenti utilizzati nell’app mobile: Adobe Analytics, dati contestuali o stato di visualizzazione.
+   * **[!UICONTROL Analytics Events]**: Le tre categorie seguenti sono supportate a seconda degli strumenti utilizzati nell’app mobile: Adobe  Analytics, dati contestuali o stato di visualizzazione.
 
-      Questi eventi sono disponibili solo se disponete di una licenza Adobe Analytics.
+      Tenete presente che questi eventi sono disponibili solo se disponete di una licenza Adobe  Analytics.
 
    * **[!UICONTROL Places]**: Le tre categorie seguenti sfruttano i dati sulla posizione in tempo reale per fornire esperienze mobili pertinenti in termini di contesto: Posiziona i dati contestuali, i metadati personalizzati Luoghi o il tipo di evento Luoghi.
 
       Per ulteriori informazioni su Adobe Places, consulta la documentazione relativa a [Places](https://placesdocs.com/).
    ![](assets/inapp_creating_4.png)
 
-1. Se utilizzi un evento **[!UICONTROL Analytics Events]**, gli eventi di stato Adobe Analytics e View verranno popolati automaticamente in base alle suite di rapporti configurate nell'estensione Analytics in Adobe Experience Platform Launch, mentre gli eventi di dati Context devono essere aggiunti manualmente.
+1. Se utilizzi un **[!UICONTROL Analytics Events]**, gli eventi di stato Adobe  Analytics e View verranno popolati automaticamente in base alle suite di rapporti configurate nell&#39;estensione  Analytics in  lancio Adobe Experience Platform, mentre gli eventi di dati Context devono essere aggiunti manualmente.
 
-   Questi eventi sono disponibili solo se disponete di una licenza Adobe Analytics.
+   Tenete presente che questi eventi sono disponibili solo se disponete di una licenza Adobe  Analytics.
 
    ![](assets/inapp_creating_7.png)
 
 1. Se si utilizza un **[!UICONTROL Places]** attivatore, i dati contestuali Luoghi, i metadati personalizzati Luoghi o il tipo di evento Luoghi verranno popolati automaticamente in base a tutte le librerie e ai relativi punti di interesse creati in Adobe Places.
 
-   Tieni presente che questo attivatore verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell'estensione Luoghi in Experience Platform Launch. Per ulteriori informazioni sull'estensione Places e su come installarla, consulta questa [documentazione](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Tieni presente che questo attivatore verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell&#39;estensione Luoghi in Experience Platform Launch. Per ulteriori informazioni sull&#39;estensione Places e su come installarla, consulta questa [documentazione](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
-1. Nella **[!UICONTROL Frequency & duration]** scheda, scegli la frequenza dell'attivatore, la data di inizio e di fine, il giorno della settimana e l'ora del giorno in cui sarà attivo il messaggio in-app.
+1. Nella **[!UICONTROL Frequency & duration]** scheda, scegli la frequenza dell&#39;attivatore, la data di inizio e di fine, il giorno della settimana e l&#39;ora del giorno in cui sarà attivo il messaggio in-app.
 
    ![](assets/inapp_creating_5.png)
 
@@ -128,7 +131,7 @@ I passaggi per creare un messaggio in-app standalone con Adobe Campaign sono:
 
    ![](assets/inapp_creating_6.png)
 
-1. Click **[!UICONTROL Create]**.
+1. Clic **[!UICONTROL Create]**.
 
 Il messaggio in-app ora è pronto per essere inviato al pubblico di destinazione.
 
@@ -148,7 +151,7 @@ Una volta completata la preparazione della consegna e che sono state eseguite le
 
 1. Una volta completata la preparazione, la finestra **Deployment** presenta i KPI seguenti: **Target** e **To deliver**.
 
-   Per controllare la finestra Distribuzione, fai clic sul ![](assets/lp_link_properties.png) pulsante per individuare eventuali esclusioni o errori nella distribuzione.
+   Per controllare la finestra di distribuzione, fai clic sul ![](assets/lp_link_properties.png) pulsante per individuare eventuali esclusioni o errori nella distribuzione.
 
    ![](assets/inapp_sending_5.png)
 
@@ -158,11 +161,11 @@ Una volta completata la preparazione della consegna e che sono state eseguite le
 
 1. Controlla lo stato della distribuzione tramite il dashboard e i registri dei messaggi. For more on this, refer to this [section](../../sending/using/monitoring-a-delivery.md).
 
-   **[!UICONTROL Delivered]** e **[!UICONTROL Sent]** i conteggi dei KPI si basano su quanto è stato inviato con successo dal servizio di distribuzione di Campaign a Message. Questi KPI non rappresentano un'indicazione del numero di dispositivi mobili che hanno ricevuto o scaricato correttamente il messaggio dal servizio di distribuzione dei messaggi.
+   **[!UICONTROL Delivered]** e **[!UICONTROL Sent]** i conteggi dei KPI si basano su quanto è stato inviato con successo dal servizio di distribuzione di Campaign a Message. Questi KPI non rappresentano un&#39;indicazione del numero di dispositivi mobili che hanno ricevuto o scaricato correttamente il messaggio dal servizio di distribuzione dei messaggi.
 
    ![](assets/inapp_sending_7.png)
 
-1. Misura l'impatto dei messaggi in-app con i rapporti di consegna. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
+1. Misura l&#39;impatto dei messaggi in-app con i rapporti di consegna. For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
 
 **Argomenti correlati:**
 
