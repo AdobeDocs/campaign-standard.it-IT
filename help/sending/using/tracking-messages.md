@@ -12,7 +12,10 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 3%
 
 ---
 
@@ -21,18 +24,18 @@ source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 ## Informazioni sul tracciamento {#about-tracking}
 
-Grazie alle sue funzionalità di tracciamento, Adobe Campaign consente di monitorare il comportamento dei destinatari della distribuzione. A tal fine, Adobe Campaign utilizza i cookie di sessione e i cookie permanenti.
+Grazie alle funzionalità di tracciamento,  Adobe Campaign consente di monitorare il comportamento dei destinatari della consegna. A tal fine,  Adobe Campaign utilizza i cookie di sessione e i cookie permanenti.
 
 Potete informare gli utenti che i vostri siti sono dotati di strumenti di monitoraggio Web tramite una richiesta di autorizzazione (che viene visualizzata sopra la pagina, ad esempio) con una casella di controllo per autorizzare l’uso dei cookie, o aggiungere un banner nella parte superiore della prima pagina in cui accedono, ecc. Le finestre a comparsa dovrebbero essere evitate in quanto spesso bloccate dai browser.
 
-Sono disponibili informazioni di tracciamento per ogni contatto del database in **[!UICONTROL integrated customer profiles]**. For more on this, refer to [this section](../../audiences/using/integrated-customer-profile.md).
+Sono disponibili informazioni di tracciamento per ogni contatto del database in **[!UICONTROL integrated customer profiles]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../audiences/using/integrated-customer-profile.md).
 
-Adobe Campaign utilizza due tipi di cookie:
+ Adobe Campaign utilizza due tipi di cookie:
 
-* Un cookie di sessione (nlid). Contiene l’identificatore dell’e-mail inviata al contatto (BroadlogId) e l’identificatore del modello di messaggio (deliveryId). Viene aggiunto quando il contatto fa clic su un URL incluso in un&#39;e-mail inviata da Adobe Campaign e consente di tracciarne il comportamento sul Web. Questo cookie di sessione viene cancellato automaticamente alla chiusura del browser. Il contatto può configurare il browser per rifiutare i cookie.
-* Cookie condiviso tra le soluzioni Adobe Experience Cloud. Questo consente di identificare gli utenti che interagiscono con le soluzioni Experience Cloud quando visitano un sito Web. La descrizione di questo cookie è disponibile [qui](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
+* Un cookie di sessione (nlid). Contiene l’identificatore dell’e-mail inviata al contatto (BroadlogId) e l’identificatore del modello di messaggio (deliveryId). Viene aggiunto quando il contatto fa clic su un URL incluso in un messaggio e-mail inviato da  Adobe Campaign e consente di tracciarne il comportamento sul Web. Questo cookie di sessione viene cancellato automaticamente alla chiusura del browser. Il contatto può configurare il browser per rifiutare i cookie.
+* Cookie condiviso tra le soluzioni Adobe Experience Cloud. Questo consente di identificare gli utenti che interagiscono con le soluzioni Experience Cloud  quando visitano un sito Web. La descrizione di questo cookie è disponibile [qui](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
 
-Il tracciamento con Adobe Campaign Standard consente di accedere alle seguenti funzionalità:
+Il tracciamento con il Adobe Campaign Standard  consente di accedere alle seguenti funzionalità:
 
 <table>
 <tr>
@@ -63,7 +66,7 @@ Il tracciamento con Adobe Campaign Standard consente di accedere alle seguenti f
 
 ## Tracking logs {#tracking-logs}
 
-La **[!UICONTROL Tracking logs]** scheda elenca la cronologia di tracciamento per la consegna. In questa scheda vengono visualizzate le informazioni di tracciamento dei messaggi inviati, ad esempio tutti gli URL tracciati da Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
+La **[!UICONTROL Tracking logs]** scheda elenca la cronologia di tracciamento per la consegna. In questa scheda vengono visualizzate le informazioni di tracciamento per i messaggi inviati, ad esempio tutti gli URL tracciati da  Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
 
 >[!NOTE]
 >
