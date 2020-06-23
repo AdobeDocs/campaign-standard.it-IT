@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 L&#39; ![](assets/printpreview_darkgrey-24px.png) icona apre il registro del flusso di lavoro e il menu delle attività.
 
-La cronologia del flusso di lavoro viene salvata per la durata specificata nelle opzioni di esecuzione del flusso di lavoro (vedere Proprietà [del](#workflow-properties)flusso di lavoro). Durante questa durata, tutti i messaggi vengono quindi salvati, anche dopo il riavvio. Se non si desidera salvare i messaggi da un&#39;esecuzione precedente, è necessario eliminare la cronologia facendo clic sul ![](assets/delete_darkgrey-24px.png) pulsante.
+La cronologia del flusso di lavoro viene salvata per la durata specificata nelle opzioni di esecuzione del flusso di lavoro (vedere Proprietà [del](../../automating/using/managing-execution-options.md)flusso di lavoro). Durante questa durata, tutti i messaggi vengono quindi salvati, anche dopo il riavvio. Se non si desidera salvare i messaggi da un&#39;esecuzione precedente, è necessario eliminare la cronologia facendo clic sul ![](assets/delete_darkgrey-24px.png) pulsante.
 
 La **[!UICONTROL Log]** scheda contiene la cronologia di esecuzione di tutte le attività o di tutte le attività selezionate. Esso indicizza le operazioni eseguite e gli errori di esecuzione in ordine cronologico.
 
@@ -55,15 +55,15 @@ In questo caso, l&#39;attività errata viene interrotta. Questa modalità è par
 
 >[!NOTE]
 >
->Potete applicare questa configurazione singolarmente per ogni attività. A questo scopo, selezionate un&#39;attività e apritela utilizzando l&#39;azione rapida ![](assets/edit_darkgrey-24px.png). Selezionate quindi la modalità di gestione degli errori nella scheda Opzioni **** esecuzione. Consultate Opzioni [di esecuzione](#activity-execution-options)dell&#39;attività.
+>Potete applicare questa configurazione singolarmente per ogni attività. A questo scopo, selezionate un&#39;attività e apritela utilizzando l&#39;azione rapida ![](assets/edit_darkgrey-24px.png). Selezionate quindi la modalità di gestione degli errori nella scheda Opzioni **** esecuzione. Consultate Opzioni [di esecuzione](../../automating/using/activity-properties.md)dell&#39;attività.
 
-Nelle proprietà [del](#workflow-properties)flusso di lavoro sono disponibili opzioni aggiuntive relative alla gestione degli errori.
+Nelle proprietà [del](../../automating/using/managing-execution-options.md)flusso di lavoro sono disponibili opzioni aggiuntive relative alla gestione degli errori.
 
 ![](assets/wkf_execution_error.png)
 
 Le opzioni possibili sono:
 
-* **[!UICONTROL Supervisors]**: consente di definire il gruppo di persone da notificare (e-mail e notifica in-app) in caso di errore nel flusso di lavoro. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta le notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+* **[!UICONTROL Supervisors]**: consente di definire il gruppo di persone a cui inviare una notifica (e-mail e notifica in-app) in caso di errore nel flusso di lavoro. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche  Adobe Campaign, consultate [notifiche](../../administration/using/sending-internal-notifications.md)del Adobe Campaign.
 
 * **[!UICONTROL In case of error]**: consente di specificare l&#39;azione da eseguire in caso di errore dell&#39;attività. Sono disponibili due opzioni:
 
@@ -74,4 +74,4 @@ Le opzioni possibili sono:
 
    * Se il numero specificato è **[!UICONTROL 0]** o finché il numero specificato non viene raggiunto, le attività che rilevano errori vengono ignorate. Gli altri rami del flusso di lavoro vengono eseguiti normalmente.
 
-   * Se viene raggiunto il numero specificato, l&#39;intero flusso di lavoro viene sospeso e diventa **[!UICONTROL Erroneous]**. Se i supervisori sono stati definiti, vengono automaticamente informati tramite e-mail. Vedi Notifiche [di](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
+   * Se viene raggiunto il numero specificato, l&#39;intero flusso di lavoro viene sospeso e diventa **[!UICONTROL Erroneous]**. Se i supervisori sono stati definiti, vengono automaticamente informati tramite e-mail. Consultate [notifiche](../../administration/using/sending-internal-notifications.md)Adobe Campaign.
