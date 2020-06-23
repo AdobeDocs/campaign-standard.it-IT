@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 9%
 Oltre  Note sulla [versione del Adobe Campaign](../../rn/using/release-notes.md), questa pagina elenca tutti i nuovi aggiornamenti presenti nella documentazione  Adobe Campaign Standard.
 
 ## Aggiornamenti della documentazione - Giugno 2020 {#doc-updates-june-2020}
+
+Sono stati aggiunti casi di utilizzo per [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) i dati tramite il Pannello di controllo e i flussi di lavoro Campagna.
 
 Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. Alcune occorrenze di questi termini potrebbero ancora esistere nell&#39;interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma verranno sostituiti nelle prossime release di Campaign con ‘blocklist’ e ‘Allowlist’.
 
@@ -484,7 +486,7 @@ Aggiornamento della sezione Tipo di utenti. [Leggi tutto](../../administration/u
 
 Messaggistica in-app (versione beta) - [Leggi tutto](../../channels/using/about-in-app-messaging.md)
 
-Integrazione di Adobe Launch per le app mobili (versione beta) - [Ulteriori informazioni](../../sending/using/about-typology-rules.md#typology-rules)
+Integrazione di Adobe Launch per le app mobili (versione beta) - [Ulteriori informazioni](../../sending/using/managing-typologies.md)
 
 **Altri aggiornamenti della documentazione in arrivo con il rilascio**
 
@@ -498,7 +500,7 @@ Aggiornamento della sezione del rapporto predefinito della notifica push. [Leggi
 
 **Nuove funzionalità incluse nella release**
 
-[Flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) ad alta priorità e [filtro](../../sending/using/about-typology-rules.md#typology-rules) della tipologia per gli utenti iscritti alle app mobili.
+[Flag](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) ad alta priorità e [filtro](../../sending/using/managing-typologies.md) della tipologia per gli utenti iscritti alle app mobili.
 
 Importazione automatizzata dei contenuti da un URL al momento della preparazione. [Leggi tutto](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ La sezione Elenco di ruoli è stata aggiornata. [Leggi tutto](../../administrati
 
 Posta diretta - [Leggi tutto](../../channels/using/about-direct-mail.md)
 
-Ccn e-mail - [Leggi tutto](../../administration/using/configuring-email-channel.md#archiving-emails)
+Ccn e-mail - [Leggi tutto](../../sending/using/archiving.md)
 
 **Altri aggiornamenti della documentazione in arrivo con il rilascio**
 
