@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 3%
@@ -59,7 +59,7 @@ ht-degree: 3%
   <tr> 
    <td> 
     <p>È ora disponibile l'integrazione tra  Adobe Campaign Standard e Microsoft Dynamics 365. Potrai trasferire i tuoi record di contatti e entità personalizzati da Dynamics 365 a Campaign e recuperare i dati degli eventi e-mail da Campaign a Dynamics 365 per migliorare l'allineamento vendite/marketing.</p>
-    <p>Fate riferimento alla documentazione <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md"></a> dettagliata per configurare questa integrazione e visualizzare il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html"></a>dimostrativo.</p>
+    <p>Fate riferimento alla documentazione <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md"></a> dettagliata per configurare questa integrazione e visualizzare il video <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html"></a>dimostrativo.</p>
   </td>
   </tr> 
  </tbody> 
