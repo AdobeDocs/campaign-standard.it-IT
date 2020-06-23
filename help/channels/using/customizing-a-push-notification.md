@@ -13,53 +13,56 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
 
 # Personalizzazione di una notifica push{#customizing-a-push-notification}
 
-Per ottimizzare la notifica push, Adobe Campaign consente di accedere a una serie di opzioni avanzate durante la progettazione di una notifica push.
+Per ottimizzare la notifica push,  Adobe Campaign consente di accedere a una serie di opzioni avanzate durante la progettazione di una notifica push.
 
-In qualità di utente esperto, per configurare le applicazioni mobili in Adobe Campaign, consulta la seguente nota tecnica [Informazioni sulla struttura](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)payload delle notifiche push standard di Campaign.
+Come utente esperto, per configurare le applicazioni mobili in  Adobe Campaign, consulta la seguente nota tecnica [Informazioni sulla struttura](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)payload delle notifiche push di Campaign Standard.
 
 ![](assets/push_notif_advanced.png)
 
 **Contenuto correlato:**
 
 * [Report notifiche push](../../reporting/using/push-notification-report.md)
-* [Invio di una notifica push in un flusso di lavoro](../../automating/using/push-notification-delivery.md)
+* [Invio di una notifica push all&#39;interno di un flusso di lavoro](../../automating/using/push-notification-delivery.md)
 
 ## Riproduzione di un suono {#play-a-sound}
 
-La funzione **[!UICONTROL Play a sound]** consente all'applicazione di riprodurre i suoni sul dispositivo con la consegna di una notifica push, quando l'app non è in esecuzione.
+La funzione **[!UICONTROL Play a sound]** consente all&#39;applicazione di riprodurre i suoni sul dispositivo con la consegna di una notifica push, quando l&#39;app non è in esecuzione.
 
-Un suono avvisa gli utenti di una notifica push, conferendogli maggiore visibilità. Per includere un suono nell'app mobile:
+Un suono avvisa gli utenti di una notifica push, conferendogli maggiore visibilità. Per includere un suono nell&#39;app mobile:
 
 1. Aprite la notifica push e accedete alla **[!UICONTROL Advanced options]** sezione.
-1. Nel **[!UICONTROL Play a sound]** campo, inserire il nome del file audio, senza l'estensione, che deve essere riprodotto dal dispositivo mobile quando viene ricevuta la notifica.
+1. Nel **[!UICONTROL Play a sound]** campo, inserire il nome del file audio, senza l&#39;estensione, che deve essere riprodotto dal dispositivo mobile quando viene ricevuta la notifica.
 
-   Per ulteriori informazioni sui formati supportati, consultate la documentazione [Apple](https://support.apple.com/kb/PH16864?locale=en_US) e [Android](https://developer.android.com/guide/topics/media/media-formats.html) .
+   Per ulteriori informazioni sui formati supportati, consultate la documentazione [Apple](https://support.apple.com/kb/PH16864?locale=en_US) e [Android](https://developer.android.com/guide/topics/media/media-formats) .
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Il file audio viene riprodotto durante la trasmissione della notifica se il file è definito nel pacchetto dell'applicazione mobile. In caso contrario, viene riprodotto l'audio predefinito del dispositivo.
+1. Il file audio viene riprodotto durante la trasmissione della notifica se il file è definito nel pacchetto dell&#39;applicazione mobile. In caso contrario, viene riprodotto l&#39;audio predefinito del dispositivo.
 
-L'utente riceverà quindi la notifica push e l'audio solo se il telefono non è disattivato.
+L&#39;utente riceverà quindi la notifica push e l&#39;audio solo se il telefono non è disattivato.
 
 ## Aggiornare il valore del contrassegno {#refresh-the-badge-value}
 
-Un contrassegno viene utilizzato per visualizzare direttamente sull'icona dell'applicazione il numero di nuove informazioni non lette. Il valore contrassegno scompare non appena l'utente apre o legge il nuovo contenuto dall'applicazione.
+Un contrassegno viene utilizzato per visualizzare direttamente sull&#39;icona dell&#39;applicazione il numero di nuove informazioni non lette. Il valore contrassegno scompare non appena l&#39;utente apre o legge il nuovo contenuto dall&#39;applicazione.
 
-Quando una notifica viene ricevuta su un dispositivo, può aggiornare o aggiungere un valore contrassegno per l'app correlata. Per inviare un valore contrassegno dal lato Server:
+Quando una notifica viene ricevuta su un dispositivo, può aggiornare o aggiungere un valore contrassegno per l&#39;app correlata. Per inviare un valore contrassegno dal lato Server:
 
 1. Aprite la notifica push e accedete alla **[!UICONTROL Advanced options]** sezione.
 1. Il valore del contrassegno deve essere un numero intero e può essere aggiornato in modi diversi:
 
-   * Per aggiornare il contrassegno, immettere 0 nel **[!UICONTROL Value of the badge]** campo. Questo rimuoverà il contrassegno dall'icona dell'applicazione.
-   * Per aggiungere un valore contrassegno, immettere un numero qualsiasi nel **[!UICONTROL Value of the badge]** campo. Questo numero viene visualizzato automaticamente nel contrassegno non appena l'utente riceve la notifica push.
-   * Se il campo è vuoto o non contiene un numero intero, il valore del contrassegno non cambia.
+   * Per aggiornare il contrassegno, immettere 0 nel **[!UICONTROL Value of the badge]** campo. Questo rimuoverà il contrassegno dall&#39;icona dell&#39;applicazione.
+   * Per aggiungere un valore contrassegno, immettere un numero qualsiasi nel **[!UICONTROL Value of the badge]** campo. Questo numero viene visualizzato automaticamente nel contrassegno non appena l&#39;utente riceve la notifica push.
+   * Se il campo è vuoto o non contiene un numero intero, il valore del contrassegno non viene modificato.
    In questo **[!UICONTROL Value of the badge]** campo è stato immesso 1 per informare gli utenti che l’applicazione contiene nuove informazioni.
 
    ![](assets/push_notif_advanced_8.png)
@@ -72,7 +75,7 @@ Quando una notifica viene ricevuta su un dispositivo, può aggiornare o aggiunge
 
 Un collegamento profondo consente di portare gli utenti direttamente al contenuto presente all’interno dell’applicazione (anziché aprire una pagina del browser Web).
 
-Un collegamento profondo può includere dati di personalizzazione per un'esperienza in-app personalizzata. Ad esempio, i nomi dei destinatari vengono automaticamente inseriti nella pagina a cui l'applicazione li indirizza.
+Un collegamento profondo può includere dati di personalizzazione per un&#39;esperienza in-app personalizzata. Ad esempio, i nomi dei destinatari vengono automaticamente inseriti nella pagina a cui l&#39;applicazione li indirizza.
 
 Per aggiungere un collegamento profondo in una notifica push:
 
@@ -81,22 +84,22 @@ Per aggiungere un collegamento profondo in una notifica push:
 
    ![](assets/push_notif_advanced_3.png)
 
-1. Dopo l'invio del messaggio, gli utenti riceveranno la notifica push e accederanno alla pagina specifica dell'app interagendo con la notifica, ad esempio toccando o facendo clic sul pulsante di chiamata all'azione.
+1. Dopo l&#39;invio del messaggio, gli utenti riceveranno la notifica push e accederanno alla pagina specifica dell&#39;app interagendo con la notifica, ad esempio toccando o facendo clic sul pulsante di chiamata all&#39;azione.
 
    ![](assets/push_notif_advanced_4.png)
 
-## Definire un'azione {#define-an-action}
+## Definire un&#39;azione {#define-an-action}
 
-Puoi aggiungere un ID categoria, se disponibile nell’applicazione mobile, e quindi visualizzare i pulsanti di azione. Queste notifiche forniscono all'utente un modo più rapido per eseguire diverse attività in risposta a una notifica senza aprire o navigare nell'applicazione.
+Puoi aggiungere un ID categoria, se disponibile nell’applicazione mobile, e quindi visualizzare i pulsanti di azione. Queste notifiche forniscono all&#39;utente un modo più rapido per eseguire diverse attività in risposta a una notifica senza aprire o navigare nell&#39;applicazione.
 
-La finestra di dialogo visualizzata sul telefono dell'utente richiede una decisione di procedere. Quando l'utente seleziona una delle azioni, il sistema notifica all'applicazione in modo che possa eseguire tutte le attività associate.
+La finestra di dialogo visualizzata sul telefono dell&#39;utente richiede una decisione di procedere. Quando l&#39;utente seleziona una delle azioni, il sistema notifica all&#39;applicazione in modo che possa eseguire tutte le attività associate.
 
 Per aggiungere una categoria in una notifica push:
 
 1. Aprite la notifica push e accedete alla **[!UICONTROL Advanced options]** sezione.
 1. Immettete un nome di categoria predefinito nel **[!UICONTROL Category]** campo per visualizzare i pulsanti utilizzabili quando viene ricevuta la notifica push.
 
-   Lo sviluppatore di applicazioni mobili deve definire l'ID categoria e il comportamento previsto dei pulsanti nell'applicazione. Per ulteriori informazioni, consultate la documentazione [per sviluppatori](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html) Apple (sezione **Configurazione delle categorie e delle notifiche** fruibili) o la documentazione [per sviluppatori](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)Android.
+   Lo sviluppatore di applicazioni mobili deve definire l&#39;ID categoria e il comportamento previsto dei pulsanti nell&#39;applicazione. Per ulteriori informazioni, consultate la documentazione [per sviluppatori](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html) Apple (sezione **Configurazione delle categorie e delle notifiche** fruibili) o la documentazione [per sviluppatori](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)Android.
 
    ![](assets/push_notif_advanced_9.png)
 
@@ -104,7 +107,7 @@ Per aggiungere una categoria in una notifica push:
 
    ![](assets/push_notif_actionable_buttons.png)
 
-A seconda dell'azione dell'utente, l'applicazione riceve una notifica in modo da poter eseguire tutte le attività associate.
+A seconda dell&#39;azione dell&#39;utente, l&#39;applicazione riceve una notifica in modo da poter eseguire tutte le attività associate.
 
 ## Aggiunta di una data di scadenza {#add-expiration-date}
 
@@ -112,23 +115,23 @@ Impostando una data di scadenza sulla notifica push, puoi impostare una data di 
 
 Per aggiungere una data di scadenza alla notifica push:
 
-1. Selezionare l' **[!UICONTROL Expire message]** opzione.
+1. Selezionare l&#39; **[!UICONTROL Expire message]** opzione.
 
    >[!NOTE]
    >
-   >Selezionando l' **[!UICONTROL Expire message]** opzione, la durata viene automaticamente impostata su 0. Se non si modifica il valore, APNS e FCM tenteranno di inviare il messaggio immediatamente. Se non riesce, il messaggio non verrà inviato di nuovo.
+   >Selezionando l&#39; **[!UICONTROL Expire message]** opzione, la durata viene automaticamente impostata su 0. Se non si modifica il valore, APNS e FCM tenteranno di inviare il messaggio immediatamente. Se non riesce, il messaggio non verrà inviato di nuovo.
 
 1. Nel **[!UICONTROL Duration]** campo, selezionate la validità della notifica push.
 
    ![](assets/push_expiration.png)
 
-1. Dopo l'invio della notifica push, se l'utente non l'ha ricevuta immediatamente a causa del telefono che non è acceso o che non ha un segnale, la notifica push verrà comunque inviata entro lo slot di data di scadenza.
+1. Dopo l&#39;invio della notifica push, se l&#39;utente non l&#39;ha ricevuta immediatamente a causa del telefono che non è acceso o che non ha un segnale, la notifica push verrà comunque inviata entro lo slot di data di scadenza.
 
 Se la notifica push non è stata inviata prima della data di scadenza, verrà eliminata.
 
 ## Aggiunta di campi personalizzati {#add-custom-fields}
 
-I campi personalizzati consentono di trasmettere dati personalizzati nel payload sotto forma di coppia di valori chiave. Questa opzione può essere utilizzata per trasmettere dati aggiuntivi all'applicazione oltre le chiavi predefinite.
+I campi personalizzati consentono di trasmettere dati personalizzati nel payload sotto forma di coppia di valori chiave. Questa opzione può essere utilizzata per trasmettere dati aggiuntivi all&#39;applicazione oltre le chiavi predefinite.
 
 A questo scopo:
 
@@ -138,7 +141,7 @@ A questo scopo:
 
    ![](assets/push_notif_advanced_10.png)
 
-1. La gestione e lo scopo dei campi personalizzati dipende interamente dall'app mobile. Nella notifica push seguente, i campi personalizzati sono stati utilizzati dall'app per visualizzare le etichette dei pulsanti per la notifica push.
+1. La gestione e lo scopo dei campi personalizzati dipende interamente dall&#39;app mobile. Nella notifica push seguente, i campi personalizzati sono stati utilizzati dall&#39;app per visualizzare le etichette dei pulsanti per la notifica push.
 
    ![](assets/push_notif_actionable_buttons.png)
 
@@ -146,20 +149,20 @@ A questo scopo:
 
 I contenuti multimediali avanzati consentono di migliorare il coinvolgimento degli utenti, il che significa che l’utente sarà più propenso ad aprire la notifica push.
 
-Potete includere un file immagine, gif, audio o video che verrà riprodotto o visualizzato nella notifica stessa. Gli utenti dell'app non dovranno aprire l'applicazione per visualizzarla.
+Potete includere un file immagine, gif, audio o video che verrà riprodotto o visualizzato nella notifica stessa. Gli utenti dell&#39;app non dovranno aprire l&#39;applicazione per visualizzarla.
 
 Per includere contenuti multimediali nella notifica push:
 
 1. Aprite la notifica push e accedete alla **[!UICONTROL Advanced options]** sezione.
 1. Immettete l’URL del file nel **[!UICONTROL Rich media content URL]** campo per ciascun formato: iOS e Android.
 
-   Per iOS 10 o versione successiva, potete inserire file immagine, gif, audio e video. Per le versioni iOS precedenti, la notifica push verrà visualizzata senza contenuto avanzato. Per i passaggi dettagliati su come visualizzare un'immagine da una notifica push di Adobe Campaign su un dispositivo iOS, fai riferimento a questa [pagina](https://helpx.adobe.com/campaign/kb/display-image-push.html).
+   Per iOS 10 o versione successiva, potete inserire file immagine, gif, audio e video. Per le versioni iOS precedenti, la notifica push verrà visualizzata senza contenuto avanzato. Per informazioni dettagliate su come visualizzare un&#39;immagine da una notifica push di Adobe Campaign  su un dispositivo iOS, consultate questa [pagina](https://helpx.adobe.com/campaign/kb/display-image-push.html).
 
    Per Android, potete includere solo immagini.
 
    ![](assets/push_notif_advanced_6.png)
 
-1. Dopo aver inviato il messaggio, l'utente riceverà la notifica push e potrà visualizzare il contenuto multimediale.
+1. Dopo aver inviato il messaggio, l&#39;utente riceverà la notifica push e potrà visualizzare il contenuto multimediale.
 
    ![](assets/push_notif_advanced_2.png)
 
@@ -169,20 +172,20 @@ Per includere contenuti multimediali nella notifica push:
 
 Per iOS 10 o versione successiva, nella sezione **[!UICONTROL Advanced options]** delle notifiche push sono disponibili due opzioni aggiuntive: **[!UICONTROL Mutable content]** e **[!UICONTROL Content available]**.
 
-Quando l' **[!UICONTROL Mutable content]** opzione è selezionata e/o viene aggiunto un URL di contenuto multimediale, il flag di contenuto variabile verrà inviato nel payload push e consentirà la modifica del contenuto della notifica push tramite un'estensione del servizio di notifica fornita in iOS SDK. Per ulteriori informazioni, consultate la documentazione [per gli sviluppatori di](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)Apple.
+Quando l&#39; **[!UICONTROL Mutable content]** opzione è selezionata e/o viene aggiunto un URL di contenuto multimediale, il flag di contenuto variabile verrà inviato nel payload push e consentirà la modifica del contenuto della notifica push da parte di un&#39;estensione del servizio di notifica fornita in iOS SDK. Per ulteriori informazioni, consultate la documentazione [per gli sviluppatori di](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)Apple.
 
-Puoi quindi sfruttare le estensioni delle tue app mobili per modificare ulteriormente il contenuto o la presentazione delle notifiche push in arrivo inviate da Adobe Campaign. Ad esempio, gli utenti possono sfruttare questa opzione per:
+Potete quindi sfruttare le estensioni delle app mobili per modificare ulteriormente il contenuto o la presentazione delle notifiche push in arrivo inviate dal  Adobe Campaign. Ad esempio, gli utenti possono sfruttare questa opzione per:
 
 * Decrittografare i dati inviati in formato crittografato
 * Scaricare immagini o altri file multimediali e aggiungerli come allegati a una notifica
 * Modificare il corpo o il testo del titolo di una notifica
 * Aggiunta di un identificatore di thread a una notifica
 
-Quando **[!UICONTROL Content available]** è selezionato, il flag di contenuto disponibile verrà inviato nel payload push per garantire che l'app venga riattivata non appena riceve la notifica push, il che significa che l'app sarà in grado di accedere ai dati di payload. Questo funziona anche se l'app è in esecuzione in background e non richiede alcuna interazione da parte dell'utente (ad esempio, toccando una notifica push), tuttavia, questo non si applica se l'app non è in esecuzione. Per ulteriori informazioni, consultate la documentazione [per gli sviluppatori di](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)Apple.
+Quando **[!UICONTROL Content available]** è selezionato, il flag di contenuto disponibile verrà inviato nel payload push per garantire che l&#39;app venga riattivata non appena riceve la notifica push, il che significa che l&#39;app sarà in grado di accedere ai dati di payload. Questo funziona anche se l&#39;app è in esecuzione in background e non richiede alcuna interazione da parte dell&#39;utente (ad esempio, toccando la notifica push), tuttavia, questo non si applica se l&#39;app non è in esecuzione. Per ulteriori informazioni, consultate la documentazione [per gli sviluppatori di](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)Apple.
 
 ## Modifica del comportamento di notifica per Android {#change-the-notification-behavior-for-android}
 
-Per Android, potete immettere l'URL del file nel campo URL **contenuto** multimediale. Con la versione iOS, invece, per Android potete includere solo immagini e non file GIF, audio o video.
+Per Android, potete immettere l&#39;URL del file nel campo URL **contenuto** multimediale. Con la versione iOS, invece, per Android potete includere solo immagini e non file GIF, audio o video.
 
 La **[!UICONTROL High priority]** casella di controllo consente di impostare una priorità alta o normale per le notifiche push. Per ulteriori informazioni sulla priorità dei messaggi, consulta la documentazione [per gli sviluppatori di](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)Google.
 
