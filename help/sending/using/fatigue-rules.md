@@ -12,7 +12,10 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '2342'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ Argomenti correlati:
 
 Per creare e configurare una regola **[!UICONTROL Fatigue]** di tipo, attenetevi alla seguente procedura:
 
-1. Fai clic sul logo Adobe Campaign, nell&#39;angolo in alto a sinistra dell&#39;interfaccia, quindi seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
+1. Fate clic sul logo del Adobe Campaign , nell&#39;angolo superiore sinistro dell&#39;interfaccia, quindi selezionate **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 
@@ -70,7 +73,7 @@ Per creare e configurare una regola **[!UICONTROL Fatigue]** di tipo, attenetevi
 
    ![](assets/fatigue20.png)
 
-1. Selezionate la **[!UICONTROL Typologies]** scheda e collegate la regola di tipologia alla tipologia utilizzata per le consegne. Consultate [Gestione delle tipologie](../../sending/using/about-typology-rules.md#managing-typologies) e delle [regole](../../sending/using/about-typology-rules.md#typology-rules)di tipologia.
+1. Selezionate la **[!UICONTROL Typologies]** scheda e collegate la regola di tipologia alla tipologia utilizzata per le consegne. Consultate [Gestione delle tipologie](../../sending/using/managing-typologies.md) e delle [regole](../../sending/using/managing-typology-rules.md)di tipologia.
 
    ![](assets/fatigue12.png)
 
@@ -190,7 +193,7 @@ Sono disponibili tre schede che mostrano i dettagli dei risultati dell&#39;esecu
 
 ## Visualizzazione del rapporto di riepilogo della regola di affaticamento {#viewing-the-fatigue-rule-summary-report}
 
-Adobe Campaign offre un rapporto dedicato sulle regole di affaticamento per aiutarti a capire come vengono applicate alle campagne. Questo consente di comprendere l&#39;impatto reciproco delle campagne e di apportare le giuste regolazioni.
+ Adobe Campaign presenta un rapporto dedicato sulle regole di affaticamento per aiutarti a capire come vengono applicate alle campagne. Questo consente di comprendere l&#39;impatto reciproco delle campagne e di apportare le giuste regolazioni.
 
 Il **[!UICONTROL Fatigue rules summary]** rapporto è accessibile dal **[!UICONTROL Reports]** pulsante, nell&#39;angolo superiore destro di ciascun programma, campagna e messaggio.
 
