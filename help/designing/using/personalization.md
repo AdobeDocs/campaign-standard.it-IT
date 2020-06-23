@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '2536'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Personalizzazione di contenuti e-mail {#personalization}
 
-Il contenuto e la visualizzazione dei messaggi inviati da Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati in base ai criteri in base ai profili. In generale, Adobe Campaign consente di:
+Il contenuto e la visualizzazione dei messaggi inviati da  Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati in base ai criteri in base ai profili. In generale,  Adobe Campaign consente di:
 
 * Inserire campi di personalizzazione dinamica. Consultate [Inserimento di un campo](#inserting-a-personalization-field)di personalizzazione.
 * Inserisci blocchi di personalizzazione predefiniti. Consultate [Aggiunta di un blocco](#adding-a-content-block)di contenuto.
@@ -40,11 +40,11 @@ Questo campo può essere personalizzato. A tal fine, puoi aggiungere campi di pe
 
 >[!NOTE]
 >
->I parametri dell&#39;intestazione non devono essere vuoti. L&#39;indirizzo del mittente è obbligatorio per consentire l&#39;invio di un&#39;e-mail (standard RFC). Adobe Campaign controlla la sintassi degli indirizzi e-mail immessi.
+>I parametri dell&#39;intestazione non devono essere vuoti. L&#39;indirizzo del mittente è obbligatorio per consentire l&#39;invio di un&#39;e-mail (standard RFC).  Adobe Campaign controlla la sintassi degli indirizzi e-mail immessi.
 
 ## Personalizzazione degli URL{#personalizing-urls}
 
-Adobe Campaign consente di personalizzare uno o più URL nel messaggio aggiungendo campi di personalizzazione, blocchi di contenuto o contenuti dinamici. Per eseguire questa operazione:
+ Adobe Campaign consente di personalizzare uno o più URL nel messaggio aggiungendo campi di personalizzazione, blocchi di contenuto o contenuti dinamici. Per eseguire questa operazione:
 
 1. Inserite un URL esterno e specificatene i parametri. Consultate [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link).
 1. Se non viene visualizzato, fate clic sulla matita accanto all’URL selezionato nel riquadro Impostazioni per accedere alle opzioni di personalizzazione.
@@ -60,7 +60,7 @@ Adobe Campaign consente di personalizzare uno o più URL nel messaggio aggiungen
 
 ## Inserimento di un campo di personalizzazione{#inserting-a-personalization-field}
 
-Adobe Campaign consente di inserire un campo dal database nella pagina, ad esempio il nome del profilo.
+ Adobe Campaign consente di inserire nella pagina un campo dal database, ad esempio il nome del profilo.
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Una volta generata la personalizzazione (ad esempio, durante l’anteprima e la 
 
 ## Aggiunta di un blocco di contenuto{#adding-a-content-block}
 
-Adobe Campaign offre un elenco di blocchi di contenuto preconfigurati. Questi blocchi di contenuto sono dinamici, personalizzati e hanno un rendering specifico. Ad esempio, potete aggiungere un saluto o un collegamento alla pagina mirror.
+ Adobe Campaign offre un elenco di blocchi di contenuto preconfigurati. Questi blocchi di contenuto sono dinamici, personalizzati e hanno un rendering specifico. Ad esempio, potete aggiungere un saluto o un collegamento alla pagina mirror.
 
 >[!NOTE]
 >
@@ -185,7 +185,7 @@ Per ulteriori informazioni, consulta [Impostazione del targeting di dimensioni e
 
 ## Personalizzazione di un’origine immagine{#personalizing-an-image-source}
 
-Adobe Campaign consente di personalizzare una o più immagini nel messaggio in base a un particolare criterio o di utilizzare il tracciamento. A tal fine, è possibile inserire campi di personalizzazione, blocchi di contenuto o contenuti dinamici nella sorgente immagine. Per eseguire questa operazione:
+ Adobe Campaign consente di personalizzare una o più immagini nel messaggio in base a un particolare criterio o di utilizzare il tracciamento. A tal fine, è possibile inserire campi di personalizzazione, blocchi di contenuto o contenuti dinamici nella sorgente immagine. Per eseguire questa operazione:
 
 1. Inserisci un&#39;immagine nel contenuto del messaggio oppure seleziona un&#39;immagine già presente.
 1. Nella palette Proprietà immagine, selezionare l&#39; **[!UICONTROL Enable personalization]** opzione.
@@ -201,7 +201,7 @@ Adobe Campaign consente di personalizzare una o più immagini nel messaggio in b
 
    >[!NOTE]
    >
-   >Il nome di dominio (http://mydomain.com) non può essere personalizzato, deve essere immesso manualmente. Il resto dell’URL può essere personalizzato. Ad esempio: http://mydomain.com/`[Gender]`.jpg
+   >Il nome di dominio (http://mydomain.com) non può essere personalizzato, deve essere immesso manualmente. Il resto dell’URL può essere personalizzato. Ad esempio: http://mydomain.com/ `[Gender]` .jpg
 
 1. Confermate le modifiche.
 
