@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1402'
 ht-degree: 92%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 92%
    + [Pianificazione del rilascio](rn/using/release-planning.md)
    + [Funzioni obsolete](rn/using/deprecated-features.md)
 + Guida introduttiva {#getting-started}
-   + [Informazioni su Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [Informazioni  Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [Privacy e consenso](start/using/privacy.md)
    + Esplorazione dell’interfaccia {#discovering-the-interface}
       + [Informazioni sull’interfaccia](start/using/about-the-interface.md)
@@ -64,7 +64,7 @@ ht-degree: 92%
    + Utilizzo di Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [Informazioni sul servizio Destinazioni pubblico](audiences/using/aep-about-audience-destinations-service.md)
       + [Gestione dei tipi di pubblico di Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
-      + [Utilizzo di Unified Segment Builder](audiences/using/aep-using-segment-builder.md)
+      + [Utilizzo di Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Canali di comunicazione {#communication-channels}
    + [Introduzione ai canali di comunicazione](channels/using/get-started-communication-channels.md)
    + Informazioni sui canali di comunicazione {#about-communication-channels}
@@ -317,7 +317,7 @@ ht-degree: 92%
       + [Targeting dei tipi di pubblico di Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Sviluppo {#developing}
-   + [Introduzione al modello dati Campaign Standard](developing/using/get-started-data-model.md)
+   + [Guida introduttiva al modello dati Campaign Standard](developing/using/get-started-data-model.md)
    + Informazioni sulle risorse personalizzate {#about-custom-resources}
       + [Concetti del modello dati](developing/using/data-model-concepts.md)
       + [Stati delle risorse](developing/using/resource-statuses.md)
@@ -362,7 +362,7 @@ ht-degree: 92%
       + [Attivazione mappature](developing/using/aep-mapping-activation.md)
       + [Attivazione dell’assimilazione dei dati tramite API](developing/using/aep-triggering-data-ingestion.md)
 + Amministrazione {#administrating}
-   + [Introduzione all&#39;amministrazione di Campaign Standard](administration/using/get-started-campaign-administration.md)
+   + [Introduzione all&#39;amministrazione Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Linee guida per la configurazione](administration/using/about-configuration-guidelines.md)
    + Utenti e sicurezza {#users-and-security}
       + [Informazioni sulla gestione degli accessi](administration/using/about-access-management.md)
