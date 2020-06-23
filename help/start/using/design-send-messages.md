@@ -1,6 +1,6 @@
 ---
 title: Personalizzazione degli elenchi
-description: '"Scopri come personalizzare la visualizzazione e agire sulle schermate degli elenchi in Adobe Campaign Standard: ordinamento, filtro, eliminazione o duplicazione di elementi. Nelle schermate sono visualizzati elementi di una o più risorse."'
+description: '"Scoprite come personalizzare la visualizzazione e agire sulle schermate degli elenchi in  Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione di elementi. Nelle schermate sono visualizzati elementi di una o più risorse."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -72,14 +75,14 @@ Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
-Attira l&#39;attenzione dei clienti e migliora il tasso di risposta utilizzando contenuti e intestazioni personalizzati in base ai loro profili, alle loro preferenze e alla loro attività. Tutte le informazioni sui clienti sono centralizzate in Adobe Campaign e puoi offrire messaggi contenenti contenuto adattato, tramite canali diversi.
+Attira l&#39;attenzione dei clienti e migliora il tasso di risposta utilizzando contenuti e intestazioni personalizzati in base ai loro profili, alle loro preferenze e alla loro attività. Tutte le informazioni sul cliente sono centralizzate  Adobe Campaign e potete offrire messaggi contenenti contenuto adattato, attraverso canali diversi.
 
-I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, offrire esperienze personalizzate e aumentare i tassi di conversione e apertura. I messaggi tra canali inviati da Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati con criteri a seconda dei profili. È possibile:
+I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, offrire esperienze personalizzate e aumentare i tassi di conversione e apertura. I messaggi tra canali inviati da  Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati con criteri a seconda dei profili. È possibile:
 
 * Inserisci campi [di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field) dinamica nei messaggi
 * Inserire blocchi di personalizzazione [predefiniti](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalizzare il mittente](../../designing/using/subject-line.md) di un&#39;e-mail o di un SMS
-* [Personalizzare l’oggetto](../../designing/using/subject-line.md) di un messaggio e-mail o utilizzare le funzionalità [Predictive dell’oggetto](../../designing/using/subject-line.md#predictive-subject-line) per ottimizzarlo
+* [Personalizzare l’oggetto](../../designing/using/subject-line.md) di un messaggio e-mail o utilizzare le funzionalità [Predictive dell’oggetto](../../designing/using/subject-line.md#subject-line) per ottimizzarlo
 * Creare contenuto [condizionale in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Inserire testo [](../../channels/using/defining-dynamic-text.md) dinamico in un messaggio SMS o in una notifica push
 
@@ -95,7 +98,7 @@ I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, off
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
-Oltre a potenti modelli di reporting out-of-the-box, Adobe Campaign consente di creare rapporti personalizzati a livello di consegna, campagna, utente o segmento. Monitora i tuoi messaggi e capisci il comportamento dei clienti arricchendo progressivamente i loro dati di profilo. Gli strumenti di reporting e analisi consentono di sfruttare al meglio ogni nuova campagna, di indirizzare meglio le azioni di marketing e di ottimizzarne l&#39;impatto e il ritorno sull&#39;investimento.
+Oltre a potenti modelli di reporting out-of-the-box,  Adobe Campaign consente di creare rapporti personalizzati a livello di consegna, campagna, utente o segmento. Monitora i tuoi messaggi e capisci il comportamento dei clienti arricchendo progressivamente i loro dati di profilo. Gli strumenti di reporting e analisi consentono di sfruttare al meglio ogni nuova campagna, di indirizzare meglio le azioni di marketing e di ottimizzarne l&#39;impatto e il ritorno sull&#39;investimento.
 
 L&#39;interfaccia grafica fornisce un accesso rapido e semplice agli indicatori principali e alle statistiche di distribuzione.
 
@@ -103,7 +106,7 @@ L&#39;interfaccia grafica fornisce un accesso rapido e semplice agli indicatori 
 
 L’interfaccia utente per il reporting delle campagne facilita la creazione di rapporti dinamici. Potete utilizzare le variabili di trascinamento per personalizzare i rapporti e analizzare il successo delle campagne. A seconda della complessità delle query e dei calcoli, i dati possono essere aggregati in una vista a elenco o accedete in un formato che semplifica la generazione di report di analisi di marketing.
 
-Con Adobe Campaign, puoi monitorare e monitorare ogni singola consegna. Il pannello dei messaggi visualizza i registri dedicati per i processi di follow-up, le regole e identificare eventuali errori e avvisi.
+Con  Adobe Campaign, è possibile monitorare e monitorare ogni singola consegna. Il pannello dei messaggi visualizza i registri dedicati per i processi di follow-up, le regole e identificare eventuali errori e avvisi.
 
 
 **Leggi tutto**
