@@ -1,6 +1,6 @@
 ---
 title: Caricare file
-description: L'attività Carica file consente di importare i dati in un modulo strutturato per utilizzarli in Adobe Campaign.
+description: L'attività Carica file consente di importare i dati in un modulo strutturato per utilizzarli in  Adobe Campaign.
 page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ![](assets/data_loading.png)
 
-L&#39; **[!UICONTROL Load file]** attività consente di importare i dati in un modulo strutturato per utilizzarli in Adobe Campaign. I dati vengono importati temporaneamente e un&#39;altra attività è necessaria per integrarli definitivamente nel database di Adobe Campaign.
+L&#39; **[!UICONTROL Load file]** attività consente di importare i dati in un modulo strutturato per utilizzarli in  Adobe Campaign. I dati vengono importati temporaneamente e un&#39;altra attività è necessaria per integrarli definitivamente nel database del Adobe Campaign .
 
 ## Contesto di utilizzo {#context-of-use}
 
@@ -40,7 +40,7 @@ Il modo in cui i dati verranno estratti viene definito quando l&#39;attività vi
 È possibile:
 
 * Utilizzare la struttura del file per applicarla ai dati di un altro file (recuperati utilizzando l&#39; **[!UICONTROL Transfer file]** attività) o,
-* Usa la struttura e i dati del file per importarlo in Adobe Campaign.
+* Utilizzate la struttura e i dati del file per importarlo nel Adobe Campaign .
 
 ## Configurazione {#configuration}
 
@@ -81,7 +81,7 @@ La configurazione dell&#39;attività prevede due passaggi. Innanzitutto, è nece
 
 1. Vai alla **[!UICONTROL Column definition]** scheda per controllare il formato dei dati per ogni colonna e regolare i parametri, se necessario.
 
-   La **[!UICONTROL Column definition]** scheda consente di specificare con precisione la struttura dati di ciascuna colonna al fine di importare dati che non contengono errori (ad esempio, utilizzando la gestione null) e di farli corrispondere ai tipi già presenti nel database Adobe Campaign per le operazioni future.
+   La **[!UICONTROL Column definition]** scheda consente di specificare con precisione la struttura dati di ogni colonna al fine di importare dati che non contengono errori (ad esempio, utilizzando la gestione null) e renderli corrispondenti ai tipi già presenti nel database del Adobe Campaign  per le operazioni future.
 
    Ad esempio, è possibile modificare l&#39;etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) o anche specificare l&#39;elaborazione degli errori.
 
@@ -98,6 +98,9 @@ La configurazione dell&#39;attività prevede due passaggi. Innanzitutto, è nece
       ![](assets/wkf_file_loading1.png)
 
 1. Se il file da cui si desidera caricare i dati è compresso in un file GZIP (.gz), selezionare l&#39; **[!UICONTROL Decompression]** opzione nel **[!UICONTROL Add a pre-processing step]** campo. Questo consente di decomprimere il file prima di caricare i dati. Questa opzione è disponibile solo se il file proviene dalla transizione in entrata dell&#39;attività.
+
+   Il **[!UICONTROL Add a pre-processing step]** campo consente inoltre di decrittografare un file prima di importarlo nel database. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
+
 1. L’ **[!UICONTROL Keep the rejects in a file]** opzione consente di scaricare un file contenente errori verificatisi durante l’importazione e di applicarvi una fase di post-elaborazione. Quando l’opzione è attivata, la transizione in uscita viene rinominata come &quot;Rifiuti&quot;.
 
    >[!NOTE]
@@ -159,7 +162,7 @@ La formattazione delle colonne consente di definire il valore di elaborazione di
 
 L&#39;attività del file di caricamento struttura principalmente i dati provenienti da un&#39;attività del file di trasferimento al fine di integrarlo nei dati esistenti.
 
-L&#39;esempio seguente mostra il risultato di un&#39;attività del file di caricamento scaricata automaticamente tramite un&#39;attività del file di trasferimento, seguita da un&#39;attività di aggiornamento dei dati. Questo flusso di lavoro mira ad arricchire il database di Adobe Campaign con nuovi profili o ad aggiornare i profili esistenti utilizzando i dati recuperati dal file importato.
+L&#39;esempio seguente mostra il risultato di un&#39;attività del file di caricamento scaricata automaticamente tramite un&#39;attività del file di trasferimento, seguita da un&#39;attività di aggiornamento dei dati. Questo flusso di lavoro mira ad arricchire il database del Adobe Campaign  con nuovi profili o ad aggiornare i profili esistenti utilizzando i dati recuperati dal file importato.
 
 ![](assets/load_file_workflow_ex1.png)
 
@@ -173,7 +176,7 @@ L&#39;esempio seguente mostra il risultato di un&#39;attività del file di caric
 1. Configurate l&#39;attività come specificato in precedenza.
 1. Trascinate e rilasciate un&#39; **[!UICONTROL Update data]** attività nel flusso di lavoro, inseritela dopo l&#39; **[!UICONTROL Load file]** attività, quindi configuratela. Fare riferimento a [Dati](../../automating/using/update-data.md)di aggiornamento.
 
-Una volta avviato il flusso di lavoro, i dati del file caricato vengono estratti e quindi utilizzati per arricchire il database di Adobe Campaign.
+Una volta avviato il flusso di lavoro, i dati del file caricato vengono estratti e quindi utilizzati per arricchire il database del Adobe Campaign .
 
 ## Esempio 2: Invio di un’e-mail con campi arricchiti {#example-2-email-with-enriched-fields}
 
