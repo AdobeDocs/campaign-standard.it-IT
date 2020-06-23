@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,9 +32,9 @@ Utilizzando i modelli di importazione è molto comodo preparare importazioni sim
 
 In molti progetti, le importazioni vengono create senza **[!UICONTROL Deduplication]** attività perché i file utilizzati nel progetto non hanno duplicati. Talvolta i duplicati vengono visualizzati durante l’importazione di file diversi. La deduplicazione è quindi difficile. Pertanto, un passaggio di deduplicazione è una buona precauzione in tutti i flussi di lavoro di importazione.
 
-Non devi basarti sul presupposto che i dati in arrivo siano coerenti e corretti o che il reparto IT o il supervisore di Adobe Campaign se ne occuperanno. Durante il progetto, tenere presente la pulizia dei dati. Deduplicare, riconciliare e mantenere la coerenza quando si importano i dati.
+Non basarsi sul presupposto che i dati in arrivo siano coerenti e corretti o che il reparto IT o il supervisore  Adobe Campaign se ne occuperanno. Durante il progetto, tenere presente la pulizia dei dati. Deduplicare, riconciliare e mantenere la coerenza quando si importano i dati.
 
-Un esempio di modello di flusso di lavoro generico progettato per l&#39;importazione di dati è disponibile in [Esempio: Importa sezione modello](#example--import-workflow-template) flusso di lavoro.
+Un esempio di modello di flusso di lavoro generico progettato per l&#39;importazione di dati è disponibile in [Esempio: Importa sezione modello](../../automating/using/creating-import-workflow-templates.md) flusso di lavoro.
 
 >[!NOTE]
 >
@@ -80,16 +80,16 @@ Quando possibile, usate file ZIP per le importazioni e le esportazioni. GZIP è 
 
 ## Importazione in modalità Delta {#importing-in-delta-mode}
 
-Le importazioni regolari devono essere effettuate in modalità delta. Ciò significa che solo i dati nuovi o modificati vengono inviati ad Adobe Campaign, invece che l&#39;intera tabella ogni volta.
+Le importazioni regolari devono essere effettuate in modalità delta. Ciò significa che solo i dati modificati o nuovi vengono inviati al Adobe Campaign , invece che all&#39;intera tabella ogni volta.
 
 Le importazioni complete devono essere utilizzate solo per il carico iniziale.
 
 ## Mantenimento della coerenza {#maintaining-consistency}
 
-Per mantenere la coerenza dei dati nel database Adobe Campaign, segui i principi riportati di seguito:
+Per mantenere la coerenza dei dati nel database del Adobe Campaign , attenersi ai principi seguenti:
 
-* Se i dati importati corrispondono a una tabella di riferimento in Adobe Campaign, è necessario riconciliarla con tale tabella nel flusso di lavoro. I record che non corrispondono devono essere rifiutati.
-* Assicurarsi che i dati importati siano sempre **&quot;normalizzati&quot;** (e-mail, numero di telefono, indirizzo e-mail diretto) e che la normalizzazione sia affidabile e non cambi nel corso degli anni. In caso contrario, è probabile che nel database vengano visualizzati dei duplicati, e dato che Adobe Campaign non fornisce strumenti per effettuare la corrispondenza &quot;sfocata&quot;, sarà molto difficile gestirli e rimuoverli.
+* Se i dati importati corrispondono a una tabella di riferimento  Adobe Campaign, è necessario riconciliarla con tale tabella nel flusso di lavoro. I record che non corrispondono devono essere rifiutati.
+* Assicurarsi che i dati importati siano sempre **&quot;normalizzati&quot;** (e-mail, numero di telefono, indirizzo e-mail diretto) e che la normalizzazione sia affidabile e non cambi nel corso degli anni. In caso contrario, è probabile che nel database vengano visualizzati dei duplicati, e dato che  Adobe Campaign non fornisce strumenti per effettuare la corrispondenza &quot;fuzzy&quot;, sarà molto difficile gestirli e rimuoverli.
 * I dati transazionali devono avere una chiave di riconciliazione e devono essere riconciliati con i dati esistenti al fine di evitare la creazione di duplicati.
 * **Importa i file correlati in ordine**. Se l’importazione è composta da più file che dipendono l’uno dall’altro, il flusso di lavoro deve verificare che i file vengano importati nell’ordine corretto. Quando un file ha esito negativo, gli altri file non vengono importati.
 * **Deduplicare**, riconciliare e mantenere la coerenza quando si importano i dati.
