@@ -12,9 +12,9 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   <tr> 
    <td> Clic univoci<br /> </td> 
    <td> @univeclicks<br /> </td> 
-   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch.<br /> </td> 
+   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   <tr> 
    <td> Aperture univoche<br /> </td> 
    <td> @uniqueopen<br /> </td> 
-   <td> Le aperture univoche vengono calcolate utilizzando i concetti di ThetaSketch di RecipientIds univoci.<br /> </td> 
+   <td> Le aperture univoche vengono calcolate utilizzando i concetti di ThetaSketch di RecipientIds univoci. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressioni<br /> </td> 
@@ -293,7 +293,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   <tr> 
    <td> Clic univoci<br /> </td> 
    <td> @univeclicks<br /> </td> 
-   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch.<br /> </td> 
+   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tasso di click-through<br /> </td> 
