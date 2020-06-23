@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '878'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,13 @@ ht-degree: 2%
 
 In alcuni casi, i dati da importare sui server delle campagne potrebbero dover essere crittografati, ad esempio se contengono dati PII.
 
-Per importare o esportare file crittografati, è innanzitutto necessario contattare l&#39;Assistenza clienti Adobe in modo che fornisca all&#39;istanza i comandi di cifratura/decrittazione necessari.
+Per poter crittografare i dati in uscita o decrittografare quelli in arrivo, è necessario gestire le chiavi GPG tramite il [Pannello](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)di controllo.
 
-A tal fine, inviare una richiesta indicando:
+>[!NOTE]
+>
+>Il Pannello di controllo è disponibile per tutti i clienti ospitati su AWS (ad eccezione dei clienti che ospitano le proprie istanze di marketing in sede).
+
+Se non siete autorizzati a utilizzare il Pannello di controllo, contattate l&#39;Assistenza clienti Adobe in modo che fornisca all&#39;istanza i comandi di cifratura/decrittazione necessari. A tal fine, inviare una richiesta indicando:
 
 * L&#39; **etichetta** che verrà visualizzata nell&#39;interfaccia di Campaign per utilizzare il comando. Ad esempio &quot;Cifra file&quot;.
 * Il **comando** da installare nell’istanza.
@@ -36,12 +40,6 @@ A tal fine, inviare una richiesta indicando:
 Una volta elaborata la richiesta, i comandi di cifratura/decrittazione saranno disponibili nel **[!UICONTROL Pre-processing stage]** campo dalle **[!UICONTROL Load file]** attività e **[!UICONTROL Extract file]** . Potete utilizzarli per decifrare o cifrare i file da importare o esportare.
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->Si noti che le chiavi GPG possono essere aggiunte all&#39;istanza utilizzando il Pannello di controllo, disponibile per tutti i clienti ospitati su AWS (ad eccezione dei clienti che ospitano le proprie istanze di marketing in sede).
->
->Per ulteriori informazioni, consultare la documentazione [del Pannello di](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html)controllo.
 
 **Argomenti correlati:**
 
