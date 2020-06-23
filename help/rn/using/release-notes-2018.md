@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 3%
 
 ---
@@ -130,7 +130,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 
 **Miglioramenti**
 
-* L&#39;integrazione  Adobe Campaign e  Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) di Target. Quando includete un&#39;immagine dinamica da  Adobe Target in un messaggio e-mail, ora potete specificare una proprietà Target (codice at_property).
+* L&#39;integrazione  Adobe Campaign e  Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) di Target. Quando includete un&#39;immagine dinamica da  Adobe Target in un messaggio e-mail, ora potete specificare una proprietà Target (codice at_property).
 * Le risorse personalizzate che dispongono di un collegamento di copia per la risorsa dei profili vengono ora prese in considerazione dalle richieste di accesso/eliminazione della privacy GDPR. Per 1 collegamenti semplici di cardinalità e N collegamenti di raccolta cardinalità, è necessario selezionare &quot;Eliminazione/Duplicazione del record di destinazione implica l&#39;eliminazione/duplicazione dei record a cui fa riferimento il collegamento&quot; nella risorsa personalizzata. Per i collegamenti semplici 0 o 1 cardinalità, selezionare &quot;Eliminare/Duplicare il record implica eliminare/duplicare il record di destinazione a cui fa riferimento il collegamento&quot;.
 
 **Altre modifiche**
