@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Documentazione di Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
+source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '199'
+ht-degree: 91%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 93%
 
 ## Novità
 
-* Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. [Leggi tutto](rn/using/documentation-updates.md)
-
 * **[Gestione della privacy](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)**<br/>
 Scopri gli strumenti forniti da Adobe Campaign per facilitare la conformità ai criteri di privacy
+
+* **[API](automating/using/external-api.md)**<br/>esterna Utilizzare l&#39;attività API esterna per inserire i dati nel flusso di lavoro da un sistema esterno
 
 * **[Guida di Campaign Standard per dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/>
 Scopri le linee guida generali per le consegne su dispositivi mobili
