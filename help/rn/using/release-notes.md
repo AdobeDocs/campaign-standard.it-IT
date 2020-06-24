@@ -1,6 +1,6 @@
 ---
 title: Ultima versione
-description: In questa pagina sono elencate tutte le versioni recenti di Adobe Campaign Standard.
+description: In questa pagina sono elencate tutte le versioni recenti di  Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 # Ultima versione{#latest-release}
 
 [Pianificazione rilascio](../../rn/using/release-planning.md) | Rilasci del [Pannello di controllo](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | Aggiornamenti [alla documentazione](../../rn/using/documentation-updates.md) | Note sulla versione [precedente](../../rn/using/release-notes-2020.md) | Funzioni [obsolete](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Nuovo rilascio** del Pannello di controllo di giugno con monitoraggio dei profili attivi, controllo della recapito del sottodominio e gestione delle chiavi GPG. Consultate [Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)sulla versione del Pannello di controllo.
 
 ## Rilascio 20.3 - maggio 2020 {#release-20-3---may-2020}
 
@@ -36,8 +38,8 @@ ht-degree: 0%
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Il Personal Data Protection Act (PDPA) della Thailandia è la nuova legge sulla privacy che armonizza e aggiorna i requisiti di protezione dei dati per la Thailandia. Questo regolamento si applica ai clienti Adobe Campaign che detengono i dati per gli oggetti Data che risiedono in questo paese.</p>
-<p>Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo colta l'opportunità per includere funzionalità aggiuntive, per facilitare la preparazione del PDF da parte dell'utente:</p>
+<td> <p>Il Personal Data Protection Act (PDPA) della Thailandia è la nuova legge sulla privacy che armonizza e aggiorna i requisiti di protezione dei dati per la Thailandia. Il presente regolamento si applica  clienti Adobi Campaign che detengono dati per i soggetti che risiedono in questo paese.</p>
+<p>Oltre alle funzionalità per la privacy già disponibili in  Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità per includere funzionalità aggiuntive, per facilitare la preparazione del PDPA:</p>
 <ul>
 <li>Diritto di accesso e Diritto di eliminazione: stiamo sfruttando le funzionalità aggiunte per il GDPR e il CCPA. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Ulteriori informazioni</a> </li>
 <li><p>Durante la creazione di una richiesta per la privacy, il tipo di regolamento PDPA è stato aggiunto nel servizio di base per la privacy. Questo metodo è quello da utilizzare per tutte le richieste di accesso ed eliminazione. L'utilizzo dell'API e dell'interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto.  Consultate l'articolo <a href="../../rn/using/deprecated-features.md">Funzioni</a>obsolete e rimosse.</p></li>
@@ -69,15 +71,13 @@ ht-degree: 0%
 </tbody> 
 </table>
 
->[!NOTE]
->
->Il rinnovo del certificato per i sottodomini CNAME viene rilasciato nel Pannello di controllo della campagna a maggio. Per ulteriori informazioni, consultare la nota [sulla versione del](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)Pannello di controllo.
+![](assets/do-not-localize/cp-icon.png) **Il nuovo Pannello di controllo potrebbe rilasciare** con rinnovo del certificato per i sottodomini CNAME. Consultate [Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)sulla versione del Pannello di controllo.
 
 **Miglioramenti**
 
 * Il numero di caratteri utilizzabili nel campo **Prefisso** per [testare i messaggi tramite i profili](../../sending/using/testing-messages-using-target.md) di destinazione è stato aumentato da 32 a 500 caratteri.
 * Il numero massimo di eventi in tempo reale che possono essere pubblicati in un’istanza è stato aumentato da 350 a 2000. (CAMP-41608)
-* La sincronizzazione tra Adobe Launch e Campaign Standard è stata migliorata mediante il flusso di lavoro tecnico syncWithLaunch. Questo flusso di lavoro consente l&#39;importazione automatica di tutte le proprietà mobili di Adobe Launch in Adobe Campaign Standard. Per ulteriori informazioni, consultare [questa pagina](../../administration/using/technical-workflows.md).
+* La sincronizzazione tra Adobe Launch e Campaign Standard è stata migliorata mediante il flusso di lavoro tecnico syncWithLaunch. Questo flusso di lavoro consente l’importazione automatica di tutte le proprietà mobili di Adobe Launch nel Adobe Campaign Standard . Per ulteriori informazioni, consultare [questa pagina](../../administration/using/technical-workflows.md).
 
    Dovrai inviare un ticket all&#39;Assistenza clienti Adobe (direttamente o tramite il contatto Adobe) per far sì che il flusso di lavoro tecnico syncWithLaunch sia abilitato nell&#39;istanza Campaign. (CAMP-40082)
 
@@ -100,9 +100,9 @@ ht-degree: 0%
 * È stata aggiunta la lingua ES-US nell&#39;elenco delle lingue pronte all&#39;uso per le e-mail in più lingue. (CAMP-42279)
 * I file scaricati con un&#39;attività di trasferimento file ora verranno eliminati dopo X giorni, dove X è determinato dal campo **Cronologia in giorni** nel menu **Esecuzione** delle proprietà Flusso di lavoro. [Leggi tutto](../../automating/using/managing-execution-options.md)
 
-**Integrazioni con la piattaforma Experience**
+**integrazioni Experience Platform**
 
-* L&#39;attivazione di Adobe [Experience Platform Audiences](../../automating/using/aep-targeting-audiences.md) dall&#39;attività di **lettura dell&#39;audience** è stata migliorata per fornire prestazioni e stabilità migliori. Inoltre, i registri del flusso di lavoro sono stati resi più chiari e dettagliati per quanto riguarda i processi di attivazione, consentendo un monitoraggio e una risoluzione più semplici dei problemi durante la lettura dei tipi di pubblico Adobe Experience Platform.
+* L&#39;attivazione di Adobe [Experience Platform Audiences](../../automating/using/aep-targeting-audiences.md) dall&#39;attività di **lettura dell&#39;audience** è stata migliorata per fornire prestazioni e stabilità migliori. Inoltre, i registri del flusso di lavoro sono stati resi più chiari e dettagliati per quanto riguarda i processi di attivazione, consentendo un monitoraggio e una risoluzione dei problemi semplificati durante la lettura  pubblico del Adobe Experience Platform.
 
 **Patch**
 
