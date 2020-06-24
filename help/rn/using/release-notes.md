@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
+source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 [Pianificazione rilascio](../../rn/using/release-planning.md) | Rilasci del [Pannello di controllo](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | Aggiornamenti [alla documentazione](../../rn/using/documentation-updates.md) | Note sulla versione [precedente](../../rn/using/release-notes-2020.md) | Funzioni [obsolete](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nuovo rilascio** del Pannello di controllo di giugno con monitoraggio dei profili attivi, controllo della recapito del sottodominio e gestione delle chiavi GPG. Consultate [Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)sulla versione del Pannello di controllo.
+![](assets/do-not-localize/cp-icon.png) **Nuovo rilascio** del Pannello di controllo di giugno con monitoraggio dei profili attivi, controllo della recapito del sottodominio e gestione delle chiavi GPG. [Ulteriori](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)informazioni.
 
 ## Rilascio 20.3 - maggio 2020 {#release-20-3---may-2020}
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **Il nuovo Pannello di controllo potrebbe rilasciare** con rinnovo del certificato per i sottodomini CNAME. Consultate [Note](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)sulla versione del Pannello di controllo.
+![](assets/do-not-localize/cp-icon.png) **Il nuovo Pannello di controllo potrebbe rilasciare** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)informazioni.
 
 **Miglioramenti**
 
