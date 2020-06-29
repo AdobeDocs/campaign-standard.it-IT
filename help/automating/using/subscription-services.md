@@ -13,12 +13,15 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Servizi sottoscrizione{#subscription-services}
+# Servizi sottoscrizione {#subscription-services}
 
 ## Descrizione {#description}
 
@@ -32,11 +35,16 @@ L&#39; **[!UICONTROL Subscription Services]** attività consente di prendere pro
 
 ## Contesto di utilizzo {#context-of-use}
 
-L&#39; **[!UICONTROL Subscription Services]** attività è l&#39;unica funzionalità di Adobe Campaign che consente a più profili di essere sottoscritti o di annullare l&#39;iscrizione a un servizio in un&#39;unica azione.
+L&#39; **[!UICONTROL Subscription Services]** attività è l&#39;unica funzionalità di Adobe Campaign  che consente la sottoscrizione o l&#39;annullamento della sottoscrizione di più profili da un servizio in un&#39;unica azione.
 
 Potete utilizzare questa attività dopo aver eseguito il targeting o aver importato un file con dati identificati.
 
 Se specificata in un file tramite colonne dedicate, questa attività consente anche di scegliere l&#39;azione (sottoscrizione o annullamento della sottoscrizione) e il servizio su cui eseguire l&#39;azione.
+
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Aggiornamento di più stati di iscrizione da un file](../../automating/using/updating-subscriptions-from-file.md)
+* [Caso di utilizzo: Iscrizione di profili da un file a un servizio specifico](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Configurazione {#configuration}
 
@@ -93,7 +101,7 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/subscription_activity_example2.png)
 
-* Un&#39; **[!UICONTROL Reconciliation]** attività identifica i dati del file come appartenenti alla dimensione del profilo del database Adobe Campaign. È configurata solo la **[!UICONTROL Identification]** scheda. Identifica i dati del file in base agli indirizzi e-mail dei profili.
+* Un&#39; **[!UICONTROL Reconciliation]** attività identifica i dati del file come appartenenti alla dimensione del profilo del database del Adobe Campaign . È configurata solo la **[!UICONTROL Identification]** scheda. Identifica i dati del file in base agli indirizzi e-mail dei profili.
 
    ![](assets/subscription_activity_example3.png)
 
@@ -138,7 +146,7 @@ Il flusso di lavoro viene presentato come segue:
 
    Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l&#39;operazione, non è necessario rimappare tali valori. Assicurarsi solo che la colonna sia elaborata come **booleano** o **Intero** nella **[!UICONTROL Column definition]** scheda.
 
-* Un&#39; **[!UICONTROL Reconciliation]** attività identifica i dati del file come appartenenti alla dimensione del profilo del database Adobe Campaign. Tramite la **[!UICONTROL Identification]** scheda, il campo **e-mail** del file corrisponde al campo **e-mail** della risorsa del profilo.
+* Un&#39; **[!UICONTROL Reconciliation]** attività identifica i dati del file come appartenenti alla dimensione del profilo del database del Adobe Campaign . Tramite la **[!UICONTROL Identification]** scheda, il campo **e-mail** del file corrisponde al campo **e-mail** della risorsa del profilo.
 
    ![](assets/subscription_activity_example3.png)
 
