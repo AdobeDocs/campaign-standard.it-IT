@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,13 @@ Il modo in cui i dati verranno estratti viene definito quando l&#39;attività vi
 
 * Utilizzare la struttura del file per applicarla ai dati di un altro file (recuperati utilizzando l&#39; **[!UICONTROL Transfer file]** attività) o,
 * Utilizzate la struttura e i dati del file per importarlo nel Adobe Campaign .
+
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Aggiornamento del database con dati esterni](../../automating/using/update-database-file.md)
+* [Caso di utilizzo: Aggiornamento dei dati in base a un download automatico del file](../../automating/using/update-data-automatic-download.md)
+* [Caso di utilizzo: Invio di un’e-mail con campi arricchiti](../../automating/using/sending-email-enriched-fields.md)
+* [Caso di utilizzo: Riconciliare un pubblico di file con il database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configurazione {#configuration}
 
@@ -157,75 +164,3 @@ La formattazione delle colonne consente di definire il valore di elaborazione di
    * **[!UICONTROL Generate an error for numerical fields]**: genera un errore solo per i campi numerici, altrimenti inserisce un valore NULL.
    * **[!UICONTROL Insert NULL in the corresponding field]**: autorizza valori vuoti. Il valore NULL viene quindi inserito.
    * **[!UICONTROL Generate an error]**: genera un errore se un valore è vuoto.
-
-## Esempio 1: Aggiornamento del database {#example-1-update-the-database}
-
-L&#39;attività del file di caricamento struttura principalmente i dati provenienti da un&#39;attività del file di trasferimento al fine di integrarlo nei dati esistenti.
-
-L&#39;esempio seguente mostra il risultato di un&#39;attività del file di caricamento scaricata automaticamente tramite un&#39;attività del file di trasferimento, seguita da un&#39;attività di aggiornamento dei dati. Questo flusso di lavoro mira ad arricchire il database del Adobe Campaign  con nuovi profili o ad aggiornare i profili esistenti utilizzando i dati recuperati dal file importato.
-
-![](assets/load_file_workflow_ex1.png)
-
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Transfer file]** attività nel flusso di lavoro e configuratela in modo da ripristinare il file desiderato.
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Load file]** attività nel flusso di lavoro e inseritela dopo l&#39; **[!UICONTROL Transfer file]** attività.
-1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
-1. Nella **[!UICONTROL File to load]** sezione della **[!UICONTROL Execution]** scheda, selezionare l&#39; **[!UICONTROL Use the file specified in the inbound transition]** opzione.
-
-   ![](assets/wkf_file_loading8.png)
-
-1. Configurate l&#39;attività come specificato in precedenza.
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Update data]** attività nel flusso di lavoro, inseritela dopo l&#39; **[!UICONTROL Load file]** attività, quindi configuratela. Fare riferimento a [Dati](../../automating/using/update-data.md)di aggiornamento.
-
-Una volta avviato il flusso di lavoro, i dati del file caricato vengono estratti e quindi utilizzati per arricchire il database del Adobe Campaign .
-
-## Esempio 2: Invio di un’e-mail con campi arricchiti {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-L&#39;attività del file di caricamento consente inoltre di inviare un&#39;e-mail arricchita di dati aggiuntivi da un file esterno nello stesso flusso di lavoro.
-
-L&#39;esempio seguente mostra come inviare un&#39;e-mail utilizzando dati aggiuntivi recuperati da un file esterno tramite l&#39;attività del file di caricamento. In questo esempio, il file esterno contiene un elenco di profili con il relativo numero di account associato. Desiderate importare questi dati per inviare un messaggio e-mail a ogni profilo con il relativo numero di account.
-
-![](assets/load_file_workflow_ex2.png)
-
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Query]** attività nel flusso di lavoro e apritela per definire la destinazione principale.
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Load file]** attività per assegnare alcuni dati a un profilo. In questo esempio, caricate un file contenente i numeri di account corrispondenti ad alcuni profili del database.
-
-   ![](assets/load_file_activity.png)
-
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Enrichment]** attività nel flusso di lavoro, quindi collegate il file di caricamento e le attività di query ad esso.
-
-1. Nella **[!UICONTROL Advanced relations]** scheda dell&#39;attività di arricchimento, selezionare i campi **[!UICONTROL 0 or 1 cardinality simple link]** e definirli per la riconciliazione. Qui usiamo il cognome per riconciliare i dati con i profili del database.
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. Nella **[!UICONTROL Additional data]** scheda, selezionate gli elementi che desiderate utilizzare nel messaggio e-mail. Qui selezionate il numero di account (colonna dal file recuperato tramite l&#39;attività del file di caricamento).
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   Per ulteriori informazioni, vedere la sezione [Arricchimento](../../automating/using/enrichment.md) .
-
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Segmentation]** attività nel flusso di lavoro e apritela per perfezionare la destinazione principale.
-
-   ![](assets/load_file_segmentation.png)
-
-   Per ulteriori informazioni, consulta la sezione [Segmentazione](../../automating/using/segmentation.md) .
-
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Email delivery]** attività nel flusso di lavoro per aprirla.
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. Aggiungi un campo di personalizzazione e seleziona dal **[!UICONTROL Additional data (targetData)]** nodo i dati aggiuntivi definiti nell&#39;attività di arricchimento (qui Numero account). Questo consente di recuperare in modo dinamico il numero di account di ciascun profilo presente nel contenuto dell&#39;e-mail.
-
-   ![](assets/load_file_perso_field.png)
-
-1. Salvate il messaggio e-mail e avviate il flusso di lavoro.
-
-L&#39;e-mail viene inviata alla destinazione. Ogni profilo riceve l’e-mail con il numero di account corrispondente.
-
-![](assets/load_file_email.png)
