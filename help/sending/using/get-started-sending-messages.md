@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 9%
 
 ---
@@ -98,3 +98,4 @@ Leggi tutto:
 * [Rivedere la consegna e i rapporti tramite e-mail (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Guida introduttiva alle e-mail](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [Best practice di distribuzione](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
+* [Caso di utilizzo: Creazione di un gruppo di controllo](../../automating/using/workflow-control-group.md)
