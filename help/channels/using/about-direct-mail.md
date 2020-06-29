@@ -1,6 +1,6 @@
 ---
 title: Informazioni sulla direct mail
-description: Scopri le principali specificità del canale di posta diretta in Adobe Campaign.
+description: Scopri le principali specificità del canale di posta diretta in  Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 1%
 
 ---
 
@@ -26,17 +29,21 @@ La posta diretta è un canale offline che consente di personalizzare e generare 
 >
 >Questa funzione è facoltativa. Controllare il contratto di licenza. Il **[!UICONTROL Export]** ruolo è necessario per utilizzare la posta diretta. Contattare l&#39;amministratore.
 
-I canali online consentono di creare i messaggi (e-mail, SMS, distribuzione di app mobili, ecc.) e inviali al tuo pubblico direttamente da Adobe Campaign. Con i canali offline, è diverso. Quando prepari la consegna diretta per posta, Adobe Campaign genera un file contenente tutti i profili di destinazione e le informazioni di contatto scelte (ad esempio l&#39;indirizzo postale). Sarà quindi possibile inviare questo file al provider di posta diretta che si occuperà dell&#39;invio effettivo.
+I canali online consentono di creare i messaggi (e-mail, SMS, distribuzione di app mobili, ecc.) e inviarli al pubblico direttamente da  Adobe Campaign. Con i canali offline, è diverso. Quando preparate una consegna diretta per posta,  Adobe Campaign genera un file contenente tutti i profili di destinazione e le informazioni di contatto scelte (ad esempio l&#39;indirizzo postale). Sarà quindi possibile inviare questo file al provider di posta diretta che si occuperà dell&#39;invio effettivo.
 
 Nella sezione seguente viene illustrato come creare e generare una distribuzione di posta diretta con un solo colpo. È inoltre possibile includere un&#39;attività di posta diretta in un flusso di lavoro per orchestrare campagne che combinano canali online e offline. Per ulteriori informazioni, consulta la guida [Flussi](../../automating/using/get-started-workflows.md) di lavoro.
 
-Il processo utente in Adobe Campaign è il seguente:
+Il processo utente in  Adobe Campaign è il seguente:
 
 1. Creazione della consegna
 1. Scelta dell&#39;audience
 1. Definizione del contenuto
 1. Impostazione della data del contatto
 1. Generazione del file
+
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Accoppiamento delle consegne e-mail e della posta diretta](../../automating/using/coupling-email-direct-mail.md)
 
 ## Recommendations {#recommendations}
 
@@ -52,9 +59,8 @@ Accertatevi di aver selezionato la **[!UICONTROL Address specified]** casella ne
 
 Quando si aggiungono i campi da includere nel file di estrazione, i campi dell&#39;indirizzo postale sono disponibili nel **[!UICONTROL Location]** nodo.
 
-Adobe Campaign offre una serie di campi calcolati predefiniti che seguono le normalizzazioni degli indirizzi postali più comuni. I campi sono disponibili nel **[!UICONTROL Postal address]** nodo.
+ Adobe Campaign offre una serie di campi calcolati predefiniti che seguono le normalizzazioni di indirizzi postali più comuni. I campi sono disponibili nel **[!UICONTROL Postal address]** nodo.
 
 Per impostazione predefinita, un indirizzo può contenere fino a sei righe: il primo campo calcolato (**[!UICONTROL Line 1]** contiene il nome e il cognome, le righe successive contengono l&#39;indirizzo postale (strada, ecc.), e l&#39;ultima riga contiene il codice postale ZIP e la città o città.
 
 ![](assets/direct_mail_23.png)
-
