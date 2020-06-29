@@ -13,10 +13,10 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 1%
 
 ---
 
@@ -37,6 +37,10 @@ L&#39; **[!UICONTROL Union]** attività consente di raggruppare il risultato di 
 
 L&#39; **[!UICONTROL Union]** attività viene utilizzata per combinare le popolazioni provenienti da transizioni in entrata quando si esegue una segmentazione, si definisce un&#39;audience o, ad esempio, quando si prepara la destinazione del messaggio.
 
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Unione su due tipi di pubblico raffinati](../../automating/using/union-on-two-refined-audiences.md)
+
 ## Configurazione {#configuration}
 
 1. Trascinate e rilasciate un&#39; **[!UICONTROL Union]** attività nel flusso di lavoro.
@@ -55,6 +59,6 @@ L&#39; **[!UICONTROL Union]** attività viene utilizzata per combinare le popola
 
 ## Esempio {#example}
 
-L&#39;esempio seguente mostra il risultato di due attività di query volte a raggruppare i profili dal database Adobe Campaign che hanno tra i 18 e i 27 anni e che hanno tra i 34 e i 40 anni. Il risultato contiene tutti i profili delle due query o il numero massimo di record, se applicabile, come specificato durante la configurazione.
+L&#39;esempio seguente mostra il risultato di due attività di query che mirano a raggruppare i profili dal database del Adobe Campaign  che hanno tra i 18 e i 27 anni e che hanno tra i 34 e i 40 anni. Il risultato contiene tutti i profili delle due query o il numero massimo di record, se applicabile, come specificato durante la configurazione.
 
 ![](assets/wkf_union_example.png)
