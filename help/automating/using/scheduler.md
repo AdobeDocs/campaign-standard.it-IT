@@ -13,7 +13,10 @@ context-tags: schedule,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 0%
 
 ---
 
@@ -24,21 +27,26 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ![](assets/scheduler.png)
 
-L&#39; **[!UICONTROL Scheduler]**attività consente di pianificare quando viene avviato un flusso di lavoro o un&#39;attività.
+L&#39; **[!UICONTROL Scheduler]** attività consente di pianificare quando viene avviato un flusso di lavoro o un&#39;attività.
 
 ## Contesto di utilizzo {#context-of-use}
 
-L&#39; **[!UICONTROL Scheduler]**attività deve essere considerata come un inizio pianificato. Le regole di posizionamento dell&#39;attività all&#39;interno del grafico sono le stesse dell&#39;**[!UICONTROL Start]** attività. Questa attività non deve avere una transizione in entrata.
+L&#39; **[!UICONTROL Scheduler]** attività deve essere considerata come un inizio pianificato. Le regole di posizionamento dell&#39;attività all&#39;interno del grafico sono le stesse dell&#39; **[!UICONTROL Start]** attività. Questa attività non deve avere una transizione in entrata.
 
-Durante la creazione del flusso di lavoro, utilizzate una sola **[!UICONTROL Scheduler]**attività per ramo e ricordate di impostare un fuso orario. Questo consente di avviare il flusso di lavoro in un fuso orario specifico, altrimenti il flusso di lavoro verrà eseguito nel fuso orario definito nelle proprietà del flusso di lavoro (vedere[Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)).
+Durante la creazione del flusso di lavoro, utilizzate una sola **[!UICONTROL Scheduler]** attività per ramo e ricordate di impostare un fuso orario. Questo consente di avviare il flusso di lavoro in un fuso orario specifico, altrimenti il flusso di lavoro verrà eseguito nel fuso orario definito nelle proprietà del flusso di lavoro (vedere [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)).
 
 >[!CAUTION]
 >
->La durata **[!UICONTROL Repetition frequency]**dell&#39;attività non può essere inferiore a 10 minuti. Ciò significa che non è possibile eseguire automaticamente un flusso di lavoro più volte ogni 10 minuti.
+>La durata **[!UICONTROL Repetition frequency]** dell&#39;attività non può essere inferiore a 10 minuti. Ciò significa che non è possibile eseguire automaticamente un flusso di lavoro più volte ogni 10 minuti.
+
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Creazione di consegne sulla data di creazione dei profili](../../automating/using/workflow-creation-date-query.md)
+* [Caso di utilizzo: Creazione di una consegna tramite e-mail ogni martedì](../../automating/using/workflow-weekly-offer.md)
 
 ## Configurazione {#configuration}
 
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Scheduler]**attività nel flusso di lavoro.
+1. Trascinate e rilasciate un&#39; **[!UICONTROL Scheduler]** attività nel flusso di lavoro.
 1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
 1. Specificate **[!UICONTROL Execution frequency]**:
 
@@ -53,19 +61,19 @@ Durante la creazione del flusso di lavoro, utilizzate una sola **[!UICONTROL Sch
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Repetition frequency]**campo consente di posizionare gli spazi vuoti quando viene attivato il flusso di lavoro. Ad esempio, se selezionate un periodo di esecuzione giornaliero e la frequenza di ripetizione è impostata su** 2 **(giorni), il flusso di lavoro verrà attivato ogni due giorni. Non può essere inferiore a 10 minuti. Se la frequenza di ripetizione è impostata su** 0 **(anche il valore predefinito), questa opzione non viene presa in considerazione e il flusso di lavoro viene eseguito in base alla frequenza di esecuzione specificata.
+   >Il **[!UICONTROL Repetition frequency]** campo consente di posizionare gli spazi vuoti quando viene attivato il flusso di lavoro. Ad esempio, se selezionate un periodo di esecuzione giornaliero e la frequenza di ripetizione è impostata su **2** (giorni), il flusso di lavoro verrà attivato ogni due giorni. Non può essere inferiore a 10 minuti. Se la frequenza di ripetizione è impostata su **0** (anche il valore predefinito), questa opzione non viene presa in considerazione e il flusso di lavoro viene eseguito in base alla frequenza di esecuzione specificata.
 
 1. Specificate quando scade l&#39;esecuzione:
 
    * **[!UICONTROL Never]**: il flusso di lavoro verrà eseguito, in base alla frequenza specificata, senza alcun limite all&#39;intervallo di tempo o al numero di iterazioni.
-   * **[!UICONTROL After a certain number of iterations]**: il flusso di lavoro verrà eseguito in base alla frequenza specificata, fino al raggiungimento del limite di** X **. Occorre pertanto**[!UICONTROL Number of iterations]** precisare le misure.
+   * **[!UICONTROL After a certain number of iterations]**: il flusso di lavoro verrà eseguito in base alla frequenza specificata, fino al raggiungimento del limite di **X** . Occorre pertanto **[!UICONTROL Number of iterations]** precisare le misure.
    * **[!UICONTROL On a specific date]**: il flusso di lavoro verrà eseguito in base alla frequenza specificata, fino a una data specifica. Occorre pertanto precisare il termine per l&#39;esecuzione.
 
 1. Controlla la pianificazione delle dieci esecuzioni successive del flusso di lavoro facendo clic su **[!UICONTROL Preview next executions]**.
 
-1. Nella **[!UICONTROL Execution options]**scheda, impostare il fuso orario per il pianificatore nel**[!UICONTROL Time zone]** campo.
+1. Nella **[!UICONTROL Execution options]** scheda, impostare il fuso orario per il pianificatore nel **[!UICONTROL Time zone]** campo.
 
-   Per ulteriori informazioni sull&#39;invio della consegna in base al fuso orario del destinatario, consulta questa [sezione](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) o questo [esempio](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) di flusso di lavoro periodico.
+   Per ulteriori informazioni sull&#39;invio della consegna in base al fuso orario del destinatario, consulta questa [sezione](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) o questo [esempio](../../automating/using/recurring-push-notifications.md) di flusso di lavoro periodico.
 
 1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
 
