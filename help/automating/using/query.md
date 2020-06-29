@@ -1,6 +1,6 @@
 ---
 title: Query
-description: L'attività Query consente di filtrare ed estrarre una serie di elementi dal database Adobe Campaign.
+description: L'attività Query consente di filtrare ed estrarre una serie di elementi dal database del Adobe Campaign .
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '1725'
+ht-degree: 0%
 
 ---
 
@@ -24,16 +27,21 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 ![](assets/query.png)
 
-L&#39; **[!UICONTROL Query]** attività consente di filtrare ed estrarre una serie di elementi dal database di Adobe Campaign. È possibile definire **[!UICONTROL Additional data]** per la popolazione di destinazione tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso.
+L&#39; **[!UICONTROL Query]** attività consente di filtrare ed estrarre una serie di elementi dal database del Adobe Campaign . È possibile definire **[!UICONTROL Additional data]** per la popolazione di destinazione tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso.
 
 L&#39;attività utilizza lo strumento di editor di query. Questo strumento è dettagliato in una sezione [](../../automating/using/editing-queries.md#about-query-editor)dedicata.
+
+**Argomenti correlati:**
+
+* [Esempi di query](../../automating/using/query-samples.md)
+* [Caso di utilizzo: Flusso di lavoro di retargeting che invia una nuova consegna a non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Contesto di utilizzo {#context-of-use}
 
 L&#39; **[!UICONTROL Query]** attività può essere utilizzata per vari tipi di usi:
 
 * Segmentazione di singoli utenti per definire la destinazione di un messaggio, un pubblico ecc.
-* Arricchimento dei dati dell&#39;intera tabella di database di Adobe Campaign.
+* Arricchimento dei dati dell&#39;intera tabella di database  Adobe Campaign.
 * Esportazione dei dati.
 
 ## Configurazione {#configuration}
@@ -47,7 +55,7 @@ L&#39; **[!UICONTROL Query]** attività può essere utilizzata per vari tipi di 
    Per ulteriori informazioni, consulta [Impostazione del targeting di dimensioni e risorse](#targeting-dimensions-and-resources).
 
 1. Nella **[!UICONTROL Target]** scheda, eseguire la query definendo e combinando le regole.
-1. È possibile definire **[!UICONTROL Additional data]** per la popolazione di destinazione tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle del database di Adobe Campaign collegate alla dimensione di targeting della query. Consulta la sezione [Arricchimento dei dati](#enriching-data) .
+1. È possibile definire **[!UICONTROL Additional data]** per la popolazione di destinazione tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, è possibile aggiungere dati dalle tabelle del database del Adobe Campaign  collegate alla dimensione di targeting della query. Consulta la sezione [Arricchimento dei dati](#enriching-data) .
 
    >[!NOTE]
    >
@@ -63,9 +71,7 @@ L&#39; **[!UICONTROL Query]** attività può essere utilizzata per vari tipi di 
 
 Le dimensioni e le risorse di targeting consentono di definire gli elementi su cui verrà basata una query per determinare la destinazione di una consegna.
 
-Le dimensioni di targeting sono definite nelle mappature di destinazione. For more on this, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
-
-### Definizione della dimensione di targeting e della risorsa di una query {#defining-the-targeting-dimension-and-resource-of-a-query}
+Le dimensioni di targeting sono definite nelle mappature di destinazione. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../administration/using/target-mappings-in-campaign.md).
 
 La dimensione di targeting e le risorse vengono definite durante la creazione di un flusso di lavoro, nella **[!UICONTROL Properties]** scheda di un&#39;attività Query.
 
@@ -95,33 +101,9 @@ Esempio di filtri disponibili per la **[!UICONTROL Deliveries (delivery)]** riso
 
 ![](assets/targeting_dimension5.png)
 
-### Utilizzo di risorse diverse dalle dimensioni di targeting {#using-resources-different-from-targeting-dimensions}
+Per impostazione predefinita, la dimensione di targeting e la risorsa sono impostate per i profili di destinazione. Tuttavia, potrebbe essere utile utilizzare una risorsa diversa dalla dimensione di targeting se si desidera cercare un record specifico in una tabella lontana.
 
-Per impostazione predefinita, la dimensione di targeting e la risorsa sono impostate per i profili di destinazione.
-
-Tuttavia, potrebbe essere utile utilizzare una risorsa diversa dalla dimensione di targeting se si desidera cercare un record specifico in una tabella lontana.
-
-**Esempio 1: identificare i profili interessati dalla consegna con l&#39;etichetta &quot;Bentornato!&quot;**.
-
-* In questo caso, vogliamo eseguire il targeting dei profili. Imposteremo la dimensione di targeting su **[!UICONTROL Profiles (profile)]**.
-* Vogliamo filtrare i profili selezionati in base all&#39;etichetta di consegna. Pertanto, imposteremo la risorsa su **[!UICONTROL Delivery logs]**. In questo modo, filtriamo direttamente nella tabella del registro di consegna, che offrirà prestazioni migliori.
-
-![](assets/targeting_dimension6.png)
-
-![](assets/targeting_dimension7.png)
-
-**Esempio 2: identificare i profili che non erano interessati dalla consegna con l&#39;etichetta &quot;Bentornato!&quot;**
-
-Nell&#39;esempio precedente, abbiamo utilizzato una risorsa diversa dalla dimensione di targeting. Questa operazione è possibile solo se si desidera trovare un record **presente** nella tabella lontana (log di consegna nel nostro esempio).
-
-Se si desidera trovare un record che non **sia presente** nella tabella lontana (ad esempio, profili non mirati da una consegna specifica), è necessario utilizzare la stessa dimensione di risorsa e targeting, in quanto il record non sarà presente nella tabella lontana (log di consegna).
-
-* In questo caso, vogliamo eseguire il targeting dei profili. Imposteremo la dimensione di targeting su **[!UICONTROL Profiles (profile)]**.
-* Vogliamo filtrare i profili selezionati in base all&#39;etichetta di consegna. Non è possibile filtrare direttamente sui registri di consegna perché stiamo cercando un record non presente nella tabella dei registri di consegna. Pertanto, imposteremo la risorsa per **[!UICONTROL Profile (profile)]** e costruiremo la nostra query sulla tabella dei profili.
-
-![](assets/targeting_dimension8.png)
-
-![](assets/targeting_dimension9.png)
+Per ulteriori informazioni, consulta questo caso di utilizzo: [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Arricchimento dei dati {#enriching-data}
 
@@ -142,6 +124,8 @@ Dopo aver aggiunto eventuali dati aggiuntivi, puoi applicare un livello di filtr
 >[!NOTE]
 >
 >Per impostazione predefinita, l’ **[!UICONTROL Remove duplicate rows (DISTINCT)]** opzione è selezionata nella **[!UICONTROL Advanced options]** scheda della **[!UICONTROL Additional data]** query. Se l&#39; **[!UICONTROL Query]** attività contiene molti (da 100) dati aggiuntivi definiti, si consiglia di deselezionare questa opzione, per motivi di prestazioni. Attenzione: se si deseleziona questa opzione è possibile ottenere duplicati, a seconda dei dati interrogati.
+
+In [questa sezione](../../automating/using/personalizing-email-with-additional-data.md)viene illustrato un esempio di utilizzo per la personalizzazione di un’e-mail con dati aggiuntivi.
 
 ### Aggiunta di un campo semplice {#adding-a-simple-field}
 
@@ -246,135 +230,3 @@ A questo scopo, nella **[!UICONTROL Output filtering]** scheda, è sufficiente a
 ![](assets/enrichment_output_filtering2.png)
 
 ![](assets/enrichment_output_filtering.png)
-
-### Esempio: personalizzazione di un&#39;e-mail con dati aggiuntivi {#example--personalizing-an-email-with-additional-data}
-
-L’esempio seguente illustra l’aggiunta di diversi tipi di dati aggiuntivi a una query e il relativo utilizzo come campo di personalizzazione in un messaggio e-mail.
-
-In questo esempio vengono utilizzate risorse [](../../developing/using/data-model-concepts.md) personalizzate:
-
-* La risorsa del **profilo** è stata estesa per aggiungere un campo che consente di salvare i punti fedeltà di ciascun profilo.
-* È stata creata una risorsa di **transazioni** e identifica tutti gli acquisti effettuati dai profili nel database. La data, il prezzo e il prodotto acquistato vengono salvati per ogni transazione.
-* È stata creata una risorsa **prodotto** che fa riferimento ai prodotti disponibili per l&#39;acquisto.
-
-L&#39;obiettivo è quello di inviare un&#39;e-mail ai profili per i quali è stata salvata almeno una transazione. Tramite questa e-mail, i clienti riceveranno un promemoria dell&#39;ultima transazione effettuata e una panoramica di tutte le loro transazioni: il numero di prodotti acquistati, il totale speso, un promemoria del numero totale di punti fedeltà maturati.
-
-Il flusso di lavoro viene presentato come segue:
-
-![](assets/enrichment_example1.png)
-
-1. Aggiungete un&#39; **[!UICONTROL Query]** attività, che consente di eseguire il targeting dei profili che hanno eseguito almeno una transazione.
-
-   ![](assets/enrichment_example2.png)
-
-   Dalla **[!UICONTROL Additional data]** scheda della query, definire i diversi dati da visualizzare nell&#39;e-mail finale:
-
-   * Campo semplice della dimensione del **profilo** corrispondente ai punti fedeltà. Fare riferimento alla sezione [Aggiunta di un campo](#adding-a-simple-field) semplice.
-   * Due aggregati basati sulla raccolta delle transazioni: il numero di prodotti acquistati e l&#39;importo totale speso. È possibile aggiungerli dalla **[!UICONTROL Data]** scheda della finestra di configurazione dell&#39;aggregato utilizzando gli aggregati **Count** e **Sum** . Fare riferimento alla sezione [Aggiunta di un aggregato](#adding-an-aggregate) .
-   * Una raccolta che restituisce l&#39;importo speso, la data e il prodotto dell&#39;ultima operazione effettuata.
-
-      A questo scopo, è necessario aggiungere i diversi campi che si desidera visualizzare dalla **[!UICONTROL Data]** scheda della finestra di configurazione della raccolta.
-
-      Per restituire solo la transazione più recente, è necessario immettere &quot;1&quot; per l&#39;oggetto **[!UICONTROL Number of lines to return]** e applicare un ordinamento decrescente nel campo **Data** della raccolta dalla **[!UICONTROL Sort]** scheda.
-
-      Fare riferimento alle sezioni [Aggiunta di una raccolta](#adding-a-collection) e [Ordinamento di dati](#sorting-additional-data) aggiuntivi.
-   ![](assets/enrichment_example4.png)
-
-   Per verificare che i dati siano correttamente trasferiti dalla transizione in uscita dell&#39;attività, avviate il flusso di lavoro per la prima volta (senza l&#39; **[!UICONTROL Email delivery]** attività) e aprite la transizione in uscita della query.
-
-   ![](assets/enrichment_example5.png)
-
-1. Aggiungete un&#39; **[!UICONTROL Email delivery]** attività. Nel contenuto dell’e-mail, inserite i campi di personalizzazione corrispondenti ai dati calcolati nella query. Puoi trovarlo tramite il **[!UICONTROL Additional data (targetData)]** collegamento dell&#39;esploratore dei campi di personalizzazione.
-
-   ![](assets/enrichment_example3.png)
-
-Il flusso di lavoro è ora pronto per essere eseguito. I profili interessati dalla query riceveranno un&#39;e-mail personalizzata contenente i dati calcolati a partire dalle relative transazioni.
-
-## Esempi di query {#query-samples}
-
-### Targeting su attributi di profilo semplici {#targeting-on-simple-profile-attributes}
-
-L&#39;esempio seguente mostra un&#39;attività di query configurata per gli uomini tra i 18 e i 30 anni che vivono a Londra.
-
-![](assets/query_sample_1.png)
-
-### Targeting degli attributi e-mail {#targeting-on-email-attributes}
-
-L&#39;esempio seguente mostra un&#39;attività di query configurata per i profili di destinazione con il dominio dell&#39;indirizzo e-mail &quot;orange.co.uk&quot;.
-
-![](assets/query_sample_emaildomain.png)
-
-L&#39;esempio seguente mostra un&#39;attività di query configurata per i profili di destinazione il cui indirizzo e-mail è stato fornito.
-
-![](assets/query_sample_emailnotempty.png)
-
-### Profili di targeting il cui compleanno è oggi {#targeting-profiles-whose-birthday-is-today}
-
-L&#39;esempio seguente mostra un&#39;attività di query configurata per il targeting dei profili il cui compleanno è oggi.
-
-1. Trascinate il **[!UICONTROL Birthday]** filtro nella query.
-
-   ![](assets/query_sample_birthday.png)
-
-1. Impostare **[!UICONTROL Filter type]** su **[!UICONTROL Relative]** e selezionare **[!UICONTROL Today]**.
-
-   ![](assets/query_sample_birthday2.png)
-
-### Profili di destinazione che hanno aperto una consegna specifica {#targeting-profiles-who-opened-a-specific-delivery}
-
-L&#39;esempio seguente mostra un&#39;attività di query configurata per filtrare i profili che hanno aperto la consegna con l&#39;etichetta &quot;Ora legale&quot;.
-
-1. Trascinate il **[!UICONTROL Opened]** filtro nella query.
-
-   ![](assets/query_sample_opened.png)
-
-1. Selezionate la consegna e fate clic su **[!UICONTROL Confirm]**.
-
-   ![](assets/query_sample_opened2.png)
-
-### Targeting dei profili per i quali le consegne non sono riuscite per un motivo specifico {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
-
-L&#39;esempio seguente mostra un&#39;attività di query configurata per filtrare i profili per i quali le consegne non sono riuscite a causa della piena cassetta postale. Questa query è disponibile solo per gli utenti con diritti di amministrazione e appartenenti alle unità **[!UICONTROL All (all)]** organizzative (vedere [questa sezione](../../administration/using/organizational-units.md)).
-
-1. Selezionate la **[!UICONTROL Delivery logs]** risorsa per filtrare direttamente nella tabella del registro di distribuzione (consultate [Utilizzo di risorse diverse dalle dimensioni](#using-resources-different-from-targeting-dimensions)di targeting).
-
-   ![](assets/query_sample_failure1.png)
-
-1. Trascinate il **[!UICONTROL Nature of failure]** filtro nella query.
-
-   ![](assets/query_sample_failure2.png)
-
-1. Selezionare il tipo di errore che si desidera eseguire. Nel nostro caso **[!UICONTROL Mailbox full]**.
-
-   ![](assets/query_sample_failure3.png)
-
-### Profili di destinazione non contattati negli ultimi 7 giorni {#targeting-profiles-not-contacted-during-the-last-7-days}
-
-L&#39;esempio seguente mostra un&#39;attività di query configurata per filtrare i profili che non sono stati contattati negli ultimi 7 giorni.
-
-1. Trascinate il **[!UICONTROL Delivery logs (logs)]** filtro nella query.
-
-   ![](assets/query_sample_7days.png)
-
-   Selezionate **[!UICONTROL Does not exist]** nell’elenco a discesa, quindi trascinate il **[!UICONTROL Delivery]** filtro.
-
-   ![](assets/query_sample_7days1.png)
-
-1. Configura il filtro come indicato di seguito.
-
-   ![](assets/query_sample_7days2.png)
-
-### Profili di destinazione che hanno fatto clic su un collegamento specifico {#targeting-profiles-who-clicked-a-specific-link-}
-
-1. Trascinate il **[!UICONTROL Tracking logs (tracking)]** filtro nella query.
-
-   ![](assets/query_sample_trackinglogs.png)
-
-1. Trascinate il **[!UICONTROL Label (urlLabel)]** filtro.
-
-   ![](assets/query_sample_trackinglogs2.png)
-
-1. Nel **[!UICONTROL Value]** campo digitare l&#39;etichetta definita al momento dell&#39;inserimento del collegamento nella consegna, quindi confermare.
-
-   ![](assets/query_sample_trackinglogs3.png)
-
