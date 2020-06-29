@@ -13,10 +13,10 @@ context-tags: dedup,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 0%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +38,11 @@ Durante la deduplicazione, le transizioni in entrata vengono elaborate separatam
 Si consiglia pertanto che una deduplicazione abbia una sola transizione in entrata. A questo scopo, potete combinare le vostre diverse query utilizzando attività che corrispondono alle vostre esigenze di targeting, come un&#39;attività dell&#39;unione, un&#39;attività di intersezione, ecc. Ad esempio:
 
 ![](assets/dedup_bonnepratique.png)
+
+**Argomenti correlati**
+
+* [Caso di utilizzo: Identificazione di duplicati prima della consegna](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Caso di utilizzo: Deduplicazione dei dati da un file importato](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Configurazione {#configuration}
 
@@ -79,72 +84,3 @@ Per configurare un&#39;attività di deduplicazione, è necessario immettere un&#
 
 1. Se necessario, gestite le [Transizioni](../../automating/using/activity-properties.md) dell&#39;attività per accedere alle opzioni avanzate per la popolazione in uscita.
 1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
-
-## Esempio 1: Identificazione di duplicati prima della consegna {#example-1--identifying-duplicates-before-a-delivery}
-
-L&#39;esempio seguente illustra una deduplicazione che consente di escludere i duplicati di una destinazione prima di inviare un&#39;e-mail. Ciò significa che eviti di inviare una comunicazione più volte allo stesso profilo.
-
-Il flusso di lavoro è costituito da:
-
-![](assets/deduplication_example_workflow.png)
-
-* Una **[!UICONTROL Query]** che consente di definire la destinazione dell’e-mail. In questo caso, il flusso di lavoro si applica a tutti i profili di età compresa tra i 18 e i 25 anni presenti nel database client da oltre un anno.
-
-   ![](assets/deduplication_example_query.png)
-
-* Un&#39; **[!UICONTROL Deduplication]** attività, che consente di identificare i duplicati derivanti dalla query precedente. In questo esempio viene salvato un solo record per ogni duplicato. I duplicati vengono identificati utilizzando l&#39;indirizzo e-mail. Ciò significa che la consegna dell&#39;e-mail può essere inviata solo una volta per ogni indirizzo e-mail presente nel targeting.
-
-   Il metodo di deduplicazione selezionato è **[!UICONTROL Non-empty value]**. Questo consente di garantire che tra i record conservati in caso di duplicati, sia data priorità a quelli in cui è stato fornito il **Nome** . Questo renderà più coerente l’utilizzo del nome nei campi di personalizzazione del contenuto dell’e-mail.
-
-   Inoltre, viene aggiunta una transizione aggiuntiva per mantenere i duplicati e per poterli elencare.
-
-   ![](assets/deduplication_example_dedup.png)
-
-* Una posizione **[!UICONTROL Email delivery]** dopo la transizione in uscita principale della deduplicazione. La configurazione per le consegne tramite e-mail è dettagliata nella sezione relativa alla consegna [tramite](../../automating/using/email-delivery.md) e-mail.
-* Un&#39; **[!UICONTROL Save audience]** attività inserita dopo l&#39;ulteriore transizione della deduplicazione per salvare i duplicati in un&#39;audience **Duplica** . Questo pubblico può essere riutilizzato per escludere direttamente i suoi membri da ogni invio di e-mail.
-
-## Esempio 2: Deduplicazione dei dati da un file importato {#example-2--deduplicating-the-data-from-an-imported-file}
-
-Questo esempio mostra come deduplicare i dati da un file importato prima di caricare i dati nel database. Questa procedura migliora la qualità dei dati caricati nel database.
-
-Il flusso di lavoro è costituito da:
-
-![](assets/deduplication_example2_workflow.png)
-
-* Un file che contiene un elenco di profili viene importato utilizzando un&#39; **[!UICONTROL Load file]** attività. In questo esempio, il file importato è in formato .csv e contiene 10 profili:
-
-   ```
-   lastname;firstname;dateofbirth;email
-   Smith;Hayden;23/05/1989;hayden.smith@example.com
-   Mars;Daniel;17/11/1987;dannymars@example.com
-   Smith;Clara;08/02/1989;hayden.smith@example.com
-   Durance;Allison;15/12/1978;allison.durance@example.com
-   Lucassen;Jody;28/03/1988;jody.lucassen@example.com
-   Binder;Tom;19/01/1982;tombinder@example.com
-   Binder;Tommy;19/01/1915;tombinder@example.com
-   Connor;Jade;10/10/1979;connor.jade@example.com
-   Mack;Clarke;02/03/1985;clarke.mack@example.com
-   Ross;Timothy;04/07/1986;timross@example.com
-   ```
-
-   Questo file può essere utilizzato anche come file di esempio per rilevare e definire il formato delle colonne. Dalla **[!UICONTROL Column definition]** scheda, accertatevi che ogni colonna del file importato sia configurata correttamente.
-
-   ![](assets/deduplication_example2_fileloading.png)
-
-* Un&#39; **[!UICONTROL Deduplication]** attività. La deduplicazione viene eseguita direttamente dopo l&#39;importazione del file e prima di inserire i dati nel database. Dovrebbe pertanto basarsi sul **[!UICONTROL Temporary resource]** risultato dell&#39; **[!UICONTROL Load file]** attività.
-
-   Per questo esempio, desideriamo mantenere una voce singola per indirizzo e-mail univoco contenuto nel file. L’identificazione duplicata viene quindi eseguita nella colonna **e-mail** della risorsa temporanea. Tuttavia, due indirizzi e-mail vengono visualizzati due volte nel file. Due righe sono pertanto considerate duplicati.
-
-   ![](assets/deduplication_example2_dedup.png)
-
-* Un&#39; **[!UICONTROL Update data]** attività consente di inserire nel database i dati conservati dal processo di deduplicazione. È solo quando i dati vengono aggiornati che i dati importati vengono identificati come appartenenti alla dimensione del profilo.
-
-   A questo punto, vorremmo vedere **[!UICONTROL Insert only]** i profili che non esistono già nel database. A tal fine, utilizzeremo la colonna e-mail del file e il campo e-mail dalla dimensione **Profilo** come chiave di riconciliazione.
-
-   ![](assets/deduplication_example2_writer1.png)
-
-   Specificare i mapping tra le colonne del file da cui si desidera inserire i dati e i campi del database dalla **[!UICONTROL Fields to update]** scheda.
-
-   ![](assets/deduplication_example2_writer2.png)
-
-Quindi avviate il flusso di lavoro. I record salvati dal processo di deduplicazione vengono quindi aggiunti ai profili nel database.
