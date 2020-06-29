@@ -13,10 +13,10 @@ context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
@@ -36,6 +36,10 @@ Il modo in cui verranno estratti i dati viene definito al momento della configur
 >[!CAUTION]
 >
 >L&#39; **[!UICONTROL Extract file]** attività deve essere collocata dopo un&#39; **[!UICONTROL Query]** attività per essere utilizzata.
+
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Esportazione di profili in un file esterno](../../automating/using/exporting-profiles-in-file.md)
 
 ## Configurazione {#configuration}
 
@@ -77,47 +81,3 @@ Il modo in cui verranno estratti i dati viene definito al momento della configur
 
 1. Nella **[!UICONTROL Properties]** scheda, selezionate l&#39; **[!UICONTROL Do not generate a file if the inbound transition is empty]** opzione per evitare di creare e caricare file vuoti sui server SFTP se la transizione in entrata è vuota.
 1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
-
-## Esempio {#example}
-
-L&#39;esempio seguente illustra come configurare un&#39; **[!UICONTROL Extract file]** attività dopo un&#39; **[!UICONTROL Query]** attività.
-
-Scopo di questo flusso di lavoro è esportare un elenco di profili sotto forma di file esterno in modo che i dati possano essere utilizzati al di fuori  Adobe Campaign.
-
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Extract file]** attività nel flusso di lavoro e inseritela dopo l&#39; **[!UICONTROL Query]** attività.
-
-   In questo esempio, la query viene eseguita su tutti i profili di età compresa tra 18 e 30 anni.
-
-1. Aprite l&#39;attività del file Extract per modificarla.
-1. Denominate il file di output.
-1. Aggiungere colonne di output.
-
-   In questo esempio, l’e-mail, l’età, la data di nascita, il nome e il cognome dei profili vengono aggiunti come colonne di output.
-
-   ![](assets/wkf_data_export6.png)
-
-1. Fare clic sulla **[!UICONTROL File structure]** scheda per definire:
-
-   * Formato di output CSV
-
-      ![](assets/wkf_data_export7.png)
-
-   * Formato data
-
-      ![](assets/wkf_data_export9.png)
-
-1. Confermate l&#39;attività.
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Transfer file]** attività dopo l&#39; **[!UICONTROL Extract file]** attività per recuperare il file di estrazione su un account esterno.
-1. Aprite l&#39;attività e scegliete l&#39; **[!UICONTROL File upload]** azione.
-
-   ![](assets/wkf_data_export11.png)
-
-1. Selezionate l’account esterno e immettete il percorso della cartella sul server.
-
-   ![](assets/wkf_data_export12.png)
-
-1. Confermate l&#39;attività e salvate il flusso di lavoro.
-1. Avviate il flusso di lavoro.
-
-   Quando il flusso di lavoro è stato eseguito correttamente, il file estratto è disponibile sull&#39;account esterno.
-
