@@ -13,10 +13,10 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,12 @@ L&#39; **[!UICONTROL Update data]** attività consente di eseguire un aggiorname
 
 ## Contesto di utilizzo {#context-of-use}
 
-L&#39;attività **Aggiorna dati** può essere utilizzata dopo l&#39;importazione di un file per inserire i dati recuperati nel database di Adobe Campaign. Diverse opzioni consentono di personalizzare l&#39;aggiornamento dei dati.
+L&#39;attività **Aggiorna dati** può essere utilizzata dopo l&#39;importazione di un file per inserire i dati recuperati nel database del Adobe Campaign . Diverse opzioni consentono di personalizzare l&#39;aggiornamento dei dati.
+
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Aggiornamento dei dati in base a un file](../../automating/using/update-database-file.md)
+* [Aggiornamento dei dati in base a un download automatico del file](../../automating/using/update-data-automatic-download.md)
 
 ## Configurazione {#configuration}
 
@@ -71,29 +76,3 @@ L&#39;attività **Aggiorna dati** può essere utilizzata dopo l&#39;importazione
    Se avete selezionato **[!UICONTROL Insert only]** e i dati importati possono contenere record già presenti nel database, selezionate la **[!UICONTROL Generate an outbound transition for the rejects]** casella per evitare eventuali errori.
 
 1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
-
-## Esempio {#example}
-
-L&#39;attività seguente mostra la configurazione di un&#39; **[!UICONTROL Update data]** attività dopo un&#39; **[!UICONTROL Load file]** attività. Lo scopo di questo flusso di lavoro è quello di aggiungere o aggiornare profili al database di Adobe Campaign con i dati recuperati dal file. La chiave di riconciliazione utilizzata è l&#39;indirizzo e-mail.
-
-Il file caricato è un file in formato **.txt** contenente i dati di esempio seguenti:
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-L&#39; **[!UICONTROL Update data]** attività è configurata come segue:
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-
