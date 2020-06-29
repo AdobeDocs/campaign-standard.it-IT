@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,14 @@ Se collegato a un pianificatore, puoi definire e-mail ricorrenti.
 I destinatari e-mail sono definiti a monte dell&#39;attività nello stesso flusso di lavoro, tramite attività di targeting come query, intersezioni ecc.
 
 La preparazione dei messaggi viene attivata in base ai parametri di esecuzione del flusso di lavoro. Dal dashboard dei messaggi, puoi scegliere se richiedere o meno una conferma manuale per l&#39;invio del messaggio (richiesta per impostazione predefinita). È possibile avviare il flusso di lavoro manualmente o inserire un&#39;attività pianificatore nel flusso di lavoro per automatizzare l&#39;esecuzione.
+
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Creare una consegna di e-mail una volta alla settimana](../../automating/using/workflow-weekly-offer.md)
+* [Caso di utilizzo: Creazione di una consegna segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
+* [Caso di utilizzo: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
+* [Caso di utilizzo: Flusso di lavoro di retargeting che invia una nuova consegna a non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso di utilizzo: Consegna compleanno](../../automating/using/birthday-delivery.md)
 
 ## Configurazione {#configuration}
 
@@ -91,28 +99,3 @@ Tuttavia, per impostazione predefinita, le esecuzioni di consegne ricorrenti son
 Nelle consegne principali, a cui è possibile accedere dall&#39;elenco delle attività di marketing o direttamente tramite le esecuzioni ricorrenti associate, è possibile visualizzare il numero totale di invii che sono stati elaborati (in base al periodo di aggregazione specificato al momento della configurazione dell&#39; **[!UICONTROL Email delivery]** attività). A tal fine, aprire la visualizzazione dettagli del **[!UICONTROL Deployment]** blocco di consegna principale selezionando ![](assets/wkf_dlv_detail_button.png).
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Esempio {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-Questo esempio è un flusso di lavoro di compleanno. Ogni giorno un&#39;email viene inviata a un profilo il cui compleanno è in quel giorno. Per eseguire questa operazione:
-
-* Questo **[!UICONTROL Scheduler]** consente di avviare il flusso di lavoro ogni giorno alle 8 del mattino.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* L&#39; **[!UICONTROL Query]** attività consente di calcolare i profili che hanno fornito un&#39;e-mail e il cui compleanno è il giorno corrente, ogni volta che il flusso di lavoro viene eseguito. Il calcolo del compleanno viene eseguito utilizzando un filtro predefinito disponibile nella palette nello strumento di modifica delle query.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* Il **[!UICONTROL Email]** problema è ricorrente. Le mandate sono aggregate per mese. Pertanto, tutte le e-mail inviate in un mese vengono aggregate in una singola vista. In un anno, quindi, vengono eseguite 365 consegne, che vengono raggruppate in 12 viste (dette anche esecuzioni **** ricorrenti) nell&#39;interfaccia di Adobe Campaign. I dettagli della cronologia e del rapporto vengono visualizzati ogni mese e non per ogni invio.
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**Argomenti correlati**
-
-* [Caso di utilizzo: Creare una consegna di e-mail una volta alla settimana](../../automating/using/workflow-weekly-offer.md)
-* [Caso di utilizzo: Creazione di una consegna segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
-* [Caso di utilizzo: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Caso di utilizzo: Flusso di lavoro di retargeting che invia una nuova consegna a non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
