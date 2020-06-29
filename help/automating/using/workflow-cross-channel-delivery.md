@@ -1,6 +1,6 @@
 ---
-title: '"Workflow use-case: Distribuzione tra canali"'
-description: '"Workflow use-case: Distribuzione tra canali"'
+title: Distribuzione tra canali
+description: Questo caso di utilizzo mostra come creare una distribuzione tra canali
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,20 +13,23 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '862'
+ht-degree: 1%
 
 ---
 
 
-# Caso di utilizzo del flusso di lavoro: Creazione di una distribuzione tra canali{#cross-channel-delivery}
+# Creazione di recapito messaggi cross-channel{#cross-channel-delivery}
 
-Questo documento consente di scoprire le seguenti funzionalità di Adobe Campaign tramite un caso di utilizzo standard: creazione di un flusso di lavoro per la distribuzione tra canali.
+Questo documento consente di scoprire le seguenti funzionalità di  Adobe Campaign tramite un caso di utilizzo standard: creazione di un flusso di lavoro per la distribuzione tra canali.
 
 L&#39;obiettivo è selezionare un&#39;audience dai destinatari del database e segmentarla in due diversi gruppi allo scopo di inviare un&#39;e-mail al primo gruppo e un messaggio SMS al secondo gruppo.
 
 ![](assets/wkf_segment_overview.png)
 
-Per maggiori dettagli sui flussi di lavoro e sui diversi canali disponibili in Adobe Campaign, consulta i documenti seguenti:
+Per ulteriori dettagli sui flussi di lavoro e sui diversi canali disponibili in  Adobe Campaign, consulta i documenti seguenti:
 
 * [Esplorazione dei flussi di lavoro](../../automating/using/get-started-workflows.md)
 * [Esplorazione dei canali di comunicazione](../../channels/using/get-started-communication-channels.md)
@@ -51,7 +54,7 @@ Una volta creato il flusso di lavoro, potete accedere alla relativa interfaccia.
 
 Inserite un&#39;attività Query nel flusso di lavoro per eseguire il targeting dei profili che riceveranno le consegne.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un **[!UICONTROL Query activity]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascinate e rilasciate un&#39;attività [Query](../../automating/using/query.md) .
 1. Fate doppio clic sull&#39;attività.
 1. Nella **[!UICONTROL Target]** scheda, individuate le scelte rapide da tastiera e selezionate una delle [audience](../../audiences/using/about-audiences.md).
 1. Trascinate la scelta rapida nella zona di modifica. A seconda del tipo di scelta rapida selezionato, verrà visualizzata una finestra.
@@ -63,13 +66,11 @@ Inserite un&#39;attività Query nel flusso di lavoro per eseguire il targeting d
 
 Utilizzate il **[!UICONTROL Count]** pulsante per visualizzare una stima del numero di profili interessati dalla query.
 
-I passaggi dettagliati per creare un&#39;attività Query sono descritti nella sezione [Query](../../automating/using/query.md) .
-
 ## Creazione di un&#39;attività di segmentazione {#creating-segmentation-activity}
 
 Una volta identificato il target dall&#39;attività Query, è necessario selezionare un criterio per segmentare il target in due popolazioni diverse: uno riceverà un&#39;e-mail e l&#39;altro riceverà un SMS.
 
-È necessario utilizzare un&#39;attività di segmentazione per creare uno o più segmenti da una popolazione calcolata a monte in una query.
+È necessario utilizzare un&#39;attività di [segmentazione](../../automating/using/segmentation.md) per creare uno o più segmenti da una popolazione calcolata a monte in una query.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -114,19 +115,17 @@ Ora è configurata anche la seconda transizione.
 
 ![](assets/wkf_segment_transitions.png)
 
-I passaggi dettagliati per creare un&#39;attività di segmentazione sono descritti nella sezione [Segmentazione](../../automating/using/segmentation.md) .
-
 ## Creazione di consegne {#creating-deliveries}
 
-Poiché sono già state create due transizioni, è ora necessario aggiungere due tipi di consegne alle transizioni in uscita dell&#39;attività Segmentazione: un **[!UICONTROL Email delivery]** e un **[!UICONTROL SMS delivery]**.
+Poiché sono già state create due transizioni, è ora necessario aggiungere due tipi di consegne alle transizioni in uscita dell&#39;attività Segmentazione: un&#39;attività di consegna [e-](../../automating/using/email-delivery.md) mail e un&#39;attività di consegna [](../../automating/using/sms-delivery.md) SMS.
 
-Adobe Campaign consente di aggiungere consegne a un flusso di lavoro. A questo scopo, selezionate una consegna dalla **[!UICONTROL Channels]** categoria della palette Attività del flusso di lavoro.
+ Adobe Campaign consente di aggiungere consegne a un flusso di lavoro. A questo scopo, selezionate una consegna dalla **[!UICONTROL Channels]** categoria della palette Attività del flusso di lavoro.
 
 ![](assets/wkf_segment_deliveries1.png)
 
 Per creare una consegna tramite e-mail:
 
-1. Trascinate e rilasciate un segmento **[!UICONTROL Email delivery]** dopo il primo segmento.
+1. Trascinate e rilasciate un&#39;attività di consegna [e-](../../automating/using/email-delivery.md) mail dopo il primo segmento.
 1. Fate doppio clic sull&#39;attività per modificarla.
 1. Selezionare **[!UICONTROL Simple email]**.
 1. Selezionate **[!UICONTROL Add an outbound transition with the population]** e fate clic su **[!UICONTROL Next]**.
@@ -141,18 +140,14 @@ Per creare una consegna tramite e-mail:
 1. Modificate e salvate il contenuto.
 1. Nella **[!UICONTROL Schedule]** sezione del dashboard dei messaggi, deselezionate l&#39;opzione **[!UICONTROL Request Confirm before sent messages}** (Conferma richiesta CONTROL prima dell&#39;invio dei messaggi).
 
-I passaggi dettagliati per creare un&#39;attività e-mail sono descritti nella sezione relativa alla consegna [](../../automating/using/email-delivery.md) delle e-mail.
-
 Per creare un invio SMS:
 
-1. Trascinate e rilasciate un segmento **[!UICONTROL SMS delivery]** dopo l’altro.
+1. Trascina e rilascia un&#39;attività di consegna [](../../automating/using/sms-delivery.md) SMS dopo l&#39;altro segmento.
 1. Fate doppio clic sull&#39;attività per modificarla.
 1. Selezionate **[!UICONTROL SMS]** e fate clic su **[!UICONTROL Next]**.
 1. Selezionate un modello SMS e fate clic su **[!UICONTROL Next]**.
 1. Immettete le proprietà SMS e fate clic su **[!UICONTROL Next]**.
 1. Modificate e salvate il contenuto.
-
-I passaggi dettagliati per la creazione di un&#39;attività SMS sono descritti nella sezione relativa alla consegna [di](../../automating/using/sms-delivery.md) SMS.
 
 Una volta create e modificate le consegne, il flusso di lavoro è pronto per essere avviato.
 
@@ -160,8 +155,8 @@ Una volta create e modificate le consegne, il flusso di lavoro è pronto per ess
 
 ## Esecuzione del flusso di lavoro {#running-the-workflow}
 
-Una volta avviato il flusso di lavoro, la popolazione di destinazione dell&#39;attività Query sarà segmentata per ricevere una consegna tramite e-mail o SMS.
+Dopo l&#39;avvio del flusso di lavoro, la popolazione di destinazione dell&#39; **[!UICONTROL Query]** attività verrà segmentata per ricevere un&#39;e-mail o un SMS.
 
 Per eseguire il flusso di lavoro, fate clic sul **[!UICONTROL Start]** pulsante nella barra delle azioni.
 
-Puoi accedere alle tue consegne dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** Avanzate tramite il logo Adobe Campaign. Fate clic sul **[!UICONTROL Reports]** pulsante consegna e quindi sul pulsante per accedere ai rapporti [di](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)consegna, ad esempio il riepilogo della consegna, il tasso di apertura o il rendering dell&#39;e-mail in base alla inbox del messaggio dei destinatari.
+Potete accedere alle vostre consegne dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** avanzato tramite il logo del Adobe Campaign . Fate clic sul **[!UICONTROL Reports]** pulsante consegna e quindi sul pulsante per accedere ai rapporti [di](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)consegna, ad esempio il riepilogo della consegna, il tasso di apertura o il rendering dell&#39;e-mail in base alla inbox del messaggio dei destinatari.
