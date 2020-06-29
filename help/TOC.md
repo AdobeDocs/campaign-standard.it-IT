@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 92%
+source-wordcount: '1524'
+ht-degree: 84%
 
 ---
 
@@ -105,7 +105,6 @@ ht-degree: 92%
       + [Creazione della direct mail](channels/using/creating-the-direct-mail.md)
       + [Definizione del pubblico della direct mail](channels/using/defining-the-direct-mail-audience.md)
       + [Definizione del contenuto della direct mail](channels/using/defining-the-direct-mail-content.md)
-      + [Esempio di direct mail in un flusso di lavoro](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Messaggi transazionali {#transactional-messaging}
       + [Informazioni sui messaggi transazionali](channels/using/about-transactional-messaging.md)
       + [Messaggi sulle transazioni degli eventi](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 92%
       + [Gestione dei pacchetti](automating/using/managing-packages.md)
       + [Esportazione di elenchi](automating/using/exporting-lists.md)
       + [Caso di utilizzo: esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
-   + Casi di utilizzo: flussi di lavoro {#workflow-use-case}
-      + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
-      + [Creazione di consegne nella data di creazione](automating/using/workflow-creation-date-query.md)
-      + [Creazione di una consegna settimanale](automating/using/workflow-weekly-offer.md)
-      + [Creazione di una segmentazione sulla posizione](automating/using/workflow-segmentation-location.md)
-      + [Retargeting di non-openers](automating/using/workflow-cross-channel-retargeting.md)
-      + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
-      + [Creazione di recapito messaggi cross-channel](automating/using/workflow-cross-channel-delivery.md)
+   + Casi d’uso {#workflow-use-case}
+      + Consegne {#deliveries}
+         + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
+         + [Creazione di consegne sulla data di creazione dei profili](automating/using/workflow-creation-date-query.md)
+         + [Creazione di una consegna settimanale](automating/using/workflow-weekly-offer.md)
+         + [Creazione di recapito messaggi cross-channel](automating/using/workflow-cross-channel-delivery.md)
+         + [Identificazione di duplicati prima della consegna](automating/using/identifying-duplicated-before-delivery.md)
+         + [Consegna compleanno](automating/using/birthday-delivery.md)
+         + [Accoppiamento delle consegne e-mail e della posta diretta](automating/using/coupling-email-direct-mail.md)
+         + [Invio di un’e-mail con campi arricchiti](automating/using/sending-email-enriched-fields.md)
+         + [Personalizzazione di un’e-mail con dati aggiuntivi](automating/using/personalizing-email-with-additional-data.md)
+      + Segmentazione e targeting {#segmentation-targeting}
+         + [Esempi di query](automating/using/query-samples.md)
+         + [Unione su due tipi di pubblico raffinati](automating/using/union-on-two-refined-audiences.md)
+         + [Creazione di una segmentazione sulla posizione](automating/using/workflow-segmentation-location.md)
+         + [Retargeting di non-openers](automating/using/workflow-cross-channel-retargeting.md)
+         + [Query incrementale sugli abbonati a un servizio](automating/using/incremental-query-on-subscribers.md)
+         + [Segmentazione in base ai gruppi di età](automating/using/segmentation-age-groups.md)
+         + [Utilizzo di risorse diverse dalle dimensioni di targeting](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
+      + Gestione dei dati {#data-management}
+         + [Riconciliare un pubblico di file con il database](automating/using/reconcile-file-audience-with-database.md)
+         + [Deduplicazione dei dati da un file importato](automating/using/deduplicating-data-imported-file.md)
+         + [Arricchimento dei dati del profilo con i dati contenuti in un file](automating/using/enriching-profile-data-file.md)
+         + [Attività esterna e importazione dei dati](automating/using/external-signal-data-import.md)
+         + [Aggiornamento del database con dati esterni](automating/using/update-database-file.md)
+         + [Aggiornamento dei dati in base a un download automatico del file](automating/using/update-data-automatic-download.md)
+         + [Riconciliazione dei dati mediante le relazioni](automating/using/reconciliation-using-relations.md)
+         + [Aggiornamento dei dati tramite riconciliazione](automating/using/data-update-reconciliation.md)
+         + [Esportazione di profili in un file esterno](automating/using/exporting-profiles-in-file.md)
+         + [Aggiornamento di più stati di iscrizione da un file](automating/using/updating-subscriptions-from-file.md)
+         + [Iscrizione di profili da un file a un servizio specifico](automating/using/subscribing-profiles-from-file.md)
    + Utilizzo dei tipi di pubblico di Adobe Experience Platform {#working-with-aep-audiences}
       + [Targeting dei tipi di pubblico di Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
