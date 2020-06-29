@@ -13,7 +13,10 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/recurrentpaper.png)
 
-L&#39; **[!UICONTROL Direct mail delivery]**attività consente di configurare e preparare un file contenente i dati del profilo che si desidera utilizzare per una campagna di posta diretta. Può trattarsi di una posta diretta utilizzata una sola volta, o di una posta diretta** ricorrente **.
+L&#39; **[!UICONTROL Direct mail delivery]** attività consente di configurare e preparare un file contenente i dati del profilo che si desidera utilizzare per una campagna di posta diretta. Può trattarsi di una posta diretta utilizzata una sola volta, o di una posta diretta **ricorrente** .
 
 Le e-mail dirette standard vengono inviate una volta.
 
@@ -34,7 +37,7 @@ Le e-mail ricorrenti consentono di inviare la stessa posta diretta più volte a 
 
 ## Contesto di utilizzo {#context-of-use}
 
-L&#39; **[!UICONTROL Direct mail delivery]**attività viene in genere utilizzata per automatizzare la preparazione di un file che contiene dati di profilo. Questo file può essere inviato a un partner/fornitore incaricato della spedizione.
+L&#39; **[!UICONTROL Direct mail delivery]** attività viene in genere utilizzata per automatizzare la preparazione di un file che contiene dati di profilo. Questo file può essere inviato a un partner/fornitore incaricato della spedizione.
 
 Se collegato a un pianificatore, potete definire e-mail dirette ricorrenti.
 
@@ -42,9 +45,14 @@ I destinatari della posta diretta sono definiti a monte dell&#39;attività nello
 
 La preparazione dei messaggi viene attivata in base ai parametri di esecuzione del flusso di lavoro. Dal dashboard dei messaggi, puoi scegliere se richiedere o meno una conferma manuale per l&#39;invio del messaggio (richiesta per impostazione predefinita). È possibile avviare il flusso di lavoro manualmente o inserire un&#39;attività pianificatore nel flusso di lavoro per automatizzare l&#39;esecuzione.
 
+**Argomenti correlati:**
+
+* [Caso di utilizzo: Accoppiamento delle consegne e-mail e della posta diretta](../../automating/using/coupling-email-direct-mail.md)
+* [Informazioni sulla direct mail](../../channels/using/about-direct-mail.md)
+
 ## Configurazione {#configuration}
 
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Direct mail delivery]**attività nel flusso di lavoro.
+1. Trascinate e rilasciate un&#39; **[!UICONTROL Direct mail delivery]** attività nel flusso di lavoro.
 1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
 
    >[!NOTE]
@@ -54,7 +62,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 1. Selezionate la modalità di invio della posta diretta:
 
    * **[!UICONTROL Direct mail]**: la posta diretta viene inviata una sola volta. Potete specificare qui se desiderate aggiungere o meno una transizione in uscita all&#39;attività. I diversi tipi di transizione sono descritti nel passaggio 7 di questa procedura.
-   * **[!UICONTROL Recurring direct mail]**: la posta diretta viene inviata più volte, in base alla frequenza definita in un&#39;**[!UICONTROL Scheduler]** attività. Selezionare il periodo di aggregazione delle mandate. Questo consente di raggruppare tutte le invii che si verificano durante il periodo definito in un&#39;unica posta diretta denominata anche esecuzione **** ricorrente e a cui è possibile accedere dall&#39;elenco delle attività di marketing dell&#39;applicazione.
+   * **[!UICONTROL Recurring direct mail]**: la posta diretta viene inviata più volte, in base alla frequenza definita in un&#39; **[!UICONTROL Scheduler]** attività. Selezionare il periodo di aggregazione delle mandate. Questo consente di raggruppare tutte le invii che si verificano durante il periodo definito in un&#39;unica posta diretta denominata anche esecuzione **** ricorrente e a cui è possibile accedere dall&#39;elenco delle attività di marketing dell&#39;applicazione.
 
       Ad esempio, per un messaggio di compleanno periodico, elaborato ogni giorno, potete scegliere di aggregare le invii al mese. Questo consente di ricevere rapporti sulla consegna mensile anche se la posta viene elaborata ogni giorno.
 
@@ -62,19 +70,19 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
       >
       >Per le e-mail dirette ricorrenti, viene generato un nuovo file a ogni esecuzione del flusso di lavoro. Il periodo di aggregazione selezionato non ha alcun impatto su questo comportamento.
 
-1. Selezionare un tipo di posta diretta. I tipi di posta diretta sono ricavati dai modelli definiti nel menu **[!UICONTROL Resources]**>**[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Selezionare un tipo di posta diretta. I tipi di posta diretta sono ricavati dai modelli definiti nel menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
 1. Immettere le proprietà generali per la posta diretta. Potete anche allegarlo a una campagna esistente. L&#39;etichetta dell&#39;attività di consegna del flusso di lavoro viene aggiornata con l&#39;etichetta di posta diretta.
 1. Definire il contenuto della posta diretta. Consultate la sezione sulla modifica dei [contenuti](../../designing/using/personalization.md).
-1. Per impostazione predefinita, l&#39; **[!UICONTROL Direct mail delivery]**attività non include transizioni in uscita. Se desiderate aggiungere una transizione in uscita all&#39;**[!UICONTROL Direct mail delivery]** attività, andate alla **[!UICONTROL General]**scheda delle opzioni di attività avanzate (![](assets/dlv_activity_params-24px.png)pulsante nelle azioni rapide dell&#39;attività), quindi selezionate una delle seguenti opzioni:
+1. Per impostazione predefinita, l&#39; **[!UICONTROL Direct mail delivery]** attività non include transizioni in uscita. Se desiderate aggiungere una transizione in uscita all&#39; **[!UICONTROL Direct mail delivery]** attività, andate alla **[!UICONTROL General]** scheda delle opzioni di attività avanzate ( ![](assets/dlv_activity_params-24px.png) pulsante nelle azioni rapide dell&#39;attività), quindi selezionate una delle seguenti opzioni:
 
    * **[!UICONTROL Add outbound transition without the population]**: questo consente di generare una transizione in uscita che contiene esattamente la stessa popolazione della transizione in entrata. Questa transizione contiene il file generato dall&#39;attività di posta diretta e dalla popolazione non elaborata ricevuta dall&#39;attività di posta diretta.
    * **[!UICONTROL Add outbound transition with the population]**: questo consente di generare una transizione in uscita contenente la popolazione a cui verrà inviata la posta diretta. I membri della destinazione esclusi durante la preparazione diretta per posta (quarantena, indirizzo non valido, ecc.) sono escluse da questa transizione. La transizione contiene anche il file generato dalla posta diretta.
 
 1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
 
-Quando riaprite l&#39;attività, viene portata direttamente al dashboard della posta diretta. È possibile modificare solo il contenuto.
+Quando riaprite l&#39;attività, viene portata direttamente al dashboard della posta diretta. È possibile modificarne solo il contenuto.
 
-Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva solo la preparazione dei messaggi. L&#39;invio di messaggi creati da un flusso di lavoro deve ancora essere confermato dopo l&#39;avvio del flusso di lavoro. Tuttavia, dal dashboard dei messaggi e solo se il messaggio è stato creato da un flusso di lavoro, potete disattivare l&#39; **[!UICONTROL Request confirmation before sending messages]**opzione. Deselezionando questa opzione, i messaggi vengono inviati senza ulteriore preavviso una volta completata la preparazione.
+Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiva solo la preparazione dei messaggi. L&#39;invio di messaggi creati da un flusso di lavoro deve ancora essere confermato dopo l&#39;avvio del flusso di lavoro. Tuttavia, dal dashboard dei messaggi e solo se il messaggio è stato creato da un flusso di lavoro, potete disattivare l&#39; **[!UICONTROL Request confirmation before sending messages]** opzione. Deselezionando questa opzione, i messaggi vengono inviati senza ulteriore preavviso una volta completata la preparazione.
 
 ## Osservazioni {#remarks}
 
@@ -82,14 +90,10 @@ Le consegne create all&#39;interno di un flusso di lavoro sono accessibili nell&
 
 ![](assets/wkf_display_parent_elements_direct_mail.png)
 
-Per impostazione predefinita, le esecuzioni di consegne ricorrenti sono mascherate. Per visualizzarli, seleziona l&#39; **[!UICONTROL Show recurring executions]**opzione nel pannello di ricerca delle attività di marketing.
+Per impostazione predefinita, le esecuzioni di consegne ricorrenti sono mascherate. Per visualizzarli, seleziona l&#39; **[!UICONTROL Show recurring executions]** opzione nel pannello di ricerca delle attività di marketing.
 
 ![](assets/wkf_display_recurrent_executions_direct_mail.png)
 
-Nelle consegne principali, a cui è possibile accedere dall&#39;elenco delle attività di marketing o direttamente tramite le esecuzioni ricorrenti associate, è possibile visualizzare il numero totale di messaggi di posta elettronica che sono stati elaborati (in base al periodo di aggregazione specificato al momento della configurazione dell&#39; **[!UICONTROL Direct mail delivery]**attività). A tal fine, aprire la visualizzazione dettagli del**[!UICONTROL Deployment]** blocco di consegna principale selezionando il ![](assets/wkf_dlv_detail_button.png) pulsante.
+Nelle consegne principali, a cui è possibile accedere dall&#39;elenco delle attività di marketing o direttamente tramite le esecuzioni ricorrenti associate, è possibile visualizzare il numero totale di messaggi di posta elettronica che sono stati elaborati (in base al periodo di aggregazione specificato al momento della configurazione dell&#39; **[!UICONTROL Direct mail delivery]** attività). A tal fine, aprire la visualizzazione dettagli del **[!UICONTROL Deployment]** blocco di consegna principale selezionando il ![](assets/wkf_dlv_detail_button.png) pulsante.
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
-
-## Esempio {#example}
-
-Un esempio **[!UICONTROL Direct mail delivery]**è disponibile nel capitolo[Posta](../../channels/using/example-of-direct-mail-in-a-workflow.md)diretta.
