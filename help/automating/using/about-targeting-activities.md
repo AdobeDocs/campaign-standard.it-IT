@@ -12,10 +12,10 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '434'
+ht-degree: 6%
 
 ---
 
@@ -41,19 +41,19 @@ La **[!UICONTROL Targeting]** sezione include le seguenti attività:
 * [Deduplicazione](../../automating/using/deduplication.md)
 * [Arricchimento](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** attività consente di definire i codici **dei** segmenti per le transizioni in uscita. Potete quindi creare rapporti basati su questi codici di segmento per misurare l&#39;efficienza delle campagne di marketing. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Targeting]** attività consente di definire i codici **dei** segmenti per le transizioni in uscita. Potete quindi creare rapporti basati su questi codici di segmento per misurare l&#39;efficienza delle campagne di marketing. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Selezione dei dati {#selecting-data}
 
 È possibile selezionare i dati utilizzando le attività seguenti:
 
-* L&#39; **[!UICONTROL Query]** attività consente di filtrare ed estrarre una serie di elementi dal database di Adobe Campaign. Vedere la sezione [Query](../../automating/using/query.md) .
-* L&#39; **[!UICONTROL Incremental query]** attività consente di filtrare ed estrarre una serie di elementi dal database di Adobe Campaign. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Questo consente di eseguire il targeting solo dei nuovi elementi Vedere il pannello. [Sezione query](../../automating/using/incremental-query.md) incrementale.
+* L&#39; **[!UICONTROL Query]** attività consente di filtrare ed estrarre una serie di elementi dal database del Adobe Campaign . Vedere la sezione [Query](../../automating/using/query.md) .
+* L&#39; **[!UICONTROL Incremental query]** attività consente di filtrare ed estrarre una serie di elementi dal database del Adobe Campaign . Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Questo consente di eseguire il targeting solo dei nuovi elementi Vedere il pannello. [Sezione query](../../automating/using/incremental-query.md) incrementale.
 * L&#39; **[!UICONTROL Read audience]** attività consente di recuperare un&#39;audience esistente e di perfezionarla applicando condizioni di filtraggio aggiuntive.Vedere la sezione [Leggi pubblico](../../automating/using/read-audience.md) .
 
 ## Segmentazione dei dati {#segmenting-data}
 
-Adobe Campaign consente di elaborare i set di dati in entrata. È quindi possibile combinare più popolazioni, escluderne una parte o mantenere solo dati comuni a più target.
+ Adobe Campaign consente di elaborare i set su dati in entrata. È quindi possibile combinare più popolazioni, escluderne una parte o mantenere solo dati comuni a più target.
 
 * L&#39; **[!UICONTROL Union]** attività consente di raggruppare il risultato di più attività in un unico target. Vedere la sezione [Unione](../../automating/using/union.md) .
 * L&#39; **[!UICONTROL Intersection]** attività consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell&#39;attività. Vedere la sezione [Intersezione](../../automating/using/intersection.md) .
@@ -70,9 +70,6 @@ La **[!UICONTROL Additional data]** scheda delle attività **[!UICONTROL Query]*
 * Aggregati
 * Raccolte
 
-**Argomenti correlati**
+**Argomenti correlati:**
 
-* [Caso di utilizzo: Creare una consegna di e-mail una volta alla settimana](../../automating/using/workflow-weekly-offer.md)
-* [Caso di utilizzo: Creazione di una consegna segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
-* [Caso di utilizzo: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
-* [Caso di utilizzo: Flusso di lavoro di retargeting che invia una nuova consegna a non-openers](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Caso di utilizzo: Personalizzazione di un’e-mail con dati aggiuntivi](../../automating/using/personalizing-email-with-additional-data.md)
