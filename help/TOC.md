@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 84%
+source-wordcount: '1528'
+ht-degree: 83%
 
 ---
 
@@ -305,6 +305,7 @@ ht-degree: 84%
       + [Esportazione di elenchi](automating/using/exporting-lists.md)
       + [Caso di utilizzo: esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
    + Casi d’uso {#workflow-use-case}
+      + [I casi di utilizzo dei flussi di lavoro](automating/using/about-workflow-use-cases.md)
       + Consegne {#deliveries}
          + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
          + [Creazione di consegne sulla data di creazione dei profili](automating/using/workflow-creation-date-query.md)
