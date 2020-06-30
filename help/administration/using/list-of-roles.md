@@ -13,9 +13,9 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '203'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ Insieme alle unità organizzative, i ruoli forniscono agli utenti una visualizza
 
 Per ulteriori informazioni, consultare la tabella [](/help/administration/using/assets/acs_rights.pdf)Ruoli e autorizzazioni, che descrive le funzioni disponibili nell&#39;interfaccia a seconda delle autorizzazioni selezionate.
 
-[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![immagine](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 I ruoli possono essere gestiti dal **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
