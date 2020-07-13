@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5969'
 ht-degree: 9%
 
 ---
@@ -24,13 +24,17 @@ ht-degree: 9%
 
 Oltre  Note sulla [versione del Adobe Campaign](../../rn/using/release-notes.md), questa pagina elenca tutti i nuovi aggiornamenti presenti nella documentazione  Adobe Campaign Standard.
 
+## Aggiornamenti della documentazione - Luglio 2020 {#doc-updates-july-2020}
+
+Nuove funzionalità di e-mail basate su intelligenza artificiale: ottimizzazione del tempo di invio e punteggio del profilo [Per saperne di più](../../sending/using/predictive.md)
+
 ## Aggiornamenti della documentazione - Giugno 2020 {#doc-updates-june-2020}
 
 I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in sezioni tematiche. [Leggi tutto](../../automating/using/about-workflow-use-cases.md)
 
 Sono stati aggiunti casi di utilizzo per [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) i dati tramite il Pannello di controllo e i flussi di lavoro Campagna.
 
-Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. Alcune occorrenze di questi termini potrebbero ancora esistere nell&#39;interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma verranno sostituiti nelle prossime release di Campaign con ‘blocklist’ e ‘Allowlist’.
+Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. Alcune occorrenze di questi termini possono ancora esistere nell&#39;interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma saranno sostituite nelle prossime release di Campaign con &quot; inserii nell&#39;elenco Bloccati&quot; e &quot; inserire nell&#39;elenco Consentiti&quot;.
 
 I riferimenti al sito Web Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -568,7 +572,7 @@ Sono state aggiunte informazioni sul tracciamento dei tipi di registro. [Leggi t
 
 La sezione attività query è stata aggiornata con esempi di query. [Leggi tutto](../../automating/using/query.md#query-samples)
 
-La sezione dedicata agli elenchi di blocchi è stata rinominata &quot;Comprendere i processi di opt-in e opt-out&quot;. È stato aggiornato con informazioni su come gestire il consenso a canali specifici e come impostare pagine di destinazione per gestire il consenso e il rifiuto. [Leggi tutto](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La sezione dedicata ai  elenchi Bloccati è stata rinominata &quot;Comprendere i processi di opt-in e opt-out&quot;. È stato aggiornato con informazioni su come gestire il consenso a canali specifici e come impostare pagine di destinazione per gestire il consenso e il rifiuto. [Leggi tutto](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Scoprite le procedure ottimali per l&#39;utilizzo dei server SFTP ospitati da Adobe. [Leggi tutto](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -592,7 +596,7 @@ Utilizzo delle risorse personalizzate nei messaggi transazionali - [Per saperne 
 
 Le funzionalità dei gruppi API GDPR consentono l&#39;elaborazione automatica delle richieste GDPR. [Leggi tutto](../../api/using/creating-a-privacy-request.md)
 
-Sono state aggiunte informazioni su come impostare le pagine di destinazione per consentire ai destinatari di aggiungere all’elenco dei blocchi. [Leggi tutto](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Sono state aggiunte informazioni su come impostare le pagine di destinazione per consentire ai destinatari di essere aggiunti al elenco Bloccati . [Leggi tutto](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 La sezione [Configurazione dei messaggi](../../administration/using/configuring-transactional-messaging.md) transazionali è stata riorganizzata ed è stato aggiunto un caso [d&#39;uso](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) dettagliato.
 
@@ -646,7 +650,7 @@ Sono state aggiunte informazioni su come inviare una consegna in base ai fusi or
 
 Riorganizzazione della **[!UICONTROL Customizing a push notification]** sezione con casi di utilizzo dettagliati. [Leggi tutto](../../channels/using/customizing-a-push-notification.md)
 
-Nuova sezione dedicata alla gestione degli elenchi di blocchi. [Leggi tutto](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nuova sezione dedicata alla gestione  elenco Bloccati. [Leggi tutto](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Sono state aggiornate informazioni su errori di consegna e quarantena. [Leggi tutto](../../sending/using/monitoring-a-delivery.md)
 
@@ -870,7 +874,7 @@ Attiva integrazione: sono stati aggiunti due casi di utilizzo. [Leggi tutto](../
 
 Abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice per migliorare l&#39;esperienza utente. [Leggi tutto](../../api/using/get-started-apis.md)
 
-Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro per segnali [](../../automating/using/external-signal.md) esterni.
+Scopri alcuni esempi delle nuove attività [Leggi pubblico](../../automating/using/read-audience.md) e del flusso di lavoro del segnale [](../../automating/using/external-signal.md) esterno.
 
 ## Rilascio 17.1 - gennaio 2017 {#release-17-1---january-2017}
 
