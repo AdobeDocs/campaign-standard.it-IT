@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 83%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 83%
       + [Invio di prove](sending/using/sending-proofs.md)
       + [Verifica dei messaggi e-mail tramite profili di destinazione](sending/using/testing-messages-using-target.md)
       + [Verifica dell’oggetto di un messaggio e-mail](sending/using/testing-subject-line-email.md)
+      + [E-mail basate su AI](sending/using/predictive.md)
       + [Rendering di e-mail](sending/using/email-rendering.md)
       + [Utilizzo delle “trappole”](sending/using/using-traps.md)
    + Pianificazione dei messaggi {#scheduling-messages}
