@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **Il nuovo Pannello di controllo potrebbe rilasciare** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)informazioni.
+**Funzionalità** aggiuntive (a partire dal 13 luglio)
+
+* **Ottimizzazione dei tempi di invio e valutazione** del profilo con tecnologia AI: ora puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ogni individuo. Basato su Journey AI,  Adobe Campaign può analizzare e prevedere le tariffe aperte, i tempi di invio ottimali e il probabile churn in base alle metriche di coinvolgimento storiche. [Ulteriori informazioni](../../sending/using/predictive.md)
+* **Brasile: la nuova normativa sulla** privacy - Oltre alle funzionalità per la privacy già disponibili in Campaign, Adobe aiuta a facilitare la tua disponibilità per la società brasiliana Lei Geral de Proteçao de Datos (LGPD). Durante la creazione di una richiesta per la privacy, il regolamento LGPD è stato aggiunto al servizio di base per la privacy di Adobe. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **Miglioramenti**
 
@@ -123,3 +126,6 @@ ht-degree: 0%
 * È stato risolto un problema che causava discrepanze di dati quando si utilizzava la personalizzazione nelle e-mail transazionali. (CAMP-41842)
 * Sono stati risolti i problemi che si verificavano durante l&#39;eliminazione di campi personalizzati nelle consegne di notifiche push. (CAMP-37586)
 * È stato corretto un errore che impediva agli utenti di apportare modifiche ai rapporti. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **Il nuovo Pannello di controllo potrebbe rilasciare** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)informazioni.
