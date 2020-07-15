@@ -13,14 +13,17 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
+source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
 
 # Personalizzazione di un messaggio in-app{#customizing-an-in-app-message}
 
-Per ottimizzare il messaggio in-app, Adobe Campaign consente di accedere a una serie di opzioni avanzate durante la progettazione di un&#39;app.
+Per ottimizzare il messaggio in-app,  Adobe Campaign consente di accedere a una serie di opzioni avanzate durante la progettazione di un&#39;app.
 
 L&#39;editor del contenuto in-app consente di scegliere tra due modalità di messaggio in-app:
 
@@ -37,7 +40,7 @@ L&#39;editor del contenuto in-app consente di scegliere tra due modalità di mes
 
 * [Invio del messaggio in-app](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Generazione di rapporti in-app](../../reporting/using/in-app-report.md)
-* [Implementazione del tracciamento delle notifiche locali](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [Implementazione del tracciamento delle notifiche locali](../../administration/using/local-tracking.md)
 
 ## Personalizzazione con un modello di messaggio {#customizing-with-a-message-template}
 
@@ -143,7 +146,7 @@ Puoi aggiungere fino a due pulsanti al messaggio in-app.
 ## Personalizzazione di un tipo di messaggio di notifica locale {#customizing-a-local-notification-message-type}
 
 Le notifiche locali possono essere attivate solo da un&#39;app in un momento particolare e in base a un evento. Avviseranno gli utenti che qualcosa sta accadendo nella loro app anche senza avere accesso a Internet.
-Per informazioni su come tenere traccia delle notifiche locali, consultate questa [pagina](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
+Per informazioni su come tenere traccia delle notifiche locali, consultate questa [pagina](../../administration/using/local-tracking.md).
 
 Per personalizzare una notifica locale:
 
@@ -184,7 +187,7 @@ Il file deve avere un layout specifico che può essere trovato facendo clic sull
 
 ![](assets/inapp_customize_16.png)
 
-Puoi anche trovare un elenco di requisiti HTML personalizzati per un&#39;importazione corretta in Adobe Campaign.
+Potete inoltre trovare un elenco di requisiti HTML personalizzati per un&#39;importazione corretta in  Adobe Campaign.
 
 ![](assets/inapp_customize_3.png)
 
@@ -194,7 +197,7 @@ Una volta importato il codice HTML, nella finestra di anteprima potete trovare u
 
 Prima di inviare il messaggio in-app, potete eseguire il test con i profili di test per verificare cosa vedrà il pubblico di destinazione quando riceverà la vostra consegna.
 
-1. Fate clic sul **[!UICONTROL Preview]** pulsante.
+1. Fai clic sul pulsante **[!UICONTROL Preview]**. 
 
    ![](assets/inapp_sending_2.png)
 
