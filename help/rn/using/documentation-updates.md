@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6089'
 ht-degree: 10%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 10%
 
 Oltre  Note sulla [versione del Adobe Campaign](../../rn/using/release-notes.md), questa pagina elenca tutti i nuovi aggiornamenti presenti nella documentazione  Adobe Campaign Standard.
 
-## Aggiornamenti della documentazione - Luglio 2020 {#doc-updates--july-2020}
+## Aggiornamenti della documentazione - Luglio 2020 {#doc-updates-july-2020}
 
 È stata aggiunta una nuova sezione con linee guida relative al monitoraggio Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
 
-Sono stati aggiornati i guardrail API esterni.[Leggi tutto](../../automating/using/external-api.md)
+Sono stati aggiornati i guardrail API esterni. [Leggi tutto](../../automating/using/external-api.md)
 
 La pagina Panoramica sulla gestione della privacy è stata aggiornata per includere informazioni sulla legge sulla protezione dei dati personali (PDPA) in Tailandia e sulla società brasiliana Lei Geral de Proteção de Dados (LGPD). [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiu
 
 La pagina Gestione della privacy in Campaign Standard è stata aggiornata, con informazioni su come gestire le richieste di privacy tramite l&#39;integrazione del servizio di base sulla privacy. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## Aggiornamenti della documentazione - Luglio 2020 {#doc-updates-july-2020}
-
-Nuove funzionalità di e-mail basate su intelligenza artificiale: ottimizzazione del tempo di invio e punteggio del profilo [Per saperne di più](../../sending/using/predictive.md)
+Nuove funzionalità di e-mail basate su intelligenza artificiale: ottimizzazione del tempo di invio e punteggio del profilo. [Leggi tutto](../../sending/using/predictive.md)
 
 ## Aggiornamenti della documentazione - Giugno 2020 {#doc-updates-june-2020}
 
