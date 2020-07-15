@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # Note sulla versione 2019{#release-notes-2019}
 
-[Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | Rilasci del [Pannello di controllo](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | Aggiornamenti [alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione più recenti](../../rn/using/release-notes.md) | Funzioni [obsolete](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
+[Pianificazione rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | Rilasci di [Pannelli di controllo Campaign](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | Aggiornamenti [alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione più recenti](../../rn/using/release-notes.md) | Funzioni [obsolete](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
@@ -168,7 +168,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> Report sul segmento del flusso di lavoro<br /> </td> 
-   <td> <p>Questa funzione consente agli esperti di marketing di suddividere le prestazioni di consegna per codice del segmento. Quando create un flusso di lavoro e utilizzate un'attività di segmentazione per assegnare segmenti alla popolazione di distribuzione, questi segmenti ora possono passare alla stessa distribuzione. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna.</p><p>Per ulteriori informazioni, consultate la documentazione <a href="../../reporting/using/creating-a-report-workflow-segment.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">sulle</a>procedure.</p></td>
+   <td> <p>Questa funzione consente agli esperti di marketing di suddividere le prestazioni di consegna per codice del segmento. Quando create un flusso di lavoro e utilizzate un'attività di segmentazione per assegnare segmenti alla popolazione di distribuzione, questi segmenti ora possono passare alla stessa consegna. Questo consente di visualizzare le statistiche di apertura/clic basate su più segmenti all'interno di una singola consegna.</p><p>Per ulteriori informazioni, consultate la documentazione <a href="../../reporting/using/creating-a-report-workflow-segment.md"></a> dettagliata e il video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">sulle</a>procedure.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -237,7 +237,7 @@ ht-degree: 3%
 * È stato corretto un errore che impediva di mettere in quarantena gli indirizzi e-mail con rimbalzo fisso. (CAMP-24587)
 * È stato risolto un problema che si verificava quando si aggiungeva una regola di tipo, quindi la si eliminava prima di salvare la tipologia. (CAMP-32789)
 * È stato risolto un problema che poteva impedire la visualizzazione del contenuto della pagina di destinazione quando si disattivava il contenuto dinamico. (CAMP-32924)
-* È stato risolto un problema con consegne ricorrenti che si verificava durante l&#39;utilizzo della personalizzazione sugli attributi di una consegna master. (CAMP-32983)
+* È stato risolto un problema relativo alle consegne ricorrenti che si verificava quando si utilizzava la personalizzazione sugli attributi di una consegna primaria. (CAMP-32983)
 * È stato risolto un problema nei flussi di lavoro che impediva la lettura dei risultati da una transizione contenente i dati dei messaggi SMS in arrivo. (CAMP-33134)
 * È stato risolto un problema nei flussi di lavoro che si verificava durante la combinazione di fork ed attività di esclusione per creare audience. (CAMP-33401)
 * È stato risolto un problema che impediva la visualizzazione del contenuto della pagina mirror e l&#39;invio di messaggi di prova per consegne ricorrenti. (CAMP-33413)
@@ -293,7 +293,7 @@ ht-degree: 3%
 * L&#39;opzione &quot;Launch_URL_Campaign&quot; è stata aggiunta in Campaign per gestire le proprietà delle applicazioni mobili create con  SDK Mobile di Adobe Experience Platform.
 * È stato corretto un errore a causa del quale l&#39;opzione di ambiente sandbox veniva deselezionata dopo il caricamento del certificato di una proprietà mobile appena creata e l&#39;uscita dalla pagina delle proprietà dell&#39;applicazione mobile.
 * È stato risolto un problema che impediva di arricchire un contenuto di messaggi transazionali con informazioni provenienti dalla risorsa Servizio. (CAMP-33707)
-* È stato risolto un problema nelle pagine di destinazione dell’elenco di blocchi che si verificava durante il tentativo di annullare la sottoscrizione di profili da un servizio.
+* È stato risolto un problema nelle pagine di destinazione del elenco Bloccati  che si verificava durante il tentativo di annullare la sottoscrizione di profili da un servizio.
 
 ## Rilascio 19.2 - maggio 2019 {#release-19-2---may-2019}
 
@@ -333,7 +333,7 @@ ht-degree: 3%
 **Miglioramenti di Email Designer**
 
 * È stato risolto un problema che si verificava durante la duplicazione dei frammenti e il tentativo di utilizzarli in Designer e-mail. (CAMP-33193)
-* È stato risolto un problema che causava la creazione di spazi indesiderati durante l&#39;utilizzo di elementi in linea nell&#39;interfaccia di Designer e-mail. (CAMP-32163)
+* È stato risolto un problema che creava spazi indesiderati quando si utilizzavano elementi in linea nell&#39;interfaccia di Email Designer. (CAMP-32163)
 * È stato risolto un problema che causava l&#39;eliminazione di alcuni attributi di tag HTML aggiuntivi aggiunti dall&#39;utente dopo il salvataggio del contenuto dell&#39;e-mail in Designer e-mail. (CAMP-32162)
 * È stato risolto un problema che causava la visualizzazione di un tag di Microsoft Office in modalità HTML di E-mail Designer anche dopo la sua rimozione. (CAMP-32141)
 * Se un&#39;e-mail è stata creata con una versione precedente di Designer e-mail, all&#39;apertura del contenuto dell&#39;e-mail verrà visualizzata una finestra a comparsa in cui viene richiesto all&#39;utente di eseguire l&#39;aggiornamento alla versione più recente. (CAMP-31529)
@@ -617,7 +617,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * È stato risolto un problema, nell&#39;editor di query, che causava la condizione di unione tra il registro di trasmissione e il registro di tracciamento per rtEvent. (CAMP-28780)
 * È stato risolto un problema che impediva il salvataggio delle modifiche all&#39;opzione &quot;Azione specifica&quot; della pagina di destinazione. (CAMP-29422)
 * È stato risolto un problema che impediva l&#39;esportazione del payload di un evento in un flusso di lavoro. (CAMP-29029)
-* È stato risolto un problema che impediva l&#39;esclusione dei numeri SMS nell&#39;elenco dei blocchi in un messaggio SMS. (CAMP-28898)
+* È stato risolto un problema che impediva l&#39;esclusione dei numeri SMS sul elenco Bloccati  in un messaggio SMS. (CAMP-28898)
 * È stato risolto un problema che poteva impedire ai fornitori SMPP di ricevere notifiche in caso di errore durante l&#39;elaborazione dei messaggi in arrivo. (CAMP-29804)
 * È stato risolto un problema che consentiva l&#39;eliminazione di account esterni con consegne associate. (CAMP-29738)
 * Il throughput di invio è stato migliorato e stabilizzato per i messaggi SMS.
