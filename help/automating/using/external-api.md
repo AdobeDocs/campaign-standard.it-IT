@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Le principali caratteristiche di questa attività sono:
 
 ### Transizione da Beta a GA {#from-beta-to-ga}
 
-Con la release 20.3 di Campaign Standard, la funzionalità API esterna è stata spostata da Beta a Disponibilità generale (GA).
+Con la versione Campaign Standard 20.3, la funzionalità API esterna è passata da Beta a General Availability (GA).
 
 >[!CAUTION]
 >
@@ -56,10 +56,10 @@ Quindi, riconfigurate altre attività nel flusso di lavoro che puntano a e/o uti
 
 ### Limitazioni e tuteli {#guardrails}
 
-Per questa attività sono stati istituiti i seguenti presidi:
+A questa attività si applicano le seguenti tutele:
 
-* Limite dimensione dati risposta HTTP 50 MB
-* Timeout richiesta: 10 minuti
+* Limite dimensione dati risposta HTTP 5 MB
+* Timeout richiesta: 1 minuto
 * I reindirizzamenti HTTP non sono consentiti
 * Gli URL non HTTPS vengono rifiutati
 * &quot;Accetta: header della richiesta application/json&quot; e &quot;Content-Type: l&#39;intestazione della risposta application/json&quot; è consentita
@@ -121,7 +121,7 @@ La definizione delle colonne (aggiungere/rimuovere) e il valore del tipo della p
 
 Casella di controllo Appiattito (impostazione predefinita: non selezionato) indica se appiattire o meno il JSON su una mappa chiave/valore.
 
-* Quando la **casella di controllo è disattivata** (non selezionata), il JSON di esempio viene analizzato per cercare un oggetto matrice. L&#39;utente dovrà fornire una versione rifilata del formato JSON di esempio di risposta API in modo che Adobe Campaign possa determinare esattamente quale array gli utenti sono interessati a utilizzare. Al momento dell&#39;authoring del flusso di lavoro, il percorso dell&#39;oggetto array nidificato verrà determinato e registrato, in modo che possa essere utilizzato in fase di esecuzione per accedere all&#39;oggetto array dal corpo di risposta JSON ricevuto dalla chiamata API.
+* Quando la **casella di controllo è disattivata** (non selezionata), il JSON di esempio viene analizzato per cercare un oggetto matrice. L&#39;utente dovrà fornire una versione rifilata del formato JSON di esempio di risposta API in modo che  Adobe Campaign possa determinare esattamente quale array l&#39;utente è interessato a utilizzare. Al momento dell&#39;authoring del flusso di lavoro, il percorso dell&#39;oggetto array nidificato verrà determinato e registrato, in modo che possa essere utilizzato in fase di esecuzione per accedere all&#39;oggetto array dal corpo di risposta JSON ricevuto dalla chiamata API.
 
 * Quando la **casella di controllo è abilitata** (selezionata), il JSON di esempio verrà appiattito e tutte le proprietà specificate nel JSON di esempio fornito verranno utilizzate per creare colonne della tabella temporanea di output e visualizzate nella scheda Definizioni colonna. Se nel JSON di esempio è presente un oggetto array, anche tutti gli elementi di tali oggetti array verranno appiattiti.
 
@@ -145,13 +145,13 @@ Questa scheda consente di controllare le proprietà **** generali dell&#39;attiv
 >
 >Questa scheda viene visualizzata quando il formato **dei dati della** risposta viene completato e convalidato nella scheda Mappatura in uscita.
 
-La scheda Definizione **** colonna consente di specificare con precisione la struttura di dati di ogni colonna al fine di importare dati che non contengono errori e di farli corrispondere ai tipi già presenti nel database Adobe Campaign per le operazioni future.
+La scheda Definizione **** colonna consente di specificare con precisione la struttura di dati di ogni colonna al fine di importare dati che non contengono errori e di farli corrispondere ai tipi già presenti nel database del Adobe Campaign  per le operazioni future.
 
 ![](assets/externalAPI-column.png)
 
 Ad esempio, è possibile modificare l&#39;etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) o anche specificare l&#39;elaborazione degli errori.
 
-Per ulteriori informazioni, consultare la sezione [Carica file](../../automating/using/load-file.md) .
+Per ulteriori informazioni, vedere la sezione [Carica file](../../automating/using/load-file.md) .
 
 ### Transizione
 
