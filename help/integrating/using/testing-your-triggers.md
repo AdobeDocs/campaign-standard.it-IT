@@ -12,7 +12,7 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../.
 Se l&#39;attivatore viene creato, passare al passaggio successivo. In caso contrario, significa che la connessione del punto finale dell&#39;attivatore non è riuscita. Verificate se il provisioning di Triggers in  Experience Cloud (Servizi attivazione). In caso contrario, contattate il vostro responsabile commerciale Adobe o il partner di servizi professionali. Sono necessarie le seguenti informazioni:
 
 * Nome società Marketing Cloud
-* ID ORG IMS
+* ID organizzazione IMS
 *  Società di accesso Analytics (può corrispondere al Nome società Marketing Cloud)
 
 **Provare a pubblicare il trigger**
@@ -77,7 +77,7 @@ In caso affermativo, seguire le seguenti linee guida:
 In caso contrario, passate al passaggio successivo. In caso affermativo, seguire le seguenti linee guida:
 
 * Verificate che il modello transazionale sia pubblicato.
-* Verificare che il profilo non sia nell&#39;elenco dei blocchi.
+* Verificare che il profilo non sia  elenco Bloccati.
 * Controllare l&#39;applicazione delle regole di tipologia.
 * Controlla i registri dei messaggi transazionali.
 
