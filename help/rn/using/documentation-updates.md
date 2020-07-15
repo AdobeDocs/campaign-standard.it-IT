@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
 workflow-type: tm+mt
-source-wordcount: '6084'
+source-wordcount: '6092'
 ht-degree: 10%
 
 ---
@@ -27,6 +27,8 @@ Oltre  Note sulla [versione del Adobe Campaign](../../rn/using/release-notes.md)
 ## Aggiornamenti della documentazione - Luglio 2020 {#doc-updates--july-2020}
 
 È stata aggiunta una nuova sezione con linee guida relative al monitoraggio Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
+
+Sono stati aggiornati i guardrail API esterni.[Leggi tutto](../../automating/using/external-api.md)
 
 La pagina Panoramica sulla gestione della privacy è stata aggiornata per includere informazioni sulla legge sulla protezione dei dati personali (PDPA) in Tailandia e sulla società brasiliana Lei Geral de Proteção de Dados (LGPD). [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -174,7 +176,7 @@ Nella guida Utilizzo delle API sono state aggiunte informazioni sul parametro ne
 
 È ora disponibile la documentazione MTA avanzata del Adobe Campaign , che descrive l&#39;infrastruttura di invio aggiornata che consente una migliore recapito, velocità effettiva e gestione del rimbalzo. [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
-Sono state aggiunte delle note per indicare che gli URL del server dell&#39;applicazione e del server delle pagine mirror devono essere protetti affinché la pagina di destinazione e le anteprime delle pagine mirror vengano visualizzate dall&#39;interfaccia utente di Campaign. [Leggi tutto](../../administration/using/branding.md#configuring-and-using-brands)
+Sono state aggiunte note per indicare che gli URL del server dell&#39;applicazione e del server delle pagine mirror devono essere protetti affinché la pagina di destinazione e le anteprime delle pagine mirror vengano visualizzate dall&#39;interfaccia utente di Campaign. [Leggi tutto](../../administration/using/branding.md#configuring-and-using-brands)
 
 La sezione Registri di esportazione è stata aggiornata per riflettere la disponibilità dell’ID del registro di consegna nelle risorse dei registri di consegna e di tracciamento, che consente di esportare un identificatore univoco per ciascun registro. [Leggi tutto](../../automating/using/exporting-logs.md)
 
