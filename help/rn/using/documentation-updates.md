@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 9%
+source-wordcount: '6084'
+ht-degree: 10%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 9%
 # Aggiornamenti alla documentazione{#documentation-updates}
 
 Oltre  Note sulla [versione del Adobe Campaign](../../rn/using/release-notes.md), questa pagina elenca tutti i nuovi aggiornamenti presenti nella documentazione  Adobe Campaign Standard.
+
+## Aggiornamenti della documentazione - Luglio 2020 {#doc-updates--july-2020}
+
+È stata aggiunta una nuova sezione con linee guida relative al monitoraggio Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
+
+La pagina Panoramica sulla gestione della privacy è stata aggiornata per includere informazioni sulla legge sulla protezione dei dati personali (PDPA) in Tailandia e sulla società brasiliana Lei Geral de Proteção de Dados (LGPD). [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con documentazione tecnica sulla configurazione mobile. [Leggi tutto](../../administration/using/push-tracking.md)
+
+La pagina Gestione della privacy in Campaign Standard è stata aggiornata, con informazioni su come gestire le richieste di privacy tramite l&#39;integrazione del servizio di base sulla privacy. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## Aggiornamenti della documentazione - Luglio 2020 {#doc-updates-july-2020}
 
@@ -32,9 +42,9 @@ Nuove funzionalità di e-mail basate su intelligenza artificiale: ottimizzazione
 
 I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in sezioni tematiche. [Leggi tutto](../../automating/using/about-workflow-use-cases.md)
 
-Sono stati aggiunti casi di utilizzo per [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) i dati tramite il Pannello di controllo e i flussi di lavoro Campagna.
+Sono stati aggiunti casi di utilizzo per [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) i dati tramite flussi di lavoro Pannello di controllo Campaign e campagna.
 
-Sia i termini &quot;whitelist&quot; che &quot;blacklist&quot; sono stati rimossi dalla documentazione  Adobe Campaign. Alcune occorrenze di questi termini possono ancora esistere nell&#39;interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma saranno sostituite nelle prossime release di Campaign con &quot; inserii nell&#39;elenco Bloccati&quot; e &quot; inserire nell&#39;elenco Consentiti&quot;.
+I termini “whitelist” e “blacklist” sono stati rimossi dalla documentazione Adobe Campaign. Alcune occorrenze di questi termini potrebbero persistere nell’interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma saranno sostituite nelle prossime versioni di Campaign da “elenco Bloccati” e “elenco Consentiti”.
 
 I riferimenti al sito Web Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -198,7 +208,7 @@ La guida introduttiva su come esportare/importare risorse personalizzate è stat
 
 Le informazioni relative alle proprietà delle pagine di destinazione sono state spostate in una sezione dedicata. [Leggi tutto](../../channels/using/configuring-landing-page.md)
 
-La documentazione del Pannello di controllo è stata integrata nel nuovo set di documenti collaborativi. [Leggi tutto](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html)
+La documentazione del Pannello di controllo Campaign è stata integrata nel nuovo set di documenti collaborativi. [Leggi tutto](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html)
 
 La tabella di calcolo **dell&#39;** indicatore è stata aggiornata. [Leggi tutto](../../reporting/using/indicator-calculation.md)
 
@@ -264,7 +274,7 @@ La guida di Progettazione e-mail è stata riorganizzata. [Leggi tutto](../../des
 
 Nella sezione Risoluzione dei problemi del flusso di lavoro è stata aggiunta una procedura per visualizzare le query SQL nella scheda Registro. [Leggi tutto](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-È stato aggiunto un nuovo articolo della guida, con informazioni relative ai sottodomini e alla gestione dei certificati all&#39;interno del Pannello di controllo. [Leggi tutto](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+È stato aggiunto un nuovo articolo della guida, con informazioni relative ai sottodomini e alla gestione dei certificati all&#39;interno del Pannello di controllo Campaign. [Leggi tutto](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 La sezione che descrive i modelli di contenuto e i frammenti è stata aggiornata. [Leggi tutto](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -326,7 +336,7 @@ Aggiunta di un avviso nella documentazione delle risorse personalizzata. È cons
 
 **Nuove funzionalità incluse nella release**
 
-Pannello di controllo - [Leggi tutto](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html)
+Pannello di controllo Campaign - [Leggi tutto](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html)
 
 Notifiche locali - [Leggi tutto](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -812,7 +822,7 @@ Numerose schermate sono state aggiornate per riflettere le modifiche all&#39;int
 
 È ora disponibile una nuova nota tecnica: &quot;Integrazione dell’SDK di Adobe Mobile con la tua app mobile&quot;. [Leggi tutto](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Istruzioni per configurare il servizio di base Persone o &#39;integrazione Audience Manager con  Adobe Campaign havget-started-communication-channel.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Sono state aggiunte istruzioni per configurare il servizio di base Persone o &#39;integrazione Audience Manager con  Adobe Campaign. [Leggi tutto](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Tabella Autorizzazioni rivista per rendere più chiara la funzione di alcuni ruoli. [Leggi tutto](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
