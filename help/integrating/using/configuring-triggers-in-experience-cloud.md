@@ -12,7 +12,7 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -29,7 +29,7 @@ La funzionalità deve essere attivata  Adobe Campaign da Adobe. Contatta il tuo 
 Per attivare i trigger, il team Adobe dovrà disporre delle seguenti informazioni:
 
 * Nome società Marketing Cloud
-* ID ORG IMS
+* ID organizzazione IMS
 *  Società di accesso Analytics (può corrispondere al Nome società Marketing Cloud)
 
 ## Configurazione di soluzioni e servizi {#configuring-solutions-and-services}
@@ -106,7 +106,7 @@ Consulta la documentazione [di](https://docs.adobe.com/content/help/en/core-serv
 
 Elenco delle procedure ottimali e dei limiti per l&#39;utilizzo dell&#39;integrazione Campaign - Triggers:
 
-* Se disponi di più istanze di Campaign Standard, i trigger possono essere ricevuti da tutte le istanze purché si trovino nello stesso ID organizzazione IMS.  Analytics deve anche trovarsi sullo stesso ID organizzazione IMS.
+* Se disponete di più istanze di Campaign Standard, le attivazioni possono essere ricevute da tutte le istanze purché si trovino nello stesso ID organizzazione IMS.  Analytics deve inoltre trovarsi sullo stesso ID organizzazione IMS.
 * Non è possibile creare un trigger nel servizio di base Trigger utilizzando eventi di due suite di rapporti diverse.
 * Gli attivatori si basano sui messaggi transazionali. I messaggi transazionali vengono utilizzati ogni volta che è necessario inviare un messaggio molto rapidamente. Non è possibile mettere in coda i messaggi transazionali e quindi eseguirne il ciclo in batch.
 * Gli attivatori non sono deterministici in natura. Quando viene generato un trigger, invia tutti gli alias associati al cookie, pertanto nel caso di browser condivisi come nei chioschi di vendita al dettaglio, nelle librerie, nei cyber-caffè o nei dispositivi condivisi a casa (accesso di marito e moglie dallo stesso dispositivo), non è possibile mappare l&#39;ID corretto. Tutti gli ID utilizzati per accedere con il browser vengono inviati a Campaign, che invia un messaggio in base alla prima riconciliazione. Se sono presenti più &quot;ID e-mail&quot; idonei per la riconciliazione, Campaign non invia un&#39;e-mail. Campaign non può sapere quale sia l&#39;ID e-mail corretto a meno che non venga acquisito e inviato da  Analytics.
