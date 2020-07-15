@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 83%
+source-wordcount: '1557'
+ht-degree: 82%
 
 ---
 
@@ -92,9 +92,6 @@ ht-degree: 83%
       + [Creazione di una notifica push multilingue](channels/using/creating-a-multilingual-push-notification.md)
       + [Generazione di un file CSV per notifiche push multilingue](channels/using/generating-csv-multilingual-push.md)
       + [Creazione e aggiornamento delle informazioni sul profilo in base ai dati delle applicazioni mobili](channels/using/updating-profile-with-mobile-app-data.md)
-      + [Implementazione del tracciamento push](channels/using/push-tracking.md)
-      + [Visualizzazione di un’immagine da una notifica push di Adobe Campaign Standard](channels/using/image-push-notification.md)
-      + [Struttura del payload per le notifiche push di Campaign Standard](channels/using/push-payload.md)
    + Messaggistica in-app {#in-app-messaging}
       + [Informazioni sulla messaggistica in-app](channels/using/about-in-app-messaging.md)
       + [Preparazione e invio di un messaggio in-app](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 83%
          + [Accoppiamento delle consegne e-mail e della posta diretta](automating/using/coupling-email-direct-mail.md)
          + [Invio di un’e-mail con campi arricchiti](automating/using/sending-email-enriched-fields.md)
          + [Personalizzazione di un’e-mail con dati aggiuntivi](automating/using/personalizing-email-with-additional-data.md)
+         + [Invio di una notifica push ricorrente](automating/using/recurring-push-notifications.md)
       + Segmentazione e targeting {#segmentation-targeting}
          + [Esempi di query](automating/using/query-samples.md)
          + [Unione su due tipi di pubblico raffinati](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 83%
       + [Attivazione dell’assimilazione dei dati tramite API](developing/using/aep-triggering-data-ingestion.md)
 + Amministrazione {#administrating}
    + [Introduzione all&#39;amministrazione Campaign Standard](administration/using/get-started-campaign-administration.md)
+   + [Linee guida per il monitoraggio](administration/using/monitoring-guidelines.md)
    + [Linee guida per la configurazione](administration/using/about-configuration-guidelines.md)
    + Utenti e sicurezza {#users-and-security}
       + [Informazioni sulla gestione degli accessi](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 83%
       + [Configurazione del canale SMS](administration/using/configuring-sms-channel.md)
       + [Configurazione di un’applicazione mobile](administration/using/configuring-a-mobile-application.md)
       + [Configurazione della messaggistica transazionale](administration/using/configuring-transactional-messaging.md)
+   + Configurazione dei canali mobili {#configuring-mobile}
+      + [Implementazione del tracciamento push](administration/using/push-tracking.md)
+      + [Visualizzazione di un’immagine da una notifica push di Adobe Campaign Standard](administration/using/image-push-notification.md)
+      + [Struttura del payload per le notifiche push di Campaign Standard](administration/using/push-payload.md)
+      + [Implementazione del tracciamento delle notifiche locali](administration/using/local-tracking.md)
+      + [Domande frequenti sul flusso di lavoro tecnico SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience Platform SDK e  domande frequenti sull&#39;integrazione dei Adobi Campaign](administration/using/aep-faq.md)
    + Impostazioni applicazione {#application-settings}
       + [Informazioni sulle impostazioni di Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Account esterni](administration/using/external-accounts.md)
