@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
+source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
 workflow-type: tm+mt
-source-wordcount: '6089'
+source-wordcount: '6092'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ Oltre  Note sulla [versione del Adobe Campaign](../../rn/using/release-notes.md)
 
 È stata aggiunta una nuova sezione con linee guida relative al monitoraggio Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
 
-Sono stati aggiornati i guardrail API esterni. [Leggi tutto](../../automating/using/external-api.md)
+È stata aggiornata la sezione Correzioni e limitazioni API esterne.[Leggi tutto](../../automating/using/external-api.md#guardrails)
 
 La pagina Panoramica sulla gestione della privacy è stata aggiornata per includere informazioni sulla legge sulla protezione dei dati personali (PDPA) in Tailandia e sulla società brasiliana Lei Geral de Proteção de Dados (LGPD). [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
