@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,15 @@ Quindi, riconfigurate altre attività nel flusso di lavoro che puntano a e/o uti
 
 A questa attività si applicano le seguenti tutele:
 
-* Limite dimensione dati risposta HTTP 5 MB
-* Timeout richiesta: 1 minuto
+* Limite di dimensione dati risposta HTTP 50 MB (consigliato: 5 MB)
+* Timeout richiesta: 10 minuti
 * I reindirizzamenti HTTP non sono consentiti
 * Gli URL non HTTPS vengono rifiutati
 * &quot;Accetta: header della richiesta application/json&quot; e &quot;Content-Type: l&#39;intestazione della risposta application/json&quot; è consentita
 
->[!CAUTION]
+>[!NOTE]
 >
->L&#39;attività è destinata al recupero di dati a livello di campagna (ultimi set di offerte, punteggi più recenti, ecc.), non al recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d&#39;uso lo richiede, la raccomandazione consiste nell&#39;utilizzare l&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) .
-
+>A partire dalla versione Campaign 20.4, il limite di dimensione dei dati della risposta HTTP e le schermate verranno ridotti a 5 MB e 1 minuto.  Anche se questa modifica interesserà solo le nuove attività API esterne, si consiglia che le implementazioni correnti dell&#39;attività API esterna si allineino con queste nuove garanzie per seguire le procedure ottimali.
 
 Sono state istituite garanzie specifiche per la JSON:
 
@@ -75,12 +74,14 @@ Sono state istituite garanzie specifiche per la JSON:
 * **Lunghezza** massima chiave JSON: limita a 255 la lunghezza massima della chiave interna generata. Questa chiave è associata all&#39;ID colonna.
 * **Numero massimo di chiavi duplicate JSON consentite**:  limita a 150 il numero totale massimo di nomi di proprietà JSON duplicati, utilizzati come ID colonna.
 
-
 L&#39;attività non è supportata dalla struttura JSON come:
 
 * Combinazione di un oggetto array con altri elementi non array
 * L&#39;oggetto array JSON è nidificato all&#39;interno di uno o più oggetti array intermedi.
 
+>[!CAUTION]
+>
+>L&#39;attività API esterna è destinata al recupero di dati a livello di campagna (più recente serie di offerte, punteggi più recenti, ecc.), non al recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso d&#39;uso lo richiede, la raccomandazione consiste nell&#39;utilizzare l&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) .
 
 ## Configurazione {#configuration}
 
