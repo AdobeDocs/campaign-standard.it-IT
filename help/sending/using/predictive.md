@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percor
 
 * **Predictive Engagement Scoring**: Il punteggio relativo al coinvolgimento predittivo prevede la probabilità che un destinatario si impegni con un messaggio e la probabilità di non partecipare (annullamento dell&#39;iscrizione) entro i successivi 7 giorni dall&#39;invio successivo dell&#39;e-mail. Le probabilità sono ulteriormente suddivise in bucce a seconda del rischio specifico di disimpegno, medio o basso. Tra questi il modello fornisce anche il grado percentile di rischio per i clienti per capire dove il grado di un determinato cliente rispetto ad altri.
 
->[!NOTE]
-> **Prerequisiti **
->
+>[!CAUTION]
 >Questa funzionalità non è disponibile all&#39;esterno come parte del prodotto. L&#39;implementazione richiede il coinvolgimento di Adobe Consulting. Per maggiori informazioni, contattate il vostro rappresentante Adobe.
 >
 >Separatamente, la funzionalità richiedeva l&#39;utilizzo di un archivio di Azure che deve essere fornito dal cliente.
