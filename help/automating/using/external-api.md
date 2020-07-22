@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ A questa attività si applicano le seguenti tutele:
 
 >[!NOTE]
 >
->A partire dalla versione Campaign 20.4, il limite di dimensione dei dati della risposta HTTP e le schermate verranno ridotti a 5 MB e 1 minuto.  Anche se questa modifica interesserà solo le nuove attività API esterne, si consiglia che le implementazioni correnti dell&#39;attività API esterna si allineino con queste nuove garanzie per seguire le procedure ottimali.
+>A partire dalla release Campaign 20.4, il limite di dimensione dei dati della risposta HTTP e i controlli di timeout della risposta verranno ridotti rispettivamente a 5 MB e 1 minuto.  Anche se questa modifica interesserà solo le nuove attività API esterne, si consiglia vivamente che le implementazioni correnti dell&#39;attività API esterna si allineino con queste nuove garanzie per seguire le best practice.
 
 Sono state istituite garanzie specifiche per la JSON:
 
@@ -152,7 +152,7 @@ La scheda Definizione **** colonna consente di specificare con precisione la str
 
 Ad esempio, è possibile modificare l&#39;etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) o anche specificare l&#39;elaborazione degli errori.
 
-Per ulteriori informazioni, vedere la sezione [Carica file](../../automating/using/load-file.md) .
+Per ulteriori informazioni, consultare la sezione [Carica file](../../automating/using/load-file.md) .
 
 ### Transizione
 
