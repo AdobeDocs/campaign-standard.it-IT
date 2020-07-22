@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
+source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
    <td> <p>A partire dalla versione Campaign 19.4, l'utilizzo dell'API Campaign e dell'interfaccia per l'accesso e l'eliminazione delle richieste è obsoleto. L'eliminazione del profilo in due fasi non sarà disponibile. Utilizzate il servizio <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">di base sulla privacy di</a>Adobe.</p></br>
    <p>Vedi anche Gestione della <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">privacy in Campaign Standard</a>.</p>
   <p> 
-  <em>Versione di rimozione Target: Release di Campaign 20.4</em></p>
+  <em>Data di rimozione Target: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
    <td> <p>A partire dalla versione di Campaign 19.0, l'editor e-mail legacy è diventato obsoleto. Utilizzate <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">il nuovo e-mail Designer</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
    <p>Leggete <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">questa sezione</a> per apprendere come adattare i modelli delle e-mail per il nuovo editor.</p></br>
   <p> 
-  <em>Versione di rimozione Target: 2021</em></p>
+  <em>Data di rimozione Target: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
