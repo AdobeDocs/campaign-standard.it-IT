@@ -1,6 +1,6 @@
 ---
 title: Configurazione della definizione della schermata
-description: Scopri come definire nuove schermate di Adobe Campaign basate sulla struttura dei dati delle risorse.
+description: Scopri come definire nuove schermate di Adobe Campaign in base alla struttura dati delle risorse.
 page-status-flag: never-activated
 uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
 contentOwner: sauviat
@@ -12,94 +12,97 @@ discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+workflow-type: ht
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
 
 
 # Configurazione della definizione della schermata{#configuring-the-screen-definition}
 
-Quando create una risorsa o aggiungete nuovi campi a una risorsa esistente, potete definire la modalità di visualizzazione nell’interfaccia.
+Quando crei una risorsa o aggiungi nuovi campi a una risorsa esistente, puoi definirne la modalità di visualizzazione nell’interfaccia.
 
-Questo passaggio non è obbligatorio in quanto potrai comunque compilare la risorsa e accedere ai suoi dati tramite flussi di lavoro, audience e REST API.
+Questo passaggio non è obbligatorio in quanto puoi comunque popolare la risorsa e accedere ai relativi dati tramite flussi di lavoro, tipi di pubblico e API REST.
 
-Nella **[!UICONTROL Screen definition]** scheda è possibile:
+Nella scheda **[!UICONTROL Screen definition]**, puoi:
 
-* Aggiungere l&#39;accesso alla risorsa personalizzata nel riquadro di navigazione
-* Personalizzare il modo in cui viene presentato l&#39;elenco degli elementi che compongono la risorsa
+* Aggiungere l’accesso alla risorsa personalizzata nel riquadro di navigazione
+* Personalizzare il modo in cui viene presentato l’elenco degli elementi che compongono la risorsa
 * Definire la modalità di visualizzazione dei dettagli di ciascun elemento della risorsa
 
-## Abilitazione dell&#39;accesso dal menu di navigazione {#enabling-access-from-the-navigation-menu}
+## Abilitazione dell’accesso dal menu di navigazione {#enabling-access-from-the-navigation-menu}
 
-Se desiderate che la risorsa disponga di una schermata dedicata, potete renderla disponibile dal menu di navigazione.
+Se desideri che la risorsa disponga di una schermata dedicata, puoi renderla disponibile dal menu di navigazione.
 
-1. Dalla **[!UICONTROL Screen definition]** scheda della risorsa, aprite la **[!UICONTROL Navigation]** sezione.
-1. Selezionare la **[!UICONTROL Add an entry in the 'Client data' section]** casella per consentire l&#39;accesso a questa risorsa dal riquadro di navigazione.
+1. Dalla scheda **[!UICONTROL Screen definition]** della risorsa, apri la sezione **[!UICONTROL Navigation]**.
+1. Seleziona la casella **[!UICONTROL Add an entry in the 'Client data' section]** per consentire l’accesso a questa risorsa dal riquadro di navigazione.
 
    ![](assets/schema_extension_19.png)
 
-La risorsa verrà visualizzata come una voce secondaria all&#39;interno della **[!UICONTROL Client data]** sezione.
+La risorsa verrà visualizzata come una voce secondaria all’interno della sezione **[!UICONTROL Client data]**.
 
 ## Definizione della configurazione di elenco predefinita {#defining-the-default-list-configuration}
 
-La **[!UICONTROL List configuration]** sezione della definizione dello schermo consente di definire le colonne e le informazioni che verranno visualizzate per impostazione predefinita nella panoramica di una risorsa.
+La sezione **[!UICONTROL List configuration]** della definizione della schermata consente di definire le colonne e le informazioni che vengono visualizzate per impostazione predefinita nella panoramica di una risorsa.
 
-1. Selezionare la **[!UICONTROL Customize the list configuration]** casella per definire il modo in cui vengono visualizzate le colonne della risorsa.
-1. Utilizzare il **[!UICONTROL Create element]** pulsante per selezionare un campo tra quelli creati.
-1. Il campo creato viene visualizzato nell’elenco. Potete modificarne l’etichetta e la larghezza.
+1. Seleziona la casella **[!UICONTROL Customize the list configuration]** per definire la modalità di visualizzazione delle colonne della risorsa.
+1. Utilizza il pulsante **[!UICONTROL Create element]** per selezionare un campo tra quelli creati.
+1. Il campo creato viene visualizzato nell’elenco. Puoi modificarne l’etichetta e la larghezza.
 
    ![](assets/schema_extension_20.png)
 
-1. Nella **[!UICONTROL Simple search]** sezione, selezionare **[!UICONTROL Specify the fields to be taken into account in the search]** per definire i campi da includere nella ricerca.
+1. Nella sezione **[!UICONTROL Simple search]**, seleziona **[!UICONTROL Specify the fields to be taken into account in the search]** per definire quali campi saranno inclusi nella ricerca.
 
    >[!IMPORTANT]
    >
    >Questa configurazione sostituisce i campi utilizzati nella ricerca predefinita.
 
-1. Nella **[!UICONTROL Advanced filtering]** sezione, selezionare la **[!UICONTROL Add search fields]** casella per aggiungere altri campi oltre il campo di ricerca semplice. Ad esempio, se si seleziona il campo &quot;data&quot; dai campi creati, l&#39;utente sarà in grado di eseguire una ricerca che si riferisce solo alla data.
-1. È possibile modificare l&#39;ordine dei campi per i due tipi di ricerca.
-1. Per una ricerca avanzata, potete aggiungere campi che si collegano a una risorsa collegata. Questi filtri vengono visualizzati nel **[!UICONTROL Search]** menu dello schermo generato.
+1. Nella sezione **[!UICONTROL Advanced filtering]**, seleziona la casella **[!UICONTROL Add search fields]** per aggiungere campi aggiuntivi oltre al campo di ricerca semplice. Ad esempio, se selezioni il campo &quot;data&quot; dai campi creati, l’utente sarà in grado di eseguire una ricerca che si riferisce solo alla data.
+1. Puoi modificare l’ordine dei campi per i due tipi di ricerca.
+1. Per una ricerca avanzata, puoi aggiungere campi che si collegano a una risorsa collegata. Questi filtri vengono visualizzati nel menu **[!UICONTROL Search]** della schermata generata.
 
 La schermata di panoramica della risorsa è ora definita.
 
 ## Definizione della configurazione della schermata di dettaglio {#defining-the-detail-screen-configuration}
 
-La **[!UICONTROL Detail screen configuration]** sezione della definizione dello schermo consente di definire le colonne e le informazioni che verranno visualizzate nella schermata di dettaglio di ciascun elemento della risorsa.
+La sezione **[!UICONTROL Detail screen configuration]** della definizione della schermata ti consente di definire le colonne e le informazioni che verranno visualizzate nella schermata di dettaglio di ciascun elemento della risorsa.
 
-1. Aprite la **[!UICONTROL Detail screen configuration]** sezione e verificate il **[!UICONTROL Define a detail screen]** pulsante per configurare la schermata corrispondente a ciascun elemento della risorsa. Se non selezionate questa casella, la visualizzazione dettagliata degli elementi di questa risorsa non sarà accessibile.
-1. Puoi aggiungere tutti i campi dalla risorsa personalizzata con un solo clic. A tale scopo, fare clic sull&#39; ![](assets/addallfieldsicon.png) icona o utilizzare il **[!UICONTROL Add an element]** pulsante.
-1. Selezionate un elemento da quelli creati per la risorsa e specificate un tipo di campo:
+1. Apri la sezione **[!UICONTROL Detail screen configuration]** e seleziona **[!UICONTROL Define a detail screen]** per configurare la schermata corrispondente a ciascun elemento della risorsa. Se non selezioni questa casella, la visualizzazione dei dettagli degli elementi di questa risorsa non sarà accessibile.
+1. Puoi aggiungere tutti i campi dalla risorsa personalizzata con un solo clic. A tale scopo, fai clic sull’icona ![](assets/addallfieldsicon.png) o utilizza il pulsante **[!UICONTROL Add an element]**.
+1. Seleziona un elemento da quelli creati per la risorsa e specifica un tipo di campo:
 
    * **[!UICONTROL Input field]**: è un campo modificabile.
    * **[!UICONTROL Value]**: è un campo di sola lettura.
-   * **[!UICONTROL List]**: è un tavolo.
+   * **[!UICONTROL List]**: è una tabella.
    * **[!UICONTROL Separator]**: divide gli elementi in categorie.
    ![](assets/schema_extension_23.png)
 
-1. L’elemento aggiunto viene visualizzato nell’elenco. Potete modificarne l’etichetta.
+1. L’elemento aggiunto viene visualizzato nell’elenco. Puoi modificarne l’etichetta.
 
    ![](assets/schema_extension_22.png)
 
-1. Aggiungete il numero **[!UICONTROL Separator]** necessario per suddividere gli elementi in diverse categorie.
+1. Aggiungi il numero necessario di **[!UICONTROL Separator]** per suddividere gli elementi in diverse categorie.
 
-   Questo consente di visualizzare un separatore per organizzare meglio le finestre.
+   Ciò consente di visualizzare un separatore per una migliore organizzazione delle finestre.
 
    ![](assets/schema_extension_25.png)
 
 La schermata di dettaglio della risorsa è ora configurata.
 
-## Azioni sulla sezione dei dati {#actions-on-data-section}
+## Azioni sulla sezione dati {#actions-on-data-section}
 
 Queste impostazioni consentono di visualizzare una barra di controllo nella schermata delle risorse personalizzate. Sono disponibili tre opzioni:
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]**: questa opzione consente di attivare la creazione di elementi della risorsa. L&#39;utente può quindi aggiungere altri record.
+* **[!UICONTROL Authorize creating]**: questa opzione consente di attivare la creazione di elementi della risorsa. L’utente può quindi aggiungere altri record.
 
    >[!NOTE]
    >
-   >Per rendere disponibile questa opzione, è innanzitutto necessario attivare la schermata dei dettagli collegata alla risorsa.
+   >Per rendere disponibile questa opzione, devi innanzitutto attivare la schermata di dettaglio collegata alla risorsa.
 
-* **[!UICONTROL Authorize duplicating]**: questa opzione consente di attivare i record duplicati collegati alla risorsa personalizzata.
-* **[!UICONTROL Authorize deleting]**: questa opzione consente di attivare l&#39;eliminazione di record collegati alla risorsa personalizzata.
+* **[!UICONTROL Authorize duplicating]**: questa opzione consente di attivare la duplicazione dei record collegati alla risorsa personalizzata.
+* **[!UICONTROL Authorize deleting]**: questa opzione consente di attivare l’eliminazione dei record collegati alla risorsa personalizzata.
