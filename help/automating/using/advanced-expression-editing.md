@@ -1,19 +1,22 @@
 ---
 title: Modifica avanzata delle espressioni
-description: La procedura guidata di edizione query consente di definire espressioni avanzate.
-page-status-flag: mai attivato
+description: La procedura guidata di modifica delle query ti consente di definire espressioni avanzate.
+page-status-flag: never-activated
 uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: automatizzazione
+audience: automating
 content-type: reference
-topic-tags: filter-data
+topic-tags: filtering-data
 discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
-context-tags: queryFilter,panoramica;audience,principale
+context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '1091'
+ht-degree: 100%
 
 ---
 
@@ -22,43 +25,43 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Informazioni sulla modifica avanzata delle espressioni {#about-advanced-expression-editing}
 
-La modifica di un'espressione implica l'immissione manuale delle condizioni per formare una regola.
+La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola.
 
-Questa modalità consente di utilizzare funzioni avanzate. Queste funzioni consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici, l'ordinamento e così via.
+Questa modalità ti consente di utilizzare funzioni avanzate. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici, ordinamento e così via.
 
-È inoltre possibile utilizzare le variabili di eventi quando si modifica un'espressione. Per ulteriori informazioni, vedere la sezione [Personalizzazione delle attività con variabili](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) di eventi.
+Durante la modifica di un’espressione è inoltre possibile utilizzare variabili degli eventi. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
-È possibile modificare le espressioni per:
+Puoi modificare le espressioni per:
 
-* Definire una query tramite l' **[!UICONTROL Advanced mode]** opzione disponibile quando viene aggiunta una regola.
+* Definire una query tramite l’opzione **[!UICONTROL Advanced mode]** disponibile quando viene aggiunta una regola.
 
    ![](assets/expression_editor_2.png)
 
-* Modificare un'espressione in un flusso di lavoro. Ad esempio, per aggiungere dati aggiuntivi a un'attività.
-* Modificate una condizione di visibilità per definire la modalità di visualizzazione di un blocco nell'editor di contenuti HTML. In questo caso, l'espressione viene modificata in formato JavaScript e non offre l'uso di funzioni avanzate come standard.
+* Modificare un’espressione in un flusso di lavoro. Ad esempio, per aggiungere dati aggiuntivi a un’attività.
+* Modificare una condizione di visibilità per definire la modalità di visualizzazione di un blocco nell’editor di contenuti HTML. In questo caso, l’espressione viene modificata in formato JavaScript e non offre l’utilizzo di funzioni avanzate come standard.
 
-## Modificare un'espressione {#edit-an-expression}
+## Modificare un’espressione {#edit-an-expression}
 
-L'edizione con espressione avanzata consente di definire manualmente un'espressione che corrisponde specificatamente alle esigenze dell'utente.
+La modifica avanzata delle espressioni ti consente di definire manualmente un’espressione che corrisponde specificatamente alle tue esigenze.
 
-Le espressioni di modifica possono essere utilizzate nella finestra Pubblico durante la creazione di un'e-mail o in un'attività Query durante la creazione di un flusso di lavoro.
+La modifica delle espressioni può essere utilizzata nella finestra Tipi di pubblico durante la creazione di un’e-mail o in un’attività Query durante la creazione di un flusso di lavoro.
 
-1. Per accedere alla finestra di modifica delle espressioni, utilizzare uno dei metodi descritti nella sezione [Informazioni sulla modifica](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing) delle espressioni avanzate. Comprende i seguenti elementi:
+1. Puoi accedere alla finestra di modifica delle espressioni utilizzando uno dei metodi descritti nella sezione [Informazioni sulla modifica avanzata delle espressioni](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Comprende i seguenti elementi:
 
-   * Campo di input in cui è definita l'espressione.
-   * Elenco di campi disponibili che possono essere utilizzati nell'espressione e che corrispondono alla dimensione di targeting della query (consultate Dimensioni e risorse [di](../../automating/using/query.md#targeting-dimensions-and-resources)targeting).
-   * Elenco delle funzioni disponibili, ordinate per categoria.
+   * Un campo di input in cui è definita l’espressione.
+   * L’elenco dei campi disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione di targeting della query (consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources)).
+   * L’elenco delle funzioni disponibili, ordinate per categoria.
    ![](assets/expression_editor_1.png)
 
-1. Modificare l'espressione immettendo un'espressione direttamente nel campo corrispondente o utilizzando gli elenchi di campi e funzioni disponibili.
+1. Modifica l’espressione immettendo un’espressione direttamente nel campo corrispondente o utilizzando gli elenchi dei campi e delle funzioni disponibili.
 
-   Facendo doppio clic su un campo o un'espressione, questo viene aggiunto all'espressione in cui è posizionato il cursore.
+   Fare doppio clic su un campo o un’espressione consente di aggiungerlo all’espressione in cui è posizionato il cursore.
 
-   È possibile utilizzare le variabili degli eventi dei flussi di lavoro per creare un'espressione. Per ulteriori informazioni, vedere la sezione [Personalizzazione delle attività con variabili](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) di eventi.
+   È possibile utilizzare le variabili degli eventi dei flussi di lavoro per generare un’espressione. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
-1. Se necessario, assegnare alla regola un nome specifico. Il nome immesso verrà visualizzato come nome della regola nell'area di lavoro dell'editor di query.
+1. Se necessario, assegna alla regola un nome specifico. Il nome immesso verrà visualizzato come nome della regola nell’area di lavoro dell’editor delle query.
 
-La modifica di un'espressione consente di personalizzare l'espressione Audiences in modo da indirizzare la popolazione come necessario.
+La modifica di un’espressione ti consente di personalizzare l’espressione Tipi di pubblico in modo tale da eseguire il targeting della popolazione in base alle necessità.
 
 **Argomenti correlati:**
 
@@ -71,16 +74,16 @@ La modifica di un'espressione consente di personalizzare l'espressione Audiences
 
 Le espressioni standard sono composte da una o più condizioni che rispettano i seguenti elementi di sintassi:
 
-* Ogni condizione assume la forma di **&lt;valore1&gt; &lt;operatore di confronto&gt; &lt;valore2&gt;** con cui:
+* Ciascuna condizione assume la forma di **&lt;valore1> &lt;operatore di confronto> &lt;valore2>** in cui:
 
-   * **&lt;value1&gt;** è un campo o una funzione. Ad esempio, **@created** per la data di creazione di un profilo oppure **Year(@created)** per l'anno in cui è stato creato un profilo.
-   * **&lt;operatore di confronto&gt;** è uno degli operatori elencati nella sezione [Operatori](../../automating/using/advanced-expression-editing.md#comparison-operators) di confronto. Questo operatore definisce il metodo di confronto tra **&lt;value1&gt;** e **&lt;value2&gt;**.
-   * **&lt;value2&gt;** è un campo, una funzione o un valore immesso manualmente.
+   * **&lt;valore1>** è un campo o una funzione. Ad esempio, **@created** per la data di creazione di un profilo oppure **Year(@created)** per l’anno di creazione di un profilo.
+   * **&lt;operatore di confronto>** è uno degli operatori elencati nella sezione [Operatori di confronto](../../automating/using/advanced-expression-editing.md#comparison-operators). Questo operatore definisce il metodo di confronto tra **&lt;valore1>** e **&lt;valore2>**.
+   * **&lt;valore2>** è un campo, una funzione o un valore immesso manualmente.
    >[!NOTE]
    >
-   >I dati del tipo **&lt;value1&gt;** e **&lt;value2&gt;** devono essere identici. Ad esempio, se **&lt;value1&gt;** è una data, anche **&lt;value2&gt;** deve essere una data.
+   >I dati del tipo **&lt;valore1>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;valore1>** è una data, anche **&lt;valore2>** deve essere una data.
 
-* Se si desidera utilizzare diverse condizioni, è possibile combinarle utilizzando operatori logici.
+* Se desideri utilizzare diverse condizioni, puoi combinarle utilizzando operatori logici.
 
    * **[!UICONTROL AND]**: due condizioni sono intersecate.
    * **[!UICONTROL OR]**: due condizioni sono combinate.
@@ -91,23 +94,23 @@ Ad esempio:
 Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 ```
 
-In questo esempio, vengono impostati come destinazione i profili la cui data di creazione è compresa tra il mese e l'anno correnti.
+In questo esempio, i profili la cui data di creazione è nel mese e nell’anno correnti sono oggetto di targeting.
 
 ### Sintassi JavaScript {#javascript-syntax}
 
-Quando si definiscono le condizioni di visibilità di un blocco di testo dell'editor di contenuti HTML, è necessario utilizzare un'espressione con sintassi di tipo JavaScript.
+Durante la definizione delle condizioni di visibilità di un blocco di testo dell’editor di contenuti HTML, devi utilizzare un’espressione con sintassi di tipo JavaScript.
 
 Le espressioni JavaScript sono composte da una o più condizioni e utilizzano i seguenti elementi di sintassi:
 
-* Ogni condizione assume la forma di **&lt;context&gt; &lt;operatore di confronto&gt; &lt;value2&gt;** con cui:
+* Ciascuna condizione assume la forma di **&lt;contesto> &lt;operatore di confronto> &lt;valore2>** in cui:
 
-   * **&lt;context&gt;** è un campo o una funzione che consente di specificare il contesto. Ad esempio **context.profile.@email** per l'indirizzo e-mail di un profilo o per **context.profile.firstName.length()** per il numero di caratteri del nome di un profilo.
-   * **&lt;operatore di confronto&gt;** è uno degli operatori elencati nella sezione [Operatori](../../automating/using/advanced-expression-editing.md#comparison-operators) di confronto. Questo operatore definisce il metodo di confronto tra **&lt;context&gt;** e **&lt;value2&gt;**.
-   * **&lt;value2&gt;** è un campo, una funzione o un valore immesso manualmente.
+   * **&lt;contesto>** è un campo o una funzione che consente di specificare il contesto. Ad esempio **context.profile.@email** per l’indirizzo e-mail di un profilo o **context.profile.firstName.length()** per il numero di caratteri del nome di un profilo.
+   * **&lt;operatore di confronto>** è uno degli operatori elencati nella sezione [Operatori di confronto](../../automating/using/advanced-expression-editing.md#comparison-operators). Questo operatore definisce il metodo di confronto tra **&lt;contesto>** e **&lt;valore2>**.
+   * **&lt;valore2>** è un campo, una funzione o un valore immesso manualmente.
    >[!NOTE]
-   I dati del tipo **&lt;context&gt;** e **&lt;value2&gt;** devono essere identici. Ad esempio, se **&lt;context&gt;** è una data, anche **&lt;value2&gt;** deve essere una data.
+   I dati del tipo **&lt;contesto>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;contesto>** è una data, anche **&lt;valore2>** deve essere una data.
 
-* Se si desidera utilizzare diverse condizioni, è possibile combinarle utilizzando operatori logici.
+* Se desideri utilizzare diverse condizioni, puoi combinarle utilizzando operatori logici.
 
    * **[!UICONTROL &&]**: due condizioni sono intersecate.
    * **[!UICONTROL ||]**: due condizioni sono combinate.
@@ -118,11 +121,11 @@ Ad esempio:
 context.profile.age > 21 && context.profile.firstName.length() > 0
 ```
 
-In questo esempio, profili di età superiore a 21 anni il cui nome è stato fornito (simbolizzato dal fatto che il campo **firstName** contiene almeno un carattere).
+In questo esempio, i profili di età superiore a 21 anni il cui nome è stato fornito (rappresentato dal fatto che il campo **firstName** contiene almeno un carattere).
 
 ## Operatori di confronto {#comparison-operators}
 
-Per alcune regole, l'editor di query consente di scegliere un valore per definire la condizione.
+Per alcune regole, l’editor delle query ti consente di scegliere un valore per definire la condizione.
 
 Le condizioni devono essere collegate ai valori utilizzando uno dei seguenti operatori.
 
@@ -138,70 +141,70 @@ Le condizioni devono essere collegate ai valori utilizzando uno dei seguenti ope
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">Uguale a</span><br /> </td> 
+   <td> <span class="uicontrol">Uguale a</span> <br /> </td> 
    <td> =<br /> </td> 
    <td> ==<br /> </td> 
-   <td> Il primo valore deve essere completamente identico al secondo valore.<br /> </td> 
-   <td> <strong>@lastName = Martin</strong> recupera i profili il cui cognome è 'Martin', con solo questi caratteri identici.<br /> </td> 
+   <td> Il primo valore deve essere del tutto identico al secondo valore.<br /> </td> 
+   <td> <strong>@lastName = Martin</strong> recupera i profili il cui cognome è “Martin”, contenenti solo questi stessi caratteri.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Maggiore di</span><br /> </td> 
+   <td> <span class="uicontrol">Maggiore di</span> <br /> </td> 
    <td> &gt;<br /> </td> 
    <td> &gt;<br /> </td> 
-   <td> Il primo valore deve essere categoricamente maggiore del secondo.<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> recupera i profili più vecchi di '50', quindi '51', '52', ecc.<br /> </td> 
+   <td> Il primo valore deve essere categoricamente maggiore del secondo valore.<br /> </td> 
+   <td> <strong>@age &gt; 50</strong> recupera i profili con età maggiore di “50”, quindi “51”, “52”, ecc.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Minore</span> di <br /> </td> 
+   <td> <span class="uicontrol">Minore di</span> <br /> </td> 
    <td> &lt;<br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> Il primo valore deve essere categoricamente minore del secondo.<br /> </td> 
+   <td> Il primo valore deve essere categoricamente minore del secondo valore.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> recupera tutti i profili creati nel database meno di 100 giorni fa.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Maggiore o uguale a</span><br /> </td> 
+   <td> <span class="uicontrol">Maggiore o uguale a</span> <br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> Il primo valore deve essere maggiore o uguale al secondo valore.<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong> recupera i profili di oltre 30 anni.<br /> </td> 
+   <td> <strong>@age &gt;= 30</strong> recupera i profili di età maggiore o uguale a 30 anni.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Minore o uguale</span> a <br /> </td> 
+   <td> <span class="uicontrol">Minore o uguale a</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> Il primo valore deve essere minore o uguale al secondo valore.<br /> </td> 
-   <td> <strong>@age &lt;= 60</strong> recupera i profili di età non superiore a 60 anni.<br /> </td> 
+   <td> <strong>@age &lt;= 60</strong> recupera i profili di età minore o uguale a 60 anni.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Diverso </span><br /> </td> 
+   <td> <span class="uicontrol">Diverso </span> <br /> </td> 
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
-   <td> Il primo valore deve essere diverso dal secondo.<br /> </td> 
-   <td> <strong>@language != L'inglese</strong> recupera i profili che non sono stati definiti come anglofoni.<br /> </td> 
+   <td> Il primo valore deve essere diverso dal secondo valore.<br /> </td> 
+   <td> <strong>@language != English</strong> recupera i profili che non sono stati definiti come anglofoni.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Contiene</span><br /> </td> 
+   <td> <span class="uicontrol">Contiene</span> <br /> </td> 
    <td> IN<br /> </td> 
    <td> N/D<br /> </td> 
    <td> Il primo valore deve contenere il secondo valore.<br /> </td> 
-   <td> <strong>@domain IN mail</strong>. In questo caso, tutti i nomi di dominio con il valore 'mail' vengono restituiti nel risultato. Di conseguenza, il nome di dominio 'gmail.com' farà parte dei risultati restituiti.<br /> </td> 
+   <td> <strong>@domain IN mail</strong>. In questo caso, tutti i nomi di dominio con il valore “mail” vengono restituiti nel risultato. Di conseguenza, il nome di dominio “gmail.com” farà parte dei risultati restituiti.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Simile</span><br /> </td> 
-   <td> SIMILE<br /> </td> 
+   <td> <span class="uicontrol">Simile</span> <br /> </td> 
+   <td> LIKE<br /> </td> 
    <td> N/D<br /> </td> 
-   <td> <span class="uicontrol">Analogamente</span> è molto simile all'operatore <span class="uicontrol">Contiene</span> . Consente di inserire un carattere jolly <span class="uicontrol">%</span> nel valore ricercato.<br /> </td> 
-   <td> <strong>@lastName SIMILE a Mart%n</strong>. In questo caso, il carattere di sostituzione <strong>%</strong> serve come "scherzetto" per trovare il nome "Martin" nel caso ipotetico che l'ortografia non sia corretta.<br /> </td> 
+   <td> <span class="uicontrol">Simile</span> è molto simile all’operatore <span class="uicontrol">Contains</span>. Ti consente di inserire un carattere jolly <span class="uicontrol">%</span> nel valore ricercato.<br /> </td> 
+   <td> <strong>@lastName LIKE Mart%n</strong>. In questo caso, il carattere di sostituzione <strong>%</strong> serve come un "jolly" per trovare il nome "Martin" nel caso ipotetico che l’ortografia non sia corretta.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Non piace</span><br /> </td> 
-   <td>  NOT<br /> </td> 
+   <td> <span class="uicontrol">Diverso</span> <br /> </td> 
+   <td> NOT<br /> </td> 
    <td> N/D<br /> </td> 
-   <td> È simile a <span class="uicontrol">Like</span>. Consente di non recuperare il valore immesso. Anche in questo caso, il valore immesso deve contenere il carattere jolly <span class="uicontrol">%</span> .<br /> </td> 
-   <td> <strong>@lastName NON Smi%h</strong>. Qui i destinatari corrispondono al nome 'Smi%h' (quindi Smith, ecc.) non vengono restituiti come risultato.<br /> </td> 
+   <td> È simile a <span class="uicontrol">Simile</span>. Ti consente di non recuperare il valore immesso. Anche in questo caso, il valore immesso deve contenere il carattere jolly <span class="uicontrol">%</span>.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. In questo caso, i destinatari corrispondono al nome “Smi%h” (quindi Smith, ecc.) non vengono restituiti come risultato.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">È vuoto</span><br /> </td> 
+   <td> <span class="uicontrol">È vuoto</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
    <td> N/D<br /> </td> 
    <td> Il primo valore deve corrispondere a un valore vuoto.<br /> </td> 
