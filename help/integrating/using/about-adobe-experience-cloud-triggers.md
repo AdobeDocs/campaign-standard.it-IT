@@ -1,6 +1,6 @@
 ---
 title: Informazioni su Adobe Experience Cloud Triggers
-description: Tracciando comportamenti specifici dei clienti con Adobe  Analytics, ora puoi inviare messaggi e-mail personalizzati ai tuoi clienti in  Adobe Campaign.
+description: Tracciando comportamenti specifici dei clienti con Adobe Analytics, ora puoi inviare e-mail personalizzate ai clienti in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 0aa4bd6e-1bb5-4d0b-913b-eca93f050acd
 contentOwner: sauviat
@@ -16,51 +16,51 @@ translation-type: tm+mt
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 2%
+ht-degree: 98%
 
 ---
 
 
 # Informazioni su Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}
 
-L&#39;integrazione tra  servizio di base Attivazione Experience Cloud **[!UICONTROL Triggers]** e il Adobe Campaign  consente di inviare e-mail personalizzate ai clienti come reazione a comportamenti specifici seguiti sul sito Web da Adobe  Analytics (entro 15 minuti).
+L’integrazione tra il servizio core Activation di Experience Cloud **[!UICONTROL Triggers]** e Adobe Campaign ti consente di inviare e-mail personalizzate ai clienti per reagire a comportamenti specifici tracciati sul sito web da Adobe Analytics (entro 15 minuti).
 
-In Adobe Experience Cloud, puoi definire i diversi attivatori, vale a dire i comportamenti dei clienti che desideri monitorare, come tutti i clienti che hanno abbandonato la visita sul tuo sito Web, che hanno effettuato una ricerca sul tuo sito Web, ma che non hanno effettuato un acquisto, né i clienti la cui sessione è scaduta. Quando si crea un attivatore, è possibile definire la condizione del trigger e i dati che verranno inviati nell&#39;evento (caricamento) al Adobe Campaign .
+In Adobe Experience Cloud, puoi definire i diversi trigger, vale a dire i comportamenti dei clienti che desideri monitorare, come tutti i clienti che hanno abbandonato la visita sul sito web, che hanno effettuato una ricerca sul sito web senza effettuare un acquisto o anche i clienti con una sessione scaduta. Quando crei un trigger, definisci la relativa condizione e i dati che vengono inviati nell’evento (caricamento) in Adobe Campaign.
 
- Adobe Campaign, potete selezionare l&#39;attivatore precedentemente creato, arricchire i dati dell&#39;evento con i dati del datamart e definire un modello di messaggio transazionale collegato a tale trigger. Ad esempio, quando un cliente abbandona la visita sul sito Web, un evento viene inviato al Adobe Campaign  che può quindi sfruttare l’evento tramite un messaggio e-mail di remarketing inviato al cliente entro 15 minuti.
+In Adobe Campaign, selezioni il trigger precedentemente creato, arricchisci i dati dell’evento con i dati del data mart e definisci un modello di messaggio transazionale collegato a esso. Ad esempio, quando un cliente abbandona la visita sul sito web, un evento viene inviato in Adobe Campaign, che può quindi sfruttarlo tramite un’e-mail di remarketing inviata al cliente entro 15 minuti.
 
 **Argomenti correlati:**
 
-* Scopri i diversi tipi di trigger: [Documentazione](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)di Adobe Experience Cloud.
-* Guardate il video [Trigger Note Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) (Attivazione dei messaggi di commento in base alle attivitàdel sito).
-* Scopri i nostri due casi di utilizzo [di Triggers di abbandono](../../integrating/using/abandonment-triggers-use-cases.md).
+* Scopri i diversi tipi di trigger: [Documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
+* Guarda il video [Trigger dei messaggi di remarketing basati sull’attività del sito](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
+* Scopri i nostri due [casi di utilizzo di attivatori di abbandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Attiva il processo utente {#triggers-user-process}
+## Il processo utente dei trigger {#triggers-user-process}
 
 >[!CAUTION]
 >
->Prima di eseguire i passaggi utente principali, è necessario configurare la funzionalità. Per ulteriori informazioni, consulta [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality), [Configurazione di soluzioni e servizi](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services) e [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign).
+>Prima di eseguire i passaggi utente principali, devi configurare la funzionalità. Per ulteriori informazioni, consulta [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality), [Configurazione di soluzioni e servizi](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services) e [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign).
 
-I passaggi principali del processo utente, in  Adobe Campaign, sono:
+In Adobe Campaign i passaggi principali del processo utente consistono nel:
 
-1. Crea un evento di attivazione collegato a un trigger Adobe Experience Cloud esistente.
-1. Pubblicate l&#39;evento di attivazione.
-1. Definire il contenuto del modello di messaggio transazionale.
-1. Verificate il modello (create un profilo di test e inviate una prova).
-1. Pubblicate il modello di messaggio transazionale.
+1. Creare un evento trigger collegato a un trigger esistente in Adobe Experience Cloud;
+1. Pubblicare l’evento trigger;
+1. Definire il contenuto del modello di messaggio transazionale;
+1. Verificare il modello (creare un profilo di test e inviare una bozza);
+1. Pubblicare il modello di messaggio transazionale.
 
 I casi di utilizzo completi sono descritti in [questa sezione](../../integrating/using/abandonment-triggers-use-cases.md).
 
 ## Note importanti {#important-notes}
 
-Di seguito sono riportate alcune note importanti da tenere in considerazione prima di utilizzare Triggers - Integrazione della campagna:
+Di seguito sono riportate alcune note importanti da considerare prima di utilizzare l’integrazione Triggers - Campaign:
 
-* Le notifiche push non sono supportate per gli attivatori. Sono supportati solo e-mail e SMS.
-* Puoi arricchire il trigger con metadati acquisiti tramite  Analytics, ad esempio ID e-mail, nome pagina e così via.
-* Puoi riconciliare l’attivatore con un profilo memorizzato in Campaign Standard e utilizzare i campi del profilo per personalizzare il messaggio.
-* Non appena viene ricevuto, l&#39;attivatore viene elaborato, riconciliato e inviato. Ci vogliono circa 5-15 minuti a seconda del volume di attivatori ricevuti, del numero di campi di personalizzazione utilizzati nel modello.
+* Le notifiche push non sono supportate per i trigger. Sono supportati solo e-mail e SMS.
+* Puoi arricchire il trigger con metadati acquisiti tramite Analytics, ad esempio ID e-mail, nome pagina, ecc.
+* Puoi riconciliare il trigger con un profilo archiviato in Campaign Standard e utilizzare i campi del profilo per personalizzare il messaggio.
+* Il trigger viene elaborato, riconciliato e inviato subito dopo la sua ricezione. Ci vogliono circa 5-15 minuti a seconda del volume di trigger ricevuti e del numero di campi di personalizzazione utilizzati nel modello.
 
 >[!NOTE]
 >
->Per ulteriori informazioni su best practice e limitazioni tecniche, consulta [Triggers, procedure ottimali e limitazioni](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations).
+>Per ulteriori informazioni sulle best practice e limitazioni tecniche, consulta [Best practice e limitazioni dei trigger](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations).
 
