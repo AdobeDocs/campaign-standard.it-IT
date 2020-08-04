@@ -1,6 +1,6 @@
 ---
-title: Segnale esterno
-description: L'attività di segnale esterno attiva un flusso di lavoro quando alcune condizioni vengono soddisfatte in un altro flusso di lavoro.
+title: External signal
+description: L’attività External signal attiva un flusso di lavoro quando alcune condizioni vengono soddisfatte in un altro flusso di lavoro.
 page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
@@ -16,32 +16,32 @@ translation-type: tm+mt
 source-git-commit: 16afc307df6902584624d6457954a472b11c5129
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 3%
+ht-degree: 96%
 
 ---
 
 
-# Segnale esterno{#external-signal}
+# External signal{#external-signal}
 
 ## Descrizione {#description}
 
 ![](assets/signal.png)
 
-L&#39; **[!UICONTROL External signal]** attività attiva un flusso di lavoro quando alcune condizioni vengono soddisfatte in un altro flusso di lavoro o da una chiamata REST API.
+L’attività **[!UICONTROL External signal]** attiva un flusso di lavoro quando alcune condizioni vengono soddisfatte in un altro flusso di lavoro o da una chiamata API REST.
 
 ## Contesto di utilizzo {#context-of-use}
 
-L&#39; **[!UICONTROL External signal]** attività viene utilizzata per organizzare e orchestrare diversi processi che fanno parte dello stesso percorso del cliente in flussi di lavoro diversi. Consente di avviare un flusso di lavoro da un altro, consentendo di supportare percorsi cliente più complessi e di monitorare e reagire meglio in caso di problemi.
+L’attività **[!UICONTROL External signal]** viene utilizzata per organizzare e orchestrare diversi processi che fanno parte dello stesso customer journey in flussi di lavoro diversi. Consente di avviare un flusso di lavoro a partire da un altro, permettendo di supportare customer journey più complessi e al tempo stesso di monitorare e reagire meglio in caso di problemi.
 
-L&#39; **[!UICONTROL External signal]** attività è progettata per essere inserita come prima attività di un flusso di lavoro. Può essere attivata dall’ **[!UICONTROL End]** attività di un altro flusso di lavoro o da una chiamata REST API (per ulteriori informazioni, consulta la documentazione [](../../api/using/triggering-a-signal-activity.md)API).
+L’attività **[!UICONTROL External signal]** è progettata per essere inserita come prima attività di un flusso di lavoro. Può essere attivata dall’attività **[!UICONTROL End]** di un altro flusso di lavoro o da una chiamata API REST (per ulteriori informazioni, consulta la [documentazione API](../../api/using/triggering-a-signal-activity.md)).
 
-Quando viene attivato, i parametri esterni possono essere definiti e disponibili nelle variabili degli eventi del flusso di lavoro. La procedura per chiamare un flusso di lavoro con parametri esterni è descritta in [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Quando viene attivata, i parametri esterni possono essere definiti ed essere disponibili nelle variabili degli eventi del flusso di lavoro. Il processo per chiamare un flusso di lavoro con parametri esterni è descritto in [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 >[!NOTE]
 >
->L&#39;attività non può essere attivata più spesso di ogni 10 minuti.
+>L’attività può essere attivata non più di una volta ogni 10 minuti.
 
-Un&#39; **[!UICONTROL External signal]** attività può essere attivata da diversi eventi diversi. In tal caso, **[!UICONTROL External signal]** viene attivato non appena viene eseguito uno dei flussi di lavoro di origine o una chiamata API. Non richiede che tutti i flussi di lavoro di origine siano completati.
+Tieni presente che un’attività **[!UICONTROL External signal]** può essere attivata da diversi eventi differenti. In tal caso, il **[!UICONTROL External signal]** viene attivato non appena viene eseguito uno dei flussi di lavoro sorgente o una chiamata API. Non è necessario che tutti i flussi di lavoro sorgente siano completati.
 
 **Argomenti correlati**
 
@@ -50,42 +50,42 @@ Un&#39; **[!UICONTROL External signal]** attività può essere attivata da diver
 
 ## Configurazione {#configuration}
 
-Durante la configurazione di un segnale esterno, è importante prima configurare l&#39; **[!UICONTROL External signal]** attività nel flusso di lavoro di destinazione. Al termine della configurazione, l&#39; **[!UICONTROL External signal]** attività di questo flusso di lavoro diventa disponibile per configurare l&#39; **[!UICONTROL End]** attività del flusso di lavoro di origine.
+Durante la configurazione di un segnale esterno, è importante per prima cosa configurare l’attività **[!UICONTROL External signal]** nel flusso di lavoro di destinazione. Al termine della configurazione, l’attività **[!UICONTROL External signal]** di questo flusso di lavoro diventa disponibile per configurare l’attività **[!UICONTROL End]** del flusso di lavoro sorgente.
 
-1. Trascinate e rilasciate un&#39; **[!UICONTROL External signal]** attività nel flusso di lavoro di destinazione.
-1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
-1. Modificate l&#39;etichetta dell&#39;attività. Questa etichetta è necessaria per configurare il flusso di lavoro di origine che attiva l&#39; **[!UICONTROL External signal]**.
+1. Trascina e rilascia un’attività **[!UICONTROL External signal]** nel flusso di lavoro di destinazione.
+1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
+1. Modifica l’etichetta dell’attività. Questa etichetta è necessaria per configurare il flusso di lavoro sorgente che attiva il **[!UICONTROL External signal]**.
 
-   Se desiderate richiamare il flusso di lavoro con i parametri, utilizzate l&#39; **[!UICONTROL Parameters]** area per dichiararli. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters]** per dichiararli. Per ulteriori informazioni, consulta [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
 
    ![](assets/external_signal_configuration.png)
 
-1. Confermate la configurazione dell&#39;attività, aggiungete qualsiasi altra attività necessaria e salvate il flusso di lavoro.
+1. Conferma la configurazione dell’attività, aggiungi qualsiasi altra attività necessaria e salva il flusso di lavoro.
 
    >[!NOTE]
    >
-   >Per attivare il flusso di lavoro di destinazione da un altro flusso di lavoro, procedere come segue. Se desiderate attivare il flusso di lavoro di destinazione da una chiamata REST API, consultate la documentazione [](../../api/using/triggering-a-signal-activity.md) API per ulteriori dettagli.
+   >Se desideri attivare il flusso di lavoro di destinazione da un altro flusso di lavoro, procedi come segue. Se desideri attivare il flusso di lavoro di destinazione da una chiamata API REST, consulta la [documentazione API](../../api/using/triggering-a-signal-activity.md) per ulteriori dettagli.
 
-1. Aprite il flusso di lavoro di origine e selezionate un&#39; **[!UICONTROL End]** attività. Se non è disponibile alcuna **[!UICONTROL End]** attività, aggiungerne una dopo l&#39;ultima attività di un ramo del flusso di lavoro.
+1. Apri il flusso di lavoro sorgente e seleziona un’attività **[!UICONTROL End]**. Se non è disponibile alcuna attività **[!UICONTROL End]**, aggiungine una dopo l’ultima attività di un ramo del flusso di lavoro.
 
-   Per impostazione predefinita, alcune attività non hanno alcuna transizione in uscita. Dalla **[!UICONTROL Properties]** scheda di queste attività, è possibile aggiungere una transizione in uscita.
+   Per impostazione predefinita, alcune attività non hanno alcuna transizione in uscita. Puoi aggiungere una transizione in uscita dalla scheda **[!UICONTROL Properties]** di tali attività.
 
-   Ad esempio, in un&#39; **[!UICONTROL Update data]** attività, andate alla **[!UICONTROL Transitions]** scheda e selezionate l&#39; **[!UICONTROL Add an outbound transition without the population]** opzione. Questa opzione consente di aggiungere una transizione che non contiene dati e non richiede spazio inutile sul sistema. Viene utilizzato solo per collegare l&#39;attività supplementare **[!UICONTROL End]** che attiva il flusso di lavoro di destinazione.
+   Ad esempio, in un’attività **[!UICONTROL Update data]**, passa alla scheda **[!UICONTROL Transitions]** e seleziona l’opzione **[!UICONTROL Add an outbound transition without the population]**. Questa opzione consente di aggiungere una transizione che non contiene dati e non richiede spazio superfluo sul sistema. Viene utilizzata solo per collegare l’attività **[!UICONTROL End]** aggiuntiva che attiva il flusso di lavoro di destinazione.
 
    ![](assets/external_signal_empty_transition.png)
 
-1. Nella **[!UICONTROL External signal]** scheda dell&#39; **[!UICONTROL End]** attività, selezionate il flusso di lavoro di destinazione e l&#39; **[!UICONTROL External signal]** attività da attivare all&#39;interno di tale flusso di lavoro.
+1. Nella scheda **[!UICONTROL External signal]** dell’attività **[!UICONTROL End]**, seleziona il flusso di lavoro di destinazione e l’attività **[!UICONTROL External signal]** da attivare all’interno di tale flusso di lavoro.
 
-   Quando impostate un&#39; **[!UICONTROL End]** attività per attivare un altro flusso di lavoro, la relativa icona viene aggiornata con un ulteriore simbolo di segnale.
+   Quando imposti un’attività **[!UICONTROL End]** per attivare un altro flusso di lavoro, la relativa icona viene aggiornata con un simbolo di segnale aggiuntivo.
 
-   Se desiderate richiamare il flusso di lavoro con parametri, utilizzate l&#39; **[!UICONTROL Parameters and values]** area. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters and values]**. Per ulteriori informazioni, consulta [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
 
    ![](assets/external_signal_end.png)
 
-1. Salvate il flusso di lavoro di origine.
+1. Salva il flusso di lavoro sorgente.
 
-Una volta eseguita l&#39;attività **[!UICONTROL End]** del flusso di lavoro di origine o la chiamata REST API, il flusso di lavoro di destinazione viene attivato automaticamente dall&#39; **[!UICONTROL External signal]** attività.
+Una volta eseguita l’attività **[!UICONTROL End]** del flusso di lavoro sorgente o la chiamata API REST, il flusso di lavoro di destinazione viene attivato automaticamente dall’attività **[!UICONTROL External signal]**.
 
 >[!NOTE]
 >
->Per poter avviare il flusso di lavoro di destinazione, è necessario avviarlo manualmente. Quando viene avviato, **[!UICONTROL External activity]** viene attivato e attende il segnale dal flusso di lavoro di origine.
+>Il flusso di lavoro di destinazione deve essere avviato manualmente per poter essere attivato. Quando viene avviato, l’**[!UICONTROL External activity]** viene attivata e attende il segnale dal flusso di lavoro sorgente.
