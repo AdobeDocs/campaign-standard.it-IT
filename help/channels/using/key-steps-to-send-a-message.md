@@ -1,6 +1,6 @@
 ---
 title: Passaggi fondamentali per l’invio di un messaggio
-description: Per creare e inviare messaggi con Adobe Campaign, procedi come indicato di seguito.
+description: Segui questi passaggi per creare e inviare messaggi con Adobe Campaign.
 page-status-flag: never-activated
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
 contentOwner: sauviat
@@ -11,29 +11,32 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+workflow-type: ht
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
 
 # Passaggi fondamentali per l’invio di un messaggio{#key-steps-to-send-a-message}
 
-Per informazioni sulle procedure ottimali di consegna, consulta le procedure [ottimali di](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html) consegna.
+Per scoprire le best practice per la consegna, consulta la guida introduttiva [Best practice per la consegna](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html).
 
-La creazione e l&#39;invio di messaggi avviene nei seguenti passaggi:
+I passaggi per creare e inviare messaggi sono i seguenti:
 
-1. Creare un&#39; **[!UICONTROL Email]**, una **[!UICONTROL SMS]**, un&#39; **[!UICONTROL direct mail]** attività di **[!UICONTROL push notification]** marketing o Fate riferimento a [Creazione di un&#39;e-mail](../../channels/using/creating-an-email.md), [Creazione di un SMS](../../channels/using/creating-an-sms-message.md), [Creazione di una consegna](../../channels/using/creating-the-direct-mail.md) diretta e [Creazione di una notifica](../../channels/using/preparing-and-sending-a-push-notification.md)push.
-1. Seleziona le audience del messaggio. Fate riferimento a [Creazione di audience](../../audiences/using/creating-audiences.md).
-1. Definite il contenuto del messaggio e i relativi elementi di personalizzazione. Per ricevere e-mail o contenuti specifici per altri canali, fare riferimento all’editor [del](../../designing/using/designing-content-in-adobe-campaign.md) contenuto.
-1. Iniziate a preparare l&#39;invio per calcolare la popolazione di destinazione e generare il contenuto del messaggio. Consultare [Messaggi](../../sending/using/preparing-the-send.md)di approvazione.
+1. Crea un’**[!UICONTROL Email]**, un **[!UICONTROL SMS]**, una **[!UICONTROL direct mail]** o un’attività di marketing **[!UICONTROL push notification]**. Consulta [Creazione di un’e-mail](../../channels/using/creating-an-email.md), [Creazione di un SMS](../../channels/using/creating-an-sms-message.md), [Creazione di una consegna direct mailing](../../channels/using/creating-the-direct-mail.md) e [Creazione di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Seleziona i tipi di pubblico del messaggio. Consulta [Creazione di tipi di pubblico](../../audiences/using/creating-audiences.md).
+1. Definisci il contenuto del messaggio e i relativi elementi di personalizzazione. Consulta l’[editor dei contenuti](../../designing/using/designing-content-in-adobe-campaign.md) per e-mail o contenuti specifici per altri canali.
+1. Inizia a preparare l’invio per calcolare la popolazione del target e generare il contenuto del messaggio. Consulta [Approvazione dei messaggi](../../sending/using/preparing-the-send.md).
 
    >[!NOTE]
    >
-   >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Consultate [Regole](../../sending/using/fatigue-rules.md)di fatica.
+   >Puoi impostare regole di affaticamento globali cross-channel che escludono automaticamente i profili sollecitati eccessivamente dalle campagne. Consulta [Regole di affaticamento](../../sending/using/fatigue-rules.md).
 
-1. Invia prove. Fare riferimento a [Invio di prove](../../sending/using/sending-proofs.md).
-1. Invia il messaggio e controllane la consegna. Fare riferimento a [Invio di messaggi](../../sending/using/confirming-the-send.md).
-1. Controllate i rapporti di consegna dedicati. Fare riferimento a [Accesso ai rapporti](../../reporting/using/about-dynamic-reports.md).
+1. Invia bozze. Consulta [Invio delle bozze](../../sending/using/sending-proofs.md).
+1. Invia il messaggio e controllane la consegna. Consulta [Invio dei messaggi](../../sending/using/confirming-the-send.md).
+1. Controlla i rapporti di consegna dedicati. Consulta [Accesso ai rapporti](../../reporting/using/about-dynamic-reports.md).
 
-I parametri dei messaggi avanzati sono descritti in dettaglio nelle sezioni [Configurazione dei canali](../../administration/using/about-channel-configuration.md) .
+I parametri dei messaggi avanzati sono descritti in dettaglio nelle sezioni [Configurazione dei canali](../../administration/using/about-channel-configuration.md).
