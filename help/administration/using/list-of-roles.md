@@ -1,6 +1,6 @@
 ---
 title: Elenco di ruoli
-description: Scoprite l’elenco dei ruoli che potete assegnare ai vostri utenti.
+description: Scopri l’elenco dei ruoli che puoi assegnare agli utenti.
 page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
@@ -16,31 +16,31 @@ translation-type: tm+mt
 source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 7%
+ht-degree: 94%
 
 ---
 
 
 # Elenco di ruoli{#list-of-roles}
 
-Per impostazione predefinita,  Adobe Campaign offre un set di ruoli che consente di definire autorizzazioni unitarie assegnate a utenti e gruppi di utenti.
+Per impostazione predefinita, Adobe Campaign offre un set di ruoli che ti consente di definire autorizzazioni unitarie assegnate a utenti e gruppi di utenti.
 
-Insieme alle unità organizzative, i ruoli forniscono agli utenti una visualizzazione filtrata dell&#39;interfaccia e definiscono il loro accesso alle diverse funzioni.
+Insieme alle unità organizzative, i ruoli forniscono agli utenti una visualizzazione filtrata dell’interfaccia e ne definiscono l’accesso alle diverse funzioni.
 
-Per ulteriori informazioni, consultare la tabella [](/help/administration/using/assets/acs_rights.pdf)Ruoli e autorizzazioni, che descrive le funzioni disponibili nell&#39;interfaccia a seconda delle autorizzazioni selezionate.
+Per ulteriori informazioni, consulta la [tabella Ruoli e autorizzazioni](/help/administration/using/assets/acs_rights.pdf), che descrive le funzioni disponibili nell’interfaccia a seconda delle autorizzazioni selezionate.
 
 [![immagine](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
-I ruoli possono essere gestiti dal **[!UICONTROL Administration > Users & Security > Roles]** menu.
+I ruoli possono essere gestiti dal menu **[!UICONTROL Administration > Users & Security > Roles]**.
 
 I diritti predefiniti sono:
 
-* **[!UICONTROL Administration]**: Diritto di amministrazione generico.
-* **[!UICONTROL Datamodel]**: Diritto di eseguire pubblicazioni e creare risorse personalizzate.
-* **[!UICONTROL Generic import]**: Diritto di eseguire un&#39;importazione generica sui dati. Affinché questo funzioni, è necessario collegare il **[!UICONTROL Generic import]** ruolo al **[!UICONTROL Workflow]** ruolo.
-* **[!UICONTROL Prepare deliveries]**: Diritto di creare, modificare, preparare ed eliminare le consegne. Gli utenti con questo ruolo possono preparare la consegna ma non inviarla.
-* **[!UICONTROL Start deliveries]**: Diritto di creare, modificare, preparare, inviare ed eliminare consegne.
-* **[!UICONTROL Workflow]**: Diritto di gestire l&#39;esecuzione dei flussi di lavoro (avvio, arresto, pausa, ecc.). Gli utenti con questo ruolo non possono inviare una consegna nemmeno in un flusso di lavoro.
+* **[!UICONTROL Administration]**: diritto di amministrazione generico.
+* **[!UICONTROL Datamodel]**: diritto di eseguire pubblicazioni e creare risorse personalizzate.
+* **[!UICONTROL Generic import]**: diritto di eseguire un’importazione generica sui dati. Affinché ciò funzioni, devi collegare il ruolo **[!UICONTROL Generic import]** al ruolo **[!UICONTROL Workflow]**.
+* **[!UICONTROL Prepare deliveries]**: diritto di creare, modificare, preparare ed eliminare consegne. Gli utenti con questo ruolo possono preparare la consegna ma non inviarla.
+* **[!UICONTROL Start deliveries]**: diritto di creare, modificare, preparare, inviare ed eliminare consegne.
+* **[!UICONTROL Workflow]**: diritto di gestire l’esecuzione dei flussi di lavoro (avvio, arresto, pausa, ecc.). Gli utenti con questo ruolo non possono inviare una consegna nemmeno in un flusso di lavoro.
 
 **Argomenti correlati:**
 
