@@ -1,5 +1,5 @@
 ---
-title: Pianificazione della versione di Campaign Standard
+title: Pianificazione del rilascio di Campaign Standard
 description: In questa pagina sono elencate le prossime versioni di Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: null
@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 4%
+ht-degree: 98%
 
 ---
 
@@ -26,15 +26,15 @@ Adobe migliora continuamente le proprie soluzioni aggiungendo nuove funzionalit�
 
 Tutte le istanze di Adobe Campaign Standard vengono aggiornate con ogni nuova versione. Per effettuare l’aggiornamento non è richiesta alcuna azione.
 
-Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di Stage vengono aggiornate per consentire ai clienti di testare le nuove funzionalità e adattare la propria configurazione, se necessario. Le istanze di produzione vengono quindi aggiornate.
+Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di stage vengono aggiornate per consentire ai clienti di testare le nuove funzionalità e adattare la propria configurazione, se necessario. Vengono quindi aggiornate le istanze di produzione.
 
-Tutte le date di rilascio sono soggette a modifica: consigliamo di visitare questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
+Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
 
-**NUOVO!** Iscriviti alle notifiche [di rilascio di](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard per ottenere informazioni sulle prossime release direttamente nella casella in entrata.
+**NOVITÀ!** Abbonati alle [notifiche di rilascio di Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) per ottenere informazioni sulle prossime versioni direttamente nella tua casella in entrata.
 
 ## Release 20.4 - Rilascio di ottobre {#release-20-4-oct-release}
 
-Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note](../../rn/using/release-notes.md)sulla versione. Per ulteriori domande, contatta l&#39;Assistenza clienti [Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md). Per ulteriori domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
 <table>
  <thead>
@@ -59,32 +59,32 @@ Gli aggiornamenti dell&#39;ambiente si verificano a ondate, nei tempi indicati d
 
 ## Domande e risposte {#questions-and-answers}
 
-**D: Qual è l&#39;impatto?**
+**D: Che impatto hanno gli aggiornamenti?**
 
-A: Le modifiche sono elencate nelle Note sulla [versione](../../rn/using/release-notes.md), compresi i collegamenti alla relativa documentazione. Adobe consiglia inoltre di consultare la pagina [Funzioni](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)obsolete e rimosse. Queste pagine sono disponibili per la nuova versione alla data di aggiornamento dell&#39;ambiente Stage.
+R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release-notes.md), compresi i collegamenti alla relativa documentazione. Adobe consiglia inoltre di consultare la [pagina Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html). Queste pagine sono disponibili per la nuova versione nella data di aggiornamento dell’ambiente di stage.
 
 **D: Qual è il processo di convalida?**
 
-A: Con l&#39;aggiornamento dell&#39;istanza di staging, Adobe consiglia di convalidare i processi e i casi di utilizzo con questa nuova versione e di segnalare eventuali problemi ad [Adobe Client Care](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
-**D: Sarà possibile accedere all&#39;istanza durante il processo di aggiornamento?**
+**D: Sarà possibile accedere all’istanza durante il processo di aggiornamento?**
 
-A: No. Durante l&#39;aggiornamento dell&#39;istanza, il database potrebbe non essere accessibile in pochi minuti. Tutti i processi si riavviano automaticamente.
+R: No. Durante l’aggiornamento dell’istanza il database potrebbe non essere accessibile per qualche minuto. Tutti i processi vengono riavviati automaticamente.
 
 **D: I messaggi continueranno a essere inviati?**
 
-A: No. I messaggi non verranno inviati nel giro di pochi minuti. Al termine dell&#39;aggiornamento, i processi vengono riavviati automaticamente.
+R: No. I messaggi non verranno inviati per qualche minuto. Al termine dell’aggiornamento, i processi vengono riavviati automaticamente.
 
 **D: I flussi di lavoro continueranno a essere eseguiti e a inviare le consegne?**
 
-A: No. Durante l&#39;aggiornamento della build, il server del flusso di lavoro e MTA vengono entrambi interrotti. Ciò significa che i flussi di lavoro non verranno eseguiti e che le consegne non verranno inviate nel giro di pochi minuti. Nessuna azione richiesta: i flussi di lavoro inizieranno nuovamente non appena l&#39;istanza viene aggiornata.
+R: No. Durante l’aggiornamento della build, il server del flusso di lavoro e l’MTA vengono entrambi arrestati. Ciò significa che i flussi di lavoro non verranno eseguiti e che le consegne non verranno inviate per qualche minuto. Nessuna azione è richiesta: i flussi di lavoro verranno avviati nuovamente non appena l’istanza è aggiornata.
 
-**D: I collegamenti di tracciamento nei messaggi continueranno a funzionare durante l&#39;aggiornamento?**
+**D: I collegamenti di tracciamento nei messaggi continueranno a funzionare durante l’aggiornamento?**
 
-A: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l&#39;aggiornamento, ma i collegamenti di tracciamento inclusi nelle e-mail già inviate saranno operativi.
+R: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l’aggiornamento, ma i collegamenti di tracciamento inclusi nelle e-mail già inviate saranno operativi.
 
-**D: Come posso sapere che l&#39;aggiornamento è stato completato?**
+**D: Come posso sapere che l’aggiornamento è stato completato?**
 
-A: Quando accedete a Campaign, viene visualizzata una finestra a comparsa di notifica della versione, con l&#39;ultima versione.
+R: Quando accedi a Campaign, viene visualizzato un pop-up di notifica della versione, con la versione più recente.
 
-Per qualsiasi altra domanda, contatta l&#39;Assistenza clienti [Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
