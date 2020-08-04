@@ -1,6 +1,6 @@
 ---
-title: Trasferire file
-description: L'attività Trasferisci file consente di ricevere o inviare file, verificare se sono presenti file o elencare file in  Adobe Campaign.
+title: Transfer file
+description: L’attività Transfer file ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign.
 page-status-flag: never-activated
 uuid: a2f18118-b681-4310-aee0-9e82179d2032
 contentOwner: sauviat
@@ -16,28 +16,28 @@ translation-type: tm+mt
 source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
 workflow-type: tm+mt
 source-wordcount: '1075'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
 
-# Trasferire file{#transfer-file}
+# Transfer file{#transfer-file}
 
 ## Descrizione {#description}
 
 ![](assets/file_transfer.png)
 
-L&#39; **[!UICONTROL Transfer file]** attività consente di ricevere o inviare file, verificare se sono presenti file o elencare file in  Adobe Campaign.
+L’attività **[!UICONTROL Transfer file]** ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign.
 
 >[!CAUTION]
 >
->A partire dalla release 20.3, i file scaricati con l&#39; **[!UICONTROL Transfer File]** attività verranno eliminati dopo X giorni, dove X è determinato dal **[!UICONTROL History in days]** campo nel **[!UICONTROL Execution]** menu delle proprietà del flusso di lavoro.
+>A partire dalla release 20.3, puoi eliminare file scaricati con l’attività **[!UICONTROL Transfer File]** dopo X giorni, dove X è determinato dal campo **[!UICONTROL History in days]** nel menu **[!UICONTROL Execution]** delle proprietà del flusso di lavoro.
 
 ## Contesto di utilizzo {#context-of-use}
 
-Il modo in cui i dati verranno estratti viene definito quando l&#39;attività viene configurata. Il file da caricare può essere un elenco di contatti, ad esempio.
+La modalità di estrazione dei dati viene definita durante la configurazione dell’attività. Il file da caricare può rappresentare un elenco di contatti, ad esempio.
 
-Potete utilizzare questa attività per recuperare i dati che saranno quindi strutturati con l&#39; **[!UICONTROL Load file]** attività.
+Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati con l’attività **[!UICONTROL Load file]**.
 
 **Argomenti correlati:**
 
@@ -45,105 +45,105 @@ Potete utilizzare questa attività per recuperare i dati che saranno quindi stru
 
 ## Configurazione {#configuration}
 
-1. Rilasciate un&#39; **[!UICONTROL Transfer file]** attività nel flusso di lavoro.
-1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
-1. Utilizzate l&#39;elenco a discesa nel **[!UICONTROL Action]** campo per selezionare una delle seguenti azioni di attività:
+1. Rilascia un’attività **[!UICONTROL Transfer file]** nel flusso di lavoro.
+1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
+1. Utilizza l’elenco a discesa nel campo **[!UICONTROL Action]** per selezionare una delle seguenti azioni dell’attività:
 
    ![](assets/wkf_file_transfer_01.png)
 
-   * **Download** file: consente di scaricare un file.
-   * **Caricamento** file: consente di caricare un file. Il caricamento di un file da  file di Adobe Campaign genera una voce di registro nel **[!UICONTROL Export audits]** menu. Per ulteriori informazioni sui controlli delle esportazioni, consultare la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md) .
-   * **Test per verificare se il file esiste**: consente di verificare se è presente un file.
-   * **Elenco** file: consente di elencare i file presenti sul server definito nella **[!UICONTROL Protocol]** scheda. Questa azione viene utilizzata principalmente a scopo di debug, per verificare se l&#39;attività è configurata in base alle esigenze prima di scaricare i file dal server remoto.
+   * **File download**: ti consente di scaricare un file.
+   * **File upload**: ti consente di caricare un file. Il caricamento di un file da un file di Adobe Campaign genera una voce di registro nel menu **[!UICONTROL Export audits]**. Per ulteriori informazioni sui controlli delle esportazioni, consulta la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
+   * **Test to see if file exists**: ti consente di verificare se è presente un file.
+   * **File listing**: ti consente di elencare i file presenti sul server definito nella scheda **[!UICONTROL Protocol]**. Puoi utilizzare questa azione principalmente a scopo di debug, per verificare se l’attività è configurata in base alle tue esigenze prima di scaricare i file dal server remoto.
 
-1. Selezionare il protocollo da utilizzare:
+1. Seleziona il protocollo da utilizzare:
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
    * [Archivio BLOB di Microsoft Azure](#azure-blob-configuration-wf)
-   * [File presenti nel server di Adobe Campaign](#files-server-configuration-wf)
+   * [File presenti sul server di Adobe Campaign](#files-server-configuration-wf)
 
-1. La **[!UICONTROL Additional options]** sezione, disponibile a seconda del protocollo selezionato, consente di aggiungere parametri al protocollo. È possibile:
+1. La sezione **[!UICONTROL Additional options]**, disponibile a seconda del protocollo selezionato, ti consente di aggiungere parametri al protocollo. Puoi:
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: questa opzione è disponibile quando si seleziona l’ **[!UICONTROL File listing]** azione.nella **[!UICONTROL General]** scheda. Consente di indicizzare tutti i file presenti sul server nella variabile di evento **vars.filenames** , in cui i nomi dei file sono separati dai **&#39;n&#39;** caratteri.
+   * **[!UICONTROL List all files]**: questa opzione è disponibile quando selezioni l’azione **[!UICONTROL File listing]** nella scheda **[!UICONTROL General]**. Ti consente di indicizzare tutti i file presenti sul server nella variabile dell’evento **vars.filenames**, in cui i nomi dei file sono separati da **“n”** caratteri.
 
-1. La **[!UICONTROL If no files are found]** sezione della **[!UICONTROL Advanced options]** scheda consente di configurare azioni specifiche in caso di errori o file inesistenti rilevati all&#39;avvio dell&#39;attività.
+1. La sezione **[!UICONTROL If no files are found]** della scheda **[!UICONTROL Advanced options]** ti permette di configurare azioni specifiche in caso di errori o file inesistenti rilevati all’avvio dell’attività.
 
-   È inoltre possibile definire i tentativi. I diversi tentativi vengono visualizzati nel registro di esecuzione del flusso di lavoro.
+   Puoi anche definire il numero dei tentativi. I diversi tentativi vengono visualizzati nel log di esecuzione del flusso di lavoro.
 
    ![](assets/wkf_file_transfer_09.png)
 
-1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
+1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
 
 ### Configurazione con HTTP {#HTTP-configuration-wf}
 
-Il protocollo HTTP consente di iniziare a scaricare un file da un account esterno o da un URL.
+Il protocollo HTTP ti consente di iniziare a scaricare un file da un account esterno o da un URL.
 
-Con questo profilo, potete scegliere di **[!UICONTROL Use connection parameters defined in an external account]** opzione. In questo caso, selezionate l&#39;account che desiderate e specificate il percorso del file da scaricare.
+Con questo protocollo, puoi scegliere l’opzione **[!UICONTROL Use connection parameters defined in an external account]**. In questo caso, seleziona l’account desiderato e specifica il percorso del file da scaricare.
 ![](assets/wkf_file_transfer_03.png)
 
-Potete anche scegliere l’ **[!UICONTROL Quick configuration]** opzione. È sufficiente inserire l’URL nel campo URL.
+Puoi anche scegliere l’opzione **[!UICONTROL Quick configuration]**. Devi solo inserire l’URL nel relativo campo.
 ![](assets/wkf_file_transfer_04.png)
 
 ### Configurazione con SFTP {#SFTP-configuration-wf}
 
-Il protocollo SFTP consente di iniziare a scaricare un file da un URL o da un account esterno.
+Il protocollo SFTP ti consente di iniziare a scaricare un file da un URL o da un account esterno.
 
-Con questo profilo, potete scegliere l&#39; **[!UICONTROL Use connection parameters defined in an external account]** opzione, quindi selezionare l&#39;account desiderato e specificare il percorso del file da scaricare.
+Con questo protocollo, puoi scegliere l’opzione **[!UICONTROL Use connection parameters defined in an external account]**, quindi seleziona l’account desiderato e specifica il percorso del file da scaricare.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
 >
 >I caratteri jolly sono supportati.
 
-Potete anche scegliere l’ **[!UICONTROL Quick configuration]** opzione. È sufficiente inserire l’URL nel campo URL.
+Puoi anche scegliere l’opzione **[!UICONTROL Quick configuration]**. Devi solo inserire l’URL nel relativo campo.
 
 ### Configurazione con Amazon S3 {#S3-configuration-wf}
 
-Il protocollo Amazon S3 consente di iniziare a scaricare un file da un URL o da un account esterno tramite Amazon Simple Storage Service (S3).
+Il protocollo Amazon S3 ti consente di iniziare a scaricare un file da un URL o da un account esterno tramite Amazon Simple Storage Service (S3).
 
-1. Selezionate un account esterno Amazon S3. For more on this, refer to this [page](../../administration/using/external-accounts.md#amazon-s3-external-account).
+1. Seleziona un account esterno di Amazon S3. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/external-accounts.md#amazon-s3-external-account).
 
 2. Scegli se vuoi **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**.
 
-3. Specificate il percorso del file da scaricare.
+3. Specifica il percorso del file da scaricare.
 
    ![](assets/wkf_file_transfer_08.png)
 
-4. Se si desidera eliminare i file sorgente al termine del trasferimento, controllare **[!UICONTROL Delete the source files after transfer]**.
+4. Se desideri eliminare i file sorgente al termine del trasferimento, seleziona la casella **[!UICONTROL Delete the source files after transfer]**.
 
-### Configurazione con archiviazione BLOB di Microsoft Azure {#azure-blob-configuration-wf}
+### Configurazione con l’archivio BLOB di Microsoft Azure {#azure-blob-configuration-wf}
 
-Il protocollo BLOB di Microsoft Azure consente di accedere al BLOB in un account di archiviazione BLOB di Microsoft Azure.
+Il protocollo BLOB di Microsoft Azure ti consente di accedere a BLOB che si trovano in un account di archiviazione BLOB di Microsoft Azure.
 
-1. Selezionate un account **[!UICONTROL Microsoft Azure Blob]** esterno. For more on this, refer to this [page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+1. Seleziona un account esterno **[!UICONTROL Microsoft Azure Blob]**. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/external-accounts.md#microsoft-azure-external-account).
 
 1. Scegli se vuoi **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**.
 
    ![](assets/wkf_file_transfer_10.png)
 
-1. Specificate il percorso del file da scaricare, che può corrispondere a più BLOB. In tal caso, l&#39; **[!UICONTROL File transfer]** attività attiverà la transizione in uscita una volta trovata per ogni blob. Saranno quindi elaborati in ordine alfabetico.
+1. Specifica il percorso del file da scaricare, che può corrispondere a più BLOB. In questo caso, l’attività **[!UICONTROL File transfer]** attiva la transizione in uscita ogni volta che viene trovato un BLOB. Vengono quindi elaborati in ordine alfabetico.
 
    >[!CAUTION]
    >
-   >I caratteri jolly non sono supportati per corrispondere a nomi di file multipli. È necessario immettere un prefisso. Saranno idonei tutti i nomi di BLOB che corrispondono a tale prefisso.
+   >I caratteri jolly non sono supportati nel caso vengano riscontrati gli stessi nomi per più file. Invece, devi immettere un prefisso. Tutti i nomi dei BLOB che corrispondono a quel prefisso risultano idonei.
 
-   Di seguito sono riportati alcuni esempi di percorsi di file:
+   Di seguito trovi alcuni esempi di percorsi di file:
 
-   * **&quot;campaign/&quot;**: rileva tutti i blob nella cartella Campaign che si trova nella directory principale del contenitore.
-   * **&quot;campaign/new-&quot;**: rileva tutti i BLOB con un nome di file che inizia con &quot;new&quot; e si trova sotto la cartella Campaign.
-   * **&quot;&quot;**: l&#39;aggiunta di un percorso vuoto consente di far corrispondere tutti i blob disponibili nel contenitore.
+   * **&quot;campaign/&quot;**: rileva tutti i BLOB nella cartella Campaign che si trova nella directory principale del contenitore.
+   * **&quot;campaign/new-&quot;**: rileva tutti i BLOB con un nome di file che inizia con &quot;new-&quot; e si trova nella cartella Campaign.
+   * **&quot;&quot;**: l’aggiunta di un percorso vuoto ti consente di far coincidere tutti i BLOB disponibili nel contenitore.
 
-### Configurazione con i file presenti nel server di Adobe Campaign  {#files-server-configuration-wf}
+### Configurazione con file presenti nel server di Adobe Campaign {#files-server-configuration-wf}
 
-Il **[!UICONTROL File(s) present on the Adobe Campaign server]** protocollo corrisponde al repository contenente i file da recuperare.
-Metacaratteri o caratteri jolly (ad esempio * o ?) può essere utilizzato per filtrare i file.
+Il protocollo **[!UICONTROL File(s) present on the Adobe Campaign server]** corrisponde all’archivio contenente i file da recuperare.
+Puoi utilizzare metacaratteri o caratteri jolly (ad esempio * o ?) per filtrare file.
 
-Scegliete se desiderate **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]** l’ **[!UICONTROL Use a dynamic file path]** opzione, consente di utilizzare un’espressione standard e variabili di eventi per personalizzare il nome del file da trasferire. Per ulteriori informazioni, vedere la sezione [Personalizzazione delle attività con variabili](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) di eventi.
+Scegli se desideri **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**. L’opzione **[!UICONTROL Use a dynamic file path]** ti consente di utilizzare un’espressione standard e variabili di eventi per personalizzare il nome del file da trasferire. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
-Il percorso deve essere relativo alla directory dello spazio di archiviazione del server di Adobe Campaign . I file si trovano nella directory **sftp&lt;nomeistanza>/** . Non è inoltre possibile scorrere le directory sopra lo spazio di archiviazione. Ad esempio:
+Il percorso deve essere relativo alla directory dello spazio di archiviazione del server di Adobe Campaign. I file si trovano nella directory **sftp&lt;nomeistanza>/**. Inoltre non puoi sfogliare le directory al di sopra dello spazio di archiviazione. Ad esempio:
 
     >**user&amp;lt;yourinstancename>/my_recipients.csv** è corretto.
     >
@@ -151,20 +151,20 @@ Il percorso deve essere relativo alla directory dello spazio di archiviazione de
     >
     >**//myserver/hello/myrecipients.csv** non è corretto.
 
-## Impostazioni di istorizzazione {#historization-settings}
+## Historization settings {#historization-settings}
 
-Ogni volta che un&#39; **[!UICONTROL Transfer file]** attività viene eseguita, memorizza i file caricati o scaricati in una cartella dedicata. Viene creata una cartella per ogni **[!UICONTROL Transfer file]** attività di un flusso di lavoro. Pertanto, è importante poter limitare le dimensioni di questa cartella al fine di preservare lo spazio fisico sul server.
+Tutte le volte che esegui un’attività **[!UICONTROL Transfer file]**, memorizzi i file caricati o scaricati in una cartella dedicata. Viene creata una cartella per ogni attività **[!UICONTROL Transfer file]** di un flusso di lavoro. Pertanto, è importante poter limitare le dimensioni di questa cartella per preservare lo spazio fisico sul server.
 
-Per farlo, potete definire **[!UICONTROL Historization settings]** nel **[!UICONTROL Advanced options]** dell&#39; **[!UICONTROL Transfer File]** attività.
+A questo scopo, puoi definire le **[!UICONTROL Historization settings]** nelle **[!UICONTROL Advanced options]** dell’attività **[!UICONTROL Transfer File]**.
 
-**[!UICONTROL Historization settings]** consente di definire un numero massimo di file o una dimensione totale per la cartella dell&#39;attività. Per impostazione predefinita, sono autorizzati 100 file e 50 MB.
+**[!UICONTROL Historization settings]** ti consentono di definire un numero massimo di file o una dimensione totale per la cartella dell’attività. Per impostazione predefinita sono autorizzati 100 file e 50 MB.
 
-Ogni volta che l&#39;attività viene eseguita, la cartella viene controllata come segue:
+Tutte le volte che l’attività viene eseguita, la cartella viene controllata come segue:
 
-* Vengono presi in considerazione solo i file creati più di 24 ore prima dell&#39;esecuzione dell&#39;attività.
-* Se il numero di file presi in considerazione è maggiore del valore del **[!UICONTROL Maximum number of files]** parametro, i file meno recenti vengono eliminati finché non viene raggiunto il **[!UICONTROL Maximum number of files]** limite consentito.
-* Se la dimensione totale dei file presi in considerazione è maggiore del valore del **[!UICONTROL Maximum size (in MB)]** parametro, i file meno recenti vengono eliminati finché non viene raggiunto il **[!UICONTROL Maximum size (in MB)]** limite consentito.
+* Vengono presi in considerazione solo file creati più di 24 ore prima dell’esecuzione dell’attività.
+* Se il numero di file considerati è maggiore del valore del parametro **[!UICONTROL Maximum number of files]**, i file meno recenti vengono eliminati finché non viene raggiunto il **[!UICONTROL Maximum number of files]** consentito.
+* Se la dimensione totale dei file considerati è maggiore del valore del parametro **[!UICONTROL Maximum size (in MB)]**, i file meno recenti vengono eliminati finché non viene raggiunta la **[!UICONTROL Maximum size (in MB)]** consentita.
 
 >[!NOTE]
 >
->Se l&#39;attività non viene eseguita di nuovo, la relativa cartella non verrà controllata né eliminata. In questo modo, prestate attenzione quando trasferite file di grandi dimensioni.
+>Se l’attività non viene eseguita nuovamente, la relativa cartella non viene né controllata né eliminata. In quest’ottica, fai attenzione durante il trasferimento di file di grandi dimensioni.
