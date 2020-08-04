@@ -1,6 +1,6 @@
 ---
 title: Creazione di profili
-description: Scopri come creare profili e raccogliere dati sui tuoi contatti utilizzando API, funzionalità di importazione, acquisizione online, aggiornamenti automatici o manuali.
+description: Scopri come creare profili e raccogliere dati sui contatti tramite API, funzionalità di importazione, acquisizione online, aggiornamenti automatici o manuali.
 page-status-flag: never-activated
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
 contentOwner: sauviat
@@ -15,60 +15,60 @@ translation-type: tm+mt
 source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Creazione di profili{#creating-profiles}
 
-In Adobe Campaign, i profili sono utilizzati per impostazione predefinita per definire la destinazione principale dei messaggi.
+In Adobe Campaign, utilizzi profili per impostazione predefinita per definire la destinazione principale dei messaggi.
 
 Per creare o aggiornare un profilo in Campaign, puoi:
 
-* Importazione di un elenco di profili da un file tramite un [flusso di lavoro](../../automating/using/creating-import-workflow-templates.md)
-* Raccolta di dati online tramite pagine di [destinazione](../../channels/using/getting-started-with-landing-pages.md)
-* Creazione in massa tramite API [REST](../../api/using/get-started-apis.md)
-* Sincronizzare i profili da [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* Inserire i dati utilizzando le schermate dell&#39;interfaccia grafica, come illustrato di seguito
+* importare un elenco di profili da un file tramite un [flusso di lavoro](../../automating/using/creating-import-workflow-templates.md);
+* raccogliere dati online tramite [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md);
+* creare in massa tramite [API REST](../../api/using/get-started-apis.md);
+* sincronizzare profili da [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md);
+* inserire dati grazie alle schermate dell’interfaccia grafica, come spiegato di seguito.
 
-Ad esempio, per creare un nuovo profilo direttamente nell’interfaccia utente, effettuate le seguenti operazioni:
+Ad esempio, per creare un nuovo profilo direttamente dall’interfaccia utente, segui i passaggi qui sotto:
 
-1. Dalla home page di Adobe Campaign, fai clic sulla scheda Profili **** cliente o sulla scheda **Profili** per accedere all&#39;elenco dei profili.
+1. Dalla pagina Home di Adobe Campaign, fai clic sulla scheda **Customer Profiles** o su **Profiles** per accedere al relativo elenco.
 
    ![](assets/profile_creation_1.png)
 
-1. Quindi fate clic su **[!UICONTROL Create]**.
+1. Quindi fai clic su **[!UICONTROL Create]**.
 
    ![](assets/profile_creation.png)
 
-1. Immettete i dati del profilo.
+1. Immetti i dati del profilo.
 
    ![](assets/profile_creation1.png)
 
-   * Le informazioni di contatto, come nome, cognome, sesso, data di nascita, foto, lingua preferita (per le e-mail [](../../channels/using/creating-a-multilingual-email.md)multilingue) consentono di personalizzare meglio le consegne.
-   * Il profilo **[!UICONTROL Time zone]** viene utilizzato per inviare le consegne al fuso orario del profilo. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * La **[!UICONTROL Channels]** categoria, che contiene l&#39;indirizzo e-mail, il numero di telefono cellulare, le informazioni di rifiuto, vi consente di sapere su quale canale il profilo è raggiungibile.
-   * La **[!UICONTROL No longer contact]** categoria viene aggiornata non appena il profilo annulla la sottoscrizione a un canale.
-   * La **[!UICONTROL Address]** categoria contiene l&#39;indirizzo postale che deve essere compilato insieme all&#39; **[!UICONTROL Address specified]** opzione per inviare la posta [](../../channels/using/about-direct-mail.md) diretta a questo profilo. Se l&#39; **[!UICONTROL Address specified]** opzione non è selezionata, questo profilo verrà escluso da ogni consegna diretta per posta.
-   * La **[!UICONTROL Access authorization]** categoria indica le unità organizzative del profilo (per [gestire le autorizzazioni](../../administration/using/about-access-management.md)). Consultate anche [Profili](../../administration/using/organizational-units.md#partitioning-profiles)di partizionamento.
-   * La **[!UICONTROL Traceability]** categoria si aggiorna automaticamente con le informazioni relative all&#39;utente che ha creato o modificato il profilo.
+   * Le informazioni di contatto, come nome, cognome, genere, data di nascita, foto, lingua preferita (per [e-mail multilingue](../../channels/using/creating-a-multilingual-email.md)) consentono di personalizzare meglio le consegne.
+   * Il **[!UICONTROL Time zone]** del profilo viene utilizzato per inviare consegne secondo il relativo fuso orario. Per ulteriori informazioni, consulta questa [sezione](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * La categoria **[!UICONTROL Channels]**, che contiene l’indirizzo e-mail, il numero di telefono cellulare, le informazioni di rinuncia (opt-out), ti informa su quale canale puoi raggiungere il profilo.
+   * La categoria **[!UICONTROL No longer contact]** viene aggiornata dopo che il profilo ha annullato l’abbonamento a un canale.
+   * La categoria **[!UICONTROL Address]** contiene l’indirizzo postale che deve essere compilato insieme all’opzione **[!UICONTROL Address specified]** per inviare [direct mailing](../../channels/using/about-direct-mail.md) a questo profilo. Se l’opzione **[!UICONTROL Address specified]** non è selezionata, questo profilo viene escluso da tutte le consegne di direct mailing.
+   * La categoria **[!UICONTROL Access authorization]** indica le unità organizzative del profilo (per [gestire autorizzazioni](../../administration/using/about-access-management.md)). Consulta anche [Profili di partizione](../../administration/using/organizational-units.md#partitioning-profiles).
+   * La categoria **[!UICONTROL Traceability]** viene aggiornata automaticamente con le informazioni relative all’utente che ha creato o modificato il profilo.
 
-1. Fate clic **[!UICONTROL Create]** per salvare il profilo.
+1. Fai clic su **[!UICONTROL Create]** per salvare il profilo.
 
-Il profilo verrà ora visualizzato nell&#39;elenco.
-
->[!NOTE]
->
->La creazione di profili è possibile anche tramite l&#39;API Adobe Campaign Standard. Per ulteriori informazioni, consulta la documentazione [](../../api/using/creating-profiles.md)dedicata.
-
-I profili possono essere suddivisi in base alle unità organizzative. Per aggiungere i campi organizzativi ai profili, fare riferimento alla sezione Profili [](../../administration/using/organizational-units.md#partitioning-profiles) partizionamento.
+Il profilo viene ora visualizzato nell’elenco.
 
 >[!NOTE]
 >
->Il campo della lingua preferita viene utilizzato per selezionare la lingua durante l&#39;invio di messaggi in più lingue. Per ulteriori informazioni sui messaggi multilingue, [fare riferimento a questa pagina](../../channels/using/creating-a-multilingual-email.md).
+>Puoi creare profili anche tramite l’API di Adobe Campaign Standard. Per ulteriori informazioni, consulta la [documentazione dedicata](../../api/using/creating-profiles.md).
+
+Puoi suddividere i profili in base alle unità organizzative. Per aggiungere i campi organizzativi ai profili, consulta la sezione [Profili di partizione](../../administration/using/organizational-units.md#partitioning-profiles).
+
+>[!NOTE]
+>
+>Utilizza il campo della lingua preferita per selezionare la lingua durante l’invio di messaggi multilingue. Per ulteriori informazioni sui messaggi multilingue, [consulta questa pagina](../../channels/using/creating-a-multilingual-email.md).
 
 **Argomenti correlati:**
 
-* [Informazioni sulle pagine](../../channels/using/getting-started-with-landing-pages.md) di destinazione guida dettagliata
-* [Video sull’importazione di profili](https://video.tv.adobe.com/v/24993?captions=ita)
+* Guida dettagliata [Informazioni sulle pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md)
+* Video sull’[importazione di profili](https://video.tv.adobe.com/v/24993?captions=ita)
