@@ -1,6 +1,6 @@
 ---
 title: Impostazione di un doppio processo di consenso
-description: Attenetevi a questa procedura per impostare un doppio processo di consenso utilizzando le pagine di destinazione  Adobe Campaign.
+description: Segui questi passaggi per impostare un doppio processo di consenso utilizzando le pagine di destinazione in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 1%
+ht-degree: 89%
 
 ---
 
@@ -24,134 +24,134 @@ ht-degree: 1%
 
 ## Informazioni sul doppio consenso {#about-double-opt-in}
 
-Il doppio meccanismo di consenso è una procedura consigliata per l&#39;invio di e-mail. Protegge la piattaforma da indirizzi e-mail errati o non validi, spambots e impedisce possibili reclami di spam.
+Il doppio meccanismo di consenso è una best practice per l’invio di e-mail. Esso protegge la piattaforma da indirizzi e-mail errati o non validi, da spambot e impedisce possibili reclami di spam.
 
-Il principio consiste nell&#39;inviare un&#39;e-mail per confermare l&#39;accordo del visitatore prima di memorizzarlo come &quot;profili&quot; nel database Campaign: il visitatore compila una pagina di destinazione online, quindi riceve un messaggio e-mail e deve fare clic sul collegamento di conferma per finalizzare l’iscrizione.
+Il principio consiste nell’inviare un’e-mail per confermare il consenso del visitatore prima di memorizzarlo tra i “profili” nel database di Campaign: il visitatore compila una pagina di destinazione online, quindi riceve un messaggio e-mail e deve fare clic sul collegamento di conferma per finalizzare l’abbonamento.
 
 ![](assets/optin_mechanism.png)
 
-Per configurare questa impostazione, è necessario:
+Per configurare questa impostazione devi effettuare le seguenti operazioni:
 
-1. Create e pubblicate una pagina di destinazione in modo che i visitatori possano registrarsi e iscriversi. Questa pagina di destinazione sarà disponibile da un sito Web. I visitatori che compilano e inviano la pagina di destinazione saranno memorizzati nel database ma aggiunti all&#39;elenco dei blocchi, per non ricevere alcuna comunicazione prima della convalida finale (vedere Gestione degli elenchi dei [blocchi in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
-1. Crea e invia automaticamente l’e-mail di consenso, con un collegamento di conferma. Questo messaggio e-mail verrà indirizzato alla popolazione che ha inviato la pagina di destinazione. Sarà basato su un modello e-mail che consente di eseguire il targeting dei profili di rinuncia.
-1. Reindirizza a una pagina di destinazione di conferma. Questa pagina di destinazione finale proporrà un pulsante di conferma: i visitatori devono fare clic su di esso. Potete progettare un messaggio e-mail di benvenuto da inviare al termine della conferma e, ad esempio, aggiungere un’offerta speciale nell’e-mail per i nuovi destinatari.
+1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crea e invia automaticamente l’e-mail di consenso, con un collegamento di conferma. Questa e-mail eseguirà il targeting della popolazione che ha inviato la pagina di destinazione. Sarà basata su un modello e-mail che consente di eseguire il targeting dei profili di rinuncia.
+1. Reindirizza a una pagina di destinazione di conferma. Questa pagina di destinazione finale proporrà un pulsante di conferma: i visitatori devono fare clic su di esso. Puoi progettare un’e-mail di benvenuto da inviare al termine della conferma e, ad esempio, aggiungere un’offerta speciale nell’e-mail per i nuovi destinatari.
 
-Questi passaggi devono essere impostati in  Adobe Campaign in un ordine specifico affinché tutti i parametri siano attivati correttamente.
+Questi passaggi devono essere configurati in Adobe Campaign in un ordine specifico affinché tutti i parametri siano attivati correttamente.
 
-## Passaggio 1: Creare la pagina di destinazione di conferma {#step-1--create-the-confirmation-landing-page}
+## Passaggio 1: creare la pagina di destinazione di conferma {#step-1--create-the-confirmation-landing-page}
 
-Il processo di impostazione del meccanismo di doppio opt-in inizia con la creazione della pagina di destinazione di conferma: questa pagina verrà visualizzata quando i visitatori hanno fatto clic sul messaggio e-mail di conferma per registrarsi.
+Il processo di impostazione del doppio meccanismo di consenso inizia con la creazione della pagina di destinazione di conferma: questa pagina verrà visualizzata quando i visitatori hanno fatto clic sull’e-mail di conferma per registrarsi.
 
-Per creare e configurare questa pagina di destinazione, è necessario:
+Per creare e configurare questa pagina di destinazione, devi eseguire le seguenti operazioni:
 
-1. Progettate una [nuova pagina](../../channels/using/getting-started-with-landing-pages.md) di destinazione basata sul **[!UICONTROL Profile acquisition (acquisition)]** modello. Inserire l&#39;etichetta &quot;**CONFERMA**&quot;.
+1. Progetta una [nuova pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md) basata sul modello **[!UICONTROL Profile acquisition (acquisition)]**. Inserisci l’etichetta “**CONFIRMATION**”.
 
-   Se è necessario utilizzare [i servizi](../../audiences/using/about-subscriptions.md), è anche possibile utilizzare il **[!UICONTROL Subscription (sub)]** modello.
+   Se devi utilizzare dei [servizi](../../audiences/using/about-subscriptions.md), puoi utilizzare anche il modello **[!UICONTROL Subscription (sub)]**.
 
-1. Modificate le proprietà della pagina di destinazione e, nella **[!UICONTROL Access and loading]** sezione, deselezionate l’opzione **[!UICONTROL Authorize unidentified visitors]**, selezionate **[!UICONTROL Preload visitor data]** (questa non è obbligatoria).
+1. Modifica le proprietà della pagina di destinazione e, nella sezione **[!UICONTROL Access and loading]**, deseleziona l’opzione **[!UICONTROL Authorize unidentified visitors]** e seleziona **[!UICONTROL Preload visitor data]** (questo non è obbligatorio).
 
    ![](assets/optin_confirmlp_param.png)
 
-1. Nella sezione **[!UICONTROL Job]** > **[!UICONTROL Additional data]** , fate clic su **[!UICONTROL Add an element]** e immettete il percorso contestuale seguente:
+1. Nella sezione **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, fai clic su **[!UICONTROL Add an element]** e immetti il percorso contestuale seguente:
 
-   /context/profile/blockList
+   /context/profile/ inserire nell&#39;elenco Bloccati
 
-   Impostate il valore su **false** e fate clic su **[!UICONTROL Add]**.
+   Imposta il valore su **false** e fai clic su **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Questo contesto rimuove il campo &#39;Elenco blocchi&#39; per poter inviare e-mail. In seguito verrà visualizzato che la prima pagina di destinazione impostava questo campo su **true** prima della conferma, per impedire l’invio di e-mail a profili non confermati. Per ulteriori informazioni, consulta [il Passaggio 3: Crea la pagina](#step-3--create-the-acquisition-landing-page)di destinazione dell’acquisizione.
+   Questo contesto rimuove il campo &#39;Su  elenco Bloccati&#39;, per poter inviare le e-mail. Si nota in seguito che la prima pagina di destinazione impostava questo campo su **true** prima della conferma, per impedire l’invio di e-mail a profili non confermati. Per ulteriori informazioni, consulta il [Passaggio 3: creare la pagina di destinazione di acquisizione](#step-3--create-the-acquisition-landing-page).
 
-1. Personalizzare il contenuto della pagina di destinazione: potete visualizzare dati personalizzati e cambiare l&#39;etichetta del pulsante di conferma in &quot;Fare clic qui per confermare l&#39;iscrizione&quot;, ad esempio.
+1. Personalizza il contenuto della pagina di destinazione: puoi visualizzare dati personalizzati e cambiare l’etichetta del pulsante di conferma in “Fai clic qui per confermare l’abbonamento”, ad esempio.
 
    ![](assets/optin_confirmlp_design.png)
 
-1. Adatta il contenuto della pagina di conferma per informare gli utenti che sono ora registrati.
+1. Adatta il contenuto della pagina di conferma per informare gli abbonati che ora sono registrati.
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [Test e pubblicazione](../../channels/using/testing-publishing-landing-page.md) della pagina di destinazione.
+1. [Verifica e pubblica](../../channels/using/testing-publishing-landing-page.md) la pagina di destinazione.
 
-## Passaggio 2: Creare il messaggio e-mail di conferma {#step-2--create-the-confirmation-email}
+## Passaggio 2: creare l’e-mail di conferma {#step-2--create-the-confirmation-email}
 
-Una volta creata la pagina di destinazione di conferma, potete progettare il messaggio e-mail di conferma: questo messaggio e-mail verrà inviato automaticamente a ogni visitatore che convalida la pagina di destinazione dell’acquisizione. Questa convalida è considerata un evento e l&#39;e-mail è un messaggio transazionale, collegato a una regola di tipologia specifica che consente di eseguire il targeting delle popolazioni di rifiuto.
+Una volta creata la pagina di destinazione di conferma, puoi progettare l’e-mail di conferma: questa e-mail verrà inviata automaticamente a ogni visitatore che convalida la pagina di destinazione di acquisizione. Questa convalida è considerata un evento e l’e-mail è un messaggio transazionale, collegato a una regola di tipologia specifica che consente di eseguire il targeting delle popolazioni di rinuncia.
 
-I passaggi per creare questi elementi sono descritti di seguito. Devi seguirli prima di creare la pagina di destinazione dell’acquisizione stessa, in quanto a questo modello e-mail verrà fatto riferimento in essa.
+I passaggi per creare questi elementi sono descritti di seguito. Devi seguirli prima di creare la pagina di destinazione di acquisizione stessa, poiché in essa si farà riferimento a questo modello e-mail.
 
-### Creazione dell’evento {#create-the-event}
+### Creare l’evento {#create-the-event}
 
-Il messaggio e-mail di conferma è un messaggio [](../../channels/using/about-transactional-messaging.md) transazionale che risponde a un evento: la convalida del modulo. È innanzitutto necessario creare l&#39;evento e quindi creare il modello del messaggio di transazione.
+L’e-mail di conferma è un [messaggio transazionale](../../channels/using/about-transactional-messaging.md) poiché risponde a un evento: la convalida del modulo. Devi innanzitutto creare l’evento e poi creare il modello del messaggio transazionale.
 
-1. Create un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** , accessibile dal logo del Adobe Campaign , quindi immettete l&#39;etichetta &quot;**CONFERMA**&quot;.
-1. Selezionate la dimensione di **[!UICONTROL Profile]** targeting e fate clic su **[!UICONTROL Create]**.
+1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo Adobe Campaign, e immetti l’etichetta “**CONFIRM**”.
+1. Seleziona la dimensione di targeting **[!UICONTROL Profile]** e fai clic su **[!UICONTROL Create]**.
 
    ![](assets/optin_eventcreate.png)
 
-1. Nella **[!UICONTROL Fields]** sezione fare clic su **[!UICONTROL Create element]** e aggiungere il **[!UICONTROL email]** contenuto nella struttura dati per abilitare la riconciliazione.
-1. Nella **[!UICONTROL Enrichment]** sezione, fate clic su **[!UICONTROL Create element]** e selezionate la risorsa di **[!UICONTROL Profile]** destinazione. È quindi possibile eseguire la mappatura sul **[!UICONTROL email]** campo nella **[!UICONTROL Join definition]** sezione o su qualsiasi altra chiave di riconciliazione composita, a seconda delle esigenze.
+1. Nella sezione **[!UICONTROL Fields]**, fai clic su **[!UICONTROL Create element]** e aggiungi l’**[!UICONTROL email]** nella struttura dati per abilitare la riconciliazione.
+1. Nella sezione **[!UICONTROL Enrichment]**, fai clic su **[!UICONTROL Create element]** e seleziona la risorsa target **[!UICONTROL Profile]**. Puoi quindi eseguire la mappatura sul campo **[!UICONTROL email]** nella sezione **[!UICONTROL Join definition]** o su qualsiasi altra chiave di riconciliazione composita, a seconda delle tue esigenze.
 
    ![](assets/optin_eventcreate_join.png)
 
-   Per utilizzare i servizi, aggiungi la risorsa di **[!UICONTROL Service]** destinazione ed esegui il mapping sul **[!UICONTROL serviceName]** campo. Per ulteriori informazioni, consulta la sezione .
+   Se devi utilizzare dei servizi, aggiungi la risorsa target **[!UICONTROL Service]** ed esegui la mappatura sul campo **[!UICONTROL serviceName]**. Per ulteriori informazioni, consulta .
 
-1. Selezionare **[!UICONTROL Profile]** come **[!UICONTROL Targeting enrichment]** nell&#39;elenco a discesa.
-1. Fate clic **[!UICONTROL Publish]** per pubblicare l’evento.
+1. Seleziona **[!UICONTROL Profile]** come **[!UICONTROL Targeting enrichment]** nell’elenco a discesa.
+1. Fai clic su **[!UICONTROL Publish]** per pubblicare l’evento.
 
-L&#39;evento è pronto. Ora potete progettare il modello e-mail. Questo modello deve includere un collegamento alla pagina di destinazione **CONFERMA** creata in precedenza. Per ulteriori informazioni, vedi [Progettare il messaggio](#design-the-confirmation-message)di conferma.
+L’evento è pronto. Ora puoi progettare il modello e-mail. Questo modello deve includere un collegamento alla pagina di destinazione **CONFIRMATION** creata in precedenza. Per ulteriori informazioni, consulta [Progettare il messaggio di conferma](#design-the-confirmation-message).
 
 ### Creare la tipologia {#create-the-typology-rule}
 
-È necessario creare una [tipologia](../../sending/using/about-typology-rules.md)specifica duplicando unaesistente. La tipologia consentirà di inviare messaggi ai profili che non hanno ancora confermato il loro accordo e sono ancora in lista di blocco. Per impostazione predefinita, le tipologie escludono i profili di rifiuto (ad esempio nell’elenco dei blocchi). Per creare questa tipologia, procedere come segue:
+Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifica duplicandone una preconfigurata. La tipologia consentirà di inviare messaggi ai profili che non hanno ancora confermato il loro accordo e sono ancora in  elenco Bloccati. Per impostazione predefinita, le tipologie escludono i profili di rifiuto (ad es.  elenco Bloccati). Per creare questa tipologia, segui questi passaggi:
 
-1. Dal logo del Adobe Campaign di , selezionate **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e fate clic su **[!UICONTROL Typologies]**.
-1. Duplica la tipologia predefinita **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
-1. Una volta confermata la duplicazione, modificate la nuova tipologia e immettete l&#39;etichetta **TYPOLOGY_PROFILE**.
-1. Rimuovere l&#39; **indirizzo nella regola dell&#39;elenco** di blocchi.
-1. Clic **[!UICONTROL Save]**.
+1. Dal logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e fai clic su **[!UICONTROL Typologies]**.
+1. Duplica la tipologia preconfigurata **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
+1. Una volta confermata la duplicazione, modifica la nuova tipologia e immetti l’etichetta **TYPOLOGY_PROFILE**.
+1. Rimuovere l&#39; **indirizzo  regola del elenco Bloccati** .
+1. Fai clic su **[!UICONTROL Save]**.
 
-È ora possibile associare questa tipologia all&#39;e-mail di conferma.
+Questa tipologia può ora essere associata all’e-mail di conferma.
 
 ### Progettare il messaggio di conferma {#design-the-confirmation-message}
 
-L&#39;e-mail di conferma è un messaggio transazionale basato sull&#39;evento creato in precedenza. Per creare il messaggio, procedi come indicato di seguito:
+L’e-mail di conferma è un messaggio transazionale basato sull’evento creato in precedenza. Per creare il messaggio, segui i passaggi seguenti:
 
-1. Dal logo del Adobe Campaign di , selezionate **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** e fate clic su **[!UICONTROL Transactional messages]**.
-1. Modificate il modello e-mail **CONFERMA** e personalizzatelo. Potete caricare un contenuto esistente o utilizzare un modello predefinito.
-1. Aggiungete un collegamento alla pagina di destinazione **CONFERMA** e fate clic **[!UICONTROL Confirm]** per salvare le modifiche.
+1. Dal logo di Adobe Campaign, seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** e fai clic su **[!UICONTROL Transactional messages]**.
+1. Modifica il modello e-mail **CONFIRM** e personalizzalo. Puoi caricare un contenuto esistente o utilizzare un modello preconfigurato.
+1. Aggiungi un collegamento alla pagina di destinazione **CONFIRMATION** e fai clic su **[!UICONTROL Confirm]** per salvare le modifiche.
 
    ![](assets/optin_email_selectlp.png)
 
-1. Modificate le proprietà del modello e-mail. Nella sezione **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** , selezionare la tipologia **TYPOLOGY_PROFILE** creata in precedenza.
+1. Modifica le proprietà del modello e-mail. Nella sezione **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]**, seleziona la tipologia **TYPOLOGY_PROFILE** creata in precedenza.
 1. Salva e pubblica il messaggio transazionale.
 
-## Passaggio 3: Creare la pagina di destinazione di acquisizione {#step-3--create-the-acquisition-landing-page}
+## Passaggio 3: creare la pagina di destinazione di acquisizione {#step-3--create-the-acquisition-landing-page}
 
-Devi creare la pagina di destinazione dell’acquisizione iniziale: il modulo di partecipazione verrà pubblicato sul sito Web.
+Devi creare la pagina di destinazione di acquisizione iniziale: il modulo di consenso verrà pubblicato sul sito web.
 
-Per creare e configurare questa pagina di destinazione, è necessario:
+Per creare e configurare questa pagina di destinazione, devi eseguire le seguenti operazioni:
 
-1. Progettate una [nuova pagina](../../channels/using/getting-started-with-landing-pages.md) di destinazione basata sul **[!UICONTROL Profile acquisition (acquisition)]** modello. Inserire l&#39;etichetta &quot;**ACQUISIZIONE**&quot;.
-1. Modificate le proprietà della pagina di destinazione: nella sezione **[!UICONTROL Job]** > **[!UICONTROL Additional data]** , fate clic su **[!UICONTROL Add an element]** e immettete il percorso contestuale seguente:
+1. Progetta una [nuova pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md) basata sul modello **[!UICONTROL Profile acquisition (acquisition)]**. Inserisci l’etichetta “**ACQUISITION**”.
+1. Modifica le proprietà della pagina di destinazione: nella sezione **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, fai clic su **[!UICONTROL Add an element]** e immetti il percorso contestuale seguente:
 
-   /context/profile/blockList
+   /context/profile/ inserire nell&#39;elenco Bloccati
 
-   e impostare il valore su **true**.
+   Quindi imposta il valore su **true**.
 
-   Questo è obbligatorio per forzare l&#39;aggiunta all&#39;elenco dei blocchi ed evitare di inviare messaggi ai visitatori che non hanno confermato il loro accordo. La convalida della pagina di destinazione CONFERMA imposta questo campo su **false** dopo la conferma. Per ulteriori informazioni, vedere [Passaggio 1: Creare la pagina](#step-1--create-the-confirmation-landing-page)di destinazione di conferma.
+   Questo è obbligatorio per forzare l&#39;aggiunta al elenco Bloccati  ed evitare di inviare messaggi ai visitatori che non hanno confermato il loro accordo. La convalida della pagina di destinazione CONFIRMATION imposta questo campo su **false** dopo la conferma. Per ulteriori informazioni, consulta il [Passaggio 1: creare la pagina di destinazione di conferma](#step-1--create-the-confirmation-landing-page).
 
-1. Nella sezione **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** , selezionare l&#39;opzione **[!UICONTROL Start sending messages]**.
-1. Nell&#39;elenco a discesa associato, scegliete il modello di messaggio **CONFERMA** transazionale creato.
+1. Nella sezione **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**, seleziona l’opzione **[!UICONTROL Start sending messages]**.
+1. Nell’elenco a discesa associato, scegli il modello di messaggio transazionale **CONFIRM** creato.
 
    ![](assets/optin_acquisition_startoption.png)
 
-1. Personalizza il contenuto della pagina di destinazione, in base al marchio e ai dati da acquisire. Potete visualizzare dati personalizzati e cambiare l&#39;etichetta del pulsante di conferma per **confermare ad esempio l&#39;iscrizione** .
+1. Personalizza il contenuto della pagina di destinazione, in base al brand e ai dati da acquisire. Puoi visualizzare dati personalizzati e cambiare l’etichetta del pulsante di conferma in **Conferma l’abbonamento**, ad esempio.
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Personalizzate la pagina di conferma per informare il nuovo utente che deve convalidare l’iscrizione.
+1. Personalizza la pagina di conferma per informare il nuovo abbonato che deve convalidare l’abbonamento.
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [Test e pubblicazione](../../channels/using/testing-publishing-landing-page.md) della pagina di destinazione.
+1. [Verifica e pubblica](../../channels/using/testing-publishing-landing-page.md) la pagina di destinazione.
 
-È ora configurato il meccanismo di doppio consenso. È possibile eseguire e verificare la procedura da fine a fine, a partire dall&#39;URL pubblico di questa pagina di **[!UICONTROL ACQUISITION]** destinazione. Questo URL viene visualizzato nel dashboard della pagina di destinazione.
+Il doppio meccanismo di consenso è ora configurato. Puoi eseguire e verificare la procedura dall’inizio alla fine, a partire dall’URL pubblico di questa pagina di destinazione **[!UICONTROL ACQUISITION]**. Questo URL viene visualizzato nel dashboard della pagina di destinazione.
