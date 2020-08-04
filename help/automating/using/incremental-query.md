@@ -1,6 +1,6 @@
 ---
-title: Query incrementale
-description: L'attività query incrementale consente di filtrare ed estrarre una serie di elementi dal database del Adobe Campaign .
+title: Incremental query
+description: L’attività Incremental query ti consente di filtrare ed estrarre una popolazione di elementi dal database di Adobe Campaign.
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -15,37 +15,37 @@ snippet: y
 translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '614'
+ht-degree: 98%
 
 ---
 
 
-# Query incrementale{#incremental-query}
+# Incremental query{#incremental-query}
 
 ## Descrizione {#description}
 
 ![](assets/incremental.png)
 
-L&#39; **[!UICONTROL Incremental query]** attività consente di filtrare ed estrarre una serie di elementi dal database del Adobe Campaign . Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Questo consente di eseguire il targeting solo dei nuovi elementi.
+L’attività **[!UICONTROL Incremental query]** ti consente di filtrare ed estrarre una popolazione di elementi dal database di Adobe Campaign. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi.
 
-È possibile definire **[!UICONTROL Additional data]** per la popolazione di destinazione tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso.
+Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso.
 
-L&#39;attività utilizza lo strumento di editor di query. Questo strumento è dettagliato in una sezione [](../../automating/using/editing-queries.md#about-query-editor)dedicata.
+L’attività utilizza lo strumento editor delle query. Questo strumento è descritto in una [sezione dedicata](../../automating/using/editing-queries.md#about-query-editor).
 
 ## Contesto di utilizzo {#context-of-use}
 
-Per definire la frequenza di esecuzione del flusso di lavoro, e quindi la query, **[!UICONTROL Incremental query]** è necessario collegare un oggetto **[!UICONTROL Scheduler]** a un oggetto.
+Per definire la frequenza di esecuzione del flusso di lavoro, e quindi della query, è necessario collegare una **[!UICONTROL Incremental query]** a una **[!UICONTROL Scheduler]**.
 
-La **[!UICONTROL Processed data]** scheda, specifica per questa attività, consente di visualizzare eventuali risultati delle esecuzioni precedenti dell&#39;attività, se necessario.
+La scheda **[!UICONTROL Processed data]**, specifica per questa attività, ti consente di visualizzare eventuali risultati delle esecuzioni precedenti dell’attività, se necessario.
 
-L&#39; **[!UICONTROL Incremental query]** attività può essere utilizzata per vari tipi di usi:
+L’attività **[!UICONTROL Incremental query]** può avere vari tipi di utilizzi:
 
-* Segmentazione di singoli utenti per definire la destinazione di un messaggio, un pubblico ecc.
+* Segmentazione di singoli utenti per definire il target di un messaggio, un pubblico, ecc.
 
 * Esportazione dei dati.
 
-   Potete utilizzare un&#39; **[!UICONTROL Incremental query]** attività per esportare regolarmente nuovi file di registro. Può essere utile, ad esempio, se si desidera utilizzare i dati di registro in strumenti di reporting o BI esterni. Un esempio completo è disponibile nella sezione [Esportazione dei registri](../../automating/using/exporting-logs.md) .
+   Puoi utilizzare un’attività **[!UICONTROL Incremental query]** per esportare regolarmente i nuovi registri in file. Può essere utile, ad esempio, se desideri utilizzare i dati di registro in strumenti di reporting o BI esterni. Un esempio completo è disponibile nella sezione [Esportazione dei registri](../../automating/using/exporting-logs.md).
 
 **Argomenti correlati**
 
@@ -53,28 +53,28 @@ L&#39; **[!UICONTROL Incremental query]** attività può essere utilizzata per v
 
 ## Configurazione {#configuration}
 
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Incremental query]** attività nel flusso di lavoro.
-1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
-1. Se desiderate eseguire una query su una risorsa diversa dalla risorsa del profilo, andate alla **[!UICONTROL Properties]** scheda dell&#39;attività e selezionate un **[!UICONTROL Resource]** e un **[!UICONTROL Targeting dimension]**.
+1. Trascina e rilascia un’attività **[!UICONTROL Incremental query]** nel flusso di lavoro.
+1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
+1. Se desideri eseguire una query su una risorsa diversa da quella del profilo, passa alla scheda **[!UICONTROL Properties]** dell’attività e seleziona una **[!UICONTROL Resource]** e una **[!UICONTROL Targeting dimension]**.
 
-   Questo **[!UICONTROL Resource]** consente di perfezionare i filtri visualizzati nella palette, mentre il **[!UICONTROL Targeting dimension]**, contestuale rispetto alla risorsa selezionata, corrisponde al tipo di popolazione che si desidera ottenere (profili identificati, consegne, dati collegati alla risorsa selezionata, ecc.).
+   La **[!UICONTROL Resource]** ti consente di perfezionare i filtri visualizzati nella palette, mentre la **[!UICONTROL Targeting dimension]**, contestuale rispetto alla risorsa selezionata, corrisponde al tipo di popolazione che desideri ottenere (profili identificati, consegne, dati collegati alla risorsa selezionata, ecc.).
 
-1. Nella **[!UICONTROL Target]** scheda, eseguire la query definendo e combinando le regole.
-1. Nella **[!UICONTROL Processed data]** scheda, scegliete la modalità incrementale da utilizzare per le successive esecuzioni del flusso di lavoro:
+1. Nella scheda **[!UICONTROL Target]**, esegui la query definendo e combinando regole.
+1. Nella scheda **[!UICONTROL Processed data]**, scegli la modalità incrementale da utilizzare per le successive esecuzioni del flusso di lavoro:
 
-   * **[!UICONTROL Use the exclusion of the results of previous executions]**: sono esclusi i risultati delle esecuzioni precedenti per ogni nuova esecuzione.
-   * **[!UICONTROL Use a date field]**: le esecuzioni successive tengono conto solo dei risultati con il campo data selezionato maggiore o uguale all&#39;ultima data di esecuzione dell&#39; **[!UICONTROL Incremental query]** attività. È possibile selezionare qualsiasi campo data relativo alla risorsa selezionata nella **[!UICONTROL Properties]** scheda. Questa modalità offre prestazioni migliori quando si esegue una query su risorse di grandi dimensioni come i dati di registro.
+   * **[!UICONTROL Use the exclusion of the results of previous executions]**: i risultati delle esecuzioni precedenti per ciascuna nuova esecuzione sono esclusi.
+   * **[!UICONTROL Use a date field]**: le esecuzioni successive tengono conto solo dei risultati con il campo data selezionato maggiore o uguale all’ultima data di esecuzione dell’attività **[!UICONTROL Incremental query]**. Puoi selezionare qualsiasi campo data relativo alla risorsa selezionata nella scheda **[!UICONTROL Properties]**. Questa modalità offre prestazioni migliori quando viene eseguita una query su risorse di grandi dimensioni quali i dati di registro.
 
-      Dopo la prima esecuzione del flusso di lavoro, in questa scheda puoi vedere l&#39;ultima data di esecuzione che verrà utilizzata per l&#39;esecuzione successiva. Viene aggiornato automaticamente ogni volta che viene eseguito il flusso di lavoro. Potete comunque ignorare questo valore immettendo manualmente un nuovo valore in modo che sia adatto alle vostre esigenze.
+      Dopo la prima esecuzione del flusso di lavoro, in questa scheda puoi vedere l’ultima data di esecuzione che verrà utilizzata per l’esecuzione successiva. Viene aggiornata automaticamente ogni volta che il flusso di lavoro viene eseguito. Puoi comunque ignorare questo valore immettendone manualmente uno nuovo in modo tale che sia adatto alle tue esigenze.
    >[!NOTE]
    >
-   >La **[!UICONTROL Use a date field]** modalità consente una maggiore flessibilità a seconda del campo data selezionato. Ad esempio, se il campo selezionato corrisponde a una data di modifica, la modalità campo data consente di recuperare i dati che sono stati aggiornati di recente, mentre l&#39;altra modalità esclude semplicemente le registrazioni che erano già state oggetto di un&#39;esecuzione precedente, anche se sono state modificate dopo l&#39;ultima esecuzione del flusso di lavoro.
+   >La modalità **[!UICONTROL Use a date field]** consente una maggiore flessibilità a seconda del campo data selezionato. Ad esempio, se il campo selezionato corrisponde a una data di modifica, la modalità campo data ti consente di recuperare i dati che sono stati aggiornati di recente, mentre l’altra modalità esclude semplicemente le registrazioni che erano già state oggetto di targeting in un’esecuzione precedente, anche se sono state modificate dopo l’ultima esecuzione del flusso di lavoro.
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. È possibile definire **[!UICONTROL Additional data]** per la popolazione di destinazione tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, è possibile aggiungere dati dalle tabelle del database del Adobe Campaign  collegate alla dimensione di targeting della query. Consulta la sezione [Arricchimento dei dati](../../automating/using/query.md#enriching-data) .
-1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
+1. Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle del database di Adobe Campaign collegate alla dimensione di targeting della query. Consulta la sezione [Arricchimento dei dati](../../automating/using/query.md#enriching-data).
+1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
 
 ## Arricchimento dei dati {#enriching-data}
 
-Come per una query, potete arricchire i dati da un **[!UICONTROL Incremental query]**. Consulta la sezione [Arricchimento dei dati](../../automating/using/query.md#enriching-data) .
+Proprio come per una query, puoi arricchire i dati da una **[!UICONTROL Incremental query]**. Consulta la sezione [Arricchimento dei dati](../../automating/using/query.md#enriching-data).
