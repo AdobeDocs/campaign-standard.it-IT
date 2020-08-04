@@ -1,6 +1,6 @@
 ---
-title: Riconoscimento della gestione della quarantena
-description: Scopri come ottimizzare la tua recapito con la gestione della quarantena.
+title: Informazioni sulla gestione della quarantena
+description: Scopri come ottimizzare le consegne e-mail con la gestione della quarantena.
 page-status-flag: never-activated
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
 contentOwner: sauviat
@@ -15,85 +15,85 @@ translation-type: tm+mt
 source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 1%
+ht-degree: 81%
 
 ---
 
 
-# Riconoscimento della gestione della quarantena{#understanding-quarantine-management}
+# Informazioni sulla gestione della quarantena{#understanding-quarantine-management}
 
-## Informazioni sulle quarantena {#about-quarantines}
+## Informazioni sulla quarantena {#about-quarantines}
 
-È possibile mettere in quarantena un indirizzo e-mail o un numero di telefono, ad esempio, quando la cassetta postale è piena o se l&#39;indirizzo non esiste.
+È possibile mettere in quarantena un indirizzo e-mail o un numero di telefono, ad esempio, quando la casella di posta è piena o se l’indirizzo non esiste.
 
-In ogni caso, la procedura di quarantena è conforme alle norme specifiche descritte nella presente [sezione](#conditions-for-sending-an-address-to-quarantine).
+In ogni caso, la procedura di quarantena è conforme alle regole specifiche descritte nella presente [sezione](#conditions-for-sending-an-address-to-quarantine).
 
-### Ottimizzazione della distribuzione tramite quarantena {#optimizing-your-delivery-through-quarantines}
+### Ottimizzazione della consegna tramite quarantena {#optimizing-your-delivery-through-quarantines}
 
-I profili i cui indirizzi e-mail o numero di telefono si trovano in quarantena vengono automaticamente esclusi durante la preparazione dei messaggi (vedere [Identificazione degli indirizzi in quarantena per una consegna](#identifying-quarantined-addresses-for-a-delivery)). Ciò velocizzerà le consegne, poiché il tasso di errore ha un effetto significativo sulla velocità di consegna.
+I profili con indirizzi e-mail o numeri di telefono in quarantena vengono automaticamente esclusi durante la preparazione dei messaggi (vedi [Identificazione degli indirizzi messi in quarantena per una consegna](#identifying-quarantined-addresses-for-a-delivery)). In questo modo le consegne sono più rapide, poiché il tasso di errore ha un effetto significativo sulla velocità di consegna.
 
-Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se il tasso di indirizzi non validi è troppo alto. La quarantena consente quindi di evitare che questi provider vengano aggiunti a un elenco di blocchi.
+Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se il tasso di indirizzi non validi è troppo alto. La quarantena consente quindi di evitare di essere aggiunta a un elenco Bloccati  da parte di questi fornitori.
 
-Inoltre, le quarantena contribuiscono a ridurre i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
+Inoltre, le quarantene contribuiscono a ridurre i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
 
-Per ulteriori informazioni sulle best practice per proteggere e ottimizzare le consegne, consulta [questa pagina](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Per ulteriori informazioni sulle best practice per proteggere e ottimizzare le consegne, consulta [questa pagina](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html).
 
-### Elenco quarantena e blocchi {#quarantine-vs-block-list}
+### Quarantena e elenco Bloccati  {#quarantine-vs-block-list}
 
-**La quarantena** si applica solo a un indirizzo, non al profilo stesso. Ciò significa che, se due profili hanno lo stesso indirizzo e-mail, saranno entrambi interessati se l&#39;indirizzo viene messo in quarantena.
+La **quarantena** si applica solo a un indirizzo, non a tutto il profilo. Ciò significa che se due profili hanno lo stesso indirizzo e-mail, vengono entrambi coinvolti se l’indirizzo viene messo in quarantena.
 
-Allo stesso modo, un profilo il cui indirizzo e-mail è stato messo in quarantena potrebbe aggiornare il profilo e immettere un nuovo indirizzo, e potrebbe quindi essere nuovamente indirizzato mediante azioni di consegna.
+Allo stesso modo, un profilo con un indirizzo e-mail messo in quarantena potrebbe aggiornare il profilo e immettere un nuovo indirizzo e potrebbe quindi essere nuovamente indirizzato mediante azioni di consegna.
 
-Se ci si trova nell&#39;elenco **dei** blocchi, d&#39;altro canto, il profilo non verrà più mirato da alcuna consegna, ad esempio dopo un annullamento dell&#39;iscrizione (opzione di rifiuto). Per ulteriori informazioni sul processo dell&#39;elenco dei blocchi, consultate [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
-
->[!NOTE]
->
->Quando un utente risponde a un messaggio SMS con una parola chiave come &quot;STOP&quot; al fine di rifiutare le consegne degli SMS, il suo profilo non viene aggiunto all&#39;elenco dei blocchi come nel processo di rifiuto dell&#39;e-mail. Il numero di telefono del profilo viene inviato alla quarantena con lo **[!UICONTROL On block list]** stato. Questo stato si riferisce solo al numero di telefono, il profilo non è nell&#39;elenco dei blocchi in modo che l&#39;utente continui a ricevere i messaggi e-mail. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
-
-## Identificazione degli indirizzi in quarantena {#identifying-quarantined-addresses}
-
-Gli indirizzi in quarantena possono essere elencati per una consegna specifica o per l&#39;intera piattaforma.
+Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). Per ulteriori informazioni sul processo di elenco Bloccati , consulta [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
->Per rimuovere un indirizzo dalla quarantena, contattare l’amministratore tecnico.
+>Quando un utente risponde a un messaggio SMS con una parola chiave come &quot;STOP&quot; al fine di rifiutare le consegne degli SMS, il suo profilo non viene aggiunto al elenco Bloccati  come nel processo di rifiuto dell&#39;e-mail. Il numero di telefono del profilo viene messo in quarantena con lo stato **[!UICONTROL On block list]**. Questo stato si riferisce solo al numero di telefono, il profilo non si trova nel elenco Bloccati , quindi l&#39;utente continua a ricevere i messaggi e-mail. Per ulteriori informazioni, consulta [questa sezione](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-### Identificazione di indirizzi in quarantena per una consegna {#identifying-quarantined-addresses-for-a-delivery}
+## Identificazione degli indirizzi messi in quarantena {#identifying-quarantined-addresses}
 
-Gli indirizzi in quarantena per una consegna specifica sono elencati durante la fase di preparazione della consegna, nella **[!UICONTROL Exclusion logs]** scheda del dashboard di consegna (vedere [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). For more on delivery preparation, refer to [this section](../../sending/using/preparing-the-send.md).
+È possibile elencare gli indirizzi messi in quarantena per una consegna specifica o per l’intera piattaforma.
+
+>[!NOTE]
+>
+>Se devi rimuovere un indirizzo dalla quarantena, contatta l’amministratore tecnico.
+
+### Identificazione di indirizzi messi in quarantena per una consegna {#identifying-quarantined-addresses-for-a-delivery}
+
+Gli indirizzi in quarantena per una consegna specifica vengono elencati durante la fase di preparazione della consegna, nella scheda **[!UICONTROL Exclusion logs]** del dashboard di consegna (vedi [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Per ulteriori informazioni sulla preparazione della consegna, consulta [questa sezione](../../sending/using/preparing-the-send.md).
 
 ![](assets/exclusion_logs.png)
 
-### Identificazione degli indirizzi in quarantena per l’intera piattaforma {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identificazione degli indirizzi messi in quarantena per l’intera piattaforma {#identifying-quarantined-addresses-for-the-entire-platform}
 
-Gli amministratori possono elencare gli indirizzi in quarantena per l&#39;intera piattaforma dal **[!UICONTROL Administration > Channels > Quarantines > Addresses]** menu.
+Gli amministratori possono elencare gli indirizzi messi in quarantena per l’intera piattaforma dal menu **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
 
 >[!NOTE]
 >
->Questo menu elenca gli elementi in quarantena per i canali di **e-mail**, **SMS** e notifiche **** push.
+>Questo menu elenca gli elementi messi in quarantena per i canali **e-mail**, **SMS** e di **notifiche push**.
 
 ![](assets/quarantines1.png)
 
 >[!NOTE]
 >
->L&#39;aumento delle quarantena è un effetto normale, legato all&#39;usura del database. Ad esempio, se la durata di un indirizzo e-mail è considerata di tre anni e la tabella del destinatario aumenta del 50% ogni anno, l’aumento delle quarantena può essere calcolato come segue: Fine anno 1: (1*0.33)/(1+0.5)=22%. Fine anno 2: ((1.22*0.33)+0.33)/(1.5+0.75)=32,5%.
+>L’aumento del numero delle quarantene è un effetto normale, legato all’&quot;usura&quot; del database. Ad esempio, se la durata di un indirizzo e-mail è considerata di tre anni e la tabella del destinatario aumenta del 50% ogni anno, l’aumento delle quarantene può essere calcolato come segue: fine anno 1: (1*0.33)/(1+0.5)=22%. Fine anno 2: ((1.22*0.33)+0.33)/(1.5+0.75)=32,5%.
 
-## Condizioni per l&#39;invio di un indirizzo alla quarantena {#conditions-for-sending-an-address-to-quarantine}
+## Condizioni per la messa in quarantena di un indirizzo {#conditions-for-sending-an-address-to-quarantine}
 
- Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e al motivo assegnato durante la qualifica dei messaggi di errore (vedere Tipi di [consegna non riuscita e motivi](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) e qualificazione [della posta](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)rimbalzata).
+Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e al motivo assegnato durante la qualifica dei messaggi di errore (consulta [Tipi di consegna non riuscita e motivi](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) e [Qualifica delle e-mail non recapitate](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 
-* **Errore** ignorato: gli errori ignorati non inviano un indirizzo alla quarantena.
-* **Errore** rigido: l&#39;indirizzo e-mail corrispondente viene inviato immediatamente alla quarantena.
-* **Errore** temporaneo: gli errori software non inviano immediatamente un indirizzo alla quarantena, ma incrementano un contatore di errori. Quando il contatore di errori raggiunge la soglia limite, l&#39;indirizzo viene messo in quarantena. Nella configurazione predefinita, la soglia è impostata su cinque errori, dove due errori sono significativi se si verificano almeno 24 ore di differenza. L&#39;indirizzo viene messo in quarantena al quinto errore. È possibile modificare la soglia del contatore di errori. For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **Errore ignorato**: gli errori ignorati non mettono un indirizzo in quarantena.
+* **Errore rigido**: l’indirizzo e-mail corrispondente viene messo immediatamente in quarantena.
+* **Errore morbido**: gli errori morbidi non mettono immediatamente un indirizzo in quarantena, ma incrementano un contatore di errori. Quando il contatore di errori raggiunge la soglia limite, l’indirizzo viene messo in quarantena. Nella configurazione predefinita, la soglia è impostata a cinque errori, dove due errori sono significativi se si verificano almeno a 24 ore di distanza. L’indirizzo viene messo in quarantena al quinto errore. È possibile modificare la soglia del contatore di errori. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
-   Quando una consegna ha esito positivo dopo un nuovo tentativo, viene reinizializzato il contatore di errori dell&#39;indirizzo precedente a quello messo in quarantena. Lo stato dell’indirizzo cambia in **[!UICONTROL Valid]** e viene eliminato dall’elenco delle quarantena dopo due giorni dal **[!UICONTROL Database cleanup]** flusso di lavoro.
+   Quando una consegna ha esito positivo dopo un nuovo tentativo, viene reinizializzato il contatore di errori dell’indirizzo precedente a quello messo in quarantena. Lo stato dell’indirizzo cambia in **[!UICONTROL Valid]** e viene eliminato dall’elenco della quarantena dopo due giorni dal flusso di lavoro **[!UICONTROL Database cleanup]**.
 
-Se un utente qualifica un&#39;e-mail come spam (**Feedback loop**), il messaggio viene automaticamente reindirizzato verso una cassetta postale tecnica gestita da Campaign. L&#39;indirizzo e-mail dell&#39;utente viene quindi inviato automaticamente in quarantena con lo **[!UICONTROL On block list]** stato . Questo stato si riferisce solo all&#39;indirizzo, il profilo non è nell&#39;elenco dei blocchi, in modo che l&#39;utente continui a ricevere messaggi SMS e notifiche push.
+Se un utente qualifica un’e-mail come spam (**Feedback loop**), il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Campaign. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL On block list]**. Questo stato si riferisce solo all&#39;indirizzo, il profilo non si trova nel elenco Bloccati , quindi l&#39;utente continua a ricevere messaggi SMS e notifiche push.
 
 >[!NOTE]
-La quarantena nel Adobe Campaign  fa distinzione tra maiuscole e minuscole. Accertatevi di importare gli indirizzi e-mail in lettere maiuscole, in modo che non vengano ritirati in un secondo momento.
+In Adobe Campaign la quarantena distingue tra maiuscole e minuscole. Accertati di importare gli indirizzi e-mail in lettere minuscole, in modo che non vengano reindirizzate in un secondo momento.
 
-Nell&#39;elenco degli indirizzi in quarantena (vedere [Identificazione degli indirizzi in quarantena per l&#39;intera piattaforma](#identifying-quarantined-addresses-for-the-entire-platform)), il **[!UICONTROL Error reason]** campo indica il motivo per cui l&#39;indirizzo selezionato è stato messo in quarantena.
+Nell’elenco degli indirizzi messi in quarantena (vedi [Identificazione degli indirizzi messi in quarantena per l’intera piattaforma](#identifying-quarantined-addresses-for-the-entire-platform)), il campo **[!UICONTROL Error reason]** indica per quale motivo l’indirizzo selezionato è stato messo in quarantena.
 
 ![](assets/quarantines2.png)
 
