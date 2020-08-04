@@ -1,6 +1,6 @@
 ---
-title: Informazioni sulle sottoscrizioni
-description: Ulteriori informazioni sui servizi e sulle iscrizioni in Campaign Standard.
+title: Informazioni sugli abbonamenti
+description: Ulteriori informazioni su servizi e abbonamenti in Campaign Standard.
 page-status-flag: never-activated
 uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat
@@ -15,24 +15,24 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 4%
+ht-degree: 80%
 
 ---
 
 
-# Informazioni sulle sottoscrizioni{#about-subscriptions}
+# Informazioni sugli abbonamenti{#about-subscriptions}
 
- Adobe Campaign consente di creare e gestire newsletter e comunicazioni tra canali attraverso un set di **servizi**: i messaggi possono essere inviati solo ai profili sottoscritti dal servizio (consenso). Questi profili vengono identificati utilizzando un filtro dedicato durante la creazione di un messaggio.
+Con Adobe Campaign puoi creare e gestire newsletter e comunicazioni cross-channel attraverso un set di **servizi**: è possibile inviare messaggi solo ai profili abbonati al servizio (opt-in). Questi profili vengono identificati utilizzando un filtro dedicato durante la creazione di un messaggio.
 
-È possibile configurare meccanismi di iscrizione per offrire ai clienti la possibilità di iscriversi a questi servizi, in particolare tramite **e-mail** e pagine **di** destinazione.
+Puoi configurare meccanismi di abbonamento per offrire ai clienti l’opportunità di abbonarsi a questi servizi, in particolare tramite **e-mail** e **pagine di destinazione**.
 
 Ogni servizio include:
 
-* **Meccanismi di iscrizione** (opt-in) e **[!UICONTROL Unsubscription]** (opt-out).
-* Meccanismi **di** conferma dell&#39;iscrizione e/o dell&#39;annullamento dell&#39;iscrizione.
-* Una **cronologia** di iscrizione.
+* Meccanismi di **abbonamento** (opt-in) e **[!UICONTROL Unsubscription]** (opt-out).
+* **Meccanismi di conferma** dell’abbonamento e/o del suo annullamento.
+* Una **cronologia** degli abbonamenti.
 
-Le iscrizioni possono essere gestite anche tramite l&#39;API  Adobe Campaign Standard. For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+Puoi gestire gli abbonamenti anche tramite l’API Adobe Campaign Standard. Per ulteriori informazioni, consulta la [documentazione dedicata](../../api/using/creating-a-service.md).
 
 **Argomenti correlati**
 
