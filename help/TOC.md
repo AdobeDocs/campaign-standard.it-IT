@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
 source-wordcount: '1550'
-ht-degree: 81%
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
    + [Pianificazione del rilascio](rn/using/release-planning.md)
    + [Funzioni obsolete](rn/using/deprecated-features.md)
 + Guida introduttiva {#getting-started}
-   + [Informazioni  Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [Informazioni su Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [Privacy e consenso](start/using/privacy.md)
    + Esplorazione dell’interfaccia {#discovering-the-interface}
       + [Informazioni sull’interfaccia](start/using/about-the-interface.md)
@@ -37,26 +37,26 @@ ht-degree: 81%
       + [Attività di marketing](start/using/marketing-activities.md)
       + [Modelli di attività di marketing](start/using/marketing-activity-templates.md)
       + [Timeline](start/using/timeline.md)
-+ Profili e pubblico {#profiles-and-audiences}
-   + [Introduzione a profili e audience](audiences/using/get-started-profiles-and-audiences.md)
++ Profili e tipi di pubblico {#profiles-and-audiences}
+   + [Guida introduttiva a profili e tipi di pubblico](audiences/using/get-started-profiles-and-audiences.md)
    + Gestione dei profili {#managing-profiles}
       + [Informazioni sui profili](audiences/using/about-profiles.md)
       + [Creazione di profili](audiences/using/creating-profiles.md)
       + [Modifica dei profili](audiences/using/editing-profiles.md)
-      + [Profilo cliente integrato](audiences/using/integrated-customer-profile.md)
+      + [Integrated Customer Profile](audiences/using/integrated-customer-profile.md)
       + [Profili attivi](audiences/using/active-profiles.md)
       + [Gestione dei profili di test](audiences/using/managing-test-profiles.md)
       + [Arricchimento del database di Campaign](audiences/using/enriching-campaign-database.md)
    + Gestione dei tipi di pubblico {#managing-audiences}
       + [Informazioni sui tipi di pubblico](audiences/using/about-audiences.md)
-      + [Creazione di un pubblico](audiences/using/creating-audiences.md)
+      + [Creazione di tipi di pubblico](audiences/using/creating-audiences.md)
       + [Selezione di un pubblico in un messaggio](audiences/using/selecting-an-audience-in-a-message.md)
-   + Gestione delle sottoscrizioni {#managing-subscriptions}
-      + [Informazioni sulle sottoscrizioni](audiences/using/about-subscriptions.md)
+   + Gestione degli abbonamenti {#managing-subscriptions}
+      + [Informazioni sugli abbonamenti](audiences/using/about-subscriptions.md)
       + [Creazione di un servizio](audiences/using/creating-a-service.md)
       + [Promozione di un servizio](audiences/using/promoting-a-service.md)
-      + [Monitoraggio delle sottoscrizioni](audiences/using/monitoring-subscriptions.md)
-      + [Conferma della sottoscrizione a un servizio](audiences/using/confirming-subscription-to-a-service.md)
+      + [Monitoraggio degli abbonamenti](audiences/using/monitoring-subscriptions.md)
+      + [Conferma dell&#39;abbonamento a un servizio](audiences/using/confirming-subscription-to-a-service.md)
    + Informazioni sui processi di consenso e diniego {#understanding-opt-in-and-opt-out-processes}
       + [Informazioni sul consenso e diniego in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestione del consenso e del diniego in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -66,7 +66,7 @@ ht-degree: 81%
       + [Gestione dei tipi di pubblico di Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
       + [Utilizzo di Segment Builder](audiences/using/aep-using-segment-builder.md)
 + Canali di comunicazione {#communication-channels}
-   + [Introduzione ai canali di comunicazione](channels/using/get-started-communication-channels.md)
+   + [Guida introduttiva ai canali di comunicazione](channels/using/get-started-communication-channels.md)
    + Informazioni sui canali di comunicazione {#about-communication-channels}
       + [Passaggi fondamentali per l’invio di un messaggio](channels/using/key-steps-to-send-a-message.md)
       + [Accesso ai messaggi](channels/using/accessing-messages.md)
@@ -96,14 +96,14 @@ ht-degree: 81%
       + [Informazioni sulla messaggistica in-app](channels/using/about-in-app-messaging.md)
       + [Preparazione e invio di un messaggio in-app](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Personalizzazione di un messaggio in-app](channels/using/customizing-an-in-app-message.md)
-   + Direct mail {#direct-mail}
-      + [Informazioni sulla direct mail](channels/using/about-direct-mail.md)
+   + Direct mailing {#direct-mail}
+      + [Informazioni sulla direct mailing](channels/using/about-direct-mail.md)
       + [Rendi al mittente](channels/using/return-to-sender.md)
-      + [Creazione della direct mail](channels/using/creating-the-direct-mail.md)
-      + [Definizione del pubblico della direct mail](channels/using/defining-the-direct-mail-audience.md)
-      + [Definizione del contenuto della direct mail](channels/using/defining-the-direct-mail-content.md)
+      + [Creazione della direct mailing](channels/using/creating-the-direct-mail.md)
+      + [Definizione del pubblico della direct mailing](channels/using/defining-the-direct-mail-audience.md)
+      + [Definizione del contenuto della direct mailing](channels/using/defining-the-direct-mail-content.md)
    + Messaggi transazionali {#transactional-messaging}
-      + [Informazioni sui messaggi transazionali](channels/using/about-transactional-messaging.md)
+      + [Informazioni sulla messaggistica transazionale](channels/using/about-transactional-messaging.md)
       + [Messaggi sulle transazioni degli eventi](channels/using/event-transactional-messages.md)
       + [Messaggi sulle transazioni di profilo](channels/using/profile-transactional-messages.md)
       + [Notifiche push transazionali](channels/using/transactional-push-notifications.md)
@@ -126,18 +126,18 @@ ht-degree: 81%
       + [Elaborazione di contenuti riutilizzabili](designing/using/using-reusable-content.md)
       + [Utilizzo di integrazioni con più soluzioni](designing/using/using-integrations.md)
       + [Modifica di e-mail per dispositivi mobili, in HTML o testo normale](designing/using/plain-text-html-modes.md)
-      + [Conversione di e-mail dell&#39;Editor legacy in Designer e-mail](designing/using/converting-emails-from-legacy-editor.md)
+      + [Conversione di e-mail dall’Editor Legacy a E-mail Designer](designing/using/converting-emails-from-legacy-editor.md)
    + [Personalizzazione di contenuti e-mail](designing/using/personalization.md)
    + [Gestione degli stili e-mail](designing/using/styles.md)
    + [Gestione dei collegamenti](designing/using/links.md)
    + [Gestione delle immagini](designing/using/images.md)
    + [Domande frequenti](designing/using/faq-email-designer.md)
-+ Test e invio {#testing-and-sending}
-   + [Introduzione a test e invio](sending/using/get-started-sending-messages.md)
++ Verifica e invio {#testing-and-sending}
+   + [Guida introduttiva alla verifica e all’invio](sending/using/get-started-sending-messages.md)
    + Preparazione e verifica dei messaggi {#preparing-and-testing-messages}
       + [Anteprima delle consegne](sending/using/previewing-messages.md)
       + [Preparazione dell’invio](sending/using/preparing-the-send.md)
-      + [Invio di prove](sending/using/sending-proofs.md)
+      + [Invio di bozze](sending/using/sending-proofs.md)
       + [Verifica dei messaggi e-mail tramite profili di destinazione](sending/using/testing-messages-using-target.md)
       + [Verifica dell’oggetto di un messaggio e-mail](sending/using/testing-subject-line-email.md)
       + [E-mail basate su AI](sending/using/predictive.md)
@@ -156,15 +156,15 @@ ht-degree: 81%
       + [Monitoraggio di una consegna](sending/using/monitoring-a-delivery.md)
       + [Ricezione degli avvisi in caso di errori](sending/using/receiving-alerts-when-failures-happen.md)
       + [Informazioni sugli errori di consegna](sending/using/understanding-delivery-failures.md)
-      + [Riconoscimento della gestione della quarantena](sending/using/understanding-quarantine-management.md)
+      + [Informazioni sulla gestione della quarantena](sending/using/understanding-quarantine-management.md)
    + Gestione delle consegne {#managing-deliverability}
-      + [Informazioni sul recapito messaggi](sending/using/about-deliverability.md)
+      + [Informazioni sulla consegna messaggi](sending/using/about-deliverability.md)
       + [Avvio di una nuova piattaforma](sending/using/starting-new-platform.md)
       + [Controllo di contenuti e-mail](sending/using/control-email-content.md)
       + [Crescita reputazione](sending/using/improving-reputation.md)
       + [Certificazione IP](sending/using/ip-certification.md)
       + [Raccomandazioni tecniche](sending/using/technical-recommendations.md)
-      + [Monitoraggio del recapito messaggi](sending/using/monitor-deliverability.md)
+      + [Monitoraggio della consegna messaggi](sending/using/monitor-deliverability.md)
       + [Risoluzione dei problemi](sending/using/troubleshooting.md)
    + Utilizzo delle regole di tipologia {#working-with-typology-rules}
       + [Informazioni su tipologie e regole di tipologia](sending/using/about-typology-rules.md)
@@ -194,7 +194,7 @@ ht-degree: 81%
       + [Report notifiche push](reporting/using/push-notification-report.md)
       + [Report SMS](reporting/using/sms-report.md)
       + [Indicatori di tracciamento](reporting/using/tracking-indicators.md)
-      + [Sottoscrizioni non riuscite](reporting/using/unsubscriptions.md)
+      + [Abbonamenti non riusciti](reporting/using/unsubscriptions.md)
       + [URL e flussi di clic](reporting/using/urls-and-click-streams.md)
       + [Hot click](reporting/using/hot-clicks.md)
       + [Riepilogo del servizio](reporting/using/service-summary.md)
@@ -205,7 +205,7 @@ ht-degree: 81%
       + [Creazione di una dimensione di profilo personalizzata](reporting/using/creating-a-custom-profile-dimension.md)
       + [Creazione di un report basato sui segmenti del flusso di lavoro](reporting/using/creating-a-report-workflow-segment.md)
 + Integrazione con altre soluzioni {#integrating-with-adobe-cloud}
-   + [Introduzione alle integrazioni per le campagne](integrating/using/get-started-campaign-integrations.md)
+   + [Guida introduttiva alle integrazioni con Campaign](integrating/using/get-started-campaign-integrations.md)
    + Campaign ed Experience Manager {#working-with-campaign-and-experience-manager}
       + [Informazioni sull’integrazione di Campaign ed Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configurazione per l’integrazione di Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
@@ -236,58 +236,58 @@ ht-degree: 81%
       + [Verifica degli attivatori](integrating/using/testing-your-triggers.md)
       + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Introduzione all&#39;integrazione con Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Guida introduttiva all’integrazione con Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Gestione di processi e dati {#managing-processes-and-data}
-   + [Introduzione alla gestione dei dati e dei processi](automating/using/get-started-workflows.md)
+   + [Guida introduttiva alla gestione dei dati e dei processi](automating/using/get-started-workflows.md)
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
-      + [Interfaccia del flusso di lavoro](automating/using/workflow-interface.md)
+      + [Interfaccia dei flussi di lavoro](automating/using/workflow-interface.md)
       + [Creazione di un flusso di lavoro](automating/using/building-a-workflow.md)
-      + [Procedure consigliate per i flussi di lavoro](automating/using/best-practices-workflows.md)
+      + [Best practice per i flussi di lavoro](automating/using/best-practices-workflows.md)
    + Esecuzione di un flusso di lavoro {#executing-a-workflow}
-      + [Informazioni sull&#39;esecuzione del flusso di lavoro](automating/using/about-workflow-execution.md)
+      + [Informazioni sull’esecuzione di un flusso di lavoro](automating/using/about-workflow-execution.md)
       + [Ciclo di vita del flusso di lavoro](automating/using/workflow-life-cycle.md)
       + [Comandi di esecuzione](automating/using/execution-commands.md)
-      + [Esecuzione del flusso di lavoro di monitoraggio](automating/using/monitoring-workflow-execution.md)
+      + [Monitoraggio dell’esecuzione di un flusso di lavoro](automating/using/monitoring-workflow-execution.md)
       + [Gestione delle opzioni di esecuzione](automating/using/managing-execution-options.md)
       + [Gestione delle proprietà delle attività](automating/using/activity-properties.md)
    + [Chiamata di un flusso di lavoro con parametri esterni](automating/using/calling-a-workflow-with-external-parameters.md)
    + Attività di targeting {#targeting-activities}
       + [Informazioni sulle attività di targeting](automating/using/about-targeting-activities.md)
       + [Query](automating/using/query.md)
-      + [Query incrementale](automating/using/incremental-query.md)
-      + [Unione](automating/using/union.md)
-      + [Intersezione](automating/using/intersection.md)
-      + [Esclusione](automating/using/exclusion.md)
-      + [Segmentazione](automating/using/segmentation.md)
-      + [Leggi pubblico](automating/using/read-audience.md)
-      + [Salva pubblico](automating/using/save-audience.md)
-      + [Deduplicazione](automating/using/deduplication.md)
-      + [Arricchimento](automating/using/enrichment.md)
+      + [Incremental query](automating/using/incremental-query.md)
+      + [Union](automating/using/union.md)
+      + [Intersection](automating/using/intersection.md)
+      + [Exclusion](automating/using/exclusion.md)
+      + [Segmentation](automating/using/segmentation.md)
+      + [Read audience](automating/using/read-audience.md)
+      + [Save audience](automating/using/save-audience.md)
+      + [Deduplication](automating/using/deduplication.md)
+      + [Enrichment](automating/using/enrichment.md)
    + Attività di esecuzione {#execution-activities}
       + [Informazioni sulle attività di esecuzione](automating/using/about-execution-activities.md)
-      + [Inizio e fine](automating/using/start-and-end.md)
+      + [Start ed End](automating/using/start-and-end.md)
       + [Fork](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
-      + [Pianificazione](automating/using/scheduler.md)
-      + [Attendi](automating/using/wait.md)
-      + [Segnale esterno](automating/using/external-signal.md)
+      + [Scheduler](automating/using/scheduler.md)
+      + [Wait](automating/using/wait.md)
+      + [External signal](automating/using/external-signal.md)
       + [Test](automating/using/test.md)
    + Attività dei canali {#channel-activities}
       + [Informazioni sulle attività dei canali](automating/using/about-channel-activities.md)
-      + [Recapito e-mail](automating/using/email-delivery.md)
-      + [Consegna SMS](automating/using/sms-delivery.md)
-      + [Recapito notifiche push](automating/using/push-notification-delivery.md)
-      + [Recapito direct mail](automating/using/direct-mail-delivery.md)
-      + [Distribuzione in-app](automating/using/in-app-delivery.md)
+      + [Email delivery](automating/using/email-delivery.md)
+      + [SMS delivery](automating/using/sms-delivery.md)
+      + [Consegna notifiche push](automating/using/push-notification-delivery.md)
+      + [Direct mail delivery](automating/using/direct-mail-delivery.md)
+      + [In-App delivery](automating/using/in-app-delivery.md)
    + Attività di gestione dati {#data-management-activities}
       + [Informazioni sulle attività di gestione dati](automating/using/about-data-management-activities.md)
-      + [Aggiornare dati](automating/using/update-data.md)
-      + [Caricare file](automating/using/load-file.md)
-      + [Trasferire file](automating/using/transfer-file.md)
-      + [Riconciliazione](automating/using/reconciliation.md)
-      + [Estrarre file](automating/using/extract-file.md)
-      + [Servizi sottoscrizione](automating/using/subscription-services.md)
-      + [API esterna](automating/using/external-api.md)
+      + [Update data](automating/using/update-data.md)
+      + [Load file](automating/using/load-file.md)
+      + [Transfer file](automating/using/transfer-file.md)
+      + [Reconciliation](automating/using/reconciliation.md)
+      + [Extract file](automating/using/extract-file.md)
+      + [Subscription Services](automating/using/subscription-services.md)
+      + [External API](automating/using/external-api.md)
    + Filtrare dati {#filtering-data}
       + [Modifica delle query](automating/using/editing-queries.md)
       + [Modifica avanzata delle espressioni](automating/using/advanced-expression-editing.md)
@@ -308,7 +308,7 @@ ht-degree: 81%
          + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
          + [Creazione di consegne sulla data di creazione dei profili](automating/using/workflow-creation-date-query.md)
          + [Creazione di una consegna settimanale](automating/using/workflow-weekly-offer.md)
-         + [Creazione di recapito messaggi cross-channel](automating/using/workflow-cross-channel-delivery.md)
+         + [Creazione di consegna messaggi cross-channel](automating/using/workflow-cross-channel-delivery.md)
          + [Identificazione di duplicati prima della consegna](automating/using/identifying-duplicated-before-delivery.md)
          + [Consegna compleanno](automating/using/birthday-delivery.md)
          + [Accoppiamento delle consegne e-mail e della posta diretta](automating/using/coupling-email-direct-mail.md)
@@ -340,7 +340,7 @@ ht-degree: 81%
       + [Targeting dei tipi di pubblico di Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Sviluppo {#developing}
-   + [Guida introduttiva al modello dati Campaign Standard](developing/using/get-started-data-model.md)
+   + [Guida introduttiva al modello dati di Campaign Standard](developing/using/get-started-data-model.md)
    + Informazioni sulle risorse personalizzate {#about-custom-resources}
       + [Concetti del modello dati](developing/using/data-model-concepts.md)
       + [Stati delle risorse](developing/using/resource-statuses.md)
@@ -362,30 +362,30 @@ ht-degree: 81%
       + [Passaggio 3: verificare l’estensione](developing/using/step-3--verify-the-extension.md)
    + Casi di utilizzo: estensione delle risorse {#use-cases--extending-resources}
       + [Estensione della risorsa profilo con un nuovo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
-      + [Estensione delle sottoscrizioni a una risorsa dell’applicazione](developing/using/extending-the-subscriptions-to-an-application-resource.md)
+      + [Estensione degli abbonamenti a una risorsa dell’applicazione](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modello dati {#datamodel}
       + [Introduzione](developing/using/datamodel-introduction.md)
       + [Pubblico](developing/using/datamodel-audience.md)
       + [Campagna](developing/using/datamodel-campaign.md)
       + [Consegna](developing/using/datamodel-delivery.md)
       + [Pagine di destinazione](developing/using/datamodel-landingpage.md)
-      + [Cronologia marketing](developing/using/datamodel-history.md)
+      + [Storico dei dati marketing](developing/using/datamodel-history.md)
       + [Profilo](developing/using/datamodel-profile.md)
       + [Programma](developing/using/datamodel-program.md)
       + [Iscritto Seed](developing/using/datamodel-seed.md)
       + [Servizio](developing/using/datamodel-service.md)
       + [Evento iscrizione](developing/using/datamodel-subscription.md)
-      + [Registri di tracking](developing/using/datamodel-tracking.md)
+      + [Registri di tracciamento](developing/using/datamodel-tracking.md)
       + [Evento di annullamento iscrizione](developing/using/datamodel-unsubscription.md)
       + [Visitatore](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Informazioni su Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
+   + Connettore dati di Adobe Experience Platform {#mapping-campaign-and-aep-data}
+      + [Informazioni sul Connettore dati di Adobe Experience Platform](developing/using/aep-about-data-connector.md)
       + [Panoramica del modello di dati di Experience Platform](developing/using/aep-data-model-overview.md)
       + [Definizione mappature](developing/using/aep-mapping-definition.md)
       + [Attivazione mappature](developing/using/aep-mapping-activation.md)
-      + [Attivazione dell’assimilazione dei dati tramite API](developing/using/aep-triggering-data-ingestion.md)
+      + [Attivazione dell’acquisizione dati tramite API](developing/using/aep-triggering-data-ingestion.md)
 + Amministrazione {#administrating}
-   + [Introduzione all&#39;amministrazione Campaign Standard](administration/using/get-started-campaign-administration.md)
+   + [Guida introduttiva all’amministrazione di Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Linee guida per il monitoraggio](administration/using/monitoring-guidelines.md)
    + [Linee guida per la configurazione](administration/using/about-configuration-guidelines.md)
    + Utenti e sicurezza {#users-and-security}
@@ -419,8 +419,8 @@ ht-degree: 81%
       + [Conservazione dei dati](administration/using/data-retention.md)
       + [Aggiornamenti e operazioni di manutenzione](administration/using/updates-and-maintenance-operations.md)
 + Utilizzo delle API {#working-with-apis}
-   + [Introduzione alle API Campaign Standard](api/using/get-started-apis.md)
-   + Informazioni sulle API Campaign Standard {#about-campaign-standard-apis}
+   + [Guida introduttiva alle API di Campaign Standard](api/using/get-started-apis.md)
+   + Informazioni sulle API di Campaign Standard {#about-campaign-standard-apis}
       + [Perché utilizzare le API di Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Impostazione dell’accesso API](api/using/setting-up-api-access.md)
    + Concetti globali {#global-concepts}
@@ -439,15 +439,15 @@ ht-degree: 81%
       + [Recupero profili](api/using/retrieving-profiles.md)
       + [Aggiornamento dei profili](api/using/updating-profiles.md)
       + [Creazione di profili](api/using/creating-profiles.md)
-   + Gestione di servizi e sottoscrizioni {#managing-services-and-subscriptiopns}
+   + Gestione di servizi e abbonamenti {#managing-services-and-subscriptiopns}
       + [Creazione di un servizio](api/using/creating-a-service.md)
-      + [Recupero sottoscrizioni](api/using/retrieving-subscriptions.md)
-      + [Effettuare sottoscrizioni](api/using/perform-subscriptions.md)
-      + [Eliminazione di sottoscrizioni](api/using/deleting-subscriptions.md)
-   + [Interazione con la cronologia di marketing](api/using/interacting-with-marketing-history.md)
+      + [Recupero abbonamenti](api/using/retrieving-subscriptions.md)
+      + [Effettuare abbonamenti](api/using/perform-subscriptions.md)
+      + [Eliminazione di abbonamenti](api/using/deleting-subscriptions.md)
+   + [Interazione con lo storico dei dati marketing](api/using/interacting-with-marketing-history.md)
    + Gestione della privacy {#privacy-management}
-      + [Creazione di richieste di privacy](api/using/creating-a-privacy-request.md)
-      + [Monitoraggio di richieste di privacy](api/using/monitoring-a-privacy-request.md)
+      + [Creazione di una richiesta di accesso a dati personali](api/using/creating-a-privacy-request.md)
+      + [Monitoraggio di una richiesta di accesso a dati personali](api/using/monitoring-a-privacy-request.md)
       + [Recupero file di dati sulla privacy](api/using/retrieving-privacy-data-files.md)
       + [Gestione dell’opt-out CCPA](api/using/managing-ccpa-opt-out.md)
    + [Gestione dei messaggi delle transazioni](api/using/managing-transactional-messages.md)
