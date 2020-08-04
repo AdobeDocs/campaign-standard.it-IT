@@ -1,6 +1,6 @@
 ---
 title: Account esterni
-description: Configurate gli account esterni per configurare le connessioni con sistemi esterni come i server SFTP.
+description: Configura account esterni per impostare connessioni con sistemi esterni quali i server SFTP.
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
@@ -16,84 +16,84 @@ translation-type: tm+mt
 source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 3%
+ht-degree: 96%
 
 ---
 
 
 # Account esterni{#external-accounts}
 
-Un account esterno è una configurazione che consente di configurare e verificare l’accesso a un server esterno al Adobe Campaign .
+Un account esterno è una configurazione che ti consente di configurare e testare l’accesso a un server esterno ad Adobe Campaign.
 
-Questi account esterni possono essere utilizzati nei flussi di lavoro di Campaign per accedere e gestire i dati.
+Questi account esterni possono essere utilizzati nei flussi di lavoro di Campaign per accedere ai dati e gestirli.
 
-È possibile impostare i seguenti tipi di account esterni:
+Puoi impostare i seguenti tipi di account esterni:
 
-* SFTP. Per ulteriori informazioni al riguardo, consulta [questa sezione](#sftp-external-account).
-* Amazon Storage Service (S3). Per ulteriori informazioni al riguardo, consulta [questa sezione](#amazon-s3-external-account).
-*  Adobe Experience Manager. Per ulteriori informazioni al riguardo, consulta [questa sezione](#adobe-experience-manager-external-account).
-* Adobe  Analytics. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. Per ulteriori informazioni al riguardo, consulta [questa sezione](#google-recaptcha-external-account).
-* Archivio BLOB di Microsoft Azure. Per ulteriori informazioni al riguardo, consulta [questa sezione](#microsoft-azure-external-account).
+* SFTP. Per ulteriori informazioni, consulta [questa sezione](#sftp-external-account).
+* Amazon Storage Service (S3). Per ulteriori informazioni, consulta [questa sezione](#amazon-s3-external-account).
+* Adobe Experience Manager. Per ulteriori informazioni, consulta [questa sezione](#adobe-experience-manager-external-account).
+* Adobe Analytics. Per ulteriori informazioni, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
+* Google reCAPTCHA. Per ulteriori informazioni, consulta [questa sezione](#google-recaptcha-external-account).
+* Archiviazione BLOB di Microsoft Azure. Per ulteriori informazioni, consulta [questa sezione](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
->Altri tipi di account esterni vengono utilizzati da Adobe durante il processo di provisioning dei prodotti. Dalla versione Campaign Standard 17.9, gli account esterni FTP possono ancora essere definiti ma non sono più utilizzabili nelle nuove attività del flusso di lavoro. Se è già stata configurata una connessione, questa rimane attivata.
+>Altri tipi di account esterni vengono utilizzati da Adobe durante il processo di provisioning dei prodotti. A partire dalla versione 17.9 di Campaign Standard, gli account esterni FTP possono ancora essere definiti ma non sono più utilizzabili nelle nuove attività del flusso di lavoro. Se avevi già configurato una connessione, essa rimane attivata.
 
-Gli account esterni possono essere configurati dagli amministratori nel **[!UICONTROL Administration > Application settings > External accounts]** menu.
+Gli account esterni possono essere configurati dagli amministratori nel menu **[!UICONTROL Administration > Application settings > External accounts]**.
 
 ## Creazione di un account esterno {#creating-an-external-account}
 
- Adobe Campaign viene fornito con una serie di conti esterni predefiniti. Per configurare le connessioni con i sistemi esterni, come i server FTP utilizzati per i trasferimenti di file, potete creare i vostri account esterni.
+Adobe Campaign è dotato di un set di account esterni predefiniti. Per impostare connessioni con sistemi esterni, come i server FTP utilizzati per i trasferimenti di file, puoi creare degli account esterni.
 
-Gli account esterni sono utilizzati da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro delle campagne. Quando si configura un trasferimento di file in un flusso di lavoro o uno scambio di dati con un&#39;altra applicazione ( Adobe Target,  Experience Manager, ecc.), è necessario selezionare un account esterno.
+Gli account esterni sono utilizzati da processi tecnici quali flussi di lavoro tecnici o flussi di lavoro per campagne. Quando imposti un trasferimento di file in un flusso di lavoro o uno scambio di dati con un’altra applicazione (Adobe Target, Experience Manager, ecc.), devi selezionare un account esterno.
 
-1. Fai clic sul pulsante **[!UICONTROL Create]**. 
-1. Immettere un&#39;etichetta. L&#39;etichetta e l&#39;ID verranno utilizzati per selezionare account esterni nei flussi di lavoro.
-1. Selezionate il tipo di account da creare.
-1. Configurate l&#39;accesso all&#39;account specificando le credenziali, l&#39;indirizzo del server, il numero di porta e le chiavi, se necessario.
+1. Fai clic sul pulsante **[!UICONTROL Create]**.
+1. Immetti un’etichetta. L’etichetta e l’ID verranno utilizzati per selezionare account esterni nei flussi di lavoro.
+1. Seleziona il tipo di account da creare.
+1. Configura l’accesso all’account specificando le credenziali, l’indirizzo del server, il numero della porta e/o le chiavi, se necessario.
 
-   Le informazioni necessarie vengono in genere fornite dal provider del server a cui ci si sta connettendo.
+   Le informazioni necessarie vengono in genere fornite dal provider del server a cui ti stai connettendo.
 
-1. Salvate l’account.
+1. Salva l’account.
 
-L&#39;account esterno viene creato e aggiunto all&#39;elenco degli account. È ora disponibile per trasferimenti di dati/file o configurazioni di routing nelle attività del flusso di lavoro e nelle proprietà di consegna.
+L’account esterno viene creato e aggiunto all’elenco degli account. È ora disponibile per i trasferimenti di dati/file o le configurazioni di indirizzamento nelle attività del flusso di lavoro e nelle proprietà di consegna.
 
 ## Account esterno SFTP {#sftp-external-account}
 
-Diversi tipi di account esterni richiedono informazioni diverse per essere specificati.
+Diversi tipi di account esterni richiedono di specificare informazioni diverse.
 
 Per un account esterno SFTP, fornisci i seguenti dettagli:
 
 * Indirizzo del server. Ad esempio, **ftp.domain.com**.
-* Numero porta. For example, **22**.
-* Credenziali server SFTP: nome account e password utilizzati per connettersi al server.
+* Numero della porta. Ad esempio, **22**.
+* Credenziali del server SFTP: nome account e password utilizzati per connettersi al server.
 
-### Consigli del server SFTP ospitato da Adobe {#adobe-hosted-sftp-server-recommendations}
+### Raccomandazioni per server SFTP in hosting su Adobe {#adobe-hosted-sftp-server-recommendations}
 
-Quando gestite file e dati a scopo ETL, questi file vengono memorizzati in un server SFTP ospitato fornito da Adobe. Questo SFTP è progettato per essere uno spazio di archiviazione temporaneo su cui è possibile controllare la conservazione e l&#39;eliminazione dei file.
+Quando gestisci file e dati per un processo di ETL, questi file vengono memorizzati in un server SFTP in hosting fornito da Adobe. Questo SFTP è progettato per essere uno spazio di archiviazione temporaneo su cui puoi controllare la conservazione e l’eliminazione dei file.
 
-Se non utilizzato o monitorato correttamente, questo spazio può riempire rapidamente lo spazio fisico disponibile sul server e causare gravi problemi. Può causare perdita di dati o danneggiamento sulla piattaforma.
+Se non utilizzato o monitorato correttamente, questo spazio può riempire rapidamente lo spazio fisico disponibile sul server e causare gravi problemi. Può causare perdita o danneggiamento di dati sulla piattaforma.
 
-Per evitare tali problemi, Adobe consiglia di seguire le procedure ottimali riportate di seguito:
+Per evitare tali problemi, Adobe consiglia di seguire le best practice riportate di seguito:
 
-* Mantenere i dati minimi possibili.
-* Utilizzate l&#39;autenticazione basata su chiave per evitare la scadenza della password. I formati supportati sono solo **OpenSSH** e **SSH2** . Dovrete fornire la chiave pubblica al team di supporto Adobe per consentirne il caricamento sul server Campaign.
-* Conservare i dati solo per il tempo richiesto. 15 giorni è il limite massimo di tempo.
-* Utilizzare i flussi di lavoro per eliminare correttamente i dati (gestire la conservazione dai flussi di lavoro che consumano i dati).
-* Utilizzare i batch nei caricamenti SFTP e nei flussi di lavoro.
-* Gestire errori/eccezioni.
-* Talvolta, effettuate l’accesso a SFTP per verificare direttamente ciò che vi si trova.
+* Conserva la minore quantità possibile di dati.
+* Utilizza l’autenticazione basata su chiave per evitare la scadenza delle password. I formati supportati sono solo **OpenSSH** e **SSH2**. Dovrai fornire la chiave pubblica al team di assistenza di Adobe per consentirne il caricamento sul server di Campaign.
+* Conserva i dati solo per il tempo richiesto. 15 giorni è il limite massimo di tempo.
+* Utilizza i flussi di lavoro per eliminare correttamente i dati (gestisci la conservazione dai flussi di lavoro che consumano i dati).
+* Utilizza la suddivisione in batch nei caricamenti SFTP e nei flussi di lavoro.
+* Gestisci gli errori/le eccezioni.
+* Di tanto in tanto, effettua l’accesso a SFTP per verificare direttamente ciò che vi si trova.
 * Ricorda che la gestione del disco SFTP è principalmente una tua responsabilità.
 
-Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere aggiunti al elenco consentiti  nell&#39;istanza Campaign. L&#39;aggiunta di indirizzi IP al elenco consentiti  può essere richiesta tramite un ticket [di](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html)assistenza, insieme alla fornitura della chiave pubblica da utilizzare per l&#39;autenticazione.
+Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere aggiunti al elenco consentiti  nell&#39;istanza Campaign. Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
-I server SFTP possono essere gestiti dal Pannello di controllo Campaign. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/sftp-management/about-sftp-management.translate.html).
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è disponibile solo per gli utenti Admin dei clienti ospitati su AWS.
-Verifica se l’istanza è ospitata su AWS [qui](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
+>Il Pannello di controllo Campaign è disponibile solo per gli utenti amministratori dei clienti in hosting su AWS.
+Verifica se la tua istanza è in hosting su AWS [qui](https://docs.adobe.com/content/help/it-IT/control-panel/using/faq.html#ims-org-id).
 
 ## Account esterno Amazon S3 {#amazon-s3-external-account}
 
@@ -103,108 +103,108 @@ Il campo del server Amazon S3 deve essere compilato come segue:
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-Per memorizzare il file in modalità crittografata S3, selezionare la **[!UICONTROL Keep files in S3 encrypted]** casella.
+Per memorizzare il file in modalità crittografata S3, seleziona la casella **[!UICONTROL Keep files in S3 encrypted]**.
 
 ![](assets/external_accounts_2.png)
 
-Le informazioni necessarie vengono in genere fornite dal provider del server a cui ci si sta connettendo.
+Le informazioni necessarie vengono in genere fornite dal provider del server a cui ti stai connettendo.
 
-Specificate l&#39; **[!UICONTROL AWS Region]** endpoint associato. È possibile consultare le regioni supportate e le versioni delle firme nella documentazione [ufficiale di](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)Amazon S3.
+Specifica la **[!UICONTROL AWS Region]** associata all’endpoint. Puoi consultare le aree geografiche supportate e le versioni della firma nella [documentazione ufficiale di Amazon S3](https://docs.aws.amazon.com/it_it/general/latest/gr/rande.html#s3_region).
 
 >[!NOTE]
 >
->L&#39; **[!UICONTROL Receiver server]** utente deve essere inserito senza l&#39;area AWS. In seguito verrà aggiunto automaticamente all&#39;URL.
+>Il **[!UICONTROL Receiver server]** deve essere immesso senza l’area geografica AWS, che in seguito verrà aggiunta automaticamente all’URL.
 
-### Consigli account Amazon S3 {#amazon-s3-account-recommendations}
+### Raccomandazioni per un account Amazon S3 {#amazon-s3-account-recommendations}
 
-Per facilitare l&#39;impostazione del vostro account Amazon S3, vi consigliamo di seguire le seguenti raccomandazioni:
+Per facilitare l’impostazione dell’account Amazon S3, si consiglia di seguire le seguenti raccomandazioni:
 
-* Crea criteri fissi rigidi per limitare l&#39;accesso ai bucket S3. È possibile configurare il criterio del bucket durante la creazione di un bucket. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* Durante la creazione di un account esterno, abilitare la crittografia per memorizzare dati sensibili nel bucket S3 selezionando la **[!UICONTROL Keep files in S3 encrypted]** casella.
-* Concedere autorizzazioni bucket per specificare chi può accedere all&#39;oggetto in un bucket. Per ulteriori informazioni sull&#39;autorizzazione bucket, fare riferimento alla documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3.
+* Crea policy di bucket rigide per limitare l’accesso ai bucket S3. La policy di bucket può essere configurata durante la creazione di un bucket. Per ulteriori informazioni, consulta la [documentazione su Amazon S3](https://docs.aws.amazon.com/it_it/AmazonS3/latest/dev/example-bucket-policies.html).
+* Durante la creazione di un account esterno, abilita la crittografia per memorizzare dati sensibili nel bucket S3 selezionando la casella **[!UICONTROL Keep files in S3 encrypted]**.
+* Concedi autorizzazioni di accesso ai bucket per specificare chi può accedere all’oggetto in un bucket. Per ulteriori informazioni sull’autorizzazione di accesso ai bucket, consulta la [documentazione di Amazon S3](https://docs.aws.amazon.com/it_it/AmazonS3/latest/dev/access-control-overview.html).
 
-##  conto esterno del Adobe Experience Manager {#adobe-experience-manager-external-account}
+## Account esterno Adobe Experience Manager {#adobe-experience-manager-external-account}
 
- account esterni del Adobe Experience Manager vengono utilizzati per l&#39;integrazione di Campaign con  Experience Manager.
+Gli account esterni Adobe Experience Manager vengono utilizzati per l’integrazione di Campaign con Experience Manager.
 
 I processi e i requisiti relativi a questa integrazione sono disponibili in [questo documento](../../integrating/using/get-started-campaign-integrations.md).
 
-Mentre configurate questo nuovo account esterno, dovete fornire i seguenti dettagli:
+Quando imposti questo nuovo account esterno, dovrai fornire i seguenti dettagli:
 
-* Server: immettete l’URL del server del Adobe Experience Manager . Ad esempio:
+* Server: immetti l’URL del server Adobe Experience Manager. Ad esempio:
 
    ```
    http://aem.domain.com:4502
    ```
 
-* Credenziali account AEM: utilizzate l&#39;account che accederà all&#39;istanza del Adobe Experience Manager . Deve essere un account appartenente al gruppo remoto della campagna in  Experience Manager.
+* Credenziali account AEM: utilizza l’account che accederà all’istanza di Adobe Experience Manager. Deve essere un account appartenente al gruppo remoto della campagna in Experience Manager.
 
 ## Account esterno Google reCAPTCHA {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
->La configurazione Google reCAPTCHA richiede un account Google.
+>La configurazione di Google reCAPTCHA richiede un account Google.
 
-Il meccanismo Google reCAPTCHA consente di proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Questo non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro ed è basato sulle interazioni con il tuo sito. Per registrare il sito, fare riferimento a questa [pagina](https://www.google.com/recaptcha/admin/create). È necessario scegliere il tipo V3 reCAPTCHA.
+Il meccanismo Google reCAPTCHA ti consente di proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. Per registrare il sito, consulta questa [pagina](https://www.google.com/recaptcha/admin/create). Devi scegliere il tipo di reCAPTCHA V3.
 
-Per aggiungere Google reCAPTCHA V3 alla pagina di destinazione, è necessario prima configurarla nel tuo account esterno. Per ulteriori informazioni su come aggiungerlo alla pagina di destinazione, consulta questa [sezione](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Per aggiungere il Google reCAPTCHA V3 alla pagina di destinazione, devi prima configurarlo nell’account esterno. Per ulteriori informazioni su come aggiungerlo alla pagina di destinazione, consulta questa [sezione](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
-Per un account esterno Google reCAPTCHA V3, fornite i seguenti dettagli:
+Per un account esterno Google reCAPTCHA V3, fornisci i seguenti dettagli:
 
-* A **[!UICONTROL Label]** e **[!UICONTROL ID]** del tuo account esterno
+* Un’**[!UICONTROL Label]** e un **[!UICONTROL ID]** dell’account esterno
 * **[!UICONTROL Type]**: Google reCAPTCHA
-* Your **[!UICONTROL Site key]** and **[!UICONTROL Site secret]**
-* A **[!UICONTROL Threshold]** tra 0 e 1
+* La **[!UICONTROL Site key]** e il **[!UICONTROL Site secret]**
+* Una **[!UICONTROL Threshold]** tra 0 e 1
 
-   Il valore 0,0 **[!UICONTROL Threshold]** indica che probabilmente si tratta di un bot e 1,0 probabilmente una buona interazione. Per impostazione predefinita, è possibile utilizzare una soglia pari a 0,5.
+   Il valore di **[!UICONTROL Threshold]** 0,0 indica che probabilmente si tratta di un bot e 1,0 indica che probabilmente si tratta di una buona interazione. Per impostazione predefinita, puoi utilizzare una soglia di 0,5.
 
 ![](assets/external_accounts_3.png)
 
-## Account esterno archivio BLOB di Microsoft Azure {#microsoft-azure-external-account}
+## Account esterno archiviazione BLOB di Microsoft Azure {#microsoft-azure-external-account}
 
 >[!NOTE]
 >
->Le informazioni necessarie per configurare l&#39;account esterno in  Adobe Campaign Standard sono disponibili nel portale di Azure selezionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
+>Le informazioni necessarie per configurare l’account esterno in Adobe Campaign Standard sono disponibili nel portale di Azure selezionando **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-Il connettore di archiviazione BLOB di Azure può essere utilizzato per importare o esportare dati in  Adobe Campaign tramite un&#39;attività di **[!UICONTROL Transfer file]** flusso di lavoro. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Il connettore di archiviazione BLOB di Azure può essere utilizzato per importare o esportare dati in Adobe Campaign utilizzando un’attività del flusso di lavoro **[!UICONTROL Transfer file]**. Per ulteriori informazioni, consulta questa [sezione](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
-Per un account esterno di archiviazione BLOB di Microsoft Azure, fornire i seguenti dettagli:
+Per un account esterno dell’archiviazione BLOB di Microsoft Azure, fornisci i seguenti dettagli:
 
-* A **[!UICONTROL Label]** e **[!UICONTROL ID]** del tuo account esterno
-* **[!UICONTROL Type]**: Archivio BLOB di Microsoft Azure
-* I vostri **[!UICONTROL Account name]** e **[!UICONTROL Account key]**. Per sapere dove trovare il nome e la chiave del tuo account, fai riferimento a questa [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* La tua **[!UICONTROL Endpoint suffix]**. È disponibile all&#39;interno **[!UICONTROL Connection string]** del **[!UICONTROL Access keys]** menu nel portale di Azure. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Il tuo **[!UICONTROL Container]** nome. Se state pensando di utilizzare più di un contenitore, dovete creare tutti gli account esterni come contenitori.
-* L’ **[!UICONTROL Concurrency]** opzione consente di regolare la velocità dei trasferimenti di file.
+* Un’**[!UICONTROL Label]** e un **[!UICONTROL ID]** dell’account esterno
+* **[!UICONTROL Type]**: archiviazione BLOB di Microsoft Azure
+* Il **[!UICONTROL Account name]** e la **[!UICONTROL Account key]**. Per sapere dove trovare il nome e la chiave dell’account, consulta questa [pagina](https://docs.microsoft.com/it-it/azure/storage/common/storage-account-keys-manage).
+* Il **[!UICONTROL Endpoint suffix]**. È disponibile all’interno della **[!UICONTROL Connection string]** del menu **[!UICONTROL Access keys]** nel portale di Azure. Per ulteriori informazioni, consulta questa [pagina](https://docs.microsoft.com/it-it/azure/storage/common/storage-account-keys-manage).
+* Il nome del **[!UICONTROL Container]**. Se intendi utilizzare più di un contenitore, devi creare un account per ogni contenitore.
+* L’opzione **[!UICONTROL Concurrency]** ti consente di ottimizzare la velocità dei trasferimenti di file.
 
 ![](assets/external_accounts_4.png)
 
-Una volta configurato, fare clic **[!UICONTROL Test connection]** per collegare  Adobe Campaign all&#39;archiviazione BLOB di Microsoft Azure.
+Al termine della configurazione, fai clic su **[!UICONTROL Test connection]** per collegare Adobe Campaign all’archiviazione BLOB di Microsoft Azure.
 
-### Consigli per l&#39;archiviazione BLOB di Microsoft Azure {#azure-blob-recommendations}
+### Raccomandazioni per l’archiviazione BLOB di Microsoft Azure {#azure-blob-recommendations}
 
-**Cifratura**
+**Crittografia**
 
- Adobe Campaign utilizza una connessione protetta (HTTPS) per accedere all&#39;account di archiviazione BLOB di Microsoft Azure.
+Adobe Campaign utilizza una connessione protetta (HTTPS) per accedere all’account di archiviazione BLOB di Microsoft Azure.
 
-**Chiave account**
+**Chiave di accesso all’account**
 
-Quando si configura l&#39;account esterno, è necessario utilizzare uno dei **[!UICONTROL Account key]** componenti disponibili nel portale di Azure. Per ulteriori informazioni su dove trovare le chiavi del tuo account, consulta questa [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+Durante la configurazione dell’account esterno, devi utilizzare una delle **[!UICONTROL Account key]** disponibili nel portale di Azure. Per ulteriori informazioni su dove trovare le chiavi di accesso all’account, consulta questa [pagina](https://docs.microsoft.com/it-it/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
 
 **Ottimizzazione della velocità di trasferimento dei file**
 
-L’ **[!UICONTROL Concurrency]** opzione consente di regolare la velocità dei trasferimenti di file.
-Rappresenta il numero di thread che verranno utilizzati per eseguire il trasferimento del file. Ognuno di questi thread scaricherà una porzione di circa 1 MB dal BLOB. Saranno quindi messi in coda per essere scritti su disco. Notare che aumentando il numero di thread si aumenterà anche il carico sulle risorse utilizzate dall&#39;applicazione durante il trasferimento del file.
+L’opzione **[!UICONTROL Concurrency]** ti consente di ottimizzare la velocità dei trasferimenti di file.
+Rappresenta il numero di thread che verranno utilizzati per eseguire il trasferimento di file. Ognuno di questi thread scaricherà una porzione di circa 1 MB dal BLOB. Queste porzioni saranno quindi messe in coda per essere scritte su disco. Tieni presente che aumentando il numero di thread aumenterai anche il carico sulle risorse utilizzate dall’applicazione durante il trasferimento di file.
 
-Al termine del trasferimento dei file, puoi trovare le metriche delle prestazioni nei registri del flusso di lavoro.
+Al termine del trasferimento di file, puoi trovare le metriche delle prestazioni nei registri del flusso di lavoro.
 
-**Tentativi**
+**Nuovi tentativi**
 
-Per impostazione predefinita, il trasferimento di file per Azure Blob avrà fino a quattro tentativi.  Se il servizio di archiviazione di Azure restituisce un codice di errore come 503 (server occupato) o 500 (timeout operazione), ciò potrebbe indicare che si sta avvicinando o superando la scalabilità dell&#39;account di archiviazione. Ciò può verificarsi quando si utilizza un nuovo account o si eseguono test.
+Per impostazione predefinita, il trasferimento di file per BLOB di Azure effettuerà fino a quattro tentativi.  Se il servizio di archiviazione di Azure restituisce un codice di errore come 503 (server occupato) o 500 (timeout operazione), ciò potrebbe indicare che ti stai avvicinando o stai superando la scalabilità dell’account di archiviazione. Ciò può verificarsi quando si utilizza un nuovo account o si eseguono test.
 
-Se l&#39;errore persiste, potete aumentare il numero di tentativi creando un&#39;opzione nel menu avanzato **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+Se l’errore persiste, puoi aumentare il numero di tentativi creando un’opzione nel menu avanzato **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
-Se implementata, l&#39;opzione deve essere creata come segue:
+Se implementata, l’opzione deve essere creata come segue:
 
 ```
 ID:        AzureBlob_Max_Retries
