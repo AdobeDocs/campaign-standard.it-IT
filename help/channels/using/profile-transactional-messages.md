@@ -1,6 +1,6 @@
 ---
 title: Messaggi sulle transazioni di profilo
-description: Scopri come creare e pubblicare un messaggio di transazione profilo.
+description: Scopri come creare e pubblicare un messaggio transazionale di profilo.
 page-status-flag: never-activated
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat
@@ -15,72 +15,72 @@ translation-type: tm+mt
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 2%
+ht-degree: 94%
 
 ---
 
 
 # Messaggi sulle transazioni di profilo{#profile-transactional-messages}
 
-Puoi inviare messaggi transazionali basati sui profili di marketing dei clienti, che consentono di:
+Puoi inviare messaggi transazionali basati sui profili di marketing dei clienti, che ti consentono di:
 
-* Applica regole di tipologia di marketing, ad esempio **[!UICONTROL Address on block list]** o [regole](../../sending/using/fatigue-rules.md)di affaticamento.
-* Includi il collegamento di annullamento della sottoscrizione nei messaggi.
-* Aggiungete i messaggi transazionali al reporting globale sulla distribuzione.
-* Utilizza i messaggi transazionali nel percorso del cliente.
+* Applicare regole di tipologie di marketing, ad esempio **[!UICONTROL Address on block list]** o [regole di affaticamento](../../sending/using/fatigue-rules.md);
+* Includere il collegamento di annullamento all’abbonamento nei messaggi;
+* Aggiungere messaggi transazionali al reporting globale sulla distribuzione;
+* Utilizzare messaggi transazionali nel customer journey.
 
-Dopo aver creato e pubblicato un evento (l&#39;abbandono del carrello come nell&#39; [esempio](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) precedente), il messaggio transazionale corrispondente viene creato automaticamente.
+Dopo la creazione e la pubblicazione di un evento (l’abbandono del carrello come nell’[esempio](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)illustrato sopra), il messaggio transazionale corrispondente viene creato automaticamente.
 
-I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento per l’invio di un messaggio](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) transazionale di profilo.
+I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento per l’invio di un messaggio transazionale di profilo](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Affinché l&#39;evento attivi l&#39;invio di un messaggio transazionale, è necessario personalizzare il messaggio, testarlo e pubblicarlo.
+Per fare in modo che l’evento attivi l’invio di un messaggio transazionale, devi personalizzare il messaggio, verificarlo e pubblicarlo.
 
 >[!NOTE]
 >
->Per accedere ai messaggi transazionali, devi far parte del gruppo di **[!UICONTROL Administrators (all units)]** sicurezza.
+>Per accedere ai messaggi transazionali, devi far parte del gruppo di sicurezza **[!UICONTROL Administrators (all units)]**.
 >
->Le regole di Fatigue sono compatibili con i messaggi transazionali del profilo. Consultate [Regole](../../sending/using/fatigue-rules.md)di fatica.
+>Le regole di affaticamento sono compatibili con i messaggi transazionali di profilo. Consulta [Regole di affaticamento](../../sending/using/fatigue-rules.md).
 
-## Invio di un messaggio di transazione profilo {#sending-a-profile-transactional-message}
+## Invio di un messaggio transazionale di profilo {#sending-a-profile-transactional-message}
 
-I passaggi per creare, personalizzare e pubblicare un messaggio di transazione profilo sono gli stessi che per un messaggio di transazione evento. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+I passaggi per creare, personalizzare e pubblicare un messaggio transazionale di profilo sono gli stessi che per un messaggio transazionale di evento. Vedi [Messaggi transazionali di evento](../../channels/using/event-transactional-messages.md).
 
 Le differenze sono elencate di seguito.
 
-1. Vai al messaggio transazionale creato per modificarlo.
-1. Nel messaggio di transazione, fai clic sulla **[!UICONTROL Content]** sezione. Oltre al modello di transazione, potete anche scegliere qualsiasi targeting per modello e-mail **[!UICONTROL Profile]**.
+1. Passa al messaggio transazionale creato per modificarlo.
+1. Nel messaggio transazionale, fai clic sulla sezione **[!UICONTROL Content]**. Oltre al modello transazionale, puoi anche scegliere qualsiasi modello di e-mail che effettua il targeting su **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
-1. Selezionate il modello e-mail predefinito.
+1. Seleziona il modello di e-mail predefinito.
 
-   Analogamente a tutte le e-mail di marketing, include un collegamento per annullare l&#39;iscrizione.
+   Analogamente a tutte le e-mail di marketing, include un collegamento di annullamento all’abbonamento.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   Inoltre, a differenza delle configurazioni basate su eventi in tempo reale, puoi accedere direttamente a tutte le informazioni sul profilo per personalizzare il messaggio. Consultate [Inserimento di un campo](../../designing/using/personalization.md#inserting-a-personalization-field)di personalizzazione.
+   Inoltre, a differenza delle configurazioni basate su eventi in tempo reale, puoi accedere direttamente a tutte le informazioni sul profilo per personalizzare il messaggio. Consulta [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-1. Salva le modifiche e pubblica il messaggio. Consultate [Pubblicazione di un messaggio](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transazionale.
+1. Salva le modifiche e pubblica il messaggio. Consulta [Pubblicazione di un messaggio transazionale](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Monitoraggio della distribuzione di messaggi transazionali di profilo {#monitoring-a-profile-transactional-message-delivery}
+## Monitoraggio della consegna dei messaggi transazionali di profilo {#monitoring-a-profile-transactional-message-delivery}
 
-Dopo aver pubblicato il messaggio e aver completato l&#39;integrazione con il sito, puoi monitorare la distribuzione.
+Dopo la pubblicazione del messaggio e il completamento dell’integrazione con il sito puoi monitorare la consegna.
 
-1. Per visualizzare il registro di distribuzione dei messaggi, fai clic sull&#39;icona in basso a destra del **[!UICONTROL Deployment]** blocco.
+1. Fai clic sull’icona in basso a destra del blocco **[!UICONTROL Deployment]** per visualizzare il registro di consegna del messaggio.
 
-   Per ulteriori informazioni sull’accesso ai registri, consulta [Monitoraggio della distribuzione](../../sending/using/monitoring-a-delivery.md).
+   Per ulteriori informazioni sull’accesso ai log, consulta [Monitoraggio della consegna](../../sending/using/monitoring-a-delivery.md).
 
-1. Selezionate la **[!UICONTROL Sending logs]** scheda. Nella **[!UICONTROL Status]** colonna, **[!UICONTROL Sent]** indica che un profilo ha acconsentito.
+1. Seleziona la scheda **[!UICONTROL Sending logs]**. Nella colonna **[!UICONTROL Status]**, **[!UICONTROL Sent]** indica che un profilo ha acconsentito.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Selezionate la **[!UICONTROL Exclusions logs]** scheda per visualizzare i destinatari che sono stati esclusi dalla destinazione del messaggio, ad esempio gli indirizzi nell&#39;elenco dei blocchi.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Per qualsiasi profilo che ha rinunciato, la regola di **[!UICONTROL Address on block list]** tipologia ha escluso il destinatario corrispondente.
+Per ogni profilo che ha rinunciato, la regola di tipologia **[!UICONTROL Address on block list]** ha escluso il destinatario corrispondente.
 
-Questa regola fa parte di una tipologia specifica che si applica a tutti i messaggi transazionali basati sulla **[!UICONTROL Profile]** tabella.
+Questa regola fa parte di una tipologia specifica che si applica a tutti i messaggi transazionali basati sulla tabella **[!UICONTROL Profile]**.
 
 ![](assets/message-center_marketing_typology.png)
 
