@@ -1,6 +1,6 @@
 ---
 title: Branding
-description: Scopri tutti gli strumenti disponibili per gestire le tue identità di branding.
+description: Scopri tutti gli strumenti disponibili per gestire le tue brand identity.
 page-status-flag: never-activated
 uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
 contentOwner: sauviat
@@ -12,96 +12,99 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
+workflow-type: ht
+source-wordcount: '983'
+ht-degree: 100%
 
 ---
 
 
 # Branding{#branding}
 
-## Informazioni sull&#39;identità del marchio {#about-brand-identity}
+## Informazioni sulla brand identity {#about-brand-identity}
 
-Ogni azienda ha linee guida visive e tecniche del marchio. Con Adobe Campaign, puoi definire una serie di specifiche per presentare ai clienti un marchio coerente, dai logo agli aspetti tecnici, come il mittente dell&#39;e-mail, l&#39;URL o i domini.
+Ogni azienda dispone di linee guida visive e tecniche per il brand. Con Adobe Campaign, puoi definire una serie di specifiche per presentare ai clienti un brand coerente, dai loghi agli aspetti tecnici, come il mittente dell’e-mail, l’URL o i domini.
 
-Gli amministratori tecnici possono definire uno o più marchi per immettere centralmente i parametri che influiscono sull&#39;identità di un marchio. Questo include il logo del marchio, il dominio dell&#39;URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Con Adobe Campaign, puoi creare questi marchi e collegarli a messaggi o pagine di destinazione. Questa configurazione è gestita in modelli.
+Gli amministratori tecnici possono definire uno o più brand per immettere in modo centrale i parametri che influiscono sull’identità del brand. Ciò include il logo del brand, il dominio dell’URL di accesso delle pagine di destinazione o le impostazioni di tracciamento dei messaggi. Con Adobe Campaign, puoi creare questi brand e collegarli a messaggi o pagine di destinazione. Questa configurazione viene gestita tramite modelli.
 
-## Configurazione e utilizzo dei marchi {#configuring-and-using-brands}
+## Configurazione e utilizzo dei brand {#configuring-and-using-brands}
 
-Il principio principale della configurazione e dell&#39;utilizzo dei marchi è:
+Il principio fondamentale della configurazione e dell’utilizzo dei brand è:
 
-1. Crea e configura il marchio: questa operazione richiede autorizzazioni specifiche ed è eseguita dall&#39;amministratore tecnico di Adobe Campaign.
-1. Crea uno o più modelli di consegna e pagina di destinazione per questo marchio. Fare riferimento alla sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md) .
-1. Crea messaggi e pagine di destinazione in base a questo modello. Consultate [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md) e [Creazione di una pagina](../../channels/using/designing-a-landing-page.md) di destinazione.
+1. Crea e configura il brand: questa operazione richiede autorizzazioni specifiche e viene eseguita dall’amministratore tecnico di Adobe Campaign.
+1. Crea uno o più modelli di consegna e pagine di destinazione per questo brand. Fai riferimento alla sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md).
+1. Crea messaggi e pagine di destinazione in base a questo modello. Consulta le sezioni [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md) e [Creazione di una pagina di destinazione](../../channels/using/designing-a-landing-page.md).
 
 >[!IMPORTANT]
 >
->I marchi non possono essere creati o modificati dagli utenti finali: queste operazioni devono essere eseguite dall&#39;amministratore tecnico di Adobe Campaign. Per qualsiasi richiesta, contatta l&#39;Assistenza clienti Adobe.
+>I brand non possono essere creati o modificati dagli utenti finali: queste operazioni devono essere eseguite dall’amministratore tecnico di Adobe Campaign. Per qualsiasi richiesta, contatta l’Assistenza cliente di Adobe.
 >
->Il multi-branding non può essere utilizzato nel contesto dei messaggi transazionali. Per ulteriori informazioni, consulta Messaggi [transazionali e branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>L’utilizzo di più brand non è possibile nel contesto della messaggistica transazionale. Per ulteriori informazioni, consulta [Messaggi transazionali e branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-I marchi si trovano nel **[!UICONTROL Administration > Instance settings > Brand configuration]** menu.
+I brand si trovano nel menu **[!UICONTROL Administration > Instance settings > Brand configuration]**.
 
-Per impostazione predefinita, un marchio appena creato è visibile solo agli utenti ai quali l&#39;amministratore ha assegnato i diritti corrispondenti.
+Per impostazione predefinita, un brand appena creato è visibile solo agli utenti ai quali l’amministratore ha assegnato i diritti corrispondenti.
 
-Un **marchio** è definito dalle seguenti caratteristiche:
+Un **Brand** è definito dalle seguenti caratteristiche:
 
-* Un&#39; **identità** che definisce e personalizza il tuo marchio. Questa sezione contiene i campi seguenti:
+* Una **Identity**, che definisce e personalizza il brand. Questa sezione contiene i seguenti campi:
 
    ![](assets/branding_01.png)
 
-   * **Etichetta** visibile nell&#39;interfaccia
-   * **Nome marchio**
-   * **URL** del sito Web ed etichetta **del** sito Web del marchio
-   * **Logo marchio**
+   * **Label**, visibile nell’interfaccia
+   * **Brand name**
+   * **Website URL** e **Website label** del brand
+   * **Logo del brand**
 
-* **[!UICONTROL Header parameters of sent emails]** che personalizza i contenuti visualizzati dai destinatari delle campagne. Questa sezione contiene i campi seguenti:
+* **[!UICONTROL Header parameters of sent emails]**, che personalizza i contenuti visualizzati dai destinatari delle campagne. Questa sezione contiene i seguenti campi:
 
    ![](assets/branding_04_header.png)
 
-   * **Mittente (indirizzo e-mail)** con l&#39;indirizzo e-mail del marchio.
-   * **Mittente (nome)** con il nome del marchio.
-   * **Rispondi a (indirizzo e-mail)** con l&#39;indirizzo e-mail a cui il cliente può rispondere.
-   * **Rispondi a (nome)** con il nome del marchio.
-   * **Errore (indirizzo e-mail)** con l&#39;indirizzo e-mail da utilizzare in caso di errore.
+   * **Sender (email address)**, che contiene l’indirizzo e-mail del brand.
+   * **Sender (name)**, che contiene il nome del brand.
+   * **Reply to (email address)**, che contiene l’indirizzo e-mail a cui il cliente può rispondere.
+   * **Reply to (name)**, che contiene il nome del brand.
+   * **Error (email address)**, che contiene l’indirizzo e-mail da utilizzare in caso di errore.
    >[!IMPORTANT]
    >
-   >Dopo aver aggiornato i parametri di intestazione delle e-mail, se il nome e l&#39;indirizzo e-mail del mittente non sono cambiati nell&#39;e-mail creata dal modello, controllate le impostazioni avanzate del modello.
+   >Dopo aver aggiornato i parametri di intestazione delle e-mail, se il nome e l’indirizzo e-mail del mittente non sono cambiati nell’e-mail creata dal modello, controlla le impostazioni avanzate del modello.
 
-* **I server esposti su Internet** definiscono i server utilizzati per il tracciamento ma anche per l’accesso alla pagina di destinazione. Questa sezione contiene i campi seguenti:
+* **Server(s) exposed on the internet** definisce i server utilizzati per il tracciamento ma anche per l’accesso alle pagine di destinazione. Questa sezione contiene i seguenti campi:
 
    ![](assets/configure_branding_04.png)
 
-   * **URL esterno del server** applicazione utilizzato per ospitare e accedere alle diverse pagine di destinazione create.
-   * **URL esterno del server** di tracciamento utilizzato come URL tracciato durante le consegne.
-   * **URL esterno del server** delle pagine mirror utilizzato come pagina mirror predefinita nelle distribuzioni.
+   * **External URL of the application server**, utilizzato per l’hosting e per l’accesso alle diverse pagine di destinazione create.
+   * **External URL of the tracking server**, utilizzato come URL tracciato durante le consegne.
+   * **External URL of the mirror page server**, utilizzato come pagina speculare predefinita nelle consegne.
    >[!NOTE]
    >
-   >Per visualizzare l&#39;anteprima della pagina di destinazione e il rendering della pagina mirror nell&#39;interfaccia utente di Campaign, è necessario proteggere gli URL del server dell&#39;applicazione e del server delle pagine mirror. In tal caso, per configurare questi URL utilizzate https:// anziché http://.
+   >Per visualizzare l’anteprima della pagina di destinazione e il rendering della pagina speculare nell’interfaccia utente di Campaign, è necessario che gli URL del server dell’applicazione e del server della pagina speculare siano sicuri. In tal caso, per configurare questi URL utilizza https:// anziché http://.
 
-* **[!UICONTROL Tracking URL configuration (Web Analytics)]**, che definisce la configurazione del tracciamento degli URL per il marchio.
+* **[!UICONTROL Tracking URL configuration (Web Analytics)]**, che definisce la configurazione del tracciamento degli URL per il brand.
 
-   I parametri aggiuntivi che consentono il tracciamento dei collegamenti su sistemi esterni come gli strumenti di analisi Web come Adobe Analytics o Google Analytics sono definiti qui.
+   Qui sono definiti i parametri aggiuntivi che consentono il tracciamento dei collegamenti su sistemi esterni quali strumenti di analisi web come Adobe Analytics o Google Analytics.
 
    ![](assets/branding_05.png)
 
-## Assegnazione di un marchio a un’e-mail {#assigning-a-brand-to-an-email}
+## Assegnazione di un brand a un’e-mail {#assigning-a-brand-to-an-email}
 
-### Collegamento di un marchio a un modello {#linking-a-brand-to-a-template}
+### Collegamento di un brand a un modello {#linking-a-brand-to-a-template}
 
-Per utilizzare i parametri definiti per un marchio, deve essere collegato a un modello di consegna o a un modello di pagina di destinazione. A tal fine, dovete creare o modificare un modello.
+Per utilizzare i parametri definiti per un brand, quest’ultimo deve essere collegato a un modello di consegna o a un modello di pagina di destinazione. A tal fine, devi creare o modificare un modello.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla creazione di un modello, consultate la sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md) .
+>Per ulteriori informazioni sulla creazione di un modello, consulta la sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md).
 
-Una volta creato il modello, potete collegarlo a un marchio. Per eseguire questa operazione:
+Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 
-1. Fate clic sul **[!UICONTROL Edit properties]** pulsante per accedere alle proprietà del modello.
+1. Fai clic sul pulsante **[!UICONTROL Edit properties]** per accedere alle proprietà del modello.
 
    ![](assets/branding_04.png)
 
-1. Utilizzate l&#39;elenco a discesa per selezionare il marchio da collegare al modello.
+1. Utilizza l’elenco a discesa per selezionare il brand da collegare al modello.
 
    >[!NOTE]
    >
@@ -109,68 +112,68 @@ Una volta creato il modello, potete collegarlo a un marchio. Per eseguire questa
 
    ![](assets/branding_05.png)
 
-   Per visualizzare la configurazione del marchio selezionato, fai clic sull’ **[!UICONTROL Navigate to the detail of the element selected]** icona .
+   Per visualizzare la configurazione del brand selezionato, fai clic sull’icona **[!UICONTROL Navigate to the detail of the element selected]**.
 
    ![](assets/branding_06.png)
 
-1. Confermate la selezione e salvate il modello.
+1. Conferma la selezione e salva il modello.
 
-Il modello è collegato al marchio. Nell&#39;editor e-mail, gli elementi come l&#39;indirizzo **E-mail del mittente** predefinito, il nome **del mittente** predefinito o il **logo** utilizzeranno i dati del marchio configurati.
+Il modello è collegato al brand. Nell’editor e-mail, gli elementi come l’**Email address of default sender**, **Default sender name** o **Logo** utilizzeranno i dati del brand configurato.
 
-### Caso di utilizzo del marchio {#branding-use-case}
+### Caso di utilizzo del branding {#branding-use-case}
 
-In questo esempio, creeremo un nuovo marchio correlato ai viaggi e lo useremo in un&#39;e-mail.
+In questo esempio, creeremo un nuovo brand connesso ai viaggi e lo utilizzeremo in un’e-mail.
 
-#### Configurare un nuovo marchio {#configure-a-new-brand}
+#### Configurare un nuovo brand {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
->La configurazione del marchio è gestita da Adobe solo in quanto richiede autorizzazioni specifiche e impostazioni tecniche.
+>La configurazione del brand è gestita solo da Adobe in quanto richiede autorizzazioni specifiche e impostazioni tecniche.
 
-1. L&#39;amministratore di Adobe Campaign crea il marchio in **[!UICONTROL Administration > Instance settings > Brand configuration]**. Aggiunge le **Vacanze nell&#39;elemento Tropici** dal menu avanzato e configura il **[!UICONTROL ID]** e il **[!UICONTROL Header parameters of sent emails]** marchio.
+1. L’amministratore di Adobe Campaign crea il brand in **[!UICONTROL Administration > Instance settings > Brand configuration]**. Aggiunge l’elemento **Vacations in the Tropics** dal menu avanzato e configura l’**[!UICONTROL ID]** e i **[!UICONTROL Header parameters of sent emails]** del brand.
 
    ![](assets/branding_07.png)
 
-1. L’amministratore configura quindi l’URL del **server esposto su Internet** in modo da poter utilizzare le pagine di destinazione e quindi gli URL di tracciamento.
+1. L’amministratore configura quindi l’URL dei **Server(s) exposed on the Internet** in modo tale da poter utilizzare le pagine di destinazione e quindi gli URL di tracciamento.
 
-   In questo esempio, lo strumento **Web Analytics** utilizzato è **Google Analytics**. L’amministratore configura l’URL di tracciamento come segue:
+   In questo esempio, lo strumento di **analisi web** utilizzato è **Google Analytics**. L’amministratore configura l’URL di tracciamento come segue:
 
    ![](assets/branding_12.png)
 
-Il marchio viene creato e configurato correttamente. Ora può essere utilizzato dai team di marketing.
+Il brand è creato e configurato correttamente. Ora può essere utilizzato dai team di marketing.
 
-#### Implementare un nuovo marchio {#implement-a-new-brand}
+#### Implementare un nuovo brand {#implement-a-new-brand}
 
-In qualità di responsabile della distribuzione, hai il compito di creare i modelli di consegna per utilizzare il nuovo marchio. A questo scopo, attenetevi alla procedura seguente:
+In qualità di responsabile della consegna, hai il compito di creare i modelli di consegna per utilizzare il nuovo brand. A questo scopo, segui i passaggi seguenti:
 
-1. Nel menu avanzato **[!UICONTROL Resources > Templates > Delivery templates]**, duplicate un modello predefinito per configurare un nuovo modello di consegna.
+1. Nel menu avanzato **[!UICONTROL Resources > Templates > Delivery templates]**, duplica un modello incorporato per configurare un nuovo modello di consegna.
 
    ![](assets/branding_08.png)
 
-1. Per collegare questo modello alle **vacanze nel marchio Tropici** , modificare le proprietà del modello e selezionare il marchio dall&#39;elenco a discesa.
+1. Per collegare questo modello al brand **Vacations in the Tropics**, modifica le proprietà del modello e seleziona il brand dall’elenco a discesa.
 
    ![](assets/branding_09.png)
 
-1. Configurate questo modello e-mail per riflettere l’identità del marchio.
-1. Una volta completato il modello, potete salvarlo.
+1. Configura questo modello e-mail affinché rifletta la brand identity.
+1. Una volta completato il modello, puoi salvarlo.
 
    ![](assets/branding_10.png)
 
    Ora è possibile utilizzare il modello di consegna per creare e-mail che verranno inviate a un pubblico.
 
-#### Utilizzo del nuovo marchio in una consegna {#use-the-new-brand-in-a-delivery}
+#### Utilizzare il nuovo brand in una consegna {#use-the-new-brand-in-a-delivery}
 
-Per creare un messaggio e-mail collegato a un marchio, effettuate le seguenti operazioni:
+Per creare un’e-mail collegata a un brand, segui i passaggi seguenti:
 
-1. Fate clic sul **[!UICONTROL Create]** pulsante dal **[!UICONTROL Marketing activities]** menu.
+1. Fai clic sul pulsante **[!UICONTROL Create]** dal menu **[!UICONTROL Marketing activities]**.
 
    ![](assets/branding_14.png)
 
-1. Selezionate l&#39; **[!UICONTROL Email]** attività, quindi scegliete il modello collegato al nuovo marchio.
+1. Seleziona l’attività **[!UICONTROL Email]**, quindi scegli il modello collegato al nuovo brand.
 
    ![](assets/branding_15.png)
 
-1. L&#39;e-mail è già configurata. Potete controllare le informazioni prima di testarle utilizzando i profili di test, quindi inviarle al pubblico.
+1. L’e-mail è già configurata. Puoi verificare le informazioni prima di testarla utilizzando i profili di test, quindi inviarla al pubblico.
 
    ![](assets/branding_16.png)
 
