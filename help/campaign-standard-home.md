@@ -6,8 +6,8 @@ topic: Premium
 translation-type: tm+mt
 source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 80%
 
 ---
 
@@ -69,7 +69,7 @@ Scopri gli strumenti forniti da Adobe Campaign per facilitare la conformità ai 
 | Pagine utili | Risorse per sviluppatori |
 |---|---|
 | [Note sulla versione](rn/using/release-notes.md) | [Trigger di Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentazione per il Pannello di controllo](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) | [API di Campaign](api/using/get-started-apis.md) |
+| [Documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) | [API di Campaign](api/using/get-started-apis.md) |
 | [Guida all’implementazione](https://helpx.adobe.com/it/campaign/kb/campaign-standard-implementation-guide.html) | [Elenco dei messaggi di errore](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Pianificazione del rilascio](rn/using/release-planning.md) | [Modello dati di Campaign](developing/using/datamodel-introduction.md) |
 | [Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html) | [Guida per più soluzioni](integrating/using/get-started-campaign-integrations.md) |
