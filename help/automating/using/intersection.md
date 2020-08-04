@@ -1,6 +1,6 @@
 ---
-title: Intersezione
-description: L'attività Intersezione consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell'attività.
+title: Intersection
+description: L’attività Intersection ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività.
 page-status-flag: never-activated
 uuid: a60f9811-0158-44b3-952b-392685c006cc
 contentOwner: sauviat
@@ -11,45 +11,45 @@ topic-tags: targeting-activities
 discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Intersezione{#intersection}
+# Intersection{#intersection}
 
 ## Descrizione {#description}
 
 ![](assets/intersection.png)
 
-L&#39; **[!UICONTROL Intersection]** attività consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell&#39;attività.
+L’attività **[!UICONTROL Intersection]** ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività.
 
 ## Contesto di utilizzo {#context-of-use}
 
-L&#39; **[!UICONTROL Intersection]** attività è generalmente utilizzata per effettuare ulteriori filtraggi sulle popolazioni provenienti da transizioni in entrata.
+L’attività **[!UICONTROL Intersection]** è generalmente utilizzata per effettuare ulteriori filtraggi sulle popolazioni provenienti da transizioni in entrata.
 
 ## Configurazione {#configuration}
 
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Intersection]** attività nel flusso di lavoro.
-1. Connettetelo alle altre attività che vengono prima di esso, come le query.
-1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
-1. Selezionate **[!UICONTROL Reconciliation type]**:
+1. Trascina e rilascia un’attività **[!UICONTROL Intersection]** nel flusso di lavoro.
+1. Connettila alle altre attività che la precedono, come le query.
+1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
+1. Seleziona **[!UICONTROL Reconciliation type]**:
 
-   * **[!UICONTROL Keys only]**: Modalità predefinita. L&#39;attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave.
-   * **[!UICONTROL All shared columns]**: I dati vengono riconciliati in base alle colonne in comune con le transizioni in entrata. Pertanto, è necessario selezionare il set principale che fungerà da base per il confronto. Questa opzione può essere utilizzata se le dimensioni di targeting della popolazione in entrata sono diverse.
-   * **[!UICONTROL A selection of columns]**: Selezionare questa opzione per definire l&#39;elenco di colonne su cui verrà applicata la riconciliazione dei dati. È innanzitutto necessario selezionare il set principale (quello contenente i dati di origine), quindi specificare i campi da utilizzare per il join.
+   * **[!UICONTROL Keys only]**: modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave.
+   * **[!UICONTROL All shared columns]**: i dati vengono riconciliati in base alle colonne che hanno in comune con le transizioni in entrata. Pertanto, devi selezionare il set principale che fungerà da base per il confronto. È possibile utilizzare questa opzione se le dimensioni di targeting della popolazione in entrata sono diverse.
+   * **[!UICONTROL A selection of columns]**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Devi innanzitutto selezionare il set principale, quello contenente i dati di origine, quindi specificare i campi da utilizzare per l’unione.
 
-1. Selezionare la **[!UICONTROL Use common additional data only]** casella se si desidera conservare solo i dati aggiuntivi presenti in tutte le transizioni in entrata.
-1. Se necessario, gestite le [Transizioni](../../automating/using/activity-properties.md) dell&#39;attività per accedere alle opzioni avanzate per la popolazione in uscita.
-1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
+1. Seleziona la casella **[!UICONTROL Use common additional data only]** se desideri conservare solo i dati aggiuntivi presenti in tutte le transizioni in entrata.
+1. Se necessario, gestisci le [Transizioni](../../automating/using/activity-properties.md) dell’attività per accedere alle opzioni avanzate per la popolazione in uscita.
+1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
 
 ## Esempio {#example}
 
-L&#39;esempio seguente mostra l&#39;intersezione tra due attività di query. Viene utilizzato qui per esaminare il database di Adobe Campaign e recuperare i profili che hanno tra i 18 e i 27 anni e i profili il cui indirizzo e-mail è stato fornito rispettivamente.
+L’esempio seguente mostra l’intersezione tra due attività di query. In questo caso, viene utilizzato per esaminare il database di Adobe Campaign e recuperare, rispettivamente, i profili che hanno tra i 18 e i 27 anni di età e quelli che hanno indicato un indirizzo e-mail.
 
 ![](assets/wkf_intersection_example.png)
 
