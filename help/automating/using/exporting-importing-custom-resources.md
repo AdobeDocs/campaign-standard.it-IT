@@ -11,8 +11,11 @@ topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -23,123 +26,123 @@ Questa esercitazione spiega come esportare e importare un pacchetto di risorse p
 
 Questo esempio è destinato agli amministratori funzionali collegati ad Adobe Campaign.
 
-I prerequisiti sono:
+Sussistono i seguenti prerequisiti:
 
-* **Una o più risorse** personalizzate disponibili e pubblicate.
+* **Una o più risorse personalizzate** disponibili e pubblicate.
 
-   Inoltre, è necessario aver definito una chiave univoca per queste risorse perché le chiavi primarie automatiche non vengono esportate nei pacchetti. La risorsa può quindi avere una chiave primaria e una chiave univoca aggiuntiva per garantire l'univocità dei record.
-* **I diritti** necessari per creare ed esportare un pacchetto.
+   Inoltre, devi aver definito una chiave univoca per queste risorse poiché le chiavi primarie automatiche non vengono esportate nei pacchetti. La risorsa può quindi avere una chiave primaria e una chiave univoca aggiuntiva per garantire l’univocità dei record.
+* **I diritti necessari** per creare ed esportare un pacchetto.
 
 Risorse aggiuntive:
 
 * [Gestione dei pacchetti](../../automating/using/managing-packages.md)
-* [Distribuzione di pacchetti:Principio di funzionamento](../../developing/using/data-model-concepts.md)
+* [Distribuzione dei pacchetti: principio di funzionamento](../../developing/using/data-model-concepts.md)
 * [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md)
 
-##  Esportazione della struttura {#exporting-the-structure}
+## Esportazione della struttura {#exporting-the-structure}
 
-In questa sezione verrà eseguita un'esportazione del primo pacchetto con informazioni dettagliate sulla struttura fisica dei dati delle risorse personalizzate.
+In questa sezione verrà eseguita un’esportazione del primo pacchetto che descrive la struttura fisica dei dati delle risorse personalizzate.
 
-Questo esempio include due risorse personalizzate: **Prodotti** e **ordini**.
+Questo esempio include due risorse personalizzate: **Prodotti** e **Ordini**.
 
-1. Vai al **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package exports]** menu.
+1. Passa al menu **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package exports]**.
 
-   Stiamo per creare un nuovo pacchetto per esportare il **[!UICONTROL Custom resource (cusResource)]** filtro con le due risorse personalizzate, "Products" e "Orders".
+   Stiamo per creare un nuovo pacchetto per esportare la **[!UICONTROL Custom resource (cusResource)]** filtrata con le due risorse personalizzate, &quot;Prodotti&quot; e &quot;Ordini&quot;.
 
-1. Nella **[!UICONTROL Package exports]** pagina, fate clic **[!UICONTROL Create]** per creare un nuovo pacchetto.
-1. Completare l’etichetta e fare clic **[!UICONTROL Create element]**.
+1. Nella pagina **[!UICONTROL Package exports]**, fai clic su **[!UICONTROL Create]** per creare un nuovo pacchetto.
+1. Completa l’etichetta e fai clic su **[!UICONTROL Create element]**.
 
    ![](assets/cusresources_export1.png)
 
-1. Cercare e selezionare il **[!UICONTROL Custom resource (cusResource)]**.
+1. Cerca e seleziona la **[!UICONTROL Custom resource (cusResource)]**.
 
    ![](assets/cusresources_export2.png)
 
-1. Configurate i dettagli del filtro **[!UICONTROL Custom resource]** selezionando le due risorse, **Prodotti** e **Ordini**, nelle condizioni di filtraggio.
+1. Configura i dettagli della **[!UICONTROL Custom resource]** selezionando le due risorse, **Prodotti** e **Ordini**, nelle condizioni di filtro.
 
-   Assicurarsi di non dimenticare di modificare l'operatore logico. Il valore deve essere impostato su **OR** in modo che la struttura della risorsa prodotti e la risorsa ordini siano integrate nel pacchetto.
+   Assicurati di non dimenticare di modificare l’operatore logico. Il valore deve essere impostato su **OR** in modo tale che la struttura della risorsa prodotti e della risorsa ordini sia integrata nel pacchetto.
 
    ![](assets/cusresources_export3.png)
 
-1. Confermate e salvate la definizione del pacchetto.
+1. Conferma e salva la definizione del pacchetto.
 
-Ora potete fare clic **[!UICONTROL Start export]**.
+Ora puoi fare clic su **[!UICONTROL Start export]**.
 
 ![](assets/cusresources_export4.png)
 
-Il pacchetto generato è disponibile nella cartella Download. Il nome del file zip viene generato in modo casuale. Potete rinominarlo.
+Il pacchetto generato è disponibile nella cartella Download. Il nome del file zip viene generato in modo casuale. Puoi rinominarlo.
 
 ## Esportazione dei dati {#exporting-the-data}
 
-Questa seconda esportazione ci consentirà di esportare i dati dalle risorse personalizzate **Prodotti** e **Ordini** .
+Questa seconda esportazione consentirà di esportare i dati dalle risorse personalizzate **Products** e **Orders**.
 
-In base allo stesso tipo di esportazione dell'esportazione della struttura, verrà creato un secondo pacchetto contenente i dati.
+In base allo stesso tipo di esportazione dell’esportazione della struttura, creerai un secondo pacchetto che contiene i dati.
 
-1. Nella **[!UICONTROL Package exports]** pagina, fate clic **[!UICONTROL Create]** per creare un nuovo pacchetto.
-1. Completare l'etichetta con **[!UICONTROL Export data of my resources]** quindi fare clic **[!UICONTROL Create element]** nella **[!UICONTROL Export content]** scheda.
-1. Cercare e selezionare la risorsa **Prodotti** .
+1. Nella pagina **[!UICONTROL Package exports]**, fai clic su **[!UICONTROL Create]** per creare un nuovo pacchetto.
+1. Completa l’etichetta con **[!UICONTROL Export data of my resources]** quindi fai clic su **[!UICONTROL Create element]** nella scheda **[!UICONTROL Export content]**.
+1. Cerca e seleziona la risorsa **Products**.
 
    ![](assets/cusresources_exportdata1.png)
 
-1. Configurate una condizione **di** filtro avanzata con **@Label IS NOT NULL**.
+1. Configura una **condizione di filtro** avanzata con **@Label IS NOT NULL**.
 
    ![](assets/cusresources_exportdata2.png)
 
-1. Controlla il numero.
+1. Verifica il conteggio.
 
    ![](assets/cusresources_exportdata3.png)
 
-1. Ripetere la stessa operazione per la risorsa personalizzata **Ordini** .
+1. Ripeti la stessa operazione per la risorsa personalizzata **Ordini**.
 
    ![](assets/cusresources_exportdata4.png)
 
-1. Confermate e salvate la definizione del pacchetto.
+1. Conferma e salva la definizione del pacchetto.
 
-Ora potete fare clic **[!UICONTROL Start export]**.
+Ora puoi fare clic su **[!UICONTROL Start export]**.
 
 ![](assets/cusresources_exportdata5.png)
 
-Il pacchetto generato è disponibile nella cartella Download. Il nome del file zip viene generato in modo casuale. Potete rinominarlo.
+Il pacchetto generato è disponibile nella cartella Download. Il nome del file zip viene generato in modo casuale. Puoi rinominarlo.
 
 ## Importazione della struttura {#importing-the-structure}
 
 ### Importazione del pacchetto {#importing-the-structure-package}
 
-1. Connettetevi all'istanza **di** destinazione in cui desiderate importare i pacchetti appena creati.
-1. Andate al **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** menu per creare un nuovo pacchetto per importare il file dalla prima esportazione.
-1. Trascinate e rilasciate il file **di** struttura nella zona fornita a tal fine. I formati accettati sono ZIP o XML.
+1. Collegati all’**istanza target** in cui desideri importare i pacchetti appena creati.
+1. Passa al menu **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** per creare un nuovo pacchetto per importare il file dalla prima esportazione.
+1. Trascina e rilascia il **file di struttura** nella zona fornita a tal fine. I formati accettati sono ZIP o XML.
 
    ![](assets/cusresources_import2.png)
 
-1. Modificate l'etichetta, ad esempio struttura **** Importa, quindi fate clic su **[!UICONTROL Save]**.
-1. Click **[!UICONTROL Start import]**.
+1. Modifica l’etichetta, ad esempio **Struttura di importazione**, quindi fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Start import]**.
 
    ![](assets/cusresources_import3.png)
 
-### Publish {#publish-structure}
+### Pubblicare {#publish-structure}
 
-1. Vai al **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]** menu.
-1. Fate clic **[!UICONTROL Prepare publication]** quindi **[!UICONTROL Publish]** per aggiornare l'istanza con i dati delle nuove risorse personalizzate.
-1. Le voci di menu corrispondenti al pacchetto installato verranno inserite nel **[!UICONTROL Client data]** menu.
+1. Passa al menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
+1. Fai clic su **[!UICONTROL Prepare publication]** e poi su **[!UICONTROL Publish]** per aggiornare l’istanza con i dati delle nuove risorse personalizzate.
+1. Le voci di menu corrispondenti al pacchetto installato verranno inserite nel menu **[!UICONTROL Client data]**.
 
    ![](assets/cusresources_import1.png)
 
 ## Importazione dei dati {#importing-the-data}
 
-In questa sezione verranno **importati i dati** collegati al pacchetto installato nell'istanza nel passaggio precedente.
+In questa sezione **importeremo i dati** collegati al pacchetto installato nell’istanza nel passaggio precedente.
 
-Allo stesso modo del passo precedente, è diviso in due parti: importare il pacchetto e pubblicare.
+Allo stesso modo del passaggio precedente, l’operazione è divisa in due parti: importazione del pacchetto e pubblicazione.
 
 ### Importazione del pacchetto {#importing-the-data-package}
 
-1. Andate al **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** menu per creare un nuovo pacchetto per importare il file contenente i dati.
-1. Trascinare e rilasciare il file di dati nella zona fornita a tal fine. I formati accettati sono ZIP o XML.
-1. Modificate l'etichetta, ad esempio "Importa dati", quindi fate clic **[!UICONTROL Save]**.
-1. Click **[!UICONTROL Start import]**.
+1. Passa al menu **[!UICONTROL Administration]** / **[!UICONTROL Deployment]** / **[!UICONTROL Package imports]** per creare un nuovo pacchetto per importare il file che contiene i dati.
+1. Trascina e rilascia il file di dati nella zona fornita a tal fine. I formati accettati sono ZIP o XML.
+1. Modifica l’etichetta, ad esempio &quot;Dati di importazione&quot;, quindi fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Start import]**.
 
    ![](assets/cusresources_importdata.png)
 
-### Publish {#publish-data}
+### Pubblicare {#publish-data}
 
-1. Vai al **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]** menu.
-1. Fate clic **[!UICONTROL Prepare publication]** quindi **[!UICONTROL Publish]** per aggiornare l'istanza con i dati delle risorse personalizzate.
+1. Passa al menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
+1. Fai clic su **[!UICONTROL Prepare publication]** e poi su **[!UICONTROL Publish]** per aggiornare l’istanza con i dati delle risorse personalizzate.
