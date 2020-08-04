@@ -1,66 +1,69 @@
 ---
 title: Timeline
-description: Scopri come visualizzare i programmi in corso e il relativo contenuto utilizzando l'interfaccia di Adobe Campaign Standard.
-page-status-flag: mai attivato
+description: Scopri come visualizzare i programmi in corso e il relativo contenuto utilizzando l’interfaccia di Adobe Campaign Standard.
+page-status-flag: never-activated
 uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
-topic-tags: piani di marketing
-discoiquuid: 53e3db10-5ed-4fc3-b41e-5226f1e05246
+topic-tags: marketing-plans
+discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '380'
+ht-degree: 100%
 
 ---
 
 
 # Timeline{#timeline}
 
-Consente di **[!UICONTROL Timeline]** visualizzare i programmi in corso e i relativi contenuti.
+La **[!UICONTROL Timeline]** ti consente di visualizzare i programmi in corso e i relativi contenuti.
 
-Per accedere alla timeline, fate clic sulla scheda corrispondente dalla pagina principale.
+Per accedere alla timeline, fai clic sulla scheda corrispondente dalla pagina Home.
 
-Per impostazione predefinita, nella timeline sono elencati solo i programmi di dettaglio, visualizzati in ordine cronologico tra le date di inizio e di fine definite.
+Per impostazione predefinita, la timeline fornisce solo i dettagli dei programmi, visualizzati in ordine cronologico tra le date di inizio e di fine definite.
 
-Ogni programma è rappresentato da una casella contenente la miniatura e l'etichetta corrispondenti. A seconda delle dimensioni dello schermo e del numero di elementi da visualizzare, l'etichetta può essere sostituita dall'ID del programma.
+Ciascun programma è rappresentato da una casella contenente la miniatura e l’etichetta corrispondenti. A seconda delle dimensioni della schermata e del numero di elementi da visualizzare, l’etichetta può essere sostituita dall’ID del programma.
 
 ![](assets/timeline_1.png)
 
-La linea verticale blu è un indicatore cronologico per evidenziare la data corrente. Per impostazione predefinita, il file si trova al centro dello schermo. Potete scorrere a destra o a sinistra all’interno della schermata per modificare il periodo visualizzato.
+La linea verticale blu è un indicatore cronologico per evidenziare la data corrente. Per impostazione predefinita, si trova al centro della schermata. Puoi scorrere a destra o a sinistra all’interno della schermata per modificare il periodo visualizzato.
 
-I ![](assets/timeline_zoom_in.png) pulsanti e ![](assets/timeline_zoom_out.png) consentono di aumentare o ridurre il perimetro. Il ![](assets/timeline_zoom_in.png) pulsante aumenta inoltre il livello di dettaglio per un periodo più limitato, fino alla visualizzazione dei giorni, e il ![](assets/timeline_zoom_out.png) pulsante consente di visualizzare un periodo più lungo.
+I pulsanti ![](assets/timeline_zoom_in.png) e ![](assets/timeline_zoom_out.png) ti consentono di aumentare o ridurre il perimetro. Il pulsante ![](assets/timeline_zoom_in.png) aumenta inoltre il livello di dettaglio per un periodo più limitato, fino alla visualizzazione dei giorni, e il pulsante ![](assets/timeline_zoom_out.png) ti consente di visualizzare un periodo più lungo.
 
-Fare clic sulla freccia a destra del nome di ciascun programma per visualizzare il contenuto corrispondente. Un programma può contenere sottoprogrammi, campagne e pagine di destinazione. Una campagna viene distribuita allo stesso modo di un programma e può contenere e-mail, SMS e pagine di destinazione.
+Fai clic sulla freccia a destra del nome di ciascun programma per visualizzare il contenuto corrispondente. Un programma può contenere programmi secondari, campagne e pagine di destinazione. Una campagna viene distribuita allo stesso modo di un programma e può contenere e-mail, SMS e pagine di destinazione.
 
 >[!NOTE]
 >
->Poiché i flussi di lavoro non hanno una nozione particolare di data, non vengono visualizzati nella cronologia.
+>Poiché i flussi di lavoro non hanno una nozione particolare di data, non vengono visualizzati nella timeline.
 
-Quando viene visualizzato il contenuto di un programma o di una campagna, la casella corrispondente diventa blu e la freccia a destra si capovolge. Fate nuovamente clic sulla freccia per nascondere il contenuto.
+Quando viene visualizzato il contenuto di un programma o di una campagna, la casella corrispondente diventa blu e la freccia a destra si capovolge. Fai nuovamente clic sulla freccia per nascondere il contenuto.
 
 ![](assets/timeline_2.png)
 
-Ogni elemento ha un'icona che corrisponde al relativo tipo:
+Ciascun elemento ha un’icona che corrisponde al relativo tipo:
 
-* ![](assets/timeline_program_icon.png) : Program
-* ![](assets/timeline_campaign_icon.png) :Campaign
-* ![](assets/timeline_lp_icon.png) : Pagina di destinazione
-* ![](assets/timeline_email_icon.png) :E-mail
+* ![](assets/timeline_program_icon.png) : programma
+* ![](assets/timeline_campaign_icon.png) : campagna
+* ![](assets/timeline_lp_icon.png) : pagina di destinazione
+* ![](assets/timeline_email_icon.png) : e-mail
 * ![](assets/timeline_sms_icon.png) : SMS
-* ![](assets/timeline_push_icon.png) : Notifica push
+* ![](assets/timeline_push_icon.png) : notifica push
 
-La linea colorata sul bordo sinistro di ciascuna casella indica lo stato dell'elemento interessato.
+La linea colorata sul bordo sinistro di ciascuna casella indica lo stato dell’elemento interessato.
 
 * Quando un elemento non è ancora iniziato, la linea è grigia.
 * Se un elemento è in corso, la linea è blu.
 * Al termine di un elemento, la linea diventa verde.
 
-Fate clic su un programma o su qualsiasi altro elemento visualizzato per visualizzare la scheda corrispondente. Fate clic sulla scheda per andare direttamente al contenuto dell'elemento selezionato e modificarlo.
+Fai clic su un programma o su qualsiasi altro elemento visualizzato per visualizzare la scheda corrispondente. Fai clic sulla scheda per passare direttamente al contenuto dell’elemento selezionato e modificarlo.
 
 ![](assets/timeline_3.png)
 
-Fate clic in un altro punto dello schermo per far scomparire la scheda.
+Fai clic in un altro punto della schermata per far scomparire la scheda.
