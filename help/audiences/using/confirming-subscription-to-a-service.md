@@ -1,6 +1,6 @@
 ---
-title: Conferma della sottoscrizione a un servizio
-description: Attenetevi a questa procedura per impostare un messaggio di conferma per i profili che si iscrivono a un servizio in Adobe Campaign.
+title: Conferma dell’abbonamento a un servizio
+description: Segui questi passaggi per impostare un messaggio di conferma per i profili che si abbonano a un servizio in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
@@ -11,189 +11,192 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+workflow-type: ht
+source-wordcount: '1322'
+ht-degree: 100%
 
 ---
 
 
-# Conferma della sottoscrizione a un servizio{#confirming-subscription-to-a-service}
+# Conferma dell’abbonamento a un servizio{#confirming-subscription-to-a-service}
 
-## Informazioni sull'invio della conferma di iscrizione {#sending-subscription-confirmation}
+## Informazioni sull’invio della conferma dell’abbonamento {#sending-subscription-confirmation}
 
-In questa sezione viene descritto come inviare un messaggio e-mail di conferma automatica personalizzato ai profili sottoscritti per un servizio specifico.
+Questa sezione descrive come inviare automaticamente un messaggio e-mail di conferma personalizzato ai profili che si abbonano a un servizio specifico.
 
-Se desiderate inviare un messaggio di conferma per un’iscrizione (o annullamento dell’iscrizione) a un servizio, potete utilizzare il messaggio predefinito o personalizzato. I passaggi per selezionare un messaggio di conferma sono descritti nella sezione [Creazione di un servizio](../../audiences/using/creating-a-service.md) .
+Se desideri inviare un messaggio di conferma per un abbonamento (o l’annullamento) a un servizio, puoi utilizzare il messaggio predefinito o personalizzato. I passaggi per selezionare un messaggio di conferma sono descritti nella sezione [Creazione di un servizio](../../audiences/using/creating-a-service.md).
 
-Se scegliete di utilizzare il messaggio predefinito, potete modificarne il contenuto con le seguenti limitazioni:
-* Potete personalizzare il contenuto del messaggio solo con campi limitati dal contesto dell'evento.
-* Questo messaggio sarà lo stesso per tutti i servizi che utilizzano la modalità predefinita.
+Se scegli di utilizzare il messaggio predefinito, puoi modificarne il contenuto con le seguenti limitazioni:
+* Puoi personalizzare il contenuto del messaggio solo con campi limitati dal contesto dell’evento.
+* Questo messaggio è lo stesso per tutti i servizi che utilizzano la modalità predefinita.
 
-Per inviare un'e-mail di conferma specifica per un determinato servizio, potete creare un messaggio personalizzato in cui potrete sfruttare anche i campi di personalizzazione provenienti da altre risorse. A tal fine, devi creare e configurare un messaggio transazionale. È possibile fare riferimento a questo messaggio:
-* Dal servizio stesso. Per ulteriori informazioni, consulta [Configurazione del messaggio di conferma da un servizio](#configuring-confirmation-message-from-service).
-* Da una pagina di destinazione di iscrizione. Per ulteriori informazioni, vedere [Configurazione del messaggio di conferma da una pagina](#configuring-confirmation-message-from-landing-page)di destinazione.
+Per inviare un’e-mail di conferma specifica per un determinato servizio, puoi creare un messaggio personalizzato sfruttando anche i campi di personalizzazione di altre risorse. A questo scopo, devi creare e configurare un messaggio transazionale. È possibile visualizzare questo messaggio:
+* Dal servizio stesso. Per ulteriori informazioni al riguardo, consulta [Configurazione del messaggio di conferma da un servizio](#configuring-confirmation-message-from-service).
+* Da una pagina di destinazione dell’abbonamento. Per ulteriori informazioni al riguardo, consulta [Configurazione del messaggio di conferma da una pagina di destinazione](#configuring-confirmation-message-from-landing-page).
 
 ## Configurazione del messaggio di conferma da un servizio {#configuring-confirmation-message-from-service}
 
-Ad esempio, se desiderate inviare automaticamente un messaggio di conferma ai visitatori del vostro sito Web quando si iscrivono alla newsletter del vostro marchio,
+Ad esempio, desideri inviare automaticamente un messaggio di conferma ai visitatori del sito web quando si abbonano alla newsletter del brand.
 
-È necessario configurare un'e-mail transazionale e fare riferimento a tale messaggio dal servizio desiderato (in questo caso, iscriviti alla newsletter del tuo marchio). Per arricchire il messaggio di transazione con le informazioni del servizio, potete definire una riconciliazione al momento della creazione dell'evento.
+Devi configurare un’e-mail transazionale e fare riferimento a quel messaggio dal servizio desiderato (in questo caso, l’abbonamento alla newsletter del brand). Per arricchire il messaggio transazionale con le informazioni del servizio, puoi definire una riconciliazione durante la creazione dell’evento.
 
-Quando si configura il servizio dal servizio, il messaggio di conferma della transazione verrà inviato solo la prima volta che ogni visitatore si iscrive a tale servizio. Se un profilo è già sottoscritto, non verrà più inviato alcun messaggio di conferma a tale profilo.
+Al momento di configurarlo dal servizio, il messaggio transazionale di conferma viene inviato solo la prima volta che il visitatore si abbona al relativo servizio. Se un profilo risulta già abbonato, non viene più inviato alcun messaggio di conferma a quel profilo.
 
-### Passaggio 1: Creare il messaggio e-mail di conferma {#step-1--create-the-confirmation-email-1}
+### Passaggio 1: creare il messaggio e-mail di conferma {#step-1--create-the-confirmation-email-1}
 
-Un messaggio e-mail di conferma verrà inviato automaticamente a ogni profilo che si iscrive alla newsletter (tramite una pagina di destinazione o altri mezzi). L’iscrizione viene considerata un evento e l’e-mail è un messaggio [](../../channels/using/about-transactional-messaging.md) transazionale destinato a ciascun profilo che si iscrive al servizio.
+Un messaggio e-mail di conferma viene inviato automaticamente a ogni profilo che si abbona alla newsletter (tramite una pagina di destinazione o in altri modi). L’abbonamento viene considerato un evento e l’e-mail è un [messaggio transazionale](../../channels/using/about-transactional-messaging.md) destinato a ogni profilo che si abbona al servizio.
 
-I passaggi per creare l’e-mail di conferma sono descritti di seguito. Poiché nel servizio verrà fatto riferimento al messaggio di transazione, è necessario prima crearlo.
+I passaggi per creare il messaggio e-mail di conferma sono descritti di seguito. Poiché nel servizio viene fatto riferimento al messaggio transazionale, devi prima crearlo.
 
-#### Creazione dell’evento {#create-the-event-1}
+#### Creare l’evento {#create-the-event-1}
 
-Il messaggio e-mail di conferma è un messaggio transazionale in quanto reagisce a un evento: l’iscrizione a un servizio. Questo messaggio verrà inviato per confermare l’iscrizione alla newsletter.
+Il messaggio e-mail di conferma è un messaggio transazionale che reagisce a un evento: l’abbonamento a un servizio. Questo messaggio viene inviato per confermare l’abbonamento alla newsletter.
 
-1. Create un evento dal menu **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]** , accessibile dal logo di Adobe Campaign.
-1. Immettete un'etichetta, selezionate una dimensione di targeting e fate clic su **[!UICONTROL Create]**.
+1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo di Adobe Campaign.
+1. Immetti un’etichetta, seleziona una dimensione di targeting e fai clic su **[!UICONTROL Create]**.
 
-   I passaggi di configurazione sono descritti nella sezione [Configurazione dei messaggi](../../administration/using/configuring-transactional-messaging.md) transazionali.
+   I passaggi di configurazione sono descritti nella sezione [Configurazione di messaggi transazionali](../../administration/using/configuring-transactional-messaging.md).
 
-1. Nella **[!UICONTROL Fields]** sezione fare clic su **[!UICONTROL Create element]** e aggiungere **[!UICONTROL publicLabel]** alla struttura dati per abilitare la riconciliazione.
+1. Nella sezione **[!UICONTROL Fields]**, fai clic su **[!UICONTROL Create element]** e aggiungi **[!UICONTROL publicLabel]** alla struttura dati per abilitare la riconciliazione.
 
    ![](assets/confirmation_publicLabel-field.png)
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL publicLabel]** campo è obbligatorio. Se non lo aggiungete alla struttura dati dell'evento, Adobe Campaign non sarà in grado di eseguire la riconciliazione con il servizio. Con la sottoscrizione a un servizio, questo campo verrà compilato con il **[!UICONTROL Service label]** relativo servizio.
+   >Il campo **[!UICONTROL publicLabel]** è obbligatorio. Se non lo aggiungi alla struttura dati dell’evento, Adobe Campaign non può eseguire la riconciliazione con il servizio. Con l’abbonamento a un servizio, questo campo viene compilato con il **[!UICONTROL Service label]** del relativo servizio.
 
-1. Nella **[!UICONTROL Enrichment]** sezione, fate clic su **[!UICONTROL Create element]** e selezionate la risorsa di **[!UICONTROL Service]** destinazione.
+1. Nella sezione **[!UICONTROL Enrichment]**, fai clic su **[!UICONTROL Create element]** e seleziona la risorsa target **[!UICONTROL Service]**.
 
    ![](assets/confirmation_enrichment-service.png)
 
-1. Nella **[!UICONTROL Join definition]** sezione, mappate il **[!UICONTROL publicLabel]** campo della **[!UICONTROL Service]** risorsa con il **[!UICONTROL publicLabel]** campo della configurazione dell’evento.
+1. Nella sezione **[!UICONTROL Join definition]**, mappa il campo **[!UICONTROL publicLabel]** della risorsa **[!UICONTROL Service]** con il campo **[!UICONTROL publicLabel]** della configurazione dell’evento.
 
    ![](assets/confirmation_publicLabel-join.png)
 
    >[!NOTE]
    >
-   >In questo modo potrai usare i campi di personalizzazione della **[!UICONTROL Service]** risorsa nel messaggio di transazione.
+   >In questo modo puoi usare i campi di personalizzazione della risorsa **[!UICONTROL Service]** nel messaggio transazionale.
 
-1. Salvate la configurazione dell’evento e fate clic **[!UICONTROL Publish]** per pubblicarlo.
+1. Salva la configurazione dell’evento e fai clic su **[!UICONTROL Publish]** per pubblicarlo.
 
-L'evento è pronto. Ora puoi progettare il messaggio e-mail transazionale.
+L’evento è pronto. Ora puoi progettare il messaggio e-mail transazionale.
 
 #### Progettare il messaggio di conferma {#design-the-confirmation-message-1}
 
 L’e-mail di conferma è un messaggio transazionale basato sull’evento appena pubblicato.
 
-1. Dal logo Adobe Campaign, seleziona **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** e fai clic su **[!UICONTROL Transactional messages]**.
-1. Selezionate il messaggio e-mail di transazione corrispondente all’evento appena pubblicato.
+1. Dal logo di Adobe Campaign, seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** e fai clic su **[!UICONTROL Transactional messages]**.
+1. Seleziona l’e-mail transazionale corrispondente all’evento appena pubblicato.
 
-1. Fate clic sulla **[!UICONTROL Content]** sezione e selezionate un modello e-mail. Per ulteriori informazioni sulla modifica di un contenuto di messaggi transazionali, consulta Messaggi transazionali [evento](../../channels/using/event-transactional-messages.md).
-1. Poiché avete accesso diretto a tutti i campi della **[!UICONTROL Service]** risorsa, potete selezionare qualsiasi campo dal **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event (rtEvent)]** &gt; **[!UICONTROL Event context (ctx)]** &gt;**[!UICONTROL Service]** nodo per personalizzare il contenuto.
+1. Fai clic sulla sezione **[!UICONTROL Content]** e seleziona un modello di e-mail. Per ulteriori informazioni sulla modifica di un contenuto di messaggi transazionali, consulta [Messaggi transazionali di eventi](../../channels/using/event-transactional-messages.md).
+1. Poiché hai accesso diretto a tutti i campi della risorsa **[!UICONTROL Service]**, puoi selezionare qualsiasi campo dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** >**[!UICONTROL Service]** per personalizzare il contenuto.
 
    ![](assets/confirmation_personalization-service.png)
 
    Per ulteriori informazioni sulla personalizzazione di un messaggio transazionale, consulta [questa sezione](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
-1. Visualizzare l'anteprima del messaggio utilizzando un profilo di prova. Per ulteriori informazioni, vedi [Definizione di un profilo di test in un messaggio](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)transazionale.
+1. Visualizza l’anteprima del messaggio utilizzando un profilo di test. Per ulteriori informazioni al riguardo, consulta [Definizione di un profilo di test in un messaggio transazionale](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
 
-1. Fate clic **[!UICONTROL Save & close]** per salvare il contenuto.
-1. Pubblicate il messaggio transazionale. Consultate [Pubblicazione di un messaggio](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)transazionale.
+1. Fai clic su **[!UICONTROL Save & close]** per salvare il contenuto.
+1. Pubblica il messaggio transazionale. Consulta [Pubblicazione di un messaggio transazionale](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-### Passaggio 2: Creazione e configurazione del servizio {#step-2--create-and-configure-the-service-1}
+### Passaggio 2: creare e configurare il servizio {#step-2--create-and-configure-the-service-1}
 
-1. Dal menu avanzato **Profili e pubblico** &gt; **Servizi** tramite il logo Adobe Campaign, create un servizio.
-1. Andate alla **[!UICONTROL Service properties]** sezione, a cui si accede tramite il ![](assets/edit_darkgrey-24px.png) pulsante nel dashboard del servizio.
-1. Compila il **[!UICONTROL Service label]** campo.
+1. Crea un servizio dal menu avanzato **Profiles &amp; audiences** > **Services**, accessibile dal logo di Adobe Campaign.
+1. Vai alla sezione **[!UICONTROL Service properties]**, accessibile tramite il pulsante ![](assets/edit_darkgrey-24px.png) nel dashboard del servizio.
+1. Compila il campo **[!UICONTROL Service label]**.
 
    ![](assets/confirmation_service-label.png)
 
    >[!NOTE]
    >
-   >È necessario compilare questo campo per abilitare la riconciliazione con il messaggio di transazione.
+   >Devi compilare questo campo per abilitare la riconciliazione con il messaggio transazionale.
 
-1. Nella **[!UICONTROL Confirmation messages]** sezione, selezionare **[!UICONTROL Custom message]**: questa modalità consente di fare riferimento a un messaggio di conferma specifico per i profili che si iscrivono al servizio.
-1. Seleziona il messaggio **[!UICONTROL Custom subscription event configuration]** di transazione creato.
+1. Nella sezione **[!UICONTROL Confirmation messages]**, seleziona **[!UICONTROL Custom message]**: questa modalità ti consente di fare riferimento a un messaggio di conferma specifico per i profili che si abbonano al servizio.
+1. Seleziona la **[!UICONTROL Custom subscription event configuration]** associata al messaggio transazionale creato.
 
    ![](assets/confirmation_service-confirmation-message.png)
 
-1. Fate clic su **[!UICONTROL Confirm]** e salvate il servizio.
+1. Fai clic su **[!UICONTROL Confirm]** e salva il servizio.
 
-Ogni volta che un profilo si iscrive a questo servizio, riceve il messaggio transazionale definito dall'utente, con campi personalizzati mappati al servizio selezionato.
+Ogni volta che un profilo si abbona a questo servizio, riceve il messaggio transazionale definito da te, con campi di personalizzazione mappati sul servizio selezionato.
 
 >[!NOTE]
 >
->Un messaggio verrà inviato solo la prima volta che l'utente si iscrive.
+>La prima volta che l’utente si abbona, gli viene inviato un messaggio.
 
 ## Configurazione del messaggio di conferma da una pagina di destinazione {#configuring-confirmation-message-from-landing-page}
 
-Potete anche fare riferimento al messaggio di conferma da una pagina di destinazione di iscrizione utilizzando l' **[!UICONTROL Start sending messages]** opzione presente nella **[!UICONTROL Job]** sezione della pagina di destinazione.
+Puoi anche fare riferimento al messaggio di conferma da una pagina di destinazione di abbonamento utilizzando l’opzione **[!UICONTROL Start sending messages]** presente nella sezione **[!UICONTROL Job]** della pagina di destinazione.
 
-Quando si fa riferimento al messaggio di conferma dalla pagina di destinazione, viene inviato un messaggio ogni volta che la pagina di destinazione viene inviata (anche se il profilo è già sottoscritto).
+Quando si fa riferimento al messaggio di conferma dalla pagina di destinazione, a ogni invio della pagina di destinazione viene inviato un messaggio (anche se il profilo risulta già abbonato).
 
-### Passaggio 1: Creare il messaggio e-mail di conferma {#step-1--create-the-confirmation-email-2}
+### Passaggio 1: creare il messaggio e-mail di conferma {#step-1--create-the-confirmation-email-2}
 
-Un messaggio e-mail di conferma verrà inviato automaticamente a ogni profilo che si iscrive alla newsletter tramite una pagina di destinazione. L’iscrizione viene considerata un evento e l’e-mail è un messaggio [](../../channels/using/about-transactional-messaging.md) transazionale destinato a ciascun profilo che si iscrive al servizio.
+Un messaggio e-mail di conferma viene inviato automaticamente a ogni profilo che si abbona alla newsletter tramite una pagina di destinazione. L’abbonamento viene considerato un evento e l’e-mail è un [messaggio transazionale](../../channels/using/about-transactional-messaging.md) destinato a ciascun profilo che si abbona al servizio.
 
-I passaggi per creare questi elementi sono descritti di seguito. Poiché alla pagina di destinazione verrà fatto riferimento al messaggio di transazione, è necessario prima crearlo.
+I passaggi per creare questi elementi sono descritti di seguito. Poiché nella pagina di destinazione viene fatto riferimento al messaggio transazionale, devi prima crearlo.
 
-#### Creazione dell’evento {#create-the-event-2}
+#### Creare l’evento {#create-the-event-2}
 
-Il messaggio e-mail di conferma è un messaggio [](../../channels/using/about-transactional-messaging.md) transazionale che risponde a un evento: l’iscrizione a un servizio. Questo messaggio verrà inviato per confermare l’iscrizione alla newsletter.
+Il messaggio e-mail di conferma è un [messaggio transazionale](../../channels/using/about-transactional-messaging.md) che reagisce a un evento: l’abbonamento a un servizio. Questo messaggio viene inviato per confermare l’abbonamento alla newsletter.
 
-1. Create un evento dal menu **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]** , accessibile dal logo di Adobe Campaign.
-1. Immettete un'etichetta, selezionate una dimensione di targeting e fate clic su **[!UICONTROL Create]**.
+1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo di Adobe Campaign.
+1. Immetti un’etichetta, seleziona una dimensione di targeting e fai clic su **[!UICONTROL Create]**.
 
-   I passaggi di configurazione sono descritti nella sezione [Configurazione dei messaggi](../../administration/using/configuring-transactional-messaging.md) transazionali.
+   I passaggi di configurazione sono descritti nella sezione [Configurazione di messaggi transazionali](../../administration/using/configuring-transactional-messaging.md).
 
-1. Nella **[!UICONTROL Fields]** sezione fare clic su **[!UICONTROL Create element]** e aggiungere **[!UICONTROL serviceName]** alla struttura dati per abilitare la riconciliazione.
+1. Nella sezione **[!UICONTROL Fields]**, fai clic su **[!UICONTROL Create element]** e aggiungi **[!UICONTROL serviceName]** alla struttura dati per abilitare la riconciliazione.
 
    ![](assets/confirmation_serviceName-field.png)
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL serviceName]** campo è obbligatorio. Se non lo aggiungete alla struttura dati dell'evento, Adobe Campaign non sarà in grado di eseguire la riconciliazione con il servizio sottoscritto.
+   >Il campo **[!UICONTROL serviceName]** è obbligatorio. Se non lo aggiungi alla struttura dati dell’evento, Adobe Campaign non può eseguire la riconciliazione con il servizio in abbonamento.
 
-1. Nella **[!UICONTROL Enrichment]** sezione, fate clic su **[!UICONTROL Create element]** e selezionate la risorsa di **[!UICONTROL Service]** destinazione.
-1. Nella **[!UICONTROL Join definition]** sezione, mappate il **[!UICONTROL serviceName]** campo della **[!UICONTROL Service]** risorsa con il **[!UICONTROL name]** campo della configurazione dell’evento.
+1. Nella sezione **[!UICONTROL Enrichment]**, fai clic su **[!UICONTROL Create element]** e seleziona la risorsa target **[!UICONTROL Service]**.
+1. Nella sezione **[!UICONTROL Join definition]**, mappa il campo **[!UICONTROL serviceName]** della risorsa **[!UICONTROL Service]** con il campo **[!UICONTROL name]** della configurazione dell’evento.
 
    ![](assets/confirmation_serviceName-join.png)
 
    >[!NOTE]
    >
-   >In questo modo potrai usare i campi di personalizzazione della [!UICONTROL Service] risorsa nel messaggio di transazione.
+   >In questo modo puoi usare i campi di personalizzazione della risorsa [!UICONTROL Service] nel messaggio transazionale.
 
 #### Progettare il messaggio di conferma {#design-the-confirmation-message-2}
 
-I passaggi per progettare il messaggio di transazione sono descritti in questa [sezione](#design-the-confirmation-message-1).
+I passaggi per progettare il messaggio transazionale sono descritti in questa [sezione](#design-the-confirmation-message-1).
 
-### Passaggio 2: Creazione e configurazione del servizio {#step-2--create-and-configure-the-service-2}
+### Passaggio 2: creare e configurare il servizio {#step-2--create-and-configure-the-service-2}
 
-1. Dal menu avanzato **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** tramite il logo Adobe Campaign, crea un servizio.
-1. Andate alla **[!UICONTROL Service properties]** sezione, a cui si accede tramite il ![](assets/edit_darkgrey-24px.png) pulsante nel dashboard del servizio.
-1. Compila il **[!UICONTROL Service label]** campo. Questa etichetta verrà visualizzata nel messaggio di conferma e nella pagina di destinazione dell'iscrizione.
-1. Fate clic su **[!UICONTROL Confirm]** e salvate il servizio.
+1. Crea un servizio dal menu avanzato **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]**, accessibile dal logo di Adobe Campaign.
+1. Vai alla sezione **[!UICONTROL Service properties]**, accessibile tramite il pulsante ![](assets/edit_darkgrey-24px.png) nel dashboard del servizio.
+1. Compila il campo **[!UICONTROL Service label]**. Questa etichetta viene visualizzata nel messaggio di conferma e nella pagina di destinazione dell’abbonamento.
+1. Fai clic su **[!UICONTROL Confirm]** e salva il servizio.
 
-### Passaggio 3: Creare e configurare la pagina di destinazione {#step-3--create-and-configure-the-landing-page}
+### Passaggio 3: creare e configurare la pagina di destinazione {#step-3--create-and-configure-the-landing-page}
 
-Create una pagina di destinazione di iscrizione che verrà pubblicata sul sito Web.
+Crea una pagina di destinazione dell’abbonamento da pubblicare sul sito web.
 
-Per creare e configurare questa pagina di destinazione, effettuate le seguenti operazioni:
+Per creare e configurare questa pagina di destinazione, segui questi passaggi:
 
-1. Progettate una [nuova pagina](../../channels/using/getting-started-with-landing-pages.md) di destinazione basata sul **[!UICONTROL Subscription]** modello.
-1. Modificare le proprietà della pagina di destinazione. Nella sezione **[!UICONTROL Job]** &gt; **[!UICONTROL Specific actions]** , selezionate l' **[!UICONTROL Specific service]** opzione e scegliete il servizio appena creato dall'elenco a discesa.
+1. Progetta una [nuova pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md) basata sul modello **[!UICONTROL Subscription]**.
+1. Modifica le proprietà della pagina di destinazione. Nella sezione **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**, seleziona l’opzione **[!UICONTROL Specific service]** e scegli il servizio appena creato dall’elenco a discesa.
 
    ![](assets/confirmation_lp-specific-service.png)
 
-1. Selezionate l’ **[!UICONTROL Start sending message]** opzione e scegliete il messaggio transazionale appena creato dall’elenco a discesa.
+1. Seleziona l’opzione **[!UICONTROL Start sending message]** e scegli il messaggio transazionale appena creato dall’elenco a discesa.
 
    ![](assets/confirmation_lp-start-sending-message.png)
 
-1. Personalizzare il contenuto della pagina di destinazione.
+1. Personalizza il contenuto della pagina di destinazione.
 
-1. [Test e pubblicazione](../../channels/using/testing-publishing-landing-page.md) della pagina di destinazione.
+1. [Verifica e pubblica](../../channels/using/testing-publishing-landing-page.md) la pagina di destinazione.
 
-Ogni volta che un profilo si iscrive alla newsletter inviando la pagina di destinazione, riceve il messaggio di conferma definito con campi personalizzati mappati al servizio.
+Ogni volta che un profilo si abbona alla newsletter inviando la pagina di destinazione, riceve il messaggio di conferma definito con campi di personalizzazione mappati sul servizio.
 
 >[!NOTE]
 >
->Un messaggio viene inviato ogni volta che la pagina di destinazione viene inviata, anche se il profilo è già sottoscritto.
+>A ogni invio della pagina di destinazione viene inviato un messaggio, anche se il profilo risulta già abbonato.
