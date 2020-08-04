@@ -1,6 +1,6 @@
 ---
-title: Segmentazione
-description: L'attività di segmentazione consente di creare uno o più segmenti da una popolazione calcolata dalle attività inserite in precedenza nel flusso di lavoro.
+title: Segmentation
+description: L’attività Segmentation ti consente di creare uno o più segmenti da un gruppo calcolato dalle attività inserite in precedenza nel flusso di lavoro.
 page-status-flag: never-activated
 uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
 contentOwner: sauviat
@@ -16,22 +16,22 @@ translation-type: tm+mt
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
 
-# Segmentazione{#segmentation}
+# Segmentation{#segmentation}
 
 ## Descrizione {#description}
 
 ![](assets/segmentation.png)
 
-L&#39; **[!UICONTROL Segmentation]** attività consente di creare uno o più segmenti da una popolazione calcolata dalle attività inserite in precedenza nel flusso di lavoro. Al termine dell&#39;attività, possono essere elaborati in un&#39;unica transizione o in diverse transizioni.
+L’attività **[!UICONTROL Segmentation]** ti consente di creare uno o più segmenti da un gruppo calcolato dalle attività inserite in precedenza nel flusso di lavoro. Al termine dell’attività, puoi elaborarli in un’unica transizione o in diverse transizioni.
 
 >[!NOTE]
 >
->Per impostazione predefinita, un membro della popolazione in entrata può appartenere a un solo segmento. I filtri vengono applicati in base all&#39;ordine dei segmenti nell&#39;attività.
+>Per impostazione predefinita, un iscritto del gruppo in entrata può appartenere a un solo segmento. I filtri vengono applicati in base all’ordine dei segmenti nell’attività.
 
 **Argomenti correlati:**
 * [Caso di utilizzo: Segmentazione sulla posizione](../../automating/using/workflow-segmentation-location.md)
@@ -40,7 +40,7 @@ L&#39; **[!UICONTROL Segmentation]** attività consente di creare uno o più seg
 
 ## Contesto di utilizzo {#context-of-use}
 
-L&#39; **[!UICONTROL Segmentation]** attività viene generalmente posizionata dopo attività di targeting (query, intersezione, unione, esclusione, ecc.) per definire la popolazione standard in base alla quale si formano i segmenti.
+L’attività **[!UICONTROL Segmentation]** viene generalmente inserita dopo le attività di targeting (query, intersezione, unione, esclusione, ecc.) per definire il gruppo standard in base al quale vengono formati i segmenti.
 
 **Argomenti correlati**
 
@@ -48,58 +48,60 @@ L&#39; **[!UICONTROL Segmentation]** attività viene generalmente posizionata do
 
 ## Configurazione {#configuration}
 
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Segmentation]** attività nel flusso di lavoro.
-1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
-1. Nella **[!UICONTROL General]** scheda, selezionare la **[!UICONTROL Resource type]** posizione in cui eseguire la segmentazione:
+1. Trascina e rilascia un’attività **[!UICONTROL Segmentation]** nel flusso di lavoro.
+1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
+1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
 
-   * **[!UICONTROL Database resource]** se la segmentazione viene eseguita su dati già presenti nel database. Seleziona i dati **[!UICONTROL Filtering dimension]** a seconda dei dati da segmentare. Per impostazione predefinita, la segmentazione viene eseguita sui **profili**.
-   * **[!UICONTROL Temporary resource]** se la segmentazione viene eseguita sui dati temporanei del flusso di lavoro: selezionare il **[!UICONTROL Targeted set]** contenitore dei dati da segmentare. Questo caso di utilizzo può essere rilevato dopo l&#39;importazione di un file o se i dati nel database sono stati arricchiti.
+   * **[!UICONTROL Database resource]** se la segmentazione viene eseguita sui dati già presenti nel database. Seleziona la **[!UICONTROL Filtering dimension]** a seconda dei dati che desideri segmentare. Per impostazione predefinita, la segmentazione viene eseguita sui **profili**.
+   * **[!UICONTROL Temporary resource]** se la segmentazione viene eseguita sui dati temporanei del flusso di lavoro: seleziona il **[!UICONTROL Targeted set]** contenente i dati da segmentare. Puoi rilevare questo caso di utilizzo dopo l’importazione di un file o se i dati nel database sono stati arricchiti.
 
-1. Selezionare il tipo di transizione in uscita che si desidera utilizzare:
+1. Seleziona il tipo di transizione in uscita che desideri utilizzare:
 
-   * **[!UICONTROL Generate one transition per segment]**: viene aggiunta una transizione in uscita per ciascun segmento configurato alla fine dell&#39;attività.
-   * **[!UICONTROL Generate all segments in one transition]**: tutti i segmenti configurati vengono raggruppati in un&#39;unica transizione in uscita. Specificate l&#39;etichetta della transizione. I membri di ciascun segmento mantengono il codice del segmento che è stato loro assegnato.
+   * **[!UICONTROL Generate one transition per segment]**: viene aggiunta una transizione in uscita per ciascun segmento configurato alla fine dell’attività.
+   * **[!UICONTROL Generate all segments in one transition]**: tutti i segmenti configurati vengono raggruppati in un’unica transizione in uscita. Specifica l’etichetta della transizione. Gli iscritti di ciascun segmento mantengono il codice del segmento che è stato loro assegnato.
 
-1. Aggiungi un segmento utilizzando il ![](assets/add_darkgrey-24px.png) pulsante o **[!UICONTROL Add an element]** e specifica le proprietà standard:
+1. Aggiungi un segmento utilizzando il pulsante ![](assets/add_darkgrey-24px.png) o **[!UICONTROL Add an element]** e specifica le proprietà standard:
 
-   * **[!UICONTROL Do not activate the transition if the population is empty]**: il segmento sarà attivato solo se i dati vengono recuperati.
-   * **[!UICONTROL Filter initial population (query)]**: consente di filtrare la popolazione di questo segmento.
-   * **[!UICONTROL Limit segment population]**: consente di limitare la dimensione del segmento.
-   * **[!UICONTROL Filter and limit segment population]**: consente di filtrare la popolazione del segmento e di limitarne le dimensioni.
+   * **[!UICONTROL Do not activate the transition if the population is empty]**: il segmento viene attivato solo se i dati vengono recuperati.
+   * **[!UICONTROL Filter initial population (query)]**: ti consente di filtrare il gruppo di questo segmento.
+   * **[!UICONTROL Limit segment population]**: ti consente di limitare la dimensione del segmento.
+   * **[!UICONTROL Filter and limit segment population]**: ti consente di filtrare il gruppo del segmento e di limitarne le dimensioni.
    * **[!UICONTROL Label]**: etichetta del segmento.
-   * **[!UICONTROL Segment code]**: codice assegnato alla popolazione del segmento.Il codice del segmento può essere personalizzato utilizzando un&#39;espressione standard e variabili di eventi (vedere [Personalizzazione delle attività con le variabili](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)di eventi).
-   * **[!UICONTROL Exclude segment from population]**: consente di escludere il segmento specificato dalla popolazione in uscita dell&#39;attività. Questa opzione può essere utilizzata solo se l’ **[!UICONTROL Generate all segments in the same transition]** opzione è selezionata.
+   * **[!UICONTROL Segment code]**: codice assegnato al gruppo del segmento, che può essere personalizzato utilizzando un’espressione standard e variabili di eventi (consulta [Personalizzazione di attività con variabili di eventi](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)).
+   * **[!UICONTROL Exclude segment from population]**: ti consente di escludere il segmento specificato dal gruppo in uscita dell’attività. Puoi utilizzare questa opzione solo se quella **[!UICONTROL Generate all segments in the same transition]** è selezionata.
+
    ![](assets/wkf_segment_new_segment.png)
 
-1. Aprite la visualizzazione dettagliata del segmento per accedere alle opzioni di configurazione di quest&#39;ultimo. A questo scopo, selezionate la casella pertinente nell&#39;elenco dei segmenti dell&#39;attività, quindi selezionate ![](assets/wkf_segment_parameters_24px.png).
-1. Se l&#39;opzione per filtrare la popolazione iniziale è selezionata, aprite la **[!UICONTROL Filter]** scheda e specificate la popolazione del segmento. I filtri si basano sulla dimensione di filtraggio selezionata al punto 4. Consultate la sezione [Modifica](../../automating/using/editing-queries.md) query per ulteriori informazioni sul filtro della popolazione.
+1. Apri la visualizzazione dettagliata del segmento per accedere alle opzioni di configurazione di quest’ultimo. A questo scopo, spunta la casella pertinente nell’elenco dei segmenti dell’attività, quindi seleziona ![](assets/wkf_segment_parameters_24px.png).
+1. Se l’opzione per filtrare il gruppo iniziale è selezionata, apri la scheda **[!UICONTROL Filter]** e specifica il gruppo del segmento. I filtri si basano sulla dimensione di filtro selezionata nel passaggio 4. Consulta la sezione [Modifica query](../../automating/using/editing-queries.md) per ulteriori informazioni sul filtro del gruppo.
 
-   Se la segmentazione viene eseguita su una risorsa temporanea, il conteggio e l&#39;anteprima della popolazione non sono disponibili in questa scheda.
+   Se la segmentazione viene eseguita su una risorsa temporanea, il conteggio e l’anteprima del gruppo non sono disponibili in questa scheda.
 
-1. Se è selezionata l’opzione per limitare la dimensione del segmento, aprite la **[!UICONTROL Limitation]** scheda.
+1. Se è selezionata l’opzione per limitare la dimensione del segmento, apri la scheda **[!UICONTROL Limitation]**.
 
-   Innanzitutto, selezionate l’ **[!UICONTROL Type of limit]** opzione da usare:
+   Innanzitutto, seleziona l’opzione **[!UICONTROL Type of limit]** che desideri utilizzare:
 
-   * **[!UICONTROL Random sampling]**: la popolazione del segmento viene selezionata in modo casuale tenendo conto, se necessario, della configurazione della **[!UICONTROL Filter]** scheda.
-   * **[!UICONTROL Ordered sampling]**: la popolazione del segmento viene selezionata in modo ordinato. È pertanto necessario specificare le colonne da prendere in considerazione e il tipo di ordinamento da applicare. Ad esempio, se selezionate il campo **Età** come colonna di ordinamento mentre applicate un limite **[!UICONTROL Descending sort]** e impostate un limite di 100, verranno mantenuti solo i profili delle prime 100 persone meno recenti.
+   * **[!UICONTROL Random sampling]**: la popolazione del segmento viene selezionata in modo casuale tenendo conto, se necessario, della configurazione della scheda **[!UICONTROL Filter]**.
+   * **[!UICONTROL Ordered sampling]**: il gruppo del segmento viene selezionato in modo ordinato. Devi pertanto specificare le colonne da prendere in considerazione e il tipo di ordinamento da applicare. Ad esempio, se selezioni il campo **Age** come colonna di ordinamento mentre applichi un **[!UICONTROL Descending sort]** e imposti un limite di 100, mantieni solo i profili delle prime 100 persone più anziane.
+
    Ora specifica la dimensione **[!UICONTROL Limit]** del segmento:
 
-   * **[!UICONTROL Size (as a % of the initial population)]**: specificate la dimensione del segmento utilizzando una percentuale della popolazione iniziale dell&#39;attività.
-   * **[!UICONTROL Maximum size]**: specifica un numero massimo di membri per la popolazione del segmento.
-   * **[!UICONTROL By data grouping]**: è possibile limitare la popolazione del segmento in base ai valori di un campo specifico della popolazione in entrata. Selezionate il campo da raggruppare, quindi specificate i valori da utilizzare.
-   * **[!UICONTROL By data grouping (as a %)]**: è possibile limitare la popolazione del segmento in base ai valori di un campo popolazione in entrata specifico utilizzando una percentuale. Selezionate il campo da applicare al raggruppamento, quindi specificate i valori da utilizzare.
+   * **[!UICONTROL Size (as a % of the initial population)]**: specifica la dimensione del segmento utilizzando una percentuale del gruppo iniziale dell’attività.
+   * **[!UICONTROL Maximum size]**: specifica un numero massimo di iscritti per il gruppo del segmento.
+   * **[!UICONTROL By data grouping]**: puoi limitare il gruppo del segmento in base ai valori di un campo specifico del gruppo in entrata. Seleziona il campo da raggruppare, quindi specifica i valori da utilizzare.
+   * **[!UICONTROL By data grouping (as a %)]**: puoi limitare il gruppo del segmento in base ai valori di un campo specifico del gruppo in entrata utilizzando una percentuale. Seleziona il campo da applicare al raggruppamento, quindi specifica i valori da utilizzare.
 
       >[!NOTE]
       >
-      >È possibile utilizzare limitazioni diverse per ciascun valore. Ad esempio, è possibile specificare un raggruppamento per il **[!UICONTROL Gender]** campo e limitare la popolazione con **[!UICONTROL Male]** i membri a 10 e la popolazione con **[!UICONTROL Female]** i membri a 30. Se si utilizzano più campi di raggruppamento dati, tutti i raggruppamenti devono avere la stessa dimensione.
+      >È possibile utilizzare limitazioni diverse per ciascun valore. Ad esempio, puoi specificare un raggruppamento per il campo **[!UICONTROL Gender]** e limitare il gruppo con iscritti **[!UICONTROL Male]** a 10 e il gruppo con iscritti **[!UICONTROL Female]** a 30. Se utilizzi più campi di raggruppamento di dati, devono avere tutti la stessa dimensione.
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Conferma la configurazione del segmento.
-1. Aggiungete tutti i segmenti necessari ripetendo i passaggi da 6 a 10 di questa procedura.
-1. Se necessario, modificate i parametri nella **[!UICONTROL Advanced options]** scheda:
+1. Aggiungi il maggior numero di segmenti necessario ripetendo i passaggi da 6 a 10 di questa procedura.
+1. Se necessario, modifica i parametri nella scheda **[!UICONTROL Advanced options]**:
 
-   * Selezionare l&#39; **[!UICONTROL Enable overlapping of outbound populations]** opzione se si desidera che un membro della popolazione in entrata appartenga a più segmenti contemporaneamente. La popolazione in uscita dell&#39;attività può superare quella in entrata.
-   * Selezionare l&#39; **[!UICONTROL Concatenate the code of each segment]** opzione se alla popolazione in entrata è già stato assegnato un codice di segmento da mantenere. Il codice del segmento specificato nell&#39;attività verrà aggiunto al codice del segmento iniziale.
-   * Selezionare l&#39; **[!UICONTROL Generate complement]** opzione se si desidera sfruttare la popolazione rimanente. Consulta Caso [di utilizzo: Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md).
+   * Seleziona l’opzione **[!UICONTROL Enable overlapping of outbound populations]** se desideri che un iscritto del gruppo in entrata appartenga a più segmenti contemporaneamente. Il gruppo in uscita dell’attività può superare quello in entrata.
+   * Seleziona l’opzione **[!UICONTROL Concatenate the code of each segment]** se al gruppo in entrata è già stato assegnato un codice di segmento da mantenere. Il codice del segmento specificato nell’attività viene aggiunto al codice del segmento iniziale.
+   * Seleziona l’opzione **[!UICONTROL Generate complement]** se desideri sfruttare il gruppo rimanente. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
 
-1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
+1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
