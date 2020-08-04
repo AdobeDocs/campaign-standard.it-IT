@@ -12,8 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+workflow-type: ht
+source-wordcount: '308'
+ht-degree: 100%
 
 ---
 
@@ -22,56 +25,56 @@ source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ## Informazioni sulle tipologie {#about-typologies}
 
-Le tipologie sono insiemi di regole che consentono di verificare la validità del messaggio prima di inviarlo. Ad esempio: Il contenuto del messaggio non è vuoto, è presente un&#39;annullamento della sottoscrizione, l&#39;esclusione di duplicati, ecc.
+Le tipologie sono set di regole che ti consentono di verificare la validità del messaggio prima di inviarlo. Ad esempio: il contenuto del messaggio non è vuoto, è presente un annullamento dell’abbonamento, l’esclusione di duplicati, ecc.
 
-Le tipologie sono accessibili tramite il menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** . Per impostazione predefinita, nell’applicazione è disponibile una tipologia predefinita. In base alle vostre esigenze, potete creare tipologie personalizzate o modificare quelle esistenti.
+Le tipologie sono accessibili tramite il menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**. Per impostazione predefinita, nell’applicazione è disponibile una tipologia predefinita. In base alle esigenze puoi creare tipologie personalizzate o modificare quelle esistenti.
 
 ![](assets/typologies-list.png)
 
-Per ogni tipologia, la **[!UICONTROL Typology rules]** sezione elenca il set di regole che vengono eseguite quando si utilizza la tipologia con un messaggio.
+Per ogni tipologia la sezione **[!UICONTROL Typology rules]** elenca il set di regole che vengono eseguite al momento di utilizzare la tipologia con un messaggio.
 
 ![](assets/typology_typo-rule-list.png)
 
 >[!NOTE]
 >
->Per visualizzare ulteriori dettagli su una delle regole di tipologia, fare doppio clic su di essa. La regola viene visualizzata in modalità di sola lettura.
+>Per visualizzare ulteriori dettagli su una delle regole di tipologia, fai doppio clic su di essa. La regola viene visualizzata in modalità di sola lettura.
 
 ## Creazione di una tipologia {#creating-a-typology}
 
-Per creare una nuova tipologia, procedere come segue:
+Per creare una nuova tipologia, segui questi passaggi:
 
-1. Accedete al menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** .
+1. Accedi al menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**.
 
-1. Viene visualizzato l&#39;elenco delle tipologie. Fate clic sul **[!UICONTROL Create]** pulsante.
+1. Viene visualizzato l’elenco delle tipologie. Fai clic sul pulsante **[!UICONTROL Create]**.
 
    ![](assets/typologies-create.png)
 
-1. Definite la tipologia **[!UICONTROL Label]**, quindi fate clic sul **[!UICONTROL Add an element]** pulsante per selezionare le regole di tipologia che desiderate includere in essa. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
+1. Definisci la tipologia **[!UICONTROL Label]**, quindi fai clic sul pulsante **[!UICONTROL Add an element]** per selezionare le regole di tipologia che desideri includervi. Per ulteriori informazioni sulle regole di tipologia, consulta [questa sezione](../../sending/using/managing-typology-rules.md).
 
    ![](assets/typology_addrules.png)
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL IP affinity]** campo consente di gestire le affinità in base alla configurazione. Sono definiti nel file di configurazione dell&#39;istanza. Se desiderate utilizzare le affinità, contattate l&#39;amministratore.
+   >Il campo **[!UICONTROL IP affinity]** ti consente di gestire le affinità in base alla configurazione. Vengono definite nel file di configurazione dell’istanza. Se desideri utilizzare le affinità, contatta l’amministratore.
 
-1. Fate clic **[!UICONTROL Create]** per confermare la selezione. La tipologia è ora pronta per essere utilizzata nei messaggi.
+1. Fai clic su **[!UICONTROL Create]** per confermare la selezione. La tipologia è ora pronta per essere utilizzata nei messaggi.
 
 ## Applicazione delle tipologie ai messaggi {#applying-typologies-to-messages}
 
-Quando si associa una tipologia a un modello di messaggio o messaggio, le regole di tipologia incluse nella tipologia vengono eseguite per verificare la validità del messaggio.
+Durante l’associazione di una tipologia a un messaggio o a un relativo modello, le regole di tipologia incluse in essa vengono eseguite per verificare la validità del messaggio.
 
 >[!NOTE]
 >
->A ogni modello di messaggio o di messaggio può essere assegnata una sola tipologia.
+>È possibile assegnare una sola tipologia a ogni messaggio o al relativo modello.
 
-Per collegare una tipologia a un messaggio, effettua le seguenti operazioni:
+Per collegare una tipologia a un messaggio, segui questi passaggi:
 
-1. Accedere alle proprietà del messaggio. I modelli di messaggio sono accessibili dal menu di **[!UICONTROL Resources]** > **[!UICONTROL Templates]** navigazione.
+1. Accedi alle proprietà del messaggio. I modelli di messaggio sono accessibili dal menu di navigazione **[!UICONTROL Resources]** > **[!UICONTROL Templates]**.
 
-1. Nella sezione **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** , seleziona la tipologia di collegamento al messaggio.
+1. Nella sezione **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]**, seleziona la tipologia da collegare al messaggio.
 
    ![](assets/typology_message.png)
 
-1. Clic **[!UICONTROL Confirm]**.
+1. Fai clic su **[!UICONTROL Confirm]**.
 
-   La tipologia selezionata è ora collegata al messaggio. Tutte le relative regole di tipologia associate verranno eseguite per verificare la validità del messaggio.
+   La tipologia selezionata è ora collegata al messaggio. Tutte le relative regole di tipologia associate vengono eseguite per verificare la validità del messaggio.
