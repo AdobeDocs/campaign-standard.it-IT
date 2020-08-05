@@ -13,10 +13,10 @@ context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 98%
+source-wordcount: '475'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ L’integrazione tra il servizio core Activation di Experience Cloud **[!UICONTR
 In Adobe Experience Cloud, puoi definire i diversi trigger, vale a dire i comportamenti dei clienti che desideri monitorare, come tutti i clienti che hanno abbandonato la visita sul sito web, che hanno effettuato una ricerca sul sito web senza effettuare un acquisto o anche i clienti con una sessione scaduta. Quando crei un trigger, definisci la relativa condizione e i dati che vengono inviati nell’evento (caricamento) in Adobe Campaign.
 
 In Adobe Campaign, selezioni il trigger precedentemente creato, arricchisci i dati dell’evento con i dati del data mart e definisci un modello di messaggio transazionale collegato a esso. Ad esempio, quando un cliente abbandona la visita sul sito web, un evento viene inviato in Adobe Campaign, che può quindi sfruttarlo tramite un’e-mail di remarketing inviata al cliente entro 15 minuti.
+
+Nel diagramma seguente è illustrato il funzionamento di questa integrazione.
+
+![](assets/triggers_diagram.png)
 
 **Argomenti correlati:**
 
