@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '1825'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 100%
 * Sono stati risolti dei problemi di prestazioni che potevano verificarsi durante la selezione e l’aggiornamento dei profili di test. (CAMP-37976)
 * È stato risolto un problema che poteva provocare la visualizzazione di pagine di errore durante l’abbonamento o l’annullamento dell’abbonamento tramite pagine di destinazione. (CAMP-37771)
 * È stato risolto un problema che si verificava durante il caricamento di contenuto in formato zip, in cui l’estensione dei file PNG a cui si faceva riferimento nell’HTML era in lettere maiuscole. (CAMP-37913)
-* È stato risolto un problema che impediva l’invio di messaggi in-app quando si aggiungeva un profilo di test alla consegna.
+* È stato risolto un problema che impediva l&#39;invio di messaggi in-app quando si aggiungeva un profilo di test alla consegna.
 * È stato risolto un errore che impediva il funzionamento dell’attività del flusso di lavoro External API quando era collegata ad attività di arricchimento.
 * È stato risolto un problema che poteva causare una visualizzazione errata dello stato dei messaggi SMS.
 * È stato risolto un problema relativo alle risorse personalizzate che provocava la visualizzazione di voci duplicate in endpoint API diversi.
