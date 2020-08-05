@@ -105,7 +105,7 @@ Per l&#39;audio personalizzato su iOS, è necessario fornire un nome di file con
 Sì, i collegamenti profondi sono supportati nei messaggi in-app. I collegamenti di dettaglio devono includere:
 
 * la lingua in cui si afferma che il tracciamento della consegna deve essere disabilitato per consentire il funzionamento dei collegamenti dettagliati.
-* Applicate un&#39;applicazione con il ramo come partner in grado di eseguire il tracciamento del collegamento profondo. Per ulteriori informazioni sull&#39;integrazione di ramo e  Adobe Campaign Standard, fare riferimento a questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Applicate un&#39;applicazione con il ramo come partner in grado di eseguire il tracciamento del collegamento profondo. Per ulteriori informazioni sull&#39;integrazione di Branch e  Adobe Campaign Standard, consultare questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ### È possibile attivare un messaggio in-app quando l&#39;utente avvia l&#39;app da una notifica push? {#inapp-push-trigger}
 
