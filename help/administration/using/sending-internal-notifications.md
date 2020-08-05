@@ -1,6 +1,6 @@
 ---
 title: Invio di notifiche interne
-description: Scopri come inviare notifiche di sistema in tempo reale agli utenti di Adobe Campaign.
+description: Scoprite come inviare notifiche di sistema in tempo reale ai vostri utenti Adobe Campaign .
 page-status-flag: never-activated
 uuid: f196f025-dbb9-4268-9d7d-ff626994b447
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 # Invio di notifiche interne{#sending-internal-notifications}
 
-Adobe Campaign ti offre la possibilità di ricevere notifiche su importanti attività del sistema direttamente all&#39;interno dell&#39;applicazione. Le notifiche in tempo reale tengono informate le parti interessate e forniscono agli utenti la possibilità di agire immediatamente e direttamente sulle notifiche delle attività dall&#39;interno dell&#39;applicazione. Il risultato per i team è un&#39;agilità avanzata, un&#39;efficienza e un&#39;esecuzione più fluida delle campagne.
+ Adobe Campaign ti offre la possibilità di ricevere notifiche su importanti attività del sistema direttamente all&#39;interno dell&#39;applicazione. Le notifiche in tempo reale tengono informate le parti interessate e forniscono agli utenti la possibilità di agire immediatamente e direttamente sulle notifiche delle attività dall&#39;interno dell&#39;applicazione. Il risultato per i team è un&#39;agilità avanzata, un&#39;efficienza e un&#39;esecuzione più fluida delle campagne.
 
 ![](assets/pulse_3.png)
 
