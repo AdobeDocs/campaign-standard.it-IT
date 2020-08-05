@@ -133,7 +133,7 @@ Accertatevi di seguire le istruzioni di payload push fornite [qui](../../adminis
 
 Nota: per Android, Campaign supporta solo il payload di dati e non il payload di notifica
 
-### Ho configurato un&#39;app nella sezione Amministrazione del  Adobe Campaign Standard, ma l&#39;app mobile non è disponibile nelle proprietà di consegna. {#mobile-app-unavailable}
+### Ho configurato un&#39;app nella sezione Amministrazione di  Adobe Campaign Standard, ma l&#39;app mobile non è disponibile nelle proprietà di consegna. {#mobile-app-unavailable}
 
 Un&#39;app deve avere anche un certificato push valido caricato prima di poter essere reso disponibile nelle proprietà di consegna.
 
@@ -156,7 +156,7 @@ Istruzioni più dettagliate sono disponibili in questa [pagina](../../administra
 
 ### Quali report sono disponibili per il canale push? {#push-report-available}
 
-Un rapporto out-of-the-box è disponibile in  Adobe Campaign per il canale push. Fare riferimento a questa [documentazione](../../reporting/using/push-notification-report.md).
+Un rapporto out-of-the-box è disponibile in  Adobe Campaign per i canali push. Fare riferimento a questa [documentazione](../../reporting/using/push-notification-report.md).
 
 Consultate questa [pagina](../../reporting/using/indicator-calculation.md#push-notification-delivery) per comprendere come vengono calcolate le singole metriche push.
 
@@ -165,4 +165,4 @@ Consultate questa [pagina](../../reporting/using/indicator-calculation.md#push-n
 Sì, i collegamenti dei dettagli sono supportati nei messaggi push. I collegamenti di dettaglio devono includere:
 
 * la lingua in cui si afferma che il tracciamento della consegna deve essere disabilitato per consentire il funzionamento dei collegamenti dettagliati.
-* Applicate un&#39;applicazione con il ramo come partner in grado di eseguire il tracciamento del collegamento profondo. Per ulteriori informazioni sull&#39;integrazione di ramo e  Adobe Campaign Standard, fare riferimento a questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Applicate un&#39;applicazione con il ramo come partner in grado di eseguire il tracciamento del collegamento profondo. Per ulteriori informazioni sull&#39;integrazione di Branch e  Adobe Campaign Standard, consultare questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
