@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '6092'
 ht-degree: 94%
@@ -472,7 +472,7 @@ Miglioramenti della versione beta della messaggistica in-app - [Ulteriori inform
 
 È stata aggiornata la guida Progettazione del contenuto per riflettere la disponibilità generale di E-mail Designer e la rimozione dell’editor dei contenuti dell’e-mail legacy. [Ulteriori informazioni](../../designing/using/designing-content-in-adobe-campaign.md)
 
-È stata aggiornata la documentazione delle notifiche [in-app](../../channels/using/about-in-app-messaging.md) e [push](../../channels/using/about-push-notifications.md).
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Sono state aggiunte ulteriori informazioni sui vari tipi di pubblico all’interno di Adobe Campaign. [Ulteriori informazioni](../../audiences/using/about-audiences.md)
 
@@ -822,7 +822,7 @@ Numerose schermate sono state aggiornate per riflettere le modifiche all’inter
 
 È ora disponibile una nuova nota tecnica: &quot;Integrazione dell’SDK di Adobe Mobile con la tua app mobile&quot;. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html)
 
-Sono state aggiunte istruzioni per configurare il servizio di base Persone o l&#39;integrazione  Audience Manager con  Adobe Campaign. [Ulteriori informazioni](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Sono state aggiunte istruzioni per configurare il servizio di base Persone o &#39;integrazione con  Adobe Campaign. [Ulteriori informazioni](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
