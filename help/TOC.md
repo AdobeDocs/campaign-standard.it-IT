@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 88%
@@ -136,13 +136,13 @@ ht-degree: 88%
    + [Guida introduttiva alla verifica e all’invio](sending/using/get-started-sending-messages.md)
    + Preparazione e verifica dei messaggi {#preparing-and-testing-messages}
       + [Anteprima delle consegne](sending/using/previewing-messages.md)
-      + [Preparazione dell’invio](sending/using/preparing-the-send.md)
       + [Invio di bozze](sending/using/sending-proofs.md)
       + [Verifica dei messaggi e-mail tramite profili di destinazione](sending/using/testing-messages-using-target.md)
       + [Verifica dell’oggetto di un messaggio e-mail](sending/using/testing-subject-line-email.md)
       + [E-mail basate su AI](sending/using/predictive.md)
       + [Rendering di e-mail](sending/using/email-rendering.md)
       + [Utilizzo delle “trappole”](sending/using/using-traps.md)
+      + [Preparazione dell’invio](sending/using/preparing-the-send.md)
    + Pianificazione dei messaggi {#scheduling-messages}
       + [Informazioni sulla pianificazione dei messaggi](sending/using/about-scheduling-messages.md)
       + [Ottimizzazione del tempo di invio](sending/using/optimizing-the-sending-time.md)
@@ -242,7 +242,7 @@ ht-degree: 88%
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
       + [Interfaccia dei flussi di lavoro](automating/using/workflow-interface.md)
       + [Creazione di un flusso di lavoro](automating/using/building-a-workflow.md)
-      + [Best practice per i flussi di lavoro](automating/using/best-practices-workflows.md)
+      + [Procedure consigliate per i flussi di lavoro](automating/using/best-practices-workflows.md)
    + Esecuzione di un flusso di lavoro {#executing-a-workflow}
       + [Informazioni sull’esecuzione di un flusso di lavoro](automating/using/about-workflow-execution.md)
       + [Ciclo di vita del flusso di lavoro](automating/using/workflow-life-cycle.md)
@@ -303,7 +303,7 @@ ht-degree: 88%
       + [Esportazione di elenchi](automating/using/exporting-lists.md)
       + [Caso di utilizzo: esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
    + Casi d’uso {#workflow-use-case}
-      + [I casi di utilizzo dei flussi di lavoro](automating/using/about-workflow-use-cases.md)
+      + [Informazioni sui casi di utilizzo dei flussi di lavoro](automating/using/about-workflow-use-cases.md)
       + Consegne {#deliveries}
          + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
          + [Creazione di consegne sulla data di creazione dei profili](automating/using/workflow-creation-date-query.md)
@@ -324,7 +324,7 @@ ht-degree: 88%
          + [Segmentazione in base ai gruppi di età](automating/using/segmentation-age-groups.md)
          + [Utilizzo di risorse diverse dalle dimensioni di targeting](automating/using/using-resources-different-from-targeting-dimensions.md)
          + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
-      + Gestione dei dati {#data-management}
+      + Gestione dati {#data-management}
          + [Riconciliare un pubblico di file con il database](automating/using/reconcile-file-audience-with-database.md)
          + [Deduplicazione dei dati da un file importato](automating/using/deduplicating-data-imported-file.md)
          + [Arricchimento dei dati del profilo con i dati contenuti in un file](automating/using/enriching-profile-data-file.md)
