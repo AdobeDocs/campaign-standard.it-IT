@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 14%
 
 ---
 
@@ -47,29 +47,29 @@ Innanzitutto, è necessario estendere la **[!UICONTROL Profile]** risorsa con un
 
    ![](assets/wkf_control-group-profile-field-screen.png)
 
-1. Salvare le modifiche.
-1. Aggiornate la struttura del database per pubblicare la risorsa **[!UICONTROL Profile]** estesa. Consultate [Pubblicazione di una risorsa](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizzata.
+1. Salva le modifiche.
+1. Aggiornate la struttura del database per pubblicare la risorsa **[!UICONTROL Profile]** estesa. See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
 Per ulteriori informazioni sull&#39;estensione di una risorsa personalizzata, consultate Procedura [chiave per aggiungere una risorsa](../../developing/using/key-steps-to-add-a-resource.md).
 
 ## Creazione di un flusso di lavoro {#creating-a-workflow}
 
-1. In **[!UICONTROL Marketing Activities]**, fate clic **[!UICONTROL Create]** e selezionate **[!UICONTROL Workflow]**.
-1. Selezionate **[!UICONTROL New Workflow]** come tipo di flusso di lavoro e fate clic su **[!UICONTROL Next]**.
-1. Immettete le proprietà del flusso di lavoro e fate clic su **[!UICONTROL Create]**.
+1. In **[!UICONTROL Marketing Activities]**, fai clic su **[!UICONTROL Create]** e seleziona **[!UICONTROL Workflow]**.
+1. Seleziona **[!UICONTROL New Workflow]** come tipo di flusso di lavoro e fai clic su **[!UICONTROL Next]**.
+1. Inserisci le proprietà del flusso di lavoro e fai clic su **[!UICONTROL Create]**.
 
-I passaggi dettagliati per creare un flusso di lavoro sono descritti nella sezione [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md) .
+I passaggi dettagliati per la creazione di un flusso di lavoro sono descritti nella sezione [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md).
 
-## Creazione di un&#39;attività Query {#create-a-query-activity}
+## Creazione di un’attività query {#create-a-query-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascinate e rilasciate un&#39;attività [Query](../../automating/using/query.md) .
 1. Fate doppio clic sull&#39;attività per definire la destinazione.
 1. Ad esempio, in **[!UICONTROL Shortcuts]**, trascinare **[!UICONTROL Profile]**, selezionare **[!UICONTROL Age]** con l&#39;operatore **[!UICONTROL Greater than]** e digitare 25 nel **[!UICONTROL Value]** campo.
-1. Clic **[!UICONTROL Confirm]**.
+1. Fai clic su **[!UICONTROL Confirm]**.
 
-## Creazione di un&#39;attività di segmentazione {#creating-a-segmentation-activity}
+## Creazione di un’attività di segmentazione {#creating-a-segmentation-activity}
 
-1. Trascina e rilascia un&#39;attività di [segmentazione](../../automating/using/segmentation.md) e fai doppio clic su di essa.
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. Nella **[!UICONTROL Segments]** scheda, seleziona un segmento da modificare.
 1. Nella **[!UICONTROL Configuration]** scheda di quel segmento, selezionate l&#39; **[!UICONTROL Limit the population of this segment]** opzione.
 
@@ -84,25 +84,25 @@ I passaggi dettagliati per creare un flusso di lavoro sono descritti nella sezio
 
    ![](assets/wkf_control-segment-advanced.png)
 
-1. Clic **[!UICONTROL Confirm]**.
+1. Fai clic su **[!UICONTROL Confirm]**.
 
-## Creazione di un&#39;attività e-mail {#creating-an-email-activity}
+## Creating an Email activity {#creating-an-email-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, trascinate e rilasciate un&#39;attività di consegna [](../../automating/using/email-delivery.md) e-mail dopo il segmento di destinazione principale.
-1. Fate clic sull&#39;attività e selezionate ![](assets/edit_darkgrey-24px.png) per modificarla.
-1. Selezionate **[!UICONTROL Single send email]** e fate clic su **[!UICONTROL Next]**.
-1. Selezionate un modello e-mail e fate clic su **[!UICONTROL Next]**.
-1. Immettete le proprietà e-mail e fate clic su **[!UICONTROL Next]**.
-1. Per creare il layout del messaggio e-mail, fate clic su **[!UICONTROL Use the Email Designer]**.
-1. Modificate e salvate il contenuto.
-1. Nella **[!UICONTROL Schedule]** sezione del dashboard dei messaggi, deselezionate l&#39;opzione **[!UICONTROL Request Confirm before sent messages}** (Conferma richiesta CONTROL prima dell&#39;invio dei messaggi).
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
+1. Seleziona **[!UICONTROL Single send email]** e fai clic su **[!UICONTROL Next]**.
+1. Seleziona un modello di e-mail e fai clic su **[!UICONTROL Next]**.
+1. Immetti le proprietà dell’e-mail e fai clic su **[!UICONTROL Next]**.
+1. Per creare il layout dell’e-mail, fai clic su **[!UICONTROL Use the Email Designer]**.
+1. Modifica e salva il contenuto.
+1. Nella **[!UICONTROL Schedule]** sezione del dashboard dei messaggi, deseleziona l’ **[!UICONTROL Request confirmation before sending messages]** opzione.
 
 ## Creazione di un&#39;attività di aggiornamento dei dati {#creating-update-data-activity}
 
 1. Trascinare e rilasciare un&#39;attività [Aggiorna dati](../../automating/using/update-data.md) dopo il segmento del gruppo di controllo.
-1. Selezionate l&#39;attività, quindi apritela utilizzando il ![](assets/edit_darkgrey-24px.png) pulsante delle azioni rapide visualizzate.
+1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
 1. Nella **[!UICONTROL General]** scheda, selezionare **[!UICONTROL Update]** dall&#39;elenco a **[!UICONTROL Operation type]** discesa.
-1. Nella **[!UICONTROL Identification]** scheda, selezionare l&#39; **[!UICONTROL Directly using the targeting dimension]** opzione.
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.
 1. Selezionate la risorsa precedentemente **[!UICONTROL Profile]** estesa come dimensione da aggiornare.
 
    ![](assets/wkf_control-update-identification.png)
@@ -111,7 +111,7 @@ I passaggi dettagliati per creare un flusso di lavoro sono descritti nella sezio
 
    ![](assets/wkf_control-update-fields-to-update.png)
 
-1. Clic **[!UICONTROL Confirm]**.
+1. Fai clic su **[!UICONTROL Confirm]**.
 
 ## Esecuzione del flusso di lavoro {#running-the-workflow}
 
