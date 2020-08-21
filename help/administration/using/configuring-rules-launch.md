@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -128,15 +128,15 @@ Per inviare dati PII a [!DNL Adobe Campaign Standard], crea una regola in [!DNL 
 
    Potete anche trasmettere i dati del ciclo di vita nel postback Collect PII o in un postback diverso a seconda delle attivazioni dell’evento. di seguito è riportato un esempio del JSON dei dati del ciclo di vita:
 
-       &quot;
-     {
- &quot;marketingCloudId&quot;:&quot;{%mcid%%}&quot;,     
-     &quot;cusDayslastlaunch&quot;: &quot;{%DaysSinceLastUse%%}&quot;,
-     &quot;cusDaysfirstlaunch&quot;: &quot;{%%DaysSinceFirstUse%}&quot;,
-     &quot;cusLaunches&quot;: &quot;{%%Launches%}&quot;
-     }
-     &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    Gli elementi dati definiti in [!DNL Experience Platform Launch] devono essere racchiusi in due percentuali, ad esempio %%mcid%%, e le variabili di contesto dell&#39;app devono essere racchiuse in singole percentuali, ad esempio %contextdata.email%.
 
 1. In **[!UICONTROL Content Type]**, digitate **application/json**.
