@@ -12,9 +12,9 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -51,9 +51,9 @@ Per ulteriori informazioni su queste funzionalità, fare riferimento alla tabell
 
 ![](assets/faq.png)
 
->[!Note]
+>[!NOTE]
 >
->[!DNL Places] l&#39;integrazione include gli eventi come trigger per i messaggi in-app (N/D per le notifiche push), arricchendo i profili con il supporto di [!DNL Places] dati e notifiche locali. Per ulteriori informazioni, consultare questa [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md) . <br>[!DNL Places] l&#39;integrazione limitata include l&#39;arricchimento dei profili con [!DNL Places] i dati.
+>[!DNL Places] l&#39;integrazione include gli eventi come trigger per i messaggi in-app (N/D per le notifiche push), arricchendo i profili con il supporto di [!DNL Places] dati e notifiche locali. Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] l&#39;integrazione limitata include l&#39;arricchimento dei profili con [!DNL Places] i dati.
 
 ## Quale caso d’uso facilita l’integrazione con Adobe Experience Platform SDK in  Adobe Campaign Standard? {#aep-use-cases}
 
