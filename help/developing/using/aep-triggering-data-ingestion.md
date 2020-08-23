@@ -1,5 +1,5 @@
 ---
-title: Attivazione dell’assimilazione dei dati tramite API
+title: Attivazione dell’acquisizione dati tramite API
 description: Scoprite come attivare l'assimilazione dei dati tramite le API.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -12,42 +12,42 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 2%
+source-wordcount: '464'
+ht-degree: 5%
 
 ---
 
 
-# Attivazione dell’assimilazione dei dati tramite API {#triggering-data-ingestion-apis}
+# Attivazione dell’acquisizione dati tramite API {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta l&#39;Assistenza clienti Adobe.
+>Adobe Experience Platform Data Connector è attualmente in fase beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta  Assistenza clienti di Adobe.
 
-Adobe Campaign Standard consente di attivare l’assimilazione immediata delle mappature dati tramite API e di recuperare lo stato delle richieste di assimilazione.
+ Adobe Campaign Standard consente di attivare l’assimilazione immediata delle mappature dati tramite API e di recuperare lo stato delle richieste di assimilazione.
 
-Questa pagina descrive come attivare e recuperare lo stato di inserimento delle mappature dati. Per informazioni globali sulle API Campaign Standard, consulta [questa sezione](../../api/using/get-started-apis.md).
+Questa pagina descrive come attivare e recuperare lo stato di inserimento delle mappature dati. Per informazioni globali sulle API Campaign Standard, consultate [questa sezione](../../api/using/get-started-apis.md).
 
 ## Prerequisiti {#prerequisites}
 
-Prima di utilizzare le API, la mappatura dei dati deve essere stata configurata e pubblicata all&#39;interno dell&#39;interfaccia di Campaign Standard. Per ulteriori informazioni, consulta le sezioni seguenti:
+Prima di utilizzare le API, la mappatura dei dati deve essere stata configurata e pubblicata all&#39;interno dell&#39;interfaccia Campaign Standard. Per ulteriori informazioni, consulta le sezioni seguenti:
 
 * [Definizione mappature](../../developing/using/aep-mapping-definition.md)
 * [Attivazione mappature](../../developing/using/aep-mapping-activation.md)
 
-Una volta creata la mappatura dei dati, devi impedirne l&#39;esecuzione in modo da poterla attivare dalle API ogni volta che vuoi. A questo scopo, effettuate le seguenti operazioni:
+Una volta creata la mappatura dei dati, devi impedirne l&#39;esecuzione in modo da poterla attivare dalle API ogni volta che vuoi. Per farlo, esegui questi passaggi:
 
-1. In Campaign Standard, andate al **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+1. In Campaign Standard, selezionate il **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
 1. Fare doppio clic sulla mappatura dati per aprirla, quindi fare clic sul **[!UICONTROL Stop]** pulsante.
 
    ![](assets/aep_datamapping_stop.png)
 
-1. Salvare le modifiche
+1. Salva le modifiche
 
-L&#39;esecuzione del mapping dei dati ora è interrotta. Puoi utilizzare le API Campaign Standard per attivarle manualmente.
+L&#39;esecuzione del mapping dei dati ora è interrotta. Potete utilizzare le API Campaign Standard per attivarle manualmente.
 
 ## Avvio dell&#39;assimilazione immediata della mappatura dei dati {#starting-immediate-ingestion}
 
@@ -57,7 +57,7 @@ L&#39;assimilazione immediata di una mappatura XDM in Adobe Experience Platform 
 
 >[!NOTE]
 >
->Per eseguire la chiamata API POST di acquisizione, l&#39;utente deve avere un ruolo di esecuzione **della funzione** SQL, che può essere fornito da un amministratore di Campaign Standard eseguendo sotto lo script JS:
+>Per eseguire la chiamata API POST ingerest, l&#39;utente deve avere un ruolo di esecuzione **della funzione** SQL, che può essere fornito da un amministratore Campaign Standard mediante l&#39;esecuzione sotto lo script JS:
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
 REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
@@ -99,7 +99,7 @@ L&#39;operazione POST restituisce informazioni sullo stato della richiesta creat
 
 ## Recupero dello stato di una richiesta di assimilazione {#retrieving-status}
 
-Lo stato di una richiesta di assimilazione può essere recuperato con un&#39;operazione GET e l&#39;ID richiesta desiderato nei parametri:
+Lo stato di una richiesta di assimilazione può essere recuperato con un’operazione di GET e l’ID richiesta desiderato nei parametri:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -107,16 +107,16 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i processi correlati sono disponibili nell&#39;interfaccia di Campaign Standard, nel menu **!UICONTROL [Stato dell&#39;esportazione dei dati nella piattaforma ]**(consultate Attivazione[](../../developing/using/aep-mapping-activation.md)mappatura).
+Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i processi correlati sono disponibili nell&#39;interfaccia Campaign Standard, nel **[!UICONTROL Status of data export to platform]** menu (consultate Attivazione [della](../../developing/using/aep-mapping-activation.md)mappatura).
 
-L&#39;operazione GET restituisce le informazioni seguenti:
+L&#39;operazione di GET restituisce le informazioni seguenti:
 
 * **batchId**: questo campo viene popolato solo se si è verificato un errore dopo la preparazione e il caricamento del batch,
 * **info**: l’ID mappatura XDM,
 * **numRecords**: il numero di record che sono stati acquisiti (solo stato di successo),
 * **status**: stato della richiesta di caricamento (success/fail/progress)
 
-Le possibili risposte all&#39;operazione GET sono:
+Le possibili risposte all&#39;operazione di GET sono:
 
 * Richiesta di assimilazione completata:
 
