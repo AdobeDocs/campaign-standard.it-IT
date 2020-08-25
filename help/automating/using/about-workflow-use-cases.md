@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 314321c42094b945eba95540375eeeabacb84e64
+source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 19%
@@ -22,7 +22,7 @@ ht-degree: 19%
 
 # Informazioni sui casi di utilizzo dei flussi di lavoro {#about-workflow-use-cases}
 
-Nella sua sezione troverai diversi casi di utilizzo che sfruttano le funzionalità dei flussi di lavoro di Campaign.
+In questa sezione troverai diversi casi di utilizzo che sfruttano le funzionalità dei flussi di lavoro di Campaign.
 
 Questo vi aiuterà a scoprire i diversi contesti in cui i flussi di lavoro possono essere utilizzati e a rispondere alle vostre esigenze.
 
