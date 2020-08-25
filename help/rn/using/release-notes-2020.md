@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 99%
@@ -64,7 +64,7 @@ ht-degree: 99%
 
 **Miglioramenti**
 
-* La user experience dei messaggi transazionali e la coerenza dell’interfaccia sono state migliorate. [Ulteriori informazioni](../../channels/using/about-transactional-messaging.md)
+* La user experience dei messaggi transazionali e la coerenza dell’interfaccia sono state migliorate. [Ulteriori informazioni](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard ora ti consente di inviare bozze ai profili di test utilizzando dati aggiuntivi dei flussi di lavoro.
 * I guardrail per l’attività External API sono stati aggiornati. [Ulteriori informazioni](../../automating/using/external-api.md)
 
