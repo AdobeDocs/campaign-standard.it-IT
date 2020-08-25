@@ -1,5 +1,5 @@
 ---
-title: Utilizzo delle trappole
+title: Utilizzo delle “trappole”
 description: Scopri come utilizzare i trap nei messaggi.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
@@ -13,12 +13,15 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 2%
 
 ---
 
 
-# Utilizzo delle trappole {#using-traps}
+# Utilizzo delle “trappole”{#using-traps}
 
 Quando si utilizzano i trap, il messaggio viene inviato al profilo [di](../../audiences/using/managing-test-profiles.md) prova così come viene inviato alla destinazione principale, in modo da identificare se il file client viene utilizzato in modo fraudolento.
 
@@ -54,13 +57,13 @@ Quando si definisce l&#39;audience di un messaggio:
    >
    >Accertatevi di aver selezionato una destinazione principale. In caso contrario, il messaggio non può essere inviato.
 
-1. Fate clic sul **[!UICONTROL Confirm]** pulsante. See [Confirming the send](../../sending/using/confirming-the-send.md).
+1. Fai clic sul pulsante **[!UICONTROL Confirm]**. Consulta [Conferma dell’invio](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
 Il messaggio viene inviato alla destinazione principale e al profilo di test.
 
-Potete utilizzare i trap per inviare messaggi transazionali. In questo caso, il profilo di test riceverà un messaggio per la configurazione dell&#39;evento. Per ulteriori informazioni sui messaggi transazionali, consulta questa [sezione](../../channels/using/about-transactional-messaging.md).
+Potete utilizzare i trap per inviare messaggi transazionali. In questo caso, il profilo di test riceverà un messaggio per la configurazione dell&#39;evento. For more on transactional messaging, see this [section](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
