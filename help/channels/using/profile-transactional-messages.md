@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 94%
@@ -29,7 +29,7 @@ Puoi inviare messaggi transazionali basati sui profili di marketing dei clienti,
 * Aggiungere messaggi transazionali al reporting globale sulla distribuzione;
 * Utilizzare messaggi transazionali nel customer journey.
 
-Dopo la creazione e la pubblicazione di un evento (l’abbandono del carrello come nell’[esempio](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)illustrato sopra), il messaggio transazionale corrispondente viene creato automaticamente.
+Dopo la creazione e la pubblicazione di un evento (l’abbandono del carrello come nell’[esempio](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)illustrato sopra), il messaggio transazionale corrispondente viene creato automaticamente.
 
 I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento per l’invio di un messaggio transazionale di profilo](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
