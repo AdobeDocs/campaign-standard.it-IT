@@ -1,5 +1,5 @@
 ---
-title: Introduzione ai canali di comunicazione
+title: Guida introduttiva ai canali di comunicazione
 description: Scopri come inviare messaggi personalizzati su diversi canali e come creare campagne multicanale per meglio indirizzare i destinatari.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
@@ -12,15 +12,15 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 14%
+source-wordcount: '526'
+ht-degree: 17%
 
 ---
 
 
-# Introduzione ai canali di comunicazione {#discovering-communication-channels}
+# Guida introduttiva ai canali di comunicazione {#discovering-communication-channels}
 
 <table>
 <tr>
@@ -30,7 +30,7 @@ ht-degree: 14%
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Pagine di destinazione</a></p></td></tr>
 </table>
 
- Adobe Campaign consente di avviare, misurare e automatizzare le campagne su ogni canale.
+ Adobe Campaign consente di avviare, misurare e automatizzare le campagne su tutti i canali.
 Armonizzare tutti i canali di marketing non è un compito impossibile. Con l&#39;aiuto di  Adobe Campaign, puoi portare i dati dei clienti da diversi sistemi, dispositivi e canali in un unico profilo. Dopodiché, distribuisci campagne pertinenti e tempestive che soddisfano i tuoi clienti nei luoghi e nei modi giusti lungo il percorso del loro cliente.
 
 ## Concetti globali {#global-concepts}
@@ -53,7 +53,7 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinque canali** di comunicazione sono disponibili  Adobe Campaign: E-mail, SMS, notifica push, messaggio in-app e consegna diretta.
+**In  Adobe Campaign sono disponibili cinque canali** di comunicazione: E-mail, SMS, notifica push, messaggio in-app e consegna diretta.
 
 Per ciascun canale sono disponibili funzionalità specifiche. Ad esempio, il canale e-mail consente di eseguire test A/B per testare fino a 3 versioni di un messaggio e-mail. Con il canale SMS, gestisci i messaggi STOP SMS e archivia gli SMS in arrivo dai destinatari nel tuo database.
 
@@ -73,11 +73,12 @@ Leggi tutto:
 
 **Invia messaggi** singoli e univoci ai clienti in tempo reale: messaggi di benvenuto, conferme di spedizione ordini, modifica della password, ecc.
 
-I messaggi transazionali sono disponibili per i canali di e-mail, SMS e notifiche push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi** transazionali evento eventi di targeting eventi senza informazioni sul profilo e messaggi **transazionali di** profilo di targeting profili dal database.
+I messaggi transazionali sono disponibili per i canali di e-mail, SMS e notifiche push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi** transazionali evento con targeting di eventi senza informazioni di profilo e messaggi **transazionali di** profilo con targeting di profili dal database.
 
 Leggi tutto:
 
-* [Informazioni sui messaggi transazionali](../../channels/using/about-transactional-messaging.md)
+* [Informazioni sui messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md)
+* [Guida introduttiva ai messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md)
 * [Messaggi sulle transazioni degli eventi](../../channels/using/event-transactional-messages.md)
 * [Messaggi sulle transazioni di profilo](../../channels/using/profile-transactional-messages.md)
 * [Notifiche push transazionali](../../channels/using/transactional-push-notifications.md)
@@ -94,7 +95,7 @@ Le pagine di destinazione possono essere utilizzate anche per **acquisire o aggi
 Leggi tutto:
 
 * [Guida introduttiva alle pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md)
-* [Modelli per pagine di destinazione](../../channels/using/landing-page-templates.md)
+* [Modelli di pagina di destinazione](../../channels/using/landing-page-templates.md)
 * [Gestione dei dati del modulo della pagina di destinazione](../../channels/using/managing-landing-page-form-data.md)
 * [Impostazione di un doppio processo di consenso](../../channels/using/setting-up-a-double-opt-in-process.md)
 
