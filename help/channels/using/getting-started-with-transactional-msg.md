@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
+source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 31%
@@ -25,13 +25,10 @@ ht-degree: 31%
 
 ## Panoramica
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>I messaggi transazionali consentono di <b>inviare messaggi</b> singoli e univoci ai clienti in tempo reale.</p></td>
-<td class="noborder"><p>Può essere messaggi di benvenuto, conferme di spedizione ordine, modifica della password, ecc.</p></td>
-</tr>
-</table>
+
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+I messaggi transazionali consentono di <b>inviare messaggi</b> singoli e univoci ai clienti in tempo reale. Può essere messaggi di benvenuto, conferme di spedizione ordine, modifica della password, ecc.
 
  Adobe Campaign consente di integrare questa funzionalità con un sistema informativo che invia eventi da trasformare in messaggi transazionali personalizzati.
 
@@ -51,26 +48,22 @@ I messaggi transazionali sono disponibili anche dall’API di Adobe Campaign Sta
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td align="center"><br><p><b>Cos'è un messaggio transazionale?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>Cos'è un messaggio transazionale?</b></p></td>
 <td><p>Si tratta di una comunicazione individuale e unica, inviata da un provider come un sito web.</p></td>
 <td><p>È particolarmente previsto, perché contiene informazioni importanti che il destinatario desidera controllare o confermare.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
-<td align="center"><p><b>Quando è dovuto?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Quando è dovuto?</b></p></td>
 <td><p> Poiché questo messaggio contiene informazioni importanti, l'utente prevede che venga inviato in tempo reale.</p></td>
 <td><p>Di conseguenza, il ritardo tra l'attivazione dell'evento e l'arrivo del messaggio deve essere molto breve.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
-<td align="center"><p><b>Perché è importante?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Perché è importante?</b></p></td>
 <td><p>Generalmente, un messaggio transazionale ha tassi di apertura elevati. Dovrebbe pertanto essere attentamente progettata.</p></td>
 <td><p>In effetti, può avere un forte impatto sul comportamento dei clienti mentre definisce la relazione con il cliente.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
-<td align="center"><b>Ad esempio?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>Ad esempio?</b></td>
 <td><p>Potrebbe essere un messaggio di benvenuto dopo la creazione di un account, la conferma che un ordine è stato spedito, una fattura...</p></td>
 <td><p>Può trattarsi anche di un messaggio di conferma della modifica della password o di una notifica dopo che un cliente ha visitato il sito Web...</p></td>
 </tr>
@@ -84,21 +77,16 @@ In Adobe Campaign sono disponibili due tipi di messaggi transazionali:
 
 <table>
 <tr>
-<td align="center"><a href="../../channels/using/event-transactional-messages.md">Messaggi transazionali di evento</a><br><b> indirizzati a un evento</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Messaggi transazionali di evento</a><br><b> indirizzati a un evento</b>.</td>
 <td><p><ul><li>Non contengono informazioni sul profilo.</li><li>Non sono compatibili con le regole <a href="../../sending/using/fatigue-rules.md">di</a> affaticamento (anche nel caso di un arricchimento con profili).</li><li>Il target di consegna è definito dai dati contenuti nell'evento stesso.</li></ul></p></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Messaggi transazionali di profilo</a><br><b> indirizzati ai profili dal database di marketing di Adobe Campaign</b>.</td>
+<td><p>I messaggi transazionali del profilo consentono di:<ul><li>Applica le regole di tipologia di marketing, ad esempio <b>Indirizzo su  elenco Bloccati</b> o <a href="../../sending/using/fatigue-rules.md">regole</a>di affaticamento.</li><li>Includere il collegamento di annullamento all’abbonamento nei messaggi;</li><li>Aggiungere messaggi transazionali al reporting globale sulla distribuzione;</li><li>Utilizzare messaggi transazionali nel customer journey.</li></ul></p></td>
 </tr>
 </table>
 
 <!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
-
-<table>
-<tr>
-<td align="center"><a href="../../channels/using/profile-transactional-messages.md">Messaggi transazionali di profilo</a><br><b> indirizzati ai profili dal database di marketing di Adobe Campaign</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-<td><p>I messaggi transazionali del profilo consentono di:<ul><li>Applica le regole di tipologia di marketing, ad esempio <b>Indirizzo su  elenco Bloccati</b> o <a href="../../sending/using/fatigue-rules.md">regole</a>di affaticamento.</li><li>Includere il collegamento di annullamento all’abbonamento nei messaggi;</li><li>Aggiungere messaggi transazionali al reporting globale sulla distribuzione;</li><li>Utilizzare messaggi transazionali nel customer journey.</li></ul></p></td>
-</tr>
-</table>
 
 Il tipo di messaggio viene definito durante la configurazione dell’evento che viene trasformato in un messaggio transazionale. Vedi [Configurazione dei messaggi transazionali](../../administration/using/configuring-transactional-messaging.md).
 
@@ -148,7 +136,7 @@ Per ulteriori informazioni sull&#39;integrazione dell&#39;evento nel sito Web, c
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
 Non appena un utente lascia il sito senza ordinare i prodotti nel suo carrello, riceve automaticamente un messaggio e-mail di notifica.
 
