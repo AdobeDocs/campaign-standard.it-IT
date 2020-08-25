@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b6607afe05e762c87a95fd88bda0196baa57f1e
+source-git-commit: 6c768132a297d324f6aec87c215222b3587091c6
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 89%
@@ -23,16 +23,13 @@ ht-degree: 89%
 
 # Limitazioni della messaggistica transazionale {#transactional-messaging-limitations}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>La sezione seguente elenca i limiti di cui dovreste essere consapevoli prima di iniziare a creare messaggi transazionali.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+La sezione seguente elenca i limiti di cui dovreste essere consapevoli prima di iniziare a creare messaggi transazionali.
 
 Per ulteriori informazioni sui messaggi transazionali, ad esempio su come configurarli e crearli, consulta [Guida introduttiva ai messaggi](../../channels/using/getting-started-with-transactional-msg.md)transazionali.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Per accedere ai messaggi transazionali, devi disporre di diritti di amministrazione.
 
