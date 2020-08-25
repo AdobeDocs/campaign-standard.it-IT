@@ -13,7 +13,10 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +68,7 @@ Una consegna di esecuzione è un messaggio tecnico non utilizzabile e non funzio
 
 * Per impostazione predefinita, una volta al mese per i messaggi transazionali e ogni volta che un messaggio transazionale viene modificato e pubblicato di nuovo.
 
-   Per ulteriori informazioni sui messaggi transazionali, consulta [Informazioni sui messaggi](../../channels/using/about-transactional-messaging.md)transazionali.
+   Per ulteriori informazioni sui messaggi transazionali, consulta [Informazioni sui messaggi](../../channels/using/getting-started-with-transactional-msg.md)transazionali.
 
 >[!NOTE]
 >
