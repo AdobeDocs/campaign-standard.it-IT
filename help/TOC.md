@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1569'
 ht-degree: 88%
 
 ---
@@ -103,7 +103,8 @@ ht-degree: 88%
       + [Definizione del pubblico della direct mailing](channels/using/defining-the-direct-mail-audience.md)
       + [Definizione del contenuto della direct mailing](channels/using/defining-the-direct-mail-content.md)
    + Messaggi transazionali {#transactional-messaging}
-      + [Informazioni sulla messaggistica transazionale](channels/using/about-transactional-messaging.md)
+      + [Guida introduttiva ai messaggi transazionali](channels/using/getting-started-with-transactional-msg.md)
+      + [Limitazioni della messaggistica transazionale](channels/using/transactional-messaging-limitations.md)
       + [Messaggi sulle transazioni degli eventi](channels/using/event-transactional-messages.md)
       + [Messaggi sulle transazioni di profilo](channels/using/profile-transactional-messages.md)
       + [Notifiche push transazionali](channels/using/transactional-push-notifications.md)
