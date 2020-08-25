@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 89%
@@ -80,7 +80,7 @@ I passaggi per creare questi elementi sono descritti di seguito. Devi seguirli p
 
 ### Creare l’evento {#create-the-event}
 
-L’e-mail di conferma è un [messaggio transazionale](../../channels/using/about-transactional-messaging.md) poiché risponde a un evento: la convalida del modulo. Devi innanzitutto creare l’evento e poi creare il modello del messaggio transazionale.
+L’e-mail di conferma è un [messaggio transazionale](../../channels/using/getting-started-with-transactional-msg.md) poiché risponde a un evento: la convalida del modulo. Devi innanzitutto creare l’evento e poi creare il modello del messaggio transazionale.
 
 1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo Adobe Campaign, e immetti l’etichetta “**CONFIRM**”.
 1. Seleziona la dimensione di targeting **[!UICONTROL Profile]** e fai clic su **[!UICONTROL Create]**.
