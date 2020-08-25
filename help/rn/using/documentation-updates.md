@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
-ht-degree: 94%
+source-wordcount: '6119'
+ht-degree: 95%
 
 ---
 
@@ -24,33 +24,39 @@ ht-degree: 94%
 
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti all’interno della documentazione di Adobe Campaign Standard.
 
+## Aggiornamenti alla documentazione - agosto 2020 {#doc-updates-august-2020}
+
+È disponibile una nuova sezione aggiornata per iniziare a utilizzare i messaggi transazionali. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
+
+La sezione Limitazioni della messaggistica transazionale è stata spostata. [Leggi tutto](../../channels/using/transactional-messaging-limitations.md)
+
 ## Aggiornamenti alla documentazione - luglio 2020 {#doc-updates-july-2020}
 
-È stata aggiunta una nuova sezione con linee guida relative al monitoraggio Campaign Standard. [Ulteriori informazioni](../../administration/using/monitoring-guidelines.md)
+È stata aggiunta una nuova sezione con linee guida relative al monitoraggio Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
 
-È stata aggiornata la sezione Correzioni e limitazioni API esterne.[Ulteriori informazioni](../../automating/using/external-api.md#guardrails)
+È stata aggiornata la sezione Correzioni e limitazioni API esterne.[Leggi tutto](../../automating/using/external-api.md#guardrails)
 
-La pagina Panoramica sulla gestione della privacy è stata aggiornata per includere informazioni sulla legge sulla protezione dei dati personali (PDPA) in Tailandia e sulla società brasiliana Lei Geral de Proteção de Dados (LGPD). [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La pagina Panoramica sulla gestione della privacy è stata aggiornata per includere informazioni sulla legge sulla protezione dei dati personali (PDPA) in Tailandia e sulla società brasiliana Lei Geral de Proteção de Dados (LGPD). [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con documentazione tecnica sulla configurazione mobile. [Ulteriori informazioni](../../administration/using/push-tracking.md)
+La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con documentazione tecnica sulla configurazione mobile. [Leggi tutto](../../administration/using/push-tracking.md)
 
-La pagina Gestione della privacy in Campaign Standard è stata aggiornata, con informazioni su come gestire le richieste di privacy tramite l&#39;integrazione del servizio di base sulla privacy. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+La pagina Gestione della privacy in Campaign Standard è stata aggiornata, con informazioni su come gestire le richieste di privacy tramite l&#39;integrazione del servizio di base sulla privacy. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-Nuove funzionalità di e-mail basate su intelligenza artificiale: ottimizzazione del tempo di invio e punteggio del profilo. [Ulteriori informazioni](../../sending/using/predictive.md)
+Nuove funzionalità di e-mail basate su intelligenza artificiale: ottimizzazione del tempo di invio e punteggio del profilo. [Leggi tutto](../../sending/using/predictive.md)
 
 ## Aggiornamenti della documentazione - Giugno 2020 {#doc-updates-june-2020}
 
-I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in sezioni tematiche. [Ulteriori informazioni](../../automating/using/about-workflow-use-cases.md)
+I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in sezioni tematiche. [Leggi tutto](../../automating/using/about-workflow-use-cases.md)
 
-Sono stati aggiunti casi di utilizzo per [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) i dati tramite flussi di lavoro Pannello di controllo Campaign e campagna.
+Sono stati aggiunti casi di utilizzo su come [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decrittare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dati tramite il Pannello di controllo Campaign e i flussi di lavoro di Campaign.
 
-I termini “whitelist” e “blacklist” sono stati rimossi dalla documentazione Adobe Campaign. Alcune occorrenze di questi termini potrebbero persistere nell’interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma saranno sostituite nelle prossime versioni di Campaign da “elenco Bloccati” e “elenco Consentiti”.
+I termini “whitelist” e “blacklist” sono stati rimossi dalla documentazione di Adobe Campaign. Alcune occorrenze di tali termini possono continuare a esistere nell’interfaccia utente del prodotto, nei nomi delle opzioni e nel codice interno, ma saranno sostituite nelle prossime versioni di Campaign con “elenco Bloccati” ed “elenco Consentiti”.
 
 I riferimenti al sito Web Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
-La configurazione personalizzata dell&#39;account Litmus è stata rimossa dalla funzionalità di rendering Inbox. [Ulteriori informazioni](../../sending/using/email-rendering.md)
+La configurazione personalizzata dell&#39;account Litmus è stata rimossa dalla funzionalità di rendering Inbox. [Leggi tutto](../../sending/using/email-rendering.md)
 
-L&#39;integrazione Campaign Standard - Microsoft Dynamics 365 non è al momento disponibile. È in corso di sviluppo un nuovo connettore che sarà disponibile in futuro. Le relative pagine di aiuto sono state rimosse. [Ulteriori informazioni](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+L&#39;integrazione Campaign Standard - Microsoft Dynamics 365 non è al momento disponibile. È in corso di sviluppo un nuovo connettore che sarà disponibile in futuro. Le relative pagine di aiuto sono state rimosse. [Leggi tutto](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Aggiornamenti alla documentazione - maggio 2020 {#doc-updates-may-2020}
 
@@ -128,7 +134,7 @@ Sono state aggiunte informazioni sulle modalità di utilizzo degli aggregati all
 
 È stata aggiornata e migliorata la pagina che descrive la modalità di verifica dell’oggetto di un messaggio e-mail allo scopo di visualizzarne il tasso di apertura, includendo una nuova sezione per la [risoluzione dei problemi](../../sending/using/testing-subject-line-email.md#troubleshooting). [Ulteriori informazioni](../../sending/using/testing-subject-line-email.md)
 
-Le sezioni di messaggistica transazionale sono state aggiornate per riflettere i miglioramenti e gli aggiornamenti più recenti dell’interfaccia utente. [Ulteriori informazioni](../../channels/using/about-transactional-messaging.md)
+Le sezioni di messaggistica transazionale sono state aggiornate per riflettere i miglioramenti e gli aggiornamenti più recenti dell’interfaccia utente. [Ulteriori informazioni](../../channels/using/getting-started-with-transactional-msg.md)
 
 Sono state aggiornate le informazioni relative alle protezioni delle attività API esterne. [Ulteriori informazioni](../../automating/using/external-api.md)
 
@@ -208,7 +214,7 @@ La guida introduttiva sulla modalità di esportazione/importazione delle risorse
 
 Le informazioni relative alle proprietà delle pagine di destinazione sono state spostate in una sezione dedicata. [Ulteriori informazioni](../../channels/using/configuring-landing-page.md)
 
-La documentazione del Pannello di controllo Campaign è stata integrata nel nuovo set di documenti collaborativi. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html)
+La documentazione del Pannello di controllo Campaign è stata integrata nel nuovo set di documentazione collaborativa. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html)
 
 È stata aggiornata la tabella di **calcolo dell’indicatore**. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
@@ -216,7 +222,7 @@ Il set di documenti API è stato integrato nella documentazione di Campaign Stan
 
 È stata spostata e aggiornata la guida introduttiva alla creazione di un messaggio e-mail personalizzato. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
 
-È stata aggiornata la guida introduttiva alle best practice di consegna. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
+La guida introduttiva sulle best practice per le consegne è stata aggiornata. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
 
 Il modello dati è stato integrato nella documentazione di Campaign Standard. [Ulteriori informazioni](../../developing/using/datamodel-audience.md)
 
@@ -232,11 +238,11 @@ Integrazione con Microsoft Dynamics 365 (GA) - [Ulteriori informazioni](../../in
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-L’elenco dei messaggi di errore per Campaign Standard e Campaign Classic è stato aggiornato. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+L’elenco dei messaggi di errore per Campaign Standard e Campaign Classic è stato aggiornato. [Leggi tutto](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-La guida introduttiva al RGPD è stata migliorata e arricchita. Adesso è una documentazione sulla gestione della privacy che include RGPD e CCPA. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)
+La guida introduttiva al GDPR è stata migliorata e arricchita. È ora diventata una documentazione sulla gestione della privacy che include GDPR e CCPA. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)
 
-È stato aggiunto un nuovo grafico che presenta il processo di pubblicazione della messaggistica transazionale. [Ulteriori informazioni](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+È stato aggiunto un nuovo grafico che presenta il processo di pubblicazione della messaggistica transazionale. [Ulteriori informazioni](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 La guida introduttiva alle best practice di consegna è stata spostata e aggiornata. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Miglioramenti del flusso di lavoro - Per ulteriori informazioni, [consulta qui](
 
 Nel capitolo Modifica del contenuto dell’e-mail è stata aggiunta la nuova esperienza di onboarding per la creazione di contenuti e-mail e altri miglioramenti a E-mail Designer. [Ulteriori informazioni](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-È stata aggiunta una nuova sezione sulle limitazioni dei messaggi transazionali. [Ulteriori informazioni](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+È stata aggiunta una nuova sezione sulle limitazioni dei messaggi transazionali. [Ulteriori informazioni](../../channels/using/transactional-messaging-limitations.md)
 
 È stata aggiunta una nuova sezione che confronta le diverse opzioni di creazione delle e-mail all’interno di Adobe Campaign. [Ulteriori informazioni](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -822,7 +828,7 @@ Numerose schermate sono state aggiornate per riflettere le modifiche all’inter
 
 È ora disponibile una nuova nota tecnica: &quot;Integrazione dell’SDK di Adobe Mobile con la tua app mobile&quot;. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html)
 
-Sono state aggiunte istruzioni per configurare il servizio di base Persone o &#39;integrazione con  Adobe Campaign. [Ulteriori informazioni](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Sono state aggiunte istruzioni per configurare il servizio di base Persone o &#39;integrazione con  Adobe Campaign. [Leggi tutto](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
