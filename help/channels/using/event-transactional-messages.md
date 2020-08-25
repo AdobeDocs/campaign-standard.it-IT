@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Puoi inviare messaggi sulle transazioni destinati a un evento. Questo tipo di messaggi sulle transazioni non contiene informazioni del profilo: il target di consegna è definito dai dati contenuti nell’evento stesso.
 
-Dopo aver creato e pubblicato un evento come l’abbandono del carrello, illustrato all’interno della [presente sezione](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle), il relativo messaggio sulle transazioni viene creato in automatico.
+Dopo aver creato e pubblicato un evento come l’abbandono del carrello, illustrato all’interno della [presente sezione](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), il relativo messaggio sulle transazioni viene creato in automatico.
 
 I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento per l’invio di un messaggio sulle transazioni](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
