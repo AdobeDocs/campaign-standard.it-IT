@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Al momento di configurarlo dal servizio, il messaggio transazionale di conferma 
 
 ### Passaggio 1: creare il messaggio e-mail di conferma {#step-1--create-the-confirmation-email-1}
 
-Un messaggio e-mail di conferma viene inviato automaticamente a ogni profilo che si abbona alla newsletter (tramite una pagina di destinazione o in altri modi). L’abbonamento viene considerato un evento e l’e-mail è un [messaggio transazionale](../../channels/using/about-transactional-messaging.md) destinato a ogni profilo che si abbona al servizio.
+Un messaggio e-mail di conferma viene inviato automaticamente a ogni profilo che si abbona alla newsletter (tramite una pagina di destinazione o in altri modi). L’abbonamento viene considerato un evento e l’e-mail è un [messaggio transazionale](../../channels/using/getting-started-with-transactional-msg.md) destinato a ogni profilo che si abbona al servizio.
 
 I passaggi per creare il messaggio e-mail di conferma sono descritti di seguito. Poiché nel servizio viene fatto riferimento al messaggio transazionale, devi prima crearlo.
 
@@ -135,13 +135,13 @@ Quando si fa riferimento al messaggio di conferma dalla pagina di destinazione, 
 
 ### Passaggio 1: creare il messaggio e-mail di conferma {#step-1--create-the-confirmation-email-2}
 
-Un messaggio e-mail di conferma viene inviato automaticamente a ogni profilo che si abbona alla newsletter tramite una pagina di destinazione. L’abbonamento viene considerato un evento e l’e-mail è un [messaggio transazionale](../../channels/using/about-transactional-messaging.md) destinato a ciascun profilo che si abbona al servizio.
+Un messaggio e-mail di conferma viene inviato automaticamente a ogni profilo che si abbona alla newsletter tramite una pagina di destinazione. L’abbonamento viene considerato un evento e l’e-mail è un [messaggio transazionale](../../channels/using/getting-started-with-transactional-msg.md) destinato a ciascun profilo che si abbona al servizio.
 
 I passaggi per creare questi elementi sono descritti di seguito. Poiché nella pagina di destinazione viene fatto riferimento al messaggio transazionale, devi prima crearlo.
 
 #### Creare l’evento {#create-the-event-2}
 
-Il messaggio e-mail di conferma è un [messaggio transazionale](../../channels/using/about-transactional-messaging.md) che reagisce a un evento: l’abbonamento a un servizio. Questo messaggio viene inviato per confermare l’abbonamento alla newsletter.
+Il messaggio e-mail di conferma è un [messaggio transazionale](../../channels/using/getting-started-with-transactional-msg.md) che reagisce a un evento: l’abbonamento a un servizio. Questo messaggio viene inviato per confermare l’abbonamento alla newsletter.
 
 1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo di Adobe Campaign.
 1. Immetti un’etichetta, seleziona una dimensione di targeting e fai clic su **[!UICONTROL Create]**.
