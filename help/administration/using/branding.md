@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Il principio fondamentale della configurazione e dell’utilizzo dei brand è:
 >
 >I brand non possono essere creati o modificati dagli utenti finali: queste operazioni devono essere eseguite dall’amministratore tecnico di Adobe Campaign. Per qualsiasi richiesta, contatta l’Assistenza cliente di Adobe.
 >
->L’utilizzo di più brand non è possibile nel contesto della messaggistica transazionale. Per ulteriori informazioni, consulta [Messaggi transazionali e branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>L’utilizzo di più brand non è possibile nel contesto della messaggistica transazionale. Per ulteriori informazioni, consulta [Messaggi transazionali e branding](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
 I brand si trovano nel menu **[!UICONTROL Administration > Instance settings > Brand configuration]**.
 
@@ -67,6 +67,7 @@ Un **Brand** è definito dalle seguenti caratteristiche:
    * **Reply to (email address)**, che contiene l’indirizzo e-mail a cui il cliente può rispondere.
    * **Reply to (name)**, che contiene il nome del brand.
    * **Error (email address)**, che contiene l’indirizzo e-mail da utilizzare in caso di errore.
+
    >[!IMPORTANT]
    >
    >Dopo aver aggiornato i parametri di intestazione delle e-mail, se il nome e l’indirizzo e-mail del mittente non sono cambiati nell’e-mail creata dal modello, controlla le impostazioni avanzate del modello.
@@ -78,6 +79,7 @@ Un **Brand** è definito dalle seguenti caratteristiche:
    * **External URL of the application server**, utilizzato per l’hosting e per l’accesso alle diverse pagine di destinazione create.
    * **External URL of the tracking server**, utilizzato come URL tracciato durante le consegne.
    * **External URL of the mirror page server**, utilizzato come pagina speculare predefinita nelle consegne.
+
    >[!NOTE]
    >
    >Per visualizzare l’anteprima della pagina di destinazione e il rendering della pagina speculare nell’interfaccia utente di Campaign, è necessario che gli URL del server dell’applicazione e del server della pagina speculare siano sicuri. In tal caso, per configurare questi URL utilizza https:// anziché http://.
