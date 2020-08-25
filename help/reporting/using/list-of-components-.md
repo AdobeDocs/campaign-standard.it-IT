@@ -12,10 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,14 +26,14 @@ Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consu
 
 ![](assets/dynamic_report_compatibility.png)
 
-## Dimensioni {#dimensions}
+## Dimension {#dimensions}
 
 Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei rapporti e le relative definizioni.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensione<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definizione<br /> </th> 
   </tr> 
  </thead> 
@@ -83,16 +83,16 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
    <td> Nome dell’applicazione mobile<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> Platform del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio.<br /> </td> 
+   <td> Piattaforma<br /> </td> 
+   <td> Piattaforma del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profili<br /> </td> 
+   <td> Profilo<br /> </td> 
    <td> Esegui il backup dei campi out-of-the-box e dei profili personalizzati creati durante l'estensione della risorsa del profilo. Per ulteriori informazioni, fare riferimento a questa <a href="../../developing/using/key-steps-to-add-a-resource.md">pagina</a> o a questo <a href="../../reporting/using/creating-a-custom-profile-dimension.md">esempio</a>.<br /> I dati per questa dimensione vengono recuperati non appena viene pubblicata la risorsa personalizzata collegata al campo del profilo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Piattaforma push<br /> </td> 
-   <td> Platform del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android.<br /> </td> 
+   <td> Piattaforma del dispositivo da cui è stata aperta la notifica push, ad esempio iOS o Android.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dominio destinatario<br /> </td> 
@@ -152,12 +152,12 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
  </thead> 
  <tbody> 
   <tr> 
-   <td> Elenco blocchi<br /> </td> 
+   <td> Su  elenco Bloccati<br /> </td> 
    <td> Numero di destinatari che hanno dichiarato un'e-mail come spam o posta indesiderata.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Frequenza elenco blocchi<br /> </td> 
-   <td> Percentuale di consegne contrassegnate nell'elenco dei blocchi.<br /> </td> 
+   <td>  tasso Elenco Bloccati<br /> </td> 
+   <td> Percentuale di consegne contrassegnate  elenco Bloccati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Punti + errori<br /> </td> 
@@ -168,7 +168,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Percentuale di messaggi e-mail rimbalzati rispetto a quelli inviati tramite e-mail.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Fai clic su<br /> </td> 
    <td> Numero di volte in cui è stato fatto clic su un contenuto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
@@ -281,7 +281,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Percentuale di notifiche push rimbalzate rispetto alle notifiche push inviate.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Fai clic su<br /> </td> 
    <td> Numero di volte in cui una notifica push viene inviata al dispositivo e su cui l'utente fa clic. L'utente desidera visualizzare la notifica, che verrà quindi spostata nel tracciamento dell'apertura push, o chiusa.<br /> </td> 
   </tr> 
   <tr> 
@@ -313,7 +313,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Percentuale delle notifiche push aperte.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic univoco<br /> </td> 
+   <td> Clic univoci<br /> </td> 
    <td> Numero di volte in cui un utente univoco interagisce con la notifica push, ad esempio facendo clic sulla notifica o sul pulsante.<br /> </td> 
   </tr> 
   <tr> 
