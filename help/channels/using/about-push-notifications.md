@@ -150,7 +150,7 @@ Gli sviluppatori di app mobili devono gestire il supporto per i file multimedial
 Effettuate le seguenti operazioni:
 
 * Configura un postback di tracciamento push. Le istruzioni sono disponibili [qui](../../administration/using/configuring-a-mobile-application.md).
-* Implementa l’API trackAction da Mobile Core. Per ulteriori informazioni, consultare questa [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) .
+* Implementa l’API trackAction da Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
 
 Istruzioni più dettagliate sono disponibili in questa [pagina](../../administration/using/push-tracking.md).
 
