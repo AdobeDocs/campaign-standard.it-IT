@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 [Pianificazione del rilascio](../../rn/using/release-planning.md) | [Versioni del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2020.md) | [Funzioni obsolete](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nuovo rilascio** di giugno Pannello di controllo Campaign con monitoraggio profili attivi, controllo della recapito del sottodominio e gestione chiavi GPG. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo Campaign di giugno** con monitoraggio dei profili attivi, audit del recapito messaggi del sottodominio e gestione delle chiavi GPG. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
 
 ## Versione 20.3 - maggio 2020 {#release-20-3---may-2020}
 
@@ -74,7 +74,7 @@ ht-degree: 88%
 **Funzionalità** aggiuntive (a partire dal 13 luglio)
 
 * **Ottimizzazione dei tempi di invio e valutazione** del profilo con tecnologia AI: ora puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ogni individuo. Basato su Journey AI,  Adobe Campaign può analizzare e prevedere le tariffe aperte, i tempi di invio ottimali e il probabile churn in base alle metriche di coinvolgimento storiche. [Ulteriori informazioni](../../sending/using/predictive.md)
-* **Brasile: nuova normativa** sulla privacy - Oltre alle funzionalità per la privacy già disponibili in Campaign,  Adobe aiuta a facilitare la tua disponibilità per la società brasiliana Lei Geral de Proteçao de Datos (LGPD). Durante la creazione di una richiesta per la privacy, il regolamento LGPD è stato aggiunto  Adobe Privacy Core Service. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
+* **Brasile: nuova normativa** sulla privacy - Oltre alle funzionalità per la privacy già disponibili in Campaign,  Adobe aiuta a facilitare la tua disponibilità per la società brasiliana Lei Geral de Proteçao de Datos (LGPD). Durante la creazione di una richiesta per la privacy, il regolamento LGPD è stato aggiunto  Adobe Privacy Core Service. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html)
 
 **Miglioramenti**
 
