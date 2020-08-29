@@ -59,7 +59,7 @@ Consulta le risorse seguenti:
 
 ### Qual è lo scopo delle API delle estensioni campagna setLinkageField e resetLinkageField? {#extensions-apis}
 
-Poiché i messaggi in-app vengono richiamati dall’SDK di Campaign, desideriamo fornire un meccanismo sicuro per garantire che i messaggi in-app contenenti dati PII non cadessero in mani malevoli. Di conseguenza, è stato implementato il seguente meccanismo per garantire la consegna sicura dei messaggi al dispositivo:
+Poiché i messaggi in-app vengono richiamati dall’SDK di Campaign, desideriamo fornire un meccanismo sicuro per garantire che i messaggi in-app contenenti dati PII non cadessero in mani malevoli. Per garantire la sicurezza nella consegna dei messaggi al dispositivo, è disponibile il seguente meccanismo:
 
 * I clienti contrassegnano i campi del profilo mobile (tabella appSubscriberRcp) come Personale e Sensibile se desiderano garantire che queste informazioni specifiche vengano fornite in modo sicuro.
 * I campi contrassegnati come tali possono essere utilizzati solo nel modello di profilo (non nel modello appSubscriber o nel modello di trasmissione) che dispone di un meccanismo di protezione aggiuntivo incorporato.
