@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
+source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 31%
+source-wordcount: '753'
+ht-degree: 30%
 
 ---
 
@@ -81,7 +81,7 @@ In Adobe Campaign sono disponibili due tipi di messaggi transazionali:
 <td><p><ul><li>Non contengono informazioni sul profilo.</li><li>Non sono compatibili con le regole <a href="../../sending/using/fatigue-rules.md">di</a> affaticamento (anche nel caso di un arricchimento con profili).</li><li>Il target di consegna è definito dai dati contenuti nell'evento stesso.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Messaggi transazionali di profilo</a><br><b> indirizzati ai profili dal database di marketing di Adobe Campaign</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Messaggi transazionali di profilo</a><br><b> indirizzati ai profili dal database di marketing di Adobe Campaign</b></p></td>
 <td><p>I messaggi transazionali del profilo consentono di:<ul><li>Applica le regole di tipologia di marketing, ad esempio <b>Indirizzo su  elenco Bloccati</b> o <a href="../../sending/using/fatigue-rules.md">regole</a>di affaticamento.</li><li>Includere il collegamento di annullamento all’abbonamento nei messaggi;</li><li>Aggiungere messaggi transazionali al reporting globale sulla distribuzione;</li><li>Utilizzare messaggi transazionali nel customer journey.</li></ul></p></td>
 </tr>
 </table>
@@ -102,43 +102,71 @@ Prendiamo l&#39;esempio di un&#39;azienda che ha un sito web e su questo sito i 
 
 Adobe Campaign ti consente di inviare un messaggio e-mail di notifica agli utenti del sito che hanno aggiunto prodotti al carrello: quando uno di loro abbandona il sito senza procedere con gli acquisti, riceve automaticamente un’e-mail di carrello abbandonato.
 
-I passaggi per la messa in atto di questo progetto sono i seguenti.
+I passi per la realizzazione di questo progetto sono i seguenti.
 
 ### Passaggio 1 - Creazione e pubblicazione della configurazione dell&#39;evento {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-Configurate un evento che verrà denominato &quot;abbandono del carrello&quot; e pubblicate la configurazione dell&#39;evento.
+Configure an event that will be named "Cart abandonment" and publish this event configuration.
 
-L&#39;API che verrà utilizzata dallo sviluppatore del sito Web viene distribuita e viene automaticamente creato un messaggio transazionale.
+The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Configurate un evento che verrà denominato "abbandono del carrello" e pubblicate la configurazione dell'evento.</p></td>
+<td>L'API che verrà utilizzata dallo sviluppatore del sito Web viene distribuita e viene automaticamente creato un messaggio transazionale.</td>
+</tr>
+</table>
 
 La creazione e la pubblicazione di un evento sono presentate nella sezione [Configurazione di un evento per l’invio di un messaggio transazionale di evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
 ### Passaggio 2 - Modifica e pubblicazione del messaggio di transazione {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Modificate e personalizzate il messaggio transazionale, verificatelo e pubblicatelo.
+Edit and personalize the transactional message, test it, and then publish it.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Modificate e personalizzate il messaggio transazionale, verificatelo e pubblicatelo.</p></td>
+<td>Il messaggio transazionale sarà quindi pronto per essere inviato.</td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Passaggio 3 - Integrare l&#39;attivazione dell&#39;evento {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Utilizzate REST Transactional Messages API per integrare l&#39;evento nel sito Web.
+Use the REST Transactional Messages API to integrate the event into your website.
 
-L&#39;evento viene attivato quando un cliente abbandona il carrello.
+The event will be triggered when a client abandons their cart.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Utilizzate REST Transactional Messages API per integrare l'evento nel sito Web.</p></td>
+<td>L'evento viene attivato quando un cliente abbandona il carrello.</td>
+</tr>
+</table>
 
 Per ulteriori informazioni sull&#39;integrazione dell&#39;evento nel sito Web, consultate Integrazione [del](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)sito.
 
 ### Passaggio 4 - Invio di messaggi {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:-->
+<!--Once all of these steps have been carried out, the message can be delivered:
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-Non appena un utente lascia il sito senza ordinare i prodotti nel suo carrello, riceve automaticamente un messaggio e-mail di notifica.
+As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Una volta che tutti questi passaggi sono stati eseguiti, il messaggio può essere recapitato.</p></td>
+<td>Non appena un utente lascia il sito senza ordinare i prodotti nel suo carrello, riceve automaticamente un messaggio e-mail di notifica.</td>
+</tr>
+</table>
 
 ## Passaggi chiave {#key-steps}
 
