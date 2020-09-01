@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: 99e0189e8cfe97eb328e9eb69dbcf3a9772c7792
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1597'
 ht-degree: 86%
 
 ---
@@ -252,6 +252,7 @@ ht-degree: 86%
       + [Gestione delle opzioni di esecuzione](automating/using/managing-execution-options.md)
       + [Gestione delle proprietà delle attività](automating/using/activity-properties.md)
    + Chiamata di un flusso di lavoro con parametri esterni {#calling-workflow-external-parameters}
+      + [Panoramica](automating/using/calling-a-workflow-with-external-paraleters.md)
       + [Dichiarazione dei parametri nell&#39;attività Segnale esterno](automating/using/declaring-parameters-external-signal.md)
       + [Definizione dei parametri durante la chiamata del flusso di lavoro](automating/using/defining-parameters-calling-workflow.md)
       + [Monitoraggio delle variabili di eventi](automating/using/monitoring-events-variables.md)
