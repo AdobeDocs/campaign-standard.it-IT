@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ La modifica di un’espressione comporta l’immissione manuale di condizioni pe
 
 Questa modalità ti consente di utilizzare funzioni avanzate. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici, ordinamento e così via.
 
-Durante la modifica di un’espressione è inoltre possibile utilizzare variabili degli eventi. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+È inoltre possibile utilizzare le variabili degli eventi dei flussi di lavoro quando si modifica un&#39;espressione. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/customizing-workflow-external-parameters.md).
 
 Puoi modificare le espressioni per:
 
@@ -51,13 +51,14 @@ La modifica delle espressioni può essere utilizzata nella finestra Tipi di pubb
    * Un campo di input in cui è definita l’espressione.
    * L’elenco dei campi disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione di targeting della query (consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * L’elenco delle funzioni disponibili, ordinate per categoria.
+
    ![](assets/expression_editor_1.png)
 
 1. Modifica l’espressione immettendo un’espressione direttamente nel campo corrispondente o utilizzando gli elenchi dei campi e delle funzioni disponibili.
 
    Fare doppio clic su un campo o un’espressione consente di aggiungerlo all’espressione in cui è posizionato il cursore.
 
-   È possibile utilizzare le variabili degli eventi dei flussi di lavoro per generare un’espressione. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+   È possibile utilizzare le variabili degli eventi dei flussi di lavoro per generare un’espressione. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/customizing-workflow-external-parameters.md).
 
 1. Se necessario, assegna alla regola un nome specifico. Il nome immesso verrà visualizzato come nome della regola nell’area di lavoro dell’editor delle query.
 
@@ -79,6 +80,7 @@ Le espressioni standard sono composte da una o più condizioni che rispettano i 
    * **&lt;valore1>** è un campo o una funzione. Ad esempio, **@created** per la data di creazione di un profilo oppure **Year(@created)** per l’anno di creazione di un profilo.
    * **&lt;operatore di confronto>** è uno degli operatori elencati nella sezione [Operatori di confronto](../../automating/using/advanced-expression-editing.md#comparison-operators). Questo operatore definisce il metodo di confronto tra **&lt;valore1>** e **&lt;valore2>**.
    * **&lt;valore2>** è un campo, una funzione o un valore immesso manualmente.
+
    >[!NOTE]
    >
    >I dati del tipo **&lt;valore1>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;valore1>** è una data, anche **&lt;valore2>** deve essere una data.
@@ -107,6 +109,7 @@ Le espressioni JavaScript sono composte da una o più condizioni e utilizzano i 
    * **&lt;contesto>** è un campo o una funzione che consente di specificare il contesto. Ad esempio **context.profile.@email** per l’indirizzo e-mail di un profilo o **context.profile.firstName.length()** per il numero di caratteri del nome di un profilo.
    * **&lt;operatore di confronto>** è uno degli operatori elencati nella sezione [Operatori di confronto](../../automating/using/advanced-expression-editing.md#comparison-operators). Questo operatore definisce il metodo di confronto tra **&lt;contesto>** e **&lt;valore2>**.
    * **&lt;valore2>** è un campo, una funzione o un valore immesso manualmente.
+
    >[!NOTE]
    I dati del tipo **&lt;contesto>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;contesto>** è una data, anche **&lt;valore2>** deve essere una data.
 
