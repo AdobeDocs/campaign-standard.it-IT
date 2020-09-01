@@ -13,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 96%
@@ -46,7 +46,7 @@ Tieni presente che un’attività **[!UICONTROL External signal]** può essere a
 **Argomenti correlati**
 
 * [Caso di utilizzo: Attività esterna del segnale e importazione](../../automating/using/external-signal-data-import.md)dei dati.
-* [Caso di utilizzo: Chiamata di un flusso di lavoro per creare un&#39;audience da un file utilizzando parametri esterni](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [Caso di utilizzo: Chiamata di un flusso di lavoro per creare un&#39;audience da un file utilizzando parametri esterni](../../automating/using/use-case-calling-workflow.md)
 
 ## Configurazione {#configuration}
 
@@ -56,7 +56,7 @@ Durante la configurazione di un segnale esterno, è importante per prima cosa co
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
 1. Modifica l’etichetta dell’attività. Questa etichetta è necessaria per configurare il flusso di lavoro sorgente che attiva il **[!UICONTROL External signal]**.
 
-   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters]** per dichiararli. Per ulteriori informazioni, consulta [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters]** per dichiararli. Per ulteriori informazioni al riguardo, consulta questa sezione: [](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -78,7 +78,7 @@ Durante la configurazione di un segnale esterno, è importante per prima cosa co
 
    Quando imposti un’attività **[!UICONTROL End]** per attivare un altro flusso di lavoro, la relativa icona viene aggiornata con un simbolo di segnale aggiuntivo.
 
-   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters and values]**. Per ulteriori informazioni, consulta [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters and values]**. Per ulteriori informazioni al riguardo, consulta questa sezione: [](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
