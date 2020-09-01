@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Per ulteriori informazioni, consulta [Attività di pianificazione](../../automat
 
 ## Chiamata del flusso di lavoro con parametri{#workflow-with-parameters}
 
-Accertati che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (consulta [Definizione dei parametri per la chiamata al flusso di lavoro](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Anche i tipi di parametri devono essere coerenti con i valori previsti.
+Accertatevi che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (vedete [](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
 
 Verifica che tutti i parametri siano stati dichiarati nell’**[!UICONTROL External signal activity]**. In caso contrario, si verificherà un errore durante l’esecuzione dell’attività.
 
