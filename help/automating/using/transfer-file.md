@@ -13,9 +13,9 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1070'
 ht-degree: 99%
 
 ---
@@ -141,7 +141,7 @@ Il protocollo BLOB di Microsoft Azure ti consente di accedere a BLOB che si trov
 Il protocollo **[!UICONTROL File(s) present on the Adobe Campaign server]** corrisponde all’archivio contenente i file da recuperare.
 Puoi utilizzare metacaratteri o caratteri jolly (ad esempio * o ?) per filtrare file.
 
-Scegli se desideri **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**. L’opzione **[!UICONTROL Use a dynamic file path]** ti consente di utilizzare un’espressione standard e variabili di eventi per personalizzare il nome del file da trasferire. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Scegli se desideri **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**. L’opzione **[!UICONTROL Use a dynamic file path]** ti consente di utilizzare un’espressione standard e variabili di eventi per personalizzare il nome del file da trasferire. Per ulteriori informazioni al riguardo, consulta questa sezione: [](../../automating/using/customizing-workflow-external-parameters.md).
 
 Il percorso deve essere relativo alla directory dello spazio di archiviazione del server di Adobe Campaign. I file si trovano nella directory **sftp&lt;nomeistanza>/**. Inoltre non puoi sfogliare le directory al di sopra dello spazio di archiviazione. Ad esempio:
 
