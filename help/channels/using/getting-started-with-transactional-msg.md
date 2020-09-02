@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
+source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 30%
@@ -28,7 +28,12 @@ ht-degree: 30%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-I messaggi transazionali consentono di <b>inviare messaggi</b> singoli e univoci ai clienti in tempo reale. Può essere messaggi di benvenuto, conferme di spedizione ordine, modifica della password, ecc.
+<table>
+<tr>
+<td ><br><p>I messaggi transazionali consentono di <b>inviare messaggi</b> singoli e univoci ai clienti in tempo reale.</p></td>
+<td>Può essere messaggi di benvenuto, conferme di spedizione ordine, modifica della password, ecc.</td>
+</tr>
+</table>
 
  Adobe Campaign consente di integrare questa funzionalità con un sistema informativo che invia eventi da trasformare in messaggi transazionali personalizzati.
 
@@ -112,9 +117,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Configurate un evento che verrà denominato "abbandono del carrello" e pubblicate la configurazione dell'evento.</p></td>
+<td><br><p>Configurate un evento che verrà denominato "abbandono del carrello" e pubblicate la configurazione dell'evento.</p></td>
 <td>L'API che verrà utilizzata dallo sviluppatore del sito Web viene distribuita e viene automaticamente creato un messaggio transazionale.</td>
 </tr>
 </table>
@@ -127,9 +134,11 @@ La creazione e la pubblicazione di un evento sono presentate nella sezione [Conf
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Modificate e personalizzate il messaggio transazionale, verificatelo e pubblicatelo.</p></td>
+<td><br><p>Modificate e personalizzate il messaggio transazionale, verificatelo e pubblicatelo.</p></td>
 <td>Il messaggio transazionale sarà quindi pronto per essere inviato.</td>
 </tr>
 </table>
@@ -144,9 +153,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Utilizzate REST Transactional Messages API per integrare l'evento nel sito Web.</p></td>
+<td><br><p>Utilizzate REST Transactional Messages API per integrare l'evento nel sito Web.</p></td>
 <td>L'evento viene attivato quando un cliente abbandona il carrello.</td>
 </tr>
 </table>
@@ -161,9 +172,11 @@ Per ulteriori informazioni sull&#39;integrazione dell&#39;evento nel sito Web, c
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Una volta che tutti questi passaggi sono stati eseguiti, il messaggio può essere recapitato.</p></td>
+<td><br><p>Una volta che tutti questi passaggi sono stati eseguiti, il messaggio può essere recapitato.</p></td>
 <td>Non appena un utente lascia il sito senza ordinare i prodotti nel suo carrello, riceve automaticamente un messaggio e-mail di notifica.</td>
 </tr>
 </table>
