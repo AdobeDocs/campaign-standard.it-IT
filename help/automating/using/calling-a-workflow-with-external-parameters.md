@@ -12,10 +12,10 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: 5da41379d718d78d7990fd2d767ec21216487b0d
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -29,8 +29,7 @@ Prendiamo l&#39;esempio seguente, in cui desideriamo inviare e-mail direttamente
 La procedura da seguire per chiamare un flusso di lavoro con parametri è la seguente:
 
 1. Dichiarare i parametri nell&#39; **[!UICONTROL External signal]** attività. Vedete [Dichiarazione dei parametri nell&#39;attività](../../automating/using/declaring-parameters-external-signal.md)del segnale esterno.
-1. Configurate l&#39; **[!UICONTROL End]** attività o la chiamata API per definire i parametri e attivare l&#39; **[!UICONTROL External signal]** attività del flusso di lavoro.
-
-Una volta attivato il flusso di lavoro, i parametri vengono assimilati nelle variabili degli eventi del flusso di lavoro e possono essere utilizzati all&#39;interno del flusso di lavoro. A questo proposito, consulta la sezione [](../../automating/using/customizing-workflow-external-parameters.md).
+1. Configurate l&#39; **[!UICONTROL End]** attività o la chiamata API per definire i parametri e attivare l&#39; **[!UICONTROL External signal]** attività del flusso di lavoro. A questo proposito, consulta la sezione [](../../automating/using/defining-parameters-calling-workflow.md)
+1. Una volta attivato il flusso di lavoro, i parametri vengono assimilati nelle variabili degli eventi del flusso di lavoro e possono essere utilizzati all&#39;interno del flusso di lavoro. A questo proposito, consulta la sezione [](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)
