@@ -1,6 +1,6 @@
 ---
-title: Consenti elenchi in  Adobe Campaign Standard
-description: Scoprite come ottimizzare l'opzione Consenti elenchi con  Adobe Campaign Standard.
+title: ' Inseriti nell''elenco Consentiti in  Adobe Campaign Standard'
+description: Scoprite come ottimizzare  inseriti nell'elenco Consentiti con  Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ La certificazione IP è un programma di invio di best practice che aiuta a garan
 
 Attualmente due provider offrono la certificazione IP: Return Path e Certified Senders Alliance.
 
-I mittenti certificati vengono aggiunti alle mailing list di mailing list utilizzate dai provider di cassette postali globali e dalle società di sicurezza delle e-mail. Questi elenchi commerciali di permessi si basano su un sistema che consente al mittente di bypassare del tutto i filtri antispam o di essere assegnati punti incrementali quando entrano nel sistema.
+I mittenti certificati vengono inseriti nell&#39;elenco Consentiti e utilizzati dai provider di cassette postali globali e dalle società di sicurezza e-mail. Questi inserire nell&#39;elenco Consentiti commerciali si basano su un sistema che consente al mittente di bypassare completamente i filtri antispam o di assegnare punti incrementali al momento dell&#39;ingresso nel sistema.
 
 Il programma [Return Path Certification](https://www.validity.com/products/returnpath/certification/) offre una serie di vantaggi, tra cui:
 * Un aumento misurabile del posizionamento delle caselle di posta in entrata nei principali fornitori di cassette postali come Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru e altro ancora
@@ -42,6 +42,6 @@ La Certificazione [Certified Senders Alliance](https://certified-senders.org/cer
 * Tutela dai rischi giuridici e finanziari rispettando pienamente le norme giuridiche
 * Proteggere la reputazione mediante avvertenze anticipate da parte dell&#39;Ufficio di denuncia CSA e resoconti giornalieri sulle intercettazioni di spam
 
-Gli ISP sono liberi di utilizzare questi servizi e il numero di ISP può variare a seconda dell&#39;elenco di consenso.
+Gli ISP sono liberi di utilizzare questi servizi e il numero di ISP può variare a seconda del inserire nell&#39;elenco Consentiti di .
 
 Tuttavia, poiché sempre più ISP generano i propri filtri antispam in base al comportamento del proprietario della inbox anziché analizzare il contenuto del messaggio stesso, l&#39;utilizzo della certificazione IP non può essere una garanzia di posizionamento della inbox o addirittura di consegna.
