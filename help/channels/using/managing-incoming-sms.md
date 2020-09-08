@@ -1,6 +1,6 @@
 ---
 title: Gestione degli SMS in arrivo
-description: Scopri come gestire STOP SMS e memorizzare gli SMS in entrata nel  Adobe Campaign.
+description: Scoprite come gestire STOP SMS e memorizzare gli SMS in entrata in  Adobe Campaign.
 page-status-flag: never-activated
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
 contentOwner: sauviat
@@ -13,10 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 7%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 1%
 
 ## Gestione di STOP SMS {#managing-stop-sms}
 
-Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, puoi configurare i messaggi che gli vengono automaticamente inviati e l&#39;azione da eseguire.
+Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, puoi configurare messaggi da inviargli automaticamente e l’azione da eseguire.
 
 Questa configurazione è definita nella **[!UICONTROL Automatic reply sent to the MO]** sezione dell&#39;account [esterno](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)di routing SMS. MO sta per &#39;Mobile Originato&#39;, il che significa che puoi configurare una risposta automatica al cellulare che ha inviato l&#39;SMS.
 
-A questo scopo:
+Per eseguire questa operazione:
 
-1. Dal menu avanzato, tramite il logo del Adobe Campaign , selezionate **[!UICONTROL Administration > Application settings > External accounts]** quindi l&#39;account **[!UICONTROL SMS routing via SMPP]** esterno.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]** then the **[!UICONTROL SMS routing via SMPP]** external account.
 1. Sotto la **[!UICONTROL Automatic reply sent to the MO]** categoria, fare clic **[!UICONTROL Create element]** per iniziare a configurare la risposta automatica.
 
    ![](assets/sms_mo_1.png)
@@ -57,11 +57,12 @@ A questo scopo:
    * L’ **[!UICONTROL Send to quarantine]** azione esegue automaticamente la quarantena del numero di telefono del profilo.
    * Questa **[!UICONTROL Remove from quarantine]** azione rimuove il numero di telefono del profilo dalla quarantena.
    * L’ **[!UICONTROL None]** azione consente di inviare il messaggio solo ai destinatari senza eseguire un’azione.
-   Ad esempio, nella configurazione seguente, se i destinatari inviano la parola chiave &quot;STOP&quot;, riceveranno automaticamente una conferma di annullamento dell’iscrizione e il loro numero di telefono verrà inviato in quarantena con lo **[!UICONTROL On block list]** stato. Questo stato si riferisce solo al numero di telefono, il profilo non viene aggiunto all&#39;elenco dei blocchi in modo che l&#39;utente continui a ricevere i messaggi e-mail.
+
+   Ad esempio, nella configurazione seguente, se i destinatari inviano la parola chiave &quot;STOP&quot;, riceveranno automaticamente una conferma di annullamento dell’iscrizione e il loro numero di telefono verrà inviato in quarantena con lo **[!UICONTROL Denylisted]** stato. Questo stato si riferisce solo al numero di telefono, il profilo viene inserita nell&#39;elenco Bloccati in modo che l&#39;utente continui a ricevere i messaggi e-mail.
 
    ![](assets/sms_mo.png)
 
-Ora i destinatari possono annullare automaticamente la sottoscrizione ai messaggi e inviarli in quarantena con questa risposta automatica. I destinatari in quarantena sono elencati nella **[!UICONTROL Addresses]** tabella disponibile dal menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** . Per ulteriori informazioni sulle quarantena, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md).
+Ora i destinatari possono annullare automaticamente la sottoscrizione ai messaggi e inviarli in quarantena con questa risposta automatica. I destinatari in quarantena sono elencati nella **[!UICONTROL Addresses]** tabella disponibile dal menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** . For more information on quarantines, refer to this [section](../../sending/using/understanding-quarantine-management.md).
 
 Questi SMS in arrivo possono essere memorizzati se necessario. For more information on this, refer to this [section](#storing-incoming-sms).
 
@@ -73,19 +74,19 @@ Nell&#39;account **[!UICONTROL SMS routing via SMPP]** esterno, potete scegliere
 
 Selezionando **[!UICONTROL Store incoming MO in the database]** la **[!UICONTROL SMPP channel settings]** categoria, tutti gli SMS verranno memorizzati nella tabella inSMS e possono essere recuperati tramite un&#39;attività di query in un flusso di lavoro.
 
-A questo scopo:
+Per eseguire questa operazione:
 
-1. Nel **[!UICONTROL SMPP channel settings]** campo, selezionare **[!UICONTROL Store incoming MO in the database]**.
+1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. Nella **[!UICONTROL Marketing activities]** scheda, fare clic su **[!UICONTROL Create]** quindi selezionare **[!UICONTROL Workflow]**.
+1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. Selezionate il tipo di flusso di lavoro.
-1. Modificate le proprietà del flusso di lavoro, quindi fate clic su **[!UICONTROL Create]**. Per ulteriori informazioni sulla creazione dei flussi di lavoro, consulta questa [sezione](../../automating/using/building-a-workflow.md).
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Query]** attività e fate doppio clic su di essa.
+1. Modificate le proprietà del flusso di lavoro, quindi fate clic su **[!UICONTROL Create]**. For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
+1. Drag and drop a **[!UICONTROL Query]** activity and double-click the activity.
 1. Nella **[!UICONTROL Properties]** scheda della query, scegliere **[!UICONTROL Incoming SMS (inSMS)]** nel **[!UICONTROL Resource]** campo.
 
    ![](assets/sms_config_mo_4.png)
@@ -94,7 +95,7 @@ A questo scopo:
 
    ![](assets/sms_config_mo_5.png)
 
-1. In questo caso, desideriamo eseguire il targeting di ogni messaggio in arrivo dal giorno precedente. Nella **[!UICONTROL Field]** categoria, selezionare **[!UICONTROL Creation date (created)]**.
+1. In questo caso, desideriamo eseguire il targeting di ogni messaggio in arrivo dal giorno precedente. In the **[!UICONTROL Field]** category, select **[!UICONTROL Creation date (created)]**.
 1. In **[!UICONTROL Filter type]**, selezionate **[!UICONTROL Relative]** quindi in **[!UICONTROL Level of precision]**, scegliete **[!UICONTROL Day]**.
 
    ![](assets/sms_config_mo_6.png)
