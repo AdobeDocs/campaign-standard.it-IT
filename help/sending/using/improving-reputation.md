@@ -13,17 +13,17 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
 
 # Crescita reputazione{#improving-reputation}
 
-Per evitare di esaurire i destinatari, elimina gli indirizzi e-mail duplicati dalla destinazione. Questo passaggio protegge la tua reputazione di invio e assicura una buona gestione della quarantena.  Adobe Campaign offre gli strumenti necessari per attuare tali raccomandazioni ed evitare il rischio di essere aggiunti a un elenco di blocchi dagli ISP.
+Per evitare di esaurire i destinatari, elimina gli indirizzi e-mail duplicati dalla destinazione. Questo passaggio protegge la tua reputazione di invio e assicura una buona gestione della quarantena.  Adobe Campaign offre gli strumenti necessari per attuare queste raccomandazioni ed evitare il rischio di essere inserita nell&#39;elenco Bloccati dagli ISP.
 
 Qui di seguito troverete informazioni sulla gestione dei duplicati e della quarantena.
 
@@ -33,7 +33,7 @@ La presenza di indirizzi e-mail duplicati può avere molteplici conseguenze:
 * Lo stesso messaggio viene inviato più di una volta. Anche se Campaign esegue una procedura di deduplicazione per impostazione predefinita prima dell&#39;invio, non c&#39;è nulla che fermi l&#39;invio dello stesso messaggio da parte di azioni diverse con lo stesso contenuto quando una destinazione viene divisa.
 * Richieste di annullamento sottoscrizione non rispettate. Se un destinatario annulla la sottoscrizione dopo aver ricevuto un messaggio, il profilo duplicato sarà comunque idoneo per i messaggi futuri.
 
-Oltre a questa procedura di opt-in, questa situazione porterà probabilmente gli utenti a considerare i messaggi come spam e ad attivare una procedura di lista di blocco presso l&#39;ISP.
+Oltre a questa procedura di opt-in, questa situazione porterà probabilmente gli utenti a considerare i messaggi come spam e ad avviare una procedura di elenco Bloccati presso l&#39;ISP.
 
 È necessario prestare particolare attenzione quando si eseguono operazioni sul database. Per evitare il più possibile duplicazioni, è necessario eseguire le azioni seguenti:
 * **Le importazioni devono essere configurate meticolosamente.** Ciò è particolarmente importante nella scelta della chiave di riconciliazione.
