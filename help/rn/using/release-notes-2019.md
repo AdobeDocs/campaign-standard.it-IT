@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '7626'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -293,7 +293,7 @@ ht-degree: 8%
 * L&#39;opzione &quot;Launch_URL_Campaign&quot; è stata aggiunta in Campaign per gestire le proprietà delle applicazioni mobili create con Adobe Experience Platform Mobile SDK.
 * È stato corretto un errore a causa del quale l&#39;opzione di ambiente sandbox veniva deselezionata dopo il caricamento del certificato di una proprietà mobile appena creata e l&#39;uscita dalla pagina delle proprietà dell&#39;applicazione mobile.
 * È stato risolto un problema che impediva di arricchire un contenuto di messaggi transazionali con informazioni provenienti dalla risorsa Servizio. (CAMP-33707)
-* È stato risolto un problema nelle pagine di destinazione del elenco Bloccati  che si verificava durante il tentativo di annullare la sottoscrizione di profili da un servizio.
+* È stato risolto un problema nelle pagine di destinazione del elenco Bloccati che si verificava durante il tentativo di annullare la sottoscrizione di profili da un servizio.
 
 ## Versione 19.2 - maggio 2019 {#release-19-2---may-2019}
 
@@ -617,7 +617,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * È stato risolto un problema, nell&#39;editor di query, che causava la condizione di unione tra il registro di trasmissione e il registro di tracciamento per rtEvent. (CAMP-28780)
 * È stato risolto un problema che impediva il salvataggio delle modifiche all&#39;opzione &quot;Azione specifica&quot; della pagina di destinazione. (CAMP-29422)
 * È stato risolto un problema che impediva l&#39;esportazione del payload di un evento in un flusso di lavoro. (CAMP-29029)
-* È stato risolto un problema che impediva l&#39;esclusione dei numeri SMS sul elenco Bloccati  in un messaggio SMS. (CAMP-28898)
+* È stato risolto un problema che impediva l&#39;esclusione inserita nell&#39;elenco Bloccati numeri SMS  in un messaggio SMS. (CAMP-28898)
 * È stato risolto un problema che poteva impedire ai fornitori SMPP di ricevere notifiche in caso di errore durante l&#39;elaborazione dei messaggi in arrivo. (CAMP-29804)
 * È stato risolto un problema che consentiva l&#39;eliminazione di account esterni con consegne associate. (CAMP-29738)
 * Il throughput di invio è stato migliorato e stabilizzato per i messaggi SMS.
