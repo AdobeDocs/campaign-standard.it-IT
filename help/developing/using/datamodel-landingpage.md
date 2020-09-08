@@ -13,10 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -333,7 +333,7 @@ ht-degree: 0%
          <td>
             <ul>
                <li>In corso - avviato - avviato</li>
-               <li>Editing - edizione - edizione</li>
+               <li>Editing - edizione</li>
                <li>Finito - finito - finito</li>
                <li>Avvertenza - Avviso</li>
                <li>Erroneo - errore - errore</li>
@@ -379,7 +379,7 @@ ht-degree: 0%
       </tr>
       <tr>
          <td>program (programBase)</td>
-         <td>Programma</td>
+         <td>programma</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -431,7 +431,7 @@ ht-degree: 0%
          <td>enumerazione (byte) </td>
          <td>
             <ul>
-               <li>Blocklist - blockList - 3</li>
+               <li>Lista nera - 3</li>
                <li>Nessuna azione specifica - Nessuno - 0</li>
                <li>Annullamento sottoscrizione - annullamento sottoscrizione - 2</li>
                <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
@@ -612,7 +612,7 @@ ht-degree: 0%
       </tr>
       <tr>
          <td>title</td>
-         <td>Pagina di destinazione</td>
+         <td>pagina di destinazione</td>
          <td>string (255)</td>
          <td> </td>
       </tr>
@@ -636,7 +636,7 @@ ht-degree: 0%
             <ul>
                <li>Generico - generico - 0</li>
                <li>Annullamento dell'iscrizione da un servizio - annullamento dell'iscrizione - 3</li>
-               <li>Blocklist - blockList - 4</li>
+               <li>Lista nera - lista nera - 4</li>
                <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
                <li>Acquisizione - acquisizione - 1</li>
                <li>Iscrizione a un servizio - iscrizione - 2</li>
