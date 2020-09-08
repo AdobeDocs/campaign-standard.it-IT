@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1557'
 ht-degree: 96%
 
 ---
@@ -86,7 +86,7 @@ Per evitare tali problemi, Adobe consiglia di seguire le best practice riportate
 * Di tanto in tanto, effettua l’accesso a SFTP per verificare direttamente ciò che vi si trova.
 * Ricorda che la gestione del disco SFTP è principalmente una tua responsabilità.
 
-Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere aggiunti al elenco consentiti  nell&#39;istanza Campaign. Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere aggiunti al inserire nell&#39;elenco Consentiti di  nell&#39;istanza Campaign. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/sftp-management/about-sftp-management.translate.html).
 
