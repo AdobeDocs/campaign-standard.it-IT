@@ -12,10 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 94%
+source-wordcount: '384'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 Puoi inviare messaggi transazionali basati sui profili di marketing dei clienti, che ti consentono di:
 
-* Applicare regole di tipologie di marketing, ad esempio **[!UICONTROL Address on block list]** o [regole di affaticamento](../../sending/using/fatigue-rules.md);
+* Applicare regole di tipologie di marketing, ad esempio **[!UICONTROL Denylisted address]** o [regole di affaticamento](../../sending/using/fatigue-rules.md);
 * Includere il collegamento di annullamento all’abbonamento nei messaggi;
 * Aggiungere messaggi transazionali al reporting globale sulla distribuzione;
 * Utilizzare messaggi transazionali nel customer journey.
@@ -74,11 +74,11 @@ Dopo la pubblicazione del messaggio e il completamento dell’integrazione con i
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Per ogni profilo che ha rinunciato, la regola di tipologia **[!UICONTROL Address on block list]** ha escluso il destinatario corrispondente.
+Per ogni profilo che ha rinunciato, la regola di tipologia **[!UICONTROL Denylisted address]** ha escluso il destinatario corrispondente.
 
 Questa regola fa parte di una tipologia specifica che si applica a tutti i messaggi transazionali basati sulla tabella **[!UICONTROL Profile]**.
 
