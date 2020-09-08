@@ -13,9 +13,9 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
@@ -29,4 +29,4 @@ Il rapporto **[!UICONTROL Complaints]** individua le consegne che hanno ricevuto
 
 Nella tabella **Flop** , ordinata per dominio destinatario, viene visualizzato il numero di destinatari che hanno dichiarato un&#39;e-mail o una posta indesiderata. I risultati della tabella sono disponibili anche in un grafico e in numeri di riepilogo.
 
-Nella tabella delle tariffe **** degli elenchi Consegnato e Bloccato è riportato il numero di destinatari che hanno dichiarato un messaggio e-mail come spam o posta indesiderata. La tabella è ordinata per consegna.
+Nella tabella delle tariffe **** consegnate e Inserita nell&#39;elenco Bloccati è riportato il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. La tabella è ordinata per consegna.
