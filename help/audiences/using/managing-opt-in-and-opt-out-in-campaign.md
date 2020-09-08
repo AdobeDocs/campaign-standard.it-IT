@@ -1,6 +1,6 @@
 ---
 title: Gestione del consenso e del diniego in Campaign
-description: Comprendere in che modo l'opt-in e l'opt-out vengono gestiti  Adobe Campaign.
+description: Comprendere in che modo le opzioni di opt-in e opt-out vengono gestite in  Adobe Campaign.
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 6%
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 Gli utenti possono essere ammessi o disabilitati da un operatore direttamente dalla **[!UICONTROL General]** scheda del profilo.
 
-Nella **[!UICONTROL No longer contact (on block list)]** sezione, le caselle selezionate corrispondono ai canali da cui l&#39;utente ha scelto di rifiutare. Selezionate i canali in base alle esigenze dell&#39;utente.
+Nella **[!UICONTROL No longer contact (denylisted)]** sezione, le caselle selezionate corrispondono ai canali da cui l&#39;utente ha scelto di rifiutare. Selezionate i canali in base alle esigenze dell&#39;utente.
 
 ![](assets/optin_landingpage_3.png)
 
@@ -34,7 +34,7 @@ Nella **[!UICONTROL No longer contact (on block list)]** sezione, le caselle sel
 
 Per consentire agli utenti di scegliere se aderire o rifiutare, dovete creare e pubblicare una pagina di **[!UICONTROL Profile acquisition]** destinazione. Essi potranno quindi selezionare i canali in base alle loro esigenze. Per farlo, segui la procedura indicata di seguito.
 
-Potete anche impostare una **[!UICONTROL Block List]** pagina di destinazione che consenta agli utenti di rifiutare tutte le consegne. Per ulteriori informazioni, vedere [Impostazione di una pagina di destinazione per rifiutare tutte le consegne](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+Potete anche impostare una **[!UICONTROL Denylist]** pagina di destinazione che consenta agli utenti di rifiutare tutte le consegne. Per ulteriori informazioni, vedere [Impostazione di una pagina di destinazione per rifiutare tutte le consegne](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Potete anche impostare una **[!UICONTROL Block List]** pagina di destinazione ch
 
 ### Impostazione di una pagina di destinazione per rifiutare tutte le consegne {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Per consentire agli utenti di rifiutare tutte le consegne, dovete creare e pubblicare una pagina di **[!UICONTROL Block list]** destinazione. Per ulteriori informazioni sulla creazione delle pagine di destinazione, consulta [questa pagina](../../channels/using/getting-started-with-landing-pages.md).
+Per consentire agli utenti di rifiutare tutte le consegne, dovete creare e pubblicare una pagina di **[!UICONTROL Denylist]** destinazione. Per ulteriori informazioni sulla creazione delle pagine di destinazione, consulta [questa pagina](../../channels/using/getting-started-with-landing-pages.md).
 
 Quando un utente fa clic sul collegamento della pagina di destinazione, l&#39; **[!UICONTROL No longer contact (by any channel)]** opzione nel profilo viene automaticamente selezionata.
 
