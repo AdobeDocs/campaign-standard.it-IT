@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 1%
+source-wordcount: '2028'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Informazioni sugli avvisi relativi alla consegna {#about-delivery-alerting}
 
-La funzione **di avviso** sulla distribuzione è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle consegne.
+The **Delivery alerting** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 Le notifiche inviate contengono un rapporto basato per impostazione predefinita sui seguenti criteri:
 
@@ -36,9 +36,9 @@ Le notifiche inviate contengono un rapporto basato per impostazione predefinita 
 * Consegne con un throughput basso
 * Consegne in corso
 
-I destinatari degli avvisi possono monitorare le consegne che vengono elaborate dal Adobe Campaign  e intraprendere le azioni appropriate in caso di problemi nella loro esecuzione.
+I destinatari degli avvisi possono monitorare le consegne elaborate da  Adobe Campaign e intraprendere le azioni appropriate in caso di problemi nella loro esecuzione.
 
-Queste notifiche di avviso possono essere personalizzate in base a criteri di avviso specifici definiti tramite un dashboard nell&#39;interfaccia del Adobe Campaign .
+Queste notifiche di avviso possono essere personalizzate in base a criteri di avviso specifici definiti tramite un dashboard nell&#39;interfaccia  di Adobe Campaign.
 
 >[!NOTE]
 >
@@ -59,9 +59,9 @@ Per gestire i destinatari delle notifiche, definire i criteri di avviso e accede
 
 >[!NOTE]
 >
->Per accedere e configurare le dashboard e i criteri di avviso, è necessario disporre dei diritti di amministrazione o essere visualizzati nel gruppo di sicurezza **Supervisori** consegna. Gli utenti standard non possono accedere alle dashboard nell&#39;interfaccia del Adobe Campaign . Possono ricevere solo le notifiche di avviso. Per ulteriori informazioni sugli utenti e la protezione in  Adobe Campaign, consultate [Tipi di utenti](../../administration/using/users-management.md) e [Informazioni sui gruppi](../../administration/using/managing-groups-and-users.md#about-security-groups)di protezione.
+>Per accedere e configurare le dashboard e i criteri di avviso, è necessario disporre dei diritti di amministrazione o essere visualizzati nel gruppo di sicurezza **Supervisori** consegna. Gli utenti standard non possono accedere alle dashboard nell&#39;interfaccia  Adobe Campaign. Possono ricevere solo le notifiche di avviso. Per ulteriori informazioni sugli utenti e sulla protezione in  Adobe Campaign, consulta [Tipi di utenti](../../administration/using/users-management.md) e [Informazioni sui gruppi](../../administration/using/managing-groups-and-users.md#about-security-groups)di protezione.
 
-Dall’interfaccia del Adobe Campaign  potete:
+Dall&#39;interfaccia  Adobe Campaign, potete:
 
 * Creazione e gestione di dashboard di avvisi sulla distribuzione. Consultate [Creazione di un dashboard](#creating-a-delivery-alerting-dashboard)di avvisi sulla consegna.
 * Definite e gestite i criteri di avviso per la consegna per ogni dashboard. Ad esempio, puoi creare avvisi basati su consegne con preparazione non riuscita o consegne con un throughput limitato. Consultate [Informazioni sui criteri](#about-alerting-criteria)di avviso.
@@ -81,7 +81,7 @@ Dall’interfaccia del Adobe Campaign  potete:
 Se desiderate inviare notifiche basate su criteri specifici a diversi gruppi di utenti, dovete utilizzare diverse dashboard. Per creare una nuova dashboard:
 
 1. Vai a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
-1. Selezionate **[!UICONTROL Delivery alerting dashboards]** e fate clic su **[!UICONTROL Create]**.
+1. Seleziona **[!UICONTROL Delivery alerting dashboards]** e fai clic su **[!UICONTROL Create]**.
 1. Selezionare la **[!UICONTROL Enabled]** casella per attivare il dashboard corrente.
 
    Se questa opzione è disabilitata, le notifiche collegate a questo dashboard non vengono più inviate. Questa opzione è disabilitata per impostazione predefinita.
@@ -90,8 +90,8 @@ Se desiderate inviare notifiche basate su criteri specifici a diversi gruppi di 
 
 1. Dall’elenco a **[!UICONTROL Alert group]** discesa, selezionate il gruppo di destinatari a cui desiderate inviare una notifica. Per modificare o creare un gruppo, consultate [Creazione di un gruppo di protezione e assegnazione di utenti](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Dalla **[!UICONTROL Delivery alerting criteria]** sezione, fate clic **[!UICONTROL Create element]** per aggiungere criteri. Consultate [Informazioni sui criteri](#about-alerting-criteria)di avviso.
-1. Selezionare il **[!UICONTROL Edit properties]** pulsante. Nella **[!UICONTROL Criteria parameters]** scheda, definire le modalità di applicazione dei criteri. Vedere Parametri [](#criteria-parameters)dei criteri.
-1. Fate clic **[!UICONTROL Create]** per salvare il dashboard.
+1. Fai clic sul pulsante **[!UICONTROL Edit properties]**. Nella **[!UICONTROL Criteria parameters]** scheda, definire le modalità di applicazione dei criteri. Vedere Parametri [](#criteria-parameters)dei criteri.
+1. Click **[!UICONTROL Create]** to save the dashboard.
 
 Ogni volta che una consegna soddisfa i criteri definiti in questo dashboard, viene inviata una notifica di avviso al gruppo specificato di utenti.
 
@@ -137,9 +137,9 @@ Per ciascun criterio, potete definire le seguenti impostazioni:
 
 **Argomenti correlati:**
 
-* [Invio di registri](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [Registri di invio](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Frequenza avvisi](#alerting-frequency)
-* [Icone e stati dell&#39;attività di marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Icone e stati dell’attività di marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Creazione di un criterio di avviso per la consegna {#creating-a-delivery-alerting-criterion}
 
@@ -166,7 +166,7 @@ A questo scopo, è innanzitutto necessario estendere la risorsa **Consegna** e a
 
    Per ulteriori informazioni sulla creazione e la modifica di filtri personalizzati, consultate [Definire i filtri](../../developing/using/configuring-filter-definition.md).
 
-1. Salvate le modifiche e pubblicate le risorse. Per ulteriori informazioni, consultate [Pubblicazione di una risorsa](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)personalizzata.
+1. Salvate le modifiche e pubblicate le risorse. For more on this, see [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    Il filtro viene creato e ora può essere selezionato in un nuovo criterio di avviso relativo alla distribuzione.
 
@@ -200,7 +200,7 @@ Nella **[!UICONTROL Criteria parameters]** scheda di una dashboard [avvisi](#cre
 
 * **[!UICONTROL Maximum ratio of soft bounce errors]**: Viene inviata una notifica per tutte le consegne con un rapporto di errore soft bounce maggiore del valore specificato. Per impostazione predefinita, il valore di questo campo è impostato su 0,05 (5%).
 
-   Per ulteriori informazioni sugli errori di rimbalzo soft, consulta [Qualificazione](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Elenco dei tipi](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)di consegna non riuscita.
+   Per ulteriori informazioni sugli errori di rimbalzo soft, consulta Qualificazione [e](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) elenco dei tipi [](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)di consegna non riuscita.
 
 * **[!UICONTROL Maximum ratio of hard bounce errors]**: Viene inviata una notifica per tutte le consegne con un rapporto di errore rimbalzo rigido maggiore del valore specificato. Per impostazione predefinita, il valore di questo campo è impostato su 0,05 (5%).
 
@@ -220,27 +220,28 @@ Potete modificare questa impostazione tramite il menu **[!UICONTROL Administrati
 
 >[!NOTE]
 >
->Questa opzione si applica a tutte le dashboard definite in  Adobe Campaign. Non è possibile impostare una frequenza specifica per ogni dashboard.
+>Questa opzione è valida per tutte le dashboard definite in  Adobe Campaign. Non è possibile impostare una frequenza specifica per ogni dashboard.
 
 ## Motivi di avviso sulla consegna {#delivery-alerting-reasons}
 
-La funzione **di avviso** sulla distribuzione consente a tutti gli utenti  Adobe Campaign coinvolti di essere informati automaticamente sullo stato di esecuzione della consegna tramite e-mail e dashboard.
+La funzione **di avviso** sulla distribuzione consente a tutti gli utenti Adobe Campaign interessati di ricevere automaticamente informazioni sullo stato di esecuzione della consegna tramite e-mail e dashboard.
 
 Ora, quando ricevi una notifica di avviso sulla consegna, ecco alcuni suggerimenti su cosa puoi fare.
 
 Prima di tutto, controllare la scheda **Log** della consegna per visualizzare tutte le informazioni relative alla consegna e alle prove. Le icone rosso e giallo consentono di identificare errori o avvisi. L&#39;icona rossa indica un errore critico che impedisce l&#39;avvio della consegna.
 
-Per visualizzare la cronologia di ogni occorrenza di una consegna, selezionare la **[!UICONTROL Sending logs]** scheda. Contiene l&#39;elenco dei messaggi inviati e i relativi stati. Qui puoi controllare lo stato di consegna per ogni destinatario ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]** ecc.). Per ulteriori informazioni, consulta [Invio di registri](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Per visualizzare la cronologia di ogni occorrenza di una consegna, selezionare la **[!UICONTROL Sending logs]** scheda. Contiene l&#39;elenco dei messaggi inviati e i relativi stati. Qui puoi controllare lo stato di consegna per ogni destinatario ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]** ecc.). For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Di seguito sono riportati alcuni possibili motivi per ricevere le notifiche di avviso in base ai criteri soddisfatti per la consegna.
 
 * **[!UICONTROL Deliveries failed]**: Questo criterio vi informa di tutte le consegne con stato errato. Può essere dovuto a:
 
    * Problema con il server di consegna (MTA, Agente di trasferimento messaggi)
-   * Timeout della connessione tra il server di distribuzione del Adobe Campaign  e il server di ricezione
+   * Timeout della connessione tra il server di distribuzione Adobe Campaign  e il server di ricezione
    * Un problema di recapito
    * Flusso di lavoro errato
-   Se la consegna viene attivata con un flusso di lavoro, verificate che il flusso di lavoro sia stato avviato correttamente. Per ulteriori informazioni, consultate [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md). In caso contrario, contattate l’amministratore  Adobe Campaign per risolvere il problema.
+
+   Se la consegna viene attivata con un flusso di lavoro, verificate che il flusso di lavoro sia stato avviato correttamente. Per ulteriori informazioni, consultate [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md). In caso contrario, contattate il vostro amministratore  Adobe Campaign per risolvere il problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Un errore può verificarsi durante la preparazione della consegna nei seguenti casi:
 
@@ -248,25 +249,28 @@ Di seguito sono riportati alcuni possibili motivi per ricevere le notifiche di a
    * Nei campi di personalizzazione è presente una sintassi errata.
    * Destinazione mancante.
    * La consegna supera il limite di dimensioni.
+
    Per ulteriori informazioni, consulta [Preparazione dell’invio](../../sending/using/preparing-the-send.md). Tuttavia, questi errori vengono generalmente rilevati durante l&#39;analisi dei messaggi. Vedere [Regole](../../sending/using/control-rules.md)di controllo.
 
 * Le possibili cause di un **[!UICONTROL Delivery with bad error ratio for soft bounces]** avviso possono essere:
 
    * Il server del destinatario non è attivo.
    * La cassetta postale del destinatario è piena.
+
    Per ulteriori informazioni, controllate le schede **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** i registri di consegna. Consultate [Registri](../../sending/using/monitoring-a-delivery.md#exclusion-logs)di esclusione.
 
    Le possibili cause di un **[!UICONTROL Delivery with bad error ratio for hard bounces]** avviso possono essere:
 
-   * Il destinatario si trova nell&#39;elenco dei blocchi, il che significa che non desidera più essere contattato.
+   * Il destinatario viene inserita nell&#39;elenco Bloccati, il che significa che non desidera più essere contattato.
    * L&#39;indirizzo e-mail del destinatario non esiste.
    * Il dominio del destinatario non esiste.
    * Il server del destinatario sta bloccando la consegna.
+
    Per evitare errori di rimbalzo morbido e duro, seguite le best practice riportate di seguito:
 
    * Crea regole di tipologia di filtro per escludere una parte della destinazione del messaggio durante l&#39;analisi del recapito, ad esempio i destinatari in quarantena. Consultate [Creazione di una regola](../../sending/using/filtering-rules.md)di filtro.
    * Aggiornate regolarmente il database dei clienti per mantenere buoni i processi di gestione della quarantena. Consultate [Le quarantena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * In generale, è possibile migliorare l&#39;offerta al meglio. Consultate la documentazione dettagliata sulla [conformità](../../sending/using/about-deliverability.md) al Adobe Campaign  e contattate l’amministratore del Adobe Campaign  per assistenza.
+   * In generale, è possibile migliorare l&#39;offerta al meglio. Consultate la documentazione dettagliata sulla [distribuzione](../../sending/using/about-deliverability.md) di Adobe Campaign  e contattate il vostro amministratore Adobe Campaign  per assistenza.
 
 
 
@@ -274,11 +278,11 @@ Di seguito sono riportati alcuni possibili motivi per ricevere le notifiche di a
 
    **[!UICONTROL Deliveries with low throughput]**: Anche in questo caso si tratta di un problema di recapito, il che significa che l&#39;MTA è troppo lento.
 
-   Per ulteriori informazioni su questi problemi, contattate l’amministratore di Adobe Campaign .
+   Per ulteriori informazioni su questi problemi, contattate il vostro amministratore  Adobe Campaign.
 
 **Argomenti correlati:**
 
 * [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)
-* [Riconoscimento della gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
+* [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Informazioni sul consenso e diniego in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
