@@ -1,6 +1,6 @@
 ---
 title: Perché utilizzare le API Campaign Standard?
-description: Scopri di più sulle API Campaign Standard e perché utilizzarle.
+description: Ulteriori informazioni sulle API Campaign Standard e sui motivi del loro utilizzo.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 87f65e6225f7f22ab347aac33ea9d769af299030
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
 
-# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
+# Perché utilizzare le API di Campaign Standard {#why-using-campaign-standard-apis}
 
  Adobe Campaign Standard offre API che consentono l&#39;integrazione dei sistemi esistenti con la piattaforma ACS per risolvere problemi reali in tempo reale.
 
@@ -65,7 +65,7 @@ Nei passaggi seguenti viene descritto un caso di utilizzo dettagliato per l&#39;
 
    ![testo alt](assets/postman_collection.png)
 
-1. Selezionate **Creazione di una richiesta di profilo** , quindi aggiornate la richiesta di POST e la scheda **Intestazioni** con le vostre informazioni (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Per ulteriori informazioni, consulta [questa sezione](../../api/using/setting-up-api-access.md).
+1. Selezionate **Creazione di una richiesta di profilo** , quindi aggiornate la richiesta di POST e la scheda **Intestazioni** con le vostre informazioni (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/setting-up-api-access.md).
 
    ![testo alt](assets/postman_uc1.png)
 
