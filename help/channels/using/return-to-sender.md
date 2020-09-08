@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '212'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 Sono supportati gli scambi di file flat con i provider Direct Mail che includono informazioni sul ritorno al mittente. Ciò consente di escludere gli indirizzi postali corrispondenti dalle comunicazioni future. Questo consente anche di ricevere una notifica di indirizzo errato e di interagire con il cliente attraverso altri canali o di incoraggiarlo ad aggiornare il suo indirizzo postale.
 
-Ad esempio, un contatto si è spostato in un nuovo luogo e non vi ha fornito il suo nuovo indirizzo postale. Il provider recupera l&#39;elenco degli indirizzi errati e invia queste informazioni al Adobe Campaign  che aggiunge automaticamente all&#39;elenco blocchi gli indirizzi errati.
+Ad esempio, un contatto si è spostato in un nuovo luogo e non vi ha fornito il suo nuovo indirizzo postale. Il provider recupera l&#39;elenco degli indirizzi errati e invia queste informazioni a  Adobe Campaign, che elenco Bloccati automaticamente gli indirizzi errati.
 
 Affinché questa funzionalità funzioni, il modello di consegna predefinita per la posta diretta include, nel contenuto, l&#39;ID del registro di consegna. Pertanto,  Adobe Campaign sarà in grado di sincronizzare il profilo e i dati di consegna con le informazioni restituite dal fornitore.
 
@@ -34,9 +34,9 @@ Un modello di importazione è disponibile in **[!UICONTROL Adobe Campaign > Reso
 
 ![](assets/direct_mail_return_sender_2.png)
 
-Al termine dell&#39;importazione,  Adobe Campaign esegue automaticamente le azioni seguenti:
+Al termine dell’importazione,  Adobe Campaign esegue automaticamente le azioni seguenti:
 
-* Gli indirizzi errati vengono aggiunti all&#39;elenco dei blocchi a livello di profilo
+* Gli indirizzi errati vengono inserita nell&#39;elenco Bloccati a livello di profilo
 * Gli indicatori principali di consegna (KPI) vengono aggiornati
 * I registri di consegna vengono aggiornati
 
