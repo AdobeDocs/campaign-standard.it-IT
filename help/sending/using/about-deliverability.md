@@ -1,6 +1,6 @@
 ---
 title: Informazioni sulla recapito in  Adobe Campaign Standard
-description: Scopri i concetti e le best practice relativi alla recapito dei prodotti e gli strumenti offerti dal Adobe Campaign Standard  per ottimizzare l'invio delle consegne.
+description: Scopri i concetti e le best practice relativi alla recapito dei prodotti e gli strumenti offerti da  Adobe Campaign Standard per ottimizzare l'invio delle consegne.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 5%
+source-wordcount: '662'
+ht-degree: 6%
 
 ---
 
@@ -35,9 +35,9 @@ Il tasso di recapito dipende da numerosi fattori, in particolare:
 * Autenticazione dei messaggi (SPF, DKIM, DMARC)
 * reputazione mittente
 
-## Punti chiave da controllare {#deliverability-key-points}
+## Punti chiave da verificare {#deliverability-key-points}
 
-Per ottimizzare la recapito dei messaggi e-mail  Adobe Campaign, si consiglia di utilizzare le best practice elencate di seguito. I problemi di recapito sono generalmente legati alle misure di protezione contro lo spam attuate dai provider di servizi Internet e dagli amministratori dei server di posta elettronica.
+Per ottimizzare la recapito dei messaggi e-mail di  Adobe Campaign, si consiglia di utilizzare le procedure ottimali elencate di seguito. I problemi di recapito sono generalmente legati alle misure di protezione contro lo spam attuate dai provider di servizi Internet e dagli amministratori dei server di posta elettronica.
 
 Per &quot;recapito e-mail&quot; si intende il set di caratteristiche che determinano la capacità di un messaggio di raggiungere la destinazione, tramite un indirizzo e-mail personale, entro un breve periodo di tempo e con la qualità prevista in termini di contenuto e formato. Queste caratteristiche sono suddivise in quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Insieme, costituiscono la base di un programma di recapito e-mail di successo.
 
@@ -46,7 +46,7 @@ Di seguito è riportato un elenco dei punti chiave da verificare per garantire u
 
 ## Strumenti per la distribuzione {#deliverability-tools}
 
-Innanzitutto, consultare la documentazione sugli strumenti di recapito forniti con Campaign Standard:
+In primo luogo, consultare la documentazione sugli strumenti di recapito forniti con Campaign Standard:
 * [Best practice di distribuzione](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
 * [Personalizzazione del nome del mittente](../../designing/using/personalization.md#personalizing-the-sender)
 * [Verifica dell’oggetto di un messaggio e-mail](../../sending/using/testing-subject-line-email.md)
@@ -56,8 +56,8 @@ Innanzitutto, consultare la documentazione sugli strumenti di recapito forniti c
 * [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md)
 * [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)
-* [Riconoscimento della gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
-* [Elenco quarantena e blocchi](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
+* [Quarantena e elenco Bloccati](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [Report dinamici](../../reporting/using/about-dynamic-reports.md)
 
 ## Verifica della configurazione di rete {#network-configuration}
