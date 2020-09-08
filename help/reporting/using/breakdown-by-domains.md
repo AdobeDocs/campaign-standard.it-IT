@@ -13,17 +13,17 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
 # Raggruppamento per domini{#breakdown-by-domains}
 
-Questo rapporto contiene i dati sulle prestazioni per ciascun dominio rappresentato nel pubblico per una consegna tramite e-mail. Se si tratta di un rapporto di campagna o di programma, i dati sulle prestazioni sono disponibili per più audience. Questi dati consentono di analizzare il comportamento di ciascun dominio in risposta a eventi specifici. Ad esempio, la visualizzazione del collegamento, l&#39;URL nell&#39;elenco dei blocchi, ecc.
+Questo rapporto contiene i dati sulle prestazioni per ciascun dominio rappresentato nel pubblico per una consegna tramite e-mail. Se si tratta di un rapporto di campagna o di programma, i dati sulle prestazioni sono disponibili per più audience. Questi dati consentono di analizzare il comportamento di ciascun dominio in risposta a eventi specifici. Ad esempio, visualizzazione del collegamento, URL inserito nell&#39;elenco Bloccati ecc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ La seconda tabella, Statistiche **di** tracciamento, contiene i dati disponibili
 * **Fate clic**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
 * **Annulla sottoscrizione**: Il numero di clic sul collegamento di iscrizione.
 * **Pagina** speculare: Numero di clic sul collegamento della pagina mirror.
-* **Bloccato**: Il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata (consultate Gestione dell&#39;elenco dei [blocchi in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **inserita nell&#39;elenco Bloccati**: Il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
