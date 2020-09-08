@@ -12,9 +12,9 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1282'
 ht-degree: 81%
 
 ---
@@ -32,7 +32,7 @@ Quando una consegna non può essere inviata a un profilo, il server remoto invia
 >
 >I messaggi di errore **SMS** (o &quot;SR&quot; per &quot;Report di stato&quot;) sono qualificati dal processo MTA.
 
-È inoltre possibile escludere i messaggi durante la preparazione della consegna se un indirizzo viene messo in quarantena o se un profilo si trova nel elenco Bloccati . I messaggi esclusi sono elencati nella scheda **[!UICONTROL Exclusion logs]** del dashboard di consegna (consulta [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+I messaggi possono essere esclusi durante la preparazione del recapito se un indirizzo viene messo in quarantena o se viene inserita nell&#39;elenco Bloccati un profilo. I messaggi esclusi sono elencati nella scheda **[!UICONTROL Exclusion logs]** del dashboard di consegna (consulta [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -69,8 +69,8 @@ I possibili motivi di un errore di consegna sono:
 | **[!UICONTROL Refused]** | Soft/Hard | L&#39;indirizzo è stato messo in quarantena a causa di un feedback sulla sicurezza come rapporto di spam. In base all’errore restituito dal provider, l’indirizzo verrà posto direttamente in quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato di quarantena o finché non vengono raggiunti 5 errori. |
 | **[!UICONTROL Duplicate]** | Ignorato | L&#39;indirizzo è già stato rilevato nella segmentazione. |
 | **[!UICONTROL Not defined]** | Morbido | l&#39;indirizzo è nella qualifica perché gli errori non sono ancora stati incrementati. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. |
-| **[!UICONTROL Error ignored]** | Ignorato | L&#39;indirizzo è sul elenco consentiti  e vi verrà inviata un&#39;e-mail in ogni caso. |
-| **[!UICONTROL Address on block list]** | Rigido | L&#39;indirizzo è stato aggiunto al elenco Bloccati  al momento dell&#39;invio. |
+| **[!UICONTROL Error ignored]** | Ignorato | L&#39;indirizzo viene inserito nell&#39;elenco Consentiti e vi verrà comunque inviato un messaggio e-mail. |
+| **[!UICONTROL Denylisted address]** | Rigido | L&#39;indirizzo è stato aggiunto al elenco Bloccati al momento dell&#39;invio. |
 | **[!UICONTROL Account disabled]** | Soft/Hard | Quando Internet Access Provider (IAP) rileva un lungo periodo di inattività, può chiudere l&#39;account dell&#39;utente: le consegne all&#39;indirizzo dell&#39;utente saranno quindi impossibili. Il tipo morbido o rigido dipende dal tipo di errore ricevuto: se l’account è temporaneamente disattivato a causa di sei mesi di inattività e può ancora essere attivato, verrà assegnato lo stato **[!UICONTROL Erroneous]** e la consegna verrà ritentata. Se l’errore ricevuto segnala che l’account è disattivato in modo permanente, verrà posto direttamente in quarantena. |
 | **[!UICONTROL Not connected]** | Ignorato | Il telefono cellulare del profilo viene spento o non è connesso alla rete quando il messaggio viene inviato. |
 | **[!UICONTROL Invalid domain]** | Morbido | Il dominio dell&#39;indirizzo e-mail non è corretto o non esiste più. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. Successivamente, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo. |
