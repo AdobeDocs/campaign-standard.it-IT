@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5398'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 
 ## Versione 18.9 - settembre 2018 {#release-18-9---september-2018}
 
-**Quali sono le novità?**
+**Novità?**
 
 <table> 
  <thead> 
@@ -89,13 +89,13 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 * È stato risolto un problema che causava la visualizzazione delle immagini caricate da una fotocamera e scattate in modalità verticale in una posizione ruotata indesiderata.
 * È stato risolto un problema che causava la visualizzazione di informazioni di selezione non chiare durante l&#39;utilizzo dell&#39;interfaccia dell&#39;editor query in Creative Designer.
 * È stato risolto un problema che impediva la duplicazione corretta di un elemento quando si utilizzava l&#39;interfaccia dell&#39;editor di query in Creative Designer.
-* È stato risolto un problema che impediva la consegna di messaggi SMS ai destinatari nel elenco Bloccati , anche se l&#39;iscrizione era stata annullata tramite una risposta automatica. (CAMP-27128)
+* È stato risolto un problema che impediva la consegna di messaggi SMS ai destinatari denylist, anche se l&#39;iscrizione era stata annullata tramite una risposta automatica. (CAMP-27128)
 * È stato risolto un problema che impediva la visualizzazione degli errori che causavano il fallimento del flusso di lavoro di pulizia del **database** . (CAMP-26876)
 * È stato risolto un problema che poteva impedire l&#39;eliminazione di campi personalizzati in una definizione di notifica push. (CAMP-25588)
 
 ## Versione 18.7 - luglio 2018 {#release-18-7---july-2018}
 
-**Quali sono le novità?**
+**Novità?**
 
 <table> 
  <thead> 
@@ -149,7 +149,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 * È stato risolto un problema relativo all&#39;attività di trasferimento file che poteva verificarsi quando il nome file conteneva spazi vuoti. (CAMP-25936)
 * È stato risolto un problema che poteva verificarsi quando si utilizzava il pulsante di riconnessione dopo la scadenza di una sessione. (CAMP-25560)
 * È stato risolto un problema che poteva causare esclusioni durante l&#39;invio di consegne con ottimizzazione del fuso orario associata alle regole di affaticamento. (CAMP-25425)
-* È stato risolto un problema che, durante l&#39;utilizzo della funzione GDPR API, poteva impedire l&#39;eliminazione di dati con un collegamento di tipo 0-1.
+* È stato risolto un problema che impediva l&#39;eliminazione di dati con un collegamento di tipo 0-1 durante l&#39;utilizzo della funzione GDPR API.
 * È stato risolto un problema che poteva causare un messaggio di errore durante l&#39;annullamento dell&#39;edizione di una regola di tipo fatigue.
 * È stato risolto un problema che poteva verificarsi durante l&#39;anteprima di un contenuto di consegna dopo la modifica.
 * È stato risolto un problema che poteva verificarsi durante l&#39;elaborazione dei file zip CSV durante l&#39;utilizzo dell&#39;opzione di decompressione.
@@ -191,12 +191,12 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 * È stato risolto un problema che poteva verificarsi quando la durata della consegna non veniva presa in considerazione nelle consegne ricorrenti.
 * È stato risolto un problema che poteva verificarsi durante l&#39;ordinamento dei dati nel **[!UICONTROL Client data]** menu, per le risorse personalizzate con più di 100K record. (CAMP-24308)
 * È stato risolto un problema con dimensioni di profilo personalizzate che non venivano prese in considerazione quando si utilizzava la funzione di ricerca nei report dinamici.
-* È stato risolto un problema con la visualizzazione di dati internazionali per i livelli Account nei report dinamici.
+* È stato risolto un problema con la visualizzazione di dati internazionali per i livelli di account nei report dinamici.
 * È ora possibile creare un servizio senza un messaggio di conferma dell&#39;iscrizione o dell&#39;annullamento dell&#39;iscrizione.
 
 ## Versione 18.5 - maggio 2018 {#release-18-5---may-2018}
 
-**Quali sono le novità?**
+**Novità?**
 
 <table> 
  <thead> 
@@ -306,7 +306,7 @@ _Risorse personalizzate_
  <tbody> 
   <tr> 
    <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> Il GDPR è la nuova legge dell’Unione europea sulla privacy che armonizza e aggiorna i requisiti di protezione dei dati in vigore dal 25 maggio 2018. Il GDPR si applica ai clienti  Adobe Campaign che detengono dati per i soggetti dati residenti nell'UE.<br /> Oltre alle funzionalità per la privacy già disponibili in  Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità in qualità di processore dati per includere funzionalità aggiuntive, al fine di facilitare la tua disponibilità in qualità di Titolare dei Dati per determinate richieste GDPR:<br /> 
+   <td> Il GDPR è la nuova legge dell’Unione europea sulla privacy che armonizza e aggiorna i requisiti di protezione dei dati in vigore dal 25 maggio 2018. Il GDPR si applica ai clienti di Adobe Campaign che conservano dati per soggetti che risiedono nell’Unione europea.<br /> Oltre alle funzionalità per la privacy già disponibili in  Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità in qualità di processore dati per includere funzionalità aggiuntive, al fine di facilitare la tua disponibilità in qualità di Titolare dei Dati per determinate richieste GDPR:<br /> 
     <ul> 
      <li> Diritto di accesso: consente all'Oggetto dati di ricevere una copia dei propri dati personali acquisiti dai Controllori dati, che possono includere dati memorizzati in  Adobe Campaign. </li> 
      <li> Destra per eliminare: autorizza l'Oggetto dati a cancellare i propri dati personali acquisiti dai Controllori dati, potenzialmente includendo i dati memorizzati in  Adobe Campaign. </li> 
@@ -314,7 +314,7 @@ _Risorse personalizzate_
   </tr> 
   <tr> 
    <td> Creative Designer per e-mail (versione beta)<br /> </td> 
-   <td>  Adobe Campaign nuovo Creative Designer offre un'esperienza di creazione completamente integrata in Campaign, consentendo la creazione visiva rapida e semplice di e-mail coinvolgenti e personalizzate individualmente senza la necessità di eseguire uno script su una sola riga di codice. Grazie alla sua potente interfaccia di trascinamento, Creative Designer consente di ridimensionare la creazione delle e-mail sia per gli utenti che iniziano da una lavagna vuota, sia per sfruttare i frammenti di contenuto o i modelli esistenti. <br /> Le funzionalità principali includono:<br /> 
+   <td>  Adobe Campaign nuovo Creative Designer offre un'esperienza di creazione completamente integrata in Campaign, consentendo la creazione visiva rapida e semplice di e-mail coinvolgenti e personalizzate individualmente senza la necessità di creare una sola riga di codice. Grazie alla sua potente interfaccia di trascinamento, Creative Designer consente di ridimensionare la creazione delle e-mail sia per gli utenti che iniziano da una lavagna vuota, sia per sfruttare i frammenti di contenuto o i modelli esistenti. <br /> Le funzionalità principali includono:<br /> 
     <ul> 
      <li> Progettazione visiva e creazione di e-mail reattive completamente personalizzate attraverso un'interfaccia a trascinamento, integrata da integrazioni Creative Cloud native </li> 
      <li> Creazione e salvataggio di un modello di contenuto e-mail e utilizzo dei modelli salvati per la creazione di e-mail </li> 
@@ -474,7 +474,7 @@ Alcuni problemi possono verificarsi quando si utilizzano collegamenti di aiuto c
      <li> scaricare immagini o altri file multimediali e aggiungerli come allegati a una notifica </li> 
      <li> modifica del corpo o del testo del titolo di una notifica </li> 
      <li> aggiungere un identificatore di thread a una notifica </li> 
-    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consultate la documentazione <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios"></a>dettagliata.<br /> <strong>Avviso:</strong> questi aggiornamenti sulle notifiche push richiedono ai clienti di aggiornare le loro applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-payload.html">questa nota tecnica</a> .<br /> </td> 
+    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consultate la documentazione <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios"></a>dettagliata.<br /> <strong>Avviso:</strong> questi aggiornamenti sulle notifiche push richiedono ai clienti di aggiornare le loro applicazioni mobili. Refer to <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-payload.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegne ottimizzate per il fuso orario<br /> </td> 
@@ -521,7 +521,7 @@ _Flussi di lavoro_
 * È stato risolto un problema che causava un messaggio di errore durante l&#39;utilizzo di dati aggiuntivi in una query e l&#39;aggiunta di alias contenenti spazi. I caratteri non alfanumerici ora vengono sostituiti da &quot;_&quot;.
 * È stato corretto un problema a causa del quale, in alcuni casi, il flusso di lavoro tecnico per il calcolo dei KPI poteva essere interrotto per impostazione predefinita.
 
-_Profili e tipi di pubblico_
+_Profili e pubblico_
 
 * È stato corretto un errore che si verificava durante l&#39;aggiunta di più filtri nella query di un&#39;audience.
 * È stato risolto un problema di visualizzazione che si verificava durante la modifica dell&#39;immagine di un profilo.
