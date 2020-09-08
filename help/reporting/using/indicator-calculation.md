@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizzati nei diversi rapporti e la relativa formula di calcolo in base al tipo di consegna.
 
-## Recapito e-mail {#email-delivery}
+## Email delivery {#email-delivery}
 
 <table> 
  <thead> 
@@ -47,16 +47,16 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bloccato<br /> </td> 
-   <td> @blocklist<br /> </td> 
+   <td> inserita nell'elenco Bloccati<br /> </td> 
+   <td> @blacklist<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di blocco<br /> </td> 
-   <td> @rateBlocklists<br /> </td> 
-   <td> @blocklist/@sent<br /> </td> 
-   <td> Denominatore per il calcolo del tasso si basa sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
+   <td> elenco Bloccati tasso<br /> </td> 
+   <td> @rateBlacklist<br /> </td> 
+   <td> @blacklist/@sent<br /> </td> 
+   <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Punti + errori<br /> </td> 
@@ -71,7 +71,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Fai clic su<br /> </td> 
    <td> @clic<br /> </td> 
    <td> count(@trackingUrlType=1, 10 o 11)<br /> </td> 
    <td> </td> 
@@ -92,7 +92,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Tasso di consegna<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivery/@sent<br /> </td> 
-   <td> Denominatore per il calcolo del tasso si basa sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
+   <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Rimbalzi netti<br /> </td> 
@@ -104,7 +104,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Frequenza rimbalzi netti<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> Denominatore per il calcolo del tasso si basa sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
+   <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Dominio non valido<br /> </td> 
@@ -158,7 +158,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Tasso di quarantena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantena/@sent<br /> </td> 
-   <td> Denominatore per il calcolo del tasso si basa sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
+   <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
   </tr>
   <tr> 
    <td> Rifiutato<br /> </td> 
@@ -170,7 +170,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Tasso rifiutato<br /> </td> 
    <td> @rateRejection<br /> </td> 
    <td> @rifiutato/@sent<br /> </td> 
-   <td> Denominatore per il calcolo del tasso si basa sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
+   <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Elaborato/inviato<br /> </td> 
@@ -188,7 +188,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Frequenza rimbalzo morbida<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> Denominatore per il calcolo del tasso si basa sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
+   <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic univoci<br /> </td> 
@@ -229,7 +229,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
  </tbody> 
 </table>
 
-## Recapito notifiche push {#push-notification-delivery}
+## Consegna notifiche push {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -286,7 +286,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> @univoche(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Fai clic su<br /> </td> 
    <td> @clic<br /> </td> 
    <td> @count(status=interact)<br /> </td> 
   </tr> 
@@ -303,7 +303,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
  </tbody> 
 </table>
 
-## Distribuzione in-app {#in-app-delivery}
+## In-App delivery {#in-app-delivery}
 
 <table> 
  <thead> 
@@ -337,7 +337,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Impressioni univoche<br /> </td> 
    <td> @uniqueimpression<br /> </td> 
    <td> @univoche(@count(status=view))<br /> </td> 
-   <td> Per gli utenti <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e gli utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic in-app <br /> </td> 
@@ -349,7 +349,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Clic in-app univoci<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @univoche(@count (status=clic)<br /> </td> 
-   <td> Per gli utenti <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e gli utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Frequenza di click-through in-app<br /> </td> 
@@ -367,7 +367,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Licenze univoche in-app<br /> </td> 
    <td> @unicedismissal<br /> </td> 
    <td> @univoche(@count (status=close))<br /> </td> 
-   <td> Per gli utenti <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e gli utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Frequenza di licenziamento in-app<br /> </td> 
