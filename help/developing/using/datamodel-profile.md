@@ -10,10 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -54,43 +54,43 @@ ht-degree: 0%
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockList</td>
+                  <td>blackList</td>
                   <td>Nessun contatto (da un canale)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
+                  <td>blackListEmail</td>
                   <td>Non contatta più tramite e-mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>Non contatta più via fax</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
+                  <td>blackListMobile</td>
                   <td>Nessun contatto più tramite SMS</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>Nessun contatto più telefonico</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>Nessun contatto tramite posta diretta</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPushnotification</td>
+                  <td>blackListPushnotification</td>
                   <td>Nessun contatto più tramite notifica push</td>
                   <td>boolean </td>
                   <td> </td>
@@ -170,7 +170,7 @@ ht-degree: 0%
                </tr>
                <tr>
                   <td>excludeLogs</td>
-                  <td>Registri di esclusione</td>
+                  <td>Log di esclusione</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -231,7 +231,7 @@ ht-degree: 0%
                </tr>
                <tr>
                   <td>logs</td>
-                  <td>Registri di consegna</td>
+                  <td>Log di consegna</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
