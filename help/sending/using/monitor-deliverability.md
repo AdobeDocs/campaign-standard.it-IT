@@ -1,6 +1,6 @@
 ---
-title: Monitoraggio dell'operabilità nel  Adobe Campaign Standard
-description: Utilizzate gli strumenti offerti  Adobe Campaign Standard per monitorare l'affidabilità della piattaforma.
+title: Monitoraggio dell'operatività in  Adobe Campaign Standard
+description: Utilizzate gli strumenti offerti da  Adobe Campaign Standard per monitorare l'affidabilità della vostra piattaforma.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,24 +13,24 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 7%
 
 ---
 
 
-# Monitoraggio del recapito messaggi{#monitor-deliverability}
+# Monitoraggio della consegna messaggi{#monitor-deliverability}
 
-Qui di seguito troverete dettagli sulla **[!UICONTROL Delivery throughput]** relazione e sui diversi strumenti di monitoraggio offerti dal Adobe Campaign . Seguono alcune linee guida aggiuntive sul monitoraggio della recapito:
+Qui di seguito troverete informazioni dettagliate sul **[!UICONTROL Delivery throughput]** rapporto e sui diversi strumenti di monitoraggio offerti da  Adobe Campaign. Seguono alcune linee guida aggiuntive sul monitoraggio della recapito:
 * Controllate regolarmente la velocità di consegna per l&#39;intera piattaforma per verificare se è coerente con la configurazione originale.
 * Verificate che i tentativi siano impostati correttamente (30 minuti per il periodo di tentativi e più di 20 tentativi) nei modelli di consegna.
 * Verificare regolarmente che la casella di posta non riuscita sia accessibile e che l&#39;account non stia per scadere.
 * Controllate ogni throughput di distribuzione per assicurarvi che sia coerente con la validità del contenuto di distribuzione (ad es. Le vendite flash devono essere consegnate in minuti, non in giorni).
 * Quando si utilizzano le onde, verificare che ogni onda disponga di tempo sufficiente per terminare prima che venga attivata la successiva.
 * Verificate che il numero di errori e di nuove quarantena siano coerenti con altre consegne.
-* Consultate attentamente i registri di consegna per verificare il tipo di errori evidenziati (elenchi di blocchi, problemi DNS, regole anti-spam, ecc.).
+* Consultate attentamente i registri di consegna per verificare il tipo di errori evidenziati (elenco Bloccati, problemi DNS, regole anti-spam, ecc.).
 
 ## Velocità effettiva di consegna {#delivery-throughput}
 
@@ -46,7 +46,7 @@ Sono disponibili altri rapporti, ad esempio **[!UICONTROL Delivery summary]** o 
 
 ## Monitoraggio delle consegne {#monitoring-deliveries}
 
-Il dashboard dei messaggi consente di accedere ai registri di distribuzione: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Mostra i dettagli dell’invio, quale destinazione è stata esclusa e perché, nonché le informazioni di tracciamento come aperture e clic.
+Il dashboard dei messaggi consente di accedere ai registri di distribuzione: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** e **[!UICONTROL Tracked URLs]**. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic.
 
 Per ulteriori informazioni, consulta [Monitoraggio della distribuzione](../../sending/using/monitoring-a-delivery.md).
 
@@ -54,7 +54,7 @@ Per ulteriori informazioni, consulta [Monitoraggio della distribuzione](../../se
 
 ## Ricezione degli avvisi {#receiving-alerts}
 
-La **[!UICONTROL Delivery alerting]** funzione è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle loro consegne.
+The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 Per ulteriori informazioni, vedere [Ricevere avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md).
 
@@ -68,6 +68,6 @@ Il segnale Spam fornisce inoltre reclami diretti che gli utenti finali accedono 
 
 ## 250 ok {#solution-250ok}
 
-250ok è una soluzione di monitoraggio che fornisce elenchi di blocchi IP e di dominio, nonché indicatori di reputazione.
+250ok è una soluzione di monitoraggio che fornisce elenco Bloccati IP e dominio, nonché indicatori di reputazione.
 
-Le informazioni fornite sono in tempo reale, il che consente un&#39;assistenza proattiva. 250ok una soluzione complementare agli strumenti interni di recapito Adobe.
+Le informazioni fornite sono in tempo reale, il che consente un&#39;assistenza proattiva. 250ok una soluzione complementare agli strumenti interni di recapito del Adobe .
