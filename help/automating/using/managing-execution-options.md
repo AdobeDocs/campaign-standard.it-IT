@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8ebded956ef52bb742160d62ebbd8095c390d51c
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 2%
 
 ---
 
@@ -45,6 +45,6 @@ Le opzioni possibili sono:
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: consente di eseguire il flusso di lavoro localmente, a scopo di verifica dell’ambiente di sviluppo.
 
-* **[!UICONTROL Severity]**: consente di specificare un livello di priorità per l’esecuzione di flussi di lavoro nell’istanza del Adobe Campaign . I flussi di lavoro critici verranno prima eseguiti.
+* **[!UICONTROL Severity]**: consente di specificare un livello di priorità per l’esecuzione di flussi di lavoro nell’istanza di Adobe Campaign . Questo campo è utilizzato dai team  Adobe solo a scopo di monitoraggio.
 
 La **[!UICONTROL Error management]** sezione fornisce opzioni aggiuntive che consentono di gestire il funzionamento dei flussi di lavoro in caso di errori. Queste opzioni sono descritte dettagliatamente nella sezione Gestione [](../../automating/using/monitoring-workflow-execution.md#error-management) errori.
