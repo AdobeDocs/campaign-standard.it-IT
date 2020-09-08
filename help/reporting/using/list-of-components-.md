@@ -12,9 +12,9 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -152,12 +152,12 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
  </thead> 
  <tbody> 
   <tr> 
-   <td> Su  elenco Bloccati<br /> </td> 
+   <td> inserita nell'elenco Bloccati<br /> </td> 
    <td> Numero di destinatari che hanno dichiarato un'e-mail come spam o posta indesiderata.<br /> </td> 
   </tr> 
   <tr> 
-   <td>  tasso Elenco Bloccati<br /> </td> 
-   <td> Percentuale di consegne contrassegnate  elenco Bloccati.<br /> </td> 
+   <td> elenco Bloccati tasso<br /> </td> 
+   <td> Percentuale di consegne contrassegnate al elenco Bloccati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Punti + errori<br /> </td> 
