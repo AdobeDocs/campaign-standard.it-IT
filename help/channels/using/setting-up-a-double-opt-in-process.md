@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 89%
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Il principio consiste nell’inviare un’e-mail per confermare il consenso del 
 
 Per configurare questa impostazione devi effettuare le seguenti operazioni:
 
-1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Crea e invia automaticamente l’e-mail di consenso, con un collegamento di conferma. Questa e-mail eseguirà il targeting della popolazione che ha inviato la pagina di destinazione. Sarà basata su un modello e-mail che consente di eseguire il targeting dei profili di rinuncia.
 1. Reindirizza a una pagina di destinazione di conferma. Questa pagina di destinazione finale proporrà un pulsante di conferma: i visitatori devono fare clic su di esso. Puoi progettare un’e-mail di benvenuto da inviare al termine della conferma e, ad esempio, aggiungere un’offerta speciale nell’e-mail per i nuovi destinatari.
 
@@ -54,13 +54,13 @@ Per creare e configurare questa pagina di destinazione, devi eseguire le seguent
 
 1. Nella sezione **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, fai clic su **[!UICONTROL Add an element]** e immetti il percorso contestuale seguente:
 
-   /context/profile/ inserire nell&#39;elenco Bloccati
+   /context/profile/blackList
 
    Imposta il valore su **false** e fai clic su **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Questo contesto rimuove il campo &#39;Su  elenco Bloccati&#39;, per poter inviare le e-mail. Si nota in seguito che la prima pagina di destinazione impostava questo campo su **true** prima della conferma, per impedire l’invio di e-mail a profili non confermati. Per ulteriori informazioni, consulta il [Passaggio 3: creare la pagina di destinazione di acquisizione](#step-3--create-the-acquisition-landing-page).
+   Questo contesto rimuove il campo &#39;Inserito nell&#39;elenco Bloccati&#39; per poter inviare le e-mail. Si nota in seguito che la prima pagina di destinazione impostava questo campo su **true** prima della conferma, per impedire l’invio di e-mail a profili non confermati. Per ulteriori informazioni, consulta il [Passaggio 3: creare la pagina di destinazione di acquisizione](#step-3--create-the-acquisition-landing-page).
 
 1. Personalizza il contenuto della pagina di destinazione: puoi visualizzare dati personalizzati e cambiare l’etichetta del pulsante di conferma in “Fai clic qui per confermare l’abbonamento”, ad esempio.
 
@@ -101,12 +101,12 @@ L’evento è pronto. Ora puoi progettare il modello e-mail. Questo modello deve
 
 ### Creare la tipologia {#create-the-typology-rule}
 
-Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifica duplicandone una preconfigurata. La tipologia consentirà di inviare messaggi ai profili che non hanno ancora confermato il loro accordo e sono ancora in  elenco Bloccati. Per impostazione predefinita, le tipologie escludono i profili di rifiuto (ad es.  elenco Bloccati). Per creare questa tipologia, segui questi passaggi:
+Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifica duplicandone una preconfigurata. La tipologia consentirà di inviare messaggi ai profili che non hanno ancora confermato il loro accordo e che sono ancora inserita nell&#39;elenco Bloccati. Per impostazione predefinita, le tipologie escludono i profili di rifiuto (ossia inseriti nell&#39;elenco Bloccati). Per creare questa tipologia, segui questi passaggi:
 
 1. Dal logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e fai clic su **[!UICONTROL Typologies]**.
 1. Duplica la tipologia preconfigurata **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Una volta confermata la duplicazione, modifica la nuova tipologia e immetti l’etichetta **TYPOLOGY_PROFILE**.
-1. Rimuovere l&#39; **indirizzo  regola del elenco Bloccati** .
+1. Remove the **Denylisted address** rule.
 1. Fai clic su **[!UICONTROL Save]**.
 
 Questa tipologia può ora essere associata all’e-mail di conferma.
@@ -133,11 +133,11 @@ Per creare e configurare questa pagina di destinazione, devi eseguire le seguent
 1. Progetta una [nuova pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md) basata sul modello **[!UICONTROL Profile acquisition (acquisition)]**. Inserisci l’etichetta “**ACQUISITION**”.
 1. Modifica le proprietà della pagina di destinazione: nella sezione **[!UICONTROL Job]** > **[!UICONTROL Additional data]**, fai clic su **[!UICONTROL Add an element]** e immetti il percorso contestuale seguente:
 
-   /context/profile/ inserire nell&#39;elenco Bloccati
+   /context/profile/blackList
 
    Quindi imposta il valore su **true**.
 
-   Questo è obbligatorio per forzare l&#39;aggiunta al elenco Bloccati  ed evitare di inviare messaggi ai visitatori che non hanno confermato il loro accordo. La convalida della pagina di destinazione CONFIRMATION imposta questo campo su **false** dopo la conferma. Per ulteriori informazioni, consulta il [Passaggio 1: creare la pagina di destinazione di conferma](#step-1--create-the-confirmation-landing-page).
+   Questo è obbligatorio per forzare l&#39;aggiunta al elenco Bloccati ed evitare di inviare messaggi ai visitatori che non hanno confermato il loro accordo. La convalida della pagina di destinazione CONFIRMATION imposta questo campo su **false** dopo la conferma. Per ulteriori informazioni, consulta il [Passaggio 1: creare la pagina di destinazione di conferma](#step-1--create-the-confirmation-landing-page).
 
 1. Nella sezione **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**, seleziona l’opzione **[!UICONTROL Start sending messages]**.
 1. Nell’elenco a discesa associato, scegli il modello di messaggio transazionale **CONFIRM** creato.
