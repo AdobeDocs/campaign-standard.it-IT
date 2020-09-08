@@ -12,10 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 1%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ La tabella seguente fornisce informazioni sulle regole di filtraggio pronte all�
 | Etichetta | Canale | Descrizione |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione di destinazione senza un indirizzo specifico (indirizzo e-mail, indirizzo postale, ecc.) secondo il canale selezionato). |
-| **[!UICONTROL Blocklisted address]** | Tutto | Esclude gli indirizzi che si trovano nell&#39;elenco dei blocchi. |
+| **[!UICONTROL Denylisted address]** | Tutto | Esclude gli indirizzi che si trovano sul elenco Bloccati. |
 | **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al **[!UICONTROL Address]** campo popolazione di destinazione. |
 | **[!UICONTROL Exclude mobile applications]** | Applicazione mobile | Sono escluse le iscrizioni all&#39;app che non corrispondono all&#39;applicazione mobile definita nel messaggio. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Sono escluse le iscrizioni all&#39;app che non corrispondono all&#39;applicazione mobile definita nel messaggio (modello in-app). |
@@ -47,13 +47,13 @@ Sono inoltre disponibili due regole di esclusione per le seguenti regole di filt
 
 Durante l&#39;analisi delle e-mail, queste regole confrontano gli indirizzi e-mail dei destinatari con gli indirizzi o i nomi di dominio vietati contenuti in un elenco di soppressione globale crittografato gestito nell&#39;istanza di recapito. In caso di corrispondenza, il messaggio non viene inviato al destinatario.
 
-Questo per evitare di essere aggiunto all&#39;elenco dei blocchi a causa di attività dannose, in particolare l&#39;uso di uno Spamtrap. Ad esempio, se si utilizza uno Spamtrap per effettuare la sottoscrizione tramite uno dei moduli Web, viene automaticamente inviato un messaggio e-mail di conferma a tale Spamtrap, con l&#39;aggiunta automatica dell&#39;indirizzo all&#39;elenco dei blocchi.
+Questo per evitare di essere inserita nell&#39;elenco Bloccati a causa di attività dannose, soprattutto l&#39;uso di uno Spamtrap. Ad esempio, se si utilizza uno Spamtrap per effettuare la sottoscrizione tramite uno dei moduli Web, viene automaticamente inviato un messaggio e-mail di conferma a tale Spamtrap, con conseguente aggiunta automatica dell&#39;indirizzo al elenco Bloccati.
 
 >[!NOTE]
 >
 >Gli indirizzi e i nomi di dominio contenuti nell&#39;elenco di soppressione globale sono nascosti. Solo il numero di destinatari esclusi è indicato nei registri di analisi della consegna.
 
-## Creazione di una regola di filtro {#creating-a-filtering-rule}
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 Potete creare regole di filtro personalizzate in base alle vostre esigenze. Ad esempio, potete filtrare il pubblico di destinazione delle newsletter in modo che gli utenti con meno di 18 anni non ricevano mai comunicazioni.
 
@@ -87,15 +87,15 @@ Ogni volta che questa regola viene utilizzata in un messaggio, gli abbonati che 
 
 ## Configurazione del contesto di targeting delle regole di filtro {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard consente di configurare le dimensioni **Targeting** e **Filtraggio** in base ai dati da destinare.
+Campaign Standard consente di configurare le dimensioni **Targeting** e **Filtraggio** in base ai dati da utilizzare.
 
 A questo scopo, aprire le proprietà della regola di tipologia, quindi accedere alla **[!UICONTROL Advanced information]** sezione.
 
-Per impostazione predefinita, il filtraggio viene eseguito sul **[!UICONTROL Profiles]**. Ad esempio, se la regola è indirizzata a un&#39;applicazione mobile, **[!UICONTROL Filtering dimension]** è possibile modificarla in **[!UICONTROL Subscriptions to an application]**.
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. Ad esempio, se la regola è indirizzata a un&#39;applicazione mobile, **[!UICONTROL Filtering dimension]** è possibile modificarla in **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Limitazione dell&#39;applicabilità di una regola di filtro {#restricting-the-applicability-of-a-filtering-rule}
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 È possibile limitare l&#39;applicabilità di una regola di filtro in base al messaggio da inviare.
 
