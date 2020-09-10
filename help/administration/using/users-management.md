@@ -12,10 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ Ci concentreremo piuttosto sulla suddivisione delle diverse attività in Adobe C
 ### Amministratori funzionali {#functional-administrators}
 
 Gli amministratori funzionali sono utenti che possono accedere alle parti più tecniche dell’interfaccia. Hanno il ruolo **[!UICONTROL Administration]** e si accertano che la piattaforma sia configurata in modo che gli esperti marketing debbano concentrarsi solo sulla distribuzione delle campagne.
+
+>[!CAUTION]
+>
+>Solo gli amministratori funzionali, con **[!UICONTROL Administration]** ruolo e accesso a **Tutte** le unità, possono accedere ai registri di invio, ai log dei messaggi, ai registri di tracciamento, ai registri di esclusione, ai registri delle proposte e ai registri di iscrizione. Un utente non amministratore può eseguire il targeting di questi registri ma iniziare da una tabella collegata (profili, consegna).
 
 Gli amministratori funzionali sono gli unici utenti che possono accedere al menu **[!UICONTROL Administration]**, nell’interfaccia di Adobe Campaign. Poiché questi utenti devono accedere alle risorse tecniche, devi assegnare loro ruoli più avanzati, come i predefiniti **[!UICONTROL Administration]** e **[!UICONTROL Datamodel]**. Questi ruoli vengono combinati nel gruppo di sicurezza predefinito **[!UICONTROL Administrators]**. Per ulteriori informazioni, consulta questa [sezione](../../administration/using/list-of-roles.md).
 
