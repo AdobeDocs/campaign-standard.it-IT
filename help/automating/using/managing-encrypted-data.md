@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
+source-git-commit: bd48bb03e6f02a65e6f82cd9cb3131f153e19875
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 1%
 
 In alcuni casi, i dati da importare sui server delle campagne potrebbero dover essere crittografati, ad esempio se contengono dati PII.
 
-Per poter crittografare i dati in uscita o decrittografare quelli in arrivo, è necessario gestire le chiavi GPG tramite il [Pannello](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)di controllo.
+Per poter crittografare i dati in uscita o decrittografare quelli in arrivo, è necessario gestire le chiavi GPG tramite l&#39; [Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
->Il Pannello di controllo è disponibile per tutti i clienti ospitati su AWS (ad eccezione dei clienti che ospitano le proprie istanze di marketing in sede).
+>Il Pannello di controllo Campaign è disponibile per tutti i clienti ospitati su AWS (ad eccezione dei clienti che ospitano le proprie istanze di marketing in sede).
 
-Se non siete autorizzati a utilizzare il Pannello di controllo, contattate l&#39;Assistenza clienti Adobe in modo che fornisca all&#39;istanza i comandi di cifratura/decrittazione necessari. A tal fine, inviare una richiesta indicando:
+Se non siete autorizzati a utilizzare il Pannello di controllo Campaign, dovete contattare  Assistenza clienti di Adobe in modo che forniscano all&#39;istanza i comandi di cifratura/decrittazione necessari. A tal fine, inviare una richiesta indicando:
 
 * L&#39; **etichetta** che verrà visualizzata nell&#39;interfaccia di Campaign per utilizzare il comando. Ad esempio &quot;Cifra file&quot;.
 * Il **comando** da installare nell’istanza.
@@ -43,34 +43,34 @@ Una volta elaborata la richiesta, i comandi di cifratura/decrittazione saranno d
 
 **Argomenti correlati:**
 
-* [Caricare file](../../automating/using/load-file.md)
-* [Estrarre file](../../automating/using/extract-file.md)
+* [Load file](../../automating/using/load-file.md)
+* [Extract file](../../automating/using/extract-file.md)
 
-## Caso di utilizzo: Importazione di dati crittografati con una chiave generata dal Pannello di controllo {#use-case-gpg-decrypt}
+## Caso di utilizzo: Importazione di dati crittografati con una chiave generata dal Pannello di controllo Campaign {#use-case-gpg-decrypt}
 
-In questo caso, verrà creato un flusso di lavoro per importare i dati crittografati in un sistema esterno, utilizzando una chiave generata nel Pannello di controllo.
+In questo caso, verrà creato un flusso di lavoro per importare i dati crittografati in un sistema esterno, utilizzando una chiave generata nel Pannello di controllo Campaign.
 
 In [questa sezione](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)è disponibile anche un video di esercitazione che mostra come usare una chiave GPG per decifrare i dati.
 
 Le operazioni da eseguire per questo caso di utilizzo sono le seguenti:
 
-1. Usate il Pannello di controllo per generare una coppia di chiavi (pubblica/privata). I passaggi dettagliati sono disponibili nella documentazione [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)controllo.
+1. Utilizzate il Pannello di controllo Campaign per generare una coppia di chiavi (pubblica/privata). I passaggi dettagliati sono disponibili nella documentazione [dell&#39;](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)Pannello di controllo Campaign.
 
    * La chiave pubblica verrà condivisa con il sistema esterno, che la utilizzerà per crittografare i dati da inviare a Campaign.
    * La chiave privata verrà utilizzata da Campaign per decifrare i dati crittografati in arrivo.
 
    ![](assets/gpg_generate.png)
 
-1. Nel sistema esterno, utilizzare la chiave pubblica scaricata dal Pannello di controllo per cifrare i dati da importare in Campaign Standard.
+1. Nel sistema esterno, utilizzare la chiave pubblica scaricata dal Pannello di controllo Campaign per cifrare i dati da importare in Campaign Standard.
 
-   ![](assets/gpg_external.png)
+   ![](assets/do-not-localize/gpg_external.png)
 
-1. In Campaign Standard, creare un flusso di lavoro per importare i dati crittografati e decifrarlo utilizzando la chiave privata installata tramite il Pannello di controllo. A tal fine, verrà creato un flusso di lavoro come segue:
+1. In Campaign Standard, creare un flusso di lavoro per importare i dati crittografati e decifrarlo utilizzando la chiave privata installata tramite il Pannello di controllo Campaign. A tal fine, verrà creato un flusso di lavoro come segue:
 
    ![](assets/gpg_workflow.png)
 
    * **[!UICONTROL Transfer file]** activity: Trasferisce il file da un&#39;origine esterna a Campaign. In questo esempio, vogliamo trasferire il file da un server SFTP.
-   * **[!UICONTROL Load file]** activity: Carica i dati dal file nel database e decrittografalo utilizzando la chiave privata generata nel Pannello di controllo.
+   * **[!UICONTROL Load file]** activity: Carica i dati dal file nel database e decrittografalo utilizzando la chiave privata generata nel Pannello di controllo Campaign.
 
 1. Aprite l&#39; **[!UICONTROL Transfer file]** attività e configuratela in base alle vostre esigenze. Concetti globali su come configurare l&#39;attività sono disponibili in [questa sezione](../../automating/using/load-file.md).
 
@@ -84,7 +84,7 @@ Le operazioni da eseguire per questo caso di utilizzo sono le seguenti:
 
    >[!NOTE]
    >
-   >Non è necessario specificare la chiave privata da utilizzare per decrittografare i dati. La chiave privata è memorizzata nel Pannello di controllo, che rileverà automaticamente la chiave da utilizzare per decrittografare il file.
+   >Non è necessario specificare la chiave privata da utilizzare per decrittografare i dati. La chiave privata è memorizzata nel Pannello di controllo Campaign, che rileverà automaticamente la chiave da utilizzare per decrittografare il file.
 
    ![](assets/gpg_load.png)
 
@@ -92,19 +92,19 @@ Le operazioni da eseguire per questo caso di utilizzo sono le seguenti:
 
 1. Ora puoi eseguire il flusso di lavoro.
 
-## Caso di utilizzo: Cifratura ed esportazione dei dati tramite una chiave installata nel Pannello di controllo {#use-case-gpg-encrypt}
+## Caso di utilizzo: Cifratura ed esportazione di dati tramite una chiave installata sul Pannello di controllo Campaign {#use-case-gpg-encrypt}
 
-In questo caso, verrà creato un flusso di lavoro per la cifratura e l&#39;esportazione dei dati tramite una chiave installata nel Pannello di controllo.
+In questo caso, verrà creato un flusso di lavoro per la cifratura e l&#39;esportazione dei dati tramite una chiave installata sul Pannello di controllo Campaign.
 
 In [questa sezione](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)è disponibile anche un video di esercitazione che mostra come utilizzare una chiave GPG per cifrare i dati.
 
 Le operazioni da eseguire per questo caso di utilizzo sono le seguenti:
 
-1. Generare una coppia di chiavi GPG (pubblica/privata) utilizzando un&#39;utility GPG, quindi installare la chiave pubblica nel Pannello di controllo. I passaggi dettagliati sono disponibili nella documentazione [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)controllo.
+1. Generate una coppia di chiavi GPG (pubblica/privata) utilizzando un&#39;utility GPG, quindi installate la chiave pubblica sul Pannello di controllo Campaign. I passaggi dettagliati sono disponibili nella documentazione [dell&#39;](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)Pannello di controllo Campaign.
 
    ![](assets/gpg_install.png)
 
-1. In Campaign Standard, creare un flusso di lavoro per esportare i dati ed esportarli utilizzando la chiave privata installata tramite il Pannello di controllo. A tal fine, verrà creato un flusso di lavoro come segue:
+1. In Campaign Standard, genera un flusso di lavoro per esportare i dati ed esportarli utilizzando la chiave privata installata tramite il Pannello di controllo Campaign. A tal fine, verrà creato un flusso di lavoro come segue:
 
    ![](assets/gpg-workflow-export.png)
 
@@ -130,4 +130,4 @@ Le operazioni da eseguire per questo caso di utilizzo sono le seguenti:
 
 1. Ora puoi eseguire il flusso di lavoro. Una volta eseguita, la destinazione dei dati dalla query verrà esportata nel server SFTP in un file .gpg crittografato.
 
-   ![](assets/gpg-sftp-encrypt.png)
+   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
