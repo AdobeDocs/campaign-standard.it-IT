@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 80%
@@ -98,9 +98,9 @@ Puoi aggiungere nuove entità dell&#39;organizzazione in Campaign, oppure creare
 
 1. **Crea un ticket** : una volta delegato il sottodominio,  Adobe dovrà configurarlo nell&#39;ambiente di produzione. Per richiedere questo, [crea un ticket per Client Care](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
 
-   * Oggetto: [ACS] Nuova configurazione del marchio
+   * Oggetto: ACS Nuova configurazione del marchio
 
-   * Contenuto: Un nuovo dominio è stato delegato  Adobe e vorremmo che fosse impostato nella nostra piattaforma ACS
+   * Contenuto: Un nuovo dominio è stato delegato a  Adobe e vorremmo che fosse configurato nella piattaforma Campaign
 
    * Dominio: XXX
 
