@@ -12,7 +12,10 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23d6c78f924635a8ce512fd91b4a46db395e8bd1
+source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Potete aggiungere la spaziatura utilizzando la breadcrumb HTML.
 
 1. In basso a sinistra nella schermata, fate clic sulla breadcrumb HTML.
 
-   ![](assets/breadcrumb.png)
+   ![](assets/do-not-localize/breadcrumb.png)
 
 1. Fate clic sull’elemento da aggiungere alla spaziatura.
 1. Fate clic sul tag principale nella breadcrumb HTML.
@@ -48,7 +51,7 @@ Per ulteriori informazioni, vedere Modalità [compatibilità](../../designing/us
 ## Come si crea il primo contenuto e-mail?
 
 Innanzitutto, create un’e-mail dalla pagina principale.
-Quindi, per aggiungere contenuto a un messaggio e-mail, è necessario aggiungere un componente struttura e inserire in esso un componente contenuto.
+Quindi, per aggiungere contenuto a un messaggio e-mail, dovete aggiungere un componente struttura e inserire un componente contenuto al suo interno.
 
 Per ulteriori informazioni, vedere [Creazione di un&#39;e-mail da zero](../../designing/using/quick-start.md#from-scratch-email)
 
