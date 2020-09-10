@@ -12,7 +12,10 @@ discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -20,6 +23,10 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 # Esportazione dei registri{#exporting-logs}
 
 I dati di registro, relativi alle consegne o alle iscrizioni, possono essere esportati tramite un semplice flusso di lavoro. Consente di analizzare i risultati delle campagne con il proprio strumento di reporting o BI.
+
+>[!CAUTION]
+>
+>Solo [gli amministratori](../../administration/using/users-management.md#functional-administrators)funzionali, con **[!UICONTROL Administration]** ruolo e accesso a **Tutte** le unità, possono accedere ai registri di invio, ai log dei messaggi, ai registri di monitoraggio, ai registri di esclusione o ai registri di iscrizione. Un utente non amministratore può eseguire il targeting di questi registri ma iniziare da una tabella collegata (profili, consegna).
 
 Utilizzando un file **[!UICONTROL Incremental query]** che recupera nuovi registri solo ogni volta che il flusso di lavoro viene eseguito e una semplice **[!UICONTROL Extract file]** attività per definire le colonne di output, potete ottenere un file con il formato e tutti i dati necessari. Quindi utilizzate un&#39; **[!UICONTROL Transfer file]** attività per recuperare il file finale. Ogni esecuzione del flusso di lavoro è pianificata da un **[!UICONTROL Scheduler]**.
 
@@ -36,7 +43,7 @@ L’operazione dei registri di esportazione può essere eseguita dagli utenti st
 
       ![](assets/export_logs_query_properties.png)
 
-   * Nella **[!UICONTROL Target]** scheda, imposta una condizione per recuperare tutti i registri di consegna corrispondenti alle consegne inviate nel 2016 o dopo. Per ulteriori informazioni, consultare la sezione [Modifica delle query](../../automating/using/editing-queries.md#creating-queries) .
+   * Nella **[!UICONTROL Target]** scheda, imposta una condizione per recuperare tutti i registri di consegna corrispondenti alle consegne inviate nel 2016 o successivamente. For more information, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
 
       ![](assets/export_logs_query_target.png)
 
@@ -44,7 +51,7 @@ L’operazione dei registri di esportazione può essere eseguita dagli utenti st
 
       ![](assets/export_logs_query_processeddata.png)
 
-      Dopo la prima esecuzione del flusso di lavoro, in questa scheda puoi vedere l&#39;ultima data di esecuzione che verrà utilizzata per l&#39;esecuzione successiva. Viene aggiornato automaticamente ogni volta che viene eseguito il flusso di lavoro. Potete comunque ignorare questo valore immettendo manualmente un nuovo valore in modo che sia adatto alle vostre esigenze.
+      Dopo la prima esecuzione del flusso di lavoro, in questa scheda puoi vedere l’ultima data di esecuzione che verrà utilizzata per l’esecuzione successiva. Viene aggiornata automaticamente ogni volta che il flusso di lavoro viene eseguito. Puoi comunque ignorare questo valore immettendone manualmente uno nuovo in modo tale che sia adatto alle tue esigenze.
 
 1. Aggiungete un&#39; **[!UICONTROL Extract file]** attività che esporterà i dati interrogati in un file:
 
@@ -62,11 +69,11 @@ L’operazione dei registri di esportazione può essere eseguita dagli utenti st
 
    * Nella **[!UICONTROL File structure]** scheda, definire il formato del file di output in base alle esigenze.
 
-      Selezionare l&#39; **[!UICONTROL Export labels instead of internal values of enumerations]** opzione nel caso in cui si esportino i valori di enumerazione. Questa opzione consente di recuperare etichette più brevi che possono essere facilmente comprensibili al posto degli ID.
+      Seleziona l’opzione **[!UICONTROL Export labels instead of internal values of enumerations]** nel caso dell’esportazione di valori di enumerazione. Questa opzione ti consente di recuperare etichette più brevi che sono più facili da comprendere rispetto agli ID.
 
-1. Aggiungi un&#39; **[!UICONTROL Transfer file]** attività e configurala per trasferire il file appena creato dal server Adobe Campaign a un&#39;altra posizione in cui puoi accedervi, ad esempio un server SFTP.
+1. Aggiungete un&#39; **[!UICONTROL Transfer file]** attività e configuratela per trasferire il file appena creato dal server Adobe Campaign  a un&#39;altra posizione in cui potete accedervi, ad esempio un server SFTP.
 
-   * Nella **[!UICONTROL General]** scheda, seleziona **[!UICONTROL File upload]** come scopo l&#39;invio del file da Adobe Campaign a un altro server.
+   * Nella **[!UICONTROL General]** scheda, selezionare **[!UICONTROL File upload]** come scopo l&#39;invio del file da  Adobe Campaign a un altro server.
    * Nella **[!UICONTROL Protocol]** scheda, specificate i parametri di trasferimento e selezionate l&#39;account [](../../administration/using/external-accounts.md#creating-an-external-account) esterno da utilizzare.
 
 1. Aggiungete un&#39; **[!UICONTROL End]** attività per assicurarvi che termini correttamente e salvate il flusso di lavoro.
