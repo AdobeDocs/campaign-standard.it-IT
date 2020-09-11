@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ I biglietti di supporto possono essere registrati con  Adobe Custom Care, come a
 
 Per qualsiasi problema relativo ai flussi di dati di integrazione, accertatevi di includere la suite di rapporti come parte della descrizione del problema, così come le seguenti informazioni:
 
-* Proprietario processo: Architetti di ingegneria
+* **Proprietario** processo: Architetti di ingegneria
 
-* ID processo ES: [Fornito durante il processo di onboarding]
+* **ID** processo ES: Fornito durante il processo di onboarding
 
-* Titolo processo: Integrazione Adobe Campaign Standard Dynamics 365 / 
+* **Titolo** processo: Integrazione Adobe Campaign Standard Dynamics 365 / 
 
-* Descrizione problema: [Descrizione del problema]
+* **Descrizione** problema: Descrizione del problema
 
 La copertura del supporto per l&#39;integrazione è attualmente di 24 ore su 24, 5 giorni su 5 (dal lunedì al venerdì, esclusi  giorni festivi e di pausa per il Adobe).
