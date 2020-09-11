@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -28,14 +28,14 @@ Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percor
 
 **Modelli di apprendimento automatico**
 
- Adobe Campaign Standard offre due nuovi modelli di apprendimento automatico: **Ottimizzazioni** predittive dei tempi di invio e punteggio **di coinvolgimento** predittivo. Questi due modelli sono denominati insieme Journey AI, una classe di modelli di machine learning che sono specifici per progettare e fornire percorsi migliori per i clienti.
+ Adobe Campaign Standard offre due nuovi modelli di machine Learning: **Ottimizzazioni** predittive dei tempi di invio e punteggio **di coinvolgimento** predittivo. Questi due modelli sono denominati insieme Journey AI, una classe di modelli di machine learning che sono specifici per progettare e fornire percorsi migliori per i clienti.
 
 * **Ottimizzazione** tempo di invio predittiva: Predictive ottimizzazione dell&#39;ora di invio prevede che si tratti del tempo di invio migliore per ciascun profilo del destinatario per le aperture e-mail o i clic. Per ciascun profilo del destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e il giorno feriale migliore da inviare per ottenere risultati ottimali.
 
 * **Predictive Engagement Scoring**: Il punteggio relativo al coinvolgimento predittivo prevede la probabilità che un destinatario si impegni con un messaggio e la probabilità di non partecipare (annullamento dell&#39;iscrizione) entro i successivi 7 giorni dall&#39;invio successivo dell&#39;e-mail. Le probabilità sono ulteriormente suddivise in bucce a seconda del rischio specifico di disimpegno, medio o basso. Tra questi il modello fornisce anche il grado percentile di rischio per i clienti per capire dove il grado di un determinato cliente rispetto ad altri.
 
 >[!CAUTION]
->Questa funzionalità non è disponibile all&#39;esterno come parte del prodotto. L&#39;implementazione richiede il coinvolgimento di Adobe Consulting. Per maggiori informazioni, contattate il vostro rappresentante Adobe.
+>Questa funzionalità non è disponibile all&#39;esterno come parte del prodotto. L&#39;attuazione richiede l&#39;intervento  Consulenza del Adobe. Per maggiori informazioni, contattate il vostro rappresentante  Adobe.
 >
 >Separatamente, la funzionalità richiedeva l&#39;utilizzo di un archivio di Azure che deve essere fornito dal cliente.
 
@@ -56,8 +56,8 @@ Nel modello Predictive Send Time Optimization sono presenti due modelli secondar
 
 Dettagli di output
 
-* Calcola l’ora migliore per inviare un messaggio e-mail per i successivi 7 giorni con intervalli di 1 ora (ad es.: 9:00, 10:00, 11:00)
-* Il modello indicherà l&#39;ora migliore entro i prossimi 7 giorni per inviare l&#39;e-mail
+* Calcola il momento migliore per l’invio di un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad es.: 9:00, 10:00, 11:00)
+* Il modello indica il giorno migliore della settimana e l&#39;ora migliore di quel giorno
 * Ogni tempo ottimale viene calcolato due volte: una volta per massimizzare il tasso di apertura e una volta per massimizzare il tasso di clic
 * Sono forniti 16 campi (14 per i giorni della settimana e 2 per l&#39;intera settimana):
    * è il momento migliore per inviare un&#39;e-mail per ottimizzare i clic per lunedì - valori compresi tra 0 e 23
