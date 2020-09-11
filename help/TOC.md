@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 86%
+source-wordcount: '1628'
+ht-degree: 85%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 86%
       + [Verifica degli attivatori](integrating/using/testing-your-triggers.md)
       + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Guida introduttiva all’integrazione con Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Guida introduttiva all’integrazione con Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Gestisci i dati tra Campaign e Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Richiesta dell&#39;integrazione](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Configurare  I/O Adobe](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Configurazione di Dynamics 365 per l’integrazione con Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Mappa risorse personalizzate per Campaign ed entità personalizzate Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Utilizzare l’integrazione con Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Guardrail di integrazione](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Gestione di processi e dati {#managing-processes-and-data}
    + [Guida introduttiva alla gestione dei dati e dei processi](automating/using/get-started-workflows.md)
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
