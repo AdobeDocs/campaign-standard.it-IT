@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -105,7 +105,8 @@ Segue un elenco degli attributi e una descrizione:
 >Il periodo di scadenza della pagina mirror dell&#39;e-mail può essere modificato nella schermata di configurazione dell&#39;attività del canale e-mail della campagna corrispondente (vedete Parametri [del periodo di](../../administration/using/configuring-email-channel.md#validity-period-parameters)validità).
 
 >[!NOTE]
-Per l&#39;opzione di rifiuto, quando un attributo di rinuncia viene modificato in Dynamics 365, questo si rifletterà in Campaign se hai selezionato la configurazione Dynamics 365-to-Campaign o l&#39;opzione di rifiuto bidirezionale e se hai mappato correttamente quel particolare attributo.
+>
+>Per l&#39;opzione di rifiuto, quando un attributo di rinuncia viene modificato in Dynamics 365, questo si rifletterà in Campaign se hai selezionato la configurazione Dynamics 365-to-Campaign o l&#39;opzione di rifiuto bidirezionale e se hai mappato correttamente quel particolare attributo.
 
 ## Flussi di dati {#data-flows}
 
@@ -124,7 +125,8 @@ A seconda del volume di record, potrebbe essere necessario utilizzare l&#39;arch
 L&#39;attributo externalId della tabella del profilo della campagna deve essere popolato con l&#39;attributo contatto contactId di Dynamics 365 per consentire il funzionamento dell&#39;ingresso del contatto. Le entità personalizzate della campagna devono essere popolate anche con un attributo ID univoco di Dynamics 365; tuttavia, questo attributo può essere memorizzato in qualsiasi attributo di entità personalizzata di Campaign (vale a dire, non deve essere externalId).
 
 >[!NOTE]
-Per l&#39;ingresso di entità personalizzata, il tracciamento delle modifiche deve essere abilitato in Dynamics 365 per le entità personalizzate sincronizzate.
+>
+>Per l&#39;ingresso di entità personalizzata, il tracciamento delle modifiche deve essere abilitato in Dynamics 365 per le entità personalizzate sincronizzate.
 
 ### Flusso evento marketing e-mail
 
