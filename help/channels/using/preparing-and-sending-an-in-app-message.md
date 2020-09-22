@@ -13,10 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -127,7 +127,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
    ![](assets/inapp_creating_5.png)
 
-1. Modifica il contenuto del messaggio e definisci le opzioni avanzate. Consulta [Personalizzazione di un messaggio in-app](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/customizing-a-push-notification.translate.html).
+1. Modifica il contenuto del messaggio e definisci le opzioni avanzate. Consulta [Personalizzazione di un messaggio in-app](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
 
    ![](assets/inapp_creating_6.png)
 
