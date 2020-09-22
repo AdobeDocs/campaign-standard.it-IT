@@ -12,10 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 85%
 
 ---
 
@@ -78,6 +78,13 @@ Questo report presenta i rendering delle e-mail così come sono visualizzati al 
 >[!NOTE]
 >
 >Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con il **Rendering di e-mail** abilitato diminuisce di un’unità i rendering disponibili, denominati token.
+>
+>Account Token per ogni singolo rendering e non per l&#39;intero rapporto di rendering E-mail, il che significa che:
+>
+>**Ogni volta** che viene generato il rapporto di rendering Inbox, viene dedotto un token per client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
+>
+>**Per la stessa consegna**, se generate di nuovo il rendering E-mail, il numero di token disponibili viene nuovamente diminuito dal numero di rendering generati.
+
 
 Il riepilogo del report mostra il numero di messaggi ricevuti, indesiderati (spam), non ricevuti o in attesa di ricezione.
 
