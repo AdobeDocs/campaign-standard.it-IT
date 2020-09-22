@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,6 @@ L’attività **[!UICONTROL Segmentation]** ti consente di creare uno o più seg
 
 **Argomenti correlati:**
 * [Caso di utilizzo: Segmentazione sulla posizione](../../automating/using/workflow-segmentation-location.md)
-* [Caso di utilizzo: Creazione di un gruppo di controllo](../../automating/using/workflow-control-group.md)
 * [Caso di utilizzo: Segmentazione in base ai gruppi di età](../../automating/using/segmentation-age-groups.md)
 
 ## Contesto di utilizzo {#context-of-use}
