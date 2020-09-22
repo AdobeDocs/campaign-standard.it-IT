@@ -12,10 +12,10 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +64,7 @@ In caso contrario, verificate che il trigger sia ricevuto dalla pipeline.
 
 In caso contrario, contattare  Adobe per verificare la configurazione dei punti finali della tubazione.
 
-In caso affermativo, seguire le seguenti linee guida:
+In caso affermativo, attenersi alle seguenti linee guida:
 
 * Verifica il tipo di ID riconciliazione nell&#39;origine dati Campagna.
 * L&#39;origine dati CustomerId viene creata tramite gli attributi cliente.
@@ -74,10 +74,10 @@ In caso affermativo, seguire le seguenti linee guida:
 
 **Il trigger è nello stato in sospeso?**
 
-In caso contrario, passate al passaggio successivo. In caso affermativo, seguire le seguenti linee guida:
+In caso contrario, passate al passaggio successivo. In caso affermativo, attenersi alle seguenti linee guida:
 
 * Verificate che il modello transazionale sia pubblicato.
-* Verificare che il profilo non sia inserita nell&#39;elenco Bloccati.
+* Verificare che il profilo non sia elenco Bloccati.
 * Controllare l&#39;applicazione delle regole di tipologia.
 * Controlla i registri dei messaggi transazionali.
 
