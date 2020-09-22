@@ -13,9 +13,9 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 7%
 
 ---
@@ -49,7 +49,7 @@ I passaggi per creare una notifica push con  Adobe Campaign sono:
 
 1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   Il menu a discesa visualizzerà le applicazioni SDK per SDK V4 e  Experience Platform.
+   L&#39;elenco a discesa mostrerà le applicazioni SDK V4 e  Experience Platform.
 
    ![](assets/push_notif_properties.png)
 
@@ -102,7 +102,7 @@ Le notifiche push possono essere inviate a un&#39;audience selezionata in  Adobe
 
 1. Nella **[!UICONTROL Exclusion logs]** scheda è possibile trovare l&#39;elenco di tutti i messaggi esclusi dalla destinazione inviata e il motivo di tale esclusione.
 
-   Qui, possiamo vedere che uno dei nostri abbonati alle app mobili è stato escluso perché l&#39;indirizzo è stato inserita nell&#39;elenco Bloccati e gli altri abbonati perché il profilo era un duplicato.
+   Qui, possiamo vedere che uno dei nostri abbonati alle app mobili è stato escluso perché l&#39;indirizzo era sul elenco Bloccati e gli altri abbonati perché il profilo era un duplicato.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ Le notifiche push possono essere inviate a un&#39;audience selezionata in  Adobe
 
    ![](assets/push_send_4.png)
 
-1. Dalla **[!UICONTROL Deployment]** finestra, fate clic sulla **[!UICONTROL Sending logs]** scheda per accedere all&#39;elenco delle notifiche push inviate e ai relativi stati. Per questa consegna, una notifica push è stata inviata correttamente mentre l&#39;altra non è riuscita a causa di un token dispositivo non valido. Questo utente verrà aggiunto al negyist da ulteriori consegne.
+1. Dalla **[!UICONTROL Deployment]** finestra, fate clic sulla **[!UICONTROL Sending logs]** scheda per accedere all&#39;elenco delle notifiche push inviate e ai relativi stati. Per questa consegna, una notifica push è stata inviata correttamente mentre l&#39;altra non è riuscita a causa di un token dispositivo non valido. Questo utente verrà aggiunto al elenco Bloccati da ulteriori consegne.
 
    >[!NOTE]
    >
