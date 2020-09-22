@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 8%
+source-wordcount: '613'
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Gestisci le autorizzazioni e il consenso dei clienti utilizzando i servizi e le 
 
 Quando create campagne o messaggi, potete specificare la destinazione delle consegne selezionando i contatti nel database Campaign, utilizzando criteri semplici o avanzati o selezionando audience.
 
-Identifica i clienti in modo più efficace su tutti i tuoi canali utilizzando profili **cliente** integrati e segmenti **** personalizzati. Se conosci i tuoi clienti, interessi, dati demografici e preferenze per i canali, è più facile creare esperienze personalizzate che vengono notate.
+Identifica i clienti in modo più efficace su tutti i tuoi canali utilizzando profili **cliente** integrati, segmenti **** personalizzati e gruppi **di** controllo. Se conosci i tuoi clienti, interessi, dati demografici e preferenze per i canali, è più facile creare esperienze personalizzate che vengono notate.
 
  Adobe Campaign crea profili cliente avanzati in tempo reale, consentendo di distribuire offerte più pertinenti e personalizzate man mano che cambiano le preferenze dei clienti. Inoltre,  Adobe Campaign integra funzionalità avanzate di analisi, gestione dei dati e targeting per creare audience.
 
@@ -57,6 +57,7 @@ Leggi tutto:
 * [Arricchimento del database di Campaign](../../audiences/using/enriching-campaign-database.md)
 * [Informazioni sui tipi di pubblico](../../audiences/using/about-audiences.md)
 * [Selezione di un pubblico in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Aggiunta di un gruppo di controlli](../../sending/using/control-group.md)
 
 ## Autorizzazione e consenso {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 Scopri di più in questo [articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla Gestione della privacy e sulle funzioni che forniamo per gestire il Diritto di accesso, il Diritto di essere Dimenticato, il consenso, la conservazione dei dati e i ruoli utente.
 
-Privacy e consenso in Campaign e come gestirli vengono presentati in [questa sezione](../../start/using/privacy.md).
-
-Troverai anche le best practice, per aiutarti a rispettare la Privacy quando utilizzi il nostro servizio.
+Privacy e consenso in Campaign e come gestirli vengono presentati in [questa sezione](../../start/using/privacy.md). Troverai anche le best practice, per aiutarti a rispettare la Privacy quando utilizzi il nostro servizio.
 
 ## Risorse aggiuntive
 
