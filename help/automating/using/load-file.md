@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -37,14 +37,14 @@ L’attività **[!UICONTROL Load file]** ti consente di importare i dati all’i
 
 La modalità di estrazione dei dati viene definita durante la configurazione dell’attività. Il file da caricare può rappresentare un elenco di contatti, ad esempio.
 
->[!CAUTION]
->
->Vengono presi in considerazione solo i file con struttura &quot;flat&quot;, ad esempio .txt, .csv e così via.
-
 Puoi:
 
 * Utilizzare la struttura del file per applicarla ai dati di un altro file (recuperati utilizzando l’attività **[!UICONTROL Transfer file]**) oppure
 * Usare la struttura e i dati del file per poi importarlo all’interno di Adobe Campaign.
+
+>[!IMPORTANT]
+>
+>Vengono presi in considerazione solo i file con struttura &quot;flat&quot;, ad esempio .txt, .csv e così via.
 
 **Argomenti correlati:**
 
