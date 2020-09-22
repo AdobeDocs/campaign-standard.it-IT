@@ -11,18 +11,18 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 93%
 
 ---
 
 
 # Passaggi fondamentali per l’invio di un messaggio{#key-steps-to-send-a-message}
 
-Per scoprire le best practice per la consegna, consulta la guida introduttiva [Best practice per la consegna](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html).
+To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
 
 I passaggi per creare e inviare messaggi sono i seguenti:
 
