@@ -2,19 +2,19 @@
 title: Chiamata di una risorsa tramite una chiave di identificazione composita
 description: Scopri come chiamare una risorsa utilizzando una chiave di identificazione composita
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 3%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
 
 # Chiamata di una risorsa tramite una chiave di identificazione composita{#calling-a-resource-using-a-composite-identification-key}
 
-In alcuni casi, potrebbe essere necessario definire per una risorsa una chiave di identificazione composta da due campi. Una volta configurata la chiave di identificazione, devi configurare una definizione di filtro per poter chiamare la risorsa con questa chiave di identificazione, sia dall&#39;interfaccia Campaign Standard che dalle API.
+In alcuni casi, potrebbe essere necessario definire per una risorsa una chiave di identificazione composta da due campi. Una volta configurata la chiave di identificazione, è necessario configurare una definizione di filtro per poter chiamare la risorsa con questa chiave di identificazione, sia dall&#39;interfaccia Campaign Standard o dalle API.
 
-In questo caso d&#39;uso, la risorsa **Profilo** è stata estesa con il campo personalizzato **&quot;ID CRM&quot;** e **&quot;categoria&quot;** . Creeremo una chiave di identificazione per la risorsa Profilo, che sarà composta da questi due campi. Quindi configureremo una definizione di filtro, in modo da poter accedere alla risorsa Profilo utilizzando la chiave di identificazione.
+In questo caso d&#39;uso, la risorsa **Profilo** è stata estesa con campi personalizzati **&quot;CRM ID&quot;** e **&quot;category&quot;** . Creeremo una chiave di identificazione per la risorsa Profilo, che sarà composta da questi due campi. Quindi configureremo una definizione di filtro, in modo da poter accedere alla risorsa Profilo utilizzando la chiave di identificazione.
 
 I passaggi principali per questo caso di utilizzo sono:
 
@@ -25,21 +25,21 @@ I passaggi principali per questo caso di utilizzo sono:
 Argomenti correlati:
 
 * [Creazione o estensione della risorsa](../../developing/using/creating-or-extending-the-resource.md)
-* [Definizione dei tasti di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API REST di Campaign Standard](../../api/using/get-started-apis.md)
+* [Definizione delle chiavi di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [API REST Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Passaggio 1: Configurare la chiave di identificazione{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > I concetti globali per la configurazione delle chiavi di identificazione sono descritti in [questa sezione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. Prima di configurare la chiave di identificazione, accertatevi che la risorsa sia stata estesa con i campi desiderati e che sia stata pubblicata. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
+1. Prima di configurare la chiave di identificazione, accertatevi che la risorsa sia stata estesa con i campi desiderati e che sia stata pubblicata. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Andate al **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, quindi aprite la **[!UICONTROL Profile]** risorsa.
 
    ![](assets/uc_idkey1.png)
 
-1. Nella **[!UICONTROL Identification keys]** sezione fare clic sul **[!UICONTROL Create element]** pulsante.
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -48,7 +48,7 @@ Argomenti correlati:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Se si desidera visualizzare i due campi personalizzati nell&#39;interfaccia del profilo, configurare la **[!UICONTROL Screen definition]** scheda. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > Se si desidera visualizzare i due campi personalizzati nell&#39;interfaccia del profilo, configurare la **[!UICONTROL Screen definition]** scheda. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../developing/using/configuring-the-screen-definition.md).
 
 1. È ora possibile configurare la definizione del filtro in modo da poter chiamare la risorsa utilizzando la relativa chiave di identificazione.
 
@@ -76,7 +76,7 @@ Argomenti correlati:
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Dopo aver fatto clic sul pulsante più, il nome del parametro viene generato automaticamente. Tenete presente queste informazioni, in quanto saranno necessarie per utilizzare il filtro dalle API.
+   > Dopo aver fatto clic sul pulsante **+** , il nome del parametro viene generato automaticamente. Tenete presente queste informazioni, in quanto saranno necessarie per utilizzare il filtro dalle API.
 
 1. Ripetete i passaggi descritti qui sopra con tutti i campi che compongono la chiave di identificazione (&quot;categoria&quot;), quindi salvate le modifiche.
 
@@ -92,7 +92,7 @@ Per utilizzare la definizione del filtro dall&#39;interfaccia, utilizzate un&#39
 
 ![](assets/uc_idkey9.png)
 
-Per utilizzare la definizione del filtro dalle API REST Campaign Standard, utilizza la sintassi seguente:
+Per utilizzare la definizione del filtro dalle API REST Campaign Standard, utilizzate la sintassi seguente:
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
@@ -107,4 +107,4 @@ Nel nostro caso, la sintassi per recuperare un profilo dalla categoria &quot;mol
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Per ulteriori informazioni, consulta la documentazione [sulle API REST di](../../api/using/filtering.md)Campaign Standard.
+Per ulteriori informazioni, consultate la documentazione [sulle API REST](../../api/using/filtering.md)Campaign Standard.
