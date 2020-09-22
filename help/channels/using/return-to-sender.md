@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Un modello di importazione è disponibile in **[!UICONTROL Adobe Campaign > Reso
 
 Al termine dell’importazione,  Adobe Campaign esegue automaticamente le azioni seguenti:
 
-* Gli indirizzi errati vengono inserita nell&#39;elenco Bloccati a livello di profilo
+* Gli indirizzi errati vengono aggiunti al elenco Bloccati a livello di profilo
 * Gli indicatori principali di consegna (KPI) vengono aggiornati
 * I registri di consegna vengono aggiornati
 
