@@ -1,6 +1,6 @@
 ---
 title: Creazione di un messaggio e-mail
-description: Per creare un'e-mail con invio singolo in Adobe Campaign, procedi come indicato di seguito.
+description: Per creare un messaggio e-mail per invio singolo in  Adobe Campaign, effettuate le seguenti operazioni.
 page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat
@@ -12,28 +12,31 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 19%
 
 ---
 
 
 # Creazione di un messaggio e-mail{#creating-an-email}
 
-Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity), dalla [home page](../../start/using/interface-description.md#home-page)di Adobe Campaign o dall&#39;elenco [delle attività di](../../start/using/marketing-activities.md#about-marketing-activities)marketing. Potete anche creare e-mail singole e ricorrenti da un flusso di lavoro.
+Potete creare un&#39;e-mail da una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity), dalla  pagina [](../../start/using/interface-description.md#home-page)principale di Adobe Campaign o nell&#39;elenco [delle attività di](../../start/using/marketing-activities.md#about-marketing-activities)marketing. Potete anche creare e-mail singole e ricorrenti da un flusso di lavoro.
 
 1. Dopo aver iniziato a creare un&#39;attività di e-mail marketing, seleziona il modello da utilizzare.
 
-   Per impostazione predefinita, potete scegliere tra diversi modelli per ogni attività di marketing. Questo consente di preconfigurare alcuni parametri in base alle esigenze e di assegnare un marchio alla consegna. Per ulteriori informazioni, consultate [Gestione dei modelli](../../start/using/marketing-activity-templates.md).
+   Per impostazione predefinita, potete scegliere tra diversi modelli per ogni attività di marketing. Questo consente di preconfigurare alcuni parametri in base alle esigenze e di assegnare un marchio alla consegna. For more on this, see [Managing templates](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Per visualizzarle, selezionare le caselle a sinistra (pannello **[!UICONTROL Filter]** laterale).
+   >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Per visualizzarle, selezionate le caselle a sinistra (pannello **[!UICONTROL Filter]** laterale).
 
-1. Immettete le proprietà generali del messaggio e-mail. Potete immettere un nome nel campo **Etichetta** e modificare l’ID. Sia il nome dell&#39;attività che il relativo ID vengono visualizzati nell&#39;interfaccia, ma non sono visibili ai destinatari del messaggio.
+1. Immettete le proprietà generali del messaggio e-mail. You can enter a name in the **Label** field and edit the ID. Sia il nome dell&#39;attività che il relativo ID vengono visualizzati nell&#39;interfaccia, ma non sono visibili ai destinatari del messaggio.
 
-   Potete aggiungere una descrizione che l&#39;utente può visualizzare nel contenuto della campagna.
+   Puoi aggiungere una descrizione che l’utente può visualizzare nel contenuto della campagna.
 
    ![](assets/email_creation_2.png)
 
@@ -41,9 +44,9 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
    >
    >Puoi creare l&#39;e-mail all&#39;interno di una campagna padre dalla pagina principale o dall&#39;elenco delle attività di marketing. Selezionatela dalle campagne già create.
 
-1. Definisci la destinazione del messaggio in base ai criteri aziendali. Consultate [Gestione dei profili](../../audiences/using/about-profiles.md).
+1. Definisci la destinazione del messaggio in base ai criteri aziendali. See [About profiles](../../audiences/using/about-profiles.md).
 
-   Puoi anche definire i profili di test che convalideranno il messaggio. Consultate [Gestione dei profili](../../audiences/using/managing-test-profiles.md)di prova.
+   Puoi anche definire i profili di test che convalideranno il messaggio. Consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_creation_3.png)
 
@@ -51,10 +54,10 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
    ![](assets/email_creation_4.png)
 
-   Potete progettare il messaggio direttamente utilizzando un modello di contenuto predefinito oppure Dreamweaver o Adobe Experience Manager. Se non siete designer, potete anche caricare un contenuto preparato per voi, oppure importare un contenuto esistente da un URL. Consultate [Selezione di un contenuto](../../designing/using/using-existing-content.md)esistente.
+   Potete progettare il messaggio direttamente utilizzando un modello di contenuto predefinito oppure utilizzando Dreamweaver o Adobe Experience Manager. Se non siete designer, potete anche caricare un contenuto preparato per voi, oppure importare un contenuto esistente da un URL. Consultate [Selezione di un contenuto](../../designing/using/using-existing-content.md)esistente.
 
-1. Visualizza in anteprima il messaggio. Consultate [Anteprima dei messaggi](../../sending/using/previewing-messages.md).
-1. Confermate la creazione del messaggio e-mail.
+1. Visualizza in anteprima il messaggio. Consulta [Anteprima dei messaggi](../../sending/using/previewing-messages.md).
+1. Conferma la creazione dell’e-mail.
 
    >[!NOTE]
    >
@@ -66,7 +69,7 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
    ![](assets/delivery_dashboard_2.png)
 
-1. Pianificare l’invio. Vedere [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md).
+1. Pianifica l’invio. Consulta [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/delivery_planning.png)
 
@@ -76,9 +79,9 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
    >[!NOTE]
    >
-   >Potete impostare regole di affaticamento tra canali globali che escluderanno automaticamente i profili sollecitati dalle campagne. Per ulteriori informazioni, consultate [Regole](../../sending/using/fatigue-rules.md)di Fatigue.
+   >Puoi impostare regole di affaticamento globali cross-channel che escludono automaticamente i profili sollecitati eccessivamente dalle campagne. Per ulteriori informazioni, consultate [Regole](../../sending/using/fatigue-rules.md)di Fatigue.
 
-1. Inviate prove per verificare e convalidare il messaggio e controllarne il rendering nella inbox. Vedere [Invio della prova](../../sending/using/sending-proofs.md).
+1. Invia le bozze per la verifica e la convalida del messaggio e per monitorarne il rendering nella casella in entrata. Vedere [Invio della prova](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
@@ -86,11 +89,11 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
    ![](assets/confirm_delivery.png)
 
-1. Misura l&#39;impatto del messaggio con i report di consegna. Per ulteriori informazioni sui rapporti, consulta [questa sezione](../../reporting/using/about-dynamic-reports.md).
+1. Misura l&#39;impatto del messaggio con i report di consegna. For more on reporting, see [this section](../../reporting/using/about-dynamic-reports.md).
 
-**Argomenti** correlati:
+**Argomenti correlati**:
 
-* [Creazione di un video e-mail](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
-* [Creazione di una guida dettagliata sull’e-mail](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) personalizzata
-* [Video sull&#39;integrazione](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) di Adobe Campaign e Dreamweaver
+* Video sulla [Creazione di un messaggio e-mail](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
+* [Creazione di una guida dettagliata sull’e-mail](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html) personalizzata
+* [video sull’integrazione](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html) Adobe Campaign e Dreamweaver
 * [Integrazione con Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
