@@ -12,10 +12,10 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '929'
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '958'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,10 @@ Il tipo di dati scambiato tra un’attività e un’altra può influenzare la co
 Puoi aprire le attività per verificare o modificare parametri prima o dopo l’esecuzione del flusso di lavoro.
 
 Puoi aprire le transizioni per verificare che i dati inviati siano corretti durante o dopo l’esecuzione del flusso di lavoro. Per accedere alla vista dettagliata delle transizioni, devi selezionare l’opzione **[!UICONTROL Keep interim results]** nella sezione **[!UICONTROL Execution]** delle proprietà del flusso di lavoro.
+
+>[!CAUTION]
+>
+>Questa opzione consuma molto spazio su disco ed è progettata per consentire la creazione di un flusso di lavoro, garantendone la corretta configurazione e il giusto comportamento. Lascia deselezionata questa opzione nelle istanze di produzione.
 
 ![](assets/workflow_overview.png)
 
@@ -96,7 +100,7 @@ Per creare il diagramma:
 
 1. Aggiungi un’attività trascinandola dalla palette e rilasciandola nel diagramma.
 
-   Ad esempio, aggiungi un’attività **[Inizio](../../automating/using/start-and-end.md)**e quindi un’attività**[ Email delivery](../../automating/using/email-delivery.md)** nel diagramma.
+   Ad esempio, aggiungi un’attività **[Inizio](../../automating/using/start-and-end.md)** e quindi un’attività **[Email delivery](../../automating/using/email-delivery.md)** nel diagramma.
 
 1. Collega le attività trascinando la transizione dell’attività **Inizio** e rilasciandola sull’attività **Email delivery**.
 
