@@ -11,11 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
-workflow-type: ht
-source-wordcount: '1912'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,6 +37,10 @@ Sono disponibili diversi tipi di funzioni, a seconda dei risultati desiderati e 
 * Aggregati
 * Manipolazione di stringhe
 * Ordinamento
+
+>[!NOTE]
+>
+>Ulteriori funzioni sono disponibili in tutte le attività che consentono di utilizzare variabili di eventi dopo aver chiamato un flusso di lavoro con parametri esterni. Sono descritti in [questa sezione](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Date {#dates}
 
