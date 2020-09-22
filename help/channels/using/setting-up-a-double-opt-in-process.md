@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Per creare e configurare questa pagina di destinazione, devi eseguire le seguent
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Questo contesto rimuove il campo &#39;Inserito nell&#39;elenco Bloccati&#39; per poter inviare le e-mail. Si nota in seguito che la prima pagina di destinazione impostava questo campo su **true** prima della conferma, per impedire l’invio di e-mail a profili non confermati. Per ulteriori informazioni, consulta il [Passaggio 3: creare la pagina di destinazione di acquisizione](#step-3--create-the-acquisition-landing-page).
+   Questo contesto rimuove il campo &quot;Su elenco Bloccati&quot; per poter inviare e-mail. Si nota in seguito che la prima pagina di destinazione impostava questo campo su **true** prima della conferma, per impedire l’invio di e-mail a profili non confermati. Per ulteriori informazioni, consulta il [Passaggio 3: creare la pagina di destinazione di acquisizione](#step-3--create-the-acquisition-landing-page).
 
 1. Personalizza il contenuto della pagina di destinazione: puoi visualizzare dati personalizzati e cambiare l’etichetta del pulsante di conferma in “Fai clic qui per confermare l’abbonamento”, ad esempio.
 
@@ -101,12 +101,12 @@ L’evento è pronto. Ora puoi progettare il modello e-mail. Questo modello deve
 
 ### Creare la tipologia {#create-the-typology-rule}
 
-Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifica duplicandone una preconfigurata. La tipologia consentirà di inviare messaggi ai profili che non hanno ancora confermato il loro accordo e che sono ancora inserita nell&#39;elenco Bloccati. Per impostazione predefinita, le tipologie escludono i profili di rifiuto (ossia inseriti nell&#39;elenco Bloccati). Per creare questa tipologia, segui questi passaggi:
+Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifica duplicandone una preconfigurata. La tipologia consentirà di inviare messaggi ai profili che non hanno ancora confermato il loro accordo e che sono ancora in elenco Bloccati. Per impostazione predefinita, le tipologie escludono i profili di rifiuto (ad es. per elenco Bloccati). Per creare questa tipologia, segui questi passaggi:
 
 1. Dal logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e fai clic su **[!UICONTROL Typologies]**.
 1. Duplica la tipologia preconfigurata **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Una volta confermata la duplicazione, modifica la nuova tipologia e immetti l’etichetta **TYPOLOGY_PROFILE**.
-1. Remove the **Denylisted address** rule.
+1. Rimuovere l&#39; **indirizzo elenco Bloccati regola di** .
 1. Fai clic su **[!UICONTROL Save]**.
 
 Questa tipologia può ora essere associata all’e-mail di conferma.
