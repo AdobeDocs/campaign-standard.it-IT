@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 18%
+source-wordcount: '664'
+ht-degree: 17%
 
 ---
 
@@ -134,7 +134,7 @@ In questa sezione sono elencate le funzionalità rimosse dai Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>L’SDK Adobe Creative è stato ritirato. Di conseguenza, l'edizione dell'immagine fornita da Creative SDK nelle e-mail dei Campaign Standard non è più disponibile a partire dalla versione Campaign 20.2.</p></br>
+   <td> <p>[!DNL  Adobe Creative SDK] è stato disattivato. Di conseguenza, l'edizione dell'immagine fornita da [!DNL Creative SDK] nelle e-mail in Campaign Standard non è più disponibile a partire dalla release Campaign 20.2.</p></br>
    </td> 
   </tr> 
  </tbody> 
