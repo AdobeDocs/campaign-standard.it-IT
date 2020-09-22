@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,9 +71,7 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
 
 Le dimensioni di targeting e le risorse ti consentono di definire su quali elementi basare una query per determinare il target di una consegna.
 
-Le dimensioni di targeting sono definite nelle mappature dei target. Per ulteriori informazioni, consulta [questa sezione](../../administration/using/target-mappings-in-campaign.md).
-
-La dimensione di targeting e le risorse vengono definite durante la creazione di un flusso di lavoro, nella scheda **[!UICONTROL Properties]** di un’attività Query.
+Sono configurati nelle mappature [di](../../administration/using/target-mappings-in-campaign.md)destinazione e sono definiti durante la creazione di un flusso di lavoro nella **[!UICONTROL Properties]** scheda di un&#39;attività Query.
 
 >[!NOTE]
 >
