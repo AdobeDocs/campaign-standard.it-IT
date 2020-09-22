@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-L’attività **[!UICONTROL Direct mail delivery]** ti consente di configurare e preparare un file contenente i dati di profilo che desideri utilizzare per una campagna di direct mailing. Può trattarsi di una direct mailing utilizzata una sola volta, o di una direct mailing **ricorrente**.
+L’attività **[!UICONTROL Direct mail delivery]** ti consente di configurare e preparare un file contenente i dati di profilo che desideri utilizzare per una campagna di direct mailing. Può trattarsi di una direct mailing utilizzata una sola volta, o di una direct mailing ricorrente.
 
-Le direct mailing standard vengono inviate una volta.
-
-Le mail ricorrenti ti consentono di inviare la stessa direct mailing più volte a destinazioni diverse in un determinato periodo di tempo. Puoi aggregare le consegne per periodo in modo da ottenere report che corrispondano alle tue esigenze.
+* **Le direct mailing standard vengono inviate una volta.**
+* **Le mail ricorrenti ti consentono di inviare la stessa direct mailing più volte a destinazioni diverse in un determinato periodo di tempo.** Puoi aggregare le consegne per periodo in modo da ottenere report che corrispondano alle tue esigenze.
 
 ## Contesto di utilizzo {#context-of-use}
 
