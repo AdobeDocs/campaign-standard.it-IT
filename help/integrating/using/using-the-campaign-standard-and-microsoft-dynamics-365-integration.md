@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Questa integrazione può eseguire diversi processi:
 
 * **Avanzamento**: Consegnare eventi di marketing via e-mail da ACS a D365 (invio e-mail, apertura, clic, rimbalzo)
 
-* **Rifiuto**: Sincronizzazione bidirezionale dello stato di rifiuto (ad esempio,  inserii nell&#39;elenco Bloccati)
+* **Rifiuto**: Sincronizzazione bidirezionale dello stato di rifiuto (ad esempio, elenco Bloccati)
 
 Ulteriori dettagli sui flussi di dati sono disponibili [in questa sezione](#data-flows).
 
@@ -149,7 +149,7 @@ Gli eventi di marketing e-mail possono essere attivati/disattivati per tipo (inv
 
 ### Flusso di rinuncia
 
-I valori di rifiuto (ad esempio,  inserii nell&#39;elenco Bloccati) sono sincronizzati tra i sistemi; al momento della registrazione, potete scegliere tra le seguenti opzioni:
+I valori di rifiuto (ad esempio, elenco Bloccati) sono sincronizzati tra i sistemi; al momento della registrazione, potete scegliere tra le seguenti opzioni:
 * Dynamics 365 è l&#39;origine della verità per i opt-out: gli attributi di rifiuto verranno sincronizzati in una direzione da Dynamics 365 a Campaign Standard
 * Il Campaign Standard è la fonte di verità per i opt-out: gli attributi di rifiuto verranno sincronizzati in una direzione da Campaign Standard a Dynamics 365
 * Dynamics 365 AND Campaign Standard sono entrambe fonti di verità: gli attributi di rifiuto verranno sincronizzati bidirezionalmente tra Campaign Standard e Dynamics 365
@@ -157,13 +157,13 @@ I valori di rifiuto (ad esempio,  inserii nell&#39;elenco Bloccati) sono sincron
 In alternativa, se si dispone di un processo separato per gestire la sincronizzazione di rinuncia tra i sistemi, il flusso di dati di rinuncia dell&#39;integrazione può essere disattivato.
 
 La mappatura del flusso di rifiuto deve essere specificata dal cliente, in quanto i requisiti aziendali possono essere diversi tra le società.  Dal lato Campagna, per la mappatura di rifiuto è possibile utilizzare solo gli attributi di rinuncia OOTB:
-* inserire nell&#39;elenco Bloccati 
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* elenco Bloccati
+* DengListEmail
+* DengListFax
+* DengListMobile
+* DengListPhone
+* DengListPostalMail
+* DengListPushnotification
 * ccpaOptOut
 
 In Dynamics 365, la maggior parte dei campi di rinuncia ha il prefisso &quot;donot&quot;; tuttavia, se i tipi di dati sono compatibili, è anche possibile utilizzare altri attributi a scopo di rifiuto.
