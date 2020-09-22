@@ -12,12 +12,15 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 787d1cb906acfba5887e6090f1d6b854bd096b0c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 12%
 
 ---
 
 
-# Introduzione al reporting dinamico {#get-started-reporting}
+# Get started with dynamic reporting {#get-started-reporting}
 
 <table>
 <tr>
@@ -32,11 +35,11 @@ Dynamic Reporting (Generazione di rapporti dinamica) fornisce report completamen
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-L&#39;interfaccia **** di reporting dinamico consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari da un&#39;unica posizione.
+Grazie all&#39;interfaccia **** di reporting dinamico, è possibile esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari da un&#39;unica posizione.
 
-**Gestisci i tuoi rapporti** dinamici grazie a varie funzionalità: aggiornate i dati in tempo reale, stampate i rapporti o esportateli come file CSV. Puoi anche condividere i tuoi rapporti con gli utenti di Campaign Standard tramite e-mail una tantum o ricorrenti.
+**Gestisci i tuoi rapporti** dinamici grazie a varie funzionalità: aggiornate i dati in tempo reale, stampate i rapporti o esportateli come file CSV. Potete anche condividere i rapporti con gli utenti Campaign Standard tramite e-mail una tantum o ricorrenti.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Informazioni sui report dinamici](../../reporting/using/about-dynamic-reports.md)
 * [Interfaccia di reporting](../../reporting/using/reporting-interface.md)
@@ -49,7 +52,7 @@ Campaign Standard viene fornito con una serie di report **dinamici** pronti all&
 
 **Combinate diversi componenti** (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o per personalizzare i rapporti forniti.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Elenco dei componenti](../../reporting/using/list-of-components-.md)
 * [Calcolo indicatore](../../reporting/using/indicator-calculation.md)
@@ -65,7 +68,7 @@ Trascina e rilascia gli elementi **di** visualizzazione per aggiungere rappresen
 
 Crea rapporti basati su dati **di profilo** personalizzati creati durante l&#39;estensione della risorsa Profilo e **rapporti basati sui segmenti** definiti nei flussi di lavoro di targeting.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Aggiunta di pannelli](../../reporting/using/adding-panels.md)
 * [Aggiunta di visualizzazioni](../../reporting/using/adding-visualizations.md)
