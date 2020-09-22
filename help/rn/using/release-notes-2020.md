@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b82a9dc86ec9e48e25f1ffe53188ba916a9d074
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2948'
 ht-degree: 95%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 95%
 * L’unità organizzativa del gruppo di protezione Amministratori non può più essere modificata.
 * Quando si crea un profilo, è necessario compilare il campo Unità organizzativa.
 * Ora è possibile eliminare un trigger di Experience Cloud solo se vengono eliminati sia l’evento sia il modello transazionale ad esso collegato.
-* L’SDK Adobe Creative è stato ritirato. È ora obsoleto in Campaign Standard. Consulta la pagina [Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] è stato disattivato. È ora obsoleto in Campaign Standard. Consulta la pagina [Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html).
 
 
 **Patch**
