@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,7 @@ Se il messaggio è già stato creato, puoi definire i tipi di pubblico al moment
 
    * Target
    * Profili di test
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. Definisci il **[!UICONTROL Target]** principale del messaggio e-mail. Si tratta del pubblico target regolare del messaggio e-mail.
@@ -54,6 +55,10 @@ Se il messaggio è già stato creato, puoi definire i tipi di pubblico al moment
 1. Definisci i **[!UICONTROL Test profiles]** da utilizzare per le e-mail. I profili di test ricevono le bozze, che puoi inviare preliminarmente per verificare l’e-mail prima di inviarla al target principale.
 
    Per ulteriori informazioni sulla configurazione di profili di test, consulta la sezione [Profili di test](../../audiences/using/managing-test-profiles.md).
+
+1. Se necessario, è possibile definire un gruppo di controlli utilizzando la scheda corrispondente. In questo modo potrete ritirare alcuni profili dalla destinazione in modo che non ricevano il messaggio. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. È inoltre possibile utilizzare gli indirizzi di sostituzione per ottenere una rappresentazione esatta del messaggio che il profilo riceverà.  Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
 
 Il blocco dei tipi di pubblico viene quindi aggiornato e mostra che sono stati selezionati profili target e di test per l’e-mail in questione.
 
