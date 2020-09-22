@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ Per inviare le bozze, effettua le seguenti operazioni:
    * **[!UICONTROL Email rendering]**: scegli questa opzione per verificare la modalità di ricezione di un messaggio in base alle caselle in entrata target. Per ulteriori informazioni, consulta [Rendering di e-mail](../../sending/using/email-rendering.md).
    * **[!UICONTROL Proof]**: seleziona questa opzione per eseguire il test del messaggio prima di inviarlo al target principale. I destinatari della bozza hanno il compito di approvare la consegna tramite la verifica di contenuto e formato.
    * **[!UICONTROL Proof + Email rendering]**: questa opzione combina le due opzioni precedenti.
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ Per nascondere il numero della bozza nella riga dell’oggetto, attiva l’opzio
 **Argomento correlato:**
 
 * [Invio di un test, preparazione e invio di un video e-mail](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
-* [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
-* [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
+* [Verifica dei messaggi e-mail tramite profili di destinazione](../../sending/using/testing-messages-using-target.md)
+* [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md)
 * [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
 * [Configurazione del canale e-mail](../../administration/using/configuring-email-channel.md)
