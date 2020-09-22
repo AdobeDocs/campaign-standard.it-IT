@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2031'
 ht-degree: 2%
 
 ---
@@ -261,7 +261,7 @@ Di seguito sono riportati alcuni possibili motivi per ricevere le notifiche di a
 
    Le possibili cause di un **[!UICONTROL Delivery with bad error ratio for hard bounces]** avviso possono essere:
 
-   * Il destinatario viene inserita nell&#39;elenco Bloccati, il che significa che non desidera più essere contattato.
+   * Il destinatario viene aggiunto al elenco Bloccati, il che significa che non desidera più essere contattato.
    * L&#39;indirizzo e-mail del destinatario non esiste.
    * Il dominio del destinatario non esiste.
    * Il server del destinatario sta bloccando la consegna.
