@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 2%
 
 ---
 
@@ -20,8 +23,6 @@ source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 # Progettazione di e-mail da zero {#designing-an-email-content-from-scratch}
 
 Scopri come gestire l’edizione del contenuto delle e-mail. Designer e-mail consente di creare e-mail e modelli a partire dal contenuto predefinito.
-
-## Passaggi chiave per la creazione del messaggio e-mail {#key-steps-to-create-your-email}
 
 Di seguito sono riportati i passaggi principali per creare e progettare un contenuto di e-mail da zero tramite Designer e-mail:
 
@@ -40,7 +41,17 @@ Potete anche guardare questo video [](https://video.tv.adobe.com/v/22771/?autopl
 >
 >Per evitare di progettare contenuti per e-mail da zero, potete utilizzare modelli di contenuto pronti per l’uso. Per ulteriori informazioni, consulta Modelli [di](../../designing/using/using-reusable-content.md#content-templates)contenuto.
 
-### Definizione struttura e-mail {#defining-the-email-structure}
+## Definizione struttura e-mail {#defining-the-email-structure}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Informazioni sui componenti Struttura"
+>abstract="Elementi strutturali che definiscono il layout del messaggio e-mail."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Definizione delle colonne e-mail"
+>abstract="Designer e-mail consente di definire facilmente la struttura delle colonne del messaggio e-mail."
 
 Designer e-mail consente di definire facilmente la struttura dell&#39;e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, potete progettare la forma dell’e-mail in pochi secondi.
 
@@ -59,6 +70,8 @@ Per modificare la struttura di un messaggio e-mail:
 
    >[!NOTE]
    >
+   >Lo stack di colonne non è compatibile con tutti i programmi e-mail. Se non è supportato, le colonne non verranno sovrapposte.
+   >
    >Una volta inserito nell’e-mail, non è possibile spostare né rimuovere i componenti a meno che non sia già presente un componente di contenuto o un frammento all’interno.
 
 1. Sono disponibili diversi componenti di struttura composti da una o più colonne.
@@ -73,7 +86,32 @@ Per modificare la struttura di un messaggio e-mail:
 
 Una volta definita la struttura, potete aggiungere frammenti di contenuto e componenti all’e-mail.
 
-### Utilizzo dei componenti di contenuto {#about-content-components}
+## Utilizzo di una preintestazione {#preheader}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_preheader"
+>title="Utilizzo di una preintestazione"
+>abstract="La preintestazione consente di configurare un breve testo di riepilogo che fornirà una frequenza di apertura più elevata per l’e-mail."
+
+Un preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzate un’e-mail dalla inbox. La preintestazione offre una frequenza di apertura più elevata.
+
+Selezionate la casella di **[!UICONTROL Preheader]** modifica e completate il contenuto.
+
+![](assets/email_designer_preheader.png)
+
+Potete aggiungere un **[!UICONTROL Content block]**, un **[!UICONTROL Dynamic content]** o un **[!UICONTROL Personalization fields]** elemento nel contenuto della preintestazione.
+
+>[!NOTE]
+>
+>Preheader non è compatibile con tutti i programmi e-mail. Se non è supportato, preheader non viene visualizzato.
+
+
+## Utilizzo dei componenti di contenuto {#about-content-components}
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components"
+>title="Informazioni sui componenti Contenuto"
+>abstract="I componenti contenuto sono componenti vuoti e non elaborati che possono essere modificati una volta inseriti in un messaggio e-mail."
 
 I componenti contenuto sono componenti vuoti e non elaborati che possono essere modificati una volta inseriti in un messaggio e-mail.
 
@@ -81,82 +119,96 @@ I componenti contenuto sono componenti vuoti e non elaborati che possono essere 
 
 Elenco dei componenti disponibili in Designer e-mail:
 
-- **[!UICONTROL Button]**
+### **[!UICONTROL Button]**
 
-   Se è necessario utilizzare più pulsanti, anziché modificare ciascun pulsante da zero, è possibile duplicare il **[!UICONTROL Button]** componente utilizzando la barra degli strumenti contestuale.
+Se è necessario utilizzare più pulsanti, anziché modificare ciascun pulsante da zero, è possibile duplicare il **[!UICONTROL Button]** componente utilizzando la barra degli strumenti contestuale.
 
-   È inoltre possibile salvare i pulsanti nei frammenti da riutilizzare. Per ulteriori informazioni, vedere [Creazione di un frammento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) di contenuto e [Salvataggio del contenuto come frammento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+È inoltre possibile salvare i pulsanti nei frammenti da riutilizzare. Per ulteriori informazioni, vedere [Creazione di un frammento](../../designing/using/using-reusable-content.md#creating-a-content-fragment) di contenuto e [Salvataggio del contenuto come frammento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 Selezionare **[!UICONTROL Fallback view]** per visualizzare l&#39;immagine di fallback in Designer e-mail.
 
-- **[!UICONTROL Text]**
+### **[!UICONTROL Text]**
 
-   Usate questo componente per inserire del testo nel messaggio e-mail. È possibile regolare colore, stile e dimensione del testo in **[!UICONTROL Component Settings]**.
+    Usate questo componente per inserire del testo nel messaggio e-mail. È possibile regolare colore, stile e dimensione del testo in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Divider]**
+### **[!UICONTROL Divider]**
 
-   Usate questo componente per inserire una linea di divisione nell’e-mail. È possibile selezionare il colore, lo stile e la dimensione della linea di interruzione in **[!UICONTROL Component Settings]**.
+    Usate questo componente per inserire una linea di divisione nell’e-mail. È possibile selezionare il colore, lo stile e la dimensione della linea di rottura in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Html]**
+### **[!UICONTROL Html]**
 
-   Usate questo componente per copiare e incollare le diverse parti dell’HTML esistente. Questo consente di creare componenti HTML modulari gratuiti.
+Usate questo componente per copiare e incollare le diverse parti dell’HTML esistente. Questo consente di creare componenti HTML modulari gratuiti.
 
-   >[!NOTE]
-   >
-   >Un componente HTML gratuito può essere modificato con opzioni limitate. Se tutti gli stili non sono allineati, accertatevi di aggiungere il CSS appropriato nella sezione **head** del codice HTML, altrimenti l&#39;e-mail non sarà reattiva. Utilizzate il **[!UICONTROL Preview]** pulsante per verificare la reattività del contenuto (consultate [Anteprima dei messaggi](../../sending/using/previewing-messages.md)).
+>[!NOTE]
+>
+>Un componente HTML gratuito può essere modificato con opzioni limitate. Se tutti gli stili non sono allineati, accertatevi di aggiungere il CSS appropriato nella sezione **head** del codice HTML, altrimenti l&#39;e-mail non sarà reattiva. Utilizzate il **[!UICONTROL Preview]** pulsante per verificare la reattività del contenuto (consultate [Anteprima dei messaggi](../../sending/using/previewing-messages.md)).
 
-   Per rendere semplicemente un contenuto esterno conforme a E-mail Designer, Adobe consiglia di creare un messaggio da zero e di copiare il contenuto del messaggio e-mail esistente in frammenti e componenti.
+Per rendere un contenuto esterno conforme a E-mail Designer,  Adobe consiglia di creare un messaggio da zero e di copiare il contenuto del messaggio e-mail esistente in frammenti e componenti.
 
-   Se un contenuto non può essere ricreato, potete copiare e incollare il codice HTML dall’e-mail originale utilizzando il componente **[!UICONTROL Html]** contenuto. Prima di continuare, assicuratevi di avere familiarità con il codice HTML.
+Se un contenuto non può essere ricreato, potete copiare e incollare il codice HTML dall’e-mail originale utilizzando il componente **[!UICONTROL Html]** contenuto. Prima di continuare, assicuratevi di avere familiarità con il codice HTML.
 
-   <!-- A full example is presented below. -->
+<!-- A full example is presented below. -->
 
-   >[!NOTE]
-   >
-   >Il nuovo contenuto non sarà la copia esatta dell&#39;e-mail originale, ma i passaggi seguenti vi guideranno attraverso la creazione di un messaggio che sarà il più vicino possibile.
+>[!NOTE]
+>
+>Il nuovo contenuto non sarà la copia esatta dell&#39;e-mail originale, ma i passaggi seguenti vi guideranno attraverso la creazione di un messaggio che sarà il più vicino possibile.
 
-   **Prima di copiare il contenuto**
+    **Prima di copiare il contenuto**
+    
+    1. Nel messaggio e-mail originale, identificate le sezioni riutilizzabili dalle sezioni che saranno univoche per ogni e-mail che invierete.
+    1. Salvate tutte le immagini e le risorse da usare.
+    1. Se avete familiarità con l’HTML, dividete il contenuto HTML originale in parti diverse.
 
-   1. Nel messaggio e-mail originale, identificate le sezioni riutilizzabili dalle sezioni che saranno univoche per ogni e-mail che invierete.
-   1. Salvate tutte le immagini e le risorse da usare.
-   1. Se avete familiarità con l’HTML, dividete il contenuto HTML originale in parti diverse.
+### Video {#video-settings}
 
-- **[!UICONTROL Video]**
+>[!CONTEXTUALHELP]
+>id="ac_edition_video"
+>title="Impostazioni video"
+>abstract="Usate questo componente per inserire un video nel messaggio e-mail."
 
-   Usate questo componente per inserire un video nel messaggio e-mail.
+Inserite il componente video in un componente struttura del messaggio e-mail e inserite il collegamento video nel **[!UICONTROL Component Settings]**.
 
-   Inserite il componente video in un componente struttura del messaggio e-mail e inserite il collegamento video nel **[!UICONTROL Component Settings]**.
+>[!NOTE]
+>
+>Il video non è compatibile con tutti i programmi e-mail. Se non è supportato, verrà visualizzato il fallback.
 
-- **[!UICONTROL Image]**
+### Immagine
 
-   Usate questo componente per inserire un’immagine nel messaggio e-mail.
+Usate questo componente per inserire un’immagine nel messaggio e-mail.
 
-   Inserite il componente immagine in un componente struttura e fate clic su Sfoglia per caricare un file immagine dal computer.
+Inserite il componente immagine in un componente struttura e fate clic su Sfoglia per caricare un file immagine dal computer.
 
-- **[!UICONTROL Social]**
+### **[!UICONTROL Social]**
 
-   Usate questo componente per inserire i collegamenti alle pagine dei social media nel messaggio e-mail. Potete selezionare i collegamenti da visualizzare e le dimensioni della relativa icona in **[!UICONTROL Component Settings]**.
+Usate questo componente per inserire i collegamenti alle pagine dei social media nel messaggio e-mail. Potete selezionare i collegamenti da visualizzare e le dimensioni della relativa icona in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Carousel]**
+### Carosello {#carousel-settings}
 
-   1. Trascinare il **[!UICONTROL Carousel]** componente all’interno di un componente struttura.
-   1. Consente di selezionare le immagini dal computer.
+>[!CONTEXTUALHELP]
+>id="ac_edition_carousel"
+>title="Impostazioni carosello"
+>abstract="Scoprite come inserire e configurare un carosello nel contenuto."
+
+1. Trascinare il **[!UICONTROL Carousel]** componente all’interno di un componente struttura.
+1. Consente di selezionare le immagini dal computer.
+
    ![](assets/des_carousel_browse.png)
 
-   1. Nel **[!UICONTROL Settings]** riquadro, impostare il numero di miniature desiderato.
-   1. Selezionate un’immagine di fallback dal computer.
+1. Nel **[!UICONTROL Settings]** riquadro, impostare il numero di miniature desiderato.
+1. Selezionate un’immagine di fallback dal computer.
+
    ![](assets/des_carousel_fallback.png)
 
-   Il componente carosello non è compatibile con tutti i programmi e-mail. Caricate un fallback per visualizzare un&#39;immagine invece quando il carosello non è supportato nell&#39;e-mail.
+Il componente carosello non è compatibile con tutti i programmi e-mail. Caricate un fallback per visualizzare un&#39;immagine invece quando il carosello non è supportato nell&#39;e-mail.
 
-   >[!NOTE]
-   >
-   >Il componente carosello è compatibile con le seguenti piattaforme di posta elettronica: Apple Mail 7, Apple Mail 8, Outlook 2011 per Mac, Outlook 2016 per Mac, Mozilla Thunderbird, iPad e iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox e Safari).
+>[!NOTE]
+>
+>Il componente carosello è compatibile con le seguenti piattaforme di posta elettronica: Apple Mail 7, Apple Mail 8, Outlook 2011 per Mac, Outlook 2016 per Mac, Mozilla Thunderbird, iPad e iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox e Safari).
 
-**Argomenti** correlati:
+**Argomenti correlati**:
 
 - [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
-- [Selezione di un’audience in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Selezione di un pubblico in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md)
 - [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
 - [Rendering di e-mail](../../sending/using/email-rendering.md)
