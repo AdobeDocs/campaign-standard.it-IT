@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,7 @@ Di seguito è riportato un elenco dei punti chiave da verificare per garantire u
 ## Strumenti per la distribuzione {#deliverability-tools}
 
 In primo luogo, consultare la documentazione sugli strumenti di recapito forniti con Campaign Standard:
-* [Best practice di distribuzione](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
+* [Best practice di distribuzione](../../sending/using/delivery-best-practices.md)
 * [Personalizzazione del nome del mittente](../../designing/using/personalization.md#personalizing-the-sender)
 * [Verifica dell’oggetto di un messaggio e-mail](../../sending/using/testing-subject-line-email.md)
 * [Ottimizzazione del tempo di invio](../../sending/using/optimizing-the-sending-time.md)
