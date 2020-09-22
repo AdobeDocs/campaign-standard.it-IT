@@ -12,10 +12,10 @@ discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4575c1152f1a33ff18b2200151346cc6e56b45fa
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 2%
+source-wordcount: '310'
+ht-degree: 1%
 
 ---
 
@@ -26,10 +26,23 @@ ht-degree: 2%
 
 ![](assets/audience_active_profiles1.png)
 
-Il flusso di lavoro **[!UICONTROL Billing]** tecnico genera ogni mese un rapporto contenente il numero di profili attivi per i quali è stato eseguito il targeting negli ultimi 12 mesi.
+>[!NOTE]
+>
+>Se siete ospitati su AWS e utilizzate Campaign Standard dalla build 10368, potete anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>
+>La metrica Profili attivi è disponibile e pertinente solo per le istanze **** Marketing. Non è né applicabile né disponibile per le istanze di esecuzione, ovvero le istanze MID (mid-sourcing) e RT (Message Center / Real-time messaging).
 
-I profili esclusi durante la preparazione della consegna (regole di tipologia, quarantena) non vengono presi in considerazione. Un profilo di destinazione per più consegne verrà conteggiato una sola volta. Nella parte inferiore del rapporto, troverete l&#39;elenco dei profili attivi per ogni dimensione di targeting.
+
+I profili esclusi durante la preparazione della consegna (regole di tipologia, quarantena, gruppi di controllo) non vengono presi in considerazione. Un profilo di destinazione per più consegne verrà conteggiato una sola volta. Nella parte inferiore del rapporto, troverete l&#39;elenco dei profili attivi per ogni dimensione di targeting.
+
+Questo rapporto viene generato ogni mese dal flusso di lavoro **[!UICONTROL Billing]** tecnico. Contiene il numero di profili attivi a cui è stato assegnato il targeting durante l&#39;ultimo periodo continuo di 12 mesi.
+
+Si noti che i profili esclusi durante la preparazione della consegna (regole di tipologia, quarantena) non sono presi in considerazione. Inoltre, un profilo mirato da più consegne sarà conteggiato una sola volta.
 
 ![](assets/audience_active_profiles2.png)
 
-Se siete ospitati su AWS e utilizzate Campaign Standard dalla build 10368, potete anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo. Per ulteriori informazioni, consulta la documentazione [del Pannello di](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)controllo.
+In fondo al rapporto, troverai l&#39;elenco dei profili attivi elaborati dal flusso di lavoro di fatturazione:
+
+* L&#39; **[!UICONTROL NmsRecipient]** origine include tutti i clienti che sono stati contattati utilizzando informazioni provenienti dal loro profilo Campaign Standard.
+
+* D&#39;altro canto, i clienti ai quali è stato eseguito il targeting utilizzando solo un&#39;informazione specifica (indirizzo e-mail, numero di telefono), senza alcuna relazione con il loro profilo Campaign, saranno inclusi nella **[!UICONTROL anonymous]** fonte.
