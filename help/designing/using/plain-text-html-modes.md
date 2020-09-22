@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2ea8020c82f578b2cf8c00fa7b9f55b6ce2edd
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 0%
 
 ---
 
@@ -41,27 +44,27 @@ Potete quindi modificare la versione di testo normale come desiderato.
 >
 >Se modificate la **[!UICONTROL Plain text]** versione mentre la sincronizzazione è disattivata, la successiva attivazione dell’ **[!UICONTROL Sync with HTML]** opzione tutte le modifiche apportate nella versione in testo normale verranno sostituite con la versione HTML. Le modifiche apportate nella **[!UICONTROL Plain text]** vista non possono essere riportate nella **[!UICONTROL HTML]** vista.
 
-## Modifica di un'origine contenuto e-mail in HTML {#editing-an-email-content-source-in-html}
+## Modifica di un&#39;origine di contenuto e-mail in HTML {#editing-an-email-content-source-in-html}
 
-Per gli utenti più avanzati e il debug, potete visualizzare e modificare il contenuto dell'e-mail direttamente in HTML.
+Per gli utenti più avanzati e il debug, potete visualizzare e modificare il contenuto dell&#39;e-mail direttamente in HTML.
 
 Potete modificare la versione HTML del messaggio e-mail in due modi:
 
-* Selezionate **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** per aprire la versione HTML dell’intero messaggio e-mail.
+* Selezionate **[!UICONTROL Edit]** > **[!UICONTROL HTML]** per aprire la versione HTML dell’intero messaggio e-mail.
 
    ![](assets/email_designer_html1.png)
 
 * Dall’interfaccia WYSIWYG, selezionate un elemento e fate clic sull’ **[!UICONTROL Source code]** icona .
 
-   Viene visualizzata solo l'origine dell'elemento selezionato. Potete modificare il codice sorgente se l’elemento selezionato è un componente di **[!UICONTROL HTML]** contenuto. Altri componenti sono in modalità di sola lettura, ma possono essere modificati nella versione HTML completa del messaggio e-mail.
+   Viene visualizzata solo l&#39;origine dell&#39;elemento selezionato. Potete modificare il codice sorgente se l’elemento selezionato è un componente di **[!UICONTROL HTML]** contenuto. Altri componenti sono in modalità di sola lettura, ma possono essere modificati nella versione HTML completa del messaggio e-mail.
 
    ![](assets/email_designer_html2.png)
 
-Se modificate il codice HTML, la reattività dell’e-mail potrebbe non essere corretta. Assicurarsi di verificarlo utilizzando il **[!UICONTROL Preview]** pulsante. Consultate [Anteprima dei messaggi](../../sending/using/previewing-messages.md).
+Se modificate il codice HTML, la reattività dell’e-mail potrebbe non essere corretta. Assicurarsi di verificarlo utilizzando il **[!UICONTROL Preview]** pulsante. Consulta [Anteprima dei messaggi](../../sending/using/previewing-messages.md).
 
 ## Progettazione di e-mail per il rendering mobile {#switching-to-mobile-view}
 
-Potete regolare il design reattivo di un’e-mail modificando separatamente tutte le opzioni di stile per la visualizzazione mobile. Ad esempio, potete adattare margini e spaziatura, usare font di dimensioni più piccole o grandi, modificare i pulsanti o applicare colori di sfondo diversi, specifici per la versione mobile dell’e-mail.
+Potete regolare il design reattivo di un’e-mail modificando separatamente tutte le opzioni di stile per la visualizzazione mobile. Ad esempio, potete adattare margini e spaziatura, utilizzare dimensioni di font più piccole o grandi, modificare i pulsanti o applicare colori di sfondo diversi, specifici per la versione mobile dell’e-mail.
 
 Tutte le opzioni di stile sono disponibili nella visualizzazione mobile. Le impostazioni di stile di Designer e-mail sono precedentemente presentate in questa pagina.
 
@@ -92,13 +95,13 @@ Tutte le opzioni di stile sono disponibili nella visualizzazione mobile. Le impo
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Fate nuovamente clic sul **[!UICONTROL Switch to mobile view]** pulsante per tornare alla visualizzazione desktop standard. Le modifiche apportate allo stile non vengono riportate.
+1. Fate nuovamente clic sul **[!UICONTROL Switch to mobile view]** pulsante per tornare alla visualizzazione desktop standard. Le modifiche di stile appena apportate non vengono riportate.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >L'unica eccezione sono le **[!UICONTROL Style inline]** impostazioni. Qualsiasi modifica alle impostazioni di stile in linea viene applicata anche alla visualizzazione desktop standard.
+   >L&#39;unica eccezione sono le **[!UICONTROL Style inline]** impostazioni. Qualsiasi modifica alle impostazioni di stile in linea viene applicata anche alla visualizzazione desktop standard.
 
 1. Qualsiasi altra modifica alla struttura o al contenuto dell’e-mail, ad esempio modifiche di testo, caricamento di una nuova immagine, aggiunta di un nuovo componente e così via. viene applicata anche alla visualizzazione standard.
 
@@ -106,7 +109,7 @@ Tutte le opzioni di stile sono disponibili nella visualizzazione mobile. Le impo
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Fate nuovamente clic sul **[!UICONTROL Switch to mobile view]** pulsante per tornare alla visualizzazione desktop standard. Le modifiche vengono riportate.
+1. Fate nuovamente clic sul **[!UICONTROL Switch to mobile view]** pulsante per tornare alla visualizzazione desktop standard. Le modifiche vengono riportate.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -120,13 +123,13 @@ Tutte le opzioni di stile sono disponibili nella visualizzazione mobile. Le impo
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Passate nuovamente alla visualizzazione mobile e disattivate l' **[!UICONTROL Background color]** impostazione.
+1. Passate nuovamente alla visualizzazione mobile e disattivate l&#39; **[!UICONTROL Background color]** impostazione.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    Viene ora applicato il colore di sfondo definito nella visualizzazione desktop: diventa grigio (non vuoto).
 
-   L'unica eccezione è l' **[!UICONTROL Border color]** impostazione. Se disabilitato in visualizzazione mobile, non viene più applicato alcun bordo, anche se nella visualizzazione desktop è definito un colore per il bordo.
+   L&#39;unica eccezione è l&#39; **[!UICONTROL Border color]** impostazione. Se disabilitato in visualizzazione mobile, non viene più applicato alcun bordo, anche se nella visualizzazione desktop è definito un colore per il bordo.
 
 >[!NOTE]
 >
