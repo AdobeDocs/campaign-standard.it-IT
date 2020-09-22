@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7624'
 ht-degree: 8%
 
 ---
@@ -617,7 +617,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 * È stato risolto un problema, nell&#39;editor di query, che causava la condizione di unione tra il registro di trasmissione e il registro di tracciamento per rtEvent. (CAMP-28780)
 * È stato risolto un problema che impediva il salvataggio delle modifiche all&#39;opzione &quot;Azione specifica&quot; della pagina di destinazione. (CAMP-29422)
 * È stato risolto un problema che impediva l&#39;esportazione del payload di un evento in un flusso di lavoro. (CAMP-29029)
-* È stato risolto un problema che impediva l&#39;esclusione inserita nell&#39;elenco Bloccati numeri SMS  in un messaggio SMS. (CAMP-28898)
+* È stato risolto un problema che impediva l&#39;esclusione dei numeri SMS sul elenco Bloccati in un messaggio SMS. (CAMP-28898)
 * È stato risolto un problema che poteva impedire ai fornitori SMPP di ricevere notifiche in caso di errore durante l&#39;elaborazione dei messaggi in arrivo. (CAMP-29804)
 * È stato risolto un problema che consentiva l&#39;eliminazione di account esterni con consegne associate. (CAMP-29738)
 * Il throughput di invio è stato migliorato e stabilizzato per i messaggi SMS.
