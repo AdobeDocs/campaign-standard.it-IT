@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Nella modalità operativa standard, le regole vengono applicate nella sequenza s
 1. Regole di controllo, se applicate all’inizio del targeting.
 1. Regole di filtro:
 
-   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo non verificato / indirizzo inserita nell&#39;elenco Bloccati / indirizzo messo in quarantena / qualità indirizzo.
+   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo / non verificato / indirizzo in elenco Bloccati / indirizzo in quarantena / qualità indirizzo non verificato.
    * Regole di filtro definite dall’utente.
 
 1. Regole di controllo, se applicate alla fine del targeting.
