@@ -12,11 +12,11 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1053'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,9 +43,11 @@ Per visualizzare e modificare il contenuto di un elemento, fai clic sulla relati
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->L’esportazione dei pacchetti non è autorizzata se le risorse esportate dispongono di ID predefiniti. Pertanto, è necessario modificare gli ID delle risorse esportabili utilizzando un nome diverso dai modelli forniti come standard da Adobe Campaign Standard. Ad esempio, per esportare profili di test, non è necessario utilizzare un ID contenente il valore &quot;SDM&quot; o &quot;sdm&quot;. Quando tenti di esportare pacchetti contenenti ID predefiniti, puoi visualizzare errori quali: &quot;Il tipo di entità ‘Brands (branding)’ utilizza un ID predefinito (‘BRD1’) che può causare un conflitto durante l’importazione del pacchetto. Cambia questo nome e ripeti l’operazione&quot;.
+>L’esportazione dei pacchetti non è autorizzata se le risorse esportate dispongono di ID predefiniti. Pertanto, è necessario modificare gli ID delle risorse esportabili utilizzando un nome diverso dai modelli forniti come standard da Adobe Campaign Standard. Ad esempio, per esportare profili di test, non è necessario utilizzare un ID contenente il valore &quot;SDM&quot; o &quot;sdm&quot;.
+>
+>Quando tenti di esportare pacchetti contenenti ID predefiniti, puoi visualizzare errori quali: &quot;Il tipo di entità ‘Brands (branding)’ utilizza un ID predefinito (‘BRD1’) che può causare un conflitto durante l’importazione del pacchetto. Cambia questo nome e ripeti l’operazione&quot;.
 
 I passaggi per l’esportazione del pacchetto sono descritti nella sezione [Esportazione di un pacchetto](#exporting-a-package).
 
