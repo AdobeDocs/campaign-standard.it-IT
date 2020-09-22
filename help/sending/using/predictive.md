@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
+source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percor
 >[!CAUTION]
 >Questa funzionalità non è disponibile all&#39;esterno come parte del prodotto. L&#39;attuazione richiede l&#39;intervento  Consulenza del Adobe. Per maggiori informazioni, contattate il vostro rappresentante  Adobe.
 >
->Separatamente, la funzionalità richiedeva l&#39;utilizzo di un archivio di Azure che deve essere fornito dal cliente.
+>La funzione richiede l&#39;uso di un archivio di Azure che deve essere fornito dal cliente.
 
 ## Ottimizzazione del tempo di invio predittiva{#predictive-send-time}
 
