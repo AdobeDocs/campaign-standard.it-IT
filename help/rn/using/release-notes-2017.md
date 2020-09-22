@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4627'
 ht-degree: 8%
 
 ---
@@ -494,7 +494,7 @@ _Flussi di lavoro_
    <td> Funzionalità di marketing per i messaggi transazionali<br /> </td> 
    <td> Gli addetti al marketing ora possono inviare messaggi transazionali basati sui profili di marketing dei clienti. Questo consente loro di:<br /> 
     <ul> 
-     <li> Applica le regole di tipologia di marketing, ad esempio <span class="uicontrol">Inserita nell'elenco Bloccati indirizzo</span> . </li> 
+     <li> Applica le regole di tipologia di marketing, ad esempio <span class="uicontrol">Indirizzo al elenco Bloccati</span> . </li> 
      <li> Includere il collegamento di annullamento all’abbonamento nei messaggi; </li> 
      <li> Aggiungere messaggi transazionali al reporting globale sulla distribuzione; </li> 
      <li> Utilizzare messaggi transazionali nel customer journey. </li> 
@@ -530,7 +530,7 @@ _Notifiche push_
 * È stato risolto un problema che poteva impedire il postback da un&#39;applicazione al server Adobe Campaign .
 * È stato risolto un problema che poteva impedire **[!UICONTROL Play a sound]** e **[!UICONTROL Custom fields]** di cui tener conto per Android.
 * È stato risolto un problema che poteva causare l&#39;aggiunta di un carattere di escape aggiuntivo ai caratteri Unicode utilizzati per Emojis.
-* Quando viene inserita nell&#39;elenco Bloccati il token di registrazione di un utente iscritto, lo stato corrispondente ora viene aggiornato immediatamente nell&#39;elenco di utenti iscritti  Adobe Campaign dell&#39;applicazione.
+* Quando al elenco Bloccati viene aggiunto il token di registrazione di un utente iscritto, lo stato corrispondente viene ora immediatamente aggiornato nell&#39;elenco di utenti iscritti  Adobe Campaign dell&#39;applicazione.
 
 _Flussi di lavoro_
 
