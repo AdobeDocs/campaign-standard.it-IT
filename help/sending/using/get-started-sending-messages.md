@@ -1,5 +1,5 @@
 ---
-title: Introduzione a test e invio
+title: Guida introduttiva alla verifica e all’invio
 description: Scopri i diversi passaggi per testare e inviare un messaggio.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
@@ -12,15 +12,15 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Introduzione a test e invio {#about-sending-messages-with-campaign}
+# Guida introduttiva alla verifica e all’invio {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
@@ -39,7 +39,7 @@ Infine, puoi sfruttare le linee guida e gli strumenti disponibili in Campaign St
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-La preparazione **dei** messaggi Campaign Standard analizza l’obiettivo, la personalizzazione e la validità del messaggio. Gli errori rilevati durante questo passaggio devono essere corretti prima di poter procedere ulteriormente.
+La preparazione **dei** messaggi Campaign Standard analizza il target, la personalizzazione e la validità del messaggio. Gli errori rilevati durante questo passaggio devono essere corretti prima di poter procedere ulteriormente.
 
 **Visualizza in anteprima e verifica** i messaggi utilizzando diverse funzionalità: inviate prove di stampa per verificare i profili o i profili di destinazione, verificate l&#39;oggetto delle e-mail e controllate il rendering dei messaggi per essere certi che verranno visualizzati in modo ottimale su una varietà di client Web, e-mail e dispositivi.
 
@@ -51,7 +51,7 @@ Leggi tutto:
 
 * [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
 * [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
-* [Invio di prove](../../sending/using/sending-proofs.md)
+* [Invio di bozze](../../sending/using/sending-proofs.md)
 * [Rendering di e-mail](../../sending/using/email-rendering.md)
 * [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md)
 * [Informazioni su tipologie e regole di tipologia](../../sending/using/about-typology-rules.md)
@@ -73,7 +73,7 @@ Leggi tutto:
 * [Archiviazione di e-mail con indirizzi Ccn](../../sending/using/archiving.md)
 * [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md)
 * [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)
-* [Riconoscimento della gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
+* [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 
 ## Linee guida per la realizzazione {#improve-deliverability}
 
@@ -81,12 +81,12 @@ Leggi tutto:
 
 La possibilità di distribuire i dati consente di misurare il successo delle campagne che raggiungono la inbox dei destinatari senza rimbalzare o essere contrassegnate come spam.
 
-Campaign Standard offre diversi strumenti **di** recapito che consentono di migliorare il numero di messaggi recapitati correttamente: report di analisi dei tempi di consegna, ottimizzazione dei tempi di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
+Campaign Standard fornisce diversi strumenti **di** recapito che consentono di migliorare il numero di messaggi recapitati correttamente: report di analisi dei tempi di consegna, ottimizzazione dei tempi di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
 
 Leggi tutto:
 
 * [Informazioni sul recapito messaggi](../../sending/using/about-deliverability.md)
-* [Monitoraggio del recapito messaggi](../../sending/using/monitor-deliverability.md)
+* [Monitoraggio della consegna messaggi](../../sending/using/monitor-deliverability.md)
 * [Crescita reputazione](../../sending/using/improving-reputation.md)
 * [Raccomandazioni tecniche](../../sending/using/technical-recommendations.md)
 * [Velocità di consegna controllata](../../reporting/using/delivery-throughput.md)
@@ -96,6 +96,6 @@ Leggi tutto:
 * [Progettazione di e-mail di test A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Inviare un test, preparare e inviare un messaggio e-mail (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Rivedere la consegna e i rapporti tramite e-mail (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
-* [Guida introduttiva alle e-mail](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+* [Guida introduttiva alle e-mail](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
 * [Best practice di distribuzione](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
-* [Caso di utilizzo: Creazione di un gruppo di controllo](../../automating/using/workflow-control-group.md)
+* [Aggiunta di un gruppo di controlli](../../sending/using/control-group.md)
