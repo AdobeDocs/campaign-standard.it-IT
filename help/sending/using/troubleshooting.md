@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -38,30 +38,30 @@ Se il problema persiste, contattate i servizi commerciali o di recapito o  suppo
 
 ## elenco Bloccati e quarantena {#denylist-versus-quarantine}
 
-* **Qual è la differenza tra un indirizzo e-mail inserita nell&#39;elenco Bloccati e un indirizzo e-mail in quarantena?**
+* **Qual è la differenza tra un indirizzo e-mail elenco Bloccati e un indirizzo e-mail in quarantena?**
 
-   * Lo stato **[!UICONTROL Denylisted]** è il risultato di un ciclo di feedback (quando una persona segnala un messaggio come spam).
+   * Lo stato **[!UICONTROL On denylist]** è il risultato di un ciclo di feedback (quando una persona segnala un messaggio come spam).
 
    * Lo stato **[!UICONTROL Quarantined]** è il risultato di un rimbalzo morbido o duro.
-   Per ulteriori informazioni, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+   Per ulteriori informazioni, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **Cosa significano i diversi motivi di errore di quarantena?**
 
-   I motivi possibili sono 10: non definito, utente sconosciuto, dominio non valido, indirizzo inserito nell&#39;elenco Bloccati, rifiutato, errore ignorato, non raggiungibile, account disabilitato, cassetta postale piena, non connesso.
+   I motivi possibili sono 10: non definito, utente sconosciuto, dominio non valido, indirizzo elenco Bloccati, rifiutato, errore ignorato, non raggiungibile, account disabilitato, cassetta postale piena, non connesso.
 
    For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## Rimozione dal elenco Bloccati {#removing-from-denylist}
 
-* **Uno dei miei destinatari è stato inserita nell&#39;elenco Bloccati per errore. Come posso rimuoverli dal elenco Bloccati in modo da poter iniziare a inviare nuovamente i messaggi?**
+* **Uno dei miei destinatari è stato aggiunto al elenco Bloccati per errore. Come posso rimuoverli dal elenco Bloccati in modo da poter iniziare a inviare nuovamente i messaggi?**
 
    * Vai a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Nei dettagli del record corrispondente, impostare il valore del **[!UICONTROL Status]** campo su **[!UICONTROL Valid]**.
    * Salvare il record.
 
-* **Come posso sapere se uno dei miei IP è inserita nell&#39;elenco Bloccati? Come posso rimuovere i miei IP da un elenco Bloccati?**
+* **Come posso sapere se uno dei miei IP è elenco Bloccati? Come posso rimuovere i miei IP da un elenco Bloccati?**
 
-   Per verificare se l&#39;indirizzo IP è inserita nell&#39;elenco Bloccati, potete utilizzare vari siti Web per verificarlo, ad esempio:
+   Per verificare se l&#39;indirizzo IP è elenco Bloccati, potete utilizzare vari siti Web per verificarlo, ad esempio:
    * [Toolbox MX](https://mxtoolbox.com/)
    * [Qual è il mio indirizzo IP?](https://whatismyipaddress.com)
 
