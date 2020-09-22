@@ -1,6 +1,6 @@
 ---
-title: Progettazione di contenuti in Adobe Campaign
-description: Scopri tutti gli elementi che puoi definire nei contenuti con Adobe Campaign.
+title: Progettazione di contenuti in  Adobe Campaign
+description: Scoprite tutti gli elementi che potete definire nei contenuti con  Adobe Campaign.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,16 +12,19 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
 
 # E-mail Designer di Campaign{#designing-content-in-adobe-campaign}
 
-Dopo aver creato un&#39;e-mail in Adobe Campaign, devi definirne il contenuto.
+Dopo aver creato un’e-mail in  Adobe Campaign, è necessario definirne il contenuto.
 
-E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un&#39;interfaccia a trascinamento con integrazione nativa di Creative Cloud. Sia che stiate partendo da una lavagna vuota, o sfruttando frammenti di contenuto o modelli esistenti, progettate e perfezionate tutti i contenuti per ogni e-mail, sia essa promozionale o transazionale.
+E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un&#39;interfaccia a trascinamento con integrazioni di Creative Cloud native. Sia che stiate partendo da una lavagna vuota, o sfruttando frammenti di contenuto o modelli esistenti, progettate e perfezionate tutti i contenuti per ogni e-mail, sia essa promozionale o transazionale.
 
 Progettato per fornire HTML ottimizzati per la progettazione reattiva, e-mail Designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un&#39;e-mail, a un modello o a un frammento direttamente tramite l&#39;interfaccia utente. Puoi passare direttamente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
 
@@ -65,7 +68,7 @@ Accesso alle opzioni e alle impostazioni generali dalla **barra degli strumenti*
 
 ![](assets/email_designer_toolbar.png)
 
-La barra degli strumenti **contestuale** dell’interfaccia dell’editor offre diverse funzionalità a seconda della zona selezionata. Contiene pulsanti di azione e pulsanti che consentono di modificare lo stile del testo. Le modifiche effettuate si applicano sempre alla zona selezionata.
+La barra degli strumenti **contestuale** dell’interfaccia dell’editor offre diverse funzionalità a seconda della zona selezionata. Contiene i pulsanti di azione e i pulsanti che ti consentono di modificare lo stile del testo. Le modifiche effettuate si applicano sempre alla zona selezionata.
 
 ### Pagina principale di Designer e-mail {#email-designer-home-page}
 
@@ -117,9 +120,9 @@ Per utilizzare in modo appropriato il Designer e-mail e creare le e-mail miglior
 
 * Durante la modifica del contenuto **** e-mail:
 
-   Visualizzate l&#39;anteprima dei messaggi prima di inviarli. Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consultate Rendering [e-](../../sending/using/email-rendering.md)mail.
+   Visualizzate l&#39;anteprima dei messaggi prima di inviarli.  Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consultate Rendering [e-](../../sending/using/email-rendering.md)mail.
 
-Una maggiore progettazione e best practice generali relative ai messaggi sono illustrate nella seguente guida passo-passo di Adobe Campaign: Best practice [di distribuzione con Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Una maggiore progettazione e best practice generali per i messaggi sono presentate nella sezione seguente: [Best practice](../../sending/using/delivery-best-practices.md)di distribuzione.
 
 ### Aggiornamento dei frammenti {#email-designer-updates}
 
@@ -127,7 +130,7 @@ E-mail Designer è in continuo miglioramento. Se avete creato un contenuto e-mai
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe consiglia di aggiornare il contenuto alla versione più recente per evitare problemi quali problemi di collisione CSS. Clic **[!UICONTROL Update now]**.
+ Adobe consiglia di aggiornare il contenuto alla versione più recente per evitare problemi quali problemi di collisione CSS. Fai clic su **[!UICONTROL Update now]**.
 
 Se si verifica un errore durante l&#39;aggiornamento del contenuto, controllate il codice HTML e correggetelo prima di eseguire di nuovo l&#39;aggiornamento.
 
@@ -145,16 +148,16 @@ Per quanto riguarda i frammenti, tenere presente quanto segue:
 
 ## Limiti di Email Designer {#email-designer-limitations}
 
-* Non è possibile utilizzare campi di personalizzazione in un frammento. Per ulteriori informazioni sui frammenti, consultare [questa sezione](../../designing/using/using-reusable-content.md#about-fragments).
+* Non è possibile utilizzare campi di personalizzazione in un frammento. For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
 
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 
 * Durante la modifica degli stili, sono disponibili solo i font Web ufficialmente supportati dalla maggior parte dei client e-mail.
-* Non è possibile salvare gli stili come tema da riutilizzare in futuro. Tuttavia, lo stile CSS può essere salvato in un modello di contenuto o in un messaggio e-mail. Per ulteriori informazioni sugli stili, consulta [questa sezione](../../designing/using/styles.md).
+* Non è possibile salvare gli stili come tema da riutilizzare in futuro. Tuttavia, lo stile CSS può essere salvato in un modello di contenuto o in un messaggio e-mail. For more on styles, see [this section](../../designing/using/styles.md).
 
 **Argomenti correlati**
 
 * [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
 * [Progettazione di una pagina di destinazione](../../channels/using/designing-a-landing-page.md)
 * [Creazione di un messaggio SMS](../../channels/using/creating-an-sms-message.md)
-* [Creazione e invio di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Preparazione e invio di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
