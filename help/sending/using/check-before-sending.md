@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 15%
@@ -53,7 +53,7 @@ Ulteriori informazioni [in questa sezione](../../sending/using/email-rendering.m
 
 L&#39;invio di prove consente di controllare il collegamento di rinuncia, la pagina mirror e qualsiasi altro collegamento, convalidare il messaggio, verificare che le immagini siano visualizzate, rilevare eventuali errori, ecc. È inoltre possibile controllare la progettazione e il rendering su diversi dispositivi.
 
-Ulteriori informazioni [[in questa sezione](../../sending/using/sending-proofs.md).
+Ulteriori informazioni [in questa sezione](../../sending/using/sending-proofs.md).
 
 ## Configurare le consegne di test A/B {#a-b-testing-deliveries}
 
