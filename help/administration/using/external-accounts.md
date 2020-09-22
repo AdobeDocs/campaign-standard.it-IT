@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +35,7 @@ Puoi impostare i seguenti tipi di account esterni:
 * Adobe Analytics. Per ulteriori informazioni, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Per ulteriori informazioni, consulta [questa sezione](#google-recaptcha-external-account).
 * Archiviazione BLOB di Microsoft Azure. Per ulteriori informazioni, consulta [questa sezione](#microsoft-azure-external-account).
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ult
 >
 >Il Pannello di controllo Campaign è disponibile solo per gli utenti amministratori dei clienti in hosting su AWS.
 Verifica se la tua istanza è in hosting su AWS [qui](https://docs.adobe.com/content/help/it-IT/control-panel/using/faq.html#ims-org-id).
+
+## Account OAuth 2.0 {#oauth-account}
+
+Per un account esterno OAuth 2.0, fornite i seguenti dettagli:
+
+* Un tipo **di** sovvenzione: sono supportate solo le credenziali **** client.
+* Un URL **API** protetto: immettete l’endpoint di autorizzazione.
+* **Credenziali** sensibili OAuth 2.0: Questa sezione è destinata alle credenziali sensibili. I valori delle credenziali verranno mascherati sullo schermo dopo l&#39;aggiunta; a questo punto, non saranno né leggibili né modificabili. Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una particolare credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP invece del parametro body del POST, potete selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
+* **Credenziali** non sensibili OAuth 2.0: Questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo che saranno stati aggiunti; saranno anche modificabili.  Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una particolare credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP invece del parametro body del POST, potete selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
+
+Al termine della configurazione, fare clic su **Test Connector** per verificare che l&#39;account esterno sia impostato correttamente.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>Le credenziali &quot;Content-Type: application/x-www-form-urlencoded&quot; e &quot;Grant_type=client_Credits&quot; verranno aggiunti automaticamente alla chiamata API; pertanto, non sarà necessario aggiungerli nella sezione delle credenziali.
 
 ## Account esterno Amazon S3 {#amazon-s3-external-account}
 
