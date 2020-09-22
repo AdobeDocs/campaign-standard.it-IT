@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 6%
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 Gli utenti possono essere ammessi o disabilitati da un operatore direttamente dalla **[!UICONTROL General]** scheda del profilo.
 
-Nella **[!UICONTROL No longer contact (denylisted)]** sezione, le caselle selezionate corrispondono ai canali da cui l&#39;utente ha scelto di rifiutare. Selezionate i canali in base alle esigenze dell&#39;utente.
+Nella **[!UICONTROL No longer contact (on denylist)]** sezione, le caselle selezionate corrispondono ai canali da cui l&#39;utente ha scelto di rifiutare. Selezionate i canali in base alle esigenze dell&#39;utente.
 
 ![](assets/optin_landingpage_3.png)
 
