@@ -13,9 +13,9 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 # Raggruppamento per domini{#breakdown-by-domains}
 
-Questo rapporto contiene i dati sulle prestazioni per ciascun dominio rappresentato nel pubblico per una consegna tramite e-mail. Se si tratta di un rapporto di campagna o di programma, i dati sulle prestazioni sono disponibili per più audience. Questi dati consentono di analizzare il comportamento di ciascun dominio in risposta a eventi specifici. Ad esempio, visualizzazione del collegamento, URL inserito nell&#39;elenco Bloccati ecc.
+Questo rapporto contiene i dati sulle prestazioni per ciascun dominio rappresentato nel pubblico per una consegna tramite e-mail. Se si tratta di un rapporto di campagna o di programma, i dati sulle prestazioni sono disponibili per più audience. Questi dati consentono di analizzare il comportamento di ciascun dominio in risposta a eventi specifici. Ad esempio, visualizzazione del collegamento, URL al elenco Bloccati, ecc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ La seconda tabella, Statistiche **di** tracciamento, contiene i dati disponibili
 * **Fate clic**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
 * **Annulla sottoscrizione**: Il numero di clic sul collegamento di iscrizione.
 * **Pagina** speculare: Numero di clic sul collegamento della pagina mirror.
-* **inserita nell&#39;elenco Bloccati**: Il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Al elenco Bloccati**: Il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
