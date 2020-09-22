@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ Un collegamento descrive l’associazione di una tabella con altre tabelle.
    * **[!UICONTROL 1 cardinality simple link]**: una occorrenza della tabella sorgente può avere al massimo una occorrenza corrispondente della tabella di destinazione.
    * **[!UICONTROL N cardinality collection link]**: una occorrenza della tabella sorgente può avere diverse occorrenze corrispondenti della tabella di destinazione, ma una occorrenza della tabella di destinazione può avere al massimo una occorrenza corrispondente della tabella sorgente.
    * **[!UICONTROL 0 or 1 cardinality simple link]**: una occorrenza della tabella sorgente può avere al massimo una occorrenza corrispondente della tabella di destinazione o nessuna. Tieni presente che questo **[!UICONTROL Link type]** può provocare problemi di prestazioni.
+
    ![](assets/schema_extension_29.png)
 
 1. Nella schermata **[!UICONTROL New link]**, i campi **[!UICONTROL Label]** e **[!UICONTROL ID]** sono completati per impostazione predefinita, ma puoi modificarli.
@@ -161,8 +162,6 @@ Un collegamento descrive l’associazione di una tabella con altre tabelle.
    >[!NOTE]
    >
    >Utilizza un massimo di 30 caratteri.
-
-   >[!IMPORTANT]
    >
    >Non è possibile rinominare un collegamento dopo la creazione. Per rinominare un collegamento, devi eliminarlo e crearlo di nuovo.
 
@@ -178,6 +177,7 @@ Un collegamento descrive l’associazione di una tabella con altre tabelle.
 
    * **[!UICONTROL Use the primary key to make the join]**: questa definizione di unione ti consente di utilizzare la chiave primaria dei profili per effettuare la riconciliazione con la chiave primaria degli acquisti.
    * **[!UICONTROL Define specific join conditions]**: questa definizione di unione ti consente di selezionare manualmente i campi che verranno uniti a entrambe le risorse. Tieni presente che se i dati non sono configurati correttamente, il record **Acquisto** non sarà visibile.
+
    ![](assets/schema_extension_17.png)
 
 I collegamenti creati vengono visualizzati nell’elenco della sezione **[!UICONTROL Links]**.
