@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,8 @@ Scopri come mappare le risorse della campagna e le entità Dynamics 365 [in ques
 
 A causa delle differenze negli attributi di rifiuto tra Dynamics 365 e Campaign e delle differenze nei requisiti aziendali di ciascun cliente, la mappatura della rinuncia è stata lasciata come esercizio per il completamento del cliente.  È importante garantire che le opzioni di rifiuto siano mappate correttamente tra i sistemi in modo che le preferenze di rifiuto dell&#39;utente finale vengano mantenute e che non ricevano una comunicazione tramite un canale da cui hanno rinunciato.
 
-Tieni presente che solo gli attributi Campaign con il prefisso &quot; inserire nell&#39;elenco Bloccati&quot; (ad esempio, blockListEmail) o l&#39;attributo specifico per la rinuncia CCPA possono essere utilizzati nelle mappature di rifiuto.  In Dynamics 365, la maggior parte dei campi di rinuncia ha il prefisso &quot;donot&quot;; tuttavia, se i tipi di dati sono compatibili, è anche possibile utilizzare altri attributi a scopo di rifiuto.
+Tieni presente che solo gli attributi Campaign con il prefisso &quot;Non più contattare per&quot; (ad esempio, Non più contattare per e-mail) o l&#39;attributo specifico per la rinuncia CCPA possono essere utilizzati nelle mappature di rifiuto. [Ulteriori informazioni](../../developing/using/datamodel-profile.md).
+In Dynamics 365, la maggior parte dei campi di rinuncia ha il prefisso &quot;donot&quot;; tuttavia, se i tipi di dati sono compatibili, è anche possibile utilizzare altri attributi a scopo di rifiuto.
 
 Durante il provisioning dell&#39;integrazione, avrete la possibilità di specificare quale configurazione di rifiuto avete bisogno per la vostra azienda:
 
