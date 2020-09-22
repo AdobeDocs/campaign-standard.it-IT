@@ -13,9 +13,9 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '593'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ Per eseguire questa operazione:
    * Questa **[!UICONTROL Remove from quarantine]** azione rimuove il numero di telefono del profilo dalla quarantena.
    * L’ **[!UICONTROL None]** azione consente di inviare il messaggio solo ai destinatari senza eseguire un’azione.
 
-   Ad esempio, nella configurazione seguente, se i destinatari inviano la parola chiave &quot;STOP&quot;, riceveranno automaticamente una conferma di annullamento dell’iscrizione e il loro numero di telefono verrà inviato in quarantena con lo **[!UICONTROL Denylisted]** stato. Questo stato si riferisce solo al numero di telefono, il profilo viene inserita nell&#39;elenco Bloccati in modo che l&#39;utente continui a ricevere i messaggi e-mail.
+   Ad esempio, nella configurazione seguente, se i destinatari inviano la parola chiave &quot;STOP&quot;, riceveranno automaticamente una conferma di annullamento dell’iscrizione e il loro numero di telefono verrà inviato in quarantena con lo **[!UICONTROL On denylist]** stato. Questo stato si riferisce solo al numero di telefono, il profilo in modo che l&#39;utente continui a ricevere i messaggi e-mail.
 
    ![](assets/sms_mo.png)
 
