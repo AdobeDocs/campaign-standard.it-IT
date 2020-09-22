@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 11%
 
 ---
 
@@ -97,5 +97,5 @@ Leggi tutto:
 * [Inviare un test, preparare e inviare un messaggio e-mail (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Rivedere la consegna e i rapporti tramite e-mail (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Guida introduttiva alle e-mail](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
-* [Best practice di distribuzione](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
+* [Best practice di distribuzione](../../sending/using/delivery-best-practices.md)
 * [Aggiunta di un gruppo di controlli](../../sending/using/control-group.md)
