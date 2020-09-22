@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '924'
+ht-degree: 5%
 
 ---
 
@@ -44,9 +47,9 @@ Potete anche creare un’e-mail [con contenuto](#with-existing-content)esistente
 
 ### Creazione di un&#39;e-mail da zero {#from-scratch-email}
 
-Puoi creare facilmente un&#39;e-mail, aggiungere componenti e personalizzare i loro contenuti per inviarne rapidamente una e-mail. Se necessario, potete adattare le opzioni di stile al contenuto. Per ulteriori informazioni sulla gestione delle impostazioni di stile e degli attributi in linea, consultate [Modifica degli stili](../../designing/using/styles.md)e-mail.
+Potete creare facilmente un&#39;e-mail, aggiungere componenti e personalizzare i relativi contenuti per inviarne rapidamente una e-mail. Se necessario, potete adattare le opzioni di stile al contenuto. Per ulteriori informazioni sulla gestione delle impostazioni di stile e degli attributi in linea, consultate [Modifica degli stili](../../designing/using/styles.md)e-mail.
 
-1. Create un messaggio e-mail.
+1. Creare un messaggio e-mail.
 1. Chiudi la homepage.
 
 ### Aggiunta di una riga oggetto {#add-a-subject-line}
@@ -75,33 +78,33 @@ Potete aggiungere diversi componenti di contenuto alle e-mail, ad esempio immagi
 
 * **Immagine**
 
-1. In Componenti **contenuto**, trascina l’immagine in uno dei componenti della struttura.
-1. Fate clic su **Sfoglia**.
-1. Selezionate il file immagine dal computer.
+   1. In Componenti **contenuto**, trascina l’immagine in uno dei componenti della struttura.
+   1. Fate clic su **Sfoglia**.
+   1. Selezionate il file immagine dal computer.
 
-![](assets/browse-image-quick-start.png)
+   ![](assets/browse-image-quick-start.png)
 
 * **Testo con personalizzazione**
 
-1. In **Content Components (Componenti** contenuto), trascinate il testo in uno dei componenti della struttura.
-1. Fate clic sul componente e immettete il testo.
-1. Per aggiungere un campo di personalizzazione, fate clic su **Inserisci campo** di personalizzazione nella barra degli strumenti.
-1. Selezionare il campo desiderato, ad esempio Nome.
+   1. In **Content Components (Componenti** contenuto), trascinate il testo in uno dei componenti della struttura.
+   1. Fate clic sul componente e immettete il testo.
+   1. Per aggiungere un campo di personalizzazione, fate clic su **Inserisci campo** di personalizzazione nella barra degli strumenti.
+   1. Selezionare il campo desiderato, ad esempio Nome.
 
-![](assets/edit-text-quick-start.png)
+   ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-1. In Componenti **contenuto**, trascina e rilascia HTML in uno dei componenti della struttura.
-1. Fate clic su **Mostra il codice** sorgente.
-1. Inserite il contenuto HTML.
-1. Fai clic su **Salva**.
+   1. In Componenti **contenuto**, trascina e rilascia HTML in uno dei componenti della struttura.
+   1. Fate clic su **Mostra il codice** sorgente.
+   1. Inserite il contenuto HTML.
+   1. Fai clic su **Salva**.
 
-![](assets/html-component-source-code.png)
+   ![](assets/html-component-source-code.png)
 
-Se avete familiarità con l’HTML, potete copiare e incollare il codice HTML dal piè di pagina originale utilizzando il componente **[!UICONTROL Html]** contenuto. Per ulteriori informazioni, consultate [Informazioni sui componenti](../../designing/using/designing-from-scratch.md#about-content-components)di contenuto.
+   Se avete familiarità con l’HTML, potete copiare e incollare il codice HTML dal piè di pagina originale utilizzando il componente **[!UICONTROL Html]** contenuto. Per ulteriori informazioni, consultate [Informazioni sui componenti](../../designing/using/designing-from-scratch.md#about-content-components)di contenuto.
 
-![](assets/des_loading_compatible_fragment_9.png)
+   ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Formattazione del componente e-mail
 
@@ -121,17 +124,17 @@ Ora puoi salvare e inviare il tuo messaggio e-mail.
 
 Potete creare un&#39;e-mail da modelli predefiniti, come messaggi di benvenuto ai clienti, newsletter ed e-mail di nuovo coinvolgimento e personalizzarle.
 
-1. Create un’e-mail e apritene il contenuto. Per ulteriori informazioni, consultate [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md).
+1. Create un’e-mail e apritene il contenuto. For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
 1. Fate clic sull’icona Home per accedere alla **[!UICONTROL Email Designer]** pagina principale.
 1. Fate clic sulla **[!UICONTROL Templates]** scheda.
 1. Scegliete un modello HTML integrato.
 I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli &#39;Feather&#39; hanno margini, mentre i modelli &#39;Astro&#39; non ne hanno uno. Per ulteriori informazioni, consulta Modelli [di](../../designing/using/using-reusable-content.md#content-templates)contenuto.
 1. Passare alla **[!UICONTROL Properties]** scheda della home page di Designer e-mail (accessibile tramite l&#39;icona principale) e compilare la **[!UICONTROL Subject]** sezione.
 1. Potete combinare questi elementi per creare diverse varianti di e-mail. Ad esempio, potete duplicare una sezione e-mail selezionando un componente struttura e facendo clic **[!UICONTROL Duplicate]** sulla barra degli strumenti contestuale.
-1. Potete spostare gli elementi utilizzando la freccia blu a sinistra per trascinare un componente struttura sotto o sopra un altro. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
-1. Potete anche spostare i componenti per cambiare l&#39;organizzazione di ciascun elemento struttura. Per ulteriori informazioni, vedere [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Potete spostare gli elementi utilizzando la freccia blu a sinistra per trascinare un componente struttura sotto o sopra un altro. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Potete anche spostare i componenti per cambiare l&#39;organizzazione di ciascun elemento struttura. Per ulteriori informazioni, consulta [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modificate il contenuto di ciascun elemento in base alle vostre esigenze: immagini, testo, collegamenti.
-1. Se necessario, adattate le opzioni di stile al contenuto. Per ulteriori informazioni, consultate [Modifica degli stili](../../designing/using/styles.md)delle e-mail.
+1. Se necessario, adattate le opzioni di stile al contenuto. Per ulteriori informazioni, consulta [Modifica degli stili delle e-mail](../../designing/using/styles.md).
 
 ## Utilizzo di un contenuto e-mail esistente {#with-existing-content}
 
