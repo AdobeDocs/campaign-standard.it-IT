@@ -13,17 +13,17 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Crescita reputazione{#improving-reputation}
 
-Per evitare di esaurire i destinatari, elimina gli indirizzi e-mail duplicati dalla destinazione. Questo passaggio protegge la tua reputazione di invio e assicura una buona gestione della quarantena.  Adobe Campaign offre gli strumenti necessari per attuare queste raccomandazioni ed evitare il rischio di essere inserita nell&#39;elenco Bloccati dagli ISP.
+Per evitare di esaurire i destinatari, elimina gli indirizzi e-mail duplicati dalla destinazione. Questo passaggio protegge la tua reputazione di invio e assicura una buona gestione della quarantena.  Adobe Campaign offre gli strumenti necessari per attuare queste raccomandazioni ed evitare il rischio di essere aggiunti al elenco Bloccati dagli ISP.
 
 Qui di seguito troverete informazioni sulla gestione dei duplicati e della quarantena.
 
