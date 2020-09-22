@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guida di Adobe Campaign Standard
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 85%
@@ -143,6 +143,7 @@ ht-degree: 85%
       + [Verifica dell’oggetto di un messaggio e-mail](sending/using/testing-subject-line-email.md)
       + [E-mail basate su AI](sending/using/predictive.md)
       + [Rendering di e-mail](sending/using/email-rendering.md)
+      + [Aggiunta di un gruppo di controlli](sending/using/control-group.md)
       + [Utilizzo delle “trappole”](sending/using/using-traps.md)
       + [Preparazione dell’invio](sending/using/preparing-the-send.md)
    + Pianificazione dei messaggi {#scheduling-messages}
@@ -338,7 +339,6 @@ ht-degree: 85%
          + [Query incrementale sugli abbonati a un servizio](automating/using/incremental-query-on-subscribers.md)
          + [Segmentazione in base ai gruppi di età](automating/using/segmentation-age-groups.md)
          + [Utilizzo di risorse diverse dalle dimensioni di targeting](automating/using/using-resources-different-from-targeting-dimensions.md)
-         + [Creazione di un gruppo di controllo](automating/using/workflow-control-group.md)
       + Gestione dati {#data-management}
          + [Riconciliare un pubblico di file con il database](automating/using/reconcile-file-audience-with-database.md)
          + [Deduplicazione dei dati da un file importato](automating/using/deduplicating-data-imported-file.md)
