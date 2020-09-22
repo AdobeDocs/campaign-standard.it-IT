@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
 workflow-type: tm+mt
-source-wordcount: '2536'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 # Personalizzazione di contenuti e-mail {#personalization}
 
-Il contenuto e la visualizzazione dei messaggi inviati da  Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati in base ai criteri in base ai profili. In generale,  Adobe Campaign consente di:
+Il contenuto e la visualizzazione dei messaggi inviati da  Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati in base ai criteri in base ai profili. In generale, Adobe Campaign ti consente di:
 
-* Inserire campi di personalizzazione dinamica. Consultate [Inserimento di un campo](#inserting-a-personalization-field)di personalizzazione.
-* Inserisci blocchi di personalizzazione predefiniti. Consultate [Aggiunta di un blocco](#adding-a-content-block)di contenuto.
+* Inserire campi di personalizzazione dinamici. Consulta [Inserimento di un campo di personalizzazione](#inserting-a-personalization-field).
+* Inserire blocchi di personalizzazione predefiniti. Consulta [Aggiunta di un blocco di contenuto](#adding-a-content-block).
 * Personalizza il mittente di un messaggio e-mail. Consulta [Personalizzazione del mittente](#personalizing-the-sender).
 * Personalizzare l’oggetto di un messaggio e-mail. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * Creare contenuto condizionale. Consultate [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email).
@@ -46,13 +46,13 @@ Questo campo può essere personalizzato. A tal fine, puoi aggiungere campi di pe
 
  Adobe Campaign consente di personalizzare uno o più URL nel messaggio aggiungendo campi di personalizzazione, blocchi di contenuto o contenuti dinamici. Per eseguire questa operazione:
 
-1. Inserite un URL esterno e specificatene i parametri. Consultate [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link).
+1. Inserite un URL esterno e specificatene i parametri. See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. Se non viene visualizzato, fate clic sulla matita accanto all’URL selezionato nel riquadro Impostazioni per accedere alle opzioni di personalizzazione.
 1. Aggiungete i campi di personalizzazione, i blocchi di contenuto e il contenuto dinamico che desiderate utilizzare.
 
    ![](assets/des_personalize_links.png)
 
-1. Salvare le modifiche.
+1. Salva le modifiche.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Questo campo può essere personalizzato. A tal fine, puoi aggiungere campi di pe
 
 ## Inserimento di un campo di personalizzazione{#inserting-a-personalization-field}
 
- Adobe Campaign consente di inserire nella pagina un campo dal database, ad esempio il nome del profilo.
+ Adobe Campaign consente di inserire un campo dal database nella pagina, ad esempio il nome del profilo.
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Per aggiungere un campo di personalizzazione al contenuto:
 
    ![](assets/email_perso_field_2.png)
 
-1. Clic **[!UICONTROL Confirm]**.
+1. Fai clic su **[!UICONTROL Confirm]**.
 
 Il nome del campo viene visualizzato nell’editor ed è evidenziato.
 
@@ -106,7 +106,7 @@ Per aggiungere un blocco di contenuto:
 
    ![](assets/email_content_block_2.png)
 
-1. Clic **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
 Il nome del blocco di contenuto viene visualizzato nell’editor ed è evidenziato in giallo. Si adatta automaticamente al profilo quando viene generata la personalizzazione.
 
@@ -141,12 +141,13 @@ Per creare un blocco di contenuto, effettuate le seguenti operazioni:
 
    ![](assets/content_bloc_01.png)
 
-1. Immettere un&#39;etichetta.
+1. Immetti un’etichetta.
 1. Selezionare il blocco di testo **[!UICONTROL Content type]**. Sono disponibili tre opzioni:
 
    * **[!UICONTROL Shared]**: Il blocco di contenuto può essere utilizzato in una consegna o in una pagina di destinazione.
    * **[!UICONTROL Delivery]**: Il blocco di contenuto può essere utilizzato solo in una consegna.
    * **[!UICONTROL Landing page]**: Il blocco di contenuto può essere utilizzato solo in una pagina di destinazione.
+
    ![](assets/content_bloc_02.png)
 
 1. Potete selezionare un **[!UICONTROL Targeting dimension]**. Per ulteriori informazioni, consultate [Informazioni sulla dimensione](#about-targeting-dimension)di targeting.
@@ -175,7 +176,7 @@ Ad esempio, la dimensione di targeting del **[!UICONTROL Unsubscription link]** 
 
 Se lasciate vuoto questo campo, il blocco di contenuto sarà compatibile con tutti i messaggi, indipendentemente dalla dimensione di targeting. Se imposti una dimensione di targeting, tale blocco sarà compatibile solo con i messaggi che hanno la stessa dimensione di targeting.
 
-Per ulteriori informazioni, consulta [Impostazione del targeting di dimensioni e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+Per ulteriori informazioni, consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 **Argomenti correlati:**
 
@@ -185,7 +186,7 @@ Per ulteriori informazioni, consulta [Impostazione del targeting di dimensioni e
 
 ## Personalizzazione di un’origine immagine{#personalizing-an-image-source}
 
- Adobe Campaign consente di personalizzare una o più immagini nel messaggio in base a un particolare criterio o di utilizzare il tracciamento. A tal fine, è possibile inserire campi di personalizzazione, blocchi di contenuto o contenuti dinamici nella sorgente immagine. Per eseguire questa operazione:
+ Adobe Campaign consente di personalizzare una o più immagini del messaggio in base a un particolare criterio o di utilizzare il tracciamento. A tal fine, è possibile inserire campi di personalizzazione, blocchi di contenuto o contenuti dinamici nella sorgente immagine. Per eseguire questa operazione:
 
 1. Inserisci un&#39;immagine nel contenuto del messaggio oppure seleziona un&#39;immagine già presente.
 1. Nella palette Proprietà immagine, selezionare l&#39; **[!UICONTROL Enable personalization]** opzione.
@@ -203,7 +204,7 @@ Per ulteriori informazioni, consulta [Impostazione del targeting di dimensioni e
    >
    >Il nome di dominio (http://mydomain.com) non può essere personalizzato, deve essere immesso manualmente. Il resto dell’URL può essere personalizzato. Ad esempio: http://mydomain.com/ `[Gender]` .jpg
 
-1. Confermate le modifiche.
+1. Conferma le modifiche.
 
 ## Contenuto condizionale {#conditional-content}
 
@@ -227,6 +228,11 @@ Queste condizioni adottano la sintassi dell&#39;espressione XTK (ad es. **contex
 
 ### Definizione di contenuto dinamico in un messaggio e-mail{#defining-dynamic-content-in-an-email}
 
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="Definizione del contenuto dinamico"
+>abstract="Definite contenuti diversi per i destinatari in base alle regole definite tramite l&#39;editor di espressioni."
+
 In un messaggio e-mail potete definire contenuti diversi che verranno visualizzati in modo dinamico ai destinatari in base alle condizioni definite tramite l&#39;editor di espressioni. Ad esempio, dalla stessa e-mail, puoi fare in modo che ogni profilo riceva un messaggio diverso in base alla sua fascia di età.
 
 La definizione del contenuto dinamico è diversa dalla [definizione delle condizioni](#defining-a-visibility-condition)di visibilità.
@@ -244,7 +250,7 @@ La definizione del contenuto dinamico è diversa dalla [definizione delle condiz
 
    >[!NOTE]
    >
-   >Il contenuto deve sempre avere una variante predefinita. Non potete eliminarlo.
+   >Il contenuto deve sempre avere una variante predefinita. Non potete eliminarla.
 
 1. Fare clic sul **[!UICONTROL Edit]** pulsante per definire le condizioni di visualizzazione della prima variante alternativa.
 
@@ -278,7 +284,7 @@ La definizione del contenuto dinamico è diversa dalla [definizione delle condiz
 
    Ad esempio, potete aggiungere un’immagine diversa da visualizzare alle persone di età compresa tra i 26 e i 35 anni.
 
-1. Procedere in modo simile per qualsiasi altro elemento del messaggio e-mail che si desidera visualizzare in modo dinamico. Può essere testo, pulsante, frammento, ecc. Salvare le modifiche.
+1. Procedere in modo simile per qualsiasi altro elemento del messaggio e-mail che si desidera visualizzare in modo dinamico. Può essere testo, pulsante, frammento, ecc. Salva le modifiche.
 
 >[!CAUTION]
 >
@@ -286,7 +292,7 @@ La definizione del contenuto dinamico è diversa dalla [definizione delle condiz
 
 **Argomenti correlati:**
 
-* [Invio di prove](../../sending/using/sending-proofs.md)
+* [Invio di bozze](../../sending/using/sending-proofs.md)
 * [Modifica avanzata delle espressioni](../../automating/using/editing-queries.md#about-query-editor)
 
 ### Ordine di priorità {#order-of-priority}
@@ -329,6 +335,11 @@ Il messaggio e-mail viene creato come segue:
 
 ### Configurazione delle immagini {#configuring-images}
 
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Gestione delle immagini dinamiche"
+>abstract="Personalizzate l&#39;e-mail con immagini dinamiche in base alle regole definite tramite l&#39;editor di espressioni."
+
 In questo esempio, il contenuto dinamico applicato alle immagini è configurato come segue:
 
 **Per raggiungere i 18-27 anni:**
@@ -351,7 +362,7 @@ In questo esempio, il contenuto dinamico applicato alle immagini è configurato 
 
    ![](assets/delivery_content_51.png)
 
-1. Confermate le modifiche.
+1. Conferma le modifiche.
 
 **Per eseguire il targeting dei profili di età pari o superiore a 27 anni:**
 
@@ -361,7 +372,7 @@ In questo esempio, il contenuto dinamico applicato alle immagini è configurato 
 
    ![](assets/delivery_content_52.png)
 
-1. Confermate le modifiche.
+1. Conferma le modifiche.
 
 I contenuti dinamici sono configurati correttamente.
 
@@ -419,6 +430,6 @@ L&#39;immagine è cambiata grazie al contenuto dinamico, e lo slogan che appare 
 
 **Argomenti correlati:**
 
-* [Creazione di un pubblico](../../audiences/using/creating-audiences.md)
+* [Creazione di tipi di pubblico](../../audiences/using/creating-audiences.md)
 * [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
 
