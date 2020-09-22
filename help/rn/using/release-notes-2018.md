@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '5398'
+source-wordcount: '5400'
 ht-degree: 6%
 
 ---
@@ -89,7 +89,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 * È stato risolto un problema che causava la visualizzazione delle immagini caricate da una fotocamera e scattate in modalità verticale in una posizione ruotata indesiderata.
 * È stato risolto un problema che causava la visualizzazione di informazioni di selezione non chiare durante l&#39;utilizzo dell&#39;interfaccia dell&#39;editor query in Creative Designer.
 * È stato risolto un problema che impediva la duplicazione corretta di un elemento quando si utilizzava l&#39;interfaccia dell&#39;editor di query in Creative Designer.
-* È stato risolto un problema che impediva la consegna di messaggi SMS ai destinatari denylist, anche se l&#39;iscrizione era stata annullata tramite una risposta automatica. (CAMP-27128)
+* È stato risolto un problema che impediva la trasmissione di messaggi SMS ai destinatari durante il elenco Bloccati, anche se l&#39;iscrizione era stata annullata tramite una risposta automatica. (CAMP-27128)
 * È stato risolto un problema che impediva la visualizzazione degli errori che causavano il fallimento del flusso di lavoro di pulizia del **database** . (CAMP-26876)
 * È stato risolto un problema che poteva impedire l&#39;eliminazione di campi personalizzati in una definizione di notifica push. (CAMP-25588)
 
