@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '2492'
 ht-degree: 93%
@@ -84,7 +84,7 @@ Per impostare la personalizzazione in un messaggio sulle transazioni, segui i pa
 
    ![](assets/message-center_9.png)
 
-   Puoi verificare che i campi di personalizzazione corrispondano alle informazioni inserite nel profilo di test. Per ulteriori informazioni al riguardo, consulta [Definizione di un profilo di test in un messaggio transazionale](#defining-a-test-profile-in-a-transactional-message).
+   Puoi verificare che i campi di personalizzazione corrispondano alle informazioni inserite nel profilo di test. Per ulteriori informazioni al riguardo, consulta [Definizione di un profilo di test in un messaggio transazionale](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Utilizzo degli elenchi di prodotti in un messaggio sulle transazioni {#using-product-listings-in-a-transactional-message}
 
@@ -204,7 +204,7 @@ Per ulteriori informazioni sulla creazione di una raccolta e dei campi correlati
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Per approfondimenti sulla definizione di un profilo di test in un messaggio sulle transazioni, consulta [questa sezione](#defining-a-test-profile-in-a-transactional-message).
+   Per approfondimenti sulla definizione di un profilo di test in un messaggio sulle transazioni, consulta [questa sezione](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Verifica di un messaggio sulle transazioni {#testing-a-transactional-message}
 
