@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,12 +73,15 @@ Per ulteriori informazioni, consulta [Esecuzione dei flussi di lavoro](../../aut
 
 Le proprietà del flusso di lavoro ti consentono di definire un fuso orario specifico che verrà utilizzato per impostazione predefinita in tutte le relative attività. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 
-
 ## Attività{#activity}
+
+### Numero di attività per flusso di lavoro {#number-activities}
+
+È consigliabile utilizzare fino a 100 attività in un unico flusso di lavoro. Più di 100 attività possono verificarsi problemi di prestazioni durante la progettazione e la configurazione del flusso di lavoro.
 
 ### Progettazione flussi di lavoro
 
-Per garantire il corretto completamento del flusso di lavoro, utilizza **[!UICONTROL End activity]**. Evita di lasciare da sola l’ultima transizione di un flusso di lavoro.
+Per garantire il corretto completamento del flusso di lavoro, evitare di lasciare l’ultima transizione di un flusso di lavoro da sola utilizzando un **[!UICONTROL End activity]**.
 
 Per accedere alla visualizzazione dettagliata delle transizioni, seleziona l’opzione **[!UICONTROL Keep interim results]** nella sezione Execution delle proprietà del flusso di lavoro.
 
