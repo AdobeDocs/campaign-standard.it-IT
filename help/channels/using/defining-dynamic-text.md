@@ -1,6 +1,6 @@
 ---
 title: Definizione del testo dinamico
-description: Scopri come visualizzare testi diversi in modo dinamico all'utente in base alle condizioni definite in Adobe Campaign.
+description: Scoprite come visualizzare testi diversi in modo dinamico all'utente in base alle condizioni definite in  Adobe Campaign.
 page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
@@ -25,10 +28,14 @@ Il testo dinamico è definito allo stesso modo del contenuto dinamico. Fare rife
 >
 >Per SMS e push, potete definire solo testo dinamico. È possibile definire contenuto dinamico e testo in una pagina di destinazione. Se si desidera definire il testo dinamico con [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), vedere [Definizione del contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
+Tenere presente che le coppie sostitutive, i caratteri non inclusi nel piano multilingue di base del set di caratteri Unicode, non possono essere memorizzati in 2 byte (16 bit) e devono essere codificati in 2 caratteri UTF-16. Questi caratteri includono alcuni ideogrammi CJK, la maggior parte delle emoticon e alcune lingue.
+<br>Questi caratteri possono causare problemi di incompatibilità nel testo dinamico. Prima di inviare i messaggi è necessario eseguire dei test rigorosi.
+
+
 L&#39;esempio seguente mostra come definire testo dinamico in un messaggio SMS.
 
 1. Selezionate il testo nel corpo del messaggio o della pagina di destinazione.
-1. Clic **[!UICONTROL Enable dynamic text]**.
+1. Fai clic su **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 
