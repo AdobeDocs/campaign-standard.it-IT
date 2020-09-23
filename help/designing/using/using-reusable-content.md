@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,7 @@ Per utilizzarlo, create un messaggio e-mail e selezionate il modello di contenut
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="Informazioni sui frammenti"
->abstract="Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail."
+>abstract="Un frammento è un blocco di contenuto riutilizzabile a cui è possibile fare riferimento in una o più e-mail."
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail.
 Sono disponibili nell’interfaccia in **Risorse** > Frammenti di **contenuto e modelli**.
