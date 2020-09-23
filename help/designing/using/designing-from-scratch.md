@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -46,12 +46,12 @@ Potete anche guardare questo video [](https://video.tv.adobe.com/v/22771/?autopl
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="Informazioni sui componenti Struttura"
->abstract="Elementi strutturali che definiscono il layout del messaggio e-mail."
+>abstract="I componenti della struttura definiscono il layout del messaggio e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Definizione delle colonne e-mail"
->abstract="Designer e-mail consente di definire facilmente la struttura delle colonne del messaggio e-mail."
+>abstract="Designer e-mail consente di definire facilmente il layout dell&#39;e-mail definendo la struttura delle colonne."
 
 Designer e-mail consente di definire facilmente la struttura dell&#39;e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, potete progettare la forma dell’e-mail in pochi secondi.
 
@@ -111,7 +111,7 @@ Potete aggiungere un **[!UICONTROL Content block]**, un **[!UICONTROL Dynamic co
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="Informazioni sui componenti Contenuto"
->abstract="I componenti contenuto sono componenti vuoti e non elaborati che possono essere modificati una volta inseriti in un messaggio e-mail."
+>abstract="I componenti contenuto sono segnaposto vuoti che potete modificare per creare un messaggio e-mail."
 
 I componenti contenuto sono componenti vuoti e non elaborati che possono essere modificati una volta inseriti in un messaggio e-mail.
 
@@ -164,7 +164,9 @@ Se un contenuto non può essere ricreato, potete copiare e incollare il codice H
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Impostazioni video"
->abstract="Usate questo componente per inserire un video nel messaggio e-mail."
+>abstract="Usate questo componente per inserire un video nel messaggio e-mail. I video non funzionano su tutti i client e-mail. Consigliamo di impostare un&#39;immagine di fallback."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informazioni aggiuntive"
+
 
 Inserite il componente video in un componente struttura del messaggio e-mail e inserite il collegamento video nel **[!UICONTROL Component Settings]**.
 
@@ -187,7 +189,7 @@ Usate questo componente per inserire i collegamenti alle pagine dei social media
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Impostazioni carosello"
->abstract="Scoprite come inserire e configurare un carosello nel contenuto."
+>abstract="Scoprite come inserire e configurare un carosello nel contenuto.Notate che il carosello non funziona su tutti i client di posta elettronica e che l&#39;immagine di fallback verrà visualizzata nel caso in cui non sia supportata."
 
 1. Trascinare il **[!UICONTROL Carousel]** componente all’interno di un componente struttura.
 1. Consente di selezionare le immagini dal computer.
