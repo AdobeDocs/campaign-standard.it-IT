@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva a profili e tipi di pubblico
-description: '"Ulteriori informazioni sulla gestione di profili e audience in  Adobe Campaign: definire popolazioni mirate, selezionare audience, filtrare destinatari, raccogliere dati e aggiornare profili."'
+description: Scopri ulteriori informazioni sulla gestione di profili e audience in  Adobe Campaign. Definite le popolazioni mirate, selezionate le audience, filtrate i destinatari, raccogliete dati e aggiornate i profili.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 7%
