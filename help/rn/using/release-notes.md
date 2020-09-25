@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -116,7 +116,7 @@ ht-degree: 4%
 * Quando si pubblica una risorsa personalizzata, dopo la preparazione viene ora visualizzata una finestra a comparsa di conferma.
 * È stato migliorato il messaggio a comparsa visualizzato in caso di errore di una risorsa personalizzata, per una maggiore chiarezza.
 * L&#39;editor di espressioni nei flussi di lavoro è stato migliorato per evitare errori di esecuzione. [Sono disponibili nuove funzioni](../../automating/using/customizing-workflow-external-parameters.md) : possono essere utilizzati in tutte le attività che consentono di utilizzare le variabili evento dopo aver chiamato un flusso di lavoro con parametri esterni. Inoltre, ora viene visualizzata una descrizione comandi nell&#39;editor di espressioni con la descrizione della funzione.
-* Sono stati aggiunti nuovi filtri all&#39;elenco degli eventi transazionali. Consentono di filtrare le configurazioni dell’evento in base al loro stato, nonché l’ultima volta che un evento è stato ricevuto.
+* [Nuovi filtri](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) sono stati aggiunti all&#39;elenco degli eventi transazionali. Consentono di filtrare le configurazioni dell’evento in base al loro stato, nonché l’ultima volta che un evento è stato ricevuto.
 * I file di registro visualizzati durante l&#39;esportazione dei pacchetti sono stati resi più specifici e dettagliati sugli errori riscontrati in caso di errore.
 * Dopo aver inviato un messaggio, ora puoi cercare, filtrare ed esportare l’elenco degli URL [tracciati](../../sending/using/tracking-messages.md).
 * La [sincronizzazione automatica tra Launch e Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ora è in GA e attivata per impostazione predefinita.
