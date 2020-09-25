@@ -1,6 +1,6 @@
 ---
-title: Introduzione al modello dati Campaign Standard
-description: Amplia il modello dati Campaign Standard con i tuoi campi e risorse e monitora tutte le modifiche apportate al modello dati in un'unica visualizzazione.
+title: Guida introduttiva al modello dati di Campaign Standard
+description: Accedi alla descrizione del modello dati integrato, espandi il modello dati Campaign Standard con campi e risorse personalizzati e monitora tutte le modifiche del modello dati in un'unica visualizzazione.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,33 +12,33 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 7%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
 
-# Introduzione al modello dati Campaign Standard {#get-started-data-model}
+# Guida introduttiva al modello dati di Campaign Standard {#get-started-data-model}
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">Data model</a></p></td>
+<td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">Modello dati</a></p></td>
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Risorse personalizzate</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Utilizzo delle API</a></p></td></tr>
 </table>
 
-Amplia il modello dati Campaign Standard con i tuoi campi e risorse e monitora tutte le modifiche apportate al modello dati in un&#39;unica visualizzazione.
+Amplia il modello di dati Campaign Standard con campi e risorse personalizzate e monitora tutte le modifiche apportate al modello di dati in un&#39;unica visualizzazione.
 
-## Data model {#data-model}
+## Modello dati {#data-model}
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
 I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in un modello **dati** predefinito. Il modello dati visualizza una struttura SQL out-of-the-box per un insieme di risorse correlate al marketing: distribuzione, pubblico, pagine di destinazione, profilo, ecc. A ogni risorsa sono associati dei filtri, che consentono di navigare tra le risorse.
 
-Il menu **Diagnosi** consente di elencare gli oggetti tecnici generati da Campaign Standard: schemi di dati, pagine Web, filtri, ecc., che consentono di monitorare il modello dati e qualsiasi modifica apportata.
+Il menu **Diagnosi** consente di elencare gli oggetti tecnici generati dai Campaign Standard: schemi di dati, pagine Web, filtri, ecc., che consentono di monitorare il modello dati e qualsiasi modifica apportata.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Concetti del modello dati](../../developing/using/data-model-concepts.md)
 * [Best practice per i modelli di dati](../../developing/using/data-model-best-practices.md)
@@ -51,9 +51,9 @@ Ulteriori informazioni:
 
 Campaign Standard consente di **arricchire il modello** dati predefinito per creare risorse personalizzate (ad esempio per aggiungere tabelle Acquisto o Prodotto) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate Campagna per ottimizzare la navigazione attraverso le nuove risorse e campi che sono stati creati.
 
-Inoltre, potete **estendere le API** REST di Campaign Standard per esporre nei campi estesi delle API i profili delle risorse personalizzate. Questo consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
+Inoltre, potete **estendere le API** REST Campaign Standard per esporre nei campi estesi delle API i profili delle risorse personalizzate. Questo consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md)
 * [Estensione dell&#39;API](../../developing/using/about-extending-the-api.md)
@@ -64,10 +64,10 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Con le API Campaign Standard, crea integrazioni per Adobe Campaign Standard e crea il tuo ecosistema personale interfacciando Campaign con il pannello di tecnologie che utilizzi. [Introduzione alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
+Con le API Campaign Standard, crea integrazioni per  Adobe Campaign Standard e crea il tuo ecosistema personale interfacciando Campaign con il pannello di tecnologie che utilizzi. [Introduzione alle API REST Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Risorse aggiuntive
 
-* [Informazioni su Adobe Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md)
+* [Informazioni sul Connettore dati di Adobe Experience Platform](../../developing/using/aep-about-data-connector.md)
 * [Creazione di risorse personalizzate (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [Esportazione/importazione di risorse personalizzate](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
