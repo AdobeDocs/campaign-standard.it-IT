@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva all’amministrazione di Campaign Standard
-description: ' Adobe Campaign offre un set completo di strumenti di amministrazione. Scopri come gestire i tuoi utenti e configurare i tuoi canali.'
+description: Scopri come gestire gli utenti, definire ruoli e concedere autorizzazioni; scopri le linee guida per il monitoraggio, le configurazioni specifiche per i canali e le impostazioni delle applicazioni come le mappature di destinazione, i flussi di lavoro tecnici, il branding, la conservazione dei dati e altro ancora.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 14%
 
 ---
@@ -44,7 +44,7 @@ Le diverse operazioni di amministrazione  Adobe Campaign vengono eseguite tramit
 I diversi menu disponibili sono:
 
 * [Utenti e protezione](../../administration/using/about-access-management.md): Questo menu consente di gestire l&#39;accesso alla piattaforma (utenti, ruoli, gruppi di sicurezza, unità).
-* [Canali](../../administration/using/about-channel-configuration.md): Questo menu raggruppa i parametri tecnici collegati ai diversi canali della piattaforma (Email, SMS), nonché la gestione della tipologia e della quarantena.
+* [Canali](../../administration/using/about-channel-configuration.md): Questo menu raggruppa i parametri tecnici collegati ai diversi canali della piattaforma (E-mail, mobile), nonché la gestione della tipologia e della quarantena.
 * [Impostazioni](../../administration/using/external-accounts.md)applicazione: Questo menu consente di configurare diversi elementi dell’applicazione (account esterni, opzioni, flussi di lavoro tecnici).
 * [Sviluppo](../../developing/using/data-model-concepts.md): Questo menu consente di gestire le risorse personalizzate e di accedere agli strumenti diagnostici.
 * [Impostazioni](../../administration/using/branding.md)istanza: Questo menu consente di definire i diversi marchi e configurarne le impostazioni (logo, gestione del tracciamento, dominio URL per accedere alle pagine di destinazione, ecc.).
@@ -60,7 +60,7 @@ Invitate gli utenti ad accedere all&#39;applicazione e a gestire i gruppi **di**
 
 Lo standard Campaign consente inoltre di monitorare le informazioni relative alla sicurezza. Puoi recuperare informazioni sulle esportazioni di dati eseguite dagli utenti tramite **[!UICONTROL Export audits]** lo schermo e utilizzare lo **[!UICONTROL Licenses]** schermo per monitorare tutte le licenze Campaign installate all&#39;interno dell&#39;organizzazione, nonché informazioni diverse come il numero di build, la versione del rilascio e i termini di contratto.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Gestione utenti](../../administration/using/users-management.md)
 * [Unità organizzative](../../administration/using/organizational-units.md)
@@ -79,7 +79,7 @@ Configurare vari parametri **e-mail** : regole di elaborazione per rimbalzi, qua
 
 Configurate le applicazioni **** mobili per poter inviare messaggi in-app e notifiche push tramite gli SDK Adobe Experience Platform, e configurate i messaggi **** transazionali creando e configurando eventi.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Informazioni sulla configurazione dei canali](../../administration/using/about-channel-configuration.md)
 * [Configurazione del canale e-mail](../../administration/using/configuring-email-channel.md)
@@ -97,7 +97,7 @@ Configurate account **** esterni, utilizzati per collegare  Adobe Campaign ai se
 
 Definite uno o più **marchi** per la vostra organizzazione e configurate l&#39;invio di notifiche **in tempo** reale all&#39;interno dell&#39;applicazione in caso di importanti attività di sistema.
 
-Ulteriori informazioni:
+Leggi tutto:
 
 * [Informazioni sulle impostazioni di Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Account esterni](../../administration/using/external-accounts.md)
