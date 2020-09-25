@@ -1,6 +1,6 @@
 ---
 title: Introduzione a processi e gestione dei dati
-description: ' Adobe Campaign offre un ambiente grafico completo che consente di progettare e automatizzare i processi.'
+description: Sfruttate  funzionalità dei flussi di lavoro Adobe Campaign per automatizzare i processi attraverso un ambiente grafico completo e potente. Scopri come caricare dati, gestire audience, inviare messaggi, implementare cicli di gestione dei dati, automatizzare processi tecnici e altro ancora.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 7%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importazione/esportazione di dati</a></p></td></tr>
 </table>
 
- Adobe Campaign offre un ambiente grafico completo che consente di progettare processi complessi, tra cui segmentazione, esecuzione delle campagne, elaborazione dei file, ecc. Ad esempio, potete utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo e quindi importare i relativi record nel database del Adobe Campaign .
+ Adobe Campaign offre un ambiente grafico completo che consente di progettare processi complessi, tra cui segmentazione, esecuzione delle campagne, elaborazione dei file, ecc. Ad esempio, potete utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo e quindi importare i relativi record nel database Adobe Campaign .
 
 Un flusso di lavoro può coinvolgere anche gli utenti assegnando loro le attività o facendo loro approvare le attività eseguite. Questo significa che potete assegnare un’attività a uno o più utenti per lavorare sul contenuto o specificare le destinazioni, e approvare le prove prima di inviare il messaggio.
 
@@ -61,7 +61,7 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Sfruttate l&#39;editor **di** query per filtrare i dati dal database e creare una popolazione in modo da indirizzare meglio i destinatari. L’editor di query è disponibile per eseguire diverse azioni in Campaign Standard: creare tipi di pubblico di query, definire target di consegna o popolazioni nelle attività del flusso di lavoro.
+Sfruttate l&#39;editor **di** query per filtrare i dati dal database e creare una popolazione in modo da indirizzare meglio i destinatari. L&#39;editor di query è disponibile per eseguire diverse azioni in Campaign Standard: creare tipi di pubblico di query, definire target di consegna o popolazioni nelle attività del flusso di lavoro.
 
 L&#39;editor di query include filtri e regole **** predefiniti per un filtraggio rapido e semplice. Tuttavia, potete anche utilizzare funzionalità di modifica **delle espressioni** avanzate. Questo consente di inserire manualmente le condizioni e utilizzare le funzioni, al fine di formare le proprie regole.
 
@@ -75,7 +75,7 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard offre diverse funzionalità **di gestione** dei dati per l&#39;importazione e l&#39;esportazione di dati.
+Campaign Standard viene fornito con diverse funzionalità **di gestione** dei dati per importare ed esportare i dati.
 
 [Le attività](../../automating/using/about-data-management-activities.md) di gestione dei dati dei flussi di lavoro consentono di importare dati, eseguire aggiornamenti di massa sui campi, ricevere o inviare file o collegare dati non identificati a risorse esistenti.
 
@@ -96,4 +96,4 @@ Leggi tutto:
 
 * [Video di esercitazione su processi e gestione dati](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Flussi di lavoro tecnici](../../administration/using/technical-workflows.md)
-* [Guida introduttiva al modello dati Campaign Standard](../../developing/using/get-started-data-model.md)
+* [Guida introduttiva al modello dati di Campaign Standard](../../developing/using/get-started-data-model.md)
