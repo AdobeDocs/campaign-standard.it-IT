@@ -1,6 +1,6 @@
 ---
 title: Progettazione di contenuti in  Adobe Campaign
-description: Scoprite tutti gli elementi che potete definire nei contenuti con  Adobe Campaign.
+description: Utilizza Campaign Email Designer per creare e-mail coinvolgenti e personalizzate attraverso un'interfaccia a trascinamento. A partire da un elenco vuoto, oppure utilizzando frammenti di contenuto o modelli esistenti, progettate e perfezionate tutti i contenuti per ogni e-mail
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1162'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 Dopo aver creato un’e-mail in  Adobe Campaign, è necessario definirne il contenuto.
 
-E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un&#39;interfaccia a trascinamento con integrazioni di Creative Cloud native. Sia che stiate partendo da una lavagna vuota, o sfruttando frammenti di contenuto o modelli esistenti, progettate e perfezionate tutti i contenuti per ogni e-mail, sia essa promozionale o transazionale.
+Email Designer consente di creare e-mail accattivanti e personalizzate attraverso un&#39;interfaccia a trascinamento. Sia che stiate partendo da una lavagna vuota, o sfruttando frammenti di contenuto o modelli esistenti, progettate e perfezionate tutti i contenuti per ogni e-mail, sia essa promozionale o transazionale.
 
 Progettato per fornire HTML ottimizzati per la progettazione reattiva, e-mail Designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un&#39;e-mail, a un modello o a un frammento direttamente tramite l&#39;interfaccia utente. Puoi passare direttamente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
 
