@@ -1,6 +1,6 @@
 ---
 title: Progettazione di contenuti in  Adobe Campaign
-description: Con Campaign Email Designer, create contenuto e-mail a partire da una lavagna vuota o sfruttando frammenti di contenuto o modelli esistenti.
+description: Create contenuto e-mail a partire da zero, importando codice HTML o utilizzando i modelli esistenti.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1138'
 ht-degree: 4%
 
 ---
