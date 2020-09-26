@@ -1,6 +1,6 @@
 ---
 title: Introduzione a processi e gestione dei dati
-description: Sfruttate  funzionalità dei flussi di lavoro Adobe Campaign per automatizzare i processi attraverso un ambiente grafico completo e potente. Scopri come caricare dati, gestire audience, inviare messaggi, implementare cicli di gestione dei dati, automatizzare processi tecnici e altro ancora.
+description: Automatizzate i processi con flussi di lavoro, caricate i dati, gestite i tipi di pubblico, inviate messaggi, implementate cicli di gestione dei dati, automatizzate i processi tecnici e altro ancora.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '526'
 ht-degree: 8%
 
 ---
