@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 83%
 
 ---
 
@@ -47,14 +47,14 @@ Il pulsante **[!UICONTROL Create]** può essere utilizzato per creare una nuova 
 
 Nella zona principale, ogni tipo di attività nell’elenco è dotata di un’icona:
 
-* ![](assets/marketing_program_icon.png) : Programma
-* ![](assets/marketing_campaign_icon.png) : Campagna
-* ![](assets/marketing_email_icon.png) : E-mail
-* ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : Notifica push
-* ![](assets/marketing_lp_icon.png) : Messaggio in-app
-* ![](assets/marketing_lp_icon.png) : Pagina di destinazione
-* ![](assets/marketing_workflow_icon.png) : Flusso di lavoro
+* ![](assets/marketing_program_icon.png) programma
+* ![](assets/marketing_campaign_icon.png) campagna
+* ![](assets/marketing_email_icon.png) e-mail
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) notifica push
+* ![](assets/marketing_lp_icon.png) Messaggio in-app
+* ![](assets/marketing_lp_icon.png) pagina di destinazione
+* ![](assets/marketing_workflow_icon.png) Flusso di lavoro
 
 A seconda del periodo di validità e dello stato, il colore associato a questa icona indica lo stato di esecuzione dell’attività corrispondente.
 
@@ -86,16 +86,16 @@ I programmi e le campagne sono illustrati nella sezione [Programmi e campagne](.
 
 A seconda del contesto, è possibile:
 
-* [Creare un messaggio e-mail](../../channels/using/creating-an-email.md)
-* [Creare un SMS](../../channels/using/creating-an-sms-message.md)
-* [Creare una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Creare un messaggio in-app](../../channels/using/about-in-app-messaging.md)
-* [Creare un flusso di lavoro](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Creare una pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md)
-* [Creare una campagna](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [Creare un programma](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Creare un&#39;e-mail - [Per saperne di più](../../channels/using/creating-an-email.md)
+* Creazione di un SMS - [Ulteriori informazioni](../../channels/using/creating-an-sms-message.md)
+* Creare una notifica push - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Creare un messaggio in-app - [Per saperne di più](../../channels/using/about-in-app-messaging.md)
+* Creazione di un flusso di lavoro - [Ulteriori informazioni](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Creare una pagina di destinazione - [Per saperne di più](../../channels/using/getting-started-with-landing-pages.md)
+* Creare una campagna - [Per saperne di più](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Creazione di un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Puoi anche creare un’attività di marketing dall’elenco relativo. In questo caso, puoi creare qualsiasi tipo di attività. Puoi scegliere di collegare l’attività di marketing a una campagna principale (o a un programma principale, se crei un programma) tramite le proprietà dell’attività.
+>Puoi anche creare un’attività di marketing dall’elenco relativo. In questo caso, potete creare qualsiasi tipo di attività e scegliere di collegare l&#39;attività di marketing a una campagna padre (o a un programma padre, se create un programma) tramite le proprietà dell&#39;attività.
 
