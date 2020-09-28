@@ -12,11 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,10 @@ Ciascun programma è rappresentato da una casella contenente la miniatura e l’
 
 La linea verticale blu è un indicatore cronologico per evidenziare la data corrente. Per impostazione predefinita, si trova al centro della schermata. Puoi scorrere a destra o a sinistra all’interno della schermata per modificare il periodo visualizzato.
 
-I pulsanti ![](assets/timeline_zoom_in.png) e ![](assets/timeline_zoom_out.png) ti consentono di aumentare o ridurre il perimetro. Il pulsante ![](assets/timeline_zoom_in.png) aumenta inoltre il livello di dettaglio per un periodo più limitato, fino alla visualizzazione dei giorni, e il pulsante ![](assets/timeline_zoom_out.png) ti consente di visualizzare un periodo più lungo.
+Utilizzate le icone per:
+
+* ![](assets/timeline_zoom_in.png) ridurre il perimetro o aumentare il livello di dettaglio per un periodo più limitato, fino alla visualizzazione dei giorni
+* ![](assets/timeline_zoom_out.png) aumentare il perimetro o visualizzare un intervallo di tempo più ampio
 
 Fai clic sulla freccia a destra del nome di ciascun programma per visualizzare il contenuto corrispondente. Un programma può contenere programmi secondari, campagne e pagine di destinazione. Una campagna viene distribuita allo stesso modo di un programma e può contenere e-mail, SMS e pagine di destinazione.
 
@@ -49,12 +52,12 @@ Quando viene visualizzato il contenuto di un programma o di una campagna, la cas
 
 Ciascun elemento ha un’icona che corrisponde al relativo tipo:
 
-* ![](assets/timeline_program_icon.png) : programma
-* ![](assets/timeline_campaign_icon.png) : campagna
-* ![](assets/timeline_lp_icon.png) : pagina di destinazione
-* ![](assets/timeline_email_icon.png) : e-mail
-* ![](assets/timeline_sms_icon.png) : SMS
-* ![](assets/timeline_push_icon.png) : notifica push
+* ![](assets/timeline_program_icon.png) programma
+* ![](assets/timeline_campaign_icon.png) campagna
+* ![](assets/timeline_lp_icon.png) pagina di destinazione
+* ![](assets/timeline_email_icon.png) e-mail
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) notifica push
 
 La linea colorata sul bordo sinistro di ciascuna casella indica lo stato dell’elemento interessato.
 
