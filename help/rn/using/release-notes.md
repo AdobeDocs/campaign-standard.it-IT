@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2442'
 ht-degree: 4%
 
 ---
@@ -120,7 +120,6 @@ ht-degree: 4%
 * I file di registro visualizzati durante l&#39;esportazione dei pacchetti sono stati resi più specifici e dettagliati sugli errori riscontrati in caso di errore.
 * Dopo aver inviato un messaggio, ora puoi cercare, filtrare ed esportare l’elenco degli URL [tracciati](../../sending/using/tracking-messages.md).
 * La [sincronizzazione automatica tra Launch e Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ora è in GA e attivata per impostazione predefinita.
-* I messaggi transazionali possono essere inviati con priorità elevata anche in caso di un carico di lavoro di consegna in massa significativo.
 * La dimensione dei pacchetti di esportazione del flusso di lavoro è stata ottimizzata rimuovendo l&#39;esportazione della prova di invio.
 * È stato aggiunto un nuovo messaggio per visualizzare le dimensioni del file scaricato nell&#39;attività di trasferimento **dei** file.
 * Sono stati migliorati i messaggi di errore per token di sessione non validi.
@@ -134,6 +133,7 @@ ht-degree: 4%
 **Patch**
 
 * È stato risolto un problema che impediva l&#39;utilizzo di un collegamento di destinazione per le notifiche push o i messaggi in-app quando il tracciamento era abilitato.
+* È stato risolto un problema che impediva il rispetto della priorità elevata nei messaggi transazionali in caso di consegna in massa significativa.
 * È stato risolto un problema che poteva impedire l&#39;assegnazione di marchi a un&#39;e-mail transazionale. Durante il passaggio della pubblicazione potrebbero essere visualizzati diversi messaggi di errore. (CAMP-44988)
 * È stato risolto un problema nell&#39;interfaccia utente del flusso di lavoro che poteva impedire il salvataggio delle informazioni nei campi che richiedevano valori numerici. (CAMP-44025)
 * È stato risolto un problema che poteva visualizzare un messaggio di errore durante l&#39;utilizzo di un&#39;attività di **test** in un flusso di lavoro modello di importazione. (CAMP-42910)
