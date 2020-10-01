@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+source-git-commit: 1dae1137a0187cec765156d9fb211408ef16fc68
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->Ricorda i limiti di archiviazione SFTP, archiviazione DB e profilo attivo in base al contratto AdobeCampaign quando utilizzi questa funzionalità.
+>Ricorda i limiti di archiviazione SFTP, archiviazione DB e profilo attivo secondo il contratto Adobe Campaign  durante l&#39;utilizzo di questa funzionalità.
 
 ![](assets/data_loading.png)
 
