@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: d425e4b96604133fbdfc66fde38e4ca5c84baccd
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 7%
@@ -54,21 +54,21 @@ Se desiderate integrare i flussi di dati da altri sistemi con  Adobe Campaign, c
    <td>  Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Consente di creare contenuti e-mail o moduli mappati al database Adobe Campaign  direttamente in Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Utilizzo di Campaign e  Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrare  Experience Manager e Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Creare un'e-mail con  Experience Manager e campagna</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Utilizzo di Campaign e  Experience Manager</a>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrare  Experience Manager e Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Creare un'e-mail con  Experience Manager e campagna</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic, Standard<br /> </td> 
    <td> Consente di inserire immagini calcolate dinamicamente da  Adobe Target quando viene aperto un messaggio e-mail creato e inviato da  Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a> <br/>, <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">integrazione di Campaign e Target</a><br/>, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">personalizzazione delle immagini e-mail in video in tempo</a> reale (passaggio 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a>, <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">Integrate Campaign e Target</a>, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Personalizzate le immagini delle e-mail in video in tempo</a> reale (passaggio 3)
     </td> 
   </tr> 
   <tr> 
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Consente di tenere traccia del successo delle comunicazioni e-mail direttamente in  Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Condivisione di dati delle campagne con Analytics</a><br/>, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">condivisione di KPI per video di reporting</a> delle campagne integrato (passaggio 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Condivisione di dati delle campagne con Analytics</a>, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">condivisione di KPI per video di reporting</a> delle campagne integrato (passaggio 1)
     </td> 
   </tr> 
   <tr> 
@@ -90,14 +90,14 @@ Se desiderate integrare i flussi di dati da altri sistemi con  Adobe Campaign, c
    <td> Trigger di Experience Cloud<br /> </td> 
    <td> Consente di inviare e-mail personalizzate ai clienti in  Adobe Campaign come reazione a comportamenti specifici tracciati sul sito Web da  Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Usare  attivatori di Experience Cloud in Campaign Standard</a><br/>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Abbandono Triggers-Casi</a><br/>di utilizzo della campagna, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Trigger Note Messages based on Site Activity</a> video (passaggio 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Usare  attivatori di Experience Cloud in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Abbandono Triggers-Casi</a>di utilizzo della campagna, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Trigger Note Messages based on Site Activity</a> video (passaggio 2)
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
    <td> Consente di modificare un contenuto e-mail da Dreamweaver e di sincronizzarlo con  Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Creazione di e-mail personalizzate con video Dreamweaver</a> <br/>, <a href="https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Utilizzo dell'estensione Campaign per Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Creazione di e-mail personalizzate con video Dreamweaver</a> , <a href="https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Utilizzo dell'estensione Campaign per Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
