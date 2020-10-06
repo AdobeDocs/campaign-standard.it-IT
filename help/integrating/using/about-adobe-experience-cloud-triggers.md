@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ In Adobe Experience Cloud, puoi definire i diversi trigger, vale a dire i compor
 
 In Adobe Campaign, selezioni il trigger precedentemente creato, arricchisci i dati dell’evento con i dati del data mart e definisci un modello di messaggio transazionale collegato a esso. Ad esempio, quando un cliente abbandona la visita sul sito web, un evento viene inviato in Adobe Campaign, che può quindi sfruttarlo tramite un’e-mail di remarketing inviata al cliente entro 15 minuti.
 
-Nel diagramma seguente è illustrato il funzionamento di questa integrazione.
+Il diagramma seguente illustra il funzionamento di questa integrazione.
 
 ![](assets/triggers_diagram.png)
 
 **Argomenti correlati:**
 
-* Scopri i diversi tipi di trigger: [Documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
+* Scopri i diversi tipi di trigger: [Documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/activation/triggers.html).
 * Guarda il video [Trigger dei messaggi di remarketing basati sull’attività del sito](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
 * Scopri i nostri due [casi di utilizzo di attivatori di abbandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
