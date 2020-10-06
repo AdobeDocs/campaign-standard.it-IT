@@ -9,11 +9,11 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2269'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -40,31 +40,31 @@ Le principali caratteristiche di questa attività sono:
 
 ### Avvisi di compatibilità con versioni precedenti {#from-beta-to-ga}
 
-Con la release Campaign Standard 20.4, il limite di dimensione dei dati della risposta HTTP e i controlli di timeout della risposta sono stati ridotti per essere allineati con le procedure ottimali (consultate la sezione &quot;Limitazioni e custodie&quot;). Tali modifiche non avranno effetto sulle attività esistenti delle API esterne; pertanto, si consiglia di sostituire le attività API esterne esistenti con nuove versioni in tutti i flussi di lavoro.
+Con la versione Campaign Standard 20.4, il limite di dimensione dei dati di risposta HTTP e le protezioni del timeout di risposta sono stati ridotti in modo da essere in linea con le best practice (consulta la sezione &quot;Limitazioni e protezioni&quot;). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
 
-Se state effettuando l&#39;aggiornamento da Campaign Standard 20.2 (o versioni precedenti), tenete presente che la funzionalità API esterna è stata spostata da Beta a Disponibilità generale nella release Campaign Standard 20.3.
+Se stai effettuando l’aggiornamento da Campaign Standard 20.2 (o versioni precedenti), tieni presente che nella versione Campaign Standard 20.3 la funzionalità External API è stata spostata da Beta a Disponibilità generale.
 
-Di conseguenza, se stavi utilizzando delle attività External API in versione beta, devi sostituirle con attività External API in versione GA in tutti i flussi di lavoro.  I flussi di lavoro che utilizzano la versione beta dell&#39;API esterna non funzioneranno a partire dalla versione Campaign Standard 20.3.
+Di conseguenza, se stavi utilizzando delle attività External API in versione beta, devi sostituirle con attività External API in versione GA in tutti i flussi di lavoro.  I flussi di lavoro che utilizzano la versione beta dell’External API non funzioneranno a partire dalla versione Campaign Standard 20.3.
 
 Durante la sostituzione delle attività External API, aggiungi la nuova attività External API al flusso di lavoro, copia manualmente i dettagli di configurazione, quindi elimina la vecchia attività.
 
 >[!NOTE]
 >
->Non sarete in grado di copiare valori di intestazione specifici per l&#39;attività in quanto questi vengono mascherati all&#39;interno dell&#39;attività.
+>Non potrai copiare i valori di intestazione per attività specifiche poiché sono nascosti all’interno dell’attività.
 
 Successivamente, riconfigura altre attività nel flusso di lavoro che indicano e/o utilizzano i dati dell’attività External API in versione beta per indicare e/o utilizzare i dati della nuova attività External API. Esempi di attività: consegna e-mail (campi di personalizzazione), attività di arricchimento, ecc.
 
 ### Limitazioni e protezioni {#guardrails}
 
-A questa attività si applicano le seguenti tutele:
+A questa attività si applicano le seguenti protezioni:
 
-* Limite di dimensione dati risposta HTTP 5 MB (nota: si tratta di una modifica rispetto al limite di 50 MB della versione precedente)
-* Timeout richiesta: 1 minuto (nota: si tratta di una modifica rispetto al timeout di 10 minuti nella versione precedente)
+* Limite di dimensione dei dati di risposta HTTP di 5 MB (nota: si tratta di una modifica rispetto al limite di 50 MB della versione precedente)
+* Timeout della richiesta: 1 minuto (nota: rispetto alla versione precedente, che prevedeva un timeout di 10 minuti, è stata apportata questa modifica)
 * I reindirizzamenti HTTP non sono consentiti
 * Gli URL non HTTPS vengono rifiutati
 * L’intestazione di richiesta &quot;Accept: application/json&quot; e l’intestazione di risposta &quot;Content-Type: application/json&quot; sono consentite
 
-Sono stati istituiti presidi specifici:
+Sono state istituite protezioni specifiche:
 
 * **Profondità massima JSON**: limita la profondità massima di un JSON nidificato personalizzato che può essere elaborato a 10 livelli.
 * **Lunghezza massima chiave JSON**: limita a 255 la lunghezza massima della chiave interna generata. Questa chiave è associata all’ID di colonna.
@@ -72,7 +72,7 @@ Sono stati istituiti presidi specifici:
 
 >[!CAUTION]
 >
->L&#39;attività API esterna è destinata al recupero di dati a livello di campagna (più recente serie di offerte, punteggi più recenti, ecc.), non al recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso di utilizzo lo richiede, si consiglia di utilizzare l’attività [Transfer file](../../automating/using/transfer-file.md).
+>L’attività External API è destinata al recupero di dati a livello di campagna (set di offerte più recenti, punteggi più recenti, ecc.), non al recupero di informazioni specifiche per ciascun profilo, in quanto ciò può comportare il trasferimento di grandi quantità di dati. Se il caso di utilizzo lo richiede, si consiglia di utilizzare l’attività [Transfer file](../../automating/using/transfer-file.md).
 
 ## Configurazione {#configuration}
 
@@ -122,13 +122,13 @@ Se l’**analisi viene convalidata**, viene visualizzato un messaggio che ti inv
 
 ### Execution
 
-Questa scheda consente di definire l&#39;endpoint di connessione. Il **[!UICONTROL URL]** campo consente di definire l&#39;endpoint **** HTTPS che invierà i dati ad ACS.
+Questa scheda consente di definire l’endpoint di connessione. Il campo **[!UICONTROL URL]** consente di definire **l’endpoint HTTPS** che invierà i dati all’ACS.
 
-Se necessario dall&#39;endpoint, sono disponibili due tipi di metodo di autenticazione:
+Se necessario per l’endpoint, sono disponibili due diversi metodi di autenticazione:
 
-* Autenticazione di base: immettere il nome utente/password nel **[!UICONTROL Request Header(s)]** campo.
+* Autenticazione di base: immetti il nome utente/password nel **[!UICONTROL Request Header(s)]** campo.
 
-* Autenticazione OAuth: Facendo clic su **[!UICONTROL Use connection parameters defined in an external account]**, potete selezionare un account esterno in cui è definita l&#39;autenticazione OAuth. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* Autenticazione OAuth: facendo clic su **[!UICONTROL Use connection parameters defined in an external account]**, puoi selezionare un account esterno in cui è definita l’autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -184,32 +184,32 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su punti d
    <td> <p>Richiamo dell’URL API “https://example.com/api/v1/web-coupon?count=2”.</p></td> 
   </tr> 
   <tr> 
-   <td> Nuovo URL API '%s' a causa di %s in %d ms, tentativo %d.</td> 
-   <td> <p>Nuovo URL API 'https://example.com/api/v1/web-coupon?count=0' a causa di HTTP - 401 in 2364 ms, tentativo 2.</p></td>
+   <td> Nuovo tentativo URL API '%s' a causa di %s in %d ms, tentativo %d.</td> 
+   <td> <p>Nuovo tentativo URL API 'https://example.com/api/v1/web-coupon?count=0' a causa di HTTP - 401 in 2364 ms, tentativo 2.</p></td>
   </tr> 
   <tr> 
    <td> Trasferimento di contenuto da “%s” (%s / %s).</td> 
    <td> <p>Trasferimento di contenuto da “https://example.com/api/v1/web-coupon?count=2” (1234 / 1234).</p></td> 
   </tr>
   <tr> 
-   <td> Utilizzo del token di accesso nella cache per l'ID provider '%s'.</td> 
-   <td> <p>Utilizzo del token di accesso nella cache per l'ID provider 'EXT25'. Nota:  EXT25 è l'ID (o nome) dell'account esterno. </p></td> 
+   <td> Utilizzo del token di accesso nella versione cache per l’ID provider '%s'.</td> 
+   <td> <p>Utilizzo del token di accesso nella versione cache per l’ID provider 'EXT25'. Nota: EXT25 è l’ID (o nome) dell’account esterno. </p></td> 
   </tr>
   <tr> 
-   <td> Token di accesso recuperato dal server per l'ID provider '%s'.</td> 
-   <td> <p>Token di accesso recuperato dal server per l'ID provider 'EXT25'. Nota: EXT25 è l'ID (o nome) dell'account esterno.</p></td> 
+   <td> Token di accesso recuperato dal server per l’ID provider '%s'.</td> 
+   <td> <p>Token di accesso recuperato dal server per l’ID provider 'EXT25'. Nota: EXT25 è l’ID (o nome) dell’account esterno.</p></td> 
   </tr>
   <tr> 
    <td> Aggiornamento del token di accesso OAuth a causa di un errore (HTTP: '%d').</td> 
    <td> <p>Aggiornamento del token di accesso OAuth a causa di un errore (HTTP: '401').</p></td> 
   </tr>
   <tr> 
-   <td> Errore durante l'aggiornamento del token di accesso OAuth (errore: '%d'). </td> 
-   <td> <p>Errore durante l'aggiornamento del token di accesso OAuth (errore: '404').</p></td> 
+   <td> Errore durante l’aggiornamento del token di accesso OAuth (errore: '%d'). </td> 
+   <td> <p>Errore durante l’aggiornamento del token di accesso OAuth (errore: '404').</p></td> 
   </tr>
   <tr> 
-   <td> Impossibile recuperare il token di accesso OAuth utilizzando l'account esterno specificato al tentativo %d. Verrà eseguito un nuovo tentativo in %d ms.</td> 
-   <td> <p>Impossibile recuperare il token di accesso OAuth utilizzando l'account esterno specificato al tentativo 1. Verrà eseguito un nuovo tentativo in 1387 ms.</p></td> 
+   <td> Impossibile recuperare il token di accesso OAuth utilizzando l’account esterno specificato al tentativo %d. Verrà eseguito un nuovo tentativo tra %d ms.</td> 
+   <td> <p>Impossibile recuperare il token di accesso OAuth utilizzando l’account esterno specificato al tentativo 1. Verrà eseguito un nuovo tentativo tra 1387 ms.</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -264,7 +264,7 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su condizi
    <td> <p>Chiave di intestazione HTTP non consentita (chiave di intestazione: “Accept”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Un valore di intestazione HTTP non è valido (valore di intestazione: '%s').</td> 
+   <td> WKF-560247 - Valore di intestazione HTTP non valido (valore di intestazione: “%s”).</td> 
    <td> <p>Valore di intestazione HTTP non valido (valore di intestazione: “%s”). </p>
     <p>Nota: questo errore viene registrato quando il valore di intestazione personalizzato non supera la convalida secondo la <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
@@ -284,36 +284,36 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su condizi
         <p>Quando l’attività non riesce a causa di un’intestazione Content-Type non valida. - Attività non riuscita (motivo: “Content-Type - application/html”).</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "Errore durante l'inizializzazione dell'helper OAuth (errore: '%d')".</td> 
-   <td> <p>Questo errore indica che l'attività non è riuscita a inizializzare la funzionalità helper OAuth2.0 interna, a causa di un errore nell'utilizzo degli attributi configurati nell'account esterno per inizializzare l'helper.</p></td>
+   <td> WKF-560278 - "Errore durante l’inizializzazione dell’helper OAuth (errore: '%d')".</td> 
+   <td> <p>Questo errore indica che, a causa di un errore nell’utilizzo degli attributi configurati nell’account esterno per inizializzare l’helper, l’attività non è riuscita a inizializzare la funzionalità interna helper OAuth2.0.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "La chiave di intestazione HTTP non è consentita (chiave di intestazione: '%s')."</td> 
-   <td> <p>Questo messaggio di avviso (non di errore) indica che l'account esterno OAuth 2.0 è stato configurato per aggiungere una credenziale come intestazione HTTP, ma la chiave di intestazione utilizzata non è consentita perché è una chiave di intestazione riservata.</p></td>
+   <td> WKF-560279 - "Chiave di intestazione HTTP non consentita (chiave di intestazione: “%s”)."</td> 
+   <td> <p>Questo messaggio di avviso (non di errore) indica che l’account esterno OAuth 2.0 è stato configurato per aggiungere una credenziale come intestazione HTTP, ma la chiave di intestazione utilizzata non è consentita perché riservata.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280: impossibile trovare l'account esterno di '%s' ID.</td> 
-   <td> <p>Impossibile trovare l'account esterno dell'ID 'EXT25'.  Nota: Questo errore indica che l'attività è configurata per utilizzare un account esterno, che non è più possibile trovare. È molto probabile che ciò avvenga quando l'account è stato cancellato dal DB, e come tale non potrebbe accadere in normali circostanze operative.</p></td>
+   <td> WKF-560280 - Impossibile trovare l’account esterno dell’ID '%s'.</td> 
+   <td> <p>Impossibile trovare l’account esterno dell’ID 'EXT25'. Nota: questo errore indica che l’attività è configurata per utilizzare un account esterno che non è più possibile trovare. È molto probabile che ciò avvenga quando l’account è stato cancellato dal DB, e per questo motivo non dovrebbe accadere in normali circostanze operative.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - L'account esterno di '%s' ID è disabilitato.</td> 
-   <td> <p>L'account esterno dell'ID 'EXT25' è disabilitato. Nota: Questo errore indica che l'attività è configurata per l'utilizzo di un account esterno, ma tale account è stato disabilitato (o contrassegnato come inattivo).</p></td>
+   <td> WKF-560281 - L’account esterno dell’ID '%s' è disabilitato.</td> 
+   <td> <p>L’account esterno dell’ID 'EXT25' è disabilitato. Nota: questo errore indica che l’attività è configurata per l’utilizzo di un account esterno che però è stato disabilitato (o contrassegnato come inattivo).</p></td>
   </tr>
   <tr> 
    <td> WKF-560282 - Protocollo non supportato.</td> 
-   <td> <p>Questo errore indica che l'account esterno associato all'attività non è un account esterno OAuth2.0. In quanto tale, è improbabile che questo errore si verifichi a meno che non si verifichino alcuni danneggiamenti o modifiche manuali alla configurazione dell'attività.</p></td>
+   <td> <p>Questo errore indica che l’account esterno associato all’attività non è un account esterno OAuth2.0. Per questo motivo è improbabile che questo errore si verifichi, a meno che non si verifichino alcuni danneggiamenti o modifiche manuali alla configurazione dell’attività.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283: impossibile recuperare il token di accesso OAuth.</td> 
-   <td> <p>La causa più comune di questo errore è la configurazione errata dell'account esterno (ad esempio utilizzando l'account esterno senza verificare che la connessione abbia esito positivo). Potrebbe essere possibile che vengano modificati URL/credenziali sull'account esterno.</p></td>
+   <td> WKF-560283 - Impossibile recuperare il token di accesso OAuth.</td> 
+   <td> <p>La causa più comune di questo errore è la configurazione errata dell’account esterno (ad esempio l’utilizzo dell’account esterno senza verificare che la connessione abbia esito positivo). È possibile che le URL/credenziali sull’account esterno vengano modificate.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199: impossibile raggiungere la pagina all'indirizzo: %s.</td> 
-   <td> <p>Questo messaggio di errore viene visualizzato nella schermata dell'interfaccia utente degli account esterni quando viene configurato per OAuth. Ciò significa che l'URL del server di autorizzazione esterno è errato/modificato/risposta dal server non è disponibile.</p></td>
+   <td> CRL-290199 - Impossibile raggiungere la pagina all’indirizzo %s.</td> 
+   <td> <p>Questo messaggio di errore viene visualizzato nella schermata dell’interfaccia utente degli account esterni durante la configurazione per OAuth. Ciò significa che l’URL del server di autorizzazione esterno è errato/modificato o che non è disponibile la risposta dal server.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200: credenziali non complete/errate.</td> 
-   <td> <p>Questo messaggio di errore viene visualizzato nella schermata dell'interfaccia utente degli account esterni quando viene configurato per OAuth. Ciò significa che le credenziali non sono corrette o che mancano altre credenziali necessarie per connettersi al server di autenticazione.
+   <td> CRL-290200 - Credenziali non complete/errate.</td> 
+   <td> <p>Questo messaggio di errore viene visualizzato nella schermata dell’interfaccia utente degli account esterni durante la configurazione per OAuth. Ciò significa che le credenziali non sono corrette o che ne mancano altre necessarie per connettersi al server di autenticazione.
 </p></td>
   </tr>
  </tbody> 
