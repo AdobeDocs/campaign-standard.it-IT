@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -28,22 +28,20 @@ Il caricamento di un file CSV per generare contenuto per la distribuzione è una
 
 Il push multilingue richiede 14 colonne nel file CSV:
 
-* title
-* messageBody
-* sound
-* badge
-* deeplinkURI
-* category
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMablesContent
-* customFields
-* locale
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. title
+1. messageBody
+1. sound
+1. data
+1. deeplinkURI
+1. category
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMablesContent
+1. customFields
+1. locale
+1. language
+1. silentPush
 
 Controllate l’esempio CSV facendo clic sul file **[!UICONTROL Download a sample file]** nella **[!UICONTROL Manage Content Variants]** finestra. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -150,24 +148,24 @@ Sono supportate le seguenti lingue:
 | en_za | Inglese - Sudafrica |
 | en_tt | Inglese - Trinidad e Tobago |
 | en_gb | Inglese - Regno Unito |
-| _it | Inglese - Stati Uniti |
-| en_zw | en - Zimbabwe |
-| et_ee | jltzdzlè |
+| en_us | Inglese - Stati Uniti |
+| en_zw | Inglese - Zimbabwe |
+| et_ee | Estone - Estonia |
 | fi_fi | Finlandese - Finlandia |
 | fr_be | Francese - Belgio |
 | fr_ca | Francese - Canada |
 | fr_fr | Francese - Francia |
-| fr_lu | Ereditario francese - Lussemburgo |
-| de_ch | Francese - Svizzera |
-| Francia | Tedesco - Austria |
+| fr_lu | Francese - Lussemburgo |
+| fr_ch | Francese - Svizzera |
+| de_at | Tedesco - Austria |
 | de_de | Tedesco - Germania |
 | de_lu | Tedesco - Lussemburgo |
 | de_ch | Tedesco - Svizzera |
-| el_cy | gu Cipro |
+| el_cy | Greco - Cipro |
 | el_gr | Grecia - Grecia |
-| hi_gu | Gujarati - India |
+| gu_in | Gujarati - India |
 | he_il | Ebraico - Israele |
-| fr_in | Hindi - India |
+| hi_in | Hindi - India |
 | hu_hu | Ungherese - Ungheria |
 | is_is | Islandese - Islanda |
 | id_id | Indonesia |
@@ -192,19 +190,19 @@ Sono supportate le seguenti lingue:
 | ru_kz | Russo - Kazakistan |
 | ru_ru | Russia |
 | ru_ua | Russia - Ucraina |
-| a_in | Sanscrito - India |
+| _in | Sanscrito - India |
 | sr_ba | Serbo - Bosnia |
 | sr_rs | Serbo - Serbia |
-| sk_sk | Slovacco - Slovacchia |
+| Spagnolo | Slovacco - Slovacchia |
 | sl_si | Sloveno - Slovenia |
-| es_ar | Spagnolo - Argentina |
-| es_bo | Spagnolo - Bolivia |
+| es_ar | sx - Argentina |
+| Russia_bo | Spagnolo - Bolivia |
 | es_cl | Spagnolo - Cile |
 | es_co | Spagnolo - Colombia |
 | es_cr | Spagnolo - Costa Rica |
 | es_do | Spagnolo - Repubblica Dominicana |
 | es_ec | Spagnolo - Ecuador |
-| es_sv | Spagnolo - El Salvador |
+| Spags_sv | Spagnolo - El Salvador |
 | es_gt | Spagnolo - Guatemala |
 | es_hn | Spagnolo - Honduras |
 | es_mx | Spagnolo - Messico |
@@ -212,10 +210,10 @@ Sono supportate le seguenti lingue:
 | es_pa | Spagnolo - Panama |
 | es_py | Spagnolo - Paraguay |
 | es_pe | Spagnolo - Perù |
-| - es_pr | Spagnolo - Porto Rico |
+| es_pr | Spagnolo - Porto Rico |
 | es_es | Spagnolo - Spagna |
 | es_uy | Spagnolo - Uruguay |
-| es_ve | es. spagnolo - Venezuela |
+| es_ve | Spagnolo - Venezuela |
 | sw_ke | Swahili - Kenya |
 | sv_fi | Svedese - Finlandia |
 | sv_se | Svedese - Svezia |
