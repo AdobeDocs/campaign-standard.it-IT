@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1006'
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Per motivi di sicurezza e prestazioni della piattaforma, ti consigliamo vivament
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >Le modifiche apportate sono valide solo per la pagina di destinazione in fase di modifica. Se desideri applicare queste modifiche ad altre pagine di destinazione, puoi eseguirle in un modello dedicato e quindi creare altre pagine di destinazione da quel modello.
+>[!NOTE]
+>
+>Le modifiche apportate sono valide solo per la pagina di destinazione in fase di modifica. Se desideri applicare queste modifiche ad altre pagine di destinazione, puoi eseguirle in un modello dedicato e quindi creare altre pagine di destinazione da quel modello.
 
 ## Passaggio 3: progettare la pagina di destinazione {#design-the-landing-page}
 
