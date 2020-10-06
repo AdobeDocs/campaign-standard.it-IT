@@ -11,9 +11,9 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -41,6 +41,7 @@ Per creare un modello SMS o e-mail, segui questi passaggi:
    >Puoi anche modificare un modello standard esistente in uno multilingue facendo clic sul pulsante **[!UICONTROL Initialize content variant]** nelle proprietà del modello.
 
 1. Modifica le proprietà per personalizzare l’etichetta, il tracciamento, ecc.
+
 1. Modifica il numero di varianti desiderate facendo clic sulla sezione delle varianti. Viene visualizzata la finestra delle varianti.
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ Per creare un modello SMS o e-mail, segui questi passaggi:
    >Non eliminare la variante &quot;predefinita&quot;, in quanto si tratta della variante inviata ai profili senza un parametro di lingua preferito completato.
 
 1. Se necessario, personalizza la variante dell’etichetta e fai clic su **[!UICONTROL Confirm]**.
+
 1. Puoi anche aggiungere direttamente il contenuto per ogni variante.
 
 Ora puoi creare un messaggio e-mail o SMS basato su questo modello multilingue.
