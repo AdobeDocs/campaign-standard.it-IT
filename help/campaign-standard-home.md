@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -19,16 +19,17 @@ ht-degree: 73%
 
 ## Novità
 
-* **[Gruppi](sending/using/control-group.md)**<br/>di controllo Misurare l&#39;impatto delle campagne escludendo una parte del pubblico
+* **[Gruppi di controllo](sending/using/control-group.md)**<br/>Misura l’impatto delle campagne escludendo parte delle relative audience
 
-* **[E-mail](sending/using/predictive.md)**<br/>alimentate dall&#39;intelligenza artificiale Ottimizzate la progettazione e la fornitura con e-mail alimentate dall&#39;intelligenza artificiale
+* **[E-mail basate sull’intelligenza artificiale](sending/using/predictive.md)**<br/>Ottimizza la progettazione e la consegna con le e-mail basate sull’intelligenza artificiale
 
 * **[Gestione della privacy](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)**<br/>
 Scopri gli strumenti forniti da Adobe Campaign per facilitare la conformità ai criteri di privacy
 
-* **[API](automating/using/external-api.md)**<br/>esterna Utilizzare l&#39;attività API esterna per inserire i dati nel flusso di lavoro da un sistema esterno
+* **[API esterna](automating/using/external-api.md)**<br/>Utilizza l’attività API esterna per inserire nel flusso di lavoro dati provenienti da un sistema esterno
 
-* **[Introduzione alle consegne](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/> per dispositivi mobili Ulteriori informazioni sulle linee guida generali per le consegne per dispositivi mobili (SMS, push, in-app)
+* **[Guida introduttiva alle consegne su dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/>
+Scopri le linee guida generali per le consegne su dispositivi mobili (SMS, push, in-app)
 
 [Fai clic qui per ulteriori aggiornamenti](rn/using/documentation-updates.md)
 
