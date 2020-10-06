@@ -15,28 +15,28 @@ translation-type: tm+mt
 source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 4%
+ht-degree: 98%
 
 ---
 
 
-# Get Started with Campaign Standard {#about-campaign-standard}
+# Guida introduttiva a Campaign Standard {#about-campaign-standard}
 
- Adobe Campaign Standard è un potente strumento di gestione delle campagne multicanale che consente di allineare le strategie online e offline per creare esperienze cliente personalizzate.
+ Adobe Campaign Standard è un potente strumento di gestione delle campagne cross-channel che consente di allineare le strategie online e offline per creare esperienze cliente personalizzate.
 
-Controlla l&#39;intero processo di creazione, esecuzione e tracciamento delle campagne tra canali, nonché l&#39;invio di messaggi personalizzati in base al profilo, al comportamento, alle preferenze e alle esigenze dei clienti. Puoi orchestrare, modellare e automatizzare facilmente l&#39;intero processo di marketing e integrarti con altre soluzioni  Adobe.
+Controlla l’intero processo di creazione, esecuzione e tracciamento delle campagne multicanale, nonché l’invio di messaggi personalizzati in base al profilo, al comportamento, alle preferenze e alle esigenze dei clienti. Puoi orchestrare, modellare e automatizzare facilmente l’intero processo di marketing e integrarlo con altre soluzioni Adobe.
 
-## Aumentare il database di marketing {#grow-database}
+## Sviluppa il database di marketing {#grow-database}
 
 <img width="60px" alt="condizioni" src="assets/icon_segment.svg"/>
 
-**I profili** dei clienti integrati nelle campagne consentono di monitorare ogni interazione con i clienti su tutti i canali all&#39;interno di un&#39;unica visualizzazione, consentendo di inviare messaggi pertinenti e personalizzati ai clienti.
+I **Campaign Integrated Customer Profile** consentono di monitorare ogni interazione con i clienti su tutti i canali in un’unica schermata, consentendo di inviare messaggi pertinenti e personalizzati ai clienti.
 
-**Segmentate il database in audience** per ottimizzare il target delle campagne di marketing.
+**Segmenta il database in audience** per ottimizzare il target delle campagne di marketing.
 
 **Gestisci le autorizzazioni e il consenso** dei clienti utilizzando i servizi e le pagine di destinazione per impostare semplici meccanismi di consenso e rinuncia.
 
-**Arricchite il database** utilizzando più funzionalità: flussi di lavoro, pagine di destinazione, API o Microsoft Dynamics 365.
+**Arricchisci il database** utilizzando più funzionalità: flussi di lavoro, pagine di destinazione, API o Microsoft Dynamics 365.
 
 [Guida introduttiva a profili e tipi di pubblico](../../audiences/using/get-started-profiles-and-audiences.md)
 
@@ -44,47 +44,47 @@ Controlla l&#39;intero processo di creazione, esecuzione e tracciamento delle ca
 
 <img width="60px" alt="condizioni" src="assets/icon_workflows.svg"/>
 
-Pianificare, coordinare e orchestrare campagne tra canali.
+Pianificare, coordinare e orchestrare campagne multicanale.
 
-**Ottimizzate l&#39;organizzazione** dei piani di marketing creando programmi e campagne. Analizzare l&#39;impatto delle campagne di marketing tramite report. Organizza le tue campagne utilizzando più attività di marketing accessibili da un&#39;unica interfaccia e configura modelli di attività di marketing per risparmiare tempo. [Guida introduttiva a piani e attività di Marketing](../../start/using/programs-and-campaigns.md)
+**Ottimizza l’organizzazione** dei piani di marketing creando programmi e campagne. Analizza l’impatto delle campagne di marketing tramite report. Organizza le tue campagne utilizzando più attività di marketing accessibili da un’unica interfaccia e configura modelli di attività di marketing per risparmiare tempo. [Guida introduttiva ai piani e alle attività di marketing](../../start/using/programs-and-campaigns.md)
 
-**Sfruttate i flussi di lavoro** per orchestrare e automatizzare le campagne. [Introduzione a processi e gestione dei dati](../../automating/using/get-started-workflows.md)
+**Sfrutta i flussi di lavoro** per orchestrare e automatizzare le campagne. [Guida introduttiva ai processi e alla gestione dei dati](../../automating/using/get-started-workflows.md)
 
 ## Progettazione e invio di messaggi {#design-send}
 
 <img width="60px" alt="condizioni" src="assets/icon_send.svg"/>
 
-Progetta e invia messaggi su canali di comunicazione online e offline, inclusa l&#39;ottimizzazione della distribuzione delle e-mail per più dispositivi tramite test e strategie di progettazione reattiva.
+Progetta e invia messaggi su canali di comunicazione online e offline, oltre a ottimizzare la distribuzione delle e-mail per più dispositivi tramite test e strategie di progettazione reattiva.
 
-**Utilizza i canali** di comunicazione Campaign per distribuire le tue campagne di marketing al posto giusto: e-mail, SMS, notifica push, messaggio in-app, posta diretta, pagine di destinazione. Acquisisci tempo e coerenza nella tua strategia di messaggistica creando modelli per tutti i tipi di messaggi (messaggi transazionali, ricorrenti e multilingue). Esegui test A/B e acquisisci l&#39;interesse del pubblico utilizzando funzionalità di personalizzazione e contenuti dinamici. [Guida introduttiva ai canali di comunicazione](../../channels/using/get-started-communication-channels.md)
+**Utilizza i canali di comunicazione Campaign** per distribuire le tue campagne di marketing al posto giusto: e-mail, SMS, notifiche push, messaggi in-app, direct mail, pagine di destinazione. Acquisisci tempo e coerenza nella tua strategia di messaggistica creando modelli per tutti i tipi di messaggi (messaggi transazionali, ricorrenti e multilingue). Esegui test A/B e acquisisci l’interesse del pubblico utilizzando funzionalità di personalizzazione e contenuti dinamici. [Guida introduttiva ai canali di comunicazione](../../channels/using/get-started-communication-channels.md)
 
-**Utilizza Campaign Email Designer** per creare messaggi e-mail accattivanti e personalizzati. Partiamo da zero o utilizzate frammenti di contenuto o modelli incorporati per progettare e-mail utilizzando il formato HTML ottimizzato per la progettazione reattiva. [Introduzione alla progettazione del contenuto delle e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
+**Utilizza Campaign E-mail Designer** per creare messaggi e-mail accattivanti e personalizzati. Parti da zero o utilizza frammenti di contenuto o modelli incorporati per progettare e-mail utilizzando il formato HTML ottimizzato per la progettazione reattiva. [Guida introduttiva alla progettazione del contenuto delle e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 
-**Analizzare e controllare il contenuto dei messaggi** prima dell&#39;invio, utilizzando più funzionalità di test come anteprima, prove, test dell&#39;oggetto dell&#39;e-mail, rendering dell&#39;e-mail e così via. Assicurati che i messaggi vengano recapitati al momento giusto ottimizzando il tempo di invio (pianificazione, gestione del fuso orario). [Introduzione al test dei messaggi e all&#39;invio](../../sending/using/get-started-sending-messages.md)
+**Analizza e controlla il contenuto dei messaggi** prima dell’invio, testando più funzionalità come anteprima, bozze, test dell’oggetto dell’e-mail, rendering dell’e-mail e così via. Assicurati che i messaggi vengano recapitati al momento giusto ottimizzando il tempo di invio (pianificazione, gestione del fuso orario). [Guida introduttiva alla verifica e all’invio](../../sending/using/get-started-sending-messages.md)
 
-## Tracciare l&#39;impatto delle campagne {#track-impact-campaigns}
+## Monitora l’impatto delle campagne {#track-impact-campaigns}
 
 <img width="60px" alt="condizioni" src="assets/icon_report.svg"/>
 
-Una volta che le campagne di marketing sono state eseguite e i diversi messaggi sono stati inviati, il Campaign Standard consente di monitorare il loro impatto e il comportamento dei destinatari.
+Una volta che le campagne di marketing sono state avviate e i diversi messaggi sono stati inviati, Campaign Standard consente di monitorare il loro impatto e il comportamento dei destinatari.
 
-**Monitora le consegne** una volta inviate. Consulta ed esporta registri dettagliati sulle tue consegne. Ottenete informazioni sul loro stato per ogni destinatario, i messaggi esclusi dalla destinazione e molte altre metriche.
-Sfruttate la funzione di avviso sulla distribuzione per tenere traccia dei successi o degli errori di consegna attraverso le notifiche e-mail. Vuoi saperne di più? [Introduzione al monitoraggio dei messaggi](../../sending/using/monitoring-a-delivery.md)
+**Monitora le consegne** una volta inviate. Consulta ed esporta registri dettagliati sulle tue consegne. Ottieni informazioni sul loro stato in base a ogni destinatario, ai messaggi esclusi dalla consegna e molte altre metriche.
+Sfrutta la funzione di avviso sulla distribuzione per tenere traccia della riuscita o degli errori di consegna attraverso le notifiche e-mail. Vuoi saperne di più? [Guida introduttiva al monitoraggio dei messaggi](../../sending/using/monitoring-a-delivery.md)
 
-**Monitora il comportamento dei destinatari** della consegna. Sfruttate la sessione e i cookie permanenti per recuperare le informazioni di tracciamento per ogni contatto del database. Monitora le informazioni di monitoraggio sulle consegne (URL su cui è stato fatto clic, pagine mirror, messaggi aperti...) attraverso registri e rapporti dedicati. [Introduzione al tracciamento dei messaggi](../../sending/using/tracking-messages.md)
+**Monitora il comportamento dei destinatari della consegna**. Sfrutta la sessione e i cookie permanenti per recuperare le informazioni di tracciamento per ogni contatto del database. Monitora le informazioni di tracciamento sulle consegne (URL su cui è stato fatto clic, pagine mirror, messaggi aperti, ecc.) attraverso registri e rapporti dedicati. [Guida introduttiva al tracciamento dei messaggi](../../sending/using/tracking-messages.md)
 
-**Utilizza i report** dinamici per delineare metriche specifiche correlate al messaggio o alla campagna. Il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale che aggiungono l&#39;accesso ai dati del profilo, abilitando l&#39;analisi demografica per dimensioni di profilo quali genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. L&#39;interfaccia di trascinamento consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari. [Introduzione al reporting dinamico](../../reporting/using/about-dynamic-reports.md)
+**Utilizza i report dinamici** per delineare metriche specifiche correlate al messaggio o alla campagna. Il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale che permettono anche di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. L’interfaccia di trascinamento consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari. [Guida introduttiva al reporting dinamico](../../reporting/using/about-dynamic-reports.md)
 
 ## Amministrazione della piattaforma ed estensione del modello dati {#datamodel-apis}
 
 <img width="60px" alt="condizioni" src="assets/icon_admin.svg"/>
 
-**Amplia il modello** dati Campaign Standard con campi e risorse personalizzate e monitora tutte le modifiche apportate al modello dati in un&#39;unica visualizzazione. [Guida introduttiva al modello dati di Campaign Standard](../../developing/using/get-started-data-model.md)
+**Amplia il modello dati Campaign Standard** con campi e risorse personalizzate e monitora tutte le modifiche apportate al modello dati in un’unica schermata. [Guida introduttiva al modello dati di Campaign Standard](../../developing/using/get-started-data-model.md)
 
-**Sfruttate le API** REST per eseguire varie operazioni e integrare Campaign Standard con il vostro ecosistema. [Introduzione alle API REST Campaign Standard](../../api/using/get-started-apis.md)
+**Sfrutta le API REST** per eseguire varie operazioni e integrare Campaign Standard con il tuo ecosistema. [Guida introduttiva alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
 
-**Amministrazione di Campaign** da un&#39;unica visualizzazione: monitorare l&#39;istanza, gestire le autorizzazioni degli utenti. Configurate i server esterni per la connessione all’istanza e i parametri per i canali di comunicazione. [Guida introduttiva all’amministrazione di Campaign Standard](../../administration/using/get-started-campaign-administration.md)
+**Gestisci Campaign** da un’unica schermata: monitora l’istanza, gestisci le autorizzazioni degli utenti. Configura i server esterni per la connessione all’istanza e i parametri per i canali di comunicazione. [Guida introduttiva all’amministrazione di Campaign Standard](../../administration/using/get-started-campaign-administration.md)
 
-**Importa ed esporta facilmente i dati** utilizzando le funzionalità di gestione Campaign Standard. [Introduzione a processi e gestione dei dati](../../automating/using/get-started-workflows.md)
+**Importa ed esporta facilmente i dati** utilizzando le funzionalità di gestione dati Campaign Standard. [Guida introduttiva ai processi e alla gestione dei dati](../../automating/using/get-started-workflows.md)
 
-**Combinate le funzionalità di Campaign con altre soluzioni** per creare campagne di marketing ottimali. [Introduzione alle integrazioni Campaign Standard](../../integrating/using/get-started-campaign-integrations.md)
+**Combina le funzionalità di Campaign con altre soluzioni** per creare campagne di marketing ottimali. [Guida introduttiva alle integrazioni di Campaign Standard](../../integrating/using/get-started-campaign-integrations.md)
