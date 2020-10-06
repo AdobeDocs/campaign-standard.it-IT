@@ -13,10 +13,10 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,21 +52,11 @@ A seconda dei parametri impostati e dell’avanzamento, alcune icone potrebbero 
 
    Per ulteriori informazioni sulle prove, consultate [Invio delle prove](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: consente di selezionare la modalità di approvazione da utilizzare: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** o entrambi per un&#39;e-mail. Per ulteriori informazioni sui profili di test, consultate [Invio di prove](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Send a test]**: consente di selezionare la modalità di approvazione da utilizzare: **[!UICONTROL Email rendering]** (solo e-mail) **[!UICONTROL Proof]** o entrambi. Per ulteriori informazioni sui profili di test, consultate [Invio di prove](../../sending/using/sending-proofs.md). Questo pulsante è attivato solo dopo la creazione dei profili di test.
 
-   Questo pulsante è attivato solo dopo che sono stati definiti i profili di test.
+* **[!UICONTROL Prepare send]**: inizia a preparare l&#39;invio. Il **[!UICONTROL Deployment]** blocco viene visualizzato e visualizza il risultato della preparazione. Questo pulsante viene visualizzato solo dopo che è stata immessa la destinazione. È possibile interrompere la preparazione in qualsiasi momento utilizzando il pulsante corrispondente. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >Per un messaggio SMS, non esiste altra scelta: è automaticamente un **[!UICONTROL Proof]**.
-
-* **[!UICONTROL Prepare send]**: inizia a preparare l&#39;invio. Il **[!UICONTROL Deployment]** blocco viene visualizzato e visualizza il risultato della preparazione. Questo pulsante viene visualizzato solo dopo che è stata immessa la destinazione. È possibile interrompere la preparazione in qualsiasi momento utilizzando il pulsante corrispondente.
-
-   Per ulteriori informazioni sulla preparazione dei messaggi, [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
-
-* **[!UICONTROL Confirm send]**: conferma l’invio del messaggio. Le statistiche di invio vengono visualizzate nel **[!UICONTROL Deployment]** blocco. Questo pulsante viene visualizzato solo dopo che l’invio è stato preparato. Puoi interrompere o mettere in pausa l’invio in qualsiasi momento utilizzando i **pulsanti Interrompi invio** e **[!UICONTROL Pause]** Interrompi.
-
-   Per ulteriori informazioni sulla conferma dell’invio, consulta [Invio di messaggi](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: conferma l’invio del messaggio. Le statistiche di invio vengono visualizzate nel **[!UICONTROL Deployment]** blocco. Questo pulsante viene visualizzato solo dopo che l’invio è stato preparato. Puoi interrompere o mettere in pausa l’invio in qualsiasi momento utilizzando i **pulsanti Interrompi invio** e **[!UICONTROL Pause]** Interrompi. Per ulteriori informazioni sulla conferma dell&#39;invio, vedere [Invio di messaggi](../../sending/using/confirming-the-send.md).
 
 ## Blocchi {#blocks}
 
