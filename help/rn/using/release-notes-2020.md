@@ -14,8 +14,8 @@ snippet: y
 translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,10 +71,10 @@ ht-degree: 95%
 </tbody> 
 </table>
 
-**Funzionalità** aggiuntive (a partire dal 13 luglio)
+**Funzionalità aggiuntive** (a partire dal 13 luglio)
 
-* **Ottimizzazione dei tempi di invio e valutazione** del profilo con tecnologia AI: ora puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ogni individuo. Basato su Journey AI,  Adobe Campaign può analizzare e prevedere le tariffe aperte, i tempi di invio ottimali e il probabile churn in base alle metriche di coinvolgimento storiche. [Ulteriori informazioni](../../sending/using/predictive.md)
-* **Brasile: nuova normativa** sulla privacy - Oltre alle funzionalità per la privacy già disponibili in Campaign,  Adobe aiuta a facilitare la tua disponibilità per la società brasiliana Lei Geral de Proteçao de Datos (LGPD). Durante la creazione di una richiesta per la privacy, il regolamento LGPD è stato aggiunto  Adobe Privacy Core Service. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html)
+* **Ottimizzazione dei tempi di invio e valutazione del profilo con tecnologia AI**: ora puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ogni individuo. Basato sull’intelligenza artificiale Journey AI, Adobe Campaign può analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base alle metriche di coinvolgimento storiche. [Ulteriori informazioni](../../sending/using/predictive.md)
+* **Brasile: nuova normativa sulla privacy**: oltre alle funzionalità per la privacy già disponibili in Campaign, Adobe facilita la tua preparazione al Lei Geral de Proteçao de Datos (LGPD) del Brasile. Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento LGPD è stato aggiunto al servizio core Privacy di Adobe. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html)
 
 **Miglioramenti**
 
@@ -128,7 +128,7 @@ ht-degree: 95%
 * È stato corretto un errore che impediva agli utenti di apportare modifiche ai rapporti. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Il nuovo Pannello di controllo Campaign potrebbe rilasciare** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuova versione di maggio del Pannello di controllo Campaign** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
 
 ## Versione 20.2 - Aprile 2020 {#release-20-2---april-2020}
 
@@ -245,7 +245,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td> <p>Il Connettore dati di Adobe Experience Platform è ora integrato con Adobe Campaign Standard. Puoi rendere disponibili i dati di Campaign su Adobe Experience Platform mappando i dati XTK (dati acquisiti in Campaign) su Adobe Experience Platform Data Model (XDM). </p>
-    <p>Questa funzionalità è disponibile solo per i clienti in hosting su Azure. Per ulteriori informazioni su questa funzionalità e sulle relative condizioni di attivazione, consulta la <a href="../../developing/using/aep-about-data-connector.md">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video di istruzioni</a>.</p>
+    <p>Questa funzionalità è disponibile solo per i clienti in hosting su Azure. Per ulteriori informazioni su questa funzionalità e sulle relative condizioni di attivazione, consulta la <a href="../../developing/using/aep-about-data-connector.md">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video di istruzioni</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -310,7 +310,7 @@ ht-degree: 95%
 * Sono stati risolti dei problemi di prestazioni che potevano verificarsi durante la selezione e l’aggiornamento dei profili di test. (CAMP-37976)
 * È stato risolto un problema che poteva provocare la visualizzazione di pagine di errore durante l’abbonamento o l’annullamento dell’abbonamento tramite pagine di destinazione. (CAMP-37771)
 * È stato risolto un problema che si verificava durante il caricamento di contenuto in formato zip, in cui l’estensione dei file PNG a cui si faceva riferimento nell’HTML era in lettere maiuscole. (CAMP-37913)
-* È stato risolto un problema che impediva l&#39;invio di messaggi in-app quando si aggiungeva un profilo di test alla consegna.
+* È stato risolto un problema che impediva l’invio di messaggi in-app quando si aggiungeva un profilo di test alla consegna.
 * È stato risolto un errore che impediva il funzionamento dell’attività del flusso di lavoro External API quando era collegata ad attività di arricchimento.
 * È stato risolto un problema che poteva causare una visualizzazione errata dello stato dei messaggi SMS.
 * È stato risolto un problema relativo alle risorse personalizzate che provocava la visualizzazione di voci duplicate in endpoint API diversi.
