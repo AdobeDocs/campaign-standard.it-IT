@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '6247'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -28,17 +28,17 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 **Nuove funzionalità incluse nella versione**
 
-Control groups - [Read More](../../sending/using/control-group.md)
+Gruppi di controllo. [Leggi tutto](../../sending/using/control-group.md)
 
-API esterna (supporto OAuth) - [Leggi tutto](../../automating/using/external-api.md)
+API esterna (supporto OAuth). [Leggi tutto](../../automating/using/external-api.md)
 
-Integrazione di Journey AI - [Leggi tutto](../../sending/using/predictive.md)
+Integrazione di Journey AI. [Leggi tutto](../../sending/using/predictive.md)
 
 **Altri aggiornamenti alla documentazione in arrivo con la versione**
 
-La sezione su come chiamare un flusso di lavoro con parametri esterni è stata arricchita con le nuove funzioni disponibili nell&#39;Editor espressione. [Leggi tutto](../../automating/using/customizing-workflow-external-parameters.md)
+La sezione sulla chiamata di un flusso di lavoro con parametri esterni è stata arricchita con le nuove funzioni disponibili nell’editor espressioni. [Leggi tutto](../../automating/using/customizing-workflow-external-parameters.md)
 
-È stata aggiunta una raccomandazione alle procedure ottimali dei flussi di lavoro sul numero di attività da utilizzare per ogni flusso di lavoro. [Leggi tutto](../../automating/using/best-practices-workflows.md#number-activities)
+Alle procedure consigliate per i flussi di lavoro è stato aggiunto un consiglio relativo al numero di attività da utilizzare per ogni flusso di lavoro. [Leggi tutto](../../automating/using/best-practices-workflows.md#number-activities)
 
 È stata aggiunta una nuova sezione sulle procedure ottimali di consegna. [Leggi tutto](../../sending/using/delivery-best-practices.md)
 
@@ -46,11 +46,11 @@ La sezione su come chiamare un flusso di lavoro con parametri esterni è stata a
 
 ## Aggiornamenti alla documentazione - settembre 2020 {#doc-updates-september-2020}
 
-La sezione Messaggi transazionali evento è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/event-transactional-messages.md)
+La sezione Messaggi sulle transazioni degli eventi è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/event-transactional-messages.md)
 
-È stata aggiunta una nota di avviso per avvisare gli utenti della limitazione delle autorizzazioni relativa all’accesso al registro. [Leggi tutto](../../administration/using/users-management.md)
+È stata aggiunta una nota di avviso per informare gli utenti della limitazione delle autorizzazioni relativa all’accesso al registro. [Leggi tutto](../../administration/using/users-management.md)
 
-È stata aggiunta una nuova sezione per descrivere in dettaglio il processo di creazione di un nuovo marchio. [Leggi tutto](../../administration/using/branding.md#creating-a-brand)
+È stata aggiunta una nuova sezione per descrivere nel dettaglio il processo di creazione di un nuovo marchio. [Leggi tutto](../../administration/using/branding.md#creating-a-brand)
 
 È ora disponibile la nuova integrazione Campaign Standard - Microsoft Dynamics 365. [Leggi tutto](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -58,37 +58,37 @@ Nel rapporto Profili attivi sono state aggiunte informazioni sulle origini anoni
 
 ## Aggiornamenti alla documentazione - agosto 2020 {#doc-updates-august-2020}
 
-È disponibile una nuova sezione aggiornata per iniziare a utilizzare i messaggi transazionali. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
+È disponibile una nuova sezione aggiornata nella guida introduttiva sull’utilizzo dei messaggi transazionali. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
 
-La sezione Limiti **messaggistica** transazionali è stata spostata [qui](../../channels/using/transactional-messaging-limitations.md)
+La sezione **Limitazioni della messaggistica transazionale** è stata spostata [qui](../../channels/using/transactional-messaging-limitations.md)
 
-La sezione **Preparazione dell&#39;invio** è stata spostata [qui](../../sending/using/preparing-the-send.md)
+La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/using/preparing-the-send.md)
 
 ## Aggiornamenti alla documentazione - luglio 2020 {#doc-updates-july-2020}
 
-È stata aggiunta una nuova sezione con linee guida relative al monitoraggio Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
+È stata aggiunta una nuova sezione con le linee guida relative al monitoraggio di Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
 
-È stata aggiornata la sezione Correzioni e limitazioni API esterne. [Leggi tutto](../../automating/using/external-api.md#guardrails)
+La sezione Correzioni e limitazioni API esterne è stata aggiornata. [Leggi tutto](../../automating/using/external-api.md#guardrails)
 
-La pagina Panoramica sulla gestione della privacy è stata aggiornata per includere informazioni sulla legge sulla protezione dei dati personali (PDPA) in Tailandia e sulla società brasiliana Lei Geral de Proteção de Dados (LGPD). [Leggi tutto](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La Panoramica sulla Gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con documentazione tecnica sulla configurazione mobile. [Leggi tutto](../../administration/using/push-tracking.md)
+La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con relativa documentazione tecnica. [Leggi tutto](../../administration/using/push-tracking.md)
 
-La pagina Gestione della privacy in Campaign Standard è stata aggiornata, con informazioni su come gestire le richieste di privacy tramite l&#39;integrazione del servizio di base sulla privacy. [Leggi tutto](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+La pagina Gestione della privacy in Campaign Standard è stata aggiornata con informazioni su come gestire le richieste di accesso a dati personali tramite l’integrazione del servizio core Privacy. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-Nuove funzionalità di e-mail basate su intelligenza artificiale: ottimizzazione del tempo di invio e punteggio del profilo. [Leggi tutto](../../sending/using/predictive.md)
+Nuove funzionalità di e-mail basate sull’intelligenza artificiale: ottimizzazione del tempo di invio e valutazione del profilo. [Leggi tutto](../../sending/using/predictive.md)
 
-## Aggiornamenti della documentazione - Giugno 2020 {#doc-updates-june-2020}
+## Aggiornamenti alla documentazione - giugno 2020 {#doc-updates-june-2020}
 
 I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in sezioni tematiche. [Leggi tutto](../../automating/using/about-workflow-use-cases.md)
 
 Sono stati aggiunti casi di utilizzo su come [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decrittare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dati tramite il Pannello di controllo Campaign e i flussi di lavoro di Campaign.
 
-I riferimenti al sito Web Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+I riferimenti al sito web di Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/ac-support.html#acs-support-req)
 
-La configurazione personalizzata dell&#39;account Litmus è stata rimossa dalla funzionalità di rendering Inbox. [Leggi tutto](../../sending/using/email-rendering.md)
+La configurazione personalizzata dell’account Litmus è stata rimossa dalla funzionalità di rendering in entrata. [Leggi tutto](../../sending/using/email-rendering.md)
 
-L&#39;integrazione Campaign Standard - Microsoft Dynamics 365 non è al momento disponibile. È in corso di sviluppo un nuovo connettore che sarà disponibile in futuro. Le relative pagine di aiuto sono state rimosse. [Leggi tutto](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+L’integrazione Campaign Standard - Microsoft Dynamics 365 non è al momento disponibile. È in fase di sviluppo un nuovo connettore, che sarà disponibile in futuro. Le relative pagine di aiuto sono state rimosse. [Leggi tutto](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Aggiornamenti alla documentazione - maggio 2020 {#doc-updates-may-2020}
 
@@ -510,7 +510,7 @@ Miglioramenti della versione beta della messaggistica in-app - [Ulteriori inform
 
 È stata aggiornata la guida Progettazione del contenuto per riflettere la disponibilità generale di E-mail Designer e la rimozione dell’editor dei contenuti dell’e-mail legacy. [Ulteriori informazioni](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+È stata aggiornata la documentazione delle notifiche [in-app](../../channels/using/about-in-app-messaging.md) e [push](../../channels/using/about-push-notifications.md).
 
 Sono state aggiunte ulteriori informazioni sui vari tipi di pubblico all’interno di Adobe Campaign. [Ulteriori informazioni](../../audiences/using/about-audiences.md)
 
@@ -620,7 +620,7 @@ Sono state aggiunte informazioni sui tipi di registro di tracciamento. [Ulterior
 
 La sezione attività di query è stata aggiornata con esempi di query. [Ulteriori informazioni](../../automating/using/query.md#query-samples)
 
-La sezione dedicata ai elenco Bloccati è stata rinominata &quot;Comprendere i processi di opt-in e opt-out&quot;. La sezione è stata aggiornata con le informazioni relative alle modalità di gestione del consenso a canali specifici e di impostazione delle pagine di destinazione per la gestione del consenso e della rinuncia. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La sezione dedicata all’elenco Bloccati è stata rinominata “Informazioni sui processi di consenso e rinuncia”. La sezione è stata aggiornata con le informazioni relative alle modalità di gestione del consenso a canali specifici e di impostazione delle pagine di destinazione per la gestione del consenso e della rinuncia. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Scopri le best practice per l’utilizzo dei server SFTP ospitati da Adobe. [Ulteriori informazioni](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -644,7 +644,7 @@ Utilizzo delle risorse personalizzate nella messaggistica transazionale - [Ulter
 
 Le funzionalità dei gruppi API RGPD consentono l’elaborazione automatica delle richieste RGPD. [Ulteriori informazioni](../../api/using/creating-a-privacy-request.md)
 
-Sono state aggiunte informazioni su come impostare le pagine di destinazione per consentire ai destinatari di essere elenco Bloccati. [Ulteriori informazioni](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Sono state aggiunte informazioni sulla modalità di impostazione delle pagine di destinazione, al fine di consentire l’inserimento dei destinatari nell’elenco Bloccati. [Ulteriori informazioni](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 È stata riorganizzata la sezione [Configurazione della messaggistica transazionale](../../administration/using/configuring-transactional-messaging.md) ed è stato aggiunto un [caso d’uso dettagliato](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
@@ -698,7 +698,7 @@ Sono state aggiunte informazioni sulla modalità di invio di una consegna in bas
 
 Riorganizzazione della sezione **[!UICONTROL Customizing a push notification]** con casi d’uso dettagliati. [Ulteriori informazioni](../../channels/using/customizing-a-push-notification.md)
 
-Nuova sezione dedicata alla gestione elenco Bloccati. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nuova sezione dedicata alla gestione dell’elenco Bloccati. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Sono state aggiornate le informazioni sugli errori di consegna e quarantena. [Ulteriori informazioni](../../sending/using/monitoring-a-delivery.md)
 
@@ -860,7 +860,7 @@ Numerose schermate sono state aggiornate per riflettere le modifiche all’inter
 
 È ora disponibile una nuova nota tecnica: &quot;Integrazione dell’SDK di Adobe Mobile con la tua app mobile&quot;. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html)
 
-Sono state aggiunte istruzioni per configurare il servizio di base Persone o &#39;integrazione con  Adobe Campaign. [Leggi tutto](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Sono state aggiunte le istruzioni per configurare il servizio core People o l’integrazione Audience Manager con Adobe Campaign. [Leggi tutto](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -884,7 +884,7 @@ Integrazione live di Dreamweaver - [Ulteriori informazioni](https://docs.adobe.c
 
 È stata aggiunta una sezione ai vari tipi di utenti di Adobe Campaign. [Ulteriori informazioni](../../administration/using/users-management.md)
 
-La Guida al Flusso di lavoro è stata riorganizzata ed estesa. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+La Guida al Flusso di lavoro è stata riorganizzata ed estesa. Scopri facilmente come [generare](../../automating/using/building-a-workflow.md) ed [eseguire](../../automating/using/about-workflow-execution.md) un flusso di lavoro, come [eseguire il targeting](../../automating/using/about-targeting-activities.md) e [gestire](../../automating/using/about-targeting-activities.md#enriching-data) i tuoi dati, come [importare ed esportare](../../automating/using/about-data-import-and-export.md) i dati e come utilizzare i dati del flusso di lavoro per aggiornare il database o per inviare consegne.
 
 Ora è disponibile il calcolo degli indicatori di report per i report dinamici, tra cui la descrizione completa e la formula di calcolo. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
