@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 49%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -164,5 +164,5 @@ Consultate questa [pagina](../../reporting/using/indicator-calculation.md#push-n
 
 Sì, i collegamenti dei dettagli sono supportati nei messaggi push. I collegamenti di dettaglio devono includere:
 
-* la lingua in cui si afferma che il tracciamento della consegna deve essere disabilitato per consentire il funzionamento dei collegamenti dettagliati.
+* Lingua che indica che il tracciamento della consegna deve essere disabilitato per consentire il funzionamento dei collegamenti dei dettagli.
 * Applicate un&#39;applicazione con il ramo come partner in grado di eseguire il tracciamento del collegamento profondo. Per ulteriori informazioni sull&#39;integrazione di Branch e  Adobe Campaign Standard, consultare questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
