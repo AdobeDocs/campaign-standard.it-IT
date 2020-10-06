@@ -180,35 +180,35 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su punti d
  </thead> 
  <tbody> 
   <tr> 
-   <td> Richiamo dell’URL API “%s”.</td> 
+   <td> Invoking API URL '%s'.</td> 
    <td> <p>Richiamo dell’URL API “https://example.com/api/v1/web-coupon?count=2”.</p></td> 
   </tr> 
   <tr> 
-   <td> Nuovo tentativo URL API '%s' a causa di %s in %d ms, tentativo %d.</td> 
+   <td> Retrying API URL '%s' due to %s in %d ms, attempt %d.</td> 
    <td> <p>Nuovo tentativo URL API 'https://example.com/api/v1/web-coupon?count=0' a causa di HTTP - 401 in 2364 ms, tentativo 2.</p></td>
   </tr> 
   <tr> 
-   <td> Trasferimento di contenuto da “%s” (%s / %s).</td> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>Trasferimento di contenuto da “https://example.com/api/v1/web-coupon?count=2” (1234 / 1234).</p></td> 
   </tr>
   <tr> 
-   <td> Utilizzo del token di accesso nella versione cache per l’ID provider '%s'.</td> 
+   <td> Using cached access token for provider ID '%s'.</td> 
    <td> <p>Utilizzo del token di accesso nella versione cache per l’ID provider 'EXT25'. Nota: EXT25 è l’ID (o nome) dell’account esterno. </p></td> 
   </tr>
   <tr> 
-   <td> Token di accesso recuperato dal server per l’ID provider '%s'.</td> 
+   <td> Fetched access token from server for provider ID '%s'.</td> 
    <td> <p>Token di accesso recuperato dal server per l’ID provider 'EXT25'. Nota: EXT25 è l’ID (o nome) dell’account esterno.</p></td> 
   </tr>
   <tr> 
-   <td> Aggiornamento del token di accesso OAuth a causa di un errore (HTTP: '%d').</td> 
+   <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
    <td> <p>Aggiornamento del token di accesso OAuth a causa di un errore (HTTP: '401').</p></td> 
   </tr>
   <tr> 
-   <td> Errore durante l’aggiornamento del token di accesso OAuth (errore: '%d'). </td> 
+   <td> Error refreshing OAuth access token (error: '%d'). </td> 
    <td> <p>Errore durante l’aggiornamento del token di accesso OAuth (errore: '404').</p></td> 
   </tr>
   <tr> 
-   <td> Impossibile recuperare il token di accesso OAuth utilizzando l’account esterno specificato al tentativo %d. Verrà eseguito un nuovo tentativo tra %d ms.</td> 
+   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
    <td> <p>Impossibile recuperare il token di accesso OAuth utilizzando l’account esterno specificato al tentativo 1. Verrà eseguito un nuovo tentativo tra 1387 ms.</p></td> 
   </tr>
  </tbody> 
@@ -227,92 +227,92 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su condizi
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 - Il corpo della richiesta API ha superato il limite (limite: “%d”).</td> 
+   <td> WKF-560250 - API request body exceeded limit (limit: '%d').</td> 
    <td> <p>Il corpo della richiesta API ha superato il limite (limite: “5242880”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 - La risposta API ha superato il limite (limite: “%d”).</td> 
+   <td> WKF-560239 -  API response exceeded limit (limit: '%d').</td> 
    <td> <p>La risposta API ha superato il limite (limite: “5242880”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 - Impossibile analizzare l’URL API (errore: “%d”).</td> 
+   <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
    <td> <p>Impossibile analizzare l’URL API (errore: “-2010”).</p>
    <p> Nota: questo errore viene registrato quando l’URL API non rispetta le regole di convalida.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - L’host dell’URL API non deve essere “localhost” o indirizzo IP letterale (Host URL: “%s”).</td> 
+   <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
    <td> <p>L’host dell’URL API non deve essere “localhost” o indirizzo IP letterale (Host URL: “localhost”).</p>
     <p>L’host dell’URL API non deve essere “localhost” o indirizzo IP letterale (Host URL: “192.168.0.5”).</p>
     <p>L’host dell’URL API non deve essere “localhost” o indirizzo IP letterale (Host URL: “[2001]”).</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - L’URL API deve essere un URL protetto (https) (URL richiesto: “%s”).</td> 
+   <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
    <td> <p>L’URL API deve essere un URL protetto (https) (URL richiesto: “https://example.com/api/v1/web-coupon?count=2”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 - Impossibile creare il corpo della richiesta JSON. Errore durante l’aggiunta di “%s”.</td> 
+   <td> WKF-560249 - Impossibile creare il corpo della richiesta JSON. Error when adding '%s'.</td> 
    <td> <p>Impossibile creare il corpo della richiesta JSON. Errore durante l’aggiunta di “params”.</p>
     <p>Impossibile creare il corpo della richiesta JSON. Errore durante l’aggiunta di “data”.</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - Chiave di intestazione HTTP non valida (chiave di intestazione: “%s”).</td> 
-   <td> <p>Chiave di intestazione HTTP non valida (chiave di intestazione: “%s”).</p>
+   <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
+   <td> <p>HTTP header key is bad (header key: '%s').</p>
    <p> Nota: questo errore viene registrato quando la chiave di intestazione personalizzata non supera la convalida secondo la <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 - Chiave di intestazione HTTP non consentita (chiave di intestazione: “%s”).</td> 
+   <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
    <td> <p>Chiave di intestazione HTTP non consentita (chiave di intestazione: “Accept”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Valore di intestazione HTTP non valido (valore di intestazione: “%s”).</td> 
-   <td> <p>Valore di intestazione HTTP non valido (valore di intestazione: “%s”). </p>
+   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Nota: questo errore viene registrato quando il valore di intestazione personalizzato non supera la convalida secondo la <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240 - Il payload JSON ha una proprietà non valida “%s”.</td> 
+   <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
    <td> <p>Il payload JSON ha una proprietà non valida “blah”.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241 - JSON malformato o formato non accettabile.</td> 
+   <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
    <td> <p>JSON malformato o formato non accettabile.</p>
    <p>Nota: questo messaggio si applica solo all’analisi del corpo della risposta dall’API esterna e viene registrato quando si tenta di convalidare la conformità del corpo della risposta al formato JSON richiesto da questa attività.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 - Attività non riuscita (motivo: “%s”).</td> 
+   <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>Quando l’attività non riesce a causa di una risposta di errore HTTP 401 - Attività non riuscita (motivo: “HTTP - 401”)</p>
         <p>Quando l’attività non riesce a causa di una chiamata interna non riuscita - Attività non riuscita (motivo: “iRc - -Nn”).</p>
         <p>Quando l’attività non riesce a causa di un’intestazione Content-Type non valida. - Attività non riuscita (motivo: “Content-Type - application/html”).</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "Errore durante l’inizializzazione dell’helper OAuth (errore: '%d')".</td> 
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
    <td> <p>Questo errore indica che, a causa di un errore nell’utilizzo degli attributi configurati nell’account esterno per inizializzare l’helper, l’attività non è riuscita a inizializzare la funzionalità interna helper OAuth2.0.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "Chiave di intestazione HTTP non consentita (chiave di intestazione: “%s”)."</td> 
+   <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 
    <td> <p>Questo messaggio di avviso (non di errore) indica che l’account esterno OAuth 2.0 è stato configurato per aggiungere una credenziale come intestazione HTTP, ma la chiave di intestazione utilizzata non è consentita perché riservata.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - Impossibile trovare l’account esterno dell’ID '%s'.</td> 
+   <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
    <td> <p>Impossibile trovare l’account esterno dell’ID 'EXT25'. Nota: questo errore indica che l’attività è configurata per utilizzare un account esterno che non è più possibile trovare. È molto probabile che ciò avvenga quando l’account è stato cancellato dal DB, e per questo motivo non dovrebbe accadere in normali circostanze operative.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - L’account esterno dell’ID '%s' è disabilitato.</td> 
+   <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
    <td> <p>L’account esterno dell’ID 'EXT25' è disabilitato. Nota: questo errore indica che l’attività è configurata per l’utilizzo di un account esterno che però è stato disabilitato (o contrassegnato come inattivo).</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 - Protocollo non supportato.</td> 
+   <td> WKF-560282 - Protocol not supported.</td> 
    <td> <p>Questo errore indica che l’account esterno associato all’attività non è un account esterno OAuth2.0. Per questo motivo è improbabile che questo errore si verifichi, a meno che non si verifichino alcuni danneggiamenti o modifiche manuali alla configurazione dell’attività.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - Impossibile recuperare il token di accesso OAuth.</td> 
+   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
    <td> <p>La causa più comune di questo errore è la configurazione errata dell’account esterno (ad esempio l’utilizzo dell’account esterno senza verificare che la connessione abbia esito positivo). È possibile che le URL/credenziali sull’account esterno vengano modificate.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 - Impossibile raggiungere la pagina all’indirizzo %s.</td> 
+   <td> CRL-290199 - Cannot reach page at: %s.</td> 
    <td> <p>Questo messaggio di errore viene visualizzato nella schermata dell’interfaccia utente degli account esterni durante la configurazione per OAuth. Ciò significa che l’URL del server di autorizzazione esterno è errato/modificato o che non è disponibile la risposta dal server.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 - Credenziali non complete/errate.</td> 
+   <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
    <td> <p>Questo messaggio di errore viene visualizzato nella schermata dell’interfaccia utente degli account esterni durante la configurazione per OAuth. Ciò significa che le credenziali non sono corrette o che ne mancano altre necessarie per connettersi al server di autenticazione.
 </p></td>
   </tr>
