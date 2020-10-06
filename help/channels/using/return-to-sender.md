@@ -12,10 +12,10 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,4 +39,3 @@ Al termine dell’importazione,  Adobe Campaign esegue automaticamente le azioni
 * Gli indirizzi errati vengono aggiunti al elenco Bloccati a livello di profilo
 * Gli indicatori principali di consegna (KPI) vengono aggiornati
 * I registri di consegna vengono aggiornati
-
