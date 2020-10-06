@@ -11,11 +11,11 @@ topic-tags: campaign-standard-release-planning
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare que
 
 **NOVITÀ!** Abbonati alle [notifiche di rilascio di Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) per ottenere informazioni sulle prossime versioni direttamente nella tua casella in entrata.
 
-## Release 20.4 - Rilascio di ottobre {#release-20-4-oct-release}
+## Versione 20.4 - ottobre {#release-20-4-oct-release}
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md). Per ulteriori domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
