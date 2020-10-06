@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '2492'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,9 @@ Per accedere al messaggio transazionale creato:
 
 ## Personalizzazione di un messaggio sulle transazioni {#personalizing-a-transactional-message}
 
-Per impostare la personalizzazione in un messaggio sulle transazioni, segui i passaggi riportati di seguito:
+Questo esempio illustra come personalizzare un messaggio di transazione aggiungendo tre campi definiti al momento della [creazione dell’evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): nome, ultimo prodotto consultato, importo totale del carrello.
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. Fai clic sul blocco **[!UICONTROL Content]** per modificare l’oggetto e il contenuto del messaggio. Ai fini del presente esempio, seleziona un modello contenente immagini e testo. Per ulteriori informazioni sui modelli di contenuto dell’e-mail, consulta [Progettazione mediante modelli](../../designing/using/using-reusable-content.md#designing-templates).
 
@@ -64,9 +66,7 @@ Per impostare la personalizzazione in un messaggio sulle transazioni, segui i pa
    >
    >Il collegamento al carrello abbandonato porta a un URL esterno che reindirizzerà il consumatore al proprio carrello. Tale parametro non è gestito all’interno di Adobe Campaign.
 
-1. Nell’esempio attuale, vuoi aggiungere tre campi precedentemente definiti durante la [creazione dell’evento](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): nome, ultimo prodotto visionato, importo totale del carrello. A tal fine, [inserisci un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field) nel contenuto del messaggio.
-
-1. Puoi accedere ai campi in questione tramite **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Sfoglia **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** per ottenere i campi di personalizzazione: nome, ultimo prodotto consultato, importo totale del carrello.
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ Per impostare la personalizzazione in un messaggio sulle transazioni, segui i pa
 
 Puoi creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati presenti nel contenuto di un’e-mail sulle transazioni. Ad esempio, in un messaggio e-mail di abbandono del carrello puoi includere un elenco di tutti i prodotti presenti nei carrelli degli utenti al momento dell’uscita dal sito web, aggiungendo un’immagine, il prezzo e il collegamento a ciascun prodotto.
 
+Ulteriori informazioni in [questo video](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html).
+
 >[!IMPORTANT]
 >
 >Gli elenchi dei prodotti sono disponibili solo durante la modifica dei messaggi e-mail sulle transazioni tramite l’interfaccia di [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
-
-Per aggiungere un elenco di prodotti abbandonati in un messaggio sulle transazioni, segui i passaggi indicati di seguito.
-
-Puoi inoltre visionare una serie di video che illustrano i passaggi necessari per la configurazione degli elenchi di prodotti in un messaggio e-mail sulle transazioni. Per ulteriori informazioni, consulta [questa pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html).
-
->[!NOTE]
 >
 >Adobe Campaign non supporta elenchi di prodotti nidificati, il che significa che non puoi includere un elenco di prodotti all’interno di un altro.
 
-### Definizione di un elenco di prodotti {#defining-a-product-listing}
+Nell&#39;esempio seguente, verranno illustrati i passaggi per aggiungere un elenco di prodotti abbandonati in un messaggio transazionale.
+
+### Passaggio 1: Definire un elenco di prodotti {#defining-a-product-listing}
 
 Prima di poter utilizzare un elenco di prodotti in un messaggio sulle transazioni, è necessario definire a livello di evento l’elenco dei prodotti e i campi per ciascun prodotto da visualizzare. Per ulteriori informazioni, consulta [Definizione delle raccolte di dati](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
@@ -144,7 +142,7 @@ Prima di poter utilizzare un elenco di prodotti in un messaggio sulle transazion
    >
    >Se desideri che gli elementi dell’elenco siano visualizzati in verticale ( **[!UICONTROL Column]** ), il numero massimo è limitato in base al componente struttura selezionato (2, 3 o 4 colonne). Per ulteriori informazioni sulla selezione dei componenti struttura, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Popolamento dell’elenco dei prodotti {#populating-the-product-listing}
+### Passaggio 2: Compilare l&#39;elenco dei prodotti {#populating-the-product-listing}
 
 Per visualizzare un elenco dei prodotti provenienti dall’evento collegato al messaggio e-mail sulle transazioni, attieniti alla procedura seguente.
 
