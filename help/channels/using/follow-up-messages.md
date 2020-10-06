@@ -12,10 +12,10 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -129,4 +129,3 @@ Una volta avviato il flusso di lavoro, ogni cliente che ha ricevuto la notifica 
 >[!NOTE]
 >
 >Se hai selezionato la dimensione di **[!UICONTROL Profile]** targeting al momento della creazione della configurazione dell&#39;evento, il messaggio di follow-up utilizzerà anche il database di marketing di Adobe Campaign . Vedi [Messaggi transazionali di profilo](../../channels/using/profile-transactional-messages.md).
-
