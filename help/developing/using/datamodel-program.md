@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 7%
 
 ---
 
@@ -107,7 +108,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                         <li>In corso - avviato - avviato</li>
                         <li>Editing - edizione</li>
                         <li>Finito - finito - finito</li>
-                        <li>Avviso - Avviso</li>
+                        <li>Avvertenza - Avviso</li>
                         <li>Erroneo - errore - errore</li>
                         <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
                      </ul>
@@ -176,7 +177,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Program</td>
+                  <td>programma</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
