@@ -10,20 +10,18 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
 # Comandi di esecuzione {#execution-commands}
 
-Le icone nella barra delle azioni consentono di avviare, tracciare e modificare l&#39;esecuzione di un flusso di lavoro. Vedere Barra [](../../automating/using/workflow-interface.md#action-bar)delle azioni.
+Le icone nella barra delle azioni consentono di avviare, tenere traccia e modificare l&#39;esecuzione di un flusso di lavoro. Vedere Barra [](../../automating/using/workflow-interface.md#action-bar)delle azioni.
 
 ![](assets/wkf_execution_2.png)
 
@@ -41,11 +39,11 @@ Il ![](assets/play_darkgrey-24px.png) pulsante avvia l&#39;esecuzione di un flus
 
 Il ![](assets/pause_darkgrey-24px.png) pulsante mette in pausa l&#39;esecuzione. Il flusso di lavoro assume lo stato **Avviso** (giallo). Nessuna nuova attività verrà attivata fino alla sua ripresa, ma le operazioni in corso non saranno sospese.
 
-**Interrompi**
+**Interruzione**
 
 Il ![](assets/stop_darkgrey-24px.png) pulsante interrompe un flusso di lavoro in esecuzione, che assumerà quindi lo stato **Completato** (verde). Le operazioni in corso vengono interrotte, se possibile, e le importazioni o le query SQL in corso vengono immediatamente annullate. Non è possibile riprendere il flusso di lavoro dalla stessa posizione in cui è stato interrotto.
 
-**Riavvia**
+**Riavvio**
 
 Il ![](assets/pauseplay_darkgrey-24px.png) pulsante comporta l&#39;arresto, quindi il riavvio di un flusso di lavoro. Nella maggior parte dei casi, questo consente di riavviare più rapidamente. Può essere utile anche automatizzare il riavvio una volta che l&#39;arresto richiede un certo tempo, perché il ![](assets/play_darkgrey-24px.png) pulsante è disponibile solo quando l&#39;arresto è effettivo.
 
