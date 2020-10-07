@@ -1,6 +1,6 @@
 ---
 title: Personalizzazione degli elenchi
-description: '"Scoprite come personalizzare la visualizzazione e agire sulle schermate degli elenchi in  Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione di elementi. Nelle schermate sono visualizzati elementi di una o più risorse."'
+description: '"Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in  Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione di elementi. Nelle schermate sono visualizzati elementi di una o più risorse."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -75,15 +73,15 @@ Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
-Attira l&#39;attenzione dei clienti e migliora il tasso di risposta utilizzando contenuti e intestazioni personalizzati in base ai loro profili, alle loro preferenze e alla loro attività. Tutte le informazioni sul cliente sono centralizzate  Adobe Campaign e potete offrire messaggi contenenti contenuto adattato, attraverso canali diversi.
+Attira l&#39;attenzione dei clienti e migliora il tasso di risposta utilizzando contenuti e intestazioni personalizzati in base ai loro profili, alle loro preferenze e alla loro attività. Tutte le informazioni sul cliente sono centralizzate in  Adobe Campaign e potete offrire messaggi contenenti contenuti adattati, attraverso canali diversi.
 
-I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, offrire esperienze personalizzate e aumentare i tassi di conversione e apertura. I messaggi tra canali inviati da  Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati con criteri a seconda dei profili. È possibile:
+I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, offrire esperienze personalizzate e aumentare i tassi di conversione e apertura. I messaggi multicanale inviati da  Adobe Campaign possono essere personalizzati in diversi modi. Questi metodi possono essere combinati con criteri a seconda dei profili. Puoi:
 
 * Inserisci campi [di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field) dinamica nei messaggi
-* Inserire blocchi di personalizzazione [predefiniti](../../designing/using/personalization.md#adding-a-content-block)
+* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [Personalizzare il mittente](../../designing/using/subject-line.md) di un&#39;e-mail o di un SMS
 * [Personalizzare l’oggetto](../../designing/using/subject-line.md) di un messaggio e-mail o utilizzare le funzionalità [Predictive dell’oggetto](../../designing/using/subject-line.md#subject-line) per ottimizzarlo
-* Creare contenuto [condizionale in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Creare contenuto [condizionale in un&#39;e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Inserire testo [](../../channels/using/defining-dynamic-text.md) dinamico in un messaggio SMS o in una notifica push
 
 ![](assets/delivery_content_43.png)
