@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 3%
 
 ---
 
@@ -26,21 +27,21 @@ Potete inserire immagini nei messaggi e-mail e nelle pagine di destinazione.
 A seconda della configurazione, sono disponibili i seguenti tipi di immagini:
 
 * Immagini locali
-* Immagini condivise da Adobe Experience Cloud - fate riferimento a [Utilizzo del servizio](../../integrating/using/working-with-campaign-and-assets-core-service.md) core Campaign e Assets / Assets On Demand
-* Immagini dinamiche da Adobe Target - consultate [Utilizzo di Campaign e Target](../../integrating/using/about-campaign-target-integration.md)
+* Immagini condivise da Adobe Experience Cloud - fate riferimento a [Utilizzo del servizio](../../integrating/using/working-with-campaign-and-assets-core-service.md) core Campaign and Assets / Assets On Demand
+* Immagini dinamiche da  Adobe Target - fare riferimento a [Utilizzo di Campaign e Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->Se scegliete di aggiungere un&#39;immagine direttamente modificando la versione HTML dell&#39;e-mail, non dovete richiamare i file **esterni in un tag** &lt;script> della pagina HTML. Questi file non verranno importati nel server Adobe Campaign.
+>Se scegliete di aggiungere un&#39;immagine direttamente modificando la versione HTML dell&#39;e-mail, non dovete richiamare i file **esterni in un tag** &lt;script> della pagina HTML. Questi file non verranno importati nel server Adobe Campaign .
 
 ### Inserimento di immagini in un messaggio e-mail {#inserting-images-in-an-email}
 
-1. Aggiungere un componente struttura. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
+1. Aggiungere un componente struttura. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. All’interno di questo componente struttura, aggiungete un componente **[!UICONTROL Image]** contenuto.
 
    ![](assets/des_insert_images_1.png)
 
-1. Clic **[!UICONTROL Browse]**. Trascinare un’immagine o fare clic per selezionare un file dal computer.
+1. Fai clic su **[!UICONTROL Browse]**. Trascinare un’immagine o fare clic per selezionare un file dal computer.
 
    ![](assets/des_insert_images_2.png)
 
@@ -57,9 +58,9 @@ Quando si seleziona un blocco che contiene un&#39;immagine, nella palette sono d
 * **Titolo** immagine consente di definire un titolo per l’immagine.
 * **Il testo** Alt (e-mail) o **Didascalia** (pagina di destinazione) consente di definire la didascalia collegata all’immagine (corrisponde all’attributo **HTML alt** ).
 * Quando modificate un’e-mail, **Stile** consente di specificare la dimensione dell’immagine, lo sfondo e il bordo.
-* Quando modificate una pagina di destinazione, **Dimensioni** consente di specificare le dimensioni dell’immagine in pixel.
+* Quando modificate una pagina di destinazione, **Dimension** consente di specificare le dimensioni dell’immagine in pixel.
 
-L’editor consente di lavorare con **tutti i tipi** di immagini i cui formati sono compatibili con i browser. Per essere compatibili con l’editor, le animazioni **di tipo** &quot;Flash&quot; devono essere inserite in una pagina HTML come segue:
+L’editor consente di lavorare con **tutti i tipi** di immagini i cui formati sono compatibili con i browser. Per essere compatibile con l’editor, le animazioni **di tipo** &quot;Flash&quot; devono essere inserite in una pagina HTML come segue:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
