@@ -1,6 +1,6 @@
 ---
 title: Definizione mappature
-description: Scopri come mappare un campo Campaign Standard con un campo Experience Data Model (XDM).
+description: Scoprite come mappare un campo Campaign Standard con un campo Experience Data Model (XDM).
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta l&#39;Assistenza clienti Adobe.
+>Adobe Experience Platform Data Connector è attualmente in fase beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta  Assistenza clienti di Adobe.
 
 In questa sezione scoprirai come mappare un campo Campaign Standard con un campo Experience Data Model (XDM).
 
@@ -57,13 +58,13 @@ Se non è possibile trovare un campo Campaign Standard, è possibile utilizzare 
 
 ![](assets/aep_mapfield.png)
 
-Le risorse estese definite in Campaign Standard sono mappate su tutti i campi nativi. Sono definiti nell&#39;estensione _customer/default in XDM.
+Le risorse estese definite in Campaign Standard sono mappate come tutti i campi nativi. Sono definiti nell&#39;estensione _customer/default in XDM.
 
 ![](assets/aep_fieldscusmapping.png)
 
 Potete personalizzare l&#39;estensione XDM tramite l&#39;API e definire la vostra estensione per un migliore controllo sulla mappatura.
 
-Per ulteriori informazioni sull&#39;API XDM, consultate l&#39;esercitazione [API del Registro di sistema dello](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) schema.
+Per ulteriori informazioni sull&#39;API XDM, consultate l&#39;esercitazione [API del Registro di sistema dello](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/api/getting-started.html) schema.
 
 Per mappare un campo di enumerazione, è necessario utilizzare l&#39;editor di espressioni per definire ogni valore di enumerazione corrispondente al valore XDM. Ad esempio, postalAdressfield deve essere definito come:
 
