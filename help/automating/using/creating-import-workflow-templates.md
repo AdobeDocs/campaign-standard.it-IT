@@ -1,5 +1,5 @@
 ---
-title: Creazione di modelli di workflow per l'importazione di dati
+title: Creazione di modelli di flusso di lavoro per l’importazione di dati
 description: Scopri come creare modelli di workflow per importare dati.
 page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
@@ -9,22 +9,20 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Creazione di modelli di workflow per l&#39;importazione di dati {#import-workflow-template}
+# Creazione di modelli di flusso di lavoro per l’importazione di dati {#import-workflow-template}
 
 L’utilizzo di un modello di importazione è una procedura consigliata se è necessario importare regolarmente file con la stessa struttura.
 
-Questo esempio mostra come impostare un flusso di lavoro che può essere riutilizzato per importare profili provenienti da un CRM nel database Adobe Campaign.
+Questo esempio mostra come impostare un flusso di lavoro che può essere riutilizzato per importare profili provenienti da un CRM nel database Adobe Campaign .
 
 1. Crea un nuovo modello di workflow da **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Aggiungete le seguenti attività:
@@ -39,6 +37,7 @@ Questo esempio mostra come impostare un flusso di lavoro che può essere riutili
    * **[!UICONTROL Segmentation]**: Creare filtri per elaborare i record in modo diverso a seconda che possano essere riconciliati o meno.
    * **[!UICONTROL Deduplication]**: Deduplicare i dati dal file in entrata prima di essere inseriti nel database.
    * **[!UICONTROL Update data]**: Aggiornate il database con i profili importati.
+
    ![](assets/import_template_example0.png)
 
 1. Configurare l&#39; **[!UICONTROL Load file]** attività:
@@ -62,6 +61,7 @@ Questo esempio mostra come impostare un flusso di lavoro che può essere riutili
 
    * Nella **[!UICONTROL Relations]** scheda, selezionare **[!UICONTROL Create element]** e definire un collegamento tra i dati importati e la dimensione di targeting dei destinatari (vedere Dimensioni e risorse [di](../../automating/using/query.md#targeting-dimensions-and-resources)targeting). In questo esempio, il campo personalizzato ID **** CRM viene utilizzato per creare la condizione di partecipazione. Utilizzare il campo o la combinazione di campi necessari, purché sia possibile identificare record univoci.
    * Nella **[!UICONTROL Identification]** scheda, lasciate l&#39; **[!UICONTROL Identify the document from the working data]** opzione deselezionata.
+
    ![](assets/import_template_example2.png)
 
 1. Configurare l&#39; **[!UICONTROL Segmentation]** attività per recuperare i destinatari riconciliati in una transizione e i destinatari che non possono essere riconciliati ma che dispongono di dati sufficienti in una seconda transizione.
@@ -105,6 +105,7 @@ Questo esempio mostra come impostare un flusso di lavoro che può essere riutili
 
    * In questo esempio, il campo e-mail viene utilizzato per trovare profili univoci. Potete utilizzare qualsiasi campo sicuramente compilato e parte di una combinazione univoca.
    * Scegli una **[!UICONTROL Deduplication method]**. In questo caso, l&#39;applicazione decide automaticamente quali record vengono conservati in caso di duplicati.
+
    ![](assets/import_template_example7.png)
 
 1. Configurate l&#39; **[!UICONTROL Update data]** attività che si trova dopo che l&#39; **[!UICONTROL Deduplication]** attività è stata configurata in precedenza.
