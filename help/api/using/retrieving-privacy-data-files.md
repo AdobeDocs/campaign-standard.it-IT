@@ -1,5 +1,5 @@
 ---
-title: Recupero dei file di dati sulla privacy
+title: Recupero file di dati sulla privacy
 description: Informazioni su come recuperare i file di dati sulla privacy con le API
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,33 +9,34 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 6%
 
 ---
 
 
-# Recupero dei file di dati sulla privacy {#retrieving-privacy-data-files}
+# Recupero file di dati sulla privacy {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >
->L'integrazione del servizio [di base per la](https://adobe.io/apis/cloudplatform/gdpr.html) privacy è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l'utilizzo dell'API Campaign e dell'interfaccia per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse di Campaign Standard, consulta [questa pagina](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>L&#39;integrazione del servizio [di base per la](https://adobe.io/apis/cloudplatform/gdpr.html) privacy è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l&#39;utilizzo dell&#39;API e dell&#39;interfaccia di Campaign per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse dei Campaign Standard, consultate [questa pagina](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html).
 
 Per recuperare il file che contiene tutte le informazioni associate a un valore di riconciliazione, procedere come segue:
 
-1. Eseguite una richiesta **POST** per creare una nuova richiesta con l’attributo **type="access"**, consultate [Creazione di una nuova richiesta](../../api/using/creating-a-privacy-request.md)di privacy.
+1. Eseguite una richiesta di **POST** per creare una nuova richiesta con l’attributo **type=&quot;access&quot;**, consultate [Creazione di una nuova richiesta](../../api/using/creating-a-privacy-request.md)di privacy.
 
-1. Eseguite una richiesta **GET** per recuperare informazioni sulla richiesta.
+1. Eseguite una richiesta di **GET** per recuperare informazioni sulla richiesta.
 
-1. Recuperare il file di dati eseguendo una richiesta **POST** sull'URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy all'interno del payload. Ad esempio: {"name":"PT17"}.
+1. Recuperare il file di dati eseguendo una richiesta **POST** sull&#39;URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy all&#39;interno del payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Create una richiesta di privacy con l'attributo type="access".
+Create una richiesta di privacy con l&#39;attributo type=&quot;access&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -56,7 +57,7 @@ Create una richiesta di privacy con l'attributo type="access".
 
 <!-- + réponse -->
 
-Eseguite una richiesta GET per recuperare informazioni sulla richiesta.
+Eseguite una richiesta di GET per recuperare informazioni sulla richiesta.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -87,7 +88,7 @@ Restituisce l’attributo privacyRequestData con un URL associato.
 },
 ```
 
-Eseguite una richiesta POST sull'URL privacyRequestData, con il nome interno della richiesta all'interno del payload.
+Eseguite una richiesta POST sull&#39;URL privacyRequestData, con il nome interno della richiesta all&#39;interno del payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \
