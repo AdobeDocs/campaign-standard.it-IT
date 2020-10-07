@@ -1,6 +1,6 @@
 ---
-title: Aggiornamento degli attributi di un'unità organizzativa
-description: Scopri come aggiornare gli attributi di un'unità organizzativa
+title: Aggiornamento degli attributi di un’unità organizzativa
+description: Scoprite come aggiornare gli attributi di un'unità organizzativa
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,24 +9,25 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
 
 
-# Aggiornamento degli attributi di un'unità organizzativa {#updating-organizational-unit-attributes}
+# Aggiornamento degli attributi di un’unità organizzativa {#updating-organizational-unit-attributes}
 
-1. Eseguite una richiesta GET sulla risorsa **orgUnitBase** per recuperare l'unità organizzativa PKey.
-1. Eseguite una richiesta PATCH sull'unità organizzativa, con gli attributi da aggiornare nel payload.
+1. Eseguite una richiesta di GET sulla risorsa **orgUnitBase** per recuperare l&#39;unità organizzativa PKey.
+1. Eseguite una richiesta PATCH sull&#39;unità organizzativa, con gli attributi da aggiornare nel payload.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Recuperare l'elenco delle unità organizzative.
+Recuperare l&#39;elenco delle unità organizzative.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -36,7 +37,7 @@ Recuperare l'elenco delle unità organizzative.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce tutte le unità organizzative. Recuperare il PKey dell'unità desiderata.
+Restituisce tutte le unità organizzative. Recuperare il PKey dell&#39;unità desiderata.
 
 ```
 {
@@ -52,7 +53,7 @@ Restituisce tutte le unità organizzative. Recuperare il PKey dell'unità deside
 },
 ```
 
-Eseguite una richiesta PATCH sull'unità organizzativa, con gli attributi da aggiornare nel payload.
+Eseguite una richiesta PATCH sull&#39;unità organizzativa, con gli attributi da aggiornare nel payload.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
