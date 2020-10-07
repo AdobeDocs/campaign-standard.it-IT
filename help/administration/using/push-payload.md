@@ -1,5 +1,5 @@
 ---
-title: Informazioni sulla struttura payload delle notifiche push di Campaign Standard
+title: Informazioni sulla struttura payload delle notifiche push Campaign Standard
 description: Questo documento descrive la struttura del payload ricevuto nelle applicazioni mobili.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Understanding push notifications payload structure {#push-payload}
+# Comprensione della struttura del payload per le notifiche push {#push-payload}
 
  Adobe Campaign consente di inviare notifiche push personalizzate e segmentate su dispositivi mobili iOS e Android alle applicazioni mobili (app mobile).
 
 Ogni notifica push ricevuta su un&#39;app mobile contiene alcune informazioni che vengono utilizzate dall&#39;app per visualizzare la notifica push se viene inviata una notifica push di avviso e molto probabilmente eseguirà anche qualche ulteriore calcolo, soprattutto se viene inviata una notifica push invisibile.
 
-Queste informazioni vengono ricevute dal codice dell&#39;app mobile in un gestore eventi che indica che è stata ricevuta una notifica push. Quando si inviano notifiche push da  Adobe Campaign Standard, le informazioni ricevute nell&#39;app mobile possono anche contenere informazioni specifiche per Campaign Standard che possono essere utilizzate per sfruttare alcune funzionalità fornite da Campaign Standard. Inoltre, il payload può contenere dati personalizzati che possono essere utilizzati dall&#39;app mobile.
+Queste informazioni vengono ricevute dal codice dell&#39;app mobile in un gestore eventi che indica che è stata ricevuta una notifica push. Quando si inviano notifiche push da  Adobe Campaign Standard, le informazioni ricevute nell&#39;app mobile possono anche contenere informazioni specifiche sui Campaign Standard che possono essere utilizzate per sfruttare alcune funzionalità fornite da Campaign Standard. Inoltre, il payload può contenere dati personalizzati che possono essere utilizzati dall&#39;app mobile.
 
 Questo documento descrive la struttura del payload ricevuto in un&#39;app mobile quando una notifica push viene inviata correttamente a un&#39;app da  Adobe Campaign Standard.
 
@@ -39,7 +37,7 @@ Questo documento descrive la struttura del payload ricevuto in un&#39;app mobile
 
 Questa sezione descrive la struttura di un payload di esempio per diverse piattaforme mobili e descrive gli attributi principali al suo interno. Si tratta della struttura del payload ricevuto nel codice dell&#39;app mobile nel gestore eventi che indica che è stata ricevuta una notifica push.
 
-Gli attributi di payload e i relativi valori variano in base alle configurazioni fornite nelle opzioni avanzate di notifica push. Questa sezione fornisce anche una mappatura tra queste configurazioni nell’interfaccia utente di Campaign Standard e gli attributi nel payload, per chiarire in che modo il payload cambierà durante la configurazione di un’opzione in Campaign Standard.
+Gli attributi di payload e i relativi valori variano in base alle configurazioni fornite nelle opzioni avanzate di notifica push. Questa sezione fornisce anche una mappatura tra queste configurazioni nell&#39;interfaccia utente Campaign Standard e gli attributi nel payload, per chiarire in che modo il payload cambierà durante la configurazione di un&#39;opzione in Campaign Standard.
 
 ### Per l&#39;app mobile iOS {#payload-structure-ios}
 
@@ -207,14 +205,14 @@ Per comprendere gli aspetti di un payload android, fare riferimento a [Messaging
 >
 >Il supporto per i messaggi di notifica nel payload Android è stato rimosso a partire da gennaio 2018 per abilitare il risveglio dell&#39;app e passare il controllo all&#39;app mobile senza che l&#39;utente debba interagire con l&#39;app.
 
-### Mapping tra configurazioni Campaign Standard e attributi di payload {#mapping-payload}
+### Mappatura tra configurazioni Campaign Standard e attributi di payload {#mapping-payload}
 
 | Configurazione campagna | Attributo interessato in iOS | Attributo interessato in Android | Descrizione |
 |:-:|:-:|:-:|:-:|
 | Titolo del messaggio <br>Corpo del messaggio | alert → title <br> alert → corpo | title <br>body | Questi dati contengono specifiche del messaggio di avviso.<br>Le chiavi del titolo e del corpo forniscono il contenuto dell’avviso. |
-| Riproduzione di un suono | sound | sound | Un suono personalizzato da riprodurre con l&#39;avviso. |
+| Riprodurre un suono | sound | sound | Un suono personalizzato da riprodurre con l&#39;avviso. |
 | Valore del contrassegno | badge | badge | Un valore intero da utilizzare per applicare un contrassegno all&#39;icona dell&#39;app. |
-| Aggiungere un collegamento profondo | uri | NA | Un collegamento profondo consente di portare gli utenti direttamente al contenuto presente all’interno dell’applicazione (anziché aprire una pagina del browser Web). |
+| Aggiungere un deep link | uri | NA | Un deep link ti consente di portare gli utenti direttamente al contenuto presente all’interno dell’applicazione (anziché aprire una pagina del browser web). |
 | Categoria | category | category | Per visualizzare azioni personalizzate con una notifica remota. <br>La chiave di categoria consente al sistema di visualizzare le azioni per quella categoria come pulsanti nell&#39;interfaccia dell&#39;avviso. |
 | Campi personalizzati | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Qualsiasi dato personalizzato che desideri inviare alla tua app. |
 | URL contenuto multimediale (file immagine, gif, audio e video)<br>(applicabile solo per iOS 10 o versione successiva) | media-attachment-url | NA | URL dei file multimediali per aggiungere contenuto dettagliato alla notifica. <br>Quando si fornisce un valore per questo URL, il flag di contenuto variabile viene inviato automaticamente nel payload. <br> (applicabile solo per iOS 10 o versione successiva) |
