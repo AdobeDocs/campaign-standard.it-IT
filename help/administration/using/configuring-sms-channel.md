@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 99%
@@ -333,7 +331,7 @@ I parametri specifici per l’invio di messaggi SMS sono raggruppati nelle sezio
 
 ![](assets/sms_options.png)
 
-Dalla **[!UICONTROL Advanced parameters]** sezione:
+From the **[!UICONTROL Advanced parameters]** section:
 
 * L’opzione **[!UICONTROL From]** ti consente di personalizzare il nome del mittente del messaggio SMS utilizzando una stringa di caratteri. Questo è il nome visualizzato come mittente del messaggio SMS sul telefono cellulare del destinatario.
 
