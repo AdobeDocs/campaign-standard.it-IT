@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -33,15 +31,15 @@ Presuppone che siano già state implementate le prime parti dell&#39;implementaz
 
 Il tracciamento push è separato in tre tipi:
 
-* **Impressioni** push - Quando una notifica push viene inviata al dispositivo e si trova nel centro di notifica ma non è stata toccata per niente.  Questa è considerata un&#39;impressione.  Nella maggior parte dei casi, i numeri di impression devono essere simili a quelli forniti. Garantisce che il dispositivo abbia ricevuto il messaggio e abbia inviato tali informazioni al server.
+* **Impressioni** push - Quando una notifica push viene inviata al dispositivo e si trova nel centro notifiche ma non è stata toccata per niente.  Questa è considerata un&#39;impressione.  Nella maggior parte dei casi, i numeri di impression devono essere simili a quelli forniti. Garantisce che il dispositivo abbia ricevuto il messaggio e abbia inviato tali informazioni al server.
 
 * **Clic** push - Quando una notifica push viene inviata al dispositivo e l&#39;utente fa clic sul dispositivo.  L&#39;utente desiderava visualizzare la notifica (che a sua volta si sposterà al tracciamento dell&#39;apertura push) oppure chiudeva la notifica.
 
 * **Push Open** - Quando una notifica push viene inviata al dispositivo e l&#39;utente fa clic sulla notifica che causa l&#39;apertura dell&#39;app.  Questo è simile al clic push, tranne per il fatto che l&#39;apertura push non viene attivata se la notifica è stata chiusa.
 
-Per implementare il tracciamento per Campaign Standard, l’app mobile deve includere Mobile SDK. Questi SDK sono disponibili in Adobe Mobile Services. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+Per implementare il tracciamento per i Campaign Standard, l&#39;app mobile deve includere Mobile SDK. Questi SDK sono disponibili  Adobe Mobile Services. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md).
 
-Per inviare le informazioni di tracciamento, sono necessarie tre variabili. Due elementi che fanno parte dei dati ricevuti da Campaign Standard e una variabile di azione che determina se si tratta di un&#39; **Impression**, un **Clic** o un **Apri**.
+Per inviare le informazioni di tracciamento, sono necessarie tre variabili. Due dati che fanno parte dei dati ricevuti dai Campaign Standard e una variabile di azione che stabilisce se si tratta di un&#39; **Impression**, **Click** o **Open**.
 
 | Variabile | Valore |
 |:-:|:-:|
@@ -154,7 +152,7 @@ Dovrete inviare &quot;1&quot; e &quot;2&quot; perché l&#39;utente deve fare cli
 
 Per tenere traccia dell&#39;apertura, è necessario creare Intent. Gli oggetti Intent consentono ad Android OS di chiamare il metodo al termine di determinate azioni. In questo caso, fate clic sulla notifica per aprire l&#39;app.
 
-Questo codice è basato sull’implementazione del monitoraggio delle impression dei clic. Con **[!UICONTROL Intent]** set, è ora necessario inviare le informazioni di tracciamento al Adobe Campaign Standard . In questo caso, devi impostare l&#39; **[!UICONTROL Open Intent]** opzione per l&#39;apertura di una determinata vista nell&#39;app, che chiamerà il metodo onResume con i dati di notifica nell&#39;app **[!UICONTROL Intent Object]**.
+Questo codice è basato sull’implementazione del monitoraggio delle impression dei clic. Con **[!UICONTROL Intent]** set, è ora necessario inviare le informazioni di tracciamento a  Adobe Campaign Standard. In questo caso, devi impostare l&#39; **[!UICONTROL Open Intent]** opzione per l&#39;apertura di una determinata vista nell&#39;app, che chiamerà il metodo onResume con i dati di notifica nell&#39;app **[!UICONTROL Intent Object]**.
 
 ```
 @Override
