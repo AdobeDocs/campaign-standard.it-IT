@@ -1,6 +1,6 @@
 ---
 title: Aggiornamento del database con dati esterni
-description: Questo caso di utilizzo illustra come aggiungere o aggiornare profili al database del Adobe Campaign  con i dati recuperati dal file.
+description: Questo caso di utilizzo illustra come aggiungere o aggiornare profili al database Adobe Campaign  con i dati recuperati dal file.
 page-status-flag: never-activated
 uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
 contentOwner: sauviat
@@ -10,20 +10,18 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 0%
+ht-degree: 33%
 
 ---
 
 
 # Aggiornamento del database con dati esterni {#update-database-file}
 
-L&#39;esempio seguente mostra la configurazione di un&#39; **[!UICONTROL Update data]** attività dopo un&#39; **[!UICONTROL Load file]** attività. Lo scopo di questo flusso di lavoro è quello di aggiungere o aggiornare profili al database del Adobe Campaign  con i dati recuperati dal file.
+The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. Lo scopo del presente flusso di lavoro è quello di aggiungere o aggiornare i profili del database Adobe Campaign sulla base dei dati recuperati dal file.
 
 In questo esempio, la chiave di riconciliazione utilizzata è l&#39;indirizzo **e-** mail. Il file caricato nell&#39;attività del file [](../../automating/using/load-file.md) Load è un file in formato **.txt** contenente i dati di esempio seguenti:
 
@@ -40,7 +38,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-L&#39;attività [Aggiorna dati](../../automating/using/update-data.md) è configurata come segue:
+The [Update data](../../automating/using/update-data.md) activity is configured as follows:
 
 ![](assets/deduplication_example2_writer1.png)
 
