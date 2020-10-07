@@ -1,6 +1,6 @@
 ---
 title: Linee guida per il monitoraggio
-description: Questa sezione presenta le linee guida generali per il monitoraggio di Campaign Standard.
+description: Questa sezione presenta le linee guida generali per il monitoraggio Campaign Standard.
 page-status-flag: never-activated
 uuid: cf0d782d-47bf-40ae-ab6f-d1d47fa15792
 contentOwner: sauviat
@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4bac585ec25340d1f1d047f9a1f8dcd8e243821
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -25,17 +23,17 @@ ht-degree: 6%
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">Monitoraggio del sistema</a></p></td>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Flussi di lavoro di monitoraggio</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Monitoraggio dei flussi di lavoro</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitoraggio delle consegne</a></p></td></tr>
 </table>
 
-Campaign Standard offre diversi metodi per monitorare le istanze in modo da garantire che il sistema sia sano e, in ultima istanza, per risolvere eventuali problemi che possono verificarsi durante la configurazione dei flussi di lavoro, l&#39;invio di consegne ecc.
+Campaign Standard offre diversi modi per monitorare le istanze in modo da garantire che il sistema sia sano e alla fine risolvere eventuali problemi che possono verificarsi durante la configurazione dei flussi di lavoro, l&#39;invio di consegne, ecc.
 
 ## Monitoraggio del sistema {#monitoring-system}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
-**L&#39;interfaccia** Campaign Standard delle notifiche di sistema fornisce un riquadro di notifica che consente di essere informati di ciò che sta accadendo nel sistema: stati degli eventi, aggiornamenti del sistema, azioni richieste, ecc. [Leggi tutto](../../start/using/interface-description.md#top-bar)
+**L&#39;interfaccia Campaign Standard delle notifiche** di sistema fornisce un riquadro di notifica che consente di essere informati di ciò che sta accadendo nel sistema: stati degli eventi, aggiornamenti del sistema, azioni richieste, ecc. [Leggi tutto](../../start/using/interface-description.md#top-bar)
 
 
 **Flussi di lavoro** tecnici I flussi di lavoro tecnici sono operazioni o processi pianificati per essere eseguiti regolarmente sul server. Per garantire che l&#39;istanza sia sana e funzioni correttamente, è necessario assicurarsi che siano sempre in funzione. [Leggi tutto](../../administration/using/technical-workflows.md)
@@ -44,7 +42,7 @@ Campaign Standard offre diversi metodi per monitorare le istanze in modo da gara
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è accessibile solo agli utenti Admin e disponibile per tutti i clienti che utilizzano  Adobi Managed Services.
+>Il Pannello di controllo Campaign è accessibile solo agli utenti Admin e disponibile per tutti i clienti che utilizzano i servizi gestiti Adobe.
 
 **Oggetti** tecnici Il **[!UICONTROL Diagnosis]** menu è uno strumento fondamentale per monitorare e analizzare i diversi oggetti tecnici generati dall&#39;applicazione: schemi di dati, pagine Web, processi batch ecc. [Leggi tutto](../../developing/using/monitoring-data-model-changes.md)
 
@@ -54,7 +52,7 @@ Campaign Standard offre diversi metodi per monitorare le istanze in modo da gara
 **Licenze** Il **[!UICONTROL Licenses]** menu consente di monitorare le informazioni relative alle istanze: licenze installate, versioni build e accettazioni dei termini.
 [Leggi tutto](../../administration/using/licenses.md)
 
-## Flussi di lavoro di monitoraggio {#monitoring-workflows}
+## Monitoraggio dei flussi di lavoro {#monitoring-workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
@@ -64,14 +62,14 @@ Campaign Standard offre diversi metodi per monitorare le istanze in modo da gara
 **Registri e attività**Il monitoraggio dei registri di lavoro è un passo fondamentale per analizzare i flussi di lavoro e verificare che siano in esecuzione correttamente.
 [Leggi tutto](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
-**Notifiche**Campaign Standard consente di inviare notifiche alle autorità di vigilanza per monitorare l&#39;esecuzione dei flussi di lavoro e verificare se vi sono errori che richiedono la vostra attenzione.
+**Notifications**Campaign Standard consente di inviare notifiche alle autorità di vigilanza per monitorare l&#39;esecuzione dei flussi di lavoro e verificare se vi sono errori che richiedono la vostra attenzione.
 [Leggi tutto](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Monitoraggio delle consegne {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-**La funzionalità di recapito**Campaign Standard offre diversi strumenti per migliorare il numero di messaggi recapitati correttamente: report di analisi dei tempi di consegna, ottimizzazione dei tempi di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
+**Il Campaign Standard Deliverability**offre diversi strumenti per migliorare il numero di messaggi recapitati correttamente: report di analisi dei tempi di consegna, ottimizzazione dei tempi di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
 [Leggi tutto](../../sending/using/about-deliverability.md)
 
 **Consegne**Una volta inviati i messaggi, i registri dettagliati consentono di monitorare le consegne e misurare il successo della campagna, nonché di monitorare il comportamento dei destinatari dei messaggi.
