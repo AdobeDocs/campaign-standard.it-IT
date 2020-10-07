@@ -9,10 +9,8 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -190,19 +188,19 @@ Sono supportate le seguenti lingue:
 | ru_kz | Russo - Kazakistan |
 | ru_ru | Russia |
 | ru_ua | Russia - Ucraina |
-| _in | Sanscrito - India |
+| a_in | Sanscrito - India |
 | sr_ba | Serbo - Bosnia |
 | sr_rs | Serbo - Serbia |
-| Spagnolo | Slovacco - Slovacchia |
+| sk_sk | Slovacco - Slovacchia |
 | sl_si | Sloveno - Slovenia |
-| es_ar | sx - Argentina |
-| Russia_bo | Spagnolo - Bolivia |
+| es_ar | Spagnolo - Argentina |
+| es_bo | Spagnolo - Bolivia |
 | es_cl | Spagnolo - Cile |
 | es_co | Spagnolo - Colombia |
 | es_cr | Spagnolo - Costa Rica |
 | es_do | Spagnolo - Repubblica Dominicana |
 | es_ec | Spagnolo - Ecuador |
-| Spags_sv | Spagnolo - El Salvador |
+| es_sv | Spagnolo - El Salvador |
 | es_gt | Spagnolo - Guatemala |
 | es_hn | Spagnolo - Honduras |
 | es_mx | Spagnolo - Messico |
