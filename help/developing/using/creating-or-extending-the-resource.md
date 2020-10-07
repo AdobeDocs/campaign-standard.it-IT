@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
 
@@ -38,13 +39,13 @@ Per creare o estendere una risorsa:
 1. Da **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, fate clic sul **[!UICONTROL Create]** pulsante.
 1. Scegliete l’azione da eseguire:
 
-   * **[!UICONTROL Create a new resource]**: Immettete i campi **[!UICONTROL Label]** e **[!UICONTROL ID]** . Il **[!UICONTROL ID]** campo è obbligatorio. Se lasciate vuoto il campo Etichetta, verrà compilato automaticamente dall’ID.
+   * **[!UICONTROL Create a new resource]**: Immettete i campi **[!UICONTROL Label]** e **[!UICONTROL ID]** . Il campo **[!UICONTROL ID]** è obbligatorio. Se lasciate vuoto il campo Etichetta, verrà compilato automaticamente dall’ID.
 
       ![](assets/schema_extension_2.png)
 
       >[!NOTE]
       >
-      >Utilizzate un massimo di 30 caratteri.
+      >Utilizza un massimo di 30 caratteri.
 
    * **[!UICONTROL Extend an existing resource]**: Selezionate la risorsa da estendere.
 
