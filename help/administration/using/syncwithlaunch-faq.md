@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5396772ca53740c78c5a7df3ef75d27b838de8a0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -20,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Domande frequenti sulla sincronizzazione del lancio  Adobe {#syncwithlaunch-faq}
+# Domande frequenti sulla sincronizzazione di Adobe Launch {#syncwithlaunch-faq}
 
 È possibile importare  proprietà di Launch mobile Adobe in  Adobe Campaign Standard attraverso il flusso di lavoro tecnico **[!UICONTROL Sync with Launch]** dedicato. For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
