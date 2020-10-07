@@ -1,5 +1,5 @@
 ---
-title: Introduzione al reporting dinamico
+title: Guida introduttiva al reporting dinamico
 description: Analizzare il successo delle campagne in report dinamici incorporati o personalizzati.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# Guida introduttiva al reporting dinamico {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ Dynamic Reporting (Generazione di rapporti dinamica) fornisce report completamen
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Grazie all&#39;interfaccia **** di reporting dinamico, è possibile esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari da un&#39;unica posizione.
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **Gestisci i tuoi rapporti** dinamici grazie a varie funzionalità: aggiornate i dati in tempo reale, stampate i rapporti o esportateli come file CSV. Potete anche condividere i rapporti con gli utenti Campaign Standard tramite e-mail una tantum o ricorrenti.
 
