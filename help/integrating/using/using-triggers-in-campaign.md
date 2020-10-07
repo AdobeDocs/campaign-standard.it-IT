@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 86%
 
 ## Creazione di un trigger mappato in Campaign {#creating-a-mapped-trigger-in-campaign}
 
-Devi accertarti di definire in anticipo i comportamenti da monitorare all’interno di Adobe Experience Cloud (servizio core **[!UICONTROL Triggers]**). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
+Devi accertarti di definire in anticipo i comportamenti da monitorare all’interno di Adobe Experience Cloud (servizio core **[!UICONTROL Triggers]**). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/activation/triggers.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
 
 Ora devi creare un evento trigger in Adobe Campaign basato su un trigger esistente di Adobe Experience Cloud.
 
