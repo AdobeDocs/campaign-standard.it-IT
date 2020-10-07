@@ -1,6 +1,6 @@
 ---
 title: Esportazione di profili in un file esterno
-description: Questo caso di utilizzo mostra come esportare un elenco di profili sotto forma di file esterno in modo che i dati possano essere utilizzati al di fuori  Adobe Campaign.
+description: Questo caso d’uso mostra come esportare un elenco di profili sotto forma di file esterno in modo che i dati possano essere utilizzati al di fuori  Adobe Campaign.
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
@@ -10,36 +10,34 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
 
 # Esportazione di profili in un file esterno {#exporting-profiles-external-file}
 
-L&#39;esempio seguente illustra come configurare un&#39; **[!UICONTROL Extract file]** attività dopo un&#39; **[!UICONTROL Query]** attività.
+L’esempio seguente illustra come configurare un’attività **[!UICONTROL Extract file]** dopo un’attività **[!UICONTROL Query]**.
 
-Scopo di questo flusso di lavoro è esportare un elenco di profili sotto forma di file esterno in modo che i dati possano essere utilizzati al di fuori  Adobe Campaign.
+Lo scopo di questo flusso di lavoro è esportare un elenco di profili sotto forma di un file esterno per poter utilizzare i dati al di fuori di Adobe Campaign.
 
-1. Trascinate e rilasciate un’attività file [](../../automating/using/extract-file.md) Extract nel flusso di lavoro e inseritela dopo l’attività [Query](../../automating/using/query.md) .
+1. Drag and drop an [Extract file](../../automating/using/extract-file.md) activity into your workflow and place it after the [Query](../../automating/using/query.md) activity.
 
-   In questo esempio, la query viene eseguita su tutti i profili di età compresa tra 18 e 30 anni.
+   In questo esempio, la query viene eseguita su tutti i profili di età compresa tra i 18 e i 30 anni.
 
-1. Aprite l&#39; **[!UICONTROL Extract file]** attività per modificarla.
-1. Denominate il file di output.
-1. Aggiungere colonne di output.
+1. Open the **[!UICONTROL Extract file]** activity to edit it.
+1. Denomina il file di output.
+1. Aggiungi colonne di output.
 
-   In questo esempio, l’e-mail, l’età, la data di nascita, il nome e il cognome dei profili vengono aggiunti come colonne di output.
+   In questo esempio, e-mail, età, data di nascita, nome e cognome dei profili vengono aggiunti come colonne di output.
 
    ![](assets/wkf_data_export6.png)
 
-1. Fare clic sulla **[!UICONTROL File structure]** scheda per definire:
+1. Fai clic sulla scheda **[!UICONTROL File structure]** per definire:
 
    * Formato di output CSV
 
@@ -49,17 +47,17 @@ Scopo di questo flusso di lavoro è esportare un elenco di profili sotto forma d
 
       ![](assets/wkf_data_export9.png)
 
-1. Confermate l&#39;attività.
-1. Trascinare e rilasciare un&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) dopo l&#39; **[!UICONTROL Extract file]** attività per recuperare il file di estrazione su un account esterno.
-1. Aprite l&#39;attività e scegliete l&#39; **[!UICONTROL File upload]** azione.
+1. Conferma l’attività.
+1. Drag and drop a [Transfer file](../../automating/using/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
+1. Apri l’attività e scegli l’azione **[!UICONTROL File upload]**.
 
    ![](assets/wkf_data_export11.png)
 
-1. Selezionate l’account esterno e immettete il percorso della cartella sul server.
+1. Seleziona l’account esterno e immetti il percorso della cartella sul server.
 
    ![](assets/wkf_data_export12.png)
 
-1. Confermate l&#39;attività e salvate il flusso di lavoro.
-1. Avviate il flusso di lavoro.
+1. Conferma l’attività e salva il flusso di lavoro.
+1. Avvia il flusso di lavoro.
 
-   Quando il flusso di lavoro è stato eseguito correttamente, il file estratto è disponibile sull&#39;account esterno.
+   Quando il flusso di lavoro è stato eseguito correttamente, il file estratto è disponibile sull’account esterno.
