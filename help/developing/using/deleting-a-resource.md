@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 14%
 
 ---
 
@@ -31,11 +32,11 @@ Per eliminare una risorsa, la risorsa in questione deve essere una **[!UICONTROL
 Per ridisegnare ed eliminare una risorsa pubblicata:
 
 1. Selezionate la risorsa da ridisegnare.
-1. Fate clic sul **[!UICONTROL Re-draft]** pulsante nella barra delle azioni.
+1. Fai clic sul pulsante **[!UICONTROL Re-draft]** nella barra delle azioni.
 
    ![](assets/schema_extension_uc26.png)
 
-1. Clic **[!UICONTROL Ok]**.
+1. Fai clic su **[!UICONTROL Ok]**.
 
    >[!IMPORTANT]
    >
@@ -59,5 +60,5 @@ La risorsa viene eliminata dal modello dati.
 
 >[!NOTE]
 >
->Se un campo di una risorsa personalizzata utilizzata in un evento viene modificato o eliminato, l&#39;evento corrispondente viene automaticamente annullato. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
+>Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
