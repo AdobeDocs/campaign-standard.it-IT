@@ -1,5 +1,5 @@
 ---
-title: GET / POST / PATCH / ELIMINA verbi
+title: GET / POST / PATCH / verbi DELETE
 description: Ulteriori informazioni sui verbi utilizzati nelle API Campaign Standard.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,21 +9,22 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 0%
 
 ---
 
 
-# GET / POST / PATCH / ELIMINA verbi {#verbs}
+# GET / POST / PATCH / verbi DELETE {#verbs}
 
 I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 * `GET`: recupera un elemento o una raccolta di elementi
 * `POST`: crea una risorsa con i parametri.
-* `PATCH`: aggiorna una risorsa con parametri.
+* `PATCH`: aggiorna una risorsa con i parametri.
 * `DELETE`: elimina una risorsa.
 
 <!-- ajouter codes retour -->
@@ -32,7 +33,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 ***Richieste di esempio***
 
-* Esempio di richiesta GET per la raccolta di profili.
+* Esempio di richiesta di GET nella raccolta di profili.
 
 
    ```
@@ -68,7 +69,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    }
    ```
 
-* Esempio di richiesta GET per un profilo specifico.
+* Richiesta di GET di esempio su un profilo specifico.
 
 
    ```
@@ -94,7 +95,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    }
    ```
 
-* Esempio di richiesta POST per creare un profilo.
+* Esempio di richiesta di POST per creare un profilo.
 
 
    ```
@@ -118,7 +119,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    }
    ```
 
-* Richiesta PATCH di esempio per aggiornare un profilo.
+* Esempio di richiesta di PATCH per aggiornare un profilo.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -138,7 +139,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    }
    ```
 
-* Esempio di richiesta DELETE per eliminare un profilo.
+* Esempio di richiesta di DELETE per eliminare un profilo.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
