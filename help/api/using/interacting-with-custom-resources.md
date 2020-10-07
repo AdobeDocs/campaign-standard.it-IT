@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 3%
 
 ---
 
@@ -45,6 +46,6 @@ POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->L&#39;endpoint e i flussi di lavoro dell&#39;API per la privacy (Privacy/PrivacyTool) non gestiscono le risorse personalizzate non collegate all&#39;entità profilo.
+>L&#39;endpoint e i flussi di lavoro dell&#39;API per la privacy (/privacy/privacyTool) non gestiscono le risorse personalizzate non collegate all&#39;entità profilo.
 >Avrai la responsabilità di gestire e ripulire qualsiasi PII per queste risorse personalizzate. Per maggiori informazioni sullo strumento per la privacy, [fai clic qui](../../api/using/creating-a-privacy-request.md).
 
