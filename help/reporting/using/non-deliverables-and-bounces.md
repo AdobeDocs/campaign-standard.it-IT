@@ -1,19 +1,20 @@
 ---
 title: Messaggi non recapitati e non trasferibili
 description: 'Con il rapporto Non consegnabili e rimbalzi out-of-the-box, scopri gli errori che possono verificarsi per la consegna. '
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: b70ae9ec-b659-42bf-b663-73615307005b
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: elenco di rapporti
+topic-tags: list-of-reports
 discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 5%
 
 ---
 
