@@ -9,18 +9,19 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 5%
 
 ---
 
 # Designing using existing content {#designing-using-existing-content}
 
-## Selezione di un contenuto esistente{#selecting-an-existing-content}
+## Selecting an existing content{#selecting-an-existing-content}
 
-Adobe Campaign viene fornito con un set di contenuti predefiniti per aiutarti a iniziare. Puoi usare uno di questi o, se il contenuto del messaggio che devi inviare è in fase di preparazione all&#39;esterno di Adobe Campaign, puoi importarlo dal computer o da un URL.
+ Adobe Campaign viene fornito con un set di contenuti predefiniti per aiutarti a iniziare. Potete utilizzare uno di questi oppure, se il contenuto del messaggio da inviare è in fase di preparazione all&#39;esterno  Adobe Campaign, potete importarlo dal computer o da un URL.
 
 Quando create un’e-mail o una pagina di destinazione, potete scegliere di caricare un contenuto esistente da un’altra origine.
 
@@ -39,6 +40,7 @@ Quando create un’e-mail o una pagina di destinazione, potete scegliere di cari
    * [Contenuto da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), per iniziare nuovo: fare clic sul **[!UICONTROL Create]** pulsante.
    * [Contenuto del computer come file](#importing-content-from-a-file)ZIP o HTML: fare clic sul **[!UICONTROL Upload]** pulsante.
    * [Contenuto da un URL](#importing-content-from-a-url) esistente (solo per le e-mail): fare clic sul **[!UICONTROL Import from URL]** pulsante.
+
    ![](assets/des_loading_2.png)
 
 1. Caricate il contenuto. Il contenuto selezionato sostituisce quello corrente.
@@ -64,7 +66,7 @@ Per rendere un contenuto esterno esistente completamente modificabile in Designe
 
 ## Importazione di un contenuto e-mail esistente {#importing}
 
-### Importazione di contenuto da un file {#importing-content-from-a-file}
+### Importing content from a file {#importing-content-from-a-file}
 
 Dalla home page di Designer e-mail, fare clic sul **[!UICONTROL Upload]** pulsante per caricare un file dal computer, quindi confermare.
 
@@ -79,7 +81,7 @@ Sono supportati i seguenti formati per l’importazione:
 >
 >Per i contenuti e-mail, è consigliabile importare singoli file HTML con un foglio di stile incorporato.
 
-#### Importazione di contenuto da un URL {#importing-content-from-a-url}
+#### Importing content from a URL {#importing-content-from-a-url}
 
 Prima di importare contenuto da un URL, accertatevi che sia conforme ai seguenti requisiti:
 
@@ -102,7 +104,7 @@ Per recuperare contenuto esistente da un URL, effettuate le seguenti operazioni:
    ![](assets/email_designer_importfromurl.png)
 
 1. Definite l’URL dal quale verrà recuperato il contenuto.
-1. Clic **[!UICONTROL Confirm]**.
+1. Fai clic su **[!UICONTROL Confirm]**.
 
 **Argomento correlato:**
 
@@ -126,7 +128,7 @@ Per recuperare i contenuti in fase di preparazione, effettuate le seguenti opera
 
 1. Per visualizzare l’anteprima del contenuto dell’URL recuperato, aprire il messaggio dopo averlo creato e fare clic sul **[!UICONTROL Preview]** pulsante.
 
-È possibile personalizzare l&#39;URL remoto da cui verrà recuperato il contenuto. A questo scopo, attenetevi alla procedura seguente:
+È possibile personalizzare l&#39;URL remoto da cui verrà recuperato il contenuto. Per farlo, segui la procedura indicata di seguito:
 
 1. Fare clic sull&#39;etichetta e-mail nella parte superiore dello schermo per accedere alla **[!UICONTROL Properties]** scheda Email Designer.
 1. Trova il **[!UICONTROL Remote URL]** campo.
@@ -160,7 +162,7 @@ Altre modifiche, come l’aggiunta di nuove sezioni al messaggio e-mail o lo sti
 
 Per ulteriori informazioni sulla conversione di un&#39;e-mail esistente in un&#39;e-mail compatibile con e-mail Designer, consultare [questa sezione](../../designing/using/using-existing-content.md).
 
-**Argomento** correlato:
+**Argomento correlato**:
 
 * [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
 * [Video introduttivo su Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ita)
@@ -207,9 +209,9 @@ In caso contrario, tagliare i diversi blocchi dal codice HTML. Ad esempio:
 Dopo aver identificato tutti i blocchi, in Designer e-mail ripetere la seguente procedura per ciascuna sezione dell&#39;e-mail esistente:
 
 1. Aprite il Designer e-mail per creare un contenuto e-mail vuoto.
-1. Impostate gli attributi a livello di corpo: colori di sfondo, larghezza, ecc. Per ulteriori informazioni, consultate [Modifica degli stili](../../designing/using/styles.md)delle e-mail.
-1. Aggiungere un componente struttura. Per ulteriori informazioni, consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
-1. Aggiungete un componente HTML. Per ulteriori informazioni, vedere [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Impostate gli attributi a livello di corpo: colori di sfondo, larghezza, ecc. Per ulteriori informazioni, consulta [Modifica degli stili delle e-mail](../../designing/using/styles.md).
+1. Aggiungere un componente struttura. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Aggiungete un componente HTML. Per ulteriori informazioni, consulta [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiate e incollate il codice HTML nel componente.
 1. Passate alla visualizzazione mobile. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
