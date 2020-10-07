@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 5%
@@ -124,7 +122,7 @@ Ora puoi salvare e inviare il tuo messaggio e-mail.
 
 Potete creare un&#39;e-mail da modelli predefiniti, come messaggi di benvenuto ai clienti, newsletter ed e-mail di nuovo coinvolgimento e personalizzarle.
 
-1. Create un’e-mail e apritene il contenuto. For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
+1. Create un’e-mail e apritene il contenuto. Per ulteriori informazioni, consultate [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md).
 1. Fate clic sull’icona Home per accedere alla **[!UICONTROL Email Designer]** pagina principale.
 1. Fate clic sulla **[!UICONTROL Templates]** scheda.
 1. Scegliete un modello HTML integrato.
