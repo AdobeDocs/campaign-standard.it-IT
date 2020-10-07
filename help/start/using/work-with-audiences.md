@@ -1,6 +1,6 @@
 ---
 title: Personalizzazione degli elenchi
-description: '"Scoprite come personalizzare la visualizzazione e agire sulle schermate degli elenchi in  Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione di elementi. Nelle schermate sono visualizzati elementi di una o più risorse."'
+description: '"Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in  Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione di elementi. Nelle schermate sono visualizzati elementi di una o più risorse."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -49,7 +47,7 @@ ht-degree: 4%
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
- profili di Adobe Campaign rappresentano tutti i contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie affinché il profilo sia mirato, qualificato e monitorato individualmente. Questo significa che un profilo può essere: un cliente, un potenziale, un singolo iscritto a una newsletter, un destinatario, un utente o qualsiasi altra denominazione a seconda dell’organizzazione.
+ profili Adobe Campaign rappresentano tutti i contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie affinché il profilo sia mirato, qualificato e monitorato individualmente. Questo significa che un profilo può essere: un cliente, un potenziale, un singolo iscritto a una newsletter, un destinatario, un utente o qualsiasi altra denominazione a seconda dell’organizzazione.
 
 **Leggi tutto**
 
@@ -80,7 +78,7 @@ Le pagine di destinazione sono moduli Web che possono essere utilizzati per racc
 * Mappare ogni campo di input con il campo corrispondente del database.
 * Rendete la pagina di destinazione disponibile online tramite un sito Web o tramite un collegamento diretto a un messaggio.
 
-Per ulteriori informazioni sulle pagine di destinazione, consulta la documentazione [](../../channels/using/getting-started-with-landing-pages.md)dedicata.
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 **Leggi tutto**
 
@@ -89,8 +87,8 @@ Per ulteriori informazioni sulle pagine di destinazione, consulta la documentazi
 
 ### Sincronizzazione dei profili da Microsoft Dynamics 365
 
-L&#39;integrazione di Campaign Standard con Microsoft Dynamics 365 consente di trasmettere i dati di contatto da Microsoft Dynamics 365 al database Campaign.
-Questi contatti sono quindi visibili nell&#39;elenco Profili e possono essere indirizzati nelle campagne di marketing. Per ulteriori informazioni su questa integrazione, consulta la documentazione [](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)dedicata.
+L&#39;integrazione Campaign Standard con Microsoft Dynamics 365 consente di trasmettere i dati di contatto da Microsoft Dynamics 365 al database Campaign.
+Questi contatti sono quindi visibili nell&#39;elenco Profili e possono essere indirizzati nelle campagne di marketing. For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -103,12 +101,11 @@ Questi contatti sono quindi visibili nell&#39;elenco Profili e possono essere in
 
 ### Importazione di dati tramite chiamate API
 
-Le API Campaign Standard consentono di eseguire operazioni per aggiornare il database come la creazione, l&#39;aggiornamento o l&#39;eliminazione di profili o servizi. Per ulteriori informazioni sull&#39;utilizzo delle API, consulta la documentazione [](../../api/using/get-started-apis.md)dedicata.
+Le API Campaign Standard consentono di eseguire operazioni per aggiornare il database come la creazione, l&#39;aggiornamento o l&#39;eliminazione dei profili o dei servizi. Per ulteriori informazioni sull&#39;utilizzo delle API, consulta la documentazione [](../../api/using/get-started-apis.md)dedicata.
 
 >[!CAUTION]
 >
->Prima di eseguire la creazione di massa dei profili o l&#39;aggiornamento tramite chiamate API, controllate i limiti di scala corrispondenti al contratto di licenza. For more on this, refer to
-[this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Prima di eseguire la creazione di massa dei profili o l&#39;aggiornamento tramite chiamate API, controllate i limiti di scala corrispondenti al contratto di licenza. Per ulteriori informazioni, consulta [questa pagina](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 **Leggi tutto**
 
@@ -126,15 +123,15 @@ Grazie ai flussi di lavoro e all&#39;editor di query, puoi creare audience che v
 **Leggi tutto**
 
 * [Informazioni sui tipi di pubblico](../../audiences/using/about-audiences.md)
-* [Creazione di un pubblico](../../audiences/using/creating-audiences.md)
+* [Creazione di tipi di pubblico](../../audiences/using/creating-audiences.md)
 
 ## Gestione della privacy {#privacy-management}
 
 <img width="60px" alt="condizioni" src="assets/icon_privacy.svg"/>
 
-Il GDPR è la nuova legge dell’Unione europea sulla privacy che armonizza e aggiorna i requisiti in materia di protezione dei dati. Il GDPR si applica ai clienti  Adobe Campaign che detengono dati per i soggetti che risiedono nell&#39;UE. Oltre alle funzionalità per la privacy già disponibili in  Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità in qualità di processore dati per includere funzionalità aggiuntive, per facilitare la vostra disponibilità in qualità di Titolare dei Dati per determinate richieste GDPR.
+Il GDPR è la nuova legge dell’Unione europea sulla privacy che armonizza e aggiorna i requisiti in materia di protezione dei dati. Il GDPR si applica ai clienti di Adobe Campaign che conservano dati per soggetti che risiedono nell’Unione europea. Oltre alle funzionalità per la privacy già disponibili in  Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità in qualità di processore dati per includere funzionalità aggiuntive, al fine di facilitare la tua disponibilità come Titolare del trattamento dei dati per determinate richieste GDPR.
 
-Per ulteriori informazioni sugli strumenti e sulle funzionalità forniti dal Adobe Campaign per [rendere conforme il GDPR, consulta questa guida](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) .
+Per ulteriori informazioni sugli strumenti e sulle funzionalità forniti da Adobe Campaign per [aiutarti a diventare conforme ai requisiti GDPR, consulta questa guida](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) .
 
 **Leggi tutto**
 
