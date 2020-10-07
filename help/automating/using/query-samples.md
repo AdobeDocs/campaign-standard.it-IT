@@ -10,86 +10,84 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
 
 # Esempi di query {#query-samples}
 
-In questa sezione viene illustrato il caso di utilizzo di un&#39; **[!UICONTROL Query]** attività. Per ulteriori informazioni sull&#39;utilizzo di un&#39; **[!UICONTROL Query]** attività, consultate [questa sezione](../../automating/using/query.md).
+In questa sezione viene illustrato il caso di utilizzo di un&#39; **[!UICONTROL Query]** attività. For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
 
-## Targeting su attributi di profilo semplici {#targeting-on-simple-profile-attributes}
+## Esecuzione del targeting su attributi di profilo semplici {#targeting-on-simple-profile-attributes}
 
-L&#39;esempio seguente mostra un&#39;attività di query configurata per gli uomini tra i 18 e i 30 anni che vivono a Londra.
+L’esempio seguente mostra un’attività Query configurata per un target di uomini in un’età compresa tra i 18 e i 30 anni che vivono a Londra.
 
 ![](assets/query_sample_1.png)
 
-## Targeting degli attributi e-mail {#targeting-on-email-attributes}
+## Esecuzione del targeting su attributi di e-mail {#targeting-on-email-attributes}
 
-L&#39;esempio seguente mostra un&#39;attività di query configurata per i profili di destinazione con il dominio dell&#39;indirizzo e-mail &quot;orange.co.uk&quot;.
+L’esempio seguente mostra un’attività Query configurata per eseguire il targeting di profili con il dominio dell’indirizzo e-mail &quot;orange.co.uk&quot;.
 
 ![](assets/query_sample_emaildomain.png)
 
-L&#39;esempio seguente mostra un&#39;attività di query configurata per i profili di destinazione il cui indirizzo e-mail è stato fornito.
+L’esempio seguente mostra un’attività Query configurata per eseguire il targeting di profili che hanno fornito l’indirizzo e-mail.
 
 ![](assets/query_sample_emailnotempty.png)
 
-## Profili di targeting il cui compleanno è oggi {#targeting-profiles-whose-birthday-is-today}
+## Esecuzione del targeting di profili che festeggiano il compleanno oggi {#targeting-profiles-whose-birthday-is-today}
 
-L&#39;esempio seguente mostra un&#39;attività di query configurata per il targeting dei profili il cui compleanno è oggi.
+L’esempio seguente mostra un’attività Query configurata per eseguire il targeting di profili che festeggiano il compleanno oggi.
 
-1. Trascinate il **[!UICONTROL Birthday]** filtro nella query.
+1. Trascina il filtro **[!UICONTROL Birthday]** nella query.
 
    ![](assets/query_sample_birthday.png)
 
-1. Impostare **[!UICONTROL Filter type]** su **[!UICONTROL Relative]** e selezionare **[!UICONTROL Today]**.
+1. Imposta il **[!UICONTROL Filter type]** su **[!UICONTROL Relative]** e seleziona **[!UICONTROL Today]**.
 
    ![](assets/query_sample_birthday2.png)
 
-## Profili di destinazione che hanno aperto una consegna specifica {#targeting-profiles-who-opened-a-specific-delivery}
+## Esecuzione del targeting di profili che hanno aperto una consegna specifica {#targeting-profiles-who-opened-a-specific-delivery}
 
-L&#39;esempio seguente mostra un&#39;attività di query configurata per filtrare i profili che hanno aperto la consegna con l&#39;etichetta &quot;Ora legale&quot;.
+L’esempio seguente mostra un’attività Query configurata per filtrare profili che hanno aperto la consegna con l’etichetta &quot;Ora legale&quot;.
 
-1. Trascinate il **[!UICONTROL Opened]** filtro nella query.
+1. Trascina il filtro **[!UICONTROL Opened]** nella query.
 
    ![](assets/query_sample_opened.png)
 
-1. Selezionate la consegna e fate clic su **[!UICONTROL Confirm]**.
+1. Seleziona la consegna, quindi fai clic su **[!UICONTROL Confirm]**.
 
    ![](assets/query_sample_opened2.png)
 
-## Targeting dei profili per i quali le consegne non sono riuscite per un motivo specifico {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## Esecuzione del targeting di profili con consegne non riuscite per un motivo specifico {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-L&#39;esempio seguente mostra un&#39;attività di query configurata per filtrare i profili per i quali le consegne non sono riuscite a causa della piena cassetta postale. Questa query è disponibile solo per gli utenti con diritti di amministrazione e appartenenti alle unità **[!UICONTROL All (all)]** organizzative (vedere [questa sezione](../../administration/using/organizational-units.md)).
+L’esempio seguente mostra un’attività Query configurata per filtrare profili con consegne non riuscite perché la casella di posta era piena. Questa query è disponibile solo per gli utenti con diritti di amministrazione e appartenenti alle unità organizzative **[!UICONTROL All (all)]** (consulta [questa sezione](../../administration/using/organizational-units.md)).
 
-1. Selezionate la **[!UICONTROL Delivery logs]** risorsa per filtrare direttamente nella tabella del registro di distribuzione (consultate [Utilizzo di risorse diverse dalle dimensioni](../../automating/using/using-resources-different-from-targeting-dimensions.md)di targeting).
+1. Seleziona la risorsa **[!UICONTROL Delivery logs]** per filtrare direttamente nella tabella dei registri di consegna (vedi [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
 
    ![](assets/query_sample_failure1.png)
 
-1. Trascinate il **[!UICONTROL Nature of failure]** filtro nella query.
+1. Trascina il filtro **[!UICONTROL Nature of failure]** nella query.
 
    ![](assets/query_sample_failure2.png)
 
-1. Selezionare il tipo di errore che si desidera eseguire. Nel nostro caso **[!UICONTROL Mailbox full]**.
+1. Seleziona il tipo di errore di cui desideri eseguire il targeting. In questo caso **[!UICONTROL Mailbox full]**.
 
    ![](assets/query_sample_failure3.png)
 
-## Profili di destinazione non contattati negli ultimi 7 giorni {#targeting-profiles-not-contacted-during-the-last-7-days}
+## Esecuzione del targeting di profili non contattati negli ultimi 7 giorni {#targeting-profiles-not-contacted-during-the-last-7-days}
 
-L&#39;esempio seguente mostra un&#39;attività di query configurata per filtrare i profili che non sono stati contattati negli ultimi 7 giorni.
+L’esempio seguente mostra un’attività Query configurata per filtrare profili che non sono stati contattati negli ultimi 7 giorni.
 
-1. Trascinate il **[!UICONTROL Delivery logs (logs)]** filtro nella query.
+1. Trascina il filtro **[!UICONTROL Delivery logs (logs)]** nella query.
 
    ![](assets/query_sample_7days.png)
 
-   Selezionate **[!UICONTROL Does not exist]** nell’elenco a discesa, quindi trascinate il **[!UICONTROL Delivery]** filtro.
+   Seleziona **[!UICONTROL Does not exist]** nell’elenco a discesa, quindi trascina il filtro **[!UICONTROL Delivery]**.
 
    ![](assets/query_sample_7days1.png)
 
@@ -97,16 +95,16 @@ L&#39;esempio seguente mostra un&#39;attività di query configurata per filtrare
 
    ![](assets/query_sample_7days2.png)
 
-## Profili di destinazione che hanno fatto clic su un collegamento specifico {#targeting-profiles-who-clicked-a-specific-link-}
+## Esecuzione del targeting di profili che hanno fatto clic su un collegamento specifico {#targeting-profiles-who-clicked-a-specific-link-}
 
-1. Trascinate il **[!UICONTROL Tracking logs (tracking)]** filtro nella query.
+1. Trascina il filtro **[!UICONTROL Tracking logs (tracking)]** nella query.
 
    ![](assets/query_sample_trackinglogs.png)
 
-1. Trascinate il **[!UICONTROL Label (urlLabel)]** filtro.
+1. Trascina il filtro **[!UICONTROL Label (urlLabel)]**.
 
    ![](assets/query_sample_trackinglogs2.png)
 
-1. Nel **[!UICONTROL Value]** campo digitare l&#39;etichetta definita al momento dell&#39;inserimento del collegamento nella consegna, quindi confermare.
+1. Nel campo **[!UICONTROL Value]**, digita l’etichetta definita durante l’inserimento del collegamento nella consegna, quindi conferma.
 
    ![](assets/query_sample_trackinglogs3.png)
