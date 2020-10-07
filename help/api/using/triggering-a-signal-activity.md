@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
 
 # Attivazione di attività di segnale {#triggering-a-signal-activity}
 
-In un flusso di lavoro di Adobe Campaign Standard, possono essere presenti una o più attività di segnale **** esterno. Queste attività sono &quot;listener&quot; che attendono di essere attivati.
+In un flusso di lavoro Adobe Campaign Standard , possono essere presenti una o più attività di segnale **** esterno. Queste attività sono &quot;listener&quot; che attendono di essere attivati.
 
 Le API Campaign Standard consentono di attivare un&#39;attività di segnale **** esterno per chiamare un flusso di lavoro. La chiamata API può includere parametri che verranno assimilati nelle variabili degli eventi del flusso di lavoro (un nome di pubblico per il targeting, un nome di file per l&#39;importazione, una parte del contenuto del messaggio, ecc.). In questo modo, puoi integrare facilmente le automatizzazioni Campaign con il sistema esterno.
 
@@ -29,11 +30,11 @@ Le API Campaign Standard consentono di attivare un&#39;attività di segnale ****
 
 Per attivare un flusso di lavoro, effettuate le seguenti operazioni:
 
-1. Eseguite una richiesta **GET** sul flusso di lavoro per recuperare l&#39;URL di attivazione dell&#39;attività del segnale esterno.
+1. Eseguite una richiesta di **GET** sul flusso di lavoro per recuperare l&#39;URL di attivazione dell&#39;attività del segnale esterno.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Eseguite una richiesta **POST** sull&#39;URL restituito per attivare l&#39;attività del segnale, con il parametro **&quot;source&quot;** nel payload. Questo attributo è obbligatorio e consente di indicare l&#39;origine della richiesta di attivazione.
+1. Eseguite una richiesta di **POST** sull&#39;URL restituito per attivare l&#39;attività del segnale, con il parametro **&quot;source&quot;** nel payload. Questo attributo è obbligatorio e consente di indicare l&#39;origine della richiesta di attivazione.
 
 Se desiderate richiamare il flusso di lavoro con i parametri, aggiungeteli al payload con l&#39;attributo **&quot;parameters&quot;** . La sintassi è composta dal nome del parametro seguito dal relativo valore (sono supportati i seguenti tipi: **stringa**, **numero**, **booleano** e **data/ora**).
 
@@ -64,7 +65,7 @@ Se desiderate richiamare il flusso di lavoro con i parametri, aggiungeteli al pa
 
 ***Richiesta di esempio***
 
-Eseguite una richiesta GET sul flusso di lavoro.
+Eseguite una richiesta di GET sul flusso di lavoro.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -93,7 +94,7 @@ Restituisce l&#39;attività del segnale del flusso di lavoro e l&#39;URL del tri
 }
 ```
 
-Per attivare un&#39;attività di segnale, esegui una richiesta POST sull&#39;URL di attivazione con il &quot;source&quot;. Aggiungete gli attributi &quot;parametri&quot; se desiderate richiamare il flusso di lavoro con i parametri.
+Per attivare un&#39;attività di segnale, esegui una richiesta di POST sull&#39;URL di attivazione con il &quot;source&quot;. Aggiungete gli attributi &quot;parametri&quot; se desiderate richiamare il flusso di lavoro con i parametri.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
