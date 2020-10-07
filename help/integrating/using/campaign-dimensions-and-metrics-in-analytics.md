@@ -1,32 +1,33 @@
 ---
 title: Dimensioni e metriche di Campaign in Analytics
-description: Scopri le diverse dimensioni che puoi trovare in Adobe Analytics per iniziare a monitorare le consegne delle e-mail da Adobe Campaign.
-page-status-flag: mai attivato
+description: Scopri le diverse dimensioni che puoi trovare in  Adobe Analytics per iniziare a monitorare le consegne delle e-mail da  Adobe Campaign.
+page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: integration
+audience: integrating
 content-type: reference
-topic-tags: lavorare con campagne e analisi
+topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 3%
 
 ---
 
 
 # Dimensioni e metriche di Campaign in Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
-L'integrazione di Adobe Campaign e Adobe Analytics consente di tenere traccia del successo delle comunicazioni e-mail direttamente in Adobe Analytics.
+&#39;integrazione di Adobe Campaign e  Adobe Analytics consente di tenere traccia del successo delle comunicazioni e-mail direttamente  Adobe Analytics.
 
 La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di seguito:
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensione<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definizione<br /> </th> 
   </tr> 
  </thead> 
