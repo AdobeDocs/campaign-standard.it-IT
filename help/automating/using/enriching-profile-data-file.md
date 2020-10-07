@@ -1,6 +1,6 @@
 ---
 title: Arricchimento dei dati del profilo con i dati contenuti in un file
-description: Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto contenuti in un file.
+description: Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto presenti in un file.
 page-status-flag: never-activated
 uuid: 8c1693ef-1312-422c-b05d-263553113f8f
 contentOwner: sauviat
@@ -10,27 +10,25 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 
 # Arricchimento dei dati del profilo con i dati contenuti in un file {#enriching-profile-data-with-data-contained-in-a-file}
 
-Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto contenuti in un file. Qui si considera che i dati di acquisto sono memorizzati in un sistema di terze parti. Ciascun profilo può contenere diversi acquisti memorizzati nel file. L&#39;obiettivo finale del flusso di lavoro è quello di inviare un&#39;e-mail ai profili di destinazione che hanno acquistato almeno due elementi per ringraziarli della loro fedeltà.
+Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto contenuti in un file. Qui si considera che i dati di acquisto sono memorizzati in un sistema di terze parti. Ciascun profilo può contenere vari acquisti memorizzati all’interno del file. L’obiettivo finale del flusso di lavoro è quello di inviare un’e-mail ai profili di destinazione che hanno acquistato almeno due elementi, in modo da ringraziarli della loro fedeltà.
 
 Il flusso di lavoro è configurato come segue:
 
 ![](assets/enrichment_example_workflow.png)
 
-* Un&#39;attività [Query](../../automating/using/query.md) che esegue il targeting dei profili che riceveranno il messaggio.
-* Un&#39;attività [Carica file](../../automating/using/load-file.md) che carica i dati di acquisto. Ad esempio:
+* A [Query](../../automating/using/query.md) activity that targets the profiles who will receive the message.
+* A [Load file](../../automating/using/load-file.md) activity that loads the purchase data. Ad esempio:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -42,54 +40,54 @@ Il flusso di lavoro è configurato come segue:
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   Con questo file di esempio, utilizzeremo l&#39;indirizzo e-mail per riconciliare i dati con i profili del database. Potete inoltre abilitare ID univoci come descritto in [questo documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   Con questo file di esempio, utilizzeremo l’indirizzo e-mail per riconciliare i dati con i profili del database. Puoi anche eseguire l’abilitazione di ID univoci, come descritto nel [presente documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* Un&#39;attività di [arricchimento](../../automating/using/enrichment.md) che crea un collegamento tra i dati della transazione caricati dal file e i profili selezionati nella **[!UICONTROL Query]**. Il collegamento è definito nella **[!UICONTROL Advanced relations]** scheda dell&#39;attività. Il collegamento è basato sulla transizione proveniente dall&#39; **[!UICONTROL Load file]** attività. Utilizza il campo &quot;email&quot; della risorsa profilo e la colonna &quot;customer&quot; del file importato come criteri di riconciliazione.
+* An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. Il collegamento è definito nella scheda **[!UICONTROL Advanced relations]** dell’attività. Il collegamento è basato sulla transizione proveniente dall’attività **[!UICONTROL Load file]**. Come criteri di riconciliazione, utilizza il campo &quot;e-mail&quot; della risorsa profilo e la colonna &quot;cliente&quot; del file importato.
 
    ![](assets/enrichment_example_workflow2.png)
 
-   Una volta creato il collegamento, **[!UICONTROL Additional data]** vengono aggiunti due set:
+   Una volta creato il collegamento, vengono aggiunti due set di **[!UICONTROL Additional data]**:
 
-   * Un insieme di due righe corrispondenti alle due ultime transazioni di ciascun profilo. Per questa raccolta, il nome del prodotto, la data della transazione e il prezzo del prodotto vengono aggiunti come dati aggiuntivi. Sui dati viene applicato un ordinamento decrescente. Per creare la raccolta, dalla **[!UICONTROL Additional data]** scheda:
+   * Una raccolta di due righe corrispondenti alle ultime due transazioni di ciascun profilo. Per questa raccolta, il nome del prodotto, la data della transazione e il prezzo del prodotto vengono inseriti come dati aggiuntivi. Ai dati viene applicato un ordinamento decrescente. Per creare la raccolta, dalla scheda **[!UICONTROL Additional data]**:
 
-      Selezionate il collegamento precedentemente definito nella **[!UICONTROL Advanced relations]** scheda dell&#39;attività.
+      Scegli il collegamento precedentemente definito nella scheda **[!UICONTROL Advanced relations]** dell’attività.
 
       ![](assets/enrichment_example_workflow3.png)
 
-      Selezionare **[!UICONTROL Collection]** e specificare il numero di righe da recuperare (2 in questo esempio). In questa schermata, potete personalizzare l&#39;oggetto **[!UICONTROL Alias]** e l&#39;oggetto **[!UICONTROL Label]** della raccolta. Questi valori saranno visibili nelle seguenti attività del flusso di lavoro quando si fa riferimento a questa raccolta.
+      Seleziona **[!UICONTROL Collection]** e specifica il numero di righe da recuperare, in questo esempio sono 2. In questa schermata, puoi personalizzare **[!UICONTROL Alias]** e **[!UICONTROL Label]** della raccolta. Questi valori saranno visibili nelle seguenti attività del flusso di lavoro, ogni volta che si farà riferimento a questa raccolta.
 
       ![](assets/enrichment_example_workflow4.png)
 
-      Per **[!UICONTROL Data]** mantenere la raccolta, selezionate le colonne che verranno utilizzate per la consegna finale.
+      Come **[!UICONTROL Data]** da mantenere per la raccolta, seleziona le colonne che verranno utilizzate per la consegna finale.
 
       ![](assets/enrichment_example_workflow6.png)
 
-      Applica un ordinamento decrescente alla data della transazione per essere certi di recuperare le transazioni più recenti.
+      Per avere la certezza di recuperare le transazioni più recenti, applica un ordinamento decrescente alla data della transazione.
 
       ![](assets/enrichment_example_workflow7.png)
 
-   * Un aggregato che conta il numero totale di transazioni per ciascun profilo. Questo aggregato verrà utilizzato successivamente per filtrare i profili in cui sono registrate almeno due transazioni. Per creare l&#39;aggregazione, dalla **[!UICONTROL Additional data]** scheda:
+   * Un aggregato che conta il numero totale di transazioni per ciascun profilo. Tale aggregato verrà utilizzato successivamente per filtrare i profili in cui sono registrate almeno due transazioni. Per creare l’aggregato, dalla scheda **[!UICONTROL Additional data]**:
 
-      Selezionate il collegamento precedentemente definito nella **[!UICONTROL Advanced relations]** scheda dell&#39;attività.
+      Scegli il collegamento precedentemente definito nella scheda **[!UICONTROL Advanced relations]** dell’attività.
 
       ![](assets/enrichment_example_workflow3.png)
 
-      Selezionare **[!UICONTROL Aggregate]**.
+      Seleziona **[!UICONTROL Aggregate]**.
 
       ![](assets/enrichment_example_workflow8.png)
 
-      Per **[!UICONTROL Data]** mantenere, definire un aggregato **Count All** . Se necessario, specificate un alias personalizzato per individuarlo più rapidamente nelle seguenti attività.
+      Come **[!UICONTROL Data]** da mantenere, definisci un aggregato **Conta tutto**. Se necessario, specifica un alias personalizzato per individuarlo più rapidamente nelle seguenti attività.
 
       ![](assets/enrichment_example_workflow9.png)
 
-* Un&#39;attività di [segmentazione](../../automating/using/segmentation.md) con un solo segmento, che recupera i profili della destinazione iniziale con almeno due transazioni registrate. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene eseguita sull&#39;aggregazione definita in precedenza.
+* A [Segmentation](../../automating/using/segmentation.md) activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene eseguita sull’aggregato definito in precedenza.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* Un&#39;attività di consegna [tramite e-](../../automating/using/email-delivery.md) mail che utilizza i dati aggiuntivi definiti in **[!UICONTROL Enrichment]** per recuperare in modo dinamico gli ultimi due acquisti effettuati dal profilo. I dati aggiuntivi si trovano nel nodo **Dati** aggiuntivi (TargetData)quando si aggiunge un campo di personalizzazione.
+* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. Durante l’inserimento di un campo di personalizzazione, i dati aggiuntivi si trovano nel nodo **Dati aggiuntivi (TargetData)**.
 
    ![](assets/enrichment_example_workflow10.png)
 
 **Argomento correlato:**
 
-* [Arricchimento dei profili cliente con dati esterni](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [Arricchimento dei profili dei clienti con dati esterni](https://helpx.adobe.com/it/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
