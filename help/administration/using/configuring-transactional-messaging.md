@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '3169'
 ht-degree: 7%
@@ -34,7 +32,7 @@ Una volta pubblicato l’evento:
 
 * L&#39;API che verrà utilizzata dallo sviluppatore del sito Web viene distribuita e gli eventi transazionali possono ora essere inviati. Consultate [Integrazione dell’attivazione dell’evento in un sito Web](#integrating-the-triggering-of-the-event-in-a-website).
 
-* Il messaggio transazionale corrispondente viene creato automaticamente. Consulta [Guida introduttiva ai messaggi](../../channels/using/getting-started-with-transactional-msg.md)transazionali.
+* Il messaggio transazionale corrispondente viene creato automaticamente. See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## Creazione di un evento {#creating-an-event}
 
