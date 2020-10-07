@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 8%
@@ -81,7 +79,7 @@ Questo caso d&#39;uso consente di creare un modello di E-mail Designer utilizzan
 
 1. Tornate alla visualizzazione mobile per verificare che il contenuto sia correttamente visualizzato e salvare le modifiche.
 
-## Caso di utilizzo
+## Caso d’uso
 
 Proviamo a convertire questo messaggio e-mail, creato nell’editor legacy, in un **[!UICONTROL Email Designer]** modello.
 
