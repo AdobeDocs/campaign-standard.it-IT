@@ -1,5 +1,5 @@
 ---
-title: Utilizzo di Segment Builder
+title: Utilizzo del Generatore di segmenti
 description: Scopri come usare Segment Builder (Generatore di segmenti) per creare audience.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -10,22 +10,20 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Using the Segment Builder {#using-the-segment-builder}
+# Utilizzo del Generatore di segmenti {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
->Il servizio Destinazioni audience è attualmente in versione beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta l&#39;Assistenza clienti Adobe.
+>Il servizio Destinazioni audience è attualmente in versione beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta  Assistenza clienti di Adobe.
 
 Segment Builder (Generatore di segmenti) consente di creare audience definendo regole basate sui dati provenienti dal profilo [cliente](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)in tempo reale.
 
@@ -43,7 +41,7 @@ L’interfaccia di Segment Builder (Generatore di segmenti) è composta come seg
 
 Per creare un segmento, effettua le seguenti operazioni:
 
-Il Generatore di segmenti deve ora essere visualizzato nell’area di lavoro. Consente di creare un segmento utilizzando i dati di  Adobe Experience Platform che verranno utilizzati per creare il pubblico.
+Il Generatore di segmenti deve ora essere visualizzato nell’area di lavoro. Consente di creare un segmento utilizzando i dati di Adobe Experience Platform che verranno utilizzati per creare il pubblico.
 
 1. Denominate il segmento, quindi immettete una descrizione (facoltativo).
 
@@ -63,7 +61,7 @@ Il Generatore di segmenti deve ora essere visualizzato nell’area di lavoro. Co
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Create segment]**. 
+1. Fai clic sul pulsante **[!UICONTROL Create segment]**.
 
 ## Ricerca dei campi corretti per un segmento
 
@@ -73,11 +71,11 @@ I campi elencati sono attributi acquisiti dalla società e resi disponibili tram
 
 I campi sono organizzati in schede:
 
-* **[!UICONTROL Attributes]**: Attributi dei profili esistenti che possono essere originati dal database  Adobe Campaign e/o dal Adobe Experience Platform . Si riferiscono alle informazioni statiche allegate a un profilo (ad esempio, indirizzo e-mail, paese di residenza, stato del programma fedeltà, ecc.).
+* **[!UICONTROL Attributes]**: Attributi dei profili esistenti che possono essere originati dal database Adobe Campaign  e/o Adobe Experience Platform. Si riferiscono alle informazioni statiche allegate a un profilo (ad esempio, indirizzo e-mail, paese di residenza, stato del programma fedeltà, ecc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Attività che identificano i consumatori che hanno avuto qualche interazione con i punti di contatto dei clienti della tua azienda, come &quot;chiunque abbia ordinato due volte in due settimane&quot;. Questo può essere trasmesso in streaming da Adobe  Analytics, oppure può essere inserito direttamente nel Adobe Experience Platform  mediante strumenti ETL di terze parti.
+* **[!UICONTROL Events]**: Attività che identificano i consumatori che hanno avuto qualche interazione con i punti di contatto dei clienti della tua azienda, come &quot;chiunque abbia ordinato due volte in due settimane&quot;. Questo può essere trasmesso in streaming da  Adobe Analytics, o trasferito direttamente nell’Adobe Experience Platform mediante strumenti ETL di terze parti.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ I campi sono organizzati in schede:
 >
 >**La segmentazione** multi-entità consente di estendere i dati del profilo con dati aggiuntivi basati su prodotti, store o altre classi non di profilo. Una volta connessi, i dati di altre classi diventano disponibili come se fossero nativi dello schema Profilo.
 >
->For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>Per ulteriori informazioni, consulta la [documentazione dedicata](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
 Per impostazione predefinita, il Generatore di segmenti visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, compresi i campi per i quali i dati non sono presenti, attivare l&#39; **[!UICONTROL Show full XDM schema]** opzione dalle impostazioni.
 
@@ -129,7 +127,7 @@ Una volta collegate, le due regole formano un contenitore.
 
 Il Generatore di segmenti consente di confrontare due campi per definire una regola. Ad esempio, le femmine il cui indirizzo di casa si trova in un codice ZIP diverso dall&#39;indirizzo di lavoro.
 
-A questo scopo, effettuate le seguenti operazioni:
+Per farlo, esegui questi passaggi:
 
 1. Trascinate il primo campo da confrontare (ad esempio, il codice postale dell’indirizzo principale) nell’area di lavoro centrale.
 
