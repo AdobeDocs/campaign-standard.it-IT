@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
@@ -23,15 +24,15 @@ La creazione dei profili viene eseguita con una richiesta **POST** sulla risorsa
 
 >[!CAUTION]
 >
->Se si desidera associare un <b>orgUnit</b> al profilo creato, è necessario estendere la risorsa del profilo a questo campo e, dopo la pubblicazione dell'estensione, eseguire una richiesta POST sull'endpoint <b>ProfileAndServicesExt</b> .
+>Se si desidera associare un <b>orgUnit</b> al profilo creato, è necessario estendere la risorsa del profilo a questo campo e, dopo la pubblicazione dell&#39;estensione, eseguire una richiesta POST sull&#39;endpoint <b>ProfileAndServicesExt</b> .
 >
->Per ulteriori informazioni sull'estensione delle risorse del profilo, consulta la documentazione relativa alla <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">campagna</a>.
+>Per ulteriori informazioni sull&#39;estensione delle risorse del profilo, consulta la documentazione relativa alla <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">campagna</a>.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Esempio di richiesta POST per creare un profilo con l’e-mail "john.doe@mail.com".
+Esempio di richiesta di POST per creare un profilo con l’e-mail &quot;john.doe@mail.com&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -43,7 +44,7 @@ Esempio di richiesta POST per creare un profilo con l’e-mail "john.doe@mail.co
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-Restituisce il profilo appena creato, con l'indirizzo e-mail "john.doe@mail.com".
+Restituisce il profilo appena creato, con l&#39;indirizzo e-mail &quot;john.doe@mail.com&quot;.
 
 ```
 {
