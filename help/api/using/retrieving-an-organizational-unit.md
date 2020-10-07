@@ -1,5 +1,5 @@
 ---
-title: Recupero dell'unità organizzativa di un profilo
+title: Recupero unità organizzativa di un profilo
 description: Scopri come utilizzare le API per l'unità organizzativa di un profilo.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
 
-# Recupero dell'unità organizzativa di un profilo {#retrieving-organizational-units}
+# Recupero unità organizzativa di un profilo {#retrieving-organizational-units}
 
-1. Eseguite una richiesta GET sul profilo PKey per recuperare l'URL **orgUnit** .
-1. Eseguite una richiesta GET sull'URL per recuperare ulteriori dettagli sull'unità organizzativa.
+1. Eseguite una richiesta di GET sul profilo PKey per recuperare l’URL **orgUnit** .
+1. Eseguite una richiesta di GET sull&#39;URL per recuperare ulteriori dettagli sull&#39;unità organizzativa.
 
 <br/>
 
@@ -50,7 +51,7 @@ Restituisce l’URL orgUnit per il profilo.
 }
 ```
 
-Eseguite una richiesta GET sull'URL per recuperare ulteriori informazioni.
+Eseguite una richiesta di GET sull’URL per recuperare ulteriori informazioni.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
@@ -60,7 +61,7 @@ Eseguite una richiesta GET sull'URL per recuperare ulteriori informazioni.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce i dettagli sull'unità organizzativa.
+Restituisce i dettagli sull&#39;unità organizzativa.
 
 ```
 {
