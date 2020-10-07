@@ -1,5 +1,5 @@
 ---
-title: Gestione del rifiuto CCPA
+title: Gestione dell’opt-out CCPA
 description: Scoprite come gestire il rifiuto CCPA con le API
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
 
-# Gestione del rifiuto CCPA {#managing-ccpa-optout}
+# Gestione dell’opt-out CCPA {#managing-ccpa-optout}
 
-Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizzando l'attributo di profilo **ccpaOptOut** e i valori "true" o "false":
+Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizzando l&#39;attributo di profilo **ccpaOptOut** e i valori &quot;true&quot; o &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -28,15 +29,15 @@ Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizza
 
 >[!CAUTION]
 >
->L'attributo "Rinuncia CCPA" è disponibile solo a partire dalla versione 19.4. Per gli ambienti 19.3, è necessario estendere la risorsa Profili e aggiungere un campo booleano. Questo campo verrà aggiunto all'API con l'etichetta selezionata. Vi consigliamo di utilizzare "Opt-Out for CCPA".
+>L&#39;attributo &quot;Rinuncia CCPA&quot; è disponibile solo a partire dalla versione 19.4. Per gli ambienti 19.3, è necessario estendere la risorsa Profili e aggiungere un campo booleano. Questo campo verrà aggiunto all&#39;API con l&#39;etichetta selezionata. Vi consigliamo di utilizzare &quot;Opt-Out for CCPA&quot;.
 >
->Per ulteriori informazioni, consulta la documentazione [sulla gestione della](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)privacy.
+>For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
 <br/>
 
 ***Richieste di esempio***
 
-* Esempio di richiesta GET per recuperare lo stato di rifiuto CCPA di un profilo.
+* Richiesta di GET di esempio per recuperare lo stato di rifiuto CCPA di un profilo.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -46,7 +47,7 @@ Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizza
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   Risposta alla richiesta GET.
+   Risposta alla richiesta di GET.
 
    ```
    {
@@ -58,7 +59,7 @@ Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizza
    }
    ```
 
-* Esempio di richiesta POST per contrassegnare un profilo per la rinuncia CCPA.
+* Esempio di richiesta di POST per contrassegnare un profilo per la rinuncia CCPA.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -75,7 +76,7 @@ Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizza
    -d }'
    ```
 
-   Risposta alla richiesta GET.
+   Risposta alla richiesta di GET.
 
    ```
    {
@@ -88,7 +89,7 @@ Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizza
    }
    ```
 
-* Richiesta PATCH di esempio per aggiornare un profilo per il rifiuto CCPA.
+* Esempio di richiesta di PATCH per aggiornare un profilo per la rinuncia CCPA.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -102,7 +103,7 @@ Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizza
    -d }'
    ```
 
-   Risposta alla richiesta GET.
+   Risposta alla richiesta di GET.
 
    ```
    {
