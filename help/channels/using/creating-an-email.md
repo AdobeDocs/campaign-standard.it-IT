@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -54,7 +52,7 @@ Potete creare un&#39;e-mail da una [campagna](../../start/using/marketing-activi
 
    ![](assets/email_creation_4.png)
 
-   Potete progettare il messaggio direttamente utilizzando un modello di contenuto predefinito oppure utilizzando Dreamweaver o Adobe Experience Manager. Se non siete designer, potete anche caricare un contenuto preparato per voi, oppure importare un contenuto esistente da un URL. Consultate [Selezione di un contenuto](../../designing/using/using-existing-content.md)esistente.
+   Potete progettare il messaggio direttamente utilizzando un modello di contenuto predefinito oppure utilizzando Dreamweaver o Adobe Experience Manager. Se non siete designer, potete anche caricare un contenuto preparato per voi, oppure importare un contenuto esistente da un URL. Consulta [Selezione di un contenuto esistente](../../designing/using/using-existing-content.md).
 
 1. Visualizza in anteprima il messaggio. Consulta [Anteprima dei messaggi](../../sending/using/previewing-messages.md).
 1. Conferma la creazione dell’e-mail.
