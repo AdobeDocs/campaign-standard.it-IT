@@ -1,18 +1,19 @@
 ---
 title: Interfaccia di reporting
 description: Ulteriori informazioni sulla base dell'interfaccia per report dinamici e su come navigare tra le varie schede e menu.
-page-status-flag: mai attivato
+page-status-flag: never-activated
 uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
-topic-tags: informazioni sui rapporti
+topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +52,7 @@ La tabella **Inserisci** consente di personalizzare i rapporti aggiungendo grafi
 
 ## Schede {#tabs}
 
-Le schede a sinistra consentono di creare il rapporto e filtrare i dati in base alle esigenze.
+Le schede a sinistra consentono di creare il rapporto e di filtrare i dati in base alle esigenze.
 
 ![](assets/dynamic_report_interface.png)
 
@@ -109,9 +110,9 @@ La scheda **Inserisci** consente di personalizzare i rapporti aggiungendo grafic
 
 ![](assets/tab_share_1.png)
 
-La **[!UICONTROL Share]** scheda consente di inviare i rapporti con gli utenti di Adobe Campaign tramite e-mail una tantum o ricorrenti. Gli utenti destinatari riceveranno quindi un'e-mail con il rapporto allegato.
+La **[!UICONTROL Share]** scheda consente di inviare i rapporti con  utenti Adobe Campaign tramite e-mail una tantum o ricorrenti. Gli utenti destinatari riceveranno quindi un&#39;e-mail con il rapporto allegato.
 
-* **[!UICONTROL Send report now]**: Invia il rapporto a un elenco di destinatari selezionati tramite e-mail con una sola operazione.
+* **[!UICONTROL Send report now]**: Invia il rapporto a un elenco di destinatari selezionati tramite un messaggio e-mail di una tantum.
 
    1. Nella **[!UICONTROL Send report]** finestra, aggiungete una descrizione se necessario.
 
@@ -119,7 +120,7 @@ La **[!UICONTROL Share]** scheda consente di inviare i rapporti con gli utenti d
 
    1. Selezionate i destinatari del messaggio e-mail facendo clic sul campo e selezionandoli nell’elenco a discesa o digitando i loro indirizzi e-mail.
    1. Selezionate **[!UICONTROL Show scheduling options]** se desiderate inviare e-mail ricorrenti. A tale scopo, è possibile selezionare **[!UICONTROL Send Report on schedule]** nella **[!UICONTROL Share]** scheda.
-   1. Click **[!UICONTROL Send now]**. I destinatari riceveranno quindi un'e-mail con il rapporto allegato.
+   1. Fai clic su **[!UICONTROL Send now]**. I destinatari riceveranno quindi un&#39;e-mail con il rapporto allegato.
 
 * **[!UICONTROL Send report on schedule]**: Pianificare il rapporto e inviare e-mail ricorrenti ai destinatari.
 
@@ -133,7 +134,7 @@ La **[!UICONTROL Share]** scheda consente di inviare i rapporti con gli utenti d
 
       ![](assets/tab_share_2.png)
 
-   1. Fai clic su **[!UICONTROL Send on schedule]**, i destinatari riceveranno un'e-mail ricorrente a seconda della frequenza scelta.
+   1. Fai clic su **[!UICONTROL Send on schedule]**, i destinatari riceveranno un&#39;e-mail ricorrente a seconda della frequenza scelta.
 
 * **[!UICONTROL Scheduled reports]**: Trova e configura tutti i rapporti pianificati.
 
@@ -145,7 +146,7 @@ La **[!UICONTROL Share]** scheda consente di inviare i rapporti con gli utenti d
    1. Per configurare o controllare i rapporti pianificati, fai clic direttamente sul rapporto da modificare.
    1. Viene visualizzata la **[!UICONTROL Edit scheduled report]** finestra, in cui potete modificare i destinatari o la frequenza dell’e-mail, se necessario.
 
-Gli utenti destinatari riceveranno quindi un'e-mail con il rapporto allegato direttamente nelle loro caselle di posta elettronica. Gli utenti possono sempre decidere di non ricevere più e-mail ricorrenti utilizzando un collegamento di annullamento dell'iscrizione disponibile in ogni e-mail ricorrente.
+Gli utenti destinatari riceveranno quindi un&#39;e-mail con il rapporto allegato direttamente nelle loro caselle di posta elettronica. Gli utenti possono sempre decidere di non ricevere più e-mail ricorrenti utilizzando un collegamento di annullamento dell&#39;iscrizione disponibile in ogni e-mail ricorrente.
 
 **Argomento correlato:**
 
