@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -408,7 +406,7 @@ _Notifiche push_
    <td> Con l'integrazione di  Adobe Campaign e Dreamweaver, ora è disponibile un processo integrato per la creazione di campagne e-mail con  soluzioni Adobe.<br /> È possibile modificare  e-mail Adobe Campaign in Dreamweaver e sincronizzare i contenuti tra le due soluzioni senza soluzione di continuità.<br /> Per la versione iniziale, l'integrazione è disponibile come funzione "Labs" e funziona solo con Dreamweaver Pre-Release Beta. Se desiderate attivarlo, contattate AC-DW-integration@adobe.com.<br /> Per ulteriori informazioni, consultate questo <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ottimizzazione manuale del tempo di invio<br /> </td> 
+   <td> Manual send time optimization<br /> </td> 
    <td> Ora puoi definire manualmente un orario di invio personalizzato per destinatario, a livello di consegna o tramite un flusso di lavoro. <br /> Sono disponibili due nuove opzioni: <br /> 
     <ul> 
      <li> Tutti i destinatari ricevono il messaggio tenendo conto del relativo fuso orario. </li> 
@@ -436,7 +434,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Flussi di lavoro: nuova attività di lettura dell'audience<br /> </td> 
-   <td> Avviate il processo di targeting con un'audience esistente che potete facilmente selezionare e perfezionare in un'unica attività.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/read-audience.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Avviate il processo di targeting con un'audience esistente che potrete selezionare e perfezionare facilmente in un'unica attività.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/read-audience.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dati dei punti di interesse<br /> </td> 
