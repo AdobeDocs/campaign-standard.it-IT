@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
@@ -31,9 +32,9 @@ Il parametro **_lineCount** consente di limitare il numero di risorse elencate n
 
 <br/>
 
-***Richiesta di esempio ***
+***Richiesta di esempio***
 
-Esempio di richiesta GET per visualizzare 1 record della risorsa profilo.
+Richiesta di GET di esempio per visualizzare 1 record della risorsa profilo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
