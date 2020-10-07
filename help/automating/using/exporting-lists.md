@@ -1,6 +1,6 @@
 ---
 title: Esportazione di elenchi
-description: 'Adobe Campaign consente di esportare i dati visualizzati come elenchi da una schermata di panoramica direttamente in un file per un utilizzo futuro. '
+description: ' Adobe Campaign consente di esportare i dati visualizzati come elenchi da una schermata di panoramica direttamente in un file per un utilizzo futuro. '
 page-status-flag: never-activated
 uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
 contentOwner: sauviat
@@ -9,28 +9,29 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 5%
 
 ---
 
 
 # Esportazione di elenchi{#exporting-lists}
 
-Adobe Campaign consente di esportare gli elenchi direttamente in un file per un utilizzo futuro. L’esportazione di un elenco in un file genera una voce di registro nel **[!UICONTROL Export audits]**menu. Per ulteriori informazioni sui controlli delle esportazioni, consultare la sezione[Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
+ Adobe Campaign consente di esportare gli elenchi direttamente in un file per utilizzi futuri. L’esportazione di un elenco in un file genera una voce di registro nel **[!UICONTROL Export audits]** menu. Per ulteriori informazioni sui controlli delle esportazioni, consulta la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
 
-L’opzione di elenco di esportazione consente di esportare un massimo di 100.000 righe per impostazione predefinita e definita dall’opzione **Nms_ExportListLimit** . Questa opzione può essere gestita dall&#39;amministratore funzionale, nel menu **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-L’elenco di esportazione è disponibile in tutte le schermate che dispongono di una visualizzazione in modalità **Elenco** , per gli utenti con il **[!UICONTROL EXPORT (export)]**ruolo.
+L’elenco di esportazione è disponibile in tutte le schermate che dispongono di una visualizzazione in modalità **Elenco** , per gli utenti con il **[!UICONTROL EXPORT (export)]** ruolo.
 
-1. Passate alla schermata **Elenco** selezionata. Ad esempio, la schermata di panoramica del profilo di test ( **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Test profiles]** ).
+1. Passate alla schermata **Elenco** selezionata. Ad esempio, la schermata di panoramica del profilo di test ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
 1. Verificate che la schermata sia in modalità **Elenco** .
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organizzare le colonne nell’elenco nell’ordine in cui desiderate esportarle mediante il **[!UICONTROL Configure list]**pulsante, nell’angolo in alto a destra. Oltre alle colonne configurate, verrà esportata anche la chiave primaria della risorsa.
+1. Organizzare le colonne nell’elenco nell’ordine in cui desiderate esportarle mediante il **[!UICONTROL Configure list]** pulsante, nell’angolo in alto a destra. Oltre alle colonne configurate, verrà esportata anche la chiave primaria della risorsa.
 1. Se lo desideri, puoi applicare un filtro. A tale scopo, fare clic sul pulsante in alto a sinistra per visualizzare il riquadro di ricerca.
 
    Se si esegue un&#39;esportazione da un elenco contenente risorse diverse, è necessario applicare i filtri in modo che nell&#39;elenco venga visualizzato un solo tipo di risorsa.
