@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ## Metodo 1: Iscrizione di un profilo a un servizio
 
-Eseguite una richiesta GET per recuperare il profilo.
+Eseguite una richiesta di GET per recuperare il profilo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -31,7 +32,7 @@ Eseguite una richiesta GET per recuperare il profilo.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l'URL delle sottoscrizioni per il profilo.
+Restituisce l&#39;URL delle sottoscrizioni per il profilo.
 
 ```
   {
@@ -45,7 +46,7 @@ Restituisce l'URL delle sottoscrizioni per il profilo.
   }
 ```
 
-Eseguite una richiesta POST sull'URL delle iscrizioni con il servizio Chiave primaria desiderato all'interno del payload.
+Eseguite una richiesta POST sull&#39;URL delle iscrizioni con il servizio Chiave primaria desiderato all&#39;interno del payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -74,7 +75,7 @@ Restituisce il profilo aggiornato con il nodo del servizio completato.
 
 ## Metodo 2: Aggiunta di un profilo agli abbonati di un servizio
 
-Eseguite una richiesta GET per recuperare il servizio.
+Eseguite una richiesta di GET per recuperare il servizio.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -84,7 +85,7 @@ Eseguite una richiesta GET per recuperare il servizio.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l'URL delle iscrizioni per il servizio.
+Restituisce l&#39;URL delle iscrizioni per il servizio.
 
 ```
   {
@@ -98,7 +99,7 @@ Restituisce l'URL delle iscrizioni per il servizio.
   },
 ```
 
-Effettuate una richiesta POST sull'URL delle iscrizioni con il profilo principale Chiave all'interno del payload.
+Eseguite una richiesta di POST sull&#39;URL delle iscrizioni con il profilo principale Key desiderato all&#39;interno del payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
