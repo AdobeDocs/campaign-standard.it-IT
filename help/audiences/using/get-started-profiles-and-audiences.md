@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -29,9 +27,9 @@ ht-degree: 8%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Conformità alla privacy</a></p></td></tr>
 </table>
 
-I profili dei clienti integrati nelle campagne consentono di monitorare ogni interazione con i clienti su tutti i canali all&#39;interno di un&#39;unica visualizzazione, consentendo di inviare messaggi pertinenti e personalizzati ai clienti.
+I Campaign Integrated Customer Profile consentono di monitorare ogni interazione con i clienti su tutti i canali in un’unica schermata, consentendo di inviare messaggi pertinenti e personalizzati ai clienti.
 
-Segmentate il database in audience per ottimizzare il target delle campagne di marketing.
+Segmenta il database in audience per ottimizzare il target delle campagne di marketing.
 
 Gestisci le autorizzazioni e il consenso dei clienti utilizzando i servizi e le pagine di destinazione per impostare semplici meccanismi di consenso e rinuncia.
 
@@ -57,7 +55,7 @@ Leggi tutto:
 * [Arricchimento del database di Campaign](../../audiences/using/enriching-campaign-database.md)
 * [Informazioni sui tipi di pubblico](../../audiences/using/about-audiences.md)
 * [Selezione di un pubblico in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
-* [Aggiunta di un gruppo di controlli](../../sending/using/control-group.md)
+* [Aggiunta di un gruppo di controllo](../../sending/using/control-group.md)
 
 ## Autorizzazione e consenso {#permission}
 
