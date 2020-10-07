@@ -9,11 +9,12 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 9%
 
 ---
 
@@ -24,12 +25,12 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 * Configurare i conti esterni,
 * Configurare le mappature di destinazione per gestire le impostazioni tecniche necessarie per inviare le consegne,
-* Configurare le notifiche interne all&#39;applicazione, ecc.
+* Configurate le notifiche interne all&#39;applicazione, ecc.
 
-Queste impostazioni sono disponibili dal **[!UICONTROL Administration]**/**[!UICONTROL Application settings]** menu.
+Queste impostazioni sono disponibili dal **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** menu.
 
-Inoltre, le opzioni tecniche sono disponibili nel **[!UICONTROL Options]**menu, consentendo di configurare l&#39;applicazione in modo più specifico. Alcuni sono incorporati durante l&#39;installazione di Campaign, altri possono essere aggiunti manualmente quando necessario (le opzioni disponibili variano a seconda dei pacchetti installati con l&#39;istanza).
+Inoltre, le opzioni tecniche sono disponibili nel **[!UICONTROL Options]** menu, consentendo di configurare l&#39;applicazione in modo più specifico. Alcuni sono incorporati durante l&#39;installazione di Campaign, altri possono essere aggiunti manualmente quando necessario (le opzioni disponibili variano a seconda dei pacchetti installati con l&#39;istanza).
 
 >[!IMPORTANT]
 >
->Queste opzioni sono già configurate durante l&#39;installazione di Campaign e dovrebbero essere modificate solo dagli utenti avanzati. In caso di domande o richieste, contattate il vostro contatto Adobe.
+>Queste opzioni sono già configurate durante l&#39;installazione di Campaign e dovrebbero essere modificate solo dagli utenti avanzati. In caso di domande o richieste, contattate il vostro Adobe .
