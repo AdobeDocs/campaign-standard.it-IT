@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
@@ -39,13 +40,13 @@ Ora potete aggiungere una tabella a forma libera al pannello per avviare il targ
 
 Le tabelle a forma libera consentono di creare una tabella per analizzare i dati utilizzando le diverse metriche e dimensioni disponibili nella tabella **Componenti** .
 
-Ogni tabella e visualizzazione può essere ridimensionata e spostata per personalizzare meglio il rapporto.
+Ogni tabella e visualizzazione è ridimensionabile e può essere spostata per personalizzare meglio il rapporto.
 
 1. Fate clic sull’icona **Pannelli** .
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Trascinare l’elemento **Freeform** nel dashboard.
+1. Trascinate e rilasciate l’elemento **Freeform** nel dashboard.
 
    È inoltre possibile aggiungere una tabella facendo clic sulla scheda **Inserisci** e selezionando **Nuova forma libera** oppure facendo clic su **Aggiungi una tabella** a forma libera in un pannello vuoto.
 
@@ -59,7 +60,7 @@ Ogni tabella e visualizzazione può essere ridimensionata e spostata per persona
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Fate clic sull'icona **Impostazioni** per cambiare la modalità di visualizzazione dei dati nelle colonne.
+1. Fate clic sull&#39;icona **Impostazioni** per cambiare la modalità di visualizzazione dei dati nelle colonne.
 
    ![](assets/dynamic_report_freeform_4.png)
 
@@ -71,7 +72,7 @@ Ogni tabella e visualizzazione può essere ridimensionata e spostata per persona
    * **[!UICONTROL Background]**: consente di mostrare o nascondere la barra di avanzamento orizzontale nelle celle.
    * **[!UICONTROL Include retries]**: consente di includere i tentativi nel risultato. Questo è disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Selezionate una o più righe e fate clic sull'icona **Visualizza** . Viene aggiunta una visualizzazione per riflettere le righe selezionate.
+1. Selezionate una o più righe e fate clic sull&#39;icona **Visualizza** . Viene aggiunta una visualizzazione per riflettere le righe selezionate.
 
    ![](assets/dynamic_report_freeform_5.png)
 
