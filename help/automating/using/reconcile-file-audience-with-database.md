@@ -1,5 +1,5 @@
 ---
-title: Riconciliare un pubblico di file con il database
+title: Riconciliare un pubblico di tipo File con il database
 description: Questo esempio mostra come utilizzare l'attività Leggi audience per riconciliare un'audience creata direttamente da un'importazione di file.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
 
-# Riconciliare un pubblico di file con il database {#example--reconcile-a-file-audience-with-the-database}
+# Riconciliare un pubblico di tipo File con il database {#example--reconcile-a-file-audience-with-the-database}
 
-Questo esempio mostra come utilizzare l&#39; **[!UICONTROL Read audience]** attività per riconciliare un&#39;audience creata direttamente da un&#39;importazione di file.
+Questo esempio mostra come utilizzare l’attività **[!UICONTROL Read audience]** per riconciliare un pubblico creato direttamente da un’importazione di file.
 
-Durante l&#39;importazione di un file, potete salvarne direttamente il contenuto in un pubblico. Questo pubblico è un pubblico di file e i relativi dati non sono collegati ad alcuna risorsa di database.
+Durante l’importazione di un file, puoi salvarne direttamente il contenuto in un pubblico. Questo è un pubblico di tipo File e i relativi dati non sono collegati ad alcuna risorsa di database.
 
-Il flusso di lavoro di importazione è stato progettato come segue:
+Il flusso di lavoro di importazione è progettato come segue:
 
 ![](assets/readaudience_activity_example3.png)
 
-* Un&#39;attività [Carica file](../../automating/using/load-file.md) carica un file contenente i dati dei profili estratti da uno strumento esterno.
+* L’attività [Load file](../../automating/using/load-file.md) carica un file contenente i dati di profili estratti da uno strumento esterno.
 
    Ad esempio:
 
@@ -49,12 +47,12 @@ Il flusso di lavoro di importazione è stato progettato come segue:
    Ross;Timothy;04/07/1986;timross@example.com;157643
    ```
 
-* Un&#39;attività [Salva audience](../../automating/using/save-audience.md) salva i dati in arrivo come pubblico. Poiché i dati non sono ancora stati riconciliati, l&#39;audience è un&#39;audience di File e i suoi dati non sono ancora riconosciuti come dati di profilo.
+* L’attività [Save audience](../../automating/using/save-audience.md) salva i dati in arrivo come pubblico. Poiché i dati non sono ancora stati riconciliati, il pubblico è di tipo File e i relativi dati non sono ancora stati riconosciuti come dati di profilo.
 
 Il flusso di lavoro di riconciliazione è progettato come segue:
 
 ![](assets/readaudience_activity_example2.png)
 
-* Un&#39;attività di [lettura dell&#39;audience](../../automating/using/read-audience.md) carica l&#39;audience File creata nel flusso di lavoro di importazione. I dati del pubblico non sono ancora riconciliati con il database del Adobe Campaign .
-* Un&#39;attività di [riconciliazione](../../automating/using/reconciliation.md) identifica i dati in arrivo come profili attraverso la relativa **[!UICONTROL Identification]** scheda. Ad esempio, utilizzando il campo **email** come criterio di riconciliazione.
-* Un&#39;attività [Aggiorna dati](../../automating/using/update-data.md) inserisce e aggiorna la risorsa dei profili del database con i dati in arrivo. Poiché i dati sono già identificati come profili, potete selezionare l&#39; **[!UICONTROL Directly using the targeting dimension]** opzione e **[!UICONTROL Profiles]** nella **[!UICONTROL Identification]** scheda dell&#39;attività. Quindi, è sufficiente aggiungere l&#39;elenco dei campi che devono essere aggiornati nella scheda in base.
+* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. I dati sul pubblico non sono ancora stati riconciliati con il database di Adobe Campaign.
+* L’attività [Reconciliation](../../automating/using/reconciliation.md) identifica i dati in arrivo come profili attraverso la relativa scheda **[!UICONTROL Identification]**. Ad esempio utilizzando il campo **e-mail** come criterio di riconciliazione.
+* L’attività [Update data](../../automating/using/update-data.md) inserisce e aggiorna la risorsa dei profili del database con i dati in arrivo. Poiché i dati sono già stati identificati come profili, puoi selezionare l’opzione **[!UICONTROL Directly using the targeting dimension]** e successivamente **[!UICONTROL Profiles]** nella scheda **[!UICONTROL Identification]** dell’attività. Quindi, ti basta semplicemente aggiungere l’elenco dei campi che devono essere aggiornati nella scheda corrispondente.
