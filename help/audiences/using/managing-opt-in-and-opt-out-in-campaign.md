@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -38,7 +36,7 @@ Potete anche impostare una **[!UICONTROL Denylist]** pagina di destinazione che 
 
 >[!NOTE]
 >
->Le pagine di destinazione possono essere utilizzate anche per abilitare l&#39;iscrizione ai servizi. For more on this, refer to [this page](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
+>Le pagine di destinazione possono essere utilizzate anche per abilitare l&#39;iscrizione ai servizi. Per ulteriori informazioni, consulta [questa pagina](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
 1. Creare una **[!UICONTROL Profile acquisition]** pagina di destinazione (vedere [questa sezione](../../channels/using/getting-started-with-landing-pages.md)).
 1. Aggiungi una casella di controllo nel contenuto della pagina di destinazione per ciascun canale desiderato, quindi collegala al campo corrispondente dal database Campaign.
