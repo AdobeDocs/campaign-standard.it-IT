@@ -1,6 +1,6 @@
 ---
-title: Consigli tecnici per la distribuzione per Adobe Campaign Standard
-description: Leggi alcune raccomandazioni tecniche per migliorare la recapito dei messaggi con Adobe Campaign Standard.
+title: Consigli tecnici per  Adobe Campaign Standard
+description: Leggi alcune raccomandazioni tecniche per migliorare la recapito con  Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +23,7 @@ source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
 
 Di seguito sono elencate diverse tecniche, configurazioni e strumenti utilizzabili per migliorare il tasso di recapito. Di seguito sono riportate alcune definizioni dei principali termini tecnici.
 
-**Inverti DNS**: Adobe Campaign verifica se per un indirizzo IP è stato specificato un DNS inverso e che questo indichi correttamente l&#39;IP.
+**Inverti DNS**:  Adobe Campaign verifica se per un indirizzo IP viene fornito un DNS inverso e che questo indichi correttamente l&#39;IP.
 
 **Le regole** MX vengono utilizzate per controllare la velocità alla quale Campaign MTA (Message Transfer Agent) invia e-mail a ogni singolo dominio e-mail o ISP (ad esempio, hotmail.com, comcast.net). Tali regole si basano in genere sui limiti pubblicati dagli ISP (ad esempio, non includono più di 20 messaggi per ogni connessione SMTP).
 
@@ -40,4 +41,4 @@ DMARC può sfruttare i report generati da 250ok.
 
 **SMTP** (Simple Mail Transfer Protocol) è uno standard Internet per la trasmissione di posta elettronica.
 
-**IP** dedicati: Adobe offre una strategia IP dedicata a ciascun cliente con un IP di espansione per creare una reputazione e ottimizzare le prestazioni di distribuzione.
+**IP** dedicati:  Adobe offre una strategia IP dedicata a ciascun cliente con un IP di espansione per costruire una reputazione e ottimizzare le prestazioni di distribuzione.
