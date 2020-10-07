@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 5%
 
 ---
 
 
 # Risorse personalizzate {#custom-resources}
 
-Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. È possibile arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati o tabelle personalizzate, ad esempio tabelle di acquisto o di prodotto.
+ Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. È possibile arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati o tabelle personalizzate, come ad esempio le tabelle di acquisto o di prodotto.
 
-Le risorse personalizzate sono accessibili tramite API che utilizzano l&#39;endpoint **/profileAndServicesExt** e il nome della risorsa personalizzata.
+Le risorse personalizzate sono accessibili tramite le API che utilizzano l&#39;endpoint **/profileAndServicesExt** e il nome della risorsa personalizzata.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
@@ -37,9 +38,9 @@ In tal caso, tutte le risorse dalle tabelle **Transazione**, **TransactionDetail
 
 <br/>
 
-***Richiesta di esempio ***
+***Richiesta di esempio***
 
-Esempio di richiesta GET per accedere alla risorsa profileAndServicesExt estesa.
+Esempio di richiesta di GET per accedere alla risorsa profileAndServicesExt estesa.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
