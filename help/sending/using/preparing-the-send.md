@@ -9,10 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +38,7 @@ La preparazione corrisponde alla fase di calcolo della popolazione target e gene
 
    ![](assets/preparing_delivery_6.png)
 
-1. Il messaggio viene salvato automaticamente durante la preparazione alla consegna. Se devi apportare delle modifiche alla pianificazione del messaggio dopo il passaggio di preparazione, dovrai fare di nuovo clic sul **[!UICONTROL Prepare]** pulsante per tenere conto di tali modifiche. Per ulteriori informazioni sulla pianificazione di un messaggio, consulta questa [pagina](../../sending/using/about-scheduling-messages.md).
+1. Il messaggio viene salvato automaticamente durante la preparazione alla consegna. Se devi apportare delle modifiche alla pianificazione del messaggio dopo il passaggio di preparazione, dovrai fare di nuovo clic sul **[!UICONTROL Prepare]** pulsante per tenere conto di tali modifiche. For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -57,7 +58,7 @@ Una volta completata la preparazione, il messaggio è pronto per essere inviato.
 
 **Regole di tipologia**
 
-Adobe Campaign viene fornito con un set di regole di tipologia integrate applicate durante la preparazione dei messaggi. Vengono utilizzati per verificare se un messaggio è valido e soddisfa i criteri di qualità. Vedere [Tipologie](../../sending/using/about-typology-rules.md). Potete definire regole di tipologia personalizzate, ad esempio impostare regole di affaticamento tra canali globali che escludano automaticamente i profili con eccesso di sollecitazione dalle campagne. Consultate [Regole](../../sending/using/fatigue-rules.md)di fatica.
+ Adobe Campaign viene fornito con una serie di regole di tipologia integrate applicate durante la preparazione dei messaggi. Vengono utilizzati per verificare se un messaggio è valido e soddisfa i criteri di qualità. Vedere [Tipologie](../../sending/using/about-typology-rules.md). Potete definire regole di tipologia personalizzate, ad esempio impostare regole di affaticamento tra canali globali che escludano automaticamente i profili con eccesso di sollecitazione dalle campagne. Consulta [Regole di affaticamento](../../sending/using/fatigue-rules.md).
 
 **Controllo messaggi SMS**
 
