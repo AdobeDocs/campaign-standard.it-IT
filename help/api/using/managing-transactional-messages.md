@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
 
 # Gestione dei messaggi delle transazioni {#managing-transactional-messages}
 
-## Informazioni sui messaggi transazionali
+## Informazioni sulla messaggistica transazionale
 
 Dopo aver creato un evento, dovrete integrare l’attivazione di questo evento nel sito Web.
 
@@ -30,7 +31,7 @@ Dopo aver creato un evento, dovrete integrare l’attivazione di questo evento n
 Ad esempio, si desidera che venga attivato un evento &quot;abbandono carrello&quot; ogni volta che un cliente abbandona il sito Web prima di acquistare i prodotti nel carrello. A tal fine, lo sviluppatore Web deve utilizzare REST Transactional Messages API.
 
 1. Lo sviluppatore invia una richiesta in base al metodo POST, che attiva l&#39; [invio dell&#39;evento](#sending-a-transactional-event)transazionale.
-1. La risposta alla richiesta POST contiene una chiave primaria, che consente allo sviluppatore di inviare una o più richieste tramite una richiesta GET. In questo modo è in grado di ottenere lo stato [dell’](#transactional-event-status)evento.
+1. La risposta alla richiesta di POST contiene una chiave primaria, che consente allo sviluppatore di inviare una o più richieste tramite una richiesta di GET. In questo modo è in grado di ottenere lo stato [dell’](#transactional-event-status)evento.
 
 ## Invio di un evento transazionale {#sending-a-transactional-event}
 
@@ -40,17 +41,17 @@ L’evento transazionale viene inviato tramite una richiesta POST con la seguent
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZZAZIONE>**: l’ID organizzazione personale. Fare riferimento a [questa sezione](../../api/using/must-read.md).
+* **&lt;ORGANIZZAZIONE>**: l’ID organizzazione personale. Fai riferimento a [questa sezione](../../api/using/must-read.md).
 
 * **&lt;transactionalAPI>**: endPoints dell&#39;API dei messaggi transazionali.
 
-   Il nome dell&#39;endpoint API dei messaggi transazionali dipende dalla configurazione dell&#39;istanza. Corrisponde al valore &quot;mc&quot; seguito dall’ID organizzazione personale. Prendiamo l’esempio della società Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
+   Il nome dell&#39;endpoint API dei messaggi transazionali dipende dalla configurazione dell&#39;istanza. Corrisponde al valore &quot;mc&quot; seguito dall’ID organizzazione personale. Prendiamo l&#39;esempio della società Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
    (L&#39;endpoint API dei messaggi transazionali è visibile anche durante l&#39;anteprima API)
 
-* **&lt;eventID>**: il tipo di evento da inviare. Questo ID viene generato al momento della creazione della definizione dell’evento. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**: il tipo di evento che si desidera inviare. Questo ID viene generato al momento della creazione della definizione dell’evento. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### Intestazione richiesta POST
 
@@ -69,7 +70,7 @@ La richiesta deve contenere un &quot;Content-Type: application/json&quot; header
 
 ### corpo della richiesta POST
 
-I dati dell’evento sono contenuti nel corpo JSON POST. La struttura dell&#39;evento dipende dalla sua definizione. Il pulsante Anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+I dati dell&#39;evento sono contenuti nel corpo del POST JSON. La struttura dell&#39;evento dipende dalla sua definizione. Il pulsante Anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Al contenuto dell&#39;evento possono essere aggiunti i seguenti parametri facoltativi per gestire l&#39;invio di messaggi transazionali collegati all&#39;evento:
 
@@ -82,15 +83,15 @@ Al contenuto dell&#39;evento possono essere aggiunti i seguenti parametri facolt
 
 ### Risposta alla richiesta POST
 
-La risposta POST restituisce lo stato dell’evento transazionale al momento della creazione. Per recuperare il proprio stato corrente (dati evento, stato evento...), utilizzate la Chiave primaria restituita dalla risposta POST in una richiesta GET:
+La risposta POST restituisce lo stato dell&#39;evento transazionale al momento della creazione. Per recuperare il suo stato corrente (dati evento, stato evento...), utilizzate la chiave primaria restituita dalla risposta POST in una richiesta di GET:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
 <br/>
 
-***Richiesta di esempio ***
+***Richiesta di esempio***
 
-Richiesta POST per inviare l’evento.
+POST richiesta di invio dell’evento.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -140,7 +141,7 @@ Nella risposta, il campo &quot;status&quot; consente di sapere se l’evento è 
 
 * **in sospeso**: l&#39;evento è in sospeso. L&#39;evento assume questo stato quando è appena stato attivato.
 * **elaborazione**: l&#39;evento è in attesa di consegna; viene trasformato in un messaggio e il messaggio viene inviato.
-* **messi in pausa**: il processo evento è in pausa. Non viene più elaborata, ma tenuta in coda nel database di Adobe Campaign. Per ulteriori informazioni, consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **messi in pausa**: il processo evento è in pausa. Non viene più elaborata, ma tenuta in coda nel database Adobe Campaign . For more on this, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
 * **elaborati**: l&#39;evento è stato elaborato e il messaggio è stato inviato correttamente.
 * **ignorato**: l&#39;evento è stato ignorato dalla consegna, in genere quando un indirizzo è in quarantena.
 * **deliveryFailed**: si è verificato un errore di consegna durante l&#39;elaborazione dell&#39;evento.
