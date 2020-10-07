@@ -9,10 +9,8 @@ audience: sending
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -32,7 +30,7 @@ Questa funzione è disattivata per impostazione predefinita. Viene attivata quan
 >
 >Questa funzione è disponibile per i messaggi e-mail e per i database che contengono solo contenuti in lingua inglese. Il modello preparato non sarà coerente e porterà a risultati errati se l&#39;istanza contiene e-mail in altre lingue. L’opzione che consente di testare un oggetto è visibile solo se un modello è già disponibile nell’istanza.
 
-Per ulteriori informazioni sull&#39;importazione di modelli, vedere questa [sezione](#importing-models).
+For more on importing models, see this [section](#importing-models).
 
 ## Verifica della riga oggetto {#testing-subject-line}
 
@@ -40,9 +38,9 @@ Per testare l’oggetto, effettuate le seguenti operazioni:
 
 1. Create o aprite il messaggio e-mail.
 1. Aprite il contenuto e inserite l’oggetto del messaggio e-mail nel campo di input corrispondente.
-1. Fare clic sul **[!UICONTROL Test subject]** pulsante per accedere alla **[!UICONTROL Test your subject line]** finestra. È comunque possibile modificare l&#39;oggetto da questa finestra.
-1. Selezionare il modello corretto da prendere in considerazione per la previsione del tasso aperto. Sono disponibili diversi modelli, ciascuno corrispondente a un settore specifico. Per ulteriori informazioni sull&#39;uso dei modelli, consultate questa [sezione](#importing-models).
-1. Clic **[!UICONTROL Test]**.
+1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. È comunque possibile modificare l&#39;oggetto da questa finestra.
+1. Selezionare il modello corretto da prendere in considerazione per la previsione del tasso aperto. Sono disponibili diversi modelli, ciascuno corrispondente a un settore specifico. For more on using models, see this [section](#importing-models).
+1. Fai clic su **[!UICONTROL Test]**.
 
 Il soggetto viene quindi analizzato.
 
@@ -65,16 +63,16 @@ Sono stati calcolati diversi indicatori e viene visualizzato un set di strumenti
 
 ## Importazione di modelli {#importing-models}
 
-Per impostazione predefinita, sul server Adobe Campaign non è in esecuzione alcun modello. Esistono due modi per ottenere un modello e attivare la feature:
+Per impostazione predefinita, sul server Adobe Campaign  non è in esecuzione alcun modello. Esistono due modi per ottenere un modello e attivare la feature:
 
 * È possibile formare un modello locale dai dati dei messaggi e-mail precedenti.
 * È possibile importare modelli preformati che sono specifici di determinati settori (medici, ecc.) mediante la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto.
 
 ### Formazione di un modello locale {#training-local-model}
 
-* Se utilizzi già Adobe Campaign, il modello locale verrà addestrato automaticamente sui messaggi che hai già inviato.
-* Se non avete mai usato Adobe Campaign, potete estrarre un file CSV dal sistema/ESP precedente che contiene 4 colonne: data, oggetto, apertura, invio. A tal fine, passare a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** e seguire le istruzioni fornite sugli schermi successivi. Al termine del caricamento dell’oggetto, importate un modello locale come descritto di seguito. Il modello locale viene addestrato automaticamente con i dati caricati.
-* Se non avete mai avuto accesso ad Adobe Campaign e non potete ottenere un file CSV come descritto in precedenza, potete utilizzare un modello [](#pre-trained-models) preformato o aspettare che nel sistema siano presenti dati di consegna sufficienti per formare un modello locale. Il sistema determinerà automaticamente se il set di dati corrente contiene dati sufficienti per riconoscere i pattern e formare il modello.
+* Se state già utilizzando  Adobe Campaign, il modello locale verrà automaticamente addestrato sui messaggi già inviati.
+* Se non avete mai usato  Adobe Campaign, potete estrarre un file CSV dal sistema/ESP precedente che contiene 4 colonne: data, oggetto, apertura, invio. A tal fine, passare a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** e seguire le istruzioni fornite sugli schermi successivi. Al termine del caricamento dell’oggetto, importate un modello locale come descritto di seguito. Il modello locale viene addestrato automaticamente con i dati caricati.
+* Se non avete mai  Adobe Campaign e non potete ottenere un file CSV come descritto in precedenza, potete usare un modello [](#pre-trained-models) preformato o attendere che nel sistema siano presenti dati di consegna sufficienti per formare un modello locale. Il sistema determinerà automaticamente se il set di dati corrente contiene dati sufficienti per riconoscere i pattern e formare il modello.
 
 >[!NOTE]
 >
@@ -83,14 +81,14 @@ Per impostazione predefinita, sul server Adobe Campaign non è in esecuzione alc
 >È possibile avere un solo modello addestrato sull&#39;istanza.
 
 Per formare un modello locale:
-1. Scarica subjectLineTraining.xml da [qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) e utilizza la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricarlo nell’istanza di Adobe Campaign. Un flusso di lavoro tecnico eseguirà automaticamente la formazione per voi.
+1. Scaricate il file subjectLineTraining.xml da [qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) e utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricarlo nell’istanza di Adobe Campaign . Un flusso di lavoro tecnico eseguirà automaticamente la formazione per voi.
 1. La prima volta che si desidera formare un modello, un amministratore può imporre l&#39; **[!UICONTROL SubjectLine Training workflow]** avvio dal menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 1. Una volta che un modello è stato caricato e preparato, la funzione viene attivata automaticamente e accanto al campo dell&#39;oggetto dei messaggi viene visualizzata una nuova opzione.
 1. Quindi, il flusso di lavoro tecnico continuerà automaticamente a formare il modello ogni settimana.
 
 ### Importazione di modelli preformati {#pre-trained-models}
 
-Per accedere a questi modelli, fare clic [qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricare un modello nell&#39;istanza di Adobe Campaign.
+Per accedere a questi modelli, fare clic [qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricare un modello nell’istanza di Adobe Campaign .
 
 I modelli disponibili per l&#39;uso sono:
 
