@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 3%
 
 ---
 
@@ -25,6 +26,6 @@ Per impostazione predefinita, per una campagna o un programma, il periodo filtro
 
 Per modificare il filtro, selezionate una data di inizio e un periodo oppure utilizzate il periodo di tempo preimpostato, ad esempio la settimana scorsa, due mesi fa e così via.
 
-Il rapporto viene aggiornato automaticamente quando viene applicato o modificato un filtro. Il periodo di rapporto selezionato disciplinerà gli eventi che si sono verificati nel periodo, non l'intero set di dati delle consegne che sono stati creati nell'intervallo, ad esempio se una consegna è stata eseguita dal 1° al 5 gennaio e il periodo di rapporto è dal 1° al 2 gennaio, potrebbero essere visualizzati dati parziali. Questo può influenzare i conteggi di apertura/clic, dal momento che l'apertura o il clic possono verificarsi anche un mese dopo l'invio.
+Il rapporto viene aggiornato automaticamente quando viene applicato o modificato un filtro. Il periodo di rapporto selezionato disciplinerà gli eventi che si sono verificati nel periodo, non l&#39;intero set di dati delle consegne che sono stati creati nell&#39;intervallo, ad esempio se una consegna è stata eseguita dal 1° al 5 gennaio e il periodo di rapporto è dal 1° al 2 gennaio, potrebbero essere visualizzati dati parziali. Questo può influenzare i conteggi di apertura/clic, dal momento che l&#39;apertura o il clic possono verificarsi anche un mese dopo l&#39;invio.
 
 ![](assets/campaign_reports_5.png)
