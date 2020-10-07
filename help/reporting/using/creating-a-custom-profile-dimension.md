@@ -9,17 +9,18 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 5%
 
 ---
 
 
 # Creazione di una dimensione di profilo personalizzata{#creating-a-custom-profile-dimension}
 
-È inoltre possibile creare e gestire i rapporti in base ai dati di profilo personalizzati creati durante l'estensione della risorsa personalizzata del profilo.
+È inoltre possibile creare e gestire i rapporti in base ai dati di profilo personalizzati creati durante l&#39;estensione della risorsa personalizzata del profilo.
 
 In questo esempio, desideriamo creare i programmi **** fedeltà per i campi di profilo personalizzati che verranno suddivisi in tre livelli: oro, argento e bronzo. Questo profilo personalizzato verrà quindi esteso in modo da poterlo utilizzare come dimensione di profilo personalizzata nei report dinamici.
 
@@ -36,9 +37,9 @@ Prima di tutto è necessario creare il nuovo programma **** Fedeltà campo profi
 >
 >Le risorse personalizzate possono essere gestite solo da un amministratore.
 
-A questo scopo:
+Per eseguire questa operazione:
 
-1. Dal menu avanzato, selezionate **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** quindi la risorsa **[!UICONTROL Profile (profile)]** personalizzata.
+1. Dal menu avanzato, selezionate **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** quindi la risorsa **[!UICONTROL Profile (profile)]** personalizzata.
 
    ![](assets/custom_profile_1.png)
 
@@ -50,7 +51,7 @@ A questo scopo:
 
    ![](assets/custom_profile_3.png)
 
-1. Fare clic sull' ![](assets/custom_profile_22.png) icona per definire il campo.
+1. Fare clic sull&#39; ![](assets/custom_profile_22.png) icona per definire il campo.
 
    ![](assets/custom_profile_12.png)
 
@@ -58,15 +59,15 @@ A questo scopo:
 
    ![](assets/custom_profile_13.png)
 
-1. Inserite il testo **[!UICONTROL Label]** e **[!UICONTROL Value]** fate clic su **[!UICONTROL Add]**. Per questo esempio, dobbiamo creare il valore oro, argento e bronzo. Al **[!UICONTROL Confirm]** termine, fate clic.
+1. Inserite il testo **[!UICONTROL Label]** e **[!UICONTROL Value]** fate clic su **[!UICONTROL Add]**. Per questo esempio, dobbiamo creare il valore oro, argento e bronzo. Click **[!UICONTROL Confirm]** when done.
 
    ![](assets/custom_profile_14.png)
 
-1. Selezionate la **[!UICONTROL Screen definition]** scheda. Nell' **[!UICONTROL Detail screen configuration]** elenco a discesa, controlla **[!UICONTROL Add personalized fields]** sezione per creare una nuova sezione nel nostro profilo.
+1. Seleziona la scheda **[!UICONTROL Screen definition]**. Nell&#39; **[!UICONTROL Detail screen configuration]** elenco a discesa, controlla **[!UICONTROL Add personalized fields]** sezione per creare una nuova sezione nel nostro profilo.
 
    ![](assets/custom_profile_4.png)
 
-1. Fate clic sul **[!UICONTROL Add an element]** pulsante per creare la nuova sezione. Selezionate **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** o **[!UICONTROL List]**, il campo da aggiungere in questa nuova sezione.
+1. Fate clic sul **[!UICONTROL Add an element]** pulsante per creare la nuova sezione. Selezionate **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** oppure **[!UICONTROL List]**, il campo da aggiungere in questa nuova sezione.
 
    ![](assets/custom_profile_5.png)
 
@@ -76,7 +77,7 @@ A questo scopo:
 
    ![](assets/custom_profile_6.png)
 
-1. Dal menu avanzato, selezionate **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** per avviare la pubblicazione della risorsa personalizzata.
+1. Dal menu avanzato, selezionate **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** per avviare la pubblicazione della risorsa personalizzata.
 1. Al **[!UICONTROL Prepare publication]** termine della preparazione, fare clic sul **[!UICONTROL Publish]** pulsante.
 
    ![](assets/custom_profile_7.png)
@@ -89,29 +90,29 @@ Il nuovo campo del profilo è ora pronto per essere utilizzato e selezionato dai
 
 Dopo aver creato il campo del profilo, è necessario estendere i log di invio con il campo del profilo per creare la dimensione del profilo personalizzato associata nei report dinamici.
 
-Prima di estendere il registro con il campo del profilo, assicurarsi che la finestra PII sia stata accettata per avere accesso alla **[!UICONTROL Sending logs extension]** scheda. Per ulteriori informazioni, consultare questa [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+Prima di estendere il registro con il campo del profilo, assicurarsi che la finestra PII sia stata accettata per avere accesso alla **[!UICONTROL Sending logs extension]** scheda. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 >[!NOTE]
 >
 >I registri possono essere estesi solo con i campi del profilo dall’amministratore.
 
-1. Dal menu avanzato, selezionate **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** quindi la risorsa **[!UICONTROL Profile (profile)]** personalizzata.
+1. Dal menu avanzato, selezionate **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** quindi la risorsa **[!UICONTROL Profile (profile)]** personalizzata.
 1. Aprite il **[!UICONTROL Sending logs extension]** menu a discesa.
-1. Fate clic sul **[!UICONTROL Create element]** pulsante.
+1. Fai clic sul pulsante **[!UICONTROL Create element]**.
 
    ![](assets/custom_profile_9.png)
 
-1. Selezionate il campo creato in precedenza e fate clic su **[!UICONTROL Confirm]**.
+1. Select your previously created field and click **[!UICONTROL Confirm]**.
 1. Selezionate questa opzione **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** per creare una dimensione di profilo personalizzata.
 
    ![](assets/custom_profile_10.png)
 
-   Questa opzione è disponibile solo se è stata accettata la finestra PII. Per ulteriori informazioni, consultare questa [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   Questa opzione è disponibile solo se è stata accettata la finestra PII. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. Fate clic su **[!UICONTROL Add]** e salvate la risorsa personalizzata.
 1. Poiché la risorsa personalizzata è stata modificata, è necessario pubblicarla per implementare le nuove modifiche.
 
-   Dal menu avanzato, selezionate **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** per avviare la pubblicazione della risorsa personalizzata.
+   Dal menu avanzato, selezionate **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** per avviare la pubblicazione della risorsa personalizzata.
 
 1. Al **[!UICONTROL Prepare publication]** termine della preparazione, fare clic sul **[!UICONTROL Publish]** pulsante.
 
@@ -125,9 +126,9 @@ Ora che il campo è stato creato e che i registri di invio sono stati estesi con
 
 Dopo aver pubblicato il campo del profilo, puoi iniziare la consegna. In questo esempio, vogliamo indirizzare tutti i destinatari iscritti al programma fedeltà.
 
-1. Dalla **[!UICONTROL Marketing activities]** scheda, fare clic **[!UICONTROL Create]** quindi selezionare **[!UICONTROL Email]**.
+1. Dalla scheda **[!UICONTROL Marketing activities]**, fai clic su **[!UICONTROL Create]** e quindi seleziona **[!UICONTROL Email]**.
 1. Scegliete un indirizzo **[!UICONTROL Email type]** e-mail, quindi immettete le proprietà del messaggio.
-1. Per eseguire il targeting del destinatario iscritto al programma fedeltà, trascinate e rilasciate l' **[!UICONTROL Profiles (attributes)]** attività.
+1. Per eseguire il targeting del destinatario iscritto al programma fedeltà, trascinate e rilasciate l&#39; **[!UICONTROL Profiles (attributes)]** attività.
 1. Seleziona il campo creato in precedenza dall’ **[!UICONTROL Field]** elenco a discesa.
 
    ![](assets/custom_profile_16.png)
@@ -137,11 +138,11 @@ Dopo aver pubblicato il campo del profilo, puoi iniziare la consegna. In questo 
    ![](assets/custom_profile_17.png)
 
 1. Al termine del filtraggio, fate clic **[!UICONTROL Confirm]** quindi su **[!UICONTROL Next]**.
-1. Definisci e personalizza il contenuto del messaggio, il nome del mittente e l'oggetto. Per ulteriori informazioni sulla creazione di e-mail, consultate questa [pagina](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Definisci e personalizza il contenuto del messaggio, il nome del mittente e l&#39;oggetto. For more information on email creation refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
-   Quindi fate clic su **[!UICONTROL Create]**.
+   Then, click **[!UICONTROL Create]**.
 
-1. Una volta pronti, potete visualizzare l'anteprima e inviare il messaggio. Per ulteriori informazioni su come preparare e inviare il messaggio, consulta questa [pagina](../../sending/using/preparing-the-send.md).
+1. Una volta pronti, potete visualizzare l&#39;anteprima e inviare il messaggio. Per ulteriori informazioni su come preparare e inviare il messaggio, consulta questa [pagina](../../sending/using/preparing-the-send.md).
 
 Una volta che l’e-mail è stata inviata correttamente ai destinatari selezionati, potete iniziare a filtrare i dati e a monitorare il successo della distribuzione con i rapporti.
 
