@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1280'
+ht-degree: 50%
 
 ---
 
@@ -62,7 +60,8 @@ In qualità di utente esperto, per definire queste configurazioni specifiche, co
 
 >[!NOTE]
 >Per sfruttare la funzione di notifica push di Campaign, devi fornire un certificato push valido in formato .pem senza password.
-Se disponi di un certificato p12 valido, puoi facilmente convertirlo in un file .pem utilizzando risorse online.
+>
+>Se disponi di un certificato p12 valido, puoi facilmente convertirlo in un file .pem utilizzando risorse online.
 
 Prima di inviare le notifiche push, devi:
 
@@ -89,7 +88,7 @@ Consulta le risorse seguenti:
 * [Tutorials video](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentazione del prodotto](../../channels/using/about-push-notifications.md)
 * Configurazione mediante la [documentazione AEP SDK](../../administration/using/configuring-a-mobile-application.md)
-* [Pagina community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [Pagina community](https://experienceleaguecommunities.adobe.com/it/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Cosa devo fare per acquisire un token push in Campaign? {#push-token-acquisition}
 
@@ -147,7 +146,7 @@ Gli sviluppatori di app mobili devono gestire il supporto per i file multimedial
 
 ### Cosa devo fare per abilitare il reporting push in Campaign? {#push-reporting-enable}
 
-Effettuate le seguenti operazioni:
+Segui i passaggi seguenti:
 
 * Configura un postback di tracciamento push. Le istruzioni sono disponibili [qui](../../administration/using/configuring-a-mobile-application.md).
 * Implementa l’API trackAction da Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
