@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f3a668860659e40645ce3e4aab879cae5ad90083
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
@@ -27,23 +25,23 @@ In questi casi di utilizzo viene illustrato come utilizzare una risorsa diversa 
 
 Per ulteriori informazioni sul targeting delle dimensioni e delle risorse, consulta [questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources)
 
-**Esempio 1: identificare i profili interessati dalla consegna con l&#39;etichetta &quot;Bentornato!&quot;**.
+**Esempio 1: identificazione dei profili target interessati dalla consegna con l’etichetta “Bentornato”**.
 
-* In questo caso, vogliamo eseguire il targeting dei profili. Imposteremo la dimensione di targeting su **[!UICONTROL Profiles (profile)]**.
-* Vogliamo filtrare i profili selezionati in base all&#39;etichetta di consegna. Pertanto, imposteremo la risorsa su **[!UICONTROL Delivery logs]**. In questo modo, filtriamo direttamente nella tabella del registro di consegna, che offrirà prestazioni migliori.
+* In questo caso, desideri eseguire il targeting dei profili. Imposta la dimensione di targeting su **[!UICONTROL Profiles (profile)]**.
+* Desideri filtrare i profili selezionati in base all’etichetta di consegna. Pertanto, imposta la risorsa su **[!UICONTROL Delivery logs]**. In questo modo filtri direttamente nella tabella dei registri di consegna, che offre prestazioni migliori.
 
 ![](assets/targeting_dimension6.png)
 
 ![](assets/targeting_dimension7.png)
 
-**Esempio 2: identificare i profili che non erano interessati dalla consegna con l&#39;etichetta &quot;Bentornato!&quot;**
+**Esempio 2: identificazione dei profili target non interessati dalla consegna con l’etichetta “Bentornato”**
 
-Nell&#39;esempio precedente, abbiamo utilizzato una risorsa diversa dalla dimensione di targeting. Questa operazione è possibile solo se si desidera trovare un record **presente** nella tabella lontana (log di consegna nel nostro esempio).
+Nell’esempio precedente, hai utilizzato una risorsa diversa dalla dimensione di targeting. Puoi eseguire questa operazione solo se desideri trovare un record **presente** nella tabella lontana (log di consegna nell’esempio).
 
-Se si desidera trovare un record che non **sia presente** nella tabella lontana (ad esempio, profili non mirati da una consegna specifica), è necessario utilizzare la stessa dimensione di risorsa e targeting, in quanto il record non sarà presente nella tabella lontana (log di consegna).
+Se desideri trovare un record **non presente** nella tabella lontana (ad esempio profili non interessati da una consegna specifica), devi utilizzare la stessa risorsa e la stessa dimensione di targeting, in quanto il record non risulta presente nella tabella lontana (log di consegna).
 
-* In questo caso, vogliamo eseguire il targeting dei profili. Imposteremo la dimensione di targeting su **[!UICONTROL Profiles (profile)]**.
-* Vogliamo filtrare i profili selezionati in base all&#39;etichetta di consegna. Non è possibile filtrare direttamente sui registri di consegna perché stiamo cercando un record non presente nella tabella dei registri di consegna. Pertanto, imposteremo la risorsa per **[!UICONTROL Profile (profile)]** e costruiremo la nostra query sulla tabella dei profili.
+* In questo caso, desideri eseguire il targeting dei profili. Imposta la dimensione di targeting su **[!UICONTROL Profiles (profile)]**.
+* Desideri filtrare i profili selezionati in base all’etichetta di consegna. Non puoi filtrare direttamente sui log di consegna perché stai cercando un record non presente in questa tabella. Pertanto, imposta la risorsa su **[!UICONTROL Profile (profile)]** e crea la query sulla tabella dei profili.
 
 ![](assets/targeting_dimension8.png)
 
