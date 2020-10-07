@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 I componenti consentono di personalizzare i rapporti con dimensioni, metriche e periodi di tempo diversi.
 
-1. Fare clic sulla **[!UICONTROL Components]** scheda per accedere all'elenco dei componenti.
+1. Fare clic sulla **[!UICONTROL Components]** scheda per accedere all&#39;elenco dei componenti.
 
    ![](assets/dynamic_report_components.png)
 
@@ -29,11 +30,11 @@ I componenti consentono di personalizzare i rapporti con dimensioni, metriche e 
 
    La tabella dei componenti è suddivisa in quattro categorie:
 
-   * **Dimensioni**: Ottenete i dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario, o l'esito positivo della consegna.
-   * **Metriche**: Ottieni informazioni sullo stato di un messaggio. Ad esempio, se un messaggio è stato inviato e l’utente lo ha aperto.
-   * **[!UICONTROL Segments]**: Filtra i dati in base all'intervallo di età del destinatario. **[!UICONTROL Segments]** può essere trascinato e rilasciato direttamente in una tabella a forma libera o nella barra superiore del pannello. Per impostazione predefinita, il **[!UICONTROL Exclude proof]** segmento è già selezionato, ma può essere modificato se necessario.
+   * **Dimension**: Ottenete i dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario, o l&#39;esito positivo di una consegna.
+   * **Metriche**: Ottieni informazioni sullo stato di un messaggio. Ad esempio, se un messaggio è stato recapitato e l’utente lo ha aperto.
+   * **[!UICONTROL Segments]**: Filtrare i dati in base all&#39;intervallo di età del destinatario. **[!UICONTROL Segments]** può essere trascinato e rilasciato direttamente in una tabella a forma libera o nella barra superiore del pannello. Per impostazione predefinita, il **[!UICONTROL Exclude proof]** segmento è già selezionato, ma può essere modificato se necessario.
 
-      Questa categoria è disponibile solo dopo che l'amministratore ha approvato i termini e le condizioni del contratto di utilizzo di reporting dinamico che verrà visualizzato sullo schermo. Se l'amministratore rifiuta il contratto, i segmenti non saranno visibili nella **[!UICONTROL Components]** scheda e i dati non saranno raccolti.
+      Questa categoria è disponibile solo dopo che l&#39;amministratore ha approvato i termini e le condizioni del contratto di utilizzo di reporting dinamico che verrà visualizzato sullo schermo. Se l&#39;amministratore rifiuta il contratto, i segmenti non saranno visibili nella **[!UICONTROL Components]** scheda e i dati non saranno raccolti.
 
    * **Ora**: Impostare un periodo di tempo per la tabella.
 
