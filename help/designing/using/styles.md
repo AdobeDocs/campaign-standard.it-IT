@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 1%
@@ -203,7 +201,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 
 1. Salva le modifiche.
 
-## Aggiunta di attributi di stile in linea {#adding-inline-styling-attributes}
+## Adding inline styling attributes {#adding-inline-styling-attributes}
 
 Nell&#39;interfaccia di Designer e-mail, quando si seleziona un elemento e ne vengono visualizzate le impostazioni nel pannello laterale, è possibile personalizzare gli attributi in linea e il relativo valore per tale elemento specifico.
 
