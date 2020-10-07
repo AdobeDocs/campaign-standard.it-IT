@@ -1,18 +1,19 @@
 ---
 title: Personalizzazione degli elenchi
-description: '"Scopri come personalizzare la visualizzazione e agire sulle schermate degli elenchi in Adobe Campaign Standard: ordinamento, filtro, eliminazione o duplicazione di elementi. Nelle schermate sono visualizzati elementi di una o più risorse."'
-page-status-flag: mai attivato
+description: '"Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in  Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione di elementi. Nelle schermate sono visualizzati elementi di una o più risorse."'
+page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
-topic-tags: individuazione dell'interfaccia
+topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 1%
 
 ---
 
@@ -21,16 +22,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 **Le schermate elenco** consentono di visualizzare elementi di una o più risorse.
 
-Adobe Campaign dispone di due tipi di elenchi:
+ Adobe Campaign dispone di due tipi di elenchi:
 
-* Un elenco **omogeneo** , ovvero quando contiene un singolo tipo di risorsa. Ad esempio, l'elenco dei profili contiene solo dei profili.
-* Un elenco **eterogeneo** , ovvero se contiene diversi tipi di risorse. Ad esempio, l'elenco delle attività di marketing contiene pagine di destinazione, flussi di lavoro, e-mail, SMS ecc.
+* Un elenco **omogeneo** , ovvero quando contiene un singolo tipo di risorsa. Ad esempio, l&#39;elenco dei profili contiene solo dei profili.
+* Un elenco **eterogeneo** , ovvero se contiene diversi tipi di risorse. Ad esempio, l&#39;elenco delle attività di marketing contiene pagine di destinazione, flussi di lavoro, e-mail, SMS e così via.
 
 Gli elenchi vengono visualizzati nelle colonne. Ogni colonna può essere ordinata in ordine crescente o decrescente uno alla volta.
 
 Gli elementi di un elenco dispongono di una casella di controllo che consente di selezionarli. Selezionando uno o più elementi, potete eseguire diverse azioni, ad esempio modificare, duplicare ed eliminare tali elementi.
 
-Quando si passa il puntatore del mouse su un elemento dell'elenco, vengono eseguite azioni **** rapide. Queste azioni consentono all'utente di eseguire varie azioni sull'elemento sul quale si trova il puntatore del mouse, ad esempio modificare, selezionare, eliminare o mostrare i dettagli.
+Quando si passa il puntatore del mouse su un elemento dell&#39;elenco, vengono eseguite azioni **** rapide. Queste azioni consentono all&#39;utente di eseguire varie azioni sull&#39;elemento sul quale si trova il puntatore del mouse, ad esempio modificare, selezionare, eliminare o mostrare i dettagli.
 
 ![](assets/overview_list_quickactions.png)
 
@@ -40,7 +41,7 @@ Quando si passa il puntatore del mouse su un elemento dell'elenco, vengono esegu
 
    ![](assets/export_list_mode_switch.png)
 
-1. Passate alla finestra di configurazione dell'elenco selezionando il ![](assets/columnsettings.png) pulsante nella barra delle azioni.
+1. Passate alla finestra di configurazione dell&#39;elenco selezionando il ![](assets/columnsettings.png) pulsante nella barra delle azioni.
 
    ![](assets/list_configuration1.png)
 
@@ -48,14 +49,14 @@ Quando si passa il puntatore del mouse su un elemento dell'elenco, vengono esegu
 
    Le colonne selezionabili corrispondono alla risorsa elenco.
 
-   Per ogni colonna aggiunta, specificate se applicare l'ordinamento per impostazione predefinita:
+   Per ogni colonna aggiunta, specificate se applicare l&#39;ordinamento per impostazione predefinita:
 
    * **[!UICONTROL NO]**: Nessun ordinamento nella colonna
    * **[!UICONTROL ASC]**: Applica un ordinamento crescente (crescente) alla colonna
    * **[!UICONTROL DESC]**: Applica un ordinamento decrescente (in declino) alla colonna.
 
-1. Eliminare le colonne che non si desidera visualizzare selezionando le caselle corrispondenti alle colonne da eliminare. Quindi, utilizzate il ![](assets/delete.png) pulsante dalla barra delle azioni per confermare l'eliminazione.
-1. Una volta che l'elenco contiene le colonne corrette, è possibile modificare l'ordine in cui vengono visualizzate nell'elenco controllando le colonne da spostare. Quindi, usate le ![](assets/arrowdown.png) frecce e ![](assets/arrowup.png) .
-1. Confermate la configurazione dell'elenco selezionando **[!UICONTROL OK]**.
+1. Eliminare le colonne che non si desidera visualizzare selezionando le caselle corrispondenti alle colonne da eliminare. Quindi, utilizzate il ![](assets/delete.png) pulsante dalla barra delle azioni per confermare l&#39;eliminazione.
+1. Una volta che l&#39;elenco contiene le colonne corrette, è possibile modificare l&#39;ordine in cui vengono visualizzate nell&#39;elenco controllando le colonne da spostare. Quindi, usate le ![](assets/arrowdown.png) frecce e ![](assets/arrowup.png) .
+1. Confermate la configurazione dell&#39;elenco selezionando **[!UICONTROL OK]**.
 
-L'elenco viene ora visualizzato come è stato configurato.
+L&#39;elenco viene ora visualizzato come è stato configurato.
