@@ -1,5 +1,5 @@
 ---
-title: Aggiornamento di più stati di iscrizione da un file
+title: Aggiornamento di più stati di abbonamento da un file
 description: Questo caso d’uso mostra come importare un file contenente dei profili e aggiornare la sottoscrizione a diversi servizi specificati nel file.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
 
-# Aggiornamento di più stati di iscrizione da un file {#updating-multiple-subscription-statuses-from-a-file}
+# Aggiornamento di più stati di abbonamento da un file {#updating-multiple-subscription-statuses-from-a-file}
 
-Questo esempio illustra come importare un file contenente dei profili e aggiornare la propria sottoscrizione a diversi servizi specificati nel file. Dopo l&#39;importazione del file, è necessario eseguire una riconciliazione in modo che i dati importati possano essere identificati come profili con un collegamento ai servizi. Per garantire che il file non contenga duplicati, sui dati verrà eseguita un&#39;attività di deduplicazione.
+Questo esempio illustra come importare un file contenente profili e aggiornarne l’abbonamento a diversi servizi specificati nel file. Dopo l’importazione del file, è necessario eseguire una riconciliazione in modo tale che i dati importati possano essere identificati come profili con un collegamento ai servizi. Per garantire che il file non contenga duplicati, sui dati verrà eseguita un’attività di deduplicazione.
 
 Il flusso di lavoro viene presentato come segue:
 
 ![](assets/subscription_activity_example1.png)
 
-* Un&#39;attività [Carica file](../../automating/using/load-file.md) carica il file di profilo e definisce la struttura delle colonne importate.
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
-   Per questo esempio, il file caricato è in formato .csv e contiene i dati seguenti:
+   Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
 
    ```
    lastname;firstname;email;birthdate;service;operation
@@ -48,26 +46,26 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/subscription_example_load_file.png)
 
-   Come avrete notato, l&#39;operazione è specificata nel file come &quot;sub&quot; o &quot;non sub&quot;. Il sistema prevede che un valore **booleano** o **Intero** riconosca l&#39;operazione da eseguire: &quot;0&quot; per annullare l’iscrizione e &quot;1&quot; per iscriversi. Per soddisfare questo requisito, viene eseguito un nuovo mapping dei valori nel dettaglio della colonna &quot;operation&quot;.
+   Come avrai notato, l’operazione è specificata nel file come &quot;sub&quot; o &quot;non sub&quot;. Il sistema richiede un **valore booleano** o un **numero intero** per riconoscere l’operazione da eseguire: &quot;0&quot; per annullare l’abbonamento e &quot;1&quot; per effettuare l’abbonamento. Per soddisfare questo requisito, viene eseguito una nuova mappatura dei valori nel dettaglio della colonna &quot;operazione&quot;.
 
    ![](assets/subscription_example_remapping.png)
 
-   Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l&#39;operazione, non è necessario rimappare tali valori. Assicurarsi solo che la colonna sia elaborata come **booleano** o **Intero** nella **[!UICONTROL Column definition]** scheda.
+   Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l’operazione, non devi ripetere la mappatura di tali valori. Assicurati solo che la colonna sia elaborata come un **valore booleano** o un **numero intero** nella scheda **[!UICONTROL Column definition]**.
 
-* Un&#39;attività di [riconciliazione](../../automating/using/reconciliation.md) identifica i dati del file come appartenenti alla dimensione del profilo del database del Adobe Campaign . Tramite la **[!UICONTROL Identification]** scheda, il campo **e-mail** del file corrisponde al campo **e-mail** della risorsa del profilo.
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Tramite la scheda **[!UICONTROL Identification]**, il campo **e-mail** del file viene fatto corrisponde al campo **e-mail** della risorsa del profilo.
 
    ![](assets/subscription_activity_example3.png)
 
-   Nella **[!UICONTROL Relations]** scheda, viene creato un collegamento con la risorsa del servizio per consentire il riconoscimento del campo del **servizio** del file. In questo esempio, i valori corrispondono al campo del **nome** della risorsa del servizio.
+   Nella scheda **[!UICONTROL Relations]**, viene creato un collegamento con la risorsa del servizio per consentire il riconoscimento del campo **service** del file. In questo esempio, i valori corrispondono al campo **name** della risorsa del servizio.
 
    ![](assets/subscription_example_service_relation.png)
 
-* Una [deduplicazione](../../automating/using/deduplication.md) basata sul campo **e-mail** della risorsa temporanea (derivante dalla riconciliazione) identifica i duplicati. È importante eliminare i duplicati, in quanto la sottoscrizione a un servizio non riesce per tutti i dati in caso di duplicati.
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. È importante eliminare i duplicati poiché l’abbonamento a un servizio non riuscirà per tutti i dati in caso di duplicati.
 
    ![](assets/subscription_activity_example5.png)
 
-* Un&#39;attività Servizi [](../../automating/using/subscription-services.md) iscrizione identifica i servizi da aggiornare come derivanti dalla transizione, attraverso il collegamento creato nell&#39; **[!UICONTROL Reconciliation]** attività.
+* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
-   Il file **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operativo** del file. Qui è possibile selezionare solo i campi booleani o Interi. Se la colonna del file che contiene l&#39;operazione da eseguire non viene visualizzata nell&#39;elenco, accertatevi di aver impostato correttamente il formato della colonna nell&#39; **[!UICONTROL Load file]** attività, come spiegato in precedenza in questo esempio.
+   Il **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l’operazione da eseguire non viene visualizzata nell’elenco, accertati di aver impostato correttamente il formato della colonna nell’attività **[!UICONTROL Load file]**, come spiegato in precedenza in questo esempio.
 
    ![](assets/subscription_activity_example_from_file.png)
