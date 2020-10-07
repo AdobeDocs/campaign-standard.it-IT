@@ -1,5 +1,5 @@
 ---
-title: Ciclo di vita del flusso di lavoro
+title: Ciclo di vita di un flusso di lavoro
 description: Ulteriori informazioni sul ciclo di vita del flusso di lavoro
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Ciclo di vita del flusso di lavoro {#life-cycle}
+# Ciclo di vita di un flusso di lavoro {#life-cycle}
 
 Il ciclo di vita di un flusso di lavoro comprende tre passaggi principali, ciascuno dei quali è collegato a uno stato e a un colore:
 
@@ -47,6 +45,6 @@ Una volta avviato, un flusso di lavoro potrebbe presentare anche altri due stati
 
    Errore durante l&#39;esecuzione di un flusso di lavoro. Il flusso di lavoro è stato arrestato e l&#39;utente deve eseguire un&#39;azione. Per ulteriori informazioni su questo errore, utilizzare il ![](assets/printpreview_darkgrey-24px.png) pulsante per accedere al registro del flusso di lavoro (fare riferimento a [Monitoraggio](../../automating/using/monitoring-workflow-execution.md)).
 
-L&#39;elenco delle attività di marketing consente di visualizzare tutti i flussi di lavoro e i relativi stati. Per ulteriori informazioni, consulta [Gestione delle attività](../../start/using/marketing-activities.md#about-marketing-activities)di marketing.
+L&#39;elenco delle attività di marketing consente di visualizzare tutti i flussi di lavoro e i relativi stati. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)
