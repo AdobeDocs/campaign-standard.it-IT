@@ -1,18 +1,19 @@
 ---
 title: Passaggi chiave per l’aggiunta di una risorsa
-description: Scopri i passaggi chiave per aggiungere una risorsa nel modello dati di Adobe Campaign.
-page-status-flag: mai attivato
+description: Scopri i passaggi chiave per aggiungere una risorsa nel modello dati Adobe Campaign .
+page-status-flag: never-activated
 uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: development
+audience: developing
 content-type: reference
-topic-tags: aggiunta o estensione di una risorsa
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 51%
 
 ---
 
@@ -29,5 +30,5 @@ Per creare una nuova risorsa o per estendere una risorsa esistente con nuovi cam
 
 >[!CAUTION]
 >
->La creazione e la modifica di risorse sono operazioni sensibili che devono essere eseguite solo da utenti esperti.
+>La creazione e la modifica di risorse sono operazioni delicate che devono essere eseguite solo da utenti esperti.
 
