@@ -91,6 +91,7 @@ L’attività **[!UICONTROL Segmentation]** viene generalmente inserita dopo le 
       >[!NOTE]
       >
       >È possibile utilizzare limitazioni diverse per ciascun valore. Ad esempio, puoi specificare un raggruppamento per il campo **[!UICONTROL Gender]** e limitare il gruppo con iscritti **[!UICONTROL Male]** a 10 e il gruppo con iscritti **[!UICONTROL Female]** a 30. Se utilizzi più campi di raggruppamento di dati, devono avere tutti la stessa dimensione.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Conferma la configurazione del segmento.

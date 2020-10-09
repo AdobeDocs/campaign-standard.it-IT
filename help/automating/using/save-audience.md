@@ -67,6 +67,7 @@ L’attività **[!UICONTROL Save audience]** è essenzialmente utilizzata per ma
       >[!NOTE]
       >
       >Questa opzione è disponibile solo se l’amministratore ha configurato la funzionalità dei tipi di pubblico condivisi con Adobe Experience Cloud. Per ulteriori informazioni, consulta [Utilizzo di Campaign e del servizio core People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+
    I tipi di pubblico salvati o disponibili durante un aggiornamento dipende dalle attività inserite a monte nel flusso di lavoro.
 
    Se la dimensione di targeting del pubblico è sconosciuta al momento del salvataggio (ad esempio se proviene da un file importato), il pubblico viene creato o aggiornato come un pubblico di tipo **[!UICONTROL File]**.
