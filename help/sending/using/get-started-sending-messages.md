@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva alla verifica e all’invio
-description: Prepara, verifica, pianifica, invia e controlla i tuoi messaggi.
+description: Prepara, testa, pianifica, invia e monitora i messaggi.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
