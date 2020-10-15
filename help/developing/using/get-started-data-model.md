@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva al modello dati di Campaign Standard
-description: Arricchite il modello di dati Campaign Standard con campi e risorse personalizzati ed estendete le API REST per esporre i campi estesi.
+description: Arricchisci il modello di dati di Campaign Standard con campi e risorse personalizzati ed estendi le API REST per esporre i campi estesi.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 24%
+ht-degree: 29%
 
 ---
 
