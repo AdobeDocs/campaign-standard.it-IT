@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva al reporting dinamico
-description: Analizzare il successo delle campagne in report dinamici incorporati o personalizzati.
+description: Analizza il successo delle campagne in report dinamici integrati o personalizzati.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
