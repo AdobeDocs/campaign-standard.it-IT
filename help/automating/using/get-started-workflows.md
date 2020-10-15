@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva ai processi e alla gestione dei dati
-description: Automatizza i processi con flussi di lavoro, gestisci dati e audience, invia messaggi e molto altro.
+description: Automatizza i processi con i flussi di lavoro, gestisci dati e tipi di pubblico, invia messaggi e altro ancora.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
