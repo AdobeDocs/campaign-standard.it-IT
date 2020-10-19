@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 7%
@@ -54,7 +54,7 @@ Devi anche disporre di un sito web funzionante.
 
 >[!CAUTION]
 >
->La delega di sottodominio è un elemento chiave di recapito. Accertatevi che i messaggi e-mail di  Adobe Campaign vengano inviati dallo stesso dominio utilizzato dal sito Web.
+>La configurazione del sottodominio è un elemento chiave di recapito. Accertatevi che i messaggi e-mail di  Adobe Campaign vengano inviati dallo stesso dominio utilizzato dal sito Web.
 
 Devi configurare [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) e [Campaign](#configuring-triggers-and-aliases-in-campaign) per eseguire questi casi di utilizzo.
 
