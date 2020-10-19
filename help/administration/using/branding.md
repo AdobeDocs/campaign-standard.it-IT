@@ -11,9 +11,9 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1250'
 ht-degree: 80%
 
 ---
@@ -92,13 +92,13 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 Puoi aggiungere nuove entità dell&#39;organizzazione in Campaign, oppure creare un nuovo tipo di e-mail da inviare con un sottodominio diverso. Per eseguire questa operazione, procedere come segue:
 
-1. **Delega di un nuovo sottodominio** : per utilizzare un nuovo sottodominio  Adobe, il primo passaggio consiste nel delegarlo. Puoi eseguire questa operazione tramite il Pannello di controllo Campaign [](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campaign o contattare il contatto tecnico  Adobe. Ulteriori informazioni sulla delega dei sottodomini [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
+1. **Configura un nuovo sottodominio** : per ogni nuovo sottodominio che deve essere utilizzato da  Adobe, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite il Pannello di controllo Campaign [](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campaign o contattare il contatto tecnico  Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
 
-1. **Crea un ticket** : una volta delegato il sottodominio,  Adobe dovrà configurarlo nell&#39;ambiente di produzione. Per richiedere questo, [crea un ticket per Client Care](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
+1. **Crea un ticket** : una volta configurato il sottodominio,  Adobe dovrà configurarlo nell&#39;ambiente di produzione. Per richiedere questo, [crea un ticket per Client Care](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
 
    * Oggetto: ACS Nuova configurazione del marchio
 
-   * Contenuto: Un nuovo dominio è stato delegato a  Adobe e vorremmo che fosse configurato nella piattaforma Campaign
+   * Contenuto: È stato configurato un nuovo dominio e vorremmo installarlo nella piattaforma Campaign
 
    * Dominio: XXX
 
