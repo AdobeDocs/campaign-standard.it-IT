@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 4%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ Consulta le risorse seguenti:
 * Guida introduttiva alla [documentazione di Launch &amp;  Experience Platform SDK](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Aggiornamento  [documentazione SDK per Experienci Platform](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Github  [documentazione SDK per Experienci Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## Viene visualizzato l&#39;errore &quot;Non disponete dell&#39;accesso in scrittura al momento della consegna&quot; durante la creazione di una notifica push. {#write-access-error}
+
+È necessario verificare quanto segue:
+
+* L&#39;app mobile deve essere mappata sull&#39;unità organizzativa dell&#39;utente che deve creare e inviare le consegne push. L&#39;utente di un&#39;unità organizzativa figlio non può creare una consegna push utilizzando un&#39;app mappata all&#39;unità organizzativa padre.
+
+* La campagna o il programma all&#39;interno del quale viene creata la distribuzione push deve essere mappato sull&#39;unità organizzativa dell&#39;utente che deve creare e inviare le consegne push. L&#39;utente dell&#39;unità organizzativa figlio non può creare una consegna push in una campagna o in un programma mappato all&#39;unità dell&#39;organizzazione padre.
