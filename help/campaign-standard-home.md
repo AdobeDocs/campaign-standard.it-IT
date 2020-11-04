@@ -5,10 +5,10 @@ title: Documentazione di Adobe Campaign Standard
 description: Consulta la documentazione del prodotto Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 97%
+source-wordcount: '224'
+ht-degree: 91%
 
 ---
 
@@ -19,14 +19,16 @@ ht-degree: 97%
 
 ## Novità
 
-* **[Gruppi di controllo](sending/using/control-group.md)**<br/>Misura l’impatto delle campagne escludendo parte delle relative audience
+* **[Aggiornate le date di rilascio della pianificazione](rn/using/release-planning.md)**<br/>della release di gennaio sono state aggiunte alla pianificazione della release
 
-* **[E-mail basate sull’intelligenza artificiale](sending/using/predictive.md)**<br/>Ottimizza la progettazione e la consegna con le e-mail basate sull’intelligenza artificiale
+* **[Gruppi di controllo](sending/using/control-group.md)**<br/>
+Misura l’impatto delle campagne escludendo parte delle relative audience
 
-* **[Gestione della privacy](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)**<br/>
-Scopri gli strumenti forniti da Adobe Campaign per facilitare la conformità ai criteri di privacy
+* **[E-mail basate sull’intelligenza artificiale](sending/using/predictive.md)**<br/>
+Ottimizza la progettazione e la consegna con le e-mail basate sull’intelligenza artificiale
 
-* **[API esterna](automating/using/external-api.md)**<br/>Utilizza l’attività API esterna per inserire nel flusso di lavoro dati provenienti da un sistema esterno
+* **[API esterna](automating/using/external-api.md)**<br/>
+Utilizza l’attività API esterna per inserire nel flusso di lavoro dati provenienti da un sistema esterno
 
 * **[Guida introduttiva alle consegne su dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/>
 Scopri le linee guida generali per le consegne su dispositivi mobili (SMS, push, in-app)
