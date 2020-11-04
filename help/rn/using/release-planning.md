@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: e57fb3ad898be580828fbe031faf0bc3664246eb
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare que
 
 **NOVITÀ!** Abbonati alle [notifiche di rilascio di Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) per ottenere informazioni sulle prossime versioni direttamente nella tua casella in entrata.
 
-## Versione 20.4 - ottobre {#release-20-4-oct-release}
+## Release 21.1 - Rilascio di gennaio {#release-21-1-release}
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md). Per ulteriori domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
@@ -44,16 +44,14 @@ Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di s
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>21 - 23 settembre 2020<br /> </td>
+   <td>11-12 gennaio 2021<br /> </td>
   </tr>
   <tr>
    <td> Produzione<br /> </td>
-   <td>28 settembre - 5 ottobre 2020<br /> </td>
+   <td>18 - 25 gennaio 2021<br /> </td>
   </tr>
  </tbody>
 </table>
-
-
 
 ## Domande e risposte {#questions-and-answers}
 
