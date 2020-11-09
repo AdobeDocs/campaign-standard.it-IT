@@ -11,7 +11,7 @@ topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 96%
@@ -54,7 +54,7 @@ Durante la configurazione di un segnale esterno, è importante per prima cosa co
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
 1. Modifica l’etichetta dell’attività. Questa etichetta è necessaria per configurare il flusso di lavoro sorgente che attiva il **[!UICONTROL External signal]**.
 
-   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters]** per dichiararli. Per ulteriori informazioni al riguardo, consulta questa sezione: [](../../automating/using/declaring-parameters-external-signal.md).
+   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters]** per dichiararli. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +76,7 @@ Durante la configurazione di un segnale esterno, è importante per prima cosa co
 
    Quando imposti un’attività **[!UICONTROL End]** per attivare un altro flusso di lavoro, la relativa icona viene aggiornata con un simbolo di segnale aggiuntivo.
 
-   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters and values]**. Per ulteriori informazioni al riguardo, consulta questa sezione: [](../../automating/using/defining-parameters-calling-workflow.md).
+   Se desideri chiamare il flusso di lavoro con i parametri, utilizza l’area **[!UICONTROL Parameters and values]**. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
