@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Una volta attivato il flusso di lavoro, i parametri vengono assimilati nelle variabili degli eventi e possono essere utilizzati per personalizzare le attività del flusso di lavoro.
 
-Possono, ad esempio, essere utilizzati per definire il pubblico da leggere nell&#39; **[!UICONTROL Read audience]** attività, il nome del file da trasferire nell&#39; **[!UICONTROL Transfer file]** attività, ecc. (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+Possono, ad esempio, essere utilizzati per definire il pubblico da leggere nell&#39; **[!UICONTROL Read audience]** attività, il nome del file da trasferire nell&#39; **[!UICONTROL Transfer file]** attività, ecc. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Uso delle variabili di evento {#using-events-variables}
 
@@ -49,13 +49,13 @@ Quando si utilizza una variabile in un&#39;attività, l&#39;interfaccia fornisce
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): modificare le espressioni combinando variabili e funzioni (vedere [](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): modificare le espressioni combinando variabili e funzioni (vedere [questa pagina](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
    Questo elenco fornisce funzioni che consentono di eseguire filtri complessi. Queste funzioni sono descritte in [questa sezione](../../automating/using/list-of-functions.md).
 
-   È inoltre possibile utilizzare le funzioni riportate di seguito, disponibili in tutte le attività che consentono di utilizzare le variabili di evento dopo aver chiamato un flusso di lavoro con parametri esterni (vedere [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+   È inoltre possibile utilizzare le funzioni riportate di seguito, disponibili in tutte le attività che consentono di utilizzare le variabili di evento dopo aver chiamato un flusso di lavoro con parametri esterni (vedere [questa sezione](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Nome | Descrizione | Sintassi |
    ---------|----------|---------
