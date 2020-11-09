@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '108'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ Il primo passo per chiamare un flusso di lavoro con parametri consiste nel dichi
 
    >[!CAUTION]
    >
-   >Accertatevi che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (vedete [](../../automating/using/defining-parameters-calling-workflow.md)). Inoltre, i tipi di parametri devono essere coerenti con i valori previsti.
+   >Accertatevi che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (consultate [questa pagina](../../automating/using/defining-parameters-calling-workflow.md)). Inoltre, i tipi di parametri devono essere coerenti con i valori previsti.
 
    ![](assets/extsignal_declaringparameters_1.png)
 
