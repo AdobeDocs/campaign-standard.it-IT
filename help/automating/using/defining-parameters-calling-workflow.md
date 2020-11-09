@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 12%
+source-wordcount: '188'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ In questa sezione viene illustrato come definire i parametri durante la chiamata
 
 Prima di definire i parametri, accertatevi che:
 
-* I parametri sono stati dichiarati nell&#39; **[!UICONTROL External Signal]** attività. A questo proposito, consulta la sezione [](../../automating/using/declaring-parameters-external-signal.md).
+* I parametri sono stati dichiarati nell&#39; **[!UICONTROL External Signal]** attività. Consulta [questa pagina](../../automating/using/declaring-parameters-external-signal.md).
 * Il flusso di lavoro contenente l&#39;attività del segnale è in esecuzione.
 
 Per configurare l&#39; **[!UICONTROL End]** attività, attenetevi alla procedura seguente:
@@ -33,7 +33,7 @@ Per configurare l&#39; **[!UICONTROL End]** attività, attenetevi alla procedura
 1. Seleziona il flusso di lavoro e l’attività del segnale esterno da chiamare.
 1. Fate clic sul **[!UICONTROL Create element]** pulsante per aggiungere un parametro, quindi compilate il relativo nome e valore.
 
-   * **[!UICONTROL Name]**: il nome dichiarato nell&#39; **[!UICONTROL External signal]** attività (vedere [](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Name]**: il nome dichiarato nell&#39; **[!UICONTROL External signal]** attività (consultate [questa pagina](../../automating/using/declaring-parameters-external-signal.md)).
    * **[!UICONTROL Value]**: il valore che si desidera assegnare al parametro. Il valore deve seguire la sintassi **** Standard, descritta in [questa sezione](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
