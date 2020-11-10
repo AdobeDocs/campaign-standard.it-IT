@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Help Center di Adobe Campaign Standard
 breadcrumb-title: Guida a Campaign Standard
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 98%
+source-wordcount: '1658'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 98%
    + [Funzioni obsolete](rn/using/deprecated-features.md)
 + Guida introduttiva {#getting-started}
    + [Informazioni su Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + [Privacy e consenso](start/using/privacy.md)
+   + Privacy {#privacy}
+      + [Privacy e consenso](start/using/privacy.md)
+      + [Gestione della privacy](start/using/privacy-management.md)
    + Esplorazione dell’interfaccia {#discovering-the-interface}
       + [Informazioni sull’interfaccia](start/using/about-the-interface.md)
       + [Descrizione interfaccia](start/using/interface-description.md)
@@ -73,14 +75,14 @@ ht-degree: 98%
       + [Accesso ai messaggi](channels/using/accessing-messages.md)
       + [Dashboard messaggi](channels/using/message-dashboard.md)
       + [Modelli per messaggi multilingue](channels/using/multilingual-messages-template.md)
-   + Best practice di distribuzione {#delivery-bestpractices}
+   + Best practice di consegna{#delivery-bestpractices}
       + [Scopri le buone pratiche](sending/using/delivery-best-practices.md)
-      + [Ottimizzazione della distribuzione](sending/using/optimize-delivery.md)
+      + [Ottimizzare la consegna](sending/using/optimize-delivery.md)
       + [Utilizzare i modelli](sending/using/use-templates.md)
-      + [Creazione di contenuti personalizzati](sending/using/design-and-personalize.md)
+      + [Creare contenuti personalizzati](sending/using/design-and-personalize.md)
       + [Definire il pubblico adatto](sending/using/define-the-right-audience.md)
-      + [Controlla prima dell&#39;invio](sending/using/check-before-sending.md)
-      + [Monitoraggio e monitoraggio](sending/using/track-and-monitor.md)
+      + [Controllare prima dell’invio](sending/using/check-before-sending.md)
+      + [Tracciare e monitorare](sending/using/track-and-monitor.md)
    + Messaggi e-mail {#email-messages}
       + [Informazioni sulle e-mail](channels/using/about-emails.md)
       + [Creazione di un messaggio e-mail](channels/using/creating-an-email.md)
