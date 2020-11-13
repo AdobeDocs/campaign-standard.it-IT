@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
@@ -57,8 +57,11 @@ L&#39;assimilazione immediata di una mappatura XDM in Adobe Experience Platform 
 >
 >Per eseguire la chiamata API POST ingerest, l&#39;utente deve avere un ruolo di esecuzione **della funzione** SQL, che può essere fornito da un amministratore Campaign Standard mediante l&#39;esecuzione sotto lo script JS:
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
-REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>
+```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
 
 L&#39;operazione POST restituisce informazioni sullo stato della richiesta creata:
 
@@ -105,7 +108,8 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i processi correlati sono disponibili nell&#39;interfaccia Campaign Standard, nel **[!UICONTROL Status of data export to platform]** menu (consultate Attivazione [della](../../developing/using/aep-mapping-activation.md)mappatura).
+>
+>Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i processi correlati sono disponibili nell&#39;interfaccia Campaign Standard, nel **[!UICONTROL Status of data export to platform]** menu (consultate Attivazione [della](../../developing/using/aep-mapping-activation.md)mappatura).
 
 L&#39;operazione di GET restituisce le informazioni seguenti:
 
