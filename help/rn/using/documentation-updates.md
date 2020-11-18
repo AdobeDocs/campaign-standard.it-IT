@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
+source-git-commit: 18cd7a2956a16972b41a797e580cc68ac76abdc8
 workflow-type: tm+mt
-source-wordcount: '6235'
+source-wordcount: '6239'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
-La sezione Privacy è stata spostata e arricchita con una nuova pagina: [Gestione](../../start/using/privacy-management.md)della privacy.
+La sezione Privacy è stata spostata e arricchita con due nuove pagine: [Gestione](../../start/using/privacy-management.md) della privacy e [gestione delle richieste](../../start/using/privacy-requests.md)sulla privacy.
 
 ## Versione 20.4 - ottobre 2020 {#release-20-4---october-2020}
 
