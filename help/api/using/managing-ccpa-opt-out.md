@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 9240686a36146b45de6dfd07fc50a71fab663001
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizza
 >
 >L&#39;attributo &quot;Rinuncia CCPA&quot; è disponibile solo a partire dalla versione 19.4. Per gli ambienti 19.3, è necessario estendere la risorsa Profili e aggiungere un campo booleano. Questo campo verrà aggiunto all&#39;API con l&#39;etichetta selezionata. Vi consigliamo di utilizzare &quot;Opt-Out for CCPA&quot;.
 >
->For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+>Per ulteriori informazioni, consulta la documentazione [](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)Gestione delle richieste di privacy.
 
 <br/>
 
