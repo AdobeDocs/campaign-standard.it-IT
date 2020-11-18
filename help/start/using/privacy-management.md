@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 1%
+source-wordcount: '928'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ Per facilitare la preparazione alla privacy,  Adobe Campaign consente di gestire
 
 * Anche noto come Data Erasure, il **Diritto di essere Dimenticato** (richiesta di cancellazione) autorizza l&#39;interessato a far cancellare i propri dati personali, cessare l&#39;ulteriore diffusione dei dati e potenzialmente far cessare il trattamento dei dati da parte di terzi.
 
-Per informazioni su come creare le richieste di **accesso** ed **eliminazione** e su come  Adobe Campaign le elabora, fare riferimento ai passaggi [di](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html)implementazione.
+Per informazioni su come creare le richieste di **accesso** ed **eliminazione** e su come  Adobe Campaign le elabora, fare riferimento ai passaggi [di](../../start/using/privacy-requests.md#about-privacy-requests)implementazione.
 
 Tutorials sulla gestione della privacy in Campaign Standard sono disponibili anche [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -71,7 +71,7 @@ Le funzioni per gestire alcuni aspetti del consenso sono state fondamentali per 
 
 Per ulteriori informazioni sulla gestione del consenso, consultate [Informazioni sulle iscrizioni](../../audiences/using/about-subscriptions.md) e [Introduzione alle pagine](../../channels/using/getting-started-with-landing-pages.md)di destinazione.
 
-Oltre agli strumenti di gestione del consenso forniti da  Adobe Campaign, è possibile verificare se un consumatore ha optato per la vendita di Dati Personali. Vedi [questa sezione](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ccpa).
+Oltre agli strumenti di gestione del consenso forniti da  Adobe Campaign, è possibile verificare se un consumatore ha optato per la vendita di Dati Personali. Vedi [questa sezione](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Conservazione dei dati {#data-retention}
 
