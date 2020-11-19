@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: c1b9d2f8e16007f525465f28f3cee404fc491088
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare que
 
 **NOVITÀ!** Abbonati alle [notifiche di rilascio di Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) per ottenere informazioni sulle prossime versioni direttamente nella tua casella in entrata.
 
-## Release 21.1 - Rilascio Febuary {#release-21-1-release}
+## Release 21.1 - Rilascio di febbraio {#release-21-1-release}
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md). Per ulteriori domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
