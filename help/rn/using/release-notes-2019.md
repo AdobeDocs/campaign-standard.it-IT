@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Note sulla versione 2019
 description: In questa pagina sono elencate tutte le versioni del 2019 di Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 8%
@@ -24,7 +21,7 @@ ht-degree: 8%
 
 ## Rilascio 19.4 - dicembre 2019 {#release-19-4---october-2019}
 
-**Novità?**
+**Novità**
 
 <table> 
  <thead> 
@@ -150,7 +147,7 @@ ht-degree: 8%
 
 ## Versione 19.3 - luglio 2019 {#release-19-3---july-2019}
 
-**Novità?**
+**Novità**
 
 <table> 
  <thead> 
@@ -295,7 +292,7 @@ ht-degree: 8%
 
 ## Versione 19.2 - maggio 2019 {#release-19-2---may-2019}
 
-**Novità?**
+**Novità**
 
 <table> 
  <thead> 
@@ -307,7 +304,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Pannello di controllo Campaign<br /> </td> 
-   <td> <p>Per migliorare l'efficienza del lavoro di amministratore, puoi monitorare facilmente la capacità e gestire le impostazioni delle tue istanze (a partire dalla gestione dei server SFTP).</p><p>Per ulteriori informazioni, consulta la <a href="https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">video tutorial</a>.</p></td> 
+   <td> <p>Per migliorare l'efficienza del lavoro di amministratore, puoi monitorare facilmente la capacità e gestire le impostazioni delle tue istanze (a partire dalla gestione dei server SFTP).</p><p>Per ulteriori informazioni, consulta la <a href="https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/control-panel/control-panel-overview.html">video tutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notifiche locali<br /> </td> 
@@ -413,7 +410,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 ## Versione 19.1 - febbraio 2019 {#release-19-1---february-2019}
 
-**Novità?**
+**Novità**
 
 <table> 
  <thead> 
@@ -519,7 +516,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 ## Versione 19.0 - gennaio 2019 {#release-19-0---january-2019}
 
-**Novità?**
+**Novità**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
