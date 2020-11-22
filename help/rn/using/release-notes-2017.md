@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Note sulla versione 2017
 description: In questa pagina sono elencate tutte le versioni del 2017 di Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -434,7 +431,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Flussi di lavoro: nuova attività di lettura dell'audience<br /> </td> 
-   <td> Avviate il processo di targeting con un'audience esistente che potrete selezionare e perfezionare facilmente in un'unica attività.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/read-audience.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Avviate il processo di targeting con un'audience esistente che potete facilmente selezionare e perfezionare in un'unica attività.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/read-audience.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dati dei punti di interesse<br /> </td> 
