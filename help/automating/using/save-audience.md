@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Save audience
 description: L’attività Save audience ti consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
@@ -67,7 +64,6 @@ L’attività **[!UICONTROL Save audience]** è essenzialmente utilizzata per ma
       >[!NOTE]
       >
       >Questa opzione è disponibile solo se l’amministratore ha configurato la funzionalità dei tipi di pubblico condivisi con Adobe Experience Cloud. Per ulteriori informazioni, consulta [Utilizzo di Campaign e del servizio core People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    I tipi di pubblico salvati o disponibili durante un aggiornamento dipende dalle attività inserite a monte nel flusso di lavoro.
 
    Se la dimensione di targeting del pubblico è sconosciuta al momento del salvataggio (ad esempio se proviene da un file importato), il pubblico viene creato o aggiornato come un pubblico di tipo **[!UICONTROL File]**.
