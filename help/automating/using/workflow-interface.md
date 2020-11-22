@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Interfaccia dei flussi di lavoro
 description: Scopri l’interfaccia e le opzioni per creare, modificare ed eseguire un flusso di lavoro.
-page-status-flag: never-activated
-uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 4%
@@ -122,7 +119,7 @@ Quando un&#39;attività è selezionata, intorno all&#39;attività vengono visual
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Disattiva l&#39;attività.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Impone l&#39;elaborazione immediata della selezione. Questo pulsante è disponibile solo per le attività<span class="uicontrol">Scheduler</span>e<span class="uicontrol">Wait</span>.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Impone l&#39;elaborazione immediata della selezione. Questo pulsante è disponibile solo per le attività <span class="uicontrol">Scheduler</span> e <span class="uicontrol">Wait</span> .
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Elimina le attività selezionate.
 
