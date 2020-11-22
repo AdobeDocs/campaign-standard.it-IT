@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Richieste sulla privacy
 description: Scopri come gestire le richieste di privacy in  Adobe Campaign Standard
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 06b886989243405df04b4abef46994afd980f6d8
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -134,7 +131,7 @@ Affinché questo funzioni, è necessario selezionare l&#39; **[!UICONTROL Deleti
 
 1. Click the Adobe Campaign logo in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
 
-1. Selezionate una risorsa personalizzata con un collegamento alla risorsa dei profili (tipo proprio).
+1. Selezionate una risorsa personalizzata con un collegamento alla risorsa dei profili (tipo personalizzato).
 
 1. Fare clic sulla **[!UICONTROL Links]** sezione.
 
