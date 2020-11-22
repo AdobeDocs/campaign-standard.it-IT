@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gestione dei messaggi delle transazioni
 description: Scopri come gestire i messaggi transazionali con le API.
-page-status-flag: never-activated
-uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 1%
@@ -51,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (L&#39;endpoint API dei messaggi transazionali è visibile anche durante l&#39;anteprima API)
 
-* **&lt;eventID>**: il tipo di evento che si desidera inviare. Questo ID viene generato al momento della creazione della definizione dell’evento. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**: il tipo di evento che si desidera inviare. Questo ID viene generato al momento della creazione della definizione dell’evento. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### Intestazione richiesta POST
 
@@ -70,7 +67,7 @@ La richiesta deve contenere un &quot;Content-Type: application/json&quot; header
 
 ### corpo della richiesta POST
 
-I dati dell&#39;evento sono contenuti nel corpo del POST JSON. La struttura dell&#39;evento dipende dalla sua definizione. Il pulsante Anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta. Consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+I dati dell&#39;evento sono contenuti nel corpo del POST JSON. La struttura dell&#39;evento dipende dalla sua definizione. Il pulsante Anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Al contenuto dell&#39;evento possono essere aggiunti i seguenti parametri facoltativi per gestire l&#39;invio di messaggi transazionali collegati all&#39;evento:
 
