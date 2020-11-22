@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Guida introduttiva alla verifica e all’invio
 description: Prepara, testa, pianifica, invia e monitora i messaggi.
-page-status-flag: never-activated
-uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -95,5 +92,5 @@ Leggi tutto:
 * [Inviare un test, preparare e inviare un messaggio e-mail (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Rivedere la consegna e i rapporti tramite e-mail (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Guida introduttiva alle e-mail](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
-* [Best practice di distribuzione](../../sending/using/delivery-best-practices.md)
+* [Best practice di consegna](../../sending/using/delivery-best-practices.md)
 * [Aggiunta di un gruppo di controllo](../../sending/using/control-group.md)
