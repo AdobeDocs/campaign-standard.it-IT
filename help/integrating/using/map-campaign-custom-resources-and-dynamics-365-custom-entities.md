@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Mappatura delle risorse personalizzate di Campaign ed entità personalizzate di Dynamics 365
 description: Scoprite come mappare risorse ed entità nel contesto dell'integrazione tra  Adobe Campaign Standard e Microsoft Dynamics 365.
-page-status-flag: never-activated
-uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 9%
@@ -30,7 +27,7 @@ Scoprite come mappare risorse personalizzate ed entità personalizzate nel conte
 
 L&#39;integrazione [di](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) Microsoft Dynamics 365- Adobe Campaign Standard supporta entità personalizzate, consentendo la sincronizzazione delle entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
 
-I nuovi dati contenuti nelle risorse personalizzate possono essere utilizzati per diversi scopi, tra cui segmentazione e personalizzazione.
+I nuovi dati nelle risorse personalizzate possono essere utilizzati per diversi scopi, tra cui segmentazione e personalizzazione.
 
 L&#39;integrazione supporta tabelle collegate e non collegate. Il collegamento è supportato fino a tre livelli (livello1->livello2->livello3).
 
