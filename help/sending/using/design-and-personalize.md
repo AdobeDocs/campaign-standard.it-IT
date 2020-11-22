@@ -1,25 +1,21 @@
 ---
-title: Creazione di contenuti personalizzati
-seo-title: Creazione di contenuti personalizzati
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+solution: Campaign Standard
+product: campaign
+title: Creare contenuti personalizzati
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 7%
+source-wordcount: '905'
+ht-degree: 8%
 
 ---
 
 
-# Creazione di contenuti personalizzati {#build-personalized-content}
+# Creare contenuti personalizzati {#build-personalized-content}
 
 Durante la progettazione del contenuto del messaggio, cercate di evitare problemi comuni che potrebbero impedire l&#39;esecuzione della distribuzione. Nella maggior parte dei casi, eventuali errori sono correlati alla [personalizzazione](../../designing/using/personalization.md), alla formattazione quando si [utilizza un contenuto](../../designing/using/using-existing-content.md) esistente e alla [conversione di un contenuto](../../designing/using/using-existing-content.md#converting-an-html-content) HTML e [delle immagini](../../designing/using/images.md).
 
