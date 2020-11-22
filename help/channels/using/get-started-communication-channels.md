@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Guida introduttiva ai canali di comunicazione
 description: Crea messaggi personalizzati su vari canali, utilizza modelli, crea pagine di destinazione e controlla le best practice.
-page-status-flag: never-activated
-uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 22%
@@ -100,7 +97,7 @@ Leggi tutto:
 ## Risorse aggiuntive
 
 * [Ottimizzazione della recapito](../../sending/using/about-deliverability.md)
-* [Best practice di distribuzione](../../sending/using/delivery-best-practices.md)
+* [Best practice di consegna](../../sending/using/delivery-best-practices.md)
 * [Progettazione di un contenuto e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importazione di un contenuto AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Invio di messaggi con i flussi di lavoro](../../automating/using/about-channel-activities.md)
