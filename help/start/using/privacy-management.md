@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gestione della privacy in  Adobe Campaign Standard
 description: Ulteriori informazioni sulle  funzionalità di Adobe Campaign Standard per gestire la privacy.
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -77,7 +74,7 @@ Oltre agli strumenti di gestione del consenso forniti da  Adobe Campaign, è pos
 
 Per quanto riguarda la conservazione, le tabelle di registro integrate in Campaign dispongono di periodi di conservazione preimpostati, in genere limitano la loro memorizzazione dei dati a sei mesi o meno.
 
-Di seguito sono riportati i valori di conservazione predefiniti per le tabelle integrate. La configurazione del mantenimento è impostata dagli amministratori tecnici  Adobe durante l&#39;implementazione e i valori possono variare per ogni implementazione, in base ai requisiti dei clienti.
+Di seguito sono riportati i valori di conservazione predefiniti per le tabelle integrate. La configurazione di conservazione è impostata dagli amministratori tecnici  Adobe durante l&#39;implementazione e i valori possono variare per ogni implementazione, in base ai requisiti dei clienti.
 
 * **Tracciamento** consolidato: 6 mesi
 * **Registri** di consegna: 6 mesi
