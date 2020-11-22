@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Unità organizzative
 description: Definite i livelli di accesso degli utenti utilizzando le unità organizzative.
-page-status-flag: never-activated
-uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 3%
@@ -90,7 +87,7 @@ Poiché l&#39;unità Abbigliamento Geometrixx è un&#39;unità secondaria di Geo
 
 ![](assets/manage_units_8.png)
 
-Le unità organizzative possono limitare l&#39;accesso a funzioni diverse come i profili. Ad esempio, se il nostro utente di Abbigliamento Geometrixx accede alla **[!UICONTROL Profiles]** scheda, sarà in grado di accedere e modificare completamente i profili con l&#39;unità organizzativa Abbigliamento Geometrixx.
+Le unità organizzative possono limitare l&#39;accesso a funzioni diverse, come i profili. Ad esempio, se il nostro utente di Abbigliamento Geometrixx accede alla **[!UICONTROL Profiles]** scheda, sarà in grado di accedere e modificare completamente i profili con l&#39;unità organizzativa Abbigliamento Geometrixx.
 
 Mentre i profili con l&#39;unità organizzativa Geometrixx saranno di sola lettura, se l&#39;utente tenta di modificare un profilo verrà visualizzato il seguente errore: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
