@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Note sulla versione 2018
 description: In questa pagina sono elencate tutte le versioni del 2018 di Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 6%
@@ -28,7 +25,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 
 ## Versione 18.9 - settembre 2018 {#release-18-9---september-2018}
 
-**Novità?**
+**Novità**
 
 <table> 
  <thead> 
@@ -93,7 +90,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 
 ## Versione 18.7 - luglio 2018 {#release-18-7---july-2018}
 
-**Novità?**
+**Novità**
 
 <table> 
  <thead> 
@@ -194,7 +191,7 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 
 ## Versione 18.5 - maggio 2018 {#release-18-5---may-2018}
 
-**Novità?**
+**Novità**
 
 <table> 
  <thead> 
@@ -233,10 +230,10 @@ Visualizza gli aggiornamenti [della](../../rn/using/documentation-updates.md) do
 
 **Altre modifiche**
 
-* L&#39;attività del flusso di lavoro Leggi audience ora può leggere  pubblico Experience Cloud. In precedenza, questa attività era in grado di leggere solo le audience Query ed Elenco. Fare riferimento alla documentazione [](../../automating/using/read-audience.md)dettagliata. (CAMP-23623)
+* L&#39;attività del flusso di lavoro Leggi audience ora può leggere  pubblico Experience Cloud. In precedenza, questa attività era in grado di leggere solo le audience Query ed Elenco. Refer to the [detailed documentation](../../automating/using/read-audience.md). (CAMP-23623)
 * L&#39;identificatore dell&#39;origine dati condivisa predefinita ora è in modalità di sola lettura e non può più essere modificato. La modifica di questo identificatore potrebbe causare problemi durante la condivisione di audience con il Experience Cloud .
 * L&#39;importazione di audience da  Audience Manager ora funziona con file suddivisi. In precedenza, solo l’ultimo file del segmento veniva importato dal flusso di lavoro tecnico importSharedAudience.
-* Gli account esterni AWS S3 ora supportano le aree geografiche e il meccanismo di autenticazione della versione 4. Fare riferimento alla documentazione [](../../administration/using/external-accounts.md)dettagliata.
+* Gli account esterni AWS S3 ora supportano le aree geografiche e il meccanismo di autenticazione della versione 4. Refer to the [detailed documentation](../../administration/using/external-accounts.md).
 * La finestra di selezione delle risorse ora dovrebbe caricarsi più velocemente e consentire di selezionare una risorsa e quindi uscire dalla finestra senza alcun problema.
 * Le proprietà e la struttura dei flussi di lavoro tecnici ora possono essere modificate dagli utenti con diritti amministrativi e appartenenti alle unità organizzative e geografiche &quot;All&quot;.
 * Sono stati apportati miglioramenti all&#39;interfaccia dell&#39;attività di segmentazione al momento della creazione di nuovi segmenti: La scheda Limitazione ora viene visualizzata direttamente dopo l&#39;aggiunta di un limite. I nomi dei nuovi segmenti ora vengono incrementati (&quot;Segmento 1&quot;, &quot;Segmento 2&quot;, ecc.).
@@ -280,7 +277,7 @@ _Flussi di lavoro_
 
 * Gestione della memoria migliorata e prestazioni ottimizzate nei flussi di lavoro.
 
-_Reporting_
+_Generazione rapporti_
 
 * Il flusso di lavoro di condivisione KPI ora recupera i valori di consegna per gli ultimi 2 mesi invece degli ultimi 6 mesi. È stato risolto un problema con l&#39;account esterno della condivisione KPI che mostrava date troncate.
 * È stato corretto un problema a causa del quale alcuni messaggi non venivano presi in considerazione in **Inviati**, **Consegnati** e **** Bouncemetrics.
