@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Informazioni sulle notifiche push
 description: Scopri le principali specificità del canale di notifica push in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 50%
@@ -155,7 +152,7 @@ Istruzioni più dettagliate sono disponibili in questa [pagina](../../administra
 
 ### Quali report sono disponibili per il canale push? {#push-report-available}
 
-Un rapporto out-of-the-box è disponibile in  Adobe Campaign per i canali push. Fare riferimento a questa [documentazione](../../reporting/using/push-notification-report.md).
+Un rapporto out-of-the-box è disponibile in  Adobe Campaign per i canali push. Refer to this [documentation](../../reporting/using/push-notification-report.md).
 
 Consultate questa [pagina](../../reporting/using/indicator-calculation.md#push-notification-delivery) per comprendere come vengono calcolate le singole metriche push.
 
