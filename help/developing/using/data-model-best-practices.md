@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Best practice relative ai modelli dati in  Adobe Campaign Standard
 description: Scoprite le procedure ottimali per la progettazione  modello dati Adobe Campaign Standard.
-page-status-flag: never-activated
-uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 1%
@@ -42,7 +39,7 @@ In questo documento sono riportati i casi d’uso e le procedure ottimali più c
 
 ### Metodo incentrato sul cliente {#customer-centric-approach}
 
-Mentre la maggior parte dei provider di servizi e-mail comunica ai clienti tramite un approccio incentrato sugli elenchi,  Adobe Campaign si affida a un database relazionale per sfruttare una visione più ampia dei clienti e dei loro attributi.
+Mentre la maggior parte dei provider di servizi e-mail comunica ai clienti tramite un approccio incentrato sugli elenchi,  Adobe Campaign si avvale di un database relazionale per sfruttare una visione più ampia dei clienti e dei loro attributi.
 
 Questo approccio incentrato sul cliente è riportato nel grafico seguente. La risorsa **Profilo** in grigio rappresenta la tabella cliente principale intorno alla quale viene creato tutto:
 
