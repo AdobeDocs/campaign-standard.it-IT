@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Guida introduttiva ai report dinamici
 description: Con i rapporti dinamici, trascina e rilascia variabili e dimensioni nell’ambiente a forma libera e analizza il successo delle campagne.
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
@@ -73,7 +70,7 @@ Nella tabella seguente sono riportati gli eventi che si verificano dopo il rifiu
 | Regione | Generazione di rapporti dinamici | Connettore Microsoft Dynamics 365 |
 |---|---|---|
 | Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br> Nessun&#39;informazione out-of-the-box e informazioni sui profili personalizzati inviate al centro di reporting statunitense, ad eccezione di ExternalID. | **Funzionalità disponibile**. <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati degli Stati Uniti, ad eccezione di ID esterni e ID destinatario. <br>Tutti  campi evento Adobe Campaign Standard elaborati nel centro dati degli Stati Uniti, ad eccezione dell&#39;ID pagina mirror. <br>Per ulteriori informazioni sull&#39;integrazione con Microsoft Dynamics 365, fare riferimento a questa [pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
-| EMEA (Europa Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Nessuna informazione disponibile e nessuna informazione sui profili personalizzati inviati al centro di reporting EMEA, ad eccezione di ExternalID. | **Funzionalità disponibile.** <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati EMEA, ad eccezione di ID esterni e ID destinatario. <br>Tutti  campi evento Adobe Campaign Standard elaborati nel centro dati EMEA, ad eccezione dell&#39;ID pagina mirror.  <br>**[!UICONTROL Control data]**che contiene  dati di registrazione I/O Adobe e ID degli eventi degli utenti finali del cliente inviati e memorizzati nel centro dati USA.<br>Per ulteriori informazioni sull&#39;integrazione con Microsoft Dynamics 365, fare riferimento a questa[pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| EMEA (Europa Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Nessuna informazione disponibile e nessuna informazione sui profili personalizzati inviati al centro di reporting EMEA, ad eccezione di ExternalID. | **Funzionalità disponibile.** <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati EMEA, ad eccezione di ID esterni e ID destinatario. <br>Tutti  campi evento Adobe Campaign Standard elaborati nel centro dati EMEA, ad eccezione dell&#39;ID pagina mirror.  <br>**[!UICONTROL Control data]**che contiene  dati di registrazione I/O Adobe e ID degli eventi degli utenti finali del cliente inviati e memorizzati nel centro dati USA.<br>Per ulteriori informazioni sull&#39;integrazione con Microsoft Dynamics 365, fare riferimento a questa [pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
 
 Questa scelta non è finale, potete sempre modificarla selezionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
