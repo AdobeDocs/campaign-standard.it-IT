@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Informazioni sulla messaggistica in-app
 description: La messaggistica in-app ti consente di visualizzare i messaggi o gli avvisi all’interno dell’app mobile.
-page-status-flag: never-activated
-uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 29%
@@ -74,7 +71,7 @@ Per implementare il tracciamento delle notifiche locali, fai riferimento a quest
 
 ### Quali rapporti sono disponibili per il canale in-app? {#report-inapp}
 
-Un rapporto out-of-the-box è disponibile in  Adobe Campaign per il canale in-app. Fare riferimento a questa [documentazione](../../reporting/using/in-app-report.md).
+Un rapporto out-of-the-box è disponibile in  Adobe Campaign per il canale in-app. Refer to this [documentation](../../reporting/using/in-app-report.md).
 
 Consultate questa [pagina](../../reporting/using/indicator-calculation.md#in-app-delivery) per comprendere come vengono calcolate le metriche in-app.
 
