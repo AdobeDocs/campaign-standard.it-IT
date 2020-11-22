@@ -1,25 +1,21 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Best practice per la distribuzione delle campagne
-seo-title: Best practice di distribuzione
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 2%
+source-wordcount: '83'
+ht-degree: 10%
 
 ---
 
 
-# Best practice di distribuzione {#delivery-best-practices}
+# Best practice di consegna{#delivery-best-practices}
 
 Scopri le best practice relative alla progettazione e all&#39;invio di materiale  Adobe Campaign. Utilizzate i collegamenti di seguito per navigare tra gli argomenti e trovare istruzioni.
 
@@ -51,6 +47,6 @@ Scopri le best practice relative alla progettazione e all&#39;invio di materiale
 
 * [Guida introduttiva all&#39;recapito](../../sending/using/about-deliverability.md)
 
-* [Guida introduttiva ai messaggi](../../channels/using/get-started-communication-channels.md)
+* [Introduzione ai messaggi](../../channels/using/get-started-communication-channels.md)
 
 * [Raccomandazioni sulla privacy e sul consenso](../../start/using/privacy.md)
