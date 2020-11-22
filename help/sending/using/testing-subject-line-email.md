@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Verifica dell’oggetto di un messaggio e-mail
 description: Scoprite come definire l'oggetto di un'e-mail in Designer e-mail.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -81,14 +78,14 @@ Per impostazione predefinita, sul server Adobe Campaign  non è in esecuzione al
 >È possibile avere un solo modello addestrato sull&#39;istanza.
 
 Per formare un modello locale:
-1. Scaricate il file subjectLineTraining.xml da [qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) e utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricarlo nell’istanza di Adobe Campaign . Un flusso di lavoro tecnico eseguirà automaticamente la formazione per voi.
+1. Scaricate il file subjectLineTraining.xml da [qui](https://experience.adobe.com/it/downloads/content/software-distribution/en/campaign.html) e utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricarlo nell’istanza di Adobe Campaign . Un flusso di lavoro tecnico eseguirà automaticamente la formazione per voi.
 1. La prima volta che si desidera formare un modello, un amministratore può imporre l&#39; **[!UICONTROL SubjectLine Training workflow]** avvio dal menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 1. Una volta che un modello è stato caricato e preparato, la funzione viene attivata automaticamente e accanto al campo dell&#39;oggetto dei messaggi viene visualizzata una nuova opzione.
 1. Quindi, il flusso di lavoro tecnico continuerà automaticamente a formare il modello ogni settimana.
 
 ### Importazione di modelli preformati {#pre-trained-models}
 
-Per accedere a questi modelli, fare clic [qui](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricare un modello nell’istanza di Adobe Campaign .
+Per accedere a questi modelli, fare clic [qui](https://experience.adobe.com/it/downloads/content/software-distribution/en/campaign.html). Utilizzate la funzione di importazione [del](../../automating/using/managing-packages.md) pacchetto per caricare un modello nell’istanza di Adobe Campaign .
 
 I modelli disponibili per l&#39;uso sono:
 
