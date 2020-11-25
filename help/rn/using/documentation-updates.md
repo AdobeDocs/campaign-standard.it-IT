@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 ## Novembre 2020 {#doc-updates-november-2020}
 
 La sezione Privacy è stata spostata e arricchita con due nuove pagine: [Gestione](../../start/using/privacy-management.md) della privacy e [gestione delle richieste](../../start/using/privacy-requests.md)sulla privacy.
+
+Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull&#39;errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolvere eventuali problemi. [Leggi tutto](../../developing/using/aep-mapping-activation.md)
+
+La sezione Dati personali e Personas è stata aggiornata con uno scenario relativo al caso d’uso per illustrare l’interazione delle diverse persone in materia di privacy. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
+
+È stata aggiunta una nuova sezione in cui sono elencate le Domande frequenti sulla privacy. [Leggi tutto](../../start/using/privacy-faq.md)
 
 ## Versione 20.4 - ottobre 2020 {#release-20-4---october-2020}
 
