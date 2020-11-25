@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 100%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ Le principali caratteristiche di questa attività sono:
 
 ### Avvisi di compatibilità con versioni precedenti {#from-beta-to-ga}
 
-Con la versione Campaign Standard 20.4, il limite di dimensione dei dati di risposta HTTP e le protezioni del timeout di risposta sono stati ridotti in modo da essere in linea con le best practice (consulta la sezione &quot;Limitazioni e protezioni&quot;). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
-
-Se stai effettuando l’aggiornamento da Campaign Standard 20.2 (o versioni precedenti), tieni presente che nella versione Campaign Standard 20.3 la funzionalità External API è stata spostata da Beta a Disponibilità generale.
-
-Di conseguenza, se stavi utilizzando delle attività External API in versione beta, devi sostituirle con attività External API in versione GA in tutti i flussi di lavoro.  I flussi di lavoro che utilizzano la versione beta dell’External API non funzioneranno a partire dalla versione Campaign Standard 20.3.
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
 
 Durante la sostituzione delle attività External API, aggiungi la nuova attività External API al flusso di lavoro, copia manualmente i dettagli di configurazione, quindi elimina la vecchia attività.
 
 >[!NOTE]
 >
 >Non potrai copiare i valori di intestazione per attività specifiche poiché sono nascosti all’interno dell’attività.
-
-Successivamente, riconfigura altre attività nel flusso di lavoro che indicano e/o utilizzano i dati dell’attività External API in versione beta per indicare e/o utilizzare i dati della nuova attività External API. Esempi di attività: consegna e-mail (campi di personalizzazione), attività di arricchimento, ecc.
 
 ### Limitazioni e protezioni {#guardrails}
 
