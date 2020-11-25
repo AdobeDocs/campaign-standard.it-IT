@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,29 @@ Per monitorare tutti i processi di esportazione dei dati, scegliere **[!UICONTRO
 
 ![](assets/aep_statusmapping.png)
 
-Stati del processo di assimilazione dei dati:
+Gli stati del processo di assimilazione dei dati sono:
 
 * **[!UICONTROL Created]**: Viene creato un processo di assimilazione dei dati e l’assimilazione dei dati è in corso.
 * **[!UICONTROL Failed]**: Un processo di inserimento dei dati non è riuscito. Il campo reason descrive il motivo dell&#39;errore. Il fallimento può essere transitorio o permanente. In caso di errori temporanei, viene creato un nuovo processo di assimilazione dopo un intervallo configurato. Come primo passo per la risoluzione dei problemi, l&#39;utente può controllare il campo del motivo dell&#39;errore. Se il motivo del reindirizzamento di un utente all&#39;interfaccia utente di Adobe Experience Platform, l&#39;utente può accedere ad Adobe Experience Platform e controllare lo stato del batch nel dataset per determinare il motivo esatto dell&#39;errore.
 * **[!UICONTROL Uploaded]**: Un batch viene creato in Adobe Experience Platform e i dati vengono quindi trasferiti al batch. Il campo ID batch mostra l’ID batch per il batch in Adobe Experience Platform. Adobe Experience Platform esegue anche una convalida post sul batch. Il batch viene inizialmente contrassegnato come caricato fino al completamento del passaggio di convalida post. Dopo il caricamento, un processo continua il polling di Adobe Experience Platform per lo stato del batch. Un batch può essere archiviato in Convalida del post con esito negativo o in stato di esito positivo in Adobe Experience Platform.
 * **[!UICONTROL Success]**: Dopo il caricamento di un batch in Adobe Experience Platform, lo stato del processo (dopo la convalida nella piattaforma) viene controllato dopo un intervallo configurato. Uno stato &quot;Success&quot; ha identificato un&#39;acquisizione di dati riuscita in Adobe Experience Platform.
+
+In alcuni casi, durante la pubblicazione della mappatura potrebbe verificarsi l&#39;errore di convalida riportato di seguito.
+
+![](assets/aep_datamapping_ccpa.png)
+
+Ciò si verifica quando lo schema XDM utilizzato non è stato aggiornato con il campo XDM più recente relativo alla gestione della privacy e contiene ancora il campo XDM &quot;ccpa&quot; obsoleto.
+
+Per aggiornare lo schema XDM, procedere come segue:
+
+1. Andate al set di dati su Adobe Experience Platform utilizzando il collegamento presente nella pagina di mappatura XDM.
+
+1. Passa allo schema XDM.
+
+1. Aggiungete il mixin &quot;Provile Privacy&quot; allo schema.
+
+   ![](assets/aep_datamapping_privacyfield.png)
+
+1. Salvare lo schema, quindi riprovare a pubblicare la mappatura. La pubblicazione dovrebbe ora passare.
+
+   ![](assets/aep_save_mapping.png)
