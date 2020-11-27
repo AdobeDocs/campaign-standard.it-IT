@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 17%
@@ -49,7 +49,7 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
    <td> <p> A partire dalla versione 20.1, SDK v4 è obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Ulteriori informazioni</a>.</p><br/>
    <p>L’SDK <a href="https://aep-sdks.gitbook.io/docs/"></a> Adobe Experience Platform Mobile (in precedenza denominato v5) supporterà esclusivamente le funzionalità e le funzionalità imminenti di Adobe Experience Cloud.</p></br>
      <p>
-     <em>Data di rimozione destinazione: 30 settembre 2020</em></p>
+     <em>Data di rimozione destinazione: 31 agosto 2021</em></p>
      </td> 
   </tr> 
  </tbody> 
