@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guida a Campaign Standard
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [Funzioni obsolete](rn/using/deprecated-features.md)
 + Guida introduttiva {#getting-started}
    + [Informazioni su Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Privacy {#privacy}
-      + [Privacy e consenso](start/using/privacy.md)
-      + [Gestione della privacy](start/using/privacy-management.md)
-      + [Richieste sulla privacy](start/using/privacy-requests.md)
-      + [Domande frequenti sulla privacy](start/using/privacy-faq.md)
    + Esplorazione dell’interfaccia {#discovering-the-interface}
       + [Informazioni sull’interfaccia](start/using/about-the-interface.md)
       + [Descrizione interfaccia](start/using/interface-description.md)
       + [Personalizzazione degli elenchi](start/using/customizing-lists.md)
+      + [Accessibilità](start/using/accessibility.md)
    + Utilizzo delle attività di marketing {#marketing-plans}
       + [Programmi e campagne](start/using/programs-and-campaigns.md)
       + [Attività di marketing](start/using/marketing-activities.md)
       + [Modelli di attività di marketing](start/using/marketing-activity-templates.md)
       + [Timeline](start/using/timeline.md)
+   + Privacy {#privacy}
+      + [Privacy e consenso](start/using/privacy.md)
+      + [Gestione della privacy](start/using/privacy-management.md)
+      + [Richieste di accesso ai dati personali](start/using/privacy-requests.md)
+      + [Domande frequenti sulla privacy](start/using/privacy-faq.md)
 + Profili e tipi di pubblico {#profiles-and-audiences}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/using/get-started-profiles-and-audiences.md)
    + Gestione dei profili {#managing-profiles}
@@ -78,7 +79,7 @@ ht-degree: 99%
       + [Accesso ai messaggi](channels/using/accessing-messages.md)
       + [Dashboard messaggi](channels/using/message-dashboard.md)
       + [Modelli per messaggi multilingue](channels/using/multilingual-messages-template.md)
-   + Best practice di consegna{#delivery-bestpractices}
+   + Best practice di consegna {#delivery-bestpractices}
       + [Scopri le buone pratiche](sending/using/delivery-best-practices.md)
       + [Ottimizzare la consegna](sending/using/optimize-delivery.md)
       + [Utilizzare i modelli](sending/using/use-templates.md)
