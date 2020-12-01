@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '658'
 ht-degree: 17%
 
 ---
@@ -27,7 +27,7 @@ Per comunicare l&#39;imminente rimozione/sostituzione delle funzionalità Campai
 Questo processo offre ai clienti almeno un ciclo di pubblicazione per adattare la loro implementazione a una nuova versione o alla funzionalità che sostituirà quella obsoleta, prima della rimozione effettiva.
 
 >[!NOTE]
->Adobe Campaign Standard releases and new capabilities are listed in the [Release Notes](../../rn/using/release-notes.md).
+> versioni Adobe Campaign Standard e nuove funzionalità sono elencate nelle [Note sulla versione](../../rn/using/release-notes.md).
 
 
 ## Funzioni obsolete {#deprecated-features}
@@ -47,7 +47,7 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
  <tbody> 
   <tr> 
    <td> <p> A partire dalla versione 20.1, SDK v4 è obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Ulteriori informazioni</a>.</p><br/>
-   <p>L’SDK <a href="https://aep-sdks.gitbook.io/docs/"></a> Adobe Experience Platform Mobile (in precedenza denominato v5) supporterà esclusivamente le funzionalità e le funzionalità imminenti di Adobe Experience Cloud.</p></br>
+   <p>L' <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (precedentemente denominato v5) supporterà esclusivamente le funzionalità e le funzionalità imminenti di Adobe Experience Cloud.</p></br>
      <p>
      <em>Data di rimozione destinazione: 31 agosto 2021</em></p>
      </td> 
@@ -62,8 +62,8 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione Campaign 19.4, l'utilizzo dell'API Campaign e dell'interfaccia per l'accesso e l'eliminazione delle richieste è obsoleto. L'eliminazione del profilo in due fasi non sarà disponibile. Utilizzate <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Consultate anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gestione delle richieste</a>di privacy.</p>
+   <td> <p>A partire dalla versione Campaign 19.4, l'utilizzo dell'API Campaign e dell'interfaccia per l'accesso e l'eliminazione delle richieste è obsoleto. L'eliminazione del profilo in due fasi non sarà disponibile. Utilizzare <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html"> Adobe Privacy Core Service</a>.</p></br>
+   <p>Vedere anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gestione delle richieste di privacy</a>.</p>
   <p> 
   <em>Data effettiva di rimozione: 2021</em></p>
    </td> 
@@ -79,10 +79,10 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione di Campaign 19.0, l'editor e-mail legacy è diventato obsoleto. Utilizzate <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">il nuovo e-mail Designer</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
-   <p>Leggete <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">questa sezione</a> per apprendere come adattare i modelli delle e-mail per il nuovo editor.</p></br>
+   <td> <p>A partire dalla versione di Campaign 19.0, l'editor e-mail legacy è diventato obsoleto. Utilizzate <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
+   <p>Leggete <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">questa sezione</a> per apprendere come adattare i modelli delle e-mail per il nuovo editor.</p></br>
   <p> 
-  <em>Data effettiva di rimozione: 2021</em></p>
+  <em>Data di rimozione destinazione: fine 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Si consiglia ai clienti di verificare se utilizzano la funzionalità o la funzio
  </tbody> 
 </table>
 
-## Removed Features {#removed-features}
+## Funzioni rimosse {#removed-features}
 
 In questa sezione sono elencate le funzionalità rimosse dai Campaign Standard.
 
@@ -114,7 +114,7 @@ In questa sezione sono elencate le funzionalità rimosse dai Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Il punteggio <b>tendenza</b> è stato disattivato da Adobe Experience Cloud Triggers. Di conseguenza, questa opzione è stata rimossa da  Adobe Campaign Standard. Per evitare eventuali valori obsoleti di Propensity score (Punteggio tendenza) negli schemi di arricchimento, si consiglia di aggiornare gli schemi per recuperare le modifiche più recenti e ripubblicare gli Attivatori esistenti. Per ulteriori informazioni, consulta <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Pubblicazione di un trigger in Campaign </a>.
+   <td> <p>Il <b>Propensity Score</b> è stato disattivato da Adobe Experience Cloud Triggers. Di conseguenza, questa opzione è stata rimossa da  Adobe Campaign Standard. Per evitare eventuali valori obsoleti di Propensity score (Punteggio tendenza) negli schemi di arricchimento, si consiglia di aggiornare gli schemi per recuperare le modifiche più recenti e ripubblicare gli Attivatori esistenti. Per ulteriori informazioni, consultare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Pubblicazione di un trigger in Campaign </a>.
 </p></br>
    </td> 
   </tr> 
@@ -145,7 +145,7 @@ In questa sezione sono elencate le funzionalità rimosse dai Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Adobe Campaign e Adobe Experience Cloud non supportano più Microsoft Internet Explorer 11 a partire dalla release Primavera 2019 e Campaign 19.2. Passate a Microsoft Edge o a un altro browser supportato. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Ulteriori informazioni</a>.</p>
+   <td> <p> Adobe Campaign e Adobe Experience Cloud non supportano più Microsoft Internet Explorer 11 a partire dalla release Primavera 2019 e Campaign 19.2. Passate a Microsoft Edge o a un altro browser supportato. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Ulteriori informazioni</a>.</p>
    </td> 
   </tr> 
  </tbody> 
