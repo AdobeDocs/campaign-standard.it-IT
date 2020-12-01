@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 96%
+source-wordcount: '1216'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe Campaign ti consente di assegnare un set di ruoli agli utenti per definire
 I ruoli specifici e le autorizzazioni corrispondenti sono descritti nelle sezioni seguenti: [Elenco di ruoli](../../administration/using/list-of-roles.md) e di [autorizzazioni](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Da Admin Console, gli amministratori possono gestire gli utenti. Gli utenti vengono quindi sincronizzati automaticamente con Adobe Campaign. Per ulteriori informazioni, consulta la documentazione di [Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html).
+
+![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
 Per visualizzare gli utenti in Adobe Campaign, fai clic sul logo di **[!UICONTROL Adobe Campaign]**, nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Users & Security > Users]**.
 
@@ -59,7 +61,7 @@ Gli amministratori funzionali sono utenti che possono accedere alle parti più t
 
 >[!CAUTION]
 >
->Solo gli amministratori funzionali, con **[!UICONTROL Administration]** ruolo e accesso a **Tutte** le unità, possono accedere ai registri di invio, ai log dei messaggi, ai registri di tracciamento, ai registri di esclusione, ai registri delle proposte e ai registri di iscrizione. Un utente non amministratore può eseguire il targeting di questi registri ma iniziare da una tabella collegata (profili, consegna).
+>Solo gli amministratori funzionali, con il ruolo **[!UICONTROL Administration]** e l&#39;accesso alle unità **All**, possono accedere ai registri di invio, ai registri di registrazione dei messaggi, ai registri di monitoraggio, ai registri di esclusione, ai registri delle proposte e ai registri di iscrizione. Un utente non amministratore può eseguire il targeting di questi registri ma iniziare da una tabella collegata (profili, consegna).
 
 Gli amministratori funzionali sono gli unici utenti che possono accedere al menu **[!UICONTROL Administration]**, nell’interfaccia di Adobe Campaign. Poiché questi utenti devono accedere alle risorse tecniche, devi assegnare loro ruoli più avanzati, come i predefiniti **[!UICONTROL Administration]** e **[!UICONTROL Datamodel]**. Questi ruoli vengono combinati nel gruppo di sicurezza predefinito **[!UICONTROL Administrators]**. Per ulteriori informazioni, consulta questa [sezione](../../administration/using/list-of-roles.md).
 
@@ -151,3 +153,11 @@ Puoi quindi verificare che l’utente sia stato sincronizzato correttamente in A
 1. Fai clic su **[!UICONTROL Save]**.
 
 L’utente è ora pronto per utilizzare Adobe Campaign Standard.
+
+## Video di esercitazione (#video)
+
+Questo video mostra come gestire i diritti di accesso degli utenti.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
