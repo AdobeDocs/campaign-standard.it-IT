@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # Creazione di un servizio{#creating-a-service}
 
 Per poter gestire gli abbonamenti, devi innanzitutto creare un servizio e configurarlo. La configurazione di un nuovo servizio ti permette di specificare le conferme e-mail che i profili ricevono al momento dell’abbonamento al servizio o del suo annullamento. Puoi inoltre definire le pagine di destinazione per l’abbonamento e il suo annullamento collegate al servizio. Ad esempio, un collegamento di abbonamento a un servizio inserito in un messaggio e-mail indirizza automaticamente il profilo alla pagina di destinazione di abbonamento specificata nel servizio.
+
+![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
 Per configurare un servizio:
 
@@ -55,7 +57,14 @@ Dopo aver creato il servizio, puoi iniziare a promuoverlo.
 
 **Argomenti correlati:**
 
-* Video sulla [Gestione di un servizio e degli abbonamenti](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.html)
 * [Promozione di un servizio](../../audiences/using/promoting-a-service.md)
 * [Creazione di un pubblico composta da iscritti](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Collegamento di una pagina di destinazione a un servizio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Video di esercitazione {#video}
+
+In questo video viene illustrato come creare un servizio e gestire le relative iscrizioni.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
