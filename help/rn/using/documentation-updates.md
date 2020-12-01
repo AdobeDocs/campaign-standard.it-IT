@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
 source-wordcount: '6305'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ La sezione Dati personali e Personas è stata aggiornata con uno scenario relati
 
 È stata aggiunta una nuova sezione in cui sono elencate le Domande frequenti sulla privacy. [Leggi tutto](../../start/using/privacy-faq.md)
 
-La sezione Privacy è stata spostata e arricchita con due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di privacy](../../start/using/privacy-requests.md).
+La sezione Privacy è stata spostata e arricchita con due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di accesso a dati personali](../../start/using/privacy-requests.md).
 
 Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull&#39;errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolvere eventuali problemi. [Leggi tutto](../../developing/using/aep-mapping-activation.md)
 
@@ -49,9 +49,9 @@ La sezione sulla chiamata di un flusso di lavoro con parametri esterni è stata 
 
 Alle procedure consigliate per i flussi di lavoro è stato aggiunto un consiglio relativo al numero di attività da utilizzare per ogni flusso di lavoro. [Leggi tutto](../../automating/using/best-practices-workflows.md#number-activities)
 
-È stata aggiunta una nuova sezione sulle procedure ottimali di consegna. [Leggi tutto](../../sending/using/delivery-best-practices.md)
+È stata aggiunta una nuova sezione sulle best practice per le consegne. [Leggi tutto](../../sending/using/delivery-best-practices.md)
 
-È stata aggiunta una sezione per descrivere i nuovi filtri che consentono di eseguire ricerche nelle configurazioni dell&#39;evento in base al loro stato e all&#39;ultima volta che è stato ricevuto un evento. [Leggi tutto](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+È stata aggiunta una sezione per descrivere i nuovi filtri che consentono di eseguire ricerche nelle configurazioni dell’evento in base al loro stato e alla data di ricezione dell’ultimo evento. [Leggi tutto](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## Settembre 2020 {#doc-updates-september-2020}
 
@@ -189,7 +189,7 @@ La sezione dedicata all’archiviazione di e-mail con indirizzi Ccn è stata spo
 
 È stata aggiornata e migliorata la documentazione relativa all’integrazione di Adobe Campaign Standard/Adobe Experience Manager. [Ulteriori informazioni](../../integrating/using/configure-experience-manager.md)
 
-La documentazione di Campaign Email Designer e le relative pagine sono state aggiornate per riflettere l&#39;ammortamento di [!DNL Adobe Creative SDK]. [Ulteriori informazioni](../../rn/using/deprecated-features.md)
+La documentazione di Email Designer di Campaign e le pagine relative sono state aggiornate e ora riportano l’obsolescenza di [!DNL Adobe Creative SDK]. [Ulteriori informazioni](../../rn/using/deprecated-features.md)
 
 È ora disponibile una nuova sezione dedicata alle best practice per il modello di dati Campaign Standard. [Ulteriori informazioni](../../developing/using/data-model-best-practices.md)
 
@@ -239,7 +239,7 @@ La documentazione di Utilizzo di Campaign ed Experience Manager è stata aggiorn
 
 La home page della documentazione API è stata migliorata con i reindirizzamenti ai vari argomenti. [Ulteriori informazioni](../../api/using/get-started-apis.md)
 
-## Nov. - dic. 2019 {#doc-updates-december-2019}
+## Novembre - dicembre 2019 {#doc-updates-december-2019}
 
 È stata aggiornata la documentazione relativa alla configurazione dell’account esterno S3. [Ulteriori informazioni](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -259,7 +259,7 @@ La documentazione del Pannello di controllo Campaign è stata integrata nel nuov
 
 Il set di documenti API è stato integrato nella documentazione di Campaign Standard.[Ulteriori informazioni](../../api/using/get-started-apis.md)
 
-La sezione Creazione di un messaggio e-mail personalizzato introduttiva è stata spostata e aggiornata. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
+È stata spostata e aggiornata la sezione di introduzione alla creazione di un messaggio e-mail personalizzato. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
 
 La guida introduttiva sulle best practice per le consegne è stata aggiornata. [Ulteriori informazioni](../../sending/using/delivery-best-practices.md)
 
@@ -277,7 +277,7 @@ Integrazione con Microsoft Dynamics 365 (GA) - [Ulteriori informazioni](../../in
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-L&#39;elenco dei messaggi di errore per  Adobe Campaign è stato aggiornato. [Leggi tutto](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+L’elenco dei messaggi di errore per Adobe Campaign è stato aggiornato. [Leggi tutto](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 La guida introduttiva al GDPR è stata migliorata e arricchita. È ora diventata una documentazione sulla gestione della privacy che include GDPR e CCPA. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)
 
@@ -291,7 +291,7 @@ La guida introduttiva alle best practice di consegna è stata spostata e aggiorn
 
 Le informazioni relative alla privacy sono state aggiunte alla documentazione API [Fai clic qui](../../api/using/creating-a-privacy-request.md)
 
-## Settembre. - ott. 2019 {#doc-updates-october-2019}
+## Settembre - ottobre 2019 {#doc-updates-october-2019}
 
 È stata aggiunta una nuova sezione relativa alle impostazioni di Campaign Standard. [Ulteriori informazioni](../../administration/using/about-campaign-standard-settings.md)
 
@@ -363,7 +363,7 @@ Sono state aggiunte informazioni sulle modalità di personalizzazione dell’eti
 
 È stato aggiunto un avviso nella documentazione delle risorse personalizzate. È consigliabile utilizzare un massimo di 30 caratteri per gli ID di risorse personalizzati. Questo vale anche per campi di risorse personalizzati, chiavi, indici e collegamenti. [Ulteriori informazioni](../../developing/using/creating-or-extending-the-resource.md)
 
-## Giugno - luglio 2019 {#doc-updates-2019}
+## Giugno - Luglio 2019 {#doc-updates-2019}
 
 È stata aggiunta una nuova pagina a Limitazioni della pagina di destinazione. [Ulteriori informazioni](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
