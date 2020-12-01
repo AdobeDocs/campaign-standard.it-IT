@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
-source-wordcount: '6311'
+source-wordcount: '6305'
 ht-degree: 97%
 
 ---
@@ -19,15 +19,19 @@ ht-degree: 97%
 
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti all’interno della documentazione di Adobe Campaign Standard.
 
+## Dicembre 2020 {#doc-updates-december-2020}
+
+La sezione Privacy è stata spostata. [Leggi tutto](../../start/using/privacy.md)
+
 ## Novembre 2020 {#doc-updates-november-2020}
-
-La sezione Privacy è stata spostata e arricchita con due nuove pagine: [Gestione](../../start/using/privacy-management.md) della privacy e [gestione delle richieste](../../start/using/privacy-requests.md)sulla privacy.
-
-Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull&#39;errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolvere eventuali problemi. [Leggi tutto](../../developing/using/aep-mapping-activation.md)
 
 La sezione Dati personali e Personas è stata aggiornata con uno scenario relativo al caso d’uso per illustrare l’interazione delle diverse persone in materia di privacy. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
 
 È stata aggiunta una nuova sezione in cui sono elencate le Domande frequenti sulla privacy. [Leggi tutto](../../start/using/privacy-faq.md)
+
+La sezione Privacy è stata spostata e arricchita con due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di privacy](../../start/using/privacy-requests.md).
+
+Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull&#39;errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolvere eventuali problemi. [Leggi tutto](../../developing/using/aep-mapping-activation.md)
 
 ## Versione 20.4 - ottobre 2020 {#release-20-4---october-2020}
 
@@ -185,7 +189,7 @@ La sezione dedicata all’archiviazione di e-mail con indirizzi Ccn è stata spo
 
 È stata aggiornata e migliorata la documentazione relativa all’integrazione di Adobe Campaign Standard/Adobe Experience Manager. [Ulteriori informazioni](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
+La documentazione di Campaign Email Designer e le relative pagine sono state aggiornate per riflettere l&#39;ammortamento di [!DNL Adobe Creative SDK]. [Ulteriori informazioni](../../rn/using/deprecated-features.md)
 
 È ora disponibile una nuova sezione dedicata alle best practice per il modello di dati Campaign Standard. [Ulteriori informazioni](../../developing/using/data-model-best-practices.md)
 
@@ -287,7 +291,7 @@ La guida introduttiva alle best practice di consegna è stata spostata e aggiorn
 
 Le informazioni relative alla privacy sono state aggiunte alla documentazione API [Fai clic qui](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## Settembre. - ott. 2019 {#doc-updates-october-2019}
 
 È stata aggiunta una nuova sezione relativa alle impostazioni di Campaign Standard. [Ulteriori informazioni](../../administration/using/about-campaign-standard-settings.md)
 
@@ -359,7 +363,7 @@ Sono state aggiunte informazioni sulle modalità di personalizzazione dell’eti
 
 È stato aggiunto un avviso nella documentazione delle risorse personalizzate. È consigliabile utilizzare un massimo di 30 caratteri per gli ID di risorse personalizzati. Questo vale anche per campi di risorse personalizzati, chiavi, indici e collegamenti. [Ulteriori informazioni](../../developing/using/creating-or-extending-the-resource.md)
 
-## Giugno - Luglio 2019 {#doc-updates-2019}
+## Giugno - luglio 2019 {#doc-updates-2019}
 
 È stata aggiunta una nuova pagina a Limitazioni della pagina di destinazione. [Ulteriori informazioni](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -435,7 +439,7 @@ L’articolo del Knowledge Base relativo al [protocollo e alle impostazioni del 
 
 La guida Introduzione è stata arricchita e riorganizzata. [Ulteriori informazioni](../../start/using/about-campaign-standard.md)
 
-È stata aggiornata la pagina Funzioni obsolete e rimosse. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
+È stata aggiornata la pagina Funzioni obsolete e rimosse. [Ulteriori informazioni](../../rn/using/deprecated-features.md)
 
 La sezione relativa all’integrazione di Dreamweaver è stata aggiornata e migliorata. [Ulteriori informazioni](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -573,7 +577,7 @@ L’elenco degli attributi HTML per la piena conformità con Creative Designer �
 
 Sono state aggiunte informazioni sulla lingua predefinita per i modelli multilingue. [Ulteriori informazioni](../../channels/using/multilingual-messages-template.md)
 
-A partire dalla versione 18.7, la guida Utenti e sicurezza è stata aggiornata per riflettere la rimozione della funzionalità dell’unità geografica per le nuove istanze Campaign Standard, oltre che delle istanze esistenti prive di unità geografiche. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
+A partire dalla versione 18.7, la guida Utenti e sicurezza è stata aggiornata per riflettere la rimozione della funzionalità dell’unità geografica per le nuove istanze Campaign Standard, oltre che delle istanze esistenti prive di unità geografiche. [Ulteriori informazioni](../../rn/using/deprecated-features.md)
 
 ## Versione 18.6 - giugno 2018 {#release-18-6---june-2018}
 
