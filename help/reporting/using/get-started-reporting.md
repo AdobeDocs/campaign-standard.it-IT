@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 18%
+source-wordcount: '372'
+ht-degree: 19%
 
 ---
 
@@ -26,26 +26,28 @@ ht-degree: 18%
 
 Dynamic Reporting (Generazione di rapporti dinamica) fornisce report completamente personalizzabili e in tempo reale per misurare l&#39;impatto delle attività di marketing. Consente l&#39;accesso ai dati del profilo, consentendo l&#39;analisi demografica per dimensioni del profilo quali genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic.
 
-## Gestione e condivisione di rapporti {#manage-share-reports}
+![](assets/do-not-localize/how-to-video.png) [Visualizzare il reporting dinamico nel video](#video)
+
+## Gestione e condivisione di report {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
+Grazie all&#39;interfaccia **drag-and-drop** per la generazione di rapporti dinamici, puoi esplorare i dati, determinare in che modo le campagne e-mail vengono eseguite rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari da un&#39;unica posizione.
 
-**Gestisci i tuoi rapporti** dinamici grazie a varie funzionalità: aggiornate i dati in tempo reale, stampate i rapporti o esportateli come file CSV. Potete anche condividere i rapporti con gli utenti Campaign Standard tramite e-mail una tantum o ricorrenti.
+**Gestisci i** rapporti dinamici grazie a varie funzionalità: aggiornate i dati in tempo reale, stampate i rapporti o esportateli come file CSV. Potete anche condividere i rapporti con gli utenti Campaign Standard tramite e-mail una tantum o ricorrenti.
 
 Leggi tutto:
 
 * [Informazioni sui report dinamici](../../reporting/using/about-dynamic-reports.md)
 * [Interfaccia di reporting](../../reporting/using/reporting-interface.md)
 
-## Creare rapporti {#build-reports}
+## Creare i rapporti {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard viene fornito con una serie di report **dinamici** pronti all&#39;uso che consentono di misurare più aspetti delle campagne di marketing: rimbalzi, consegne dichiarate più importanti come spam o posta indesiderata, invii più visualizzati dai destinatari, rapporti relativi ai canali, throughput di consegna e rapporti di tracciamento...
+Il Campaign Standard viene fornito con una serie di **report dinamici pronti all&#39;uso** che consentono di misurare più aspetti delle campagne di marketing: rimbalzi, consegne dichiarate più importanti come spam o posta indesiderata, invii più visualizzati dai destinatari, rapporti relativi ai canali, throughput di consegna e rapporti di tracciamento...
 
-**Combinate diversi componenti** (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o per personalizzare i rapporti forniti.
+**Combinate diversi componenti**  (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o per personalizzare i rapporti forniti.
 
 Leggi tutto:
 
@@ -57,11 +59,11 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personalizza i tuoi rapporti** sfruttando le funzionalità di progettazione di rapporti dinamici: aggiungi tutti i componenti necessari (pannelli e tabelle a forma libera) per analizzare i dati utilizzando la metrica e le dimensioni disponibili.
+**Personalizza i tuoi** rapporti sfruttando le funzionalità di progettazione di rapporti dinamici: aggiungi tutti i componenti necessari (pannelli e tabelle a forma libera) per analizzare i dati utilizzando la metrica e le dimensioni disponibili.
 
-Trascina e rilascia gli elementi **di** visualizzazione per aggiungere rappresentazioni grafiche dei tuoi dati ai rapporti e configurarli in base alle tue esigenze.
+Trascina **elementi di visualizzazione** per aggiungere rappresentazioni grafiche dei tuoi dati nei report e configurarli in base alle tue esigenze.
 
-Crea rapporti basati su dati **di profilo** personalizzati creati durante l&#39;estensione della risorsa Profilo e **rapporti basati sui segmenti** definiti nei flussi di lavoro di targeting.
+Crea report basati su **dati di profilo personalizzati** creati durante l&#39;estensione della risorsa Profilo e su **report basati su segmenti** definiti nei flussi di lavoro di targeting.
 
 Leggi tutto:
 
@@ -73,6 +75,13 @@ Leggi tutto:
 
 ## Risorse aggiuntive
 
-* [Video di esercitazione per rapporti dinamici](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/reporting/exploring-reports.html)
 * [Esportazione dei registri](../../automating/using/exporting-logs.md)
 * [Informazioni sull’integrazione di Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
+
+## Video di esercitazione {#video}
+
+Questo video offre una panoramica delle funzionalità di reporting di  Adobe Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+
+Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
