@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 [Pianificazione del rilascio](../../rn/using/release-planning.md) | [Versioni del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2020.md) | [Funzioni obsolete](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nuovo rilascio** di ottobre Pannello di controllo Campaign con configurazione di dominio tramite CNAME e nuove funzionalità di monitoraggio del database. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Rilascio di ottobre del nuovo Pannello di controllo Campaign** con configurazione dei domini tramite CNAME e nuove funzionalità di monitoraggio del database. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
 
 ## Versione 20.4 - ottobre 2020 {#release-20-4---october-2020}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 <tr> 
   <td> <p>Ora è possibile utilizzare i <strong>Gruppi di controllo</strong> per misurare l’impatto delle campagne escludendo parte delle relative audience. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
 </p>
-<p>Per ulteriori informazioni consulta la <a href="../../sending/using/control-group.md">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">video tutorial</a>.
+<p>Per ulteriori informazioni consulta la <a href="../../sending/using/control-group.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=it#communication-channels">video tutorial</a>.
 </p>
 </td> 
 </tr> 
@@ -112,7 +112,7 @@ ht-degree: 98%
 * Quando si pubblica una risorsa personalizzata, dopo la preparazione viene ora visualizzata una finestra di conferma a comparsa.
 * Per una maggiore chiarezza, è stato migliorato il messaggio a comparsa visualizzato in caso di errore di una risorsa personalizzata.
 * L’editor espressioni nei flussi di lavoro è stato migliorato per evitare errori di esecuzione. Sono disponibili [nuove funzioni](../../automating/using/customizing-workflow-external-parameters.md): queste possono essere utilizzate in tutte le attività che consentono di applicare variabili evento dopo la chiamata di un flusso di lavoro con parametri esterni. Inoltre, ora viene visualizzata una descrizione comandi nell’editor espressioni con la descrizione della relativa funzione.
-* [Sono stati aggiunti nuovi filtri all’elenco degli eventi transazionali. ](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) Questi consentono di filtrare le configurazioni dell’evento in base al loro stato, come pure in base all’ultima volta che è stato ricevuto un evento.
+* Sono stati aggiunti [nuovi filtri](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) all’elenco degli eventi transazionali. Questi consentono di filtrare le configurazioni dell’evento in base al loro stato, come pure in base all’ultima volta che è stato ricevuto un evento.
 * I file di registro visualizzati durante l’esportazione dei pacchetti sono stati resi più specifici e dettagliati per quanto riguarda gli eventuali errori riscontrati.
 * Dopo aver inviato un messaggio, ora puoi cercare, filtrare ed esportare l’elenco degli [URL tracciati](../../sending/using/tracking-messages.md).
 * La [sincronizzazione automatica tra Launch e Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ora è in versione GA ed è attivata per impostazione predefinita.
@@ -129,7 +129,7 @@ ht-degree: 98%
 **Patch**
 
 * È stato risolto un problema che impediva l’utilizzo di un collegamento di destinazione per le notifiche push o per i messaggi in-app quando il tracciamento era abilitato.
-* È stato risolto un problema che impediva il rispetto della priorità elevata nei messaggi transazionali in caso di consegna in massa significativa.
+* È stato risolto un problema che impediva il rispetto della priorità elevata nei messaggi transazionali in presenza di una grande quantità di consegne in massa.
 * È stato risolto un problema che poteva impedire l’assegnazione di marchi a un’e-mail transazionale. Durante il passaggio della pubblicazione potrebbero essere visualizzati diversi messaggi di errore. (CAMP-44988)
 * È stato risolto un problema nell’interfaccia utente del flusso di lavoro che poteva impedire il salvataggio delle informazioni nei campi che richiedevano valori numerici. (CAMP-44025)
 * È stato risolto un problema per cui poteva essere visualizzato un messaggio di errore in caso di utilizzo di un’attività di **test** in un flusso di lavoro dei modelli di importazione. (CAMP-42910)
