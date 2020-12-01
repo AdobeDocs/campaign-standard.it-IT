@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 100%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ I passaggi principali per impostare pagine di destinazione sono i seguenti:
 
 In questa pagina trovi informazioni su ciascuno di questi passaggi, oltre a riferimenti ai documenti dedicati per ulteriori dettagli.
 
+![](assets/do-not-localize/how-to-video.png) [Come creare pagine di destinazione in un video](#video)
+
 **Argomenti correlati:**
 
-* [ tutorial sulla creazione di una pagina di destinazione](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html)
 * [Creazione di un servizio](../../audiences/using/creating-a-service.md)
 * [Impostazione di un doppio processo di consenso](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ La pubblicazione della pagina di destinazione la rende accessibile online. Dopo 
 Dopo la pubblicazione, la pagina di destinazione è pronta per essere utilizzata. Puoi quindi implementare diversi meccanismi che ti consentano di accedervi per acquisire nuovi profili nel database o ottenere ulteriori informazioni sui profili esistenti.
 
 Per ulteriori informazioni sulla pubblicazione di una pagina di destinazione, consulta [questa sezione](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
+
+## Video di esercitazione {#video}
+
+In questo video viene illustrato come creare e modificare una pagina di destinazione.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
