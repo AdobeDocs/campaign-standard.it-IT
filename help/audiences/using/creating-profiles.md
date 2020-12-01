@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 97%
+source-wordcount: '380'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,8 @@ In Adobe Campaign, utilizzi profili per impostazione predefinita per definire la
 >[!NOTE]
 >
 >Puoi creare profili anche tramite l’API di Adobe Campaign Standard. Per ulteriori informazioni, consulta la [documentazione dedicata](../../api/using/creating-profiles.md).
+
+![](assets/do-not-localize/how-to-video.png) [Come importare i profili tramite un flusso di lavoro in un video](#video)
 
 Per creare o aggiornare un profilo in Campaign, puoi:
 
@@ -50,7 +52,7 @@ Ad esempio, per creare un nuovo profilo direttamente dall’interfaccia utente, 
    * La categoria **[!UICONTROL Channels]**, che contiene l’indirizzo e-mail, il numero di telefono cellulare, le informazioni di rinuncia (opt-out), ti informa su quale canale puoi raggiungere il profilo.
    * La categoria **[!UICONTROL No longer contact]** viene aggiornata dopo che il profilo ha annullato l’abbonamento a un canale.
    * La categoria **[!UICONTROL Address]** contiene l’indirizzo postale che deve essere compilato insieme all’opzione **[!UICONTROL Address specified]** per inviare [direct mailing](../../channels/using/about-direct-mail.md) a questo profilo. Se l’opzione **[!UICONTROL Address specified]** non è selezionata, questo profilo viene escluso da tutte le consegne di direct mailing.
-   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). Per aggiungere i campi organizzativi ai profili, consulta la sezione [Profili di partizione](../../administration/using/organizational-units.md#partitioning-profiles).
+   * La categoria **[!UICONTROL Access authorization]** indica le unità organizzative del profilo per [gestire le autorizzazioni](../../administration/using/about-access-management.md). Per aggiungere i campi organizzativi ai profili, consulta la sezione [Profili di partizione](../../administration/using/organizational-units.md#partitioning-profiles).
    * La categoria **[!UICONTROL Traceability]** viene aggiornata automaticamente con le informazioni relative all’utente che ha creato o modificato il profilo.
 
 1. Fai clic su **[!UICONTROL Create]** per salvare il profilo.
@@ -60,7 +62,10 @@ Il profilo viene ora visualizzato nell’elenco.
 >[!NOTE]
 >Utilizza il campo della lingua preferita per selezionare la lingua durante l’invio di messaggi multilingue. Per ulteriori informazioni sui messaggi multilingue, [consulta questa pagina](../../channels/using/creating-a-multilingual-email.md).
 
-**Argomenti correlati:**
+## Video di esercitazione {#video}
 
-* Guida dettagliata [Informazioni sulle pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md)
-* Video sull’[importazione di profili](https://video.tv.adobe.com/v/24993?captions=ita)
+Questo video mostra come importare i profili con un flusso di lavoro.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+
+Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
