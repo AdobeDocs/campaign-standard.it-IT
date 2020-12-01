@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 29%
+source-wordcount: '336'
+ht-degree: 30%
 
 ---
 
@@ -29,9 +29,9 @@ Amplia il modello dati Campaign Standard con campi e risorse personalizzate e mo
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in un modello **dati** predefinito. Il modello dati visualizza una struttura SQL out-of-the-box per un insieme di risorse correlate al marketing: distribuzione, pubblico, pagine di destinazione, profilo, ecc. A ogni risorsa sono associati dei filtri, che consentono di navigare tra le risorse.
+I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in un **modello dati predefinito**. Il modello dati visualizza una struttura SQL out-of-the-box per un insieme di risorse correlate al marketing: distribuzione, pubblico, pagine di destinazione, profilo, ecc. A ogni risorsa sono associati dei filtri, che consentono di navigare tra le risorse.
 
-Il menu **Diagnosi** consente di elencare gli oggetti tecnici generati dai Campaign Standard: schemi di dati, pagine Web, filtri, ecc., che consentono di monitorare il modello dati e qualsiasi modifica apportata.
+Il menu **Diagnosi** consente di elencare gli oggetti tecnici generati dal Campaign Standard: schemi di dati, pagine Web, filtri, ecc., che consentono di monitorare il modello dati e qualsiasi modifica apportata.
 
 Leggi tutto:
 
@@ -44,9 +44,9 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard consente di **arricchire il modello** dati predefinito per creare risorse personalizzate (ad esempio per aggiungere tabelle Acquisto o Prodotto) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate Campagna per ottimizzare la navigazione attraverso le nuove risorse e campi che sono stati creati.
+Campaign Standard consente di **arricchire il modello dati predefinito** per creare risorse personalizzate (ad esempio per aggiungere tabelle Acquisto o Prodotto) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate Campagna per ottimizzare la navigazione attraverso le nuove risorse e campi che sono stati creati.
 
-Inoltre, potete **estendere le API** REST Campaign Standard per esporre nei campi estesi delle API i profili delle risorse personalizzate. Questo consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
+Inoltre, potete **estendere le API REST Campaign Standard** per esporre nei campi estesi delle API i profili delle risorse personalizzate. Questo consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
 Leggi tutto:
 
@@ -55,7 +55,7 @@ Leggi tutto:
 * [Caso di utilizzo: Estensione della risorsa profilo con un nuovo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [Caso di utilizzo: Estensione delle sottoscrizioni a una risorsa applicazione](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
-## Utilizzo delle API {#apis}
+## Operazioni con le API {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
@@ -64,5 +64,4 @@ Con le API Campaign Standard, crea integrazioni per  Adobe Campaign Standard e c
 ## Risorse aggiuntive
 
 * [Informazioni sul Connettore dati di Adobe Experience Platform](../../developing/using/aep-about-data-connector.md)
-* [Creazione di risorse personalizzate (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [Esportazione/importazione di risorse personalizzate](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
