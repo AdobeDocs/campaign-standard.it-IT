@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ Puoi aprire le transizioni per verificare che i dati inviati siano corretti dura
 
 ![](assets/workflow_overview.png)
 
-
 ## Creazione di un flusso di lavoro {#creating-a-workflow}
 
 Puoi creare un flusso di lavoro da un programma, da una campagna o dall’elenco delle attività di marketing.
+
+![](assets/do-not-localize/how-to-video.png) [Come creare un flusso di lavoro in un video](#video)
 
 La creazione di un’attività di marketing è descritta nella sezione [Creazione di attività di marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -67,14 +68,13 @@ La creazione di un’attività di marketing è descritta nella sezione [Creazion
 
 1. Conferma la creazione dell’attività per visualizzarne il dashboard. Per ulteriori informazioni, consulta la sezione [Interfaccia dei flussi di lavoro](../../automating/using/workflow-interface.md).
 
-1. Quando il flusso di lavoro è pronto per essere configurato, puoi accedere alle opzioni aggiuntive facendo clic sul pulsante **[!UICONTROL Edit properties]**. Ad esempio, puoi definire un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
+1. Quando il flusso di lavoro è pronto per essere configurato, puoi accedere alle opzioni aggiuntive facendo clic sul pulsante **[!UICONTROL Edit properties]**. 
+
+   Ad esempio, puoi definire un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
+
+   Per ulteriori informazioni sulle proprietà dei flussi di lavoro, fare riferimento a [questa pagina](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
-
-**Argomento correlato:**
-
-* Video [Creazione di un flusso di lavoro](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
-* [Proprietà del flusso di lavoro](../../automating/using/managing-execution-options.md)
 
 ## Aggiunta e collegamento di attività {#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ Per impostazione predefinita, le attività non sono impostate e non elaborano co
 1. Definisci tutte le diverse opzioni necessarie a elaborare i dati. Per informazioni sulle opzioni possibili per ciascuna attività, fai riferimento alla sezione specifica di tale attività in questa documentazione.
 1. Salva l’attività e ripeti queste operazioni per ciascuna attività del flusso di lavoro.
 1. Salva il flusso di lavoro.
+
+## Video di esercitazione {#video}
+
+Questo video mostra come creare un flusso di lavoro.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
