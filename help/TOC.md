@@ -42,7 +42,7 @@ ht-degree: 99%
    + Privacy {#privacy}
       + [Privacy e consenso](start/using/privacy.md)
       + [Gestione della privacy](start/using/privacy-management.md)
-      + [Richieste di accesso ai dati personali](start/using/privacy-requests.md)
+      + [Richieste di accesso a dati personali](start/using/privacy-requests.md)
       + [Domande frequenti sulla privacy](start/using/privacy-faq.md)
 + Profili e tipi di pubblico {#profiles-and-audiences}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/using/get-started-profiles-and-audiences.md)
