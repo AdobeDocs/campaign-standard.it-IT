@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di s
   </tr>
   <tr>
    <td> Produzione<br /> </td>
-   <td>1 - 8 febbraio 2021<br /> </td>
+   <td>Feb 1 - 8, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -54,7 +54,7 @@ Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di s
 
 **D: Che impatto hanno gli aggiornamenti?**
 
-R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release-notes.md), compresi i collegamenti alla relativa documentazione. Adobe consiglia inoltre di consultare la [pagina Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html). Queste pagine sono disponibili per la nuova versione nella data di aggiornamento dell’ambiente di stage.
+R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release-notes.md), compresi i collegamenti alla relativa documentazione. Adobe consiglia inoltre di consultare la [pagina Funzioni obsolete e rimosse](../../rn/using/deprecated-features.md). Queste pagine sono disponibili per la nuova versione nella data di aggiornamento dell’ambiente di stage.
 
 **D: Qual è il processo di convalida?**
 
