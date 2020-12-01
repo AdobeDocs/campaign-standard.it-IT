@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 6%
+source-wordcount: '194'
+ht-degree: 4%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->L&#39;integrazione del servizio [di base per la](https://adobe.io/apis/cloudplatform/gdpr.html) privacy è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l&#39;utilizzo dell&#39;API e dell&#39;interfaccia di Campaign per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse dei Campaign Standard, consultate [questa pagina](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html).
+>L&#39;integrazione di [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l&#39;utilizzo dell&#39;API e dell&#39;interfaccia di Campaign per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse dei Campaign Standard, fare riferimento a [questa pagina](../../rn/using/deprecated-features.md).
 
 Per recuperare il file che contiene tutte le informazioni associate a un valore di riconciliazione, procedere come segue:
 
-1. Eseguite una richiesta di **POST** per creare una nuova richiesta con l’attributo **type=&quot;access&quot;**, consultate [Creazione di una nuova richiesta](../../api/using/creating-a-privacy-request.md)di privacy.
+1. Eseguite una richiesta **POST** per creare una nuova richiesta con l&#39;attributo **type=&quot;access&quot;**, vedete [Creazione di una nuova richiesta di privacy](../../api/using/creating-a-privacy-request.md).
 
-1. Eseguite una richiesta di **GET** per recuperare informazioni sulla richiesta.
+1. Eseguite una richiesta **GET** per recuperare informazioni sulla richiesta.
 
 1. Recuperare il file di dati eseguendo una richiesta **POST** sull&#39;URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy all&#39;interno del payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
 
