@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 91%
+source-wordcount: '1225'
+ht-degree: 90%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 91%
 
 Dopo aver creato un’e-mail in Adobe Campaign, è necessario definirne il contenuto.
 
-Email Designer consente di creare e-mail accattivanti e personalizzate attraverso un&#39;interfaccia a trascinamento. Partendo da una lavagna vuota o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail, che sia promozionale o transazionale.
+Designer e-mail consente di creare e-mail coinvolgenti e personalizzate tramite trascinamento
+interface. Partendo da una lavagna vuota o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail, che sia promozionale o transazionale.
 
 Progettato per fornire HTML ottimizzati per la progettazione reattiva, E-mail designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un’e-mail, a un modello o a un frammento direttamente tramite l’interfaccia utente. Puoi passare direttamente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
 
 E-mail designer consente di creare contenuti e modelli di contenuto per le e-mail. È compatibile con e-mail semplici, e-mail transazionali, e-mail di test A/B, e-mail in più lingue ed e-mail ricorrenti.
 
-Per iniziare a utilizzare e-mail designer, guarda questi [video](https://docs.adobe.com/content/help/it-IT/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generiche di e-mail designer e mostrano come progettare un’e-mail da zero o utilizzando i modelli.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [Scopri e-mail Designer nel video](#video)
 
 * Per informazioni su come creare contenuti e-mail, consulta la [Guida introduttiva a E-mail designer](../../designing/using/quick-start.md).
 * Per avere una panoramica su E-mail designer, consulta [Uso di E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -117,7 +118,7 @@ Per utilizzare in modo appropriato E-mail designer e creare le e-mail migliori n
 
    Visualizza l’anteprima dei messaggi prima di inviarli.  Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consulta [Rendering e-mail](../../sending/using/email-rendering.md).
 
-Una maggiore progettazione e best practice generali per i messaggi sono presentate nella sezione seguente: [Best practice](../../sending/using/delivery-best-practices.md)di distribuzione.
+Una maggiore progettazione e best practice generali per i messaggi sono presentate nella sezione seguente: [Best practice di distribuzione](../../sending/using/delivery-best-practices.md).
 
 ### Aggiornamento dei frammenti {#email-designer-updates}
 
@@ -158,3 +159,11 @@ Per quanto riguarda i frammenti, tieni presente quanto segue:
 * [Progettazione di una pagina di destinazione](../../channels/using/designing-a-landing-page.md)
 * [Creazione di un messaggio SMS](../../channels/using/creating-an-sms-message.md)
 * [Preparazione e invio di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## Video di esercitazione {#video}
+
+Questo video fornisce una panoramica di Email Designer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+Per iniziare a utilizzare e-mail designer, guarda questi [video](https://docs.adobe.com/content/help/it-IT/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generiche di e-mail designer e mostrano come progettare un’e-mail da zero o utilizzando i modelli
