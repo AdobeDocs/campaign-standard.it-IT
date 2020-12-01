@@ -7,28 +7,30 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
 
 # Esportazione di elenchi{#exporting-lists}
 
- Adobe Campaign consente di esportare gli elenchi direttamente in un file per utilizzi futuri. L’esportazione di un elenco in un file genera una voce di registro nel **[!UICONTROL Export audits]** menu. Per ulteriori informazioni sui controlli delle esportazioni, consulta la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
+ Adobe Campaign consente di esportare gli elenchi direttamente in un file per utilizzi futuri. L&#39;esportazione di un elenco in un file genera una voce di registro nel menu **[!UICONTROL Export audits]**. Per ulteriori informazioni sui controlli delle esportazioni, consulta la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+![](assets/do-not-localize/how-to-video.png) [Come configurare un elenco in un video](#video)
 
-L’elenco di esportazione è disponibile in tutte le schermate che dispongono di una visualizzazione in modalità **Elenco** , per gli utenti con il **[!UICONTROL EXPORT (export)]** ruolo.
+L&#39;opzione di elenco di esportazione consente di esportare un massimo di 100.000 righe per impostazione predefinita e definita dall&#39;opzione **Nms_ExportListLimit**. Questa opzione può essere gestita dall&#39;amministratore funzionale, nel menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
-1. Passate alla schermata **Elenco** selezionata. Ad esempio, la schermata di panoramica del profilo di test ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Verificate che la schermata sia in modalità **Elenco** .
+L&#39;elenco di esportazione è disponibile in tutte le schermate che dispongono di una visualizzazione in modalità **List**, per gli utenti con il ruolo **[!UICONTROL EXPORT (export)]**.
+
+1. Passare alla schermata **Elenco** selezionata. Ad esempio, la schermata di panoramica del profilo di prova ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Verificare che lo schermo sia in modalità **List**.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organizzare le colonne nell’elenco nell’ordine in cui desiderate esportarle mediante il **[!UICONTROL Configure list]** pulsante, nell’angolo in alto a destra. Oltre alle colonne configurate, verrà esportata anche la chiave primaria della risorsa.
+1. Organizzare le colonne nell&#39;elenco nell&#39;ordine in cui desiderate esportarle utilizzando il pulsante **[!UICONTROL Configure list]**, nell&#39;angolo in alto a destra. Oltre alle colonne configurate, verrà esportata anche la chiave primaria della risorsa.
 1. Se lo desideri, puoi applicare un filtro. A tale scopo, fare clic sul pulsante in alto a sinistra per visualizzare il riquadro di ricerca.
 
    Se si esegue un&#39;esportazione da un elenco contenente risorse diverse, è necessario applicare i filtri in modo che nell&#39;elenco venga visualizzato un solo tipo di risorsa.
@@ -42,7 +44,7 @@ Il file viene generato in formato CSV con estensione .TXT. Viene denominato in b
 
 I valori numerici e le date tengono conto dell’ora locale (impostazione internazionale) dell’utente che esegue l’esportazione. Ad esempio: GG-MM-AAAA o MM-GG-AAAA.
 
-Per eseguire un&#39;esportazione di dimensioni maggiori, è necessario creare un flusso di lavoro dedicato. Fare riferimento alla sezione [Estrai file](../../automating/using/extract-file.md) .
+Per eseguire un&#39;esportazione di dimensioni maggiori, è necessario creare un flusso di lavoro dedicato. Fare riferimento alla sezione [Estrai file](../../automating/using/extract-file.md).
 
 **Esempio**
 
@@ -73,4 +75,11 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Ruoli](../../administration/using/list-of-roles.md)
 * [Personalizzazione degli elenchi](../../start/using/customizing-lists.md)
-* [Configurazione video elenco](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
+
+## Video di esercitazione {#video}
+
+In questo video viene illustrato come configurare gli elenchi.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+
+Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
