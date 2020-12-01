@@ -3,13 +3,13 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 product: campaign
 title: Documentazione di Adobe Campaign Standard
-description: Consulta la documentazione del prodotto Campaign Standard
+description: Sfoglia la documentazione di Campaign Standard
 topic: Premium
 translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,19 +20,16 @@ ht-degree: 90%
 
 ## Novità
 
-* **[Aggiornamento della ](rn/using/release-planning.md)**<br/> pianificazione della versioneLe prossime date di rilascio di febbraio 2021 sono state aggiunte alla pianificazione della versione
+* **[Pianificazione del rilascio aggiornata](rn/using/release-planning.md)**<br/> Le date di rilascio di febbraio 2021 sono state aggiunte alla pianificazione del rilascio
 
-* **[Gruppi di controllo](sending/using/control-group.md)**<br/>
+* **[Gruppi di controllo](sending/using/control-group.md)**<br/> 
 Misura l’impatto delle campagne escludendo parte delle relative audience
 
-* **[E-mail basate sull’intelligenza artificiale](sending/using/predictive.md)**<br/>
-Ottimizza la progettazione e la consegna con le e-mail basate sull’intelligenza artificiale
+* **[E-mail basate sull’intelligenza artificiale](sending/using/predictive.md)**<br/> Ottimizza la progettazione e la consegna con le e-mail basate sull’intelligenza artificiale
 
-* **[API esterna](automating/using/external-api.md)**<br/>
-Utilizza l’attività API esterna per inserire nel flusso di lavoro dati provenienti da un sistema esterno
+* **[API esterna](automating/using/external-api.md)**<br/> Utilizza l’attività API esterna per inserire nel flusso di lavoro dati provenienti da un sistema esterno
 
-* **[Guida introduttiva alle consegne su dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/>
-Scopri le linee guida generali per le consegne su dispositivi mobili (SMS, push, in-app)
+* **[Guida introduttiva alle consegne su dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)**<br/> Scopri le linee guida generali per le consegne su dispositivi mobili (SMS, push, in-app)
 
 [Altri aggiornamenti](rn/using/documentation-updates.md)
 
