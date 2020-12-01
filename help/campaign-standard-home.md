@@ -6,9 +6,9 @@ title: Documentazione di Adobe Campaign Standard
 description: Consulta la documentazione del prodotto Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 90%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Novità
 
-* **[Aggiornamento della pianificazione](rn/using/release-planning.md)**<br/> del rilascio Le date di rilascio imminenti di febbraio 2021 sono state aggiunte alla pianificazione del rilascio
+* **[Aggiornamento della ](rn/using/release-planning.md)**<br/> pianificazione della versioneLe prossime date di rilascio di febbraio 2021 sono state aggiunte alla pianificazione della versione
 
 * **[Gruppi di controllo](sending/using/control-group.md)**<br/>
 Misura l’impatto delle campagne escludendo parte delle relative audience
@@ -79,5 +79,5 @@ Scopri le linee guida generali per le consegne su dispositivi mobili (SMS, push,
 | [Documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html) | [API di Campaign](api/using/get-started-apis.md) |
 | [Guida all’implementazione](https://helpx.adobe.com/it/campaign/kb/campaign-standard-implementation-guide.html) | [Elenco dei messaggi di errore](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Pianificazione del rilascio](rn/using/release-planning.md) | [Modello dati di Campaign](developing/using/datamodel-introduction.md) |
-| [Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html) | [Guida per più soluzioni](integrating/using/get-started-campaign-integrations.md) |
+| [Funzioni obsolete e rimosse](rn/using/deprecated-features.md)) | [Guida per più soluzioni](integrating/using/get-started-campaign-integrations.md) |
 | [Guida introduttiva a Campaign Standard](start/using/about-campaign-standard.md) | [Note tecniche](https://helpx.adobe.com/it/campaign/kb/acs-article-list.html) |
