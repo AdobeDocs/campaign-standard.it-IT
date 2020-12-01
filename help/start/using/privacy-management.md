@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Gestione della privacy in  Adobe Campaign Standard
-description: Ulteriori informazioni sulle  funzionalità di Adobe Campaign Standard per gestire la privacy.
+title: Gestione della privacy in Adobe Campaign Standard
+description: Ulteriori informazioni sulle funzioni di gestione della privacy di Adobe Campaign Standard.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
 
 # Gestione della privacy {#privacy-management}
 
-Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
+ Adobe Campaign offre una serie di strumenti per aiutarti a rispettare le [normative sulla privacy](#privacy-management-regulations) (inclusi GDPR, CCPA, PDPA, LGPD).
 
 Di seguito sono riportate le cinque funzionalità principali offerte da  Adobe Campaign per garantire la conformità ai requisiti GDPR e alle altre normative sulla privacy:
 
@@ -27,15 +27,15 @@ Di seguito sono riportate le cinque funzionalità principali offerte da  Adobe C
 
 * **Right to Delete**
 
-Per ulteriori informazioni, vedere [Diritto di accesso e Diritto di essere Dimenticato](#right-access-forgotten).
+Per ulteriori informazioni, vedere [Diritto di accesso e Diritto di essere dimenticato](#right-access-forgotten).
 
 * **Gestione del consenso**
 
 * **Conservazione dei dati**
 
-* **Gestione dei diritti**
+* **Rights Management**
 
-Per ulteriori informazioni, consulta [Consenso, Mantenimento e ruoli](#consent-retention-roles).
+Per ulteriori informazioni, vedere [Consenso, mantenimento e ruoli](#consent-retention-roles).
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
@@ -43,88 +43,88 @@ It also contains information on important features to manage Privacy ([consent, 
 
 ## Regolamenti sulla gestione della privacy {#privacy-management-regulations}
 
- le funzionalità di Adobe Campaign consentono di rispettare i seguenti regolamenti:
+ Le funzionalità di Adobe Campaign consentono di rispettare le seguenti normative:
 
-* **Il GDPR** ([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) è la normativa dell&#39;Unione europea sulla privacy che armonizza e aggiorna i requisiti di protezione dei dati per i paesi dell&#39;UE. Segui i link qui sotto per trovare informazioni generali su GDPR:
+* **Il GDPR** ([Regolamento generale sulla protezione dei dati](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_it)) è la normativa sulla privacy dell’Unione europea che armonizza e modernizza i requisiti in materia di protezione dei dati per i paesi dell’UE. Segui i link qui sotto per trovare informazioni generali su GDPR:
 
    * https://www.adobe.com/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
-* **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;Chapter=&amp;article=)) conferisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone loro responsabilità in materia di protezione dei dati a determinate entità che svolgono attività in California.
-* **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) è la nuova legge sulla privacy che armonizza e aggiorna i requisiti di protezione dei dati per la Thailandia.
-* **La LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) sarà effettiva all&#39;inizio del 2021 per tutte le aziende che raccolgono o trattano dati personali in Brasile.
+* **Il CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) fornisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California.
+* **Il PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) è la nuova legge sulla privacy che armonizza e modernizza i requisiti di protezione dei dati in Thailandia.
+* **La LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) entrerà in vigore all’inizio del 2021 per tutte le aziende che raccolgono o elaborano dati personali in Brasile.
 
-Tutte queste normative si applicano ai clienti  Adobe Campaign che detengono dati per gli oggetti dati residenti nelle rispettive regioni o paesi sopra menzionati (UE, California, Thailandia, Brasile).
-
->[!NOTE]
->
->Per ulteriori informazioni sui dati personali e sulle diverse entità che gestiscono i dati (Titolare del trattamento dei dati, Processore dati e Oggetto dati), consulta Dati [personali e Personas](../../start/using/privacy.md#personal-data).
-
-## Diritto di accesso e diritto di essere dimenticato {#right-access-forgotten}
-
-Per facilitare la preparazione alla privacy,  Adobe Campaign consente di gestire le richieste di **accesso** ed **eliminazione** .
-
-* Il **diritto di accesso** è il diritto per l&#39;interessato di ottenere dalla conferma del Titolare dei Dati se i dati personali che li riguardano sono trattati, dove e a quale scopo. Il titolare del trattamento fornisce gratuitamente una copia dei dati personali in formato elettronico.
-
-* Anche noto come Data Erasure, il **Diritto di essere Dimenticato** (richiesta di cancellazione) autorizza l&#39;interessato a far cancellare i propri dati personali, cessare l&#39;ulteriore diffusione dei dati e potenzialmente far cessare il trattamento dei dati da parte di terzi.
-
-Per informazioni su come creare le richieste di **accesso** ed **eliminazione** e su come  Adobe Campaign le elabora, fare riferimento ai passaggi [di](../../start/using/privacy-requests.md#about-privacy-requests)implementazione.
-
-Tutorials sulla gestione della privacy in Campaign Standard sono disponibili anche [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
+Queste normative si applicano ai clienti di Adobe Campaign che detengono dati per gli interessati residenti nei rispettivi paesi o aree geografiche di cui sopra (UE, California, Thailandia, Brasile).
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui dati personali e sulle diverse entità che gestiscono i dati (Titolare del trattamento dei dati, Processore dati e Oggetto dati), consulta Dati [personali e Personas](../../start/using/privacy.md#personal-data).
+>Per ulteriori informazioni sui dati personali e sulle diverse entità che gestiscono i dati (titolare del trattamento, responsabile del trattamento e interessato), consulta [Dati personali e utenti tipo](../../start/using/privacy.md#personal-data).
 
-## Consenso, mantenimento e ruoli {#consent-retention-roles}
+## Diritto di accesso e diritto all’oblio {#right-access-forgotten}
 
-Oltre alle più recenti funzionalità **Diritto di accesso** e **Diritto di essere Dimenticato** ,  Adobe Campaign offre altre importanti caratteristiche essenziali per la Privacy:
+Per aiutarti a garantire l’idoneità alle normative sulla privacy, Adobe Campaign consente di gestire le richieste di **accesso** ed **eliminazione**.
 
-* [Gestione](#consent-management)del consenso: funzionalità di iscrizione per la gestione delle preferenze
-* [Conservazione](#data-retention)dei dati: periodi di conservazione dei dati in tutte le tabelle di registro standard, con flussi di lavoro è possibile impostare periodi di conservazione aggiuntivi
-* [Gestione](#rights-management)dei diritti: accesso ai dati gestito da named right
+* Il **diritto di accesso** è il diritto dell’interessato di ottenere conferma da parte del titolare del trattamento sul fatto che i dati personali che lo riguardano siano trattati o meno, su dove avvenga il trattamento e sullo scopo del trattamento. Il titolare del trattamento è tenuto a fornire gratuitamente una copia dei dati personali in formato elettronico.
+
+* Anche noto come eliminazione dei dati, il **diritto all’oblio** (richiesta di eliminazione) autorizza l’interessato a richiedere che il titolare del trattamento cancelli i suoi dati personali, cessi l’ulteriore diffusione dei dati ed eventualmente faccia cessare il trattamento dei dati da parte di terzi.
+
+Per informazioni su come creare richieste di **accesso** ed **eliminazione** e su come queste vengono elaborate da Adobe Campaign, fai riferimento ai [passaggi di implementazione](../../start/using/privacy-requests.md#about-privacy-requests).
+
+Tutorial sulla gestione della privacy in Campaign Standard sono inoltre disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=it#privacy).
+
+>[!NOTE]
+>
+>Per ulteriori informazioni sui dati personali e sulle diverse entità che gestiscono i dati (titolare del trattamento, responsabile del trattamento e interessato), consulta [Dati personali e utenti tipo](../../start/using/privacy.md#personal-data).
+
+## Consenso, conservazione e ruoli {#consent-retention-roles}
+
+Oltre alle più recenti funzionalità relative al **diritto di accesso** e al **diritto all’oblio**, Adobe Campaign offre altre funzioni essenziali per la privacy:
+
+* [Gestione del consenso](#consent-management): funzionalità di abbonamento per la gestione delle preferenze
+* [Conservazione dei dati](#data-retention): periodi di conservazione dei dati in tutte le tabelle di registro standard e la possibilità di impostare periodi di conservazione aggiuntivi con i flussi di lavoro
+* [Gestione dei diritti](#rights-management): accesso ai dati gestito in base a diritti denominati
 
 ### Gestione del consenso {#consent-management}
 
-Il consenso è l&#39;accordo tra l&#39;interessato al trattamento dei dati personali relativi ad un soggetto. L&#39;ottenimento del consenso necessario per tale trattamento è responsabilità del Titolare del trattamento. Sebbene  Adobe Campaign possa fornire alcune funzionalità per aiutare un cliente a gestire il consenso relativo al servizio,  Adobe non è responsabile del consenso. I clienti devono collaborare con i propri dipartimenti legali per determinare i propri processi e pratiche per ottenere il consenso necessario.
+Per consenso si intende l’autorizzazione da parte dell’interessato al trattamento dei suoi dati personali. L’ottenimento del consenso necessario per il trattamento dei dati è responsabilità del titolare del trattamento. Sebbene Adobe Campaign fornisca alcune funzionalità per aiutare i clienti a gestire il consenso relativo al servizio, Adobe non è si assume la responsabilità del consenso. I clienti devono collaborare con i propri dipartimenti legali per determinare i processi e le pratiche per ottenere il consenso necessario.
 
-Le funzioni per gestire alcuni aspetti del consenso sono state fondamentali per  Adobe Campaign fin dall&#39;inizio. Attraverso il processo di gestione delle iscrizioni, i clienti possono tenere traccia dei destinatari che hanno acconsentito al tipo di iscrizioni, sia che si tratti di newsletter, promozioni giornaliere o settimanali, o qualsiasi altro tipo di programma di marketing.
+Le funzioni per gestire alcuni aspetti del consenso sono da sempre funzioni core di Adobe Campaign. Attraverso il processo di gestione degli abbonamenti, i clienti possono tenere traccia dei destinatari che hanno acconsentito all’abbonamento, sia che si tratti di newsletter, promozioni giornaliere o settimanali, o qualsiasi altro tipo di programma di marketing.
 
 ![](assets/privacy-consent-management.png)
 
-Per ulteriori informazioni sulla gestione del consenso, consultate [Informazioni sulle iscrizioni](../../audiences/using/about-subscriptions.md) e [Introduzione alle pagine](../../channels/using/getting-started-with-landing-pages.md)di destinazione.
+Per ulteriori informazioni sulla gestione del consenso, consulta [Informazioni sugli abbonamenti](../../audiences/using/about-subscriptions.md) e [Introduzione alle pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md).
 
-Oltre agli strumenti di gestione del consenso forniti da  Adobe Campaign, è possibile verificare se un consumatore ha optato per la vendita di Dati Personali. Vedi [questa sezione](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+Oltre a utilizzare gli strumenti di gestione del consenso forniti da Adobe Campaign, puoi verificare se un consumatore ha rinunciato alla vendita di informazioni personali. Vedi [questa sezione](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Conservazione dei dati {#data-retention}
 
-Per quanto riguarda la conservazione, le tabelle di registro integrate in Campaign dispongono di periodi di conservazione preimpostati, in genere limitano la loro memorizzazione dei dati a sei mesi o meno.
+Per quanto riguarda la conservazione, le tabelle di registro integrate in Campaign dispongono di periodi di conservazione preimpostati che in genere limitano l’archiviazione dei dati a un massimo di sei mesi.
 
-Di seguito sono riportati i valori di conservazione predefiniti per le tabelle integrate. La configurazione di conservazione è impostata dagli amministratori tecnici  Adobe durante l&#39;implementazione e i valori possono variare per ogni implementazione, in base ai requisiti dei clienti.
+Di seguito sono riportati i valori di conservazione predefiniti per le tabelle integrate. Ricorda che la configurazione della conservazione è impostata dagli amministratori tecnici di Adobe durante l’implementazione e che i valori possono variare per ciascuna implementazione, in base ai requisiti dei clienti.
 
-* **Tracciamento** consolidato: 6 mesi
-* **Registri** di consegna: 6 mesi
-* **Registri** di tracciamento: 6 mesi
+* **Tracciamento consolidato**: 6 mesi
+* **Registri di consegna**: 6 mesi
+* **Registri di tracciamento**: 6 mesi
 * **Eventi**: 1 mese
-* **Statistiche sull&#39;elaborazione** degli eventi: 6 mesi
-* **Eventi** archiviati: 6 mesi
-* **Entità** temporanee: 7 giorni
-* **Eventi** pipeline ignorati: 1 mese
-* **Avvisi** di distribuzione: 1 mese
-* **Controllo** delle esportazioni: 6 mesi
+* **Statistiche sull’elaborazione degli eventi**: 6 mesi
+* **Eventi archiviati**: 6 mesi
+* **Entità temporanee**: 7 giorni
+* **Eventi pipeline ignorati**: 1 mese
+* **Avvisi di consegna**: 1 mese
+* **Controllo delle esportazioni**: 6 mesi
 
-Analogamente all&#39;eliminazione, utilizzando la funzionalità standard del flusso di lavoro, è possibile impostare periodi di conservazione per qualsiasi tabella personalizzata.
+Analogamente all’eliminazione, quando utilizzi la funzionalità standard del flusso di lavoro puoi impostare periodi di conservazione per qualsiasi tabella personalizzata.
 
-Rivolgiti ai consulenti di Adobe  o agli amministratori tecnici per saperne di più sul mantenimento o per impostare il mantenimento per tabelle personalizzate.
+Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
 
-### Gestione dei diritti {#rights-management}
+### Rights Management {#rights-management}
 
- Adobe Campaign consente di gestire i diritti assegnati ai vari operatori Campaign tramite ruoli predefiniti o personalizzati diversi.
+ Adobe Campaign consente di gestire i diritti assegnati ai vari operatori Campaign tramite diversi ruoli predefiniti o personalizzati.
 
-Un vantaggio è che consente di gestire chi all&#39;interno della società può accedere a diversi tipi di dati. Ad esempio, puoi avere diversi esperti di marketing che coprono aree geografiche diverse e ogni esperto di marketing può accedere solo ai dati del proprio ambiente geografico.
+Uno dei vantaggi offerti è la possibilità di gestire chi può accedere a diversi tipi di dati all’interno dell’azienda. Ad esempio, puoi fare in modo che diversi esperti di marketing che coprono aree geografiche diverse accedano solo ai dati della propria area geografica.
 
-Allo stesso modo, questa funzionalità consente di configurare diverse funzionalità per ogni utente, ad esempio per limitare l&#39;invio di invii o per gestire la privacy, che può modificare o esportare i dati.
+Allo stesso modo, questa funzionalità consente di configurare diverse funzionalità per ogni utente, ad esempio limitare chi può inviare le consegne o, per quanto riguarda la gestione della privacy, chi può modificare o esportare i dati.
 
 ![](assets/privacy-user-management.png)
 
-For more on access management, see [this section](../../administration/using/about-access-management.md).
+Per ulteriori informazioni sulla gestione degli accessi, consulta [questa sezione](../../administration/using/about-access-management.md).
