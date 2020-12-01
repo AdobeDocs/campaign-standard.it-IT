@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 0%
+source-wordcount: '1819'
+ht-degree: 1%
 
 ---
 
@@ -22,60 +22,61 @@ Scopri come gestire l’edizione del contenuto delle e-mail. Designer e-mail con
 
 >[!NOTE]
 >
-> In  Adobe Campaign Standard, potete creare diversi tipi di modelli accessibili dal menu **Risorse** > **Modelli** . I modelli utilizzati in Designer e-mail sono modelli di contenuto. Per ulteriori informazioni, vedere [Informazioni sui modelli](../../start/using/marketing-activity-templates.md).
+> In  Adobe Campaign Standard, è possibile creare diversi tipi di modelli accessibili dal menu **Risorse** > **Modelli**. I modelli utilizzati in Designer e-mail sono modelli di contenuto. Per ulteriori informazioni, vedere [Informazioni sui modelli](../../start/using/marketing-activity-templates.md).
 
-### I modelli di contenuto {#content-templates}
+![](assets/do-not-localize/how-to-video.png) [Come creare i modelli in un video](#video)
 
-È possibile gestire il contenuto HTML offerto nella **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
+### Informazioni sui modelli di contenuto {#content-templates}
+
+È possibile gestire il contenuto HTML offerto nella scheda **[!UICONTROL Templates]** della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 I modelli di contenuto e-mail forniti con il prodotto includono diciotto layout ottimizzati per dispositivi mobili e quattro modelli reattivi all&#39;avanguardia creati da artisti Behance. Corrispondono, tra l&#39;altro, agli usi più recenti, come messaggi di benvenuto, newsletter ed e-mail di nuovo coinvolgimento. Possono essere facilmente personalizzati con i contenuti dei marchi per semplificare il processo di progettazione di e-mail da zero.
 
 ![](assets/template_content.png)
 
-I modelli di contenuto HTML sono accessibili dalla schermata **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** del menu [](../../start/using/interface-description.md#advanced-menu)Avanzate. Da qui è possibile gestire i modelli di contenuto della pagina di destinazione, i modelli di contenuto e-mail e anche i frammenti.
+I modelli di contenuto HTML sono accessibili dalla schermata **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** del menu [Avanzate](../../start/using/interface-description.md#advanced-menu). Da qui è possibile gestire i modelli di contenuto della pagina di destinazione, i modelli di contenuto e-mail e anche i frammenti.
 
 ![](assets/content_templates_list.png)
 
 I modelli di contenuto forniti sono di sola lettura. Per modificarne uno, dovete prima duplicare il modello desiderato.
 
-È possibile creare nuovi modelli o frammenti e definire contenuti personalizzati. Per ulteriori informazioni, consultate [Creazione di un modello](#creating-a-content-template) di contenuto e [Creazione di un frammento](#creating-a-content-fragment)di contenuto.
+È possibile creare nuovi modelli o frammenti e definire contenuti personalizzati. Per ulteriori informazioni, vedere [Creazione di un modello di contenuto](#creating-a-content-template) e [Creazione di un frammento di contenuto](#creating-a-content-fragment).
 
-Quando si modifica il contenuto con Designer e-mail, è anche possibile creare modelli di contenuto salvando il contenuto come frammento o modello. Per ulteriori informazioni, consultate [Salvataggio di contenuti come modelli](#saving-content-as-template) e [Salvataggio di contenuti come frammenti](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+Quando si modifica il contenuto con Designer e-mail, è anche possibile creare modelli di contenuto salvando il contenuto come frammento o modello. Per ulteriori informazioni, vedere [Salvataggio di contenuti come modello](#saving-content-as-template) e [Salvataggio di contenuti come frammento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 **Argomenti correlati:**
 
-* Scoprite come personalizzare i modelli di contenuto [in questo video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
-* Per ulteriori informazioni sulla modifica del contenuto, consultate [Informazioni sulla progettazione](../../designing/using/designing-content-in-adobe-campaign.md)del contenuto delle e-mail.
+* Per ulteriori informazioni sulla modifica del contenuto, vedere [Informazioni sulla progettazione del contenuto delle e-mail](../../designing/using/designing-content-in-adobe-campaign.md).
 
-### Creating a content template {#creating-a-content-template}
+### Creazione di un modello di contenuto {#creating-a-content-template}
 
 Potete creare modelli di contenuto personalizzati da usare il maggior numero di volte necessario.
 
 L’esempio seguente mostra come creare un modello di contenuto per e-mail.
 
 1. Vai a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** e fai clic su **[!UICONTROL Create]**.
-1. Fare clic sull&#39;etichetta e-mail per accedere alla **[!UICONTROL Properties]** scheda di Designer e-mail.
+1. Fare clic sull&#39;etichetta e-mail per accedere alla scheda **[!UICONTROL Properties]** di Designer e-mail.
 1. Specificate un&#39;etichetta riconoscibile e selezionate i seguenti parametri per poter utilizzare questo modello nelle e-mail:
 
-   * Selezionare **[!UICONTROL Shared]** o **[!UICONTROL Delivery]** dall&#39;elenco a **[!UICONTROL Content type]** discesa.
-   * Selezionate **[!UICONTROL Template]** dall’elenco a **[!UICONTROL HTML type]** discesa.
+   * Selezionare **[!UICONTROL Shared]** o **[!UICONTROL Delivery]** dall&#39;elenco a discesa **[!UICONTROL Content type]**.
+   * Selezionare **[!UICONTROL Template]** dall&#39;elenco a discesa **[!UICONTROL HTML type]**.
 
    ![](assets/email_designer_create-template.png)
 
-1. Se necessario, potete impostare un’immagine che verrà utilizzata come miniatura per il modello. Selezionatela dalla **[!UICONTROL Thumbnail]** scheda delle proprietà del modello.
+1. Se necessario, potete impostare un’immagine che verrà utilizzata come miniatura per il modello. Selezionatela dalla scheda **[!UICONTROL Thumbnail]** delle proprietà del modello.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Questa miniatura verrà visualizzata nella **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
+   Questa miniatura verrà visualizzata nella scheda **[!UICONTROL Templates]** della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
-1. Chiudete la **[!UICONTROL Properties]** scheda per tornare all&#39;area di lavoro principale.
+1. Chiudere la scheda **[!UICONTROL Properties]** per tornare all&#39;area di lavoro principale.
 1. Aggiungere componenti di struttura e contenuti personalizzabili in base alle esigenze.
    >[!NOTE]
    >
    > Non potete inserire campi di personalizzazione o contenuto condizionale all&#39;interno di un modello di contenuto.
 1. Dopo aver modificato il modello, salvatelo.
 
-Questo modello può essere utilizzato in qualsiasi e-mail creata con Designer e-mail. Selezionatela dalla **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
+Questo modello può essere utilizzato in qualsiasi e-mail creata con Designer e-mail. Selezionarla dalla scheda **[!UICONTROL Templates]** della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ![](assets/content_template_new.png)
 
@@ -91,13 +92,13 @@ Quando modificate un&#39;e-mail con Designer e-mail, potete salvare direttamente
 
    ![](assets/email_designer_save-as-template.png)
 
-1. Aggiungi un&#39;etichetta e una descrizione, se necessario, quindi fai clic su **[!UICONTROL Save]**.
+1. Se necessario, aggiungete un&#39;etichetta e una descrizione, quindi fate clic su **[!UICONTROL Save]**.
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. Per trovare il modello appena creato, passate a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
+1. Per trovare il modello appena creato, andate a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. Per utilizzare il nuovo modello, selezionarlo dalla **[!UICONTROL Templates]** scheda della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
+1. Per utilizzare il nuovo modello, selezionarlo dalla scheda **[!UICONTROL Templates]** della home page di [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/content_template_new.png)
 
@@ -105,23 +106,23 @@ Quando modificate un&#39;e-mail con Designer e-mail, potete salvare direttamente
 
 È ora possibile creare un modello e-mail con Designer e-mail. Utilizzate i componenti di contenuto per riflettere le diverse sezioni dell’e-mail e regolate le impostazioni in modo da avvicinarli il più possibile alla newsletter originale. Infine, inserire i frammenti appena creati.
 
-1. Utilizzando e-mail Designer, create un modello. Per ulteriori informazioni, consulta Modelli [di](#content-templates)contenuto.
-1. Inserite diversi componenti struttura nel modello, corrispondenti all’intestazione, al piè di pagina e al corpo dell’e-mail. Per ulteriori informazioni sull&#39;aggiunta di componenti struttura, vedere [Modifica della struttura delle e-mail con Progettazione](../../designing/using/designing-from-scratch.md#defining-the-email-structure)e-mail.
+1. Utilizzando e-mail Designer, create un modello. Per ulteriori informazioni, vedere [Modelli di contenuto](#content-templates).
+1. Inserite diversi componenti struttura nel modello, corrispondenti all’intestazione, al piè di pagina e al corpo dell’e-mail. Per ulteriori informazioni sull&#39;aggiunta di componenti struttura, vedere [Modifica della struttura delle e-mail con Email Designer](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Inserite tutti i componenti di contenuto necessari per creare il corpo della newsletter. Questo sarà il contenuto modificabile del messaggio e-mail che verrà aggiornato ogni mese.
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Se avete familiarità con il codice HTML,  Adobe consiglia di utilizzare **[!UICONTROL Html]** i componenti per copiare e incollare gli elementi più complessi dell’e-mail originale. Utilizzate altri componenti come **[!UICONTROL Button]**, **[!UICONTROL Image]** o **[!UICONTROL Text]** per il resto del contenuto. Per ulteriori informazioni, consultate [Informazioni sui componenti](../../designing/using/designing-from-scratch.md#about-content-components)di contenuto.
+   Se avete familiarità con il codice HTML,  Adobe consiglia di utilizzare i componenti **[!UICONTROL Html]** per copiare e incollare gli elementi più complessi dell&#39;e-mail originale. Utilizzate altri componenti come **[!UICONTROL Button]**, **[!UICONTROL Image]** o **[!UICONTROL Text]** per il resto del contenuto. Per ulteriori informazioni, vedere [Informazioni sui componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
-   >L’utilizzo del **[!UICONTROL Html]** componente consente di creare componenti modificabili con opzioni limitate. Prima di selezionare questo componente, accertatevi di sapere come gestire il codice HTML.
+   >L&#39;utilizzo del componente **[!UICONTROL Html]** consente di creare componenti modificabili con opzioni limitate. Prima di selezionare questo componente, accertatevi di sapere come gestire il codice HTML.
 
 1. Regolate i componenti di contenuto in modo che corrispondano il più possibile all’e-mail originale.
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   Per ulteriori informazioni sulla gestione delle impostazioni di stile e degli attributi in linea, consultate [Modifica degli stili](../../designing/using/styles.md)e-mail.
+   Per ulteriori informazioni sulla gestione delle impostazioni di stile e degli attributi in linea, vedere [Modifica degli stili e-mail](../../designing/using/styles.md).
 
 1. Inserire i due frammenti (intestazione e piè di pagina) precedentemente creati nei componenti struttura desiderati.
 
@@ -136,8 +137,16 @@ Per utilizzarlo, create un messaggio e-mail e selezionate il modello di contenut
 **Argomento correlato**:
 
 * [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
-* [Video introduttivo su Email Designer](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=ita)
+* [Video introduttivo su Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Progettazione di un contenuto e-mail da zero](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+
+### Video di esercitazione {#video}
+
+In questi video viene illustrato come creare un modello personalizzato.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+
+Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
 
 ## Informazioni sui frammenti {#about-fragments}
 
@@ -147,12 +156,12 @@ Per utilizzarlo, create un messaggio e-mail e selezionate il modello di contenut
 >abstract="Un frammento è un blocco di contenuto riutilizzabile a cui è possibile fare riferimento in una o più e-mail."
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail.
-Sono disponibili nell’interfaccia in **Risorse** > Frammenti di **contenuto e modelli**.
+È possibile trovarli nell&#39;interfaccia in **Risorse** > **Frammenti di contenuto e modelli**.
 
 Per utilizzare al meglio i frammenti in Designer e-mail:
 
-* Creare i propri frammenti. Consultate [Creazione di un frammento](#creating-a-content-fragment) di contenuto e [Salvataggio del contenuto come frammento](#saving-content-as-a-fragment).
-* Utilizzateli il numero di volte necessario nelle e-mail. Consultate [Inserimento di elementi in un messaggio e-mail](#inserting-elements-into-an-email).
+* Creare i propri frammenti. Vedere [Creazione di un frammento di contenuto](#creating-a-content-fragment) e [Salvataggio del contenuto come frammento](#saving-content-as-a-fragment).
+* Utilizzateli il numero di volte necessario nelle e-mail. Vedere [Inserimento di elementi in un&#39;e-mail](#inserting-elements-into-an-email).
 * Quando si modifica un frammento, le modifiche vengono sincronizzate: vengono propagati automaticamente a tutte le e-mail (purché non siano ancora state preparate o inviate) contenenti tale frammento.
 
 Se aggiunti a un messaggio e-mail, per impostazione predefinita i frammenti sono bloccati. Se si desidera modificare un frammento per un messaggio e-mail specifico, è possibile interrompere la sincronizzazione con il frammento originale sbloccandolo nel messaggio e-mail in cui è utilizzato. Le modifiche non verranno più sincronizzate.
@@ -161,13 +170,13 @@ Per sbloccare un frammento all’interno di un messaggio e-mail, selezionatelo e
 
 ![](assets/des_unlocking_fragment.png)
 
-Il frammento diventa un componente standalone che non è più collegato al frammento originale. Può quindi essere modificato come qualsiasi altro componente di contenuto. Consultate [I componenti](../../designing/using/designing-from-scratch.md#about-content-components)di contenuto.
+Il frammento diventa un componente standalone che non è più collegato al frammento originale. Può quindi essere modificato come qualsiasi altro componente di contenuto. Vedere [Informazioni sui componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
 
 ### Inserimento di frammenti in un messaggio e-mail {#inserting-elements-into-an-email}
 
-Per definire il contenuto del messaggio e-mail, potete aggiungere elementi di contenuto nei componenti struttura precedentemente inseriti. Consultate [Modifica della struttura](../../designing/using/designing-from-scratch.md#defining-the-email-structure)delle e-mail.
+Per definire il contenuto del messaggio e-mail, potete aggiungere elementi di contenuto nei componenti struttura precedentemente inseriti. Vedere [Modifica della struttura dell&#39;e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. Per accedere agli elementi di contenuto, fate clic sull&#39;icona **+** a sinistra. Selezionare [Frammenti](#about-fragments) o componenti [](../../designing/using/designing-from-scratch.md#about-content-components)contenuto.
+1. Per accedere agli elementi di contenuto, fate clic sull&#39;icona **+** a sinistra. Selezionare [Frammenti](#about-fragments) o [Componenti contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
 1. Se si conosce già l&#39;etichetta o parte dell&#39;etichetta del frammento da aggiungere, è possibile cercarlo.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -189,32 +198,32 @@ Per definire il contenuto del messaggio e-mail, potete aggiungere elementi di co
 1. Ripetete questa procedura per tutti gli elementi da aggiungere all’e-mail.
 1. Salva l’e-mail.
 
-Ora che la struttura delle e-mail è compilata, potete modificare lo stile di ogni elemento di contenuto. Consultate [Modifica di un elemento](../../designing/using/styles.md).
+Ora che la struttura delle e-mail è compilata, potete modificare lo stile di ogni elemento di contenuto. Vedere [Modifica di un elemento](../../designing/using/styles.md).
 
 >[!NOTE]
 >
 >Se un frammento viene modificato, le modifiche vengono propagate automaticamente nei messaggi e-mail in cui è utilizzato. Per ulteriori informazioni, vedere [Informazioni sui frammenti](#about-fragments).
 
-### Creating a content fragment {#creating-a-content-fragment}
+### Creazione di un frammento di contenuto {#creating-a-content-fragment}
 
 È possibile creare frammenti di contenuto personalizzati da utilizzare in uno o più messaggi e-mail in base alle esigenze.
 
 1. Vai a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** e fai clic su **[!UICONTROL Create]**.
-1. Fare clic sull&#39;etichetta e-mail per accedere alla **[!UICONTROL Properties]** scheda di Designer e-mail.
+1. Fare clic sull&#39;etichetta e-mail per accedere alla scheda **[!UICONTROL Properties]** di Designer e-mail.
 1. Specificate un&#39;etichetta riconoscibile e selezionate i seguenti parametri per individuare il frammento durante la modifica del contenuto dell&#39;e-mail:
 
-   * Poiché i frammenti sono compatibili solo con i messaggi e-mail, selezionare **[!UICONTROL Delivery]** dall&#39;elenco a **[!UICONTROL Content type]** discesa.
-   * Selezionare **[!UICONTROL Fragment]** dall&#39;elenco a **[!UICONTROL HTML type]** discesa per utilizzare il contenuto come frammento.
+   * Poiché i frammenti sono compatibili solo con le e-mail, selezionare **[!UICONTROL Delivery]** dall&#39;elenco a discesa **[!UICONTROL Content type]**.
+   * Selezionare **[!UICONTROL Fragment]** dall&#39;elenco a discesa **[!UICONTROL HTML type]** per utilizzare il contenuto come frammento.
 
    ![](assets/email_designer_createfragment.png)
 
-1. Se necessario, è possibile impostare un&#39;immagine che verrà utilizzata come miniatura per il frammento. Selezionatela dalla **[!UICONTROL Thumbnail]** scheda delle proprietà del modello.
+1. Se necessario, è possibile impostare un&#39;immagine che verrà utilizzata come miniatura per il frammento. Selezionatela dalla scheda **[!UICONTROL Thumbnail]** delle proprietà del modello.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
    Questa miniatura verrà visualizzata accanto all’etichetta del frammento durante la modifica di un messaggio e-mail.
 
-1. Chiudete la **[!UICONTROL Properties]** scheda per tornare all&#39;area di lavoro principale.
+1. Chiudere la scheda **[!UICONTROL Properties]** per tornare all&#39;area di lavoro principale.
 1. Aggiungere componenti di struttura e contenuti personalizzabili in base alle esigenze.
 
    >[!CAUTION]
@@ -223,11 +232,11 @@ Ora che la struttura delle e-mail è compilata, potete modificare lo stile di og
    >
    >Evitare di salvare come contenuto di frammento con componenti struttura vuoti. Una volta inserito il frammento >non sarà più possibile modificarlo.
    >
-   >La visualizzazione [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) mobile non è disponibile nei frammenti.
+   >La [visualizzazione mobile](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) non è disponibile nei frammenti.
 
 1. Una volta modificato, salvare il frammento.
 
-Questo frammento può essere utilizzato in qualsiasi e-mail creata con Designer e-mail. Viene visualizzata sotto la **[!UICONTROL Fragments]** sezione della palette.
+Questo frammento può essere utilizzato in qualsiasi e-mail creata con Designer e-mail. Viene visualizzata sotto la sezione **[!UICONTROL Fragments]** della palette.
 
 >[!NOTE]
 >
@@ -256,7 +265,7 @@ Quando si modifica un&#39;e-mail con Designer e-mail, è possibile salvare diret
 
 1. Fai clic su **[!UICONTROL Create]**.
 
-1. Aggiungi un&#39;etichetta e una descrizione, se necessario, quindi fai clic su **[!UICONTROL Save]**.
+1. Se necessario, aggiungete un&#39;etichetta e una descrizione, quindi fate clic su **[!UICONTROL Save]**.
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
@@ -269,7 +278,7 @@ Quando si modifica un&#39;e-mail con Designer e-mail, è possibile salvare diret
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->La visualizzazione [](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) mobile non è disponibile nei frammenti. Se desiderate modificare la visualizzazione di un&#39;e-mail mobile, fatela prima di salvare il contenuto come un frammento.
+>La [visualizzazione mobile](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) non è disponibile nei frammenti. Se desiderate modificare la visualizzazione di un&#39;e-mail mobile, fatela prima di salvare il contenuto come un frammento.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -287,13 +296,13 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Paste the HTML that you copied where appropriate.
 1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 
-## Creazione di intestazioni e piè di pagina riutilizzabili tramite frammenti {#header-footer-fragments}
+## Creazione di intestazioni e piè di pagina riutilizzabili con frammenti {#header-footer-fragments}
 
 Utilizzando e-mail Designer, creare un frammento per ciascuna sezione riutilizzabile. In questo esempio vengono creati due frammenti: uno per l’intestazione e uno per il piè di pagina. È quindi possibile copiare le parti pertinenti dal contenuto esistente in questi frammenti.
 
 Per farlo, segui la procedura indicata di seguito:
 
-1. In  Adobe Campaign, passare a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** e creare un frammento per l’intestazione. Per ulteriori informazioni, vedere [Creazione di un frammento](#creating-a-content-fragment)di contenuto.
+1. In  Adobe Campaign, passare a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** e creare un frammento per l&#39;intestazione. Per ulteriori informazioni, vedere [Creazione di un frammento di contenuto](#creating-a-content-fragment).
 1. Aggiungere al frammento tutti i componenti di struttura necessari.
 
    ![](assets/des_loading_compatible_fragment_1.png)
