@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 3%
 >
 >Di conseguenza, non è possibile implementare questa funzionalità a partire dalla versione 18.7 per le nuove istanze Campaign Standard, così come per le istanze esistenti prive di unità geografiche.
 >
->Per ulteriori informazioni, consulta la pagina Funzioni <a href="https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html"></a> obsolete.
+>Per ulteriori informazioni, consultare la pagina <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Funzioni obsolete</a>.
 
 L&#39;endpoint **geoUnitBase** consente di interagire con le unità geografiche, consentendo, ad esempio, di aggiornare gli attributi o aggiornare l&#39;unità di un profilo.
 
-Il campo Unità **** geografica viene aggiunto a un profilo quando si estende la risorsa del profilo. Come risultato, ricordati di utilizzare sempre l&#39;endpoint **profileAndServicesExt** per interagire con le unità geografiche. Per ulteriori informazioni sull&#39;estensione delle risorse del profilo, consulta la documentazione relativa alla [campagna](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+Il campo **Unità geografica** viene aggiunto a un profilo quando si estende la risorsa del profilo. Di conseguenza, ricordare di utilizzare sempre l&#39;endpoint **profileAndServicesExt** per interagire con le unità geografiche. Per ulteriori informazioni sull&#39;estensione delle risorse del profilo, fare riferimento alla [Documentazione campagna](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
