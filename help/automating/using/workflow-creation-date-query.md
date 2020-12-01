@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 38%
@@ -26,34 +26,34 @@ Potete inviare un&#39;offerta via e-mail in occasione dell&#39;anniversario dell
 
 ## Creazione di un’attività Scheduler {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, trascinare un&#39;attività [Scheduler](../../automating/using/scheduler.md).
 1. Fai doppio clic sull’attività.
 1. Configura l’esecuzione della consegna.
 1. In **[!UICONTROL Execution frequency]**, seleziona **[!UICONTROL Daily]**.
-1. Selezionate un **[!UICONTROL Time]** e l’ **[!UICONTROL Repetition frequency]** esecuzione del flusso di lavoro.
-1. Seleziona una **[!UICONTROL Start]** data e **[!UICONTROL Expiration]** il flusso di lavoro.
+1. Selezionare un **[!UICONTROL Time]** e **[!UICONTROL Repetition frequency]** di esecuzione per il flusso di lavoro.
+1. Selezionare una data **[!UICONTROL Start]** e **[!UICONTROL Expiration]** per il flusso di lavoro.
 1. Conferma l’attività e salva il flusso di lavoro.
 
 >[!NOTE]
 >
->To start your workflow at a specific time zone, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. Per impostazione predefinita, il fuso orario selezionato è quello definito nelle proprietà del flusso di lavoro (vedi [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)).
+>Per avviare il flusso di lavoro in un fuso orario specifico, nella scheda **[!UICONTROL Execution options]** impostare il fuso orario per il pianificatore nel campo **[!UICONTROL Time zone]**. Per impostazione predefinita, il fuso orario selezionato è quello definito nelle proprietà del flusso di lavoro (vedi [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)).
 
 ![](assets/time_zone.png)
 
 ## Creazione di un’attività query {#creating-a-query-activity}
 
-1. To select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
+1. Per selezionare i destinatari, trascinate un&#39;attività [Query](../../automating/using/query.md) e fate doppio clic su di essa.
 1. Aggiungete **[!UICONTROL Profiles]** e selezionate **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.
 
-### Profili di ripristino creati lo stesso giorno dell&#39;esecuzione {#retriving-profiles-created-on-the-same-day}
+### Recupero dei profili creati lo stesso giorno del giorno di esecuzione {#retrieving-profiles-created-on-the-same-day}
 
-1. In **[!UICONTROL Profile]**, trascinare il **[!UICONTROL Created]** campo. e fate clic su **[!UICONTROL Advanced Mode]**.
+1. In **[!UICONTROL Profile]**, trascinare e rilasciare il campo **[!UICONTROL Created]**. e fare clic su **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
-1. In **[!UICONTROL list of functions]**, fare doppio clic **[!UICONTROL Day]** dal **[!UICONTROL Date]** nodo.
+1. In **[!UICONTROL list of functions]**, fare doppio clic su **[!UICONTROL Day]** dal nodo **[!UICONTROL Date]**.
 1. Quindi, inserire il campo **[!UICONTROL Created]** come argomento.
-1. Select **[!UICONTROL equals to (=)]** as the operator.
-1. Per Valore, selezionate **[!UICONTROL Day]** dal **[!UICONTROL Date]** nodo nella **[!UICONTROL List of functions]**.
-1. Inserire la **[!UICONTROL GetDate()]** funzione come argomento.
+1. Selezionare **[!UICONTROL equals to (=)]** come operatore.
+1. Per Valore, selezionare **[!UICONTROL Day]** dal nodo **[!UICONTROL Date]** in **[!UICONTROL List of functions]**.
+1. Inserire la funzione **[!UICONTROL GetDate()]** come argomento.
 
 Hai recuperato i profili il giorno di creazione corrispondente al giorno corrente.
 
@@ -65,9 +65,9 @@ Dovreste finire con:
 
 Fai clic su **[!UICONTROL Confirm]**.
 
-### Profili di ripristino creati lo stesso mese del mese di esecuzione{#retriving-profiles-created-on-the-same-month}
+### Recupero dei profili creati lo stesso mese del mese di esecuzione{#retrieving-profiles-created-on-the-same-month}
 
-1. Nell’ **[!UICONTROL Query]** editor, selezionate la prima query e duplicatela.
+1. Nell&#39;editor **[!UICONTROL Query]**, selezionate la prima query e duplicatela.
 1. Aprite il duplicato.
 1. Sostituire **[!UICONTROL Day]** con **[!UICONTROL Month]** nella query.
 1. Fai clic su **[!UICONTROL Confirm]**.
@@ -86,7 +86,7 @@ Viene visualizzata la query finale:
 
 ## Creazione di una consegna e-mail{#creating-an-email-delivery}
 
-1. Trascinate e rilasciate un&#39;attività di consegna [tramite](../../automating/using/email-delivery.md) e-mail.
+1. Trascinare un&#39;attività [Invio e-mail](../../automating/using/email-delivery.md).
 1. Fai clic sull’attività e seleziona ![](assets/edit_darkgrey-24px.png) per modificarla.
 1. Seleziona **[!UICONTROL Recurring email]** e fai clic su **[!UICONTROL Next]**.
 1. Seleziona un modello di e-mail e fai clic su **[!UICONTROL Next]**.
