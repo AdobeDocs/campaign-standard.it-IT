@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2945'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 # Note sulla versione 2020{#release-notes-2020}
 
-[Pianificazione del rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | [Versioni del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2019.md) | [Funzioni obsolete](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html)
+[Pianificazione del rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | [Versioni del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2019.md) | [Funzioni obsolete](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ![](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo Campaign di giugno** con monitoraggio dei profili attivi, audit del recapito messaggi del sottodominio e gestione delle chiavi GPG. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
 
@@ -291,7 +291,7 @@ ht-degree: 99%
 * L’unità organizzativa del gruppo di protezione Amministratori non può più essere modificata.
 * Quando si crea un profilo, è necessario compilare il campo Unità organizzativa.
 * Ora è possibile eliminare un trigger di Experience Cloud solo se vengono eliminati sia l’evento sia il modello transazionale ad esso collegato.
-* [!DNL Adobe Creative SDK] è stato disattivato. È ora obsoleto in Campaign Standard. Consulta la pagina [Funzioni obsolete e rimosse](https://helpx.adobe.com/it/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] è stato disattivato. È ora obsoleto in Campaign Standard. Consulta la pagina [Funzioni obsolete e rimosse](../../rn/using/deprecated-features.md).
 
 
 **Patch**
