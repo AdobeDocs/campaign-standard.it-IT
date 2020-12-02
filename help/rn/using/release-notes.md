@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 100%
@@ -112,7 +112,7 @@ ht-degree: 100%
 * Quando si pubblica una risorsa personalizzata, dopo la preparazione viene ora visualizzata una finestra di conferma a comparsa.
 * Per una maggiore chiarezza, è stato migliorato il messaggio a comparsa visualizzato in caso di errore di una risorsa personalizzata.
 * L’editor espressioni nei flussi di lavoro è stato migliorato per evitare errori di esecuzione. Sono disponibili [nuove funzioni](../../automating/using/customizing-workflow-external-parameters.md): queste possono essere utilizzate in tutte le attività che consentono di applicare variabili evento dopo la chiamata di un flusso di lavoro con parametri esterni. Inoltre, ora viene visualizzata una descrizione comandi nell’editor espressioni con la descrizione della relativa funzione.
-* Sono stati aggiunti [nuovi filtri](../../channels/using/configuring-transactional-event.md#searching-transactional-events) all’elenco degli eventi transazionali. Questi consentono di filtrare le configurazioni dell’evento in base al loro stato, come pure in base all’ultima volta che è stato ricevuto un evento.
+* Sono stati aggiunti [nuovi filtri](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) all’elenco degli eventi transazionali. Questi consentono di filtrare le configurazioni dell’evento in base al loro stato, come pure in base all’ultima volta che è stato ricevuto un evento.
 * I file di registro visualizzati durante l’esportazione dei pacchetti sono stati resi più specifici e dettagliati per quanto riguarda gli eventuali errori riscontrati.
 * Dopo aver inviato un messaggio, ora puoi cercare, filtrare ed esportare l’elenco degli [URL tracciati](../../sending/using/tracking-messages.md).
 * La [sincronizzazione automatica tra Launch e Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ora è in versione GA ed è attivata per impostazione predefinita.
