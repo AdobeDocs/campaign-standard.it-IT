@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 3%
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 ## Informazioni sulla messaggistica transazionale
 
-Dopo aver creato e pubblicato un evento transazionale, è necessario integrare l&#39;attivazione di questo evento nel sito Web.
+Dopo aver creato un evento, dovrete integrare l’attivazione di questo evento nel sito Web.
 
 >[!NOTE]
 >
->La configurazione di un evento viene presentata in [questa sezione](../../channels/using/configuring-transactional-event.md).
+>La creazione e la pubblicazione di un evento sono presentate in [La documentazione relativa alla campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Ad esempio, si desidera che venga attivato un evento &quot;abbandono carrello&quot; ogni volta che un cliente abbandona il sito Web prima di acquistare i prodotti nel carrello. A tal fine, lo sviluppatore Web deve utilizzare REST Transactional Messages API.
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (L&#39;endpoint API dei messaggi transazionali è visibile anche durante l&#39;anteprima API)
 
-* **&lt;eventid>**: il tipo di evento che si desidera inviare. Questo ID viene generato durante la creazione della configurazione dell&#39;evento (fare riferimento a [questa sezione](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventid>**: il tipo di evento che si desidera inviare. Questo ID viene generato al momento della creazione della definizione dell’evento. Fare riferimento alla [Documentazione campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### Intestazione richiesta POST
 
@@ -67,7 +67,7 @@ La richiesta deve contenere un &quot;Content-Type: application/json&quot; header
 
 ### corpo della richiesta POST
 
-I dati dell&#39;evento sono contenuti nel corpo del POST JSON. La struttura dell&#39;evento dipende dalla sua definizione. Il pulsante Anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta. Fai riferimento a [questa sezione](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+I dati dell&#39;evento sono contenuti nel corpo del POST JSON. La struttura dell&#39;evento dipende dalla sua definizione. Il pulsante Anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta. Fare riferimento alla [Documentazione campagna](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 Al contenuto dell&#39;evento possono essere aggiunti i seguenti parametri facoltativi per gestire l&#39;invio di messaggi transazionali collegati all&#39;evento:
 
@@ -138,7 +138,7 @@ Nella risposta, il campo &quot;status&quot; consente di sapere se l’evento è 
 
 * **in sospeso**: l&#39;evento è in sospeso. L&#39;evento assume questo stato quando è appena stato attivato.
 * **elaborazione**: l&#39;evento è in attesa di consegna; viene trasformato in un messaggio e il messaggio viene inviato.
-* **messi in pausa**: il processo evento è in pausa. Non viene più elaborata, ma tenuta in coda nel database Adobe Campaign . Per ulteriori informazioni al riguardo, consulta [questa sezione](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
+* **messi in pausa**: il processo evento è in pausa. Non viene più elaborata, ma tenuta in coda nel database Adobe Campaign . Per ulteriori informazioni, consultare la [Documentazione campagna](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
 * **elaborati**: l&#39;evento è stato elaborato e il messaggio è stato inviato correttamente.
 * **ignorato**: l&#39;evento è stato ignorato dalla consegna, in genere quando un indirizzo è in quarantena.
 * **deliveryFailed**: si è verificato un errore di consegna durante l&#39;elaborazione dell&#39;evento.
