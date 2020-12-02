@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Il contenuto dell’e-mail può essere modificato in  Experience Manager e quind
 >title="Utilizzo delle inserzioni di prodotti"
 >abstract="L&#39;elenco dei prodotti consente di fare riferimento a una raccolta di dati e di visualizzarla nel contenuto dell&#39;e-mail."
 
-L&#39;elenco dei prodotti consente di fare riferimento a una o più raccolte di dati nel contenuto dell&#39;e-mail. Questi elenchi sono disponibili per le e-mail transazionali. Una sezione dedicata per questa funzione è disponibile [qui](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+L&#39;elenco dei prodotti consente di fare riferimento a una o più raccolte di dati nel contenuto dell&#39;e-mail. Questi elenchi sono disponibili per le e-mail transazionali. Una sezione dedicata per questa funzione è disponibile [qui](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Confronto delle opzioni di progettazione e-mail {#email-design-options-comparison}
 
@@ -148,7 +148,7 @@ L&#39;elenco dei prodotti consente di fare riferimento a una o più raccolte di 
    <td> <strong>Per saperne di più</strong><br /> </td> 
    <td> Vedere <a href="../../designing/using/designing-content-in-adobe-campaign.md">Informazioni su Email Designer</a>.<br /> </td> 
    <td> Vedere <a href="../../integrating/using/integrating-with-experience-manager.md">Integrazione con  Experience Manager</a>.<br /> </td> 
-   <td> Vedere <a href="https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guardare questo <a href="#video">video</a>.<br /> </td> 
+   <td> Vedere <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guardare questo <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
