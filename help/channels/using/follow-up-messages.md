@@ -7,37 +7,44 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '791'
 ht-degree: 4%
 
 ---
 
 
-# Messaggi di follow-up{#follow-up-messages}
+# Messaggi di follow-up {#follow-up-messages}
 
-Puoi inviare un messaggio di follow-up ai clienti che hanno ricevuto un messaggio transazionale specifico. A questo scopo, dovete impostare un flusso di lavoro per l&#39;evento corrispondente.
+Un messaggio di follow-up è un modello di consegna marketing predefinito che può essere utilizzato in un flusso di lavoro per inviare un&#39;altra comunicazione ai destinatari di un messaggio transazionale specifico.
 
-Riutilizziamo l&#39;esempio descritto nella sezione relativa al principio [operativo dei messaggi](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) transazionali: un messaggio e-mail di abbandono del carrello viene inviato agli utenti del sito Web che hanno aggiunto prodotti al carrello, ma hanno lasciato il sito senza procedere con i loro acquisti.
+Riutilizziamo l&#39;esempio descritto nella sezione [Principio operativo dei messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle): un messaggio e-mail di abbandono del carrello viene inviato agli utenti del sito Web che hanno aggiunto prodotti al carrello, ma hanno lasciato il sito senza procedere con i loro acquisti.
 
-Desiderate inviare un promemoria amichevole a tutti i clienti che hanno ricevuto la notifica di abbandono del carrello ma che non l&#39;hanno aperta dopo tre giorni.
+Desiderate inviare un promemoria amichevole a tutti i clienti che hanno ricevuto la notifica di abbandono del carrello ma che non l&#39;hanno aperta dopo tre giorni. Riceveranno un messaggio di follow-up basato sugli stessi dati utilizzati nella prima e-mail inviata.
 
-Ogni cliente interessato riceverà quindi un messaggio di follow-up basato sugli stessi dati utilizzati nella prima e-mail inviata.
+## Configurazione di un evento per inviare un messaggio di follow-up {#configuring-an-event-to-send-a-follow-up-message}
+
+Per inviare un messaggio di follow-up, è innanzitutto necessario configurare di conseguenza l&#39;evento corrispondente al messaggio transazionale già ricevuto.
+
+1. Utilizzate la stessa configurazione evento creata per inviare un messaggio di transazione evento. Vedere [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md).
+1. Durante la configurazione dell&#39;evento, selezionate la casella **[!UICONTROL Create follow-up delivery template for this event]** prima di pubblicare l&#39;evento.
+
+   ![](assets/message-center_follow-up-checkbox.png)
+
+1. [Visualizzate l’anteprima e pubblicate l’evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+
+Una volta pubblicato l’evento, vengono automaticamente creati un messaggio transazionale e un modello di consegna di follow-up collegato al nuovo evento. I passaggi per inviare il messaggio di follow-up sono descritti in [questa sezione](#sending-a-follow-up-message).
 
 ## Accesso ai messaggi di follow-up {#accessing-the-follow-up-messages}
 
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) above), the corresponding transactional message and follow-up message are created automatically.
-
-The configuration steps are presented in the [Configuring an event to send a follow-up message](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message) section.
-
-Per gestire un evento in un flusso di lavoro, è necessario un modello di consegna. Tuttavia, quando si pubblica l&#39;evento, il messaggio [](../../channels/using/event-transactional-messages.md) transazionale creato non può essere utilizzato come modello. Pertanto, è necessario creare un modello di consegna di follow-up specifico progettato per supportare questo tipo di evento e da utilizzare come modello in un flusso di lavoro.
+Per gestire un evento in un flusso di lavoro, è necessario un modello di consegna. Tuttavia, quando si pubblica l&#39;evento, il [messaggio transazionale](../../channels/using/editing-transactional-message.md) creato non può essere utilizzato come modello. Pertanto, è necessario creare un modello di consegna di follow-up specifico progettato per supportare questo tipo di evento e da utilizzare come modello in un flusso di lavoro.
 
 Per accedere a questo modello:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Fate clic sul logo **[!UICONTROL Adobe Campaign]**, nell&#39;angolo in alto a sinistra.
 1. Seleziona **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
-1. Selezionare la **[!UICONTROL Follow-up messages]** casella nel riquadro a sinistra.
+1. Selezionare la casella **[!UICONTROL Follow-up messages]** nel riquadro a sinistra.
 
    ![](assets/message-center_follow-up-search.png)
 
@@ -51,19 +58,21 @@ Vengono visualizzati solo i messaggi di follow-up.
 
 Dopo aver creato il modello di consegna di follow-up, potete usarlo in un flusso di lavoro per inviare un messaggio di follow-up.
 
+(È necessario impostare un flusso di lavoro di targeting dell&#39;evento corrispondente al messaggio transazionale già ricevuto.)
+
 1. Accedi all&#39;elenco delle attività di marketing e crea un nuovo flusso di lavoro.
 
-   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   Vedere [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow and open it. Impostate la frequenza di esecuzione su una volta al giorno.
+1. Trascinate e rilasciate un&#39;attività **[!UICONTROL Scheduler]** nel flusso di lavoro per aprirla. Impostate la frequenza di esecuzione su una volta al giorno.
 
-   L&#39;attività Scheduler viene presentata nella sezione [Scheduler](../../automating/using/scheduler.md) .
+   L&#39;attività Scheduler viene presentata nella sezione [Scheduler](../../automating/using/scheduler.md).
 
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
+1. Trascinate e rilasciate un&#39;attività **[!UICONTROL Query]** nel flusso di lavoro per aprirla.
 
-   L&#39;attività Query viene presentata nella sezione [Query](../../automating/using/query.md) .
+   L&#39;attività Query viene presentata nella sezione [Query](../../automating/using/query.md).
 
-1. Per eseguire la query su una risorsa diversa dalla risorsa del profilo, andate alla **[!UICONTROL Properties]** scheda dell&#39;attività e fate clic sull&#39;elenco a **[!UICONTROL Resource]** discesa.
+1. Per eseguire la query su una risorsa diversa dalla risorsa del profilo, andate alla scheda **[!UICONTROL Properties]** dell&#39;attività e fate clic sull&#39;elenco a discesa **[!UICONTROL Resource]**.
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -75,35 +84,35 @@ Dopo aver creato il modello di consegna di follow-up, potete usarlo in un flusso
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Passate alla **[!UICONTROL Target]** scheda dell&#39;attività e trascinate l&#39; **[!UICONTROL Delivery logs (logs)]** elemento dalla palette nell&#39;area di lavoro.
+1. Andate alla scheda **[!UICONTROL Target]** dell&#39;attività, quindi trascinate l&#39;elemento **[!UICONTROL Delivery logs (logs)]** dalla palette all&#39;area di lavoro.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Selezionate **[!UICONTROL Exists]** per eseguire il targeting di tutti i clienti che hanno ricevuto l’e-mail.
+   Selezionate **[!UICONTROL Exists]** per eseguire il targeting di tutti i clienti che hanno ricevuto l&#39;e-mail.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Spostate l’ **[!UICONTROL Tracking logs (tracking)]** elemento dalla palette all’area di lavoro e selezionate **[!UICONTROL Does not exist]** per eseguire il targeting di tutti i clienti che non hanno aperto l’e-mail.
+1. Spostate l&#39;elemento **[!UICONTROL Tracking logs (tracking)]** dalla palette all&#39;area di lavoro e selezionate **[!UICONTROL Does not exist]** per eseguire il targeting di tutti i clienti che non hanno aperto l&#39;e-mail.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. Trascinare l&#39;evento di destinazione (abbandono **del** carrello in questo esempio) dalla palette all&#39;area di lavoro. Definite quindi una regola per eseguire il targeting di tutti i messaggi inviati tre giorni fa.
+1. Trascinare l&#39;evento di destinazione (**abbandono carrello** in questo esempio) dalla palette all&#39;area di lavoro. Definite quindi una regola per eseguire il targeting di tutti i messaggi inviati tre giorni fa.
 
    ![](assets/message-center_follow-up-created.png)
 
    Questo significa che tutti i destinatari che hanno ricevuto il messaggio transazionale tre giorni prima dell&#39;esecuzione del flusso di lavoro e che non l&#39;hanno ancora aperto, vengono assegnati al targeting.
 
-   Click **[!UICONTROL Confirm]** to save the query.
+   Fare clic su **[!UICONTROL Confirm]** per salvare la query.
 
-1. Drag and drop an **Email delivery** activity into your workflow.
+1. Trascinate e rilasciate un&#39;attività **Invia per e-mail** nel flusso di lavoro.
 
-   L&#39;attività di distribuzione e-mail viene presentata nella sezione relativa alla consegna [](../../automating/using/email-delivery.md) tramite e-mail.
+   L&#39;attività di distribuzione e-mail viene presentata nella sezione [Invio e-mail](../../automating/using/email-delivery.md).
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   Potete anche utilizzare un&#39;attività di consegna [](../../automating/using/sms-delivery.md) SMS o di distribuzione [di app](../../automating/using/push-notification-delivery.md) Mobile. In questo caso, accertatevi di selezionare il **[!UICONTROL Mobile (SMS)]** **[!UICONTROL Mobile application]** canale o il canale al momento della creazione della configurazione dell&#39;evento. Vedi [Creazione di un evento](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+   È inoltre possibile utilizzare un&#39;attività [invio di SMS](../../automating/using/sms-delivery.md) o [invio di notifiche push](../../automating/using/push-notification-delivery.md). In questo caso, accertatevi di selezionare il canale **[!UICONTROL Mobile (SMS)]** o **[!UICONTROL Mobile application]** al momento della creazione della configurazione dell&#39;evento. Vedi [Creazione di un evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
-1. Aprite l&#39;attività di consegna **tramite e-** mail. Nella procedura guidata di creazione, selezionate la **[!UICONTROL Follow-up messages]** casella e selezionate il modello di consegna successivo creato dopo la pubblicazione dell’evento.
+1. Aprite l&#39;attività **Invio e-mail**. Nella procedura guidata di creazione, selezionate la casella **[!UICONTROL Follow-up messages]** e il modello di consegna di follow-up creato dopo la pubblicazione dell&#39;evento.
 
    ![](assets/message-center_follow-up-template.png)
 
@@ -111,7 +120,7 @@ Dopo aver creato il modello di consegna di follow-up, potete usarlo in un flusso
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Trovate i campi definiti al momento della creazione dell’evento selezionando **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. See [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+1. Trovate i campi definiti al momento della creazione dell&#39;evento selezionando **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**. Vedere [Personalizzazione di un messaggio transazionale](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -123,4 +132,4 @@ Una volta avviato il flusso di lavoro, ogni cliente che ha ricevuto la notifica 
 
 >[!NOTE]
 >
->Se hai selezionato la dimensione di **[!UICONTROL Profile]** targeting al momento della creazione della configurazione dell&#39;evento, il messaggio di follow-up utilizzerà anche il database di marketing di Adobe Campaign . Vedi [Messaggi transazionali di profilo](../../channels/using/profile-transactional-messages.md).
+>Se al momento della creazione della configurazione dell&#39;evento avete selezionato la dimensione di targeting **[!UICONTROL Profile]**, il messaggio di follow-up utilizzerà anche il database di marketing  Adobe Campaign. Vedi [Messaggi transazionali di profilo](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
