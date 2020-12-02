@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * È stato risolto un problema relativo all’attività del flusso di lavoro **Arricchimento** che poteva verificarsi quando si aggiungevano spazi nel campo **Alias** e creava un nuovo elemento riga. (CAMP-39229)
 * È stato risolto un problema a causa del quale ogni profilo di test poteva essere oggetto di targeting durante l’invio di un messaggio di bozza.
-* È stato risolto un problema che si verificava dopo l’annullamento della pubblicazione e l’eliminazione di una configurazione di evento. [Ulteriori informazioni](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+* È stato risolto un problema che si verificava dopo l’annullamento della pubblicazione e l’eliminazione di una configurazione di evento. [Ulteriori informazioni](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 * È stato risolto un problema che causava la scomparsa del pulsante **Save** quando si apportavano modifiche ai flussi di lavoro.
 * È stato risolto un problema che si verificava durante l’eliminazione manuale di una richiesta di accesso a dati personali in Campaign a seguito dell’elaborazione, a causa del quale i dati associati alla richiesta non potevano essere eliminati anche dopo la pulizia.
 * È stato risolto un problema che poteva verificarsi durante l’anteprima o l’invio di messaggi che includevano caratteri speciali da Adobe Experience Manager.
