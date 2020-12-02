@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guida a Campaign Standard
 translation-type: tm+mt
-source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 99%
+source-wordcount: '1681'
+ht-degree: 98%
 
 ---
 
@@ -119,11 +119,16 @@ ht-degree: 99%
       + [Definizione del contenuto della direct mailing](channels/using/defining-the-direct-mail-content.md)
    + Messaggi transazionali {#transactional-messaging}
       + [Guida introduttiva ai messaggi transazionali](channels/using/getting-started-with-transactional-msg.md)
-      + [Limitazioni della messaggistica transazionale](channels/using/transactional-messaging-limitations.md)
-      + [Messaggi sulle transazioni degli eventi](channels/using/event-transactional-messages.md)
-      + [Messaggi sulle transazioni di profilo](channels/using/profile-transactional-messages.md)
+      + [Best practice per i messaggi transazionali](channels/using/transactional-messaging-limitations.md)
+      + Configurazione evento {#event-configuration}
+         + [Configurazione di un evento transazionale](channels/using/configuring-transactional-event.md)
+         + [Pubblicazione di un evento transazionale](channels/using/publishing-transactional-event.md)
+      + Edizione dei messaggi transazionali {#transactional-message-edition}
+         + [Modifica di un messaggio transattivo](channels/using/editing-transactional-message.md)
+         + [Pubblicazione di un messaggio sulle transazioni](channels/using/publishing-transactional-message.md)
       + [Notifiche push transazionali](channels/using/transactional-push-notifications.md)
       + [Messaggi di follow-up](channels/using/follow-up-messages.md)
+      + [Caso di utilizzo di messaggi transazionali](channels/using/transactional-messaging-use-case.md)
    + Pagine di destinazione {#landing-pages}
       + [Guida introduttiva alle pagine di destinazione](channels/using/getting-started-with-landing-pages.md)
       + [Informazioni sui modelli di pagina di destinazione](channels/using/landing-page-templates.md)
@@ -430,7 +435,6 @@ ht-degree: 99%
       + [Configurazione del canale e-mail](administration/using/configuring-email-channel.md)
       + [Configurazione del canale SMS](administration/using/configuring-sms-channel.md)
       + [Configurazione di un’applicazione mobile](administration/using/configuring-a-mobile-application.md)
-      + [Configurazione della messaggistica transazionale](administration/using/configuring-transactional-messaging.md)
    + Configurazione dei canali mobili {#configuring-mobile}
       + [Implementazione del tracciamento push](administration/using/push-tracking.md)
       + [Aggiunta di immagini e video iOS](administration/using/image-push-notification.md)
