@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Per applicare le modifiche eseguite sulle risorse, devi eseguire un aggiornament
 
 >[!NOTE]
 >
->Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. Consulta [Configurazione della messaggistica transazionale](../../administration/using/configuring-transactional-messaging.md).
+>Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. Vedere [Annullamento della pubblicazione di un evento transazionale](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Development]**, quindi **[!UICONTROL Publishing]**.
 1. Per impostazione predefinita, è selezionata l’opzione **[!UICONTROL Determine modifications since the last publication]**, il che significa che vengono applicate solo le modifiche eseguite dall’ultimo aggiornamento.
