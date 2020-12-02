@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -203,9 +203,9 @@ ht-degree: 8%
 
 * Grazie all&#39;integrazione con Adobe Experience Platform Location Services,  Adobe Campaign è ora compatibile per inviare messaggi di marketing basati sulla posizione agli abbonati dell&#39;applicazione mobile tramite l&#39;SDK del Experience Platform di . Per ulteriori informazioni, consulta la [documentazione dettagliata](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * La funzione di reporting è stata migliorata per migliorare l&#39;esperienza. Per utilizzare questa funzione, devi accettare il contratto di utilizzo di reporting dinamico. Per ulteriori informazioni, consultare la [documentazione dettagliata](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* Nei flussi di lavoro, è stata aggiunta una nuova opzione per visualizzare in anteprima le dieci esecuzioni successive di un flusso di lavoro. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* Nell&#39;attività Scheduler, una nuova opzione consente di selezionare un giorno specifico di una settimana per le consegne mensili. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* Quando si creano consegne ricorrenti senza periodo di aggregazione, il dashboard di consegna ora consente di richiedere la conferma prima dell&#39;invio. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* Nei flussi di lavoro, è stata aggiunta una nuova opzione per visualizzare in anteprima le dieci esecuzioni successive di un flusso di lavoro. Per ulteriori informazioni, consultare la [documentazione dettagliata](../../automating/using/scheduler.md).
+* Nell&#39;attività Scheduler, una nuova opzione consente di selezionare un giorno specifico di una settimana per le consegne mensili. Per ulteriori informazioni, consultare la [documentazione dettagliata](../../automating/using/scheduler.md).
+* Quando si creano consegne ricorrenti senza periodo di aggregazione, il dashboard di consegna ora consente di richiedere la conferma prima dell&#39;invio. Per ulteriori informazioni, consultare la [documentazione dettagliata](../../sending/using/confirming-the-send.md).
 * Ora puoi personalizzare l&#39;etichetta di una consegna con le variabili evento dichiarate nell&#39;attività del segnale esterno del flusso di lavoro. Per ulteriori informazioni, consultare la [documentazione dettagliata](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * La query di eliminazione GDPR è stata migliorata per migliorare le prestazioni. (CAMP-33504)
 * L&#39;opzione &quot;ftp&quot; è stata rimossa dall&#39;interfaccia di configurazione dell&#39;account esterno. (CAMP-34472)
@@ -488,7 +488,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 **Altre modifiche**
 
-*  Adobe Campaign e Adobe Experience Cloud cesseranno il supporto per Microsoft Internet Explorer 11 a partire dalla release Primavera 2019 e Campaign Standard 19.2. Passate a Microsoft Edge o a un altro browser supportato. Vedere la pagina [Funzioni obsolete e rimosse](../../rn/using/deprecated-features.md).
+*  Adobe Campaign e Adobe Experience Cloud cesseranno il supporto per Microsoft Internet Explorer 11 a partire dalla release Primavera 2019 e Campaign Standard 19.2. Passa a Microsoft Edge o a un altro browser supportato. Vedere la pagina [Funzioni obsolete e rimosse](../../rn/using/deprecated-features.md).
 * Il campo **Codice paese** della risorsa Profilo è stato rinominato in **Codice paese/regione**.
 
 **Patch**
@@ -539,7 +539,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
   </tr> 
   <tr> 
    <td> Elenco prodotti nelle e-mail transazionali<br /> </td> 
-   <td> <p>Ora potete fare riferimento a una o più raccolte di prodotti in un messaggio e-mail transazionale. Ad esempio, puoi inviare automaticamente un messaggio e-mail di abbandono del carrello in cui sono elencati tutti i prodotti inclusi nel carrello dell'utente con un'immagine, un prezzo e un collegamento a ciascun prodotto.</p><p>Per ulteriori informazioni, consulta la <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html">video tutorial</a>.</p> </td> 
+   <td> <p>Ora potete fare riferimento a una o più raccolte di prodotti in un messaggio e-mail transazionale. Ad esempio, puoi inviare automaticamente un messaggio e-mail di abbandono del carrello in cui sono elencati tutti i prodotti inclusi nel carrello dell'utente con un'immagine, un prezzo e un collegamento a ciascun prodotto.</p><p>Per ulteriori informazioni, consulta la <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html">video tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Visualizzazione mobile in E-mail Designer<br /> </td> 
