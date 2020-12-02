@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Il contenuto dell’e-mail può essere modificato in  Experience Manager e quind
 >title="Utilizzo delle inserzioni di prodotti"
 >abstract="L&#39;elenco dei prodotti consente di fare riferimento a una raccolta di dati e di visualizzarla nel contenuto dell&#39;e-mail."
 
-L&#39;elenco dei prodotti consente di fare riferimento a una o più raccolte di dati nel contenuto dell&#39;e-mail. Questi elenchi sono disponibili per le e-mail transazionali. Una sezione dedicata per questa funzione è disponibile [qui](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+L&#39;elenco dei prodotti consente di fare riferimento a una o più raccolte di dati nel contenuto dell&#39;e-mail. Questi elenchi sono disponibili per le e-mail transazionali. Una sezione dedicata per questa funzione è disponibile [qui](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
 ## Confronto delle opzioni di progettazione e-mail {#email-design-options-comparison}
 
