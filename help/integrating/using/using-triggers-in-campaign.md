@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '725'
+ht-degree: 87%
 
 ---
 
@@ -77,7 +77,7 @@ Una volta pubblicato l’evento, viene automaticamente creato un modello transaz
 
 Dopo aver creato e pubblicato l’evento trigger, viene creato il modello transazionale corrispondente. Per ulteriori informazioni, consulta la sezione [Creazione di un trigger mappato in Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Affinché l’evento attivi l’invio di un messaggio sulle transazioni, è necessario che personalizzi tale modello, per poi testarlo e infine pubblicarlo. Questi passaggi sono i medesimi di un messaggio sulle transazioni standard. Per ulteriori informazioni, consultare la sezione [Modifica di un messaggio transazionale](../../channels/using/editing-transactional-message.md).
+Affinché l’evento attivi l’invio di un messaggio sulle transazioni, è necessario che personalizzi tale modello, per poi testarlo e infine pubblicarlo. Questi passaggi sono i medesimi di un messaggio sulle transazioni standard. Per ulteriori informazioni, consulta la sezione [Modello transazionale](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
 >[!NOTE]
 >
