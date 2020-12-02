@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -539,7 +539,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
   </tr> 
   <tr> 
    <td> Elenco prodotti nelle e-mail transazionali<br /> </td> 
-   <td> <p>Ora potete fare riferimento a una o più raccolte di prodotti in un messaggio e-mail transazionale. Ad esempio, puoi inviare automaticamente un messaggio e-mail di abbandono del carrello in cui sono elencati tutti i prodotti inclusi nel carrello dell'utente con un'immagine, un prezzo e un collegamento a ciascun prodotto.</p><p>Per ulteriori informazioni, consulta la <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html">video tutorial</a>.</p> </td> 
+   <td> <p>Ora potete fare riferimento a una o più raccolte di prodotti in un messaggio e-mail transazionale. Ad esempio, puoi inviare automaticamente un messaggio e-mail di abbandono del carrello in cui sono elencati tutti i prodotti inclusi nel carrello dell'utente con un'immagine, un prezzo e un collegamento a ciascun prodotto.</p><p>Per ulteriori informazioni, consulta la <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">documentazione dettagliata</a> e il <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html">video tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Visualizzazione mobile in E-mail Designer<br /> </td> 
