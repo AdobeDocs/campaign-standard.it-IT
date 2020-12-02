@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 22%
+source-wordcount: '524'
+ht-degree: 21%
 
 ---
 
@@ -32,9 +32,9 @@ Armonizzare tutti i canali di marketing non è un compito impossibile. Con l&#39
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Sfruttate la dashboard** dei messaggi di Campaign per configurare e inviare i messaggi da un&#39;unica posizione, nonché per accedere a varie funzionalità come la pianificazione, la messaggistica multilingue...
+**Utilizza i** dashboard dei messaggi di Campaign per configurare e inviare i messaggi da un&#39;unica posizione, nonché per accedere a varie funzionalità come la pianificazione, la messaggistica multilingue...
 
-**Gestisci i modelli** per configurare le proprietà dei messaggi e consentirti di guadagnare tempo e coerenza nella strategia di messaggistica. Ad esempio, per le e-mail, l&#39;amministratore funzionale incaricato della configurazione dei modelli può definire i parametri standard di un&#39;e-mail, come il pubblico, la pianificazione o il contenuto, i parametri avanzati relativi all&#39;invio, alla validità, al tracciamento, ecc., o i parametri pre-configurazione relativi al targeting e alla personalizzazione (contesto di targeting).
+**Gestire** i modelli per configurare le proprietà dei messaggi e consentire di guadagnare tempo e coerenza nella strategia di messaggistica. Ad esempio, per le e-mail, l&#39;amministratore funzionale incaricato della configurazione dei modelli può definire i parametri standard di un&#39;e-mail, come il pubblico, la pianificazione o il contenuto, i parametri avanzati relativi all&#39;invio, alla validità, al tracciamento, ecc., o i parametri pre-configurazione relativi al targeting e alla personalizzazione (contesto di targeting).
 
 Leggi tutto:
 
@@ -48,11 +48,11 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**In  Adobe Campaign sono disponibili cinque canali** di comunicazione: E-mail, SMS, notifica push, messaggio in-app e consegna diretta.
+**In  Adobe Campaign sono disponibili cinque** canali di comunicazione: E-mail, SMS, notifica push, messaggio in-app e consegna diretta.
 
 Per ciascun canale sono disponibili funzionalità specifiche. Ad esempio, il canale e-mail consente di eseguire test A/B per testare fino a 3 versioni di un messaggio e-mail. Con il canale SMS, gestisci i messaggi STOP SMS e archivia gli SMS in arrivo dai destinatari nel tuo database.
 
-Inoltre, sfruttate la **personalizzazione Campaign Standard e le funzionalità** di contenuti dinamici per catturare l&#39;interesse del pubblico.
+Inoltre, puoi sfruttare le funzionalità di personalizzazione e contenuti dinamici dei Campaign Standard **per catturare l&#39;interesse del pubblico.**
 
 Leggi tutto:
 
@@ -66,16 +66,17 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Invia messaggi** singoli e univoci ai clienti in tempo reale: messaggi di benvenuto, conferme di spedizione ordini, modifica della password, ecc.
+**Invia** messaggi singoli e unici ai clienti in tempo reale: messaggi di benvenuto, conferme di spedizione ordini, modifica della password, ecc.
 
-I messaggi transazionali sono disponibili per i canali di e-mail, SMS e notifiche push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi** transazionali evento con targeting di eventi senza informazioni di profilo e messaggi **transazionali di** profilo con targeting di profili dal database.
+I messaggi transazionali sono disponibili per i canali di e-mail, SMS e notifiche push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi transazionali evento** eventi di targeting senza informazioni di profilo e **messaggi transazionali di profilo** profili di targeting dal database.
 
 Leggi tutto:
 
-* [Informazioni sui messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md)
 * [Guida introduttiva ai messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md)
-* [Messaggi sulle transazioni degli eventi](../../channels/using/event-transactional-messages.md)
-* [Messaggi sulle transazioni di profilo](../../channels/using/profile-transactional-messages.md)
+* [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md)
+* [Pubblicazione di un evento transazionale](../../channels/using/publishing-transactional-event.md)
+* [Modifica di un messaggio transattivo](../../channels/using/editing-transactional-message.md)
+* [Pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md)
 * [Notifiche push transazionali](../../channels/using/transactional-push-notifications.md)
 * [Messaggi di follow-up](../../channels/using/follow-up-messages.md)
 
@@ -83,9 +84,9 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign viene fornito con pagine di destinazione, moduli Web che possono essere utilizzati per **acquisire informazioni sui tipi di pubblico**, offrire iscrizioni a un servizio, visualizzare i dati e ampliare il database.
+Campaign viene fornito con pagine di destinazione che sono moduli Web che possono essere utilizzati per **acquisire informazioni sui tipi di pubblico**, offrire iscrizioni a un servizio, visualizzare i dati e ampliare il database.
 
-Le pagine di destinazione possono essere utilizzate anche per **acquisire o aggiornare i profili** esistenti, e per impostare un meccanismo di doppio consenso, che consente di proteggere la piattaforma da indirizzi e-mail o spambots errati o non validi.
+Le pagine di destinazione possono essere utilizzate anche per **acquisire o aggiornare i profili esistenti** e per impostare un doppio meccanismo di consenso, che consente di proteggere la piattaforma da indirizzi e-mail o spambots errati o non validi.
 
 Leggi tutto:
 
