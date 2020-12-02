@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 [Pianificazione del rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | [Versioni del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2019.md) | [Funzioni obsolete](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
-![](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo Campaign di giugno** con monitoraggio dei profili attivi, audit del recapito messaggi del sottodominio e gestione delle chiavi GPG. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo Campaign di giugno** con monitoraggio dei profili attivi, audit del recapito messaggi del sottodominio e gestione delle chiavi GPG. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Versione 20.3 - maggio 2020 {#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 99%
 * È stato corretto un errore che impediva agli utenti di apportare modifiche ai rapporti. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nuova versione di maggio del Pannello di controllo Campaign** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuova versione di maggio del Pannello di controllo Campaign** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori informazioni](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Versione 20.2 - Aprile 2020 {#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Nuove funzionalità verranno rilasciate nel Pannello di controllo Campaign ad aprile, tra cui la gestione dei record TXT di Google, il monitoraggio dello spazio del database e l’avviso e-mail. Per ulteriori informazioni su queste funzioni, consulta le [Note sulla versione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html).
+>Nuove funzionalità verranno rilasciate nel Pannello di controllo Campaign ad aprile, tra cui la gestione dei record TXT di Google, il monitoraggio dello spazio del database e l’avviso e-mail. Per ulteriori informazioni su queste funzioni, consulta le [Note sulla versione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Miglioramenti**
 
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * È stato risolto un problema relativo all’attività del flusso di lavoro **Arricchimento** che poteva verificarsi quando si aggiungevano spazi nel campo **Alias** e creava un nuovo elemento riga. (CAMP-39229)
 * È stato risolto un problema a causa del quale ogni profilo di test poteva essere oggetto di targeting durante l’invio di un messaggio di bozza.
-* È stato risolto un problema che si verificava dopo l’annullamento della pubblicazione e l’eliminazione di una configurazione di evento. [Ulteriori informazioni](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* È stato risolto un problema che si verificava dopo l’annullamento della pubblicazione e l’eliminazione di una configurazione di evento. [Ulteriori informazioni](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * È stato risolto un problema che causava la scomparsa del pulsante **Save** quando si apportavano modifiche ai flussi di lavoro.
 * È stato risolto un problema che si verificava durante l’eliminazione manuale di una richiesta di accesso a dati personali in Campaign a seguito dell’elaborazione, a causa del quale i dati associati alla richiesta non potevano essere eliminati anche dopo la pulizia.
 * È stato risolto un problema che poteva verificarsi durante l’anteprima o l’invio di messaggi che includevano caratteri speciali da Adobe Experience Manager.
