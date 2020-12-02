@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
   </tr> 
   <tr> 
    <td> Integrazione  lancio Adobe per le app mobili (beta)<br /> </td> 
-   <td> 'integrazione Launch di Adobe con  Adobe Campaign ora semplifica e automatizza il processo di attivazione delle proprietà dell'app mobile in Campaign utilizzando Mobile SDK V5.<br /> Per ulteriori informazioni, consulta la <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html">documentazione dettagliata</a>.<br /> </td> 
+   <td> 'integrazione Launch di Adobe con  Adobe Campaign ora semplifica e automatizza il processo di attivazione delle proprietà dell'app mobile in Campaign utilizzando Mobile SDK V5.<br /> Per ulteriori informazioni, consulta la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +131,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
 **Altre modifiche**
 
 * Il timeout di condivisione dei report è stato aumentato da uno a quattro minuti per evitare qualsiasi errore di timeout.
-* Quando modificate il contenuto di un messaggio e-mail, per impostazione predefinita viene aperto il nuovo Creative Designer. Se lo desiderate, potete comunque tornare all&#39;editor di contenuti predefinito in qualsiasi momento dopo aver salvato le modifiche. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
+* Quando modificate il contenuto di un messaggio e-mail, per impostazione predefinita viene aperto il nuovo Creative Designer. Se lo desiderate, potete comunque tornare all&#39;editor di contenuti predefinito in qualsiasi momento dopo aver salvato le modifiche. Per ulteriori informazioni, consultare la [documentazione dettagliata](../../designing/using/designing-content-in-adobe-campaign.md).
 * In Creative Designer, è ora possibile aggiungere un nuovo componente contenuto a un messaggio e-mail: il carosello. Per ulteriori informazioni, consultare la [documentazione dettagliata](../../designing/using/designing-from-scratch.md#about-content-components).
 * In un rapporto con un clic del messaggio di transazione, quando si fa clic sul pulsante **Modifica profilo**, vengono elencati solo i profili di test collegati all&#39;evento definito per il messaggio di transazione.
 
@@ -165,7 +165,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
 * Nel **Aggiornamento per la recapito** flusso di lavoro tecnico out-of-the-box, gli amministratori funzionali ora possono definire il numero di errori consecutivi da ignorare nell&#39;attività javascript **Aggiorna regole**. Per impostazione predefinita, il valore del campo è impostato su 0, il che significa che tutti gli errori verranno ignorati.
 * Il SQL generato durante la gestione delle condizioni di restrizione dell&#39;accesso dell&#39;unità è stato ottimizzato.
 * L&#39;attività **[!UICONTROL Update]** ora consente di aggiungere, aggiornare o eliminare dati relativi alle iscrizioni (tabella nms:appSubscriptionRcp).
-* Il flusso di lavoro tecnico **[!UICONTROL Update delivery execution]** è stato suddiviso in due flussi di lavoro per ottimizzare le prestazioni: - **[!UICONTROL Update delivery execution]**: aggiorna il tracciamento della consegna. Per impostazione predefinita, viene avviata ogni 10 minuti. **[!UICONTROL Update delivery indicators]**: aggiorna i KPI della consegna, che vengono avviati ogni ora per impostazione predefinita. For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* Il flusso di lavoro tecnico **[!UICONTROL Update delivery execution]** è stato suddiviso in due flussi di lavoro per ottimizzare le prestazioni: - **[!UICONTROL Update delivery execution]**: aggiorna il tracciamento della consegna. Per impostazione predefinita, viene avviata ogni 10 minuti. **[!UICONTROL Update delivery indicators]**: aggiorna i KPI della consegna, che vengono avviati ogni ora per impostazione predefinita. Per ulteriori informazioni sui flussi di lavoro tecnici, consultare la sezione [a1/>.](../../administration/using/technical-workflows.md#list-of-technical-workflows)
 * Quando una consegna invia messaggi, lo stato nella sezione **[!UICONTROL Deployment]** può ora avere due valori: **[!UICONTROL Sending]**: i messaggi vengono inviati. **[!UICONTROL Sending (retry)]**: è in corso un nuovo passaggio.
 * Gli utenti con il ruolo **[!UICONTROL Delivery preparation]** ora possono inviare le prove di stampa. (CAMP-24313)
 * L&#39;opzione **Abilita TLS su SMPP** è stata aggiunta al routing **SMS tramite l&#39;account esterno SMPP**. Per ulteriori informazioni, consultare la sezione [sezione](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
@@ -305,7 +305,7 @@ _Risorse personalizzate_
     <ul> 
      <li> Diritto di accesso: consente all'Oggetto dati di ricevere una copia dei propri dati personali acquisiti dai Controllori dati, che possono includere dati memorizzati in  Adobe Campaign. </li> 
      <li> Destra per eliminare: autorizza l'Oggetto dati a cancellare i propri dati personali acquisiti dai Controllori dati, potenzialmente includendo i dati memorizzati in  Adobe Campaign. </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer per e-mail (Beta)<br /> </td> 
@@ -327,7 +327,7 @@ _Risorse personalizzate_
     <ul> 
      <li> Utilizza i campi personalizzati come criteri di riconciliazione per far corrispondere un messaggio transazionale a un profilo </li> 
      <li> Sfruttare profili completi, servizi e dati collegati per personalizzare ulteriormente i messaggi relativi alle transazioni </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="../../administration/using/configuring-transactional-messaging.md">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta la <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
