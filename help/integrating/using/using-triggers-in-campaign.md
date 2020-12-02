@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 87%
+source-wordcount: '727'
+ht-degree: 85%
 
 ---
 
@@ -45,21 +45,21 @@ I passaggi per implementare ciò sono i seguenti:
 
    ![](assets/remarketing_4.png)
 
-1. Ora puoi pubblicare i trigger. Per ulteriori informazioni, consulta [Pubblicazione di un attivatore in Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+1. Ora puoi pubblicare i trigger. Per ulteriori informazioni, consultare [Pubblicazione di un trigger in Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
-## Pubblicazione di un trigger in Campaign {#publishing-trigger-in-campaign}
+## Pubblicazione di un trigger nella campagna {#publishing-trigger-in-campaign}
 
 Dopo aver creato un evento di attivazione in  Adobe Campaign basato su un trigger Adobe Experience Cloud esistente, è ora necessario pubblicarlo.
 
-1. Dal trigger creato in precedenza, fare clic sul **[!UICONTROL Publish]** pulsante per avviare la pubblicazione dell&#39;evento trigger.
+1. Dal trigger creato in precedenza, fare clic sul pulsante **[!UICONTROL Publish]** per avviare la pubblicazione dell&#39;evento trigger.
 
    ![](assets/trigger_publish_1.png)
 
-1. È possibile controllare l&#39;avanzamento della pubblicazione attivatore in **[!UICONTROL Publication]**.
+1. È possibile controllare l&#39;avanzamento della pubblicazione dell&#39;attivatore in **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_2.png)
 
-1. Al termine della pubblicazione, sotto verrà visualizzato il messaggio seguente **[!UICONTROL Publication]**.
+1. Al termine della pubblicazione, il seguente messaggio verrà visualizzato in **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 
@@ -69,7 +69,7 @@ Dopo aver creato un evento di attivazione in  Adobe Campaign basato su un trigge
 
    ![](assets/trigger_publish_4.png)
 
-1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
+1. Fare clic sul pulsante **[!UICONTROL Show Trigger in Experience Cloud]** per visualizzare la definizione dell&#39;attivatore in Adobe Experience Cloud.
 
 Una volta pubblicato l’evento, viene automaticamente creato un modello transazionale collegato al nuovo evento. Dovrai quindi modificare e pubblicare il modello appena creato. Per ulteriori informazioni, consulta la sezione [Modifica del modello](../../start/using/marketing-activity-templates.md) .
 
@@ -77,7 +77,7 @@ Una volta pubblicato l’evento, viene automaticamente creato un modello transaz
 
 Dopo aver creato e pubblicato l’evento trigger, viene creato il modello transazionale corrispondente. Per ulteriori informazioni, consulta la sezione [Creazione di un trigger mappato in Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Affinché l’evento attivi l’invio di un messaggio sulle transazioni, è necessario che personalizzi tale modello, per poi testarlo e infine pubblicarlo. Questi passaggi sono i medesimi di un messaggio sulle transazioni standard. Per ulteriori informazioni, consulta la sezione [Modello transazionale](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+Affinché l’evento attivi l’invio di un messaggio sulle transazioni, è necessario che personalizzi tale modello, per poi testarlo e infine pubblicarlo. Questi passaggi sono i medesimi di un messaggio sulle transazioni standard. Per ulteriori informazioni, consultare la sezione [Modifica di un messaggio transazionale](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
