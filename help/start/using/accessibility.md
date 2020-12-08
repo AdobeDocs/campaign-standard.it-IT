@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,6 @@ Durante la progettazione per più dispositivi e piattaforme, è importante crear
 ![](assets/accessibility_6.png)
 
 ## Guida contestuale {#contextual-help}
-
->[!NOTE]
->
-> La guida contestuale è disponibile solo quando si utilizza la finestra di progettazione e-mail.
 
 L’aiuto contestuale consente di comprendere meglio i diversi campi e le diverse funzioni richiesti disponibili. Inoltre, guida l&#39;utente attraverso la documentazione del prodotto per ulteriori informazioni sulla funzione selezionata.
 
