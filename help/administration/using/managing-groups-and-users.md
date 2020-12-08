@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 97%
+source-wordcount: '942'
+ht-degree: 95%
 
 ---
 
@@ -24,15 +24,18 @@ I gruppi di sicurezza sono insiemi di utenti che condividono gli stessi ruoli e 
 
 Gli utenti devono sempre essere collegati a un gruppo di sicurezza. In questo modo, puoi assegnare loro ruoli e unità organizzative specifici.
 
-Per ulteriori informazioni sui ruoli, le tabelle della pagina seguente presentano diverse operazioni disponibili in base ai ruoli di un utente: [Autorizzazioni di Adobe Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+Per ulteriori informazioni sui ruoli, le tabelle della pagina seguente presentano diverse operazioni disponibili in base ai ruoli di un utente: [Autorizzazioni di Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 I gruppi di sicurezza predefiniti sono:
 
 * **[!UICONTROL Administrators]**
 * **[!UICONTROL Delivery supervisors]**
-* **[!UICONTROL Message Center agents]**
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
+
+>[!IMPORTANT]
+>
+>I gruppi di sicurezza **[!UICONTROL Access to the deliverability parameters (Deliverability)]** e **[!UICONTROL Message Center agents (mcExec)]** sono esclusivamente interni e non devono essere assegnati agli utenti.
 
 Se un utente non è collegato ad alcun gruppo di sicurezza, non può accedere ad Adobe Campaign.
 
