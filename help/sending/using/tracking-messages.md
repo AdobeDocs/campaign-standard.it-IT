@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '487'
 ht-degree: 20%
 
 ---
@@ -59,23 +59,23 @@ Il tracciamento con l’Adobe Campaign Standard  consente di accedere alle segue
 </tr>
 </table>
 
-## Tracking logs {#tracking-logs}
+## Registri di monitoraggio {#tracking-logs}
 
-La **[!UICONTROL Tracking logs]** scheda elenca la cronologia di tracciamento per la consegna. In questa scheda vengono visualizzate le informazioni di tracciamento dei messaggi inviati, ad esempio tutti gli URL tracciati da  Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
+La scheda **[!UICONTROL Tracking logs]** elenca la cronologia di tracciamento per la consegna. In questa scheda vengono visualizzate le informazioni di tracciamento dei messaggi inviati, ad esempio tutti gli URL tracciati da  Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
 
 >[!NOTE]
 >
->Se il tracciamento non è abilitato per una consegna, questa scheda non viene visualizzata. I registri di tracciamento sono disponibili solo per i canali di **e-mail** e di notifica **** push.
+>Se il tracciamento non è abilitato per una consegna, questa scheda non viene visualizzata. I registri di tracciamento sono disponibili solo per i canali **email** e **notifica push**.
 
 ![](assets/tracking_logs.png)
 
 Nell&#39;esempio precedente, il destinatario:
 
 * Apertura del messaggio.
+* Fare clic sul collegamento della pagina mirror.
 * Fate clic sul collegamento personalizzato &quot;LEARN MORE&quot;.
-* Fare clic sul collegamento della pagina mirror e dell&#39;annullamento dell&#39;iscrizione.
 
-Nella **[!UICONTROL Type]** colonna, i valori possibili sono:
+Nella colonna **[!UICONTROL Type]**, i valori possibili sono:
 
 * **[!UICONTROL Email click]**: i destinatari hanno fatto clic su un collegamento personalizzato.
 * **[!UICONTROL Mirror page]**: il destinatario ha fatto clic su un collegamento alla pagina mirror.
@@ -84,14 +84,16 @@ Nella **[!UICONTROL Type]** colonna, i valori possibili sono:
 
 >[!NOTE]
 >
->Per il canale di notifica **** push, vengono tracciati solo i clic sulle notifiche per dispositivi mobili. In tal caso, il valore sarà **[!UICONTROL Click on mobile notification]**.
+>Per il canale **notifica push**, vengono tracciati solo i clic sulle notifiche mobili. In tal caso, il valore sarà **[!UICONTROL Click on mobile notification]**.
 
-Per ulteriori informazioni su come inserire i collegamenti di tracciamento, consulta [questa pagina](../../designing/using/links.md#inserting-a-link).
+Per ulteriori informazioni su come inserire i collegamenti di tracciamento, fare riferimento a [questa pagina](../../designing/using/links.md#inserting-a-link).
+
+Il rapporto **[!UICONTROL Tracking indicators]** contiene gli indicatori chiave per il tracciamento del comportamento dopo la ricezione dei messaggi e-mail. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/tracking-indicators.md).
 
 ## URL tracciati {#tracked-urls}
 
-La **[!UICONTROL Tracked URLs]** scheda raggruppa gli URL contenuti nel messaggio inviato, incluso il tipo di URL e l&#39;URL di origine.
+La scheda **[!UICONTROL Tracked URLs]** raggruppa gli URL contenuti nel messaggio inviato, incluso il tipo di URL e l&#39;URL di origine.
 
 ![](assets/sending_delivery6.png)
 
-For more on tracking links, refer to [this section](../../designing/using/links.md#about-tracked-urls).
+Per ulteriori informazioni sui collegamenti di tracciamento, consultare [questa sezione](../../designing/using/links.md#about-tracked-urls).
