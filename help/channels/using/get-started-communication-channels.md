@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 22%
+source-wordcount: '524'
+ht-degree: 21%
 
 ---
 
@@ -72,10 +72,11 @@ I messaggi transazionali sono disponibili per i canali di e-mail, SMS e notifich
 
 Leggi tutto:
 
-* [Informazioni sui messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md)
 * [Guida introduttiva ai messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md)
-* [Messaggi sulle transazioni degli eventi](../../channels/using/event-transactional-messages.md)
-* [Messaggi sulle transazioni di profilo](../../channels/using/profile-transactional-messages.md)
+* [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md)
+* [Pubblicazione di un evento transazionale](../../channels/using/publishing-transactional-event.md)
+* [Modifica di un messaggio transattivo](../../channels/using/editing-transactional-message.md)
+* [Pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md)
 * [Notifiche push transazionali](../../channels/using/transactional-push-notifications.md)
 * [Messaggi di follow-up](../../channels/using/follow-up-messages.md)
 
