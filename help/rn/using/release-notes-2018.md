@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 6%
@@ -327,7 +327,7 @@ _Risorse personalizzate_
     <ul> 
      <li> Utilizza i campi personalizzati come criteri di riconciliazione per far corrispondere un messaggio transazionale a un profilo </li> 
      <li> Sfruttare profili completi, servizi e dati collegati per personalizzare ulteriormente i messaggi relativi alle transazioni </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="../../administration/using/configuring-transactional-messaging.md">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta la <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
