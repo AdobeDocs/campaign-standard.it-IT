@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guida a Campaign Standard
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: c276c468627208b584a0342414cdbe382e349f50
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
       + [Privacy e consenso](start/using/privacy.md)
       + [Gestione della privacy](start/using/privacy-management.md)
       + [Richieste di accesso a dati personali](start/using/privacy-requests.md)
-      + [Domande frequenti sulla privacy](start/using/privacy-faq.md)
+      + [Domande frequenti sui dati personali](start/using/privacy-faq.md)
 + Profili e tipi di pubblico {#profiles-and-audiences}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/using/get-started-profiles-and-audiences.md)
    + Gestione dei profili {#managing-profiles}
@@ -119,11 +119,18 @@ ht-degree: 99%
       + [Definizione del contenuto della direct mailing](channels/using/defining-the-direct-mail-content.md)
    + Messaggi transazionali {#transactional-messaging}
       + [Guida introduttiva ai messaggi transazionali](channels/using/getting-started-with-transactional-msg.md)
-      + [Limitazioni della messaggistica transazionale](channels/using/transactional-messaging-limitations.md)
-      + [Messaggi sulle transazioni degli eventi](channels/using/event-transactional-messages.md)
-      + [Messaggi sulle transazioni di profilo](channels/using/profile-transactional-messages.md)
+      + [Best practice e limitazioni](channels/using/transactional-messaging-limitations.md)
+      + Configurazione evento {#event-configuration}
+         + [Configurazione di un evento transazionale](channels/using/configuring-transactional-event.md)
+         + [Pubblicazione di un evento transazionale](channels/using/publishing-transactional-event.md)
+      + Edizione dei messaggi transazionali {#transactional-message-edition}
+         + [Modifica di un messaggio transattivo](channels/using/editing-transactional-message.md)
+         + [Verifica di un messaggio sulle transazioni](channels/using/testing-transactional-message.md)
+         + [Ciclo di vita dei messaggi transazionali](channels/using/publishing-transactional-message.md)
+         + [Esecuzione e monitoraggio](channels/using/transactional-message-execution.md)
       + [Notifiche push transazionali](channels/using/transactional-push-notifications.md)
       + [Messaggi di follow-up](channels/using/follow-up-messages.md)
+      + [Caso di utilizzo di messaggi transazionali](channels/using/transactional-messaging-use-case.md)
    + Pagine di destinazione {#landing-pages}
       + [Guida introduttiva alle pagine di destinazione](channels/using/getting-started-with-landing-pages.md)
       + [Informazioni sui modelli di pagina di destinazione](channels/using/landing-page-templates.md)
@@ -430,7 +437,6 @@ ht-degree: 99%
       + [Configurazione del canale e-mail](administration/using/configuring-email-channel.md)
       + [Configurazione del canale SMS](administration/using/configuring-sms-channel.md)
       + [Configurazione di un’applicazione mobile](administration/using/configuring-a-mobile-application.md)
-      + [Configurazione della messaggistica transazionale](administration/using/configuring-transactional-messaging.md)
    + Configurazione dei canali mobili {#configuring-mobile}
       + [Implementazione del tracciamento push](administration/using/push-tracking.md)
       + [Aggiunta di immagini e video iOS](administration/using/image-push-notification.md)
