@@ -2,14 +2,14 @@
 solution: Campaign Standard
 product: campaign
 title: 'Elenco dei componenti '
-description: Consulta l’elenco di tutti i componenti disponibili nei report dinamici e le relative definizioni.
+description: Consulta l’elenco di tutti i componenti disponibili in     Rapporti dinamici e relative definizioni.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Elenco dei componenti {#list-of-components}
 
-Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consulta questa [tabella](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Se due componenti non sono compatibili, nella cella viene visualizzato il valore **Nessuno**.
+Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consultare la [tabella](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Se due componenti non sono compatibili, nella cella verrà visualizzato il valore **None**.
 
-![](assets/dynamic_report_compatibility.png)
+[![immagine](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 ## Dimension {#dimensions}
 
@@ -29,13 +29,13 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
  <thead> 
   <tr> 
    <th> Dimension<br /> </th> 
-   <th> Definizione<br /> </th> 
+   <th> Definition<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Browser<br /> </td> 
-   <td> Browser da cui è stato aperto il messaggio o su cui è stato fatto clic.<br /> </td> 
+   <td> Browser da cui è stato aperto o su cui è stato fatto clic il messaggio.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campagna<br /> </td> 
@@ -54,12 +54,12 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
    <td> Etichetta e ID della consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dispositivo<br /> </td> 
+   <td> Device<br /> </td> 
    <td> Dispositivo da cui è stata aperta/visualizzata/su cui è stato fatto clic la notifica e-mail/SMS/push.<br /> </td> 
   </tr> 
   <tr> 
    <td> Motivo errore<br /> </td> 
-   <td> Tipi di errori che causavano errori per ogni consegna, ad esempio un utente sconosciuto, un dominio o una cassetta postale non valida.<br /> </td> 
+   <td> Tipi di errori che hanno causato rimbalzi per ogni consegna, ad esempio utente sconosciuto, dominio non valido o cassetta postale piena.<br /> </td> 
   </tr> 
   <tr> 
    <td> Genere<br /> </td> 
@@ -75,15 +75,15 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
   </tr> 
   <tr> 
    <td> Nome app mobile<br /> </td> 
-   <td> Nome dell’applicazione mobile<br /> </td> 
+   <td> Nome dell'applicazione mobile<br /> </td> 
   </tr> 
   <tr> 
-   <td> Piattaforma<br /> </td> 
+   <td> Platform<br /> </td> 
    <td> Piattaforma del dispositivo da cui è stato aperto/visualizzato/fatto clic sul messaggio.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profilo<br /> </td> 
-   <td> Esegui il backup dei campi out-of-the-box e dei profili personalizzati creati durante l'estensione della risorsa del profilo. Per ulteriori informazioni, fare riferimento a questa <a href="../../developing/using/key-steps-to-add-a-resource.md">pagina</a> o a questo <a href="../../reporting/using/creating-a-custom-profile-dimension.md">esempio</a>.<br /> I dati per questa dimensione vengono recuperati non appena viene pubblicata la risorsa personalizzata collegata al campo del profilo.<br /> </td> 
+   <td> Esegui il backup dei campi out-of-the-box e dei profili personalizzati creati durante l'estensione della risorsa del profilo. Per ulteriori informazioni, fare riferimento a <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> o a questo <a href="../../reporting/using/creating-a-custom-profile-dimension.md">esempio</a>.<br /> I dati per questa dimensione vengono recuperati non appena viene pubblicata la risorsa personalizzata collegata al campo del profilo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Piattaforma push<br /> </td> 
@@ -91,7 +91,7 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
   </tr> 
   <tr> 
    <td> Dominio destinatario<br /> </td> 
-   <td> Dominio utilizzato per aprire l’e-mail.<br /> </td> 
+   <td> Dominio utilizzato per aprire l'e-mail.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegna ricorrente<br /> </td> 
@@ -99,35 +99,35 @@ Nella tabella seguente è riportato l’elenco delle dimensioni utilizzate nei r
   </tr> 
   <tr> 
    <td> Dominio mittente<br /> </td> 
-   <td> Dominio utilizzato per inviare l’e-mail.<br /> </td> 
+   <td> Dominio utilizzato per inviare l'e-mail.<br /> </td> 
   </tr> 
   <tr> 
-   <td> IP mittente<br /> </td> 
-   <td> IP utilizzato per inviare l’e-mail.<br /> </td> 
+   <td> Mittente IP<br /> </td> 
+   <td> IP utilizzato per inviare l'e-mail.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Stato<br /> </td> 
+   <td> State<br /> </td> 
    <td> Stato registrato nel profilo del destinatario.<br /> </td> 
   </tr> 
   <tr> 
    <td> URL tracciamento<br /> </td> 
-   <td> URL su cui l’utente ha fatto clic dal messaggio.<br /> </td> 
+   <td> URL su cui l'utente ha fatto clic dal messaggio.<br /> </td> 
   </tr> 
   <tr> 
    <td> Categoria URL tracciamento<br /> </td> 
-   <td> Categoria assegnata all’URL di tracciamento.<br /> </td> 
+   <td> Categoria assegnata all'URL di tracciamento.<br /> </td> 
   </tr> 
   <tr> 
    <td> Etichetta URL tracciamento<br /> </td> 
-   <td> Etichetta data all’URL, ad esempio pagina mirror, contattateci o aprite.<br /> </td> 
+   <td> Etichetta data all'URL, ad esempio pagina mirror, contattateci o aprite.<br /> </td> 
   </tr> 
   <tr> 
    <td> Distribuzione transazionale<br /> </td> 
    <td> Etichetta e ID della consegna transazionale.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Variante<br /> </td> 
-   <td> Variante del messaggio e-mail in caso di test A/B.<br /> </td> 
+   <td> Variant<br /> </td> 
+   <td> Variante dell'e-mail in caso di test A/B.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,22 +141,22 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
 <table> 
  <thead> 
   <tr> 
-   <th> Metrica<br /> </th> 
-   <th> Definizione<br /> </th> 
+   <th> Metric<br /> </th> 
+   <th> Definition<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Su elenco Bloccati<br /> </td> 
+   <td> Al elenco Bloccati<br /> </td> 
    <td> Numero di destinatari che hanno dichiarato un'e-mail come spam o posta indesiderata.<br /> </td> 
   </tr> 
   <tr> 
-   <td> elenco Bloccati tasso<br /> </td> 
+   <td> elenco Bloccati tasso di <br /> </td> 
    <td> Percentuale di consegne contrassegnate al elenco Bloccati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Punti + errori<br /> </td> 
-   <td> Totale degli errori cumulati durante l'elaborazione del recapito e del ritorno automatico in relazione al numero totale di messaggi inviati.<br /> </td> 
+   <td> Totale degli errori cumulati durante la consegna e l'elaborazione automatica del ritorno in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Rimbalzo + Frequenza errori<br /> </td> 
@@ -167,7 +167,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero di volte in cui è stato fatto clic su un contenuto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di click-through<br /> </td> 
+   <td> Click through rate<br /> </td> 
    <td> Percentuale di clic in una consegna.<br /> </td> 
   </tr> 
   <tr> 
@@ -175,19 +175,19 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di consegna<br /> </td> 
+   <td> Velocità di consegna<br /> </td> 
    <td> Percentuale di messaggi inviati correttamente.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rimbalzo duro<br /> </td> 
+   <td> rimbalzo rigido<br /> </td> 
    <td> Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Velocità limite<br /> </td> 
+   <td> Frequenza rimbalzo rigido<br /> </td> 
    <td> Percentuale di consegne non riuscite a causa di errori permanenti.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror, pagina<br /> </td> 
+   <td> Mirror page<br /> </td> 
    <td> Numero di destinatari che hanno fatto clic sul collegamento della pagina mirror.<br /> </td> 
   </tr> 
   <tr> 
@@ -203,11 +203,11 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Percentuale di clic su un'offerta.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Apri<br /> </td> 
+   <td> Open<br /> </td> 
    <td> Numero di volte in cui un messaggio è stato aperto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso aperto<br /> </td> 
+   <td> Open rate<br /> </td> 
    <td> Percentuale di messaggi aperti.<br /> </td> 
   </tr> 
   <tr> 
@@ -215,11 +215,11 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero totale di invii per la consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantina<br /> </td> 
+   <td> Quarantena<br /> </td> 
    <td> Numero di messaggi rimbalzati e risultati nella quarantena dell'indirizzo.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di quarantena<br /> </td> 
+   <td> Velocità di quarantena<br /> </td> 
    <td> Percentuale di quarantena rispetto ai messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
@@ -235,7 +235,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero totale di errori temporanei, ad esempio una casella in entrata completa.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Frequenza rimbalzo morbida<br /> </td> 
+   <td> Soft bounce rate<br /> </td> 
    <td> Percentuale di consegne non riuscite a causa di motivi temporanei.<br /> </td> 
   </tr> 
   <tr> 
@@ -247,8 +247,8 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero di destinatari che hanno aperto la consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di annullamento sottoscrizione<br /> </td> 
-   <td> Percentuale di annullamento delle sottoscrizioni per destinatario rispetto ai messaggi consegnati.<br /> </td> 
+   <td> Annulla sottoscrizione<br /> </td> 
+   <td> Percentuale di annullamento sottoscrizioni per destinatario rispetto ai messaggi consegnati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Annulla sottoscrizione<br /> </td> 
@@ -262,8 +262,8 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
 <table> 
  <thead> 
   <tr> 
-   <th> Metrica<br /> </th> 
-   <th> Definizione<br /> </th> 
+   <th> Metric<br /> </th> 
+   <th> Definition<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -277,10 +277,10 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
   </tr> 
   <tr> 
    <td> Fai clic su<br /> </td> 
-   <td> Numero di volte in cui una notifica push viene inviata al dispositivo e su cui l'utente fa clic. L'utente desidera visualizzare la notifica, che verrà quindi spostata nel tracciamento dell'apertura push, o chiusa.<br /> </td> 
+   <td> Numero di volte in cui una notifica push viene inviata al dispositivo e su cui l'utente fa clic. L'utente desidera visualizzare la notifica, che verrà quindi spostata nel tracciamento di apertura push, oppure chiuderla.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di click-through<br /> </td> 
+   <td> Click through rate<br /> </td> 
    <td> Percentuale di utenti che hanno interagito con la notifica push.<br /> </td> 
   </tr> 
   <tr> 
@@ -288,8 +288,8 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di consegna<br /> </td> 
-   <td> Percentuale delle notifiche push inviate correttamente.<br /> </td> 
+   <td> Velocità di consegna<br /> </td> 
+   <td> Percentuale di notifiche push inviate correttamente.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressioni<br /> </td> 
@@ -300,11 +300,11 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero totale di notifiche push inviate.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Apri<br /> </td> 
+   <td> Open<br /> </td> 
    <td> Numero totale di notifiche push inviate al dispositivo e fate clic su di esse dagli utenti per aprire l'app. Questo è simile al clic push, tranne per il fatto che l'apertura push non viene attivata se la notifica è stata chiusa.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso aperto<br /> </td> 
+   <td> Open rate<br /> </td> 
    <td> Percentuale delle notifiche push aperte.<br /> </td> 
   </tr> 
   <tr> 
@@ -327,8 +327,8 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
 <table> 
  <thead> 
   <tr> 
-   <th> Metrica<br /> </th> 
-   <th> Definizione<br /> </th> 
+   <th> Metric<br /> </th> 
+   <th> Definition<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -338,7 +338,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
   </tr> 
   <tr> 
    <td> Impressioni<br /> </td> 
-   <td> Totale dei messaggi in-app visualizzati dai destinatari a seconda del rispetto o meno del criterio di attivazione.<br /> </td> 
+   <td> Totale dei messaggi in-app visualizzati dai destinatari a seconda che il criterio di attivazione sia stato soddisfatto.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic in-app <br /> </td> 
@@ -350,7 +350,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
   </tr> 
   <tr> 
    <td> Licenza in-app<br /> </td> 
-   <td> Numero totale di messaggi che i destinatari hanno chiuso facendo clic sul pulsante di chiusura o con la chiusura automatica.<br /> </td> 
+   <td> Numero totale di messaggi che i destinatari hanno chiuso facendo clic sul pulsante di chiusura o di chiusura automatica.<br /> </td> 
   </tr> 
   <tr> 
    <td> Frequenza di licenziamento in-app<br /> </td> 
@@ -365,7 +365,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero di impression per un destinatario univoco.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic in-app univoci<br /> </td> 
+   <td> Clic univoci in-app<br /> </td> 
    <td> Numero di volte in cui i destinatari hanno fatto clic sul pulsante 1 o sul pulsante 2.<br /> </td> 
   </tr> 
   <tr> 
@@ -379,7 +379,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
 
 >[!NOTE]
 >
->Per impostazione predefinita, il **[!UICONTROL Exclude proof]** segmento è già selezionato per filtrare i rapporti, ma può essere modificato se necessario.
+>Per impostazione predefinita, il segmento **[!UICONTROL Exclude proof]** è già selezionato per filtrare i rapporti, ma può essere modificato se necessario.
 
 Nella tabella seguente sono elencati i segmenti utilizzati nei report e le relative definizioni.
 
@@ -387,7 +387,7 @@ Nella tabella seguente sono elencati i segmenti utilizzati nei report e le relat
  <thead> 
   <tr> 
    <th> Segmento<br /> </th> 
-   <th> Definizione<br /> </th> 
+   <th> Definition<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -401,15 +401,15 @@ Nella tabella seguente sono elencati i segmenti utilizzati nei report e le relat
   </tr> 
   <tr> 
    <td> Età: Da 18 a 25<br /> </td> 
-   <td> Destinatari dai 18 ai 25 anni.<br /> </td> 
+   <td> Destinatari da 18 a 25 anni.<br /> </td> 
   </tr> 
   <tr> 
    <td> Età: Da 26 a 30<br /> </td> 
-   <td> Destinatari dai 26 ai 30 anni.<br /> </td> 
+   <td> Destinatari da 26 a 30 anni.<br /> </td> 
   </tr> 
   <tr> 
    <td> Età: Da 31 a 40<br /> </td> 
-   <td> Destinatari dai 31 ai 40 anni.<br /> </td> 
+   <td> Destinatari da 31 a 40 anni.<br /> </td> 
   </tr> 
   <tr> 
    <td> Età: Da 41 a 50<br /> </td> 
@@ -425,11 +425,11 @@ Nella tabella seguente sono elencati i segmenti utilizzati nei report e le relat
   </tr> 
   <tr> 
    <td> Età: Generazione Z<br /> </td> 
-   <td> Destinatari nati dal 1995 ad oggi.<br /> </td> 
+   <td> Destinatari nati dal 1995 a oggi.<br /> </td> 
   </tr> 
   <tr> 
    <td> Età: Maggiore di 50<br /> </td> 
-   <td> Destinatari con età maggiore di 50 anni.<br /> </td> 
+   <td> Destinatari la cui età è superiore a 50.<br /> </td> 
   </tr> 
   <tr> 
    <td> Età: Inferiore a 25<br /> </td> 
@@ -448,7 +448,7 @@ Nella tabella seguente sono elencati i segmenti utilizzati nei report e le relat
    <td> Destinatari con età inferiore a 50 anni.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Età: Generazione silenziosa<br /> </td> 
+   <td> Età: Generazione invisibile<br /> </td> 
    <td> Destinatari nati nel 1945 o prima.<br /> </td> 
   </tr> 
   <tr> 
@@ -457,7 +457,7 @@ Nella tabella seguente sono elencati i segmenti utilizzati nei report e le relat
   </tr> 
     <tr> 
    <td> Escludi prova<br /> </td> 
-   <td> Escludere le prove di stampa dai report<br /> </td> 
+   <td> Escludi prove di stampa dai report<br /> </td> 
   </tr> 
  </tbody> 
 </table>
