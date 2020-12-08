@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -431,7 +431,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Flussi di lavoro: nuova attività di lettura dell'audience<br /> </td> 
-   <td> Avviate il processo di targeting con un'audience esistente che potrete selezionare e perfezionare facilmente in un'unica attività.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/read-audience.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Avviate il processo di targeting con un'audience esistente che potete facilmente selezionare e perfezionare in un'unica attività.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/read-audience.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dati dei punti di interesse<br /> </td> 
@@ -493,7 +493,7 @@ _Flussi di lavoro_
      <li> Includere il collegamento di annullamento all’abbonamento nei messaggi; </li> 
      <li> Aggiungere messaggi transazionali al reporting globale sulla distribuzione; </li> 
      <li> Utilizzare messaggi transazionali nel customer journey. </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="../../channels/using/profile-transactional-messages.md">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta la <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API di messaggistica transazionale<br /> </td> 
