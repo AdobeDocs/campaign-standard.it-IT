@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 4%
@@ -167,7 +167,7 @@ La dimensione di targeting consente di definire in quale tipo di messaggio è po
 
 In effetti, quando modificate un messaggio, potete selezionare solo i blocchi di contenuto con una dimensione di targeting compatibile con la dimensione di targeting del messaggio.
 
-Ad esempio, la dimensione di targeting del blocco **[!UICONTROL Unsubscription link]** è **[!UICONTROL Profiles]** perché contiene campi di personalizzazione specifici per la risorsa **[!UICONTROL Profiles]**. Pertanto, non è possibile utilizzare un blocco **[!UICONTROL Unsubscription link]** in un messaggio di transazione evento [](../../channels/using/event-transactional-messages.md), perché la dimensione di targeting di quel tipo di messaggio è **[!UICONTROL Real-time events]**. Tuttavia, è possibile utilizzare il blocco **Annulla iscrizione** in un messaggio di transazione di profilo [](../../channels/using/profile-transactional-messages.md), perché la dimensione di targeting di quel tipo di messaggio è **Profili**. Infine, il blocco **[!UICONTROL Link to mirror page]** non ha una dimensione di targeting, pertanto puoi utilizzarlo in qualsiasi messaggio.
+Ad esempio, la dimensione di targeting del blocco **[!UICONTROL Unsubscription link]** è **[!UICONTROL Profiles]** perché contiene campi di personalizzazione specifici per la risorsa **[!UICONTROL Profiles]**. Pertanto, non è possibile utilizzare un blocco **[!UICONTROL Unsubscription link]** in un messaggio di transazione evento [](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), perché la dimensione di targeting di quel tipo di messaggio è **[!UICONTROL Real-time events]**. Tuttavia, è possibile utilizzare il blocco **Annulla iscrizione** in un messaggio di transazione di profilo [](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), perché la dimensione di targeting di quel tipo di messaggio è **Profili**. Infine, il blocco **[!UICONTROL Link to mirror page]** non ha una dimensione di targeting, pertanto puoi utilizzarlo in qualsiasi messaggio.
 
 Se lasciate vuoto questo campo, il blocco di contenuto sarà compatibile con tutti i messaggi, indipendentemente dalla dimensione di targeting. Se imposti una dimensione di targeting, tale blocco sarà compatibile solo con i messaggi che hanno la stessa dimensione di targeting.
 
