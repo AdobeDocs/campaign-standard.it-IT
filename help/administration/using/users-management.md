@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 95%
+source-wordcount: '1220'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 Adobe Campaign ti consente di assegnare un set di ruoli agli utenti per definire a quale parte dell’interfaccia possono accedere.
 
-I ruoli specifici e le autorizzazioni corrispondenti sono descritti nelle sezioni seguenti: [Elenco di ruoli](../../administration/using/list-of-roles.md) e di [autorizzazioni](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+I ruoli specifici e le autorizzazioni corrispondenti sono descritti nelle sezioni seguenti: [Elenco di ruoli](../../administration/using/list-of-roles.md) e di [autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Da Admin Console, gli amministratori possono gestire gli utenti. Gli utenti vengono quindi sincronizzati automaticamente con Adobe Campaign. Per ulteriori informazioni, consulta la documentazione di [Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html).
 
@@ -37,7 +37,7 @@ Per accedere all’interfaccia di gestione degli utenti da Adobe Campaign, fai c
 
 * Video sulla [gestione di autorizzazioni utente](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Elenco di ruoli](../../administration/using/list-of-roles.md)
-* [Elenco delle autorizzazioni](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+* [Elenco delle autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Tipo di utenti {#type-of-users}
 
@@ -59,7 +59,7 @@ Ci concentreremo piuttosto sulla suddivisione delle diverse attività in Adobe C
 
 Gli amministratori funzionali sono utenti che possono accedere alle parti più tecniche dell’interfaccia. Hanno il ruolo **[!UICONTROL Administration]** e si accertano che la piattaforma sia configurata in modo che gli esperti marketing debbano concentrarsi solo sulla distribuzione delle campagne.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Solo gli amministratori funzionali, con il ruolo **[!UICONTROL Administration]** e l&#39;accesso alle unità **All**, possono accedere ai registri di invio, ai registri di registrazione dei messaggi, ai registri di monitoraggio, ai registri di esclusione, ai registri delle proposte e ai registri di iscrizione. Un utente non amministratore può eseguire il targeting di questi registri ma iniziare da una tabella collegata (profili, consegna).
 
