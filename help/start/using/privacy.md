@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Privacy e consenso
-description: Informazioni su privacy, dati personali e gestione del consenso in  Adobe Campaign Standard
+description: Informazioni su privacy, dati personali e gestione del consenso in Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Per gestire correttamente la privacy e i dati personali, attieniti alle normativ
 
 >[!NOTE]
 >
->Per ulteriori informazioni su come GDPR, CCPA, PDPA e LGPD si applicano a  Adobe Campaign, vedere [questa sezione](../../start/using/privacy-management.md#privacy-management-regulations).
+>Per ulteriori informazioni sulle modalità con cui GDPR, CCPA, PDPA e LGPD si applicano ad Adobe Campaign, consulta [questa sezione](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Privacy di Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -84,31 +84,31 @@ Le [normative principali](#privacy-regulations) si riferiscono alle diverse enti
 
 Pertanto, in quanto azienda che raccoglie e condivide dati personali, ricopri il ruolo di titolare del trattamento, i tuoi clienti costituiscono gli interessati e Adobe Campaign agisce come responsabile del trattamento quando tratta i loro dati personali secondo le istruzioni da te fornite. In quanto titolare del trattamento, sei responsabile della gestione del rapporto con gli interessati, ad esempio durante la gestione delle [richieste di accesso a dati personali](#privacy-requests).
 
-### Scenario di utilizzo {#use-case-scenario}
+### Scenario del caso d’uso {#use-case-scenario}
 
-Per illustrare il modo in cui le diverse persone interagiscono, ecco un esempio di un caso d’uso di esperienza cliente GDPR di alto livello.
+Per illustrare il modo in cui interagiscono i diversi utenti tipo, ecco un esempio di un caso d’uso dettagliato di customer experience relativo al GDPR.
 
-In questo esempio, una compagnia aerea è il cliente Adobe Campaign . Questa società è il **Controller dati** e tutti i client della compagnia aerea sono **Oggetto dati**. Laura in questo caso particolare è cliente della compagnia aerea.
+In questo esempio, il cliente Adobe Campaign è una compagnia aerea. La compagnia aerea è il **titolare del trattamento** e tutti i suoi clienti sono gli **interessati**. Laura in questo caso particolare è una cliente della compagnia aerea.
 
-Di seguito sono elencate le diverse personalità utilizzate in questo esempio:
+Di seguito sono elencati i diversi utenti tipo utilizzati in questo esempio:
 
-* **** Laurais l&#39; **oggetto** Data. È il destinatario che riceve messaggi dalla compagnia aerea. Laura può essere un volantino frequente, ma può decidere ad un certo punto che non vuole messaggi pubblicitari o di marketing personalizzati da parte della compagnia aerea. Chiederà alla compagnia aerea (sulla base del loro processo) di cancellare il suo numero frequente di volantino.
+* **Laura** è l’**interessato**. È il destinatario che riceve messaggi dalla compagnia aerea. Ammettiamo che Laura sia una viaggiatrice frequente e che a un certo punto decida di non voler ricevere messaggi pubblicitari o di marketing personalizzati da parte della compagnia aerea. Laura chiederà alla compagnia aerea (sulla base del loro processo) di cancellare il suo numero di viaggiatrice frequente.
 
-* **** Allega il  **Data** Controller alla compagnia aerea. Riceve la richiesta di Laura, recupera gli ID utili richiesti per identificare l’oggetto dati e invia la richiesta in  Adobe Campaign.
+* **Anne** è il **titolare del trattamento** presso la compagnia aerea. Riceve la richiesta di Laura, recupera gli ID utili richiesti per identificare l’interessato e invia la richiesta da Adobe Campaign.
 
-* **Adobe** Campagne è il  **Data Processor**.
+* **Adobe Campaign** è il **responsabile del trattamento**.
 
 ![](assets/privacy-gdpr-flow.png)
 
-Di seguito è riportato il flusso generale relativo a questo caso di utilizzo:
+Di seguito è riportato il flusso generale relativo a questo caso d’uso:
 
-1. **Data Subject** (Laura) invia una richiesta GDPR al **Data Controller** via e-mail, assistenza clienti o tramite un portale Web.
+1. L’**interessato** (Laura) invia una richiesta GDPR al **titolare del trattamento** tramite e-mail, assistenza clienti o un portale web.
 
-1. **Data Controller** (Anne) invia la richiesta GDPR a Campaign tramite l&#39;interfaccia o tramite un&#39;API.
+1. Il **titolare del trattamento** (Anne) invia la richiesta GDPR a Campaign tramite l’interfaccia o utilizzando un’API.
 
-1. Una volta che **Data Processor** ( Adobe Campaign) riceve le informazioni, interviene sulla richiesta GDPR e invia una risposta o una conferma al **Data Controller** (Anne).
+1. Una volta che il **responsabile del trattamento** (Adobe Campaign) riceve le informazioni, interviene sulla richiesta GDPR e invia una risposta o una conferma al **titolare del trattamento** (Anne).
 
-1. Il **Controller dati** (Anne) quindi esamina le informazioni e le invia nuovamente al **Oggetto dati** (Laura).
+1. Il **titolare del trattamento** (Anne) esamina le informazioni e le invia nuovamente all’**interessato** (Laura).
 
 ## Acquisizione dei dati {#data-acquisition}
 
@@ -128,7 +128,7 @@ La gestione della privacy si riferisce a tutti i processi e agli strumenti che p
 * Richieste di accesso a dati personali (diritto di accesso e diritto all’oblio). Vedi [questa sezione](#privacy-requests).
 * Rinuncia alla vendita di informazioni personali (relativa al CCPA). Vedi [questa sezione](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ccpa).
 
-In [questa sezione](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow) sono illustrate le principali funzionalità di Campaign relative alla privacy e un esempio degli utenti tipo coinvolti.
+In [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-faq.html?lang=it#getting-started) sono illustrate le principali funzionalità di Campaign relative alla privacy e un esempio degli utenti tipo coinvolti.
 
 
 ### Consenso, conservazione e ruoli {#consent}
@@ -149,9 +149,9 @@ Per ulteriori informazioni su queste funzioni e sulla loro gestione in Adobe Cam
 
 * Il **diritto all’oblio** (richiesta di cancellazione) autorizza l’interessato a richiedere che il titolare del trattamento cancelli i suoi dati personali.
 
-Le richieste **Access** e **Delete** sono presentate in [questa sezione](../../start/using/privacy-management.md#right-access-forgotten).
+Le richieste di **accesso** ed **eliminazione** vengono presentate in [questa sezione](../../start/using/privacy-management.md#right-access-forgotten).
 
-I passaggi di implementazione per creare queste richieste sono descritti in [questa sezione](../../start/using/privacy-requests.md). Sono inoltre disponibili alcuni tutorial in [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=it#privacy).
+I passaggi di implementazione per creare queste richieste sono illustrati in [questa sezione](../../start/using/privacy-requests.md). Sono inoltre disponibili alcuni tutorial in [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=it#privacy).
 
 ## Funzionalità di tracciamento {#tracking-capabilities}
 
