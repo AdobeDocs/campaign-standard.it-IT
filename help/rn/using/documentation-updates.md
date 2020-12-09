@@ -29,13 +29,13 @@ La sezione Messaggistica transazionale è stata riorganizzata e migliorata, con 
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
-La sezione Dati personali e Persone è stata aggiornata con uno scenario di utilizzo che illustra l’interazione delle diverse persone in materia di dati personali. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
+La sezione Dati personali e utenti tipo è stata aggiornata aggiungendo uno scenario relativo al caso d’uso per illustrare come avviene l’interazione di diversi utenti tipo dal punto di vista della privacy. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
 
-È stata aggiunta una nuova sezione in cui sono elencate le domande frequenti sui dati personali. [Leggi tutto](../../start/using/privacy-faq.md)
+È stata aggiunta una nuova sezione in cui sono elencate le domande frequenti sulla privacy. [Leggi tutto](../../start/using/privacy-faq.md)
 
 La sezione Privacy è stata spostata e arricchita con due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di accesso a dati personali](../../start/using/privacy-requests.md).
 
-Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull&#39;errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolvere eventuali problemi. [Leggi tutto](../../developing/using/aep-mapping-activation.md)
+Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull’errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolverlo. [Leggi tutto](../../developing/using/aep-mapping-activation.md)
 
 ## Versione 20.4 - ottobre 2020 {#release-20-4---october-2020}
 
@@ -607,7 +607,7 @@ Nella documentazione API è stata aggiunta una sezione relativa ai **filtri pers
 
 **Nuove funzionalità incluse nella versione**
 
-RGPD: integrazione dei servizi core - [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)
+RGPD: integrazione dei servizi core - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#getting-started)
 
 Miglioramenti push - feedback dettagliato sulla consegna - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
