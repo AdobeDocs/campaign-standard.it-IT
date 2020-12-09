@@ -6,28 +6,28 @@ description: Ulteriori informazioni sulle funzioni di gestione della privacy di 
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # Gestione della privacy {#privacy-management}
 
- Adobe Campaign offre una serie di strumenti per aiutarti a rispettare le [normative sulla privacy](#privacy-management-regulations) (inclusi GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign offre una serie di strumenti per aiutarti a rispettare le [normative sulla privacy](#privacy-management-regulations) (inclusi GDPR, CCPA, PDPA, LGPD).
 
-Di seguito sono riportate le cinque funzionalità principali offerte da  Adobe Campaign per garantire la conformità ai requisiti GDPR e alle altre normative sulla privacy:
+Di seguito sono riportate le cinque funzionalità principali offerte da Adobe Campaign per garantire la conformità al GDPR e alle altre normative sulla privacy:
 
 ![](assets/privacy-gdpr-use-cases.png)
 
 * **Diritto di accesso**
 
-* **Right to Delete**
+* **Diritto di eliminazione**
 
-Per ulteriori informazioni, vedere [Diritto di accesso e Diritto di essere dimenticato](#right-access-forgotten).
+Per ulteriori informazioni, consulta [Diritto di accesso e diritto all’oblio](#right-access-forgotten).
 
 * **Gestione del consenso**
 
@@ -35,20 +35,20 @@ Per ulteriori informazioni, vedere [Diritto di accesso e Diritto di essere dimen
 
 * **Rights Management**
 
-Per ulteriori informazioni, vedere [Consenso, mantenimento e ruoli](#consent-retention-roles).
+Per ulteriori informazioni, consulta [Consenso, conservazione e ruoli](#consent-retention-roles).
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## Regolamenti sulla gestione della privacy {#privacy-management-regulations}
+## Normative sulla gestione della privacy {#privacy-management-regulations}
 
  Le funzionalità di Adobe Campaign consentono di rispettare le seguenti normative:
 
-* **Il GDPR** ([Regolamento generale sulla protezione dei dati](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_it)) è la normativa sulla privacy dell’Unione europea che armonizza e modernizza i requisiti in materia di protezione dei dati per i paesi dell’UE. Segui i link qui sotto per trovare informazioni generali su GDPR:
+* **Il GDPR** ([Regolamento generale sulla protezione dei dati](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_it)) è la normativa sulla privacy dell’Unione europea che armonizza e modernizza i requisiti in materia di protezione dei dati per i paesi dell’UE. Visita i collegamenti riportati sotto per informazioni generali sul GDPR:
 
-   * https://www.adobe.com/privacy/general-data-protection-regulation.html
-   * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+   * https://www.adobe.com/it/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/it/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **Il CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) fornisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California.
 * **Il PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) è la nuova legge sulla privacy che armonizza e modernizza i requisiti di protezione dei dati in Thailandia.
