@@ -1,18 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Messaggi sulle transazioni degli eventi
-description: Scopri come creare e pubblicare un messaggio sulle transazioni degli eventi.
-page-status-flag: never-activated
+title: Modifica di un messaggio transattivo
+description: Scopri come accedere, modificare e personalizzare un messaggio transazionale.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 60%
+source-wordcount: '1489'
+ht-degree: 59%
 
 ---
 
@@ -92,7 +91,7 @@ Ad esempio, desiderate inviare una notifica agli utenti del vostro sito Web che 
 
 ## Utilizzo degli elenchi di prodotti in un messaggio sulle transazioni {#using-product-listings-in-a-transactional-message}
 
-Quando modificate il contenuto di un&#39;e-mail transazionale, potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un messaggio e-mail di abbandono del carrello, puoi includere un elenco di tutti i prodotti inclusi nel carrello quando gli utenti hanno lasciato il sito Web, con un&#39;immagine, il prezzo e un collegamento a ciascun prodotto.
+Quando modificate il contenuto di un&#39;e-mail transazionale, potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un messaggio e-mail di abbandono del carrello potete includere un elenco di tutti i prodotti inclusi nel carrello quando gli utenti hanno lasciato il sito Web, con un&#39;immagine, il prezzo e un collegamento a ciascun prodotto.
 
 >[!IMPORTANT]
 >
