@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
-source-wordcount: '6359'
+source-wordcount: '6357'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,13 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 ## Dicembre 2020 {#doc-updates-december-2020}
 
+La sezione Messaggistica transazionale è stata riorganizzata e migliorata, con una sezione introduttiva più chiara che include [schemi migliorati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) e un [caso d&#39;uso end-to-end](../../channels/using/transactional-messaging-use-case.md) per illustrare l&#39;intero processo. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
+
 La sezione Privacy è stata spostata. [Leggi tutto](../../start/using/privacy.md)
 
-La sezione Messaggistica transazionale è stata riorganizzata e migliorata, con una sezione iniziale più chiara che include [grafici migliorati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) e un [caso di utilizzo end-to-end](../../channels/using/transactional-messaging-use-case.md) per illustrare l&#39;intero processo. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
-
 È stata aggiunta una nuova pagina sull&#39;accessibilità per ulteriori informazioni sul supporto dell&#39;accessibilità nell&#39;area di lavoro  Adobe Campaign Standard. [Leggi tutto](../../start/using/accessibility.md)
+
+È stato aggiunto un nuovo limite alla sezione Messaggistica transazionale, in base al quale, per ottenere prestazioni ottimali, il numero di messaggi transazionali pubblicati deve rimanere inferiore a 100. [Leggi tutto](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
@@ -176,8 +178,6 @@ Sono state aggiunte informazioni sulle modalità di utilizzo degli aggregati all
 È stata aggiunta una nuova sezione sulle linee guida di configurazione all’interno della guida di amministrazione. La sezione relativa ai browser e ai sistemi operativi compatibili è stata spostata dalla Guida introduttiva a questa sezione. All’interno di questa sezione è stata aggiunta anche la nota tecnica sugli endpoint di rete di Campaign Standard. [Ulteriori informazioni](../../administration/using/about-configuration-guidelines.md)
 
 È ora disponibile una nuova sezione che illustra la procedura di eliminazione della configurazione di un evento. [Ulteriori informazioni](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-È stata aggiornata e migliorata la pagina che descrive la modalità di verifica dell’oggetto di un messaggio e-mail allo scopo di visualizzarne il tasso di apertura, includendo una nuova sezione per la [risoluzione dei problemi](../../sending/using/testing-subject-line-email.md#troubleshooting). [Ulteriori informazioni](../../sending/using/testing-subject-line-email.md)
 
 Le sezioni di messaggistica transazionale sono state aggiornate per riflettere i miglioramenti e gli aggiornamenti più recenti dell’interfaccia utente. [Ulteriori informazioni](../../channels/using/getting-started-with-transactional-msg.md)
 
