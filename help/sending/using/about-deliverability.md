@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '650'
 ht-degree: 5%
 
 ---
@@ -39,12 +39,11 @@ Per &quot;recapito e-mail&quot; si intende il set di caratteristiche che determi
 Il tasso di recapito corrisponde al numero di messaggi e-mail inviati correttamente ai destinatari.
 Di seguito è riportato un elenco dei punti chiave da verificare per garantire una buona consegna.
 
-## Strumenti per la distribuzione {#deliverability-tools}
+## Strumenti di distribuzione {#deliverability-tools}
 
 In primo luogo, consultare la documentazione sugli strumenti di recapito forniti con Campaign Standard:
 * [Best practice di consegna](../../sending/using/delivery-best-practices.md)
 * [Personalizzazione del nome del mittente](../../designing/using/personalization.md#personalizing-the-sender)
-* [Verifica dell’oggetto di un messaggio e-mail](../../sending/using/testing-subject-line-email.md)
 * [Ottimizzazione del tempo di invio](../../sending/using/optimizing-the-sending-time.md)
 * [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
 * [Rendering di e-mail](../../sending/using/email-rendering.md)
@@ -53,7 +52,7 @@ In primo luogo, consultare la documentazione sugli strumenti di recapito forniti
 * [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Quarantena e elenco Bloccati](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
-* [Report dinamici](../../reporting/using/about-dynamic-reports.md)
+* [Rapporti dinamici](../../reporting/using/about-dynamic-reports.md)
 
 ## Verifica della configurazione di rete {#network-configuration}
 
@@ -71,7 +70,7 @@ Gli ISP solitamente dispongono di uno strumento importante per segnalare un mess
 
 I provider di servizi Internet e altre organizzazioni (fare riferimento a https://www.projecthoneypot.org/) utilizzano caselle di posta che non corrispondono a persone fisiche ma sono create semplicemente per ingannare gli spammer. Questi cosiddetti indirizzi &quot;vaso di miele&quot; sono pubblicati sul Web per essere raccolti dagli spambots e quindi catturare mittenti illegittimi. L&#39;uso di un doppio meccanismo di opt-in impedisce l&#39;aggiunta di questo tipo di indirizzo a un elenco. Quando si utilizza un elenco di terze parti, è necessario essere certi dei metodi utilizzati dal relativo manutentore.
 
-## Adattamento del contenuto dei messaggi {#adapt-message-content}
+## Adattamento del contenuto del messaggio {#adapt-message-content}
 
 In misura minore, il contenuto di alcuni messaggi può portare alcuni filtri per rilevarlo come spam. L&#39;uso di determinate parole, l&#39;uso di punti esclamativi nella riga dell&#39;oggetto e all&#39;interno dei messaggi sono letti come segni di spam. È noto che gli spammers sostituiscono il testo con le immagini per evitare che il testo offensivo venga analizzato automaticamente dai filtri anti-spam. In risposta a ciò, un messaggio (in formato HTML) con un&#39;elevata percentuale di immagini, o immagini come allegati, potrebbe finire per essere bloccato.
 
