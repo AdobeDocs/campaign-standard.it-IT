@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configurazione della messaggistica transazionale
-description: Scopri come configurare i messaggi transazionali.
-audience: administration
+title: Configurazione di un evento transazionale
+description: Scoprite come configurare eventi transazionali in  Adobe Campaign.
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
+topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1672'
 ht-degree: 7%
 
 ---
@@ -50,7 +50,7 @@ Per iniziare, create l&#39;evento corrispondente alle vostre esigenze.
 
 >[!NOTE]
 >
->Il numero di eventi in tempo reale può avere un impatto sulla piattaforma. Per garantire prestazioni ottimali, eliminate gli eventi in tempo reale inutilizzati. Vedere [Eliminazione di un evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>Il numero di eventi transazionali può avere un impatto sulla piattaforma. Per garantire prestazioni ottimali, eliminate gli eventi inutilizzati. Vedere [Eliminazione di un evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Definizione degli attributi evento {#defining-the-event-attributes}
 
