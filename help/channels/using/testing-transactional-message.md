@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Messaggi sulle transazioni degli eventi
-description: Scopri come creare e pubblicare un messaggio sulle transazioni degli eventi.
+title: Verifica di un messaggio sulle transazioni
+description: Scopri come verificare un messaggio transazionale in  Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 43%
+source-wordcount: '278'
+ht-degree: 39%
 
 ---
 
