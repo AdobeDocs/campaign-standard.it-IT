@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 90%
+source-wordcount: '707'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,18 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>Predictive Subject Line</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partire dal 15 dicembre 2020, la funzionalità Predictive Subject Line è obsoleta.</p><br/>
+   <p>Ti consigliamo di sfruttare le funzionalità e-mail basate sull'interfaccia utente AI per analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e il probabile churn in base alle metriche di coinvolgimento storiche. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Ulteriori informazioni</a></p></br>
+     <p>
+     <em>Rimozione destinazione: Aprile 2021</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>Notifiche push con SDK v4</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
    <td> <p>A partire dalla versione 19.4 di Campaign, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventerà obsoleto. L’eliminazione del profilo in due fasi non sarà disponibile. Utilizza il <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">servizio core per la privacy di Adobe</a>.</p></br>
    <p>Consulta anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gestione delle richieste di accesso a dati personali</a>.</p>
   <p> 
-  <em>Data effettiva di rimozione: 2021</em></p>
+  <em>Data effettiva di rimozione: aprile 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
