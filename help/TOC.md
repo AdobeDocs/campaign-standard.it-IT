@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Help Center per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare i Campaign Standard. '
+user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guida a Campaign Standard
 translation-type: tm+mt
 source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,14 +124,14 @@ ht-degree: 97%
       + Configurazione evento {#event-configuration}
          + [Configurazione di un evento transazionale](channels/using/configuring-transactional-event.md)
          + [Pubblicazione di un evento transazionale](channels/using/publishing-transactional-event.md)
-      + Edizione dei messaggi transazionali {#transactional-message-edition}
-         + [Modifica di un messaggio transattivo](channels/using/editing-transactional-message.md)
-         + [Verifica di un messaggio sulle transazioni](channels/using/testing-transactional-message.md)
+      + Modifica dei messaggi transazionali {#transactional-message-edition}
+         + [Modifica di un messaggio transazionale](channels/using/editing-transactional-message.md)
+         + [Verifica di un messaggio transazionale](channels/using/testing-transactional-message.md)
          + [Ciclo di vita dei messaggi transazionali](channels/using/publishing-transactional-message.md)
          + [Esecuzione e monitoraggio](channels/using/transactional-message-execution.md)
       + [Notifiche push transazionali](channels/using/transactional-push-notifications.md)
       + [Messaggi di follow-up](channels/using/follow-up-messages.md)
-      + [Caso di utilizzo di messaggi transazionali](channels/using/transactional-messaging-use-case.md)
+      + [Caso di utilizzo dei messaggi transazionali](channels/using/transactional-messaging-use-case.md)
    + Pagine di destinazione {#landing-pages}
       + [Guida introduttiva alle pagine di destinazione](channels/using/getting-started-with-landing-pages.md)
       + [Informazioni sui modelli di pagina di destinazione](channels/using/landing-page-templates.md)
