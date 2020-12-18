@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
 source-wordcount: '6357'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ La sezione Messaggistica transazionale è stata riorganizzata e migliorata, con 
 
 La sezione Privacy è stata spostata. [Leggi tutto](../../start/using/privacy.md)
 
-È stata aggiunta una nuova pagina sull&#39;accessibilità per ulteriori informazioni sul supporto dell&#39;accessibilità nell&#39;area di lavoro  Adobe Campaign Standard. [Leggi tutto](../../start/using/accessibility.md)
+È stata aggiunta una nuova pagina che fornisce ulteriori informazioni sul supporto dell’accessibilità nell’area di lavoro Adobe Campaign Standard. [Leggi tutto](../../start/using/accessibility.md)
 
 È stato aggiunto un nuovo limite alla sezione Messaggistica transazionale, in base al quale, per ottenere prestazioni ottimali, il numero di messaggi transazionali pubblicati deve rimanere inferiore a 100. [Leggi tutto](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
@@ -141,7 +141,7 @@ Sono state aggiunte nuove risorse nella pagina Home della documentazione. [Ulter
 
 Le informazioni sul Servizio Experience Cloud ID (ECID) sono state inserite nella documentazione del Connettore dati di Adobe Experience Platform. [Ulteriori informazioni](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-La sezione Messaggistica transazionale è stata migliorata con informazioni su come accedere agli ultimi eventi transazionali e alle schermate aggiornate. [Ulteriori informazioni](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+La sezione Messaggistica transazionale è stata arricchita con informazioni sulle modalità di accesso agli eventi transazionali più recenti e alle schermate aggiornate. [Ulteriori informazioni](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 La documentazione sulle tipologie e sulle regole relative è stata migliorata e aggiornata con informazioni aggiuntive sulle regole di tipologia integrate. [Ulteriori informazioni](../../sending/using/about-typology-rules.md)
 
@@ -157,7 +157,7 @@ Sono state aggiunte le best practice relative alla messaggistica transazionale e
 
 La sezione Configurazione del canale e-mail è stata aggiornata con chiarimenti su tutte le impostazioni e-mail che adesso sono gestite da MTA avanzato di Adobe Campaign. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md)
 
-La sezione Messaggi transazionali è stata aggiornata con ulteriori informazioni sui diritti necessari per modificare le configurazioni degli eventi e su come arricchire le raccolte nei messaggi transazionali. [Ulteriori informazioni](../../channels/using/configuring-transactional-event.md).
+La sezione Messaggistica transazionale è stata aggiornata con ulteriori informazioni sui diritti necessari per la modifica delle configurazioni degli eventi e sulle modalità di arricchimento delle raccolte nei messaggi transazionali. [Ulteriori informazioni](../../channels/using/configuring-transactional-event.md).
 
 ## Versione 20.2 - aprile 2020 {#release-20-2---april-2020}
 
@@ -351,7 +351,7 @@ Sono state aggiunte informazioni sulle modalità di personalizzazione dell’eti
 
 È stata aggiunta una procedura di risoluzione dei problemi per il reporting dinamico. [Ulteriori informazioni](../../reporting/using/troubleshooting.md)
 
-È stato aggiunto un diagramma che illustra la gestione delle informazione personali da parte dei vari modelli in-app. [Ulteriori informazioni](../../channels/using/preparing-and-sending-an-in-app-message.md)
+È stato aggiunto un diagramma che illustra la gestione delle informazioni personali da parte dei vari modelli in-app. [Ulteriori informazioni](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 È stata aggiunta una sezione sulla modalità di salvataggio del contenuto delle e-mail come frammento all’interno di E-mail Designer. [Ulteriori informazioni](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
@@ -421,7 +421,7 @@ La guida Automazione è stata aggiornata con i collegamenti alle relative attivi
 
 È stata aggiornata la sezione Calcolo indicatore per i report dinamici. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
-È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=it)
 
 È stato aggiornato l’elenco delle funzioni per i flussi di lavoro. [Ulteriori informazioni](../../automating/using/list-of-functions.md)
 
@@ -699,7 +699,7 @@ L’attività **[!UICONTROL Subscription Services]** è stata aggiornata per sup
 
 È stato aggiunto un caso d’uso dettagliato sulla modalità di preparazione di una consegna. [Ulteriori informazioni](../../sending/using/preparing-the-send.md)
 
-È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en) (PDF).
+È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it) (PDF).
 
 È stato aggiunto un caso d’uso dettagliato sulle modalità d’utilizzo della risposta automatica SMS. [Ulteriori informazioni](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -941,7 +941,7 @@ Esportazione registro per reporting esterno - [Ulteriori informazioni](../../aut
 
 API di messaggistica transazionale - [Ulteriori informazioni](../../api/using/get-started-apis.md)
 
-Funzionalità di marketing per i messaggi transazionali - [Leggi tutto](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+Funzionalità di marketing per i messaggi transazionali: [ulteriori informazioni](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
