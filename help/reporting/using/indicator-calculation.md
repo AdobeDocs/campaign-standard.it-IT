@@ -36,26 +36,26 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
  </thead> 
  <tbody> 
   <tr> 
-   <td> Account disattivato<br /> </td> 
+   <td> Account disabilitato<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Su elenco Bloccati<br /> </td> 
+   <td> Al elenco Bloccati<br /> </td> 
    <td> @blacklist<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> elenco Bloccati tasso<br /> </td> 
+   <td> elenco Bloccati tasso di <br /> </td> 
    <td> @rateBlacklist<br /> </td> 
    <td> @blacklist/@sent<br /> </td> 
    <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Punti + errori<br /> </td> 
-   <td> @bounce<br /> </td> 
+   <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
@@ -67,24 +67,24 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   </tr> 
   <tr> 
    <td> Fai clic su<br /> </td> 
-   <td> @clic<br /> </td> 
+   <td> @click<br /> </td> 
    <td> count(@trackingUrlType=1, 10 o 11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di click-through<br /> </td> 
+   <td> Click through rate<br /> </td> 
    <td> @clickthrough<br /> </td> 
-   <td> @UniqueClick/@consegnato<br /> </td> 
+   <td> @univeclicks/@delivery<br /> </td> 
    <td> Denominatore per il calcolo del tasso è basato solo su Consegnato.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegnato<br /> </td> 
-   <td> @consegnato<br /> </td> 
+   <td> @delivery<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di consegna<br /> </td> 
+   <td> Velocità di consegna<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivery/@sent<br /> </td> 
    <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
@@ -114,7 +114,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mirror, pagina<br /> </td> 
+   <td> Mirror page<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
    <td> Denominatore per il calcolo del tasso è basato solo su Consegnato.<br /> </td> 
@@ -122,7 +122,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   <tr> 
    <td> Frequenza pagina speculare<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
-   <td> @mirrorPage/@consegnato<br /> </td> 
+   <td> @mirrorPage/@delivery<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -132,25 +132,25 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Apri<br /> </td> 
-   <td> @univocheApre<br /> </td> 
-   <td> count(@trackingUrlType=2 + univoco(@trackingUrlType=1,2,3,6,10,11) - univoco(@trackingUrlType=2)<br /> </td> 
+   <td> Open<br /> </td> 
+   <td> @UniqueApre<br /> </td> 
+   <td> count(@trackingUrlType=2 + univoco(@trackingUrlType=1,2,3,6,10,11) - univoco(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasso aperto<br /> </td> 
-   <td> @rateOpen<br /> </td> 
-   <td> @open/@consegnato<br /> </td> 
+   <td> Open rate<br /> </td> 
+   <td> @rateApre<br /> </td> 
+   <td> @open/@delivery<br /> </td> 
    <td> Denominatore per il calcolo del tasso è basato solo su Consegnato.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantina<br /> </td> 
+   <td> Quarantena<br /> </td> 
    <td> @quarantena<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di quarantena<br /> </td> 
+   <td> Velocità di quarantena<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantena/@sent<br /> </td> 
    <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
@@ -170,7 +170,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   <tr> 
    <td> Elaborato/inviato<br /> </td> 
    <td> @sent<br /> </td> 
-   <td> @consegnato + @bounce<br /> </td> 
+   <td> @consegnato + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Frequenza rimbalzo morbida<br /> </td> 
+   <td> Soft bounce rate<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
    <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
@@ -188,7 +188,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   <tr> 
    <td> Clic univoci<br /> </td> 
    <td> @univeclicks<br /> </td> 
-   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. Per ulteriori informazioni, vedere <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -198,8 +198,8 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Non Raggiungibile <br /> </td> 
-   <td> @non raggiungibile<br /> </td> 
+   <td> Non raggiungibile <br /> </td> 
+   <td> @unraggiungibile<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
   </tr> 
@@ -210,7 +210,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di annullamento sottoscrizione<br /> </td> 
+   <td> Annulla sottoscrizione<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@consegnato<br /> </td> 
    <td> Denominatore per il calcolo del tasso è basato solo su Consegnato.<br /> </td> 
@@ -242,11 +242,11 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   </tr> 
   <tr> 
    <td> Consegnato<br /> </td> 
-   <td> @consegnato<br /> </td> 
+   <td> @delivery<br /> </td> 
    <td> @count(status=consegnato)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di consegna<br /> </td> 
+   <td> Velocità di consegna<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@delivery/@sent)*100<br /> </td> 
   </tr> 
@@ -256,19 +256,19 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> (@delivery/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Apri<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> Open<br /> </td> 
+   <td> @open<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso aperto<br /> </td> 
-   <td> @rateOpen<br /> </td> 
+   <td> Open rate<br /> </td> 
+   <td> @rateApre<br /> </td> 
    <td> (@open/@consegnato)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Aperture univoche<br /> </td> 
    <td> @uniqueopen<br /> </td> 
-   <td> Le aperture univoche vengono calcolate utilizzando i concetti di ThetaSketch di RecipientIds univoci. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> Le aperture univoche vengono calcolate utilizzando i concetti di ThetaSketch di RecipientIds univoci. Per ulteriori informazioni, vedere <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressioni<br /> </td> 
@@ -282,16 +282,16 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   </tr> 
   <tr> 
    <td> Fai clic su<br /> </td> 
-   <td> @clic<br /> </td> 
+   <td> @click<br /> </td> 
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic univoci<br /> </td> 
    <td> @univeclicks<br /> </td> 
-   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. Per ulteriori informazioni, vedere <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di click-through<br /> </td> 
+   <td> Click through rate<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> (@interact/@consegnato)*100<br /> </td> 
   </tr> 
@@ -318,21 +318,21 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
   </tr> 
   <tr> 
    <td> Consegnato<br /> </td> 
-   <td> @consegnato<br /> </td> 
+   <td> @delivery<br /> </td> 
    <td> @count(status=consegnato)<br /> </td> 
-   <td> consegnato=sent<br /> </td> 
+   <td> sent=sent<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressioni<br /> </td> 
    <td> @impression<br /> </td> 
-   <td> @count(status=view) o @count(status=pulsante 1 clic + pulsante 2 clic + chiusure)<br /> </td> 
+   <td> @count(status=view) o @count(status=pulsante 1 clic + pulsante 2 clic + licenziamenti)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Impressioni univoche<br /> </td> 
    <td> @uniqueimpression<br /> </td> 
    <td> @univoche(@count(status=view))<br /> </td> 
-   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per gli utenti <span class="uicontrol">Target in base al profilo Campaign (inAppProfile)</span> modello, utente = ID destinatario.<br /> Per  <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast) </span> e di  <span class="uicontrol">Target utenti basati sui </span> modelli del loro profilo mobile (inApp), utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic in-app <br /> </td> 
@@ -341,15 +341,15 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Clic in-app univoci<br /> </td> 
+   <td> Clic univoci in-app<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
-   <td> @univoche(@count (status=clic)<br /> </td> 
-   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> @univoche(@count (status=clic))<br /> </td> 
+   <td> Per gli utenti <span class="uicontrol">Target in base al profilo Campaign (inAppProfile)</span> modello, utente = ID destinatario.<br /> Per  <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast) </span> e di  <span class="uicontrol">Target utenti basati sui </span> modelli del loro profilo mobile (inApp), utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Frequenza di click-through in-app<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> Clic totale sul pulsante 1 o sul pulsante 2/impression totale*100<br /> </td> 
+   <td> Clic totale sul pulsante 1 o sul pulsante 2/impression totali*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -362,12 +362,12 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> Licenze univoche in-app<br /> </td> 
    <td> @unicedismissal<br /> </td> 
    <td> @univoche(@count (status=close))<br /> </td> 
-   <td> Per gli utenti di <span class="uicontrol">Target in base al modello di profilo Campaign (inAppProfile)</span> , utente = ID destinatario.<br /> Per <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast)</span> e di utenti <span class="uicontrol">Target basati sui modelli del loro profilo mobile (inApp)</span> , utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per gli utenti <span class="uicontrol">Target in base al profilo Campaign (inAppProfile)</span> modello, utente = ID destinatario.<br /> Per  <span class="uicontrol">Target tutti gli utenti di un'app mobile (inAppBroadcast) </span> e di  <span class="uicontrol">Target utenti basati sui </span> modelli del loro profilo mobile (inApp), utente = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Frequenza di licenziamento in-app<br /> </td> 
-   <td> @dismissalate<br /> </td> 
-   <td> Totale impression/totale* 100<br /> </td> 
+   <td> @dismissalrate<br /> </td> 
+   <td> Totale impression/totale * 100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
