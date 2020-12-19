@@ -22,7 +22,7 @@ Di seguito sono elencate diverse tecniche, configurazioni e strumenti utilizzabi
 
 **Inverti DNS**:  Adobe Campaign verifica se per un indirizzo IP viene fornito un DNS inverso e che questo indichi correttamente l&#39;IP.
 
-**Le regole** MX vengono utilizzate per controllare la velocità alla quale Campaign MTA (Message Transfer Agent) invia e-mail a ogni singolo dominio e-mail o ISP (ad esempio, hotmail.com, comcast.net). Tali regole si basano in genere sui limiti pubblicati dagli ISP (ad esempio, non includono più di 20 messaggi per ogni connessione SMTP).
+**Le** regole MX vengono utilizzate per controllare la velocità con cui il MTA della campagna (Agente di trasferimento messaggi) invia e-mail a ciascun dominio e-mail o ISP (ad esempio, hotmail.com, comcast.net). Tali regole si basano in genere sui limiti pubblicati dagli ISP (ad esempio, non includono più di 20 messaggi per ogni connessione SMTP).
 
 **TLS** (Transport Layer Security) è un protocollo di cifratura che può essere utilizzato per proteggere la connessione tra due server e-mail e proteggere il contenuto di un&#39;e-mail dalla lettura da parte di altri destinatari.
 
@@ -36,6 +36,6 @@ Di seguito sono elencate diverse tecniche, configurazioni e strumenti utilizzabi
 
 DMARC può sfruttare i report generati da 250ok.
 
-**SMTP** (Simple Mail Transfer Protocol) è uno standard Internet per la trasmissione di posta elettronica.
+**SMTP**  (Simple Mail Transfer Protocol) è uno standard Internet per la trasmissione di posta elettronica.
 
 **IP** dedicati:  Adobe offre una strategia IP dedicata a ciascun cliente con un IP di espansione per costruire una reputazione e ottimizzare le prestazioni di distribuzione.
