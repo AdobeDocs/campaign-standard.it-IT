@@ -21,15 +21,15 @@ ht-degree: 12%
 
 Per creare un modulo Adobe Campaign  sul sito AEM:
 
-1. Nel sito AEM, create una nuova pagina basata sul modello di profilo **Adobe Campaign** .
+1. Nel sito AEM, create una nuova pagina basata sul modello **profilo Adobe Campaign**.
 
    ![](assets/aem_content_forms.png)
 
-1. Nelle proprietà della pagina, selezionate la **[!UICONTROL Cloud Service]** corrispondente all’istanza di Adobe Campaign .
+1. Nelle proprietà della pagina, selezionate la **[!UICONTROL Cloud Service]** corrispondente all&#39;istanza di Adobe Campaign .
 
    ![](assets/aem_content_forms_2.png)
 
-1. Selezionate il tipo di modulo dal **[!UICONTROL Form Start]** componente:
+1. Selezionare il tipo di modulo dal componente **[!UICONTROL Form Start]**:
 
    * **Adobe Campaign: Salva profilo**
    * **Adobe Campaign: Iscriviti ai servizi**
