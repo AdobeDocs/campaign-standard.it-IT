@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Report SMS{#sms-report}
 
-Il rapporto **SMS** fornisce informazioni dettagliate sulle consegne degli SMS, ad esempio sui tassi di invio e di rimbalzo.
+Il rapporto **SMS** fornisce informazioni dettagliate sulle consegne di SMS, come le consegne e i tassi di rimbalzo.
 
 ![](assets/dynamic_report_sms.png)
 
-La tabella di riepilogo **** SMS, i grafici e i numeri di riepilogo contengono i dati disponibili per le consegne via SMS che sono state inviate.
+La tabella **SMS summary**, i grafici e i numeri di riepilogo contengono i dati disponibili per le consegne di SMS che sono state inviate.
 
 * **Elaborato/inviato**: Numero di SMS inviati.
 * **Consegnato**: Numero di SMS inviati.
