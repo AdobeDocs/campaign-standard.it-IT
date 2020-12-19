@@ -10,8 +10,8 @@ context-tags: signal,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ Tieni presente che un’attività **[!UICONTROL External signal]** può essere a
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: Attività esterna del segnale e importazione](../../automating/using/external-signal-data-import.md)dei dati.
+* [Caso di utilizzo: Attività esterna del segnale e importazione](../../automating/using/external-signal-data-import.md) dei dati.
 * [Caso di utilizzo: Chiamata di un flusso di lavoro per creare un&#39;audience da un file utilizzando parametri esterni](../../automating/using/use-case-calling-workflow.md)
 
 ## Configurazione {#configuration}
