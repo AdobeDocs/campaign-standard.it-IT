@@ -17,13 +17,13 @@ ht-degree: 4%
 
 # Aggiornamento dei profili {#updating-profiles}
 
-L&#39;aggiornamento dei profili viene eseguito con una richiesta **PATCH** .
+L&#39;aggiornamento dei profili viene eseguito con una richiesta **PATCH**.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. Il primo passaggio consiste nel **recuperare il profilo**.
+1. Il primo passaggio è **recuperare il profilo**.
 
-1. In una seconda richiesta, eseguiremo una richiesta **di** PATCH sul profilo con le informazioni completate nel payload.
+1. In una seconda richiesta, eseguiremo una **richiesta di PATCH** sul profilo con le informazioni completate nel payload.
 
 1. Per verificare se la richiesta di PATCH ha aggiornato il profilo, possiamo eseguire una richiesta di GET finale.
 
