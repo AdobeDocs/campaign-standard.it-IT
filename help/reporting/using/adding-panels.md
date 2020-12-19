@@ -23,11 +23,11 @@ Per avviare il rapporto, puoi aggiungere un set di pannelli a un rapporto out-of
 
 Questo pannello consente di creare i rapporti in base alle esigenze. Puoi aggiungere tutti i pannelli che desideri nei tuoi rapporti per filtrare i dati con periodi di tempo diversi.
 
-1. Fate clic sull’icona **Pannelli** . Potete anche aggiungere un pannello facendo clic sulla scheda **** Inserisci e selezionando **Nuovo pannello** vuoto.
+1. Fare clic sull&#39;icona **Pannelli**. È inoltre possibile aggiungere un pannello facendo clic sulla **scheda Inserisci** e selezionando **Nuovo pannello vuoto**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Trascinate e rilasciate il pannello **** vuoto nel dashboard.
+1. Trascinare il **Pannello vuoto** nel dashboard.
 
    ![](assets/dynamic_report_panel.png)
 
@@ -35,21 +35,21 @@ Ora potete aggiungere una tabella a forma libera al pannello per avviare il targ
 
 ## Aggiunta di una tabella a forma libera {#adding-a-freeform-table}
 
-Le tabelle a forma libera consentono di creare una tabella per analizzare i dati utilizzando le diverse metriche e dimensioni disponibili nella tabella **Componenti** .
+Le tabelle a forma libera consentono di creare una tabella per analizzare i dati utilizzando le diverse metriche e dimensioni disponibili nella tabella **Componente**.
 
 Ogni tabella e visualizzazione è ridimensionabile e può essere spostata per personalizzare meglio il rapporto.
 
-1. Fate clic sull’icona **Pannelli** .
+1. Fare clic sull&#39;icona **Pannelli**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Trascinate e rilasciate l’elemento **Freeform** nel dashboard.
+1. Trascinare l&#39;elemento **Freeform** nel dashboard.
 
-   È inoltre possibile aggiungere una tabella facendo clic sulla scheda **Inserisci** e selezionando **Nuova forma libera** oppure facendo clic su **Aggiungi una tabella** a forma libera in un pannello vuoto.
+   È inoltre possibile aggiungere una tabella facendo clic sulla scheda **Inserisci** e selezionando **Nuova forma libera** oppure facendo clic su **Aggiungi una tabella a forma libera** in un pannello vuoto.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Il **[!UICONTROL Exclude proof]** segmento è già selezionato per impostazione predefinita. Se necessario, potete modificarlo trascinando una delle due opzioni **[!UICONTROL Segments]** dalla **[!UICONTROL Components]** scheda alla barra superiore.
+1. Il segmento **[!UICONTROL Exclude proof]** è già selezionato per impostazione predefinita. Se necessario, è possibile modificarlo trascinando una delle **[!UICONTROL Segments]** dalla scheda **[!UICONTROL Components]** nella barra superiore.
 
    ![](assets/dynamic_report_panel_3.png)
 
@@ -57,19 +57,19 @@ Ogni tabella e visualizzazione è ridimensionabile e può essere spostata per pe
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Fate clic sull&#39;icona **Impostazioni** per cambiare la modalità di visualizzazione dei dati nelle colonne.
+1. Fare clic sull&#39;icona **Impostazioni** per modificare la modalità di visualizzazione dei dati nelle colonne.
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   Il **[!UICONTROL Column settings]** gruppo è composto da:
+   La **[!UICONTROL Column settings]** è composta da:
 
    * **[!UICONTROL Number]**: consente di mostrare o nascondere i numeri di riepilogo nella colonna.
    * **[!UICONTROL Percent]**: consente di visualizzare o nascondere la percentuale nella colonna.
    * **[!UICONTROL Interpret zero as no value]**: consente di visualizzare o nascondere quando un valore è uguale a zero.
    * **[!UICONTROL Background]**: consente di mostrare o nascondere la barra di avanzamento orizzontale nelle celle.
-   * **[!UICONTROL Include retries]**: consente di includere i tentativi nel risultato. Questo è disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Include retries]**: consente di includere i tentativi nel risultato. Questa funzione è disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Selezionate una o più righe e fate clic sull&#39;icona **Visualizza** . Viene aggiunta una visualizzazione per riflettere le righe selezionate.
+1. Selezionare una o più righe e fare clic sull&#39;icona **Visualizza**. Viene aggiunta una visualizzazione per riflettere le righe selezionate.
 
    ![](assets/dynamic_report_freeform_5.png)
 
