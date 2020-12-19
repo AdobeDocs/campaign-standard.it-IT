@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consultare la [tabella](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Se due componenti non sono compatibili, nella cella verrà visualizzato il valore **None**.
 
-[![immagine](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+[![immagine](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=it)
 
 ## Dimension {#dimensions}
 
