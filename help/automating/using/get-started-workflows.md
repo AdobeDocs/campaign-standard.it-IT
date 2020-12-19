@@ -34,17 +34,17 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 * Importazione di dati nel database Campaign.
 * Processi tecnici come pulizia del database, recupero delle informazioni di tracciamento, ecc.
 
-## Attività flusso di lavoro {#workflow-activities}
+## Attività del flusso di lavoro {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 Sono disponibili diverse attività per aiutarti a progettare i flussi di lavoro.
 
-[Le attività](../../automating/using/about-targeting-activities.md) di targeting consentono di creare uno o più target definendo set e dividendo o combinando questi set mediante operazioni di intersezione, unione o esclusione.
+[Le ](../../automating/using/about-targeting-activities.md) attività di targeting consentono di creare uno o più target definendo set e dividendo o combinando questi set mediante operazioni di intersezione, unione o esclusione.
 
-Con le attività [di](../../automating/using/about-execution-activities.md)esecuzione, coordinate il flusso di lavoro e le relative attività, mentre le attività [di](../../automating/using/about-channel-activities.md) canale consentono di combinare canali di comunicazione Campaign Standard per creare flussi di lavoro multicanale.
+Con [Attività di esecuzione](../../automating/using/about-execution-activities.md), coordinare il flusso di lavoro e le attività, mentre [Attività canale](../../automating/using/about-channel-activities.md) consente di combinare canali di comunicazione Campaign Standard per creare flussi di lavoro tra canali.
 
-Infine, le attività [di gestione dei](../../automating/using/about-data-management-activities.md) dati consentono di manipolare i dati dal database.
+Infine, le [attività di gestione dei dati](../../automating/using/about-data-management-activities.md) consentono di manipolare i dati dal database.
 
 Leggi tutto:
 
@@ -52,13 +52,13 @@ Leggi tutto:
 * [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md)
 * [Procedure consigliate per i flussi di lavoro](../../automating/using/best-practices-workflows.md)
 
-## Filtrare i dati {#filter-data}
+## Dati filtro {#filter-data}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Sfruttate l&#39;editor **di** query per filtrare i dati dal database e creare una popolazione in modo da indirizzare meglio i destinatari. L&#39;editor di query è disponibile per eseguire diverse azioni in Campaign Standard: creare tipi di pubblico di query, definire target di consegna o popolazioni nelle attività del flusso di lavoro.
+Sfruttate l&#39; **editor di query** per filtrare i dati dal database e creare una popolazione in modo da indirizzare meglio i destinatari. L&#39;editor di query è disponibile per eseguire diverse azioni in Campaign Standard: creare tipi di pubblico di query, definire target di consegna o popolazioni nelle attività del flusso di lavoro.
 
-L&#39;editor di query include filtri e regole **** predefiniti per un filtraggio rapido e semplice. Tuttavia, potete anche utilizzare funzionalità di modifica **delle espressioni** avanzate. Questo consente di inserire manualmente le condizioni e utilizzare le funzioni, al fine di formare le proprie regole.
+L&#39;editor di query viene fornito con **filtri e regole predefiniti** per un filtraggio rapido e semplice. Tuttavia, è anche possibile utilizzare le funzionalità di modifica delle espressioni avanzate ****. Questo consente di inserire manualmente le condizioni e utilizzare le funzioni, al fine di formare le proprie regole.
 
 Leggi tutto:
 
@@ -66,21 +66,21 @@ Leggi tutto:
 * [Modifica avanzata delle espressioni](../../automating/using/advanced-expression-editing.md)
 * [Elenco delle funzioni](../../automating/using/list-of-functions.md)
 
-## Importazione/esportazione di dati {#import-export-data}
+## Importa/esporta dati {#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard viene fornito con diverse funzionalità **di gestione** dei dati per importare ed esportare i dati.
+Campaign Standard viene fornito con diverse **funzionalità di gestione dei dati** per importare ed esportare i dati.
 
-[Le attività](../../automating/using/about-data-management-activities.md) di gestione dei dati dei flussi di lavoro consentono di importare dati, eseguire aggiornamenti di massa sui campi, ricevere o inviare file o collegare dati non identificati a risorse esistenti.
+[Le ](../../automating/using/about-data-management-activities.md) attività di gestione dei dati dei flussi di lavoro consentono di importare dati, eseguire aggiornamenti di massa sui campi, ricevere o inviare file o collegare dati non identificati a risorse esistenti.
 
-Con i modelli [di](../../automating/using/importing-data-with-import-templates.md)importazione, gestite alcuni tipi di importazione definiti dagli amministratori tramite funzioni di importazione semplificate.
+Con [Importa modelli](../../automating/using/importing-data-with-import-templates.md), puoi gestire alcuni tipi di importazione definiti dagli amministratori tramite funzioni di importazione semplificate.
 
-[I registri](../../automating/using/exporting-logs.md) di esportazione consentono di esportare i dati di registro attraverso un semplice flusso di lavoro, consentendo di analizzare i risultati delle campagne di marketing con i propri strumenti di reporting o BI.
+[L’esportazione dei ](../../automating/using/exporting-logs.md) log consente di esportare i dati di log tramite un semplice flusso di lavoro, per analizzare i risultati delle campagne di marketing con i propri strumenti di reporting o BI.
 
-Sfruttate [i pacchetti](../../automating/using/managing-packages.md) per scambiare risorse tra diverse istanze di campagne, ad esempio per replicare la configurazione di un&#39;istanza o per trasferire dati da un server a un altro, incluse le risorse personalizzate.
+Utilizzate [Packages](../../automating/using/managing-packages.md) per scambiare risorse tra diverse istanze di campagne, ad esempio per replicare la configurazione di un&#39;istanza o per trasferire dati da un server a un altro, incluse le risorse personalizzate.
 
-Infine, [Esportazione di elenchi](../../automating/using/exporting-lists.md) consente di esportare qualsiasi elenco da Campaign Standard, ad esempio l’elenco dei profili di test, l’elenco degli indirizzi e-mail delle quarantena e così via.
+Infine, [Esportazione di elenchi](../../automating/using/exporting-lists.md) consente di esportare qualsiasi elenco da Campaign Standard, ad esempio l&#39;elenco dei profili di test, l&#39;elenco degli indirizzi e-mail delle quarantena e così via.
 
 Leggi tutto:
 
