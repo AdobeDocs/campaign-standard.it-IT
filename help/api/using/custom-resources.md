@@ -25,13 +25,13 @@ Le risorse personalizzate sono accessibili tramite le API che utilizzano l&#39;e
 
 >[!NOTE]
 >
->Per le risorse che non sono pronte all’uso, utilizzate sempre il prefisso <b>&quot;cus&quot;</b> prima del nome della risorsa.
+>Per le risorse non pronte all&#39;uso, utilizzate sempre il prefisso <b>&quot;cus&quot;</b> prima del nome della risorsa.
 
 Puoi eseguire qualsiasi operazione con risorse personalizzate, purché collegate alla tabella Profilo. Ad esempio, consideriamo la struttura delle tabelle di seguito:
 
 ![testo alt](assets/cusresources.png)
 
-In tal caso, tutte le risorse dalle tabelle **Transazione**, **TransactionDetails** e **Product** sono disponibili purché collegate alla tabella **Profilo** .
+In tal caso, tutte le risorse delle tabelle **Transaction**, **TransactionDetails** e **Product** sono disponibili purché siano collegate alla tabella **Profile**.
 
 <br/>
 
