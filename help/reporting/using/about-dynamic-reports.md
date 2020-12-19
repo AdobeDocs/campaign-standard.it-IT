@@ -9,8 +9,8 @@ topic-tags: about-reporting
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +21,17 @@ I rapporti dinamici forniscono rapporti completamente personalizzabili e in temp
 
 >[!NOTE]
 >
->Solo gli utenti con diritti di amministrazione o con unità organizzative impostate su **Tutto** possono creare o salvare un nuovo rapporto. Per ulteriori informazioni, consulta questa [sezione](../../administration/using/users-management.md).
+>Solo gli utenti con diritti di amministrazione o con unità organizzative impostate su **All** possono creare o salvare un nuovo rapporto. Per ulteriori informazioni, consulta questa [sezione](../../administration/using/users-management.md).
 
-## Accesso ai rapporti dinamici {#accessing-dynamic-reports}
+## Accesso ai report dinamici {#accessing-dynamic-reports}
 
 È possibile accedere ai report:
 
-* Dalla home page selezionando **[!UICONTROL Reports]** la scheda nella barra superiore o nella **[!UICONTROL Reports]** scheda per accedere ai rapporti per tutte le consegne.
+* Dalla home page selezionando la scheda **[!UICONTROL Reports]** nella barra superiore o la scheda **[!UICONTROL Reports]** per accedere ai rapporti per tutte le consegne.
 
    ![](assets/campaign_reports_access.png)
 
-* In ciascun programma, campagna e messaggio, dal pulsante **Rapporti** , facendo clic su Rapporti **** dinamici per visualizzare solo i rapporti specifici per la consegna.
+* In ciascun programma, campagna e messaggio, dal pulsante **Reports** facendo clic su **Dynamic Reports** per visualizzare solo i rapporti specifici per la consegna.
 
    ![](assets/campaign_reports_description.png)
 
@@ -39,8 +39,8 @@ Alcuni rapporti non possono essere disponibili subito dopo la consegna, a second
 
 I rapporti dinamici sono suddivisi in due categorie:
 
-* **Modelli**, che possono essere modificati copiandoli con l’opzione **Salva con nome** (**Progetto > Salva con nome).**) nel modello.
-* **Report** personalizzati (identificati in blu), che possono essere creati direttamente facendo clic sul pulsante **Crea nuovo progetto** nella home page **Report** .
+* **Modelli**, che possono essere modificati copiandoli con l’opzione  **Salva** come (**Progetto > Salva con nome).**) nel modello.
+* **Report**  personalizzati (identificati in blu), che possono essere creati direttamente facendo clic sul pulsante  **Crea nuovo** progetto nella pagina  **** Rapporto.
 
 >[!NOTE]
 >
@@ -48,13 +48,13 @@ I rapporti dinamici sono suddivisi in due categorie:
 
 ![](assets/dynamic_report_overview.png)
 
-## Accordo di utilizzo per rapporti dinamici {#dynamic-reporting-usage-agreement}
+## Contratto di utilizzo per rapporti dinamici {#dynamic-reporting-usage-agreement}
 
 Lo scopo dell&#39;accordo di utilizzo di reporting dinamico è di fungere da consenso popup per l&#39;elaborazione dei dati. Per impostazione predefinita, il contratto è visibile e può essere accettato o rifiutato solo dagli utenti ai quali sono stati assegnati diritti di amministrazione.
 
 Sono disponibili tre opzioni:
 
-* **[!UICONTROL Ask me later]**: Facendo clic su **Chiedi più tardi**, la finestra smetterà di visualizzare per 24 ore. Fino a quando non accetti o non rifiuti il contratto, le dimensioni del profilo non verranno visualizzate nei tuoi rapporti e i dati di identificazione personale dei clienti non saranno raccolti o inviati.
+* **[!UICONTROL Ask me later]**: Facendo clic su  **Chiedi più tardi**, la finestra smetterà di visualizzare per 24 ore. Fino a quando non accetti o non rifiuti il contratto, le dimensioni del profilo non verranno visualizzate nei tuoi rapporti e i dati di identificazione personale dei clienti non saranno raccolti o inviati.
 * **[!UICONTROL Accept]**: Accettando questo contratto, l&#39;utente autorizza  Adobe Campaign a raccogliere i dati personali dei propri clienti e a trasferirli al centro dati o al reporting.
 * **[!UICONTROL Decline]**: Rifiutando l&#39;accordo, le dimensioni del profilo non verranno visualizzate nei rapporti e i dati personali dei clienti non verranno raccolti o inviati. In questo caso, externalID verrà comunque raccolto e utilizzato per identificare gli utenti finali.
 
@@ -62,17 +62,17 @@ Nella tabella seguente sono riportati gli eventi che si verificano dopo l&#39;ac
 
 |  | Generazione di rapporti dinamici | Connettore Microsoft Dynamics 365 |
 |---|---|---|
-| Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br>Informazioni complete (città, paese, regione, stato, genere e segmenti in base all&#39;età) e profili personalizzati inviati al centro di reporting statunitense. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Funzionalità disponibile**. <br>Tutti i campi out-of-the-box e i campi dei profili personalizzati e  eventi Adobe Campaign Standard vengono elaborati nel centro dati statunitense. |
-| EMEA (Europa Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Informazioni complete (città, paese, regione, stato, genere e segmenti in base all&#39;età) e profili personalizzati inviati al centro di reporting EMEA. For more information on profile dimensions, refer to this [page](../../reporting/using/list-of-components-.md) | **Funzionalità disponibile.** <br>Tutti i campi out-of-the-box e i campi dei profili personalizzati e  eventi Adobe Campaign Standard elaborati nel centro dati EMEA. <br>**[!UICONTROL Control data]**che contiene  dati di registrazione I/O Adobe e ID degli eventi degli utenti finali del cliente inviati e memorizzati nel centro dati USA. |
+| Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br>Informazioni complete (città, paese, regione, stato, genere e segmenti in base all&#39;età) e profili personalizzati inviati al centro di reporting statunitense. Per ulteriori informazioni sulle dimensioni del profilo, fare riferimento a questa [pagina](../../reporting/using/list-of-components-.md) | **Funzionalità disponibile**. <br>Tutti i campi out-of-the-box e i campi dei profili personalizzati e  eventi Adobe Campaign Standard vengono elaborati nel centro dati statunitense. |
+| EMEA (Europa Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Informazioni complete (città, paese, regione, stato, genere e segmenti in base all&#39;età) e profili personalizzati inviati al centro di reporting EMEA. Per ulteriori informazioni sulle dimensioni del profilo, fare riferimento a questa [pagina](../../reporting/using/list-of-components-.md) | **Funzionalità disponibile.** <br>Tutti i campi out-of-the-box e i campi dei profili personalizzati e  eventi Adobe Campaign Standard elaborati nel centro dati EMEA. <br>**[!UICONTROL Control data]**che contiene  dati di registrazione Adobe I/O e ID degli eventi degli utenti finali del cliente inviati e memorizzati nel centro dati statunitense. |
 
 Nella tabella seguente sono riportati gli eventi che si verificano dopo il rifiuto del contratto a seconda della regione. Anche in caso di rifiuto del contratto, sarà comunque disponibile la generazione di rapporti sulle consegne e l&#39;integrazione con Microsoft Dynamics 365.
 
 | Regione | Generazione di rapporti dinamici | Connettore Microsoft Dynamics 365 |
 |---|---|---|
-| Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br> Nessun&#39;informazione out-of-the-box e informazioni sui profili personalizzati inviate al centro di reporting statunitense, ad eccezione di ExternalID. | **Funzionalità disponibile**. <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati degli Stati Uniti, ad eccezione di ID esterni e ID destinatario. <br>Tutti  campi evento Adobe Campaign Standard elaborati nel centro dati degli Stati Uniti, ad eccezione dell&#39;ID pagina mirror. <br>Per ulteriori informazioni sull&#39;integrazione con Microsoft Dynamics 365, fare riferimento a questa [pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
-| EMEA (Europa Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Nessuna informazione disponibile e nessuna informazione sui profili personalizzati inviati al centro di reporting EMEA, ad eccezione di ExternalID. | **Funzionalità disponibile.** <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati EMEA, ad eccezione di ID esterni e ID destinatario. <br>Tutti  campi evento Adobe Campaign Standard elaborati nel centro dati EMEA, ad eccezione dell&#39;ID pagina mirror.  <br>**[!UICONTROL Control data]**che contiene  dati di registrazione I/O Adobe e ID degli eventi degli utenti finali del cliente inviati e memorizzati nel centro dati USA.<br>Per ulteriori informazioni sull&#39;integrazione con Microsoft Dynamics 365, fare riferimento a questa [pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| Americhe e APAC (Asia Pacifico) | **Funzionalità disponibile**. <br> Nessun&#39;informazione out-of-the-box e informazioni sui profili personalizzati inviate al centro di reporting statunitense, ad eccezione di ExternalID. | **Funzionalità disponibile**. <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati degli Stati Uniti, ad eccezione di ID esterni e ID destinatario. <br>Tutti  campi evento Adobe Campaign Standard elaborati nel centro dati degli Stati Uniti, ad eccezione dell&#39;ID pagina mirror. <br>Per ulteriori informazioni sull&#39;integrazione con Microsoft Dynamics 365, fare riferimento a questa  [pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| EMEA (Europa Medio Oriente e Africa) | **Funzionalità disponibile**. <br>Nessuna informazione disponibile e nessuna informazione sui profili personalizzati inviati al centro di reporting EMEA, ad eccezione di ExternalID. | **Funzionalità disponibile.** <br>Nessun campo out-of-the-box o campo di profilo personalizzato inviato al centro dati EMEA, ad eccezione di ID esterni e ID destinatario. <br>Tutti  campi evento Adobe Campaign Standard elaborati nel centro dati EMEA, ad eccezione dell&#39;ID pagina mirror.  <br>**[!UICONTROL Control data]**che contiene  dati di registrazione Adobe I/O e ID degli eventi degli utenti finali del cliente inviati e memorizzati nel centro dati statunitense.<br>Per ulteriori informazioni sull&#39;integrazione con Microsoft Dynamics 365, fare riferimento a questa  [pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
 
-Questa scelta non è finale, potete sempre modificarla selezionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+Questa scelta non è finale, è sempre possibile modificarla selezionando **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
 Il valore può essere modificato in qualsiasi momento. Il valore 1 corrisponde a **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** e 3 **[!UICONTROL Accept]**.
 
