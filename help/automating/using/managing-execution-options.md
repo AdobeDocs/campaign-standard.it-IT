@@ -10,15 +10,15 @@ context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Gestione delle opzioni di esecuzione {#managing-execution-options}
 
-Per modificare le opzioni di esecuzione di un flusso di lavoro, utilizzate il ![](assets/edit_darkgrey-24px.png) pulsante per accedere alle proprietà del flusso di lavoro e selezionate la **[!UICONTROL Execution]** sezione.
+Per modificare le opzioni di esecuzione di un flusso di lavoro, utilizzare il pulsante ![](assets/edit_darkgrey-24px.png) per accedere alle proprietà del flusso di lavoro e selezionare la sezione **[!UICONTROL Execution]**.
 
 ![](assets/wkf_execution_6.png)
 
@@ -26,13 +26,13 @@ Le opzioni possibili sono:
 
 * **[!UICONTROL Default affinity]**: questo campo consente di forzare l&#39;esecuzione di un flusso di lavoro o di un&#39;attività di workflow su un computer specifico.
 
-* **[!UICONTROL History in days]**: specifica il numero di giorni dopo i quali la cronologia deve essere eliminata. La cronologia contiene elementi correlati al flusso di lavoro: registri, attività, eventi (oggetti tecnici collegati all&#39;operazione del flusso di lavoro), nonché file scaricati dall&#39; **[!UICONTROL Transfer file]** attività. Il valore predefinito è 30 giorni per i modelli di flusso di lavoro predefiniti.
+* **[!UICONTROL History in days]**: specifica il numero di giorni dopo i quali la cronologia deve essere eliminata. La cronologia contiene elementi correlati al flusso di lavoro: registri, attività, eventi (oggetti tecnici collegati all&#39;operazione del flusso di lavoro), nonché file scaricati dall&#39;attività **[!UICONTROL Transfer file]**. Il valore predefinito è 30 giorni per i modelli di flusso di lavoro predefiniti.
 
-   La rimozione della cronologia viene eseguita dal flusso di lavoro tecnico di pulizia del database, che viene eseguito quotidianamente per impostazione predefinita (vedere [Elenco di flussi di lavoro](../../administration/using/technical-workflows.md)tecnici).
+   La rimozione della cronologia viene eseguita dal flusso di lavoro tecnico di pulizia del database, che viene eseguito quotidianamente per impostazione predefinita (vedere [Elenco di flussi di lavoro tecnici](../../administration/using/technical-workflows.md)).
 
    >[!IMPORTANT]
    >
-   >Se il **[!UICONTROL History in days]** campo viene lasciato vuoto, il relativo valore verrà considerato come &quot;1&quot;, il che significa che la cronologia verrà eliminata dopo 1 giorno.
+   >Se il campo **[!UICONTROL History in days]** viene lasciato vuoto, il relativo valore verrà considerato come &quot;1&quot;, il che significa che la cronologia verrà eliminata dopo 1 giorno.
 
 * **[!UICONTROL Save SQL queries in the log]**: consente di salvare le query SQL dal flusso di lavoro nei registri.
 
@@ -46,4 +46,4 @@ Le opzioni possibili sono:
 
 * **[!UICONTROL Severity]**: consente di specificare un livello di priorità per l’esecuzione di flussi di lavoro nell’istanza di Adobe Campaign . Questo campo è utilizzato dai team  Adobe solo a scopo di monitoraggio.
 
-La **[!UICONTROL Error management]** sezione fornisce opzioni aggiuntive che consentono di gestire il funzionamento dei flussi di lavoro in caso di errori. Queste opzioni sono descritte dettagliatamente nella sezione Gestione [](../../automating/using/monitoring-workflow-execution.md#error-management) errori.
+La sezione **[!UICONTROL Error management]** offre opzioni aggiuntive che consentono di gestire il comportamento dei flussi di lavoro in caso di errori. Queste opzioni sono descritte dettagliatamente nella sezione [Gestione errori](../../automating/using/monitoring-workflow-execution.md#error-management).
