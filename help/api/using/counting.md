@@ -9,21 +9,21 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Conteggio
 
- Adobe Campaign REST API può contare il numero di record in una richiesta. A questo scopo, utilizzate l&#39;URL restituito nel nodo **count** .
+ Adobe Campaign REST API può contare il numero di record in una richiesta. A tal fine, utilizzare l&#39;URL restituito nel nodo **count**.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Per contare tutti i servizi con un valore **messageType** uguale a &quot;sms&quot;, esegui una richiesta di GET con il filtro **byChannel** .
+Per contare tutti i servizi con un valore **messageType** uguale a &quot;sms&quot;, eseguire una richiesta di GET con il filtro **byChannel**.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -54,7 +54,7 @@ Restituisce i servizi corrispondenti al filtro.
 }
 ```
 
-Eseguite una richiesta di GET sull&#39;URL del nodo del **conteggio** per recuperare il numero di risultati.
+Eseguite una richiesta di GET sull&#39;URL del nodo **count** per recuperare il numero di risultati.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
