@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Modifica di un messaggio transattivo
+title: Modifica di un messaggio transazionale
 description: Scopri come accedere, modificare e personalizzare un messaggio transazionale.
 audience: channels
 content-type: reference
