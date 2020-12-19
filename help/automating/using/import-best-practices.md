@@ -29,15 +29,15 @@ La maggior parte dei flussi di lavoro di importazione deve contenere le seguenti
 
 Utilizzando i modelli di importazione è molto comodo preparare importazioni simili e garantire la coerenza dei dati all&#39;interno del database.
 
-In molti progetti, le importazioni vengono create senza **[!UICONTROL Deduplication]** attività perché i file utilizzati nel progetto non hanno duplicati. Talvolta i duplicati vengono visualizzati durante l’importazione di file diversi. La deduplicazione è quindi difficile. Pertanto, un passaggio di deduplicazione è una buona precauzione in tutti i flussi di lavoro di importazione.
+In molti progetti, le importazioni vengono create senza l&#39;attività **[!UICONTROL Deduplication]** perché i file utilizzati nel progetto non hanno duplicati. Talvolta i duplicati vengono visualizzati durante l’importazione di file diversi. La deduplicazione è quindi difficile. Pertanto, un passaggio di deduplicazione è una buona precauzione in tutti i flussi di lavoro di importazione.
 
 Non devi basarsi sul presupposto che i dati in arrivo siano coerenti e corretti, o che il reparto IT o  supervisore Adobe Campaign se ne occuperà. Durante il progetto, tenere presente la pulizia dei dati. Deduplicare, riconciliare e mantenere la coerenza quando si importano i dati.
 
-Un esempio di modello di flusso di lavoro generico progettato per l&#39;importazione di dati è disponibile in [Esempio: Importa sezione modello](../../automating/using/creating-import-workflow-templates.md) flusso di lavoro.
+Un esempio di modello di flusso di lavoro generico progettato per l&#39;importazione di dati è disponibile nell&#39; [Esempio: Importa sezione modello flusso di lavoro](../../automating/using/creating-import-workflow-templates.md).
 
 >[!NOTE]
 >
->Potete anche utilizzare i modelli [di](../../automating/using/importing-data-with-import-templates.md)importazione. Si tratta di modelli di workflow definiti da un amministratore che, una volta attivati, offrono solo la possibilità di specificare il file contenente i dati da importare.
+>È inoltre possibile utilizzare [modelli di importazione](../../automating/using/importing-data-with-import-templates.md). Si tratta di modelli di workflow definiti da un amministratore che, una volta attivati, offrono solo la possibilità di specificare il file contenente i dati da importare.
 
 **Argomenti correlati:**
 
@@ -70,7 +70,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ## Utilizzo della compressione {#using-compression}
 
-Quando possibile, usate file ZIP per le importazioni e le esportazioni. GZIP è supportato per impostazione predefinita. È possibile aggiungere la pre-elaborazione durante l&#39;importazione di file o la post-elaborazione durante l&#39;estrazione di dati, rispettivamente nelle attività **[!UICONTROL Load file]** e nei **[!UICONTROL Extract file]** flussi di lavoro.
+Quando possibile, usate file ZIP per le importazioni e le esportazioni. GZIP è supportato per impostazione predefinita. Durante l&#39;estrazione dei dati è possibile aggiungere la pre-elaborazione durante l&#39;importazione di file o la post-elaborazione, rispettivamente nelle attività dei flussi di lavoro **[!UICONTROL Load file]** e **[!UICONTROL Extract file]**.
 
 **Argomenti correlati:**
 
@@ -88,7 +88,7 @@ Le importazioni complete devono essere utilizzate solo per il carico iniziale.
 Per mantenere la coerenza dei dati nel database Adobe Campaign , attenersi ai principi seguenti:
 
 * Se i dati importati corrispondono a una tabella di riferimento in  Adobe Campaign, è necessario riconciliarla con tale tabella nel flusso di lavoro. I record che non corrispondono devono essere rifiutati.
-* Assicurarsi che i dati importati siano sempre **&quot;normalizzati&quot;** (e-mail, numero di telefono, indirizzo e-mail diretto) e che la normalizzazione sia affidabile e non cambi nel corso degli anni. In caso contrario, è probabile che nel database vengano visualizzati dei duplicati, e poiché  Adobe Campaign non fornisce strumenti per effettuare la corrispondenza &quot;fuzzy&quot;, sarà molto difficile gestirli e rimuoverli.
+* Assicurarsi che i dati importati siano sempre **&quot;normalizzati&quot;** (indirizzo e-mail, numero di telefono, indirizzo di posta diretta) e che la normalizzazione sia affidabile e non cambi nel corso degli anni. In caso contrario, è probabile che nel database vengano visualizzati dei duplicati, e poiché  Adobe Campaign non fornisce strumenti per effettuare la corrispondenza &quot;fuzzy&quot;, sarà molto difficile gestirli e rimuoverli.
 * I dati transazionali devono avere una chiave di riconciliazione e devono essere riconciliati con i dati esistenti al fine di evitare la creazione di duplicati.
 * **Importa i file correlati in ordine**. Se l’importazione è composta da più file che dipendono l’uno dall’altro, il flusso di lavoro deve verificare che i file vengano importati nell’ordine corretto. Quando un file ha esito negativo, gli altri file non vengono importati.
 * **Deduplicare**, riconciliare e mantenere la coerenza quando si importano i dati.
