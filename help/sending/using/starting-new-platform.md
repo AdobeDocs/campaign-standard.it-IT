@@ -29,9 +29,9 @@ L&#39;avvio di una piattaforma spesso avviene quando si utilizza per la prima vo
 * Se, comunque, si desidera riqualificare gli indirizzi non validi, è di gran lunga preferibile farlo una volta che la reputazione della piattaforma è stabilita e un po&#39; alla volta, al fine di &quot;diluire&quot; l&#39;uso di indirizzi cattivi nel tempo.
 
 Per riassumere i principi da seguire all&#39;avvio:
-* **Configura un sottodominio** dedicato per lavorare con Campaign specifico per le campagne e-mail inviate dal  Adobe.
-* **Importa indirizzi non validi/inattivi nella tabella** di quarantena (se disponi di tali informazioni).
-* **Limita la velocità di consegna** (impostazione tecnica: limitare il numero di schede).
+* **Configurate un** sottodominio dedicato per l&#39;utilizzo di Campaign specifico per le campagne e-mail inviate dal Adobe .
+* **Importa indirizzi non validi/inattivi nella tabella**  di quarantena (se disponi di tali informazioni).
+* **Limita la consegna** tramite putrate (impostazione tecnica: limitare il numero di schede).
 * **Aumentare progressivamente i volumi inviati**: non eseguite il targeting dell&#39;intero database fin dall&#39;inizio, ma aggiungete una frazione extra dell&#39;elenco ogni volta che inviate. Questo dovrebbe consentire di aumentare il volume in ogni fase, riducendo al contempo il tasso complessivo di indirizzi non validi.
 * **Invia messaggi regolarmente**: in una certa misura è meglio inviare regolarmente piccole riprese piuttosto che campagne di grandi dimensioni sporadicamente.
 * **Controlla attentamente i rapporti** di consegna: indicatori di errore elevati possono indicare che un&#39;impostazione tecnica non è configurata correttamente.
