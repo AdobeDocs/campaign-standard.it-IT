@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Nota: devi trascinare le **[!UICONTROL Message type]** metriche nelle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso per le consegne in-app.
+>Nota: devi trascinare le metriche **[!UICONTROL Message type]** nelle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso per le consegne in-app.
 
 Il rapporto **In-App** fornisce dettagli relativi alle consegne in-app.
 
@@ -27,7 +27,7 @@ Ogni tabella è rappresentata da numeri e grafici di riepilogo. Puoi modificare 
 
 ![](assets/inapp_report.png)
 
-Il primo riepilogo **** del coinvolgimento in-app della tabella è suddiviso in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
+La prima tabella **Riepilogo coinvolgimento in-app** è suddivisa in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
 
 * **[!UICONTROL Processed/sent]**: Numero totale di invii per la distribuzione in-app.
 * **[!UICONTROL Delivered]**: Numero di messaggi in-app inviati correttamente, in relazione al numero totale di messaggi inviati.
@@ -38,7 +38,7 @@ Il primo riepilogo **** del coinvolgimento in-app della tabella è suddiviso in 
 
 ![](assets/inapp_report_1.png)
 
-La seconda tabella **Clic e licenziamenti** in-app è suddivisa in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
+La seconda tabella **Clic e licenziamenti in-app** è suddivisa in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
 
 * **[!UICONTROL In-App clicks]**: Numero totale di destinatari che hanno fatto clic sul pulsante 1 o sul pulsante 2.
 * **[!UICONTROL Unique In-App clicks]**: Numero di volte in cui i destinatari hanno fatto clic sul pulsante 1 o sul pulsante 2.
