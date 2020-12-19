@@ -25,9 +25,9 @@ Scoprite come mappare risorse personalizzate ed entità personalizzate nel conte
 
 ## Prerequisiti
 
-L&#39;integrazione [di](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) Microsoft Dynamics 365- Adobe Campaign Standard supporta entità personalizzate, consentendo la sincronizzazione delle entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
+L&#39;integrazione di [Microsoft Dynamics 365- Adobe Campaign Standard](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) supporta entità personalizzate, consentendo la sincronizzazione delle entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
 
-I nuovi dati nelle risorse personalizzate possono essere utilizzati per diversi scopi, tra cui segmentazione e personalizzazione.
+I nuovi dati contenuti nelle risorse personalizzate possono essere utilizzati per diversi scopi, tra cui segmentazione e personalizzazione.
 
 L&#39;integrazione supporta tabelle collegate e non collegate. Il collegamento è supportato fino a tre livelli (livello1->livello2->livello3).
 
@@ -43,10 +43,10 @@ Quando si configurano flussi di dati di entità personalizzati, è importante te
 * Per i flussi di dati di entità personalizzati, il tracciamento delle modifiche deve essere abilitato in Dynamics 365 per le entità personalizzate sincronizzate.
 * Se in Dynamics 365 viene creato un record padre e un record figlio collegato vicino alla stessa ora, a causa dell&#39;elaborazione parallela dell&#39;integrazione, è possibile che un nuovo record figlio venga scritto in Campaign prima del record padre.
 
-* Se il padre e il figlio sono collegati sul lato della campagna utilizzando l&#39;opzione di collegamento **semplice cardinalità** 1, il record figlio rimarrà nascosto e inaccessibile (tramite interfaccia utente o API) fino all&#39;arrivo del record padre in Campaign.
+* Se il padre e il figlio sono collegati sul lato della campagna utilizzando l&#39;opzione **1 collegamento semplice della cardinalità**, il record figlio rimarrà nascosto e inaccessibile (tramite interfaccia utente o API) fino all&#39;arrivo del record padre in Campaign.
 
-* (Presupponendo **1 collegamento** semplice cardinalità in Campaign) Se il record figlio viene aggiornato o eliminato in Dynamics 365 e tale modifica viene scritta in Campaign prima che il record padre venga visualizzato in Campaign (non probabile, ma una possibilità remota), tale aggiornamento o eliminazione non verrà elaborato in Campaign e verrà generato un errore. In caso di aggiornamento, il record in questione dovrà essere aggiornato di nuovo in Dynamics 365 per sincronizzare il record aggiornato. In caso di eliminazione, il record in questione dovrà essere gestito separatamente sul lato Campaign, poiché non esiste più un record in Dynamics 365 da eliminare o aggiornare.
+* (Presupponendo che **1 collegamento semplice per cardinalità** nella campagna) Se il record figlio viene aggiornato o eliminato in Dynamics 365, e che tale modifica viene scritta in Campaign prima che il record padre venga visualizzato in Campaign (non probabile, ma una possibilità remota), tale aggiornamento o eliminazione non verrà elaborato in Campaign e verrà generato un errore. In caso di aggiornamento, il record in questione dovrà essere aggiornato di nuovo in Dynamics 365 per sincronizzare il record aggiornato. In caso di eliminazione, il record in questione dovrà essere gestito separatamente sul lato Campaign, poiché non esiste più un record in Dynamics 365 da eliminare o aggiornare.
 
-* Se ti imbatti in una situazione in cui credi di avere dei record figlio nascosti e non hai modo di accedervi, puoi cambiare temporaneamente il tipo di collegamento cardinalità a **0 o 1 semplice collegamento** cardinale per accedere a tali record.
+* Se ti trovi in una situazione in cui credi di avere dei record figlio nascosti e non hai modo di accedervi, puoi cambiare temporaneamente il tipo di collegamento cardinalità su **0 o 1 cardinalità link semplice** per accedere a tali record.
 
-Una panoramica più completa delle risorse personalizzate per Campaign è disponibile [in questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
+Una panoramica più completa delle risorse personalizzate per Campaign si trova [in questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
