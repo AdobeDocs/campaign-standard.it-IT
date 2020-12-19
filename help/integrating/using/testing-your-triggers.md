@@ -21,15 +21,15 @@ I seguenti suggerimenti per la risoluzione dei problemi aiuteranno a risolvere i
 
 **La funzionalità è attivata?**
 
-Per verificare se l&#39;integrazione Triggers - Campagna è attivata, fai clic sul logo Adobe Campaign , nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti vedere l&#39; **[!UICONTROL Experience Cloud Triggers]** elemento.
+Per verificare se l&#39;integrazione Triggers - Campaign è attivata, fai clic sul logo Adobe Campaign , nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti vedere l&#39;elemento **[!UICONTROL Experience Cloud Triggers]**.
 
 Se lo vedi, passa al passaggio successivo.
 
-In caso contrario, contattate il vostro responsabile commerciale  Adobe o il partner di servizi professionali. Consultate [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+In caso contrario, contattate il vostro responsabile commerciale  Adobe o il partner di servizi professionali. Vedere [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Prova a creare un trigger**
 
-Segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) per creare un trigger.
+Seguite i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) per creare un trigger.
 
 Se l&#39;attivatore viene creato, passare al passaggio successivo. In caso contrario, significa che la connessione del punto finale dell&#39;attivatore non è riuscita. Verifica se il provisioning degli attivatori è eseguito in  Experience Cloud (servizi di attivazione). In caso contrario, contattate il vostro responsabile commerciale  Adobe o il partner di servizi professionali. Sono necessarie le seguenti informazioni:
 
@@ -45,7 +45,7 @@ Se la pubblicazione ha esito positivo, passare al passaggio successivo. In caso 
 
 **Generare il trigger dal sito Web**
 
-Seguite i passaggi descritti in [Modifica del modello](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) di messaggi transazionali per modificare e pubblicare il modello transazionale. Quindi, verificare la generazione dell&#39;attivatore dal sito Web.
+Seguite i passaggi descritti in [Modifica del modello di messaggio transazionale](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) per modificare e pubblicare il modello transazionale. Quindi, verificare la generazione dell&#39;attivatore dal sito Web.
 
 Se l&#39;attivatore viene ricevuto da Analytics, passa al passaggio successivo. In caso contrario, verificare i seguenti elementi:
 
