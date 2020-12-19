@@ -59,13 +59,13 @@ Campaign Standard offre diversi strumenti per incrementare il database di market
 
 ### Importazione di dati tramite flussi di lavoro {#importing-data-through-workflows}
 
-I flussi di lavoro consentono di raccogliere i dati e importarli nel database Campaign mediante l&#39;uso di [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) attività. Informazioni generiche e best practice per l&#39;importazione di dati tramite flussi di lavoro sono presentate in [questa sezione](../../automating/using/about-data-import-and-export.md).
+I flussi di lavoro consentono di raccogliere i dati e importarli nel database Campaign mediante l&#39;uso di attività [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md). Informazioni generiche e best practice per l&#39;importazione di dati tramite flussi di lavoro sono riportate in [questa sezione](../../automating/using/about-data-import-and-export.md).
 
 È inoltre possibile impostare modelli per l&#39;importazione di dati. L’utilizzo dei modelli di importazione è una procedura consigliata se è necessario importare file con la stessa struttura su base regolare. Potete impostare due tipi di modelli:
 
-* **Modelli** flusso di lavoro: si tratta di flussi di lavoro preconfigurati che potete impostare una volta in base alle vostre esigenze e riutilizzare ogni volta che desiderate importare i dati e aggiornare il database. Un esempio di modello di flusso di lavoro per l’importazione dei dati è illustrato in [questa sezione](../../automating/using/creating-import-workflow-templates.md).
+* **Modelli** flusso di lavoro: si tratta di flussi di lavoro preconfigurati che potete impostare una volta in base alle vostre esigenze e riutilizzare ogni volta che desiderate importare i dati e aggiornare il database. Un esempio di modello di flusso di lavoro per l&#39;importazione dei dati è dettagliato in [questa sezione](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importa modelli** di dati: come per i modelli di workflow, si tratta di modelli basati su flussi di lavoro configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** . Per ulteriori informazioni sui modelli di dati di importazione, consulta la documentazione [](../../automating/using/importing-data-with-import-templates.md)dedicata.
+* **Importa modelli** di dati: come i modelli di workflow, si tratta di modelli basati su flussi di lavoro, configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**. Per ulteriori informazioni sui modelli di dati di importazione, consultare la [documentazione dedicata](../../automating/using/importing-data-with-import-templates.md).
 
 ### Raccolta di dati dalle pagine di destinazione {#collecting-data-from-landing-pages}
 
@@ -75,7 +75,7 @@ Le pagine di destinazione sono moduli Web che possono essere utilizzati per racc
 * Mappare ogni campo di input con il campo corrispondente del database.
 * Rendete la pagina di destinazione disponibile online tramite un sito Web o tramite un collegamento diretto a un messaggio.
 
-For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
+Per ulteriori informazioni sulle pagine di destinazione, consultare la [documentazione dedicata](../../channels/using/getting-started-with-landing-pages.md).
 
 **Leggi tutto**
 
@@ -85,7 +85,7 @@ For more on landing pages, refer to the [dedicated documentation](../../channels
 ### Sincronizzazione dei profili da Microsoft Dynamics 365
 
 L&#39;integrazione Campaign Standard con Microsoft Dynamics 365 consente di trasmettere i dati di contatto da Microsoft Dynamics 365 al database Campaign.
-Questi contatti sono quindi visibili nell&#39;elenco Profili e possono essere indirizzati nelle campagne di marketing. For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Questi contatti sono quindi visibili nell&#39;elenco Profili e possono essere indirizzati nelle campagne di marketing. Per ulteriori informazioni su questa integrazione, consultare la [documentazione dedicata](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Questi contatti sono quindi visibili nell&#39;elenco Profili e possono essere in
 
 ### Importazione di dati tramite chiamate API
 
-Le API Campaign Standard consentono di eseguire operazioni per aggiornare il database come la creazione, l&#39;aggiornamento o l&#39;eliminazione dei profili o dei servizi. Per ulteriori informazioni sull&#39;utilizzo delle API, consulta la documentazione [](../../api/using/get-started-apis.md)dedicata.
+Le API Campaign Standard consentono di eseguire operazioni per aggiornare il database come la creazione, l&#39;aggiornamento o l&#39;eliminazione dei profili o dei servizi. Per ulteriori informazioni sull&#39;utilizzo delle API, consultare la [documentazione dedicata](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
@@ -128,7 +128,7 @@ Grazie ai flussi di lavoro e all&#39;editor di query, puoi creare audience che v
 
 Il GDPR è la nuova legge dell’Unione europea sulla privacy che armonizza e aggiorna i requisiti in materia di protezione dei dati. Il GDPR si applica ai clienti di Adobe Campaign che conservano dati per soggetti che risiedono nell’Unione europea. Oltre alle funzionalità per la privacy già disponibili in  Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità in qualità di processore dati per includere funzionalità aggiuntive, al fine di facilitare la tua disponibilità come Titolare del trattamento dei dati per determinate richieste GDPR.
 
-Per ulteriori informazioni sugli strumenti e sulle funzionalità forniti da Adobe Campaign per [aiutarti a diventare conforme ai requisiti GDPR, consulta questa guida](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) .
+Fare riferimento a questa [guida](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#getting-started) per saperne di più sugli strumenti e le funzionalità che  Adobe Campaign fornisce per aiutarti a diventare conforme ai requisiti GDPR.
 
 **Leggi tutto**
 
