@@ -23,17 +23,17 @@ Durante la modifica di un messaggio e-mail, potete inserire un’immagine dinami
 
 Prima di accedere all’immagine in  Adobe Campaign, è necessario eseguire le seguenti operazioni in  Adobe Target:
 
-* Create una o più offerte [di](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html)reindirizzamento, nelle quali dovete specificare l&#39;URL dell&#39;immagine che state utilizzando.
-* Create una o più [audience](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html), per definire il target dell&#39;attività.
-* Create un&#39;attività di composer [esperienza basata su](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) modulo, in cui dovete selezionare una rawbox e specificare diverse esperienze, a seconda del numero di offerte di reindirizzamento create. Per ogni esperienza, dovete selezionare una delle offerte di reindirizzamento create.
+* Create una o più [offerte di reindirizzamento](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in cui dovete specificare l&#39;URL dell&#39;immagine che state utilizzando.
+* Create una o più [audience](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) per definire il target dell&#39;attività.
+* Create un&#39;attività [Experience Composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) basata su modulo, in cui dovete selezionare una rawbox e specificare diverse esperienze, a seconda del numero di offerte di reindirizzamento create. Per ogni esperienza, dovete selezionare una delle offerte di reindirizzamento create.
 * Crea segmenti utilizzando le informazioni di  Adobe Campaign per specificare le esperienze. Per utilizzare i dati di  Adobe Campaign nelle regole di selezione dell&#39;offerta, è necessario specificare i dati nella rawbox in  Adobe Target.
 
 1. Creare una consegna tramite e-mail.
-1. Durante la modifica del contenuto di un&#39;e-mail o di una pagina di destinazione, passare a un blocco immagine, quindi selezionarlo **[!UICONTROL Dynamic image from Adobe Target]** tramite il menu contestuale.
+1. Durante la modifica del contenuto di un&#39;e-mail o di una pagina di destinazione, passare a un blocco immagine, quindi selezionare **[!UICONTROL Dynamic image from Adobe Target]** dal menu contestuale.
 
    ![](assets/tar_insert_dynamic_image.png)
 
-1. Selezionate l’immagine che verrà visualizzata per impostazione predefinita nel messaggio e-mail. Potete specificare direttamente l’URL dell’immagine o selezionare un’immagine condivisa tramite [Risorse](../../integrating/using/working-with-campaign-and-assets-core-service.md).
+1. Selezionate l’immagine che verrà visualizzata per impostazione predefinita nel messaggio e-mail. Potete specificare direttamente l&#39;URL dell&#39;immagine o selezionare un&#39;immagine condivisa tramite [Risorse](../../integrating/using/working-with-campaign-and-assets-core-service.md).
 
    L&#39;integrazione supporta solo immagini statiche. Il resto del contenuto non è personalizzabile.
 
@@ -51,7 +51,7 @@ Prima di accedere all’immagine in  Adobe Campaign, è necessario eseguire le s
 
 **Argomenti correlati:**
 
-* [Adobe Target Portal](https://docs.adobe.com/content/help/it-IT/target/using/integrate/campaign-and-target.html)
+* [ Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 * [Informazioni sulla progettazione del contenuto delle e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
-* [Personalizzare le immagini delle e-mail in video in tempo](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html) reale
+* [Personalizzare le immagini delle e-mail in Real-](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html) Timevideo
 
