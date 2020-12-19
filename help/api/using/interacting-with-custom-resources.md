@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >L&#39;endpoint e i flussi di lavoro dell&#39;API per la privacy (/privacy/privacyTool) non gestiscono le risorse personalizzate non collegate all&#39;entità profilo.
->Avrai la responsabilità di gestire e ripulire qualsiasi PII per queste risorse personalizzate. Per maggiori informazioni sullo strumento per la privacy, [fai clic qui](../../api/using/creating-a-privacy-request.md).
+>Avrai la responsabilità di gestire e ripulire qualsiasi PII per queste risorse personalizzate. Per ulteriori informazioni sullo strumento per la privacy, [fare clic qui](../../api/using/creating-a-privacy-request.md).
 
