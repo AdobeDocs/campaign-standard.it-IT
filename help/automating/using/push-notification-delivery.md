@@ -23,14 +23,14 @@ ht-degree: 47%
 
 ![](assets/recurrentpush.png)
 
-The **[!UICONTROL Push notification]** activity allows you to configure sending a push notification in a workflow. Può trattarsi di una singola notifica di invio e inviata una sola volta, oppure può trattarsi di una notifica ricorrente.
+L&#39;attività **[!UICONTROL Push notification]** consente di configurare l&#39;invio di una notifica push in un flusso di lavoro. Può trattarsi di una singola notifica di invio e inviata una sola volta, oppure può trattarsi di una notifica ricorrente.
 
-* **Le notifiche singole** sono notifiche push standard delle app mobili inviate una volta.
-* **Le notifiche ricorrenti** consentono di inviare la stessa notifica push dell&#39;app mobile più volte a destinazioni diverse in un periodo definito. Puoi aggregare le consegne per periodo in modo da ottenere report che corrispondano alle tue esigenze.
+* **Le notifiche** Singlesend sono notifiche push app standard inviate una volta.
+* **Le notifiche** ricorrenti consentono di inviare la stessa notifica push dell&#39;app mobile più volte a destinazioni diverse in un periodo definito. Puoi aggregare le consegne per periodo in modo da ottenere report che corrispondano alle tue esigenze.
 
 ## Contesto di utilizzo {#context-of-use}
 
-The **[!UICONTROL Push notification]** activity is generally used to automate sending a notification to a target calculated in the same workflow.
+L&#39;attività **[!UICONTROL Push notification]** viene generalmente utilizzata per automatizzare l&#39;invio di una notifica a una destinazione calcolata nello stesso flusso di lavoro.
 
 Se collegato a un pianificatore, puoi definire notifiche push ricorrenti.
 
@@ -54,13 +54,13 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 1. Selezionate la modalità di invio della notifica push:
 
    * **[!UICONTROL Single notification]**: la notifica push viene inviata una sola volta. Puoi specificare qui se desideri aggiungere o meno una transizione in uscita all’attività. I diversi tipi di transizione sono descritti nel passaggio 7 di questa procedura.
-   * **[!UICONTROL Recurring notification]**: la notifica push viene inviata diverse volte, in base alla frequenza definita in un&#39; **[!UICONTROL Scheduler]** attività. Seleziona il periodo di aggregazione degli invii. This allows you to regroup all the sends that occur during the defined period in one single push notification that is also called **recurring execution** and can be accessed from the application&#39;s marketing activity list.
+   * **[!UICONTROL Recurring notification]**: la notifica push viene inviata più volte, in base alla frequenza definita in un&#39; **[!UICONTROL Scheduler]** attività. Seleziona il periodo di aggregazione degli invii. Questo consente di raggruppare tutte le invii che si verificano durante il periodo definito in un&#39;unica notifica push denominata anche **esecuzione ricorrente** e accessibile dall&#39;elenco delle attività di marketing dell&#39;applicazione.
 
       Ad esempio, per una notifica di compleanno ricorrente, inviata ogni giorno, potete scegliere di aggregare le invii al mese. Questo consente di ricevere rapporti sulla consegna su base mensile anche se la notifica viene inviata ogni giorno.
 
-1. Selezionate un tipo di notifica. Questi tipi provengono dai modelli delle notifiche push definiti nel **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** menu.
+1. Selezionate un tipo di notifica. Questi tipi provengono dai modelli di notifiche push definiti nel menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Immettete le proprietà generali per la notifica push. Puoi anche allegarlo a una campagna esistente. L&#39;etichetta dell&#39;attività di consegna del flusso di lavoro viene aggiornata con l&#39;etichetta di notifica push.
-1. Definite il contenuto della notifica push. Consultate [Creazione di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
+1. Definite il contenuto della notifica push. Vedere [Creazione di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. Per impostazione predefinita, l’attività **[!UICONTROL Push notification]** non include transizioni in uscita. Se desideri aggiungere una transizione in uscita all’attività **[!UICONTROL Push Notification]**, passa alla scheda **[!UICONTROL General]** delle opzioni di attività avanzate (pulsante ![](assets/dlv_activity_params-24px.png) nelle azioni rapide dell’attività), quindi seleziona una delle seguenti opzioni:
 
    * **[!UICONTROL Add outbound transition without the population]**: ti consente di generare una transizione in uscita che contiene esattamente la stessa popolazione della transizione in entrata.
@@ -76,4 +76,4 @@ Per impostazione predefinita, l’avvio di un flusso di lavoro di consegna attiv
 
 Le consegne create all’interno di un flusso di lavoro sono accessibili nell’elenco delle attività di marketing dell’applicazione. Puoi visualizzare lo stato di esecuzione del flusso di lavoro utilizzando il dashboard. I collegamenti nel riquadro di riepilogo delle notifiche push consentono di accedere direttamente agli elementi collegati (flusso di lavoro, campagna ecc.).
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Push notification]** activity was configured). A tal fine, apri la visualizzazione dei dettagli del blocco **[!UICONTROL Deployment]** della consegna principale selezionando ![](assets/wkf_dlv_detail_button.png).
+Nelle consegne principali, a cui è possibile accedere dall&#39;elenco delle attività di marketing, è possibile visualizzare il numero totale di invii che sono stati elaborati (in base al periodo di aggregazione specificato al momento della configurazione dell&#39;attività **[!UICONTROL Push notification]**). A tal fine, apri la visualizzazione dei dettagli del blocco **[!UICONTROL Deployment]** della consegna principale selezionando ![](assets/wkf_dlv_detail_button.png).
