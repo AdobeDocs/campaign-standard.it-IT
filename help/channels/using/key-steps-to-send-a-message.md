@@ -17,7 +17,7 @@ ht-degree: 93%
 
 # Passaggi fondamentali per l’invio di un messaggio{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+Per informazioni sulle procedure ottimali di consegna, consultare la sezione [Best practice di consegna](../../sending/using/delivery-best-practices.md).
 
 I passaggi per creare e inviare messaggi sono i seguenti:
 
