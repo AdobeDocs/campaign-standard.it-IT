@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1448'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ Se necessario, l&#39;integrazione può essere configurata per eseguire chiamate 
 
 Tuttavia, l’eliminazione di un profilo è diversa dall’eliminazione della privacy. Un&#39;eliminazione della privacy in Campaign rimuoverà il record del profilo della campagna e le relative voci di registro; mentre, un&#39;eliminazione regolare del profilo eliminerà solo il record del profilo ACS, lasciando i resti indietro nei registri delle campagne.
 
-Se la funzione di eliminazione del profilo è abilitata nell&#39;integrazione, per elaborare correttamente le richieste di privacy degli interessati dovranno essere seguiti passaggi aggiuntivi. Fare riferimento ai passaggi descritti nella [sezione seguente](#manage-privacy-requests).
+Se la funzione di eliminazione del profilo è abilitata nell&#39;integrazione, per elaborare correttamente le richieste di privacy degli interessati dovranno essere seguiti passaggi aggiuntivi. Fare riferimento ai passaggi descritti nella sezione [sotto](#manage-privacy-requests).
 
 ## Privacy
 
-### Gestire le richieste di privacy {#manage-privacy-requests}
+### Gestisci richieste di privacy {#manage-privacy-requests}
 
 Questa integrazione è progettata per trasferire i dati degli utenti finali (compresi, tra l&#39;altro, quelli personali, se contenuti nei dati degli utenti finali), tra Microsoft Dynamics 365 e  Adobe Campaign Standard. In qualità di titolare del trattamento dei dati, la tua azienda è responsabile del rispetto di tutte le leggi e le normative sulla privacy applicabili alla raccolta e all&#39;uso dei dati personali.
 
@@ -39,7 +39,7 @@ L&#39;integrazione non emette alcun soggetto di dati per la privacy (ad esempio,
 
 Se hai configurato l&#39;integrazione per eseguire regolarmente chiamate di eliminazione dei profili a Campaign quando un contatto viene eliminato in Dynamics 365, devi seguire i passaggi indicati di seguito. Verificare che durante questo processo non siano apportati aggiornamenti al record in questione.
 
-1. Emissione della richiesta di eliminazione della privacy ad [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Emissione della richiesta di eliminazione della privacy su [ Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 1. Monitorare la richiesta fino al completamento
 
@@ -60,7 +60,7 @@ Di seguito sono riportati i collegamenti per aiutarvi a implementare le richiest
 
 Se un record di risorse personalizzate della campagna contiene informazioni personali applicabili all&#39;uso di Campaign da parte del cliente, tale record deve essere collegato a un record di profilo della campagna corrispondente (direttamente o tramite un&#39;altra risorsa personalizzata), in modo che un&#39;eliminazione correlata alla privacy nel record di profilo possa anche eliminare il record di risorse personalizzate collegato contenente informazioni personali; le opzioni di collegamento ed eliminazione tra le entità devono essere configurate per consentire la rimozione in cascata dei record collegati. Le informazioni personali non devono essere inserite in una risorsa personalizzata non collegata al profilo.
 
-Scopri come mappare le risorse della campagna e le entità Dynamics 365 [in questa sezione](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
+Scopri come mappare le risorse di Campaign e le entità Dynamics 365 [in questa sezione](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 
 ## Rifiuto
 
@@ -99,7 +99,7 @@ Lo storage SFTP della campagna dovrà essere utilizzato dall&#39;integrazione ne
 
 Questa integrazione sincronizzerà i contatti e le entità personalizzate da Dynamics 365 a Campaign. I record delle campagne creati al di fuori dell&#39;integrazione (ovvero, non creati dal processo di sincronizzazione) non verranno modificati dall&#39;integrazione, inclusi i record delle campagne esistenti al momento della configurazione dell&#39;integrazione.
 
-Poiché questa integrazione utilizza il **[!UICONTROL externalId]** campo in Campaign per sincronizzare i record dei profili delle campagne con i record dei contatti di Dynamics 365, questo campo Campaign (**[!UICONTROL externalId]** ) deve essere popolato con Dynamics 365 **[!UICONTROL contactId]** per i record che si desidera sincronizzare da Dynamics 365.  Anche le entità personalizzate vengono sincronizzate utilizzando un ID univoco di Dynamics 365. L&#39;entità personalizzata Campaign dovrà includere questo attributo ID come colonna di tabella. La colonna externalId può essere utilizzata per memorizzare questo valore attributo, ma non è necessaria per le entità personalizzate di Campaign.
+Poiché questa integrazione utilizza il campo **[!UICONTROL externalId]** di Campaign per sincronizzare i record dei profili di Campaign con i record di contatto Dynamics 365, il campo Campaign (**[!UICONTROL externalId]** ) deve essere popolato con Dynamics 365 **[!UICONTROL contactId]** per i record che si desidera sincronizzare da Dynamics 365.  Anche le entità personalizzate vengono sincronizzate utilizzando un ID univoco di Dynamics 365. L&#39;entità personalizzata Campaign dovrà includere questo attributo ID come colonna di tabella. La colonna externalId può essere utilizzata per memorizzare questo valore attributo, ma non è necessaria per le entità personalizzate di Campaign.
 
 Ricorda che Dynamics 365 è ancora l&#39;origine della verità e che i dati del profilo Campaign possono essere sovrascritti quando l&#39;integrazione rileva gli aggiornamenti sul lato Dynamics 365.  Possono essere necessari altri passaggi per abilitare l&#39;integrazione, a seconda della distribuzione esistente; si consiglia pertanto di collaborare strettamente con il contatto tecnico  Adobe.
 
