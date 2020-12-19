@@ -27,11 +27,11 @@ Per questa procedura sono necessari i seguenti elementi:
 * Un tenant Adobe Target 
 * Una rawbox Adobe Target  specificata per stabilire la connessione con  Adobe Campaign
 
-1. Dal menu avanzato, tramite il logo Adobe Campaign  nell&#39;angolo in alto a sinistra, selezionate **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. Dal menu avanzato, tramite il logo Adobe Campaign  nell&#39;angolo in alto a sinistra, selezionare **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 1. Per configurare le opzioni del server e del tenant per  Adobe Target, compila i seguenti campi di conseguenza:
 
    * **[!UICONTROL TNT_TenantName]**: nome del tenant Adobe Target . Questo valore corrisponde al nome dell&#39;Adobe Target  **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**:  server Adobe Target utilizzato per l&#39;integrazione. Questa opzione è già disponibile per impostazione predefinita. Questo valore corrisponde al  Adobe Target **[!UICONTROL Server Domain]**, seguito dal valore **/m2** . Ad esempio: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_EdgeServer]**:  server Adobe Target utilizzato per l&#39;integrazione. Questa opzione è già disponibile per impostazione predefinita. Questo valore corrisponde al  Adobe Target **[!UICONTROL Server Domain]**, seguito dal valore **/m2**. Ad esempio: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 
