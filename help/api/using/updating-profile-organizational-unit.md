@@ -9,15 +9,15 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Aggiornamento dell’unità organizzativa di un profilo {#managing-organizational-units}
 
-1. Eseguite una richiesta di GET sulla risorsa **orgUnitBase** per recuperare l&#39;unità organizzativa PKey
+1. Eseguire una richiesta di GET sulla risorsa **orgUnitBase** per recuperare l&#39;unità organizzativa PKey
 1. Eseguite una richiesta PATCH sul profilo PKey, con l&#39;unità organizzativa desiderata PKey nel payload.
 
 <br/>
