@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Adobe Experience Platform Data Connector è attualmente in fase beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta  Assistenza clienti di Adobe.
 
-Al termine della definizione di mappatura, potete pubblicare la mappatura. Dopo il passaggio di distribuzione, la replica dei dati tra Campaign Standard e Adobe Experience Platform viene avviata automaticamente. In qualsiasi momento, è possibile interrompere la replica facendo clic sul **[!UICONTROL Stop]** pulsante.
+Al termine della definizione di mappatura, potete pubblicare la mappatura. Dopo il passaggio di distribuzione, la replica dei dati tra Campaign Standard e Adobe Experience Platform viene avviata automaticamente. In qualsiasi momento, è possibile interrompere la replica facendo clic sul pulsante **[!UICONTROL Stop]**.
 
 A seconda delle modifiche apportate alla mappatura, puoi scegliere di inviare nuovamente tutti i record ad Adobe Experience Platform.
 
@@ -31,11 +31,11 @@ Dal riquadro di distribuzione potete accedere al registro delle pubblicazioni ed
 
 ![](assets/aep_publog.png)
 
-Nella **[!UICONTROL Export jobs]** scheda, potete monitorare il processo di esportazione per la mappatura pubblicata.
+Nella scheda **[!UICONTROL Export jobs]** è possibile monitorare il processo di esportazione per la mappatura pubblicata.
 
 ![](assets/aep_jobstatus.png)
 
-Per monitorare tutti i processi di esportazione dei dati, scegliere **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+Per monitorare tutti i processi di esportazione dei dati, scegliere **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > &lt;a2/> > **[!UICONTROL Status of data export to platform]**.
 
 ![](assets/aep_statusmapping.png)
 
