@@ -15,7 +15,7 @@ ht-degree: 2%
 ---
 
 
-# Importazione di un contenuto Adobe Experience Manager in un messaggio e-mail Adobe Campaign  {#creating-email-aem}
+# Importazione di un contenuto Adobe Experience Manager in un  e-mail Adobe Campaign {#creating-email-aem}
 
 Questo documento illustra come creare e gestire i contenuti delle e-mail in Adobe Experience Manager, quindi utilizzarli per le campagne di marketing importandoli nelle e-mail in  Adobe Campaign Standard.
 
@@ -31,7 +31,7 @@ Accedete all’istanza di authoring Adobe Experience Manager e sfogliate il sito
 
 >[!VIDEO](https://video.tv.adobe.com/v/29996)
 
-## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
+## Creazione di nuovo contenuto e-mail in Adobe Experience Manager {#creating-email-content-aem}
 
 Sono disponibili diversi modelli specifici per  Adobe Campaign. È necessario utilizzare uno di questi modelli poiché contengono componenti predefiniti supportati da  Adobe Campaign.
 
@@ -40,33 +40,33 @@ Per impostazione predefinita, due modelli predefiniti consentono di creare conte
 * **[!UICONTROL Adobe Campaign Email]**: questo modello contiene un contenuto standard che potete personalizzare. Potete scegliere tra  e-mail Adobe Campaign (AC6.1) e  e-mail Adobe Campaign (ACS).
 * **[!UICONTROL Importer Page]**: questo modello consente di importare un file ZIP contenente un file HTML con contenuto che sarà quindi possibile personalizzare.
 
-1. In Adobe Experience Manager, create una nuova **[!UICONTROL Page]**.
+1. In Adobe Experience Manager, create un nuovo **[!UICONTROL Page]**.
 
-1. Selezionate il **[!UICONTROL Adobe Campaign Email]** modello. Per informazioni dettagliate, consultate il seguente video.
+1. Selezionare il modello **[!UICONTROL Adobe Campaign Email]**. Per informazioni dettagliate, consultate il seguente video.
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Aprite il nuovo contenuto e-mail.
 
-1. In **[!UICONTROL Page properties]**, impostate **[!UICONTROL Adobe Campaign]** come **[!UICONTROL Cloud Service Configuration]**. Questo consente la comunicazione tra il contenuto e l&#39;istanza Adobe Campaign .
+1. In **[!UICONTROL Page properties]**, impostare **[!UICONTROL Adobe Campaign]** come **[!UICONTROL Cloud Service Configuration]**. Questo consente la comunicazione tra il contenuto e l&#39;istanza Adobe Campaign .
 
    Per ulteriori informazioni, guardate il seguente video:
 
    >[!VIDEO](https://video.tv.adobe.com/v/29999)
 
-## Modifica e invio di un messaggio e-mail {#editing-email-aem}
+## Modifica e invio di un&#39;e-mail {#editing-email-aem}
 
 Potete modificare il contenuto dell’e-mail aggiungendo componenti e risorse. I campi di personalizzazione possono essere utilizzati per inviare un messaggio più rilevante in base ai dati dei destinatari in  Adobe Campaign.
 
 Per creare un contenuto e-mail in Adobe Experience Manager:
 
-1. Modificate l’oggetto e la **[!UICONTROL Plain text]** versione del messaggio e-mail accedendo alla scheda **[!UICONTROL Page properties]** > **[!UICONTROL Email]** dalla barra laterale.
+1. Modificate l&#39;oggetto e la versione **[!UICONTROL Plain text]** del messaggio e-mail accedendo alla scheda **[!UICONTROL Page properties]** > **[!UICONTROL Email]** dalla barra laterale.
 
-1. Aggiungi **[!UICONTROL Personalization fields]** tramite il **[!UICONTROL Text & Personalization]** componente. Ciascun componente corrisponde a un utilizzo specifico: inserimento di immagini, aggiunta di personalizzazione, ecc.
+1. Aggiungete **[!UICONTROL Personalization fields]** al componente **[!UICONTROL Text & Personalization]**. Ciascun componente corrisponde a un utilizzo specifico: inserimento di immagini, aggiunta di personalizzazione, ecc.
 
    Per ulteriori informazioni, guardate il seguente video:
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. Dalla **[!UICONTROL Workflow]** scheda, selezionare il flusso di lavoro di **[!UICONTROL Approve for Adobe Campaign]** convalida. Non potrete inviare un&#39;e-mail in  Adobe Campaign se utilizza un contenuto non approvato.
+1. Dalla scheda **[!UICONTROL Workflow]**, selezionare il flusso di lavoro di convalida **[!UICONTROL Approve for Adobe Campaign]**. Non potrete inviare un&#39;e-mail in  Adobe Campaign se utilizza un contenuto non approvato.
 
 1. Una volta definiti il contenuto e i parametri di invio, potete procedere all’approvazione, alla preparazione e all’invio dell’e-mail in  Adobe Campaign Standard.
 
