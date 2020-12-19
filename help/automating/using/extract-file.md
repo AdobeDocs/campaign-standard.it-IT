@@ -51,7 +51,7 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
 
 1. Se lo desideri, puoi comprimere il file di output selezionando **[!UICONTROL Compression]** nel campo **[!UICONTROL Add a pre-processing step]**. Il file di output viene compresso in un file GZIP (.gz).
 
-   Il **[!UICONTROL Add a pre-processing step]** campo consente inoltre di cifrare un file prima di estrarlo. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
+   Il campo **[!UICONTROL Add a pre-processing step]** consente inoltre di cifrare un file prima di estrarlo. Per ulteriori informazioni su come utilizzare i file crittografati, consultare [questa sezione](../../automating/using/managing-encrypted-data.md)
 
 1. Fai clic sul pulsante ![](assets/add_darkgrey-24px.png) o su **[!UICONTROL Add an element]** per aggiungere una colonna di output.
 
