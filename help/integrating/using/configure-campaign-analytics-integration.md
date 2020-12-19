@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-analytics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,25 +23,25 @@ Per avviare l&#39;integrazione tra  Adobe Campaign Standard e  Adobe Analytics, 
 
 Gli account esterni e i flussi di lavoro tecnici possono essere gestiti solo dall&#39;amministratore funzionale della piattaforma.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]**.
-1. Select the **[!UICONTROL Share KPIs with Adobe Analytics]** external account.
+1. Dal menu avanzato, tramite il logo Adobe Campaign , selezionare **[!UICONTROL Administration > Application settings > External accounts]**.
+1. Selezionare l&#39;account esterno **[!UICONTROL Share KPIs with Adobe Analytics]**.
 
    ![](assets/analytics_2.png)
 
-1. Specificate il vostro **[!UICONTROL Web services user name]** e **[!UICONTROL Web services share secret]** nel **[!UICONTROL Connection]** campo.
+1. Specificate i valori **[!UICONTROL Web services user name]** e **[!UICONTROL Web services share secret]** nel campo **[!UICONTROL Connection]**.
 
    Questi parametri si trovano in Analytics selezionando **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Refresh report suites]**.
-1. Selezionate nel **[!UICONTROL Analytics default report suite]** menu a discesa la suite di rapporti Adobe Analytics  che desiderate arricchire con  dati Adobe Campaign.
+1. Selezionate nel menu a discesa **[!UICONTROL Analytics default report suite]** la suite di rapporti Adobe Analytics  che desiderate arricchire con  dati Adobe Campaign.
 
-   L&#39;account esterno è ora pronto e collegato a  Adobe Analytics. È possibile disattivarlo in qualsiasi momento selezionando la **[!UICONTROL Enabled]** casella.
+   L&#39;account esterno è ora pronto e collegato a  Adobe Analytics. È possibile disattivarlo in qualsiasi momento selezionando la casella **[!UICONTROL Enabled]**.
 
    ![](assets/analytics.png)
 
-Il flusso di lavoro **[!UICONTROL Share KPIs with Adobe Analytics]** tecnico viene ora avviato automaticamente e può essere visualizzato dal menu avanzato selezionando **[!UICONTROL Administration > Application settings > Workflow]**. Questo flusso di lavoro tecnico verrà eseguito automaticamente ogni 15 minuti e porterà fino a 6 mesi di dati in  Adobe Analytics.
+Il **[!UICONTROL Share KPIs with Adobe Analytics]** flusso di lavoro tecnico verrà ora avviato automaticamente e può essere visualizzato dal menu avanzato selezionando **[!UICONTROL Administration > Application settings > Workflow]**. Questo flusso di lavoro tecnico verrà eseguito automaticamente ogni 15 minuti e porterà fino a 6 mesi di dati in  Adobe Analytics.
 
 ![](assets/analytics_3.png)
 
@@ -51,5 +51,5 @@ I dati sono ora disponibili in  Adobe Analytics.
 
 * [Account esterni](../../administration/using/external-accounts.md)
 * [Flussi di lavoro tecnici](../../administration/using/technical-workflows.md)
-* [Condivisione di KPI per video di reporting](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html) delle campagne integrati
+* [Condivisione di KPI per video di ](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html) reporting delle campagne integrato
 
