@@ -23,9 +23,9 @@ In questo documento vengono delineate le raccomandazioni chiave durante la proge
 
 >[!NOTE]
 >
->Per creare e modificare le risorse al fine di estendere il modello dati  Adobe Campaign predefinito, consultare [questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
+>Per creare e modificare le risorse al fine di estendere il  modello dati Adobe Campaign predefinito, fare riferimento a [questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
 >
->È possibile trovare una rappresentazione modello dati delle risorse integrate in [questa pagina](../../developing/using/datamodel-introduction.md).
+>È possibile trovare una rappresentazione del modello dati delle risorse integrate in [questa pagina](../../developing/using/datamodel-introduction.md).
 
 ## Panoramica {#overview}
 
@@ -37,15 +37,15 @@ In questo documento sono riportati i casi d’uso e le procedure ottimali più c
 
  Adobe Campaign Standard è un potente sistema di gestione delle campagne multicanale che consente di allineare le strategie online e offline per creare esperienze cliente personalizzate.
 
-### Metodo incentrato sul cliente {#customer-centric-approach}
+### Approccio incentrato sul cliente {#customer-centric-approach}
 
-Mentre la maggior parte dei provider di servizi e-mail comunica ai clienti tramite un approccio incentrato sugli elenchi,  Adobe Campaign si avvale di un database relazionale per sfruttare una visione più ampia dei clienti e dei loro attributi.
+Mentre la maggior parte dei provider di servizi e-mail comunica ai clienti tramite un approccio incentrato sugli elenchi,  Adobe Campaign si affida a un database relazionale per sfruttare una visione più ampia dei clienti e dei loro attributi.
 
-Questo approccio incentrato sul cliente è riportato nel grafico seguente. La risorsa **Profilo** in grigio rappresenta la tabella cliente principale intorno alla quale viene creato tutto:
+Questo approccio incentrato sul cliente è riportato nel grafico seguente. La risorsa **Profile** in grigio rappresenta la tabella cliente principale intorno alla quale viene creato tutto:
 
 ![](assets/customer-centric-data-model.png)
 
-In questa [sezione](../../developing/using/datamodel-introduction.md)viene illustrato  modello dati predefinito Adobe Campaign.
+Il modello dati predefinito  Adobe Campaign è presentato in questa sezione [](../../developing/using/datamodel-introduction.md).
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -66,10 +66,10 @@ Quali dati devono essere inviati a  Adobe Campaign? È fondamentale determinare 
 > Adobe Campaign non è un data warehouse. Pertanto, non cercate di importare tutti i possibili clienti e le relative informazioni in  Adobe Campaign.
 
 Per decidere se un attributo sarebbe necessario o meno in  Adobe Campaign, determinare se rientrerebbe in una delle seguenti categorie:
-* Attributo utilizzato per la **segmentazione**
-* Attributo utilizzato per i processi **di gestione dei** dati (ad esempio, calcolo aggregato)
-* Attributo utilizzato per la **personalizzazione**
-* Attributo utilizzato per il **reporting** (i rapporti possono essere creati in base ai dati di profilo personalizzati)
+* Attributo utilizzato per **segmentazione**
+* Attributo utilizzato per **processi di gestione dei dati** (ad esempio, per il calcolo aggregato)
+* Attributo utilizzato per **personalizzazione**
+* Attributo utilizzato per **reporting** (i report possono essere creati in base ai dati di profilo personalizzati)
 
 Se non si rientra in nessuno di questi, molto probabilmente non sarà necessario questo attributo in  Adobe Campaign.
 
@@ -81,7 +81,7 @@ Per garantire una buona architettura e buone prestazioni del sistema, segui le b
 
 ## Configurazione della struttura dei dati {#configuring-data-structure}
 
-Questa sezione descrive le procedure ottimali per la [configurazione della struttura](../../developing/using/configuring-the-resource-s-data-structure.md)dati di una risorsa.
+Questa sezione descrive le procedure ottimali per la configurazione della struttura dati di una risorsa [a1/>.](../../developing/using/configuring-the-resource-s-data-structure.md)
 
 ### Identificatori {#identifiers}
 
@@ -95,14 +95,14 @@ La tabella seguente descrive questi identificatori e la loro funzione.
 
 | Nome visualizzato | Nome tecnico | Descrizione | Best practice |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey è la chiave primaria fisica di una tabella Adobe Campaign .</li><li>Questo identificatore è in genere univoco per una specifica istanza di Adobe Campaign .</li><li>In  Adobe Campaign Standard, questo valore non è visibile all’utente finale (tranne che negli URL).</li></ul> | <ul><li>Attraverso il sistema [](../../api/using/get-started-apis.md)API è possibile recuperare un valore PKey (che è un valore generato/con hash, non la chiave fisica).</li><li>Si consiglia di non utilizzarlo per nient&#39;altro che per recuperare, aggiornare o eliminare record tramite API.</li></ul> |
+|  | PKey | <ul><li>PKey è la chiave primaria fisica di una tabella Adobe Campaign .</li><li>Questo identificatore è in genere univoco per una specifica istanza di Adobe Campaign .</li><li>In  Adobe Campaign Standard, questo valore non è visibile all’utente finale (tranne che negli URL).</li></ul> | <ul><li>Attraverso il [sistema API](../../api/using/get-started-apis.md), è possibile recuperare un valore PKey (che è un valore generato/con hash, non la chiave fisica).</li><li>Si consiglia di non utilizzarlo per nient&#39;altro che per recuperare, aggiornare o eliminare record tramite API.</li></ul> |
 | ID | name o internalName | <ul><li>Queste informazioni sono un identificatore univoco di un record in una tabella. Questo valore può essere aggiornato manualmente.</li><li>Questo identificatore mantiene il suo valore quando viene distribuito in un’altra istanza di  Adobe Campaign. Deve avere un nome diverso dal valore generato per essere esportabile tramite un pacchetto.</li><li>Questa non è la chiave primaria effettiva della tabella.</li></ul> | <ul><li>Non utilizzate caratteri speciali come lo spazio &quot;&quot;, la semicolona &quot;:&quot; o il trattino &quot;-&quot;.</li><li>Tutti questi caratteri vengono sostituiti da un carattere di sottolineatura &quot;_&quot; (caratteri consentiti). Ad esempio, &quot;abc-def&quot; e &quot;abc:def&quot; vengono memorizzati come &quot;abc_def&quot; e si sovrascrivono a vicenda.</li></ul> |
 | Etichetta | label | <ul><li>L&#39;etichetta è l&#39;identificatore aziendale di un oggetto o di un record in  Adobe Campaign.</li><li>Questo oggetto consente spazi e caratteri speciali.</li><li>Non garantisce l&#39;unicità di un documento.</li></ul> | <ul><li>È consigliabile determinare una struttura per le etichette degli oggetti.</li><li>Si tratta della soluzione più semplice da utilizzare per identificare un record o un oggetto per un utente Adobe Campaign .</li></ul> |
-| ID ACS | acsId | <ul><li>È possibile generare un identificatore aggiuntivo: l’ID [](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)ACS.</li><li>Poiché il PKey non può essere utilizzato nell&#39;interfaccia utente  Adobe Campaign, si tratta di una soluzione per ottenere un valore univoco generato durante l&#39;inserimento di un record di profilo.</li><li>Il valore può essere generato automaticamente solo se l&#39;opzione è abilitata nella risorsa prima che un record venga inserito in  Adobe Campaign.</li></ul> | <ul><li>Questo UUUID può essere utilizzato come chiave di riconciliazione.</li><li>Un ID ACS generato automaticamente non può essere utilizzato come riferimento in un flusso di lavoro o in una definizione di pacchetto.</li><li>Questo valore è specifico per un&#39;istanza di Adobe Campaign .</li></ul> |
+| ID ACS | acsId | <ul><li>È possibile generare un identificatore aggiuntivo: l&#39; [ID ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Poiché il PKey non può essere utilizzato nell&#39;interfaccia utente  Adobe Campaign, si tratta di una soluzione per ottenere un valore univoco generato durante l&#39;inserimento di un record di profilo.</li><li>Il valore può essere generato automaticamente solo se l&#39;opzione è abilitata nella risorsa prima che un record venga inserito in  Adobe Campaign.</li></ul> | <ul><li>Questo UUUID può essere utilizzato come chiave di riconciliazione.</li><li>Un ID ACS generato automaticamente non può essere utilizzato come riferimento in un flusso di lavoro o in una definizione di pacchetto.</li><li>Questo valore è specifico per un&#39;istanza di Adobe Campaign .</li></ul> |
 
 ### Chiavi di identificazione {#keys}
 
-Ogni risorsa creata in  Adobe Campaign deve avere almeno una chiave [di](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)identificazione univoca.
+Ogni risorsa creata in  Adobe Campaign deve avere almeno una chiave di identificazione univoca [](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -133,7 +133,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 ### Collegamenti {#links}
 
-In [questa sezione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)viene illustrata la definizione di collegamenti con altre risorse.
+La definizione dei collegamenti con altre risorse è presentata in [questa sezione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
 * Sebbene sia possibile unire qualsiasi tabella in un flusso di lavoro,  Adobe consiglia di definire collegamenti comuni tra le risorse direttamente nella definizione della struttura dati.
 * Il collegamento deve essere definito in linea con i dati effettivi nelle tabelle. Una definizione errata potrebbe avere un impatto sui dati recuperati tramite collegamenti, ad esempio la duplicazione inattesa di record.
