@@ -32,7 +32,7 @@ Sono disponibili quattro comandi di esecuzione per controllare un flusso di lavo
 * Riprendi
 * Interruzione
 
-Per ulteriori informazioni sui comandi di esecuzione, consulta la documentazione [](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)Campaign.
+Per ulteriori informazioni sui comandi di esecuzione, fare riferimento alla [Documentazione campagna](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
