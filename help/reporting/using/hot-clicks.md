@@ -10,7 +10,7 @@ context-tags: deliveryHotClicksReport,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Hot click{#hot-clicks}
 
-È possibile accedere a questo rapporto dal **[!UICONTROL Reports]** pulsante in ogni consegna o messaggio transazionale.
+È possibile accedere a questo report dal pulsante **[!UICONTROL Reports]** in ogni consegna o messaggio transazionale.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -26,7 +26,7 @@ Presenta il contenuto del messaggio (HTML e/o testo) con la percentuale di clic 
 
 ![](assets/delivery_reports_10.png)
 
-Se avete creato contenuto dinamico per la distribuzione, potete visualizzare le percentuali per ogni condizione definita. Per ulteriori informazioni sull&#39;inserimento di contenuto condizionale in una consegna, consultate [Definizione del contenuto](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)dinamico.
+Se avete creato contenuto dinamico per la distribuzione, potete visualizzare le percentuali per ogni condizione definita. Per ulteriori informazioni sull&#39;inserimento di contenuto condizionale in una distribuzione, vedere [Definizione di contenuto dinamico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Ad esempio, supponiamo di aver creato una consegna con le seguenti condizioni:
 
@@ -39,13 +39,13 @@ Per impostazione predefinita, non è selezionato alcun profilo. Vengono visualiz
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-Per visualizzare i clic per le donne, fate clic sul **[!UICONTROL Change profile]** pulsante e selezionate un profilo di test femminile. Per visualizzare i clic per gli uomini, procedere in modo simile e selezionare un profilo di test maschile.
+Per visualizzare i clic per le donne, fate clic sul pulsante **[!UICONTROL Change profile]** e selezionate un profilo di test femminile. Per visualizzare i clic per gli uomini, procedere in modo simile e selezionare un profilo di test maschile.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Per visualizzare i clic per i destinatari con più di 25 anni, fare clic sul **[!UICONTROL Change profile]** pulsante e selezionare un profilo di test la cui data di nascita corrisponda a questa condizione.
+Per visualizzare i clic per i destinatari con più di 25 anni, fare clic sul pulsante **[!UICONTROL Change profile]** e selezionare un profilo di prova la cui data di nascita corrisponda a questa condizione.
 
-Per ulteriori informazioni sui profili di test, consultate [Informazioni sui profili](../../audiences/using/managing-test-profiles.md)di test.
+Per ulteriori informazioni sui profili di test, vedere [Informazioni sui profili di test](../../audiences/using/managing-test-profiles.md).
 
 >[!NOTE]
 >
@@ -59,11 +59,11 @@ Una consegna di esecuzione è un messaggio tecnico non utilizzabile e non funzio
 
    Ad esempio, se il flusso di lavoro che gestisce la consegna viene eseguito una volta al mese, verrà eseguito un recapito di esecuzione al mese. Inoltre, ogni volta che il contenuto della consegna viene aggiornato, viene creata una consegna di esecuzione aggiuntiva.
 
-   Per ulteriori informazioni sulle consegne e-mail ricorrenti, consulta [Invio](../../automating/using/email-delivery.md)e-mail.
+   Per ulteriori informazioni sulle consegne ricorrenti di e-mail, vedere [Distribuzione di e-mail](../../automating/using/email-delivery.md).
 
 * Per impostazione predefinita, una volta al mese per i messaggi transazionali e ogni volta che un messaggio transazionale viene modificato e pubblicato di nuovo.
 
-   Per ulteriori informazioni sui messaggi transazionali, consulta [Guida introduttiva ai messaggi](../../channels/using/getting-started-with-transactional-msg.md)transazionali.
+   Per ulteriori informazioni sui messaggi transazionali, vedere [Guida introduttiva ai messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Una consegna di esecuzione è un messaggio tecnico non utilizzabile e non funzio
 
 Una volta inviato il messaggio, seleziona **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** dal dashboard di distribuzione.
 
-Per impostazione predefinita, è selezionato l&#39;ultimo recapito di esecuzione. Fate clic sul **[!UICONTROL Change execution delivery]** pulsante per selezionarne un altro.
+Per impostazione predefinita, è selezionato l&#39;ultimo recapito di esecuzione. Fare clic sul pulsante **[!UICONTROL Change execution delivery]** per selezionarne un altro.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
