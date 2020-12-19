@@ -77,7 +77,7 @@ Le proprietà del flusso di lavoro ti consentono di definire un fuso orario spec
 
 ### Progettazione flussi di lavoro
 
-Per garantire il corretto completamento del flusso di lavoro, evitare di lasciare l’ultima transizione di un flusso di lavoro da sola utilizzando un **[!UICONTROL End activity]**.
+Per garantire il corretto completamento del flusso di lavoro, evitare di lasciare l&#39;ultima transizione di un flusso di lavoro da solo utilizzando un **[!UICONTROL End activity]**.
 
 Per accedere alla visualizzazione dettagliata delle transizioni, seleziona l’opzione **[!UICONTROL Keep interim results]** nella sezione Execution delle proprietà del flusso di lavoro.
 
@@ -108,7 +108,7 @@ Per ulteriori informazioni, consulta [Attività di pianificazione](../../automat
 
 ## Chiamata del flusso di lavoro con parametri{#workflow-with-parameters}
 
-Accertatevi che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (consultate [questa pagina](../../automating/using/defining-parameters-calling-workflow.md)). Anche i tipi di parametri devono essere coerenti con i valori previsti.
+Assicuratevi che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (consultate [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
 
 Verifica che tutti i parametri siano stati dichiarati nell’**[!UICONTROL External signal activity]**. In caso contrario, si verificherà un errore durante l’esecuzione dell’attività.
 
