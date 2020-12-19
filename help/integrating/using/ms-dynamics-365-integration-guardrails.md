@@ -9,7 +9,7 @@ topic-tags: working-with-campaign-and-experience-manager
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Nel pianificare l&#39;utilizzo di questa integrazione è necessario tenere conto
 
 * Si consiglia di comunicare le istanze note di aumento significativo o &quot;picchi&quot; nell&#39;utilizzo dell&#39;integrazione (ad esempio, un forte aumento dei record nuovi o aggiornati), in quanto ciò potrebbe causare rallentamenti nella sincronizzazione dei dati.
 
-* Come parte dell&#39;integrazione, è previsto di completare i passaggi di configurazione pre-integrazione in Microsoft Azure e Dynamics 365. Vedi i passaggi di configurazione [in questa pagina](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* Come parte dell&#39;integrazione, è previsto di completare i passaggi di configurazione pre-integrazione in Microsoft Azure e Dynamics 365. Vedere i passaggi di configurazione [in questa pagina](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
 
 * È previsto che i modelli di dati Dynamics 365 e Campaign vengano portati all&#39;integrazione e che vengano mantenuti.
 
