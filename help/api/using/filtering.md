@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## Recupero dei metadati dei filtri
 
-Per ogni risorsa sono disponibili dei filtri. Per identificare i filtri associati a una risorsa, è necessario eseguire una richiesta di GET sui metadati della risorsa. Questa richiesta restituisce l’URL in cui tutti i filtri sono definiti per una determinata risorsa. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+Per ogni risorsa sono disponibili dei filtri. Per identificare i filtri associati a una risorsa, è necessario eseguire una richiesta di GET sui metadati della risorsa. Questa richiesta restituisce l’URL in cui tutti i filtri sono definiti per una determinata risorsa. Per ulteriori informazioni sui metadati, consultare [questa sezione](../../api/using/metadata-mechanism.md).
 
 Per identificare i metadati di un filtro e determinare come utilizzarlo, è necessario eseguire una richiesta di GET sull’URL restituito in precedenza.
 
@@ -67,9 +67,9 @@ Eseguite una richiesta di GET sull’URL. Restituisce l&#39;elenco dei filtri pe
 Per ciascun filtro è disponibile la stessa struttura di metadati:
 
 * I campi **@formType** e **@webPage** sono campi tecnici.
-* Il campo **dati** fornisce un esempio di come utilizzare il filtro.
-* Il nodo **di metadati** descrive i parametri del filtro.
-* Il nodo **condizione** descrive le operazioni che il filtro intende eseguire. I parametri di filtro descritti nel nodo di metadati vengono utilizzati per creare condizioni di filtro. Per ogni condizione del filtro, se **enabledSe** è true, viene applicato l&#39; **espressione** .
+* Il campo **data** fornisce un esempio di come utilizzare il filtro.
+* Il nodo **metadata** descrive i parametri del filtro.
+* Il nodo **condition** descrive le operazioni che il filtro intende eseguire. I parametri di filtro descritti nel nodo di metadati vengono utilizzati per creare condizioni di filtro. Per ogni condizione del filtro, se **enabledIf** è true, verrà applicato il parametro **expr**.
 
 <br/>
 
@@ -133,7 +133,8 @@ Il filtraggio viene eseguito con la richiesta seguente:
    }
    ```
 
-* Esempio di richiesta di GET per recuperare le risorse &quot;profilo&quot; contenenti &quot;Doe&quot; nei campi e-mail o cognome (il filtro per testo consente di eseguire ricerche sia nei campi e-mail che nel campo del cognome).
+* Esempio di richiesta di GET per recuperare le risorse &quot;profilo&quot; contenenti &quot;Doe&quot; in
+i campi e-mail o cognome (il filtro per testo consente di eseguire ricerche sia nei campi e-mail che nel campo del cognome).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -202,7 +203,7 @@ Se desiderate utilizzare un filtro personalizzato, dovete crearlo e personalizza
 Per ulteriori informazioni, consulta la documentazione Campaign Standard:
 
 * [Configurazione della definizione del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso di utilizzo: Chiamata di una risorsa tramite una chiave](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)di identificazione composita.
+* [Caso di utilizzo: Chiamata di una risorsa tramite una chiave](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html) di identificazione composita.
 
 <br/>
 
