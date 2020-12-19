@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# GET / POST / PATCH / verbi DELETE {#verbs}
+# GET / POST / PATCH / DELETE verbi {#verbs}
 
 I verbi disponibili per eseguire operazioni sulle risorse sono:
 
