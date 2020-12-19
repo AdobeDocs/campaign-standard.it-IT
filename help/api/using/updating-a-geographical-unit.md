@@ -9,15 +9,15 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Aggiornamento dell’unità geografica di un profilo {#updating-a-geographical-unit}
 
-1. Eseguire una richiesta di GET sulla risorsa **geoUnitBase** per recuperare l&#39;unità geografica PKey.
+1. Eseguite una richiesta di GET sulla risorsa **geoUnitBase** per recuperare l&#39;unità geografica PKey.
 1. Eseguite una richiesta PATCH sul profilo PKey, con l&#39;unità Geografica desiderata PKey nel payload.
 
 <br/>
