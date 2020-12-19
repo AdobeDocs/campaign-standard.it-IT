@@ -10,8 +10,8 @@ context-tags: mobileApp,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,7 +84,7 @@ Consulta le risorse seguenti:
 
 * [Tutorials video](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentazione del prodotto](../../channels/using/about-push-notifications.md)
-* Configurazione mediante la [documentazione AEP SDK](../../administration/using/configuring-a-mobile-application.md)
+* Configurare utilizzando l&#39;SDK AEP [documentazione](../../administration/using/configuring-a-mobile-application.md)
 * [Pagina community](https://experienceleaguecommunities.adobe.com/it/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Cosa devo fare per acquisire un token push in Campaign? {#push-token-acquisition}
@@ -125,7 +125,7 @@ Verificate che i certificati push siano validi verificandone la validità [qui](
 
 ### Posso inviare le notifiche push da push.com ma non tramite Campaign. {#push-not-sending}
 
-Accertatevi di seguire le istruzioni di payload push fornite [qui](../../administration/using/push-payload.md).
+Assicurarsi di seguire le istruzioni di payload push fornite [qui](../../administration/using/push-payload.md).
 
 Nota: per Android, Campaign supporta solo il payload di dati e non il payload di notifica
 
@@ -137,7 +137,7 @@ Un&#39;app deve avere anche un certificato push valido caricato prima di poter e
 
 Per favore, apri un ticket di assistenza clienti.
 
-### Le notifiche push vengono recapitate da Campaign, ma il file multimediale non viene visualizzato.{#media-file-unavailable}
+### Le notifiche push vengono recapitate da Campaign ma il file multimediale non viene visualizzato.{#media-file-unavailable}
 
 Gli sviluppatori di app mobili devono gestire il supporto per i file multimediali nell&#39;app. A volte la larghezza di banda di rete potrebbe anche impedire il rendering di un file multimediale. Fare riferimento a questa [pagina](../../administration/using/image-push-notification.md) per ulteriori puntatori.
 
@@ -146,19 +146,19 @@ Gli sviluppatori di app mobili devono gestire il supporto per i file multimedial
 Segui i passaggi seguenti:
 
 * Configura un postback di tracciamento push. Le istruzioni sono disponibili [qui](../../administration/using/configuring-a-mobile-application.md).
-* Implementa l’API trackAction da Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
+* Implementa l’API trackAction da Mobile Core. Per ulteriori informazioni, fare riferimento a [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference).
 
 Istruzioni più dettagliate sono disponibili in questa [pagina](../../administration/using/push-tracking.md).
 
 ### Quali report sono disponibili per il canale push? {#push-report-available}
 
-Un rapporto out-of-the-box è disponibile in  Adobe Campaign per i canali push. Refer to this [documentation](../../reporting/using/push-notification-report.md).
+Un rapporto out-of-the-box è disponibile in  Adobe Campaign per i canali push. Fare riferimento a questa [documentazione](../../reporting/using/push-notification-report.md).
 
-Consultate questa [pagina](../../reporting/using/indicator-calculation.md#push-notification-delivery) per comprendere come vengono calcolate le singole metriche push.
+Consultate questa [pagina](../../reporting/using/indicator-calculation.md#push-notification-delivery) per comprendere in che modo vengono calcolate le metriche push.
 
 ### I collegamenti profondi sono supportati nei messaggi push e in-app? {#deeplink-push}
 
 Sì, i collegamenti dei dettagli sono supportati nei messaggi push. I collegamenti di dettaglio devono includere:
 
 * Lingua che indica che il tracciamento della consegna deve essere disabilitato per consentire il funzionamento dei collegamenti dei dettagli.
-* Applicate un&#39;applicazione con il ramo come partner in grado di eseguire il tracciamento del collegamento profondo. Per ulteriori informazioni sull&#39;integrazione di Branch e  Adobe Campaign Standard, consultare questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Applicate un&#39;applicazione con il ramo come partner in grado di eseguire il tracciamento del collegamento profondo. Per ulteriori informazioni sull&#39;integrazione con  e ramo Adobe Campaign Standard, fare riferimento a questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
