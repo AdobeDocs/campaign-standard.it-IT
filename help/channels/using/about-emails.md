@@ -27,4 +27,4 @@ Potete inviare diversi tipi di e-mail:
 * E-mail di test A/B: testate fino a 3 versioni di un messaggio e-mail.
 * E-mail transazionali: e-mail unitarie attivate in base al comportamento dei clienti.
 
-Per informazioni sulle procedure ottimali per la creazione e l&#39;invio di e-mail, consulta la sezione Best practice per la [distribuzione](../../sending/using/delivery-best-practices.md) .
+Per informazioni sulle procedure ottimali per la creazione e l&#39;invio di e-mail, consultare la sezione [Best practice di distribuzione](../../sending/using/delivery-best-practices.md).
