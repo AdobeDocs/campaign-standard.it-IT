@@ -18,14 +18,14 @@ ht-degree: 1%
 # Gestione degli stili e-mail {#managing-styles}
 
 
-In Designer e-mail, quando si seleziona un elemento, nel **[!UICONTROL Settings]** riquadro vengono visualizzate diverse opzioni specifiche per il tipo di contenuto selezionato. Potete usare queste opzioni per cambiare facilmente lo stile dell’e-mail.
+In Designer e-mail, quando si seleziona un elemento, nel riquadro **[!UICONTROL Settings]** vengono visualizzate diverse opzioni specifiche per il tipo di contenuto selezionato. Potete usare queste opzioni per cambiare facilmente lo stile dell’e-mail.
 
 ## Selezione di un elemento {#selecting-an-element}
 
 Per selezionare un elemento nell&#39;interfaccia di Designer e-mail, è possibile:
 
 * fai clic direttamente nell’e-mail,
-* oppure sfogliare la struttura ad albero disponibile dalle opzioni presenti nella **palette** sinistra.
+* oppure sfogliare la struttura ad albero disponibile dalle opzioni che si trovano a sinistra **Palette**.
 
 ![](assets/des_tree_structure.png)
 
@@ -39,19 +39,19 @@ L’esplorazione della struttura ad albero consente di effettuare una selezione 
 
 Per selezionare una colonna, potete anche effettuare le seguenti operazioni:
 
-1. Selezionate un componente struttura (direttamente nel messaggio e-mail o utilizzando la struttura ad albero disponibile nella **palette** sinistra).
-1. Dalla barra degli strumenti **** contestuale, fate clic **[!UICONTROL Select a column]** per scegliere la colonna desiderata.
+1. Selezionare un componente struttura (direttamente nell&#39;e-mail o utilizzando la struttura ad albero disponibile dalla **Palette** sinistra).
+1. Dalla **barra degli strumenti contestuale**, fare clic su **[!UICONTROL Select a column]** per scegliere la colonna desiderata.
 
 Vedere un esempio in [questa sezione](#example--adjusting-vertical-alignment-and-padding).
 
 ## Regolazione delle impostazioni di stile {#adjusting-style-settings}
 
-1. Selezionate un elemento nel messaggio e-mail. For more on this, see [Selecting an element](#selecting-an-element).
+1. Selezionate un elemento nel messaggio e-mail. Per ulteriori informazioni, vedere [Selezione di un elemento](#selecting-an-element).
 1. Regolate le impostazioni in base alle vostre esigenze. Ogni elemento selezionato offre un set di impostazioni diverso.
 
-   Potete inserire sfondi, modificare le dimensioni, modificare l’allineamento orizzontale o verticale, gestire i colori, aggiungere [spaziatura o margini](#selecting-an-element)e così via.
+   Potete inserire sfondi, modificare le dimensioni, modificare l&#39;allineamento orizzontale o verticale, gestire i colori, aggiungere [spaziatura o margine](#selecting-an-element) e così via.
 
-   A tal fine, utilizzate le opzioni visualizzate nel **[!UICONTROL Settings]** riquadro o [aggiungete gli attributi](#adding-inline-styling-attributes)di stile in linea.
+   A tal fine, utilizzare le opzioni visualizzate nel riquadro **[!UICONTROL Settings]** o [aggiungere attributi di stile in linea](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -68,7 +68,7 @@ L&#39;interfaccia di Designer e-mail consente di regolare rapidamente le imposta
 Ad esempio:
 
 * Usate la spaziatura per impostare i margini a sinistra e a destra di un’immagine.
-* Usate la spaziatura superiore e inferiore per aggiungere più spaziatura a un **[!UICONTROL Text]** componente o a un **[!UICONTROL Divider]** componente.
+* Utilizzare la spaziatura superiore e inferiore per aggiungere più spaziatura a un componente **[!UICONTROL Text]** o **[!UICONTROL Divider]**.
 * Per impostare i bordi tra le colonne all&#39;interno di un elemento struttura, definire la spaziatura per ciascuna colonna.
 
 **[!UICONTROL Margin]**: questa impostazione consente di gestire lo spazio tra il bordo dell&#39;elemento e l&#39;elemento successivo.
@@ -77,23 +77,23 @@ Ad esempio:
 
 >[!NOTE]
 >
->A seconda della selezione (componente struttura, colonna o componente contenuto), il risultato non sarà lo stesso.  Adobe consiglia di impostare i **[!UICONTROL Padding]** parametri e **[!UICONTROL Margin]** a livello di colonna.
+>A seconda della selezione (componente struttura, colonna o componente contenuto), il risultato non sarà lo stesso.  Adobe consiglia di impostare i parametri **[!UICONTROL Padding]** e **[!UICONTROL Margin]** a livello di colonna.
 
-Per entrambe **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, fate clic sull&#39;icona Blocca per interrompere la sincronizzazione tra i parametri superiore e inferiore o destra e sinistra. Questo consente di regolare ciascun parametro separatamente.
+Sia per **[!UICONTROL Padding]** che per **[!UICONTROL Margin]**, fate clic sull&#39;icona Blocca per interrompere la sincronizzazione tra i parametri superiore e inferiore o destra e sinistra. Questo consente di regolare ciascun parametro separatamente.
 
 ![](assets/des_padding_lock_icon.png)
 
-## Allineamento stile {#about-alignment}
+## Allineamento dello stile {#about-alignment}
 
 * **Allineamento** del testo: posizionare il cursore del mouse su un testo e utilizzare la barra degli strumenti contestuale per allinearlo.
 
    ![](assets/des_text_alignment.png)
 
-* **L&#39;allineamento** orizzontale può essere applicato a testo, immagini e pulsanti, attualmente non ai **[!UICONTROL Divider]** componenti e **[!UICONTROL Social]** ai componenti.
+* **L’** allineamento orizzontale può essere applicato a testo, immagini e pulsanti, al momento non a  **[!UICONTROL Divider]** e  **[!UICONTROL Social]** componenti.
 
    ![](assets/des_horizontal_alignment.png)
 
-* Per impostare l’allineamento **** verticale, selezionate una colonna all’interno di un componente struttura e scegliete un’opzione dal riquadro Impostazioni.
+* Per impostare l&#39; **allineamento verticale**, selezionare una colonna all&#39;interno di un componente struttura e scegliere un&#39;opzione dal riquadro Impostazioni.
 
    ![](assets/des_set_vertical_alignment.png)
 
@@ -113,7 +113,7 @@ Per impostare gli sfondi con Designer e-mail,  Adobe consiglia quanto segue:
 
 Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare.
 
-* Impostate un **[!UICONTROL Background color]** valore per l’intero messaggio e-mail. Accertarsi di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
+* Impostate **[!UICONTROL Background color]** per l&#39;intero messaggio e-mail. Accertarsi di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
 
    ![](assets/des_background_body.png)
 
@@ -127,7 +127,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 
    Accertatevi di non impostare un colore di sfondo della finestra in quanto potrebbe nascondere i colori di sfondo della struttura.
 
-* Impostare un **[!UICONTROL Background image]** valore per il contenuto di un componente struttura.
+* Impostare un elemento **[!UICONTROL Background image]** per il contenuto di un componente struttura.
 
    ![](assets/des_background_image.png)
 
@@ -149,12 +149,12 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 
 È necessario regolare la spaziatura e l&#39;allineamento verticale all&#39;interno di un componente struttura composto da tre colonne. Per farlo, segui la procedura indicata di seguito:
 
-1. Selezionate il componente struttura direttamente nel messaggio e-mail o utilizzando la struttura ad albero disponibile nella **palette** sinistra.
-1. Dalla barra degli strumenti **** contestuale, fate clic su **[!UICONTROL Select a column]** e scegliete quello da modificare. È inoltre possibile selezionarlo dalla struttura ad albero.
+1. Selezionare il componente struttura direttamente nel messaggio e-mail o utilizzare la struttura ad albero disponibile dalla **Palette** sinistra.
+1. Dalla **barra degli strumenti contestuale**, fare clic su **[!UICONTROL Select a column]** e scegliere quella da modificare. È inoltre possibile selezionarlo dalla struttura ad albero.
 
    ![](assets/des_selecting_column.png)
 
-   I parametri modificabili per quella colonna vengono visualizzati nel **[!UICONTROL Settings]** riquadro a destra.
+   I parametri modificabili per quella colonna vengono visualizzati nel riquadro **[!UICONTROL Settings]** a destra.
 
 1. In **[!UICONTROL Vertical alignment]**, selezionare **[!UICONTROL Up]**.
 
@@ -180,15 +180,15 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 
 1. In un componente in cui è inserito un collegamento, seleziona il testo dell’etichetta del collegamento.
 
-1. Nelle impostazioni del componente, verificate **[!UICONTROL Underline link]** di sottolineare il testo dell’etichetta del collegamento.
+1. Nelle impostazioni del componente, selezionare **[!UICONTROL Underline link]** per sottolineare il testo dell&#39;etichetta del collegamento.
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Per selezionare il contesto di navigazione in cui verrà aperto il collegamento, seleziona una **[!UICONTROL Target]**.
+1. Per selezionare il contesto di navigazione in cui verrà aperto il collegamento, seleziona un **[!UICONTROL Target]**.
 
    ![](assets/stylelinks-target.png)
 
-1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Link color]**.
+1. Per modificare il colore del collegamento, fare clic su **[!UICONTROL Link color]**.
 
    ![](assets/stylelinks-colorpicker.png)
 
@@ -198,15 +198,15 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che potete usare
 
 1. Salva le modifiche.
 
-## Adding inline styling attributes {#adding-inline-styling-attributes}
+## Aggiunta di attributi di stile in linea {#adding-inline-styling-attributes}
 
 Nell&#39;interfaccia di Designer e-mail, quando si seleziona un elemento e ne vengono visualizzate le impostazioni nel pannello laterale, è possibile personalizzare gli attributi in linea e il relativo valore per tale elemento specifico.
 
 1. Selezionate un elemento nel contenuto.
-1. Nel pannello laterale, cercate le **[!UICONTROL Styles Inline]** impostazioni.
+1. Nel pannello laterale, cercate le impostazioni **[!UICONTROL Styles Inline]**.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. Modificate i valori degli attributi esistenti o aggiungetene di nuovi utilizzando il pulsante **+** . Potete aggiungere qualsiasi attributo e valore conforme con CSS.
+1. Modificare i valori degli attributi esistenti o aggiungerne di nuovi utilizzando il pulsante **+**. Potete aggiungere qualsiasi attributo e valore conforme con CSS.
 
 Lo stile viene quindi applicato all&#39;elemento selezionato. Se gli elementi secondari non dispongono di attributi di stile specifici definiti, lo stile dell&#39;elemento padre viene ereditato.
