@@ -10,8 +10,8 @@ context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
 source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ I gruppi di sicurezza sono insiemi di utenti che condividono gli stessi ruoli e 
 
 Gli utenti devono sempre essere collegati a un gruppo di sicurezza. In questo modo, puoi assegnare loro ruoli e unità organizzative specifici.
 
-Per ulteriori informazioni sui ruoli, le tabelle della pagina seguente presentano diverse operazioni disponibili in base ai ruoli di un utente: [Autorizzazioni di Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+Per ulteriori informazioni sui ruoli, le tabelle della pagina seguente presentano diverse operazioni disponibili in base ai ruoli di un utente: [Autorizzazioni di Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it).
 
 I gruppi di sicurezza predefiniti sono:
 
