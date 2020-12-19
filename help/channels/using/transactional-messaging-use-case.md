@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Caso di utilizzo di messaggi transazionali
+title: Caso di utilizzo dei messaggi transazionali
 description: Scopri un esempio completo della funzionalità di messaggistica transazionale  Adobe Campaign.
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Caso di utilizzo di messaggi transazionali {#transactional-messaging-use-case}
+# Caso di utilizzo dei messaggi transazionali {#transactional-messaging-use-case}
 
 In questo esempio, si desidera utilizzare la funzionalità di messaggistica transazionale  Adobe Campaign per inviare un messaggio e-mail di conferma dopo ogni acquisto sul sito Web, identificando i clienti tramite il proprio ID CRM.
 
