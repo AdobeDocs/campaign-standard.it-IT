@@ -27,7 +27,7 @@ Il principio consiste nell’inviare un’e-mail per confermare il consenso del 
 
 Per configurare questa impostazione devi effettuare le seguenti operazioni:
 
-1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. I visitatori che compilano e inviano la pagina di destinazione saranno memorizzati nel database ma aggiunti al elenco Bloccati, per non ricevere alcuna comunicazione prima della convalida finale (vedere [Gestione Elenco Bloccati in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Crea e invia automaticamente l’e-mail di consenso, con un collegamento di conferma. Questa e-mail eseguirà il targeting della popolazione che ha inviato la pagina di destinazione. Sarà basata su un modello e-mail che consente di eseguire il targeting dei profili di rinuncia.
 1. Reindirizza a una pagina di destinazione di conferma. Questa pagina di destinazione finale proporrà un pulsante di conferma: i visitatori devono fare clic su di esso. Puoi progettare un’e-mail di benvenuto da inviare al termine della conferma e, ad esempio, aggiungere un’offerta speciale nell’e-mail per i nuovi destinatari.
 
@@ -101,7 +101,7 @@ Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifi
 1. Dal logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e fai clic su **[!UICONTROL Typologies]**.
 1. Duplica la tipologia preconfigurata **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Una volta confermata la duplicazione, modifica la nuova tipologia e immetti l’etichetta **TYPOLOGY_PROFILE**.
-1. Rimuovere l&#39; **indirizzo elenco Bloccati regola di** .
+1. Rimuovere la regola **Address on elenco Bloccati**.
 1. Fai clic su **[!UICONTROL Save]**.
 
 Questa tipologia può ora essere associata all’e-mail di conferma.
