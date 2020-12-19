@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-assets-core-service
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ L’integrazione del servizio di base Risorse o Risorse su richiesta (a seconda 
 
 Le risorse condivise da Adobe Experience Cloud possono essere utilizzate nelle e-mail e nelle pagine di destinazione.
 
-1. Durante la modifica del contenuto di un&#39;e-mail o di una pagina di destinazione, passare a un blocco immagine, quindi selezionarlo **[!UICONTROL Image shared from Adobe Experience Cloud]** tramite il menu contestuale.
+1. Quando modificate il contenuto di un&#39;e-mail o di una pagina di destinazione, andate a un blocco immagine, quindi selezionate **[!UICONTROL Image shared from Adobe Experience Cloud]** dal menu contestuale.
 
    ![](assets/dam_insert_image_dce.png)
 
