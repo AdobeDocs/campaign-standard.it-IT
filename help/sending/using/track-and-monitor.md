@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -31,29 +31,29 @@ Per controllare le campagne, devi accertarti che il messaggio sia stato effettiv
 
 * Dal dashboard dei messaggi, puoi accedere a diversi rapporti per questo messaggio specifico.
 
-Per ulteriori informazioni, vedere [Monitoraggio di una distribuzione](../../sending/using/monitoring-a-delivery.md).
+Per ulteriori informazioni, vedere [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md).
 
 ## Tracking {#tracking-deliveries}
 
-Per conoscere meglio il comportamento dei profili di destinazione, puoi tenere traccia di come reagiscono a una consegna: ricezione, apertura, clic su collegamenti, annullamento sottoscrizioni, ecc. Fare riferimento alla scheda Registri **di** tracciamento della consegna.
+Per conoscere meglio il comportamento dei profili di destinazione, puoi tenere traccia di come reagiscono a una consegna: ricezione, apertura, clic su collegamenti, annullamento sottoscrizioni, ecc. Fare riferimento alla scheda **Registri di tracciamento** della consegna.
 
 **Suggerimento**: Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per configurare gli URL, selezionate l’opzione Visualizza URL nella sezione inferiore della procedura guidata di consegna. Per ciascun URL del messaggio, potete scegliere se attivare il tracciamento.
 
-Per ulteriori informazioni, consulta la sezione Messaggi [di](../../sending/using/tracking-messages.md) tracciamento e la descrizione degli indicatori [di](../../reporting/using/tracking-indicators.md) tracciamento.
+Per ulteriori informazioni, consultare la sezione [Messaggi di tracciamento](../../sending/using/tracking-messages.md) e la descrizione [Indicatori di tracciamento](../../reporting/using/tracking-indicators.md).
 
-## Report dinamici {#dyn-reports}
+## Rapporti dinamici {#dyn-reports}
 
 I rapporti dinamici consentono di creare rapporti completamente personalizzabili e in tempo reale per monitorare le campagne. Dimension, metriche e visualizzazioni consentono di misurare l&#39;impatto e il successo delle campagne sui destinatari.
 
 **Suggerimento** : i rapporti incorporati sono disponibili per il monitoraggio delle campagne, ma possono essere personalizzati anche trascinando nel rapporto eventuali metriche o dimensioni.
 
-For more on this, refer to the [Reporting guide](../../reporting/using/about-dynamic-reports.md).
+Per ulteriori informazioni, consultare la [Guida ai rapporti](../../reporting/using/about-dynamic-reports.md).
 
 ## Hot click
 
 Il rapporto sui clic attivi presenta il contenuto del messaggio (HTML e/o testo) con la percentuale di clic su ciascun collegamento. Visualizzando la percentuale di clic su ciascun contenuto dinamico, potete misurare il contenuto per il quale i destinatari sono maggiormente invitati.
 
-Per ulteriori informazioni, consulta il rapporto [Clic](../../reporting/using/hot-clicks.md).
+Per ulteriori informazioni, fare riferimento al rapporto [Hot click](../../reporting/using/hot-clicks.md).
 
 ## Suggerimenti sulle prestazioni di distribuzione {#performance-tips}
 
