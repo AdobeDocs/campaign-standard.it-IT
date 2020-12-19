@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-analytics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Ora potete aggiungere una spaziatura a questo elemento.
 
 È possibile caricare contenuti HTML personalizzati in Designer e-mail. Se non è stato creato tramite e-mail Designer, verrà caricato in modalità di compatibilità, progettata per mantenere l&#39;HTML originale ma limitare alcune funzionalità di edizione nell&#39;interfaccia utente.
 
-Per ulteriori informazioni, vedere Modalità [compatibilità](../../designing/using/using-existing-content.md#compatibility-mode)
+Per ulteriori informazioni, vedere [Modalità compatibilità](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## Come si crea il primo contenuto e-mail?
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni, vedere [Aggiornamento dei frammenti](../../designing
 
 Non è possibile salvare gli stili come tema da riutilizzare in futuro. Tuttavia, lo stile CSS può essere salvato in un modello di contenuto o in un messaggio e-mail.
 
-Per ulteriori informazioni, vedere [Stili](../../designing/using/styles.md)
+Per ulteriori informazioni, fare riferimento a [Styles](../../designing/using/styles.md)
 
 ## Quali font sono disponibili?
 
