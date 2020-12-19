@@ -24,7 +24,7 @@ ht-degree: 20%
 
 In questo documento, scoprite come visualizzare un&#39;immagine da una notifica push di Adobe Campaign Standard iOS .
 
-## Passaggio 1: Configurare la notifica push {#set-up-push}
+## Passaggio 1: Imposta notifica push {#set-up-push}
 
 La notifica push è supportata dagli SDK  Experience Platform.
 
@@ -40,16 +40,16 @@ Per ottimizzare la notifica push, Adobe Campaign ti consente di accedere a un se
 
 1. Creare una notifica push. Per ulteriori informazioni, consulta questa [pagina](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Dalla pagina del contenuto della notifica push, accedete alla **[!UICONTROL Advanced options]** sezione.
+1. Dalla pagina del contenuto della notifica push, accedete alla sezione **[!UICONTROL Advanced options]**.
 
-1. Immettete l’URL del file nel **[!UICONTROL Rich media content URL]** campo.
+1. Immettete l&#39;URL del file nel campo **[!UICONTROL Rich media content URL]**.
 Per iOS 10 o versioni successive, puoi inserire file immagine, gif, audio e video.
 
    ![](assets/push_notif_advanced_6.png)
 
 1. Visualizzate l&#39;anteprima e salvate la notifica push.
 
-## Passaggio 3: Adattamento del codice dell&#39;applicazione Mobile {#mobile-app-code}
+## Passaggio 3: Adattate il codice dell&#39;applicazione Mobile {#mobile-app-code}
 
 Dopo aver personalizzato la notifica push in  Adobe Campaign, dovete configurare l&#39;applicazione mobile per visualizzare l&#39;immagine sui dispositivi.
 
@@ -59,15 +59,15 @@ Dopo aver personalizzato la notifica push in  Adobe Campaign, dovete configurare
 
 Se l&#39;app è in [!DNL Swift], segui i passaggi seguenti:
 
-1. Apri il tuo [!DNL Xcode] progetto.
+1. Apri il progetto [!DNL Xcode].
 
-1. Nel [!DNL Xcode] progetto, selezionate **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Nel progetto [!DNL Xcode], selezionare **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Seleziona **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
-1. Verificate che venga creata la classe di file **NotificationService.swift** .
+1. Verificate che la classe di file **NotificationService.swift** sia stata creata.
 
 1. Modificate questa classe e sostituite il contenuto predefinito con quanto segue.
 Questo consente all’applicazione di gestire il parametro in entrata con l’URL dell’immagine, analizzarlo, copiarlo localmente e quindi visualizzarlo dalla notifica push.
