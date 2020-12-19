@@ -15,19 +15,19 @@ ht-degree: 16%
 ---
 
 
-# Esegui tutti i controlli prima dell&#39;invio {#perform-all-checks}
+# Eseguire tutti i controlli prima dell&#39;invio di {#perform-all-checks}
 
 Una volta che il messaggio è pronto, accertati che il contenuto sia visualizzato correttamente, su tutti i dispositivi, e non contenga errori quali personalizzazione errata o collegamenti interrotti.
 
 Prima di inviare il messaggio, assicurati anche che i parametri e la configurazione siano coerenti con la consegna.
 
-## Perché la convalida è fondamentale {#validation-is-key}
+## Perché la convalida è la chiave {#validation-is-key}
 
 Prima di inviare una consegna, è necessario assicurarsi che i destinatari ricevano il messaggio che si desidera inviare. A tal fine, devi convalidare il contenuto del messaggio e i parametri di consegna.
 
 Questo passaggio consente di rilevare eventuali errori e correggerli prima di inviarli alla destinazione principale.
 
-I passaggi per la convalida di una consegna sono descritti [in questa sezione](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+I passaggi per la convalida di una consegna sono presentati [in questa sezione](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## Rendering di e-mail {#email-rendering}
 
