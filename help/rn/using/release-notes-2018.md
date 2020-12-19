@@ -118,7 +118,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
   </tr> 
   <tr> 
    <td> Gestione utente<br /> </td> 
-   <td> La funzionalità dell'unità geografica ora non è disponibile per le nuove istanze di Campaign Standard, così come per le istanze esistenti senza unità geografiche create, a partire dalla release 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html"> Per ulteriori informazioni, consulta questa pagina</a>.<br /> </td> 
+   <td> La funzionalità dell'unità geografica ora non è disponibile per le nuove istanze di Campaign Standard, così come per le istanze esistenti senza unità geografiche create, a partire dalla release 18.7.<br /><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#"> Per ulteriori informazioni, consulta questa pagina</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -203,7 +203,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
  <tbody> 
   <tr> 
    <td> GDPR: Integrazione dei servizi di base<br /> </td> 
-   <td> Privacy Core Service Integration consente di automatizzare le richieste GDPR in un contesto multi-soluzione tramite una singola chiamata API JSON. <br /> Le richieste GDPR inviate dal servizio di base per la privacy a tutte le soluzioni  Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html">documentazione dettagliata</a>.<br /> </td> 
+   <td> Privacy Core Service Integration consente di automatizzare le richieste GDPR in un contesto multi-soluzione tramite una singola chiamata API JSON. <br /> Le richieste GDPR inviate dal servizio di base per la privacy a tutte le soluzioni  Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#getting-started">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti push - feedback dettagliato sulla distribuzione<br /> </td> 
