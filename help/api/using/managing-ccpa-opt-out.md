@@ -21,14 +21,14 @@ Lo stato di rifiuto CCPA di un profilo può essere monitorato e gestito utilizza
 
 `"ccpaOptOut": <value>`
 
-* **true**:  vieta la vendita di informazioni personali.
+* **true**: vieta la vendita di informazioni personali.
 * **false**: autorizza la vendita di informazioni personali.
 
 >[!CAUTION]
 >
 >L&#39;attributo &quot;Rinuncia CCPA&quot; è disponibile solo a partire dalla versione 19.4. Per gli ambienti 19.3, è necessario estendere la risorsa Profili e aggiungere un campo booleano. Questo campo verrà aggiunto all&#39;API con l&#39;etichetta selezionata. Vi consigliamo di utilizzare &quot;Opt-Out for CCPA&quot;.
 >
->Per ulteriori informazioni, consulta la documentazione [](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)Gestione delle richieste di privacy.
+>Per ulteriori informazioni, consultare la [Documentazione sulle richieste di privacy di gestione](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
