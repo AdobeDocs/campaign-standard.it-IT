@@ -26,7 +26,7 @@ Si tratta di una procedura in due fasi.
 
 >[!CAUTION]
 >
->L&#39;API REST restituisce la proprietà &quot;href&quot;, che contiene l&#39;URL da utilizzare. <b>Utilizzate sempre l&#39;URL contenuto nella risposta per effettuare la richiesta</b>API successiva.
+>L&#39;API REST restituisce la proprietà &quot;href&quot;, che contiene l&#39;URL da utilizzare. <b>Utilizzate sempre l&#39;URL contenuto nella risposta per effettuare la richiesta</b> API successiva.
 
 <br/>
 
