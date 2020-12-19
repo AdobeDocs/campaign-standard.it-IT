@@ -9,8 +9,8 @@ topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ Questo report presenta i rendering delle e-mail così come sono visualizzati al 
 >
 >Account Token per ogni singolo rendering e non per l&#39;intero rapporto di rendering E-mail, il che significa che:
 >
->**Ogni volta** che viene generato il rapporto di rendering Inbox, viene dedotto un token per client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
+>**Ogni** volta che viene generato il rapporto di rendering Inbox, viene dedotto un token per client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
 >
 >**Per la stessa consegna**, se generate di nuovo il rendering E-mail, il numero di token disponibili viene nuovamente diminuito dal numero di rendering generati.
 
