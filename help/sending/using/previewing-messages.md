@@ -9,39 +9,39 @@ topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Anteprima delle consegne {#previewing-messages}
 
-## Anteprima dei messaggi e-mail {#previewing-emails}
+## Anteprima delle e-mail {#previewing-emails}
 
 Campaign Standard consente di visualizzare l’anteprima dei messaggi prima dell’invio, per verificarne la personalizzazione e verificare in che modo i destinatari li visualizzeranno.
 
-L&#39;anteprima dei messaggi viene eseguita utilizzando i profili **di** test aggiunti alla destinazione del messaggio.
+L&#39;anteprima dei messaggi viene eseguita utilizzando i **profili di test** aggiunti alla destinazione del messaggio.
 
-Per i messaggi **e-mail** , il Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando profili di destinazione anziché profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
+Per i messaggi **email**, il Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando profili di destinazione anziché profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
 
 Per visualizzare l&#39;anteprima di un messaggio utilizzando i profili di prova, effettua le seguenti operazioni:
 
-1. In [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), fare clic sul **[!UICONTROL Preview]** pulsante.
+1. In [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), fare clic sul pulsante **[!UICONTROL Preview]**.
 
    ![](assets/sending_preview.png)
 
    Una vista desktop e una vista mobile reattiva dell’e-mail vengono visualizzate affiancate.
 
-1. Durante ogni anteprima viene eseguito un controllo automatico dello spam. Fare clic sul **[!UICONTROL Anti-spam analysis]** pulsante per ulteriori informazioni sull&#39;avviso.
+1. Durante ogni anteprima viene eseguito un controllo automatico dello spam. Fare clic sul pulsante **[!UICONTROL Anti-spam analysis]** per ulteriori informazioni sull&#39;avviso.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Fate clic sul **[!UICONTROL Change profile]** pulsante per scegliere il profilo di test su cui sottoporre a test gli elementi di personalizzazione.
+1. Fate clic sul pulsante **[!UICONTROL Change profile]** per scegliere il profilo di prova su cui sottoporre a test gli elementi di personalizzazione.
 
    ![](assets/sending_test-profile.png)
 
-1. Per uscire dalla **[!UICONTROL Preview]** modalità, fare clic sul **[!UICONTROL Edit]** pulsante in alto a sinistra dello schermo.
+1. Per uscire dalla modalità **[!UICONTROL Preview]**, fare clic sul pulsante **[!UICONTROL Edit]** in alto a sinistra dello schermo.
 
    ![](assets/sending_preview_edit.png)
 
@@ -53,25 +53,25 @@ Per visualizzare l&#39;anteprima di un messaggio utilizzando i profili di prova,
 
 ## Anteprima dei messaggi SMS {#previewing-sms}
 
-Per i messaggi **SMS** , il Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando i profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
+Per i messaggi **SMS**, il Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando i profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
 
 Per visualizzare l&#39;anteprima di un messaggio SMS utilizzando i profili di prova, effettua le seguenti operazioni:
 
-1. Una volta compilato il **[!UICONTROL Properties]** messaggio SMS e selezionato il pubblico, puoi personalizzare la consegna. For more information, refer to [section](../../channels/using/personalizing-sms-messages.md).
+1. Una volta compilato il **[!UICONTROL Properties]** del messaggio SMS e selezionato il pubblico, potete personalizzare la consegna. Per ulteriori informazioni, consultare [sezione](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
-1. Dopo aver personalizzato il contenuto, fate clic **[!UICONTROL Create]** per accedere alla **[!UICONTROL Summary]** finestra.
+1. Dopo aver personalizzato il contenuto, fate clic su **[!UICONTROL Create]** per accedere alla finestra **[!UICONTROL Summary]**.
 
-1. Dalla **[!UICONTROL Summary]** finestra, fate clic **[!UICONTROL Content]** per iniziare a visualizzare l’anteprima della consegna.
+1. Dalla finestra **[!UICONTROL Summary]**, fate clic su **[!UICONTROL Content]** per iniziare a visualizzare l&#39;anteprima della distribuzione.
 
    ![](assets/sms_preview_2.png)
 
-1. Fare clic **[!UICONTROL Preview]** sulla barra degli strumenti.
+1. Fare clic su **[!UICONTROL Preview]** nella barra degli strumenti.
 
    ![](assets/sms_preview_3.png)
 
-1. Fate clic **[!UICONTROL Change profile]** per selezionare il profilo di test, quindi **[!UICONTROL Confirm]**.
+1. Fare clic su **[!UICONTROL Change profile]** per selezionare il profilo di test, quindi su **[!UICONTROL Confirm]**.
 
    ![](assets/sms_preview_4.png)
 
@@ -85,21 +85,21 @@ Ora puoi vedere la rappresentazione esatta del messaggio a seconda dei profili d
 
 ## Anteprima delle notifiche push {#previewing-push}
 
-Per la notifica **** push, il Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando i profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
+Per **Notifica push**, il Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando i profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
 
 Per visualizzare in anteprima una notifica push utilizzando i profili di prova, effettuate le seguenti operazioni:
 
-1. Dopo aver compilato **[!UICONTROL Properties]** la notifica push e selezionato i tipi di pubblico, potete personalizzare la distribuzione. Per ulteriori informazioni, consultate [Personalizzazione di una notifica](../../channels/using/customizing-a-push-notification.md)push.
+1. Dopo aver compilato la **[!UICONTROL Properties]** della notifica push e selezionato i tipi di pubblico, puoi personalizzare la distribuzione. Per ulteriori informazioni, consultate [Personalizzazione di una notifica push](../../channels/using/customizing-a-push-notification.md).
 
 1. Dopo aver personalizzato il contenuto, potete controllare direttamente il rendering delle notifiche push a seconda dei dispositivi e del sistema operativo nella finestra di anteprima.
 
    ![](assets/push_preview.png)
 
-1. Per visualizzare l&#39;anteprima della notifica push utilizzando i profili di prova, fate clic su **[!UICONTROL Preview with test profile]**.
+1. Per visualizzare in anteprima la notifica push utilizzando i profili di prova, fate clic su **[!UICONTROL Preview with test profile]**.
 
    ![](assets/push_preview_2.png)
 
-1. Selezionate il profilo di test, quindi **[!UICONTROL Confirm]**.
+1. Selezionare il profilo di test, quindi **[!UICONTROL Confirm]**.
 
 Ora puoi vedere la rappresentazione esatta del messaggio a seconda dei profili di test selezionati.
 
@@ -113,11 +113,11 @@ Ora puoi vedere la rappresentazione esatta del messaggio a seconda dei profili d
 
 ## Anteprima dei messaggi in-app {#previewing-in-app}
 
-Per **In-App**, Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando i profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
+Per **In-App**, il Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando i profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
 
 Per visualizzare l&#39;anteprima di un messaggio in-app utilizzando i profili di prova, procedi come segue:
 
-1. Dopo aver compilato **[!UICONTROL Properties]** il messaggio in-app, selezionato i tipi di pubblico e impostato il numero di destinatari, **[!UICONTROL Triggers]** potete personalizzare la distribuzione. Per ulteriori informazioni, consultate [Personalizzazione di un messaggio](../../channels/using/customizing-an-in-app-message.md)in-app.
+1. Dopo aver compilato il **[!UICONTROL Properties]** del messaggio in-app, selezionato i tipi di pubblico e impostato il **[!UICONTROL Triggers]**, puoi personalizzare la distribuzione. Per ulteriori informazioni, consultare [Personalizzazione di un messaggio in-app](../../channels/using/customizing-an-in-app-message.md).
 
 1. Dopo aver personalizzato il contenuto, potete controllare direttamente il rendering del messaggio in-app a seconda dei dispositivi e del sistema operativo presenti nella finestra di anteprima.
 
@@ -127,7 +127,7 @@ Per visualizzare l&#39;anteprima di un messaggio in-app utilizzando i profili di
 
    ![](assets/in_app_preview_2.png)
 
-1. Selezionate il profilo di test, quindi **[!UICONTROL Confirm]**.
+1. Selezionare il profilo di test, quindi **[!UICONTROL Confirm]**.
 
 Ora puoi vedere la rappresentazione esatta del messaggio a seconda dei profili di test selezionati.
 
