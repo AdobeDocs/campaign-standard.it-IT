@@ -111,7 +111,7 @@ Impostare una data di scadenza per la notifica push ti consente di impostare una
 
 Per aggiungere una data di scadenza alla notifica push:
 
-1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. Se non modifichi il valore, APNS e FCM tenteranno di inviare il messaggio immediatamente. Se l’invio non riesce, il messaggio non verrà inviato di nuovo.
+1. Selezionare l&#39;opzione **[!UICONTROL Expire message]**: selezionando l&#39;opzione **[!UICONTROL Expire message]**, la durata viene automaticamente impostata su 0. Se non modifichi il valore, APNS e FCM tenteranno di inviare il messaggio immediatamente. Se l’invio non riesce, il messaggio non verrà inviato di nuovo.
 
 1. Nel campo **[!UICONTROL Duration]**, seleziona la validità della notifica push.
 
