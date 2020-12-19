@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Il rifiuto comporta l&#39;assenza del targeting del profilo per consegna o per consegna da un canale specifico.
 
-Per offrire ai profili la possibilità di scegliere se aderire o rifiutare, dovete creare una pagina di destinazione dedicata. Per ulteriori informazioni, vedere [Impostazione delle pagine](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)di destinazione di consenso e di rifiuto.
+Per offrire ai profili la possibilità di scegliere se aderire o rifiutare, dovete creare una pagina di destinazione dedicata. Per ulteriori informazioni, fare riferimento a [Impostazione delle pagine di destinazione di consenso e di rifiuto](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
 
 I profili possono anche essere scelti manualmente da un operatore. Per ulteriori informazioni, fare riferimento a [Gestione dell&#39;opt-in e dell&#39;opt-out da un profilo](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
@@ -27,6 +27,6 @@ I profili di rifiuto vengono automaticamente esclusi durante l&#39;analisi della
 
 >[!NOTE]
 >
->Il rifiuto si applica ai **profili**, invece della quarantena collegata a un indirizzo **** e-mail o a un numero **di** telefono. L&#39;esclusione di un profilo escluderà quindi dalle consegne tutti gli indirizzi ad esso collegati. Se un utente ha due profili nel database, sarà comunque preso di mira dalle consegne, in quanto solo uno dei suoi profili è l&#39;opzione di rifiuto. Per assicurarsi che tutti i suoi indirizzi siano esclusi, aggiungeteli agli indirizzi delle quarantena. Per ulteriori informazioni, consulta [questa pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>Il rifiuto si applica a **Profili**, a differenza della quarantena collegata a un **indirizzo e-mail** o a **numero di telefono**. L&#39;esclusione di un profilo escluderà quindi dalle consegne tutti gli indirizzi ad esso collegati. Se un utente ha due profili nel database, sarà comunque preso di mira dalle consegne, in quanto solo uno dei suoi profili è l&#39;opzione di rifiuto. Per assicurarsi che tutti i suoi indirizzi siano esclusi, aggiungeteli agli indirizzi delle quarantena. Per ulteriori informazioni, consulta [questa pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
-For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).
+Per ulteriori informazioni sulle iscrizioni ai servizi, fare riferimento a [questa pagina](../../audiences/using/about-subscriptions.md).
