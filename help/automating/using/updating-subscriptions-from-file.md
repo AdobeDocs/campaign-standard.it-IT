@@ -24,7 +24,7 @@ Il flusso di lavoro viene presentato come segue:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* Un&#39;attività [Load file](../../automating/using/load-file.md) carica il file di profilo e definisce la struttura delle colonne importate.
 
    Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
 
@@ -49,7 +49,7 @@ Il flusso di lavoro viene presentato come segue:
 
    Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l’operazione, non devi ripetere la mappatura di tali valori. Assicurati solo che la colonna sia elaborata come un **valore booleano** o un **numero intero** nella scheda **[!UICONTROL Column definition]**.
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Tramite la scheda **[!UICONTROL Identification]**, il campo **e-mail** del file viene fatto corrisponde al campo **e-mail** della risorsa del profilo.
+* Un&#39;attività [Riconciliazione](../../automating/using/reconciliation.md) identifica i dati del file come appartenenti alla dimensione del profilo del database Adobe Campaign . Tramite la scheda **[!UICONTROL Identification]**, il campo **e-mail** del file viene fatto corrisponde al campo **e-mail** della risorsa del profilo.
 
    ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/subscription_example_service_relation.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. È importante eliminare i duplicati poiché l’abbonamento a un servizio non riuscirà per tutti i dati in caso di duplicati.
+* Una [Deduplicazione](../../automating/using/deduplication.md) basata sul campo **email** della risorsa temporanea (derivante dalla riconciliazione) identifica i duplicati. È importante eliminare i duplicati poiché l’abbonamento a un servizio non riuscirà per tutti i dati in caso di duplicati.
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* Un&#39;attività [Subscription Services](../../automating/using/subscription-services.md) identifica i servizi da aggiornare come provenienti dalla transizione, attraverso il collegamento creato nell&#39;attività **[!UICONTROL Reconciliation]**.
 
    Il **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l’operazione da eseguire non viene visualizzata nell’elenco, accertati di aver impostato correttamente il formato della colonna nell’attività **[!UICONTROL Load file]**, come spiegato in precedenza in questo esempio.
 
