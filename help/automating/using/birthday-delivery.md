@@ -24,14 +24,14 @@ Questo esempio è un flusso di lavoro di compleanno. Ogni giorno un’e-mail vie
 
 Per generare il flusso di lavoro, effettuate le seguenti operazioni:
 
-* The [Scheduler](../../automating/using/scheduler.md) allows you to start the workflow every day at 8am.
+* Il modulo [Scheduler](../../automating/using/scheduler.md) consente di avviare il flusso di lavoro ogni giorno alle 8 di mattina.
 
    ![](assets/wkf_delivery_example_2.png)
 
-* The [Query](../../automating/using/query.md) activity allows you to calculate the profiles who have provided an email and whose birthday it is on the current day, every time the workflow is executed. Il calcolo del compleanno viene eseguito utilizzando un filtro predefinito disponibile nella palette nello strumento di modifica delle query.
+* L&#39;attività [Query](../../automating/using/query.md) consente di calcolare i profili che hanno fornito un&#39;e-mail e il cui compleanno è il giorno corrente, ogni volta che il flusso di lavoro viene eseguito. Il calcolo del compleanno viene eseguito utilizzando un filtro predefinito disponibile nella palette nello strumento di modifica delle query.
 
    ![](assets/wkf_delivery_example_3.png)
 
-* La consegna [](../../automating/using/email-delivery.md) e-mail è ricorrente. Gli invii sono aggregati per mese. In questo modo, tutte le e-mail inviate in un mese vengono aggregate in un’unica vista. In un anno vengono quindi eseguite 365 consegne, che vengono raggruppate in 12 viste (dette anche **esecuzioni ricorrenti**) nell’interfaccia di Adobe Campaign. La cronologia e i dettagli sui report vengono visualizzati ogni mese e non per ogni invio.
+* La [distribuzione e-mail](../../automating/using/email-delivery.md) è ricorrente. Gli invii sono aggregati per mese. In questo modo, tutte le e-mail inviate in un mese vengono aggregate in un’unica vista. In un anno vengono quindi eseguite 365 consegne, che vengono raggruppate in 12 viste (dette anche **esecuzioni ricorrenti**) nell’interfaccia di Adobe Campaign. La cronologia e i dettagli sui report vengono visualizzati ogni mese e non per ogni invio.
 
    ![](assets/wkf_delivery_example_4.png)
