@@ -10,8 +10,8 @@ context-tags: activity,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,14 +81,14 @@ I programmi e le campagne sono illustrati nella sezione [Programmi e campagne](.
 
 A seconda del contesto, è possibile:
 
-* Creare un&#39;e-mail - [Per saperne di più](../../channels/using/creating-an-email.md)
-* Creazione di un SMS - [Ulteriori informazioni](../../channels/using/creating-an-sms-message.md)
+* Creare un&#39;e-mail - [Ulteriori informazioni](../../channels/using/creating-an-email.md)
+* Creare un SMS - [Ulteriori informazioni](../../channels/using/creating-an-sms-message.md)
 * Creare una notifica push - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md)
-* Creare un messaggio in-app - [Per saperne di più](../../channels/using/about-in-app-messaging.md)
-* Creazione di un flusso di lavoro - [Ulteriori informazioni](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* Creare una pagina di destinazione - [Per saperne di più](../../channels/using/getting-started-with-landing-pages.md)
-* Creare una campagna - [Per saperne di più](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* Creazione di un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Creare un messaggio in-app - [Ulteriori informazioni](../../channels/using/about-in-app-messaging.md)
+* Creare un flusso di lavoro - [Ulteriori informazioni](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Creare una pagina di destinazione - [Ulteriori informazioni](../../channels/using/getting-started-with-landing-pages.md)
+* Creare una campagna - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Creare un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
