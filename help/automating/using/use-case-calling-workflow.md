@@ -9,8 +9,8 @@ topic-tags: workflow-general-operation
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ L&#39;obiettivo è attivare un flusso di lavoro da una chiamata API con parametr
 
 Per eseguire questo caso di utilizzo, è necessario eseguire le azioni seguenti:
 
-1. **Eseguite una chiamata** API per attivare Workflow 1 con parametri esterni. Vedere [Passaggio 1: Configurazione della chiamata](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call)API.
+1. **Effettuare una** chiamata API per attivare Workflow 1 con parametri esterni. Vedere [Passaggio 1: Configurazione della chiamata API](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
 1. **Crea flusso di lavoro 1**: il flusso di lavoro trasferirà un file e lo caricherà nel database. Quindi, verrà verificato se i dati sono vuoti o meno e alla fine salverà i profili in un&#39;audience. Infine, attiverà Workflow 2. Vedere [Passaggio 2: Configurazione del flusso di lavoro 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
 1. **Crea flusso di lavoro 2**: il flusso di lavoro leggerà l&#39;audience creata nel Flusso di lavoro 1, quindi invierà un messaggio personalizzato ai profili, con un codice del segmento personalizzato con i parametri. Vedere [Passaggio 3: Configurazione del flusso di lavoro 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
@@ -31,11 +31,11 @@ Per eseguire questo caso di utilizzo, è necessario eseguire le azioni seguenti:
 
 ## Prerequisiti {#prerequisites}
 
-Prima di configurare i flussi di lavoro, è necessario creare i flussi di lavoro 1 e 2 con un&#39; **[!UICONTROL External signal]** attività in ciascuno di essi. In questo modo, potrai eseguire il targeting di queste attività di segnale quando chiami i flussi di lavoro.
+Prima di configurare i flussi di lavoro, è necessario creare i flussi di lavoro 1 e 2 con un&#39;attività **[!UICONTROL External signal]** in ciascuno di essi. In questo modo, potrai eseguire il targeting di queste attività di segnale quando chiami i flussi di lavoro.
 
 ## Passaggio 1: Configurazione della chiamata API {#step-1--configuring-the-api-call}
 
-Effettuare una chiamata API per attivare Workflow 1 con i parametri. Per ulteriori informazioni sulla sintassi delle chiamate API, consulta la documentazione [sulle API REST](../../api/using/triggering-a-signal-activity.md)Campaign Standard.
+Effettuare una chiamata API per attivare Workflow 1 con i parametri. Per ulteriori informazioni sulla sintassi delle chiamate API, consulta la documentazione [Campaign Standard REST APIs](../../api/using/triggering-a-signal-activity.md).
 
 Nel nostro caso, vogliamo chiamare il flusso di lavoro con i parametri seguenti:
 
@@ -74,12 +74,12 @@ Il flusso di lavoro 1 verrà creato come segue:
 
 Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
-1. Dichiarare i parametri definiti nella chiamata API. A questo scopo, aprite l&#39; **[!UICONTROL External signal]** attività, quindi aggiungete i nomi e i tipi dei parametri.
+1. Dichiarare i parametri definiti nella chiamata API. A questo scopo, aprite l&#39;attività **[!UICONTROL External signal]**, quindi aggiungete i nomi e i tipi dei parametri.
 
    ![](assets/extsignal_uc1.png)
 
-1. Aggiungete un&#39; **[!UICONTROL Transfer file]** attività per importare i dati nel database. A tale scopo, trascinate l&#39;attività, apritela, quindi selezionate la **[!UICONTROL Protocol]** scheda.
-1. Selezionate l&#39; **[!UICONTROL Use a dynamic file path]** opzione, quindi utilizzate il parametro **fileToTarget** come file da trasferire:
+1. Aggiungete un&#39;attività **[!UICONTROL Transfer file]** per importare dati nel database. A tale scopo, trascinate e rilasciate l&#39;attività, apritela, quindi selezionate la scheda **[!UICONTROL Protocol]**.
+1. Selezionate l&#39;opzione **[!UICONTROL Use a dynamic file path]**, quindi utilizzate il parametro **fileToTarget** come file da trasferire:
 
    ```
    $(vars/@fileToTarget)
@@ -89,19 +89,19 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
 1. Caricate i dati dal file nel database.
 
-   A tal fine, trascinate un&#39; **[!UICONTROL Load file]** attività nel flusso di lavoro, quindi configuratela in base alle vostre esigenze.
+   A questo scopo, trascina e rilascia un&#39;attività **[!UICONTROL Load file]** nel flusso di lavoro, quindi configurala in base alle tue esigenze.
 
 1. Inserite e aggiornate il database con i dati del file importato.
 
-   A tal fine, trascinate un&#39; **[!UICONTROL Update data]** attività, quindi selezionate la **[!UICONTROL Identification]** scheda per aggiungere un criterio di riconciliazione (nel nostro caso, il campo **e-mail** ).
+   A questo scopo, trascinare un&#39;attività **[!UICONTROL Update data]**, quindi selezionare la scheda **[!UICONTROL Identification]** per aggiungere un criterio di riconciliazione (nel nostro caso il campo **email**).
 
    ![](assets/extsignal_uc3.png)
 
-1. Selezionate la **[!UICONTROL Fields to update]** scheda, quindi specificate i campi da aggiornare nel database (nel nostro caso, i campi **first name** e **email** ).
+1. Selezionate la scheda **[!UICONTROL Fields to update]**, quindi specificate i campi da aggiornare nel database (nel nostro caso i campi **firstname** e **email**).
 
    ![](assets/extsignal_uc4.png)
 
-1. Verificate se i dati vengono recuperati dal file. A tal fine, trascinate un&#39; **[!UICONTROL Test]** attività nel flusso di lavoro, quindi fate clic sul **[!UICONTROL Add an element]** pulsante per aggiungere una condizione.
+1. Verificate se i dati vengono recuperati dal file. A tal fine, trascinate un&#39;attività **[!UICONTROL Test]** nel flusso di lavoro, quindi fate clic sul pulsante **[!UICONTROL Add an element]** per aggiungere una condizione.
 1. Assegnare un nome e definire la condizione. Nel nostro caso, vogliamo verificare se la transizione in uscita contiene dati con la sintassi seguente:
 
    ```
@@ -110,8 +110,8 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
    ![](assets/extsignal_uc5.png)
 
-1. Se i dati vengono recuperati, salvarli in un&#39;audience. A questo scopo, aggiungete un&#39; **[!UICONTROL Save audience]** attività alla transizione **Target non vuota** , quindi apritela.
-1. Selezionate l&#39; **[!UICONTROL Use a dynamic label]** opzione, quindi utilizzate il parametro **fileToTarget** come etichetta dell&#39;audience:
+1. Se i dati vengono recuperati, salvarli in un&#39;audience. A questo scopo, aggiungete un&#39;attività **[!UICONTROL Save audience]** alla transizione **Target non vuota**, quindi apritela.
+1. Selezionate l&#39;opzione **[!UICONTROL Use a dynamic label]**, quindi utilizzate il parametro **fileToTarget** come etichetta dell&#39;audience:
 
    ```
    $(vars/@fileToTarget)
@@ -119,11 +119,11 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
    ![](assets/extsignal_uc6.png)
 
-1. Trascina e rilascia un&#39; **[!UICONTROL End]** attività che chiamerà Flusso di lavoro 2 con i parametri, quindi aprila.
-1. Selezionate la **[!UICONTROL External signal]** scheda, quindi specificate il flusso di lavoro da attivare e l&#39;attività del segnale associata.
+1. Trascina e rilascia un&#39;attività **[!UICONTROL End]** che chiamerà Flusso di lavoro 2 con i parametri, quindi aprila.
+1. Selezionate la scheda **[!UICONTROL External signal]**, quindi specificate il flusso di lavoro da attivare e l&#39;attività del segnale associata.
 1. Definite i parametri che desiderate utilizzare in Workflow 2 e i relativi valori associati.
 
-   Nel nostro caso, vogliamo trasmettere i parametri originariamente definiti nella chiamata API (**fileToTarget** e **scontoDesc**), e un parametro aggiuntivo **segmentCode** con un valore costante (&quot;sconto del 20%&quot;).
+   Nel nostro caso, vogliamo trasmettere i parametri originariamente definiti nella chiamata API (**fileToTarget** e **scontoDesc**), e un parametro aggiuntivo **segmentCode** con un valore costante (&quot;20% di sconto&quot;).
 
    ![](assets/extsignal_uc7.png)
 
@@ -143,12 +143,12 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
 1. Dichiarare i parametri definiti nel Flusso di lavoro 1.
 
-   A tal fine, aprite l&#39; **[!UICONTROL External signal]** attività, quindi aggiungete il nome e il tipo di ogni parametro definito nell&#39; **[!UICONTROL End]** attività del Flusso di lavoro 1.
+   A tal fine, aprite l&#39;attività **[!UICONTROL External signal]**, quindi aggiungete il nome e il tipo di ciascun parametro definito nell&#39;attività **[!UICONTROL End]** del Flusso di lavoro 1.
 
    ![](assets/extsignal_uc8.png)
 
-1. Utilizza l&#39;audience salvata nel Flusso di lavoro 1. A questo scopo, trascinate un&#39; **[!UICONTROL Read audience]** attività nel flusso di lavoro, quindi apritela.
-1. Selezionate l&#39; **[!UICONTROL Use a dynamic audience]** opzione, quindi utilizzate il parametro **fileToTarget** come nome dell&#39;audience da leggere:
+1. Utilizza l&#39;audience salvata nel Flusso di lavoro 1. A questo scopo, trascinate un&#39;attività **[!UICONTROL Read audience]** nel flusso di lavoro, quindi apritela.
+1. Selezionate l&#39;opzione **[!UICONTROL Use a dynamic audience]**, quindi utilizzate il parametro **fileToTarget** come nome dell&#39;audience da leggere:
 
    ```
    $(vars/@fileToTarget)
@@ -156,9 +156,9 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
    ![](assets/extsignal_uc9.png)
 
-1. Denominate la transizione in uscita in base al parametro **segmentCode** .
+1. Denominate la transizione in uscita in base al parametro **segmentCode**.
 
-   To do this, select the **[!UICONTROL Transition]** tab, then the **[!UICONTROL Use a dynamic segment code]** option.
+   A questo scopo, selezionare la scheda **[!UICONTROL Transition]**, quindi l&#39;opzione **[!UICONTROL Use a dynamic segment code]**.
 
 1. Utilizzate il parametro **segmentCode** come nome della transizione in uscita:
 
@@ -168,8 +168,8 @@ Per configurare il flusso di lavoro, effettuate le seguenti operazioni:
 
    ![](assets/extsignal_uc10.png)
 
-1. Trascinate e rilasciate un&#39; **[!UICONTROL Email delivery]** attività per inviare un messaggio all&#39;audience.
-1. Identificare i parametri da utilizzare nel messaggio per personalizzare con il parametro **scontoDesc** . A questo scopo, aprite le opzioni avanzate dell&#39;attività, quindi aggiungete il nome e il valore del parametro.
+1. Trascinate e rilasciate un&#39;attività **[!UICONTROL Email delivery]** per inviare un messaggio al pubblico.
+1. Identificare i parametri da utilizzare nel messaggio per personalizzare con il parametro **scontoDesc**. A questo scopo, aprite le opzioni avanzate dell&#39;attività, quindi aggiungete il nome e il valore del parametro.
 
    ![](assets/extsignal_uc10b.png)
 
