@@ -9,8 +9,8 @@ topic-tags: use-case--extending-the-api
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 26%
 
 1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Development]**, quindi **[!UICONTROL Publication]**.
 1. Fai clic sul pulsante **[!UICONTROL Prepare Publication]**.
-1. Selezionate l’ **[!UICONTROL Create the Profiles & Services Ext API]** opzione.
+1. Selezionare l&#39;opzione **[!UICONTROL Create the Profiles & Services Ext API]**.
 
    ![](assets/create-profile-and-services-api.png)
 
@@ -27,7 +27,7 @@ ht-degree: 26%
    >
    >Se l&#39;API è già stata pubblicata (ovvero se avete già selezionato questa opzione una volta, per questa risorsa o un&#39;altra risorsa), l&#39;aggiornamento dell&#39;API viene forzato.
 
-1. Fate clic sulla **[!UICONTROL Profiles & Services API Preview]** scheda.
+1. Fare clic sulla scheda **[!UICONTROL Profiles & Services API Preview]**.
 
    Verranno visualizzate le modifiche che la pubblicazione dell&#39;API applicherà alla versione corrente dell&#39;API profileAndServicesExt.
 
