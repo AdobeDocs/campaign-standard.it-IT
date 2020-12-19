@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # Identificazione dei profili di diniego per una consegna{#identifying-opt-out-profiles-for-a-delivery}
 
-I profili di rifiuto per una consegna specifica sono elencati dopo la fase di preparazione, nella **[!UICONTROL Exclusion logs]** scheda del dashboard di consegna.
+I profili di rifiuto per una consegna specifica sono elencati dopo la fase di preparazione, nella scheda **[!UICONTROL Exclusion logs]** del dashboard di consegna.
 
 ![](assets/exclusion_blocklisting.png)
 
