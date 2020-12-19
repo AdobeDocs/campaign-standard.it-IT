@@ -21,7 +21,7 @@ Questa integrazione può eseguire diversi processi:
 
 * **Ingresso**:
 
-   * Inserire **i contatti** da Dynamics 365 in Campaign
+   * Inserire **contatti** da Dynamics 365 a Campaign
 
    * **Entità** personalizzate: Inserisci tabelle personalizzate da Dynamics 365 a Campaign. Ulteriori informazioni [in questa sezione](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 
@@ -29,7 +29,7 @@ Questa integrazione può eseguire diversi processi:
 
 * **Rifiuto**: Sincronizzazione bidirezionale dello stato di rifiuto (ad esempio, elenco Bloccati)
 
-Ulteriori dettagli sui flussi di dati sono disponibili [in questa sezione](#data-flows).
+Ulteriori dettagli sui flussi di dati si trovano [in questa sezione](#data-flows).
 
 ##  esperienza utente Adobe Campaign Standard
 
@@ -97,7 +97,7 @@ Segue un elenco degli attributi e una descrizione:
 
 >[!NOTE]
 >
->Il periodo di scadenza della pagina mirror dell&#39;e-mail può essere modificato nella schermata di configurazione dell&#39;attività del canale e-mail della campagna corrispondente (vedete Parametri [del periodo di](../../administration/using/configuring-email-channel.md#validity-period-parameters)validità).
+>Il periodo di scadenza della pagina mirror dell&#39;e-mail può essere modificato nella schermata di configurazione dell&#39;attività del canale e-mail della campagna corrispondente (vedere [Parametri del periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
 >
