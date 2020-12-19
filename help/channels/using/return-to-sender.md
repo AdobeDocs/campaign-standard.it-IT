@@ -25,7 +25,7 @@ Affinché questa funzionalità funzioni, il modello di consegna predefinita per 
 
 ![](assets/direct_mail_return_sender_1.png)
 
-Un modello di importazione è disponibile in **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplica questo modello per creare un modello personalizzato. Per ulteriori informazioni sull&#39;utilizzo dei modelli di importazione, vedere [Uso dei modelli](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)di importazione.
+Un modello di importazione è disponibile in **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Duplica questo modello per creare un modello personalizzato. Per ulteriori informazioni sull&#39;utilizzo dei modelli di importazione, consultare [Utilizzo dei modelli di importazione](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ![](assets/direct_mail_return_sender_2.png)
 
