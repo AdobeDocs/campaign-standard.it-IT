@@ -24,9 +24,9 @@ ht-degree: 9%
 * Configurare le mappature di destinazione per gestire le impostazioni tecniche necessarie per inviare le consegne,
 * Configurate le notifiche interne all&#39;applicazione, ecc.
 
-Queste impostazioni sono disponibili dal **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** menu.
+Queste impostazioni sono disponibili dal menu **[!UICONTROL Administration]** / **[!UICONTROL Application settings]**.
 
-Inoltre, le opzioni tecniche sono disponibili nel **[!UICONTROL Options]** menu, consentendo di configurare l&#39;applicazione in modo più specifico. Alcuni sono incorporati durante l&#39;installazione di Campaign, altri possono essere aggiunti manualmente quando necessario (le opzioni disponibili variano a seconda dei pacchetti installati con l&#39;istanza).
+Inoltre, le opzioni tecniche sono disponibili nel menu **[!UICONTROL Options]**, consentendo di configurare l&#39;applicazione in modo più specifico. Alcuni sono incorporati durante l&#39;installazione di Campaign, altri possono essere aggiunti manualmente quando necessario (le opzioni disponibili variano a seconda dei pacchetti installati con l&#39;istanza).
 
 >[!IMPORTANT]
 >
