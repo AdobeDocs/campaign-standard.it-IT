@@ -24,11 +24,11 @@ Il flusso di lavoro è costituito da:
 
 ![](assets/deduplication_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) which allows you to define the target of the email. In questo caso, il flusso di lavoro esegue il targeting di tutti i profili di età compresa tra i 18 e i 25 anni presenti nel database dei clienti da oltre un anno.
+* Una [Query](../../automating/using/query.md) che consente di definire la destinazione dell&#39;e-mail. In questo caso, il flusso di lavoro esegue il targeting di tutti i profili di età compresa tra i 18 e i 25 anni presenti nel database dei clienti da oltre un anno.
 
    ![](assets/deduplication_example_query.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) activity, which allows you to identify the duplicates that come from the preceding query. In questo esempio viene salvato un solo record per ogni duplicato. I duplicati vengono identificati utilizzando l’indirizzo e-mail. Ciò significa che la consegna e-mail può essere inviata solo una volta per ogni indirizzo e-mail presente nel targeting.
+* Un&#39;attività [Deduplicazione](../../automating/using/deduplication.md) che consente di identificare i duplicati derivanti dalla query precedente. In questo esempio viene salvato un solo record per ogni duplicato. I duplicati vengono identificati utilizzando l’indirizzo e-mail. Ciò significa che la consegna e-mail può essere inviata solo una volta per ogni indirizzo e-mail presente nel targeting.
 
    Il metodo di deduplicazione selezionato è **[!UICONTROL Non-empty value]**. Questo ti consente di garantire che tra i record conservati in caso di duplicati, sia data priorità a quelli in cui è stato fornito il **Nome**. Questo renderà più coerente l’utilizzo del nome nei campi di personalizzazione del contenuto dell’e-mail.
 
@@ -36,5 +36,5 @@ Il flusso di lavoro è costituito da:
 
    ![](assets/deduplication_example_dedup.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) placed after the main outbound transition of the deduplication.
-* A [Save audience](../../automating/using/save-audience.md) activity placed after the additional transition of the deduplication to save the duplicates in a **Duplicates** audience. Questo pubblico può essere riutilizzato per escludere direttamente i suoi membri da ogni consegna e-mail.
+* Una [distribuzione di posta elettronica](../../automating/using/email-delivery.md) inserita dopo la transizione in uscita principale della deduplicazione.
+* Un&#39;attività [Save audience](../../automating/using/save-audience.md) inserita dopo l&#39;ulteriore transizione della deduplicazione per salvare i duplicati in un pubblico **Duplicates**. Questo pubblico può essere riutilizzato per escludere direttamente i suoi membri da ogni consegna e-mail.
