@@ -23,7 +23,7 @@ ht-degree: 5%
 
  Adobe Campaign Standard consente di attivare l’assimilazione immediata delle mappature dati tramite API e di recuperare lo stato delle richieste di assimilazione.
 
-Questa pagina descrive come attivare e recuperare lo stato di inserimento delle mappature dati. Per informazioni globali sulle API Campaign Standard, consultate [questa sezione](../../api/using/get-started-apis.md).
+Questa pagina descrive come attivare e recuperare lo stato di inserimento delle mappature dati. Per informazioni globali sulle API Campaign Standard, consultare [questa sezione](../../api/using/get-started-apis.md).
 
 ## Prerequisiti {#prerequisites}
 
@@ -34,9 +34,9 @@ Prima di utilizzare le API, la mappatura dei dati deve essere stata configurata 
 
 Una volta creata la mappatura dei dati, devi impedirne l&#39;esecuzione in modo da poterla attivare dalle API ogni volta che vuoi. Per farlo, esegui questi passaggi:
 
-1. In Campaign Standard, selezionate il **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+1. In Campaign Standard, andare al menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
-1. Fare doppio clic sulla mappatura dati per aprirla, quindi fare clic sul **[!UICONTROL Stop]** pulsante.
+1. Fare doppio clic sulla mappatura dati per aprirla, quindi fare clic sul pulsante **[!UICONTROL Stop]**.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -44,7 +44,7 @@ Una volta creata la mappatura dei dati, devi impedirne l&#39;esecuzione in modo 
 
 L&#39;esecuzione del mapping dei dati ora è interrotta. Potete utilizzare le API Campaign Standard per attivarle manualmente.
 
-## Avvio dell&#39;assimilazione immediata della mappatura dei dati {#starting-immediate-ingestion}
+## Avvio dell&#39;assimilazione immediata del mapping dei dati {#starting-immediate-ingestion}
 
 L&#39;assimilazione immediata di una mappatura XDM in Adobe Experience Platform viene attivata con un&#39;operazione POST:
 
@@ -52,9 +52,10 @@ L&#39;assimilazione immediata di una mappatura XDM in Adobe Experience Platform 
 
 >[!NOTE]
 >
->Per eseguire la chiamata API POST ingerest, l&#39;utente deve avere un ruolo di esecuzione **della funzione** SQL, che può essere fornito da un amministratore Campaign Standard mediante l&#39;esecuzione sotto lo script JS:
+>Per eseguire la chiamata API POST ingerest, l&#39;utente deve disporre di un ruolo **Esecuzione funzione SQL**, che può essere fornito da un amministratore Campaign Standard mediante l&#39;esecuzione sotto lo script JS:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -105,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i processi correlati sono disponibili nell&#39;interfaccia Campaign Standard, nel **[!UICONTROL Status of data export to platform]** menu (consultate Attivazione [della](../../developing/using/aep-mapping-activation.md)mappatura).
+>Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i processi correlati sono disponibili nell&#39;interfaccia Campaign Standard, nel menu **[!UICONTROL Status of data export to platform]** (vedere [Attivazione mappatura](../../developing/using/aep-mapping-activation.md)).
 
 L&#39;operazione di GET restituisce le informazioni seguenti:
 
