@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -68,7 +68,7 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dati
 
 * Il trasferimento out-of-the-box degli eventi di iscrizione non è supportato. Per trasferire gli eventi di iscrizione, puoi creare XDM e dataset corrispondenti in Adobe Experience Platform, quindi configurare una mappatura dati personalizzata per questi dati.
 
-* Per quanto riguarda le richieste di privacy (entrambe le azioni di accesso ed eliminazione), i clienti devono effettuare richieste separate tramite il [Servizio di base sulla privacy](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): uno per Campaign e uno per Adobe Experience Platform. Per ulteriori informazioni, vedere [Informazioni sulle richieste di privacy](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess) e [Gestione delle richieste di privacy](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
+* Per quanto riguarda le richieste di privacy (entrambe le azioni di accesso ed eliminazione), i clienti devono effettuare richieste separate tramite il [Servizio di base sulla privacy](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): uno per Campaign e uno per Adobe Experience Platform. Per ulteriori informazioni, vedere [Informazioni sulle richieste di privacy](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=it#getting-started) e [Gestione delle richieste di privacy](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
 
 * Per ciascun campo XDM, l&#39;etichetta DULE deve essere eseguita in Adobe Experience Platform. Questa è responsabilità del cliente applicare etichette DULE.
 
