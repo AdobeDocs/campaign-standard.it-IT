@@ -37,7 +37,7 @@ Questo caso d&#39;uso consente di creare un modello di E-mail Designer utilizzan
 
 ## Creare la struttura delle e-mail
 
-1. Aprite l&#39;e-mail **[!UICONTROL Email Designer]** per creare un contenuto e-mail vuoto.
+1. Aprite la **[!UICONTROL Email Designer]** per creare un contenuto e-mail vuoto.
 1. Impostate gli attributi a livello di corpo: colori di sfondo, larghezza, ecc. Per ulteriori informazioni, consulta [Modifica degli stili delle e-mail](../../designing/using/styles.md).
 1. Aggiungete tutti i componenti della struttura disponibili. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -46,9 +46,9 @@ Questo caso d&#39;uso consente di creare un modello di E-mail Designer utilizzan
 1. Aggiungete un componente HTML a ciascun componente struttura. Per ulteriori informazioni, consulta [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiate e incollate il codice HTML in ogni componente.
 
-## Gestione dello stile dell’e-mail {#manage-the-style-of-your-email}
+## Gestione dello stile dell&#39;e-mail {#manage-the-style-of-your-email}
 
-1. Passa a **[!UICONTROL Mobile view]**. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Passate a **[!UICONTROL Mobile view]**. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. Per risolvere il problema, passare alla modalità codice sorgente e copiare e incollare la sezione di stile in una nuova sezione di stile. Ad esempio:
 
@@ -78,7 +78,7 @@ Questo caso d&#39;uso consente di creare un modello di E-mail Designer utilizzan
 
 ## Caso d’uso
 
-Proviamo a convertire questo messaggio e-mail, creato nell’editor legacy, in un **[!UICONTROL Email Designer]** modello.
+Proviamo a convertire questo messaggio e-mail, creato nell&#39;editor legacy, in un modello **[!UICONTROL Email Designer]**.
 
 ### Identificare la sezione del messaggio e-mail
 
@@ -94,7 +94,7 @@ Per visualizzare la versione HTML del messaggio e-mail, fate clic su **[!UICONTR
 
 ### Creare il modello e-mail e la relativa struttura
 
-1. Trascinate e rilasciate **[!UICONTROL Structure components]** il layout del messaggio e-mail.
+1. Trascinare **[!UICONTROL Structure components]** per riflettere il layout dell&#39;e-mail.
 
 1. Ripetere la procedura il numero di volte necessario. Dobbiamo creare 11 componenti della struttura.
 
@@ -102,11 +102,11 @@ Per visualizzare la versione HTML del messaggio e-mail, fate clic su **[!UICONTR
 
 ### Inserimento di componenti di contenuto HTML
 
-1. Inserite un **[!UICONTROL HTML component]** elemento in ogni **[!UICONTROL Structure component]** .
+1. Inserire un **[!UICONTROL HTML component]** in ogni **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
-1. Per ciascuna sezione, fate clic su **[!UICONTROL Show source code]** .
+1. Per ciascuna sezione, fare clic su **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 
@@ -124,6 +124,6 @@ Ora potete controllare il rendering dell&#39;e-mail.
 
 1. Passate al codice sorgente e copiate e incollate la sezione di stile in una nuova sezione di stile.
 
-Per ulteriori informazioni, consulta [Gestione dello stile delle e-mail](#manage-the-style-of-your-email).
+Per ulteriori informazioni, fare riferimento a [Gestione dello stile dell&#39;e-mail](#manage-the-style-of-your-email).
 
 L&#39;e-mail precedente è ora disponibile in Designer e-mail.
