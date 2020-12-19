@@ -51,7 +51,7 @@ Se il messaggio è già stato creato, puoi definire i tipi di pubblico al moment
 
    Per ulteriori informazioni sulla configurazione di profili di test, consulta la sezione [Profili di test](../../audiences/using/managing-test-profiles.md).
 
-1. Se necessario, è possibile definire un gruppo di controlli utilizzando la scheda corrispondente. In questo modo potrete ritirare alcuni profili dalla destinazione in modo che non ricevano il messaggio. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+1. Se necessario, è possibile definire un gruppo di controlli utilizzando la scheda corrispondente. In questo modo potrete ritirare alcuni profili dalla destinazione in modo che non ricevano il messaggio. Per ulteriori informazioni, vedere [Aggiunta di un gruppo di controllo](../../sending/using/control-group.md).
 
 1. È inoltre possibile utilizzare gli indirizzi di sostituzione per ottenere una rappresentazione esatta del messaggio che il profilo riceverà.  Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
 
