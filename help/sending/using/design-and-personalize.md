@@ -9,17 +9,17 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Creare contenuti personalizzati {#build-personalized-content}
 
-Durante la progettazione del contenuto del messaggio, cercate di evitare problemi comuni che potrebbero impedire l&#39;esecuzione della distribuzione. Nella maggior parte dei casi, eventuali errori sono correlati alla [personalizzazione](../../designing/using/personalization.md), alla formattazione quando si [utilizza un contenuto](../../designing/using/using-existing-content.md) esistente e alla [conversione di un contenuto](../../designing/using/using-existing-content.md#converting-an-html-content) HTML e [delle immagini](../../designing/using/images.md).
+Durante la progettazione del contenuto del messaggio, cercate di evitare problemi comuni che potrebbero impedire l&#39;esecuzione della distribuzione. Nella maggior parte dei casi, eventuali errori sono correlati a [personalizzazione](../../designing/using/personalization.md), formattazione quando si utilizza [un contenuto esistente](../../designing/using/using-existing-content.md) e [conversione di un contenuto HTML](../../designing/using/using-existing-content.md#converting-an-html-content) e [immagini](../../designing/using/images.md).
 
-## Ottimizzare la personalizzazione {#optimize-personalization}
+## Ottimizzazione della personalizzazione {#optimize-personalization}
 
 Per evitare problemi comuni che potrebbero impedire l’esecuzione della consegna e migliorare l’esperienza dei destinatari,  Adobe Campaign consente di personalizzare i messaggi.
 
@@ -29,11 +29,11 @@ Le nozioni di base sulla personalizzazione sono presentate in [questa sezione](.
 Assicurati che il contenuto del messaggio sia progettato correttamente per evitare errori, generalmente correlati alla personalizzazione.
 
 Il contenuto dinamico può essere aggiunto manualmente per visualizzare contenuti diversi ai destinatari in base alle condizioni definite nell&#39;editor di espressioni. Quando aggiungete contenuto dinamico, dovete sempre lasciare una variante predefinita per i destinatari che non soddisfano le condizioni selezionate.
-Per ulteriori informazioni sul contenuto dinamico, consulta [questa sezione](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Per ulteriori informazioni sul contenuto dinamico, consultare la sezione [this](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**Suggerimenti** - Visualizzate l&#39;anteprima dell&#39;e-mail con diversi profili di test per assicurarvi che il contenuto dinamico sia stato configurato correttamente.
+**Suggerimenti**  - Visualizzate l&#39;anteprima dell&#39;e-mail con diversi profili di test per assicurarvi che il contenuto dinamico sia stato configurato correttamente.
 
-## Creare contenuto ottimizzato {#optimize-content}
+## Creazione di contenuto ottimizzato {#optimize-content}
 
 Durante la creazione delle e-mail, tieni presente le best practice generali riportate di seguito.
 
@@ -49,7 +49,7 @@ Durante la creazione delle e-mail, tieni presente le best practice generali ripo
 
 ### Riga oggetto
 
-Per migliorare i tassi di apertura, si [dovrà lavorare sulla linea](../../designing/using/subject-line.md) oggetto:
+Lavorare sulla [linea oggetto](../../designing/using/subject-line.md) per migliorare le tariffe aperte:
 
 * Evitare soggetti troppo lunghi. Utilizza un massimo di 50 caratteri
 
@@ -63,13 +63,13 @@ Includi sempre un collegamento della pagina mirror. La posizione preferita è la
 
 ### Collegamento di annullamento dell’abbonamento
 
-Il collegamento di annullamento della sottoscrizione è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Scopri le linee guida per l’annullamento della sottoscrizione [in questa sezione](../../designing/using/personalization.md#about-targeting-dimension).
+Il collegamento di annullamento della sottoscrizione è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Scopri le linee guida relative ai collegamenti di annullamento dell&#39;iscrizione [in questa sezione](../../designing/using/personalization.md#about-targeting-dimension).
 
-Per impostazione predefinita, quando il messaggio viene analizzato, una regola di [tipo](../../sending/using/control-rules.md) di controllo verifica se è stato incluso un collegamento di rinuncia e genera un avviso in caso di assenza.
+Per impostazione predefinita, quando il messaggio viene analizzato, un controllo [regola di tipologia](../../sending/using/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e genera un avviso se risulta mancante.
 
 **Suggerimento**: Poiché l’errore umano è sempre possibile, verificate che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, al momento dell&#39;invio della prova, verificare che il collegamento sia valido, che il modulo sia online e che il campo Destinatario non contatta più sia cambiato in Sì.
 
-Scoprite come inserire un collegamento di rifiuto [in questa sezione](../../designing/using/personalization.md#adding-a-content-block).
+Scoprite come inserire un collegamento di rinuncia [in questa sezione](../../designing/using/personalization.md#adding-a-content-block).
 
 ### Dimensione e-mail
 
@@ -89,7 +89,7 @@ Verificare eventuali modifiche prima dell&#39;invio finale
 
 Per impostazione predefinita, il numero di caratteri in un SMS soddisfa gli standard GSM (Global System for Mobile Communications). I messaggi SMS che utilizzano la codifica GSM sono limitati a 160 caratteri o 153 caratteri per SMS per messaggi inviati in più parti.
 
-La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando quel carattere non è preso in considerazione dallo standard GSM. L&#39;inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. È possibile autorizzare la traslazione dei caratteri selezionando la casella corrispondente nella scheda delle impostazioni del canale SMPP della corrispondente **[!UICONTROL External account]**.
+La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando quel carattere non è preso in considerazione dallo standard GSM. L&#39;inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. È possibile autorizzare la traslazione dei caratteri selezionando la casella corrispondente nella scheda delle impostazioni del canale SMPP della **[!UICONTROL External account]** corrispondente.
 Ulteriori informazioni [in questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Suggerimenti**:
@@ -106,7 +106,7 @@ La progettazione reattiva assicura il rendering ottimale dell’e-mail per il di
 
 * Utilizzate HTML e-mail reattive invece di HTML Web
 
-* Utilizzate la modalità di anteprima e inviate le prove di stampa per testare il rendering su quanti più dispositivi possibile. Scopri come visualizzare l’ [anteprima del messaggio](../../sending/using/previewing-messages.md) prima dell’invio.
+* Utilizzate la modalità di anteprima e inviate le prove di stampa per testare il rendering su quanti più dispositivi possibile. Scopri come visualizzare l&#39;anteprima del messaggio [prima dell&#39;invio.](../../sending/using/previewing-messages.md)
 
 * Campaign Email Designer viene fornito con modelli reattivi per la progettazione di contenuti per dispositivi mobili. Ulteriori informazioni [in questa pagina](../../designing/using/using-reusable-content.md#content-templates).
 
@@ -132,8 +132,8 @@ Cercate di rendere le immagini reattive e ridimensionabili. Questo può avere un
 
 Per essere accessibili dall&#39;esterno, le immagini utilizzate nelle e-mail e nelle risorse pubbliche collegate alle campagne devono essere presenti su un server esterno accessibile.
 
-## Anteprima del messaggio {#preview-msg}
+## Visualizza in anteprima il messaggio {#preview-msg}
 
  Adobe consiglia di visualizzare in anteprima il messaggio per verificarne la personalizzazione e vedere in che modo i destinatari vedranno la consegna.
 
-Nella finestra di progettazione e-mail, il **[!UICONTROL Preview]** pulsante consente di visualizzare il rendering di ciascun contenuto per un destinatario. I campi di personalizzazione e gli elementi condizionali del contenuto vengono sostituiti con le informazioni corrispondenti per il profilo selezionato. [Ulteriori informazioni](../../sending/using/previewing-messages.md)
+Nella finestra di progettazione e-mail, il pulsante **[!UICONTROL Preview]** consente di visualizzare il rendering di ciascun contenuto per un destinatario. I campi di personalizzazione e gli elementi condizionali del contenuto vengono sostituiti con le informazioni corrispondenti per il profilo selezionato. [Ulteriori informazioni](../../sending/using/previewing-messages.md)
