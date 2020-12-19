@@ -58,7 +58,7 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
 
 1. Nella scheda **[!UICONTROL Transition]**, l’opzione **[!UICONTROL Enable an outbound transition]** ti consente di aggiungere una transizione in uscita dopo l’attività Query, anche se non recupera dati.
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+   Il codice del segmento della transizione in uscita può essere personalizzato utilizzando un&#39;espressione standard e variabili di eventi (vedere [questa pagina](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
 
@@ -66,7 +66,7 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
 
 Le dimensioni di targeting e le risorse ti consentono di definire su quali elementi basare una query per determinare il target di una consegna.
 
-Sono configurati nelle mappature [di](../../administration/using/target-mappings-in-campaign.md)destinazione e sono definiti durante la creazione di un flusso di lavoro nella **[!UICONTROL Properties]** scheda di un&#39;attività Query.
+Sono configurati in [mapping di destinazione](../../administration/using/target-mappings-in-campaign.md) e sono definiti durante la creazione di un flusso di lavoro, nella scheda **[!UICONTROL Properties]** di un&#39;attività Query.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Esempio di filtri disponibili per la risorsa **[!UICONTROL Deliveries (delivery)
 
 Per impostazione predefinita, la dimensione di targeting e la risorsa sono impostati per eseguire il targeting dei profili. Tuttavia, se desideri cercare un record specifico in una tabella lontana, potrebbe risultare utile usare una risorsa diversa dalla dimensione di targeting.
 
-Per ulteriori informazioni, consulta questo caso di utilizzo: [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Per ulteriori informazioni, consulta questo caso di utilizzo: [Utilizzo di risorse diverse dalle dimensioni di destinazione](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Arricchimento dei dati {#enriching-data}
 
@@ -118,7 +118,7 @@ Dopo l’aggiunta di eventuali dati aggiuntivi, puoi applicare un livello di fil
 >
 >Per impostazione predefinita, l’opzione **[!UICONTROL Remove duplicate rows (DISTINCT)]** è selezionata nelle **[!UICONTROL Advanced options]** della scheda **[!UICONTROL Additional data]** della query. Se l’attività **[!UICONTROL Query]** contiene molti (a partire da 100) dati aggiuntivi definiti, è consigliabile deselezionare questa opzione per motivi di prestazioni. Attenzione: se deselezioni questa opzione puoi ottenere duplicati, a seconda dei dati interrogati.
 
-In [questa sezione](../../automating/using/personalizing-email-with-additional-data.md)viene illustrato un esempio di utilizzo per la personalizzazione di un’e-mail con dati aggiuntivi.
+Un esempio di utilizzo per la personalizzazione di un&#39;e-mail con dati aggiuntivi viene presentato in [questa sezione](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Aggiunta di un campo semplice {#adding-a-simple-field}
 
