@@ -9,17 +9,17 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Recupero profili {#retrieving-profiles}
 
-Il recupero dei profili viene eseguito con una richiesta di **GET** .
+Il recupero dei profili viene eseguito con una richiesta **GET**.
 
-Potete quindi perfezionare la ricerca utilizzando filtri, ordine e impaginazione. For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+Potete quindi perfezionare la ricerca utilizzando filtri, ordine e impaginazione. Per ulteriori informazioni, consultare la sezione [Operazioni aggiuntive](../../api/using/sorting.md).
 
 <br/>
 
