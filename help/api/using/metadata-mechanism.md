@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # Meccanismo metadati {#metadata-mechanism}
 
-Potete recuperare i metadati delle risorse utilizzando **resourceType** in una richiesta di GET:
+È possibile recuperare i metadati delle risorse utilizzando **resourceType** in una richiesta di GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 La risposta restituisce i metadati principali della risorsa (tutti gli altri campi sono descrittivi o interni):
 
-* Il nodo **Contenuto** restituisce i campi della risorsa. Per ciascun campo nel nodo **contenuto** , sono disponibili i campi seguenti:
+* Il nodo **Content** restituisce i campi della risorsa. Per ciascun campo nel nodo **content**, è possibile trovare i campi seguenti:
 
    * &quot;apiName&quot;: nome dell&#39;attributo utilizzato nelle API.
    * &quot;type&quot;: si tratta della definizione del tipo ad alto livello (stringa, numero, collegamento, raccolta, enumerazione...).
@@ -32,9 +32,9 @@ La risposta restituisce i metadati principali della risorsa (tutti gli altri cam
    * &quot;resType&quot;: questo è il tipo tecnico.
 
       Se &quot;type&quot; viene completato con il valore &quot;link&quot; o &quot;collection&quot;, il valore resTarget è il nome della risorsa di destinazione del collegamento.
-Se &quot;type&quot; viene completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è dettagliato nel nodo **dei valori** .
+Se &quot;type&quot; viene completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è dettagliato nel nodo **values**.
 
-* Il nodo **Filtri** restituisce l&#39;URL per recuperare i filtri associati. For more on filters, refer to [this section](../../api/using/filtering.md) section.
+* Il nodo **Filters** restituisce l&#39;URL per recuperare i filtri associati. Per ulteriori informazioni sui filtri, consultare la sezione [presente sezione](../../api/using/filtering.md).
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
