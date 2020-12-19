@@ -85,11 +85,11 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
    ![](assets/branding_05.png)
 
-## Creating a new brand {#creating-a-brand}
+## Creazione di un nuovo marchio {#creating-a-brand}
 
 Puoi aggiungere nuove entità dell&#39;organizzazione in Campaign, oppure creare un nuovo tipo di e-mail da inviare con un sottodominio diverso. Per eseguire questa operazione, procedere come segue:
 
-1. **Configura un nuovo sottodominio** : per ogni nuovo sottodominio che deve essere utilizzato da  Adobe, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite il Pannello di controllo Campaign [](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campaign o contattare il contatto tecnico  Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
+1. **Configura un nuovo sottodominio** : per ogni nuovo sottodominio che deve essere utilizzato da  Adobe, il primo passaggio consiste nel configurarlo. È possibile eseguire questa operazione tramite [Pannello di controllo Campaign campagna](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html) o contattare il contatto tecnico  Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
 
 1. **Crea un ticket** : una volta configurato il sottodominio,  Adobe dovrà configurarlo nell&#39;ambiente di produzione. Per richiedere questo, [crea un ticket per Client Care](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
 
@@ -101,9 +101,9 @@ Puoi aggiungere nuove entità dell&#39;organizzazione in Campaign, oppure creare
 
    * URL produzione: XXX.campaign.adobe.com
 
-1. **Crea un modello** di consegna: una volta che il nuovo marchio è disponibile, è consigliabile creare almeno un nuovo modello di consegna vuoto che faccia riferimento a questo nuovo marchio. [Ulteriori informazioni](#linking-a-brand-to-a-template).
+1. **Crea un modello**  di consegna: una volta che il nuovo marchio è disponibile, è consigliabile creare almeno un nuovo modello di consegna vuoto che faccia riferimento a questo nuovo marchio. [Ulteriori informazioni](#linking-a-brand-to-a-template).
 
-1. **Controlla le linee guida** sulla recapito - Prima di iniziare a utilizzare il nuovo dominio, la strategia deve essere discussa con  team di Deliverability del Adobe. Essi aiuteranno a definire le procedure ottimali, se è necessario creare una nuova affinità per suddividere gli IP tra domini, ad esempio, e/o se è necessario definire un piano di espansione. Ulteriori informazioni sulle procedure ottimali [di recapito in questa sezione](../../sending/using/about-deliverability.md).
+1. **Controlla le linee guida**  sulla recapito- Prima di iniziare a utilizzare il nuovo dominio, la strategia deve essere discussa con  team di recapito del Adobe. Essi aiuteranno a definire le procedure ottimali, se è necessario creare una nuova affinità per suddividere gli IP tra domini, ad esempio, e/o se è necessario definire un piano di espansione. Ulteriori informazioni sulle procedure ottimali di recapito [in questa sezione](../../sending/using/about-deliverability.md).
 
 ## Assegnazione di un brand a un’e-mail {#assigning-a-brand-to-an-email}
 
