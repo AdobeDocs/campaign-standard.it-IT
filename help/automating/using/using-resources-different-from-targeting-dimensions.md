@@ -20,7 +20,7 @@ ht-degree: 81%
 
 In questi casi di utilizzo viene illustrato come utilizzare una risorsa diversa dalla dimensione di targeting, ad esempio per cercare un record specifico in una tabella lontana.
 
-Per ulteriori informazioni sul targeting delle dimensioni e delle risorse, consulta [questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources)
+Per ulteriori informazioni sul targeting di dimensioni e risorse, consultare [questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Esempio 1: identificazione dei profili target interessati dalla consegna con l’etichetta “Bentornato”**.
 
