@@ -10,8 +10,8 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 4%
 >
 >Il servizio Destinazioni audience è attualmente in versione beta, che potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. I clienti devono essere ospitati in Azure (attualmente nella versione beta solo per il Nord America) per accedere a tali funzionalità. Per accedere, contatta  Assistenza clienti di Adobe.
 
-Segment Builder (Generatore di segmenti) consente di creare audience definendo regole basate sui dati provenienti dal profilo [cliente](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)in tempo reale.
+Segment Builder (Generatore di segmenti) consente di creare audience definendo regole basate sui dati provenienti dal [Real-time Customer Profile](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html).
 
-Questa sezione presenta i concetti globali per la creazione di un segmento. Per informazioni dettagliate sullo stesso Generatore di segmenti, consulta la guida [utente di Generatore di](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)segmenti.
+Questa sezione presenta i concetti globali per la creazione di un segmento. Per informazioni dettagliate sullo stesso Generatore di segmenti, fare riferimento alla [Guida utente di Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 L’interfaccia di Segment Builder (Generatore di segmenti) è composta come segue:
 
@@ -46,7 +46,7 @@ Il Generatore di segmenti deve ora essere visualizzato nell’area di lavoro. Co
 
 1. Accertatevi che nel riquadro delle impostazioni sia selezionato il criterio di unione desiderato.
 
-   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della guida [utente di](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
+   Per ulteriori informazioni sui criteri di unione, fare riferimento alla sezione dedicata della [Guida utente di Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,7 +64,7 @@ Il Generatore di segmenti deve ora essere visualizzato nell’area di lavoro. Co
 
 Nel riquadro a sinistra sono elencati tutti gli attributi, gli eventi e le audience disponibili per la creazione di regole.
 
-I campi elencati sono attributi acquisiti dalla società e resi disponibili tramite il sistema [](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/home.html)Experience Data Model (XDM).
+I campi elencati sono attributi acquisiti dalla società e resi disponibili tramite il sistema [Experience Data Model (XDM) System](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/home.html).
 
 I campi sono organizzati in schede:
 
@@ -78,11 +78,11 @@ I campi sono organizzati in schede:
 
 >[!NOTE]
 >
->**La segmentazione** multi-entità consente di estendere i dati del profilo con dati aggiuntivi basati su prodotti, store o altre classi non di profilo. Una volta connessi, i dati di altre classi diventano disponibili come se fossero nativi dello schema Profilo.
+>**La** segmentazione multi-entità consente di estendere i dati del profilo con dati aggiuntivi basati su prodotti, store o altre classi non di profilo. Una volta connessi, i dati di altre classi diventano disponibili come se fossero nativi dello schema Profilo.
 >
 >Per ulteriori informazioni, consulta la [documentazione dedicata](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
 
-Per impostazione predefinita, il Generatore di segmenti visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, compresi i campi per i quali i dati non sono presenti, attivare l&#39; **[!UICONTROL Show full XDM schema]** opzione dalle impostazioni.
+Per impostazione predefinita, il Generatore di segmenti visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, compresi i campi per i quali i dati non sono presenti, attivare l&#39;opzione **[!UICONTROL Show full XDM schema]** dalle impostazioni.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ Il simbolo alla fine di ciascun campo fornisce informazioni aggiuntive sull&#39;
 
 >[!NOTE]
 >
->La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la guida [utente di](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder (Generatore di segmenti).
+>La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consultare la [Guida utente di Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 Per creare una regola, attenetevi alla procedura seguente:
 
@@ -106,9 +106,9 @@ Per creare una regola, attenetevi alla procedura seguente:
 
    ![](assets/aep_audiences_malegender.png)
 
-   La popolazione stimata corrispondente al segmento viene automaticamente ricalcolata nella **[!UICONTROL Segment Properties]** sezione.
+   La popolazione stimata corrispondente al segmento viene automaticamente ricalcolata nella sezione **[!UICONTROL Segment Properties]**.
 
-1. Il **[!UICONTROL View Profiles]** pulsante consente di visualizzare un&#39;anteprima dei primi 20 record corrispondenti alla regola e di convalidare rapidamente il segmento.
+1. Il pulsante **[!UICONTROL View Profiles]** offre un&#39;anteprima dei primi 20 record corrispondenti alla regola, consentendo di convalidare rapidamente il segmento.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ Per farlo, esegui questi passaggi:
 
 1. Selezionare il secondo campo (ad esempio, il codice postale dell&#39;indirizzo di lavoro) che verrà confrontato con il primo campo.
 
-   Trascinatelo nell’area di lavoro centrale, nello stesso contenitore del primo campo, nella **[!UICONTROL Drop here to compare operands]** casella.
+   Trascinala nell&#39;area di lavoro centrale, nello stesso contenitore del primo campo, nella casella **[!UICONTROL Drop here to compare operands]**.
 
    ![](assets/aep_audiences_comparing_2.png)
 
