@@ -19,6 +19,6 @@ ht-degree: 16%
 
 I mapping di destinazione sono oggetti tecnici utilizzati da Campaign per inviare i messaggi. Contengono tutte le impostazioni tecniche necessarie per inviare le consegne (indirizzi, numeri di telefono, indicatori di consenso, identificatori aggiuntivi...).
 
-Gli amministratori possono accedere alle mappature di destinazione nel **[!UICONTROL Administration > Application settings > Target mappings]** menu.
+Gli amministratori possono accedere alle mappature di destinazione nel menu **[!UICONTROL Administration > Application settings > Target mappings]**.
 
 La creazione o la modifica della mappatura di destinazione è possibile per soddisfare esigenze specifiche. In ogni caso, la dimensione di targeting deve sempre corrispondere ai profili ( **[!UICONTROL nms:recipient]** tabella). Per ulteriori informazioni sulle dimensioni di targeting, consulta [questa pagina](../../automating/using/query.md#targeting-dimensions-and-resources).
