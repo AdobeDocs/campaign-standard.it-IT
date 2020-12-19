@@ -10,8 +10,8 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Consentono di migliorare le esperienze dei consumatori sfruttando l&#39;[Adobe E
 
 **I** tipi di pubblico sono creati dai primi  **segmenti** di creazione, che sono essenzialmente un insieme di regole basate praticamente su qualsiasi variabile (ad esempio, profilo, evento, dati multi-entità) all&#39;interno di un profilo cliente da Adobe Experience Platform per creare un target multidimensionale. I concetti globali sui servizi di Segmentazione e profilo cliente in tempo reale sono citati in questi documenti dedicati:
 
-* [Panoramica del profilo cliente in tempo reale](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/home.html)
+* [Panoramica del profilo cliente in tempo reale](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Panoramica del servizio di segmentazione](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 Dopo aver creato un segmento, puoi attivarlo come audience per una distribuzione nei flussi di lavoro [Campaign Standard](../../automating/using/aep-targeting-audiences.md). È inoltre possibile utilizzare dati contestuali dall&#39;Adobe Experience Platform per [personalizzare](../../automating/using/aep-personalizing-campaigns.md) e aggiungere contenuti dinamici alle campagne.
