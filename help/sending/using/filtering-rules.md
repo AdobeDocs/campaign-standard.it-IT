@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Le regole di filtro consentono di escludere una parte della destinazione del messaggio in base ai criteri definiti in una query, ad esempio profili o profili in quarantena già inviati da un certo numero di e-mail.
 
-## Regole di tipo filtro predefinite {#default-filtering-typology-rules}
+## Regole di tipologia filtro predefinite {#default-filtering-typology-rules}
 
 La tabella seguente fornisce informazioni sulle regole di filtraggio pronte all’uso, nonché sui relativi canali.
 
@@ -27,7 +27,7 @@ La tabella seguente fornisce informazioni sulle regole di filtraggio pronte all�
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione di destinazione senza un indirizzo specifico (indirizzo e-mail, indirizzo postale, ecc.) secondo il canale selezionato). |
 | **[!UICONTROL Address on denylist]** | Tutto | Esclude gli indirizzi che si trovano sul elenco Bloccati. |
-| **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al **[!UICONTROL Address]** campo popolazione di destinazione. |
+| **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al campo della popolazione di destinazione **[!UICONTROL Address]**. |
 | **[!UICONTROL Exclude mobile applications]** | Applicazione mobile | Sono escluse le iscrizioni all&#39;app che non corrispondono all&#39;applicazione mobile definita nel messaggio. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Sono escluse le iscrizioni all&#39;app che non corrispondono all&#39;applicazione mobile definita nel messaggio (modello in-app). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In-App | Esclude le iscrizioni alle app che non corrispondono all&#39;applicazione mobile definita nel messaggio (modello di trasmissione in-app) |
@@ -48,7 +48,7 @@ Questo per evitare di essere aggiunto al elenco Bloccati a causa di attività da
 >
 >Gli indirizzi e i nomi di dominio contenuti nell&#39;elenco di soppressione globale sono nascosti. Solo il numero di destinatari esclusi è indicato nei registri di analisi della consegna.
 
-## Creating a filtering rule {#creating-a-filtering-rule}
+## Creazione di una regola di filtro {#creating-a-filtering-rule}
 
 Potete creare regole di filtro personalizzate in base alle vostre esigenze. Ad esempio, potete filtrare il pubblico di destinazione delle newsletter in modo che gli utenti con meno di 18 anni non ricevano mai comunicazioni.
 
@@ -56,21 +56,21 @@ Per creare una regola di tipo filtro, effettuate le seguenti operazioni:
 
 1. Creare una nuova regola di tipologia. I passaggi principali per creare le regole di tipologia sono descritti in [questa sezione](../../sending/using/managing-typology-rules.md).
 
-1. Selezionate il tipo di **[!UICONTROL Filtering]** regola, quindi specificate il canale desiderato.
+1. Selezionare il tipo di regola **[!UICONTROL Filtering]**, quindi specificare il canale desiderato.
 
-1. Nella **[!UICONTROL Filtering criteria]** scheda, selezionate le iscrizioni nella **[!UICONTROL Subscription]** categoria.
+1. Nella scheda **[!UICONTROL Filtering criteria]**, selezionare le iscrizioni nella categoria **[!UICONTROL Subscription]**.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Nella **[!UICONTROL Explorer]** scheda dell&#39;editor di query, trascinare il **[!UICONTROL Subscriber]** nodo nella parte principale dello schermo.
+1. Nella scheda **[!UICONTROL Explorer]** dell&#39;editor di query, trascinare il nodo **[!UICONTROL Subscriber]** nella parte principale dello schermo.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Selezionate il **[!UICONTROL Age]** campo e definite le condizioni di filtraggio in modo che l’età degli abbonati sia pari o superiore a 18 anni.
+1. Selezionare il campo **[!UICONTROL Age]** e definire le condizioni di filtraggio in modo che l&#39;età degli abbonati sia pari o superiore a 18 anni.
 
    ![](assets/typology_create-rule-age.png)
 
-1. Nella **[!UICONTROL Typologies]** scheda, collegate questa regola a una tipologia.
+1. Nella scheda **[!UICONTROL Typologies]**, collegate questa regola a una tipologia.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,19 +82,19 @@ Ogni volta che questa regola viene utilizzata in un messaggio, gli abbonati che 
 
 ## Configurazione del contesto di targeting delle regole di filtro {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard consente di configurare le dimensioni **Targeting** e **Filtraggio** in base ai dati da utilizzare.
+Campaign Standard consente di configurare le dimensioni **Targeting** e **Filtraggio** da utilizzare in base ai dati di destinazione.
 
-A questo scopo, aprire le proprietà della regola di tipologia, quindi accedere alla **[!UICONTROL Advanced information]** sezione.
+A questo scopo, aprire le proprietà della regola di tipologia, quindi accedere alla sezione **[!UICONTROL Advanced information]**.
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. Ad esempio, se la regola è indirizzata a un&#39;applicazione mobile, **[!UICONTROL Filtering dimension]** è possibile modificarla in **[!UICONTROL Subscriptions to an application]**.
+Per impostazione predefinita, il filtraggio viene eseguito su **[!UICONTROL Profiles]**. Ad esempio, se la regola è indirizzata a un&#39;applicazione mobile, è possibile modificare **[!UICONTROL Filtering dimension]** in **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
+## Limitazione dell&#39;applicabilità di una regola di filtraggio {#restricting-the-applicability-of-a-filtering-rule}
 
 È possibile limitare l&#39;applicabilità di una regola di filtro in base al messaggio da inviare.
 
-1. Nella **[!UICONTROL Application criteria]** scheda della regola di tipologia, deselezionare l&#39;opzione **[!UICONTROL Apply the rule on all deliveries]** , abilitata per impostazione predefinita.
+1. Nella scheda **[!UICONTROL Application criteria]** della regola di tipologia, deselezionare l&#39;opzione **[!UICONTROL Apply the rule on all deliveries]**, abilitata per impostazione predefinita.
 
    ![](assets/typology_limit.png)
 
