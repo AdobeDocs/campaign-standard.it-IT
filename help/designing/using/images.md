@@ -9,13 +9,13 @@ topic-tags: editing-email-content
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Utilizzo delle immagini {#images}
+# Utilizzo di immagini {#images}
 
 ## Inserimento di immagini{#inserting-images}
 
@@ -24,17 +24,17 @@ Potete inserire immagini nei messaggi e-mail e nelle pagine di destinazione.
 A seconda della configurazione, sono disponibili i seguenti tipi di immagini:
 
 * Immagini locali
-* Immagini condivise da Adobe Experience Cloud - fate riferimento a [Utilizzo del servizio](../../integrating/using/working-with-campaign-and-assets-core-service.md) core Campaign and Assets / Assets On Demand
+* Immagini condivise da Adobe Experience Cloud - fare riferimento a [Utilizzo del servizio core Campaign e Assets](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
 * Immagini dinamiche da  Adobe Target - fare riferimento a [Utilizzo di Campaign e Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->Se scegliete di aggiungere un&#39;immagine direttamente modificando la versione HTML dell&#39;e-mail, non dovete richiamare i file **esterni in un tag** &lt;script> della pagina HTML. Questi file non verranno importati nel server Adobe Campaign .
+>Se si sceglie di aggiungere un&#39;immagine direttamente modificando la versione HTML del messaggio e-mail, non è necessario richiamare **file esterni in un tag &lt;script>** della pagina HTML. Questi file non verranno importati nel server Adobe Campaign .
 
-### Inserimento di immagini in un messaggio e-mail {#inserting-images-in-an-email}
+### Inserimento di immagini in un&#39;e-mail {#inserting-images-in-an-email}
 
 1. Aggiungere un componente struttura. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. All’interno di questo componente struttura, aggiungete un componente **[!UICONTROL Image]** contenuto.
+1. All&#39;interno di questo componente struttura, aggiungete un componente di contenuto **[!UICONTROL Image]**.
 
    ![](assets/des_insert_images_1.png)
 
@@ -47,17 +47,17 @@ A seconda della configurazione, sono disponibili i seguenti tipi di immagini:
 
    ![](assets/des_insert_images_3.png)
 
-## Impostazione delle proprietà immagine{#setting-up-image-properties}
+## Impostazione delle proprietà dell&#39;immagine{#setting-up-image-properties}
 
 Quando si seleziona un blocco che contiene un&#39;immagine, nella palette sono disponibili le seguenti proprietà:
 
-* **Abilita la personalizzazione** consente di personalizzare l’origine delle immagini. Consultate [Personalizzazione di un’origine](../../designing/using/personalization.md#personalizing-an-image-source)immagine.
-* **Titolo** immagine consente di definire un titolo per l’immagine.
-* **Il testo** Alt (e-mail) o **Didascalia** (pagina di destinazione) consente di definire la didascalia collegata all’immagine (corrisponde all’attributo **HTML alt** ).
-* Quando modificate un’e-mail, **Stile** consente di specificare la dimensione dell’immagine, lo sfondo e il bordo.
-* Quando modificate una pagina di destinazione, **Dimension** consente di specificare le dimensioni dell’immagine in pixel.
+* **Abilita** personalizzazione consente di personalizzare l’origine dell’immagine. Vedere [Personalizzazione di un&#39;origine immagine](../../designing/using/personalization.md#personalizing-an-image-source).
+* **I** titoli delle immagini definiscono un titolo per l’immagine.
+* **Il testo**  Alt (e-mail) o  **Didascalia**  (pagina di destinazione) consente di definire la didascalia collegata all’immagine (corrisponde all’attributo  **** altHTML).
+* Durante la modifica di un&#39;e-mail, **Style** consente di specificare la dimensione dell&#39;immagine, lo sfondo e il bordo.
+* Quando si modifica una pagina di destinazione, **Dimension** consente di specificare le dimensioni dell&#39;immagine in pixel.
 
-L’editor consente di lavorare con **tutti i tipi** di immagini i cui formati sono compatibili con i browser. Per essere compatibile con l’editor, le animazioni **di tipo** &quot;Flash&quot; devono essere inserite in una pagina HTML come segue:
+L&#39;editor consente di lavorare con **tutti i tipi di immagini** i cui formati sono compatibili con i browser. Per essere compatibile con l&#39;editor, le animazioni di tipo **&quot;Flash&quot;** devono essere inserite in una pagina HTML come segue:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
