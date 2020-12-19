@@ -26,9 +26,9 @@ Lo scopo del flusso di lavoro è quello di inviare un messaggio e-mail specifico
 
 Il flusso di lavoro è costituito dai seguenti elementi:
 
-* A [Scheduler activity](../../automating/using/segmentation.md) to specify the workflow&#39;s execution date.
-* A [Query](../../automating/using/query.md) activity to target profiles of people whose birthday and email address have been entered.
-* A [Segmentation](../../automating/using/segmentation.md) activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. I segmenti sono definiti in base ai seguenti parametri:
+* Un&#39;attività [Scheduler](../../automating/using/segmentation.md) per specificare la data di esecuzione del flusso di lavoro.
+* Un&#39;attività [Query](../../automating/using/query.md) per eseguire il targeting dei profili di persone il cui compleanno e indirizzo e-mail sono stati immessi.
+* Attività [Segmentazione](../../automating/using/segmentation.md) per creare 3 segmenti suddivisi in diverse transizioni in uscita: 18-25 anni, 26-32 anni e profili che hanno più di 32 anni. I segmenti sono definiti in base ai seguenti parametri:
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ Il flusso di lavoro è costituito dai seguenti elementi:
 
       ![](assets/wkf_segment_example_1.png)
 
-* Un&#39;attività di consegna [tramite e-](../../automating/using/email-delivery.md) mail per segmento.
+* Un&#39;attività [Email delivery](../../automating/using/email-delivery.md) per segmento.
