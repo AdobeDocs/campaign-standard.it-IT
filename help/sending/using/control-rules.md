@@ -25,7 +25,7 @@ Le regole di controllo consentono di verificare la validità e la qualità dei m
 
 ## Regole di controllo predefinite {#default-control-rules}
 
-Un insieme di regole predefinite garantisce i controlli standard. La tabella seguente fornisce informazioni su queste regole, nonché sui relativi canali e fasi [di](#control-rules-execution-phases)esecuzione.
+Un insieme di regole predefinite garantisce i controlli standard. La tabella seguente fornisce informazioni su queste regole, così come sui relativi canali e [fasi di esecuzione](#control-rules-execution-phases).
 
 | Etichetta | Canale | Fase di esecuzione | Descrizione |
 ---------|----------|---------|---------
@@ -50,7 +50,7 @@ Le regole di controllo possono essere applicate in diverse fasi del ciclo di vit
 
 * **Dopo il targeting**: L&#39;esecuzione dopo il targeting consente di conoscere il volume della destinazione per applicare la regola di controllo.
 
-   Ad esempio, la regola di controllo delle dimensioni **della prova di** controllo si applica dopo l&#39;area di targeting: questa regola impedisce la preparazione della personalizzazione dei messaggi in presenza di troppi destinatari di prova.
+   Ad esempio, la regola di controllo **Controlla dimensioni prova** si applica dopo l&#39;area di targeting: questa regola impedisce la preparazione della personalizzazione dei messaggi in presenza di troppi destinatari di prova.
 
 * **All&#39;inizio della personalizzazione**: Si applica quando il controllo riguarda l&#39;approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene effettuata durante la fase di analisi.
 
