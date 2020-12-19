@@ -24,9 +24,9 @@ Questo report descrive gli errori rigidi e morbidi riscontrati durante le conseg
 
 Ogni tabella è rappresentata da numeri e grafici di riepilogo. Puoi modificare la modalità di visualizzazione dei dettagli nelle rispettive impostazioni di visualizzazione.
 
-**La partizione** flop 5 elenca le cinque consegne con il numero più elevato di quarantena:
+**Le cinque consegne con il numero più elevato di** repartitioneelenca:
 
-La tabella Motivi **** rimbalzi contiene i dati disponibili per i tipi di errori che hanno causato dei rimbalzi per ogni consegna:
+La tabella **Bounce reasons** contiene i dati disponibili per i tipi di errori che hanno causato dei rimbalzi per ogni consegna:
 
 * **[!UICONTROL User unknown]**: Il tipo di errore generato quando una consegna viene inviata a un indirizzo e-mail non valido.
 * **[!UICONTROL Invalid domain]**: Tipo di errore generato quando un recapito viene inviato a un indirizzo e-mail il cui dominio è errato o non esiste più.
@@ -41,4 +41,4 @@ La tabella Motivi **** rimbalzi contiene i dati disponibili per i tipi di errori
 
 * **[!UICONTROL Refused]**: Tipo di errore generato quando un indirizzo viene rifiutato dal provider di servizi Internet (ISP). Ad esempio, quando una regola di sicurezza è stata applicata dal software anti-Spam.
 
-Nella tabella relativa alla partizione del **dominio** sono visualizzati i problemi generali riscontrati durante le consegne in base al dominio destinatario.
+Nella tabella **Partizione di dominio** vengono visualizzati i problemi complessivi riscontrati durante le consegne in base al dominio destinatario.
