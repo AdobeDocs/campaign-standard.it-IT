@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-analytics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di segu
  <thead> 
   <tr> 
    <th> Dimension<br /> </th> 
-   <th> Definizione<br /> </th> 
+   <th> Definition<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -35,7 +35,7 @@ La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di segu
   </tr> 
   <tr> 
    <td> Etichetta campagna<br /> </td> 
-   <td> Etichetta della campagna come visualizzata in Campaign<br /> </td> 
+   <td> Etichetta della campagna come mostrato in Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> ID consegna<br /> </td> 
@@ -43,7 +43,7 @@ La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di segu
   </tr> 
   <tr> 
    <td> Etichetta consegna<br /> </td> 
-   <td> Etichetta di consegna come visualizzata in Campaign<br /> </td> 
+   <td> Etichetta di consegna come mostrato in Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> ID consegna eseguito<br /> </td> 
@@ -61,8 +61,8 @@ La campagna **[!UICONTROL metrics]** trovata in Analytics è elencata di seguito
 <table> 
  <thead> 
   <tr> 
-   <th> Metrica<br /> </th> 
-   <th> Definizione<br /> </th> 
+   <th> Metric<br /> </th> 
+   <th> Definition<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -75,7 +75,7 @@ La campagna **[!UICONTROL metrics]** trovata in Analytics è elencata di seguito
    <td> Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Aperto<br /> </td> 
+   <td> Opened<br /> </td> 
    <td> Numero di volte in cui un messaggio è stato aperto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
@@ -83,8 +83,8 @@ La campagna **[!UICONTROL metrics]** trovata in Analytics è elencata di seguito
    <td> Numero totale di invii per la consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Totale importi<br /> </td> 
-   <td> Totale degli errori cumulati durante l'elaborazione del recapito e del ritorno automatico in relazione al numero totale di messaggi inviati.<br /> </td> 
+   <td> Totale rimbalzi<br /> </td> 
+   <td> Totale degli errori cumulati durante la consegna e l'elaborazione automatica del ritorno in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Apertura univoca<br /> </td> 
