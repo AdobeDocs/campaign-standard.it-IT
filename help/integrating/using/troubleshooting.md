@@ -23,7 +23,7 @@ In questo caso, accertatevi che i seguenti elementi siano configurati correttame
 
 * **Account esterni**
 
-   In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**, accertatevi che i seguenti account S3 esterni siano configurati correttamente. I server S3 menzionati dovrebbero essere stati configurati durante il provisioning.
+   In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**, assicurarsi che i seguenti account S3 esterni siano configurati correttamente. I server S3 menzionati dovrebbero essere stati configurati durante il provisioning.
 
    * **[!UICONTROL importSharedAudience]**: Account S3 dedicato all&#39;importazione di audience.
    * **[!UICONTROL exportSharedAudience]**: Account S3 dedicato all&#39;esportazione dei tipi di pubblico.
@@ -42,10 +42,10 @@ In questo caso, accertatevi che i seguenti elementi siano configurati correttame
 
    Se è selezionato l&#39;algoritmo di cifratura AES, è necessario impostare correttamente i seguenti campi aggiuntivi:
 
-   * **Chiave** di crittografia per AES
+   * **Chiave di crittografia** per AES
    * **Crittografia IV** (vettore di inizializzazione) per AES
-   * **Canale** (E-mail/SMS/Altro): Questo campo consente di decrittografare direttamente indirizzi e-mail e numeri SMS. Assicurarsi che la chiave di riconciliazione corrisponda all&#39;impostazione del campo **Canale** . Se si seleziona &quot;Altro&quot;, questa specifica decrittazione non verrà eseguita e la chiave di riconciliazione verrà utilizzata per riconciliare i dati.
+   * **Canale** (E-mail/SMS/Altro): Questo campo consente di decrittografare direttamente indirizzi e-mail e numeri SMS. Assicurarsi che la chiave di riconciliazione corrisponda all&#39;impostazione del campo **Canale**. Se si seleziona &quot;Altro&quot;, questa specifica decrittazione non verrà eseguita e la chiave di riconciliazione verrà utilizzata per riconciliare i dati.
 
-    pubblico di Experienci Cloud potrebbe non essere condiviso perché il flusso di lavoro tecnico è stato interrotto o messo in pausa. Per accedere al **[!UICONTROL Import shared audience]** flusso di lavoro, fai clic direttamente sull&#39; **[!UICONTROL Show ImportShared Audience workflow]** opzione nell&#39;origine dati.
+    pubblico di Experienci Cloud potrebbe non essere condiviso perché il flusso di lavoro tecnico è stato interrotto o messo in pausa. Per accedere al flusso di lavoro **[!UICONTROL Import shared audience]**, fai clic direttamente sull&#39;opzione **[!UICONTROL Show ImportShared Audience workflow]** nell&#39;origine dati.
 
 Può accadere che alcuni dati manchino durante la condivisione di un&#39;audience tramite il servizio di base Persone o durante l&#39;importazione di un&#39;audience. Vengono trasferiti solo i record per i quali l&#39;ID (&#39;ID visitatore&#39; o &#39;ID dichiarato&#39;) è stato riconciliato con la dimensione del profilo. Gli ID dai segmenti del servizio di base Persone che non sono riconosciuti da  Adobe Campaign non vengono importati.
