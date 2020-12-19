@@ -9,8 +9,8 @@ topic-tags: managing-subscriptions
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 53%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,10 +33,10 @@ Puoi gestire gli abbonamenti anche tramite l’API Adobe Campaign Standard. Per 
 
 Per creare un meccanismo di sottoscrizione, effettuate le operazioni seguenti:
 
-1. **Creazione di un servizio** : seguire i passaggi descritti [in questa sezione](../../audiences/using/creating-a-service.md) per creare un servizio di iscrizione
-1. **Condividi il collegamento** : scopri come promuovere e condividere il servizio [in questa pagina](../../audiences/using/promoting-a-service.md)
-1. **Monitorare le iscrizioni** : scopri diversi modi per monitorare le iscrizioni al servizio [in questa sezione](../../audiences/using/monitoring-subscriptions.md)
-1. **Conferma sottoscrizioni** - segui [questa esercitazione](../../audiences/using/confirming-subscription-to-a-service.md) per inviare un messaggio di conferma dell’iscrizione
+1. **Creare un servizio** : seguire i passaggi descritti  [in questa ](../../audiences/using/creating-a-service.md) sezione per creare un servizio di iscrizione
+1. **Condividi il collegamento** : scopri come promuovere e condividere il servizio  [in questa pagina](../../audiences/using/promoting-a-service.md)
+1. **Monitorare le iscrizioni** : scopri diversi modi per monitorare le iscrizioni al servizio  [in questa sezione](../../audiences/using/monitoring-subscriptions.md)
+1. **Conferma iscrizioni** : segui  [questa ](../../audiences/using/confirming-subscription-to-a-service.md) esercitazione per inviare un messaggio di conferma dell’iscrizione
 
 ## Risorse aggiuntive
 
