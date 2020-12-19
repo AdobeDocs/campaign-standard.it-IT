@@ -10,8 +10,8 @@ context-tags: delivery,schedule,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Per evitare di esaurire i destinatari, elimina gli indirizzi e-mail duplicati da
 
 Qui di seguito troverete informazioni sulla gestione dei duplicati e della quarantena.
 
-## Duplicati {#duplicates}
+## Duplica {#duplicates}
 
 La presenza di indirizzi e-mail duplicati può avere molteplici conseguenze:
 * Lo stesso messaggio viene inviato più di una volta. Anche se Campaign esegue una procedura di deduplicazione per impostazione predefinita prima dell&#39;invio, non c&#39;è nulla che fermi l&#39;invio dello stesso messaggio da parte di azioni diverse con lo stesso contenuto quando una destinazione viene divisa.
@@ -38,7 +38,7 @@ Oltre a questa procedura di opt-in, questa situazione porterà probabilmente gli
 
 Ci sono, comunque, casi in cui i duplicati tra le diverse partizioni sono normali. Ad esempio, quando si inviano dati per terze parti o entità aziendali diverse, è logico che la stessa persona sia un destinatario per diversi motivi. Tuttavia, raramente è normale trovare duplicati all&#39;interno della stessa partizione.
 
-## Quarantena {#quarantines}
+## Quarantenne {#quarantines}
 
  Adobe Campaign gestisce un elenco di indirizzi in quarantena. I destinatari i cui indirizzi sono posti in quarantena sono esclusi per impostazione predefinita durante l&#39;analisi del recapito: non sono mirati.
 
