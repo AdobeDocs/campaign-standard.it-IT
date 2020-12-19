@@ -22,10 +22,10 @@ Puoi creare flussi di lavoro per gestire interi processi nelle campagne e nei pr
 
 La schermata di modifica del flusso di lavoro è composta dai seguenti elementi:
 
-* La [palette](#palette), che fa riferimento alle attività disponibili.
-* L&#39; [area di lavoro](#workspace), in cui le attività sono configurate e organizzate.
-* La barra [](#action-bar)Azioni, composta da pulsanti che consentono di interagire con il flusso di lavoro e/o i relativi componenti.
-* Le azioni [](#quick-actions)rapide, visualizzate intorno a un&#39;attività selezionata, consentono di interagire con essa.
+* La [Palette](#palette), che fa riferimento alle attività disponibili.
+* [Workspace](#workspace), in cui le attività sono configurate e organizzate.
+* La [barra delle azioni](#action-bar), composta da pulsanti che consentono di interagire con il flusso di lavoro e/o i relativi componenti.
+* Le [Azioni rapide](#quick-actions), visualizzate intorno a un&#39;attività selezionata, consentono di interagire con essa.
 
 ![](assets/wkf_overview.png)
 
@@ -50,22 +50,22 @@ L’area di lavoro è l’area centrale nell’editor del flusso di lavoro. È i
 
 Per collegare due attività, spostate la fine della freccia dalla prima attività fino alla seguente fino alla connessione. Potete anche spostare l&#39;attività verso il punto della freccia dietro di essa per collegarla all&#39;attività precedente. Se spostate una delle attività, queste rimarranno collegate.
 
-Transizioni successive alle attività che elaborano i dati contenenti le popolazioni intermedie. Potete accedervi selezionando l&#39; **[!UICONTROL Keep interim results]** opzione nella **[!UICONTROL Execution]** sezione delle proprietà del flusso di lavoro.
+Transizioni successive alle attività che elaborano i dati contenenti le popolazioni intermedie. Potete accedervi selezionando l&#39;opzione **[!UICONTROL Keep interim results]** nella sezione **[!UICONTROL Execution]** delle proprietà del flusso di lavoro.
 
 >[!CAUTION]
 >
 >Questa opzione consuma molto spazio su disco ed è progettata per consentire la creazione di un flusso di lavoro, garantendone la corretta configurazione e il giusto comportamento. Lascia deselezionata questa opzione nelle istanze di produzione.
 
 
-Quando un&#39;attività è selezionata, intorno all&#39;attività vengono visualizzate azioni rapide che consentono di interagire con essa. Ad esempio, per configurare un&#39;attività, selezionatela e apritela utilizzando il ![](assets/edit_darkgrey-24px_table.png) pulsante nelle azioni rapide.
+Quando un&#39;attività è selezionata, intorno all&#39;attività vengono visualizzate azioni rapide che consentono di interagire con essa. Ad esempio, per configurare un&#39;attività, selezionatela e apritela utilizzando il pulsante ![](assets/edit_darkgrey-24px_table.png) nelle azioni rapide.
 
 Alcune funzioni sono abilitate solo nell’area di lavoro:
 
 * Seleziona diverse attività e transizioni disegnando una zona intorno a esse.
 * Premere **Ctrl** + clic con il pulsante sinistro del mouse per selezionare diverse attività e/o transizioni.
-* Premere **Invio** per visualizzare il dettaglio dell&#39;attività o della transizione attualmente selezionata.
+* Premere **Invio** per visualizzare i dettagli dell&#39;attività o della transizione attualmente selezionata.
 * Premere **Elimina** per eliminare l&#39;attività attualmente selezionata.
-* Premere **Ctrl + C** per copiare le attività selezionate, quindi **Ctrl + V** per incollarle nell&#39;area di lavoro.
+* Premere **Ctrl + C** per copiare le attività selezionate e **Ctrl + V** per incollarle nell&#39;area di lavoro.
 
 ![](assets/workflow_workspace.png)
 
@@ -119,7 +119,7 @@ Quando un&#39;attività è selezionata, intorno all&#39;attività vengono visual
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Disattiva l&#39;attività.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Impone l&#39;elaborazione immediata della selezione. Questo pulsante è disponibile solo per le attività <span class="uicontrol">Scheduler</span> e <span class="uicontrol">Wait</span> .
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Impone l&#39;elaborazione immediata della selezione. Questo pulsante è disponibile solo per le attività <span class="uicontrol">Scheduler</span> e <span class="uicontrol">Wait</span>.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Elimina le attività selezionate.
 
@@ -135,15 +135,15 @@ Una volta duplicata un&#39;attività, l&#39;intera configurazione viene mantenut
 
 Per duplicare un&#39;attività, effettuate le operazioni seguenti:
 
-1. Selezionate l&#39;attività, quindi fate clic sul **[!UICONTROL Copy selection]** pulsante delle azioni rapide.
+1. Selezionate l&#39;attività, quindi fate clic sul pulsante **[!UICONTROL Copy selection]** dalle azioni rapide.
 
-   È inoltre possibile utilizzare la scelta rapida da tastiera **Ctrl + C** .
+   È inoltre possibile utilizzare la scelta rapida da tastiera **Ctrl + C**.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Fare clic con il pulsante destro del mouse nell&#39;area di lavoro del flusso di lavoro di destinazione, quindi fare clic sul **[!UICONTROL Paste]** pulsante.
+1. Fare clic con il pulsante destro del mouse nell&#39;area di lavoro del flusso di lavoro di destinazione, quindi fare clic sul pulsante **[!UICONTROL Paste]**.
 
-   È inoltre possibile utilizzare la scelta rapida da tastiera **CTRL + V** .
+   È inoltre possibile utilizzare la scelta rapida da tastiera **CTRL + V**.
 
    ![](assets/wkf_copypaste2.png)
 
@@ -151,7 +151,7 @@ Per duplicare un&#39;attività, effettuate le operazioni seguenti:
 
 È inoltre possibile copiare e incollare più attività, per duplicare un intero flusso di lavoro.
 
-A tal fine, selezionate le attività disegnando una zona intorno a esse. quindi fate clic sul **[!UICONTROL Copy selection]** pulsante dalla barra delle azioni (oppure premete **Ctrl + C**). Potete quindi incollarli nella posizione desiderata.
+A tal fine, selezionate le attività disegnando una zona intorno a esse. quindi fare clic sul pulsante **[!UICONTROL Copy selection]** dalla barra delle azioni (oppure premere **Ctrl + C**). Potete quindi incollarli nella posizione desiderata.
 
 ![](assets/wkf_copypaste3.png)
 
