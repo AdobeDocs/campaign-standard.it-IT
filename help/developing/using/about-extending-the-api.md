@@ -21,7 +21,7 @@ In questo caso di utilizzo viene illustrata l&#39;esposizione di campi estesi pe
 
 >[!NOTE]
 >
->Per pubblicare l&#39;API, accertatevi di disporre del **[!UICONTROL Datamodel]** ruolo.
+>Per pubblicare l&#39;API, accertatevi di disporre del ruolo **[!UICONTROL Datamodel]**.
 
 I passaggi per esporre i campi estesi nell&#39;API pubblica sono i seguenti:
 
