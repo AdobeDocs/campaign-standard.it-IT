@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Puoi inserire un collegamento in qualsiasi elemento di pagina: immagine, parola,
 >
 >Le immagini seguenti mostrano come inserire un collegamento tramite [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) in un messaggio e-mail.
 
-1. Selezionate un elemento e fate clic **[!UICONTROL Insert link]** sulla barra degli strumenti contestuale.
+1. Selezionate un elemento e fate clic su **[!UICONTROL Insert link]** nella barra degli strumenti contestuale.
 
    ![](assets/des_insert_link.png)
 
@@ -59,13 +59,13 @@ Una volta creato il collegamento, puoi comunque modificarlo dal riquadro Imposta
 
 ![](assets/des_link_edit.png)
 
-Quando si modifica un&#39;e-mail con [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), è possibile accedere e modificare facilmente i collegamenti creati dalla tabella, elencando tutti gli URL inclusi nell&#39;e-mail. Questo elenco consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consultate [Informazioni sugli URL](#about-tracked-urls)tracciati.
+Quando si modifica un&#39;e-mail con [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), è possibile accedere e modificare facilmente i collegamenti creati dalla tabella, elencando tutti gli URL inclusi nell&#39;e-mail. Questo elenco consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consultate [Informazioni sugli URL tracciati](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->Impossibile modificare da questo elenco gli URL personalizzati, ad esempio URL **di pagina** Mirror o collegamento **Annulla iscrizione** . Tutti gli altri collegamenti sono modificabili.
+>Impossibile modificare da questo elenco gli URL personalizzati, ad esempio **URL pagina mirror** o **Annulla sottoscrizione**. Tutti gli altri collegamenti sono modificabili.
 
 **Argomenti correlati**:
 
@@ -75,15 +75,15 @@ Quando si modifica un&#39;e-mail con [Email Designer](../../designing/using/desi
 
 ## Informazioni sugli URL tracciati {#about-tracked-urls}
 
- Adobe Campaign consente di tenere traccia del comportamento dei destinatari che fanno clic su un URL incluso in un messaggio e-mail. For more on tracking, see [this section](../../sending/using/tracking-messages.md#about-tracking).
+ Adobe Campaign consente di tenere traccia del comportamento dei destinatari che fanno clic su un URL incluso in un messaggio e-mail. Per ulteriori informazioni sul tracciamento, consulta [questa sezione](../../sending/using/tracking-messages.md#about-tracking).
 
-L&#39; **[!UICONTROL Links]** icona nella barra delle azioni visualizza automaticamente l&#39;elenco di tutti gli URL del contenuto che verranno tracciati.
+L&#39;icona **[!UICONTROL Links]** nella barra delle azioni visualizza automaticamente l&#39;elenco di tutti gli URL del contenuto che verranno tracciati.
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->Il tracciamento è attivato per impostazione predefinita. Questa funzionalità è disponibile solo per le e-mail, se il tracciamento è stato attivato in  Adobe Campaign. For more on the tracking parameters, refer to [this section](../../administration/using/configuring-email-channel.md#tracking-parameters).
+>Il tracciamento è attivato per impostazione predefinita. Questa funzionalità è disponibile solo per le e-mail, se il tracciamento è stato attivato in  Adobe Campaign. Per ulteriori informazioni sui parametri di tracciamento, consultare [questa sezione](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 L&#39;URL, la categoria, l&#39;etichetta e il tipo di tracciamento di ciascun collegamento possono essere modificati da questo elenco. Per modificare un collegamento, fai clic sull’icona matita corrispondente.
 
@@ -102,14 +102,14 @@ Potete inoltre disattivare o attivare il tracciamento per ogni URL.
 
 >[!NOTE]
 >
->Per impostazione predefinita in  Adobe Campaign, tutti gli URL del contenuto vengono tracciati, ad eccezione dell’URL **della pagina** Mirror e del collegamento **Annulla iscrizione** .
+>Per impostazione predefinita in  Adobe Campaign, tutti gli URL di contenuto vengono tracciati tranne il collegamento **URL pagina speculare** e **Annulla sottoscrizione**.
 
-Potete raggruppare gli URL modificando il **[!UICONTROL Category]** campo, a seconda degli URL utilizzati nel messaggio. Queste categorie possono essere visualizzate come rapporti, ad esempio negli [URL e nei flussi](../../reporting/using/urls-and-click-streams.md)di clic.
+Potete raggruppare gli URL modificando il campo **[!UICONTROL Category]**, in base agli URL utilizzati nel messaggio. Queste categorie possono essere visualizzate come rapporti, ad esempio in [URL e fare clic su streams](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Durante la creazione di un rapporto, dalla **[!UICONTROL Components]** scheda selezionare **[!UICONTROL Dimension]** e scorrere l&#39;elenco verso il basso per accedere ai componenti di tracciamento. Ad esempio, trascinate **[!UICONTROL Tracking URL Category]** nell’area di lavoro per visualizzare i risultati in base alla categoria di tracciamento di ciascun URL su cui avete fatto clic.
+Durante la creazione di un report, dalla scheda **[!UICONTROL Components]** selezionare **[!UICONTROL Dimension]** e scorrere l&#39;elenco verso il basso per accedere ai componenti di tracciamento. Ad esempio, trascinare **[!UICONTROL Tracking URL Category]** nell&#39;area di lavoro per visualizzare i risultati in base alla categoria di tracciamento di ciascun URL selezionato.
 
 ![](assets/des_link_tracking_report.png)
 
-Per ulteriori informazioni sulla creazione di rapporti personalizzati, consulta [questa sezione](../../reporting/using/about-dynamic-reports.md).
+Per ulteriori informazioni sulla creazione di rapporti personalizzati, vedere [questa sezione](../../reporting/using/about-dynamic-reports.md).
