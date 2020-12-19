@@ -28,7 +28,7 @@ Questo funzionerà prima creando un account esterno collegato a  Adobe Analytics
 
 Questa integrazione è disponibile solo per le comunicazioni e-mail.
 
-È inoltre disponibile un&#39;integrazione tra  **Triggers** del servizio di base di Adobe Analytics e  Adobe Campaign. Consente di inviare e-mail personalizzate ai clienti come reazione a comportamenti specifici tracciati sul sito Web da  Adobe Analytics (entro 15 minuti).
+È inoltre disponibile un&#39;integrazione tra  servizio di base di Adobe Analytics **Triggers** e  Adobe Campaign. Consente di inviare e-mail personalizzate ai clienti come reazione a comportamenti specifici tracciati sul sito Web da  Adobe Analytics (entro 15 minuti).
 
 **Argomenti correlati:**
 
