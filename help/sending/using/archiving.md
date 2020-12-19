@@ -21,7 +21,7 @@ Puoi configurare  Adobe Campaign per conservare una copia dei messaggi e-mail in
 
 In particolare, se l&#39;azienda deve archiviare tutti i messaggi e-mail in uscita per garantire la conformità, è possibile abilitare questa funzionalità. Consente di inviare una copia nascosta esatta dei messaggi inviati corrispondenti a un indirizzo e-mail CCN (invisibile ai destinatari della consegna) che è necessario specificare.
 
-Una volta attivato, è necessario attivare CCN e-mail dall’ **[!UICONTROL Archive emails]** opzione nel modello di consegna e-mail.
+Una volta attivato, è necessario attivare CCN e-mail dall&#39;opzione **[!UICONTROL Archive emails]** nel modello di consegna e-mail.
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ Una volta attivato, è necessario attivare CCN e-mail dall’ **[!UICONTROL Arch
 
 ## Attivazione dell&#39;archiviazione delle e-mail {#activating-email-archiving}
 
-Una volta attivato, il CCN di e-mail viene attivato nel modello [di](../../start/using/marketing-activity-templates.md)e-mail tramite un&#39;opzione dedicata:
+Una volta attivato, il CCN e-mail viene attivato nel [modello e-mail](../../start/using/marketing-activity-templates.md), tramite un&#39;opzione dedicata:
 
-1. Andate a **Risorse** > **Modelli** > Modelli **di** consegna.
-1. Duplica il modello predefinito **[!UICONTROL Send via email]** .
+1. Vai a **Risorse** > **Modelli** > **Modelli di consegna**.
+1. Duplica il modello **[!UICONTROL Send via email]** fornito.
 1. Selezionate il modello duplicato.
-1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
-1. Expand the **[!UICONTROL Send]** section.
-1. Selezionare la **[!UICONTROL Archive emails]** casella per conservare una copia di tutti i messaggi inviati per ogni consegna basata su questo modello.
+1. Fate clic sul pulsante **[!UICONTROL Edit properties]** per modificare le proprietà del modello.
+1. Espandere la sezione **[!UICONTROL Send]**.
+1. Selezionare la casella **[!UICONTROL Archive emails]** per conservare una copia di tutti i messaggi inviati per ogni consegna basata su questo modello.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Se le e-mail inviate all&#39;indirizzo CCN vengono aperte e si fa clic su di esse, queste verranno prese in considerazione nell&#39;analisi **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dall&#39;analisi di invio, il che potrebbe causare errori di calcolo.
+>Se le e-mail inviate all&#39;indirizzo CCN vengono aperte e su cui si fa clic, queste verranno prese in considerazione nelle **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dell&#39;analisi di invio, il che potrebbe causare errori di calcolo.
