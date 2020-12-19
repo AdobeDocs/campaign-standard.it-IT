@@ -19,23 +19,23 @@ ht-degree: 2%
 
 ## Importazione di un&#39;audience {#importing-an-audience}
 
-L&#39;integrazione dei servizi di base per le persone consente di importare direttamente un&#39;audience in  Adobe Campaign tramite un flusso di lavoro tecnico per arricchire il database. Per ulteriori informazioni sulla condivisione di audience nel servizio di base Persone, consulta questa [documentazione](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+L&#39;integrazione dei servizi di base per le persone consente di importare direttamente un&#39;audience in  Adobe Campaign tramite un flusso di lavoro tecnico per arricchire il database. Per ulteriori informazioni sulla condivisione di audience nel servizio di base Persone, consultare la [documentazione](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
-L&#39;importazione di audience/segmenti dal servizio di base Persone in  Adobe Campaign può essere effettuata dal **[!UICONTROL Audiences]** menu solo dagli utenti connessi tramite IMS (autenticazione tramite  Adobe ID).
+L&#39;importazione di tipi di pubblico/segmenti dal servizio di base Persone in  Adobe Campaign può essere effettuata dal menu **[!UICONTROL Audiences]** solo dagli utenti connessi tramite IMS (autenticazione tramite  Adobe ID).
 
-1. Go to the **[!UICONTROL Audiences]** menu.
+1. Andate al menu **[!UICONTROL Audiences]**.
 1. Nella barra delle azioni, selezionate **[!UICONTROL Create]** da portare sullo schermo per creare un pubblico.
 1. Specifica l&#39;etichetta della nuova audience.
-1. Impostate l&#39;audience **[!UICONTROL Type]** per **[!UICONTROL Experience Cloud]** indicare che l&#39;audience creata è un&#39;audience importata dal servizio di base Persone.
-1. Dal **[!UICONTROL Name of the shared audience]** campo, selezionate il pubblico da importare. È possibile importare solo i segmenti. I dati granulari, incluse coppie chiave-valore, caratteristiche e regole, non sono supportati.
+1. Impostate l&#39;audience **[!UICONTROL Type]** su **[!UICONTROL Experience Cloud]** per indicare che l&#39;audience creata è un&#39;audience importata dal servizio di base Persone.
+1. Dal campo **[!UICONTROL Name of the shared audience]**, selezionate il pubblico da importare. È possibile importare solo i segmenti. I dati granulari, incluse coppie chiave-valore, caratteristiche e regole, non sono supportati.
 
    ![](assets/aam_import_audience.png)
 
-1. Selezionare la **[!UICONTROL Shared Data Source]** voce corrispondente.
+1. Selezionare la **[!UICONTROL Shared Data Source]** corrispondente.
 
-   Se l&#39;origine dati selezionata è configurata per l&#39;utilizzo di un algoritmo di cifratura, un&#39;ulteriore opzione vi offre la possibilità di **[!UICONTROL Force reconciliation with a profile]**. Selezionare questa opzione se il **[!UICONTROL Channel]** campo dell&#39;origine dati è impostato su E-mail o Mobile (SMS) e se si desidera sfruttare i dati del profilo.
+   Se l&#39;origine dati selezionata è configurata per l&#39;utilizzo di un algoritmo di cifratura, un&#39;ulteriore opzione vi offre la possibilità di **[!UICONTROL Force reconciliation with a profile]**. Selezionare questa opzione se il campo **[!UICONTROL Channel]** dell&#39;origine dati è impostato su E-mail o Mobile (SMS) e se si desidera sfruttare i dati del profilo.
 
-   Se non si seleziona l&#39; **[!UICONTROL Force reconciliation with a profile]** e se **[!UICONTROL Channel]** è impostato in Origine dati AMC su E-mail o Mobile (SMS), tutti gli ID dichiarati crittografati vengono decrittografati. Viene creato/aggiornato un pubblico di tipo **File** con un elenco di tutti gli indirizzi e-mail/numeri di telefono cellulare. In questo modo, durante l&#39;importazione di un&#39;audience condivisa tramite questa integrazione non viene perso alcun indirizzo e-mail/numero di telefono cellulare, anche se tale profilo non esiste in Campaign. Questo tipo di pubblico non può essere utilizzato direttamente perché deve essere riconciliato manualmente tramite i flussi di lavoro.
+   Se non si seleziona l&#39; **[!UICONTROL Force reconciliation with a profile]** e se **[!UICONTROL Channel]** è impostato nell&#39;origine dati AMC su E-mail o Mobile (SMS), tutti gli ID dichiarati crittografati vengono decrittografati. Viene creato/aggiornato un pubblico di tipo **File** con un elenco di tutti gli indirizzi e-mail/numeri di telefono cellulare. In questo modo, durante l&#39;importazione di un&#39;audience condivisa tramite questa integrazione non viene perso alcun indirizzo e-mail/numero di telefono cellulare, anche se tale profilo non esiste in Campaign. Questo tipo di pubblico non può essere utilizzato direttamente perché deve essere riconciliato manualmente tramite i flussi di lavoro.
 
 1. Confermate la creazione dell&#39;audience.
 
@@ -45,37 +45,37 @@ Il pubblico ora viene importato nel database Adobe Campaign . La sincronizzazion
 
 >[!NOTE]
 >
->Se importate audience da  Adobe Analytics a  Adobe Campaign, queste devono prima essere condivise in Servizio core Persone o  Audience Manager. Questo processo richiede 12-24 ore, che devono essere aggiunte alla sincronizzazione di 24-36 ore con Campaign. In questo caso specifico, il periodo di condivisione dell&#39;audience può essere fino a 60 ore. Per ulteriori informazioni  condivisione dell&#39;audience Adobe Analytics nel servizio Persone di base e in Audience Manager, consulta questa [documentazione](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Se importate audience da  Adobe Analytics a  Adobe Campaign, queste devono prima essere condivise in Servizio core Persone o  Audience Manager. Questo processo richiede 12-24 ore, che devono essere aggiunte alla sincronizzazione di 24-36 ore con Campaign. In questo caso specifico, il periodo di condivisione dell&#39;audience può essere fino a 60 ore. Per ulteriori informazioni  condivisione dell&#39;audience Adobe Analytics nel servizio di base Persone e in Audience Manager, consultare la [documentazione](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Esportazione di un&#39;audience {#exporting-an-audience}
 
-Un&#39;audience può essere esportata da  Adobe Campaign a  servizio di base Audience Manager o Persone utilizzando un flusso di lavoro e l&#39; **[!UICONTROL Save audience]** attività.
+Un&#39;audience può essere esportata da  Adobe Campaign a  servizio di base Audience Manager o Persone utilizzando un flusso di lavoro e l&#39;attività **[!UICONTROL Save audience]**.
 
 Può essere eseguito in un nuovo flusso di lavoro e solo dagli utenti connessi tramite IMS (autenticazione tramite  Adobe ID).
 
 1. Crea un nuovo flusso di lavoro da un programma, una campagna o un elenco di attività di marketing.
 1. Utilizzando le diverse attività disponibili, eseguite il targeting di un set di profili.
-1. Dopo il targeting, trascinate e rilasciate un&#39; **[!UICONTROL Save audience]** attività nel flusso di lavoro, quindi apritela.
+1. Dopo il targeting, trascinate e rilasciate un&#39;attività **[!UICONTROL Save audience]** nel flusso di lavoro, quindi apritela.
 1. Seleziona **[!UICONTROL Share in Adobe Experience Cloud]**.
 
    ![](assets/aam_save_audience_activity.png)
 
-1. Specificate l&#39;audience utilizzando il **[!UICONTROL Shared audience]** campo. Nella finestra che si apre, potete scegliere se selezionare un&#39;audience esistente o crearne una nuova:
+1. Specificate l&#39;audience utilizzando il campo **[!UICONTROL Shared audience]**. Nella finestra che si apre, potete scegliere se selezionare un&#39;audience esistente o crearne una nuova:
 
    * Se selezionate un&#39;audience esistente, solo i nuovi record verranno aggiunti all&#39;audience.
-   * Per esportare l&#39;elenco dei profili in una nuova audience, completa il **[!UICONTROL Segment name]** campo e fai clic **[!UICONTROL Create]** prima di selezionare l&#39;audience appena creata.
+   * Per esportare l&#39;elenco dei profili in una nuova audience, completa il campo **[!UICONTROL Segment name]**, quindi fai clic su **[!UICONTROL Create]** prima di selezionare l&#39;audience appena creata.
 
    ![](assets/aam_save_audience_segment_picker.png)
 
    Per essere riconciliati e scambiati, i record devono avere un Adobe Experience Cloud ID (&#39;ID visitatore&#39; o &#39;ID dichiarato&#39;). I record non riconciliati vengono ignorati durante l&#39;importazione e l&#39;esportazione di audience.
 
 1. Per terminare, fare clic sul segno di spunta situato in alto a destra nella schermata.
-1. Selezionare la **[!UICONTROL Shared Data Source]** voce corrispondente.
-1. Se lo desiderate, selezionate la **[!UICONTROL Generate an outbound transition]** casella per utilizzare i profili esportati. Vengono esportati solo i profili che è possibile riconciliare.
+1. Selezionare la **[!UICONTROL Shared Data Source]** corrispondente.
+1. Se lo desiderate, selezionate la casella **[!UICONTROL Generate an outbound transition]** per utilizzare i profili esportati. Vengono esportati solo i profili che è possibile riconciliare.
 1. Confermate la configurazione dell&#39;attività e salvate il flusso di lavoro.
 1. Avvia il flusso di lavoro per esportare il pubblico. La sincronizzazione tra  servizio di base Adobe Campaign e Persone può richiedere diverse ore
 
-La sincronizzazione tra  servizio di base Adobe Campaign e Persone richiede 24-36 ore. Dopo questo periodo, potrai trovare la nuova audience nel servizio di base Persone e riutilizzarla in altre soluzioni Adobe Experience Cloud. Per ulteriori informazioni sull&#39;utilizzo di un&#39;audience condivisa  Adobe Campaign nel servizio di base Persone del Adobe, consultate questa [documentazione](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
+La sincronizzazione tra  servizio di base Adobe Campaign e Persone richiede 24-36 ore. Dopo questo periodo, potrai trovare la nuova audience nel servizio di base Persone e riutilizzarla in altre soluzioni Adobe Experience Cloud. Per ulteriori informazioni sull&#39;utilizzo di un&#39;audience condivisa  Adobe Campaign nel servizio di base Persone del Adobe, consultare la [documentazione](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
 
 **Argomenti correlati:**
 
