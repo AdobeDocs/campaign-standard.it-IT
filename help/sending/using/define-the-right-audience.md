@@ -9,8 +9,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ La popolazione mirata è la chiave: create con attenzione gli elenchi, verificat
 
 Ulteriori informazioni sulle popolazioni di destinazione [in questa sezione](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-## Targeting dell&#39;audience giusta {#target-the-right-audience}
+## Esegue il targeting dell&#39;audience giusta {#target-the-right-audience}
 
 Quando il contenuto è pronto, è necessario definire con attenzione chi riceverà il messaggio.
 
@@ -29,30 +29,30 @@ Per garantire il successo della distribuzione, è necessario inviare i contenuti
 
 ## Mappature di destinazione {#target-mappings}
 
-Per impostazione predefinita, i modelli di consegna sono **Profili** di destinazione.  Adobe Campaign offre altre mappature di destinazione per le consegne, che potete modificare in base alle vostre esigenze.
+Per impostazione predefinita, i modelli di consegna sono **Profili**.  Adobe Campaign offre altre mappature di destinazione per le consegne, che potete modificare in base alle vostre esigenze.
 
-Tali mappature vengono presentate [in questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources).
+Questi mapping sono presentati [in questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 Potete anche creare e utilizzare una mappatura di destinazione personalizzata. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../administration/using/target-mappings-in-campaign.md).
 
 ## Dati esterni {#external-data}
 
-È possibile inviare i dati ai destinatari memorizzati in un file esterno anziché salvati nel database. A tal fine, un flusso di lavoro di progettazione caricherà i dati nel database da un file e creerà un&#39;audience associata.  Ulteriori informazioni [in questo caso](../../automating/using/use-case-calling-workflow.md)di utilizzo. Consultate anche [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md).
+È possibile inviare i dati ai destinatari memorizzati in un file esterno anziché salvati nel database. A tal fine, un flusso di lavoro di progettazione caricherà i dati nel database da un file e creerà un&#39;audience associata.  Ulteriori informazioni [in questo caso di utilizzo](../../automating/using/use-case-calling-workflow.md). Vedere anche [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Invia ai tuoi abbonati {#send-to-subscribers}
 
 Per inviare messaggi agli abbonati di una newsletter, potete indirizzare direttamente gli abbonati al servizio di informazioni corrispondente. Ulteriori informazioni [in questa sezione](../../audiences/using/about-subscriptions.md).
 
-**Suggerimento** : puoi creare un pubblico Elenco con cui indirizzare gli utenti iscritti alla newsletter utilizzando un flusso di lavoro. Potete quindi selezionare questa audience in una consegna. Per ulteriori informazioni, consultate [Creazione di audience](../../audiences/using/creating-audiences.md#creating-list-audiences)da elenco.
+**Suggerimento** : puoi creare un pubblico Elenco con cui indirizzare gli utenti iscritti alla newsletter utilizzando un flusso di lavoro. Potete quindi selezionare questa audience in una consegna. Per ulteriori informazioni, vedere [Creazione di audience di elenchi](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Prove, profili di prova e gruppi di controllo {#proofs-test-control-groups}
 
 Per verificare la consegna, utilizzate le prove prima di inviare alla destinazione principale.
-Accertarsi di aver selezionato i destinatari della prova appropriati, in quanto convalidano il modulo e il contenuto del messaggio. I passaggi per l&#39;invio delle prove sono illustrati [in questa sezione](../../sending/using/sending-proofs.md).
+Accertarsi di aver selezionato i destinatari della prova appropriati, in quanto convalidano il modulo e il contenuto del messaggio. I passaggi per l&#39;invio delle prove sono presentati [in questa sezione](../../sending/using/sending-proofs.md).
 
 Ulteriori informazioni sui profili di test [in questa sezione](../../audiences/using/managing-test-profiles.md).
 
-You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
+È possibile utilizzare [Gruppi di controllo](../../sending/using/control-group.md) per misurare l&#39;impatto delle campagne escludendo una parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
 
 ## Indirizzi di deduplicazione {#deduplicate-addresses}
 
@@ -64,4 +64,4 @@ You can use [Control groups](../../sending/using/control-group.md) to measure th
 
 Gli indirizzi di deduplicazione proteggono la reputazione dell&#39;invio e garantiscono una buona gestione della quarantena.
 
-Ulteriori informazioni [in questo caso](../../automating/using/deduplicating-data-imported-file.md)di utilizzo.
+Ulteriori informazioni [in questo caso di utilizzo](../../automating/using/deduplicating-data-imported-file.md).
