@@ -10,13 +10,13 @@ context-tags: workflow,use-case,query,delivery,scheduler
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Creazione di una consegna tramite e-mail ogni martedì{#creating-email-every-tuesday}
+# Creazione di un&#39;e-mail di consegna ogni martedì{#creating-email-every-tuesday}
 
 Puoi inviare un’e-mail ogni martedì a tutti i clienti per informare sulle offerte speciali.
 
@@ -26,7 +26,7 @@ Puoi inviare un’e-mail ogni martedì a tutti i clienti per informare sulle off
 
 ## Creazione di un’attività Scheduler{#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, trascinare un&#39;attività [Scheduler](../../automating/using/scheduler.md).
 1. Fai doppio clic sull’attività.
 1. Configura l’esecuzione della consegna.
 1. In **[!UICONTROL Execution frequency]**, seleziona **[!UICONTROL Weekly]**.
@@ -43,7 +43,7 @@ Puoi inviare un’e-mail ogni martedì a tutti i clienti per informare sulle off
 
 ## Creazione di un’attività Query{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, to select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, per selezionare i destinatari, trascinare un&#39;attività [Query](../../automating/using/query.md) e fare doppio clic su di essa.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, trascina e rilascia **[!UICONTROL Email]**.
 1. Seleziona **[!UICONTROL is not empty]** come operatore.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, aggiungi profili e seleziona **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL No]**.
@@ -53,7 +53,7 @@ Puoi inviare un’e-mail ogni martedì a tutti i clienti per informare sulle off
 
 ## Creazione di una consegna e-mail{#creating-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, trascina e rilascia un&#39;attività di consegna [tramite](../../automating/using/email-delivery.md) e-mail.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, trascinare e rilasciare un&#39;attività [Email delivery](../../automating/using/email-delivery.md).
 1. Fai clic sull’attività e seleziona ![](assets/edit_darkgrey-24px.png) per modificarla.
 1. Seleziona **[!UICONTROL Recurring email]** e fai clic su **[!UICONTROL Next]**.
 1. Seleziona un modello di e-mail e fai clic su **[!UICONTROL Next]**.
