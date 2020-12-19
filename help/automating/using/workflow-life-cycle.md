@@ -20,28 +20,28 @@ ht-degree: 3%
 
 Il ciclo di vita di un flusso di lavoro comprende tre passaggi principali, ciascuno dei quali è collegato a uno stato e a un colore:
 
-* **Modifica** (grigio)
+* **Modifica**  (grigia)
 
    Si tratta della fase iniziale di progettazione di un flusso di lavoro (vedere [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md#creating-a-workflow)). Il flusso di lavoro non è ancora gestito dal server e può essere modificato senza rischi.
 
-* **In corso** (blu)
+* **In corso**  (blu)
 
    Una volta completata la fase di progettazione iniziale, il flusso di lavoro può essere avviato e gestito dal server.
 
-* **Finito** (verde)
+* **Finito**  (verde)
 
    Un flusso di lavoro viene completato una volta che non sono più presenti attività in corso o quando un operatore ha interrotto in modo esplicito l&#39;istanza.
 
 Una volta avviato, un flusso di lavoro potrebbe presentare anche altri due stati:
 
-* **Avviso** (giallo)
+* **Avviso**  (giallo)
 
-   Impossibile completare il flusso di lavoro o è stato messo in pausa utilizzando i ![](assets/pause_darkgrey-24px.png) pulsanti o ![](assets/check_pause_darkgrey-24px.png) .
+   Impossibile completare il flusso di lavoro o è stato messo in pausa utilizzando i pulsanti ![](assets/pause_darkgrey-24px.png) o ![](assets/check_pause_darkgrey-24px.png).
 
-* **Erroneo** (rosso)
+* **Erroneo**  (rosso)
 
-   Errore durante l&#39;esecuzione di un flusso di lavoro. Il flusso di lavoro è stato arrestato e l&#39;utente deve eseguire un&#39;azione. Per ulteriori informazioni su questo errore, utilizzare il ![](assets/printpreview_darkgrey-24px.png) pulsante per accedere al registro del flusso di lavoro (fare riferimento a [Monitoraggio](../../automating/using/monitoring-workflow-execution.md)).
+   Errore durante l&#39;esecuzione di un flusso di lavoro. Il flusso di lavoro è stato arrestato e l&#39;utente deve eseguire un&#39;azione. Per ulteriori informazioni su questo errore, utilizzare il pulsante ![](assets/printpreview_darkgrey-24px.png) per accedere al registro del flusso di lavoro (fare riferimento a [Monitoring](../../automating/using/monitoring-workflow-execution.md)).
 
-L&#39;elenco delle attività di marketing consente di visualizzare tutti i flussi di lavoro e i relativi stati. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
+L&#39;elenco delle attività di marketing consente di visualizzare tutti i flussi di lavoro e i relativi stati. Per ulteriori informazioni, vedere [Gestione delle attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)
