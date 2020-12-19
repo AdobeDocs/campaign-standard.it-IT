@@ -10,8 +10,8 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Questo rapporto contiene i dati sulle prestazioni per ciascun dominio rappresent
 
 ![](assets/delivery_reports_6.png)
 
-La tabella Statistiche **di** trasmissione contiene i dati disponibili per eventuali errori riscontrati in ogni dominio, ad esempio:
+La tabella **Statistiche di trasmissione** contiene i dati disponibili per possibili errori riscontrati in ogni dominio, ad esempio:
 
 * **Elaborato/inviato**: Numero di e-mail inviate.
 * **Consegnato**: Numero di e-mail distribuite.
@@ -30,7 +30,7 @@ La tabella Statistiche **di** trasmissione contiene i dati disponibili per event
 * **Rimbalzo** rigido: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
 * **Soft bounce**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
 
-La seconda tabella, Statistiche **di** tracciamento, contiene i dati disponibili per la reattività del destinatario alla consegna, ad esempio:
+La seconda tabella, **Statistiche di tracciamento**, contiene i dati disponibili per la reattività del destinatario da distribuire, ad esempio:
 
 * **Consegnato**: Numero di e-mail distribuite
 * **Apri**: Il numero di volte in cui un messaggio è stato aperto in una consegna.
