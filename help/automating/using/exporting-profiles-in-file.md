@@ -22,11 +22,11 @@ L’esempio seguente illustra come configurare un’attività **[!UICONTROL Extr
 
 Lo scopo di questo flusso di lavoro è esportare un elenco di profili sotto forma di un file esterno per poter utilizzare i dati al di fuori di Adobe Campaign.
 
-1. Drag and drop an [Extract file](../../automating/using/extract-file.md) activity into your workflow and place it after the [Query](../../automating/using/query.md) activity.
+1. Trascinare un&#39;attività [Estrai file](../../automating/using/extract-file.md) nel flusso di lavoro e posizionarla dopo l&#39;attività [Query](../../automating/using/query.md).
 
    In questo esempio, la query viene eseguita su tutti i profili di età compresa tra i 18 e i 30 anni.
 
-1. Open the **[!UICONTROL Extract file]** activity to edit it.
+1. Aprite l&#39;attività **[!UICONTROL Extract file]** per modificarla.
 1. Denomina il file di output.
 1. Aggiungi colonne di output.
 
@@ -45,7 +45,7 @@ Lo scopo di questo flusso di lavoro è esportare un elenco di profili sotto form
       ![](assets/wkf_data_export9.png)
 
 1. Conferma l’attività.
-1. Drag and drop a [Transfer file](../../automating/using/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
+1. Trascinare e rilasciare un&#39;attività [Trasferisci file](../../automating/using/transfer-file.md) dopo l&#39;attività **[!UICONTROL Extract file]** per recuperare il file di estrazione su un account esterno.
 1. Apri l’attività e scegli l’azione **[!UICONTROL File upload]**.
 
    ![](assets/wkf_data_export11.png)
