@@ -25,21 +25,21 @@ La sezione seguente illustra le procedure ottimali e consigliate per una configu
 
 Diversi fattori possono influire direttamente sulle prestazioni del server e rallentare la piattaforma:
 
-* Numero e tipo di elementi di personalizzazione: la personalizzazione nelle e-mail estrae i dati dal database per ciascun destinatario. Se sono presenti molti elementi di personalizzazione, questo aumenta la quantità di dati necessari per preparare la consegna.  Learn more about email personalization in [this section](../../designing/using/personalization.md)
+* Numero e tipo di elementi di personalizzazione: la personalizzazione nelle e-mail estrae i dati dal database per ciascun destinatario. Se sono presenti molti elementi di personalizzazione, questo aumenta la quantità di dati necessari per preparare la consegna.  Ulteriori informazioni sulla personalizzazione delle e-mail in [questa sezione](../../designing/using/personalization.md)
 
 * Caricamento del server: quando Campaign gestisce contemporaneamente diverse attività, può rallentare le prestazioni. Il server deve coordinare tutti i dati in entrata e in uscita per tutte le consegne, in modo da garantire che i dati siano corretti e puntuali.
 
    **SUGGERIMENTO** : per evitare questo problema, coordinare la programmazione delle consegne con gli altri membri del team al fine di garantire le migliori prestazioni.
 
-* Esecuzione [del](../../automating/using/about-workflow-execution.md)flusso di lavoro: il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Seguite le linee guida elencate [in questa pagina](../../automating/using/monitoring-workflow-execution.md). Ulteriori informazioni sono disponibili nella sezione Best practice [per il](../../automating/using/best-practices-workflows.md) flusso di lavoro.
+* Esecuzione del flusso di lavoro [](../../automating/using/about-workflow-execution.md): il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Seguire le linee guida elencate [in questa pagina](../../automating/using/monitoring-workflow-execution.md). Ulteriori informazioni sono disponibili nella sezione [procedure ottimali del flusso di lavoro](../../automating/using/best-practices-workflows.md).
 
-* Puoi sfruttare le funzionalità [del Pannello di controllo](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html) campagna per monitorare la tua piattaforma, utilizzando le funzionalità di monitoraggio [delle](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html) prestazioni.
+* È possibile sfruttare le funzionalità del [Pannello di controllo campagna](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html) per monitorare la piattaforma, utilizzando le funzionalità di [monitoraggio delle prestazioni](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html).
 
 ## Verifica della configurazione di rete {#network-config}
 
 Per ottimizzare la distribuzione quando si gestiscono e-mail in grandi volumi ed evitare errori per uno spammer, assicurarsi di disporre di una configurazione di rete legittima che non tenti di nascondere l&#39;identità del server.
 
-**Suggerimento**:  Utilizza un indirizzo mittente trasparente corrispondente al sito Web del tuo marchio. Ad esempio, la società TravelAgency gestisce la catena alberghiera di Valentino. Possiede il dominio valentino.com per il suo sito web. Per promuovere il Valentino hotel a Parigi, utilizza il sottodominio paris.valentino.com. Pertanto, un indirizzo mittente rilevante può essere hotel@paris.valentino.com.
+**Suggerimento**: Utilizza un indirizzo mittente trasparente corrispondente al sito Web del tuo marchio. Ad esempio, la società TravelAgency gestisce la catena alberghiera di Valentino. Possiede il dominio valentino.com per il suo sito web. Per promuovere il Valentino hotel a Parigi, utilizza il sottodominio paris.valentino.com. Pertanto, un indirizzo mittente rilevante può essere hotel@paris.valentino.com.
 
 ## Gestione del recapito messaggi {#deliverability-management}
 
@@ -49,7 +49,7 @@ Per raggiungere la casella in entrata dei destinatari senza rimbalzare o contras
 
    * Si riferisce ai fattori di un&#39;e-mail che ne determinano la capacità di essere accettata dal server del destinatario. I provider di servizi Internet (Internet Service Provider) escludono i messaggi e-mail che identificano come SPAM o impediscono il download di immagini. Se determinano che un determinato dominio sta inviando troppe e-mail, verrà impostato un limite al numero di e-mail che verranno accettate da quel mittente.
 
-   * Quando controlli la tua e-mail per verificare la recapito, vuoi concentrarti su quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Per informazioni più approfondite sull&#39;argomento, consulta [questa sezione](../../sending/using/about-deliverability.md).
+   * Quando controlli la tua e-mail per verificare la recapito, vuoi concentrarti su quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Per informazioni più approfondite su questo argomento, consultare [questa sezione](../../sending/using/about-deliverability.md).
 
 * Quando avviate una nuova piattaforma, applicate le raccomandazioni dettagliate [in questa pagina](../../sending/using/starting-new-platform.md).
 
@@ -71,10 +71,10 @@ Quando iniziate a inviare e-mail su una nuova piattaforma, potete utilizzare un 
 
 * La gestione delle scorte contribuirà anche a ridurre i costi di invio di SMS escludendo numeri di telefono errati dalle consegne.
 
-## Doppio meccanismo di consenso {#double-opt-in}
+## Doppio meccanismo di opt-in {#double-opt-in}
 
 Per evitare di inviare messaggi a indirizzi non validi, limitare le comunicazioni non corrette e migliorare la reputazione del mittente,  Adobe consiglia di implementare un meccanismo di doppio consenso per la conferma post-iscrizione. Questo aiuta a garantire che il destinatario si sia iscritto intenzionalmente.
 
-I dettagli per l&#39;attuazione di questo meccanismo sono descritti in [questa sezione](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+I dettagli per l&#39;implementazione di questo meccanismo sono descritti in [questa sezione](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Per saperne di più, [iniziate a usare profili e audience](../../audiences/using/get-started-profiles-and-audiences.md).
+Ulteriori informazioni in [Guida introduttiva a profili e audience](../../audiences/using/get-started-profiles-and-audiences.md).
