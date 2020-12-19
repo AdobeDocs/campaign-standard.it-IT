@@ -10,8 +10,8 @@ context-tags: dedup,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Il flusso di lavoro è costituito da:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* A file that contains a list of profiles is imported using a [Load file](../../automating/using/load-file.md) activity. In questo esempio, il file importato è in formato .csv e contiene 10 profili:
+* Un file che contiene un elenco di profili viene importato utilizzando un&#39;attività [Carica file](../../automating/using/load-file.md). In questo esempio, il file importato è in formato .csv e contiene 10 profili:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -44,13 +44,13 @@ Il flusso di lavoro è costituito da:
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* Un&#39;attività di [deduplicazione](../../automating/using/deduplication.md) . La deduplicazione viene eseguita direttamente dopo l’importazione del file e prima dell’inserimento dei dati nel database. Dovrebbe pertanto basarsi sulla **[!UICONTROL Temporary resource]** dell’attività **[!UICONTROL Load file]**.
+* Attività [Deduplicazione](../../automating/using/deduplication.md). La deduplicazione viene eseguita direttamente dopo l’importazione del file e prima dell’inserimento dei dati nel database. Dovrebbe pertanto basarsi sulla **[!UICONTROL Temporary resource]** dell’attività **[!UICONTROL Load file]**.
 
    Per questo esempio, desideriamo conservare una singola voce per indirizzo e-mail univoco contenuto nel file. L’identificazione dei duplicati viene quindi eseguita nella colonna **e-mail** della risorsa temporanea. Tuttavia, due indirizzi e-mail vengono visualizzati due volte nel file. Due righe saranno pertanto considerate come duplicati.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* An [Update data](../../automating/using/update-data.md) activity allows you to insert the data kept from the deduplication process into the database. È solo quando i dati vengono aggiornati che i dati importati vengono identificati come appartenenti alla dimensione di profilo.
+* Un&#39;attività [Aggiorna dati](../../automating/using/update-data.md) consente di inserire nel database i dati conservati dal processo di deduplicazione. È solo quando i dati vengono aggiornati che i dati importati vengono identificati come appartenenti alla dimensione di profilo.
 
    A questo punto, desideriamo **[!UICONTROL Insert only]** i profili che non esistono già nel database. A tal fine, utilizzeremo la colonna e-mail del file e il campo e-mail dalla dimensione di **Profilo** come chiave di riconciliazione.
 
