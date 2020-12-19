@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Aggiornamento degli attributi di un’unità geografica {#managing-geographical-units}
 
-1. Eseguire una richiesta di GET sulla risorsa **geoUnitBase** per recuperare l&#39;unità geografica PKey.
+1. Eseguite una richiesta di GET sulla risorsa **geoUnitBase** per recuperare l&#39;unità geografica PKey.
 1. Eseguite una richiesta PATCH sull&#39;unità geografica, con gli attributi da aggiornare nel payload.
 
 <br/>
