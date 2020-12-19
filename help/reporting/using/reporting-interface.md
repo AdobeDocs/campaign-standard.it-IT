@@ -9,8 +9,8 @@ topic-tags: about-reporting
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,14 +21,14 @@ La barra degli strumenti superiore consente, ad esempio, di modificare, salvare 
 
 ![](assets/dynamic_report_toolbar.png)
 
-Utilizzate la scheda **Progetto** per:
+Utilizzare la scheda **Progetto** per:
 
 * **Apri...**: Apre un report o un modello creato in precedenza.
 * **Salva con nome...**: Duplica i modelli per modificarli.
 * **Aggiorna progetto**: Aggiorna il rapporto in base ai nuovi dati e alle modifiche apportate ai filtri.
 * **Scarica CSV**: Esporta i rapporti in un file CSV.
 
-La scheda **Modifica** consente di:
+La scheda **Edit** consente di:
 
 * **Annulla**: Annulla l’ultima azione sul dashboard.
 * **Cancella tutto**: Elimina ogni pannello del dashboard.
@@ -75,7 +75,7 @@ La barra degli strumenti si trova sopra l’area di lavoro. Composto da schede d
 
 ![](assets/tab_project.png)
 
-Utilizzate la scheda **Progetto** per:
+Utilizzare la scheda **Progetto** per:
 
 * **Apri...**: Apre un report o un modello creato in precedenza.
 * **Salva con nome...**: Duplica i modelli per modificarli.
@@ -83,16 +83,16 @@ Utilizzate la scheda **Progetto** per:
 * **Scarica CSV**: Esporta i rapporti in un file CSV.
 * **[!UICONTROL Print]**: Stampa il rapporto.
 
-### Modifica, scheda {#edit-tab}
+### Scheda Modifica {#edit-tab}
 
 ![](assets/tab_edit.png)
 
-La scheda **Modifica** consente di:
+La scheda **Edit** consente di:
 
 * **Annulla**: Annulla l’ultima azione sul dashboard.
 * **Cancella tutto**: Elimina ogni pannello del dashboard.
 
-### Inserisci, scheda {#insert-tab}
+### Inserisci scheda {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -103,30 +103,30 @@ La scheda **Inserisci** consente di personalizzare i rapporti aggiungendo grafic
 * **Nuova riga**: Aggiunge un nuovo grafico a linee al dashboard.
 * **Nuova barra**: Aggiunge un nuovo grafico a barre al dashboard.
 
-### Condividi, scheda {#share-tab}
+### Scheda Condividi {#share-tab}
 
 ![](assets/tab_share_1.png)
 
-La **[!UICONTROL Share]** scheda consente di inviare i rapporti con  utenti Adobe Campaign tramite e-mail una tantum o ricorrenti. Gli utenti destinatari riceveranno quindi un&#39;e-mail con il rapporto allegato.
+La scheda **[!UICONTROL Share]** consente di inviare i rapporti con  utenti Adobe Campaign tramite e-mail una tantum o ricorrenti. Gli utenti destinatari riceveranno quindi un&#39;e-mail con il rapporto allegato.
 
 * **[!UICONTROL Send report now]**: Invia il rapporto a un elenco di destinatari selezionati tramite un messaggio e-mail di una tantum.
 
-   1. Nella **[!UICONTROL Send report]** finestra, aggiungete una descrizione se necessario.
+   1. Nella finestra **[!UICONTROL Send report]**, aggiungete una descrizione se necessario.
 
       ![](assets/tab_share_4.png)
 
    1. Selezionate i destinatari del messaggio e-mail facendo clic sul campo e selezionandoli nell’elenco a discesa o digitando i loro indirizzi e-mail.
-   1. Selezionate **[!UICONTROL Show scheduling options]** se desiderate inviare e-mail ricorrenti. A tale scopo, è possibile selezionare **[!UICONTROL Send Report on schedule]** nella **[!UICONTROL Share]** scheda.
+   1. Selezionare **[!UICONTROL Show scheduling options]** per inviare e-mail ricorrenti. A tale scopo, è anche possibile selezionare **[!UICONTROL Send Report on schedule]** nella scheda **[!UICONTROL Share]**.
    1. Fai clic su **[!UICONTROL Send now]**. I destinatari riceveranno quindi un&#39;e-mail con il rapporto allegato.
 
 * **[!UICONTROL Send report on schedule]**: Pianificare il rapporto e inviare e-mail ricorrenti ai destinatari.
 
-   1. Nella **[!UICONTROL Send report]** finestra, aggiungete una descrizione se necessario.
+   1. Nella finestra **[!UICONTROL Send report]**, aggiungete una descrizione se necessario.
    1. Selezionate i destinatari del messaggio e-mail facendo clic sul campo e selezionandoli nell’elenco a discesa o digitando i loro indirizzi e-mail.
 
       ![](assets/tab_share_5.png)
 
-   1. Seleziona la data di inizio e di fine per configurare la validità dell’e-mail nei **[!UICONTROL Starting on]** campi e **[!UICONTROL Ending on]** .
+   1. Selezionate la data di inizio e di fine per configurare la validità delle e-mail nei campi **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]**.
    1. Scegliete con quale frequenza verrà inviata l’e-mail.
 
       ![](assets/tab_share_2.png)
@@ -135,13 +135,13 @@ La **[!UICONTROL Share]** scheda consente di inviare i rapporti con  utenti Adob
 
 * **[!UICONTROL Scheduled reports]**: Trova e configura tutti i rapporti pianificati.
 
-   1. Nella **[!UICONTROL Scheduled reports]** finestra, trova tutti i tuoi rapporti ricorrenti inviati.
+   1. Nella finestra **[!UICONTROL Scheduled reports]**, trova tutti i tuoi rapporti ricorrenti inviati.
 
       ![](assets/tab_share_3.png)
 
-   1. Per eliminare uno dei rapporti pianificati, seleziona il rapporto pianificato che desideri eliminare e fai clic su **[!UICONTROL Delete the section]**.
+   1. Se devi eliminare uno dei rapporti pianificati, seleziona il rapporto pianificato che desideri eliminare, quindi fai clic su **[!UICONTROL Delete the section]**.
    1. Per configurare o controllare i rapporti pianificati, fai clic direttamente sul rapporto da modificare.
-   1. Viene visualizzata la **[!UICONTROL Edit scheduled report]** finestra, in cui potete modificare i destinatari o la frequenza dell’e-mail, se necessario.
+   1. Viene visualizzata la finestra **[!UICONTROL Edit scheduled report]**, che consente di modificare i destinatari o la frequenza dell&#39;e-mail, se necessario.
 
 Gli utenti destinatari riceveranno quindi un&#39;e-mail con il rapporto allegato direttamente nelle loro caselle di posta elettronica. Gli utenti possono sempre decidere di non ricevere più e-mail ricorrenti utilizzando un collegamento di annullamento dell&#39;iscrizione disponibile in ogni e-mail ricorrente.
 
