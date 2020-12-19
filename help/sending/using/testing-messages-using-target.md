@@ -215,7 +215,7 @@ I passaggi principali per questo caso di utilizzo sono i seguenti:
 
    ![](assets/substitution_uc5.png)
 
-1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
+1. Selezionare la scheda **[!UICONTROL Profile substitutions]**, quindi fare clic su **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
