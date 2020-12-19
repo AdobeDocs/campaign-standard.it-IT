@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-ms-dynamics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,13 @@ Seguite i dettagli del diagramma di flusso e del diagramma di flusso riportati d
 
 Dettagli diagramma di flusso (mappatura ai passaggi precedenti):
 
-* **Passaggio 1** - Si presume che si sia già in procinto di acquistare una licenza per Microsoft Dynamics 365 per le vendite e per  Adobe Campaign Standard.
+* **Passaggio 1** - Si suppone che si disponga già, o si stia effettuando, di una licenza per Microsoft Dynamics 365 per le vendite e per  Adobe Campaign Standard.
 
-* **Fase 2** - L&#39;offerta standard di integrazione è gratuita per tutti i clienti; tuttavia, possono essere applicati costi aggiuntivi in base alle esigenze (vedere [Garanzie e limiti](../../integrating/using/ms-dynamics-365-integration-guardrails.md)di integrazione). Per sfruttare l&#39;integrazione, sarà necessario firmare un nuovo ordine di vendita.
+* **Fase 2** - L&#39;offerta di integrazione standard è gratuita per tutti i clienti; tuttavia, possono essere applicati costi aggiuntivi in base alle esigenze (vedere  [Garanzie e limiti](../../integrating/using/ms-dynamics-365-integration-guardrails.md) di integrazione). Per sfruttare l&#39;integrazione, sarà necessario firmare un nuovo ordine di vendita.
 
-* **Passaggio 3** - Completa i passaggi preliminari all&#39;integrazione per Dynamics 365 e Campaign. Consultate [Configurare questa integrazione](#configure-this-integration).
+* **Passaggio 3** - Completa i passaggi preliminari all&#39;integrazione per Dynamics 365 e Campaign. Vedere [Configurare questa integrazione](#configure-this-integration).
 
-* **Passaggi 4-7** - Il team di configurazione del Adobe  collaborerà con voi durante il processo di onboarding.
+* **Passaggi 4-7**  - Il team di configurazione del Adobe  collaborerà con voi durante il processo di onboarding.
 
 ## Configurare questa integrazione {#configure-this-integration}
 
@@ -43,9 +43,9 @@ Per questa integrazione è necessario configurare tre sistemi:  Adobe Campaign S
 >
 >I passaggi descritti negli articoli di seguito guidano l&#39;utente nella creazione di integrazioni/registrazioni che richiedono l&#39;assegnazione di autorizzazioni e/o l&#39;accesso dell&#39;amministratore.  È responsabilità dell&#39;utente assicurarsi che questi passaggi siano conformi alle politiche aziendali prima di eseguire e di eseguirli con attenzione.
 
-In  ADOBE CAMPAIGN, è necessario configurare l&#39;accesso alle API e una nuova integrazione per lo strumento di integrazione. A tal fine, consultate [questo articolo](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
+In  ADOBE CAMPAIGN, è necessario configurare l&#39;accesso alle API e una nuova integrazione per lo strumento di integrazione. A tal fine, fare riferimento a [questo articolo](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
 
-In MICROSOFT DYNAMICS 365, è necessario creare una nuova registrazione dell&#39;app e consentire a un utente dell&#39;applicazione di utilizzare l&#39;integrazione.  Per configurare Microsoft Dynamics 365 per questa integrazione, consultare [questo articolo](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
+In MICROSOFT DYNAMICS 365, è necessario creare una nuova registrazione dell&#39;app e consentire a un utente dell&#39;applicazione di utilizzare l&#39;integrazione.  Per configurare Microsoft Dynamics 365 per questa integrazione, fare riferimento a [questo articolo](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
 Dovrete collaborare con il team di configurazione del Adobe  per configurare la configurazione per i flussi di dati di ingresso, uscita e rinuncia.
 
@@ -60,7 +60,7 @@ Per qualsiasi problema relativo ai flussi di dati di integrazione, accertatevi d
 
 * **ID** processo ES: Fornito durante il processo di onboarding
 
-* **Titolo** processo: Integrazione Adobe Campaign Standard Dynamics 365 / 
+* **Titolo** processo: Integrazione Adobe Campaign Standard Dynamics 365 /
 
 * **Descrizione** problema: Descrizione del problema
 
