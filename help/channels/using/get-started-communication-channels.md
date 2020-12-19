@@ -9,8 +9,8 @@ topic-tags: about-communication-channels
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ Leggi tutto:
 * [Guida introduttiva ai messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md)
 * [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md)
 * [Pubblicazione di un evento transazionale](../../channels/using/publishing-transactional-event.md)
-* [Modifica di un messaggio transattivo](../../channels/using/editing-transactional-message.md)
+* [Modifica di un messaggio transazionale](../../channels/using/editing-transactional-message.md)
 * [Pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md)
 * [Notifiche push transazionali](../../channels/using/transactional-push-notifications.md)
 * [Messaggi di follow-up](../../channels/using/follow-up-messages.md)
