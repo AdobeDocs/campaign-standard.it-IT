@@ -18,9 +18,9 @@ ht-degree: 33%
 
 # Aggiornamento del database con dati esterni {#update-database-file}
 
-The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. Lo scopo del presente flusso di lavoro è quello di aggiungere o aggiornare i profili del database Adobe Campaign sulla base dei dati recuperati dal file.
+L&#39;esempio seguente mostra la configurazione di un&#39;attività **[!UICONTROL Update data]** dopo un&#39;attività **[!UICONTROL Load file]**. Lo scopo del presente flusso di lavoro è quello di aggiungere o aggiornare i profili del database Adobe Campaign sulla base dei dati recuperati dal file.
 
-In questo esempio, la chiave di riconciliazione utilizzata è l&#39;indirizzo **e-** mail. Il file caricato nell&#39;attività del file [](../../automating/using/load-file.md) Load è un file in formato **.txt** contenente i dati di esempio seguenti:
+In questo esempio, la chiave di riconciliazione utilizzata è l&#39; **indirizzo e-mail**. Il file caricato nell&#39;attività [Load file](../../automating/using/load-file.md) è un file di formato **.txt** contenente i dati di esempio seguenti:
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-The [Update data](../../automating/using/update-data.md) activity is configured as follows:
+L&#39;attività [Aggiorna dati](../../automating/using/update-data.md) è configurata come segue:
 
 ![](assets/deduplication_example2_writer1.png)
 
