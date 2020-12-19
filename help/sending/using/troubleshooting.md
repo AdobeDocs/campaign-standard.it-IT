@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 1%
 
 Si è verificato un problema di recapito? Puoi trovare la soluzione qui.
 
-## Stesso messaggio di errore per un ISP {#same-error-for-an-isp}
+## Stesso messaggio di errore per un provider Internet {#same-error-for-an-isp}
 
 **Perché ricevo sempre lo stesso messaggio di errore per un particolare ISP?**
 
 Se si riceve sempre lo stesso messaggio di errore per un ISP, l&#39;e-mail o l&#39;IP potrebbe essere stato rilevato come difettoso dal provider di servizi Internet. Eseguite le seguenti raccomandazioni:
-* Verificate se ricevete una percentuale elevata di errori collegati a indirizzi e-mail inesistenti (errori **utente sconosciuti** ).
+* Verificate se ricevete una percentuale elevata di errori collegati a indirizzi e-mail inesistenti (**Utente sconosciuto** errori).
 * Aggiornare i moduli di iscrizione per rilevare eventuali errori nei nomi di dominio immessi (ad esempio: gmaul.com o yaho.com).
 * Se noti degli errori che indicano che i messaggi sono dichiarati come spam o che i messaggi sono costantemente bloccati, prova ad escludere i destinatari che non hanno aperto o fatto clic in uno dei tuoi messaggi negli ultimi 12 mesi dalla destinazione.
 
@@ -44,14 +44,14 @@ Se il problema persiste, contattate i servizi commerciali o di recapito o  suppo
 
    I motivi possibili sono 10: non definito, utente sconosciuto, dominio non valido, indirizzo elenco Bloccati, rifiutato, errore ignorato, non raggiungibile, account disabilitato, cassetta postale piena, non connesso.
 
-   For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
+   Per ulteriori informazioni, vedere [Gestione della quarantena](../../sending/using/understanding-quarantine-management.md).
 
 ## Rimozione dal elenco Bloccati {#removing-from-denylist}
 
 * **Uno dei miei destinatari è stato aggiunto al elenco Bloccati per errore. Come posso rimuoverli dal elenco Bloccati in modo da poter iniziare a inviare nuovamente i messaggi?**
 
    * Vai a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * Nei dettagli del record corrispondente, impostare il valore del **[!UICONTROL Status]** campo su **[!UICONTROL Valid]**.
+   * Nei dettagli del record corrispondente, impostare il valore del campo **[!UICONTROL Status]** su **[!UICONTROL Valid]**.
    * Salvare il record.
 
 * **Come posso sapere se uno dei miei IP è elenco Bloccati? Come posso rimuovere i miei IP da un elenco Bloccati?**
