@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 5%
 >
 >A seconda dei dati scambiati, l&#39;importazione di audience in  Adobe Campaign potrebbe essere soggetta a restrizioni legali.
 
- Adobe Campaign consente di scambiare e condividere audience/segmenti con le diverse applicazioni Adobe Experience Cloud. L’integrazione **Adobe Campaign** con il servizio **di base** Persone (noto anche come servizio **di base** Profili e pubblico) o Adobe Audience Manager consente di:
+ Adobe Campaign consente di scambiare e condividere audience/segmenti con le diverse applicazioni Adobe Experience Cloud. L&#39;integrazione di **Adobe Campaign** con **Servizio di base Persone** (noto anche come **Servizio di base Profili e pubblico**) o Adobe Audience Manager consente di:
 
-* Importa audience/segmenti da diverse soluzioni Adobe Experience Cloud in  Adobe Campaign. Le audience possono essere importate dal **[!UICONTROL Audiences]** menu in  Adobe Campaign.
-* Esporta audience come audience/segmenti condivisi. Queste audience possono essere utilizzate nelle diverse soluzioni Adobe Experience Cloud che utilizzate. Le audience possono essere esportate dopo le attività di targeting in un flusso di lavoro, utilizzando l&#39; **[!UICONTROL Save audience]** attività.
+* Importa audience/segmenti da diverse soluzioni Adobe Experience Cloud in  Adobe Campaign. Le audience possono essere importate dal menu **[!UICONTROL Audiences]** in  Adobe Campaign.
+* Esporta audience come audience/segmenti condivisi. Queste audience possono essere utilizzate nelle diverse soluzioni Adobe Experience Cloud che utilizzate. Le audience possono essere esportate dopo le attività di targeting in un flusso di lavoro, utilizzando l&#39;attività **[!UICONTROL Save audience]**.
 
 L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
-* **ID**visitatore: questo tipo di ID consente di riconciliare i visitatori di Adobe Experience Cloud con  profili Adobe Campaign. Non appena una connessione viene abilitata tramite  Adobe IMS, viene attivato il servizio ID visitatori di Marketing Cloud, che sostituisce il cookie permanente utilizzato da  Adobe Campaign. Questo consente di identificare un visitatore e quindi di collegarlo a un profilo.
+* **ID** visitatore: questo tipo di ID consente di riconciliare i visitatori di Adobe Experience Cloud con  profili Adobe Campaign. Non appena una connessione viene abilitata tramite  Adobe IMS, viene attivato il servizio ID visitatori di Marketing Cloud, che sostituisce il cookie permanente utilizzato da  Adobe Campaign. Questo consente di identificare un visitatore e quindi di collegarlo a un profilo.
    <br>Un ID visitatore viene collegato a un profilo non appena il profilo fa clic in un messaggio e-mail inviato tramite  Adobe Campaign:
    * Se il profilo ha già un ID visitatore, i dati del browser del profilo consentono  Adobe Campaign di recuperare e collegare automaticamente il profilo all’ID visitatore.
    * Se non viene trovato alcun ID visitatore, viene creato un nuovo ID. Questo ID visitatore viene memorizzato nei registri di tracciamento del profilo.
 
    L’ID verrà quindi riconosciuto dalle altre applicazioni Adobe Marketing Cloud con lo stesso CNAME.
 
-* **ID**dichiarato: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con gli elementi del database Adobe Campaign . È rappresentata in  Adobe Campaign come chiave di riconciliazione predefinita. Durante lo scambio di dati, gli identificatori del database Adobe Campaign  vengono crittografati. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell&#39;importazione o nell&#39;esportazione.
+* **ID** dichiarato: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con gli elementi del database Adobe Campaign . È rappresentata in  Adobe Campaign come chiave di riconciliazione predefinita. Durante lo scambio di dati, gli identificatori del database Adobe Campaign  vengono crittografati. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell&#39;importazione o nell&#39;esportazione.
    <br>Questa integrazione supporta ID dichiarati regolari, ID dichiarati con hash e ID dichiarati crittografati.
 
    >[!CAUTION]
