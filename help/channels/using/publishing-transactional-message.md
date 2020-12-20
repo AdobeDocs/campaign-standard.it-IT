@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -99,8 +99,8 @@ Per accedere ai rapporti relativi al messaggio sulle transazioni, usa il pulsant
 ![](assets/message-center_13.png)
 
 **Argomenti correlati**:
-* [Modifica di un messaggio transattivo](../../channels/using/editing-transactional-message.md)
-* [Verifica di un messaggio sulle transazioni](../../channels/using/testing-transactional-message.md)
+* [Modifica di un messaggio transazionale](../../channels/using/editing-transactional-message.md)
+* [Verifica di un messaggio transazionale](../../channels/using/testing-transactional-message.md)
 * [Integrare l&#39;attivazione dell&#39;evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Sospensione di una pubblicazione di un messaggio sulle transazioni {#suspending-a-transactional-message-publication}
