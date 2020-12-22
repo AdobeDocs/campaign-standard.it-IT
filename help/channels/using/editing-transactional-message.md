@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 59%
+source-wordcount: '653'
+ht-degree: 30%
 
 ---
 
@@ -89,125 +89,125 @@ Ad esempio, desiderate inviare una notifica agli utenti del vostro sito Web che 
 
    Puoi verificare che i campi di personalizzazione corrispondano alle informazioni inserite nel profilo di test. Per ulteriori informazioni, vedere [Definizione di un profilo di test specifico](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
-## Utilizzo degli elenchi di prodotti in un messaggio sulle transazioni {#using-product-listings-in-a-transactional-message}
+<!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
-Quando modificate il contenuto di un&#39;e-mail transazionale, potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un messaggio e-mail di abbandono del carrello potete includere un elenco di tutti i prodotti inclusi nel carrello quando gli utenti hanno lasciato il sito Web, con un&#39;immagine, il prezzo e un collegamento a ciascun prodotto.
+When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
 >[!IMPORTANT]
 >
->Gli elenchi dei prodotti sono disponibili solo per il canale e-mail, quando si modifica il contenuto delle e-mail transazionali tramite l&#39;interfaccia [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Product listings are only available for the email channel, when editing transactional email content through the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
-Per aggiungere un elenco di prodotti abbandonati in un messaggio sulle transazioni, segui i passaggi indicati di seguito.
+To add a list of abandoned products in a transactional message, follow the steps below.
 
-È inoltre possibile guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) per illustrare i passaggi necessari per configurare gli elenchi di prodotti in un messaggio e-mail transazionale.
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >
->Adobe Campaign non supporta elenchi di prodotti nidificati, il che significa che non puoi includere un elenco di prodotti all’interno di un altro.
+>Adobe Campaign does not support nested product listings, meaning that you cannot include a product listing inside another one.
 
-### Definizione di un elenco di prodotti {#defining-a-product-listing}
+### Defining a product listing {#defining-a-product-listing}
 
-Prima di poter utilizzare un elenco di prodotti in un messaggio sulle transazioni, è necessario definire a livello di evento l’elenco dei prodotti e i campi per ciascun prodotto da visualizzare. Per ulteriori informazioni, consulta [Definizione delle raccolte di dati](../../channels/using/configuring-transactional-event.md#defining-data-collections).
+Before being able to use a product listing in a transactional message, you need to define at the event level the list of products and the fields for each product of the list you want to display. For more on this, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. Nel messaggio sulle transazioni, fai clic sul blocco **[!UICONTROL Content]** per modificare il contenuto dell’e-mail.
-1. Trascina e rilascia un componente struttura all’interno dell’area di lavoro. Per ulteriori informazioni, vedere [Definizione della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. In the transactional message, click the **[!UICONTROL Content]** block to modify the email content.
+1. Drag and drop a structure component to the workspace. For more on this, see [Defining the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Ad esempio, seleziona un componente struttura a una colonna e aggiungi un componente testo, un componente immagine e un componente pulsante. Per ulteriori informazioni, vedere [Utilizzo dei componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
+   For example, select a one-column structure component and add a text component, an image component and a button component. For more on this, see [Using content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
-1. Seleziona il componente struttura appena creato, quindi fai clic sull’icona **[!UICONTROL Enable product listing]** nella barra degli strumenti contestuale.
+1. Select the structure component you just created and click the **[!UICONTROL Enable product listing]** icon from the contextual toolbar.
 
    ![](assets/message-center_loop_create.png)
 
-   Il componente struttura viene evidenziato con una cornice arancione e le impostazioni **[!UICONTROL Product listing]** sono visualizzate nella palette a sinistra.
+   The structure component is highlighted with an orange frame and the **[!UICONTROL Product listing]** settings are displayed in the left palette.
 
    ![](assets/message-center_loop_palette.png)
 
-1. Seleziona la modalità di visualizzazione degli elementi della raccolta:
+1. Select how the elements of the collection will be displayed:
 
-   * **[!UICONTROL Row]**: orizzontale, ovvero ogni elemento posto sulla riga inferiore al precedente.
-   * **[!UICONTROL Column]**: verticale, ovvero ciascun elemento posto accanto all’altro sulla medesima riga.
+    * **[!UICONTROL Row]**: horizontally, meaning each element on one row under the other.
+    * **[!UICONTROL Column]**: vertically, meaning each element next to the other on the same row.
 
    >[!NOTE]
    >
-   >L’opzione **[!UICONTROL Column]** è disponibile solo quando è in uso un componente struttura a più colonne ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** e **[!UICONTROL 4:4 column]** ). Quando modifichi l’elenco dei prodotti, compila solo la prima colonna: le altre non saranno prese in considerazione. Per ulteriori informazioni sulla selezione dei componenti struttura, vedere [Definizione della struttura dell&#39;e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >The **[!UICONTROL Column]** option is only available when using a multicolumn structure component ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** and **[!UICONTROL 4:4 column]** ). When editing the product listing, only fill in the first column: the other columns will not be taken into account. For more on selecting structure components, see [Defining the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. Seleziona la raccolta dati creata durante la configurazione dell’evento correlato al messaggio sulle transazioni, disponibile nel nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Select the data collection you created when configuring the event related to the transactional message. You can find it under the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node.
 
    ![](assets/message-center_loop_selection.png)
 
-   Per ulteriori informazioni sulla configurazione dell’evento, consulta [Definizione delle raccolte di dati](../../channels/using/configuring-transactional-event.md#defining-data-collections).
+   For more on configuring the event, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. Utilizza l’elenco a discesa **[!UICONTROL First item]** per selezionare l’elemento che avvierà l’elenco visualizzato nel messaggio e-mail.
+1. Use the **[!UICONTROL First item]** drop-down list to select which element will start the list displayed in the email.
 
-   Ad esempio, se scegli 2, il primo elemento della raccolta non verrà visualizzato nell’e-mail. L’elenco dei prodotti partirà dal secondo elemento.
+   For example, if you select 2, the first item of the collection will not be displayed in the email. The product listing will start on the second item.
 
-1. Seleziona il numero massimo di elementi da visualizzare nell’elenco.
+1. Select the maximum number of items to display in the list.
 
    >[!NOTE]
    >
-   >Se desideri che gli elementi dell’elenco siano visualizzati in verticale ( **[!UICONTROL Column]** ), il numero massimo è limitato in base al componente struttura selezionato (2, 3 o 4 colonne). Per ulteriori informazioni sulla selezione dei componenti struttura, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >If you want the elements of your list to be displayed vertically ( **[!UICONTROL Column]** ), the maximum number of items is limited according to the selected structure component (2, 3 or 4 columns). For more on selecting structure components, see [Editing the email structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Popolamento dell’elenco dei prodotti {#populating-the-product-listing}
+### Populating the product listing {#populating-the-product-listing}
 
-Per visualizzare un elenco dei prodotti provenienti dall’evento collegato al messaggio e-mail sulle transazioni, attieniti alla procedura seguente.
+To display a list of products coming from the event linked to the transactional email, follow the steps below.
 
-Per ulteriori informazioni sulla creazione di una raccolta e dei campi correlati durante la configurazione dell’evento, consulta [Definizione delle raccolte di dati](../../channels/using/configuring-transactional-event.md#defining-data-collections).
+For more on creating a collection and related fields when configuring the event, see [Defining data collections](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. Seleziona il componente immagine inserito, fai clic su **[!UICONTROL Enable personalization]** e sulla matita nel riquadro Impostazioni.
+1. Select the image component you inserted, select **[!UICONTROL Enable personalization]** and click the pencil in the Settings pane.
 
    ![](assets/message-center_loop_image.png)
 
-1. Seleziona **[!UICONTROL Add personalization field]** nella finestra **[!UICONTROL Image source URL]** che si apre.
+1. Select **[!UICONTROL Add personalization field]** in the **[!UICONTROL Image source URL]** window that opens.
 
-   Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, apri il nodo corrispondente alla raccolta creata, in questo caso **[!UICONTROL Product list]**, quindi fai clic sul campo immagine definito (qui **[!UICONTROL Product image]**). Fai clic su **[!UICONTROL Save]**.
+   From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the image field that you defined (here **[!UICONTROL Product image]** ). Click **[!UICONTROL Save]**.
 
    ![](assets/message-center_loop_product-image.png)
 
-   Il campo di personalizzazione selezionato viene ora visualizzato nel riquadro Impostazioni.
+   The personalization field that you selected is now displayed in the Settings pane.
 
-1. Nella posizione desiderata, seleziona **[!UICONTROL Insert personalization field]** dalla barra degli strumenti contestuale.
+1. At the desired position, select **[!UICONTROL Insert personalization field]** from the contextual toolbar.
 
    ![](assets/message-center_loop_product.png)
 
-1. Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, apri il nodo corrispondente alla raccolta creata (qui **[!UICONTROL Product list]**) e seleziona il campo creato (qui **[!UICONTROL Product name]**). Fai clic su **[!UICONTROL Confirm]**.
+1. From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the field that you created (here **[!UICONTROL Product name]** ). Click **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_loop_product_node.png)
 
-   Il campo di personalizzazione selezionato viene ora visualizzato nella posizione desiderata all’interno del contenuto dell’e-mail.
+   The personalization field that you selected is now displayed at the desired position in the email content.
 
-1. Procedi similmente per l’inserimento del prezzo.
-1. Seleziona una parte di testo e fai clic su **[!UICONTROL Insert link]** nella barra degli strumenti contestuale.
+1. Proceed similarly to insert the price.
+1. Select some text and select **[!UICONTROL Insert link]** from the contextual toolbar.
 
    ![](assets/message-center_loop_link_insert.png)
 
-1. Seleziona **[!UICONTROL Add personalization field]** nella finestra **[!UICONTROL Insert link]** che si apre.
+1. Select **[!UICONTROL Add personalization field]** in the **[!UICONTROL Insert link]** window that opens.
 
-   Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**, apri il nodo corrispondente alla raccolta creata, in questo caso **[!UICONTROL Product list]**, quindi fai clic sul campo URL (qui **[!UICONTROL Product URL]**). Fai clic su **[!UICONTROL Save]**.
+   From the **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** node, open the node corresponding to the collection that you created (here **[!UICONTROL Product list]** ) and select the URL field that you created (here **[!UICONTROL Product URL]** ). Click **[!UICONTROL Save]**.
 
    >[!IMPORTANT]
    >
-   >Per motivi di sicurezza, accertati di inserire il campo di personalizzazione all’interno di un collegamento che inizia con un nome di dominio statico appropriato.
+   >For security reasons, make sure you insert the personalization field inside a link starting with a proper static domain name.
 
    ![](assets/message-center_loop_link_select.png)
 
-   Il campo di personalizzazione selezionato viene ora visualizzato nel riquadro Impostazioni.
+   The personalization field that you selected is now displayed in the Settings pane.
 
-1. Scegli il componente struttura sul quale viene applicato l’elenco di prodotti, quindi fai clic su **[!UICONTROL Show fallback]** per definire un contenuto predefinito.
+1. Select the structure component on which the product listing is applied and select **[!UICONTROL Show fallback]** to define a default content.
 
    ![](assets/message-center_loop_fallback_show.png)
 
-1. Trascina uno o più componenti di contenuto e modificali in base alle tue esigenze.
+1. Drag one or more content components and edit them as needed.
 
    ![](assets/message-center_loop_fallback.png)
 
-   Il contenuto di fallback verrà visualizzato se la raccolta è vuota al momento di attivare l’evento, ad esempio se un cliente ha il carrello vuoto.
+   The fallback content will be displayed if the collection is empty when the event is triggered, for example if a customer has nothing in his cart.
 
-1. Nel riquadro Impostazioni, modifica gli stili per l’elenco dei prodotti. Per ulteriori informazioni, vedere [Gestione degli stili e-mail](../../designing/using/styles.md).
-1. Visualizza l’anteprima del messaggio e-mail utilizzando un profilo di prova collegato all’evento sulle transazioni rilevante per il quale hai definito i dati della raccolta. Ad esempio, aggiungi le seguenti informazioni nella sezione **[!UICONTROL Event data]** relativa al profilo di test da utilizzare:
+1. From the Settings pane, edit the styles for the product listing. For more on this, see [Managing email styles](../../designing/using/styles.md).
+1. Preview the email using a test profile linked to the relevant transactional event and for which you defined collection data. For example, add the following information in the **[!UICONTROL Event data]** section for the test profile you want to use:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Per approfondimenti sulla definizione di un profilo di test in un messaggio sulle transazioni, consulta [questa sezione](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
 ## Specificità dei messaggi transazionali basati su profilo {#profile-transactional-message-specificities}
 
@@ -216,8 +216,6 @@ Puoi inviare messaggi transazionali basati sui profili di marketing dei clienti,
 * Per ulteriori informazioni sulle differenze tra i messaggi transazionali basati sugli eventi e quelli basati sui profili, vedere [questa sezione](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
 * I passaggi di configurazione per creare un messaggio transazionale basato sul profilo sono descritti in [questa sezione](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
-
-<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
 I passaggi per creare, modificare e personalizzare un messaggio transazionale di profilo sono principalmente gli stessi del messaggio transazionale di un evento.
 
