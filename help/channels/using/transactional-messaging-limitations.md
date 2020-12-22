@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 68%
@@ -64,7 +64,7 @@ La modalità di personalizzazione del contenuto di un messaggio dipende dal tipo
 
 ### Elenco prodotti
 
-Gli elenchi dei prodotti sono disponibili solo nei messaggi di posta elettronica **transazionali**. Vedi [Utilizzo degli elenchi dei prodotti in un messaggio transazionale](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Gli elenchi dei prodotti sono disponibili solo nei messaggi di posta elettronica **transazionali**. Vedi [Utilizzo degli elenchi dei prodotti in un messaggio transazionale](../../designing/using/using-product-listings.md).
 
 ## Branding {#permissions-and-branding}
 
