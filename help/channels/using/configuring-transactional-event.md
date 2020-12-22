@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1672'
+ht-degree: 7%
 
 ---
 
@@ -68,7 +68,7 @@ La procedura per aggiungere e modificare i campi è la stessa utilizzata per [ri
 
 Potete aggiungere al contenuto dell&#39;evento una raccolta di elementi, ciascuno stesso elemento con diversi attributi.
 
-Questa raccolta può essere utilizzata in un messaggio e-mail transazionale per aggiungere [elenchi di prodotti](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) al contenuto del messaggio, ad esempio un elenco di prodotti - con il prezzo, il numero di riferimento, la quantità, ecc. per ogni prodotto dell&#39;elenco.
+Questa raccolta può essere utilizzata in un messaggio e-mail transazionale per aggiungere [elenchi di prodotti](../../designing/using/using-product-listings.md) al contenuto del messaggio, ad esempio un elenco di prodotti - con il prezzo, il numero di riferimento, la quantità, ecc. per ogni prodotto dell&#39;elenco.
 
 1. Nella sezione **[!UICONTROL Collections]**, fare clic sul pulsante **[!UICONTROL Create element]**.
 
@@ -96,7 +96,7 @@ Anteprima API per questo esempio:
 **Argomenti correlati:**
 
 * [Anteprima e pubblicazione dell’evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Utilizzo degli elenchi di prodotti in un messaggio sulle transazioni](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [Utilizzo degli elenchi di prodotti in un messaggio sulle transazioni](../../designing/using/using-product-listings.md)
 * [Pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Arricchimento dell&#39;evento {#enriching-the-transactional-message-content}
