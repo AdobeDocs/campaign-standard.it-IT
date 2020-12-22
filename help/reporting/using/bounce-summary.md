@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 8%
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
 
 # Riepilogo messaggi non recapitati{#bounce-summary}
 
-Questo report descrive gli errori rigidi e morbidi riscontrati durante le consegne nonché l’elaborazione automatica dei mancati recapiti.
+Questo rapporto descrive gli errori hardware e software riscontrati durante le consegne e l&#39;elaborazione automatica dei rimbalzi (vedere [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
