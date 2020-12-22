@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percor
 >[!CAUTION]
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. La sua implementazione richiede l’intervento della Consulenza Adobe. Per maggiori informazioni, contatta un rappresentante Adobe di fiducia.
 >
->La funzione richiede l’uso di un archivio di Azure, che deve essere fornito dal cliente.
+>La funzione richiede l&#39;uso di un archivio di Azure o  Amazon S3 che deve essere fornito dal cliente.
 
 ## Ottimizzazione predittiva del tempo di invio{#predictive-send-time}
 
