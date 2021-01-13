@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1299'
+ht-degree: 80%
 
 ---
 
@@ -77,6 +77,7 @@ I possibili motivi di un errore di consegna sono:
 Se un messaggio non riesce a causa di un errore temporaneo del tipo **Ignorato**, verranno eseguiti nuovi tentativi per la durata della consegna. Per ulteriori informazioni sui tipi di errori, consulta [Tipi e motivi di errori di consegna](#delivery-failure-types-and-reasons).
 
 Il numero di nuovi tentativi (numero di tentativi da eseguire il giorno successivo all’inizio dell’invio) e il ritardo minimo tra nuovi tentativi sono ora gestiti dall’MTA avanzato di Adobe Campaign, in base alle prestazioni di un IP sia storicamente sia attualmente in un determinato dominio. Le impostazioni **Nuovi tentativi** in Campaign vengono ignorate.
+ Adobe Campaign Enhanced MTA non è disponibile per il canale push.
 
 Per modificare la durata di una consegna, passa ai parametri avanzati della consegna o del modello di consegna e modifica il campo **[!UICONTROL Delivery duration]** della sezione [Periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
