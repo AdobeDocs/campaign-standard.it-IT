@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Nella modalità **Trasmettitore+ricevitore** separata, la connessione utilizzata
 
 Ad esempio, quando si invia un MT, viene utilizzata la connessione del trasmettitore e la `RESP` che riconosce che il MT viene inviato anche attraverso il canale del trasmettitore. Quando si riceve un MO (o un SR), la connessione del ricevitore viene utilizzata per ricevere il MO e inviare il `RESP` che riconosce il MO.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 In  Adobe Campaign Standard, MT e SR la riconciliazione è nativa dell&#39;MTA, quindi non c&#39;è un processo SMS dedicato.
 
@@ -356,7 +356,7 @@ La dimensione massima di un messaggio dipende dalla codifica. Questa tabella ria
 | Codifica | Solito data_coding | Dimensione del messaggio (caratteri) | Dimensioni parte per SMS multiparte | Caratteri disponibili |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | GSM7 set di caratteri di base + estensione (i caratteri estesi prendono 2 caratteri) |
-| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varia da telefono a telefono) |
 
 ## Parametri del conto esterno SMPP {#SMPP-parameters-external}
@@ -500,7 +500,7 @@ La finestra è il numero di `SUBMIT_SM PDU`s che possono essere inviati senza as
 
 Esempio di trasmissione con una finestra massima di 4:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 La finestra consente di aumentare il throughput quando il collegamento di rete ha una latenza elevata.  Il valore della finestra deve essere almeno il numero di SMS/s moltiplicato per la latenza del collegamento in secondi, in modo che il connettore non sia mai in attesa di un `SUBMIT_SM_RESP` prima di inviare il messaggio successivo.
 Se la finestra è troppo grande, è possibile inviare altri messaggi duplicati in caso di problemi di connessione. Inoltre, la maggior parte dei fornitori hanno un limite molto stretto per la finestra e rifiutano i messaggi che oltrepassano il limite.
@@ -758,7 +758,7 @@ Il periodo di validità viene trasmesso nel campo `validity_period` della `SUBMI
 
 ## Connettore SMPP {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 Le frecce rappresentano il flusso di dati.
 
