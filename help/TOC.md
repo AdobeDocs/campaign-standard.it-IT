@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guida a Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -151,8 +151,8 @@ ht-degree: 99%
       + [Utilizzo di integrazioni con più soluzioni](designing/using/using-integrations.md)
       + [Modifica di e-mail per dispositivi mobili, in HTML o testo normale](designing/using/plain-text-html-modes.md)
       + [Conversione di e-mail dall’Editor Legacy a E-mail Designer](designing/using/converting-emails-from-legacy-editor.md)
-   + [Personalizzazione di contenuti e-mail](designing/using/personalization.md)
-   + [Utilizzo delle inserzioni di prodotti](designing/using/using-product-listings.md)
+   + [Personalizzazione del contenuto delle e-mail](designing/using/personalization.md)
+   + [Utilizzo degli elenchi di prodotti](designing/using/using-product-listings.md)
    + [Gestione degli stili e-mail](designing/using/styles.md)
    + [Gestione dei collegamenti](designing/using/links.md)
    + [Gestione delle immagini](designing/using/images.md)
@@ -436,7 +436,7 @@ ht-degree: 99%
    + Configurazione dei canali {#configuring-channels}
       + [Informazioni sulla configurazione dei canali](administration/using/about-channel-configuration.md)
       + [Configurazione del canale e-mail](administration/using/configuring-email-channel.md)
-      + [Configurazione di un’applicazione mobile](administration/using/configuring-a-mobile-application.md)
+      + [Configurazione di un&#39;app mobile](administration/using/configuring-a-mobile-application.md)
    + Configurazione dei canali mobili {#configuring-mobile}
       + [Implementazione del tracciamento push](administration/using/push-tracking.md)
       + [Aggiunta di immagini e video iOS](administration/using/image-push-notification.md)
@@ -449,7 +449,7 @@ ht-degree: 99%
    + Configurazione del canale SMS {#configuring-sms}
       + [Implementazione del canale SMS](administration/using/configuring-sms-channel.md)
       + [Protocollo e impostazioni del connettore SMS](administration/using/sms-protocol.md)
-      + [Risoluzione degli SMS](administration/using/troubleshooting-sms.md)
+      + [Risoluzione dei problemi relativi agli SMS](administration/using/troubleshooting-sms.md)
    + Impostazioni applicazione {#application-settings}
       + [Informazioni sulle impostazioni di Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Account esterni](administration/using/external-accounts.md)
