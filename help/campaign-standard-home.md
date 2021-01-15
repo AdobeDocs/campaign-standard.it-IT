@@ -5,11 +5,11 @@ product: campaign
 title: Documentazione di Adobe Campaign Standard
 description: Sfoglia la documentazione di Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 ## Novità
 
-* **[Aggiorna ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> rimbalzi rigidi erratiScopri come aggiornare i rimbalzi rigidi errati dopo l&#39;interruzione di Gmail
+* **[Aggiornamento in caso di mancati recapiti erronei](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> Scopri come aggiornare i dati in seguito a mancati recapiti erronei dovuti a interruzioni del servizio Gmail.
 
-* **[Pianificazione delle ](rn/using/release-planning.md)**<br/> versioniLe prossime date di rilascio di febbraio 2021 sono state aggiunte alla pianificazione delle versioni
+* **[Pianificazione della versione](rn/using/release-planning.md)**<br/> Le date della versione di febbraio 2021 sono state aggiunte alla pianificazione delle versioni.
 
 * **[Gruppi di controllo](sending/using/control-group.md)**<br/> 
 Misura l’impatto delle campagne escludendo parte delle relative audience
@@ -79,4 +79,4 @@ Misura l’impatto delle campagne escludendo parte delle relative audience
 | [Guida all’implementazione](https://helpx.adobe.com/it/campaign/kb/campaign-standard-implementation-guide.html) | [Elenco dei messaggi di errore](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Pianificazione del rilascio](rn/using/release-planning.md) | [Modello dati di Campaign](developing/using/datamodel-introduction.md) |
 | [Funzioni obsolete e rimosse](rn/using/deprecated-features.md) | [Guida per più soluzioni](integrating/using/get-started-campaign-integrations.md) |
-| [Guida introduttiva a Campaign Standard](start/using/about-campaign-standard.md) | [Note tecniche](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Guida introduttiva a Campaign Standard](start/using/about-campaign-standard.md) | [Note tecniche](https://helpx.adobe.com/it/campaign/kb/acs-article-list.html) |
