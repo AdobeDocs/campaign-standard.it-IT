@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 3%
@@ -33,7 +33,7 @@ Potete impostare due tipi di modelli:
 
    Un esempio di modello di flusso di lavoro per l&#39;importazione dei dati è dettagliato in [questa sezione](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importa modelli** di dati: come i modelli di workflow, si tratta di modelli basati su flussi di lavoro, configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**.
+* **Importa modelli** di dati: come per i modelli di workflow, si tratta di modelli basati su flussi di lavoro configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**.
 
    Per ulteriori informazioni sui modelli di dati di importazione, consultare la [documentazione dedicata](../../automating/using/importing-data-with-import-templates.md).
 
@@ -54,7 +54,7 @@ Per ulteriori informazioni sulle pagine di destinazione, consultare la [document
 L&#39;integrazione Campaign Standard con Microsoft Dynamics 365 consente di trasmettere i dati di contatto da Microsoft Dynamics 365 al database Campaign.
 Questi contatti sono quindi visibili nell&#39;elenco Profili e possono essere indirizzati nelle campagne di marketing.
 
-Per ulteriori informazioni su questa integrazione, consultare la [documentazione dedicata](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Per ulteriori informazioni su questa integrazione, consultare la [documentazione dedicata](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
