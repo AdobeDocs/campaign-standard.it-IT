@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '632'
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
 
 >[!NOTE]
 >
-> Adobe Campaign Standard può connettersi anche a Microsoft Dynamics 365: questa integrazione consente la sincronizzazione di tutti i dati di contatto disponibili nel sistema di gestione delle relazioni con i clienti, rendendo disponibili tutti quelli pertinenti alle attività della campagna. Per ulteriori informazioni su questa integrazione, consulta [Utilizzo di Campaign e Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+> Adobe Campaign Standard può connettersi anche a Microsoft Dynamics 365: questa integrazione consente la sincronizzazione di tutti i dati di contatto disponibili nel sistema di gestione delle relazioni con i clienti, rendendo disponibili tutti quelli pertinenti alle attività della campagna. Per ulteriori informazioni su questa integrazione, consulta [Utilizzo di Campaign e Dynamics 365](../../integrating/using/d365-acs-get-started.md).
 
 
 <table> 
