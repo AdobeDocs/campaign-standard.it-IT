@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '468'
+ht-degree: 5%
 
 ---
 
@@ -46,6 +46,6 @@ L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
    Ad esempio, con la possibilità di decrittografare indirizzi e-mail o numeri SMS crittografati, puoi anche inviare messaggi attivati agli utenti anche se il loro profilo non esiste nel database Adobe Campaign .
 
-Il diagramma seguente illustra il funzionamento di questa integrazione. Qui, AAM sta per Adobe Audience Manager et ACS per  Adobe Campaign Standard.
+Il diagramma seguente illustra il funzionamento di questa integrazione. Qui, AAM sta per Adobe Audience Manager e ACS per  Adobe Campaign Standard.
 
 ![](assets/aam_diagram.png)
