@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 98%
@@ -114,7 +114,7 @@ Se l’**analisi viene convalidata**, viene visualizzato un messaggio che ti inv
 
 ### Execution
 
-Questa scheda consente di definire l’endpoint di connessione. Il campo **[!UICONTROL URL]** consente di definire **l’endpoint HTTPS** che invierà i dati all’ACS.
+Questa scheda consente di definire l’endpoint di connessione. Il campo **[!UICONTROL URL]** consente di definire l&#39; **Endpoint HTTPS** che invierà i dati a Campaign.
 
 Se necessario per l’endpoint, sono disponibili due diversi metodi di autenticazione:
 
