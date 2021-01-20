@@ -1,21 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Privacy e consenso
-description: Informazioni su privacy, dati personali e gestione del consenso in Adobe Campaign Standard
+title: Privacy e consenso in Adobe Campaign Standard
+description: Questa sezione fornisce una panoramica sulla gestione della privacy, dei dati personali e del consenso in Adobe Campaign Standard, nonché degli strumenti disponibili per facilitarla.
+page-status-flag: never-activated
+uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
-source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
-workflow-type: ht
-source-wordcount: '1657'
-ht-degree: 100%
+discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
+translation-type: tm+mt
+source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 94%
 
 ---
 
 
-# Privacy e consenso {#privacy-and-consent}
+# Privacy e consenso{#privacy-and-consent}
 
 ## Raccomandazioni generali {#general-recommendations}
 
@@ -37,7 +40,7 @@ Per gestire correttamente la privacy e i dati personali, attieniti alle normativ
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle modalità con cui GDPR, CCPA, PDPA e LGPD si applicano ad Adobe Campaign, consulta [questa sezione](../../start/using/privacy-management.md#privacy-management-regulations).
+>Per ulteriori informazioni sulle modalità di applicazione di GDPR, CCPA e PDPA a  Adobe Campaign, vedere [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 ### Privacy di Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -75,40 +78,14 @@ Nella gestione della privacy è importante definire quali dati devono essere ges
 * **I dati personali** sono informazioni che possono identificare direttamente o indirettamente un individuo.
 * **I dati personali riservati** sono informazioni relative alla razza, alle opinioni politiche, alle credenze religiose, ai precedenti penali, alle informazioni genetiche, ai dati sulla salute, alle preferenze sessuali e alle informazioni biometriche di un individuo, nonché alla sua appartenenza a un sindacato.
 
-È necessario prestare maggiore attenzione alla protezione dei dati personali durante l’integrazione di Campaign con altre soluzioni Experience Cloud in cui le audience possono essere trasferite da un sistema all’altro, come il [Servizio destinazioni audience](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o il servizio core Persone](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) o con altre soluzioni quali [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
-
-Le [normative principali](#privacy-regulations) si riferiscono alle diverse entità che gestiscono i dati come segue:
+Le [principali normative](#privacy-regulations) si riferiscono alle diverse entità che gestiscono i dati come segue:
 * Il **titolare del trattamento** è l’autorità che determina i mezzi e lo scopo della raccolta, dell’utilizzo e della condivisione dei dati personali.
 * Il **responsabile del trattamento** è qualsiasi individuo o parte che raccoglie, utilizza o condivide dati personali come indicato dal titolare del trattamento.
 * L’**interessato** è qualsiasi individuo i cui dati personali vengono raccolti, utilizzati o condivisi e che può essere identificato direttamente o indirettamente in base a tali dati personali.
 
 Pertanto, in quanto azienda che raccoglie e condivide dati personali, ricopri il ruolo di titolare del trattamento, i tuoi clienti costituiscono gli interessati e Adobe Campaign agisce come responsabile del trattamento quando tratta i loro dati personali secondo le istruzioni da te fornite. In quanto titolare del trattamento, sei responsabile della gestione del rapporto con gli interessati, ad esempio durante la gestione delle [richieste di accesso a dati personali](#privacy-requests).
 
-### Scenario del caso d’uso {#use-case-scenario}
-
-Per illustrare il modo in cui interagiscono i diversi utenti tipo, ecco un esempio di un caso d’uso dettagliato di customer experience relativo al GDPR.
-
-In questo esempio, il cliente Adobe Campaign è una compagnia aerea. La compagnia aerea è il **titolare del trattamento** e tutti i suoi clienti sono gli **interessati**. Laura in questo caso particolare è una cliente della compagnia aerea.
-
-Di seguito sono elencati i diversi utenti tipo utilizzati in questo esempio:
-
-* **Laura** è l’**interessato**. È il destinatario che riceve messaggi dalla compagnia aerea. Ammettiamo che Laura sia una viaggiatrice frequente e che a un certo punto decida di non voler ricevere messaggi pubblicitari o di marketing personalizzati da parte della compagnia aerea. Laura chiederà alla compagnia aerea (sulla base del loro processo) di cancellare il suo numero di viaggiatrice frequente.
-
-* **Anne** è il **titolare del trattamento** presso la compagnia aerea. Riceve la richiesta di Laura, recupera gli ID utili richiesti per identificare l’interessato e invia la richiesta da Adobe Campaign.
-
-* **Adobe Campaign** è il **responsabile del trattamento**.
-
-![](assets/privacy-gdpr-flow.png)
-
-Di seguito è riportato il flusso generale relativo a questo caso d’uso:
-
-1. L’**interessato** (Laura) invia una richiesta GDPR al **titolare del trattamento** tramite e-mail, assistenza clienti o un portale web.
-
-1. Il **titolare del trattamento** (Anne) invia la richiesta GDPR a Campaign tramite l’interfaccia o utilizzando un’API.
-
-1. Una volta che il **responsabile del trattamento** (Adobe Campaign) riceve le informazioni, interviene sulla richiesta GDPR e invia una risposta o una conferma al **titolare del trattamento** (Anne).
-
-1. Il **titolare del trattamento** (Anne) esamina le informazioni e le invia nuovamente all’**interessato** (Laura).
+È necessario prestare maggiore attenzione alla protezione dei dati personali durante l’integrazione di Campaign con altre soluzioni Experience Cloud in cui le audience possono essere trasferite da un sistema all’altro, come il [Servizio destinazioni audience](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o il servizio core Persone](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) o con altre soluzioni quali [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md).
 
 ## Acquisizione dei dati {#data-acquisition}
 
@@ -121,7 +98,7 @@ Di seguito è riportato il flusso generale relativo a questo caso d’uso:
 
 ## Gestione della privacy {#privacy-management}
 
-La gestione della privacy si riferisce a tutti i processi e agli strumenti che possono aiutarti a rispettare le normative sulla privacy (GDPR, CCPA, ecc.). Ottieni una panoramica sulla gestione della privacy in [questa pagina](../../start/using/privacy-management.md).
+La gestione della privacy si riferisce a tutti i processi e agli strumenti che possono aiutarti a rispettare le normative sulla privacy (GDPR, CCPA, ecc.). Ottenete una panoramica della gestione della privacy in [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html).
 
  Adobe Campaign offre varie serie di funzioni dedicate alla gestione della privacy:
 * Gestione del consenso, conservazione dei dati e ruoli degli utenti. Vedi [questa sezione](#consent).
@@ -139,7 +116,7 @@ Adobe Campaign offre da sempre funzioni importanti necessarie per la privacy:
 * **Conservazione dei dati**: tutte le tabelle di registro standard integrate dispongono di periodi di conservazione preimpostati, che in genere limitano l’archiviazione dei dati a un massimo di 6 mesi. Puoi impostare ulteriori periodi di conservazione con i flussi di lavoro. Per maggiori informazioni, rivolgiti ai consulenti o agli amministratori tecnici di Adobe.
 * **Gestione dei diritti**: Adobe Campaign consente di gestire i diritti assegnati ai vari operatori Campaign tramite diversi ruoli predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Per ulteriori informazioni, consulta [Informazioni sulla gestione degli accessi](../../administration/using/about-access-management.md).
 
-Per ulteriori informazioni su queste funzioni e sulla loro gestione in Adobe Campaign, consulta [questa sezione](../../start/using/privacy-management.md#consent-retention-roles).
+Per ulteriori informazioni su queste funzioni e su come gestirle in  Adobe Campaign, vedere [questa pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
 
 ### Richieste di accesso a dati personali {#privacy-requests}
 
@@ -149,13 +126,21 @@ Per ulteriori informazioni su queste funzioni e sulla loro gestione in Adobe Cam
 
 * Il **diritto all’oblio** (richiesta di cancellazione) autorizza l’interessato a richiedere che il titolare del trattamento cancelli i suoi dati personali.
 
-Le richieste di **accesso** ed **eliminazione** vengono presentate in [questa sezione](../../start/using/privacy-management.md#right-access-forgotten).
+>[!NOTE]
+>
+>Questi strumenti sono a tua disposizione per aiutarti a rispettare le normative sulla privacy (GDPR, CCPA e PDPA). Per ulteriori informazioni su queste diverse normative, vedere [questa pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
-I passaggi di implementazione per creare queste richieste sono illustrati in [questa sezione](../../start/using/privacy-requests.md). Sono inoltre disponibili alcuni tutorial in [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=it#privacy).
+<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
+
+* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+
+* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
+
+Le richieste di **accesso** ed **eliminazione** vengono presentate in [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=it#getting-started). I passaggi di implementazione per creare queste richieste sono illustrati in [questa pagina](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Sono inoltre disponibili alcuni tutorial in [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=it#privacy).
 
 ## Funzionalità di tracciamento {#tracking-capabilities}
 
-Grazie alle funzionalità di tracciamento, Adobe Campaign consente di monitorare il comportamento dei destinatari delle consegne utilizzando cookie di sessione e cookie permanenti. Per ulteriori informazioni sul tracciamento, consulta [questa sezione](../../sending/using/tracking-messages.md).
+Grazie alle funzionalità di tracciamento, Adobe Campaign consente di monitorare il comportamento dei destinatari delle consegne utilizzando cookie di sessione e cookie permanenti. Per ulteriori informazioni sul tracciamento, vedere [questa pagina](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
