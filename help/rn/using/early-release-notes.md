@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 26b401e18629f794ab3c1a836a28369d2f8f9605
+source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2586'
 ht-degree: 3%
 
 ---
@@ -102,7 +102,8 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 
 * È ora disponibile una nuova funzione **GetOption** nelle attività che utilizzano variabili evento dopo aver chiamato un flusso di lavoro con parametri esterni. Consente di restituire il valore di una funzione specificata.
 
-* Una nuova opzione consente ai Campaign Standard di **verificare la disponibilità di memoria fisica** nel sistema prima di avviare un flusso di lavoro. Se la quantità di memoria è troppo bassa, l&#39;esecuzione del flusso di lavoro verrà posticipata fino a quando la memoria del sistema raggiungerà questa soglia. In questo modo si evita un ulteriore degrado delle prestazioni e si riduce il rischio di un&#39;interruzione. Il flusso di lavoro riprenderà automaticamente una volta che lo stress del server sarà più rilassato.  Se l&#39;esecuzione del flusso di lavoro è in ritardo, provate a pianificare nuovamente il flusso di lavoro in un momento di minore attività e riprovate. Questa opzione è di sola lettura e non può essere modificata.
+* Una nuova opzione consente ai Campaign Standard di **verificare la disponibilità di memoria fisica** nel sistema prima di avviare un flusso di lavoro. Se la quantità di memoria è troppo bassa, l&#39;esecuzione del flusso di lavoro verrà posticipata fino a quando la memoria del sistema raggiungerà questa soglia. In questo modo si evita un ulteriore degrado delle prestazioni e si riduce il rischio di un&#39;interruzione. Il flusso di lavoro riprenderà automaticamente una volta terminato il caricamento sul server e aumentato la memoria. Questa opzione è di sola lettura e non può essere modificata.
+
 
 **Altre modifiche**
 
