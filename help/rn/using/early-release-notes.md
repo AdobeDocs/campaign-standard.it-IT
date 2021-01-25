@@ -9,15 +9,15 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
+source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2587'
 ht-degree: 3%
 
 ---
 
 
-# Nuova versione {#new-release}
+# Note sulla versione anticipate {#new-release}
 
 [Release Planning](../../rn/using/release-planning.md) | Rilasci [ ](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) Pannello di controllo Campaign| Aggiornamenti [ della ](../../rn/using/documentation-updates.md) documentazione|  [Ultime Note](../../rn/using/release-notes.md)  sulla versione|  [Funzioni obsolete](../../rn/using/deprecated-features.md)
 
