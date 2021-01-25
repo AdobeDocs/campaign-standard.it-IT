@@ -7,9 +7,9 @@ user-guide-description: 'Centro assistenza per le principali funzioni, attività
 breadcrumb-title: Campaign Standard
 title: Guida a Campaign Standard
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 + [Ultimi aggiornamenti](rn/using/documentation-updates.md)
 + Note sulla versione {#release-notes}
    + [Ultima versione](rn/using/release-notes.md)
+   + [Note sulla versione](rn/using/early-release-notes.md)
    + Versioni precedenti {#previous-releases}
       + [Note sulla versione 2020](rn/using/release-notes-2020.md)
       + [Note sulla versione 2019](rn/using/release-notes-2019.md)
