@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 30%
@@ -29,7 +29,7 @@ Amplia il modello dati Campaign Standard con campi e risorse personalizzate e mo
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in un **modello dati predefinito**. Il modello dati visualizza una struttura SQL out-of-the-box per un insieme di risorse correlate al marketing: distribuzione, pubblico, pagine di destinazione, profilo, ecc. A ogni risorsa sono associati dei filtri, che consentono di navigare tra le risorse.
+I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in un **modello dati predefinito**. Il modello dati visualizza una struttura SQL out-of-the-box per un insieme di risorse correlate al marketing: distribuzione, pubblico, pagine di destinazione, profilo, ecc. A ogni risorsa sono associati dei filtri, che consentono di spostarsi tra le risorse.
 
 Il menu **Diagnosi** consente di elencare gli oggetti tecnici generati dal Campaign Standard: schemi di dati, pagine Web, filtri, ecc., che consentono di monitorare il modello dati e qualsiasi modifica apportata.
 
