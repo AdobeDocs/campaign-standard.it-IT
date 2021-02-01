@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
@@ -27,4 +27,4 @@ Questo rapporto contiene i dati relativi alla velocità di consegna di una o pi�
 
 >[!NOTE]
 >
->La pagina **[!UICONTROL Delivery throughput]** visualizza la velocità effettiva per il inoltro dei messaggi da Campaign all&#39;MTA avanzata di Adobe Campaign .
+>La pagina **[!UICONTROL Delivery throughput]** visualizza la velocità effettiva per il relay dei messaggi da Campaign a Adobe Campaign Enhanced MTA (Message Transfer Agent) .
