@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '8382'
+source-wordcount: '8666'
 ht-degree: 0%
 
 ---
@@ -356,7 +356,7 @@ La dimensione massima di un messaggio dipende dalla codifica. Questa tabella ria
 | Codifica | Solito data_coding | Dimensione del messaggio (caratteri) | Dimensioni parte per SMS multiparte | Caratteri disponibili |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | GSM7 set di caratteri di base + estensione (i caratteri estesi prendono 2 caratteri) |
-| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varia da telefono a telefono) |
 
 ## Parametri del conto esterno SMPP {#SMPP-parameters-external}
@@ -521,7 +521,7 @@ Per conoscere il limite di throughput totale, moltiplicate questo numero per il 
 
 0 significa nessun limite, l&#39;MTA invierà MT il più velocemente possibile.
 
-Si raccomanda in genere di mantenere questa impostazione al di sotto di 1000, poiché è impossibile garantire una velocità di trasmissione precisa al di sopra di questo numero, a meno che non venga adeguatamente valutata sull&#39;architettura finale e su richiesta specifica del fornitore SMPP. Potrebbe essere meglio aumentare il numero di connessioni per superare i 1000 MT/s.
+Si raccomanda in genere di mantenere questa impostazione su 1000, poiché è impossibile garantire una velocità di trasmissione precisa al di sopra di questo numero, a meno che non venga adeguatamente valutata l&#39;architettura finale. Se avete bisogno di un throughput superiore a 1000, contattate il vostro fornitore. Potrebbe essere meglio aumentare il numero di connessioni per superare i 1000 MT/s.
 
 #### Tempo prima della riconnessione {#time-reconnection}
 
@@ -698,6 +698,10 @@ Consente di aggiungere un TLV personalizzato. Questo campo imposta la porzione d
 
 Questa impostazione consente solo di aggiungere un’opzione TLV per messaggio.
 
+>[!NOTE]
+>
+>A partire dalla release 21.1, è ora possibile aggiungere più di un parametro opzionale. Per ulteriori informazioni, consulta questa [sezione](../../administration/using/sms-protocol.md#automatic-reply-tlv).
+
 ### Risposta automatica inviata al MO {#automatic-reply}
 
 Questa funzione consente di rispondere rapidamente al testo su MO e di gestire per codice breve l&#39;invio al elenco Bloccati .
@@ -715,6 +719,12 @@ La colonna **Azioni aggiuntive** fornisce un&#39;azione aggiuntiva quando **Paro
 >L&#39;impostazione Invia numero di telefono completo ha un impatto sul comportamento del meccanismo di quarantena automatica delle risposte: se l&#39;opzione Invia numero di telefono completo non è selezionata, il numero di telefono messo in quarantena sarà preceduto dal segno più (&quot;+&quot;) per renderlo compatibile con il formato del numero di telefono internazionale.
 
 Tutte le voci della tabella vengono elaborate nell&#39;ordine specificato, fino a quando una regola non corrisponde. Se più regole corrispondono a una regola MO, verrà applicata solo la regola superiore.
+
+### Parametri opzionali di risposta automatica (TLV) {#automatic-reply-tlv}
+
+A partire dalla release 21.1, è possibile aggiungere parametri facoltativi alla risposta automatica MT. Sono aggiunti come parametri TLV facoltativi alla `SUBMIT_SM PDU` della risposta, come descritto nella sezione 5.3 della [specifica SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(pagina 131).
+
+Per ulteriori informazioni sui parametri facoltativi, fare riferimento a questa sezione [sezione](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
 ## Parametri modello di consegna SMS {#sms-delivery-template-parameters}
 
@@ -754,7 +764,19 @@ Questa impostazione viene trasmessa nel campo `dest_addr_subunit` facoltativo de
 
 #### Periodo di validità {#validity-period}
 
-Il periodo di validità viene trasmesso nel campo `validity_period` della `SUBMIT_SM PDU`. La data è sempre formattata come formato di ora UTC assoluto, il campo data termina con &quot;00+&quot;.
+Il periodo di validità viene trasmesso nel campo `validity_period` della `SUBMIT_SM PDU`. La data viene sempre formattata come formato di ora UTC assoluto (il campo data termina con &quot;00+&quot;).
+
+#### Parametri opzionali SMPP (TLV) {#smpp-optional-parameters}
+
+A partire dalla release 21.1, è possibile aggiungere più parametri facoltativi a ogni MT inviato per questa consegna. Questi parametri opzionali vengono aggiunti alla `SUBMIT_SM PDU` della risposta, come descritto nella sezione 5.3 della [specifica SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(pagina 131).
+
+Ogni riga della tabella rappresenta un parametro facoltativo:
+
+* **Parametro**: Descrizione del parametro. Non trasmesso al provider.
+* **ID** tag: Tag del parametro opzionale. Deve essere un valore esadecimale valido, utilizzando il formato 0x1234. Valori non validi causeranno un errore di preparazione del recapito.
+* **Valore**: Valore del campo facoltativo. Codificato come UTF-8 quando viene trasmesso al provider. Impossibile modificare il formato di codifica. Non è possibile inviare valori binari o utilizzare codifiche diverse come UTF-16 o GSM7.
+
+Se un parametro opzionale ha lo stesso **ID tag** dell&#39; **ID tag servizio** definito nell&#39;account esterno, il valore definito in questa tabella prevarrà.
 
 ## Connettore SMPP {#ACS-SMPP-connector}
 
@@ -799,7 +821,9 @@ Questa lista di controllo contiene un elenco di elementi da verificare prima di 
 
 Controlla di non avere vecchi account esterni SMS. Se l&#39;account di test viene disattivato, si corre il rischio che venga riattivato nel sistema di produzione e si generino potenziali conflitti.
 
-Se avete più account sulla stessa istanza di Adobe Campaign  che si connettono allo stesso provider, contattate il provider per essere sicuri che distinguano effettivamente le connessioni tra questi account. La presenza di più account con lo stesso accesso richiede una configurazione aggiuntiva.
+Verificate che nessun&#39;altra istanza si connetta a questo account. In particolare, accertatevi che l&#39;ambiente dell&#39;area di visualizzazione non si connetta all&#39;account. Alcuni fornitori lo supportano, ma richiede una configurazione molto specifica sia  lato Adobe Campaign che sulla piattaforma del fornitore.
+
+Se è necessario avere più account sulla stessa istanza di Adobe Campaign  che si connettono allo stesso provider, contattate il provider per essere sicuri che distinguano effettivamente le connessioni tra questi account. La presenza di più account con lo stesso accesso richiede una configurazione aggiuntiva.
 
 ### Abilitare tracce SMPP dettagliate durante i controlli {#enable-verbose}
 
