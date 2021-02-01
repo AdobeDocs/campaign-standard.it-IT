@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '963'
+ht-degree: 9%
 
 ---
 
@@ -39,8 +39,6 @@ I messaggi transazionali possono essere inviati via e-mail, SMS o [notifica push
 > Adobe Campaign assegna priorità all&#39;elaborazione dei messaggi transazionali rispetto a qualsiasi altra consegna.
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
-
-<!--All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see [this section](../../administration/using/configuring-email-channel.md).-->
 
 Prima di iniziare con i messaggi transazionali, assicurati di leggere le [best practice e limitazioni ](../../channels/using/transactional-messaging-limitations.md) corrispondenti.
 
@@ -75,9 +73,9 @@ Potrebbe essere utile inviare un messaggio di transazione evento a un cliente ch
 * Aggiungere messaggi transazionali al reporting globale sulla distribuzione;
 * Utilizzare messaggi transazionali nel customer journey.
 
-Ad esempio, puoi utilizzare questo tipo di messaggi quando contatta i clienti dopo che hanno abbandonato il carrello sul tuo sito Web, per incoraggiarli a procedere con il loro acquisto. In questo modo, puoi personalizzare più facilmente il messaggio con accesso diretto a tutte le informazioni presenti nel tuo database dei profili, applicare le regole di marketing e includere questo messaggio nel percorso globale del cliente e nei rapporti per una migliore visualizzazione del comportamento del cliente.
+Ad esempio, puoi utilizzare questo tipo di messaggi quando contatta i clienti dopo che hanno abbandonato il carrello sul tuo sito Web, per incoraggiarli a procedere con il loro acquisto. In questo modo, puoi personalizzare più facilmente il messaggio con accesso diretto a tutte le informazioni provenienti dal tuo database dei profili, applicare le regole di marketing e includere questo messaggio al percorso di clienti globale e generare report per una migliore visualizzazione del comportamento dei clienti.
 
-Il tipo di messaggio viene definito durante la configurazione dell’evento che viene trasformato in un messaggio transazionale. Vedere le sezioni di configurazione dei messaggi transazionali basati su eventi [ e ](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)messaggi transazionali basati su profilo[.](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)
+Il tipo di messaggio viene definito durante la configurazione dell’evento che viene trasformato in un messaggio transazionale. Vedere le sezioni di configurazione dei messaggi transazionali basati su eventi ](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) e [messaggi transazionali basati su profilo](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).[
 
 ## Passaggi chiave {#key-steps}
 
