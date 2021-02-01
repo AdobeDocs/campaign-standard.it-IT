@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Informazioni sulla pianificazione dei messaggi{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Ogni volta che apporti modifiche alla pianificazione di una consegna, devi prepararla nuovamente facendo clic sul pulsante **Prepare** prima di fare clic su **Confirm**.
 
@@ -42,7 +42,7 @@ Le proprietà **[!UICONTROL Schedule]** ti permettono di impostare le opzioni di
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Durante la duplicazione di una consegna, tutte le impostazioni di pianificazione vengono eliminate. A meno che non pianifichi una nuova data di contatto, la consegna duplicata viene inviata dopo la conferma dell’invio.
 
