@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 1e05db3fecc87a026750f40acb0ff063706e3f38
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Ulteriori informazioni sulle tue responsabilità in materia di privacy e su come
 
 Quando si passa all’interfaccia utente per la prima volta, viene visualizzata una pagina con un’intestazione simile alla seguente:
 
-![](assets/d365-to-acs-ui-header.png)
+![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Verificare che le selezioni &quot;ORG&quot; e &quot;INSTANCE&quot; siano quelle 
 
 Se hai l&#39;organizzazione e l&#39;istanza corrette, clicca sul menu &quot;hamburger&quot; per esporre un menu a discesa. Fare clic su **[!UICONTROL Settings...]** nel menu a discesa per visitare la pagina in cui sono state immesse le credenziali per Microsoft Dynamics 365 e Campaign (vedere di seguito).
 
-![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 Nella pagina **[!UICONTROL Settings]**, compila le seguenti sezioni:
 
@@ -94,11 +94,11 @@ Presupponendo che siano stati completati i prerequisiti di cui sopra e che tutte
 
 Nella pagina **[!UICONTROL Workflows]**, fai clic sull&#39;icona matita associata al flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]** per modificarne la configurazione.
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
 Nella pagina **[!UICONTROL Microsoft Dynamics 365 to Campaign]** è possibile accedere all&#39;elenco delle mappature delle tabelle configurate.  Per impostazione predefinita viene impostata una mappatura contatto/profilo out-of-the-box. Tutte le altre entità personalizzate dovranno essere configurate separatamente.
 
-![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 Nella pagina **[!UICONTROL Edit Table Mapping]**, controlla la sezione **[!UICONTROL Mappings]** per verificare che i campi di Microsoft Dynamics 365 siano mappati sul campo corretto in Campaign. Se è necessario aggiungere altre mappature, eseguire questa operazione ora, nonché eventuali sostituzioni o filtri. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
@@ -108,10 +108,10 @@ Una volta che la configurazione è corretta, fare clic sul pulsante **[!UICONTRO
 
 >[!IMPORTANT]
 >
->**fortemente** si consiglia di eseguire prima questo in ambiente Stage o Dev prima di essere eseguito in produzione. Verificare che l&#39;istanza stage/dev sia selezionata nell&#39;intestazione.
+>**fortemente** si consiglia di eseguire prima questo in ambiente Stage o Dev prima di essere eseguito in produzione. Verificate che l’istanza stage/dev sia selezionata nell’intestazione.
 
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
 Una volta eseguita, è necessario essere in grado di eseguire il test aggiungendo o modificando le voci in Microsoft Dynamics 365 e osservando tali modifiche in  Adobe Campaign entro pochi minuti. Se in qualsiasi momento è necessario interrompere il processo, premere semplicemente lo stesso pulsante per interromperlo. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
@@ -124,7 +124,7 @@ L’intestazione all’interno dell’app self-service consente di definire l’
 
 Selezionare l&#39; **ORG** e l&#39; **INSTANCE** da visualizzare/modificare. Questi campi sono di sola lettura, ma diventano modificabili quando si posiziona il puntatore del mouse su di essi.
 
-Quando si fa clic sul pulsante con le tre righe orizzontali ![](assets/d365-to-acs-icon-hamburger.png) a destra dell&#39;intestazione viene visualizzato un menu a discesa.
+Quando si fa clic sul pulsante con le tre righe orizzontali ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) a destra dell&#39;intestazione viene visualizzato un menu a discesa.
 
 Le voci nel menu a discesa sono:
 
@@ -146,14 +146,14 @@ Le breadcrumb vengono visualizzate nella parte superiore di alcune schermate men
 
 Di seguito è riportato un esempio dalla schermata **[!UICONTROL Edit Table Mapping]** che mostra le breadcrumb e il titolo della pagina. In questo caso, è possibile fare clic sul testo **[!UICONTROL Workflows]** o **[!UICONTROL Microsoft Dynamics 365 to Campaign]** per passare a una delle schermate precedenti. **[!UICONTROL Edit Table Mapping]** in questo caso non è possibile fare clic sul percorso di navigazione perché si tratta della schermata corrente.
 
-![](assets/d365-to-acs-breadcrumbs-ingress.png)
+![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### Pulsanti comuni {#app-buttons}
 
 Le seguenti icone sono utilizzate in più pagine nell&#39;app self-service.
 
-![](assets/d365-to-acs-icon-add.png) - Aggiungere un nuovo elemento a un elenco.
+![](assets/do-not-localize/d365-to-acs-icon-add.png) - Aggiungere un nuovo elemento a un elenco.
 
-![](assets/d365-to-acs-icon-edit.png) - Modificare qualcosa che esiste già
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Modificare qualcosa che esiste già
 
-![](assets/d365-to-acs-icon-delete.png) - Eliminare un elemento da un elenco di elementi
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Eliminare un elemento da un elenco di elementi
