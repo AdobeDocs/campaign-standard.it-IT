@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1773'
 ht-degree: 85%
 
 ---
@@ -101,7 +101,7 @@ Per un account esterno OAuth 2.0, fornite i seguenti dettagli:
 * **Credenziali** sensibili OAuth 2.0: Questa sezione è destinata alle credenziali sensibili. I valori delle credenziali verranno mascherati sullo schermo dopo l&#39;aggiunta; a questo punto, non saranno né leggibili né modificabili. Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una particolare credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP invece del parametro body del POST, potete selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
 * **Credenziali** non sensibili OAuth 2.0: Questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo che saranno stati aggiunti; saranno anche modificabili.  Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una particolare credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP invece del parametro body del POST, potete selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
 
-Al termine della configurazione, fare clic su **Connettore di prova** per verificare che l&#39;account esterno sia impostato correttamente.
+Dopo aver immesso le informazioni sull&#39;account, fare clic su **Verifica connessione** per verificare che l&#39;account esterno sia stato configurato correttamente.
 
 ![](assets/external_accounts_OAuth.png)
 
