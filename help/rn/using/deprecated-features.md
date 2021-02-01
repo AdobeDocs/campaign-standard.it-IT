@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 85%
+source-wordcount: '734'
+ht-degree: 80%
 
 ---
 
@@ -62,8 +62,9 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partire dalla versione 20.1, SDK v4 diventerà obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Ulteriori informazioni</a>.</p><br/>
-   <p>L’<a href="https://aep-sdks.gitbook.io/docs/">SDK per dispositivi mobili di Adobe Experience Platform</a> (in precedenza denominato v5) supporterà esclusivamente le nuove funzioni e funzionalità di Adobe Experience Cloud.</p></br>
+   <td> <p> A partire dalla versione di Campaign 20.1, SDK v4 è obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Ulteriori informazioni</a>.</p><br/>
+   <p>L’<a href="https://aep-sdks.gitbook.io/docs/">SDK per dispositivi mobili di Adobe Experience Platform</a> (in precedenza denominato v5) supporterà esclusivamente le nuove funzioni e funzionalità di Adobe Experience Cloud.</p>
+   <p>Scopri come effettuare la migrazione da SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in questa pagina</a>.</p></br>
      <p>
      <em>Data di rimozione destinazione: 31 agosto 2021</em></p>
      </td> 
@@ -112,7 +113,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione 18.7, le unità geografiche diventeranno obsolete. Le unità organizzative e geografiche sono costrutti identici in Campaign. Gli utenti devono utilizzare solo le unità organizzative per creare la propria gerarchia di autorizzazioni utente/accesso ai dati. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=it#administrating">Ulteriori informazioni</a>. Ricorda che, a partire dalla versione 18.7, questa funzionalità non può essere implementata nelle nuove istanze di Campaign Standard né in quelle esistenti senza unità geografiche create.</p>
+   <td> <p>A partire dalla release Campaign 18.7, le unità geografiche sono obsolete. Le unità organizzative e geografiche sono costrutti identici in Campaign. Gli utenti devono utilizzare solo le unità organizzative per creare la propria gerarchia di autorizzazioni utente/accesso ai dati. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=it#administrating">Ulteriori informazioni</a>. Ricorda che, a partire dalla versione 18.7, questa funzionalità non può essere implementata nelle nuove istanze di Campaign Standard né in quelle esistenti senza unità geografiche create.</p>
    </td> 
   </tr> 
  </tbody> 
