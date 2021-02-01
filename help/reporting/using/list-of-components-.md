@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consultare la [tabella](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Se due componenti non sono compatibili, nella cella verrà visualizzato il valore **None**.
 
-[![immagine](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=it)
+[![immagine](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 ## Dimension {#dimensions}
 
@@ -247,8 +247,12 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero di destinatari che hanno aperto la consegna.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Unsubscription univoca<br /> </td> 
+   <td> Numero di destinatari che hanno fatto clic sul collegamento di annullamento della sottoscrizione.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Annulla sottoscrizione<br /> </td> 
-   <td> Percentuale di annullamento sottoscrizioni per destinatario rispetto ai messaggi consegnati.<br /> </td> 
+   <td> Numero di unsubscription univoci rispetto ai messaggi consegnati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Annulla sottoscrizione<br /> </td> 
