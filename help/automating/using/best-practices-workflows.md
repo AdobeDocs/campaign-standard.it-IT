@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '1120'
+ht-degree: 89%
 
 ---
 
@@ -49,6 +49,10 @@ Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, pas
 
 Per impostazione predefinita, consigliamo di non avviare più di 20 esecuzioni di flussi di lavoro attivi in contemporanea. Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influenzare le prestazioni. Allo stesso modo, Adobe consiglia di distribuire nel tempo l’esecuzione del flusso di lavoro.
 In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di lavoro. Questa impostazione non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata. In tal caso, devi consultare un esperto di Campaign e contattare anche l’Assistenza cliente Adobe per aumentare il limite.
+
+>[!NOTE]
+>
+>Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verificherà se la memoria fisica del sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, un messaggio vi informa che l&#39;esecuzione del flusso di lavoro verrà ritardata fino a quando il caricamento sul server non si esaurirà e la memoria del sistema aumenterà.
 
 ### Frequenza
 
