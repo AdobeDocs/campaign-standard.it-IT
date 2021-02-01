@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
@@ -106,7 +106,7 @@ La **barra degli strumenti** è un elemento contestuale dell’interfaccia dell�
 
 ![](assets/delivery_content_17.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Alcune funzioni della barra degli strumenti ti consentono di formattare il contenuto HTML. Tuttavia, se la pagina contiene un foglio di stile CSS, le **istruzioni** del foglio di stile potrebbero avere la **priorità** rispetto a quelle specificate tramite la barra degli strumenti.
 
