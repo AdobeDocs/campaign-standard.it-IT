@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 48%
 
 ---
 
@@ -22,18 +22,32 @@ Per ogni contatto del database è disponibile un Integrated customer profile. Qu
 
 Per accedere all’Integrated customer profile, effettua le seguenti operazioni:
 
-1. Dalla pagina Home di Adobe Campaign, fai clic sulla scheda **[!UICONTROL Customer profiles]** o sulla scheda **Profiles**.
-1. Seleziona un contatto.
+1. Dalla home page di  Adobe Campaign, fare clic sulla scheda **[!UICONTROL Customer profiles]** o sulla scheda **Profili** per visualizzare l&#39;elenco dei profili.
+
+1. Per cercare un profilo basato su un campo specifico, aprire il riquadro di ricerca, quindi selezionare il campo in cui si desidera eseguire la ricerca.
+
+
+   ![](assets/profile-search.png)
+
+1. Specificate il valore da cercare, quindi premete Invio.
+
+   >[!NOTE]
+   >
+   >È possibile eseguire ricerche in base ai campi e-mail, nome e cognome e ai campi personalizzati aggiunti al momento dell’estensione della risorsa.
+   >
+   >Le ricerche sono con distinzione tra maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non sarà possibile cercare un profilo utilizzando le ultime lettere del suo cognome.
+
+1. Selezionate un contatto per aprirne il profilo.
 
    ![](assets/mkt_hist_access.png)
 
 Adesso potrai accedere allo **storico dei dati marketing** di questo contatto.
 
-![](assets/mkt_hist_view.png)
-
 In questa pagina sono raccolte le informazioni chiave sul profilo, oltre all’elenco degli eventi.
 
-Seleziona un evento dell’elenco per aprirlo: potrai accedere al messaggio inviato o al servizio a cui è abbonato il profilo.
+Fate clic su un evento nell’elenco per aprirlo: puoi accedere ai messaggi inviati o ai servizi sottoscritti dal profilo.
+
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
