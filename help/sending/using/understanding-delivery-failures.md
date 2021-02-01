@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 80%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -76,20 +76,23 @@ I possibili motivi di un errore di consegna sono:
 
 Se un messaggio non riesce a causa di un errore temporaneo del tipo **Ignorato**, verranno eseguiti nuovi tentativi per la durata della consegna. Per ulteriori informazioni sui tipi di errori, consulta [Tipi e motivi di errori di consegna](#delivery-failure-types-and-reasons).
 
-Il numero di nuovi tentativi (numero di tentativi da eseguire il giorno successivo all’inizio dell’invio) e il ritardo minimo tra nuovi tentativi sono ora gestiti dall’MTA avanzato di Adobe Campaign, in base alle prestazioni di un IP sia storicamente sia attualmente in un determinato dominio. Le impostazioni **Nuovi tentativi** in Campaign vengono ignorate.
- Adobe Campaign Enhanced MTA non è disponibile per il canale push.
+Il numero di tentativi (il numero di tentativi da eseguire il giorno successivo all&#39;inizio dell&#39;invio) e il ritardo minimo tra i tentativi ora si basano su prestazioni di un IP sia storicamente che attualmente in un determinato dominio. <!--managed by the Adobe Campaign Enhanced MTA,--> Le impostazioni **Nuovi tentativi** in Campaign vengono ignorate.
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 Per modificare la durata di una consegna, passa ai parametri avanzati della consegna o del modello di consegna e modifica il campo **[!UICONTROL Delivery duration]** della sezione [Periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!IMPORTANT]
 >
->**Il parametro **[!UICONTROL Delivery duration]**nelle consegne di Campaign viene ora utilizzato soltanto se impostato su 3,5 giorni o meno.** Se definisci un valore superiore a 3,5 giorni, non verrà preso in considerazione in quanto ora è gestito dall’MTA avanzato di Adobe Campaign.
+>**Il parametro **[!UICONTROL Delivery duration]**nelle consegne di Campaign viene ora utilizzato soltanto se impostato su 3,5 giorni o meno.** Se definisci un valore superiore a 3,5 giorni, questo non verrà preso in considerazione.
 
-Ad esempio, se desideri che i nuovi tentativi per una consegna si interrompano dopo un giorno, puoi impostare la durata della consegna su **1d**, e l’MTA avanzato rispetterà tale impostazione rimuovendo i messaggi nella coda dei nuovi tentativi dopo un giorno.
+Ad esempio, se si desidera che i tentativi di consegna interrompano dopo un giorno, è possibile impostare la durata di consegna su **1d** e i messaggi nella coda dei tentativi verranno rimossi dopo un giorno.
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->Una volta che un messaggio è rimasto nella coda dell’MTA avanzato per 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** nei [log di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Una volta che un messaggio è stato nella coda dei tentativi per un massimo di 3,5 giorni e non è riuscito a distribuirlo, si verificherà un timeout e il suo stato verrà aggiornato a <!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Failed]** nei [log di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -102,13 +105,13 @@ Una consegna può non riuscire immediatamente (errore sincrono) oppure in seguit
 
 ## Qualificazione di mail non recapitate {#bounce-mail-qualification}
 
-Per i messaggi di errore di consegna sincrono, l’MTA avanzato determina il tipo di mancata consegna e la qualificazione e invia tali informazioni a Campaign.
-
-Le mancate consegne asincrone vengono comunque qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per accedere a queste regole, fai clic sul logo **[!UICONTROL Adobe Campaign]**, in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, consulta questa [sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Per i messaggi di errore di consegna sincrona, la  MTA avanzata di Adobe Campaign (Agente di trasferimento messaggi) determina il tipo di rimbalzo e la qualifica e invia nuovamente tali informazioni a Campaign.
 
 >[!NOTE]
 >
->La qualificazione delle mail non recapitate viene ora gestita dall’MTA avanzato di Adobe Campaign. Le qualifiche di mancato recapito nella tabella **[!UICONTROL Message qualification]** di Campaign non vengono più utilizzate.
+>Le qualifiche di mancato recapito nella tabella **[!UICONTROL Message qualification]** di Campaign non vengono più utilizzate.
+
+Le mancate consegne asincrone vengono comunque qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per accedere a queste regole, fai clic sul logo **[!UICONTROL Adobe Campaign]**, in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, consulta questa [sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 <!--Bounces can have the following qualification statuses:
 
@@ -120,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Ottimizzazione della consegna dei messaggi con il doppio meccanismo di consenso {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Ottimizzazione della recapito delle e-mail con doppio meccanismo di consenso {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Il doppio meccanismo di consenso è una best practice per l’invio di e-mail. Esso protegge la piattaforma da indirizzi e-mail errati o non validi, da spambot e impedisce possibili reclami di spam.
 
