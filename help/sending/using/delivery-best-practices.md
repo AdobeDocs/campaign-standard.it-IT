@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 10%
@@ -25,7 +25,7 @@ Scopri le best practice relative alla progettazione e all&#39;invio di materiale
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Modelli](use-templates.md)**  di utilizzo - Agevolare e velocizzare le nuove consegne
+**[Modelli](use-templates.md)**  di utilizzo - Facilitare e accelerare le nuove consegne
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
