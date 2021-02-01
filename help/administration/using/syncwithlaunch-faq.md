@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -28,7 +28,7 @@ applicazione. Per ulteriori informazioni sull&#39;unità organizzativa, fare rif
 
 ## Non è possibile modificare un&#39;applicazione mobile configurata in  Adobe Campaign Standard e le applicazioni mobili sono in sola lettura. {#read-mode-mobile-app}
 
-Controllare l&#39;unità organizzativa dell&#39;applicazione mobile nella sezione **[!UICONTROL Access Authorization ]**. Solo gli utenti dell&#39;unità organizzativa assegnata possono modificare l&#39;applicazione mobile.
+Controllare l&#39;unità organizzativa dell&#39;applicazione mobile nella sezione **[!UICONTROL Access Authorization]**. Solo gli utenti dell&#39;unità organizzativa assegnata possono modificare l&#39;applicazione mobile.
 
 Per ulteriori informazioni sull&#39;unità organizzativa, fare riferimento a questa [pagina](../../administration/using/organizational-units.md).
 
