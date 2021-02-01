@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -134,13 +134,15 @@ Puoi utilizzare metacaratteri o caratteri jolly (ad esempio * o ?) per filtrare 
 
 Scegli se desideri **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**. L’opzione **[!UICONTROL Use a dynamic file path]** ti consente di utilizzare un’espressione standard e variabili di eventi per personalizzare il nome del file da trasferire. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/customizing-workflow-external-parameters.md).
 
-Il percorso deve essere relativo alla directory dello spazio di archiviazione del server di Adobe Campaign. I file si trovano nella directory **sftp&lt;nomeistanza>/**. Inoltre non puoi sfogliare le directory al di sopra dello spazio di archiviazione. Ad esempio:
+Il percorso deve essere relativo alla directory dello spazio di archiviazione del server di Adobe Campaign. I file si trovano nella directory **sftp&lt;nomeistanza>/**. Inoltre non puoi sfogliare le directory al di sopra dello spazio di archiviazione.
 
-    >**user&amp;lt;yourinstancename>/my_recipients.csv** è corretto.
-    >
-    >**../hello/my_recipients.csv** non è corretto.
-    >
-    >**//myserver/hello/myrecipients.csv** non è corretto.
+Ad esempio:
+
+`user&lt;yourinstancename>/my_recipients.csv` è corretta.
+
+`../hello/my_recipients.csv` non è corretto.
+
+`//myserver/hello/myrecipients.csv` non è corretto.
 
 ## Historization settings {#historization-settings}
 
@@ -159,3 +161,16 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
 >[!NOTE]
 >
 >Se l’attività non viene eseguita nuovamente, la relativa cartella non viene né controllata né eliminata. In quest’ottica, fai attenzione durante il trasferimento di file di grandi dimensioni.
+
+## Variabili di output {#output-variables}
+
+L&#39;attività **[!UICONTROL Transfer file]** genera variabili evento come output, che potete sfruttare in altre attività, ad esempio per verificare il numero di file scaricati utilizzando un&#39;attività [Test](../../automating/using/test.md).
+
+È inoltre possibile trasmettere le variabili evento a un altro flusso di lavoro utilizzando un segnale esterno (vedere [Personalizzazione di un flusso di lavoro con parametri esterni](../../automating/using/customizing-workflow-external-parameters.md)).
+
+Le variabili di output disponibili sono:
+
+* **[!UICONTROL fileName]**: nome dei file trasferiti.
+* **[!UICONTROL filesCount]**: numero di file trasferiti.
+
+
