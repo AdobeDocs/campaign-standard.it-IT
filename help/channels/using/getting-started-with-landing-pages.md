@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ La sezione seguente elenca i limiti da conoscere prima di iniziare a impostare p
 * Le pagine di destinazione sono limitate solo alle risorse **[!UICONTROL Profile]** e **[!UICONTROL Subscription]**. Puoi salvare e aggiornare il record da **[!UICONTROL Profile]** e da un abbonamento o dal suo annullamento a un **[!UICONTROL Service]**.
 Per ulteriori informazioni sulla configurazione delle risorse, consulta [Configurazione della struttura dati della risorsa](../../developing/using/configuring-the-resource-s-data-structure.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Una pagina di destinazione non può visualizzare o aggiornare dati provenienti da qualsiasi altra risorsa che non sia **[!UICONTROL Profile]** e **[!UICONTROL Subscription]**.
 
@@ -113,7 +113,7 @@ Dopo la definizione della pagina di destinazione, puoi simulare la modalità di 
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Puoi eseguire i test della pagina di destinazione solo con profili e non su profili di test. Durante l’invio del modulo, i dati del profilo selezionato vengono effettivamente aggiornati. Per evitare di modificare profili reali, utilizza un profilo cliente inesistente.
 
