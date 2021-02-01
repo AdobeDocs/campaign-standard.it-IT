@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Nella pagina **[!UICONTROL Workflows]** sono elencati i flussi di lavoro tecnici
 
 L&#39;applicazione di integrazione include tre flussi di lavoro:
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Da Microsoft Dynamics 365 a Campaign**
 * Invia *contatti* da Microsoft Dynamics 365 a  Adobe Campaign
@@ -71,4 +71,4 @@ Quando si modifica un flusso di lavoro, gli aggiornamenti NON vengono immediatam
 
 Al pulsante **Stop** viene aggiunta un&#39;indicazione di avviso per segnalare all&#39;utente quando (a) sono stati eseguiti aggiornamenti al flusso di lavoro, ma (b) non è stato eseguito un arresto/avvio del flusso di lavoro.
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
