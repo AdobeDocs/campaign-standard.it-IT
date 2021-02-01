@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '357'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ Una volta attivato, è necessario attivare CCN e-mail dall&#39;opzione **[!UICON
 
 >[!NOTE]
 >
->Attualmente le e-mail archiviate non possono essere inviate con l&#39;MTA avanzata di Adobe Campaign , anche se si è già aggiornati all&#39;MTA avanzata.
+>Al momento i messaggi e-mail archiviati non possono essere inviati con il  Adobe Campaign Enhanced MTA.
 
 ## Attivazione dell&#39;archiviazione delle e-mail {#activating-email-archiving}
 
