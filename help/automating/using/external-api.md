@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2180'
+ht-degree: 95%
 
 ---
 
@@ -114,13 +114,13 @@ Se l’**analisi viene convalidata**, viene visualizzato un messaggio che ti inv
 
 ### Execution
 
-Questa scheda consente di definire l’endpoint di connessione. Il campo **[!UICONTROL URL]** consente di definire l&#39; **Endpoint HTTPS** che invierà i dati a Campaign.
+Questa scheda consente di definire l’endpoint di connessione. Il campo **[!UICONTROL URL]** consente di definire l&#39; **Endpoint HTTPS** con cui il Campaign Standard comunicherà.
 
 Se necessario per l’endpoint, sono disponibili due diversi metodi di autenticazione:
 
-* Autenticazione di base: immetti il nome utente/password nel **[!UICONTROL Request Header(s)]** campo.
+* Autenticazione di base: immettere il nome utente/password nella sezione **[!UICONTROL Request Header(s)]**.
 
-* Autenticazione OAuth: facendo clic su **[!UICONTROL Use connection parameters defined in an external account]**, puoi selezionare un account esterno in cui è definita l’autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
+* Autenticazione OAuth: Facendo clic su **[!UICONTROL Use connection parameters defined in an external account]** in un account esterno, potete selezionare un account esterno in cui è definita l&#39;autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -155,6 +155,10 @@ Questa scheda ti consente di attivare la **transizione in uscita** e la relativa
 Questa scheda è disponibile nella maggior parte delle attività del flusso di lavoro. Per ulteriori informazioni, consulta la sezione [Proprietà delle attività](../../automating/using/activity-properties.md).
 
 ![](assets/externalAPI-options.png)
+
+## Test
+
+Per testare la funzionalità API esterna con un semplice endpoint di test, potete utilizzare Postman Echo: https://docs.postman-echo.com.
 
 ## Risoluzione dei problemi
 
@@ -256,8 +260,8 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su condizi
    <td> <p>Chiave di intestazione HTTP non consentita (chiave di intestazione: “Accept”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
-   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+   <td> WKF-560247 - Un valore di intestazione HTTP non è valido (valore di intestazione: '%s').</td> 
+   <td> <p>Il valore dell'intestazione HTTP è errato (valore dell'intestazione: '%s'). </p>
     <p>Nota: questo errore viene registrato quando il valore di intestazione personalizzato non supera la convalida secondo la <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
