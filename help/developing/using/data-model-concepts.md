@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ I campi di estensione vengono generati con un prefisso in modo che non entrino m
 
 >[!NOTE]
 >
->Puoi trovare una rappresentazione del modello dati per le risorse incorporate in [questa pagina](../../developing/using/datamodel-introduction.md).
+>È possibile trovare una rappresentazione del modello di dati per le risorse integrate in [questa pagina](../../developing/using/datamodel-introduction.md).
 
 Puoi anche [configurare la navigazione](configuring-the-screen-definition.md) nelle schermate corrispondenti alla risorsa creata.
 
