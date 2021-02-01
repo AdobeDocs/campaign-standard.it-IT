@@ -5,11 +5,11 @@ product: campaign
 title: Documentazione di Adobe Campaign Standard
 description: Sfoglia la documentazione di Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 540d14231cb08fa86067be9223160ae6cc4eefda
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Novità
+
+* **[Campaign 21.1 - Il rilascio di febbraio è live!](rn/using/release-notes.md)**<br/> Scopri nuove funzioni, aggiornamenti e correzioni
 
 * **[Aggiornamento in caso di mancati recapiti erronei](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> Scopri come aggiornare i dati in seguito a mancati recapiti erronei dovuti a interruzioni del servizio Gmail.
 
