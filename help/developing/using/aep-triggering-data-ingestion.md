@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
@@ -117,7 +117,7 @@ L&#39;operazione di GET restituisce le informazioni seguenti:
 
 Le possibili risposte all&#39;operazione di GET sono:
 
-* Richiesta di assimilazione completata:
+* Richiesta di acquisizione riuscita:
 
    ```
    {
@@ -141,7 +141,7 @@ Le possibili risposte all&#39;operazione di GET sono:
    }
    ```
 
-* Richiesta di acquisizione non riuscita, con alcuni record caricati in un batch:
+* Richiesta di assimilazione non riuscita, con alcuni record caricati in un batch:
 
    ```
    {
