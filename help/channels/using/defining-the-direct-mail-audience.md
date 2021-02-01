@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Per la direct mailing, i profili target sono quelli che verranno inclusi nel fil
 
 Per ciascun profilo target, viene aggiunta una nuova riga nel file di estrazione. La quantità di informazioni di profilo che verranno incluse per ciascun destinatario è indicata nella schermata [Definizione dell’estrazione](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Accertati che i profili includano un indirizzo postale, poiché queste informazioni sono essenziali per il provider di direct mailing. Inoltre, assicurati di aver selezionato la casella **[!UICONTROL Address specified]** nelle informazioni del profilo. Consulta [Raccomandazioni](../../channels/using/about-direct-mail.md#recommendations).
 
