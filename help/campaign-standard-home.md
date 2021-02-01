@@ -6,10 +6,10 @@ title: Documentazione di Adobe Campaign Standard
 description: Sfoglia la documentazione di Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 540d14231cb08fa86067be9223160ae6cc4eefda
+source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 95%
+source-wordcount: '233'
+ht-degree: 94%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 95%
 * **[Campaign 21.1 - Il rilascio di febbraio è live!](rn/using/release-notes.md)**<br/> Scopri nuove funzioni, aggiornamenti e correzioni
 
 * **[Aggiornamento in caso di mancati recapiti erronei](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> Scopri come aggiornare i dati in seguito a mancati recapiti erronei dovuti a interruzioni del servizio Gmail.
-
-* **[Pianificazione della versione](rn/using/release-planning.md)**<br/> Le date della versione di febbraio 2021 sono state aggiunte alla pianificazione delle versioni.
 
 * **[Gruppi di controllo](sending/using/control-group.md)**<br/> 
 Misura l’impatto delle campagne escludendo parte delle relative audience
