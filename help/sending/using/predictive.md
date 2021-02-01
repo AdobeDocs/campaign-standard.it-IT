@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percor
 
 * **Punteggio di coinvolgimento predittivo**: il punteggio di coinvolgimento predittivo prevede la probabilità che un destinatario sia interessato a un messaggio, ma anche la probabilità che questo annulli l’abbonamento entro i successivi 7 giorni dall’invio dell’e-mail. Le probabilità sono ulteriormente suddivise in categorie a seconda del rischio specifico di ritiro, medio o basso. Inoltre, il modello fornisce anche il grado percentile di rischio per i clienti, in modo da poter fare un confronto tra questi.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. La sua implementazione richiede l’intervento della Consulenza Adobe. Per maggiori informazioni, contatta un rappresentante Adobe di fiducia.
 >
 >La funzione richiede l&#39;uso di un archivio di Azure o  Amazon S3 che deve essere fornito dal cliente.
