@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: introduction
 index: y
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -38,7 +38,7 @@ di sistemaL&#39;interfaccia Campaign Standard fornisce un riquadro di notifica c
 lavoro tecniciI flussi di lavoro tecnici sono operazioni o processi pianificati per essere eseguiti regolarmente sul server. Per garantire che l&#39;istanza sia sana e funzioni correttamente, è necessario assicurarsi che siano sempre in funzione. [Leggi tutto](../../administration/using/technical-workflows.md)
 
 **Pannello**
-di controlloIl Pannello di controllo Campaign consente di gestire diverse impostazioni dell’istanza: autorizzazioni URL, controllo dei dettagli dell&#39;istanza come le versioni di build dei server, controllo dell&#39;utilizzo dei profili attivi, ecc. Consente inoltre di monitorare lo spazio disponibile sui server SFTP collegati all’istanza. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html).
+di controlloIl Pannello di controllo Campaign consente di gestire diverse impostazioni dell’istanza: autorizzazioni URL, controllo dei dettagli dell&#39;istanza come le versioni di build dei server, controllo dell&#39;utilizzo dei profili attivi, ecc. Consente inoltre di monitorare lo spazio disponibile sui server SFTP collegati all’istanza. [Leggi tutto](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ controlliI controlli di esportazione consentono di monitorare le esportazioni es
 [Leggi tutto](../../administration/using/auditing-export-logs.md)
 
 ****
-LicenzeIl  **[!UICONTROL Licenses]** menu consente di monitorare le informazioni sulle istanze: licenze installate, versioni build e accettazioni dei termini.
+LicenzeNel  **[!UICONTROL Licenses]** menu, controllate le informazioni relative alle vostre istanze: licenze installate, versioni build e accettazioni dei termini.
 [Leggi tutto](../../administration/using/licenses.md)
 
 ## Monitoraggio dei flussi di lavoro {#monitoring-workflows}
@@ -64,7 +64,7 @@ risoluzione dei problemiLe best practice e le linee guida per la risoluzione dei
 [Leggi tutto](../../automating/using/best-practices-workflows.md)
 
 **Registri e**
-attivitàIl monitoraggio dei registri di lavoro è un passaggio chiave per analizzare i flussi di lavoro e verificare che siano in esecuzione correttamente.
+attivitàIl monitoraggio dei registri dei flussi di lavoro è un passaggio chiave per analizzare i flussi di lavoro e verificare che siano in esecuzione correttamente.
 [Leggi tutto](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 ****
@@ -76,7 +76,7 @@ NotificationsCampaign Standard consente di inviare notifiche ai supervisori per 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 ****
-DeliverabilityCampaign Standard offre diversi strumenti di recapito che consentono di migliorare il numero di messaggi recapitati correttamente: report di analisi dei tempi di consegna, ottimizzazione dei tempi di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
+DeliverabilityCampaign Standard offre diversi strumenti di recapito che consentono di migliorare il numero di messaggi recapitati correttamente: rapporti sul throughput di consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
 [Leggi tutto](../../sending/using/about-deliverability.md)
 
 **Consegne**
@@ -88,5 +88,5 @@ di consegnaCon la funzione Avvisi di consegna potete impostare avvisi che verran
 [Leggi tutto](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Generazione**
-di rapporti dinamicaLa generazione di rapporti dinamica fornisce vari rapporti che consentono di essere informati sulle prestazioni delle consegne: rimbalzi, la maggior parte dei invii visualizzati dai destinatari, il throughput delle consegne, ecc.
+di rapporti dinamicaLa generazione di rapporti dinamica fornisce vari rapporti che consentono di essere informati sulle prestazioni delle consegne: rimbalzi, la maggior parte delle consegne visualizzate dai destinatari, il throughput delle consegne, ecc.
 [Leggi tutto](../../reporting/using/about-dynamic-reports.md)
