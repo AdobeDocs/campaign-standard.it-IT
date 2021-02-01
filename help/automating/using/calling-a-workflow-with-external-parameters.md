@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Panoramica
-description: Questa sezione descrive come chiamare un flusso di lavoro con parametri esterni.
+description: In questa sezione viene illustrato come richiamare un flusso di lavoro con parametri esterni.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 
