@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 0%
 # Monitoraggio di una consegna{#monitoring-a-delivery}
 
 Esistono diversi modi per monitorare una consegna e misurarne l’impatto. In qualità di amministratore funzionale, potete accedere ai registri di notifica e di distribuzione dei messaggi.
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >Solo gli amministratori [funzionali](../../administration/using/users-management.md#functional-administrators), con il ruolo **[!UICONTROL Administration]** e l&#39;accesso alle unità **All** possono accedere ai registri di invio, ai log dei messaggi, ai registri di monitoraggio, ai registri di esclusione o ai registri di iscrizione. Un utente non amministratore può eseguire il targeting di questi registri ma iniziare da una tabella collegata (profili, consegna).
 
