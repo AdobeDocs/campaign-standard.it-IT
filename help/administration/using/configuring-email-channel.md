@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdbba06289eef65d9e42b7d82086f8fa14e1473c
 workflow-type: tm+mt
-source-wordcount: '2331'
-ht-degree: 100%
+source-wordcount: '2564'
+ht-degree: 77%
 
 ---
 
@@ -19,16 +19,6 @@ ht-degree: 100%
 # Configurazione del canale e-mail{#configuring-email-channel}
 
 In qualità di [amministratore](../../administration/using/users-management.md#functional-administrators) di Campaign, puoi effettuare la configurazione delle impostazioni del canale e-mail. Tali impostazioni avanzate includono i parametri generali del canale e-mail, account di indirizzamento e-mail, regole di elaborazione e-mail e proprietà e-mail. In questa pagina imparerai a modificare i valori predefiniti per l’e-mail generale e i parametri di invio.
-
-Tieni presente che alcune impostazioni e-mail adesso sono gestite dall’MTA avanzato di Adobe Campaign. Pertanto:
-* Alcune configurazioni nell’interfaccia utente di Campaign non si applicano più:
-   * Le impostazioni di **[!UICONTROL Retries]** nel [menu Configuration](#email-channel-parameters) e nei [Parametri di invio](#retries-parameters) delle proprietà e-mail.
-   * Le regole **[!UICONTROL MX management]** e **[!UICONTROL Domain management]** nel [menu Email processing rules](#email-processing-rules).
-
-* Altri parametri adesso sono gestiti parzialmente da MTA avanzato, mentre alcune configurazioni possono ancora essere eseguite all’interno di Campaign. Le impostazioni interessate sono le seguenti:
-   * Il parametro **[!UICONTROL Message delivery duration]** nel menu **[!UICONTROL Configuration]**. Per ulteriori informazioni, consulta [questa sezione](#email-channel-parameters).
-   * Il parametro **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity limit for sending messages]** nella sezione **[!UICONTROL Validity period]**. Per ulteriori informazioni, consulta [questa sezione](#validity-period-parameters).
-   * Le regole **[!UICONTROL Bounce mails]** nelle **[!UICONTROL Email processing rules]**. Per ulteriori informazioni, consulta [questa sezione](#email-processing-rules).
 
 ## Parametri del canale e-mail {#email-channel-parameters}
 
@@ -51,11 +41,13 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
 * **Parametri di consegna**
 
-   Adobe Campaign invia i messaggi a partire dalla data di inizio. Il campo **[!UICONTROL Message delivery duration]** consente di specificare l’intervallo di tempo entro il quale verrà ritentato qualsiasi messaggio della consegna che riscontri un errore temporaneo o un messaggio non recapitato.
+   Adobe Campaign invia i messaggi a partire dalla data di inizio.
+
+   Il campo **[!UICONTROL Message delivery duration]** consente di specificare l’intervallo di tempo entro il quale verrà ritentato qualsiasi messaggio della consegna che riscontri un errore temporaneo o un messaggio non recapitato.
 
    >[!IMPORTANT]
    >
-   >**Questo parametro adesso viene utilizzato in Campaign solo se è impostato su 3,5 giorni o meno.** Se definisci un valore superiore a 3,5 giorni, non verrà preso in considerazione in quanto ora è gestito dall’MTA avanzato di Adobe Campaign.
+   >**Questo parametro adesso viene utilizzato in Campaign solo se è impostato su 3,5 giorni o meno.** Se definisci un valore superiore a 3,5 giorni, questo non verrà preso in considerazione.
 
    Il campo **[!UICONTROL Online resources validity duration]** viene utilizzato per le risorse caricate, principalmente per la pagina speculare e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
 
@@ -63,9 +55,9 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
    I messaggi temporaneamente non consegnati sono soggetti a un nuovo tentativo automatico. Per ulteriori informazioni, consulta [Tentativi dopo un errore temporaneo di consegna](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Il numero massimo di nuovi tentativi da eseguire e il ritardo minimo tra di essi sono ora gestiti dall’MTA avanzato di Adobe Campaign, in base alle prestazioni sia cronologiche che attuali di un IP all’interno di un determinato dominio. Le impostazioni di **Nuovi tentativi** in Campaign verranno ignorate.
+   >Il numero massimo di tentativi da eseguire e il ritardo minimo tra i tentativi si basano ora sul livello di prestazioni di un IP sia storicamente che attualmente in un determinato dominio. Le impostazioni **[!UICONTROL Retry period]** e **[!UICONTROL Number of retries]** in Campaign verranno ignorate.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -94,9 +86,16 @@ Il tipo di account deve essere sempre impostato su **[!UICONTROL Routing]**, il 
 
 È possibile accedere alle **[!UICONTROL Email processing rules]** tramite il menu **[!UICONTROL Administration > Channels > Email]**.
 
-Tieni presente che i domini e-mail e le regole MX adesso sono gestiti dall’MTA avanzato di Adobe Campaign:
-* La firma di autenticazione dell’e-mail **DKIM (DomainKeys Identified Mail)** viene eseguita dall’MTA avanzato per tutti i messaggi di tutti i domini. La firma non viene eseguita con **ID mittente**, **DomainKeys** o **S/MIME**, a meno che non venga specificato diversamente a livello di MTA avanzato.
-* L’MTA avanzato utilizza le proprie regole MX, che gli consentono di personalizzare la velocità effettiva secondo il dominio in base alla reputazione cronologica dell’e-mail e al feedback in tempo reale proveniente dai domini da cui invii le e-mail.
+>[!IMPORTANT]
+>
+>I domini e le regole MX di posta elettronica ora vengono gestiti automaticamente<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> e non possono essere modificati.
+
+* **La firma dell&#39;autenticazione** e-mail DKIM (DomainKeys Identified Mail) viene fatta per tutti i messaggi con tutti i domini. Non firma con **ID mittente**, **DomainKeys** o **S/MIME**.
+* Le regole MX personalizzano automaticamente il throughput in base al dominio in base alla reputazione storica delle e-mail e al feedback in tempo reale proveniente dai domini in cui invii le e-mail.
+
+<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+* **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
 ### Messaggi non recapitati {#bounce-mails}
 
@@ -104,9 +103,9 @@ I messaggi non recapitati asincroni sono ancora qualificati dal processo Campaig
 
 Tali regole contengono l’elenco di stringhe di caratteri che possono essere restituite dai server remoti e che ti consentono di qualificare l’errore (**Rigido**, **Morbido** o **Ignorato**).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Per i messaggi di errore di mancata consegna sincroni, l’MTA avanzato di Adobe Campaign determina il tipo di messaggio non recapitato e la relativa qualifica, quindi invia nuovamente tali informazioni a Campaign.
+>I messaggi di errore relativi alla consegna sincrona ora sono qualificati dall&#39;MTA avanzato  Adobe Campaign, che determina il tipo di rimbalzo e la qualifica e li invia a Campaign.
 
 Per ulteriori informazioni sulla qualifica della posta non recapitata, consulta questa [sezione](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
@@ -160,15 +159,9 @@ La sezione **[!UICONTROL Send]** è disponibile solo per i modelli e-mail. Conti
 
 I messaggi temporaneamente non consegnati sono soggetti a un nuovo tentativo automatico. Per ulteriori informazioni, consulta [Tentativi dopo un errore temporaneo di consegna](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Il ritardo minimo tra i nuovi tentativi e il numero massimo di nuovi tentativi da eseguire sono ora gestiti dall’MTA avanzato di Adobe Campaign, in base alle prestazioni sia cronologiche che attuali di un IP all’interno di un determinato dominio. Le impostazioni di **Nuovi tentativi** di Campaign verranno ignorate.
-
-<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
-
-By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
-
-The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+>Il ritardo minimo tra i tentativi e il numero massimo di tentativi da eseguire ora si basa sulle prestazioni di un IP sia storicamente che attualmente in un determinato dominio. Le impostazioni **[!UICONTROL Retry period]** e **[!UICONTROL Max. number of retries]** in Campaign verranno ignorate.
 
 L’**impostazione della durata di consegna** (definita nella sezione [Parametri del periodo di validità](#validity-period-parameters)) **configurata in Campaign continuerà a essere rispettata, ma solo fino a 3,5 giorni**. A questo punto, tutti i messaggi nella coda dei nuovi tentativi verranno rimossi e reinviati come messaggi non recapitati. Per ulteriori informazioni sugli errori di consegna, consulta questa [sezione](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -219,7 +212,7 @@ La sezione **[!UICONTROL Validity period]** contiene i seguenti parametri:
 
    >[!IMPORTANT]
    >
-   >Questo parametro ora è gestito dall’MTA avanzato di Adobe Campaign. **È necessario definire un valore fino a 3,5 giorni.** Se definisci un valore superiore a 3,5 giorni, questo non verrà preso in considerazione.
+   >**È necessario definire un valore fino a 3,5 giorni.** Se imposti un valore superiore a 3,5 giorni, non verrà preso in considerazione.
 
 * **[!UICONTROL Resource validity duration]**/**[!UICONTROL Validity limit date for resources]**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina speculare e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
 * **[!UICONTROL Mirror page management]**: la pagina speculare è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail. Per impostazione predefinita, la pagina speculare viene generata se il collegamento viene inserito nel contenuto della posta. Questo campo ti consente di modificare la modalità di generazione della pagina:
@@ -312,3 +305,43 @@ La sezione **[!UICONTROL Access authorization]** contiene i seguenti parametri:
    >Puoi configurare le unità organizzative dal menu **Administration** > **Users &amp; Security**.
 
 * I campi **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** e **[!UICONTROL Last modified]** vengono completati automaticamente.
+
+## Impostazioni precedenti {#legacy-settings}
+
+Se **not** esegui la versione più recente di Campaign, i parametri e le sezioni di interfaccia descritte di seguito restano validi.
+
+### Nuovi tentativi {#legacy-retries}
+
+Le impostazioni **[!UICONTROL Retries]** nel [menu di configurazione](#email-channel-parameters) e in [Invio di parametri](#retries-parameters) delle proprietà email indicano quanti tentativi devono essere eseguiti il giorno dopo l&#39;avvio dell&#39;invio (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) e il ritardo minimo tra i tentativi (**[!UICONTROL Retry period]**).
+
+Il numero di tentativi può essere modificato a livello globale (contattare l&#39;amministratore tecnico  Adobe) o per ogni modello di consegna o consegna.
+
+Per impostazione predefinita, cinque tentativi sono pianificati per il primo giorno con un intervallo minimo di un&#39;ora, distribuiti nelle 24 ore del giorno. Un nuovo tentativo al giorno viene programmato dopo e fino al termine di consegna, definito a livello globale nella sezione **[!UICONTROL Delivery parameters]** del menu **[!UICONTROL Configuration]** o nella sezione **[!UICONTROL Validity period]** a livello di consegna (vedere la sezione [Durata consegna](#legacy-delivery-duration) sotto).
+
+### Durata consegna {#legacy-delivery-duration}
+
+Il parametro **[!UICONTROL Message delivery duration]** nel menu [Configurazione](#email-channel-parameters) consente di specificare l&#39;intervallo di tempo entro il quale verrà ritentato qualsiasi messaggio nella consegna che rilevi un errore temporaneo o un rimbalzo soft.
+
+Il parametro **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity limit for sending messages]** nella sezione [Parametri periodo di validità](#validity-period-parameters) consente di specificare la durata durante la quale i messaggi possono essere inviati.
+
+### Regole di elaborazione e-mail {#legacy-email-processing-rules}
+
+Le regole **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UICONTROL Domain management]** sono accessibili e modificate dagli amministratori tramite il **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menu](#email-processing-rules).
+
+### Qualificazione di mail non recapitate {#legacy-bounce-mail-qualification}
+
+Per elencare i vari rimbalzi e i relativi tipi di errori e motivi, fare clic sul logo **[!UICONTROL Adobe Campaign]**, in alto a sinistra, quindi selezionare **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+
+Gli oggetti Bounce possono avere i seguenti stati di qualifica:
+
+* **[!UICONTROL To qualify]**: il messaggio di rimbalzo deve essere qualificato. La qualifica deve essere fornita dal team Deliverability per garantire il corretto funzionamento della piattaforma. Fintanto che non è qualificato, il messaggio di rimbalzo non viene utilizzato per arricchire l&#39;elenco delle regole di elaborazione e-mail.
+* **[!UICONTROL Keep]**: il messaggio di rimbalzo è stato qualificato e verrà utilizzato dal flusso di lavoro  **Aggiorna per** la consegna, per essere confrontato con le regole di elaborazione e-mail esistenti e arricchire l&#39;elenco.
+* **[!UICONTROL Ignore]**: il messaggio di rimbalzo era qualificato ma non verrà utilizzato dal flusso di lavoro  **Aggiorna per** la consegna. Pertanto, non verrà inviato alle istanze client.
+
+<!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
+
+### Segnalazione indicatori consegnati {#legacy-delivered-status-report}
+
+Nella **[!UICONTROL Summary]** visualizzazione di ciascun messaggio, la percentuale **[!UICONTROL Delivered]** aumenterà progressivamente durante il periodo di validità della consegna, man mano che i rimbalzi morbidi e rigidi vengono riportati di nuovo.
+
+I messaggi di rimbalzo temporaneo verranno visualizzati come **[!UICONTROL Failed]** dopo il giorno uno della consegna e verranno riprovati ogni giorno aggiuntivo del periodo di validità della consegna.
