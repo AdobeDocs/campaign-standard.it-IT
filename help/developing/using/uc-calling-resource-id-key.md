@@ -4,10 +4,10 @@ product: campaign
 title: Chiamata di una risorsa tramite una chiave di identificazione composita
 description: Scopri come chiamare una risorsa utilizzando una chiave di identificazione composita
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
@@ -37,7 +37,7 @@ Argomenti correlati:
 
 1. Prima di configurare la chiave di identificazione, accertatevi che la risorsa sia stata estesa con i campi desiderati e che sia stata pubblicata. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Andate al menu **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]**, quindi aprite la risorsa **[!UICONTROL Profile]**.
+1. Andate al menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]**, quindi aprite la risorsa **[!UICONTROL Profile]**.
 
    ![](assets/uc_idkey1.png)
 
