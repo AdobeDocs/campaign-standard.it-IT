@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1795'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Puoi sincronizzare le tabelle da Microsoft Dynamics 365 alle metriche di marketi
 
 La pagina **[!UICONTROL Microsoft Dynamics 365 to Campaign]** mostra un elenco di entità in Microsoft Dynamics 365 e le risorse personalizzate in  Adobe Campaign con cui verranno sincronizzate. È possibile aggiungere nuove mappature, modificare o eliminare mappature esistenti.
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 Di seguito è riportata una descrizione di ciascuna colonna della tabella:
 
@@ -67,7 +67,7 @@ Per creare una nuova mappatura, effettuate le seguenti operazioni:
 1. Utilizzare gli elenchi a discesa per selezionare le tabelle di Microsoft Dynamics 365 e Campaign da mappare.
 La maggior parte degli altri input sulla pagina dipenderà dalle tabelle scelte.
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >Non è possibile mappare ogni tabella più di una volta. Pertanto, noterete che le selezioni a discesa non includeranno tabelle già mappate.
@@ -84,7 +84,7 @@ Potete quindi procedere con la configurazione della mappatura. [Ulteriori inform
 
 Se modificate una mappatura esistente, le selezioni delle tabelle non saranno modificabili.
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 Questo avviene in base alla progettazione, in quanto gli input nella pagina sono basati sui campi associati a tali tabelle. La modifica delle tabelle renderebbe non validi tutti i campi associati a tali tabelle.  Se si desidera modificare la tabella in cui eseguire la mappatura, sarà necessario tornare alla pagina precedente, eliminare la mappatura che si desidera modificare e aggiungere una nuova mappatura.
 
@@ -106,7 +106,7 @@ Potete definire le seguenti impostazioni:
 
 Quando aggiungi una nuova Microsoft Dynamics 365 alla mappatura della tabella Campaign, devi identificare il campo ID.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 La chiave primaria di Microsoft Dynamics 365 è di sola lettura perché verrà rilevata dall&#39;applicazione.
 
@@ -118,7 +118,7 @@ Per Campaign, devi selezionare quale campo sarà la chiave univoca. Deve essere 
 
 Le chiavi primarie saranno sempre i nomi dei campi elencati nella sezione **[!UICONTROL Field Mappings]**. Come promemoria, la seguente icona è elencata a destra per ricordare che queste sono le chiavi principali.
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### Aggiungere altri mapping di campi
 
@@ -126,14 +126,14 @@ La sezione **[!UICONTROL Field Mappings]** consente di aggiungere mappature di c
 
 Seleziona i campi di Microsoft Dynamics 365 e Campaign negli elenchi:
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 Questi elenchi contengono i nomi dei campi associati alle tabelle di Microsoft Dynamics 365 e Campaign selezionate nella parte superiore della pagina.
 
 Il commutatore **[!UICONTROL Apply updates]** consente di controllare se gli aggiornamenti a questo campo verranno propagati da Microsoft Dynamics 365 a Campaign:
-* Se è attivato ![](assets/d365-to-acs-icon-switch-on.png), gli aggiornamenti ai valori in Microsoft Dynamics 365 verranno propagati ad  Adobe Campaign non appena si verificano gli aggiornamenti.
+* Se è attivato ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png), gli aggiornamenti ai valori in Microsoft Dynamics 365 verranno propagati ad  Adobe Campaign non appena si verificano gli aggiornamenti.
 
-* Se si spegne ![](assets/d365-to-acs-icon-switch-off.png), il valore verrà propagato quando i dati vengono inizialmente caricati (o riprodotti), ma gli aggiornamenti incrementali al campo in Microsoft Dynamics 365 non verranno propagati.
+* Se si spegne ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png), il valore verrà propagato quando i dati vengono inizialmente caricati (o riprodotti), ma gli aggiornamenti incrementali al campo in Microsoft Dynamics 365 non verranno propagati.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Il commutatore **[!UICONTROL Apply updates]** consente di controllare se gli agg
 
 Quando si selezionano i valori dei campi, sotto i menu a discesa viene visualizzato il tipo di dati.   Questo è qualcosa da tenere presente quando si mappano i valori da un campo all&#39;altro.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ La pagina **[!UICONTROL Campaign to Microsoft Dynamics 365]** consente di identi
 
 Le quattro metriche che puoi controllare sono: **Invia**, **Clic**, **Apre** e **Blocchi**.
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 Selezionare **Yes** per confermare che gli eventi di quel tipo devono scorrere in Microsoft Dynamics 365.
 
@@ -208,7 +208,7 @@ Ulteriori informazioni sulla gestione del rifiuto in [questa sezione](../../inte
 
 Ricorda che devi fare clic su &quot;Salva&quot; per salvare le selezioni. È inoltre necessario arrestare il flusso di lavoro **Campaign to Microsoft Dynamics 365**, quindi fare clic su play per l&#39;integrazione per includere le modifiche.
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### Direzione sincronizzazione consenso/uscita
 
