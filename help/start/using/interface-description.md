@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
+source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1249'
 ht-degree: 81%
 
 ---
@@ -47,7 +47,7 @@ La pagina Home è composta da una serie di schede che ti offrono un accesso rapi
 
 ## Barra superiore {#top-bar}
 
-La barra superiore è visibile su ogni schermo e consente di navigare tra  funzionalità di Adobe Campaign, nonché accedere al profilo del Adobe  connesso, alle notifiche, ai servizi e alle soluzioni Adobe Experience Cloud e alla documentazione.
+La barra superiore è visibile su ogni schermo e consente di navigare tra  funzionalità di Adobe Campaign e accedere al profilo del Adobe  connesso, alle notifiche, alle soluzioni Adobe Experience Cloud e alla documentazione di Campaign.
 
 I principi di navigazione sono i seguenti:
 
@@ -58,24 +58,27 @@ I principi di navigazione sono i seguenti:
 * Il collegamento **[!UICONTROL Home]** ti consente di visualizzare la pagina Home di Adobe Campaign.
 * I collegamenti **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** e **[!UICONTROL Reports]** ti consentono di accedere alle viste collegate a tali funzionalità.
 * L&#39;icona **Solution switcher** consente di passare da un&#39;organizzazione all&#39;altra o a un&#39;altra applicazione.
-* Il pulsante **[!UICONTROL Help]** permette di accedere  documentazione Adobe Campaign Standard, video, note sulla versione e pianificazione della versione, nonché ai collegamenti verso la comunità Adobe Experience Cloud e l&#39;assistenza clienti.
-* Il pulsante Organizzazione
+* L&#39;icona **[!UICONTROL Help]** è descritta [sotto](#help).
 * L’icona **Notifications** visualizza gli avvisi o le informazioni più recenti.
-* L’icona **User** ti consente di visualizzare le informazioni collegate al profilo. Consente di accedere al pulsante **[!UICONTROL Sign out]** e alla schermata **[!UICONTROL About]**.
+* L’icona **User** ti consente di visualizzare le informazioni collegate al profilo. Utilizzate questa icona se è necessario **[!UICONTROL Sign out]**.
 
 ### Guida {#help}
 
-* **[!UICONTROL Search]** porta  Adobe Experience League nel prodotto: i risultati della ricerca includono la documentazione e gli articoli di aiuto, i risultati dei forum della community e altri contenuti video, che consentono di accedere più facilmente a più contenuti per trarre il massimo dall’applicazione.
-* **[!UICONTROL Help]** tab
-   * I collegamenti consentono di accedere rapidamente  documentazione Adobe Campaign Standard, video e note sulla versione.
-   * **[!UICONTROL Learning]** questo collegamento consente di accedere  libreria di contenuti Adobe Campaign.
-   * **[!UICONTROL Community]** questo collegamento consente di accedere al forum dedicato alle domande su ACS.
+L&#39;icona **Help** porta  Adobe Experience League nel prodotto.
 
-* **[!UICONTROL Support]** tab consente di aprire un caso di supporto e di contattarci via telefono o Twitter.
+![](assets/ux_help.png)
 
-* **[!UICONTROL Feedback]**  semplifica la segnalazione di problemi o la condivisione delle idee.
+* **[!UICONTROL Search]** field: i risultati della ricerca includono la documentazione e gli articoli di aiuto, i risultati dei forum della community e altri contenuti video, che consentono di accedere più facilmente a più contenuti per trarre il massimo dall’applicazione.
 
-   ![](assets/ux_help.png)
+Tre schede aiutano a trovare aiuto e assistenza:
+
+1. La scheda **[!UICONTROL Help]** contiene:
+   * accesso rapido  documentazione Adobe Campaign Standard con collegamenti contestuali.
+   * un collegamento **[!UICONTROL Learning]** che consente di accedere  libreria dei corsi Adobe Campaign.
+   * un collegamento **[!UICONTROL Community]** per accedere al forum dedicato alle tue domande su Campaign.
+   * un accesso diretto a: Centro assistenza, Assistenza clienti, stato  prodotto del Experience Cloud, connessione sviluppatori, note sulla versione, pianificazione della versione e la schermata **[!UICONTROL About]**.
+1. La scheda **[!UICONTROL Support]** consente di aprire un caso di supporto e di contattarci via telefono o Twitter.
+1. La scheda **[!UICONTROL Feedback]** semplifica la segnalazione dei problemi o la condivisione delle idee.
 
 ## Menu avanzato {#advanced-menu}
 
