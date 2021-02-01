@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1250'
+ht-degree: 90%
 
 ---
 
@@ -118,7 +118,9 @@ Per utilizzare in modo appropriato E-mail designer e creare le e-mail migliori n
 
    Visualizza l’anteprima dei messaggi prima di inviarli.  Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consulta [Rendering e-mail](../../sending/using/email-rendering.md).
 
-Una maggiore progettazione e best practice generali per i messaggi sono presentate nella sezione seguente: [Best practice di distribuzione](../../sending/using/delivery-best-practices.md).
+* Il tag meta del referente non è supportato nella finestra di progettazione e-mail.
+
+Puoi trovare altre best practice generiche e specifiche sui messaggi nella guida passo-passo di Adobe Campaign che segue: [Best practice per le consegne con Adobe Campaign](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html).
 
 ### Aggiornamento dei frammenti {#email-designer-updates}
 
