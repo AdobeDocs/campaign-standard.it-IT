@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
+source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6511'
-ht-degree: 98%
+source-wordcount: '6540'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 **Nuove funzionalità incluse nella versione**
 
-Servizio Feedback e-mail - [Leggi tutto](../../sending/using/confirming-the-send.md#email-feedback-service)
+Servizio di feedback e-mail - [Leggi tutto](../../sending/using/confirming-the-send.md#email-feedback-service)
 
 Miglioramenti all&#39;integrazione Adobe Experience Manager - [Leggi tutto](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -37,13 +37,15 @@ Sono state aggiunte informazioni sulla nuova funzione GetOption che consente di 
 
 Sono state aggiunte informazioni sulla nuova variabile di output **[!UICONTROL filesCount]** disponibile dopo l&#39;utilizzo di un&#39;attività **[!UICONTROL Transfer file]**. [Leggi tutto](../../automating/using/transfer-file.md#output-variables)
 
-La sezione **Configuring email channel** (Configurazione del canale e-mail) è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. Alcuni parametri precedenti ancora in uso per alcuni clienti sono elencati in fondo a questa pagina. [Leggi tutto](../../administration/using/configuring-email-channel.md)
+La sezione **Configuring email channel** (Configurazione del canale e-mail) è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. Alcuni parametri precedenti ancora in uso per alcuni clienti sono elencati nella parte inferiore della pagina. [Leggi tutto](../../administration/using/configuring-email-channel.md)
 
 ## Dicembre 2020 {#doc-updates-december-2020}
 
 La funzionalità **Oggetto predittivo** è ora obsoleta. [Leggi tutto](../../rn/using/deprecated-features.md)
 
-La sezione introduttiva sulla **messaggistica transazionale** ora include [schemi avanzati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) e un [caso d’uso end-to-end](../../channels/using/transactional-messaging-use-case.md) che illustra il processo di implementazione. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
+La sezione **Guida introduttiva ai messaggi transazionali** ora include [schemi migliorati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) per una migliore comprensione del processo.
+
+È ora disponibile un caso di utilizzo end-to-end per illustrare il processo di implementazione della messaggistica transazionale. [Leggi tutto](../../channels/using/transactional-messaging-use-case.md)
 
 La sezione **Privacy** è stata spostata [qui](../../start/using/privacy.md).
 
@@ -57,11 +59,13 @@ La sezione **Utilizzo degli elenchi di prodotti in un messaggio sulle transazion
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
-La sezione Dati personali e utenti tipo è stata aggiornata aggiungendo uno scenario relativo al caso d’uso per illustrare come avviene l’interazione di diversi utenti tipo dal punto di vista della privacy. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
+La sezione **Dati personali e Personas** è stata aggiornata con uno scenario relativo al caso d&#39;uso per illustrare l&#39;interazione delle diverse persone in materia di privacy. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
 
 È stata aggiunta una nuova sezione in cui sono elencate le domande frequenti sulla privacy. [Leggi tutto](../../start/using/privacy-faq.md)
 
-La sezione Privacy è stata spostata e arricchita con due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di accesso a dati personali](../../start/using/privacy-requests.md).
+La sezione **Privacy** è stata spostata e arricchita di due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di privacy](../../start/using/privacy-requests.md).
+
+La sezione **Messaggi transazionali** è stata riorganizzata e riunita in un unico punto per migliorare la navigazione. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
 
 Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull’errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolverlo. [Leggi tutto](../../developing/using/aep-mapping-activation.md)
 
@@ -87,7 +91,7 @@ Alle procedure consigliate per i flussi di lavoro è stato aggiunto un consiglio
 
 ## Settembre 2020 {#doc-updates-september-2020}
 
-La sezione Messaggi sulle transazioni degli eventi è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/editing-transactional-message.md)
+La sezione **Messaggi transazionali evento** è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/editing-transactional-message.md)
 
 È stata aggiunta una nota di avviso per informare gli utenti della limitazione delle autorizzazioni relativa all’accesso al registro. [Leggi tutto](../../administration/using/users-management.md)
 
@@ -101,9 +105,9 @@ Nel rapporto Profili attivi sono state aggiunte informazioni sulle origini anoni
 
 È disponibile una nuova sezione aggiornata nella guida introduttiva sull’utilizzo dei messaggi transazionali. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
 
-La sezione **Limitazioni della messaggistica transazionale** è stata spostata [qui](../../channels/using/transactional-messaging-limitations.md)
+La sezione **Limitazioni della messaggistica transazionale** è stata spostata [qui](../../channels/using/transactional-messaging-limitations.md).
 
-La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/using/preparing-the-send.md)
+La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/using/preparing-the-send.md).
 
 ## Luglio 2020 {#doc-updates-july-2020}
 
