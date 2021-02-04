@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
+source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ I gruppi di sicurezza sono insiemi di utenti che condividono gli stessi ruoli e 
 
 Gli utenti devono sempre essere collegati a un gruppo di sicurezza. In questo modo, puoi assegnare loro ruoli e unità organizzative specifici.
 
-Per ulteriori informazioni sui ruoli, le tabelle della pagina seguente presentano diverse operazioni disponibili in base ai ruoli di un utente: [Autorizzazioni di Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it).
+Per ulteriori informazioni sui ruoli, la tabella nella pagina seguente presenta le possibili operazioni disponibili in base ai ruoli di un utente: [ autorizzazioni Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 I gruppi di sicurezza predefiniti sono:
 
@@ -35,9 +35,9 @@ I gruppi di sicurezza predefiniti sono:
 
 >[!IMPORTANT]
 >
->I gruppi di sicurezza **[!UICONTROL Access to the deliverability parameters (Deliverability)]** e **[!UICONTROL Message Center agents (mcExec)]** sono esclusivamente interni e non devono essere assegnati agli utenti.
+>I gruppi di sicurezza **[!UICONTROL Access to the deliverability parameters (Deliverability)]** e **[!UICONTROL Message Center agents (mcExec)]** sono  solo interni al Adobe e non devono essere assegnati ad alcun utente.
 
-Se un utente non è collegato ad alcun gruppo di sicurezza, non può accedere ad Adobe Campaign.
+Per poter accedere  Adobe Campaign, ogni utente deve essere assegnato a un gruppo di sicurezza.
 
 Per limitare l’accesso di un utente, non aggiungere l’utente al gruppo di utenti di Campaign Standard, in quanto è collegato all’unità organizzativa **[!UICONTROL All]**.
 
@@ -146,5 +146,5 @@ Gli utenti sono ora assegnati a un gruppo di sicurezza e possono connettersi ad 
 
 >[!IMPORTANT]
 >
->Se gli utenti vengono rimossi da un gruppo di sicurezza in Admin Console, continuano a far parte dell’unità organizzativa di Adobe Campaign e non possono più accedere ad Adobe Campaign. In questo caso, rimuovi gli indirizzi e-mail degli utenti in Admin Console per impedire che ricevano informazioni riservate.
+>Se gli utenti vengono rimossi da un gruppo di protezione in Admin Console, rimarranno parte del gruppo di protezione Adobe Campaign  e non potranno più accedere  Adobe Campaign. In questo caso, rimuovi gli indirizzi e-mail degli utenti in Admin Console per impedire che ricevano informazioni riservate.
 
