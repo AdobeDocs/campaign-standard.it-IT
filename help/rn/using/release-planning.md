@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare que
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate via e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md) all&#39;avvio degli aggiornamenti dell&#39;ambiente Stage.
+Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md) all’avvio degli aggiornamenti dell’ambiente Stage.
 
 <table>
  <thead>
@@ -47,7 +47,7 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
   </tr>
   <tr>
    <td> Produzione<br /> </td>
-   <td>8 - 17 febbraio 2021<br /> </td>
+   <td>8-17 febbraio 2021<br /> </td>
   </tr>
  </tbody>
 </table>
