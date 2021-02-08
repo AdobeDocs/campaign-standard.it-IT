@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
 source-wordcount: '6540'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -25,19 +25,19 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 Servizio di feedback e-mail - [Leggi tutto](../../sending/using/confirming-the-send.md#email-feedback-service)
 
-Miglioramenti all&#39;integrazione Adobe Experience Manager - [Leggi tutto](../../integrating/using/creating-multilingual-email-aem.md)
+Miglioramenti per l’integrazione con Adobe Experience Manager - [Leggi tutto](../../integrating/using/creating-multilingual-email-aem.md)
 
-Interfaccia  Experience Cloud unificata - [Leggi tutto](../../start/using/interface-description.md#top-bar)
+Interfaccia unificata Experience Cloud - [Leggi tutto](../../start/using/interface-description.md#top-bar)
 
 **Altri aggiornamenti alla documentazione in arrivo con la versione**
 
 Sono state aggiunte informazioni su come cercare un profilo in base all’e-mail, al nome, al cognome o a qualsiasi campo personalizzato. [Leggi tutto](../../audiences/using/integrated-customer-profile.md)
 
-Sono state aggiunte informazioni sulla nuova funzione GetOption che consente di restituire il valore di una funzione specificata quando si chiama un flusso di lavoro con parametri esterni. [Leggi tutto](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+Sono state aggiunte informazioni sulla nuova funzione GetOption, che consente di restituire il valore di una funzione specificata quando viene richiamato un flusso di lavoro con parametri esterni. [Leggi tutto](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-Sono state aggiunte informazioni sulla nuova variabile di output **[!UICONTROL filesCount]** disponibile dopo l&#39;utilizzo di un&#39;attività **[!UICONTROL Transfer file]**. [Leggi tutto](../../automating/using/transfer-file.md#output-variables)
+Sono state aggiunte informazioni sulla nuova variabile di output **[!UICONTROL filesCount]** disponibile dopo l’utilizzo di un’attività **[!UICONTROL Transfer file]**. [Leggi tutto](../../automating/using/transfer-file.md#output-variables)
 
-La sezione **Configuring email channel** (Configurazione del canale e-mail) è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. Alcuni parametri precedenti ancora in uso per alcuni clienti sono elencati nella parte inferiore della pagina. [Leggi tutto](../../administration/using/configuring-email-channel.md)
+La sezione per la **configurazione del canale e-mail** è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. Alcuni parametri precedenti ancora in uso per alcuni clienti sono elencati nella parte inferiore della pagina. [Leggi tutto](../../administration/using/configuring-email-channel.md)
 
 ## Dicembre 2020 {#doc-updates-december-2020}
 
@@ -637,7 +637,7 @@ Nella documentazione API è stata aggiunta una sezione relativa ai **filtri pers
 
 **Nuove funzionalità incluse nella versione**
 
-RGPD: integrazione dei servizi core - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#getting-started)
+RGPD: integrazione dei servizi core - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it)
 
 Miglioramenti push - feedback dettagliato sulla consegna - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
