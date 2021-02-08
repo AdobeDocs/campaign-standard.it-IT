@@ -9,11 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1479'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Per gestire correttamente la privacy e i dati personali, attieniti alle normativ
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle modalità di applicazione di GDPR, CCPA e PDPA a  Adobe Campaign, vedere [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Per ulteriori informazioni sul modo in cui le normative GDPR, CCPA e PDPA interessano Adobe Campaign, consulta [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 ### Privacy di Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -78,7 +78,7 @@ Nella gestione della privacy è importante definire quali dati devono essere ges
 * **I dati personali** sono informazioni che possono identificare direttamente o indirettamente un individuo.
 * **I dati personali riservati** sono informazioni relative alla razza, alle opinioni politiche, alle credenze religiose, ai precedenti penali, alle informazioni genetiche, ai dati sulla salute, alle preferenze sessuali e alle informazioni biometriche di un individuo, nonché alla sua appartenenza a un sindacato.
 
-Le [principali normative](#privacy-regulations) si riferiscono alle diverse entità che gestiscono i dati come segue:
+Le [normative principali](#privacy-regulations) si riferiscono alle diverse entità che gestiscono i dati come segue:
 * Il **titolare del trattamento** è l’autorità che determina i mezzi e lo scopo della raccolta, dell’utilizzo e della condivisione dei dati personali.
 * Il **responsabile del trattamento** è qualsiasi individuo o parte che raccoglie, utilizza o condivide dati personali come indicato dal titolare del trattamento.
 * L’**interessato** è qualsiasi individuo i cui dati personali vengono raccolti, utilizzati o condivisi e che può essere identificato direttamente o indirettamente in base a tali dati personali.
@@ -98,7 +98,7 @@ Pertanto, in quanto azienda che raccoglie e condivide dati personali, ricopri il
 
 ## Gestione della privacy {#privacy-management}
 
-La gestione della privacy si riferisce a tutti i processi e agli strumenti che possono aiutarti a rispettare le normative sulla privacy (GDPR, CCPA, ecc.). Ottenete una panoramica della gestione della privacy in [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html).
+La gestione della privacy si riferisce a tutti i processi e agli strumenti che possono aiutarti a rispettare le normative sulla privacy (GDPR, CCPA, ecc.). Per una panoramica sulla gestione della privacy, visita [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html).
 
  Adobe Campaign offre varie serie di funzioni dedicate alla gestione della privacy:
 * Gestione del consenso, conservazione dei dati e ruoli degli utenti. Vedi [questa sezione](#consent).
@@ -116,7 +116,7 @@ Adobe Campaign offre da sempre funzioni importanti necessarie per la privacy:
 * **Conservazione dei dati**: tutte le tabelle di registro standard integrate dispongono di periodi di conservazione preimpostati, che in genere limitano l’archiviazione dei dati a un massimo di 6 mesi. Puoi impostare ulteriori periodi di conservazione con i flussi di lavoro. Per maggiori informazioni, rivolgiti ai consulenti o agli amministratori tecnici di Adobe.
 * **Gestione dei diritti**: Adobe Campaign consente di gestire i diritti assegnati ai vari operatori Campaign tramite diversi ruoli predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Per ulteriori informazioni, consulta [Informazioni sulla gestione degli accessi](../../administration/using/about-access-management.md).
 
-Per ulteriori informazioni su queste funzioni e su come gestirle in  Adobe Campaign, vedere [questa pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
+Per ulteriori informazioni su queste funzioni e su come gestirle in Adobe Campaign, consulta [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#consent).
 
 ### Richieste di accesso a dati personali {#privacy-requests}
 
@@ -128,7 +128,7 @@ Per ulteriori informazioni su queste funzioni e su come gestirle in  Adobe Campa
 
 >[!NOTE]
 >
->Questi strumenti sono a tua disposizione per aiutarti a rispettare le normative sulla privacy (GDPR, CCPA e PDPA). Per ulteriori informazioni su queste diverse normative, vedere [questa pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Questi strumenti sono a tua disposizione per aiutarti a rispettare le normative sulla privacy (GDPR, CCPA e PDPA). Per ulteriori informazioni su queste diverse normative, consulta [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Le richieste di **accesso** ed **eliminazione** vengono presentate in [questa pa
 
 ## Funzionalità di tracciamento {#tracking-capabilities}
 
-Grazie alle funzionalità di tracciamento, Adobe Campaign consente di monitorare il comportamento dei destinatari delle consegne utilizzando cookie di sessione e cookie permanenti. Per ulteriori informazioni sul tracciamento, vedere [questa pagina](../../sending/using/tracking-messages.md).
+Grazie alle funzionalità di tracciamento, Adobe Campaign consente di monitorare il comportamento dei destinatari delle consegne utilizzando cookie di sessione e cookie permanenti. Per ulteriori informazioni sul tracciamento, consulta [questa pagina](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
