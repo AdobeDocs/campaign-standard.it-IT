@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guida a Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 + [Ultimi aggiornamenti](rn/using/documentation-updates.md)
 + Note sulla versione {#release-notes}
    + [Ultima versione](rn/using/release-notes.md)
-   + [Note sulla versione](rn/using/early-release-notes.md)
+   + [Note preliminari sulla versione](rn/using/early-release-notes.md)
    + Versioni precedenti {#previous-releases}
       + [Note sulla versione 2020](rn/using/release-notes-2020.md)
       + [Note sulla versione 2019](rn/using/release-notes-2019.md)
@@ -237,7 +237,7 @@ ht-degree: 95%
       + [Configurazione per l’integrazione di Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Creazione di contenuti e-mail in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Creazione di un modulo Campaign in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-      + [Creazione di un&#39;e-mail multilingue con l&#39;integrazione Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
+      + [Creazione di un&#39;e-mail multilingue con l’integrazione Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign e Target {#working-with-campaign-and-target}
       + [Informazioni sull’integrazione di Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configurazione dell’integrazione Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
@@ -263,17 +263,17 @@ ht-degree: 95%
       + [Verifica degli attivatori](integrating/using/testing-your-triggers.md)
       + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Introduzione all&#39;integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
+      + [Introduzione all’integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Best practice e limitazioni](integrating/using/d365-acs-notices-and-recommendations.md)
-      + [Configurare Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
-      + [Configurare Campaign e  Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
-      + Configurare l&#39;app di integrazione {#configure-integration-tool}
-         + [Guida introduttiva all&#39;app di integrazione](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
-         + [Accesso all&#39;app di integrazione](integrating/using/d365-acs-self-service-app-control-access.md)
-         + [Collegare i sistemi con l&#39;app di integrazione](integrating/using/d365-acs-self-service-app-settings.md)
-         + [Gestione dei flussi di lavoro di sincronizzazione](integrating/using/d365-acs-self-service-app-workflows.md)
+      + [Configurazione di Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+      + [Configurazione di Campaign e Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+      + Configurazione dell’applicazione di integrazione {#configure-integration-tool}
+         + [Introduzione all’applicazione di integrazione](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Accesso all’applicazione di integrazione](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [Collegare i sistemi con l’applicazione di integrazione](integrating/using/d365-acs-self-service-app-settings.md)
+         + [Gestire i flussi di lavoro di sincronizzazione](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappare i dati tra Microsoft Dynamics 365 e Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
-      + [Utilizzare l’integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
+      + [Utilizzo dell&#39;integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
 + Gestione di processi e dati {#managing-processes-and-data}
    + [Guida introduttiva alla gestione dei dati e dei processi](automating/using/get-started-workflows.md)
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
@@ -451,7 +451,7 @@ ht-degree: 95%
       + [Domande frequenti sull’integrazione dell’Experience Platform SDK](administration/using/aep-faq.md)
       + [Configurazione delle regole di Launch per supportare casi d’uso di Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casi d’uso per dispositivi mobili supportati all’interno di Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
-      + [Come migrare l’applicazione mobile da SDK v4 ad Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
+      + [Migrazione dell’app mobile da SDK v4 ad Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + Configurazione del canale SMS {#configuring-sms}
       + [Implementazione del canale SMS](administration/using/configuring-sms-channel.md)
       + [Protocollo e impostazioni del connettore SMS](administration/using/sms-protocol.md)
