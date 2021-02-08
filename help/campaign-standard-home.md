@@ -5,11 +5,11 @@ product: campaign
 title: Documentazione di Adobe Campaign Standard
 description: Sfoglia la documentazione di Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 94%
 
 ## Novità
 
-* **[Campaign 21.1 - Il rilascio di febbraio è live!](rn/using/release-notes.md)**<br/> Scopri nuove funzioni, aggiornamenti e correzioni
+* **[Campaign 21.1 - È disponibile la versione di febbraio.](rn/using/release-notes.md)**<br/> Scopri le nuove funzioni, gli aggiornamenti e le correzioni
 
-* **[Aggiornamento in caso di mancati recapiti erronei](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> Scopri come aggiornare i dati in seguito a mancati recapiti erronei dovuti a interruzioni del servizio Gmail.
+* **[Aggiornamento degli hard bounce erronei](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> Scopri come aggiornare gli hard bounce erronei dovuti a interruzioni del servizio Gmail
 
 * **[Gruppi di controllo](sending/using/control-group.md)**<br/> 
 Misura l’impatto delle campagne escludendo parte delle relative audience
