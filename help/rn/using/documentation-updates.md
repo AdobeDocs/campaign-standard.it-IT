@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
 source-wordcount: '6540'
 ht-degree: 98%
@@ -23,7 +23,7 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 **Nuove funzionalità incluse nella versione**
 
-Servizio di feedback e-mail - [Leggi tutto](../../sending/using/confirming-the-send.md#email-feedback-service)
+Servizio di feedback e-mail - [Leggi tutto](../../sending/using/confirming-the-send.md#message-indicators)
 
 Miglioramenti per l’integrazione con Adobe Experience Manager - [Leggi tutto](../../integrating/using/creating-multilingual-email-aem.md)
 
