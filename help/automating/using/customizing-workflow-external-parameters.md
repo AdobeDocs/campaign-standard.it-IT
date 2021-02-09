@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
+source-git-commit: 3a87f15ee7e934c39224cd7f64aafb80d73b433b
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 1%
@@ -63,7 +63,7 @@ Quando si utilizza una variabile in un&#39;attività, l&#39;interfaccia fornisce
    | DateFormat | Formatta una data utilizzando il formato specificato nel secondo parametro (ad esempio:  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Data>,&lt;Formato>) |
    | NomeFile | Restituisce il nome di un percorso di file. | FileName(&lt;String>) |
    | FileExt | Restituisce l&#39;estensione di un percorso di file. | FileExt(&lt;String>) |
-   | GetOption | Restituisce il valore della funzione specificata. | GetOption(&lt;nomeOpzione> |
+   | GetOption | Restituisce il valore della funzione specificata. | GetOption(&lt;nomeOpzione>) |
    | IsNull | Indica se una stringa o una data è null. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | Codifica un URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 
