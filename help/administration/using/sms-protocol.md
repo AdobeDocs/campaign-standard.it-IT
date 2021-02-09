@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8665'
 ht-degree: 0%
 
 ---
@@ -356,7 +356,7 @@ La dimensione massima di un messaggio dipende dalla codifica. Questa tabella ria
 | Codifica | Solito data_coding | Dimensione del messaggio (caratteri) | Dimensioni parte per SMS multiparte | Caratteri disponibili |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | GSM7 set di caratteri di base + estensione (i caratteri estesi prendono 2 caratteri) |
-| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varia da telefono a telefono) |
 
 ## Parametri del conto esterno SMPP {#SMPP-parameters-external}
@@ -478,7 +478,7 @@ La specifica del codice breve è utile per due funzioni:
 
 * Nell&#39;anteprima viene visualizzato il codice breve se non viene fornito alcun numero di origine. Rifletterà il comportamento reale sul cellulare.
 
-* L&#39;impostazione di inserire nell&#39;elenco Bloccati  della funzione di risposta automatica invia solo all&#39;utente la quarantena per un codice breve specifico.
+* L&#39;impostazione di elenco Bloccati della funzione di risposta automatica invia solo all&#39;utente la quarantena per un codice breve specifico.
 
 #### Origine TON/NPI, destinazione TON/NPI {#ton-npi}
 
@@ -704,7 +704,7 @@ Questa impostazione consente solo di aggiungere un’opzione TLV per messaggio.
 
 ### Risposta automatica inviata al MO {#automatic-reply}
 
-Questa funzione consente di rispondere rapidamente al testo su MO e di gestire per codice breve l&#39;invio al elenco Bloccati .
+Questa funzione consente di rispondere rapidamente al testo su MO e di gestire per codice breve l&#39;invio al elenco Bloccati.
 
 Le colonne **Parola chiave** e **Codice breve** definiscono le condizioni per attivare la risposta automatica. Se entrambi i campi corrispondono, l&#39;MO viene inviato e l&#39;azione aggiuntiva viene attivata. Per specificare un carattere jolly, lasciare vuoto il campo. La parola chiave corrisponde alla prima parola alfanumerica nel testo MO, ignorando la punteggiatura e gli spazi iniziali. Significa che il campo **Parola chiave** non può contenere spazi e deve essere una sola parola.
 
