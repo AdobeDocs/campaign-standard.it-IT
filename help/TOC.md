@@ -7,10 +7,10 @@ user-guide-description: 'Centro assistenza per le principali funzioni, attività
 breadcrumb-title: Centro Risorse
 title: Guida a Campaign Standard
 translation-type: tm+mt
-source-git-commit: 2dedadd1a2879be1aee62272f7b063a365206bd8
+source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 100%
+source-wordcount: '1759'
+ht-degree: 99%
 
 ---
 
@@ -287,6 +287,7 @@ ht-degree: 100%
       + [Monitoraggio dell’esecuzione di un flusso di lavoro](automating/using/monitoring-workflow-execution.md)
       + [Gestione delle opzioni di esecuzione](automating/using/managing-execution-options.md)
       + [Gestione delle proprietà delle attività](automating/using/activity-properties.md)
+      + [Esecuzione sovrapposta dei flussi di lavoro programmati](automating/using/scheduled-workflows-execution.md)
    + Chiamata di un flusso di lavoro con parametri esterni {#calling-workflow-external-parameters}
       + [Panoramica](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Dichiarazione dei parametri nell’attività Segnale esterno](automating/using/declaring-parameters-external-signal.md)
