@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 97%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
@@ -33,6 +33,8 @@ Durante la creazione del flusso di lavoro, utilizza una sola attività **[!UICON
 >[!CAUTION]
 >
 >La **[!UICONTROL Repetition frequency]** dell’attività non può essere inferiore a 10 minuti. Ciò significa che non è possibile eseguire automaticamente un flusso di lavoro più di una volta ogni 10 minuti.
+
+Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga ripianificato finché non viene completato. A tal fine, è necessario configurare il flusso di lavoro in modo da impedirne l&#39;esecuzione se una o più attività di un&#39;esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
 
 **Argomenti correlati:**
 
