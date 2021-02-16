@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 89%
+source-wordcount: '1179'
+ht-degree: 85%
 
 ---
 
@@ -109,6 +109,8 @@ Puoi visualizzare in anteprima le prossime dieci esecuzioni dei flussi di lavoro
 ![](assets/preview_scheduler.png)
 
 Per ulteriori informazioni, consulta [Attività di pianificazione](../../automating/using/scheduler.md).
+
+Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga ripianificato finché non viene completato. A tal fine, è necessario configurare il flusso di lavoro in modo da impedirne l&#39;esecuzione se una o più attività di un&#39;esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
 
 ## Chiamata del flusso di lavoro con parametri{#workflow-with-parameters}
 
