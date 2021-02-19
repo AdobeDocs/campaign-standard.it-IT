@@ -31,7 +31,7 @@ Se si riceve sempre lo stesso messaggio di errore per un ISP, l&#39;e-mail o l&#
 
 Se il problema persiste, contattate i servizi commerciali o di recapito o  supporto Adobe Campaign.
 
-## elenco Bloccati e quarantena {#denylist-versus-quarantine}
+## Elenco Bloccati e quarantena {#denylist-versus-quarantine}
 
 * **Qual è la differenza tra un indirizzo e-mail elenco Bloccati e un indirizzo e-mail in quarantena?**
 
