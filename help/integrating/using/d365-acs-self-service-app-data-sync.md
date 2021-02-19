@@ -86,7 +86,7 @@ Se modificate una mappatura esistente, le selezioni delle tabelle non saranno mo
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
-Questo avviene in base alla progettazione, in quanto gli input nella pagina sono basati sui campi associati a tali tabelle. La modifica delle tabelle renderebbe non validi tutti i campi associati a tali tabelle.  Se si desidera modificare la tabella in cui eseguire la mappatura, sarà necessario tornare alla pagina precedente, eliminare la mappatura che si desidera modificare e aggiungere una nuova mappatura.
+Questo avviene in base alla progettazione, in quanto gli input più giù nella pagina sono basati sui campi associati a tali tabelle. La modifica delle tabelle renderebbe non validi tutti i campi associati a tali tabelle.  Se si desidera modificare la tabella in cui eseguire la mappatura, sarà necessario tornare alla pagina precedente, eliminare la mappatura che si desidera modificare e aggiungere una nuova mappatura.
 
 ### Configurare una mappatura tabella singola {#new-mapping-settings}
 
