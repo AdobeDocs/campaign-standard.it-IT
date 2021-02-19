@@ -21,7 +21,7 @@ ht-degree: 8%
 
 ## Rilascio 19.4 - dicembre 2019 {#release-19-4---october-2019}
 
-**Novità**
+**Scopri le novità**
 
 <table> 
  <thead> 
@@ -147,7 +147,7 @@ ht-degree: 8%
 
 ## Versione 19.3 - luglio 2019 {#release-19-3---july-2019}
 
-**Novità**
+**Scopri le novità**
 
 <table> 
  <thead> 
@@ -292,7 +292,7 @@ ht-degree: 8%
 
 ## Versione 19.2 - maggio 2019 {#release-19-2---may-2019}
 
-**Novità**
+**Scopri le novità**
 
 <table> 
  <thead> 
@@ -410,7 +410,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 ## Versione 19.1 - febbraio 2019 {#release-19-1---february-2019}
 
-**Novità**
+**Scopri le novità**
 
 <table> 
  <thead> 
@@ -516,7 +516,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
 
 ## Versione 19.0 - gennaio 2019 {#release-19-0---january-2019}
 
-**Novità**
+**Scopri le novità**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -543,7 +543,7 @@ Diversi miglioramenti sono stati aggiunti al canale di messaggistica transaziona
   </tr> 
   <tr> 
    <td> Visualizzazione mobile in E-mail Designer<br /> </td> 
-   <td> <p>È ora possibile passare a una vista mobile dedicata durante la modifica del contenuto delle e-mail. Questo consente di ottimizzare il design reattivo di un’e-mail modificando separatamente tutte le opzioni di stile per la visualizzazione mobile, ad esempio adattando i margini, le dimensioni dei font più piccole, i diversi colori di sfondo e così via.</p><p> Per ulteriori informazioni, consulta la <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">documentazione dettagliata</a>.</p> </td> 
+   <td> <p>È ora possibile passare a una visualizzazione mobile dedicata durante la modifica del contenuto delle e-mail. Questo consente di ottimizzare il design reattivo di un’e-mail modificando separatamente tutte le opzioni di stile per la visualizzazione mobile, ad esempio adattando i margini, le dimensioni dei font più piccole, i diversi colori di sfondo e così via.</p><p> Per ulteriori informazioni, consulta la <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">documentazione dettagliata</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti della versione beta della messaggistica in-app<br /> </td> 
