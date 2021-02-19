@@ -98,7 +98,7 @@ Si tratta di una procedura in tre fasi.
 
 1. Recuperate il servizio desiderato e il relativo URL di iscrizione.
 1. Eseguite una richiesta di GET sull&#39;URL delle sottoscrizioni per recuperare tutte le sottoscrizioni di profili.
-1. Eseguite una richiesta di DELETE sull&#39;URL di iscrizione profilo desiderato.
+1. Eseguite una richiesta DELETE sull&#39;URL di iscrizione profilo desiderato.
 
 Se la richiesta di eliminazione ha esito positivo, lo stato della risposta è 204 Nessun contenuto.
 
@@ -160,7 +160,7 @@ Restituisce l&#39;elenco delle sottoscrizioni per il servizio selezionato, con u
 }
 ```
 
-Eseguite una richiesta di DELETE sull&#39;URL di iscrizione profilo desiderato.
+Eseguite una richiesta DELETE sull&#39;URL di iscrizione profilo desiderato.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
