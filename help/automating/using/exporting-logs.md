@@ -9,8 +9,8 @@ topic-tags: importing-and-exporting-data
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -68,7 +68,7 @@ L’operazione dei registri di esportazione può essere eseguita dagli utenti st
 
 1. Aggiungete un&#39;attività **[!UICONTROL Transfer file]** e configuratela per trasferire il file appena creato dal server Adobe Campaign  a un&#39;altra posizione in cui potete accedervi, ad esempio un server SFTP.
 
-   * Nella scheda **[!UICONTROL General]**, selezionare **[!UICONTROL File upload]** per inviare il file da  Adobe Campaign a un altro server.
+   * Nella scheda **[!UICONTROL General]**, selezionare **[!UICONTROL File upload]** in quanto lo scopo è quello di inviare il file da  Adobe Campaign a un altro server.
    * Nella scheda **[!UICONTROL Protocol]**, specificare i parametri di trasferimento e selezionare il [account esterno](../../administration/using/external-accounts.md#creating-an-external-account) da utilizzare.
 
 1. Aggiungete un&#39;attività **[!UICONTROL End]** per assicurarvi che termini correttamente e salvate il flusso di lavoro.
