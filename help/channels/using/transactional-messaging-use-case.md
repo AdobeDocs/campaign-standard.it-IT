@@ -90,4 +90,4 @@ Integrate l’evento nel vostro sito Web. Vedere [Integrare l&#39;attivazione de
 
 ## Passaggio 4 - Invio di messaggi {#message-delivery}
 
-Una volta che tutti questi passaggi sono stati eseguiti, non appena un cliente acquista prodotti dal tuo sito web, riceve un&#39;e-mail di conferma personalizzata con informazioni sul suo acquisto.
+Una volta che tutti questi passaggi sono stati eseguiti, non appena un cliente acquista i prodotti dal tuo sito web, riceve un&#39;e-mail di conferma personalizzata con le informazioni sul suo acquisto.
