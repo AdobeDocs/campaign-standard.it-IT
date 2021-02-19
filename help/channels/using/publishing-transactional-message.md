@@ -107,7 +107,7 @@ Per accedere ai rapporti relativi al messaggio sulle transazioni, usa il pulsant
 
 Puoi sospendere la pubblicazione del messaggio sulle transazioni utilizzando, ad esempio, il pulsante **[!UICONTROL Pause]** per la modifica dei dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database di Adobe Campaign.
 
-Gli eventi in coda vengono conservati durante un periodo di tempo definito nell&#39;API REST (vedere la [documentazione REST API](../../api/using/managing-transactional-messages.md)) o nell&#39;evento trigger se si utilizza il servizio di base Triggers (vedere [Informazioni su Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Gli eventi in coda vengono conservati durante un periodo di tempo definito nell&#39;API REST (vedere la [documentazione REST API](../../api/using/managing-transactional-messages.md)) o nell&#39;evento trigger se si utilizza il servizio di base Triggers (vedere [Informazioni su  Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
