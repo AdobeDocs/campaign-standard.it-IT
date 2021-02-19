@@ -191,7 +191,7 @@ Per inviare un messaggio di transazione basato su eventi, è innanzitutto necess
 
 ### Messaggi transazionali basati su profili {#profile-based-transactional-messages}
 
-Puoi inviare messaggi transazionali basati sui profili dei clienti, che ti consentono di applicare regole di tipologia di marketing, includere il collegamento per l&#39;annullamento della sottoscrizione, aggiungere il messaggio al reporting globale sulla consegna e utilizzarlo nel percorso del cliente.
+Puoi inviare messaggi transazionali basati sui profili dei clienti, che ti consentono di applicare regole di tipologia di marketing, includere il collegamento per l&#39;annullamento della sottoscrizione, aggiungere il messaggio al reporting globale sulla consegna e utilizzarlo nel percorso di clienti.
 
 Per inviare un messaggio transazionale basato sul profilo, è innanzitutto necessario creare e configurare un targeting di eventi **dati dal database Adobe Campaign**.
 
