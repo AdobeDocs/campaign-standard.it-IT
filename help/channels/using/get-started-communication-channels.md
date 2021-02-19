@@ -9,8 +9,8 @@ topic-tags: about-communication-channels
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 </table>
 
  Adobe Campaign consente di avviare, misurare e automatizzare le campagne su tutti i canali.
-Armonizzare tutti i canali di marketing non è un compito impossibile. Con l&#39;aiuto di  Adobe Campaign, puoi portare i dati dei clienti da diversi sistemi, dispositivi e canali in un unico profilo. Dopodiché, distribuisci campagne pertinenti e tempestive che soddisfano i tuoi clienti nei luoghi e nei modi giusti lungo il percorso del loro cliente.
+Armonizzare tutti i canali di marketing non è un compito impossibile. Con l&#39;aiuto di  Adobe Campaign, puoi portare i dati dei clienti da diversi sistemi, dispositivi e canali in un unico profilo. Dopodiché, distribuisci campagne pertinenti e tempestive che soddisfano i tuoi clienti nei luoghi e nei modi giusti all&#39;interno del loro percorso di clienti.
 
 ## Concetti globali {#global-concepts}
 
