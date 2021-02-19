@@ -48,7 +48,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco degli indicatori utilizz
    <td> </td> 
   </tr> 
   <tr> 
-   <td> elenco Bloccati tasso di <br /> </td> 
+   <td> Elenco Bloccati tasso di <br /> </td> 
    <td> @rateBlacklist<br /> </td> 
    <td> @blacklist/@sent<br /> </td> 
    <td> Il denominatore per il calcolo del tasso è basato sul conteggio inviato (Consegnato + Bounces).<br /> </td> 
