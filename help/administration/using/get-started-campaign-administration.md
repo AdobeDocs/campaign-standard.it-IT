@@ -41,7 +41,7 @@ Le diverse operazioni di amministrazione  Adobe Campaign vengono eseguite tramit
 I diversi menu disponibili sono:
 
 * [Utenti e protezione](../../administration/using/about-access-management.md): Questo menu consente di gestire l&#39;accesso alla piattaforma (utenti, ruoli, gruppi di sicurezza, unità).
-* [Canali](../../administration/using/about-channel-configuration.md): Questo menu raggruppa i parametri tecnici collegati ai diversi canali della piattaforma (E-mail, mobile), nonché la gestione della tipologia e della quarantena.
+* [Canali](../../administration/using/about-channel-configuration.md): Questo menu raggruppa i parametri tecnici collegati ai diversi canali della piattaforma (E-mail, mobile), nonché la gestione di tipologie e quarantena.
 * [Impostazioni](../../administration/using/external-accounts.md) applicazione: Questo menu consente di configurare diversi elementi dell’applicazione (account esterni, opzioni, flussi di lavoro tecnici).
 * [Sviluppo](../../developing/using/data-model-concepts.md): Questo menu consente di gestire le risorse personalizzate e di accedere agli strumenti diagnostici.
 * [Impostazioni](../../administration/using/branding.md) istanza: Questo menu consente di definire i diversi marchi e configurarne le impostazioni (logo, gestione del tracciamento, dominio URL per accedere alle pagine di destinazione, ecc.).
