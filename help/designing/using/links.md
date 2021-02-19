@@ -55,7 +55,7 @@ Puoi inserire un collegamento in qualsiasi elemento di pagina: immagine, parola,
 
 1. Salva le modifiche.
 
-Una volta creato il collegamento, puoi comunque modificarlo dal riquadro Impostazioni. Fate clic sull&#39;icona matita per modificarne i parametri.
+Una volta creato il collegamento, puoi comunque modificarlo dal riquadro Impostazioni. Fate clic sull’icona matita per modificarne i parametri.
 
 ![](assets/des_link_edit.png)
 
