@@ -22,7 +22,7 @@ ht-degree: 82%
 >
 >Gli elenchi dei prodotti sono disponibili solo per i **messaggi e-mail transazionali** tramite l&#39;interfaccia [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
-Quando modificate il contenuto di un&#39;e-mail transazionale, potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un messaggio e-mail di abbandono del carrello potete includere un elenco di tutti i prodotti inclusi nel carrello quando gli utenti hanno lasciato il sito Web, con un&#39;immagine, il prezzo e un collegamento a ciascun prodotto.
+Quando modificate il contenuto di un&#39;e-mail transazionale, potete creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un messaggio e-mail di abbandono del carrello, puoi includere un elenco di tutti i prodotti inclusi nel carrello quando gli utenti hanno lasciato il sito Web, con un&#39;immagine, il prezzo e un collegamento a ciascun prodotto.
 
 Per aggiungere un elenco di prodotti abbandonati in un messaggio sulle transazioni, segui i passaggi indicati di seguito.
 
