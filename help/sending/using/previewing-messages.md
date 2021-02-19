@@ -9,8 +9,8 @@ topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '624'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ L&#39;anteprima dei messaggi viene eseguita utilizzando i **profili di test** ag
 
 Per i messaggi **email**, il Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando profili di destinazione anziché profili di prova. Questo consente di ottenere una rappresentazione esatta del messaggio che un profilo specifico riceverà. Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
 
-Per visualizzare l&#39;anteprima di un messaggio utilizzando i profili di prova, effettua le seguenti operazioni:
+Per visualizzare in anteprima un messaggio utilizzando i profili di prova, effettua le seguenti operazioni:
 
 1. In [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), fare clic sul pulsante **[!UICONTROL Preview]**.
 
