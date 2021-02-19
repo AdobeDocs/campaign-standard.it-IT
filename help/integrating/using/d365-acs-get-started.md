@@ -39,7 +39,7 @@ L&#39;integrazione supporta anche l&#39;abilitazione delle [entità personalizza
 
 Questa integrazione è stata progettata per supportare quattro casi di utilizzo principali:
 
-1. Sincronizzazione dei contatti da Dynamics 365 a Campaign in modo che possano essere indirizzati alle campagne di marketing
+1. Sincronizzazione dei contatti da Dynamics 365 a Campaign per consentire il targeting dei contatti nelle campagne di marketing
 1. Sincronizzazione di entità personalizzate da Dynamics 365 a Campaign per consentirne l&#39;utilizzo per la segmentazione e la personalizzazione
 1. Invio di eventi di marketing tramite e-mail (invii, aperture, clic e rimbalzi) da Campaign a Dynamics 365 per visualizzare l&#39;archivio vendite nell&#39;interfaccia di Dynamics 365
 1. Sincronizzazione degli stati di rifiuto (ad esempio, non inviare per e-mail) tra Dynamics 365 e Campaign per mantenere le preferenze sulla privacy dei clienti.
