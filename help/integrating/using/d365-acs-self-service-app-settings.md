@@ -13,7 +13,7 @@ ht-degree: 2%
 ---
 
 
-# Collegare i sistemi con l&#39;app di integrazione
+# Collegare i sistemi con l’applicazione di integrazione
 
 ## Aggiunta di credenziali all&#39;app di integrazione
 
