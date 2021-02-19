@@ -39,7 +39,7 @@ La **quarantena** si applica solo a un indirizzo, non a tutto il profilo. Ciò s
 
 Allo stesso modo, un profilo con un indirizzo e-mail messo in quarantena potrebbe aggiornare il profilo e immettere un nuovo indirizzo e potrebbe quindi essere nuovamente indirizzato mediante azioni di consegna.
 
-Essere sul **Elenco Bloccati**, d&#39;altro canto, il profilo non sarà più oggetto di alcuna consegna, ad esempio dopo un annullamento dell&#39;iscrizione (opt-out). Per ulteriori informazioni sul processo di elenco Bloccati, fare riferimento a [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Essere sul **Elenco Bloccati**, d&#39;altra parte, il profilo non sarà più mirato da alcuna consegna, ad esempio dopo un annullamento dell&#39;iscrizione (opt-out). Per ulteriori informazioni sul processo di elenco Bloccati, fare riferimento a [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
