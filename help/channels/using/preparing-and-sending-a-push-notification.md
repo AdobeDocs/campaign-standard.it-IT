@@ -50,7 +50,7 @@ I passaggi per creare una notifica push con  Adobe Campaign sono:
 
    Potete collegare la notifica push a una campagna. A questo scopo, selezionatela dalle campagne già create.
 
-1. Nella schermata seguente, potete specificare un&#39;audience, ad esempio tutti i clienti VIP che hanno effettuato l&#39;iscrizione a una specifica applicazione mobile. Per ulteriori informazioni, vedere [Creazione di audience](../../audiences/using/creating-audiences.md).
+1. Nella schermata seguente potete specificare un&#39;audience, ad esempio tutti i clienti VIP che hanno effettuato l&#39;iscrizione a una specifica applicazione mobile. Per ulteriori informazioni, vedere [Creazione di audience](../../audiences/using/creating-audiences.md).
 
    Il pubblico verrà filtrato automaticamente in base all&#39;applicazione mobile selezionata nel passaggio precedente.
 
