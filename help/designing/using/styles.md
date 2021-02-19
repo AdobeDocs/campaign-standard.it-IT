@@ -49,7 +49,7 @@ Vedere un esempio in [questa sezione](#example--adjusting-vertical-alignment-and
 1. Selezionate un elemento nel messaggio e-mail. Per ulteriori informazioni, vedere [Selezione di un elemento](#selecting-an-element).
 1. Regolate le impostazioni in base alle vostre esigenze. Ogni elemento selezionato offre un set di impostazioni diverso.
 
-   Potete inserire sfondi, modificare le dimensioni, modificare l&#39;allineamento orizzontale o verticale, gestire i colori, aggiungere [spaziatura o margine](#selecting-an-element) e così via.
+   È possibile inserire sfondi, modificare le dimensioni, modificare l&#39;allineamento orizzontale o verticale, gestire i colori, aggiungere [spaziatura o margine](#selecting-an-element) e così via.
 
    A tal fine, utilizzare le opzioni visualizzate nel riquadro **[!UICONTROL Settings]** o [aggiungere attributi di stile in linea](#adding-inline-styling-attributes).
 
