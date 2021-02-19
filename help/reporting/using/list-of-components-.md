@@ -151,7 +151,7 @@ Le tabelle riportate di seguito forniscono l&#39;elenco delle metriche utilizzat
    <td> Numero di destinatari che hanno dichiarato un'e-mail come spam o posta indesiderata.<br /> </td> 
   </tr> 
   <tr> 
-   <td> elenco Bloccati tasso di <br /> </td> 
+   <td> Elenco Bloccati tasso di <br /> </td> 
    <td> Percentuale di consegne contrassegnate al elenco Bloccati.<br /> </td> 
   </tr> 
   <tr> 
