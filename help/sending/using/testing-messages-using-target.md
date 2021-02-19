@@ -145,7 +145,7 @@ Per importare profili da utilizzare per il test da un&#39;audience, attenetevi a
 
 Per visualizzare in anteprima i messaggi utilizzando i profili di destinazione, accertati di aver aggiunto questi profili all&#39;elenco **[!UICONTROL Profile substitution]** (vedi [Definizione di profili e indirizzi di sostituzione](#selecting-profiles)).
 
-Per utilizzare i campi di personalizzazione nel messaggio, è necessario aggiungerli **prima di** avviare la preparazione dei messaggi. In caso contrario, non verranno presi in considerazione nell&#39;anteprima. Di conseguenza, se apporti modifiche ai campi di personalizzazione, assicurati di avviare di nuovo la preparazione dei messaggi.
+Per utilizzare i campi di personalizzazione nel messaggio, è necessario aggiungerli **prima di** avviare la preparazione dei messaggi. In caso contrario, non verranno presi in considerazione nell&#39;anteprima. Di conseguenza, se apporti modifiche ai campi di personalizzazione, assicurati di avviare nuovamente la preparazione dei messaggi.
 
 Per visualizzare in anteprima i messaggi mediante la sostituzione del profilo, procedere come segue:
 
@@ -159,7 +159,7 @@ Per visualizzare in anteprima i messaggi mediante la sostituzione del profilo, p
 
 1. Fare clic sulla scheda **[!UICONTROL Profile Substitution]** per visualizzare i profili di sostituzione aggiunti per il test.
 
-   Selezionate i profili da utilizzare per l&#39;anteprima, quindi fate clic su **[!UICONTROL Select]**.
+   Selezionate i profili che desiderate utilizzare per l&#39;anteprima, quindi fate clic su **[!UICONTROL Select]**.
 
    ![](assets/substitution_preview_selection.png)
 
@@ -249,7 +249,7 @@ I passaggi principali per questo caso di utilizzo sono i seguenti:
 
 1. Fare clic sulla scheda **[!UICONTROL Profile Substitution]** per visualizzare i profili di sostituzione aggiunti in precedenza.
 
-   Selezionate i profili da utilizzare per l&#39;anteprima, quindi fate clic su **[!UICONTROL Select]**.
+   Selezionate i profili che desiderate utilizzare per l&#39;anteprima, quindi fate clic su **[!UICONTROL Select]**.
 
    ![](assets/substitution_uc_selectpreview.png)
 
