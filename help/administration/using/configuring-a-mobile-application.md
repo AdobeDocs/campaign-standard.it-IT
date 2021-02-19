@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configurazione di un’applicazione mobile
+title: Configurazione di un'app mobile
 description: Scopri come configurare  Adobe Campaign per l'invio di notifiche push o messaggi in-app tramite SDK V4 o  Experience Platform SDK.
 audience: administration
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# Configurazione di un’applicazione mobile{#configuring-a-mobile-application}
+# Configurazione di un&#39;app mobile{#configuring-a-mobile-application}
 
 ## Configurazione di un&#39;applicazione mobile tramite Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
 
