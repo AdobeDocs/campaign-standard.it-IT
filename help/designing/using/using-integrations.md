@@ -47,7 +47,7 @@ Il contenuto dell’e-mail può essere modificato in  Experience Manager e quind
 
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
->title="Utilizzo delle inserzioni di prodotti"
+>title="Utilizzo degli elenchi di prodotti"
 >abstract="L&#39;elenco dei prodotti consente di fare riferimento a una raccolta di dati e di visualizzarla nel contenuto dell&#39;e-mail."
 
 L&#39;elenco dei prodotti consente di fare riferimento a una o più raccolte di dati nel contenuto dell&#39;e-mail. Questi elenchi sono disponibili per le e-mail transazionali. Una sezione dedicata per questa funzione è disponibile [qui](../../designing/using/using-product-listings.md).
