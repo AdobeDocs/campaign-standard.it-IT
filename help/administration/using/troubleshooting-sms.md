@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Risoluzione degli SMS
-description: Risoluzione degli SMS
+title: Risoluzione dei problemi relativi agli SMS
+description: Risoluzione dei problemi relativi agli SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Risoluzione dei problemi SMS {#sms-troubleshooting}
+# Risoluzione dei problemi relativi agli SMS {#sms-troubleshooting}
 
 ## Conflitto tra diversi conti esterni {#external-account-conflict}
 
@@ -113,7 +113,7 @@ Come risolvere i problemi di stabilità della connessione:
 
 * Verificare che la connessione sia stabile. Una connessione SMPP deve rimanere in funzione per almeno 1 ora in modo continuo. Vedere la sezione [Problema con connessioni instabili](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
-* Se il riavvio dell&#39;MTA fa funzionare nuovamente MT per un breve periodo di tempo, probabilmente si ha la limitazione a causa di una connessione instabile. Vedere la sezione [Problema con connessioni instabili](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
+* Se il riavvio dell&#39;MTA fa funzionare nuovamente MT per un piccolo periodo di tempo, probabilmente si ha la limitazione a causa di una connessione instabile. Vedere la sezione [Problema con connessioni instabili](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
 * Verificate che il registro ampio sia presente e nello stato corretto con le date corrette. In caso contrario, potrebbe trattarsi di un problema di consegna o di preparazione.
 
