@@ -128,7 +128,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 ### Con Android {#send-push-token-android}
 
-In Android, è richiesto quanto segue:[!DNL Experience Platform SDK]
+In Android, è necessario quanto segue:[!DNL Experience Platform SDK]
 
 * **[!UICONTROL setPushIdentifier]** <br>Per ulteriori informazioni, vedi  [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
 
@@ -160,7 +160,7 @@ ACPCore.collectPii(["email":email, "firstName":firstName, "lastName":lastName])
 
 ### Con Android {#enrich-mobile-profile-custom-android}
 
-In Android, è richiesto quanto segue:[!DNL Experience Platform API]
+In Android, è necessario quanto segue:[!DNL Experience Platform API]
 
 * collectPII <br> Per ulteriori informazioni, vedi collectPII.
 
