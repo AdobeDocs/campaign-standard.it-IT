@@ -9,8 +9,8 @@ topic-tags: customizing-reports
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '617'
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ I codici dei segmenti verranno raccolti non appena si abilita il codice dei segm
 >[!NOTE]
 >Se la transizione di input per la consegna dell’e-mail è vuota, per impostazione predefinita verrà aggiunto il codice Segmento dalla transizione precedente.
 
-È innanzitutto necessario creare un flusso di lavoro con popolazione di destinazione diversa. Qui, desideriamo inviare un&#39;e-mail che sarà personalizzata a seconda dell&#39;età del nostro pubblico: una consegna per profili da 20 a 30 anni e un&#39;altra per profili da 30 a 40 anni.
+È innanzitutto necessario creare un flusso di lavoro con popolazione di destinazione diversa. Qui, desideriamo inviare un&#39;e-mail che sarà personalizzata a seconda dell&#39;età del nostro pubblico: una consegna per i profili da 20 a 30 anni e un&#39;altra per quelli da 30 a 40 anni.
 
 1. Crea il flusso di lavoro. Per ulteriori dettagli su come creare il flusso di lavoro, fare riferimento a questa [pagina](../../automating/using/building-a-workflow.md).
 
