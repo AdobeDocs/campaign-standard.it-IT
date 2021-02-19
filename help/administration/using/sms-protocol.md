@@ -116,7 +116,7 @@ Il protocollo stesso non è crittografato. La maggior parte dei provider impleme
 
  Adobe Campaign supporta il passaggio di un login e una password durante la fase di binding. Supporta inoltre SMPP su TLS. Va notato che i certificati sono richiesti per una sicurezza adeguata. Anche se il connettore SMPP consente di bypassare i controlli dei certificati, dovrebbe essere utilizzato solo per il test, dal momento che TLS senza certificati fornisce un livello di protezione significativamente inferiore.
 
-Il connettore utilizza i certificati predefiniti forniti dalla libreria di sistema `openssl`. Di solito è fornito dalla directory `/etc/ssl/certs` su Debian. Questa directory è fornita per impostazione predefinita dal pacchetto &quot;ca-certificates&quot;, ma può essere personalizzata.
+Il connettore utilizza i certificati predefiniti forniti dalla libreria di sistema `openssl`. Di solito è fornito dalla directory `/etc/ssl/certs` su Debian. Questa directory viene fornita per impostazione predefinita dal pacchetto &quot;ca-certificates&quot;, ma può essere personalizzata.
 
 ### Informazioni in ogni tipo di PDU {#information-pdu}
 
@@ -258,7 +258,7 @@ Per raggiungere la massima velocità possibile, dovrete regolare la finestra mas
 
 Il protocollo SMPP definisce gli errori sincroni standard in `RESP PDU`s, ma non definisce i codici di errore per SR. Ogni provider utilizza i propri codici di errore con il proprio significato.
 
-Una raccomandazione è fatta nella sezione dell&#39;appendice B della specifica del protocollo [SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (pagina 167), ma non elenca i codici di errore effettivi né il loro significato.
+Una raccomandazione è fatta nella sezione Appendice B della specifica del protocollo [SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (pagina 167), ma non elenca i codici di errore effettivi né il loro significato.
 
 Per adattarsi alla gestione degli errori, il sistema di trasmissione dei messaggi di  Adobe Campaign è stato sfruttato per fornire correttamente gli errori e la loro gravità (duro, morbido, ecc.).
 
@@ -347,7 +347,7 @@ In caso di problemi di codifica, è necessario verificare alcuni aspetti importa
 
 * UCS-2 e UTF-16 sono spesso mescolati dai telefoni. Questo è un problema quando si utilizzano emoji e altri caratteri non presenti nell&#39;UCS-2.
 
-* La maggior parte dei telefoni non dispone di glifi di font per tutti i caratteri UCS-2. Gli smartphone tendono ad essere in grado di visualizzare caratteri rari piuttosto facilmente, ma i cellulari con caratteristiche generalmente hanno un supporto limitato a ciò che è utile nella lingua nativa del paese in cui sono stati acquistati. Se desiderate utilizzare emoji o ASCII-art, testatela su un&#39;ampia varietà di telefoni prima di inviarla.  anteprima Adobe Campaign non simula i glifi mancanti e visualizzerà i simboli disponibili nel browser Web.
+* La maggior parte dei telefoni non dispone di glifi di font per tutti i caratteri UCS-2. Gli smartphone tendono ad essere in grado di visualizzare caratteri rari piuttosto facilmente, ma i telefoni cellulari con caratteristiche generalmente hanno un supporto limitato a ciò che è utile nella lingua nativa del paese in cui sono stati acquistati. Se desiderate utilizzare emoji o ASCII-art, testatela su un&#39;ampia varietà di telefoni prima di inviarla.  anteprima Adobe Campaign non simula i glifi mancanti e visualizzerà i simboli disponibili nel browser Web.
 
 Il campo `data_coding` indica la codifica utilizzata. Un problema importante è che il valore 0 indica la codifica SMSC predefinita nella specifica, che in genere si riferisce a GSM7. Verificare con il partner SMSC quale codifica è associata a `data_coding` = 0 che  solo Adobe Campaign supporta. Altri valori `data_coding` tendono a seguire la specifica, ma l&#39;unico modo per essere certi è di controllare con il provider SMSC.
 
@@ -356,7 +356,7 @@ La dimensione massima di un messaggio dipende dalla codifica. Questa tabella ria
 | Codifica | Solito data_coding | Dimensione del messaggio (caratteri) | Dimensioni parte per SMS multiparte | Caratteri disponibili |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | GSM7 set di caratteri di base + estensione (i caratteri estesi prendono 2 caratteri) |
-| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varia da telefono a telefono) |
 
 ## Parametri del conto esterno SMPP {#SMPP-parameters-external}
