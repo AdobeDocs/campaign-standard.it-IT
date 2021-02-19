@@ -423,7 +423,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Flussi di lavoro: nuova attività del segnale<br /> </td> 
-   <td> Attiva un flusso di lavoro da un altro tramite la nuova attività <span class="uicontrol">Signal</span>.<br /> Grazie alla possibilità di avviare un flusso di lavoro da un altro, ora puoi supportare percorsi cliente più complessi. Puoi monitorare meglio i viaggi dei clienti e reagire in caso di problemi.<br /> Sono state aggiornate diverse attività del flusso di lavoro:<br /> 
+   <td> Attiva un flusso di lavoro da un altro tramite la nuova attività <span class="uicontrol">Signal</span>.<br /> Grazie alla possibilità di avviare un flusso di lavoro da un altro, ora puoi supportare percorsi cliente più complessi. Puoi monitorare meglio i percorsi dei clienti e reagire in caso di problemi.<br /> Sono state aggiornate diverse attività del flusso di lavoro:<br /> 
     <ul> 
      <li> <span class="uicontrol"></span> Endactivity: una nuova scheda consente di specificare un flusso di lavoro da attivare dopo l'esecuzione dell'attività. </li> 
      <li> <span class="uicontrol">Aggiorna attività </span> dati: utilizzare la nuova transizione in uscita vuota per aggiungere un'attività  <strong></strong> Endactivity che attivi un altro flusso di lavoro. Le transizioni vuote in uscita non contengono dati e non occupano spazio inutile sul sistema </li> 
