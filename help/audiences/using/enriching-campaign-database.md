@@ -33,7 +33,7 @@ Potete impostare due tipi di modelli:
 
    Un esempio di modello di flusso di lavoro per l&#39;importazione dei dati è dettagliato in [questa sezione](../../automating/using/creating-import-workflow-templates.md).
 
-* **Importa modelli** di dati: come per i modelli di workflow, si tratta di modelli basati su flussi di lavoro configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**.
+* **Importa modelli** di dati: come i modelli di workflow, si tratta di modelli basati su flussi di lavoro, configurati per caricare i file per aggiornare il database. Una volta configurati, vengono resi disponibili agli utenti con una visualizzazione semplificata nel menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**.
 
    Per ulteriori informazioni sui modelli di dati di importazione, consultare la [documentazione dedicata](../../automating/using/importing-data-with-import-templates.md).
 
