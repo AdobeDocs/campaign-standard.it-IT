@@ -47,7 +47,7 @@ Sarà necessario creare un nuovo progetto IO di Adobe  e configurarlo per l&#39;
 
 A tal fine, attenersi alla procedura seguente:
 
-1. Andate a [ console IO Adobe](https://console.adobe.io/home#) e selezionate l&#39;ID organizzazione IMS del Adobe  dal menu a discesa in alto a destra della schermata.
+1. Andate a [ console IO Adobe](https://console.adobe.io/home#) e selezionate l&#39;ID organizzazione IMS  Adobe dal menu a discesa in alto a destra della schermata.
 
 1. Fare clic su **[!UICONTROL Create new project]** in **[!UICONTROL Quick Start]**.
 
