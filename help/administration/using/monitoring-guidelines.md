@@ -24,7 +24,7 @@ ht-degree: 9%
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitoraggio delle consegne</a></p></td></tr>
 </table>
 
-Campaign Standard offre diversi modi per monitorare le istanze in modo da garantire che il sistema sia sano e alla fine risolvere eventuali problemi che possono verificarsi durante la configurazione dei flussi di lavoro, l&#39;invio di consegne, ecc.
+Campaign Standard offre diversi modi di monitorare le istanze per garantire che il sistema sia sano e alla fine risolvere eventuali problemi che possono verificarsi durante la configurazione dei flussi di lavoro, l&#39;invio di consegne, ecc.
 
 ## Monitoraggio del sistema {#monitoring-system}
 
