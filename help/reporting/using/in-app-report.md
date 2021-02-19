@@ -42,6 +42,6 @@ La seconda tabella **Clic e licenziamenti in-app** è suddivisa in tre categorie
 
 * **[!UICONTROL In-App clicks]**: Numero totale di destinatari che hanno fatto clic sul pulsante 1 o sul pulsante 2.
 * **[!UICONTROL Unique In-App clicks]**: Numero di volte in cui i destinatari hanno fatto clic sul pulsante 1 o sul pulsante 2.
-* **[!UICONTROL In-App dismissal]**: Numero totale di messaggi che i destinatari hanno chiuso facendo clic sul pulsante di chiusura o con la chiusura automatica.
+* **[!UICONTROL In-App dismissal]**: Numero totale di messaggi che i destinatari hanno chiuso facendo clic sul pulsante Chiudi o chiudendo automaticamente.
 * **[!UICONTROL Unique In-App dismissal]**: Numero di volte in cui i destinatari hanno chiuso un messaggio in-app.
 
