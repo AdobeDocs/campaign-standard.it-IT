@@ -124,7 +124,7 @@ Per creare l&#39;origine dati **[!UICONTROL Declared ID]**:
 
 Per la configurazione dell&#39;integrazione con il servizio di base Persone o Audience Manager, dobbiamo anche configurare il server di tracciamento delle campagne.
 
-In questo caso, devi accertarti che il server di tracciamento campagna sia registrato nel dominio (CNAME). Per ulteriori informazioni sulla configurazione del nome di dominio, consultate questo articolo[.](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html)
+In questo caso, devi accertarti che il server di tracciamento campagna sia registrato nel dominio (CNAME). Per ulteriori informazioni sulla configurazione del nome di dominio, consultate questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).[
 
 ### Passaggio 4: Configurare il servizio ID visitatori {#step-4--configure-the-visitor-id-service}
 
