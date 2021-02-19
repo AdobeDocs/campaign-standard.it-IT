@@ -1,5 +1,5 @@
 ---
-title: Utilizzare l’integrazione con Microsoft Dynamics 365
+title: Utilizzo dell'integrazione con Microsoft Dynamics 365
 description: Scopri come utilizzare Microsoft Dynamics 365 con integrazione Campaign Standard
 audience: integrating
 content-type: reference
@@ -111,7 +111,7 @@ L&#39;attributo externalId della tabella del profilo della campagna deve essere 
 
 L&#39;integrazione di [Microsoft Dynamics 365- Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) supporta entità personalizzate, consentendo la sincronizzazione delle entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
 
-I nuovi dati nelle risorse personalizzate possono essere utilizzati per diversi scopi, tra cui segmentazione e personalizzazione.
+I nuovi dati contenuti nelle risorse personalizzate possono essere utilizzati per diversi scopi, tra cui segmentazione e personalizzazione.
 
 L&#39;integrazione supporta tabelle collegate e non collegate. Il collegamento è supportato fino a tre livelli (livello1->livello2->livello3).
 
@@ -170,7 +170,7 @@ In alternativa, se si dispone di un processo separato per gestire la sincronizza
 >Il caso di utilizzo di **Unidirezionale (Campaign to Microsoft Dynamics 365)** è un&#39;eccezione; è configurato all’interno del flusso di lavoro Ingresso (contatto con profilo).
 
 
-La mappatura del flusso di rifiuto deve essere specificata dal cliente, in quanto i requisiti aziendali possono essere diversi tra le società. Dal lato Campagna, per la mappatura di rifiuto è possibile utilizzare solo gli attributi di rinuncia OOTB:
+La mappatura del flusso di rifiuto deve essere specificata dal cliente, in quanto i requisiti aziendali possono essere diversi tra le società. Dal lato della campagna, per la mappatura di rifiuto è possibile utilizzare solo gli attributi di rinuncia OOTB:
 
 * elenco Bloccati
 * DengListEmail
