@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 6c171d45d655e4055d4a3c7927f1dd8e0913eeaa
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Come migrare l&#39;applicazione mobile da SDK v4 a Adobe Experience Platform SDK {#sdkv4-migration}
+# Migrazione dell’app mobile da SDK v4 ad Adobe Experience Platform SDK {#sdkv4-migration}
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Dopo aver aggiornato la versione dell’SDK del Adobe  dalla versione v4 a Adobe
 
 >[!NOTE]
 >
-> Questa pagina documenta la migrazione di un’applicazione SDK v4 per dispositivi mobili a un’applicazione SDK Adobe Experience Platform appena creata. Le applicazioni SDK v4 per dispositivi mobili non verranno unite a un&#39;applicazione mobile Adobe Experience Platform SDK con un **[!UICONTROL Configured]** **[!UICONTROL Property status]**.
+> Questa pagina documenta la migrazione di un’applicazione SDK v4 per dispositivi mobili a un’applicazione SDK Adobe Experience Platform appena creata. Le applicazioni SDK per dispositivi mobili v4 non verranno unite a un&#39;applicazione mobile Adobe Experience Platform SDK con un **[!UICONTROL Configured]** **[!UICONTROL Property status]**.
 
 | Cosa non cambia dopo la migrazione |
 |:-:|
