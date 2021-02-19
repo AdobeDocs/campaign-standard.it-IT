@@ -25,7 +25,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
 
 ## Versione 18.9 - settembre 2018 {#release-18-9---september-2018}
 
-**Novità**
+**Scopri le novità**
 
 <table> 
  <thead> 
@@ -90,7 +90,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
 
 ## Versione 18.7 - luglio 2018 {#release-18-7---july-2018}
 
-**Novità**
+**Scopri le novità**
 
 <table> 
  <thead> 
@@ -191,7 +191,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
 
 ## Versione 18.5 - maggio 2018 {#release-18-5---may-2018}
 
-**Novità**
+**Scopri le novità**
 
 <table> 
  <thead> 
@@ -203,7 +203,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
  <tbody> 
   <tr> 
    <td> GDPR: Integrazione dei servizi di base<br /> </td> 
-   <td> Privacy Core Service Integration consente di automatizzare le richieste GDPR in un contesto multi-soluzione tramite una singola chiamata API JSON. <br /> Le richieste GDPR inviate dal servizio di base per la privacy a tutte le soluzioni  Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it#getting-started">documentazione dettagliata</a>.<br /> </td> 
+   <td> Privacy Core Service Integration consente di automatizzare le richieste GDPR in un contesto multi-soluzione tramite una singola chiamata API JSON. <br /> Le richieste GDPR inviate dal servizio di base per la privacy a tutte le soluzioni  Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti push - feedback dettagliato sulla distribuzione<br /> </td> 
