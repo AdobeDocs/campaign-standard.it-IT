@@ -27,7 +27,7 @@ Ulteriori informazioni in queste sezioni:
 * [Guida introduttiva all’integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Best practice e limitazioni dell&#39;integrazione](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Scopri i passaggi chiave per implementare questa integrazione](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
-* [Utilizzare l’integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
+* [Utilizzo dell&#39;integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## Prerequisiti {#self-service-app-prerequisites}
 
