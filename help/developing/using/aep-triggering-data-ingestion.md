@@ -54,8 +54,7 @@ L&#39;assimilazione immediata di una mappatura XDM in Adobe Experience Platform 
 >
 >Per eseguire la chiamata API POST ingerest, l&#39;utente deve disporre di un ruolo **Esecuzione funzione SQL**, che può essere fornito da un amministratore Campaign Standard mediante l&#39;esecuzione sotto lo script JS:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
