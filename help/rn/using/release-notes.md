@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
+source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
 workflow-type: tm+mt
-source-wordcount: '2627'
-ht-degree: 98%
+source-wordcount: '2478'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## Versione 21.1 - febbraio 2021 {#release-21-1---february-2021}
 
-**Scopri le novità**
+**Novità**
 
 <table> 
 <thead> 
@@ -36,7 +36,7 @@ ht-degree: 98%
 <ul>
 <li>Vengono ora acquisite tutte le categorie di feedback per la generazione di rapporti completi e precisi.</li>
 <li>Il calcolo dell’indicatore <b>Delivered</b> è ora basato sul feedback in tempo reale dall’MTA avanzato per una maggiore precisione e reattività.</li>
-<li>Il servizio EFS risolve il problema dei ritardi con la generazione sincrona di rapporti sui soft bounce.</li>
+<li>Il servizio EFS risolve il problema dei ritardi nella generazione sincrona di rapporti sui soft bounce.</li>
 </ul>
 <p>Per ulteriori informazioni consulta la <a href="../../sending/using/confirming-the-send.md#message-indicators">documentazione dettagliata</a>.
 </p>
@@ -63,29 +63,31 @@ ht-degree: 98%
 </tbody> 
 </table>
 
+<!--
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Interfaccia unificata di Experience Cloud</strong><br /> </th> 
+<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>La barra dell’intestazione di Adobe Campaign è stata modificata per offrirti un’esperienza migliore e unificata in tutti i prodotti e i servizi Experience Cloud. Queste modifiche sono state progettate per rendere il lavoro più facile e includono:</p>
+<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
 <ul>
-<li>Passaggio più semplice da un’organizzazione all’altra o a un'altra applicazione.</li>
-<li>Guida utente migliorata: Experience League è ora accessibile direttamente dal prodotto e i risultati delle ricerche includono anche i i forum della community e altri contenuti video, per consentirti di accedere più facilmente a più contenuti e aiutarti a trarre il massimo dall’applicazione. Inoltre, è stato aggiunto un meccanismo di feedback nel menu Help, per agevolare la segnalazione di problemi e la condivisione di idee.</li>
-<li>Notifiche migliorate: il menu a discesa Notifications ora include due schede, una per le notifiche sui tuoi prodotti e una per gli annunci globali sui prodotti.</li>
+<li>Easier switching between your organizations or to a different application.</li>
+<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
+<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
 </ul>
-<p>Per ulteriori informazioni consulta la <a href="../../start/using/interface-description.md#top-bar">documentazione dettagliata</a>.
+<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
 </p>
-<p>NOTA: Questa modifica verrà implementata progressivamente in tutti gli ambienti cliente tra il 10 febbraio e il 1 marzo.
+<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
+-->
 
 **Miglioramenti**
 
@@ -105,7 +107,7 @@ ht-degree: 98%
 
 **Altre modifiche**
 
-* Il messaggio di errore che si verificava durante la preparazione dei messaggi al raggiungimento del limite di 100 download di contenuto nell&#39;ora precedente viene ora visualizzato come messaggio di avvertenza. Ora, al raggiungimento del limite, viene visualizzata un’avvertenza che consente di procedere con la consegna.
+* Il messaggio di errore che si verificava durante la preparazione dei messaggi al raggiungimento del limite di 100 download di contenuto nell’ora precedente viene ora visualizzato come messaggio di avvertenza. Ora, al raggiungimento del limite, viene visualizzata un’avvertenza che consente di procedere con la consegna.
 
 * Quando si arricchisce il contenuto di un messaggio transazionale, i collegamenti non vengono più richiamati al momento del recupero dei dati dalla tabella Profile. In questo modo si riduce la latenza durante la preparazione dei messaggi e si evitano dati del profilo vuoti a causa di una relazione errata definita con la tabella del profilo.
 
@@ -145,7 +147,7 @@ ht-degree: 98%
 
 * È stato risolto un problema che si verificava quando Mobile SDK inviava una richiesta di tracciamento aperta basata sulla condizione che il valore di deliveryId/MessageID non fosse nullo. Questo generava errori 404 per le consegne con tracciamento disabilitato. Nel payload viene ora inviata una variabile aggiuntiva (acsDeliveryTracking) con informazioni sullo stato di tracciamento della consegna. Questa variabile può avere due valori (attivato o disattivato) a seconda dello stato di tracciamento impostato. [Ulteriori informazioni](../../administration/using/push-tracking.md).
 
-* È stato risolto un problema nei flussi di lavoro che poteva verificarsi se si copiava e incollava un&#39;attività **Deduplication** che era stata eseguita una volta e che sfruttava una risorsa temporanea. Una volta duplicata, la risorsa dell’attività veniva automaticamente impostata su vuota, causando problemi in altre attività del flusso di lavoro. Una volta incollata, la risorsa dell’attività ora rimane la stessa, così che l’errore possa attivarsi il prima possibile anziché in un punto successivo del flusso di lavoro. (CAMP-46903)
+* È stato risolto un problema nei flussi di lavoro che poteva verificarsi se si copiava e incollava un’attività **Deduplication** che era stata eseguita una volta e che sfruttava una risorsa temporanea. Una volta duplicata, la risorsa dell’attività veniva automaticamente impostata su vuota, causando problemi in altre attività del flusso di lavoro. Una volta incollata, la risorsa dell’attività ora rimane la stessa, così che l’errore possa attivarsi il prima possibile anziché in un punto successivo del flusso di lavoro. (CAMP-46903)
 
 * È stato risolto un problema che causava un errore nell’analisi della consegna durante l’invio di un messaggio push transazionale con targeting di profilo, introducendo un nuovo [profilo di mappatura del target:](../../administration/using/target-mappings-in-campaign.md): **Profile - Real-time event for Push** (*mapRtEventAppSubRcp*). I registri di consegna, esclusione e tracciamento per le [notifiche push transazionali con targeting di profilo](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) verranno ora memorizzati nelle tabelle *broadLogAppSubRcp*, *excludeLogAppSubRcp* e *trackingLogAppSubRcp*.
 * È stato risolto un problema che impediva l’esecuzione dei rapporti di consegna quando venivano visualizzate 5000 righe.
@@ -159,7 +161,7 @@ ht-degree: 98%
 * È stato corretto un errore che poteva verificarsi al termine della preparazione dei messaggi transazionali e che impediva il caricamento delle informazioni di reindirizzamento sui server di tracciamento.
 * È stato risolto un problema a causa del quale potevano comparire messaggi di errore se si tentava di aprire modelli di importazione o processi di importazione precedenti dopo aver personalizzato la risorsa del flusso di lavoro. (CAMP-46183)
 * È stato risolto un problema che poteva impedire l’esecuzione di un’attività **Read audience** se configurata con un nome di pubblico dinamico. (CAMP-46047)
-* È stato risolto un problema che impediva la visualizzazione del pulsante **Export list**
+* È stato risolto un problema che impediva la visualizzazione del pulsante **Export list**.
 * È stato risolto un problema che poteva causare un errore nel flusso di lavoro **Reporting aggregates**. (CAMP-45979)
 * È stato risolto un problema che si verificava durante la creazione di una risorsa personalizzata con una chiave composita personalizzata (contenuto dinamico testo/data).
 * È stato risolto un problema che poteva impedire la visualizzazione dei dati di transizione di una query. (CAMP-45669)
@@ -196,7 +198,7 @@ ht-degree: 98%
 * È stato risolto un errore che si verificava durante l’utilizzo dell’opzione **Dimension to reconciliate** in un’attività **Reconciliation** in un flusso di lavoro, se era già stata definita una relazione tra una risorsa personalizzata e una risorsa profilo.
 * È stato risolto un problema che si verificava durante l’aggiunta di collegamenti tramite un’attività **Reconciliation** o **Enrichment**. I collegamenti selezionati non venivano visualizzati nella transizione di output.
 * È stato risolto un problema che si verificava durante l’utilizzo di un’attività **Segmentation** con consegne ricorrenti in un flusso di lavoro, causando l’invio della consegna a un pubblico errato. (CAMP-46275, CAMP-46470)
-* È stato corretto un errore a causa del quale la pubblicazione di risorse personalizzate non riusciva se si tentava di estendere la risorsa del profilo per creare dimensioni di profilo personalizzate per la generazione di rapporti dinamica. (CAMP-46266)
+* È stato corretto un errore a causa del quale la pubblicazione di risorse personalizzate non riusciva se si tentava di estendere la risorsa del profilo per creare dimensioni di profilo personalizzate per la generazione di rapporti dinamici. (CAMP-46266)
 * È stato corretto un errore che si verificava durante l’aggiunta di un collegamento a una tabella File import. Dopo l’aggiunta di un’attività **Enrichment** all’attività **File import**, il collegamento configurato in precedenza scompariva. (CAMP-46557)
 * È stato risolto un problema che si verificava durante l’utilizzo di risorse personalizzate collegate ai dati del profilo, a causa del quale l’ordine di visualizzazione nella schermata di configurazione **Details** veniva modificato durante il salvataggio. (CAMP-46312)
 * È stato risolto un problema che poteva impedire la visualizzazione dei dati nella generazione di rapporti dinamici a causa di consegne basate su una mappatura di consegna personalizzata.
