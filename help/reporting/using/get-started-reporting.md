@@ -32,7 +32,7 @@ Dynamic Reporting (Generazione di rapporti dinamica) fornisce report completamen
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Grazie all&#39;interfaccia **drag-and-drop** per la generazione di rapporti dinamici, puoi esplorare i dati, determinare in che modo le campagne e-mail vengono eseguite rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari da un&#39;unica posizione.
+Grazie all’ **interfaccia di trascinamento della selezione** per il reporting dinamico, puoi esplorare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari da un’unica posizione.
 
 **Gestisci i** rapporti dinamici grazie a varie funzionalità: aggiornate i dati in tempo reale, stampate i rapporti o esportateli come file CSV. Potete anche condividere i rapporti con gli utenti Campaign Standard tramite e-mail una tantum o ricorrenti.
 
@@ -80,7 +80,7 @@ Leggi tutto:
 
 ## Video di esercitazione {#video}
 
-Questo video offre una panoramica delle funzionalità di reporting di  Adobe Campaign Standard.
+Questo video offre una panoramica delle funzionalità di reporting di Adobe Campaign Standard.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
