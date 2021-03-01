@@ -62,7 +62,7 @@ Prima di inviare i messaggi a un contatto, è necessario assicurarsi di ottenern
 
 Con Campaign, ti consigliamo di utilizzare **semplici meccanismi di opt-in e opt-out** tramite [services](../../audiences/using/creating-a-service.md) e [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md) per aggiornare le informazioni di contatto e ampliare il database.
 
-Fornendo **collegamenti di annullamento dell&#39;iscrizione** nei messaggi, i profili verranno aggiunti al elenco Bloccati, se necessario, e quindi miglioreranno la funzionalità di distribuzione della piattaforma. Per ulteriori informazioni sulla gestione elenco Bloccati, fare riferimento a [Informazioni sull&#39;opt-in e l&#39;opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornendo **collegamenti di annullamento dell&#39;iscrizione** nei messaggi, i profili verranno aggiunti al elenco Bloccati, se necessario, e quindi miglioreranno la funzionalità di distribuzione della piattaforma. Per ulteriori informazioni sulla gestione dell’elenco Bloccati, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -77,11 +77,11 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
- Adobe Campaign offre una serie di strumenti per aiutarti con le **Privacy Compliance** per le leggi GDPR, CCPA e altre leggi sulla privacy.
+Adobe Campaign offre una serie di strumenti per aiutarti con la **conformità in materia di privacy** per RGPD, CCPA e altre leggi sulla privacy.
 
 Ulteriori informazioni sono disponibili in questo [articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla gestione della privacy e sulle funzioni che forniamo per gestire il diritto di accesso, il diritto di essere dimenticato, il consenso, la conservazione dei dati e i ruoli utente.
 
-Privacy e consenso in Campaign e come gestirli vengono presentati in [questa sezione](../../start/using/privacy.md). Troverai anche le best practice, per aiutarti a rispettare la Privacy quando utilizzi il nostro servizio.
+Privacy e consenso in Campaign e come gestirli vengono presentati in [questa sezione](../../start/using/privacy.md). Troverai anche le best practice, per aiutarti con la conformità in materia di privacy quando utilizzi il nostro servizio.
 
 ## Risorse aggiuntive
 
