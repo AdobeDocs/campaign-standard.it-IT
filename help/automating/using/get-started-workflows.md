@@ -23,7 +23,7 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importazione/esportazione di dati</a></p></td></tr>
 </table>
 
- Adobe Campaign offre un ambiente grafico completo che consente di progettare processi complessi, tra cui segmentazione, esecuzione delle campagne, elaborazione dei file, ecc. Ad esempio, potete utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo e quindi importare i relativi record nel database Adobe Campaign .
+ Adobe Campaign offre un ambiente grafico completo che consente di progettare processi complessi, tra cui segmentazione, esecuzione delle campagne, elaborazione dei file, ecc. Ad esempio, puoi utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo e quindi importarne i record nel database di Adobe Campaign.
 
 Un flusso di lavoro può coinvolgere anche gli utenti assegnando loro le attività o facendo loro approvare le attività eseguite. Questo significa che potete assegnare un’attività a uno o più utenti per lavorare sul contenuto o specificare le destinazioni, e approvare le prove prima di inviare il messaggio.
 
