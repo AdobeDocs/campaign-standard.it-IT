@@ -60,7 +60,7 @@ Leggi tutto:
 * [Creazione di un messaggio SMS](../../channels/using/about-sms-messages.md)
 * [Creazione di notifiche push](../../channels/using/about-push-notifications.md)
 * [Creazione di messaggi in-app](../../channels/using/about-in-app-messaging.md)
-* [Creazione di consegne per posta diretta](../../channels/using/about-direct-mail.md)
+* [Creazione di consegne di direct mailing](../../channels/using/about-direct-mail.md)
 
 ## Messaggi transazionali {#transactional-messages}
 
