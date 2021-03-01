@@ -53,13 +53,13 @@ Leggi tutto:
 * [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md)
 * [Estensione dell&#39;API](../../developing/using/about-extending-the-api.md)
 * [Caso di utilizzo: Estensione della risorsa profilo con un nuovo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [Caso di utilizzo: Estensione delle sottoscrizioni a una risorsa applicazione](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [Caso di utilizzo: Estensione degli abbonamenti a una risorsa dell’applicazione](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## Operazioni con le API {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Con le API Campaign Standard, crea integrazioni per  Adobe Campaign Standard e crea il tuo ecosistema personale interfacciando Campaign con il pannello di tecnologie che utilizzi. [Guida introduttiva alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
+Con le API di Campaign Standard, crea integrazioni per Adobe Campaign Standard e crea il tuo ecosistema interfacciando Campaign con il pannello di tecnologie utilizzato. [Guida introduttiva alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Risorse aggiuntive
 
