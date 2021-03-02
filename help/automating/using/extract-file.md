@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 91%
+source-wordcount: '402'
+ht-degree: 89%
 
 ---
 
@@ -49,11 +49,11 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
    >
    >È possibile utilizzare la funzione **[!UICONTROL formatDate]** in questo campo per specificare il nome del file.
 
-1. Se lo desideri, puoi comprimere il file di output selezionando **[!UICONTROL Compression]** nel campo **[!UICONTROL Add a pre-processing step]**. Il file di output viene compresso in un file GZIP (.gz).
+1. Se lo desideri, puoi comprimere il file di output selezionando **[!UICONTROL Compression]** nel campo **[!UICONTROL Add a post-processing stage]**. Il file di output viene compresso in un file GZIP (.gz).
 
-   Il campo **[!UICONTROL Add a pre-processing step]** consente inoltre di cifrare un file prima di estrarlo. Per ulteriori informazioni su come utilizzare i file crittografati, consultare [questa sezione](../../automating/using/managing-encrypted-data.md)
+   Il campo **[!UICONTROL Add a post-processing stage]** consente inoltre di crittografare un file prima di estrarlo. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
 
-1. Fai clic sul pulsante ![](assets/add_darkgrey-24px.png) o su **[!UICONTROL Add an element]** per aggiungere una colonna di output.
+1. Fai clic sul pulsante **[!UICONTROL Create element]** per aggiungere una colonna di output.
 
    ![](assets/wkf_data_export2.png)
 
