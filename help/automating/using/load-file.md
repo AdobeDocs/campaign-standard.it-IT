@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->Ricorda i limiti di archiviazione SFTP, archiviazione DB e profilo attivo secondo il contratto Adobe Campaign  durante l&#39;utilizzo di questa funzionalità.
+>Tieni presente l’archiviazione SFTP, l’archiviazione DB e i limiti del profilo attivo in base al contratto Adobe Campaign durante l’utilizzo di questa funzionalità.
 
 ![](assets/data_loading.png)
 
@@ -46,7 +46,7 @@ Puoi:
 * [Caso di utilizzo: Aggiornamento del database con dati esterni](../../automating/using/update-database-file.md)
 * [Caso di utilizzo: Aggiornamento dei dati in base a un download automatico del file](../../automating/using/update-data-automatic-download.md)
 * [Caso di utilizzo: Invio di un’e-mail con campi arricchiti](../../automating/using/sending-email-enriched-fields.md)
-* [Caso di utilizzo: Riconciliare un pubblico di file con il database](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso di utilizzo: Riconciliare un pubblico di tipo File con il database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configurazione {#configuration}
 
@@ -103,9 +103,9 @@ La configurazione dell’attività prevede due passaggi. Innanzitutto, devi defi
 
       ![](assets/wkf_file_loading1.png)
 
-1. Se il file da cui vuoi caricare i dati è compresso in un file GZIP (.gz), seleziona l’opzione **[!UICONTROL Decompression]** nel campo **[!UICONTROL Add a pre-processing step]**. In tal modo, potrai decomprimere il file prima di caricare i dati. Questa opzione è disponibile solo se il file proviene dalla transizione in entrata dell’attività.
+1. Se il file da cui vuoi caricare i dati è compresso in un file GZIP (.gz), seleziona l’opzione **[!UICONTROL Decompression]** nel campo **[!UICONTROL Add a pre-processing stage]**. In tal modo, potrai decomprimere il file prima di caricare i dati. Questa opzione è disponibile solo se il file proviene dalla transizione in entrata dell’attività.
 
-   Il campo **[!UICONTROL Add a pre-processing step]** consente inoltre di decrittografare un file prima di importarlo nel database. Per ulteriori informazioni su come utilizzare i file crittografati, consultare [questa sezione](../../automating/using/managing-encrypted-data.md)
+   Il campo **[!UICONTROL Add a pre-processing stage]** consente inoltre di decrittografare un file prima di importarlo nel database. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
 
 1. L’opzione **[!UICONTROL Keep the rejects in a file]** ti consente di scaricare un file contenente errori verificatisi durante l’importazione e di applicarvi una fase di post-elaborazione. Quando l’opzione è attivata, la transizione in uscita viene rinominata come &quot;Rifiuti&quot;.
 
