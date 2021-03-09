@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 558f88a129264560851832ca70628509661cb208
+source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 97%
 
 ---
@@ -25,11 +25,9 @@ Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di
 
 Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
 
-**NOVITÀ!** Abbonati alle [notifiche di rilascio di Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) per ottenere informazioni sulle prossime versioni direttamente nella tua casella in entrata.
+## Versione 21.2 - Versione di maggio {#release-21-2-release}
 
-## Versione 21.1 - febbraio {#release-21-1-release}
-
-Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate via e-mail a ciascun cliente.
+Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
 Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md) all’avvio degli aggiornamenti dell’ambiente Stage.
 
@@ -43,16 +41,18 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>1-22 febbraio 2021<br /> </td>
+   <td>19 - 20 aprile 2021<br /> </td>
   </tr>
   <tr>
    <td> Produzione<br /> </td>
-   <td>8 febbraio - 1 marzo 2021<br /> </td>
+   <td>26 aprile - 3 maggio 2021<br /> </td>
   </tr>
  </tbody>
 </table>
 
 Per ulteriori domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+
+Abbonati alle [notifiche di rilascio di Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) per ottenere informazioni sulle prossime versioni direttamente nella tua casella in entrata.
 
 ## Domande e risposte {#questions-and-answers}
 
