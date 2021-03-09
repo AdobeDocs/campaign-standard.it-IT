@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 30%
@@ -20,7 +20,7 @@ ht-degree: 30%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">Modello dati</a></p></td>
-<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Risorse personalizzate</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Utilizzo delle API</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Risorse personalizzate</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Utilizzare le API</a></p></td></tr>
 </table>
 
 Amplia il modello dati Campaign Standard con campi e risorse personalizzate e monitora tutte le modifiche apportate al modello dati in un’unica schermata.
@@ -29,9 +29,9 @@ Amplia il modello dati Campaign Standard con campi e risorse personalizzate e mo
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in un **modello dati predefinito**. Il modello dati visualizza una struttura SQL out-of-the-box per un insieme di risorse correlate al marketing: distribuzione, pubblico, pagine di destinazione, profilo, ecc. A ogni risorsa sono associati dei filtri, che consentono di spostarsi tra le risorse.
+I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in un **modello dati predefinito**. Il modello dati visualizza una struttura SQL preconfigurata per un set di risorse correlate al marketing: consegna, pubblico, pagine di destinazione, profilo, ecc. A ciascuna risorsa sono associati dei filtri che consentono di navigare tra le varie risorse.
 
-Il menu **Diagnosi** consente di elencare gli oggetti tecnici generati dal Campaign Standard: schemi di dati, pagine Web, filtri, ecc., che consentono di monitorare il modello dati e qualsiasi modifica apportata.
+Il menu **Diagnosi** consente di elencare gli oggetti tecnici generati da Campaign Standard: schemi di dati, pagine web, filtri, ecc., che consentono di monitorare il modello dati ed eventuali modifiche apportate al modello.
 
 Leggi tutto:
 
@@ -44,24 +44,24 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard consente di **arricchire il modello dati predefinito** per creare risorse personalizzate (ad esempio per aggiungere tabelle Acquisto o Prodotto) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate Campagna per ottimizzare la navigazione attraverso le nuove risorse e campi che sono stati creati.
+Campaign Standard consente di **arricchire il modello dati predefinito** per creare risorse personalizzate (ad esempio per aggiungere tabelle Acquisto o Prodotto) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate di Campaign per ottimizzare la navigazione tramite le nuove risorse e i nuovi campi creati.
 
-Inoltre, potete **estendere le API REST Campaign Standard** per esporre nei campi estesi delle API i profili delle risorse personalizzate. Questo consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
+Inoltre, puoi **estendere le API REST di Campaign Standard** per esporre nei campi estesi delle API le risorse personalizzate Profili. Questo ti consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
 Leggi tutto:
 
 * [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md)
-* [Estensione dell&#39;API](../../developing/using/about-extending-the-api.md)
+* [Estensione dell’API](../../developing/using/about-extending-the-api.md)
 * [Caso di utilizzo: Estensione della risorsa profilo con un nuovo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [Caso di utilizzo: Estensione degli abbonamenti a una risorsa dell’applicazione](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
-## Operazioni con le API {#apis}
+## Utilizzare le API {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Con le API di Campaign Standard, crea integrazioni per Adobe Campaign Standard e crea il tuo ecosistema interfacciando Campaign con il pannello di tecnologie utilizzato. [Guida introduttiva alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
+Con le API di Campaign Standard, crea integrazioni per Adobe Campaign Standard e crea il tuo ecosistema interfacciando Campaign con il pannello di tecnologie che utilizzi. [Guida introduttiva alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Risorse aggiuntive
 
-* [Informazioni sul Connettore dati di Adobe Experience Platform](../../developing/using/aep-about-data-connector.md)
+* [Informazioni sul Connettore dati di Adobe Experience Platform](../../integrating/using/aep-about-data-connector.md)
 * [Esportazione/importazione di risorse personalizzate](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
