@@ -7,9 +7,9 @@ user-guide-description: 'Centro assistenza per le principali funzioni, attività
 breadcrumb-title: Centro Risorse
 title: Guida a Campaign Standard
 translation-type: tm+mt
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1756'
 ht-degree: 99%
 
 ---
@@ -70,10 +70,6 @@ ht-degree: 99%
       + [Informazioni sul consenso e diniego in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestione del consenso e del diniego in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identificazione dei profili di diniego per una consegna](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Utilizzo di Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [Informazioni sul servizio Destinazioni pubblico](audiences/using/aep-about-audience-destinations-service.md)
-      + [Gestione dei tipi di pubblico di Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
-      + [Utilizzo del Generatore di segmenti](audiences/using/aep-using-segment-builder.md)
 + Canali di comunicazione {#communication-channels}
    + [Guida introduttiva ai canali di comunicazione](channels/using/get-started-communication-channels.md)
    + Informazioni sui canali di comunicazione {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 99%
          + [Gestire i flussi di lavoro di sincronizzazione](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappare i dati tra Microsoft Dynamics 365 e Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Utilizzo dell&#39;integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
+   + Campaign e Adobe Experience Platform {#adobe-experience-platform}
+      + Servizio Audience Destinations {#audience-destinations}
+         + [Informazioni sul servizio Destinazioni pubblico](integrating/using/aep-about-audience-destinations-service.md)
+         + [Gestione dei tipi di pubblico di Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
+         + [Utilizzo del Generatore di segmenti](integrating/using/aep-using-segment-builder.md)
+         + [Targeting dei tipi di pubblico di Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
+         + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
+      + Connettore dati di Adobe Experience Platform {#data-connector}
+         + [Informazioni sul Connettore dati di Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
+         + [Panoramica del modello di dati di Experience Platform](integrating/using/aep-data-model-overview.md)
+         + [Definizione mappature](integrating/using/aep-mapping-definition.md)
+         + [Attivazione mappature](integrating/using/aep-mapping-activation.md)
+         + [Attivazione dell’acquisizione dati tramite API](integrating/using/aep-triggering-data-ingestion.md)
 + Gestione di processi e dati {#managing-processes-and-data}
    + [Guida introduttiva alla gestione dei dati e dei processi](automating/using/get-started-workflows.md)
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
@@ -287,7 +296,7 @@ ht-degree: 99%
       + [Monitoraggio dell’esecuzione di un flusso di lavoro](automating/using/monitoring-workflow-execution.md)
       + [Gestione delle opzioni di esecuzione](automating/using/managing-execution-options.md)
       + [Gestione delle proprietà delle attività](automating/using/activity-properties.md)
-      + [Esecuzione sovrapposta dei flussi di lavoro programmati](automating/using/scheduled-workflows-execution.md)
+      + [Esecuzione sovrapposta dei flussi di lavoro pianificati](automating/using/scheduled-workflows-execution.md)
    + Chiamata di un flusso di lavoro con parametri esterni {#calling-workflow-external-parameters}
       + [Panoramica](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Dichiarazione dei parametri nell’attività Segnale esterno](automating/using/declaring-parameters-external-signal.md)
@@ -379,9 +388,6 @@ ht-degree: 99%
          + [Esportazione di profili in un file esterno](automating/using/exporting-profiles-in-file.md)
          + [Aggiornamento di più stati di abbonamento da un file](automating/using/updating-subscriptions-from-file.md)
          + [Iscrizione di profili da un file a un servizio specifico](automating/using/subscribing-profiles-from-file.md)
-   + Utilizzo dei tipi di pubblico di Adobe Experience Platform {#working-with-aep-audiences}
-      + [Targeting dei tipi di pubblico di Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
-      + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Sviluppo {#developing}
    + [Guida introduttiva al modello dati di Campaign Standard](developing/using/get-started-data-model.md)
    + Informazioni sulle risorse personalizzate {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 99%
       + [Registri di tracciamento](developing/using/datamodel-tracking.md)
       + [Evento di annullamento iscrizione](developing/using/datamodel-unsubscription.md)
       + [Visitatore](developing/using/datamodel-visitor.md)
-   + Connettore dati di Adobe Experience Platform {#mapping-campaign-and-aep-data}
-      + [Informazioni sul Connettore dati di Adobe Experience Platform](developing/using/aep-about-data-connector.md)
-      + [Panoramica del modello di dati di Experience Platform](developing/using/aep-data-model-overview.md)
-      + [Definizione mappature](developing/using/aep-mapping-definition.md)
-      + [Attivazione mappature](developing/using/aep-mapping-activation.md)
-      + [Attivazione dell’acquisizione dati tramite API](developing/using/aep-triggering-data-ingestion.md)
 + Amministrazione {#administrating}
    + [Guida introduttiva all’amministrazione di Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Linee guida per il monitoraggio](administration/using/monitoring-guidelines.md)
