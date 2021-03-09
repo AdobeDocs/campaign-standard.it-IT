@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
+source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
-source-wordcount: '6571'
+source-wordcount: '6616'
 ht-degree: 97%
 
 ---
@@ -19,15 +19,17 @@ ht-degree: 97%
 
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti all’interno della documentazione di Adobe Campaign Standard.
 
-## Febbraio 2021 {#doc-updates-february-2021}
+## Marzo 2021 {#doc-updates-march-2021}
 
-Sono state aggiunte informazioni su come garantire che un flusso di lavoro pianificato non venga ripianificato fino a quando una o più attività di un&#39;esecuzione precedente non saranno ancora in sospeso. [Leggi tutto](../../automating/using/scheduled-workflows-execution.md)
+Sono state aggiunte informazioni per specificare che, quando si seleziona un pubblico autorizzato in una query, la relativa definizione viene copiata e non viene fatto riferimento a essa. [Leggi tutto](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+Le informazioni relative al servizio Audience Destinations e al connettore dati Adobe Experience Platform sono state raggruppate in una nuova sezione. [Leggi tutto](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Versione 21.1 - febbraio 2021 {#release-21-1---february-2021}
 
 **Nuove funzionalità incluse nella versione**
 
-Servizio di feedback e-mail - [Leggi tutto](../../sending/using/confirming-the-send.md#message-indicators)
+Servizio di feedback e-mail - [Ulteriori informazioni](../../sending/using/confirming-the-send.md#message-indicators)
 
 Miglioramenti per l’integrazione con Adobe Experience Manager - [Leggi tutto](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -41,15 +43,17 @@ Sono state aggiunte informazioni sulla nuova funzione GetOption, che consente di
 
 Sono state aggiunte informazioni sulla nuova variabile di output **[!UICONTROL filesCount]** disponibile dopo l’utilizzo di un’attività **[!UICONTROL Transfer file]**. [Leggi tutto](../../automating/using/transfer-file.md#output-variables)
 
-La sezione per la **configurazione del canale e-mail** è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. Alcuni parametri precedenti ancora in uso per alcuni clienti sono elencati nella parte inferiore della pagina. [Leggi tutto](../../administration/using/configuring-email-channel.md)
+La sezione per la **configurazione del canale e-mail** è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. Alcuni parametri legacy ancora in uso per alcuni clienti sono elencati nella parte inferiore della pagina. [Leggi tutto](../../administration/using/configuring-email-channel.md)
+
+Sono state aggiunte informazioni su come garantire che un flusso di lavoro pianificato non venga riprogrammato fino a quando non sono ancora in sospeso una o più attività di un’esecuzione precedente. [Leggi tutto](../../automating/using/scheduled-workflows-execution.md)
 
 ## Dicembre 2020 {#doc-updates-december-2020}
 
 La funzionalità **Oggetto predittivo** è ora obsoleta. [Leggi tutto](../../rn/using/deprecated-features.md)
 
-La sezione **Guida introduttiva ai messaggi transazionali** ora include [schemi migliorati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) per una migliore comprensione del processo.
+La sezione **Guida introduttiva alla messaggistica transazionale** ora include [schemi migliorati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) per una migliore comprensione del processo.
 
-È ora disponibile un caso di utilizzo end-to-end per illustrare il processo di implementazione della messaggistica transazionale. [Leggi tutto](../../channels/using/transactional-messaging-use-case.md)
+È ora disponibile un caso d’uso end-to-end per illustrare il processo di implementazione della messaggistica transazionale. [Leggi tutto](../../channels/using/transactional-messaging-use-case.md)
 
 La sezione **Privacy** è stata spostata [qui](../../start/using/privacy.md).
 
@@ -63,15 +67,15 @@ La sezione **Utilizzo degli elenchi di prodotti in un messaggio sulle transazion
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
-La sezione **Dati personali e Personas** è stata aggiornata con uno scenario relativo al caso d&#39;uso per illustrare l&#39;interazione delle diverse persone in materia di privacy. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
+La sezione **Dati personali e Personas** è stata aggiornata con uno scenario relativo a un caso d’uso per illustrare l’interazione dei diversi utenti utente in materia di privacy. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
 
 È stata aggiunta una nuova sezione in cui sono elencate le domande frequenti sulla privacy. [Leggi tutto](../../start/using/privacy-faq.md)
 
 La sezione **Privacy** è stata spostata e arricchita di due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di privacy](../../start/using/privacy-requests.md).
 
-La sezione **Messaggi transazionali** è stata riorganizzata e riunita in un unico punto per migliorare la navigazione. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
+La sezione **Messaggistica transazionale** è stata riorganizzata e raccolta in un’unica posizione per migliorare la navigazione. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
 
-Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull’errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolverlo. [Leggi tutto](../../developing/using/aep-mapping-activation.md)
+Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull’errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolverlo. [Leggi tutto](../../integrating/using/aep-mapping-activation.md)
 
 ## Versione 20.4 - ottobre 2020 {#release-20-4---october-2020}
 
@@ -95,7 +99,7 @@ Alle procedure consigliate per i flussi di lavoro è stato aggiunto un consiglio
 
 ## Settembre 2020 {#doc-updates-september-2020}
 
-La sezione **Messaggi transazionali evento** è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/editing-transactional-message.md)
+La sezione **Messaggi transazionali di evento** è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/editing-transactional-message.md)
 
 È stata aggiunta una nota di avviso per informare gli utenti della limitazione delle autorizzazioni relativa all’accesso al registro. [Leggi tutto](../../administration/using/users-management.md)
 
@@ -173,7 +177,7 @@ La documentazione relativa all’integrazione di Microsoft Dynamics 365 con Adob
 
 Sono state aggiunte nuove risorse nella pagina Home della documentazione. [Ulteriori informazioni](../../campaign-standard-home.md)
 
-Le informazioni sul Servizio Experience Cloud ID (ECID) sono state inserite nella documentazione del Connettore dati di Adobe Experience Platform. [Ulteriori informazioni](../../developing/using/aep-about-data-connector.md#key-concepts)
+Le informazioni sul Servizio Experience Cloud ID (ECID) sono state inserite nella documentazione del Connettore dati di Adobe Experience Platform. [Ulteriori informazioni](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 La sezione Messaggistica transazionale è stata arricchita con informazioni sulle modalità di accesso agli eventi transazionali più recenti e alle schermate aggiornate. [Ulteriori informazioni](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -239,9 +243,9 @@ Sono state aggiunte informazioni sulle proprietà di **[!UICONTROL History in da
 
 **Nuove funzionalità incluse nella versione**
 
-Connettore dati di Adobe Experience Platform (beta) - [Ulteriori informazioni](../../developing/using/aep-about-data-connector.md)
+Connettore dati di Adobe Experience Platform (beta) - [Ulteriori informazioni](../../integrating/using/aep-about-data-connector.md)
 
-Destinazioni pubblico (beta) - [Ulteriori informazioni](../../audiences/using/aep-about-audience-destinations-service.md)
+Destinazioni pubblico (beta) - [Ulteriori informazioni](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
