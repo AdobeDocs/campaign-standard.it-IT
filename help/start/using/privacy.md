@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Le [normative principali](#privacy-regulations) si riferiscono alle diverse enti
 
 Pertanto, in quanto azienda che raccoglie e condivide dati personali, ricopri il ruolo di titolare del trattamento, i tuoi clienti costituiscono gli interessati e Adobe Campaign agisce come responsabile del trattamento quando tratta i loro dati personali secondo le istruzioni da te fornite. In quanto titolare del trattamento, sei responsabile della gestione del rapporto con gli interessati, ad esempio durante la gestione delle [richieste di accesso a dati personali](#privacy-requests).
 
-È necessario prestare maggiore attenzione alla protezione dei dati personali durante l’integrazione di Campaign con altre soluzioni Experience Cloud in cui le audience possono essere trasferite da un sistema all’altro, come il [Servizio destinazioni audience](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o il servizio core Persone](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) o con altre soluzioni quali [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md).
+È necessario prestare maggiore attenzione alla protezione dei dati personali durante l’integrazione di Campaign con altre soluzioni Experience Cloud in cui le audience possono essere trasferite da un sistema all’altro, come il [Servizio destinazioni audience](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o il servizio core Persone](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) o con altre soluzioni quali [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md).
 
 ## Acquisizione dei dati {#data-acquisition}
 
