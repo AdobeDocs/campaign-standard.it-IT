@@ -6,11 +6,11 @@ description: Questa pagina presenta dettagli sul contenuto dell’ultima version
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 * È ora disponibile la nuova funzione **GetOption** nelle attività che utilizzano variabili evento dopo aver richiamato un flusso di lavoro con parametri esterni. Consente di restituire il valore di una funzione specificata. [Ulteriori informazioni](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Una nuova opzione consente al Campaign Standard di **verificare la disponibilità di memoria fisica** sul sistema prima di avviare un flusso di lavoro. Se la memoria risulta insufficiente, l’esecuzione del flusso di lavoro verrà posticipata fino a quando la memoria disponibile raggiungerà una soglia adeguata. In questo modo si evita un ulteriore degrado delle prestazioni e si riduce il rischio di interruzioni. Il flusso di lavoro riprenderà automaticamente una volta diminuito il carico sul server e aumentata la memoria disponibile. Questa opzione è di sola lettura e non può essere modificata. [Ulteriori informazioni](../../automating/using/best-practices-workflows.md#execution)
+* Una nuova opzione consente a Campaign Standard di **verificare la disponibilità di memoria fisica** nel sistema prima di avviare un flusso di lavoro. Se la memoria risulta insufficiente, l’esecuzione del flusso di lavoro verrà posticipata fino a quando la memoria disponibile raggiungerà una soglia adeguata. In questo modo si evita un ulteriore degrado delle prestazioni e si riduce il rischio di interruzioni. Il flusso di lavoro riprenderà automaticamente una volta diminuito il carico sul server e aumentata la memoria disponibile. Questa opzione è di sola lettura e non può essere modificata. [Ulteriori informazioni](../../automating/using/best-practices-workflows.md#execution)
 
 * È disponibile un nuovo processo in Adobe Campaign Standard che consente di migrare più facilmente dall’app mobile SDK v4 legacy a **Adobe Experience Platform Mobile SDK**. Consulta [questa pagina](../../administration/using/sdkv4-migration.md).
 
