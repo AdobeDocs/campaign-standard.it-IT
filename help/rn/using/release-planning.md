@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare que
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md) all’avvio degli aggiornamenti dell’ambiente Stage.
+Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md) all’avvio degli aggiornamenti dell’ambiente di staging.
 
 <table>
  <thead>
@@ -50,7 +50,7 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
  </tbody>
 </table>
 
-Per ulteriori domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+Per ulteriori domande, contatta l’[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
 Abbonati alle [notifiche di rilascio di Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) per ottenere informazioni sulle prossime versioni direttamente nella tua casella in entrata.
 
