@@ -1,25 +1,28 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Esecuzione di sottoscrizioni
-description: Scoprite come eseguire iscrizioni con le API.
+title: Esecuzione di abbonamenti
+description: Scopri come eseguire abbonamenti con API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 
-# Esecuzione di sottoscrizioni {#performing-subscriptions}
+# Esecuzione di abbonamenti {#performing-subscriptions}
 
 ## Metodo 1: Iscrizione di un profilo a un servizio
 
-Eseguite una richiesta di GET per recuperare il profilo.
+Esegui una richiesta di GET per recuperare il profilo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -29,7 +32,7 @@ Eseguite una richiesta di GET per recuperare il profilo.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l&#39;URL delle sottoscrizioni per il profilo.
+Restituisce l’URL delle sottoscrizioni per il profilo.
 
 ```
   {
@@ -43,7 +46,7 @@ Restituisce l&#39;URL delle sottoscrizioni per il profilo.
   }
 ```
 
-Eseguite una richiesta POST sull&#39;URL delle iscrizioni con il servizio Chiave primaria desiderato all&#39;interno del payload.
+Esegui una richiesta POST sull’URL delle sottoscrizioni con la chiave principale del servizio desiderata all’interno del payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -70,9 +73,9 @@ Restituisce il profilo aggiornato con il nodo del servizio completato.
 }
 ```
 
-## Metodo 2: Aggiunta di un profilo agli abbonati di un servizio
+## Metodo 2: Aggiunta di un profilo agli abbonati a un servizio
 
-Eseguite una richiesta di GET per recuperare il servizio.
+Esegui una richiesta GET per recuperare il servizio.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -82,7 +85,7 @@ Eseguite una richiesta di GET per recuperare il servizio.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l&#39;URL delle iscrizioni per il servizio.
+Restituisce l’URL delle sottoscrizioni per il servizio.
 
 ```
   {
@@ -96,7 +99,7 @@ Restituisce l&#39;URL delle iscrizioni per il servizio.
   },
 ```
 
-Eseguite una richiesta di POST sull&#39;URL delle iscrizioni con il profilo principale Key desiderato all&#39;interno del payload.
+Effettua una richiesta di POST sull’URL delle sottoscrizioni con il profilo Chiave principale desiderato all’interno del payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
