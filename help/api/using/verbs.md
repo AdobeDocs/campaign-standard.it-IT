@@ -1,27 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: GET / POST / PATCH / verbi DELETE
-description: Ulteriori informazioni sui verbi utilizzati nelle API Campaign Standard.
+title: verbi GET / POST / PATCH / DELETE
+description: Ulteriori informazioni sui verbi utilizzati nelle API di Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 
-# GET / POST / PATCH / DELETE verbi {#verbs}
+# Verbi GET / POST / PATCH / DELETE {#verbs}
 
 I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 * `GET`: recupera un elemento o una raccolta di elementi
-* `POST`: crea una risorsa con i parametri.
-* `PATCH`: aggiorna una risorsa con i parametri.
+* `POST`: crea una risorsa con parametri.
+* `PATCH`: aggiorna una risorsa con parametri.
 * `DELETE`: elimina una risorsa.
 
 <!-- ajouter codes retour -->
@@ -30,7 +33,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 ***Richieste di esempio***
 
-* Esempio di richiesta di GET nella raccolta di profili.
+* Esempio di richiesta di GET sulla raccolta di profili.
 
 
    ```
@@ -92,7 +95,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    }
    ```
 
-* Esempio di richiesta di POST per creare un profilo.
+* Esempio di richiesta POST per creare un profilo.
 
 
    ```
@@ -116,7 +119,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    }
    ```
 
-* Esempio di richiesta di PATCH per aggiornare un profilo.
+* Esempio di richiesta PATCH per aggiornare un profilo.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -127,7 +130,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   Restituisce l’PKEY e l’URL per recuperare il profilo aggiornato.
+   Restituisce la PKEY e l’URL per recuperare il profilo aggiornato.
 
    ```
    {
@@ -136,7 +139,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    }
    ```
 
-* Esempio di richiesta di DELETE per eliminare un profilo.
+* Esempio di richiesta DELETE per eliminare un profilo.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -146,4 +149,4 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   La richiesta restituisce una risposta di 200, che conferma l’eliminazione del profilo.
+   La richiesta restituisce una risposta di 200, che conferma che il profilo è stato eliminato.
