@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1099'
 ht-degree: 92%
 
 ---
@@ -164,9 +167,9 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
 
 ## Variabili di output {#output-variables}
 
-L&#39;attività **[!UICONTROL Transfer file]** genera variabili evento come output, che potete sfruttare in altre attività, ad esempio per verificare il numero di file scaricati utilizzando un&#39;attività [Test](../../automating/using/test.md).
+L&#39;attività **[!UICONTROL Transfer file]** genera variabili evento come output, che puoi sfruttare in altre attività, ad esempio per controllare il numero di file scaricati utilizzando un&#39;attività [Test](../../automating/using/test.md).
 
-È inoltre possibile trasmettere le variabili evento a un altro flusso di lavoro utilizzando un segnale esterno (vedere [Personalizzazione di un flusso di lavoro con parametri esterni](../../automating/using/customizing-workflow-external-parameters.md)).
+Tieni presente che le variabili evento possono essere trasmesse anche a un altro flusso di lavoro utilizzando un segnale esterno (consulta [Personalizzazione di un flusso di lavoro con parametri esterni](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Le variabili di output disponibili sono:
 
