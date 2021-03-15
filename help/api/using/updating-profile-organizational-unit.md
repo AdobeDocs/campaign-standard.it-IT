@@ -2,29 +2,32 @@
 solution: Campaign Standard
 product: campaign
 title: Aggiornamento dell’unità organizzativa di un profilo
-description: Scopri come aggiornare l'unità organizzativa di un profilo con le API.
+description: Scopri come aggiornare l’unità organizzativa di un profilo con le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 10%
+source-wordcount: '100'
+ht-degree: 11%
 
 ---
 
 
 # Aggiornamento dell’unità organizzativa di un profilo {#managing-organizational-units}
 
-1. Eseguire una richiesta di GET sulla risorsa **orgUnitBase** per recuperare l&#39;unità organizzativa PKey
-1. Eseguite una richiesta PATCH sul profilo PKey, con l&#39;unità organizzativa desiderata PKey nel payload.
+1. Esegui una richiesta di GET sulla risorsa **orgUnitBase** per recuperare l&#39;unità organizzativa PKey
+1. Esegui una richiesta PATCH sul profilo PKey, con l’unità organizzativa desiderata PKey nel payload.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Recuperare l&#39;elenco delle unità organizzative.
+Recupera l’elenco delle unità organizzative.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -34,7 +37,7 @@ Recuperare l&#39;elenco delle unità organizzative.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce tutte le unità organizzative. Recuperare il PKey dell&#39;unità a cui si desidera assegnare il profilo.
+Restituisce tutte le unità organizzative. Recupera il PKey dell’unità a cui desideri assegnare il profilo.
 
 ```
 {
@@ -50,7 +53,7 @@ Restituisce tutte le unità organizzative. Recuperare il PKey dell&#39;unità a 
 },
 ```
 
-Eseguite una richiesta PATCH sul profilo con il PKey dell&#39;unità organizzativa desiderata nel payload.
+Esegui una richiesta di PATCH sul profilo con il PKey dell’unità organizzativa desiderata nel payload.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
