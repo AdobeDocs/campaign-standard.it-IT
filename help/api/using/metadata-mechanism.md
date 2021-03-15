@@ -2,39 +2,42 @@
 solution: Campaign Standard
 product: campaign
 title: Meccanismo metadati
-description: Ulteriori informazioni sul meccanismo di metadati.
+description: Ulteriori informazioni sul meccanismo dei metadati.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 2%
 
 ---
 
 
 # Meccanismo metadati {#metadata-mechanism}
 
-È possibile recuperare i metadati delle risorse utilizzando **resourceType** in una richiesta di GET:
+Puoi recuperare i metadati delle risorse utilizzando **resourceType** in una richiesta GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
-La risposta restituisce i metadati principali della risorsa (tutti gli altri campi sono descrittivi o interni):
+La risposta restituisce i metadati principali dalla risorsa (tutti gli altri campi sono descrittivi o interni):
 
-* Il nodo **Content** restituisce i campi della risorsa. Per ciascun campo nel nodo **content**, è possibile trovare i campi seguenti:
+* Il nodo **Content** restituisce i campi della risorsa. Per ogni campo del nodo **content**, possiamo trovare i campi seguenti:
 
-   * &quot;apiName&quot;: nome dell&#39;attributo utilizzato nelle API.
-   * &quot;type&quot;: si tratta della definizione del tipo ad alto livello (stringa, numero, collegamento, raccolta, enumerazione...).
-   * &quot;dataPolicy&quot;: il valore del campo deve seguire le regole del criterio specificate. Ad esempio, se la regola dataPolicy è impostata su &quot;email&quot;, il valore deve essere un&#39;e-mail valida. Durante un PATCH o un POST, dataPolicy può controllare il valore o modificare il valore da trasformare (ad esempio, smartCase).
-   * &quot;category&quot;: fornisce la categoria del campo nell&#39;editor di query.
+   * &quot;apiName&quot;: nome dell’attributo utilizzato nelle API.
+   * &quot;type&quot;: si tratta della definizione di tipo di livello elevato (stringa, numero, collegamento, raccolta, enumerazione...).
+   * &quot;dataPolicy&quot;: il valore del campo deve seguire le regole dei criteri specificate. Ad esempio, se la regola dataPolicy è impostata su &quot;email&quot;, il valore deve essere un&#39;e-mail valida. Durante un PATCH o un POST, dataPolicy può controllare il valore o modificare il valore da trasformare (ad esempio, smartCase).
+   * &quot;categoria&quot;: fornisce la categoria del campo nell’editor delle query.
    * &quot;resType&quot;: questo è il tipo tecnico.
 
-      Se &quot;type&quot; viene completato con il valore &quot;link&quot; o &quot;collection&quot;, il valore resTarget è il nome della risorsa di destinazione del collegamento.
-Se &quot;type&quot; viene completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è dettagliato nel nodo **values**.
+      Se &quot;type&quot; viene completato con il valore &quot;link&quot; o &quot;collection&quot;, il valore resTarget corrisponde al nome della risorsa oggetto del collegamento.
+Se &quot;type&quot; viene completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è descritto nel nodo **values** .
 
-* Il nodo **Filters** restituisce l&#39;URL per recuperare i filtri associati. Per ulteriori informazioni sui filtri, consultare la sezione [presente sezione](../../api/using/filtering.md).
+* Il nodo **Filtri** restituisce l&#39;URL per recuperare i filtri associati. Per ulteriori informazioni sui filtri, consulta [questa sezione](../../api/using/filtering.md) .
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -45,7 +48,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***Richiesta di esempio***
 
-Eseguite una richiesta di GET sulla risorsa.
+Esegui una richiesta di GET sulla risorsa.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -55,7 +58,7 @@ Eseguite una richiesta di GET sulla risorsa.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce la descrizione completa della risorsa del profilo.
+Restituisce la descrizione completa della risorsa profilo.
 
 ```
 {
