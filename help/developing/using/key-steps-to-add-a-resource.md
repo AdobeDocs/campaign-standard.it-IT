@@ -1,16 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Passaggi chiave per l’aggiunta di una risorsa
-description: Scopri i passaggi chiave per aggiungere una risorsa nel modello dati Adobe Campaign .
+title: Passaggi chiave per aggiungere una risorsa
+description: Scopri i passaggi chiave per aggiungere una risorsa nel modello dati di Adobe Campaign.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
+feature: Modello dati
+role: Sviluppatore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 47%
+source-wordcount: '109'
+ht-degree: 45%
 
 ---
 
@@ -29,8 +32,8 @@ Per creare una nuova risorsa o per estendere una risorsa esistente con nuovi cam
 >
 >La creazione e la modifica di risorse sono operazioni delicate che devono essere eseguite solo da utenti esperti.
 
-In questo video viene illustrato come creare risorse personalizzate.
+Questo video mostra come creare risorse personalizzate.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
