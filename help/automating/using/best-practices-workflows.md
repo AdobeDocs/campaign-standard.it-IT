@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1183'
 ht-degree: 85%
 
 ---
@@ -52,7 +55,7 @@ In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di 
 
 >[!NOTE]
 >
->Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verificherà se la memoria fisica del sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, un messaggio vi informa che l&#39;esecuzione del flusso di lavoro verrà ritardata fino a quando il caricamento sul server non si esaurirà e la memoria del sistema aumenterà.
+>Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verificherà se la memoria fisica del sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, un messaggio ti informa che l’esecuzione del flusso di lavoro verrà ritardata fino a quando il caricamento sul server non si esaurisce e la memoria del sistema aumenta.
 
 ### Frequenza
 
@@ -77,11 +80,11 @@ Le proprietà del flusso di lavoro ti consentono di definire un fuso orario spec
 
 ### Numero di attività per flusso di lavoro {#number-activities}
 
-È consigliabile utilizzare fino a 100 attività in un unico flusso di lavoro. Più di 100 attività possono verificarsi problemi di prestazioni durante la progettazione e la configurazione del flusso di lavoro.
+È consigliabile utilizzare fino a 100 attività in un unico flusso di lavoro. Oltre 100 attività, potresti riscontrare alcuni problemi di prestazioni durante la progettazione e la configurazione del flusso di lavoro.
 
 ### Progettazione flussi di lavoro
 
-Per garantire il corretto completamento del flusso di lavoro, evitare di lasciare l&#39;ultima transizione di un flusso di lavoro da solo utilizzando un **[!UICONTROL End activity]**.
+Per garantire il corretto completamento del flusso di lavoro, evita di uscire dall’ultima transizione di un flusso di lavoro per conto proprio utilizzando un **[!UICONTROL End activity]**.
 
 Per accedere alla visualizzazione dettagliata delle transizioni, seleziona l’opzione **[!UICONTROL Keep interim results]** nella sezione Execution delle proprietà del flusso di lavoro.
 
@@ -110,11 +113,11 @@ Puoi visualizzare in anteprima le prossime dieci esecuzioni dei flussi di lavoro
 
 Per ulteriori informazioni, consulta [Attività di pianificazione](../../automating/using/scheduler.md).
 
-Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga ripianificato finché non viene completato. A tal fine, è necessario configurare il flusso di lavoro in modo da impedirne l&#39;esecuzione se una o più attività di un&#39;esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
+Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga riprogrammato fino al termine. A questo scopo, devi configurare il flusso di lavoro per impedirne l’esecuzione se una o più attività di un’esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
 
 ## Chiamata del flusso di lavoro con parametri{#workflow-with-parameters}
 
-Assicuratevi che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (consultate [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
+Assicurati che il nome e il numero di parametri siano identici a quelli definiti durante la chiamata al flusso di lavoro (consulta [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
 
 Verifica che tutti i parametri siano stati dichiarati nell’**[!UICONTROL External signal activity]**. In caso contrario, si verificherà un errore durante l’esecuzione dell’attività.
 
