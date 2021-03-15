@@ -2,23 +2,26 @@
 solution: Campaign Standard
 product: campaign
 title: Recupero unità geografica di un profilo
-description: Scopri come recuperare l'unità geografica di un profilo con le API.
+description: Scopri come recuperare l’unità geografica di un profilo con le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 12%
+source-wordcount: '84'
+ht-degree: 13%
 
 ---
 
 
 # Recupero unità geografica di un profilo {#retrieving-geographical-unit}
 
-1. Eseguite una richiesta di GET sul profilo PKey per recuperare l&#39;URL **geoUnit**.
-1. Eseguite una richiesta di GET sull&#39;URL per recuperare ulteriori dettagli sull&#39;unità geografica.
+1. Esegui una richiesta di GET sul profilo PKey per recuperare l&#39;URL **geoUnit**.
+1. Esegui una richiesta di GET sull’URL per recuperare ulteriori dettagli sull’unità geografica.
 
 <br/>
 
@@ -34,7 +37,7 @@ Recupera il record del profilo.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l&#39;URL geoUnit per il profilo.
+Restituisce l’URL della geoUnit per il profilo.
 
 ```
 {
@@ -48,7 +51,7 @@ Restituisce l&#39;URL geoUnit per il profilo.
 }
 ```
 
-Eseguite una richiesta di GET sull’URL per recuperare ulteriori informazioni.
+Esegui una richiesta di GET sull’URL per recuperare ulteriori informazioni.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
@@ -58,7 +61,7 @@ Eseguite una richiesta di GET sull’URL per recuperare ulteriori informazioni.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce i dettagli sull&#39;unità geografica.
+Restituisce dettagli sull&#39;unità geografica.
 
 ```
 {
