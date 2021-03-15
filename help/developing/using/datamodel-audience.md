@@ -5,16 +5,19 @@ title: DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
+feature: Modello dati
+role: Sviluppatore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '211'
 ht-degree: 6%
 
 ---
 
 
-# Pubblico (nms:audience)
+# Pubblico (nms:pubblico)
 
 ## Descrizione oggetto
 
@@ -33,20 +36,20 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>ID mappatura Audience Manager </td>
-                  <td>stringa (100)</td>
+                  <td>ID mappatura Audience Manager</td>
+                  <td>string (100)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>Origine dati AMC</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Anteprima popolazione selezionata</td>
-                  <td>collection </td>
+                  <td>Anteprima gruppo selezionato</td>
+                  <td>raccolta </td>
                   <td> </td>
                </tr>
                <tr>
@@ -63,13 +66,13 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>Utilizza un numero di riga come ID</td>
-                  <td>boolean </td>
+                  <td>Usa un numero di riga come ID</td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>count</td>
-                  <td>Count</td>
+                  <td>Conteggio</td>
                   <td>integer </td>
                   <td> </td>
                </tr>
@@ -86,15 +89,15 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>creato</td>
                   <td>Creato</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createBy (userBase)</td>
+                  <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,8 +108,8 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>Non stordire questo processo</td>
-                  <td>boolean </td>
+                  <td>Non stordire questo lavoro</td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
@@ -116,7 +119,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>completionDate</td>
+                  <td>expirationDate</td>
                   <td>Scade il</td>
                   <td>date </td>
                   <td> </td>
@@ -124,35 +127,35 @@ ht-degree: 6%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>hasSchema</td>
                   <td>HasSchema</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud audience</td>
-                  <td>boolean </td>
+                  <td>Pubblico Adobe Marketing Cloud</td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>È una risorsa esterna</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>jobLogs</td>
                   <td>Registri</td>
-                  <td>collection </td>
+                  <td>raccolta </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etichetta</td>
                   <td>Etichetta</td>
                   <td>string (128)</td>
                   <td> </td>
@@ -166,7 +169,7 @@ ht-degree: 6%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,18 +181,18 @@ ht-degree: 6%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>rifiutoNomeFile</td>
+                  <td>denyFilename</td>
                   <td>File di rifiuto</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sharedAudience</td>
-                  <td>Nome dell'audience condivisa</td>
+                  <td>Nome del pubblico condiviso</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -217,10 +220,10 @@ ht-degree: 6%
                   <td>enumerazione (stringa) (100)</td>
                   <td>
                      <ul>
-                        <li>Query - query - query</li>
+                        <li>Query - query</li>
                         <li>Elenco - elenco</li>
                         <li>File - file - file</li>
-                        <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
+                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -233,14 +236,14 @@ ht-degree: 6%
                <tr>
                   <td>workflow (workflow)</td>
                   <td>Flusso di lavoro</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
             </table>
 
 ## Filtri
 
-Filtrando la dimensione (tramite FilteringResource)
+Filtrando la dimensione (perFilteringResource)
 
 <table>
     <tr>
@@ -253,7 +256,7 @@ Filtrando la dimensione (tramite FilteringResource)
     </tr>
 </table>
 
-Per nome o etichetta (per testo)
+Per nome o etichetta (byText)
 
 <table>
     <tr>
