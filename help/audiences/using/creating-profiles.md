@@ -6,11 +6,14 @@ description: Scopri come creare profili e raccogliere dati sui contatti tramite 
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: Profili
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 89%
+source-wordcount: '384'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +26,7 @@ In Adobe Campaign, utilizzi profili per impostazione predefinita per definire la
 >
 >Puoi creare profili anche tramite l’API di Adobe Campaign Standard. Per ulteriori informazioni, consulta la [documentazione dedicata](../../api/using/creating-profiles.md).
 
-![](assets/do-not-localize/how-to-video.png) [Come importare i profili tramite un flusso di lavoro in un video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri come importare profili tramite un flusso di lavoro in un video](#video)
 
 Per creare o aggiornare un profilo in Campaign, puoi:
 
@@ -62,10 +65,10 @@ Il profilo viene ora visualizzato nell’elenco.
 >[!NOTE]
 >Utilizza il campo della lingua preferita per selezionare la lingua durante l’invio di messaggi multilingue. Per ulteriori informazioni sui messaggi multilingue, [consulta questa pagina](../../channels/using/creating-a-multilingual-email.md).
 
-## Video di esercitazione {#video}
+## Video tutorial {#video}
 
-Questo video mostra come importare i profili con un flusso di lavoro.
+Questo video mostra come importare profili con un flusso di lavoro.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
