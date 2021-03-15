@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Recupero abbonamenti
-description: Scoprite come recuperare le iscrizioni con le API.
+description: Scopri come recuperare gli abbonamenti con le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
@@ -17,22 +20,22 @@ ht-degree: 2%
 
 # Recupero abbonamenti {#retrieving-subscriptions}
 
-## Recupero dei profili sottoscritti a un servizio
+## Recupero dei profili abbonati a un servizio
 
-Si tratta di una procedura in due fasi.
+Questa è una procedura in due fasi.
 
-1. Recuperate l&#39;URL delle iscrizioni per il servizio desiderato.
-1. Eseguite una richiesta di GET sull&#39;URL delle iscrizioni. Restituisce l&#39;elenco delle sottoscrizioni per il servizio, con ciascun profilo associato.
+1. Recupera l’URL delle sottoscrizioni per il servizio desiderato.
+1. Esegui una richiesta di GET sull’URL delle sottoscrizioni. Restituisce l’elenco delle sottoscrizioni per il servizio, con ciascun profilo associato.
 
 >[!CAUTION]
 >
->L&#39;API REST restituisce la proprietà &quot;href&quot;, che contiene l&#39;URL da utilizzare. <b>Utilizzate sempre l&#39;URL contenuto nella risposta per effettuare la richiesta</b> API successiva.
+>L’API REST restituisce la proprietà &quot;href&quot;, che contiene l’URL da utilizzare. <b>Utilizza sempre l’URL contenuto nella risposta per effettuare la successiva richiesta</b> API.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Eseguite una richiesta di GET per recuperare il servizio.
+Esegui una richiesta GET per recuperare il servizio.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -42,7 +45,7 @@ Eseguite una richiesta di GET per recuperare il servizio.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l&#39;URL delle iscrizioni per il servizio.
+Restituisce l’URL delle sottoscrizioni per il servizio.
 
 ```
   {
@@ -56,7 +59,7 @@ Restituisce l&#39;URL delle iscrizioni per il servizio.
   },
 ```
 
-Eseguite una richiesta di GET sull&#39;URL delle iscrizioni.
+Esegui una richiesta di GET sull’URL delle sottoscrizioni.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -66,7 +69,7 @@ Eseguite una richiesta di GET sull&#39;URL delle iscrizioni.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Viene visualizzato l&#39;elenco delle iscrizioni per il servizio, con ciascun profilo associato.
+Viene visualizzato l’elenco degli abbonamenti al servizio, con ciascun profilo associato.
 
 ```
   {
@@ -83,18 +86,18 @@ Viene visualizzato l&#39;elenco delle iscrizioni per il servizio, con ciascun pr
   }
 ```
 
-## Recupero dei servizi a cui ha effettuato la sottoscrizione un profilo
+## Recupero dei servizi a cui si è iscritto un profilo
 
-Si tratta di una procedura in due fasi.
+Questa è una procedura in due fasi.
 
-1. Recuperate l&#39;URL delle iscrizioni per un determinato profilo.
-1. Eseguite una richiesta di GET sull’URL. Restituisce l&#39;elenco delle sottoscrizioni per il profilo, con ciascun servizio associato.
+1. Recupera l’URL delle sottoscrizioni per un determinato profilo.
+1. Esegui una richiesta di GET sull’URL. Restituisce l’elenco delle sottoscrizioni per il profilo, con ogni servizio associato.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Eseguite una richiesta di GET per recuperare il profilo.
+Esegui una richiesta di GET per recuperare il profilo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -104,7 +107,7 @@ Eseguite una richiesta di GET per recuperare il profilo.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l&#39;URL delle sottoscrizioni per il profilo.
+Restituisce l’URL delle sottoscrizioni per il profilo.
 
 ```
   {
@@ -118,7 +121,7 @@ Restituisce l&#39;URL delle sottoscrizioni per il profilo.
   }
 ```
 
-Eseguite una richiesta di GET sull&#39;URL delle iscrizioni.
+Esegui una richiesta di GET sull’URL delle sottoscrizioni.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -128,7 +131,7 @@ Eseguite una richiesta di GET sull&#39;URL delle iscrizioni.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l&#39;elenco dei servizi a cui il profilo ha effettuato la sottoscrizione.
+Restituisce l’elenco dei servizi a cui il profilo si è iscritto.
 
 ```
   {
