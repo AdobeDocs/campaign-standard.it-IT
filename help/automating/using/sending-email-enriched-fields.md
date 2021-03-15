@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 75%
+source-wordcount: '355'
+ht-degree: 74%
 
 ---
 
@@ -26,17 +29,17 @@ L’esempio seguente illustra la procedura per l’invio di un’e-mail utilizza
 
 ![](assets/load_file_workflow_ex2.png)
 
-Per generare il flusso di lavoro, effettuate le seguenti operazioni:
+Per creare il flusso di lavoro, segui questi passaggi:
 
-1. Trascinate e rilasciate un&#39;attività [Query](../../automating/using/query.md) nel flusso di lavoro e apritela per definire la destinazione principale.
+1. Trascina e rilascia un’attività [Query](../../automating/using/query.md) nel flusso di lavoro e aprila per definire la destinazione principale.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Trascinare un&#39;attività [Carica file](../../automating/using/load-file.md) per assegnare alcuni dati a un profilo. In questo esempio, eseguirai il caricamento di un file contenente i numeri di account corrispondenti ad alcuni profili del database.
+1. Trascina e rilascia un’attività [Load file](../../automating/using/load-file.md) per assegnare alcuni dati a un profilo. In questo esempio, eseguirai il caricamento di un file contenente i numeri di account corrispondenti ad alcuni profili del database.
 
    ![](assets/load_file_activity.png)
 
-1. Trascinare un&#39;attività [Arricchimento](../../automating/using/enrichment.md) nel flusso di lavoro e collegare il file di caricamento e le attività di query ad esso.
+1. Trascina e rilascia un’attività [Enrichment](../../automating/using/enrichment.md) nel flusso di lavoro e collega le attività di caricamento file e query ad esso.
 
 1. Nella scheda **[!UICONTROL Advanced relations]** dell’attività Enrichment, seleziona **[!UICONTROL 0 or 1 cardinality simple link]** e definisci i campi da utilizzare per la riconciliazione. In questo caso, utilizziamo il cognome per riconciliare i dati con i profili del database.
 
@@ -50,13 +53,13 @@ Per generare il flusso di lavoro, effettuate le seguenti operazioni:
 
    Per ulteriori informazioni, consulta la sezione [Enrichment](../../automating/using/enrichment.md).
 
-1. Trascinate e rilasciate un&#39;attività [Segmentazione](../../automating/using/segmentation.md) nel flusso di lavoro e apritela per perfezionare la destinazione principale.
+1. Trascina e rilascia un’attività [Segmentazione](../../automating/using/segmentation.md) nel flusso di lavoro e aprila per perfezionare la destinazione principale.
 
    ![](assets/load_file_segmentation.png)
 
    Per ulteriori informazioni, consulta la sezione [Segmentazione](../../automating/using/segmentation.md).
 
-1. Trascinate e rilasciate un&#39;attività [Invia per e-mail](../../automating/using/email-delivery.md) nel flusso di lavoro e apritela.
+1. Trascina e rilascia un’attività [Email delivery](../../automating/using/email-delivery.md) nel flusso di lavoro e aprila.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
