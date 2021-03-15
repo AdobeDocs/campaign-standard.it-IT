@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 79%
+source-wordcount: '283'
+ht-degree: 78%
 
 ---
 
@@ -24,11 +27,11 @@ L’esempio seguente mostra il risultato di un’attività di caricamento file s
 
 ![](assets/load_file_workflow_ex1.png)
 
-Per generare il flusso di lavoro, effettuate le seguenti operazioni:
+Per creare il flusso di lavoro, segui questi passaggi:
 
 1. Trascina e rilascia l’attività [Transfer file](../../automating/using/transfer-file.md) nel flusso di lavoro.
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
-1. Configurate l&#39;attività in modo che recuperi il file desiderato. Nella scheda **[!UICONTROL Protocol]**, seleziona **SFTP**.
+1. Configura l’attività in modo che recuperi il file desiderato. Nella scheda **[!UICONTROL Protocol]**, seleziona **SFTP**.
 1. Seleziona l’opzione **Use connection parameters defined in an external account**.
 1. Immetti il nome dell’account esterno.
 1. Immetti il **percorso del file sul server remoto**.
@@ -36,13 +39,13 @@ Per generare il flusso di lavoro, effettuate le seguenti operazioni:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Conferma l’attività.
-1. Trascinare un&#39;attività [Caricare file](../../automating/using/load-file.md) nel flusso di lavoro e posizionarla dopo l&#39;attività **[!UICONTROL Transfer file]**.
+1. Trascina e rilascia un’attività [Load file](../../automating/using/load-file.md) nel flusso di lavoro e inseriscila dopo l’attività **[!UICONTROL Transfer file]** .
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
 1. Nella sezione **[!UICONTROL File to load]** della scheda **[!UICONTROL Execution]**, seleziona l’opzione **[!UICONTROL Use the file specified in the inbound transition]**.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Configura l’attività come specificato in precedenza.
-1. Trascinare e rilasciare un&#39;attività [Aggiorna dati](../../automating/using/update-data.md) nel flusso di lavoro e posizionarla dopo l&#39;attività **[!UICONTROL Load file]**, quindi configurarla.
+1. Trascina e rilascia un’attività [Aggiorna dati](../../automating/using/update-data.md) nel flusso di lavoro e inseriscila dopo l’attività **[!UICONTROL Load file]**, quindi configurala.
 
 Una volta avviato il flusso di lavoro, i dati del file caricato vengono estratti e quindi utilizzati per arricchire il database di Adobe Campaign.
