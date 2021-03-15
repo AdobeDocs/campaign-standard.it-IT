@@ -7,11 +7,14 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Pubblici
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 91%
+source-wordcount: '253'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +29,7 @@ Adobe Campaign ti consente di creare tipi di pubblico manualmente utilizzando qu
 
 In Adobe Campaign puoi elaborare diversi tipi di pubblico. Il tipo di pubblico corrisponde al modo in cui è stato creato:
 
-* **[!UICONTROL Query]**: indica che l&#39;audience è stata creata utilizzando dati  [](../../automating/using/editing-queries.md#about-query-editor) di query provenienti dal database Adobe Campaign  tramite l&#39;elenco delle audience. I tipi di pubblico definiti da una query vengono ricalcolati a ogni ulteriore utilizzo.
+* **[!UICONTROL Query]**: indica che il pubblico è stato creato utilizzando i dati  [](../../automating/using/editing-queries.md#about-query-editor) query del database di Adobe Campaign tramite l’elenco dei tipi di pubblico. I tipi di pubblico definiti da una query vengono ricalcolati a ogni ulteriore utilizzo.
 * **[!UICONTROL List]**: indica che il pubblico è un elenco fisso di profili. Questi elenchi vengono creati in un [flusso di lavoro](../../automating/using/get-started-workflows.md), in cui la dimensione dati è nota al momento di salvare il pubblico. Ad esempio, dopo le attività di targeting (in particolare **[!UICONTROL Query]** ) o dopo la riconciliazione dei dati importati da un file.
 * **[!UICONTROL File]**: indica che il pubblico è stato creato direttamente da un flusso di lavoro del [file di importazione](../../automating/using/load-file.md) e che la dimensione dati era sconosciuta al momento di salvare il pubblico.
 * **[!UICONTROL Experience Cloud]**: indica che il pubblico è stato importato da Adobe Experience Cloud. Questa opzione è disponibile solo se è stata configurata la funzionalità di condivisione del pubblico. Per ulteriori informazioni, vedi [Importazione di un pubblico da Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience).
