@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 99%
+source-wordcount: '918'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +44,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Accoppiamento delle consegne e-mail e della posta diretta](../../automating/using/coupling-email-direct-mail.md)
+* [Caso di utilizzo: Abbinamento delle consegne di e-mail e direct mail](../../automating/using/coupling-email-direct-mail.md)
 * [Informazioni sulla direct mailing](../../channels/using/about-direct-mail.md)
 
 ## Configurazione {#configuration}
