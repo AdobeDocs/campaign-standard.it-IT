@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: union,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +37,7 @@ L’attività **[!UICONTROL Union]** viene utilizzata per combinare le popolazio
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Unione su due tipi di pubblico raffinati](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso di utilizzo: Unione di due tipi di pubblico perfezionati](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configurazione {#configuration}
 
