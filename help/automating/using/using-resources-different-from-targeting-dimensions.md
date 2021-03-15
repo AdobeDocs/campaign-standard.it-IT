@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Utilizzo di risorse diverse dalle dimensioni di targeting
-description: Scoprite come utilizzare una risorsa diversa dalla dimensione di targeting.
+description: Scopri come utilizzare una risorsa diversa dalla dimensione di targeting.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '297'
 ht-degree: 81%
 
 ---
@@ -18,9 +21,9 @@ ht-degree: 81%
 
 # Utilizzo di risorse diverse dalle dimensioni di targeting {#using-resources-different-from-targeting-dimensions}
 
-In questi casi di utilizzo viene illustrato come utilizzare una risorsa diversa dalla dimensione di targeting, ad esempio per cercare un record specifico in una tabella lontana.
+In questi casi d’uso viene illustrato come utilizzare una risorsa diversa dalla dimensione di targeting, ad esempio per cercare un record specifico in una tabella lontana.
 
-Per ulteriori informazioni sul targeting di dimensioni e risorse, consultare [questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources)
+Per ulteriori informazioni sulle dimensioni di targeting e sulle risorse, consulta [questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Esempio 1: identificazione dei profili target interessati dalla consegna con l’etichetta “Bentornato”**.
 
