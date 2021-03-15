@@ -6,11 +6,14 @@ description: Trascina i componenti nella tabella a forma libera per iniziare a f
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
+feature: Generazione rapporti
+role: Leader
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 4%
+source-wordcount: '250'
+ht-degree: 5%
 
 ---
 
@@ -19,23 +22,23 @@ ht-degree: 4%
 
 I componenti consentono di personalizzare i rapporti con dimensioni, metriche e periodi di tempo diversi.
 
-1. Fare clic sulla scheda **[!UICONTROL Components]** per accedere all&#39;elenco dei componenti.
+1. Fai clic sulla scheda **[!UICONTROL Components]** per accedere all’elenco dei componenti.
 
    ![](assets/dynamic_report_components.png)
 
-1. Ogni categoria presentata nella scheda **[!UICONTROL Components]** visualizza i cinque elementi più utilizzati, fate clic sul nome di una categoria per accedere al relativo elenco completo di componenti.
+1. Ogni categoria presentata nella scheda **[!UICONTROL Components]** visualizza i cinque elementi più utilizzati, fai clic sul nome di una categoria per accedere al relativo elenco completo di componenti.
 
-   La tabella dei componenti è suddivisa in quattro categorie:
+   La tabella dei componenti è divisa in quattro categorie:
 
-   * **Dimension**: Ottenete i dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario, o l&#39;esito positivo di una consegna.
-   * **Metriche**: Ottieni informazioni sullo stato di un messaggio. Ad esempio, se un messaggio è stato recapitato e l’utente lo ha aperto.
-   * **[!UICONTROL Segments]**: Filtrare i dati in base all&#39;intervallo di età del destinatario. **[!UICONTROL Segments]** può essere trascinato e rilasciato direttamente in una tabella a forma libera o nella barra superiore del pannello. Per impostazione predefinita, il segmento **[!UICONTROL Exclude proof]** è già selezionato, ma può essere modificato se necessario.
+   * **Dimension**: Ottieni i dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario, o il successo di una consegna.
+   * **Metriche**: Visualizza i dettagli sullo stato di un messaggio. Ad esempio, se un messaggio è stato recapitato e l’utente lo ha aperto.
+   * **[!UICONTROL Segments]**: Filtra i dati in base all’intervallo di età del destinatario. **[!UICONTROL Segments]** possono essere trascinati e rilasciati direttamente in una tabella a forma libera o nella barra superiore del pannello. Per impostazione predefinita, il segmento **[!UICONTROL Exclude proof]** è già selezionato ma può essere modificato se necessario.
 
-      Questa categoria è disponibile solo dopo che l&#39;amministratore ha approvato i termini e le condizioni del contratto di utilizzo di reporting dinamico che verrà visualizzato sullo schermo. Se l&#39;amministratore rifiuta il contratto, i segmenti non saranno visibili nella scheda **[!UICONTROL Components]** e i dati non saranno raccolti.
+      Questa categoria è disponibile solo dopo che l’amministratore ha approvato i termini e le condizioni del Contratto per l’utilizzo di Reporting dinamico che verrà visualizzato sullo schermo. Se l’amministratore rifiuta il contratto, i segmenti non saranno visibili nella scheda **[!UICONTROL Components]** e i dati non verranno raccolti.
 
-   * **Ora**: Impostare un periodo di tempo per la tabella.
+   * **Ora**: Imposta un periodo di tempo per la tabella.
 
-1. Trascinate e rilasciate i componenti in un pannello per iniziare a filtrare i dati.
+1. Trascina i componenti in un pannello per iniziare a filtrare i dati.
 
 Puoi trascinare e rilasciare tutti i componenti necessari e confrontarli tra loro.
 
