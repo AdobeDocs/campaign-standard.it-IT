@@ -5,11 +5,14 @@ title: DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
+feature: Modello dati
+role: Sviluppatore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 11%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
@@ -34,19 +37,19 @@ ht-degree: 11%
                <tr>
                   <td>paese (paesi)</td>
                   <td>Paese</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>creato</td>
                   <td>Creato</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createBy (userBase)</td>
+                  <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +67,7 @@ ht-degree: 11%
                <tr>
                   <td>emailRendering</td>
                   <td>Rendering di e-mail</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,13 +79,13 @@ ht-degree: 11%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>È una risorsa esterna</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
@@ -92,7 +95,7 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>location</td>
+                  <td>posizione</td>
                   <td>Posizione</td>
                   <td>item </td>
                   <td> </td>
@@ -105,7 +108,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>Applicazione mobile</td>
+                  <td>App mobile</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -118,7 +121,7 @@ ht-degree: 11%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -128,7 +131,7 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>nms_Recipiente</td>
+                  <td>nms_recipient</td>
                   <td>Profilo</td>
                   <td>item </td>
                   <td> </td>
@@ -142,7 +145,7 @@ ht-degree: 11%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +157,7 @@ ht-degree: 11%
                <tr>
                   <td>prova</td>
                   <td>Prova</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,7 +175,7 @@ ht-degree: 11%
                <tr>
                   <td>sampleData</td>
                   <td>Dati di esempio</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
@@ -184,7 +187,7 @@ ht-degree: 11%
                <tr>
                   <td>stateLink (stato)</td>
                   <td>Stato</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -194,21 +197,21 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
+                  <td>miniatura</td>
                   <td>Miniatura</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Profilo di prova</td>
+                  <td>Profilo di test</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trappola</td>
                   <td>Abbondanza</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
             </table>
@@ -228,7 +231,7 @@ Per tipo di evento (byEventType)
         </tr>
     </table>
 
-Per nome o etichetta (per testo)
+Per nome o etichetta (byText)
 
 <table>
         <tr>
@@ -241,7 +244,7 @@ Per nome o etichetta (per testo)
         </tr>
     </table>
 
-Per uso (per uso)
+Per utilizzo (perUtilizzo)
 
 <table>
         <tr>
@@ -250,19 +253,19 @@ Per uso (per uso)
         </tr>
         <tr>
         <td>trappola</td>
-        <td>boolean</td>
+        <td>booleano</td>
         </tr>
         <tr>
         <td>emailRendering</td>
-        <td>boolean</td>
+        <td>booleano</td>
         </tr>
         <tr>
         <td>prova</td>
-        <td>boolean</td>
+        <td>booleano</td>
         </tr>
     </table>
 
-Profilo di prova (profilo)
+Profilo di test (profilo)
 
 <table>
     <tr>
@@ -271,6 +274,6 @@ Profilo di prova (profilo)
     </tr>
     <tr>
     <td>seedMember</td>
-    <td>link</td>
+    <td>collegamento</td>
     </tr>
 </table>
