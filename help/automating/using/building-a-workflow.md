@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '987'
 ht-degree: 96%
 
 ---
@@ -40,7 +43,7 @@ Puoi aprire le transizioni per verificare che i dati inviati siano corretti dura
 
 Puoi creare un flusso di lavoro da un programma, da una campagna o dall’elenco delle attività di marketing.
 
-![](assets/do-not-localize/how-to-video.png) [Come creare un flusso di lavoro in un video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri come creare un flusso di lavoro nel video](#video)
 
 La creazione di un’attività di marketing è descritta nella sezione [Creazione di attività di marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -72,7 +75,7 @@ La creazione di un’attività di marketing è descritta nella sezione [Creazion
 
    Ad esempio, puoi definire un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 
-   Per ulteriori informazioni sulle proprietà dei flussi di lavoro, fare riferimento a [questa pagina](../../automating/using/managing-execution-options.md).
+   Per ulteriori informazioni sulle proprietà dei flussi di lavoro, consulta [questa pagina](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -131,10 +134,10 @@ Per impostazione predefinita, le attività non sono impostate e non elaborano co
 1. Salva l’attività e ripeti queste operazioni per ciascuna attività del flusso di lavoro.
 1. Salva il flusso di lavoro.
 
-## Video di esercitazione {#video}
+## Video tutorial {#video}
 
 Questo video mostra come creare un flusso di lavoro.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
