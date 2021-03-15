@@ -6,10 +6,13 @@ description: Ulteriori informazioni su come eseguire le operazioni di ordinament
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '93'
 ht-degree: 11%
 
 ---
@@ -17,15 +20,15 @@ ht-degree: 11%
 
 # Ordinamento
 
-L’ordinamento è disponibile in ordine crescente o decrescente. A tal fine, utilizzare il parametro **%20desc** o **%20asc** per la richiesta.
+L’ordinamento è disponibile in ordine crescente o decrescente. A questo scopo, utilizza il parametro **%20desc** o **%20asc** nella richiesta.
 
-Per verificare se è possibile ordinare un campo, controllate il parametro &quot;ordinabile&quot; nei metadati della risorsa. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/metadata-mechanism.md).
+Per sapere se un campo può essere ordinato, controlla il parametro &quot;ordinabile&quot; nei metadati della risorsa. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/metadata-mechanism.md).
 
 <br/>
 
 ***Richieste di esempio***
 
-* Esempio di richiesta di GET per recuperare i messaggi e-mail nel database in ordine alfabetico.
+* Esempio di richiesta di GET per recuperare le e-mail nel database in ordine alfabetico.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
