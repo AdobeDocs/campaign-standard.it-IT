@@ -7,10 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: Profili
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '453'
 ht-degree: 95%
 
 ---
@@ -78,10 +81,10 @@ Per modificare un profilo di test e consultare i dati ad esso collegati, oppure 
 
 1. Fai clic su **[!UICONTROL Save]** se hai inserito le modifiche, oppure seleziona il nome del profilo di test e quindi **[!UICONTROL Test profiles]** nella sezione nella parte superiore della schermata per tornare al dashboard dei profili di test.
 
-## Video di esercitazione {#video}
+## Video tutorial {#video}
 
 Questo video mostra come creare un profilo di test.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
