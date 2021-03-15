@@ -6,11 +6,14 @@ description: Usa altre soluzioni Adobe e combina le loro diverse funzionalità c
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
+feature: Triggers
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '636'
+ht-degree: 90%
 
 ---
 
@@ -49,7 +52,7 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td>  Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Consente di creare contenuti e-mail o forms mappati al database Adobe Campaign direttamente in Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Utilizzo di Campaign ed Experience Manager</a>,  <a href="https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrazione di Experience Manager e Campaign Standard</a>,  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Creazione di un messaggio e-mail con Experience Manager e Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Utilizzo di Campaign e Experience Manager</a>,  <a href="https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrazione di Experience Manager e Campaign Standard</a>,  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Creazione di un messaggio e-mail con Experience Manager e Campaign</a> 
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +95,7 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> Dreamweaver<br /> </td> 
    <td> Consente di modificare il contenuto di un’e-mail da Dreamweaver e di sincronizzarla con Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Creare e-mail personalizzate con </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html">utilizzare l’estensione Campaign per Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Crea e-mail personalizzate con </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html">utilizza l’estensione Campaign per Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
