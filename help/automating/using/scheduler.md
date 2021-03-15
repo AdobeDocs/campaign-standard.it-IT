@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 89%
+source-wordcount: '618'
+ht-degree: 88%
 
 ---
 
@@ -34,12 +37,12 @@ Durante la creazione del flusso di lavoro, utilizza una sola attività **[!UICON
 >
 >La **[!UICONTROL Repetition frequency]** dell’attività non può essere inferiore a 10 minuti. Ciò significa che non è possibile eseguire automaticamente un flusso di lavoro più di una volta ogni 10 minuti.
 
-Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga ripianificato finché non viene completato. A tal fine, è necessario configurare il flusso di lavoro in modo da impedirne l&#39;esecuzione se una o più attività di un&#39;esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
+Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga riprogrammato fino al termine. A questo scopo, devi configurare il flusso di lavoro per impedirne l’esecuzione se una o più attività di un’esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Creazione di consegne sulla data di creazione dei profili](../../automating/using/workflow-creation-date-query.md)
-* [Caso di utilizzo: Creazione di una consegna tramite e-mail ogni martedì](../../automating/using/workflow-weekly-offer.md)
+* [Caso di utilizzo: Creazione di consegne nella data di creazione dei profili](../../automating/using/workflow-creation-date-query.md)
+* [Caso di utilizzo: Creazione di una consegna e-mail ogni martedì](../../automating/using/workflow-weekly-offer.md)
 
 ## Configurazione {#configuration}
 
