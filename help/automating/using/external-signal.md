@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 96%
+source-wordcount: '604'
+ht-degree: 95%
 
 ---
 
@@ -40,8 +43,8 @@ Tieni presente che un’attività **[!UICONTROL External signal]** può essere a
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: Attività esterna del segnale e importazione](../../automating/using/external-signal-data-import.md) dei dati.
-* [Caso di utilizzo: Chiamata di un flusso di lavoro per creare un&#39;audience da un file utilizzando parametri esterni](../../automating/using/use-case-calling-workflow.md)
+* [Caso di utilizzo: Attività del segnale esterno e importazione](../../automating/using/external-signal-data-import.md) dei dati.
+* [Caso di utilizzo: Chiamata di un flusso di lavoro per creare un pubblico da un file utilizzando parametri esterni](../../automating/using/use-case-calling-workflow.md)
 
 ## Configurazione {#configuration}
 
