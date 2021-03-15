@@ -6,10 +6,13 @@ description: Ulteriori informazioni sulle licenze installate nell'istanza.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Gestione degli accessi
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
@@ -17,21 +20,21 @@ ht-degree: 1%
 
 # Licenze{#licenses}
 
-La finestra **[!UICONTROL Licenses]** consente di visualizzare le licenze installate sull&#39;istanza e informazioni diverse su di essa, ad esempio il numero di build, la versione del rilascio o se i termini del contratto sono stati accettati e da chi.
+La finestra **[!UICONTROL Licenses]** ti consente di visualizzare le licenze installate sull&#39;istanza e informazioni diverse su di essa, ad esempio il numero di build, la versione o se i termini del contratto sono stati accettati e da chi.
 
 ![](assets/license_1.png)
 
-Con una nuova build o una nuova funzione, i termini di licenza possono cambiare e devono essere accettati da un amministratore funzionale dell&#39;istanza.
+Con una nuova build o una nuova funzione, i termini di licenza possono cambiare e devono essere accettati da un amministratore funzionale dell’istanza.
 
-La finestra seguente verrà visualizzata per gli utenti standard dopo l’accesso, ma non è richiesta alcuna azione da parte loro. Possono ancora funzionare su  Adobe Campaign facendo clic sul pulsante **[!UICONTROL OK]**.
+Viene visualizzata la finestra seguente per gli utenti standard dopo l’accesso, non è necessaria alcuna azione da parte loro. È comunque possibile utilizzare Adobe Campaign facendo clic sul pulsante **[!UICONTROL OK]** .
 
 ![](assets/license_2.png)
 
-Un amministratore deve leggere e confermare i nuovi termini di contratto nei 30 giorni successivi all&#39;installazione della build, selezionando **[!UICONTROL I accept the terms from the license agreement]** e facendo clic su **[!UICONTROL Confirm]**.
+Un amministratore deve leggere e confermare i nuovi termini di contratto nei successivi 30 giorni dell’installazione della build selezionando **[!UICONTROL I accept the terms from the license agreement]** e facendo clic su **[!UICONTROL Confirm]**.
 
 ![](assets/license_3.png)
 
-Trascorsi questi 30 giorni se l&#39;accordo non viene accettato, nessun utente potrà utilizzare questa istanza. Gli utenti standard non potranno accedere  funzionalità di Adobe Campaign e visualizzeranno solo il seguente messaggio fino a quando un amministratore funzionale non accetterà i termini del contratto.
+Superato questi 30 giorni se il contratto non viene accettato, nessun utente potrà utilizzare questa istanza. Gli utenti standard non potranno accedere alle funzionalità di Adobe Campaign e visualizzeranno solo il seguente messaggio finché un amministratore funzionale non accetterà i termini del contratto.
 
 ![](assets/license_4.png)
 
