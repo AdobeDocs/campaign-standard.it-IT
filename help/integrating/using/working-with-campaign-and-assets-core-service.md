@@ -2,30 +2,33 @@
 solution: Campaign Standard
 product: campaign
 title: Utilizzo di Campaign con il servizio core Assets
-description: Utilizza tutte le risorse condivise in Adobe Experience Cloud nei messaggi Adobe Campaign  e nelle pagine di destinazione grazie all’integrazione con il servizio di base Assets.
+description: Utilizza tutte le risorse condivise in Adobe Experience Cloud nei messaggi e nelle pagine di destinazione di Adobe Campaign tramite l’integrazione del servizio core Assets.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
+feature: Integrazione del servizio core People
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '164'
+ht-degree: 9%
 
 ---
 
 
 # Utilizzo di Campaign con il servizio core Assets{#working-with-campaign-and-assets-core-service}
 
-L’integrazione del servizio di base Risorse o Risorse su richiesta (a seconda della configurazione dell’ambiente Adobe Experience Cloud) con  Adobe Campaign consente di utilizzare tutte le risorse condivise in Adobe Experience Cloud nelle e-mail e nelle pagine di destinazione  Adobe Campaign.
+L’integrazione del servizio core Assets o Assets on Demand (a seconda della configurazione dell’ambiente Adobe Experience Cloud) con Adobe Campaign consente di utilizzare tutte le risorse condivise in Adobe Experience Cloud nelle e-mail e nelle pagine di destinazione di Adobe Campaign.
 
 Le risorse condivise da Adobe Experience Cloud possono essere utilizzate nelle e-mail e nelle pagine di destinazione.
 
-1. Quando modificate il contenuto di un&#39;e-mail o di una pagina di destinazione, andate a un blocco immagine, quindi selezionate **[!UICONTROL Image shared from Adobe Experience Cloud]** dal menu contestuale.
+1. Quando modifichi il contenuto di un’e-mail o di una pagina di destinazione, passa a un blocco immagine, quindi seleziona **[!UICONTROL Image shared from Adobe Experience Cloud]** dal menu contestuale.
 
    ![](assets/dam_insert_image_dce.png)
 
-1. Nella finestra di selezione che si apre, selezionate un’immagine, quindi confermate.
+1. Nella finestra di selezione visualizzata, seleziona un’immagine e conferma.
 
    ![](assets/dam_shared_image_selection.png)
 
