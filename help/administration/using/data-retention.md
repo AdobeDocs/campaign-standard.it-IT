@@ -2,22 +2,24 @@
 solution: Campaign Standard
 product: campaign
 title: Conservazione dei dati
-description: null
 audience: administration
 content-type: reference
 topic-tags: application-settings
+feature: Impostazioni delle istanze
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 64%
+source-wordcount: '135'
+ht-degree: 62%
 
 ---
 
 
 # Conservazione dei dati{#data-retention}
 
-Le tabelle di registro standard di Campaign presentano periodi di conservazione predefiniti, che generalmente limitano la loro memorizzazione dei dati a un massimo di 6 mesi.
+Le tabelle di registro standard in Campaign hanno periodi di conservazione predefiniti, in genere ne limitano l’archiviazione a 6 mesi o meno.
 
 Di seguito sono riportati i valori di conservazione predefiniti per le tabelle standard. Ricorda che la configurazione della conservazione è impostata dagli amministratori tecnici di Adobe durante l’implementazione e che i valori possono variare per ciascuna implementazione, in base ai requisiti dei clienti.
 
