@@ -6,10 +6,13 @@ description: '"Scopri come navigare e utilizzare l’area di lavoro di Adobe Cam
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: Panoramica
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 05a44f5baa66df70a57da9467baf71a953aed856
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1293'
 ht-degree: 92%
 
 ---
@@ -38,7 +41,7 @@ La pagina Home è composta da una serie di schede che ti offrono un accesso rapi
 * La scheda **[!UICONTROL Create an SMS]** ti porta all’assistente di creazione SMS. L’assistente ti consente di scegliere un tipo di SMS, selezionare i destinatari del messaggio e definirne il contenuto. Consulta la sezione [Creazione di un SMS](../../channels/using/creating-an-sms-message.md).
 * La scheda **[!UICONTROL Create a Direct mail]** ti porta all’assistente per la creazione di direct mailing. Consulta la sezione [Creazione della direct mailing](../../channels/using/creating-the-direct-mail.md).
 * La scheda **[!UICONTROL Create a push notification]** ti porta all’assistente per la creazione delle notifiche. L’assistente ti consente di scegliere un tipo di notifica push, di selezionare i destinatari del messaggio e di definirne il contenuto. Consulta la sezione [Creazione di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md).
-* La scheda **[!UICONTROL Create an In-App message]** ti porta all&#39;assistente per la creazione in-app. Questa assistente consente di selezionare il tipo di messaggio in-app che si desidera creare, definirne le proprietà, il pubblico e il contenuto. Fare riferimento alla sezione [Creazione di un messaggio in-app](../../channels/using/about-in-app-messaging.md).
+* La scheda **[!UICONTROL Create an In-App message]** ti porta all’assistente per la creazione in-app. L’assistente ti consente di selezionare il tipo di messaggio in-app da creare, definirne le proprietà, il pubblico e il contenuto. Consulta la sezione [Creazione di un messaggio in-app](../../channels/using/about-in-app-messaging.md) .
 * La scheda **[!UICONTROL Marketing activities]** contiene l’elenco completo di tutte le attività, i programmi e le campagne, in particolare e-mail, SMS, flussi di lavoro e pagine di destinazione. Da qui puoi filtrare gli elementi ricercandoli per nome, data, stato o tipo di attività. Per ulteriori informazioni, consulta la sezione [Elenco delle attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * La scheda **[!UICONTROL Programs & campaigns]** ti consente di visualizzare l’elenco dei programmi in cui puoi creare e gestire le campagne. Consulta [Elenco programmi](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * La scheda **[!UICONTROL Timeline]** ti porta direttamente a una cronologia interattiva delle attività di marketing, nella quale puoi consultare i programmi in corso e i relativi contenuti. Consulta la [Timeline](../../start/using/timeline.md).
@@ -47,7 +50,7 @@ La pagina Home è composta da una serie di schede che ti offrono un accesso rapi
 
 ## Barra superiore {#top-bar}
 
-La barra superiore è visibile su ogni schermo e consente di navigare tra  funzionalità di Adobe Campaign e accedere al profilo del Adobe  connesso, alle notifiche, alle soluzioni Adobe Experience Cloud e alla documentazione di Campaign.
+La barra superiore è visibile su ogni schermata e ti consente di navigare tra le funzionalità di Adobe Campaign, nonché di accedere al profilo di Adobe connesso, alle notifiche, alle soluzioni Adobe Experience Cloud e alla documentazione di Campaign.
 
 I principi di navigazione sono i seguenti:
 
@@ -57,10 +60,10 @@ I principi di navigazione sono i seguenti:
 
 * Il collegamento **[!UICONTROL Home]** ti consente di visualizzare la pagina Home di Adobe Campaign.
 * I collegamenti **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** e **[!UICONTROL Reports]** ti consentono di accedere alle viste collegate a tali funzionalità.
-* L&#39;icona **Solution switcher** consente di passare da un&#39;organizzazione all&#39;altra o a un&#39;altra applicazione.
+* L&#39;icona **Solution Switcher** consente di passare da un&#39;organizzazione all&#39;altra o a un&#39;altra applicazione.
 * L&#39;icona **[!UICONTROL Help]** è descritta [sotto](#help).
 * L’icona **Notifications** visualizza gli avvisi o le informazioni più recenti.
-* L’icona **User** ti consente di visualizzare le informazioni collegate al profilo. Utilizzate questa icona se è necessario **[!UICONTROL Sign out]**.
+* L’icona **User** ti consente di visualizzare le informazioni collegate al profilo. Utilizza questa icona se devi **[!UICONTROL Sign out]**.
 
 ### Guida {#help}
 
