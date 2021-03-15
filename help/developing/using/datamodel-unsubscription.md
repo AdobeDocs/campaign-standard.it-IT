@@ -5,16 +5,19 @@ title: DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
+feature: Modello dati
+role: Sviluppatore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '57'
 ht-degree: 5%
 
 ---
 
 
-# Evento annullamento sottoscrizione (nms:rtEvent)
+# Evento di annullamento sottoscrizione (nms:rtEvent)
 
 ## Descrizione oggetto
 
@@ -65,7 +68,7 @@ ht-degree: 5%
 
 ## Filtri
 
-byEmail
+perEmail
 
 <table>
     <tr>
