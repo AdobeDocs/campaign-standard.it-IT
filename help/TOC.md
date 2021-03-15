@@ -4,12 +4,12 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
-breadcrumb-title: Centro Risorse
 title: Guida a Campaign Standard
+breadcrumb-title: Centro risorse
 translation-type: tm+mt
-source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1751'
 ht-degree: 99%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 99%
       + [Monitoraggio dell’esecuzione di un flusso di lavoro](automating/using/monitoring-workflow-execution.md)
       + [Gestione delle opzioni di esecuzione](automating/using/managing-execution-options.md)
       + [Gestione delle proprietà delle attività](automating/using/activity-properties.md)
-      + [Esecuzione sovrapposta dei flussi di lavoro pianificati](automating/using/scheduled-workflows-execution.md)
+      + [Esecuzione sovrapposta di flussi di lavoro pianificati](automating/using/scheduled-workflows-execution.md)
    + Chiamata di un flusso di lavoro con parametri esterni {#calling-workflow-external-parameters}
       + [Panoramica](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Dichiarazione dei parametri nell’attività Segnale esterno](automating/using/declaring-parameters-external-signal.md)
