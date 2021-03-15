@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Creazione di un servizio
-description: Scoprite come creare un servizio con le API.
+description: Scopri come creare un servizio con le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 8%
+source-wordcount: '77'
+ht-degree: 9%
 
 ---
 
@@ -19,13 +22,13 @@ ht-degree: 8%
 
 La creazione dei servizi viene eseguita con una richiesta **POST** sulla risorsa del servizio.
 
-Se desiderate creare il servizio con attributi specifici, aggiungeteli al payload. In caso contrario, il nuovo servizio verrà creato con quelli predefiniti.
+Se desideri creare il servizio con attributi specifici, aggiungili al payload. In caso contrario, il nuovo servizio verrà creato con quelli predefiniti.
 
 <br/>
 
 ***Richiesta di esempio***
 
-POST di esempio per creare un servizio con attributi specifici.
+Esempio di richiesta POST per creare un servizio con attributi specifici.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
