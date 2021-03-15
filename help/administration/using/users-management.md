@@ -6,11 +6,14 @@ description: 'Gli utenti di Adobe Campaign hanno ruoli specifici. Scopri i tipi 
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Gestione degli accessi
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 95%
+source-wordcount: '1224'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +64,7 @@ Gli amministratori funzionali sono utenti che possono accedere alle parti più t
 
 >[!IMPORTANT]
 >
->Solo gli amministratori funzionali, con il ruolo **[!UICONTROL Administration]** e l&#39;accesso alle unità **All**, possono accedere ai registri di invio, ai registri di registrazione dei messaggi, ai registri di monitoraggio, ai registri di esclusione, ai registri delle proposte e ai registri di iscrizione. Un utente non amministratore può eseguire il targeting di questi registri ma iniziare da una tabella collegata (profili, consegna).
+>Solo gli amministratori funzionali con il ruolo **[!UICONTROL Administration]** e l’accesso alle unità **All** possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione, ai registri delle proposte e ai registri di abbonamento. Un utente non amministratore può eseguire il targeting di questi registri ma partendo da una tabella collegata (profili, consegna).
 
 Gli amministratori funzionali sono gli unici utenti che possono accedere al menu **[!UICONTROL Administration]**, nell’interfaccia di Adobe Campaign. Poiché questi utenti devono accedere alle risorse tecniche, devi assegnare loro ruoli più avanzati, come i predefiniti **[!UICONTROL Administration]** e **[!UICONTROL Datamodel]**. Questi ruoli vengono combinati nel gruppo di sicurezza predefinito **[!UICONTROL Administrators]**. Per ulteriori informazioni, consulta questa [sezione](../../administration/using/list-of-roles.md).
 
@@ -154,10 +157,10 @@ Puoi quindi verificare che l’utente sia stato sincronizzato correttamente in A
 
 L’utente è ora pronto per utilizzare Adobe Campaign Standard.
 
-## Video di esercitazione (#video)
+## Video tutorial (#video)
 
 Questo video mostra come gestire i diritti di accesso degli utenti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
