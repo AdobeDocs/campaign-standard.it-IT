@@ -7,10 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
+feature: Profili
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 48%
 
 ---
@@ -22,22 +25,22 @@ Per ogni contatto del database è disponibile un Integrated customer profile. Qu
 
 Per accedere all’Integrated customer profile, effettua le seguenti operazioni:
 
-1. Dalla home page di  Adobe Campaign, fare clic sulla scheda **[!UICONTROL Customer profiles]** o sulla scheda **Profili** per visualizzare l&#39;elenco dei profili.
+1. Dalla home page di Adobe Campaign, fai clic sulla scheda **[!UICONTROL Customer profiles]** o sulla scheda **Profili** per visualizzare l’elenco dei profili.
 
-1. Per cercare un profilo basato su un campo specifico, aprire il riquadro di ricerca, quindi selezionare il campo in cui si desidera eseguire la ricerca.
+1. Per cercare un profilo basato su un campo specifico, apri il riquadro di ricerca, quindi seleziona il campo in cui desideri eseguire la ricerca.
 
 
    ![](assets/profile-search.png)
 
-1. Specificate il valore da cercare, quindi premete Invio.
+1. Specificare il valore da cercare, quindi premere Invio.
 
    >[!NOTE]
    >
-   >È possibile eseguire ricerche in base ai campi e-mail, nome e cognome e ai campi personalizzati aggiunti al momento dell’estensione della risorsa.
+   >Puoi eseguire le ricerche in base ai campi e-mail, nome e cognome e ai campi personalizzati aggiunti al momento dell’estensione della risorsa.
    >
-   >Le ricerche sono con distinzione tra maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non sarà possibile cercare un profilo utilizzando le ultime lettere del suo cognome.
+   >Le ricerche sono sensibili all’uso di maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del suo cognome.
 
-1. Selezionate un contatto per aprirne il profilo.
+1. Seleziona un contatto per aprire il suo profilo.
 
    ![](assets/mkt_hist_access.png)
 
@@ -45,7 +48,7 @@ Adesso potrai accedere allo **storico dei dati marketing** di questo contatto.
 
 In questa pagina sono raccolte le informazioni chiave sul profilo, oltre all’elenco degli eventi.
 
-Fate clic su un evento nell’elenco per aprirlo: puoi accedere ai messaggi inviati o ai servizi sottoscritti dal profilo.
+Fai clic su un evento nell’elenco per aprirlo: puoi accedere ai messaggi inviati o ai servizi a cui il profilo si è iscritto.
 
 ![](assets/mkt_hist_view.png)
 
