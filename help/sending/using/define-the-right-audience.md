@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: '"Quando il contenuto è pronto, scopri come definire con precisione chi riceverà il messaggio."'
+feature: Consegna
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '520'
 ht-degree: 11%
 
 ---
@@ -17,51 +21,51 @@ ht-degree: 11%
 
 # Definire il pubblico adatto {#define-the-right-audience}
 
-La popolazione mirata è la chiave: create con attenzione gli elenchi, verificate i messaggi e-mail sui client e dispositivi mobili più diffusi e verificate che gli elenchi delle e-mail siano aggiornati (senza indirizzi sconosciuti o obsoleti). È inoltre possibile inviare delle prove che aiutino a configurare un ciclo di convalida completo.
+La popolazione mirata è la chiave: crea gli elenchi con attenzione, verifica le e-mail sui client e-mail e sui dispositivi mobili più diffusi e assicurati che gli elenchi e-mail siano aggiornati (senza indirizzi sconosciuti o obsoleti). È inoltre possibile inviare bozze che consentono di impostare un ciclo di convalida completo.
 
-Ulteriori informazioni sulle popolazioni di destinazione [in questa sezione](../../audiences/using/selecting-an-audience-in-a-message.md)
+Ulteriori informazioni sulle popolazioni target [in questa sezione](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-## Esegue il targeting dell&#39;audience giusta {#target-the-right-audience}
+## Individua il pubblico giusto {#target-the-right-audience}
 
-Quando il contenuto è pronto, è necessario definire con attenzione chi riceverà il messaggio.
+Quando il contenuto è pronto, è necessario definire attentamente chi riceverà il messaggio.
 
-Per garantire il successo della distribuzione, è necessario inviare i contenuti personalizzati più rilevanti ai destinatari giusti.  Adobe Campaign consente di realizzare il target più preciso: potete selezionare i destinatari in base alla loro età, localizzazione, cosa hanno acquistato, se hanno fatto clic su un collegamento in una consegna precedente, ecc. Con  Adobe Campaign, potete anche definire profili di test, gruppi di controllo e indirizzi iniziali per essere certi che la destinazione sia corretta.
+Per garantire il successo della consegna, devi inviare i contenuti personalizzati più rilevanti ai destinatari giusti. Adobe Campaign consente di creare il target più preciso: puoi selezionare i destinatari in base alla loro età, localizzazione, cosa hanno acquistato, se hanno fatto clic su un collegamento in una consegna precedente, ecc. Con Adobe Campaign puoi anche definire profili di test, gruppi di controllo e indirizzi di seed per assicurarti che il target sia corretto.
 
 ## Mappature di destinazione {#target-mappings}
 
-Per impostazione predefinita, i modelli di consegna sono **Profili**.  Adobe Campaign offre altre mappature di destinazione per le consegne, che potete modificare in base alle vostre esigenze.
+Per impostazione predefinita, i modelli di consegna sono destinati a **Profili**. Adobe Campaign offre altre mappature di destinazione per le consegne, che puoi modificare in base alle tue esigenze.
 
-Questi mapping sono presentati [in questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources).
+Queste mappature sono presentate [in questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-Potete anche creare e utilizzare una mappatura di destinazione personalizzata. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../administration/using/target-mappings-in-campaign.md).
+Puoi anche creare e utilizzare una mappatura di destinazione personalizzata. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../administration/using/target-mappings-in-campaign.md).
 
 ## Dati esterni {#external-data}
 
-È possibile inviare i dati ai destinatari memorizzati in un file esterno anziché salvati nel database. A tal fine, un flusso di lavoro di progettazione caricherà i dati nel database da un file e creerà un&#39;audience associata.  Ulteriori informazioni [in questo caso di utilizzo](../../automating/using/use-case-calling-workflow.md). Vedere anche [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Puoi inviare messaggi ai destinatari memorizzati in un file esterno anziché in un database. A tal fine, la progettazione di un flusso di lavoro caricherà i dati nel database da un file e creerà un pubblico associato.  Ulteriori informazioni [in questo caso d&#39;uso](../../automating/using/use-case-calling-workflow.md). Vedi anche [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Invia ai tuoi abbonati {#send-to-subscribers}
 
-Per inviare messaggi agli abbonati di una newsletter, potete indirizzare direttamente gli abbonati al servizio di informazioni corrispondente. Ulteriori informazioni [in questa sezione](../../audiences/using/about-subscriptions.md).
+Per inviare messaggi agli abbonati di una newsletter, potete eseguire il targeting diretto degli abbonati al servizio di informazioni corrispondente. Ulteriori informazioni [in questa sezione](../../audiences/using/about-subscriptions.md).
 
-**Suggerimento** : puoi creare un pubblico Elenco con cui indirizzare gli utenti iscritti alla newsletter utilizzando un flusso di lavoro. Potete quindi selezionare questa audience in una consegna. Per ulteriori informazioni, vedere [Creazione di audience di elenchi](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Suggerimento** : puoi creare un pubblico di tipo List da indirizzare agli abbonati alla newsletter tramite un flusso di lavoro. Puoi quindi selezionare questo pubblico in una consegna. Per ulteriori informazioni, consulta [Creazione di tipi di pubblico di elenco](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
-## Prove, profili di prova e gruppi di controllo {#proofs-test-control-groups}
+## Prove, profili di test e gruppi di controllo {#proofs-test-control-groups}
 
-Per verificare la consegna, utilizzate le prove prima di inviare alla destinazione principale.
-Accertarsi di aver selezionato i destinatari della prova appropriati, in quanto convalidano il modulo e il contenuto del messaggio. I passaggi per l&#39;invio delle prove sono presentati [in questa sezione](../../sending/using/sending-proofs.md).
+Per verificare la consegna, utilizza le bozze prima di inviare al target principale.
+Assicurati di selezionare i destinatari della bozza appropriati, in quanto convalidano il modulo e il contenuto del messaggio. I passaggi per l’invio delle bozze sono descritti [in questa sezione](../../sending/using/sending-proofs.md).
 
 Ulteriori informazioni sui profili di test [in questa sezione](../../audiences/using/managing-test-profiles.md).
 
-È possibile utilizzare [Gruppi di controllo](../../sending/using/control-group.md) per misurare l&#39;impatto delle campagne escludendo una parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
+È possibile utilizzare [Gruppi di controllo](../../sending/using/control-group.md) per misurare l&#39;impatto delle campagne escludendo parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
 
-## Indirizzi di deduplicazione {#deduplicate-addresses}
+## Indirizzi duplicati {#deduplicate-addresses}
 
-È importante evitare di avere indirizzi e-mail duplicati, in quanto ciò può avere un impatto sulla destinazione:
+È importante evitare di duplicare gli indirizzi e-mail, perché questo può avere un impatto sul target:
 
-* Lo stesso messaggio può essere inviato più volte quando una destinazione viene divisa.
+* Lo stesso messaggio può essere inviato più volte quando una destinazione viene suddivisa.
 
-* Se un destinatario annulla la sottoscrizione dopo aver ricevuto un messaggio, il profilo duplicato riceverà comunque messaggi futuri.
+* Se un destinatario annulla l’abbonamento dopo aver ricevuto un messaggio, il suo profilo duplicato riceverà comunque messaggi futuri.
 
-Gli indirizzi di deduplicazione proteggono la reputazione dell&#39;invio e garantiscono una buona gestione della quarantena.
+La deduplicazione degli indirizzi protegge la reputazione dell’invio e garantisce una buona gestione della quarantena.
 
-Ulteriori informazioni [in questo caso di utilizzo](../../automating/using/deduplicating-data-imported-file.md).
+Ulteriori informazioni [in questo caso d&#39;uso](../../automating/using/deduplicating-data-imported-file.md).
