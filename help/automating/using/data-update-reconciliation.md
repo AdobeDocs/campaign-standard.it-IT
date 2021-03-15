@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 67%
+source-wordcount: '132'
+ht-degree: 66%
 
 ---
 
@@ -37,10 +40,10 @@ L’esempio seguente illustra un flusso di lavoro che crea un pubblico di profil
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* Un&#39;attività [Riconciliazione](../../automating/using/reconciliation.md) che collega ogni colonna del file caricato a una colonna della dimensione del profilo. I record di file che non è possibile identificare (dati mancanti, tipo di dati incompatibile, ecc.) vengono ignorati per preservare l’integrità dei dati di pubblico finali.
+* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md) che collega ogni colonna del file caricato a una colonna della dimensione del profilo. I record di file che non è possibile identificare (dati mancanti, tipo di dati incompatibile, ecc.) vengono ignorati per preservare l’integrità dei dati di pubblico finali.
 
    ![](assets/identification_example1.png)
 
-* Un&#39;attività [Save audience](../../automating/using/save-audience.md) che consente di salvare il pubblico dei profili.
+* Un’attività [Save audience](../../automating/using/save-audience.md) che consente di salvare il pubblico di profili.
 
    ![](assets/identification_example3.png)
