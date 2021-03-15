@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
+feature: Push
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1498'
 ht-degree: 98%
 
 ---
@@ -111,7 +114,7 @@ Impostare una data di scadenza per la notifica push ti consente di impostare una
 
 Per aggiungere una data di scadenza alla notifica push:
 
-1. Selezionare l&#39;opzione **[!UICONTROL Expire message]**: selezionando l&#39;opzione **[!UICONTROL Expire message]**, la durata viene automaticamente impostata su 0. Se non modifichi il valore, APNS e FCM tenteranno di inviare il messaggio immediatamente. Se l’invio non riesce, il messaggio non verrà inviato di nuovo.
+1. Seleziona l’opzione **[!UICONTROL Expire message]** : selezionando l&#39;opzione **[!UICONTROL Expire message]**, la durata viene automaticamente impostata su 0. Se non modifichi il valore, APNS e FCM tenteranno di inviare il messaggio immediatamente. Se l’invio non riesce, il messaggio non verrà inviato di nuovo.
 
 1. Nel campo **[!UICONTROL Duration]**, seleziona la validità della notifica push.
 
