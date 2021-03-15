@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Utilizzo delle “trappole”
-description: Scopri come utilizzare i trap nei messaggi.
+description: Scopri come utilizzare le trappole nei messaggi.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
+feature: Indirizzo del seme
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -18,48 +21,48 @@ ht-degree: 2%
 
 # Utilizzo delle “trappole”{#using-traps}
 
-Quando si utilizzano le trappole, il messaggio viene inviato al [profilo di test](../../audiences/using/managing-test-profiles.md) così come viene inviato alla destinazione principale, in modo da identificare se il file client viene utilizzato in modo fraudolento.
+Quando utilizzi le trappole, il messaggio viene inviato al [profilo di test](../../audiences/using/managing-test-profiles.md) proprio come viene inviato al target principale, in modo da identificare se il file client viene utilizzato in modo fraudolento.
 
-Le trame sono state originariamente progettate per le consegne per corrispondenza diretta. Consentono di:
+Le trappole sono state originariamente progettate per le consegne di direct mailing. Consentono di:
 
-* Verificare che il provider di posta diretta invii effettivamente la comunicazione.
-* Ricevi la posta nello stesso momento e nelle stesse condizioni dei tuoi clienti.
-* Tenete una copia esatta della posta che è stata inviata.
-* Verificate che l&#39;elenco dei client non venga utilizzato in modo improprio dal provider di posta diretta. In effetti, se qualsiasi altra comunicazione viene inviata all&#39;indirizzo del profilo di test, il file client potrebbe essere stato utilizzato senza che l&#39;utente ne fosse a conoscenza. Per questo motivo l&#39;indirizzo del profilo di prova dovrebbe essere utilizzato solo a questo scopo.
+* Verifica che il provider di direct mailing stia inviando effettivamente la comunicazione.
+* Ricevi la posta contemporaneamente e nelle stesse condizioni dei tuoi clienti.
+* Conserva una copia esatta della posta inviata.
+* Verifica che il provider di direct mailing non utilizzi in modo improprio l’elenco dei client. In effetti, se qualsiasi altra comunicazione viene inviata all&#39;indirizzo del tuo profilo di test, il tuo file client potrebbe essere stato utilizzato senza che te ne accorgi. Per questo motivo l’indirizzo del profilo di test deve essere utilizzato solo a questo scopo.
 
-Per ulteriori informazioni sull&#39;aggiunta di trap al pubblico di una corrispondenza diretta, vedere [Aggiunta di profili di test e trap](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+Per ulteriori informazioni sull’aggiunta di trappole al pubblico di una direct mailing, consulta [Aggiunta di profili di test e di trappola](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-Per gli altri canali di comunicazione, potete aggiungere profili di test di trapping alla destinazione principale al fine di:
+Per gli altri canali di comunicazione, puoi aggiungere profili di test di trappola al target principale per:
 
 * Verifica che il messaggio sia stato inviato correttamente.
 * Ottieni e conserva una copia esatta del tuo messaggio.
 * Monitora quando è stato inviato e ricevuto.
 
-Per utilizzare un profilo di test come trap, deve essere incluso nel pubblico del messaggio.
+Per utilizzare un profilo di test come trappola, deve essere incluso nel pubblico del messaggio.
 
 >[!NOTE]
 >
->A differenza dei profili di prova utilizzati per il rendering di [prove di stampa](../../sending/using/sending-proofs.md) o [e-mail](../../sending/using/email-rendering.md), il messaggio viene inviato contemporaneamente alla destinazione principale e ai profili di prova utilizzati come trappole.
+>A differenza dei profili di test utilizzati per [bozze](../../sending/using/sending-proofs.md) o [rendering di e-mail](../../sending/using/email-rendering.md), il messaggio viene inviato contemporaneamente al target principale e ai profili di test utilizzati come trappole.
 
-Quando si definisce l&#39;audience di un messaggio:
+Quando definisci il pubblico di un messaggio:
 
-1. Dalla scheda **[!UICONTROL Test profiles]**, selezionare un profilo di prova. Accertatevi che sia presente **[!UICONTROL Trap]** come utilizzo previsto.
+1. Dalla scheda **[!UICONTROL Test profiles]** , seleziona un profilo di test. Assicurati che abbia **[!UICONTROL Trap]** come uso previsto.
 
    ![](assets/trap_select.png)
 
-1. Una volta che il contenuto del messaggio è pronto, fare clic sul pulsante **[!UICONTROL Prepare]**. Vedere [Preparazione dell&#39;invio](../../sending/using/preparing-the-send.md).
+1. Quando il contenuto del messaggio è pronto, fai clic sul pulsante **[!UICONTROL Prepare]** . Consulta [Preparazione dell&#39;invio](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
-   >Accertatevi di aver selezionato una destinazione principale. In caso contrario, il messaggio non può essere inviato.
+   >Assicurati di aver selezionato una destinazione principale. In caso contrario, il messaggio non può essere inviato.
 
 1. Fai clic sul pulsante **[!UICONTROL Confirm]**. Consulta [Conferma dell’invio](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
-Il messaggio viene inviato alla destinazione principale e al profilo di test.
+Il messaggio viene inviato al target principale e al profilo di test.
 
-Potete utilizzare i trap per inviare messaggi transazionali. In questo caso, il profilo di test riceverà un messaggio per la configurazione dell&#39;evento. Per ulteriori informazioni sui messaggi transazionali, consulta la sezione [](../../channels/using/getting-started-with-transactional-msg.md).
+Puoi utilizzare le trappole per l’invio di messaggi transazionali. In questo caso, il profilo di test riceverà un messaggio per ogni configurazione dell’evento. Per ulteriori informazioni sulla messaggistica transazionale, consulta questa [sezione](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
->Quando si utilizza un profilo di prova come trap, per tutti i campi arricchiti di un messaggio, i dati aggiuntivi corrispondenti vengono scelti in modo casuale da un profilo di destinazione reale e assegnati al profilo di prova dell’abbondanza. Per ulteriori informazioni sull&#39;arricchimento, vedere [questo esempio](../../automating/using/enriching-profile-data-file.md).
+>Quando si utilizza un profilo di test come trappola, per tutti i campi arricchiti in un messaggio, i dati aggiuntivi corrispondenti vengono prelevati in modo casuale da un profilo di destinazione reale e assegnati al profilo di test di trappola. Per ulteriori informazioni sull&#39;arricchimento, consulta [questo esempio](../../automating/using/enriching-profile-data-file.md).
