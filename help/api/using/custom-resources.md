@@ -6,28 +6,31 @@ description: Ulteriori informazioni sulla gestione delle risorse personalizzate 
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 5%
+source-wordcount: '208'
+ht-degree: 6%
 
 ---
 
 
 # Risorse personalizzate {#custom-resources}
 
- Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. È possibile arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati o tabelle personalizzate, come ad esempio le tabelle di acquisto o di prodotto.
+Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. È possibile arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati o tabelle personalizzate, ad esempio tabelle di acquisto o di prodotti.
 
-Le risorse personalizzate sono accessibili tramite le API che utilizzano l&#39;endpoint **/profileAndServicesExt** e il nome della risorsa personalizzata.
+Le risorse personalizzate sono accessibili tramite API che utilizzano l&#39;endpoint **/profileAndServicesExt** e il nome della risorsa personalizzata.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Per le risorse non pronte all&#39;uso, utilizzate sempre il prefisso <b>&quot;cus&quot;</b> prima del nome della risorsa.
+>Per le risorse non pronte all’uso, utilizza sempre il prefisso <b>&quot;cus&quot;</b> prima del nome della risorsa.
 
-Puoi eseguire qualsiasi operazione con risorse personalizzate, purché collegate alla tabella Profilo. Ad esempio, consideriamo la struttura delle tabelle di seguito:
+Puoi eseguire qualsiasi operazione con risorse personalizzate, purché collegate alla tabella Profilo . Ad esempio, consideriamo la struttura delle tabelle seguente:
 
 ![testo alt](assets/cusresources.png)
 
@@ -37,7 +40,7 @@ In tal caso, tutte le risorse delle tabelle **Transaction**, **TransactionDetail
 
 ***Richiesta di esempio***
 
-Esempio di richiesta di GET per accedere alla risorsa profileAndServicesExt estesa.
+Richiesta di GET di esempio per accedere alla risorsa profileAndServicesExt estesa.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -47,7 +50,7 @@ Esempio di richiesta di GET per accedere alla risorsa profileAndServicesExt este
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-Restituisce l&#39;elenco di tutte le risorse personalizzate collegate. Potete quindi utilizzare gli URL delle risorse per eseguire qualsiasi attività API descritta in questa documentazione.
+Restituisce l’elenco di tutte le risorse personalizzate collegate. Puoi quindi utilizzare gli URL delle risorse per eseguire qualsiasi attività API descritta in questa documentazione.
 
 ```
 {
@@ -72,8 +75,8 @@ Restituisce l&#39;elenco di tutte le risorse personalizzate collegate. Potete qu
 }
 ```
 
-Per ulteriori informazioni sull&#39;estensione del modello dati, consulta la documentazione Campaign:
+Per ulteriori informazioni sull’estensione del modello dati, consulta la documentazione Campaign:
 
 * [Concetti del modello dati](../../developing/using/data-model-concepts.md)
-* [Estensione dell&#39;API](../../developing/using/about-extending-the-api.md)
+* [Estensione dell’API](../../developing/using/about-extending-the-api.md)
 * [Definizione di collegamenti con altre risorse](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
