@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Utilizzo di triggers in Campaign
-description: null
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
+feature: Triggers
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 83%
+source-wordcount: '755'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +23,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->Per creare gli attivatori, è necessario il ruolo **[!UICONTROL Administration]** o essere nel gruppo di sicurezza **[!UICONTROL Administrators]**. Per ulteriori informazioni, fare riferimento a questa [pagina](../../administration/using/list-of-roles.md).
+>Per creare i trigger, devi disporre del ruolo **[!UICONTROL Administration]** o far parte del gruppo di sicurezza **[!UICONTROL Administrators]** . Per ulteriori informazioni, consulta questa [pagina](../../administration/using/list-of-roles.md).
 
 Devi accertarti di definire in anticipo i comportamenti da monitorare all’interno di Adobe Experience Cloud (servizio core **[!UICONTROL Triggers]**). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/activation/triggers.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
 
@@ -49,17 +51,17 @@ I passaggi per implementare ciò sono i seguenti:
 
    ![](assets/remarketing_4.png)
 
-1. Ora puoi pubblicare i trigger. Per ulteriori informazioni, consultare [Pubblicazione di un trigger in Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+1. Ora puoi pubblicare i trigger. Per ulteriori informazioni, consulta [Pubblicazione di un trigger in Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
-## Pubblicazione di un trigger nella campagna {#publishing-trigger-in-campaign}
+## Pubblicazione di un trigger in Campaign {#publishing-trigger-in-campaign}
 
-Dopo aver creato un evento di attivazione in  Adobe Campaign basato su un trigger Adobe Experience Cloud esistente, è ora necessario pubblicarlo.
+Dopo aver creato un evento trigger in Adobe Campaign basato su un trigger esistente di Adobe Experience Cloud, è ora necessario pubblicarlo.
 
-1. Dal trigger creato in precedenza, fare clic sul pulsante **[!UICONTROL Publish]** per avviare la pubblicazione dell&#39;evento trigger.
+1. Dal trigger creato in precedenza, fai clic sul pulsante **[!UICONTROL Publish]** per avviare la pubblicazione dell’evento trigger.
 
    ![](assets/trigger_publish_1.png)
 
-1. È possibile controllare l&#39;avanzamento della pubblicazione dell&#39;attivatore in **[!UICONTROL Publication]**.
+1. Puoi controllare l’avanzamento della pubblicazione del trigger in **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_2.png)
 
@@ -73,7 +75,7 @@ Dopo aver creato un evento di attivazione in  Adobe Campaign basato su un trigge
 
    ![](assets/trigger_publish_4.png)
 
-1. Fare clic sul pulsante **[!UICONTROL Show Trigger in Experience Cloud]** per visualizzare la definizione dell&#39;attivatore in Adobe Experience Cloud.
+1. Fai clic sul pulsante **[!UICONTROL Show Trigger in Experience Cloud]** per visualizzare la definizione del trigger in Adobe Experience Cloud.
 
 Una volta pubblicato l’evento, viene automaticamente creato un modello transazionale collegato al nuovo evento. Dovrai quindi modificare e pubblicare il modello appena creato. Per ulteriori informazioni, consulta la sezione [Modifica del modello](../../start/using/marketing-activity-templates.md) .
 
@@ -81,7 +83,7 @@ Una volta pubblicato l’evento, viene automaticamente creato un modello transaz
 
 Dopo aver creato e pubblicato l’evento trigger, viene creato il modello transazionale corrispondente. Per ulteriori informazioni, consulta la sezione [Creazione di un trigger mappato in Campaign](#creating-a-mapped-trigger-in-campaign).
 
-Affinché l’evento attivi l’invio di un messaggio sulle transazioni, è necessario che personalizzi tale modello, per poi testarlo e infine pubblicarlo. Questi passaggi sono i medesimi di un messaggio sulle transazioni standard. Per ulteriori informazioni, consultare la sezione [Modifica di un messaggio transazionale](../../channels/using/editing-transactional-message.md).
+Affinché l’evento attivi l’invio di un messaggio sulle transazioni, è necessario che personalizzi tale modello, per poi testarlo e infine pubblicarlo. Questi passaggi sono i medesimi di un messaggio sulle transazioni standard. Per ulteriori informazioni, consulta la sezione [Modifica di un messaggio transazionale](../../channels/using/editing-transactional-message.md) .
 
 >[!NOTE]
 >
