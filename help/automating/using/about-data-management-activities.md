@@ -6,11 +6,14 @@ description: Le attività di gestione dei dati sono disponibili sul lato sinistr
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 55%
+source-wordcount: '124'
+ht-degree: 54%
 
 ---
 
@@ -19,7 +22,7 @@ ht-degree: 55%
 
 Dalla palette, sul lato sinistro dello schermo, apri la sezione **[!UICONTROL Data management (ETL)]**.
 
-Queste attività consentono di manipolare i dati. Consentono, ad esempio, di importare dati, eseguire aggiornamenti di massa sui campi del database, ricevere o inviare file o collegare dati non identificati a risorse esistenti.
+Queste attività ti consentono di manipolare i dati. Consentono, ad esempio, di importare dati, eseguire aggiornamenti di massa sui campi del database, ricevere o inviare file o collegare dati non identificati a risorse esistenti.
 
 ![](assets/wkf_etl_activities.png)
 
@@ -32,4 +35,4 @@ La sezione **[!UICONTROL Data management (ETL)]** include le seguenti attività:
 * [Extract file](../../automating/using/extract-file.md)
 * [Subscription Services](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** le attività consentono di definire  **i** codici dei segmenti per le loro transizioni in uscita. Puoi quindi creare report basati su questi codici di segmento per misurare l’efficienza delle campagne di marketing. Per ulteriori informazioni, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Data management (ETL)]** Le attività ti consentono di definire  **i** codici dei segmenti per le loro transizioni in uscita. Puoi quindi creare report basati su questi codici di segmento per misurare l’efficienza delle campagne di marketing. Per ulteriori informazioni, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).
