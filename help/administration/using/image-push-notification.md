@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Visualizzazione di un’immagine da una notifica push di Adobe Campaign Standard
-description: Scoprite come visualizzare un'immagine da una notifica push Adobe Campaign  su un dispositivo iOS.
+description: Scopri come visualizzare un’immagine da una notifica push di Adobe Campaign su un dispositivo iOS.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Impostazioni delle istanze
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '432'
 ht-degree: 20%
 
 ---
@@ -22,54 +25,54 @@ ht-degree: 20%
 >
 >Questo documento si applica solo ai dispositivi iOS.
 
-In questo documento, scoprite come visualizzare un&#39;immagine da una notifica push di Adobe Campaign Standard iOS .
+In questo documento, scopri come visualizzare un’immagine da una notifica push di Adobe Campaign Standard iOS.
 
 ## Passaggio 1: Imposta notifica push {#set-up-push}
 
-La notifica push è supportata dagli SDK  Experience Platform.
+La notifica push è supportata dagli SDK per Experienci Platform.
 
-Le applicazioni mobili che ricevono le notifiche push devono essere configurate da un amministratore nell&#39;interfaccia Adobe Campaign .
+Le applicazioni mobili che ricevono le notifiche push devono essere configurate da un amministratore nell’interfaccia di Adobe Campaign.
 
-Configurando sia  Adobe Campaign che  Adobe Mobile Services, potrete utilizzare i dati dell&#39;applicazione mobile per le campagne. Per ulteriori informazioni, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
+Configurando sia Adobe Campaign che Adobe Mobile Services, potrai utilizzare i dati dell’app mobile per le tue campagne. Per ulteriori informazioni, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
 
-Per inviare notifiche push con un&#39;applicazione SDK  Experience Cloud, è necessario impostare un&#39;app mobile  Adobe Experience Platform Launch e configurarla in  Adobe Campaign. Per ulteriori informazioni, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Per inviare notifiche push con un’applicazione Experience Cloud SDK, è necessario configurare un’app mobile in Adobe Experience Platform Launch e configurarla in Adobe Campaign. Per ulteriori informazioni, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
-## Passaggio 2: Personalizzare la notifica push in  Adobe Campaign {#customize-push}
+## Passaggio 2: Personalizzare la notifica push in Adobe Campaign {#customize-push}
 
 Per ottimizzare la notifica push, Adobe Campaign ti consente di accedere a un set di opzioni avanzate durante la progettazione di una notifica push.
 
 1. Creare una notifica push. Per ulteriori informazioni, consulta questa [pagina](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Dalla pagina del contenuto della notifica push, accedete alla sezione **[!UICONTROL Advanced options]**.
+1. Dalla pagina dei contenuti delle notifiche push, accedi alla sezione **[!UICONTROL Advanced options]** .
 
-1. Immettete l&#39;URL del file nel campo **[!UICONTROL Rich media content URL]**.
+1. Immetti l’URL del file nel campo **[!UICONTROL Rich media content URL]** .
 Per iOS 10 o versioni successive, puoi inserire file immagine, gif, audio e video.
 
    ![](assets/push_notif_advanced_6.png)
 
-1. Visualizzate l&#39;anteprima e salvate la notifica push.
+1. Anteprima e salva la notifica push.
 
-## Passaggio 3: Adattate il codice dell&#39;applicazione Mobile {#mobile-app-code}
+## Passaggio 3: Adatta il codice dell&#39;applicazione mobile {#mobile-app-code}
 
-Dopo aver personalizzato la notifica push in  Adobe Campaign, dovete configurare l&#39;applicazione mobile per visualizzare l&#39;immagine sui dispositivi.
+Dopo aver personalizzato la notifica push in Adobe Campaign, devi configurare la tua app mobile per visualizzare l&#39;immagine sui dispositivi.
 
 >[!NOTE]
 >
->Se l&#39;applicazione è in Objective-C, fare riferimento alla seguente [documentazione](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Se l&#39;applicazione è in Objective-C, consulta la seguente [documentazione](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-Se l&#39;app è in [!DNL Swift], segui i passaggi seguenti:
+Se la tua app è in [!DNL Swift], segui i passaggi seguenti:
 
-1. Apri il progetto [!DNL Xcode].
+1. Apri il progetto [!DNL Xcode] .
 
-1. Nel progetto [!DNL Xcode], selezionare **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Nel progetto [!DNL Xcode], seleziona **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Seleziona **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
-1. Verificate che la classe di file **NotificationService.swift** sia stata creata.
+1. Verifica che la classe di file **NotificationService.swift** sia stata creata.
 
-1. Modificate questa classe e sostituite il contenuto predefinito con quanto segue.
+1. Modifica questa classe e sostituisci il contenuto predefinito con quanto segue.
 Questo consente all’applicazione di gestire il parametro in entrata con l’URL dell’immagine, analizzarlo, copiarlo localmente e quindi visualizzarlo dalla notifica push.
 
    ```
@@ -130,9 +133,9 @@ Questo consente all’applicazione di gestire il parametro in entrata con l’UR
    }
    ```
 
-Il cellulare deve ricevere il payload seguente durante l&#39;invio della notifica.
+Il dispositivo mobile deve ricevere il seguente payload durante l’invio della notifica.
 
-L’URL dell’immagine viene mappato con l’URL del supporto chiave-attachment-url. È la coppia chiave/valore che è necessario gestire dal punto di vista del codice dell&#39;applicazione per scaricare e visualizzare l&#39;immagine.
+L&#39;URL dell&#39;immagine è mappato con media-attachment-url. Questa è la coppia chiave/valore che è necessario gestire dal punto di vista del codice dell&#39;applicazione per scaricare e visualizzare l&#39;immagine.
 
 ```
 userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_images/876737835314950144/zPTs9b7o.jpg, AnyHashable("_dId"): 1de3ef93, AnyHashable("_mId"): h280a5, AnyHashable("aps"): {
@@ -154,7 +157,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## Passaggio 4: Test dell&#39;invio del push {#test-send-push}
 
-È ora possibile verificare la creazione dell&#39;applicazione e la consegna creata nel passaggio 2 precedente. Per ulteriori informazioni sulla preparazione e l&#39;invio della notifica push, consultate questa [pagina](../../channels/using/preparing-and-sending-a-push-notification.md).
+Ora puoi testare la creazione dell’applicazione e la consegna creata al passaggio 2 precedente. Per ulteriori informazioni sulla preparazione e l’invio della notifica push, consulta questa [pagina](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)
 
