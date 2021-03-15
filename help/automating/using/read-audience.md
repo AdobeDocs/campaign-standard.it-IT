@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 87%
+source-wordcount: '210'
+ht-degree: 86%
 
 ---
 
@@ -30,8 +33,8 @@ L’attività **[!UICONTROL Read audience]** è una versione più semplice di qu
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: Unione su due tipi di pubblico raffinati](../../automating/using/union-on-two-refined-audiences.md)
-* [Caso di utilizzo: Riconciliare un pubblico di file con il database](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso di utilizzo: Unione di due tipi di pubblico perfezionati](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso di utilizzo: Riconciliare un pubblico di tipo File con il database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configurazione {#configuration}
 
@@ -41,7 +44,7 @@ L’attività **[!UICONTROL Read audience]** è una versione più semplice di qu
 
    Puoi recuperare i seguenti tipi di pubblico: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** e **[!UICONTROL Experience Cloud]**. Per ulteriori informazioni sui tipi di pubblico, consulta la documentazione [Audiences](../../audiences/using/about-audiences.md).
 
-   L’opzione **[!UICONTROL Use a dynamic audience]** ti consente di definire il nome del pubblico di cui eseguire il targeting in base alle variabili degli eventi del flusso di lavoro. Per ulteriori informazioni, consultare la sezione [questa pagina](../../automating/using/customizing-workflow-external-parameters.md).
+   L’opzione **[!UICONTROL Use a dynamic audience]** ti consente di definire il nome del pubblico di cui eseguire il targeting in base alle variabili degli eventi del flusso di lavoro. Per ulteriori informazioni, consulta la sezione [questa pagina](../../automating/using/customizing-workflow-external-parameters.md) .
 
    ![](assets/readaudience_activity1.png)
 
