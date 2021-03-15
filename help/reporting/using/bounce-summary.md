@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Riepilogo messaggi non recapitati
-description: Il rapporto di riepilogo Bounce fornisce informazioni sullo stato delle campagne inviate e sugli eventuali errori riscontrati.
+description: Con il rapporto di riepilogo non recapitato, scopri lo stato delle campagne inviate e gli eventuali errori riscontrati.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
+feature: Generazione rapporti
+role: Leader
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -18,21 +21,21 @@ ht-degree: 1%
 
 # Riepilogo messaggi non recapitati{#bounce-summary}
 
-Questo rapporto descrive gli errori hardware e software riscontrati durante le consegne e l&#39;elaborazione automatica dei rimbalzi (vedere [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)).
+Questo rapporto descrive gli errori rigidi e morbidi riscontrati durante le consegne e l’elaborazione automatica dei mancati recapiti (consulta [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
-Ogni tabella è rappresentata da numeri e grafici di riepilogo. Puoi modificare la modalità di visualizzazione dei dettagli nelle rispettive impostazioni di visualizzazione.
+Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare il modo in cui i dettagli vengono visualizzati nelle rispettive impostazioni di visualizzazione.
 
-**Le cinque consegne con il numero più elevato di** repartitioneelenca:
+**Il** repartitionist Flop 5 elenca le cinque consegne con il numero più elevato di quarantene:
 
-La tabella **Bounce reasons** contiene i dati disponibili per i tipi di errori che hanno causato dei rimbalzi per ogni consegna:
+La tabella **Motivi non recapitati** contiene i dati disponibili per i tipi di errori che hanno causato rimbalzi per ogni consegna:
 
-* **[!UICONTROL User unknown]**: Il tipo di errore generato quando una consegna viene inviata a un indirizzo e-mail non valido.
-* **[!UICONTROL Invalid domain]**: Tipo di errore generato quando un recapito viene inviato a un indirizzo e-mail il cui dominio è errato o non esiste più.
-* **[!UICONTROL Unreachable]**: Tipo di errore rilevato nella stringa di consegna del messaggio, ad esempio dominio temporaneamente irraggiungibile.
+* **[!UICONTROL User unknown]**: Tipo di errore generato quando una consegna viene inviata a un indirizzo e-mail non valido.
+* **[!UICONTROL Invalid domain]**: Tipo di errore generato quando una consegna viene inviata a un indirizzo e-mail il cui dominio è errato o non esiste più.
+* **[!UICONTROL Unreachable]**: Tipo di errore rilevato nella stringa di consegna del messaggio, ad esempio dominio temporaneamente non raggiungibile.
 * **[!UICONTROL Account disabled]**: Il tipo di errore generato quando una consegna viene inviata a un indirizzo e-mail che non esiste più.
-* **[!UICONTROL Mailbox full]**: Tipo di errore generato quando la inbox del destinatario è piena. Prima di generare l&#39;errore, è possibile inviare il messaggio in cinque tentativi.
+* **[!UICONTROL Mailbox full]**: Il tipo di errore generato quando la casella in entrata del destinatario è piena. Ci sono cinque tentativi per consegnare il messaggio prima che questo errore venga generato.
 * **[!UICONTROL Not connected]**: Tipo di errore generato quando il telefono cellulare del destinatario è spento o non è connesso a una rete al momento dell&#39;invio del messaggio.
 
    >[!NOTE]
@@ -41,4 +44,4 @@ La tabella **Bounce reasons** contiene i dati disponibili per i tipi di errori c
 
 * **[!UICONTROL Refused]**: Tipo di errore generato quando un indirizzo viene rifiutato dal provider di servizi Internet (ISP). Ad esempio, quando una regola di sicurezza è stata applicata dal software anti-Spam.
 
-Nella tabella **Partizione di dominio** vengono visualizzati i problemi complessivi riscontrati durante le consegne in base al dominio destinatario.
+La tabella **Partizione del dominio** visualizza i problemi generali rilevati durante le consegne in base al dominio destinatario.
