@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1096'
 ht-degree: 98%
 
 ---
@@ -24,7 +27,7 @@ La modifica di un’espressione comporta l’immissione manuale di condizioni pe
 
 Questa modalità ti consente di utilizzare funzioni avanzate. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici, ordinamento e così via.
 
-È inoltre possibile utilizzare le variabili degli eventi dei flussi di lavoro quando si modifica un&#39;espressione. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/customizing-workflow-external-parameters.md).
+È inoltre possibile utilizzare le variabili degli eventi dei flussi di lavoro durante la modifica delle espressioni. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/customizing-workflow-external-parameters.md).
 
 Puoi modificare le espressioni per:
 
@@ -106,8 +109,7 @@ Le espressioni JavaScript sono composte da una o più condizioni e utilizzano i 
    * **&lt;valore2>** è un campo, una funzione o un valore immesso manualmente.
 
    >[!NOTE]
-   >
-   >I dati del tipo **&lt;contesto>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;contesto>** è una data, anche **&lt;valore2>** deve essere una data.
+   I dati del tipo **&lt;contesto>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;contesto>** è una data, anche **&lt;valore2>** deve essere una data.
 
 * Se desideri utilizzare diverse condizioni, puoi combinarle utilizzando operatori logici.
 
