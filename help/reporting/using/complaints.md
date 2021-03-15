@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Reclami
-description: Grazie al report out-of-the-box sui reclami, puoi sapere quanti tempi di consegna sono stati dichiarati come spam.
+description: Con il rapporto preconfigurato Complaints , scopri quanti tempi di consegna sono stati dichiarati come spam.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
+feature: Generazione rapporti
+role: Leader
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '89'
 ht-degree: 17%
 
 ---
@@ -22,6 +25,6 @@ Il rapporto **[!UICONTROL Complaints]** individua le consegne che hanno ricevuto
 
 ![](assets/delivery_reports_complaints.png)
 
-La tabella **Flop**, ordinata per dominio destinatario, visualizza il numero di destinatari che hanno dichiarato un&#39;e-mail o una posta indesiderata. I risultati della tabella sono disponibili anche in un grafico e in numeri di riepilogo.
+La tabella **Flop**, ordinata per dominio del destinatario, visualizza il numero di destinatari che hanno dichiarato un&#39;e-mail o un messaggio indesiderato. I risultati della tabella sono disponibili anche in un grafico a diagramma e in numeri di riepilogo.
 
-La tabella **Consegnato rispetto a Elenco Bloccati** indica il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. La tabella è ordinata per consegna.
+La tabella **Consegnato rispetto a Elenco Bloccati** elenca il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. La tabella viene ordinata per consegna.
