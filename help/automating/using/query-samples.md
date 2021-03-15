@@ -2,23 +2,26 @@
 solution: Campaign Standard
 product: campaign
 title: Esempi di query
-description: In questa sezione viene illustrato l'utilizzo di un'attività Query.
+description: Questa sezione presenta un caso d’uso quando si utilizza un’attività Query .
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 89%
 
 ---
 
 
 # Esempi di query {#query-samples}
 
-In questa sezione viene illustrato il caso di utilizzo di un&#39;attività **[!UICONTROL Query]**. Per ulteriori informazioni sull&#39;utilizzo di un&#39;attività **[!UICONTROL Query]**, fare riferimento a [questa sezione](../../automating/using/query.md).
+Questa sezione presenta un caso d’uso quando si utilizza un’attività **[!UICONTROL Query]** . Per ulteriori informazioni sull&#39;utilizzo di un&#39;attività **[!UICONTROL Query]**, consulta [questa sezione](../../automating/using/query.md).
 
 ## Esecuzione del targeting su attributi di profilo semplici {#targeting-on-simple-profile-attributes}
 
