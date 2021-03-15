@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Unione di due tipi di pubblico perfezionati
-description: Questo caso di utilizzo mostra l'unione di due attività di lettura dell'audience.
+description: Questo caso d’uso mostra l’unione di due attività Read audience .
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 58%
+source-wordcount: '154'
+ht-degree: 57%
 
 ---
 
@@ -24,7 +27,7 @@ Il flusso di lavoro è progettato come segue:
 
 ![](assets/readaudience_activity_example1.png)
 
-* Una prima [Leggi audience](../../automating/using/read-audience.md) attività che recupera il pubblico dei membri Gold e lo perfeziona selezionando solo i profili con età compresa tra 18 e 30 anni.
+* Una prima attività [Read audience](../../automating/using/read-audience.md) che recupera il pubblico di iscritti Gold e lo perfeziona selezionando solo i profili di età compresa tra i 18 e i 30 anni.
 * Una seconda attività **[!UICONTROL Read audience]** che recupera il pubblico di iscritti Silver e lo perfeziona selezionando solo i profili di età compresa tra i 18 e i 30 anni.
-* Un&#39;attività [Union](../../automating/using/union.md) che unisce le popolazioni delle attività **[!UICONTROL Read audiences]** in una popolazione finale.
+* Un&#39;attività [Union](../../automating/using/union.md) che unisce le popolazioni delle attività **[!UICONTROL Read audiences]** a una popolazione finale.
 * Un&#39;attività [Email delivery](../../automating/using/email-delivery.md) che invia l&#39;e-mail alla popolazione proveniente dall&#39;attività **[!UICONTROL Union]**.
