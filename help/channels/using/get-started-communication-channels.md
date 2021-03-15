@@ -6,10 +6,13 @@ description: Crea messaggi personalizzati su vari canali, utilizza modelli, crea
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
+feature: Panoramica
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '528'
 ht-degree: 23%
 
 ---
@@ -25,16 +28,16 @@ ht-degree: 23%
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Pagine di destinazione</a></p></td></tr>
 </table>
 
- Adobe Campaign consente di avviare, misurare e automatizzare le campagne su tutti i canali.
-Armonizzare tutti i canali di marketing non è un compito impossibile. Con l&#39;aiuto di  Adobe Campaign, puoi portare i dati dei clienti da diversi sistemi, dispositivi e canali in un unico profilo. Dopodiché, distribuisci campagne pertinenti e tempestive che soddisfano i tuoi clienti nei luoghi e nei modi giusti all&#39;interno del loro percorso di clienti.
+Adobe Campaign consente di avviare, misurare e automatizzare campagne su ogni canale.
+Armonizzare tutti i tuoi canali di marketing non è un compito impossibile. Con l’aiuto di Adobe Campaign, puoi raccogliere i dati dei clienti da diversi sistemi, dispositivi e canali in un unico profilo. Quindi, distribuisci campagne puntuali e pertinenti che soddisfino i tuoi clienti nei luoghi e modi giusti lungo il loro percorso di clienti.
 
 ## Concetti globali {#global-concepts}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Utilizza i** dashboard dei messaggi di Campaign per configurare e inviare i messaggi da un&#39;unica posizione, nonché per accedere a varie funzionalità come la pianificazione, la messaggistica multilingue...
+**Utilizza il** dashboard dei messaggi di Campaign per configurare e inviare i messaggi da un’unica posizione, nonché accedere a varie funzionalità quali la pianificazione e la messaggistica multilingue..
 
-**Gestire** i modelli per configurare le proprietà dei messaggi e consentire di guadagnare tempo e coerenza nella strategia di messaggistica. Ad esempio, per le e-mail, l&#39;amministratore funzionale incaricato della configurazione dei modelli può definire i parametri standard di un&#39;e-mail, come il pubblico, la pianificazione o il contenuto, i parametri avanzati relativi all&#39;invio, alla validità, al tracciamento, ecc., o i parametri pre-configurazione relativi al targeting e alla personalizzazione (contesto di targeting).
+**Gestisci** modelli per configurare le proprietà dei messaggi e consentire di guadagnare tempo e coerenza nella strategia di messaggistica. Ad esempio, per le e-mail, l’amministratore funzionale incaricato della configurazione dei modelli può definire i parametri standard di un’e-mail, come il pubblico, la pianificazione o il contenuto, i parametri avanzati relativi all’invio, alla validità, al tracciamento, ecc., o i parametri di preconfigurazione relativi al targeting e alla personalizzazione (contesto di targeting).
 
 Leggi tutto:
 
@@ -48,11 +51,11 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**In  Adobe Campaign sono disponibili cinque** canali di comunicazione: E-mail, SMS, notifica push, messaggio in-app e consegna diretta.
+**In Adobe Campaign sono** disponibili cinque canali di comunicazione: E-mail, messaggio SMS, notifica push, messaggio in-app e consegna direct mail.
 
-Per ciascun canale sono disponibili funzionalità specifiche. Ad esempio, il canale e-mail consente di eseguire test A/B per testare fino a 3 versioni di un messaggio e-mail. Con il canale SMS, gestisci i messaggi STOP SMS e archivia gli SMS in arrivo dai destinatari nel tuo database.
+Per ogni canale sono disponibili funzionalità specifiche. Ad esempio, il canale e-mail ti consente di eseguire test A/B per testare fino a 3 versioni di un messaggio e-mail. Con il canale SMS, gestisci i messaggi SMS STOP e archivia gli SMS in entrata dai destinatari nel tuo database.
 
-Inoltre, puoi sfruttare le funzionalità di personalizzazione e contenuti dinamici dei Campaign Standard **per catturare l&#39;interesse del pubblico.**
+Inoltre, sfrutta la funzionalità di personalizzazione e contenuti dinamici di Campaign Standard **per catturare l&#39;interesse del pubblico.**
 
 Leggi tutto:
 
@@ -66,9 +69,9 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Invia** messaggi singoli e unici ai clienti in tempo reale: messaggi di benvenuto, conferme di spedizione ordini, modifica della password, ecc.
+**Invia messaggi singoli e univoci** ai clienti in tempo reale: messaggi di benvenuto, conferme di spedizione dell’ordine, modifica della password, ecc.
 
-I messaggi transazionali sono disponibili per i canali di e-mail, SMS e notifiche push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi transazionali evento** eventi di targeting senza informazioni di profilo e **messaggi transazionali di profilo** profili di targeting dal database.
+I messaggi transazionali sono disponibili per i canali e-mail, SMS e notifiche push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi transazionali di evento** eventi di targeting senza informazioni sul profilo e **messaggi transazionali di profilo** profili di targeting dal database.
 
 Leggi tutto:
 
@@ -84,9 +87,9 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign viene fornito con pagine di destinazione che sono moduli Web che possono essere utilizzati per **acquisire informazioni sui tipi di pubblico**, offrire iscrizioni a un servizio, visualizzare i dati e ampliare il database.
+Campaign viene fornito con pagine di destinazione che sono moduli web che possono essere utilizzati per **acquisire informazioni sui tipi di pubblico**, offrire abbonamenti a un servizio, visualizzare i dati e aumentare il database.
 
-Le pagine di destinazione possono essere utilizzate anche per **acquisire o aggiornare i profili esistenti** e per impostare un doppio meccanismo di consenso, che consente di proteggere la piattaforma da indirizzi e-mail o spambots errati o non validi.
+Le pagine di destinazione possono anche essere utilizzate per **acquisire o aggiornare profili esistenti** e per impostare un doppio meccanismo di consenso, che consente di proteggere la piattaforma da indirizzi e-mail o spambots errati o non validi.
 
 Leggi tutto:
 
@@ -97,10 +100,10 @@ Leggi tutto:
 
 ## Risorse aggiuntive
 
-* [Ottimizzazione della recapito](../../sending/using/about-deliverability.md)
+* [Ottimizzazione del recapito messaggi](../../sending/using/about-deliverability.md)
 * [Best practice di consegna](../../sending/using/delivery-best-practices.md)
-* [Progettazione di un contenuto e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Progettazione di contenuto e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importazione di un contenuto AEM](../../integrating/using/creating-email-experience-manager.md)
-* [Invio di messaggi con i flussi di lavoro](../../automating/using/about-channel-activities.md)
-* [Video di esercitazione sui canali di comunicazione](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
-* [Caso di utilizzo: Creazione di una distribuzione tra canali](../../automating/using/workflow-cross-channel-delivery.md)
+* [Invio di messaggi con flussi di lavoro](../../automating/using/about-channel-activities.md)
+* [Video tutorial sui canali di comunicazione](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Caso di utilizzo: Creazione di una consegna cross-channel](../../automating/using/workflow-cross-channel-delivery.md)
