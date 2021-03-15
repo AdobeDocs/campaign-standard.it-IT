@@ -7,10 +7,13 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
+feature: Campagne
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '491'
 ht-degree: 83%
 
 ---
@@ -81,16 +84,16 @@ I programmi e le campagne sono illustrati nella sezione [Programmi e campagne](.
 
 A seconda del contesto, è possibile:
 
-* Creare un&#39;e-mail - [Ulteriori informazioni](../../channels/using/creating-an-email.md)
-* Creare un SMS - [Ulteriori informazioni](../../channels/using/creating-an-sms-message.md)
+* Crea un messaggio e-mail - [Ulteriori informazioni](../../channels/using/creating-an-email.md)
+* Crea un SMS - [Ulteriori informazioni](../../channels/using/creating-an-sms-message.md)
 * Creare una notifica push - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Creare un messaggio in-app - [Ulteriori informazioni](../../channels/using/about-in-app-messaging.md)
 * Creare un flusso di lavoro - [Ulteriori informazioni](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * Creare una pagina di destinazione - [Ulteriori informazioni](../../channels/using/getting-started-with-landing-pages.md)
 * Creare una campagna - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* Creare un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Crea un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Puoi anche creare un’attività di marketing dall’elenco relativo. In questo caso, potete creare qualsiasi tipo di attività e scegliere di collegare l&#39;attività di marketing a una campagna padre (o a un programma padre, se create un programma) tramite le proprietà dell&#39;attività.
+>Puoi anche creare un’attività di marketing dall’elenco relativo. In questo caso, puoi creare qualsiasi tipo di attività e scegliere di collegare l’attività di marketing a una campagna principale (o a un programma principale, se crei un programma) tramite le proprietà dell’attività.
 
