@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +67,6 @@ L’attività **[!UICONTROL Save audience]** è essenzialmente utilizzata per ma
       >[!NOTE]
       >
       >Questa opzione è disponibile solo se l’amministratore ha configurato la funzionalità dei tipi di pubblico condivisi con Adobe Experience Cloud. Per ulteriori informazioni, consulta [Utilizzo di Campaign e del servizio core People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    I tipi di pubblico salvati o disponibili durante un aggiornamento dipende dalle attività inserite a monte nel flusso di lavoro.
 
    Se la dimensione di targeting del pubblico è sconosciuta al momento del salvataggio (ad esempio se proviene da un file importato), il pubblico viene creato o aggiornato come un pubblico di tipo **[!UICONTROL File]**.
