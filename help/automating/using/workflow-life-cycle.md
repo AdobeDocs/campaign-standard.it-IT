@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '204'
 ht-degree: 3%
 
 ---
@@ -18,11 +21,11 @@ ht-degree: 3%
 
 # Ciclo di vita di un flusso di lavoro {#life-cycle}
 
-Il ciclo di vita di un flusso di lavoro comprende tre passaggi principali, ciascuno dei quali è collegato a uno stato e a un colore:
+Il ciclo di vita di un flusso di lavoro comprende tre passaggi principali e ogni passaggio è collegato a uno stato e a un colore:
 
-* **Modifica**  (grigia)
+* **Modifica**  (grigio)
 
-   Si tratta della fase iniziale di progettazione di un flusso di lavoro (vedere [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md#creating-a-workflow)). Il flusso di lavoro non è ancora gestito dal server e può essere modificato senza rischi.
+   Si tratta della fase iniziale di progettazione di un flusso di lavoro (consulta [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md#creating-a-workflow)). Il flusso di lavoro non è ancora gestito dal server e può essere modificato senza rischi.
 
 * **In corso**  (blu)
 
@@ -30,9 +33,9 @@ Il ciclo di vita di un flusso di lavoro comprende tre passaggi principali, ciasc
 
 * **Finito**  (verde)
 
-   Un flusso di lavoro viene completato una volta che non sono più presenti attività in corso o quando un operatore ha interrotto in modo esplicito l&#39;istanza.
+   Un flusso di lavoro viene completato una volta che non sono più presenti attività in corso o quando un operatore ha arrestato esplicitamente l’istanza.
 
-Una volta avviato, un flusso di lavoro potrebbe presentare anche altri due stati:
+Una volta avviato, un flusso di lavoro può avere anche altri due stati:
 
 * **Avviso**  (giallo)
 
@@ -40,8 +43,8 @@ Una volta avviato, un flusso di lavoro potrebbe presentare anche altri due stati
 
 * **Erroneo**  (rosso)
 
-   Errore durante l&#39;esecuzione di un flusso di lavoro. Il flusso di lavoro è stato arrestato e l&#39;utente deve eseguire un&#39;azione. Per ulteriori informazioni su questo errore, utilizzare il pulsante ![](assets/printpreview_darkgrey-24px.png) per accedere al registro del flusso di lavoro (fare riferimento a [Monitoring](../../automating/using/monitoring-workflow-execution.md)).
+   Errore durante l&#39;esecuzione di un flusso di lavoro. Il flusso di lavoro è stato arrestato e l’utente deve eseguire un’azione. Per ulteriori informazioni su questo errore, utilizza il pulsante ![](assets/printpreview_darkgrey-24px.png) per accedere al registro del flusso di lavoro (consulta [Monitoraggio](../../automating/using/monitoring-workflow-execution.md)).
 
-L&#39;elenco delle attività di marketing consente di visualizzare tutti i flussi di lavoro e i relativi stati. Per ulteriori informazioni, vedere [Gestione delle attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities).
+L’elenco delle attività di marketing ti consente di visualizzare tutti i flussi di lavoro e i relativi stati. Per ulteriori informazioni, consulta [Gestione delle attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)
