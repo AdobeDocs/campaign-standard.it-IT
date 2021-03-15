@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '532'
 ht-degree: 78%
 
 ---
@@ -18,13 +21,13 @@ ht-degree: 78%
 
 # Arricchimento dei dati del profilo con i dati contenuti in un file {#enriching-profile-data-with-data-contained-in-a-file}
 
-Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto contenuti in un file. Qui si considera che i dati di acquisto sono memorizzati in un sistema di terze parti. Ciascun profilo può contenere vari acquisti memorizzati all’interno del file. L’obiettivo finale del flusso di lavoro è quello di inviare un’e-mail ai profili di destinazione che hanno acquistato almeno due elementi, in modo da ringraziarli della loro fedeltà.
+Questo esempio mostra come arricchire i dati di profilo con i dati di acquisto contenuti in un file.In questo caso i dati di acquisto vengono memorizzati in un sistema di terze parti. Ciascun profilo può contenere vari acquisti memorizzati all’interno del file. L’obiettivo finale del flusso di lavoro è quello di inviare un’e-mail ai profili di destinazione che hanno acquistato almeno due elementi, in modo da ringraziarli della loro fedeltà.
 
 Il flusso di lavoro è configurato come segue:
 
 ![](assets/enrichment_example_workflow.png)
 
-* Un&#39;attività [Query](../../automating/using/query.md) che esegue il targeting dei profili che riceveranno il messaggio.
+* Un’attività [Query](../../automating/using/query.md) che esegue il targeting dei profili che riceveranno il messaggio.
 * Un&#39;attività [Load file](../../automating/using/load-file.md) che carica i dati di acquisto. Ad esempio:
 
    ```
@@ -77,7 +80,7 @@ Il flusso di lavoro è configurato come segue:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* Un&#39;attività [Segmentazione](../../automating/using/segmentation.md) con un solo segmento, che recupera i profili della destinazione iniziale con almeno due transazioni registrate. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene eseguita sull’aggregato definito in precedenza.
+* Un&#39;attività [Segmentation](../../automating/using/segmentation.md) con un solo segmento, che recupera i profili della destinazione iniziale contenenti almeno due transazioni registrate. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene eseguita sull’aggregato definito in precedenza.
 
    ![](assets/enrichment_example_workflow5.png)
 
