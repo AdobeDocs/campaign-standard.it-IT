@@ -7,11 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
+feature: SMS
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '542'
+ht-degree: 95%
 
 ---
 
@@ -81,10 +84,10 @@ Al termine dell’invio, puoi iniziare a misurare l’impatto del messaggio con 
 * [Informazioni sulla modifica di contenuto SMS e push](../../channels/using/about-sms-and-push-content-design.md)
 * [Gestione dei modelli](../../start/using/marketing-activity-templates.md)
 
-## Video di esercitazione {#video}
+## Video tutorial {#video}
 
-Questo video mostra come creare un SMS.
+Questo video mostra come creare una consegna SMS.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
