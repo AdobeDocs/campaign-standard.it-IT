@@ -2,27 +2,30 @@
 solution: Campaign Standard
 product: campaign
 title: Riepilogo del servizio
-description: Con il report out-of-the-box di riepilogo del servizio, scoprite l'evoluzione delle iscrizioni e delle sottoscrizioni.
+description: Con il rapporto di riepilogo del servizio, scopri l’evoluzione degli abbonamenti e dei loro annullamenti.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
+feature: Generazione rapporti
+role: Leader
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
 
 # Riepilogo del servizio{#service-summary}
 
-L&#39; **[!UICONTROL Service summary]** descrive in dettaglio l&#39;evoluzione delle iscrizioni e degli annullamenti del servizio.
+L’ **[!UICONTROL Service summary]** descrive l’evoluzione degli abbonamenti e degli annullamenti degli abbonamenti al servizio.
 Questo rapporto è accessibile solo dalla pagina Servizio tramite il menu avanzato **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Per ulteriori informazioni, consulta questa [pagina](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 
-La **[!UICONTROL Subscription evolution curves]** visualizzazione specifica il numero di sottoscrizioni e di sottoscrizioni a seconda della **[!UICONTROL Period]** scelta nella barra a discesa.
+La visualizzazione **[!UICONTROL Subscription evolution curves]** descrive il numero di sottoscrizioni e di annullamenti di abbonamenti in base alla **[!UICONTROL Period]** scelta nella barra a discesa.
 
-**[!UICONTROL Overall subscription evolution]** consente di visualizzare l&#39;evoluzione degli abbonati per diversi periodi di tempo.
+Il **[!UICONTROL Overall subscription evolution]** ti consente di visualizzare l’evoluzione degli abbonati in diversi periodi di tempo.
