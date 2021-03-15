@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Scopri come Adobe Campaign ti consente di tenere traccia dei messaggi inviati e scoprire come reagiscono i destinatari alla consegna
+feature: Consegna
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '436'
 ht-degree: 4%
 
 ---
@@ -17,49 +21,49 @@ ht-degree: 4%
 
 # Tracciare e monitorare {#track-and-monitor}
 
-Hai fatto clic sul pulsante Invia? Vediamo cosa succede. Una volta inviata la consegna,  Adobe Campaign consente di tenere traccia dei messaggi inviati e di scoprire in che modo i destinatari reagiscono alla consegna. In questo modo potrai migliorare l’invio futuro e ottimizzare le campagne successive.
+Hai fatto clic sul pulsante Invia? Vediamo cosa succede. Una volta inviata la consegna, Adobe Campaign ti consente di tenere traccia dei messaggi inviati e scoprire come reagiscono i destinatari alla consegna. In questo modo potrai migliorare l’invio futuro e ottimizzare le campagne successive.
 
 ## Monitoraggio delle consegne {#monitoring-deliveries}
 
-Per controllare le campagne, devi accertarti che il messaggio sia stato effettivamente recapitato ai destinatari.
+Per controllare le campagne, assicurati che il messaggio sia stato effettivamente consegnato ai destinatari.
 
 **Suggerimenti**
 
 * Puoi controllare lo stato dei messaggi nei registri di consegna.
 
-* Per tenere traccia dei successi o degli errori di consegna,  Adobe Campaign fornisce un sistema di avvisi e-mail che invia notifiche per informare gli utenti di importanti attività del sistema.
+* Per tenere traccia dei successi o degli errori di consegna, Adobe Campaign fornisce un sistema di avvisi e-mail che invia notifiche per informare gli utenti di importanti attività del sistema.
 
-* Dal dashboard dei messaggi, puoi accedere a diversi rapporti per questo messaggio specifico.
+* Dal dashboard messaggi, puoi accedere a diversi rapporti per questo messaggio specifico.
 
-Per ulteriori informazioni, vedere [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md).
+Per ulteriori informazioni, consulta [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md).
 
 ## Tracking {#tracking-deliveries}
 
-Per conoscere meglio il comportamento dei profili di destinazione, puoi tenere traccia di come reagiscono a una consegna: ricezione, apertura, clic su collegamenti, annullamento sottoscrizioni, ecc. Fare riferimento alla scheda **Registri di tracciamento** della consegna.
+Per conoscere meglio il comportamento dei profili di destinazione, puoi tenere traccia della loro reazione a una consegna: ricezione, apertura, clic su collegamenti, annullamenti di abbonamenti, ecc. Fai riferimento alla scheda **Registri di tracciamento** della consegna.
 
-**Suggerimento**: Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per configurare gli URL, selezionate l’opzione Visualizza URL nella sezione inferiore della procedura guidata di consegna. Per ciascun URL del messaggio, potete scegliere se attivare il tracciamento.
+**Suggerimento**: Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per configurare gli URL, seleziona l’opzione Visualizza URL nella sezione inferiore della procedura guidata di consegna. Per ogni URL del messaggio, puoi scegliere se attivare il tracciamento.
 
-Per ulteriori informazioni, consultare la sezione [Messaggi di tracciamento](../../sending/using/tracking-messages.md) e la descrizione [Indicatori di tracciamento](../../reporting/using/tracking-indicators.md).
+Per ulteriori informazioni, consulta la sezione [Messaggi di tracciamento](../../sending/using/tracking-messages.md) e la descrizione [Indicatori di tracciamento](../../reporting/using/tracking-indicators.md) .
 
 ## Rapporti dinamici {#dyn-reports}
 
-I rapporti dinamici consentono di creare rapporti completamente personalizzabili e in tempo reale per monitorare le campagne. Dimension, metriche e visualizzazioni consentono di misurare l&#39;impatto e il successo delle campagne sui destinatari.
+I rapporti dinamici ti consentono di creare rapporti completamente personalizzabili e in tempo reale per monitorare le campagne. Dimension, metriche e visualizzazioni consentono di misurare l’impatto e il successo delle campagne sui destinatari.
 
-**Suggerimento** : i rapporti incorporati sono disponibili per il monitoraggio delle campagne, ma possono essere personalizzati anche trascinando nel rapporto eventuali metriche o dimensioni.
+**Suggerimento** : i rapporti incorporati sono disponibili per il monitoraggio delle campagne, ma puoi anche personalizzare tali rapporti trascinando nel rapporto eventuali metriche o dimensioni.
 
-Per ulteriori informazioni, consultare la [Guida ai rapporti](../../reporting/using/about-dynamic-reports.md).
+Per ulteriori informazioni, consulta la [Guida ai rapporti](../../reporting/using/about-dynamic-reports.md).
 
 ## Hot click
 
-Il rapporto sui clic attivi presenta il contenuto del messaggio (HTML e/o testo) con la percentuale di clic su ciascun collegamento. Visualizzando la percentuale di clic su ciascun contenuto dinamico, potete misurare il contenuto per il quale i destinatari sono maggiormente invitati.
+Il rapporto Hot click presenta il contenuto del messaggio (HTML e/o testo) con la percentuale di clic su ciascun collegamento. Visualizzando la percentuale di clic su ciascun contenuto dinamico, puoi misurare quale contenuto richiede maggiormente i destinatari.
 
-Per ulteriori informazioni, fare riferimento al rapporto [Hot click](../../reporting/using/hot-clicks.md).
+Per ulteriori informazioni, consulta il [Rapporto con clic caldo](../../reporting/using/hot-clicks.md).
 
-## Suggerimenti sulle prestazioni di distribuzione {#performance-tips}
+## Suggerimenti sulle prestazioni di consegna {#performance-tips}
 
-* Non mantenere le consegne in stato di errore nell&#39;istanza, in quanto questo mantiene le tabelle temporanee e influisce sulle prestazioni.
+* Non mantenere le consegne nello stato non riuscito sull’istanza, in quanto questo mantiene tabelle temporanee e influisce sulle prestazioni.
 
-* Rimuovete dal database i recapiti non più necessari e i destinatari inattivi per mantenere la qualità degli indirizzi.
+* Rimuovi dal database le consegne non più necessarie e inattive per mantenere la qualità degli indirizzi.
 
 * Non provare a pianificare insieme consegne di grandi dimensioni. Si prega di notare che possono essere necessari da 5 a 10 minuti per distribuire uniformemente il carico sul sistema.
 
