@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
+feature: Regole di tipologia
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '557'
 ht-degree: 96%
 
 ---
@@ -67,7 +70,7 @@ Nella modalità operativa standard, le regole vengono applicate nella sequenza s
 1. Regole di controllo, se applicate all’inizio del targeting.
 1. Regole di filtro:
 
-   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo / non verificato / indirizzo in elenco Bloccati / indirizzo in quarantena / qualità indirizzo non verificato.
+   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo non verificato / indirizzo al elenco Bloccati / indirizzo messo in quarantena / qualità indirizzo.
    * Regole di filtro definite dall’utente.
 
 1. Regole di controllo, se applicate alla fine del targeting.
