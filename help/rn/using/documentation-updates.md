@@ -6,11 +6,14 @@ description: Scopri tutti gli aggiornamenti più recenti della documentazione di
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: Panoramica
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '6616'
-ht-degree: 97%
+source-wordcount: '6620'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +32,7 @@ Le informazioni relative al servizio Audience Destinations e al connettore dati 
 
 **Nuove funzionalità incluse nella versione**
 
-Servizio di feedback e-mail - [Ulteriori informazioni](../../sending/using/confirming-the-send.md#message-indicators)
+Email Feedback Service - [Leggi tutto](../../sending/using/confirming-the-send.md#message-indicators)
 
 Miglioramenti per l’integrazione con Adobe Experience Manager - [Leggi tutto](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -43,17 +46,17 @@ Sono state aggiunte informazioni sulla nuova funzione GetOption, che consente di
 
 Sono state aggiunte informazioni sulla nuova variabile di output **[!UICONTROL filesCount]** disponibile dopo l’utilizzo di un’attività **[!UICONTROL Transfer file]**. [Leggi tutto](../../automating/using/transfer-file.md#output-variables)
 
-La sezione per la **configurazione del canale e-mail** è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. Alcuni parametri legacy ancora in uso per alcuni clienti sono elencati nella parte inferiore della pagina. [Leggi tutto](../../administration/using/configuring-email-channel.md)
+La sezione per la **configurazione del canale e-mail** è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. In fondo alla pagina sono elencati alcuni parametri legacy ancora in uso per alcuni clienti. [Leggi tutto](../../administration/using/configuring-email-channel.md)
 
-Sono state aggiunte informazioni su come garantire che un flusso di lavoro pianificato non venga riprogrammato fino a quando non sono ancora in sospeso una o più attività di un’esecuzione precedente. [Leggi tutto](../../automating/using/scheduled-workflows-execution.md)
+Sono state aggiunte informazioni su come evitare che un flusso di lavoro pianificato possa essere riprianificato se sono ancora in sospeso una o più attività di un’esecuzione precedente. [Leggi tutto](../../automating/using/scheduled-workflows-execution.md)
 
 ## Dicembre 2020 {#doc-updates-december-2020}
 
 La funzionalità **Oggetto predittivo** è ora obsoleta. [Leggi tutto](../../rn/using/deprecated-features.md)
 
-La sezione **Guida introduttiva alla messaggistica transazionale** ora include [schemi migliorati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) per una migliore comprensione del processo.
+La sezione **Guida introduttiva alla messaggistica transazionale** ora include [schemi ottimizzati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) per una migliore comprensione del processo.
 
-È ora disponibile un caso d’uso end-to-end per illustrare il processo di implementazione della messaggistica transazionale. [Leggi tutto](../../channels/using/transactional-messaging-use-case.md)
+È ora disponibile un caso d’uso end-to-end che illustra il processo di implementazione della messaggistica transazionale. [Leggi tutto](../../channels/using/transactional-messaging-use-case.md)
 
 La sezione **Privacy** è stata spostata [qui](../../start/using/privacy.md).
 
@@ -67,11 +70,11 @@ La sezione **Utilizzo degli elenchi di prodotti in un messaggio sulle transazion
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
-La sezione **Dati personali e Personas** è stata aggiornata con uno scenario relativo a un caso d’uso per illustrare l’interazione dei diversi utenti utente in materia di privacy. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
+La sezione **Dati personali e persone** è stata aggiornata con uno scenario di utilizzo che illustra l’interazione delle diverse persone in materia di dati personali. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
 
 È stata aggiunta una nuova sezione in cui sono elencate le domande frequenti sulla privacy. [Leggi tutto](../../start/using/privacy-faq.md)
 
-La sezione **Privacy** è stata spostata e arricchita di due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di privacy](../../start/using/privacy-requests.md).
+La sezione **Privacy** è stata spostata e arricchita con due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di accesso a dati personali](../../start/using/privacy-requests.md).
 
 La sezione **Messaggistica transazionale** è stata riorganizzata e raccolta in un’unica posizione per migliorare la navigazione. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -99,7 +102,7 @@ Alle procedure consigliate per i flussi di lavoro è stato aggiunto un consiglio
 
 ## Settembre 2020 {#doc-updates-september-2020}
 
-La sezione **Messaggi transazionali di evento** è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/editing-transactional-message.md)
+La sezione **Messaggi transazionali sull’evento** è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/editing-transactional-message.md)
 
 È stata aggiunta una nota di avviso per informare gli utenti della limitazione delle autorizzazioni relativa all’accesso al registro. [Leggi tutto](../../administration/using/users-management.md)
 
