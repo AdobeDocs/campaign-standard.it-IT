@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Caso di utilizzo dei messaggi transazionali
-description: Scopri un esempio completo della funzionalità di messaggistica transazionale  Adobe Campaign.
+description: Scopri un esempio end-to-end della funzionalità di messaggistica transazionale di Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: Messaggistica transazionale
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '509'
 ht-degree: 4%
 
 ---
@@ -18,76 +21,76 @@ ht-degree: 4%
 
 # Caso di utilizzo dei messaggi transazionali {#transactional-messaging-use-case}
 
-In questo esempio, si desidera utilizzare la funzionalità di messaggistica transazionale  Adobe Campaign per inviare un messaggio e-mail di conferma dopo ogni acquisto sul sito Web, identificando i clienti tramite il proprio ID CRM.
+In questo esempio, desideri utilizzare la funzionalità di messaggistica transazionale di Adobe Campaign per inviare un’e-mail di conferma dopo ogni acquisto sul tuo sito web, identificando i clienti tramite il loro ID CRM.
 
 I prerequisiti sono i seguenti:
 
-* Accertatevi che la risorsa **[!UICONTROL Profile]** sia stata estesa con un nuovo campo corrispondente all&#39;ID CRM.
+* Assicurati che la risorsa **[!UICONTROL Profile]** sia stata estesa con un nuovo campo corrispondente all&#39;ID CRM.
 
-* Create e pubblicate una risorsa personalizzata corrispondente agli acquisti e collegatela alla risorsa **[!UICONTROL Profile]**. In questo modo, potrai recuperare informazioni da questa risorsa per arricchire il contenuto del messaggio.
+* Crea e pubblica una risorsa personalizzata corrispondente agli acquisti e collegala alla risorsa **[!UICONTROL Profile]** . In questo modo, potrai recuperare informazioni da questa risorsa per arricchire il contenuto del messaggio.
 
-Per ulteriori informazioni sull&#39;estensione, la creazione e la pubblicazione di risorse, consultate [questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
+Per ulteriori informazioni sull&#39;estensione, la creazione e la pubblicazione delle risorse, consulta [questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
 
-Le fasi principali per l&#39;implementazione di questo caso di utilizzo sono illustrate di seguito.
+I passaggi principali per implementare questo caso d’uso sono descritti di seguito.
 
 >[!NOTE]
 >
->Per una rappresentazione grafica del processo generale di messaggistica transazionale, vedere [questo schema](../../channels/using/getting-started-with-transactional-msg.md#key-steps).
+>Per una rappresentazione grafica del processo generale di messaggistica transazionale, consulta [questo schema](../../channels/using/getting-started-with-transactional-msg.md#key-steps).
 
-## Passaggio 1 - Creare e pubblicare la configurazione dell&#39;evento {#create-event-configuration}
+## Passaggio 1: creare e pubblicare la configurazione dell’evento {#create-event-configuration}
 
-1. Create un nuovo evento utilizzando il canale **[!UICONTROL Email]**. Vedi [Creazione di un evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
+1. Crea un nuovo evento utilizzando il canale **[!UICONTROL Email]** . Vedi [Creazione di un evento](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
-1. Selezionate la dimensione di targeting **[!UICONTROL Profile]** per creare un messaggio transazionale basato su profilo [](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+1. Seleziona la dimensione di targeting **[!UICONTROL Profile]** per creare un messaggio transazionale basato su profilo](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).[
 
-1. Definite gli attributi che saranno disponibili per personalizzare il messaggio transazionale. In questo esempio, aggiungi i campi &quot;CRM ID&quot; e &quot;Product Identifier&quot;. Vedere [Definizione degli attributi evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes).
+1. Definisci gli attributi disponibili per personalizzare il messaggio sulle transazioni. In questo esempio, aggiungi i campi &quot;CRM ID&quot; e &quot;Product Identifier&quot;. Consulta [Definizione degli attributi dell’evento](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes).
 
    ![](assets/message-center_usecase1.png)
 
-1. Per arricchire il contenuto del messaggio con informazioni relative agli acquisti del cliente, create un arricchimento per la risorsa **[!UICONTROL Purchase]**. Vedere [Arricchimento dell&#39;evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content).
+1. Per arricchire il contenuto del messaggio con informazioni sugli acquisti del cliente, crea un arricchimento con targeting della risorsa **[!UICONTROL Purchase]** . Consulta [Arricchimento dell&#39;evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content).
 
    ![](assets/message-center_usecase2.png)
 
-1. Create una condizione di partecipazione tra il campo &quot;Product Identifier&quot; precedentemente aggiunto all&#39;evento e il campo corrispondente dalla risorsa **[!UICONTROL Purchase]**.
+1. Crea una condizione di unione tra il campo &quot;Product identifier&quot; precedentemente aggiunto all’evento e il campo corrispondente dalla risorsa **[!UICONTROL Purchase]** .
 
    ![](assets/message-center_usecase3.png)
 
-1. Poiché è obbligatorio per gli eventi basati sul profilo, è necessario creare anche un arricchimento per la risorsa **[!UICONTROL Profile]**.
+1. Poiché è obbligatorio per gli eventi basati su profilo, devi anche creare un arricchimento per la risorsa **[!UICONTROL Profile]** .
 
-1. Crea una condizione di partecipazione tra il campo &quot;ID CRM&quot; precedentemente aggiunto al messaggio e il campo corrispondente dalla risorsa **[!UICONTROL Profile]** estesa. <!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
+1. Crea una condizione di unione tra il campo &quot;CRM ID&quot; precedentemente aggiunto al messaggio e il campo corrispondente dalla risorsa **[!UICONTROL Profile]** estesa. <!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
 
    ![](assets/message-center_usecase4.png)
 
-1. Nella sezione **[!UICONTROL Targeting enrichment]**, selezionare l&#39;arricchimento sulla risorsa **[!UICONTROL Profile]**, che verrà utilizzata come destinazione del messaggio durante l&#39;esecuzione del recapito.
+1. Nella sezione **[!UICONTROL Targeting enrichment]** , seleziona l’arricchimento sulla risorsa **[!UICONTROL Profile]**, che verrà utilizzata come destinazione del messaggio durante l’esecuzione della consegna.
 
    ![](assets/message-center_usecase5.png)
 
-1. Visualizzate l’anteprima e pubblicate l’evento. Vedi [Anteprima e pubblicazione dell’evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. Visualizza l’anteprima e pubblica l’evento. Vedi [Anteprima e pubblicazione dell’evento](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-## Passaggio 2 - Modifica e pubblica il messaggio di transazione {#create-transactional-message}
+## Passaggio 2: modificare e pubblicare il messaggio sulle transazioni {#create-transactional-message}
 
-1. Passate al messaggio transazionale creato automaticamente al momento della pubblicazione dell’evento. Vedere [Accesso ai messaggi transazionali](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. Passa al messaggio transazionale creato automaticamente al momento della pubblicazione dell’evento. Consulta [Accesso ai messaggi transazionali](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
-1. Modifica e personalizza il messaggio. Vedere [Modifica di un messaggio di transazione profilo](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message).
+1. Modifica e personalizza il messaggio. Consulta [Modifica di un messaggio transazionale di profilo](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message).
 
-1. Attraverso la riconciliazione con il campo &quot;ID CRM&quot; aggiunto alla risorsa **[!UICONTROL Profile]**, l&#39;utente ha accesso diretto a tutte le informazioni di profilo per [personalizzare](../../designing/using/personalization.md#inserting-a-personalization-field) il messaggio.
+1. Tramite la riconciliazione con il campo &quot;CRM ID&quot; aggiunto alla risorsa **[!UICONTROL Profile]**, puoi accedere direttamente a tutte le informazioni sul profilo per [personalizzare](../../designing/using/personalization.md#inserting-a-personalization-field) il messaggio.
 
    ![](assets/message-center_usecase6.png)
 
-1. Attraverso la riconciliazione con il campo &quot;ID prodotto&quot;, puoi arricchire il contenuto del messaggio con informazioni relative agli acquisti del cliente aggiungendo qualsiasi campo dalla risorsa **[!UICONTROL Purchase]**.
+1. Tramite la riconciliazione con il campo &quot;Product identifier&quot;, puoi arricchire il contenuto del messaggio con informazioni sugli acquisti del cliente aggiungendo qualsiasi campo dalla risorsa **[!UICONTROL Purchase]** .
 
    ![](assets/message-center_usecase7.png)
 
-   A questo scopo, selezionare **[!UICONTROL Insert personalization field]** dalla barra degli strumenti contestuale. Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]**, aprire il nodo corrispondente alla risorsa **[!UICONTROL Purchase]** personalizzata e selezionare un campo qualsiasi.
+   A questo scopo, seleziona **[!UICONTROL Insert personalization field]** dalla barra degli strumenti contestuale. Dal nodo **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** , apri il nodo corrispondente alla risorsa personalizzata **[!UICONTROL Purchase]** e seleziona un campo qualsiasi.
 
-1. Puoi testare il messaggio utilizzando un profilo di test specifico. Vedere [Verifica di un messaggio transazionale](../../channels/using/testing-transactional-message.md#testing-a-transactional-message).
+1. Puoi verificare il messaggio utilizzando un profilo di test specifico. Consulta [Verifica di un messaggio transazionale](../../channels/using/testing-transactional-message.md#testing-a-transactional-message).
 
-1. Quando il contenuto è pronto, salvate le modifiche e pubblicate il messaggio. Consulta [Pubblicazione di un messaggio transazionale](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Quando il contenuto è pronto, salva le modifiche e pubblica il messaggio. Consulta [Pubblicazione di un messaggio transazionale](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-## Passaggio 3 - Integrare l&#39;attivazione dell&#39;evento {#integrate-event-trigger}
+## Passaggio 3: integrare l&#39;attivazione dell&#39;evento {#integrate-event-trigger}
 
-Integrate l’evento nel vostro sito Web. Vedere [Integrare l&#39;attivazione dell&#39;evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+Integra l’evento nel tuo sito web. Consulta [Integrare l&#39;attivazione dell&#39;evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-## Passaggio 4 - Invio di messaggi {#message-delivery}
+## Passaggio 4: consegna dei messaggi {#message-delivery}
 
-Una volta che tutti questi passaggi sono stati eseguiti, non appena un cliente acquista i prodotti dal tuo sito web, riceve un&#39;e-mail di conferma personalizzata con le informazioni sul suo acquisto.
+Una volta effettuati tutti questi passaggi, non appena un cliente acquista prodotti dal tuo sito web, riceve un’e-mail di conferma personalizzata con le informazioni sul suo acquisto.
