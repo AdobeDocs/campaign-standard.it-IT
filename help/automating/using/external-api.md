@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: External API
-description: null
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2184'
 ht-degree: 95%
 
 ---
@@ -38,7 +40,7 @@ Le principali caratteristiche di questa attività sono:
 
 ### Avvisi di compatibilità con versioni precedenti {#from-beta-to-ga}
 
-Con la release Campaign Standard 20.4, il limite di dimensione dei dati della risposta HTTP e i controlli di timeout della risposta sono stati ridotti per essere allineati alle best practice. Consultate [Limitazioni e guardrails](#guardrails). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
+Con la versione Campaign Standard 20.4, il limite di dimensione dei dati di risposta HTTP e le protezioni del timeout di risposta sono stati ridotti per allinearsi alle best practice. Consulta [Limitazioni e protezioni](#guardrails). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
 
 Durante la sostituzione delle attività External API, aggiungi la nuova attività External API al flusso di lavoro, copia manualmente i dettagli di configurazione, quindi elimina la vecchia attività.
 
@@ -114,13 +116,13 @@ Se l’**analisi viene convalidata**, viene visualizzato un messaggio che ti inv
 
 ### Execution
 
-Questa scheda consente di definire l’endpoint di connessione. Il campo **[!UICONTROL URL]** consente di definire l&#39; **Endpoint HTTPS** con cui il Campaign Standard comunicherà.
+Questa scheda consente di definire l’endpoint di connessione. Il campo **[!UICONTROL URL]** ti consente di definire l’ **Endpoint HTTPS** con cui Campaign Standard comunicherà.
 
 Se necessario per l’endpoint, sono disponibili due diversi metodi di autenticazione:
 
-* Autenticazione di base: immettere il nome utente/password nella sezione **[!UICONTROL Request Header(s)]**.
+* Autenticazione di base: inserisci le informazioni relative a nome utente e password nella sezione **[!UICONTROL Request Header(s)]** .
 
-* Autenticazione OAuth: Facendo clic su **[!UICONTROL Use connection parameters defined in an external account]** in un account esterno, potete selezionare un account esterno in cui è definita l&#39;autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
+* Autenticazione OAuth: Facendo clic su **[!UICONTROL Use connection parameters defined in an external account]** in un account esterno, puoi selezionare un account esterno in cui è definita l’autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -158,7 +160,7 @@ Questa scheda è disponibile nella maggior parte delle attività del flusso di l
 
 ## Test
 
-Per testare la funzionalità API esterna con un semplice endpoint di test, potete utilizzare Postman Echo: https://docs.postman-echo.com.
+Per testare la funzionalità External API con un semplice endpoint di test, puoi utilizzare Postman Echo: https://docs.postman-echo.com.
 
 ## Risoluzione dei problemi
 
