@@ -5,16 +5,19 @@ title: DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
+feature: Modello dati
+role: Sviluppatore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '148'
 ht-degree: 5%
 
 ---
 
 
-# Visitatore (nms:visitatore)
+# Visitatore (nms:visitor)
 
 ## Descrizione oggetto
 
@@ -33,31 +36,31 @@ ht-degree: 5%
     </tr>
     <tr>
         <td>commento</td>
-        <td>Commento del referente</td>
+        <td>Commento referente</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
     <tr>
-        <td>created</td>
+        <td>creato</td>
         <td>Creato</td>
         <td>date </td>
         <td> </td>
     </tr>
     <tr>
-        <td>createBy (userBase)</td>
+        <td>createdBy (userBase)</td>
         <td>Creato da</td>
-        <td>link </td>
+        <td>collegamento </td>
         <td> </td>
     </tr>
     <tr>
         <td>consegna (consegna)</td>
         <td>Consegna</td>
-        <td>link </td>
+        <td>collegamento </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>ID dell'ultima consegna</td>
+        <td>ID dell’ultima consegna</td>
         <td>integer </td>
         <td> </td>
     </tr>
@@ -87,14 +90,14 @@ ht-degree: 5%
     </tr>
     <tr>
         <td>forwardUrl</td>
-        <td>URL inoltrato</td>
+        <td>URL successivo</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
     <tr>
         <td>geoUnit (geoUnitBase)</td>
         <td>Unità geografica</td>
-        <td>link </td>
+        <td>collegamento </td>
         <td> </td>
     </tr>
     <tr>
@@ -112,13 +115,13 @@ ht-degree: 5%
     <tr>
         <td>modifiedBy (userBase)</td>
         <td>Modificato da</td>
-        <td>link </td>
+        <td>collegamento </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit (orgUnitBase)</td>
         <td>Unità organizzativa</td>
-        <td>link </td>
+        <td>collegamento </td>
         <td> </td>
     </tr>
     <tr>
@@ -128,31 +131,31 @@ ht-degree: 5%
         <td>
             <ul>
             <li>Non definito - non definito - 0</li>
-            <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
+            <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>destinatario (destinatario)</td>
         <td>Profilo identificato</td>
-        <td>link </td>
+        <td>collegamento </td>
         <td> </td>
     </tr>
     <tr>
-        <td>audienceId</td>
+        <td>recipientId</td>
         <td>ID profilo</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>E-mail del referente</td>
+        <td>Indirizzo e-mail referrer</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>Nome del referente</td>
+        <td>Nome referente</td>
         <td>stringa (30)</td>
         <td> </td>
     </tr>
@@ -169,9 +172,9 @@ ht-degree: 5%
         <td> </td>
     </tr>
     <tr>
-        <td>referrerRcp (destinatario)</td>
+        <td>referrerRcp (recipient)</td>
         <td>Referrer</td>
-        <td>link </td>
+        <td>collegamento </td>
         <td> </td>
     </tr>
     <tr>
@@ -184,7 +187,7 @@ ht-degree: 5%
 
 ## Filtri
 
-Per cognome, nome o e-mail (per testo)</p>
+Per cognome, nome o e-mail (perText)</p>
 
 <table>
         <tr>
