@@ -2,14 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Verifica degli attivatori
-description: null
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
+feature: Triggers
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 2%
 
 ---
@@ -17,69 +19,69 @@ ht-degree: 2%
 
 # Verifica degli attivatori{#testing-your-triggers}
 
-I seguenti suggerimenti per la risoluzione dei problemi aiuteranno a risolvere i problemi più comuni che si possono incontrare quando si utilizzano Attivatori con  Adobe Campaign:
+I seguenti suggerimenti per la risoluzione dei problemi aiutano a risolvere i problemi più comuni che si possono incontrare quando si utilizzano Triggers con Adobe Campaign:
 
 **La funzionalità è attivata?**
 
-Per verificare se l&#39;integrazione Triggers - Campaign è attivata, fai clic sul logo Adobe Campaign , nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti vedere l&#39;elemento **[!UICONTROL Experience Cloud Triggers]**.
+Per verificare se l’integrazione Triggers - Campaign è attivata, fai clic sul logo Adobe Campaign, nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti visualizzare l’elemento **[!UICONTROL Experience Cloud Triggers]** .
 
 Se lo vedi, passa al passaggio successivo.
 
-In caso contrario, contattate il vostro responsabile commerciale  Adobe o il partner di servizi professionali. Vedere [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+In caso contrario, contatta il tuo responsabile dell&#39;account Adobe o un partner di servizi professionali. Consulta [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Prova a creare un trigger**
 
-Seguite i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) per creare un trigger.
+Per creare un trigger, segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) .
 
-Se l&#39;attivatore viene creato, passare al passaggio successivo. In caso contrario, significa che la connessione del punto finale dell&#39;attivatore non è riuscita. Verifica se il provisioning degli attivatori è eseguito in  Experience Cloud (servizi di attivazione). In caso contrario, contattate il vostro responsabile commerciale  Adobe o il partner di servizi professionali. Sono necessarie le seguenti informazioni:
+Se il trigger viene creato, passa al passaggio successivo. In caso contrario, significa che la connessione al punto finale dell’attivatore non è riuscita. Controlla se il provisioning di Triggers avviene in Experience Cloud (Servizi di Attivazione). In caso contrario, contatta il tuo responsabile dell&#39;account Adobe o un partner di servizi professionali. Sono necessarie le seguenti informazioni:
 
 * Nome società Marketing Cloud
 * ID organizzazione IMS
-* Società di accesso Analytics (può corrispondere al Nome società Marketing Cloud)
+* Società di accesso di Analytics (può essere la stessa del nome dell’azienda del Marketing Cloud)
 
-**Provare a pubblicare il trigger**
+**Prova a pubblicare il trigger**
 
-Seguite i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) per pubblicare l&#39;attivatore.
+Per pubblicare il trigger, segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) .
 
-Se la pubblicazione ha esito positivo, passare al passaggio successivo. In caso contrario, contattare  Adobe per riavviare l&#39;istanza e riprovare.
+Se la pubblicazione è riuscita, passa al passaggio successivo. In caso contrario, contatta l&#39;Adobe per riavviare l&#39;istanza e riprova.
 
-**Generare il trigger dal sito Web**
+**Genera il trigger dal sito web**
 
-Seguite i passaggi descritti in [Modifica del modello di messaggio transazionale](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) per modificare e pubblicare il modello transazionale. Quindi, verificare la generazione dell&#39;attivatore dal sito Web.
+Segui i passaggi descritti in [Modifica del modello di messaggio transazionale](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) per modificare e pubblicare il modello transazionale. Quindi, verifica la generazione del trigger dal sito web.
 
-Se l&#39;attivatore viene ricevuto da Analytics, passa al passaggio successivo. In caso contrario, verificare i seguenti elementi:
+Se il trigger viene ricevuto da Analytics, passa al passaggio successivo. In caso contrario, controlla i seguenti elementi:
 
-* Trigger è abilitato per Analytics
-* Il sito Web utilizzato MCID e Analytics è abilitato in DTM
-* La suite di rapporti Analytics corretta viene utilizzata durante la creazione di attivatori
+* Trigger abilitato per Analytics
+* Il sito web utilizzato MCID e Analytics è abilitato in DTM
+* La suite di rapporti di Analytics corretta viene utilizzata durante la creazione dei trigger
 
-**Il trigger ricevuto da Campaign?**
+**Il trigger viene ricevuto da Campaign?**
 
-In caso contrario, verificate che il trigger sia ricevuto dalla pipeline.
+In caso contrario, verifica se il trigger viene ricevuto dalla pipeline.
 
-In caso contrario, contattare  Adobe per verificare la configurazione dei punti finali della tubazione.
+In caso contrario, contatta l’Adobe per controllare la configurazione degli endpoint della pipeline.
 
 In caso affermativo, attenersi alle seguenti linee guida:
 
-* Verifica il tipo di ID riconciliazione nell&#39;origine dati Campagna.
-* L&#39;origine dati CustomerId viene creata tramite gli attributi cliente.
-* Controllare l&#39;ID dell&#39;origine dati.
-* Chiedi  Adobe di riavviare l&#39;istanza Campaign dopo la configurazione dell&#39;origine dati.
-* Controllare i problemi di analisi attivati nel rapporto di attivazione.
+* Verifica il tipo di ID riconciliazione nell’origine dati Campaign.
+* L&#39;origine dati CustomerId viene creata tramite Attributi del cliente.
+* Controlla l&#39;ID dell&#39;origine dati.
+* Chiedi ad Adobe di riavviare l’istanza Campaign dopo la configurazione dell’origine dati.
+* Controlla i problemi di analisi del trigger nel report trigger.
 
 **Il trigger è nello stato in sospeso?**
 
-In caso contrario, passate al passaggio successivo. In caso affermativo, attenersi alle seguenti linee guida:
+In caso contrario, passa al passaggio successivo. In caso affermativo, attenersi alle seguenti linee guida:
 
-* Verificate che il modello transazionale sia pubblicato.
-* Verificare che il profilo non sia elenco Bloccati.
-* Controllare l&#39;applicazione delle regole di tipologia.
-* Controlla i registri dei messaggi transazionali.
+* Verifica che il modello transazionale sia pubblicato.
+* Verifica che il profilo non sia elenco Bloccati.
+* Controlla l&#39;applicazione delle regole di tipologia.
+* Controlla i registri del messaggio transazionale.
 
 **Il messaggio è valido?**
 
-Se il messaggio non è valido, verifica quanto segue:
+Se il messaggio non è valido, controlla i seguenti elementi:
 
-* Per attivare i campi di personalizzazione dell&#39;arricchimento contrassegnati come non validi, convalidate il modello transazionale dalle raccolte eventCusResource associate.
-* Convalida del formato del messaggio
+* Per attivare i campi di personalizzazione dell’arricchimento contrassegnati come non validi, convalida il modello transazionale dalle raccolte eventCusResource associate.
+* Convalida il formato del messaggio
 
