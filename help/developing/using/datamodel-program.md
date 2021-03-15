@@ -5,10 +5,13 @@ title: DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
+feature: Modello dati
+role: Sviluppatore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '226'
 ht-degree: 7%
 
 ---
@@ -32,27 +35,27 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>activity</td>
+                  <td>attività</td>
                   <td>Attività</td>
-                  <td>collection </td>
+                  <td>raccolta </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
-                  <td>Oggetto applicazione predefinito</td>
-                  <td>boolean </td>
+                  <td>incorporato</td>
+                  <td>Oggetto applicativo incorporato</td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>creato</td>
                   <td>Creato</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createBy (userBase)</td>
+                  <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,23 +73,23 @@ ht-degree: 7%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>È una risorsa esterna</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>Modello</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etichetta</td>
                   <td>Etichetta</td>
                   <td>string (128)</td>
                   <td> </td>
@@ -99,23 +102,23 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>logicalStatus</td>
-                  <td>Stato esecuzione</td>
+                  <td>Stato di esecuzione</td>
                   <td>enumerazione (stringa) (255)</td>
                   <td>
                      <ul>
                         <li>In corso - avviato - avviato</li>
                         <li>Editing - edizione</li>
-                        <li>Finito - finito - finito</li>
-                        <li>Avvertenza - Avviso</li>
-                        <li>Erroneo - errore - errore</li>
-                        <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
+                        <li>Finito - finito - finito - finito</li>
+                        <li>Avviso - avviso</li>
+                        <li>Errore - Errore - Errore</li>
+                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -127,13 +130,13 @@ ht-degree: 7%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (programBase)</td>
                   <td>Programma principale</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -157,18 +160,18 @@ ht-degree: 7%
                         <li>Iniziato - 1</li>
                         <li>Editing - edizione - 0</li>
                         <li>Finito - finito - 2</li>
-                        <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
+                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>template (programma)</td>
                   <td>Modello di programma</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
+                  <td>miniatura</td>
                   <td>Miniatura</td>
                   <td>string (255)</td>
                   <td> </td>
@@ -191,12 +194,12 @@ Per stato logico (byLogicalStatus)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>stato</td>
     <td>enumerazione</td>
     </tr>
 </table>
 
-Per nome o etichetta (per testo)
+Per nome o etichetta (byText)
 
 <table>
     <tr>
@@ -209,7 +212,7 @@ Per nome o etichetta (per testo)
     </tr>
 </table>
 
-Per periodo (per periodo)
+Per periodo (perPeriodo)
 
 <table>
     <tr>
@@ -235,11 +238,11 @@ Includi consegne continue da un elenco eterogeneo (con Continuous)
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>boolean</td>
+    <td>booleano</td>
     </tr>
 </table>
 
-Includi sottoprogrammi (conElemento padre)
+Includi sottoprogrammi (conParent)
 
 <table>
         <tr>
@@ -248,7 +251,7 @@ Includi sottoprogrammi (conElemento padre)
         </tr>
         <tr>
         <td>withParent</td>
-        <td>boolean</td>
+        <td>booleano</td>
         </tr>
     </table>
 
@@ -260,12 +263,12 @@ Solo i genitori ammissibili (idoneiGenitori)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>program</td>
-    <td>link</td>
+    <td>programma</td>
+    <td>collegamento</td>
     </tr>
 </table>
 
-Pianificato per il periodo specificato (per pianificazione)
+Previsto per il periodo specificato (per pianificazione)
 
 <table>
     <tr>
@@ -282,7 +285,7 @@ Pianificato per il periodo specificato (per pianificazione)
     </tr>
 </table>
 
-Presente durante il periodo specificato (per calendario)
+Presente durante un determinato periodo (byCalendar)
 
 <table>
     <tr>
