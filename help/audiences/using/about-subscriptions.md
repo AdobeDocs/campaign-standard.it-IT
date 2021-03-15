@@ -6,11 +6,14 @@ description: Ulteriori informazioni su servizi e abbonamenti in Campaign Standar
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
+feature: Pubblici
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 53%
+source-wordcount: '226'
+ht-degree: 52%
 
 ---
 
@@ -29,18 +32,18 @@ Ogni servizio include:
 
 Puoi gestire gli abbonamenti anche tramite l’API Adobe Campaign Standard. Per ulteriori informazioni, consulta la [documentazione dedicata](../../api/using/creating-a-service.md).
 
-## Passaggi chiave per configurare e gestire le iscrizioni
+## Passaggi fondamentali per la configurazione e la gestione degli abbonamenti
 
-Per creare un meccanismo di sottoscrizione, effettuate le operazioni seguenti:
+Per creare un meccanismo di abbonamento, effettua le seguenti operazioni:
 
-1. **Creare un servizio** : seguire i passaggi descritti  [in questa ](../../audiences/using/creating-a-service.md) sezione per creare un servizio di iscrizione
+1. **Creare un servizio** : segui i passaggi descritti  [in questa ](../../audiences/using/creating-a-service.md) sezione per creare un servizio di abbonamento
 1. **Condividi il collegamento** : scopri come promuovere e condividere il servizio  [in questa pagina](../../audiences/using/promoting-a-service.md)
-1. **Monitorare le iscrizioni** : scopri diversi modi per monitorare le iscrizioni al servizio  [in questa sezione](../../audiences/using/monitoring-subscriptions.md)
-1. **Conferma iscrizioni** : segui  [questa ](../../audiences/using/confirming-subscription-to-a-service.md) esercitazione per inviare un messaggio di conferma dell’iscrizione
+1. **Monitoraggio degli abbonamenti** : scopri diversi modi per monitorare gli abbonamenti al servizio  [in questa sezione](../../audiences/using/monitoring-subscriptions.md)
+1. **Conferma abbonamenti** : segui  [questa ](../../audiences/using/confirming-subscription-to-a-service.md) esercitazione per inviare un messaggio di conferma dell’abbonamento
 
 ## Risorse aggiuntive
 
-* [Caso di utilizzo: Query incrementale sugli abbonati a un servizio](../../automating/using/incremental-query-on-subscribers.md)
-* [Caso di utilizzo: Aggiornamento di più stati di iscrizione da un file](../../automating/using/updating-subscriptions-from-file.md)
+* [Caso di utilizzo: Query incrementale per gli abbonati a un servizio](../../automating/using/incremental-query-on-subscribers.md)
+* [Caso di utilizzo: Aggiornamento di più stati di abbonamento da un file](../../automating/using/updating-subscriptions-from-file.md)
 * [Iscrizione di profili a un servizio specifico dopo l’importazione di un file](../../automating/using/subscribing-profiles-from-file.md)
-* [Consenso e rifiuto nella campagna](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
