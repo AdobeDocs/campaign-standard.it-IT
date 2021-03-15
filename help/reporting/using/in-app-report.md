@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Report in-app
-description: Grazie al rapporto out-of-the-box in-app, scopri come sono riusciti i messaggi in-app.
+description: Con il rapporto preconfigurato in-app, scopri il successo dei messaggi in-app.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
+feature: Generazione rapporti
+role: Leader
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 2%
 
 ---
 
@@ -19,29 +22,29 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Nota: devi trascinare le metriche **[!UICONTROL Message type]** nelle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso per le consegne in-app.
+>Devi trascinare le metriche **[!UICONTROL Message type]** nelle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso per le consegne in-app.
 
 Il rapporto **In-App** fornisce dettagli relativi alle consegne in-app.
 
-Ogni tabella è rappresentata da numeri e grafici di riepilogo. Puoi modificare la modalità di visualizzazione dei dettagli nelle rispettive impostazioni di visualizzazione.
+Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare il modo in cui i dettagli vengono visualizzati nelle rispettive impostazioni di visualizzazione.
 
 ![](assets/inapp_report.png)
 
-La prima tabella **Riepilogo coinvolgimento in-app** è suddivisa in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
+La prima tabella **Riepilogo del coinvolgimento in-app** è suddivisa in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
 
-* **[!UICONTROL Processed/sent]**: Numero totale di invii per la distribuzione in-app.
+* **[!UICONTROL Processed/sent]**: Numero totale di invii per la consegna in-app.
 * **[!UICONTROL Delivered]**: Numero di messaggi in-app inviati correttamente, in relazione al numero totale di messaggi inviati.
-* **[!UICONTROL Impressions]**: Totale dei messaggi in-app visualizzati dai destinatari a seconda del rispetto o meno del criterio di attivazione.
+* **[!UICONTROL Impressions]**: Totale dei messaggi in-app visualizzati dai destinatari a seconda che il criterio di attivazione sia stato soddisfatto.
 * **[!UICONTROL Unique impressions]**: Numero di impression per destinatario.
-* **[!UICONTROL In-App click through rate]**: Percentuale di utenti che hanno fatto clic sul pulsante 1 o sul pulsante 2 rispetto agli utenti che hanno visto il messaggio.
-* **[!UICONTROL In-App dismissal rate]**: Percentuale di messaggi in-app che i destinatari hanno chiuso.
+* **[!UICONTROL In-App click through rate]**: Percentuale di utenti che hanno fatto clic sul pulsante 1 o sul pulsante 2 rispetto agli utenti che hanno visualizzato il messaggio.
+* **[!UICONTROL In-App dismissal rate]**: Percentuale di messaggi in-app ignorati dai destinatari.
 
 ![](assets/inapp_report_1.png)
 
-La seconda tabella **Clic e licenziamenti in-app** è suddivisa in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
+La seconda tabella **Clic e licenziamenti in-app** è suddivisa in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
 
 * **[!UICONTROL In-App clicks]**: Numero totale di destinatari che hanno fatto clic sul pulsante 1 o sul pulsante 2.
 * **[!UICONTROL Unique In-App clicks]**: Numero di volte in cui i destinatari hanno fatto clic sul pulsante 1 o sul pulsante 2.
-* **[!UICONTROL In-App dismissal]**: Numero totale di messaggi che i destinatari hanno chiuso facendo clic sul pulsante Chiudi o chiudendo automaticamente.
-* **[!UICONTROL Unique In-App dismissal]**: Numero di volte in cui i destinatari hanno chiuso un messaggio in-app.
+* **[!UICONTROL In-App dismissal]**: Numero totale di messaggi ignorati dai destinatari facendo clic sul pulsante Chiudi o ignorati automaticamente.
+* **[!UICONTROL Unique In-App dismissal]**: Numero di volte in cui i destinatari hanno ignorato un messaggio in-app.
 
