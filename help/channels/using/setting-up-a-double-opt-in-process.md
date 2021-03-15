@@ -6,10 +6,13 @@ description: Segui questi passaggi per impostare un doppio processo di consenso 
 audience: channels
 content-type: reference
 topic-tags: landing-pages
+feature: Pagine di destinazione
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1155'
 ht-degree: 90%
 
 ---
@@ -27,7 +30,7 @@ Il principio consiste nell’inviare un’e-mail per confermare il consenso del 
 
 Per configurare questa impostazione devi effettuare le seguenti operazioni:
 
-1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. I visitatori che compilano e inviano la pagina di destinazione saranno memorizzati nel database ma aggiunti al elenco Bloccati, per non ricevere alcuna comunicazione prima della convalida finale (vedere [Gestione Elenco Bloccati in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. I visitatori che compilano e inviano la pagina di destinazione verranno memorizzati nel database ma aggiunti al  di elenco Bloccati, per non ricevere alcuna comunicazione prima della convalida finale (consulta [Gestione dei Elenchi Bloccati in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Crea e invia automaticamente l’e-mail di consenso, con un collegamento di conferma. Questa e-mail eseguirà il targeting della popolazione che ha inviato la pagina di destinazione. Sarà basata su un modello e-mail che consente di eseguire il targeting dei profili di rinuncia.
 1. Reindirizza a una pagina di destinazione di conferma. Questa pagina di destinazione finale proporrà un pulsante di conferma: i visitatori devono fare clic su di esso. Puoi progettare un’e-mail di benvenuto da inviare al termine della conferma e, ad esempio, aggiungere un’offerta speciale nell’e-mail per i nuovi destinatari.
 
@@ -55,7 +58,7 @@ Per creare e configurare questa pagina di destinazione, devi eseguire le seguent
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Questo contesto rimuove il campo &quot;Su elenco Bloccati&quot; per poter inviare e-mail. Si nota in seguito che la prima pagina di destinazione impostava questo campo su **true** prima della conferma, per impedire l’invio di e-mail a profili non confermati. Per ulteriori informazioni, consulta il [Passaggio 3: creare la pagina di destinazione di acquisizione](#step-3--create-the-acquisition-landing-page).
+   Questo contesto rimuove il campo &quot;Al elenco Bloccati&quot; per poter inviare le e-mail. Si nota in seguito che la prima pagina di destinazione impostava questo campo su **true** prima della conferma, per impedire l’invio di e-mail a profili non confermati. Per ulteriori informazioni, consulta il [Passaggio 3: creare la pagina di destinazione di acquisizione](#step-3--create-the-acquisition-landing-page).
 
 1. Personalizza il contenuto della pagina di destinazione: puoi visualizzare dati personalizzati e cambiare l’etichetta del pulsante di conferma in “Fai clic qui per confermare l’abbonamento”, ad esempio.
 
@@ -96,12 +99,12 @@ L’evento è pronto. Ora puoi progettare il modello e-mail. Questo modello deve
 
 ### Creare la tipologia {#create-the-typology-rule}
 
-Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifica duplicandone una preconfigurata. La tipologia consentirà di inviare messaggi ai profili che non hanno ancora confermato il loro accordo e che sono ancora in elenco Bloccati. Per impostazione predefinita, le tipologie escludono i profili di rifiuto (ad es. per elenco Bloccati). Per creare questa tipologia, segui questi passaggi:
+Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifica duplicandone una preconfigurata. La tipologia consentirà di inviare messaggi ai profili che non hanno ancora confermato il proprio accordo e che sono ancora in elenco Bloccati. Per impostazione predefinita, le tipologie escludono i profili di rinuncia (ovvero al elenco Bloccati). Per creare questa tipologia, segui questi passaggi:
 
 1. Dal logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e fai clic su **[!UICONTROL Typologies]**.
 1. Duplica la tipologia preconfigurata **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Una volta confermata la duplicazione, modifica la nuova tipologia e immetti l’etichetta **TYPOLOGY_PROFILE**.
-1. Rimuovere la regola **Address on elenco Bloccati**.
+1. Rimuovi la regola **Indirizzo elenco Bloccati** .
 1. Fai clic su **[!UICONTROL Save]**.
 
 Questa tipologia può ora essere associata all’e-mail di conferma.
@@ -132,7 +135,7 @@ Per creare e configurare questa pagina di destinazione, devi eseguire le seguent
 
    Quindi imposta il valore su **true**.
 
-   Questo è obbligatorio per forzare l&#39;aggiunta al elenco Bloccati ed evitare di inviare messaggi ai visitatori che non hanno confermato il loro accordo. La convalida della pagina di destinazione CONFIRMATION imposta questo campo su **false** dopo la conferma. Per ulteriori informazioni, consulta il [Passaggio 1: creare la pagina di destinazione di conferma](#step-1--create-the-confirmation-landing-page).
+   Questo è obbligatorio per forzare l’aggiunta al  elenco Bloccati ed evitare l’invio di messaggi ai visitatori che non hanno confermato il proprio accordo. La convalida della pagina di destinazione CONFIRMATION imposta questo campo su **false** dopo la conferma. Per ulteriori informazioni, consulta il [Passaggio 1: creare la pagina di destinazione di conferma](#step-1--create-the-confirmation-landing-page).
 
 1. Nella sezione **[!UICONTROL Job]** > **[!UICONTROL Specific actions]**, seleziona l’opzione **[!UICONTROL Start sending messages]**.
 1. Nell’elenco a discesa associato, scegli il modello di messaggio transazionale **CONFIRM** creato.
