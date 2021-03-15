@@ -6,10 +6,13 @@ description: Definisci le popolazioni mirate, seleziona i tipi di pubblico, filt
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
+feature: Profili
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '608'
 ht-degree: 20%
 
 ---
@@ -62,7 +65,7 @@ Prima di iniziare a inviare messaggi a un contatto, assicurati di ottenere la lo
 
 Con Campaign, ti consigliamo di utilizzare **semplici meccanismi di consenso e rinuncia** tramite [servizi](../../audiences/using/creating-a-service.md) e [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md) per aggiornare le informazioni di contatto e aumentare il database.
 
-Specificando **i collegamenti di annullamento dell’abbonamento** nei messaggi, i profili verranno aggiunti all’elenco Bloccati, se necessario, e quindi per migliorare il recapito messaggi della piattaforma. Per ulteriori informazioni sulla gestione dell’elenco Bloccati, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Specificando **i collegamenti di annullamento dell’abbonamento** nei messaggi, i profili verranno aggiunti al  elenco Bloccati, se necessario, e quindi per migliorare il recapito messaggi della piattaforma. Per ulteriori informazioni sulla gestione dei elenco Bloccati, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
