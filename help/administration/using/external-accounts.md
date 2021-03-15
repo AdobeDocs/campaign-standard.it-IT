@@ -7,11 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
+feature: Impostazioni delle istanze
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 85%
+source-wordcount: '1777'
+ht-degree: 84%
 
 ---
 
@@ -30,7 +33,7 @@ Puoi impostare i seguenti tipi di account esterni:
 * Adobe Analytics. Per ulteriori informazioni, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. Per ulteriori informazioni, consulta [questa sezione](#google-recaptcha-external-account).
 * Archiviazione BLOB di Microsoft Azure. Per ulteriori informazioni, consulta [questa sezione](#microsoft-azure-external-account).
-* OAuth 2.0. Per ulteriori informazioni, consultare [questa sezione](#oauth-account).
+* OAuth 2.0. Per ulteriori informazioni, consulta [questa sezione](#oauth-account).
 
 >[!NOTE]
 >
@@ -82,7 +85,7 @@ Per evitare tali problemi, Adobe consiglia di seguire le best practice riportate
 * Di tanto in tanto, effettua l’accesso a SFTP per verificare direttamente ciò che vi si trova.
 * Ricorda che la gestione del disco SFTP è principalmente una tua responsabilità.
 
-Inoltre, gli IP pubblici da cui si sta tentando di avviare la connessione SFTP devono essere aggiunti al inserire nell&#39;elenco Consentiti di  nell&#39;istanza Campaign. L&#39;aggiunta di indirizzi IP al inserire nell&#39;elenco Consentiti  può essere richiesta tramite un [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), insieme alla fornitura della chiave pubblica da utilizzare per l&#39;autenticazione.
+Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti all’inserire nell&#39;elenco Consentiti nell’istanza Campaign. L&#39;aggiunta di indirizzi IP all&#39;inserire nell&#39;elenco Consentiti può essere richiesta tramite un [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), fornendo al tempo stesso la chiave pubblica da utilizzare per l&#39;autenticazione.
 
 I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/sftp-management/about-sftp-management.translate.html).
 
@@ -94,20 +97,20 @@ I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ult
 
 ## Account OAuth 2.0 {#oauth-account}
 
-Per un account esterno OAuth 2.0, fornite i seguenti dettagli:
+Per un account esterno OAuth 2.0, fornisci i seguenti dettagli:
 
-* A **Tipo di sovvenzione**: sono supportate solo le credenziali **client**.
-* Un **URL API protetta**: immettete l’endpoint di autorizzazione.
-* **Credenziali** sensibili OAuth 2.0: Questa sezione è destinata alle credenziali sensibili. I valori delle credenziali verranno mascherati sullo schermo dopo l&#39;aggiunta; a questo punto, non saranno né leggibili né modificabili. Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una particolare credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP invece del parametro body del POST, potete selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
-* **Credenziali** non sensibili OAuth 2.0: Questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo che saranno stati aggiunti; saranno anche modificabili.  Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una particolare credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP invece del parametro body del POST, potete selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
+* A **Tipo di sovvenzione**: sono supportate solo le **credenziali client**.
+* A **URL API sicuro**: immettere l&#39;endpoint di autorizzazione.
+* **Credenziali** sensibili OAuth 2.0: Questa sezione è destinata alle credenziali sensibili in natura. I valori delle credenziali verranno mascherati sullo schermo dopo l’aggiunta; a quel punto, non saranno né leggibili né modificabili. Se l’endpoint di autorizzazione richiede l’inserimento di una particolare credenziale nell’intestazione dell’autorizzazione HTTP anziché nel parametro body di POST, puoi selezionare l’opzione Includi nell’intestazione della credenziale.
+* **Credenziali** non sensibili OAuth 2.0: Questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo l’aggiunta; saranno modificabili.  Se l’endpoint di autorizzazione richiede l’inserimento di una particolare credenziale nell’intestazione dell’autorizzazione HTTP anziché nel parametro body di POST, puoi selezionare l’opzione Includi nell’intestazione della credenziale.
 
-Dopo aver immesso le informazioni sull&#39;account, fare clic su **Verifica connessione** per verificare che l&#39;account esterno sia stato configurato correttamente.
+Dopo aver inserito le informazioni sull&#39;account, fai clic su **Verifica connessione** per verificare che l&#39;account esterno sia stato configurato correttamente.
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->Le credenziali &quot;Content-Type: application/x-www-form-urlencoded&quot; e &quot;Grant_type=client_Credits&quot; verranno aggiunti automaticamente alla chiamata API; pertanto, non sarà necessario aggiungerli nella sezione delle credenziali.
+>Le credenziali &quot;Content-Type: application/x-www-form-urlencoded&quot; e &quot;Grant_type=client_credentials&quot; verranno aggiunti automaticamente alla chiamata API; pertanto, non sarà necessario aggiungerli nella sezione delle credenziali.
 
 ## Account esterno Amazon S3 {#amazon-s3-external-account}
 
