@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Scopri come progettare il contenuto dei messaggi e cerca di evitare problemi comuni che potrebbero impedire l’esecuzione della consegna. 
+feature: Consegna
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '930'
 ht-degree: 8%
 
 ---
@@ -17,123 +21,123 @@ ht-degree: 8%
 
 # Creare contenuti personalizzati {#build-personalized-content}
 
-Durante la progettazione del contenuto del messaggio, cercate di evitare problemi comuni che potrebbero impedire l&#39;esecuzione della distribuzione. Nella maggior parte dei casi, eventuali errori sono correlati a [personalizzazione](../../designing/using/personalization.md), formattazione quando si utilizza [un contenuto esistente](../../designing/using/using-existing-content.md) e [conversione di un contenuto HTML](../../designing/using/using-existing-content.md#converting-an-html-content) e [immagini](../../designing/using/images.md).
+Durante la progettazione del contenuto del messaggio, cerca di evitare problemi comuni che potrebbero impedire l’esecuzione della consegna. Nella maggior parte dei casi, i possibili errori sono correlati alla [personalizzazione](../../designing/using/personalization.md), alla formattazione quando [si utilizza un contenuto esistente](../../designing/using/using-existing-content.md) e alla [conversione di un contenuto HTML](../../designing/using/using-existing-content.md#converting-an-html-content) e [immagini](../../designing/using/images.md).
 
-## Ottimizzazione della personalizzazione {#optimize-personalization}
+## Ottimizzare la personalizzazione {#optimize-personalization}
 
-Per evitare problemi comuni che potrebbero impedire l’esecuzione della consegna e migliorare l’esperienza dei destinatari,  Adobe Campaign consente di personalizzare i messaggi.
+Per evitare problemi comuni che potrebbero impedire l’esecuzione della consegna e migliorare l’esperienza dei destinatari, Adobe Campaign ti consente di personalizzare i messaggi.
 
-È possibile utilizzare i dati dei destinatari memorizzati nel database Adobe Campaign  oppure raccolti tramite tracciamento, pagine di destinazione, iscrizioni ecc.
+Puoi utilizzare i dati dei destinatari memorizzati nel database di Adobe Campaign o raccolti tramite tracciamento, pagine di destinazione, abbonamenti, ecc.
 Le nozioni di base sulla personalizzazione sono presentate in [questa sezione](../../designing/using/personalization.md).
 
 Assicurati che il contenuto del messaggio sia progettato correttamente per evitare errori, generalmente correlati alla personalizzazione.
 
-Il contenuto dinamico può essere aggiunto manualmente per visualizzare contenuti diversi ai destinatari in base alle condizioni definite nell&#39;editor di espressioni. Quando aggiungete contenuto dinamico, dovete sempre lasciare una variante predefinita per i destinatari che non soddisfano le condizioni selezionate.
-Per ulteriori informazioni sul contenuto dinamico, consultare la sezione [this](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Puoi aggiungere manualmente il contenuto dinamico per visualizzare contenuti diversi ai destinatari in base alle condizioni definite nell’editor espressioni. Quando aggiungi contenuto dinamico, devi sempre lasciare una variante predefinita per i destinatari che non soddisfano le condizioni selezionate.
+Per ulteriori informazioni sul contenuto dinamico, consulta [questa sezione](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**Suggerimenti**  - Visualizzate l&#39;anteprima dell&#39;e-mail con diversi profili di test per assicurarvi che il contenuto dinamico sia stato configurato correttamente.
+**Suggerimenti** : visualizza l’anteprima del messaggio e-mail con diversi profili di test per assicurarti che il contenuto dinamico sia stato configurato correttamente.
 
-## Creazione di contenuto ottimizzato {#optimize-content}
+## Creare contenuti ottimizzati {#optimize-content}
 
-Durante la creazione delle e-mail, tieni presente le best practice generali riportate di seguito.
+Quando crei le e-mail, ricorda le best practice generali riportate di seguito.
 
-* Design semplice
+* Mantieni il design semplice
 
-* Ricordate gli utenti dei dispositivi mobili
+* Tenere a mente gli utenti dei dispositivi mobili
 
-* Evita e-mail basate interamente su immagini
+* Evita e-mail interamente basate su immagini
 
-* Utilizzo di font sicuri per le e-mail
+* Utilizza font sicuri per e-mail
 
-* Codifica di caratteri speciali
+* Codifica caratteri speciali
 
-### Riga oggetto
+### Linea oggetto
 
-Lavorare sulla [linea oggetto](../../designing/using/subject-line.md) per migliorare le tariffe aperte:
+Lavora sulla [riga oggetto](../../designing/using/subject-line.md) per migliorare i tassi di apertura:
 
-* Evitare soggetti troppo lunghi. Utilizza un massimo di 50 caratteri
+* Evita soggetti troppo lunghi. Utilizza un massimo di 50 caratteri
 
-* Evitare di usare parole ripetitive come &quot;free&quot; o &quot;offer&quot;, che potrebbero essere considerate spam
+* Evita di usare parole ripetitive come &quot;libero&quot; o &quot;offerta&quot;, che potrebbero essere considerate come spam
 
-* Evitare lettere maiuscole e caratteri speciali come &quot;!&quot;, &quot;€&quot;, &quot;€&quot;, &quot;$&quot;
+* Evitare lettere maiuscole e caratteri speciali come &quot;!&quot;, &quot; £&quot;, &quot;€&quot;, &quot;$&quot;
 
-### Mirror, pagina
+### Pagina speculare
 
-Includi sempre un collegamento della pagina mirror. La posizione preferita è la parte superiore dell’e-mail. [Ulteriori informazioni](../../designing/using/personalization.md#adding-a-content-block)
+Includi sempre un collegamento alla pagina speculare. La posizione preferita è la parte superiore dell’e-mail. [Ulteriori informazioni](../../designing/using/personalization.md#adding-a-content-block)
 
 ### Collegamento di annullamento dell’abbonamento
 
-Il collegamento di annullamento della sottoscrizione è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Scopri le linee guida relative ai collegamenti di annullamento dell&#39;iscrizione [in questa sezione](../../designing/using/personalization.md#about-targeting-dimension).
+Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Scopri le linee guida per l’annullamento dell’abbonamento [in questa sezione](../../designing/using/personalization.md#about-targeting-dimension).
 
-Per impostazione predefinita, quando il messaggio viene analizzato, un controllo [regola di tipologia](../../sending/using/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e genera un avviso se risulta mancante.
+Per impostazione predefinita, quando il messaggio viene analizzato, un controllo [regola di tipologia](../../sending/using/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e genera un avviso se manca.
 
-**Suggerimento**: Poiché l’errore umano è sempre possibile, verificate che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, al momento dell&#39;invio della prova, verificare che il collegamento sia valido, che il modulo sia online e che il campo Destinatario non contatta più sia cambiato in Sì.
+**Suggerimento**: Poiché l’errore umano è sempre possibile, controlla che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, quando invii la bozza, accertati che il collegamento sia valido, che il modulo sia online e che il campo Destinatario non venga più contattato sia stato modificato in Sì.
 
-Scoprite come inserire un collegamento di rinuncia [in questa sezione](../../designing/using/personalization.md#adding-a-content-block).
+Scopri come inserire un collegamento di rinuncia [in questa sezione](../../designing/using/personalization.md#adding-a-content-block).
 
 ### Dimensione e-mail
 
-Per evitare problemi di prestazioni o di recapito, la dimensione massima consigliata per un messaggio e-mail è di circa **35 KB**.
+Per evitare problemi di prestazioni o recapito messaggi, la dimensione massima consigliata di un messaggio e-mail è di circa **35 KB**.
 
-Per mantenere l’e-mail al di sotto del limite, tenete presente quanto segue:
+Per mantenere l’e-mail sotto il limite, considera quanto segue:
 
-* Rimuovere stili ridondanti o inutilizzati
+* Rimuovere gli stili ridondanti o inutilizzati
 
-* Spostare parte del contenuto dell’e-mail in una pagina di destinazione
+* Sposta parte del contenuto delle e-mail in una pagina di destinazione
 
-* Riduzione del codice
+* Minimizzare il codice
 
-Verificare eventuali modifiche prima dell&#39;invio finale
+Verifica eventuali modifiche prima dell’invio finale
 
 ### Lunghezza SMS
 
 Per impostazione predefinita, il numero di caratteri in un SMS soddisfa gli standard GSM (Global System for Mobile Communications). I messaggi SMS che utilizzano la codifica GSM sono limitati a 160 caratteri o 153 caratteri per SMS per messaggi inviati in più parti.
 
-La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando quel carattere non è preso in considerazione dallo standard GSM. L&#39;inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. È possibile autorizzare la traslazione dei caratteri selezionando la casella corrispondente nella scheda delle impostazioni del canale SMPP della **[!UICONTROL External account]** corrispondente.
+La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando quel carattere non è preso in considerazione dallo standard GSM. Tieni presente che l’inserimento di campi di personalizzazione nel contenuto del messaggio SMS può introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Puoi autorizzare la traslitterazione dei caratteri selezionando la casella corrispondente nella scheda delle impostazioni del canale SMPP della **[!UICONTROL External account]** corrispondente.
 Ulteriori informazioni [in questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Suggerimenti**:
 
-* Per mantenere tutti i caratteri nei messaggi SMS così come sono, per non alterare i nomi propri, ad esempio, non abilitare la traslazione.
+* Per mantenere tutti i caratteri nei messaggi SMS così come sono, per non modificare i nomi propri, ad esempio, non abilitare la traslitterazione.
 
-* Tuttavia, se i vostri messaggi SMS contengono molti caratteri che non sono presi in considerazione dallo standard GSM, abilitate la traslazione per limitare i costi di invio dei vostri messaggi.
+* Tuttavia, se i messaggi SMS contengono molti caratteri che non vengono presi in considerazione dallo standard GSM, abilita la traslitterazione per limitare i costi di invio dei messaggi.
 
 Ulteriori informazioni [in questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 ### Progettazione e-mail reattiva
 
-La progettazione reattiva assicura il rendering ottimale dell’e-mail per il dispositivo su cui viene aperto.
+La progettazione reattiva assicura il rendering ottimale di un’e-mail per il dispositivo su cui viene aperta.
 
-* Utilizzate HTML e-mail reattive invece di HTML Web
+* Utilizza l’HTML dell’e-mail reattiva anziché l’HTML del web
 
-* Utilizzate la modalità di anteprima e inviate le prove di stampa per testare il rendering su quanti più dispositivi possibile. Scopri come visualizzare l&#39;anteprima del messaggio [prima dell&#39;invio.](../../sending/using/previewing-messages.md)
+* Utilizza la modalità anteprima e invia bozze per testare il rendering su quanti più dispositivi possibile. Scopri come [visualizzare in anteprima il messaggio](../../sending/using/previewing-messages.md) prima dell’invio.
 
-* Campaign Email Designer viene fornito con modelli reattivi per la progettazione di contenuti per dispositivi mobili. Ulteriori informazioni [in questa pagina](../../designing/using/using-reusable-content.md#content-templates).
+* E-mail Designer di Campaign viene fornito con modelli in formato dinamico per la progettazione per dispositivi mobili. Ulteriori informazioni [in questa pagina](../../designing/using/using-reusable-content.md#content-templates).
 
 ## Gestire le immagini {#manage-images}
 
-Seguite le linee guida riportate di seguito quando si tratta di usare le immagini.
+Segui le linee guida riportate di seguito quando si tratta di utilizzare le immagini.
 
-### Impedire il blocco delle immagini
+### Impedisci il blocco delle immagini
 
-Per impostazione predefinita, alcuni client e-mail bloccano le immagini e alcuni utenti modificano le proprie impostazioni per bloccare le immagini da salvare in base all’utilizzo dei dati. Pertanto, se le immagini non vengono scaricate, l&#39;intero messaggio può andare perso. Per evitare ciò:
+Alcuni client di posta elettronica bloccano le immagini per impostazione predefinita e alcuni utenti modificano le impostazioni per bloccare le immagini per il salvataggio sull’utilizzo dei dati. Pertanto, se le immagini non vengono scaricate, l&#39;intero messaggio può essere perso. Per evitare questo:
 
-* Bilancia i contenuti con immagini e testo. Evitate e-mail basate interamente su immagini.
+* Bilancia il contenuto con immagine e testo. Evita e-mail interamente basate su immagini.
 
-* Se il testo deve essere contenuto in un’immagine, usate il testo alternativo e del titolo per essere certi che il messaggio possa essere trasmesso. Applicate uno stile al testo alt/title per migliorarne l’aspetto.
+* Se il testo deve essere contenuto in un’immagine, utilizza il testo alt e title per assicurarti che il messaggio venga trasmesso. Personalizzare lo stile del testo alt/title per migliorarne l’aspetto.
 
-* Evitate l’utilizzo di immagini di sfondo poiché non sono supportate da alcuni client e-mail.
+* Evita l’uso di immagini in background in quanto non sono supportate da alcuni client e-mail.
 
 ### Rendere le immagini reattive
 
-Cercate di rendere le immagini reattive e ridimensionabili. Questo può avere un impatto sui costi in quanto la creazione richiede più tempo.
+Prova a rendere le immagini reattive e ridimensionabili. Tieni presente che questo può avere un impatto sui costi in quanto la creazione richiede più tempo.
 
-### Utilizzare riferimenti di immagine assoluti
+### Usa riferimenti di immagine assoluti
 
-Per essere accessibili dall&#39;esterno, le immagini utilizzate nelle e-mail e nelle risorse pubbliche collegate alle campagne devono essere presenti su un server esterno accessibile.
+Per essere accessibile dall’esterno, le immagini utilizzate nelle e-mail e nelle risorse pubbliche collegate alle campagne devono essere presenti su un server accessibile dall’esterno.
 
-## Visualizza in anteprima il messaggio {#preview-msg}
+## Anteprima del messaggio {#preview-msg}
 
- Adobe consiglia di visualizzare in anteprima il messaggio per verificarne la personalizzazione e vedere in che modo i destinatari vedranno la consegna.
+Adobe consiglia di visualizzare l’anteprima del messaggio per verificarne la personalizzazione e il modo in cui i destinatari visualizzeranno la consegna.
 
 Nella finestra di progettazione e-mail, il pulsante **[!UICONTROL Preview]** consente di visualizzare il rendering di ciascun contenuto per un destinatario. I campi di personalizzazione e gli elementi condizionali del contenuto vengono sostituiti con le informazioni corrispondenti per il profilo selezionato. [Ulteriori informazioni](../../sending/using/previewing-messages.md)
