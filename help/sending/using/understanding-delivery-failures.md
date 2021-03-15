@@ -6,10 +6,13 @@ description: Scopri come gestire gli errori di consegna con Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: Consegna
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 69%
 
 ---
@@ -27,7 +30,7 @@ Quando una consegna non può essere inviata a un profilo, il server remoto invia
 >
 >I messaggi di errore **SMS** (o &quot;SR&quot; per &quot;Report di stato&quot;) sono qualificati dal processo MTA.
 
-I messaggi possono essere esclusi anche durante la preparazione della consegna se un indirizzo viene messo in quarantena o se un profilo è sul elenco Bloccati. I messaggi esclusi sono elencati nella scheda **[!UICONTROL Exclusion logs]** del dashboard di consegna (consulta [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+I messaggi possono essere esclusi anche durante la preparazione della consegna se un indirizzo viene messo in quarantena o se un profilo è presente nel elenco Bloccati. I messaggi esclusi sono elencati nella scheda **[!UICONTROL Exclusion logs]** del dashboard di consegna (consulta [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -54,20 +57,20 @@ Se una consegna non riesce, possono verificarsi tre tipi di errori:
 
 I possibili motivi di un errore di consegna sono:
 
-| Etichetta errore | Tipo errore | Descrizione |
+| Etichetta errore | Tipo di errore | Descrizione |
 ---------|----------|---------
-| **[!UICONTROL User unknown]** | Rigido | L&#39;indirizzo non esiste. Per questo profilo non verranno tentate ulteriori consegne. |
-| **[!UICONTROL Quarantined address]** | Rigido | L&#39;indirizzo è stato messo in quarantena. |
-| **[!UICONTROL Unreachable]** | Soft/Hard | Si è verificato un errore nella catena di distribuzione dei messaggi (ad esempio, dominio temporaneamente non raggiungibile). In base all’errore restituito dal provider, l’indirizzo verrà posto direttamente in quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato di quarantena o finché non vengono raggiunti 5 errori. |
-| **[!UICONTROL Address empty]** | Rigido | Indirizzo non definito. |
+| **[!UICONTROL User unknown]** | Duro | L&#39;indirizzo non esiste. Per questo profilo non verranno tentate ulteriori consegne. |
+| **[!UICONTROL Quarantined address]** | Duro | L&#39;indirizzo è stato messo in quarantena. |
+| **[!UICONTROL Unreachable]** | Soft/Hard | Errore nella catena di consegna del messaggio (ad esempio dominio temporaneamente non raggiungibile). In base all’errore restituito dal provider, l’indirizzo verrà posto direttamente in quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato di quarantena o finché non vengono raggiunti 5 errori. |
+| **[!UICONTROL Address empty]** | Duro | Indirizzo non definito. |
 | **[!UICONTROL Mailbox full]** | Morbido | La cassetta postale di questo utente è piena e non può accettare altri messaggi. Questo indirizzo può essere rimosso dall’elenco di quarantena per effettuare un altro tentativo. Viene rimosso automaticamente dopo 30 giorni. Per consentire la rimozione automatica dell’indirizzo dall’elenco degli indirizzi in quarantena, è necessario avviare il flusso di lavoro tecnico **[!UICONTROL Database cleanup]**. |
-| **[!UICONTROL Refused]** | Soft/Hard | L&#39;indirizzo è stato messo in quarantena a causa di un feedback sulla sicurezza come rapporto di spam. In base all’errore restituito dal provider, l’indirizzo verrà posto direttamente in quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato di quarantena o finché non vengono raggiunti 5 errori. |
-| **[!UICONTROL Duplicate]** | Ignorato | L&#39;indirizzo è già stato rilevato nella segmentazione. |
-| **[!UICONTROL Not defined]** | Morbido | l&#39;indirizzo è nella qualifica perché gli errori non sono ancora stati incrementati. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. |
-| **[!UICONTROL Error ignored]** | Ignorato | L&#39;indirizzo è  inserire nell&#39;elenco Consentiti e gli verrà inviata un&#39;e-mail in ogni caso. |
-| **[!UICONTROL Address on denylist]** | Rigido | L&#39;indirizzo è stato aggiunto al elenco Bloccati al momento dell&#39;invio. |
-| **[!UICONTROL Account disabled]** | Soft/Hard | Quando Internet Access Provider (IAP) rileva un lungo periodo di inattività, può chiudere l&#39;account dell&#39;utente: le consegne all&#39;indirizzo dell&#39;utente saranno quindi impossibili. Il tipo morbido o rigido dipende dal tipo di errore ricevuto: se l’account è temporaneamente disattivato a causa di sei mesi di inattività e può ancora essere attivato, verrà assegnato lo stato **[!UICONTROL Erroneous]** e la consegna verrà ritentata. Se l’errore ricevuto segnala che l’account è disattivato in modo permanente, verrà posto direttamente in quarantena. |
-| **[!UICONTROL Not connected]** | Ignorato | Il telefono cellulare del profilo viene spento o non è connesso alla rete quando il messaggio viene inviato. |
+| **[!UICONTROL Refused]** | Soft/Hard | L’indirizzo è stato messo in quarantena a causa di un feedback di sicurezza come un rapporto spam. In base all’errore restituito dal provider, l’indirizzo verrà posto direttamente in quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato di quarantena o finché non vengono raggiunti 5 errori. |
+| **[!UICONTROL Duplicate]** | Ignorato | L’indirizzo è già stato rilevato nella segmentazione. |
+| **[!UICONTROL Not defined]** | Morbido | l’indirizzo è in qualificazione perché gli errori non sono ancora stati incrementati. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. |
+| **[!UICONTROL Error ignored]** | Ignorato | L’indirizzo è inserire nell&#39;elenco Consentiti e verrà inviata un’e-mail in ogni caso. |
+| **[!UICONTROL Address on denylist]** | Duro | L’indirizzo è stato aggiunto al elenco Bloccati al momento dell’invio. |
+| **[!UICONTROL Account disabled]** | Soft/Hard | Quando il provider di accesso a Internet (IAP) rileva un periodo prolungato di inattività, può chiudere l&#39;account dell&#39;utente: le consegne all’indirizzo dell’utente saranno quindi impossibili. Il tipo morbido o rigido dipende dal tipo di errore ricevuto: se l’account è temporaneamente disattivato a causa di sei mesi di inattività e può ancora essere attivato, verrà assegnato lo stato **[!UICONTROL Erroneous]** e la consegna verrà ritentata. Se l’errore ricevuto segnala che l’account è disattivato in modo permanente, verrà posto direttamente in quarantena. |
+| **[!UICONTROL Not connected]** | Ignorato | Il telefono cellulare del profilo è spento o non è connesso alla rete quando il messaggio viene inviato. |
 | **[!UICONTROL Invalid domain]** | Morbido | Il dominio dell&#39;indirizzo e-mail non è corretto o non esiste più. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. Successivamente, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo. |
 | **[!UICONTROL Text too long]** | Ignorato | Il numero di caratteri nel messaggio SMS supera il limite. Per ulteriori informazioni, consulta [Codifica, lunghezza e traslitterazione degli SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Character not supported by encoding]** | Ignorato | Il messaggio SMS contiene uno o più caratteri non supportati dalla codifica. &amp;Per ulteriori informazioni, consulta [Tabella dei caratteri: standard GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
@@ -76,7 +79,7 @@ I possibili motivi di un errore di consegna sono:
 
 Se un messaggio non riesce a causa di un errore temporaneo del tipo **Ignorato**, verranno eseguiti nuovi tentativi per la durata della consegna. Per ulteriori informazioni sui tipi di errori, consulta [Tipi e motivi di errori di consegna](#delivery-failure-types-and-reasons).
 
-Il numero di tentativi (il numero di tentativi da eseguire il giorno successivo all&#39;inizio dell&#39;invio) e il ritardo minimo tra i tentativi ora si basano su prestazioni di un IP sia storicamente che attualmente in un determinato dominio. <!--managed by the Adobe Campaign Enhanced MTA,--> Le impostazioni **Nuovi tentativi** in Campaign vengono ignorate.
+Il numero di nuovi tentativi (il numero di tentativi da eseguire il giorno successivo all’avvio dell’invio) e il ritardo minimo tra nuovi tentativi sono ora<!--managed by the Adobe Campaign Enhanced MTA,--> in base alle prestazioni di un IP sia storicamente che attualmente in un determinato dominio. Le impostazioni **Nuovi tentativi** in Campaign vengono ignorate.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -86,13 +89,13 @@ Per modificare la durata di una consegna, passa ai parametri avanzati della cons
 >
 >**Il parametro **[!UICONTROL Delivery duration]**nelle consegne di Campaign viene ora utilizzato soltanto se impostato su 3,5 giorni o meno.** Se definisci un valore superiore a 3,5 giorni, questo non verrà preso in considerazione.
 
-Ad esempio, se si desidera che i tentativi di consegna interrompano dopo un giorno, è possibile impostare la durata di consegna su **1d** e i messaggi nella coda dei tentativi verranno rimossi dopo un giorno.
+Ad esempio, se desideri che i nuovi tentativi per una consegna si interrompano dopo un giorno, puoi impostare la durata della consegna su **1d** e i messaggi nella coda dei nuovi tentativi verranno rimossi dopo un giorno.
 
 <!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->Una volta che un messaggio è stato nella coda dei tentativi per un massimo di 3,5 giorni e non è riuscito a distribuirlo, si verificherà un timeout e il suo stato verrà aggiornato a <!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Failed]** nei [log di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Una volta che un messaggio è rimasto nella coda dei nuovi tentativi per un massimo di 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato<!--from **[!UICONTROL Sent]**--> a **[!UICONTROL Failed]** nei [log di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -105,7 +108,7 @@ Una consegna può non riuscire immediatamente (errore sincrono) oppure in seguit
 
 ## Qualificazione di mail non recapitate {#bounce-mail-qualification}
 
-Per i messaggi di errore di consegna sincrona, la  MTA avanzata di Adobe Campaign (Agente di trasferimento messaggi) determina il tipo di rimbalzo e la qualifica e invia nuovamente tali informazioni a Campaign.
+Per i messaggi di errore di consegna sincrono, l’MTA avanzato di Adobe Campaign (Agente di trasferimento messaggi) determina il tipo di messaggio non recapitato e la relativa qualifica e invia nuovamente tali informazioni a Campaign.
 
 >[!NOTE]
 >
@@ -123,7 +126,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Ottimizzazione della recapito delle e-mail con doppio meccanismo di consenso {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Ottimizzazione del recapito messaggi e-mail con il doppio meccanismo di consenso {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Il doppio meccanismo di consenso è una best practice per l’invio di e-mail. Esso protegge la piattaforma da indirizzi e-mail errati o non validi, da spambot e impedisce possibili reclami di spam.
 
