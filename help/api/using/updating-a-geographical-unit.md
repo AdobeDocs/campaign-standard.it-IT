@@ -6,25 +6,28 @@ description: Scopri come gestire le unità geografiche con le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 10%
+source-wordcount: '98'
+ht-degree: 11%
 
 ---
 
 
 # Aggiornamento dell’unità geografica di un profilo {#updating-a-geographical-unit}
 
-1. Eseguite una richiesta di GET sulla risorsa **geoUnitBase** per recuperare l&#39;unità geografica PKey.
-1. Eseguite una richiesta PATCH sul profilo PKey, con l&#39;unità Geografica desiderata PKey nel payload.
+1. Esegui una richiesta di GET sulla risorsa **geoUnitBase** per recuperare l&#39;unità geografica PKey.
+1. Esegui una richiesta PATCH sul profilo PKey, con l&#39;unità geografica desiderata PKey nel payload.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Recuperare l&#39;elenco delle unità geografiche.
+Recupera l’elenco delle unità geografiche.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -34,7 +37,7 @@ Recuperare l&#39;elenco delle unità geografiche.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce tutte le unità geografiche. Recuperare il PKey dell&#39;unità a cui si desidera assegnare il profilo.
+Restituisce tutte le unità geografiche. Recupera il PKey dell’unità a cui desideri assegnare il profilo.
 
 ```
 {
@@ -50,7 +53,7 @@ Restituisce tutte le unità geografiche. Recuperare il PKey dell&#39;unità a cu
 },
 ```
 
-Eseguite una richiesta PATCH sul profilo, con il PKey dell&#39;unità Geografica desiderata nel payload.
+Esegui una richiesta PATCH sul profilo, con il PKey dell’unità geografica desiderata nel payload.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
