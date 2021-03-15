@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 98%
+source-wordcount: '1114'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +41,7 @@ Se specificata in un file tramite colonne dedicate, questa attività ti consente
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Aggiornamento di più stati di iscrizione da un file](../../automating/using/updating-subscriptions-from-file.md)
+* [Caso di utilizzo: Aggiornamento di più stati di abbonamento da un file](../../automating/using/updating-subscriptions-from-file.md)
 * [Caso di utilizzo: Iscrizione di profili da un file a un servizio specifico](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Configurazione {#configuration}
