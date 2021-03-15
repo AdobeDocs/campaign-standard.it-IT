@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Abbinamento delle consegne di e-mail e direct mail
-description: Questo caso di utilizzo fornisce un esempio di invio e-mail e di posta diretta da un flusso di lavoro.
+description: Questo caso d’uso presenta un esempio di invio di e-mail e direct mailing da un flusso di lavoro.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 84%
+source-wordcount: '123'
+ht-degree: 82%
 
 ---
 
@@ -32,5 +35,5 @@ Di seguito è riportato un esempio di flusso di lavoro che combina i canali di d
 
 **Argomenti correlati:**
 
-* [Attività di consegna diretta posta](../../automating/using/direct-mail-delivery.md)
+* [Attività di consegna direct mailing](../../automating/using/direct-mail-delivery.md)
 * [Informazioni sulla direct mailing](../../channels/using/about-direct-mail.md)
