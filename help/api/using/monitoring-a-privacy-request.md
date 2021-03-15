@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Monitoraggio di una richiesta di accesso a dati personali
-description: Scopri come monitorare una richiesta di privacy con le API
+description: Scopri come monitorare una richiesta di accesso a dati personali con API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '58'
 ht-degree: 25%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 25%
 
 # Monitoraggio di una richiesta di accesso a dati personali {#monitoring-a-privacy-request}
 
-È possibile monitorare le informazioni su una richiesta di privacy creata utilizzando una richiesta **GET**.
+Puoi monitorare le informazioni su una richiesta di accesso a dati personali creata utilizzando una richiesta **GET**.
 
 La descrizione dell&#39;elenco di stato è disponibile nella [documentazione sulla gestione della privacy](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
@@ -33,7 +36,7 @@ La descrizione dell&#39;elenco di stato è disponibile nella [documentazione sul
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Risposta alla richiesta di GET.
+Risposta alla richiesta GET.
 
 ```
 {
