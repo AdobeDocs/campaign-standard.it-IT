@@ -6,11 +6,14 @@ description: Scopri la funzione di rendering di e-mail.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: Ottimizzazione dei tempi di invio
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '519'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +26,7 @@ Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende
 
 I client per dispositivi mobili, di messaggistica e di posta sul web disponibili per il **rendering di e-mail** all’interno di Adobe Campaign sono elencati nel [sito web](https://litmus.com/email-testing) di Litmus (fai clic su **View all email clients**).
 
-## Generazione rendering e-mail {#checking-the-email-rendering-report}
+## Generazione del rendering di e-mail {#checking-the-email-rendering-report}
 
 Dopo aver creato la consegna e-mail e averne definito il contenuto e la popolazione target, effettua le seguenti operazioni.
 
@@ -66,21 +69,21 @@ Viene visualizzato il report dedicato di rendering di e-mail. Consulta [Descrizi
 * [Invio di bozze](../../sending/using/sending-proofs.md)
 * [Editor delle query](../../automating/using/editing-queries.md#about-query-editor)
 
-## Report rendering e-mail {#email-rendering-report-description}
+## Report di rendering di e-mail {#email-rendering-report-description}
 
 Questo report presenta i rendering delle e-mail così come sono visualizzati al destinatario. I rendering di e-mail possono variare a seconda della modalità con cui il destinatario apre la consegna e-mail: in un browser, su un dispositivo mobile o tramite un’applicazione e-mail.
 
-### Token di rendering e-mail
+### Token di rendering per e-mail
 
 Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con il **Rendering di e-mail** abilitato diminuisce di un’unità i rendering disponibili, denominati token.
 
-Account Token per ogni singolo rendering e non per l&#39;intero rapporto di rendering E-mail, il che significa che:
+I token account per ogni singolo rendering e non per l’intero report di rendering di e-mail, il che significa che:
 
-* **Ogni** volta che viene generato il rapporto di rendering e-mail, viene dedotto un token per client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
+* **Ogni** volta che viene generato il rapporto di rendering di e-mail, viene detratto un token per client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
 
-* **Per la stessa consegna**, se generate di nuovo il rendering E-mail, il numero di token disponibili viene nuovamente diminuito dal numero di rendering generati.
+* **Per la stessa consegna**, se si genera di nuovo il rendering di E-mail, il numero di token disponibili viene nuovamente diminuito del numero di rendering generati.
 
-### Riepilogo report
+### Riepilogo del rapporto
 
 Il riepilogo del report mostra il numero di messaggi ricevuti, indesiderati (spam), non ricevuti o in attesa di ricezione.
 
