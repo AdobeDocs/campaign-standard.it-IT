@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '861'
 ht-degree: 94%
 
 ---
@@ -65,7 +68,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
       Ad esempio, per un’e-mail di compleanno ricorrente, inviata ogni giorno, puoi scegliere di aggregare gli invii al mese. Ciò ti consente di ricevere report sulla consegna su base mensile, anche se l’e-mail viene inviata ogni giorno.
    >[!NOTE]
    >
-   >Le consegne ricorrenti vengono preparate in base al **periodo di aggregazione**. Ad esempio, se il periodo di aggregazione è &quot;per giorno&quot;, la consegna verrà preparata solo una volta al giorno. Se prevedete di chiamare questo flusso di lavoro più volte al giorno, utilizzate [!UICONTROL No aggregation].
+   >Le consegne ricorrenti vengono preparate in base al **periodo di aggregazione**. Ad esempio, se il periodo di aggregazione è &quot;per giorno&quot;, la consegna verrà preparata nuovamente solo una volta al giorno. Se prevedi di chiamare questo flusso di lavoro più volte al giorno, utilizza [!UICONTROL No aggregation].
 
 1. Seleziona un tipo di e-mail. I tipi di e-mail provengono dai modelli e-mail definiti nel menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Immetti le proprietà generali per l’e-mail. Puoi anche allegarla a una campagna esistente. L’etichetta dell’attività di consegna del flusso di lavoro viene aggiornata con l’etichetta e-mail.
