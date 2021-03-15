@@ -2,21 +2,24 @@
 solution: Campaign Standard
 product: campaign
 title: Iscrizione di profili da un file a un servizio specifico
-description: Questo caso d’uso mostra come importare un file contenente dei profili e iscriverli a un servizio esistente.
+description: Questo caso d’uso mostra come importare un file contenente profili e abbonarli a un servizio esistente.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 53%
+source-wordcount: '242'
+ht-degree: 52%
 
 ---
 
 
-# Iscrizione di profili a un servizio specifico dopo l&#39;importazione di un file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Iscrizione di profili a un servizio specifico dopo l’importazione di un file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 Questo esempio illustra come importare un file contenente profili ed effettuarne l’abbonamento a un servizio esistente. Dopo l’importazione del file, è necessario eseguire una riconciliazione in modo tale che i dati importati possano essere identificati come profili. Per garantire che il file non contenga duplicati, sui dati verrà eseguita un’attività di deduplicazione.
 
@@ -43,14 +46,14 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/subscription_activity_example2.png)
 
-* Un&#39;attività [Riconciliazione](../../automating/using/reconciliation.md) identifica i dati del file come appartenenti alla dimensione del profilo del database Adobe Campaign . Solo la scheda **[!UICONTROL Identification]** è configurata. Essa identifica i dati del file in base agli indirizzi e-mail dei profili.
+* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md) identifica i dati del file come appartenenti alla dimensione di profilo del database Adobe Campaign. Solo la scheda **[!UICONTROL Identification]** è configurata. Essa identifica i dati del file in base agli indirizzi e-mail dei profili.
 
    ![](assets/subscription_activity_example3.png)
 
-* Una [Deduplicazione](../../automating/using/deduplication.md) basata sul campo **email** della risorsa temporanea (derivante dalla riconciliazione) identifica eventuali duplicati. Se i dati importati dal file contengono duplicati, l’abbonamento a un servizio non riuscirà per tutti i dati.
+* Una [Deduplication](../../automating/using/deduplication.md) basata sul campo **email** della risorsa temporanea (derivante dalla riconciliazione) identifica eventuali duplicati. Se i dati importati dal file contengono duplicati, l’abbonamento a un servizio non riuscirà per tutti i dati.
 
    ![](assets/subscription_activity_example5.png)
 
-* Un&#39;attività [Subscription Services](../../automating/using/subscription-services.md) consente di selezionare il servizio al quale devono essere sottoscritti i profili, il campo corrispondente alla data di iscrizione e l&#39;origine dell&#39;iscrizione.
+* Un’attività [Subscription Services](../../automating/using/subscription-services.md) ti consente di selezionare il servizio al quale i profili devono effettuare l’abbonamento, il campo corrispondente alla data di abbonamento e l’origine dell’abbonamento.
 
    ![](assets/subscription_activity_example4.png)
