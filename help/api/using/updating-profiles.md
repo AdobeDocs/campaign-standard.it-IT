@@ -2,36 +2,39 @@
 solution: Campaign Standard
 product: campaign
 title: Aggiornamento dei profili
-description: Scoprite come aggiornare i profili con le API.
+description: Scopri come aggiornare i profili con le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 5%
 
 ---
 
 
 # Aggiornamento dei profili {#updating-profiles}
 
-L&#39;aggiornamento dei profili viene eseguito con una richiesta **PATCH**.
+L’aggiornamento dei profili viene eseguito con una richiesta **PATCH**.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. Il primo passaggio è **recuperare il profilo**.
+1. Il primo passo è quello di **recuperare il profilo**.
 
-1. In una seconda richiesta, eseguiremo una **richiesta di PATCH** sul profilo con le informazioni completate nel payload.
+1. In una seconda richiesta, eseguiremo una **richiesta PATCH** sul profilo con le informazioni completate nel payload.
 
-1. Per verificare se la richiesta di PATCH ha aggiornato il profilo, possiamo eseguire una richiesta di GET finale.
+1. Per verificare se la richiesta di PATCH ha aggiornato il profilo, possiamo eseguire una richiesta finale di GET.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Esempio di richiesta di GET per recuperare un profilo.
+Richiesta di GET di esempio per recuperare un profilo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -57,7 +60,7 @@ Risposta alla richiesta.
 }
 ```
 
-Richiesta PATCH per aggiornare l&#39;attributo &quot;phone&quot;.
+Richiesta di PATCH per aggiornare l’attributo &quot;phone&quot;.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -68,7 +71,7 @@ Richiesta PATCH per aggiornare l&#39;attributo &quot;phone&quot;.
 -d '{"phone":"3301020304"}'
 ```
 
-Restituisce l’PKEY e l’URL per recuperare il profilo aggiornato.
+Restituisce la PKEY e l’URL per recuperare il profilo aggiornato.
 
 ```
 {
