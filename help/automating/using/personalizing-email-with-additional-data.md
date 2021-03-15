@@ -2,23 +2,26 @@
 solution: Campaign Standard
 product: campaign
 title: Personalizzazione di un’e-mail con dati aggiuntivi
-description: Questo caso di utilizzo illustra come aggiungere diversi tipi di dati aggiuntivi a una query e utilizzarli come campo di personalizzazione in un messaggio e-mail.
+description: Questo caso d’uso illustra come aggiungere diversi tipi di dati aggiuntivi a una query e utilizzarla come campo di personalizzazione in un messaggio e-mail.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 86%
+source-wordcount: '483'
+ht-degree: 85%
 
 ---
 
 
 # Personalizzazione di un’e-mail con dati aggiuntivi {#example--personalizing-an-email-with-additional-data}
 
-L’esempio seguente illustra l’aggiunta di diversi tipi di dati aggiuntivi a una query e il relativo utilizzo come campo di personalizzazione in un messaggio e-mail. Per ulteriori informazioni su come arricchire i dati di destinazione da un&#39;attività **[!UICONTROL Query]**, fare riferimento a [questa sezione](../../automating/using/query.md#enriching-data).
+L’esempio seguente illustra l’aggiunta di diversi tipi di dati aggiuntivi a una query e il relativo utilizzo come campo di personalizzazione in un messaggio e-mail. Per ulteriori informazioni su come arricchire i dati target di un&#39;attività **[!UICONTROL Query]**, consulta [questa sezione](../../automating/using/query.md#enriching-data).
 
 In questo esempio vengono utilizzate [risorse personalizzate](../../developing/using/data-model-concepts.md):
 
@@ -32,7 +35,7 @@ Il flusso di lavoro viene presentato come segue:
 
 ![](assets/enrichment_example1.png)
 
-1. Aggiungete un&#39;attività [Query](../../automating/using/query.md) che consente di eseguire il targeting dei profili che hanno eseguito almeno una transazione.
+1. Aggiungi un’attività [Query](../../automating/using/query.md) che ti consente di eseguire il targeting dei profili che hanno effettuato almeno una transazione.
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +56,7 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/enrichment_example5.png)
 
-1. Aggiungete un&#39;attività [Invio e-mail](../../automating/using/email-delivery.md). Nel contenuto dell’e-mail, inserisci i campi di personalizzazione corrispondenti ai dati calcolati nella query. Puoi trovarli tramite il collegamento **[!UICONTROL Additional data (targetData)]** dell’explorer dei campi di personalizzazione.
+1. Aggiungi un’attività [Email delivery](../../automating/using/email-delivery.md) . Nel contenuto dell’e-mail, inserisci i campi di personalizzazione corrispondenti ai dati calcolati nella query. Puoi trovarli tramite il collegamento **[!UICONTROL Additional data (targetData)]** dell’explorer dei campi di personalizzazione.
 
    ![](assets/enrichment_example3.png)
 
