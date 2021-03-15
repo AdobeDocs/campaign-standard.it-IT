@@ -2,14 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Informazioni sui casi di utilizzo dei flussi di lavoro
-description: Ulteriori informazioni sui casi di utilizzo che puoi eseguire utilizzando i flussi di lavoro Campaign Standard.
+description: Ulteriori informazioni sui casi d’uso che è possibile eseguire utilizzando i flussi di lavoro di Campaign Standard.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
+feature: Flussi di lavoro
+role: Architetto dati
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '237'
 ht-degree: 71%
 
 ---
@@ -17,9 +19,9 @@ ht-degree: 71%
 
 # Informazioni sui casi di utilizzo dei flussi di lavoro {#about-workflow-use-cases}
 
-In questa sezione troverai diversi casi di utilizzo che sfruttano le funzionalità dei flussi di lavoro di Campaign.
+In questa sezione troverai vari casi d’uso che sfruttano le funzionalità dei flussi di lavoro di Campaign.
 
-Questo vi aiuterà a scoprire i diversi contesti in cui i flussi di lavoro possono essere utilizzati e a rispondere alle vostre esigenze.
+Ti aiuterà a scoprire i diversi contesti in cui i flussi di lavoro possono essere utilizzati e a rispondere alle tue esigenze.
 
 ## Consegne {#deliveries}
 
@@ -63,5 +65,5 @@ Questo vi aiuterà a scoprire i diversi contesti in cui i flussi di lavoro posso
 * [Esportazione di profili in un file esterno](../../automating/using/exporting-profiles-in-file.md)
 * [Aggiornamento di più stati di abbonamento da un file](../../automating/using/updating-subscriptions-from-file.md)
 * [Iscrizione di profili da un file a un servizio specifico](../../automating/using/subscribing-profiles-from-file.md)
-* [Importazione di dati crittografati con una chiave generata dal Pannello di controllo Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [Cifratura ed esportazione di dati tramite una chiave installata sul Pannello di controllo Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
