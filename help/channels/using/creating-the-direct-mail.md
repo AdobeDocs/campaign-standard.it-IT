@@ -7,11 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
+feature: Direct mailing
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '599'
+ht-degree: 95%
 
 ---
 
@@ -97,4 +100,4 @@ Ora puoi inviare il file di estrazione al provider della direct mailing. A tal f
 * Inviarla tramite e-mail regolare, con il file allegato
 * Inviarla tramite Campaign: esegui la direct mailing in un [flusso di lavoro](../../automating/using/direct-mail-delivery.md) della campagna e aggiungi un **[!UICONTROL Transfer file]** per inviare il file, ad esempio tramite FTP. Consulta [Trasferire file](../../automating/using/transfer-file.md).
 
-Il provider recupera l&#39;elenco degli indirizzi errati e invia queste informazioni a  Adobe Campaign, che elenco Bloccati automaticamente gli indirizzi errati. Consulta [Rendi al mittente](../../channels/using/return-to-sender.md).
+Il provider recupera l’elenco degli indirizzi errati e invia tali informazioni ad Adobe Campaign che elenco Bloccati automaticamente gli indirizzi errati. Consulta [Rendi al mittente](../../channels/using/return-to-sender.md).
