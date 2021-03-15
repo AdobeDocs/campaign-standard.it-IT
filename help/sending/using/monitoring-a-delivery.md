@@ -7,22 +7,25 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
+feature: Monitoraggio delle prestazioni
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 89%
+source-wordcount: '466'
+ht-degree: 88%
 
 ---
 
 
 # Monitoraggio di una consegna{#monitoring-a-delivery}
 
-Esistono diversi modi per monitorare una consegna e misurarne l’impatto. In qualità di amministratore funzionale, potete accedere ai registri di notifica e di distribuzione dei messaggi.
+Esistono diversi modi per monitorare una consegna e misurarne l’impatto. In qualità di amministratore funzionale, puoi accedere ai log dei messaggi e ai registri di consegna.
 
 >[!IMPORTANT]
 >
->Solo gli amministratori [funzionali](../../administration/using/users-management.md#functional-administrators), con il ruolo **[!UICONTROL Administration]** e l&#39;accesso alle unità **All** possono accedere ai registri di invio, ai log dei messaggi, ai registri di monitoraggio, ai registri di esclusione o ai registri di iscrizione. Un utente non amministratore può eseguire il targeting di questi registri ma iniziare da una tabella collegata (profili, consegna).
+>Solo gli amministratori [funzionali](../../administration/using/users-management.md#functional-administrators) con il ruolo **[!UICONTROL Administration]** e l&#39;accesso alle unità **All** possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente non amministratore può eseguire il targeting di questi registri ma partendo da una tabella collegata (profili, consegna).
 
 * **Log dei messaggi**: questi log sono accessibili direttamente dal dashboard dei messaggi. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic.
 
