@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Aggiornamento di più stati di abbonamento da un file
-description: Questo caso d’uso mostra come importare un file contenente dei profili e aggiornare la sottoscrizione a diversi servizi specificati nel file.
+description: Questo caso d’uso mostra come importare un file contenente profili e aggiornarne l’abbonamento a diversi servizi specificati nel file.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '421'
 ht-degree: 76%
 
 ---
@@ -49,7 +52,7 @@ Il flusso di lavoro viene presentato come segue:
 
    Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l’operazione, non devi ripetere la mappatura di tali valori. Assicurati solo che la colonna sia elaborata come un **valore booleano** o un **numero intero** nella scheda **[!UICONTROL Column definition]**.
 
-* Un&#39;attività [Riconciliazione](../../automating/using/reconciliation.md) identifica i dati del file come appartenenti alla dimensione del profilo del database Adobe Campaign . Tramite la scheda **[!UICONTROL Identification]**, il campo **e-mail** del file viene fatto corrisponde al campo **e-mail** della risorsa del profilo.
+* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md) identifica i dati del file come appartenenti alla dimensione di profilo del database Adobe Campaign. Tramite la scheda **[!UICONTROL Identification]**, il campo **e-mail** del file viene fatto corrisponde al campo **e-mail** della risorsa del profilo.
 
    ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +60,11 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/subscription_example_service_relation.png)
 
-* Una [Deduplicazione](../../automating/using/deduplication.md) basata sul campo **email** della risorsa temporanea (derivante dalla riconciliazione) identifica i duplicati. È importante eliminare i duplicati poiché l’abbonamento a un servizio non riuscirà per tutti i dati in caso di duplicati.
+* Una [Deduplication](../../automating/using/deduplication.md) basata sul campo **email** della risorsa temporanea (derivante dalla riconciliazione) identifica i duplicati. È importante eliminare i duplicati poiché l’abbonamento a un servizio non riuscirà per tutti i dati in caso di duplicati.
 
    ![](assets/subscription_activity_example5.png)
 
-* Un&#39;attività [Subscription Services](../../automating/using/subscription-services.md) identifica i servizi da aggiornare come provenienti dalla transizione, attraverso il collegamento creato nell&#39;attività **[!UICONTROL Reconciliation]**.
+* Un&#39;attività [Subscription Services](../../automating/using/subscription-services.md) identifica i servizi da aggiornare come provenienti dalla transizione, attraverso il collegamento creato nell&#39;attività **[!UICONTROL Reconciliation]** .
 
    Il **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l’operazione da eseguire non viene visualizzata nell’elenco, accertati di aver impostato correttamente il formato della colonna nell’attività **[!UICONTROL Load file]**, come spiegato in precedenza in questo esempio.
 
