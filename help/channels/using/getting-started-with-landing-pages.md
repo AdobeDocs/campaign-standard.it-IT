@@ -7,11 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+feature: Pagine di destinazione
+role: Professionista
 translation-type: tm+mt
-source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 97%
+source-wordcount: '1031'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +26,7 @@ I passaggi principali per impostare pagine di destinazione sono i seguenti:
 
 In questa pagina trovi informazioni su ciascuno di questi passaggi, oltre a riferimenti ai documenti dedicati per ulteriori dettagli.
 
-![](assets/do-not-localize/how-to-video.png) [Come creare pagine di destinazione in un video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri come creare pagine di destinazione nel video](#video)
 
 **Argomenti correlati:**
 
@@ -133,10 +135,10 @@ Dopo la pubblicazione, la pagina di destinazione è pronta per essere utilizzata
 
 Per ulteriori informazioni sulla pubblicazione di una pagina di destinazione, consulta [questa sezione](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
-## Video di esercitazione {#video}
+## Video tutorial {#video}
 
-In questo video viene illustrato come creare e modificare una pagina di destinazione.
+Questo video mostra come creare e modificare una pagina di destinazione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
