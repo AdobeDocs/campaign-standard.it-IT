@@ -1,15 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Generazione di un file CSV per la notifica push multilingue con Campaign Standard
-description: Il caricamento di un file CSV per generare contenuto per la distribuzione è una funzione utilizzata per supportare le notifiche push multilingue.
+title: Generazione di un file CSV per notifiche push multilingue con Campaign Standard
+description: Il caricamento di un file CSV per generare contenuto per la consegna è una funzione utilizzata per supportare le notifiche push multilingue.
 audience: channels
 content-type: reference
 topic-tags: email-messages
+feature: Push
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -17,18 +20,18 @@ ht-degree: 0%
 
 # Generazione di un file CSV per notifiche push multilingue{#generating-csv-multilingual-push}
 
-Il caricamento di un file CSV per generare contenuto per la distribuzione è una funzione utilizzata per supportare le notifiche push in più lingue. Il formato del file CSV deve rispettare alcune linee guida per il corretto caricamento del file e, di conseguenza, per creare una consegna. Le sezioni seguenti descrivono il formato del file e le relative considerazioni.
+Il caricamento di un file CSV per generare contenuto per la consegna è una funzione utilizzata per supportare le notifiche push multilingue. Il formato del file CSV deve rispettare alcune linee guida per il corretto caricamento del file e, di conseguenza, deve essere in grado di creare una consegna. Le sezioni seguenti descrivono il formato del file e le relative considerazioni.
 
-## Formato file {#file-format}
+## Formato del file {#file-format}
 
 Il push multilingue richiede 14 colonne nel file CSV:
 
 1. title
 1. messageBody
-1. sound
-1. data
+1. suono
+1. età
 1. deeplinkURI
-1. category
+1. categoria
 1. iosMediaAttachmentURL
 1. androidMediaAttachmentURL
 1. isContentAvailable
@@ -36,39 +39,39 @@ Il push multilingue richiede 14 colonne nel file CSV:
 1. customFields
 1. locale
 1. language
-1. silentPush
+1. silenziosoPush
 
-Controllate l&#39;esempio CSV facendo clic su **[!UICONTROL Download a sample file]** nella finestra **[!UICONTROL Manage Content Variants]**. Per ulteriori informazioni, consultare la sezione [a1/>.](../../channels/using/creating-a-multilingual-push-notification.md)
+Controlla il campione CSV facendo clic su **[!UICONTROL Download a sample file]** nella finestra **[!UICONTROL Manage Content Variants]**. Per ulteriori informazioni, consulta questa [sezione](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenuto normale del payload push. Devi fornire queste informazioni in modo simile a quando crei consegne push.
-* **Campi** personalizzati: utilizza il formato JSON per i campi personalizzati, ad esempio  `{"key1":"value1","key2":"value2"}`. Per un esempio di campi personalizzati, fare riferimento al file di esempio precedente.
-* **isContentAvailable**: flag per la verifica Contenuto disponibile, il valore 1 indica true, il valore 0 indica false. Il valore predefinito è 0. Se lasciate vuota questa colonna, il valore sarà considerato 0.
-* **isMablesContent**: flag per Contenuto variabile, il valore 1 indica true, il valore 0 indica false. Il valore predefinito è 0. Se lasciate vuota questa colonna, il valore sarà considerato 0.
+* **title, messageBody, sound, badge, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenuto normale del payload push. Devi fornire queste informazioni in modo simile a quando crei consegne push.
+* **Campi** personalizzati: utilizza il formato JSON per i campi personalizzati, ad esempio  `{"key1":"value1","key2":"value2"}`. Per un esempio di campi personalizzati, fai riferimento al file di esempio precedente.
+* **isContentAvailable**: Flag per il controllo Contenuto disponibile, il valore 1 implica true, il valore 0 indica false. Il valore predefinito è 0. Se lasci questa colonna vuota, il valore sarà considerato 0.
+* **isMablesContent**: Flag per Contenuto variabile, il valore 1 implica true, il valore 0 implica false. Il valore predefinito è 0. Se lasci questa colonna vuota, il valore sarà considerato 0.
 * **locale**: locale è il campo per le varianti di lingua, ad esempio &quot;en_us&quot; per US-English e &quot;fr_fr&quot; per France-French.
-* **lingua**: nome della lingua associata alle impostazioni internazionali. Ad esempio, se l&#39;impostazione internazionale è &quot;en_us&quot;, il nome della lingua deve essere &quot;Inglese-Stati Uniti&quot;.
-* **silentPush**: flag per il tipo di notifica push. Se si tratta di una notifica push regolare, il valore deve essere 0. Se si tratta di un push silenzioso, il valore deve essere 1. Il valore predefinito è 0. Se lasciate vuota questa colonna, il valore sarà considerato 0.
+* **lingua**: nome della lingua associata alle impostazioni internazionali. Ad esempio, se l’impostazione internazionale è &quot;en_us&quot;, il nome della lingua deve essere &quot;Inglese-Stati Uniti&quot;.
+* **silenziosoPush**: Flag per il tipo di notifica push. Se si tratta di una notifica push regolare, il valore deve essere 0. Se si tratta di un push silenzioso, il valore deve essere 1. Il valore predefinito è 0. Se lasci questa colonna vuota, il valore sarà considerato 0.
 
-## Vincoli e Linee guida per la creazione di file CSV {#constraints-guideline-csv}
+## Vincoli e linee guida per la creazione di file CSV {#constraints-guideline-csv}
 
 **Il nome di ogni colonna è fisso**.
-Dovete includere il nome di ciascuna colonna nel file CSV, se non utilizzate colonne per il contenuto, lasciatelo vuoto.
+Inserisci il nome di ogni colonna nel file CSV se non utilizzi alcuna colonna per il contenuto, lascialo vuoto.
 
 **Le colonne &quot;locale&quot; e &quot;lingua&quot; sono obbligatorie e il valore è univoco per ogni riga.**
-Un valore vuoto per questa colonna causerà un errore nel caricamento del file.
+Un valore vuoto per questa colonna causerà un errore di caricamento del file.
 
 **L&#39;ordine delle colonne è importante**. L’ordine delle colonne nel file caricato deve seguire lo stesso formato del file di esempio.
 
-**Contenuto** della colonna Preventivo. Poiché si tratta di un file CSV (che sta per valori separati da virgole), qualsiasi contenuto di colonna che includa la virgola (,) deve essere citato. Per esempio, &quot;Ciao, Tom!&quot;
+**Contenuto della colonna del preventivo**. Dato che si tratta di un file CSV (che sta per Valori separati da virgole), qualsiasi contenuto di colonna che include la virgola (,) deve essere citato. Per esempio, &quot;Ciao, Tom!&quot;
 
 **La codifica UTF-8 è necessaria per i caratteri internazionali.**
 
-**Se generate il file in testo normale, separate ogni colonna per &quot;,&quot;.**
+**Se generi il file in testo normale, separa ogni colonna per &quot;,&quot;.**
 
-**Variante non corrispondente.** Se utilizzate audience di blocchi di contenuto e target con lingue specifiche, dovete elencare tutte le lingue di destinazione nel file CSV oppure ricevete un errore durante l&#39;invio della consegna.
+**Variante non corrispondente.** Se utilizzi blocchi di contenuto e tipi di pubblico per il targeting con lingue specifiche, devi elencare tutte le lingue di destinazione nel file CSV; in caso contrario si verifica un errore durante l’invio della consegna.
 
 ## Inserimento di un campo di personalizzazione nel file CSV {#personalization-field-csv}
 
-Se desiderate utilizzare i campi di personalizzazione, dovete includere nel file il tag <span>.
+Se desideri utilizzare i campi di personalizzazione, devi includere il tag <span> nel file .
 
 Per inserire il campo di personalizzazione &quot;firstName&quot; in messageBody, il messaggio deve essere:
 
@@ -82,11 +85,11 @@ Il campo &quot;firstName&quot; è rappresentato da:
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-Nell&#39;estensione sono presenti due attributi obbligatori:
+Nell’intervallo sono presenti due attributi obbligatori:
 
 * Una è la classe che è statica. Indipendentemente dal campo di personalizzazione che intendi utilizzare, sarà sempre class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Un altro è data-nl-expr che è il percorso del campo di personalizzazione. Ad esempio, se inserisci il campo di personalizzazione &quot;firstName&quot; dall&#39;interfaccia utente, il percorso di navigazione sarà **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (come illustrato nell&#39;immagine seguente). In questo caso, il percorso sarà
+* Un altro è data-nl-expr che è il percorso del campo di personalizzazione. Ad esempio, se inserisci il campo di personalizzazione &quot;firstName&quot; dall’interfaccia utente, il percorso di navigazione sarà **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (come illustrato nell’immagine seguente). In questo caso, il percorso sarà
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -94,14 +97,14 @@ Nell&#39;estensione sono presenti due attributi obbligatori:
 
 ![](assets/multilingual_push_2.png)
 
-## Nomi lingua e lingua {#locale-language-names}
+## Nomi internazionali e della lingua {#locale-language-names}
 
 Sono supportate le seguenti lingue:
 
 | locale | language |
 |:-:|:-:|
 | af_za | Afrikaans - Sudafrica |
-| sq_al | Albania |
+| sq_al | Albanese - Albania |
 | ar_dz | Arabo - Algeria |
 | ar_bh | Arabo - Bahrein |
 | ar_iq | Arabo - Iraq |
@@ -125,8 +128,8 @@ Sono supportate le seguenti lingue:
 | ca_es | Catalano - Spagna |
 | zh_cn | Cinese (semplificato) - Cina |
 | zh_sg | Cinese (semplificato) - Singapore |
-| zh_hk | Cinese (tradizionale) - Hong Kong (RAS) della Cina |
-| zh_tw | Cinese (tradizionale) - Taiwan |
+| zh_hk | Cinese (tradizionale) - Hong Kong RAS della Cina |
+| zh_tw | Cinese (tradizionale) - Taiwan regione |
 | hr_hr | Croato - Croazia |
 | cs_cz | Ceco - Ceca |
 | da_dk | Danese - Danimarca |
@@ -157,13 +160,13 @@ Sono supportate le seguenti lingue:
 | de_lu | Tedesco - Lussemburgo |
 | de_ch | Tedesco - Svizzera |
 | el_cy | Greco - Cipro |
-| el_gr | Grecia - Grecia |
+| el_gr | Greco - Grecia |
 | gu_in | Gujarati - India |
 | he_il | Ebraico - Israele |
 | hi_in | Hindi - India |
 | hu_hu | Ungherese - Ungheria |
 | is_is | Islandese - Islanda |
-| id_id | Indonesia |
+| id_id | Indonesiano - Indonesia |
 | it_it | Italiano - Italia |
 | it_ch | Italiano - Svizzera |
 | ja_jp | Giapponese - Giappone |
@@ -180,11 +183,11 @@ Sono supportate le seguenti lingue:
 | pt_br | Portoghese - Brasile |
 | pt_pt | Portoghese - Portogallo |
 | pa_in | Punjabi - India |
-| ro_md | Rumeno - Moldavia |
+| ro_md | Rumeno - Moldova |
 | ro_ro | Rumeno - Romania |
 | ru_kz | Russo - Kazakistan |
-| ru_ru | Russia |
-| ru_ua | Russia - Ucraina |
+| ru_ru | Russo - Russia |
+| ru_ua | Russo - Ucraina |
 | a_in | Sanscrito - India |
 | sr_ba | Serbo - Bosnia |
 | sr_rs | Serbo - Serbia |
@@ -213,10 +216,10 @@ Sono supportate le seguenti lingue:
 | sv_fi | Svedese - Finlandia |
 | sv_se | Svedese - Svezia |
 | ta_in | Tamil - India |
-| tt_ru | Tatar - Russo |
+| tt_ru | Tartaro - Russo |
 | te_in | Telugu - India |
-| th_th | Thai - Tailandia |
-| tr_cy | Turchia - Cipro |
+| th_th | Thai - Thailandia |
+| tr_cy | Turco - Cipro |
 | tr_tr | Turco - Turchia |
 | uk_ua | Ucraino - Ucraina |
 | ur_in | Urdu - India |
