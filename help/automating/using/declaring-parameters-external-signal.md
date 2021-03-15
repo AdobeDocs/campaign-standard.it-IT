@@ -6,26 +6,29 @@ description: Questa sezione descrive come chiamare un flusso di lavoro con param
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 5%
+source-wordcount: '112'
+ht-degree: 6%
 
 ---
 
 
 # Dichiarazione dei parametri nell&#39;attività del segnale esterno {#declaring-the-parameters-in-the-external-signal-activity}
 
-Il primo passo per chiamare un flusso di lavoro con i parametri è dichiararlo in un&#39;attività **[!UICONTROL External signal]**.
+Il primo passaggio per chiamare un flusso di lavoro con parametri consiste nel dichiararli in un’attività **[!UICONTROL External signal]** .
 
-1. Aprite l&#39;attività **[!UICONTROL External signal]**, quindi selezionate la scheda **[!UICONTROL Parameters]**.
-1. Fate clic sul pulsante **[!UICONTROL Create element]**, quindi specificate il nome e il tipo di ciascun parametro.
+1. Apri l’attività **[!UICONTROL External signal]**, quindi seleziona la scheda **[!UICONTROL Parameters]** .
+1. Fai clic sul pulsante **[!UICONTROL Create element]** , quindi specifica il nome e il tipo di ciascun parametro.
 
    >[!CAUTION]
    >
-   >Accertatevi che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (consultate [this page](../../automating/using/defining-parameters-calling-workflow.md)). Inoltre, i tipi di parametri devono essere coerenti con i valori previsti.
+   >Assicurati che il nome e il numero di parametri siano identici a quelli definiti durante la chiamata al flusso di lavoro (consulta [questa pagina](../../automating/using/defining-parameters-calling-workflow.md)). Inoltre, i tipi di parametri devono essere coerenti con i valori previsti.
 
    ![](assets/extsignal_declaringparameters_1.png)
 
-1. Una volta dichiarati i parametri, completate la configurazione del flusso di lavoro, quindi eseguitela.
+1. Una volta dichiarati i parametri, completa la configurazione del flusso di lavoro, quindi eseguiscila.
