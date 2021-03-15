@@ -5,10 +5,13 @@ title: DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
+feature: Modello dati
+role: Sviluppatore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '217'
 ht-degree: 6%
 
 ---
@@ -32,21 +35,21 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildIn</td>
-                  <td>Oggetto applicazione predefinito</td>
-                  <td>boolean </td>
+                  <td>incorporato</td>
+                  <td>Oggetto applicativo incorporato</td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
+                  <td>creato</td>
                   <td>Creato</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createBy (userBase)</td>
+                  <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,29 +73,29 @@ ht-degree: 6%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>cronologia</td>
-                  <td>Cronologia iscrizioni</td>
-                  <td>collection </td>
+                  <td>storia</td>
+                  <td>Storico sottoscrizioni</td>
+                  <td>raccolta </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>È una risorsa esterna</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>Modello</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etichetta</td>
                   <td>Etichetta</td>
                   <td>string (128)</td>
                   <td> </td>
@@ -106,7 +109,7 @@ ht-degree: 6%
                <tr>
                   <td>limitedDuration</td>
                   <td>Durata limitata</td>
-                  <td>boolean </td>
+                  <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
@@ -122,27 +125,27 @@ ht-degree: 6%
                   <td>
                      <ul>
                         <li>Mobile (SMS) - sms - 1</li>
-                        <li>Email - email - 0</li>
-                        <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
+                        <li>E-mail - 0</li>
+                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>mode</td>
+                  <td>modalità</td>
                   <td>Modalità</td>
                   <td>enumerazione (byte) </td>
                   <td>
                      <ul>
                         <li>Virale - virale - 1</li>
                         <li>Newsletter - Newsletter - 0</li>
-                        <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
+                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,12 +157,12 @@ ht-degree: 6%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>publicLabel</td>
-                  <td>Etichetta servizio</td>
+                  <td>Etichetta del servizio</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -171,14 +174,14 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>Pagina iniziale iscrizione</td>
-                  <td>link </td>
+                  <td>Pagina di destinazione dell’abbonamento</td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
-                  <td>Conferma iscrizione</td>
-                  <td>link </td>
+                  <td>Conferma abbonamento</td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -188,25 +191,25 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>iscrizioni</td>
-                  <td>Iscrizioni</td>
-                  <td>collection </td>
+                  <td>abbonamenti</td>
+                  <td>Abbonamenti</td>
+                  <td>raccolta </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetResource</td>
-                  <td>Dimensioni di targeting</td>
+                  <td>Dimensione di targeting</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>template (servizio)</td>
                   <td>Modello di servizio</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
+                  <td>miniatura</td>
                   <td>Miniatura</td>
                   <td>string (255)</td>
                   <td> </td>
@@ -219,14 +222,14 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>Annulla iscrizione, pagina di destinazione</td>
-                  <td>link </td>
+                  <td>Pagina di destinazione dell’annullamento dell’abbonamento</td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
-                  <td>Conferma annullamento sottoscrizione</td>
-                  <td>link </td>
+                  <td>Conferma dell’annullamento dell’abbonamento</td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -236,16 +239,16 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>validationDuration</td>
-                  <td>Durata validità</td>
-                  <td>number </td>
+                  <td>validDuration</td>
+                  <td>Durata della validità</td>
+                  <td>numero </td>
                   <td> </td>
                </tr>
             </table>
 
 ## Filtri
 
-Disponibile durante il periodo specificato (per pianificazione)
+Disponibile durante il periodo specificato (byPlanning)
 
 <table>
     <tr>
@@ -262,7 +265,7 @@ Disponibile durante il periodo specificato (per pianificazione)
     </tr>
 </table>
 
-Per tipo di canale (per canale)
+Per tipo di canale (byChannel)
 
 <table>
 <tr>
@@ -270,12 +273,12 @@ Per tipo di canale (per canale)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>channel</td>
+<td>canale</td>
 <td>enumerazione</td>
 </tr>
 </table>
 
-Per nome o etichetta (per testo)
+Per nome o etichetta (byText)
 
 <table>
 <tr>
@@ -288,7 +291,7 @@ Per nome o etichetta (per testo)
 </tr>
 </table>
 
-Per targeting della risorsa (perTargetResource)
+Tramite il targeting della risorsa (byTargetResource)
 
 <table>
 <tr>
