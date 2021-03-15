@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Messaggi aperti
-description: Con il rapporto Aperture, scopri quale consegna è stata più visualizzata in base ai vari criteri.
+description: Con il rapporto Aperture , scopri quale consegna è stata più visualizzata in base a vari criteri.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
+feature: Generazione rapporti
+role: Leader
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '67'
 ht-degree: 43%
 
 ---
@@ -22,7 +25,7 @@ Il rapporto **[!UICONTROL Opens]** individua le consegne con più visualizzazion
 
 ![](assets/delivery_reports_opens.png)
 
-Quattro tabelle e grafici descrivono il numero totale di destinatari che hanno aperto un messaggio e-mail in base a:
+Quattro tabelle e grafici suddividono il numero totale di destinatari che hanno aperto un’e-mail in base a:
 
 * Browser
 * Dispositivo
