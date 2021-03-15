@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Creazione di una richiesta di accesso a dati personali
-description: Informazioni su come creare una richiesta di privacy con le API
+description: Scopri come creare una richiesta di accesso a dati personali con API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 6%
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
 
@@ -19,26 +22,26 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->L&#39;integrazione di [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l&#39;utilizzo dell&#39;API e dell&#39;interfaccia di Campaign per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse dei Campaign Standard, fare riferimento a [questa pagina](../../rn/using/deprecated-features.md).
+>L’ [Integrazione di base del servizio Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) è il metodo da utilizzare per tutte le richieste di accesso e di cancellazione. A partire dalla versione 19.4, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse di Campaign Standard, consulta [questa pagina](../../rn/using/deprecated-features.md).
 
 Le richieste di privacy vengono create utilizzando una richiesta **POST**.
 
-Prima di creare le richieste, è necessario definire lo spazio nomi che verrà utilizzato. Per ulteriori informazioni, consultare la [Documentazione sulla gestione della privacy](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Prima di creare le richieste, devi definire lo spazio dei nomi da utilizzare. Per ulteriori informazioni, consulta la [documentazione sulla gestione della privacy](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 Il payload deve contenere i seguenti parametri:
 
-* **name**: un nome interno univoco
-* **namespace**: il nome dello spazio dei nomi configurato nell&#39;interfaccia Campaign Standard
+* **nome**: un nome interno univoco
+* **namespace**: nome dello spazio dei nomi configurato nell’interfaccia di Campaign Standard
 * **riconciliazioneValue**: il valore di riconciliazione basato sulla chiave di riconciliazione definita nello spazio dei nomi
-* **label**: l’etichetta della richiesta
-* **type**: il tipo di richiesta. I valori accettati sono &quot;access&quot; o &quot;delete&quot;.
-* **regolamento**: il tipo di regolazione. Esempio: &quot;GDPR&quot;, &quot;CCPA&quot;. Questo parametro è obbligatorio e disponibile a partire dalla versione Campaign Standard 19.4. Se siete su una build precedente, non è necessario aggiungerla al payload.
+* **etichetta**: l’etichetta della richiesta
+* **tipo**: il tipo di richiesta. I valori accettati sono &quot;access&quot; o &quot;delete&quot;.
+* **regolamento**: il tipo di regolamento. Esempio: &quot;RGPD&quot;, &quot;CCPA&quot;. Questo parametro è obbligatorio ed è disponibile a partire dalla versione 19.4 di Campaign Standard. Se utilizzi una build precedente, non è necessario aggiungerla al payload.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Questa richiesta POST crea una richiesta di privacy basata su una chiave di riconciliazione e-mail definita nello spazio dei nomi AMCDS2:
+Questa richiesta di POST crea una richiesta di accesso a dati personali basata su una chiave di riconciliazione e-mail definita nello spazio dei nomi AMCDS2:
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
