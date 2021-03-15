@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 89%
+source-wordcount: '332'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +27,7 @@ Il flusso di lavoro è costituito da:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* Un file che contiene un elenco di profili viene importato utilizzando un&#39;attività [Carica file](../../automating/using/load-file.md). In questo esempio, il file importato è in formato .csv e contiene 10 profili:
+* Un file che contiene un elenco di profili viene importato utilizzando un&#39;attività [Load file](../../automating/using/load-file.md) . In questo esempio, il file importato è in formato .csv e contiene 10 profili:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -44,13 +47,13 @@ Il flusso di lavoro è costituito da:
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* Attività [Deduplicazione](../../automating/using/deduplication.md). La deduplicazione viene eseguita direttamente dopo l’importazione del file e prima dell’inserimento dei dati nel database. Dovrebbe pertanto basarsi sulla **[!UICONTROL Temporary resource]** dell’attività **[!UICONTROL Load file]**.
+* Un&#39;attività [Deduplication](../../automating/using/deduplication.md). La deduplicazione viene eseguita direttamente dopo l’importazione del file e prima dell’inserimento dei dati nel database. Dovrebbe pertanto basarsi sulla **[!UICONTROL Temporary resource]** dell’attività **[!UICONTROL Load file]**.
 
    Per questo esempio, desideriamo conservare una singola voce per indirizzo e-mail univoco contenuto nel file. L’identificazione dei duplicati viene quindi eseguita nella colonna **e-mail** della risorsa temporanea. Tuttavia, due indirizzi e-mail vengono visualizzati due volte nel file. Due righe saranno pertanto considerate come duplicati.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* Un&#39;attività [Aggiorna dati](../../automating/using/update-data.md) consente di inserire nel database i dati conservati dal processo di deduplicazione. È solo quando i dati vengono aggiornati che i dati importati vengono identificati come appartenenti alla dimensione di profilo.
+* Un&#39;attività [Update data](../../automating/using/update-data.md) ti consente di inserire nel database i dati conservati dal processo di deduplicazione. È solo quando i dati vengono aggiornati che i dati importati vengono identificati come appartenenti alla dimensione di profilo.
 
    A questo punto, desideriamo **[!UICONTROL Insert only]** i profili che non esistono già nel database. A tal fine, utilizzeremo la colonna e-mail del file e il campo e-mail dalla dimensione di **Profilo** come chiave di riconciliazione.
 
