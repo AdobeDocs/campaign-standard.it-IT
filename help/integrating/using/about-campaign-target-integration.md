@@ -2,29 +2,32 @@
 solution: Campaign Standard
 product: campaign
 title: Informazioni sull’integrazione di Campaign-Target
-description: Con l'integrazione  Adobe Target, potete inserire nei messaggi Adobe Campaign  immagini dinamiche generate da  Adobe Target.
+description: Con l’integrazione di Adobe Target, puoi inserire nei messaggi Adobe Campaign immagini dinamiche generate da Adobe Target.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
+feature: Triggers
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 9%
+source-wordcount: '170'
+ht-degree: 8%
 
 ---
 
 
 # Informazioni sull’integrazione di Campaign-Target{#about-campaign-target-integration}
 
-L’integrazione tra  Adobe Campaign e  Adobe Target (Classic e Standard) in Adobe Experience Cloud consente di inserire un’immagine dinamica da  Adobe Target in un  invio di e-mail Adobe Campaign.
+L’integrazione tra Adobe Campaign e Adobe Target (Classic e Standard) in Adobe Experience Cloud consente di inserire un’immagine dinamica da Adobe Target in una consegna e-mail Adobe Campaign.
 
-Questa integrazione consente ai destinatari di ricevere e-mail inviate tramite  Adobe Campaign, inclusa una versione dinamica dei contenuti, grazie  Adobe Target. Questa versione dinamica viene calcolata in base alle regole specificate in precedenza durante la creazione dell’e-mail.
+Questa integrazione consente al destinatario di ricevere e-mail inviate tramite Adobe Campaign, inclusa una versione dinamica del contenuto, grazie ad Adobe Target. Questa versione dinamica viene calcolata a seconda delle regole precedentemente specificate durante la creazione dell’e-mail.
 
-Diversi tipi di dati possono essere utilizzati da  Adobe Target:
+Adobe Target può utilizzare diversi tipi di dati:
 
-* Dati dal datamart Adobe Campaign 
-* Segmenti collegati all’ID visitatore in  Adobe Target, se i dati utilizzati non sono soggetti a limitazioni legali
-*  dati Adobe Target: agente utente, indirizzo IP, dati di geolocalizzazione
+* Dati dal data mart di Adobe Campaign
+* Segmenti collegati all’ID visitatore in Adobe Target, se i dati utilizzati non sono soggetti a limitazioni legali
+* Dati Adobe Target: agente utente, indirizzo IP, dati di geolocalizzazione
 
-Per ulteriori informazioni sull&#39;integrazione tra  Adobe Campaign e  Adobe Target, è inoltre possibile fare riferimento a [ Adobe Target Portal](https://docs.adobe.com/content/help/it-IT/target/using/integrate/campaign-and-target.html).
+Per ulteriori informazioni sull&#39;integrazione tra Adobe Campaign e Adobe Target, puoi anche fare riferimento al [portale Adobe Target](https://docs.adobe.com/content/help/it-IT/target/using/integrate/campaign-and-target.html).
