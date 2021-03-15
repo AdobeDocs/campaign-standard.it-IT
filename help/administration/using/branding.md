@@ -7,10 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
+feature: Impostazioni delle istanze
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1254'
 ht-degree: 80%
 
 ---
@@ -28,7 +31,7 @@ Gli amministratori tecnici possono definire uno o più brand per immettere in mo
 
 Il principio fondamentale della configurazione e dell’utilizzo dei brand è:
 
-1. Crea e configura il brand: questa operazione richiede autorizzazioni specifiche e viene eseguita dall’amministratore tecnico di Adobe Campaign. I passaggi per ottenere un nuovo marchio in Campaign sono descritti [in questa sezione](#creating-a-brand).
+1. Crea e configura il brand: questa operazione richiede autorizzazioni specifiche e viene eseguita dall’amministratore tecnico di Adobe Campaign. I passaggi per ottenere un nuovo marchio in Campaign sono descritti in [in questa sezione](#creating-a-brand).
 1. Crea uno o più modelli di consegna e pagine di destinazione per questo brand. Fai riferimento alla sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md).
 1. Crea messaggi e pagine di destinazione in base a questo modello. Consulta le sezioni [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md) e [Creazione di una pagina di destinazione](../../channels/using/designing-a-landing-page.md).
 
@@ -87,23 +90,23 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 ## Creazione di un nuovo marchio {#creating-a-brand}
 
-Puoi aggiungere nuove entità dell&#39;organizzazione in Campaign, oppure creare un nuovo tipo di e-mail da inviare con un sottodominio diverso. Per eseguire questa operazione, procedere come segue:
+Puoi aggiungere nuove entità dell’organizzazione in Campaign o creare un nuovo tipo di e-mail da inviare con un sottodominio diverso. Per eseguire questa operazione, effettua le seguenti operazioni:
 
-1. **Configura un nuovo sottodominio** : per ogni nuovo sottodominio che deve essere utilizzato da  Adobe, il primo passaggio consiste nel configurarlo. È possibile eseguire questa operazione tramite [Pannello di controllo Campaign campagna](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html) o contattare il contatto tecnico  Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
+1. **Configura un nuovo sottodominio** : per qualsiasi nuovo sottodominio da utilizzare come Adobe, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign campagna](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html) o rivolgiti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
 
-1. **Crea un ticket** : una volta configurato il sottodominio,  Adobe dovrà configurarlo nell&#39;ambiente di produzione. Per richiedere questo, [crea un ticket per Client Care](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
+1. **Crea un ticket** : una volta configurato il sottodominio, Adobe dovrà configurarlo nell’ambiente di produzione. Per richiedere questo, [crea un ticket per l&#39;assistenza clienti](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
 
-   * Oggetto: ACS Nuova configurazione del marchio
+   * Oggetto: ACS Nuova configurazione del brand
 
-   * Contenuto: È stato configurato un nuovo dominio e vorremmo installarlo nella piattaforma Campaign
+   * Contenuto: È stato configurato un nuovo dominio e vorremmo configurarlo nella nostra piattaforma Campaign
 
    * Dominio: XXX
 
-   * URL produzione: XXX.campaign.adobe.com
+   * URL di produzione: XXX.campaign.adobe.com
 
-1. **Crea un modello**  di consegna: una volta che il nuovo marchio è disponibile, è consigliabile creare almeno un nuovo modello di consegna vuoto che faccia riferimento a questo nuovo marchio. [Ulteriori informazioni](#linking-a-brand-to-a-template).
+1. **Crea un modello di consegna** : una volta disponibile il nuovo marchio, la best practice prevede la creazione di almeno un nuovo modello di consegna vuoto che faccia riferimento a questo nuovo marchio. [Ulteriori informazioni](#linking-a-brand-to-a-template).
 
-1. **Controlla le linee guida**  sulla recapito- Prima di iniziare a utilizzare il nuovo dominio, la strategia deve essere discussa con  team di recapito del Adobe. Essi aiuteranno a definire le procedure ottimali, se è necessario creare una nuova affinità per suddividere gli IP tra domini, ad esempio, e/o se è necessario definire un piano di espansione. Ulteriori informazioni sulle procedure ottimali di recapito [in questa sezione](../../sending/using/about-deliverability.md).
+1. **Controlla le linee guida per il recapito messaggi**  - Prima di iniziare a utilizzare il nuovo dominio, la strategia deve essere discussa con il team Adobe Deliverability. Aiuteranno a definire le best practice, se è necessario creare una nuova affinità per dividere gli IP tra domini, ad esempio, e/o se è necessario definire un piano di espansione. Ulteriori informazioni sulle best practice per il recapito messaggi [in questa sezione](../../sending/using/about-deliverability.md).
 
 ## Assegnazione di un brand a un’e-mail {#assigning-a-brand-to-an-email}
 
