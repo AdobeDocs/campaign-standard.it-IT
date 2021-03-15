@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '571'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +39,7 @@ Durante la deduplicazione, le transizioni in entrata vengono elaborate separatam
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: Identificazione di duplicati prima della consegna](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Caso di utilizzo: Identificazione di duplicati prima di una consegna](../../automating/using/identifying-duplicated-before-delivery.md)
 * [Caso di utilizzo: Deduplicazione dei dati da un file importato](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Configurazione {#configuration}
