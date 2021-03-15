@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Ciclo di vita dei messaggi transazionali
-description: Scopri come pubblicare, mettere in pausa, annullare la pubblicazione ed eliminare un messaggio transazionale.
+description: Scopri come pubblicare, mettere in pausa, annullare la pubblicazione ed eliminare un messaggio sulle transazioni.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: Messaggistica transazionale
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 76%
+source-wordcount: '656'
+ht-degree: 75%
 
 ---
 
@@ -20,21 +23,21 @@ ht-degree: 76%
 
 Quando il [messaggio transazionale](../../channels/using/editing-transactional-message.md) è pronto per essere inviato, può essere pubblicato.
 
-I passaggi per pubblicare, mettere in pausa, annullare la pubblicazione ed eliminare un messaggio transazionale sono descritti di seguito.
+Di seguito sono descritti i passaggi per pubblicare, mettere in pausa, annullare la pubblicazione ed eliminare un messaggio sulle transazioni.
 
 >[!IMPORTANT]
 >
->Solo gli utenti con il ruolo [Amministrazione](../../administration/using/users-management.md#functional-administrators) possono accedere ai messaggi transazionali e pubblicarli.
+>Solo gli utenti con il ruolo [Amministrazione](../../administration/using/users-management.md#functional-administrators) possono accedere e pubblicare messaggi transazionali.
 
 ## Processo di pubblicazione della messaggistica transazionale {#transactional-messaging-pub-process}
 
-Il grafico seguente illustra il processo complessivo di pubblicazione dei messaggi transazionali.
+Il grafico seguente illustra il processo complessivo di pubblicazione della messaggistica transazionale.
 
 ![](assets/message-center_pub-process.png)
 
 **Argomenti correlati:**
 * [Pubblicazione di un messaggio sulle transazioni](#publishing-a-transactional-message)
-* [Sospensione di un messaggio transazionale](#suspending-a-transactional-message-publication)
+* [Sospensione di un messaggio sulle transazioni](#suspending-a-transactional-message-publication)
 * [Annullamento della pubblicazione di un messaggio sulle transazioni](#unpublishing-a-transactional-message)
 * [Pubblicazione di un evento](../../channels/using/publishing-transactional-event.md)
 
@@ -88,26 +91,26 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## Pubblicazione di un messaggio sulle transazioni {#publishing-a-transactional-message}
 
-Dopo aver modificato e verificato il messaggio transazionale, puoi pubblicarlo. È sufficiente fare clic sul pulsante **[!UICONTROL Publish]**.
+Dopo aver modificato e verificato il messaggio sulle transazioni, puoi pubblicarlo. Fai clic sul pulsante **[!UICONTROL Publish]** .
 
 ![](assets/message-center_12.png)
 
 Ora, non appena si attiva l’evento &quot;Abbandono carrello&quot;, viene visualizzato automaticamente un messaggio contenente il titolo e il cognome del destinatario, l’URL del carrello, l’ultimo prodotto visionato o un elenco di prodotti, se definito, e l’importo totale del carrello da inviare.
 
-Per accedere ai rapporti relativi al messaggio sulle transazioni, usa il pulsante **[!UICONTROL Reports]**. Vedere [Report dinamici](../../reporting/using/about-dynamic-reports.md).
+Per accedere ai rapporti relativi al messaggio sulle transazioni, usa il pulsante **[!UICONTROL Reports]**. Consulta [Rapporti dinamici](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
 **Argomenti correlati**:
 * [Modifica di un messaggio transazionale](../../channels/using/editing-transactional-message.md)
 * [Verifica di un messaggio transazionale](../../channels/using/testing-transactional-message.md)
-* [Integrare l&#39;attivazione dell&#39;evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [Integrare l’attivazione dell’evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Sospensione di una pubblicazione di un messaggio sulle transazioni {#suspending-a-transactional-message-publication}
 
 Puoi sospendere la pubblicazione del messaggio sulle transazioni utilizzando, ad esempio, il pulsante **[!UICONTROL Pause]** per la modifica dei dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database di Adobe Campaign.
 
-Gli eventi in coda vengono conservati durante un periodo di tempo definito nell&#39;API REST (vedere la [documentazione REST API](../../api/using/managing-transactional-messages.md)) o nell&#39;evento trigger se si utilizza il servizio di base Triggers (vedere [Informazioni su  Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Gli eventi in coda vengono conservati durante un periodo di tempo definito nell’API REST (consulta la [documentazione REST API](../../api/using/managing-transactional-messages.md)) o nell’evento trigger, se utilizzi il servizio core Triggers (consulta [Informazioni su Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +126,7 @@ Adesso, anche se l’evento viene attivato nel sito web, i messaggi corrisponden
 
 >[!NOTE]
 >
->Per pubblicare di nuovo il messaggio, è necessario tornare alla configurazione dell&#39;evento corrispondente, [pubblicare l&#39;evento](../../channels/using/publishing-transactional-event.md), quindi [pubblicare il messaggio](#publishing-a-transactional-message).
+>Per pubblicare nuovamente il messaggio, devi tornare alla configurazione dell&#39;evento corrispondente, [pubblicare l&#39;evento](../../channels/using/publishing-transactional-event.md), quindi [pubblicare il messaggio](#publishing-a-transactional-message).
 
 Se annulli la pubblicazione di un messaggio sulle transazioni in sospensione, potresti dover attendere fino a 24 ore prima di poterlo pubblicare nuovamente. In questo modo, il flusso di lavoro **[!UICONTROL Database cleanup]** eliminerà tutti gli eventi inviati alla coda.
 
