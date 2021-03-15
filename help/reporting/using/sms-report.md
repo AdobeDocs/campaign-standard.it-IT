@@ -2,28 +2,31 @@
 solution: Campaign Standard
 product: campaign
 title: Report SMS
-description: 'Con il report out-of-the-box SMS, scopri il successo delle tue consegne di SMS. '
+description: 'Con il rapporto predefinito SMS , scopri il successo delle consegne SMS. '
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
+feature: Generazione rapporti
+role: Leader
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 5%
+source-wordcount: '76'
+ht-degree: 6%
 
 ---
 
 
 # Report SMS{#sms-report}
 
-Il rapporto **SMS** fornisce informazioni dettagliate sulle consegne di SMS, come le consegne e i tassi di rimbalzo.
+Il rapporto **SMS** fornisce dettagli sulle consegne SMS, ad esempio consegne e tassi non recapitati.
 
 ![](assets/dynamic_report_sms.png)
 
-La tabella **SMS summary**, i grafici e i numeri di riepilogo contengono i dati disponibili per le consegne di SMS che sono state inviate.
+La tabella **Riepilogo SMS**, i grafici e i numeri di riepilogo contengono i dati disponibili per le consegne SMS inviate.
 
 * **Elaborato/inviato**: Numero di SMS inviati.
 * **Consegnato**: Numero di SMS inviati.
-* **Punti + Errori**: Numero di messaggi che non è stato possibile recapitare.
+* **Rimbalzi + errori**: Numero di messaggi che non è stato possibile recapitare.
 
