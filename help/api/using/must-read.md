@@ -2,36 +2,39 @@
 solution: Campaign Standard
 product: campaign
 title: Must-read
-description: Deve essere letto prima di utilizzare le API.
+description: Must-read prima di utilizzare le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# must-read {#must-read}
+# Must-Read {#must-read}
 
 ## Requisiti tecnici
 
-*  le API Adobe Campaign devono essere utilizzate solo da Server a Server.
-* Controllate sempre con il vostro contatto tecnico  Adobe se il caso di utilizzo che desiderate implementare è allineato con la scala consentita dalle API Adobe Campaign .
-* La configurazione di un accesso AdobeIO richiede autorizzazioni specifiche. Per qualsiasi problema, contattate il supporto del Adobe .
+* Le API di Adobe Campaign devono essere utilizzate solo da Server a Server.
+* Controlla sempre con il tuo contatto tecnico Adobe se il caso d’uso che desideri implementare è allineato con la scala consentita dalle API Adobe Campaign.
+* L&#39;impostazione di un accesso AdobeIO richiede autorizzazioni specifiche. Per qualsiasi problema, contatta il supporto Adobe.
 
-## Rappresentazioni delle risorse
+## Rappresentanza delle risorse
 
-Tutte le risorse API sono disponibili in **JSON** con un&#39;estensione URL o all&#39;interno di un&#39;intestazione di accettazione HTTP:
+Tutte le risorse API sono disponibili in **JSON** con estensione URL o all&#39;interno di un&#39;intestazione HTTP Accept:
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->Senza estensione nell&#39;URL, il formato **json è il formato predefinito** per il tipo di contenuto.
+>Senza estensione nell&#39;URL, il formato **json è quello predefinito** per il tipo di contenuto.
 
 <br/>
 
@@ -45,29 +48,29 @@ Tutte le risorse API sono disponibili in **JSON** con un&#39;estensione URL o al
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-## Chiave primaria e URL
+## Chiave principale e URL
 
-* Non cercate di creare un URL da soli. Tutti gli URL vengono restituiti dall&#39;API. Tuttavia, è possibile creare un URL basato sul nome della risorsa di livello principale.
+* Non cercare di generare un URL da solo. Tutti gli URL vengono restituiti dall’API. Tuttavia, è possibile creare un URL basato sul nome della risorsa di livello principale.
 
-* I valori della chiave primaria automatica (PKey) che illustrano gli esempi non sono destinati a funzionare in un&#39;altra distribuzione specifica. Vengono prodotti dall&#39;API Adobe Campaign .
+* I valori della chiave primaria automatica (PKey) che illustrano gli esempi non sono destinati a funzionare in un&#39;altra implementazione specifica. Sono prodotti dall’API Adobe Campaign.
 
-* I valori di chiave primaria automatica generati da  Adobe Campaign non devono mai essere memorizzati in un database o in un sito Web esterno. È necessario generare campi chiave specifici nella definizione del database e utilizzarli durante gli sviluppi.
+* I valori della chiave primaria automatica generati da Adobe Campaign non devono mai essere memorizzati in un database o un sito Web esterno. È necessario generare campi chiave specifici nella definizione del database e utilizzarli durante gli sviluppi.
 
 ## Tasti personalizzati {#custom-keys}
 
-Se la risorsa del profilo è stata estesa con un campo chiave personalizzato, è possibile utilizzare questo campo come chiave invece della chiave primaria automatica generata da  Adobe Campaign:
+Se la risorsa profilo è stata estesa con un campo chiave personalizzato, puoi utilizzare questo campo come chiave invece della chiave primaria automatica generata da Adobe Campaign:
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-Le chiavi personalizzate non possono essere modificate utilizzando un&#39;operazione PATCH se il valore della chiave è diverso dalla chiave di origine o se si utilizza la propria chiave business come URI invece di quella fornita dal Adobe .
+Non è possibile modificare le chiavi personalizzate utilizzando un’operazione PATCH se il valore della chiave è diverso dalla chiave di origine o se si utilizza la chiave business personalizzata come URI invece di quella fornita dall’Adobe.
 
-Utilizzate una chiave personalizzata solo per **risorse di profilo di livello principale**. Gli URL vengono restituiti dall&#39;API e non devono mai essere generati dall&#39;utente stesso.
+Utilizza una chiave personalizzata solo per **risorse di profilo di primo livello** . Gli URL vengono restituiti dall’API e non devono mai essere generati da te stesso.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Per recuperare le sottoscrizioni per un profilo utilizzando una chiave personalizzata, eseguite un&#39;operazione sulla chiave personalizzata.
+Per recuperare le sottoscrizioni per un profilo utilizzando una chiave personalizzata, esegui un’operazione di GET sulla chiave personalizzata.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
@@ -77,7 +80,7 @@ Per recuperare le sottoscrizioni per un profilo utilizzando una chiave personali
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Eseguite una richiesta di GET sull&#39;URL delle sottoscrizioni restituito.
+Esegui una richiesta di GET sull&#39;URL degli abbonamenti restituito.
 
 ```
 -X GET <SUBSCRIPTION_URL> \
@@ -87,7 +90,7 @@ Eseguite una richiesta di GET sull&#39;URL delle sottoscrizioni restituito.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l&#39;elenco delle sottoscrizioni per il profilo.
+Restituisce l’elenco delle sottoscrizioni per il profilo.
 
 ```
 "service": {
