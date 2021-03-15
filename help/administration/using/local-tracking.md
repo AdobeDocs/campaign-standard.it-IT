@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Implementazione del tracciamento push
-description: Questo documento consente di garantire che il tracciamento delle notifiche push sia stato implementato correttamente su iOS e Android.
+description: Questo documento ti consente di garantire che il tracciamento delle notifiche push sia stato implementato correttamente su iOS e Android.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Impostazioni delle istanze
+role: Amministratore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -20,19 +23,19 @@ ht-degree: 0%
 
 ## Informazioni sul tracciamento locale {#about-local-tracking}
 
-In questa pagina, scopri come garantire che il tracciamento delle notifiche locali sia stato implementato correttamente. Questo implica che la notifica locale è già stata configurata.
+In questa pagina, scopri come garantire che il tracciamento delle notifiche locali sia stato implementato correttamente. Tieni presente che ciò implica che la notifica locale è già stata configurata.
 
 Il tracciamento delle notifiche locali può essere suddiviso in tre tipi:
 
-* **Impressioni**  locali - Quando una notifica locale è stata inviata al dispositivo e si trova sul centro di notifica, ma non è stata toccata per nulla. Nella maggior parte dei casi, il numero di impression deve essere simile a quello distribuito. Garantisce che il dispositivo abbia ricevuto il messaggio e ritrasmetta tali informazioni al server.
+* **Impressioni locali**  - Quando una notifica locale viene recapitata al dispositivo ed è situata nel centro notifiche, ma non è stata toccata per nulla. Nella maggior parte dei casi, il numero di impression deve essere simile a quello fornito. In questo modo il dispositivo riceve il messaggio e restituisce tali informazioni al server.
 
-* **Clic**  locale - Quando una notifica locale viene inviata al dispositivo e l&#39;utente fa clic sul dispositivo. L&#39;utente voleva visualizzare la notifica (che a sua volta si sposterà al tracciamento aperto locale) o chiudere la notifica.
+* **Clic locale** : quando una notifica locale viene recapitata al dispositivo e l’utente fa clic su di esso. L’utente voleva visualizzare la notifica (che a sua volta passerà al tracciamento aperto locale) o ignorare la notifica.
 
-* **Apertura**  locale: evento di notifica locale inviato al dispositivo e in cui l&#39;utente ha fatto clic sulla notifica che causa l&#39;apertura dell&#39;applicazione. Questo è simile al clic locale, ma se la notifica è stata chiusa, non verrà attivata alcuna apertura locale.
+* **Apertura locale** : evento di consegna di una notifica locale al dispositivo e dopo che l’utente ha fatto clic sulla notifica che causa l’apertura dell’applicazione. È simile al clic locale, ma se la notifica è stata rifiutata non verrà attivata un’apertura locale.
 
-Per implementare il tracciamento per  Adobe Campaign Standard, l’applicazione mobile deve includere Mobile SDK nell’applicazione. Questi SDK sono disponibili in [!DNL Adobe Mobile Services].
+Per implementare il tracciamento per Adobe Campaign Standard, l’app mobile deve includere Mobile SDK nell’applicazione. Questi SDK sono disponibili in [!DNL Adobe Mobile Services].
 
-Per inviare le informazioni di tracciamento, è necessario inviare tre variabili: due fanno parte dei dati ricevuti da  Adobe Campaign e l&#39;altra è una variabile di azione che specifica se si tratta di un&#39;impressione, di un clic o di un&#39;apertura.
+Per inviare le informazioni di tracciamento, sono necessarie tre variabili: due sono parte dei dati ricevuti da Adobe Campaign e l’altro è una variabile di azione che determina se si tratta di un’impression, un clic o un’apertura.
 
 | Variabile | Valore |
 | :-: | :-: |
@@ -40,45 +43,45 @@ Per inviare le informazioni di tracciamento, è necessario inviare tre variabili
 | broadlogId | &quot;broadlogId&quot; dai dati in arrivo (simile al tracciamento push in cui viene utilizzato &quot;_mld&quot;) |
 | action | &quot;1&quot; per Open, &quot;2&quot; per Click e &quot;7&quot; per Impression |
 
-## Implementazione del tracciamento dell&#39;impression locale {#implement-local-impression-tracking}
+## Implementazione del tracciamento locale delle impression {#implement-local-impression-tracking}
 
-Per il tracciamento delle impressioni, è necessario inviare il valore &quot;7&quot; per l&#39;azione quando si chiamano le funzioni collectMessageInfo() o trackAction().
+Per il tracciamento delle impression, devi inviare il valore &quot;7&quot; per l’azione quando chiami le funzioni collectMessageInfo() o trackAction() .
 
 ### Per Android {#implement-local-impression-tracking-android}
 
-L’SDK di Adobe Experience Platform Mobile avvia il tracciamento dell’impressione per la notifica locale quando viene attivata.
+L&#39;SDK di Adobe Experience Platform Mobile avvia il tracciamento delle impression per le notifiche locali quando vengono attivate.
 
 ### Per iOS {#implement-local-impression-tracking-ios}
 
-Per spiegare come implementare il tracciamento dell&#39;impressione, dobbiamo comprendere i tre stati di un&#39;applicazione:
+Per spiegare come implementare il tracciamento delle impression, è necessario comprendere i tre stati di un’applicazione:
 
 * **Primo piano**: quando l&#39;applicazione è attualmente attiva e sullo schermo in primo piano.
 
-* **Sfondo**: quando l&#39;applicazione non è visualizzata sullo schermo ma il processo non è chiuso. Quando si fa doppio clic sul pulsante Home, in genere vengono visualizzate tutte le applicazioni in background.
+* **Contesto**: quando l&#39;applicazione non è visualizzata sullo schermo ma il processo non è chiuso. Quando si fa doppio clic sul pulsante Home, in genere vengono visualizzate tutte le applicazioni in background.
 
-* **Disattivato/Chiuso**: quando il processo dell&#39;applicazione è stato eliminato. Se un&#39;applicazione viene chiusa, Apple non la chiamerà fino al riavvio dell&#39;applicazione. Ciò significa che non potrai mai sapere con certezza quando la notifica è stata ricevuta su iOS.
+* **Off/Closed**: quando il processo dell&#39;applicazione è stato interrotto. Se un&#39;applicazione viene chiusa, Apple non la chiamerà fino al riavvio dell&#39;applicazione. Questo significa che non puoi mai sapere quando la notifica è stata ricevuta su iOS.
 
-Per avere un monitoraggio delle impression ancora funzionante mentre l&#39;applicazione è in background, è necessario inviare &quot;Content-Available&quot; per far sapere all&#39;applicazione che il tracciamento deve essere fatto.
+Per far sì che il tracciamento delle impression funzioni ancora mentre l’applicazione è in background, è necessario inviare &quot;Contenuto disponibile&quot; per informare l’applicazione che è necessario eseguire il tracciamento.
 
-L’SDK di Adobe Experience Platform Mobile avvia il tracciamento dell’impressione per la notifica locale quando viene attivata.
+L&#39;SDK di Adobe Experience Platform Mobile avvia il tracciamento delle impression per le notifiche locali quando vengono attivate.
 
 >[!CAUTION]
 >
->Il tracciamento delle impressioni iOS non è accurato e non deve essere considerato affidabile.
+>Il tracciamento delle impression iOS non è accurato e non deve essere esaminato in modo affidabile.
 
-## Implementazione del monitoraggio dei clic {#implementing-click-tracking}
+## Implementazione del tracciamento dei clic {#implementing-click-tracking}
 
-Per il monitoraggio dei clic, è necessario inviare il valore &quot;2&quot; per l&#39;azione quando si chiamano le funzioni collectMessageInfo() o trackAction().
+Per il tracciamento dei clic, devi inviare il valore &quot;2&quot; per l’azione quando chiami le funzioni collectMessageInfo() o trackAction() .
 
 ### Per Android {#implement-click-tracking-android}
 
-Per tenere traccia del clic, è necessario gestire due scenari:
+Per tenere traccia dei clic, è necessario gestire due scenari:
 
 * L’utente visualizza la notifica ma la cancella.
 
-* L&#39;utente visualizza la notifica e fa clic su di essa, per attivare un tracciamento aperto.
+* L’utente visualizza la notifica e fa clic su di essa, per attivare un tracciamento aperto.
 
-Il primo scenario di clic viene tracciato dall’SDK di Adobe Experience Platform Mobile.
+Il primo scenario di clic è tracciato dall’SDK di Adobe Experience Platform Mobile.
 
 ### Per iOS {#implement-click-tracking-ios}
 
@@ -117,7 +120,7 @@ func registerForPushNotifications() {
     }
 ```
 
-Quindi per gestire la chiusura e inviare le informazioni di tracciamento, devi aggiungere quanto segue:
+Quindi, per gestire la chiusura e inviare un’informazione di tracciamento, devi aggiungere quanto segue:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -142,13 +145,13 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 ## Implementazione del tracciamento aperto {#implement-open-tracking}
 
-È necessario inviare &quot;1&quot; e &quot;2&quot; perché l&#39;utente deve fare clic sulla notifica per aprire l&#39;applicazione. Se l’applicazione non viene avviata/aperta tramite notifica locale, non si verificano eventi di tracciamento.
+Devi inviare &quot;1&quot; e &quot;2&quot; perché l&#39;utente deve fare clic sulla notifica per aprire l&#39;applicazione. Se l&#39;applicazione non viene avviata/aperta tramite notifica locale, non si verificano eventi di tracciamento.
 
 ### Per Android {#implement-open-tracking-android}
 
-Per tenere traccia dell&#39;apertura, è necessario creare un intento. Gli oggetti Intent consentono ad Android OS di chiamare il metodo al termine di determinate azioni, in questo caso facendo clic sulla notifica per aprire l&#39;app.
+Per tenere traccia dell&#39;apertura, è necessario creare un intento. Gli oggetti Intent consentono ad Android OS di chiamare il metodo al termine di determinate azioni, in questo caso facendo clic sulla notifica per aprire l’app.
 
-Questo codice è basato sull’implementazione del monitoraggio delle impression dei clic. Con l’intento impostato, ora devi inviare nuovamente le informazioni di tracciamento a  Adobe Campaign. In questo caso, la visualizzazione Android([!DNL Activity]) che ha attivato la notifica verrà aperta o portata in primo piano come risultato del clic dell&#39;utente. L&#39;oggetto intento in [!DNL Activity] contiene i dati di notifica che possono essere utilizzati per tenere traccia dell&#39;apertura.
+Questo codice si basa sull’implementazione del tracciamento delle impression dei clic. Con l’impostazione dell’intento, ora devi inviare nuovamente le informazioni di tracciamento ad Adobe Campaign. In questo caso, la visualizzazione Android([!DNL Activity]) che ha attivato la notifica verrà aperta o portata in primo piano come risultato del clic dell&#39;utente. L&#39;oggetto intento in [!DNL Activity] contiene i dati di notifica che possono essere utilizzati per tenere traccia dell&#39;apertura.
 
 MainActivity.java (estende [!DNL Activity])
 
