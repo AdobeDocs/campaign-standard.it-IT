@@ -8,10 +8,13 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
+feature: Panoramica
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2591'
 ht-degree: 84%
 
 ---
@@ -19,18 +22,18 @@ ht-degree: 84%
 
 # Note sulla versione anticipate {#new-release}
 
-[Release Planning](../../rn/using/release-planning.md) | Rilasci [ ](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) Pannello di controllo Campaign| Aggiornamenti [ della ](../../rn/using/documentation-updates.md) documentazione|  [Ultime Note](../../rn/using/release-notes.md)  sulla versione|  [Funzioni obsolete](../../rn/using/deprecated-features.md)
+[Pianificazione del rilascio](../../rn/using/release-planning.md)  | Versioni  [del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html)  | Aggiornamenti alla  [documentazione](../../rn/using/documentation-updates.md)  |  [Note sulla versione più recenti](../../rn/using/release-notes.md)  | Funzioni  [obsolete](../../rn/using/deprecated-features.md)
 
-Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella prossima release Campaign Standard.
+Questa pagina descrive nuove funzioni, miglioramenti e correzioni inclusi nella prossima versione di Campaign Standard.
 
 >[!CAUTION]
 >
-> Questo contenuto è soggetto a modifiche senza preavviso fino alla data di aggiornamento degli ambienti dello stadio. Ulteriori informazioni sono disponibili nella pagina di [pianificazione del rilascio](../../rn/using/release-planning.md).
+> Questo contenuto è soggetto a modifiche senza preavviso fino alla data di aggiornamento degli ambienti di stage. Ulteriori informazioni sono disponibili nella [pagina di pianificazione del rilascio](../../rn/using/release-planning.md).
 
 
-## Release 21.1 - Febbraio 2021{#release-21-1---febuary-2021}
+## Versione 21.1 - febbraio 2021 {#release-21-1---febuary-2021}
 
-**Scopri le novità**
+**Novità**
 
 <table> 
 <thead> 
@@ -41,13 +44,13 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 <tbody> 
 <tr> 
 <td>
-<p>Il servizio EFS (Email Feedback Service) è un servizio scalabile che migliora l'accuratezza dei report acquisendo i commenti e-mail direttamente dall'MTA avanzato.</p>
+<p>E-mail Feedback Service (EFS) è un servizio scalabile che migliora l’accuratezza dei rapporti catturando i feedback e-mail direttamente dall’MTA avanzato.</p>
 <ul>
-<li>Vengono acquisite tutte le categorie di eventi: Ritardi, Consegnati, Da Inviare, Annullare l’iscrizione (Link, List), Feedback (Spam lamentes, asincrone Events).</li>
-<li>Il calcolo degli indicatori Inviati/Consegnati ora si basa sul feedback in tempo reale dell'MTA Enhanced per migliorare la precisione e la reattività.</li>
-<li>EFS risolve il problema dei ritardi di segnalazione dei rimbalzi sincroni e rimuove l'80% del carico dal processo inMail.</li>
+<li>Vengono acquisite tutte le categorie di eventi: Ritardi, Consegnati, Da Inviare, Annulla sottoscrizione (Link, Elenco), Feedback (reclami Spam, eventi asincroni).</li>
+<li>Il calcolo degli indicatori inviati/consegnati si basa ora sul feedback in tempo reale dell’MTA avanzato per una maggiore precisione e reattività.</li>
+<li>EFS risolve il problema dei ritardi di reporting dei mancati recapiti sincroni e prende l'80% del carico dal processo inMail.</li>
 </ul>
-<p>Questa funzionalità viene rilasciata come <strong>versione beta privata</strong> e sarà disponibile progressivamente per tutti i clienti nelle release future.</p>
+<p>Questa funzionalità viene rilasciata come <strong>versione beta privata</strong> e sarà progressivamente disponibile per tutti i clienti nelle versioni future.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -81,8 +84,8 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 <td>
 <p>La barra dell’intestazione di Adobe Campaign è stata modificata per offrirti un’esperienza migliore e unificata in tutti i prodotti e i servizi Experience Cloud. Queste modifiche sono state progettate per rendere il lavoro più facile e includono:</p>
 <ul>
-<li>Passaggio più semplice da un’organizzazione all’altra o a un'altra applicazione.</li>
-<li>Guida utente migliorata: Experience League è ora accessibile direttamente dal prodotto e i risultati delle ricerche includono anche i i forum della community e altri contenuti video, per consentirti di accedere più facilmente a più contenuti e aiutarti a trarre il massimo dall’applicazione. Inoltre, è stato aggiunto un meccanismo di feedback nel menu Help, per agevolare la segnalazione di problemi e la condivisione di idee.</li>
+<li>Passaggio più semplice da un’organizzazione all’altra o a un’altra applicazione.</li>
+<li>Guida utente migliorata: Experience League è ora accessibile direttamente dal prodotto e i risultati delle ricerche includono anche i forum della community e altri contenuti video, per consentirti di accedere più facilmente a più contenuti e aiutarti a trarre il massimo dall’applicazione. Inoltre, è stato aggiunto un meccanismo di feedback nel menu Help, per agevolare la segnalazione di problemi e la condivisione di idee.</li>
 <li>Notifiche migliorate: il menu a discesa Notifications ora include due schede, una per le notifiche sui tuoi prodotti e una per gli annunci globali sui prodotti.</li>
 </ul>
 </td> 
@@ -92,13 +95,13 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 
 **Miglioramenti**
 
-* **L&#39;** integrazione con Microsoft Dynamics 365 è stata migliorata con un&#39;app di integrazione self-service dedicata e un processo di implementazione migliorato. [Ulteriori informazioni](../../integrating/using/d365-acs-get-started.md)
+* **L’integrazione con Microsoft Dynamics 365**  è stata migliorata con un’app di integrazione self-service dedicata e un processo di implementazione migliorato. [Ulteriori informazioni](../../integrating/using/d365-acs-get-started.md)
 
-* È stato apportato un miglioramento per facilitare la risoluzione dei problemi in caso di problemi con il **Processo di messaggistica transazionale**. Gli amministratori tecnici di Adobe ora possono utilizzare il tracciamento su qualsiasi processo senza riavviarlo.
+* È stato apportato un miglioramento per facilitare la risoluzione dei problemi in caso di problemi relativi al **processo di messaggistica transazionale**. Gli amministratori tecnici di Adobe ora possono utilizzare il tracciamento su qualsiasi processo senza riavviarlo.
 
 * L’elenco **Profiles** ora consente di cercare record basati su uno dei seguenti campi: e-mail, nome, cognome o campi personalizzati aggiunti nel filtro avanzato durante l’estensione della risorsa profilo. Questa funzione è disponibile anche nelle API di Campaign Standard mediante il parametro filterType.
 
-* Un parametro è stato modificato in base al numero di contenitori in cui è in esecuzione il processo di pooling del database **Transactional messaging**. Questo consente di distribuire uniformemente il carico tra tutti i contenitori utilizzati e di ottimizzare le prestazioni.
+* Un parametro è stato modificato in base al numero di contenitori che eseguono il processo di pooling del database **Messaggistica transazionale**. Questo consente di distribuire uniformemente il carico tra tutti i contenitori utilizzati e di ottimizzare le prestazioni.
 
 * È ora disponibile la nuova funzione **GetOption** nelle attività che utilizzano variabili evento dopo aver richiamato un flusso di lavoro con parametri esterni. Consente di restituire il valore di una funzione specificata.
 
@@ -107,7 +110,7 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 
 **Altre modifiche**
 
-* Il messaggio di errore che si verificava durante la preparazione dei messaggi al raggiungimento del limite di 100 download di contenuto nell&#39;ora precedente viene ora visualizzato come messaggio di avvertenza. Ora, al raggiungimento del limite, viene visualizzata un’avvertenza che consente di procedere con la consegna.
+* Il messaggio di errore che si verificava durante la preparazione dei messaggi al raggiungimento del limite di 100 download di contenuto nell’ora precedente viene ora visualizzato come messaggio di avvertenza. Ora, al raggiungimento del limite, viene visualizzata un’avvertenza che consente di procedere con la consegna.
 
 * Quando si arricchisce il contenuto di un messaggio transazionale, i collegamenti non vengono più richiamati al momento del recupero dei dati dalla tabella Profile. In questo modo si riduce la latenza durante la preparazione dei messaggi e si evitano dati del profilo vuoti a causa di una relazione errata definita con la tabella del profilo.
 
@@ -117,7 +120,7 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 
 * L’attività **Transfer file** genera ora una variabile aggiuntiva (filesCount) che contiene il numero di file caricati o scaricati. (CAMP-45842)
 
-* Il **connettore SMS** ora può inviare più parametri opzionali a ogni messaggio.
+* Il **connettore SMS** può ora inviare più parametri facoltativi con ogni messaggio.
 
 * Gli utenti con il ruolo DATAMODEL ora possono pubblicare estensioni del registro di consegna. (CAMP-46604)
 
@@ -135,21 +138,21 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 
 * Sono stati migliorati i registri di errore relativi al tentativo di connessione al servizio Adobe Identity Management (IMS).
 
-* Ora puoi filtrare ulteriormente le dimensioni Consegna e Campagna utilizzando la barra di ricerca in **Report dinamico**.
+* Ora puoi filtrare ulteriormente le dimensioni Consegna e Campagna utilizzando la barra di ricerca in **Reporting dinamico**.
 
-* La data di validità dei messaggi SMS transazionali ora può essere definita dal valore impostato per il parametro di scadenza nell&#39; **API dei messaggi transazionali**. (CAMP-36600)
+* La data di validità del messaggio SMS transazionale può ora essere definita dal valore impostato per il parametro di scadenza nell’ **API Messaggi transazionali**. (CAMP-36600)
 
 * Nella funzione di reporting dinamico, il rapporto integrato **Delivery summary** mostrava dati non corretti per la metrica del tasso di disiscrizione. Per risolvere il problema è stata aggiunta la nuova metrica **Unique unsubscription**. (CAMP-46445)
 
 **Patch**
 
 * È stato risolto un problema che provocava l’esecuzione molto lenta delle consegne a causa di alcuni processi. Era dovuto alla definizione di unità errate per diversi parametri (ad esempio, millisecondi anziché secondi).
-* È stato risolto un problema nei flussi di lavoro che poteva verificarsi se si copiava e incollava un&#39;attività **Deduplication** che era stata eseguita una volta e che sfruttava una risorsa temporanea. Una volta duplicata, la risorsa dell’attività veniva automaticamente impostata su vuota, causando problemi in altre attività del flusso di lavoro. Una volta incollata, la risorsa dell’attività ora rimane la stessa, così che l’errore possa attivarsi il prima possibile anziché in un punto successivo del flusso di lavoro. (CAMP-46903)
-* È stato risolto un problema che si verificava quando Mobile SDK inviava una richiesta di tracciamento aperta basata sulla condizione che deliveryID/MessageID non fosse null. Questo generava errori 404 per le consegne con tracciamento disabilitato. Nel payload viene ora inviata una variabile aggiuntiva (acsDeliveryTracking) con informazioni sullo stato di tracciamento della consegna. Questa variabile può avere due valori (attivato o disattivato) a seconda dello stato di tracciamento impostato.
+* È stato risolto un problema nei flussi di lavoro che poteva verificarsi se si copiava e incollava un’attività **Deduplication** che era stata eseguita una volta e che sfruttava una risorsa temporanea. Una volta duplicata, la risorsa dell’attività veniva automaticamente impostata su vuota, causando problemi in altre attività del flusso di lavoro. Una volta incollata, la risorsa dell’attività ora rimane la stessa, così che l’errore possa attivarsi il prima possibile anziché in un punto successivo del flusso di lavoro. (CAMP-46903)
+* È stato risolto un problema che si verificava quando l’SDK di Mobile inviava una richiesta di tracciamento aperta basata sulla condizione che deliveryID/MessageID non fosse null. Questo generava errori 404 per le consegne con tracciamento disabilitato. Nel payload viene ora inviata una variabile aggiuntiva (acsDeliveryTracking) con informazioni sullo stato di tracciamento della consegna. Questa variabile può avere due valori (attivato o disattivato) a seconda dello stato di tracciamento impostato.
 * È stato risolto un problema che impediva l’esecuzione dei rapporti di consegna quando venivano visualizzate 5000 righe.
 * È stato risolto un problema relativo al test A/B che impediva l’aggiornamento del contenuto della variante B dopo una modifica del modello di consegna. (CAMP-45235)
 * È stato risolto un problema che causava il blocco del processo di messaggistica transazionale, impedendo l’invio di messaggi.
-* È stato risolto un problema che causava un errore di analisi del recapito durante l&#39;invio di un messaggio push transazionale tramite la dimensione di destinazione Profilo. È ora disponibile una nuova mappatura di consegna (mapRtEventAppSubRcp) per i profili di targeting dei messaggi transazionali push. I registri di consegna, esclusione e tracciamento di queste consegne sono disponibili nelle tabelle broadLogAppSubRcp, excludeLogAppSubRcp e trackingLogAppSubRcp.
+* È stato risolto un problema che causava un errore di analisi della consegna durante l’invio di un messaggio push transazionale utilizzando la dimensione di destinazione Profilo . È ora disponibile una nuova mappatura di consegna (mapRtEventAppSubRcp) per i profili di targeting dei messaggi transazionali push. I registri di consegna, esclusione e tracciamento di queste consegne sono disponibili nelle tabelle broadLogAppSubRcp, excludeLogAppSubRcp e trackingLogAppSubRcp.
 * È stato risolto un problema che poteva causare problemi di navigazione dopo aver fatto clic su un collegamento interno (ad esempio, quando si accedeva alla consegna principale da una schermata di riepilogo delle bozze).
 * È stato risolto un problema che impediva la visualizzazione di tutti i modelli disponibili di contenuto di Experience Manager durante la creazione di una consegna. (CAMP-45990)
 * È stato risolto un problema nei flussi di lavoro che poteva impedire la visualizzazione dei messaggi di errore nei registri di consegna dopo l’aggiunta della colonna **Reason** alla scheda dei dati aggiuntivi. (CAMP-45139)
@@ -158,7 +161,7 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 * È stato corretto un errore che poteva verificarsi al termine della preparazione dei messaggi transazionali e che impediva il caricamento delle informazioni di reindirizzamento sui server di tracciamento.
 * È stato risolto un problema a causa del quale potevano comparire messaggi di errore se si tentava di aprire modelli di importazione o processi di importazione precedenti dopo aver personalizzato la risorsa del flusso di lavoro. (CAMP-46183)
 * È stato risolto un problema che poteva impedire l’esecuzione di un’attività **Read audience** se configurata con un nome di pubblico dinamico. (CAMP-46047)
-* È stato risolto un problema che impediva la visualizzazione del pulsante **Export list**
+* È stato risolto un problema che impediva la visualizzazione del pulsante **Export list**.
 * È stato risolto un problema che poteva causare un errore nel flusso di lavoro **Reporting aggregates**. (CAMP-45979)
 * È stato risolto un problema che si verificava durante la creazione di una risorsa personalizzata con una chiave composita personalizzata (contenuto dinamico testo/data).
 * È stato risolto un problema che poteva impedire la visualizzazione dei dati di transizione di una query. (CAMP-45669)
@@ -195,15 +198,15 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 * È stato risolto un errore che si verificava durante l’utilizzo dell’opzione **Dimension to reconciliate** in un’attività **Reconciliation** in un flusso di lavoro, se era già stata definita una relazione tra una risorsa personalizzata e una risorsa profilo.
 * È stato risolto un problema che si verificava durante l’aggiunta di collegamenti tramite un’attività **Reconciliation** o **Enrichment**. I collegamenti selezionati non venivano visualizzati nella transizione di output.
 * È stato risolto un problema che si verificava durante l’utilizzo di un’attività **Segmentation** con consegne ricorrenti in un flusso di lavoro, causando l’invio della consegna a un pubblico errato. (CAMP-46275, CAMP-46470)
-* È stato corretto un errore a causa del quale la pubblicazione di risorse personalizzate non riusciva se si tentava di estendere la risorsa del profilo per creare dimensioni di profilo personalizzate per la generazione di rapporti dinamica. (CAMP-46266)
+* È stato corretto un errore a causa del quale la pubblicazione di risorse personalizzate non riusciva se si tentava di estendere la risorsa del profilo per creare dimensioni di profilo personalizzate per la generazione di rapporti dinamici. (CAMP-46266)
 * È stato corretto un errore che si verificava durante l’aggiunta di un collegamento a una tabella File import. Dopo l’aggiunta di un’attività **Enrichment** all’attività **File import**, il collegamento configurato in precedenza scompariva. (CAMP-46557)
-* È stato risolto un problema che si verificava durante l&#39;utilizzo di risorse personalizzate collegate ai dati del profilo a causa del quale l&#39;ordine di visualizzazione nella schermata di configurazione Dettagli veniva modificato al momento del salvataggio. (CAMP-46312)
+* È stato risolto un problema che si verificava quando si utilizzavano risorse personalizzate collegate ai dati Profilo a causa del quale l’ordine di visualizzazione nella schermata di configurazione Dettagli veniva modificato al momento del salvataggio. (CAMP-46312)
 * È stato risolto un problema che poteva impedire la visualizzazione dei dati nel reporting dinamico a causa di consegne basate su una mappatura di consegna personalizzata.
-* È stato corretto un errore che poteva impedire la selezione di una raccolta con una destinazione risorsa non corretta in un&#39;attività di query del flusso di lavoro.
+* È stato corretto un errore che poteva impedire la selezione di una raccolta con una destinazione di risorsa non corretta in un’attività di query del flusso di lavoro.
 * È stato risolto un problema che poteva causare la convalida errata di hard bounce da parte del processo InMail.
 * È stato corretto un errore che si verificava all’apertura di una schermata di profilo a causa di un errore di collegamento.
 * È stato risolto un problema che poteva impedire l’eliminazione di dati GDPR dal flusso di lavoro di pulizia.
-* È stato corretto un errore che si verificava quando la configurazione della pianificazione veniva aggiornata manualmente con la tastiera del tipo nei parametri della pianificazione della distribuzione delle e-mail.
+* È stato corretto un errore che si verificava quando la configurazione di pianificazione veniva aggiornata manualmente con il tipo di tastiera nei parametri di pianificazione della consegna e-mail.
 * È stato risolto un problema che poteva impedire la modifica di un profilo a causa di parametri non corretti nell’unità organizzativa.
 * È stato risolto un problema a causa del quale il campo dell’estensione Service restava vuoto e non era possibile impostarlo nelle proprietà Email, anche se era impostato nel modello di consegna.
 * È stato risolto un problema che poteva causare un tempo di elaborazione delle bozze eccessivamente lungo. (CAMP-45048)
@@ -221,4 +224,4 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni incluse nella 
 * È stato risolto un problema che impediva ai pulsanti predefiniti di rimanere centrati quando il messaggio veniva inviato a un indirizzo di Outlook, anche se tali pulsanti erano allineati a destra o a sinistra in E-mail Designer. (CAMP-46466)
 * È stato risolto un problema che impediva l’aggiornamento dell’elenco dei profili di test durante la ricerca dei profili nell’anteprima di E-mail Designer. (CAMP-45265)
 * È stato risolto un problema che impediva la visualizzazione dei profili di test personalizzati nell’elenco durante la ricerca dei profili nell’anteprima di E-mail Designer. (CAMP-45589)
-* È stato risolto un problema che causava la visualizzazione di date non corrispondenti durante la generazione di elementi grafici di tendenza dal rapporto di riepilogo della consegna. (CAMP-45521)
+* È stato risolto un problema che causava la visualizzazione di date non corrispondenti durante la generazione di grafici delle tendenze dal report di riepilogo della consegna. (CAMP-45521)
