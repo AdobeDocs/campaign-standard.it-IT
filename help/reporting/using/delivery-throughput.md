@@ -2,29 +2,32 @@
 solution: Campaign Standard
 product: campaign
 title: Velocità effettiva di consegna
-description: Grazie al report out-of-the-box sul throughput di consegna, scopri il successo della tua consegna.
+description: Con il rapporto preconfigurato sulla consegna, scopri il successo della consegna.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
+feature: Generazione rapporti
+role: Leader
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 
 
 # Velocità effettiva di consegna{#delivery-throughput}
 
-Questo rapporto contiene i dati relativi alla velocità di consegna di una o più invii. Fornisce:
+Questo rapporto contiene dati relativi alla velocità effettiva di consegna di un’invio o di più invii. Fornisce:
 
-* Numero di messaggi elaborati all&#39;ora
-* La tabella **[!UICONTROL Top 5 deliveries]** e i numeri di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei tentativi.
+* Numero di messaggi elaborati all’ora
+* La tabella **[!UICONTROL Top 5 deliveries]** e i numeri di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei nuovi tentativi.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->La pagina **[!UICONTROL Delivery throughput]** visualizza la velocità effettiva per il relay dei messaggi da Campaign a Adobe Campaign Enhanced MTA (Message Transfer Agent) .
+>La pagina **[!UICONTROL Delivery throughput]** visualizza la velocità effettiva per il relay dei messaggi da Campaign all’MTA avanzato di Adobe Campaign (Message Transfer Agent).
