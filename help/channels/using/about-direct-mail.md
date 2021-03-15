@@ -7,11 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
+feature: Direct mailing
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 98%
+source-wordcount: '460'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +41,7 @@ All’interno di Adobe Campaign, la procedura utente è la seguente:
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Accoppiamento delle consegne e-mail e della posta diretta](../../automating/using/coupling-email-direct-mail.md)
+* [Caso di utilizzo: Abbinamento delle consegne di e-mail e direct mail](../../automating/using/coupling-email-direct-mail.md)
 
 ## Raccomandazioni {#recommendations}
 
