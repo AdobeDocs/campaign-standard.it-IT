@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Aggiunta di contenuto dinamico Target
-description: Scoprite come aggiungere  contenuto dinamico Adobe Target in una delle vostre  di distribuzione Adobe Campaign.
+description: Scopri come aggiungere contenuto dinamico Adobe Target in una delle consegne Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
+feature: Triggers
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '458'
 ht-degree: 5%
 
 ---
@@ -17,41 +20,41 @@ ht-degree: 5%
 
 # Aggiunta di contenuto dinamico Target{#adding-target-dynamic-content}
 
-&#39;integrazione con Adobe Target, è possibile aggiungere immagini dinamiche a una distribuzione per personalizzare i contenuti in base alle esperienze.
+Con l’integrazione di Adobe Target, è possibile aggiungere immagini dinamiche in una consegna per personalizzare i contenuti in base alle esperienze.
 
-Durante la modifica di un messaggio e-mail, potete inserire un’immagine dinamica da  Adobe Target che verrà modificata a seconda dei destinatari.
+Durante la modifica di un’e-mail, puoi inserire un’immagine dinamica da Adobe Target che verrà modificata a seconda dei destinatari.
 
-Prima di accedere all’immagine in  Adobe Campaign, è necessario eseguire le seguenti operazioni in  Adobe Target:
+Prima di accedere all’immagine in Adobe Campaign, è necessario eseguire le seguenti attività in Adobe Target:
 
-* Create una o più [offerte di reindirizzamento](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in cui dovete specificare l&#39;URL dell&#39;immagine che state utilizzando.
-* Create una o più [audience](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) per definire il target dell&#39;attività.
-* Create un&#39;attività [Experience Composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) basata su modulo, in cui dovete selezionare una rawbox e specificare diverse esperienze, a seconda del numero di offerte di reindirizzamento create. Per ogni esperienza, dovete selezionare una delle offerte di reindirizzamento create.
-* Crea segmenti utilizzando le informazioni di  Adobe Campaign per specificare le esperienze. Per utilizzare i dati di  Adobe Campaign nelle regole di selezione dell&#39;offerta, è necessario specificare i dati nella rawbox in  Adobe Target.
+* Crea una o più [offerte di reindirizzamento](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in cui devi specificare l&#39;URL dell&#39;immagine che stai utilizzando.
+* Crea uno o più [tipi di pubblico](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) per definire il target dell&#39;attività.
+* Crea un&#39;attività [Compositore esperienza basato su moduli](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) in cui devi selezionare una rawbox e specificare diverse esperienze, a seconda del numero di offerte di reindirizzamento create. Per ogni esperienza, devi selezionare una delle offerte di reindirizzamento create.
+* Crea segmenti utilizzando le informazioni di Adobe Campaign per specificare le esperienze. Per utilizzare i dati di Adobe Campaign nelle regole di selezione dell’offerta, è necessario specificare i dati nella rawbox in Adobe Target.
 
-1. Creare una consegna tramite e-mail.
-1. Durante la modifica del contenuto di un&#39;e-mail o di una pagina di destinazione, passare a un blocco immagine, quindi selezionare **[!UICONTROL Dynamic image from Adobe Target]** dal menu contestuale.
+1. Crea una consegna e-mail.
+1. Quando modifichi il contenuto di un’e-mail o di una pagina di destinazione, passa a un blocco immagine, quindi seleziona **[!UICONTROL Dynamic image from Adobe Target]** dal menu contestuale.
 
    ![](assets/tar_insert_dynamic_image.png)
 
-1. Selezionate l’immagine che verrà visualizzata per impostazione predefinita nel messaggio e-mail. Potete specificare direttamente l&#39;URL dell&#39;immagine o selezionare un&#39;immagine condivisa tramite [Risorse](../../integrating/using/working-with-campaign-and-assets-core-service.md).
+1. Seleziona l’immagine che verrà visualizzata per impostazione predefinita nel messaggio e-mail. Puoi specificare direttamente l&#39;URL dell&#39;immagine o selezionare un&#39;immagine condivisa tramite [Risorse](../../integrating/using/working-with-campaign-and-assets-core-service.md).
 
-   L&#39;integrazione supporta solo immagini statiche. Il resto del contenuto non è personalizzabile.
+   L’integrazione supporta solo immagini statiche. Il resto del contenuto non è personalizzabile.
 
-1. Inserite il nome della rawbox specificata in  Adobe Target.
-1. Se utilizzate le autorizzazioni Enterprise nelle impostazioni in  Adobe Target, aggiungete la proprietà corrispondente in questo campo. Ulteriori informazioni sulle autorizzazioni di Target Enterprise in [questa pagina](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Questo campo è facoltativo e non obbligatorio se non utilizzate le autorizzazioni Enterprise in Target.
-1. In **[!UICONTROL Additional decision parameters]**, specificate la mappatura tra i campi definiti nei segmenti Adobe Target  e i campi Adobe Campaign .
+1. Immetti il nome della rawbox specificata in Adobe Target.
+1. Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Ulteriori informazioni sulle autorizzazioni Enterprise di Target in [questa pagina](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Questo campo è facoltativo e non obbligatorio se non si utilizzano le autorizzazioni Enterprise in Target.
+1. In **[!UICONTROL Additional decision parameters]**, specifica la mappatura tra i campi definiti nei segmenti Adobe Target e i campi Adobe Campaign.
 
-   I campi Adobe Campaign  utilizzati devono essere stati specificati nella rawbox. In questo caso, definiremo esperienze diverse in base al genere del destinatario.
+   I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. In questo caso, definiremo esperienze diverse a seconda del genere del destinatario.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. Visualizzate l&#39;anteprima del messaggio e-mail per verificare se, quando selezionate profili diversi, l&#39;immagine inserita cambia a seconda dei parametri specificati nell&#39;attività di Adobe Target  e in  Adobe Campaign.
+1. Visualizza l’anteprima del messaggio e-mail per verificare se, quando selezioni profili diversi, l’immagine inserita cambia a seconda dei parametri specificati nell’attività Adobe Target e in Adobe Campaign.
 
-È ora possibile inviare la distribuzione contenente l’immagine dinamica. I suoi risultati sono reperibili  Adobe Target.
+È ora possibile inviare la consegna contenente l’immagine dinamica. I suoi risultati sono reperibili in Adobe Target.
 
 **Argomenti correlati:**
 
-* [ Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
-* [Informazioni sulla progettazione del contenuto delle e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* [Informazioni sulla progettazione del contenuto e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalizzare le immagini delle e-mail in Real-](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html) Timevideo
 
