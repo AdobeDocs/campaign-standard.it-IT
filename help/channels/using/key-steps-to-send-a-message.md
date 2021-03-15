@@ -6,18 +6,21 @@ description: Segui questi passaggi per creare e inviare messaggi con Adobe Campa
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
+feature: Panoramica
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 93%
+source-wordcount: '178'
+ht-degree: 91%
 
 ---
 
 
 # Passaggi fondamentali per l’invio di un messaggio{#key-steps-to-send-a-message}
 
-Per informazioni sulle procedure ottimali di consegna, consultare la sezione [Best practice di consegna](../../sending/using/delivery-best-practices.md).
+Per scoprire le best practice per la consegna, consulta la sezione [Best practice per la consegna](../../sending/using/delivery-best-practices.md) .
 
 I passaggi per creare e inviare messaggi sono i seguenti:
 
