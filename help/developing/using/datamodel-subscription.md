@@ -5,10 +5,13 @@ title: DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
+feature: Modello dati
+role: Sviluppatore
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '81'
 ht-degree: 6%
 
 ---
@@ -33,7 +36,7 @@ ht-degree: 6%
     </tr>
     <tr>
         <td>ctx</td>
-        <td>Contesto evento</td>
+        <td>Contesto dell'evento</td>
         <td>item </td>
         <td> </td>
     </tr>
@@ -51,7 +54,7 @@ ht-degree: 6%
             <ul>
             <li>Testo - testo - 1</li>
             <li>HTML - html - 2</li>
-            <li>VALORE INVALID - __Invalid_value__ - __Invalid_value___</li>
+            <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
             <li>Sconosciuto - sconosciuto - 0</li>
             </ul>
         </td>
