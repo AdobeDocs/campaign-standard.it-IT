@@ -7,10 +7,13 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
+feature: Campagne
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '376'
 ht-degree: 91%
 
 ---
@@ -30,10 +33,10 @@ Ciascun programma è rappresentato da una casella contenente la miniatura e l’
 
 La linea verticale blu è un indicatore cronologico per evidenziare la data corrente. Per impostazione predefinita, si trova al centro della schermata. Puoi scorrere a destra o a sinistra all’interno della schermata per modificare il periodo visualizzato.
 
-Utilizzate le icone per:
+Usa le icone per:
 
-* ![](assets/timeline_zoom_in.png) ridurre il perimetro o aumentare il livello di dettaglio per un periodo più limitato, fino alla visualizzazione dei giorni
-* ![](assets/timeline_zoom_out.png) aumentare il perimetro o visualizzare un intervallo di tempo più ampio
+* ![](assets/timeline_zoom_in.png) ridurre il perimetro o aumentare il livello di dettaglio per un periodo più limitato, fino a quando non vengono visualizzati i giorni
+* ![](assets/timeline_zoom_out.png) aumentare il perimetro o visualizzare un arco temporale più ampio
 
 Fai clic sulla freccia a destra del nome di ciascun programma per visualizzare il contenuto corrispondente. Un programma può contenere programmi secondari, campagne e pagine di destinazione. Una campagna viene distribuita allo stesso modo di un programma e può contenere e-mail, SMS e pagine di destinazione.
 
