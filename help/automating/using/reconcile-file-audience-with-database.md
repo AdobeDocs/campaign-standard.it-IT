@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Riconciliare un pubblico di tipo File con il database
-description: Questo esempio mostra come utilizzare l'attività Leggi audience per riconciliare un'audience creata direttamente da un'importazione di file.
+description: Questo esempio mostra come utilizzare l’attività Read audience per riconciliare un pubblico creato direttamente da un’importazione di file.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 87%
+source-wordcount: '258'
+ht-degree: 86%
 
 ---
 
@@ -50,6 +53,6 @@ Il flusso di lavoro di riconciliazione è progettato come segue:
 
 ![](assets/readaudience_activity_example2.png)
 
-* Un&#39;attività [Leggi audience](../../automating/using/read-audience.md) carica il pubblico di file creato nel flusso di lavoro di importazione. I dati sul pubblico non sono ancora stati riconciliati con il database di Adobe Campaign.
+* Un&#39;attività [Read audience](../../automating/using/read-audience.md) carica il pubblico di tipo File creato nel flusso di lavoro di importazione. I dati sul pubblico non sono ancora stati riconciliati con il database di Adobe Campaign.
 * L’attività [Reconciliation](../../automating/using/reconciliation.md) identifica i dati in arrivo come profili attraverso la relativa scheda **[!UICONTROL Identification]**. Ad esempio utilizzando il campo **e-mail** come criterio di riconciliazione.
 * L’attività [Update data](../../automating/using/update-data.md) inserisce e aggiorna la risorsa dei profili del database con i dati in arrivo. Poiché i dati sono già stati identificati come profili, puoi selezionare l’opzione **[!UICONTROL Directly using the targeting dimension]** e successivamente **[!UICONTROL Profiles]** nella scheda **[!UICONTROL Identification]** dell’attività. Quindi, ti basta semplicemente aggiungere l’elenco dei campi che devono essere aggiornati nella scheda corrispondente.
