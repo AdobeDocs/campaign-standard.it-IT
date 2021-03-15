@@ -6,28 +6,32 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: '"Quando il messaggio è pronto, scopri come eseguire tutti i controlli prima di inviare"'
+feature: Consegna
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 16%
+source-wordcount: '414'
+ht-degree: 15%
 
 ---
 
 
-# Eseguire tutti i controlli prima dell&#39;invio di {#perform-all-checks}
+# Esegui tutti i controlli prima di inviare {#perform-all-checks}
 
-Una volta che il messaggio è pronto, accertati che il contenuto sia visualizzato correttamente, su tutti i dispositivi, e non contenga errori quali personalizzazione errata o collegamenti interrotti.
+Quando il messaggio è pronto, accertati che il relativo contenuto sia visualizzato correttamente, su tutti i dispositivi, e non contenga errori quali personalizzazione errata o collegamenti interrotti.
 
 Prima di inviare il messaggio, assicurati anche che i parametri e la configurazione siano coerenti con la consegna.
 
-## Perché la convalida è la chiave {#validation-is-key}
+## Perché la convalida è una chiave {#validation-is-key}
 
-Prima di inviare una consegna, è necessario assicurarsi che i destinatari ricevano il messaggio che si desidera inviare. A tal fine, devi convalidare il contenuto del messaggio e i parametri di consegna.
+Prima di inviare una consegna, è necessario assicurarsi che i destinatari ricevano il messaggio che si desidera inviare loro. A questo scopo, devi convalidare il contenuto del messaggio e i parametri di consegna.
 
-Questo passaggio consente di rilevare eventuali errori e correggerli prima di inviarli alla destinazione principale.
+Questo passaggio ti consente di rilevare eventuali errori e correggerli prima di consegnarli al target principale.
 
-I passaggi per la convalida di una consegna sono presentati [in questa sezione](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+I passaggi per la convalida di una consegna sono descritti [in questa sezione](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## Rendering di e-mail {#email-rendering}
 
@@ -37,27 +41,27 @@ Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende
 
 **Suggerimenti**:
 
-* Puoi visualizzare il messaggio inviato nei diversi contesti in cui potrebbe essere ricevuto: webmail, servizio messaggi, mobile, ecc.
+* Puoi visualizzare il messaggio inviato nei diversi contesti in cui potrebbe essere ricevuto: webmail, servizio messaggi, dispositivi mobili, ecc.
 
-* Le funzionalità di rendering delle e-mail sono fondamentali per identificare se le campagne e-mail riescono a superare i filtri dei principali ISP (Internet Service Provider) e dei servizi di posta elettronica. Tali strumenti inviano una copia pre-verifica di un messaggio e-mail a una rete di caselle in entrata di prova, in modo da visualizzare il modo in cui il messaggio verrà visualizzato, o renderizzato, tra questi servizi. Possono inoltre includere rapporti e opzioni di correzione del codice che consentono di identificare e correggere rapidamente i problemi di recapito.
+* Le funzionalità di rendering delle e-mail sono fondamentali per identificare se le campagne e-mail superano con successo i filtri dei principali ISP (Internet Service Provider) e dei servizi di posta web. Tali strumenti inviano una copia pre-volo di un’e-mail a una rete di caselle in entrata di prova, in modo da visualizzare il messaggio o eseguirne il rendering in questi servizi. Possono anche includere rapporti e opzioni di correzione del codice che ti aiutano a identificare rapidamente e a risolvere i problemi che migliorano il recapito messaggi.
 
 Ulteriori informazioni [in questa sezione](../../sending/using/email-rendering.md).
 
 ## Messaggi di prova {#proof-messages}
 
-L&#39;invio di prove consente di controllare il collegamento di rinuncia, la pagina mirror e qualsiasi altro collegamento, convalidare il messaggio, verificare che le immagini siano visualizzate, rilevare eventuali errori, ecc. È inoltre possibile controllare la progettazione e il rendering su diversi dispositivi.
+L’invio di bozze consente di controllare il collegamento di rinuncia, la pagina speculare e qualsiasi altro collegamento, convalidare il messaggio, verificare che le immagini siano visualizzate, rilevare eventuali errori e così via. Puoi anche controllare la progettazione e il rendering su diversi dispositivi.
 
 Ulteriori informazioni [in questa sezione](../../sending/using/sending-proofs.md).
 
-## Configurare le consegne di test A/B {#a-b-testing-deliveries}
+## Impostare consegne di test A/B {#a-b-testing-deliveries}
 
-Se disponete di diversi contenuti per la consegna delle e-mail, potete utilizzare il test A/B per scoprire quale versione avrà il maggiore impatto sulla popolazione interessata.
+Se disponi di più contenuti per una consegna e-mail, puoi utilizzare il test A/B per scoprire quale versione avrà il maggiore impatto sulla popolazione target.
 
 **Suggerimenti**:
 
-* Inviare le diverse versioni ad alcuni dei destinatari
+* Inviare versioni diverse ad alcuni dei tuoi destinatari
 
-* Seleziona quella con il tasso di successo più elevato e inviala al resto della destinazione
+* Seleziona quella con il tasso di successo più alto e inviala al resto del target
 
 Ulteriori informazioni [in questa sezione](../../channels/using/designing-an-a-b-test-email.md).
 
