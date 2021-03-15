@@ -6,10 +6,13 @@ description: Ulteriori informazioni sulla gestione delle risorse personalizzate 
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '187'
 ht-degree: 3%
 
 ---
@@ -17,32 +20,32 @@ ht-degree: 3%
 
 # Interazione con risorse personalizzate {#interacting-with-custom-resources}
 
-L&#39;endpoint **/customResources** consente di esporre le risorse personalizzate della campagna in REST. In base a questa API, è disponibile un&#39;integrazione tra entità personalizzate e endpoint esterni.
+L’endpoint **/customResources** ti consente di esporre le risorse personalizzate di Campaign in REST. In base a questa API, è disponibile un’integrazione tra entità personalizzate e endpoint esterni.
 
-L&#39;endpoint /customResources ha esattamente lo stesso comportamento dell&#39;endpoint /profileAndServices.
+L&#39;endpoint /customResources ha esattamente lo stesso comportamento dell&#39;endpoint /profileAndServices .
 
 Le risorse personalizzate esposte in questa API sono:
 
-* tutte le entità collegate all&#39;entità profilo
-* tutte le entità collegate agli elementi secondari dell&#39;entità profilo
-* tutte le entità che non sono collegate al profilo e, per queste entità, ai loro figli e nipoti.
+* tutte le entità collegate all’entità profilo
+* tutte le entità collegate agli elementi figlio dell’entità profilo
+* tutte le entità che non sono collegate al profilo e, per queste entità, i loro figli e nipoti.
 
 >[!NOTE]
 >Le risorse personalizzate disponibili in /profileAndServicesExt non sono esposte nell&#39;API /customResources.
 
-Di seguito è riportato un esempio per recuperare i metadati da una risorsa personalizzata:
+Ecco un esempio per recuperare i metadati da una risorsa personalizzata:
 
 ```
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Per eseguire una creazione, un aggiornamento o un&#39;eliminazione, vengono utilizzati GET, POST, PATCH, DELETE.
+Per eseguire una creazione, un aggiornamento o un’eliminazione, vengono utilizzati GET, POST, PATCH e DELETE.
 
 ```
 POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->L&#39;endpoint e i flussi di lavoro dell&#39;API per la privacy (/privacy/privacyTool) non gestiscono le risorse personalizzate non collegate all&#39;entità profilo.
->Avrai la responsabilità di gestire e ripulire qualsiasi PII per queste risorse personalizzate. Per ulteriori informazioni sullo strumento per la privacy, [fare clic qui](../../api/using/creating-a-privacy-request.md).
+>L’endpoint e i flussi di lavoro API per la privacy (/privacy/privacyTool) non gestiscono le risorse personalizzate non collegate all’entità profilo.
+>Sarà tua responsabilità gestire e ripulire eventuali PII per queste risorse personalizzate. Per ulteriori informazioni sullo strumento per la privacy, [fai clic qui](../../api/using/creating-a-privacy-request.md).
 
