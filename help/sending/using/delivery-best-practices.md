@@ -1,15 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Best practice per la distribuzione delle campagne
+title: Best practice per la consegna delle campagne
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Scopri le best practice relative alla progettazione e all’invio delle consegne con Adobe Campaign.
+feature: Consegna
+role: Professionista
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '99'
 ht-degree: 10%
 
 ---
@@ -17,15 +21,15 @@ ht-degree: 10%
 
 # Best practice di consegna {#delivery-best-practices}
 
-Scopri le best practice relative alla progettazione e all&#39;invio di materiale  Adobe Campaign. Utilizzate i collegamenti di seguito per navigare tra gli argomenti e trovare istruzioni.
+Scopri le best practice relative alla progettazione e all’invio delle consegne con Adobe Campaign. Utilizza i collegamenti seguenti per navigare tra gli argomenti e trovare indicazioni.
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Ottimizzare la consegna](optimize-delivery.md)**  - Proteggere e ottimizzare il processo di invio
+**[Ottimizzare la consegna](optimize-delivery.md)** : proteggere e ottimizzare il processo di invio
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Modelli](use-templates.md)**  di utilizzo - Facilitare e accelerare le nuove consegne
+**[Utilizzare i modelli](use-templates.md)**  - Facilitare e accelerare le nuove consegne
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
@@ -33,20 +37,20 @@ Scopri le best practice relative alla progettazione e all&#39;invio di materiale
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Definire il pubblico](define-the-right-audience.md)**  corretto - Applicare le impostazioni corrette
+**[Definire il pubblico](define-the-right-audience.md)**  giusto - Applicare le impostazioni corrette
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Controlla prima dell&#39;invio](check-before-sending.md)**  - Evitare errori comuni
+**[Controlla prima di inviare](check-before-sending.md)**  - Evita errori comuni
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Monitoraggio](track-and-monitor.md)**  e monitoraggio - Controllo dell&#39;invio e risoluzione dei problemi
+**[Tracciamento e monitoraggio](track-and-monitor.md)**  - Controllo dell’invio e risoluzione dei problemi
 
 ## Contenuto correlato
 
-* [Guida introduttiva all&#39;recapito](../../sending/using/about-deliverability.md)
+* [Introduzione al recapito messaggi](../../sending/using/about-deliverability.md)
 
 * [Introduzione ai messaggi](../../channels/using/get-started-communication-channels.md)
 
-* [Raccomandazioni sulla privacy e sul consenso](../../start/using/privacy.md)
+* [Raccomandazioni in materia di privacy e consenso](../../start/using/privacy.md)
