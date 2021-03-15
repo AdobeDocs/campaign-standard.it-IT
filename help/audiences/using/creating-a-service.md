@@ -7,11 +7,14 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
+feature: Pubblici
+role: Professionista
+level: Principiante
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 95%
+source-wordcount: '444'
+ht-degree: 94%
 
 ---
 
@@ -61,10 +64,10 @@ Dopo aver creato il servizio, puoi iniziare a promuoverlo.
 * [Creazione di un pubblico composta da iscritti](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Collegamento di una pagina di destinazione a un servizio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## Video di esercitazione {#video}
+## Video tutorial {#video}
 
-In questo video viene illustrato come creare un servizio e gestire le relative iscrizioni.
+Questo video mostra come creare un servizio e gestirne gli abbonamenti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-Ulteriori video dimostrativi sui Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
