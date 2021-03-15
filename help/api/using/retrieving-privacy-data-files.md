@@ -2,14 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Recupero file di dati sulla privacy
-description: Informazioni su come recuperare i file di dati sulla privacy con le API
+description: Scopri come recuperare i file di dati sulla privacy con le API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingegnere dati
+level: Esperienza
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '198'
 ht-degree: 4%
 
 ---
@@ -19,21 +22,21 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->L&#39;integrazione di [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l&#39;utilizzo dell&#39;API e dell&#39;interfaccia di Campaign per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse dei Campaign Standard, fare riferimento a [questa pagina](../../rn/using/deprecated-features.md).
+>L’ [Integrazione di base del servizio Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) è il metodo da utilizzare per tutte le richieste di accesso e di cancellazione. A partire dalla versione 19.4, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse di Campaign Standard, consulta [questa pagina](../../rn/using/deprecated-features.md).
 
-Per recuperare il file che contiene tutte le informazioni associate a un valore di riconciliazione, procedere come segue:
+Per recuperare il file contenente tutte le informazioni associate a un valore di riconciliazione, segui questa procedura in tre passaggi:
 
-1. Eseguite una richiesta **POST** per creare una nuova richiesta con l&#39;attributo **type=&quot;access&quot;**, vedete [Creazione di una nuova richiesta di privacy](../../api/using/creating-a-privacy-request.md).
+1. Esegui una richiesta **POST** per creare una nuova richiesta con l&#39;attributo **type=&quot;access&quot;**, vedi [Creazione di una nuova richiesta di accesso a dati personali](../../api/using/creating-a-privacy-request.md).
 
-1. Eseguite una richiesta **GET** per recuperare informazioni sulla richiesta.
+1. Esegui una richiesta **GET** per recuperare informazioni sulla richiesta.
 
-1. Recuperare il file di dati eseguendo una richiesta **POST** sull&#39;URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy all&#39;interno del payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupera il file di dati eseguendo una richiesta **POST** sull&#39;URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy all&#39;interno del payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Create una richiesta di privacy con l&#39;attributo type=&quot;access&quot;.
+Crea una richiesta di accesso a dati personali con l’attributo type=&quot;access&quot;.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -54,7 +57,7 @@ Create una richiesta di privacy con l&#39;attributo type=&quot;access&quot;.
 
 <!-- + réponse -->
 
-Eseguite una richiesta di GET per recuperare informazioni sulla richiesta.
+Esegui una richiesta GET per recuperare informazioni sulla richiesta.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -64,7 +67,7 @@ Eseguite una richiesta di GET per recuperare informazioni sulla richiesta.
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Restituisce l’attributo privacyRequestData con un URL associato.
+Restituisce l&#39;attributo privacyRequestData con un URL associato.
 
 ```
 {
@@ -85,7 +88,7 @@ Restituisce l’attributo privacyRequestData con un URL associato.
 },
 ```
 
-Eseguite una richiesta POST sull&#39;URL privacyRequestData, con il nome interno della richiesta all&#39;interno del payload.
+Esegui una richiesta POST sull’URL privacyRequestData, con il nome interno della richiesta all’interno del payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \
