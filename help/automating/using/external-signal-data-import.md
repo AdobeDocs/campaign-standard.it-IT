@@ -2,16 +2,19 @@
 solution: Campaign Standard
 product: campaign
 title: Importazione di segnali esterni e dati
-description: L'esempio seguente illustra l'attività del segnale esterno utilizzata con l'importazione di dati.
+description: L’esempio seguente illustra l’attività External signal utilizzata con l’importazione di dati.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
+feature: Flussi di lavoro
+role: Architetto dati
+level: Intermedio
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 79%
+source-wordcount: '233'
+ht-degree: 78%
 
 ---
 
@@ -44,7 +47,7 @@ Il flusso di lavoro sorgente viene presentato come segue:
 
 Il flusso di lavoro di destinazione viene presentato come segue:
 
-* Un&#39;attività [Segnale esterno](../../automating/using/external-signal.md) attende il completamento del flusso di lavoro di origine.
+* Un&#39;attività [External signal](../../automating/using/external-signal.md) attende che il flusso di lavoro sorgente sia completato correttamente.
 * Un’attività [Query](../../automating/using/query.md#enriching-data) esegue il targeting dei profili e li arricchisce con una raccolta impostata per recuperare la data dell’ultimo acquisto.
 * Un’attività [Update data](../../automating/using/update-data.md) memorizza i dati aggiuntivi in un campo personalizzato dedicato. Nota che la risorsa profilo è stata estesa per aggiungere il campo **Last purchase date**.
 
