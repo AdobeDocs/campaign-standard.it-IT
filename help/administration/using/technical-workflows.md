@@ -10,9 +10,9 @@ feature: Impostazioni delle istanze
 role: Amministratore
 level: Esperienza
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 99%
 
 ---
@@ -77,11 +77,6 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
    <td> <span class="uicontrol">KPIs reconciliation with Adobe Analytics</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> Questo flusso di lavoro recupera i KPI dal servizio Reporting una volta al giorno e li riconcilia con i dati di Adobe Analytics. Quindi, se necessario, appiana la differenza. Per impostazione predefinita viene avviato ogni giorno alle 4.20.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Managing NMAC opt-outs</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Questo flusso di lavoro aggiorna gli annullamenti dell’abbonamento alle notifiche sui dispositivi mobili. Per impostazione predefinita viene avviato ogni 6 ore tra l’1 e mezzanotte.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Message Center local archiving</span> <br /> </td> 
