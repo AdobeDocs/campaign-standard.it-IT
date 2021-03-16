@@ -7,9 +7,9 @@ user-guide-description: 'Centro assistenza per le principali funzioni, attività
 title: Guida a Campaign Standard
 breadcrumb-title: Centro risorse
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1754'
 ht-degree: 99%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 99%
       + [Gestione della privacy](start/using/privacy-management.md)
       + [Richieste di accesso a dati personali](start/using/privacy-requests.md)
       + [Domande frequenti sulla privacy](start/using/privacy-faq.md)
+   + [Opzioni di assistenza e supporto](support.md)
 + Profili e tipi di pubblico {#profiles-and-audiences}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/using/get-started-profiles-and-audiences.md)
    + Gestione dei profili {#managing-profiles}
