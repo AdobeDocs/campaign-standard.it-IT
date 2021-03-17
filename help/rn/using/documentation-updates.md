@@ -26,7 +26,7 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 La sezione che elenca i passaggi chiave per l’invio di un messaggio è stata migliorata con informazioni e riferimenti aggiuntivi. [Leggi tutto](../../channels/using/key-steps-to-send-a-message.md)
 
-Sono state aggiunte informazioni per specificare che, quando si seleziona un pubblico autorizzato in una query, la relativa definizione viene copiata e non viene fatto riferimento a essa. [Leggi tutto](../../audiences/using/selecting-an-audience-in-a-message.md)
+Sono state aggiunte informazioni per specificare che, quando si seleziona un pubblico in una query, la relativa definizione viene copiata e non inserita come riferimento. [Leggi tutto](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 Le informazioni relative al servizio Audience Destinations e al connettore dati Adobe Experience Platform sono state raggruppate in una nuova sezione. [Leggi tutto](../../integrating/using/aep-about-audience-destinations-service.md)
 
