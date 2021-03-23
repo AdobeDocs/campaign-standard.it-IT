@@ -11,10 +11,10 @@ feature: Consegna
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 7%
+source-wordcount: '310'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,6 @@ Di seguito sono riportati i dettagli del rapporto **[!UICONTROL Delivery through
 * Verifica che i nuovi tentativi siano configurati correttamente (30 minuti per il periodo dei nuovi tentativi e più di 20 tentativi) nei modelli di consegna.
 * Verifica regolarmente che la cassetta postale non recapitata sia accessibile e che l&#39;account non stia per scadere.
 * Controlla ogni throughput di consegna per assicurarti che sia coerente con la validità del contenuto di consegna (ad es. Le vendite flash devono essere consegnate in minuti, non in giorni).
-* Quando utilizzi le onde, verifica che ogni onda abbia tempo sufficiente per terminare prima che venga attivata quella successiva.
 * Verifica che il numero di errori e nuove quarantene siano coerenti con altre consegne.
 * Consulta attentamente i registri di consegna per verificare il tipo di errori evidenziati (elenco Bloccati, problemi DNS, regole anti-spam, ecc.).
 
@@ -56,16 +55,18 @@ La funzione **[!UICONTROL Delivery alerting]** è un sistema di gestione degli a
 
 Per ulteriori informazioni, consulta [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md).
 
-## Spam segnale {#signal-spam}
+<!--## External tools (#external-tools)
 
-Signal Spam è un servizio francese che offre rapporti di retroazione anonimi per gli ISP francesi (Orange, SFR).
+### Signal Spam {#signal-spam}
 
-Questo servizio ti permette di seguire la reputazione degli ISP francesi e tenere traccia dell&#39;evoluzione dell&#39;attività dei clienti.
+Signal Spam is a French service which offers anonymized feedback loop reporting for French ISPs (Orange, SFR).
 
-Segnale Spam fornisce anche reclami diretti che gli utenti finali effettuano il log attraverso un&#39;interfaccia dedicata. Tali reclami vengono quindi messi in quarantena dal database degli indirizzi e-mail.
+This service allows you to follow the reputation of the French ISPs and track customers' activity evolution.
 
-## 250ok {#solution-250ok}
+Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
 
-250ok è una soluzione di monitoraggio che fornisce  IP e di dominio, nonché indicatori di reputazione.
+### 250ok {#solution-250ok}
 
-Le informazioni fornite sono in tempo reale, il che consente un&#39;assistenza proattiva. 250ok una soluzione complementare agli strumenti interni di consegna Adobe.
+250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
+
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
