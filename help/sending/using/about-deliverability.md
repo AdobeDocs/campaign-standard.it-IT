@@ -11,72 +11,117 @@ feature: Consegna
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '749'
+ht-degree: 6%
 
 ---
 
 
-# Informazioni sul recapito messaggi{#about-deliverability}
+# Che cos&#39;è il recapito{#about-deliverability}
 
-Il recapito messaggi consente di misurare il successo delle campagne che raggiungono la casella in entrata dei destinatari senza rimbalzare o contrassegnare come spam.
+Il recapito messaggi consente di misurare il successo delle campagne che raggiungono la casella in entrata dei destinatari senza rimbalzare o contrassegnare come spam. [Scopri perché il recapito messaggi è importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
-Il tasso di consegna dipende da numerosi fattori, in particolare:
+Più precisamente, il recapito messaggi e-mail si riferisce al set di caratteristiche che determinano la capacità di un messaggio di raggiungere la sua destinazione, tramite un indirizzo e-mail personale, in un breve periodo di tempo e con la qualità prevista in termini di contenuto e formato. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-* Configurazione corretta delle istanze
-* La reputazione del tuo indirizzo IP
-* Qualità degli indirizzi interessati
-* Bassi reclami e tassi di mancato recapito
-* Contenuto del messaggio
-* Autenticazione dei messaggi (SPF, DKIM, DMARC)
-* reputazione del mittente
+Per informazioni più approfondite sul recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
-## Punti chiave da verificare {#deliverability-key-points}
+## Come migliorare il recapito messaggi {#deliverability-key-points}
 
-Per ottimizzare il recapito messaggi delle e-mail di Adobe Campaign, si consiglia di utilizzare le best practice elencate di seguito. I problemi di recapito sono generalmente collegati a misure di protezione contro lo spam implementate dai fornitori di servizi Internet e dagli amministratori dei server di posta.
+I problemi di recapito sono solitamente collegati a misure di protezione contro lo spam implementate da fornitori di servizi Internet e amministratori di server di posta.
 
-Il recapito messaggi e-mail si riferisce al set di caratteristiche che determinano la capacità di un messaggio di raggiungere la destinazione, tramite un indirizzo e-mail personale, in un breve periodo di tempo e con la qualità prevista in termini di contenuto e formato. Queste caratteristiche rientrano in quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Insieme, costituiscono la base di un programma di recapito messaggi e-mail di successo.
+* Per raccomandazioni generali su come progettare campagne di marketing e-mail di successo, consulta [Strategia di recapito messaggi e definizione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
-Il tasso di recapito messaggi è il numero di e-mail inviate correttamente ai destinatari.
-Elenco dei punti chiave da verificare per garantire un buon recapito messaggi.
+* Per consigli più specifici su come ottimizzare il recapito messaggi delle e-mail di Adobe Campaign, si consiglia di utilizzare le best practice elencate in questa sezione.
 
-## Strumenti di recapito {#deliverability-tools}
+>[!NOTE]
+>
+>Poiché gli ISP sono obbligati a sviluppare continuamente nuove tecniche di filtraggio sofisticate per proteggere i loro clienti dagli spammer, la consegna delle e-mail è caratterizzata da criteri e regole in continua evoluzione. Assicurati di fare riferimento alla [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) che viene aggiornata regolarmente.
 
-Innanzitutto, consulta la documentazione sugli strumenti di recapito messaggi forniti con Campaign Standard:
+### Tasso di consegna
+
+Il tasso di recapito messaggi è il numero di messaggi che hanno colpito le caselle in entrata dei destinatari rispetto al numero di messaggi inviati. Per migliorare il recapito messaggi, puoi lavorare per aumentare questo tasso.
+
+Con Adobe Campaign, il tasso di consegna dipende da numerosi fattori, in particolare:
+
+* Configurazione corretta delle istanze: contatta il tuo rappresentante Adobe per assistenza.
+* Configurazione di rete legittima: consulta [questa sezione](../../sending/using/optimize-delivery.md#network-config) e [Configurazione e strategia del dominio](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* La reputazione del tuo indirizzo IP: consulta [Strategia IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* Qualità degli indirizzi interessati: consulta [Gestione della quarantena](../../sending/using/optimize-delivery.md#quarantine-management).
+* Percentuali basse [reclami](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) e [mancate consegne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces).
+* Contenuto del messaggio: consulta [Controllo del contenuto delle e-mail](../../sending/using/control-email-content.md).
+* Autenticazione dei messaggi (SPF, DKIM, DMARC): vedere [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* reputazione del mittente: per scoprire come gli ISP principali valutano la reputazione di un mittente, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+
+## Strumenti di consegna campagna {#deliverability-tools}
+
+Adobe Campaign fornisce una serie di strumenti per monitorare e migliorare le prestazioni di recapito messaggi della piattaforma. Questa pagina evidenzia anche i principi principali che dovresti tenere a mente per ottimizzare il recapito messaggi durante l’utilizzo di Campaign.
+
+### Crea il messaggio con attenzione
+
+Durante la configurazione, la progettazione e il test del messaggio, assicurati di seguire le best practice menzionate nelle sezioni elencate di seguito. Sfruttando tutte le funzioni fornite da Adobe Campaign potrai migliorare il recapito messaggi.
+
 * [Best practice di consegna](../../sending/using/delivery-best-practices.md)
-* [Personalizzazione del nome del mittente](../../designing/using/personalization.md#personalizing-the-sender)
-* [Ottimizzazione del tempo di invio](../../sending/using/optimizing-the-sending-time.md)
+* [Controllo di contenuti e-mail](../../sending/using/control-email-content.md)
 * [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
-* [Rendering di e-mail](../../sending/using/email-rendering.md)
-* [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md)
-* [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Invio di bozze](../../sending/using/sending-proofs.md)
+
+### Verifica il consenso tramite doppio consenso {#double-opt-in}
+
+Per evitare l’invio di messaggi a indirizzi non validi, limitare le comunicazioni non corrette e migliorare la reputazione del mittente, l’Adobe consiglia di implementare un doppio meccanismo di consenso. Questo ti consente di garantire che i destinatari si siano abbonati intenzionalmente.
+
+Per ulteriori informazioni, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
+Per ulteriori informazioni sulle best practice per la raccolta di dati dai clienti, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
+
+### Gestione della quarantena
+
+Adobe Campaign gestisce un elenco che raccoglie reclami di spam, rimbalzi duri e mancati rimbalzi morbidi che si verificano in modo coerente.
+
+Per proteggere il recapito messaggi, i destinatari i cui indirizzi si trovano in tale elenco vengono esclusi per impostazione predefinita da tutte le consegne future, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione dell’invio.
+
+Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se il tasso di indirizzi non validi è troppo alto. La quarantena ti consente quindi di evitare di essere aggiunta al elenco Bloccati da questi provider.
+
+Per ulteriori informazioni, consulta le sezioni seguenti:
+
 * [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Quarantena rispetto elenco Bloccati](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+### Utilizzare strumenti di monitoraggio e reporting
+
+Utilizza le funzioni offerte da Adobe Campaign per monitorare il recapito messaggi.
+
+Adobe Campaign ti consente di controllare le prestazioni delle consegne tramite un set di indicatori in tempo reale incorporati. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->Puoi anche creare rapporti completamente personalizzabili e in tempo reale per ottenere informazioni approfondite sulle consegne.
+
+Per ulteriori informazioni, consulta le sezioni seguenti:
+
+* [Monitoraggio della consegna messaggi](../../sending/using/monitor-deliverability.md)
+
+   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+* [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapporti dinamici](../../reporting/using/about-dynamic-reports.md)
 
-## Verifica della configurazione di rete {#network-configuration}
+<!--## General recommendations
 
-Gli spammer cercano di nascondere la loro identità reale e di conseguenza rendono i loro server difficili da identificare. Una configurazione di rete legittima che non tenti di nascondere l&#39;identità del server è essenziale per l&#39;invio di e-mail in grandi volumi.
+NOT SURE TO KEEP
 
-## Invio a indirizzi validi {#valid-addresses}
+Here are a few additional recommendations when it comes to deliverability.
 
-Gli spammer utilizzano spesso generatori di indirizzi basati su elenchi di nomi frequenti e di nomi di battesimo; inoltre, raramente elaborano le notifiche tecniche inviate dai server di posta. Un elevato numero di indirizzi non validi viene spesso interpretato come un segno di spam. I meccanismi di doppio consenso e l&#39;efficace gestione dei messaggi di rimbalzo tecnici consentono di evitarlo.
+### Send to valid addresses {#valid-addresses}
 
-## Riduzione del tasso di reclamo {#reduce-complaint-rate}
+Spammers often use address generators based on lists of frequent names and first names; in addition, they rarely process technical notifications sent back by mail servers. A high rate of invalid addresses is often interpreted as a sign of spam.
 
-Gli ISP di solito hanno un modo prominente di segnalare un messaggio ricevuto come spam. Questo permette di identificare fonti inaffidabili. Soddisfacendo rapidamente le richieste di rinuncia, utilizzando regolarmente una determinata lista, verificando il consenso tramite un doppio sistema di consenso e implementando cicli di feedback, puoi ridurre i tassi di reclamo.
+Double opt-in mechanisms and effective handling of technical bounce messages make it possible to avoid this.
 
-## Invio agli indirizzi della stazione di miele {#honeypot-addresses}
+### Reduce complaint rate {#reduce-complaint-rate}
 
-Gli ISP e altre organizzazioni (fare riferimento a https://www.projecthoneypot.org/) fanno uso di cassette postali che non corrispondono a persone fisiche ma sono create semplicemente per ingannare gli spammer. Questi cosiddetti indirizzi &quot;pentola di miele&quot; sono pubblicati sul web per essere raccolti da spambots e quindi catturare mittenti illegittimi. L&#39;uso di un doppio meccanismo di consenso impedisce l&#39;aggiunta di questo tipo di indirizzo a un elenco. Quando si utilizza un elenco di terze parti, è necessario assicurarsi dei metodi utilizzati dal relativo manutentore.
+ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-## Adattamento del contenuto del messaggio {#adapt-message-content}
+<!--Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
 
-In misura minore, il contenuto di alcuni messaggi può portare alcuni filtri a rilevarlo come spam. L&#39;uso di determinate parole, l&#39;uso di punti esclamativi nella riga dell&#39;oggetto e all&#39;interno dei messaggi sono letti come segni di spam. Gli spammer sono anche noti per sostituire il testo con immagini per impedire che il testo offensivo venga analizzato automaticamente dai filtri anti-spam. In risposta a ciò, un messaggio (in formato HTML) con un&#39;alta proporzione di immagini, o immagini come allegati, potrebbe finire per essere bloccato.
+<!--## Sending on a regular basis {#regular-deliveries}
 
-## Invio regolare {#regular-deliveries}
-
-Gli spammer fanno consegne programmate per mantenere la loro reputazione nel tempo. A volte hanno bisogno di adattare il loro piano di marketing per soddisfare le best practice imposte dagli ISP e quindi, dopo un picco di reputazione (ramp-up), configurano consegne regolari.
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
