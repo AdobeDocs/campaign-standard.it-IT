@@ -11,9 +11,9 @@ feature: Consegna
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Se il problema persiste, contatta il servizio commerciale o di recapito messaggi
 
 * **Qual è la differenza tra un indirizzo e-mail elenco Bloccati e un indirizzo e-mail messo in quarantena?**
 
-   * Lo stato **[!UICONTROL On denylist]** è il risultato di un ciclo di feedback (quando una persona segnala un messaggio come spam).
+   * Lo stato **[!UICONTROL On denylist]** è il risultato di un [ciclo di feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (quando una persona segnala un messaggio come spam).
 
    * Lo stato **[!UICONTROL Quarantined]** è il risultato di un messaggio non recapitato morbido o rigido.
    Per ulteriori informazioni, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
