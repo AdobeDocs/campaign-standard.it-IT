@@ -11,10 +11,10 @@ feature: Flussi di lavoro
 role: Architetto dati
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -50,7 +50,7 @@ Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, pas
 
 ### Numero di flussi di lavoro
 
-Per impostazione predefinita, consigliamo di non avviare più di 20 esecuzioni di flussi di lavoro attivi in contemporanea. Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influenzare le prestazioni. Allo stesso modo, Adobe consiglia di distribuire nel tempo l’esecuzione del flusso di lavoro.
+Per impostazione predefinita, consigliamo di non avviare più di 20 esecuzioni di flussi di lavoro attivi in contemporanea. Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influenzare le prestazioni. Analogamente, Adobe consiglia di distribuire l’esecuzione del flusso di lavoro nel tempo.
 In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di lavoro. Questa impostazione non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata. In tal caso, devi consultare un esperto di Campaign e contattare anche l’Assistenza cliente Adobe per aumentare il limite.
 
 >[!NOTE]
