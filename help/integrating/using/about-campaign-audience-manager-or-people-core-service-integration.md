@@ -10,10 +10,10 @@ feature: Triggers
 role: Architetto dati
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 4%
 
 ---
 
@@ -41,9 +41,12 @@ L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 * **ID** dichiarato: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con gli elementi del database Adobe Campaign. È rappresentato in Adobe Campaign come chiave di riconciliazione predefinita. Durante lo scambio di dati, gli identificatori del database Adobe Campaign vengono crittografati. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o nell’esportazione.
    <br>Questa integrazione supporta gli ID dichiarati regolari, gli ID dichiarati con hash e gli ID dichiarati crittografati.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >L&#39;ID dichiarato funziona solo con Adobe Audience Manager. L&#39;ID dichiarato non funzionerà senza di esso.
+   >L’origine dati ID dichiarata può ora essere utilizzata anche con l’integrazione del servizio core People .
+   >
+   >Se utilizzi l’integrazione del servizio core Persone e desideri aggiungere l’integrazione di Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo di questa origine dati Declared ID in un contesto Adobe Audience Manager.
+
 
    La cifratura consente di condividere i dati cifrati nelle origini dati (ad esempio PII) utilizzando l’ID dichiarato specificando l’algoritmo di cifratura.
 
