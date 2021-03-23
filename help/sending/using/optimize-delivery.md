@@ -11,9 +11,9 @@ feature: Consegna
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ Per raggiungere la casella in entrata dei destinatari senza rimbalzare o contras
 
    * Quando controlli l&#39;e-mail per il recapito messaggi, vuoi concentrarti su quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Per informazioni più approfondite su questo argomento, consulta [questa sezione](../../sending/using/about-deliverability.md).
 
-* Quando avvii una nuova piattaforma, applica le raccomandazioni dettagliate [in questa pagina](../../sending/using/starting-new-platform.md).
+* Quando avvii una nuova piattaforma, applica le raccomandazioni dettagliate in [questa pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Contatta il tuo rappresentante Adobe per assistenza.
 
