@@ -11,10 +11,10 @@ feature: Consegna
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Scopri le best practice relative alla progettazione e all’invio delle consegne
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Personalizzare il contenuto](optimize-delivery.md)**  - Applicare le impostazioni corrette
+**[Personalizzare il contenuto](design-and-personalize.md)**  - Applicare le impostazioni corrette
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
