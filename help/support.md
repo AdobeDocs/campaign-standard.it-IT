@@ -11,9 +11,9 @@ feature: Opzioni di assistenza e supporto
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '568'
 ht-degree: 5%
 
 ---
@@ -37,42 +37,50 @@ Ottieni supporto tramite le nostre domande frequenti, best practice, risorse onl
 
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### Argomenti Domande e risposte
-
-Consulta una serie di domande e risposte specifiche per argomenti:
-
-* [Consegna](sending/using/monitor-deliverability.md)
-* [Notifiche in-app e push](administration/using/aep-faq.md)
-* [E-mail Designer](designing/using/faq-email-designer.md)
-
-### Problemi comuni
-
-* [Gestione degli errori nei flussi di lavoro](automating/using/monitoring-workflow-execution.md#error-management)
-* [Risoluzione dei problemi di esecuzione del flusso di lavoro](automating/using/best-practices-workflows.md)
-* [Risoluzione dei problemi API](api/using/troubleshooting.md)
-* [Comprendere gli errori di consegna](sending/using/understanding-delivery-failures.md)
-
-### Best practice
-
-* [Procedure consigliate per i flussi di lavoro](automating/using/best-practices-workflows.md)
-* [Monitoraggio del flusso di lavoro](automating/using/about-workflow-execution.md)
-* [Comprendere la gestione del tracciamento](sending/using/tracking-messages.md)
-* [Best practice per il recapito messaggi](sending/using/about-deliverability.md)
-* [Importare dati con flussi di lavoro](automating/using/creating-import-workflow-templates.md)
-* [Gestione del fuso orario](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [Ricevere una notifica in caso di errore](sending/using/receiving-alerts-when-failures-happen.md)
-* [Importare o convertire un contenuto e-mail](designing/using/using-existing-content.md)
-* [Best practice di consegna](sending/using/delivery-best-practices.md)
-
-### Procedura
-
-* [Aggiornamento a una nuova versione](rn/using/release-planning.md)
-* [Monitorare una consegna](sending/using/monitoring-a-delivery.md)
-* [Comprendere la gestione della quarantena](sending/using/understanding-quarantine-management.md)
-* [Gestione della privacy e del consenso](start/using/privacy-management.md)
-* [Progettazione di una query](automating/using/query.md)
-* [Esempi di query](automating/using/query-samples.md)
-* [Configurare i canali mobili](https://helpx.adobe.com/campaiacs-mobile.html)
+<table>
+    <tr><td><strong>Argomenti Domande e risposte</strong></td><td><strong>Problemi comuni</strong></td><td><strong>Best practice</strong></td><td><strong>Procedura</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="sending/using/monitor-deliverability.md">Consegna</a></li>
+        <li><a href="administration/using/aep-faq.md">Notifiche in-app e push</a></li>
+        <li><a href="designing/using/faq-email-designer.md">E-mail Designer</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gestione degli errori nei flussi di lavoro</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Risoluzione dei problemi di esecuzione del flusso di lavoro</a></li>
+        <li><a href="api/using/troubleshooting.md">Risoluzione dei problemi API</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Comprendere gli errori di consegna</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="automating/using/best-practices-workflows.md">Procedure consigliate per i flussi di lavoro</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">Monitoraggio del flusso di lavoro</a></li>
+        <li><a href="sending/using/tracking-messages.md">Comprendere la gestione del tracciamento</a></li>
+        <li><a href="sending/using/about-deliverability.md">Best practice per il recapito messaggi</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">Importare dati con flussi di lavoro</a></li>
+        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Gestione del fuso orario</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Ricevere una notifica in caso di errore</a></li>
+        <li><a href="designing/using/using-existing-content.md">Importare o convertire un contenuto e-mail</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Best practice di consegna</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="rn/using/release-planning.md">Aggiornamento a una nuova versione</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">Monitorare una consegna</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">Comprendere la gestione della quarantena</a></li>
+        <li><a href="start/using/privacy-management.md">Gestione della privacy e del consenso</a></li>
+        <li><a href="automating/using/query.md">Progettazione di una query</a></li>
+        <li><a href="automating/using/query-samples.md">Esempi di query</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configurare i canali mobili</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Pannello di controllo Campaign
 
@@ -107,7 +115,7 @@ Puoi monitorare i sottodomini e i relativi certificati. Ulteriori informazioni:
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Il nuovo sistema di ticket è stato utilizzato da [Adobe Admin Console](https://adminconsole.adobe.com/overview). Il nuovo sistema richiede nuovi account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di assistenza clienti ti verrà configurato il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Il nuovo sistema di ticket è stato introdotto tramite [Adobe Admin Console](https://adminconsole.adobe.com/overview). Il nuovo sistema richiede nuovi account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di assistenza clienti ti verrà configurato il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Chiedi agli esperti!
 
@@ -115,9 +123,7 @@ Iscriviti alla community Campaign Classic: cerca le risposte alle domande esiste
 
 ### Crea un ticket o avvia una chat
 
-La creazione di un caso consente di contattare il team di assistenza clienti Adobe per eventuali problemi riscontrati con i prodotti Adobe.
-
-Per risolvere i problemi o risolverli, Adobe Admin Console consente di chattare con l’Assistenza clienti di Adobe.
+La creazione di un caso consente di contattare il team di assistenza clienti Adobe per eventuali problemi riscontrati con i prodotti Adobe. Per risolvere i problemi o risolverli, Adobe Admin Console consente di chattare con l’Assistenza clienti di Adobe.
 
 Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti a [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
