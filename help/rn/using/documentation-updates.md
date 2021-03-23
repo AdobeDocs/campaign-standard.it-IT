@@ -10,10 +10,10 @@ feature: Panoramica
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,12 @@ La sezione che elenca i passaggi chiave per l’invio di un messaggio è stata m
 Sono state aggiunte informazioni per specificare che, quando si seleziona un pubblico in una query, la relativa definizione viene copiata e non inserita come riferimento. [Leggi tutto](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 Le informazioni relative al servizio Audience Destinations e al connettore dati Adobe Experience Platform sono state raggruppate in una nuova sezione. [Leggi tutto](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**L’origine** dati ID dichiarata può ora essere utilizzata anche con l’integrazione del servizio core People. Le informazioni sono state aggiunte nella documentazione relativa all’integrazione del servizio core di Campaign-Audience Manager o People. [Leggi tutto](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+Sono state aggiunte informazioni su come implementare il tracciamento locale per le app mobili. [Leggi tutto](../../administration/using/local-tracking.md)
+
+La sezione [Recapito messaggi](../../sending/using/about-deliverability.md) è stata aggiornata e ora include i collegamenti alla nuova [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Tutte le informazioni generiche relative al recapito messaggi che possono essere applicate a varie soluzioni di Adobe sono state spostate nell&#39; [Appendice alla Guida alle best practice](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Versione 21.1 - febbraio 2021 {#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ La sezione Esportazione dei registri è stata aggiornata per riflettere la dispo
 
 ## Gennaio 2020 {#doc-updates-january-2020}
 
-La documentazione sulla conformità è stata aggiornata con una nuova sezione relativa alla certificazione IP. [Ulteriori informazioni](../../sending/using/ip-certification.md)
+La documentazione sulla conformità è stata aggiornata con una nuova sezione relativa alla certificazione IP. <!--[Read more](../../sending/using/ip-certification.md)-->
 
 È disponibile una nuova sezione che descrive come creare un flusso di lavoro per la consegna cross-channel. [Ulteriori informazioni](../../automating/using/workflow-cross-channel-delivery.md)
 
