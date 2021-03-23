@@ -7,9 +7,9 @@ user-guide-description: 'Centro assistenza per le principali funzioni, attività
 title: Guida a Campaign Standard
 breadcrumb-title: Centro risorse
 translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1743'
 ht-degree: 99%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 99%
       + [Informazioni sulla gestione della quarantena](sending/using/understanding-quarantine-management.md)
    + Gestione delle consegne {#managing-deliverability}
       + [Informazioni sulla consegna messaggi](sending/using/about-deliverability.md)
-      + [Avvio di una nuova piattaforma](sending/using/starting-new-platform.md)
       + [Controllo di contenuti e-mail](sending/using/control-email-content.md)
-      + [Crescita reputazione](sending/using/improving-reputation.md)
-      + [Certificazione IP](sending/using/ip-certification.md)
-      + [Raccomandazioni tecniche](sending/using/technical-recommendations.md)
       + [Monitoraggio della consegna messaggi](sending/using/monitor-deliverability.md)
       + [Risoluzione dei problemi](sending/using/troubleshooting.md)
    + Utilizzo delle regole di tipologia {#working-with-typology-rules}
