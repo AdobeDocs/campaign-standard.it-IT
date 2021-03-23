@@ -9,10 +9,10 @@ topic-tags: about-sending-messages-with-campaign
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 15%
+source-wordcount: '598'
+ht-degree: 14%
 
 ---
 
@@ -86,8 +86,7 @@ Leggi tutto:
 
 * [Informazioni sul recapito messaggi](../../sending/using/about-deliverability.md)
 * [Monitoraggio della consegna messaggi](../../sending/using/monitor-deliverability.md)
-* [Crescita reputazione](../../sending/using/improving-reputation.md)
-* [Raccomandazioni tecniche](../../sending/using/technical-recommendations.md)
+* [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
 * [Controllo della velocità effettiva di consegna](../../reporting/using/delivery-throughput.md)
 
 ## Risorse aggiuntive
