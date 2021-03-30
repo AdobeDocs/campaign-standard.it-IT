@@ -26,7 +26,7 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 La pagina &quot;Opzioni di aiuto e supporto&quot; per Campaign Standard è stata integrata nella documentazione di base. [Leggi tutto](../../support.md)
 
-La sezione che elenca i passaggi chiave per l’invio di un messaggio è stata migliorata con informazioni e riferimenti aggiuntivi. [Leggi tutto](../../channels/using/key-steps-to-send-a-message.md)
+La sezione in cui sono elencati i passaggi chiave per l’invio di un messaggio è stata migliorata con informazioni e riferimenti aggiuntivi. [Leggi tutto](../../channels/using/key-steps-to-send-a-message.md)
 
 Sono state aggiunte informazioni per specificare che, quando si seleziona un pubblico in una query, la relativa definizione viene copiata e non inserita come riferimento. [Leggi tutto](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -530,9 +530,9 @@ Nella sezione Eliminazione di una risorsa sono stati aggiunti avvisi sull’impa
 
 Sono state aggiunte informazioni sulle modalità di collegamento delle risorse personalizzate. [Ulteriori informazioni](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-È stata aggiunta una nuova nota tecnica su come visualizzare un’immagine da una notifica push di Adobe Campaign Standard. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/image-push-notification.translate.html)
+È stata aggiunta una nuova nota tecnica su come visualizzare un’immagine da una notifica push di Adobe Campaign Standard. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/image-push-notification.html)
 
-È stata aggiunta una nuova nota tecnica sull’implementazione del tracciamento push. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-tracking.translate.html)
+È stata aggiunta una nuova nota tecnica sull’implementazione del tracciamento push. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-tracking.html)
 
 È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
