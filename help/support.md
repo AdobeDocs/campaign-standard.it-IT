@@ -11,9 +11,9 @@ feature: Opzioni di assistenza e supporto
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '593'
 ht-degree: 5%
 
 ---
@@ -91,9 +91,13 @@ Ottieni supporto tramite le nostre domande frequenti, best practice, risorse onl
 Il Pannello di controllo Campaign consente di migliorare l’efficienza del lavoro in qualità di amministratore di prodotto di Campaign Standard, consentendoti di gestire le impostazioni e tenere traccia degli utilizzi per ciascuna istanza.
 [Fai clic ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) qui per ulteriori informazioni.
 
+>[!NOTE]
+>
+>Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere all&#39;amministratore l&#39;accesso a un utente sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+
 ### Come accedere al Pannello di controllo Campaign?
 
-Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. È accessibile solo agli utenti amministratori. [Fai clic ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) qui per ulteriori informazioni.
+Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. [Fai clic ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) qui per ulteriori informazioni.
 
 ### Domande frequenti sul Pannello di controllo Campaign
 
