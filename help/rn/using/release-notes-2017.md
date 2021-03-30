@@ -10,7 +10,7 @@ feature: Panoramica
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '4631'
 ht-degree: 8%
@@ -44,7 +44,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
   </tr> 
   <tr> 
    <td> Creazione di contenuti: Importa da un URL<br /> </td> 
-   <td> L’importazione da un URL ti consente di recuperare rapidamente il contenuto creativo da un sito web per creare e-mail per qualsiasi consegna. Inoltre, puoi semplificare il processo creativo consentendo a terzi di condividere direttamente i contenuti tramite un URL. Il contenuto importato può essere utilizzato in modo flessibile come parte di una singola consegna o a livello di modello, garantendo la coerenza del marchio per tutte le campagne correlate, siano esse basate su flusso di lavoro o messaggi transazionali, e includere test A/B o multivariati. L’importazione da un URL converte e tiene traccia automaticamente di tutti i collegamenti per monitorare le prestazioni delle e-mail tramite Reporting dinamico.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’importazione da un URL ti consente di recuperare rapidamente il contenuto creativo da un sito web per creare e-mail per qualsiasi consegna. Inoltre, puoi semplificare il processo creativo consentendo a terzi di condividere direttamente i contenuti tramite un URL. Il contenuto importato può essere utilizzato in modo flessibile come parte di una singola consegna o a livello di modello, garantendo la coerenza del marchio per tutte le campagne correlate, siano esse basate su flusso di lavoro o messaggi transazionali, e includere test A/B o multivariati. L’importazione da un URL converte e tiene traccia automaticamente di tutti i collegamenti per monitorare le prestazioni delle e-mail tramite Reporting dinamico.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/using-existing-content.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
