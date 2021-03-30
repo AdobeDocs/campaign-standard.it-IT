@@ -11,10 +11,10 @@ feature: Impostazioni delle istanze
 role: Amministratore
 level: Esperienza
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 84%
+source-wordcount: '1778'
+ht-degree: 83%
 
 ---
 
@@ -91,9 +91,7 @@ I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ult
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è disponibile solo per gli utenti amministratori dei clienti in hosting su AWS.
->
->Verifica se la tua istanza è in hosting su AWS [qui](https://docs.adobe.com/content/help/it-IT/control-panel/using/faq.html#ims-org-id).
+>Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere all&#39;amministratore l&#39;accesso a un utente sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 
 ## Account OAuth 2.0 {#oauth-account}
 
