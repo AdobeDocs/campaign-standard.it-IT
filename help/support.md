@@ -7,14 +7,14 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Opzioni di assistenza e supporto
+feature: Guida e opzioni di supporto
 role: Professionista
 level: Principiante
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 5%
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Hai bisogno di supporto per Campaign Standard? Sei nel posto giusto!
 
-Ottieni supporto tramite le nostre domande frequenti, best practice, risorse online e portale di supporto. Puoi anche partecipare alla community Campaign, chiedere agli esperti o segnalare un problema.
+Ottieni supporto tramite domande frequenti, best practice, risorse online e portale di supporto. Puoi anche partecipare alla community di Campaign, chiedere agli esperti o segnalare un problema.
 
 <table>
     <tr>
@@ -38,11 +38,11 @@ Ottieni supporto tramite le nostre domande frequenti, best practice, risorse onl
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
 <table>
-    <tr><td><strong>Argomenti Domande e risposte</strong></td><td><strong>Problemi comuni</strong></td><td><strong>Best practice</strong></td><td><strong>Procedura</strong></td></tr>
+    <tr><td><strong>Argomenti per domande e risposte</strong></td><td><strong>Problemi comuni</strong></td><td><strong>Best practice</strong></td><td><strong>Procedure</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="sending/using/monitor-deliverability.md">Consegna</a></li>
+        <li><a href="sending/using/monitor-deliverability.md">Deliverability</a></li>
         <li><a href="administration/using/aep-faq.md">Notifiche in-app e push</a></li>
         <li><a href="designing/using/faq-email-designer.md">E-mail Designer</a></li>
         </ul>
@@ -57,24 +57,24 @@ Ottieni supporto tramite le nostre domande frequenti, best practice, risorse onl
     </td>
    <td valign="top">
         <ul>
-        <li><a href="automating/using/best-practices-workflows.md">Procedure consigliate per i flussi di lavoro</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Best practice per i flussi di lavoro</a></li>
         <li><a href="automating/using/about-workflow-execution.md">Monitoraggio del flusso di lavoro</a></li>
-        <li><a href="sending/using/tracking-messages.md">Comprendere la gestione del tracciamento</a></li>
-        <li><a href="sending/using/about-deliverability.md">Best practice per il recapito messaggi</a></li>
+        <li><a href="sending/using/tracking-messages.md">Informazioni sulla gestione del tracciamento</a></li>
+        <li><a href="sending/using/about-deliverability.md">Best practice per la deliverability</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">Importare dati con flussi di lavoro</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Gestione del fuso orario</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Ricevere una notifica in caso di errore</a></li>
         <li><a href="designing/using/using-existing-content.md">Importare o convertire un contenuto e-mail</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Best practice di consegna</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Best practice per la consegna</a></li>
         </ul>
     </td>
     <td valign="top">
         <ul>
-        <li><a href="rn/using/release-planning.md">Aggiornamento a una nuova versione</a></li>
+        <li><a href="rn/using/release-planning.md">Passare a una nuova versione</a></li>
         <li><a href="sending/using/monitoring-a-delivery.md">Monitorare una consegna</a></li>
-        <li><a href="sending/using/understanding-quarantine-management.md">Comprendere la gestione della quarantena</a></li>
-        <li><a href="start/using/privacy-management.md">Gestione della privacy e del consenso</a></li>
-        <li><a href="automating/using/query.md">Progettazione di una query</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">Informazioni sulla gestione della quarantena</a></li>
+        <li><a href="start/using/privacy-management.md">Privacy e gestione del consenso</a></li>
+        <li><a href="automating/using/query.md">Progettare una query</a></li>
         <li><a href="automating/using/query-samples.md">Esempi di query</a></li>
         <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configurare i canali mobili</a></li>
         </ul>
@@ -86,10 +86,10 @@ Ottieni supporto tramite le nostre domande frequenti, best practice, risorse onl
 
 <img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
 
-### Cos&#39;è il Pannello di controllo Campaign?
+### Che cos’è il Pannello di controllo Campaign?
 
-Il Pannello di controllo Campaign consente di migliorare l’efficienza del lavoro in qualità di amministratore di prodotto di Campaign Standard, consentendoti di gestire le impostazioni e tenere traccia degli utilizzi per ciascuna istanza.
-[Fai clic ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) qui per ulteriori informazioni.
+Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard in modo più efficiente, consentendoti di gestire le impostazioni e tenere traccia dell’utilizzo di ciascuna istanza.
+Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it#discover-control-panel).
 
 >[!NOTE]
 >
@@ -97,38 +97,38 @@ Il Pannello di controllo Campaign consente di migliorare l’efficienza del lavo
 
 ### Come accedere al Pannello di controllo Campaign?
 
-Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. [Fai clic ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) qui per ulteriori informazioni.
+Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel).
 
 ### Domande frequenti sul Pannello di controllo Campaign
 
-[Fai clic ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en) qui per accedere alle domande frequenti sul Pannello di controllo Campaign Campaign.
+[Fai clic qui ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it) per accedere alle domande frequenti sul Pannello di controllo Campaign.
 
 ### Gestione SFTP
 
-Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP collegati alle istanze Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, gestire gli indirizzi IP nell’elenco consentiti e le chiavi SSH pubbliche. [Fai clic ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management) qui per ulteriori informazioni.
+Nel Pannello di controllo Campaign, puoi interagire con tutti i server SFTP collegati alle istanze di Campaign a cui hai accesso. Puoi monitorare la loro capacità di archiviazione, nonché gestire gli indirizzi IP nell’elenco degli indirizzi consentiti e le chiavi SSH pubbliche. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it#sftp-management).
 
 ### Sottodomini e certificati
 
 Puoi monitorare i sottodomini e i relativi certificati. Ulteriori informazioni:
 
-* [Branding dei sottodomini](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=en#subdomains-and-certificates)
-* [Configurare un nuovo sottodominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=en#subdomains-and-certificates)
-* [Monitorare i certificati SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=en#subdomains-and-certificates)
+* [Branding dei sottodomini](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it#subdomains-and-certificates)
+* [Configurare un nuovo sottodominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it#subdomains-and-certificates)
+* [Monitorare i certificati SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=it#subdomains-and-certificates)
 
 ## Richiesta di aiuto
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Il nuovo sistema di ticket è stato introdotto tramite [Adobe Admin Console](https://adminconsole.adobe.com/overview). Il nuovo sistema richiede nuovi account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di assistenza clienti ti verrà configurato il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Il nuovo sistema di ticket è stato introdotto tramite [Adobe Admin Console](https://adminconsole.adobe.com/overview). Il nuovo sistema richiede nuovi account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di assistenza clienti completerà le tue impostazioni il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
-### Chiedi agli esperti!
+### Chiedi agli esperti
 
-Iscriviti alla community Campaign Classic: cerca le risposte alle domande esistenti o rivolgiti alla community. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Iscriviti alla community Campaign Classic: consulta le risposte già fornite alle domande esistenti o sottoponi alla community le tue domande. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Crea un ticket o avvia una chat
 
-La creazione di un caso consente di contattare il team di assistenza clienti Adobe per eventuali problemi riscontrati con i prodotti Adobe. Per risolvere i problemi o risolverli, Adobe Admin Console consente di chattare con l’Assistenza clienti di Adobe.
+La creazione di un caso consente di contattare il team Assistenza clienti di Adobe per eventuali problemi riscontrati con i prodotti Adobe. Per aiutarti a risolvere un problema, Adobe Admin Console consente di chattare con l’Assistenza clienti di Adobe.
 
-Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti a [Adobe Admin Console](https://adminconsole.adobe.com/overview).
+Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
