@@ -10,9 +10,9 @@ feature: Panoramica
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: dd71d843436220c0313d08d76c17633306301456
+source-git-commit: 7bea3b75467d52cb4ffed77416df7c0baf5480e2
 workflow-type: tm+mt
-source-wordcount: '6736'
+source-wordcount: '6748'
 ht-degree: 98%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 98%
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti all’interno della documentazione di Adobe Campaign Standard.
 
 ## Marzo 2021 {#doc-updates-march-2021}
+
+La pagina &quot;Opzioni di aiuto e supporto&quot; per Campaign Standard è stata integrata nella documentazione di base. [Leggi tutto](../../support.md)
 
 La sezione che elenca i passaggi chiave per l’invio di un messaggio è stata migliorata con informazioni e riferimenti aggiuntivi. [Leggi tutto](../../channels/using/key-steps-to-send-a-message.md)
 
@@ -148,7 +150,7 @@ I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in
 
 Sono stati aggiunti casi di utilizzo su come [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decrittare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dati tramite il Pannello di controllo Campaign e i flussi di lavoro di Campaign.
 
-I riferimenti al sito web di Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/ac-support.html)
+I riferimenti al sito web di Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](../../support.md)
 
 La configurazione personalizzata dell’account Litmus è stata rimossa dalla funzionalità di rendering in entrata. [Leggi tutto](../../sending/using/email-rendering.md)
 
