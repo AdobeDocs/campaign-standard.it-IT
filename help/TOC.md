@@ -4,13 +4,13 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
-title: Guida a Campaign Standard
+title: Guida di Campaign Standard
 breadcrumb-title: Centro risorse
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '1743'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
       + [Gestione della privacy](start/using/privacy-management.md)
       + [Richieste di accesso a dati personali](start/using/privacy-requests.md)
       + [Domande frequenti sulla privacy](start/using/privacy-faq.md)
-   + [Opzioni di assistenza e supporto](support.md)
+   + [Guida e opzioni di supporto](support.md)
 + Profili e tipi di pubblico {#profiles-and-audiences}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/using/get-started-profiles-and-audiences.md)
    + Gestione dei profili {#managing-profiles}
