@@ -10,10 +10,10 @@ feature: Panoramica
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '2482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 <li>Il calcolo dell’indicatore <b>Delivered</b> è ora basato sul feedback in tempo reale dall’MTA avanzato per una maggiore precisione e reattività.</li>
 <li>Il servizio EFS risolve il problema dei ritardi nella generazione sincrona di rapporti sui soft bounce.</li>
 </ul>
-<p>Per ulteriori informazioni consulta la <a href="../../sending/using/confirming-the-send.md#message-indicators">documentazione dettagliata</a>.
+<p>Per ulteriori informazioni consulta la <a href="../../sending/using/confirming-the-send.md">documentazione dettagliata</a>.
 </p>
 </td> 
 </tr> 
