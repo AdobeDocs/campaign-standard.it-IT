@@ -10,10 +10,10 @@ feature: Profili
 role: Professionista
 level: Intermedio
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
@@ -26,10 +26,9 @@ Adobe Campaign fornisce un rapporto che mostra il numero di profili attivi. Ques
 
 >[!NOTE]
 >
->Se utilizzi AWS e Campaign Standard dalla build 10368, puoi anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Se utilizzi Campaign Standard dalla build 10368, puoi anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >La metrica dei profili attivi è disponibile e pertinente solo per **istanze di marketing**. Non è né applicabile né disponibile per le istanze di esecuzione, ovvero le istanze MID (mid sourcing) e RT (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]).
-
 
 I profili esclusi durante la preparazione della consegna (regole di tipologia, quarantena, gruppi di controllo) non vengono presi in considerazione. Un profilo per il quale sono state eseguite le destinazioni da più consegne verrà conteggiato una sola volta. Nella parte inferiore del rapporto, troverai l’elenco dei profili attivi per ogni dimensione di targeting.
 
