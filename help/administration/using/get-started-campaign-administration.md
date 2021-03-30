@@ -10,9 +10,9 @@ feature: Gestione degli accessi
 role: Amministratore
 level: Esperienza
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '641'
 ht-degree: 14%
 
 ---
@@ -33,7 +33,7 @@ In qualità di soluzione basata su cloud, Adobe Campaign offre agli amministrato
 >
 >In caso di domande o richieste su questioni di implementazione e configurazione, contatta l’amministratore del tuo account Adobe.
 
-Tieni presente che, se l’istanza è ospitata su AWS, gli utenti amministratori possono anche utilizzare il Pannello di controllo Campaign Campaign per gestire le impostazioni e tenere traccia degli utilizzi per ciascuna istanza. Per ulteriori informazioni, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+Gli utenti amministratori possono inoltre utilizzare il Pannello di controllo Campaign Campaign per gestire le impostazioni e tenere traccia degli utilizzi per ciascuna istanza. Per ulteriori informazioni, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
 
 ## Menu Amministrazione {#administration-menu}
 
