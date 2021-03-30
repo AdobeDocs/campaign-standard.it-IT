@@ -8,10 +8,10 @@ feature: Panoramica
 role: Professionista
 level: Principiante
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '237'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Misura l’impatto delle campagne escludendo parte delle relative audience
   </td>
   <td valign="top">
        <img alt="Assistenza" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/it/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>Ottieni assistenza</strong></a>
     </div>
     <p><em>Leggi le domande frequenti, consulta le best practice e le risorse dell’Aiuto, comunica con gli esperti</em></p>
