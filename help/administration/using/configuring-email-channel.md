@@ -9,15 +9,15 @@ topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: Impostazioni delle istanze
 role: Amministratore
-level: Esperienza
+level: Esperto
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # Configurazione del canale e-mail{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ La sezione **[!UICONTROL Access authorization]** contiene i seguenti parametri:
 
 ## Impostazioni legacy {#legacy-settings}
 
-Se **non** esegui la versione più recente di Campaign, i parametri e le sezioni di interfaccia utente descritte di seguito vengono comunque applicati a te.
+Se stai **NOT** eseguendo la versione più recente di Campaign, i parametri e le sezioni di interfaccia utente descritte di seguito si applicano comunque a te.
 
 ### Nuovi tentativi {#legacy-retries}
 
@@ -340,6 +340,10 @@ I rimbalzi possono avere i seguenti stati di qualifica:
 * **[!UICONTROL To qualify]**: la mail non recapitata deve essere qualificata. Per garantire il corretto funzionamento del recapito messaggi della piattaforma, il team di Adobe Deliverability deve qualificarsi. Se non è qualificato, la posta non recapitata non viene utilizzata per arricchire l’elenco delle regole di elaborazione delle e-mail.
 * **[!UICONTROL Keep]**: la posta non recapitata è stata qualificata e verrà utilizzata dal flusso di lavoro  **Aggiorna per** recapito messaggi da confrontare con le regole di elaborazione e-mail esistenti e arricchire l’elenco.
 * **[!UICONTROL Ignore]**: la mail non recapitata è stata qualificata ma non verrà utilizzata dal flusso di lavoro  **Aggiorna per la** consegna messaggi. Quindi non verrà inviato alle istanze client.
+
+>[!NOTE]
+>
+>In caso di interruzione di un ISP, le e-mail inviate tramite Campaign verranno erroneamente contrassegnate come mancate consegne. Per correggere questo problema, è necessario aggiornare la qualifica di mancato recapito. Per ulteriori informazioni, consulta [questa pagina](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
