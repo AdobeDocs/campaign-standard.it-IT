@@ -7,14 +7,14 @@ audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
+exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 translation-type: tm+mt
-source-git-commit: 9edf26fa933e9faedecef3b381cb160230a51668
+source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
 
 ---
-
 
 # Aggiornare la qualifica del mancato recapito dopo un&#39;interruzione dell&#39;ISP {#update-bounce-qualification.md}
 
@@ -58,4 +58,3 @@ Una volta visualizzato l’elenco dei destinatari interessati, puoi impostarli s
 **Argomenti correlati:**
 * [Comprendere gli errori di consegna](../../sending/using/understanding-delivery-failures.md)
 * [Qualificazione di mail non recapitate](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
