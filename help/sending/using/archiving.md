@@ -9,14 +9,14 @@ topic-tags: sending-and-tracking-messages
 feature: Monitoraggio delle prestazioni
 role: Professionista
 level: Intermedio
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '367'
+ht-degree: 6%
 
 ---
-
 
 # Archiviazione di e-mail con indirizzi Ccn{#archiving-emails}
 
@@ -41,7 +41,7 @@ Una volta attivato, è necessario attivare Ccn e-mail dall’opzione **[!UICONTR
 
 >[!NOTE]
 >
->Attualmente le e-mail archiviate non possono essere inviate con l’MTA avanzato di Adobe Campaign.
+>Attualmente le e-mail archiviate vengono ancora inviate dal modulo di archiviazione legacy, che utilizza un semplice relay SMTP.
 
 ## Attivazione dell&#39;archiviazione dei messaggi e-mail {#activating-email-archiving}
 
