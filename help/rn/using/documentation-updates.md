@@ -9,11 +9,11 @@ topic-tags: campaign-standard-releases
 feature: Panoramica
 role: Professionista
 level: Principiante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bea3b75467d52cb4ffed77416df7c0baf5480e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6748'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 ## Marzo 2021 {#doc-updates-march-2021}
 
-La pagina &quot;Opzioni di aiuto e supporto&quot; per Campaign Standard è stata integrata nella documentazione di base. [Leggi tutto](../../support.md)
+La pagina “Opzioni di aiuto e supporto” per Campaign Standard è stata integrata nella documentazione di base. [Leggi tutto](../../support.md)
 
 La sezione in cui sono elencati i passaggi chiave per l’invio di un messaggio è stata migliorata con informazioni e riferimenti aggiuntivi. [Leggi tutto](../../channels/using/key-steps-to-send-a-message.md)
 
@@ -32,11 +32,11 @@ Sono state aggiunte informazioni per specificare che, quando si seleziona un pub
 
 Le informazioni relative al servizio Audience Destinations e al connettore dati Adobe Experience Platform sono state raggruppate in una nuova sezione. [Leggi tutto](../../integrating/using/aep-about-audience-destinations-service.md)
 
-**L’origine** dati ID dichiarata può ora essere utilizzata anche con l’integrazione del servizio core People. Le informazioni sono state aggiunte nella documentazione relativa all’integrazione del servizio core di Campaign-Audience Manager o People. [Leggi tutto](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+L’origine dati **Declared ID** (ID dichiarato) può ora essere utilizzata anche con l’integrazione del servizio core People. Sono state aggiunte informazioni nella documentazione relativa all’integrazione del servizio core Campaign-Audience Manager o People. [Leggi tutto](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Sono state aggiunte informazioni su come implementare il tracciamento locale per le app mobili. [Leggi tutto](../../administration/using/local-tracking.md)
 
-La sezione [Recapito messaggi](../../sending/using/about-deliverability.md) è stata aggiornata e ora include i collegamenti alla nuova [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Tutte le informazioni generiche relative al recapito messaggi che possono essere applicate a varie soluzioni di Adobe sono state spostate nell&#39; [Appendice alla Guida alle best practice](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
+La sezione [Recapito messaggi](../../sending/using/about-deliverability.md) è stata aggiornata e ora include i collegamenti alla nuova [guida Adobe alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it). Tutte le informazioni generiche relative al recapito dei messaggi valide per varie soluzioni Adobe sono state spostate nell’[Appendice alla Guida alle best practice](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it#additional-resources).
 
 ## Versione 21.1 - febbraio 2021 {#release-21-1---february-2021}
 
@@ -262,7 +262,7 @@ Destinazioni pubblico (beta) - [Ulteriori informazioni](../../integrating/using/
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-La documentazione sulla gestione della privacy è stata aggiornata con le informazioni sulle modalità di creazione del campo di rinuncia CCPA relativo alle risorse di profilo personalizzate. [Ulteriori informazioni](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+La documentazione sulla gestione della privacy è stata aggiornata con le informazioni sulle modalità di creazione del campo di rinuncia CCPA relativo alle risorse di profilo personalizzate. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html)
 
 Le note sulla versione sono state riorganizzate e migliorate. [Ulteriori informazioni](../../rn/using/release-notes.md)
 
@@ -282,7 +282,7 @@ La sezione Esportazione dei registri è stata aggiornata per riflettere la dispo
 
 ## Gennaio 2020 {#doc-updates-january-2020}
 
-La documentazione sulla conformità è stata aggiornata con una nuova sezione relativa alla certificazione IP. <!--[Read more](../../sending/using/ip-certification.md)-->
+La documentazione sul recapito messaggi è stata aggiornata con una nuova sezione relativa alla certificazione IP. <!--[Read more](../../sending/using/ip-certification.md)-->
 
 È disponibile una nuova sezione che descrive come creare un flusso di lavoro per la consegna cross-channel. [Ulteriori informazioni](../../automating/using/workflow-cross-channel-delivery.md)
 
@@ -362,7 +362,7 @@ Nella sezione Notifiche push è stata aggiunta una nuova parte sulla modalità d
 
 È stata aggiunta una nuova sezione su come utilizzare le trappole. [Ulteriori informazioni](../../sending/using/using-traps.md).
 
-Nella pagina è stata inserita una nota sull’opzione **Launch_URL_Campaign** che spiega come configurare un’app mobile tramite gli SDK di Adobe Experience Platform. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+Nella pagina è stata inserita una nota sull’opzione **Launch_URL_Campaign** che spiega come configurare un’app mobile tramite gli SDK di Adobe Experience Platform. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)
 
 La guida di E-mail Designer è stata riorganizzata. [Ulteriori informazioni](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -434,7 +434,7 @@ Durante la chiamata di un flusso di lavoro con parametri, è stato aggiunto un c
 
 **Nuove funzionalità incluse nella versione**
 
-Pannello di controllo Campaign - [Ulteriori informazioni](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Pannello di controllo Campaign - [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html)
 
 Notifiche locali - [Ulteriori informazioni](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -588,9 +588,9 @@ Nell’attività Estrarre file sono state aggiunte informazioni sulla nuova opzi
 
 La sezione Configurazione di un’app mobile tramite SDK V4 è stata spostata [qui](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
 
-La sezione Configurazione di un’app mobile mediante gli SDK di Adobe Experience Platform è stata trasferita [qui](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+La sezione Configurazione di un’app mobile mediante gli SDK di Adobe Experience Platform è stata trasferita [qui](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
 
-I video sono stati aggiornati e spostati [qui](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
+I video sono stati aggiornati e spostati [qui](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/overview.html).
 
 È stata aggiornata la sezione Tipo di utenti. [Ulteriori informazioni](../../administration/using/users-management.md)
 
@@ -620,7 +620,7 @@ Importazione automatizzata dei contenuti da un URL in fase di preparazione. [Ult
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-È stata aggiunta una nuova nota tecnica sul protocollo e sulle impostazioni del connettore SMS. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+È stata aggiunta una nuova nota tecnica sul protocollo e sulle impostazioni del connettore SMS. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/sms-connector-protocol-and-settings.html)
 
 È stata aggiornata l’integrazione di Experience Manager con la documentazione di Adobe Campaign. [Ulteriori informazioni](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -692,7 +692,7 @@ Sono state unite alcune pagine della documentazione dell’editor dei contenuti,
 
 **Nuove funzionalità incluse nella versione**
 
-Regolamento generale sulla protezione dei dati UE (RGPD) - [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+Regolamento generale sulla protezione dei dati UE (RGPD) - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it)
 
 Creative Designer per e-mail - [Ulteriori informazioni](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ La sezione “Risorse personalizzate” è stata chiarita con una procedura più
 
 È stata aggiunta una nota tecnica che illustra la struttura del payload ricevuto all’interno di un’app mobile. [Ulteriori informazioni.](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
 
-La [sezione](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) Configurazione canale push è stata aggiornata con nuovi dati di payload sulla versione del sistema operativo da aggiungere durante la definizione dei postback all’interno dell’interfaccia di Adobe Mobile Services.
+La [sezione](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) Configurazione canale push è stata aggiornata con nuovi dati di payload sulla versione del sistema operativo da aggiungere durante la definizione dei postback all’interno dell’interfaccia di Adobe Mobile Services.
 
 La documentazione SMS è stata aggiornata con alcuni chiarimenti aggiunti alla sezione [risposte automatiche](../../channels/using/managing-incoming-sms.md#managing-stop-sms) SMS.
 
@@ -918,7 +918,7 @@ La guida &quot;Consegne&quot; è stata riorganizzata e rinominata &quot;Canali&q
 
 Numerose schermate sono state aggiornate per riflettere le modifiche all’interfaccia.
 
-È ora disponibile una nuova nota tecnica: &quot;Integrazione dell’SDK di Adobe Mobile con la tua app mobile&quot;. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+È ora disponibile una nuova nota tecnica: &quot;Integrazione dell’SDK di Adobe Mobile con la tua app mobile&quot;. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html)
 
 Sono state aggiunte le istruzioni per configurare il servizio core People o l’integrazione Audience Manager con Adobe Campaign. [Leggi tutto](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -948,9 +948,9 @@ La Guida al Flusso di lavoro è stata riorganizzata ed estesa. Scopri facilmente
 
 Ora è disponibile il calcolo degli indicatori di report per i report dinamici, tra cui la descrizione completa e la formula di calcolo. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
-Nuova sezione dedicata alla configurazione di Adobe Mobile Services per l’utilizzo delle notifiche push e dei dati dei punti di interesse all’interno di Adobe Campaign. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+Nuova sezione dedicata alla configurazione di Adobe Mobile Services per l’utilizzo delle notifiche push e dei dati dei punti di interesse all’interno di Adobe Campaign. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)
 
-Sono state aggiornate le sezioni di configurazione e implementazione delle app mobili, inclusi i passaggi più dettagliati per la configurazione e l’invio delle notifiche push. [Ulteriori informazioni](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+Sono state aggiornate le sezioni di configurazione e implementazione delle app mobili, inclusi i passaggi più dettagliati per la configurazione e l’invio delle notifiche push. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)
 
 È stata aggiornata la sezione su come lavorare con le immagini all’interno di Campaign. [Ulteriori informazioni](../../designing/using/images.md#setting-up-image-properties)
 
@@ -962,7 +962,7 @@ Sono state aggiornate le sezioni di configurazione e implementazione delle app m
 
 Reporting dinamico - [Ulteriori informazioni](../../reporting/using/about-dynamic-reports.md)
 
-Integrazione di Dreamweaver (Labs) - [Ulteriori informazioni](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Integrazione di Dreamweaver (Labs) - [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Ottimizzazione manuale del tempo di invio - [Ulteriori informazioni](../../sending/using/optimizing-the-sending-time.md)
 
