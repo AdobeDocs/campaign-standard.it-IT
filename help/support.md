@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: Guida e opzioni di supporto
 role: Professionista
 level: Principiante
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="sending/using/monitor-deliverability.md">Deliverability</a></li>
+        <li><a href="sending/using/monitor-deliverability.md">Recapito messaggi</a></li>
         <li><a href="administration/using/aep-faq.md">Notifiche in-app e push</a></li>
         <li><a href="designing/using/faq-email-designer.md">E-mail Designer</a></li>
         </ul>
@@ -50,20 +50,20 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
     <td valign="top">
         <ul>
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gestione degli errori nei flussi di lavoro</a></li>
-        <li><a href="automating/using/best-practices-workflows.md">Risoluzione dei problemi di esecuzione del flusso di lavoro</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Risoluzione dei problemi di esecuzione dei flussi di lavoro</a></li>
         <li><a href="api/using/troubleshooting.md">Risoluzione dei problemi API</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Comprendere gli errori di consegna</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Errori di consegna</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
         <li><a href="automating/using/best-practices-workflows.md">Best practice per i flussi di lavoro</a></li>
         <li><a href="automating/using/about-workflow-execution.md">Monitoraggio del flusso di lavoro</a></li>
-        <li><a href="sending/using/tracking-messages.md">Informazioni sulla gestione del tracciamento</a></li>
-        <li><a href="sending/using/about-deliverability.md">Best practice per la deliverability</a></li>
+        <li><a href="sending/using/tracking-messages.md">Gestione del tracciamento</a></li>
+        <li><a href="sending/using/about-deliverability.md">Best practice per il recapito messaggi</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">Importare dati con flussi di lavoro</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Gestione del fuso orario</a></li>
-        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Ricevere una notifica in caso di errore</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Ricevere una notifica in caso di malfunzionamento</a></li>
         <li><a href="designing/using/using-existing-content.md">Importare o convertire un contenuto e-mail</a></li>
         <li><a href="sending/using/delivery-best-practices.md">Best practice per la consegna</a></li>
         </ul>
@@ -72,7 +72,7 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
         <ul>
         <li><a href="rn/using/release-planning.md">Passare a una nuova versione</a></li>
         <li><a href="sending/using/monitoring-a-delivery.md">Monitorare una consegna</a></li>
-        <li><a href="sending/using/understanding-quarantine-management.md">Informazioni sulla gestione della quarantena</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">Gestione della quarantena</a></li>
         <li><a href="start/using/privacy-management.md">Privacy e gestione del consenso</a></li>
         <li><a href="automating/using/query.md">Progettare una query</a></li>
         <li><a href="automating/using/query-samples.md">Esempi di query</a></li>
@@ -93,11 +93,11 @@ Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/do
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere all&#39;amministratore l&#39;accesso a un utente sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 
 ### Come accedere al Pannello di controllo Campaign?
 
-Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel).
+Il Pannello di controllo Campaign è disponibile direttamente da Adobe Experience Cloud. Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=it#discover-control-panel).
 
 ### Domande frequenti sul Pannello di controllo Campaign
 
@@ -131,4 +131,4 @@ La creazione di un caso consente di contattare il team Assistenza clienti di Ado
 
 Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
