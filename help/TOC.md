@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
 title: Guida di Campaign Standard
 breadcrumb-title: Centro risorse
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -439,7 +439,7 @@ ht-degree: 99%
    + Configurazione dei canali {#configuring-channels}
       + [Informazioni sulla configurazione dei canali](administration/using/about-channel-configuration.md)
       + [Configurazione del canale e-mail](administration/using/configuring-email-channel.md)
-      + [Aggiornare la qualifica di mancato recapito dopo un&#39;interruzione dell&#39;ISP](administration/using/update-bounce-qualification.md)
+      + [Aggiornare la qualifica di mancato recapito dopo un’interruzione del servizio ISP](administration/using/update-bounce-qualification.md)
       + [Configurazione di un&#39;app mobile](administration/using/configuring-a-mobile-application.md)
    + Configurazione dei canali mobili {#configuring-mobile}
       + [Implementazione del tracciamento push](administration/using/push-tracking.md)
