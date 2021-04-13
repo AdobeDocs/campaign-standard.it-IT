@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Ingegnere dati
-level: Esperienza
+role: Data Engineer
+level: Experienced
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # Must-Read {#must-read}
 
@@ -25,6 +25,12 @@ ht-degree: 0%
 * Le API di Adobe Campaign devono essere utilizzate solo da Server a Server.
 * Controlla sempre con il tuo contatto tecnico Adobe se il caso d’uso che desideri implementare è allineato con la scala consentita dalle API Adobe Campaign.
 * L&#39;impostazione di un accesso AdobeIO richiede autorizzazioni specifiche. Per qualsiasi problema, contatta il supporto Adobe.
+
+## Diritti e accesso
+
+* Per impostazione predefinita, le API di Adobe Campaign utilizzano il contesto amministratore, pertanto le unità e i ruoli dell’organizzazione non sono applicabili.
+* Le API di Adobe Campaign sono escluse dal contesto del ruolo.
+* Se desideri configurare le API con un’unità o ruoli dell’organizzazione, contatta prima il contatto tecnico per Adobe.
 
 ## Rappresentanza delle risorse
 
