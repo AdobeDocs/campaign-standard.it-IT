@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Architetto dati
-level: Intermedio
+role: Data Architect
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 90%
+source-wordcount: '669'
+ht-degree: 86%
 
 ---
-
 
 # Informazioni sulle integrazioni di Campaign{#get-started-campaign-integrations}
 
@@ -74,6 +74,11 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> Consente di scambiare audiences con le diverse applicazioni Adobe Experience Cloud utilizzate.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servizio core People (Profili e Audiences)</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <td> L’integrazione tra Adobe Campaign e Adobe Real-time Customer Data Platform (RTCDP) consente di condividere i dati dei segmenti e importare i tipi di pubblico in Adobe Campaign.</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">Guida introduttiva a Origini e Destinazioni</a></td>
+  </tr> 
   <tr> 
    <td> Servizio core Assets e Assets on-demand<br /> </td> 
    <td> Consente di inserire gli assets dalla libreria di Adobe Experience Cloud nelle e-mail e nelle pagine di destinazione create in Adobe Campaign.<br /> </td> 
@@ -105,4 +110,3 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
   </tr> 
  </tbody> 
 </table>
-
