@@ -4,7 +4,7 @@ solution: Campaign Standard
 product: campaign
 title: Documentazione di Adobe Campaign Standard
 description: Sfoglia la documentazione di Campaign Standard
-feature: Panoramica
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3

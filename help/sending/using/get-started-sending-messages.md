@@ -6,8 +6,8 @@ description: Prepara, testa, pianifica, invia e monitora i messaggi.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Professionista
-level: Intermedio
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

@@ -5,7 +5,7 @@ title: Inserire il pubblico di Adobe Experience Platform in Campaign
 description: Scopri come inserire i tipi di pubblico di Adobe Experience Platform in Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Origini e destinazioni
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

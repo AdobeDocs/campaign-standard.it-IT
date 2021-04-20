@@ -5,9 +5,9 @@ title: '"Passaggio 2: pubblicare l’estensione"'
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Modello dati
-role: Sviluppatore
-level: Esperienza
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

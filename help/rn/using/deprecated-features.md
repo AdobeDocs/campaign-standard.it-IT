@@ -6,9 +6,9 @@ description: In questa pagina sono elencate le funzioni obsolete e rimosse di Ad
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Panoramica
-role: Professionista
-level: Principiante
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

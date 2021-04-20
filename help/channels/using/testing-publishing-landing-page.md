@@ -6,9 +6,9 @@ description: Scopri come verificare e pubblicare una pagina di destinazione in A
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Pagine di destinazione
-role: Professionista
-level: Intermedio
+feature: Landing Pages
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

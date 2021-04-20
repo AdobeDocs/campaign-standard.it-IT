@@ -6,9 +6,9 @@ description: Scopri la funzione di rendering di e-mail.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Ottimizzazione dei tempi di invio
-role: Professionista
-level: Intermedio
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

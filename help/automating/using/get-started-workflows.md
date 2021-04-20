@@ -6,9 +6,9 @@ description: Automatizza i processi con i flussi di lavoro, gestisci dati e tipi
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Flussi di lavoro
-role: Architetto dati
-level: Principiante
+feature: Workflows
+role: Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

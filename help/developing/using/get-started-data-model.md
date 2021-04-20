@@ -6,7 +6,7 @@ description: Arricchisci il modello di dati di Campaign Standard con campi e ris
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Modello dati
+feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d

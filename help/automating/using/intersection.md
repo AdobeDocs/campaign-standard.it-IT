@@ -6,9 +6,9 @@ description: L’attività Intersection ti consente di mantenere solo gli elemen
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-feature: Flussi di lavoro
-role: Architetto dati
-level: Intermedio
+feature: Workflows
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

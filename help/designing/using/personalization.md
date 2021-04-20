@@ -6,9 +6,9 @@ description: Scopri come personalizzare un’e-mail in E-mail Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Progettazione e-mail
-role: Professionista
-level: Intermedio
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

@@ -6,7 +6,7 @@ description: In questa pagina sono elencate le prossime versioni di Adobe Campai
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Panoramica
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1

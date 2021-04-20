@@ -6,8 +6,8 @@ description: Ulteriori informazioni sulle best practice da seguire per l’impor
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Flussi di lavoro
-role: Architetto dati
+feature: Workflows
+role: Data Architect
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: Scopri come ricevere una notifica di un indirizzo errato ed esclude
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Direct mailing
-role: Professionista
-level: Intermedio
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

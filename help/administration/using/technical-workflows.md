@@ -6,9 +6,9 @@ description: I flussi di lavoro tecnici sono flussi di lavoro preconfigurati e p
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Impostazioni delle istanze
-role: Amministratore
-level: Esperienza
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

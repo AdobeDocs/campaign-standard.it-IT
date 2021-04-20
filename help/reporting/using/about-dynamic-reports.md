@@ -6,9 +6,9 @@ description: Con i rapporti dinamici, trascina e rilascia variabili e dimensioni
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Generazione rapporti
+feature: Reporting
 role: Leader
-level: Principiante
+level: Beginner
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

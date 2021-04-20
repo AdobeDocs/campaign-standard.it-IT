@@ -6,9 +6,9 @@ description: Analizza il successo delle campagne in report dinamici integrati o 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Generazione rapporti
+feature: Reporting
 role: Leader
-level: Principiante
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

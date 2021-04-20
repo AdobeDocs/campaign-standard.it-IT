@@ -6,9 +6,9 @@ description: Segui questi passaggi per creare un’e-mail con targeting multilin
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: E-mail
-role: Professionista
-level: Intermedio
+feature: Email
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

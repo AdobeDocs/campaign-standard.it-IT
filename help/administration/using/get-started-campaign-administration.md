@@ -6,9 +6,9 @@ description: Scopri la gestione di utenti e autorizzazioni, le linee guida per i
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Gestione degli accessi
-role: Amministratore
-level: Esperienza
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

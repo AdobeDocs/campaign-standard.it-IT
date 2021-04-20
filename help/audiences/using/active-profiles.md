@@ -6,9 +6,9 @@ description: Puoi accedere a un rapporto dedicato sulle metriche del cliente e v
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profili
-role: Professionista
-level: Intermedio
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

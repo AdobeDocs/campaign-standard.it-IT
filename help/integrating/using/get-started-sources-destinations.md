@@ -5,7 +5,7 @@ title: Guida introduttiva a Origini e Destinazioni
 description: Ulteriori informazioni su Origini e Destinazioni Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Origini e destinazioni
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

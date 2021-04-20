@@ -6,9 +6,9 @@ description: Scopri come creare, gestire e inviare un messaggio di follow-up.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Messaggistica transazionale
-role: Professionista
-level: Intermedio
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

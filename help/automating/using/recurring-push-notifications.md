@@ -6,9 +6,9 @@ description: In questo esempio, una notifica push personalizzata viene inviata o
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: Flussi di lavoro
-role: Architetto dati
-level: Intermedio
+feature: Workflows
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

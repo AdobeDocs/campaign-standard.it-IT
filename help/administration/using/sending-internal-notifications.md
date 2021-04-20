@@ -6,9 +6,9 @@ description: Scopri come inviare notifiche di sistema in tempo reale ai tuoi ute
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Impostazioni delle istanze
-role: Amministratore
-level: Esperienza
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
