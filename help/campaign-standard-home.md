@@ -4,15 +4,15 @@ solution: Campaign Standard
 product: campaign
 title: Documentazione di Adobe Campaign Standard
 description: Sfoglia la documentazione di Campaign Standard
-feature: Overview
+feature: Panoramica
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## Novità
 
-* **[Campaign - ](integrating/using/get-started-sources-destinations.md)**<br/> Integrazione RTCDProcedura come condividere i dati tra Campaign e Real-time Customer Data Platform (RTCDP)
+* **[Campaign - Integrazione RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Come condividere i dati tra Campaign e Real-time Customer Data Platform (RTCDP)
 
 * **[Aggiornamento degli hard bounce erronei](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> Scopri come aggiornare gli hard bounce erronei dovuti a interruzioni del servizio Gmail
 
