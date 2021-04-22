@@ -6,15 +6,15 @@ description: In questa pagina sono elencate le prossime versioni di Adobe Campai
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Overview
+feature: Panoramica
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b0995f37251644f959425de5bfcc2620e0ef877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release
 
 **D: Qual è il processo di convalida?**
 
-R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
 **D: Sarà possibile accedere all’istanza durante il processo di aggiornamento?**
 
@@ -87,4 +87,4 @@ R: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l’aggiorn
 
 R: Quando accedi a Campaign, viene visualizzato un pop-up di notifica della versione, con la versione più recente.
 
-Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
