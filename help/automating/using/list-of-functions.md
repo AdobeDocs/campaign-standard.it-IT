@@ -6,17 +6,17 @@ description: Lo strumento di modifica delle query ti consente di utilizzare funz
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: Workflows
+feature: Flussi di lavoro
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 98%
+source-wordcount: '1941'
+ht-degree: 97%
 
 ---
-
 
 # Elenco delle funzioni{#list-of-functions}
 
@@ -660,7 +660,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Effettua la cifratura di una stringa di caratteri (primo parametro) utilizzando l’algoritmo AES (modalità blocco CBC) con una chiave (secondo parametro) e un vettore di inizializzazione (terzo parametro). La chiave e il vettore di inizializzazione devono essere forniti in una rappresentazione esadecimale (a partire da <strong>\x</strong>). Il risultato sarà esadecimale senza <strong>\x</strong>.<br /> Tieni presente che le dimensioni della chiave possono essere 128 bit, 192 bit, 256 bit (16, 24, 32 caratteri esadecimali), ma si consiglia di utilizzare 256 bit e un IV randomizzato della stessa lunghezza della chiave.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;Stringa&gt;, &lt;Stringa&gt;, &lt;Stringa&gt;)<br /> Ad esempio: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;Stringa&gt;, &lt;Stringa&gt;, &lt;Stringa&gt;)<br /> Ad esempio: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,4 +749,3 @@ Le funzioni di rappresentazione vengono utilizzate per ordinare valori.
   </tr> 
  </tbody> 
 </table>
-
