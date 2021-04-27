@@ -5,27 +5,27 @@ title: Esportare dati da Campaign a Adobe Experience Platform
 description: Scopri come esportare dati da Campaign Standard a Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
+feature: Origini e destinazioni
 role: Data Architect
 level: Intermediate
+exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 translation-type: tm+mt
-source-git-commit: bf442b12506ef71cc76aa7fffb0e4c8bb2ce70da
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 4%
 
 ---
 
-
 # Esportare dati da Campaign a Adobe Experience Platform {#sources}
 
-Per esportare i dati di Campaign Standard in Adobe Real-time Customer Data Platform (RTCDP), devi innanzitutto creare un flusso di lavoro in Campaign Standard per esportare nella posizione di archiviazione BLOB S3 o Azure i dati che desideri condividere.
+Per esportare i dati di Campaign Standard in Adobe Real-time Customer Data Platform (RTCDP), devi innanzitutto creare un flusso di lavoro in Campaign Standard per esportare nel servizio di archiviazione Amazon (S3) o nel percorso di archiviazione BLOB di Azure i dati che desideri condividere.
 
 Una volta configurato il flusso di lavoro e inviati i dati al percorso di archiviazione, è necessario collegare il percorso di archiviazione BLOB S3 o Azure come **Origine** in Adobe experience Platform.
 
 >[!NOTE]
-
-È consigliabile esportare solo i dati generati da Campaign (ad esempio, invii, aperture, clic, ecc.) a Adobe Experience Platform. I dati acquisiti da un’origine di terze parti (come il CRM) devono essere importati direttamente in Adobe Experience Platform.
+>
+>È consigliabile esportare solo i dati generati da Campaign (ad esempio, invii, aperture, clic, ecc.) a Adobe Experience Platform. I dati acquisiti da un’origine di terze parti (come il CRM) devono essere importati direttamente in Adobe Experience Platform.
 
 ## Creare un flusso di lavoro di esportazione in Campaign Standard
 
@@ -55,7 +55,7 @@ Argomenti correlati:
 
 ## Collegare la posizione di archiviazione come origine
 
-Di seguito sono elencati i passaggi principali per collegare il percorso di archiviazione BLOB S3 o Azure come **Origine** in Adobe experience Platform. Informazioni dettagliate su ciascuno di questi passaggi sono disponibili nella documentazione [Connettori sorgente](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
+Di seguito sono elencati i passaggi principali per collegare il servizio di archiviazione Amazon (S3) o il percorso di archiviazione BLOB di Azure come **Origine** in Adobe Experience Platform. Informazioni dettagliate su ciascuno di questi passaggi sono disponibili nella documentazione [Connettori sorgente](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
 
 1. Nel menu Adobe Experience Platform **[!UICONTROL Sources]** , crea una connessione al percorso di archiviazione:
 
