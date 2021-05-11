@@ -3,38 +3,38 @@ solution: Campaign Standard
 product: campaign
 title: Problema di firma degli URL tracciati
 description: Problema di firma degli URL tracciati
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # Problema di firma degli URL tracciati {#tracked-urls}
 
-In seguito alle modifiche recenti, gli URL tracciati inviati da Campaign possono non riuscire. Alcune cassette postali possono essere più interessate di altre, in quanto alcune aziende dispongono di strumenti di sicurezza specifici che possono influenzare i collegamenti e modificare il meccanismo di firma degli URL.
+In seguito alle modifiche recenti, gli URL tracciati inviati da Campaign potrebbero non funzionare. Alcune caselle e-mail possono essere più interessate di altre, in particolare quelle di aziende che usano strumenti di sicurezza specifici che possono interessare i collegamenti e modificare il meccanismo di firma degli URL.
 
-Di conseguenza, l’Adobe ha deciso di disabilitare il meccanismo di firma per i collegamenti di tracciamento. Questa procedura corregge tutti i collegamenti di tracciamento.
+Di conseguenza, Adobe ha deciso di disabilitare il meccanismo di firma per i collegamenti di tracciamento. Questa procedura corregge tutti i collegamenti di tracciamento.
 
-I collegamenti di annullamento all’abbonamento possono non riuscire come qualsiasi altro collegamento, la frequenza è variabile da host a host ma è inferiore all’1%.
+Tieni presente che anche i collegamenti di annullamento di abbonamento, come tutti gli altri collegamenti, possono non riuscire; la frequenza varia da host a host ma è comunque inferiore all’1%.
 
-**Siete interessati?**
+**Sei interessato da questo problema?**
 
-Alcuni utenti di Campaign Standard sono interessati dal meccanismo di firma per i collegamenti nelle e-mail introdotto in [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020) - ottobre 2020 - ed è abilitato per impostazione predefinita per tutti i clienti.
+Alcuni utenti di Campaign Standard sono interessati a causa del meccanismo di firma per i collegamenti nelle e-mail, introdotto in [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020) (ottobre 2020) e, per impostazione predefinita, abilitato per tutti i clienti.
 
-**Come si aggiorna?**
+**Come si esegue l’aggiornamento?**
 
-Adobe collaborerà con te per aggiornare la tua configurazione a breve. Riceverai una notifica e-mail con la cronologia dell’aggiornamento.
+Adobe collaborerà con te per aggiornare la tua configurazione, a breve. Riceverai una notifica e-mail con le tempistiche dell’aggiornamento.
 
-**Qual è l&#39;impatto?**
+**Quale sarà l’impatto dell&#39;aggiornamento?**
 
 La manutenzione richiede un massimo di 25 minuti di inattività e durante questo periodo tutte le consegne, i collegamenti di tracciamento e le chiamate API non funzioneranno.
 
-Al termine dell’aggiornamento, tutti i collegamenti funzionano come previsto.
+Al termine dell’aggiornamento, tutti i collegamenti torneranno a funzionare come previsto.
 
 >[!NOTE]
 >
->Per qualsiasi domanda su queste modifiche, contatta l&#39; [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Per qualsiasi domanda su queste modifiche, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
