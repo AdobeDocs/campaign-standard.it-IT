@@ -6,11 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
 title: Guida di Campaign Standard
 breadcrumb-title: Centro risorse
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -47,15 +46,15 @@ ht-degree: 100%
       + [Gestione della privacy](start/using/privacy-management.md)
       + [Richieste di accesso a dati personali](start/using/privacy-requests.md)
       + [Domande frequenti sulla privacy](start/using/privacy-faq.md)
-   + [Guida e opzioni di supporto](support.md)
-+ Profili e tipi di pubblico {#profiles-and-audiences}
+   + [Opzioni di assistenza e supporto](support.md)
++ Profili e pubblico {#profiles-and-audiences}
    + [Guida introduttiva a profili e tipi di pubblico](audiences/using/get-started-profiles-and-audiences.md)
    + Gestione dei profili {#managing-profiles}
       + [Informazioni sui profili](audiences/using/about-profiles.md)
       + [Creazione di profili](audiences/using/creating-profiles.md)
       + [Modifica dei profili](audiences/using/editing-profiles.md)
-      + [Integrated Customer Profile](audiences/using/integrated-customer-profile.md)
-      + [Profili attivi](audiences/using/active-profiles.md)
+      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
+      + [Metriche e profili attivi](audiences/using/active-profiles.md)
       + [Gestione dei profili di test](audiences/using/managing-test-profiles.md)
       + [Arricchimento del database di Campaign](audiences/using/enriching-campaign-database.md)
    + Gestione dei tipi di pubblico {#managing-audiences}
@@ -117,7 +116,7 @@ ht-degree: 100%
       + [Creazione della direct mailing](channels/using/creating-the-direct-mail.md)
       + [Definizione del pubblico della direct mailing](channels/using/defining-the-direct-mail-audience.md)
       + [Definizione del contenuto della direct mailing](channels/using/defining-the-direct-mail-content.md)
-   + Messaggi transazionali {#transactional-messaging}
+   + Messaggistica transazionale {#transactional-messaging}
       + [Guida introduttiva ai messaggi transazionali](channels/using/getting-started-with-transactional-msg.md)
       + [Best practice e limitazioni](channels/using/transactional-messaging-limitations.md)
       + Configurazione evento {#event-configuration}
@@ -182,9 +181,9 @@ ht-degree: 100%
       + [Informazioni sugli errori di consegna](sending/using/understanding-delivery-failures.md)
       + [Informazioni sulla gestione della quarantena](sending/using/understanding-quarantine-management.md)
    + Gestione delle consegne {#managing-deliverability}
-      + [Informazioni sulla consegna messaggi](sending/using/about-deliverability.md)
+      + [Informazioni sul recapito messaggi](sending/using/about-deliverability.md)
       + [Controllo di contenuti e-mail](sending/using/control-email-content.md)
-      + [Monitoraggio della consegna messaggi](sending/using/monitor-deliverability.md)
+      + [Monitoraggio del recapito messaggi](sending/using/monitor-deliverability.md)
       + [Risoluzione dei problemi](sending/using/troubleshooting.md)
    + Utilizzo delle regole di tipologia {#working-with-typology-rules}
       + [Informazioni su tipologie e regole di tipologia](sending/using/about-typology-rules.md)
@@ -193,7 +192,7 @@ ht-degree: 100%
       + [Regole di filtro](sending/using/filtering-rules.md)
       + [Regole di affaticamento](sending/using/fatigue-rules.md)
       + [Regole di controllo](sending/using/control-rules.md)
-+ Reporting {#reporting}
++ Reportistica {#reporting}
    + [Guida introduttiva ai report dinamici](reporting/using/get-started-reporting.md)
    + Informazioni sul reporting {#about-reporting}
       + [Informazioni sui report dinamici](reporting/using/about-dynamic-reports.md)
@@ -223,7 +222,7 @@ ht-degree: 100%
       + [Aggiunta di visualizzazioni](reporting/using/adding-visualizations.md)
       + [Aggiunta di componenti](reporting/using/adding-components.md)
       + [Creazione di una dimensione di profilo personalizzata](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Creazione di un report basato sui segmenti del flusso di lavoro](reporting/using/creating-a-report-workflow-segment.md)
+      + [Creazione di un rapporto basato sui segmenti del flusso di lavoro](reporting/using/creating-a-report-workflow-segment.md)
 + Integrazione con altre soluzioni {#integrating-with-adobe-cloud}
    + [Guida introduttiva alle integrazioni con Campaign](integrating/using/get-started-campaign-integrations.md)
    + Campaign ed Experience Manager {#working-with-campaign-and-experience-manager}
@@ -253,7 +252,7 @@ ht-degree: 100%
    + Campaign e Triggers {#working-with-campaign-and-triggers}
       + [Informazioni su Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configurazione di Triggers in Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
-      + [Utilizzo di Triggers in Campaign](integrating/using/using-triggers-in-campaign.md)
+      + [Utilizzo di triggers in Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Verifica degli attivatori](integrating/using/testing-your-triggers.md)
       + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
@@ -290,12 +289,12 @@ ht-degree: 100%
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
       + [Interfaccia dei flussi di lavoro](automating/using/workflow-interface.md)
       + [Creazione di un flusso di lavoro](automating/using/building-a-workflow.md)
-      + [Procedure consigliate per i flussi di lavoro](automating/using/best-practices-workflows.md)
+      + [Best practice per i flussi di lavoro](automating/using/best-practices-workflows.md)
    + Esecuzione di un flusso di lavoro {#executing-a-workflow}
       + [Informazioni sull’esecuzione di un flusso di lavoro](automating/using/about-workflow-execution.md)
-      + [Ciclo di vita del flusso di lavoro](automating/using/workflow-life-cycle.md)
+      + [Ciclo di vita di un flusso di lavoro](automating/using/workflow-life-cycle.md)
       + [Comandi di esecuzione](automating/using/execution-commands.md)
-      + [Monitoraggio dell’esecuzione di un flusso di lavoro](automating/using/monitoring-workflow-execution.md)
+      + [Monitoraggio dell’esecuzione dei flussi di lavoro](automating/using/monitoring-workflow-execution.md)
       + [Gestione delle opzioni di esecuzione](automating/using/managing-execution-options.md)
       + [Gestione delle proprietà delle attività](automating/using/activity-properties.md)
       + [Esecuzione sovrapposta di flussi di lavoro pianificati](automating/using/scheduled-workflows-execution.md)
@@ -378,7 +377,7 @@ ht-degree: 100%
          + [Query incrementale per gli abbonati a un servizio](automating/using/incremental-query-on-subscribers.md)
          + [Segmentazione in base ai gruppi di età](automating/using/segmentation-age-groups.md)
          + [Utilizzo di risorse diverse dalle dimensioni di targeting](automating/using/using-resources-different-from-targeting-dimensions.md)
-      + Gestione dati {#data-management}
+      + Gestione dei dati {#data-management}
          + [Riconciliare un pubblico di tipo File con il database](automating/using/reconcile-file-audience-with-database.md)
          + [Deduplicazione di dati da un file importato](automating/using/deduplicating-data-imported-file.md)
          + [Arricchimento dei dati del profilo con i dati contenuti in un file](automating/using/enriching-profile-data-file.md)
@@ -422,7 +421,7 @@ ht-degree: 100%
       + [Pagine di destinazione](developing/using/datamodel-landingpage.md)
       + [Storico dei dati marketing](developing/using/datamodel-history.md)
       + [Profilo](developing/using/datamodel-profile.md)
-      + [Programma](developing/using/datamodel-program.md)
+      + [programma](developing/using/datamodel-program.md)
       + [Iscritto Seed](developing/using/datamodel-seed.md)
       + [Servizio](developing/using/datamodel-service.md)
       + [Evento iscrizione](developing/using/datamodel-subscription.md)
@@ -444,7 +443,7 @@ ht-degree: 100%
    + Configurazione dei canali {#configuring-channels}
       + [Informazioni sulla configurazione dei canali](administration/using/about-channel-configuration.md)
       + [Configurazione del canale e-mail](administration/using/configuring-email-channel.md)
-      + [Aggiornare la qualifica di mancato recapito dopo un’interruzione del servizio ISP](administration/using/update-bounce-qualification.md)
+      + [Aggiornare la qualifica di mancato recapito dopo un’interruzione del servizio dell’ISP](administration/using/update-bounce-qualification.md)
       + [Configurazione di un&#39;app mobile](administration/using/configuring-a-mobile-application.md)
    + Configurazione dei canali mobili {#configuring-mobile}
       + [Implementazione del tracciamento push](administration/using/push-tracking.md)
@@ -475,7 +474,7 @@ ht-degree: 100%
       + [Perché utilizzare le API di Campaign Standard](api/using/why-using-campaign-standard-apis.md)
       + [Impostazione dell’accesso API](api/using/setting-up-api-access.md)
    + Concetti globali {#global-concepts}
-      + [Must-read](api/using/must-read.md)
+      + [Da leggere](api/using/must-read.md)
       + [Endpoint](api/using/endpoints.md)
       + [Meccanismo metadati](api/using/metadata-mechanism.md)
       + [Verbi](api/using/verbs.md)
