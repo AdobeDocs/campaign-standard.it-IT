@@ -1,45 +1,49 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Profili attivi
-description: Puoi accedere a un rapporto dedicato sulle metriche del cliente e visualizzare i profili attivi nel database Campaign.
-audience: audiences
-content-type: reference
-topic-tags: managing-profiles
-feature: Profiles
+title: Profili attivi della campagna
+description: Scopri come accedere alle metriche del cliente e ai profili attivi
+feature: Profili
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 22516348-7695-4579-99eb-480e5b723ccc
+source-git-commit: d2fcf2ca22bb5fe3632280f922dfed0972f6eb09
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 2%
+source-wordcount: '290'
+ht-degree: 1%
 
 ---
 
+# Metriche del cliente {#customer-metrics}
 
-# Profili attivi{#active-profiles}
-
-Adobe Campaign fornisce un rapporto che mostra il numero di profili attivi. Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione. Solo gli amministratori possono accedere a questo rapporto, in **[!UICONTROL Administration > Customer metrics]**.
+Gli amministratori funzionali di Campaign possono accedere al rapporto **[!UICONTROL Customer metrics]** da **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_active_profiles1.png)
 
+Viene visualizzato il rapporto:
+
+* ID Experience Cloud
+* ID organizzazione IMS
+* il numero di **profili attivi**
+* l’elenco delle dimensioni di targeting disponibili nell’istanza
+
+Questo rapporto viene generato ogni mese dal flusso di lavoro tecnico **[!UICONTROL Billing]** .
+
+## Profili attivi{#active-profiles}
+
+In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi. Fai riferimento al tuo contratto di licenza per riferimento al numero di profili attivi acquistati.
+
 >[!NOTE]
 >
->Se utilizzi Campaign Standard dalla build 10368, puoi anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
->
->La metrica dei profili attivi è disponibile e pertinente solo per **istanze di marketing**. Non è né applicabile né disponibile per le istanze di esecuzione, ovvero le istanze MID (mid sourcing) e RT (Message Center / Real-time messaging [Centro messaggi/Messaggistica in tempo reale]).
+>In qualità di utente amministratore, puoi anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 
-I profili esclusi durante la preparazione della consegna (regole di tipologia, quarantena, gruppi di controllo) non vengono presi in considerazione. Un profilo per il quale sono state eseguite le destinazioni da più consegne verrà conteggiato una sola volta. Nella parte inferiore del rapporto, troverai l’elenco dei profili attivi per ogni dimensione di targeting.
 
-Questo rapporto viene generato ogni mese dal flusso di lavoro tecnico **[!UICONTROL Billing]** . Contiene il numero di profili attivi oggetto di targeting durante l’ultimo periodo continuo di 12 mesi.
-
-I profili esclusi durante la preparazione della consegna (regole di tipologia, quarantena) non vengono presi in considerazione. Inoltre, un profilo che è stato oggetto di targeting da diverse consegne verrà conteggiato una sola volta.
+Un &quot;profilo&quot; è un record di informazioni che rappresenta un cliente finale, potenziale cliente o lead. I profili sono considerati **attivi** se sono stati targetizzati da una consegna Campaign negli ultimi 12 mesi tramite qualsiasi canale. I profili esclusi durante la preparazione della consegna (ad esempio mediante regole di tipologia o un meccanismo di quarantena) non vengono presi in considerazione. Un profilo per il quale sono state eseguite le destinazioni da più consegne verrà conteggiato una sola volta. Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione.
 
 ![](assets/audience_active_profiles2.png)
 
-Nella parte inferiore del rapporto trovi l’elenco dei profili attivi elaborati dal flusso di lavoro di fatturazione:
+Nella parte inferiore del rapporto, troverai l’elenco dei profili attivi per ogni dimensione di targeting. Mostra il numero di profili attivi target negli ultimi 12 mesi.
 
-* La sorgente **[!UICONTROL NmsRecipient]** include tutti i clienti che sono stati contattati utilizzando informazioni dal loro profilo Campaign Standard.
+* L’ origine **[!UICONTROL NmsRecipient]** include tutti i profili contattati utilizzando le informazioni del profilo Campaign Standard.
 
-* D’altro canto, i clienti target mirati utilizzando solo una parte specifica di informazioni (indirizzo e-mail, numero di telefono), senza alcuna relazione con il loro profilo Campaign, saranno inclusi nella **[!UICONTROL anonymous]** sorgente.
+* L’origine dei clienti **[!UICONTROL anonymous]** mostra il numero di profili target mirati utilizzando solo una parte specifica di informazioni (indirizzo e-mail, numero di telefono), senza alcuna relazione con il loro profilo Campaign.
