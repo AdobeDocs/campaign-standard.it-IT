@@ -8,11 +8,10 @@ feature: Panoramica
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 * **[Campaign - Integrazione RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Come condividere i dati tra Campaign e Real-time Customer Data Platform (RTCDP)
 
-* **[Aggiornamento degli hard bounce erronei](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> Scopri come aggiornare gli hard bounce erronei dovuti a interruzioni del servizio Gmail
+* **[Aggiorna i ](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> rimbalzi rigidi erratiScopri come aggiornare i rimbalzi rigidi errati dopo un&#39;interruzione dell&#39;e-mail
 
 * **[Gruppi di controllo](sending/using/control-group.md)**<br/> 
 Misura l’impatto delle campagne escludendo parte delle relative audience
