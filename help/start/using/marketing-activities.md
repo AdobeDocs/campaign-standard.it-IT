@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campaigns
+feature: Campagne
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c75471aa-b947-4488-a569-5412d3825c64
+source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 83%
+source-wordcount: '488'
+ht-degree: 84%
 
 ---
-
 
 # Attività di marketing{#marketing-activities}
 
@@ -33,7 +32,7 @@ Per accedere all’elenco delle attività di marketing, scegli il collegamento *
 >
 >Per accedere alle attività di marketing, seleziona la scheda **[!UICONTROL Marketing activities]** dalla pagina Home.
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 Il riquadro **[!UICONTROL Search]** ti consente di filtrare gli elementi in base a diversi criteri: nome (etichetta e ID), data, stato o tipo di attività. Per impostazione predefinita, sono selezionati tutti i tipi di attività, tranne i programmi.
 
@@ -96,4 +95,3 @@ A seconda del contesto, è possibile:
 >[!NOTE]
 >
 >Puoi anche creare un’attività di marketing dall’elenco relativo. In questo caso, puoi creare qualsiasi tipo di attività e scegliere di collegare l’attività di marketing a una campagna principale (o a un programma principale, se crei un programma) tramite le proprietà dell’attività.
-
