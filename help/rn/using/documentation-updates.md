@@ -10,10 +10,9 @@ feature: Panoramica
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: d1bd8cce4dd45c2fca032c5f02309dfc8c56c25d
 workflow-type: tm+mt
-source-wordcount: '6777'
+source-wordcount: '6790'
 ht-degree: 99%
 
 ---
@@ -22,13 +21,20 @@ ht-degree: 99%
 
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti all’interno della documentazione di Adobe Campaign Standard.
 
+## Maggio 2021 {#doc-updates-may-2021}
+
+La sezione del rapporto **Profili attivi** è stata aggiornata. [Leggi tutto](../../audiences/using/active-profiles.md)
+
+La pagina **Pianificazione del rilascio** è stata aggiornata con nuove date. [Leggi tutto](../../rn/using/release-planning.md)
+
+
 ## Aprile 2021 {#doc-updates-april-2021}
 
 È stata aggiunta una nuova sezione su come lavorare con le origini e le destinazioni di Adobe Experience Platform per condividere i dati tra Campaign Standard e Adobe Real-time Customer Data Platform (RTCDP). [Leggi tutto](../../integrating/using/get-started-sources-destinations.md)
 
 ## Marzo 2021 {#doc-updates-march-2021}
 
-La pagina “Opzioni di aiuto e supporto” per Campaign Standard è stata integrata nella documentazione di base. [Leggi tutto](../../support.md)
+Nuova pagina **Help &amp; support options** . [Leggi tutto](../../support.md)
 
 La sezione in cui sono elencati i passaggi chiave per l’invio di un messaggio è stata migliorata con informazioni e riferimenti aggiuntivi. [Leggi tutto](../../channels/using/key-steps-to-send-a-message.md)
 
