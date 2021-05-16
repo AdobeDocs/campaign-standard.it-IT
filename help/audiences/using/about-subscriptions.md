@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: Informazioni sugli abbonamenti
 description: Ulteriori informazioni su servizi e abbonamenti in Campaign Standard.
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: Pubblici
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # Informazioni sugli abbonamenti{#about-subscriptions}
 
-Con Adobe Campaign puoi creare e gestire newsletter e comunicazioni cross-channel attraverso un set di **servizi**: è possibile inviare messaggi solo ai profili abbonati al servizio (opt-in). Questi profili vengono identificati utilizzando un filtro dedicato durante la creazione di un messaggio.
+Utilizza Adobe Campaign per creare e gestire newsletter e comunicazioni cross-channel attraverso un set di **servizi**: i messaggi vengono inviati solo ai profili abbonati al servizio (opt-in). Questi profili vengono identificati utilizzando un filtro dedicato durante la creazione di un messaggio.
 
 Puoi configurare meccanismi di abbonamento per offrire ai clienti l’opportunità di abbonarsi a questi servizi, in particolare tramite **e-mail** e **pagine di destinazione**.
 
