@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Pagine di destinazione
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # Configurazione di una pagina di destinazione {#configuring-landing-page}
 
@@ -70,12 +69,11 @@ Nel caso dei visitatori identificati, puoi precaricare i loro dati nella pagina 
 
    Se un visitatore della pagina corrisponde a un profilo nel database, i suoi dati vengono visualizzati nei campi del modulo che sono mappati sui dati del database, di conseguenza verranno presi in considerazione gli elementi di personalizzazione della pagina di destinazione.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-Puoi inoltre:
+Puoi anche autorizzare qualsiasi visitatore ad accedere alla pagina di destinazione utilizzando l’opzione **[!UICONTROL Authorize unidentified visitors]** .
 
-* Utilizzare i parametri URL per identificare i visitatori mediante l’opzione **[!UICONTROL Authorize visitor identification via URL parameters]**: a questo punto, devi scegliere la chiave di caricamento e mappare i parametri del filtro ai parametri dell’URL corrispondente.
-* Autorizzare qualsiasi visitatore ad accedere alla pagina di destinazione tramite l’opzione **[!UICONTROL Authorize unidentified visitors]**.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 Le pagine di destinazione possono essere anche collegate a un’unità organizzativa. In questo modo verrà definito l’accesso degli utenti alle varie pagine di destinazione. Per assegnare un’unità organizzativa:
 
@@ -111,7 +109,7 @@ Una volta configurato il tuo account esterno Google reCAPTCHA V3, puoi aggiunger
 1. Seleziona l’opzione **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]**.
 1. Scegli l’account esterno Google reCAPTCHA che hai creato in precedenza.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. Fai clic su **[!UICONTROL Confirm]**.
 
