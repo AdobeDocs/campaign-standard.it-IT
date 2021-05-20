@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 * **[Campaign - Integrazione RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Come condividere i dati tra Campaign e Real-time Customer Data Platform (RTCDP)
 
-* **[Aggiorna i ](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> rimbalzi rigidi erratiScopri come aggiornare i rimbalzi rigidi errati dopo un&#39;interruzione dell&#39;e-mail
+* **[Aggiornamento in caso di mancati recapiti erronei](https://helpx.adobe.com/it/campaign/kb/update-bounce-qualification.html)**<br/> aggiornare i dati in seguito a mancati recapiti erronei dovuti a interruzioni del servizio e-mail.
 
 * **[Gruppi di controllo](sending/using/control-group.md)**<br/> 
 Misura l’impatto delle campagne escludendo parte delle relative audience
