@@ -6,17 +6,16 @@ description: Scopri come Campaign Standard e Microsoft Dynamics 365 gestiscono i
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM Integration
+feature: Integrazione con Microsoft CRM
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
+source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
-
 
 # Best practice e limitazioni {#acs-msdyn-best-practices}
 
@@ -106,7 +105,7 @@ L’archiviazione SFTP di Campaign deve essere utilizzata dall’integrazione ne
 >
 >Sei responsabile delle informazioni che accedi e scarica dalle cartelle SFTP. Se le informazioni contengono dati personali, l&#39;utente è responsabile del rispetto di tutte le leggi e i regolamenti sulla privacy applicabili. [Ulteriori informazioni](#acs-msdyn-manage-privacy).
 
-## Gestione dati
+## Gestione dei dati
 
 ### Dati di Campaign esistenti
 
@@ -170,19 +169,19 @@ Quando si intende utilizzare questa integrazione, è necessario tenere conto del
 
    Quando si calcola il volume complessivo delle chiamate al motore Campaign, è importante tenere conto di altre fonti di chiamate al motore, tra cui pagine di destinazione, WebApps, JSSP, API, registrazioni di app mobili, ecc.
 
-   Visualizza le informazioni sul pacchetto Campaign qui: https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html
+   Visualizza le informazioni sul pacchetto Adobe Campaign Standard qui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)
 
-* L&#39;integrazione supporta un massimo di 30 milioni di contatti.
+* L’integrazione supporta un massimo di 15 milioni di record totali per la sincronizzazione iniziale con le risorse in Campaign. La sincronizzazione incrementale è limitata dal pacchetto Adobe Campaign Standard.
 
-* L’offerta di integrazione standard include il supporto di fino a cinque entità personalizzate, ciascuna con un massimo di 50 colonne di dimensioni.
+* L’offerta di integrazione standard include il supporto di fino a venti entità personalizzate, ciascuna con un massimo di 50 colonne di dimensioni.
 
 * Prima di implementare l’integrazione, dovrai creare e pubblicare le risorse personalizzate.
 
 * La profondità massima della tabella quando si collegano le tabelle è due (ovvero, tabella1->tabella2->tabella3)
 
-* Il supporto per i tipi di dati Microsoft Dynamic 365 è limitato. Se il modello dati contiene un tipo di dati diverso da quelli semplici (ad esempio stringhe, interi, decimali, ecc.), potrebbe essere necessario aggiornare il modello dati prima di utilizzare l’integrazione.
+* L’integrazione supporta fino a 5 colonne collegate per ogni risorsa personalizzata. Il collegamento di più colonne tra risorse personalizzate può avere un impatto notevole sulle prestazioni. **0 o 1 cardinalità semplice** linkis preferito rispetto a  **1 cardinalità semplice collegamento**.
 
-* Se hai scelto di conservare i dati esistenti nelle entità personalizzate di Campaign, devi preparare i dati per l’integrazione.
+* L’integrazione supporta la trasformazione tra i tipi di dati primitivi di Microsoft Dynamics 365 (booleano, numero intero, decimale, doppio, stringa, data, ora, data) e i tipi di dati di Adobe Campaign Standard (integer, booleano, float, double, date, datetime, string). I tipi di dati più avanzati vengono interpretati come stringhe e sincronizzati così come sono.
 
 * Potrebbe essere necessario stabilire finestre di manutenzione di onboarding tra l&#39;Adobe e il cliente.
 
