@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
 title: Guida di Campaign Standard
 breadcrumb-title: Centro risorse
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [Ultimi aggiornamenti](rn/using/documentation-updates.md)
 + Note sulla versione {#release-notes}
    + [Ultima versione](rn/using/release-notes.md)
-   + [Note preliminari sulla versione](rn/using/early-release-notes.md)
+   + [Note preliminari sulla versione](rn/using/e-release-notes.md)
    + Versioni precedenti {#previous-releases}
       + [Note sulla versione 2020](rn/using/release-notes-2020.md)
       + [Note sulla versione 2019](rn/using/release-notes-2019.md)
@@ -192,7 +192,7 @@ ht-degree: 100%
       + [Regole di filtro](sending/using/filtering-rules.md)
       + [Regole di affaticamento](sending/using/fatigue-rules.md)
       + [Regole di controllo](sending/using/control-rules.md)
-+ Reportistica {#reporting}
++ Generazione rapporti {#reporting}
    + [Guida introduttiva ai report dinamici](reporting/using/get-started-reporting.md)
    + Informazioni sul reporting {#about-reporting}
       + [Informazioni sui report dinamici](reporting/using/about-dynamic-reports.md)
@@ -269,9 +269,9 @@ ht-degree: 100%
       + [Utilizzo dell&#39;integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign e Adobe Experience Platform {#adobe-experience-platform}
       + Origini e destinazioni Adobe Experience Platform {#aep-sources-destinations}
-         + [Guida introduttiva a Origini e Destinazioni](integrating/using/get-started-sources-destinations.md)
+         + [Guida introduttiva a origini e destinazioni](integrating/using/get-started-sources-destinations.md)
          + [Inserire il pubblico di Adobe Experience Platform in Campaign](integrating/using/ingest-aep-data.md)
-         + [Esportare dati da Campaign a Adobe Experience Platform](integrating/using/export-campaign-data.md)
+         + [Esportare dati da Campaign ad Adobe Experience Platform](integrating/using/export-campaign-data.md)
       + Servizio Audience Destinations (beta) {#audience-destinations}
          + [Informazioni sul servizio Destinazioni pubblico](integrating/using/aep-about-audience-destinations-service.md)
          + [Gestione dei tipi di pubblico di Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
@@ -308,24 +308,24 @@ ht-degree: 100%
    + Attività di targeting {#targeting-activities}
       + [Informazioni sulle attività di targeting](automating/using/about-targeting-activities.md)
       + [Query](automating/using/query.md)
-      + [Incremental query](automating/using/incremental-query.md)
-      + [Union](automating/using/union.md)
-      + [Intersection](automating/using/intersection.md)
-      + [Exclusion](automating/using/exclusion.md)
+      + [Query incrementale](automating/using/incremental-query.md)
+      + [Unione](automating/using/union.md)
+      + [Intersezione](automating/using/intersection.md)
+      + [Esclusione](automating/using/exclusion.md)
       + [Segmentation](automating/using/segmentation.md)
       + [Read audience](automating/using/read-audience.md)
       + [Save audience](automating/using/save-audience.md)
-      + [Deduplication](automating/using/deduplication.md)
-      + [Enrichment](automating/using/enrichment.md)
+      + [Deduplicazione](automating/using/deduplication.md)
+      + [Arricchimento](automating/using/enrichment.md)
    + Attività di esecuzione {#execution-activities}
       + [Informazioni sulle attività di esecuzione](automating/using/about-execution-activities.md)
-      + [Start ed End](automating/using/start-and-end.md)
-      + [Fork](automating/using/fork.md)
-      + [AND-join](automating/using/and-join.md)
-      + [Scheduler](automating/using/scheduler.md)
-      + [Wait](automating/using/wait.md)
-      + [External signal](automating/using/external-signal.md)
-      + [Test](automating/using/test.md)
+      + [Attività Start e End](automating/using/start-and-end.md)
+      + [Attività Fork](automating/using/fork.md)
+      + [Attività AND-join](automating/using/and-join.md)
+      + [Attività Scheduler](automating/using/scheduler.md)
+      + [Attività Wait](automating/using/wait.md)
+      + [Attività External signal](automating/using/external-signal.md)
+      + [Attività Test](automating/using/test.md)
    + Attività dei canali {#channel-activities}
       + [Informazioni sulle attività dei canali](automating/using/about-channel-activities.md)
       + [Email delivery](automating/using/email-delivery.md)
@@ -335,12 +335,12 @@ ht-degree: 100%
       + [In-App delivery](automating/using/in-app-delivery.md)
    + Attività di gestione dati {#data-management-activities}
       + [Informazioni sulle attività di gestione dati](automating/using/about-data-management-activities.md)
-      + [Update data](automating/using/update-data.md)
+      + [Aggiornamento dei dati](automating/using/update-data.md)
       + [Load file](automating/using/load-file.md)
       + [Transfer file](automating/using/transfer-file.md)
       + [Reconciliation](automating/using/reconciliation.md)
       + [Extract file](automating/using/extract-file.md)
-      + [Subscription Services](automating/using/subscription-services.md)
+      + [Servizi di abbonamento](automating/using/subscription-services.md)
       + [External API](automating/using/external-api.md)
    + Filtrare dati {#filtering-data}
       + [Modifica delle query](automating/using/editing-queries.md)
@@ -357,7 +357,7 @@ ht-degree: 100%
       + [Esportazione di elenchi](automating/using/exporting-lists.md)
       + [Caso di utilizzo: esportazione/importazione di risorse personalizzate](automating/using/exporting-importing-custom-resources.md)
    + Casi d’uso {#workflow-use-case}
-      + [Informazioni sui casi di utilizzo dei flussi di lavoro](automating/using/about-workflow-use-cases.md)
+      + [Informazioni sui casi d’uso dei flussi di lavoro](automating/using/about-workflow-use-cases.md)
       + Consegne {#deliveries}
          + [Creazione di consegne con un complemento](automating/using/workflow-created-query-with-complement.md)
          + [Creazione di consegne nella data di creazione dei profili](automating/using/workflow-creation-date-query.md)
