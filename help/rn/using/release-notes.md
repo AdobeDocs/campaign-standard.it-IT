@@ -10,16 +10,21 @@ feature: Panoramica
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: e996a5c6722c211c931427ff59f8d219d493aca7
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+source-git-commit: 3206835d231378f40ed468286384a56cb38f0059
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 99%
 
 ---
 
 # Ultima versione{#latest-release}
 
 [Pianificazione del rilascio](../../rn/using/release-planning.md) | [Versioni del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2020.md) | [Funzioni obsolete](../../rn/using/deprecated-features.md)
+
+
+## Versione 21.2 - giugno 2021 {#release-21-2}
+
+Le nuove funzioni, i miglioramenti e le correzioni inclusi nella prossima versione di Campaign Standard sono elencati in [Note sulla versione precedente](e-release-notes.md).
 
 ## Versione 21.1 - febbraio 2021 {#release-21-1---february-2021}
 
