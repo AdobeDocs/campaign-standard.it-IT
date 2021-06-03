@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,9 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni inclusi nella 
 * L’integrazione del servizio core Assets con la finestra di progettazione e-mail può ora essere utilizzata dagli utenti standard.
 
 * È stato aggiunto un nuovo messaggio per confermare la riuscita della migrazione da un’applicazione push v4 a un’applicazione push v5.
+
+* Durante la creazione di token JSONWeb per l’autenticazione nell’API Campaign Standard, i profili di prodotto sono ora **considerati**. Ciò significa che le unità organizzative e i ruoli assegnati al gruppo di sicurezza (che corrispondono al profilo di prodotto su AdobeIO) verranno applicati all’account tecnico IMS necessario per le chiamate API di Campaign Standard Rest. (CAMP-47479)
+
 
 **Patch**
 
@@ -111,5 +114,3 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni inclusi nella 
 * È stato risolto un problema in E-mail Designer a causa del quale l’integrazione del servizio core Assets continuava a non riuscire quando si tentava di selezionare una risorsa. (CAMP-47446)
 
 * È stato risolto un problema che bloccava alcune consegne di Journey Orchestration a causa del fatto che Campaign non supportava le marche temporali con un valore esatto (cioè con scadenza a 00) inviato dagli eventi dal Journey Orchestration.
-
-* Il flusso di lavoro tecnico updateDeliveryIndicators è stato ottimizzato. Gli ID di consegna con lo stesso schema di registro di trasmissione/trackinglog ora sono raggruppati insieme. Questo limita il numero di query, migliorando così le prestazioni.
