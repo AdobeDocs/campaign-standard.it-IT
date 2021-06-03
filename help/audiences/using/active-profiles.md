@@ -7,9 +7,9 @@ feature: Profili
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: d30ce292ca07b9eb0b6965e47e12ddd4e24041ad
+source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,17 @@ In base al contratto, a ciascuna istanza di Campaign viene fornito un numero spe
 
 ![](assets/audience_active_profiles_list.png)
 
-I profili esclusi durante la preparazione della consegna (ad esempio mediante regole di tipologia o un meccanismo di quarantena) non vengono presi in considerazione. Un profilo per il quale sono state eseguite le destinazioni da più consegne verrà conteggiato una sola volta. Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione.
+
+
+* I profili esclusi durante la preparazione della consegna (ad esempio mediante regole di tipologia o un meccanismo di quarantena) non vengono presi in considerazione.
+
+* I destinatari dei messaggi transazionali vengono conteggiati in Profili attivi.
+
+* Un profilo per il quale sono state eseguite le destinazioni da più consegne verrà conteggiato una sola volta.
+
+* Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione.
+
+Nella parte inferiore della pagina, le dimensioni di targeting sono elencate con il numero di profili per ciascuna. I destinatari dei messaggi transazionali sono associati alla dimensione **Anonymous** .
 
 >[!NOTE]
 >
