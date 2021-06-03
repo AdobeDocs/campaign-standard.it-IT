@@ -10,11 +10,10 @@ feature: Panoramica
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: ht
-source-git-commit: 8b8f41917349800327b2bddc820e677f913cdaf7
-workflow-type: ht
-source-wordcount: '466'
-ht-degree: 100%
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +31,7 @@ Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare que
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md) all’avvio degli aggiornamenti dell’ambiente di staging.
+Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione in anteprima](../../rn/using/e-release-notes.md).
 
 <table>
  <thead>
@@ -65,7 +64,7 @@ R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release
 
 **D: Qual è il processo di convalida?**
 
-R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **D: Sarà possibile accedere all’istanza durante il processo di aggiornamento?**
 
@@ -87,4 +86,4 @@ R: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l’aggiorn
 
 R: Quando accedi a Campaign, viene visualizzato un pop-up di notifica della versione, con la versione più recente.
 
-Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
