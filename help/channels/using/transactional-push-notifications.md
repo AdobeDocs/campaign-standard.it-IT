@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
+feature: Messaggistica transazionale
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
+source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1453'
 ht-degree: 4%
 
 ---
-
 
 # Notifiche push transazionali{#transactional-push-notifications}
 
@@ -196,3 +195,37 @@ L’utente corrispondente riceve una notifica push transazionale che include tut
 >[!NOTE]
 >
 >Non sono presenti campi token di registrazione, applicazioni e piattaforme push. In questo esempio, la riconciliazione viene eseguita con il campo e-mail.
+
+## Modifica della mappatura di destinazione in una notifica push transazionale {#change-target-mapping}
+
+Le notifiche push transazionali utilizzano una [mappatura target specifica](../../administration/using/target-mappings-in-campaign.md) che contiene le impostazioni tecniche necessarie per inviare questo tipo di consegne.
+
+Per modificare questa mappatura di destinazione, segui i passaggi seguenti:
+
+1. Dall’elenco dei messaggi transazionali, seleziona una notifica push.
+
+1. Nel dashboard dei messaggi, fai clic sul pulsante **[!UICONTROL Edit properties]** .
+
+   ![](assets/message-center_push_edit.png)
+
+1. Espandi la sezione **[!UICONTROL Advanced parameters]**.
+
+1. Fai clic su **[!UICONTROL Select a 'Target mapping' element]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Seleziona una mappatura di destinazione dall’elenco.
+
+   >[!NOTE]
+   >
+   >Per ottimizzare i tempi e le prestazioni di preparazione della consegna durante l’invio di notifiche push transazionali **basate su profilo**, utilizza la mappatura target **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** .
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Conferma la modifica e pubblica il messaggio. Consulta [Pubblicazione di un messaggio transazionale](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!IMPORTANT]
+   >
+   >Per rendere effettiva la modifica, devi pubblicare nuovamente il messaggio; in caso contrario verrà comunque utilizzata la mappatura di destinazione precedente.
+
+
