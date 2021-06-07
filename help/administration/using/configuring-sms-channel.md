@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: Impostazioni delle istanze
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 99%
+source-wordcount: '1567'
+ht-degree: 95%
 
 ---
-
 
 # Configurazione del canale SMS{#configuring-sms-channel}
 
@@ -333,15 +332,11 @@ I parametri specifici per l’invio di messaggi SMS sono raggruppati nelle sezio
 
 Dalla sezione **[!UICONTROL Advanced parameters]**:
 
-* L’opzione **[!UICONTROL From]** ti consente di personalizzare il nome del mittente del messaggio SMS utilizzando una stringa di caratteri. Questo è il nome visualizzato come mittente del messaggio SMS sul telefono cellulare del destinatario.
+* Il **[!UICONTROL Short code]** ti consente di aggiungere un codice breve specifico alla consegna. I destinatari che hanno rinunciato a questo codice breve specifico verranno automaticamente esclusi durante la preparazione dei messaggi. Per ulteriori informazioni su come configurare il codice breve, consulta [questa sezione](../../channels/using/managing-incoming-sms.md).
 
-   Se questo campo è vuoto, viene quindi utilizzato il numero di origine fornito nell’account esterno. Se non viene fornito alcun numero di origine, viene utilizzato il codice breve. L’account esterno specifico per la consegna SMS è presentato nella sezione [Definizione di un indirizzamento SMS](#defining-an-sms-routing).
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Controlla le leggi vigenti nel tuo paese riguardo alla modifica dell’indirizzo del mittente. Dovresti anche verificare con il provider di servizi SMS se offre questa funzionalità.
+   >Se il campo **[!UICONTROL Short code]** viene lasciato vuoto, verrà utilizzato il valore del campo **[!UICONTROL Short code]** impostato nell’account esterno.
 
 Dalla sezione **[!UICONTROL Send]** di un modello SMS:
 
