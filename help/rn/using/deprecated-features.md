@@ -6,17 +6,16 @@ description: In questa pagina sono elencate le funzioni obsolete e rimosse di Ad
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: Panoramica
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 79%
+source-wordcount: '728'
+ht-degree: 80%
 
 ---
-
 
 # Funzioni obsolete e rimosse {#deprecated-and-removed-features}
 
@@ -43,22 +42,6 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>Linea oggetto predittivo</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> A partire dal 15 dicembre 2020, la funzionalità Predictive Subject Line è diventata obsoleta.</p><br/>
-   <p>Ti consigliamo di sfruttare le funzionalità e-mail basate sull’intelligenza artificiale per analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base a metriche di coinvolgimento storiche. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Ulteriori informazioni</a></p></br>
-     <p>
-     <em>Rimozione destinazione: Aprile 2021</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>Notifiche push con SDK v4</strong><br /> </th> 
   </tr> 
@@ -71,22 +54,6 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
      <p>
      <em>Data di rimozione target: 31 agosto 2021</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Richieste di accesso a dati personali - API e interfaccia di Campaign</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>A partire dalla versione 19.4 di Campaign, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventerà obsoleto. L’eliminazione del profilo in due fasi non sarà disponibile. Utilizza il <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">servizio core per la privacy di Adobe</a>.</p></br>
-   <p>Consulta anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gestione delle richieste di accesso a dati personali</a>.</p>
-  <p> 
-  <em>Data effettiva di rimozione: aprile 2021</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,6 +92,37 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
 ## Funzioni rimosse {#removed-features}
 
 In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Richieste di accesso a dati personali - API e interfaccia di Campaign</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>A partire dalla versione 21.2 di Campaign, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventerà obsoleto. L’eliminazione del profilo in due fasi non sarà disponibile. Utilizza il <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">servizio core per la privacy di Adobe</a>.</p></br>
+   <p>Consulta anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Gestione delle richieste di accesso a dati personali</a>.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>Linea oggetto predittivo</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> A partire da aprile 2021, la funzionalità Predictive Subject Line è disattivata.</p><br/>
+   <p>Ti consigliamo di sfruttare le funzionalità e-mail basate sull’intelligenza artificiale per analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base a metriche di coinvolgimento storiche. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Ulteriori informazioni</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
