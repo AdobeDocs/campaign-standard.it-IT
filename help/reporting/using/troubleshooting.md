@@ -6,14 +6,13 @@ description: Qui trovi le domande comuni relative al reporting dinamico.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Reporting
+feature: Generazione rapporti
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: tm+mt
-source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
+source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -132,7 +131,7 @@ I rapporti devono avere un aspetto simile al seguente:
    <td align="center"> <strong>100</strong><br/> </td> 
    <td align="center"> <strong>90</strong><br/> </td> 
    <td align="center"> <strong>10</strong><br/> </td> 
-   <td align="center"> <strong>3</strong><br/> </td> 
+   <td align="center"> <strong>1</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
@@ -176,8 +175,11 @@ Ad esempio, in questo caso, i valori **[!UICONTROL Upper limit]** vengono impost
 
 ![](assets/troubleshooting_3.png)
 
-Il valore **N/A** può talvolta essere visualizzato nei rapporti dinamici. Questo può essere visualizzato per due motivi:
+Il valore **N/A** può talvolta essere visualizzato nei rapporti dinamici. Questo può essere visualizzato per tre motivi:
 
 * La consegna è stata eliminata e viene visualizzata qui come **N/A** per non causare discrepanze nei risultati.
-* Quando trascini e rilascia la dimensione **[!UICONTROL Transactional Delivery]** nei rapporti, il valore **N/A** potrebbe apparire come risultato. Questo accade perché il rapporto dinamico recupera ogni consegna anche se non è transazionale.
-Questo può accadere anche quando trascini e rilascia la dimensione **[!UICONTROL Delivery]** nel rapporto, ma in questo caso il valore **N/A** rappresenta le consegne transazionali.
+* Quando trascini e rilascia la dimensione **[!UICONTROL Transactional Delivery]** nei rapporti, il valore **N/A** potrebbe apparire come risultato. Questo accade perché il rapporto dinamico recupera ogni consegna anche se non è transazionale. Questo può accadere anche quando trascini e rilascia la dimensione **[!UICONTROL Delivery]** nel rapporto, ma in questo caso il valore **N/A** rappresenta le consegne transazionali.
+* Quando una dimensione viene utilizzata con una metrica non correlata alla dimensione. Nell’esempio seguente, viene aggiunta una suddivisione con la dimensione **[!UICONTROL Tracking URL]** anche se il conteggio **[!UICONTROL Click]** è impostato su 0 in questa consegna.
+
+   ![](assets/troubleshooting_4.png)
+
