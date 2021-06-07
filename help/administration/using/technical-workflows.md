@@ -6,17 +6,16 @@ description: I flussi di lavoro tecnici sono flussi di lavoro preconfigurati e p
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: Impostazioni delle istanze
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
-
 
 # Flussi di lavoro tecnici{#technical-workflows}
 
@@ -100,9 +99,14 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
    <td> Questo flusso di lavoro sincronizza le proprietà importate dei dispositivi mobili di Adobe Launch in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Update delivery execution</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> Questo flusso di lavoro aggiorna il tracciamento della consegna. Per impostazione predefinita viene avviato ogni 10 minuti.<br /> </td> 
+   <td> <span class="uicontrol">Ripristino dei registri di tracciamento</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> Questo flusso di lavoro sincronizza le proprietà importate dei dispositivi mobili di Adobe Launch in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Recupera registri di tracciamento</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> Questo flusso di lavoro ripristina i registri di tracciamento persi. Tieni presente che questo flusso di lavoro tecnico viene utilizzato in contesti specifici e limitato solo all’uso interno di Adobe. <br> Per impostazione predefinita viene avviato ogni 10 minuti.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Update delivery indicators</span> <br /> </td> 
@@ -121,4 +125,3 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
   </tr> 
  </tbody> 
 </table>
-
