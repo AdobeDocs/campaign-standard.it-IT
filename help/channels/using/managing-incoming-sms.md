@@ -10,14 +10,13 @@ delivercontext-tags: delivery,smsContent,back
 feature: SMS
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '621'
 ht-degree: 7%
 
 ---
-
 
 # Gestione degli SMS in arrivo{#managing-incoming-sms}
 
@@ -59,6 +58,10 @@ Per eseguire questa operazione:
    Ad esempio, nella configurazione seguente, se i destinatari inviano la parola chiave &quot;STOP&quot;, riceveranno automaticamente una conferma dell’annullamento dell’abbonamento e il loro numero di telefono verrà messo in quarantena con lo stato **[!UICONTROL On denylist]** . Questo stato si riferisce solo al numero di telefono, il profilo è in modo che l&#39;utente continui a ricevere messaggi e-mail.
 
    ![](assets/sms_mo.png)
+
+1. Fai clic su **[!UICONTROL Save]**.
+
+1. Dal **[!UICONTROL Advanced parameters]** della consegna SMS **[!UICONTROL Properties]**, puoi impostare un **[!UICONTROL Short code]** specifico per escludere automaticamente i destinatari che hanno rinunciato. Per ulteriori informazioni, consulta [questa sezione](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
 Ora i destinatari possono annullare automaticamente l’iscrizione ai messaggi e metterli in quarantena con questa risposta automatica. I destinatari messi in quarantena sono elencati nella tabella **[!UICONTROL Addresses]** disponibile dal menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** . Per ulteriori informazioni sulle quarantena, consulta questa sezione [a1/> .](../../sending/using/understanding-quarantine-management.md)
 
