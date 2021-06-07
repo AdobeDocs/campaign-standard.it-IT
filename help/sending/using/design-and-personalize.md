@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Scopri come progettare il contenuto dei messaggi e cerca di evitare problemi comuni che potrebbero impedire l’esecuzione della consegna. 
-feature: Deliverability
+feature: Recapito messaggi
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
+source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 8%
+source-wordcount: '1034'
+ht-degree: 7%
 
 ---
-
 
 # Creare contenuti personalizzati {#build-personalized-content}
 
@@ -75,7 +74,7 @@ Per impostazione predefinita, quando il messaggio viene analizzato, un controllo
 
 Scopri come inserire un collegamento di rinuncia [in questa sezione](../../designing/using/personalization.md#adding-a-content-block).
 
-### Dimensione e-mail
+### Dimensione e-mail {#email-size}
 
 Per evitare problemi di prestazioni o recapito messaggi, la dimensione massima consigliata di un messaggio e-mail è di circa **35 KB**.
 
@@ -83,11 +82,21 @@ Per mantenere l’e-mail sotto il limite, considera quanto segue:
 
 * Rimuovere gli stili ridondanti o inutilizzati
 
-* Sposta parte del contenuto delle e-mail in una pagina di destinazione
+* Sposta parte del contenuto delle e-mail in una [pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md)
 
 * Minimizzare il codice
 
-Verifica eventuali modifiche prima dell’invio finale
+Verifica eventuali modifiche prima dell’invio finale.
+
+In Adobe Campaign, la dimensione massima predefinita di un messaggio e-mail è impostata su **100MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+
+Se il limite viene raggiunto, il messaggio che supera il limite avrà esito negativo e nei registri di consegna verrà visualizzato un messaggio di errore. Gli altri messaggi della stessa consegna non saranno interessati. In tal caso, devi adattare la parte dinamica del modello e-mail o i frammenti di contenuto utilizzati dalla consegna. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+
+Ad Adobe, si consiglia di mantenere il valore predefinito della dimensione massima del messaggio. Tuttavia, questo valore può essere modificato nell&#39;opzione **[!UICONTROL Maximum message size]**, tramite il menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, solo da [amministratori funzionali](../../administration/using/users-management.md#functional-administrators).
+
+>[!IMPORTANT]
+>
+>Se imposti questo valore su zero, non verrà applicato alcun limite.
 
 ### Lunghezza SMS
 
