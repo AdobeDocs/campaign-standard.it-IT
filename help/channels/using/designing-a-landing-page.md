@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Pagine di destinazione
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1668'
+ht-degree: 97%
 
 ---
-
 
 # Progettazione di una pagina di destinazione{#designing-a-landing-page}
 
@@ -27,19 +26,19 @@ Le pagine di destinazione vengono create come qualsiasi altra [attività di mark
 
 Durante la progettazione di una pagina di destinazione, dovrai definire il contenuto della pagina stessa, della pagina di conferma e della pagina di errore. Per visualizzare e configurare ciascuna di queste pagine, utilizza il commutatore posto sotto la barra delle azioni.
 
-Il contenuto delle pagine di destinazione è progettato tramite l’editor di contenuti di Campaign.
+Il contenuto delle pagine di destinazione è progettato tramite l’editor dei contenuti di Campaign.
 
 >[!NOTE]
 >
->Se la tua istanza è stata installata prima del rilascio di Adobe Campaign Standard 19.0, puoi comunque accedere all’editor dei contenuti delle e-mail legacy. In generale, per quanto riguarda le pagine di destinazione, l’interfaccia, i principi di utilizzo e di configurazione sono per lo più i medesimi illustrati di seguito. Tuttavia, non tutte le funzioni potrebbero essere disponibili o presenti nell’editor dei contenuti e-mail legacy, che è diventato obsoleto a partire dalla versione 19.0. Per modificare rapidamente il contenuto delle e-mail mediante un’interfaccia a trascinamento dotata di funzioni estese, puoi utilizzare [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+>Per la progettazione delle e-mail, se l’istanza è stata installata prima della versione di Adobe Campaign Standard 19.0, puoi comunque accedere all’editor dei contenuti e-mail legacy. In generale, per quanto riguarda le pagine di destinazione, l’interfaccia, i principi di utilizzo e di configurazione sono per lo più i medesimi illustrati di seguito. Tuttavia, non tutte le funzioni potrebbero essere disponibili o presenti nell’editor dei contenuti e-mail legacy, che è diventato obsoleto a partire dalla versione 19.0. Per modificare rapidamente il contenuto delle e-mail mediante un’interfaccia a trascinamento dotata di funzioni estese, puoi utilizzare [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Questa pagina descrive le specificità dell’editor dei contenuti delle pagine di destinazione. Per ulteriori informazioni sulle azioni comuni a una o più attività di marketing, consulta le sezioni seguenti della guida **Progettazione di contenuti delle e-mail**:
 
 * [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Aggiunta di un blocco di contenuto](../../designing/using/personalization.md#adding-a-content-block).
-* [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link).
-* [Inserimento di immagini](../../designing/using/images.md).
-* [Best practice generali per la progettazione di contenuti](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+* [Aggiunta di un blocco di contenuto](../../designing/using/personalization.md#adding-a-content-block)
+* [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link)
+* [Inserimento di immagini](../../designing/using/images.md)
+* [Best practice generali per la progettazione di contenuti](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >Se la pagina di destinazione è già predefinita in formato HTML, puoi importarla direttamente utilizzando il pulsante **[!UICONTROL Change content]**.
