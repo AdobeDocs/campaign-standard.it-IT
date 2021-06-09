@@ -6,17 +6,16 @@ description: Crea contenuti e-mail a partire da zero, importando HTML o sfruttan
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Email Design
+feature: Progettazione e-mail
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
+source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1250'
 ht-degree: 90%
 
 ---
-
 
 # E-mail Designer di Campaign{#designing-content-in-adobe-campaign}
 
@@ -171,4 +170,4 @@ Questo video offre una panoramica di E-mail Designer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Per iniziare a utilizzare e-mail designer, guarda questi [video](https://docs.adobe.com/content/help/it-IT/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generiche di e-mail designer e mostrano come progettare un’e-mail da zero o utilizzando i modelli
+Per iniziare a utilizzare e-mail designer, guarda questi [video](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generiche di e-mail designer e mostrano come progettare un’e-mail da zero o utilizzando i modelli
