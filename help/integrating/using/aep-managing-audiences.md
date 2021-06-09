@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Integrazione con Microsoft CRM
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
-
 
 # Gestione dei tipi di pubblico di Adobe Experience Platform {#about-audiences}
 
@@ -53,7 +52,7 @@ Per creare un pubblico Adobe Experience Platform direttamente in Campaign Standa
 
 1. Per creare correttamente un segmento, devi selezionare un **criterio di unione** che corrisponda allo scopo di marketing per questo segmento.
 
-   Nel riquadro delle impostazioni, viene selezionato un criterio di unione predefinito della piattaforma. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata dalla [guida utente del Generatore di segmenti](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   Nel riquadro delle impostazioni, viene selezionato un criterio di unione predefinito della piattaforma. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata dalla [guida utente del Generatore di segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
