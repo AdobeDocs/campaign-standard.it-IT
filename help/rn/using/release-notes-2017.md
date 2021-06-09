@@ -6,17 +6,16 @@ description: In questa pagina sono elencate tutte le versioni del 2017 di Adobe 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Panoramica
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
+exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '4631'
+source-wordcount: '4625'
 ht-degree: 8%
 
 ---
-
 
 # Note sulla versione 2017{#release-notes}
 
@@ -330,7 +329,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Integrazione Dreamweaver live<br /> </td> 
-   <td> L’integrazione tra Adobe Campaign e Dreamweaver è ora live. Ora funziona con l’ultima versione ufficiale di Dreamweaver (17.0.2).<br /> È necessaria l'installazione dell'estensione Adobe Campaign Integration da qui:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonPer ulteriori informazioni, consulta questo  <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> L’integrazione tra Adobe Campaign e Dreamweaver è ora live. Ora funziona con l’ultima versione ufficiale di Dreamweaver (17.0.2).<br /> È necessaria l'installazione dell'estensione Adobe Campaign Integration da qui:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonPer ulteriori informazioni, consulta questo  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -403,7 +402,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Integrazione Dreamweaver (Labs)<br /> </td> 
-   <td> Con l’integrazione di Adobe Campaign e Dreamweaver, ora disponi di un processo integrato per la creazione di campagne e-mail con soluzioni Adobe.<br /> Puoi modificare le e-mail di Adobe Campaign in Dreamweaver e sincronizzare il contenuto senza soluzione di continuità tra le due soluzioni.<br /> Per la versione iniziale, l’integrazione è disponibile come funzione "Labs" e funziona solo con Dreamweaver Pre-Release Beta. Se desideri attivarlo, contatta AC-DW-integration@adobe.com.<br /> Per ulteriori informazioni, consulta questo  <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> Con l’integrazione di Adobe Campaign e Dreamweaver, ora disponi di un processo integrato per la creazione di campagne e-mail con soluzioni Adobe.<br /> Puoi modificare le e-mail di Adobe Campaign in Dreamweaver e sincronizzare il contenuto senza soluzione di continuità tra le due soluzioni.<br /> Per la versione iniziale, l’integrazione è disponibile come funzione "Labs" e funziona solo con Dreamweaver Pre-Release Beta. Se desideri attivarlo, contatta AC-DW-integration@adobe.com.<br /> Per ulteriori informazioni, consulta questo  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ottimizzazione manuale del tempo di invio<br /> </td> 
@@ -543,4 +542,3 @@ _Integrazioni_
 * È stato risolto un problema che poteva causare un errore durante la distribuzione di un trigger di evento in Adobe Campaign. Questo errore si verificava quando i metadati &quot;Probabilità di tornare tra 30 giorni&quot; erano stati aggiunti al trigger di abbandono in Adobe Marketing Cloud.
 * È stato risolto un problema che poteva causare la cancellazione del campo Dimension di Target da parte del flusso di lavoro tecnico durante l’importazione di tipi di pubblico dal servizio core Persone . Impossibile recuperare i tipi di pubblico importati dalle query successive.
 * È stato risolto un problema che poteva causare un errore nell’attività **[!UICONTROL Save audience]** di un flusso di lavoro quando l’opzione **[!UICONTROL Share in Adobe Marketing Cloud]** era selezionata.
-
