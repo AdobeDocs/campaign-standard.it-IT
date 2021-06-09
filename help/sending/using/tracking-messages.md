@@ -6,17 +6,16 @@ description: Scopri come tenere traccia del comportamento dei destinatari della 
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Performance Monitoring
+feature: Monitoraggio delle prestazioni
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 20%
+source-wordcount: '487'
+ht-degree: 24%
 
 ---
-
 
 # Tracciamento dei messaggi{#tracking-messages}
 
@@ -31,7 +30,7 @@ Le informazioni di tracciamento sono disponibili per ogni contatto del database 
  Adobe Campaign utilizza due tipi di cookie:
 
 * Un cookie di sessione (nlid). Contiene l’identificatore dell’e-mail inviata al contatto (broadlogId) e l’identificatore del modello di messaggio (deliveryId). Viene aggiunto quando il contatto fa clic su un URL incluso in un’e-mail inviata da Adobe Campaign e ti consente di tracciarne il comportamento sul web. Questo cookie di sessione viene cancellato automaticamente alla chiusura del browser. Il contatto può configurare il browser per rifiutare i cookie.
-* Un cookie condiviso tra le soluzioni Adobe Experience Cloud. Questo consente di identificare gli utenti che interagiscono con le soluzioni di Experience Cloud quando visitano un sito web. La descrizione di questo cookie è disponibile [qui](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html).
+* Un cookie condiviso tra le soluzioni Adobe Experience Cloud. Questo ti consente di identificare gli utenti che interagiscono con le soluzioni Experience Cloud quando visitano un sito web. La descrizione di questo cookie è disponibile [qui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 Il tracciamento con Adobe Campaign Standard consente di accedere alle seguenti funzionalità:
 
