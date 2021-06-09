@@ -6,17 +6,16 @@ description: Automatizza i processi con i flussi di lavoro, gestisci dati e tipi
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Workflows
+feature: Flussi di lavoro
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 26be942a-c252-458f-a590-eb235567ca67
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 13%
+source-wordcount: '518'
+ht-degree: 40%
 
 ---
-
 
 # Guida introduttiva ai processi e alla gestione dei dati {#get-started-processes-data-management}
 
@@ -26,16 +25,16 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importare/esportare dati</a></p></td></tr>
 </table>
 
-Adobe Campaign offre un ambiente grafico completo che ti consente di progettare processi complessi, tra cui segmentazione, esecuzione di campagne, elaborazione di file, ecc. Ad esempio, puoi utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo e quindi importarne i record nel database di Adobe Campaign.
+Adobe Campaign offre un ambiente grafico completo che ti consente di progettare processi complessi, tra cui segmentazione, esecuzione di campagne, elaborazione di file, eccetera. Ad esempio, puoi utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo e quindi importare i record nel database di Adobe Campaign.
 
-Un flusso di lavoro può coinvolgere anche gli utenti assegnando loro attività o facendogli approvare le attività eseguite. Ciò significa che puoi assegnare un’attività a uno o più utenti per lavorare sul contenuto o specificare destinazioni e approvare le bozze prima di inviare il messaggio.
+Un flusso di lavoro può coinvolgere anche gli utenti, assegnando loro attività o facendogli approvare le attività eseguite. Ciò significa che puoi assegnare un’attività a uno o più utenti affinché lavorino sul contenuto oppure specificare destinazioni e approvare le bozze prima di inviare il messaggio.
 
 I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
 * Targeting per gestire il pubblico o inviare messaggi.
 * Gestione dei dati (ETL) per manipolare i dati.
-* Importazione di dati nel database Campaign.
-* Processi tecnici come la pulizia del database, il recupero delle informazioni di tracciamento, ecc.
+* Importazione dei dati nel database di Campaign.
+* Processi tecnici come la pulizia del database, il recupero delle informazioni di tracciamento, eccetera.
 
 ## Attività del flusso di lavoro {#workflow-activities}
 
@@ -53,9 +52,9 @@ Leggi tutto:
 
 * [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)
 * [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md)
-* [Procedure consigliate per i flussi di lavoro](../../automating/using/best-practices-workflows.md)
+* [Best practice per i flussi di lavoro](../../automating/using/best-practices-workflows.md)
 
-## Filtra dati {#filter-data}
+## Filtrare i dati {#filter-data}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
@@ -92,6 +91,6 @@ Leggi tutto:
 
 ## Risorse aggiuntive
 
-* [Video tutorial su processi e gestione dati](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Video tutorial su processi e gestione dati](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=it)
 * [Flussi di lavoro tecnici](../../administration/using/technical-workflows.md)
 * [Guida introduttiva al modello dati di Campaign Standard](../../developing/using/get-started-data-model.md)
