@@ -7,17 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 99%
+source-wordcount: '474'
+ht-degree: 98%
 
 ---
-
 
 # Informazioni su Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}
 
@@ -33,7 +32,7 @@ Il diagramma seguente illustra il funzionamento di questa integrazione.
 
 **Argomenti correlati:**
 
-* Scopri i diversi tipi di trigger: [Documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/activation/triggers.html).
+* Scopri i diversi tipi di trigger: [Documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html).
 * Guarda il video [Trigger dei messaggi di remarketing basati sull’attività del sito](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
 * Scopri i nostri due [casi di utilizzo di attivatori di abbandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
@@ -65,4 +64,3 @@ Di seguito sono riportate alcune note importanti da considerare prima di utilizz
 >[!NOTE]
 >
 >Per ulteriori informazioni sulle best practice e limitazioni tecniche, consulta [Best practice e limitazioni dei trigger](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations).
-
