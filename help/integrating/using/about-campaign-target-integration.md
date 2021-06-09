@@ -6,17 +6,16 @@ description: Con l’integrazione di Adobe Target, puoi inserire nei messaggi Ad
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e0d281f7-d522-425c-9854-894e84a0a422
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
-
 
 # Informazioni sull’integrazione di Campaign-Target{#about-campaign-target-integration}
 
@@ -30,4 +29,4 @@ Adobe Target può utilizzare diversi tipi di dati:
 * Segmenti collegati all’ID visitatore in Adobe Target, se i dati utilizzati non sono soggetti a limitazioni legali
 * Dati Adobe Target: agente utente, indirizzo IP, dati di geolocalizzazione
 
-Per ulteriori informazioni sull&#39;integrazione tra Adobe Campaign e Adobe Target, puoi anche fare riferimento al [portale Adobe Target](https://docs.adobe.com/content/help/it-IT/target/using/integrate/campaign-and-target.html).
+Per ulteriori informazioni sull&#39;integrazione tra Adobe Campaign e Adobe Target, puoi anche fare riferimento al [portale Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html).
