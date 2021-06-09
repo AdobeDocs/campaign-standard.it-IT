@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Instance Settings
+feature: Impostazioni delle istanze
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 78%
+source-wordcount: '1282'
+ht-degree: 80%
 
 ---
-
 
 # Branding{#branding}
 
@@ -92,11 +91,11 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 Puoi aggiungere nuove entità dell’organizzazione in Campaign o creare un nuovo tipo di e-mail da inviare con un sottodominio diverso. Per eseguire questa operazione, effettua le seguenti operazioni:
 
-1. **Configura un nuovo sottodominio** : per qualsiasi nuovo sottodominio da utilizzare come Adobe, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign campagna](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/subdomains-branding.html) o rivolgiti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
+1. **Configura un nuovo sottodominio** : per qualsiasi nuovo sottodominio da utilizzare come Adobe, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgiti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
 
    >[!NOTE]
    >
-   >Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere all&#39;amministratore l&#39;accesso a un utente sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 
 1. **Crea un ticket** : una volta configurato il sottodominio, Adobe dovrà configurarlo nell’ambiente di produzione. Per richiedere questo, [crea un ticket per l&#39;assistenza clienti](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
 
@@ -200,4 +199,3 @@ Per creare un’e-mail collegata a un brand, segui i passaggi seguenti:
 1. L’e-mail è già configurata. Puoi verificare le informazioni prima di testarla utilizzando i profili di test, quindi inviarla al pubblico.
 
    ![](assets/branding_16.png)
-
