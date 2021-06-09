@@ -9,14 +9,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
+source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 10%
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
-
 
 # Controllo dei flussi di lavoro {#controlling-a-workflow}
 
@@ -35,13 +34,13 @@ Sono disponibili quattro comandi di esecuzione per controllare un flusso di lavo
 * Riprendi
 * Interruzione
 
-Per ulteriori informazioni sui comandi di esecuzione, consulta la [documentazione della campagna](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Per ulteriori informazioni sui comandi di esecuzione, consulta la [documentazione della campagna](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
 ***Richieste di esempio***
 
-* Avvia un flusso di lavoro.
+* Avviare un flusso di lavoro.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
