@@ -6,17 +6,16 @@ description: 'Scopri come configurare l’integrazione del servizio core Audienc
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People Core Service Integration
+feature: Integrazione del servizio core People
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '721'
 ht-degree: 9%
 
 ---
-
 
 # Provisioning e configurazione dell’integrazione con Audience Manager o il servizio core People{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
@@ -131,6 +130,6 @@ In questo caso, assicurati che Campaign Tracking Server sia registrato sul domin
 
 ### Passaggio 4: Configurare il servizio ID visitatori {#step-4--configure-the-visitor-id-service}
 
-Nel caso in cui il servizio ID visitatore non sia mai stato configurato sulle proprietà web o sui siti web, consulta il seguente [documento](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) per informazioni su come configurare il servizio o il seguente [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
+Nel caso in cui il servizio ID visitatore non sia mai stato configurato sulle proprietà web o sui siti web, consulta il seguente [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) per informazioni su come configurare il servizio o il seguente [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
 
 La configurazione e il provisioning sono completati. L’integrazione può ora essere utilizzata per importare ed esportare tipi di pubblico o segmenti.
