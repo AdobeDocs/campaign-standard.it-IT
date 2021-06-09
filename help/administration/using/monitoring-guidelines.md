@@ -7,17 +7,16 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: Access Management
+feature: Gestione degli accessi
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 14%
+source-wordcount: '507'
+ht-degree: 20%
 
 ---
-
 
 # Linee guida per il monitoraggio {#monitoring-guidelines}
 
@@ -42,13 +41,13 @@ L’interfaccia di Campaign Standard fornisce un riquadro di notifica che ti con
 
 I flussi di lavoro tecnici sono operazioni o processi pianificati da eseguire regolarmente sul server. Per garantire che l’istanza sia sana e funzioni correttamente, è necessario assicurarsi che sia sempre in esecuzione. [Leggi tutto](../../administration/using/technical-workflows.md)
 
-**Pannello di controllo Campaign**
+**Pannello di controllo**
 
-Il Pannello di controllo Campaign consente di gestire diverse impostazioni dell’istanza: Autorizzazioni URL, controlla i dettagli dell’istanza come le versioni di build dei server, monitora l’utilizzo dei profili attivi, ecc. Consente inoltre di monitorare lo spazio disponibile sui server SFTP collegati all’istanza. [Leggi tutto](https://docs.adobe.com/content/help/it-IT/control-panel/using/control-panel-home.html).
+Il Pannello di controllo Campaign consente di gestire diverse impostazioni dell’istanza: Autorizzazioni URL, controlla i dettagli dell’istanza come le versioni di build dei server, monitora l’utilizzo dei profili attivi, ecc. Consente inoltre di monitorare lo spazio disponibile sui server SFTP collegati all’istanza. [Leggi tutto](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it).
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere all&#39;amministratore l&#39;accesso a un utente sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 
 **Oggetti tecnici**
 
@@ -87,7 +86,7 @@ Campaign Standard ti consente di inviare notifiche alle autorità di vigilanza p
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-**Consegna**
+**Deliverability**
 
 Campaign Standard offre diversi strumenti per il recapito messaggi che consentono di migliorare il numero di messaggi consegnati correttamente: rapporti sulla velocità effettiva di consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
 [Leggi tutto](../../sending/using/about-deliverability.md)
