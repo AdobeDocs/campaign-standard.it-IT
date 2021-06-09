@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: In-app
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1272'
 ht-degree: 98%
 
 ---
-
 
 # Preparazione e invio di un messaggio in-app{#preparing-and-sending-an-in-app-message}
 
@@ -99,7 +98,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
    * **[!UICONTROL Life Cycle events]**: eventi del ciclo di vita preconfigurati supportati dall’SDK mobile di Adobe.
 
-      Per ulteriori informazioni sugli eventi del ciclo di vita, consulta questa [pagina](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
+      Per ulteriori informazioni sugli eventi del ciclo di vita, consulta questa [pagina](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics Events]**: le tre categorie seguenti sono supportate a seconda degli strumenti utilizzati nella tua app mobile: Adobe Analytics, Dati contestuali o Stato di visualizzazione.
 
@@ -118,7 +117,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
 1. Se utilizzi un trigger **[!UICONTROL Places]**, Dati contestuali di Places, Metadati personalizzati di Places o Tipo di evento Places verranno compilati automaticamente in base a tutte le librerie e ai relativi punti di interesse creati in Adobe Places.
 
-   Tieni presente che questo trigger verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell’estensione Places in Experience Platform Launch. Per ulteriori informazioni sull’estensione Places e su come installarla, consulta questa [documentazione](https://docs.adobe.com/content/help/it-IT/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Tieni presente che questo trigger verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell’estensione Places in Experience Platform Launch. Per ulteriori informazioni sull’estensione Places e su come installarla, consulta questa [documentazione](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Nella scheda **[!UICONTROL Frequency & duration]**, scegli la frequenza del trigger, la data di inizio e di fine, il giorno della settimana e l’ora del giorno in cui il messaggio in-app sarà attivo.
 
