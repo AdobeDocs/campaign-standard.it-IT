@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Scopri come proteggere e ottimizzare il processo di invio a monte.
-feature: Deliverability
+feature: Recapito messaggi
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 6%
+source-wordcount: '747'
+ht-degree: 8%
 
 ---
-
 
 # Ottimizzare la consegna {#optimize-delivery}
 
@@ -37,7 +36,7 @@ Diversi fattori possono influenzare direttamente le prestazioni del server e ral
 
 * L&#39; [esecuzione del flusso di lavoro](../../automating/using/about-workflow-execution.md): il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Segui le linee guida elencate [in questa pagina](../../automating/using/monitoring-workflow-execution.md). Ulteriori informazioni sono disponibili nella sezione [best practice per i flussi di lavoro](../../automating/using/best-practices-workflows.md) .
 
-* Puoi sfruttare le funzionalità [Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html) per monitorare la piattaforma, utilizzando le funzionalità [monitoraggio delle prestazioni](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Puoi sfruttare le funzionalità [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it) per monitorare la piattaforma, utilizzando le funzionalità [monitoraggio delle prestazioni](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html).
 
 ## Verifica della configurazione di rete {#network-config}
 
