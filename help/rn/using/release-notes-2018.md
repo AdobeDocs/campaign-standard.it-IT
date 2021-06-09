@@ -6,17 +6,16 @@ description: In questa pagina sono elencate tutte le versioni del 2018 di Adobe 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Panoramica
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '5406'
+source-wordcount: '5402'
 ht-degree: 6%
 
 ---
-
 
 # Note sulla versione 2018{#release-notes}
 
@@ -128,7 +127,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
 
 **Miglioramenti**
 
-* L’integrazione di Adobe Campaign e Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) di Target. Quando includi un’immagine dinamica da Adobe Target in un messaggio e-mail, ora puoi specificare una proprietà Target (codice at_property).
+* L’integrazione di Adobe Campaign e Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) di Target. Quando includi un’immagine dinamica da Adobe Target in un messaggio e-mail, ora puoi specificare una proprietà Target (codice at_property).
 * Le risorse personalizzate che dispongono di un collegamento di copia alla risorsa dei profili vengono ora prese in considerazione dalle richieste di accesso/eliminazione relative alla privacy RGPD. Per 1 collegamenti semplici cardinalità e N collegamenti di raccolta cardinalità, è necessario selezionare &quot;Eliminazione/Duplicazione del record di destinazione implica l&#39;eliminazione/duplicazione dei record a cui fa riferimento il collegamento&quot; nella risorsa personalizzata. Per i collegamenti semplici con 0 o 1 cardinalità, selezionare &quot;Eliminazione/duplicazione del record implica l&#39;eliminazione/duplicazione del record di destinazione a cui fa riferimento il collegamento&quot;.
 
 **Altre modifiche**
@@ -526,4 +525,3 @@ _Profili e pubblico_
 * È stata aggiunta una descrizione che mostra il numero esatto del risultato dopo il conteggio della popolazione di una query.
 * È stato risolto un problema che poteva impedire agli utenti di selezionare un pubblico o chiudere la finestra del selettore del pubblico.
 * L’elenco delle funzioni disponibili nell’editor di espressioni è stato aggiornato. Le funzioni **FormatCurrency** e **ConvertCurrency** sono state rimosse.
-
