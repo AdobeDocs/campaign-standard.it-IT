@@ -6,17 +6,16 @@ description: Scopri come configurare la funzione dei dati dei punti di interesse
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Audiences
+feature: Tipi di pubblico
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1329'
 ht-degree: 3%
 
 ---
-
 
 # Configurazione dell’integrazione dei dati Campaign-Punti di interesse{#configuring-campaign-points-of-interest-data-integration}
 
@@ -30,14 +29,14 @@ Le applicazioni mobili utilizzate per raccogliere i dati sulla posizione devono 
 
 Per poter utilizzare Adobe Experience Platform Location Services con le applicazioni mobili configurate con Adobe Experience Platform SDK, devi:
 
-1. Aggiungi le estensioni **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** alla configurazione dell’app mobile in Adobe Experience Platform Launch. Imposta la tua app mobile in Adobe Campaign. Consulta [Installare l’estensione Luoghi in Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Installare l’estensione Monitor Luoghi in Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Aggiungi le estensioni **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** alla configurazione dell’app mobile in Adobe Experience Platform Launch. Imposta la tua app mobile in Adobe Campaign. Consulta [Installare l’estensione Luoghi in Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Installare l’estensione Monitor Luoghi in Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
 1. Una volta configurate le estensioni, crea elementi dati all&#39;interno di **[!UICONTROL Adobe Experience Platform Launch]** per recuperare i dati da queste estensioni. Per creare gli elementi dati, fai riferimento a questa [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) .
 
 1. Quindi, in **[!UICONTROL Adobe Experience Platform Launch]**, devi creare regole per supportare i casi di utilizzo per dispositivi mobili tra i punti di interesse e Adobe Campaign.\
    Questa regola viene attivata quando un utente immette un carattere geografico **[!UICONTROL Point of Interest]**. Per creare la regola, fai riferimento a questa [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) .
 
-1. Definisci il tuo **[!UICONTROL Points of Interest]** in Luoghi. Consulta [Creare un punto di interesse](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html).
+1. Definisci il tuo **[!UICONTROL Points of Interest]** in Luoghi. Consulta [Creare un punto di interesse](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Assicurati di accedere all’app mobile e ai dati sulla posizione raccolti in Adobe Campaign. Consulta [Accesso alle app mobili utilizzate per raccogliere i dati sulla posizione](#accessing-mobile-apps-used-to-collect-location-data) e [Accesso ai dati sulla posizione raccolti](#accessing-collected-location-data).
 
@@ -165,7 +164,7 @@ Devi avere accesso ad Adobe Analytics per eseguire la configurazione seguente. S
 
 >[!NOTE]
 >
->Per informazioni dettagliate sulla configurazione dei postback, consulta la [documentazione di Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
+>Per informazioni dettagliate sulla configurazione dei postback, consulta la [documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Integrazione dell&#39;SDK in un&#39;applicazione mobile {#integrating-the-sdk-into-a-mobile-application}
 
@@ -180,11 +179,11 @@ Per definire i punti di interesse utilizzati per raccogliere i dati sulla posizi
 1. Passa all’interfaccia di Adobe Mobile Services .
 1. Aggiungi la tua applicazione.
 
-   Per ulteriori informazioni sulla gestione delle applicazioni in Mobile Services, consulta la [documentazione di Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
+   Per ulteriori informazioni sulla gestione delle applicazioni in Mobile Services, consulta la [documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Definisci i punti di interesse.
 
-   Per ulteriori informazioni sulla gestione dei punti di interesse, consulta la [documentazione di Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/location-ug/t-manage-points.html).
+   Per ulteriori informazioni sulla gestione dei punti di interesse, consulta la [documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Raccolta dei dati dei punti di interesse degli abbonati {#collecting-subscribers--points-of-interest-data}
 
