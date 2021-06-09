@@ -7,14 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instance Settings
+feature: Impostazioni delle istanze
 role: Administrator
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-translation-type: tm+mt
-source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2598'
 ht-degree: 76%
 
 ---
@@ -34,7 +33,7 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
    La sezione **[!UICONTROL Header parameters of sent emails]** elenca gli indirizzi e-mail autorizzati che puoi utilizzare per spedire e-mail ai destinatari (indirizzo del mittente) e per consentir loro di inviare risposte automatizzate, quali messaggi non recapitati asincroni, risposte fuori sede e così via (indirizzo di errore). Durante la fase di preparazione dei messaggi, Adobe Campaign verifica che gli indirizzi immessi siano validi. Questa modalità operativa assicura che non vengano utilizzati indirizzi che possono causare problemi di consegna.
    * Sia l’indirizzo del mittente che l’indirizzo di errore sono impostati da Adobe. Questi campi non possono essere vuoti.
    * Non è possibile modificarli. Per aggiornare un indirizzo, contatta il team di Assistenza cliente Adobe.
-   * Per aggiungere un altro indirizzo, puoi utilizzare il [Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) per impostare un nuovo sottodominio o contattare il team di Assistenza cliente di Adobe. Se vengono utilizzate più maschere, saranno separate da virgole.
+   * Per aggiungere un altro indirizzo, puoi utilizzare il [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it) per impostare un nuovo sottodominio o contattare il team di Assistenza cliente di Adobe. Se vengono utilizzate più maschere, saranno separate da virgole.
    * È buona norma impostare gli indirizzi utilizzando un asterisco, ad esempio *@tuodominio.com: ti consente di usare qualsiasi indirizzo che termina con il nome del sottodominio.
 
 * **Consegna**
