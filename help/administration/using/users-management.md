@@ -6,17 +6,16 @@ description: 'Gli utenti di Adobe Campaign hanno ruoli specifici. Scopri i tipi 
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: Gestione degli accessi
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1220'
 ht-degree: 94%
 
 ---
-
 
 # Gestione utenti{#users-management}
 
@@ -38,7 +37,7 @@ Per accedere all’interfaccia di gestione degli utenti da Adobe Campaign, fai c
 
 **Argomenti correlati:**
 
-* Video sulla [gestione di autorizzazioni utente](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
+* Video sulla [gestione di autorizzazioni utente](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Elenco di ruoli](../../administration/using/list-of-roles.md)
 * [Elenco delle autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
