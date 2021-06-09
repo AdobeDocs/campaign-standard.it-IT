@@ -2,21 +2,20 @@
 solution: Campaign Standard
 product: campaign
 title: Configurazione per l’integrazione di Campaign-Experience Manager
-description: Con l’integrazione di Adobe Experience Manager, puoi creare contenuti direttamente in AEM e utilizzarli successivamente in Adobe Campaign.
+description: Con l’integrazione Adobe Experience Manager, puoi creare contenuti direttamente in AEM e utilizzarli successivamente in Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '336'
 ht-degree: 3%
 
 ---
-
 
 # Configurazione per l’integrazione di Campaign-Experience Manager {#configuration-aem}
 
@@ -39,7 +38,7 @@ Per configurare Adobe Campaign:
 
 1. Devi innanzitutto configurare l’account esterno **[!UICONTROL Adobe Experience Manager instance]** in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
-1. Configura l&#39;account esterno di tipo Adobe Experience Manager con l&#39;URL **[!UICONTROL Server]**, **[!UICONTROL Account]** e **[!UICONTROL Password]**.
+1. Configura l’account esterno di tipo Adobe Experience Manager con l’URL **[!UICONTROL Server]**, **[!UICONTROL Account]** e **[!UICONTROL Password]**.
 
    ![](assets/aem_1.png)
 
@@ -69,9 +68,8 @@ Ora devi configurare l’integrazione in Adobe Experience Manager.
 
 Per configurare Adobe Experience Manager con Adobe Campaign Standard, segui questi passaggi:
 
-1. È innanzitutto necessario configurare la replica tra le istanze di authoring e pubblicazione di Adobe Experience Manager. Fare riferimento a questa sezione [sezione](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
+1. Devi innanzitutto configurare la replica tra le istanze di authoring e pubblicazione di Adobe Experience Manager. Fare riferimento a questa sezione [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
 
-1. Quindi, connetti Adobe Experience Manager ad Adobe Campaign configurando un **[!UICONTROL Cloud Service]** dedicato. Fare riferimento a questa sezione [sezione](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
+1. Quindi, connetti Adobe Experience Manager ad Adobe Campaign configurando un **[!UICONTROL Cloud Service]** dedicato. Fare riferimento a questa sezione [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
-1. Ora devi configurare l’esternalizzatore in Adobe Experience Manager sull’istanza di authoring. Fare riferimento a questa sezione [sezione](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
-
+1. Ora devi configurare l’esternalizzatore in Adobe Experience Manager sull’istanza di authoring. Fare riferimento a questa sezione [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
