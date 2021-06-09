@@ -6,17 +6,16 @@ description: Scopri come gestire i dati crittografati.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Workflows
+feature: Flussi di lavoro
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
+source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '925'
 ht-degree: 5%
 
 ---
-
 
 # Gestione dei dati crittografati {#managing-encrypted-data}
 
@@ -24,7 +23,7 @@ ht-degree: 5%
 
 In alcuni casi, i dati che desideri importare dai server Campaign potrebbero dover essere crittografati, ad esempio se contengono dati PII.
 
-Per crittografare i dati in uscita o decrittografare quelli in arrivo, devi gestire le chiavi GPG utilizzando il [Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/instances-settings/gpg-keys-management.html).
+Per crittografare i dati in uscita o decrittografare quelli in arrivo, devi gestire le chiavi GPG utilizzando il [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=it).
 
 >[!NOTE]
 >
@@ -52,7 +51,7 @@ In questo caso d’uso, creeremo un flusso di lavoro per importare i dati critto
 
 I passaggi per eseguire questo caso d’uso sono i seguenti:
 
-1. Utilizza il Pannello di controllo Campaign per generare una coppia di chiavi (pubblica/privata). I passaggi dettagliati sono disponibili nella [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Utilizza il Pannello di controllo Campaign per generare una coppia di chiavi (pubblica/privata). I passaggi dettagliati sono disponibili nella [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * La chiave pubblica verrà condivisa con il sistema esterno, che lo utilizzerà per crittografare i dati da inviare a Campaign.
    * La chiave privata verrà utilizzata da Campaign per decrittografare i dati crittografati in arrivo.
@@ -96,7 +95,7 @@ In questo caso d’uso, creeremo un flusso di lavoro per crittografare ed esport
 
 I passaggi per eseguire questo caso d’uso sono i seguenti:
 
-1. Genera una coppia di chiavi GPG (pubblica/privata) utilizzando un&#39;utility GPG, quindi installa la chiave pubblica sul Pannello di controllo Campaign. I passaggi dettagliati sono disponibili nella [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Genera una coppia di chiavi GPG (pubblica/privata) utilizzando un&#39;utility GPG, quindi installa la chiave pubblica sul Pannello di controllo Campaign. I passaggi dettagliati sono disponibili nella [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
