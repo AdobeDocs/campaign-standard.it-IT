@@ -9,14 +9,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
+source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
-
 
 # Filtro {#filtering}
 
@@ -206,7 +205,7 @@ Se desideri utilizzare un filtro personalizzato, devi crearlo e personalizzarlo 
 Per ulteriori informazioni, consulta la documentazione di Campaign Standard:
 
 * [Configurazione della definizione del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso di utilizzo: Chiamata di una risorsa tramite una chiave](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html) di identificazione composita.
+* [Caso di utilizzo: Chiamata di una risorsa tramite una chiave](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html) di identificazione composita.
 
 <br/>
 
