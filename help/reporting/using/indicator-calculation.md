@@ -6,17 +6,16 @@ description: Comprendi i risultati dei tuoi rapporti con un elenco della formula
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Generazione rapporti
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
+source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
-
 
 # Calcolo indicatore{#indicator-calculation}
 
@@ -191,7 +190,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
   <tr> 
    <td> Clic univoco<br /> </td> 
    <td> @univeclicks<br /> </td> 
-   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. Per ulteriori informazioni, consulta questo <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
+   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. Per ulteriori informazioni, consulta questo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -271,7 +270,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
   <tr> 
    <td> Aperture univoche<br /> </td> 
    <td> @uniqueopen<br /> </td> 
-   <td> Le aperture univoche vengono calcolate utilizzando i concetti ThetaSketch di RecipientIds univoci. Per ulteriori informazioni, consulta questo <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
+   <td> Le aperture univoche vengono calcolate utilizzando i concetti ThetaSketch di RecipientIds univoci. Per ulteriori informazioni, consulta questo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impression<br /> </td> 
@@ -291,7 +290,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
   <tr> 
    <td> Clic univoco<br /> </td> 
    <td> @univeclicks<br /> </td> 
-   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. Per ulteriori informazioni, consulta questo <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
+   <td> I clic univoci vengono calcolati utilizzando i concetti di ThetaSketch. Per ulteriori informazioni, consulta questo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">esempio</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Click through rate<br /> </td> 
@@ -375,4 +374,3 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
   </tr> 
  </tbody> 
 </table>
-
