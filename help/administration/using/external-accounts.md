@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: Impostazioni delle istanze
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
-
 
 # Account esterni{#external-accounts}
 
@@ -87,11 +86,11 @@ Per evitare tali problemi, Adobe consiglia di seguire le best practice riportate
 
 Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti all’inserire nell&#39;elenco Consentiti nell’istanza Campaign. L&#39;aggiunta di indirizzi IP all&#39;inserire nell&#39;elenco Consentiti può essere richiesta tramite un [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), fornendo al tempo stesso la chiave pubblica da utilizzare per l&#39;autenticazione.
 
-I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/sftp-management/about-sftp-management.translate.html).
+I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
->Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere all&#39;amministratore l&#39;accesso a un utente sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 
 ## Account OAuth 2.0 {#oauth-account}
 
