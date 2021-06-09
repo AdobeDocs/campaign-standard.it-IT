@@ -6,17 +6,16 @@ description: 'Scopri come configurare l’integrazione di Adobe Experience Cloud
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '859'
+ht-degree: 7%
 
 ---
-
 
 # Configurazione di Triggers in Experience Cloud{#configuring-triggers-in-experience-cloud}
 
@@ -98,7 +97,7 @@ L’alias precedentemente indicato in DTM deve essere creato nel servizio core P
 
 Crea un nuovo trigger in Experience Cloud e assicurati di selezionare la suite di rapporti utilizzata sul sito web. Assicurati di scegliere la dimensione giusta in modo che l’attivatore si attivi.
 
-Consulta la [documentazione Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/activation/triggers.html) e guarda questo [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
+Consulta la [documentazione Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) e guarda questo [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Best practice e limitazioni dei trigger {#triggers-best-practices-and-limitations}
 
@@ -115,4 +114,3 @@ Elenco delle best practice e limitazioni per l’utilizzo dell’integrazione Ca
 >[!CAUTION]
 >
 >Il sito web deve essere in esecuzione sullo stesso dominio del server Adobe Campaign. In caso contrario, non puoi utilizzare l’id visitatore per riconciliare e raggiungere gli utenti che visitano il sito web in modo anonimo.
-
