@@ -10,10 +10,10 @@ feature: Trigger
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 79%
+source-wordcount: '714'
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ Le diverse integrazioni indicate di seguito permettono di combinare le funzional
 
 A seconda dell’ambiente, è possibile collegare ad Adobe Experience Cloud altre soluzioni come Organizzazioni (o Tenant).
 
-Un’organizzazione è un’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come una log-in company che abbraccia tutti i prodotti e le soluzioni di Experience Cloud. Nella maggior parte dei casi l’organizzazione corrisponde al nome aziendale, ma una stessa azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è illustrata nel dettaglio nella [Guida di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/organizations.html).
+Un’organizzazione è un’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come una log-in company che abbraccia tutti i prodotti e le soluzioni di Experience Cloud. Nella maggior parte dei casi l’organizzazione corrisponde al nome aziendale, ma una stessa azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è illustrata nel dettaglio nella [Guida di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
 
 Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, consulta la [documentazione sulle API](../../api/using/get-started-apis.md).
 
@@ -58,7 +58,7 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> Adobe Target<br /> </td> 
    <td> Consente di inserire immagini calcolate dinamicamente da Adobe Target quando viene aperto un messaggio e-mail creato e inviato da Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a>,  <a href="https://docs.adobe.com/content/help/it-IT/target/using/integrate/campaign-and-target.html">Integrazione di Campaign e Target</a>,  <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Personalizzazione delle immagini e-mail in Real-</a> Timevideo (passaggio 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrazione di Campaign e Target</a>,  <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Personalizzazione delle immagini e-mail in Real-</a> Timevideo (passaggio 3)
     </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Consente di modificare il contenuto di un’e-mail da Dreamweaver e di sincronizzarla con Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Crea e-mail personalizzate con </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html">utilizza l’estensione Campaign per Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Crea e-mail personalizzate con </a> Dreamweavervideo,  <a href="https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html">utilizza l’estensione Campaign per Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
