@@ -10,16 +10,16 @@ feature: Panoramica
 role: Business Practitioner
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 21820131ef4ef13782a416535b170f260ab5efea
+source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2536'
 ht-degree: 95%
 
 ---
 
 # Note sulla versione 2021{#release-notes-2021}
 
-[Pianificazione del rilascio](../../rn/using/release-planning.md) | [Versioni del Pannello di controllo Campaign](https://docs.adobe.com/content/help/it-IT/control-panel/using/release-notes.html) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2020.md) | [Funzioni obsolete](../../rn/using/deprecated-features.md)
+[Pianificazione del rilascio](../../rn/using/release-planning.md) | [Versioni del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2020.md) | [Funzioni obsolete](../../rn/using/deprecated-features.md)
 
 ## Versione 21.1 - febbraio 2021 {#release-21-1---february-2021}
 
