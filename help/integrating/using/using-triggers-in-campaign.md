@@ -5,17 +5,16 @@ title: Utilizzo di triggers in Campaign
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '750'
 ht-degree: 82%
 
 ---
-
 
 # Utilizzo di triggers in Campaign{#using-triggers-in-campaign}
 
@@ -25,7 +24,7 @@ ht-degree: 82%
 >
 >Per creare i trigger, devi disporre del ruolo **[!UICONTROL Administration]** o far parte del gruppo di sicurezza **[!UICONTROL Administrators]** . Per ulteriori informazioni, consulta questa [pagina](../../administration/using/list-of-roles.md).
 
-Devi accertarti di definire in anticipo i comportamenti da monitorare all’interno di Adobe Experience Cloud (servizio core **[!UICONTROL Triggers]**). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://docs.adobe.com/content/help/it-IT/core-services/interface/activation/triggers.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
+Devi accertarti di definire in anticipo i comportamenti da monitorare all’interno di Adobe Experience Cloud (servizio core **[!UICONTROL Triggers]**). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
 
 Ora devi creare un evento trigger in Adobe Campaign basato su un trigger esistente di Adobe Experience Cloud.
 
@@ -102,4 +101,3 @@ Per visualizzare il report del trigger dedicato all’interno di Adobe Campaign,
 Il report mostra il numero di eventi elaborati rispetto al numero di eventi inviati da Analytics. Inoltre, visualizza un elenco di tutti i trigger recenti.
 
 ![](assets/trigger_uc_browse_14.png)
-
