@@ -6,17 +6,16 @@ description: Con l’integrazione di Adobe Experience Manager, puoi creare modul
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61683639-3f71-4652-a138-acfc0e91e868
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 12%
 
 ---
-
 
 # Creazione di un modulo Campaign in Experience Manager {#creating-a-campaign-form-in-experience-manager}
 
@@ -41,4 +40,4 @@ Per creare un modulo Adobe Campaign sul sito AEM:
 1. Modificare il contenuto del modulo aggiungendo campi e componenti diversi che è possibile mappare ai campi del database di Adobe Campaign.
 1. Verificare e pubblicare il modulo per renderlo accessibile sul sito AEM.
 
-Per ulteriori informazioni, consulta la [documentazione dettagliata](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
+Per ulteriori informazioni, consulta la [documentazione dettagliata](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
