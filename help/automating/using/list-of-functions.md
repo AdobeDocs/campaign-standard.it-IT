@@ -10,10 +10,10 @@ feature: Flussi di lavoro
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -707,11 +707,7 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
    <td> Restituisce il valore minimo in una colonna numerica, stringa o data.<br /> </td> 
    <td> Min(&lt;valore&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, aggregato stringa<br /> </td> 
-   <td> Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento (il separatore predefinito è virgola).<br /> </td> 
-   <td> StringAgg(&lt;valori stringa&gt;,&lt;separatore&gt;)
-  </tr>
+
 
 
 
