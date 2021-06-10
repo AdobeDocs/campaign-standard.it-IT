@@ -10,10 +10,10 @@ feature: Panoramica
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ Di seguito sono elencate nuove funzioni, miglioramenti e correzioni inclusi nell
 * Nelle consegne con più varianti, gli utenti non possono più creare copie per lingua se la variante predefinita è stata eliminata. Durante la creazione della copia in lingua viene ora visualizzato un messaggio. (CAMP-48235)
 
 * Il processo di eliminazione del profilo in due fasi (obsoleto a partire dalla versione 19.4 di Campaign) ora è disattivato per impostazione predefinita. In precedenza era necessario disattivarlo manualmente dall’interfaccia di Campaign prima di utilizzare il servizio core Privacy. In caso contrario, lo stato delle richieste di cancellazione rimarrà in sospeso senza essere state completate.
-
-* È stata introdotta una nuova funzione di aggregazione &#39;StringAgg&#39; per concatenare i valori di una colonna di tipo stringa. (CAMP-47077) [Ulteriori informazioni](../../automating/using/list-of-functions.md#aggregates)
 
 * Nei rapporti dinamici, il segmento **Escludi prova** è stato rimosso. (CAMP-46161)
 
