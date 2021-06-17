@@ -12,14 +12,14 @@ level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+source-wordcount: '2535'
+ht-degree: 100%
 
 ---
 
 # Note sulla versione 2021{#release-notes-2021}
 
-[Pianificazione del rilascio](../../rn/using/release-planning.md) | [Versioni del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2020.md) | [Funzioni obsolete](../../rn/using/deprecated-features.md)
+[Pianificazione del rilascio](../../rn/using/release-planning.md) | [Versioni del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedente](../../rn/using/release-notes-2020.md) | [Funzioni obsolete](../../rn/using/deprecated-features.md)
 
 ## Versione 21.1 - febbraio 2021 {#release-21-1---february-2021}
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * È stato risolto un problema nei flussi di lavoro che poteva verificarsi se si copiava e incollava un’attività **Deduplication** che era stata eseguita una volta e che sfruttava una risorsa temporanea. Una volta duplicata, la risorsa dell’attività veniva automaticamente impostata su vuota, causando problemi in altre attività del flusso di lavoro. Una volta incollata, la risorsa dell’attività ora rimane la stessa, così che l’errore possa attivarsi il prima possibile anziché in un punto successivo del flusso di lavoro. (CAMP-46903)
 
-* Sono stati risolti dei problemi che hanno causato un errore di analisi della consegna durante l’invio di un profilo di targeting di notifiche push transazionali, introducendo una nuova [mappatura target](../../administration/using/target-mappings-in-campaign.md): **Profilo - Evento in tempo reale per Push** (*mapRtEventAppSubRcp*). I registri di consegna, esclusione e tracciamento per le notifiche push transazionali basate su profili](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) verranno ora memorizzati nelle tabelle *wideLogAppSubRcp*, *excludeLogAppSubRcp* e *trackingLogAppSubRcp*.[
+* È stato risolto un problema che causava un errore nell’analisi della consegna durante l’invio di un messaggio push transazionale con targeting di profilo, introducendo una nuova [mappatura del target](../../administration/using/target-mappings-in-campaign.md): **Profilo - Evento real-time per push** (*mapRtEventAppSubRcp*). I registri di consegna, esclusione e tracciamento per le [notifiche push transazionali con targeting di profilo](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) verranno ora memorizzati nelle tabelle *broadLogAppSubRcp*, *excludeLogAppSubRcp* e *trackingLogAppSubRcp*.
 
    >[!IMPORTANT]
    >
-   >A causa di questa modifica, se utilizzi una notifica transazionale basata su profilo esistente (creata prima dell’aggiornamento ad Adobe Campaign 21.1), ti consigliamo di aggiornare la mappatura di destinazione a quella nuova e pubblicare nuovamente il messaggio. Vedi i passaggi dettagliati [qui](../../channels/using/transactional-push-notifications.md#change-target-mapping). L&#39;utilizzo della mappatura di destinazione precedente **Profilo - Evento in tempo reale** (*mapRtEventRcp*) può causare tempi di preparazione e deterioramento delle prestazioni più lunghi.
+   >A causa di questa modifica, se utilizzi una notifica push transazionale basata su profilo esistente (creata prima dell’aggiornamento ad Adobe Campaign 21.1), ti consigliamo di aggiornare la mappatura di destinazione a quella nuova e pubblicare nuovamente il messaggio. Consulta i [passaggi dettagliati](../../channels/using/transactional-push-notifications.md#change-target-mapping). L’utilizzo della mappatura di destinazione precedente **Profilo - Evento in tempo reale** (*mapRtEventRcp*) può comportare tempi di preparazione più lunghi e deterioramento delle prestazioni.
 
 * È stato risolto un problema che impediva l’esecuzione dei rapporti di consegna quando venivano visualizzate 5000 righe.
 * È stato risolto un problema relativo al test A/B che impediva l’aggiornamento del contenuto della variante B dopo una modifica del modello di consegna. (CAMP-45235)
