@@ -11,7 +11,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ In qualità di titolare del trattamento, avrai pertanto la responsabilità di co
 >
 >Per ulteriori informazioni sui dati personali e sulle diverse entità che gestiscono i dati (titolare del trattamento, responsabile del trattamento e interessato), consulta [Dati personali e utenti tipo](../../start/using/privacy.md#personal-data).
 
-### Spazi dei nomi {#namesspaces}
+### Namespace {#namesspaces}
 
 Prima di creare le richieste di accesso a dati personali, è necessario definire lo spazio dei nomi che verrà utilizzato. Lo spazio dei nomi è la chiave che verrà utilizzata per identificare l’interessato nel database di Adobe Campaign. Due spazi dei nomi sono disponibili da subito: e-mail e telefono cellulare. Se hai bisogno di uno spazio dei nomi diverso (ad esempio un campo personalizzato del profilo), svolgi i passaggi seguenti.
 
