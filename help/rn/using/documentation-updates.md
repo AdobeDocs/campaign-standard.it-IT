@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 **Nuove funzionalità incluse nella versione**
 
-Convalida delle pagine di destinazione : puoi ora aggiungere un’opzione di accordo obbligatoria alle pagine di destinazione. [Leggi tutto](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Convalida delle pagine di destinazione: ora puoi aggiungere alle pagine di destinazione un’opzione di accettazione obbligatoria. [Leggi tutto](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-La sezione **Dimensione e-mail** è stata aggiornata con informazioni sulle dimensioni massime di un messaggio e-mail, che ora sono impostate su 100 MB per impostazione predefinita. [Leggi tutto](../../sending/using/design-and-personalize.md#email-size)
+La sezione **Dimensione e-mail** è stata aggiornata con informazioni sulle dimensioni massime di un messaggio e-mail, che ora sono di 100 MB per impostazione predefinita. [Leggi tutto](../../sending/using/design-and-personalize.md#email-size)
 
 **Altri aggiornamenti alla documentazione in arrivo con la versione**
 
