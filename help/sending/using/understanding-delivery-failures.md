@@ -10,8 +10,7 @@ feature: Recapito messaggi
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 66%
@@ -37,7 +36,7 @@ I messaggi possono essere esclusi anche durante la preparazione della consegna s
 **Argomenti correlati:**
 
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
-* [Informazioni sul consenso e diniego in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 * [Rimbalzi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificazione degli errori di consegna per un messaggio {#identifying-delivery-failures-for-a-message}
@@ -59,7 +58,7 @@ Se una consegna non riesce, possono verificarsi tre tipi di errori:
 I possibili motivi di un errore di consegna sono:
 
 | Etichetta errore | Tipo di errore | Descrizione |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL User unknown]** | Duro | L&#39;indirizzo non esiste. Per questo profilo non verranno tentate ulteriori consegne. |
 | **[!UICONTROL Quarantined address]** | Duro | L&#39;indirizzo è stato messo in quarantena. |
 | **[!UICONTROL Unreachable]** | Soft/Hard | Errore nella catena di consegna del messaggio (ad esempio dominio temporaneamente non raggiungibile). In base all’errore restituito dal provider, l’indirizzo verrà posto direttamente in quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato di quarantena o finché non vengono raggiunti 5 errori. |
@@ -67,7 +66,7 @@ I possibili motivi di un errore di consegna sono:
 | **[!UICONTROL Mailbox full]** | Morbido | La cassetta postale di questo utente è piena e non può accettare altri messaggi. Questo indirizzo può essere rimosso dall’elenco di quarantena per effettuare un altro tentativo. Viene rimosso automaticamente dopo 30 giorni. Per consentire la rimozione automatica dell’indirizzo dall’elenco degli indirizzi in quarantena, è necessario avviare il flusso di lavoro tecnico **[!UICONTROL Database cleanup]**. |
 | **[!UICONTROL Refused]** | Soft/Hard | L’indirizzo è stato messo in quarantena a causa di un feedback di sicurezza come un rapporto spam. In base all’errore restituito dal provider, l’indirizzo verrà posto direttamente in quarantena o la consegna verrà ritentata finché Campaign non riceve un errore che giustifica lo stato di quarantena o finché non vengono raggiunti 5 errori. |
 | **[!UICONTROL Duplicate]** | Ignorato | L’indirizzo è già stato rilevato nella segmentazione. |
-| **[!UICONTROL Not defined]** | Morbido | l’indirizzo è in qualificazione perché gli errori non sono ancora stati incrementati. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. |
+| **[!UICONTROL Not defined]** | Morbido | l’indirizzo è in qualificazione perché gli errori non sono stati incrementati. | ancora. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. |
 | **[!UICONTROL Error ignored]** | Ignorato | L’indirizzo è inserire nell&#39;elenco Consentiti e verrà inviata un’e-mail in ogni caso. |
 | **[!UICONTROL Address on denylist]** | Duro | L’indirizzo è stato aggiunto al elenco Bloccati al momento dell’invio. |
 | **[!UICONTROL Account disabled]** | Soft/Hard | Quando il provider di accesso a Internet (IAP) rileva un periodo prolungato di inattività, può chiudere l&#39;account dell&#39;utente: le consegne all’indirizzo dell’utente saranno quindi impossibili. Il tipo morbido o rigido dipende dal tipo di errore ricevuto: se l’account è temporaneamente disattivato a causa di sei mesi di inattività e può ancora essere attivato, verrà assegnato lo stato **[!UICONTROL Erroneous]** e la consegna verrà ritentata. Se l’errore ricevuto segnala che l’account è disattivato in modo permanente, verrà posto direttamente in quarantena. |
