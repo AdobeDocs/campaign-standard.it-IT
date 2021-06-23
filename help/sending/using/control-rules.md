@@ -6,17 +6,16 @@ description: Scopri come rafforzare il controllo della qualità dei messaggi con
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Regole di tipologia
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6461c128-1e42-4685-88f8-507244147e6f
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '442'
 ht-degree: 4%
 
 ---
-
 
 # Regole di controllo {#control-rules}
 
@@ -31,7 +30,7 @@ Le regole di controllo ti consentono di verificare la validità e la qualità de
 Un insieme di regole predefinite assicura i controlli standard. La tabella seguente fornisce informazioni su queste regole, nonché sul relativo canale e sulle [fasi di esecuzione](#control-rules-execution-phases).
 
 | Etichetta | Canale | Fase di esecuzione | Descrizione |
----------|----------|---------|---------
+|---------|----------|---------|---------
 | **[!UICONTROL A/B Test]** | E-mail | All&#39;inizio della personalizzazione | Estrae la popolazione di test per una consegna con un test A/B. |
 | **[!UICONTROL Check delivery size]** | Tutto | Dopo il targeting | Controlla le dimensioni dei messaggi. |
 | **[!UICONTROL Check email content is not empty]** | E-mail | Dopo il targeting | Genera un errore se il contenuto del messaggio è vuoto. |
