@@ -6,17 +6,16 @@ description: Utilizza le regole di filtro per perfezionare il pubblico dei messa
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Regole di tipologia
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 3%
 
 ---
-
 
 # Regole di filtro {#filtering-rules}
 
@@ -27,7 +26,7 @@ Le regole di filtro ti consentono di escludere una parte del target del messaggi
 La tabella seguente fornisce informazioni sulle regole di filtro predefinite e sui relativi canali.
 
 | Etichetta | Canale | Descrizione |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione target senza indirizzo specifico (e-mail, indirizzo postale, ecc.) secondo il canale selezionato). |
 | **[!UICONTROL Address on denylist]** | Tutto | Esclude gli indirizzi presenti nel elenco Bloccati. |
 | **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al campo della popolazione target **[!UICONTROL Address]** . |
@@ -93,7 +92,7 @@ Per impostazione predefinita, il filtraggio viene eseguito sul **[!UICONTROL Pro
 
 ![](assets/typology_rule-order_2.png)
 
-## Limitazione dell&#39;applicabilità di una regola di filtro {#restricting-the-applicability-of-a-filtering-rule}
+## Limitazione dell’applicabilità di una regola di filtro {#restricting-the-applicability-of-a-filtering-rule}
 
 Puoi limitare l’applicabilità di una regola di filtro in base al messaggio da inviare.
 
