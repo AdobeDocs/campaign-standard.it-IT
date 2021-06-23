@@ -6,17 +6,16 @@ description: Questa sezione descrive come chiamare un flusso di lavoro con param
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Workflows
+feature: Flussi di lavoro
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
-
 
 # Personalizzazione di un flusso di lavoro con parametri esterni {#customizing-a-workflow-with-external-parameters}
 
@@ -58,7 +57,7 @@ Quando utilizzi una variabile in un’attività , l’interfaccia fornisce aiuto
    Inoltre, puoi utilizzare le funzioni seguenti, disponibili in tutte le attività che ti consentono di utilizzare variabili di eventi dopo aver chiamato un flusso di lavoro con parametri esterni (consulta [questa sezione](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Nome | Descrizione | Sintassi |
-   ---------|----------|---------
+   | ---------|----------|---------|
    | EndWith | Indica se una stringa (primo parametro) termina con una stringa specifica (secondo parametro). | EndWith(&lt;Stringa>,&lt;Stringa>) |
    | startWith | Indica se una stringa (primo parametro) inizia con una stringa specifica (secondo parametro). | startWith(&lt;Stringa>,&lt;Stringa>) |
    | Extract | Restituisce i primi caratteri di una stringa utilizzando un separatore. | Extract(&lt;Stringa>,&lt;Separatore>) |
@@ -70,7 +69,7 @@ Quando utilizzi una variabile in un’attività , l’interfaccia fornisce aiuto
    | IsNull | Indica se una stringa o una data è null. | IsNull(&lt;Stringa/data>) |
    | UrlUtf8Encode | Codifica un URL in UTF8. | UrlUtf8Encode(&lt;Stringa>) |
 
-## Personalizzazione delle attività con variabili di eventi {#customizing-activities-with-events-variables}
+## Personalizzazione di attività con variabili di eventi {#customizing-activities-with-events-variables}
 
 Le variabili di eventi possono essere utilizzate per personalizzare diverse attività, elencate nella sezione seguente. Per ulteriori informazioni su come chiamare una variabile da un&#39;attività, consulta [questa sezione](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
