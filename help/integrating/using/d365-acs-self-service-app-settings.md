@@ -4,17 +4,16 @@ description: Scopri come configurare l’app di integrazione Campaign-Dynamics
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM Integration
+feature: Integrazione con Microsoft CRM
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 184bc656-2107-4380-9b35-148cb4380547
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 2%
+source-wordcount: '795'
+ht-degree: 4%
 
 ---
-
 
 # Collegare i sistemi con l’applicazione di integrazione
 
@@ -34,7 +33,7 @@ Le credenziali di Microsoft Dynamics 365 consentono all’applicazione di integr
 
 * **[!UICONTROL Tenant]**: Scopri come trovare il tuo ID tenant in  [questa sezione](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]**: L’URL avrà il formato &quot;https://&lt;servername>.api.crm.dynamics.com/
+* **[!UICONTROL URL]**: Il formato dell’URL sarà  `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### Adobe di credenziali API
 
@@ -48,7 +47,7 @@ L&#39;immagine seguente illustra in dettaglio la mappatura tra gli input dello s
 
 * *URL*: Questo valore si adatta al pattern https\://mc.adobe.io/&lt;campaign-instance-name>. L’intestazione dell’app di integrazione include sia &quot;Org&quot; che &quot;Instance&quot; (Istanza). La porzione &quot;campaign-instance-name&quot; dell&#39;url è semplicemente il nome trovato in questo valore di istanza.
 
-## Impostazioni Adobe Campaign SFTP {#ac-smtp-settings}
+## Impostazioni SFTP di Adobe Campaign {#ac-smtp-settings}
 
 Queste impostazioni sono facoltative. Devi definirli se prevedi di utilizzare la tua istanza SFTP di Adobe Campaign per generare i registri dal connettore. Questo è utile se si verificano problemi durante l&#39;esecuzione dell&#39;integrazione e devi eseguire il debug del motivo per cui l&#39;output non soddisfa le tue aspettative.
 
@@ -79,7 +78,7 @@ Per definire le impostazioni SFTP di Campaign per l’integrazione con Microsoft
 
 Scopri la gestione SFTP con [Pannello di controllo Campaign campagna](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) nelle seguenti sezioni:
 
-* [Informazioni sulla gestione SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management)
+* [Informazioni sulla gestione SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it#sftp-management)
 
 * [Gestione dell’archiviazione SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
 
