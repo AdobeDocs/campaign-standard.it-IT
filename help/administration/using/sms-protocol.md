@@ -6,23 +6,22 @@ description: Ulteriori informazioni sul connettore SMS e su come configurarlo.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Impostazioni delle istanze
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ea936128-1c51-483d-914c-6d06708456d6
+source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
 workflow-type: tm+mt
-source-wordcount: '8669'
+source-wordcount: '8666'
 ht-degree: 0%
 
 ---
-
 
 # Protocollo e impostazioni del connettore SMS {#sms-connector-protocol}
 
 >[!NOTE]
 >
->Il protocollo e le impostazioni del **connettore SMS** per Adobe Campaign Classic si trovano in questa [pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages).
+>Il protocollo e le impostazioni del **connettore SMS** per Adobe Campaign Classic si trovano in questa [pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >Attraverso questo documento, tutti i riferimenti ai dettagli relativi al protocollo, ai nomi e ai valori dei campi si riferiscono alla [specifica SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -153,7 +152,7 @@ Campi di rilievo in a `BIND_* PDU`:
 
 `BIND_*_RESP` non dispone di un campo specifico e conferma se la connessione è riuscita o meno.
 
-#### UNBIND {#unbind}
+#### SBARCO {#unbind}
 
 Questa PDU deve essere inviata dal sistema prima della disconnessione. Prima di chiudere la connessione, è necessario attendere la corrispondenza `UNBIND_RESP PDU`.
 
@@ -251,7 +250,7 @@ Ci sono 2 modi per inviare SMS lunghi:
 
 Per ulteriori informazioni sul protocollo e i formati, vedere la descrizione dei campi `esm_class`, `short_message` e `message_payload` della PDU [SUBMIT_SM](../../administration/using/sms-protocol.md#information-pdu).
 
-### Limite di velocità e finestre di Throughput {#throughput-capping}
+### Limitazione del carico e finestre {#throughput-capping}
 
 La maggior parte dei provider richiede un limite di throughput per ogni connessione SMPP. Questo può essere ottenuto impostando un numero di SMS nell’account esterno. Tieni presente che la limitazione della velocità effettiva avviene per connessione, il throughput effettivo totale corrisponde al limite per connessione moltiplicato per il numero totale di connessioni. Questo è descritto nella sezione [Connessioni simultanee](../../administration/using/sms-protocol.md#connection-settings) .
 
@@ -362,11 +361,11 @@ La dimensione massima di un messaggio dipende dalla relativa codifica. Questa ta
 | Latino-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varia da telefono a telefono) |
 
-## Parametri account esterni SMPP {#SMPP-parameters-external}
+## Parametri dell’account esterno SMPP {#SMPP-parameters-external}
 
 Ogni implementazione del protocollo SMPP ha molte varianti. Per migliorare la compatibilità e l&#39;adattabilità, sono disponibili molte impostazioni per modificare il comportamento del connettore SMPP. Questa sezione descrive ogni parametro e i relativi effetti sul connettore.
 
-### Parametri generali e indirizzamento {#general-parameters-routing}
+### Parametri generali e ciclo di produzione {#general-parameters-routing}
 
 **Limita le istanze MTA per questo account**
 
@@ -421,7 +420,7 @@ Le connessioni simultanee sono impostate nell&#39;account esterno, il numero di 
 
 In modalità separata **trasmettitore/ricevitore**, il numero di connessioni di cui sopra rappresenta il numero di coppie **trasmettitore/ricevitore**, il che significa che ci sarà il doppio del numero di connessioni in totale.
 
-#### Abilita TLS su SMPP {#enable-TLS}
+#### Abilitare TLS su SMPP {#enable-TLS}
 
 Utilizza TLS per connetterti al provider. La connessione verrà crittografata. La connessione TLS è gestita dalla libreria OpenSSL : tutto ciò che è applicabile a OpenSSL è vero per questa connessione.
 
@@ -534,7 +533,7 @@ Quando la connessione TCP viene persa, il connettore attenderà questo numero di
 
 Timeout tra `SUBMIT_SM` e la corrispondente `SUBMIT_SM_RESP`. Se la `RESP` non viene ricevuta in tempo, il messaggio verrà considerato come non riuscito e verranno applicati i criteri di esecuzione di nuovi tentativi globali dell’MTA.
 
-#### Timeout binding {#bind-timeout}
+#### Timeout del binding {#bind-timeout}
 
 Timeout tra il tentativo di connessione TCP e la risposta `BIND_*_RESP`. Quando si verifica un timeout, la connessione viene chiusa dal connettore Adobe Campaign e attenderà Tempo prima di riconnettersi prima di riprovare.
 
@@ -579,7 +578,7 @@ Se questa opzione è selezionata, l’SMS lungo verrà inviato in una delle PDU 
 
 Se questa funzione è abilitata, Adobe Campaign non sarà in grado di contare le parti SMS singolarmente: tutti i messaggi saranno conteggiati come inviati in una parte.
 
-#### Inviare il numero di telefono completo {#send-full-phone-number}
+#### Invia il numero di telefono completo {#send-full-phone-number}
 
 Quando questa casella di controllo non è selezionata, vengono inviate al provider solo le cifre del numero di telefono (`destination_addr` del campo `SUBMIT_SM` ). Questo è il comportamento predefinito, in quanto l’indicatore del numero internazionale, solitamente un prefisso +, viene sostituito dai campi TON e NPI in SMPP.
 
@@ -587,7 +586,7 @@ Quando la casella di controllo è selezionata, il numero di telefono viene invia
 
 Questa funzione ha anche un effetto sul comportamento della funzione di elenco Bloccati di risposta automatica: se la casella di controllo non è selezionata, ai numeri di telefono inseriti nella tabella di quarantena verrà aggiunto un prefisso + per compensare la rimozione del prefisso + dal numero di telefono da parte del protocollo SMPP stesso.
 
-#### Ignora il controllo del certificato TLS {#skip-tls}
+#### Ignora controllo certificato TLS {#skip-tls}
 
 Quando TLS è abilitato, salta tutti i controlli sui certificati.
 
@@ -595,13 +594,13 @@ Quando questa opzione è selezionata, la connessione non è più sicura e non de
 
 Può essere utile a scopo di debug o test.
 
-#### Associazione TON/NPI {#bind-ton-npi}
+#### Bind TON/NPI {#bind-ton-npi}
 
 TON (Tipo di numero) e NPI (Indicatore del piano di numerazione) descritti nella sezione 5.2.5 della [specifica SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (pagina 117). Questi valori devono essere impostati in base alle esigenze del provider.
 
 Vengono trasmesse così come sono nei campi `addr_ton` e `addr_npi` della PDU BIND.
 
-#### Intervallo di indirizzi {#address-range}
+#### Intervallo indirizzi {#address-range}
 
 Inviato come nel campo address_range della PDU BIND. Questo valore deve essere impostato su qualsiasi esigenza del provider.
 
@@ -631,7 +630,7 @@ Impostando questo campo su 0 si disabilita il meccanismo in cui viene sempre res
 
 Impostando questo campo su 1, il connettore risponde sempre &quot;OK&quot; anche se l’ID non è valido. Questo valore deve essere impostato su 1 solo sotto controllo, per la risoluzione dei problemi e per il periodo minimo di tempo, ad esempio per recuperare da un problema sul lato del fornitore.
 
-#### Regex di estrazione dell&#39;ID nell&#39;SR {#regex-extraction}
+#### Regex di estrazione dell’ID nell’SR {#regex-extraction}
 
 Il formato SR non è rigorosamente applicato dalla specifica del protocollo SMPP. Si tratta solo di una raccomandazione descritta nell&#39; [Appendice B](../../administration/using/sms-protocol.md#sr-error-management) (pagina 167) della specifica. Alcuni implementatori SMPP formattano questo campo in modo diverso, pertanto Adobe Campaign ha bisogno di un modo per estrarre il campo corretto.
 
@@ -649,7 +648,7 @@ Quando si incontrano messaggi con una combinazione di campi stat/err sconosciuta
 
 Per impostazione predefinita, i valori stat che iniziano con `DELIV`, ad esempio `DELIVRD` nell&#39; [Appendice B](../../administration/using/sms-protocol.md#sr-error-management) sarà considerato come consegnato con successo e tutti i valori stat che corrispondono a errori, ad esempio `REJECTED`, `UNDELIV` sono considerati errori.
 
-#### Formato ID nella conferma MT {#id-format-mt}
+#### Formato ID nella convalida MT {#id-format-mt}
 
 Indica il formato dell&#39;ID restituito nel campo `message_id` di `SUBMIT_SM_RESP PDU`.
 
@@ -691,7 +690,7 @@ Per acquisire questo valore, ora puoi impostare il seguente regex nel regex di e
 
 Se questa opzione è selezionata, il campo **Testo** viene mantenuto durante l&#39;elaborazione del testo di stato dell&#39;SR.
 
-Questa opzione è utile se il provider inserisce dati importanti in questo campo, come l’ID o lo stato . Di solito questo campo può essere ignorato in modo sicuro, poiché potrebbe contenere testo con una codifica non ASCII e interrompere l’elaborazione regex.
+Questa opzione è utile se il provider inserisce dati importanti in questo campo, ad esempio l’ID o lo stato . Di solito questo campo può essere ignorato in modo sicuro, poiché potrebbe contenere testo con una codifica non ASCII e interrompere l’elaborazione regex.
 
 Se abiliti questa opzione, potresti riscontrare un difetto di sicurezza molto piccolo se il `Extraction` regex dell’ID nel campo SR non è sufficientemente specifico. Il contenuto del campo **Testo** può essere analizzato come ID e un autore di attacchi può usarlo per inserire ID falsi, il che può portare a una situazione di rifiuto parziale del servizio.
 
@@ -733,7 +732,7 @@ Per ulteriori informazioni sui parametri facoltativi, consulta questa [sezione](
 
 Alcuni parametri possono essere impostati per modello di consegna.
 
-### Dal campo {#from-field}
+### Campo Da {#from-field}
 
 Questo campo è facoltativo. Consente di ignorare l’indirizzo del mittente (oADC). Il contenuto di questo campo viene inserito nel campo `source_addr` del percorso `SUBMIT_SM PDU`.
 
@@ -820,7 +819,7 @@ Per controllare i passaggi precedenti è necessario **abilitare tracce SMPP dett
 
 Questa lista di controllo fornisce un elenco degli elementi da controllare prima di essere live. Una configurazione incompleta può causare molti problemi.
 
-### Verifica conflitti account esterni {#external-account-conflict}
+### Verifica conflitti di account esterni {#external-account-conflict}
 
 Verifica di non disporre di vecchi account esterni SMS. Se l&#39;account di test viene disattivato, correte il rischio che venga riabilitato nel sistema di produzione e generato potenziali conflitti.
 
@@ -833,7 +832,7 @@ Se è necessario avere più account sulla stessa istanza di Adobe Campaign che s
 È sempre necessario abilitare tracce SMPP dettagliate durante i controlli.
 Anche se non riesci a controllare i registri da solo, sarà più semplice per il supporto aiutarti.
 
-### Test dell&#39;SMS {#test}
+### Test dell’SMS {#test}
 
 * **Invia SMS con tutti i tipi di**
 caratteriSe devi inviare SMS con caratteri non GSM o non ASCII, prova a inviare alcuni messaggi con il maggior numero possibile di caratteri diversi. Se imposti una tabella di mappatura dei caratteri personalizzata, invia almeno un SMS per tutti i possibili 
@@ -856,7 +855,7 @@ Anche se i messaggi sembrano di successo, è importante verificare che le PDU si
 
 Questo passaggio è necessario quando ci si connette a un provider che non era collegato ad Adobe Campaign in precedenza.
 
-#### BIND {#bind}
+#### DIETRO {#bind}
 
 Verifica che `BIND_* PDUs` sia inviato correttamente. La cosa più importante da verificare è che il provider restituisce sempre con successo `BIND_*_RESP PDUs` (command_status = 0).
 
@@ -893,10 +892,10 @@ Con il `DELIVER_SM_RESP PDU`:
 * Verifica che sia stato inviato rapidamente dopo la ricezione del `DELIVER_SM PDU`, in genere inferiore a 1 secondo.
 * Verificare che sia stato eseguito correttamente, command_status = 0.
 
-### Chiedi al provider se tutto è OK {#provider}
+### Chiedi al provider se tutto va bene {#provider}
 
 Anche se l’SMS ha esito positivo, contatta il provider per vedere se tutto è in ordine.
 
-### Disabilita tracce SMPP dettagliate {#disable-verbose}
+### Disattiva tracce SMPP dettagliate {#disable-verbose}
 
 Una volta completati tutti i controlli, l&#39;ultima cosa è **Disabilita tracce SMPP dettagliate** per non generare troppi log. Puoi riabilitarli per la risoluzione dei problemi anche sui sistemi di produzione.
