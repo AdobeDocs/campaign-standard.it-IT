@@ -6,19 +6,18 @@ description: Domande frequenti sull’integrazione di Adobe Experience Platform 
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Impostazioni delle istanze
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
 
-
-# Domande frequenti sull’integrazione dell’Experience Platform SDK {#aep-faq}
+# Domande frequenti sull’integrazione di Experience Platform SDK {#aep-faq}
 
 Per inviare notifiche push e messaggi in-app con l’applicazione Experience Platform SDK, un’app mobile deve essere configurata in Adobe Experience Platform SDK e configurata in Adobe Campaign.
 
@@ -27,10 +26,10 @@ La sezione seguente elenca le domande comuni relative a questa sincronizzazione.
 Per ulteriori informazioni su Push o In-App, consulta le seguenti Domande frequenti:
 
 * [Domande frequenti sulle notifiche push](../../channels/using/about-push-notifications.md#push-faq)
-* [Domande frequenti in-app](../../channels/using/about-in-app-messaging.md#in-app-faq)
+* [Domande frequenti in-app](../../channels/using/in-app-faq.md)
 * [Domande frequenti sulla sincronizzazione con il flusso di lavoro tecnico di Launch](../../administration/using/syncwithlaunch-faq.md)
 
-## Risorse utili prima di avviare {#resource-mobile-property}
+## Risorse utili prima di iniziare {#resource-mobile-property}
 
 Consulta le risorse riportate di seguito per ulteriori informazioni sull’integrazione di Adobe Experience Platform SDK e Campaign Standard:
 
@@ -97,7 +96,7 @@ La frequenza e la progettazione delle chiamate CollectPII devono essere dettate 
 
 Questo è un problema noto e si verifica a causa della scadenza del token. Prova ad accedere.
 
-## Quali sono alcuni consigli di risorse utili per ulteriori informazioni sull&#39;SDK Adobe Experience Platform (precedentemente noto come SDK V5)?{#resource-aep}
+## Quali sono alcuni consigli utili sulle risorse per saperne di più sull’SDK di Adobe Experience Platform (precedentemente noto come SDK V5)?{#resource-aep}
 
 Consulta le risorse seguenti:
 
