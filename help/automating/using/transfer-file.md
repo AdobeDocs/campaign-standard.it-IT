@@ -7,19 +7,18 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-feature: Workflows
+feature: Flussi di lavoro
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 92%
+source-wordcount: '1116'
+ht-degree: 91%
 
 ---
 
-
-# Transfer file{#transfer-file}
+# Attività Transfer file{#transfer-file}
 
 ## Descrizione {#description}
 
@@ -54,7 +53,7 @@ Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Archivio BLOB di Microsoft Azure](#azure-blob-configuration-wf)
+   * [Archiviazione BLOB di Microsoft Azure](#azure-blob-configuration-wf)
    * [File presenti sul server di Adobe Campaign](#files-server-configuration-wf)
 
 1. La sezione **[!UICONTROL Additional options]**, disponibile a seconda del protocollo selezionato, ti consente di aggiungere parametri al protocollo. Puoi:
@@ -105,6 +104,12 @@ Il protocollo Amazon S3 ti consente di iniziare a scaricare un file da un URL o 
 3. Specifica il percorso del file da scaricare.
 
    ![](assets/wkf_file_transfer_08.png)
+
+   >[!CAUTION]
+   >
+   > I caratteri jolly non sono supportati con Amazon S3.
+   >
+   > Per eseguire il targeting di più file come `my_file_02` e `my _file_3433`, è possibile utilizzare la sintassi seguente: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Se desideri eliminare i file sorgente al termine del trasferimento, seleziona la casella **[!UICONTROL Delete the source files after transfer]**.
 
@@ -175,5 +180,3 @@ Le variabili di output disponibili sono:
 
 * **[!UICONTROL fileName]**: nome dei file trasferiti.
 * **[!UICONTROL filesCount]**: numero di file trasferiti.
-
-
