@@ -6,17 +6,16 @@ description: Trascina i componenti nella tabella a forma libera per iniziare a f
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Generazione rapporti
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
+source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 5%
+source-wordcount: '293'
+ht-degree: 4%
 
 ---
-
 
 # Aggiunta di componenti{#adding-components}
 
@@ -40,10 +39,19 @@ I componenti consentono di personalizzare i rapporti con dimensioni, metriche e 
 
 1. Trascina i componenti in un pannello per iniziare a filtrare i dati.
 
+   ![](assets/dynamic_report_components_2.png)
+
+1. Dopo aver trascinato e rilasciato il componente, puoi configurare ulteriormente la tabella con l’opzione **[!UICONTROL Row settings]** .
+
+   ![](assets/dynamic_report_components_3.png)
+
+1. Puoi anche filtrare ulteriormente la tabella facendo clic sull’icona **Cerca** . Con questa ricerca, puoi cercare risultati specifici, ad esempio una consegna specifica o un browser.
+
+   ![](assets/dynamic_report_components_4.png)
+
 Puoi trascinare e rilasciare tutti i componenti necessari e confrontarli tra loro.
 
 **Argomenti correlati:**
 
 * [Elenco dei componenti](../../reporting/using/list-of-components-.md)
-* [Elenco dei report](../../reporting/using/defining-the-report-period.md)
-
+* [Elenco dei rapporti](../../reporting/using/defining-the-report-period.md)
