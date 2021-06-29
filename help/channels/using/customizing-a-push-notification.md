@@ -10,14 +10,13 @@ context-tags: delivery,mobileAppContent,back
 feature: Push
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
-
 
 # Personalizzazione di una notifica push{#customizing-a-push-notification}
 
@@ -29,7 +28,7 @@ In qualità di utente esperto, per configurare le app mobili in Adobe Campaign, 
 
 **Contenuto correlato:**
 
-* [Report notifiche push](../../reporting/using/push-notification-report.md)
+* [Rapporto notifiche push](../../reporting/using/push-notification-report.md)
 * [Invio di una notifica push all’interno di un flusso di lavoro](../../automating/using/push-notification-delivery.md)
 
 ## Riprodurre un suono {#play-a-sound}
@@ -45,7 +44,9 @@ Un suono avvisa gli utenti di una notifica push, conferendogli maggiore visibili
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Il file audio viene riprodotto durante la consegna della notifica se il file è definito nel pacchetto dell’app mobile. In caso contrario, viene riprodotto l’audio predefinito del dispositivo.
+1. Il file audio viene riprodotto durante la consegna della notifica se il file è definito nel pacchetto dell’app mobile. È possibile impostarlo su **default** per riprodurre il suono predefinito del dispositivo.
+
+   Se il campo **[!UICONTROL Play a sound]** viene lasciato vuoto, non verrà riprodotto alcun suono.
 
 L’utente riceverà quindi la notifica push e il suono solo se l’audio del telefono non è disattivato.
 
