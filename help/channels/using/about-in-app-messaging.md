@@ -10,10 +10,10 @@ context-tags: delivery,triggers,back
 feature: In-app
 role: Business Practitioner
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 29%
+source-wordcount: '460'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Per iniziare a inviare messaggi in-app sulle app mobili che utilizzano l’SDK d
 
 1. In Adobe Campaign, assicurati di poter accedere al canale **[!UICONTROL In-App]**. Se non riesci ad accedere a questi canali, contatta il team dell’account.
 
-1. Per sfruttare i casi d’uso per dispositivi mobili all’interno di Adobe Campaign Standard con un’applicazione Experience Cloud SDK, devi creare un’app mobile in Adobe Experience Platform Launch e configurarla all’interno di Adobe Campaign Standard. Per la guida dettagliata, fai riferimento a questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
+1. Per sfruttare i casi d’uso per dispositivi mobili all’interno di Adobe Campaign Standard con un’applicazione Experience Cloud SDK, devi creare un’app mobile in Adobe Experience Platform Launch e configurarla all’interno di Adobe Campaign Standard. Per la guida dettagliata, fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it).
 
 1. Una volta effettuata la configurazione, potrai preparare il messaggio in-app. Per ulteriori informazioni, consulta questa [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
@@ -39,80 +39,24 @@ Per iniziare a inviare messaggi in-app sulle app mobili che utilizzano l’SDK d
 
 **Contenuto correlato:**
 
-* [Report in-app](../../reporting/using/in-app-report.md)
+* [Rapporto in-app](../../reporting/using/in-app-report.md)
 * [Casi d’uso per dispositivi mobili supportati all’interno di Adobe Campaign Standard](https://helpx.adobe.com/it/campaign/kb/configure-launch-rules-acs-use-cases.html)
 * [Guida a Campaign Standard per dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)
 
-## Domande frequenti in-app {#in-app-faq}
+## Gestione dei campi del profilo mobile con dati personali e sensibili {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-### Quali sarebbero alcuni consigli utili per le risorse per ulteriori informazioni sul canale in-app in Adobe Campaign Standard? {#resources-inapp}
+In Adobe Campaign, i dati degli attributi del profilo mobile inviati da dispositivi mobili sono memorizzati nella risorsa **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** che ti consente di definire i dati da raccogliere dagli abbonati alle tue applicazioni.
 
-Consulta le risorse seguenti:
+Questa risorsa deve essere estesa per raccogliere i dati che intendi inviare dal dispositivo mobile ad Adobe Campaign. A tale scopo, consulta questa [pagina](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) per i passaggi dettagliati.
 
-* [Tutorial video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
-* [Post del blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [Pagina community](https://experienceleaguecommunities.adobe.com/it/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Per abilitare la personalizzazione dei messaggi in-app in modo più sicuro, i campi del profilo mobile di questa risorsa devono essere configurati di conseguenza. In **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, quando crei i nuovi campi dei profili mobili, seleziona **[!UICONTROL Personal and Sensitive]** per renderli non disponibili durante la personalizzazione dei messaggi in-app.
 
-### Qual è lo scopo delle API delle estensioni Campaign setLinkageField e resetLinkageField? {#extensions-apis}
+>[!NOTE]
+>
+>Se disponi di un’implementazione esistente con estensione di risorse personalizzata in questa tabella, è consigliabile etichettare i campi in modo appropriato prima di sfruttarli per la personalizzazione dei messaggi in-app.
 
-Poiché i messaggi in-app vengono richiamati dall’SDK da Campaign, vogliamo fornire un meccanismo di sicurezza per garantire che i messaggi in-app contenenti dati PII non finiscano in mani malevoli. In quanto tale, abbiamo il seguente meccanismo in atto per garantire la consegna sicura dei messaggi al dispositivo:
+![](assets/in_app_personal_data_2.png)
 
-* I clienti contrassegnano i campi del profilo mobile (tabella appSubscriberRcp) come Personali e riservati se desiderano garantire che queste informazioni particolari vengano fornite in modo sicuro.
-* I campi contrassegnati come tali possono essere utilizzati solo nel modello di profilo (non nel modello appSubscriber o nel modello Broadcast) che ha un meccanismo di sicurezza aggiuntivo integrato.
-* I messaggi generati utilizzando il modello di profilo possono essere serviti solo quando l’utente ha effettuato l’accesso all’app.
-* Per facilitare questo handshake sicuro, gli sviluppatori di app mobili devono trasmettere ulteriori dettagli di autenticazione utilizzando l’API setLinkageField . Tieni presente che il campo di collegamento sono quelli identificati come collegamento tra profilo mobile e profilo CRM durante l’estensione della tabella appSubscriberRcp.
-* Devono eseguire il flush dei messaggi in-app memorizzati sul dispositivo e resetLinkagefields quando l&#39;utente si disconnette dall&#39;app utilizzando resetLinkageField. In questo modo, se un utente diverso accede all’app, non vede i messaggi destinati all’utente precedente.
-* Per implementare questo meccanismo di sicurezza lato client, fai riferimento a [API SDK per dispositivi mobili](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) .
+Una volta configurata e pubblicata la risorsa personalizzata **[!UICONTROL Subscriptions to an application]**, puoi iniziare a preparare la consegna in-app utilizzando il modello **[!UICONTROL Target users based on their Mobile profile (inApp)]**. Solo i campi non personali e non riservati della risorsa **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** saranno disponibili per la personalizzazione.
 
-### Cosa devo fare per abilitare il reporting in-app in Campaign? {#enable-inapp-reporting}
-
-Devi configurare il postback di tracciamento in-app. Le istruzioni sono disponibili [qui](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
-
-Per implementare il tracciamento delle notifiche locali, fai riferimento a questa [pagina](../../administration/using/local-tracking.md).
-
-### Quali rapporti sono disponibili per il canale in-app? {#report-inapp}
-
-Un rapporto preconfigurato è disponibile in Adobe Campaign per il canale in-app. Fai riferimento a questa [documentazione](../../reporting/using/in-app-report.md).
-
-Consulta questa [pagina](../../reporting/using/indicator-calculation.md#in-app-delivery) per capire come vengono calcolate le metriche in-app.
-
-### Supporta varianti di contenuto multilingue per in-app simili a push? {#multilingual-inapp}
-
-Non sono ora disponibili modelli multilingue per i messaggi in-app.
-
-Tuttavia, se l’obiettivo è quello di inviare un messaggio in-app in una lingua diversa dall’inglese, il contenuto può essere incollato direttamente nelle caselle di testo disponibili.
-
-![](assets/faq_inapp.png)
-
-### I campi di personalizzazione di Campaign possono essere aggiunti all’HTML personalizzato? {#custom-html-inapp}
-
-No, non è ancora supportato.
-
-### Ho configurato un messaggio di avviso ma non viene visualizzato sul dispositivo. {#alert-message}
-
-Per i messaggi di avviso, è necessario almeno un pulsante di disattivazione (primario o secondario con chiusura dell’azione). In caso contrario, è possibile salvare il messaggio ma non verrà ricevuto.
-
-### Se le notifiche locali l&#39;audio personalizzato iOS non viene riprodotto; verrà invece riprodotto il suono predefinito? {#local-notification-sound}
-
-Per l&#39;audio personalizzato su iOS, è necessario fornire un nome file con estensione durante la creazione di una notifica locale (ad esempio, sound.caf). Se questa estensione non viene fornita, viene utilizzato l&#39;audio predefinito.
-
-### I collegamenti profondi sono supportati nei messaggi in-app? {#inapp-deeplinks}
-
-Sì, i collegamenti profondi sono supportati nei messaggi in-app. I collegamenti profondi dovrebbero includere:
-
-* che indica che il tracciamento della consegna deve essere disabilitato per far funzionare i collegamenti profondi.
-* Applicare un flyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull&#39;integrazione di Branch e Adobe Campaign Standard, consulta questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
-
-### È possibile attivare un messaggio in-app quando l’utente avvia l’app da una notifica push? {#inapp-push-trigger}
-
-Sì, questi messaggi sono anche denominati messaggi a catena margherita. Segui la procedura seguente:
-
-1. Crea un messaggio in-app.
-
-1. Definisci un evento personalizzato e selezionalo come attivatore di eventi per questo IAM, ad esempio &quot;Trigger da push di anteprima in caduta&quot;.
-
-1. Quando crei il messaggio push, definisci una variabile personalizzata il cui valore può essere impostato come evento utilizzato per attivare IAM, ad esempio Key = &quot;inappkey&quot; e value = &quot;Trigger from fall preview Push&quot; (Attiva da push di anteprima).
-
-1. Nel codice dell’app mobile, implementa l’attivatore evento come segue:
-
-   ![](assets/faq_inapp_2.png)
+Se desideri poter personalizzare i campi **Personali e riservati**, è consigliabile utilizzare il modello **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** che offre un meccanismo di sicurezza aggiuntivo per garantire la protezione dei dati PII degli utenti.
