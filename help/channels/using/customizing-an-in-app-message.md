@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: In-app
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '977'
 ht-degree: 99%
 
 ---
-
 
 # Personalizzazione di un messaggio in-app{#customizing-an-in-app-message}
 
@@ -128,7 +127,7 @@ Puoi aggiungere fino a due pulsanti al messaggio in-app.
 1. Inserisci l’URL web o il collegamento diretto nel campo **[!UICONTROL Destination URL]**, se hai scelto l’azione **[!UICONTROL Redirect]**,
 1. Controlla il contenuto del messaggio nella finestra di anteprima o facendo clic sul pulsante Preview.
 
-   Fai riferimento alla pagina [Anteprima del messaggio in-app](#previewing-the-in-app-message).
+   Fai riferimento alla pagina [Anteprima del messaggio in-app](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
@@ -190,18 +189,3 @@ Per eseguire un’importazione corretta all’interno di Adobe Campaign, puoi an
 ![](assets/inapp_customize_3.png)
 
 Una volta importato il codice HTML, nella finestra di anteprima puoi trovare un’anteprima del file su diversi dispositivi.
-
-## Anteprima del messaggio in-app {#previewing-the-in-app-message}
-
-Prima di inviare il messaggio in-app, puoi eseguirne la verifica tramite i profili di test, così da controllare ciò che verrà visualizzato dal pubblico target quando riceverà la tua consegna.
-
-1. Fai clic sul pulsante **[!UICONTROL Preview]**.
-
-   ![](assets/inapp_sending_2.png)
-
-1. Per iniziare a visualizzare l’anteprima della consegna, fai clic sul pulsante **[!UICONTROL Select a test profile]** e seleziona uno dei profili di test. Per ulteriori informazioni sui profili di test, consulta questa [sezione](../../audiences/using/managing-test-profiles.md).
-1. Controlla il messaggio su diversi dispositivi, ad esempio Android, iPhone o persino tablet. Puoi anche verificare se i campi di personalizzazione recuperano i dati corretti.
-
-   ![](assets/inapp_sending_3.png)
-
-1. Ora puoi inviare il messaggio e misurarne l’impatto tramite i rapporti di consegna. Per ulteriori informazioni sul reporting, consulta [questa sezione](../../reporting/using/in-app-report.md).
