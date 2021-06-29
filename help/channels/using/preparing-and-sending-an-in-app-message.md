@@ -10,18 +10,14 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In-app
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---
 
 # Preparazione e invio di un messaggio in-app{#preparing-and-sending-an-in-app-message}
-
->[!NOTE]
->
->La personalizzazione in-app si basa su un campo di collegamento che in genere è un ID di gestione delle relazioni con i clienti e/o un ID di accesso all’app mobile. Sei l’unico responsabile della protezione di questo campo di collegamento quando è utilizzato in connessione con Adobe Campaign. Se non riesci a proteggere i campi di collegamento, il messaggio personalizzato potrebbe essere vulnerabile. Se non segui procedure sicure di composizione, gestione e protezione del campo di collegamento, Adobe non sarà responsabile dei danni derivanti dall’accesso o dall’utilizzo non autorizzati di dati di profilo.
 
 In Adobe Campaign sono disponibili tre tipi di messaggi in-app:
 
@@ -32,29 +28,15 @@ In Adobe Campaign sono disponibili tre tipi di messaggi in-app:
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: questo tipo di messaggio ti consente di inviare messaggi a tutti gli utenti (correnti o futuri) della tua app mobile anche se non dispongono di un profilo esistente in Adobe Campaign. La personalizzazione non è quindi possibile quando si personalizzano i messaggi in quanto il profilo utente potrebbe non esistere in Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: questo tipo di messaggio ti consente di eseguire il targeting per tutti gli utenti noti o anonimi di un’app mobile con un profilo mobile in Adobe Campaign. Questo tipo di messaggi può essere personalizzato utilizzando solo attributi non personali e non riservati e non richiede un handshake sicuro tra l’SDK di mobile e il servizio di messaggistica in-app di Adobe Campaign.
 
-   Per ulteriori informazioni su come gestire dati personali e riservati, consulta [Gestione dei campi del profilo mobile con dati personali e sensibili](#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+   Per ulteriori informazioni su come gestire dati personali e riservati, consulta [Gestione dei campi del profilo mobile con dati personali e sensibili](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
-## Gestione dei campi del profilo mobile con dati personali e sensibili {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
-
-In Adobe Campaign, i dati degli attributi del profilo mobile inviati da dispositivi mobili sono memorizzati nella risorsa **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** che ti consente di definire i dati da raccogliere dagli abbonati alle tue applicazioni.
-
-Questa risorsa deve essere estesa per raccogliere i dati che intendi inviare dal dispositivo mobile ad Adobe Campaign. A tale scopo, consulta questa [pagina](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) per i passaggi dettagliati.
-
-Per abilitare la personalizzazione dei messaggi in-app in modo più sicuro, i campi del profilo mobile di questa risorsa devono essere configurati di conseguenza. In **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, quando crei i nuovi campi dei profili mobili, seleziona **[!UICONTROL Personal and Sensitive]** per renderli non disponibili durante la personalizzazione dei messaggi in-app.
-
->[!NOTE]
->
->Se disponi di un’implementazione esistente con estensione di risorse personalizzata in questa tabella, è consigliabile etichettare i campi in modo appropriato prima di sfruttarli per la personalizzazione dei messaggi in-app.
-
-![](assets/in_app_personal_data_2.png)
-
-Una volta configurata e pubblicata la risorsa personalizzata **[!UICONTROL Subscriptions to an application]**, puoi iniziare a preparare la consegna in-app utilizzando il modello **[!UICONTROL Target users based on their Mobile profile (inApp)]**. Solo i campi non personali e non riservati della risorsa **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** saranno disponibili per la personalizzazione.
-
-Se desideri poter personalizzare i campi **Personali e riservati**, è consigliabile utilizzare il modello **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** che offre un meccanismo di sicurezza aggiuntivo per garantire la protezione dei dati PII degli utenti.
-
 ## Preparazione del messaggio in-app {#preparing-your-in-app-message}
+
+>[!CAUTION]
+>
+>La personalizzazione in-app si basa su un campo di collegamento che in genere è un ID di gestione delle relazioni con i clienti e/o un ID di accesso all’app mobile. Sei l’unico responsabile della protezione di questo campo di collegamento quando è utilizzato in connessione con Adobe Campaign. Se non riesci a proteggere i campi di collegamento, il messaggio personalizzato potrebbe essere vulnerabile. Se non segui procedure sicure di composizione, gestione e protezione del campo di collegamento, Adobe non sarà responsabile dei danni derivanti dall’accesso o dall’utilizzo non autorizzati di dati di profilo.
 
 I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign sono i seguenti:
 
@@ -134,8 +116,23 @@ Il messaggio in-app ora è pronto per essere inviato al pubblico di destinazione
 **Argomenti correlati:**
 
 * [Personalizzazione di un messaggio in-app](../../channels/using/customizing-an-in-app-message.md)
-* [Report in-app](../../reporting/using/in-app-report.md)
+* [Rapporto in-app](../../reporting/using/in-app-report.md)
 * [Invio di un messaggio in-app all’interno di un flusso di lavoro](../../automating/using/in-app-delivery.md)
+
+## Anteprima del messaggio in-app {#previewing-the-in-app-message}
+
+Prima di inviare il messaggio in-app, puoi eseguirne la verifica tramite i profili di test, così da controllare ciò che verrà visualizzato dal pubblico target quando riceverà la tua consegna.
+
+1. Fai clic sul pulsante **[!UICONTROL Preview]**.
+
+   ![](assets/inapp_sending_2.png)
+
+1. Per iniziare a visualizzare l’anteprima della consegna, fai clic sul pulsante **[!UICONTROL Select a test profile]** e seleziona uno dei profili di test. Per ulteriori informazioni sui profili di test, consulta questa [sezione](../../audiences/using/managing-test-profiles.md).
+1. Controlla il messaggio su diversi dispositivi, ad esempio Android, iPhone o persino tablet. Puoi anche verificare se i campi di personalizzazione recuperano i dati corretti.
+
+   ![](assets/inapp_sending_3.png)
+
+1. Ora puoi inviare il messaggio e misurarne l’impatto tramite i rapporti di consegna.
 
 ## Invio del messaggio in-app {#sending-your-in-app-message}
 
@@ -165,5 +162,5 @@ Una volta completata la preparazione della consegna ed eseguiti i passaggi di ap
 
 **Argomenti correlati:**
 
-* [Report in-app](../../reporting/using/in-app-report.md)
+* [Rapporto in-app](../../reporting/using/in-app-report.md)
 * [Invio di un messaggio in-app all’interno di un flusso di lavoro](../../automating/using/in-app-delivery.md)
