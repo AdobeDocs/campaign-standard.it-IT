@@ -6,19 +6,21 @@ description: Scopri come verificare il successo della consegna in base ai segmen
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Generazione rapporti
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
+source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
 
-
 # Creazione di un rapporto basato sui segmenti del flusso di lavoro{#creating-a-report-workflow-segment}
+
+>[!CAUTION]
+> **[!UICONTROL Segment code]**può eseguire il targeting solo delle consegne e-mail e SMS.
 
 Dopo aver creato un flusso di lavoro e aver filtrato la popolazione in un pubblico di destinazione diverso, puoi misurare l’efficienza delle campagne di marketing in base ai segmenti definiti in questo flusso di lavoro di targeting.
 Per eseguire il targeting di questi segmenti nei rapporti:
@@ -29,6 +31,7 @@ Per eseguire il targeting di questi segmenti nei rapporti:
 
 >[!CAUTION]
 >Per iniziare a raccogliere questi dati, è necessario accettare l’accordo di utilizzo del reporting dinamico.
+>
 >Per ulteriori informazioni su questo contratto, consulta questa [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Passaggio 1: Aggiorna risorsa personalizzata Profili con segmenti{#step-1--update-profiles-custom-resource-segments}
@@ -55,7 +58,7 @@ Ora puoi iniziare a creare il flusso di lavoro con i codici di segmento.
 
 I codici dei segmenti verranno raccolti non appena si abilita il codice dei segmenti in **[!UICONTROL Sending logs extension]**.
 
-## Passaggio 2: Creare un flusso di lavoro con segmenti {#step-2--create-a-workflow-segments}
+## Passaggio 2: Creare un flusso di lavoro con i segmenti {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >Se la transizione di input della consegna e-mail è vuota, il codice del segmento della transizione precedente verrà aggiunto per impostazione predefinita.
