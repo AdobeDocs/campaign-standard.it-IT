@@ -10,20 +10,22 @@ feature: Integrazione del servizio core People
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 9%
+source-wordcount: '192'
+ht-degree: 8%
 
 ---
 
 # Utilizzo di Campaign con il servizio core Assets{#working-with-campaign-and-assets-core-service}
 
-L’integrazione del servizio core Assets o Assets on Demand (a seconda della configurazione dell’ambiente Adobe Experience Cloud) con Adobe Campaign consente di utilizzare tutte le risorse condivise in Adobe Experience Cloud nelle e-mail e nelle pagine di destinazione di Adobe Campaign.
-
 >[!CAUTION]
 >
-> L’integrazione con il servizio core Assets è limitata agli [amministratori funzionali](../../administration/using/users-management.md#functional-administrators).
+> Experience Cloud Assets è stato ritirato. Per una nuova implementazione, non puoi più integrare Experience Cloud Assets con Adobe Campaign Standard.
+
+L’integrazione del servizio core Assets o Assets on Demand (a seconda della configurazione dell’ambiente Adobe Experience Cloud) con Adobe Campaign consente di utilizzare tutte le risorse condivise in Adobe Experience Cloud nelle e-mail e nelle pagine di destinazione di Adobe Campaign.
+
+L’integrazione con il servizio core Assets è limitata agli [amministratori funzionali](../../administration/using/users-management.md#functional-administrators).
 
 Le risorse condivise da Adobe Experience Cloud possono essere utilizzate nelle e-mail e nelle pagine di destinazione, come segue:
 
