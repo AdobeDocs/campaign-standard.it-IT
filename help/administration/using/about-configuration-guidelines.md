@@ -6,17 +6,16 @@ description: Scopri le linee guida per la configurazione di Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Gestione degli accessi
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 9%
+source-wordcount: '119'
+ht-degree: 10%
 
 ---
-
 
 # Linee guida per la configurazione {#about-configuration-guidelines}
 
@@ -49,7 +48,7 @@ Di seguito sono elencati i diversi endpoint utilizzati in Campaign Standard.
 | Istanze di Campaign | `https://*.experiencecloud.adobe.com` (ID tenant * + dominio client)<br>`https://*.campaign.adobe.com`  (tenant istanza campagna) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
-| Tracking | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
+| Tracciamento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | Integrazione di Assets | `https://*.marketing-assets.adobe.com` |
 | Servizi interni di Adobe | `https://*.adobe.io` |
 | Indagini | `https://adobe.allegiancetech.com` |
