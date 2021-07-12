@@ -6,17 +6,16 @@ description: Scopri come progettare e-mail tramite integrazioni Adobe Campaign i
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 5%
 
 ---
-
 
 # Progettazione di e-mail con più soluzioni {#multi-solution-email-design}
 
