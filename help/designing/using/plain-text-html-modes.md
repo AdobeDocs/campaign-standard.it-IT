@@ -6,23 +6,22 @@ description: Scopri le modalità testo normale e HTML
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
-
 
 # Modifica dei formati di testo normale, HTML e e-mail per dispositivi mobili {#plain-text-and-html-modes}
 
 E-mail Designer consente di modificare diversi rendering delle e-mail. Puoi generare una versione testuale dell’e-mail, modificare l’origine HTML di un’e-mail e progettare e-mail per la visualizzazione mobile.
 
-## Generazione di una versione testuale dell&#39;e-mail {#generating-a-text-version-of-the-email}
+## Generazione di una versione testuale dell’e-mail {#generating-a-text-version-of-the-email}
 
 Per impostazione predefinita, la versione **[!UICONTROL Plain text]** dell’e-mail viene generata automaticamente e sincronizzata con la versione **[!UICONTROL Edit]**.
 
