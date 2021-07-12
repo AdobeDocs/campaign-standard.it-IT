@@ -7,25 +7,24 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Quando il messaggio è pronto, scopri come eseguire tutti i controlli prima di inviare"'
-feature: Deliverability
-role: Business Practitioner
+feature: Recapito messaggi
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 15%
+source-wordcount: '411'
+ht-degree: 16%
 
 ---
 
-
-# Esegui tutti i controlli prima di inviare {#perform-all-checks}
+# Esegui tutti i controlli prima dell’invio {#perform-all-checks}
 
 Quando il messaggio è pronto, accertati che il relativo contenuto sia visualizzato correttamente, su tutti i dispositivi, e non contenga errori quali personalizzazione errata o collegamenti interrotti.
 
 Prima di inviare il messaggio, assicurati anche che i parametri e la configurazione siano coerenti con la consegna.
 
-## Perché la convalida è una chiave {#validation-is-key}
+## Perché la convalida è fondamentale {#validation-is-key}
 
 Prima di inviare una consegna, è necessario assicurarsi che i destinatari ricevano il messaggio che si desidera inviare loro. A questo scopo, devi convalidare il contenuto del messaggio e i parametri di consegna.
 
@@ -53,7 +52,7 @@ L’invio di bozze consente di controllare il collegamento di rinuncia, la pagin
 
 Ulteriori informazioni [in questa sezione](../../sending/using/sending-proofs.md).
 
-## Impostare consegne di test A/B {#a-b-testing-deliveries}
+## Configurare le consegne di test A/B {#a-b-testing-deliveries}
 
 Se disponi di più contenuti per una consegna e-mail, puoi utilizzare il test A/B per scoprire quale versione avrà il maggiore impatto sulla popolazione target.
 
@@ -64,4 +63,3 @@ Se disponi di più contenuti per una consegna e-mail, puoi utilizzare il test A/
 * Seleziona quella con il tasso di successo più alto e inviala al resto del target
 
 Ulteriori informazioni [in questa sezione](../../channels/using/designing-an-a-b-test-email.md).
-
