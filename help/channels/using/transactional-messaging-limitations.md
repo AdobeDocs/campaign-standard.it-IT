@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messaggistica transazionale
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 68%
 
 ---
-
 
 # Best practice e limitazioni della messaggistica transazionale {#transactional-messaging-limitations}
 
