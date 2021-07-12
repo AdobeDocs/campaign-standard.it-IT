@@ -6,17 +6,16 @@ description: Scopri la funzione di rendering di e-mail.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Ottimizzazione dei tempi di invio
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 82%
 
 ---
-
 
 # Rendering di e-mail{#email-rendering}
 
