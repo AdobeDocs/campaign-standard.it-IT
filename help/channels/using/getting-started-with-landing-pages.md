@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: Pagine di destinazione
+role: User
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 96%
+source-wordcount: '1029'
+ht-degree: 97%
 
 ---
-
 
 # Guida introduttiva alle pagine di destinazione {#getting-started-with-landing-pages}
 
