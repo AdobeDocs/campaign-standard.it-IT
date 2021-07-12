@@ -6,21 +6,20 @@ description: Risoluzione dei problemi relativi agli SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
-role: Administrator
+feature: Impostazioni delle istanze
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
 
-
 # Risoluzione dei problemi relativi agli SMS {#sms-troubleshooting}
 
-## Conflitto tra diversi account esterni {#external-account-conflict}
+## Conflitto tra account esterni diversi {#external-account-conflict}
 
 Se l’istanza dispone di più account esterni SMS, è necessario verificare che i problemi non siano causati da un conflitto tra account esterni.
 
@@ -162,7 +161,7 @@ Se il `DELIVER_SM PDU` non viene riconosciuto correttamente, è necessario verif
 
 Se hai corretto tutto ma alcuni SR non validi si trovano ancora nei buffer del provider, puoi ignorarli utilizzando l&#39;opzione **Numero di riconoscimenti ID non valido**. Questo deve essere utilizzato con cura e reimpostato a 0 il più rapidamente possibile dopo che i buffer sono puliti.
 
-## Problema durante l&#39;elaborazione di MO (e blacklist/risposta automatica){#issue-process-MO}
+## Problema durante l’elaborazione di MO (e blacklist/risposta automatica){#issue-process-MO}
 
 * Abilitare le tracce SMPP durante i test. Se non abiliti TLS, devi eseguire un&#39;acquisizione di rete durante la risoluzione dei problemi di MO per verificare che le PDU contengano le informazioni corrette e siano formattate correttamente.
 
@@ -212,7 +211,7 @@ Sarà necessario l&#39;output di debug del connettore per vedere esattamente qua
 
 Invia diversi tipi di caratteri speciali durante il test. Ad esempio, la codifica GSM7 presenta caratteri estesi molto distinti nella forma esadecimale, facili da individuare in quanto non compaiono in nessun’altra codifica.
 
-## Elementi da includere durante la comunicazione su un problema SMS {#element-include}
+## Elementi da includere nella comunicazione su un problema SMS {#element-include}
 
 Ogni volta che cerchi assistenza su un problema SMS, sia che si tratti di aprire un ticket di supporto ad Adobe Campaign, al provider SMS, o qualsiasi tipo di comunicazione sul problema, dovrai includere le seguenti informazioni per essere sicuro che sarà correttamente qualificato. Problemi qualificati sono fondamentali per risolvere i problemi più rapidamente.
 
@@ -236,7 +235,7 @@ Ogni volta che cerchi assistenza su un problema SMS, sia che si tratti di aprire
 
 * Includi eventuali modifiche o modifiche apportate sulla piattaforma. Inoltre, includi qualsiasi modifica che il fornitore potrebbe aver apportato sul suo lato.
 
-### Acquisizione di rete {#network-capture}
+### Acquisizione in rete {#network-capture}
 
 Non è sempre necessaria un&#39;acquisizione di rete, in genere i messaggi SMPP sono sufficienti. Di seguito sono riportate alcune linee guida che consentono di determinare se è necessaria un’acquisizione di rete:
 
@@ -298,7 +297,7 @@ Nel file `config-instance.xml`, imposta i seguenti parametri:
 <mta args="-tracefilter:SMPP"/>
 ```
 
-## Controllo del numero di connessioni aperte su un contenitore {#open-connections}
+## Controllo del numero di connessioni aperte in un contenitore {#open-connections}
 
 Per controllare il numero di connessioni aperte su un contenitore, è possibile utilizzare questo comando:
 
