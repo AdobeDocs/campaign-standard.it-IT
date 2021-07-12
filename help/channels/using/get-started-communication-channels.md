@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Guida introduttiva ai canali di comunicazione
+title: Introduzione ai canali di comunicazione
 description: Crea messaggi personalizzati su vari canali, utilizza modelli, crea pagine di destinazione e controlla le best practice.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: Panoramica
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 23%
 
 ---
 
-# Guida introduttiva ai canali di comunicazione {#discovering-communication-channels}
+# Introduzione ai canali di comunicazione {#discovering-communication-channels}
 
 <table>
 <tr>
