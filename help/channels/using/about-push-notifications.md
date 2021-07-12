@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 50%
@@ -52,7 +52,7 @@ In qualità di utente esperto, per definire queste configurazioni specifiche, co
 
 * [Preparazione e invio di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Creazione di una notifica push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
-* [Report notifiche push](../../reporting/using/push-notification-report.md)
+* [Rapporto notifiche push](../../reporting/using/push-notification-report.md)
 * [Guida a Campaign Standard per dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)
 
 ## Prerequisiti {#prerequisites}
@@ -139,7 +139,7 @@ Per poter essere reso disponibile nelle proprietà di consegna, è necessario ca
 
 Apri un ticket di assistenza clienti.
 
-### Le notifiche push vengono recapitate da Campaign, ma il file multimediale non viene visualizzato.{#media-file-unavailable}
+### Le notifiche push vengono inviate da Campaign, ma il file multimediale non viene visualizzato.{#media-file-unavailable}
 
 Gli sviluppatori di app mobili devono gestire il supporto per i file multimediali nell’app. A volte la larghezza di banda della rete può anche impedire il rendering di un file multimediale. Per ulteriori indicazioni, consulta questa sezione [pagina](../../administration/using/image-push-notification.md) .
 
