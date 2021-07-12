@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Gestione degli stili e-mail
+title: Gestione degli stili delle e-mail
 description: Scopri come gestire gli stili delle e-mail in E-mail Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1054'
 ht-degree: 1%
 
 ---
 
-
-# Gestione degli stili e-mail {#managing-styles}
+# Gestione degli stili delle e-mail {#managing-styles}
 
 
 In E-mail Designer, quando selezioni un elemento, nel riquadro **[!UICONTROL Settings]** sono visualizzate diverse opzioni specifiche per il tipo di contenuto selezionato. Puoi utilizzare queste opzioni per modificare facilmente lo stile dell’e-mail.
@@ -47,7 +46,7 @@ Per selezionare una colonna, puoi anche effettuare le seguenti operazioni:
 
 Vedi un esempio in [questa sezione](#example--adjusting-vertical-alignment-and-padding).
 
-## Regolazione delle impostazioni dello stile {#adjusting-style-settings}
+## Regolazione delle impostazioni di stile {#adjusting-style-settings}
 
 1. Seleziona un elemento nel messaggio e-mail. Per ulteriori informazioni, consulta [Selezione di un elemento](#selecting-an-element).
 1. Regola le impostazioni in base alle tue esigenze. Ogni elemento selezionato offre un set di impostazioni diverso.
