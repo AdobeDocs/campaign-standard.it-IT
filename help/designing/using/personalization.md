@@ -6,24 +6,23 @@ description: Scopri come personalizzare un’e-mail in E-mail Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2575'
 ht-degree: 4%
 
 ---
-
 
 # Personalizzazione del contenuto delle e-mail {#personalization}
 
 Il contenuto e la visualizzazione dei messaggi inviati da Adobe Campaign possono essere personalizzati in diversi modi. Questi modi possono essere combinati in base a criteri a seconda dei profili. In generale, Adobe Campaign ti consente di:
 
 * Inserire campi di personalizzazione dinamici. Consulta [Inserimento di un campo di personalizzazione](#inserting-a-personalization-field).
-* Inserire blocchi di personalizzazione predefiniti. Consulta [Aggiunta di un blocco di contenuto](#adding-a-content-block).
+* Inserire blocchi di personalizzazione predefiniti Consulta [Aggiunta di un blocco di contenuto](#adding-a-content-block).
 * Personalizza il mittente di un’e-mail. Consulta [Personalizzazione del mittente](#personalizing-the-sender).
 * Personalizza l’oggetto di un’e-mail. Consulta [Personalizzazione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md#subject-line).
 * Creare contenuto condizionale. Consulta [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email).
@@ -182,7 +181,7 @@ Per ulteriori informazioni, consulta [Dimensioni di targeting e risorse](../../a
 * [Aggiunta di un blocco di contenuto](#adding-a-content-block)
 * [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email)
 
-## Personalizzazione di un&#39;origine immagine{#personalizing-an-image-source}
+## Personalizzazione di un’origine immagine{#personalizing-an-image-source}
 
 Adobe Campaign ti consente di personalizzare una o più immagini nel messaggio in base a un particolare criterio o di utilizzare il tracciamento. A questo scopo, inserisci campi di personalizzazione, blocchi di contenuto o contenuti dinamici nell’origine immagine. Per eseguire questa operazione:
 
@@ -430,4 +429,3 @@ L&#39;immagine è cambiata grazie al contenuto dinamico, e lo slogan che appare 
 
 * [Creazione di tipi di pubblico](../../audiences/using/creating-audiences.md)
 * [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
-
