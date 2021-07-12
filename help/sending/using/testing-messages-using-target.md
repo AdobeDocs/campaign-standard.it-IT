@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Control Groups
-role: Business Practitioner
+feature: Gruppi di controllo
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1516'
 ht-degree: 4%
 
 ---
-
 
 # Verifica dei messaggi e-mail tramite profili di destinazione {#testing-message-profiles}
 
