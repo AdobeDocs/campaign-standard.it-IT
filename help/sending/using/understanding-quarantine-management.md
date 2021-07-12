@@ -6,17 +6,16 @@ description: Scopri come ottimizzare le consegne e-mail con la gestione della qu
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
-role: Business Practitioner
+feature: Recapito messaggi
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '782'
 ht-degree: 82%
 
 ---
-
 
 # Informazioni sulla gestione della quarantena{#understanding-quarantine-management}
 
@@ -36,7 +35,7 @@ Inoltre, le quarantene contribuiscono a ridurre i costi di invio degli SMS esclu
 
 Per ulteriori informazioni sulle best practice per proteggere e ottimizzare le consegne, consulta [questa pagina](../../sending/using/delivery-best-practices.md).
 
-### Quarantena rispetto a Elenco Bloccati {#quarantine-vs-denylist}
+### Quarantena rispetto Elenco Bloccati {#quarantine-vs-denylist}
 
 La **quarantena** si applica solo a un indirizzo, non a tutto il profilo. Ciò significa che se due profili hanno lo stesso indirizzo e-mail, vengono entrambi coinvolti se l’indirizzo viene messo in quarantena.
 
@@ -46,7 +45,7 @@ Il fatto di essere sul **Elenco Bloccati**, d&#39;altra parte, fa sì che il pro
 
 >[!NOTE]
 >
->Quando un utente risponde a un messaggio SMS con una parola chiave come &quot;STOP&quot; per rifiutare le consegne SMS, il suo profilo non è in elenco Bloccati come nel processo di rinuncia alle e-mail. Il numero di telefono del profilo viene messo in quarantena con lo stato **[!UICONTROL On denylist]**. Questo stato si riferisce solo al numero di telefono, il profilo non è in elenco Bloccati e l’utente continua a ricevere messaggi e-mail. Per ulteriori informazioni, consulta [questa sezione](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Quando un utente risponde a un messaggio SMS con una parola chiave come &quot;STOP&quot; per rifiutare le consegne SMS, il suo profilo non è in elenco Bloccati come nel processo di rinuncia alle e-mail. Il numero di telefono del profilo viene messo in quarantena con lo stato **[!UICONTROL On denylist]**. Questo stato si riferisce solo al numero di telefono, il profilo non è in elenco Bloccati e l’utente continua a ricevere messaggi e-mail. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identificazione degli indirizzi messi in quarantena {#identifying-quarantined-addresses}
 
@@ -94,4 +93,3 @@ In Adobe Campaign la quarantena distingue tra maiuscole e minuscole. Accertati d
 Nell’elenco degli indirizzi messi in quarantena (vedi [Identificazione degli indirizzi messi in quarantena per l’intera piattaforma](#identifying-quarantined-addresses-for-the-entire-platform)), il campo **[!UICONTROL Error reason]** indica per quale motivo l’indirizzo selezionato è stato messo in quarantena.
 
 ![](assets/quarantines2.png)
-
