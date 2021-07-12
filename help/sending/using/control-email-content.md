@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Recapito messaggi
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 8%
 
 ---
 
-
-# Controllo di contenuti e-mail{#control-email-content}
+# Controllo dei contenuti dell’e-mail{#control-email-content}
 
 <!--TO KEEP because specific to Campaign-->
 
