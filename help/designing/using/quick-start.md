@@ -6,13 +6,13 @@ description: Inizia a creare contenuti e-mail con E-mail Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47f53290-2190-4181-bcd5-e60287189c41
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 5%
 
 ---
@@ -134,7 +134,7 @@ I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad 
 1. Modifica il contenuto di ogni elemento in base alle tue esigenze: immagini, testo, collegamenti.
 1. Adatta le opzioni di stile al contenuto, se necessario. Per ulteriori informazioni, consulta [Modifica degli stili delle e-mail](../../designing/using/styles.md).
 
-## Utilizzo di contenuto e-mail esistente {#with-existing-content}
+## Utilizzo di un contenuto e-mail esistente {#with-existing-content}
 
 Se desideri creare un framework di modelli e frammenti modulari che possano essere combinati per riutilizzare in più e-mail, considera la possibilità di convertire il codice HTML dell’e-mail in un modello di E-mail Designer.
 
