@@ -1,25 +1,25 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configurazione di un'app mobile
+title: Configurazione di un’app per dispositivi mobili
 description: Scopri come configurare Adobe Campaign per l’invio di notifiche push o messaggi in-app tramite SDK V4 o Experience Platform SDK.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Impostazioni delle istanze
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
 
 ---
 
-# Configurazione di un&#39;app mobile{#configuring-a-mobile-application}
+# Configurazione di un’app per dispositivi mobili{#configuring-a-mobile-application}
 
-## Configurazione di un’app mobile tramite gli SDK Adobe Experience Platform {#using-adobe-experience-platform-sdk}
+## Configurazione di un’app mobile tramite SDK per Adobe Experience Platform {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ Per ulteriori informazioni, consulta [Configurazione dell’applicazione specifi
 1. Se necessario, puoi eliminare la proprietà Experience Platform Launch.
 Per ulteriori informazioni, vedere [Eliminazione dell&#39;applicazione di Experience Platform Launch](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
-## Sincronizza l’app mobile AEPSDK dal flusso di lavoro tecnico Launch {#aepsdk-workflow}
+## Sincronizza l’app mobile AEPSDK dal flusso di lavoro tecnico di Launch {#aepsdk-workflow}
 
 Dopo aver creato e configurato la proprietà mobile in Experience Platform Launch, il flusso di lavoro tecnico **[!UICONTROL Sync Mobile app AEPSDK from Launch]** sincronizza ora le proprietà mobili Adobe Launch importate in Adobe Campaign Standard.
 
@@ -85,7 +85,7 @@ Per impostazione predefinita, il flusso di lavoro tecnico viene avviato ogni 15 
 
 Il flusso di lavoro verrà ora riavviato e sincronizzato le proprietà mobili di Adobe Launch importate in Adobe Campaign Standard.
 
-## Configurazione dell&#39;applicazione Adobe Experience Platform Launch in Adobe Campaign {#set-up-campaign}
+## Configurazione dell’applicazione Adobe Experience Platform Launch in Adobe Campaign {#set-up-campaign}
 
 Per utilizzare una proprietà mobile di Experience Platform Launch in Campaign, devi anche configurare questa proprietà in Adobe Campaign. In Adobe Campaign, assicurati che l’utente IMS faccia parte dei profili di prodotto per l’utente e l’amministratore standard.
 
@@ -130,7 +130,7 @@ Il valore **[!UICONTROL Property Status]** deve essere **[!UICONTROL Ready to co
 
    Per ulteriori informazioni, consulta [Configurazione di pubblicazione](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
-## Configurazione dell&#39;applicazione specifica per il canale in Adobe Campaign {#channel-specific-config}
+## Configurazione di applicazioni specifiche per il canale in Adobe Campaign {#channel-specific-config}
 
 L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche push o per le consegne in-app. Ora puoi configurarlo ulteriormente, se necessario, per creare eventi che attivino i messaggi in-app e/o caricino i certificati push.
 
@@ -164,7 +164,7 @@ L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche 
 
 1. Fai clic sulla scheda **[!UICONTROL Mobile application subscribers]** per visualizzare un elenco di abbonati e altre informazioni su questi abbonati, ad esempio, se hanno rinunciato alle notifiche.
 
-## Eliminazione dell&#39;applicazione Adobe Experience Platform Launch {#delete-app}
+## Eliminazione dell’applicazione Adobe Experience Platform Launch {#delete-app}
 
 Impossibile annullare l&#39;eliminazione dell&#39;applicazione di Experience Platform Launch.
 
