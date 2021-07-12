@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Recapito messaggi
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 0470b986-c00a-4441-8621-82c7112a9953
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '468'
 ht-degree: 2%
 
 ---
-
 
 # Risoluzione dei problemi{#troubleshooting}
 
@@ -34,7 +33,7 @@ Se ricevi sempre lo stesso messaggio di errore per un ISP, l&#39;e-mail o l&#39;
 
 Se il problema persiste, contatta il servizio commerciale o di recapito messaggi o il supporto Adobe Campaign.
 
-## Elenco Bloccati a confronto {#denylist-versus-quarantine}
+## Elenco Bloccati e quarantena {#denylist-versus-quarantine}
 
 * **Qual è la differenza tra un indirizzo e-mail elenco Bloccati e un indirizzo e-mail messo in quarantena?**
 
