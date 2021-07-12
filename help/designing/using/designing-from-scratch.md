@@ -6,17 +6,16 @@ description: Scopri come progettare e-mail da contenuti e-mail nuovi in E-mail D
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
-
 
 # Progettazione di e-mail da zero {#designing-an-email-content-from-scratch}
 
@@ -39,7 +38,7 @@ Puoi anche controllare questo [video introduttivo](https://video.tv.adobe.com/v/
 >
 >Per evitare di progettare contenuti e-mail da zero, puoi utilizzare modelli di contenuto predefiniti. Per ulteriori informazioni, consulta [Modelli di contenuto](../../designing/using/using-reusable-content.md#content-templates).
 
-## Definizione della struttura delle e-mail {#defining-the-email-structure}
+## Definizione della struttura e-mail {#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -103,7 +102,7 @@ Puoi aggiungere un **[!UICONTROL Content block]**, un **[!UICONTROL Dynamic cont
 >
 >La preintestazione non è compatibile con tutti i programmi e-mail. Se non è supportato, la preintestazione non viene visualizzata.
 
-## Uso dei componenti di contenuto {#about-content-components}
+## Utilizzo dei componenti di contenuto {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
