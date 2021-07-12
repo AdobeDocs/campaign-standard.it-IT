@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Direct Mail
-role: Business Practitioner
+feature: Direct mailing
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 96%
 
 ---
 
-
-# Creazione della direct mailing{#creating-the-direct-mail}
+# Creazione del direct mailing{#creating-the-direct-mail}
 
 La creazione di una consegna direct mailing è molto simile alla creazione di un’e-mail regolare. I passaggi seguenti descrivono la configurazione specifica di questo canale. Per ulteriori informazioni sulle altre opzioni, consulta [Creazione di un’e-mail](../../channels/using/creating-an-email.md).
 
