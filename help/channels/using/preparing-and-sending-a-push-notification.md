@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '858'
 ht-degree: 7%
 
 ---
-
 
 # Preparazione e invio di una notifica push{#preparing-and-sending-a-push-notification}
 
@@ -129,5 +128,5 @@ Ora puoi misurare l’impatto della consegna delle notifiche push con report din
 
 **Argomenti correlati:**
 
-* [Report notifiche push](../../reporting/using/push-notification-report.md)
+* [Rapporto notifiche push](../../reporting/using/push-notification-report.md)
 * [Invio di una notifica push all’interno di un flusso di lavoro](../../automating/using/push-notification-delivery.md)
