@@ -6,17 +6,16 @@ description: Scopri come utilizzare le e-mail create nell’editor legacy e-mail
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '440'
 ht-degree: 8%
 
 ---
-
 
 # Conversione del contenuto e-mail dell’editor legacy {#converting-an-html-content}
 
