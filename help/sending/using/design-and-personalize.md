@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: Scopri come progettare il contenuto dei messaggi e cerca di evitare problemi comuni che potrebbero impedire l’esecuzione della consegna. 
 feature: Recapito messaggi
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 7%
@@ -121,7 +121,7 @@ La progettazione reattiva assicura il rendering ottimale di un’e-mail per il d
 
 * Utilizza la modalità anteprima e invia bozze per testare il rendering su quanti più dispositivi possibile. Scopri come [visualizzare in anteprima il messaggio](../../sending/using/previewing-messages.md) prima dell’invio.
 
-* E-mail Designer di Campaign viene fornito con modelli in formato dinamico per la progettazione per dispositivi mobili. Ulteriori informazioni [in questa pagina](../../designing/using/using-reusable-content.md#content-templates).
+* E-mail Designer di Campaign viene fornito con modelli in formato dinamico per la progettazione per dispositivi mobili. Per ulteriori informazioni, consulta [questa pagina](../../designing/using/using-reusable-content.md#content-templates).
 
 ## Gestire le immagini {#manage-images}
 
