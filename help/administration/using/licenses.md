@@ -6,17 +6,16 @@ description: Ulteriori informazioni sulle licenze installate nell'istanza.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Gestione degli accessi
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
-
 
 # Licenze{#licenses}
 
@@ -37,4 +36,3 @@ Un amministratore deve leggere e confermare i nuovi termini di contratto nei suc
 Superato questi 30 giorni se il contratto non viene accettato, nessun utente potrà utilizzare questa istanza. Gli utenti standard non potranno accedere alle funzionalità di Adobe Campaign e visualizzeranno solo il seguente messaggio finché un amministratore funzionale non accetterà i termini del contratto.
 
 ![](assets/license_4.png)
-
