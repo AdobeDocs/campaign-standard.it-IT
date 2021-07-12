@@ -7,25 +7,24 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Recapito messaggi
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 5e523519-7192-4031-9d96-559af23074d9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 6%
+source-wordcount: '746'
+ht-degree: 8%
 
 ---
 
-
-# Che cos&#39;è il recapito{#about-deliverability}
+# Che cos’è il recapito messaggi{#about-deliverability}
 
 Il recapito messaggi consente di misurare il successo delle campagne che raggiungono la casella in entrata dei destinatari senza rimbalzare o contrassegnare come spam. [Scopri perché il recapito messaggi è importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
 Più precisamente, il recapito messaggi e-mail si riferisce al set di caratteristiche che determinano la capacità di un messaggio di raggiungere la sua destinazione, tramite un indirizzo e-mail personale, in un breve periodo di tempo e con la qualità prevista in termini di contenuto e formato. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-Per informazioni più approfondite sul recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+Per informazioni più approfondite sul recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
 
 ## Come migliorare il recapito messaggi {#deliverability-key-points}
 
@@ -54,7 +53,7 @@ Con Adobe Campaign, il tasso di consegna dipende da numerosi fattori, in partico
 * Autenticazione dei messaggi (SPF, DKIM, DMARC): vedere [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 * reputazione del mittente: per scoprire come gli ISP principali valutano la reputazione di un mittente, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
-## Strumenti di consegna campagna {#deliverability-tools}
+## Strumenti per il recapito messaggi di Campaign {#deliverability-tools}
 
 Adobe Campaign fornisce una serie di strumenti per monitorare e migliorare le prestazioni di recapito messaggi della piattaforma. Questa pagina evidenzia anche i principi principali che dovresti tenere a mente per ottimizzare il recapito messaggi durante l’utilizzo di Campaign.
 
@@ -62,8 +61,8 @@ Adobe Campaign fornisce una serie di strumenti per monitorare e migliorare le pr
 
 Durante la configurazione, la progettazione e il test del messaggio, assicurati di seguire le best practice menzionate nelle sezioni elencate di seguito. Sfruttando tutte le funzioni fornite da Adobe Campaign potrai migliorare il recapito messaggi.
 
-* [Best practice di consegna](../../sending/using/delivery-best-practices.md)
-* [Controllo di contenuti e-mail](../../sending/using/control-email-content.md)
+* [Best practice per la consegna](../../sending/using/delivery-best-practices.md)
+* [Controllo dei contenuti dell’e-mail](../../sending/using/control-email-content.md)
 * [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
 * [Invio di bozze](../../sending/using/sending-proofs.md)
 
@@ -97,7 +96,7 @@ Adobe Campaign ti consente di controllare le prestazioni delle consegne tramite 
 
 Per ulteriori informazioni, consulta le sezioni seguenti:
 
-* [Monitoraggio della consegna messaggi](../../sending/using/monitor-deliverability.md)
+* [Monitoraggio del recapito messaggi](../../sending/using/monitor-deliverability.md)
 
    <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md)
