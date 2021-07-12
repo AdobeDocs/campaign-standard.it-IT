@@ -6,17 +6,16 @@ description: Gestisci gli operatori Adobe Campaign tramite ruoli, gruppi e unit√
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Gestione degli accessi
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 98%
+source-wordcount: '228'
+ht-degree: 99%
 
 ---
-
 
 # Informazioni sulla gestione degli accessi{#about-access-management}
 
@@ -48,4 +47,3 @@ Gli utenti vengono gestiti in Admin Console (consulta la sezione [Gestione di gr
 * [Unit√† organizzative](../../administration/using/organizational-units.md)
 * [Elenco di ruoli](../../administration/using/list-of-roles.md)
 * [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md)
-
