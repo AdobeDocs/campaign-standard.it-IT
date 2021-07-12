@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Impostazioni delle istanze
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
@@ -182,7 +182,7 @@ Per inviare dati di tracciamento a [!DNL Adobe Campaign Standard] per ottenere r
 
    ![](assets/do-not-localize/rules_3.png)
 
-### Postback di tracciamento delle notifiche push {#push-tracking-postback}
+### Postback di tracking delle notifiche push {#push-tracking-postback}
 
 >[!NOTE]
 >
