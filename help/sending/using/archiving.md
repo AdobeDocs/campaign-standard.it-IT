@@ -6,19 +6,18 @@ description: Scopri come archiviare le e-mail con Adobe Campaign Standard utiliz
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Monitoraggio delle prestazioni
+role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-translation-type: tm+mt
-source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 6%
+source-wordcount: '364'
+ht-degree: 5%
 
 ---
 
-# Archiviazione di e-mail con indirizzi Ccn{#archiving-emails}
+# Archiviazione di e-mail con indirizzi in Ccn{#archiving-emails}
 
 Puoi configurare Adobe Campaign per mantenere una copia delle e-mail inviate dalla piattaforma tramite CCN e-mail.
 
@@ -43,7 +42,7 @@ Una volta attivato, è necessario attivare Ccn e-mail dall’opzione **[!UICONTR
 >
 >Attualmente le e-mail archiviate vengono ancora inviate dal modulo di archiviazione legacy, che utilizza un semplice relay SMTP.
 
-## Attivazione dell&#39;archiviazione dei messaggi e-mail {#activating-email-archiving}
+## Attivazione dell’archiviazione delle e-mail {#activating-email-archiving}
 
 Una volta abilitato, Ccn e-mail viene attivato nel [modello e-mail](../../start/using/marketing-activity-templates.md) tramite un&#39;opzione dedicata:
 
