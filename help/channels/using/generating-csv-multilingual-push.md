@@ -7,22 +7,21 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1128'
+ht-degree: 1%
 
 ---
-
 
 # Generazione di un file CSV per notifiche push multilingue{#generating-csv-multilingual-push}
 
 Il caricamento di un file CSV per generare contenuto per la consegna è una funzione utilizzata per supportare le notifiche push multilingue. Il formato del file CSV deve rispettare alcune linee guida per il corretto caricamento del file e, di conseguenza, deve essere in grado di creare una consegna. Le sezioni seguenti descrivono il formato del file e le relative considerazioni.
 
-## Formato del file {#file-format}
+## Formato file {#file-format}
 
 Il push multilingue richiede 14 colonne nel file CSV:
 
@@ -51,7 +50,7 @@ Controlla il campione CSV facendo clic su **[!UICONTROL Download a sample file]*
 * **lingua**: nome della lingua associata alle impostazioni internazionali. Ad esempio, se l’impostazione internazionale è &quot;en_us&quot;, il nome della lingua deve essere &quot;Inglese-Stati Uniti&quot;.
 * **silenziosoPush**: Flag per il tipo di notifica push. Se si tratta di una notifica push regolare, il valore deve essere 0. Se si tratta di un push silenzioso, il valore deve essere 1. Il valore predefinito è 0. Se lasci questa colonna vuota, il valore sarà considerato 0.
 
-## Vincoli e linee guida per la creazione di file CSV {#constraints-guideline-csv}
+## Vincoli e linee guida per la creazione di file csv {#constraints-guideline-csv}
 
 **Il nome di ogni colonna è fisso**.
 Inserisci il nome di ogni colonna nel file CSV se non utilizzi alcuna colonna per il contenuto, lascialo vuoto.
@@ -97,7 +96,7 @@ Nell’intervallo sono presenti due attributi obbligatori:
 
 ![](assets/multilingual_push_2.png)
 
-## Nomi internazionali e della lingua {#locale-language-names}
+## Impostazioni internazionali e nomi della lingua {#locale-language-names}
 
 Sono supportate le seguenti lingue:
 
