@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Impostazioni delle istanze
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 80%
@@ -87,7 +87,7 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
    ![](assets/branding_05.png)
 
-## Creazione di un nuovo marchio {#creating-a-brand}
+## Creazione di un nuovo brand {#creating-a-brand}
 
 Puoi aggiungere nuove entità dell’organizzazione in Campaign o creare un nuovo tipo di e-mail da inviare con un sottodominio diverso. Per eseguire questa operazione, effettua le seguenti operazioni:
 
