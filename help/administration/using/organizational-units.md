@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-feature: Access Management
-role: Administrator
+feature: Gestione degli accessi
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '844'
 ht-degree: 4%
 
 ---
-
 
 # Unità organizzative{#organizational-units}
 
@@ -125,4 +124,3 @@ Il campo Unità organizzativa viene aggiunto ai profili nella sezione **[!UICONT
 
 * [Informazioni sulle unità](../../administration/using/organizational-units.md#about-units)
 * [Informazioni sulla gestione degli accessi](../../administration/using/about-access-management.md)
-
