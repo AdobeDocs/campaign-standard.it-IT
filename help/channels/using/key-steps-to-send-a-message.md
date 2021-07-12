@@ -6,17 +6,16 @@ description: Segui questi passaggi per creare e inviare messaggi con Adobe Campa
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
-role: Business Practitioner
+feature: Panoramica
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 14%
 
 ---
-
 
 # Passaggi fondamentali per l’invio di un messaggio{#key-steps-to-send-a-message}
 
@@ -53,7 +52,7 @@ Sono disponibili diversi tipi di pubblico:
 
 ![](assets/steps-audience.png)
 
-## Progettazione e personalizzazione dei contenuti
+## Progettare e personalizzare i contenuti
 
 Nel blocco **[!UICONTROL Content]** , progetta e personalizza il contenuto del messaggio utilizzando i campi del database. Per ulteriori informazioni su come progettare contenuti per un canale specifico, consulta le sezioni elencate nella parte superiore della pagina.
 
