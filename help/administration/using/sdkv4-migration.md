@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Impostazioni delle istanze
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: eb7a209e-069e-4068-966d-05344bd838c7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1204'
 ht-degree: 1%
 
 ---
-
 
 # Migrazione dell’app mobile da SDK v4 ad Adobe Experience Platform SDK {#sdkv4-migration}
 
@@ -52,7 +51,7 @@ Dopo aver aggiornato la versione SDK di Adobe dalla versione v4 a Adobe Experien
 | L&#39;applicazione verrà associata a un Adobe Experience Platform Launch **[!UICONTROL Mobile Property]**. Sarà elaborato come nuova app mobile creata. |
 | L&#39;applicazione Adobe Experience Platform SDK originale utilizzata nella migrazione non esisterà come applicazione separata. Sarà disponibile solo l’applicazione SDK v4 migrata. |
 
-## Migrazione dell’app mobile dall’SDK v4 all’SDK Adobe Experience Platform {#how-to-migrate}
+## Migrazione dell’app mobile dall’SDK v4 a Adobe Experience Platform SDK {#how-to-migrate}
 
 Prima di eseguire la migrazione, è necessario tenere conto dei seguenti consigli:
 
