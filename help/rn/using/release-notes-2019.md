@@ -7,13 +7,13 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Panoramica
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '7591'
-ht-degree: 8%
+source-wordcount: '7590'
+ht-degree: 7%
 
 ---
 
@@ -267,13 +267,13 @@ ht-degree: 8%
 * È stato risolto un problema che poteva impedire agli utenti non amministratori di salvare o pianificare i rapporti. (CAMP-31133)
 * È stato risolto un problema che si verificava quando si utilizzava &quot;|&quot; come separatore di data nell’attività del flusso di lavoro Load file . (CAMP-34706)
 
-## Versione 19.2.4 - giugno 2019 {#release-19-2-4---june-2019}
+## Versione 19.2.4 - Giugno 2019 {#release-19-2-4---june-2019}
 
 **E-mail Designer**
 
 * È stato risolto un problema che impediva agli utenti di modificare i frammenti in caso di utilizzo di tag di stile vuoti nell’HTML. Questa è una correzione di follow-up per CAMP-33778 in 19.2.3.
 
-## Versione 19.2.3 - giugno 2019 {#release-19-2-3---june-2019}
+## Versione 19.2.3 - Giugno 2019 {#release-19-2-3---june-2019}
 
 **E-mail Designer**
 
@@ -361,7 +361,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 
 **Altre modifiche**
 
-* È stata aggiunta una nuova opzione all’account esterno SMS. Consente di limitare il numero massimo di processi MTA che inviano SMS per controllare meglio il numero di connessioni parallele. Per ulteriori informazioni, consulta la nota tecnica [Protocollo e impostazioni del connettore SMS](https://helpx.adobe.com/it/campaign/kb/sms-connector-protocol-and-settings.html) .
+* È stata aggiunta una nuova opzione all’account esterno SMS. Consente di limitare il numero massimo di processi MTA che inviano SMS per controllare meglio il numero di connessioni parallele. Per ulteriori informazioni, consulta la nota tecnica [Protocollo e impostazioni del connettore SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=it) .
 * Quando pubblichi una risorsa con estensione API, se l’API è già stata pubblicata, viene aggiornata automaticamente ogni volta che viene pubblicata nuovamente. In precedenza questa azione era manuale e l’aggiornamento dell’API poteva interrompere la risorsa del profilo o del servizio di questa API. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * La dimensione del codice postale è stata rimossa da Reporting dinamico. È invece consigliabile utilizzare le dimensioni Città, Paese e Stato.
 * Il trigger dell’evento &quot;Primo avvio&quot; del ciclo di vita per i messaggi in-app è stato rimosso.
@@ -428,7 +428,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
   </tr> 
   <tr> 
    <td> Integrazione di Launch per l'app mobile<br /> </td> 
-   <td> <p>Questa versione contiene l’integrazione di Adobe Campaign con le versioni GA delle estensioni Android e iOS per Adobe Campaign Standard in Adobe Experience Platform Launch e Mobile SDK. Queste estensioni supportano la messaggistica push, la messaggistica in-app e gli aggiornamenti dei profili delle app mobili.</p><p> Per ulteriori informazioni, consulta la <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html">documentazione dettagliata</a>.</p> </td> 
+   <td> <p>Questa versione contiene l’integrazione di Adobe Campaign con le versioni GA delle estensioni Android e iOS per Adobe Campaign Standard in Adobe Experience Platform Launch e Mobile SDK. Queste estensioni supportano la messaggistica push, la messaggistica in-app e gli aggiornamenti dei profili delle app mobili.</p><p> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it">documentazione dettagliata</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Messaggistica in-app mobile<br /> </td> 
