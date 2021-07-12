@@ -6,17 +6,16 @@ description: Scopri come utilizzare il sistema di gestione degli avvisi.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
-role: Business Practitioner
+feature: Bozze
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2032'
 ht-degree: 2%
 
 ---
-
 
 # Ricezione degli avvisi in caso di errori{#receiving-alerts-when-failures-happen}
 
@@ -49,9 +48,9 @@ Le notifiche inviate contengono:
 
 ![](assets/delivery-alerting_notification.png)
 
-## Dashboard degli avvisi di consegna {#delivery-alerting-dashboards}
+## Dashboard degli avvisi sulla consegna {#delivery-alerting-dashboards}
 
-### Informazioni sulle dashboard degli avvisi di consegna {#about-delivery-alerting-dashboards}
+### Informazioni sulle dashboard degli avvisi sulla consegna {#about-delivery-alerting-dashboards}
 
 Per gestire i destinatari delle notifiche, definire i criteri di avviso e accedere alla cronologia degli avvisi, devi utilizzare le dashboard.
 
@@ -282,5 +281,4 @@ Di seguito sono riportati alcuni possibili motivi per ricevere notifiche di avvi
 
 * [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
-* [Informazioni sul consenso e diniego in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
+* [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
