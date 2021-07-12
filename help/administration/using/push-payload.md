@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Impostazioni delle istanze
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 3%
 
 ---
-
 
 # Comprensione della struttura del payload per le notifiche push {#push-payload}
 
@@ -113,7 +112,7 @@ La sezione più importante del payload è il dizionario aps, che contiene le chi
 
 I dettagli approfonditi sugli attributi all’interno di app sono disponibili nei documenti per sviluppatori Apple: [Creazione del payload di notifica remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
-### Per Android App {#payload-structure-android}
+### Per app Android {#payload-structure-android}
 
 **Esempio di invio di payload dall’app Adobe Campaign all’app Android**
 
@@ -205,7 +204,7 @@ Per comprendere gli aspetti di un payload android, consulta [Concetti e opzioni 
 >
 >Il supporto per i messaggi di notifica nel payload Android è stato rimosso a partire da gennaio 2018 per abilitare il risveglio dell’app e il passaggio del controllo all’app mobile senza che l’utente debba interagire con l’app.
 
-### Mappatura tra configurazioni Campaign Standard e attributi del payload {#mapping-payload}
+### Mappatura tra le configurazioni di Campaign Standard e gli attributi del payload {#mapping-payload}
 
 | Configurazione della campagna | Attributo interessato in iOS | Attributo interessato in Android | Descrizione |
 |:-:|:-:|:-:|:-:|
