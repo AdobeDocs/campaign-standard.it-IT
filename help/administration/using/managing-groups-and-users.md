@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: Access Management
-role: Administrator
+feature: Gestione degli accessi
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '942'
 ht-degree: 88%
 
 ---
-
 
 # Gestione di gruppi e utenti{#managing-groups-and-users}
 
@@ -150,4 +149,3 @@ Gli utenti sono ora assegnati a un gruppo di sicurezza e possono connettersi ad 
 >[!IMPORTANT]
 >
 >Se gli utenti vengono rimossi da un gruppo di sicurezza in Admin Console, continueranno a far parte del gruppo di sicurezza Adobe Campaign e non potranno più accedere ad Adobe Campaign. In questo caso, rimuovi gli indirizzi e-mail degli utenti in Admin Console per impedire che ricevano informazioni riservate.
-
