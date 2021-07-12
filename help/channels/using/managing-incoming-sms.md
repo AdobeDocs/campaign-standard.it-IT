@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 7%
