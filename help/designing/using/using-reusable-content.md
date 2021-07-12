@@ -6,18 +6,18 @@ description: Inizia a creare contenuto e-mail riutilizzabile con E-mail Designer
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1821'
 ht-degree: 1%
 
 ---
 
-# Creazione e utilizzo di contenuto riutilizzabile {#using-reusable-content}
+# Creazione e utilizzo di contenuti riutilizzabili {#using-reusable-content}
 
 Scopri come gestire l’edizione del contenuto delle e-mail. Con E-mail Designer è possibile creare modelli e frammenti con contenuti predefiniti personalizzati e riutilizzarli per le seguenti consegne.
 
