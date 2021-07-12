@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-feature: Direct Mail
-role: Business Practitioner
+feature: Direct mailing
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 97%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
-
-# Informazioni sulla direct mailing{#about-direct-mail}
+# Informazioni sul direct mailing{#about-direct-mail}
 
 La direct mailing è un canale offline che ti consente di personalizzare e generare il file richiesto dai provider di direct mailing. Offre la possibilità di combinare i canali online e offline all’interno dei percorsi dei clienti.
 
