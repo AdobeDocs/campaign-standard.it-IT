@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Guida introduttiva all’amministrazione di Campaign Standard
+title: Introduzione all’amministrazione di Campaign Standard
 description: Scopri la gestione di utenti e autorizzazioni, le linee guida per il monitoraggio, le configurazioni specifiche per canale e le linee guida sulle impostazioni delle applicazioni.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Gestione degli accessi
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 14%
+source-wordcount: '639'
+ht-degree: 15%
 
 ---
 
-
-# Guida introduttiva all’amministrazione di Campaign Standard {#about-administrating-adobe-campaign}
+# Introduzione all’amministrazione di Campaign Standard {#about-administrating-adobe-campaign}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menu Amministrazione</a></p></td>
@@ -33,7 +32,7 @@ In qualità di soluzione basata su cloud, Adobe Campaign offre agli amministrato
 >
 >In caso di domande o richieste su questioni di implementazione e configurazione, contatta l’amministratore del tuo account Adobe.
 
-Gli utenti amministratori possono inoltre utilizzare il Pannello di controllo Campaign Campaign per gestire le impostazioni e tenere traccia degli utilizzi per ciascuna istanza. Per ulteriori informazioni, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html).
+Gli utenti amministratori possono inoltre utilizzare il Pannello di controllo Campaign Campaign per gestire le impostazioni e tenere traccia degli utilizzi per ciascuna istanza. Per ulteriori informazioni, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it).
 
 ## Menu Amministrazione {#administration-menu}
 
@@ -69,7 +68,7 @@ Leggi tutto:
 * [Controllo dei registri di esportazione](../../administration/using/auditing-export-logs.md)
 * [Licenze](../../administration/using/licenses.md)
 
-## Configurazione canali {#channels-configuration}
+## Configurazione dei canali {#channels-configuration}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
@@ -84,7 +83,7 @@ Leggi tutto:
 * [Informazioni sulla configurazione dei canali](../../administration/using/about-channel-configuration.md)
 * [Configurazione del canale e-mail](../../administration/using/configuring-email-channel.md)
 * [Configurazione del canale SMS](../../administration/using/configuring-sms-channel.md)
-* [Configurazione di un’applicazione mobile](../../administration/using/configuring-a-mobile-application.md)
+* [Configurazione di un’app per dispositivi mobili](../../administration/using/configuring-a-mobile-application.md)
 
 ## Impostazioni applicazione {#application-settings}
 
