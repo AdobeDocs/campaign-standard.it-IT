@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
-
 
 # Creazione di una notifica push multilingue{#creating-a-multilingual-push-notification}
 
@@ -111,7 +110,7 @@ Dopo aver caricato il file contenente varianti di contenuto, ora puoi visualizza
 
 La consegna delle notifiche push multilingue è ora pronta per essere inviata.
 
-## Passaggio 3: Inviare e analizzare la consegna di notifiche push multilingue {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Passaggio 3: Inviare e analizzare la consegna delle notifiche push multilingue {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Le notifiche push con varianti di contenuto multilingue sono ora pronte per essere inviate agli utenti.
 
@@ -133,6 +132,6 @@ Ora puoi misurare l’impatto della consegna di notifiche push multilingue sui d
 
 **Argomenti correlati:**
 
-* [Report notifiche push](../../reporting/using/push-notification-report.md)
+* [Rapporto notifiche push](../../reporting/using/push-notification-report.md)
 * [Invio di una notifica push all’interno di un flusso di lavoro](../../automating/using/push-notification-delivery.md)
 * [Raggiungere un pubblico multilingue tramite un unico flusso di lavoro](https://helpx.adobe.com/it/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
