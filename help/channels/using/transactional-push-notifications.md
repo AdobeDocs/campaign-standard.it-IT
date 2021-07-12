@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Messaggistica transazionale
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 4%
@@ -33,13 +33,13 @@ Puoi inviare due tipi di notifiche push transazionali:
 * [Notifiche push transazionali destinate a un evento](#transactional-push-notifications-targeting-an-event)
 * [Profili di targeting delle notifiche push transazionali ](#transactional-push-notifications-targeting-a-profile) dal database Adobe Campaign
 
-## Notifiche push transazionali indirizzate a un evento {#transactional-push-notifications-targeting-an-event}
+## Notifiche push transazionali destinate a un evento {#transactional-push-notifications-targeting-an-event}
 
 Puoi utilizzare Adobe Campaign per inviare **notifiche push transazionali anonime a tutti gli utenti** che hanno acconsentito alla ricezione di notifiche dalla tua app mobile.
 
 In questo caso, solo **i dati contenuti nell&#39;evento stesso vengono utilizzati per definire la destinazione di consegna**. Non viene utilizzato alcun dato dal database di profili integrato di Adobe Campaign.
 
-### Configurazione di una notifica transazionale basata su eventi {#configuring-event-based-transactional-push-notification}
+### Configurazione di una notifica push transazionale basata su eventi {#configuring-event-based-transactional-push-notification}
 
 Per inviare una notifica push transazionale a tutti gli utenti che hanno acconsentito alla ricezione di notifiche dalla tua app mobile, devi innanzitutto creare e configurare un evento che esegue il targeting dei dati contenuti nell’evento stesso.
 
@@ -71,7 +71,7 @@ Per configurare l’evento, segui i passaggi seguenti:
 
 1. Integra l&#39;evento nel tuo sito web (consulta [Integrare l&#39;attivazione dell&#39;evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Invio di una notifica transazionale basata su eventi {#sending-event-based-transactional-push-notification}
+### Invio di una notifica push transazionale basata su eventi {#sending-event-based-transactional-push-notification}
 
 Ad esempio, una compagnia aerea desidera invitare i propri utenti di applicazioni mobili a procedere al cancello di imbarco pertinente.
 
@@ -119,7 +119,7 @@ Se il token di registrazione esiste, l’utente corrispondente riceve una notifi
 
 *&quot;Ciao Jane Green, imbarco è appena iniziato! Procedere al cancello B18.&quot;*
 
-## Notifiche push transazionali indirizzate a un profilo {#transactional-push-notifications-targeting-a-profile}
+## Notifiche push transazionali destinate a un profilo {#transactional-push-notifications-targeting-a-profile}
 
 Puoi inviare una notifica push transazionale **ai profili Adobe Campaign abbonati alla tua app mobile**. Questa consegna può contenere [campi di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field), ad esempio il nome del destinatario, direttamente recuperati dal database Adobe Campaign.
 
