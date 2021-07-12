@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: Campagne
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
-
 
 # Programmi e campagne{#programs-and-campaigns}
 
@@ -103,4 +102,3 @@ Ogni programma e campagna presente nell’elenco dispone di un simbolo visivo e 
 * Verde: il programma/campagna è terminato - stato **[!UICONTROL Finished]**. Per impostazione predefinita, la data corrente viene visualizzata automaticamente come data di inizio validità, mentre la data di fine viene calcolata in base alla data di inizio (**D+186 giorni**). Puoi modificare queste date nelle proprietà del programma o della campagna.
 
 ![](assets/programs_and_campaigns.png)
-
