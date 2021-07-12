@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messaggistica transazionale
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 9%
+source-wordcount: '965'
+ht-degree: 10%
 
 ---
-
 
 # Guida introduttiva ai messaggi transazionali {#getting-started-with-transactional-messaging}
 
@@ -112,7 +111,7 @@ La creazione e la pubblicazione di un evento sono presentate nelle sezioni [Conf
 
 Per ulteriori informazioni sulla modifica e la pubblicazione di un messaggio sulle transazioni, consulta [Modifica dei messaggi sulle transazioni](../../channels/using/editing-transactional-message.md) e [Ciclo di vita dei messaggi sulle transazioni](../../channels/using/publishing-transactional-message.md).
 
-### Passaggio 3: integrare l&#39;attivazione dell&#39;evento {#integrate-event-trigger}
+### Passaggio 3: integrare l’attivazione dell’evento {#integrate-event-trigger}
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
@@ -126,7 +125,7 @@ Dopo aver creato un evento, devi integrare l’attivazione di questo evento nel 
 
 Per ulteriori informazioni sull’utilizzo dell’API REST di Campaign per gestire i messaggi transazionali, consulta la [documentazione REST API](../../api/using/managing-transactional-messages.md).
 
-### Passaggio 4: consegna dei messaggi {#message-delivery}
+### Passaggio 4 - Consegna dei messaggi {#message-delivery}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
@@ -137,6 +136,6 @@ Non appena un utente lascia il sito senza ordinare i prodotti nel carrello, vien
 ## Argomenti correlati
 
 * [Passaggi fondamentali per l’invio di un messaggio](../../channels/using/key-steps-to-send-a-message.md)
-* [Guida introduttiva ai canali di comunicazione](../../channels/using/get-started-communication-channels.md)
+* [Introduzione ai canali di comunicazione](../../channels/using/get-started-communication-channels.md)
 * [Notifiche push transazionali](../../channels/using/transactional-push-notifications.md)
 * [Messaggi di follow-up](../../channels/using/follow-up-messages.md)
