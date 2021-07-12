@@ -6,17 +6,16 @@ description: Scopri come tenere traccia degli abbonati e misurare il successo de
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Tipi di pubblico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
-
 
 # Monitoraggio degli abbonamenti{#monitoring-subscriptions}
 
@@ -29,7 +28,7 @@ Sono disponibili diverse opzioni per monitorare gli abbonamenti a e annullare gl
 * Visualizza un rapporto che descrive l&#39;evoluzione degli abbonamenti e degli annullamenti di abbonamenti nel servizio **Reports**. Consulta [Rapporti sui servizi](#service-reports).
 * Trova l&#39;elenco dei servizi abbonati da una persona dal suo **Profilo**. Consulta [Cronologia degli eventi collegati a un profilo](#history-of-events-linked-to-a-profile).
 
-## Dashboard del servizio {#service-dashboard}
+## Dashboard di servizio {#service-dashboard}
 
 Per visualizzare l’elenco delle persone abbonate a un servizio:
 
@@ -39,7 +38,7 @@ Per visualizzare l’elenco delle persone abbonate a un servizio:
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Cronologia sottoscrizioni {#subscription-history}
+## Storico sottoscrizioni {#subscription-history}
 
 Per consultare la cronologia dell’abbonamento e del suo annullamento:
 
@@ -68,4 +67,3 @@ Per visualizzare un rapporto che descrive l’evoluzione degli abbonamenti e dei
 Per consultare l’elenco dei servizi ai quali un contatto ha effettuato la sottoscrizione, puoi consultare la cronologia di marketing corrispondente. Per ulteriori informazioni, consulta la sezione [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) .
 
 ![](assets/lp_monitoring_subscriptions_5.png)
-
