@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Monitoraggio delle prestazioni
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ddc92077-df73-411d-a161-3263581e6945
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '463'
 ht-degree: 88%
 
 ---
-
 
 # Monitoraggio di una consegna{#monitoring-a-delivery}
 
@@ -52,7 +51,7 @@ Esistono diversi modi per monitorare una consegna e misurarne l’impatto. In qu
 
 ## Log di consegna {#delivery-logs}
 
-### Sending logs {#sending-logs}
+### Registri di invio {#sending-logs}
 
 La scheda **[!UICONTROL Sending logs]** offre una cronologia di ogni occorrenza della consegna. L’elenco dei messaggi inviati e i relativi stati sono archiviati qui. Consente di visualizzare lo stato di consegna per ciascun destinatario.
 
@@ -72,13 +71,13 @@ Tutti i dettagli dei log di invio sono di sola lettura. Puoi inoltre visualizzar
 >
 >Per visualizzare il rendering della pagina speculare nell’interfaccia utente di Campaign, l’URL del server della pagina speculare deve essere sicuro. In questo caso, utilizza https:// anziché http:// per impostare questo URL al momento della [configurazione del brand](../../administration/using/branding.md#configuring-and-using-brands).
 
-### Exclusion logs {#exclusion-logs}
+### Log di esclusione {#exclusion-logs}
 
 La scheda **[!UICONTROL Exclusion logs]** elenca tutti i messaggi che sono stati esclusi dal target inviato e specifica il motivo dell’errore di invio.
 
 ![](assets/sending_delivery4.png)
 
-### Exclusion causes {#exclusion-causes}
+### Cause di esclusione {#exclusion-causes}
 
 Nella scheda **[!UICONTROL Exclusion causes]** viene visualizzato il volume (in numero di messaggi) dei messaggi esclusi dall’invio del target.
 
