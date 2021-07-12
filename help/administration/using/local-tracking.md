@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Impostazioni delle istanze
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
-
 
 # Implementazione del tracciamento locale {#local-tracking}
 
@@ -37,7 +36,7 @@ Per implementare il tracciamento per Adobe Campaign Standard, l’app mobile dev
 
 Per inviare le informazioni di tracciamento, sono necessarie tre variabili: due sono parte dei dati ricevuti da Adobe Campaign e l’altro è una variabile di azione che determina se si tratta di un’impression, un clic o un’apertura.
 
-| Variabile | Valore |
+| Variabile | Elemento “value” |
 | :-: | :-: |
 | deliveryId | `deliveryId` dai dati in arrivo (simile al tracciamento push dove  `_dld` viene utilizzato) |
 | broadlogId | `broadlogId` dai dati in arrivo (simile al tracciamento push dove  `_mld` viene utilizzato) |
@@ -47,7 +46,7 @@ Per inviare le informazioni di tracciamento, sono necessarie tre variabili: due 
 
 L’SDK di Adobe Experience Platform Mobile invierà automaticamente l’evento impression per Android e iOS senza alcuna configurazione aggiuntiva.
 
-## Implementa il tracciamento dei clic {#implementing-click-tracking}
+## Implementare il tracciamento dei clic {#implementing-click-tracking}
 
 Per il tracciamento dei clic, è necessario inviare il valore &quot;2&quot; per l&#39;azione quando si richiamano le funzioni `collectMessageInfo()` o `trackAction()` .
 
