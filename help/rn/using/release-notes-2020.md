@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Panoramica
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '5298'
 ht-degree: 98%
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 # Note sulla versione 2020{#release-notes-2020}
 
-[Pianificazione del rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | [Versioni del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedenti](../../rn/using/release-notes-2019.md) | [Funzioni obsolete](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#)
+[Pianificazione del rilascio](https://helpx.adobe.com/it/campaign/kb/acs-release-planning.html) | [Versioni del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedente](../../rn/using/release-notes-2019.md) | [Funzioni obsolete](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#)
 
 ![](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo Campaign di giugno** con monitoraggio dei profili attivi, audit del recapito messaggi del sottodominio e gestione delle chiavi GPG. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
@@ -295,7 +295,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Nuova versione di maggio del Pannello di controllo Campaign** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## Versione 20.2 - Aprile 2020 {#release-20-2---april-2020}
+## Versione 20.2 - aprile 2020 {#release-20-2---april-2020}
 
 **Quali sono le novità?**
 
@@ -380,15 +380,15 @@ ht-degree: 98%
 * È stato risolto un problema che poteva verificarsi nei flussi di lavoro durante l’esecuzione di un’attività con diverse transizioni in entrata.
 * È stato risolto un problema che impediva agli utenti standard di utilizzare “Abbonamenti a un’applicazione” come dimensione di destinazione in una query del flusso di lavoro o una consegna. (CAMP-37618)
 
-## Versione 20.1.4 - Febbraio 2020 {#release-20-1-4---february-2020}
+## Versione 20.1.4 - febbraio 2020 {#release-20-1-4---february-2020}
 
 * È stato risolto un problema che si verificava all’apertura di un’attività **Read Audience** sui flussi di lavoro esistenti. (CAMP-41002)
 
-## Versione 20.1.3 - Febbraio 2020 {#release-20-1-3---february-2020}
+## Versione 20.1.3 - febbraio 2020 {#release-20-1-3---february-2020}
 
 * È stato risolto un problema di regressione introdotto in 20.1 da CAMP-39273 per i clienti che utilizzano la scappatoia. CAMP-39273 è stato ripristinato.
 
-## Versione 20.1.2 - Febbraio 2020 {#release-20-1-2---february-2020}
+## Versione 20.1.2 - febbraio 2020 {#release-20-1-2---february-2020}
 
 **Miglioramenti di E-mail Designer**
 
@@ -396,7 +396,7 @@ ht-degree: 98%
 * È stato risolto un problema che aggiungeva uno spazio quando si utilizzava contenuto dinamico. (CAMP-40605)
 * È stato risolto un problema durante la configurazione di un modello e-mail transazionale. (CAMP-40604)
 
-## Versione 20.1 - Febbraio 2020 {#release-20-1---february-2020}
+## Versione 20.1 - febbraio 2020 {#release-20-1---february-2020}
 
 **Quali sono le novità?**
 
