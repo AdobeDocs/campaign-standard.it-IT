@@ -6,17 +6,16 @@ description: Scopri come creare profili e raccogliere dati sui contatti tramite 
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Profili
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 827df9f6-070c-466a-890c-e363de6b129b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 88%
+source-wordcount: '381'
+ht-degree: 89%
 
 ---
-
 
 # Creazione di profili{#creating-profiles}
 
