@@ -7,13 +7,12 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Help and support options
-role: Business Practitioner
+feature: Guida e opzioni di supporto
+role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -131,4 +130,4 @@ La creazione di un caso consente di contattare il team Assistenza clienti di Ado
 
 Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
