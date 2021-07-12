@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Gestione del consenso e del diniego in Campaign
+title: Gestione di consenso e rinuncia in Campaign
 description: Scopri come le funzioni di consenso e rinuncia sono gestite in Adobe Campaign.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: Tipi di pubblico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 8%
+source-wordcount: '310'
+ht-degree: 9%
 
 ---
 
-
-# Gestione del consenso e del diniego in Campaign{#managing-opt-in-and-opt-out-in-campaign}
+# Gestione di consenso e rinuncia in Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
 ## Gestione del consenso e della rinuncia da un profilo {#managing-opt-in-and-opt-out-from-a-profile}
 
@@ -59,4 +58,3 @@ Per consentire agli utenti di rinunciare a tutte le consegne, devi creare e pubb
 Quando un utente fa clic sul collegamento della pagina di destinazione, l’opzione **[!UICONTROL No longer contact (by any channel)]** nel profilo viene selezionata automaticamente.
 
 ![](assets/blocklisting_allchannels.png)
-
