@@ -6,17 +6,16 @@ description: Scopri come inviare un messaggio a una data e a un’ora specifiche
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Monitoraggio delle prestazioni
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
-
 
 # Calcolo della data di invio{#computing-the-sending-date}
 
@@ -102,7 +101,7 @@ La consegna verrà inviata progressivamente a tutti i destinatari di destinazion
 >
 >Assicurati che tutte le date siano future durante la conferma dell’invio. In caso contrario, il messaggio verrà inviato non appena l’invio viene confermato.
 
-## Utilizzo di un&#39;espressione {#using-an-expression}
+## Utilizzo di un’espressione {#using-an-expression}
 
 L’ottimizzazione del tempo di invio è utile anche per le campagne che coinvolgono un call center. Puoi assicurarti che tutti i messaggi non vengano ricevuti contemporaneamente. Questo consente alla tua organizzazione di elaborare il numero di chiamate in base alla sua capacità.
 
@@ -178,4 +177,3 @@ Puoi programmarlo utilizzando un flusso di lavoro.
 * Il secondo segmento riceverà il messaggio due ore dopo (25 maggio alle 10:00).
 * Il terzo segmento riceverà il messaggio sei ore dopo (25 maggio alle 2:00).
 * Il quarto segmento riceverà il messaggio otto ore dopo (25 maggio alle 16:00).
-
