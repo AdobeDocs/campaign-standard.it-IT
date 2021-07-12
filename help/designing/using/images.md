@@ -6,17 +6,16 @@ description: Scopri come gestire le immagini nelle e-mail con E-mail Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 3%
 
 ---
-
 
 # Utilizzo delle immagini {#images}
 
@@ -50,7 +49,7 @@ Sono disponibili i seguenti tipi di immagini, a seconda della configurazione:
 
    ![](assets/des_insert_images_3.png)
 
-## Impostazione delle proprietà immagine{#setting-up-image-properties}
+## Impostazione delle proprietà dell’immagine{#setting-up-image-properties}
 
 Quando selezioni un blocco contenente un’immagine, nella palette vengono offerte le seguenti proprietà:
 
