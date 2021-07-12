@@ -6,17 +6,16 @@ description: Scopri i vari metodi per arricchire il database.
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profiles
-role: Business Practitioner
+feature: Profili
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '448'
 ht-degree: 3%
 
 ---
-
 
 # Arricchimento del database{#enriching-the-database}
 
