@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Impostazioni delle istanze
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
 
-
-# Casi d’uso per dispositivi mobili supportati all’interno di Adobe Campaign Standard {#mobile-use-cases}
+# Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard {#mobile-use-cases}
 
 In questa pagina troverai l’elenco di tutti i casi d’uso per dispositivi mobili supportati in [!DNL Adobe Campaign Standard] utilizzando [!DNL Adobe Experience Platform SDKs]. Tieni presente che il supporto di questi casi d’uso comporta l’installazione e la configurazione di [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch] e [!DNL Adobe Campaign Standard]. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md).
 
@@ -112,7 +111,7 @@ public void onResume() {
  }
 ```
 
-## Invia un token push ad Adobe Campaign Standard {#send-push-token}
+## Inviare un token push ad Adobe Campaign Standard {#send-push-token}
 
 ### Con iOS {#send-push-token-ios}
 
@@ -177,7 +176,7 @@ data.put("email", emailText);
 MobileCore.collectPii(data);
 ```
 
-## Arricchisci un profilo mobile con i dati del ciclo di vita dall’applicazione {#enrich-mobile-profile-lifecycle}
+## Arricchisci un profilo mobile con i dati del ciclo di vita dalla tua applicazione {#enrich-mobile-profile-lifecycle}
 
 Affinché questo caso d’uso funzioni, devi creare regole per i postback PII. Per ulteriori informazioni, consulta [Postback PII](../../administration/using/configuring-rules-launch.md#pii-postback).
 
@@ -319,7 +318,7 @@ Ecco un esempio di implementazione per questo caso d’uso con Android:
 MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 ```
 
-## Imposta i campi di collegamento per l’autenticazione aggiuntiva {#linkage-fields-inapp}
+## Imposta campi di collegamento per l’autenticazione aggiuntiva {#linkage-fields-inapp}
 
 ### Con iOS {#linkage-fields-inapp-ios}
 
