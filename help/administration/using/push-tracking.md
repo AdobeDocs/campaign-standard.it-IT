@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Impostazioni delle istanze
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
-
 
 # Implementazione del tracciamento push {#push-tracking}
 
@@ -41,7 +40,7 @@ Per implementare il tracciamento per Campaign Standard, l’app mobile deve incl
 
 Per inviare le informazioni di tracciamento sono necessarie tre variabili. Due elementi che fanno parte dei dati ricevuti da Campaign Standard e una variabile di azione che determina se si tratta di un **Impression**, **Click** o **Apri**.
 
-| Variabile | Valore |
+| Variabile | Elemento “value” |
 |:-:|:-:|
 | broadlogId | _mId dai dati |
 | deliveryId | _dId dai dati |
