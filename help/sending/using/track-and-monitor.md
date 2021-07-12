@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Scopri come Adobe Campaign ti consente di tenere traccia dei messaggi inviati e scoprire come reagiscono i destinatari alla consegna
-feature: Deliverability
-role: Business Practitioner
+feature: Recapito messaggi
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 4%
 
 ---
-
 
 # Tracciare e monitorare {#track-and-monitor}
 
@@ -37,7 +36,7 @@ Per controllare le campagne, assicurati che il messaggio sia stato effettivament
 
 Per ulteriori informazioni, consulta [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md).
 
-## Tracking {#tracking-deliveries}
+## Tracciamento {#tracking-deliveries}
 
 Per conoscere meglio il comportamento dei profili di destinazione, puoi tenere traccia della loro reazione a una consegna: ricezione, apertura, clic su collegamenti, annullamenti di abbonamenti, ecc. Fai riferimento alla scheda **Registri di tracciamento** della consegna.
 
