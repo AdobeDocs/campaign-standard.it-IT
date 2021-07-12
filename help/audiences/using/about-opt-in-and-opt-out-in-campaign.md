@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Informazioni sul consenso e diniego in Campaign
+title: Informazioni su consenso e rinuncia in Campaign
 description: La rinuncia comporta la mancata destinazione di un profilo da parte di una consegna o di consegne da un canale specifico.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: Tipi di pubblico
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '221'
 ht-degree: 9%
 
 ---
 
-
-# Informazioni sul consenso e diniego in Campaign{#about-opt-in-and-opt-out-in-campaign}
+# Informazioni su consenso e rinuncia in Campaign{#about-opt-in-and-opt-out-in-campaign}
 
 La rinuncia comporta la mancata destinazione di un profilo da parte di una consegna o di consegne da un canale specifico.
 
