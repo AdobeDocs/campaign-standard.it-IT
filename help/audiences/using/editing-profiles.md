@@ -6,17 +6,16 @@ description: Scopri come modificare i profili esistenti e accedere alle informaz
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Profili
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 11%
+source-wordcount: '315'
+ht-degree: 12%
 
 ---
-
 
 # Modifica dei profili{#editing-profiles}
 
@@ -45,7 +44,7 @@ Argomento correlato:
 * [Integrated Customer Profile](../../audiences/using/integrated-customer-profile.md)
 * [Invio al fuso orario del destinatario](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Dati generali del profilo {#general-profile-data}
+## Dati profilo generali {#general-profile-data}
 
 La scheda **[!UICONTROL General]** raggruppa le seguenti informazioni sul profilo:
 
@@ -56,7 +55,7 @@ La scheda **[!UICONTROL General]** raggruppa le seguenti informazioni sul profil
 
 ![](assets/profile_creation4.png)
 
-## Invio e tracking dei registri {#sending-and-tracking-logs}
+## Invio e tracciamento dei registri {#sending-and-tracking-logs}
 
 Le schede **[!UICONTROL Sending logs]** e **[!UICONTROL Tracking logs]** raggruppano l’elenco delle consegne inviate al profilo e tutti i relativi dati di tracciamento.
 
