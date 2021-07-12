@@ -7,19 +7,18 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: Profiles
-role: Business Practitioner
+feature: Profili
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 48%
 
 ---
 
-
-# Integrated customer profile{#integrated-customer-profile}
+# Integrated Customer Profile{#integrated-customer-profile}
 
 Per ogni contatto del database è disponibile un Integrated customer profile. Questo storico dei dati marketing combina in un’unica visualizzazione tutte le informazioni di marketing rilevanti che riguardano il contatto con un cliente. Potrai quindi accedere da una posizione centrale a tutti i comportamenti digitali e alle transazioni online e offline: informazioni di contatto, e-mail ricevute, registri di tracciamento, abbonamenti e annullamenti degli abbonamenti e così via.
 
