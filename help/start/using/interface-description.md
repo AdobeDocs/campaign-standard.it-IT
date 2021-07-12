@@ -6,19 +6,18 @@ description: '"Scopri come navigare e utilizzare l’area di lavoro di Adobe Cam
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: Panoramica
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 92%
 
 ---
 
-
-# Descrizione interfaccia{#interface-description}
+# Descrizione dell’interfaccia{#interface-description}
 
 Adobe Campaign ti consente di navigare tra i vari menu e schermate per gestire le campagne.
 
@@ -65,7 +64,7 @@ I principi di navigazione sono i seguenti:
 * L’icona **Notifications** visualizza gli avvisi o le informazioni più recenti.
 * L’icona **User** ti consente di visualizzare le informazioni collegate al profilo. Utilizza questa icona se devi **[!UICONTROL Sign out]**.
 
-### Guida {#help}
+### Elemento “help” {#help}
 
 La barra superiore è visibile su ogni schermata e consente di navigare tra le funzionalità di Adobe Campaign, nonché di accedere al profilo Adobe connesso, alle notifiche, ad altri servizi e soluzioni Adobe Experience Cloud e alla documentazione.
 
@@ -117,7 +116,7 @@ L’icona **[!UICONTROL Resources]** ti permette di accedere alle seguenti funzi
 * **[!UICONTROL Content blocks]**. Per ulteriori informazioni, consulta la sezione [Aggiunta di un blocco di contenuto](../../designing/using/personalization.md#adding-a-content-block).
 * **[!UICONTROL Content templates & fragments]**. Per ulteriori informazioni, consulta la sezione [Modello di contenuto](../../designing/using/using-reusable-content.md#content-templates).
 
-### Administration {#administration}
+### Amministrazione {#administration}
 
 L’icona **[!UICONTROL Administration]** ti permette di accedere alle funzionalità avanzate che possono essere eseguite solo da un amministratore funzionale. Per ulteriori informazioni, consulta la sezione [Amministrazione](../../administration/using/get-started-campaign-administration.md).
 
