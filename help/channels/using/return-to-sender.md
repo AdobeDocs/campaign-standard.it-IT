@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Rendi al mittente
+title: Ritorna al mittente
 description: Scopri come ricevere una notifica di un indirizzo errato ed escluderlo dalle comunicazioni future.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Direct Mail
-role: Business Practitioner
+feature: Direct mailing
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 2%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
-
-# Rendi al mittente{#return-to-sender}
+# Ritorna al mittente{#return-to-sender}
 
 Sono supportati gli scambi di file Flat con provider Direct Mail che incorporano le informazioni Return to Sender. Ciò consente di escludere gli indirizzi postali corrispondenti dalle comunicazioni future. Questo ti consente anche di ricevere una notifica di indirizzo errato e di interagire con il cliente attraverso altri canali o di incoraggiarlo ad aggiornare il suo indirizzo postale.
 
