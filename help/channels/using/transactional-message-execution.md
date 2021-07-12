@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messaggistica transazionale
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 62%
+source-wordcount: '742'
+ht-degree: 63%
 
 ---
-
 
 # Esecuzione e monitoraggio della messaggistica transazionale {#transactional-messaging-execution}
 
@@ -33,7 +32,7 @@ Una **consegna di esecuzione** è un messaggio tecnico non utilizzabile e non fu
 * [Pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [Integrare l’attivazione dell’evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Processo di esecuzione di un nuovo tentativo di messaggistica transazionale {#transactional-message-retry-process}
+## Processo di nuovo tentativo di messaggistica transazionale {#transactional-message-retry-process}
 
 Un messaggio sulle transazioni temporaneamente non consegnato è soggetto all’esecuzione di tentativi automatici fino alla scadenza della consegna. Per ulteriori informazioni sulla durata della consegna, consulta [Parametri del periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
@@ -60,7 +59,7 @@ Una volta che l’evento è stato assegnato a una consegna di esecuzione, il mes
 >
 >Quando un evento viene assegnato a un’esecuzione di consegna, viene visualizzato nei registri di invio dell’esecuzione di consegna e solo in questa fase. Le consegne non riuscite vengono visualizzate nella scheda **[!UICONTROL Execution list]** dei registri di invio dei messaggi transazionali.
 
-### Limitazioni del processo di nuovo {#limitations}
+### Limitazioni del processo di nuovi tentativi {#limitations}
 
 **Invio dell’aggiornamento dei registri**
 
