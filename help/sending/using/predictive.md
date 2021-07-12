@@ -6,17 +6,16 @@ description: Scopri come utilizzare il tempo di invio predittivo e il punteggio 
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Ottimizzazione dei tempi di invio
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 97%
 
 ---
-
 
 # Ottimizzazione della progettazione e della consegna con e-mail basate sull’intelligenza artificiale{#journey-ai}
 
@@ -37,7 +36,7 @@ Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percor
 >
 >La funzione richiede l’utilizzo di un archivio Azure o Amazon S3 che deve essere fornito dal cliente.
 
-## Ottimizzazione predittiva del tempo di invio{#predictive-send-time}
+## Ottimizzazione del tempo di invio predittivo{#predictive-send-time}
 
 ### Ottimizzazione di clic e aperture{#about-predictive-send-time}
 
@@ -113,7 +112,7 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 
 
-## Punteggio predittivo di coinvolgimento {#predictive-scoring}
+## Valutazione del coinvolgimento predittivo {#predictive-scoring}
 
 Il punteggio predittivo di coinvolgimento consente di:
 
@@ -153,26 +152,3 @@ Utilizzando un’attività di query in un flusso di lavoro, puoi utilizzare i pu
 Ad esempio, con i criteri del **livello di mantenimento**:
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
