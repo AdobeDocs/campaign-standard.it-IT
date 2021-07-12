@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Recapito messaggi
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 10%
 
 ---
 
-
-# Monitoraggio della consegna messaggi{#monitor-deliverability}
+# Monitoraggio del recapito messaggi{#monitor-deliverability}
 
 Di seguito sono riportati i dettagli del rapporto **[!UICONTROL Delivery throughput]** e i diversi strumenti di monitoraggio offerti da Adobe Campaign. Di seguito sono riportate alcune linee guida aggiuntive sul monitoraggio delle consegne:
 * Controlla regolarmente il throughput di consegna per l’intera piattaforma per verificare se è coerente con la configurazione originale.
