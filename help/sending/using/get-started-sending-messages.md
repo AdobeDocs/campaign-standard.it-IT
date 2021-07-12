@@ -1,23 +1,22 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Guida introduttiva alla verifica e all’invio
+title: Introduzione alla verifica e all’invio
 description: Prepara, testa, pianifica, invia e monitora i messaggi.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 14%
+source-wordcount: '595'
+ht-degree: 15%
 
 ---
 
-
-# Guida introduttiva alla verifica e all’invio {#about-sending-messages-with-campaign}
+# Introduzione alla verifica e all’invio {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
@@ -69,7 +68,7 @@ Leggi tutto:
 
 * [Conferma dell’invio](../../sending/using/confirming-the-send.md)
 * [Tracciamento dei messaggi](../../sending/using/tracking-messages.md)
-* [Archiviazione di e-mail con indirizzi Ccn](../../sending/using/archiving.md)
+* [Archiviazione di e-mail con indirizzi in Ccn](../../sending/using/archiving.md)
 * [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md)
 * [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
@@ -85,15 +84,15 @@ Campaign Standard fornisce diversi **strumenti di recapito** per aiutarti a migl
 Leggi tutto:
 
 * [Informazioni sul recapito messaggi](../../sending/using/about-deliverability.md)
-* [Monitoraggio della consegna messaggi](../../sending/using/monitor-deliverability.md)
-* [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Monitoraggio del recapito messaggi](../../sending/using/monitor-deliverability.md)
+* [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it)
 * [Controllo della velocità effettiva di consegna](../../reporting/using/delivery-throughput.md)
 
 ## Risorse aggiuntive
 
 * [Progettazione di e-mail per test A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Guida introduttiva alle e-mail](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
-* [Best practice di consegna](../../sending/using/delivery-best-practices.md)
+* [Best practice per la consegna](../../sending/using/delivery-best-practices.md)
 * [Aggiunta di un gruppo di controllo](../../sending/using/control-group.md)
 
 ## Video tutorial {#video}
