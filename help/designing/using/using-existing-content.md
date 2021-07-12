@@ -6,14 +6,14 @@ description: Scopri come progettare e-mail utilizzando il contenuto esistente di
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Progettazione e-mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 5%
+source-wordcount: '1214'
+ht-degree: 6%
 
 ---
 
