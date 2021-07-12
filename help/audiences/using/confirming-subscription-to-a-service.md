@@ -6,17 +6,16 @@ description: Segui questi passaggi per impostare un messaggio di conferma per i 
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Tipi di pubblico
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1322'
 ht-degree: 96%
 
 ---
-
 
 # Conferma dell’abbonamento a un servizio{#confirming-subscription-to-a-service}
 
@@ -42,7 +41,7 @@ Devi configurare un’e-mail transazionale e fare riferimento a quel messaggio d
 
 Al momento di configurarlo dal servizio, il messaggio transazionale di conferma viene inviato solo la prima volta che il visitatore si abbona al relativo servizio. Se un profilo risulta già abbonato, non viene più inviato alcun messaggio di conferma a quel profilo.
 
-### Passaggio 1: creare il messaggio e-mail di conferma {#step-1--create-the-confirmation-email-1}
+### Passaggio 1: creare l’e-mail di conferma {#step-1--create-the-confirmation-email-1}
 
 Un messaggio e-mail di conferma viene inviato automaticamente a ogni profilo che si abbona alla newsletter (tramite una pagina di destinazione o in altri modi). L’abbonamento viene considerato un evento e l’e-mail è un [messaggio transazionale](../../channels/using/getting-started-with-transactional-msg.md) destinato a ogni profilo che si abbona al servizio.
 
@@ -131,7 +130,7 @@ Puoi anche fare riferimento al messaggio di conferma da una pagina di destinazio
 
 Quando si fa riferimento al messaggio di conferma dalla pagina di destinazione, a ogni invio della pagina di destinazione viene inviato un messaggio (anche se il profilo risulta già abbonato).
 
-### Passaggio 1: creare il messaggio e-mail di conferma {#step-1--create-the-confirmation-email-2}
+### Passaggio 1: creare l’e-mail di conferma {#step-1--create-the-confirmation-email-2}
 
 Un messaggio e-mail di conferma viene inviato automaticamente a ogni profilo che si abbona alla newsletter tramite una pagina di destinazione. L’abbonamento viene considerato un evento e l’e-mail è un [messaggio transazionale](../../channels/using/getting-started-with-transactional-msg.md) destinato a ciascun profilo che si abbona al servizio.
 
