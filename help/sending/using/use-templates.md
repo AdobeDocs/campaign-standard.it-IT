@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"I modelli di consegna consentono una maggiore efficienza fornendo scenari pronti per la maggior parte dei tipi di attività comuni."'
-feature: Deliverability
-role: Business Practitioner
+feature: Recapito messaggi
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '816'
 ht-degree: 10%
 
 ---
-
 
 # Utilizzare i modelli {#use-templates}
 
