@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Monitoraggio delle prestazioni
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '944'
 ht-degree: 17%
 
 ---
-
 
 # Conferma dell’invio{#confirming-the-send}
 
@@ -79,7 +78,7 @@ Una volta inviato un messaggio, puoi tenere traccia del comportamento dei destin
 * [Tracciamento dei messaggi](../../sending/using/tracking-messages.md)
 * [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md)
 
-### Generazione di rapporti di successo {#delivered-status-report}
+### Generazione rapporti di successo {#delivered-status-report}
 
 >[!NOTE]
 >
@@ -99,7 +98,7 @@ Quando i messaggi di rimbalzo soft vengono segnalati dall’MTA avanzato, vengon
 
 Pertanto, è necessario attendere fino alla fine del periodo di validità per visualizzare la percentuale finale **[!UICONTROL Delivered]** e il numero finale dei messaggi **[!UICONTROL Sent]** e **[!UICONTROL Failed]**.
 
-### Servizio feedback e-mail (beta) {#email-feedback-service}
+### Servizio di feedback e-mail (versione beta) {#email-feedback-service}
 
 Grazie alla funzionalità EFS (Email Feedback Service), lo stato di ogni e-mail viene riportato con precisione, in quanto il feedback viene acquisito direttamente dall’MTA avanzato (Message Transfer Agent).
 
@@ -133,7 +132,7 @@ Quando i messaggi di rimbalzo soft vengono segnalati dall’MTA avanzato, lo sta
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 
-### Modifiche introdotte da EFS {#changes-introduced-by-efs}
+### Modifiche introdotte dall&#39;EFS {#changes-introduced-by-efs}
 
 Le tabelle riportate di seguito mostrano le modifiche apportate ai KPI e agli stati dei registri di invio introdotte dalla funzionalità EFS.
 
