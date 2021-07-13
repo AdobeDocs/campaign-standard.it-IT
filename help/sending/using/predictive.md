@@ -10,10 +10,10 @@ feature: Ottimizzazione dei tempi di invio
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -33,8 +33,7 @@ Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percor
 
 >[!IMPORTANT]
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. La sua implementazione richiede l’intervento della Consulenza Adobe. Per maggiori informazioni, contatta un rappresentante Adobe di fiducia.
->
->La funzione richiede l’utilizzo di un archivio Azure o Amazon S3 che deve essere fornito dal cliente.
+
 
 ## Ottimizzazione del tempo di invio predittivo{#predictive-send-time}
 
