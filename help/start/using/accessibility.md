@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -75,13 +75,13 @@ Durante la progettazione di un’e-mail, è possibile accedere a un tooltip con 
 
 ![](assets/accessibility_7.png)
 
-## Supporto per la tecnologia assistiva {#screen-magnifiers}
+## Supporto per la tecnologia di accesso facilitato {#screen-magnifiers}
 
-Facciamo il possibile per rendere l’applicazione Adobe Campaign Standard sempre più utilizzabile da varie tecnologie assistive, tra cui tastiere modificate, software di ingrandimento dello schermo, utilità per la lettura dello schermo, software di riconoscimento vocale e altri dispositivi di assistenza.
+Facciamo il possibile per rendere l’applicazione Adobe Campaign Standard sempre più utilizzabile con varie tecnologie di accesso facilitato, tra cui tastiere modificate, software di ingrandimento dello schermo, utilità per la lettura dello schermo, software di riconoscimento vocale e altri dispositivi di assistenza.
 
 ## Utilizzare la lingua desiderata {#languages}
 
- Adobe Campaign Standard è disponibile in diverse lingue: inglese, francese e tedesco.
+Adobe Campaign Standard è disponibile in diverse lingue: inglese, francese e tedesco.
 
 Nota che la lingua viene impostata durante l’installazione e non può essere modificata successivamente.
 
@@ -122,7 +122,7 @@ Nota che la lingua viene impostata durante l’installazione e non può essere m
 | Maiusc+Alt+S | Invia rapporto secondo programma |
 | Maiusc= Alt+L | Rapporti programmati |
 
-## Letture ulteriori {#further-reading}
+## Letture di approfondimento {#further-reading}
 
  Adobe Campaign Standard si impegna a fornire un livello di accessibilità sempre maggiore, rendendo il prodotto più facile da utilizzare per tutti gli utenti.
 
