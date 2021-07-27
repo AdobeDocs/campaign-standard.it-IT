@@ -6,17 +6,16 @@ description: Il rapporto dinamico ti consente di aggiungere un pannello per filt
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Generazione rapporti
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '346'
 ht-degree: 1%
 
 ---
-
 
 # Aggiunta di pannelli{#adding-panels}
 
@@ -42,25 +41,25 @@ Le tabelle a forma libera consentono di creare una tabella per analizzare i dati
 
 Ogni tabella e visualizzazione può essere ridimensionata e spostata per personalizzare meglio il rapporto.
 
-1. Fare clic sull&#39;icona **Panels**.
+1. Fai clic sull&#39;icona **[!UICONTROL Panels]** .
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Trascina e rilascia l’elemento **Freeform** nel dashboard.
+1. Trascina e rilascia l’elemento **[!UICONTROL Freeform]** nel dashboard.
 
-   Per aggiungere una tabella, fai clic sulla scheda **Inserisci** e seleziona **Nuova forma libera** oppure fai clic su **Aggiungi una tabella a forma libera** in un pannello vuoto.
+   Per aggiungere una tabella, fai clic sulla scheda **[!UICONTROL Insert]** e seleziona **[!UICONTROL New Freeform]** oppure fai clic su **[!UICONTROL Add a freeform table]** in un pannello vuoto.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Il segmento **[!UICONTROL Exclude proof]** è già selezionato per impostazione predefinita. Se necessario, puoi modificarlo trascinando una delle **[!UICONTROL Segments]** dalla scheda **[!UICONTROL Components]** nella barra superiore.
+1. Nel campo **[!UICONTROL Drop a segment here]** , aggiungi un **[!UICONTROL Segment]** dalla scheda **[!UICONTROL Components]** nella barra superiore.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Trascina gli elementi dalla scheda **Componenti** nelle colonne e nelle righe per creare la tabella.
+1. Trascina gli elementi dalla scheda **[!UICONTROL Components]** nelle colonne e nelle righe per creare la tabella.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Fai clic sull&#39;icona **Impostazioni** per modificare la modalità di visualizzazione dei dati nelle colonne.
+1. Fai clic sull’icona **[!UICONTROL Settings]** per modificare la modalità di visualizzazione dei dati nelle colonne.
 
    ![](assets/dynamic_report_freeform_4.png)
 
@@ -72,7 +71,7 @@ Ogni tabella e visualizzazione può essere ridimensionata e spostata per persona
    * **[!UICONTROL Background]**: consente di mostrare o nascondere la barra di avanzamento orizzontale nelle celle.
    * **[!UICONTROL Include retries]**: consente di includere i nuovi tentativi nel risultato. Questa funzione è disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Seleziona una o più righe e fai clic sull&#39;icona **Visualizza** . Viene aggiunta una visualizzazione per riflettere le righe selezionate.
+1. Seleziona una o più righe e fai clic sull&#39;icona **[!UICONTROL Visualize]** . Viene aggiunta una visualizzazione per riflettere le righe selezionate.
 
    ![](assets/dynamic_report_freeform_5.png)
 
