@@ -10,9 +10,9 @@ feature: Generazione rapporti
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ I componenti consentono di personalizzare i rapporti con dimensioni, metriche e 
 
    * **Dimension**: Ottieni i dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario, o il successo di una consegna.
    * **Metriche**: Visualizza i dettagli sullo stato di un messaggio. Ad esempio, se un messaggio è stato recapitato e l’utente lo ha aperto.
-   * **[!UICONTROL Segments]**: Filtra i dati in base all’intervallo di età del destinatario. **[!UICONTROL Segments]** possono essere trascinati e rilasciati direttamente in una tabella a forma libera o nella barra superiore del pannello. Per impostazione predefinita, il segmento **[!UICONTROL Exclude proof]** è già selezionato ma può essere modificato se necessario.
+   * **[!UICONTROL Segments]**: Filtra i dati in base all’intervallo di età del destinatario. **[!UICONTROL Segments]** possono essere trascinati e rilasciati direttamente in una tabella a forma libera o nella barra superiore del pannello.
 
       Questa categoria è disponibile solo dopo che l’amministratore ha approvato i termini e le condizioni del Contratto per l’utilizzo di Reporting dinamico che verrà visualizzato sullo schermo. Se l’amministratore rifiuta il contratto, i segmenti non saranno visibili nella scheda **[!UICONTROL Components]** e i dati non verranno raccolti.
 
