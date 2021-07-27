@@ -6,17 +6,16 @@ description: Trova qui l’elenco di tutti i componenti disponibili in     Rappo
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Generazione rapporti
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 1%
+source-wordcount: '1272'
+ht-degree: 2%
 
 ---
-
 
 # Elenco dei componenti {#list-of-components}
 
@@ -41,7 +40,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
    <td> Browser da cui è stato aperto o su cui è stato fatto clic il messaggio.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campagna<br /> </td> 
+   <td> Campaign<br /> </td> 
    <td> Etichetta e ID della campagna.<br /> </td> 
   </tr> 
   <tr> 
@@ -384,10 +383,6 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 
 ## Segmenti {#segments}
 
->[!NOTE]
->
->Per impostazione predefinita, il segmento **[!UICONTROL Exclude proof]** è già selezionato per filtrare i rapporti, ma può essere modificato se necessario.
-
 La tabella seguente fornisce l’elenco dei segmenti utilizzati nei rapporti e le relative definizioni.
 
 <table> 
@@ -461,11 +456,6 @@ La tabella seguente fornisce l’elenco dei segmenti utilizzati nei rapporti e l
   <tr> 
    <td> Tutte le visite<br /> </td> 
    <td> Ogni destinatario<br /> </td> 
-  </tr> 
-    <tr> 
-   <td> Escludi bozza<br /> </td> 
-   <td> Escludere le bozze dai rapporti<br /> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
-
