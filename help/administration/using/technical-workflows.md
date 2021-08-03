@@ -10,10 +10,10 @@ feature: Impostazioni delle istanze
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 95%
+source-wordcount: '719'
+ht-degree: 93%
 
 ---
 
@@ -107,7 +107,12 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
    <td> <span class="uicontrol">Recupera registri di tracciamento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> Questo flusso di lavoro ripristina i registri di tracciamento persi. Tieni presente che questo flusso di lavoro tecnico viene utilizzato in contesti specifici e limitato solo all’uso interno di Adobe. <br> Per impostazione predefinita viene avviato ogni 10 minuti.<br /> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Update delivery execution</span> <br/> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
+   <td> Questo flusso di lavoro copia i registri di trasmissione e di tracciamento nel database locale. Per impostazione predefinita viene avviato ogni 10 minuti.<br/> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Update delivery indicators</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
