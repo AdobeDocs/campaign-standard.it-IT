@@ -1,7 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Utilizzo di triggers in Campaign
+title: Utilizzo degli Attivatori in Campaign
+description: Crea un evento trigger in Adobe Campaign basato su un trigger esistente di Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,14 +10,14 @@ feature: Trigger
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 82%
+source-wordcount: '765'
+ht-degree: 80%
 
 ---
 
-# Utilizzo di triggers in Campaign{#using-triggers-in-campaign}
+# Utilizzo degli Attivatori in Campaign{#using-triggers-in-campaign}
 
 ## Creazione di un trigger mappato in Campaign {#creating-a-mapped-trigger-in-campaign}
 
