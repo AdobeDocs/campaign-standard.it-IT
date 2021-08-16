@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Conservazione dei dati
+description: Le tabelle di registro standard in Campaign hanno periodi di conservazione predefiniti, in genere ne limitano l’archiviazione a 6 mesi o meno. Informazioni sui valori di conservazione predefiniti per le tabelle standard.
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -9,10 +10,10 @@ feature: Impostazioni delle istanze
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 63%
+source-wordcount: '162'
+ht-degree: 52%
 
 ---
 
