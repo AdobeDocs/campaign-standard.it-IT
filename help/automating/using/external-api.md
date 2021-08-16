@@ -2,23 +2,23 @@
 solution: Campaign Standard
 product: campaign
 title: External API
+description: L’attività External API porta dati nel flusso di lavoro Campaign Standard da un sistema esterno tramite una chiamata HTTP API.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-feature: Workflows
+feature: Flussi di lavoro
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '2184'
-ht-degree: 95%
+source-wordcount: '2201'
+ht-degree: 94%
 
 ---
 
-
-# External API {#external-api}
+# Attività External API {#external-api}
 
 ## Descrizione {#description}
 
