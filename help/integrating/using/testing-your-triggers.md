@@ -2,20 +2,20 @@
 solution: Campaign Standard
 product: campaign
 title: Verifica degli attivatori
+description: Scopri i suggerimenti per la risoluzione dei problemi più comuni che potresti incontrare durante l’utilizzo di Triggers con Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: Trigger
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '464'
 ht-degree: 2%
 
 ---
-
 
 # Verifica degli attivatori{#testing-your-triggers}
 
@@ -84,4 +84,3 @@ Se il messaggio non è valido, controlla i seguenti elementi:
 
 * Per attivare i campi di personalizzazione dell’arricchimento contrassegnati come non validi, convalida il modello transazionale dalle raccolte eventCusResource associate.
 * Convalida il formato del messaggio
-
