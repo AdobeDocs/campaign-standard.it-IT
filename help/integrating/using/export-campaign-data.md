@@ -1,23 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Esportare dati da Campaign a Adobe Experience Platform
+title: Esportare dati da Campaign ad Adobe Experience Platform
 description: Scopri come esportare dati da Campaign Standard a Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Origini e destinazioni
 role: Data Architect
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-translation-type: tm+mt
-source-git-commit: 4855585539653a0bb496d210b001765b5b557570
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '526'
 ht-degree: 4%
 
 ---
 
-# Esportare dati da Campaign a Adobe Experience Platform {#sources}
+# Esportare dati da Campaign ad Adobe Experience Platform {#sources}
 
 Per esportare i dati di Campaign Standard in Adobe Real-time Customer Data Platform (RTCDP), devi innanzitutto creare un flusso di lavoro in Campaign Standard per esportare nel servizio di archiviazione Amazon (S3) o nel percorso di archiviazione BLOB di Azure i dati che desideri condividere.
 
@@ -50,7 +48,7 @@ Esempi di flussi di lavoro di gestione dei dati sono disponibili nella sezione [
 Argomenti correlati:
 
 * [Attività di gestione dati](../../automating/using/about-data-management-activities.md)
-* [Informazioni sull’importazione e sull’esportazione di dati](../../automating/using/about-data-import-and-export.md)
+* [Informazioni sull’importazione e l’esportazione di dati](../../automating/using/about-data-import-and-export.md)
 
 
 ## Collegare la posizione di archiviazione come origine
