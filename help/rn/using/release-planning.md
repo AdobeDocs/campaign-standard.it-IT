@@ -10,10 +10,10 @@ feature: Panoramica
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 0137067de4528a5138a5fdc233fefe99b006eed3
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,11 @@ Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di
 
 Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
 
-## Versione 21.3 - Giugno 2021 {#release-21-3-release}
+## Versione 21.3 - settembre 2021 {#release-21-3-release}
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](../../rn/using/release-notes.md).
+Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione in anteprima](../../rn/using/e-release-notes.md).
 
 <table>
  <thead>
@@ -54,8 +54,6 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
 
 Per ulteriori domande, contatta l’[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
 
-Per ottenere informazioni sulle prossime versioni direttamente nella tua casella in entrata, abbonati alle [notifiche di rilascio di Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU).
-
 ## Domande e risposte {#questions-and-answers}
 
 **D: Che impatto hanno gli aggiornamenti?**
@@ -64,7 +62,7 @@ R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release
 
 **D: Qual è il processo di convalida?**
 
-R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **D: Sarà possibile accedere all’istanza durante il processo di aggiornamento?**
 
@@ -86,4 +84,4 @@ R: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l’aggiorn
 
 R: Quando accedi a Campaign, viene visualizzato un pop-up di notifica della versione, con la versione più recente.
 
-Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
