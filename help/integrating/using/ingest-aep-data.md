@@ -5,17 +5,15 @@ title: Inserire il pubblico di Adobe Experience Platform in Campaign
 description: Scopri come inserire i tipi di pubblico di Adobe Experience Platform in Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 894d691f1df3a613bacc74e149e5fdf7f4531d92
+exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 3%
+source-wordcount: '326'
+ht-degree: 7%
 
 ---
-
 
 # Inserire il pubblico di Adobe Experience Platform in Campaign {#destinations}
 
@@ -52,4 +50,4 @@ Esempi di flussi di lavoro di gestione dei dati sono disponibili nella sezione [
 Argomenti correlati:
 
 * [Attività di gestione dati](../../automating/using/about-data-management-activities.md)
-* [Informazioni sull’importazione e sull’esportazione di dati](../../automating/using/about-data-import-and-export.md)
+* [Informazioni sull’importazione e l’esportazione di dati](../../automating/using/about-data-import-and-export.md)
