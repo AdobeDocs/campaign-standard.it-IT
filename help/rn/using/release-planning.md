@@ -6,14 +6,14 @@ description: In questa pagina sono elencate le prossime versioni di Adobe Campai
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Panoramica
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '426'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare que
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione in anteprima](../../rn/using/early-release-notes.md).
+Informazioni dettagliate su questa versione sono disponibili nelle [Note preliminari sulla versione](../../rn/using/early-release-notes.md).
 
 <table>
  <thead>
