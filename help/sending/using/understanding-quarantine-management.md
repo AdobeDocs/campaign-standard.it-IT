@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 30%
@@ -41,7 +41,7 @@ La quarantena e il elenco Bloccati non si applicano allo stesso oggetto:
 
 * **** La quarantena si applica solo a un  **indirizzo**  (o numero di telefono, ecc.), non al profilo stesso. Ad esempio, un profilo con indirizzo e-mail messo in quarantena potrebbe aggiornare il profilo e immettere un nuovo indirizzo e potrebbe quindi essere nuovamente oggetto di targeting mediante azioni di consegna. Allo stesso modo, se due profili hanno lo stesso numero di telefono, saranno entrambi interessati se il numero viene messo in quarantena.
 
-   Gli indirizzi o i numeri di telefono messi in quarantena vengono visualizzati nei [registri di esclusione](identifying-quarantined-addresses-for-a-delivery) (per una consegna) o nell’ [elenco di quarantena](#identifying-quarantined-addresses-for-the-entire-platform) (per l’intera piattaforma).
+   Gli indirizzi o i numeri di telefono messi in quarantena vengono visualizzati nei [registri di esclusione](#identifying-quarantined-addresses-for-a-delivery) (per una consegna) o nell’ [elenco di quarantena](#identifying-quarantined-addresses-for-the-entire-platform) (per l’intera piattaforma).
 
 * Essendo sul **elenco Bloccati**, d&#39;altro canto, il **profilo** non sarà più oggetto di targeting per la consegna, ad esempio dopo un annullamento dell&#39;abbonamento (opt-out), per un dato canale. Ad esempio, se un profilo nel elenco Bloccati del canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi dalla consegna. Per ulteriori informazioni sul processo di elenco Bloccati, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
