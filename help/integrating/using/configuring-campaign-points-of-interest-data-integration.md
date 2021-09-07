@@ -1,29 +1,29 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configurazione dell’integrazione dei dati Campaign-Punti di interesse
+title: Configurazione dell’integrazione di Campaign con i dati Punti di interesse
 description: Scopri come configurare la funzione dei dati dei punti di interesse in Adobe Campaign per l’invio di messaggi personalizzati in base alla posizione degli abbonati.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Tipi di pubblico
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 3%
+source-wordcount: '1330'
+ht-degree: 2%
 
 ---
 
-# Configurazione dell’integrazione dei dati Campaign-Punti di interesse{#configuring-campaign-points-of-interest-data-integration}
+# Configurazione dell’integrazione di Campaign con i dati Punti di interesse{#configuring-campaign-points-of-interest-data-integration}
 
 ## Configurazione dell’integrazione dei dati Campaign-Punti di interesse con gli SDK Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
->L’app mobile deve già essere configurata in Adobe Campaign Standard utilizzando Adobe Experience Platform SDK. Per i passaggi dettagliati, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
+>L’app mobile deve già essere configurata in Adobe Campaign Standard utilizzando Adobe Experience Platform SDK. Per i passaggi dettagliati, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it).
 
 Le applicazioni mobili utilizzate per raccogliere i dati sulla posizione devono essere configurate da un **amministratore** nell&#39;interfaccia di Adobe Campaign.
 
@@ -62,7 +62,7 @@ Per utilizzare la funzione dati del punto di interesse con le applicazioni mobil
 
 Per raccogliere i dati dei punti di interesse con Adobe Campaign, devi configurare l’app mobile da cui Adobe Campaign riceverà i dati.
 
-1. Fai clic sul logo **[!UICONTROL Adobe Campaign]** nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
+1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Fare clic su **[!UICONTROL Create]** per impostare un&#39;applicazione.
 1. Immetti un nome nel campo **[!UICONTROL Application name]** e fai clic su **[!UICONTROL Create]**.
 
@@ -166,7 +166,7 @@ Devi avere accesso ad Adobe Analytics per eseguire la configurazione seguente. S
 >
 >Per informazioni dettagliate sulla configurazione dei postback, consulta la [documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
-### Integrazione dell&#39;SDK in un&#39;applicazione mobile {#integrating-the-sdk-into-a-mobile-application}
+### Integrazione dell’SDK in un’app mobile {#integrating-the-sdk-into-a-mobile-application}
 
 Il kit di sviluppo software (SDK) del servizio core Mobile facilita l’integrazione di un’app mobile in Adobe Campaign.
 
@@ -196,7 +196,7 @@ Questo passaggio è descritto nella pagina [Configurazione di un’app mobile tr
 
 Per accedere alle applicazioni create correttamente in Adobe Campaign:
 
-1. Fai clic sul logo **[!UICONTROL Adobe Campaign]** nell’angolo in alto a sinistra.
+1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra.
 1. Seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]** o **[!UICONTROL Mobile app (AEP SDK)]** a seconda dell’SDK.
 1. Seleziona un’app mobile dall’elenco per visualizzarne le proprietà.
 

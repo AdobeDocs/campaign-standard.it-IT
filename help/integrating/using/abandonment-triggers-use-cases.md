@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 99%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
-
 
 # Casi di utilizzo degli attivatori di abbandono{#abandonment-triggers-use-cases}
 
@@ -67,7 +66,7 @@ Ora che abbiamo creato un trigger Experience Cloud, lo utilizziamo all’interno
 
 In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in Experience Cloud.
 
-1. Per creare il trigger all’interno di Adobe Campaign, fai clic sul logo **[!UICONTROL Adobe Campaign]**, nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Per creare il trigger in Adobe Campaign, fai clic sul logo **Adobe** nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -164,4 +163,3 @@ La sezione **[!UICONTROL Include Meta Data]** ti consente di trasmettere al payl
 1. Pochi minuti dopo, lo stesso visitatore/destinatario riceve un messaggio di remarketing. Il messaggio include la destinazione ricercata di recente.
 
    ![](assets/trigger_uc_search_7.png)
-

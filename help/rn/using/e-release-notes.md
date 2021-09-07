@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Ultima versione
-description: Questa pagina presenta dettagli sul contenuto dell’ultima versione Campaign Standard
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: Note preliminari sulla versione
+description: Note preliminari sulla versione
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
+# Note preliminari sulla versione {#new-release}
 
-# Ultima versione{#latest-release}
+Questa pagina descrive nuove funzioni, miglioramenti e correzioni inclusi nella prossima versione di Campaign Standard.
+
+>[!CAUTION]
+>
+> Questo contenuto è soggetto a modifiche senza preavviso fino alla data di aggiornamento degli ambienti di stage. Ulteriori informazioni sono disponibili nella [pagina di pianificazione del rilascio](../../rn/using/release-planning.md).
 
 ## Versione 21.3 - Settembre 2021 {#release-21-3---sept-2021}
-
-Di seguito sono elencate nuove funzioni, miglioramenti e correzioni inclusi nell’ultima versione di Campaign Standard.
 
 **Novità**
 
@@ -98,7 +100,7 @@ Di seguito sono elencate nuove funzioni, miglioramenti e correzioni inclusi nell
 
 * Durante la creazione di una consegna ricorrente in un flusso di lavoro, collegata a un contenuto Adobe Experience Manager, ora lo stato di approvazione del contenuto viene controllato prima dell’invio.
 * Il limite di connessione al database è ora allineato con il pacchetto Campaign per evitare errori di connessione.
-* Una nuova verifica di coerenza nella pubblicazione delle risorse personalizzate impedisce agli utenti di creare indici duplicati, causando errori di pubblicazione. Un messaggio di errore migliorato richiede all’utente di rinominare l’indice se necessario.
+* È stato aggiunto un controllo di coerenza durante la creazione di indici nelle risorse personalizzate e sono stati migliorati i messaggi di errore.
 
 **Altre modifiche**
 

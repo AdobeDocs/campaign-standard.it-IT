@@ -6,13 +6,13 @@ description: Scopri come personalizzare un’e-mail in E-mail Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Progettazione e-mail
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 Il contenuto e la visualizzazione dei messaggi inviati da Adobe Campaign possono essere personalizzati in diversi modi. Questi modi possono essere combinati in base a criteri a seconda dei profili. In generale, Adobe Campaign ti consente di:
 
 * Inserire campi di personalizzazione dinamici. Consulta [Inserimento di un campo di personalizzazione](#inserting-a-personalization-field).
-* Inserire blocchi di personalizzazione predefiniti Consulta [Aggiunta di un blocco di contenuto](#adding-a-content-block).
+* Inserire blocchi di personalizzazione predefiniti. Consulta [Aggiunta di un blocco di contenuto](#adding-a-content-block).
 * Personalizza il mittente di un’e-mail. Consulta [Personalizzazione del mittente](#personalizing-the-sender).
 * Personalizza l’oggetto di un’e-mail. Consulta [Personalizzazione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md#subject-line).
 * Creare contenuto condizionale. Consulta [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email).
@@ -53,7 +53,9 @@ Adobe Campaign ti consente di personalizzare uno o più URL nel messaggio aggiun
 
 >[!NOTE]
 >
->La personalizzazione degli URL non può essere applicata né al nome di dominio né all’estensione URL. Se la personalizzazione non è corretta, viene visualizzato un messaggio di errore durante l’analisi dei messaggi. Quando selezioni un blocco di contenuto, non puoi selezionare elementi come **Collega a pagina speculare**. Questo tipo di blocchi è vietato all’interno di un collegamento.
+>Quando il meccanismo di firma URL per i collegamenti di tracciamento è disattivato, la personalizzazione degli URL non può essere applicata né al nome di dominio né all’estensione URL. Se la personalizzazione non è corretta, durante l’analisi dei messaggi viene visualizzato un messaggio di errore.
+>
+>Quando selezioni un blocco di contenuto, non puoi selezionare elementi come **Collega a pagina speculare**. Questo tipo di blocchi è vietato all’interno di un collegamento.
 
 ## Inserimento di un campo di personalizzazione{#inserting-a-personalization-field}
 

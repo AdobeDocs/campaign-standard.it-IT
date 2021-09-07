@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Impostazioni delle istanze
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2597'
 ht-degree: 76%
 
 ---
@@ -332,7 +332,7 @@ Le regole **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UI
 
 ### Qualificazione di mail non recapitate {#legacy-bounce-mail-qualification}
 
-Per elencare i vari rimbalzi e i relativi tipi di errore e motivi, fai clic sul logo **[!UICONTROL Adobe Campaign]** in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Per elencare i vari rimbalzi e i relativi tipi di errore e motivi, fai clic sul logo **Adobe** in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 I rimbalzi possono avere i seguenti stati di qualifica:
 

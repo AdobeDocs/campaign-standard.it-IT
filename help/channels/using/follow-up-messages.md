@@ -6,14 +6,14 @@ description: Scopri come creare, gestire e inviare un messaggio di follow-up.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Messaggistica transazionale
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 3%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ Per gestire un evento in un flusso di lavoro, è necessario un modello di conseg
 
 Per accedere a questo modello:
 
-1. Fai clic sul logo **[!UICONTROL Adobe Campaign]** nell’angolo in alto a sinistra.
+1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra.
 1. Seleziona **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Seleziona la casella **[!UICONTROL Follow-up messages]** nel riquadro a sinistra.
 

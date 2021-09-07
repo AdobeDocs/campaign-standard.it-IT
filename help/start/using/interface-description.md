@@ -6,14 +6,14 @@ description: '"Scopri come navigare e utilizzare l’area di lavoro di Adobe Cam
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Panoramica
+feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 92%
+source-wordcount: '1258'
+ht-degree: 79%
 
 ---
 
@@ -53,7 +53,7 @@ La barra superiore è visibile su ogni schermata e ti consente di navigare tra l
 
 I principi di navigazione sono i seguenti:
 
-* Il logo **[!UICONTROL Adobe Campaign]** nell’angolo in alto a sinistra della pagina ti consente di accedere alle funzioni e alle configurazioni avanzate. I menu dipendono dal profilo e dalle autorizzazioni.
+* Il logo **Adobe** nell’angolo in alto a sinistra della pagina ti consente di accedere alle funzionalità e alle configurazioni avanzate. I menu dipendono dal profilo e dalle autorizzazioni.
 
    Il menu avanzato è presentato nella sezione [Menu avanzato](#advanced-menu).
 
@@ -66,23 +66,21 @@ I principi di navigazione sono i seguenti:
 
 ### Elemento “help” {#help}
 
-La barra superiore è visibile su ogni schermata e consente di navigare tra le funzionalità di Adobe Campaign, nonché di accedere al profilo Adobe connesso, alle notifiche, ad altri servizi e soluzioni Adobe Experience Cloud e alla documentazione.
+Nell’angolo in alto a destra, l’icona **Aiuto** porta Adobe Experience League nel prodotto.
 
-I principi di navigazione sono i seguenti:
+![](assets/ux_help.png)
 
-* Il logo **[!UICONTROL Adobe Campaign]** nell’angolo in alto a sinistra della pagina ti consente di accedere alle funzioni e alle configurazioni avanzate. I menu dipendono dal profilo e dalle autorizzazioni.
+Usa il campo **[!UICONTROL Search]** per trovare indicazioni. I risultati della ricerca includono la documentazione e gli articoli di aiuto, i risultati dei forum e dei contenuti video della community, per consentirti di accedere più facilmente a più contenuti per trarre il massimo dall’applicazione.
 
-   Il menu avanzato è presentato nella sezione [Menu avanzato](#advanced-menu).
+Tre schede consentono di trovare aiuto e assistenza:
 
-* Il collegamento **[!UICONTROL Home]** ti consente di visualizzare la pagina Home di Adobe Campaign.
-* I collegamenti **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** e **[!UICONTROL Reports]** ti consentono di accedere alle viste collegate a tali funzionalità.
-* Il pulsante **[!UICONTROL Help]** ti permette di accedere alla documentazione del prodotto e all’aiuto contestuale, alle note sulla versione, ai numeri di versione, alle note legali, nonché ai collegamenti alla community di Adobe Experience Cloud e all’assistenza cliente.
-
-   ![](assets/ux_help.png)
-
-* L’icona **Seleziona soluzione** ti consente di passare a un’altra soluzione Adobe Experience Cloud, oltre che alle impostazioni del profilo.
-* L’icona **Notifications** visualizza gli avvisi o le informazioni più recenti.
-* L’icona **User** ti consente di visualizzare le informazioni collegate al profilo. Ti permette di accedere al pulsante **[!UICONTROL Sign out]**.
+1. La scheda **[!UICONTROL Help]** contiene:
+   * accesso rapido alla documentazione di Adobe Campaign Standard con collegamenti contestuali.
+   * un collegamento **[!UICONTROL Learning]** che consente di accedere alla libreria dei corsi di Adobe Campaign.
+   * un collegamento **[!UICONTROL Community]** per accedere al forum dedicato alle tue domande su Campaign.
+   * un accesso diretto a: Centro assistenza, Assistenza clienti, stato del prodotto di Experience Cloud, Connessione sviluppatori, Note sulla versione, Pianificazione del rilascio e la schermata **[!UICONTROL About]**.
+1. La scheda **[!UICONTROL Support]** ti consente di aprire un caso di assistenza e di contattarci telefonicamente o Twitter.
+1. La scheda **[!UICONTROL Feedback]** semplifica la segnalazione dei problemi o la condivisione delle idee.
 
 ## Menu avanzato {#advanced-menu}
 

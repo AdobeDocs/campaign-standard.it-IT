@@ -6,13 +6,13 @@ description: La rinuncia comporta la mancata destinazione di un profilo da parte
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Tipi di pubblico
+feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 6b293db5bc8f299a3237aa83c003339f0e697c6f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 9%
 
 ---
@@ -29,6 +29,6 @@ I profili di rinuncia vengono automaticamente esclusi durante l’analisi della 
 
 >[!NOTE]
 >
->La rinuncia si applica a **Profili**, invece della quarantena collegata a un **indirizzo e-mail** o a **numero di telefono**. La rinuncia a un profilo esclude quindi dalle consegne tutti gli indirizzi ad esso collegati. Se un utente ha due profili nel database, sarà comunque oggetto di targeting per consegne, in quanto solo uno dei suoi profili è la rinuncia. Per escludere tutti i suoi indirizzi, aggiungili agli indirizzi delle quarantene. Per ulteriori informazioni, consulta [questa pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>La rinuncia si applica a **Profili**, invece della quarantena collegata a un **indirizzo e-mail** o a **numero di telefono**. La rinuncia a un profilo esclude quindi dalle consegne tutti gli indirizzi ad esso collegati. Tuttavia, se un utente ha due profili nel database, sarà comunque oggetto di targeting per le consegne in quanto viene escluso solo uno dei profili. Per escludere tutti i suoi indirizzi, aggiungili agli indirizzi messi in quarantena. Per ulteriori informazioni, consulta [questa pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 Per ulteriori informazioni sugli abbonamenti ai servizi, consulta [questa pagina](../../audiences/using/about-subscriptions.md).
