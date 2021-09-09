@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ Di seguito sono elencate nuove funzioni, miglioramenti e correzioni inclusi nell
 
 * Il servizio Connettore dati e Destinazioni pubblico di Adobe Experience Platform è ora obsoleto con Campaign Standard. Se utilizzi queste funzionalità, devi passare ad Origini e Destinazioni di Adobe e adattare la tua implementazione. [Ulteriori informazioni](../../integrating/using/get-started-sources-destinations.md)
 * Le funzioni obsolete e rimosse sono elencate in [questa pagina](deprecated-features.md).
-* È stata introdotta una nuova funzione di aggregazione “StringAgg” per concatenare i valori di una colonna di tipo stringa. (CAMP-47077)
+* È stata introdotta una nuova funzione di aggregazione “StringAgg” per concatenare i valori di una colonna di tipo stringa. (CAMP-47077) [Ulteriori informazioni](../../automating/using/list-of-functions.md#aggregates)
 * Il flusso di lavoro tecnico **Aggiorna indicatori di consegna** (updateDeliveryIndicators) è stato migliorato per migliorare le prestazioni.
 * I modelli di messaggistica in-app sono ora disponibili per tutte le lingue supportate in Campaign Standard.
 * I tempi di preparazione della consegna sono stati ottimizzati per i messaggi transazionali riducendo il numero di chiamate al server di tracciamento durante l’analisi della consegna.

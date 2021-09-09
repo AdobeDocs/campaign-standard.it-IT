@@ -6,14 +6,14 @@ description: Lo strumento di modifica delle query ti consente di utilizzare funz
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: Flussi di lavoro
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1970'
+ht-degree: 96%
 
 ---
 
@@ -222,7 +222,7 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Converte una stringa in una data + fuso orario.<br /> Esempio: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> Converte una stringa in una data + fuso orario.<br /> Esempio: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Teheran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -707,11 +707,12 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
    <td> Restituisce il valore minimo in una colonna numerica, stringa o data.<br /> </td> 
    <td> Min(&lt;valore&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>, aggregato stringa<br /> </td>
+   <td> Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento (il separatore predefinito è virgola).<br /> </td>
+   <td> StringAgg(&lt;valori stringa&gt;,&lt;separatore&gt;)
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> Restituisce la somma dei valori in una colonna numerica.<br /> </td> 
    <td> Sum(&lt;valore&gt;)<br /> </td> 
