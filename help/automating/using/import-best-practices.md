@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Best practice per l’importazione
 description: Ulteriori informazioni sulle best practice da seguire per l’importazione di dati nel database.
 audience: automating
@@ -8,14 +6,13 @@ content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '568'
 ht-degree: 2%
 
 ---
-
 
 # Best practice per l’importazione {#import-best-practices}
 

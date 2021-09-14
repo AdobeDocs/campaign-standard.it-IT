@@ -1,17 +1,15 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Problema di firma degli URL tracciati
 description: Problema di firma degli URL tracciati
 hidefromtoc: true
 hide: true
-source-git-commit: 65c81f2f9e4fc80e7b2f7c0bdc0302e90f068b1e
-workflow-type: ht
+exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
 ---
-
 
 # Problema di firma degli URL tracciati {#tracked-urls}
 
@@ -38,4 +36,3 @@ Al termine dell’aggiornamento, tutti i collegamenti torneranno a funzionare co
 >[!NOTE]
 >
 >Per qualsiasi domanda su queste modifiche, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-

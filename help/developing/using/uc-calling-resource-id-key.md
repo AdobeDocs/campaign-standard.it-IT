@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Chiamata di una risorsa tramite una chiave di identificazione composita
 description: Scopri come chiamare una risorsa utilizzando una chiave di identificazione composita
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Chiamata di una risorsa tramite una chiave di identificazione composita{#calling-a-resource-using-a-composite-identification-key}
 
@@ -33,7 +30,7 @@ Argomenti correlati:
 * [Definizione delle chiavi di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [API REST di Campaign Standard](../../api/using/get-started-apis.md)
 
-## Passaggio 1: Configura la chiave di identificazione{#step-1-configure-the-identification-key}
+## Passaggio 1: Configurare la chiave di identificazione{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > I concetti globali durante la configurazione delle chiavi di identificazione sono descritti in [questa sezione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).

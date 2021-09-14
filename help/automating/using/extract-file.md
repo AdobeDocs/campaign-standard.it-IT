@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extract file
 description: L’attività Extract file ti consente di esportare dati da Adobe Campaign sotto forma di un file esterno.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: '402'
+ht-degree: 86%
 
 ---
 
-
-# Extract file{#extract-file}
+# Attività Extract file{#extract-file}
 
 ## Descrizione {#description}
 
@@ -46,7 +43,7 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
    ![](assets/wkf_data_export1.png)
 
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
-1. Immetti l’etichetta del **file di output**. L’etichetta del file viene automaticamente completata con la data e l’ora di creazione, in modo che sia univoca. Ad esempio: destinatari_15082015_81532.txt per un file generato il 15 agosto 2015 alle 8.15.32.
+1. Immetti l’etichetta del **file di output**. L’etichetta del file viene automaticamente completata con la data e l’ora di creazione, in modo che sia univoca. Ad esempio: destinatari_20150815_081532.txt per un file generato il 15 agosto 2015 alle 08:15:32.
 
    >[!NOTE]
    >

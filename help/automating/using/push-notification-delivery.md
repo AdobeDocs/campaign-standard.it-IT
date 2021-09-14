@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Consegna notifiche push
+title: Attività Push notification delivery
 description: L’attività di consegna delle notifiche push ti consente di configurare l’invio di una notifica push singola o ricorrente in un flusso di lavoro.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 46%
+source-wordcount: '772'
+ht-degree: 47%
 
 ---
 
-
-# Consegna notifiche push{#push-notification-delivery}
+# Attività Push notification delivery{#push-notification-delivery}
 
 ## Descrizione {#description}
 

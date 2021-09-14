@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Risoluzione dei problemi
 description: Qui trovi le domande comuni relative al reporting dinamico.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Generazione rapporti
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -92,7 +90,7 @@ Questo si tradurrà nella seguente tabella:
 >
 >I conteggi univoci si basano su uno schizzo basato su HLL, il che può causare lievi inesattezze nei conteggi più grandi.
 
-## I conteggi aperti non corrispondono al numero di database {#open-counts-no-match-database}
+## I conteggi aperti non corrispondono al conteggio del database {#open-counts-no-match-database}
 
 Questo può essere dovuto al fatto che, nel reporting dinamico, le euristiche vengono utilizzate per tracciare l’apertura anche quando non è possibile tenere traccia dell’azione **[!UICONTROL Open]**.
 

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Definizione del periodo del report
+title: Definizione del periodo del rapporto
 description: Il periodo di tempo del rapporto ti consente di filtrare i dati in base alle date scelte.
 audience: reporting
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 4%
+source-wordcount: '204'
+ht-degree: 3%
 
 ---
 
-
-# Definizione del periodo del report{#defining-the-report-period}
+# Definizione del periodo del rapporto{#defining-the-report-period}
 
 Prima di avviare o accedere a un rapporto, è necessario applicare un periodo di tempo. Il periodo specificato è accessibile in alto a destra nel rapporto.
 

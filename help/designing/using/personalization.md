@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalizzazione del contenuto delle e-mail
 description: Scopri come personalizzare un’e-mail in E-mail Designer.
 audience: designing
@@ -10,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '2583'
 ht-degree: 4%
@@ -53,7 +51,7 @@ Adobe Campaign ti consente di personalizzare uno o più URL nel messaggio aggiun
 
 >[!NOTE]
 >
->Quando il meccanismo di firma URL per i collegamenti di tracciamento è disattivato, la personalizzazione degli URL non può essere applicata né al nome di dominio né all’estensione URL. Se la personalizzazione non è corretta, durante l’analisi dei messaggi viene visualizzato un messaggio di errore.
+>Quando il meccanismo di firma URL per i collegamenti di tracciamento è disattivato, la personalizzazione degli URL non può essere applicata né al nome di dominio né all’estensione URL. Se la personalizzazione non è corretta, viene visualizzato un messaggio di errore durante l’analisi dei messaggi.
 >
 >Quando selezioni un blocco di contenuto, non puoi selezionare elementi come **Collega a pagina speculare**. Questo tipo di blocchi è vietato all’interno di un collegamento.
 

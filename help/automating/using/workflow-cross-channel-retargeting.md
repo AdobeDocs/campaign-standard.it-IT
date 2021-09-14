@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Retargeting di non-openers
+title: Retargeting di non-aperti
 description: Questo caso d’uso mostra come effettuare il retargeting di non-openers.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 38%
 
 ---
 
-
-# Retargeting workflow invio di una nuova consegna a non-openers{#retargeting-delivery-to-non-openers}
+# Invio di una nuova consegna a non-opener tramite un flusso di lavoro di retargeting{#retargeting-delivery-to-non-openers}
 
 Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno aperto l’e-mail.
 
@@ -27,7 +24,7 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 1. Seleziona **[!UICONTROL New Workflow]** come tipo di flusso di lavoro e fai clic su **[!UICONTROL Next]**.
 1. Inserisci le proprietà del flusso di lavoro e fai clic su **[!UICONTROL Create]**.
 
-## Creazione di un&#39;attività query{#creating-a-query-activity}
+## Creazione di un’attività query{#creating-a-query-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un’attività [Query](../../automating/using/query.md) .
 1. Fai doppio clic sull’attività.
@@ -51,7 +48,7 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 1. Seleziona **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 
-## Targeting di non-openers in un&#39;attività di query{#targeting-non-openers-in-a-query-activity}
+## Targeting di non-openers in un’attività di query{#targeting-non-openers-in-a-query-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, trascina e rilascia un’attività [Wait](../../automating/using/wait.md) .
 1. In **[!UICONTROL Duration]**, fai clic su ![](assets/duration-icon.png) e seleziona un giorno.

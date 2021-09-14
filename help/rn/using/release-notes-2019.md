@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Note sulla versione 2019
 description: In questa pagina sono elencate tutte le versioni del 2019 di Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Panoramica
+feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '7590'
-ht-degree: 7%
+source-wordcount: '7589'
+ht-degree: 8%
 
 ---
 
@@ -147,7 +145,7 @@ ht-degree: 7%
 * È stato risolto un problema che poteva lasciare lo stato di una consegna come &quot;Inizio in sospeso&quot; anche se la consegna era terminata. (CAMP-35355)
 * È stato risolto un problema che impediva la visualizzazione dei registri del flusso di lavoro dopo l’abilitazione, quindi la disabilitazione dei registri SQL.
 
-## Versione 19.3 - luglio 2019 {#release-19-3---july-2019}
+## Versione 19.3 - Luglio 2019 {#release-19-3---july-2019}
 
 **Novità**
 
@@ -258,7 +256,7 @@ ht-degree: 7%
 * È stato risolto un problema di sicurezza che interrompeva il contenuto dell’e-mail quando l’oggetto conteneva più righe.
 
 
-## Versione 19.2.7 - luglio 2019 {#release-19-2-7---july-2019}
+## Versione 19.2.7 - Luglio 2019 {#release-19-2-7---july-2019}
 
 **Miglioramenti**
 
@@ -292,7 +290,7 @@ ht-degree: 7%
 * È stato risolto un problema che impediva di arricchire il contenuto di un messaggio transazionale con le informazioni provenienti dalla risorsa Servizio. (CAMP-33707)
 * È stato risolto un problema nelle pagine di destinazione del elenco Bloccati che si verificava durante il tentativo di annullare l’abbonamento di profili a un servizio.
 
-## Versione 19.2 - maggio 2019 {#release-19-2---may-2019}
+## Versione 19.2 - Maggio 2019 {#release-19-2---may-2019}
 
 **Novità**
 
@@ -306,7 +304,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> Pannello di controllo Campaign<br /> </td> 
-   <td> <p>Per migliorare l’efficienza del lavoro come utente amministratore, puoi monitorare facilmente la capacità e gestire le impostazioni delle istanze (a partire dalla gestione dei server SFTP).</p><p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">video tutorial</a>.</p></td> 
+   <td> <p>Per migliorare l’efficienza del lavoro come utente amministratore, puoi monitorare facilmente la capacità e gestire le impostazioni delle istanze (a partire dalla gestione dei server SFTP).</p><p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=it">video tutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notifiche locali<br /> </td> 
@@ -396,7 +394,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * È stato risolto un problema che causava la disattivazione del flusso di lavoro di recapito messaggi se il completamento non veniva completato correttamente.
 * È stato risolto un problema che poteva impedire agli utenti di salvare o pianificare i rapporti. (CAMP-31133)
 
-## Versione 19.1.3 - marzo 2019 {#release-19-1-3---march-2019}
+## Versione 19.1.3 - Marzo 2019 {#release-19-1-3---march-2019}
 
 **Miglioramenti di E-mail Designer**
 
@@ -410,7 +408,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * È stato risolto un problema che impediva la modifica delle regole di tipologia. (CAMP-31750)
 * È stato risolto un problema del processo inMail che poteva arrestarsi in modo imprevisto. (CAMP-31238)
 
-## Versione 19.1 - febbraio 2019 {#release-19-1---february-2019}
+## Versione 19.1 - Febbraio 2019 {#release-19-1---february-2019}
 
 **Novità**
 
@@ -516,7 +514,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * È stato risolto un problema che causava discrepanze tra i profili target durante la creazione di una consegna in-app e quelli visualizzati nel dashboard di consegna. (CAMP-28722)
 * È stato risolto un problema relativo all’integrazione Campaign e Assets Core Service che poteva impedire la selezione di una risorsa condivisa in un messaggio e-mail.
 
-## Versione 19.0 - gennaio 2019 {#release-19-0---january-2019}
+## Versione 19.0 - Gennaio 2019 {#release-19-0---january-2019}
 
 **Novità**
 

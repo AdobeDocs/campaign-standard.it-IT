@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Best practice relative ai modelli di dati in Adobe Campaign Standard
 description: Scopri le best practice per la progettazione del modello dati Adobe Campaign Standard.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
-
 
 # Best practice per i modelli di dati{#data-model-best-practices}
 
@@ -100,7 +97,7 @@ Nella tabella seguente sono descritti questi identificatori e il loro scopo.
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>PKey è la chiave primaria fisica di una tabella Adobe Campaign.</li><li>Questo identificatore è in genere univoco per una specifica istanza di Adobe Campaign.</li><li>In Adobe Campaign Standard, questo valore non è visibile all’utente finale (eccetto negli URL).</li></ul> | <ul><li>Tramite il [sistema API](../../api/using/get-started-apis.md) è possibile recuperare un valore PKey (che è un valore generato/con hash, non la chiave fisica).</li><li>È consigliabile non utilizzarlo per altri scopi se non per recuperare, aggiornare o eliminare record tramite API.</li></ul> |
 | ID | name o internalName | <ul><li>Queste informazioni sono un identificatore univoco di un record in una tabella. Questo valore può essere aggiornato manualmente.</li><li>Questo identificatore mantiene il suo valore quando viene distribuito in un’istanza diversa di Adobe Campaign. Deve avere un nome diverso dal valore generato per essere esportabile tramite un pacchetto.</li><li>Questa non è la chiave primaria effettiva della tabella.</li></ul> | <ul><li>Non utilizzare caratteri speciali come lo spazio &quot;&quot;, la semicolonna &quot;:&quot; o il trattino &quot;-&quot;.</li><li>Tutti questi caratteri verranno sostituiti da un carattere di sottolineatura &quot;_&quot; (carattere consentito). Ad esempio, &quot;abc-def&quot; e &quot;abc:def&quot; vengono memorizzati come &quot;abc_def&quot; e si sovrascrivono a vicenda.</li></ul> |
-| Etichetta | etichetta | <ul><li>L’etichetta è l’identificatore aziendale di un oggetto o record in Adobe Campaign.</li><li>Questo oggetto consente spazi e caratteri speciali.</li><li>Non garantisce l&#39;unicità di un documento.</li></ul> | <ul><li>È consigliabile determinare una struttura per le etichette degli oggetti.</li><li>Questa è la soluzione più semplice da usare per identificare un record o un oggetto per un utente Adobe Campaign.</li></ul> |
+| Etichetta | label | <ul><li>L’etichetta è l’identificatore aziendale di un oggetto o record in Adobe Campaign.</li><li>Questo oggetto consente spazi e caratteri speciali.</li><li>Non garantisce l&#39;unicità di un documento.</li></ul> | <ul><li>È consigliabile determinare una struttura per le etichette degli oggetti.</li><li>Questa è la soluzione più semplice da usare per identificare un record o un oggetto per un utente Adobe Campaign.</li></ul> |
 | ID ACS | acsId | <ul><li>È possibile generare un identificatore aggiuntivo: il [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Poiché non è possibile utilizzare PKey nell’interfaccia utente di Adobe Campaign, si tratta di una soluzione per ottenere un valore univoco generato durante l’inserimento di un record di profilo.</li><li>Il valore può essere generato automaticamente solo se l’opzione è abilitata nella risorsa prima che un record venga inserito in Adobe Campaign.</li></ul> | <ul><li>Questo UUID può essere utilizzato come chiave di riconciliazione.</li><li>Un ID ACS generato automaticamente non può essere utilizzato come riferimento in un flusso di lavoro o in una definizione di pacchetto.</li><li>Questo valore è specifico per un&#39;istanza di Adobe Campaign.</li></ul> |
 
 ### Chiavi di identificazione {#keys}

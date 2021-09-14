@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informazioni sulle attività di targeting
 description: È possibile accedere alle attività di targeting dal lato sinistro dello schermo.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 48%
 
 ---
-
 
 # Informazioni sulle attività di targeting{#about-targeting-activities}
 
@@ -29,15 +26,15 @@ Queste attività sono specifiche per il targeting, la manipolazione dei dati sul
 La sezione **[!UICONTROL Targeting]** include le seguenti attività:
 
 * [Query](../../automating/using/query.md)
-* [Incremental query](../../automating/using/incremental-query.md)
-* [Union](../../automating/using/union.md)
-* [Intersection](../../automating/using/intersection.md)
-* [Exclusion](../../automating/using/exclusion.md)
-* [Segmentation](../../automating/using/segmentation.md)
-* [Read audience](../../automating/using/read-audience.md)
-* [Save audience](../../automating/using/save-audience.md)
-* [Deduplication](../../automating/using/deduplication.md)
-* [Enrichment](../../automating/using/enrichment.md)
+* [Query incrementale](../../automating/using/incremental-query.md)
+* [Unione](../../automating/using/union.md)
+* [Intersezione](../../automating/using/intersection.md)
+* [Esclusione](../../automating/using/exclusion.md)
+* [Segmentazione](../../automating/using/segmentation.md)
+* [Leggere tipi di pubblico](../../automating/using/read-audience.md)
+* [Salvare tipi di pubblico](../../automating/using/save-audience.md)
+* [Deduplica](../../automating/using/deduplication.md)
+* [Arricchimento](../../automating/using/enrichment.md)
 
 **[!UICONTROL Targeting]** Le attività ti consentono di definire  **i** codici dei segmenti per le loro transizioni in uscita. Puoi quindi creare report basati su questi codici di segmento per misurare l’efficienza delle campagne di marketing. Per ulteriori informazioni, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).
 

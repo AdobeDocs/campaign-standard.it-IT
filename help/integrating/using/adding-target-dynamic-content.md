@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aggiunta di contenuto dinamico Target
 description: Scopri come aggiungere contenuto dinamico Adobe Target in una delle consegne Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '444'
 ht-degree: 4%
 
 ---

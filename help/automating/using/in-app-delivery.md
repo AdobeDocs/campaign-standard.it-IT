@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: In-App delivery
+title: Attività In-App delivery
 description: L’attività di consegna in-app ti consente di configurare l’invio di un messaggio in-app all’interno di un flusso di lavoro.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '692'
 ht-degree: 43%
 
 ---
 
-
-# In-App delivery{#in-app-delivery}
+# Attività In-App delivery{#in-app-delivery}
 
 ## Descrizione {#description}
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informazioni sui modelli
 description: '"I modelli di Adobe Campaign ti consentono di preconfigurare i parametri in base alle esigenze: i modelli possono contenere una configurazione completa o parziale dell’attività di marketing, per semplificare l’utilizzo di Adobe Campaign per gli utenti finali non tecnici".'
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campagne
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---

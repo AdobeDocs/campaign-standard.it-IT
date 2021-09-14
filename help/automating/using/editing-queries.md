@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Modifica delle query
 description: Genera una popolazione grazie ai filtri e alle regole preimpostati.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 100%
 
 ---
-
 
 # Modifica delle query{#editing-queries}
 
@@ -59,7 +56,7 @@ L’area di lavoro è l’area centrale dove puoi configurare e combinare regole
 
 Quando si sposta un elemento dalla palette nell’area di lavoro, viene visualizzata una nuova finestra e puoi iniziare la [Creazione delle query](#creating-queries).
 
-## Creazione delle query {#creating-queries}
+## Creazione di query {#creating-queries}
 
 Puoi utilizzare l’editor delle query per definire un pubblico o un profilo di test in un messaggio, una popolazione in un flusso di lavoro e per creare un pubblico di tipo query.
 

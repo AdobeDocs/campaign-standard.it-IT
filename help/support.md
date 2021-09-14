@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Guida e opzioni di supporto per Campaign Standard '
 description: Hai bisogno di supporto per Campaign Standard? Sei nel posto giusto!
 audience: rns
@@ -10,8 +8,8 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
-workflow-type: ht
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -129,4 +127,4 @@ La creazione di un caso consente di contattare il team Assistenza clienti di Ado
 
 Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

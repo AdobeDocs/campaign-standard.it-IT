@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Start ed End
 description: Le attività Start ed End ti consentono di contrassegnare chiaramente dove inizia e termina il flusso di lavoro.
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
 
-
-# Start ed End{#start-and-end}
+# Attività Start e End{#start-and-end}
 
 ## Descrizione {#description}
 
@@ -51,4 +48,3 @@ Puoi attivare un altro flusso di lavoro utilizzando la scheda **[!UICONTROL Exte
 L’esempio seguente mostra come viene eseguito un flusso di lavoro complesso con un’attività **[!UICONTROL Start]** e diverse attività **[!UICONTROL End]**. La casella **[!UICONTROL Stop all tasks in progress]** è stata selezionata per la prima attività **[!UICONTROL End]**. Al termine dell’attività corrispondente viene interrotto l’intero flusso di lavoro: ha lo stesso effetto di quando il pulsante ![](assets/stop_darkgrey-24px.png) è stato selezionato (consulta la sezione della [barra delle azioni](../../automating/using/workflow-interface.md#action-bar)).
 
 ![](assets/wkf_start_end_example.png)
-

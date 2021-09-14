@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Estensione degli abbonamenti a una risorsa dell’applicazione
 description: Scopri come estendere l’abbonamento a una risorsa dell’applicazione
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-cases--extending-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 23%
+source-wordcount: '232'
+ht-degree: 24%
 
 ---
-
 
 # Estensione degli abbonamenti a una risorsa dell’applicazione{#extending-the-subscriptions-to-an-application-resource}
 
@@ -49,4 +46,3 @@ Questa risorsa può essere estesa per raccogliere i dati che intendi inviare dal
    ![](assets/in_app_personal_data_3.png)
 
 1. **[!UICONTROL Save]** e pubblica la risorsa personalizzata. Per ulteriori informazioni sulla pubblicazione di risorse personalizzate, consulta questa [pagina](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-

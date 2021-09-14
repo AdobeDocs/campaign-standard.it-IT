@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Subscription Services
 description: L’attività Subscription Services ti consente di prendere profili in massa e abbonarli a un servizio o annullarne l’abbonamento.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 97%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 
-
-# Subscription Services {#subscription-services}
+# Attività Subscription services {#subscription-services}
 
 ## Descrizione {#description}
 
@@ -161,4 +158,3 @@ Il flusso di lavoro viene presentato come segue:
    Il **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l’operazione da eseguire non viene visualizzata nell’elenco, accertati di aver impostato correttamente il formato della colonna nell’attività **[!UICONTROL Load file]**, come spiegato in precedenza in questo esempio.
 
    ![](assets/subscription_activity_example_from_file.png)
-

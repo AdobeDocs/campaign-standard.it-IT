@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informazioni sulle attività dei canali
 description: Le attività dei canali si trovano sul lato sinistro dello schermo.
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 67d56f3d-5e73-4541-8f1c-af2ef23ce5d5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 95%
+source-wordcount: '65'
+ht-degree: 100%
 
 ---
 
-
-# Informazioni sulle attività dei canali{#about-channel-activities}
+# Informazioni sulle attività del canale{#about-channel-activities}
 
 Dalla palette, sul lato sinistro dello schermo, apri la sezione **[!UICONTROL Channels]**.
 
@@ -28,9 +25,8 @@ Queste attività rappresentano i diversi canali di comunicazione disponibili. Pu
 
 La sezione **[!UICONTROL Channels]** include le seguenti attività:
 
-* [Email delivery](../../automating/using/email-delivery.md)
-* [SMS delivery](../../automating/using/sms-delivery.md)
-* [Consegna notifiche push](../../automating/using/push-notification-delivery.md)
-* [Direct mail delivery](../../automating/using/direct-mail-delivery.md)
-* [In-App delivery](../../automating/using/in-app-delivery.md)
-
+* [Attività Email delivery](../../automating/using/email-delivery.md)
+* [Attività SMS delivery](../../automating/using/sms-delivery.md)
+* [Attività Push notification delivery](../../automating/using/push-notification-delivery.md)
+* [Attività Direct mail delivery](../../automating/using/direct-mail-delivery.md)
+* [Attività In-App delivery](../../automating/using/in-app-delivery.md)

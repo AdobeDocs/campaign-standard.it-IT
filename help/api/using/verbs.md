@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: verbi GET / POST / PATCH / DELETE
 description: Ulteriori informazioni sui verbi utilizzati nelle API di Campaign Standard.
 audience: developing
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: de97a194-d497-4665-906e-53178fd3b119
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
-
-# Verbi GET / POST / PATCH / DELETE {#verbs}
+# verbi GET / POST / PATCH / DELETE {#verbs}
 
 I verbi disponibili per eseguire operazioni sulle risorse sono:
 

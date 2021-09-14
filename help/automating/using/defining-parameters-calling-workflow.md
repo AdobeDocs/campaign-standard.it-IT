@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Chiamata di un flusso di lavoro con parametri esterni
 description: Questa sezione descrive come chiamare un flusso di lavoro con parametri esterni.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 13%
 
 ---
-
 
 # Definizione dei parametri durante la chiamata del flusso di lavoro {#defining-the-parameters-when-calling-the-workflow}
 

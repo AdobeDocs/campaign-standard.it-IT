@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Exclusion
 description: L’attività Exclusion ti consente di escludere elementi da una popolazione in base a determinati criteri.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 98%
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
 
-
-# Exclusion{#exclusion}
+# Esclusione{#exclusion}
 
 ## Descrizione {#description}
 
@@ -51,4 +48,3 @@ Un set primario è definito tra le transizioni in entrata. I membri di altre tra
 L’esempio seguente mostra due attività di query configurate per filtrare dal database di Adobe Campaign i profili che hanno tra i 18 e i 27 anni e dispongono di un indirizzo e-mail non valido. I profili con indirizzi e-mail non validi sono quindi esclusi dal primo set. Ciò consente ad esempio di inviare un messaggio e-mail.
 
 ![](assets/wkf_exclusion_example.png)
-

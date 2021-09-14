@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Progettazione di e-mail con contenuto esistente '
 description: Scopri come progettare e-mail utilizzando il contenuto esistente di e-mail in E-mail Designer.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Progettazione e-mail
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1212'
 ht-degree: 6%
 
 ---

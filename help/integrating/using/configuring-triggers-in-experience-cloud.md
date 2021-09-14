@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Configurazione di Triggers in Experience Cloud
+title: Configurazione degli Attivatori in Experience Cloud
 description: 'Scopri come configurare l’integrazione di Adobe Experience Cloud Triggers per iniziare a inviare consegne personalizzate ai clienti in base ai loro comportamenti precedenti. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Trigger
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '858'
 ht-degree: 7%
 
 ---
 
-# Configurazione di Triggers in Experience Cloud{#configuring-triggers-in-experience-cloud}
+# Configurazione degli Attivatori in Experience Cloud{#configuring-triggers-in-experience-cloud}
 
 ## Attivazione della funzionalità {#activating-the-functionality}
 
@@ -91,7 +89,7 @@ L’alias precedentemente indicato in DTM deve essere creato nel servizio core P
    >
    >Puoi riconciliare i trigger per gli utenti anonimi e quelli registrati. Per gli utenti anonimi, il profilo dovrebbe esistere in Adobe Campaign e un messaggio e-mail è stato inviato all’utente in precedenza. A questo scopo, la configurazione dell’ID visitatore è sufficiente. Tuttavia, se desideri riconciliare i trigger per gli utenti connessi, devi impostare Declared ID Data Source. Per ulteriori informazioni, consulta [Configurazione origine dati](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Creazione di un trigger nell’interfaccia Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
+## Creazione di un trigger nell’interfaccia di Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
 È necessario creare un trigger di Adobe Experience Cloud per poterlo utilizzare in Campaign.
 

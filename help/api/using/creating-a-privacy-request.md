@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creazione di una richiesta di accesso a dati personali
 description: Scopri come creare una richiesta di accesso a dati personali con API
 audience: developing
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ad2e13-922b-4f35-8726-007427125c63
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 7%
+source-wordcount: '210'
+ht-degree: 22%
 
 ---
-
 
 # Creazione di una richiesta di accesso a dati personali {#creating-a-privacy-request}
 
 >[!CAUTION]
 >
->L’ [Integrazione di base del servizio Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) è il metodo da utilizzare per tutte le richieste di accesso e di cancellazione. A partire dalla versione 19.4, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione è diventato obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse di Campaign Standard, consulta [questa pagina](../../rn/using/deprecated-features.md).
+>L’ [Integrazione di base del servizio Privacy](https://adobe.io/apis/cloudplatform/gdpr.html?lang=it) è il metodo da utilizzare per tutte le richieste di accesso e di cancellazione. A partire dalla versione 19.4, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventa obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse da Campaign Standard, consulta [questa pagina](../../rn/using/deprecated-features.md).
 
 Le richieste di privacy vengono create utilizzando una richiesta **POST**.
 

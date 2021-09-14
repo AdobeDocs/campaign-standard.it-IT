@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aggiornamento di più stati di abbonamento da un file
 description: Questo caso d’uso mostra come importare un file contenente profili e aggiornarne l’abbonamento a diversi servizi specificati nel file.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '417'
 ht-degree: 76%
 
 ---
-
 
 # Aggiornamento di più stati di abbonamento da un file {#updating-multiple-subscription-statuses-from-a-file}
 

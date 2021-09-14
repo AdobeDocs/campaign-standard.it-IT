@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Guida introduttiva alle API di Campaign Standard
 description: Crea integrazioni e costruisci il tuo ecosistema interfacciando Campaign con un pannello di tecnologie.
 audience: developing
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 98%
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
-
-# Guida introduttiva alle API di Campaign Standard {#get-started-apis}
+# Introduzione alle API di Campaign Standard {#get-started-apis}
 
 Le API di Campaign Standard mirano a **creare integrazioni** per Adobe Campaign Standard e a **creare il proprio ecosistema** interfacciando Adobe Campaign Standard con il pannello di tecnologie utilizzato.
 

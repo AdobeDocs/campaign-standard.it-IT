@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aggiunta di pannelli
 description: Il rapporto dinamico ti consente di aggiungere un pannello per filtrare meglio i dati in base al periodo di tempo scelto.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Generazione rapporti
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---

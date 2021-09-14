@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Guida introduttiva ai report dinamici
+title: Introduzione ai rapporti dinamici
 description: Con i rapporti dinamici, trascina e rilascia variabili e dimensioni nell’ambiente a forma libera e analizza il successo delle campagne.
 audience: reporting
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 5%
 
 ---
 
-
-# Guida introduttiva ai report dinamici {#about-dynamic-reports}
+# Introduzione ai rapporti dinamici {#about-dynamic-reports}
 
 Reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale. Aggiunge l’accesso ai dati di profilo, abilitando l’analisi demografica per dimensioni di profilo come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. L’interfaccia di trascinamento consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari.
 
@@ -51,7 +48,7 @@ I rapporti dinamici sono suddivisi in due categorie:
 
 ![](assets/dynamic_report_overview.png)
 
-## Contratto di utilizzo per reporting dinamico {#dynamic-reporting-usage-agreement}
+## Accordo di utilizzo del reporting dinamico {#dynamic-reporting-usage-agreement}
 
 Lo scopo del contratto di utilizzo per la generazione di rapporti dinamici è quello di fungere da consenso a comparsa per l’elaborazione dei dati. Per impostazione predefinita, il contratto è visibile solo e può essere accettato o rifiutato solo dagli utenti assegnati con diritti di amministrazione.
 

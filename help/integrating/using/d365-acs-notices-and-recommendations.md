@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestione dati di Campaign e Microsoft Dynamics 365
 description: Scopri come Campaign Standard e Microsoft Dynamics 365 gestiscono i dati comuni
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Integrazione con Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
@@ -105,7 +103,7 @@ L’archiviazione SFTP di Campaign deve essere utilizzata dall’integrazione ne
 >
 >Sei responsabile delle informazioni che accedi e scarica dalle cartelle SFTP. Se le informazioni contengono dati personali, l&#39;utente è responsabile del rispetto di tutte le leggi e i regolamenti sulla privacy applicabili. [Ulteriori informazioni](#acs-msdyn-manage-privacy).
 
-## Gestione dei dati
+## Gestione dati
 
 ### Dati di Campaign esistenti
 

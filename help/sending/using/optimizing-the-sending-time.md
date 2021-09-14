@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Ottimizzazione del tempo di invio
 description: Scopri come impostare il tempo di invio e migliorare il tasso di apertura dei messaggi.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Ottimizzazione dei tempi di invio
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 98%
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 

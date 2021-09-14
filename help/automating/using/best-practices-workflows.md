@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Best practice per i flussi di lavoro
 description: Scopri come applicare le best practice ai flussi di lavoro.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 84%
 
 ---
-
 
 # Best practice per i flussi di lavoro{#workflow-best-practices}
 
@@ -46,7 +43,7 @@ Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, pas
 
 ![](assets/duplicating_workflow.png)
 
-## Esecuzione{#execution}
+## Execution{#execution}
 
 ### Numero di flussi di lavoro
 

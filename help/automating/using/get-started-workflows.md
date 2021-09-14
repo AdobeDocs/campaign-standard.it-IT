@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Guida introduttiva ai processi e alla gestione dei dati
 description: Automatizza i processi con i flussi di lavoro, gestisci dati e tipi di pubblico, invia messaggi e altro ancora.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Flussi di lavoro
+feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 40%
 
 ---
@@ -93,4 +91,4 @@ Leggi tutto:
 
 * [Video tutorial su processi e gestione dati](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=it)
 * [Flussi di lavoro tecnici](../../administration/using/technical-workflows.md)
-* [Guida introduttiva al modello dati di Campaign Standard](../../developing/using/get-started-data-model.md)
+* [Introduzione al modello dati di Campaign Standard](../../developing/using/get-started-data-model.md)

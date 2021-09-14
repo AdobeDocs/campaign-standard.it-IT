@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creazione di una consegna settimanale
 description: Questo caso d’uso mostra come creare una consegna settimanale.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 80%
+source-wordcount: '242'
+ht-degree: 81%
 
 ---
-
 
 # Creazione di una consegna e-mail ogni martedì{#creating-email-every-tuesday}
 
@@ -44,7 +41,7 @@ Puoi inviare un’e-mail ogni martedì a tutti i clienti per informare sulle off
 >
 >Per avviare il flusso di lavoro in un determinato **[!UICONTROL Time Zone]**, nella scheda **[!UICONTROL Execution options]**, imposta il fuso orario per la pianificazione nel campo corrispondente. Per impostazione predefinita, il fuso orario selezionato è quello definito nelle proprietà del flusso di lavoro (vedi [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)).
 
-## Creazione di un’attività Query{#creating-a-query-activity}
+## Creazione di un’attività query{#creating-a-query-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, per selezionare i destinatari, trascina e rilascia un’attività [Query](../../automating/using/query.md) e fai doppio clic su di essa.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, trascina e rilascia **[!UICONTROL Email]**.

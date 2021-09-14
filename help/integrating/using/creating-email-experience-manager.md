@@ -1,26 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creazione di contenuti e-mail in Adobe Experience Manager.
-description: Con l’integrazione di Adobe Experience Manager, puoi creare contenuti direttamente in AEM e utilizzarli successivamente in Adobe Campaign.
+description: Con l’integrazione Adobe Experience Manager, puoi creare contenuti direttamente in AEM e utilizzarli successivamente in Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '414'
 ht-degree: 2%
 
 ---
 
+# Importazione di un contenuto Adobe Experience Manager in un’e-mail Adobe Campaign {#creating-email-aem}
 
-# Importazione di contenuti Adobe Experience Manager in un messaggio e-mail Adobe Campaign {#creating-email-aem}
-
-Utilizzando questo documento, scoprirai come creare e gestire i contenuti delle e-mail in Adobe Experience Manager, quindi utilizzarli per le campagne di marketing importandoli nelle e-mail in Adobe Campaign Standard.
+Utilizzando questo documento, scoprirai come creare e gestire il contenuto delle e-mail in Adobe Experience Manager, quindi utilizzalo per le campagne di marketing importandole nelle e-mail in Adobe Campaign Standard.
 
 Sussistono i seguenti prerequisiti:
 
@@ -34,7 +31,7 @@ Accedi alla tua istanza di authoring Adobe Experience Manager e sfoglia il tuo s
 
 >[!VIDEO](https://video.tv.adobe.com/v/29996)
 
-## Creazione di nuovo contenuto e-mail in Adobe Experience Manager {#creating-email-content-aem}
+## Creazione di nuovi contenuti e-mail in Adobe Experience Manager {#creating-email-content-aem}
 
 Sono disponibili diversi modelli specifici di Adobe Campaign. È necessario utilizzare uno di questi modelli in quanto contengono componenti predefiniti supportati da Adobe Campaign.
 
@@ -56,7 +53,7 @@ Per impostazione predefinita, due modelli predefiniti consentono di creare conte
 
    >[!VIDEO](https://video.tv.adobe.com/v/29999)
 
-## Modifica e invio di un messaggio e-mail {#editing-email-aem}
+## Modifica e invio di un’e-mail {#editing-email-aem}
 
 Puoi modificare il contenuto dell’e-mail aggiungendo componenti e risorse. I campi di personalizzazione possono essere utilizzati per inviare un messaggio più pertinente in base ai dati dei destinatari in Adobe Campaign.
 

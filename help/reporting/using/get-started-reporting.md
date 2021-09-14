@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Guida introduttiva al reporting dinamico
 description: Analizza il successo delle campagne in report dinamici integrati o personalizzati.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 20%
+source-wordcount: '372'
+ht-degree: 19%
 
 ---
-
 
 # Guida introduttiva al reporting dinamico {#get-started-reporting}
 
@@ -31,7 +28,7 @@ Dynamic Reporting fornisce rapporti completamente personalizzabili e in tempo re
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri il reporting dinamico nei video](#video)
 
-## Gestire e condividere i rapporti {#manage-share-reports}
+## Gestione e condivisione dei rapporti {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
@@ -42,9 +39,9 @@ Grazie all’ **interfaccia di trascinamento della selezione** per il reporting 
 Leggi tutto:
 
 * [Informazioni sui report dinamici](../../reporting/using/about-dynamic-reports.md)
-* [Interfaccia di reporting](../../reporting/using/reporting-interface.md)
+* [Interfaccia di generazione rapporti](../../reporting/using/reporting-interface.md)
 
-## Creare i rapporti {#build-reports}
+## Creare rapporti {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
@@ -56,7 +53,7 @@ Leggi tutto:
 
 * [Elenco dei componenti](../../reporting/using/list-of-components-.md)
 * [Calcolo indicatore](../../reporting/using/indicator-calculation.md)
-* [Elenco dei report](../../reporting/using/defining-the-report-period.md)
+* [Elenco dei rapporti](../../reporting/using/defining-the-report-period.md)
 
 ## Personalizzare i rapporti {#customize-reports}
 
@@ -74,12 +71,12 @@ Leggi tutto:
 * [Aggiunta di visualizzazioni](../../reporting/using/adding-visualizations.md)
 * [Aggiunta di componenti](../../reporting/using/adding-components.md)
 * [Creazione di una dimensione di profilo personalizzata](../../reporting/using/creating-a-custom-profile-dimension.md)
-* [Creazione di un report basato sui segmenti del flusso di lavoro](../../reporting/using/creating-a-report-workflow-segment.md)
+* [Creazione di un rapporto basato sui segmenti del flusso di lavoro](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ## Risorse aggiuntive
 
 * [Esportazione dei registri](../../automating/using/exporting-logs.md)
-* [Informazioni sull’integrazione di Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
+* [Informazioni sull’integrazione di Campaign e Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
 ## Video tutorial {#video}
 

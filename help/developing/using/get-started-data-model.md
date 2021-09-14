@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Guida introduttiva al modello dati di Campaign Standard
+title: Introduzione al modello dati di Campaign Standard
 description: Arricchisci il modello di dati di Campaign Standard con campi e risorse personalizzati ed estendi le API REST per esporre i campi estesi.
 audience: automating
 content-type: reference
@@ -10,15 +8,14 @@ feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: tm+mt
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 28%
+source-wordcount: '338'
+ht-degree: 31%
 
 ---
 
-# Guida introduttiva al modello dati di Campaign Standard {#get-started-data-model}
+# Introduzione al modello dati di Campaign Standard {#get-started-data-model}
 
 <table>
 <tr>
@@ -67,4 +64,4 @@ Con le API di Campaign Standard, crea integrazioni per Adobe Campaign Standard e
 ## Risorse aggiuntive
 
 * [Esportazione/importazione di risorse personalizzate](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
-* [Esportare dati da Campaign a Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
+* [Esportare dati da Campaign ad Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

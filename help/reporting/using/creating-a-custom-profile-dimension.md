@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creazione di una dimensione di profilo personalizzata
 description: Scopri come creare una dimensione di profilo personalizzata basata sui dati di profilo personalizzati.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: customizing-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '813'
 ht-degree: 5%
 
 ---
-
 
 # Creazione di una dimensione di profilo personalizzata{#creating-a-custom-profile-dimension}
 
@@ -29,7 +26,7 @@ In questo esempio, vogliamo creare il campo del profilo personalizzato **Program
 * [Passaggio 3: Creare un targeting di consegna dei destinatari iscritti al programma fedeltà](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [Passaggio 4: Creare un rapporto dinamico per filtrare i destinatari con la dimensione di profilo personalizzata](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## Passaggio 1: Crea un nuovo campo profilo {#step-1--create-a-new-profile-field}
+## Passaggio 1: Creare un nuovo campo del profilo {#step-1--create-a-new-profile-field}
 
 Innanzitutto, devi creare il nuovo campo profilo **Programma fedeltà** che assegnerà il livello di fedeltà ai destinatari: oro, argento o bronzo.
 
@@ -59,7 +56,7 @@ Per eseguire questa operazione:
 
    ![](assets/custom_profile_13.png)
 
-1. Inserisci i valori **[!UICONTROL Label]** e **[!UICONTROL Value]**, quindi fai clic su **[!UICONTROL Add]**. Per questo esempio, dobbiamo creare il valore oro, argento e bronzo. Al termine, fai clic su **[!UICONTROL Confirm]** .
+1. Inserisci i valori **[!UICONTROL Label]** e **[!UICONTROL Value]**, quindi fai clic su **[!UICONTROL Add]**. Per questo esempio, dobbiamo creare il valore oro, argento e bronzo. Al termine della configurazione, fai clic su **[!UICONTROL Confirm]**.
 
    ![](assets/custom_profile_14.png)
 
@@ -122,7 +119,7 @@ Il profilo personalizzato è ora disponibile come dimensione di profilo personal
 
 Dopo aver creato il campo e aver esteso i registri di invio con questo campo di profilo, puoi iniziare a eseguire il targeting dei destinatari nelle consegne.
 
-## Passaggio 3: Creare un target di consegna iscritto al programma fedeltà {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## Passaggio 3: Creare un targeting di consegna dei destinatari iscritti al programma fedeltà {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 Una volta pubblicato il campo del profilo, puoi avviare la consegna. In questo esempio, vogliamo eseguire il targeting di ogni destinatario iscritto al programma fedeltà.
 

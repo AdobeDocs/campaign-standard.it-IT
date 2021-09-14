@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Interfaccia di reporting
+title: Interfaccia di generazione rapporti
 description: Ulteriori informazioni sulla base dell’interfaccia dei report dinamici e su come navigare tra le diverse schede e menu.
 audience: reporting
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '731'
 ht-degree: 3%
 
 ---
 
-
-# Interfaccia di reporting{#reporting-interface}
+# Interfaccia di generazione rapporti{#reporting-interface}
 
 La barra degli strumenti superiore consente, ad esempio, di modificare, salvare o stampare il rapporto.
 
@@ -95,7 +92,7 @@ La scheda **Modifica** consente di:
 * **Annulla**: Annulla l’ultima azione sul dashboard.
 * **Cancella tutto**: Elimina ogni pannello del dashboard.
 
-### Inserisci scheda {#insert-tab}
+### Inserisci, scheda {#insert-tab}
 
 ![](assets/tab_insert.png)
 

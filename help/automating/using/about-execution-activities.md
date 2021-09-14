@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informazioni sulle attività di esecuzione
 description: Le attività di esecuzione sono disponibili sul lato sinistro dello schermo.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 52%
+source-wordcount: '65'
+ht-degree: 53%
 
 ---
-
 
 # Informazioni sulle attività di esecuzione{#about-execution-activities}
 
@@ -28,11 +25,10 @@ Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione de
 
 La sezione **[!UICONTROL Execution]** include le seguenti attività:
 
-* [Start ed End](../../automating/using/start-and-end.md)
-* [Fork](../../automating/using/fork.md)
-* [AND-join](../../automating/using/and-join.md)
-* [Scheduler](../../automating/using/scheduler.md)
-* [Wait](../../automating/using/wait.md)
-* [External signal](../../automating/using/external-signal.md)
-* [Test](../../automating/using/test.md)
-
+* [Attività Start e End](../../automating/using/start-and-end.md)
+* [Attività Fork](../../automating/using/fork.md)
+* [Attività AND-join](../../automating/using/and-join.md)
+* [Attività Scheduler](../../automating/using/scheduler.md)
+* [Attività Wait](../../automating/using/wait.md)
+* [Attività External signal](../../automating/using/external-signal.md)
+* [Attività Test](../../automating/using/test.md)

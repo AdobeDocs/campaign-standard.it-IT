@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creazione di modelli di flusso di lavoro per l’importazione di dati
 description: Scopri come creare modelli di flusso di lavoro per importare i dati.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5974a52c-8721-4575-b452-2982d6497235
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1172'
 ht-degree: 1%
 
 ---
-
 
 # Creazione di modelli di flusso di lavoro per l’importazione di dati {#import-workflow-template}
 
@@ -121,7 +118,7 @@ Questo esempio mostra come impostare un flusso di lavoro che può essere riutili
 
       >[!NOTE]
       >
-      >Se prevedi di inviare direct mailing a questi profili, accertati di includere un indirizzo postale, in quanto queste informazioni sono essenziali per il provider di direct mailing. Assicurati anche che la casella **[!UICONTROL Address specified]** nelle informazioni del profilo sia selezionata. Per aggiornare questa opzione da un flusso di lavoro, è sufficiente aggiungere un elemento ai campi da aggiornare, specificare **1** come **[!UICONTROL Source]** e selezionare il campo **[postalAddress/@addrDefined]** come **[!UICONTROL Destination]**. Per ulteriori informazioni sulla direct mailing e sull’utilizzo dell’opzione **[!UICONTROL Address specified]**, consulta [questo documento](../../channels/using/about-direct-mail.md#recommendations).
+      >Se prevedi di inviare direct mailing a questi profili, accertati di includere un indirizzo postale, in quanto queste informazioni sono essenziali per il provider di direct mailing. Assicurati anche che la casella **[!UICONTROL Address specified]** nelle informazioni del profilo sia selezionata. Per aggiornare questa opzione da un flusso di lavoro, è sufficiente aggiungere un elemento ai campi da aggiornare e specificare **1** come **[!UICONTROL Source]** e selezionare il campo **[postalAddress/@addrDefined]** come **[!UICONTROL Destination]**. Per ulteriori informazioni sulla direct mailing e sull’utilizzo dell’opzione **[!UICONTROL Address specified]**, consulta [questo documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Dopo la terza transizione dell&#39;attività **[!UICONTROL Segmentation]** , aggiungi un&#39;attività **[!UICONTROL Extract file]** e un&#39;attività **[!UICONTROL Transfer file]** se desideri tenere traccia dei dati non inseriti nel database. Configura queste attività per esportare la colonna necessaria e per trasferire il file su un server FTP o SFTP in cui puoi recuperarlo.
 1. Aggiungi un’attività **[!UICONTROL End]** e salva il modello di flusso di lavoro.

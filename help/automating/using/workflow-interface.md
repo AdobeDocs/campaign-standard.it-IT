@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interfaccia dei flussi di lavoro
 description: Scopri l’interfaccia e le opzioni per creare, modificare ed eseguire un flusso di lavoro.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,main;workflow,overview
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '802'
 ht-degree: 4%
 
 ---
-
 
 # Interfaccia dei flussi di lavoro{#workflow-interface}
 
@@ -157,4 +154,3 @@ Per duplicare un’attività, segui i passaggi seguenti:
 A questo scopo, seleziona le attività disegnando una zona intorno a esse. quindi fai clic sul pulsante **[!UICONTROL Copy selection]** dalla barra delle azioni (oppure premi **Ctrl + C**). Puoi quindi incollarli nella posizione desiderata.
 
 ![](assets/wkf_copypaste3.png)
-

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Direct mail delivery
 description: L’attività Direct mail delivery ti consente di configurare l’invio di una direct mailing singola o ricorrente in un flusso di lavoro.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: directMail,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 98%
+source-wordcount: '914'
+ht-degree: 99%
 
 ---
 
-
-# Direct mail delivery{#direct-mail-delivery}
+# Attività Direct mail delivery{#direct-mail-delivery}
 
 ## Descrizione {#description}
 
@@ -45,7 +42,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 **Argomenti correlati:**
 
 * [Caso di utilizzo: Abbinamento delle consegne di e-mail e direct mail](../../automating/using/coupling-email-direct-mail.md)
-* [Informazioni sulla direct mailing](../../channels/using/about-direct-mail.md)
+* [Informazioni sul direct mailing](../../channels/using/about-direct-mail.md)
 
 ## Configurazione {#configuration}
 

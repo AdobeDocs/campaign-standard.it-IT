@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aggiunta di un gruppo di controllo durante l’invio di un messaggio
 description: Scopri come aggiungere un gruppo di controllo mentre definisci il target di un messaggio utilizzando Adobe Campaign Standard.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: Gruppi di controllo
+feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1332'
 ht-degree: 100%
 
 ---

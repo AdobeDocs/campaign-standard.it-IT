@@ -1,12 +1,9 @@
 ---
 keywords: Campaign Standard;home;popular topics
-solution: Campaign Standard
-product: campaign
 title: Documentazione di Adobe Campaign Standard
 description: Sfoglia la documentazione di Campaign Standard
 topic: Premium
-translation-type: tm+mt
-source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 100%
@@ -17,7 +14,7 @@ ht-degree: 100%
 # Campaign-Standard-TOC {#campaign-standard-partial-ignore}
 
 + Administration{#administration}
-   + [Regole di affaticamento](sending/using/fatigue-rules.md)
+   + [Regole di eccesso](sending/using/fatigue-rules.md)
    + [Informazioni sulle regole di tipologia](sending/using/about-typology-rules.md)
    + [Informazioni sulle regole di tipologia - Elenco](sending/using/about-typology-rules.md#typology-rules)
    + [Configurazione del canale e-mail](administration/using/configuring-email-channel.md)

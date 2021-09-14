@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Abbonamenti non riusciti
+title: Abbonamenti annullati
 description: Con il rapporto predefinito sugli annullamenti di abbonamenti , scopri quante volte i clienti hanno annullato l’abbonamento alle tue consegne.
 audience: reporting
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 02c24d66-f379-476d-9536-e652dc74bcf8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 17%
 
 ---
 
-
-# Abbonamenti non riusciti{#unsubscriptions}
+# Abbonamenti annullati{#unsubscriptions}
 
 Il rapporto **[!UICONTROL Unsubscriptions]** individua le consegne associate al maggior numero di annullamenti di abbonamenti.
 

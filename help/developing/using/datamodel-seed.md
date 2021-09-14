@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: Scopri il modello dati
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 10%
+source-wordcount: '171'
+ht-degree: 11%
 
 ---
-
 
 # Membro del seme (nms:seedMember)
 

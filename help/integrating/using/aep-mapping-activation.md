@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Attivazione mappature
+title: Attivazione delle mappature
 description: Scopri come attivare la mappatura dei dati
 audience: administration
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: configuring-channels
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
-
-# Attivazione mappature {#mapping-activation}
+# Attivazione delle mappature {#mapping-activation}
 
 >[!IMPORTANT]
 >

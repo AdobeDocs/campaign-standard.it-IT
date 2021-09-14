@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Gestione dei messaggi delle transazioni
+title: Gestione dei messaggi transazionali
 description: Scopri come gestire i messaggi transazionali con le API.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '678'
 ht-degree: 3%
 
 ---
 
-
-# Gestione dei messaggi delle transazioni {#managing-transactional-messages}
+# Gestione dei messaggi transazionali {#managing-transactional-messages}
 
 ## Informazioni sulla messaggistica transazionale
 
@@ -33,7 +30,7 @@ Ad esempio, desideri attivare un evento &quot;Abbandono carrello&quot; ogni volt
 1. Lo sviluppatore invia una richiesta in base al metodo POST, che attiva l’ [invio dell’evento sulle transazioni](#sending-a-transactional-event).
 1. La risposta alla richiesta POST contiene una chiave primaria, che consente allo sviluppatore di inviare una o più richieste tramite una richiesta GET. In questo modo è in grado di ottenere lo stato [evento](#transactional-event-status).
 
-## Invio di un evento transazionale {#sending-a-transactional-event}
+## Invio di un evento sulle transazioni {#sending-a-transactional-event}
 
 L’evento transazionale viene inviato tramite una richiesta POST con la seguente struttura URL:
 

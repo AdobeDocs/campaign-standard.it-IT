@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestione dei dati crittografati
 description: Scopri come gestire i dati crittografati.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Flussi di lavoro
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 5%
 
 ---
@@ -40,8 +38,8 @@ Una volta elaborata la richiesta, i comandi di crittografia/decrittografia saran
 
 **Argomenti correlati:**
 
-* [Load file](../../automating/using/load-file.md)
-* [Extract file](../../automating/using/extract-file.md)
+* [Attività Load file](../../automating/using/load-file.md)
+* [Attività Extract file](../../automating/using/extract-file.md)
 
 ## Caso di utilizzo: Importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign {#use-case-gpg-decrypt}
 
@@ -87,7 +85,7 @@ I passaggi per eseguire questo caso d’uso sono i seguenti:
 
 1. Ora puoi eseguire il flusso di lavoro.
 
-## Caso di utilizzo: Cifratura ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign {#use-case-gpg-encrypt}
+## Caso di utilizzo: Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign {#use-case-gpg-encrypt}
 
 In questo caso d’uso, creeremo un flusso di lavoro per crittografare ed esportare i dati utilizzando una chiave installata sul Pannello di controllo Campaign.
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Linee guida per il monitoraggio
 description: Questa sezione presenta le linee guida generali per il monitoraggio di Campaign Standard.
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: Gestione degli accessi
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 20%
 
 ---
@@ -41,7 +39,7 @@ L’interfaccia di Campaign Standard fornisce un riquadro di notifica che ti con
 
 I flussi di lavoro tecnici sono operazioni o processi pianificati da eseguire regolarmente sul server. Per garantire che l’istanza sia sana e funzioni correttamente, è necessario assicurarsi che sia sempre in esecuzione. [Leggi tutto](../../administration/using/technical-workflows.md)
 
-**Pannello di controllo**
+**Pannello di controllo Campaign**
 
 Il Pannello di controllo Campaign consente di gestire diverse impostazioni dell’istanza: Autorizzazioni URL, controlla i dettagli dell’istanza come le versioni di build dei server, monitora l’utilizzo dei profili attivi, ecc. Consente inoltre di monitorare lo spazio disponibile sui server SFTP collegati all’istanza. [Leggi tutto](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it).
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Riconciliare un pubblico di tipo File con il database
 description: Questo esempio mostra come utilizzare l’attività Read audience per riconciliare un pubblico creato direttamente da un’importazione di file.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
-
 
 # Riconciliare un pubblico di tipo File con il database {#example--reconcile-a-file-audience-with-the-database}
 

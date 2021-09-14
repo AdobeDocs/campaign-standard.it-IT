@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Monitoraggio dell’esecuzione dei flussi di lavoro
 description: Scopri come monitorare l’esecuzione di un flusso di lavoro.
 audience: automating
@@ -10,18 +8,17 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '577'
 ht-degree: 3%
 
 ---
 
-
 # Monitoraggio dell’esecuzione dei flussi di lavoro {#monitoring}
 
-## Registro di flusso di lavoro e attività {#workflow-log-and-tasks}
+## Registro di lavoro e attività {#workflow-log-and-tasks}
 
 L’icona ![](assets/printpreview_darkgrey-24px.png) apre il registro del flusso di lavoro e il menu attività.
 

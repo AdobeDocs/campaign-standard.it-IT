@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transfer file
 description: L’attività Transfer file ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-feature: Flussi di lavoro
+feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1115'
 ht-degree: 91%
 
 ---

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Report in-app
+title: Rapporto in-app
 description: Con il rapporto preconfigurato in-app, scopri il successo dei messaggi in-app.
 audience: reporting
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
 
-
-# Report in-app{#in-app-report}
+# Rapporto in-app{#in-app-report}
 
 >[!CAUTION]
 >
@@ -47,4 +44,3 @@ La seconda tabella **Clic e licenziamenti in-app** è suddivisa in tre categorie
 * **[!UICONTROL Unique In-App clicks]**: Numero di volte in cui i destinatari hanno fatto clic sul pulsante 1 o sul pulsante 2.
 * **[!UICONTROL In-App dismissal]**: Numero totale di messaggi ignorati dai destinatari facendo clic sul pulsante Chiudi o ignorati automaticamente.
 * **[!UICONTROL Unique In-App dismissal]**: Numero di volte in cui i destinatari hanno ignorato un messaggio in-app.
-

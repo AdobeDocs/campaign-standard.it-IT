@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Intersection
 description: L’attività Intersection ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività.
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 98%
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
-
-# Intersection{#intersection}
+# Intersezione{#intersection}
 
 ## Descrizione {#description}
 
@@ -50,4 +47,3 @@ L’attività **[!UICONTROL Intersection]** è generalmente utilizzata per effet
 L’esempio seguente mostra l’intersezione tra due attività di query. In questo caso, viene utilizzato per esaminare il database di Adobe Campaign e recuperare, rispettivamente, i profili che hanno tra i 18 e i 27 anni di età e quelli che hanno indicato un indirizzo e-mail.
 
 ![](assets/wkf_intersection_example.png)
-

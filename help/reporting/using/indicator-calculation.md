@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Calcolo indicatore
 description: Comprendi i risultati dei tuoi rapporti con un elenco della formula di ogni metrica.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Generazione rapporti
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '726'
 ht-degree: 2%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 2%
 
 Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei diversi rapporti e la relativa formula di calcolo a seconda del tipo di consegna.
 
-## Email delivery {#email-delivery}
+## Attività Email delivery {#email-delivery}
 
 <table> 
  <thead> 
@@ -226,7 +224,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
  </tbody> 
 </table>
 
-## Consegna notifiche push {#push-notification-delivery}
+## Attività Push notification delivery {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -300,7 +298,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
  </tbody> 
 </table>
 
-## In-App delivery {#in-app-delivery}
+## Attività In-App delivery {#in-app-delivery}
 
 <table> 
  <thead> 

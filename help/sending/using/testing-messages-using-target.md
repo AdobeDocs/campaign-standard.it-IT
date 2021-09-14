@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Verifica dei messaggi e-mail tramite profili di destinazione
 description: Scopri come verificare i messaggi utilizzando profili di destinazione e indirizzi di sostituzione.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Gruppi di controllo
+feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1514'
 ht-degree: 4%
 
 ---

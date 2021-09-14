@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Wait
 description: L’attività Wait sospende momentaneamente l’esecuzione di una parte di un flusso di lavoro.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: wait,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 99%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
-
-# Wait{#wait}
+# Attività Wait{#wait}
 
 ## Descrizione {#description}
 
@@ -56,4 +53,3 @@ Il flusso di lavoro viene presentato come segue:
 * Un’attività **[!UICONTROL Wait]** pari a 24 ore inserisce una pausa tra il momento dell’invio dell’invito e il resto del flusso di lavoro.
 * Una seconda **[!UICONTROL Query]** esegue il targeting dei profili che hanno ricevuto il primo messaggio e-mail ma non hanno fatto clic sul collegamento di abbonamento all’interno.
 * Una seconda **[!UICONTROL Email delivery]** invia un promemoria dell’invito alle persone selezionate.
-

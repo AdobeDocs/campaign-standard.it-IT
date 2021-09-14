@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Definire il pubblico adatto
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Quando il contenuto è pronto, scopri come definire con precisione chi riceverà il messaggio."'
-feature: Recapito messaggi
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '516'
 ht-degree: 11%
 
 ---

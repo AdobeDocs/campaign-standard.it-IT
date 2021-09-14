@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Targeting dei tipi di pubblico di Adobe Experience Platform
 description: Scopri come eseguire il targeting dei tipi di pubblico di Adobe Experience Platform all’interno dei flussi di lavoro.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: channel-activities
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '404'
 ht-degree: 5%
 
 ---
-
 
 # Targeting dei tipi di pubblico di Adobe Experience Platform {#targeting-aep-audiences}
 
@@ -69,4 +66,4 @@ Per ulteriori informazioni su come utilizzare flussi di lavoro e consegne, consu
 * [Esplorazione dei flussi di lavoro](../../automating/using/get-started-workflows.md)
 * [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)
 * [Esplorazione dei canali di comunicazione](../../channels/using/get-started-communication-channels.md)
-* [Informazioni sulle attività dei canali](../../automating/using/about-channel-activities.md)
+* [Informazioni sulle attività del canale](../../automating/using/about-channel-activities.md)

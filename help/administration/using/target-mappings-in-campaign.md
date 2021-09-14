@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mappature target in Campaign
 description: Le mappature di destinazione sono oggetti tecnici utilizzati da Campaign per la distribuzione dei messaggi. Contengono tutte le impostazioni tecniche necessarie per inviare consegne.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Impostazioni delle istanze
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---

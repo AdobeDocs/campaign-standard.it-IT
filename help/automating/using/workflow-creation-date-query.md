@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creazione di consegne nella data di creazione del profilo
 description: Questo caso d’uso mostra come creare consegne alla data di creazione del profilo.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f611e023-f74c-476e-83b9-aff451f68c81
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '354'
 ht-degree: 38%
 
 ---
-
 
 # Creazione di consegne nella data di creazione dei profili {#creation-date-query}
 
@@ -48,7 +45,7 @@ Puoi inviare un’offerta via e-mail nell’anniversario della creazione del pro
 1. Per selezionare i destinatari, trascina e rilascia un’attività [Query](../../automating/using/query.md) e fai doppio clic su di essa.
 1. Aggiungi **[!UICONTROL Profiles]** e seleziona **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.
 
-### Recupero dei profili creati lo stesso giorno del giorno di esecuzione {#retrieving-profiles-created-on-the-same-day}
+### Recupero dei profili creati lo stesso giorno dell’esecuzione {#retrieving-profiles-created-on-the-same-day}
 
 1. In **[!UICONTROL Profile]**, trascina e rilascia il campo **[!UICONTROL Created]** . e fai clic su **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)

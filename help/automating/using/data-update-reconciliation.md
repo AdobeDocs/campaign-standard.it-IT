@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aggiornamento dei dati tramite riconciliazione
 description: L’esempio seguente illustra un flusso di lavoro che crea un pubblico di profili direttamente da un file importato contenente nuovi clienti.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 66%
+source-wordcount: '128'
+ht-degree: 67%
 
 ---
-
 
 # Aggiornamento dei dati tramite riconciliazione {#data-update-reconciliation}
 

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Iscrizione di profili da un file a un servizio specifico
+title: Abbonamento di profili da un file a un servizio specifico
 description: Questo caso d’uso mostra come importare un file contenente profili e abbonarli a un servizio esistente.
 audience: automating
 content-type: reference
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 52%
+source-wordcount: '238'
+ht-degree: 53%
 
 ---
-
 
 # Iscrizione di profili a un servizio specifico dopo l’importazione di un file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 

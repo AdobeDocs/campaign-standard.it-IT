@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informazioni sulle attività di gestione dati
 description: Le attività di gestione dei dati sono disponibili sul lato sinistro dello schermo.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b780704c-210b-4cab-9016-91726a86de6d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 54%
+source-wordcount: '120'
+ht-degree: 55%
 
 ---
-
 
 # Informazioni sulle attività di gestione dati{#about-data-management-activities}
 
@@ -28,11 +25,11 @@ Queste attività ti consentono di manipolare i dati. Consentono, ad esempio, di 
 
 La sezione **[!UICONTROL Data management (ETL)]** include le seguenti attività:
 
-* [Update data](../../automating/using/update-data.md)
-* [Load file](../../automating/using/load-file.md)
-* [Transfer file](../../automating/using/transfer-file.md)
-* [Reconciliation](../../automating/using/reconciliation.md)
-* [Extract file](../../automating/using/extract-file.md)
-* [Subscription Services](../../automating/using/subscription-services.md)
+* [Attività Update data](../../automating/using/update-data.md)
+* [Attività Load file](../../automating/using/load-file.md)
+* [Attività Transfer file](../../automating/using/transfer-file.md)
+* [Attività Reconciliation](../../automating/using/reconciliation.md)
+* [Attività Extract file](../../automating/using/extract-file.md)
+* [Attività Subscription services](../../automating/using/subscription-services.md)
 
 **[!UICONTROL Data management (ETL)]** Le attività ti consentono di definire  **i** codici dei segmenti per le loro transizioni in uscita. Puoi quindi creare report basati su questi codici di segmento per misurare l’efficienza delle campagne di marketing. Per ulteriori informazioni, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).

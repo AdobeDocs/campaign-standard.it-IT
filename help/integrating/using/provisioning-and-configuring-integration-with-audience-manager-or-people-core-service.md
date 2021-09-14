@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Provisioning e configurazione dell’integrazione con Audience Manager o il servizio core People
 description: 'Scopri come configurare l’integrazione del servizio core Audience Manager / Persone per iniziare a condividere audience o segmenti con le diverse soluzioni Adobe Experience Cloud. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Integrazione del servizio core People
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 9%
 
 ---
@@ -69,7 +67,7 @@ Dopo aver inviato questa richiesta, Adobe procederà al provisioning dell’inte
 * [Passaggio 3: Configurare il server di tracciamento delle campagne](#step-3--configure-campaign-tracking-server)
 * [Passaggio 4: Configurare il servizio ID visitatori](#step-4--configure-the-visitor-id-service)
 
-### Passaggio 1: Configura o controlla gli account esterni in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Passaggio 1: Configurare o controllare gli account esterni in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Innanzitutto, dobbiamo configurare o controllare gli account esterni in Adobe Campaign. Questi account avrebbero dovuto essere configurati per Adobe e le informazioni necessarie avrebbero dovuto essere comunicate all&#39;utente.
 

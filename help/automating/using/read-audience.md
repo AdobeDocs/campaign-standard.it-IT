@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Read audience
 description: L’attività Read audience ti consente di recuperare un pubblico esistente e di perfezionarlo applicando condizioni di filtro aggiuntive.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 86%
+source-wordcount: '206'
+ht-degree: 87%
 
 ---
 
-
-# Read audience{#read-audience}
+# Leggere tipi di pubblico{#read-audience}
 
 ## Descrizione {#description}
 

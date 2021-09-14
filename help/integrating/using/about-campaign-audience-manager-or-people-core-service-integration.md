@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informazioni sull’integrazione di Campaign con Audience Manager o il servizio core People
 description: Con l’integrazione del servizio core Audience Manager / Persone, puoi condividere tipi di pubblico o segmenti all’interno delle diverse soluzioni Adobe Experience Cloud.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
+exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 7%
 
 ---
-
 
 # Informazioni sull’integrazione di Campaign con Audience Manager o il servizio core People{#about-campaign-audience-manager-or-people-core-service-integration}
 
@@ -43,7 +40,7 @@ L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
    >[!NOTE]
    >
-   >L’origine dati ID dichiarata può ora essere utilizzata anche con l’integrazione del servizio core People .
+   >L’origine dati Declared ID (ID dichiarato) può ora essere utilizzata anche con l’integrazione del servizio core People.
    >
    >Se utilizzi l’integrazione del servizio core Persone e desideri aggiungere l’integrazione di Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo di questa origine dati Declared ID in un contesto Adobe Audience Manager.
 

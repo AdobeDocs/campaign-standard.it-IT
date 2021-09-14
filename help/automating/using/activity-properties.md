@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestione delle proprietà delle attività
 description: Scopri come gestire le proprietà delle attività del flusso di lavoro.
 audience: automating
@@ -10,18 +8,17 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9c47ef72-59af-4b55-8e65-d8f687fb5fbe
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: '675'
+ht-degree: 0%
 
 ---
 
-
 # Gestione delle proprietà delle attività {#activity-properties}
 
-## Proprietà globali di un&#39;attività {#global-properties-of-an-activity}
+## Proprietà globali di un’attività {#global-properties-of-an-activity}
 
 Ogni attività dispone di una scheda **[!UICONTROL General]** che ti consente di modificare i parametri generali specifici dell’attività.
 
@@ -31,7 +28,7 @@ La scheda **[!UICONTROL Properties]** ti consente di modificare i parametri glob
 
 ![](assets/activity-properties2.png)
 
-## Gestione delle transizioni in uscita di un&#39;attività {#managing-an-activity-s-outbound-transitions}
+## Gestione delle transizioni in uscita di un’attività {#managing-an-activity-s-outbound-transitions}
 
 Per impostazione predefinita, alcune attività non hanno una transizione in uscita. Puoi aggiungerne uno dalla scheda **[!UICONTROL Transitions]** o dalla scheda **[!UICONTROL Properties]** dell’attività per applicare altri processi alla popolazione nello stesso flusso di lavoro.
 

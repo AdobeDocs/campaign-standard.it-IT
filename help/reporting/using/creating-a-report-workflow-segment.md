@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Creazione di un rapporto basato sui segmenti del flusso di lavoro
 description: Scopri come verificare il successo della consegna in base ai segmenti dei flussi di lavoro nei rapporti.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Generazione rapporti
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 2%
 
 ---

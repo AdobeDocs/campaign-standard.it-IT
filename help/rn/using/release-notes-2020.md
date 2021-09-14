@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Note sulla versione 2020
 description: In questa pagina sono elencate tutte le versioni del 2020 di Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Panoramica
+feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5298'
+source-wordcount: '5297'
 ht-degree: 98%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Rilascio di ottobre del nuovo Pannello di controllo Campaign** con configurazione dei domini tramite CNAME e nuove funzionalità di monitoraggio del database. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## Versione 20.4 - ottobre 2020 {#release-20-4---october-2020}
+## Versione 20.4 - Ottobre 2020 {#release-20-4---october-2020}
 
 **Novità?**
 
@@ -191,7 +189,7 @@ ht-degree: 98%
 
 
 
-## Versione 20.3 - maggio 2020 {#release-20-3---may-2020}
+## Versione 20.3 - Maggio 2020 {#release-20-3---may-2020}
 
 **Quali sono le novità?**
 
@@ -295,7 +293,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Nuova versione di maggio del Pannello di controllo Campaign** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-## Versione 20.2 - aprile 2020 {#release-20-2---april-2020}
+## Versione 20.2 - Aprile 2020 {#release-20-2---april-2020}
 
 **Quali sono le novità?**
 
@@ -380,15 +378,15 @@ ht-degree: 98%
 * È stato risolto un problema che poteva verificarsi nei flussi di lavoro durante l’esecuzione di un’attività con diverse transizioni in entrata.
 * È stato risolto un problema che impediva agli utenti standard di utilizzare “Abbonamenti a un’applicazione” come dimensione di destinazione in una query del flusso di lavoro o una consegna. (CAMP-37618)
 
-## Versione 20.1.4 - febbraio 2020 {#release-20-1-4---february-2020}
+## Versione 20.1.4 - Febbraio 2020 {#release-20-1-4---february-2020}
 
 * È stato risolto un problema che si verificava all’apertura di un’attività **Read Audience** sui flussi di lavoro esistenti. (CAMP-41002)
 
-## Versione 20.1.3 - febbraio 2020 {#release-20-1-3---february-2020}
+## Versione 20.1.3 - Febbraio 2020 {#release-20-1-3---february-2020}
 
 * È stato risolto un problema di regressione introdotto in 20.1 da CAMP-39273 per i clienti che utilizzano la scappatoia. CAMP-39273 è stato ripristinato.
 
-## Versione 20.1.2 - febbraio 2020 {#release-20-1-2---february-2020}
+## Versione 20.1.2 - Febbraio 2020 {#release-20-1-2---february-2020}
 
 **Miglioramenti di E-mail Designer**
 
@@ -396,7 +394,7 @@ ht-degree: 98%
 * È stato risolto un problema che aggiungeva uno spazio quando si utilizzava contenuto dinamico. (CAMP-40605)
 * È stato risolto un problema durante la configurazione di un modello e-mail transazionale. (CAMP-40604)
 
-## Versione 20.1 - febbraio 2020 {#release-20-1---february-2020}
+## Versione 20.1 - Febbraio 2020 {#release-20-1---february-2020}
 
 **Quali sono le novità?**
 

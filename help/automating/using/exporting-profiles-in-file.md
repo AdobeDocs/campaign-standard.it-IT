@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Esportazione di profili in un file esterno
 description: Questo caso d’uso mostra come esportare un elenco di profili sotto forma di un file esterno in modo che i dati possano essere utilizzati al di fuori di Adobe Campaign.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 67%
+source-wordcount: '227'
+ht-degree: 68%
 
 ---
-
 
 # Esportazione di profili in un file esterno {#exporting-profiles-external-file}
 

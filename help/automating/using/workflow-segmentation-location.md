@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentazione sulla posizione"
 description: Questo caso d’uso mostra come eseguire la segmentazione sulla posizione.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 83%
 
 ---
-
 
 # Segmentazione sulla posizione {#segmentation-on-location}
 
@@ -66,4 +63,3 @@ Nota: per raggiungere tutte le persone che sono entrate a Boston, senza far dist
 1. Fai clic su **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
-

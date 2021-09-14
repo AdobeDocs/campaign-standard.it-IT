@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: Scopri il modello dati
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 6%
 
 ---
-
 
 # Consegna (nms:delivery)
 
@@ -60,7 +57,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Contenuto Adobe Experience Manager</td>
+                  <td>Contenuti Adobe Experience Manager</td>
                   <td>raccolta </td>
                   <td> </td>
                </tr>
@@ -102,7 +99,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>campaign (campaignBase)</td>
-                  <td>Campagna</td>
+                  <td>Campaign</td>
                   <td>collegamento </td>
                   <td> </td>
                </tr>
@@ -299,7 +296,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>etichetta</td>
+                  <td>label</td>
                   <td>Etichetta</td>
                   <td>string (128)</td>
                   <td> </td>
@@ -416,7 +413,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>programma (programBase)</td>
-                  <td>programma</td>
+                  <td>Programma</td>
                   <td>collegamento </td>
                   <td> </td>
                </tr>

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: Scopri il modello dati
 audience: developing
@@ -8,14 +6,13 @@ content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 7%
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
-
 
 # Programma (nms:program)
 
@@ -89,7 +86,7 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>etichetta</td>
+                  <td>label</td>
                   <td>Etichetta</td>
                   <td>string (128)</td>
                   <td> </td>
@@ -178,7 +175,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>title</td>
-                  <td>programma</td>
+                  <td>Programma</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>

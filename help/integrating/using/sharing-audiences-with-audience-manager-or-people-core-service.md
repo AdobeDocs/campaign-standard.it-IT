@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Condivisione dei tipi di pubblico con Audience Manager o il servizio core People
 description: Scopri come importare o esportare il pubblico all’interno delle diverse soluzioni Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Integrazione del servizio core People
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---

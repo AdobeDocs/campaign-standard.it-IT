@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Informazioni sull’integrazione dei dati Campaign-Punti di interesse
+title: Informazioni sull’integrazione di Campaign con i dati Punti di interesse
 description: Raccogliendo i dati dei punti di interesse dagli abbonati all’app mobile, invia messaggi di marketing basati sulla posizione agli abbonati tramite l’integrazione in Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Tipi di pubblico
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 6%
 
 ---
 
-# Informazioni sull’integrazione dei dati Campaign-Punti di interesse{#about-campaign-points-of-interest-data-integration}
+# Informazioni sull’integrazione di Campaign con i dati Punti di interesse{#about-campaign-points-of-interest-data-integration}
 
 Oltre a tenere traccia della presenza online dei clienti, puoi anche sfruttare le loro posizioni fisiche. Grazie all’integrazione con Adobe Analytics per dispositivi mobili, puoi utilizzare Adobe Campaign per inviare messaggi di marketing basati sulla posizione agli abbonati all’app mobile.
 

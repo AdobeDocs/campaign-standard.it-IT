@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Esportazione di elenchi
 description: 'Adobe Campaign consente di esportare i dati visualizzati come elenchi da una schermata di panoramica direttamente in un file per un utilizzo futuro. '
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '444'
 ht-degree: 6%
 
 ---
-
 
 # Esportazione di elenchi{#exporting-lists}
 
@@ -43,7 +40,7 @@ L&#39;elenco di esportazione è disponibile in tutte le schermate con una visual
 
    Viene visualizzata una finestra a comparsa per confermare l’esportazione. Dopo aver confermato l’esportazione, il file viene scaricato automaticamente nel computer.
 
-Il file viene generato in formato CSV con estensione TXT. Viene denominato in base alla risorsa esportata e alla data di esportazione. Ad esempio: il nome profileBase_20150426_120253.txt verrà applicato a un&#39;esportazione di profilo effettuata il 26 aprile 2015 alle 12:02:53. Viene codificato in formato UTF-8.
+Il file viene generato in formato CSV con estensione TXT. Viene denominato in base alla risorsa esportata e alla data di esportazione. Ad esempio: il nome profileBase_20150426_120253.txt verrà applicato a un&#39;esportazione di profilo effettuata il 26 aprile 2015 alle ore 12:02:53. Viene codificato in formato UTF-8.
 
 I valori numerici e le date tengono conto dell’ora locale (locale) dell’utente che esegue l’esportazione. Ad esempio: GG-MM-AAAA o MM-GG-AAAA.
 

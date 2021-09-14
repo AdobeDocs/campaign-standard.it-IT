@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Ciclo di vita di un flusso di lavoro
 description: Ulteriori informazioni sul ciclo di vita del flusso di lavoro
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
-
 
 # Ciclo di vita di un flusso di lavoro {#life-cycle}
 

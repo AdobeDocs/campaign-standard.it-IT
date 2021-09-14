@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personalizzazione di un’e-mail con dati aggiuntivi
 description: Questo caso d’uso illustra come aggiungere diversi tipi di dati aggiuntivi a una query e utilizzarla come campo di personalizzazione in un messaggio e-mail.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 85%
+source-wordcount: '479'
+ht-degree: 86%
 
 ---
-
 
 # Personalizzazione di un’e-mail con dati aggiuntivi {#example--personalizing-an-email-with-additional-data}
 

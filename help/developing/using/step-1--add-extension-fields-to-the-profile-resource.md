@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '"Passaggio 1: aggiungere campi di estensione alla risorsa del profilo"'
 description: Scopri come estendere la risorsa profilo.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 52%
+source-wordcount: '61'
+ht-degree: 55%
 
 ---
-
 
 # Passaggio 1: aggiungere campi di estensione alla risorsa del profilo{#step-add-extension-fields-to-the-profile-resource}
 
@@ -26,4 +23,3 @@ ht-degree: 52%
 1. Seleziona la risorsa **[!UICONTROL Profile]**.
 1. Fai clic su **[!UICONTROL Create]**.
 1. Aggiungi il campo **[!UICONTROL Text]** type **[!UICONTROL Promo code]** con l’ID **[!UICONTROL Brand]** nei campi delle risorse.
-

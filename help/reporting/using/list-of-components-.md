@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Elenco dei componenti '
 description: Trova qui l’elenco di tutti i componenti disponibili in     Rapporti dinamici e relative definizioni.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Generazione rapporti
+feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 2%
+source-wordcount: '1271'
+ht-degree: 1%
 
 ---
 

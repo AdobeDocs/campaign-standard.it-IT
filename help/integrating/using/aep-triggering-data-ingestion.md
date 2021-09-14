@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Attivazione dell’acquisizione dati tramite API
 description: Scopri come attivare l’acquisizione dei dati tramite API.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Integrazione con Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-translation-type: tm+mt
-source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
@@ -33,7 +30,7 @@ Questa pagina descrive come attivare e recuperare lo stato di acquisizione delle
 Prima di utilizzare le API , la mappatura dei dati deve essere stata configurata e pubblicata nell’interfaccia di Campaign Standard. Per ulteriori informazioni, consulta queste sezioni:
 
 * [Definizione mappature](../../integrating/using/aep-mapping-definition.md)
-* [Attivazione mappature](../../integrating/using/aep-mapping-activation.md)
+* [Attivazione delle mappature](../../integrating/using/aep-mapping-activation.md)
 
 Una volta creata la mappatura dei dati, devi impedirne l’esecuzione in modo da poterla attivare dalle API ogni volta che lo desideri. Per farlo, esegui questi passaggi:
 
@@ -47,7 +44,7 @@ Una volta creata la mappatura dei dati, devi impedirne l’esecuzione in modo da
 
 L’esecuzione della mappatura dati viene ora interrotta. È possibile utilizzare le API di Campaign Standard per attivarle manualmente.
 
-## Avvio dell&#39;acquisizione immediata della mappatura dei dati {#starting-immediate-ingestion}
+## Avvio dell’acquisizione immediata della mappatura dei dati {#starting-immediate-ingestion}
 
 L’acquisizione immediata di una mappatura XDM in Adobe Experience Platform viene attivata con un’operazione POST:
 

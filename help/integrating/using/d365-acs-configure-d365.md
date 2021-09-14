@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configurazione di Microsoft Dynamics 365 per l’integrazione con Campaign
 description: Scopri come configurare Microsoft Dynamics 365 per l’integrazione con Campaign.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '911'
 ht-degree: 1%
 
 ---
-
 
 # Configurazione di Microsoft Dynamics 365 per l’integrazione con Adobe Campaign Standard
 

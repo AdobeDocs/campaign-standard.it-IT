@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Scheduler
 description: L’attività Scheduler ti consente di pianificare quando viene avviato un flusso di lavoro o un’attività.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: schedule,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
-
-# Scheduler{#scheduler}
+# Attività Scheduler{#scheduler}
 
 ## Descrizione {#description}
 
@@ -82,4 +79,3 @@ Durante la progettazione di un flusso di lavoro pianificato che include più att
 Nell’esempio seguente, l’attività è configurata in modo che avvii il flusso di lavoro settimanalmente, ogni due lunedì alle 7, per una durata indeterminata.
 
 ![](assets/wkf_scheduler_example.png)
-

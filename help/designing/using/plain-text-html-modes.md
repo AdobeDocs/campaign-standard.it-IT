@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Modifica dei formati di testo normale, HTML e e-mail per dispositivi mobili
 description: Scopri le modalità testo normale e HTML
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Progettazione e-mail
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Deduplicazione di dati da un file importato
+title: Deduplica di dati da un file importato
 description: Questo esempio mostra come deduplicare dati da un file importato prima di caricarli nel database.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 631eb661-a696-4352-aa58-9097b391723e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 88%
+source-wordcount: '328'
+ht-degree: 89%
 
 ---
 
-
-# Deduplicazione di dati da un file importato {#deduplicating-the-data-from-an-imported-file}
+# Deduplica di dati da un file importato {#deduplicating-the-data-from-an-imported-file}
 
 Questo esempio mostra come deduplicare dati da un file importato prima di caricarli nel database. Questa procedura migliora la qualità dei dati caricati nel database.
 

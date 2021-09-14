@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Report notifiche push
+title: Rapporto notifiche push
 description: Con il rapporto preconfigurato sulle notifiche push, scopri il successo delle notifiche push.
 audience: reporting
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
 
-
-# Report notifiche push{#push-notification-report}
+# Rapporto notifiche push{#push-notification-report}
 
 >[!CAUTION]
 >
@@ -51,4 +48,3 @@ La seconda tabella **Notifiche push Clic e apre** è suddivisa in tre categorie:
 * **[!UICONTROL Unique clicks]**: Numero di volte in cui un utente univoco interagisce con la notifica push, ad esempio clic sulla notifica o sul pulsante.
 * **[!UICONTROL Open]**: Numero totale di notifiche push inviate al dispositivo e su cui gli utenti hanno fatto clic per aprire l’app. È simile al clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica è stata ignorata.
 * **[!UICONTROL Unique Opens]**: Numero di destinatari che hanno aperto la consegna.
-

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Configurazione dell’integrazione Campaign-Target
+title: Configurazione dell’integrazione di Campaign e Target
 description: Scopri come configurare l’integrazione Adobe Target per iniziare a utilizzare il contenuto dinamico in Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: working-with-campaign-and-target
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 4%
 
 ---
 
-
-# Configurazione dell’integrazione Campaign-Target{#configuring-the-campaign-target-integration}
+# Configurazione dell’integrazione di Campaign e Target{#configuring-the-campaign-target-integration}
 
 L’integrazione tra Adobe Campaign e Adobe Target consente di inserire contenuto dinamico nella consegna.
 

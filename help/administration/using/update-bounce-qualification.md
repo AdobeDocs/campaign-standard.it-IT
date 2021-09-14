@@ -1,22 +1,19 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Aggiornare la qualifica di mancato recapito dopo un'interruzione dell'ISP
+title: Aggiornare la qualifica di mancato recapito dopo un’interruzione del servizio ISP
 description: Scopri come aggiornare la qualifica del mancato recapito dopo un'interruzione dell'ISP.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-translation-type: tm+mt
-source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Aggiornare la qualifica del mancato recapito dopo un&#39;interruzione dell&#39;ISP {#update-bounce-qualification.md}
+# Aggiornare la qualifica di mancato recapito dopo un’interruzione del servizio ISP {#update-bounce-qualification.md}
 
 Se NON esegui la versione più recente di Campaign, questa sezione può essere valida per te. Contatta il tuo rappresentante Adobe Campaign.
 
@@ -50,8 +47,8 @@ In base al calendario dell’incidente, di seguito sono riportate le linee guida
 Per le istanze Campaign con informazioni sulla risposta non recapitata SMTP nel campo **[!UICONTROL Error text]** dell’elenco di quarantena:
 
 * **Testo di errore (testo di quarantena)** contiene &quot;550-5.1.1 L&#39;account e-mail che hai cercato di raggiungere non esiste&quot; E il testo di  **errore (testo di quarantena)** contiene &quot;support.google.com&quot; **
-* **Stato dell&#39;aggiornamento (@lastModified)** il o dopo il 14/12/2020 6:55:00
-* **Stato dell&#39;aggiornamento (@lastModified)** il 16/12/2020 6:00:00
+* **Stato dell&#39;aggiornamento (@lastModified)** il o dopo il 14/12/2020 6:55:00 AM
+* **Stato dell&#39;aggiornamento (@lastModified)** il 16/12/2020 6:00:00 AM o prima
 
 Una volta visualizzato l’elenco dei destinatari interessati, puoi impostarli su uno stato **[!UICONTROL Valid]** in modo che vengano rimossi dall’elenco di quarantena dal flusso di lavoro **[!UICONTROL Database cleanup]** oppure eliminarli dalla tabella.
 

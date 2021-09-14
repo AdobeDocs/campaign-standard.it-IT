@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Chiamata di un flusso di lavoro con parametri esterni
 description: Questa sezione descrive come chiamare un flusso di lavoro con parametri esterni.
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e6148b40-f608-4aab-81f6-756608c6828e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 6%
+source-wordcount: '108'
+ht-degree: 5%
 
 ---
 
-
-# Dichiarazione dei parametri nell&#39;attività del segnale esterno {#declaring-the-parameters-in-the-external-signal-activity}
+# Dichiarazione dei parametri nell’attività del segnale esterno {#declaring-the-parameters-in-the-external-signal-activity}
 
 Il primo passaggio per chiamare un flusso di lavoro con parametri consiste nel dichiararli in un’attività **[!UICONTROL External signal]** .
 
