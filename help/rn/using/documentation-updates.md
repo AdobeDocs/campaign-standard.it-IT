@@ -11,7 +11,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 **Nuove funzionalità incluse nella versione**
 
-Interfaccia di Experience Cloud unificata migliorata - [Ulteriori informazioni](../../start/using/interface-description.md#top-bar)
+Interfaccia Experience Cloud unificata e migliorata: [leggi tutto](../../start/using/interface-description.md#top-bar)
 
-Nuova funzionalità Audit Trail - [Ulteriori informazioni](../../administration/using/audit.md)
+Nuova funzionalità Audit Trail: [leggi tutto](../../administration/using/audit.md)
 
-Modalità diagnostica flusso di lavoro: [Ulteriori informazioni](../../automating/using/managing-execution-options.md)
+Modalità diagnostica per flussi di lavoro: [leggi tutto](../../automating/using/managing-execution-options.md)
 
-**Altri aggiornamenti alla documentazione in arrivo con la versione**
+**Altri aggiornamenti alla documentazione per questa versione**
 
 È stata aggiunta una nuova sezione su come rimuovere un indirizzo dall’elenco di quarantena. [Leggi tutto](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-La sezione **Quarantena rispetto a Elenco Bloccati** è stata chiarita. [Leggi tutto](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+La sezione **Quarantena rispetto a elenco Bloccati** è stata resa più chiara. [Leggi tutto](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ## Luglio 2021 {#doc-updates-july-2021}
 
@@ -62,7 +62,7 @@ La pagina **Pianificazione del rilascio** è stata aggiornata con nuove date. [L
 
 ## Aprile 2021 {#doc-updates-april-2021}
 
-È stata aggiunta una nuova sezione su come lavorare con le origini e le destinazioni Adobe Experience Platform per condividere i dati tra Campaign Standard e Adobe Real-time Customer Data Platform (RTCDP). [Leggi tutto](../../integrating/using/get-started-sources-destinations.md)
+È stata aggiunta una nuova sezione su come lavorare con le origini e le destinazioni di Adobe Experience Platform per condividere i dati tra Campaign Standard e Adobe Real-time Customer Data Platform (RTCDP). [Leggi tutto](../../integrating/using/get-started-sources-destinations.md)
 
 ## Marzo 2021 {#doc-updates-march-2021}
 
