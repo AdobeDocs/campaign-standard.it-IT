@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 40%
@@ -78,7 +78,7 @@ Con [Modelli di importazione](../../automating/using/importing-data-with-import-
 
 [L’esportazione dei ](../../automating/using/exporting-logs.md) registri consente di esportare i dati di registro tramite un flusso di lavoro semplice, che consente di analizzare i risultati delle campagne di marketing nei propri strumenti di reporting o BI.
 
-Sfrutta [Pacchetti](../../automating/using/managing-packages.md) per scambiare risorse tra diverse istanze della campagna, ad esempio per replicare la configurazione di un&#39;istanza o per trasferire dati da un server a un altro, incluse le risorse personalizzate.
+Sfrutta [Pacchetti](../../automating/using/managing-packages.md) per scambiare risorse tra diverse istanze della campagna, ad esempio per replicare la configurazione di un&#39;istanza o per trasferire dati da un server a un altro, incluse risorse personalizzate.
 
 Infine, [Esportazione di elenchi](../../automating/using/exporting-lists.md) consente di esportare qualsiasi elenco da Campaign Standard, ad esempio l’elenco dei profili di test, l’elenco degli indirizzi e-mail delle quarantene e così via.
 

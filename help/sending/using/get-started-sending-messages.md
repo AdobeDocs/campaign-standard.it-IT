@@ -7,7 +7,7 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 15%
@@ -77,7 +77,7 @@ Leggi tutto:
 
 Il recapito messaggi consente di misurare il successo delle campagne che raggiungono la casella in entrata dei destinatari senza rimbalzare o contrassegnare come spam.
 
-Campaign Standard fornisce diversi **strumenti di recapito** per aiutarti a migliorare il numero di messaggi consegnati correttamente: rapporti di valutazione della consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering di e-mail, gestione della quarantena, ecc.
+Campaign Standard fornisce diversi **strumenti di recapito** per aiutarti a migliorare il numero di messaggi consegnati correttamente: rapporti sulla velocità effettiva di consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
 
 Leggi tutto:
 

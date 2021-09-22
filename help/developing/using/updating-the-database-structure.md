@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,10 @@ Per applicare le modifiche eseguite sulle risorse, devi eseguire un aggiornament
    Per ulteriori informazioni sull’azione da eseguire nell’API Profiles &amp; Services API, consulta [Pubblicazione di una risorsa con estensione API](#publishing-a-resource-with-api-extension).
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >Poiché gli indici duplicati causano errori di pubblicazione, il passaggio di preparazione verifica se l’indice definito per la risorsa esiste già con lo stesso nome per un’altra risorsa. In questo caso, viene visualizzato un messaggio di errore che richiede di rinominare l&#39;indice. Vedere [Definizione degli indici](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Una volta effettuata la pubblicazione, fai clic sul pulsante **[!UICONTROL Publish]** per applicare le nuove configurazioni.
 1. Dopo la pubblicazione, il riquadro **[!UICONTROL Summary]** di ciascuna risorsa indica che adesso lo stato è **[!UICONTROL Published]** e specifica la data dell’ultima pubblicazione.

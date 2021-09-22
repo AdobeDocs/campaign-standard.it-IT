@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
         <li><a href="start/using/privacy-management.md">Privacy e gestione del consenso</a></li>
         <li><a href="automating/using/query.md">Progettare una query</a></li>
         <li><a href="automating/using/query-samples.md">Esempi di query</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configurare i canali mobili</a></li>
+        <li><a href="administration/using/push-tracking.md">Configurare i canali mobili</a></li>
         </ul>
     </td>
     </tr>
@@ -119,7 +119,7 @@ Il nuovo sistema di ticket è stato introdotto tramite [Adobe Admin Console](htt
 
 ### Chiedi agli esperti
 
-Iscriviti alla community Campaign Classic: consulta le risposte già fornite alle domande esistenti o sottoponi alla community le tue domande. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Iscriviti alla community Campaign Classic: consulta le risposte già fornite alle domande esistenti o sottoponi alla community le tue domande. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/it/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Crea un ticket o avvia una chat
 

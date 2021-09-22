@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Se il `DELIVER_SM PDU` non viene riconosciuto correttamente, è necessario verif
 
 Se hai corretto tutto ma alcuni SR non validi si trovano ancora nei buffer del provider, puoi ignorarli utilizzando l&#39;opzione **Numero di riconoscimenti ID non valido**. Questo deve essere utilizzato con cura e reimpostato a 0 il più rapidamente possibile dopo che i buffer sono puliti.
 
-## Problema durante l’elaborazione di MO (e blacklist/risposta automatica){#issue-process-MO}
+## Problema durante l&#39;elaborazione di MO (e risposta elenco Bloccati/automatica){#issue-process-MO}
 
 * Abilitare le tracce SMPP durante i test. Se non abiliti TLS, devi eseguire un&#39;acquisizione di rete durante la risoluzione dei problemi di MO per verificare che le PDU contengano le informazioni corrette e siano formattate correttamente.
 

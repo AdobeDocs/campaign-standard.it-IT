@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '4623'
 ht-degree: 8%
@@ -499,7 +499,7 @@ _Flussi di lavoro_
    <td> API di messaggistica transazionale<br /> </td> 
    <td> L'API di messaggistica transazionale è ora disponibile tramite <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, facilitando l'utilizzo e il monitoraggio di:<br /> 
     <ul> 
-     <li> Puoi sfruttare le funzionalità di reporting e monitoraggio di adobe.io platform. </li> 
+     <li> Puoi sfruttare le funzionalità di reporting e monitoraggio della piattaforma adobe.io. </li> 
      <li> L’autenticazione viene ora eseguita utilizzando l’autenticazione basata sul token adobe.io invece dell’inserire nell'elenco Consentiti IP, semplificando il processo di sicurezza. </li> 
      <li> Tutte le API sono ora integrate in un’unica piattaforma, semplificando al massimo l’aggiunta di funzionalità di messaggistica transazionale all’integrazione se supporti già l’API Profilo e servizi. </li> 
     </ul> </td> 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6954'
-ht-degree: 100%
+source-wordcount: '6933'
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ La pagina di panoramica di Campaign Standard è stata arricchita e riorganizzata
 
 La sezione Parametri del canale e-mail è stata integrata con maggiori informazioni relative ai campi delle maschere autorizzate e all’ID dei rapporti di consegna. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md)
 
-La configurazione di un’app mobile mediante gli SDK di Adobe Experience Platform è ora disponibile all’interno della documentazione di base, insieme a ulteriori informazioni relative all’app AEPSDK di Sync Mobile dal flusso di lavoro tecnico di Launch. [Ulteriori informazioni](../../administration/using/configuring-a-mobile-application.md)
+La configurazione di un’app mobile tramite gli SDK di Adobe Experience Platform è ora disponibile nella documentazione di base con ulteriori informazioni relative all’app AEPSDK di Sync Mobile dal flusso di lavoro tecnico Launch. [Leggi tutto](../../administration/using/configuring-a-mobile-application.md)
 
 ## Versione 20.3 - Maggio 2020 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ Nella sezione Eliminazione di una risorsa sono stati aggiunti avvisi sull’impa
 
 Sono state aggiunte informazioni sulle modalità di collegamento delle risorse personalizzate. [Ulteriori informazioni](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-È stata aggiunta una nuova nota tecnica su come visualizzare un’immagine da una notifica push di Adobe Campaign Standard. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/image-push-notification.html)
+È stata aggiunta una nuova nota tecnica su come visualizzare un’immagine da una notifica push di Adobe Campaign Standard. [Ulteriori informazioni](../../administration/using/image-push-notification.md)
 
-È stata aggiunta una nuova nota tecnica sull’implementazione del tracciamento push. [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-tracking.html)
+È stata aggiunta una nuova nota tecnica sull’implementazione del tracciamento push. [Ulteriori informazioni](../../administration/using/push-tracking.md)
 
 È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ La sezione “Risorse personalizzate” è stata chiarita con una procedura più
 
 È stata aggiornata e chiarita la [nota tecnica](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html) su come integrare con un’app mobile l’SDK di Adobe Marketing Cloud Mobile, in modo da ricevere le notifiche push di Adobe Campaign Standard.
 
-È stata aggiunta una nota tecnica che illustra la struttura del payload ricevuto all’interno di un’app mobile. [Ulteriori informazioni.](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
+È stata aggiunta una nota tecnica che illustra la struttura del payload ricevuto all’interno di un’app mobile. [Ulteriori informazioni.](../../administration/using/push-payload.md)
 
 La [sezione](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) Configurazione canale push è stata aggiornata con nuovi dati di payload sulla versione del sistema operativo da aggiungere durante la definizione dei postback all’interno dell’interfaccia di Adobe Mobile Services.
 

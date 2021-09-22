@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '5400'
+source-wordcount: '5403'
 ht-degree: 6%
 
 ---
@@ -250,7 +250,7 @@ Visualizza gli ultimi [aggiornamenti della documentazione](../../rn/using/docume
 * È stato risolto un problema che impediva la visualizzazione di campi personalizzati nella finestra di anteprima di una consegna di notifiche push.
 * È stato risolto un problema che impediva al testo di includere a capo automatico il corpo del messaggio di una notifica push nella finestra di anteprima.
 * È stato risolto un problema che si verificava durante l’invio di una consegna ricorrente da un flusso di lavoro se la destinazione principale era vuota.
-* È stato risolto un problema che impediva l&#39;accesso a una mappatura di destinazione se collegata a uno schema non esistente.
+* È stato risolto un problema che impediva l&#39;accesso a una mappatura di destinazione se collegata a uno schema inesistente.
 * È stato risolto un problema che poteva verificarsi durante l’importazione di un file zip tramite un’attività di caricamento file . (CAMP-24309)
 * È stato risolto un problema che causava un errore PostgreSQL durante l’invio di una consegna ricorrente. (CAMP-23613)
 * È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante l’invio di una richiesta API REST con un attributo JSON vuoto. (CAMP-23506)
@@ -469,7 +469,7 @@ Potrebbero verificarsi alcuni problemi durante l’utilizzo di collegamenti di a
      <li> scaricare immagini o altri file multimediali e aggiungerli come allegati a una notifica </li> 
      <li> modificare il corpo o il testo del titolo di una notifica </li> 
      <li> aggiungere un identificatore di thread a una notifica </li> 
-    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consulta la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentazione dettagliata</a>.<br /> <strong>Avvertenza:</strong> questi aggiornamenti sulle notifiche push richiedono ai clienti di aggiornare le loro applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-payload.html">questa nota tecnica</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consulta la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentazione dettagliata</a>.<br /> <strong>Avvertenza:</strong> questi aggiornamenti sulle notifiche push richiedono ai clienti di aggiornare le loro applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">questa nota tecnica</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegne ottimizzate in base al fuso orario<br /> </td> 

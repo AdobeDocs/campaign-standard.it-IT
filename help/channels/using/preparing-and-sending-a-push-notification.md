@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '852'
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ I passaggi per creare una notifica push con Adobe Campaign sono i seguenti:
 
    ![](assets/push_notif_content.png)
 
-   Il contenuto e le opzioni di notifica push configurati qui vengono passati alla tua app mobile sotto forma di payload. La struttura dettagliata del payload è descritta nella nota tecnica [Struttura del payload per le notifiche push di Campaign Standard](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/push-payload.html) .
+   Il contenuto e le opzioni di notifica push configurati qui vengono passati alla tua app mobile sotto forma di payload. La struttura dettagliata del payload è descritta nella nota tecnica [Struttura del payload per le notifiche push di Campaign Standard](../../administration/using/push-payload.md) .
 
 1. Fai clic su **[!UICONTROL Create]**.
 

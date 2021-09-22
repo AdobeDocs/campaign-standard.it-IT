@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in E
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Per visualizzare il modello del messaggio, fai clic sul pulsante **[!UICONTROL More]** in alto a destra, quindi seleziona **[!UICONTROL Trigger Transactional Template]**.
+1. Per visualizzare il modello di messaggio, fai clic sul pulsante **[!UICONTROL More]** in alto a destra, quindi fai clic su **[!UICONTROL Trigger Transactional Template]**.
 
 1. Personalizza il contenuto e i dettagli del mittente.
 

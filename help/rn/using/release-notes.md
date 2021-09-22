@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * Durante la creazione di una consegna ricorrente in un flusso di lavoro, collegata a un contenuto Adobe Experience Manager, ora lo stato di approvazione del contenuto viene controllato prima dell’invio.
 * Il limite di connessione al database è ora allineato con il pacchetto Campaign per evitare errori di connessione.
-* Una nuova verifica di coerenza nella pubblicazione delle risorse personalizzate impedisce agli utenti di creare indici duplicati, che causano errori di pubblicazione. Se necessario, un messaggio di errore migliorato chiede all’utente di rinominare l’indice.
+* Una nuova verifica di coerenza nella pubblicazione delle risorse personalizzate impedisce agli utenti di creare indici duplicati, che causano errori di pubblicazione. Se necessario, un messaggio di errore migliorato chiede all’utente di rinominare l’indice. [Ulteriori informazioni](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **Altre modifiche**
 

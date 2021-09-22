@@ -5,7 +5,7 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 40%
@@ -30,7 +30,7 @@ Puoi gestire gli abbonamenti anche tramite l’API Adobe Campaign Standard. Per 
 
 Per creare un meccanismo di abbonamento, effettua le seguenti operazioni:
 
-1. **Creare un servizio** : segui i passaggi descritti  [in questa ](../../audiences/using/creating-a-service.md) sezione per creare un servizio di abbonamento
+1. **Crea un servizio** : segui i passaggi descritti  [in questa ](../../audiences/using/creating-a-service.md) sezione per creare un servizio di abbonamento
 1. **Condividi il collegamento** : scopri come promuovere e condividere il servizio  [in questa pagina](../../audiences/using/promoting-a-service.md)
 1. **Monitoraggio degli abbonamenti** : scopri diversi modi per monitorare gli abbonamenti al servizio  [in questa sezione](../../audiences/using/monitoring-subscriptions.md)
 1. **Conferma abbonamenti** : segui  [questa ](../../audiences/using/confirming-subscription-to-a-service.md) esercitazione per inviare un messaggio di conferma dell’abbonamento
