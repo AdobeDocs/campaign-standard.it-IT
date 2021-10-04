@@ -4,10 +4,10 @@ description: Ulteriori informazioni sulla gestione della privacy con le API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ L&#39;endpoint API per la privacy è **/privacy/privacyTool**. La descrizione de
 
 La rinuncia al CCPA viene gestita utilizzando l&#39;attributo di profilo **ccpaOptOut** .
 
-Per ulteriori informazioni su Adobe Campaign Standard e sulla conformità in materia di privacy, consulta la [documentazione dedicata](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html).
+Per ulteriori informazioni su Adobe Campaign Standard e sulla conformità in materia di privacy, consulta la [documentazione dedicata](../../start/using/privacy-requests.md).
