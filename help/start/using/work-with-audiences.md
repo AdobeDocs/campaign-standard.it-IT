@@ -4,9 +4,9 @@ description: '"Scopri come personalizzare la visualizzazione e intervenire sulle
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '785'
 ht-degree: 9%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 9%
 
 I profili Adobe Campaign rappresentano tutti i contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie affinché tale profilo sia mirato, qualificato e monitorato individualmente. Questo significa che un profilo può essere: un cliente, un potenziale cliente, una persona abbonata a una newsletter, un destinatario, un utente o qualsiasi altra denominazione a seconda dell’organizzazione.
 
-**Leggi tutto**
+**Ulteriori informazioni**
 
 * [Informazioni sui profili](../../audiences/using/about-profiles.md)
 * [Accesso al numero di profili attivi nell&#39;organizzazione](../../audiences/using/active-profiles.md)
@@ -74,7 +74,7 @@ Le pagine di destinazione sono moduli web che possono essere utilizzati per racc
 
 Per ulteriori informazioni sulle pagine di destinazione, consulta la [documentazione dedicata](../../channels/using/getting-started-with-landing-pages.md).
 
-**Leggi tutto**
+**Ulteriori informazioni**
 
 * xxxx
 * xxxx
@@ -88,7 +88,7 @@ Questi contatti sono quindi visibili nell’elenco Profili e possono essere indi
 >
 >Il connettore Campaign Standard-Microsoft Dynamics 365 è attualmente a disponibilità limitata e soggetto a diverse limitazioni, descritte nella documentazione.
 
-**Leggi tutto**
+**Ulteriori informazioni**
 
 * xxxx
 * xxxx
@@ -101,7 +101,7 @@ Le API di Campaign Standard consentono di eseguire operazioni per aggiornare il 
 >
 >Prima di eseguire la creazione di massa dei profili o l’aggiornamento tramite chiamate API, controlla le limitazioni di scala corrispondenti al contratto di licenza. Per ulteriori informazioni, consulta [questa pagina](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-**Leggi tutto**
+**Ulteriori informazioni**
 
 * xxxx
 * xxxx
@@ -114,7 +114,7 @@ Per consentirti di inviare messaggi pertinenti ed efficaci e coinvolgere in modo
 
 Grazie ai flussi di lavoro e all’editor delle query, puoi creare tipi di pubblico interessati dalle diverse campagne, in base alle informazioni disponibili, alle loro attività, alla lingua, alle preferenze o alla cronologia di marketing. Questo ti consente di filtrare profili abbonati, ad esempio, o creare tipi di pubblico target su un numero illimitato di criteri.
 
-**Leggi tutto**
+**Ulteriori informazioni**
 
 * [Informazioni sui tipi di pubblico](../../audiences/using/about-audiences.md)
 * [Creazione di tipi di pubblico](../../audiences/using/creating-audiences.md)
@@ -127,7 +127,7 @@ Il RGPD è la nuova legge sulla privacy dell’Unione europea (UE) che armonizza
 
 Per ulteriori informazioni sugli strumenti e le funzionalità forniti da Adobe Campaign per aiutarti a diventare conforme ai requisiti RGPD, fai riferimento a questa [guida](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it) .
 
-**Leggi tutto**
+**Ulteriori informazioni**
 
 * xxxx
 * xxxx

@@ -9,9 +9,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Ogni oggetto e utente della piattaforma è collegato a un’unità organizzativa
 >
 >Per impostazione predefinita, l’unità organizzativa **[!UICONTROL All (all)]** viene assegnata al gruppo di sicurezza **[!UICONTROL Administrators]**. È di sola lettura e non può essere modificata.
 
-Un utente ha accesso in sola lettura a tutti gli oggetti nelle unità principali. Ha accesso in lettura e scrittura a tutti gli oggetti della sua unità e delle sue unità secondarie. Un utente non ha accesso agli oggetti nei rami paralleli.
+Un utente ha accesso in sola lettura a tutti gli oggetti nelle unità principali. Tale utente ha accesso in lettura e scrittura a tutti gli oggetti della sua unità e delle sue unità secondarie. Un utente non ha accesso agli oggetti nei rami paralleli.
 
 Per impostazione predefinita, sono disponibili solo le unità **[!UICONTROL All]**.
 
@@ -79,17 +79,17 @@ Per vedere l’impatto dell’assegnazione di unità diverse a gruppi di sicurez
 
 1. Seguire le stesse procedure per creare il secondo modello assegnato all&#39;unità organizzativa Geometrixx Clothes creata in precedenza.
 
-L’utente assegnato ai gruppi Utente standard e Abiti Geometrixx potrà visualizzare entrambi i modelli. A causa della struttura gerarchica delle unità organizzative, avrà accesso in lettura e scrittura al modello collegato all&#39;unità Abbigliamento Geometrixx e solo accesso in sola lettura al modello collegato all&#39;unità Geometrixx.
+Gli utenti assegnati ai gruppi **Utente standard** e **Abbigliamento Geometrixx** potranno visualizzare entrambi i modelli. A causa della struttura gerarchica delle unità organizzative, avranno accesso in lettura e scrittura al modello collegato all&#39;unità Abbigliamento Geometrixx e accesso in sola lettura al modello collegato all&#39;unità Geometrixx.
 
 ![](assets/manage_units_7.png)
 
-Poiché l’unità Abbigliamento Geometrixx è un’unità secondaria di Geometrixx, quando l’utente tenta di modificare il modello di Geometrixx viene visualizzato il seguente messaggio:
+Poiché l’unità Abiti Geometrixx è un’unità secondaria di Geometrixx, quando gli utenti tentano di modificare il modello di Geometrixx viene visualizzato il seguente messaggio:
 
 ![](assets/manage_units_8.png)
 
-Le unità organizzative possono limitare l’accesso a funzioni diverse, come i profili. Ad esempio, se l’utente di Geometrixx Clothes accede alla scheda **[!UICONTROL Profiles]** , potrà accedere e modificare completamente i profili con l’unità organizzativa Geometrixx Clothes .
+Le unità organizzative possono limitare l’accesso a funzioni diverse, come i profili. Ad esempio, se i nostri utenti di Abbigliamento Geometrixx accedono alla scheda **[!UICONTROL Profiles]** , saranno in grado di accedere e modificare completamente i profili con l’unità organizzativa Geometrixx.
 
-Mentre i profili con l’unità organizzativa Geometrixx saranno di sola lettura, se l’utente tenta di modificare un profilo viene visualizzato il seguente errore: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+Mentre i profili con l’unità organizzativa Geometrixx saranno di sola lettura, se gli utenti tentano di modificare un profilo viene visualizzato il seguente errore: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 

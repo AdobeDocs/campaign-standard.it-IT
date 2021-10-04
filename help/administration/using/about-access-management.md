@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Nel menu **[!UICONTROL Administration > Users & Security]**, l’amministratore 
 
 ![](assets/user_management_1.png)
 
-Gli utenti vengono gestiti in Admin Console (consulta la sezione [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md) o la [documentazione di Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html)).
+Gli utenti vengono gestiti nell&#39;Admin Console (consulta la sezione [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md) o la documentazione [Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 

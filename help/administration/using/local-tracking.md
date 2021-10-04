@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Per il tracciamento dei clic, è necessario inviare il valore &quot;2&quot; per 
 
 ### Per Android {#implement-click-tracking-android}
 
-Per tenere traccia dei clic, è necessario gestire due scenari:
+Per tenere traccia dei clic, è necessario implementare due scenari:
 
 * L’utente visualizza la notifica ma la cancella.
 
@@ -107,7 +107,7 @@ Devi inviare &quot;1&quot; e &quot;2&quot; perché l&#39;utente deve fare clic s
 
 Per tenere traccia dell&#39;apertura, è necessario creare un intento. Gli oggetti Intent consentono ad Android OS di chiamare il metodo al termine di determinate azioni, in questo caso facendo clic sulla notifica per aprire l’app.
 
-Questo codice si basa sull’implementazione del tracciamento delle impression dei clic. Con l’impostazione dell’intento, ora devi inviare nuovamente le informazioni di tracciamento ad Adobe Campaign. In questo caso, la visualizzazione Android([!DNL Activity]) che ha attivato la notifica verrà aperta o portata in primo piano come risultato del clic dell&#39;utente. L&#39;oggetto intento in [!DNL Activity] contiene i dati di notifica che possono essere utilizzati per tenere traccia dell&#39;apertura.
+Questo codice si basa sull’implementazione del tracciamento delle impression dei clic. Con l’impostazione dell’intento, ora devi restituire le informazioni di tracciamento ad Adobe Campaign. In questo caso, la visualizzazione Android([!DNL Activity]) che ha attivato la notifica verrà aperta o portata in primo piano come risultato del clic dell&#39;utente. L&#39;oggetto intento in [!DNL Activity] contiene i dati di notifica che possono essere utilizzati per tenere traccia dell&#39;apertura.
 
 MainActivity.java (estende [!DNL Activity])
 
@@ -128,7 +128,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

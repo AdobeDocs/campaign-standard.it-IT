@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 93%
+source-wordcount: '1204'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign ti consente di assegnare un set di ruoli agli utenti per definire
 
 I ruoli specifici e le autorizzazioni corrispondenti sono descritti nelle sezioni seguenti: [Elenco di ruoli](../../administration/using/list-of-roles.md) e di [autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
-Da Admin Console, gli amministratori possono gestire gli utenti. Gli utenti vengono quindi sincronizzati automaticamente con Adobe Campaign. Per ulteriori informazioni, consulta la documentazione di [Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html).
+Gli amministratori possono gestire gli utenti dall’Admin Console. Gli utenti vengono quindi sincronizzati automaticamente con Adobe Campaign. Per ulteriori informazioni, consulta la documentazione [Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html) .
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
@@ -43,12 +43,12 @@ Per accedere all’interfaccia di gestione degli utenti da Adobe Campaign, fai c
 
 Questa segmentazione degli utenti non è obbligatoria, ma è solo una rappresentazione dell’utilizzo più comune di Adobe Campaign.
 
-Questa sezione ti aiuta a capire i tipi principali di utenti di Adobe Campaign. In questo caso non approfondiamo tutti i ruoli specifici che un utente può assumere (consegne iniziali, esportazioni, preparazione di consegne, ecc.). Per ulteriori informazioni sui ruoli, consulta le pagine [Elenco di ruoli](../../administration/using/list-of-roles.md) e [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md).
+Questa sezione ti aiuta a capire i tipi principali di utenti di Adobe Campaign. Per ulteriori informazioni sui ruoli specifici che un utente può contenere (consegne iniziali, esportazioni, preparazione di consegne, ecc.), consulta le pagine [Elenco di ruoli](../../administration/using/list-of-roles.md) e [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md) .
 
 Ci concentreremo piuttosto sulla suddivisione delle diverse attività in Adobe Campaign tra tre tipi di utenti principali:
 
 * [Amministratori funzionali](#functional-administrators): sono i più tecnici tra tutti gli utenti dell’organizzazione.
-* [Utenti avanzati](#advanced-users): configurano tutti gli elementi necessari agli esperti marketing per inviare e monitorare le consegne.
+* [Utenti](#advanced-users) avanzati: configurano tutti gli elementi necessari agli esperti marketing per inviare e monitorare le consegne.
 * [Utenti di base](#basic-users): sono gli esperti marketing che personalizzano, distribuiscono e monitorano le campagne.
 
 >[!NOTE]
@@ -104,7 +104,7 @@ Di seguito sono elencate le attività principali che possono eseguire:
 
 ## Creazione di un utente {#creating-a-user}
 
-Per aggiungere un utente all’istanza, devi innanzitutto crearlo in Admin Console prima di gestirlo in Adobe Campaign Standard.
+Per aggiungere un utente all’istanza, devi prima crearlo nell’Admin Console prima di gestirlo in Adobe Campaign Standard.
 
 1. Dal menu avanzato, seleziona **[!UICONTROL Administration > Users & Security > Users]** e fai clic su **[!UICONTROL User administration]** per accedere ad Admin Console.
 
@@ -120,7 +120,7 @@ Per aggiungere un utente all’istanza, devi innanzitutto crearlo in Admin Conso
 
    ![](assets/create_user_3.png)
 
-1. Dalla scheda **[!UICONTROL Assign products]**, assegna uno o più gruppi di sicurezza all’utente. Per ulteriori informazioni sui gruppi di sicurezza, consulta questa [pagina](../../administration/using/managing-groups-and-users.md).
+1. Dalla scheda **[!UICONTROL Assign products]** , assegna uno o più gruppi di sicurezza all’utente. Per ulteriori informazioni sui gruppi di sicurezza, consulta questa [pagina](../../administration/using/managing-groups-and-users.md).
 
    Al termine della configurazione, fai clic su **[!UICONTROL Save]**.
 
@@ -130,7 +130,7 @@ L’utente viene ora creato e deve ricevere un messaggio e-mail di reindirizzame
 
 ![](assets/create_user_5.png)
 
-Non appena l’utente esegue l’accesso all’istanza, viene sincronizzato con Adobe Campaign Standard.
+Quando accedi all’istanza, questo utente verrà sincronizzato in Adobe Campaign Standard.
 
 Puoi quindi verificare che l’utente sia stato sincronizzato correttamente in Adobe Campaign:
 

@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1512'
 ht-degree: 4%
 
 ---
@@ -190,7 +190,7 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 1. Crea il flusso di lavoro per creare un pubblico dal file . A questo scopo, aggiungi e configura le attività seguenti:
 
    * **[!UICONTROL Load file]** attività: Importa il file CSV (per ulteriori informazioni su questa attività, consulta  [questa sezione](../../automating/using/load-file.md)).
-   * **[!UICONTROL Reconciliation]** attività: Collega le informazioni dal file alle informazioni dal database. In questo esempio, utilizzeremo l’indirizzo e-mail del profilo come campo di riconciliazione (per ulteriori informazioni su questa attività, consulta [questa sezione](../../automating/using/reconciliation.md)).
+   * **[!UICONTROL Reconciliation]** attività: Collega le informazioni dal file alle informazioni dal database. In questo esempio, utilizza l’indirizzo e-mail del profilo come campo di riconciliazione (per ulteriori informazioni su questa attività, consulta [questa sezione](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** attività: Crea un pubblico in base al file importato (per ulteriori informazioni su questa attività, consulta  [questa sezione](../../automating/using/save-audience.md)).
 
    ![](assets/substitution_uc2.png)

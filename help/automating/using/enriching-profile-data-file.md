@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 78%
+source-wordcount: '526'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +37,7 @@ Il flusso di lavoro è configurato come segue:
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   Con questo file di esempio, utilizzeremo l’indirizzo e-mail per riconciliare i dati con i profili del database. Puoi anche eseguire l’abilitazione di ID univoci, come descritto nel [presente documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   Con questo file di esempio, utilizza l’indirizzo e-mail per riconciliare i dati con i profili del database. Puoi anche eseguire l’abilitazione di ID univoci, come descritto nel [presente documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
 * Un&#39;attività [Enrichment](../../automating/using/enrichment.md) che crea un collegamento tra i dati della transazione caricati dal file e i profili selezionati in **[!UICONTROL Query]**. Il collegamento è definito nella scheda **[!UICONTROL Advanced relations]** dell’attività. Il collegamento è basato sulla transizione proveniente dall’attività **[!UICONTROL Load file]**. Come criteri di riconciliazione, utilizza il campo &quot;e-mail&quot; della risorsa profilo e la colonna &quot;cliente&quot; del file importato.
 

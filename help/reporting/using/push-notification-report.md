@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >Tieni presente che devi trascinare e rilasciare le metriche **[!UICONTROL Message type]** nelle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso le consegne di notifiche push.
 
-Il rapporto **Notifica push** fornisce dettagli sulle prestazioni di marketing delle notifiche push in Adobe Campaign. Questo rapporto pronto all’uso ti aiuterà a comprendere come gli utenti interagiscono con le notifiche push, le applicazioni mobili e le consegne.
+Il rapporto **Notifica push** fornisce dettagli sulle prestazioni di marketing delle notifiche push in Adobe Campaign. Questo rapporto pronto all’uso ti aiuta a capire come gli utenti interagiscono con le notifiche push, le applicazioni mobili e le consegne.
 
 Per implementare il tracciamento push è necessaria una certa configurazione nell’app mobile. Per i passaggi dettagliati, fai riferimento a questa [pagina](../../administration/using/push-tracking.md) .
 

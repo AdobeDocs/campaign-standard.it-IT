@@ -8,9 +8,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '636'
 ht-degree: 15%
 
 ---
@@ -57,7 +57,7 @@ Invita gli utenti ad accedere all&#39;applicazione e a gestire **gruppi di sicur
 
 Campaign Standard consente inoltre di monitorare le informazioni relative alla sicurezza. Puoi recuperare informazioni sulle esportazioni di dati effettuate dagli utenti tramite la schermata **[!UICONTROL Export audits]** e sfruttare la schermata **[!UICONTROL Licenses]** per monitorare tutte le licenze Campaign installate all’interno della tua organizzazione, nonché informazioni diverse come il numero di build, la versione di rilascio e i termini del contratto.
 
-Leggi tutto:
+Ulteriori informazioni:
 
 * [Gestione utenti](../../administration/using/users-management.md)
 * [Unità organizzative](../../administration/using/organizational-units.md)
@@ -76,7 +76,7 @@ Configura vari parametri **e-mail**: regole di elaborazione per rimbalzo, quaran
 
 Imposta **applicazioni mobili** per poter inviare messaggi in-app e notifiche push utilizzando gli SDK Adobe Experience Platform.
 
-Leggi tutto:
+Ulteriori informazioni:
 
 * [Informazioni sulla configurazione dei canali](../../administration/using/about-channel-configuration.md)
 * [Configurazione del canale e-mail](../../administration/using/configuring-email-channel.md)
@@ -93,7 +93,7 @@ Imposta **account esterni**, utilizzati per collegare Adobe Campaign a server es
 
 Definisci uno o più **marchi** per la tua organizzazione e configura l&#39;invio di **notifiche in tempo reale** all&#39;interno dell&#39;applicazione in caso di importanti attività del sistema.
 
-Leggi tutto:
+Ulteriori informazioni:
 
 * [Informazioni sulle impostazioni di Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Account esterni](../../administration/using/external-accounts.md)

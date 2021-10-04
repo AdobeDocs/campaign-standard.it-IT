@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 53%
+source-wordcount: '157'
+ht-degree: 38%
 
 ---
 
@@ -34,4 +34,4 @@ Di seguito sono riportati i valori di conservazione predefiniti per le tabelle s
 
 Utilizzando la funzionalità standard del flusso di lavoro, è possibile impostare periodi di conservazione per qualsiasi tabella personalizzata.
 
-Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
+Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla fidelizzazione o per impostare la fidelizzazione per le tabelle personalizzate.

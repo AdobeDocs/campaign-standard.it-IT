@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '916'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ Una volta elaborata la richiesta, i comandi di crittografia/decrittografia saran
 
 ## Caso di utilizzo: Importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign {#use-case-gpg-decrypt}
 
-In questo caso d’uso, creeremo un flusso di lavoro per importare i dati crittografati in un sistema esterno, utilizzando una chiave generata nel Pannello di controllo Campaign.
+In questo caso d’uso, crea un flusso di lavoro per importare i dati crittografati in un sistema esterno utilizzando una chiave generata nel Pannello di controllo Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
@@ -58,7 +58,7 @@ I passaggi per eseguire questo caso d’uso sono i seguenti:
 
 1. Nel sistema esterno, utilizza la chiave pubblica scaricata dal Pannello di controllo Campaign per crittografare i dati da importare in Campaign Standard.
 
-1. In Campaign Standard, crea un flusso di lavoro per importare i dati crittografati e decrittografarli utilizzando la chiave privata installata tramite il Pannello di controllo Campaign. A questo scopo, verrà creato un flusso di lavoro come segue:
+1. In Campaign Standard, crea un flusso di lavoro per importare i dati crittografati e decrittografarli utilizzando la chiave privata installata tramite il Pannello di controllo Campaign. A questo scopo, crea un flusso di lavoro come segue:
 
    ![](assets/gpg_workflow.png)
 
@@ -87,7 +87,7 @@ I passaggi per eseguire questo caso d’uso sono i seguenti:
 
 ## Caso di utilizzo: Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign {#use-case-gpg-encrypt}
 
-In questo caso d’uso, creeremo un flusso di lavoro per crittografare ed esportare i dati utilizzando una chiave installata sul Pannello di controllo Campaign.
+In questo caso d’uso, crea un flusso di lavoro per crittografare ed esportare i dati utilizzando una chiave installata sul Pannello di controllo Campaign.
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
@@ -97,7 +97,7 @@ I passaggi per eseguire questo caso d’uso sono i seguenti:
 
    ![](assets/gpg_install.png)
 
-1. In Campaign Standard, crea un flusso di lavoro per esportare i dati e cifrarli utilizzando la chiave privata installata tramite il Pannello di controllo Campaign. A questo scopo, verrà creato un flusso di lavoro come segue:
+1. In Campaign Standard, crea un flusso di lavoro per esportare i dati e cifrarli utilizzando la chiave privata installata tramite il Pannello di controllo Campaign. A questo scopo, crea un flusso di lavoro come segue:
 
    ![](assets/gpg-workflow-export.png)
 

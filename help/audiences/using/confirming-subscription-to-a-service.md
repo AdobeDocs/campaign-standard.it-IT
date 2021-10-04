@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 90%
 
 ---
 
@@ -116,11 +116,11 @@ L’e-mail di conferma è un messaggio transazionale basato sull’evento appena
 
 1. Fai clic su **[!UICONTROL Confirm]** e salva il servizio.
 
-Ogni volta che un profilo si abbona a questo servizio, riceve il messaggio transazionale definito da te, con campi di personalizzazione mappati sul servizio selezionato.
+Ora, quando i profili si abbonano a questo servizio, ricevono il messaggio transazionale definito dall’utente, con campi personalizzati mappati al servizio selezionato.
 
 >[!NOTE]
 >
->La prima volta che l’utente si abbona, gli viene inviato un messaggio.
+>Un messaggio viene inviato solo la prima volta che l’utente si abbona.
 
 ## Configurazione del messaggio di conferma da una pagina di destinazione {#configuring-confirmation-message-from-landing-page}
 
@@ -190,8 +190,8 @@ Per creare e configurare questa pagina di destinazione, segui questi passaggi:
 
 1. [Verifica e pubblica](../../channels/using/testing-publishing-landing-page.md) la pagina di destinazione.
 
-Ogni volta che un profilo si abbona alla newsletter inviando la pagina di destinazione, riceve il messaggio di conferma definito con campi di personalizzazione mappati sul servizio.
+Ora, quando i profili si abbonano alla newsletter inviando la pagina di destinazione, ricevono il messaggio di conferma definito con campi personalizzati mappati al servizio.
 
 >[!NOTE]
 >
->A ogni invio della pagina di destinazione viene inviato un messaggio, anche se il profilo risulta già abbonato.
+>A ogni invio della pagina di destinazione viene inviato un messaggio, anche se il profilo è già abbonato.

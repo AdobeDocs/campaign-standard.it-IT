@@ -9,9 +9,9 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '744'
 ht-degree: 7%
 
 ---
@@ -57,7 +57,7 @@ Adobe Campaign fornisce una serie di strumenti per monitorare e migliorare le pr
 
 ### Crea il messaggio con attenzione
 
-Durante la configurazione, la progettazione e il test del messaggio, assicurati di seguire le best practice menzionate nelle sezioni elencate di seguito. Sfruttando tutte le funzioni fornite da Adobe Campaign potrai migliorare il recapito messaggi.
+Durante la configurazione, la progettazione e il test del messaggio, assicurati di seguire le best practice menzionate nelle sezioni elencate di seguito. L’utilizzo di tutte le funzioni fornite da Adobe Campaign consente di migliorare il recapito messaggi.
 
 * [Best practice per la consegna](../../sending/using/delivery-best-practices.md)
 * [Controllo dei contenuti dell’e-mail](../../sending/using/control-email-content.md)

@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '7589'
+source-wordcount: '7588'
 ht-degree: 8%
 
 ---
@@ -65,12 +65,12 @@ ht-degree: 8%
 * La finestra a comparsa del consenso per il reporting dinamico è stata aggiornata per includere l’integrazione di Adobe Campaign Standard e Microsoft Dynamics 365. Accettando i termini, i dati di profilo saranno inclusi quando si utilizza l’integrazione Adobe Campaign Standard / Microsoft Dynamics 365 e la funzione di reporting dinamico. [Leggi tutto](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)  (CAMP-29766)
 * È stato risolto un problema che causava la visualizzazione di date di contatto errate durante la ricezione degli avvisi di consegna.
 * Quando un evento di messaggio transazionale viene inviato con un parametro di contesto sconosciuto, Campaign ora restituisce un messaggio di errore &quot;400&quot; invece di &quot;500&quot;. (CAMP-28632)
-* Nel reporting dinamico è stato aggiunto un nuovo segmento **Escludi bozza** . Questo segmento viene ora selezionato per impostazione predefinita per filtrare i rapporti. [Leggi tutto](../../reporting/using/list-of-components-.md#segments)
-* L’opzione **Scadenza messaggio** è stata aggiunta alla notifica push. Ti consente di specificare una data di scadenza in cui il messaggio non verrà più inviato da Apple (APNS) o Android (FCM). [Leggi tutto](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Sono stati apportati miglioramenti all&#39;attività **Load file** : i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all’errore che si verifica quando un file non viene caricato. La transizione in uscita generata quando si attiva l&#39;opzione **Mantieni i rifiuti in un file** è stata rinominata **Rifiuti**. [Leggi tutto](../../automating/using/load-file.md)
+* Nel reporting dinamico è stato aggiunto un nuovo segmento **Escludi bozza** . Questo segmento viene ora selezionato per impostazione predefinita per filtrare i rapporti. [Ulteriori informazioni](../../reporting/using/list-of-components-.md#segments)
+* L’opzione **Scadenza messaggio** è stata aggiunta alla notifica push. Ti consente di specificare una data di scadenza in cui il messaggio non verrà più inviato da Apple (APNS) o Android (FCM). [Ulteriori informazioni](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* Sono stati apportati miglioramenti all&#39;attività **Load file** : i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all’errore che si verifica quando un file non viene caricato. La transizione in uscita generata quando si attiva l&#39;opzione **Mantieni i rifiuti in un file** è stata rinominata **Rifiuti**. [Ulteriori informazioni](../../automating/using/load-file.md)
 * I registri relativi a più lingue sono stati aggiunti ai registri di invio per comprendere meglio gli errori di invio a causa di lingue mancanti nei file CSV caricati.
 
-**Miglioramenti della sicurezza**
+**Miglioramenti di sicurezza**
 
 * È stato risolto un problema che, durante l’eliminazione delle informazioni di un profilo quanrantined tramite una richiesta di accesso a dati, causava la rimozione di tutti i dati eccetto l’indirizzo e-mail nell’elenco di quarantena.
 * È stata migliorata la protezione contro le iniezioni nelle intestazioni e-mail.
@@ -80,7 +80,7 @@ ht-degree: 8%
 
 * È stato risolto un problema che impediva il tracciamento dei collegamenti di annullamento dell’abbonamento, abbonamento e pagina di destinazione quando venivano inseriti in un messaggio e-mail. (CAMP-37809)
 * È stato risolto un problema che poteva causare errori durante la creazione di un nuovo messaggio e-mail e la selezione di un modello. (CAMP-38000)
-* Durante la modifica di un collegamento tramite E-mail Designer, è ora possibile utilizzare l’opzione **Sottolineato collegamento**. Inoltre, è stata aggiunta una proprietà **Target** con il valore predefinito impostato su **None**. [Leggi tutto](../../designing/using/styles.md#about-styling-links)
+* Durante la modifica di un collegamento tramite E-mail Designer, è ora possibile utilizzare l’opzione **Sottolineato collegamento**. Inoltre, è stata aggiunta una proprietà **Target** con il valore predefinito impostato su **None**. [Ulteriori informazioni](../../designing/using/styles.md#about-styling-links)
 * È stato risolto un problema di colore sui collegamenti nei componenti di testo nel corpo di un’e-mail. (CAMP-37330)
 * È stato risolto un problema che impediva la rimozione dei collegamenti associati durante l’eliminazione di un’immagine. (CAMP-37234)
 * È stato risolto un problema che impediva il salvataggio delle modifiche nelle impostazioni **Ordine** del contenuto dinamico in una condizione. (CAMP-36883)
@@ -168,7 +168,7 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-**Miglioramenti della sicurezza**
+**Miglioramenti di sicurezza**
 
 * È stato risolto un problema di sicurezza per impedire attacchi di tipo Denial of Service (DoS) su richieste non valide per ottenere immagini. (CAMP-33454)
 
@@ -321,7 +321,7 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-**Miglioramenti della sicurezza**
+**Miglioramenti di sicurezza**
 
 * È stato risolto un potenziale problema di sicurezza del click-jacking nell&#39;area di lavoro di reporting.
 
@@ -444,7 +444,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
  </tbody> 
 </table>
 
-**Miglioramenti della sicurezza**
+**Miglioramenti di sicurezza**
 
 * Il codice HTML della pagina di destinazione generato è stato aggiornato per impedire l’indicizzazione del motore di ricerca.
 
@@ -454,7 +454,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 
    Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/using-reusable-content.md#content-templates).
 
-* La nuova esperienza di onboarding ti aiuterà a iniziare la creazione delle e-mail più rapidamente e ti darà un accesso più semplice alla documentazione e alle esercitazioni.
+* La nuova esperienza di onboarding ti consente di avviare la creazione di e-mail più rapidamente e di accedere più facilmente alla documentazione e alle esercitazioni.
 
    Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 

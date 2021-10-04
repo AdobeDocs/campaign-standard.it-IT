@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 79%
+source-wordcount: '1256'
+ht-degree: 77%
 
 ---
 
@@ -82,7 +82,7 @@ Tre schede consentono di trovare aiuto e assistenza:
 
 ## Menu avanzato {#advanced-menu}
 
-Il menu avanzato viene visualizzato facendo clic sull’icona di **Adobe Campaign**, nell’angolo in alto a sinistra di ciascuna schermata. Il menu avanzato può variare a seconda del contratto e delle autorizzazioni dell’utente.
+Il menu avanzato viene visualizzato facendo clic sull&#39;icona **Adobe Campaign** nell&#39;angolo in alto a sinistra di ciascuna schermata. Il menu avanzato può variare a seconda del contratto e delle autorizzazioni dell’utente.
 
 Questo menu ti consente di passare a specifiche funzionalità e impostazioni.
 

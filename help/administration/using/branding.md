@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 80%
+source-wordcount: '1279'
+ht-degree: 77%
 
 ---
 
@@ -95,7 +95,7 @@ Puoi aggiungere nuove entità dell’organizzazione in Campaign o creare un nuov
    >
    >Il Pannello di controllo Campaign è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 
-1. **Crea un ticket** : una volta configurato il sottodominio, Adobe dovrà configurarlo nell’ambiente di produzione. Per richiedere questo, [crea un ticket per l&#39;assistenza clienti](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
+1. **Crea un ticket** : una volta configurato il sottodominio, Adobe lo configurerà nell’ambiente di produzione. Per richiedere questo, [crea un ticket per l&#39;assistenza clienti](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
 
    * Oggetto: ACS Nuova configurazione del brand
 
@@ -145,13 +145,13 @@ Il modello è collegato al brand. Nell’editor e-mail, gli elementi come l’**
 
 In questo esempio, creeremo un nuovo brand connesso ai viaggi e lo utilizzeremo in un’e-mail.
 
-#### Configurare un nuovo brand {#configure-a-new-brand}
+#### Passaggio 1: Configurare un nuovo brand {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >La configurazione del brand è gestita solo da Adobe in quanto richiede autorizzazioni specifiche e impostazioni tecniche.
 
-1. L’amministratore di Adobe Campaign crea il brand in **[!UICONTROL Administration > Instance settings > Brand configuration]**. Aggiunge l’elemento **Vacations in the Tropics** dal menu avanzato e configura l’**[!UICONTROL ID]** e i **[!UICONTROL Header parameters of sent emails]** del brand.
+1. L’amministratore di Adobe Campaign crea prima il brand dal menu **[!UICONTROL Administration > Instance settings > Brand configuration]** e aggiunge le **Vacanze nei tropici** e configura i **[!UICONTROL ID]** e i **[!UICONTROL Header parameters of sent emails]** del brand.
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ In questo esempio, creeremo un nuovo brand connesso ai viaggi e lo utilizzeremo 
 
 Il brand è creato e configurato correttamente. Ora può essere utilizzato dai team di marketing.
 
-#### Implementare un nuovo brand {#implement-a-new-brand}
+#### Passaggio 2: Implementare un nuovo brand {#implement-a-new-brand}
 
 In qualità di responsabile della consegna, hai il compito di creare i modelli di consegna per utilizzare il nuovo brand. A questo scopo, segui i passaggi seguenti:
 
@@ -182,7 +182,7 @@ In qualità di responsabile della consegna, hai il compito di creare i modelli d
 
    Ora è possibile utilizzare il modello di consegna per creare e-mail che verranno inviate a un pubblico.
 
-#### Utilizzare il nuovo brand in una consegna {#use-the-new-brand-in-a-delivery}
+#### Passaggio 3: Utilizzare il nuovo brand in una consegna {#use-the-new-brand-in-a-delivery}
 
 Per creare un’e-mail collegata a un brand, segui i passaggi seguenti:
 

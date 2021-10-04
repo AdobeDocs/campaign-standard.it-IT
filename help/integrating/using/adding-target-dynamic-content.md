@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 4%
@@ -41,7 +41,7 @@ Prima di accedere all’immagine in Adobe Campaign, è necessario eseguire le se
 1. Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Ulteriori informazioni sulle autorizzazioni Enterprise di Target in [questa pagina](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). Questo campo è facoltativo e non obbligatorio se non si utilizzano le autorizzazioni Enterprise in Target.
 1. In **[!UICONTROL Additional decision parameters]**, specifica la mappatura tra i campi definiti nei segmenti Adobe Target e i campi Adobe Campaign.
 
-   I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. In questo caso, definiremo esperienze diverse a seconda del genere del destinatario.
+   I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. In questo esempio, definisci esperienze diverse a seconda del genere del destinatario.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 

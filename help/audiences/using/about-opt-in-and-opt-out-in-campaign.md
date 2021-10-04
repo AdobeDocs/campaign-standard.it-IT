@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 9%
+source-wordcount: '223'
+ht-degree: 8%
 
 ---
 
@@ -27,6 +27,6 @@ I profili di rinuncia vengono automaticamente esclusi durante l’analisi della 
 
 >[!NOTE]
 >
->La rinuncia si applica a **Profili**, invece della quarantena collegata a un **indirizzo e-mail** o a **numero di telefono**. La rinuncia a un profilo esclude quindi dalle consegne tutti gli indirizzi ad esso collegati. Tuttavia, se un utente ha due profili nel database, sarà comunque oggetto di targeting per le consegne in quanto viene escluso solo uno dei profili. Per escludere tutti i suoi indirizzi, aggiungili agli indirizzi messi in quarantena. Per ulteriori informazioni, consulta [questa pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>La rinuncia si applica a **Profili**, invece della quarantena collegata a un **indirizzo e-mail** o a **numero di telefono**. La rinuncia a un profilo esclude quindi dalle consegne tutti gli indirizzi ad esso collegati. Tuttavia, se un utente dispone di due profili nel database, questo utente sarà ancora oggetto di targeting da parte delle consegne, in quanto viene escluso solo uno dei suoi profili. Per escludere tutti i suoi indirizzi, aggiungili agli indirizzi messi in quarantena. Per ulteriori informazioni, consulta [questa pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 Per ulteriori informazioni sugli abbonamenti ai servizi, consulta [questa pagina](../../audiences/using/about-subscriptions.md).

@@ -9,16 +9,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
 
 # Configurazione delle regole di Launch per supportare casi d’uso di Adobe Campaign Standard {#configuring-rules-launch}
 
-In [!DNL Adobe Experience Platform Launch] devi creare elementi dati e regole per inviare dati PII e altri dati dalle applicazioni mobili a [!DNL Adobe Campaign Standard].
+In [!DNL Adobe Experience Platform Launch], crea elementi dati e regole per inviare dati PII e altri dati dalle applicazioni mobili a [!DNL Adobe Campaign Standard].
 
 Per fare in modo che tutte le modifiche di configurazione in [!DNL Adobe Experience Platform Launch] abbiano effetto, devi pubblicare queste modifiche. Per ulteriori informazioni, consulta [Pubblicazione](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
@@ -189,7 +189,7 @@ Per inviare dati di tracciamento a [!DNL Adobe Campaign Standard] per ottenere r
 >
 >Se utilizzi Android ACPCore v1.4.0 o versioni successive/ iOS ACPCore v2.3.0 o versioni successive, la configurazione dei postback di tracciamento non è necessaria.
 
-Per inviare i dati di tracciamento a [!DNL Adobe Campaign Standard], che consente di monitorare le consegne di notifiche push e l’interazione degli utenti con la tua app mobile, devi creare una regola in [!DNL Experience Platform Launch].
+Per inviare i dati di tracciamento a [!DNL Adobe Campaign Standard], che consente di tenere traccia delle consegne di notifiche push e dell’interazione degli utenti con la tua app mobile, devi creare una regola in [!DNL Experience Platform Launch].
 
 Per ulteriori informazioni sul tracciamento push, consulta [Tracciamento push](../../administration/using/push-tracking.md).
 

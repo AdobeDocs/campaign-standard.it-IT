@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ Nella scheda **[!UICONTROL General]** , imposta **[!UICONTROL Execution frequenc
 
    ![](assets/update_profile_createelement.png)
 
-1. Nel campo **[!UICONTROL Source]** , seleziona un campo dalla tabella appSubscriptionRcp come campo di riconciliazione. Può essere l’e-mail, il crmId, il marketingCloudId, ecc. del profilo. In questo caso di esempio, utilizzeremo il campo &quot;Email (cusEmail)&quot;.
+1. Nel campo **[!UICONTROL Source]** , seleziona un campo dalla tabella appSubscriptionRcp come campo di riconciliazione. Può essere l’e-mail, il crmId, il marketingCloudId, ecc. del profilo. In questo esempio, utilizza il campo &quot;Email (cusEmail)&quot;.
 
 1. Nel campo **[!UICONTROL Destination]** , seleziona un campo dalla tabella del profilo per riconciliare i dati dalla tabella appSubscriptionRcp. Può essere l’e-mail del profilo o qualsiasi campo esteso come crmId, marketingCloudId, ecc. In questo esempio, è necessario selezionare il campo &quot;Email (email)&quot; per mapparlo con il campo &quot;Email (cusEmail)&quot; dalla tabella appSubscriptionRcp.
 

@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 7%
+source-wordcount: '1273'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Le notifiche push e le implementazioni in-app devono essere eseguite da utenti esperti. Se hai bisogno di assistenza, contatta il responsabile dell’account di Adobe o un partner di servizi professionali.
+>Le notifiche push e le implementazioni in-app devono essere eseguite da utenti esperti. Per assistenza, contatta il tuo Adobe Account Executive o il tuo partner di servizi professionali.
 
 Per inviare notifiche push e messaggi in-app con Experience Platform SDK, un’app mobile deve essere configurata in Adobe Experience Platform Experience Platform Experience Platform Launch e configurata in Adobe Campaign.
 

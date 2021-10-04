@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ L’aggiornamento dei profili viene eseguito con una richiesta **PATCH**.
 
 1. Il primo passo è quello di **recuperare il profilo**.
 
-1. In una seconda richiesta, eseguiremo una **richiesta PATCH** sul profilo con le informazioni completate nel payload.
+1. In una seconda richiesta, esegui una **richiesta PATCH** sul profilo con le informazioni completate nel payload.
 
 1. Per verificare se la richiesta di PATCH ha aggiornato il profilo, possiamo eseguire una richiesta finale di GET.
 

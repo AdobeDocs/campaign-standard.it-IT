@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '913'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ A questo scopo, segui i passaggi riportati qui sotto:
 
 ## Cosa devo fare per arricchire un profilo mobile in Campaign? {#enrich-mobile-profile}
 
-Devi configurare un postback CollectPII (consulta questa [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)) e implementare l&#39;API CollectPII dall&#39;SDK (consulta questa [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Devi configurare un postback CollectPII (fai riferimento a questa [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)) e implementare l&#39;API CollectPII dall&#39;SDK (consulta questa [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## Con quale frequenza dovrebbe essere attivata una chiamata CollectPII? {#collect-pii}
 

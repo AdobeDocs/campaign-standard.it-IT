@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -101,7 +101,7 @@ In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in E
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Fa clic su un collegamento, che lo porta al tuo sito web. In questo esempio, il banner conduce il destinatario alla pagina Home del tuo sito web di prenotazione di viaggi.
+1. Il destinatario fa clic su un collegamento che lo porta al tuo sito web. In questo esempio, il banner conduce il destinatario alla pagina Home del tuo sito web di prenotazione di viaggi.
 
    ![](assets/trigger_uc_browse_11.png)
 

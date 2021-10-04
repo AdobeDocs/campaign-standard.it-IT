@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1328'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Per utilizzare la funzione dati del punto di interesse con le applicazioni mobil
 
 Per raccogliere i dati dei punti di interesse con Adobe Campaign, devi configurare l’app mobile da cui Adobe Campaign riceverà i dati.
 
-1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
+1. Fai clic sul logo **Adobe** nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Fare clic su **[!UICONTROL Create]** per impostare un&#39;applicazione.
 1. Immetti un nome nel campo **[!UICONTROL Application name]** e fai clic su **[!UICONTROL Create]**.
 
