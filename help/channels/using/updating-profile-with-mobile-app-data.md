@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '996'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,8 @@ L&#39;obiettivo di questo caso d&#39;uso è quello di creare o aggiornare un pro
 Esistono diversi passaggi di configurazione da seguire per abilitare le notifiche push in Campaign Standard, prima che i profili possano essere creati o aggiornati in base ai dati di abbonamento alle app mobili:
 
 1. [Creare un’applicazione mobile](../../administration/using/configuring-a-mobile-application.md)
-1. [Integra l’SDK di Adobe Mobile con la tua app](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html) mobile.
-1. [Configura Adobe Campaign per l’invio di notifiche push](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
+1. [Integra l’SDK di Adobe Mobile con la tua app](../../administration/using/supported-mobile-use-cases.md) mobile.
+1. [Configura Adobe Campaign per l’invio di notifiche push](../../administration/using/configuring-a-mobile-application.md).
 
 ## Passaggio 1: estendere la risorsa Profilo per le notifiche push/sottoscrizioni
 

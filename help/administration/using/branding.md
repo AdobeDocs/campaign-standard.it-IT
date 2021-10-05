@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 77%
+source-wordcount: '1282'
+ht-degree: 76%
 
 ---
 
@@ -89,7 +89,7 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 Puoi aggiungere nuove entità dell’organizzazione in Campaign o creare un nuovo tipo di e-mail da inviare con un sottodominio diverso. Per eseguire questa operazione, effettua le seguenti operazioni:
 
-1. **Configura un nuovo sottodominio** : per qualsiasi nuovo sottodominio da utilizzare come Adobe, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgiti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
+1. **Configura un nuovo sottodominio** : per qualsiasi nuovo sottodominio da utilizzare come Adobe, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgiti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >

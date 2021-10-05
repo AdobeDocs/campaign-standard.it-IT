@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Poiché i messaggi in-app vengono richiamati dall’SDK da Campaign, vogliamo fo
 
 ## Cosa devo fare per abilitare il reporting in-app in Campaign? {#enable-inapp-reporting}
 
-Devi configurare il postback di tracciamento in-app. Le istruzioni sono disponibili [qui](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+Devi configurare il postback di tracciamento in-app. Le istruzioni sono disponibili [qui](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
 Per implementare il tracciamento delle notifiche locali, fai riferimento a questa [pagina](../../administration/using/local-tracking.md).
 

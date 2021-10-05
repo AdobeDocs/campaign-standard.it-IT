@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 3%
 
 ---
@@ -216,7 +216,7 @@ Per comprendere gli aspetti di un payload android, consulta [Concetti e opzioni 
 | Contenuto variabile <br> (applicabile solo per iOS 10 o versione successiva) | contenuto variabile | NA | L’estensione del servizio di notifica nell’app &quot;intercetta&quot; tutte le notifiche remote con la chiave a contenuto variabile e ti consentirà di gestire/manipolare il contenuto del payload della richiesta, che può quindi essere utilizzato per personalizzare la notifica. I casi d’uso di questa funzione includono il download e la visualizzazione di più file multimediali, la decrittografia di tutti i dati crittografati presenti nel payload push. Ulteriori informazioni sono disponibili in [Modifica del payload di una notifica remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Applicabile solo per iOS 10 o versione successiva) |
 | Contenuto disponibile | disponibile | NA | Quando si seleziona questa opzione, si attiva la risveglianza di un&#39;app iOS mentre è in background/in stato di sospensione. La riattivazione implica che l’app viene eseguita in background e che il gestore di eventi appropriato responsabile della ricezione del payload di dati di notifica push ottiene un controllo e può utilizzare i dati per eseguire qualsiasi calcolo, inclusi, tra l’altro, la creazione di notifiche push personalizzate e la visualizzazione dello stesso. Ulteriori informazioni sono disponibili in [sveglia l&#39;app con notifica ](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL di contenuti rich media (file immagine)<br>(applicabile solo per Android) | NA | media-attachment-url | URL dei file di immagine per aggiungere contenuti avanzati alla notifica. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valori di broadlogId e deliveryId.<br>Questi attributi sono necessari se l’app desidera richiamare un postback di tracciamento per tracciare quando hai fatto clic/aperto sulla notifica push. Queste informazioni vengono calcolate e inviate internamente dal server app senza l’intervento dell’utente.<br>Le informazioni sui postback si trovano in questa  [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| NA | _mId<br>_dId | _mId <br>_dId | Valori di broadlogId e deliveryId.<br>Questi attributi sono necessari se l’app desidera richiamare un postback di tracciamento per tracciare quando hai fatto clic/aperto sulla notifica push. Queste informazioni vengono calcolate e inviate internamente dal server app senza l’intervento dell’utente.<br>Le informazioni sui postback si trovano in questa  [pagina](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Come recuperare le informazioni sul payload nel codice dell’app mobile {#payload-information}
 

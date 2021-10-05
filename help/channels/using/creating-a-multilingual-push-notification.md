@@ -8,10 +8,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ Prima di personalizzare la notifica push multilingue, è necessario caricare le 
 
 1. Nella finestra **[!UICONTROL Manage Content Variants]**, trascina e rilascia il file o seleziona un file dal computer.
 
-   Il file deve essere codificato in UTF8 e deve avere un layout specifico che può essere trovato facendo clic sull&#39;opzione **[!UICONTROL Download the sample file]**. È inoltre necessario utilizzare la sintassi corretta per i valori delle impostazioni internazionali. Per ulteriori informazioni sul formato del file e sulle impostazioni internazionali supportate, consulta questa [nota tecnica](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.html).
+   Il file deve essere codificato in UTF8 e deve avere un layout specifico che può essere trovato facendo clic sull&#39;opzione **[!UICONTROL Download the sample file]**. È inoltre necessario utilizzare la sintassi corretta per i valori delle impostazioni internazionali. Per ulteriori informazioni sul formato del file e sulle impostazioni internazionali supportate, consulta questa [pagina](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 
@@ -132,4 +132,3 @@ Ora puoi misurare l’impatto della consegna di notifiche push multilingue sui d
 
 * [Rapporto notifiche push](../../reporting/using/push-notification-report.md)
 * [Invio di una notifica push all’interno di un flusso di lavoro](../../automating/using/push-notification-delivery.md)
-* [Raggiungere un pubblico multilingue tramite un unico flusso di lavoro](https://helpx.adobe.com/it/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

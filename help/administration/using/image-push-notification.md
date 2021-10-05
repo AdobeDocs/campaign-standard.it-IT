@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 20%
+source-wordcount: '415'
+ht-degree: 18%
 
 ---
 
@@ -30,9 +30,9 @@ La notifica push è supportata dagli SDK per Experienci Platform.
 
 Le applicazioni mobili che ricevono le notifiche push devono essere configurate da un amministratore nell’interfaccia di Adobe Campaign.
 
-Configurando sia Adobe Campaign che Adobe Mobile Services, potrai utilizzare i dati dell’app mobile per le tue campagne. Per ulteriori informazioni, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it).
+Configurando sia Adobe Campaign che Adobe Mobile Services, potrai utilizzare i dati dell’app mobile per le tue campagne. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md).
 
-Per inviare notifiche push con un’applicazione Experience Cloud SDK, è necessario configurare un’app mobile in Adobe Experience Platform Launch e configurarla in Adobe Campaign. Per ulteriori informazioni, consulta questa [pagina](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Per inviare notifiche push con un’applicazione Experience Cloud SDK, è necessario configurare un’app mobile in Adobe Experience Platform Launch e configurarla in Adobe Campaign. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Passaggio 2: Personalizzare la notifica push in Adobe Campaign {#customize-push}
 

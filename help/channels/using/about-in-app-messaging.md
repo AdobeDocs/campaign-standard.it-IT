@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '443'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Per iniziare a inviare messaggi in-app sulle app mobili che utilizzano l’SDK d
 
 1. In Adobe Campaign, assicurati di poter accedere al canale **[!UICONTROL In-App]**. Se non riesci ad accedere a questi canali, contatta il team dell’account.
 
-1. Per sfruttare i casi d’uso per dispositivi mobili all’interno di Adobe Campaign Standard con un’applicazione Experience Cloud SDK, devi creare un’app mobile in Adobe Experience Platform Launch e configurarla all’interno di Adobe Campaign Standard. Per la guida dettagliata, fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it).
+1. Per sfruttare i casi d’uso per dispositivi mobili all’interno di Adobe Campaign Standard con un’applicazione Experience Cloud SDK, devi creare un’app mobile in Adobe Experience Platform Launch e configurarla all’interno di Adobe Campaign Standard. Per la guida dettagliata, fai riferimento a questa [pagina](../../administration/using/configuring-a-mobile-application.md).
 
 1. Una volta effettuata la configurazione, potrai preparare il messaggio in-app. Per ulteriori informazioni, consulta questa [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
@@ -38,8 +38,8 @@ Per iniziare a inviare messaggi in-app sulle app mobili che utilizzano l’SDK d
 **Contenuto correlato:**
 
 * [Rapporto in-app](../../reporting/using/in-app-report.md)
-* [Casi d’uso per dispositivi mobili supportati all’interno di Adobe Campaign Standard](https://helpx.adobe.com/it/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Guida a Campaign Standard per dispositivi mobili](https://helpx.adobe.com/it/campaign/kb/acs-mobile.html)
+* [Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
+* [Guida a Campaign Standard per dispositivi mobili](../../channels/using/get-started-communication-channels.md)
 
 ## Gestione dei campi del profilo mobile con dati personali e sensibili {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
