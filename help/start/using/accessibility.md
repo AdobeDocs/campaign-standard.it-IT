@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -89,36 +89,36 @@ Nota che la lingua viene impostata durante l’installazione e non può essere m
 
 | Azione | Scelta rapida |
 | --- | --- |
-| Spostati tra i singoli elementi dell’interfaccia utente | Tab |
-| Attiva l’elemento selezionato | Inserisci o Barra spaziatrice |
+| Passa ai singoli elementi dell’interfaccia utente | Tab |
+| Attiva l’elemento selezionato | Invio o barra spaziatrice |
 
 ### E-mail Designer {#email-designer-shortcuts}
 
-| Azione | Collegamento a Windows | collegamento macOS |
+| Azione | Scelta rapida Windows | Scelta rapida macOS |
 | --- | --- | --- |
-| Annulla | Ctrl+Z | Comando + Z |
-| Ripeti | Ctrl+Y | Maiusc + Comando + Z |
+| Annulla | Ctrl+Z | Comando+Z |
+| Ripeti | Ctrl+Y | Maiusc+Comando+Z |
 
 ### Rapporti dinamici {#report-shortcuts}
 
-| Azione | Collegamento a Windows | collegamento macOS |
+| Azione | Scelta rapida Windows | Scelta rapida macOS |
 | --- | --- | --- |
-| Apri un progetto | Ctrl+O | Comando + O |
-| Salva | Ctrl+S | Comando + S |
-| Salva con nome | Maiusc+Ctrl+S | Maiusc + Comando + S |
-| Aggiorna progetto | Alt+R | Comando + R |
-| Scarica file CSV | Maiusc+Ctrl+V | Maiusc + Comando + V |
-| Stampa | Alt+P | Comando + P |
-| Annulla | Ctrl+Z | Comando + Z |
-| Ripeti | Ctrl+Y | Maiusc + Comando + Z |
-| Nuovo pannello vuoto | Alt+B | Opzione + B |
-| Nuova forma libera | Alt+A | Opzione + A |
-| Nuova tabella a forma libera | Alt+1 | Opzione + 1 |
-| Nuova riga | Alt+2 | Opzione + 2 |
-| Nuova barra | Alt+3 | Opzione + 3 |
-| Invia rapporto ora | Alt+S | Opzione + S |
-| Invia rapporto secondo programma | Maiusc+Alt+S | Maiusc + Opzione + S |
-| Rapporti programmati | Maiusc+Alt+L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
+| Apri progetto | Ctrl+O | Comando + O |
+| Salva | Ctrl+S | Comando+S |
+| Salva con nome | Maiusc+Ctrl+S | Maiusc+Comando+S |
+| Aggiorna progetto | Alt+R | Comando+R |
+| Scarica file CSV | Maiusc+Ctrl+V | Maiusc+Comando+V |
+| Stampa | Alt+P | Comando+P |
+| Annulla | Ctrl+Z | Comando+Z |
+| Ripeti | Ctrl+Y | Maiusc+Comando+Z |
+| Nuovo pannello vuoto | Alt+B | Opzione+B |
+| Nuova forma libera | Alt+A | Opzione+A |
+| Nuova tabella a forma libera | Alt+1 | Opzione+1 |
+| Nuova riga | Alt+2 | Opzione+2 |
+| Nuova barra | Alt+3 | Opzione+3 |
+| Invia rapporto ora | Alt+S | Opzione+S |
+| Invia rapporto secondo pianificazione | Maiusc+Alt+S | Maiusc+Opzione+S |
+| Rapporti pianificati | Maiusc+Alt+L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Letture di approfondimento {#further-reading}
 
