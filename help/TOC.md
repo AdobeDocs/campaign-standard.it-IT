@@ -77,7 +77,7 @@ ht-degree: 99%
       + [Accesso ai messaggi](channels/using/accessing-messages.md)
       + [Dashboard messaggi](channels/using/message-dashboard.md)
       + [Modelli per messaggi multilingue](channels/using/multilingual-messages-template.md)
-      + [Guida introduttiva ai canali mobili](channels/using/mobile-guide.md)
+      + [Introduzione ai canali mobile](channels/using/mobile-guide.md)
    + Best practice di consegna {#delivery-bestpractices}
       + [Scopri le buone pratiche](sending/using/delivery-best-practices.md)
       + [Ottimizzare la consegna](sending/using/optimize-delivery.md)
