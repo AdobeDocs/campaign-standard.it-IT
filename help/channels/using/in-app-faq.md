@@ -7,8 +7,7 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
@@ -24,7 +23,7 @@ Consulta le risorse seguenti:
 
 * [Tutorial video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [Post del blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [Pagina community](https://experienceleaguecommunities.adobe.com/it/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [Pagina community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## Qual è lo scopo delle API delle estensioni Campaign setLinkageField e resetLinkageField? {#extensions-apis}
 
@@ -57,7 +56,7 @@ Tuttavia, se l’obiettivo è quello di inviare un messaggio in-app in una lingu
 
 ![](assets/faq_inapp.png)
 
-## I campi di personalizzazione di Campaign possono essere aggiunti all’HTML personalizzato? {#custom-html-inapp}
+## I campi di personalizzazione di Campaign possono essere aggiunti a Custom HTML? {#custom-html-inapp}
 
 No, non è ancora supportato.
 
