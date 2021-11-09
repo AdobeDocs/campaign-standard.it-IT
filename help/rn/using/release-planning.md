@@ -8,28 +8,28 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ce3c7cf767a0b6f72f5ca35779b492271d025227
+source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 94%
+source-wordcount: '423'
+ht-degree: 74%
 
 ---
 
 # Pianificazione del rilascio {#release-planning}
 
-Adobe migliora continuamente le proprie soluzioni aggiungendo nuove funzionalità, miglioramenti e correzioni.
+Adobe migliora continuamente le sue soluzioni aggiungendo nuove funzionalità, miglioramenti e correzioni.
 
 Tutte le istanze di Adobe Campaign Standard vengono aggiornate con ogni nuova versione. Per effettuare l’aggiornamento non è richiesta alcuna azione.
 
-Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di stage vengono aggiornate per consentire ai clienti di testare le nuove funzionalità e adattare la propria configurazione, se necessario. Vengono quindi aggiornate le istanze di produzione.
+Gli aggiornamenti vengono distribuiti in due fasi. Innanzitutto, le istanze di Stage vengono aggiornate per consentire di testare le nuove funzionalità e adattare la configurazione, se necessario. Le istanze di produzione vengono quindi aggiornate.
 
-Tutte le date di rilascio sono soggette a modifica: si consiglia di visitare questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
+Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
 
 ## Versione 22.1 - Febbraio 2022 {#release-22-1-release}
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione saranno disponibili nella sezione [Note sulla versione](../../rn/using/release-notes.md) alla data di aggiornamento dell’ambiente Stage.
+Informazioni dettagliate su questa versione sono disponibili nella sezione [Note sulla versione](../../rn/using/release-notes.md) alla data di aggiornamento dell’ambiente Stage.
 
 <table>
  <thead>
@@ -45,7 +45,7 @@ Informazioni dettagliate su questa versione saranno disponibili nella sezione [N
   </tr>
   <tr>
    <td>Produzione<br /> </td>
-   <td>15-22 febbraio 2021<br /> </td>
+   <td>15-22 febbraio 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -72,13 +72,13 @@ R: No. I messaggi non verranno inviati per qualche minuto. Al termine dell’agg
 
 **D: I flussi di lavoro continueranno a essere eseguiti e a inviare le consegne?**
 
-R: No. Durante l’aggiornamento della build, il server del flusso di lavoro e l’MTA vengono entrambi arrestati. Ciò significa che i flussi di lavoro non verranno eseguiti e che le consegne non verranno inviate per qualche minuto. Nessuna azione è richiesta: i flussi di lavoro verranno avviati nuovamente non appena l’istanza è aggiornata.
+R: No. Durante l’aggiornamento della build, il server del flusso di lavoro e l’MTA vengono entrambi arrestati. Di conseguenza, i flussi di lavoro non vengono eseguiti e le consegne non vengono inviate per alcuni minuti. Nessuna azione è richiesta: i flussi di lavoro verranno avviati nuovamente non appena l’istanza è aggiornata.
 
 **D: I collegamenti di tracciamento nei messaggi continueranno a funzionare durante l’aggiornamento?**
 
 R: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l’aggiornamento, ma i collegamenti di tracciamento inclusi nelle e-mail già inviate saranno operativi.
 
-**D: Come posso sapere che l’aggiornamento è stato completato?**
+**D: Come posso sapere che l&#39;aggiornamento è stato completato?**
 
 R: Quando accedi a Campaign, viene visualizzato un pop-up di notifica della versione, con la versione più recente.
 
