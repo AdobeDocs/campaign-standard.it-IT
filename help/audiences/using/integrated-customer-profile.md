@@ -9,7 +9,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 48%
@@ -22,7 +22,7 @@ Per ogni contatto del database è disponibile un Integrated customer profile. Qu
 
 Per accedere all’Integrated customer profile, effettua le seguenti operazioni:
 
-1. Dalla home page di Adobe Campaign, fai clic sulla scheda **[!UICONTROL Customer profiles]** o sulla scheda **Profili** per visualizzare l’elenco dei profili.
+1. Dalla home page di Adobe Campaign, fai clic sul pulsante **[!UICONTROL Customer profiles]** la carta o **Profili** per visualizzare l’elenco dei profili.
 
 1. Per cercare un profilo basato su un campo specifico, apri il riquadro di ricerca, quindi seleziona il campo in cui desideri eseguire la ricerca.
 
@@ -35,7 +35,7 @@ Per accedere all’Integrated customer profile, effettua le seguenti operazioni:
    >
    >Puoi eseguire le ricerche in base ai campi e-mail, nome e cognome e ai campi personalizzati aggiunti al momento dell’estensione della risorsa.
    >
-   >Le ricerche sono sensibili all’uso di maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del suo cognome.
+   >Le ricerche sono sensibili all’uso di maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del cognome.
 
 1. Seleziona un contatto per aprire il suo profilo.
 

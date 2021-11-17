@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 5%
@@ -53,9 +53,9 @@ Ecco una rappresentazione visiva dell’interazione dei profili con l’e-mail i
  </tbody> 
 </table>
 
-Per comprendere il numero complessivo di aperture univoche, è necessario sommare i conteggi delle righe di **[!UICONTROL Unique Opens]** che ci danno il valore 3. Ma poiché l’e-mail è stata destinata a soli 2 profili, il tasso di apertura dovrebbe mostrare il 150%.
+Per comprendere il numero complessivo di aperture univoche, è necessario sommare il numero di righe di **[!UICONTROL Unique Opens]** che ci dà il valore 3. Ma poiché l’e-mail è stata destinata a soli 2 profili, il tasso di apertura dovrebbe mostrare il 150%.
 
-Per non ottenere una percentuale superiore a 100, la definizione di **[!UICONTROL Unique Opens]** viene mantenuta come il numero di log di trasmissione univoci aperti. In questo caso, anche se P1 ha aperto l’e-mail il Giorno 1 e il Giorno 2, le sue aperture univoche saranno ancora 1.
+Per non ottenere una percentuale superiore a 100, la definizione di **[!UICONTROL Unique Opens]** viene mantenuto come il numero di log di trasmissione univoci aperti. In questo caso, anche se P1 ha aperto l’e-mail il Giorno 1 e il Giorno 2, l’apertura univoca sarà ancora 1.
 
 Questo si tradurrà nella seguente tabella:
 
@@ -70,7 +70,7 @@ Questo si tradurrà nella seguente tabella:
  <tbody> 
   <tr> 
    <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr> 
@@ -92,13 +92,13 @@ Questo si tradurrà nella seguente tabella:
 
 ## I conteggi aperti non corrispondono al conteggio del database {#open-counts-no-match-database}
 
-Questo può essere dovuto al fatto che, nel reporting dinamico, le euristiche vengono utilizzate per tracciare l’apertura anche quando non è possibile tenere traccia dell’azione **[!UICONTROL Open]**.
+Questo può essere dovuto al fatto che, nel reporting dinamico, le euristiche vengono utilizzate per tracciare l’apertura anche quando non è possibile tenere traccia delle **[!UICONTROL Open]** azione.
 
-Ad esempio, se un utente ha disabilitato le immagini sul proprio client e fa clic su un collegamento nell’e-mail, il **[!UICONTROL Open]** potrebbe non essere tracciato dal database, ma il **[!UICONTROL Click]** lo farà.
+Ad esempio, se un utente ha disabilitato le immagini sul proprio client e fa clic su un collegamento nell’e-mail, l’ **[!UICONTROL Open]** potrebbero non essere monitorati dal database, ma **[!UICONTROL Click]** .
 
-Pertanto, i conteggi dei registri di tracciamento **[!UICONTROL Open]** potrebbero non avere lo stesso conteggio nel database.
+Pertanto, **[!UICONTROL Open]** i conteggi dei registri di tracciamento potrebbero non avere lo stesso conteggio nel database.
 
-Tali occorrenze vengono aggiunte come **&quot;un clic e-mail implica l&#39;apertura di un&#39;e-mail&quot;**.
+Tali occorrenze vengono aggiunte come **&quot;un clic e-mail implica l’apertura di un’e-mail&quot;**.
 
 >[!NOTE]
 >
@@ -107,9 +107,9 @@ Tali occorrenze vengono aggiunte come **&quot;un clic e-mail implica l&#39;apert
 ## Come vengono calcolati i conteggi per consegne ricorrenti/transazionali? {#counts-recurring-deliveries}
 
 Quando si lavora con consegne ricorrenti e transazionali, i conteggi vengono attribuiti alle consegne principali e secondarie.
-Possiamo prendere l’esempio di una consegna ricorrente denominata **R1** impostata per essere eseguita ogni giorno il giorno 1 (RC1), il giorno 2 (RC2) e il giorno 3 (RC3).
-Supponiamo che solo una singola persona abbia aperto tutte le consegne figlio più volte. In questo caso, le singole consegne figlie ricorrenti mostreranno il **[!UICONTROL Open]** conteggio come 1 per ciascuna.
-Tuttavia, poiché la stessa persona ha fatto clic su tutte le consegne, anche la consegna ricorrente padre avrà **[!UICONTROL Unique open]** come 1.
+È possibile prendere l’esempio di una consegna ricorrente denominata **R1** impostato per funzionare ogni giorno il giorno 1 (RC1), il giorno 2 (RC2) e il giorno 3 (RC3).
+Supponiamo che solo una singola persona abbia aperto tutte le consegne figlio più volte. In questo caso, le singole consegne figlie ricorrenti visualizzeranno la variabile **[!UICONTROL Open]** conteggia 1 per ogni .
+Tuttavia, poiché la stessa persona ha fatto clic su tutte le consegne, anche la consegna ricorrente padre avrà **[!UICONTROL Unique open]** 1.
 
 I rapporti devono avere un aspetto simile al seguente:
 
@@ -129,7 +129,7 @@ I rapporti devono avere un aspetto simile al seguente:
    <td align="center"> <strong>100</strong><br/> </td> 
    <td align="center"> <strong>90</strong><br/> </td> 
    <td align="center"> <strong>10</strong><br/> </td> 
-   <td align="center"> <strong>1</strong><br/> </td> 
+   <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
@@ -163,9 +163,9 @@ Nell’esempio seguente, la cella è dello stesso colore in quanto il suo valore
 
 ![](assets/troubleshooting_1.png)
 
-Se cambi il valore **[!UICONTROL Conditional formatting]** su personalizzato, quando il valore raggiunge il limite superiore la cella diventerà più verde. Mentre, se raggiunge il limite inferiore, diventa più rosso.
+Se si modifica la **[!UICONTROL Conditional formatting]** su personalizzato, quando il valore raggiunge il limite superiore, la cella diventa più verde. Mentre, se raggiunge il limite inferiore, diventa più rosso.
 
-Ad esempio, in questo caso, i valori **[!UICONTROL Upper limit]** vengono impostati su 500 e **[!UICONTROL Lower limit]** su 0.
+Ad esempio, in questo caso, impostiamo il **[!UICONTROL Upper limit]** a 500 e **[!UICONTROL Lower limit]** a 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ Ad esempio, in questo caso, i valori **[!UICONTROL Upper limit]** vengono impost
 
 ![](assets/troubleshooting_3.png)
 
-Il valore **N/A** può talvolta essere visualizzato nei rapporti dinamici. Questo può essere visualizzato per tre motivi:
+Il valore **N/D** può talvolta essere visualizzato nei rapporti dinamici. Questo può essere visualizzato per tre motivi:
 
-* La consegna è stata eliminata e viene visualizzata qui come **N/A** per non causare discrepanze nei risultati.
-* Quando trascini e rilascia la dimensione **[!UICONTROL Transactional Delivery]** nei rapporti, il valore **N/A** potrebbe apparire come risultato. Questo accade perché il rapporto dinamico recupera ogni consegna anche se non è transazionale. Questo può accadere anche quando trascini e rilascia la dimensione **[!UICONTROL Delivery]** nel rapporto, ma in questo caso il valore **N/A** rappresenta le consegne transazionali.
-* Quando una dimensione viene utilizzata con una metrica non correlata alla dimensione. Nell’esempio seguente, viene aggiunta una suddivisione con la dimensione **[!UICONTROL Tracking URL]** anche se il conteggio **[!UICONTROL Click]** è impostato su 0 in questa consegna.
+* La consegna è stata eliminata e viene visualizzata qui come **N/D** non causare discrepanze nei risultati.
+* Quando si trascina e si rilascia la variabile **[!UICONTROL Transactional Delivery]** dimensione nei rapporti, valore **N/D** potrebbe apparire come risultato. Questo accade perché il rapporto dinamico recupera ogni consegna anche se non è transazionale. Questo può accadere anche quando si trascina **[!UICONTROL Delivery]** la dimensione del report, ma in questo caso il **N/D** rappresenta le consegne transazionali.
+* Quando una dimensione viene utilizzata con una metrica non correlata alla dimensione. Nell’esempio seguente, viene aggiunta una suddivisione con **[!UICONTROL Tracking URL]** anche se **[!UICONTROL Click]** il conteggio è impostato su 0 in questa consegna.
 
    ![](assets/troubleshooting_4.png)
 

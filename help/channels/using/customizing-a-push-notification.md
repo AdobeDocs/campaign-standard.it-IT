@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -44,9 +44,9 @@ Un suono avvisa gli utenti di una notifica push, conferendogli maggiore visibili
 
 1. Il file audio viene riprodotto durante la consegna della notifica se il file è definito nel pacchetto dell’app mobile. È possibile impostarlo su **default** per riprodurre il suono predefinito del dispositivo.
 
-   Se il campo **[!UICONTROL Play a sound]** viene lasciato vuoto, non verrà riprodotto alcun suono.
+   Se la **[!UICONTROL Play a sound]** Il campo viene lasciato vuoto e non viene riprodotto alcun suono.
 
-L’utente riceverà quindi la notifica push e il suono solo se l’audio del telefono non è disattivato.
+L&#39;utente riceverà quindi la notifica push e l&#39;audio solo se il telefono non è disattivato.
 
 ## Aggiornare il valore del badge {#refresh-the-badge-value}
 
@@ -113,7 +113,7 @@ Impostare una data di scadenza per la notifica push ti consente di impostare una
 
 Per aggiungere una data di scadenza alla notifica push:
 
-1. Seleziona l’opzione **[!UICONTROL Expire message]** : selezionando l&#39;opzione **[!UICONTROL Expire message]**, la durata viene automaticamente impostata su 0. Se non modifichi il valore, APNS e FCM tenteranno di inviare il messaggio immediatamente. Se l’invio non riesce, il messaggio non verrà inviato di nuovo.
+1. Controlla la **[!UICONTROL Expire message]** opzione: selezionando la **[!UICONTROL Expire message]** la durata viene impostata automaticamente su 0. Se non modifichi il valore, APNS e FCM tenteranno di inviare il messaggio immediatamente. Se l’invio non riesce, il messaggio non verrà inviato di nuovo.
 
 1. Nel campo **[!UICONTROL Duration]**, seleziona la validità della notifica push.
 

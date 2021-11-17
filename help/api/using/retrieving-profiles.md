@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # Recupero dei profili {#retrieving-profiles}
 
-Il recupero dei profili viene eseguito con una richiesta **GET**.
+Il recupero dei profili viene eseguito con un **GET** richiesta.
 
-Puoi quindi perfezionare la ricerca utilizzando filtri, ordini e impaginazione. Per ulteriori informazioni, consulta la sezione [Operazioni aggiuntive](../../api/using/sorting.md) .
+Puoi quindi perfezionare la ricerca utilizzando filtri, ordini e impaginazione. Per ulteriori informazioni, consulta la sezione [Operazioni aggiuntive](../../api/using/sorting.md) sezione .
 
 Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a uno di questi campi: e-mail, nome, cognome o qualsiasi campo personalizzato. Per ulteriori informazioni al riguardo, consulta [questa sezione](#searching-field).
 
@@ -88,11 +88,11 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
 
 ## Ricerca di profili in base a un campo {#searching-field}
 
-Il parametro **[!UICONTROL filterType]** ti consente di recuperare profili in base a uno di questi campi: e-mail, nome, cognome o qualsiasi campo personalizzato aggiunto nel filtro avanzato durante l’estensione della risorsa profilo.
+La **[!UICONTROL filterType]** parameter ti consente di recuperare profili in base a uno di questi campi: e-mail, nome, cognome o qualsiasi campo personalizzato aggiunto nel filtro avanzato durante l’estensione della risorsa profilo.
 
 >[!NOTE]
 >
->Le ricerche sono sensibili all’uso di maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del suo cognome.
+>Le ricerche sono sensibili all’uso di maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del cognome.
 
 ***Richieste di esempio***
 

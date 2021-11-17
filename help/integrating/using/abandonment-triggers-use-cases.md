@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Ora che abbiamo creato un trigger Experience Cloud, lo utilizziamo all’interno
 
 In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in Experience Cloud.
 
-1. Per creare il trigger in Adobe Campaign, fai clic sul logo **Adobe** nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Per creare il trigger in Adobe Campaign, fai clic sul pulsante **Adobe** , nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -105,7 +105,7 @@ In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in E
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. Il destinatario va alla pagina &quot;Offerte&quot;, ma improvvisamente interrompe la sua visita. Dopo 10 minuti, Adobe Campaign attiva l’invio del messaggio sulle transazioni.
+1. Il destinatario va alla pagina &quot;Offerte&quot; ma improvvisamente interrompe la visita. Dopo 10 minuti, Adobe Campaign attiva l’invio del messaggio sulle transazioni.
 
    ![](assets/trigger_uc_browse_12.png)
 

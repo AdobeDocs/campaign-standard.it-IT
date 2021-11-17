@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '963'
+ht-degree: 95%
 
 ---
 
@@ -66,7 +66,7 @@ Per aiutarti a garantire l’idoneità alle normative sulla privacy, Adobe Campa
 
 * Il **diritto di accesso** è il diritto dell’interessato di ottenere conferma da parte del titolare del trattamento sul fatto che i dati personali che lo riguardano siano trattati o meno, su dove avvenga il trattamento e sullo scopo del trattamento. Il titolare del trattamento è tenuto a fornire gratuitamente una copia dei dati personali in formato elettronico.
 
-* Anche noto come eliminazione dei dati, il **diritto all’oblio** (richiesta di eliminazione) autorizza l’interessato a richiedere che il titolare del trattamento cancelli i suoi dati personali, cessi l’ulteriore diffusione dei dati ed eventualmente faccia cessare il trattamento dei dati da parte di terzi.
+* Noto anche come cancellazione dei dati, il **Diritto all&#39;oblio** (richiesta di cancellazione) autorizza l’interessato a far cancellare i propri dati personali dal Titolare del trattamento, a cessare l’ulteriore diffusione dei dati e a far cessare potenzialmente il trattamento dei dati da parte di terzi.
 
 Per informazioni su come creare richieste di **accesso** ed **eliminazione** e su come queste vengono elaborate da Adobe Campaign, fai riferimento ai [passaggi di implementazione](../../start/using/privacy-requests.md#about-privacy-requests).
 

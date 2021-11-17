@@ -8,7 +8,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 89%
@@ -27,7 +27,7 @@ Il principio consiste nell’inviare un’e-mail per confermare il consenso del 
 
 Per configurare questa impostazione devi effettuare le seguenti operazioni:
 
-1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. I visitatori che compilano e inviano la pagina di destinazione verranno memorizzati nel database ma aggiunti al  di elenco Bloccati, per non ricevere alcuna comunicazione prima della convalida finale (consulta [Gestione dei Elenchi Bloccati in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Crea e pubblica una pagina di destinazione in modo tale che i visitatori possano registrarsi e abbonarsi. Questa pagina di destinazione sarà disponibile da un sito web. I visitatori che compilano e inviano la pagina di destinazione verranno memorizzati nel database ma aggiunti al  elenco Bloccati, in modo da non ricevere alcuna comunicazione prima della convalida finale (vedi [Gestione dei Elenco Bloccati in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Crea e invia automaticamente l’e-mail di consenso, con un collegamento di conferma. Questa e-mail eseguirà il targeting della popolazione che ha inviato la pagina di destinazione. Sarà basata su un modello e-mail che consente di eseguire il targeting dei profili di rinuncia.
 1. Reindirizza a una pagina di destinazione di conferma. Questa pagina di destinazione finale proporrà un pulsante di conferma: i visitatori devono fare clic su di esso. Puoi progettare un’e-mail di benvenuto da inviare al termine della conferma e, ad esempio, aggiungere un’offerta speciale nell’e-mail per i nuovi destinatari.
 
@@ -101,7 +101,7 @@ Devi creare una [tipologia](../../sending/using/about-typology-rules.md) specifi
 1. Dal logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** e fai clic su **[!UICONTROL Typologies]**.
 1. Duplica la tipologia preconfigurata **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Una volta confermata la duplicazione, modifica la nuova tipologia e immetti l’etichetta **TYPOLOGY_PROFILE**.
-1. Rimuovi la regola **Indirizzo elenco Bloccati** .
+1. Rimuovi **Indirizzo sul elenco Bloccati** regola.
 1. Fai clic su **[!UICONTROL Save]**.
 
 Questa tipologia può ora essere associata all’e-mail di conferma.
@@ -143,7 +143,7 @@ Per creare e configurare questa pagina di destinazione, devi eseguire le seguent
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Personalizza la pagina di conferma per informare i nuovi abbonati che devono convalidare il suo abbonamento.
+1. Personalizza la pagina di conferma per informare i nuovi abbonati che devono convalidare il loro abbonamento.
 
    ![](assets/optin_acquisition_page2.png)
 

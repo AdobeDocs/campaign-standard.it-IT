@@ -9,10 +9,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->Gli elenchi dei prodotti sono disponibili solo per i **messaggi e-mail transazionali** tramite l&#39;interfaccia [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Gli elenchi di prodotti sono disponibili solo per **messaggi e-mail transazionali** attraverso [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interfaccia.
 
 Quando modifichi il contenuto di un’e-mail sulle transazioni, puoi creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un’e-mail di abbandono del carrello, puoi includere un elenco di tutti i prodotti presenti nei carrelli degli utenti al momento dell’uscita dal sito web, con un’immagine, il prezzo e un collegamento a ciascun prodotto.
 
 Per aggiungere un elenco di prodotti abbandonati in un messaggio sulle transazioni, segui i passaggi indicati di seguito.
 
-Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) per spiegare i passaggi necessari per configurare gli elenchi di prodotti in un’e-mail sulle transazioni.
+Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) illustrazione dei passaggi necessari per configurare gli elenchi di prodotti in un messaggio e-mail sulle transazioni.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Prima di poter utilizzare un elenco di prodotti in un messaggio sulle transazion
 1. Nel messaggio sulle transazioni, fai clic sul blocco **[!UICONTROL Content]** per modificare il contenuto dell’e-mail.
 1. Trascina e rilascia un componente struttura all’interno dell’area di lavoro. Per ulteriori informazioni, consulta [Definizione della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Ad esempio, seleziona un componente struttura a una colonna e aggiungi un componente testo, un componente immagine e un componente pulsante. Per ulteriori informazioni, consulta [Uso dei componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
+   Ad esempio, seleziona un componente struttura a una colonna e aggiungi un componente testo, un componente immagine e un componente pulsante. Per ulteriori informazioni, consulta [Utilizzo dei componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. Seleziona il componente struttura appena creato, quindi fai clic sull’icona **[!UICONTROL Enable product listing]** nella barra degli strumenti contestuale.
 
@@ -127,9 +127,9 @@ Per ulteriori informazioni sulla creazione di una raccolta e dei campi correlati
 
    ![](assets/message-center_loop_fallback.png)
 
-   Il contenuto di fallback verrà visualizzato se la raccolta è vuota al momento di attivare l’evento, ad esempio se un cliente ha il carrello vuoto.
+   Il contenuto di fallback verrà visualizzato se la raccolta è vuota al momento dell’attivazione dell’evento, ad esempio se un cliente non ha nulla nel carrello.
 
-1. Nel riquadro Impostazioni, modifica gli stili per l’elenco dei prodotti. Per ulteriori informazioni, consulta [Gestione degli stili delle e-mail](../../designing/using/styles.md).
+1. Nel riquadro Impostazioni, modifica gli stili per l’elenco dei prodotti. Per ulteriori informazioni, consulta [Gestione degli stili e-mail](../../designing/using/styles.md).
 1. Visualizza l’anteprima del messaggio e-mail utilizzando un profilo di prova collegato all’evento sulle transazioni rilevante per il quale hai definito i dati della raccolta. Ad esempio, aggiungi le seguenti informazioni nella sezione **[!UICONTROL Event data]** relativa al profilo di test da utilizzare:
 
    ![](assets/message-center_loop_test-profile_payload.png)

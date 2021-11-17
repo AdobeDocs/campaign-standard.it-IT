@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1478'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Per gestire correttamente la privacy e i dati personali, attieniti alle normativ
 
 ### Privacy di Adobe Experience Cloud {#experience-cloud-privacy}
 
- Adobe Campaign fa parte delle soluzioni Adobe Experience Cloud. Il modo in cui viene gestita la privacy in Campaign rispetta i principi generali di Adobe Experience Cloud, come ad esempio quanto segue:
+Adobe Campaign fa parte delle soluzioni Adobe Experience Cloud. Il modo in cui viene gestita la privacy in Campaign rispetta i principi generali di Adobe Experience Cloud, come ad esempio quanto segue:
 
 * **Quali informazioni vengono raccolte durante l’utilizzo di Adobe Experience Cloud**
 
@@ -126,11 +126,11 @@ Per ulteriori informazioni su queste funzioni e su come gestirle in Adobe Campai
 
 * Il **diritto di accesso** è il diritto dell’interessato di ottenere conferma da parte del titolare del trattamento sul fatto che i dati personali che lo riguardano siano trattati o meno, su dove avvenga il trattamento e sullo scopo del trattamento.
 
-* Il **diritto all’oblio** (richiesta di cancellazione) autorizza l’interessato a richiedere che il titolare del trattamento cancelli i suoi dati personali.
+* La **Diritto all&#39;oblio** (richiesta di cancellazione) concede all’interessato il diritto di richiedere al titolare del trattamento di cancellare i propri dati personali.
 
 >[!NOTE]
 >
->Questi strumenti sono a tua disposizione per aiutarti a rispettare le normative sulla privacy (GDPR, CCPA e PDPA). Per ulteriori informazioni su queste diverse normative, consulta [questa pagina](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Questi strumenti sono a tua disposizione per aiutarti a rispettare le normative sulla privacy (GDPR, CCPA e PDPA). Per ulteriori informazioni su queste diverse normative, consulta [questa pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
