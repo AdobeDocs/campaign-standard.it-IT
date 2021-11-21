@@ -38,7 +38,7 @@ Le principali caratteristiche di questa attività sono:
 
 ### Avvisi di compatibilità con versioni precedenti {#from-beta-to-ga}
 
-Con la versione Campaign Standard 20.4, il limite di dimensione dei dati di risposta HTTP e le protezioni del timeout di risposta sono stati ridotti per allinearsi alle best practice. Consulta [Limitazioni e protezioni](#guardrails). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
+Con la versione Campaign Standard 20.4, il limite di dimensione dei dati di risposta HTTP e le protezioni del timeout di risposta sono stati ridotti per allinearsi alle best practice - vedi [Limitazioni e protezioni](#guardrails). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
 
 Durante la sostituzione delle attività External API, aggiungi la nuova attività External API al flusso di lavoro, copia manualmente i dettagli di configurazione, quindi elimina la vecchia attività.
 
@@ -114,13 +114,13 @@ Se l’**analisi viene convalidata**, viene visualizzato un messaggio che ti inv
 
 ### Execution
 
-Questa scheda consente di definire l’endpoint di connessione. Il campo **[!UICONTROL URL]** ti consente di definire l’ **Endpoint HTTPS** con cui Campaign Standard comunicherà.
+Questa scheda consente di definire l’endpoint di connessione. La **[!UICONTROL URL]** consente di definire le **Endpoint HTTPS** quel Campaign Standard comunicherà con lui.
 
 Se necessario per l’endpoint, sono disponibili due tipi di metodi di autenticazione:
 
-* Autenticazione di base: inserisci le informazioni relative a nome utente e password nella sezione **[!UICONTROL Request Header(s)]** .
+* Autenticazione di base: inserisci le informazioni relative a nome utente e password nel **[!UICONTROL Request Header(s)]** sezione .
 
-* Autenticazione OAuth: Facendo clic su **[!UICONTROL Use connection parameters defined in an external account]** in un account esterno, puoi selezionare un account esterno in cui è definita l’autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
+* Autenticazione OAuth: Facendo clic sul pulsante **[!UICONTROL Use connection parameters defined in an external account]** in un account esterno, puoi selezionare un account esterno in cui è definita l’autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 

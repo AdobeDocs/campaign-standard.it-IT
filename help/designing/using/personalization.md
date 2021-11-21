@@ -51,7 +51,7 @@ Adobe Campaign ti consente di personalizzare uno o più URL nel messaggio aggiun
 
 >[!NOTE]
 >
->Quando il meccanismo di firma URL per i collegamenti di tracciamento è disattivato, la personalizzazione degli URL non può essere applicata né al nome di dominio né all’estensione URL. Se la personalizzazione non è corretta, durante l’analisi dei messaggi viene visualizzato un messaggio di errore.
+>Quando il meccanismo di firma URL per i collegamenti di tracciamento è disattivato, la personalizzazione degli URL non può essere applicata né al nome di dominio né all’estensione URL. Se la personalizzazione non è corretta, viene visualizzato un messaggio di errore durante l’analisi dei messaggi.
 >
 >Quando selezioni un blocco di contenuto, non puoi selezionare elementi quali **Collegamento a una pagina speculare**. Questo tipo di blocchi è vietato all’interno di un collegamento.
 

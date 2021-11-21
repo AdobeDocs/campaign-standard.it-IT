@@ -21,13 +21,13 @@ ht-degree: 5%
 >
 >Il servizio Audience Destinations è attualmente in versione beta e potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
 
-Dopo aver creato un [pubblico Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) utilizzando il Generatore di segmenti, puoi utilizzarlo nello stesso modo in cui lo utilizzeresti per personalizzare e inviare messaggi per un pubblico di Campaign all’interno dei flussi di lavoro.
+Una volta creata una [Pubblico Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) utilizzando il Generatore di segmenti, puoi utilizzarlo nello stesso modo in cui faresti per un pubblico di Campaign all’interno dei flussi di lavoro per personalizzare e inviare messaggi.
 
 Per attivare un pubblico Adobe Experience Platform nei flussi di lavoro, effettua le seguenti operazioni:
 
-1. Aggiungi un’attività **[!UICONTROL Read audience]** nel flusso di lavoro, quindi aprila.
+1. Aggiungi un **[!UICONTROL Read audience]** nel flusso di lavoro, quindi aprilo.
 
-1. Seleziona l’opzione **[!UICONTROL Adobe Experience Platform]** in **[!UICONTROL Type of audience]**, quindi aggiungi il pubblico desiderato.
+1. Seleziona la **[!UICONTROL Adobe Experience Platform]** opzione sotto **[!UICONTROL Type of audience]**, quindi aggiungi il pubblico desiderato.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -35,9 +35,9 @@ Per attivare un pubblico Adobe Experience Platform nei flussi di lavoro, effettu
 
    Facendo clic sul pulsante con l’occhio ti indirizzerai semplicemente al Generatore di segmenti (in un’altra scheda) associato al pubblico selezionato all’interno di Campaign.
 
-1. Seleziona un elemento **[!UICONTROL Platform data mapping]** per specificare la dimensione di targeting desiderata per il pubblico Adobe Experience Platform selezionato.
+1. Seleziona una **[!UICONTROL Platform data mapping]** per specificare la dimensione di targeting desiderata per il pubblico Adobe Experience Platform selezionato.
 
-   Per impostazione predefinita, la chiave primaria (ad esempio, iRecipientID per la tabella Profilo, iAppSubscriptionID per la tabella AppSubscription) utilizzata per la riconciliazione sarà automaticamente disponibile dall’elenco a discesa. Per eseguire il targeting al di fuori della chiave primaria, è necessario creare un **Namespace** personalizzato.
+   Per impostazione predefinita, la chiave primaria (ad esempio, iRecipientID per la tabella Profilo, iAppSubscriptionID per la tabella AppSubscription) utilizzata per la riconciliazione sarà automaticamente disponibile dall’elenco a discesa. Per eseguire il targeting al di fuori della chiave primaria, devi creare un **Namespace**.
 
    >[!NOTE]
    >
@@ -45,13 +45,13 @@ Per attivare un pubblico Adobe Experience Platform nei flussi di lavoro, effettu
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Questo elenco contiene tutte le mappature Experience Data Model (XDM) configurate sull&#39;istanza. Per ulteriori informazioni su Adobe Experience Platform Data Connector, consulta [questo documento dedicato](../../integrating/using/aep-about-data-connector.md).
+   Questo elenco contiene tutte le mappature Experience Data Model (XDM) configurate sull&#39;istanza. Per ulteriori informazioni su Connettore dati di Adobe Experience Platform, consulta [questo documento dedicato](../../integrating/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
 1. Una volta configurate correttamente le dimensioni di pubblico e targeting, fai clic sul pulsante **[!UICONTROL Confirm]** per salvare le modifiche.
 
-Ora puoi configurare il flusso di lavoro con altre attività. Ad esempio, puoi collegare un’attività **[!UICONTROL Email delivery]** per inviare un’e-mail al pubblico selezionato.
+Ora puoi configurare il flusso di lavoro con altre attività. Ad esempio, puoi collegare un **[!UICONTROL Email delivery]** per inviare un’e-mail al pubblico selezionato.
 
 ![](assets/aep_wkf_email.png)
 

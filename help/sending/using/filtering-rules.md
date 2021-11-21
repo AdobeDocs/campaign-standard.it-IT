@@ -27,7 +27,7 @@ La tabella seguente fornisce informazioni sulle regole di filtro predefinite e s
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione target senza indirizzo specifico (e-mail, indirizzo postale, ecc.) secondo il canale selezionato). |
 | **[!UICONTROL Address on denylist]** | Tutto | Esclude gli indirizzi presenti nel elenco Bloccati. |
-| **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al campo della popolazione target **[!UICONTROL Address]** . |
+| **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base alla popolazione target **[!UICONTROL Address]** campo . |
 | **[!UICONTROL Exclude mobile applications]** | App mobile | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio (modello in-app). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In-App | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio (modello di trasmissione in-app) |
@@ -56,21 +56,21 @@ Per creare una regola di tipologia di filtro, effettua le seguenti operazioni:
 
 1. Crea una nuova regola di tipologia. I passaggi principali per creare le regole di tipologia sono descritti in [questa sezione](../../sending/using/managing-typology-rules.md).
 
-1. Seleziona il tipo di regola **[!UICONTROL Filtering]**, quindi specifica il canale desiderato.
+1. Seleziona la **[!UICONTROL Filtering]** tipo di regola, quindi specifica il canale desiderato.
 
-1. Nella scheda **[!UICONTROL Filtering criteria]** , seleziona le sottoscrizioni nella categoria **[!UICONTROL Subscription]** .
+1. In **[!UICONTROL Filtering criteria]** seleziona le sottoscrizioni nella scheda **[!UICONTROL Subscription]** categoria.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Nella scheda **[!UICONTROL Explorer]** dell’editor delle query, trascina e rilascia il nodo **[!UICONTROL Subscriber]** nella parte principale dello schermo.
+1. In **[!UICONTROL Explorer]** scheda dell’editor delle query, trascina e rilascia la **[!UICONTROL Subscriber]** nella parte principale dello schermo.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Seleziona il campo **[!UICONTROL Age]** e definisci le condizioni di filtro in modo che l’età degli abbonati sia uguale o superiore a 18 anni.
+1. Seleziona la **[!UICONTROL Age]** e definisci le condizioni di filtro in modo che l’età degli abbonati sia pari o superiore a 18 anni.
 
    ![](assets/typology_create-rule-age.png)
 
-1. Nella scheda **[!UICONTROL Typologies]** , collega questa regola a una tipologia.
+1. In **[!UICONTROL Typologies]** , collega questa regola a una tipologia.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,11 +82,11 @@ Ogni volta che questa regola viene utilizzata in un messaggio, gli abbonati che 
 
 ## Configurazione del contesto di targeting delle regole di filtro {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard consente di configurare le dimensioni **Targeting** e **Filtro** da utilizzare in base ai dati di destinazione.
+Campaign Standard consente di configurare le  **Targeting** e **Filtro** dimensioni da utilizzare in base ai dati di cui desideri eseguire il targeting.
 
-A questo scopo, apri le proprietà della regola di tipologia, quindi accedi alla sezione **[!UICONTROL Advanced information]** .
+A questo scopo, apri le proprietà della regola di tipologia, quindi accedi al **[!UICONTROL Advanced information]** sezione .
 
-Per impostazione predefinita, il filtraggio viene eseguito sul **[!UICONTROL Profiles]**. Ad esempio, se la regola è destinata a un’app mobile, è possibile modificare **[!UICONTROL Filtering dimension]** in **[!UICONTROL Subscriptions to an application]**.
+Per impostazione predefinita, il filtraggio viene eseguito sui **[!UICONTROL Profiles]**. Ad esempio, se la regola è indirizzata a un’app mobile, l’ **[!UICONTROL Filtering dimension]** può essere modificato in **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
@@ -94,7 +94,7 @@ Per impostazione predefinita, il filtraggio viene eseguito sul **[!UICONTROL Pro
 
 Puoi limitare l’applicabilità di una regola di filtro in base al messaggio da inviare.
 
-1. Nella scheda **[!UICONTROL Application criteria]** della regola di tipologia, deseleziona l’opzione **[!UICONTROL Apply the rule on all deliveries]** che è attivata per impostazione predefinita.
+1. Nella regola di tipologia **[!UICONTROL Application criteria]** deseleziona **[!UICONTROL Apply the rule on all deliveries]** , che è attivata per impostazione predefinita.
 
    ![](assets/typology_limit.png)
 

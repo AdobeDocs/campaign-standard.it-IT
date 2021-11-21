@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # Creazione di profili {#creating-profiles}
 
-La creazione di profili viene eseguita con una richiesta **POST** sulla risorsa profilo.
+La creazione di profili viene eseguita con un **POST** nella risorsa profilo.
 
 >[!CAUTION]
 >
->Se desideri associare un <b>orgUnit</b> al profilo creato, devi estendere la risorsa profilo a questo campo e, dopo la pubblicazione dell’estensione, eseguire una richiesta POST sull’endpoint <b>ProfileAndServicesExt</b> .
+>Per associare un <b>orgUnit</b> al profilo creato, devi estendere la risorsa profilo con questo campo e, dopo la pubblicazione dell’estensione, eseguire una richiesta POST sul <b>ProfileAndServicesExt</b> punto finale.
 >
->Per ulteriori informazioni sull’estensione della risorsa del profilo, consulta la <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentazione della campagna</a>.
+>Per ulteriori informazioni sull’estensione della risorsa del profilo, consulta la <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Documentazione di Campaign</a>.
 
 <br/>
 

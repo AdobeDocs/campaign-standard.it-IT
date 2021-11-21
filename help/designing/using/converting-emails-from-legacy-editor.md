@@ -17,9 +17,9 @@ ht-degree: 8%
 
 # Conversione del contenuto e-mail dell’editor legacy {#converting-an-html-content}
 
-Inizia a utilizzare E-mail Designer e crea modelli e frammenti riutilizzabili dal codice HTML dell’e-mail creato nell’editor legacy.
+Inizia a utilizzare E-mail Designer e crea modelli e frammenti riutilizzabili dal tuo email HTML creato nell’editor legacy.
 
-Questo caso d’uso consente di creare un modello E-mail Designer utilizzando un’e-mail HTML e di suddividerlo nei componenti HTML in E-mail Designer.
+Questo caso d’uso consente di creare un modello E-mail Designer utilizzando un’e-mail di HTML e di suddividerlo nei componenti di HTML in E-mail Designer.
 
 >[!NOTE]
 >
@@ -31,20 +31,20 @@ Questo caso d’uso consente di creare un modello E-mail Designer utilizzando un
 
 ## Preparazione del contenuto dell’e-mail
 
-1. Seleziona un messaggio e-mail HTML.
-1. Identifica le sezioni per dividere l’e-mail HTML.
-1. Taglia i diversi blocchi dal tuo HTML.
+1. Seleziona un messaggio e-mail di HTML.
+1. Identifica le sezioni per dividere l’e-mail di HTML.
+1. Taglia i diversi blocchi del tuo HTML.
 
 ## Creare la struttura delle e-mail
 
-1. Apri **[!UICONTROL Email Designer]** per creare un contenuto e-mail vuoto.
+1. Apri **[!UICONTROL Email Designer]**  per creare un contenuto e-mail vuoto.
 1. Imposta gli attributi del livello del corpo: colori di sfondo, larghezza, ecc. Per ulteriori informazioni, consulta [Modifica degli stili delle e-mail](../../designing/using/styles.md).
 1. Aggiungi tutti i componenti struttura disponibili. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Aggiungi contenuto HTML
 
 1. Aggiungi un componente HTML a ciascun componente struttura. Per ulteriori informazioni, consulta [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copia e incolla il codice HTML in ogni componente.
+1. Copia e incolla il tuo HTML in ogni componente.
 
 ## Gestione dello stile dell’e-mail {#manage-the-style-of-your-email}
 
@@ -78,7 +78,7 @@ Questo caso d’uso consente di creare un modello E-mail Designer utilizzando un
 
 ## Caso d’uso
 
-Proviamo a convertire questa e-mail, creata nell’editor legacy, in un modello **[!UICONTROL Email Designer]**.
+Proviamo a convertire questa e-mail, creata nell’editor legacy, in un **[!UICONTROL Email Designer]** modello.
 
 ### Identifica la sezione dell’e-mail
 
@@ -86,7 +86,7 @@ Possiamo identificare 11 sezioni in questo messaggio e-mail.
 
 ![](assets/html-dce-view-mail.png)
 
-Per identificare quale elemento è la sezione dell’HTML, puoi selezionarla.
+Per identificare quale elemento è la sezione di HTML, è possibile selezionarlo.
 
 ![](assets/breadcrumbs.png)
 
@@ -94,7 +94,7 @@ Per visualizzare la versione HTML dell’e-mail, fai clic su **[!UICONTROL Show 
 
 ### Creare il modello e-mail e la relativa struttura
 
-1. Trascina **[!UICONTROL Structure components]** per rispecchiare il layout della nostra e-mail.
+1. Trascinamento della selezione **[!UICONTROL Structure components]**  riflette il layout della nostra e-mail.
 
 1. Ripeti il numero di volte necessario. Dobbiamo creare 11 componenti della struttura.
 
@@ -102,15 +102,15 @@ Per visualizzare la versione HTML dell’e-mail, fai clic su **[!UICONTROL Show 
 
 ### Inserimento di componenti di contenuto HTML
 
-1. Inserisci un **[!UICONTROL HTML component]** in ogni **[!UICONTROL Structure component]** .
+1. Inserisci un **[!UICONTROL HTML component]**  in ciascuno **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
-1. Per ciascuna sezione, fai clic su **[!UICONTROL Show source code]** .
+1. Per ogni sezione, fai clic su **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 
-1. Inserisci la sezione HTML.
+1. Inserire la sezione HTML.
 
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -124,6 +124,6 @@ Ora puoi controllare il rendering della tua e-mail.
 
 1. Passa al codice sorgente e copia e incolla la sezione stile in una nuova sezione stile.
 
-Per ulteriori informazioni, consulta [Gestire lo stile dell’e-mail](#manage-the-style-of-your-email).
+Per ulteriori informazioni, consulta [Gestione dello stile dell’e-mail](#manage-the-style-of-your-email).
 
 L’e-mail legacy è ora disponibile in E-mail Designer.

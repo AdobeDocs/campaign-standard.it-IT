@@ -30,7 +30,7 @@ Per applicare le modifiche eseguite sulle risorse, devi eseguire un aggiornament
 
 >[!NOTE]
 >
->Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. Consulta [Annullamento della pubblicazione di un evento transazionale](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. Vedi [Annullamento della pubblicazione di un evento sulle transazioni](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Development]**, quindi **[!UICONTROL Publishing]**.
 1. Per impostazione predefinita, è selezionata l’opzione **[!UICONTROL Determine modifications since the last publication]**, il che significa che vengono applicate solo le modifiche eseguite dall’ultimo aggiornamento.
@@ -49,7 +49,7 @@ Per applicare le modifiche eseguite sulle risorse, devi eseguire un aggiornament
 
    >[!NOTE]
    >
-   >Poiché gli indici duplicati causano errori di pubblicazione, il passaggio di preparazione verifica se l’indice definito per la risorsa esiste già con lo stesso nome per un’altra risorsa. In questo caso, viene visualizzato un messaggio di errore che richiede di rinominare l&#39;indice. Vedere [Definizione degli indici](configuring-the-resource-s-data-structure.md#defining-indexes).
+   >Poiché gli indici duplicati causano errori di pubblicazione, il passaggio di preparazione verifica se l’indice definito per la risorsa esiste già con lo stesso nome per un’altra risorsa. In questo caso, viene visualizzato un messaggio di errore che richiede di rinominare l&#39;indice. Vedi [Definizione degli indici](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Una volta effettuata la pubblicazione, fai clic sul pulsante **[!UICONTROL Publish]** per applicare le nuove configurazioni.
 1. Dopo la pubblicazione, il riquadro **[!UICONTROL Summary]** di ciascuna risorsa indica che adesso lo stato è **[!UICONTROL Published]** e specifica la data dell’ultima pubblicazione.

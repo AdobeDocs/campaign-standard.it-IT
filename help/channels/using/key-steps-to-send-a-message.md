@@ -27,57 +27,57 @@ Informazioni specifiche su come creare e configurare ogni canale di comunicazion
 * [Creazione di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [Preparazione e invio di un messaggio in-app](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-Per scoprire le best practice per la consegna, consulta la sezione [Best practice per la consegna](../../sending/using/delivery-best-practices.md) .
+Per scoprire le best practice per la consegna, consulta la [Best practice per le consegne](../../sending/using/delivery-best-practices.md) sezione .
 
 ## Creare il messaggio
 
-Utilizza le attività di marketing di Campaign Standard [per creare un messaggio e-mail, SMS, direct mailing, notifica push o in-app.](../../start/using/marketing-activities.md)
+Campaign Standard [attività di marketing](../../start/using/marketing-activities.md) per creare e-mail, SMS, direct mailing, notifiche push o messaggi in-app.
 
 ![](assets/marketing-activities.png)
 
-I messaggi possono essere creati dall&#39;elenco delle attività di marketing o da un flusso di lavoro utilizzando [attività dedicate](../../automating/using/about-channel-activities.md).
+I messaggi possono essere creati dall’elenco delle attività di marketing o da un flusso di lavoro tramite [attività dedicate](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
 ## Definire il pubblico
 
-Definisci i destinatari del messaggio. A questo scopo, utilizza l&#39; [editor di query](../../automating/using/editing-queries.md) dal riquadro a sinistra per filtrare i dati contenuti nel database e creare regole per indirizzare il pubblico.
+Definisci i destinatari del messaggio. Per eseguire questa operazione, utilizza la variabile [editor di query](../../automating/using/editing-queries.md) dal riquadro a sinistra per filtrare i dati contenuti nel database e creare regole per eseguire il targeting del pubblico.
 
 Sono disponibili diversi tipi di pubblico:
 
 * **[!UICONTROL Target]** è il target principale della tua e-mail,
-* **[!UICONTROL Test profiles]** sono i profili utilizzati per testare e convalidare l’e-mail (consulta  [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md)).
+* **[!UICONTROL Test profiles]** sono i profili utilizzati per testare e convalidare l’e-mail (consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md)).
 
 ![](assets/steps-audience.png)
 
 ## Progettare e personalizzare i contenuti
 
-Nel blocco **[!UICONTROL Content]** , progetta e personalizza il contenuto del messaggio utilizzando i campi del database. Per ulteriori informazioni su come progettare contenuti per un canale specifico, consulta le sezioni elencate nella parte superiore della pagina.
+In **[!UICONTROL Content]** blocca, progetta e personalizza il contenuto del messaggio utilizzando i campi del database. Per ulteriori informazioni su come progettare contenuti per un canale specifico, consulta le sezioni elencate nella parte superiore della pagina.
 
 ![](assets/steps-content.png)
 
 ## Preparare e testare
 
-[](../../sending/using/preparing-the-send.md) Prepara il messaggio. Questo processo calcola la popolazione target e prepara il messaggio personalizzato.
+[Preparare](../../sending/using/preparing-the-send.md) il messaggio. Questo processo calcola la popolazione target e prepara il messaggio personalizzato.
 
 ![](assets/steps-prepare.png)
 
-**Controlla e verifica il** messaggio prima di inviarlo utilizzando le funzionalità di Campaign Standard: anteprima, rendering di e-mail, correzione, ecc. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/previewing-messages.md).
+**Controlla e verifica il messaggio** prima di inviarlo utilizzando le funzionalità di Campaign Standard: anteprima, rendering di e-mail, correzione, ecc. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/previewing-messages.md).
 
-Usa il blocco **[!UICONTROL Schedule]** per definire quando verranno inviati i messaggi (consulta [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md)).
+Utilizza la **[!UICONTROL Schedule]** blocca per definire quando i messaggi verranno inviati (vedi [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md)).
 
 ![](assets/steps-schedule.png)
 
 ## Invio e tracciamento
 
-Quando il messaggio è pronto, puoi confermare l’invio. Il blocco **[!UICONTROL Deployment]** visualizza l’avanzamento dell’invio e il risultato.
+Quando il messaggio è pronto, puoi confermare l’invio. La **[!UICONTROL Deployment]** block visualizza l’avanzamento dell’invio e il risultato.
 
 ![](assets/steps-send.png)
 
-Sono disponibili diversi registri per aiutarti a monitorare la consegna dei messaggi (consulta [monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md)). Puoi anche tenere traccia del comportamento dei destinatari della consegna grazie alle [funzionalità di tracciamento Campaign Standard](../../sending/using/tracking-messages.md).
+Sono disponibili diversi registri per monitorare la consegna dei messaggi (consulta [monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md)). Puoi anche tenere traccia del comportamento dei destinatari della consegna grazie a Campaign Standard [funzionalità di tracciamento](../../sending/using/tracking-messages.md).
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-Misura l’efficacia dei messaggi e l’evoluzione degli invii e delle campagne attraverso vari indicatori e grafici (consulta [Accesso ai rapporti](../../reporting/using/about-dynamic-reports.md)).
+Misura l’efficacia dei messaggi e l’evoluzione degli invii e delle campagne attraverso vari indicatori e grafici (vedi [Accesso ai rapporti](../../reporting/using/about-dynamic-reports.md)).
 
 ![](assets/steps-reports.png)

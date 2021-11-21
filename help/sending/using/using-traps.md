@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Utilizzo delle “trappole” {#using-traps}
 
-Quando utilizzi le trappole, il messaggio viene inviato al [profilo di test](../../audiences/using/managing-test-profiles.md) proprio come viene inviato al target principale, in modo da identificare se il file client viene utilizzato in modo fraudolento.
+Quando si utilizzano le trappole, il messaggio viene inviato al [profilo di prova](../../audiences/using/managing-test-profiles.md) così come viene inviato al target principale, come mezzo per identificare se il file client viene utilizzato in modo fraudolento.
 
 Le trappole sono state originariamente progettate per le consegne di direct mailing. Consentono di:
 
@@ -39,15 +39,15 @@ Per utilizzare un profilo di test come trappola, deve essere incluso nel pubblic
 
 >[!NOTE]
 >
->A differenza dei profili di test utilizzati per [bozze](../../sending/using/sending-proofs.md) o [rendering di e-mail](../../sending/using/email-rendering.md), il messaggio viene inviato contemporaneamente al target principale e ai profili di test utilizzati come trappole.
+>Contrariamente ai profili di test utilizzati per [bozze](../../sending/using/sending-proofs.md) o [rendering di e-mail](../../sending/using/email-rendering.md), il messaggio viene inviato contemporaneamente al target principale e ai profili di test utilizzati come trappole.
 
 Quando definisci il pubblico di un messaggio:
 
-1. Dalla scheda **[!UICONTROL Test profiles]** , seleziona un profilo di test. Assicurati che abbia **[!UICONTROL Trap]** come uso previsto.
+1. Da **[!UICONTROL Test profiles]** seleziona un profilo di test. Assicurati che abbia **[!UICONTROL Trap]** come uso previsto.
 
    ![](assets/trap_select.png)
 
-1. Quando il contenuto del messaggio è pronto, fai clic sul pulsante **[!UICONTROL Prepare]** . Consulta [Preparazione dell&#39;invio](../../sending/using/preparing-the-send.md).
+1. Quando il contenuto del messaggio è pronto, fai clic sul pulsante **[!UICONTROL Prepare]** pulsante . Vedi [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Assicurati di aver selezionato una destinazione principale. In caso contrario, il messaggio non può essere inviato.
@@ -58,7 +58,7 @@ Quando definisci il pubblico di un messaggio:
 
 Il messaggio viene inviato al target principale e al profilo di test.
 
-Puoi utilizzare le trappole per l’invio di messaggi transazionali. In questo caso, il profilo di test riceverà un messaggio per ogni configurazione dell’evento. Per ulteriori informazioni sulla messaggistica transazionale, consulta questa [sezione](../../channels/using/getting-started-with-transactional-msg.md).
+Puoi utilizzare le trappole per l’invio di messaggi transazionali. In questo caso, il profilo di test riceverà un messaggio per ogni configurazione dell’evento. Per ulteriori informazioni sulla messaggistica transazionale, consulta questo articolo [sezione](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

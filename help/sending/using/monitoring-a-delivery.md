@@ -22,7 +22,7 @@ Esistono diversi modi per monitorare una consegna e misurarne l’impatto. In qu
 
 >[!IMPORTANT]
 >
->Solo gli amministratori [funzionali](../../administration/using/users-management.md#functional-administrators) con il ruolo **[!UICONTROL Administration]** e l&#39;accesso alle unità **All** possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente non amministratore può eseguire il targeting di questi registri ma partendo da una tabella collegata (profili, consegna).
+>Solo funzionale [amministratori](../../administration/using/users-management.md#functional-administrators)con **[!UICONTROL Administration]** ruolo e accesso **Tutto** Le unità possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente non amministratore può eseguire il targeting di questi registri ma partendo da una tabella collegata (profili, consegna).
 
 * **Log dei messaggi**: questi log sono accessibili direttamente dal dashboard dei messaggi. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic.
 

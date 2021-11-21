@@ -52,7 +52,7 @@ In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di 
 
 >[!NOTE]
 >
->Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verificherà se la memoria fisica del sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, un messaggio ti informa che l’esecuzione del flusso di lavoro verrà ritardata fino a quando il caricamento sul server non si esaurisce e la memoria del sistema aumenta.
+>Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verifica se la memoria fisica del sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, un messaggio ti informa che l’esecuzione del flusso di lavoro verrà ritardata fino a quando il caricamento sul server non si esaurisce e la memoria del sistema aumenta.
 
 ### Frequenza
 
@@ -81,7 +81,7 @@ Le proprietà del flusso di lavoro ti consentono di definire un fuso orario spec
 
 ### Progettazione flussi di lavoro
 
-Per garantire il corretto completamento del flusso di lavoro, evita di uscire dall’ultima transizione di un flusso di lavoro per conto proprio utilizzando un **[!UICONTROL End activity]**.
+Per garantire il corretto completamento del flusso di lavoro, evita di uscire dall’ultima transizione di un flusso di lavoro per conto proprio utilizzando un’ **[!UICONTROL End activity]**.
 
 Per accedere alla visualizzazione dettagliata delle transizioni, seleziona l’opzione **[!UICONTROL Keep interim results]** nella sezione Execution delle proprietà del flusso di lavoro.
 
@@ -114,7 +114,7 @@ Durante la progettazione di un flusso di lavoro pianificato che include più att
 
 ## Chiamata del flusso di lavoro con parametri{#workflow-with-parameters}
 
-Assicurati che il nome e il numero di parametri siano identici a quelli definiti durante la chiamata al flusso di lavoro (consulta [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
+Assicurati che il nome e il numero di parametri siano identici a quelli definiti durante la chiamata al flusso di lavoro (vedi [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
 
 Verifica che tutti i parametri siano stati dichiarati nell’**[!UICONTROL External signal activity]**. In caso contrario, si verificherà un errore durante l’esecuzione dell’attività.
 

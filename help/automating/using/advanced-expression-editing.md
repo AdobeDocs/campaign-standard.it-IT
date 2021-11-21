@@ -155,7 +155,7 @@ Le condizioni devono essere collegate ai valori utilizzando uno dei seguenti ope
   <tr> 
    <td> <span class="uicontrol">Minore di</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> Il primo valore deve essere categoricamente minore del secondo valore.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> recupera tutti i profili creati nel database meno di 100 giorni fa.<br /> </td> 
   </tr> 
@@ -169,7 +169,7 @@ Le condizioni devono essere collegate ai valori utilizzando uno dei seguenti ope
   <tr> 
    <td> <span class="uicontrol">Minore o uguale a</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> Il primo valore deve essere minore o uguale al secondo valore.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> recupera i profili di età minore o uguale a 60 anni.<br /> </td> 
   </tr> 

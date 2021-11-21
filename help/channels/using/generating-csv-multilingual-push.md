@@ -38,25 +38,25 @@ Il push multilingue richiede 14 colonne nel file CSV:
 1. language
 1. silenziosoPush
 
-Controlla il campione CSV facendo clic su **[!UICONTROL Download a sample file]** nella finestra **[!UICONTROL Manage Content Variants]**. Per ulteriori informazioni, consulta questa [sezione](../../channels/using/creating-a-multilingual-push-notification.md).
+Controlla l’esempio CSV facendo clic sul pulsante **[!UICONTROL Download a sample file]** in **[!UICONTROL Manage Content Variants]** finestra. Per ulteriori informazioni, consulta la sezione [sezione](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deeplinkURI, categoria, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenuto normale del payload push. Devi fornire queste informazioni in modo simile a quando crei consegne push.
-* **Campi** personalizzati: utilizza il formato JSON per i campi personalizzati, ad esempio  `{"key1":"value1","key2":"value2"}`. Per un esempio di campi personalizzati, fai riferimento al file di esempio precedente.
+* **Campi personalizzati**: utilizza il formato JSON per i campi personalizzati, ad esempio `{"key1":"value1","key2":"value2"}`. Per un esempio di campi personalizzati, fai riferimento al file di esempio precedente.
 * **isContentAvailable**: Flag per il controllo Contenuto disponibile, il valore 1 implica true, il valore 0 indica false. Il valore predefinito è 0. Se lasci questa colonna vuota, il valore sarà considerato 0.
 * **isMablesContent**: Flag per Contenuto variabile, il valore 1 implica true, il valore 0 implica false. Il valore predefinito è 0. Se lasci questa colonna vuota, il valore sarà considerato 0.
 * **locale**: locale è il campo per le varianti di lingua, ad esempio &quot;en_us&quot; per US-English e &quot;fr_fr&quot; per France-French.
-* **lingua**: nome della lingua associata alle impostazioni internazionali. Ad esempio, se l’impostazione internazionale è &quot;en_us&quot;, il nome della lingua deve essere &quot;Inglese-Stati Uniti&quot;.
+* **language**: nome della lingua associata alle impostazioni internazionali. Ad esempio, se l’impostazione internazionale è &quot;en_us&quot;, il nome della lingua deve essere &quot;Inglese-Stati Uniti&quot;.
 * **silenziosoPush**: Flag per il tipo di notifica push. Se si tratta di una notifica push regolare, il valore deve essere 0. Se si tratta di un push silenzioso, il valore deve essere 1. Il valore predefinito è 0. Se lasci questa colonna vuota, il valore sarà considerato 0.
 
 ## Vincoli e linee guida per la creazione di file csv {#constraints-guideline-csv}
 
-**Il nome di ogni colonna è fisso**.
+**Nome di ogni colonna fisso**.
 Inserisci il nome di ogni colonna nel file CSV se non utilizzi alcuna colonna per il contenuto, lascialo vuoto.
 
 **Le colonne &quot;locale&quot; e &quot;lingua&quot; sono obbligatorie e il valore è univoco per ogni riga.**
 Un valore vuoto per questa colonna causerà un errore di caricamento del file.
 
-**L&#39;ordine delle colonne è importante**. L’ordine delle colonne nel file caricato deve seguire lo stesso formato del file di esempio.
+**Ordine delle colonne**. L’ordine delle colonne nel file caricato deve seguire lo stesso formato del file di esempio.
 
 **Contenuto della colonna del preventivo**. Dato che si tratta di un file CSV (che sta per Valori separati da virgole), qualsiasi contenuto di colonna che include la virgola (,) deve essere citato. Per esempio, &quot;Ciao, Tom!&quot;
 
@@ -68,7 +68,7 @@ Un valore vuoto per questa colonna causerà un errore di caricamento del file.
 
 ## Inserimento di un campo di personalizzazione nel file CSV {#personalization-field-csv}
 
-Se desideri utilizzare i campi di personalizzazione, devi includere il tag <span> nel file .
+Se desideri utilizzare i campi di personalizzazione, devi includere <span> nel file .
 
 Per inserire il campo di personalizzazione &quot;firstName&quot; in messageBody, il messaggio deve essere:
 
@@ -86,7 +86,7 @@ Nell’intervallo sono presenti due attributi obbligatori:
 
 * Una è la classe che è statica. Indipendentemente dal campo di personalizzazione che intendi utilizzare, sarà sempre class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Un altro è data-nl-expr che è il percorso del campo di personalizzazione. Ad esempio, se inserisci il campo di personalizzazione &quot;firstName&quot; dall’interfaccia utente, il percorso di navigazione sarà **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (come illustrato nell’immagine seguente). In questo caso, il percorso sarà
+* Un altro è data-nl-expr che è il percorso del campo di personalizzazione. Ad esempio, se inserisci un campo di personalizzazione &quot;firstName&quot; dall’interfaccia utente, il percorso di navigazione sarà **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (come mostrato nell&#39;immagine seguente). In questo caso, il percorso sarà
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".

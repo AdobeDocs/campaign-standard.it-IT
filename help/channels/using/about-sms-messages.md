@@ -26,9 +26,9 @@ Adobe Campaign consente di inviare messaggi SMS (Short Message Service).
 
 Per i messaggi SMS, puoi creare, modificare e personalizzare i messaggi solo in formato testo. Puoi anche visualizzare in anteprima i messaggi SMS prima di inviarli.
 
-La lunghezza di un messaggio SMS è limitata a 160 caratteri se è in codifica GSM e a soli 70 caratteri se è in Unicode. Tuttavia, alcuni caratteri speciali possono influenzare la lunghezza del messaggio. Per ulteriori informazioni, consulta la sezione [Codifica SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) .
+La lunghezza di un messaggio SMS è limitata a 160 caratteri se è in codifica GSM e a soli 70 caratteri se è in Unicode. Tuttavia, alcuni caratteri speciali possono influenzare la lunghezza del messaggio. Per ulteriori informazioni, consulta la sezione [Codifica SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) sezione .
 
-I messaggi SMS possono essere creati dal menu **[!UICONTROL Marketing activities]**, da una campagna o in un flusso di lavoro, consulta [Creazione di un messaggio SMS](../../channels/using/creating-an-sms-message.md).
+I messaggi SMS possono essere creati da **[!UICONTROL Marketing activities]** da una campagna o in un flusso di lavoro, vedi [Creazione di un messaggio SMS](../../channels/using/creating-an-sms-message.md).
 
 Per inviare messaggi SMS a un telefono cellulare è necessario:
 
@@ -44,13 +44,13 @@ Per inviare messaggi SMS a un telefono cellulare è necessario:
 
 ## Modello di consegna SMS {#sms-delivery-template}
 
-Adobe Campaign offre un modello di consegna per dispositivi mobili. Questo modello deve essere collegato correttamente all’account esterno utilizzato per il canale **[!UICONTROL Mobile (SMS)]** . Per accedervi e modificarlo:
+Adobe Campaign offre un modello di consegna per dispositivi mobili. Questo modello deve essere collegato correttamente all’account esterno utilizzato per **[!UICONTROL Mobile (SMS)]** canale. Per accedervi e modificarlo:
 
 1. Seleziona **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** dal menu avanzato.
-1. Passa il puntatore del mouse sul modello **[!UICONTROL Send via SMS]** e seleziona l&#39;opzione **Duplica elemento** .
+1. Passa il puntatore del mouse **[!UICONTROL Send via SMS]** modello con il mouse e seleziona il **Elemento duplicato** opzione .
 1. Seleziona il nuovo modello.
 1. Fai clic sul pulsante **[!UICONTROL Edit properties]**.
-1. Nella sezione **[!UICONTROL Advanced parameters]** delle proprietà del modello , accertati che il modello sia collegato all’account esterno da utilizzare per la consegna di SMS.
+1. In **[!UICONTROL Advanced parameters]** nelle proprietà del modello , accertati che il modello sia collegato all’account esterno da utilizzare per la consegna di SMS.
 
    ![](assets/sms_template.png)
 

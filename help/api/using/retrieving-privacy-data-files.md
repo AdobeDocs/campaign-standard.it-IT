@@ -19,15 +19,15 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->L’ [Integrazione di base del servizio Privacy](https://adobe.io/apis/cloudplatform/gdpr.html?lang=it) è il metodo da utilizzare per tutte le richieste di accesso e di cancellazione. A partire dalla versione 19.4, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventa obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse da Campaign Standard, consulta [questa pagina](../../rn/using/deprecated-features.md).
+>La [Servizio core Privacy](https://adobe.io/apis/cloudplatform/gdpr.html?lang=it) L&#39;integrazione è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventa obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse da Campaign Standard, consulta [questa pagina](../../rn/using/deprecated-features.md).
 
 Per recuperare il file contenente tutte le informazioni associate a un valore di riconciliazione, segui questa procedura in tre passaggi:
 
-1. Esegui una richiesta **POST** per creare una nuova richiesta con l&#39;attributo **type=&quot;access&quot;**, vedi [Creazione di una nuova richiesta di accesso a dati personali](../../api/using/creating-a-privacy-request.md).
+1. Eseguire un **POST** richiesta di creazione di una nuova richiesta con l&#39;attributo **type=&quot;access&quot;**, vedi [Creazione di una nuova richiesta di accesso a dati personali](../../api/using/creating-a-privacy-request.md).
 
-1. Esegui una richiesta **GET** per recuperare informazioni sulla richiesta.
+1. Eseguire un **GET** richiesta per recuperare informazioni sulla richiesta.
 
-1. Recupera il file di dati eseguendo una richiesta **POST** sull&#39;URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy all&#39;interno del payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupera il file di dati eseguendo un **POST** richiesta di **privacyRequestData** URL, con il nome interno della richiesta di accesso a dati personali all’interno del payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 

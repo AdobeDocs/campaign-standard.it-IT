@@ -17,19 +17,19 @@ ht-degree: 1%
 
 # Verifica degli attivatori{#testing-your-triggers}
 
-I seguenti suggerimenti per la risoluzione dei problemi possono essere utili per risolvere i problemi più comuni che si verificano quando si utilizzano Triggers con Adobe Campaign:
+I seguenti suggerimenti per la risoluzione dei problemi possono essere utili per risolvere i problemi più comuni che si possono incontrare quando si utilizzano Triggers con Adobe Campaign:
 
 **La funzionalità è attivata?**
 
-Per verificare se l’integrazione Triggers - Campaign è attivata, fai clic sul logo Adobe Campaign nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti visualizzare l’elemento **[!UICONTROL Experience Cloud Triggers]** .
+Per verificare se l’integrazione Triggers - Campaign è attivata, fai clic sul logo Adobe Campaign nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti vedere la **[!UICONTROL Experience Cloud Triggers]** oggetto.
 
 Se lo vedi, passa al passaggio successivo.
 
-In caso contrario, contatta il tuo responsabile dell&#39;account Adobe o un partner di servizi professionali. Consulta [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+In caso contrario, contatta il tuo responsabile dell&#39;account Adobe o un partner di servizi professionali. Vedi [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Prova a creare un trigger**
 
-Per creare un trigger, segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) .
+Segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) per creare un trigger.
 
 Se il trigger viene creato, passa al passaggio successivo. In caso contrario, significa che la connessione al punto finale dell’attivatore non è riuscita. Controlla se il provisioning di Triggers avviene in Experience Cloud (Servizi di Attivazione). In caso contrario, contatta il tuo responsabile dell&#39;account Adobe o un partner di servizi professionali. Sono necessarie le seguenti informazioni:
 
@@ -39,13 +39,13 @@ Se il trigger viene creato, passa al passaggio successivo. In caso contrario, si
 
 **Prova a pubblicare il trigger**
 
-Per pubblicare il trigger, segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) .
+Segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) per pubblicare il trigger.
 
 Se la pubblicazione è riuscita, passa al passaggio successivo. In caso contrario, contatta l&#39;Adobe per riavviare l&#39;istanza e riprova.
 
 **Genera il trigger dal sito web**
 
-Segui i passaggi descritti in [Modifica del modello di messaggio transazionale](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) per modificare e pubblicare il modello transazionale. Quindi, verifica la generazione del trigger dal sito web.
+Segui i passaggi descritti in [Modifica del modello di messaggio sulle transazioni](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) per modificare e pubblicare il modello transazionale. Quindi, verifica la generazione del trigger dal sito web.
 
 Se il trigger viene ricevuto da Analytics, passa al passaggio successivo. In caso contrario, controlla i seguenti elementi:
 

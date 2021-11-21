@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # Provisioning e configurazione dell’integrazione con Audience Manager o il servizio core People{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-Il provisioning e la configurazione del core Audience Manager e People in Adobe Campaign seguono due passaggi: [Invio di una richiesta ad Adobe](#submitting-request-to-adobe) e quindi [Configurazione dell&#39;integrazione in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+Il provisioning e la configurazione del core Audience Manager e People in Adobe Campaign seguono due passaggi: [Invio di una richiesta all’Adobe](#submitting-request-to-adobe) then [Configurazione dell’integrazione in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
 ## Invio di una richiesta ad Adobe {#submitting-request-to-adobe}
 
@@ -79,8 +79,8 @@ Per eseguire questa operazione:
 
    ![](assets/integration_aam_1.png)
 
-1. Inserisci **[!UICONTROL Receiver server]** nel seguente formato
-1. Inserisci i valori **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** e **[!UICONTROL AWS Region]**.
+1. Invio **[!UICONTROL Receiver server]** nel formato seguente
+1. Inserisci il **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** e **[!UICONTROL AWS Region]**.
 
 Gli account esterni sono ora configurati per questa integrazione.
 
@@ -89,45 +89,45 @@ Gli account esterni sono ora configurati per questa integrazione.
 In Audience Manager vengono create le due seguenti origini dati: Adobe Campaign (MID) e Adobe Campaign (DeclaredId). Contemporaneamente, queste due origini dati sono disponibili in Adobe Campaign:
 
 * **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: Si tratta di un’origine dati preconfigurata configurata configurata configurata per l’ID visitatore per impostazione predefinita. I segmenti creati da Campaign faranno parte di questa origine dati.
-* **Origine** dati ID dichiarata: Questa origine dati deve essere creata e mappata con la definizione dell’origine  **[!UICONTROL DeclaredId]** dati di Audience Manager.
+* **ID dichiarato** origine dati: Questa origine dati deve essere creata e mappata con **[!UICONTROL DeclaredId]** definizione dell&#39;origine dati da Audience Manager.
 
 Nel caso di più siti web con domini diversi, Adobe Campaign non supporta la riconciliazione basata su ECID.
 
-Per configurare l&#39;origine dati **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**:
+Per configurare le **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** origine dati:
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, selezionare **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, seleziona **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
 
    ![](assets/integration_aam_2.png)
 
-1. Scegli **[!UICONTROL Adobe Campaign]** nel menu a discesa **[!UICONTROL Data Source/ Alias]** .
+1. Scegli **[!UICONTROL Adobe Campaign]** in **[!UICONTROL Data Source/ Alias]** a discesa.
 1. Inserisci il **[!UICONTROL AAM Destination ID]** fornito dall&#39;Adobe.
 
    ![](assets/integration_aam_3.png)
 
-1. Nella categoria **[!UICONTROL Reconciliation process]** ti consigliamo di non modificare i criteri di riconciliazione e di utilizzare sempre il valore **[!UICONTROL Visitor ID]**.
+1. In **[!UICONTROL Reconciliation process]** ti consigliamo di non modificare i criteri di riconciliazione e di utilizzare sempre il **[!UICONTROL Visitor ID]**.
 1. Fai clic su **[!UICONTROL Save]**.
 
-Per creare l&#39;origine dati **[!UICONTROL Declared ID]**:
+Per creare **[!UICONTROL Declared ID]** origine dati:
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** fare clic sul pulsante **[!UICONTROL Create]**.
-1. Modifica il **[!UICONTROL Label]** della tua origine dati.
-1. Nel menu a discesa **[!UICONTROL Data Source/ Alias]** , scegli dall’Audience Manager Origine dati corrispondente all’ origine dati **[!UICONTROL DeclaredID]** .
-1. Configura l’origine dati immettendo i valori **[!UICONTROL Data Source / Alias]** e **[!UICONTROL AAM Destination ID]** forniti dall’Adobe.
-1. Imposta il **[!UICONTROL Reconciliation process]** come necessario.
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, fai clic su **[!UICONTROL Create]** pulsante .
+1. Modifica le **[!UICONTROL Label]** dell&#39;origine dati.
+1. In **[!UICONTROL Data Source/ Alias]** a discesa, scegli l’Origine dati corrispondente alla **[!UICONTROL DeclaredID]** origine dati da Audience Manager.
+1. Configura l’origine dati immettendo la **[!UICONTROL Data Source / Alias]** e **[!UICONTROL AAM Destination ID]** fornito dall&#39;Adobe.
+1. Imposta la **[!UICONTROL Reconciliation process]** se necessario.
 1. Fai clic su **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Il campo **[!UICONTROL AAM Destination ID]** non è richiesto se stai configurando l&#39;origine dati condivisa per l&#39; [Integrazione Campaign-Triggers](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** è necessario solo per configurare l’integrazione Triggers - Campaign. Priorità decide quale Origine dati sarà configurata per prima. La priorità può essere un numero qualsiasi, ad esempio 1 o 100. Maggiore è la priorità, maggiore è la preferenza durante la riconciliazione.
+>La **[!UICONTROL AAM Destination ID]** Il campo non è necessario se si sta configurando l&#39;origine dati condivisa per il [Integrazione di Campaign Triggers](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** è necessario solo per configurare l’integrazione Triggers - Campaign. Priorità decide quale Origine dati sarà configurata per prima. La priorità può essere un numero qualsiasi, ad esempio 1 o 100. Maggiore è la priorità, maggiore è la preferenza durante la riconciliazione.
 
 ### Passaggio 3: Configurare il server di tracciamento delle campagne {#step-3--configure-campaign-tracking-server}
 
 Per la configurazione dell’integrazione con il servizio core Persone o Audience Manager, dobbiamo anche configurare il server di tracciamento delle campagne.
 
-In questo caso, assicurati che Campaign Tracking Server sia registrato sul dominio (CNAME). Per ulteriori informazioni sulla configurazione del nome di dominio, consulta [questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
+In questo caso, assicurati che Campaign Tracking Server sia registrato sul dominio (CNAME). Puoi trovare ulteriori informazioni sulla configurazione del nome di dominio in [articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
 
 ### Passaggio 4: Configurare il servizio ID visitatori {#step-4--configure-the-visitor-id-service}
 
-Nel caso in cui il servizio ID visitatore non sia mai stato configurato sulle proprietà web o sui siti web, consulta il seguente [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) per informazioni su come configurare il servizio o il seguente [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
+Nel caso in cui il servizio ID visitatore non sia mai stato configurato sulle proprietà web o sui siti web, consulta quanto segue [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) per scoprire come configurare il servizio o quanto segue [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
 
 La configurazione e il provisioning sono completati. L’integrazione può ora essere utilizzata per importare ed esportare tipi di pubblico o segmenti.

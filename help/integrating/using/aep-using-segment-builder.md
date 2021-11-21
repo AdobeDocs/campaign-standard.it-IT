@@ -22,9 +22,9 @@ ht-degree: 3%
 >
 >Il servizio Audience Destinations è attualmente in versione beta e potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
 
-Il Generatore di segmenti consente di creare tipi di pubblico definendo regole basate sui dati provenienti dal [Profilo del cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Il Generatore di segmenti consente di creare tipi di pubblico definendo regole basate sui dati provenienti da [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-Questa sezione presenta concetti globali durante la creazione di un segmento. Per informazioni dettagliate sullo stesso Generatore di segmenti, consulta la [Guida utente del Generatore di segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Questa sezione presenta concetti globali durante la creazione di un segmento. Per informazioni dettagliate sul Generatore di segmenti stesso, consulta la [Guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 L’interfaccia del Generatore di segmenti è composta come segue:
 
@@ -46,7 +46,7 @@ Il Generatore di segmenti dovrebbe ora essere visualizzato nell’area di lavoro
 
 1. Assicurati che il criterio di unione desiderato sia selezionato nel riquadro delle impostazioni.
 
-   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata dalla [guida utente del Generatore di segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata dalla sezione [Guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,7 +64,7 @@ Il Generatore di segmenti dovrebbe ora essere visualizzato nell’area di lavoro
 
 Nel riquadro a sinistra sono elencati tutti gli attributi, gli eventi e i tipi di pubblico disponibili per la creazione delle regole.
 
-I campi elencati sono attributi acquisiti dalla società e sono stati resi disponibili tramite il [sistema Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+I campi elencati sono attributi acquisiti dalla società e sono stati resi disponibili tramite [Sistema Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 I campi sono organizzati in schede:
 
@@ -78,11 +78,11 @@ I campi sono organizzati in schede:
 
 >[!NOTE]
 >
->**La** segmentazione su più entità consente di estendere i dati di profilo con dati aggiuntivi basati su prodotti, store o altre classi non di profilo. Una volta connessi, i dati provenienti da classi aggiuntive diventano disponibili come se fossero nativi dello schema Profilo.
+>**Segmentazione su più entità** ti consente di estendere i dati di profilo con dati aggiuntivi basati su prodotti, store o altre classi non di profilo. Una volta connessi, i dati provenienti da classi aggiuntive diventano disponibili come se fossero nativi dello schema Profilo.
 >
 >Per ulteriori informazioni, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
 
-Per impostazione predefinita, il Generatore di segmenti visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, inclusi i campi per i quali i dati non sono presenti, abilita l&#39;opzione **[!UICONTROL Show full XDM schema]** dalle impostazioni.
+Per impostazione predefinita, il Generatore di segmenti visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, inclusi i campi per i quali i dati non sono presenti, abilita **[!UICONTROL Show full XDM schema]** dalle impostazioni.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ Il simbolo alla fine di ciascun campo fornisce informazioni aggiuntive sull’at
 
 >[!NOTE]
 >
->La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la [guida utente del Generatore di segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la sezione [Guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Per generare una regola, effettua le seguenti operazioni:
 
@@ -106,9 +106,9 @@ Per generare una regola, effettua le seguenti operazioni:
 
    ![](assets/aep_audiences_malegender.png)
 
-   La popolazione stimata corrispondente al segmento viene ricalcolata automaticamente nella sezione **[!UICONTROL Segment Properties]** .
+   La popolazione stimata corrispondente al segmento viene ricalcolata automaticamente nel **[!UICONTROL Segment Properties]** sezione .
 
-1. Il pulsante **[!UICONTROL View Profiles]** ti offre un’anteprima dei primi 20 record corrispondenti alla regola, consentendoti di convalidare rapidamente il segmento.
+1. La **[!UICONTROL View Profiles]** pulsante ti offre un’anteprima dei primi 20 record corrispondenti alla regola, consentendoti di convalidare rapidamente il segmento.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ Per farlo, esegui questi passaggi:
 
 1. Selezionare il secondo campo (ad esempio, il codice postale dell&#39;indirizzo di lavoro) che verrà confrontato con il primo campo.
 
-   Trascinala nell’area di lavoro centrale, nello stesso contenitore del primo campo, nella casella **[!UICONTROL Drop here to compare operands]**.
+   Trascinala nell’area di lavoro centrale, nello stesso contenitore del primo campo, nella **[!UICONTROL Drop here to compare operands]** scatola.
 
    ![](assets/aep_audiences_comparing_2.png)
 

@@ -7,7 +7,8 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 # Audit trail {#audit}
 
-Il **[!UICONTROL Audit trail]** ti consente di accedere alla cronologia completa delle modifiche apportate all’interno dell’istanza.
+La **[!UICONTROL Audit trail]** consente di accedere alla cronologia completa delle modifiche apportate all’interno dell’istanza.
 
 **[!UICONTROL Audit trail]** acquisisce in tempo reale un elenco completo delle azioni e degli eventi che si verificano all’interno della tua istanza Adobe Campaign Standard. Include un modo self-service per accedere alla cronologia dei dati e rispondere a domande quali: gli eventi relativi ai flussi di lavoro, alle risorse personalizzate e alle opzioni, l’ultimo utente che li ha aggiornati o le operazioni eseguite dagli utenti nell’istanza.
 
@@ -24,9 +25,9 @@ Il **[!UICONTROL Audit trail]** ti consente di accedere alla cronologia completa
 
 **[!UICONTROL Audit trail]** è costituito da tre componenti:
 
-* **Audit trail** risorse personalizzate: controlla l’attività e l’ultima modifica apportata alle risorse personalizzate.
+* **Audit trail per risorse personalizzate**: controlla l’attività e l’ultima modifica apportata alle risorse personalizzate.
 
-   Per ulteriori informazioni su **[!UICONTROL Custom resources]**, consulta questa [pagina](../../developing/using/key-steps-to-add-a-resource.md).
+   Per ulteriori informazioni su **[!UICONTROL Custom resources]**, fai riferimento a [page](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **Workflow Audit trail**: controlla l’attività e l’ultima modifica apportata ai flussi di lavoro e, in aggiunta, lo stato dei flussi di lavoro quali:
 
@@ -44,11 +45,11 @@ Il **[!UICONTROL Audit trail]** ti consente di accedere alla cronologia completa
    * Riavvio del flusso di lavoro con lo stesso utente
    * Riavvio del flusso di lavoro - Comando sconosciuto
 
-   Per ulteriori informazioni su **[!UICONTROL Workflows]**, consulta questa [pagina](../../automating/using/get-started-workflows.md).
+   Per ulteriori informazioni su **[!UICONTROL Workflows]**, fai riferimento a [page](../../automating/using/get-started-workflows.md).
 
 * **Opzione Audit trail**: controlla l’attività e l’ultima modifica apportata alle opzioni.
 
-   Per ulteriori informazioni su **[!UICONTROL Options]**, consulta questa [pagina](../../administration/using/about-campaign-standard-settings.md).
+   Per ulteriori informazioni su **[!UICONTROL Options]**, fai riferimento a [page](../../administration/using/about-campaign-standard-settings.md).
 
 Per impostazione predefinita, il periodo di conservazione è di 30 giorni.
 
@@ -60,9 +61,9 @@ Per accedere alla traccia di audit della tua istanza:
 
    ![](assets/audit-trail.png)
 
-1. Viene visualizzata la finestra **[!UICONTROL Audit trail]** con l’elenco delle entità. Adobe Campaign Standard controllerà le azioni di creazione, modifica ed eliminazione per i flussi di lavoro, le opzioni e le risorse personalizzate.
+1. La **[!UICONTROL Audit trail]** viene visualizzata la finestra con l’elenco delle entità. Adobe Campaign Standard controllerà le azioni di creazione, modifica ed eliminazione per i flussi di lavoro, le opzioni e le risorse personalizzate.
 
-   Dal menu **[!UICONTROL Search]**, puoi filtrare l’entità in base a:
+   Da **[!UICONTROL Search]** puoi filtrare l’entità in base a:
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
@@ -104,10 +105,10 @@ Per eseguire questa operazione:
 
       >[!NOTE]
       >
-      >Se l’opzione **[!UICONTROL XtkAudit_Enable_All]** è impostata su 0, la funzione **[!UICONTROL Audit trail]** sarà completamente disabilitata, indipendentemente dagli altri valori delle singole opzioni.
+      >Se la **[!UICONTROL XtkAudit_Enable_All]** è impostato su 0, **[!UICONTROL Audit trail]** la funzionalità verrà disabilitata completamente, indipendentemente dagli altri valori delle singole opzioni.
    ![](assets/audit-trail_5.png)
 
-1. Dalla pagina **[!UICONTROL Options]**, imposta il valore **[!UICONTROL Value (integer)]** su 0 se desideri disattivare il valore **[!UICONTROL Audit trail]** o su 1 per attivarlo.
+1. Dal tuo **[!UICONTROL Options]** imposta la **[!UICONTROL Value (integer)]** a 0 se desideri disattivare il **[!UICONTROL Audit trail]** o a 1 per abilitarlo.
 
    ![](assets/audit-trail_6.png)
 

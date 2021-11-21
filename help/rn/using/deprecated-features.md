@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 67%
+source-wordcount: '864'
+ht-degree: 65%
 
 ---
 
@@ -79,7 +79,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione di Campaign 19.0, l’editor e-mail legacy diventa obsoleto. Utilizza <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
+   <td> <p>A partire dalla versione di Campaign 19.0, l’editor e-mail legacy diventa obsoleto. Utilizzo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">E-mail Designer di Campaign</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
    <p>Leggi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">questa sezione</a> per scoprire come adattare i modelli e-mail per il nuovo editor.</p></br>
   <p> 
   <em>Data prevista di rimozione: 2022</em></p>
@@ -117,7 +117,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p> A partire dalla versione Campaign 20.1, l’SDK v4 è diventato obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Ulteriori informazioni</a>.</p><br/>
-   <p>L’ <a href="https://aep-sdks.gitbook.io/docs/">SDK di Adobe Experience Platform Mobile</a> (precedentemente denominato v5) ora supporta esclusivamente le prossime funzioni e funzionalità di Adobe Experience Cloud.</p>
+   <p>La <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (in precedenza denominato v5) ora supporta esclusivamente le prossime funzionalità e funzionalità di Adobe Experience Cloud.</p>
    <p>Dopo il 31 agosto 2021 i clienti potranno continuare a scaricare e utilizzare gli SDK versione 4, ma non saranno più disponibili né l’assistenza clienti né l’accesso ai forum.</p>
    <p>Scopri come migrare da SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in questa pagina</a>.</p></br>
      </td> 
@@ -178,7 +178,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] è stato ritirato. Di conseguenza, l’edizione dell’immagine fornita da [!DNL Creative SDK] nelle e-mail in Campaign Standard non è più disponibile a partire dalla versione 20.2 di Campaign.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] è stato disattivato. Di conseguenza, l'edizione dell'immagine basata su [!DNL Creative SDK] nelle e-mail di Campaign Standard non sono più disponibili a partire dalla versione Campaign 20.2.</p></br>
    </td> 
   </tr> 
  </tbody> 

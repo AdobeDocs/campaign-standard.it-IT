@@ -24,23 +24,23 @@ Per essere sicuri che le e-mail raggiungano i destinatari e migliorino il tasso 
 
 Segui i principi elencati di seguito durante la progettazione del contenuto del messaggio:
 
-* [Nome e indirizzo](#sender-name) del mittente: l&#39;indirizzo deve identificare esplicitamente il mittente. Il dominio deve essere di proprietà e registrato al mittente. Il registro di dominio non deve essere privatizzato.
+* [Nome e indirizzo del mittente](#sender-name): l&#39;indirizzo deve identificare esplicitamente il mittente. Il dominio deve essere di proprietà e registrato al mittente. Il registro di dominio non deve essere privatizzato.
 
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [Personalizzazione e ottimizzazione](#perso-send-time-optimization) del tempo di invio: la personalizzazione del contenuto e la definizione del tempo di invio per destinatario aumentano le possibilità di apertura del messaggio.
+* [Personalizzazione e ottimizzazione del tempo di invio](#perso-send-time-optimization): la personalizzazione del contenuto e la definizione del tempo di invio per destinatario aumentano le possibilità di apertura del messaggio.
 * Immagini e testo: rispettare un rapporto testo/immagine decente (ad esempio 60% di testo e 40% di immagini).
-* [Annullamento dell’abbonamento ](#opt-out) e pagina di destinazione: il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale.
+* [Collegamento di annullamento dell’abbonamento](#opt-out) e pagina di destinazione: il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale.
 * Anteprima: utilizza gli strumenti offerti da Adobe Campaign per controllare e ottimizzare il contenuto della tua e-mail ([Analisi anti-spam](#anti-spam-analysis), [Rendering di e-mail](#message-responsiveness)).
 
-Per ulteriori suggerimenti su come ottimizzare il recapito messaggi durante la progettazione dei contenuti, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+Per ulteriori suggerimenti su come ottimizzare il recapito messaggi durante la progettazione dei contenuti, consulta la sezione [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla modifica del contenuto delle e-mail, consulta la [panoramica di E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md) e le [best practice per la progettazione dei messaggi](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>Per ulteriori informazioni sulla modifica del contenuto delle e-mail, consulta la [Panoramica di E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md) e [Best practice per la progettazione dei messaggi](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Nome e indirizzo del mittente {#sender-name}
 
-Alcuni ISP controllano la validità dell&#39;indirizzo del mittente (**[!UICONTROL From]**) prima di accettare i messaggi. Un indirizzo formato in modo non corretto può causare il rifiuto da parte del server ricevente.
+Alcuni ISP controllano la validità dell’indirizzo del mittente (**[!UICONTROL From]**) prima di accettare i messaggi. Un indirizzo formato in modo non corretto può causare il rifiuto da parte del server ricevente.
 
 ![](assets/delivery_content_edition16.png)
 
@@ -58,7 +58,7 @@ Per aumentare il tasso di apertura dei messaggi, puoi anche definire manualmente
 
 Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipologia controlla se è stato incluso un collegamento di rinuncia e genera un avviso in caso di assenza. Per ulteriori informazioni sulla gestione dei collegamenti, consulta [questa sezione](../../designing/using/links.md).
 
-Devi verificare che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, quando [invia la bozza](../../sending/using/sending-proofs.md), assicurati che il collegamento sia valido, che il modulo sia online e che la convalida di questo controlli le caselle **[!UICONTROL No longer contact]** . È necessario eseguire questo controllo sistematicamente perché l’errore umano è sempre possibile quando si inserisce il collegamento o si modifica il modulo. Per ulteriori informazioni sulla gestione del consenso e del diniego, consulta [questa sezione](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Devi verificare che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, quando [invio della prova](../../sending/using/sending-proofs.md), assicurati che il collegamento sia valido, che il modulo sia online e che la convalida di questo controlli il **[!UICONTROL No longer contact]** scatole. È necessario eseguire questo controllo sistematicamente perché l’errore umano è sempre possibile quando si inserisce il collegamento o si modifica il modulo. Per ulteriori informazioni sulla gestione del consenso e del diniego, consulta [questa sezione](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
@@ -70,7 +70,7 @@ La richiesta di conferma aggiuntiva non è affidabile: un utente può avere due 
 
 ## Analisi anti-spam {#anti-spam-analysis}
 
-L’editor dei messaggi di Adobe Campaign integra un’ **Analisi anti-spam** che consente di valutare le e-mail per determinare se un messaggio corre il rischio di essere considerato come spam dagli strumenti anti-spam utilizzati al momento della ricezione. Per ulteriori informazioni, consulta [Anteprima dei messaggi](../../sending/using/previewing-messages.md).
+L’editor dei messaggi di Adobe Campaign integra un **Analisi anti-spam** che consente di valutare le e-mail per determinare se un messaggio corre il rischio di essere considerato come spam dagli strumenti anti-spam utilizzati al momento della ricezione. Per ulteriori informazioni, consulta [Anteprima dei messaggi](../../sending/using/previewing-messages.md).
 
 Nell’editor del contenuto dei messaggi, fai clic su **[!UICONTROL Preview]**. Un messaggio ti avverte se il controllo anti-spam ha rilevato un rischio elevato per questo messaggio. Fai clic su **[!UICONTROL Anti-spam analysis]** per visualizzare i dettagli.
 

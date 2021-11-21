@@ -22,27 +22,27 @@ Scopri le best practice relative alla progettazione e all’invio delle consegne
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Ottimizzare la consegna](optimize-delivery.md)** : proteggere e ottimizzare il processo di invio
+**[Ottimizzare la consegna](optimize-delivery.md)** - Proteggere e ottimizzare il processo di invio
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Utilizzare i modelli](use-templates.md)**  - Facilitare e accelerare le nuove consegne
+**[Utilizzare i modelli](use-templates.md)** - Agevolare e accelerare le nuove consegne
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Personalizzare il contenuto](design-and-personalize.md)**  - Applicare le impostazioni corrette
+**[Personalizzare il contenuto](design-and-personalize.md)** - Applicare le impostazioni corrette
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Definire il pubblico](define-the-right-audience.md)**  giusto - Applicare le impostazioni corrette
+**[Definire il pubblico adatto](define-the-right-audience.md)** - Applicare le impostazioni corrette
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Controlla prima di inviare](check-before-sending.md)**  - Evita errori comuni
+**[Controlla prima dell’invio](check-before-sending.md)** - Evitare errori comuni
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Tracciamento e monitoraggio](track-and-monitor.md)**  - Controllo dell’invio e risoluzione dei problemi
+**[Tracciamento e monitoraggio](track-and-monitor.md)** - Controllo dell&#39;invio e della risoluzione dei problemi
 
 ## Contenuto correlato
 

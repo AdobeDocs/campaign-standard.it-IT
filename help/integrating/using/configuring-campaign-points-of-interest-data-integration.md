@@ -21,57 +21,57 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->L’app mobile deve già essere configurata in Adobe Campaign Standard utilizzando Adobe Experience Platform SDK. Per i passaggi dettagliati, consulta questa [pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it).
+>L’app mobile deve già essere configurata in Adobe Campaign Standard utilizzando Adobe Experience Platform SDK. Per i passaggi dettagliati, consulta [page](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it).
 
-Le applicazioni mobili utilizzate per raccogliere i dati sulla posizione devono essere configurate da un **amministratore** nell&#39;interfaccia di Adobe Campaign.
+Le applicazioni mobili utilizzate per raccogliere i dati sulla posizione devono essere configurate da un **amministratore** nell’interfaccia di Adobe Campaign.
 
 Per poter utilizzare Adobe Experience Platform Location Services con le applicazioni mobili configurate con Adobe Experience Platform SDK, devi:
 
-1. Aggiungi le estensioni **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** alla configurazione dell’app mobile in Adobe Experience Platform Launch. Imposta la tua app mobile in Adobe Campaign. Consulta [Installare l’estensione Luoghi in Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Installare l’estensione Monitor Luoghi in Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Aggiungi il **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** estensioni alla configurazione dell’app mobile in Adobe Experience Platform Launch. Imposta la tua app mobile in Adobe Campaign. Vedi [Installare l’estensione Luoghi in Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Installare l’estensione Monitor Luoghi nel Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
-1. Una volta configurate le estensioni, crea elementi dati all&#39;interno di **[!UICONTROL Adobe Experience Platform Launch]** per recuperare i dati da queste estensioni. Per creare gli elementi dati, fai riferimento a questa [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) .
+1. Una volta configurate le estensioni, crea elementi dati all&#39;interno di **[!UICONTROL Adobe Experience Platform Launch]** per recuperare i dati da queste estensioni. Fai riferimento a questo [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) per creare gli elementi dati.
 
 1. Quindi, in **[!UICONTROL Adobe Experience Platform Launch]**, devi creare regole per supportare i casi di utilizzo per dispositivi mobili tra i punti di interesse e Adobe Campaign.\
-   Questa regola viene attivata quando un utente immette un carattere geografico **[!UICONTROL Point of Interest]**. Per creare la regola, fai riferimento a questa [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) .
+   Questa regola viene attivata quando un utente immette un campo delimitato da una geofrequenza **[!UICONTROL Point of Interest]**. Fai riferimento a questo [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) per creare la regola.
 
-1. Definisci il tuo **[!UICONTROL Points of Interest]** in Luoghi. Consulta [Creare un punto di interesse](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
+1. Definisci i **[!UICONTROL Points of Interest]** in Luoghi. Vedi [Creare un punto di interesse](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
-1. Assicurati di accedere all’app mobile e ai dati sulla posizione raccolti in Adobe Campaign. Consulta [Accesso alle app mobili utilizzate per raccogliere i dati sulla posizione](#accessing-mobile-apps-used-to-collect-location-data) e [Accesso ai dati sulla posizione raccolti](#accessing-collected-location-data).
+1. Assicurati di accedere all’app mobile e ai dati sulla posizione raccolti in Adobe Campaign. Vedi [Accesso alle app mobili utilizzate per raccogliere i dati sulla posizione](#accessing-mobile-apps-used-to-collect-location-data) e [Accesso ai dati sulla posizione raccolti](#accessing-collected-location-data).
 
 ## Configurazione dell’integrazione dei dati Campaign-Punti di interesse tramite SDK V4 {#configuring-campaign-poi-sdkv4}
 
-Le applicazioni mobili utilizzate per raccogliere i dati sulla posizione devono essere configurate da un **amministratore** nell&#39;interfaccia di Adobe Campaign.
+Le applicazioni mobili utilizzate per raccogliere i dati sulla posizione devono essere configurate da un **amministratore** nell’interfaccia di Adobe Campaign.
 
 Per utilizzare la funzione dati del punto di interesse con le applicazioni mobili configurate con SDK V4, devi:
 
 1. Accesso ad Adobe Analytics per dispositivi mobili. Controlla il tuo contratto di licenza o contatta il tuo responsabile dell&#39;account Adobe per maggiori informazioni.
-1. Imposta la tua app mobile in Adobe Campaign. Consulta [Configurazione di un’app mobile in Campaign](#setting-up-a-mobile-app-in-campaign).
-1. Configura l’app mobile nell’interfaccia di Adobe Mobile Services. Questo ti consente di garantire che i dati raccolti da Adobe Mobile Services vengano inviati ad Adobe Campaign. Consulta [Configurazione di un’app mobile in Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
+1. Imposta la tua app mobile in Adobe Campaign. Vedi [Configurazione di un’app mobile in Campaign](#setting-up-a-mobile-app-in-campaign).
+1. Configura l’app mobile nell’interfaccia di Adobe Mobile Services. Questo ti consente di garantire che i dati raccolti da Adobe Mobile Services vengano inviati ad Adobe Campaign. Vedi [Configurazione di un’app mobile in Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
 1. Esegui la configurazione specifica dell’app mobile:
 
    * Crea un pacchetto con l’app mobile il file di configurazione scaricato dall’interfaccia di Adobe Mobile Services .
-   * Integra l’SDK di Experience Cloud Mobile nella tua app mobile. Consulta [Integrazione dell&#39;SDK in un&#39;applicazione mobile](#integrating-the-sdk-into-a-mobile-application).
+   * Integra l’SDK di Experience Cloud Mobile nella tua app mobile. Vedi [Integrazione dell’SDK in un’app mobile](#integrating-the-sdk-into-a-mobile-application).
 
-1. Definire i punti di interesse nell’interfaccia di Adobe Mobile Services. Consulta [Definizione dei punti di interesse in Adobe Mobile Services](#defining-points-of-interest-in-adobe-mobile-services).
-1. Definisci i dati da raccogliere dagli abbonati all’app mobile. Consulta [Raccolta dei dati dei punti di interesse degli abbonati](#collecting-subscribers--points-of-interest-data).
-1. Assicurati di accedere all’app mobile e ai dati sulla posizione raccolti in Adobe Campaign. Consulta [Accesso alle app mobili utilizzate per raccogliere i dati sulla posizione](#accessing-mobile-apps-used-to-collect-location-data) e [Accesso ai dati sulla posizione raccolti](#accessing-collected-location-data).
+1. Definire i punti di interesse nell’interfaccia di Adobe Mobile Services. Vedi [Definizione dei punti di interesse in Adobe Mobile Services](#defining-points-of-interest-in-adobe-mobile-services).
+1. Definisci i dati da raccogliere dagli abbonati all’app mobile. Vedi [Raccolta dei dati dei punti di interesse degli abbonati](#collecting-subscribers--points-of-interest-data).
+1. Assicurati di accedere all’app mobile e ai dati sulla posizione raccolti in Adobe Campaign. Vedi [Accesso alle app mobili utilizzate per raccogliere i dati sulla posizione](#accessing-mobile-apps-used-to-collect-location-data) e [Accesso ai dati sulla posizione raccolti](#accessing-collected-location-data).
 
 ### Configurazione di un’app mobile in Adobe Campaign tramite SDK V4 {#setting-up-a-mobile-app-in-campaign}
 
 Per raccogliere i dati dei punti di interesse con Adobe Campaign, devi configurare l’app mobile da cui Adobe Campaign riceverà i dati.
 
-1. Fai clic sul logo **Adobe** nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
-1. Fare clic su **[!UICONTROL Create]** per impostare un&#39;applicazione.
-1. Immetti un nome nel campo **[!UICONTROL Application name]** e fai clic su **[!UICONTROL Create]**.
+1. Fai clic sul pulsante **Adobe** , nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
+1. Fai clic su **[!UICONTROL Create]** per configurare un&#39;applicazione.
+1. Immetti un nome nella **[!UICONTROL Application name]** campo e fai clic su **[!UICONTROL Create]**.
 
-   Non compilare la sezione **[!UICONTROL Device-specific settings]**. Questo vale solo per la configurazione delle applicazioni che ricevono le notifiche push.
+   Non compilare il **[!UICONTROL Device-specific settings]** sezione . Questo vale solo per la configurazione delle applicazioni che ricevono le notifiche push.
 
-Nella sezione **[!UICONTROL Mobile application properties]** sono elencati due URL: **[!UICONTROL Collect PII endpoint]** e **[!UICONTROL Location Services endpoint]**. Saranno utilizzati nell’interfaccia di Adobe Mobile Services. Consulta [Configurazione di un’app mobile in Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
+In **[!UICONTROL Mobile application properties]** Sono elencati due URL: **[!UICONTROL Collect PII endpoint]** e **[!UICONTROL Location Services endpoint]**. Saranno utilizzati nell’interfaccia di Adobe Mobile Services. Vedi [Configurazione di un’app mobile in Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
 
-* L’ **[!UICONTROL Collect PII endpoint]** URL viene utilizzato per raccogliere gli ID Experienci Cloud e i token di registrazione degli utenti dall’app mobile al momento del suo avvio. Quando un utente accede all’applicazione utilizzando credenziali come e-mail, nome, cognome, ecc., questi dati vengono anche raccolti e utilizzati per riconciliare il token di registrazione dell’utente con un profilo Adobe Campaign.
-* L’ URL **[!UICONTROL Location Services endpoint]** viene utilizzato per raccogliere dati sulla posizione, ad esempio latitudine, longitudine e raggio di un utente da un punto di interesse.
+* La **[!UICONTROL Collect PII endpoint]** L’URL viene utilizzato per raccogliere gli ID Experienci Cloud e i token di registrazione degli utenti dall’app mobile al momento del suo avvio. Quando un utente accede all’applicazione utilizzando credenziali come e-mail, nome, cognome, ecc., questi dati vengono anche raccolti e utilizzati per riconciliare il token di registrazione dell’utente con un profilo Adobe Campaign.
+* La **[!UICONTROL Location Services endpoint]** L’URL viene utilizzato per raccogliere dati sulla posizione, ad esempio latitudine, longitudine e raggio di un utente da un punto di interesse.
 
-Ora puoi utilizzare questi valori in Adobe Mobile Services per completare la configurazione, come spiegato nella sezione [Configurazione di un’app mobile nella sezione Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services) .
+È ora possibile utilizzare questi valori in Adobe Mobile Services per completare la configurazione, come spiegato in [Configurazione di un’app mobile in Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services) sezione .
 
 ![](assets/poi_mobile_app_properties.png)
 
@@ -89,8 +89,8 @@ Devi avere accesso ad Adobe Analytics per eseguire la configurazione seguente. S
 
 1. Accedi a [mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/).
 1. Crea l&#39;applicazione o selezionane una esistente.
-1. Passa alla pagina **[!UICONTROL Manage App Settings]** .
-1. Nella sezione **Servizio ID visitatore** , seleziona **Abilita** e seleziona la tua organizzazione dall’elenco a discesa. Fai clic su **Salva**.
+1. Vai a **[!UICONTROL Manage App Settings]** pagina.
+1. In **Servizio ID visitatori** sezione, controllo **Abilita** e seleziona la tua organizzazione dall’elenco a discesa. Fai clic su **Salva**.
 
    >[!CAUTION]
    >
@@ -100,8 +100,8 @@ Devi avere accesso ad Adobe Analytics per eseguire la configurazione seguente. S
 1. Crea un postback.
 
    * Seleziona **[!UICONTROL PII]** come **[!UICONTROL Postback Type]**.
-   * Nel campo **[!UICONTROL URL]** , copia l’ URL **[!UICONTROL Collect PII Endpoint]** dall’app mobile configurata nell’interfaccia di Adobe Campaign, preceduto dal nome del server. Consulta [Configurazione di un’app mobile in Campaign](#setting-up-a-mobile-app-in-campaign).
-   * Compila il campo **[!UICONTROL Post Body]** come segue:
+   * In **[!UICONTROL URL]** campo , copia il **[!UICONTROL Collect PII Endpoint]** URL dell’app mobile configurata nell’interfaccia di Adobe Campaign, preceduto dal nome del server. Vedi [Configurazione di un’app mobile in Campaign](#setting-up-a-mobile-app-in-campaign).
+   * Compila il **[!UICONTROL Post Body]** campo come segue:
 
       Per iOS:
 
@@ -130,14 +130,14 @@ Devi avere accesso ad Adobe Analytics per eseguire la configurazione seguente. S
       ```
 
    * Imposta **Tipo di contenuto** come **[!UICONTROL application/json]**.
-   * In **Quali tag di dati attivano il postback?**, seleziona un evento, in genere  **[!UICONTROL Launched]** e  **[!UICONTROL exists]**.
+   * In **Quali tag dati attivano il postback?**, seleziona un evento, in genere **[!UICONTROL Launched]** e **[!UICONTROL exists]**.
    * Fai clic su **[!UICONTROL Save & Activate]**.
 
 1. Crea un secondo postback.
 
    * Seleziona **[!UICONTROL Postback]** come **[!UICONTROL Postback Type]**.
-   * Nel campo **[!UICONTROL URL]** , copia l’ URL **[!UICONTROL Location Services Endpoint]** dall’app mobile configurata nell’interfaccia di Adobe Campaign, preceduto dal nome del server. Consulta [Configurazione di un’app mobile in Campaign](#setting-up-a-mobile-app-in-campaign).
-   * Compila il campo **[!UICONTROL Post Body]** come segue:
+   * In **[!UICONTROL URL]** campo , copia il **[!UICONTROL Location Services Endpoint]** URL dell’app mobile configurata nell’interfaccia di Adobe Campaign, preceduto dal nome del server. Vedi [Configurazione di un’app mobile in Campaign](#setting-up-a-mobile-app-in-campaign).
+   * Compila il **[!UICONTROL Post Body]** campo come segue:
 
       ```
       {
@@ -157,12 +157,12 @@ Devi avere accesso ad Adobe Analytics per eseguire la configurazione seguente. S
       ```
 
    * Imposta **Tipo di contenuto** come **[!UICONTROL application/json]**.
-   * In **Quali tag di dati attivano il postback?**, seleziona  **[!UICONTROL campaign.test]** e  **[!UICONTROL exists]**.
+   * In **Quali tag dati attivano il postback?**, seleziona **[!UICONTROL campaign.test]** e **[!UICONTROL exists]**.
    * Fai clic su **[!UICONTROL Save & Activate]**.
 
 >[!NOTE]
 >
->Per informazioni dettagliate sulla configurazione dei postback, consulta la [documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
+>Per informazioni dettagliate sulla configurazione dei postback, consulta [Documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Integrazione dell’SDK in un’app mobile {#integrating-the-sdk-into-a-mobile-application}
 
@@ -177,34 +177,34 @@ Per definire i punti di interesse utilizzati per raccogliere i dati sulla posizi
 1. Passa all’interfaccia di Adobe Mobile Services .
 1. Aggiungi la tua applicazione.
 
-   Per ulteriori informazioni sulla gestione delle applicazioni in Mobile Services, consulta la [documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
+   Per ulteriori informazioni sulla gestione delle applicazioni in Mobile Services, consulta [Documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Definisci i punti di interesse.
 
-   Per ulteriori informazioni sulla gestione dei punti di interesse, consulta la [documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
+   Per ulteriori informazioni sulla gestione dei punti di interesse, consulta [Documentazione di Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Raccolta dei dati dei punti di interesse degli abbonati {#collecting-subscribers--points-of-interest-data}
 
 Una risorsa personalizzata specifica ti consente di definire i dati da raccogliere dagli abbonati alle tue applicazioni.
 
-Questo passaggio è descritto nella pagina [Configurazione di un’app mobile tramite SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) .
+Questo passaggio è descritto in [Configurazione di un’app mobile tramite SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) pagina.
 
 
 ## Accesso alle app mobili utilizzate per raccogliere i dati sulla posizione {#accessing-mobile-apps-used-to-collect-location-data}
 
 Per accedere alle applicazioni create correttamente in Adobe Campaign:
 
-1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra.
+1. Fai clic sul pulsante **Adobe** nell&#39;angolo in alto a sinistra.
 1. Seleziona **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]** o **[!UICONTROL Mobile app (AEP SDK)]** a seconda dell’SDK.
 1. Seleziona un’app mobile dall’elenco per visualizzarne le proprietà.
 
    ![](assets/poi_mobile_app_subscribers.png)
 
-Nella scheda **[!UICONTROL Mobile application subscribers]** viene visualizzato anche un elenco degli utenti abbonati all’applicazione. Gli abbonati sono tutti gli utenti che hanno installato l’applicazione sul loro dispositivo mobile. I profili del database di Adobe Campaign sono identificati con un token di registrazione.
+Un elenco degli abbonati dell&#39;applicazione viene visualizzato anche nella **[!UICONTROL Mobile application subscribers]** scheda . Gli abbonati sono tutti gli utenti che hanno installato l’applicazione sul loro dispositivo mobile. I profili del database di Adobe Campaign sono identificati con un token di registrazione.
 
 ## Accesso ai dati sulla posizione raccolti {#accessing-collected-location-data}
 
-Una volta effettuata la configurazione, i dati dei punti di interesse raccolti sono elencati nella scheda **[!UICONTROL Places]** di ciascun profilo. Per accedere all’elenco:
+Una volta effettuata la configurazione, i dati dei punti di interesse raccolti sono elencati nella **[!UICONTROL Places]** scheda di ciascun profilo. Per accedere all’elenco:
 
 1. Seleziona un profilo.
 1. Fai clic sul pulsante **[!UICONTROL Edit profile properties]** a destra.

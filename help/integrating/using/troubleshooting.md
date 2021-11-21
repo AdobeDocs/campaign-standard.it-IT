@@ -43,9 +43,9 @@ In questo caso, assicurati che i seguenti elementi siano configurati correttamen
    Se è selezionato l’algoritmo di crittografia AES, è necessario impostare correttamente i campi aggiuntivi seguenti:
 
    * **Chiave di crittografia** per AES
-   * **Crittografia IV**  (vettore di inizializzazione) per AES
-   * **Canale**  (E-mail/SMS/Altro): Questo campo consente di decrittografare direttamente gli indirizzi e-mail e i numeri SMS. Assicurati che la chiave di riconciliazione corrisponda all&#39;impostazione del campo **Canale** . Se selezioni &quot;Altro&quot;, questa decrittografia specifica non verrà eseguita e la chiave di riconciliazione verrà utilizzata per riconciliare i dati.
+   * **Crittografia IV** (vettore di inizializzazione) per AES
+   * **Canale** (E-mail/SMS/Altro): Questo campo consente di decrittografare direttamente gli indirizzi e-mail e i numeri SMS. Assicurati che la chiave di riconciliazione corrisponda all&#39;impostazione della **Canale** campo . Se selezioni &quot;Altro&quot;, questa decrittografia specifica non verrà eseguita e la chiave di riconciliazione verrà utilizzata per riconciliare i dati.
 
-   È possibile che il pubblico di Experience Cloud non sia condiviso perché il flusso di lavoro tecnico è stato arrestato o messo in pausa. Accedi al flusso di lavoro **[!UICONTROL Import shared audience]** facendo clic direttamente sull&#39;opzione **[!UICONTROL Show ImportShared Audience workflow]** nella tua origine dati.
+   È possibile che il pubblico di Experience Cloud non sia condiviso perché il flusso di lavoro tecnico è stato arrestato o messo in pausa. Accedere al **[!UICONTROL Import shared audience]** facendo clic direttamente sul pulsante **[!UICONTROL Show ImportShared Audience workflow]** nella tua origine dati.
 
 È possibile che alcuni dati manchino durante la condivisione di un pubblico tramite il servizio core Persone o durante l’importazione di un pubblico. Vengono trasferiti solo i record di cui è stato possibile riconciliare l’ID (&quot;ID visitatore&quot; o &quot;ID dichiarato&quot;) con la dimensione del profilo. Gli ID dei segmenti del servizio core Persone che non sono riconosciuti da Adobe Campaign non vengono importati.

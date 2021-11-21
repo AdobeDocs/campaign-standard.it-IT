@@ -33,15 +33,15 @@ L’integrazione di Adobe Campaign Standard con Dreamweaver consente di modifica
 
 * **Aggiungere la personalizzazione di Campaign in Dreamweaver**
 
-   Per lo sviluppatore di e-mail non è più necessario aggiungere testo come `[[FIRSTNAME_PLACEHOLDER]]` né cercare la sintassi delle tabelle del modello di dati. La barra degli strumenti Campaign in Dreamweaver si connette direttamente al modello dati dell’istanza Campaign. Ciò significa che puoi inserire tutti i dati che desideri per la personalizzazione da un elemento come Nome a Indirizzo. Se hai creato blocchi di contenuto all’interno di Campaign, puoi anche estrarli direttamente in Dreamweaver.
+   Per lo sviluppatore di e-mail non è più necessario aggiungere testo come `[[FIRSTNAME_PLACEHOLDER]]` né per cercare la sintassi delle tabelle del modello dati. La barra degli strumenti Campaign in Dreamweaver si connette direttamente al modello dati dell’istanza Campaign. Ciò significa che puoi inserire tutti i dati che desideri per la personalizzazione da un elemento come Nome a Indirizzo. Se hai creato blocchi di contenuto all’interno di Campaign, puoi anche estrarli direttamente in Dreamweaver.
 
-Questa funzionalità è descritta in Documentazione Dreamweaver accessibile [qui](https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
+Questa funzionalità è dettagliata nella documentazione Dreamweaver accessibile [qui](https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
-## Modifica del contenuto in un Experience Manager {#editing-content-in-experience-manager}
+## Modifica del contenuto di un Experience Manager {#editing-content-in-experience-manager}
 
-Il contenuto dell’e-mail può essere modificato in Experience Manager e quindi utilizzato per uno o più messaggi e-mail in Adobe Campaign Standard. Fare riferimento a [questo documento](../../integrating/using/integrating-with-experience-manager.md).
+Il contenuto dell’e-mail può essere modificato in Experience Manager e quindi utilizzato per uno o più messaggi e-mail in Adobe Campaign Standard. Fai riferimento a [presente documento](../../integrating/using/integrating-with-experience-manager.md).
 
 ## Elenco prodotti {#product-listing}
 
@@ -50,7 +50,7 @@ Il contenuto dell’e-mail può essere modificato in Experience Manager e quindi
 >title="Utilizzo degli elenchi di prodotti"
 >abstract="Gli elenchi dei prodotti ti consentono di fare riferimento a una raccolta di dati e di visualizzarli nel contenuto dell’e-mail."
 
-Gli elenchi dei prodotti ti consentono di fare riferimento a una o più raccolte di dati nel contenuto dell’e-mail. Questi elenchi sono disponibili per le e-mail transazionali. Una sezione dedicata a questa funzione è disponibile [qui](../../designing/using/using-product-listings.md).
+Gli elenchi dei prodotti ti consentono di fare riferimento a una o più raccolte di dati nel contenuto dell’e-mail. Questi elenchi sono disponibili per le e-mail transazionali. È disponibile una sezione dedicata per questa funzione [qui](../../designing/using/using-product-listings.md).
 
 ## Confronto delle opzioni di progettazione e-mail {#email-design-options-comparison}
 
@@ -80,7 +80,7 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
   </tr> 
   <tr> 
    <td> <strong>Aggiorna HTML</strong><br /> </td> 
-   <td> Solo all'interno di un componente HTML<br /> </td> 
+   <td> Solo all’interno di un componente HTML<br /> </td> 
    <td> Non supportato<br /> </td> 
    <td> Supportato<br /> </td> 
   </tr> 
@@ -99,7 +99,7 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
   <tr> 
    <td> <strong>Prova/Anteprima</strong><br /> </td> 
    <td> Supportato<br /> </td> 
-   <td> Anteprima in AEM<br /> Prova in Campaign<br /> </td> 
+   <td> Anteprima in AEM<br /> Prove in campagna<br /> </td> 
    <td> Anteprima e bozza in Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -140,15 +140,15 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
   </tr> 
   <tr> 
    <td> <strong>Pubblico</strong><br /> </td> 
-   <td> Esperti di marketing che desiderano mantenere la flessibilità di utilizzare i componenti HTML in combinazione con funzioni di trascinamento della selezione<br /> </td> 
-   <td> Esperti di marketing che utilizzano già un Experience Manager per utilizzare modelli e-mail standard con poca personalizzazione<br /> </td> 
+   <td> Esperti di marketing che desiderano mantenere la flessibilità di utilizzare i componenti di HTML in combinazione con le funzioni di trascinamento della selezione<br /> </td> 
+   <td> Gli addetti al marketing utilizzano già un Experience Manager per utilizzare modelli e-mail standard con poca personalizzazione<br /> </td> 
    <td> Sviluppatori che desiderano codificare i contenuti delle e-mail e integrarli direttamente con Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Per saperne di più</strong><br /> </td> 
-   <td> Vedere <a href="../../designing/using/designing-content-in-adobe-campaign.md">Informazioni su E-mail Designer</a>.<br /> </td> 
-   <td> Vedere <a href="../../integrating/using/integrating-with-experience-manager.md">Integrazione con Experience Manager</a>.<br /> </td> 
-   <td> Consulta <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guarda questo <a href="#video">video</a>.<br /> </td> 
+   <td> Vedi <a href="../../designing/using/designing-content-in-adobe-campaign.md">Informazioni su E-mail Designer</a>.<br /> </td> 
+   <td> Vedi <a href="../../integrating/using/integrating-with-experience-manager.md">Integrazione con Experience Manager</a>.<br /> </td> 
+   <td> Vedi <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guarda questo <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

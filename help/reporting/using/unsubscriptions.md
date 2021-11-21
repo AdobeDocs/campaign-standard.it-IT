@@ -22,4 +22,4 @@ Il rapporto **[!UICONTROL Unsubscriptions]** individua le consegne associate al 
 
 ![](assets/delivery_reports_unsub.png)
 
-La tabella e il grafico **[!UICONTROL TOP 5 deliveries]** mostrano le cinque consegne principali con il numero più alto di messaggi inviati e il numero di destinatari che hanno annullato l’abbonamento. I dati qui elencati si basano sul numero di clic sul collegamento di annullamento dell’abbonamento del messaggio.
+La **[!UICONTROL TOP 5 deliveries]** tabella e grafico mostra le cinque consegne principali con il numero più alto di messaggi consegnati e il numero di destinatari che hanno annullato l’abbonamento. I dati qui elencati si basano sul numero di clic sul collegamento di annullamento dell’abbonamento del messaggio.

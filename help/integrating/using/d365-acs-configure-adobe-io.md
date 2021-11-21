@@ -49,13 +49,13 @@ Sarà necessario creare un nuovo progetto Adobe IO e configurarlo per l&#39;inte
 
 A tal fine, segui la procedura seguente:
 
-1. Passa a [Adobe IO Console](https://console.adobe.io/home#) e seleziona il tuo Adobe IMS Organization ID dal menu a discesa in alto a destra dello schermo.
+1. Passa a [Console I/O di Adobe](https://console.adobe.io/home#) e seleziona il tuo Adobe IMS Organization ID dal menu a discesa in alto a destra nella schermata .
 
-1. Quindi fai clic su **[!UICONTROL Create new project]** in **[!UICONTROL Quick Start]**.
+1. Quindi fai clic su **[!UICONTROL Create new project]** sotto **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
-1. In **[!UICONTROL Get started with your new project]**, fai clic su **[!UICONTROL Add API]**.
+1. Sotto **[!UICONTROL Get started with your new project]**, fai clic su **[!UICONTROL Add API]**.
 
    ![](assets/adobeIO2.png)
 
@@ -63,7 +63,7 @@ A tal fine, segui la procedura seguente:
 
    ![](assets/adobeIO3.png)
 
-1. Nella schermata successiva avrai la possibilità di caricare la tua chiave pubblica o di lasciare che Adobe IO generi la coppia di chiavi per te. Queste istruzioni seguiranno l&#39;ultima opzione. Se si decide di lasciare che Adobe IO generi la coppia di chiavi, fare clic sull&#39;opzione 1; quindi fai clic sul pulsante **[!UICONTROL Generate keypair]** .
+1. Nella schermata successiva avrai la possibilità di caricare la tua chiave pubblica o di lasciare che Adobe IO generi la coppia di chiavi per te. Queste istruzioni seguiranno l&#39;ultima opzione. Se si decide di lasciare che Adobe IO generi la coppia di chiavi, fare clic sull&#39;opzione 1; quindi fai clic su **[!UICONTROL Generate keypair]** pulsante .
 
    ![](assets/adobeIO4.png)
 
@@ -71,11 +71,11 @@ A tal fine, segui la procedura seguente:
 
 Una volta scaricato, puoi decomprimere il file per rivelare le chiavi pubbliche e private. Adobe IO ha già applicato la chiave pubblica al progetto di I/O di Adobe. Sarà necessario mantenere la tua chiave privata per un momento successivo; la chiave privata verrà utilizzata durante la configurazione di pre-integrazione dello strumento di integrazione.
 
-1. Fare clic su **[!UICONTROL Next]** per continuare
+1. Fai clic su **[!UICONTROL Next]** per continuare
 
    ![](assets/adobeIO5.png)
 
-1. Nella schermata successiva, seleziona i profili di prodotto da associare a questo progetto. Seleziona il profilo di prodotto che contiene nel titolo: ID tenant dell’istanza Campaign - [!UICONTROL Administrators]
+1. Nella schermata successiva, seleziona i profili di prodotto da associare a questo progetto. Seleziona il profilo di prodotto che contiene nel titolo: L’ID tenant della tua istanza Campaign: [!UICONTROL Administrators]
 
    Esempio: Campaign Standard - your-campaign-tenantID - Administrators
 
@@ -87,11 +87,11 @@ Una volta scaricato, puoi decomprimere il file per rivelare le chiavi pubbliche 
 
    ![](assets/adobeIO7.png)
 
-1. Nella schermata successiva sarà necessario selezionare l’API per gli eventi di I/O, quindi fare clic su **[!UICONTROL Next]**.
+1. Nella schermata successiva sarà necessario selezionare l’API per gli eventi I/O, quindi fare clic su **[!UICONTROL Next]**.
 
 1. Nella schermata successiva fai clic su **[!UICONTROL Save the configured API]**.  Verrai riportato alla schermata dei dettagli del progetto.
 
-1. Ora fai clic su **[!UICONTROL Add to Project]** in alto a sinistra dello schermo e seleziona **API** dal menu a discesa, come in precedenza.
+1. Ora fai clic su **[!UICONTROL Add to Project]** in alto a sinistra dello schermo e seleziona **API** dall’elenco a discesa, come in precedenza.
 
 1. Nella schermata successiva sarà necessario selezionare l’API di gestione I/O e fare clic su **[!UICONTROL Next]**.
 
@@ -101,8 +101,8 @@ La configurazione di pre-integrazione in Campaign è ora completa.
 
 **Argomenti correlati**
 
-* [Configurare Adobe IO per l’](../../integrating/using/d365-acs-configure-adobe-io.md) integrazione con Microsoft Dynamics 365 è il passaggio successivo nella configurazione dell’integrazione
-* [Integrazione ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) Panoramica delle applicazioni self-service contiene l’elenco completo dei passaggi necessari per il corretto funzionamento dell’integrazione.
+* [Configurazione di Adobe IO per l’integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) è il passaggio successivo nella configurazione dell’integrazione
+* [Panoramica dell’applicazione self-service dell’integrazione](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contiene l’elenco completo dei passaggi per rendere l’integrazione operativa.
 
 
 * [Adobe IO - Integrazione dell&#39;account di servizio](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)

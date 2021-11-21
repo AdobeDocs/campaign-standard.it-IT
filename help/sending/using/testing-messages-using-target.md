@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## Panoramica {#overview}
 
-Inoltre, per [verificare i profili](../../audiences/using/managing-test-profiles.md), puoi testare un messaggio e-mail posizionandoti nella posizione di uno dei profili target. Questo ti consente di ottenere una rappresentazione esatta del messaggio che il profilo riceverà (campi personalizzati, informazioni dinamiche e personalizzate, inclusi dati aggiuntivi dei flussi di lavoro...).
+Inoltre, [profili di test](../../audiences/using/managing-test-profiles.md), puoi testare un messaggio e-mail posizionandoti nella posizione di uno dei profili target. Questo ti consente di ottenere una rappresentazione esatta del messaggio che il profilo riceverà (campi personalizzati, informazioni dinamiche e personalizzate, inclusi dati aggiuntivi dei flussi di lavoro...).
 
 >[!NOTE]
 >
@@ -28,11 +28,11 @@ Inoltre, per [verificare i profili](../../audiences/using/managing-test-profiles
 
 Le fasi principali sono le seguenti:
 
-1. Configura il messaggio e avvia la fase **Preparazione**.
-1. **Seleziona uno o più** profili tra i profili target del messaggio.
-1. Associa a ogni profilo un **indirizzo di sostituzione** al quale verranno inviate le bozze.
-1. (Facoltativo) Per ogni profilo, definisci un **prefisso** da aggiungere alla riga dell’oggetto della bozza.
-1. **** Anteprima in E-mail designer della visualizzazione del messaggio per i profili.
+1. Configura il messaggio e avvia il **Preparazione** fase.
+1. **Selezionare uno o più profili** tra i profili target del messaggio.
+1. Associa a ogni profilo un **indirizzo di sostituzione** a cui verranno inviate le bozze.
+1. (facoltativo) Per ogni profilo, definisci un **prefisso** da aggiungere alla riga dell’oggetto della bozza.
+1. **Anteprima** in E-mail Designer come verrà visualizzato il messaggio per i profili.
 1. Invia le bozze.
 
 >[!IMPORTANT]
@@ -43,7 +43,7 @@ Le fasi principali sono le seguenti:
 
 ## Selezione di profili e indirizzi di sostituzione {#selecting-profiles}
 
-Per utilizzare i profili di destinazione per i test, devi prima selezionarli, quindi definire gli indirizzi di sostituzione che riceveranno le bozze. A questo scopo, puoi [selezionare profili specifici](#selecting-individual-profiles) tra i profili di destinazione oppure [importare profili da un pubblico esistente](#importing-from-audience).
+Per utilizzare i profili di destinazione per i test, devi prima selezionarli, quindi definire gli indirizzi di sostituzione che riceveranno le bozze. Per eseguire questa operazione, potete [seleziona profili specifici](#selecting-individual-profiles) tra i profili target, o [importare profili da un pubblico esistente](#importing-from-audience).
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ Per utilizzare i profili di destinazione per i test, devi prima selezionarli, qu
 
 ### Selezione di singoli profili {#selecting-individual-profiles}
 
-1. Nel dashboard dei messaggi, accertati che la preparazione dei messaggi abbia esito positivo, quindi fai clic sul blocco **[!UICONTROL Audience]** .
+1. Nel dashboard dei messaggi, accertati che la preparazione dei messaggi abbia esito positivo, quindi fai clic sul pulsante **[!UICONTROL Audience]** blocco.
 
    ![](assets/substitution_preparation.png)
 
-1. Nella scheda **[!UICONTROL Profile substitutions]** , fai clic sul pulsante **[!UICONTROL Create element]** per selezionare i profili da utilizzare per i test.
+1. In **[!UICONTROL Profile substitutions]** fai clic sulla scheda **[!UICONTROL Create element]** per selezionare i profili da utilizzare per il test.
 
    ![](assets/substitution_tab.png)
 
@@ -63,9 +63,9 @@ Per utilizzare i profili di destinazione per i test, devi prima selezionarli, qu
 
    ![](assets/substitution_recipient_selection.png)
 
-1. Seleziona il profilo da utilizzare per il test, quindi immetti nel campo **[!UICONTROL Address]** l’indirizzo di sostituzione desiderato, quindi fai clic su **[!UICONTROL Confirm]**. Tutte le bozze che eseguono il targeting del profilo vengono inviate a questo indirizzo e-mail, anziché a quello definito nel database per questo profilo.
+1. Seleziona il profilo da utilizzare per il test, quindi immetti nel **[!UICONTROL Address]** campo l&#39;indirizzo di sostituzione desiderato, quindi fai clic su **[!UICONTROL Confirm]**. Tutte le bozze che eseguono il targeting del profilo vengono inviate a questo indirizzo e-mail, anziché a quello definito nel database per questo profilo.
 
-   Se desideri aggiungere un prefisso specifico alla riga dell’oggetto delle bozze, compila il campo **[!UICONTROL Subject line prefix]** .
+   Se desideri aggiungere un prefisso specifico alla riga dell’oggetto delle bozze, compila **[!UICONTROL Subject line prefix]** campo .
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ Per utilizzare i profili di destinazione per i test, devi prima selezionarli, qu
 
    ![](assets/substitution_prefixsample.png)
 
-1. Il profilo viene aggiunto all’elenco, con l’indirizzo di sostituzione e il prefisso associati. Ripeti i passaggi precedenti per tutti i profili che desideri utilizzare per i test, quindi fai clic su **[!UICONTROL Confirm]**.
+1. Il profilo viene aggiunto all’elenco, con l’indirizzo di sostituzione e il prefisso associati. Ripeti i passaggi precedenti per tutti i profili che desideri utilizzare per il test, quindi fai clic su **[!UICONTROL Confirm]**.
 
    ![](assets/substitution_recipients_confirm.png)
 
@@ -87,9 +87,9 @@ Per utilizzare i profili di destinazione per i test, devi prima selezionarli, qu
 
    ![](assets/substitution_multiple_addresses.png)
 
-1. Una volta definiti tutti i profili e gli indirizzi di sostituzione, puoi inviare una bozza per testare il messaggio. A questo scopo, fai clic sul pulsante **[!UICONTROL Test]** , quindi seleziona il tipo di test da eseguire.
+1. Una volta definiti tutti i profili e gli indirizzi di sostituzione, puoi inviare una bozza per testare il messaggio. A questo scopo, fai clic sul pulsante **[!UICONTROL Test]** quindi selezionare il tipo di test da eseguire.
 
-   Se non è stato aggiunto alcun profilo di test al target del messaggio, le opzioni **[!UICONTROL Email rendering]** e **[!UICONTROL Proof + Email rendering]** non sono disponibili.  Per ulteriori informazioni sull&#39;invio delle bozze, consulta [questa sezione](../../sending/using/sending-proofs.md).
+   Se non è stato aggiunto alcun profilo di test al target del messaggio, l’ **[!UICONTROL Email rendering]** e **[!UICONTROL Proof + Email rendering]** le opzioni non sono disponibili.  Per ulteriori informazioni sull’invio delle bozze, consulta [questa sezione](../../sending/using/sending-proofs.md).
 
    ![](assets/substitution_send_test.png)
 
@@ -101,15 +101,15 @@ Per utilizzare i profili di destinazione per i test, devi prima selezionarli, qu
 
 Campaign Standard consente di importare un pubblico di profili da utilizzare per i test. Questo consente, ad esempio, di inviare a un indirizzo e-mail univoco un intero set di messaggi destinati a profili diversi.
 
-Inoltre, se il pubblico è già configurato con le colonne indirizzo e prefisso , sarà possibile importare queste informazioni nella scheda **[!UICONTROL Profile substitutions]** . Un esempio di importazione di tipi di pubblico con indirizzi di sostituzione è descritto in [questa sezione](#use-case).
+Inoltre, se il pubblico è già configurato con le colonne indirizzo e prefisso , sarà possibile importare queste informazioni nel **[!UICONTROL Profile substitutions]** scheda . Un esempio di importazione di tipi di pubblico con indirizzi di sostituzione è descritto in [questa sezione](#use-case).
 
 >[!NOTE]
 >
->Durante l’importazione di un pubblico, solo i profili corrispondenti al target del messaggio vengono selezionati e aggiunti alla scheda **[!UICONTROL Profile substitutions]** .
+>Quando importi un pubblico, solo i profili corrispondenti al target del messaggio vengono selezionati e aggiunti al **[!UICONTROL Profile substitutions]** scheda .
 
 Per importare profili da utilizzare per i test da un pubblico, effettua le seguenti operazioni:
 
-1. Nel dashboard dei messaggi, accertati che la preparazione dei messaggi sia stata completata, quindi fai clic sul blocco **[!UICONTROL Audience]** .
+1. Nel dashboard dei messaggi, accertati che la preparazione dei messaggi abbia avuto esito positivo, quindi fai clic sul pulsante **[!UICONTROL Audience]** blocco.
 
    ![](assets/substitution_preparation.png)
 
@@ -125,11 +125,11 @@ Per importare profili da utilizzare per i test da un pubblico, effettua le segue
 
    ![](assets/substitution_audience_define.png)
 
-   Se gli indirizzi e/o i prefissi da utilizzare sono già stati definiti nel pubblico, seleziona l’opzione **[!UICONTROL From Audience]** , quindi specifica la colonna da utilizzare per recuperare queste informazioni.
+   Se gli indirizzi e/o i prefissi da utilizzare per la sostituzione sono già stati definiti nel pubblico, seleziona la **[!UICONTROL From Audience]** , quindi specifica la colonna da utilizzare per recuperare queste informazioni.
 
    ![](assets/substitution_fromaudience.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Import]**. I profili dal pubblico corrispondente al target del messaggio vengono aggiunti alla scheda **[!UICONTROL Profile substitution]** , nonché gli indirizzi di sostituzione e i prefissi associati.
+1. Fai clic sul pulsante **[!UICONTROL Import]**. I profili del pubblico corrispondenti al target del messaggio vengono aggiunti al **[!UICONTROL Profile substitution]** , nonché gli indirizzi e i prefissi di sostituzione associati.
 
 ![](assets/substitution_audience_imported.png)
 
@@ -143,9 +143,9 @@ Per importare profili da utilizzare per i test da un pubblico, effettua le segue
 >
 >L’anteprima è disponibile solo con E-mail Designer.
 
-Per visualizzare in anteprima i messaggi utilizzando i profili di destinazione, accertati di aver aggiunto questi profili all’elenco **[!UICONTROL Profile substitution]** (consulta [Definizione di profili e indirizzi di sostituzione](#selecting-profiles)).
+Per visualizzare in anteprima i messaggi utilizzando profili di destinazione, assicurati di aver aggiunto questi profili al gruppo **[!UICONTROL Profile substitution]** elenco (vedi [Definizione di profili e indirizzi di sostituzione](#selecting-profiles)).
 
-Se desideri utilizzare i campi di personalizzazione nel messaggio, devi aggiungerli **prima di** di avviare la preparazione dei messaggi. In caso contrario, non verranno presi in considerazione nell’anteprima. Di conseguenza, assicurati di avviare nuovamente la preparazione dei messaggi in caso di modifiche apportate ai campi di personalizzazione.
+Se desideri utilizzare i campi di personalizzazione nel messaggio, devi aggiungerli **prima** avvio della preparazione dei messaggi. In caso contrario, non verranno presi in considerazione nell’anteprima. Di conseguenza, assicurati di avviare nuovamente la preparazione dei messaggi in caso di modifiche apportate ai campi di personalizzazione.
 
 Per visualizzare in anteprima i messaggi utilizzando la sostituzione del profilo, procedi come segue:
 
@@ -153,11 +153,11 @@ Per visualizzare in anteprima i messaggi utilizzando la sostituzione del profilo
 
    ![](assets/substitution_preview_access.png)
 
-1. Seleziona la scheda **[!UICONTROL Preview]** , quindi fai clic su **[!UICONTROL Change profile]**.
+1. Seleziona la **[!UICONTROL Preview]** scheda , quindi fai clic su **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
-1. Fai clic sulla scheda **[!UICONTROL Profile Substitution]** per visualizzare i profili di sostituzione aggiunti per il test.
+1. Fai clic sul pulsante **[!UICONTROL Profile Substitution]** per visualizzare i profili di sostituzione aggiunti per il test.
 
    Seleziona i profili da utilizzare per l’anteprima, quindi fai clic su **[!UICONTROL Select]**.
 
@@ -189,13 +189,13 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 
 1. Crea il flusso di lavoro per creare un pubblico dal file . A questo scopo, aggiungi e configura le attività seguenti:
 
-   * **[!UICONTROL Load file]** attività: Importa il file CSV (per ulteriori informazioni su questa attività, consulta  [questa sezione](../../automating/using/load-file.md)).
+   * **[!UICONTROL Load file]** attività: Importa il file CSV (per ulteriori informazioni su questa attività, consulta [questa sezione](../../automating/using/load-file.md)).
    * **[!UICONTROL Reconciliation]** attività: Collega le informazioni dal file alle informazioni dal database. In questo esempio, utilizza l’indirizzo e-mail del profilo come campo di riconciliazione (per ulteriori informazioni su questa attività, consulta [questa sezione](../../automating/using/reconciliation.md)).
-   * **[!UICONTROL Save audience]** attività: Crea un pubblico in base al file importato (per ulteriori informazioni su questa attività, consulta  [questa sezione](../../automating/using/save-audience.md)).
+   * **[!UICONTROL Save audience]** attività: Crea un pubblico in base al file importato (per ulteriori informazioni su questa attività, consulta [questa sezione](../../automating/using/save-audience.md)).
 
    ![](assets/substitution_uc2.png)
 
-1. Esegui il flusso di lavoro, quindi vai alla scheda **[!UICONTROL Audiences]** per verificare che il pubblico sia stato creato con le informazioni desiderate.
+1. Esegui il flusso di lavoro, quindi vai al **[!UICONTROL Audiences]** per verificare che il pubblico sia stato creato con le informazioni desiderate.
 
    In questo esempio, il pubblico è composto da tre profili. Ognuno di essi è collegato a un indirizzo e-mail di sostituzione che riceverà la bozza, con un prefisso da utilizzare nella riga dell’oggetto della bozza.
 
@@ -203,7 +203,7 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 
 ### Passaggio 2: Creare un flusso di lavoro per eseguire il targeting dei profili e inviare la newsletter
 
-1. Aggiungi le attività **[!UICONTROL Query]** e **[!UICONTROL Email delivery]**, quindi configurale in base alle tue esigenze (consulta le sezioni [Query](../../automating/using/query.md) e [Email delivery](../../automating/using/email-delivery.md) ).
+1. Aggiungi **[!UICONTROL Query]** e **[!UICONTROL Email delivery]** , quindi configurali in base alle tue esigenze (consulta [Query](../../automating/using/query.md) e [Email delivery](../../automating/using/email-delivery.md) sezioni).
 
    ![](assets/substitution_uc4.png)
 
@@ -211,21 +211,21 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 
 ### Passaggio 3: Configura la scheda Sostituzione profilo del messaggio
 
-1. Apri l’attività **[!UICONTROL Email delivery]** . Nel dashboard dei messaggi, fai clic sul blocco **[!UICONTROL Audience]** .
+1. Apri **[!UICONTROL Email delivery]** attività. Nel dashboard dei messaggi, fai clic su **[!UICONTROL Audience]** blocco.
 
    ![](assets/substitution_uc5.png)
 
-1. Seleziona la scheda **[!UICONTROL Profile substitutions]** , quindi fai clic su **[!UICONTROL Import from an audience]**.
+1. Seleziona la **[!UICONTROL Profile substitutions]** scheda , quindi fai clic su **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
-1. Nel campo **[!UICONTROL Audience]** , seleziona il pubblico creato dal file .
+1. In **[!UICONTROL Audience]**  , seleziona il pubblico creato dal file .
 
    ![](assets/substitution_uc7.png)
 
 1. Definisci l’indirizzo di sostituzione e il prefisso della riga dell’oggetto da utilizzare per l’invio delle bozze.
 
-   A questo scopo, seleziona l’opzione **[!UICONTROL From audience]** , quindi seleziona la colonna dal pubblico che contiene le informazioni.
+   A questo scopo, seleziona la **[!UICONTROL From audience]** , quindi seleziona la colonna dal pubblico che contiene le informazioni.
 
    ![](assets/substitution_uc8.png)
 
@@ -235,7 +235,7 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 
    >[!NOTE]
    >
-   >Nel nostro caso, tutti i profili dal pubblico sono oggetto di targeting da parte dell’ attività **[!UICONTROL Query]** . Se uno di questi profili non faceva parte del target del messaggio, non verrebbe aggiunto all’elenco.
+   >Nel nostro caso, tutti i profili dal pubblico sono oggetto di targeting da parte del **[!UICONTROL Query]** attività. Se uno di questi profili non faceva parte del target del messaggio, non verrebbe aggiunto all’elenco.
 
 ### Passaggio 4: Visualizzare in anteprima il messaggio utilizzando i profili di destinazione
 
@@ -243,11 +243,11 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 
    ![](assets/substitution_uc10.png)
 
-1. Seleziona la scheda **[!UICONTROL Preview]** , quindi fai clic su **[!UICONTROL Change profile]**.
+1. Seleziona la **[!UICONTROL Preview]** scheda , quindi fai clic su **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_uc_preview.png)
 
-1. Fai clic sulla scheda **[!UICONTROL Profile Substitution]** per visualizzare i profili di sostituzione aggiunti in precedenza.
+1. Fai clic sul pulsante **[!UICONTROL Profile Substitution]** per visualizzare i profili di sostituzione aggiunti in precedenza.
 
    Seleziona i profili da utilizzare per l’anteprima, quindi fai clic su **[!UICONTROL Select]**.
 
@@ -259,11 +259,11 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 
 ### Passaggio 5: Invia bozze
 
-1. Nel dashboard dei messaggi, fai clic sul pulsante **[!UICONTROL Test]** , quindi conferma.
+1. Nel dashboard dei messaggi, fai clic su **[!UICONTROL Test]** quindi conferma.
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. Le bozze vengono inviate in base a ciò che è stato configurato nella scheda **[!UICONTROL Profile substitutions]** .
+1. Le bozze vengono inviate in base a ciò che è stato configurato nel **[!UICONTROL Profile substitutions]** scheda .
 
    ![](assets/substitution_uc_proofs.png)
 

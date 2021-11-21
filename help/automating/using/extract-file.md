@@ -43,7 +43,7 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
    ![](assets/wkf_data_export1.png)
 
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
-1. Immetti l’etichetta del **file di output**. L’etichetta del file viene automaticamente completata con la data e l’ora di creazione, in modo che sia univoca. Ad esempio: destinatari_20150815_081532.txt per un file generato il 15 agosto 2015 alle 08:15:32.
+1. Immetti l’etichetta del **file di output**. L’etichetta del file viene automaticamente completata con la data e l’ora di creazione, in modo che sia univoca. Ad esempio: recipients_20150815_081532.txt per un file generato il 15 agosto 2015 alle 08:15:32.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
 
 1. Se lo desideri, puoi comprimere il file di output selezionando **[!UICONTROL Compression]** nel campo **[!UICONTROL Add a post-processing stage]**. Il file di output viene compresso in un file GZIP (.gz).
 
-   Il campo **[!UICONTROL Add a post-processing stage]** consente inoltre di crittografare un file prima di estrarlo. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
+   La **[!UICONTROL Add a post-processing stage]** consente inoltre di crittografare un file prima di estrarlo. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
 
 1. Fai clic sul pulsante **[!UICONTROL Create element]** per aggiungere una colonna di output.
 

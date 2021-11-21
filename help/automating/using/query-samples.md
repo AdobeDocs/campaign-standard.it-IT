@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Esempi di query {#query-samples}
 
-Questa sezione presenta un caso d’uso quando si utilizza un’attività **[!UICONTROL Query]** . Per ulteriori informazioni sull&#39;utilizzo di un&#39;attività **[!UICONTROL Query]**, consulta [questa sezione](../../automating/using/query.md).
+Questa sezione presenta un caso d’uso quando si utilizza una **[!UICONTROL Query]** attività. Per ulteriori informazioni su come utilizzare un **[!UICONTROL Query]** attività, fai riferimento a [questa sezione](../../automating/using/query.md).
 
 ## Esecuzione del targeting su attributi di profilo semplici {#targeting-on-simple-profile-attributes}
 

@@ -19,17 +19,17 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Tieni presente che devi trascinare e rilasciare le metriche **[!UICONTROL Message type]** nelle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso le consegne di notifiche push.
+>Tieni presente che devi trascinare e rilasciare la **[!UICONTROL Message type]** metriche alle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso consegne di notifiche push.
 
-Il rapporto **Notifica push** fornisce dettagli sulle prestazioni di marketing delle notifiche push in Adobe Campaign. Questo rapporto pronto all’uso ti aiuta a capire come gli utenti interagiscono con le notifiche push, le applicazioni mobili e le consegne.
+La **Notifica push** Il rapporto fornisce dettagli sulle prestazioni di marketing delle notifiche push in Adobe Campaign. Questo rapporto pronto all’uso ti aiuta a capire come gli utenti interagiscono con le notifiche push, le applicazioni mobili e le consegne.
 
-Per implementare il tracciamento push è necessaria una certa configurazione nell’app mobile. Per i passaggi dettagliati, fai riferimento a questa [pagina](../../administration/using/push-tracking.md) .
+È necessaria una certa configurazione nell’app mobile per implementare il tracciamento push, consulta questo [page](../../administration/using/push-tracking.md) per i passaggi dettagliati.
 
 ![](assets/dynamic_report_push.png)
 
 Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare il modo in cui i dettagli vengono visualizzati nelle rispettive impostazioni di visualizzazione.
 
-La prima tabella **Riepilogo del coinvolgimento nelle notifiche push** è suddivisa in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
+La prima tabella **Riepilogo del coinvolgimento nella notifica push** è suddiviso in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
 
 * **[!UICONTROL Processed/sent]**: Numero totale di notifiche push inviate.
 * **[!UICONTROL Delivered]**: Numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.
@@ -40,7 +40,7 @@ La prima tabella **Riepilogo del coinvolgimento nelle notifiche push** è suddiv
 
 ![](assets/dynamic_report_push_2.png)
 
-La seconda tabella **Notifiche push Clic e apre** è suddivisa in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
+La seconda tabella **Clic e aperture delle notifiche push** è suddiviso in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
 
 * **[!UICONTROL Impressions]**: Totale delle notifiche push visualizzate dai destinatari.
 * **[!UICONTROL Unique impressions]**: Numero di impression per destinatario.

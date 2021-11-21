@@ -82,7 +82,7 @@ I possibili motivi di un errore di consegna sono:
 
 Se un messaggio non riesce a causa di un errore temporaneo, verranno eseguiti nuovi tentativi per tutta la durata della consegna. Per ulteriori informazioni sui tipi di errori, consulta [Tipi e motivi di errori di consegna](#delivery-failure-types-and-reasons).
 
-Il numero di nuovi tentativi (il numero di tentativi da eseguire il giorno successivo all’avvio dell’invio) e il ritardo minimo tra nuovi tentativi sono ora<!--managed by the Adobe Campaign Enhanced MTA,--> in base alle prestazioni di un IP sia storicamente che attualmente in un determinato dominio. Le impostazioni **Nuovi tentativi** in Campaign vengono ignorate.
+Il numero di nuovi tentativi (quanti tentativi devono essere eseguiti il giorno successivo all’avvio dell’invio) e il ritardo minimo tra i nuovi tentativi è ora<!--managed by the Adobe Campaign Enhanced MTA,--> in base alle prestazioni di un IP sia storicamente che attualmente in un determinato dominio. Le impostazioni **Nuovi tentativi** in Campaign vengono ignorate.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -96,7 +96,7 @@ Ad esempio, se desideri che i nuovi tentativi per una consegna si interrompano d
 
 >[!NOTE]
 >
->Una volta che un messaggio è rimasto nella coda dei nuovi tentativi per un massimo di 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato<!--from **[!UICONTROL Sent]**--> a **[!UICONTROL Failed]** nei [log di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Una volta che un messaggio è rimasto nella coda dei nuovi tentativi per un massimo di 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato<!--from **[!UICONTROL Sent]**--> a **[!UICONTROL Failed]** in [registri di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ Per i messaggi di errore di consegna sincrono, l’MTA avanzato di Adobe Campaig
 >
 >Le qualifiche di mancato recapito nella tabella **[!UICONTROL Message qualification]** di Campaign non vengono più utilizzate.
 
-Le mancate consegne asincrone vengono comunque qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per accedere a queste regole, fai clic sul logo **Adobe** in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, consulta [questa sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Le mancate consegne asincrone vengono comunque qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per accedere a queste regole, fai clic sul pulsante **Adobe** , in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, consulta [questa sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Per ulteriori informazioni sui rimbalzi e sui diversi tipi di rimbalzi, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Per ulteriori informazioni sui rimbalzi e sui diversi tipi di rimbalzi, vedi [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

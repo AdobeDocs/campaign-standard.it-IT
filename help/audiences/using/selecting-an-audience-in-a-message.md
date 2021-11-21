@@ -47,7 +47,7 @@ Se il messaggio è già stato creato, puoi definire i tipi di pubblico al moment
 
    >[!NOTE]
    >
-   >Quando esegui il targeting di un pubblico, tieni presente che non viene fatto riferimento alla definizione del pubblico, ma **copiato** nella query. Se apporti modifiche al pubblico dopo che è stato eseguito il targeting in una query, assicurati di configurare nuovamente la query per tenere conto della nuova definizione.
+   >Quando esegui il targeting di un pubblico, noterai che la definizione del pubblico non è referenziata ma **copiato** nella query. Se apporti modifiche al pubblico dopo che è stato eseguito il targeting in una query, assicurati di configurare nuovamente la query per tenere conto della nuova definizione.
 
 1. Definisci i **[!UICONTROL Test profiles]** da utilizzare per le e-mail. I profili di test ricevono le bozze, che puoi inviare preliminarmente per verificare l’e-mail prima di inviarla al target principale.
 
@@ -55,7 +55,7 @@ Se il messaggio è già stato creato, puoi definire i tipi di pubblico al moment
 
 1. Se necessario, è possibile definire un gruppo di controllo utilizzando la scheda corrispondente. In questo modo puoi ritirare alcuni profili dal target in modo che non ricevano il messaggio. Per ulteriori informazioni, consulta [Aggiunta di un gruppo di controllo](../../sending/using/control-group.md).
 
-1. Puoi inoltre utilizzare gli indirizzi di sostituzione per ottenere una rappresentazione esatta del messaggio che verrà ricevuto dal profilo.  Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
+1. Puoi inoltre utilizzare gli indirizzi di sostituzione per ottenere una rappresentazione esatta del messaggio che il profilo riceverà.  Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
 
 Il blocco dei tipi di pubblico viene quindi aggiornato e mostra che sono stati selezionati profili target e di test per l’e-mail in questione.
 

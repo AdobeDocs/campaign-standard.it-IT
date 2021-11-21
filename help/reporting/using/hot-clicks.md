@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Hot click{#hot-clicks}
 
-Puoi accedere a questo rapporto dal pulsante **[!UICONTROL Reports]** in ogni consegna o messaggio transazionale.
+Puoi accedere a questo rapporto dalla pagina **[!UICONTROL Reports]** in ogni consegna o messaggio transazionale.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -39,11 +39,11 @@ Per impostazione predefinita, non è selezionato alcun profilo. Vengono visualiz
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-Per visualizzare i clic per le donne, fai clic sul pulsante **[!UICONTROL Change profile]** e seleziona un profilo di test femminile. Per visualizzare i clic per gli uomini, procedere in modo simile e selezionare un profilo di test maschile.
+Per visualizzare i clic per le donne, fai clic sul pulsante **[!UICONTROL Change profile]** e selezionare un profilo di test femminile. Per visualizzare i clic per gli uomini, procedere in modo simile e selezionare un profilo di test maschile.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Per visualizzare i clic per i destinatari con più di 25 anni, fai clic sul pulsante **[!UICONTROL Change profile]** e seleziona un profilo di test la cui data di nascita corrisponde a questa condizione.
+Per visualizzare i clic per i destinatari con più di 25 anni, fai clic sul pulsante **[!UICONTROL Change profile]** e selezionare un profilo di test la cui data di nascita corrisponde a questa condizione.
 
 Per ulteriori informazioni sui profili di test, consulta [Informazioni sui profili di test](../../audiences/using/managing-test-profiles.md).
 
@@ -59,11 +59,11 @@ Una consegna di esecuzione è un messaggio tecnico non utilizzabile e non funzio
 
    Ad esempio, se il flusso di lavoro che gestisce questa consegna viene eseguito una volta al mese, verrà eseguita una consegna di esecuzione al mese. Inoltre, ogni volta che il contenuto della consegna viene aggiornato, viene creata un’ulteriore consegna di esecuzione.
 
-   Per ulteriori informazioni sulle consegne e-mail ricorrenti, consulta [Consegna e-mail](../../automating/using/email-delivery.md).
+   Per ulteriori informazioni sulle consegne ricorrenti di e-mail, consulta [Email delivery](../../automating/using/email-delivery.md).
 
 * Per impostazione predefinita, una volta al mese per i messaggi transazionali e ogni volta che un messaggio transazionale viene modificato e pubblicato di nuovo.
 
-   Per ulteriori informazioni sui messaggi transazionali, consulta [Guida introduttiva alla messaggistica transazionale](../../channels/using/getting-started-with-transactional-msg.md).
+   Per ulteriori informazioni sui messaggi transazionali, consulta [Guida introduttiva ai messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

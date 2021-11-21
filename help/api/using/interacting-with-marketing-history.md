@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Interazione con lo storico dei dati marketing {#interacting-with-marketing-history}
 
-L’endpoint **history** consente di interagire con la cronologia di marketing di un profilo.
+La **storia** endpoint ti consente di interagire con la cronologia di marketing di un profilo.
 In questo modo, ad esempio, puoi recuperare facilmente la pagina speculare per una consegna inviata a un profilo. Per farlo, segui la procedura indicata di seguito:
 
-1. Esegui una GET con l&#39;endpoint **history** e la chiave primaria del profilo.
-1. Esegui una richiesta di GET sul **eventi** href restituito.
-1. Restituisce l&#39;elenco degli eventi per il profilo con collegamenti alle pagine mirror nel nodo **mirrorPage** .
+1. Esegui una GET con **storia** e la chiave primaria del profilo.
+1. Esegui una richiesta di GET sul **events** href restituito.
+1. Restituisce l’elenco degli eventi per il profilo con collegamenti alle pagine mirror nel **mirrorPage** nodo.
 
 <br/>
 

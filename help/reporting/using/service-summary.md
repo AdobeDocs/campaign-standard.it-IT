@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # Riepilogo del servizio{#service-summary}
 
-L’ **[!UICONTROL Service summary]** descrive l’evoluzione degli abbonamenti e degli annullamenti degli abbonamenti al servizio.
+La **[!UICONTROL Service summary]** descrive l’evoluzione degli abbonamenti e degli annullamenti degli abbonamenti al servizio.
 Questo rapporto è accessibile solo dalla pagina Servizio tramite il menu avanzato **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Per ulteriori informazioni, consulta questa [pagina](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 
-La visualizzazione **[!UICONTROL Subscription evolution curves]** descrive il numero di sottoscrizioni e di annullamenti di abbonamenti in base alla **[!UICONTROL Period]** scelta nella barra a discesa.
+La **[!UICONTROL Subscription evolution curves]** la visualizzazione specifica il numero di sottoscrizioni e di annullamenti di sottoscrizioni a seconda del **[!UICONTROL Period]** scelto nella barra a discesa.
 
-Il **[!UICONTROL Overall subscription evolution]** ti consente di visualizzare l’evoluzione degli abbonati in diversi periodi di tempo.
+La **[!UICONTROL Overall subscription evolution]** consente di visualizzare l’evoluzione degli abbonati in diversi periodi di tempo.

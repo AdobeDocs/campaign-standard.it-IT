@@ -23,13 +23,13 @@ In questo esempio, una notifica push personalizzata viene inviata ogni primo gio
 
 Per creare il flusso di lavoro, segui questi passaggi:
 
-1. L’attività [Scheduler](../../automating/using/scheduler.md) ti consente di avviare il flusso di lavoro giorni prima dell’inizio della consegna per poter inviare la notifica a ogni abbonato alle 20 in un dato fuso orario:
+1. La [Scheduler](../../automating/using/scheduler.md) l’attività ti consente di avviare i giorni del flusso di lavoro prima dell’inizio della consegna per poter inviare la notifica a ogni abbonato alle 20 in un dato fuso orario:
 
-   * Nel campo **[!UICONTROL Execution frequency]**, selezionare Mensile.
-   * Selezionare le 20 nel campo **[!UICONTROL Time]**.
+   * In **[!UICONTROL Execution frequency]** selezionare Mensile.
+   * Seleziona le 20 in **[!UICONTROL Time]** campo .
    * Scegli il giorno in cui la consegna verrà inviata ogni mese.
    * Seleziona una data di inizio per il flusso di lavoro, almeno un giorno prima dell’inizio della consegna. In caso contrario, alcuni destinatari potrebbero ricevere il messaggio un giorno dopo se l’ora selezionata è già passata nei rispettivi fusi orari.
-   * Nella scheda **[!UICONTROL Execution options]** , seleziona il fuso orario in cui verrà avviato il flusso di lavoro nel campo **[!UICONTROL Time zone]** . In questo caso, ad esempio, il flusso di lavoro inizia alle 20.00 ora del Pacifico, una settimana prima del primo giorno del mese, per consentire la creazione di consegne per tutti i fusi orari applicabili.
+   * In **[!UICONTROL Execution options]** , seleziona il fuso orario in cui verrà avviato il flusso di lavoro nella **[!UICONTROL Time zone]** campo . In questo caso, ad esempio, il flusso di lavoro inizia alle 20.00 ora del Pacifico, una settimana prima del primo giorno del mese, per consentire la creazione di consegne per tutti i fusi orari applicabili.
 
    >[!NOTE]
    >
@@ -37,21 +37,21 @@ Per creare il flusso di lavoro, segui questi passaggi:
 
    ![](assets/wkf_push_example_5.png)
 
-1. L’attività [Query](../../automating/using/query.md) ti consente di eseguire il targeting dei clienti VIP di età compresa tra i 20 e i 30 anni che si sono abbonati alla tua app mobile e che non hanno aperto l’e-mail inviata:
+1. La [Query](../../automating/using/query.md) l’attività ti consente di rivolgerti ai clienti VIP di età compresa tra i 20 e i 30 anni che si sono abbonati alla tua app mobile e che non hanno aperto l’e-mail inviata:
 
    * Seleziona un pubblico (i tuoi clienti VIP) e applica un filtro in base alla loro età.
-   * Trascina nell’area di lavoro l’elemento **Sottoscrizioni a un’applicazione** . Seleziona **Esiste** e seleziona l’app mobile da utilizzare.
+   * Trascina e rilascia la **Abbonamenti a un’applicazione** nell&#39;area di lavoro. Seleziona **Esiste** e seleziona l’app mobile da utilizzare.
    * Seleziona l’e-mail inviata ai clienti.
-   * Trascina e rilascia l’elemento **Log di consegna (log)** nell’area di lavoro e seleziona **Esiste** per eseguire il targeting per tutti i clienti che hanno ricevuto l’e-mail.
-   * Trascina e rilascia l’elemento **Registri di tracciamento (tracciamento)** nell’area di lavoro e seleziona **Non esiste** per eseguire il targeting di tutti i clienti che non hanno aperto l’e-mail.
+   * Trascina e rilascia la **Log di consegna (registri)** nell’area di lavoro e seleziona **Esiste** per eseguire il targeting di tutti i clienti che hanno ricevuto l’e-mail.
+   * Trascina e rilascia la **Registri di tracciamento (tracciamento)** nell’area di lavoro e seleziona **Non esiste** per eseguire il targeting di tutti i clienti che non hanno aperto l’e-mail.
 
       ![](assets/wkf_push_example_2.png)
 
-1. L’attività [Invio di notifiche push](../../automating/using/push-notification-delivery.md) ti consente di inserire il contenuto del messaggio e di selezionare i campi di personalizzazione che desideri utilizzare:
+1. La [Consegna notifiche push](../../automating/using/push-notification-delivery.md) activity ti consente di inserire il contenuto del messaggio e selezionare i campi di personalizzazione che desideri utilizzare:
 
-   * Selezionare l&#39;opzione **[!UICONTROL Recurring notification]**.
-   * Definisci il contenuto della notifica push. Per ulteriori informazioni sul contenuto delle notifiche push, consulta questa [sezione](../../channels/using/preparing-and-sending-a-push-notification.md).
-   * Nel blocco **[!UICONTROL Schedule]**, seleziona **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. In questo caso, abbiamo scelto il **[!UICONTROL Time zone of the contact date]** Pacifico come nel flusso di lavoro **[!UICONTROL Scheduler]**.
+   * Seleziona la **[!UICONTROL Recurring notification]** opzione .
+   * Definisci il contenuto della notifica push. Per ulteriori informazioni sul contenuto delle notifiche push, consulta questo [sezione](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * In **[!UICONTROL Schedule]** blocco, seleziona **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Qui abbiamo scelto il **[!UICONTROL Time zone of the contact date]** Pacifico come nel flusso di lavoro **[!UICONTROL Scheduler]**.
    * Nel campo **[!UICONTROL Optimize the sending time per recipient]** seleziona **[!UICONTROL Send at the recipient's time zone]**.
 
       ![](assets/wkf_push_example_4.png)
@@ -60,4 +60,4 @@ Per creare il flusso di lavoro, segui questi passaggi:
 
    ![](assets/wkf_push_example_3.png)
 
-Il flusso di lavoro è ora in esecuzione. Il push ricorrente verrà quindi inviato ogni primo giorno del mese alle 20:00 a seconda del fuso orario del cliente.**[!UICONTROL Scheduler]**
+Il flusso di lavoro è ora in esecuzione. Inizierà alla data di inizio scelta del **[!UICONTROL Scheduler]** alle 20 ora del Pacifico, il push ricorrente verrà quindi inviato ogni primo giorno del mese alle 20 (ora del Pacifico), a seconda del fuso orario dei clienti.

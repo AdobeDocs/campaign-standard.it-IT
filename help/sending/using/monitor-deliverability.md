@@ -18,7 +18,7 @@ ht-degree: 10%
 
 # Monitoraggio del recapito messaggi{#monitor-deliverability}
 
-Di seguito sono riportati i dettagli del rapporto **[!UICONTROL Delivery throughput]** e i diversi strumenti di monitoraggio offerti da Adobe Campaign. Di seguito sono riportate alcune linee guida aggiuntive sul monitoraggio delle consegne:
+Di seguito trovi i dettagli sul **[!UICONTROL Delivery throughput]** , nonché i diversi strumenti di monitoraggio offerti da Adobe Campaign. Di seguito sono riportate alcune linee guida aggiuntive sul monitoraggio delle consegne:
 * Controlla regolarmente il throughput di consegna per l’intera piattaforma per verificare se è coerente con la configurazione originale.
 * Verifica che i nuovi tentativi siano configurati correttamente (30 minuti per il periodo dei nuovi tentativi e più di 20 tentativi) nei modelli di consegna.
 * Verifica regolarmente che la cassetta postale non recapitata sia accessibile e che l&#39;account non stia per scadere.
@@ -48,7 +48,7 @@ Per ulteriori informazioni, consulta [Monitoraggio di una consegna](../../sendin
 
 ## Ricezione degli avvisi {#receiving-alerts}
 
-La funzione **[!UICONTROL Delivery alerting]** è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle consegne.
+La **[!UICONTROL Delivery alerting]** è un sistema di gestione degli avvisi che consente a un gruppo di utenti di ricevere automaticamente le notifiche contenenti informazioni sull’esecuzione delle consegne.
 
 Per ulteriori informazioni, consulta [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md).
 

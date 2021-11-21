@@ -22,19 +22,19 @@ Questo rapporto contiene i dati sulle prestazioni per ogni dominio rappresentato
 
 ![](assets/delivery_reports_6.png)
 
-La tabella **Statistiche di trasmissione** contiene i dati disponibili per eventuali errori riscontrati in ciascun dominio, ad esempio:
+La tabella **Statistiche broadcast** contiene i dati disponibili per eventuali errori riscontrati in ciascun dominio, ad esempio:
 
 * **Elaborato/inviato**: Numero di e-mail inviate.
 * **Consegnato**: Il numero di e-mail consegnate.
 * **Rimbalzi + errori**: Numero di messaggi che non è stato possibile recapitare.
-* **Rimbalzo** rigido: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
-* **Rimbalzo** morbido: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
+* **Rimbalzo duro**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
+* **Rimbalzo morbido**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
 
-La seconda tabella, **Statistiche di tracciamento**, contiene i dati disponibili per la reattività del destinatario alla consegna, ad esempio:
+la seconda tabella, **Tracking delle statistiche**, contiene i dati disponibili per la reattività del destinatario alla consegna, ad esempio:
 
 * **Consegnato**: Il numero di e-mail consegnate
 * **Apri**: Il numero di volte in cui un messaggio è stato aperto in una consegna.
 * **Fai clic su**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
 * **Annulla sottoscrizione**: Il numero di clic sul collegamento di abbonamento.
-* **Pagina** speculare: Il numero di clic sul collegamento della pagina speculare.
+* **Pagina speculare**: Il numero di clic sul collegamento della pagina speculare.
 * **A elenco Bloccati**: Il numero di destinatari che hanno dichiarato un’e-mail come spam o posta indesiderata. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

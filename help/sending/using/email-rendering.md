@@ -76,9 +76,9 @@ Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni co
 
 I token account per ogni singolo rendering e non per l’intero report di rendering di e-mail, il che significa che:
 
-* **Ogni** volta che viene generato il rapporto di rendering di e-mail, viene detratto un token per client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
+* **Ogni volta** viene generato il report di rendering di e-mail, viene dedotto un token per client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
 
-* **Per la stessa consegna**, se si genera di nuovo il rendering di E-mail, il numero di token disponibili viene nuovamente diminuito del numero di rendering generati.
+* **Per la stessa consegna**, se si genera nuovamente il rendering di e-mail, il numero di token disponibili viene nuovamente diminuito del numero di rendering generati.
 
 ### Riepilogo del rapporto
 

@@ -61,11 +61,11 @@ Il tracciamento con Adobe Campaign Standard consente di accedere alle seguenti f
 
 ## Registri di tracciamento {#tracking-logs}
 
-La scheda **[!UICONTROL Tracking logs]** elenca la cronologia di tracciamento per questa consegna. In questa scheda vengono visualizzate le informazioni di tracciamento per i messaggi inviati, ad esempio tutti gli URL tracciati da Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
+La **[!UICONTROL Tracking logs]** elenca la cronologia di tracciamento per la consegna. In questa scheda vengono visualizzate le informazioni di tracciamento per i messaggi inviati, ad esempio tutti gli URL tracciati da Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
 
 >[!NOTE]
 >
->Se il tracciamento non è abilitato per una consegna, questa scheda non viene visualizzata. I registri di tracciamento sono disponibili solo per i canali **e-mail** e **notifica push**.
+>Se il tracciamento non è abilitato per una consegna, questa scheda non viene visualizzata. I registri di tracciamento sono disponibili per **email** e **notifica push** solo canali.
 
 ![](assets/tracking_logs.png)
 
@@ -75,7 +75,7 @@ Nell’esempio precedente, il destinatario:
 * Sul collegamento della pagina speculare è stato fatto clic su .
 * Fai clic sul collegamento personalizzato &quot;ULTERIORI INFORMAZIONI&quot;.
 
-Nella colonna **[!UICONTROL Type]**, i valori possibili sono:
+In **[!UICONTROL Type]** i valori possibili sono:
 
 * **[!UICONTROL Email click]**: i destinatari hanno fatto clic su un collegamento personalizzato.
 * **[!UICONTROL Mirror page]**: il destinatario ha fatto clic su un collegamento alla pagina speculare.
@@ -84,15 +84,15 @@ Nella colonna **[!UICONTROL Type]**, i valori possibili sono:
 
 >[!NOTE]
 >
->Per il canale **notifica push**, vengono tracciati solo i clic sulle notifiche mobili. In tal caso, il valore sarà **[!UICONTROL Click on mobile notification]**.
+>Per **notifica push** canale, vengono tracciati solo i clic sulle notifiche mobili. In tal caso, il valore sarà **[!UICONTROL Click on mobile notification]**.
 
 Per ulteriori informazioni su come inserire collegamenti di tracciamento, consulta [questa pagina](../../designing/using/links.md#inserting-a-link).
 
-Il rapporto **[!UICONTROL Tracking indicators]** contiene gli indicatori chiave per il tracciamento del comportamento dopo la ricezione dei messaggi e-mail. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/tracking-indicators.md).
+La **[!UICONTROL Tracking indicators]** il rapporto contiene gli indicatori chiave per il tracciamento del comportamento dopo la ricezione dei messaggi e-mail. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/tracking-indicators.md).
 
 ## URL tracciati {#tracked-urls}
 
-La scheda **[!UICONTROL Tracked URLs]** raggruppa gli URL contenuti nel messaggio inviato, compreso il tipo di URL e l’URL di origine.
+La **[!UICONTROL Tracked URLs]** la scheda raggruppa gli URL contenuti nel messaggio inviato, tra cui il loro tipo di URL e l’URL di origine.
 
 ![](assets/sending_delivery6.png)
 

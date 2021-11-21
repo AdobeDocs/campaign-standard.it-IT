@@ -66,10 +66,10 @@ Esegui una richiesta di GET sull’URL. Restituisce l’elenco dei filtri per la
 
 Per ogni filtro è disponibile la stessa struttura di metadati:
 
-* I campi **@formType** e **@webPage** sono campi tecnici.
-* Il campo **data** fornisce un esempio di come utilizzare il filtro.
-* Il nodo **metadata** descrive i parametri del filtro.
-* Il nodo **condition** descrive le operazioni che il filtro intende eseguire. I parametri di filtro descritti nel nodo di metadati vengono utilizzati per creare condizioni di filtro. Per ogni condizione di filtro, se **enabledIf** è true, viene applicato **expr**.
+* La **@formType** e **@webPage** i campi sono campi tecnici.
+* La **dati** Questo campo fornisce un esempio su come utilizzare il filtro.
+* La **metadati** node descrive i parametri del filtro.
+* La **condizione** Il nodo descrive le operazioni che il filtro intende eseguire. I parametri di filtro descritti nel nodo di metadati vengono utilizzati per creare condizioni di filtro. Per ogni condizione del filtro, se **enabledIf** è vero, **expr** saranno applicati.
 
 <br/>
 
@@ -133,8 +133,7 @@ Il filtro viene eseguito con la richiesta seguente:
    }
    ```
 
-* Esempio di richiesta di GET per recuperare le risorse &quot;profile&quot; contenenti &quot;Doe&quot; in
-i campi e-mail o cognome (il filtro byText esegue la ricerca nei campi e-mail e cognome).
+* Esempio di richiesta di GET per recuperare le risorse &quot;profile&quot; contenenti &quot;Doe&quot; nei campi e-mail o cognome (il filtro byText esegue la ricerca sia nei campi e-mail che nel campo cognome).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -203,7 +202,7 @@ Se desideri utilizzare un filtro personalizzato, devi crearlo e personalizzarlo 
 Per ulteriori informazioni, consulta la documentazione di Campaign Standard:
 
 * [Configurazione della definizione del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso di utilizzo: Chiamata di una risorsa tramite una chiave](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html) di identificazione composita.
+* [Caso di utilizzo: Chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

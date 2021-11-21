@@ -49,7 +49,7 @@ Il Pannello di controllo Campaign consente di gestire diverse impostazioni dell�
 
 **Oggetti tecnici**
 
-Il menu **[!UICONTROL Diagnosis]** è uno strumento chiave per monitorare e analizzare i diversi oggetti tecnici generati dall&#39;applicazione: schemi di dati, pagine web, processi batch, ecc. [Leggi tutto](../../developing/using/monitoring-data-model-changes.md)
+La **[!UICONTROL Diagnosis]** menu è uno strumento chiave per monitorare e analizzare i diversi oggetti tecnici generati dall&#39;applicazione: schemi di dati, pagine web, processi batch, ecc. [Leggi tutto](../../developing/using/monitoring-data-model-changes.md)
 
 **Audit delle esportazioni**
 
@@ -58,7 +58,7 @@ I controlli di esportazione consentono di monitorare le esportazioni eseguite su
 
 **Licenze**
 
-Con il menu **[!UICONTROL Licenses]**, monitora le informazioni sulle istanze: licenze installate, versioni della build e accettazioni dei termini del contratto.
+Con la **[!UICONTROL Licenses]** controlla le informazioni sulle istanze: licenze installate, versioni della build e accettazioni dei termini del contratto.
 [Leggi tutto](../../administration/using/licenses.md)
 
 ## Monitoraggio dei flussi di lavoro {#monitoring-workflows}

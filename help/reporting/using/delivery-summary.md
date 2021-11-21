@@ -18,23 +18,23 @@ ht-degree: 1%
 
 # Riepilogo consegne{#delivery-summary}
 
-Il rapporto **[!UICONTROL Delivery summary]** descrive le informazioni principali relative a un’e-mail o a più e-mail.
+La **[!UICONTROL Delivery summary]** il rapporto descrive le informazioni principali relative a un’e-mail o a più e-mail.
 
 ![](assets/campaign_reports_1.png)
 
 Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare il modo in cui i dettagli vengono visualizzati nelle rispettive impostazioni di visualizzazione.
 
-La tabella **Statistiche di consegna** contiene i dati disponibili per le e-mail inviate, ad esempio:
+La **Statistiche di consegna** la tabella contiene i dati disponibili per le e-mail inviate, ad esempio:
 
 * **[!UICONTROL Processed/sent]**: Numero totale di invii per la consegna.
 * **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati. Vengono presi in considerazione gli errori generati (mancati recapiti). Tuttavia, non si tiene conto dei reclami (dichiarazioni spam) e dei messaggi di allontanamento, come quelli &quot;fuori sede&quot;.
 * **[!UICONTROL Bounces + Errors]**: Numero di errori totali cumulati durante l’elaborazione della consegna e della restituzione automatica in relazione al numero totale di messaggi inviati.
 
-La tabella **Apri e fai clic** contiene i dati disponibili per l’attività del destinatario per ogni consegna, ad esempio:
+La **Apertura e clic** contiene i dati disponibili per l’attività del destinatario per ogni consegna, ad esempio:
 
 * **Fai clic su**: Numero di volte in cui un contenuto è stato fatto clic in una consegna.
 * **Apri**: Il numero di volte in cui un messaggio è stato aperto in una consegna.
-* **Aperture** univoche: Il numero di destinatari che hanno aperto la consegna.
-* **Clic** univoci: Il numero di destinatari che hanno fatto clic su un contenuto in una consegna.
+* **Aperture univoche**: Il numero di destinatari che hanno aperto la consegna.
+* **Clic univoco**: Il numero di destinatari che hanno fatto clic su un contenuto in una consegna.
 
-La tabella **Partizione del dominio** visualizza lo stato delle consegne in base al dominio del destinatario.
+La **Partizione del dominio** nella tabella viene visualizzato lo stato delle consegne in base al dominio del destinatario.

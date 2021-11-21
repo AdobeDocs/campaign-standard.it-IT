@@ -18,15 +18,15 @@ ht-degree: 1%
 
 # Riepilogo messaggi non recapitati{#bounce-summary}
 
-Questo rapporto descrive gli errori rigidi e morbidi riscontrati durante le consegne e l’elaborazione automatica dei mancati recapiti (consulta [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)).
+Questo rapporto descrive gli errori rigidi e morbidi riscontrati durante le consegne e l’elaborazione automatica dei mancati recapiti (vedi [Informazioni sugli errori di consegna](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
 Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare il modo in cui i dettagli vengono visualizzati nelle rispettive impostazioni di visualizzazione.
 
-**Il** repartitionist Flop 5 elenca le cinque consegne con il numero più elevato di quarantene:
+**Partizione flop 5** elenca le cinque consegne con il numero più alto di quarantene:
 
-La tabella **Motivi non recapitati** contiene i dati disponibili per i tipi di errori che hanno causato rimbalzi per ogni consegna:
+La **Motivi di mancato recapito** La tabella contiene i dati disponibili per i tipi di errori che hanno causato mancati recapiti per ogni consegna:
 
 * **[!UICONTROL User unknown]**: Tipo di errore generato quando una consegna viene inviata a un indirizzo e-mail non valido.
 * **[!UICONTROL Invalid domain]**: Tipo di errore generato quando una consegna viene inviata a un indirizzo e-mail il cui dominio è errato o non esiste più.
@@ -41,4 +41,4 @@ La tabella **Motivi non recapitati** contiene i dati disponibili per i tipi di e
 
 * **[!UICONTROL Refused]**: Tipo di errore generato quando un indirizzo viene rifiutato dal provider di servizi Internet (ISP). Ad esempio, quando una regola di sicurezza è stata applicata dal software anti-Spam.
 
-La tabella **Partizione del dominio** visualizza i problemi generali rilevati durante le consegne in base al dominio destinatario.
+La **Partizione del dominio** nella tabella vengono visualizzati i problemi generali riscontrati durante le consegne in base al dominio destinatario.

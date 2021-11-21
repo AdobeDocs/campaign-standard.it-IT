@@ -24,7 +24,7 @@ Prima di pubblicare il messaggio sulle transazioni, puoi creare un profilo di te
 
 Definisci un profilo di test da collegare all’evento, che ti consentirà di visualizzare l’anteprima del messaggio e di inviare una bozza pertinente.
 
-1. Dal [dashboard dei messaggi transazionali](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), fai clic sul pulsante **[!UICONTROL Create test profile]** .
+1. Da [dashboard dei messaggi transazionali](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), fai clic su **[!UICONTROL Create test profile]** pulsante .
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ Definisci un profilo di test da collegare all’evento, che ti consentirà di vi
 
    >[!NOTE]
    >
-   >Se hai arricchito il messaggio, puoi anche inserire informazioni relative a un’altra tabella, ad esempio **[!UICONTROL Profile]**. Consulta [Arricchimento dell&#39;evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) e [Personalizzazione di un messaggio transazionale](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >Se hai arricchito il messaggio, puoi anche inserire informazioni relative a un’altra tabella, ad esempio **[!UICONTROL Profile]**. Vedi [Arricchimento dell’evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) e [Personalizzazione di un messaggio sulle transazioni](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. Una volta creato, il profilo di test verrà prespecificato nel messaggio sulle transazioni. Per controllare la destinazione della bozza, fai clic sul blocco **[!UICONTROL Test profiles]** del messaggio.
 
@@ -42,14 +42,14 @@ Definisci un profilo di test da collegare all’evento, che ti consentirà di vi
 
 Puoi anche creare un nuovo profilo di test o usarne uno già esistente nel menu **[!UICONTROL Test profiles]**. Per eseguire questa operazione:
 
-1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. Nella sezione **[!UICONTROL Event]** , seleziona l’evento appena creato. In questo esempio, seleziona &quot;Abbandono carrello (EVTcartAbandonment)&quot;.
+1. Fai clic sul pulsante **Adobe** , nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. In **[!UICONTROL Event]** seleziona l’evento appena creato. In questo esempio, seleziona &quot;Abbandono carrello (EVTcartAbandonment)&quot;.
 1. Nella casella di testo **[!UICONTROL Event data]**, specifica le informazioni da inviare in formato JSON.
 
    ![](assets/message-center_3.png)
 
 1. Salva le modifiche.
-1. [Accedi al ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) messaggio creato e seleziona il profilo di test aggiornato.
+1. [Accedere al messaggio](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) che hai creato e seleziona il profilo di test aggiornato.
 
 **Argomenti correlati:**
 
@@ -62,4 +62,4 @@ Dopo aver creato uno o più profili di test specifici e aver salvato il messaggi
 
 ![](assets/message-center_10.png)
 
-I passaggi per l’invio di una bozza sono descritti in dettaglio nella sezione [Invio di bozze](../../sending/using/sending-proofs.md) .
+I passaggi per l’invio di una prova sono descritti nella sezione [Invio di bozze](../../sending/using/sending-proofs.md) sezione .

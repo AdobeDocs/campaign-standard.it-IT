@@ -52,19 +52,19 @@ I passaggi seguenti descrivono un caso d’uso dettagliato per importare e utili
 >
 >Il nostro esempio utilizza Postman. Tuttavia, sentiti libero di usare il tuo client REST preferito.
 
-1. Scarica la raccolta JSON facendo clic [qui](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. Scarica la raccolta JSON facendo clic su [qui](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Apri Postman, quindi seleziona il menu **File** / **Importa**.
+1. Apri Postman, quindi seleziona il **File** / **Importa** menu.
 
 1. Trascina e rilascia il file scaricato nella finestra . Vengono visualizzate le richieste API predefinite, pronte per essere utilizzate.
 
    ![testo alt](assets/postman_collection.png)
 
-1. Seleziona la richiesta **Creazione di un profilo**, quindi aggiorna la richiesta POST e la scheda **Intestazioni** con le tue informazioni (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/setting-up-api-access.md).
+1. Seleziona la **Creazione di un profilo** , quindi aggiorna la richiesta di POST e la **Intestazioni** con le tue informazioni (&lt;organization>, &lt;api_key>, &lt;access_token>). Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/setting-up-api-access.md).
 
    ![testo alt](assets/postman_uc1.png)
 
-1. Compila la scheda **Corpo** con le informazioni che desideri aggiungere al nuovo profilo, quindi fai clic sul pulsante **Invia** per eseguire la richiesta.
+1. Compila il **Corpo** con le informazioni che desideri aggiungere al nuovo profilo, quindi fai clic su **Invia** per eseguire la richiesta.
 
    ![testo alt](assets/postman_uc2.png)
 

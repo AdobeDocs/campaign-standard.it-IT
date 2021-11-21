@@ -20,7 +20,7 @@ ht-degree: 17%
 
 Dopo che hai completato la preparazione dei messaggi e hai eseguito i passaggi di approvazione, puoi inviarli. Per ulteriori informazioni sulla preparazione dei messaggi, consulta [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
 
-Solo gli utenti con il ruolo **[!UICONTROL Start deliveries]** possono confermare l’invio. Per ulteriori informazioni, consulta la sezione [Elenco di ruoli](../../administration/using/list-of-roles.md).
+Solo gli utenti con **[!UICONTROL Start deliveries]** Il ruolo può confermare l’invio. Per ulteriori informazioni, consulta la sezione [Elenco di ruoli](../../administration/using/list-of-roles.md).
 
 <!--Users without this role will see the following message: 
 
@@ -30,11 +30,11 @@ Solo gli utenti con il ruolo **[!UICONTROL Start deliveries]** possono confermar
 
 Al termine della preparazione, segui i passaggi seguenti per inviare il messaggio.
 
-1. Fai clic sul pulsante **[!UICONTROL Confirm send]** che si trova nella barra delle azioni del messaggio.
+1. Fai clic sul pulsante **[!UICONTROL Confirm send]** nella barra delle azioni del messaggio.
 
    ![](assets/confirm_delivery.png)
 
-1. Per completare l’invio, fai clic sul pulsante **[!UICONTROL OK]** .
+1. Per completare l’invio, fai clic sul pulsante **[!UICONTROL OK]** pulsante .
 
    ![](assets/confirm_delivery1.png)
 
@@ -44,7 +44,7 @@ Al termine della preparazione, segui i passaggi seguenti per inviare il messaggi
 >
 >Se il messaggio è pianificato, viene inviato al raggiungimento dell’orario di invio. Per ulteriori informazioni sulla pianificazione dei messaggi, consulta [questa sezione](../../sending/using/about-scheduling-messages.md).
 
-Se utilizzi una consegna ricorrente senza periodo di aggregazione, puoi richiedere conferma prima di inviarla. Durante la configurazione del messaggio, apri il blocco **[!UICONTROL Schedule]** del dashboard di consegna e attiva l’opzione dedicata.
+Se utilizzi una consegna ricorrente senza periodo di aggregazione, puoi richiedere conferma prima di inviarla. Quando configuri il messaggio, apri la **[!UICONTROL Schedule]** blocca il dashboard di consegna e attiva l’opzione dedicata.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -65,7 +65,7 @@ Dopo l’invio del messaggio ai contatti, l’area **[!UICONTROL Deployment]** m
 
 ![](assets/sending_delivery.png)
 
-Se l’aggiornamento dei KPI richiede troppo tempo o non riflette i risultati dei log di invio, fai clic sul pulsante **[!UICONTROL Compute stats]** nella finestra **[!UICONTROL Deployment]** .
+Se l’aggiornamento dei KPI richiede troppo tempo o non riflette i risultati dei log di invio, fai clic su **[!UICONTROL Compute stats]** nel **[!UICONTROL Deployment]** finestra.
 
 ![](assets/sending_delivery7.png)
 
@@ -82,19 +82,19 @@ Una volta inviato un messaggio, puoi tenere traccia del comportamento dei destin
 >
 >Questa sezione si applica solo al canale e-mail.
 
-Nella visualizzazione **[!UICONTROL Summary]** di ogni e-mail, la percentuale **[!UICONTROL Delivered]** inizia al 100% e poi scende progressivamente per tutto il periodo di validità della consegna [](../../administration/using/configuring-email-channel.md#validity-period-parameters), in quanto i rimbalzi morbidi e rigidi vengono segnalati nuovamente<!--from the Enhanced MTA to Campaign-->.
+In **[!UICONTROL Summary]** visualizzazione di ogni e-mail, **[!UICONTROL Delivered]** percentuale inizia al 100% e poi scende progressivamente per tutta la consegna [periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters), come i rimbalzi morbidi e duri vengono segnalati indietro<!--from the Enhanced MTA to Campaign-->.
 
-Infatti, tutti i messaggi vengono visualizzati come **[!UICONTROL Sent]** nel [log di invio](../../sending/using/monitoring-a-delivery.md#sending-logs) non appena vengono correttamente inviati da Campaign all’MTA avanzato (Agente di trasferimento messaggi). Rimangono in tale stato a meno che o fino a quando un [rimbalzo](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) per quel messaggio non viene comunicato nuovamente dall’MTA avanzato a Campaign.
+Infatti, tutti i messaggi appaiono come **[!UICONTROL Sent]** in [registri di invio](../../sending/using/monitoring-a-delivery.md#sending-logs) non appena vengono correttamente inoltrati da Campaign all’MTA avanzato (Message Transfer Agent). Rimangono nello status a meno che [rimbalzo](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) il messaggio viene comunicato nuovamente dall’MTA avanzato a Campaign.
 
-Quando i messaggi di rimbalzo rigido vengono riportati dall’MTA avanzato, il loro stato cambia da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** e la percentuale **[!UICONTROL Delivered]** viene ridotta di conseguenza.
+Quando i messaggi di rimbalzo rigido vengono segnalati dall’MTA avanzato, il loro stato cambia da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** e **[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza.
 
-Quando i messaggi di rimbalzo soft vengono segnalati dall’MTA avanzato, vengono comunque visualizzati come **[!UICONTROL Sent]** e la percentuale **[!UICONTROL Delivered]** non è ancora aggiornata. I messaggi di rimbalzo temporaneo vengono quindi [ritentati](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) per tutto il periodo di validità della consegna:
+Quando i messaggi di rimbalzo soft vengono segnalati dall’MTA avanzato, vengono comunque visualizzati come **[!UICONTROL Sent]** e **[!UICONTROL Delivered]** percentuale non ancora aggiornata. I messaggi di rimbalzo morbido vengono quindi [nuovo](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) per tutto il periodo di validità della consegna:
 
-* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio rimane **[!UICONTROL Sent]** e la percentuale **[!UICONTROL Delivered]** rimane invariata.
+* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio rimane uguale a **[!UICONTROL Sent]** e **[!UICONTROL Delivered]** La percentuale rimane invariata.
 
-* In caso contrario, lo stato cambia in **[!UICONTROL Failed]** e la percentuale **[!UICONTROL Delivered]** viene ridotta di conseguenza.
+* In caso contrario, lo stato viene modificato in **[!UICONTROL Failed]** e **[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza.
 
-Pertanto, è necessario attendere fino alla fine del periodo di validità per visualizzare la percentuale finale **[!UICONTROL Delivered]** e il numero finale dei messaggi **[!UICONTROL Sent]** e **[!UICONTROL Failed]**.
+Pertanto, è necessario attendere fino alla fine del periodo di validità per visualizzare il **[!UICONTROL Delivered]** e il numero finale di **[!UICONTROL Sent]** e **[!UICONTROL Failed]** messaggi.
 
 ### Servizio di feedback e-mail (versione beta) {#email-feedback-service}
 
@@ -104,27 +104,27 @@ Grazie alla funzionalità EFS (Email Feedback Service), lo stato di ogni e-mail 
 >
 >Il servizio e-mail e-mail e’ attualmente disponibile come funzionalità beta.
 
-Una volta avviata la consegna, la percentuale **[!UICONTROL Delivered]** non subirà alcuna modifica quando il messaggio viene inoltrato correttamente da Campaign all’MTA avanzato.
+Una volta avviata la consegna, non vi è alcuna modifica nella **[!UICONTROL Delivered]** percentuale quando il messaggio viene inviato correttamente da Campaign all’MTA avanzato.
 
 ![](assets/efs-sending.png)
 
-I registri di consegna mostrano lo stato **[!UICONTROL Pending]** per ogni indirizzo di destinazione.
+I registri di consegna mostrano le **[!UICONTROL Pending]** stato per ogni indirizzo di destinazione.
 
 ![](assets/efs-pending.png)
 
-Quando la consegna dei messaggi ai profili di destinazione viene segnalata nuovamente in tempo reale dall’MTA avanzato, i registri di consegna mostrano lo stato **[!UICONTROL Sent]** per ogni indirizzo che ha ricevuto correttamente il messaggio. La percentuale **[!UICONTROL Delivered]** viene aumentata di conseguenza con ogni consegna riuscita.
+Quando la consegna del messaggio ai profili di destinazione viene segnalata nuovamente in tempo reale dall’MTA avanzato, i registri di consegna mostrano i **[!UICONTROL Sent]** stato per ogni indirizzo che ha ricevuto correttamente il messaggio. La **[!UICONTROL Delivered]** viene aumentata di conseguenza con ogni consegna riuscita.
 
-Quando i messaggi di rimbalzo rigido vengono riportati dall’MTA avanzato, lo stato del registro cambia da **[!UICONTROL Pending]** a **[!UICONTROL Failed]** e la percentuale **[!UICONTROL Bounces + errors]** viene aumentata di conseguenza.
+Quando i messaggi di rimbalzo rigido vengono segnalati dall’MTA avanzato, lo stato del registro cambia da **[!UICONTROL Pending]** a **[!UICONTROL Failed]** e **[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza.
 
-Quando i messaggi di rimbalzo soft vengono segnalati dall’MTA avanzato, lo stato del registro cambia anche da **[!UICONTROL Pending]** a **[!UICONTROL Failed]** e la percentuale **[!UICONTROL Bounces + errors]** viene aumentata di conseguenza. La percentuale **[!UICONTROL Delivered]** rimane invariata. I messaggi di rimbalzo morbido vengono quindi ritentati durante il periodo di validità della consegna [](../../administration/using/configuring-email-channel.md#validity-period-parameters):
+Quando i messaggi di rimbalzo non recapitati vengono segnalati dall’MTA avanzato, anche il loro stato di registro cambia da **[!UICONTROL Pending]** a **[!UICONTROL Failed]** e **[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza. La **[!UICONTROL Delivered]** La percentuale rimane invariata. I messaggi di rimbalzo temporaneo vengono quindi ritentati durante l’intera consegna [periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters):
 
-* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio cambia in **[!UICONTROL Sent]** e la percentuale **[!UICONTROL Delivered]** viene aumentata di conseguenza.
+* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio cambia in **[!UICONTROL Sent]** e **[!UICONTROL Delivered]** la percentuale viene aumentata di conseguenza.
 
-* In caso contrario, lo stato rimane **[!UICONTROL Failed]**. Le percentuali **[!UICONTROL Delivered]** e **[!UICONTROL Bounces + errors]** rimangono invariate.
+* In caso contrario, lo stato rimane uguale a **[!UICONTROL Failed]**. La **[!UICONTROL Delivered]** e **[!UICONTROL Bounces + errors]** Le percentuali rimangono invariate.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui rimbalzi rigidi e morbidi, consulta [questa sezione](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Per ulteriori informazioni sui rimbalzi rigidi e morbidi, vedi [questa sezione](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
 >Per ulteriori informazioni sui nuovi tentativi dopo un errore temporaneo di consegna, consulta [questa sezione](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
@@ -139,10 +139,10 @@ Le tabelle riportate di seguito mostrano le modifiche apportate ai KPI e agli st
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
 | Il messaggio viene inviato correttamente da Campaign all’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** percentuale inizia a 0%</li><li>**[!UICONTROL Bounces + errors]** percentuale inizia a 0%</li></ul> | In sospeso |
-| I messaggi di rimbalzo rigido vengono segnalati nuovamente dall’MTA avanzato | <ul><li>Nessuna modifica nella percentuale **[!UICONTROL Delivered]**</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
-| I messaggi di rimbalzo morbido vengono segnalati nuovamente dall’MTA avanzato | <ul><li>Nessuna modifica nella percentuale **[!UICONTROL Delivered]**</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
+| I messaggi di rimbalzo rigido vengono segnalati nuovamente dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
+| I messaggi di rimbalzo morbido vengono segnalati nuovamente dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
 | I nuovi tentativi dei messaggi di rimbalzo non sono riusciti | <ul><li>**[!UICONTROL Delivered]** la percentuale viene aumentata di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale diminuisce di conseguenza</li></ul> | Inviato |
-| Messaggi di rimbalzo morbido non riusciti | <ul><li> Nessuna modifica nella percentuale **[!UICONTROL Delivered]** </li><li> Nessuna modifica nella percentuale **[!UICONTROL Bounces + errors]** </li></ul> | Non riuscito |
+| Messaggi di rimbalzo morbido non riusciti | <ul><li> Nessuna modifica in **[!UICONTROL Delivered]** percentuale </li><li> Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale </li></ul> | Non riuscito |
 
 **Servizio senza feedback e-mail**
 
@@ -150,6 +150,6 @@ Le tabelle riportate di seguito mostrano le modifiche apportate ai KPI e agli st
 |--- |--- |--- |
 | Il messaggio viene inviato correttamente da Campaign all’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** percentuale inizia al 100%</li><li>**[!UICONTROL Bounces + errors]** percentuale inizia a 0%</li></ul> | Inviato |
 | I messaggi di rimbalzo rigido vengono segnalati nuovamente dall’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** la percentuale diminuisce di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
-| I messaggi di rimbalzo morbido vengono segnalati nuovamente dall’MTA avanzato | <ul><li>Nessuna modifica nella percentuale **[!UICONTROL Delivered]**</li><li>Nessuna modifica nella percentuale **[!UICONTROL Bounces + errors]**</li></ul> | Inviato |
-| I nuovi tentativi dei messaggi di rimbalzo non sono riusciti | <ul><li>Nessuna modifica nella percentuale **[!UICONTROL Delivered]**</li><li>Nessuna modifica nella percentuale **[!UICONTROL Bounces + errors]**</li></ul> | Inviato |
+| I messaggi di rimbalzo morbido vengono segnalati nuovamente dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale</li></ul> | Inviato |
+| I nuovi tentativi dei messaggi di rimbalzo non sono riusciti | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale</li></ul> | Inviato |
 | Messaggi di rimbalzo morbido non riusciti | <ul><li>**[!UICONTROL Delivered]** la percentuale diminuisce di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |

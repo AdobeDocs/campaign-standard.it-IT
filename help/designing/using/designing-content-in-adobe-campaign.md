@@ -19,8 +19,7 @@ ht-degree: 88%
 
 Dopo aver creato un’e-mail in Adobe Campaign, è necessario definirne il contenuto.
 
-E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite trascinamento
-interfaccia. Partendo da una lavagna vuota o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail, che sia promozionale o transazionale.
+E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia a trascinamento. Partendo da una lavagna vuota o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail, che sia promozionale o transazionale.
 
 Progettato per fornire HTML ottimizzati per la progettazione reattiva, E-mail designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un’e-mail, a un modello o a un frammento direttamente tramite l’interfaccia utente. Puoi passare direttamente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
 

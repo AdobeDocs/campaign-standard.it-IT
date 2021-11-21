@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Profili attivi{#active-profiles}
 
-Gli amministratori funzionali di Campaign possono accedere al rapporto **[!UICONTROL Customer metrics]** da **[!UICONTROL Administration > Customer metrics]**.
+Gli amministratori funzionali di Campaign possono accedere al **[!UICONTROL Customer metrics]** rapporto da **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-Questo rapporto viene generato ogni mese dal flusso di lavoro tecnico **[!UICONTROL Billing]** e visualizza il numero di **profili attivi**.
+Questo rapporto viene generato ogni mese dal **[!UICONTROL Billing]** flusso di lavoro tecnico e visualizza il numero di **profili attivi**.
 
-Un &quot;profilo&quot; è un record di informazioni che rappresenta un cliente finale, potenziale cliente o lead. I profili sono considerati **attivi** se sono stati targetizzati da una consegna Campaign negli ultimi 12 mesi tramite qualsiasi canale.
+Un &quot;profilo&quot; è un record di informazioni che rappresenta un cliente finale, potenziale cliente o lead. I profili sono considerati **attivo** se sono stati targetizzati da una consegna Campaign negli ultimi 12 mesi tramite qualsiasi canale.
 
 In base al contratto, a ciascuna istanza di Campaign viene fornito un numero specifico di profili attivi. Fai riferimento al tuo contratto di licenza per riferimento al numero di profili attivi acquistati.
 
@@ -36,8 +36,8 @@ In base al contratto, a ciascuna istanza di Campaign viene fornito un numero spe
 
 * Questo rapporto è solo informativo, non ha un impatto diretto sulla fatturazione.
 
-Nella parte inferiore della pagina, le dimensioni di targeting sono elencate con il numero di profili per ciascuna. I destinatari dei messaggi transazionali sono associati alla dimensione **Anonymous** .
+Nella parte inferiore della pagina, le dimensioni di targeting sono elencate con il numero di profili per ciascuna. I destinatari dei messaggi transazionali sono associati al **Anonimo** dimensione.
 
 >[!NOTE]
 >
->In qualità di utente amministratore, puoi anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>In qualità di utente amministratore, puoi anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la sezione [Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).

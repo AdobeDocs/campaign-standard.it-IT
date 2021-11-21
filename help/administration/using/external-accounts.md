@@ -82,7 +82,7 @@ Per evitare tali problemi, Adobe consiglia di seguire le best practice riportate
 * Di tanto in tanto, effettua l’accesso a SFTP per verificare direttamente ciò che vi si trova.
 * Ricorda che la gestione del disco SFTP è principalmente una tua responsabilità.
 
-Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti all’inserire nell&#39;elenco Consentiti nell’istanza Campaign. L&#39;aggiunta di indirizzi IP all&#39;inserire nell&#39;elenco Consentiti può essere richiesta tramite un [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), fornendo al tempo stesso la chiave pubblica da utilizzare per l&#39;autenticazione.
+Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti all’inserire nell&#39;elenco Consentiti nell’istanza Campaign. L’aggiunta di indirizzi IP all’inserire nell&#39;elenco Consentiti può essere richiesta tramite un [biglietto di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), oltre a fornire la chiave pubblica da utilizzare per l’autenticazione.
 
 I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -94,12 +94,12 @@ I server SFTP possono essere gestiti dal Pannello di controllo Campaign. Per ult
 
 Per un account esterno OAuth 2.0, fornisci i seguenti dettagli:
 
-* A **Tipo di sovvenzione**: sono supportate solo le **credenziali client**.
+* A **Tipo di sovvenzione**: only **credenziali client** è supportato.
 * A **URL API sicuro**: immettere l&#39;endpoint di autorizzazione.
-* **Credenziali** sensibili OAuth 2.0: Questa sezione è destinata alle credenziali sensibili in natura. I valori delle credenziali verranno mascherati sullo schermo dopo l’aggiunta; a quel punto, non saranno né leggibili né modificabili. Se l’endpoint di autorizzazione richiede l’inserimento di una particolare credenziale nell’intestazione dell’autorizzazione HTTP anziché nel parametro body di POST, puoi selezionare l’opzione Includi nell’intestazione della credenziale.
-* **Credenziali** non sensibili OAuth 2.0: Questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo l’aggiunta; saranno modificabili.  Se l’endpoint di autorizzazione richiede l’inserimento di una particolare credenziale nell’intestazione dell’autorizzazione HTTP anziché nel parametro body di POST, puoi selezionare l’opzione Includi nell’intestazione della credenziale.
+* **Credenziali sensibili OAuth 2.0**: Questa sezione è destinata alle credenziali sensibili in natura. I valori delle credenziali verranno mascherati sullo schermo dopo l’aggiunta; a quel punto, non saranno né leggibili né modificabili. Se l’endpoint di autorizzazione richiede l’inserimento di una particolare credenziale nell’intestazione dell’autorizzazione HTTP anziché nel parametro body di POST, puoi selezionare l’opzione Includi nell’intestazione della credenziale.
+* **Credenziali non sensibili OAuth 2.0**: Questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo l’aggiunta; saranno modificabili.  Se l’endpoint di autorizzazione richiede l’inserimento di una particolare credenziale nell’intestazione dell’autorizzazione HTTP anziché nel parametro body di POST, puoi selezionare l’opzione Includi nell’intestazione della credenziale.
 
-Dopo aver inserito le informazioni sull&#39;account, fai clic su **Verifica connessione** per verificare che l&#39;account esterno sia stato configurato correttamente.
+Dopo aver inserito le informazioni sull&#39;account, fai clic su **Prova connessione** per verificare che l’account esterno sia stato configurato correttamente.
 
 ![](assets/external_accounts_OAuth.png)
 
@@ -159,7 +159,7 @@ Quando configuri questo nuovo account esterno, devi fornire i seguenti dettagli:
 
 Il meccanismo Google reCAPTCHA ti consente di proteggere la pagina di destinazione dallo spam e dagli abusi causati dai bot. Ciò non è intrusivo per i clienti in quanto non richiede alcuna interazione da parte loro e si basa sulle interazioni con il sito. Per registrare il sito, consulta questa [pagina](https://www.google.com/recaptcha/admin/create). È necessario scegliere il tipo di reCAPTCHA V3.
 
-Per aggiungere il Google reCAPTCHA V3 alla pagina di destinazione, configuralo nel tuo account esterno. Per ulteriori informazioni su come aggiungerlo alla pagina di destinazione, consulta questa [sezione](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Per aggiungere Google reCAPTCHA V3 alla pagina di destinazione, configurala nel tuo account esterno. Per ulteriori informazioni su come aggiungerlo alla pagina di destinazione, consulta questa [sezione](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Per un account esterno Google reCAPTCHA V3, fornisci i seguenti dettagli:
 

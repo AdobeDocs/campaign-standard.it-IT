@@ -105,7 +105,7 @@ La configurazione dell’attività prevede due passaggi. Innanzitutto, devi defi
 
 1. Se il file da cui vuoi caricare i dati è compresso in un file GZIP (.gz), seleziona l’opzione **[!UICONTROL Decompression]** nel campo **[!UICONTROL Add a pre-processing stage]**. In tal modo, potrai decomprimere il file prima di caricare i dati. Questa opzione è disponibile solo se il file proviene dalla transizione in entrata dell’attività.
 
-   Il campo **[!UICONTROL Add a pre-processing stage]** consente inoltre di decrittografare un file prima di importarlo nel database. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
+   La **[!UICONTROL Add a pre-processing stage]** consente inoltre di decrittografare un file prima di importarlo nel database. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
 
 1. L’opzione **[!UICONTROL Keep the rejects in a file]** ti consente di scaricare un file contenente errori verificatisi durante l’importazione e di applicarvi una fase di post-elaborazione. Quando l’opzione è attivata, la transizione in uscita viene rinominata come &quot;Rifiuti&quot;.
 

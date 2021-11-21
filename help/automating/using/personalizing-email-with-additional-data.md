@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # Personalizzazione di un’e-mail con dati aggiuntivi {#example--personalizing-an-email-with-additional-data}
 
-L’esempio seguente illustra l’aggiunta di diversi tipi di dati aggiuntivi a una query e il relativo utilizzo come campo di personalizzazione in un messaggio e-mail. Per ulteriori informazioni su come arricchire i dati target di un&#39;attività **[!UICONTROL Query]**, consulta [questa sezione](../../automating/using/query.md#enriching-data).
+L’esempio seguente illustra l’aggiunta di diversi tipi di dati aggiuntivi a una query e il relativo utilizzo come campo di personalizzazione in un messaggio e-mail. Per ulteriori informazioni su come arricchire i dati di destinazione da un **[!UICONTROL Query]** attività, fai riferimento a [questa sezione](../../automating/using/query.md#enriching-data).
 
 In questo esempio vengono utilizzate [risorse personalizzate](../../developing/using/data-model-concepts.md):
 
@@ -32,7 +32,7 @@ Il flusso di lavoro viene presentato come segue:
 
 ![](assets/enrichment_example1.png)
 
-1. Aggiungi un’attività [Query](../../automating/using/query.md) che ti consente di eseguire il targeting dei profili che hanno effettuato almeno una transazione.
+1. Aggiungi un [Query](../../automating/using/query.md) attività , che ti consente di eseguire il targeting dei profili che hanno effettuato almeno una transazione.
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/enrichment_example5.png)
 
-1. Aggiungi un’attività [Email delivery](../../automating/using/email-delivery.md) . Nel contenuto dell’e-mail, inserisci i campi di personalizzazione corrispondenti ai dati calcolati nella query. Puoi trovarli tramite il collegamento **[!UICONTROL Additional data (targetData)]** dell’explorer dei campi di personalizzazione.
+1. Aggiungi un [Email delivery](../../automating/using/email-delivery.md) attività. Nel contenuto dell’e-mail, inserisci i campi di personalizzazione corrispondenti ai dati calcolati nella query. Puoi trovarli tramite il collegamento **[!UICONTROL Additional data (targetData)]** dell’explorer dei campi di personalizzazione.
 
    ![](assets/enrichment_example3.png)
 

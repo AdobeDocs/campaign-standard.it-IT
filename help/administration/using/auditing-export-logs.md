@@ -19,7 +19,7 @@ ht-degree: 5%
 
 Da **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, gli amministratori possono visualizzare un elenco di tutte le seguenti esportazioni, inclusa la data e l’utente che ha eseguito l’esportazione:
 
-* Caricamento di file da un’attività **[!UICONTROL Transfer file]** in un flusso di lavoro.
+* Caricamento di file da un **[!UICONTROL Transfer file]** in un flusso di lavoro.
 * Esportazione di elenchi da un elenco o da un sottoelenco.
 * File scaricato dal dashboard di consegna di un messaggio di direct mailing.
 
@@ -29,4 +29,4 @@ Da **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UIC
 
 Dal riquadro a sinistra, puoi filtrare le esportazioni che desideri visualizzare in base alle tue esigenze.
 
-È possibile esportare l’elenco come file separato, come descritto nella sezione [Esportazione di elenchi](../../automating/using/exporting-lists.md) .
+È possibile esportare l’elenco come file separato, come descritto in [Esportazione di elenchi](../../automating/using/exporting-lists.md) sezione .

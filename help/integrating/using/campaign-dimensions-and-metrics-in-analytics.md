@@ -19,7 +19,7 @@ ht-degree: 3%
 
 L’integrazione di Adobe Campaign e Adobe Analytics consente di tenere traccia del successo delle consegne e-mail direttamente in Adobe Analytics.
 
-La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di seguito:
+Campaign **[!UICONTROL dimensions]** in Analytics sono elencati di seguito:
 
 <table> 
  <thead> 
@@ -31,11 +31,11 @@ La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di segu
  <tbody> 
   <tr> 
    <td> ID campagna<br /> </td> 
-   <td> Nome interno della campagna come mostrato in Campaign<br /> </td> 
+   <td> Nome interno di Campaign visualizzato in Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> Etichetta della campagna<br /> </td> 
-   <td> Etichetta della campagna come visualizzata in Campaign<br /> </td> 
+   <td> Etichetta di Campaign come visualizzata in Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> ID consegna<br /> </td> 
@@ -43,7 +43,7 @@ La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di segu
   </tr> 
   <tr> 
    <td> Etichetta della consegna<br /> </td> 
-   <td> Etichetta della consegna come visto in Campaign<br /> </td> 
+   <td> Etichetta della consegna come visualizzata in Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> ID consegna eseguita<br /> </td> 
@@ -56,7 +56,7 @@ La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di segu
  </tbody> 
 </table>
 
-La campagna **[!UICONTROL metrics]** trovata in Analytics è elencata di seguito:
+Campaign **[!UICONTROL metrics]** in Analytics sono elencati di seguito:
 
 <table> 
  <thead> 
@@ -71,11 +71,11 @@ La campagna **[!UICONTROL metrics]** trovata in Analytics è elencata di seguito
    <td> Numero di volte in cui è stato fatto clic su un contenuto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Apertura<br /> </td> 
+   <td> Aperto<br /> </td> 
    <td> Numero di volte in cui un messaggio è stato aperto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
@@ -83,8 +83,8 @@ La campagna **[!UICONTROL metrics]** trovata in Analytics è elencata di seguito
    <td> Numero totale di invii per la consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Totale rimbalzi<br /> </td> 
-   <td> Totale degli errori cumulati durante la consegna e l'elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br /> </td> 
+   <td> Rimbalzi totali<br /> </td> 
+   <td> Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Apertura univoca<br /> </td> 
@@ -96,7 +96,7 @@ La campagna **[!UICONTROL metrics]** trovata in Analytics è elencata di seguito
   </tr> 
   <tr> 
    <td> Annulla sottoscrizione<br /> </td> 
-   <td> Numero di clic sul collegamento di annullamento dell'abbonamento.<br /> </td> 
+   <td> Numero di clic sul collegamento di annullamento dell’abbonamento.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

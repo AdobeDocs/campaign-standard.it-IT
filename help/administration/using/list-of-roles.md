@@ -30,10 +30,10 @@ I diritti predefiniti sono:
 
    >[!NOTE]
    >
-   >Se utilizzi Experience Cloud Triggers, devi disporre del diritto **[!UICONTROL Administration]** per poter accedere al menu Triggers di Experience Cloud. Per ulteriori informazioni sugli attivatori di Experience Cloud, consulta questa [pagina](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Se lavori con Experience Cloud Triggers, devi **[!UICONTROL Administration]** diritto di accedere al menu Trigger di Experience Cloud. Per ulteriori informazioni sugli attivatori di Experience Cloud, consulta questo articolo [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: diritto di eseguire pubblicazioni e creare risorse personalizzate.
-* **[!UICONTROL Generic import]**: diritto di eseguire un’importazione generica sui dati. Affinché ciò funzioni, devi collegare il ruolo **[!UICONTROL Generic import]** al ruolo **[!UICONTROL Workflow]** .
+* **[!UICONTROL Generic import]**: diritto di eseguire un’importazione generica sui dati. Affinché questo funzioni, devi collegare la **[!UICONTROL Generic import]** il ruolo **[!UICONTROL Workflow]** ruolo.
 * **[!UICONTROL Prepare deliveries]**: diritto di creare, modificare, preparare ed eliminare consegne. Gli utenti con questo ruolo possono preparare la consegna ma non inviarla.
 * **[!UICONTROL Start deliveries]**: diritto di creare, modificare, preparare, inviare ed eliminare consegne.
 * **[!UICONTROL Workflow]**: diritto di gestire l’esecuzione dei flussi di lavoro (avvio, arresto, pausa, ecc.). Gli utenti con questo ruolo non possono inviare una consegna nemmeno in un flusso di lavoro.

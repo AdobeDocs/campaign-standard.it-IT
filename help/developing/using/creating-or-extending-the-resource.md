@@ -33,10 +33,10 @@ Gli amministratori possono creare una nuova risorsa da zero o creare un’estens
 
 Per creare o estendere una risorsa:
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]** fare clic sul pulsante **[!UICONTROL Create]**.
+1. Da **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, fai clic su **[!UICONTROL Create]** pulsante .
 1. Scegli l’azione da eseguire:
 
-   * **[!UICONTROL Create a new resource]**: Immetti i  **[!UICONTROL Label]** campi  **[!UICONTROL ID]** e . Il campo **[!UICONTROL ID]** è obbligatorio. Se lasci vuoto il campo Etichetta , verrà compilato automaticamente dall’ID.
+   * **[!UICONTROL Create a new resource]**: Inserisci il **[!UICONTROL Label]** e **[!UICONTROL ID]** campi. Il campo **[!UICONTROL ID]** è obbligatorio. Se lasci vuoto il campo Etichetta , verrà compilato automaticamente dall’ID.
 
       ![](assets/schema_extension_2.png)
 
@@ -48,6 +48,6 @@ Per creare o estendere una risorsa:
 
       ![](assets/schema_extension_10.png)
 
-1. Fai clic su **[!UICONTROL Create]** per creare la risorsa, che assume lo stato **[!UICONTROL Draft]** in caso di nuova risorsa o lo stato **[!UICONTROL Editing]** in caso di estensione.
+1. Fai clic su **[!UICONTROL Create]** per creare la risorsa, che assume quindi il **[!UICONTROL Draft]** in caso di nuova risorsa o **[!UICONTROL Editing]** in caso di estensione.
 
 La nuova risorsa viene creata e può essere configurata. Per ulteriori informazioni sulla configurazione delle risorse, consulta [Configurazione della struttura dati della risorsa](../../developing/using/configuring-the-resource-s-data-structure.md).

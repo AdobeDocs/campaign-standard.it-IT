@@ -30,8 +30,8 @@ Per questa procedura sono necessari i seguenti elementi:
 1. Dal menu avanzato, tramite il logo Adobe Campaign nell’angolo in alto a sinistra, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 1. Per configurare le opzioni server e tenant per Adobe Target, compila i campi seguenti di conseguenza:
 
-   * **[!UICONTROL TNT_TenantName]**: nome del tenant Adobe Target. Questo valore corrisponde al nome dell&#39;Adobe Target **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**: Server Adobe Target utilizzato per l’integrazione. Questa opzione è già fornita per impostazione predefinita. Questo valore corrisponde all&#39;Adobe Target **[!UICONTROL Server Domain]**, seguito dal valore **/m2**. Ad esempio: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]**: nome del tenant Adobe Target. Questo valore corrisponde al nome dell’Adobe Target **[!UICONTROL Client]**.
+   * **[!UICONTROL TNT_EdgeServer]**: Server Adobe Target utilizzato per l’integrazione. Questa opzione è già fornita per impostazione predefinita. Questo valore corrisponde ad Adobe Target **[!UICONTROL Server Domain]**, seguita dalla **/m2** valore. Ad esempio: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 

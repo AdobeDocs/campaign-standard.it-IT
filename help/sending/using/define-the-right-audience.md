@@ -30,7 +30,7 @@ Per garantire il successo della consegna, devi inviare i contenuti personalizzat
 
 ## Mappature di Target {#target-mappings}
 
-Per impostazione predefinita, i modelli di consegna sono destinati a **Profili**. Adobe Campaign offre altre mappature di destinazione per le consegne, che puoi modificare in base alle tue esigenze.
+Per impostazione predefinita, target dei modelli di consegna **Profili**. Adobe Campaign offre altre mappature di destinazione per le consegne, che puoi modificare in base alle tue esigenze.
 
 Queste mappature sono presentate [in questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -44,16 +44,16 @@ Puoi inviare messaggi ai destinatari memorizzati in un file esterno anziché in 
 
 Per inviare messaggi agli abbonati di una newsletter, potete eseguire il targeting diretto degli abbonati al servizio di informazioni corrispondente. Ulteriori informazioni [in questa sezione](../../audiences/using/about-subscriptions.md).
 
-**Suggerimento** : puoi creare un pubblico di tipo List da indirizzare agli abbonati alla newsletter tramite un flusso di lavoro. Puoi quindi selezionare questo pubblico in una consegna. Per ulteriori informazioni, consulta [Creazione di tipi di pubblico di elenco](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Suggerimento** - È possibile creare un pubblico di tipo Elenco , indirizzato agli abbonati alla newsletter tramite un flusso di lavoro. Puoi quindi selezionare questo pubblico in una consegna. Per ulteriori informazioni, consulta [Creazione di tipi di pubblico di tipo list](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Prove, profili di test e gruppi di controllo {#proofs-test-control-groups}
 
 Per verificare la consegna, utilizza le bozze prima di inviare al target principale.
-Assicurati di selezionare i destinatari della bozza appropriati, in quanto convalidano il modulo e il contenuto del messaggio. I passaggi per l’invio delle bozze sono descritti [in questa sezione](../../sending/using/sending-proofs.md).
+Assicurati di selezionare i destinatari della bozza appropriati, in quanto convalidano il modulo e il contenuto del messaggio. Vengono descritti i passaggi per l’invio delle bozze [in questa sezione](../../sending/using/sending-proofs.md).
 
 Ulteriori informazioni sui profili di test [in questa sezione](../../audiences/using/managing-test-profiles.md).
 
-È possibile utilizzare [Gruppi di controllo](../../sending/using/control-group.md) per misurare l&#39;impatto delle campagne escludendo parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
+È possibile utilizzare [Gruppi di controllo](../../sending/using/control-group.md) per misurare l’impatto delle campagne escludendo parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
 
 ## Indirizzi duplicati {#deduplicate-addresses}
 

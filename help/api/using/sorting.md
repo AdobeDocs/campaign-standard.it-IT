@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Ordinamento
 
-L’ordinamento è disponibile in ordine crescente o decrescente. A questo scopo, utilizza il parametro **%20desc** o **%20asc** nella richiesta.
+L’ordinamento è disponibile in ordine crescente o decrescente. Per eseguire questa operazione, utilizza la variabile **%20desc** o **%20asc** alla richiesta.
 
 Per sapere se un campo può essere ordinato, controlla il parametro &quot;ordinabile&quot; nei metadati della risorsa. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/metadata-mechanism.md).
 

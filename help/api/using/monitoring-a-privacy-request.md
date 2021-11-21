@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # Monitoraggio di una richiesta di accesso a dati personali {#monitoring-a-privacy-request}
 
-Puoi monitorare le informazioni su una richiesta di accesso a dati personali creata utilizzando una richiesta **GET**.
+Puoi monitorare le informazioni su una richiesta di accesso a dati personali creata utilizzando un **GET** richiesta.
 
-La descrizione dell&#39;elenco di stato è disponibile nella [documentazione sulla gestione della privacy](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+La descrizione dell’elenco di stato è disponibile nella sezione [Documentazione sulla gestione della privacy](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 

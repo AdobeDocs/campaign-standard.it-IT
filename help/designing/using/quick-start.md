@@ -19,16 +19,16 @@ ht-degree: 5%
 
 E-mail Designer offre quattro modi per creare e-mail.
 
-È possibile creare un messaggio e-mail [nuovo in E-mail Designer](#without-existing-content):
+Puoi creare un messaggio e-mail [nuovo avvio in E-mail Designer](#without-existing-content):
 
-1. È possibile **creare un&#39;e-mail da un&#39;area di lavoro vuota** aggiungendo facilmente componenti struttura e contenuto e personalizzandone il contenuto per inviare rapidamente una consegna. È inoltre possibile gestire completamente gli elementi di stile. Per ulteriori informazioni, [inizia rapidamente](#from-scratch-email) oppure consulta la [documentazione completa](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. È possibile **creare un messaggio e-mail da un’area di lavoro vuota** aggiungendo facilmente componenti di struttura e di contenuto e personalizzandone i contenuti per inviare rapidamente una consegna. È inoltre possibile gestire completamente gli elementi di stile. Per ulteriori informazioni, consulta [iniziare rapidamente](#from-scratch-email) o vedere [documentazione completa](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Puoi **creare un&#39;e-mail da un modello preconfigurato** selezionando un modello e creando il nuovo contenuto dell&#39;e-mail da qui. [Ulteriori informazioni](#building-content-from-an-out-of-the-box-template)
+1. È possibile **creare un messaggio e-mail da un modello preconfigurato** selezionando un modello e creando il nuovo contenuto dell’e-mail da qui. [Ulteriori informazioni](#building-content-from-an-out-of-the-box-template)
 
-Puoi anche creare un&#39;e-mail [con contenuto esistente](#with-existing-content):
+Puoi anche creare un messaggio e-mail [con contenuto esistente](#with-existing-content):
 
-1. Puoi **convertire un contenuto HTML esistente** (creato esternamente o nell’editor legacy). [Ulteriori informazioni](#converting-an-html-content)
-1. È possibile **importare immediatamente un contenuto HTML esistente** in modalità di compatibilità. [Ulteriori informazioni](#compatibility-mode)
+1. È possibile **convertire un contenuto HTML esistente** (creato esternamente o nell’editor legacy). [Ulteriori informazioni](#converting-an-html-content)
+1. È possibile **importare un contenuto HTML esistente** in modalità compatibilità. [Ulteriori informazioni](#compatibility-mode)
 
 | Senza contenuto | Con contenuto |
 |---|---|
@@ -39,11 +39,11 @@ Puoi anche creare un&#39;e-mail [con contenuto esistente](#with-existing-content
 
 >[!NOTE]
 >
->In entrambe le strategie di creazione, è fondamentale inserire l’oggetto prima di inviare l’e-mail. Scopri come [Aggiungere una riga oggetto](#add-a-subject-line).
+>In entrambe le strategie di creazione, è fondamentale inserire l’oggetto prima di inviare l’e-mail. Scopri come [Aggiungi una riga oggetto](#add-a-subject-line).
 
 ### Creazione di un messaggio e-mail da zero {#from-scratch-email}
 
-Puoi creare facilmente un’e-mail, aggiungere componenti e personalizzarne il contenuto per inviare rapidamente una consegna. Se necessario, è possibile adattare le opzioni di stile al contenuto. Per ulteriori informazioni sulla gestione delle impostazioni di stile e degli attributi in linea, consulta [Modifica degli stili delle e-mail](../../designing/using/styles.md).
+Puoi creare facilmente un’e-mail, aggiungere componenti e personalizzarne il contenuto per inviare rapidamente una consegna. Se necessario, è possibile adattare le opzioni di stile al contenuto. Per ulteriori informazioni sulla gestione delle impostazioni di stile e degli attributi in linea, consulta [Modifica degli stili e-mail](../../designing/using/styles.md).
 
 1. Creare un messaggio e-mail.
 1. Chiudi la homepage.
@@ -52,7 +52,7 @@ Puoi creare facilmente un’e-mail, aggiungere componenti e personalizzarne il c
 
 Le righe dell’oggetto sono obbligatorie quando si invia un’e-mail. Per ulteriori informazioni, consulta [Definizione dell’oggetto di un messaggio e-mail](../../designing/using/subject-line.md).
 
-1. Vai alla scheda **[!UICONTROL Properties]** della home page di E-mail Designer (accessibile tramite l’icona Home) e compila la sezione **[!UICONTROL Subject]** .
+1. Vai al **[!UICONTROL Properties]** scheda della home page di E-mail Designer (accessibile tramite l’icona Home) e compila **[!UICONTROL Subject]** sezione .
 
 ![](assets/subject-line-quick-start.png)
 
@@ -75,7 +75,7 @@ Puoi aggiungere diversi componenti di contenuto all’e-mail, ad esempio immagin
 * **Immagine**
 
    1. In **Componenti contenuto**, trascina e rilascia l’immagine in uno dei componenti struttura.
-   1. Fare clic su **Sfoglia**.
+   1. Fai clic su **Sfoglia**.
    1. Selezionare il file di immagine dal computer.
 
    ![](assets/browse-image-quick-start.png)
@@ -92,24 +92,24 @@ Puoi aggiungere diversi componenti di contenuto all’e-mail, ad esempio immagin
 * **HTML**
 
    1. In **Componenti contenuto**, trascina e rilascia HTML in uno dei componenti struttura.
-   1. Fare clic su **Mostra il codice sorgente**.
+   1. Fai clic su **Mostra il codice sorgente**.
    1. Immetti il contenuto HTML.
    1. Fai clic su **Salva**.
 
    ![](assets/html-component-source-code.png)
 
-   Se hai familiarità con l’HTML, puoi copiare e incollare il codice HTML dal piè di pagina originale utilizzando il componente di contenuto **[!UICONTROL Html]** . Per ulteriori informazioni, consulta [Informazioni sui componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
+   Se si ha familiarità con HTML, è possibile copiare e incollare il codice HTML dal piè di pagina originale utilizzando la **[!UICONTROL Html]** componente di contenuto. Per ulteriori informazioni, consulta [Informazioni sui componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
 
    ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Stile del componente e-mail
 
-Puoi regolare lo stile delle e-mail, ad esempio modificando la spaziatura di un componente. Per ulteriori informazioni sulla gestione delle impostazioni di stile e degli attributi in linea, consulta [Modifica degli stili delle e-mail](../../designing/using/styles.md).
+Puoi regolare lo stile delle e-mail, ad esempio modificando la spaziatura di un componente. Per ulteriori informazioni sulla gestione delle impostazioni di stile e degli attributi in linea, consulta [Modifica degli stili e-mail](../../designing/using/styles.md).
 
 1. Fai clic sul tuo **Componente testo**.
 1. Sulla destra, nella palette, vai a **Spaziatura**.
 1. Fai clic sull’icona Blocca per interrompere la sincronizzazione tra i parametri superiore e inferiore o tra i parametri destro e sinistro.
-1. Regolare **Spaziatura** in base alle esigenze.
+1. Regola **Spaziatura** come ti serve.
 1. Fai clic su **Salva**.
 
 ![](assets/padding-quick-start.png)
@@ -121,12 +121,12 @@ Ora puoi salvare e inviare il tuo messaggio e-mail.
 Puoi creare un’e-mail dai modelli predefiniti, ad esempio messaggi di benvenuto per i clienti, newsletter ed e-mail di nuovo coinvolgimento, e personalizzarli.
 
 1. Crea un’e-mail e apri il relativo contenuto. Per ulteriori informazioni, consulta [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md).
-1. Fai clic sull’icona Home per accedere alla home page di **[!UICONTROL Email Designer]** .
-1. Fai clic sulla scheda **[!UICONTROL Templates]** .
-1. Scegli un modello HTML preconfigurato.
+1. Fai clic sull’icona Home per accedere al **[!UICONTROL Email Designer]** home page.
+1. Fai clic sul pulsante **[!UICONTROL Templates]** scheda .
+1. Scegli un modello HTML predefinito.
 I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli &quot;Piuma&quot; hanno margini, mentre i modelli &quot;Astro&quot; non ne hanno uno. Per ulteriori informazioni, consulta [Modelli di contenuto](../../designing/using/using-reusable-content.md#content-templates).
-1. Vai alla scheda **[!UICONTROL Properties]** della home page di E-mail Designer (accessibile tramite l’icona Home) e compila la sezione **[!UICONTROL Subject]** .
-1. Puoi combinare questi elementi per creare una serie di varianti di e-mail. Ad esempio, puoi duplicare una sezione e-mail selezionando un componente struttura e facendo clic su **[!UICONTROL Duplicate]** nella barra degli strumenti contestuale.
+1. Vai al **[!UICONTROL Properties]** scheda della home page di E-mail Designer (accessibile tramite l’icona Home) e compila **[!UICONTROL Subject]** sezione .
+1. Puoi combinare questi elementi per creare una serie di varianti di e-mail. Ad esempio, puoi duplicare una sezione e-mail selezionando un componente struttura e facendo clic su **[!UICONTROL Duplicate]** dalla barra degli strumenti contestuale.
 1. Puoi spostare gli elementi intorno utilizzando la freccia blu a sinistra per trascinare un componente struttura sotto o sopra un altro. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Puoi anche spostare i componenti per modificare l’organizzazione di ciascun elemento struttura. Per ulteriori informazioni, consulta [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modifica il contenuto di ogni elemento in base alle tue esigenze: immagini, testo, collegamenti.
@@ -134,11 +134,11 @@ I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad 
 
 ## Utilizzo di un contenuto e-mail esistente {#with-existing-content}
 
-Se desideri creare un framework di modelli e frammenti modulari che possano essere combinati per riutilizzare in più e-mail, considera la possibilità di convertire il codice HTML dell’e-mail in un modello di E-mail Designer.
+Se desideri creare un framework di modelli e frammenti modulari che possano essere combinati per riutilizzare in più e-mail, considera la possibilità di convertire il tuo HTML e-mail in un modello di E-mail Designer.
 
 ### Conversione del contenuto HTML {#converting-an-html-content}
 
-Questo caso d’uso offre un modo rapido per convertire le e-mail HTML in componenti di E-mail Designer. Per ulteriori informazioni su questo argomento, consulta [Conversione di contenuto HTML](../../designing/using/using-existing-content.md#converting-an-html-content).
+Questo caso d’uso offre un modo rapido per convertire e-mail HTML in componenti di E-mail Designer. Per ulteriori informazioni su questo argomento, consulta [Conversione del contenuto HTML](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
@@ -153,4 +153,4 @@ Questo caso d’uso offre un modo rapido per convertire le e-mail HTML in compon
 
 Quando carichi un contenuto, questo deve contenere tag specifici per essere completamente conformi e modificabili con l’editor WYSIWYG di E-mail Designer.
 
-Per ulteriori informazioni sulla conversione di un’e-mail esistente in un messaggio e-mail compatibile con E-mail Designer, consulta [questa sezione](../../designing/using/using-existing-content.md#compatibility-mode).
+Per ulteriori informazioni sulla conversione di un’e-mail esistente in un’e-mail compatibile con E-mail Designer, consulta [questa sezione](../../designing/using/using-existing-content.md#compatibility-mode).

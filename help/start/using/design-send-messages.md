@@ -71,18 +71,18 @@ Attira l’attenzione dei clienti e migliora il tasso di risposta utilizzando co
 
 I messaggi personalizzati sono la chiave per inviare contenuti pertinenti, offrire esperienze personalizzate e aumentare i tassi di apertura e conversione. I messaggi cross-channel inviati da Adobe Campaign possono essere personalizzati in diversi modi. Questi modi possono essere combinati con criteri a seconda dei profili. Puoi:
 
-* Inserisci [campi di personalizzazione dinamica](../../designing/using/personalization.md#inserting-a-personalization-field) nei messaggi
+* Inserisci [campi di personalizzazione dinamici](../../designing/using/personalization.md#inserting-a-personalization-field) nei messaggi
 * Inserisci [blocchi di personalizzazione predefiniti](../../designing/using/personalization.md#adding-a-content-block)
-* [Personalizzare l’](../../designing/using/subject-line.md) invio di un’e-mail o di un SMS
-* [Personalizzare l’oggetto ](../../designing/using/subject-line.md) di un messaggio e-mail
-* Creare contenuto condizionale [in un&#39;e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Inserisci [Testo dinamico](../../channels/using/defining-dynamic-text.md) in un messaggio SMS o in una notifica push
+* [Personalizza il mittente](../../designing/using/subject-line.md) di un’e-mail o di un SMS
+* [Personalizzare l’oggetto](../../designing/using/subject-line.md) di un’e-mail
+* Crea [contenuto condizionale in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Inserisci [Testo dinamico](../../channels/using/defining-dynamic-text.md) in un messaggio SMS o una notifica push
 
 ![](assets/delivery_content_43.png)
 
 **Leggi tutto**
 
-* Scopri la personalizzazione delle e-mail tramite un [campione end-to-end](../../designing/using/personalization.md#example-email-personalization)
+* Scopri la personalizzazione delle e-mail tramite un’ [campione end-to-end](../../designing/using/personalization.md#example-email-personalization)
 * [Personalizzazione degli URL](../../designing/using/personalization.md#personalizing-urls)
 * [Impostazione della personalizzazione di un’immagine](../../designing/using/personalization.md#personalizing-an-image-source)
 

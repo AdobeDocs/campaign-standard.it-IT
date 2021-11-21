@@ -82,8 +82,8 @@ Consulta le risorse seguenti:
 
 * [Tutorial video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentazione del prodotto](../../channels/using/about-push-notifications.md)
-* Configura utilizzando l&#39;SDK AEP [documentazione](../../administration/using/configuring-a-mobile-application.md)
-* [Pagina community](https://experienceleaguecommunities.adobe.com/it/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* Configurare utilizzando l’SDK di AEP [documentazione](../../administration/using/configuring-a-mobile-application.md)
+* [Pagina community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Cosa devo fare per acquisire un token push in Campaign? {#push-token-acquisition}
 
@@ -119,11 +119,11 @@ Sì, Campaign supporta entrambe le piattaforme contemporaneamente e ti consente 
 
 ### Ho caricato i certificati push con successo, ma non vengono inviati messaggi push. {#push-certificates-upload}
 
-Verifica che i tuoi certificati push siano validi testandoli [qui](https://pushtry.com/).
+Verifica che i certificati push siano validi verificandoli [qui](https://pushtry.com/).
 
 ### Sono in grado di inviare le notifiche push con successo da pushtry.com ma non tramite Campaign. {#push-not-sending}
 
-Assicurati di seguire le istruzioni relative al payload push fornite [qui](../../administration/using/push-payload.md).
+Assicurati di seguire le istruzioni sul payload push fornite [qui](../../administration/using/push-payload.md).
 
 Per Android, Campaign supporta solo il payload di dati e non il payload di notifica
 
@@ -137,26 +137,26 @@ Apri un ticket di assistenza clienti.
 
 ### Le notifiche push vengono inviate da Campaign, ma il file multimediale non viene visualizzato.{#media-file-unavailable}
 
-Gli sviluppatori di app mobili devono gestire il supporto per i file multimediali nell’app. A volte la larghezza di banda della rete può anche impedire il rendering di un file multimediale. Per ulteriori indicazioni, consulta questa sezione [pagina](../../administration/using/image-push-notification.md) .
+Gli sviluppatori di app mobili devono gestire il supporto per i file multimediali nell’app. A volte la larghezza di banda della rete può anche impedire il rendering di un file multimediale. Fai riferimento a questo [page](../../administration/using/image-push-notification.md) per puntatori aggiuntivi.
 
 ### Cosa devo fare per abilitare il reporting push in Campaign? {#push-reporting-enable}
 
 Segui i passaggi seguenti:
 
 * Configura un postback di tracciamento push. Le istruzioni sono disponibili [qui](../../administration/using/configuring-a-mobile-application.md).
-* Implementa l&#39;API trackAction da Mobile Core. Per ulteriori informazioni, consulta questa [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) .
+* Implementa l&#39;API trackAction da Mobile Core. Fai riferimento a questo [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) per ulteriori informazioni.
 
-Istruzioni più dettagliate sono disponibili in questa [pagina](../../administration/using/push-tracking.md).
+Istruzioni più dettagliate sono disponibili in questo [page](../../administration/using/push-tracking.md).
 
 ### Quali rapporti sono disponibili per il canale push? {#push-report-available}
 
-Un rapporto preconfigurato è disponibile in Adobe Campaign per il canale push. Fai riferimento a questa [documentazione](../../reporting/using/push-notification-report.md).
+Un rapporto preconfigurato è disponibile in Adobe Campaign per il canale push. Fai riferimento a questo [documentazione](../../reporting/using/push-notification-report.md).
 
-Consulta questa [pagina](../../reporting/using/indicator-calculation.md#push-notification-delivery) per capire come vengono calcolate le metriche push.
+Vedi questo [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) per comprendere come vengono calcolate le metriche push.
 
 ### I collegamenti profondi sono supportati nei messaggi push e in-app? {#deeplink-push}
 
 Sì, i collegamenti profondi sono supportati nei messaggi push. I collegamenti profondi dovrebbero includere:
 
 * Lingua che indica che il tracciamento della consegna deve essere disabilitato affinché i collegamenti profondi funzionino.
-* Applicare un flyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull&#39;integrazione di Branch e Adobe Campaign Standard, consulta questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Applicare un flyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull’integrazione di Branch e Adobe Campaign Standard, consulta questo [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

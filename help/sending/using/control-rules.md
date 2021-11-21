@@ -25,7 +25,7 @@ Le regole di controllo ti consentono di verificare la validità e la qualità de
 
 ## Regole di controllo predefinite {#default-control-rules}
 
-Un insieme di regole predefinite assicura i controlli standard. La tabella seguente fornisce informazioni su queste regole, nonché sul relativo canale e sulle [fasi di esecuzione](#control-rules-execution-phases).
+Un insieme di regole predefinite assicura i controlli standard. La tabella seguente fornisce informazioni su queste regole, nonché sul relativo canale e [fasi di esecuzione](#control-rules-execution-phases).
 
 | Etichetta | Canale | Fase di esecuzione | Descrizione |
 |---------|----------|---------|---------|
@@ -50,8 +50,8 @@ Le regole di controllo possono essere applicate in diverse fasi del ciclo di vit
 
 * **Dopo il targeting**: L’esecuzione dopo il targeting ti consente di conoscere il volume del target per applicare la regola di controllo.
 
-   Ad esempio, la regola di controllo **Check proof size** si applica dopo la fase di targeting: questa regola impedisce la preparazione della personalizzazione dei messaggi se sono presenti troppi destinatari di bozza.
+   Ad esempio, il **Controllare le dimensioni della bozza** la regola di controllo si applica dopo la fase di targeting: questa regola impedisce la preparazione della personalizzazione dei messaggi se sono presenti troppi destinatari di bozza.
 
-* **All’inizio della personalizzazione**: Si applica quando il controllo si riferisce all’approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
+* **All&#39;inizio della personalizzazione**: Si applica quando il controllo si riferisce all’approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
 
 * **Al termine dell&#39;analisi**: Quando un controllo richiede il completamento della personalizzazione dei messaggi.

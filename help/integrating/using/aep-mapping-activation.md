@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
 
-Una volta completata la definizione della mappatura, puoi pubblicare la mappatura. Dopo la fase di distribuzione, la replica dei dati tra Campaign Standard e Adobe Experience Platform viene avviata automaticamente. In qualsiasi momento, puoi interrompere la replica facendo clic sul pulsante **[!UICONTROL Stop]** .
+Una volta completata la definizione della mappatura, puoi pubblicare la mappatura. Dopo la fase di distribuzione, la replica dei dati tra Campaign Standard e Adobe Experience Platform viene avviata automaticamente. In qualsiasi momento, puoi interrompere la replica facendo clic sul pulsante **[!UICONTROL Stop]** pulsante .
 
 A seconda delle modifiche di mappatura, puoi scegliere di inviare nuovamente tutti i tuoi record a Adobe Experience Platform.
 
@@ -31,11 +31,11 @@ Dal riquadro di distribuzione è possibile accedere ai registri di pubblicazione
 
 ![](assets/aep_publog.png)
 
-Nella scheda **[!UICONTROL Export jobs]** puoi monitorare il processo di esportazione per la mappatura pubblicata.
+In **[!UICONTROL Export jobs]** è possibile monitorare il processo di esportazione per la mappatura pubblicata.
 
 ![](assets/aep_jobstatus.png)
 
-Per monitorare tutti i processi di esportazione dei dati, vai al menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+Se desideri monitorare tutti i processi di esportazione dei dati, passa a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
 ![](assets/aep_statusmapping.png)
 
@@ -58,7 +58,7 @@ Per aggiornare lo schema XDM, effettua le seguenti operazioni:
 
 1. Passa allo schema XDM.
 
-1. Aggiungi il mixin **[!UICONTROL Profile Privacy]** allo schema.
+1. Aggiungi il **[!UICONTROL Profile Privacy]** mixin schema.
 
    ![](assets/aep_datamapping_privacyfield.png)
 

@@ -24,7 +24,7 @@ Il flusso di lavoro è costituito da:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* Un file che contiene un elenco di profili viene importato utilizzando un&#39;attività [Load file](../../automating/using/load-file.md) . In questo esempio, il file importato è in formato .csv e contiene 10 profili:
+* Un file che contiene un elenco di profili viene importato utilizzando un [Load file](../../automating/using/load-file.md) attività. In questo esempio, il file importato è in formato .csv e contiene 10 profili:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -44,13 +44,13 @@ Il flusso di lavoro è costituito da:
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* Un&#39;attività [Deduplication](../../automating/using/deduplication.md). La deduplicazione viene eseguita direttamente dopo l’importazione del file e prima dell’inserimento dei dati nel database. Dovrebbe pertanto basarsi sulla **[!UICONTROL Temporary resource]** dell’attività **[!UICONTROL Load file]**.
+* A [Deduplication](../../automating/using/deduplication.md) attività. La deduplicazione viene eseguita direttamente dopo l’importazione del file e prima dell’inserimento dei dati nel database. Dovrebbe pertanto basarsi sulla **[!UICONTROL Temporary resource]** dell’attività **[!UICONTROL Load file]**.
 
    Per questo esempio, desideriamo conservare una singola voce per indirizzo e-mail univoco contenuto nel file. L’identificazione dei duplicati viene quindi eseguita nella colonna **e-mail** della risorsa temporanea. Tuttavia, due indirizzi e-mail vengono visualizzati due volte nel file. Due righe saranno pertanto considerate come duplicati.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* Un&#39;attività [Update data](../../automating/using/update-data.md) ti consente di inserire nel database i dati conservati dal processo di deduplicazione. È solo quando i dati vengono aggiornati che i dati importati vengono identificati come appartenenti alla dimensione di profilo.
+* Un [Update data](../../automating/using/update-data.md) L’attività ti consente di inserire nel database i dati conservati dal processo di deduplicazione. È solo quando i dati vengono aggiornati che i dati importati vengono identificati come appartenenti alla dimensione di profilo.
 
    A questo punto, desideriamo **[!UICONTROL Insert only]** i profili che non esistono già nel database. A tal fine, utilizzeremo la colonna e-mail del file e il campo e-mail dalla dimensione di **Profilo** come chiave di riconciliazione.
 

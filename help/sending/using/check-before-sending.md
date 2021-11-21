@@ -28,7 +28,7 @@ Prima di inviare una consegna, è necessario assicurarsi che i destinatari ricev
 
 Questo passaggio ti consente di rilevare eventuali errori e correggerli prima di consegnarli al target principale.
 
-I passaggi per la convalida di una consegna sono descritti [in questa sezione](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+Vengono descritti i passaggi per la convalida di una consegna [in questa sezione](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## Rendering di e-mail {#email-rendering}
 
@@ -40,7 +40,7 @@ Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende
 
 * Puoi visualizzare il messaggio inviato nei diversi contesti in cui potrebbe essere ricevuto: webmail, servizio messaggi, dispositivi mobili, ecc.
 
-* Le funzionalità di rendering delle e-mail sono fondamentali per identificare se le campagne e-mail superano con successo i filtri dei principali ISP (Internet Service Provider) e dei servizi di posta web. Tali strumenti inviano una copia pre-volo di un’e-mail a una rete di caselle in entrata di prova, in modo da visualizzare il messaggio o eseguirne il rendering in questi servizi. Possono anche includere rapporti e opzioni di correzione del codice che ti aiutano a identificare rapidamente e a risolvere i problemi che migliorano il recapito messaggi.
+* Le funzionalità di rendering di e-mail sono fondamentali per identificare se le campagne e-mail lo rendono superato con successo i filtri dei principali ISP (Internet Service Provider) e dei servizi di posta web. Tali strumenti inviano una copia pre-volo di un’e-mail a una rete di caselle in entrata di prova, in modo da visualizzare il messaggio o eseguirne il rendering in questi servizi. Possono anche includere rapporti e opzioni di correzione del codice che ti aiutano a identificare rapidamente e a risolvere i problemi che migliorano il recapito messaggi.
 
 Ulteriori informazioni [in questa sezione](../../sending/using/email-rendering.md).
 

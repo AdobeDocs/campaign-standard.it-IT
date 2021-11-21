@@ -12,7 +12,7 @@ exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -30,11 +30,11 @@ Diversi fattori possono influenzare direttamente le prestazioni del server e ral
 
 * Caricamento server: quando Campaign gestisce contemporaneamente diverse attività, può rallentare le prestazioni. Il server deve coordinare tutti i dati in entrata e in uscita per tutte le consegne, in modo da garantire che i dati siano corretti e puntuali.
 
-   **SUGGERIMENTO** : per evitare questo problema, coordina la pianificazione delle consegne con gli altri membri del team per garantire le migliori prestazioni.
+   **SUGGERIMENTO** - Per evitare questo problema, coordina la pianificazione delle consegne con gli altri membri del team per garantire le migliori prestazioni.
 
-* L&#39; [esecuzione del flusso di lavoro](../../automating/using/about-workflow-execution.md): il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Segui le linee guida elencate [in questa pagina](../../automating/using/monitoring-workflow-execution.md). Ulteriori informazioni sono disponibili nella sezione [best practice per i flussi di lavoro](../../automating/using/best-practices-workflows.md) .
+* La [esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md): il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Seguire le linee guida elencate [in questa pagina](../../automating/using/monitoring-workflow-execution.md). Ulteriori informazioni nel [best practice per i flussi di lavoro](../../automating/using/best-practices-workflows.md) sezione .
 
-* Puoi sfruttare le funzionalità [Pannello di controllo Campaign campagna](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it) per monitorare la piattaforma, utilizzando le funzionalità [monitoraggio delle prestazioni](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Puoi sfruttare [Funzionalità di Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it) per monitorare la piattaforma, utilizzando [monitoraggio delle prestazioni](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it) funzionalità.
 
 ## Verifica della configurazione di rete {#network-config}
 
@@ -50,7 +50,7 @@ Per raggiungere la casella in entrata dei destinatari senza rimbalzare o contras
 
    * Si riferisce ai fattori di un’e-mail che determinano la sua capacità di essere accettata dal server di un destinatario. Gli ISP (Internet Service Provider) filtrano le e-mail che identificano come SPAM o impediscono il download delle immagini. Se determinano che un determinato dominio sta inviando troppe e-mail, imposteranno un limite al numero di e-mail che accetteranno da quel mittente.
 
-   * Quando controlli l&#39;e-mail per il recapito messaggi, vuoi concentrarti su quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Per informazioni più approfondite su questo argomento, consulta [questa sezione](../../sending/using/about-deliverability.md).
+   * Quando controlli l&#39;e-mail per il recapito messaggi, vuoi concentrarti su quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Per maggiori informazioni su questo argomento, consulta [questa sezione](../../sending/using/about-deliverability.md).
 
 * Quando avvii una nuova piattaforma, applica le raccomandazioni dettagliate in [questa pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
@@ -76,6 +76,6 @@ Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenc
 
 Per evitare l’invio di messaggi a indirizzi non validi, limitare le comunicazioni non corrette e migliorare la reputazione del mittente, l’Adobe consiglia di implementare un doppio meccanismo di consenso per la conferma post-abbonamento. In questo modo il destinatario si è iscritto intenzionalmente.
 
-I dettagli sull&#39;implementazione di questo meccanismo sono descritti in [questa sezione](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+I dettagli relativi all&#39;attuazione di tale meccanismo sono descritti in [questa sezione](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Ulteriori informazioni in [Guida introduttiva a profili e tipi di pubblico](../../audiences/using/get-started-profiles-and-audiences.md).
+Ulteriori informazioni in [Guida introduttiva a profili e pubblico](../../audiences/using/get-started-profiles-and-audiences.md).

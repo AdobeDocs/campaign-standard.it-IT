@@ -22,19 +22,19 @@ Il recapito messaggi consente di misurare il successo delle campagne che raggiun
 
 Più precisamente, il recapito messaggi e-mail si riferisce al set di caratteristiche che determinano la capacità di un messaggio di raggiungere la sua destinazione, tramite un indirizzo e-mail personale, in un breve periodo di tempo e con la qualità prevista in termini di contenuto e formato. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-Per informazioni più approfondite sul recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
+Per informazioni più approfondite su cosa sia il recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it).
 
 ## Come migliorare il recapito messaggi {#deliverability-key-points}
 
 I problemi di recapito sono solitamente collegati a misure di protezione contro lo spam implementate da fornitori di servizi Internet e amministratori di server di posta.
 
-* Per raccomandazioni generali su come progettare campagne di marketing e-mail di successo, consulta [Strategia di recapito messaggi e definizione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
+* Per consigli generali su come progettare campagne di e-mail marketing di successo, consulta [Strategia di consegna e definizione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
 * Per consigli più specifici su come ottimizzare il recapito messaggi delle e-mail di Adobe Campaign, si consiglia di utilizzare le best practice elencate in questa sezione.
 
 >[!NOTE]
 >
->Poiché gli ISP sono obbligati a sviluppare continuamente nuove tecniche di filtraggio sofisticate per proteggere i loro clienti dagli spammer, la consegna delle e-mail è caratterizzata da criteri e regole in continua evoluzione. Assicurati di fare riferimento alla [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) che viene aggiornata regolarmente.
+>Poiché gli ISP sono obbligati a sviluppare continuamente nuove tecniche di filtraggio sofisticate per proteggere i loro clienti dagli spammer, la consegna delle e-mail è caratterizzata da criteri e regole in continua evoluzione. Assicurati di fare riferimento al [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) che viene regolarmente aggiornato.
 
 ### Tasso di consegna
 
@@ -43,13 +43,13 @@ Il tasso di recapito messaggi è il numero di messaggi che hanno colpito le case
 Con Adobe Campaign, il tasso di consegna dipende da numerosi fattori, in particolare:
 
 * Configurazione corretta delle istanze: contatta il tuo rappresentante Adobe per assistenza.
-* Configurazione di rete legittima: consulta [questa sezione](../../sending/using/optimize-delivery.md#network-config) e [Configurazione e strategia del dominio](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
-* La reputazione del tuo indirizzo IP: consulta [Strategia IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
-* Qualità degli indirizzi interessati: consulta [Gestione della quarantena](../../sending/using/optimize-delivery.md#quarantine-management).
-* Percentuali basse [reclami](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) e [mancate consegne](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces).
-* Contenuto del messaggio: consulta [Controllo del contenuto delle e-mail](../../sending/using/control-email-content.md).
+* Configurazione di rete legittima: vedere [questa sezione](../../sending/using/optimize-delivery.md#network-config) e [Configurazione e strategia del dominio](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* La reputazione del tuo indirizzo IP: vedere [Strategia IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* Qualità degli indirizzi interessati: vedere [Gestione della quarantena](../../sending/using/optimize-delivery.md#quarantine-management).
+* Basso [lamentele](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) e [rimbalzo duro](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) tariffe.
+* Contenuto del messaggio: vedere [Controllo del contenuto delle e-mail](../../sending/using/control-email-content.md).
 * Autenticazione dei messaggi (SPF, DKIM, DMARC): vedere [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
-* reputazione del mittente: per scoprire come gli ISP principali valutano la reputazione di un mittente, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+* reputazione del mittente: per sapere come i principali ISP valutano la reputazione di un mittente, vedi [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
 ## Strumenti per il recapito messaggi di Campaign {#deliverability-tools}
 
@@ -68,9 +68,9 @@ Durante la configurazione, la progettazione e il test del messaggio, assicurati 
 
 Per evitare l’invio di messaggi a indirizzi non validi, limitare le comunicazioni non corrette e migliorare la reputazione del mittente, l’Adobe consiglia di implementare un doppio meccanismo di consenso. Questo ti consente di garantire che i destinatari si siano abbonati intenzionalmente.
 
-Per ulteriori informazioni, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Per ulteriori informazioni, consulta [Informazioni sul consenso e diniego in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Per ulteriori informazioni sulle best practice per la raccolta di dati dai clienti, consulta la [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
+Per ulteriori informazioni sulle best practice per la raccolta dei dati dai clienti, consulta [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
 
 ### Gestione della quarantena
 

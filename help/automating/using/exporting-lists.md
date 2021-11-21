@@ -17,20 +17,20 @@ ht-degree: 6%
 
 # Esportazione di elenchi{#exporting-lists}
 
-Adobe Campaign consente di esportare gli elenchi direttamente in un file per utilizzi futuri. L’esportazione di un elenco in un file genera una voce di registro nel menu **[!UICONTROL Export audits]**. Per ulteriori informazioni sui controlli delle esportazioni, consulta la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
+Adobe Campaign consente di esportare gli elenchi direttamente in un file per utilizzi futuri. L’esportazione di un elenco in un file genera una voce di registro nel **[!UICONTROL Export audits]** menu. Per ulteriori informazioni sui controlli delle esportazioni, consulta la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri come configurare un elenco in un video](#video)
 
-L’opzione esporta elenco ti consente di esportare un massimo di 100.000 righe per impostazione predefinita e definita dall’opzione **Nms_ExportListLimit** . Questa opzione può essere gestita dall’amministratore funzionale nel menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** .
+L’opzione esporta elenco ti consente di esportare un massimo di 100.000 righe per impostazione predefinita e definita dalla **Nms_ExportListLimit** opzione . Questa opzione può essere gestita dall’amministratore funzionale in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-L&#39;elenco di esportazione è disponibile in tutte le schermate con una visualizzazione in modalità **Elenco** per gli utenti con il ruolo **[!UICONTROL EXPORT (export)]**.
+L’elenco di esportazione è disponibile in tutte le schermate che hanno una **Elenco** visualizzazione modalità, per gli utenti con **[!UICONTROL EXPORT (export)]** ruolo.
 
-1. Vai alla schermata **Elenco** selezionata. Ad esempio, la schermata di panoramica del profilo di test ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Verificare che la schermata sia in modalità **Elenco**.
+1. Vai alla tua scelta **Elenco** schermo. Ad esempio, la schermata di panoramica del profilo di test ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Controlla che la schermata sia in **Elenco** modalità.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organizza le colonne dell’elenco nell’ordine in cui desideri esportarle utilizzando il pulsante **[!UICONTROL Configure list]** nell’angolo in alto a destra. Oltre alle colonne configurate, verrà esportata anche la chiave primaria della risorsa.
+1. Organizza le colonne dell’elenco nell’ordine in cui desideri esportarle utilizzando **[!UICONTROL Configure list]** nell&#39;angolo in alto a destra. Oltre alle colonne configurate, verrà esportata anche la chiave primaria della risorsa.
 1. Se lo desideri, puoi applicare un filtro. A questo scopo, fai clic sul pulsante nell’angolo in alto a sinistra per visualizzare il riquadro di ricerca.
 
    Se esegui un’esportazione da un elenco contenente risorse diverse, devi applicare i filtri in modo che nell’elenco venga visualizzato un solo tipo di risorsa.
@@ -44,7 +44,7 @@ Il file viene generato in formato CSV con estensione TXT. Viene denominato in ba
 
 I valori numerici e le date tengono conto dell’ora locale (locale) dell’utente che esegue l’esportazione. Ad esempio: GG-MM-AAAA o MM-GG-AAAA.
 
-Per eseguire un’esportazione di dimensioni maggiori, devi creare un flusso di lavoro dedicato. Consulta la sezione [Extract file](../../automating/using/extract-file.md) .
+Per eseguire un’esportazione di dimensioni maggiori, devi creare un flusso di lavoro dedicato. Fai riferimento a [Extract file](../../automating/using/extract-file.md) sezione .
 
 **Esempio**
 

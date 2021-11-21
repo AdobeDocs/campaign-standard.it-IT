@@ -52,7 +52,7 @@ Il messaggio e-mail di conferma è un messaggio transazionale che reagisce a un 
 1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo di Adobe Campaign.
 1. Immetti un’etichetta, seleziona una dimensione di targeting e fai clic su **[!UICONTROL Create]**.
 
-   I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md) .
+   I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento sulle transazioni](../../channels/using/configuring-transactional-event.md) sezione .
 
 1. Nella sezione **[!UICONTROL Fields]**, fai clic su **[!UICONTROL Create element]** e aggiungi **[!UICONTROL publicLabel]** alla struttura dati per abilitare la riconciliazione.
 
@@ -85,7 +85,7 @@ L’e-mail di conferma è un messaggio transazionale basato sull’evento appena
 1. Dal logo di Adobe Campaign, seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** e fai clic su **[!UICONTROL Transactional messages]**.
 1. Seleziona l’e-mail transazionale corrispondente all’evento appena pubblicato.
 
-1. Fai clic sulla sezione **[!UICONTROL Content]** e seleziona un modello di e-mail. Per ulteriori informazioni sulla modifica di un contenuto di messaggi transazionali, consulta [Modifica di messaggi transazionali](../../channels/using/editing-transactional-message.md).
+1. Fai clic sulla sezione **[!UICONTROL Content]** e seleziona un modello di e-mail. Per ulteriori informazioni sulla modifica di un contenuto di messaggi transazionali, consulta [Modifica dei messaggi transazionali](../../channels/using/editing-transactional-message.md).
 1. Poiché hai accesso diretto a tutti i campi della risorsa **[!UICONTROL Service]**, puoi selezionare qualsiasi campo dal nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** >**[!UICONTROL Service]** per personalizzare il contenuto.
 
    ![](assets/confirmation_personalization-service.png)
@@ -141,7 +141,7 @@ Il messaggio e-mail di conferma è un [messaggio transazionale](../../channels/u
 1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo di Adobe Campaign.
 1. Immetti un’etichetta, seleziona una dimensione di targeting e fai clic su **[!UICONTROL Create]**.
 
-   I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md) .
+   I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento sulle transazioni](../../channels/using/configuring-transactional-event.md) sezione .
 
 1. Nella sezione **[!UICONTROL Fields]**, fai clic su **[!UICONTROL Create element]** e aggiungi **[!UICONTROL serviceName]** alla struttura dati per abilitare la riconciliazione.
 

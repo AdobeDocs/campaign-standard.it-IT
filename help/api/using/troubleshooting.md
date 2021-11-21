@@ -87,7 +87,7 @@ Il token non è valido (chiamata IMS impropria utilizzata per generare un token)
 
 * **Non vedo il mio profilo dopo la creazione**
 
-A seconda della configurazione dell&#39;istanza, il profilo creato deve essere associato a un **orgUnit**. Per informazioni su come aggiungere questo campo nella creazione, consulta [questa sezione](../../api/using/creating-profiles.md).
+A seconda della configurazione dell’istanza, il profilo creato deve essere associato a un **orgUnit**. Per informazioni su come aggiungere questo campo nella creazione, consulta [questa sezione](../../api/using/creating-profiles.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

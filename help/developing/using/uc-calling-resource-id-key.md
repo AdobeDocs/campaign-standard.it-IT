@@ -16,7 +16,7 @@ ht-degree: 7%
 
 In alcuni casi, potrebbe essere necessario definire per una risorsa una chiave di identificazione composta da due campi. Una volta configurata la chiave di identificazione, devi configurare una definizione di filtro per poter chiamare la risorsa con questa chiave di identificazione, dall’interfaccia di Campaign Standard o dalle API.
 
-In questo caso d’uso, la risorsa **Profilo** è stata estesa con campi **&quot;CRM ID&quot;** e **&quot;category&quot;** personalizzati. Verrà creata una chiave di identificazione per la risorsa Profilo, che sarà composta da questi due campi. Configureremo quindi una definizione di filtro, in modo da poter accedere alla risorsa Profilo utilizzando la chiave di identificazione.
+In questo caso d’uso, la variabile **Profilo** la risorsa è stata estesa con personalizzata **&quot;ID CRM&quot;** e **&quot;categoria&quot;** campi. Verrà creata una chiave di identificazione per la risorsa Profilo, che sarà composta da questi due campi. Configureremo quindi una definizione di filtro, in modo da poter accedere alla risorsa Profilo utilizzando la chiave di identificazione.
 
 I passaggi principali per questo caso d’uso sono i seguenti:
 
@@ -37,11 +37,11 @@ Argomenti correlati:
 
 1. Prima di configurare la chiave di identificazione, accertati che la risorsa sia stata estesa con i campi desiderati e che sia stata pubblicata. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Vai al menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]**, quindi apri la risorsa **[!UICONTROL Profile]**.
+1. Vai a **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** , quindi aprire il menu **[!UICONTROL Profile]** risorsa.
 
    ![](assets/uc_idkey1.png)
 
-1. Nella sezione **[!UICONTROL Identification keys]**, fai clic sul pulsante **[!UICONTROL Create element]** .
+1. In **[!UICONTROL Identification keys]** fai clic sulla sezione **[!UICONTROL Create element]** pulsante .
 
    ![](assets/uc_idkey2.png)
 
@@ -50,7 +50,7 @@ Argomenti correlati:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Se desideri visualizzare i due campi personalizzati nell’interfaccia del profilo, configura la scheda **[!UICONTROL Screen definition]** . Per ulteriori informazioni al riguardo, consulta [questa sezione](../../developing/using/configuring-the-screen-definition.md).
+   > Se desideri visualizzare i due campi personalizzati nell’interfaccia del profilo, configura la **[!UICONTROL Screen definition]** scheda . Per ulteriori informazioni al riguardo, consulta [questa sezione](../../developing/using/configuring-the-screen-definition.md).
 
 1. Ora puoi configurare la definizione del filtro in modo da poter chiamare la risorsa utilizzando la relativa chiave di identificazione.
 
@@ -59,7 +59,7 @@ Argomenti correlati:
 >[!NOTE]
 > I concetti globali durante la configurazione delle definizioni dei filtri sono descritti in [questa sezione](../../developing/using/configuring-filter-definition.md).
 
-1. Nella scheda **[!UICONTROL Filter definition]** , fai clic su **[!UICONTROL Add an element]**, quindi immetti l’etichetta e l’ID della definizione del filtro.
+1. In **[!UICONTROL Filter definition]** scheda , fai clic su **[!UICONTROL Add an element]**, quindi immetti l’etichetta e l’ID della definizione del filtro.
 
 1. Modifica le proprietà della definizione del filtro per configurarne le regole.
 
@@ -69,16 +69,16 @@ Argomenti correlati:
 
    ![](assets/uc_idkey5.png)
 
-1. Seleziona il primo campo utilizzato nella chiave di identificazione (&quot;ID CRM&quot;), quindi attiva l&#39;opzione **[!UICONTROL Switch to parameters]**.
+1. Seleziona il primo campo utilizzato nella chiave di identificazione (&quot;ID CRM&quot;), quindi attiva il **[!UICONTROL Switch to parameters]** opzione .
 
    ![](assets/uc_idkey6.png)
 
-1. Nella sezione **[!UICONTROL Filter conditions]** , mantieni l’operatore **[!UICONTROL Equal]**, definisci il nome del parametro e fai clic sul segno più per crearlo.
+1. In **[!UICONTROL Filter conditions]** sezione, mantenere **[!UICONTROL Equal]** , quindi definisci il nome del parametro e fai clic sul segno più per crearlo.
 
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Dopo aver fatto clic sul pulsante **+**, il nome del parametro viene generato automaticamente. Tieni presente queste informazioni, in quanto sarà necessario per utilizzare il filtro dalle API.
+   > Fai clic su **+** il nome del parametro viene generato automaticamente. Tieni presente queste informazioni, in quanto saranno necessarie per utilizzare il filtro dalle API.
 
 1. Ripeti i passaggi precedenti con tutti i campi che compongono la chiave di identificazione (&quot;categoria&quot;), quindi salva le modifiche.
 
@@ -90,7 +90,7 @@ Argomenti correlati:
 
 Una volta configurati la chiave di identificazione e la relativa definizione del filtro, puoi utilizzarli per chiamare la risorsa, dall’interfaccia Campaign standard o dalle API REST.
 
-Per utilizzare la definizione del filtro dall&#39;interfaccia, utilizza un&#39;attività **[!UICONTROL Query]** in un flusso di lavoro (consulta [questa sezione](../../automating/using/query.md)). Il filtro è quindi disponibile nel riquadro a sinistra.
+Per utilizzare la definizione del filtro dall’interfaccia, utilizza un **[!UICONTROL Query]** attività in un flusso di lavoro (vedi [questa sezione](../../automating/using/query.md)). Il filtro è quindi disponibile nel riquadro a sinistra.
 
 ![](assets/uc_idkey9.png)
 
@@ -101,7 +101,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->Per chiamare un filtro personalizzato, utilizza il prefisso &quot;by&quot; seguito dal nome del filtro definito durante la configurazione della definizione del filtro in [passaggio 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>Per chiamare un filtro personalizzato, utilizza il prefisso &quot;by&quot; seguito dal nome del filtro definito durante la configurazione della definizione del filtro in [passo 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 Nel nostro caso, la sintassi per recuperare un profilo dalla categoria &quot;spring&quot; con l’ID CRM &quot;123456&quot; sarebbe:
 
@@ -109,4 +109,4 @@ Nel nostro caso, la sintassi per recuperare un profilo dalla categoria &quot;spr
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Per ulteriori informazioni, consulta la documentazione [Campaign Standard REST APIs](../../api/using/filtering.md).
+Per ulteriori informazioni, consulta [Documentazione sulle API REST di Campaign Standard](../../api/using/filtering.md).

@@ -21,12 +21,12 @@ Dopo aver creato e pubblicato un evento transazionale, devi integrare l’attiva
 
 >[!NOTE]
 >
->La configurazione dell&#39;evento è descritta in [questa sezione](../../channels/using/configuring-transactional-event.md).
+>La configurazione dell’evento è descritta in [questa sezione](../../channels/using/configuring-transactional-event.md).
 
 Ad esempio, desideri attivare un evento &quot;Abbandono carrello&quot; ogni volta che uno dei tuoi clienti lascia il tuo sito web prima di acquistare i prodotti nel carrello. Per eseguire questa operazione, in qualità di sviluppatore web, devi utilizzare l’API dei messaggi transazionali REST.
 
-1. Invia una richiesta in base al metodo POST, che attiva l’ [invio dell’evento sulle transazioni](#sending-a-transactional-event).
-1. La risposta alla richiesta POST contiene una chiave primaria, che ti consente di inviare una o più richieste tramite una richiesta GET. È quindi possibile ottenere lo stato [evento](#transactional-event-status).
+1. Invia una richiesta in base al metodo POST, che attiva il [invio dell’evento sulle transazioni](#sending-a-transactional-event).
+1. La risposta alla richiesta POST contiene una chiave primaria, che ti consente di inviare una o più richieste tramite una richiesta GET. Potrai quindi ottenere il [stato dell&#39;evento](#transactional-event-status).
 
 ## Invio di un evento sulle transazioni {#sending-a-transactional-event}
 
@@ -46,7 +46,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    L’endpoint API per i messaggi transazionali è visibile anche durante l’anteprima API.
 
-* **&lt;eventid>**: il tipo di evento che si desidera inviare. Questo ID viene generato durante la creazione della configurazione dell&#39;evento (consulta [questa sezione](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventid>**: il tipo di evento che si desidera inviare. Questo ID viene generato durante la creazione della configurazione dell’evento (consulta [questa sezione](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### intestazione di richiesta POST
 
@@ -69,8 +69,8 @@ I dati dell’evento sono contenuti nel corpo di JSON POST. La struttura dell’
 
 I seguenti parametri facoltativi possono essere aggiunti al contenuto dell’evento per gestire l’invio di messaggi transazionali collegati all’evento:
 
-* **scadenza**  (facoltativo): dopo tale data, l’invio dell’evento sulle transazioni verrà annullato.
-* **programmato**  (facoltativo): a partire da questa data, l’evento sulle transazioni verrà elaborato e il messaggio sulle transazioni verrà inviato.
+* **scadenza** (facoltativo): dopo tale data, l’invio dell’evento sulle transazioni verrà annullato.
+* **programmato** (facoltativo): a partire da questa data, l’evento sulle transazioni verrà elaborato e il messaggio sulle transazioni verrà inviato.
 
 >[!NOTE]
 >
@@ -137,7 +137,7 @@ Nella risposta, il campo &quot;status&quot; ti consente di sapere se l’evento 
 * **in sospeso**: l&#39;evento è in sospeso - l&#39;evento assume questo stato quando è appena stato attivato.
 * **elaborazione**: l’evento è in attesa di consegna: viene trasformato in un messaggio e il messaggio viene inviato.
 * **in pausa**: il processo dell’evento è in pausa. Non viene più elaborato, ma viene mantenuto in coda nel database di Adobe Campaign. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
-* **trasformati**: l&#39;evento è stato elaborato e il messaggio è stato inviato correttamente.
+* **elaborati**: l&#39;evento è stato elaborato e il messaggio è stato inviato correttamente.
 * **ignorato**: l’evento è stato ignorato dalla consegna, in genere quando un indirizzo è in quarantena.
 * **deliveryFailed**: si è verificato un errore di consegna durante l’elaborazione dell’evento.
 * **routingFailed**: la fase di routing non è riuscita - questo può verificarsi, ad esempio, quando il tipo di evento specificato non può essere trovato.

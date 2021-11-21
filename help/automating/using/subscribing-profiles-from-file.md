@@ -24,7 +24,7 @@ Il flusso di lavoro viene presentato come segue:
 
 ![](assets/subscription_activity_example1.png)
 
-* Un&#39;attività [Load file](../../automating/using/load-file.md) carica il file di profilo e definisce la struttura delle colonne importate.
+* A [Load file](../../automating/using/load-file.md) L’attività carica il file di profilo e definisce la struttura delle colonne importate.
 
    Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
 
@@ -43,14 +43,14 @@ Il flusso di lavoro viene presentato come segue:
 
    ![](assets/subscription_activity_example2.png)
 
-* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md) identifica i dati del file come appartenenti alla dimensione di profilo del database Adobe Campaign. Solo la scheda **[!UICONTROL Identification]** è configurata. Essa identifica i dati del file in base agli indirizzi e-mail dei profili.
+* A [Reconciliation](../../automating/using/reconciliation.md) l’attività identifica i dati del file come appartenenti alla dimensione di profilo del database Adobe Campaign. Solo la scheda **[!UICONTROL Identification]** è configurata. Essa identifica i dati del file in base agli indirizzi e-mail dei profili.
 
    ![](assets/subscription_activity_example3.png)
 
-* Una [Deduplication](../../automating/using/deduplication.md) basata sul campo **email** della risorsa temporanea (derivante dalla riconciliazione) identifica eventuali duplicati. Se i dati importati dal file contengono duplicati, l’abbonamento a un servizio non riuscirà per tutti i dati.
+* A [Deduplication](../../automating/using/deduplication.md) in base ai **email** il campo della risorsa temporanea (derivante dalla riconciliazione) identifica eventuali duplicati. Se i dati importati dal file contengono duplicati, l’abbonamento a un servizio non riuscirà per tutti i dati.
 
    ![](assets/subscription_activity_example5.png)
 
-* Un’attività [Subscription Services](../../automating/using/subscription-services.md) ti consente di selezionare il servizio al quale i profili devono effettuare l’abbonamento, il campo corrispondente alla data di abbonamento e l’origine dell’abbonamento.
+* A [Servizi sottoscrizione](../../automating/using/subscription-services.md) l’attività ti consente di selezionare il servizio al quale i profili devono effettuare l’abbonamento, il campo corrispondente alla data di abbonamento e l’origine dell’abbonamento.
 
    ![](assets/subscription_activity_example4.png)

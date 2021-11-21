@@ -21,10 +21,10 @@ ht-degree: 4%
 Questo rapporto contiene dati relativi alla velocità effettiva di consegna di un’invio o di più invii. Fornisce:
 
 * Numero di messaggi elaborati all’ora
-* La tabella **[!UICONTROL Top 5 deliveries]** e i numeri di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei nuovi tentativi.
+* La **[!UICONTROL Top 5 deliveries]** numeri di tabella e di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei nuovi tentativi.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->La pagina **[!UICONTROL Delivery throughput]** visualizza la velocità effettiva per il relay dei messaggi da Campaign all’MTA avanzato di Adobe Campaign (Message Transfer Agent).
+>La **[!UICONTROL Delivery throughput]** visualizza la velocità effettiva per il inoltro dei messaggi da Campaign all’MTA avanzato di Adobe Campaign (Message Transfer Agent).

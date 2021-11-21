@@ -28,15 +28,15 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un’attività [Query](../../automating/using/query.md) .
 1. Fai doppio clic sull’attività.
-1. In **[!UICONTROL Shortcuts]**, trascina **[!UICONTROL Profiles]** e seleziona **[!UICONTROL email]** con l’operatore **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, trascina **[!UICONTROL Profiles]** e seleziona **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no ]**.
+1. In **[!UICONTROL Shortcuts]**, trascinamento **[!UICONTROL Profiles]** e seleziona **[!UICONTROL email]** con l&#39;operatore **[!UICONTROL is not empty]**.
+1. In **[!UICONTROL Shortcuts]**, trascinamento **[!UICONTROL Profiles]** e seleziona **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no ]**.
 1. Fai clic su **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
 ## Creazione di una consegna e-mail{#creating-an-email-delivery}
 
-1. Trascina e rilascia una [Consegna e-mail](../../automating/using/email-delivery.md) dopo ogni segmento.
+1. Trascina e rilascia una [Email delivery](../../automating/using/email-delivery.md) dopo ogni segmento.
 1. Fai clic sull’attività e seleziona ![](assets/edit_darkgrey-24px.png) per modificarla.
 1. Seleziona **[!UICONTROL Simple email]** e fai clic su **[!UICONTROL Next]**.
 1. Seleziona **[!UICONTROL Add an outbound transition without the population]** e fai clic su **[!UICONTROL Next]**.
@@ -50,13 +50,13 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 
 ## Targeting di non-openers in un’attività di query{#targeting-non-openers-in-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, trascina e rilascia un’attività [Wait](../../automating/using/wait.md) .
-1. In **[!UICONTROL Duration]**, fai clic su ![](assets/duration-icon.png) e seleziona un giorno.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, trascina e rilascia una [Wait](../../automating/using/wait.md) attività.
+1. In **[!UICONTROL Duration]**, fai clic su ![](assets/duration-icon.png) e selezionare un giorno.
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia una **[!UICONTROL Query activity]**.
 1. Fai doppio clic sull’attività.
-1. In **[!UICONTROL Shortcuts]**, trascina **[!UICONTROL Tracking Logs]** e con l’operatore **[!UICONTROL exists]**.
-1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, trascina **[!UICONTROL delivery]** con l’operatore **[!UICONTROL is equal to]** e seleziona la consegna come valore.
-1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, trascina **[!UICONTROL type]** e seleziona **[!UICONTROL Open]** come valore.
+1. In **[!UICONTROL Shortcuts]**, trascinamento **[!UICONTROL Tracking Logs]** e con l&#39;operatore **[!UICONTROL exists]**.
+1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, trascinamento **[!UICONTROL delivery]** con l&#39;operatore **[!UICONTROL is equal to]** e seleziona la consegna come valore.
+1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, trascinamento **[!UICONTROL type]** e controlla **[!UICONTROL Open]** come valore.
 1. Seleziona l’operatore tra le regole come **[!UICONTROL except]**.
 1. Fai clic su **[!UICONTROL Confirm]**.
 
@@ -67,10 +67,10 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 1. Seleziona **[!UICONTROL Simple sms]** e fai clic su **[!UICONTROL Next]**.
 1. Seleziona un modello sms e fai clic su **[!UICONTROL Next]**.
 1. Immetti le proprietà sms e fai clic su **[!UICONTROL Next]**.
-1. Per creare il layout del proprio sms, fai clic su **[!UICONTROL Email Designer]**.
+1. Per creare il layout dei sms, fai clic su **[!UICONTROL Email Designer]**.
 1. Inserisci elementi o seleziona un modello esistente.
 1. Personalizza gli sms con offerte specifiche per ogni posizione.
-Per ulteriori informazioni, consulta la sezione [Progettazione di un sms](../../channels/using/creating-an-sms-message.md) .
+Per ulteriori informazioni, consulta la [Progettazione di un sms](../../channels/using/creating-an-sms-message.md) sezione .
 1. Seleziona **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 

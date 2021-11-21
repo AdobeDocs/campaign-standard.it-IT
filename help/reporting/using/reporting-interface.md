@@ -21,21 +21,21 @@ La barra degli strumenti superiore consente, ad esempio, di modificare, salvare 
 
 ![](assets/dynamic_report_toolbar.png)
 
-Utilizza la scheda **Progetto** per:
+Utilizza la **Progetto** scheda in:
 
-* **Apri...**: Apre un report o un modello creato in precedenza.
+* **Apri..**: Apre un report o un modello creato in precedenza.
 * **Salva con nome...**: Duplica i modelli per poterli modificare.
 * **Aggiorna progetto**: Aggiorna il rapporto in base a nuovi dati e a modifiche ai filtri.
 * **Scarica CSV**: Esporta i rapporti in un file CSV.
 
-La scheda **Modifica** consente di:
+La **Modifica** consente di:
 
 * **Annulla**: Annulla l’ultima azione sul dashboard.
 * **Cancella tutto**: Elimina ogni pannello del dashboard.
 
-La tabella **Inserisci** consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+La **Inserisci** La tabella ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
 
-* **Nuovo pannello** vuoto: Aggiunge un nuovo pannello vuoto al dashboard.
+* **Nuovo pannello vuoto**: Aggiunge un nuovo pannello vuoto al dashboard.
 * **Nuova forma libera**: Aggiunge una nuova tabella a forma libera al dashboard.
 * **Nuova riga**: Aggiunge un nuovo grafico a linee al dashboard.
 * **Nuova barra**: Aggiunge un nuovo grafico a barre al dashboard.
@@ -75,9 +75,9 @@ La barra degli strumenti si trova sopra l’area di lavoro. Composto da diverse 
 
 ![](assets/tab_project.png)
 
-Utilizza la scheda **Progetto** per:
+Utilizza la **Progetto** scheda in:
 
-* **Apri...**: Apre un report o un modello creato in precedenza.
+* **Apri..**: Apre un report o un modello creato in precedenza.
 * **Salva con nome...**: Duplica i modelli per poterli modificare.
 * **Aggiorna progetto**: Aggiorna il rapporto in base a nuovi dati e a modifiche ai filtri.
 * **Scarica CSV**: Esporta i rapporti in un file CSV.
@@ -87,7 +87,7 @@ Utilizza la scheda **Progetto** per:
 
 ![](assets/tab_edit.png)
 
-La scheda **Modifica** consente di:
+La **Modifica** consente di:
 
 * **Annulla**: Annulla l’ultima azione sul dashboard.
 * **Cancella tutto**: Elimina ogni pannello del dashboard.
@@ -96,9 +96,9 @@ La scheda **Modifica** consente di:
 
 ![](assets/tab_insert.png)
 
-La scheda **Inserisci** ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+La **Inserisci** La scheda ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
 
-* **Nuovo pannello** vuoto: Aggiunge un nuovo pannello vuoto al dashboard.
+* **Nuovo pannello vuoto**: Aggiunge un nuovo pannello vuoto al dashboard.
 * **Nuova forma libera**: Aggiunge una nuova tabella a forma libera al dashboard.
 * **Nuova riga**: Aggiunge un nuovo grafico a linee al dashboard.
 * **Nuova barra**: Aggiunge un nuovo grafico a barre al dashboard.
@@ -107,41 +107,41 @@ La scheda **Inserisci** ti consente di personalizzare i rapporti aggiungendo gra
 
 ![](assets/tab_share_1.png)
 
-La scheda **[!UICONTROL Share]** ti consente di inviare i rapporti con gli utenti di Adobe Campaign tramite e-mail una tantum o ricorrenti. Gli utenti di destinazione riceveranno quindi un’e-mail con il rapporto allegato.
+La **[!UICONTROL Share]** La scheda ti consente di inviare i rapporti con gli utenti di Adobe Campaign tramite e-mail una tantum o ricorrenti. Gli utenti di destinazione riceveranno quindi un’e-mail con il rapporto allegato.
 
 * **[!UICONTROL Send report now]**: Invia il rapporto a un elenco di destinatari selezionati tramite e-mail una tantum.
 
-   1. Se necessario, aggiungi una descrizione nella finestra **[!UICONTROL Send report]**.
+   1. In **[!UICONTROL Send report]** aggiungi una descrizione, se necessario.
 
       ![](assets/tab_share_4.png)
 
    1. Seleziona i destinatari dell’e-mail facendo clic sul campo e selezionandoli nell’elenco a discesa o digitandone gli indirizzi e-mail.
-   1. Se desideri inviare e-mail ricorrenti, seleziona **[!UICONTROL Show scheduling options]** . Per eseguire questa operazione, seleziona anche **[!UICONTROL Send Report on schedule]** nella scheda **[!UICONTROL Share]** .
+   1. Controlla **[!UICONTROL Show scheduling options]** se desideri inviare e-mail ricorrenti. Questa operazione può essere eseguita anche selezionando **[!UICONTROL Send Report on schedule]** in **[!UICONTROL Share]** scheda .
    1. Fai clic su **[!UICONTROL Send now]**. I destinatari riceveranno quindi un’e-mail con il rapporto allegato.
 
 * **[!UICONTROL Send report on schedule]**: Pianifica il rapporto e invia e-mail ricorrenti ai destinatari.
 
-   1. Se necessario, aggiungi una descrizione nella finestra **[!UICONTROL Send report]**.
+   1. In **[!UICONTROL Send report]** aggiungi una descrizione, se necessario.
    1. Seleziona i destinatari dell’e-mail facendo clic sul campo e selezionandoli nell’elenco a discesa o digitandone gli indirizzi e-mail.
 
       ![](assets/tab_share_5.png)
 
-   1. Seleziona la data di inizio e la data di fine per configurare la validità delle e-mail nei campi **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]** .
+   1. Seleziona la data di inizio e la data di fine per configurare la validità dell’e-mail nel **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]** campi.
    1. Scegli la frequenza con cui l’e-mail verrà inviata.
 
       ![](assets/tab_share_2.png)
 
-   1. Fai clic su **[!UICONTROL Send on schedule]** per ricevere l’e-mail ricorrente a seconda della frequenza scelta.
+   1. Fai clic su **[!UICONTROL Send on schedule]**, i destinatari riceveranno l’e-mail ricorrente a seconda della frequenza scelta.
 
 * **[!UICONTROL Scheduled reports]**: Trova e configura tutti i rapporti pianificati.
 
-   1. Nella finestra **[!UICONTROL Scheduled reports]**, trova tutti i tuoi report ricorrenti inviati.
+   1. In **[!UICONTROL Scheduled reports]** trova tutti i tuoi report inviati ricorrenti.
 
       ![](assets/tab_share_3.png)
 
-   1. Per eliminare uno dei rapporti pianificati, selezionalo e fai clic su **[!UICONTROL Delete the section]**.
+   1. Se devi eliminare uno dei rapporti pianificati, seleziona il rapporto pianificato da eliminare, quindi fai clic su **[!UICONTROL Delete the section]**.
    1. Per configurare o controllare i rapporti pianificati, fai clic direttamente sul rapporto da modificare.
-   1. Viene visualizzata la finestra **[!UICONTROL Edit scheduled report]** , che consente di modificare i destinatari o la frequenza dell’e-mail, se necessario.
+   1. La **[!UICONTROL Edit scheduled report]** viene visualizzata la finestra , puoi ora modificare i destinatari o la frequenza dell’e-mail, se necessario.
 
 Gli utenti di destinazione riceveranno quindi un’e-mail con il rapporto allegato direttamente nelle loro caselle in entrata. Gli utenti possono sempre decidere di interrompere la ricezione di e-mail ricorrenti utilizzando un collegamento di annullamento dell’abbonamento disponibile in ogni e-mail ricorrente.
 

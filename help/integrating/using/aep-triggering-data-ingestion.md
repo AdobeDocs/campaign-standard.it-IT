@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
+>Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Please reach out to Adobe Customer Care if you would like access.
 
 Adobe Campaign Standard ti consente di attivare l’acquisizione immediata delle mappature dati tramite API e di recuperare lo stato delle richieste di acquisizione.
 
@@ -34,9 +34,9 @@ Prima di utilizzare le API , la mappatura dei dati deve essere stata configurata
 
 Una volta creata la mappatura dei dati, devi impedirne l’esecuzione in modo da poterla attivare dalle API ogni volta che lo desideri. Per farlo, esegui questi passaggi:
 
-1. In Campaign Standard, vai al menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+1. In Campaign Standard, vai alla pagina **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
-1. Fai doppio clic sulla mappatura dati per aprirla, quindi fai clic sul pulsante **[!UICONTROL Stop]** .
+1. Double-click the data mapping to open it, then click the **[!UICONTROL Stop]** button.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -52,7 +52,7 @@ L’acquisizione immediata di una mappatura XDM in Adobe Experience Platform vie
 
 >[!NOTE]
 >
->Per eseguire l’acquisizione della chiamata API POST, l’utente deve disporre di un ruolo **Esecuzione funzione SQL**, che può essere fornito da un amministratore Campaign Standard eseguendo il seguente script JS:
+>Per eseguire l’acquisizione di una chiamata API POST, l’utente deve disporre di un **Esecuzione della funzione SQL** , che può essere fornito da un amministratore Campaign Standard eseguendo il seguente script JS:
 >
 >
 ```
@@ -97,7 +97,7 @@ L&#39;operazione POST restituisce informazioni sullo stato della richiesta creat
 
 ## Recupero dello stato di una richiesta di acquisizione {#retrieving-status}
 
-Lo stato di una richiesta di acquisizione può essere recuperato con un’operazione GET e l’ID di richiesta desiderato nei parametri:
+The status of an ingestion request can be retrieved with a GET operation and the desired request ID in the parameters:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -106,16 +106,16 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i relativi processi sono disponibili nell’interfaccia di Campaign Standard, nel menu **[!UICONTROL Status of data export to platform]** (consulta [Attivazione mappatura](../../integrating/using/aep-mapping-activation.md)).
+>Informazioni dettagliate sullo stato della richiesta di mappatura XDM e i relativi processi sono disponibili nell’interfaccia di Campaign Standard, nella **[!UICONTROL Status of data export to platform]** menu (vedi [Attivazione mappatura](../../integrating/using/aep-mapping-activation.md)).
 
 L&#39;operazione di GET restituisce le informazioni seguenti:
 
 * **batchId**: questo campo viene compilato solo se si è verificato un errore dopo la preparazione e il caricamento del batch,
 * **info**: ID mappatura XDM,
 * **numRecords**: il numero di record acquisiti (solo stato di successo),
-* **stato**: stato della richiesta di acquisizione (riuscito/fallito/in corso)
+* **status**: stato della richiesta di acquisizione (riuscito/fallito/in corso)
 
-Le possibili risposte all&#39;operazione di GET sono:
+Le possibili risposte all’operazione di GET sono:
 
 * Richiesta di acquisizione riuscita:
 
@@ -129,7 +129,7 @@ Le possibili risposte all&#39;operazione di GET sono:
    }
    ```
 
-* Richiesta di acquisizione non riuscita con 0 record acquisito:
+* Ingest request failed with 0 record ingested:
 
    ```
    {
@@ -141,7 +141,7 @@ Le possibili risposte all&#39;operazione di GET sono:
    }
    ```
 
-* Richiesta di acquisizione non riuscita, con alcuni record caricati in un batch:
+* Ingest request failed, with some record uploaded under a batch:
 
    ```
    {
@@ -153,7 +153,7 @@ Le possibili risposte all&#39;operazione di GET sono:
    }
    ```
 
-* Richiesta di acquisizione interrotta dopo l’acquisizione di alcuni record (questo può accadere in scenari di arresto anomalo):
+* Ingest request aborted after ingesting some records (this may happen in crash scenarios):
 
    ```
    {

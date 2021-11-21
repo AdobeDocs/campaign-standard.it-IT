@@ -9,7 +9,7 @@ exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -29,11 +29,11 @@ Per esportare i dati da Campaign Standard nel percorso di archiviazione S3 o Azu
 
 A questo scopo, aggiungi e configura:
 
-* Un’attività **[!UICONTROL Extract file]** per estrarre i dati di destinazione in un file CSV. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/extract-file.md).
+* A **[!UICONTROL Extract file]** per estrarre i dati di destinazione in un file CSV. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/extract-file.md).
 
    ![](assets/rtcdp-extract-file.png)
 
-* Un’attività **[!UICONTROL Transfer file]** per trasferire il file CSV nel percorso di archiviazione. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
+* A **[!UICONTROL Transfer file]** per trasferire il file CSV nel percorso di archiviazione. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
 
    ![](assets/rtcdp-transfer-file.png)
 
@@ -41,7 +41,7 @@ Ad esempio, il flusso di lavoro seguente estrae regolarmente i registri in un fi
 
 ![](assets/aep-export.png)
 
-Esempi di flussi di lavoro di gestione dei dati sono disponibili nella sezione [casi di utilizzo dei flussi di lavoro](../../automating/using/about-workflow-use-cases.md#management) .
+Esempi di flussi di lavoro di gestione dei dati sono disponibili nel [casi di utilizzo dei flussi di lavoro](../../automating/using/about-workflow-use-cases.md#management) sezione .
 
 Argomenti correlati:
 
@@ -51,9 +51,9 @@ Argomenti correlati:
 
 ## Collegare la posizione di archiviazione come origine
 
-Di seguito sono elencati i passaggi principali per collegare il servizio di archiviazione Amazon (S3) o il percorso di archiviazione BLOB di Azure come **Origine** in Adobe Experience Platform. Informazioni dettagliate su ciascuno di questi passaggi sono disponibili nella documentazione [Connettori sorgente](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
+I passaggi principali per collegare il servizio di archiviazione Amazon (S3) o il percorso di archiviazione BLOB di Azure come **Origine** in Adobe experience Platform sono elencati di seguito. Informazioni dettagliate su ciascuno di questi passaggi sono disponibili nella sezione [Documentazione dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it).
 
-1. Nel menu Adobe Experience Platform **[!UICONTROL Sources]** , crea una connessione al percorso di archiviazione:
+1. In Adobe Experience Platform **[!UICONTROL Sources]** creare una connessione al percorso di archiviazione:
 
    * [Creare una connessione sorgente Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
    * [Connettore BLOB di Azure](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)

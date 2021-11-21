@@ -40,7 +40,7 @@ Tieni presente che un’attività **[!UICONTROL External signal]** può essere a
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: Attività del segnale esterno e importazione](../../automating/using/external-signal-data-import.md) dei dati.
+* [Caso di utilizzo: Attività del segnale esterno e importazione dei dati](../../automating/using/external-signal-data-import.md).
 * [Caso di utilizzo: Chiamata di un flusso di lavoro per creare un pubblico da un file utilizzando parametri esterni](../../automating/using/use-case-calling-workflow.md)
 
 ## Configurazione {#configuration}

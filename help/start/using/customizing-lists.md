@@ -17,12 +17,12 @@ ht-degree: 1%
 
 # Personalizzazione degli elenchi{#customizing-lists}
 
-**** Le schermate elenco consentono di visualizzare elementi di una o più risorse specifiche.
+**Elenco** Le schermate consentono di visualizzare elementi di una o più risorse specifiche.
 
 Adobe Campaign dispone di due tipi di elenchi:
 
-* Un elenco **omogeneo**, ovvero quando contiene un singolo tipo di risorsa. Ad esempio, l’elenco dei profili contiene solo profili.
-* Un elenco **eterogeneo**, ovvero quando contiene diversi tipi di risorse. Ad esempio, l’elenco delle attività di marketing contiene pagine di destinazione, flussi di lavoro, e-mail, SMS e così via.
+* A **omogeneo** Elenco, ovvero quando contiene un singolo tipo di risorsa. Ad esempio, l’elenco dei profili contiene solo profili.
+* A **eterogeneo** elenco, ovvero quando contiene diversi tipi di risorse. Ad esempio, l’elenco delle attività di marketing contiene pagine di destinazione, flussi di lavoro, e-mail, SMS e così via.
 
 Gli elenchi vengono visualizzati in colonne. Ogni colonna può essere ordinata in ordine crescente o decrescente una alla volta.
 
@@ -34,15 +34,15 @@ Quando passi il cursore su un elemento dell’elenco, **azioni rapide**. Queste 
 
 È inoltre possibile configurare la visualizzazione o meno delle colonne di un elenco. Per aggiungere o rimuovere colonne:
 
-1. Assicurati che la schermata sia in modalità **Elenco** .
+1. Assicurati che la schermata sia in **Elenco** modalità.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Passa alla finestra di configurazione dell’elenco selezionando il pulsante ![](assets/columnsettings.png) nella barra delle azioni.
+1. Passa alla finestra di configurazione dell’elenco selezionando la ![](assets/columnsettings.png) nella barra delle azioni.
 
    ![](assets/list_configuration1.png)
 
-1. Aggiungi le colonne da includere nell’elenco. A questo scopo, seleziona una colonna dal lato sinistro della finestra, quindi utilizza il pulsante ![](assets/arrowright.png) dalla barra delle azioni per aggiungere una colonna.
+1. Aggiungi le colonne da includere nell’elenco. A questo scopo, seleziona una colonna dal lato sinistro della finestra, quindi utilizza la ![](assets/arrowright.png) dalla barra delle azioni per aggiungere una colonna.
 
    Le colonne selezionabili corrispondono alla risorsa dell’elenco.
 
@@ -52,8 +52,8 @@ Quando passi il cursore su un elemento dell’elenco, **azioni rapide**. Queste 
    * **[!UICONTROL ASC]**: Applica un ordinamento crescente (crescente) alla colonna
    * **[!UICONTROL DESC]**: Applica un ordinamento decrescente nella colonna.
 
-1. Elimina le colonne che non desideri visualizzare selezionando le caselle corrispondenti alle colonne da eliminare. Quindi, utilizza il pulsante ![](assets/delete.png) dalla barra delle azioni per confermare l’eliminazione.
-1. Una volta che l’elenco contiene le colonne corrette, è possibile modificarne l’ordine di visualizzazione nell’elenco selezionando le colonne che si desidera spostare. Quindi, utilizza le frecce ![](assets/arrowdown.png) e ![](assets/arrowup.png).
+1. Elimina le colonne che non desideri visualizzare selezionando le caselle corrispondenti alle colonne da eliminare. Quindi, utilizza il ![](assets/delete.png) dalla barra delle azioni per confermare l’eliminazione.
+1. Una volta che l’elenco contiene le colonne corrette, è possibile modificarne l’ordine di visualizzazione nell’elenco selezionando le colonne che si desidera spostare. Quindi, utilizza il ![](assets/arrowdown.png) e ![](assets/arrowup.png) frecce.
 1. Conferma la configurazione dell’elenco selezionando **[!UICONTROL OK]**.
 
 L’elenco viene ora visualizzato così come è stato configurato.

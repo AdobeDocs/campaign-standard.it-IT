@@ -17,16 +17,16 @@ ht-degree: 1%
 
 # Impostazione dell’accesso alle API {#setting-up-api-access}
 
-L’accesso alle API di Adobe Campaign Standard è configurato attraverso i passaggi seguenti. Ognuno di questi passaggi è descritto nella [documentazione IO Adobe](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+L’accesso alle API di Adobe Campaign Standard è configurato attraverso i passaggi seguenti. Ciascuno di questi passaggi è descritto nella sezione [Adobe documentazione IO](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->Per gestire i certificati in Adobe IO, assicurati di disporre dei diritti di <b>amministratore di sistema</b> sull&#39;organizzazione o di un [account sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> nell&#39;Admin Console.
+>Per gestire i certificati in Adobe IO, assicurati di disporre di <b>Amministratore di sistema</b> diritti dell&#39;organizzazione o [account sviluppatore](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> nell&#39;Admin Console.
 
-1. **Verifica di disporre di un certificato** digitale o creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
-1. **Crea una nuova integrazione a Adobe Campaign** Service in Adobe IO e configurala. Le credenziali verranno quindi generate (chiave API, segreto client...).
-1. **Crea un JSON Web Token (JWT)** dalle credenziali generate in precedenza e firmalo con la tua chiave privata. JWT codifica tutte le informazioni di identità e sicurezza necessarie per Adobe per verificare la tua identità e concedere l’accesso all’API.
-1. **Sostituisci JWT con un** token di accesso tramite una richiesta POST. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
+1. **Verifica di disporre di un certificato digitale** oppure creane uno, se necessario. Le chiavi pubbliche e private fornite con il certificato sono necessarie nei passaggi seguenti.
+1. **Creare una nuova integrazione con Adobe Campaign Service** in Adobe IO e configuralo. Le credenziali verranno quindi generate (chiave API, segreto client...).
+1. **Creare un token web JSON (JWT)** dalle credenziali generate in precedenza e firmalo con la tua chiave privata. JWT codifica tutte le informazioni di identità e sicurezza necessarie per Adobe per verificare la tua identità e concedere l’accesso all’API.
+1. **Sostituire il JWT con un token di accesso** tramite una richiesta POST. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
 
 Per stabilire una sessione API di Adobe I/O servizio-servizio sicura, ogni richiesta a un servizio Adobe deve includere nell’intestazione Autorizzazione le informazioni riportate di seguito.
 
@@ -43,7 +43,7 @@ Per stabilire una sessione API di Adobe I/O servizio-servizio sicura, ogni richi
    * &lt;organization> : la tua istanza di produzione,
    * &lt;organization-mkt-stage>: la tua istanza del palco.
 
-   Per ottenere il valore dell’ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell&#39;elenco delle licenze (vedere la <a href="https://www.adobe.io/authentication.html">documentazione IO Adobe</a>).
+   Per ottenere il valore dell’ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell&#39;elenco delle licenze (consulta <a href="https://www.adobe.io/authentication.html">Adobe documentazione IO</a>).
 
 * **&lt;access_token>**: Token di accesso personale, recuperato durante lo scambio del token web JSON tramite una richiesta POST.
 

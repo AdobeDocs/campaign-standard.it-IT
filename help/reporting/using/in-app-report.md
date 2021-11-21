@@ -19,15 +19,15 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Devi trascinare le metriche **[!UICONTROL Message type]** nelle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso per le consegne in-app.
+>Tieni presente che devi trascinare e rilasciare la **[!UICONTROL Message type]** metriche alle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso consegne in-app.
 
-Il rapporto **In-App** fornisce dettagli relativi alle consegne in-app.
+La **In-App** Il rapporto fornisce dettagli relativi alle consegne in-app.
 
 Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare il modo in cui i dettagli vengono visualizzati nelle rispettive impostazioni di visualizzazione.
 
 ![](assets/inapp_report.png)
 
-La prima tabella **Riepilogo del coinvolgimento in-app** è suddivisa in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
+La prima tabella **Riepilogo del coinvolgimento in-app** è suddiviso in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
 
 * **[!UICONTROL Processed/sent]**: Numero totale di invii per la consegna in-app.
 * **[!UICONTROL Delivered]**: Numero di messaggi in-app inviati correttamente, in relazione al numero totale di messaggi inviati.
@@ -38,7 +38,7 @@ La prima tabella **Riepilogo del coinvolgimento in-app** è suddivisa in tre cat
 
 ![](assets/inapp_report_1.png)
 
-La seconda tabella **Clic e licenziamenti in-app** è suddivisa in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
+La seconda tabella **Clic e cancellazioni in-app** è suddiviso in tre categorie: di giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
 
 * **[!UICONTROL In-App clicks]**: Numero totale di destinatari che hanno fatto clic sul pulsante 1 o sul pulsante 2.
 * **[!UICONTROL Unique In-App clicks]**: Numero di volte in cui i destinatari hanno fatto clic sul pulsante 1 o sul pulsante 2.

@@ -36,25 +36,25 @@ Per ulteriori informazioni, consulta [Monitoraggio di una consegna](../../sendin
 
 ## Tracciamento {#tracking-deliveries}
 
-Per conoscere meglio il comportamento dei profili di destinazione, puoi tenere traccia della loro reazione a una consegna: ricezione, apertura, clic su collegamenti, annullamenti di abbonamenti, ecc. Fai riferimento alla scheda **Registri di tracciamento** della consegna.
+Per conoscere meglio il comportamento dei profili di destinazione, puoi tenere traccia della loro reazione a una consegna: ricezione, apertura, clic su collegamenti, annullamenti di abbonamenti, ecc. Fai riferimento a **Registri di tracciamento** scheda della consegna.
 
 **Suggerimento**: Il tracciamento dei messaggi è abilitato per impostazione predefinita. Per configurare gli URL, seleziona l’opzione Visualizza URL nella sezione inferiore della procedura guidata di consegna. Per ogni URL del messaggio, puoi scegliere se attivare il tracciamento.
 
-Per ulteriori informazioni, consulta la sezione [Messaggi di tracciamento](../../sending/using/tracking-messages.md) e la descrizione [Indicatori di tracciamento](../../reporting/using/tracking-indicators.md) .
+Per ulteriori informazioni, consulta la sezione [Tracciamento dei messaggi](../../sending/using/tracking-messages.md) la sezione [Indicatori di tracciamento](../../reporting/using/tracking-indicators.md) descrizione.
 
 ## Rapporti dinamici {#dyn-reports}
 
 I rapporti dinamici ti consentono di creare rapporti completamente personalizzabili e in tempo reale per monitorare le campagne. Dimension, metriche e visualizzazioni consentono di misurare l’impatto e il successo delle campagne sui destinatari.
 
-**Suggerimento** : i rapporti incorporati sono disponibili per il monitoraggio delle campagne, ma puoi anche personalizzare tali rapporti trascinando nel rapporto eventuali metriche o dimensioni.
+**Suggerimento** - I rapporti incorporati sono disponibili per il monitoraggio delle campagne, ma possono anche essere personalizzati trascinando nel rapporto qualsiasi metrica o dimensione.
 
-Per ulteriori informazioni, consulta la [Guida ai rapporti](../../reporting/using/about-dynamic-reports.md).
+Per ulteriori informazioni, consulta la sezione [Guida al reporting](../../reporting/using/about-dynamic-reports.md).
 
 ## Hot click
 
-Il rapporto Hot click presenta il contenuto del messaggio (HTML e/o testo) con la percentuale di clic su ciascun collegamento. Visualizzando la percentuale di clic su ciascun contenuto dinamico, puoi misurare quale contenuto richiede maggiormente i destinatari.
+Il rapporto Hot Click presenta il contenuto del messaggio (HTML e/o testo) con la percentuale di clic su ciascun collegamento. Visualizzando la percentuale di clic su ciascun contenuto dinamico, puoi misurare quale contenuto richiede maggiormente i destinatari.
 
-Per ulteriori informazioni, consulta il [Rapporto con clic caldo](../../reporting/using/hot-clicks.md).
+Per ulteriori informazioni, consulta la sezione [Rapporto con clic caldo](../../reporting/using/hot-clicks.md).
 
 ## Suggerimenti sulle prestazioni di consegna {#performance-tips}
 

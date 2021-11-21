@@ -19,8 +19,8 @@ ht-degree: 19%
 
 È possibile monitorare le variabili degli eventi disponibili nel flusso di lavoro, inclusi i parametri esterni dichiarati. Per farlo, segui la procedura indicata di seguito:
 
-1. Seleziona l’attività che segue l’attività **[!UICONTROL External signal]**, quindi fai clic sul pulsante **[!UICONTROL Log and tasks]** .
-1. Nella scheda **[!UICONTROL Tasks]** , fai clic sul pulsante ![](assets/edit_darkgrey-24px.png) .
+1. Seleziona l’attività che segue la **[!UICONTROL External signal]** , quindi fai clic su **[!UICONTROL Log and tasks]** pulsante .
+1. In **[!UICONTROL Tasks]** scheda , fai clic su ![](assets/edit_darkgrey-24px.png) pulsante .
 
    ![](assets/extsignal_monitoring_2.png)
 

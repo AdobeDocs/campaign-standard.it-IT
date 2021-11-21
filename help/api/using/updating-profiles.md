@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Aggiornamento dei profili {#updating-profiles}
 
-L’aggiornamento dei profili viene eseguito con una richiesta **PATCH**.
+L’aggiornamento dei profili viene eseguito con un **PATCH** richiesta.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 

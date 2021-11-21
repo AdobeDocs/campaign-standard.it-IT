@@ -32,9 +32,9 @@ Dynamic Reporting fornisce rapporti completamente personalizzabili e in tempo re
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Grazie all’ **interfaccia di trascinamento della selezione** per il reporting dinamico, puoi esplorare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari da un’unica posizione.
+Con reporting dinamico **interfaccia a trascinamento**, puoi esplorare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurarne l’impatto sui destinatari da un’unica posizione.
 
-**Gestisci i** rapporti dinamici grazie a varie funzionalità: aggiorna i dati in tempo reale, stampa i rapporti o esportali come file CSV. Puoi anche condividere i tuoi rapporti con gli utenti di Campaign Standard tramite e-mail una tantum o ricorrenti.
+**Gestire i rapporti dinamici** grazie a varie funzionalità: aggiorna i dati in tempo reale, stampa i rapporti o esportali come file CSV. Puoi anche condividere i tuoi rapporti con gli utenti di Campaign Standard tramite e-mail una tantum o ricorrenti.
 
 Leggi tutto:
 
@@ -45,9 +45,9 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard viene fornito con un set di **rapporti dinamici pronti per l’uso** che consentono di misurare più aspetti delle campagne di marketing: mancate consegne, consegne dichiarate più come spam o junk, la maggior parte delle consegne visualizzate dai destinatari, report relativi ai canali, velocità effettiva di consegna e rapporti di tracciamento...
+Campaign Standard viene fornito con un set di **report dinamici pronti all&#39;uso** consente di misurare più aspetti delle campagne di marketing: mancate consegne, consegne dichiarate più come spam o junk, la maggior parte delle consegne visualizzate dai destinatari, report relativi ai canali, velocità effettiva di consegna e rapporti di tracciamento...
 
-**Combina diversi componenti**  (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o personalizzare rapporti predefiniti.
+**Combinare diversi componenti** (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o per personalizzare rapporti predefiniti.
 
 Leggi tutto:
 
@@ -59,11 +59,11 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personalizza i tuoi** rapporti sfruttando le funzionalità di progettazione di rapporti dinamici: aggiungi tutti i componenti necessari (pannelli e tabelle a forma libera) per analizzare i dati utilizzando la metrica e le dimensioni disponibili.
+**Personalizzare i rapporti** sfruttando le funzionalità di progettazione di report dinamici: aggiungi tutti i componenti necessari (pannelli e tabelle a forma libera) per analizzare i dati utilizzando la metrica e le dimensioni disponibili.
 
-Trascina **elementi di visualizzazione** per aggiungere rappresentazioni grafiche dei dati ai rapporti e configurarli in base alle tue esigenze.
+Trascinamento della selezione **elementi di visualizzazione** per aggiungere rappresentazioni grafiche dei dati ai rapporti e configurarli in base alle tue esigenze.
 
-Crea rapporti basati sui **dati di profilo personalizzati** creati durante l’estensione della risorsa Profilo e sui rapporti **basati sui segmenti** definiti nei flussi di lavoro di targeting.
+Crea rapporti basati su **dati di profilo personalizzati** creato durante l’estensione della risorsa Profilo e **rapporti basati su segmenti** definiti nei flussi di lavoro di targeting.
 
 Leggi tutto:
 

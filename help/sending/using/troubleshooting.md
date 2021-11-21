@@ -25,7 +25,7 @@ Si verifica un problema di recapito messaggi? Puoi trovare la soluzione qui.
 **Perché ricevo sempre lo stesso messaggio di errore per un particolare ISP?**
 
 Se ricevi sempre lo stesso messaggio di errore per un ISP, l&#39;e-mail o l&#39;IP potrebbe essere stato rilevato come difettoso dall&#39;ISP. Eseguite le seguenti raccomandazioni:
-* Controlla se ricevi una grande percentuale di errori collegati a indirizzi e-mail inesistenti (**Utente sconosciuto** non riusciti).
+* Controlla se ricevi una grande percentuale di errori collegati a indirizzi e-mail inesistenti (**Utente sconosciuto** errori).
 * Aggiorna i moduli di abbonamento per rilevare eventuali errori nei nomi di dominio immessi (ad esempio: gmaul.com o yaho.com).
 * Se noti degli errori che indicano che i messaggi sono dichiarati come spam o che i messaggi sono costantemente bloccati, prova ad escludere i destinatari che non hanno aperto o fatto clic in uno dei tuoi messaggi negli ultimi 12 mesi dal target.
 
@@ -35,9 +35,9 @@ Se il problema persiste, contatta il servizio commerciale o di recapito messaggi
 
 * **Qual è la differenza tra un indirizzo e-mail elenco Bloccati e un indirizzo e-mail messo in quarantena?**
 
-   * Lo stato **[!UICONTROL On denylist]** è il risultato di un [ciclo di feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (quando una persona segnala un messaggio come spam).
+   * Lo stato **[!UICONTROL On denylist]** è il risultato di un [circuito di retroazione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (quando una persona segnala un messaggio come spam).
 
-   * Lo stato **[!UICONTROL Quarantined]** è il risultato di un messaggio non recapitato morbido o rigido.
+   * Lo stato **[!UICONTROL Quarantined]** è il risultato di un rimbalzo morbido o duro.
    Per ulteriori informazioni, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **Cosa significano i diversi motivi di errore di quarantena?**
@@ -51,7 +51,7 @@ Se il problema persiste, contatta il servizio commerciale o di recapito messaggi
 * **Uno dei miei destinatari è stato aggiunto al elenco Bloccati per errore. Come rimuoverli dal elenco Bloccati in modo da poter iniziare a inviarli nuovamente?**
 
    * Vai a **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * Nei dettagli del record corrispondente, imposta il valore del campo **[!UICONTROL Status]** su **[!UICONTROL Valid]**.
+   * Nei dettagli del record corrispondente, imposta il valore del **[!UICONTROL Status]** campo a **[!UICONTROL Valid]**.
    * Salvare il record.
 
 * **Come posso scoprire se uno dei miei IP è elenco Bloccati? Come posso rimuovere gli IP da un elenco Bloccati?**

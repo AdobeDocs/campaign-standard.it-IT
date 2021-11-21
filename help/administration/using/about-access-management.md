@@ -32,7 +32,7 @@ Nel menu **[!UICONTROL Administration > Users & Security]**, l’amministratore 
 
 ![](assets/user_management_1.png)
 
-Gli utenti vengono gestiti nell&#39;Admin Console (consulta la sezione [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md) o la documentazione [Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html)).
+Gli utenti vengono gestiti nell’Admin Console (consulta [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md) o [Documentazione di Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 

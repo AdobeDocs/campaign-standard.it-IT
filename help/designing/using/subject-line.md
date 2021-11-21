@@ -26,8 +26,8 @@ L’oggetto del messaggio è obbligatorio per preparare e inviare il messaggio.
 >Se l’oggetto è vuoto, viene visualizzato un avviso nel dashboard dei messaggi e in E-mail Designer.
 
 1. Creare un messaggio e-mail.
-1. Passa alla scheda **[!UICONTROL Properties]** della home page di E-mail Designer (accessibile tramite l’icona Home).
-1. Compila la sezione **[!UICONTROL Subject]** .
+1. Vai al **[!UICONTROL Properties]** scheda della home page di E-mail Designer (accessibile tramite l’icona Home).
+1. Compila il **[!UICONTROL Subject]** sezione .
 
    ![](assets/email_designer_subject.png)
 
@@ -35,17 +35,17 @@ L’oggetto del messaggio è obbligatorio per preparare e inviare il messaggio.
 
 ## Definizione del mittente dell’e-mail di un messaggio e-mail {#email-sender}
 
-Per definire il nome del mittente che verrà visualizzato nell’intestazione dei messaggi inviati, vai alla scheda **[!UICONTROL Properties]** della home page di E-mail Designer (accessibile tramite l’icona Home).
+Per definire il nome del mittente che verrà visualizzato nell’intestazione dei messaggi inviati, vai alla **[!UICONTROL Properties]** scheda della home page di E-mail Designer (accessibile tramite l’icona Home).
 
 ![](assets/delivery_content_edition16.png)
 
-* Il campo **[!UICONTROL From: name]** ti consente di inserire il nome del mittente. Per impostazione predefinita, il blocco predefinito **Nome mittente** viene immesso automaticamente nel campo . L’indirizzo e-mail e il nome del mittente predefiniti sono definiti in **[!UICONTROL Brands]** accessibile tramite il logo Adobe Campaign nel menu avanzato **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* La **[!UICONTROL From: name]** consente di inserire il nome del mittente. Per impostazione predefinita, il valore predefinito **Nome mittente** block viene immesso automaticamente nel campo . L’indirizzo e-mail e il nome del mittente predefiniti sono definiti in **[!UICONTROL Brands]** accessibile tramite il logo Adobe Campaign nel menu avanzato **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   Puoi modificare il nome del mittente facendo clic sul blocco **Nome mittente** . Il campo diventa quindi modificabile e puoi immettere il nome che desideri utilizzare.
+   Puoi modificare il nome del mittente facendo clic sul pulsante **Nome mittente** blocco. Il campo diventa quindi modificabile e puoi immettere il nome che desideri utilizzare.
 
    Questo campo può essere personalizzato. A questo scopo, fai clic sulle icone sotto il nome del mittente per aggiungere campi di personalizzazione, blocchi di contenuto e contenuto dinamico. Per ulteriori informazioni, consulta [Personalizzazione](../../designing/using/personalization.md).
 
-* Impossibile modificare il campo **[!UICONTROL From: email address]** da questa sezione. Puoi modificarlo modificando le proprietà dell’e-mail dal relativo dashboard. Per ulteriori informazioni, consulta [Elenco dei parametri avanzati delle e-mail](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* La **[!UICONTROL From: email address]** Impossibile modificare il campo da questa sezione. Puoi modificarlo modificando le proprietà dell’e-mail dal relativo dashboard. Per ulteriori informazioni, consulta [Elenco dei parametri avanzati e-mail](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

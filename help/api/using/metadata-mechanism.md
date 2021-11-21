@@ -23,7 +23,7 @@ Puoi recuperare i metadati delle risorse utilizzando **resourceType** in una ric
 
 La risposta restituisce i metadati principali dalla risorsa (tutti gli altri campi sono descrittivi o interni):
 
-* Il nodo **Content** restituisce i campi della risorsa. Per ogni campo del nodo **content**, possiamo trovare i campi seguenti:
+* La **Contenuto** restituisce i campi della risorsa. Per ogni campo nel **content** nodo, possiamo trovare i seguenti campi:
 
    * &quot;apiName&quot;: nome dell’attributo utilizzato nelle API.
    * &quot;type&quot;: si tratta della definizione di tipo di livello elevato (stringa, numero, collegamento, raccolta, enumerazione...).
@@ -32,9 +32,9 @@ La risposta restituisce i metadati principali dalla risorsa (tutti gli altri cam
    * &quot;resType&quot;: questo è il tipo tecnico.
 
       Se &quot;type&quot; viene completato con il valore &quot;link&quot; o &quot;collection&quot;, il valore resTarget corrisponde al nome della risorsa oggetto del collegamento.
-Se &quot;type&quot; viene completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è descritto nel nodo **values** .
+Se &quot;type&quot; è completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è descritto in **values** nodo.
 
-* Il nodo **Filtri** restituisce l&#39;URL per recuperare i filtri associati. Per ulteriori informazioni sui filtri, consulta [questa sezione](../../api/using/filtering.md) .
+* La **Filtri** restituisce l&#39;URL per recuperare i filtri associati. Per ulteriori informazioni sui filtri, consulta [questa sezione](../../api/using/filtering.md) sezione .
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
