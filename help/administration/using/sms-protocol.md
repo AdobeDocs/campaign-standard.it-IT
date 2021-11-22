@@ -166,9 +166,9 @@ Campi di rilievo in un `SUBMIT_SM PDU`:
 
 * **source_addr_ton** e **source_addr_npi**: indica il tipo di indirizzo di origine trasmesso. Il significato di questi campi è standardizzato, ma poiché alcuni provider lo utilizzano in modo diverso, è necessario chiedere al provider il valore corretto. Impostato nell’account esterno.
 
-* **source_addr**: l&#39;indirizzo di origine / oADC del MT. Sarà visualizzato sul cellulare. Impostato nell’account esterno e nella consegna, il valore nella consegna ha la precedenza sul valore dell’account esterno.
+* **source_addr**: l&#39;indirizzo di origine / oADC del MT. Sarà visualizzato sul cellulare. Set in the external account and the delivery, the value in the delivery takes precedence over the value of the external account.
 
-* **dest_addr_ton** e **dest_addr_npi**: indica il tipo di indirizzo di destinazione trasmesso (ad esempio, formato locale o internazionale). Il significato di questi campi è standardizzato, ma poiché alcuni provider lo utilizzano in modo diverso, è necessario chiedere al provider il valore corretto. Impostato nell’account esterno.
+* **dest_addr_ton** and **dest_addr_npi**: indicates what kind of destination address is transmitted (e.g. local or international format). Il significato di questi campi è standardizzato, ma poiché alcuni provider lo utilizzano in modo diverso, è necessario chiedere al provider il valore corretto. Impostato nell’account esterno.
 
 * **destination_addr**: indirizzo del destinatario, numero di telefono o MSISDN.
 
@@ -234,7 +234,7 @@ Questa PDU riconosce che la connessione è attiva.
 
 ### SMS multiparte (SMS lungo) {#multipart}
 
-Gli SMS multiparte, o SMS lunghi, sono SMS inviati in più parti. A causa di limitazioni tecniche nel protocollo di rete mobile, un SMS non può essere più grande di 140 byte o dovrà essere diviso. Consulta la sezione [Codifica testo SMS](../../administration/using/sms-protocol.md#sms-text-encoding) per ulteriori informazioni sul numero di caratteri che possono essere inclusi in un SMS.
+Multipart SMS, or long SMS, are SMS that are sent in multiple parts. Due to technical limitations in the mobile network protocol, a SMS cannot be larger than 140 bytes or it will need to be split. Consulta la sezione [Codifica testo SMS](../../administration/using/sms-protocol.md#sms-text-encoding) per ulteriori informazioni sul numero di caratteri che possono essere inclusi in un SMS.
 
 Ogni parte di un messaggio lungo è un singolo SMS. Queste parti viaggiano in modo indipendente sulla rete e sono assemblate dal telefono cellulare ricevente. Per gestire i nuovi tentativi e i problemi di connettività, Adobe Campaign invia queste parti in ordine inverso e richiede un SR solo nella prima parte del messaggio, l’ultima inviata. Poiché il telefono cellulare visualizza un messaggio solo quando viene ricevuta la sua prima parte, i nuovi tentativi su parti aggiuntive non produrranno duplicati sul telefono cellulare.
 
@@ -252,11 +252,11 @@ Vedi la descrizione del `esm_class`, `short_message` e `message_payload` campi [
 
 La maggior parte dei provider richiede un limite di throughput per ogni connessione SMPP. Questo può essere ottenuto impostando un numero di SMS nell’account esterno. Tieni presente che la limitazione della velocità effettiva avviene per connessione, il throughput effettivo totale corrisponde al limite per connessione moltiplicato per il numero totale di connessioni. Questo è descritto in [Connessioni simultanee](../../administration/using/sms-protocol.md#connection-settings) sezione .
 
-Per raggiungere il massimo throughput possibile, è necessario ottimizzare la finestra di invio massima. La finestra di invio è il numero di `SUBMIT_SM PDU`che può essere inviato senza attendere un `SUBMIT_SM_RESP`. Consulta la sezione [Impostazione della finestra di invio](../../administration/using/sms-protocol.md#throughput-timeouts) per ulteriori dettagli.
+To reach maximum possible throughput, you will need to fine tune the maximum sending window. La finestra di invio è il numero di `SUBMIT_SM PDU`che può essere inviato senza attendere un `SUBMIT_SM_RESP`. See the [Sending window setting](../../administration/using/sms-protocol.md#throughput-timeouts) section for more details.
 
 ### SR e gestione degli errori (&quot;Appendice B&quot;) {#sr-error-management}
 
-Il protocollo SMPP definisce gli errori sincroni standard in `RESP PDU`s, ma non definisce i codici di errore per SR. Ogni provider utilizza i propri codici di errore con il proprio significato.
+The SMPP protocol defines standard synchronous errors in `RESP PDU`s, but it does not define error codes for SR. Ogni provider utilizza i propri codici di errore con il proprio significato.
 
 Una raccomandazione è formulata nella sezione dell&#39;appendice B del [Specifiche del protocollo SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (pag. 167) ma questo non elenca i codici di errore effettivi né il loro significato.
 
@@ -299,17 +299,17 @@ In questo esempio viene visualizzato il caso di un’implementazione successiva 
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-Primo, la `id extraction` regex viene applicato per estrarre l&#39;ID e riconciliarlo con il MT corrispondente.
+First, the `id extraction` regex is applied to extract the ID and reconcile it with the corresponding MT.
 
-Quindi, il `status extraction` regex e `error code extraction` regex viene applicato per estrarre questi campi e viene aggiunto alla stringa.
+Then, the `status extraction` regex and `error code extraction` regex are applied to extract these fields and are appended to the string.
 
-Il messaggio del registro di trasmissione viene costruito con queste informazioni e la stringa originale non modificata viene aggiunta come riferimento:
+The broadlog message is constructed with this information, and the original unaltered string is appended for reference:
 
 ```
 SR ExampleProvider DELIVRD 000|MESSAGE=id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-Il messaggio viene quindi normalizzato, rimuovendo la parte MESSAGE per essere in grado di abbinare più messaggi con gli stessi codici stat e error.
+The message is then normalized, removing the MESSAGE part to be able to match multiple messages with the same stat and err codes.
 
 ```
 SR ExampleProvider DELIVRD 000|#MESSAGE#
@@ -319,7 +319,7 @@ Se non è già stato eseguito il provisioning del messaggio nella tabella dei me
 
 * Se corrisponde al `success` regex, sarà considerato un successo.
 
-* Se corrisponde al `error` regex, il messaggio è qualificato come errore.
+* If it matches the `error` regex, the message is qualified as an error.
 
 * Se nessuno di questi due regex corrisponde, l&#39;SR viene ignorato. Potrebbe trattarsi di una notifica intermedia, che non viene gestita da Adobe Campaign.
 
@@ -373,9 +373,9 @@ Questa opzione consente un controllo più preciso del numero di connessioni, ved
 
 Se imposti un valore maggiore del numero di MTA in esecuzione, tutti gli MTA verranno eseguiti normalmente: questa opzione è solo un limite e non può generare ulteriori MTA.
 
-Se è necessario controllare con precisione il numero di connessioni, ad esempio il requisito del provider, si consiglia di impostare sempre questa opzione anche se la distribuzione corrente ha il numero corretto di MTA in esecuzione. Se successivamente verranno aggiunti ulteriori MTA, il limite di connessione sarà comunque rispettato.
+If you need to precisely control the number of connections, e.g. provider requirement, it is recommended to always set this option even if the current deployment has the right number of MTAs running. Se successivamente verranno aggiunti ulteriori MTA, il limite di connessione sarà comunque rispettato.
 
-### Impostazioni di connessione {#connection-settings}
+### Connection settings {#connection-settings}
 
 #### Modalità di connessione SMPP {#smpp-connection-mode}
 
@@ -383,7 +383,7 @@ Imposta la connessione in **ricetrasmettitore** in modalità o in modalità sepa
 
 #### Nome implementazione SMSC {#smsc-implementation-name}
 
-Imposta il nome dell’implementazione SMSC. Deve essere impostato sul nome del provider. Contatta l’amministratore o il team di recapito per sapere cosa aggiungere in questo campo. Il ruolo di questo campo è descritto in [Gestione degli errori SR](../../administration/using/sms-protocol.md#sr-error-management) sezione .
+Imposta il nome dell’implementazione SMSC. Deve essere impostato sul nome del provider. Contact the administrator or the deliverability team to know what to add in this field. Il ruolo di questo campo è descritto in [Gestione degli errori SR](../../administration/using/sms-protocol.md#sr-error-management) sezione .
 
 #### Server {#server}
 
@@ -426,7 +426,7 @@ Utilizza TLS per connetterti al provider. La connessione verrà crittografata. L
 
 Questa impostazione esegue il dump di tutto il traffico SMPP nei file di registro. Spesso è necessario regolare i parametri durante la configurazione iniziale. Questa opzione deve essere abilitata per la risoluzione dei problemi relativi al connettore e confrontata con il traffico rilevato dal provider.
 
-### Impostazione di connessione del ricevitore {#receiver-connection}
+### Receiver connection setting {#receiver-connection}
 
 Questa sezione è visibile solo in separata **trasmettitore+ricevitore** modalità.
 
@@ -470,21 +470,21 @@ Per impostazione predefinita, il campo del numero di origine non viene passato, 
 
 Questo abilita la funzione di sostituzione dell’indirizzo del mittente/oADC.
 
-#### Codice breve {#short-code}
+#### Short code {#short-code}
 
-Indica il codice breve principale dell&#39;account. Se per questo account vengono utilizzati più codici brevi o se il codice breve è sconosciuto, lasciare vuoto questo campo.
+Indicates the main short code of the account. Se per questo account vengono utilizzati più codici brevi o se il codice breve è sconosciuto, lasciare vuoto questo campo.
 
-È utile specificare un codice breve per due funzioni:
+Specifying short code is helpful for two features:
 
-* L&#39;anteprima mostrerà il codice breve se non viene fornito alcun numero di origine. Rifletterà il comportamento reale sul cellulare.
+* The preview will display the short code if no source number is provided. Rifletterà il comportamento reale sul cellulare.
 
 * L&#39;impostazione di elenco Bloccati della funzione di risposta automatica invia solo all&#39;utente la quarantena per un codice breve specifico.
 
 #### Origine TON/NPI, destinazione TON/NPI {#ton-npi}
 
-TON (Tipo di numero) e NPI (Indicatore del piano di numerazione) sono descritti nella sezione 5.2.5 del [Specifiche di SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (pagina 117). Questi valori devono essere impostati sulle esigenze del provider.
+TON (Type Of Number) and NPI (Numbering Plan Indicator) are described in section 5.2.5 of the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 117). Questi valori devono essere impostati sulle esigenze del provider.
 
-Sono trasmessi così come sono `source_addr_ton`, `source_addr_npi`, `dest_addr_ton` e `dest_addr_npi` campi `SUBMIT_SM PDU`.
+They are transmitted as-is in `source_addr_ton`, `source_addr_npi`, `dest_addr_ton` and `dest_addr_npi` fields of the `SUBMIT_SM PDU`.
 
 #### Tipo di servizio {#service-type}
 
@@ -498,7 +498,7 @@ Queste impostazioni controllano tutti gli aspetti temporali del canale SMPP. Alc
 
 La finestra è il numero di `SUBMIT_SM PDU`che può essere inviato senza attendere una corrispondenza `SUBMIT_SM_RESP`.
 
-Esempio di trasmissione con finestra massima 4:
+Example of a transmission with a maximum window of 4:
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
@@ -564,9 +564,9 @@ La mappatura predefinita utilizzata quando la casella di controllo non è selezi
 | 0 | GSM |
 | 9 | UCS-2 |
 
-Questo significa che l’MTA cercherà di codificare il messaggio in GSM. Se ha successo, lo invierà con `data_coding` impostato su 0.
+This means that the MTA will try to encode the message in GSM. Se ha successo, lo invierà con `data_coding` impostato su 0.
 
-Se il messaggio non può essere codificato in GSM, verrà codificato in UCS-2 e verrà impostato `data_coding` 8.
+If the message cannot be encoded in GSM, it will be encoded in UCS-2 and will set `data_coding` to 8.
 
 #### Abilita message_payload {#enable-message-payload}
 
@@ -574,7 +574,7 @@ Se questa opzione è deselezionata, l’SMS lungo viene suddiviso dall’MTA e i
 
 Se questa opzione è selezionata, l’SMS lungo verrà inviato in una delle PDU SUBMIT_SM, inserendo il testo nel campo opzionale message_payload . Consulta la sezione [Specifiche SMPP](../../administration/using/sms-protocol.md#ACS-SMPP-connector) per ulteriori dettagli.
 
-Se questa funzione è abilitata, Adobe Campaign non sarà in grado di contare le parti SMS singolarmente: tutti i messaggi saranno conteggiati come inviati in una parte.
+If this feature is enabled, Adobe Campaign will be unable to count SMS parts individually: all messages will be counted as sent in one part.
 
 #### Invia il numero di telefono completo {#send-full-phone-number}
 
@@ -664,9 +664,9 @@ Indica il formato dell&#39;ID acquisito dal `Extraction` regex dell&#39;ID nell&
 
 **ID SR o codice di errore nel campo opzionale**
 
-Se questa opzione è selezionata, il contenuto dei campi facoltativi verrà aggiunto al testo elaborato dalle regex sopra riportate. Il testo avrà il formato `0xTAG:VALUE`, `0xTAG` il valore esadecimale a 4 cifre del tag in maiuscolo, ad esempio `0x002E`.
+If checked, the content of optional fields will be appended to the text processed by regexes above. The text will have the format `0xTAG:VALUE`, `0xTAG` being the 4-digit hexadecimal value of the tag in upper case e.g. `0x002E`.
 
-Ad esempio, puoi acquisire l’ID in `receipted_message_id` campo . A questo scopo, abilita questa casella di controllo e il seguente testo verrà aggiunto allo stato :
+For example, you might want to capture the ID in the `receipted_message_id` field. A questo scopo, abilita questa casella di controllo e il seguente testo verrà aggiunto allo stato :
 
 ```
 0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
@@ -674,7 +674,7 @@ Ad esempio, puoi acquisire l’ID in `receipted_message_id` campo . A questo sco
 
 In questo esempio, 0x001E è il tag del campo facoltativo e l’UUID è il valore del campo.
 
-Per acquisire questo valore, ora puoi impostare il seguente regex nel regex di estrazione dell’ID nel campo SR:
+In order to capture this value, you may now set the following regex in the Extraction regex of the ID in the SR field:
 
 ```
 \b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
@@ -682,7 +682,7 @@ Per acquisire questo valore, ora puoi impostare il seguente regex nel regex di e
 
 >[!IMPORTANT]
 >
->È possibile acquisire solo campi facoltativi con valori di testo (ASCII/UTF-8). In particolare, i campi binari non possono essere acquisiti in modo affidabile con il sistema regex corrente.
+>You can only capture optional fields that have text (ASCII/UTF-8) values. In particolare, i campi binari non possono essere acquisiti in modo affidabile con il sistema regex corrente.
 
 **ID SR o codice di errore nel campo di testo**
 

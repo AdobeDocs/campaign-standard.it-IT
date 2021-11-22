@@ -125,7 +125,7 @@ R: Amministratori del **[!UICONTROL Organizational unit]** TUTTI avranno i dirit
 
 ### D: Se l&#39;unità organizzativa dell&#39;applicazione mobile SDK v4 è impostata su A e l&#39;applicazione SDK Adobe Experience Platform è impostata su B (un livello di pari livello dell&#39;unità organizzativa A). Come posso eseguire la migrazione della mia app mobile? {#aep-org-unit}
 
-R: Applicazione SDK Adobe Experience Platform come risorsa di pari livello **[!UICONTROL Organizational unit]**, l’app mobile non sarà visibile agli utenti del **[!UICONTROL Organizational unit]** A. L’app mobile sarà disponibile per gli amministratori del **[!UICONTROL Organizational unit]** TUTTO, ma si sconsiglia a questi amministratori di eseguire la migrazione dell’app mobile.
+R: Applicazione SDK Adobe Experience Platform come risorsa di pari livello **[!UICONTROL Organizational unit]**, l’app mobile non sarà visibile agli utenti del **[!UICONTROL Organizational unit]** A. L’app mobile sarà disponibile per gli amministratori del **[!UICONTROL Organizational unit]** TUTTO ma non consigliamo a questi amministratori di eseguire la migrazione dell’app mobile.
 In questo caso, è necessario spostare le applicazioni mobili nello stesso **[!UICONTROL Organizational unit]** o **[!UICONTROL Organizational unit]** con un collegamento principale.
 Per ulteriori informazioni su **[!UICONTROL Organizational unit]** fai riferimento a questo [sezione](../../administration/using/organizational-units.md).
 

@@ -19,7 +19,7 @@ ht-degree: 15%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Preparare e testare</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Invio, monitoraggio e tracciamento</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Send, monitor and track</a></p></td>
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Linee guida sul recapito messaggi</a></p></td></tr>
 </table>
 
@@ -35,13 +35,13 @@ Infine, sfrutta le linee guida sul recapito messaggi e gli strumenti disponibili
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **preparazione dei messaggi** analizza il target, la personalizzazione e la validità del messaggio. Gli errori rilevati durante questo passaggio devono essere corretti prima di poter procedere oltre.
+Campaign Standard **message preparation** analyzes the target, the personalization and the validity of the message. Gli errori rilevati durante questo passaggio devono essere corretti prima di poter procedere oltre.
 
 **Anteprima e test** i messaggi utilizzando varie funzionalità: invia bozze per testare profili o profili di destinazione, verifica la riga dell’oggetto delle e-mail e controlla il rendering dei messaggi per assicurarti che vengano visualizzati in modo ottimale su una varietà di client web, e-mail web e dispositivi.
 
-Sfrutta le funzionalità di pianificazione di Campaign per definire quando verranno inviati i messaggi. Ad esempio, puoi adattare l’invio al fuso orario del destinatario, ottimizzare l’ora di invio o calcolare la data di invio.
+Leverage Campaign scheduling capabilities to define when your messages will be sent. Ad esempio, puoi adattare l’invio al fuso orario del destinatario, ottimizzare l’ora di invio o calcolare la data di invio.
 
-Utilizzo **tipologie** per verificare durante la preparazione se il messaggio è valido e soddisfa i criteri di qualità tramite regole di affaticamento, controllo e targeting. Ad esempio, per verificare che le e-mail contengano sempre un oggetto o per escludere i non abbonati dai destinatari del messaggio.
+Use **typologies** to check during the preparation wether your message is valid and meets your quality criteria through fatigue, control and targeting rules. Ad esempio, per verificare che le e-mail contengano sempre un oggetto o per escludere i non abbonati dai destinatari del messaggio.
 
 Leggi tutto:
 
@@ -56,7 +56,7 @@ Leggi tutto:
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Quando il messaggio è pronto, puoi confermare l’invio e accedere ai registri e ai rapporti di **monitorare la consegna** e misurare il successo della campagna. Adobe Campaign fornisce inoltre un sistema di avvisi e-mail per tenere traccia dei successi o degli errori di consegna e delle funzionalità di gestione della quarantena.
+Once your message is ready, you can confirm the sending and access logs and reports to **monitor the delivery** and measure the success of your campaign. Adobe Campaign fornisce inoltre un sistema di avvisi e-mail per tenere traccia dei successi o degli errori di consegna e delle funzionalità di gestione della quarantena.
 
 **Tracciare il comportamento** dei destinatari del messaggio utilizzando sessioni e cookie permanenti per recuperare informazioni di tracciamento (URL su cui è stato fatto clic, pagine mirror, messaggi aperti..).
 
@@ -83,8 +83,8 @@ Leggi tutto:
 
 * [Informazioni sul recapito messaggi](../../sending/using/about-deliverability.md)
 * [Monitoraggio del recapito messaggi](../../sending/using/monitor-deliverability.md)
-* [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it)
-* [Controllo della velocità effettiva di consegna](../../reporting/using/delivery-throughput.md)
+* [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it)
+* [Controlling Delivery throughput](../../reporting/using/delivery-throughput.md)
 
 ## Risorse aggiuntive
 
@@ -93,7 +93,7 @@ Leggi tutto:
 * [Best practice per la consegna](../../sending/using/delivery-best-practices.md)
 * [Aggiunta di un gruppo di controllo](../../sending/using/control-group.md)
 
-## Video tutorial {#video}
+## Tutorial video {#video}
 
 Questo video mostra come inviare un’e-mail di prova, preparare e quindi inviare una consegna e-mail in Campaign Standard.
 

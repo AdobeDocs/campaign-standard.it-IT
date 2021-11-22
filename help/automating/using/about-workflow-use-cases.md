@@ -1,6 +1,6 @@
 ---
 title: Informazioni sui casi d’uso dei flussi di lavoro
-description: Ulteriori informazioni sui casi d’uso che è possibile eseguire utilizzando i flussi di lavoro di Campaign Standard.
+description: Learn more on use cases that you can perform using Campaign Standard workflows.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management

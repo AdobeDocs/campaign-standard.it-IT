@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Please reach out to Adobe Customer Care if you would like access.
+>Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
 
 Adobe Campaign Standard ti consente di attivare l’acquisizione immediata delle mappature dati tramite API e di recuperare lo stato delle richieste di acquisizione.
 
@@ -36,7 +36,7 @@ Una volta creata la mappatura dei dati, devi impedirne l’esecuzione in modo da
 
 1. In Campaign Standard, vai alla pagina **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
-1. Double-click the data mapping to open it, then click the **[!UICONTROL Stop]** button.
+1. Fai doppio clic sulla mappatura dati per aprirla, quindi fai clic sul pulsante **[!UICONTROL Stop]** pulsante .
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -97,7 +97,7 @@ L&#39;operazione POST restituisce informazioni sullo stato della richiesta creat
 
 ## Recupero dello stato di una richiesta di acquisizione {#retrieving-status}
 
-The status of an ingestion request can be retrieved with a GET operation and the desired request ID in the parameters:
+Lo stato di una richiesta di acquisizione può essere recuperato con un’operazione GET e l’ID di richiesta desiderato nei parametri:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -129,7 +129,7 @@ Le possibili risposte all’operazione di GET sono:
    }
    ```
 
-* Ingest request failed with 0 record ingested:
+* Richiesta di acquisizione non riuscita con 0 record acquisito:
 
    ```
    {
@@ -141,7 +141,7 @@ Le possibili risposte all’operazione di GET sono:
    }
    ```
 
-* Ingest request failed, with some record uploaded under a batch:
+* Richiesta di acquisizione non riuscita, con alcuni record caricati in un batch:
 
    ```
    {
@@ -153,7 +153,7 @@ Le possibili risposte all’operazione di GET sono:
    }
    ```
 
-* Ingest request aborted after ingesting some records (this may happen in crash scenarios):
+* Richiesta di acquisizione interrotta dopo l’acquisizione di alcuni record (questo può accadere in scenari di arresto anomalo):
 
    ```
    {
