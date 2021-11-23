@@ -16,7 +16,7 @@ exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -115,6 +115,6 @@ In qualità di titolare del trattamento assicurati che, quando ricevi una richie
 
 **Un interessato i cui dati sono stati eliminati da Adobe Campaign può fornire di nuovo il consenso in un secondo momento?**
 
-È possibile che un interessato rinunci o venga aggiunto come nuovo destinatario dopo la cancellazione dei propri dati da Adobe Campaign.
+È possibile che un interessato decida di fornire nuovamente il consenso o che venga aggiunto come nuovo destinatario dopo che i suoi dati sono stati eliminati da Adobe Campaign.
 
 Puoi utilizzare l’audit trail, che illustra quando è avvenuta l’eliminazione precedente e quando è stato creato il nuovo destinatario.

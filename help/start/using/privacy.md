@@ -15,8 +15,8 @@ level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -126,7 +126,7 @@ Per ulteriori informazioni su queste funzioni e su come gestirle in Adobe Campai
 
 * Il **diritto di accesso** è il diritto dell’interessato di ottenere conferma da parte del titolare del trattamento sul fatto che i dati personali che lo riguardano siano trattati o meno, su dove avvenga il trattamento e sullo scopo del trattamento.
 
-* La **Diritto all&#39;oblio** (richiesta di cancellazione) concede all’interessato il diritto di richiedere al titolare del trattamento di cancellare i propri dati personali.
+* Il **diritto all’oblio** (richiesta di cancellazione) autorizza l’interessato a richiedere che il titolare del trattamento cancelli i suoi dati personali.
 
 >[!NOTE]
 >
