@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ Per comprendere il funzionamento delle notifiche iOS, è necessario specificare 
 * **Sfondo**: quando l’app is non è sullo schermo ma il processo non è chiuso. Quando fai doppio clic sul pulsante Home, in genere mostra tutte le app che sono in background.
 * **Disattivato/chiuso**: un&#39;app il cui processo è stato interrotto.
 
-Se un’app viene chiusa, Apple non chiamerà l’app finché non viene riavviata. Questo significa che non potrai sapere quando la notifica è stata ricevuta su iOS.
-
 Per poter ancora **[!UICONTROL Impression]** tracciamento del funzionamento mentre l’app è in background che dobbiamo inviare **[!UICONTROL Content-Available]** per comunicare all’app che è necessario eseguire il tracciamento.
 
 >[!CAUTION]
 >
->Il tracciamento delle impression iOS non è accurato e non deve essere considerato affidabile.
+> Se un’app viene chiusa, Apple non chiamerà l’app finché non viene riavviata. Questo significa che non potrai sapere quando la notifica è stata ricevuta su iOS. </br> Per questo motivo, il tracciamento delle impression di iOS potrebbe non essere accurato e non deve essere considerato affidabile.
 
 Per le consegne create prima della versione 21.1 o le consegne con modello personalizzato, fai riferimento a questo [sezione](../../administration/using/push-tracking.md#about-push-tracking).
 
