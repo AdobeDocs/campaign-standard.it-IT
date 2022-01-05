@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Per ulteriori informazioni sulle dimensioni di targeting e sulle risorse, consul
 **Esempio 1: identificazione dei profili target interessati dalla consegna con l’etichetta “Bentornato”**.
 
 * In questo caso, desideri eseguire il targeting dei profili. Imposta la dimensione di targeting su **[!UICONTROL Profiles (profile)]**.
-* Desideri filtrare i profili selezionati in base all’etichetta di consegna. Pertanto, imposta la risorsa su **[!UICONTROL Delivery logs]**. In questo modo filtri direttamente nella tabella dei registri di consegna, che offre prestazioni migliori.
+* Desideri filtrare i profili selezionati in base all’etichetta di consegna. Pertanto, imposta la risorsa su **[!UICONTROL Delivery logs]**. In questo modo, filtriamo direttamente nella tabella dei registri di consegna, che offrirà prestazioni migliori.
 
 ![](assets/targeting_dimension6.png)
 

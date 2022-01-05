@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 40%
+source-wordcount: '553'
+ht-degree: 37%
 
 ---
 
@@ -34,6 +34,10 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 * Importazione dei dati nel database di Campaign.
 * Processi tecnici come la pulizia del database, il recupero delle informazioni di tracciamento, eccetera.
 
+>[!IMPORTANT]
+>
+> Adobe consiglia ai clienti di non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente e di assegnare priorità e distribuire l’esecuzione del flusso di lavoro nel tempo. Per ulteriori informazioni, consulta le best practice fornite in [questa pagina](../../automating/using/best-practices-workflows.md).
+
 ## Attività del flusso di lavoro {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
@@ -46,7 +50,7 @@ Con [Attività di esecuzione](../../automating/using/about-execution-activities.
 
 Infine, [Attività di gestione dati](../../automating/using/about-data-management-activities.md) consente di manipolare i dati dal database.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)
 * [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md)
@@ -60,7 +64,7 @@ Sfruttare **editor di query** per filtrare i dati dal database e creare una popo
 
 L’editor delle query viene fornito con **filtri e regole predefiniti** per un filtraggio rapido e semplice. Tuttavia, puoi anche utilizzare **modifica avanzata delle espressioni** funzionalità. Questo ti consente di inserire manualmente le condizioni e utilizzare le funzioni, al fine di creare le tue regole.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Modifica delle query](../../automating/using/editing-queries.md)
 * [Modifica avanzata delle espressioni](../../automating/using/advanced-expression-editing.md)
@@ -82,7 +86,7 @@ Sfruttamento [Pacchetti](../../automating/using/managing-packages.md) per scambi
 
 Infine, [Esportazione di elenchi](../../automating/using/exporting-lists.md) consente di esportare qualsiasi elenco da Campaign Standard, ad esempio l’elenco dei profili di test, l’elenco degli indirizzi e-mail della quarantena e così via.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Importazione ed esportazione di dati](../../automating/using/about-data-import-and-export.md)
 * [Caso di utilizzo: esportazione/importazione di risorse personalizzate](../../automating/using/exporting-importing-custom-resources.md)

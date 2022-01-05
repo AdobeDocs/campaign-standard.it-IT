@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 84%
+source-wordcount: '1200'
+ht-degree: 80%
 
 ---
 
@@ -47,12 +47,15 @@ Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, pas
 
 ### Numero di flussi di lavoro
 
-Per impostazione predefinita, consigliamo di non avviare più di 20 esecuzioni di flussi di lavoro attivi in contemporanea. Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influenzare le prestazioni. Analogamente, Adobe consiglia di distribuire l’esecuzione del flusso di lavoro nel tempo.
-In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di lavoro. Questa impostazione non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata. In tal caso, devi consultare un esperto di Campaign e contattare anche l’Assistenza cliente Adobe per aumentare il limite.
+Per impostazione predefinita, è consigliabile **non eseguire più di 20 esecuzioni di flussi di lavoro attivi simultaneamente** (questo non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata). Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influenzare le prestazioni.
 
->[!NOTE]
+In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di lavoro. In tal caso, devi consultare un esperto di Campaign e contattare anche l’Assistenza cliente Adobe per aumentare il limite.
+
+>[!IMPORTANT]
 >
->Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verifica se la memoria fisica del sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, un messaggio ti informa che l’esecuzione del flusso di lavoro verrà ritardata fino a quando il caricamento sul server non si esaurisce e la memoria del sistema aumenta.
+>Anche se non raggiungi la soglia dei 20 flussi di lavoro, Adobe consiglia di: **distribuire l’esecuzione del flusso di lavoro nel tempo**. Lo scaglionamento dell’esecuzione dei flussi di lavoro garantirà prestazioni migliori dell’istanza.
+
+Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verifica se la memoria fisica del sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, un messaggio ti informa che l’esecuzione del flusso di lavoro verrà ritardata fino a quando il caricamento sul server non si esaurisce e la memoria del sistema aumenta.
 
 ### Frequenza
 

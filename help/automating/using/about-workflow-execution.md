@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '353'
 ht-degree: 8%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 Un flusso di lavoro viene sempre avviato manualmente. Tuttavia, una volta avviato, può rimanere inattivo, a seconda delle informazioni specificate in un [Scheduler](../../automating/using/scheduler.md) attività.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe consiglia ai clienti di assegnare priorità alle esecuzioni dei flussi di lavoro ed eseguire fino a venti esecuzioni simultanee dei flussi di lavoro per ottenere in modo coerente le prestazioni massime in tutta l’istanza. Puoi pianificare più di venti esecuzioni simultanee di flussi di lavoro ed eseguirle in sequenza per impostazione predefinita. È possibile modificare le impostazioni predefinite per il numero massimo di esecuzioni simultanee di flussi di lavoro inviando un ticket all’Assistenza clienti.
+> Adobe consiglia ai clienti di non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente e di assegnare priorità e distribuire l’esecuzione del flusso di lavoro nel tempo. Per ulteriori informazioni, consulta le best practice fornite in [questa pagina](../../automating/using/best-practices-workflows.md).
 
 Azioni relative all’esecuzione (avvio, arresto, pausa, ecc.) sono **asincrono** processi: il comando viene salvato e diventerà effettivo una volta che il server sarà disponibile per applicarlo.
 
