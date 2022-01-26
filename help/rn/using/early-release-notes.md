@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni inclusi nella 
 * Dopo aver inviato i messaggi in-app, ora puoi scegliere di disattivare la consegna. Ciò ti consente di eliminare la consegna senza perdere dati di reporting. (CAMP-48469)
 * Per evitare problemi, gli utenti non possono più utilizzare lo stesso nome per una colonna di tabella personalizzata di quella utilizzata per la chiave primaria automatica nel database, `"<dataType><resourceName>Id"`. (CAMP-49358)
 * Ora puoi monitorare la consegna e tenere traccia dei registri di lavoro con il nuovo **Storico dei processi** dal dashboard dei messaggi. (CAMP-49840)
+* È stata migliorata la stabilità e la salute del database, riducendo le coppie morte, quando un gran numero di messaggi vengono inviati in tutti i canali nel tempo. (CAMP-49755, CAMP-49792, CAMP-49849)
+* Per garantire l’aggiornamento automatico delle connessioni al database in caso di arresto anomalo o riavvio del database, sono stati implementati miglioramenti in Campaign Mail Transfer Agent (MTA). (CAMP-48063)
+
 
 **Patch**
 
