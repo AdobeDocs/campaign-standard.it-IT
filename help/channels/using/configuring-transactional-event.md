@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1705'
 ht-degree: 6%
 
 ---
@@ -122,6 +122,10 @@ Per ulteriori informazioni sulla creazione e la pubblicazione delle risorse, con
 1. Utilizza la **[!UICONTROL Create element]** per collegare un campo dalla risorsa selezionata a uno dei campi precedentemente aggiunti all’evento (vedi [Definizione degli attributi dell’evento](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
+
+   >[!NOTE]
+   >
+   >Se definisci una condizione che possa consentire la selezione di più destinatari (ad esempio un campo che può avere lo stesso valore per più profili), non verrà eseguito il targeting per più di un profilo.
 
 1. In questo esempio, riconciliiamo il **[!UICONTROL Last name]** e **[!UICONTROL First name]** i campi con i campi corrispondenti nel campo **[!UICONTROL Profile]** risorsa.
 

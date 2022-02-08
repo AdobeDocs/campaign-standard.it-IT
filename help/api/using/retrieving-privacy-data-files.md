@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 21%
+source-wordcount: '165'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->La [Servizio core Privacy](https://adobe.io/apis/cloudplatform/gdpr.html?lang=it) L&#39;integrazione è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventa obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse da Campaign Standard, consulta [questa pagina](../../rn/using/deprecated-features.md).
+>La [Servizio core Privacy](https://adobe.io/apis/cloudplatform/gdpr.html?lang=it) L&#39;integrazione è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Per recuperare il file contenente tutte le informazioni associate a un valore di riconciliazione, segui questa procedura in tre passaggi:
 

@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Per eseguire questa operazione:
 1. Scegliere la parola chiave che attiverà questa risposta automatica. Le parole chiave non sono sensibili all’uso di maiuscole e minuscole. Ad esempio, in questo caso, se i destinatari inviano la parola chiave &quot;STOP&quot;, riceveranno la risposta automatica.
 
    Lasciare vuota questa colonna se si desidera inviare la stessa risposta indipendentemente dalla parola chiave.
+
+   >[!IMPORTANT]
+   >
+   >Sono autorizzati solo i caratteri alfanumerici.
 
    ![](assets/sms_mo_2.png)
 

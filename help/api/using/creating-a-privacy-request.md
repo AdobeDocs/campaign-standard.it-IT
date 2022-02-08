@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->La [Servizio core Privacy](https://adobe.io/apis/cloudplatform/gdpr.html?lang=it) L&#39;integrazione è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. A partire dalla versione 19.4, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventa obsoleto. Per ulteriori informazioni sulle funzioni obsolete e rimosse da Campaign Standard, consulta [questa pagina](../../rn/using/deprecated-features.md).
+>La [Servizio core Privacy](https://adobe.io/apis/cloudplatform/gdpr.html?lang=it) L&#39;integrazione è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Le richieste di privacy vengono create utilizzando un **POST** richiesta.
 
-Prima di creare le richieste, devi definire lo spazio dei nomi da utilizzare. Per ulteriori informazioni, consulta la [Documentazione sulla gestione della privacy](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Prima di creare le richieste, devi definire lo spazio dei nomi da utilizzare. Per ulteriori informazioni, consulta la [Documentazione sulla gestione della privacy](../../start/using/privacy-requests.md).
 
 Il payload deve contenere i seguenti parametri:
 

@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -159,6 +159,18 @@ Una volta completata la preparazione della consegna ed eseguiti i passaggi di ap
    ![](assets/inapp_sending_7.png)
 
 1. Misura l’impatto dei messaggi in-app con i rapporti di consegna. Per ulteriori informazioni sul reporting, consulta [questa sezione](../../reporting/using/in-app-report.md).
+
+1. Dopo aver inviato i messaggi in-app, puoi scegliere di disattivare la consegna. Questa funzione può essere utile se desideri interrompere una consegna particolare o se desideri eseguire una nuova consegna con lo stesso trigger, ad esempio.
+
+   Fai clic su **[!UICONTROL Deactivate]** then **[!UICONTROL Ok]** per avviare la richiesta di disattivazione.
+
+   ![](assets/inapp_sending_8.png)
+
+1. Una volta inviata la richiesta, la consegna verrà disattivata e non verrà inviato nessun altro messaggio.
+
+   Tieni presente che i tuoi rapporti per questa consegna saranno ancora accessibili.
+
+   ![](assets/inapp_sending_9.png)
 
 **Argomenti correlati:**
 
