@@ -1,18 +1,15 @@
 ---
 title: Account esterni
-description: Configura account esterni per impostare connessioni con sistemi esterni quali i server SFTP.
+description: Scopri come configurare account esterni per configurare connessioni con sistemi esterni come i server SFTP
 audience: administration
-content-type: reference
-topic-tags: application-settings
-context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1763'
-ht-degree: 81%
+source-wordcount: '1766'
+ht-degree: 80%
 
 ---
 

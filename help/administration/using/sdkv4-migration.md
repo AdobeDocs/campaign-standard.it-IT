@@ -1,17 +1,14 @@
 ---
 title: Migrazione dell’SDK v4 per applicazioni mobili all’SDK per Adobe Experience Platform
-description: Questo documento consente di migrare l’app mobile da SDK v4 a Adobe Experience Platform SDK
+description: Scopri come migrare la tua app mobile dall’SDK v4 a Adobe Experience Platform SDK
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1200'
 ht-degree: 1%
 
 ---
@@ -125,7 +122,7 @@ R: Amministratori del **[!UICONTROL Organizational unit]** TUTTI avranno i dirit
 
 ### D: Se l&#39;unità organizzativa dell&#39;applicazione mobile SDK v4 è impostata su A e l&#39;applicazione SDK Adobe Experience Platform è impostata su B (un livello di pari livello dell&#39;unità organizzativa A). Come posso eseguire la migrazione della mia app mobile? {#aep-org-unit}
 
-R: Applicazione SDK Adobe Experience Platform come risorsa di pari livello **[!UICONTROL Organizational unit]**, l’app mobile non sarà visibile agli utenti del **[!UICONTROL Organizational unit]** A. L’app mobile sarà disponibile per gli amministratori del **[!UICONTROL Organizational unit]** TUTTO ma non consigliamo a questi amministratori di eseguire la migrazione dell’app mobile.
+R: Applicazione SDK Adobe Experience Platform come risorsa di pari livello **[!UICONTROL Organizational unit]**, l’app mobile non sarà visibile agli utenti del **[!UICONTROL Organizational unit]** A. L’app mobile sarà disponibile per gli amministratori del **[!UICONTROL Organizational unit]** TUTTO, ma si sconsiglia a questi amministratori di eseguire la migrazione dell’app mobile.
 In questo caso, è necessario spostare le applicazioni mobili nello stesso **[!UICONTROL Organizational unit]** o **[!UICONTROL Organizational unit]** con un collegamento principale.
 Per ulteriori informazioni su **[!UICONTROL Organizational unit]** fai riferimento a questo [sezione](../../administration/using/organizational-units.md).
 

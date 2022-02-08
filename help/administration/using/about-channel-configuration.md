@@ -1,14 +1,12 @@
 ---
 title: Informazioni sulla configurazione dei canali
-description: '"Ogni canale deve essere configurato: configurazione tecnica, proprietà dei messaggi e modelli."'
+description: Scopri come configurare i canali, inclusa la configurazione tecnica, le proprietà dei messaggi e i modelli
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%
