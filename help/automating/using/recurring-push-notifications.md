@@ -1,14 +1,11 @@
 ---
 title: Invio di una notifica push ricorrente con un flusso di lavoro
-description: In questo esempio, una notifica push personalizzata viene inviata ogni primo giorno del mese alle 20:00 agli abbonati della tua app mobile a seconda del loro fuso orario.
-audience: automating
-content-type: reference
-topic-tags: channel-activities
+description: In questo esempio, una notifica push personalizzata viene inviata ogni primo giorno del mese alle 20:00 agli abbonati della tua app mobile a seconda del loro fuso orario
 feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%

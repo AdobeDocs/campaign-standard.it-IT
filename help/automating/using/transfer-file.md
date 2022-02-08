@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
+source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 84%
+source-wordcount: '1168'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,11 @@ Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati
    Puoi:
 
    * **[!UICONTROL Delete the source files after transfer]**: cancella i file sul server remoto. Se non selezioni questa opzione, assicurati di monitorare manualmente le dimensioni del contenuto archiviato nella directory SFTP.
-   * **[!UICONTROL Disable passive mode]**: consente di specificare la porta di connessione da utilizzare per il trasferimento dei dati.
+
+   * **[!UICONTROL Sorting files]**: consente di ordinare i file in modo alfanumerico. Questa opzione è disabilitata per impostazione predefinita.
+
+      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
    * **[!UICONTROL List all files]**: questa opzione è disponibile quando selezioni **[!UICONTROL File listing]** nell&#39;azione **[!UICONTROL General]** scheda . Ti consente di indicizzare tutti i file presenti sul server nella variabile dell’evento **vars.filenames**, in cui i nomi dei file sono separati da **“n”** caratteri.
 
 1. La sezione **[!UICONTROL If no files are found]** della scheda **[!UICONTROL Advanced options]** ti permette di configurare azioni specifiche in caso di errori o file inesistenti rilevati all’avvio dell’attività.
@@ -80,6 +84,8 @@ Con questo protocollo, puoi scegliere di **[!UICONTROL Use connection parameters
 
 Puoi anche scegliere l’opzione **[!UICONTROL Quick configuration]**. Devi solo inserire l’URL nel relativo campo.
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** e **[!UICONTROL Add received HTTP headers to the file]** sono le opzioni aggiuntive disponibili quando selezioni il protocollo HTTP.
 
 ### Configurazione con SFTP {#SFTP-configuration-wf}
 

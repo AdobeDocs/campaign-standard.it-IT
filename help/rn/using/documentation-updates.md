@@ -1,23 +1,34 @@
 ---
 title: Aggiornamenti alla documentazione
-description: Scopri tutti gli aggiornamenti più recenti della documentazione di Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+description: Scopri tutti gli aggiornamenti più recenti della documentazione di Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
 workflow-type: tm+mt
-source-wordcount: '6933'
-ht-degree: 100%
+source-wordcount: '7089'
+ht-degree: 97%
 
 ---
 
 # Aggiornamenti alla documentazione{#documentation-updates}
 
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti nella documentazione di Adobe Campaign Standard.
+
+## Febbraio 2022 {#doc-updates-feb-2022}
+
+È stato migliorato il meccanismo di esecuzione di nuovi tentativi per le consegne, compreso il contenuto importato da un URL. [Maggiori informazioni](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+È stata aggiunta una nota di avviso sulle parole chiave che attivano le risposte SMS automatiche: devono contenere solo caratteri alfanumerici. [Maggiori informazioni](../../channels/using/managing-incoming-sms.md)
+
+Livello di accesso aggiornato delle opzioni che controllano Audit: opzioni precedenti per abilitare/disabilitare [Audit trail](../../administration/using/audit.md) non erano accessibili a [amministratori funzionali](../../administration/using/users-management.md#functional-administrators). Con questa modifica, il livello di accesso al controllo di audit viene modificato per fornire il controllo agli amministratori funzionali. [Maggiori informazioni](../../administration/using/audit.md#enable-disable-audit)
+
+È stata aggiunta una nota alla sezione e-mail del test A/B: se la popolazione totale è inferiore a 50 k, ogni variante deve rappresentare almeno il 10% della popolazione totale. In caso contrario, i registri visualizzeranno un avviso. [Maggiori informazioni](../../channels/using/designing-an-a-b-test-email.md)
+
+È stata aggiornata la descrizione del **[!UICONTROL Delete the source files after transfer]** in **Transfer file** attività , compreso un promemoria per monitorare manualmente le dimensioni del contenuto archiviato nella directory SFTP nel caso in cui l’opzione non sia selezionata. [Maggiori informazioni](../../automating/using/transfer-file.md)
+
+Sono stati aggiornati tutti i collegamenti obsoleti in **Privacy** sezioni. [Maggiori informazioni](../../start/using/privacy.md)
 
 ## Versione 21.3 - Settembre 2021 {#release-21-3---september-2021}
 
