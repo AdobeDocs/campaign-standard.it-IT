@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ Nel contesto specifico di un test A/B:
    * **[!UICONTROL Number of variants]**: puoi scegliere di utilizzare due o tre varianti. Se scegli tre varianti, questa scelta non può essere modificata dopo la conferma del passaggio nella procedura guidata.
    * **[!UICONTROL Winning strategy]**: seleziona il criterio da utilizzare per determinare la variante vincente.
    * **[!UICONTROL Target breakdown]**: scegli quale percentuale del target riceverà ogni variante. La percentuale rimanente riceverà la variante vincente una volta determinata. I profili di destinazione vengono selezionati in modo casuale.
+
+      >[!NOTE]
+      >
+      >Se la popolazione totale è inferiore a 50 k, ogni variante deve rappresentare almeno il 10% della popolazione totale.
+
    * **[!UICONTROL Winner sending method]**: scegli se desideri che la variante vincente sia inviata automaticamente una volta determinata o se desideri confermare manualmente l’invio alla popolazione rimanente.
    * **[!UICONTROL Test duration]**: specifica la durata del test. La variante vincente viene determinata automaticamente dopo tale durata. Puoi scegliere manualmente la variante vincente prima della fine del test dal dashboard e-mail.
 
@@ -88,4 +93,4 @@ L’e-mail viene ora definita e inviata. Puoi accedere ai relativi log e report 
 
 Nel dashboard e-mail sono disponibili diversi indicatori che ti consentono di misurare il test A/B: numero di clic, aperture, mancate consegne e così via.
 
-L’indicatore **[!UICONTROL Estimated recipient reactivity]** è un tasso che confronta il numero di destinatari che hanno fatto clic con il numero di destinatari che hanno aperto l’e-mail. Ad esempio, se 10 destinatari hanno aperto l’e-mail e 5 destinatari hanno fatto clic su di essa. Il tasso di reattività è del 50%.
+L’indicatore **[!UICONTROL Estimated recipient reactivity]** è un tasso che confronta il numero di destinatari che hanno fatto clic con il numero di destinatari che hanno aperto l’e-mail. Ad esempio, se 10 destinatari hanno aperto l’e-mail e 5 destinatari hanno fatto clic su di essa, il tasso di reattività è del 50%.
