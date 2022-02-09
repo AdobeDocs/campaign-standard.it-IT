@@ -1,21 +1,18 @@
 ---
 title: Recupero di abbonamenti
-description: Scopri come recuperare gli abbonamenti con le API.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Scopri come recuperare gli abbonamenti con le API
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 2%
+source-wordcount: '198'
+ht-degree: 1%
 
 ---
 
-# Recupero di abbonamenti {#retrieving-subscriptions}
+# Recupero di abbonamenti con API {#retrieving-subscriptions-api}
 
 ## Recupero dei profili abbonati a un servizio
 

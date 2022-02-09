@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard. '
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
-source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
-workflow-type: ht
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -490,7 +490,7 @@ ht-degree: 100%
    + Gestione dei profili {#managing-profiles}
       + [Recupero dei profili](api/using/retrieving-profiles.md)
       + [Aggiornamento dei profili](api/using/updating-profiles.md)
-      + [Creazione di profili](api/using/creating-profiles.md)
+      + [Creazione di profili](api/using/creating-profiles-api.md)
    + Gestione di servizi e abbonamenti {#managing-services-and-subscriptiopns}
       + [Creazione di un servizio](api/using/creating-a-service.md)
       + [Recupero di abbonamenti](api/using/retrieving-subscriptions.md)

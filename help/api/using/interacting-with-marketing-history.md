@@ -1,21 +1,18 @@
 ---
 title: Interazione con lo storico dei dati marketing
-description: Scopri come interagire con la cronologia di marketing dei profili.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Scopri come interagire con la cronologia di marketing dei profili
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 10%
 
 ---
 
-# Interazione con lo storico dei dati marketing {#interacting-with-marketing-history}
+# Interazione con lo storico dei dati marketing{#interacting-with-marketing-history}
 
 La **storia** endpoint ti consente di interagire con la cronologia di marketing di un profilo.
 In questo modo, ad esempio, puoi recuperare facilmente la pagina speculare per una consegna inviata a un profilo. Per farlo, segui la procedura indicata di seguito:
