@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 46bb0c52b5437d29173ab4ccb510aeef67bd5c2d
+source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '724'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 * È stata migliorata l’elaborazione dei dati di reporting per evitare il sovraccarico del sistema. (CAMP-47578)
 * Dopo aver inviato i messaggi in-app, ora puoi scegliere di disattivare la consegna. Ciò consente di eliminare la consegna senza perdere dati di reporting. (CAMP-48469)
 * Per evitare problemi, per una colonna di tabella personalizzata gli utenti non possono più utilizzare lo stesso nome utilizzato per la chiave primaria automatica nel database, `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Ora puoi monitorare la consegna e tenere traccia dei registri di processo con la nuova funzione a discesa **Job history** (Storico dei processi) nella dashboard dei messaggi. (CAMP-49840)
+* Ora puoi monitorare la consegna e tenere traccia dei registri di processo con la nuova funzione a discesa **Job history** (Storico dei processi) nella dashboard dei messaggi. [Ulteriori informazioni](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Sono state migliorate la stabilità e l‘integrità del database, riducendo le tuple morte, quando nel tempo vengono inviati un gran numero di messaggi in tutti i canali. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Sono stati implementati miglioramenti in Campaign Mail Transfer Agent (MTA), per garantire l’aggiornamento automatico delle connessioni in caso di arresto anomalo o riavvio del database. (CAMP-48063)
 
