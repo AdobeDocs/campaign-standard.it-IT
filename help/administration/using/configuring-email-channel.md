@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
 workflow-type: tm+mt
-source-wordcount: '2596'
-ht-degree: 76%
+source-wordcount: '2614'
+ht-degree: 75%
 
 ---
 
@@ -234,6 +234,7 @@ La sezione **[!UICONTROL Tracking]** contiene i seguenti parametri:
 * **[!UICONTROL Activate tracking]**: consente di attivare/disattivare il tracciamento URL del messaggio. Per gestire il tracciamento di ciascun URL del messaggio, utilizza l’icona **[!UICONTROL Links]** nella barra delle azioni di E-mail Designer. Consulta la sezione [Informazioni sugli URL tracciati](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: consente di definire la durata per la quale verrà attivato il tracciamento sugli URL.
 * **[!UICONTROL Substitution URL for expired URLs]**: puoi immettere un URL per una pagina web che verrà visualizzata alla scadenza del tracciamento.
+* **[!UICONTROL Use tracking pixel at the top of email]**: consente di spostare il pixel di tracciamento nella parte superiore dell’e-mail invece che nella parte inferiore.
 
 ### Parametri avanzati {#advanced-parameters}
 
