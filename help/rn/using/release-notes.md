@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 * Ora puoi monitorare la consegna e tenere traccia dei registri di processo con la nuova funzione a discesa **Job history** (Storico dei processi) nella dashboard dei messaggi. [Ulteriori informazioni](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Sono state migliorate la stabilità e l‘integrità del database, riducendo le tuple morte, quando nel tempo vengono inviati un gran numero di messaggi in tutti i canali. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Sono stati implementati miglioramenti in Campaign Mail Transfer Agent (MTA), per garantire l’aggiornamento automatico delle connessioni in caso di arresto anomalo o riavvio del database. (CAMP-48063)
-* Una nuova opzione di tracciamento **Utilizza il pixel di tracciamento nella parte superiore dell’e-mail** è stato aggiunto alle proprietà e-mail per spostare il pixel di tracciamento nella parte superiore dell’e-mail invece che nella parte inferiore. (CAMP-49672)
+* Una nuova opzione di tracciamento, **Use Tracking pixel at the top of the email** (Utilizza pixel di tracciamento nella parte superiore dell’e-mail), è stata aggiunta alle proprietà e-mail per spostare il pixel di tracciamento nella parte superiore dell’e-mail invece che nella parte inferiore. (CAMP-49672)
 
 **Patch**
 
