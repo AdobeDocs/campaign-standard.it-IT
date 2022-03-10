@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c9b2c376e3d3c769dc070c24a59219e8f22c8464
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,11 @@ Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di
 
 Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
 
-## Versione 22.1 - Rilascio febbraio 2022 {#release-22-1-release}
+## Versione 22.2 - Giugno 2022 {#release-22-2-release}
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle [Note preliminari sulla versione](../../rn/using/e-release-notes.md) al momento in cui vengono rilasciati gli aggiornamenti in Stage.
+Informazioni dettagliate su questa versione sono disponibili nelle Note preliminari sulla versione al momento in cui vengono rilasciati gli aggiornamenti in Stage.
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note prelimi
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>8-9 febbraio 2022<br /> </td>
+   <td>7-8 giugno 2022<br /> </td>
   </tr>
   <tr>
    <td>Produzione<br /> </td>
-   <td>15-22 febbraio 2022<br /> </td>
+   <td>14-21 giugno 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release
 
 **D: Qual è il processo di convalida?**
 
-R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+R: Con l’aggiornamento dell’istanza di gestione temporanea, Adobe consiglia di verificare che i processi e i casi di utilizzo funzionino correttamente con questa nuova versione e di segnalare eventuali problemi all’[Assistenza clienti di Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **D: Sarà possibile accedere all’istanza durante il processo di aggiornamento?**
 
@@ -82,4 +82,4 @@ R: Sì, funzioneranno. Non è possibile inviare nuove e-mail durante l’aggiorn
 
 R: Quando accedi a Campaign, viene visualizzato un pop-up di notifica della versione, con la versione più recente.
 
-Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html).
+Per eventuali altre domande, contatta l’[Assistenza clienti di Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
