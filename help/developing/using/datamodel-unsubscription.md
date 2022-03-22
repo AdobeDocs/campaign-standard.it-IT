@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Evento di annullamento sottoscrizione DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 5%
+source-wordcount: '55'
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 5%
                   <td>False</td>
                </tr>
                <tr>
-                  <td>email</td>
+                  <td>e-mail</td>
                   <td>False</td>
                   <td>string</td>
                   <td>False</td>
@@ -73,7 +73,7 @@ perEmail
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>email</td>
+    <td>e-mail</td>
     <td>string</td>
     </tr>
 </table>

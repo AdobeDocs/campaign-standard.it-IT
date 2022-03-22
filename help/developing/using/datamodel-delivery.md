@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Distribuzione DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 6%
+source-wordcount: '688'
+ht-degree: 13%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>FCP</td>
-                  <td>Prova</td>
+                  <td>Bozza</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -246,7 +246,7 @@ ht-degree: 6%
                         <li>Telefono - 2</li>
                         <li>Altro - altri - 120</li>
                         <li>SMS ricorrenti - smsRefresh - 31</li>
-                        <li>App mobile - pushNotification - 40</li>
+                        <li>Applicazione Mobile - pushNotification - 40</li>
                         <li>SMS transazionali - smsLightning - 61</li>
                         <li>E-mail - 0</li>
                         <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
@@ -363,7 +363,7 @@ ht-degree: 6%
                         <li>E-mail - 0</li>
                         <li>Telefono - 2</li>
                         <li>Posta diretta - carta - 3</li>
-                        <li>App mobile - pushNotification - 40</li>
+                        <li>Applicazione Mobile - pushNotification - 40</li>
                         <li>Altro - altri - 120</li>
                         <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -490,15 +490,15 @@ ht-degree: 6%
                         <li>Non riuscito - non riuscito - 87</li>
                         <li>In corso - avviato - 55</li>
                         <li>Targeting in sospeso - targetPrepPending - 11</li>
-                        <li>Personalizzazione in sospeso - messagePrepPending - 21</li>
+                        <li>Personalization in sospeso - messagePrepPending - 21</li>
                         <li>In pausa - in pausa - 75</li>
                         <li>Editing - edizione - 0</li>
                         <li>Finito - finito - 95</li>
                         <li>Conteggio in corso - targetSelection - 12</li>
                         <li>Messaggio finalizzato - messageReady - 25</li>
-                        <li>Personalizzazione o conteggio non riuscito - preparationError - 37</li>
+                        <li>Personalization o conteggio non riuscito - preparationError - 37</li>
                         <li>Arrestato - annullato - 85</li>
-                        <li>Personalizzazione in corso - messagePreparation - 22</li>
+                        <li>Personalization in corso - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
                         <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
                         <li>Arbitrato in corso - targetArbitrato - 13</li>

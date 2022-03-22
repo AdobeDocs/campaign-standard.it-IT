@@ -1,12 +1,12 @@
 ---
-title: Implementazione del tracciamento push
+title: Implementazione del tracciamento locale
 description: Scopri come garantire che il tracciamento delle notifiche push sia stato implementato correttamente in iOS e Android
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%

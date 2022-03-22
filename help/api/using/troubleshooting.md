@@ -1,14 +1,14 @@
 ---
-title: Risoluzione dei problemi
+title: Risoluzione dei problemi API
 description: Ulteriori informazioni sui problemi comuni relativi alle API di Campaign Standard
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
@@ -74,7 +74,7 @@ Nella risposta, il valore ORGANIZATION_ID deve essere lo stesso nella prima rich
 }
 ```
 
-* **Quando fai una richiesta ad Adobe.io ottieni {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Qualcosa è andato storto. Controlla l&#39;URI e riprova.&quot;}**
+* **Quando fai una richiesta ad Adobe.io ottieni {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Si è verificato un errore. Controlla l&#39;URI e riprova.&quot;}**
 
 Adobe.io dichiara l&#39;URI non valido: probabilmente l’URI richiesto non è valido. Su Adobe.io quando selezioni il servizio Campaign ottieni un selettore con un elenco di possibili id_organizzazione . Devi verificare che quello scelto sia quello inserito nell&#39;URL.
 

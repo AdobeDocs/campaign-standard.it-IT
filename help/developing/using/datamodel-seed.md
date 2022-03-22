@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Membro del set del modello dati
 description: Scopri il modello dati
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 11%
+source-wordcount: '173'
+ht-degree: 26%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>email</td>
+                  <td>e-mail</td>
                   <td>E-mail</td>
                   <td>string (128)</td>
                   <td> </td>
@@ -105,7 +105,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>App mobile</td>
+                  <td>applicazione Mobile</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -153,7 +153,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>prova</td>
-                  <td>Prova</td>
+                  <td>Bozza</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
