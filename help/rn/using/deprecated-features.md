@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -119,7 +119,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
    <td> <p> A partire dalla versione Campaign 20.1, l’SDK v4 è diventato obsoleto. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Ulteriori informazioni</a>.</p><br/>
    <p>La <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (in precedenza denominato v5) ora supporta esclusivamente le prossime funzionalità e funzionalità di Adobe Experience Cloud.</p>
    <p>Dopo il 31 agosto 2021 i clienti potranno continuare a scaricare e utilizzare gli SDK versione 4, ma non saranno più disponibili né l’assistenza clienti né l’accesso ai forum.</p>
-   <p>Scopri come migrare da SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in questa pagina</a>.</p></br>
+   <p>Scopri come migrare dall’SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in questa pagina</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -133,7 +133,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione 21.2 di Campaign, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventerà obsoleto. L’eliminazione del profilo in due fasi non sarà disponibile. Utilizza il <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">servizio core per la privacy di Adobe</a>.</p></br>
+   <td> <p>A partire dalla versione 21.2 di Campaign, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventerà obsoleto. L’eliminazione del profilo in due fasi non sarà disponibile. Utilizza il <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">servizio core per la privacy di Adobe</a>.</p></br>
    <p>Consulta anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=it">Gestione delle richieste di accesso a dati personali</a>.</p>
   </td> 
   </tr> 

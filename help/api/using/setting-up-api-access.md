@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Per stabilire una sessione API di Adobe I/O servizio-servizio sicura, ogni richi
    * &lt;organization> : la tua istanza di produzione,
    * &lt;organization-mkt-stage>: la tua istanza del palco.
 
-   Per ottenere il valore dell’ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell&#39;elenco delle licenze (consulta <a href="https://www.adobe.io/authentication.html">Adobe documentazione IO</a>).
+   Per ottenere il valore dell’ID ORGANIZZAZIONE, rivolgiti all’amministratore o al contatto tecnico Adobe. È inoltre possibile recuperarlo in Adobe I/O durante la creazione di una nuova integrazione, nell&#39;elenco delle licenze (consulta <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe documentazione IO</a>).
 
 * **&lt;access_token>**: Token di accesso personale, recuperato durante lo scambio del token web JSON tramite una richiesta POST.
 

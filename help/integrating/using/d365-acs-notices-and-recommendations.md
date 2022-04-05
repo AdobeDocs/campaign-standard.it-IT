@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 1%
@@ -33,7 +33,7 @@ L’integrazione non emette alcun problema di privacy della persona interessata 
 
 Se hai configurato l’integrazione per emettere chiamate regolari di eliminazione dei profili in Campaign quando un contatto viene eliminato in Dynamics 365, segui i passaggi seguenti. Assicurati che non vengano apportati aggiornamenti al record in questione durante questo processo.
 
-1. Emetti la richiesta di cancellazione della privacy a [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Emetti la richiesta di cancellazione della privacy a [Adobe Experience Platform Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)
 
 1. Monitora la richiesta fino al completamento
 
@@ -103,7 +103,7 @@ L’archiviazione SFTP di Campaign deve essere utilizzata dall’integrazione ne
 >
 >Sei responsabile delle informazioni che accedi e scarica dalle cartelle SFTP. Se le informazioni contengono dati personali, l&#39;utente è responsabile del rispetto di tutte le leggi e i regolamenti sulla privacy applicabili. [Ulteriori informazioni](#acs-msdyn-manage-privacy).
 
-## Gestione dati
+## Gestione dei dati
 
 ### Dati di Campaign esistenti
 
