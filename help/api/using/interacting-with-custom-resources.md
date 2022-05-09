@@ -17,27 +17,27 @@ ht-degree: 4%
 
 # Interazione con risorse personalizzate {#interacting-with-custom-resources}
 
-La **/customResources** l’endpoint ti consente di esporre le risorse personalizzate Campaign in REST. In base a questa API, è disponibile un’integrazione tra entità personalizzate e endpoint esterni.
+La **/customResources** l’endpoint ti consente di esporre le risorse personalizzate Campaign in REST. Based on this API, an integration between custom entities and external endpoints is available.
 
-L&#39;endpoint /customResources ha esattamente lo stesso comportamento dell&#39;endpoint /profileAndServices .
+The /customResources endpoint has exactly the same behavior as /profileAndServices endpoint.
 
 Le risorse personalizzate esposte in questa API sono:
 
-* tutte le entità che non sono esposte in /profileAndServicesExt
+* all the entities that are not exposed under /profileAndServicesExt
 * tutte le entità che non sono collegate al profilo e, per queste entità, i loro figli e nipoti.
-* per impostazione predefinita, tutte le entità che non sono collegate a nulla, e i loro figli e nipoti.
+* by default, all entities that are not linked to anything, and their children and grandchildren.
 
 >[!NOTE]
 >Le risorse personalizzate disponibili in /profileAndServicesExt non sono esposte nell&#39;API /customResources.
 
 
-Ecco un esempio per recuperare i metadati da una risorsa personalizzata:
+Here is an example to retrieve the metadata from a custom resource:
 
 ```
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Per eseguire una creazione, un aggiornamento o un’eliminazione, vengono utilizzati GET, POST, PATCH e DELETE.
+To perform a creation, update or deletion, the GET, POST, PATCH, DELETE are used.
 
 ```
 POST /customResources/<customResourceName>
@@ -45,4 +45,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >L’endpoint e i flussi di lavoro API per la privacy (/privacy/privacyTool) non gestiscono le risorse personalizzate non collegate all’entità profilo.
->Sarà tua responsabilità gestire e ripulire eventuali PII per queste risorse personalizzate. Per ulteriori informazioni sullo strumento per la privacy, [fai clic qui](../../api/using/creating-a-privacy-request.md).
+>Sarà tua responsabilità gestire e ripulire eventuali PII per queste risorse personalizzate. For more information on privacy tool, [click here](../../api/using/creating-a-privacy-request.md).

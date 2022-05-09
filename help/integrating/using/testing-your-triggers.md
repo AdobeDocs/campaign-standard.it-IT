@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../.
 Se il trigger viene creato, passa al passaggio successivo. In caso contrario, significa che la connessione al punto finale dell’attivatore non è riuscita. Controlla se il provisioning di Triggers avviene in Experience Cloud (Servizi di Attivazione). In caso contrario, contatta il tuo responsabile dell&#39;account Adobe o un partner di servizi professionali. Sono necessarie le seguenti informazioni:
 
 * Nome società Marketing Cloud
-* ID organizzazione IMS
+* ID organizzazione
 * Società di accesso di Analytics (può essere la stessa del nome dell’azienda del Marketing Cloud)
 
 **Prova a pubblicare il trigger**

@@ -435,7 +435,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Dati dei punti di interesse<br /> </td> 
-   <td> I dati dei punti di interesse integrano Adobe Campaign con Adobe Analytics per Mobile. Un marchio può raccogliere dati dalle posizioni mobili degli utenti, denominate <strong>Punti di interesse</strong> - quando gli utenti aprono l’app del brand. Questo consente al brand di sfruttare i flussi di lavoro Adobe Campaign per inviare messaggi personalizzati in base alle posizioni degli utenti. Questo canale sfrutta l’SDK del servizio di base Mobile.<br /> Tieni presente che l’utilizzo di questa funzione richiede Analytics for Mobile, una soluzione a pagamento.<br /> Per ulteriori informazioni, consulta la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> I dati dei punti di interesse integrano Adobe Campaign con Adobe Analytics per dispositivi mobili. Un marchio può raccogliere dati dalle posizioni mobili degli utenti, denominate <strong>Punti di interesse</strong> - quando gli utenti aprono l’app del brand. Questo consente al brand di sfruttare i flussi di lavoro Adobe Campaign per inviare messaggi personalizzati in base alle posizioni degli utenti. Questo canale sfrutta l’SDK del servizio core Mobile.<br /> Tieni presente che l’utilizzo di questa funzione richiede Analytics for Mobile, una soluzione a pagamento.<br /> Per ulteriori informazioni, consulta la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API REST<br /> </td> 

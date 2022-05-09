@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 7%
+source-wordcount: '853'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ La funzionalità deve essere attivata in Adobe Campaign per Adobe. Contatta il t
 Per attivare i trigger, il team di Adobe dovrà disporre delle seguenti informazioni:
 
 * Nome società Marketing Cloud
-* ID organizzazione IMS
+* ID organizzazione
 * Società di accesso di Analytics (può essere la stessa del nome dell’azienda del Marketing Cloud)
 
 ## Configurazione di soluzioni e servizi {#configuring-solutions-and-services}
@@ -57,7 +57,7 @@ Devi configurare [Servizio core DTM di Experience Cloud](#configuring-experience
 
 ### Configurazione del servizio core DTM di Experience Cloud {#configuring-experience-cloud-dtm-core-service}
 
-1. In Experience Cloud DTM Core Service (Dynamic Tag Management), attiva Experience Cloud ID e Adobe Analytics per le pagine del tuo sito web.
+1. In Experience Cloud DTM Core Service (Dynamic Tag Management), attiva l’ID Experience Cloud e Adobe Analytics per le pagine del tuo sito web.
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -101,7 +101,7 @@ Fai riferimento a [Documentazione di Adobe Experience Cloud](https://experiencel
 
 Elenco delle best practice e limitazioni per l’utilizzo dell’integrazione Campaign - Triggers:
 
-* Se disponi di più istanze di Campaign Standard, i trigger possono essere ricevuti da tutte le istanze purché si trovino nello stesso ID organizzazione IMS. Anche Analytics deve trovarsi nello stesso ID organizzazione IMS.
+* Se si dispone di più istanze di Campaign Standard, è possibile ricevere i trigger da tutte le istanze purché si trovino nella stessa organizzazione. Anche Analytics deve trovarsi nella stessa organizzazione.
 * Non puoi creare un trigger nel servizio core Trigger utilizzando eventi provenienti da due suite di rapporti diverse.
 * I trigger si basano sui messaggi transazionali. I messaggi transazionali vengono utilizzati ogni volta che devi inviare un messaggio molto rapidamente. Non è possibile mettere in coda i messaggi transazionali e quindi eseguirne il ciclo in batch.
 * Gli attivatori non sono deterministici in natura. Quando viene generato un trigger, invia tutti gli alias associati al cookie, quindi nel caso di browser condivisi come nei chioschi di vendita al dettaglio, nelle librerie, nei cyber caffè o nei dispositivi condivisi a casa (marito e moglie che accedono dallo stesso dispositivo) non è possibile eseguire la mappatura all’ID corretto. Tutti gli ID utilizzati per accedere con il browser vengono inviati a Campaign che invia un messaggio in base alla prima riconciliazione. Se sono presenti più &quot;ID e-mail&quot; idonei per la riconciliazione, Campaign non invia un’e-mail. Campaign può sapere in che modo si trova l’ID e-mail corretto solo se viene acquisito e inviato da Analytics.

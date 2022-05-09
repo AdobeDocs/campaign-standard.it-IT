@@ -91,7 +91,7 @@ Se hai selezionato la **Bidirezionale** o **Unidirezionale (da Campaign a Micros
 
 ## Utilizzo di Campaign SFTP
 
-L’archiviazione SFTP di Campaign deve essere utilizzata dall’integrazione nei casi d’uso seguenti.  Devi accertarti che il tuo account SFTP abbia una capacità di archiviazione adeguata per gestire questi casi d’uso. Il superamento della capacità di archiviazione SFTP con licenza può gravemente compromettere l’utilizzo funzionale di Campaign, l’integrazione e/o l’account SFTP.
+L’archiviazione SFTP di Campaign deve essere utilizzata dall’integrazione nei casi d’uso seguenti.  Devi accertarti che il tuo account SFTP abbia una capacità di archiviazione adeguata per gestire questi casi d’uso. Il superamento della capacità di archiviazione SFTP con licenza può compromettere gravemente l’utilizzo funzionale di Campaign, l’integrazione e/o l’account SFTP.
 
 | Caso d’uso | Descrizione |
 |---|---|

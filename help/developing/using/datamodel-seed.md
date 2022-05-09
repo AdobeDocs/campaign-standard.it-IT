@@ -10,7 +10,7 @@ exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>applicazione Mobile</td>
+                  <td>App mobile</td>
                   <td>item </td>
                   <td> </td>
                </tr>

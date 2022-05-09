@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 9%
+source-wordcount: '704'
+ht-degree: 10%
 
 ---
 
@@ -37,7 +37,7 @@ Questa integrazione deve prima essere configurata. Per richiedere il provisionin
   </tr> 
   <tr> 
    <td> <strong>ID organizzazione IMS</strong><br /> </td> 
-   <td> L’ID organizzazione IMS. <br> Puoi trovare il tuo ID organizzazione IMS nell’Experience Cloud, nel menu Amministrazione . Viene fornito anche quando ci si connette per la prima volta a Adobe Experience Cloud. </td> 
+   <td> Il tuo ID organizzazione. <br> Per trovare l'ID organizzazione, fai riferimento a <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=it">questa pagina</a></td> 
   </tr> 
   <tr> 
    <td> <strong>Ambiente:</strong><br /> </td> 
