@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1532'
 ht-degree: 4%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 Inoltre, [profili di test](../../audiences/using/managing-test-profiles.md), puoi testare un messaggio e-mail posizionandoti nella posizione di uno dei profili target. Questo ti consente di ottenere una rappresentazione esatta del messaggio che il profilo riceverà (campi personalizzati, informazioni dinamiche e personalizzate, inclusi dati aggiuntivi dei flussi di lavoro...).
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Questa funzione è disponibile solo per i messaggi e-mail.
+>Questa funzione ti consente di inviare le informazioni personali del profilo agli indirizzi e-mail esterni. L’esecuzione di richieste di privacy (GDPR e CCPA) all’interno di Campaign Standard NON eseguirà la richiesta esternamente.
 
 Le fasi principali sono le seguenti:
 
@@ -35,9 +35,9 @@ Le fasi principali sono le seguenti:
 1. **Anteprima** in E-mail Designer come verrà visualizzato il messaggio per i profili.
 1. Invia le bozze.
 
->[!IMPORTANT]
->
->Questa funzione ti consente di inviare le informazioni personali del profilo agli indirizzi e-mail esterni. L’esecuzione di richieste di privacy (GDPR e CCPA) all’interno di Campaign Standard NON eseguirà la richiesta esternamente.
+   >[!IMPORTANT]
+   >
+   >Le prove vengono elaborate da [!DNL Campaign Standard] come consegne standard. Di conseguenza, l’invio di bozze utilizzando la sostituzione del profilo aggiungerà dei record ai registri di consegna e di tracciamento dei profili selezionati.
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
