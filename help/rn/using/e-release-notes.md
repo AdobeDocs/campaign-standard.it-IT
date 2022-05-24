@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 104855851906b96f79a89179108548b3dde17b4f
+source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -27,8 +27,6 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni inclusi nella 
 **Miglioramenti**
 
 * **Servizio notifiche Adobe** - Campaign viene fornito con Adobe Notification Service che consente alle soluzioni di Experience Cloud di avvisare gli utenti in tutti gli Experienci Cloud sulle attività che sono importanti per loro da conoscere. A partire dalla versione 22.2, l’esperienza utente è stata migliorata: le notifiche hanno priorità e le notifiche generate dai prodotti sono separate dagli annunci di stato degli Adobi. Inoltre, quando la notifica fa riferimento a un flusso di lavoro specifico, ora puoi accedere al flusso di lavoro corrispondente direttamente dall’e-mail o dalla notifica all’interno del prodotto.  Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta [Notifiche Adobe Campaign](../../administration/using/sending-internal-notifications.md).
-
-* **Avvio ritardato del flusso di lavoro** - Ora puoi ritardare l’esecuzione dei flussi di lavoro per evitare il sovraccarico. Abilitato da un Adobe tramite un’opzione dedicata, questa garanzia assicura che vi sia un ritardo all’inizio tra i flussi di lavoro. Le opzioni di funzionalità consentono di impostare il numero di flussi di lavoro che possono essere eseguiti simultaneamente e il ritardo (in secondi) tra di essi.
 
 
 **Aggiornamento della sicurezza**
