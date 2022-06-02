@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 6%
@@ -87,7 +87,7 @@ L’alias precedentemente indicato in DTM deve essere creato nel servizio core P
 
    >[!NOTE]
    >
-   >Puoi riconciliare i trigger per gli utenti anonimi e quelli registrati. Per gli utenti anonimi, il profilo dovrebbe esistere in Adobe Campaign e un messaggio e-mail è stato inviato all’utente in precedenza. A questo scopo, la configurazione dell’ID visitatore è sufficiente. Tuttavia, se desideri riconciliare i trigger per gli utenti connessi, devi impostare Declared ID Data Source. Per ulteriori informazioni, consulta [Configurazione di Data Source](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Puoi riconciliare i trigger per gli utenti anonimi e quelli registrati. Per gli utenti anonimi, il profilo dovrebbe esistere in Adobe Campaign e un messaggio e-mail è stato inviato all’utente in precedenza. A questo scopo, la configurazione dell’ID visitatore è sufficiente. Tuttavia, se desideri riconciliare i trigger per gli utenti connessi, devi impostare Declared ID Data Source. Per ulteriori informazioni, consulta [Configurazione di Data Source](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Creazione di un trigger nell’interfaccia di Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
