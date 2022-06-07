@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -29,6 +29,13 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni inclusi nella 
 * **Adobe Notification Service** - Campaign viene fornito con Adobe Notification Service che consente alle soluzioni Experience Cloud di segnalare agli utenti Experience Cloud le attività pertinenti. A partire dalla versione 22.2, l’esperienza utente è stata migliorata: le notifiche seguono un ordine di priorità e quelle generate dai prodotti sono separate dagli annunci relativi allo stato dei sistemi Adobe. Inoltre, se una notifica fa riferimento a uno specifico flusso di lavoro, ora puoi accedere al flusso di lavoro corrispondente direttamente dall’e-mail o dalla notifica visualizzata all’interno del prodotto.  Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta [Notifiche di Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **Ottimizzazione all&#39;avvio del flusso di lavoro** - Adobe ha aggiunto una nuova funzionalità che può regolare il numero di flussi di lavoro che iniziano circa nello stesso momento. Questo aiuterebbe a evitare picchi di CPU che avrebbero potuto causare interruzioni del servizio o tempi di inattività. Adobe lo attiverà dopo la versione 22.2. Non vi sono ulteriori azioni sul cliente riguardo lo stesso.
+
+* **Accessibilità** - Adobe ha apportato diverse correzioni di accessibilità per migliorare la facilità d’uso complessiva dell’applicazione. Queste funzioni sono attualmente abilitate solo per i primi sviluppatori e verranno implementate a tutti i clienti nella versione ACS 2.3. Esempi di miglioramenti dell’accessibilità includono:
+
+   * Controllo dell&#39;esistenza di un indicatore di messa a fuoco visibile per gli elementi attivabili su ogni schermo
+   * Creazione di punti di riferimento per una navigazione più semplice
+   * Aggiunta di nome, ruolo, valore e stato per molti controlli
+   * Correzione dei problemi rilevati con ordine di attivazione dinamica sulle schermate principali
 
 **Aggiornamento della sicurezza**
 
