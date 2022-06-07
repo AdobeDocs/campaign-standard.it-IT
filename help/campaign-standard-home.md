@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 686626b3f544358fcede7abb1806d66565c5abbb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Novità
 
-* **[Le note sulla versione di Campaign 22.1 sono live](rn/using/release-notes.md)**<br/> Scopri le nuove funzioni, i miglioramenti e le correzioni introdotti con Campaign Standard versione 22.1
+* **[Le note sulla versione di Campaign 22.2 sono live](rn/using/release-notes.md)**<br/> Scopri le nuove funzioni, i miglioramenti e le correzioni introdotti con Campaign Standard versione 22.2
 
 * **[Domande frequenti sulla protezione della privacy di Apple Mail](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=it)**<br/> Linee guida iniziali in risposta all’annuncio di Apple riguardo iOS 15
 
