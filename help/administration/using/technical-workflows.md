@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 93%
+source-wordcount: '700'
+ht-degree: 89%
 
 ---
 
@@ -92,12 +92,12 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
    <tr> 
    <td> <span class="uicontrol">Sync with Launch</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Questo flusso di lavoro sincronizza le proprietà importate dei dispositivi mobili di Adobe Launch in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
+   <td> Questo flusso di lavoro sincronizza le proprietà del tag mobile importato in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Ripristino dei registri di tracciamento</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Questo flusso di lavoro sincronizza le proprietà importate dei dispositivi mobili di Adobe Launch in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
+   <td> Questo flusso di lavoro sincronizza le proprietà del tag mobile importato in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Recupera registri di tracciamento</span> <br /> </td> 

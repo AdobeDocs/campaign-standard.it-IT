@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 5%
+source-wordcount: '790'
+ht-degree: 4%
 
 ---
 
@@ -181,3 +181,12 @@ Il valore **N/D** può talvolta essere visualizzato nei rapporti dinamici. Quest
 
    ![](assets/troubleshooting_4.png)
 
+## I rapporti delle consegne mostrano dati incompleti quando si utilizza la mappatura personalizzata di Target
+
+Se utilizzi mappature personalizzate di Target importate nelle consegne e non vengono visualizzati dati nei diversi rapporti, ciò potrebbe significare che non sono stati creati gli arricchimenti dei rapporti per tali mappature di Target.
+
+Per risolvere il problema:
+
+* Dopo aver importato la mappatura di Target da un XML, dovrai anche importare l’arricchimento di reporting.
+
+* Invece di importare la mappatura di Target, puoi crearla direttamente in Adobe Campaign Standard, che creerà automaticamente l&#39;arricchimento di reporting.

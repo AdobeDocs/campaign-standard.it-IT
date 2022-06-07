@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
@@ -115,14 +115,14 @@ La **[!UICONTROL Share]** La scheda ti consente di inviare i rapporti con gli ut
 
       ![](assets/tab_share_4.png)
 
-   1. Seleziona i destinatari dell’e-mail facendo clic sul campo e selezionandoli nell’elenco a discesa o digitandone gli indirizzi e-mail.
+   1. Seleziona i destinatari dal menu a discesa. Non puoi selezionare utenti esterni all’organizzazione.
    1. Controlla **[!UICONTROL Show scheduling options]** se desideri inviare e-mail ricorrenti. Questa operazione può essere eseguita anche selezionando **[!UICONTROL Send Report on schedule]** in **[!UICONTROL Share]** scheda .
    1. Fai clic su **[!UICONTROL Send now]**. I destinatari riceveranno quindi un’e-mail con il rapporto allegato.
 
 * **[!UICONTROL Send report on schedule]**: Pianifica il rapporto e invia e-mail ricorrenti ai destinatari.
 
    1. In **[!UICONTROL Send report]** aggiungi una descrizione, se necessario.
-   1. Seleziona i destinatari dell’e-mail facendo clic sul campo e selezionandoli nell’elenco a discesa o digitandone gli indirizzi e-mail.
+   1. Seleziona i destinatari dal menu a discesa. Non puoi selezionare utenti esterni all’organizzazione.
 
       ![](assets/tab_share_5.png)
 

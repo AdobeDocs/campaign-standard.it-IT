@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 La messaggistica in-app rappresenta un canale di messaggistica che consente di visualizzare un messaggio quando l’utente è attivo all’interno dell’app mobile. Questo tipo di messaggio è complementare alle notifiche push inviate al centro di notifica del telefono degli utenti. Per ulteriori informazioni sul canale di notifica push, consulta questa [sezione](../../channels/using/about-push-notifications.md).
 
-Il canale richiede l’integrazione delle app mobili all’interno dell’SDK di Adobe Experience Platform. Queste app devono essere attivate all’interno di Adobe Experience Platform Launch prima di essere disponibili su Adobe Campaign per le consegne in-app.
+Il canale richiede l’integrazione delle app mobili all’interno dell’SDK di Adobe Experience Platform. Queste app devono essere attivate nell’interfaccia utente di raccolta dati prima di essere disponibili in Adobe Campaign per le consegne in-app.
 
 ![](assets/launch_campaign.png)
 
@@ -27,7 +27,7 @@ Per iniziare a inviare messaggi in-app sulle app mobili che utilizzano l’SDK d
 
 1. In Adobe Campaign, assicurati di poter accedere al canale **[!UICONTROL In-App]**. Se non riesci ad accedere a questi canali, contatta il team dell’account.
 
-1. Per sfruttare i casi d’uso per dispositivi mobili all’interno di Adobe Campaign Standard con un’applicazione Experience Cloud SDK, devi creare un’app mobile in Adobe Experience Platform Launch e configurarla all’interno di Adobe Campaign Standard. Per la guida dettagliata, fai riferimento a questa [pagina](../../administration/using/configuring-a-mobile-application.md).
+1. Per sfruttare i casi d’uso per dispositivi mobili in Adobe Campaign Standard con un’applicazione SDK per Experience Cloud, devi creare un’app mobile nell’interfaccia utente di raccolta dati e configurarla in Adobe Campaign Standard. Per la guida dettagliata, fai riferimento a questa [pagina](../../administration/using/configuring-a-mobile-application.md).
 
 1. Una volta effettuata la configurazione, potrai preparare il messaggio in-app. Per ulteriori informazioni, consulta questa [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
