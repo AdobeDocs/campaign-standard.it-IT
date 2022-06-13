@@ -5,9 +5,9 @@ user-guide-description: 'Centro assistenza per le principali funzioni, attività
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -454,7 +454,7 @@ ht-degree: 99%
       + [Implementazione del tracciamento delle notifiche locali](administration/using/local-tracking.md)
       + [Domande frequenti sulla sincronizzazione dei tag in Adobe Experience Platform](administration/using/syncwithlaunch-faq.md)
       + [Domande frequenti sull’integrazione di Experience Platform SDK](administration/using/aep-faq.md)
-      + [Configurazione delle regole dei tag per supportare i casi d’uso di Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
+      + [Configurazione delle regole di tag per supportare casi d’uso di Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migrazione dell’app mobile da SDK v4 ad Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + Configurazione del canale SMS {#configuring-sms}
