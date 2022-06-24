@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 66aed3668dc0eb2041312dcbaebe7c36f54b13a5
 workflow-type: ht
-source-wordcount: '468'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -36,10 +36,6 @@ Questa pagina descrive nuove funzioni, miglioramenti e correzioni inclusi nella 
    * Punti di riferimento nella pagina per una navigazione più semplice
    * Aggiunta di nome, ruolo, valore e stato per molti controlli
    * Correzione dei problemi rilevati nelll’ordine di attivazione dinamica sulle schermate principali
-
-**Aggiornamento della sicurezza**
-
-* Apache Tomcat è stato aggiornato dalla versione 7 alla versione 8.5.
 
 
 **Patch**
