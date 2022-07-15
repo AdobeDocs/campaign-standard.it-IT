@@ -36,7 +36,7 @@ Con reporting dinamico **interfaccia a trascinamento**, puoi esplorare i dati, d
 
 **Gestire i rapporti dinamici** grazie a varie funzionalità: aggiorna i dati in tempo reale, stampa i rapporti o esportali come file CSV. Puoi anche condividere i tuoi rapporti con gli utenti di Campaign Standard tramite e-mail una tantum o ricorrenti.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Informazioni sui report dinamici](../../reporting/using/about-dynamic-reports.md)
 * [Interfaccia di generazione rapporti](../../reporting/using/reporting-interface.md)
@@ -49,7 +49,7 @@ Campaign Standard viene fornito con un set di **report dinamici pronti all&#39;u
 
 **Combinare diversi componenti** (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o per personalizzare rapporti predefiniti.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Elenco dei componenti](../../reporting/using/list-of-components-.md)
 * [Calcolo indicatore](../../reporting/using/indicator-calculation.md)
@@ -65,7 +65,7 @@ Trascinamento della selezione **elementi di visualizzazione** per aggiungere rap
 
 Crea rapporti basati su **dati di profilo personalizzati** creato durante l’estensione della risorsa Profilo e **rapporti basati su segmenti** definiti nei flussi di lavoro di targeting.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Aggiunta di pannelli](../../reporting/using/adding-panels.md)
 * [Aggiunta di visualizzazioni](../../reporting/using/adding-visualizations.md)

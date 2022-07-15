@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign crea profili cliente avanzati in tempo reale, consentendo di dist
 
 **Tipi di pubblico** sono elenchi di profili basati su un criterio specifico o un insieme di criteri. Utilizzando i flussi di lavoro e l’editor delle query, puoi creare tipi di pubblico di destinazione dalle campagne di marketing, in base alle informazioni disponibili, alle loro attività e alla cronologia di marketing. Questo ti consente di filtrare profili abbonati, campionare o creare tipi di pubblico target in base a un numero illimitato di criteri.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Informazioni sui profili](../../audiences/using/about-profiles.md)
 * [Profili attivi](../../audiences/using/active-profiles.md)
@@ -68,7 +68,7 @@ Fornitura **collegamenti di annullamento dell’abbonamento** nei messaggi, i pr
 >
 >È necessario rispettare le [Criteri d’uso accettabili per Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Informazioni sugli abbonamenti](../../audiences/using/about-subscriptions.md)
 * [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

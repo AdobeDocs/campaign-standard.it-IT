@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Armonizzare tutti i tuoi canali di marketing non è un compito impossibile. Con 
 
 **Gestire i modelli** per configurare le proprietà dei messaggi e consentire di guadagnare tempo e coerenza nella strategia di messaggistica. Ad esempio, per le e-mail, l’amministratore funzionale incaricato della configurazione dei modelli può definire i parametri standard di un’e-mail, come il pubblico, la pianificazione o il contenuto, i parametri avanzati relativi all’invio, alla validità, al tracciamento, ecc., o i parametri di preconfigurazione relativi al targeting e alla personalizzazione (contesto di targeting).
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Passaggi fondamentali per l’invio di un messaggio](../../channels/using/key-steps-to-send-a-message.md)
 * [Accesso ai messaggi](../../channels/using/accessing-messages.md)
@@ -54,7 +54,7 @@ Per ogni canale sono disponibili funzionalità specifiche. Ad esempio, il canale
 
 Inoltre, sfrutta Campaign Standard **funzionalità di personalizzazione e contenuti dinamici** per catturare l&#39;interesse del pubblico.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Creazione di e-mail](../../channels/using/about-emails.md)
 * [Creazione di un messaggio SMS](../../channels/using/about-sms-messages.md)
@@ -70,7 +70,7 @@ Leggi tutto:
 
 I messaggi transazionali sono disponibili per i canali e-mail, SMS e notifiche push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi sulle transazioni degli eventi** eventi di targeting senza informazioni sul profilo e **messaggi transazionali di profilo** il targeting dei profili dal database.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Guida introduttiva ai messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md)
 * [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md)
@@ -88,7 +88,7 @@ Campaign viene fornito con pagine di destinazione che sono moduli web utilizzabi
 
 Le pagine di destinazione possono essere utilizzate anche per **acquisizione o aggiornamento dei profili esistenti** e per impostare un doppio meccanismo di consenso, che ti consente di proteggere la piattaforma da indirizzi e-mail o spambots errati o non validi.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Guida introduttiva alle pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md)
 * [Modelli di pagina di destinazione](../../channels/using/landing-page-templates.md)

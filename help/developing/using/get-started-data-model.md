@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 31%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ I dati utilizzati da Campaign sono definiti tramite diverse risorse definite in 
 
 La **Diagnosi** consente di elencare gli oggetti tecnici generati da Campaign Standard: schemi di dati, pagine web, filtri, ecc., che consentono di monitorare il modello dati ed eventuali modifiche apportate al modello.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Concetti del modello dati](../../developing/using/data-model-concepts.md)
 * [Best practice per i modelli di dati](../../developing/using/data-model-best-practices.md)
@@ -48,7 +48,7 @@ Campaign Standard consente di: **Arricchire il modello dati predefinito** per cr
 
 Inoltre, puoi **estendere le API REST di Campaign Standard** per esporre nei campi estesi delle API le risorse personalizzate Profili. Questo ti consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
-Leggi tutto:
+Maggiori informazioni:
 
 * [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md)
 * [Estensione dell’API](../../developing/using/about-extending-the-api.md)
