@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Puoi inserire un collegamento in qualsiasi elemento di pagina: immagine, parola,
 
    * **Collegamento esterno**: inserire un collegamento a un URL esterno.
 
-      Puoi definire la personalizzazione per i tuoi URL. Vedi [Personalizzazione degli URL](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      Puoi definire la personalizzazione per i tuoi URL. Vedi [Personalizzazione degli URL](personalization.md#personalizing-urls).
 
    * **Pagina di destinazione**: consente di accedere a una pagina di destinazione di Adobe Campaign.
    * **Collegamento di abbonamento**: inserisci un collegamento per iscriverti a un servizio Adobe Campaign.
