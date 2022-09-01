@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 471c0e66f1742346798f61ed8e8912695e9c95b6
+source-git-commit: 3f9adbf4e8c9066b1954a1443654d82ee7b53fea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '182'
+ht-degree: 20%
 
 ---
 
@@ -25,16 +25,16 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 
 ## Versione 22.3 - Settembre 2022 {#e-rn-2022}
 
+
+### Miglioramenti{#e-rn-improvements}
+
+**Accessibilità**
+
+Campaign Standard 2.2.3 include correzioni e miglioramenti a livello di accessibilità che consentono agli utenti di navigare e ottenere il massimo da Adobe Campaign.
+
+Queste funzionalità vengono rilasciate solo in disponibilità limitata e distribuite solo a un set di clienti. Per abilitare questi miglioramenti negli ambienti Campaign, contatta il tuo rappresentante di Adobe.
+
 <!--
-### Improvement{#e-rn-improvements}
-
-**Accessibility**
-
-Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
-
-These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
-
-
 * **Data retention**
 
     Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
