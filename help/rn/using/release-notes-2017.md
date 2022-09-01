@@ -1,14 +1,12 @@
 ---
 title: Note sulla versione 2017
 description: In questa pagina sono elencate tutte le versioni del 2017 di Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 8%
@@ -267,7 +265,7 @@ _Flussi di lavoro_
    <td> Sfruttate la barriera digitale e collegatevi al mondo fisico con il primo canale offline di Adobe Campaign Standard, Direct Mail. Questa funzione ti consente di personalizzare e generare il file richiesto dai provider di direct mailing come parte delle campagne cross-channel. Utilizza Direct Mail per coinvolgere nuovamente i clienti o per migliorare l’esperienza del cliente con un accattivante punto di contatto tattile che indirizza i clienti all’app, al sito web o allo store.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/about-direct-mail.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ccn e-mail<br /> </td> 
+   <td> Invia e-mail in Ccn<br /> </td> 
    <td> Ccn e-mail consente di salvare messaggi e-mail univoci inviati ai singoli destinatari, consentendo in tal modo al marchio di archiviarli. Aggiungendo un indirizzo e-mail Ccn a tutte le e-mail, i clienti Adobe Campaign Standard possono mantenere una copia esatta di ogni e-mail con questa funzione. Si tratta di un requisito giuridico comune per il settore dei servizi finanziari ed è utile per aiutare i centri di assistenza clienti a risolvere i conflitti in tempo reale.<br /> Per ulteriori informazioni, consulta la <a href="../../sending/using/archiving.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -315,7 +313,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Notifiche push transazionali<br /> </td> 
-   <td> Il canale dell’applicazione Mobile è stato aggiunto alle funzionalità di messaggistica transazionale di Adobe Campaign. Sono ora supportati tre canali per i messaggi transazionali: notifiche e-mail, SMS e push.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/transactional-push-notifications.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Il canale dell’applicazione mobile è stato aggiunto alle funzionalità di messaggistica transazionale di Adobe Campaign. Sono ora supportati tre canali per i messaggi transazionali: notifiche e-mail, SMS e push.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/transactional-push-notifications.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notifiche push ricorrenti<br /> </td> 

@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 8b049f7decc95d3959feb0193bf51287422ddaec
+source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 99%
 
 ---
@@ -29,7 +29,7 @@ Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolar
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle Note preliminari sulla versione al momento in cui vengono rilasciati gli aggiornamenti in Stage.
+Informazioni dettagliate su questa versione sono disponibili nelle [Note preliminari sulla versione](e-release-notes.md).
 
 <table>
  <thead>

@@ -1,14 +1,12 @@
 ---
 title: Note sulla versione 2018
 description: In questa pagina sono elencate tutte le versioni del 2018 di Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5401'
 ht-degree: 6%
@@ -138,7 +136,7 @@ Visualizza le ultime [aggiornamenti della documentazione](../../rn/using/documen
 **Patch**
 
 * È stato risolto un problema relativo al filtro di query byEmail che non restituiva alcun risultato. (CAMP-23420)
-* È stato risolto un problema che consentiva a un utente standard di accedere a determinate funzioni o schermate limitate agli amministratori (/rest/head/* endpoint, schermate di messaggistica transazionale, profili e schermate di importazione di tipi di pubblico).
+* È stato risolto un problema che consentiva a un utente standard di accedere a determinate funzioni o schermate limitate agli amministratori (/rest/head/&#42; endpoint, schermate di messaggistica transazionale, profili e tipi di pubblico importano schermate).
 * È stato risolto un problema che impediva alle richieste di cancellazione RGPD di elaborare risorse personalizzate se il loro nome era iniziato da un numero.
 * È stato corretto un errore che impediva all’attività Save Audience di condividere gli abbonati alle applicazioni in Adobe Experience Cloud.
 * È stato risolto un problema relativo all’attività Trasferimento file che poteva verificarsi quando il nome del file conteneva spazi vuoti. (CAMP-25936)
