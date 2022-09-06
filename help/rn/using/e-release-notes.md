@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 3f9adbf4e8c9066b1954a1443654d82ee7b53fea
+source-git-commit: 93f1a6cb0727859f3c3f645366a9d2dc25795a79
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 20%
+source-wordcount: '183'
+ht-degree: 19%
 
 ---
 
@@ -23,8 +23,7 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 >
 > Questo contenuto è soggetto a modifiche senza preavviso fino alla data di aggiornamento degli ambienti di stage. Ulteriori informazioni sono disponibili nella [pagina di pianificazione del rilascio](../../rn/using/release-planning.md).
 
-## Versione 22.3 - Settembre 2022 {#e-rn-2022}
-
+## Versione 22.3 - Autunno/Inverno 2022 {#e-rn-2022}
 
 ### Miglioramenti{#e-rn-improvements}
 

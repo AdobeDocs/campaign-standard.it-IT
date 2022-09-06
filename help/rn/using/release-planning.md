@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
+source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di
 
 Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
 
-## Versione 22.3 - settembre 2022 {#release-22-3-release}
+## Versione 22.3 - Rilascio autunno/inverno 2022 {#release-22-3-release}
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
@@ -34,18 +34,18 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note prelimi
 <table>
  <thead>
   <tr>
-   <th> Ambiente<br /> </th>
+   <th> Ambienti<br /> </th>
    <th> Date<br /> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>6-7 settembre 2022<br /> </td>
+   <td>8 settembre 2022 - inizio 2023<br /> </td>
   </tr>
   <tr>
    <td>Produzione<br /> </td>
-   <td>13-29 settembre 2022<br /> </td>
+   <td>15 settembre 2022 - inizio 2023<br /> </td>
   </tr>
  </tbody>
 </table>
