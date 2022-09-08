@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '963'
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: ht
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ Tutorial sulla gestione della privacy in Campaign Standard sono inoltre disponib
 Oltre alle più recenti funzionalità relative al **diritto di accesso** e al **diritto all’oblio**, Adobe Campaign offre altre funzioni essenziali per la privacy:
 
 * [Gestione del consenso](#consent-management): funzionalità di abbonamento per la gestione delle preferenze
-* [Conservazione dei dati](#data-retention): periodi di conservazione dei dati in tutte le tabelle di registro standard e la possibilità di impostare periodi di conservazione aggiuntivi con i flussi di lavoro
+* [Conservazione dei dati](../../administration/using/data-retention.md): periodi di conservazione dei dati in tutte le tabelle di registro standard e la possibilità di impostare periodi di conservazione aggiuntivi con i flussi di lavoro
 * [Gestione dei diritti](#rights-management): accesso ai dati gestito in base a diritti denominati
 
 ### Gestione del consenso {#consent-management}
@@ -95,27 +95,6 @@ Le funzioni per gestire alcuni aspetti del consenso sono da sempre funzioni core
 Per ulteriori informazioni sulla gestione del consenso, consulta [Informazioni sugli abbonamenti](../../audiences/using/about-subscriptions.md) e [Introduzione alle pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md).
 
 Oltre a utilizzare gli strumenti di gestione del consenso forniti da Adobe Campaign, puoi verificare se un consumatore ha rinunciato alla vendita di informazioni personali. Vedi [questa sezione](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
-
-### Conservazione dei dati {#data-retention}
-
-Per quanto riguarda la conservazione, le tabelle di registro integrate in Campaign dispongono di periodi di conservazione preimpostati che in genere limitano l’archiviazione dei dati a un massimo di sei mesi.
-
-Di seguito sono riportati i valori di conservazione predefiniti per le tabelle integrate. Ricorda che la configurazione della conservazione è impostata dagli amministratori tecnici di Adobe durante l’implementazione e che i valori possono variare per ciascuna implementazione, in base ai requisiti dei clienti.
-
-* **Tracciamento consolidato**: 6 mesi
-* **Registri di consegna**: 6 mesi
-* **Registri di tracciamento**: 6 mesi
-* **Eventi**: 1 mese
-* **Statistiche sull’elaborazione degli eventi**: 6 mesi
-* **Eventi archiviati**: 6 mesi
-* **Entità temporanee**: 7 giorni
-* **Eventi pipeline ignorati**: 1 mese
-* **Avvisi di consegna**: 1 mese
-* **Controllo delle esportazioni**: 6 mesi
-
-Analogamente all’eliminazione, quando utilizzi la funzionalità standard del flusso di lavoro puoi impostare periodi di conservazione per qualsiasi tabella personalizzata.
-
-Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla conservazione o per impostare la conservazione per tabelle personalizzate.
 
 ### Rights Management {#rights-management}
 
