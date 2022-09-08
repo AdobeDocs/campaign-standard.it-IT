@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ Una volta inviata la consegna, cosa puoi fare con il gruppo di controllo?
 
 >[!IMPORTANT]
 >
->Per connettersi a Adobe Campaign, è necessario disporre di un [Ruolo di amministratore](../../administration/using/users-management.md#functional-administrators) e appartenere all’**[!UICONTROL All]** [unità organizzativa](../../administration/using/organizational-units.md). Se desideri limitare l’accesso a un particolare utente o a un gruppo di utenti, non collegarlo alle unità **[!UICONTROL All]** per accedere ai registri di consegna.
+>Per accedere ai registri di consegna, devi disporre di un [Ruolo amministratore](../../administration/using/users-management.md#functional-administrators) e di far parte del **[!UICONTROL All]** [unità organizzativa](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Controllo dei registri di consegna {#checking-logs}
 

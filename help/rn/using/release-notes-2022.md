@@ -4,16 +4,43 @@ description: In questa pagina sono elencate tutte le versioni del 2022 di Adobe 
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
 # Note sulla versione 2022{#release-notes-2022}
 
-[Pianificazione del rilascio](../../rn/using/release-planning.md) | [Versioni del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it) | [Aggiornamenti alla documentazione](../../rn/using/documentation-updates.md) | [Note sulla versione precedente](../../rn/using/release-notes-2020.md) | [Funzioni obsolete](../../rn/using/deprecated-features.md)
+## Versione 22.2 - Giugno 2022 {#june-2022}
+
+**Miglioramenti**
+
+* **Adobe Notification Service** - Campaign viene fornito con Adobe Notification Service che consente alle soluzioni Experience Cloud di segnalare agli utenti Experience Cloud le attività pertinenti. A partire dalla versione 22.2, l’esperienza utente è stata migliorata: le notifiche seguono un ordine di priorità e quelle generate dai prodotti sono separate dagli annunci relativi allo stato dei sistemi Adobe. Inoltre, se una notifica fa riferimento a uno specifico flusso di lavoro, ora puoi accedere al flusso di lavoro corrispondente direttamente dall’e-mail o dalla notifica visualizzata all’interno del prodotto.  Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta [Notifiche di Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **Accessibilità**: Adobe ha apportato diverse correzioni di accessibilità per migliorare la facilità d’uso complessiva dell’applicazione. Queste funzioni sono attualmente abilitate solo per i primi sviluppatori e verranno introdotte per tutti i clienti nelle versioni future. I miglioramenti dell’accessibilità includono, ad esempio:
+
+   * Indicatore visibile di attivazione per gli elementi attivabili su ogni schermata
+   * Punti di riferimento nella pagina per una navigazione più semplice
+   * Aggiunta di nome, ruolo, valore e stato per molti controlli
+   * Correzione dei problemi rilevati nelll’ordine di attivazione dinamica sulle schermate principali
+
+
+**Patch**
+
+* È stato risolto un problema sul flusso di lavoro tecnico Billing (Fatturazione) dovuto a un errore di chiave duplicata. (CAMP-51029)
+* Nei report di tracciamento è stata aggiunta la categoria mancante del browser Microsoft Edge. In precedenza le aperture venivano categorizzate come aperture in Microsoft Chrome. (CAMP-51165)
+* È stato risolto un problema relativo alle richieste GDPR a causa del quale i dati non venivano eliminati dalle tabelle secondarie. (CAMP-48276)
+* È stato risolto un problema in E-mail Designer che impediva il salvataggio della condizione di visibilità di un frammento in un modello per messaggi transazionali. (CAMP-50338)
+* È stato risolto un problema nei rapporti di Campaign a causa del quale l’intervallo di date non veniva preso in considerazione. (CAMP-50991)
+* È stato corretto un errore che causava il mancato funzionamento delle e-mail pianificate: l’analisi della consegna non veniva avviata perché la consegna risultava ancora nello stato “Nuovo tentativo in sospeso”. (CAMP-50302)
+* È stato risolto un problema in E-mail Designer durante l’anteprima di un’e-mail con una sostituzione di profilo. (CAMP-49312)
+* È stato risolto un problema relativo al valore vuoto nelle enumerazioni personalizzate: nella creazione di una risorsa personalizzata con un campo di tipo enumerazione di testo contenente un solo valore, questo ora viene impostato per impostazione predefinita, affinché sia possibile creare una query su questo campo come richiesta semplice. (CAMP-50606)
 
 
 ## Versione 22.1 - Febbraio 2022 {#feb-2022}

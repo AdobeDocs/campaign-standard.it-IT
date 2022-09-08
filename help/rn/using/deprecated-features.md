@@ -1,17 +1,14 @@
 ---
 title: Funzioni obsolete e rimosse di Campaign Standard
 description: In questa pagina sono elencate le funzioni obsolete e rimosse di Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-deprecated-features
 feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
+source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 63%
+source-wordcount: '861'
+ht-degree: 64%
 
 ---
 
@@ -48,7 +45,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
   <tr> 
    <td> <p> A partire dalla versione 21.3 di Campaign Standard, l’integrazione con il servizio Audience Destinations è diventata obsoleta. </p>
    <p>Per una nuova implementazione, non puoi più integrare il servizio Audience Destinations con Adobe Campaign Standard. Puoi comunque integrare Campaign e Adobe Experience Platform tramite Origini e Destinazioni. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Ulteriori informazioni</a>.</p>
-     <em>Data di rimozione target: Settembre 2022</em></p>
+     <em>Data prevista di rimozione: 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +61,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
   <tr> 
    <td> <p> A partire dalla versione 21.3 di Campaign Standard, l’integrazione con Adobe Experience Platform Data Connector è obsoleta. </p>
    <p>Per una nuova implementazione, non puoi più integrare Adobe Experience Platform Data Connector con Adobe Campaign Standard. Puoi comunque integrare Campaign e Adobe Experience Platform tramite Origini e Destinazioni. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Ulteriori informazioni</a>.</p>
-     <em>Data di rimozione target: Settembre 2022</em></p>
+     <em>Data prevista di rimozione: 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -81,9 +78,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
   <tr> 
    <td> <p>A partire dalla versione di Campaign 19.0, l’editor e-mail legacy diventa obsoleto. Utilizzo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">E-mail Designer di Campaign</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
    <p>Leggi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">questa sezione</a> per scoprire come adattare i modelli e-mail per il nuovo editor.</p></br>
-  <p> 
-  <em>Data prevista di rimozione: fine 2022</em></p>
-   </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
