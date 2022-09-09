@@ -5,16 +5,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
+source-git-commit: 5814bf107a252793911cd34c0dceed35ce58bf69
 workflow-type: tm+mt
-source-wordcount: '7221'
-ht-degree: 100%
+source-wordcount: '7251'
+ht-degree: 99%
 
 ---
 
 # Aggiornamenti alla documentazione{#documentation-updates}
 
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti nella documentazione di Adobe Campaign Standard.
+
+## Versione 22.3 - Autunno/Inverno 2022 {#release-22-3}
+
+Sono state pubblicate le note sulla versione per la versione autunnale/invernale di Campaign Standard 22.3. [Ulteriori informazioni](release-notes.md)
+
+I periodi di conservazione dei dati sono stati aggiornati per riflettere le modifiche introdotte con la versione 22.3. [Ulteriori informazioni](../../administration/using/data-retention.md)
+
 
 ## Versione 22.2 - Giugno 2022 {#release-22-2}
 
@@ -225,7 +232,7 @@ Nuove funzionalità di e-mail basate sull’intelligenza artificiale: ottimizzaz
 
 I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in sezioni tematiche. [Leggi tutto](../../automating/using/about-workflow-use-cases.md)
 
-Sono stati aggiunti casi di utilizzo su come [cifrare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decrittare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dati tramite il Pannello di controllo Campaign e i flussi di lavoro di Campaign.
+Sono stati aggiunti casi di utilizzo su come [crittografare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decrittografare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dati tramite il Pannello di controllo Campaign e i flussi di lavoro di Campaign.
 
 I riferimenti al sito web di Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](../../support.md)
 
