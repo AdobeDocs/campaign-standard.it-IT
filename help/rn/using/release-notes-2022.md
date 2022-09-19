@@ -1,13 +1,13 @@
 ---
 title: Note sulla versione 2022
-description: In questa pagina sono elencate tutte le versioni del 2022 di Adobe Campaign Standard.
+description: In questa pagina sono elencate tutte le versioni di Adobe Campaign Standard del 2022.
 feature: Overview
 role: User
 level: Beginner
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Accessibilità**: Adobe ha apportato diverse correzioni di accessibilità per migliorare la facilità d’uso complessiva dell’applicazione. Queste funzioni sono attualmente abilitate solo per i primi sviluppatori e verranno introdotte per tutti i clienti nelle versioni future. I miglioramenti dell’accessibilità includono, ad esempio:
+* **Accessibilità**: Adobe ha apportato diverse correzioni di accessibilità per migliorare la facilità d’uso complessiva dell’applicazione. Queste funzionalità sono attualmente abilitate solo per un gruppo iniziale di utenti e verranno estese a tutti i clienti nelle prossime versioni. I miglioramenti dell’accessibilità includono, ad esempio:
 
    * Indicatore visibile di attivazione per gli elementi attivabili su ogni schermata
    * Punti di riferimento nella pagina per una navigazione più semplice
