@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '518'
 ht-degree: 96%
 
 ---
@@ -43,9 +43,9 @@ Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
 1. Inserisci le proprietà generali dell’SMS.
 
-   ![](assets/sms_creation_2.png)
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
-   Sia l’etichetta dell’attività che il relativo ID vengono visualizzati nell’interfaccia, ma non sono visibili ai destinatari del messaggio.
+   ![](assets/sms_creation_2.png)
 
 1. Specifica il pubblico di cui desideri eseguire il targeting. Puoi selezionare un pubblico esistente o eseguire direttamente il targeting di una popolazione attraverso la definizione e la combinazione delle regole.
 
