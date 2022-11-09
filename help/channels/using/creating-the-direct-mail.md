@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ La creazione di una consegna direct mailing è molto simile alla creazione di un
 1. Immetti le proprietà generali della consegna.
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >Sia il nome dell’attività che il relativo ID vengono visualizzati nell’interfaccia, ma non sono visibili ai destinatari del messaggio.
+   >
+   >Assicurati che il campo ID non contenga spazi vuoti per evitare discrepanze, ad esempio durante l’integrazione con Adobe Analytics.
 
 1. Definisci il pubblico da includere nel file di estrazione, nonché i profili di test e di trappola. Consulta [Definizione del pubblico della direct mailing](../../channels/using/defining-the-direct-mail-audience.md).
 

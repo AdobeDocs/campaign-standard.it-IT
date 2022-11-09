@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '561'
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,11 @@ Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
    ![](assets/sms_creation_2.png)
 
-   Sia l’etichetta dell’attività che il relativo ID vengono visualizzati nell’interfaccia, ma non sono visibili ai destinatari del messaggio.
+   >[!NOTE]
+   >
+   >Sia il nome dell’attività che il relativo ID vengono visualizzati nell’interfaccia, ma non sono visibili ai destinatari del messaggio.
+   >
+   >Assicurati che il campo ID non contenga spazi vuoti per evitare discrepanze, ad esempio durante l’integrazione con Adobe Analytics.
 
 1. Specifica il pubblico di cui desideri eseguire il targeting. Puoi selezionare un pubblico esistente o eseguire direttamente il targeting di una popolazione attraverso la definizione e la combinazione delle regole.
 

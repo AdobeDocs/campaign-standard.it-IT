@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 19%
+source-wordcount: '574'
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,13 @@ Puoi creare un messaggio e-mail da un [campagna](../../start/using/marketing-act
    >
    >I modelli di test A/B e di follow-up sono nascosti per impostazione predefinita. Seleziona le caselle a sinistra ( **[!UICONTROL Filter]** pannello laterale) per visualizzarli.
 
-1. Immetti le proprietà generali dell’e-mail. È possibile immettere un nome nel campo **Etichetta** e modifica l&#39;ID. Sia il nome dell’attività che il relativo ID vengono visualizzati nell’interfaccia, ma non sono visibili ai destinatari del messaggio.
+1. Immetti le proprietà generali dell’e-mail. È possibile immettere un nome nel campo **Etichetta** e modifica l&#39;ID.
+
+   >[!NOTE]
+   >
+   >Sia il nome dell’attività che il relativo ID vengono visualizzati nell’interfaccia, ma non sono visibili ai destinatari del messaggio.
+   >
+   >Assicurati che il campo ID non contenga spazi vuoti per evitare discrepanze, ad esempio durante l’integrazione con Adobe Analytics.
 
    Puoi aggiungere una descrizione che l’utente può visualizzare nel contenuto della campagna.
 
