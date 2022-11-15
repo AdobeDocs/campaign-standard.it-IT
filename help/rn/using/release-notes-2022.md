@@ -4,9 +4,10 @@ description: In questa pagina sono elencate tutte le versioni di Adobe Campaign 
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
 workflow-type: ht
-source-wordcount: '1098'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -96,4 +97,3 @@ ht-degree: 100%
 * Sono state migliorate le prestazioni durante la duplicazione dei tipi di pubblico al fine di evitare problemi quando si lavora con tipi di pubblico di grandi dimensioni. (CAMP-49639)
 * È stato risolto un problema che poteva impedire a un filtro personalizzato di mostrare i risultati corretti se utilizzato in un’attività di **Query**. (CAMP-49417)
 * È stato corretto un errore a causa del quale veniva visualizzato un messaggio di errore durante il tentativo di utilizzare in una consegna un frammento il cui nome conteneva una virgola. Il problema è stato risolto e ora è possibile utilizzare le virgole nei nomi dei frammenti. (CAMP-49216)
-
