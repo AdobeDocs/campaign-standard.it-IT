@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '438'
+ht-degree: 79%
 
 ---
 
@@ -73,6 +73,12 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
 1. Fai clic sulla scheda **[!UICONTROL File structure]** per configurare i formati di output, data e numero per il file da esportare.
 
    Seleziona l’opzione **[!UICONTROL Export labels instead of internal values of enumerations]** nel caso dell’esportazione di valori di enumerazione. Questa opzione ti consente di recuperare etichette più brevi che sono più facili da comprendere rispetto agli ID.
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >Se desideri estrarre i dati in un file CSV con una codifica specifica, seleziona prima il formato di output &quot;Testo&quot;. Scegli la codifica desiderata dall’elenco a discesa, quindi modifica il formato di output in &quot;CSV (Excel)&quot;.
 
 1. Nella scheda **[!UICONTROL Properties]**, seleziona l’opzione **[!UICONTROL Do not generate a file if the inbound transition is empty]** per evitare di creare e caricare file vuoti sui server SFTP se la transizione in entrata è vuota.
 1. Conferma la configurazione dell’attività e salva il flusso di lavoro.

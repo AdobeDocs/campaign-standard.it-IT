@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '7270'
-ht-degree: 100%
+source-wordcount: '7293'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 ## Novembre 2022 {#doc-updates-november-2022}
 
 È stata aggiunta una nota per consigliare di evitare spazi vuoti nel campo ID delle consegne. [Maggiori informazioni](../../channels/using/creating-an-email.md)
+
+Sono state aggiunte informazioni nella sezione **[!UICONTROL Extract file]** pagina delle attività del flusso di lavoro su per estrarre i dati in un file CSV con una codifica specifica. [Maggiori informazioni](../../automating/using/extract-file.md)
 
 ## Versione 22.3 - Autunno/inverno 2022 {#release-22-3}
 
