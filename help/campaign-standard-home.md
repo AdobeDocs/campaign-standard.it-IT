@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Misura l’impatto delle campagne escludendo parte delle relative audience
 | Pagine utili | Risorse per sviluppatori |
 |---|---|
 | [Note sulla versione](rn/using/release-notes.md) | [Trigger di Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) | [API di Campaign](api/using/get-started-apis.md) |
+| [Documentazione del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) | [API di Campaign](api/using/get-started-apis.md) |
 | [Guida all’implementazione](https://helpx.adobe.com/it/campaign/kb/campaign-standard-implementation-guide.html) | [Elenco dei messaggi di errore](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [Pianificazione del rilascio](rn/using/release-planning.md) | [Modello dati di Campaign](developing/using/datamodel-introduction.md) |
 | [Funzioni obsolete e rimosse](rn/using/deprecated-features.md) | [Guida per più soluzioni](integrating/using/get-started-campaign-integrations.md) |
