@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
@@ -20,6 +20,7 @@ ht-degree: 56%
 Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ognuno. Basata sull’intelligenza artificiale e sull’apprendimento automatico, l’ottimizzazione del tempo di invio e il punteggio di coinvolgimento predittivo di Adobe Campaign possono analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base a metriche di coinvolgimento storiche.
 
 >[!IMPORTANT]
+>
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. La sua implementazione richiede l’intervento della Consulenza Adobe. Per maggiori informazioni, contatta un rappresentante Adobe di fiducia.
 
 Adobe Campaign offre due nuovi modelli di apprendimento automatico: **Ottimizzazione predittiva del tempo di invio** e **Punteggio di coinvolgimento predittivo**. Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
@@ -35,6 +36,7 @@ Predictive Send-Time Optimization prevede qual è il tempo di invio migliore per
 Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due modelli secondari:
 
 * **Il tempo di invio predittivo per l’apertura è il momento migliore per inviare una comunicazione al cliente in modo da massimizzare l’apertura dei messaggi**
+
 * **Il tempo di invio predittivo per il clic è il momento migliore per inviare una comunicazione al cliente per massimizzare i clic**
 
 **Modello entrata**: registri di consegna, registri di tracciamento e attributi di profilo (non PII)
@@ -77,6 +79,7 @@ Per impostazione predefinita, i punteggi dei profili danno l’orario migliore d
 ### Invia messaggi al momento migliore{#use-predictive-send-time}
 
 Affinché le e-mail possano essere inviate al momento ottimale per ogni profilo, la consegna deve essere pianificata utilizzando l’opzione **[!UICONTROL Send at a custom date defined by a formula]**.
+
 Scopri come calcolare la data di invio [in questa sezione](../../sending/using/computing-the-sending-date.md).
 
 La formula deve essere compilata con l’orario migliore specifico del giorno in cui la consegna verrà effettuata.
@@ -86,7 +89,7 @@ La formula deve essere compilata con l’orario migliore specifico del giorno in
 Esempio di formula:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
