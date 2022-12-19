@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '1812'
+source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+workflow-type: tm+mt
+source-wordcount: '1814'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [Anteprima delle consegne](sending/using/previewing-messages.md)
       + [Invio di bozze](sending/using/sending-proofs.md)
       + [Verifica dei messaggi e-mail tramite profili di destinazione](sending/using/testing-messages-using-target.md)
-      + [E-mail basate sull’intelligenza artificiale](sending/using/predictive.md)
+      + [Capacità di previsione del coinvolgimento degli utenti](sending/using/predictive.md)
       + [Rendering di e-mail](sending/using/email-rendering.md)
       + [Aggiunta di un gruppo di controllo](sending/using/control-group.md)
       + [Utilizzo delle “trappole”](sending/using/using-traps.md)
