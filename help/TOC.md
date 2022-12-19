@@ -6,8 +6,8 @@ title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
 source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
