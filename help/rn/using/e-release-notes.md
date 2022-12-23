@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 
 ### Aggiornamento della sicurezza{#rn-security2}
 
-Questa versione include il seguente aggiornamento della sicurezza: Debian è stato aggiornato alla versione 11.0.
+Questa versione include il seguente aggiornamento della sicurezza: Debian è stato aggiornato a v11.0.
 
 ## Versione 22.3 - Autunno/inverno 2022 {#sept-22}
 
