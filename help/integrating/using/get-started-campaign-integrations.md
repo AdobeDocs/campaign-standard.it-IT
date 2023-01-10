@@ -63,7 +63,7 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> Adobe Analytics<br /> </td> 
    <td> Consente di tenere traccia della consegna delle comunicazioni e-mail direttamente in Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Condivisione di dati di Campaign con Analytics</a>, video <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Condivisione di KPI per reporting dinamico integrato di Campaign</a> (passaggio 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Condivisione di dati di Campaign con Analytics</a>, video <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Condivisione di KPI per reporting dinamico integrato di Campaign</a> (passaggio 1)
     </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> Consente di inviare e-mail personalizzate ai clienti in Adobe Campaign come reazione a comportamenti specifici tracciati sul sito web da Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilizzo dei Trigger di Experience Cloud in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Casi di utilizzo degli attivatori di abbandono</a>, video <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Trigger dei messaggi di remarketing basati sull’attività del sito</a> (passaggio 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilizzo dei Trigger di Experience Cloud in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Casi di utilizzo degli attivatori di abbandono</a>, video <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Trigger dei messaggi di remarketing basati sull’attività del sito</a> (passaggio 2)
     </td> 
   </tr> 
     <tr> 
