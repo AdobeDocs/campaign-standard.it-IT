@@ -6,47 +6,32 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 55%
+source-wordcount: '178'
+ht-degree: 13%
 
 ---
 
 # Conservazione dei dati{#data-retention}
 
-Le tabelle di registro standard in Campaign presentano periodi di conservazione predefiniti che ne limitano la durata di archiviazione dei dati.
+Le tabelle di registro standard in Campaign presentano periodi di conservazione predefiniti che limitano la durata dell’archiviazione dei dati, per evitare di sovraccaricare il sistema.
 
-Di seguito sono riportati i valori di conservazione predefiniti per le tabelle standard. Ricorda che la configurazione della conservazione è impostata dagli amministratori tecnici di Adobe durante l’implementazione e che i valori possono variare per ciascuna implementazione, in base ai requisiti dei clienti.
+La configurazione di conservazione dei dati è impostata dagli amministratori tecnici di Adobe durante l’implementazione e i valori possono variare a seconda dei requisiti dei clienti.
 
-+++[!DNL Campaign Standard] 22.3 o versioni successive
+Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sui periodi di conservazione applicabili all’ambiente o per impostare periodi di conservazione personalizzati.
 
-* **Tracciamento consolidato**: 1 mesi
-* **Registri di consegna**: 1 mesi
-* **Registri di tracciamento**: 1 mesi
+Utilizzando la funzionalità flusso di lavoro standard, è possibile impostare periodi di conservazione per qualsiasi tabella personalizzata.
+
+Di seguito sono riportati i periodi di conservazione predefiniti per le tabelle standard. Quando possibile e a seconda dell’utilizzo dei dati, Adobe ti suggerisce di passare ai periodi di conservazione consigliati per migliorare le prestazioni dell’istanza Campaign.
+
+* **Tracciamento consolidato**: 6 mesi (consigliato: 1 mese)
+* **Log di consegna**: 6 mesi (consigliato: 1 mese)
+* **Registri di tracciamento**: 6 mesi (consigliato: 1 mese)
 * **Eventi**: 1 mese
-* **Statistiche sull’elaborazione degli eventi**: 1 mesi
-* **Eventi archiviati**: 1 mesi
+* **Statistiche sull’elaborazione degli eventi**: 6 mesi (consigliato: 1 mese)
+* **Eventi archiviati**: 6 mesi (consigliato: 1 mese)
 * **Entità temporanee**: 7 giorni
 * **Eventi pipeline ignorati**: 1 mese
 * **Avvisi di consegna**: 1 mese
-* **Controllo delle esportazioni**: 1 mesi
-+++
-
-+++ Precedente [!DNL Campaign Standard] build
-
-* **Tracciamento consolidato**: 6 mesi
-* **Registri di consegna**: 6 mesi
-* **Registri di tracciamento**: 6 mesi
-* **Eventi**: 1 mese
-* **Statistiche sull’elaborazione degli eventi**: 6 mesi
-* **Eventi archiviati**: 6 mesi
-* **Entità temporanee**: 7 giorni
-* **Eventi pipeline ignorati**: 1 mese
-* **Avvisi di consegna**: 1 mese
-* **Controllo delle esportazioni**: 6 mesi
-+++
-
-Utilizzando la funzionalità standard del flusso di lavoro, è possibile impostare periodi di conservazione per qualsiasi tabella personalizzata.
-
-Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sulla fidelizzazione o per impostare la fidelizzazione per le tabelle personalizzate.
+* **Controllo delle esportazioni**: 6 mesi (consigliato: 1 mese)
