@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 30%
+source-wordcount: '1365'
+ht-degree: 25%
 
 ---
 
@@ -77,7 +77,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->L’aumento del numero delle quarantene è un effetto normale, legato all’&quot;usura&quot; del database. Ad esempio, se la durata di un indirizzo e-mail è considerata di tre anni e la tabella del destinatario aumenta del 50% ogni anno, l’aumento delle quarantene può essere calcolato come segue: fine anno 1: (1*0.33)/(1+0.5)=22%. Fine anno 2: ((1.22*0.33)+0.33)/(1.5+0.75)=32,5%.
+>L’aumento del numero delle quarantene è un effetto normale, legato all’&quot;usura&quot; del database. Ad esempio, se la durata di un indirizzo e-mail è considerata di tre anni e la tabella dei destinatari aumenta del 50% ogni anno, l’aumento delle quarantene può essere calcolato come segue: Fine anno 1: 1&#42;0,33)/(1+0,5)=22%. Fine anno 2: (1.22)&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
 Sono disponibili filtri che consentono di sfogliare l’elenco. Puoi filtrare l’indirizzo, lo stato e/o il canale.
 
@@ -97,24 +97,14 @@ Definire l’indirizzo (o il numero di telefono, ecc.) e il tipo di canale. È p
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### Rimozione di un indirizzo messo in quarantena {#removing-a-quarantined-address}
+## Rimozione di un indirizzo dalla quarantena {#removing-a-quarantined-address}
 
-Se necessario, è possibile rimuovere manualmente un indirizzo dall’elenco di quarantena. Inoltre, gli indirizzi che corrispondono a condizioni specifiche vengono eliminati automaticamente dall’elenco di quarantena dal **[!UICONTROL Database cleanup]** workflow. (Per ulteriori informazioni sui flussi di lavoro tecnici, consulta [questa sezione](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
-Per rimuovere manualmente un indirizzo dall’elenco di quarantena, eseguire una delle operazioni seguenti.
 
->[!IMPORTANT]
-L’eliminazione manuale di un indirizzo e-mail dalla quarantena comporta l’avvio della consegna a questo indirizzo. Di conseguenza, questo può avere gravi ripercussioni sulla consegna e sulla reputazione dell’IP, il che potrebbe comportare il blocco dell’indirizzo IP o del dominio di invio. Procedi con maggiore attenzione quando consideri di rimuovere qualsiasi indirizzo dalla quarantena. In caso di dubbio, contatta un esperto di recapito.
 
-* Seleziona l’indirizzo dal **[!UICONTROL Administration > Channels > Quarantines > Addresses]** elenco e seleziona **[!UICONTROL Delete element]**.
+### Aggiornamenti automatici {#unquarantine-auto}
 
-   ![](assets/quarantine-delete-address.png)
-
-* Seleziona un indirizzo e modificane uno **[!UICONTROL Status]** a **[!UICONTROL Valid]**.
-
-   ![](assets/quarantine-valid-status.png)
-
-   È inoltre possibile modificarne lo stato in **[!UICONTROL On allowlist]**. In questo caso, l’indirizzo rimane nell’elenco di quarantena, ma sarà oggetto di targeting sistematico, anche in caso di errore.
+Gli indirizzi che corrispondono a condizioni specifiche vengono eliminati automaticamente dall&#39;elenco di quarantena dal flusso di lavoro Database cleanup . Ulteriori informazioni sui flussi di lavoro tecnici, vedi [questa sezione](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 Gli indirizzi vengono rimossi automaticamente dall’elenco di quarantena nei seguenti casi:
 
@@ -124,10 +114,43 @@ Gli indirizzi vengono rimossi automaticamente dall’elenco di quarantena nei se
 
 Il loro stato cambia in **[!UICONTROL Valid]**.
 
->[!IMPORTANT]
-Destinatari con un indirizzo in un **[!UICONTROL Quarantine]** o **[!UICONTROL On denylist]** lo stato non verrà mai rimosso automaticamente, anche se riceve un’e-mail.
-
 Numero massimo di tentativi da eseguire in caso di **[!UICONTROL Erroneous]** lo stato e il ritardo minimo tra i nuovi tentativi si basano ora sulle prestazioni di un IP sia storicamente che attualmente in un determinato dominio.
+
+
+>[!IMPORTANT]
+>
+>Destinatari con un indirizzo in un **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** lo stato non viene mai rimosso, anche se riceve un’e-mail.
+
+
+### Aggiornamenti manuali {#unquarantine-manual}
+
+Puoi anche rimuovere manualmente la quarantena di un indirizzo.  Per rimuovere manualmente un indirizzo dall’elenco di quarantena, è possibile rimuoverlo dall’elenco di quarantena o modificarne lo stato in **[!UICONTROL Valid]**.
+
+* Seleziona l’indirizzo dal **[!UICONTROL Administration > Channels > Quarantines > Addresses]** elenco e seleziona **[!UICONTROL Delete element]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* Seleziona un indirizzo e modificane uno **[!UICONTROL Status]** a **[!UICONTROL Valid]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+
+### Aggiornamenti in blocco {#unquarantine-bulk}
+
+Potrebbe essere necessario eseguire aggiornamenti in blocco sull&#39;elenco di quarantena, ad esempio in caso di interruzione dell&#39;ISP. In questo caso, le e-mail vengono contrassegnate erroneamente come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi devono essere rimossi dall’elenco di quarantena.
+
+Per eseguire questa operazione, crea un flusso di lavoro e aggiungi un **[!UICONTROL Query]** attività nella tabella di quarantena per filtrare tutti i destinatari interessati. Una volta identificati, possono essere rimossi dall’elenco di quarantena e inclusi nelle future consegne e-mail di Campaign.
+
+In base al calendario dell’incidente, di seguito sono riportate le linee guida consigliate per questa query.
+
+* **Testo di errore (testo di quarantena)** contiene &quot;550-5.1.1&quot; E **Testo di errore (testo di quarantena)** contiene &quot;support.ISP.com&quot;
+
+   dove &quot;support.ISP.com&quot; può essere: &quot;support.apple.com&quot; o &quot;support.google.com&quot; per esempio
+
+* **Stato aggiornamento (@lastModified)** su o dopo MM/GG/AAAA HH:MM:SS AM
+* **Stato aggiornamento (@lastModified)** su o prima MM/GG/AAAA HH:MM:PM SS
+
+Dopo aver visualizzato l’elenco dei destinatari interessati, aggiungi un **[!UICONTROL Update data]** attività per impostare lo stato del proprio indirizzo e-mail su **[!UICONTROL Valid]** in modo che vengano rimosse dall&#39;elenco di quarantena **[!UICONTROL Database cleanup]** workflow. Puoi anche eliminarli dalla tabella di quarantena.
 
 ## Condizioni per la messa in quarantena di un indirizzo {#conditions-for-sending-an-address-to-quarantine}
 
@@ -145,7 +168,8 @@ Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e
 Se un utente qualifica un’e-mail come spam ([circuito di retroazione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)), il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL On denylist]**. Questo stato si riferisce solo all’indirizzo , il profilo non è nel elenco Bloccati, in modo che l’utente continui a ricevere messaggi SMS e notifiche push.
 
 >[!NOTE]
-In Adobe Campaign la quarantena distingue tra maiuscole e minuscole. Accertati di importare gli indirizzi e-mail in lettere minuscole, in modo che non vengano reindirizzate in un secondo momento.
+>
+>In Adobe Campaign la quarantena distingue tra maiuscole e minuscole. Accertati di importare gli indirizzi e-mail in lettere minuscole, in modo che non vengano reindirizzate in un secondo momento.
 
 Nell’elenco degli indirizzi messi in quarantena (vedi [Identificazione degli indirizzi messi in quarantena per l’intera piattaforma](#identifying-quarantined-addresses-for-the-entire-platform)), il campo **[!UICONTROL Error reason]** indica per quale motivo l’indirizzo selezionato è stato messo in quarantena.
 
