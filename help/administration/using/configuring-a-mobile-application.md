@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1260'
 ht-degree: 4%
 
 ---
@@ -50,9 +50,7 @@ Questo passaggio consente all’utente di accedere all’interfaccia utente di r
 
 1. Nell’interfaccia utente Raccolta dati, fai clic sul pulsante **[!UICONTROL Extensions]** scheda , vai a **[!UICONTROL Catalog]** e cerca il **[!UICONTROL Adobe Campaign Standard]** estensione. Per ulteriori informazioni, consulta [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. Per supportare i casi di utilizzo della posizione in Campaign Standard, installa la **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** estensione.
-   * Installa il **[!UICONTROL Places]** estensione nell’interfaccia utente di raccolta dati. Fai riferimento a questo [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installa il **[!UICONTROL Places Monitor]** estensione nell’interfaccia utente di raccolta dati. Fai riferimento a questo [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+1. Per supportare i casi di utilizzo della posizione in Campaign Standard, installa la **[!UICONTROL Places]** estensione nell’interfaccia utente di raccolta dati. Fai riferimento a questo [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. In Adobe Campaign Standard, configura la proprietà mobile creata nell’interfaccia utente Raccolta dati. Fai riferimento a [Configurazione dell’applicazione Adobe Experience Platform Launch in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 

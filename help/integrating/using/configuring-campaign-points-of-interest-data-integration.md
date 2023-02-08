@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1311'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Le applicazioni mobili utilizzate per raccogliere i dati sulla posizione devono 
 
 Per poter utilizzare Adobe Experience Platform Location Services con le applicazioni mobili configurate con Adobe Experience Platform SDK, devi:
 
-1. Aggiungi il **[!UICONTROL Places]** e **[!UICONTROL Places Monitor]** estensioni alla configurazione dell’app mobile nell’interfaccia utente Raccolta dati. Imposta la tua app mobile in Adobe Campaign. Vedi [Installare l’estensione Luoghi](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) e [Installare l’estensione Monitor Luoghi](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Aggiungi il **[!UICONTROL Places]** estensione alla configurazione dell’app mobile nell’interfaccia utente di raccolta dati. Imposta la tua app mobile in Adobe Campaign. Vedi [Installare l’estensione Luoghi](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
 
 1. Una volta configurate le estensioni, crea elementi dati all&#39;interno dell&#39;interfaccia utente Raccolta dati per recuperare i dati da queste estensioni. Fai riferimento a questo [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) per creare gli elementi dati.
 
@@ -187,7 +187,7 @@ Per definire i punti di interesse utilizzati per raccogliere i dati sulla posizi
 
 Una risorsa personalizzata specifica ti consente di definire i dati da raccogliere dagli abbonati alle tue applicazioni.
 
-Questo passaggio è descritto in [Configurazione di un’app mobile tramite SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) pagina.
+Questo passaggio è descritto in [Configurazione di un’app mobile tramite SDK V4](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) pagina.
 
 ## Accesso alle app mobili utilizzate per raccogliere i dati sulla posizione {#accessing-mobile-apps-used-to-collect-location-data}
 
