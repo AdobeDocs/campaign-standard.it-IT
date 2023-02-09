@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1239'
 ht-degree: 88%
 
 ---
@@ -119,7 +119,7 @@ Per utilizzare in modo appropriato E-mail designer e creare le e-mail migliori n
 
 * Il tag meta referente non è supportato nella finestra di progettazione e-mail.
 
-Puoi trovare altre best practice generiche e specifiche sui messaggi nella guida passo-passo di Adobe Campaign che segue: [Best practice per le consegne con Adobe Campaign](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html).
+Puoi trovare altre best practice generiche e specifiche sui messaggi nella guida passo-passo di Adobe Campaign che segue: [Best practice per le consegne con Adobe Campaign](../../sending/using/delivery-best-practices.md).
 
 ### Aggiornamento dei frammenti {#email-designer-updates}
 

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '7279'
+source-wordcount: '7229'
 ht-degree: 100%
 
 ---
@@ -224,7 +224,7 @@ La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/u
 
 È stata aggiunta una nuova sezione con le linee guida relative al monitoraggio di Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
 
-La sezione Correzioni e limitazioni API esterne è stata aggiornata. [Leggi tutto](../../automating/using/external-api.md#guardrails)
+È stata aggiornata la sezione Guardrail e limitazioni per API esterne. [Leggi tutto](../../automating/using/external-api.md#guardrails)
 
 La Panoramica sulla Gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -322,7 +322,7 @@ Sono state aggiunte informazioni sulle modalità di utilizzo degli aggregati all
 
 Le sezioni di messaggistica transazionale sono state aggiornate per riflettere i miglioramenti e gli aggiornamenti più recenti dell’interfaccia utente. [Ulteriori informazioni](../../channels/using/getting-started-with-transactional-msg.md)
 
-Sono state aggiornate le informazioni relative alle protezioni delle attività API esterne. [Ulteriori informazioni](../../automating/using/external-api.md)
+Sono state aggiornate le informazioni relative ai guardrail per attività API esterne. [Ulteriori informazioni](../../automating/using/external-api.md)
 
 ## Marzo 2020 {#doc-updates-march-2020}
 
@@ -422,7 +422,7 @@ Integrazione con Microsoft Dynamics 365 (GA) - [Ulteriori informazioni](../../in
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-L’elenco dei messaggi di errore per Adobe Campaign è stato aggiornato. [Leggi tutto](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+L’elenco dei messaggi di errore per Adobe Campaign è stato aggiornato. [Leggi tutto](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
 
 La guida introduttiva al GDPR è stata migliorata e arricchita. È ora diventata una documentazione sulla gestione della privacy che include GDPR e CCPA. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ Sono state aggiunte informazioni sulle modalità di personalizzazione dell’eti
 
 È stata aggiunta una nuova sezione sulle best practice per i flussi di lavoro. [Ulteriori informazioni](../../automating/using/best-practices-workflows.md)
 
-È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
 
 È stato aggiunto un avviso nella documentazione delle risorse personalizzate. È consigliabile utilizzare un massimo di 30 caratteri per gli ID di risorse personalizzati. Questo vale anche per campi di risorse personalizzati, chiavi, indici e collegamenti. [Ulteriori informazioni](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ Sono state aggiunte informazioni sulle modalità di personalizzazione dell’eti
 
 Durante la chiamata di un flusso di lavoro con parametri, è stato aggiunto un consiglio relativo all’utilizzo di consegne ricorrenti senza periodo di aggregazione. [Ulteriori informazioni](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
 
 È stato aggiunto un avviso nella documentazione delle risorse personalizzate. È consigliabile utilizzare un massimo di 30 caratteri per gli ID di risorse personalizzati. Questo vale anche per campi di risorse personalizzati, chiavi, indici e collegamenti. [Ulteriori informazioni](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ Sono state aggiunte informazioni sulle modalità di collegamento delle risorse p
 
 È stata aggiunta una nuova nota tecnica sull’implementazione del tracciamento push. [Ulteriori informazioni](../../administration/using/push-tracking.md)
 
-È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
 
 È stata aggiornata la documentazione sull’integrazione Triggers - Campaign. [Ulteriori informazioni](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ Nella documentazione API è stata aggiunta una sezione relativa ai **filtri pers
 
 **Nuove funzionalità incluse nella versione**
 
-RGPD: integrazione dei servizi core - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it)
+RGPD: integrazione dei servizi core - [Ulteriori informazioni](../../start/using/privacy-management.md)
 
 Miglioramenti push - feedback dettagliato sulla consegna - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ Sono state unite alcune pagine della documentazione dell’editor dei contenuti,
 
 **Nuove funzionalità incluse nella versione**
 
-Regolamento generale sulla protezione dei dati UE (RGPD) - [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it)
+Regolamento generale sulla protezione dei dati UE (RGPD) - [Ulteriori informazioni](../../start/using/privacy.md)
 
 Creative Designer per e-mail - [Ulteriori informazioni](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ Attività Enrichment: arricchisci i dati in base alle transizioni precedenti - [
 
 È stata modificata la maggior parte degli URL per le integrazioni di soluzioni Campaign e Adobe. Controlla i tuoi segnalibri. [Ulteriori informazioni](../../integrating/using/get-started-campaign-integrations.md)
 
-Il modello dati v1 è ora disponibile con la struttura SQL per le risorse integrate - [Ulteriori informazioni](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/developing/datamodel/datamodel-audience.html)
+Il modello dati v1 è ora disponibile con la struttura SQL per le risorse integrate - [Ulteriori informazioni](../../developing/using/datamodel-introduction.md)
 
 Sono state aggiunte informazioni sulle modalità di preparazione di un messaggio in una consegna [Ulteriori informazioni](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ Sono state aggiunte le raccomandazioni per l’account S3. [Ulteriori informazio
 
 La documentazione relativa agli [Avvisi di consegna](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) è stata aggiornata con una sezione dedicata alla risoluzione dei problemi, che illustra alcuni suggerimenti sulle azioni da intraprendere al momento della ricezione degli avvisi.
 
-È disponibile una nuova guida introduttiva: presenta alcune delle best practice da poter adottare per la consegna con Adobe Campaign, dalla creazione e dal targeting fino all’invio e al monitoraggio. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/delivery-best-practices.html)
+È disponibile una nuova guida introduttiva: presenta alcune delle best practice da poter adottare per la consegna con Adobe Campaign, dalla creazione e dal targeting fino all’invio e al monitoraggio. [Ulteriori informazioni](../../sending/using/delivery-best-practices.md)
 
 La documentazione relativa ai messaggi di follow-up è stata aggiornata con un caso d’uso migliore. [Ulteriori informazioni](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

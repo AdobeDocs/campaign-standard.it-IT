@@ -1,14 +1,14 @@
 ---
 title: Note sulla versione 2017
-description: In questa pagina sono elencate tutte le versioni del 2017 di Adobe Campaign Standard.
+description: In questa pagina sono elencate tutte le versioni di Adobe Campaign Standard del 2017.
 feature: Overview
 role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4562'
 ht-degree: 8%
 
 ---
@@ -392,7 +392,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Integrazione Dreamweaver (Labs)<br /> </td> 
-   <td> Con l’integrazione di Adobe Campaign e Dreamweaver, ora disponi di un processo integrato per la creazione di campagne e-mail con soluzioni Adobe.<br /> Puoi modificare le e-mail di Adobe Campaign in Dreamweaver e sincronizzare il contenuto senza soluzione di continuità tra le due soluzioni.<br /> Per la versione iniziale, l’integrazione è disponibile come funzione "Labs" e funziona solo con Dreamweaver Pre-Release Beta. Se desideri attivarlo, contatta AC-DW-integration@adobe.com.<br /> Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> Con l’integrazione di Adobe Campaign e Dreamweaver, ora disponi di un processo integrato per la creazione di campagne e-mail con soluzioni Adobe.<br /> Puoi modificare le e-mail di Adobe Campaign in Dreamweaver e sincronizzare il contenuto senza soluzione di continuità tra le due soluzioni.<br /> Per la versione iniziale, l’integrazione è disponibile come funzione "Labs" e funziona solo con Dreamweaver Pre-Release Beta. Se desideri attivarlo, contatta AC-DW-integration@adobe.com.<br /> Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=it">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ottimizzazione manuale del tempo di invio<br /> </td> 
@@ -489,9 +489,9 @@ _Flussi di lavoro_
   </tr> 
   <tr> 
    <td> API di messaggistica transazionale<br /> </td> 
-   <td> L’API di messaggistica transazionale è ora disponibile tramite <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, facilitando l'utilizzo e il monitoraggio:<br /> 
+   <td> L’API di messaggistica transazionale è ora disponibile, facilitando l’utilizzo e il monitoraggio:<br /> 
     <ul> 
-     <li> Puoi sfruttare le funzionalità di reporting e monitoraggio di adobe.io platform. </li> 
+     <li> Puoi sfruttare le funzionalità di reporting e monitoraggio della piattaforma Adobe Developer. </li> 
      <li> L’autenticazione viene ora eseguita utilizzando l’autenticazione basata sul token adobe.io invece dell’inserire nell'elenco Consentiti IP, semplificando il processo di sicurezza. </li> 
      <li> Tutte le API sono ora integrate in un’unica piattaforma, semplificando al massimo l’aggiunta di funzionalità di messaggistica transazionale all’integrazione se supporti già l’API Profilo e servizi. </li> 
     </ul> </td> 

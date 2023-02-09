@@ -1,13 +1,13 @@
 ---
 title: Personalizzazione degli elenchi
-description: '"Scopri come personalizzare la visualizzazione e intervenire sulle schermate dell’elenco in Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione degli elementi. Elenca schermate che mostrano elementi di una o più risorse specificate."'
+description: "Scopri come personalizzare la visualizzazione e intervenire sulle schermate dell’elenco in Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione degli elementi. Elenca schermate che mostrano elementi di una o più risorse specificate."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 9%
+source-wordcount: '776'
+ht-degree: 7%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 9%
 
 I profili Adobe Campaign rappresentano tutti i contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie affinché tale profilo sia mirato, qualificato e monitorato individualmente. Questo significa che un profilo può essere: un cliente, un potenziale cliente, una persona abbonata a una newsletter, un destinatario, un utente o qualsiasi altra denominazione a seconda dell’organizzazione.
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * [Informazioni sui profili](../../audiences/using/about-profiles.md)
 * [Accesso al numero di profili attivi nell&#39;organizzazione](../../audiences/using/active-profiles.md)
@@ -74,7 +74,7 @@ Le pagine di destinazione sono moduli web che possono essere utilizzati per racc
 
 Per ulteriori informazioni sulle pagine di destinazione, consulta la sezione [documentazione dedicata](../../channels/using/getting-started-with-landing-pages.md).
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * xxxx
 * xxxx
@@ -88,7 +88,7 @@ Questi contatti sono quindi visibili nell’elenco Profili e possono essere indi
 >
 >Il connettore Campaign Standard-Microsoft Dynamics 365 è attualmente a disponibilità limitata e soggetto a diverse limitazioni, descritte nella documentazione.
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * xxxx
 * xxxx
@@ -101,7 +101,7 @@ Le API di Campaign Standard consentono di eseguire operazioni per aggiornare il 
 >
 >Prima di eseguire la creazione di massa dei profili o l’aggiornamento tramite chiamate API, controlla le limitazioni di scala corrispondenti al contratto di licenza. Per ulteriori informazioni, consulta [questa pagina](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * xxxx
 * xxxx
@@ -114,7 +114,7 @@ Per consentirti di inviare messaggi pertinenti ed efficaci e coinvolgere in modo
 
 Grazie ai flussi di lavoro e all’editor delle query, puoi creare tipi di pubblico interessati dalle diverse campagne, in base alle informazioni disponibili, alle loro attività, alla lingua, alle preferenze o alla cronologia di marketing. Questo ti consente di filtrare profili abbonati, ad esempio, o creare tipi di pubblico target su un numero illimitato di criteri.
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * [Informazioni sui tipi di pubblico](../../audiences/using/about-audiences.md)
 * [Creazione di tipi di pubblico](../../audiences/using/creating-audiences.md)
@@ -125,9 +125,9 @@ Grazie ai flussi di lavoro e all’editor delle query, puoi creare tipi di pubbl
 
 Il RGPD è la nuova legge sulla privacy dell’Unione europea (UE) che armonizza e modernizza i requisiti in materia di protezione dei dati. Il GDPR si applica ai clienti di Adobe Campaign che conservano dati per soggetti che risiedono nell’Unione europea. Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (tra cui la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), stiamo sfruttando questa opportunità nel nostro ruolo di Incaricato del trattamento dei dati per includere funzionalità aggiuntive, per aiutarti a essere pronto come titolare del trattamento per alcune richieste RGPD.
 
-Fai riferimento a questo [guida](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it) per ulteriori informazioni sugli strumenti e sulle funzionalità forniti da Adobe Campaign per aiutarti a diventare conforme ai requisiti RGPD.
+Fai riferimento a [questa sezione](../../start/using/privacy.md) per ulteriori informazioni sugli strumenti e sulle funzionalità forniti da Adobe Campaign per aiutarti a diventare conforme ai requisiti RGPD.
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * xxxx
 * xxxx

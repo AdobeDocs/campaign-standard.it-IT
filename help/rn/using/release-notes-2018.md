@@ -1,15 +1,15 @@
 ---
 title: Note sulla versione 2018
-description: In questa pagina sono elencate tutte le versioni del 2018 di Adobe Campaign Standard.
+description: In questa pagina sono elencate tutte le versioni di Adobe Campaign Standard del 2018.
 feature: Overview
 role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5357'
-ht-degree: 7%
+source-wordcount: '5355'
+ht-degree: 6%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> Integrazione di Adobe Launch per le app mobili (versione beta)<br /> </td> 
-   <td> L’integrazione di Adobe Launch con Adobe Campaign semplifica e automatizza il processo di attivazione della proprietà dell’app mobile in Campaign utilizzando l’SDK mobile V5.<br /> Per ulteriori informazioni, consulta la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’integrazione di Adobe Launch con Adobe Campaign semplifica e automatizza il processo di attivazione della proprietà dell’app mobile in Campaign utilizzando l’SDK mobile V5.<br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> RGPD: Integrazione del servizio core<br /> </td> 
-   <td> L’integrazione dei servizi core per la privacy consente di automatizzare le richieste RGPD in un contesto con più soluzioni tramite una singola chiamata API JSON. <br /> Le richieste RGPD inviate dal servizio core Privacy a tutte le soluzioni Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’integrazione dei servizi core per la privacy consente di automatizzare le richieste RGPD in un contesto con più soluzioni tramite una singola chiamata API JSON. <br /> Le richieste RGPD inviate dal servizio core Privacy a tutte le soluzioni Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti push - feedback dettagliato sulla consegna<br /> </td> 
@@ -269,7 +269,7 @@ _Flussi di lavoro_
 
 * Gestione della memoria migliorata e prestazioni ottimizzate nei flussi di lavoro.
 
-_Generazione rapporti_
+_Reportistica_
 
 * Il flusso di lavoro di condivisione KPI ora recupera i valori di consegna per gli ultimi 2 mesi anziché per gli ultimi 6 mesi. È stato risolto un problema a causa del quale l’account esterno per la condivisione di KPI (Key Performance Indicator) mostrava le date troncate.
 * È stato risolto un problema che poteva causare la mancata considerazione di alcuni messaggi in **Inviato**, **Consegnato** e **Rimbalzo** metriche.
@@ -297,7 +297,7 @@ _Risorse personalizzate_
     <ul> 
      <li> Diritto di accesso: consente all’interessato di ricevere una copia dei propri dati personali acquisiti dai Titolari del trattamento dei dati, che potrebbero includere i dati archiviati in Adobe Campaign. </li> 
      <li> Diritto di cancellazione: concede all’interessato il diritto di cancellare i propri dati personali acquisiti dai Titolari del trattamento dei dati, potenzialmente inclusi i dati archiviati in Adobe Campaign. </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer per e-mail (versione beta)<br /> </td> 
