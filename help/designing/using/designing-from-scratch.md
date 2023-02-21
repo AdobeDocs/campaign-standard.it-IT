@@ -1,5 +1,5 @@
 ---
-title: 'Progettazione di e-mail da zero '
+title: Progettazione di e-mail da zero
 description: Scopri come progettare e-mail da contenuti e-mail nuovi in E-mail Designer.
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -40,13 +40,13 @@ Puoi anche controllare questo [video introduttivo](https://video.tv.adobe.com/v/
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
->title="Informazioni sui componenti Struttura"
+>title="Informazioni sui componenti struttura"
 >abstract="I componenti struttura definiscono il layout del messaggio e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
->title="Definizione delle colonne e-mail"
->abstract="E-mail Designer consente di definire facilmente il layout dell’e-mail definendo la struttura delle colonne."
+>title="Definizione delle colonne nell’e-mail"
+>abstract="E-mail Designer consente di definire facilmente il layout dell’e-mail definendone la struttura a colonne."
 
 E-mail Designer consente di definire facilmente la struttura delle e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare la forma del messaggio e-mail in pochi secondi.
 
@@ -65,13 +65,13 @@ Per modificare la struttura di un messaggio e-mail:
 
    >[!NOTE]
    >
-   >Tieni presente che una pila di colonne non è compatibile con tutti i programmi e-mail. Se non è supportato, le colonne non verranno sovrapposte.
+   >La pila di colonne non è compatibile con tutti i programmi e-mail. Quando non è supportata, le colonne non vengono impilate.
    >
    >Una volta inseriti nell’e-mail, non puoi spostare né rimuovere i componenti a meno che non sia già presente un componente di contenuto o un frammento all’interno.
 
 1. Sono disponibili diversi componenti struttura composti da una o più colonne.
 
-   Seleziona la **[!UICONTROL n:n column]** per definire il numero di colonne desiderato (tra 3 e 10). È inoltre possibile definire la larghezza di ogni colonna spostando le frecce nella parte inferiore di ciascuna colonna.
+   Seleziona la **[!UICONTROL n:n column]** per definire il numero di colonne desiderato (tra 3 e 10). Per definire la larghezza di ogni colonna, sposta le frecce nella parte inferiore di ciascuna colonna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -98,13 +98,13 @@ Puoi aggiungere una **[!UICONTROL Content block]**, **[!UICONTROL Dynamic conten
 
 >[!NOTE]
 >
->La preintestazione non è compatibile con tutti i programmi e-mail. Se non è supportato, la preintestazione non viene visualizzata.
+>Il preheader non è compatibile con tutti i programmi e-mail. Quando non è supportato, non viene visualizzato.
 
 ## Utilizzo dei componenti di contenuto {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
->title="Informazioni sui componenti Contenuto"
+>title="Informazioni sui componenti per contenuti"
 >abstract="I componenti contenuto sono segnaposto di contenuto vuoti che puoi modificare per creare un’e-mail."
 
 I componenti contenuto sono componenti vuoti e non elaborati che possono essere modificati una volta inseriti in un messaggio e-mail.
@@ -163,7 +163,7 @@ Inserisci il componente video in un componente struttura dell’e-mail e inseris
 
 >[!NOTE]
 >
->Il video non è compatibile con tutti i programmi e-mail. Se non è supportato, verrà visualizzato il fallback.
+>Il video non è compatibile con tutti i programmi e-mail. Quando non è supportato, viene visualizzato il fallback.
 
 ### Immagine
 

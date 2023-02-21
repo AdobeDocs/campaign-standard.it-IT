@@ -1,13 +1,13 @@
 ---
 title: Personalizzazione degli elenchi
-description: '"Scopri come personalizzare la visualizzazione e intervenire sulle schermate dell’elenco in Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione degli elementi. Elenca schermate che mostrano elementi di una o più risorse specificate."'
+description: "Scopri come personalizzare la visualizzazione e intervenire sulle schermate dell’elenco in Adobe Campaign Standard:ordinamento, filtro, eliminazione o duplicazione degli elementi. Elenca schermate che mostrano elementi di una o più risorse specificate."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 8%
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Intero luctus blandit ligula. Nulla quis veicolo augue, un rischio di lacinia. Nunc Pharetra fringilla enim eu suscipit. Mauris consactetur maximus euismod. Cras et veicolo nulla. Eenean tellus quam, tristique quis risus consactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Intero luctus blandit ligula. Nulla quis veicolo augue, un rischio di lacinia. Nunc Pharetra fringilla enim eu suscipit. Mauris consactetur maximus euismod. Cras et veicolo nulla. Eenean tellus quam, tristique quis risus consactetur, pulvinar elementum dui.
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * xxxx
 * xxxx
@@ -52,9 +52,9 @@ Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Intero luctus blandit ligula. Nulla quis veicolo augue, un rischio di lacinia. Nunc Pharetra fringilla enim eu suscipit. Mauris consactetur maximus euismod. Cras et veicolo nulla. Eenean tellus quam, tristique quis risus consactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Intero luctus blandit ligula. Nulla quis veicolo augue, un rischio di lacinia. Nunc Pharetra fringilla enim eu suscipit. Mauris consactetur maximus euismod. Cras et veicolo nulla. Eenean tellus quam, tristique quis risus consactetur, pulvinar elementum dui.
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * xxxx
 * xxxx
@@ -63,9 +63,9 @@ Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Intero luctus blandit ligula. Nulla quis veicolo augue, un rischio di lacinia. Nunc Pharetra fringilla enim eu suscipit. Mauris consactetur maximus euismod. Cras et veicolo nulla. Eenean tellus quam, tristique quis risus consactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Intero luctus blandit ligula. Nulla quis veicolo augue, un rischio di lacinia. Nunc Pharetra fringilla enim eu suscipit. Mauris consactetur maximus euismod. Cras et veicolo nulla. Eenean tellus quam, tristique quis risus consactetur, pulvinar elementum dui.
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * xxxx
 * xxxx
@@ -74,9 +74,9 @@ Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consactetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Intero luctus blandit ligula. Nulla quis veicolo augue, un rischio di lacinia. Nunc Pharetra fringilla enim eu suscipit. Mauris consactetur maximus euismod. Cras et veicolo nulla. Eenean tellus quam, tristique quis risus consactetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Intero luctus blandit ligula. Nulla quis veicolo augue, un rischio di lacinia. Nunc Pharetra fringilla enim eu suscipit. Mauris consactetur maximus euismod. Cras et veicolo nulla. Eenean tellus quam, tristique quis risus consactetur, pulvinar elementum dui.
 
-**Leggi tutto**
+**Maggiori informazioni**
 
 * xxxx
 * xxxx

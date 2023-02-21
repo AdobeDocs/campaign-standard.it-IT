@@ -26,5 +26,5 @@ Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare 
 
 La **Collegamenti più visitati** la tabella contiene i dati disponibili per il comportamento del destinatario per consegna, ad esempio:
 
-* **Click**: The number of times content was clicked in a delivery.
-* **Unique clicks**: The number of recipients who clicked on content in a delivery.
+* **Fai clic su**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
+* **Clic univoco**: Il numero di destinatari che hanno fatto clic sul contenuto in una consegna.

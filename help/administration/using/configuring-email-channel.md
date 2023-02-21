@@ -9,7 +9,7 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
 source-wordcount: '2681'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -314,7 +314,7 @@ Il numero di tentativi può essere modificato a livello globale (contatta l’am
 
 Per impostazione predefinita, sono pianificati cinque tentativi per il primo giorno con un intervallo minimo di un’ora, distribuiti nelle 24 ore del giorno. Un nuovo tentativo al giorno viene programmato dopo e fino alla scadenza della consegna, che è definita a livello globale nel **[!UICONTROL Delivery parameters]** della sezione **[!UICONTROL Configuration]** o **[!UICONTROL Validity period]** a livello di consegna (consulta la sezione [Durata della consegna](#legacy-delivery-duration) sezione seguente).
 
-### Durata della consegna {#legacy-delivery-duration}
+### Durata consegna {#legacy-delivery-duration}
 
 Utilizza la **[!UICONTROL Message delivery duration]** nel [Menu Configurazione](#email-channel-parameters) per specificare l’intervallo di tempo entro il quale verrà ritentato qualsiasi messaggio nella consegna che riscontri un errore temporaneo o un messaggio non recapitato.
 

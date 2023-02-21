@@ -1,6 +1,6 @@
 ---
 title: Informazioni sui casi d’uso dei flussi di lavoro
-description: Learn more on use cases that you can perform using Campaign Standard workflows.
+description: Ulteriori informazioni sui casi d’uso che è possibile eseguire utilizzando i flussi di lavoro di Campaign Standard.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -47,7 +47,7 @@ che consentono di scoprire i diversi contesti in cui i flussi di lavoro possono 
 * [Segmentazione in base ai gruppi di età](../../automating/using/segmentation-age-groups.md)
 * [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Gestione dati {#management}
+## Gestione dei dati {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

@@ -10,7 +10,7 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 21%
+ht-degree: 37%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 21%
                <tr>
                   <td>PKey</td>
                   <td>ID risorsa principale</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
@@ -39,7 +39,7 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>incorporato</td>
-                  <td>Oggetto applicativo incorporato</td>
+                  <td>Oggetto applicazione incorporato</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -52,7 +52,7 @@ ht-degree: 21%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +76,7 @@ ht-degree: 21%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,7 +121,7 @@ ht-degree: 21%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -133,19 +133,19 @@ ht-degree: 21%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>programma (programBase)</td>
                   <td>Programma</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
                   <td>Rapporti in tempo reale</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -155,7 +155,7 @@ ht-degree: 21%
                   <td> </td>
                </tr>
                <tr>
-                  <td>status</td>
+                  <td>stato</td>
                   <td>Stato</td>
                   <td>enumerazione (byte) </td>
                   <td>
@@ -170,7 +170,7 @@ ht-degree: 21%
                <tr>
                   <td>template (campaign)</td>
                   <td>Modello di campagna</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -211,7 +211,7 @@ Per nome o etichetta (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 
@@ -228,7 +228,7 @@ Per periodo (perPeriodo)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 

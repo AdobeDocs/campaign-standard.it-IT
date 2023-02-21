@@ -10,7 +10,7 @@ exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 4%
                <tr>
                   <td>PKey</td>
                   <td>ID risorsa principale</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>età</td>
                   <td>Età</td>
-                  <td>integer </td>
+                  <td>intero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -45,37 +45,37 @@ ht-degree: 4%
                </tr>
                <tr>
                   <td>blackList</td>
-                  <td>Nessun contatto (da qualsiasi canale)</td>
+                  <td>Non desidera più essere contattato (tramite nessun canale)</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListEmail</td>
-                  <td>Nessun contatto tramite e-mail</td>
+                  <td>Non contattare più tramite e-mail</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListFax</td>
-                  <td>Non più contattare via fax</td>
+                  <td>Non contattare più via fax</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListMobile</td>
-                  <td>Nessun contatto più tramite SMS</td>
+                  <td>Non contattare più via SMS</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPhone</td>
-                  <td>Nessun contatto più telefonico</td>
+                  <td>Non contattare più telefonicamente</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPostalMail</td>
-                  <td>Nessun contatto tramite direct mailing</td>
+                  <td>Non contattare più tramite direct mail</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -88,19 +88,19 @@ ht-degree: 4%
                <tr>
                   <td>countBroadLogEvents</td>
                   <td>CountBroadLogEvents</td>
-                  <td>integer </td>
+                  <td>intero </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countSubHistoEvents</td>
                   <td>CountSubHistoEvents</td>
-                  <td>integer </td>
+                  <td>intero </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>paese (paesi)</td>
                   <td>Paese</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,13 +118,13 @@ ht-degree: 4%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusHobbieslink (cusHobbies)</td>
                   <td>CusHobbieslink</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -185,7 +185,7 @@ ht-degree: 4%
                <tr>
                   <td>kpisAndChart</td>
                   <td>KpisAndChart</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -203,12 +203,12 @@ ht-degree: 4%
                <tr>
                   <td>posizione</td>
                   <td>Posizione</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>middleName</td>
-                  <td>Nome centrale</td>
+                  <td>Secondo nome</td>
                   <td>stringa (30)</td>
                   <td> </td>
                </tr>
@@ -233,7 +233,7 @@ ht-degree: 4%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -251,7 +251,7 @@ ht-degree: 4%
                <tr>
                   <td>stateLink (stato)</td>
                   <td>Stato</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -407,11 +407,11 @@ Compleanno (compleanno)
 </tr>
 <tr>
 <td>previousUnitsValue</td>
-<td>integer</td>
+<td>intero</td>
 </tr>
 <tr>
 <td>nextUnitsValue</td>
-<td>integer</td>
+<td>intero</td>
 </tr>
 <tr>
 <td>endDay</td>
@@ -423,7 +423,7 @@ Compleanno (compleanno)
 </tr>
 <tr>
 <td>relativeValue</td>
-<td>string</td>
+<td>stringa</td>
 </tr>
 <tr>
 <td>mese</td>
@@ -442,7 +442,7 @@ Compleanno (compleanno)
 <td>date</td>
 </tr>
 <tr>
-<td>type</td>
+<td>tipo</td>
 <td>enumerazione</td>
 </tr>
 <tr>
@@ -460,7 +460,7 @@ Per e-mail (per e-mail)
 </tr>
 <tr>
 <td>e-mail</td>
-<td>string</td>
+<td>stringa</td>
 </tr>
 </table>
 
@@ -473,7 +473,7 @@ Per chiavi (byKeysProfile)
 </tr>
 <tr>
 <td>e-mail</td>
-<td>string</td>
+<td>stringa</td>
 </tr>
 </table>
 
@@ -486,7 +486,7 @@ Per nome o e-mail (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>string</td>
+<td>stringa</td>
 </tr>
 </table>
 
@@ -499,7 +499,7 @@ Per pubblico statico (byStaticAudience)
 </tr>
 <tr>
 <td>pubblico</td>
-<td>collegamento</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -512,7 +512,7 @@ Clic (hasClicDelivery)
 </tr>
 <tr>
 <td>consegna</td>
-<td>collegamento</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -525,7 +525,7 @@ Aperto (hasOpenDelivery)
 </tr>
 <tr>
 <td>consegna</td>
-<td>collegamento</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -538,7 +538,7 @@ Profilo (profilo)
 </tr>
 <tr>
 <td>profilo</td>
-<td>collegamento</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -551,7 +551,7 @@ Ricevuto (hasReceivedDelivery)
 </tr>
 <tr>
 <td>consegna</td>
-<td>collegamento</td>
+<td>link</td>
 </tr>
 </table>
 
@@ -564,6 +564,6 @@ Abbonati (abbonati)
 </tr>
 <tr>
 <td>servizio</td>
-<td>collegamento</td>
+<td>link</td>
 </tr>
 </table>

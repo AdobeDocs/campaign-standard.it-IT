@@ -1,6 +1,6 @@
 ---
 title: Messaggi non recapitati e non trasferibili
-description: 'Con il rapporto Non-deliverable e bounce out-of-the-box , scopri gli errori che possono verificarsi alla consegna. '
+description: Con il rapporto Non-deliverable e bounce out-of-the-box , scopri gli errori che possono verificarsi alla consegna.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

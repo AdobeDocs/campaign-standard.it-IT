@@ -1,6 +1,6 @@
 ---
 title: Esportazione di elenchi
-description: 'Adobe Campaign consente di esportare i dati visualizzati come elenchi da una schermata di panoramica direttamente in un file per un utilizzo futuro. '
+description: Adobe Campaign consente di esportare i dati visualizzati come elenchi da una schermata di panoramica direttamente in un file per un utilizzo futuro.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data

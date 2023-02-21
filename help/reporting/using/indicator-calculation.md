@@ -11,7 +11,7 @@ exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -90,7 +90,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (Consegnati + Rimbalzi).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rimbalzi netti<br /> </td> 
+   <td> Mancati recapiti permanenti<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failedType=2 AND @failedReason=8)<br /> </td> 
    <td> </td> 
@@ -114,7 +114,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Pagina speculare<br /> </td> 
+   <td> Pagina mirror<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
    <td> Denominatore per il calcolo del tasso si basa solo su Consegnato.<br /> </td> 
@@ -126,7 +126,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Non connesso<br /> </td> 
+   <td> Non connessi<br /> </td> 
    <td> @notConnected<br /> </td> 
    <td> count(@failedReason=6)<br /> </td> 
    <td> </td> 
@@ -204,7 +204,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Annulla sottoscrizione<br /> </td> 
+   <td> Annulla iscrizione<br /> </td> 
    <td> @unsubscribes<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 

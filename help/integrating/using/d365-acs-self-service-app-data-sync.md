@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# Sincronizza dati
+# Sincronizzare i dati
 
 Puoi sincronizzare le tabelle da Microsoft Dynamics 365 alle metriche di marketing Campaign e Campaign con Microsoft Dynamics 365. La sincronizzazione viene eseguita tramite tre flussi di lavoro tecnici dedicati: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Fai riferimento a questa sezione per [ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-workflows.md).
 

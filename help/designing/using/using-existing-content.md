@@ -1,5 +1,5 @@
 ---
-title: 'Progettazione di e-mail con contenuto esistente '
+title: Progettazione di e-mail con contenuto esistente
 description: Scopri come progettare e-mail utilizzando il contenuto esistente di e-mail in E-mail Designer.
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 0d645de54106d49452a846ee650335607dbf21d3
 workflow-type: tm+mt
 source-wordcount: '1282'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -128,7 +128,7 @@ Per recuperare il contenuto in fase di preparazione, segui i passaggi seguenti:
 
 1. Per visualizzare l’anteprima del contenuto dell’URL recuperato, apri il messaggio una volta creato, quindi fai clic sul pulsante **[!UICONTROL Preview]** pulsante .
 
-È possibile personalizzare l’URL remoto da cui verrà recuperato il contenuto. Per farlo, segui la procedura indicata di seguito:
+È possibile personalizzare l’URL remoto da cui verrà recuperato il contenuto. A tale scopo, segui la procedura indicata di seguito:
 
 1. Fai clic sull’etichetta e-mail nella parte superiore dello schermo per accedere a E-mail Designer **[!UICONTROL Properties]** scheda .
 1. Trova il **[!UICONTROL Remote URL]** campo .
@@ -223,7 +223,7 @@ Dopo aver identificato tutti i blocchi, in E-mail Designer ripeti la seguente pr
 1. Aggiungi un componente struttura. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Aggiungi un componente HTML. Per ulteriori informazioni, consulta [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copia e incolla il tuo HTML in quel componente.
-1. Passa alla visualizzazione mobile. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Passa alla vista per dispositivi mobili. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    La visualizzazione reattiva non funziona perché manca il CSS.
 

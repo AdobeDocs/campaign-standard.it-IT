@@ -36,7 +36,7 @@ Per visualizzare l’elenco delle persone abbonate a un servizio:
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Storico sottoscrizioni {#subscription-history}
+## Cronologia iscrizioni {#subscription-history}
 
 Per consultare la cronologia dell’abbonamento e del suo annullamento:
 

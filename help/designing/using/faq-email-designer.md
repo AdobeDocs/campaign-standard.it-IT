@@ -1,5 +1,5 @@
 ---
-title: 'Domande frequenti su E-mail Designer '
+title: Domande frequenti su E-mail Designer
 description: Domande frequenti su E-mail Designer.
 audience: designing
 content-type: reference

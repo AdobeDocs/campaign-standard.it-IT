@@ -10,7 +10,7 @@ exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 17%
+ht-degree: 42%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 17%
     <tr>
         <td>PKey</td>
         <td>ID risorsa principale</td>
-        <td>string </td>
+        <td>stringa </td>
         <td> </td>
     </tr>
     <tr>
         <td>commento</td>
-        <td>Commento referente</td>
+        <td>Commento del referrer</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
@@ -46,19 +46,19 @@ ht-degree: 17%
     <tr>
         <td>createdBy (userBase)</td>
         <td>Creato da</td>
-        <td>collegamento </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>consegna (consegna)</td>
         <td>Consegna</td>
-        <td>collegamento </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
         <td>ID dell’ultima consegna</td>
-        <td>integer </td>
+        <td>intero </td>
         <td> </td>
     </tr>
     <tr>
@@ -87,14 +87,14 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>forwardUrl</td>
-        <td>URL successivo</td>
+        <td>URL di inoltro</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
     <tr>
         <td>geoUnit (geoUnitBase)</td>
         <td>Unità geografica</td>
-        <td>collegamento </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
@@ -112,13 +112,13 @@ ht-degree: 17%
     <tr>
         <td>modifiedBy (userBase)</td>
         <td>Modificato da</td>
-        <td>collegamento </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit (orgUnitBase)</td>
         <td>Unità organizzativa</td>
-        <td>collegamento </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
@@ -135,43 +135,43 @@ ht-degree: 17%
     <tr>
         <td>destinatario (destinatario)</td>
         <td>Profilo identificato</td>
-        <td>collegamento </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
         <td>recipientId</td>
         <td>ID profilo</td>
-        <td>integer </td>
+        <td>intero </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>Indirizzo e-mail referrer</td>
+        <td>E-mail referrer</td>
         <td>string (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
-        <td>Nome referente</td>
+        <td>Nome referrer</td>
         <td>stringa (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
         <td>ID referente</td>
-        <td>integer </td>
+        <td>intero </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
-        <td>Cognome referente</td>
+        <td>Cognome referrer</td>
         <td>string (50)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerRcp (recipient)</td>
         <td>Referrer</td>
-        <td>collegamento </td>
+        <td>link </td>
         <td> </td>
     </tr>
     <tr>
@@ -193,6 +193,6 @@ Per cognome, nome o e-mail (perText)</p>
         </tr>
         <tr>
         <td>text</td>
-        <td>string</td>
+        <td>stringa</td>
         </tr>
     </table>

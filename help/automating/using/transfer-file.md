@@ -12,7 +12,7 @@ exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -56,7 +56,7 @@ Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati
 
 1. La sezione **[!UICONTROL Additional options]**, disponibile a seconda del protocollo selezionato, ti consente di aggiungere parametri al protocollo.
 
-   Puoi:
+   È possibile eseguire le seguenti operazioni:
 
    * **[!UICONTROL Delete the source files after transfer]**: cancella i file sul server remoto. Se non selezioni questa opzione, assicurati di monitorare manualmente le dimensioni del contenuto archiviato nella directory SFTP.
 
@@ -145,7 +145,7 @@ Il protocollo BLOB di Microsoft Azure ti consente di accedere a BLOB che si trov
 ### Configurazione con file presenti nel server di Adobe Campaign {#files-server-configuration-wf}
 
 Il protocollo **[!UICONTROL File(s) present on the Adobe Campaign server]** corrisponde all’archivio contenente i file da recuperare.
-Puoi utilizzare metacaratteri o caratteri jolly (ad esempio * o ?) per filtrare file.
+Metacaratteri o caratteri jolly (ad esempio &#42; o ?) può essere utilizzato per filtrare i file.
 
 Scegli se desideri **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**. L’opzione **[!UICONTROL Use a dynamic file path]** ti consente di utilizzare un’espressione standard e variabili di eventi per personalizzare il nome del file da trasferire. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/customizing-workflow-external-parameters.md).
 

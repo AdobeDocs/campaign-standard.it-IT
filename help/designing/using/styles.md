@@ -11,7 +11,7 @@ exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 2%
+ht-degree: 23%
 
 ---
 
@@ -101,16 +101,16 @@ Per entrambi **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, fai clic sull�
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Impostazioni di sfondo"
+>title="Impostazioni dello sfondo"
 >abstract="E-mail Designer consente di personalizzare il colore di sfondo o l’immagine di sfondo per il contenuto. L’immagine di sfondo non è supportata da tutti i client e-mail."
 
-Quando si tratta di impostare gli sfondi con E-mail Designer, l’Adobe consiglia quanto segue:
+Per impostare lo sfondo con E-mail Designer, Adobe consiglia quanto segue:
 
-1. Se richiesto dalla progettazione, applica un colore di sfondo al corpo dell’e-mail.
+1. Se richiesto dal tuo design, applica un colore di sfondo al corpo dell’e-mail.
 1. Nella maggior parte dei casi, imposta i colori di sfondo a livello di colonna.
-1. Prova a non utilizzare i colori di sfondo su componenti immagine o testo in quanto sono difficili da gestire.
+1. Evita di utilizzare i colori di sfondo su componenti immagine o testo, poiché sono difficili da gestire.
 
-Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile utilizzare.
+Di seguito sono riportate le impostazioni di sfondo disponibili.
 
 * Imposta un **[!UICONTROL Background color]** per l&#39;intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
 
@@ -120,11 +120,11 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
    ![](assets/des_background_viewport.png)
 
-* Impostare un colore di sfondo diverso per ciascun componente struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla palette a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
+* Imposta un colore di sfondo diverso per ciascun componente della struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla palette a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
 
    ![](assets/des_background_structure.png)
 
-   Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione in quanto potrebbe nascondere i colori di sfondo della struttura.
+   Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione, in quanto questo potrebbe nascondere i colori di sfondo della struttura.
 
 * Imposta un **[!UICONTROL Background image]** per il contenuto di un componente struttura.
 
@@ -132,7 +132,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
    >[!NOTE]
    >
-   >Alcuni programmi e-mail non supportano le immagini in background. Se non supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l&#39;immagine non possa essere visualizzata.
+   >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
 
 * Imposta un colore di sfondo a livello di colonna.
 
@@ -146,7 +146,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
 ### Esempio: regolazione dell&#39;allineamento verticale e della spaziatura {#example--adjusting-vertical-alignment-and-padding}
 
-È necessario regolare la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne. Per farlo, segui la procedura indicata di seguito:
+È necessario regolare la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne. A tale scopo, segui la procedura indicata di seguito:
 
 1. Seleziona il componente struttura direttamente nel messaggio e-mail o utilizza la struttura ad albero disponibile a sinistra **Palette**.
 1. Da **barra degli strumenti contestuale**, fai clic su **[!UICONTROL Select a column]** e scegli quello da modificare. È inoltre possibile selezionarlo dalla struttura ad albero.
@@ -175,7 +175,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
 ## Collegamenti di stile {#about-styling-links}
 
-È possibile sottolineare un collegamento e selezionarne il colore e la destinazione in E-mail Designer.
+In E-mail Designer è possibile sottolineare un collegamento e selezionarne il colore e la destinazione.
 
 1. In un componente in cui viene inserito un collegamento, seleziona il testo dell’etichetta del collegamento.
 
@@ -208,4 +208,4 @@ Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visuali
 
 1. Modificare i valori degli attributi esistenti o aggiungerne di nuovi utilizzando il **+** pulsante . Puoi aggiungere qualsiasi attributo e valore conforme a CSS.
 
-Lo stile viene quindi applicato all’elemento selezionato. Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento padre.
+Lo stile viene quindi applicato all’elemento selezionato. Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento principale.

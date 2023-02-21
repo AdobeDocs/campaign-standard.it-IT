@@ -12,7 +12,7 @@ exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,7 @@ Quando crei le e-mail, ricorda le best practice generali riportate di seguito.
 
 * Codifica caratteri speciali
 
-### Linea oggetto
+### Oggetto
 
 I lavori [oggetto](../../designing/using/subject-line.md) per migliorare le tariffe aperte:
 
@@ -58,7 +58,7 @@ I lavori [oggetto](../../designing/using/subject-line.md) per migliorare le tari
 
 * Evitare lettere maiuscole e caratteri speciali come &quot;!&quot;, &quot; £&quot;, &quot;€&quot;, &quot;$&quot;
 
-### Pagina speculare
+### Pagina mirror
 
 Includi sempre un collegamento alla pagina speculare. La posizione preferita è la parte superiore dell’e-mail. [Ulteriori informazioni](../../designing/using/personalization.md#adding-a-content-block)
 

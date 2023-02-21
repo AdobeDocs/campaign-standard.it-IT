@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Quando il messaggio è pronto, scopri come eseguire tutti i controlli prima di inviare"'
+description: "Quando il messaggio è pronto, scopri come eseguire tutti i controlli prima di inviare"
 feature: Deliverability
 role: User
 level: Intermediate

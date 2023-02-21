@@ -10,7 +10,7 @@ exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 16%
+ht-degree: 40%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 16%
                <tr>
                   <td>PKey</td>
                   <td>ID risorsa principale</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
@@ -40,7 +40,7 @@ ht-degree: 16%
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>Origine dati AMC</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +70,7 @@ ht-degree: 16%
                <tr>
                   <td>count</td>
                   <td>Conteggio</td>
-                  <td>integer </td>
+                  <td>intero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,7 +82,7 @@ ht-degree: 16%
                <tr>
                   <td>countPreview</td>
                   <td>CountPreview</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,7 +94,7 @@ ht-degree: 16%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,14 +105,14 @@ ht-degree: 16%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>Non stordire questo lavoro</td>
+                  <td>Non storicizzare questo processo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>errorLimit</td>
-                  <td>Errori prima dell'interruzione</td>
-                  <td>integer </td>
+                  <td>Errori prima dell’interruzione</td>
+                  <td>intero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -124,7 +124,7 @@ ht-degree: 16%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -166,7 +166,7 @@ ht-degree: 16%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,31 +178,31 @@ ht-degree: 16%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>denyFilename</td>
                   <td>File di rifiuto</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sharedAudience</td>
                   <td>Nome del pubblico condiviso</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>source</td>
+                  <td>sorgente</td>
                   <td>Origine</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sourceId</td>
                   <td>ID origine</td>
-                  <td>integer </td>
+                  <td>intero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -212,7 +212,7 @@ ht-degree: 16%
                   <td> </td>
                </tr>
                <tr>
-                  <td>type</td>
+                  <td>tipo</td>
                   <td>Tipo</td>
                   <td>enumerazione (stringa) (100)</td>
                   <td>
@@ -226,14 +226,14 @@ ht-degree: 16%
                </tr>
                <tr>
                   <td>dove</td>
-                  <td>Definizione query</td>
-                  <td>item </td>
+                  <td>Definizione di query</td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflow (workflow)</td>
                   <td>Flusso di lavoro</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
             </table>
@@ -249,7 +249,7 @@ Filtrando la dimensione (perFilteringResource)
     </tr>
     <tr>
     <td>filterResource</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 
@@ -262,7 +262,7 @@ Per nome o etichetta (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 
@@ -274,11 +274,11 @@ Per tipo (byType)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>type</td>
+    <td>tipo</td>
     <td>enumerazione</td>
     </tr>
     <tr>
     <td>isAMC</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>

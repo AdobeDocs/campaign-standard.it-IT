@@ -1,6 +1,6 @@
 ---
 title: Accesso ai messaggi
-description: '"Scopri come accedere ai messaggi e alle relative funzionalità avanzate: creazione, targeting, personalizzazione, esecuzione e reporting."'
+description: "Scopri come accedere ai messaggi e alle relative funzionalità avanzate: creazione, targeting, personalizzazione, esecuzione e reporting."
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels

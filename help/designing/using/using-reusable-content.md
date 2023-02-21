@@ -1,5 +1,5 @@
 ---
-title: 'Creazione e utilizzo di contenuti riutilizzabili '
+title: Creazione e utilizzo di contenuti riutilizzabili
 description: Inizia a creare contenuto e-mail riutilizzabile con E-mail Designer.
 audience: designing
 content-type: reference
@@ -301,7 +301,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 Utilizzando E-mail Designer, crea un frammento per ogni sezione riutilizzabile. In questo esempio vengono creati due frammenti: uno per l’intestazione e uno per il piè di pagina. Puoi quindi copiare le parti rilevanti dal contenuto esistente in questi frammenti.
 
-Per farlo, segui la procedura indicata di seguito:
+A tale scopo, segui la procedura indicata di seguito:
 
 1. In Adobe Campaign, vai a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** e creare un frammento per l’intestazione. Per ulteriori informazioni, consulta [Creazione di un frammento di contenuto](#creating-a-content-fragment).
 1. Aggiungi al frammento tutti i componenti struttura necessari.

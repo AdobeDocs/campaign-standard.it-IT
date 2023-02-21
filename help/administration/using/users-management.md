@@ -1,6 +1,6 @@
 ---
 title: Gestione utenti
-description: 'Gli utenti di Adobe Campaign hanno ruoli specifici. Scopri i tipi di utente principali. '
+description: Gli utenti di Adobe Campaign hanno ruoli specifici. Scopri i tipi di utente principali.
 audience: administration
 feature: Access Management
 role: Admin

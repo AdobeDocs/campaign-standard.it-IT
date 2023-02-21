@@ -10,7 +10,7 @@ exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 41%
+ht-degree: 58%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 41%
                <tr>
                   <td>PKey</td>
                   <td>Falso</td>
-                  <td>string</td>
+                  <td>stringa</td>
                   <td>Falso</td>
                </tr>
                <tr>
                   <td>ctx</td>
                   <td>Falso</td>
-                  <td>item</td>
+                  <td>elemento</td>
                   <td>Falso</td>
                </tr>
                <tr>
                   <td>e-mail</td>
                   <td>Falso</td>
-                  <td>string</td>
+                  <td>stringa</td>
                   <td>Falso</td>
                </tr>
                <tr>
@@ -52,13 +52,13 @@ ht-degree: 41%
                <tr>
                   <td>mobilePhone</td>
                   <td>Falso</td>
-                  <td>string</td>
+                  <td>stringa</td>
                   <td>Falso</td>
                </tr>
                <tr>
                   <td>serverUrl</td>
                   <td>Vero</td>
-                  <td>string</td>
+                  <td>stringa</td>
                   <td>Falso</td>
                </tr>
             </table>
@@ -74,7 +74,7 @@ perEmail
     </tr>
     <tr>
     <td>e-mail</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 
@@ -86,11 +86,11 @@ byStatusOrType
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>status</td>
+        <td>stato</td>
         <td>enumerazione</td>
         </tr>
         <tr>
-        <td>type</td>
-        <td>string</td>
+        <td>tipo</td>
+        <td>stringa</td>
         </tr>
     </table>

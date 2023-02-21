@@ -71,7 +71,7 @@ Il profilo di test verrà quindi aggiunto all’elenco dei profili.
 
 Per modificare un profilo di test e consultare i dati ad esso collegati, oppure per modificarli:
 
-1. Seleziona il profilo di prova da modificare facendo clic sulla relativa immagine.
+1. Seleziona il profilo di test da modificare facendo clic sulla relativa immagine.
 1. Consulta o modifica i campi.
 
    ![](assets/test_profile_edit.png)

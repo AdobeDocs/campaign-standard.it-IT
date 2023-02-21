@@ -1,5 +1,5 @@
 ---
-title: '"Passaggio 1: aggiungere campi di estensione alla risorsa del profilo"'
+title: "Passaggio 1: aggiungere campi di estensione alla risorsa del profilo"
 description: Scopri come estendere la risorsa profilo.
 audience: developing
 content-type: reference

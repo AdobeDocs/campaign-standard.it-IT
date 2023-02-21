@@ -1,5 +1,5 @@
 ---
-title: 'Conversione di e-mail dell’Editor Legacy in E-mail Designer '
+title: Conversione di e-mail dell’Editor Legacy in E-mail Designer
 description: Scopri come utilizzare le e-mail create nell’editor legacy e-mail per e-mail Designer.
 audience: designing
 content-type: reference

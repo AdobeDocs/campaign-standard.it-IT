@@ -10,7 +10,7 @@ exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 13%
+ht-degree: 31%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 13%
     <tr>
         <td>PKey</td>
         <td>ID risorsa principale</td>
-        <td>string </td>
+        <td>stringa </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
         <td>Contesto dell'evento</td>
-        <td>item </td>
+        <td>elemento </td>
         <td> </td>
     </tr>
     <tr>
@@ -59,19 +59,19 @@ ht-degree: 13%
     <tr>
         <td>eventHistoId</td>
         <td>ID evento archiviato</td>
-        <td>integer </td>
+        <td>intero </td>
         <td> </td>
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Numero cellulare</td>
+        <td>Numero di cellulare</td>
         <td>string (32)</td>
         <td> </td>
     </tr>
     <tr>
         <td>serverUrl</td>
         <td>ServerUrl</td>
-        <td>string </td>
+        <td>stringa </td>
         <td> </td>
     </tr>
 </table>
@@ -87,7 +87,7 @@ Per e-mail (per e-mail)
     </tr>
     <tr>
     <td>e-mail</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 
@@ -99,11 +99,11 @@ Per stato o tipo (byStatusOrType)
         <th>Tipo</th>
         </tr>
         <tr>
-        <td>status</td>
+        <td>stato</td>
         <td>enumerazione</td>
         </tr>
         <tr>
-        <td>type</td>
-        <td>string</td>
+        <td>tipo</td>
+        <td>stringa</td>
         </tr>
     </table>

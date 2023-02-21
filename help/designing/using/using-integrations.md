@@ -1,5 +1,5 @@
 ---
-title: 'Progettazione di e-mail tramite integrazioni Adobe Campaign '
+title: Progettazione di e-mail tramite integrazioni Adobe Campaign
 description: Scopri come progettare e-mail tramite integrazioni Adobe Campaign in E-mail Designer.
 audience: designing
 content-type: reference
@@ -148,7 +148,7 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
    <td> <strong>Per saperne di più</strong><br /> </td> 
    <td> Vedi <a href="../../designing/using/designing-content-in-adobe-campaign.md">Informazioni su E-mail Designer</a>.<br /> </td> 
    <td> Vedi <a href="../../integrating/using/integrating-with-experience-manager.md">Integrazione con Experience Manager</a>.<br /> </td> 
-   <td> Vedi <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guarda questo <a href="#video">video</a>.<br /> </td> 
+   <td> Vedi <a href="https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver e Campaign</a> e guarda questo <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

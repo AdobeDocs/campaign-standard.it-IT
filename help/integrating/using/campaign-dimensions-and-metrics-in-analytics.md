@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign **[!UICONTROL dimensions]** in Analytics sono elencati di seguito:
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
+   <th> Dimensione<br /> </th> 
    <th> Definizione<br /> </th> 
   </tr> 
  </thead> 
@@ -42,7 +42,7 @@ Campaign **[!UICONTROL dimensions]** in Analytics sono elencati di seguito:
    <td> Nome interno della consegna, come mostrato in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente pianificata per l’invio di consegne figlio ogni settimana. DM2, DM3 e DM4 vengono inviati le prime tre settimane. La dimensione ID consegna visualizza quindi i risultati per ogni consegna, ovvero da DM1 a DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Etichetta della consegna<br /> </td> 
+   <td> Etichetta consegna<br /> </td> 
    <td> Etichetta della consegna come visualizzata in Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Campaign **[!UICONTROL metrics]** in Analytics sono elencati di seguito:
  </thead> 
  <tbody> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Cliccato<br /> </td> 
    <td> Numero di volte in cui è stato fatto clic su un contenuto in una consegna.<br /> </td> 
   </tr> 
   <tr> 

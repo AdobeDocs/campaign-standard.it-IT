@@ -1,5 +1,5 @@
 ---
-title: 'Guida e opzioni di supporto per Campaign Standard '
+title: Guida e opzioni di supporto per Campaign Standard
 description: Hai bisogno di supporto per Campaign Standard? Sei nel posto giusto!
 audience: rns
 content-type: reference
@@ -127,4 +127,4 @@ La creazione di un caso consente di contattare il team Assistenza clienti di Ado
 
 Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

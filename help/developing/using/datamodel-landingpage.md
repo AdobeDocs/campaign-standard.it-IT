@@ -12,7 +12,7 @@ exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
       <tr>
          <td>PKey</td>
          <td>ID risorsa principale</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
@@ -42,7 +42,7 @@ ht-degree: 3%
       <tr>
          <td>addLanguages</td>
          <td>Altre lingue</td>
-         <td>item </td>
+         <td>elemento </td>
          <td> </td>
       </tr>
       <tr>
@@ -54,37 +54,37 @@ ht-degree: 3%
       <tr>
          <td>branding (brandingBase)</td>
          <td>Brand</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>incorporato</td>
-         <td>Oggetto applicativo incorporato</td>
+         <td>Oggetto applicazione incorporato</td>
          <td>booleano </td>
          <td> </td>
       </tr>
       <tr>
          <td>cache</td>
          <td>Cache</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
          <td>campaign (campaignBase)</td>
          <td>Campaign</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>closedLog</td>
          <td>Registro "Pagina di destinazione chiusa"</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
          <td>contextResourceType</td>
          <td>ContextResourceType</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
@@ -96,7 +96,7 @@ ht-degree: 3%
       <tr>
          <td>createdBy (userBase)</td>
          <td>Creato da</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -162,7 +162,7 @@ ht-degree: 3%
       <tr>
          <td>defaultOrigin (delivery)</td>
          <td>Origine traffico</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -240,19 +240,19 @@ ht-degree: 3%
       <tr>
          <td>errorContextResourceType</td>
          <td>ErrorContextResourceType</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
          <td>errorPage</td>
          <td>Pagina di errore</td>
-         <td>item </td>
+         <td>elemento </td>
          <td> </td>
       </tr>
       <tr>
          <td>geoUnit (geoUnitBase)</td>
          <td>Unità geografica</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -312,7 +312,7 @@ ht-degree: 3%
       <tr>
          <td>loadingFilter (queryFilterBase)</td>
          <td>Tasto di caricamento</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -345,13 +345,13 @@ ht-degree: 3%
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
          <td>Messaggio sulle transazioni</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>modifiedBy (userBase)</td>
          <td>Modificato da</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -363,7 +363,7 @@ ht-degree: 3%
       <tr>
          <td>orgUnit (orgUnitBase)</td>
          <td>Unità organizzativa</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -375,25 +375,25 @@ ht-degree: 3%
       <tr>
          <td>programma (programBase)</td>
          <td>Programma</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>publicUrl</td>
          <td>URL pubblico</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
          <td>publishingDate</td>
-         <td>Data di pubblicazione</td>
+         <td>Data pubblicazione</td>
          <td>date </td>
          <td> </td>
       </tr>
       <tr>
          <td>riconciliazioneFilter (queryFilterBase)</td>
          <td>Chiave di riconciliazione</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -417,7 +417,7 @@ ht-degree: 3%
       <tr>
          <td>service (serviceBase)</td>
          <td>Servizio di abbonamento</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
@@ -463,13 +463,13 @@ ht-degree: 3%
       <tr>
          <td>template (landingPage)</td>
          <td>Modello di pagina di destinazione</td>
-         <td>collegamento </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>testUrl</td>
          <td>URL di prova</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
@@ -613,18 +613,18 @@ ht-degree: 3%
       </tr>
       <tr>
          <td>trackingEnabled</td>
-         <td>Risposte al registro</td>
+         <td>Registro risposte</td>
          <td>booleano </td>
          <td> </td>
       </tr>
       <tr>
          <td>trackingUrlName</td>
          <td>Nome URL di tracciamento</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
-         <td>type</td>
+         <td>tipo</td>
          <td>Tipo</td>
          <td>enumerazione (byte) </td>
          <td>
@@ -641,12 +641,12 @@ ht-degree: 3%
       <tr>
          <td>uuid</td>
          <td>ID sicurezza</td>
-         <td>string </td>
+         <td>stringa </td>
          <td> </td>
       </tr>
       <tr>
          <td>webTrackingEnabled</td>
-         <td>Abilita web tracking</td>
+         <td>Abilita il tracciamento web</td>
          <td>booleano </td>
          <td> </td>
       </tr>
@@ -676,7 +676,7 @@ Per nome o etichetta (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 
@@ -702,7 +702,7 @@ Tramite il targeting della risorsa (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>stringa</td>
 </tr>
 </table>
 

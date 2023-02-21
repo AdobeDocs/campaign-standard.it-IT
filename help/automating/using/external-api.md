@@ -46,9 +46,9 @@ Durante la sostituzione delle attività External API, aggiungi la nuova attivit�
 >
 >Non potrai copiare i valori di intestazione per attività specifiche poiché sono nascosti all’interno dell’attività.
 
-### Limitazioni e protezioni {#guardrails}
+### Limitazioni e guardrail {#guardrails}
 
-A questa attività si applicano le seguenti protezioni:
+Questa attività è soggetta ai seguenti guardrail:
 
 * Limite di dimensione dei dati di risposta HTTP di 5 MB (nota: si tratta di una modifica rispetto al limite di 50 MB della versione precedente)
 * Timeout della richiesta: 1 minuto (nota: rispetto alla versione precedente, che prevedeva un timeout di 10 minuti, è stata apportata questa modifica)
@@ -56,7 +56,7 @@ A questa attività si applicano le seguenti protezioni:
 * Gli URL non HTTPS vengono rifiutati
 * L’intestazione di richiesta &quot;Accept: application/json&quot; e l’intestazione di risposta &quot;Content-Type: application/json&quot; sono consentite
 
-Sono state istituite protezioni specifiche:
+Sono stati introdotti guardrail specifici:
 
 * **Profondità massima JSON**: limita la profondità massima di un JSON nidificato personalizzato che può essere elaborato a 10 livelli.
 * **Lunghezza massima chiave JSON**: limita a 255 la lunghezza massima della chiave interna generata. Questa chiave è associata all’ID di colonna.
@@ -261,7 +261,7 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su condizi
   </tr> 
   <tr> 
    <td> WKF-560247 - Un valore di intestazione HTTP non è valido (valore di intestazione: '%s').</td> 
-   <td> <p>Il valore dell'intestazione HTTP è errato (valore dell'intestazione: '%s'). </p>
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Nota: questo errore viene registrato quando il valore di intestazione personalizzato non supera la convalida secondo la <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 

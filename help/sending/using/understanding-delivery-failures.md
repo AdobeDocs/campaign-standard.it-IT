@@ -35,7 +35,7 @@ I messaggi possono essere esclusi anche durante la preparazione della consegna s
 
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Rimbalzi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [Mancati recapiti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificazione degli errori di consegna per un messaggio {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +75,8 @@ I possibili motivi di un errore di consegna sono:
 
 
 **Argomenti correlati:**
-* [Rimbalzi netti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [Rimbalzi morbidi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Mancati recapiti permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Mancati recapiti non permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Tentativi dopo un errore temporaneo di consegna {#retries-after-a-delivery-temporary-failure}
 

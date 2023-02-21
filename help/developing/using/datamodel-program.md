@@ -10,7 +10,7 @@ exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 21%
+ht-degree: 36%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 21%
                <tr>
                   <td>PKey</td>
                   <td>ID risorsa principale</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
@@ -39,7 +39,7 @@ ht-degree: 21%
                </tr>
                <tr>
                   <td>incorporato</td>
-                  <td>Oggetto applicativo incorporato</td>
+                  <td>Oggetto applicazione incorporato</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -52,7 +52,7 @@ ht-degree: 21%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +70,7 @@ ht-degree: 21%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -115,7 +115,7 @@ ht-degree: 21%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -127,19 +127,19 @@ ht-degree: 21%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (programBase)</td>
                   <td>Programma principale</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
                   <td>Rapporti in tempo reale</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -149,7 +149,7 @@ ht-degree: 21%
                   <td> </td>
                </tr>
                <tr>
-                  <td>status</td>
+                  <td>stato</td>
                   <td>Stato</td>
                   <td>enumerazione (byte) </td>
                   <td>
@@ -164,7 +164,7 @@ ht-degree: 21%
                <tr>
                   <td>template (programma)</td>
                   <td>Modello di programma</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -205,7 +205,7 @@ Per nome o etichetta (byText)
     </tr>
     <tr>
     <td>text</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 
@@ -222,7 +222,7 @@ Per periodo (perPeriodo)
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>stringa</td>
     </tr>
 </table>
 
@@ -261,7 +261,7 @@ Solo i genitori ammissibili (idoneiGenitori)
     </tr>
     <tr>
     <td>programma</td>
-    <td>collegamento</td>
+    <td>link</td>
     </tr>
 </table>
 

@@ -28,10 +28,10 @@ La tabella seguente fornisce informazioni sulle regole di filtro predefinite e s
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione target senza indirizzo specifico (e-mail, indirizzo postale, ecc.) secondo il canale selezionato). |
 | **[!UICONTROL Address on denylist]** | Tutto | Esclude gli indirizzi presenti nel elenco Bloccati. |
 | **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base alla popolazione target **[!UICONTROL Address]** campo . |
-| **[!UICONTROL Exclude mobile applications]** | App mobile | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio. |
+| **[!UICONTROL Exclude mobile applications]** | Applicazione mobile | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In-App | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio (modello in-app). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In-App | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio (modello di trasmissione in-app) |
-| **[!UICONTROL Exclude mobile applications for Push]** | App mobile | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio (per push) |
+| **[!UICONTROL Exclude mobile applications for Push]** | Applicazione mobile | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio (per push) |
 | **[!UICONTROL Quarantined address]** | Tutto | Esclude gli indirizzi messi in quarantena. |
 | **[!UICONTROL Target limited in size]** | Tutto | Controlla se la dimensione massima di consegna è stata raggiunta per la destinazione. Si applica alle consegne di direct mailing con l’opzione &quot;limite di consegna&quot; attivata. |
 

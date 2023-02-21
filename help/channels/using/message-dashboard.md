@@ -64,7 +64,7 @@ La schermata principale è composta da diversi blocchi. Fai clic all’interno d
 * **[!UICONTROL Schedule]**: consente di specificare la data in cui il messaggio verrà inviato. Vedi [Pianificazione](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Content]**: ti consente di definire il contenuto del messaggio e visualizzarlo in anteprima. Vedi [Passaggi fondamentali per l’invio di un messaggio](../../channels/using/key-steps-to-send-a-message.md).
 
-## Avvisi {#warnings}
+## Avvertenze {#warnings}
 
 In alcuni casi, un avviso può comparire in un banner giallo sopra il dashboard dei messaggi.
 

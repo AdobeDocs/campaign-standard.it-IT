@@ -49,8 +49,8 @@ Puoi programmarlo utilizzando un flusso di lavoro.
 
       Per i segmenti rimanenti, definisci i batch successivi come segue:
 
-      * **06-03/2017:00:00+01**
-      * **06/04/2017:00:00+01**
+      * **2017-06-03 10:00:00+01**
+      * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
    * Assicurati di selezionare le **[!UICONTROL Limit the population of this segment]** opzione .
 
@@ -99,7 +99,7 @@ La consegna verrà inviata progressivamente a tutti i destinatari di destinazion
 >
 >Assicurati che tutte le date siano future durante la conferma dell’invio. In caso contrario, il messaggio verrà inviato non appena l’invio viene confermato.
 
-## Utilizzo di un’espressione {#using-an-expression}
+## Uso di un&#39;espressione {#using-an-expression}
 
 L’ottimizzazione del tempo di invio è utile anche per le campagne che coinvolgono un call center. Puoi assicurarti che tutti i messaggi non vengano ricevuti contemporaneamente. Questo consente alla tua organizzazione di elaborare il numero di chiamate in base alla sua capacità.
 

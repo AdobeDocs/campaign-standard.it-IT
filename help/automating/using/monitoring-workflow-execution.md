@@ -12,7 +12,7 @@ exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -58,7 +58,7 @@ In [proprietà del flusso di lavoro](../../automating/using/managing-execution-o
 
 Le opzioni possibili sono:
 
-* **[!UICONTROL Supervisors]**: consente di definire il gruppo di persone a cui inviare una notifica (e-mail e notifica in-app) se il flusso di lavoro incontra un errore. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta [Notifiche Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Supervisors]**: consente di definire il gruppo di persone a cui inviare una notifica (e-mail e notifica in-app) se il flusso di lavoro incontra un errore. Se non viene definito alcun gruppo, non verrà inviata alcuna notifica. Per ulteriori informazioni sulle notifiche di Adobe Campaign, consulta [Notifiche di Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **[!UICONTROL In case of error]**: consente di specificare l’azione da eseguire in caso di errore nell’attività. Sono disponibili due opzioni:
 

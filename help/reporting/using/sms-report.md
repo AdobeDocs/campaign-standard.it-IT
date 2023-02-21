@@ -1,6 +1,6 @@
 ---
 title: Rapporto SMS
-description: 'Con il rapporto predefinito SMS , scopri il successo delle consegne SMS. '
+description: Con il rapporto predefinito SMS , scopri il successo delle consegne SMS.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

@@ -9,7 +9,7 @@ exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -38,7 +38,7 @@ I flussi di lavoro tecnici sono operazioni o processi pianificati da eseguire re
 
 **Pannello di controllo Campaign**
 
-Il Pannello di controllo Campaign consente di gestire diverse impostazioni dell’istanza: Autorizzazioni URL, controlla i dettagli dell’istanza come le versioni di build dei server, monitora l’utilizzo dei profili attivi, ecc. Consente inoltre di monitorare lo spazio disponibile sui server SFTP collegati all’istanza. [Leggi tutto](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it).
+Il Pannello di controllo Campaign consente di gestire diverse impostazioni dell’istanza: Autorizzazioni URL, controlla i dettagli dell’istanza come le versioni di build dei server, monitora l’utilizzo dei profili attivi, ecc. Consente inoltre di monitorare lo spazio disponibile sui server SFTP collegati all’istanza. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it).
 
 >[!NOTE]
 >

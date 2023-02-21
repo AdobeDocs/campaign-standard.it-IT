@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione 2019
-description: In questa pagina sono elencate tutte le versioni del 2019 di Adobe Campaign Standard.
+description: In questa pagina sono elencate tutte le versioni di Adobe Campaign Standard del 2019.
 feature: Overview
 role: User
 level: Beginner
@@ -61,9 +61,9 @@ ht-degree: 8%
 * La finestra a comparsa del consenso per il reporting dinamico è stata aggiornata per includere l’integrazione di Adobe Campaign Standard e Microsoft Dynamics 365. Accettando i termini, i dati di profilo saranno inclusi quando si utilizza l’integrazione Adobe Campaign Standard/Microsoft Dynamics 365 e la funzione di reporting dinamico. [Leggi tutto](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * È stato risolto un problema che causava la visualizzazione di date di contatto errate durante la ricezione degli avvisi di consegna.
 * Quando un evento di messaggio transazionale viene inviato con un parametro di contesto sconosciuto, Campaign ora restituisce un messaggio di errore &quot;400&quot; invece di &quot;500&quot;. (CAMP-28632)
-* Nuovo **Escludi bozza** è stato aggiunto un segmento nel reporting dinamico. Questo segmento viene ora selezionato per impostazione predefinita per filtrare i rapporti. [Ulteriori informazioni](../../reporting/using/list-of-components-.md#segments)
-* La **Scadenza messaggi** è stata aggiunta l’opzione alla notifica push. Ti consente di specificare una data di scadenza in cui il messaggio non verrà più inviato da Apple (APNS) o Android (FCM). [Ulteriori informazioni](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* Sono stati apportati miglioramenti al **Load file** attività: i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all’errore che si verifica quando un file non viene caricato. La transizione in uscita generata durante l’attivazione della **Conservare i rifiuti in un file** è stata rinominata **Rifiuti**. [Ulteriori informazioni](../../automating/using/load-file.md)
+* Nuovo **Escludi bozza** è stato aggiunto un segmento nel reporting dinamico. Questo segmento viene ora selezionato per impostazione predefinita per filtrare i rapporti. [Maggiori informazioni](../../reporting/using/list-of-components-.md#segments)
+* La **Scadenza messaggi** è stata aggiunta l’opzione alla notifica push. Ti consente di specificare una data di scadenza in cui il messaggio non verrà più inviato da Apple (APNS) o Android (FCM). [Maggiori informazioni](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* Sono stati apportati miglioramenti al **Load file** attività: i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all’errore che si verifica quando un file non viene caricato. La transizione in uscita generata durante l’attivazione della **Conservare i rifiuti in un file** è stata rinominata **Rifiuti**. [Maggiori informazioni](../../automating/using/load-file.md)
 * I registri relativi a più lingue sono stati aggiunti ai registri di invio per comprendere meglio gli errori di invio a causa di lingue mancanti nei file CSV caricati.
 
 **Miglioramenti di sicurezza**
@@ -76,7 +76,7 @@ ht-degree: 8%
 
 * È stato risolto un problema che impediva il tracciamento dei collegamenti di annullamento dell’abbonamento, abbonamento e pagina di destinazione quando venivano inseriti in un messaggio e-mail. (CAMP-37809)
 * È stato risolto un problema che poteva causare errori durante la creazione di un nuovo messaggio e-mail e la selezione di un modello. (CAMP-38000)
-* Quando si modifica un collegamento tramite E-mail Designer, è ora possibile utilizzare la funzione **Collegamento sottolineato** opzione . Inoltre, un **Target** è stata aggiunta la proprietà con il valore predefinito impostato su **Nessuno**. [Ulteriori informazioni](../../designing/using/styles.md#about-styling-links)
+* Quando si modifica un collegamento tramite E-mail Designer, è ora possibile utilizzare la funzione **Collegamento sottolineato** opzione . Inoltre, un **Target** è stata aggiunta la proprietà con il valore predefinito impostato su **Nessuno**. [Maggiori informazioni](../../designing/using/styles.md#about-styling-links)
 * È stato risolto un problema di colore sui collegamenti nei componenti di testo nel corpo di un’e-mail. (CAMP-37330)
 * È stato risolto un problema che impediva la rimozione dei collegamenti associati durante l’eliminazione di un’immagine. (CAMP-37234)
 * È stato risolto un problema che impediva il salvataggio delle modifiche su **Ordine** impostazioni del contenuto dinamico in una condizione. (CAMP-36883)
@@ -531,7 +531,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
      <li> La capacità di <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperare automaticamente il contenuto da un URL in fase di preparazione</a> </li> 
      <li> Completamente conforme <a href="../../designing/using/using-reusable-content.md#content-templates">modelli di contenuto pronti all’uso</a>. </li> 
     </ul> 
-    <p>Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">video tutorial</a>. I miglioramenti e le correzioni sono elencati di seguito.</p><p>Di conseguenza, l’editor di contenuti e-mail legacy è ora obsoleto. Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
+    <p>Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">video tutorial</a>. I miglioramenti e le correzioni sono elencati di seguito.</p><p>Di conseguenza, l’editor di contenuti e-mail legacy è ora obsoleto. Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Elenco prodotti nelle e-mail transazionali<br /> </td> 

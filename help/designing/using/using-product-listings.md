@@ -130,7 +130,7 @@ Per ulteriori informazioni sulla creazione di una raccolta e dei campi correlati
    Il contenuto di fallback verrà visualizzato se la raccolta è vuota al momento dell’attivazione dell’evento, ad esempio se un cliente non ha nulla nel carrello.
 
 1. Nel riquadro Impostazioni, modifica gli stili per l’elenco dei prodotti. Per ulteriori informazioni, consulta [Gestione degli stili e-mail](../../designing/using/styles.md).
-1. Visualizza l’anteprima del messaggio e-mail utilizzando un profilo di prova collegato all’evento sulle transazioni rilevante per il quale hai definito i dati della raccolta. Ad esempio, aggiungi le seguenti informazioni nella sezione **[!UICONTROL Event data]** relativa al profilo di test da utilizzare:
+1. Visualizza l’anteprima del messaggio e-mail utilizzando un profilo di test collegato all’evento transazionale rilevante per il quale hai definito i dati della raccolta. Ad esempio, aggiungi le seguenti informazioni nella sezione **[!UICONTROL Event data]** relativa al profilo di test da utilizzare:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 

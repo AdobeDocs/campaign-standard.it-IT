@@ -182,7 +182,7 @@ Per un account esterno dell’archiviazione BLOB di Microsoft Azure, fornisci i 
 * Un’**[!UICONTROL Label]** e un **[!UICONTROL ID]** dell’account esterno
 * **[!UICONTROL Type]**: archiviazione BLOB di Microsoft Azure
 * Il **[!UICONTROL Account name]** e la **[!UICONTROL Account key]**. Per sapere dove trovare il nome e la chiave dell’account, consulta questa [pagina](https://docs.microsoft.com/it-it/azure/storage/common/storage-account-keys-manage).
-* Il **[!UICONTROL Endpoint suffix]**. È disponibile all’interno della **[!UICONTROL Connection string]** del menu **[!UICONTROL Access keys]** nel portale di Azure. Per ulteriori informazioni, consulta questa [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Il **[!UICONTROL Endpoint suffix]**. È disponibile all’interno della **[!UICONTROL Connection string]** del menu **[!UICONTROL Access keys]** nel portale di Azure. Per ulteriori informazioni, consulta questa [pagina](https://docs.microsoft.com/it-it/azure/storage/common/storage-account-keys-manage).
 * Il nome del **[!UICONTROL Container]**. Se prevedi di utilizzare più di un contenitore, crea altrettanti account esterni come contenitori.
 * L’opzione **[!UICONTROL Concurrency]** ti consente di ottimizzare la velocità dei trasferimenti di file.
 

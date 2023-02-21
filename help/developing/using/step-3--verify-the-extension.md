@@ -1,5 +1,5 @@
 ---
-title: '"Passaggio 3: verificare l’estensione"'
+title: "Passaggio 3: verificare l’estensione"
 description: Scopri come accedere al campo esteso con l’API Rest.
 audience: developing
 content-type: reference

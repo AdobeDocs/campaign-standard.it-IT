@@ -11,7 +11,7 @@ exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ La preparazione corrisponde alla fase di calcolo della popolazione target e gene
 
 1. Interrompi la preparazione in qualsiasi momento utilizzando il **Interrompi** nella barra delle azioni.
 
-   Durante la fase di preparazione, non vengono inviati messaggi. È quindi possibile iniziare o interrompere questo processo senza rischi di influire su nulla.
+   Durante la fase di preparazione, non vengono inviati messaggi. È quindi possibile iniziare o interrompere questo processo senza alcun rischio.
 
    ![](assets/preparing_delivery_6.png)
 
@@ -45,7 +45,7 @@ La preparazione corrisponde alla fase di calcolo della popolazione target e gene
 
 1. La **[!UICONTROL Deployment]** si apre la finestra , correggi eventuali errori e riavvia la preparazione.
 
-   Nell’ultimo messaggio di log vengono visualizzati tutti i messaggi di errore e il numero di errori. Un&#39;icona specifica mostra il tipo di errore rilevato: l’icona gialla indica un errore di elaborazione non critico; l’icona rossa indica un errore critico che impedisce l’avvio della consegna.
+   L’ultimo messaggio del registro presenta eventuali messaggi di errore e il numero di errori. Un&#39;icona specifica mostra il tipo di errore rilevato: l’icona gialla indica un errore di elaborazione non critico; l’icona rossa indica un errore critico che impedisce l’avvio della consegna.
 
    ![](assets/preparing_delivery_3.png)
 

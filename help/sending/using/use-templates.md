@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"I modelli di consegna consentono una maggiore efficienza fornendo scenari pronti per la maggior parte dei tipi di attività comuni."'
+description: "I modelli di consegna consentono una maggiore efficienza fornendo scenari pronti per la maggior parte dei tipi di attività comuni."
 feature: Deliverability
 role: User
 level: Intermediate

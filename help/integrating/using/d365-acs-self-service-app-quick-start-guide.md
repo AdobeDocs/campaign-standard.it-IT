@@ -1,5 +1,5 @@
 ---
-title: 'Introduzione allo strumento di integrazione '
+title: Introduzione allo strumento di integrazione
 description: Introduzione allo strumento di integrazione
 products: SG_CAMPAIGN/STANDARD
 audience: integrating

@@ -1,5 +1,5 @@
 ---
-title: 'Elenco dei componenti '
+title: Elenco dei componenti
 description: Qui puoi trovare l’elenco di tutti i componenti disponibili nei report dinamici e le relative definizioni.
 audience: reporting
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -21,14 +21,14 @@ Per ulteriori informazioni sulla compatibilità tra dimensioni e metriche, consu
 
 [![immagine](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
-## Dimension {#dimensions}
+## Dimensioni {#dimensions}
 
 La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti e le relative definizioni.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
+   <th> Dimensione<br /> </th> 
    <th> Definizione<br /> </th> 
   </tr> 
  </thead> 
@@ -132,7 +132,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
  </tbody> 
 </table>
 
-## Metriche {#metrics}
+## Parametri {#metrics}
 
 Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti e le relative definizioni a seconda del tipo di consegna.
 
@@ -187,7 +187,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Percentuale di consegne non riuscite a causa di errori permanenti.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Pagina speculare<br /> </td> 
+   <td> Pagina mirror<br /> </td> 
    <td> Numero di destinatari che hanno fatto clic sul collegamento della pagina speculare.<br /> </td> 
   </tr> 
   <tr> 

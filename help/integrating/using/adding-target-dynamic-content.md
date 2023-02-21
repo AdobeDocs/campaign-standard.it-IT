@@ -11,7 +11,7 @@ exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -52,5 +52,5 @@ Prima di accedere all’immagine in Adobe Campaign, è necessario eseguire le se
 **Argomenti correlati:**
 
 * [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
-* [Informazioni sulla progettazione del contenuto e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Informazioni sulla progettazione di contenuti e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalizzare le immagini e-mail in tempo reale](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html) video

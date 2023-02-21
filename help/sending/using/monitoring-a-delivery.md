@@ -53,7 +53,7 @@ Esistono diversi modi per monitorare una consegna e misurarne l’impatto. In qu
 * [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapporti](../../reporting/using/about-dynamic-reports.md)
 
-## Log di consegna {#delivery-logs}
+## Registri di consegna {#delivery-logs}
 
 ### Registri di invio {#sending-logs}
 

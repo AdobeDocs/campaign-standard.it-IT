@@ -11,7 +11,7 @@ exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 3%
+ht-degree: 14%
 
 ---
 
@@ -29,18 +29,18 @@ Un insieme di regole predefinite assicura i controlli standard. La tabella segue
 
 | Etichetta | Canale | Fase di esecuzione | Descrizione |
 |---------|----------|---------|---------|
-| **[!UICONTROL A/B Test]** | E-mail | All&#39;inizio della personalizzazione | Estrae la popolazione di test per una consegna con un test A/B. |
+| **[!UICONTROL A/B Test]** | E-mail | All’inizio della personalizzazione | Estrae la popolazione di test per una consegna con un test A/B. |
 | **[!UICONTROL Check delivery size]** | Tutto | Dopo il targeting | Controlla le dimensioni dei messaggi. |
 | **[!UICONTROL Check email content is not empty]** | E-mail | Dopo il targeting | Genera un errore se il contenuto del messaggio è vuoto. |
 | **[!UICONTROL Check In-App content for broadcast template]** | In-App | All’inizio della personalizzazione | Controlla che il contenuto o gli attivatori in-app non siano vuoti per il modello di trasmissione. |
-| **[!UICONTROL Check In-App content for profile template]** | In-App | All&#39;inizio della personalizzazione | Controlla che il contenuto o gli attivatori in-app non siano vuoti per il modello di profilo. |
-| **[!UICONTROL Check In-App content for subscriber template]** | In-App | All&#39;inizio della personalizzazione | Controlla che il contenuto o gli attivatori in-app non siano vuoti per il modello di sottoscrittore. |
+| **[!UICONTROL Check In-App content for profile template]** | In-App | All’inizio della personalizzazione | Controlla che il contenuto o gli attivatori in-app non siano vuoti per il modello di profilo. |
+| **[!UICONTROL Check In-App content for subscriber template]** | In-App | All’inizio della personalizzazione | Controlla che il contenuto o gli attivatori in-app non siano vuoti per il modello di sottoscrittore. |
 | **[!UICONTROL Check proof size]** | Tutto | Dopo il targeting | Genera un messaggio di errore se la popolazione target della bozza supera i 100 destinatari. |
-| **[!UICONTROL Check social network sharing link]** | E-mail | All&#39;inizio della personalizzazione | Controlla la presenza di un collegamento a una pagina speculare quando si include nel contenuto un collegamento di condivisione del social network (ViralLinks). |
-| **[!UICONTROL Check subject]** | E-mail | All&#39;inizio della personalizzazione | Controlla che l&#39;oggetto e l&#39;indirizzo del mittente non contengano caratteri speciali che possono causare problemi a determinati agenti di trasferimento della posta e controlla che l&#39;oggetto del messaggio sia stato completato. |
-| **[!UICONTROL Check unsubscription link]** | E-mail | All&#39;inizio della personalizzazione | Verifica la presenza di almeno un URL di annullamento dell’abbonamento (opt-out) in ciascun contenuto (HTML e testo). |
-| **[!UICONTROL Check URL labels]** | E-mail | All&#39;inizio della personalizzazione | Controlla che ogni URL di tracciamento abbia un&#39;etichetta. |
-| **[!UICONTROL Check URLs]** | E-mail | All&#39;inizio della personalizzazione | Controlla gli URL di tracciamento (presenza del carattere &quot;&amp;&quot;). |
+| **[!UICONTROL Check social network sharing link]** | E-mail | All’inizio della personalizzazione | Controlla la presenza di un collegamento a una pagina speculare quando si include nel contenuto un collegamento di condivisione del social network (ViralLinks). |
+| **[!UICONTROL Check subject]** | E-mail | All’inizio della personalizzazione | Controlla che l&#39;oggetto e l&#39;indirizzo del mittente non contengano caratteri speciali che possono causare problemi a determinati agenti di trasferimento della posta e controlla che l&#39;oggetto del messaggio sia stato completato. |
+| **[!UICONTROL Check unsubscription link]** | E-mail | All’inizio della personalizzazione | Verifica la presenza di almeno un URL di annullamento dell’abbonamento (opt-out) in ciascun contenuto (HTML e testo). |
+| **[!UICONTROL Check URL labels]** | E-mail | All’inizio della personalizzazione | Controlla che ogni URL di tracciamento abbia un&#39;etichetta. |
+| **[!UICONTROL Check URLs]** | E-mail | All’inizio della personalizzazione | Controlla gli URL di tracciamento (presenza del carattere &quot;&amp;&quot;). |
 
 ## Fasi di esecuzione delle regole di controllo {#control-rules-execution-phases}
 

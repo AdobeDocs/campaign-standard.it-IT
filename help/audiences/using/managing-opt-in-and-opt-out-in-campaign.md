@@ -27,7 +27,7 @@ In **[!UICONTROL No longer contact (on denylist)]** le caselle di controllo sele
 
 ## Impostazione delle pagine di destinazione di consenso e rinuncia {#setting-up-opt-in-and-opt-out-landing-pages}
 
-Per consentire agli utenti di effettuare il consenso o la rinuncia, devi creare e pubblicare un **[!UICONTROL Profile acquisition]** pagina di destinazione. Potranno quindi selezionare i canali in base alle loro esigenze. Per farlo, segui la procedura indicata di seguito.
+Per consentire agli utenti di effettuare il consenso o la rinuncia, devi creare e pubblicare un **[!UICONTROL Profile acquisition]** pagina di destinazione. Potranno quindi selezionare i canali in base alle loro esigenze. A tale scopo, segui la procedura indicata di seguito.
 
 È inoltre possibile impostare un **[!UICONTROL Denylist]** pagina di destinazione che consente agli utenti di rinunciare a tutte le consegne. Per ulteriori informazioni, consulta [Impostazione di una pagina di destinazione per rifiutare tutte le consegne](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 

@@ -11,7 +11,7 @@ exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 7%
+ht-degree: 22%
 
 ---
 
@@ -35,14 +35,14 @@ L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
    L&#39;ID verrà quindi riconosciuto dalle altre applicazioni Adobe Marketing Cloud con lo stesso CNAME.
 
-* **ID dichiarato**: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con gli elementi del database Adobe Campaign. È rappresentato in Adobe Campaign come chiave di riconciliazione predefinita. Durante lo scambio di dati, gli identificatori del database Adobe Campaign vengono crittografati. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o nell’esportazione.
+* **ID dichiarato**: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con gli elementi del database Adobe Campaign. In Adobe Campaign è rappresentato come chiave di riconciliazione predefinita. Durante lo scambio di dati, gli identificatori del database Adobe Campaign vengono crittografati. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o nell’esportazione.
    <br>Questa integrazione supporta gli ID dichiarati regolari, gli ID dichiarati con hash e gli ID dichiarati crittografati.
 
    >[!NOTE]
    >
-   >L’origine dati Declared ID (ID dichiarato) può ora essere utilizzata anche con l’integrazione del servizio core People.
+   >L’origine dati ID dichiarato ora piò essere utilizzata anche con l’integrazione del servizio core People.
    >
-   >Se utilizzi l’integrazione del servizio core Persone e desideri aggiungere l’integrazione di Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo di questa origine dati Declared ID in un contesto Adobe Audience Manager.
+   >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
 
 
    La cifratura consente di condividere i dati cifrati nelle origini dati (ad esempio PII) utilizzando l’ID dichiarato specificando l’algoritmo di cifratura.

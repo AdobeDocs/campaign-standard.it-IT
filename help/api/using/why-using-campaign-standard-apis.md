@@ -54,7 +54,7 @@ I passaggi seguenti descrivono un caso d’uso dettagliato per importare e utili
 
 1. Scarica la raccolta JSON facendo clic su [qui](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Apri Postman, quindi seleziona il **File** / **Importa** menu.
+1. Apri Postman, quindi seleziona la **File** / **Importa** menu.
 
 1. Trascina e rilascia il file scaricato nella finestra . Vengono visualizzate le richieste API predefinite, pronte per essere utilizzate.
 

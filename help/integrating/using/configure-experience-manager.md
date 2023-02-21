@@ -11,7 +11,7 @@ exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -66,8 +66,8 @@ Ora devi configurare l’integrazione in Adobe Experience Manager.
 
 Per configurare Adobe Experience Manager con Adobe Campaign Standard, segui questi passaggi:
 
-1. Devi innanzitutto configurare la replica tra le istanze di authoring e pubblicazione di Adobe Experience Manager. Fai riferimento a questo [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
+1. Devi innanzitutto configurare la replica tra le istanze di authoring e pubblicazione di Adobe Experience Manager. Fai riferimento a questa [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
 
-1. Quindi, connetti Adobe Experience Manager ad Adobe Campaign configurando un **[!UICONTROL Cloud Service]**. Fai riferimento a questo [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
+1. Quindi, connetti Adobe Experience Manager ad Adobe Campaign configurando un **[!UICONTROL Cloud Service]**. Fai riferimento a questa [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
-1. Ora devi configurare l’esternalizzatore in Adobe Experience Manager sull’istanza di authoring. Fai riferimento a questo [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
+1. Ora devi configurare l’esternalizzatore in Adobe Experience Manager sull’istanza di authoring. Fai riferimento a questa [sezione](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).

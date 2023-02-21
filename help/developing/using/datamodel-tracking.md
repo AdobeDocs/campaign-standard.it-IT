@@ -10,7 +10,7 @@ exl-id: 0f5dd92c-2222-4456-86cd-3cc2e1c83fc1
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '36'
-ht-degree: 8%
+ht-degree: 33%
 
 ---
 
@@ -28,25 +28,25 @@ ht-degree: 8%
                <tr>
                   <td>PKey</td>
                   <td>ID risorsa principale</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logCountRead</td>
                   <td>LogCountRead</td>
-                  <td>integer </td>
+                  <td>intero </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>logs</td>
+                  <td>registri</td>
                   <td>Registri</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>puntatoreTo</td>
                   <td>PuntatoreA</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>

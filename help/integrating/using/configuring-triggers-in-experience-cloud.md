@@ -1,6 +1,6 @@
 ---
 title: Configurazione degli Attivatori in Experience Cloud
-description: 'Scopri come configurare l’integrazione di Adobe Experience Cloud Triggers per iniziare a inviare consegne personalizzate ai clienti in base ai loro comportamenti precedenti. '
+description: Scopri come configurare l’integrazione di Adobe Experience Cloud Triggers per iniziare a inviare consegne personalizzate ai clienti in base ai loro comportamenti precedenti.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -11,7 +11,7 @@ exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ La funzionalità deve essere attivata in Adobe Campaign per Adobe. Contatta il t
 Per attivare i trigger, il team di Adobe dovrà disporre delle seguenti informazioni:
 
 * Nome società Marketing Cloud
-* ID organizzazione
+* ID organizzazione 
 * Società di accesso di Analytics (può essere la stessa del nome dell’azienda del Marketing Cloud)
 
 ## Configurazione di soluzioni e servizi {#configuring-solutions-and-services}

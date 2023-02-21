@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 20%
+ht-degree: 40%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 20%
                <tr>
                   <td>PKey</td>
                   <td>ID risorsa principale</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>incorporato</td>
-                  <td>Oggetto applicativo incorporato</td>
+                  <td>Oggetto applicazione incorporato</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -46,13 +46,13 @@ ht-degree: 20%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusPrice</td>
                   <td>Prezzo</td>
-                  <td>integer </td>
+                  <td>intero </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,12 +70,12 @@ ht-degree: 20%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>storia</td>
-                  <td>Storico sottoscrizioni</td>
+                  <td>Cronologia iscrizioni</td>
                   <td>raccolta </td>
                   <td> </td>
                </tr>
@@ -142,7 +142,7 @@ ht-degree: 20%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ht-degree: 20%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,19 +172,19 @@ ht-degree: 20%
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
                   <td>Pagina di destinazione dell’abbonamento</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenario (deliveryMCTemplateBase)</td>
-                  <td>Conferma abbonamento</td>
-                  <td>collegamento </td>
+                  <td>Conferma dell’abbonamento</td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subScenarioEventType</td>
                   <td>SubScenarioEventType</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
@@ -202,7 +202,7 @@ ht-degree: 20%
                <tr>
                   <td>template (servizio)</td>
                   <td>Modello di servizio</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -220,24 +220,24 @@ ht-degree: 20%
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
                   <td>Pagina di destinazione dell’annullamento dell’abbonamento</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenario (deliveryMCTemplateBase)</td>
                   <td>Conferma dell’annullamento dell’abbonamento</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubScenarioEventType</td>
                   <td>UnsubScenarioEventType</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>validDuration</td>
-                  <td>Durata della validità</td>
+                  <td>Durata validità</td>
                   <td>numero </td>
                   <td> </td>
                </tr>
@@ -284,7 +284,7 @@ Per nome o etichetta (byText)
 </tr>
 <tr>
 <td>text</td>
-<td>string</td>
+<td>stringa</td>
 </tr>
 </table>
 
@@ -297,6 +297,6 @@ Tramite il targeting della risorsa (byTargetResource)
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>stringa</td>
 </tr>
 </table>

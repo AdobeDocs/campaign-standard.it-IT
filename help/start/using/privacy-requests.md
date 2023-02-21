@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: ht
-source-wordcount: '1591'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1573'
+ht-degree: 98%
 
 ---
 
@@ -95,9 +95,9 @@ Per scoprire come creare richieste di accesso a dati personali dal servizio core
 
 >[!IMPORTANT]
 >
->Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta il [metodo JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target=&quot;_blank&quot;} e aggiungi namespaceId alla richiesta, oppure utilizza la [chiamata API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target=&quot;_blank&quot;} per effettuare la richiesta.
+>Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta la [metodo JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"} per effettuare la richiesta.
 >
->Per inviare richieste utilizzando il tipo di spazio dei nomi standard, utilizza solo l’[interfaccia utente Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target=&quot;_blank&quot;}.
+>Utilizza solo [Interfaccia utente sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"} per inviare richieste utilizzando il tipo di spazio dei nomi standard.
 
 Ciascun processo del servizio core per la privacy è suddiviso in più richieste di accesso a dati personali in Campaign in base al numero di spazi dei nomi utilizzati. A ogni richiesta corrisponde uno spazio dei nomi. È inoltre possibile eseguire un processo su più istanze. In questo caso vengono creati più file per un processo. Ad esempio, se una richiesta ha due spazi di nomi ed è in esecuzione in tre istanze, vengono inviati in totale sei file. Un file per ogni spazio dei nomi e istanza.
 

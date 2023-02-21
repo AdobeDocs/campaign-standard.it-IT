@@ -10,7 +10,7 @@ exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 27%
+ht-degree: 47%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 27%
                <tr>
                   <td>PKey</td>
                   <td>ID risorsa principale</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>paese (paesi)</td>
                   <td>Paese</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,7 +46,7 @@ ht-degree: 27%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,7 +76,7 @@ ht-degree: 27%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,7 +94,7 @@ ht-degree: 27%
                <tr>
                   <td>posizione</td>
                   <td>Posizione</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,8 +105,8 @@ ht-degree: 27%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>App mobile</td>
-                  <td>item </td>
+                  <td>Applicazione mobile</td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +118,7 @@ ht-degree: 27%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,19 +130,19 @@ ht-degree: 27%
                <tr>
                   <td>nms_recipient</td>
                   <td>Profilo</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
                   <td>Evento</td>
-                  <td>item </td>
+                  <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -184,13 +184,13 @@ ht-degree: 27%
                <tr>
                   <td>stateLink (stato)</td>
                   <td>Stato</td>
-                  <td>collegamento </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetData</td>
                   <td>Estensione</td>
-                  <td>string </td>
+                  <td>stringa </td>
                   <td> </td>
                </tr>
                <tr>
@@ -201,7 +201,7 @@ ht-degree: 27%
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Profilo di test</td>
+                  <td>Profilo di prova</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -224,7 +224,7 @@ Per tipo di evento (byEventType)
         </tr>
         <tr>
         <td>eventType</td>
-        <td>string</td>
+        <td>stringa</td>
         </tr>
     </table>
 
@@ -237,7 +237,7 @@ Per nome o etichetta (byText)
         </tr>
         <tr>
         <td>text</td>
-        <td>string</td>
+        <td>stringa</td>
         </tr>
     </table>
 
@@ -271,6 +271,6 @@ Profilo di test (profilo)
     </tr>
     <tr>
     <td>seedMember</td>
-    <td>collegamento</td>
+    <td>link</td>
     </tr>
 </table>
