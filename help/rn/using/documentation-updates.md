@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '7229'
-ht-degree: 100%
+source-wordcount: '7230'
+ht-degree: 99%
 
 ---
 
@@ -330,7 +330,7 @@ Nella documentazione di base sono state aggiunte informazioni più dettagliate s
 
 La sezione dedicata all’archiviazione di e-mail con indirizzi Ccn è stata spostata e aggiornata. [Ulteriori informazioni](../../sending/using/archiving.md)
 
-È stato eseguito l’aggiornamento della documentazione sulla configurazione di un’app mobile, unitamente alle pagine correlate, in modo da riflettere l’ammortamento di SDK V4. [Ulteriori informazioni](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+È stato eseguito l’aggiornamento della documentazione sulla configurazione di un’app mobile, unitamente alle pagine correlate, in modo da riflettere l’ammortamento di SDK V4. [Ulteriori informazioni](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
 
 È stata aggiornata e migliorata la documentazione relativa all’integrazione di Adobe Campaign Standard/Adobe Experience Manager. [Ulteriori informazioni](../../integrating/using/configure-experience-manager.md)
 

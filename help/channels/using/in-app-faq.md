@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Poiché i messaggi in-app vengono richiamati dall’SDK da Campaign, vogliamo fo
 * I messaggi generati utilizzando il modello di profilo possono essere serviti solo quando l’utente ha effettuato l’accesso all’app.
 * Per facilitare questo handshake sicuro, gli sviluppatori di app mobili devono trasmettere ulteriori dettagli di autenticazione utilizzando l’API setLinkageField . Tieni presente che il campo di collegamento sono quelli identificati come collegamento tra profilo mobile e profilo CRM durante l’estensione della tabella appSubscriberRcp.
 * Devono eseguire il flush dei messaggi in-app memorizzati sul dispositivo e resetLinkagefields quando l&#39;utente si disconnette dall&#39;app utilizzando resetLinkageField. In questo modo, se un utente diverso accede all’app, non vede i messaggi destinati all’utente precedente.
-* Fai riferimento a [API SDK per dispositivi mobili](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) per implementare questo meccanismo di sicurezza lato client.
+* Fai riferimento a [API SDK per dispositivi mobili](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) per implementare questo meccanismo di sicurezza lato client.
 
 ## Cosa devo fare per abilitare il reporting in-app in Campaign? {#enable-inapp-reporting}
 
