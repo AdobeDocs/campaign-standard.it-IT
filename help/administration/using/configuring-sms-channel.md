@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 90%
+source-wordcount: '1591'
+ht-degree: 89%
 
 ---
 
@@ -20,6 +20,10 @@ Per inviare messaggi SMS, un amministratore deve configurare uno o più account 
 I passaggi per creare e modificare un account esterno sono descritti in dettaglio nella sezione [Account esterni](../../administration/using/external-accounts.md). Di seguito trovi i parametri specifici per account esterni per l’invio di messaggi SMS.
 
 ## Definizione di un indirizzamento SMS {#defining-an-sms-routing}
+
+>[!IMPORTANT]
+>
+>L’utilizzo dello stesso account e della stessa password per più account SMS esterni può causare conflitti e sovrapposizioni tra gli account. Fai riferimento a [Pagina di risoluzione dei problemi SMS](troubleshooting-sms.md#external-account-conflict).
 
 L’account esterno **[!UICONTROL SMS routing via SMPP]** viene fornito per impostazione predefinita, ma può essere utile aggiungere altri account.
 
