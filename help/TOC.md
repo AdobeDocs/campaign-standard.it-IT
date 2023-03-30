@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
    + Messaggistica transazionale {#transactional-messaging}
       + [Guida introduttiva ai messaggi transazionali](channels/using/getting-started-with-transactional-msg.md)
       + [Best practice e limitazioni](channels/using/transactional-messaging-limitations.md)
+      + [Aggiornamenti delle autorizzazioni per la messaggistica transazionale](channels/using/transactional-message-permission.md)
       + Configurazione evento {#event-configuration}
          + [Configurazione di un evento transazionale](channels/using/configuring-transactional-event.md)
          + [Pubblicazione di un evento transazionale](channels/using/publishing-transactional-event.md)
