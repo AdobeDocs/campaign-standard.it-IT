@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '131'
 ht-degree: 100%
 
 ---
@@ -15,8 +15,13 @@ ht-degree: 100%
 
 # Ultima versione{#latest-release}
 
-![Pannello di controllo Campaign](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo Campaign**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it){target="_blank"}.
+![Pannello di controllo](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it){target="_blank"}.
 
+## Versione 22.3.2 {#feb-23}
+
+### Aggiornamento della sicurezza{#rn-security2}
+
+Questa versione include il seguente aggiornamento della sicurezza: Debian è stato aggiornato a v11.0.
 
 ## Versione 22.3 - Autunno/inverno 2022 {#sept-22}
 
