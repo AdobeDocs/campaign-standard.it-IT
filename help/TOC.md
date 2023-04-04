@@ -5,9 +5,9 @@ user-guide-description: Centro assistenza per le principali funzioni, attività,
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
 source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -252,12 +252,12 @@ ht-degree: 99%
       + [Informazioni sull’integrazione di Campaign con i dati Punti di interesse](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configurazione dell’integrazione di Campaign con i dati Punti di interesse](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personalizzazione dei messaggi di Campaign con i dati dei punti di interesse](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign e Attivatori {#working-with-campaign-and-triggers}
-      + [Informazioni sugli attivatori Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
-      + [Configurazione degli Attivatori in Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
-      + [Utilizzo degli Attivatori in Campaign](integrating/using/using-triggers-in-campaign.md)
+   + Campaign e Triggers {#working-with-campaign-and-triggers}
+      + [Informazioni su Adobe Experience Cloud Triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
+      + [Configurazione di Triggers in Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
+      + [Utilizzo di Triggers in Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Verifica degli attivatori](integrating/using/testing-your-triggers.md)
-      + [Casi di utilizzo degli attivatori di abbandono](integrating/using/abandonment-triggers-use-cases.md)
+      + [Casi di utilizzo dei trigger di abbandono](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign e Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Introduzione all’integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Best practice e limitazioni](integrating/using/d365-acs-notices-and-recommendations.md)
@@ -331,11 +331,11 @@ ht-degree: 99%
       + [Attività Test](automating/using/test.md)
    + Attività del canale {#channel-activities}
       + [Informazioni sulle attività del canale](automating/using/about-channel-activities.md)
-      + [Attività Email delivery](automating/using/email-delivery.md)
-      + [Attività SMS delivery](automating/using/sms-delivery.md)
-      + [Attività Push notification delivery](automating/using/push-notification-delivery.md)
-      + [Attività Direct mail delivery](automating/using/direct-mail-delivery.md)
-      + [Attività In-App delivery](automating/using/in-app-delivery.md)
+      + [Consegna e-mail](automating/using/email-delivery.md)
+      + [Consegna SMS](automating/using/sms-delivery.md)
+      + [Consegna notifica push](automating/using/push-notification-delivery.md)
+      + [Consegna posta diretta](automating/using/direct-mail-delivery.md)
+      + [Consegna in-app](automating/using/in-app-delivery.md)
    + Attività di gestione dati {#data-management-activities}
       + [Informazioni sulle attività di gestione dati](automating/using/about-data-management-activities.md)
       + [Attività Update data](automating/using/update-data.md)
