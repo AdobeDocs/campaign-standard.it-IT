@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -22,21 +22,19 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 >
 > Questo contenuto è soggetto a modifiche senza preavviso fino alla data di aggiornamento degli ambienti di stage. Ulteriori informazioni sono disponibili nella [pagina di pianificazione del rilascio](../../rn/using/release-planning.md).
 
-## Versione 22.3.2 {#dec-22}
+## Versione 23.1 - Rilascio in primavera/estate 2023 {#apr-23}
 
-### Aggiornamento della sicurezza{#rn-security2}
+### Miglioramenti {#e-rn-improvements}
 
-Questa versione include il seguente aggiornamento della sicurezza: Debian è stato aggiornato a v11.0.
+* Il servizio di messaggistica push è stato modernizzato per ottimizzare la manutenzione. (CAMP-47959)
+* Il servizio SMS è stato modernizzato per garantire una maggiore stabilità. (CAMP-52217)
+* Il prodotto pronto all&#39;uso **Flusso di lavoro per la creazione di contenuti di reporting** è stato aggiunto. Dopo aver importato una mappatura di destinazione da un’istanza all’altra, esegui semplicemente il flusso di lavoro per importare le voci di arricchimento di reporting corrispondenti. (CAMP-52452)
 
-## Versione 22.3 - Autunno/inverno 2022 {#sept-22}
+### Patch{#e-rn-patches}
 
-### Aggiornamento della sicurezza{#rn-security}
-
-Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat è stato aggiornato da v7.0 a v8.0.
-
-### Correzioni{#e-rn-fixes}
-
-* È stato risolto un problema relativo ai rapporti pianificati, che venivano attivati un’ora prima del tempo programmato. (CAMP-51502)
-* È stato risolto un problema sugli indicatori di consegna nella dashboard delle consegne che non corrispondevano ai registri di invio (nms:broadLogRcp). (CAMP-51127)
-* È stato risolto un problema che impediva l’estensione delle risorse personalizzate con il connettore ACS (offerta Prime). (CAMP-51033)
-* È stato migliorato il processo di pubblicazione delle risposte alle richieste di accesso a dati personali per evitare ritardi. (CAMP-50613)
+* È stato risolto un problema che poteva causare un errore di timeout durante la visualizzazione del **Hot click** rapporto. (CAMP-51582)
+* È stato risolto un problema che poteva impedire l’utilizzo dell’integrazione con **Luoghi** servizio. (CAMP-51923)
+* È stato risolto un problema che poteva impedire il corretto funzionamento della pianificazione del flusso di lavoro. (CAMP-52003)
+* È stato risolto un problema che impediva la visualizzazione dei dettagli di suddivisione durante la visualizzazione della versione PDF di un rapporto dinamico personalizzato con un volume elevato di dati. (CAMP-52178)
+* È stato risolto un problema che poteva visualizzare un errore durante l’accesso ai rapporti. (CAMP-52500)
+* È stato risolto un problema che applicava erroneamente il **Limita le istanze MTA per questo account** Parametro del connettore SMS per tutti i canali invece di applicarlo solo a SMS. (CAMP-52640)
