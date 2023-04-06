@@ -8,8 +8,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
-workflow-type: ht
+source-git-commit: 36865b52044ffd4b4868250cada3ab585b9ef856
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -29,23 +29,23 @@ Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolar
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](release-notes.md).
+Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](e-release-notes.md).
 
 <table>
  <thead>
   <tr>
-   <th> Ambienti<br /> </th>
-   <th> Date<br /> </th>
+   <th> Ambienti </th>
+   <th> Date </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td>Stage<br /> </td>
-   <td>11 aprile 2023 - luglio 2023<br /> </td>
+   <td>Stage </td>
+   <td>11 aprile 2023 - luglio 2023 </td>
   </tr>
   <tr>
-   <td>Produzione<br /> </td>
-   <td>18 aprile 2023 - luglio 2023<br /> </td>
+   <td>Produzione </td>
+   <td>18 aprile 2023 - luglio 2023 </td>
   </tr>
  </tbody>
 </table>
