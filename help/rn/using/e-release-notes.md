@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 21%
+ht-degree: 70%
 
 ---
 
@@ -35,13 +35,13 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 
 ### Altre modifiche {#e-rn-changes}
 
-* Il prodotto pronto all&#39;uso **Flusso di lavoro per la creazione di contenuti di reporting** è stato aggiunto. Dopo aver importato una mappatura di destinazione da un’istanza all’altra, esegui semplicemente il flusso di lavoro per importare le voci di arricchimento di reporting corrispondenti. (CAMP-52452)
+* Il **Flusso di lavoro per la creazione di arricchimenti di reportistica** preconfigurato è stato aggiunto. Dopo aver importato una mappatura target da un’istanza all’altra, esegui semplicemente il flusso di lavoro per importare le voci di arricchimento di reportistica corrispondenti. (CAMP-52452)
 
 ### Problemi risolti{#e-rn-patches}
 
-* È stato risolto un problema che poteva causare un errore di timeout durante la visualizzazione del **Hot click** rapporto. (CAMP-51582)
-* È stato risolto un problema che poteva impedire l’utilizzo dell’integrazione con **Luoghi** servizio. (CAMP-51923)
-* È stato risolto un problema che poteva impedire il corretto funzionamento della pianificazione del flusso di lavoro. (CAMP-52003)
-* È stato risolto un problema che impediva la visualizzazione dei dettagli di suddivisione durante la visualizzazione della versione PDF di un rapporto dinamico personalizzato con un volume elevato di dati. (CAMP-52178)
-* È stato risolto un problema che poteva visualizzare un errore durante l’accesso ai rapporti. (CAMP-52500)
-* È stato risolto un problema che applicava erroneamente il **Limita le istanze MTA per questo account** Parametro del connettore SMS per tutti i canali invece di applicarlo solo a SMS. (CAMP-52640)
+* È stato risolto un problema che poteva causare un errore di timeout durante la visualizzazione del rapporto sugli **Hot click**. (CAMP-51582)
+* È stato risolto un problema che poteva impedire l’utilizzo dell’integrazione con il servizio **Luoghi**. (CAMP-51923)
+* È stato risolto un problema che poteva impedire il corretto funzionamento del modulo di pianificazione del flusso di lavoro. (CAMP-52003)
+* È stato risolto un problema che impediva la visualizzazione dei dettagli di raggruppamento nella versione PDF di un rapporto dinamico personalizzato con un volume elevato di dati. (CAMP-52178)
+* È stato risolto un problema che poteva mostrare un errore durante l’accesso ai rapporti. (CAMP-52500)
+* È stato risolto un problema che applicava erroneamente a tutti i canali il parametro **Limita le istanze MTA per questo account** del connettore SMS invece di applicarlo solo a SMS. (CAMP-52640)
