@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '0'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
  </thead>
  <tbody>
   <tr>
-   <td>Stage </td>
+   <td>Fase </td>
    <td>11 aprile 2023 - luglio 2023 </td>
   </tr>
   <tr>
