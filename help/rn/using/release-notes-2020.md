@@ -17,9 +17,9 @@ ht-degree: 98%
 
 # Note sulla versione 2020{#release-notes-2020}
 
-![](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo Campaign di giugno** con monitoraggio dei profili attivi, audit del recapito messaggi del sottodominio e gestione delle chiavi GPG. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
+![](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo di giugno** con monitoraggio dei profili attivi, audit del recapito messaggi del sottodominio e gestione delle chiavi GPG. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
 
-![](assets/do-not-localize/cp-icon.png) **Rilascio di ottobre del nuovo Pannello di controllo Campaign** con configurazione dei domini tramite CNAME e nuove funzionalità di monitoraggio del database. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
+![](assets/do-not-localize/cp-icon.png) **Rilascio di ottobre del nuovo Pannello di controllo** con configurazione dei domini tramite CNAME e nuove funzionalità di monitoraggio del database. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
 
 ## Versione 20.4 - Ottobre 2020 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * È stato corretto un errore che impediva agli utenti di apportare modifiche ai rapporti. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nuova versione di maggio del Pannello di controllo Campaign** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
+![](assets/do-not-localize/cp-icon.png) **Nuova versione di maggio del Pannello di controllo** con rinnovo del certificato per i sottodomini CNAME. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
 
 ## Versione 20.2 - Aprile 2020 {#release-20-2---april-2020}
 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Nuove funzionalità verranno rilasciate nel Pannello di controllo Campaign ad aprile, tra cui la gestione dei record TXT di Google, il monitoraggio dello spazio del database e l’avviso e-mail. Per ulteriori informazioni su queste funzioni, consulta le [Note sulla versione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
+>Nuove funzionalità verranno rilasciate nel Pannello di controllo Campaign ad aprile, tra cui la gestione dei record TXT di Google, il monitoraggio dello spazio del database e l’avviso e-mail. Per ulteriori informazioni su queste funzioni, consulta le [Note sulla versione del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
 
 **Miglioramenti**
 

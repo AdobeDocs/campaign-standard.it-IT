@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7230'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Sono state aggiunte informazioni sulla modalità di prova SMTP. [Ulteriori infor
 
 Sono stati aggiornati tutti i collegamenti obsoleti nelle sezioni **Privacy**. [Maggiori informazioni](../../start/using/privacy.md)
 
-Nell’indice dei contenuti della documentazione di Campaign Standard è stato aggiunto un collegamento diretto alla documentazione del Pannello di controllo.
+Nell’indice dei contenuti della documentazione di Campaign Standard è stato aggiunto un collegamento diretto alla documentazione del Pannello di controllo Campaign.
 
 ## Versione 21.3 - Settembre 2021 {#release-21-3---september-2021}
 
