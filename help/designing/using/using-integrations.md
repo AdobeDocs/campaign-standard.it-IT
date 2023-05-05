@@ -11,7 +11,7 @@ exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,7 @@ Il contenuto dell’e-mail può essere modificato in Experience Manager e quindi
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Utilizzo degli elenchi di prodotti"
->abstract="Gli elenchi dei prodotti ti consentono di fare riferimento a una raccolta di dati e di visualizzarli nel contenuto dell’e-mail."
+>abstract="Gli elenchi dei prodotti consentono di fare riferimento a una raccolta dati e di visualizzarla nel contenuto dell’e-mail."
 
 Gli elenchi dei prodotti ti consentono di fare riferimento a una o più raccolte di dati nel contenuto dell’e-mail. Questi elenchi sono disponibili per le e-mail transazionali. È disponibile una sezione dedicata per questa funzione [qui](../../designing/using/using-product-listings.md).
 

@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 13%
+ht-degree: 23%
 
 ---
 
@@ -81,12 +81,12 @@ Per modificare la struttura di un messaggio e-mail:
 
 Una volta definita la struttura, puoi aggiungere frammenti di contenuto e componenti all’e-mail.
 
-## Utilizzo di una preintestazione {#preheader}
+## Utilizzo di una pre-intestazione {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Utilizzo di una preintestazione"
->abstract="La preintestazione ti consente di configurare un breve testo di riepilogo che darà un tasso di apertura più alto per la tua e-mail."
+>title="Utilizzo di una pre-intestazione"
+>abstract="La pre-intestazione consente di configurare un breve testo di riepilogo che fornirà un tasso di apertura più alto dell’e-mail."
 
 Un preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzi un’e-mail dalla tua casella in entrata. La preintestazione offre una velocità di apertura più elevata.
 
@@ -98,14 +98,14 @@ Puoi aggiungere una **[!UICONTROL Content block]**, **[!UICONTROL Dynamic conten
 
 >[!NOTE]
 >
->Il preheader non è compatibile con tutti i programmi e-mail. Quando non è supportato, non viene visualizzato.
+>La preintestazione non è compatibile con tutti i programmi e-mail. Quando non è supportata, non viene visualizzata.
 
 ## Utilizzo dei componenti di contenuto {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="Informazioni sui componenti per contenuti"
->abstract="I componenti contenuto sono segnaposto di contenuto vuoti che puoi modificare per creare un’e-mail."
+>abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere modificati per creare un’email."
 
 I componenti contenuto sono componenti vuoti e non elaborati che possono essere modificati una volta inseriti in un messaggio e-mail.
 
@@ -156,8 +156,8 @@ Se disponi di un contenuto che non può essere ricreato, puoi copiare e incollar
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Impostazioni video"
->abstract="Utilizza questo componente per inserire un video nel messaggio e-mail. I video non funzionano su tutti i client e-mail. È consigliabile impostare un’immagine di fallback."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informazioni aggiuntive"
+>abstract="Utilizza questo componente per inserire un video nell’e-mail. Tieni presente che i video non funzionano su tutti i client e-mail. È consigliabile impostare un’immagine di fallback."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Ulteriori informazioni"
 
 Inserisci il componente video in un componente struttura dell’e-mail e inserisci il collegamento video nel **[!UICONTROL Component Settings]**.
 
@@ -179,8 +179,8 @@ Utilizza questo componente per inserire i collegamenti alle pagine dei social me
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
->title="Impostazioni del carosello"
->abstract="Scopri come inserire e configurare un carosello nel contenuto.Nota che il carosello non funziona su tutti i client e-mail e che l’immagine di fallback verrà visualizzata nel caso in cui non sia supportata."
+>title="Impostazioni carosello"
+>abstract="Scopri come inserire e configurare un carosello nel contenuto. Tieni presente che il carosello non funziona su tutti i client e-mail e, nel caso in cui non sia supportato, sarà visualizzata un’immagine di fallback."
 
 1. Trascina e rilascia la **[!UICONTROL Carousel]** all’interno di un componente struttura.
 1. Consente di selezionare le immagini dal computer.
