@@ -1,6 +1,6 @@
 ---
 title: Esportazione di elenchi
-description: Adobe Campaign consente di esportare i dati visualizzati come elenchi da una schermata di panoramica direttamente in un file per un utilizzo futuro.
+description: Adobe Campaign consente di esportare i dati visualizzati come elenchi da una schermata di panoramica direttamente in un file per utilizzi futuri.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -8,47 +8,47 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '441'
 ht-degree: 6%
 
 ---
 
 # Esportazione di elenchi{#exporting-lists}
 
-Adobe Campaign consente di esportare gli elenchi direttamente in un file per utilizzi futuri. L’esportazione di un elenco in un file genera una voce di registro nel **[!UICONTROL Export audits]** menu. Per ulteriori informazioni sui controlli delle esportazioni, consulta la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
+Adobe Campaign consente di esportare gli elenchi direttamente in un file per utilizzi futuri. L’esportazione di un elenco in un file genera una voce di registro in **[!UICONTROL Export audits]** menu. Per ulteriori informazioni sui controlli delle esportazioni, consulta la sezione [Controllo delle esportazioni](../../administration/using/auditing-export-logs.md).
 
-![](assets/do-not-localize/how-to-video.png) [Scopri come configurare un elenco in un video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri come configurare un elenco nel video](#video)
 
-L’opzione esporta elenco ti consente di esportare un massimo di 100.000 righe per impostazione predefinita e definita dalla **Nms_ExportListLimit** opzione . Questa opzione può essere gestita dall’amministratore funzionale in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+L’opzione di esportazione di elenchi ti consente di esportare un massimo di 100.000 righe per impostazione predefinita ed è definita da **Nms_ExportListLimit** opzione. Questa opzione può essere gestita dall’amministratore funzionale nella sezione **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-L’elenco di esportazione è disponibile in tutte le schermate che hanno una **Elenco** visualizzazione modalità, per gli utenti con **[!UICONTROL EXPORT (export)]** ruolo.
+L’elenco di esportazione è disponibile in tutte le schermate che presentano **Elenco** visualizzazione modalità, per gli utenti con **[!UICONTROL EXPORT (export)]** ruolo.
 
-1. Vai alla tua scelta **Elenco** schermo. Ad esempio, la schermata di panoramica del profilo di test ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Controlla che la schermata sia in **Elenco** modalità.
+1. Vai alla scelta **Elenco** schermo. Ad esempio, la schermata di panoramica del profilo di test ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
+1. Verifica che la schermata sia in **Elenco** modalità.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organizza le colonne dell’elenco nell’ordine in cui desideri esportarle utilizzando **[!UICONTROL Configure list]** nell&#39;angolo in alto a destra. Oltre alle colonne configurate, verrà esportata anche la chiave primaria della risorsa.
-1. Se lo desideri, puoi applicare un filtro. A questo scopo, fai clic sul pulsante nell’angolo in alto a sinistra per visualizzare il riquadro di ricerca.
+1. Organizzare le colonne dell&#39;elenco nell&#39;ordine in cui si desidera esportarle utilizzando **[!UICONTROL Configure list]** nell&#39;angolo in alto a destra. Oltre alle colonne configurate, verrà esportata anche la chiave primaria della risorsa.
+1. Puoi anche applicare un filtro. A questo scopo, fai clic sul pulsante nell’angolo in alto a sinistra per visualizzare il riquadro di ricerca.
 
    Se esegui un’esportazione da un elenco contenente risorse diverse, devi applicare i filtri in modo che nell’elenco venga visualizzato un solo tipo di risorsa.
 
-1. Se lo desideri, ordina le colonne selezionate.
-1. Selezionare il pulsante di esportazione ![](assets/exportlistbutton.png).
+1. Se lo desideri, ordina le colonne scelte.
+1. Seleziona il pulsante di esportazione ![](assets/exportlistbutton.png).
 
-   Viene visualizzata una finestra a comparsa per confermare l’esportazione. Dopo aver confermato l’esportazione, il file viene scaricato automaticamente nel computer.
+   Viene visualizzata una finestra a comparsa per confermare l’esportazione. Una volta confermata l&#39;esportazione, il file viene scaricato automaticamente sul computer.
 
-Il file viene generato in formato CSV con estensione TXT. Viene denominato in base alla risorsa esportata e alla data di esportazione. Ad esempio: il nome profileBase_20150426_120253.txt verrà applicato a un&#39;esportazione di profilo effettuata il 26 aprile 2015 alle ore 12:02:53. Viene codificato in formato UTF-8.
+Il file viene generato in formato CSV con estensione .TXT. Viene denominato in base alla risorsa esportata e alla data di esportazione. Ad esempio: il nome profileBase_20150426_120253.txt verrà applicato a un’esportazione di profili eseguita il 26 aprile 2015 alle 12:02:53 È codificato nel formato UTF-8.
 
 I valori numerici e le date tengono conto dell’ora locale (locale) dell’utente che esegue l’esportazione. Ad esempio: GG-MM-AAAA o MM-GG-AAAA.
 
-Per eseguire un’esportazione di dimensioni maggiori, devi creare un flusso di lavoro dedicato. Fai riferimento a [Extract file](../../automating/using/extract-file.md) sezione .
+Per eseguire un’esportazione di dimensioni maggiori di questa, devi creare un flusso di lavoro dedicato. Consulta la sezione [Extract file](../../automating/using/extract-file.md) sezione.
 
 **Esempio**
 
-L’esempio seguente è un’esportazione eseguita dall’elenco di profili definito di seguito:
+L’esempio seguente è un’esportazione eseguita dall’elenco dei profili definito di seguito:
 
 * Colonne visualizzate (in ordine): Cognome, Nome, Data di nascita, Indirizzo e-mail.
 * I nomi sono ordinati in ordine alfabetico.
@@ -82,4 +82,4 @@ Questo video mostra come configurare gli elenchi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

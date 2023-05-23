@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 98%
+source-wordcount: '1559'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ In qualità di titolare del trattamento, avrai pertanto la responsabilità di co
 
 Prima di creare le richieste di accesso a dati personali, è necessario definire lo spazio dei nomi da utilizzare. Lo spazio dei nomi è la chiave che verrà utilizzata per identificare l’interessato nel database di Adobe Campaign. Due spazi dei nomi sono disponibili da subito: e-mail e telefono cellulare. Se hai bisogno di uno spazio dei nomi diverso (ad esempio un campo personalizzato del profilo), svolgi i passaggi seguenti.
 
-Fai inoltre riferimento a questo [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=it#privacy) su come creare uno spazio dei nomi.
+Fai inoltre riferimento a questo [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) su come creare uno spazio dei nomi.
 
 >[!NOTE]
 >
@@ -91,13 +91,13 @@ Fai inoltre riferimento a questo [tutorial](https://experienceleague.adobe.com/d
 
 L’integrazione del servizio core per la privacy consente di automatizzare le richieste di accesso a dati personali in un contesto multisoluzione tramite una singola chiamata API JSON. Le richieste di accesso a dati personali inviate dal servizio core per la privacy a tutte le soluzioni Experience Cloud vengono gestite automaticamente da Campaign tramite un flusso di lavoro dedicato.
 
-Per scoprire come creare richieste di accesso a dati personali dal servizio core per la privacy, fai riferimento alla documentazione del [Privacy Service di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it).
+Per scoprire come creare richieste di accesso a dati personali dal servizio core per la privacy, fai riferimento alla documentazione del [Privacy Service di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 >[!IMPORTANT]
 >
->Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta la [metodo JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"} per effettuare la richiesta.
+>Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta [metodo JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} per effettuare la richiesta.
 >
->Utilizza solo [Interfaccia utente sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"} per inviare richieste utilizzando il tipo di spazio dei nomi standard.
+>Utilizza solo il [Interfaccia utente Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} per inviare richieste utilizzando il tipo di spazio dei nomi standard.
 
 Ciascun processo del servizio core per la privacy è suddiviso in più richieste di accesso a dati personali in Campaign in base al numero di spazi dei nomi utilizzati. A ogni richiesta corrisponde uno spazio dei nomi. È inoltre possibile eseguire un processo su più istanze. In questo caso vengono creati più file per un processo. Ad esempio, se una richiesta ha due spazi di nomi ed è in esecuzione in tre istanze, vengono inviati in totale sei file. Un file per ogni spazio dei nomi e istanza.
 
@@ -125,7 +125,7 @@ Di seguito è riportato l’elenco delle risorse pronte all’uso prese in consi
 
 Se hai creato risorse personalizzate con un collegamento alla risorsa profili (di tipo proprio), esse verranno tenute in considerazione. Ad esempio, se disponi di una risorsa di transazione collegata alla risorsa profili e una risorsa dei dettagli della transazione collegata alla risorsa della transazione, verranno prese in considerazione entrambe.
 
-Fai inoltre riferimento a [questo tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=it#privacy) su come modificare le risorse personalizzate.
+Fai inoltre riferimento a [questo tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) su come modificare le risorse personalizzate.
 
 Affinché questo funzioni, seleziona l’opzione **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** nella risorsa personalizzata:
 

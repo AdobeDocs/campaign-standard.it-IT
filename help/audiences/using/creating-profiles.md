@@ -8,9 +8,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 83%
 
 ---
@@ -23,7 +23,7 @@ In Adobe Campaign, utilizzi profili per impostazione predefinita per definire la
 >
 >Puoi creare profili anche tramite l’API di Adobe Campaign Standard. Per ulteriori informazioni, consulta la [documentazione dedicata](../../api/using/creating-profiles-api.md).
 
-![](assets/do-not-localize/how-to-video.png) [Scopri come importare profili tramite un flusso di lavoro in un video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri come importare profili utilizzando un flusso di lavoro nel video](#video)
 
 Per creare o aggiornare un profilo in Campaign, puoi:
 
@@ -31,7 +31,7 @@ Per creare o aggiornare un profilo in Campaign, puoi:
 * raccogliere dati online tramite [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md);
 * creare in massa tramite [API REST](../../api/using/get-started-apis.md);
 * sincronizzare profili da [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md);
-* Immetti i dati utilizzando l’interfaccia utente, come spiegato di seguito.
+* Immetti i dati utilizzando l’interfaccia utente, come spiegato di seguito
 
 Ad esempio, per creare un nuovo profilo direttamente dall’interfaccia utente, segui i passaggi qui sotto:
 
@@ -52,11 +52,11 @@ Ad esempio, per creare un nuovo profilo direttamente dall’interfaccia utente, 
    * La categoria **[!UICONTROL Channels]**, che contiene l’indirizzo e-mail, il numero di telefono cellulare, le informazioni di rinuncia (opt-out), ti informa su quale canale puoi raggiungere il profilo.
 
       >[!NOTE]
-      > I numeri di telefono cellulare devono sempre essere in formato internazionale (`+<country><number>`) nella tabella dei profili.
+      > I numeri di telefono cellulare devono essere sempre in formato internazionale (`+<country><number>`) nella tabella dei profili.
 
    * La categoria **[!UICONTROL No longer contact]** viene aggiornata dopo che il profilo ha annullato l’abbonamento a un canale.
    * La categoria **[!UICONTROL Address]** contiene l’indirizzo postale che deve essere compilato insieme all’opzione **[!UICONTROL Address specified]** per inviare [direct mailing](../../channels/using/about-direct-mail.md) a questo profilo. Se l’opzione **[!UICONTROL Address specified]** non è selezionata, questo profilo viene escluso da tutte le consegne di direct mailing.
-   * La **[!UICONTROL Access authorization]** categoria indica le unità organizzative del profilo in [gestire le autorizzazioni](../../administration/using/about-access-management.md). Per aggiungere i campi organizzativi ai profili, consulta la sezione [Profili di partizione](../../administration/using/organizational-units.md#partitioning-profiles).
+   * Il **[!UICONTROL Access authorization]** categoria indica le unità organizzative del profilo a cui [gestire le autorizzazioni](../../administration/using/about-access-management.md). Per aggiungere i campi organizzativi ai profili, consulta la sezione [Profili di partizione](../../administration/using/organizational-units.md#partitioning-profiles).
    * La categoria **[!UICONTROL Traceability]** viene aggiornata automaticamente con le informazioni relative all’utente che ha creato o modificato il profilo.
 
 1. Fai clic su **[!UICONTROL Create]** per salvare il profilo.
@@ -68,8 +68,8 @@ Il profilo viene ora visualizzato nell’elenco.
 
 ## Video tutorial {#video}
 
-Questo video mostra come importare profili con un flusso di lavoro.
+Questo video mostra come importare i profili con un flusso di lavoro.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

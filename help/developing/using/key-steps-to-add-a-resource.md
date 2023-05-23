@@ -8,16 +8,16 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 47%
+source-wordcount: '103'
+ht-degree: 46%
 
 ---
 
 # Passaggi fondamentali per aggiungere una risorsa{#key-steps-to-add-a-resource}
 
-Per creare una nuova risorsa o per estendere una risorsa esistente con nuovi campi, sono necessari diversi passaggi:
+Per creare una nuova risorsa o estendere una risorsa esistente con nuovi campi, sono necessari diversi passaggi:
 
 1. [Creazione o estensione della risorsa](../../developing/using/creating-or-extending-the-resource.md)
 1. [Configurazione della struttura dati della risorsa](../../developing/using/configuring-the-resource-s-data-structure.md)
@@ -33,4 +33,4 @@ Questo video mostra come creare risorse personalizzate.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-Sono disponibili ulteriori video dimostrativi su Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

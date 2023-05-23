@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '857'
 ht-degree: 63%
 
 ---
@@ -43,8 +43,8 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partire dalla versione 21.3 di Campaign Standard, l’integrazione con il servizio Audience Destinations è diventata obsoleta. </p>
-   <p>Per una nuova implementazione, non puoi più integrare il servizio Audience Destinations con Adobe Campaign Standard. Puoi comunque integrare Campaign e Adobe Experience Platform tramite Origini e Destinazioni. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Ulteriori informazioni</a>.</p>
+   <td> <p> A partire dalla versione di Campaign Standard 21.3, l’integrazione con il servizio Audience Destinations è diventata obsoleta. </p>
+   <p>Per la nuova implementazione, non è più possibile integrare il servizio Audience Destinations con Adobe Campaign Standard. Tuttavia, puoi integrare Campaign e Adobe Experience Platform tramite Origini e Destinazioni. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Ulteriori informazioni</a>.</p>
      <em>Data prevista di rimozione: 2023</em></p>
      </td> 
   </tr> 
@@ -54,13 +54,13 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integrazione con il connettore dati Adobe Experience Platform</strong><br /> </th> 
+   <th> <strong>Integrazione con Adobe Experience Platform Data Connector</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partire dalla versione 21.3 di Campaign Standard, l’integrazione con Adobe Experience Platform Data Connector è obsoleta. </p>
-   <p>Per una nuova implementazione, non puoi più integrare Adobe Experience Platform Data Connector con Adobe Campaign Standard. Puoi comunque integrare Campaign e Adobe Experience Platform tramite Origini e Destinazioni. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Ulteriori informazioni</a>.</p>
+   <td> <p> A partire dalla versione di Campaign Standard 21.3, l’integrazione con Adobe Experience Platform Data Connector è diventata obsoleta. </p>
+   <p>Per la nuova implementazione, non è più possibile integrare Connettore dati di Adobe Experience Platform con Adobe Campaign Standard. Tuttavia, puoi integrare Campaign e Adobe Experience Platform tramite Origini e Destinazioni. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Ulteriori informazioni</a>.</p>
      <em>Data prevista di rimozione: 2023</em></p>
      </td> 
   </tr> 
@@ -76,7 +76,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione di Campaign 19.0, l’editor e-mail legacy diventa obsoleto. Utilizzo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">E-mail Designer di Campaign</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
+   <td> <p>A partire dalla versione di Campaign 19.0, l’editor e-mail legacy diventa obsoleto. Utilizzare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">E-mail Designer di Campaign</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
    <p>Leggi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">questa sezione</a> per scoprire come adattare i modelli e-mail per il nuovo editor.</p></br>
   </td> 
   </tr> 
@@ -91,7 +91,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione 18.7 di Campaign, le unità geografiche sono diventate obsolete. Le unità organizzative e geografiche sono costrutti identici in Campaign. Gli utenti devono utilizzare solo le unità organizzative per creare la propria gerarchia di autorizzazioni utente/accesso ai dati. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=it#administrating">Ulteriori informazioni</a>. Ricorda che, a partire dalla versione 18.7, questa funzionalità non può essere implementata nelle nuove istanze di Campaign Standard né in quelle esistenti senza unità geografiche create.</p>
+   <td> <p>A partire dalla versione 18.7 di Campaign, le unità geografiche diventeranno obsolete. Le unità organizzative e geografiche sono costrutti identici in Campaign. Gli utenti devono utilizzare solo le unità organizzative per creare la propria gerarchia di autorizzazioni utente/accesso ai dati. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=it#administrating">Ulteriori informazioni</a>. Ricorda che, a partire dalla versione 18.7, questa funzionalità non può essere implementata nelle nuove istanze di Campaign Standard né in quelle esistenti senza unità geografiche create.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -111,10 +111,10 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partire dalla versione Campaign 20.1, l’SDK v4 è diventato obsoleto. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Ulteriori informazioni</a>.</p><br/>
-   <p>La <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (in precedenza denominato v5) ora supporta esclusivamente le prossime funzionalità e funzionalità di Adobe Experience Cloud.</p>
-   <p>Dopo il 31 agosto 2021 i clienti potranno continuare a scaricare e utilizzare gli SDK versione 4, ma non saranno più disponibili né l’assistenza clienti né l’accesso ai forum.</p>
-   <p>Scopri come migrare da SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in questa pagina</a>.</p></br>
+   <td> <p> A partire dalla versione 20.1 di Campaign, SDK v4 è diventato obsoleto. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Ulteriori informazioni</a>.</p><br/>
+   <p>Il <a href="https://developer.adobe.com/client-sdks/documentation/">SDK di Adobe Experience Platform Mobile</a> (in precedenza denominato v5) ora supporta esclusivamente le nuove funzioni e funzionalità di Adobe Experience Cloud.</p>
+   <p>Dopo il 31 agosto 2021 i clienti potranno continuare a scaricare e utilizzare gli SDK versione 4, ma non saranno più disponibili né il supporto dell’Assistenza clienti né l’accesso ai forum.</p>
+   <p>Scopri come migrare dall’SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in questa pagina</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -129,7 +129,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p>A partire dalla versione 21.2 di Campaign, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventerà obsoleto. L’eliminazione del profilo in due fasi non sarà disponibile. Utilizza il <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">servizio core per la privacy di Adobe</a>.</p></br>
-   <p>Consulta anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=it">Gestione delle richieste di accesso a dati personali</a>.</p>
+   <p>Consulta anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Gestione delle richieste di accesso a dati personali</a>.</p>
   </td> 
   </tr> 
  </tbody> 
@@ -138,13 +138,13 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
 <table> 
  <thead> 
  <tr> 
-   <th> <strong>Linea oggetto predittivo</strong><br /> </th> 
+   <th> <strong>Oggetto predittivo</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partire da aprile 2021, la funzionalità Predictive Subject Line è disattivata.</p><br/>
-   <p>Ti consigliamo di sfruttare le funzionalità e-mail basate sull’intelligenza artificiale per analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base a metriche di coinvolgimento storiche. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Ulteriori informazioni</a></p></br>
+   <td> <p> A partire da aprile 2021, la funzionalità Predictive Subject Line verrà disattivata.</p><br/>
+   <p>Consigliamo di sfruttare le funzionalità e-mail basate sull’intelligenza artificiale per analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e i tassi di abbandono probabili in base a metriche di coinvolgimento storiche. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Ulteriori informazioni</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -173,7 +173,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] è stato disattivato. Di conseguenza, l'edizione dell'immagine basata su [!DNL Creative SDK] nelle e-mail di Campaign Standard non sono più disponibili a partire dalla versione Campaign 20.2.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] è stato disattivato. Di conseguenza, l’edizione dell’immagine è basata su [!DNL Creative SDK] nelle e-mail Campaign Standard non è più disponibile a partire dalla versione 20.2 di Campaign.</p></br>
    </td> 
   </tr> 
  </tbody> 

@@ -1,6 +1,6 @@
 ---
 title: Utilizzo degli elenchi di prodotti in un messaggio sulle transazioni
-description: Scopri come utilizzare gli elenchi di prodotti in un contenuto di messaggi transazionali.
+description: Scopri come utilizzare gli elenchi dei prodotti in un contenuto per messaggi transazionali.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -9,9 +9,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 79%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->Gli elenchi di prodotti sono disponibili solo per **messaggi e-mail transazionali** attraverso [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interfaccia.
+>Gli elenchi dei prodotti sono disponibili solo per **messaggi e-mail transazionali** tramite [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) di rete.
 
-Quando modifichi il contenuto di un’e-mail sulle transazioni, puoi creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un’e-mail di abbandono del carrello, puoi includere un elenco di tutti i prodotti presenti nei carrelli degli utenti al momento dell’uscita dal sito web, con un’immagine, il prezzo e un collegamento a ciascun prodotto.
+Quando modifichi il contenuto di un’e-mail transazionale, puoi creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un messaggio e-mail di abbandono carrello, puoi includere un elenco di tutti i prodotti presenti nei carrelli degli utenti al momento dell’uscita dal sito web, con un’immagine, il prezzo e un collegamento a ciascun prodotto.
 
 Per aggiungere un elenco di prodotti abbandonati in un messaggio sulle transazioni, segui i passaggi indicati di seguito.
 
-Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) illustrazione dei passaggi necessari per configurare gli elenchi di prodotti in un messaggio e-mail sulle transazioni.
+Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) spiegazione dei passaggi necessari per configurare gli elenchi di prodotti in un messaggio e-mail sulle transazioni.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Per ulteriori informazioni sulla creazione di una raccolta e dei campi correlati
 
    ![](assets/message-center_loop_fallback.png)
 
-   Il contenuto di fallback verrà visualizzato se la raccolta è vuota al momento dell’attivazione dell’evento, ad esempio se un cliente non ha nulla nel carrello.
+   Il contenuto di fallback viene visualizzato se la raccolta è vuota al momento dell’attivazione dell’evento, ad esempio se un cliente non ha nulla nel carrello.
 
 1. Nel riquadro Impostazioni, modifica gli stili per l’elenco dei prodotti. Per ulteriori informazioni, consulta [Gestione degli stili e-mail](../../designing/using/styles.md).
 1. Visualizza l’anteprima del messaggio e-mail utilizzando un profilo di test collegato all’evento transazionale rilevante per il quale hai definito i dati della raccolta. Ad esempio, aggiungi le seguenti informazioni nella sezione **[!UICONTROL Event data]** relativa al profilo di test da utilizzare:
