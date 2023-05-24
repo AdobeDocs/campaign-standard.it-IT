@@ -24,18 +24,18 @@ Il flusso di lavoro è costituito dai seguenti elementi:
 
 ![](assets/incremental_query_example1.png)
 
-* A [Scheduler](../../automating/using/scheduler.md) attività , per eseguire il flusso di lavoro ogni lunedì alle 6.
+* A [Scheduler](../../automating/using/scheduler.md) per eseguire il flusso di lavoro ogni lunedì alle 6.
 
    ![](assets/incremental_query_example2.png)
 
-* Un [Incremental query](../../automating/using/incremental-query.md) attività , che esegue il targeting per tutti gli abbonati correnti durante la prima esecuzione, quindi solo per i nuovi abbonati della settimana durante le esecuzioni successive.
+* Un [Query incrementale](../../automating/using/incremental-query.md) attività, che esegue il targeting per tutti gli abbonati correnti durante la prima esecuzione, quindi solo per i nuovi abbonati della settimana durante le esecuzioni successive.
 
    ![](assets/incremental_query_example3.png)
 
-* Un [Email delivery](../../automating/using/email-delivery.md) attività. Il flusso di lavoro viene eseguito una volta alla settimana, ma puoi aggregare le e-mail inviate e i risultati per mese, ad esempio per generare report per un periodo di un mese intero e non per una sola settimana.
+* Un [Consegna e-mail](../../automating/using/email-delivery.md) attività. Il flusso di lavoro viene eseguito una volta alla settimana, ma puoi aggregare le e-mail inviate e i risultati per mese, ad esempio per generare report per un periodo di un mese intero e non per una sola settimana.
 
    A tale scopo, scegli di creare una **[!UICONTROL Recurring email]** che raggruppa le e-mail e i risultati **[!UICONTROL By month]**.
 
-   Definisci il contenuto dell’e-mail e inserisci il codice promozionale di benvenuto. Per ulteriori informazioni, consulta [Definizione del contenuto e-mail](../../designing/using/personalization.md) sezioni.
+   Definisci il contenuto dell’e-mail e inserisci il codice promozionale di benvenuto. Per ulteriori informazioni, consulta [Definizione del contenuto delle e-mail](../../designing/using/personalization.md) sezioni.
 
 Quindi avvia l’esecuzione del flusso di lavoro. Ogni settimana i nuovi abbonati riceveranno l’e-mail di benvenuto con il codice promozionale.

@@ -1,6 +1,6 @@
 ---
 title: Informazioni sulle attività di esecuzione
-description: Le attività di esecuzione sono disponibili sul lato sinistro dello schermo.
+description: Le attività di esecuzione sono disponibili dal lato sinistro dello schermo.
 audience: automating
 content-type: reference
 topic-tags: execution-activities

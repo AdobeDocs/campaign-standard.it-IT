@@ -42,9 +42,9 @@ L’attività **[!UICONTROL Reconciliation]** viene essenzialmente utilizzata a 
 
    Ad esempio, puoi eseguire un salvataggio di pubblico, un aggiornamento del database, ecc.
 
-Ad esempio, il **[!UICONTROL Reconciliation]** è possibile inserire l’attività dopo un caricamento di dati per importare dati non standard nel database.
+Ad esempio, il **[!UICONTROL Reconciliation]** L’attività può essere inserita dopo un caricamento di dati per importare dati non standard nel database.
 
-Mentre il **Arricchimento** l’attività ti consente di definire i dati aggiuntivi da elaborare nel flusso di lavoro (utilizza un’ **Arricchimento** attività per combinare i dati provenienti da più set o per creare collegamenti a una risorsa temporanea), la **Reconciliation** L’attività ti consente di collegare dati non identificati a risorse esistenti. L’operazione di riconciliazione implica che i dati delle dimensioni collegate siano già presenti nel database. I casi di utilizzo sono disponibili in [questa sezione](#use-cases-reconciliation).
+Mentre il **Arricchimento** attività ti consente di definire i dati aggiuntivi da elaborare nel flusso di lavoro (utilizza un’ **Arricchimento** attività (per combinare dati provenienti da più set o per creare collegamenti a una risorsa temporanea), **Reconciliation** L’attività ti consente di collegare dati non identificati a risorse esistenti. L&#39;operazione Reconciliation implica che i dati delle dimensioni collegate siano già presenti nel database. I casi di utilizzo sono disponibili in [questa sezione](#use-cases-reconciliation).
 
 
 ## Configurazione {#configuration}
@@ -73,6 +73,6 @@ Mentre il **Arricchimento** l’attività ti consente di definire i dati aggiunt
 
 Scopri come utilizzare questa attività nei seguenti casi d’uso:
 
-* [Caso di utilizzo: Riconciliazione dei dati tramite relazioni](../../automating/using/reconciliation-using-relations.md)
-* [Caso di utilizzo: Aggiornamento dei dati tramite riconciliazione](../../automating/using/data-update-reconciliation.md)
-* [Caso di utilizzo: Riconciliare un pubblico di tipo File con il database](../../automating/using/reconcile-file-audience-with-database.md)
+* [Caso di utilizzo: riconciliazione dei dati tramite relazioni](../../automating/using/reconciliation-using-relations.md)
+* [Caso di utilizzo: aggiornamento dei dati tramite riconciliazione](../../automating/using/data-update-reconciliation.md)
+* [Caso d’uso: riconciliare un pubblico di tipo File con il database](../../automating/using/reconcile-file-audience-with-database.md)

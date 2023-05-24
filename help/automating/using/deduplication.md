@@ -36,8 +36,8 @@ Durante la deduplicazione, le transizioni in entrata vengono elaborate separatam
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: Identificazione di duplicati prima di una consegna](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Caso di utilizzo: Deduplicazione dei dati da un file importato](../../automating/using/deduplicating-data-imported-file.md)
+* [Caso di utilizzo: identificazione di duplicati prima di una consegna](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Caso di utilizzo: deduplicazione di dati da un file importato](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Configurazione {#configuration}
 

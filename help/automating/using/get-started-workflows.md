@@ -36,7 +36,7 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
 >[!IMPORTANT]
 >
-> Adobe consiglia ai clienti di non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente e di assegnare priorità e distribuire l’esecuzione del flusso di lavoro nel tempo. Per ulteriori informazioni, consulta le best practice fornite in [questa pagina](../../automating/using/best-practices-workflows.md).
+> L’Adobe consiglia ai clienti di non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente e di assegnare le priorità e distribuire l’esecuzione del flusso di lavoro nel tempo. Per ulteriori informazioni, consulta le best practice fornite in [questa pagina](../../automating/using/best-practices-workflows.md).
 
 ## Attività dei flussi di lavoro {#workflow-activities}
 
@@ -44,9 +44,9 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
 Sono disponibili varie attività per aiutarti a progettare i flussi di lavoro.
 
-[Attività di targeting](../../automating/using/about-targeting-activities.md) consente di creare uno o più target definendo i set e suddividendo o combinando questi set utilizzando le operazioni di intersezione, unione o esclusione.
+[Attività di targeting](../../automating/using/about-targeting-activities.md) consente di creare uno o più target definendo i set e suddividendoli o combinandoli mediante operazioni di intersezione, unione o esclusione.
 
-Con [Attività di esecuzione](../../automating/using/about-execution-activities.md), coordina il flusso di lavoro e le relative attività, mentre [Attività dei canali](../../automating/using/about-channel-activities.md) consente di combinare canali di comunicazione Campaign Standard per creare flussi di lavoro cross-channel.
+Con [Attività di esecuzione](../../automating/using/about-execution-activities.md), coordinare il flusso di lavoro e le relative attività, [Attività dei canali](../../automating/using/about-channel-activities.md) consente di combinare i canali di comunicazione Campaign Standard per creare flussi di lavoro cross-channel.
 
 Infine, [Attività di gestione dati](../../automating/using/about-data-management-activities.md) consente di manipolare i dati dal database.
 
@@ -60,9 +60,9 @@ Maggiori informazioni:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Sfruttare **editor di query** per filtrare i dati dal database e creare una popolazione con cui eseguire il targeting migliore dei destinatari. L’editor delle query è disponibile per eseguire diverse azioni in Campaign Standard: crea tipi di pubblico di tipo query, definisci target di consegna o popolazioni nelle attività del flusso di lavoro.
+Sfruttare **editor di query** per filtrare i dati dal database e creare una popolazione per eseguire meglio il targeting dei destinatari. L’editor delle query è disponibile per eseguire diverse azioni in Campaign Standard: creare tipi di pubblico di tipo Query, definire target di consegna o popolazioni nelle attività del flusso di lavoro.
 
-L’editor delle query viene fornito con **filtri e regole predefiniti** per un filtraggio rapido e semplice. Tuttavia, puoi anche utilizzare **modifica avanzata delle espressioni** funzionalità. Questo ti consente di inserire manualmente le condizioni e utilizzare le funzioni, al fine di creare le tue regole.
+L’editor delle query viene fornito con **filtri e regole predefiniti** per un filtraggio rapido e semplice. Tuttavia, puoi anche utilizzare **modifica avanzata delle espressioni** funzionalità. Ciò ti consente di inserire manualmente le condizioni e utilizzare le funzioni, al fine di creare regole personalizzate.
 
 Maggiori informazioni:
 
@@ -76,13 +76,13 @@ Maggiori informazioni:
 
 Campaign Standard viene fornito con diversi **funzionalità di gestione dati** per importare ed esportare dati.
 
-[Attività di gestione dati flussi di lavoro](../../automating/using/about-data-management-activities.md) consente di importare dati, eseguire aggiornamenti di massa sui campi, ricevere o inviare file o collegare dati non identificati a risorse esistenti.
+[Attività di gestione dati dei flussi di lavoro](../../automating/using/about-data-management-activities.md) consente di importare dati, eseguire aggiornamenti di massa sui campi, ricevere o inviare file oppure collegare dati non identificati a risorse esistenti.
 
-Con [Importare modelli](../../automating/using/importing-data-with-import-templates.md), gestisci alcuni tipi di importazione definiti dagli amministratori tramite funzioni di importazione semplificate.
+Con [Importa modelli](../../automating/using/importing-data-with-import-templates.md), gestisci alcuni tipi di importazione definiti dagli amministratori tramite funzioni di importazione semplificate.
 
-[Esportazione dei registri](../../automating/using/exporting-logs.md) consente di esportare i dati di registro tramite un flusso di lavoro semplice, che consente di analizzare i risultati delle campagne di marketing nei propri strumenti di reporting o BI.
+[Esportazione dei registri](../../automating/using/exporting-logs.md) consente di esportare i dati di registro tramite un semplice flusso di lavoro, che consente di analizzare i risultati delle campagne di marketing nei propri strumenti di reporting o BI.
 
-Sfruttamento [Pacchetti](../../automating/using/managing-packages.md) per scambiare risorse tra diverse istanze della campagna, ad esempio per replicare la configurazione di un’istanza o per trasferire dati da un server a un altro, incluse le risorse personalizzate.
+Sfruttare [Pacchetti](../../automating/using/managing-packages.md) per scambiare risorse tra diverse istanze di campaign, ad esempio per replicare la configurazione di un’istanza o per trasferire dati da un server a un’altra, incluse le risorse personalizzate.
 
 Infine, [Esportazione di elenchi](../../automating/using/exporting-lists.md) consente di esportare qualsiasi elenco da Campaign Standard, ad esempio l’elenco dei profili di test, l’elenco degli indirizzi e-mail della quarantena e così via.
 

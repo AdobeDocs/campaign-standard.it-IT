@@ -121,7 +121,7 @@ Per importare profili da utilizzare per il test da un pubblico, effettua le segu
 
    >[!NOTE]
    >
-   >Il prefisso della riga dell’oggetto può contenere fino a 500 caratteri.
+   >Il prefisso della riga oggetto può contenere fino a 500 caratteri.
 
    ![](assets/substitution_audience_define.png)
 

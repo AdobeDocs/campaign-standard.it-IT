@@ -17,74 +17,74 @@ ht-degree: 1%
 
 # Domande frequenti in-app {#in-app-faq}
 
-## Quali sarebbero alcuni consigli utili per le risorse per ulteriori informazioni sul canale in-app in Adobe Campaign Standard? {#resources-inapp}
+## Quali risorse utili consigliamo per saperne di più sul canale in-app in Adobe Campaign Standard? {#resources-inapp}
 
 Consulta le risorse seguenti:
 
 * [Tutorial video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
-* [Post del blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
+* [Post di blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Pagina community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-## Qual è lo scopo delle API delle estensioni Campaign setLinkageField e resetLinkageField? {#extensions-apis}
+## Qual è lo scopo delle API di estensione di Campaign setLinkageField e resetLinkageField? {#extensions-apis}
 
-Poiché i messaggi in-app vengono richiamati dall’SDK da Campaign, vogliamo fornire un meccanismo di sicurezza per garantire che i messaggi in-app contenenti dati PII non finiscano in mani malevoli. In quanto tale, abbiamo il seguente meccanismo in atto per garantire la consegna sicura dei messaggi al dispositivo:
+Poiché i messaggi in-app vengono estratti dall’SDK da Campaign, vogliamo fornire un meccanismo sicuro per garantire che i messaggi in-app contenenti dati PII non cadano in mani maligne. Di conseguenza, è stato implementato il seguente meccanismo per garantire la consegna sicura dei messaggi al dispositivo:
 
-* I clienti contrassegnano i campi del profilo mobile (tabella appSubscriberRcp) come Personali e riservati se desiderano garantire che queste informazioni particolari vengano fornite in modo sicuro.
-* I campi contrassegnati come tali possono essere utilizzati solo nel modello di profilo (non nel modello appSubscriber o nel modello Broadcast) che ha un meccanismo di sicurezza aggiuntivo integrato.
-* I messaggi generati utilizzando il modello di profilo possono essere serviti solo quando l’utente ha effettuato l’accesso all’app.
-* Per facilitare questo handshake sicuro, gli sviluppatori di app mobili devono trasmettere ulteriori dettagli di autenticazione utilizzando l’API setLinkageField . Tieni presente che il campo di collegamento sono quelli identificati come collegamento tra profilo mobile e profilo CRM durante l’estensione della tabella appSubscriberRcp.
-* Devono eseguire il flush dei messaggi in-app memorizzati sul dispositivo e resetLinkagefields quando l&#39;utente si disconnette dall&#39;app utilizzando resetLinkageField. In questo modo, se un utente diverso accede all’app, non vede i messaggi destinati all’utente precedente.
+* I clienti contrassegnano i campi del profilo mobile (tabella appSubscriberRcp) come Personali e riservati se desiderano assicurarsi che queste informazioni particolari vengano consegnate in modo sicuro.
+* I campi contrassegnati come tali possono essere utilizzati solo nel modello Profilo (non nel modello AppSubscriber o Broadcast) in cui è incorporato un meccanismo di sicurezza aggiuntivo.
+* I messaggi generati utilizzando il modello di profilo possono essere trasmessi solo dopo che l’utente ha effettuato l’accesso all’app.
+* Per facilitare questo handshake sicuro, gli sviluppatori di app mobili devono trasmettere ulteriori dettagli di autenticazione utilizzando l’API setLinkageField. Tieni presente che il campo di collegamento è quello identificato come collegamento tra Profilo mobile e Profilo CRM durante l’estensione della tabella appSubscriberRcp.
+* Devono effettuare il flushing dei messaggi in-app memorizzati sul dispositivo e resetLinkageField quando l’utente si disconnette dall’app utilizzando resetLinkageField. In questo modo, se un utente diverso accede all’app, non vede i messaggi destinati all’utente precedente.
 * Fai riferimento a [API SDK per dispositivi mobili](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) per implementare questo meccanismo di sicurezza lato client.
 
 ## Cosa devo fare per abilitare il reporting in-app in Campaign? {#enable-inapp-reporting}
 
-Devi configurare il postback di tracciamento in-app. Le istruzioni sono disponibili [qui](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+Devi configurare il postback del tracciamento in-app. Le istruzioni sono disponibili sul sito [qui](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
-Per implementare il tracciamento delle notifiche locali, fai riferimento a questo [page](../../administration/using/local-tracking.md).
+Per implementare il tracciamento delle notifiche locali, fai riferimento a questo [pagina](../../administration/using/local-tracking.md).
 
 ## Quali rapporti sono disponibili per il canale in-app? {#report-inapp}
 
-Un rapporto preconfigurato è disponibile in Adobe Campaign per il canale in-app. Fai riferimento a questo [documentazione](../../reporting/using/in-app-report.md).
+In Adobe Campaign è disponibile un rapporto pronto all’uso per il canale in-app. Fai riferimento a questo [documentazione](../../reporting/using/in-app-report.md).
 
-Vedi questo [page](../../reporting/using/indicator-calculation.md#in-app-delivery) per comprendere come vengono calcolate le singole metriche in-app.
+Vedi questo [pagina](../../reporting/using/indicator-calculation.md#in-app-delivery) per comprendere come vengono calcolate tutte le metriche in-app.
 
-## Supporta varianti di contenuto multilingue per in-app simili a push? {#multilingual-inapp}
+## Supporti varianti di contenuto multilingue per In-App simili a Push? {#multilingual-inapp}
 
-Non sono ora disponibili modelli multilingue per i messaggi in-app.
+Non sono attualmente disponibili modelli multilingue per la messaggistica in-app.
 
-Tuttavia, se l’obiettivo è quello di inviare un messaggio in-app in una lingua diversa dall’inglese, il contenuto può essere incollato direttamente nelle caselle di testo disponibili.
+Tuttavia, se l’obiettivo è inviare un messaggio in-app in una lingua diversa dall’inglese, il contenuto può essere incollato direttamente nelle caselle di testo disponibili.
 
 ![](assets/faq_inapp.png)
 
-## I campi di personalizzazione di Campaign possono essere aggiunti a Custom HTML? {#custom-html-inapp}
+## È possibile aggiungere i campi di personalizzazione di Campaign a Custom HTML? {#custom-html-inapp}
 
-No, non è ancora supportato.
+No, non ancora supportato.
 
-## Ho configurato un messaggio di avviso ma non viene visualizzato sul dispositivo. {#alert-message}
+## È stato configurato un messaggio di avviso che tuttavia non viene visualizzato sul dispositivo. {#alert-message}
 
-Per i messaggi di avviso, è necessario almeno un pulsante di disattivazione (primario o secondario con chiusura dell’azione). In caso contrario, è possibile salvare il messaggio ma non verrà ricevuto.
+Per i messaggi di avviso, è necessario almeno un pulsante di esclusione (principale o secondario deve disporre di azione di esclusione). In caso contrario, è possibile salvare il messaggio ma non verrà ricevuto.
 
-## Se le notifiche locali l&#39;audio personalizzato iOS non viene riprodotto; verrà invece riprodotto il suono predefinito? {#local-notification-sound}
+## Se l&#39;audio personalizzato di iOS delle notifiche locali non viene riprodotto, verrà riprodotto l&#39;audio predefinito? {#local-notification-sound}
 
-Per l&#39;audio personalizzato su iOS, è necessario fornire un nome file con estensione durante la creazione di una notifica locale (ad esempio, sound.caf). Se questa estensione non viene fornita, viene utilizzato l&#39;audio predefinito.
+Per l&#39;audio personalizzato su iOS, è necessario specificare un nome di file con estensione durante la creazione di una notifica locale (ad esempio, sound.caf). Se questa estensione non viene fornita, viene utilizzato il suono predefinito.
 
-## I collegamenti profondi sono supportati nei messaggi in-app? {#inapp-deeplinks}
+## I collegamenti diretti sono supportati nei messaggi in-app? {#inapp-deeplinks}
 
-Sì, i collegamenti profondi sono supportati nei messaggi in-app. I collegamenti profondi dovrebbero includere:
+Sì, i collegamenti diretti sono supportati nei messaggi in-app. I collegamenti diretti devono includere:
 
-* che indica che il tracciamento della consegna deve essere disabilitato per far funzionare i collegamenti profondi.
-* Applicare un flyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull’integrazione di Branch e Adobe Campaign Standard, consulta questo [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* linguaggio che indica che il tracciamento della consegna deve essere disabilitato affinché i collegamenti diretti funzionino.
+* Appsflyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull’integrazione di Branch e Adobe Campaign Standard, consulta questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ## È possibile attivare un messaggio in-app quando l’utente avvia l’app da una notifica push? {#inapp-push-trigger}
 
-Sì, questi messaggi sono anche denominati messaggi a catena margherita. Segui la procedura seguente:
+Sì, questi messaggi sono anche denominati messaggi a catena. Segui la procedura seguente:
 
-1. Crea un messaggio in-app.
+1. Creare un messaggio in-app.
 
-1. Definisci un evento personalizzato e selezionalo come attivatore di eventi per questo IAM, ad esempio &quot;Trigger da push di anteprima in caduta&quot;.
+1. Definisci un evento personalizzato e selezionalo come attivatore di evento per questo IAM. Esempio: &quot;Trigger da push di anteprima autunno&quot;.
 
-1. Quando crei il messaggio push, definisci una variabile personalizzata il cui valore può essere impostato come evento utilizzato per attivare IAM, ad esempio Key = &quot;inappkey&quot; e value = &quot;Trigger from fall preview Push&quot; (Attiva da push di anteprima).
+1. Quando crei il messaggio push, definisci una variabile personalizzata il cui valore può essere impostato come evento utilizzato per attivare IAM. Esempio: Chiave = &quot;inappkey&quot; e valore = &quot;Trigger from fall preview Push&quot;.
 
-1. Nel codice dell’app mobile, implementa l’attivatore evento come segue:
+1. Nel codice dell’app mobile, implementa il trigger di evento come segue:
 
    ![](assets/faq_inapp_2.png)

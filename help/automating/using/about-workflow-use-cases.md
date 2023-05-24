@@ -16,9 +16,9 @@ ht-degree: 72%
 
 # Informazioni sui casi d’uso dei flussi di lavoro {#about-workflow-use-cases}
 
-In questa sezione troverai vari casi d’uso che sfruttano le funzionalità dei flussi di lavoro di Campaign.
+In questa sezione troverai diversi casi d’uso che sfruttano le funzionalità dei flussi di lavoro di Campaign.
 
-che consentono di scoprire i diversi contesti in cui i flussi di lavoro possono essere utilizzati e rispondere alle tue esigenze.
+Consentono di scoprire i diversi contesti in cui è possibile utilizzare i flussi di lavoro e di rispondere alle esigenze dell&#39;utente.
 
 ## Consegne {#deliveries}
 
@@ -62,5 +62,5 @@ che consentono di scoprire i diversi contesti in cui i flussi di lavoro possono 
 * [Esportazione di profili in un file esterno](../../automating/using/exporting-profiles-in-file.md)
 * [Aggiornamento di più stati di abbonamento da un file](../../automating/using/updating-subscriptions-from-file.md)
 * [Abbonamento di profili da un file a un servizio specifico](../../automating/using/subscribing-profiles-from-file.md)
-* [Importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [Crittografia ed esportazione di dati utilizzando una chiave installata sul Pannello di controllo Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Importazione di dati crittografati tramite una chiave generata dal Pannello di controllo Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Crittografia ed esportazione di dati mediante una chiave installata nel Pannello di controllo Campaign](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

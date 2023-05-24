@@ -25,14 +25,14 @@ Puoi controllare un flusso di lavoro direttamente dall’API REST tramite una ri
 >
 >Se l’ID del flusso di lavoro viene modificato in Adobe Campaign, la richiesta API non funzionerà più.
 
-Sono disponibili quattro comandi di esecuzione per controllare un flusso di lavoro:
+Per controllare un flusso di lavoro sono disponibili quattro comandi di esecuzione:
 
 * Inizio
 * Pausa
 * Riprendi
 * Interruzione
 
-Per ulteriori informazioni sui comandi di esecuzione, consulta la [Documentazione di Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Per ulteriori informazioni sui comandi di esecuzione, consultare [Documentazione di Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni sui comandi di esecuzione, consulta la [Documentazion
 
    <!-- + réponse -->
 
-* Interrompi un flusso di lavoro.
+* Interrompere un flusso di lavoro.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \

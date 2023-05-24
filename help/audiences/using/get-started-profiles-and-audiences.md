@@ -34,15 +34,15 @@ Gestisci le autorizzazioni e il consenso dei clienti utilizzando i servizi e le 
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
-Quando crei campagne o messaggi, puoi specificare il target delle consegne selezionando tra i contatti nel database di Campaign, utilizzando criteri semplici o avanzati o selezionando i tipi di pubblico.
+Quando crei campagne o messaggi, puoi specificare la destinazione delle consegne selezionando i contatti dal database di Campaign, utilizzando criteri semplici o avanzati, oppure selezionando i tipi di pubblico.
 
-Identifica i clienti in modo più efficace su tutti i canali utilizzando **profili cliente integrati**, **segmenti personalizzati** e **gruppi di controllo**. Quando conosci i tuoi clienti, interessi, dati demografici e preferenze di canale, è più facile creare esperienze personalizzate che vengano notate.
+Identificare i clienti in modo più efficace su tutti i canali utilizzando **Integrated customer profiles**, **segmenti personalizzati** e **gruppi di controllo**. Quando conosci i tuoi clienti, i tuoi interessi, i dati demografici e le preferenze di canale, è più semplice creare esperienze personalizzate che vengono notate.
 
-Adobe Campaign crea profili cliente avanzati in tempo reale, consentendo di distribuire offerte più pertinenti e personalizzate in base al cambiamento delle preferenze del cliente. Inoltre, Adobe Campaign integra funzionalità avanzate di analisi, gestione dei dati e targeting per creare un pubblico.
+Adobe Campaign crea profili cliente avanzati in tempo reale, consentendoti di fornire offerte più pertinenti e personalizzate in base alle modifiche apportate alle preferenze del cliente. Inoltre, Adobe Campaign integra funzionalità avanzate di analisi, gestione dei dati e targeting per creare tipi di pubblico.
 
-**Profili** sono singoli contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie affinché tale profilo sia mirato, qualificato e monitorato individualmente: Adobe Campaign può tenere traccia di ogni interazione sia dai canali online che offline e unirla in un unico profilo.
+**Profili** sono singoli contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie per eseguire il targeting, la qualificazione e la tracciabilità individuale di quel profilo: Adobe Campaign può tracciare ogni interazione da canali online e offline e unirla in un unico profilo.
 
-**Tipi di pubblico** sono elenchi di profili basati su un criterio specifico o un insieme di criteri. Utilizzando i flussi di lavoro e l’editor delle query, puoi creare tipi di pubblico di destinazione dalle campagne di marketing, in base alle informazioni disponibili, alle loro attività e alla cronologia di marketing. Questo ti consente di filtrare profili abbonati, campionare o creare tipi di pubblico target in base a un numero illimitato di criteri.
+**Tipi di pubblico** sono elenchi di profili basati su un criterio specifico o su un insieme di criteri. Utilizzando i flussi di lavoro e l’editor delle query, puoi creare tipi di pubblico target delle campagne di marketing, in base alle informazioni a disposizione, alle attività e alla cronologia di marketing. Questo ti consente di filtrare i profili abbonati, campionare o creare tipi di pubblico target in base a un numero illimitato di criteri.
 
 Maggiori informazioni:
 
@@ -58,15 +58,15 @@ Maggiori informazioni:
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-Prima di iniziare a inviare messaggi a un contatto, assicurati di ottenere la loro autorizzazione. In caso contrario, le e-mail potrebbero essere contrassegnate come spam e questo avrà un impatto sul recapito messaggi della piattaforma. Per creare un database di profili integro, proteggi questa autorizzazione come primo passaggio.
+Prima di iniziare a inviare messaggi a un contatto, è necessario assicurarsi di ottenere le relative autorizzazioni. In caso contrario, le e-mail potrebbero essere contrassegnate come spam e questo influirà sul recapito messaggi della piattaforma. Per assicurarti di creare un database dei profili integro, devi prima proteggere questa autorizzazione.
 
-Con Campaign, ti consigliamo di utilizzare **meccanismi di consenso e rinuncia facili** attraverso [servizi](../../audiences/using/creating-a-service.md)e [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md) per aggiornare le informazioni di contatto e aumentare il database.
+Con Campaign, ti consigliamo di utilizzare **meccanismi di consenso e rinuncia facili** da a [servizi](../../audiences/using/creating-a-service.md), e [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md) per aggiornare le informazioni di contatto e ampliare il database.
 
-Fornitura **collegamenti di annullamento dell’abbonamento** nei messaggi, i profili verranno aggiunti al  elenco Bloccati, se necessario, e quindi miglioreranno il recapito messaggi della piattaforma. Per ulteriori informazioni sulla gestione dei elenco Bloccati, consulta [Informazioni sul consenso e diniego in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornitura **collegamenti di annullamento abbonamento** nei messaggi consentirà l’aggiunta di Profili al inserisco nell&#39;elenco Bloccati di, quando necessario, e quindi di migliorare il recapito messaggi nella piattaforma. Per ulteriori informazioni sulla gestione del inserisco nell&#39;elenco Bloccati di lavoro, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->È necessario rispettare le [Criteri d’uso accettabili per Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>È necessario rispettare le [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 Maggiori informazioni:
 
@@ -77,11 +77,11 @@ Maggiori informazioni:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign offre una serie di strumenti per aiutarti con **Conformità alla privacy** per RGPD, CCPA e altre leggi sulla privacy.
+Adobe Campaign offre una serie di strumenti per aiutarti con le tue **Conformità in materia di privacy** per GDPR, CCPA e altre leggi sulla privacy.
 
-Ulteriori informazioni [articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla gestione della privacy e le funzioni che forniamo per gestire il diritto di accesso, il diritto all’oblio, il consenso, la conservazione dei dati e i ruoli degli utenti.
+Ulteriori informazioni [questo articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla gestione della privacy e sulle funzioni fornite per gestire il diritto di accesso, il diritto all’oblio, il consenso, la conservazione dei dati e i ruoli degli utenti.
 
-Privacy e consenso in Campaign e come gestirli sono presentati in [questa sezione](../../start/using/privacy.md). Troverai anche le best practice, per aiutarti con la conformità in materia di privacy quando utilizzi il nostro servizio.
+La privacy e il consenso in Campaign e come gestirli sono presentati in [questa sezione](../../start/using/privacy.md). Troverai anche le best practice, per aiutarti con la conformità in materia di privacy quando utilizzi il nostro servizio.
 
 ## Risorse aggiuntive
 

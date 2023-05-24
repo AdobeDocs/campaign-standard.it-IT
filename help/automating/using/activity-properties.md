@@ -24,55 +24,55 @@ Ogni attività ha un **[!UICONTROL General]** , che ti consente di modificare i 
 
 ![](assets/activity-properties.png)
 
-La **[!UICONTROL Properties]** La scheda ti consente di modificare i parametri globali dell’attività, in particolare l’etichetta e l’ID. La configurazione di questa scheda è facoltativa.
+Il **[!UICONTROL Properties]** Questa scheda ti consente di modificare i parametri globali dell’attività, in particolare l’etichetta e l’ID. La configurazione di questa scheda è facoltativa.
 
 ![](assets/activity-properties2.png)
 
 ## Gestione delle transizioni in uscita di un’attività {#managing-an-activity-s-outbound-transitions}
 
-Per impostazione predefinita, alcune attività non hanno una transizione in uscita. Puoi aggiungerne uno dal **[!UICONTROL Transitions]** o da **[!UICONTROL Properties]** per applicare altri processi alla popolazione nello stesso flusso di lavoro.
+Per impostazione predefinita, alcune attività non hanno una transizione in uscita. Puoi aggiungerne uno dalla sezione **[!UICONTROL Transitions]** o dalla scheda dell’attività **[!UICONTROL Properties]** per applicare altri processi alla popolazione nello stesso flusso di lavoro.
 
 A seconda delle attività, puoi aggiungere diversi tipi di transizioni in uscita:
 
 * **Transizione standard**: popolazione calcolata dall’attività
-* **Transizione senza popolazione**: questo tipo di transizione in uscita può essere aggiunto per continuare il flusso di lavoro e non contiene alcun gruppo per non utilizzare spazio inutile sul sistema.
-* **Rifiuti**: popolazione respinta. Ad esempio, se i dati in entrata dell’attività non potevano essere elaborati perché errati o incompleti.
+* **Transizione senza popolazione**: è possibile aggiungere questo tipo di transizione in uscita per continuare il flusso di lavoro e non contiene alcuna popolazione per non consumare spazio inutile sul sistema.
+* **Rifiuti**: popolazione rifiutata. Ad esempio, se i dati in entrata dell’attività non possono essere elaborati perché errati o incompleti.
 * **Complemento**: popolazione rimanente dopo l’esecuzione dell’attività. Ad esempio, se un’attività di segmentazione è configurata per salvare solo una percentuale del gruppo in entrata.
 
-Se del caso, specificare un **[!UICONTROL Segment code]** per la transizione in uscita dell’attività. Questo codice del segmento ti consente di identificare da dove provengono i sottoinsiemi dalla popolazione target e può, in seguito, essere utilizzato a scopo di personalizzazione dei messaggi.
+Se del caso, specificare: **[!UICONTROL Segment code]** per la transizione in uscita dell’attività. Questo codice di segmento ti consente di identificare da dove provengono i sottoinsiemi della popolazione target e può, in seguito, servire a scopo di personalizzazione dei messaggi.
 
-## Opzioni di esecuzione delle attività {#activity-execution-options}
+## Opzioni di esecuzione attività {#activity-execution-options}
 
-Nella schermata delle proprietà dell’attività, è presente un’ **[!UICONTROL Advanced options]** che ti consente di definire la modalità di esecuzione e il comportamento dell’attività in caso di errori.
+Nella schermata delle proprietà dell’attività è **[!UICONTROL Advanced options]** che consente di definire la modalità di esecuzione dell’attività e il comportamento in caso di errori.
 
-Per accedere a queste opzioni, seleziona un’attività in un flusso di lavoro, quindi aprila utilizzando la ![](assets/edit_darkgrey-24px.png) dalla barra delle azioni.
+Per accedere a queste opzioni, seleziona un’attività in un flusso di lavoro, quindi aprila utilizzando ![](assets/edit_darkgrey-24px.png) dalla barra delle azioni.
 
 ![](assets/wkf_advanced_parameters.png)
 
-La **[!UICONTROL Execution]** consente di definire l’azione da eseguire all’avvio dell’attività. Sono disponibili tre opzioni:
+Il **[!UICONTROL Execution]** consente di definire l&#39;azione da eseguire all&#39;avvio dell&#39;attività. Sono disponibili tre opzioni:
 
 * **Normale**: l’attività viene eseguita normalmente.
-* **Abilita ma non esegui**: l’attività viene sospesa e di conseguenza anche tutti i processi futuri che seguono. Questa funzione può rivelarsi utile se desideri essere presente all’avvio dell’attività.
-* **Non abilitare**: l’attività non viene eseguita e, di conseguenza, non vengono eseguite tutte le attività successive (nello stesso ramo).
+* **Attiva ma non esegui**: l’attività viene sospesa e, di conseguenza, anche i processi futuri successivi. Questa funzione può rivelarsi utile se si desidera essere presenti all&#39;avvio dell&#39;attività.
+* **Non abilitare**: l’attività non viene eseguita e, di conseguenza, non tutte le attività che seguono (nello stesso ramo).
 
-La **[!UICONTROL In case of error]** consente di specificare l’azione da eseguire in caso di errore nell’attività. Sono disponibili due opzioni:
+Il **[!UICONTROL In case of error]** consente di specificare l’azione da eseguire in caso di errore dell’attività. Sono disponibili due opzioni:
 
-* **Sospendi il processo**: il flusso di lavoro viene sospeso automaticamente. Lo stato del flusso di lavoro viene quindi **Erroneo** e il colore associato diventa rosso. Una volta risolto il problema, riavvia il flusso di lavoro.
-* **Ignora**: l’attività non viene eseguita e, di conseguenza, nessuna delle attività che la seguono (nello stesso ramo). Questo può rivelarsi utile per le attività ricorrenti. Se il ramo dispone di una pianificazione posizionata a monte, questa deve essere attivata alla data di esecuzione successiva.
+* **Sospendi il processo**: il flusso di lavoro viene sospeso automaticamente. Lo stato del flusso di lavoro è quindi **Errato** e il colore associato diventa rosso. Una volta risolto il problema, riavvia il flusso di lavoro.
+* **Ignora**: l’attività non viene eseguita e, di conseguenza, non esiste alcuna delle attività che la seguono (nello stesso ramo). Ciò può rivelarsi utile per attività ricorrenti. Se il ramo dispone di un modulo di pianificazione posizionato a monte, questo dovrebbe attivarsi alla data di esecuzione successiva.
 
-La **[!UICONTROL Behavior]** consente di definire la procedura da seguire se vengono utilizzate attività asincrone. Sono disponibili due opzioni:
+Il **[!UICONTROL Behavior]** consente di definire la procedura da seguire se vengono utilizzate attività asincrone. Sono disponibili due opzioni:
 
-* **Attività multiple autorizzate**: è possibile eseguire più attività contemporaneamente anche se la prima non è stata completata.
-* **L&#39;attività corrente ha priorità**: una volta che un compito è in corso, questo ha la priorità. Fino a quando un&#39;attività è ancora in corso, nessun&#39;altra attività verrà eseguita.
+* **Più attività autorizzate**: è possibile eseguire più attività contemporaneamente anche se la prima non è stata completata.
+* **L&#39;attività corrente ha la priorità**: quando un’attività è in corso, ha la priorità. Se un&#39;attività è ancora in corso, non verrà eseguita alcuna altra attività.
 
-La **[!UICONTROL Max. execution duration]** consente di specificare una durata, ad esempio &quot;30&quot; o &quot;1h&quot;. Se l’attività non viene completata dopo la scadenza della durata specificata, viene attivato un avviso. Questo non ha alcun impatto sul funzionamento del flusso di lavoro.
+Il **[!UICONTROL Max. execution duration]** consente di specificare una durata, ad esempio &quot;30s&quot; o &quot;1h&quot;. Se l’attività non viene completata dopo la scadenza della durata specificata, viene attivato un avviso. Questo non ha alcun impatto sul funzionamento del flusso di lavoro.
 
-La **[!UICONTROL Affinity]** consente di forzare l’esecuzione di un flusso di lavoro o di un’attività del flusso di lavoro su un determinato computer. A questo scopo, devi specificare una o più affinità per il flusso di lavoro o l’attività in questione.
+Il **[!UICONTROL Affinity]** consente di forzare l’esecuzione di un flusso di lavoro o di un’attività del flusso di lavoro su un determinato computer. A questo scopo, devi specificare una o più affinità per il flusso di lavoro o l’attività in questione.
 
-La **[!UICONTROL Time zone]** consente di selezionare il fuso orario dell’attività. Adobe Campaign consente di gestire le differenze di tempo tra più paesi nella stessa istanza. L’impostazione applicata viene configurata al momento della creazione dell’istanza.
+Il **[!UICONTROL Time zone]** consente di selezionare il fuso orario dell’attività. Adobe Campaign consente di gestire le differenze di tempo tra più paesi nella stessa istanza. L’impostazione applicata viene configurata al momento della creazione dell’istanza.
 
 >[!NOTE]
 >
->Per impostazione predefinita, se non è selezionato alcun fuso orario, l’attività utilizza il fuso orario definito nelle proprietà del flusso di lavoro.
+>Per impostazione predefinita, se non è selezionato alcun fuso orario, l’attività utilizzerà il fuso orario definito nelle proprietà del flusso di lavoro.
 
-La **Commento** è un campo gratuito che consente di aggiungere una nota.
+Il **Commento** campo libero che consente di aggiungere una nota.

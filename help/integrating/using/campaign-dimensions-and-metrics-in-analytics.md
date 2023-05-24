@@ -1,6 +1,6 @@
 ---
 title: Dimensioni e metriche di Campaign in Analytics
-description: Scopri le diverse dimensioni che puoi trovare in Adobe Analytics per iniziare a monitorare le consegne delle e-mail da Adobe Campaign.
+description: Scopri le diverse dimensioni che puoi trovare in Adobe Analytics per iniziare a tracciare le consegne e-mail da Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -17,9 +17,9 @@ ht-degree: 8%
 
 # Dimensioni e metriche di Campaign in Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
-L’integrazione di Adobe Campaign e Adobe Analytics consente di tenere traccia del successo delle consegne e-mail direttamente in Adobe Analytics.
+L’integrazione tra Adobe Campaign e Adobe Analytics consente di monitorare il successo delle consegne di e-mail direttamente in Adobe Analytics.
 
-Campaign **[!UICONTROL dimensions]** in Analytics sono elencati di seguito:
+Campagna **[!UICONTROL dimensions]** trovati in Analytics sono elencati di seguito:
 
 <table> 
  <thead> 
@@ -31,15 +31,15 @@ Campaign **[!UICONTROL dimensions]** in Analytics sono elencati di seguito:
  <tbody> 
   <tr> 
    <td> ID campagna<br /> </td> 
-   <td> Nome interno di Campaign visualizzato in Campaign<br /> </td> 
+   <td> Nome interno della campagna visualizzato in Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> Etichetta della campagna<br /> </td> 
-   <td> Etichetta di Campaign come visualizzata in Campaign<br /> </td> 
+   <td> Etichetta della campagna come visualizzata in Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> ID consegna<br /> </td> 
-   <td> Nome interno della consegna, come mostrato in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente pianificata per l’invio di consegne figlio ogni settimana. DM2, DM3 e DM4 vengono inviati le prime tre settimane. La dimensione ID consegna visualizza quindi i risultati per ogni consegna, ovvero da DM1 a DM4. <br /> </td> 
+   <td> Nome interno della consegna, come visualizzato in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente programmata per inviare consegne secondarie ogni settimana. DM2, DM3 e DM4 vengono inviati per le prime tre settimane. La dimensione ID consegna visualizzerà quindi i risultati per ogni consegna, ovvero da DM1 a DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Etichetta consegna<br /> </td> 
@@ -47,16 +47,16 @@ Campaign **[!UICONTROL dimensions]** in Analytics sono elencati di seguito:
   </tr> 
   <tr> 
    <td> ID consegna eseguita<br /> </td> 
-   <td> Nome interno della consegna, come mostrato in Campaign. Riguarda solo la consegna in esecuzione in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente pianificata per l’invio di consegne figlio ogni settimana. DM2, DM3 e DM4 vengono inviati le prime tre settimane. La dimensione ID consegna eseguita visualizza quindi i risultati per le consegne eseguite, ovvero le consegne figlio DM2, DM3 e DM4. <br /> </td> 
+   <td> Nome interno della consegna, come visualizzato in Campaign. Questo riguarda solo la consegna in esecuzione in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente programmata per inviare consegne secondarie ogni settimana. DM2, DM3 e DM4 vengono inviati per le prime tre settimane. La dimensione ID consegna eseguita visualizza quindi i risultati per le consegne eseguite, ovvero le consegne figlie DM2, DM3 e DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Etichetta di consegna eseguita<br /> </td> 
-   <td> Etichetta della consegna come visualizzata in Campaign. Riguarda solo la consegna in esecuzione in Campaign.<br /> </td> 
+   <td> Etichetta consegna eseguita<br /> </td> 
+   <td> Etichetta della consegna come visualizzata in Campaign. Questo riguarda solo la consegna in esecuzione in Campaign.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campaign **[!UICONTROL metrics]** in Analytics sono elencati di seguito:
+Campagna **[!UICONTROL metrics]** trovati in Analytics sono elencati di seguito:
 
 <table> 
  <thead> 
@@ -71,8 +71,8 @@ Campaign **[!UICONTROL metrics]** in Analytics sono elencati di seguito:
    <td> Numero di volte in cui è stato fatto clic su un contenuto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Consegnato<br /> </td> 
-   <td> Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.<br /> </td> 
+   <td> Consegnati<br /> </td> 
+   <td> Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Aperto<br /> </td> 
@@ -84,7 +84,7 @@ Campaign **[!UICONTROL metrics]** in Analytics sono elencati di seguito:
   </tr> 
   <tr> 
    <td> Rimbalzi totali<br /> </td> 
-   <td> Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br /> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Apertura univoca<br /> </td> 
@@ -95,7 +95,7 @@ Campaign **[!UICONTROL metrics]** in Analytics sono elencati di seguito:
    <td> Numero di destinatari che hanno fatto clic su un contenuto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Annulla sottoscrizione<br /> </td> 
+   <td> Annullamento iscrizione<br /> </td> 
    <td> Numero di clic sul collegamento di annullamento dell’abbonamento.<br /> </td> 
   </tr> 
  </tbody> 

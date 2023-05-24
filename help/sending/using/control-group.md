@@ -155,7 +155,7 @@ Una volta inviata la consegna, cosa puoi fare con il gruppo di controllo?
 
 >[!IMPORTANT]
 >
->Per accedere ai registri di consegna, devi disporre di un [Ruolo amministratore](../../administration/using/users-management.md#functional-administrators) e di far parte del **[!UICONTROL All]** [unità organizzativa](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>Per accedere ai registri di consegna, è necessario disporre di [Ruolo di amministratore](../../administration/using/users-management.md#functional-administrators) e di far parte del **[!UICONTROL All]** [unità organizzativa](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Controllo dei registri di consegna {#checking-logs}
 

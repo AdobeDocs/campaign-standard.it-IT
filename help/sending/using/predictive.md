@@ -17,21 +17,21 @@ ht-degree: 56%
 
 # Capacità di previsione del coinvolgimento degli utenti {#journey-ai}
 
-Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ognuno. Basata sull’intelligenza artificiale e sull’apprendimento automatico, l’ottimizzazione del tempo di invio e il punteggio di coinvolgimento predittivo di Adobe Campaign possono analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base a metriche di coinvolgimento storiche.
+Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ognuno. Grazie all’intelligenza artificiale e all’apprendimento automatico, l’ottimizzazione del tempo di invio e il punteggio di coinvolgimento predittivo di Adobe Campaign possono analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e i tassi di abbandono probabili in base a metriche di coinvolgimento storiche.
 
 >[!IMPORTANT]
 >
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. La sua implementazione richiede l’intervento della Consulenza Adobe. Per maggiori informazioni, contatta un rappresentante Adobe di fiducia.
 
-Adobe Campaign offre due nuovi modelli di apprendimento automatico: **Ottimizzazione predittiva del tempo di invio** e **Punteggio di coinvolgimento predittivo**. Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
+Adobe Campaign offre due nuovi modelli di apprendimento automatico: **Ottimizzazione del tempo di invio predittivo** e **Punteggio di coinvolgimento predittivo**. Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
 
-* **Ottimizzazione predittiva del tempo di invio** prevede qual è il tempo di invio migliore per ciascun profilo destinatario per quanto riguarda l’apertura delle e-mail o i clic e l’apertura dei messaggi push. Per ciascun profilo destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e in quale giorno feriale si possono ottenere risultati ottimali.
+* **Ottimizzazione predittiva del tempo di invio** prevede qual è il tempo di invio migliore per ciascun profilo destinatario per quanto riguarda l’apertura di e-mail o clic e l’apertura di messaggi push. Per ciascun profilo destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e in quale giorno feriale si possono ottenere risultati ottimali.
 
-* **Punteggio predittivo del coinvolgimento**: prevede la probabilità che un destinatario si interessi a un messaggio e la probabilità che lo rifiuti (cancellando l’abbonamento) entro i successivi 7 giorni dall’invio dell’e-mail. Le probabilità sono ulteriormente suddivise in blocchi in base al livello di coinvolgimento previsto con i contenuti: alto, medio o basso. Questi modelli forniscono anche il grado percentile del rischio di annullamento sottoscrizione per i clienti per capire dove il grado di un determinato cliente è in relazione ad altri.
+* **Punteggio predittivo di coinvolgimento**: prevede la probabilità che un destinatario sia interessato a un messaggio e la probabilità che lo rifiuti (cancellando la sottoscrizione) entro i 7 giorni successivi al prossimo invio dell’e-mail. Le probabilità sono ulteriormente suddivise in contenitori in base al livello di coinvolgimento previsto con il contenuto: alto, medio o basso. Questi modelli forniscono anche il livello percentile di rischio di annullamento dell’abbonamento affinché i clienti possano capire qual è il livello di un determinato cliente in relazione agli altri.
 
 ## Ottimizzazione del tempo di invio predittivo{#predictive-send-time}
 
-Predictive Send-Time Optimization prevede qual è il tempo di invio migliore per ciascun profilo destinatario per quanto riguarda l’apertura delle e-mail o i clic e l’apertura dei messaggi push. Per ciascun profilo destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e in quale giorno feriale si possono ottenere risultati ottimali.
+L’ottimizzazione predittiva del tempo di invio prevede qual è il tempo di invio migliore per ciascun profilo destinatario per quanto riguarda l’apertura delle e-mail o i clic e l’apertura dei messaggi push. Per ciascun profilo destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e in quale giorno feriale si possono ottenere risultati ottimali.
 
 Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due modelli secondari:
 
@@ -45,7 +45,7 @@ Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due model
 
 Dettagli di uscita
 
-* Calcola l’ora migliore del giorno per l’invio di un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad esempio: 9:00, 10:00, 11:00)
+* Calcola l’ora del giorno migliore per inviare un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad esempio: 9:00, 10:00, 11:00)
 * Il modello indica il giorno migliore della settimana e l’ora migliore di quel determinato giorno
 * Ogni tempo ottimale viene calcolato due volte: una volta per massimizzare il tasso di apertura e una per massimizzare il click rate
 * Sono forniti 16 campi (14 per ogni giorno della settimana e 2 per l’intera settimana):
@@ -57,8 +57,8 @@ Dettagli di uscita
 * L’orario migliore per inviare un’e-mail in modo da ottimizzare i clic di domenica - valori compresi tra 0 e 23
 * L’orario migliore per inviare un’e-mail in modo da ottimizzare l’apertura dei messaggi di domenica - valori compresi tra 0 e 23
 * ...
-* Il giorno migliore per inviare un’e-mail in modo da ottimizzare l’apertura dei messaggi per l’intera settimana - Da lunedì a domenica
-* L’orario migliore per inviare un’e-mail in modo da ottimizzare l’apertura dei messaggi per l’intera settimana - valori compresi tra 0 e 23
+* Giorno migliore per inviare un’e-mail in modo da ottimizzare l’apertura dei messaggi per tutta la settimana - da lunedì a domenica
+* L’orario migliore per inviare un’e-mail in modo da ottimizzare l’apertura dei messaggi per tutta la settimana - valori compresi tra 0 e 23
 
 >[!NOTE]
 >
@@ -103,15 +103,15 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 ## Valutazione del coinvolgimento predittivo {#predictive-scoring}
 
-Il Punteggio di coinvolgimento predittivo prevede la probabilità che un destinatario si interessi a un messaggio e la probabilità che lo rifiuti (cancellando l’abbonamento) entro i successivi 7 giorni dall’invio dell’e-mail.
+Il punteggio di coinvolgimento predittivo prevede la probabilità che un destinatario sia interessato a un messaggio, ma anche la probabilità che questo annulli l’abbonamento entro i 7 giorni successivi al prossimo invio dell’e-mail.
 
-Le probabilità sono ulteriormente suddivise in blocchi in base al livello di coinvolgimento previsto con i contenuti: alto, medio o basso. Questi modelli forniscono anche il grado percentile del rischio di annullamento sottoscrizione per i clienti per capire dove il grado di un determinato cliente è in relazione ad altri.
+Le probabilità sono ulteriormente suddivise in contenitori in base al livello di coinvolgimento previsto con il contenuto: alto, medio o basso. Questi modelli forniscono anche il livello percentile di rischio di annullamento dell’abbonamento affinché i clienti possano capire qual è il livello di un determinato cliente in relazione agli altri.
 
-Il Punteggio di coinvolgimento predittivo consente di:
+Il punteggio di coinvolgimento predittivo consente di:
 
-* **Selezionare un pubblico**: utilizzando l’attività query, puoi selezionare il pubblico con cui interagire con un messaggio specifico
-* **Escludere un pubblico**: utilizzando l’attività query, puoi rimuovere il pubblico che ha più probabilità di annullare l’iscrizione
-* **Personalizza**: personalizzare i messaggi in base al livello di coinvolgimento (gli utenti altamente coinvolti riceveranno un messaggio diverso da quelli non coinvolti)
+* **Selezionare un pubblico**: utilizzando l’attività di query, puoi selezionare il pubblico con cui interagire con un messaggio specifico
+* **Escludere un pubblico**: utilizzando l’attività di query, puoi rimuovere il pubblico a cui è più probabile annullare l’abbonamento
+* **Personalizzazione**: personalizza i messaggi in base al livello di coinvolgimento (gli utenti altamente coinvolti riceveranno un messaggio diverso da quelli non coinvolti)
 
 Questo modello utilizza più punteggi per indicare:
 

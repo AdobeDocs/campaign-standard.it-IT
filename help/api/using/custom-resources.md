@@ -17,21 +17,21 @@ ht-degree: 5%
 
 # Risorse personalizzate {#custom-resources}
 
-Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. È possibile arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati o tabelle personalizzate, ad esempio tabelle di acquisto o di prodotti.
+Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. Puoi arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati o tabelle personalizzate, ad esempio tabelle di acquisto o di prodotti.
 
-Le risorse personalizzate sono accessibili tramite API che utilizzano **/profileAndServicesExt** e il nome della risorsa personalizzata.
+Le risorse personalizzate sono accessibili tramite API tramite **/profileAndServicesExt** e il nome della risorsa personalizzata.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Per le risorse non pronte all’uso, utilizza sempre la funzione <b>&quot;cus&quot;</b> prima del nome della risorsa.
+>Per le risorse che non sono pronte, utilizza sempre la <b>&quot;cus&quot;</b> prima del nome della risorsa.
 
-Puoi eseguire qualsiasi operazione con risorse personalizzate, purché collegate alla tabella Profilo . Ad esempio, consideriamo la struttura delle tabelle seguente:
+Puoi eseguire qualsiasi operazione con risorse personalizzate, purché siano collegate alla tabella Profilo. Ad esempio, consideriamo la struttura delle tabelle seguente:
 
-![testo alt](assets/cusresources.png)
+![testo alternativo](assets/cusresources.png)
 
-In tal caso, tutte le risorse del **Transazione**, **DettagliTransazione** e **Prodotto** le tabelle sono disponibili a condizione che siano collegate **Profilo** tabella.
+In tal caso, tutte le risorse provenienti da **Transazione**, **TransactionDetails** e **Prodotto** le tabelle sono disponibili purché siano collegate al **Profilo** tabella.
 
 <br/>
 
@@ -72,7 +72,7 @@ Restituisce l’elenco di tutte le risorse personalizzate collegate. Puoi quindi
 }
 ```
 
-Per ulteriori informazioni sull’estensione del modello dati, consulta la documentazione Campaign:
+Per ulteriori informazioni sull’estensione del modello dati, consulta la documentazione di Campaign:
 
 * [Concetti del modello dati](../../developing/using/data-model-concepts.md)
 * [Estensione dell’API](../../developing/using/about-extending-the-api.md)

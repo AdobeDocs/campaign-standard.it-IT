@@ -1,6 +1,6 @@
 ---
 title: Unione di due tipi di pubblico affinati
-description: Questo caso d’uso mostra l’unione di due attività Read audience .
+description: Questo caso d’uso mostra l’unione di due attività Read audience.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -26,5 +26,5 @@ Il flusso di lavoro è progettato come segue:
 
 * Una prima [Read audience](../../automating/using/read-audience.md) attività che recupera il pubblico di iscritti Gold e lo perfeziona selezionando solo i profili di età compresa tra i 18 e i 30 anni.
 * Una seconda attività **[!UICONTROL Read audience]** che recupera il pubblico di iscritti Silver e lo perfeziona selezionando solo i profili di età compresa tra i 18 e i 30 anni.
-* A [Union](../../automating/using/union.md) attività che unisce le popolazioni da entrambi **[!UICONTROL Read audiences]** attività in una popolazione finale.
-* Un [Email delivery](../../automating/using/email-delivery.md) attività che invia il messaggio e-mail alla popolazione proveniente dalla **[!UICONTROL Union]** attività.
+* A [Union](../../automating/using/union.md) attività che unisce le popolazioni di entrambi **[!UICONTROL Read audiences]** attività in un&#39;unica popolazione finale.
+* Un [Consegna e-mail](../../automating/using/email-delivery.md) attività che invia il messaggio e-mail ai gruppi provenienti da **[!UICONTROL Union]** attività.

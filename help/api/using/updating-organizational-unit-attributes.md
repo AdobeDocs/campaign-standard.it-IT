@@ -17,8 +17,8 @@ ht-degree: 11%
 
 # Aggiornamento degli attributi di un’unità organizzativa {#updating-organizational-unit-attributes}
 
-1. Esegui una richiesta di GET sul **orgUnitBase** risorsa per recuperare l’unità organizzativa PKey.
-1. Esegui una richiesta di PATCH sull’unità organizzativa, con gli attributi da aggiornare nel payload.
+1. Eseguire una richiesta GET su **orgUnitBase** per recuperare l&#39;unità organizzativa PKey.
+1. Esegui una richiesta PATCH sull’unità organizzativa, con gli attributi da aggiornare nel payload.
 
 <br/>
 
@@ -34,7 +34,7 @@ Recupera l’elenco delle unità organizzative.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce tutte le unità organizzative. Recuperare il PKey dell&#39;unità desiderata.
+Restituisce tutte le unità organizzative. Recuperate la PKey dell&#39;unità desiderata.
 
 ```
 {
@@ -50,7 +50,7 @@ Restituisce tutte le unità organizzative. Recuperare il PKey dell&#39;unità de
 },
 ```
 
-Esegui una richiesta di PATCH sull’unità organizzativa, con gli attributi da aggiornare nel payload.
+Esegui una richiesta PATCH sull’unità organizzativa, con gli attributi da aggiornare nel payload.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

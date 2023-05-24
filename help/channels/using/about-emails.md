@@ -18,13 +18,13 @@ ht-degree: 3%
 
 # Informazioni sulle e-mail{#about-emails}
 
-Il canale e-mail è uno dei canali principali di Adobe Campaign, che ti consente di pianificare e inviare e-mail personalizzate a destinazioni specifiche.
+Il canale e-mail è uno dei canali principali in Adobe Campaign, che ti consente di pianificare e inviare e-mail personalizzate a destinazioni specifiche.
 
 Puoi inviare diversi tipi di e-mail:
 
-* E-mail a invio singolo: e-mail di base che puoi inviare una volta a un target definito.
-* E-mail ricorrenti: invia regolarmente la stessa e-mail e aggrega ogni invio e ai relativi rapporti su base periodica. Un esempio comune è rappresentato da un’e-mail di compleanno. Le e-mail ricorrenti sono disponibili solo tramite flussi di lavoro.
-* E-mail di test A/B: testa fino a 3 versioni di un messaggio e-mail.
-* E-mail transazionali: e-mail unitarie attivate in base al comportamento dei clienti.
+* E-mail a invio singolo: e-mail di base che puoi inviare una volta a una destinazione definita.
+* E-mail ricorrenti: invia la stessa e-mail regolarmente e aggrega ogni invio e i relativi rapporti su base periodica. Un esempio comune è un’e-mail di compleanno. Le e-mail ricorrenti sono disponibili solo tramite flussi di lavoro.
+* E-mail per test A/B: verifica fino a 3 versioni di un’e-mail.
+* E-mail transazionali: e-mail unitarie che vengono attivate in base al comportamento dei clienti.
 
-Per scoprire le best practice per la creazione e l’invio di e-mail, consulta la [Best practice per le consegne](../../sending/using/delivery-best-practices.md) sezione .
+Per informazioni sulle best practice per la creazione e l’invio di e-mail, consulta la [Best practice per la consegna](../../sending/using/delivery-best-practices.md) sezione.

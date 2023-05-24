@@ -1,5 +1,5 @@
 ---
-title: Evento di annullamento sottoscrizione DataModel
+title: DataModel Unsubscription, evento
 description: Scopri il modello dati
 audience: developing
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 58%
 
 ---
 
-# Evento di annullamento sottoscrizione (nms:rtEvent)
+# Evento annullamento abbonamento (nms:rtEvent)
 
 ## Descrizione oggetto
 
@@ -65,7 +65,7 @@ ht-degree: 58%
 
 ## Filtri
 
-perEmail
+byEmail
 
 <table>
     <tr>

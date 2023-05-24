@@ -112,7 +112,7 @@ Adesso è configurata anche la seconda transizione.
 
 ## Creazione di consegne {#creating-deliveries}
 
-Poiché sono già state create due transizioni, ora devi aggiungere due tipi di consegne alle transizioni in uscita dell’attività Segmentazione: un [Email delivery](../../automating/using/email-delivery.md) attività e [SMS delivery](../../automating/using/sms-delivery.md) attività.
+Poiché sono già state create due transizioni, ora è necessario aggiungere due tipi di consegne alle transizioni in uscita dell’attività Segmentation: e [Consegna e-mail](../../automating/using/email-delivery.md) attività e un [SMS delivery](../../automating/using/sms-delivery.md) attività.
 
 Adobe Campaign ti consente di aggiungere le consegne a un flusso di lavoro. A questo scopo, seleziona una consegna dalla categoria **[!UICONTROL Channels]** della palette attività del flusso di lavoro.
 
@@ -120,7 +120,7 @@ Adobe Campaign ti consente di aggiungere le consegne a un flusso di lavoro. A qu
 
 Per creare un’attività Email delivery:
 
-1. Trascina e rilascia una [Email delivery](../../automating/using/email-delivery.md) attività dopo il primo segmento.
+1. Trascina e rilascia una [Consegna e-mail](../../automating/using/email-delivery.md) dopo il primo segmento.
 1. Fai doppio clic sull’attività per modificarla.
 1. Seleziona **[!UICONTROL Simple email]**.
 1. Seleziona **[!UICONTROL Add an outbound transition with the population]** e fai clic su **[!UICONTROL Next]**.
@@ -133,7 +133,7 @@ Per creare un’attività Email delivery:
 1. Immetti le proprietà dell’e-mail e fai clic su **[!UICONTROL Next]**.
 1. Per creare il layout del messaggio e-mail, seleziona **[!UICONTROL Use the Email Designer]**.
 1. Modifica e salva il contenuto.
-1. In **[!UICONTROL Schedule]** deseleziona la sezione del dashboard dei messaggi **[!UICONTROL Request confirmation before sending messages]** opzione .
+1. In **[!UICONTROL Schedule]** del dashboard dei messaggi, deseleziona la **[!UICONTROL Request confirmation before sending messages]** opzione.
 
 Per creare una consegna di SMS:
 
@@ -150,7 +150,7 @@ Una volta create e modificate le consegne, il flusso di lavoro è pronto per ess
 
 ## Esecuzione del flusso di lavoro {#running-the-workflow}
 
-Una volta avviato il flusso di lavoro, la popolazione target **[!UICONTROL Query]** l’attività verrà segmentata per ricevere una consegna e-mail o SMS.
+Una volta avviato il flusso di lavoro, la popolazione di destinazione viene **[!UICONTROL Query]** L’attività verrà segmentata per ricevere una consegna e-mail o SMS.
 
 Per eseguire il flusso di lavoro, fai clic sul pulsante **[!UICONTROL Start]** nella barra delle azioni.
 

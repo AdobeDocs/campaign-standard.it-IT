@@ -1,5 +1,5 @@
 ---
-title: Registri di tracciamento di DataModel
+title: Registri di tracciamento DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
@@ -44,7 +44,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>puntatoreTo</td>
+                  <td>pointerTo</td>
                   <td>PuntatoreA</td>
                   <td>stringa </td>
                   <td> </td>

@@ -34,8 +34,8 @@ Con l’attività **[!UICONTROL Enrichment]**, puoi sfruttare la transizione in 
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: Arricchimento dei dati del profilo con i dati contenuti in un file](../../automating/using/enriching-profile-data-file.md).
-* [Caso di utilizzo: Invio di un’e-mail con campi arricchiti](../../automating/using/sending-email-enriched-fields.md)
+* [Caso di utilizzo: arricchimento dei dati del profilo con i dati contenuti in un file](../../automating/using/enriching-profile-data-file.md).
+* [Caso di utilizzo: invio di un’e-mail con campi arricchiti](../../automating/using/sending-email-enriched-fields.md)
 
 ## Configurazione {#configuration}
 

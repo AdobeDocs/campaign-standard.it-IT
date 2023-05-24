@@ -29,9 +29,9 @@ Amplia il modello dati Campaign Standard con campi e risorse personalizzate e mo
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-I dati utilizzati da Campaign sono definiti tramite diverse risorse definite in un **modello dati predefinito**. Il modello dati visualizza una struttura SQL preconfigurata per un set di risorse correlate al marketing: consegna, pubblico, pagine di destinazione, profilo, ecc. A ciascuna risorsa sono associati dei filtri che consentono di navigare tra le varie risorse.
+I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in una **modello dati predefinito**. Il modello dati visualizza una struttura SQL predefinita per un set di risorse correlate al marketing: consegna, pubblico, pagine di destinazione, profilo e così via. A ogni risorsa sono associati dei filtri che ti consentono di navigare tra le diverse risorse.
 
-La **Diagnosi** consente di elencare gli oggetti tecnici generati da Campaign Standard: schemi di dati, pagine web, filtri, ecc., che consentono di monitorare il modello dati ed eventuali modifiche apportate al modello.
+Il **Diagnosi** Il menu ti consente di elencare gli oggetti tecnici generati da Campaign Standard: schemi di dati, pagine web, filtri, ecc., consentendoti di monitorare il modello di dati e qualsiasi modifica apportata allo stesso.
 
 Maggiori informazioni:
 
@@ -44,22 +44,22 @@ Maggiori informazioni:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard consente di: **Arricchire il modello dati predefinito** per creare risorse personalizzate (ad esempio per aggiungere tabelle Acquisto o Prodotto) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate di Campaign per ottimizzare la navigazione tramite le nuove risorse e i nuovi campi creati.
+Campaign Standard consente di: **Arricchire il modello dati predefinito** per creare risorse proprie (ad esempio per aggiungere tabelle Acquisto o Prodotto) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate di Campaign per ottimizzare la navigazione attraverso le nuove risorse e i nuovi campi creati.
 
-Inoltre, puoi **estendere le API REST di Campaign Standard** per esporre nei campi estesi delle API le risorse personalizzate Profili. Questo ti consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
+Inoltre, è possibile **estendere le API REST di Campaign Standard** per esporre nei campi estesi delle API i profili delle risorse personalizzate. Ciò ti consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
 Maggiori informazioni:
 
 * [Aggiunta o estensione di una risorsa](../../developing/using/key-steps-to-add-a-resource.md)
 * [Estensione dell’API](../../developing/using/about-extending-the-api.md)
-* [Caso di utilizzo: Estensione della risorsa profilo con un nuovo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [Caso di utilizzo: Estensione degli abbonamenti a una risorsa dell’applicazione](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [Caso d’uso: estensione della risorsa profilo con un nuovo campo](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+* [Caso di utilizzo: estensione delle sottoscrizioni a una risorsa dell’applicazione](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## Utilizzare le API {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Con le API di Campaign Standard, crea integrazioni per Adobe Campaign Standard e crea il tuo ecosistema interfacciando Campaign con il pannello di tecnologie che utilizzi. [Guida introduttiva alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
+Con le API Campaign Standard, crea integrazioni per Adobe Campaign Standard e crea il tuo ecosistema interfacciando Campaign con il pannello di tecnologie che utilizzi. [Guida introduttiva alle API REST di Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Risorse aggiuntive
 

@@ -18,7 +18,7 @@ ht-degree: 3%
 
 # Comandi di esecuzione {#execution-commands}
 
-Le icone nella barra delle azioni ti consentono di avviare, tracciare e modificare l’esecuzione di un flusso di lavoro. Vedi [Barra delle azioni](../../automating/using/workflow-interface.md#action-bar).
+Le icone nella barra delle azioni ti consentono di avviare, tracciare e modificare l’esecuzione di un flusso di lavoro. Consulta [Barra delle azioni](../../automating/using/workflow-interface.md#action-bar).
 
 ![](assets/wkf_execution_2.png)
 
@@ -26,42 +26,42 @@ Le azioni disponibili sono le seguenti:
 
 **Inizio**
 
-La ![](assets/play_darkgrey-24px.png) inizia l’esecuzione di un flusso di lavoro, che assume quindi **In corso** (blu). Se il flusso di lavoro è stato messo in pausa, viene ripreso, altrimenti viene avviato e le attività iniziali vengono quindi attivate.
+Il ![](assets/play_darkgrey-24px.png) inizia l’esecuzione di un flusso di lavoro, che quindi assume il **In corso** (blu). Se il flusso di lavoro è stato sospeso, viene ripreso, altrimenti viene avviato e le attività iniziali vengono quindi attivate.
 
 >[!NOTE]
 >
->L&#39;avvio è un processo asincrono: la richiesta viene salvata e verrà elaborata il prima possibile dal motore di esecuzione del flusso di lavoro.
+>L’avvio è un processo asincrono: la richiesta viene salvata e verrà elaborata il prima possibile dal motore di esecuzione del flusso di lavoro.
 
 **Pausa**
 
-La ![](assets/pause_darkgrey-24px.png) mette in pausa l’esecuzione del pulsante. Il flusso di lavoro assume le **Avviso** (giallo). Nessuna nuova attività verrà attivata finché non sarà ripresa, ma le operazioni in corso non saranno sospese.
+Il ![](assets/pause_darkgrey-24px.png) sospende l’esecuzione. Il flusso di lavoro assume **Avvertenza** (giallo). Non verranno attivate nuove attività finché non viene ripresa, ma le operazioni in corso non vengono sospese.
 
 **Interruzione**
 
-La ![](assets/stop_darkgrey-24px.png) il pulsante interrompe un flusso di lavoro in esecuzione, che assume quindi **Completato** (verde). Le operazioni in corso vengono interrotte, se possibile, e le importazioni o le query SQL in corso vengono immediatamente annullate. Non è possibile riprendere dal flusso di lavoro dalla stessa posizione in cui è stato interrotto.
+Il ![](assets/stop_darkgrey-24px.png) arresta un flusso di lavoro in esecuzione, che assume il **Completato** (verde). Le operazioni in corso vengono interrotte, se possibile, e le importazioni o le query SQL in corso vengono immediatamente annullate. Non è possibile riprendere dal flusso di lavoro dalla stessa posizione in cui è stato interrotto.
 
 **Riavvio**
 
-La ![](assets/pauseplay_darkgrey-24px.png) Il pulsante comporta l’arresto, quindi il riavvio di un flusso di lavoro. Nella maggior parte dei casi, questo consente di riavviare più rapidamente. Può anche essere utile automatizzare il riavvio una volta che l&#39;arresto richiede un certo tempo, perché il ![](assets/play_darkgrey-24px.png) è disponibile solo quando l&#39;arresto è efficace.
+Il ![](assets/pauseplay_darkgrey-24px.png) comporta l’arresto e il riavvio di un flusso di lavoro. Nella maggior parte dei casi, questo consente di riavviare il sistema più rapidamente. Può inoltre essere utile automatizzare il riavvio quando l&#39;arresto richiede un certo periodo di tempo, perché ![](assets/play_darkgrey-24px.png) è disponibile solo quando l&#39;interruzione è effettiva.
 
 Quando selezioni una o più attività in un flusso di lavoro, puoi eseguire altre azioni, ad esempio:
 
 **Esecuzione immediata**
 
-La ![](assets/pending_darkgrey-24px.png) avvia tutte le attività in sospeso selezionate il prima possibile.
+Il ![](assets/pending_darkgrey-24px.png) Il pulsante avvia tutte le attività in sospeso selezionate il prima possibile.
 
 **Esecuzione normale**
 
-La ![](assets/check_darkgrey-24px.png) il pulsante riattiva tutte le attività in pausa o disattivate.
+Il ![](assets/check_darkgrey-24px.png) riattiva tutte le attività in pausa o disattivate.
 
 **Esecuzione sospesa**
 
-La ![](assets/check_pause_darkgrey-24px.png) mette in pausa il flusso di lavoro nell’attività selezionata: questa attività e tutte quelle che la seguono (nello stesso ramo) non vengono eseguite.
+Il ![](assets/check_pause_darkgrey-24px.png) pulsante mette in pausa il flusso di lavoro nell’attività selezionata: questa attività e tutte quelle che la seguono (nello stesso ramo) non vengono eseguite.
 
 **Nessuna esecuzione**
 
-La ![](assets/checkdisable.png) consente di disattivare tutte le attività selezionate.
+Il ![](assets/checkdisable.png) disattiva tutte le attività selezionate.
 
 >[!NOTE]
 >
->Le azioni rapide ti consentono di accedere a diverse azioni relative a una particolare attività e vengono visualizzate quando selezioni un’attività.
+>Le azioni rapide consentono di accedere a diverse azioni relative a una particolare attività e vengono visualizzate quando si seleziona un’attività.

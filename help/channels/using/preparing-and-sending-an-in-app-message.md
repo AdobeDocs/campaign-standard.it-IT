@@ -60,7 +60,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
 1. Immetti le proprietà del messaggio in-app e seleziona la tua app mobile nel campo **[!UICONTROL Associate a Mobile App to a delivery]**. 
 
-   Se non trovi applicazioni nell’elenco a discesa, assicurati che le tue app mobili siano in una **Configurato** stato. Applicazioni in un **Pronto per la configurazione** lo stato non viene visualizzato nell’elenco. Per ulteriori informazioni sulla configurazione dell’app mobile, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   Se nell’elenco a discesa non è presente alcuna applicazione, assicurati che le tue applicazioni mobili si trovino in una **Configurato** stato. Applicazioni in un **Pronto per la configurazione** non verrà visualizzato nell&#39;elenco. Per ulteriori informazioni sulla configurazione dell’app mobile, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -91,7 +91,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
       Per ulteriori informazioni su Adobe Places, consulta la [documentazione su Places](https://experienceleague.adobe.com/docs/places/using/home.html).
    ![](assets/inapp_creating_4.png)
 
-1. Se utilizzi un **[!UICONTROL Analytics Events]**, gli eventi Adobe Analytics e Stato di visualizzazione verranno compilati automaticamente in base alle suite di rapporti configurate nell’estensione Analytics nell’interfaccia utente di raccolta dati, mentre gli eventi Dati contestuali devono essere aggiunti manualmente.
+1. Se usa un’ **[!UICONTROL Analytics Events]** Gli eventi, Adobe Analytics e Stato di visualizzazione verranno compilati automaticamente in base alle suite di rapporti configurate nell’estensione Analytics nell’interfaccia utente di Data Collection, mentre gli eventi Dati contestuali devono essere aggiunti manualmente.
 
    Tieni presente che tali eventi sono disponibili solo se disponi di una licenza Adobe Analytics.
 
@@ -99,7 +99,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
 1. Se utilizzi un trigger **[!UICONTROL Places]**, Dati contestuali di Places, Metadati personalizzati di Places o Tipo di evento Places verranno compilati automaticamente in base a tutte le librerie e ai relativi punti di interesse creati in Adobe Places.
 
-   Tieni presente che questo trigger verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell’estensione Luoghi nell’interfaccia utente Raccolta dati. Per ulteriori informazioni sull’estensione Places e su come installarla, consulta questa [documentazione](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Tieni presente che questo trigger verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell’estensione Places nell’interfaccia utente di Data Collection. Per ulteriori informazioni sull’estensione Places e su come installarla, consulta questa [documentazione](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Nella scheda **[!UICONTROL Frequency & duration]**, scegli la frequenza del trigger, la data di inizio e di fine, il giorno della settimana e l’ora del giorno in cui il messaggio in-app sarà attivo.
 
@@ -160,15 +160,15 @@ Una volta completata la preparazione della consegna ed eseguiti i passaggi di ap
 
 1. Misura l’impatto dei messaggi in-app con i rapporti di consegna. Per ulteriori informazioni sul reporting, consulta [questa sezione](../../reporting/using/in-app-report.md).
 
-1. Dopo aver inviato i messaggi in-app, puoi scegliere di disattivare la consegna. Questa funzione può essere utile se desideri interrompere una consegna particolare o se desideri eseguire una nuova consegna con lo stesso trigger, ad esempio.
+1. Dopo aver inviato i messaggi in-app, puoi scegliere di disattivare la consegna. Questa funzione può essere utile, ad esempio, se desideri interrompere una consegna particolare o se desideri eseguirne una nuova con lo stesso trigger.
 
-   Fai clic su **[!UICONTROL Deactivate]** then **[!UICONTROL Ok]** per avviare la richiesta di disattivazione.
+   Clic **[!UICONTROL Deactivate]** allora **[!UICONTROL Ok]** per avviare la richiesta di disattivazione.
 
    ![](assets/inapp_sending_8.png)
 
-1. Una volta inviata la richiesta, la consegna verrà disattivata e non verrà inviato nessun altro messaggio.
+1. Una volta inviata la richiesta, la consegna verrà disattivata e non verrà inviato alcun altro messaggio.
 
-   Tieni presente che i tuoi rapporti per questa consegna saranno ancora accessibili.
+   Tieni presente che i rapporti per questa consegna saranno ancora accessibili.
 
    ![](assets/inapp_sending_9.png)
 

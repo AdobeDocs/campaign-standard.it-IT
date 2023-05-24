@@ -26,17 +26,17 @@ L’esempio seguente illustra la procedura per l’invio di un’e-mail utilizza
 
 ![](assets/load_file_workflow_ex2.png)
 
-Per creare il flusso di lavoro, segui questi passaggi:
+Per creare il flusso di lavoro, effettua le seguenti operazioni:
 
-1. Trascina e rilascia una [Query](../../automating/using/query.md) all’interno del flusso di lavoro e aprilo per definire il target principale.
+1. Trascina una [Query](../../automating/using/query.md) attività nel flusso di lavoro e aprirlo per definire la destinazione principale.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Trascina e rilascia una [Load file](../../automating/using/load-file.md) attività per assegnare alcuni dati a un profilo. In questo esempio, eseguirai il caricamento di un file contenente i numeri di account corrispondenti ad alcuni profili del database.
+1. Trascina una [Carica file](../../automating/using/load-file.md) attività per assegnare alcuni dati a un profilo. In questo esempio, eseguirai il caricamento di un file contenente i numeri di account corrispondenti ad alcuni profili del database.
 
    ![](assets/load_file_activity.png)
 
-1. Trascina e rilascia una [Arricchimento](../../automating/using/enrichment.md) nel flusso di lavoro e collega le attività di caricamento file ed query ad esso.
+1. Trascina e rilascia una [Arricchimento](../../automating/using/enrichment.md) attività nel flusso di lavoro e collegarvi le attività di caricamento file e di query.
 
 1. Nella scheda **[!UICONTROL Advanced relations]** dell’attività Enrichment, seleziona **[!UICONTROL 0 or 1 cardinality simple link]** e definisci i campi da utilizzare per la riconciliazione. In questo caso, utilizziamo il cognome per riconciliare i dati con i profili del database.
 
@@ -50,13 +50,13 @@ Per creare il flusso di lavoro, segui questi passaggi:
 
    Per ulteriori informazioni, consulta la sezione [Enrichment](../../automating/using/enrichment.md).
 
-1. Trascina e rilascia una [Segmentazione](../../automating/using/segmentation.md) nel flusso di lavoro e aprilo per perfezionare la destinazione principale.
+1. Trascina una [Segmentazione](../../automating/using/segmentation.md) nel flusso di lavoro e aprirlo per perfezionare il target principale.
 
    ![](assets/load_file_segmentation.png)
 
    Per ulteriori informazioni, consulta la sezione [Segmentazione](../../automating/using/segmentation.md).
 
-1. Trascina e rilascia una [Email delivery](../../automating/using/email-delivery.md) nel flusso di lavoro e aprilo.
+1. Trascina e rilascia una [Consegna e-mail](../../automating/using/email-delivery.md) nel flusso di lavoro e aprirlo.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

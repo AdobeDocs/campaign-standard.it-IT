@@ -17,18 +17,18 @@ ht-degree: 16%
 
 # Eliminazione di una risorsa{#deleting-a-resource}
 
-Per eliminare una risorsa, la risorsa in questione deve essere **[!UICONTROL Draft]**. La risorsa è in **[!UICONTROL Draft]** se:
+Per eliminare una risorsa, la risorsa in questione deve essere una **[!UICONTROL Draft]**. La risorsa è in **[!UICONTROL Draft]** stato se:
 
-* È stata appena creata e non è ancora stata pubblicata.
-* Se è già stata pubblicata, la risorsa deve essere rielaborata.
+* È stato appena creato e non è ancora stato pubblicato.
+* Se è già stata pubblicata, la risorsa deve essere riscritta.
 
 >[!IMPORTANT]
 >
->La riprogettazione e l’eliminazione di una risorsa personalizzata sono operazioni sensibili che possono avere un impatto su altre risorse. Queste azioni devono essere eseguite solo da un utente esperto.
+>La riprogettazione e l’eliminazione di una risorsa personalizzata sono operazioni sensibili che possono influire su altre risorse. Queste azioni devono essere eseguite solo da un utente esperto.
 
-Per ridisegnare ed eliminare una risorsa pubblicata:
+Per rielaborare ed eliminare una risorsa pubblicata:
 
-1. Seleziona la risorsa da ridisegnare.
+1. Seleziona la risorsa da riprogettare.
 1. Fai clic sul pulsante **[!UICONTROL Re-draft]** nella barra delle azioni.
 
    ![](assets/schema_extension_uc26.png)
@@ -37,19 +37,19 @@ Per ridisegnare ed eliminare una risorsa pubblicata:
 
    >[!IMPORTANT]
    >
-   >La presente azione è definitiva: la tabella o le colonne del database della risorsa e i relativi dati verranno eliminati definitivamente al momento della pubblicazione della modifica, il che può causare l’interruzione dei collegamenti da altre risorse personalizzate. Sarà disponibile solo la definizione della risorsa.
+   >Questa azione è definitiva: la tabella o le colonne del database della risorsa e i relativi dati verranno eliminati definitivamente quando la modifica viene pubblicata, il che può causare l’interruzione dei collegamenti da altre risorse personalizzate. Solo la definizione della risorsa rimarrà disponibile.
 
    ![](assets/schema_extension_uc27.png)
 
    >[!NOTE]
    >
-   >Se riprogetti un&#39;estensione di **Profili (profilo)** risorsa, devi anche ridisegnare qualsiasi **Profilo di prova (seedMember)** estensione definita. Per ulteriori informazioni sull’estensione della risorsa profilo, consulta [questa sezione](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Se ridisegna un’estensione del predefinito **Profili (profilo)** risorsa, devi anche riprogettare qualsiasi **Profilo di test (seedMember)** estensione definita. Per ulteriori informazioni sull’estensione della risorsa profilo, consulta [questa sezione](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Pubblica la risorsa. Per passaggi più dettagliati, consulta [Pubblicazione di una risorsa personalizzata](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Pubblica la risorsa. Per i passaggi più dettagliati, consulta [Pubblicazione di una risorsa personalizzata](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   La risorsa viene quindi inserita in **Bozza** e il relativo stato di attivazione è **[!UICONTROL Inactive]**.
+   La risorsa viene quindi inserita in **Bozza** e il suo stato di attivazione è **[!UICONTROL Inactive]**.
 
-1. In **[!UICONTROL List]** , controlla la risorsa da eliminare e fai clic sul pulsante ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** icona.
+1. In entrata **[!UICONTROL List]** , seleziona la risorsa da eliminare e fai clic sul pulsante ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** icona.
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,4 +57,4 @@ La risorsa viene eliminata dal modello dati.
 
 >[!NOTE]
 >
->Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. Vedi [Annullamento della pubblicazione di un evento sulle transazioni](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. Consulta [Annullamento della pubblicazione di un evento transazionale](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

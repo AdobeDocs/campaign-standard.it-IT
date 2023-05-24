@@ -16,7 +16,7 @@ ht-degree: 99%
 
 ---
 
-# Attività Direct mail delivery{#direct-mail-delivery}
+# Consegna posta diretta{#direct-mail-delivery}
 
 ## Descrizione {#description}
 
@@ -41,7 +41,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Abbinamento delle consegne di e-mail e direct mail](../../automating/using/coupling-email-direct-mail.md)
+* [Caso d’uso: abbinamento delle consegne di e-mail e direct mail](../../automating/using/coupling-email-direct-mail.md)
 * [Informazioni sul direct mailing](../../channels/using/about-direct-mail.md)
 
 ## Configurazione {#configuration}

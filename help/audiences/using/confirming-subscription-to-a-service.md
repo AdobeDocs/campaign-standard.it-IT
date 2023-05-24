@@ -52,7 +52,7 @@ Il messaggio e-mail di conferma è un messaggio transazionale che reagisce a un 
 1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo di Adobe Campaign.
 1. Immetti un’etichetta, seleziona una dimensione di targeting e fai clic su **[!UICONTROL Create]**.
 
-   I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento sulle transazioni](../../channels/using/configuring-transactional-event.md) sezione .
+   I passaggi di configurazione sono descritti in [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md) sezione.
 
 1. Nella sezione **[!UICONTROL Fields]**, fai clic su **[!UICONTROL Create element]** e aggiungi **[!UICONTROL publicLabel]** alla struttura dati per abilitare la riconciliazione.
 
@@ -116,7 +116,7 @@ L’e-mail di conferma è un messaggio transazionale basato sull’evento appena
 
 1. Fai clic su **[!UICONTROL Confirm]** e salva il servizio.
 
-Ora, quando i profili si abbonano a questo servizio, ricevono il messaggio transazionale definito dall’utente, con campi personalizzati mappati al servizio selezionato.
+Ora, quando i profili si abbonano a questo servizio, ricevono il messaggio transazionale definito, con campi personalizzati mappati al servizio selezionato.
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ Il messaggio e-mail di conferma è un [messaggio transazionale](../../channels/u
 1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo di Adobe Campaign.
 1. Immetti un’etichetta, seleziona una dimensione di targeting e fai clic su **[!UICONTROL Create]**.
 
-   I passaggi di configurazione sono descritti nella sezione [Configurazione di un evento sulle transazioni](../../channels/using/configuring-transactional-event.md) sezione .
+   I passaggi di configurazione sono descritti in [Configurazione di un evento transazionale](../../channels/using/configuring-transactional-event.md) sezione.
 
 1. Nella sezione **[!UICONTROL Fields]**, fai clic su **[!UICONTROL Create element]** e aggiungi **[!UICONTROL serviceName]** alla struttura dati per abilitare la riconciliazione.
 
@@ -194,4 +194,4 @@ Ora, quando i profili si abbonano alla newsletter inviando la pagina di destinaz
 
 >[!NOTE]
 >
->A ogni invio della pagina di destinazione viene inviato un messaggio, anche se il profilo è già abbonato.
+>A ogni invio della pagina di destinazione viene inviato un messaggio, anche se il profilo risulta già abbonato.

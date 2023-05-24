@@ -24,11 +24,11 @@ Le pagine di destinazione vengono create come qualsiasi altra [attività di mark
 
 Durante la progettazione di una pagina di destinazione, dovrai definire il contenuto della pagina stessa, della pagina di conferma e della pagina di errore. Per visualizzare e configurare ciascuna di queste pagine, utilizza il commutatore posto sotto la barra delle azioni.
 
-Il contenuto delle pagine di destinazione è progettato tramite l’editor dei contenuti di Campaign.
+Il contenuto delle pagine di destinazione è progettato tramite l’editor di contenuti di Campaign.
 
 >[!NOTE]
 >
->Per la progettazione delle e-mail, se l’istanza è stata installata prima della versione di Adobe Campaign Standard 19.0, puoi comunque accedere all’editor dei contenuti e-mail legacy. In generale, per quanto riguarda le pagine di destinazione, l’interfaccia, i principi di utilizzo e di configurazione sono per lo più i medesimi illustrati di seguito. Tuttavia, non tutte le funzioni potrebbero essere disponibili o presenti nell’editor dei contenuti e-mail legacy, che è diventato obsoleto a partire dalla versione 19.0. Per modificare rapidamente il contenuto delle e-mail mediante un’interfaccia a trascinamento dotata di funzioni estese, puoi utilizzare [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
+>Per la progettazione delle e-mail, se l’istanza è stata installata prima del rilascio di Adobe Campaign Standard 19.0, puoi ancora accedere all’editor dei contenuti delle e-mail legacy. In generale, per quanto riguarda le pagine di destinazione, l’interfaccia, i principi di utilizzo e di configurazione sono per lo più i medesimi illustrati di seguito. Tuttavia, non tutte le funzioni potrebbero essere disponibili o presenti nell’editor dei contenuti e-mail legacy, che è diventato obsoleto a partire dalla versione 19.0. Per modificare rapidamente il contenuto delle e-mail mediante un’interfaccia a trascinamento dotata di funzioni estese, puoi utilizzare [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Questa pagina descrive le specificità dell’editor dei contenuti delle pagine di destinazione. Per ulteriori informazioni sulle azioni comuni a una o più attività di marketing, consulta le sezioni seguenti della guida **Progettazione di contenuti delle e-mail**:
 

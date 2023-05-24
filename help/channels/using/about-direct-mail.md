@@ -38,7 +38,7 @@ All’interno di Adobe Campaign, la procedura utente è la seguente:
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Abbinamento delle consegne di e-mail e direct mail](../../automating/using/coupling-email-direct-mail.md)
+* [Caso d’uso: abbinamento delle consegne di e-mail e direct mail](../../automating/using/coupling-email-direct-mail.md)
 
 ## Raccomandazioni {#recommendations}
 

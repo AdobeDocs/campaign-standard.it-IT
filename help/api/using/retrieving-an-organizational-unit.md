@@ -17,8 +17,8 @@ ht-degree: 12%
 
 # Recupero dell’unità organizzativa di un profilo {#retrieving-organizational-units}
 
-1. Esegui una richiesta di GET sul profilo PKey per recuperare il **orgUnit** URL.
-1. Esegui una richiesta di GET sull’URL per recuperare ulteriori dettagli sull’unità organizzativa.
+1. Esegui una richiesta GET sulla chiave PKey del profilo per recuperare **orgUnit** URL.
+1. Esegui una richiesta GET sull’URL per recuperare ulteriori dettagli sull’unità organizzativa.
 
 <br/>
 
@@ -48,7 +48,7 @@ Restituisce l’URL orgUnit del profilo.
 }
 ```
 
-Esegui una richiesta di GET sull’URL per recuperare ulteriori informazioni.
+Esegui una richiesta GET sull’URL per recuperare ulteriori informazioni.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
@@ -58,7 +58,7 @@ Esegui una richiesta di GET sull’URL per recuperare ulteriori informazioni.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce i dettagli sull&#39;unità organizzativa.
+Restituisce dettagli sull’unità organizzativa.
 
 ```
 {

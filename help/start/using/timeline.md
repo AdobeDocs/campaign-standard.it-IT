@@ -30,9 +30,9 @@ Ciascun programma è rappresentato da una casella contenente la miniatura e l’
 
 La linea verticale blu è un indicatore cronologico per evidenziare la data corrente. Per impostazione predefinita, si trova al centro della schermata. Puoi scorrere a destra o a sinistra all’interno della schermata per modificare il periodo visualizzato.
 
-Usa le icone per:
+Utilizza le icone per:
 
-* ![](assets/timeline_zoom_in.png) ridurre il perimetro o aumentare il livello di dettaglio per un periodo più limitato, fino a quando non vengono visualizzati i giorni
+* ![](assets/timeline_zoom_in.png) ridurre il perimetro o aumentare il livello di dettaglio per un periodo più limitato, fino alla visualizzazione dei giorni
 * ![](assets/timeline_zoom_out.png) aumentare il perimetro o visualizzare un arco temporale più ampio
 
 Fai clic sulla freccia a destra del nome di ciascun programma per visualizzare il contenuto corrispondente. Un programma può contenere programmi secondari, campagne e pagine di destinazione. Una campagna viene distribuita allo stesso modo di un programma e può contenere e-mail, SMS e pagine di destinazione.

@@ -25,8 +25,8 @@ Queste attività rappresentano i diversi canali di comunicazione disponibili. Pu
 
 La sezione **[!UICONTROL Channels]** include le seguenti attività:
 
-* [Attività Email delivery](../../automating/using/email-delivery.md)
-* [Attività SMS delivery](../../automating/using/sms-delivery.md)
-* [Attività Push notification delivery](../../automating/using/push-notification-delivery.md)
-* [Attività Direct mail delivery](../../automating/using/direct-mail-delivery.md)
-* [Attività In-App delivery](../../automating/using/in-app-delivery.md)
+* [Consegna e-mail](../../automating/using/email-delivery.md)
+* [Consegna SMS](../../automating/using/sms-delivery.md)
+* [Consegna notifica push](../../automating/using/push-notification-delivery.md)
+* [Consegna posta diretta](../../automating/using/direct-mail-delivery.md)
+* [Consegna in-app](../../automating/using/in-app-delivery.md)

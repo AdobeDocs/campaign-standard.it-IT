@@ -34,7 +34,7 @@ ht-degree: 42%
     <tr>
         <td>commento</td>
         <td>Commento del referrer</td>
-        <td>string (255)</td>
+        <td>stringa (255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -50,7 +50,7 @@ ht-degree: 42%
         <td> </td>
     </tr>
     <tr>
-        <td>consegna (consegna)</td>
+        <td>consegna (delivery)</td>
         <td>Consegna</td>
         <td>link </td>
         <td> </td>
@@ -64,19 +64,19 @@ ht-degree: 42%
     <tr>
         <td>desc</td>
         <td>Descrizione</td>
-        <td>string (512)</td>
+        <td>stringa (512)</td>
         <td> </td>
     </tr>
     <tr>
         <td>e-mail</td>
         <td>E-mail</td>
-        <td>string (128)</td>
+        <td>stringa (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>externalId</td>
         <td>ID esterno</td>
-        <td>string (64)</td>
+        <td>stringa (64)</td>
         <td> </td>
     </tr>
     <tr>
@@ -88,7 +88,7 @@ ht-degree: 42%
     <tr>
         <td>forwardUrl</td>
         <td>URL di inoltro</td>
-        <td>string (255)</td>
+        <td>stringa (255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -106,7 +106,7 @@ ht-degree: 42%
     <tr>
         <td>lastName</td>
         <td>Cognome</td>
-        <td>string (50)</td>
+        <td>stringa (50)</td>
         <td> </td>
     </tr>
     <tr>
@@ -128,12 +128,12 @@ ht-degree: 42%
         <td>
             <ul>
             <li>Non definito - non definito - 0</li>
-            <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+            <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
             </ul>
         </td>
     </tr>
     <tr>
-        <td>destinatario (destinatario)</td>
+        <td>destinatario (recipient)</td>
         <td>Profilo identificato</td>
         <td>link </td>
         <td> </td>
@@ -147,7 +147,7 @@ ht-degree: 42%
     <tr>
         <td>referrerEmail</td>
         <td>E-mail referrer</td>
-        <td>string (128)</td>
+        <td>stringa (128)</td>
         <td> </td>
     </tr>
     <tr>
@@ -158,14 +158,14 @@ ht-degree: 42%
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>ID referente</td>
+        <td>ID referrer</td>
         <td>intero </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
         <td>Cognome referrer</td>
-        <td>string (50)</td>
+        <td>stringa (50)</td>
         <td> </td>
     </tr>
     <tr>
@@ -177,14 +177,14 @@ ht-degree: 42%
     <tr>
         <td>title</td>
         <td>Etichetta</td>
-        <td>string (255)</td>
+        <td>stringa (255)</td>
         <td> </td>
     </tr>
 </table>
 
 ## Filtri
 
-Per cognome, nome o e-mail (perText)</p>
+Per cognome, nome o indirizzo e-mail (byText)</p>
 
 <table>
         <tr>

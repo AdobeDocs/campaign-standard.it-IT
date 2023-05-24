@@ -1,6 +1,6 @@
 ---
 title: External API
-description: L’attività External API porta dati nel flusso di lavoro Campaign Standard da un sistema esterno tramite una chiamata HTTP API.
+description: L’attività External API porta dati nel flusso di lavoro di Campaign Standard da un sistema esterno tramite una chiamata API HTTP.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -38,7 +38,7 @@ Le principali caratteristiche di questa attività sono:
 
 ### Avvisi di compatibilità con versioni precedenti {#from-beta-to-ga}
 
-Con la versione Campaign Standard 20.4, il limite di dimensione dei dati di risposta HTTP e le protezioni del timeout di risposta sono stati ridotti per allinearsi alle best practice - vedi [Limitazioni e protezioni](#guardrails). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
+Con la versione di Campaign Standard 20.4, il limite di dimensione dei dati di risposta http e le protezioni del timeout di risposta sono stati ridotti per allinearli alle best practice - consulta [Limitazioni e protezioni](#guardrails). Queste modifiche delle limitazioni non avranno effetto sulle attività External API già esistenti; pertanto, si consiglia di sostituire queste ultime con nuove versioni in tutti i flussi di lavoro.
 
 Durante la sostituzione delle attività External API, aggiungi la nuova attività External API al flusso di lavoro, copia manualmente i dettagli di configurazione, quindi elimina la vecchia attività.
 
@@ -114,13 +114,13 @@ Se l’**analisi viene convalidata**, viene visualizzato un messaggio che ti inv
 
 ### Execution
 
-Questa scheda consente di definire l’endpoint di connessione. La **[!UICONTROL URL]** consente di definire le **Endpoint HTTPS** quel Campaign Standard comunicherà con lui.
+Questa scheda consente di definire l’endpoint di connessione. Il **[!UICONTROL URL]** consente di definire il **Endpoint HTTP** quel Campaign Standard comunicherà con.
 
 Se necessario per l’endpoint, sono disponibili due tipi di metodi di autenticazione:
 
-* Autenticazione di base: inserisci le informazioni relative a nome utente e password nel **[!UICONTROL Request Header(s)]** sezione .
+* Autenticazione di base: immetti il nome utente/password nella **[!UICONTROL Request Header(s)]** sezione.
 
-* Autenticazione OAuth: Facendo clic sul pulsante **[!UICONTROL Use connection parameters defined in an external account]** in un account esterno, puoi selezionare un account esterno in cui è definita l’autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
+* Autenticazione OAuth: facendo clic sul pulsante **[!UICONTROL Use connection parameters defined in an external account]** in un account esterno, puoi selezionare un account esterno in cui è definita l’autenticazione OAuth. Per ulteriori informazioni, consulta la sezione [Account esterni](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -260,7 +260,7 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su condizi
    <td> <p>Chiave di intestazione HTTP non consentita (chiave di intestazione: “Accept”).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Un valore di intestazione HTTP non è valido (valore di intestazione: '%s').</td> 
+   <td> WKF-560247 - Valore di intestazione HTTP non valido (valore di intestazione: "%s").</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Nota: questo errore viene registrato quando il valore di intestazione personalizzato non supera la convalida secondo la <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 

@@ -19,26 +19,26 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->La [Servizio core Privacy](https://developer.adobe.com/experience-platform-apis/references/privacy-service) L&#39;integrazione è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>Il [Servizio core per la privacy](https://developer.adobe.com/experience-platform-apis/references/privacy-service) L’integrazione è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-Le richieste di privacy vengono create utilizzando un **POST** richiesta.
+Le richieste di accesso ai dati personali vengono create utilizzando **POST** richiesta.
 
-Prima di creare le richieste, devi definire lo spazio dei nomi da utilizzare. Per ulteriori informazioni, consulta la [Documentazione sulla gestione della privacy](../../start/using/privacy-requests.md).
+Prima di creare le richieste, devi definire lo spazio dei nomi che userai. Per ulteriori informazioni, consulta [Documentazione sulla gestione della privacy](../../start/using/privacy-requests.md).
 
 Il payload deve contenere i seguenti parametri:
 
-* **name**: un nome interno univoco
+* **nome**: nome interno univoco
 * **namespace**: nome dello spazio dei nomi configurato nell’interfaccia di Campaign Standard
-* **riconciliazioneValue**: il valore di riconciliazione basato sulla chiave di riconciliazione definita nello spazio dei nomi
+* **conciliationValue**: il valore di riconciliazione basato sulla chiave di riconciliazione definita nello spazio dei nomi
 * **etichetta**: l’etichetta della richiesta
-* **type**: il tipo di richiesta. I valori accettati sono &quot;access&quot; o &quot;delete&quot;.
-* **regolamento**: il tipo di regolamento. Esempio: &quot;RGPD&quot;, &quot;CCPA&quot;. Questo parametro è obbligatorio ed è disponibile a partire dalla versione 19.4 di Campaign Standard. Se utilizzi una build precedente, non è necessario aggiungerla al payload.
+* **tipo**: tipo di richiesta. I valori accettati sono &quot;access&quot; o &quot;delete&quot;.
+* **regolamento**: tipo di regolamento. Esempio: &quot;RGPD&quot;, &quot;CCPA&quot;. Questo parametro è obbligatorio e disponibile a partire dalla versione 19.4 di Campaign Standard. Se utilizzi una build precedente, non è necessario aggiungerla al payload.
 
 <br/>
 
 ***Richiesta di esempio***
 
-Questa richiesta di POST crea una richiesta di accesso a dati personali basata su una chiave di riconciliazione e-mail definita nello spazio dei nomi AMCDS2:
+Questa richiesta POST crea una richiesta di accesso a dati personali basata su una chiave di riconciliazione e-mail definita nello spazio dei nomi AMCDS2:
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

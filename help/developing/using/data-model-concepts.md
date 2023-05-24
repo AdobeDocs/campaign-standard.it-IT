@@ -34,7 +34,7 @@ I campi di estensione vengono generati con un prefisso in modo che non entrino m
 
 >[!NOTE]
 >
->Puoi trovare una rappresentazione del modello dati per le risorse integrate in [questa pagina](../../developing/using/datamodel-introduction.md).
+>Puoi trovare una rappresentazione del modello dati per le risorse incorporate in [questa pagina](../../developing/using/datamodel-introduction.md).
 
 Puoi anche [configurare la navigazione](configuring-the-screen-definition.md) nelle schermate corrispondenti alla risorsa creata.
 
@@ -42,4 +42,4 @@ Puoi **esportare e importare** risorse personalizzate, ad esempio da un ambiente
 
 >[!CAUTION]
 >
->Solo funzionale [amministratori](../../administration/using/users-management.md#functional-administrators)con **[!UICONTROL Administration]** ruolo e accesso **Tutto** Le unità possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente non amministratore può eseguire il targeting di questi registri ma partendo da una tabella collegata (profili, consegna).
+>Solo funzionale [amministratori](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** ruolo e accesso a **Tutti** Le unità possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente che non è amministratore può eseguire il targeting di questi registri ma a partire da una tabella collegata (profili, consegna).

@@ -38,8 +38,8 @@ Se specificata in un file tramite colonne dedicate, questa attività ti consente
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Aggiornamento di più stati di abbonamento da un file](../../automating/using/updating-subscriptions-from-file.md)
-* [Caso di utilizzo: Iscrizione di profili da un file a un servizio specifico](../../automating/using/subscribing-profiles-from-file.md)
+* [Caso di utilizzo: aggiornamento di più stati di abbonamento da un file](../../automating/using/updating-subscriptions-from-file.md)
+* [Caso di utilizzo: abbonamento di profili da un file a un servizio specifico](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Configurazione {#configuration}
 

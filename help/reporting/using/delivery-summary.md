@@ -1,6 +1,6 @@
 ---
 title: Riepilogo consegne
-description: Con il rapporto predefinito Consegna , scopri le statistiche sulle consegne, ad esempio il numero di invii, mancati recapiti e aperture.
+description: Con il rapporto predefinito Delivery summary (Riepilogo delle consegne), scopri le statistiche sulle consegne, ad esempio il numero di invii, mancati recapiti e aperture.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,23 +18,23 @@ ht-degree: 1%
 
 # Riepilogo consegne{#delivery-summary}
 
-La **[!UICONTROL Delivery summary]** il rapporto descrive le informazioni principali relative a un’e-mail o a più e-mail.
+Il **[!UICONTROL Delivery summary]** il rapporto fornisce informazioni dettagliate sulle informazioni principali relative a un’e-mail o a più e-mail.
 
 ![](assets/campaign_reports_1.png)
 
-Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare il modo in cui i dettagli vengono visualizzati nelle rispettive impostazioni di visualizzazione.
+Ogni tabella è rappresentata da numeri e grafici di riepilogo. Puoi modificare la modalità di visualizzazione dei dettagli nelle rispettive impostazioni di visualizzazione.
 
-La **Statistiche di consegna** la tabella contiene i dati disponibili per le e-mail inviate, ad esempio:
+Il **Statistiche consegna** la tabella contiene i dati disponibili per le e-mail inviate, ad esempio:
 
-* **[!UICONTROL Processed/sent]**: Numero totale di invii per la consegna.
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati. Vengono presi in considerazione gli errori generati (mancati recapiti). Tuttavia, non si tiene conto dei reclami (dichiarazioni spam) e dei messaggi di allontanamento, come quelli &quot;fuori sede&quot;.
-* **[!UICONTROL Bounces + Errors]**: Numero di errori totali cumulati durante l’elaborazione della consegna e della restituzione automatica in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Processed/sent]**: numero totale di invii per la consegna.
+* **[!UICONTROL Delivered]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati. Gli errori generati (mancati recapiti) vengono presi in considerazione. Tuttavia, i reclami (dichiarazioni spam) e i messaggi di allontanamento come &quot;fuori sede&quot; non vengono presi in considerazione.
+* **[!UICONTROL Bounces + Errors]**: il numero di errori totali cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
-La **Apertura e clic** contiene i dati disponibili per l’attività del destinatario per ogni consegna, ad esempio:
+Il **Apri e fai clic** la tabella, contiene i dati disponibili per l’attività del destinatario per ogni consegna, ad esempio:
 
-* **Fai clic su**: Numero di volte in cui un contenuto è stato fatto clic in una consegna.
-* **Apri**: Il numero di volte in cui un messaggio è stato aperto in una consegna.
-* **Aperture univoche**: Il numero di destinatari che hanno aperto la consegna.
-* **Clic univoco**: Il numero di destinatari che hanno fatto clic su un contenuto in una consegna.
+* **Clic**: numero di volte in cui è stato fatto clic su un contenuto in una consegna.
+* **Apri**: numero di volte in cui un messaggio è stato aperto in una consegna.
+* **Aperture univoche**: numero di destinatari che hanno aperto la consegna.
+* **Clic univoci**: numero di destinatari che hanno fatto clic su un contenuto in una consegna.
 
-La **Partizione del dominio** nella tabella viene visualizzato lo stato delle consegne in base al dominio del destinatario.
+Il **Ripartizione del dominio** Questa tabella mostra lo stato delle consegne in base al dominio del destinatario.

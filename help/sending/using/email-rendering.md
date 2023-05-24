@@ -66,19 +66,19 @@ Viene visualizzato il report dedicato di rendering di e-mail. Consulta [Descrizi
 * [Invio di bozze](../../sending/using/sending-proofs.md)
 * [Editor delle query](../../automating/using/editing-queries.md#about-query-editor)
 
-## Report di rendering di e-mail {#email-rendering-report-description}
+## Rapporto di rendering di e-mail {#email-rendering-report-description}
 
 Questo report presenta i rendering delle e-mail così come sono visualizzati al destinatario. I rendering di e-mail possono variare a seconda della modalità con cui il destinatario apre la consegna e-mail: in un browser, su un dispositivo mobile o tramite un’applicazione e-mail.
 
-### Token di rendering per e-mail
+### Token di rendering di e-mail
 
 Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con il **Rendering di e-mail** abilitato diminuisce di un’unità i rendering disponibili, denominati token.
 
-I token account per ogni singolo rendering e non per l’intero report di rendering di e-mail, il che significa che:
+I token rappresentano ogni singolo rendering e non l’intero report di rendering di e-mail, il che significa che:
 
-* **Ogni volta** viene generato il report di rendering di e-mail, viene dedotto un token per client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
+* **Ogni volta** Viene generato il report di rendering di e-mail, viene dedotto un token per ogni client di messaggistica: un token per il rendering di Outlook 2000, uno per il rendering di Outlook, uno per il rendering di Apple Mail e così via.
 
-* **Per la stessa consegna**, se si genera nuovamente il rendering di e-mail, il numero di token disponibili viene nuovamente diminuito del numero di rendering generati.
+* **Per la stessa consegna**, se generi nuovamente il rendering di e-mail, il numero di token disponibili viene nuovamente diminuito del numero di rendering generati.
 
 ### Riepilogo del rapporto
 

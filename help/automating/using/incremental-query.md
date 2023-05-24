@@ -44,7 +44,7 @@ L’attività **[!UICONTROL Incremental query]** può avere vari tipi di utilizz
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: Query incrementale per gli abbonati a un servizio](../../automating/using/incremental-query-on-subscribers.md)
+* [Caso di utilizzo: query incrementale per gli abbonati a un servizio](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Configurazione {#configuration}
 

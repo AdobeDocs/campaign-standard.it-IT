@@ -1,6 +1,6 @@
 ---
 title: Recupero dei profili
-description: Ulteriori informazioni su come recuperare profili con API
+description: Scopri come recuperare i profili con le API
 feature: API
 role: Data Engineer
 level: Experienced
@@ -16,15 +16,15 @@ ht-degree: 4%
 
 Il recupero dei profili viene eseguito con un **GET** richiesta.
 
-Puoi quindi perfezionare la ricerca utilizzando filtri, ordini e impaginazione. Per ulteriori informazioni, consulta la sezione [Operazioni aggiuntive](../../api/using/sorting.md) sezione .
+Puoi quindi perfezionare la ricerca utilizzando filtri, ordinamento e impaginazione. Per ulteriori informazioni, consulta [Operazioni aggiuntive](../../api/using/sorting.md) sezione.
 
-Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a uno di questi campi: e-mail, nome, cognome o qualsiasi campo personalizzato. Per ulteriori informazioni al riguardo, consulta [questa sezione](#searching-field).
+Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a uno dei seguenti campi: e-mail, nome, cognome o qualsiasi campo personalizzato. Per ulteriori informazioni al riguardo, consulta [questa sezione](#searching-field).
 
 <br/>
 
 ***Richieste di esempio***
 
-* Richiesta di GET di esempio per recuperare tutti i profili.
+* Esempio di richiesta GET per recuperare tutti i profili.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -60,7 +60,7 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Risposta alla richiesta. Il nodo &quot;successivo&quot; restituisce l’URL che ti dà accesso ai 10 valori e-mail successivi.
+   Risposta alla richiesta. Il nodo &quot;avanti&quot; restituisce l’URL che ti consente di accedere ai 10 valori e-mail successivi.
 
    ```
    {
@@ -85,11 +85,11 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
 
 ## Ricerca di profili in base a un campo {#searching-field}
 
-La **[!UICONTROL filterType]** parameter ti consente di recuperare profili in base a uno di questi campi: e-mail, nome, cognome o qualsiasi campo personalizzato aggiunto nel filtro avanzato durante l’estensione della risorsa profilo.
+Il **[!UICONTROL filterType]** Il parametro ti consente di recuperare i profili in base a uno dei seguenti campi: e-mail, nome, cognome o qualsiasi campo personalizzato aggiunto in Filtro avanzato durante l’estensione della risorsa profilo.
 
 >[!NOTE]
 >
->Le ricerche sono sensibili all’uso di maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del cognome.
+>Le ricerche fanno distinzione tra maiuscole e minuscole e vengono eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del cognome.
 
 ***Richieste di esempio***
 
@@ -123,7 +123,7 @@ La **[!UICONTROL filterType]** parameter ti consente di recuperare profili in ba
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Richiesta di esempio per filtrare profili in base al campo personalizzato &quot;Hobby&quot;.
+* Richiesta di esempio per filtrare i profili in base al campo personalizzato &quot;Hobby&quot;.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \

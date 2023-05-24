@@ -1,6 +1,6 @@
 ---
-title: Esecuzione e monitoraggio della messaggistica transazionale
-description: Scopri l’esecuzione dei messaggi transazionali e come monitorare i messaggi transazionali.
+title: Esecuzione e monitoraggio dei messaggi transazionali
+description: Scopri l’esecuzione della messaggistica transazionale e come monitorare i messaggi transazionali.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -16,21 +16,21 @@ ht-degree: 62%
 
 ---
 
-# Esecuzione e monitoraggio della messaggistica transazionale {#transactional-messaging-execution}
+# Esecuzione e monitoraggio dei messaggi transazionali {#transactional-messaging-execution}
 
-## Consegna dell’esecuzione di messaggi transazionali {#transactional-message-execution-delivery}
+## Consegna dell’esecuzione dei messaggi transazionali {#transactional-message-execution-delivery}
 
-Una volta pubblicato il messaggio e eseguito l’integrazione del sito, quando viene attivato un evento, questo viene assegnato a una consegna di esecuzione.
+Una volta pubblicato il messaggio e completata l’integrazione con il sito, quando viene attivato un evento, questo viene assegnato a una consegna di esecuzione.
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-Un **consegna dell&#39;esecuzione** è un messaggio tecnico non utilizzabile e non funzionale creato una volta al mese per ogni messaggio sulle transazioni e ogni volta che un messaggio sulle transazioni viene modificato e pubblicato di nuovo.
+Un **consegna esecuzione** è un messaggio tecnico non actionable e non funzionale creato una volta al mese per ogni messaggio sulle transazioni e ogni volta che un messaggio sulle transazioni viene modificato e pubblicato nuovamente.
 
 **Argomenti correlati**:
 * [Pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [Integrare l’attivazione dell’evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Processo di nuovo tentativo di messaggistica transazionale {#transactional-message-retry-process}
+## Processo di esecuzione di un nuovo tentativo di messaggistica transazionale {#transactional-message-retry-process}
 
 Un messaggio sulle transazioni temporaneamente non consegnato è soggetto all’esecuzione di tentativi automatici fino alla scadenza della consegna. Per ulteriori informazioni sulla durata della consegna, consulta [Parametri del periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
@@ -55,9 +55,9 @@ Una volta che l’evento è stato assegnato a una consegna di esecuzione, il mes
 
 >[!NOTE]
 >
->Quando un evento viene assegnato a un’esecuzione di consegna, viene visualizzato nei registri di invio dell’esecuzione di consegna e solo in questa fase. Le consegne non riuscite vengono visualizzate nel **[!UICONTROL Execution list]** dei registri di invio del messaggio transazionale.
+>Quando un evento viene assegnato a un’esecuzione di consegna, viene visualizzato nei registri di invio dell’esecuzione di consegna e solo in questa fase. Le consegne non riuscite vengono visualizzate nel **[!UICONTROL Execution list]** dei registri di invio dei messaggi transazionali.
 
-### Limitazioni del processo di nuovi tentativi {#limitations}
+### Limitazioni del processo di nuovo tentativo {#limitations}
 
 **Invio dell’aggiornamento dei registri**
 
@@ -67,7 +67,7 @@ Nel processo di esecuzione dei nuovi tentativi, i registri di invio della nuova 
 
 Non è possibile interrompere la consegna dell’esecuzione. Tuttavia, se la consegna dell’esecuzione corrente ha esito negativo, ne viene creata una nuova non appena viene ricevuto un nuovo evento, e tutti i nuovi eventi vengono elaborati dalla nuova consegna dell’esecuzione. Nessun nuovo evento viene elaborato dalla consegna dell’esecuzione non riuscita.
 
-Se alcuni eventi già assegnati a una consegna di esecuzione sono stati posticipati come parte del processo di esecuzione dei nuovi tentativi e se la consegna dell’esecuzione non riesce, il sistema di esecuzione dei nuovi tentativi non assegna gli eventi posticipati alla nuova consegna di esecuzione, il che significa che questi eventi vengono persi. Controlla la [registri di consegna](#monitoring-transactional-message-delivery) per visualizzare i destinatari che potrebbero essere stati interessati.
+Se alcuni eventi già assegnati a una consegna dell’esecuzione sono stati posticipati come parte del processo di esecuzione dei nuovi tentativi e se tale consegna non riesce, il sistema dei nuovi tentativi non assegna gli eventi posticipati alla nuova consegna dell’esecuzione, il che significa che tali eventi vengono persi. Controlla la [registri di consegna](#monitoring-transactional-message-delivery) per visualizzare i destinatari che potrebbero essere stati interessati.
 
 ## Monitoraggio dei messaggi transazionali {#monitoring-transactional-message-delivery}
 
@@ -77,21 +77,21 @@ Per monitorare un messaggio sulle transazioni, devi accedere al [consegne di ese
 
    ![](assets/message-center_access_logs.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Execution list]** scheda .
+1. Fai clic su **[!UICONTROL Execution list]** scheda.
 
    ![](assets/message-center_execution_tab.png)
 
-1. Seleziona la consegna di esecuzione a tua scelta.
+1. Seleziona la consegna dell’esecuzione desiderata.
 
    ![](assets/message-center_execution_delivery.png)
 
-1. Fai nuovamente clic sull&#39;icona in basso a destra del **[!UICONTROL Deployment]** blocco.
+1. Fai di nuovo clic sull’icona in basso a destra del **[!UICONTROL Deployment]** blocco.
 
    ![](assets/message-center_execution_access_logs.png)
 
    Per ogni consegna di esecuzione, puoi consultare i registri di consegna come faresti per una consegna standard. Per ulteriori informazioni sull’accesso e l’utilizzo dei registri, consulta [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md).
 
-### Specifiche dei messaggi transazionali basati su profili {#profile-transactional-message-monitoring}
+### Specificità dei messaggi transazionali basati su profili {#profile-transactional-message-monitoring}
 
 Per i messaggi transazionali basati su profili, puoi monitorare le seguenti informazioni di profilo.
 
@@ -99,7 +99,7 @@ Seleziona la scheda **[!UICONTROL Sending logs]**. Nella colonna **[!UICONTROL S
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Seleziona la **[!UICONTROL Exclusions logs]** per visualizzare i destinatari che sono stati esclusi dal target del messaggio, ad esempio gli indirizzi al elenco Bloccati.
+Seleziona la **[!UICONTROL Exclusions logs]** per visualizzare i destinatari che sono stati esclusi dal target del messaggio, ad esempio gli indirizzi in fase di inserisco nell&#39;elenco Bloccati del messaggio.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

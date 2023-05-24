@@ -35,7 +35,7 @@ Sono disponibili diversi tipi di funzioni, a seconda dei risultati desiderati e 
 
 >[!NOTE]
 >
->Sono disponibili funzioni aggiuntive in tutte le attività che consentono di utilizzare variabili di eventi dopo la chiamata di un flusso di lavoro con parametri esterni. Essi sono descritti in [questa sezione](../../automating/using/customizing-workflow-external-parameters.md).
+>Sono disponibili funzioni aggiuntive in tutte le attività che consentono di utilizzare variabili di eventi dopo la chiamata di un flusso di lavoro con parametri esterni. Sono descritte in dettaglio [questa sezione](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Date {#dates}
 
@@ -706,8 +706,8 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
    <td> Min(&lt;valore&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>StringAgg</strong>, aggregato stringa<br /> </td>
-   <td> Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento (il separatore predefinito è virgola).<br /> </td>
+   <td> <strong>StringaAgg</strong>, Valore aggregato stringa<br /> </td>
+   <td> Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento (il separatore predefinito è la virgola).<br /> </td>
    <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
   </tr>
   <tr> 

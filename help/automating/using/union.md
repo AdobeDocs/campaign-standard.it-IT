@@ -34,7 +34,7 @@ L’attività **[!UICONTROL Union]** viene utilizzata per combinare le popolazio
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Unione di due tipi di pubblico perfezionati](../../automating/using/union-on-two-refined-audiences.md)
+* [Caso d’uso: unione di due tipi di pubblico perfezionati](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configurazione {#configuration}
 

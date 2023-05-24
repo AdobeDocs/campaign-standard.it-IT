@@ -1,6 +1,6 @@
 ---
 title: Creazione di profili con API
-description: Scopri come creare profili con API.
+description: Scopri come creare profili con le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # Creazione di profili con API {#creating-profiles-api}
 
-La creazione di profili viene eseguita con un **POST** nella risorsa profilo.
+La creazione di profili viene eseguita con **POST** richiesta per la risorsa profilo.
 
 >[!CAUTION]
 >
->Per associare un <b>orgUnit</b> al profilo creato, devi estendere la risorsa profilo con questo campo e, dopo la pubblicazione dell’estensione, eseguire una richiesta POST sul <b>ProfileAndServicesExt</b> punto finale.
+>Se si desidera associare un <b>orgUnit</b> al profilo creato, devi estendere la risorsa profilo con questo campo e, dopo la pubblicazione dell’estensione, eseguire una richiesta POST sulla <b>ProfileAndServicesExt</b> endpoint.
 >
->Per ulteriori informazioni sull’estensione della risorsa del profilo, consulta la <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Documentazione di Campaign</a>.
+>Per ulteriori informazioni sull’estensione della risorsa del profilo, consulta <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Documentazione di Campaign</a>.
 
 <br/>
 
@@ -41,7 +41,7 @@ Esempio di richiesta POST per creare un profilo con l’e-mail &quot;john.doe@ma
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-Restituisce il profilo appena creato, con l’indirizzo e-mail &quot;john.doe@mail.com&quot;.
+Restituisce il nuovo profilo creato, con l’indirizzo e-mail &quot;john.doe@mail.com&quot;.
 
 ```
 {

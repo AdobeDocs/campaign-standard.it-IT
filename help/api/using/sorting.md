@@ -1,6 +1,6 @@
 ---
 title: Ordinamento
-description: Ulteriori informazioni su come eseguire le operazioni di ordinamento
+description: Scopri come eseguire le operazioni di ordinamento
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,15 +17,15 @@ ht-degree: 11%
 
 # Ordinamento
 
-L’ordinamento è disponibile in ordine crescente o decrescente. Per eseguire questa operazione, utilizza la variabile **%20desc** o **%20asc** alla richiesta.
+L’ordinamento è disponibile in ordine crescente o decrescente. A tale scopo, utilizza **%20desc** o **%20asc** parametro della richiesta.
 
-Per sapere se un campo può essere ordinato, controlla il parametro &quot;ordinabile&quot; nei metadati della risorsa. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/metadata-mechanism.md).
+Per sapere se un campo può essere ordinato, controlla il parametro &quot;sortable&quot; nei metadati della risorsa. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/metadata-mechanism.md).
 
 <br/>
 
 ***Richieste di esempio***
 
-* Esempio di richiesta di GET per recuperare le e-mail nel database in ordine alfabetico.
+* Richiesta di GET di esempio per recuperare le e-mail nel database in ordine alfabetico.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -50,7 +50,7 @@ Per sapere se un campo può essere ordinato, controlla il parametro &quot;ordina
    }
    ```
 
-* Esempio di richiesta di GET per recuperare l’e-mail nel database in ordine alfa decrescente.
+* Richiesta di GET di esempio per recuperare l’e-mail nel database in ordine alfabetico decrescente.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

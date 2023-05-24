@@ -26,18 +26,18 @@ Ogni servizio include:
 
 Puoi gestire gli abbonamenti anche tramite l’API Adobe Campaign Standard. Per ulteriori informazioni, consulta la [documentazione dedicata](../../api/using/creating-a-service.md).
 
-## Passaggi fondamentali per la configurazione e la gestione degli abbonamenti
+## Passaggi chiave per impostare e gestire gli abbonamenti
 
-Per creare un meccanismo di abbonamento, effettua le seguenti operazioni:
+Per creare un meccanismo di abbonamento, segui i passaggi seguenti:
 
 1. **Creare un servizio** - seguire i passaggi descritti [in questa sezione](../../audiences/using/creating-a-service.md) per creare un servizio di abbonamento
 1. **Condividi il collegamento** - scopri come promuovere e condividere il tuo servizio [in questa pagina](../../audiences/using/promoting-a-service.md)
 1. **Monitorare gli abbonamenti** - scopri diversi modi per monitorare gli abbonamenti al tuo servizio [in questa sezione](../../audiences/using/monitoring-subscriptions.md)
-1. **Conferma abbonamenti** - seguire [esercitazione](../../audiences/using/confirming-subscription-to-a-service.md) per inviare un messaggio di conferma dell’abbonamento
+1. **Conferma abbonamenti** - seguire [questa esercitazione](../../audiences/using/confirming-subscription-to-a-service.md) per inviare un messaggio di conferma dell’abbonamento
 
 ## Risorse aggiuntive
 
-* [Caso di utilizzo: Query incrementale per gli abbonati a un servizio](../../automating/using/incremental-query-on-subscribers.md)
-* [Caso di utilizzo: Aggiornamento di più stati di abbonamento da un file](../../automating/using/updating-subscriptions-from-file.md)
+* [Caso di utilizzo: query incrementale per gli abbonati a un servizio](../../automating/using/incremental-query-on-subscribers.md)
+* [Caso di utilizzo: aggiornamento di più stati di abbonamento da un file](../../automating/using/updating-subscriptions-from-file.md)
 * [Iscrizione di profili a un servizio specifico dopo l’importazione di un file](../../automating/using/subscribing-profiles-from-file.md)
 * [Consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

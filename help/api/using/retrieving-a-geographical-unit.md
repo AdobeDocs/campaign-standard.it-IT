@@ -17,8 +17,8 @@ ht-degree: 12%
 
 # Recupero dell’unità geografica di un profilo {#retrieving-geographical-unit}
 
-1. Esegui una richiesta di GET sul profilo PKey per recuperare il **geoUnit** URL.
-1. Esegui una richiesta di GET sull’URL per recuperare ulteriori dettagli sull’unità geografica.
+1. Esegui una richiesta GET sulla chiave PKey del profilo per recuperare **geoUnit** URL.
+1. Esegui una richiesta GET sull’URL per recuperare ulteriori dettagli sull’unità geografica.
 
 <br/>
 
@@ -48,7 +48,7 @@ Restituisce l’URL della geoUnit per il profilo.
 }
 ```
 
-Esegui una richiesta di GET sull’URL per recuperare ulteriori informazioni.
+Esegui una richiesta GET sull’URL per recuperare ulteriori informazioni.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
@@ -58,7 +58,7 @@ Esegui una richiesta di GET sull’URL per recuperare ulteriori informazioni.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce dettagli sull&#39;unità geografica.
+Restituisce i dettagli sull’unità geografica.
 
 ```
 {

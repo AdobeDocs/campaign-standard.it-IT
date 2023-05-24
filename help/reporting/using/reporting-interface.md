@@ -1,6 +1,6 @@
 ---
 title: Interfaccia di generazione rapporti
-description: Ulteriori informazioni sulla base dell’interfaccia dei report dinamici e su come navigare tra le diverse schede e menu.
+description: Scopri le basi dell’interfaccia per la generazione di rapporti dinamici e come navigare tra le diverse schede e menu.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -17,28 +17,28 @@ ht-degree: 3%
 
 # Interfaccia di generazione rapporti{#reporting-interface}
 
-La barra degli strumenti superiore consente, ad esempio, di modificare, salvare o stampare il rapporto.
+La barra degli strumenti superiore consente, ad esempio, di modificare, salvare o stampare il report.
 
 ![](assets/dynamic_report_toolbar.png)
 
-Utilizza la **Progetto** scheda in:
+Utilizza il **Progetto** scheda per:
 
-* **Apri..**: Apre un report o un modello creato in precedenza.
+* **Apri...**: apre un report o un modello creato in precedenza.
 * **Salva con nome...**: Duplica i modelli per poterli modificare.
-* **Aggiorna progetto**: Aggiorna il rapporto in base a nuovi dati e a modifiche ai filtri.
-* **Scarica CSV**: Esporta i rapporti in un file CSV.
+* **Aggiorna progetto**: aggiorna il rapporto in base ai nuovi dati e alle modifiche apportate ai filtri.
+* **Scarica CSV**: esporta i rapporti in un file CSV.
 
-La **Modifica** consente di:
+Il **Modifica** La scheda ti consente di:
 
-* **Annulla**: Annulla l’ultima azione sul dashboard.
-* **Cancella tutto**: Elimina ogni pannello del dashboard.
+* **Annulla**: annulla l’ultima azione sul dashboard.
+* **Cancella tutto**: elimina tutti i pannelli del dashboard.
 
-La **Inserisci** La tabella ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+Il **Inserisci** la tabella consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
 
-* **Nuovo pannello vuoto**: Aggiunge un nuovo pannello vuoto al dashboard.
-* **Nuova forma libera**: Aggiunge una nuova tabella a forma libera al dashboard.
-* **Nuova riga**: Aggiunge un nuovo grafico a linee al dashboard.
-* **Nuova barra**: Aggiunge un nuovo grafico a barre al dashboard.
+* **Nuovo pannello vuoto**: aggiunge un nuovo pannello vuoto al dashboard.
+* **Nuova forma libera**: aggiunge una nuova tabella a forma libera al dashboard.
+* **Nuova riga**: aggiunge un nuovo grafico a linee al dashboard.
+* **Nuova barra**: aggiunge un nuovo grafico a barre al dashboard.
 
 **Argomenti correlati:**
 
@@ -49,19 +49,19 @@ La **Inserisci** La tabella ti consente di personalizzare i rapporti aggiungendo
 
 ## Schede {#tabs}
 
-Le schede a sinistra ti consentono di generare il rapporto e filtrare i dati in base alle esigenze.
+Le schede a sinistra ti consentono di creare il rapporto e filtrare i dati in base alle esigenze.
 
 ![](assets/dynamic_report_interface.png)
 
 Queste schede consentono di accedere ai seguenti elementi:
 
-* **[!UICONTROL Panels]**: aggiungi un pannello vuoto o una forma libera al rapporto per iniziare a filtrare i dati. Per ulteriori informazioni, consulta la sezione Aggiunta di pannelli .
-* **[!UICONTROL Visualizations]**: trascina e rilascia una selezione di elementi di visualizzazione per assegnare al rapporto una dimensione grafica. Per ulteriori informazioni, consulta la sezione Aggiunta di visualizzazioni .
-* **[!UICONTROL Components]**: personalizzare i rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi.
+* **[!UICONTROL Panels]**: aggiungi un pannello vuoto o una figura a mano libera al rapporto per iniziare a filtrare i dati. Per ulteriori informazioni, consulta la sezione Aggiunta di pannelli
+* **[!UICONTROL Visualizations]**: trascina e rilascia una selezione di elementi di visualizzazione per conferire al rapporto una dimensione grafica. Per ulteriori informazioni, consulta la sezione Aggiunta di visualizzazioni.
+* **[!UICONTROL Components]**: personalizza i rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi.
 
 ## Barra degli strumenti {#toolbar}
 
-La barra degli strumenti si trova sopra l’area di lavoro. Composto da diverse schede, consente, ad esempio, di modificare, salvare, condividere o stampare il rapporto.
+La barra degli strumenti si trova sopra l’area di lavoro. Composto da schede diverse, consente ad esempio di modificare, salvare, condividere o stampare il report.
 
 ![](assets/dynamic_report_toolbar.png)
 
@@ -75,75 +75,75 @@ La barra degli strumenti si trova sopra l’area di lavoro. Composto da diverse 
 
 ![](assets/tab_project.png)
 
-Utilizza la **Progetto** scheda in:
+Utilizza il **Progetto** scheda per:
 
-* **Apri..**: Apre un report o un modello creato in precedenza.
+* **Apri...**: apre un report o un modello creato in precedenza.
 * **Salva con nome...**: Duplica i modelli per poterli modificare.
-* **Aggiorna progetto**: Aggiorna il rapporto in base a nuovi dati e a modifiche ai filtri.
-* **Scarica CSV**: Esporta i rapporti in un file CSV.
-* **[!UICONTROL Print]**: Stampa il rapporto.
+* **Aggiorna progetto**: aggiorna il rapporto in base ai nuovi dati e alle modifiche apportate ai filtri.
+* **Scarica CSV**: esporta i rapporti in un file CSV.
+* **[!UICONTROL Print]**: stampa il report.
 
 ### Scheda Modifica {#edit-tab}
 
 ![](assets/tab_edit.png)
 
-La **Modifica** consente di:
+Il **Modifica** La scheda ti consente di:
 
-* **Annulla**: Annulla l’ultima azione sul dashboard.
-* **Cancella tutto**: Elimina ogni pannello del dashboard.
+* **Annulla**: annulla l’ultima azione sul dashboard.
+* **Cancella tutto**: elimina tutti i pannelli del dashboard.
 
-### Inserisci, scheda {#insert-tab}
+### Scheda Inserisci {#insert-tab}
 
 ![](assets/tab_insert.png)
 
-La **Inserisci** La scheda ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+Il **Inserisci** Questa scheda consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
 
-* **Nuovo pannello vuoto**: Aggiunge un nuovo pannello vuoto al dashboard.
-* **Nuova forma libera**: Aggiunge una nuova tabella a forma libera al dashboard.
-* **Nuova riga**: Aggiunge un nuovo grafico a linee al dashboard.
-* **Nuova barra**: Aggiunge un nuovo grafico a barre al dashboard.
+* **Nuovo pannello vuoto**: aggiunge un nuovo pannello vuoto al dashboard.
+* **Nuova forma libera**: aggiunge una nuova tabella a forma libera al dashboard.
+* **Nuova riga**: aggiunge un nuovo grafico a linee al dashboard.
+* **Nuova barra**: aggiunge un nuovo grafico a barre al dashboard.
 
 ### Scheda Condividi {#share-tab}
 
 ![](assets/tab_share_1.png)
 
-La **[!UICONTROL Share]** La scheda ti consente di inviare i rapporti con gli utenti di Adobe Campaign tramite e-mail una tantum o ricorrenti. Gli utenti di destinazione riceveranno quindi un’e-mail con il rapporto allegato.
+Il **[!UICONTROL Share]** Questa scheda ti consente di inviare i rapporti con gli utenti di Adobe Campaign tramite e-mail singole o ricorrenti. Gli utenti target riceveranno un’e-mail con il report allegato.
 
-* **[!UICONTROL Send report now]**: Invia il rapporto a un elenco di destinatari selezionati tramite e-mail una tantum.
+* **[!UICONTROL Send report now]**: invia il rapporto a un elenco di destinatari selezionati tramite un’e-mail di un’unica soluzione.
 
-   1. In **[!UICONTROL Send report]** aggiungi una descrizione, se necessario.
+   1. In **[!UICONTROL Send report]** , aggiungere una descrizione, se necessario.
 
       ![](assets/tab_share_4.png)
 
-   1. Seleziona i destinatari dal menu a discesa. Non puoi selezionare utenti esterni all’organizzazione.
-   1. Controlla **[!UICONTROL Show scheduling options]** se desideri inviare e-mail ricorrenti. Questa operazione può essere eseguita anche selezionando **[!UICONTROL Send Report on schedule]** in **[!UICONTROL Share]** scheda .
-   1. Fai clic su **[!UICONTROL Send now]**. I destinatari riceveranno quindi un’e-mail con il rapporto allegato.
+   1. Seleziona i destinatari dal menu a discesa. Non è possibile selezionare utenti esterni all’organizzazione.
+   1. Verifica **[!UICONTROL Show scheduling options]** se desideri inviare e-mail ricorrenti. Questa operazione può essere eseguita anche selezionando **[!UICONTROL Send Report on schedule]** nel **[!UICONTROL Share]** scheda.
+   1. Fai clic su **[!UICONTROL Send now]**. I destinatari riceveranno un’e-mail con il report allegato.
 
-* **[!UICONTROL Send report on schedule]**: Pianifica il rapporto e invia e-mail ricorrenti ai destinatari.
+* **[!UICONTROL Send report on schedule]**: pianifica il rapporto e invia e-mail ricorrenti ai destinatari.
 
-   1. In **[!UICONTROL Send report]** aggiungi una descrizione, se necessario.
-   1. Seleziona i destinatari dal menu a discesa. Non puoi selezionare utenti esterni all’organizzazione.
+   1. In **[!UICONTROL Send report]** , aggiungere una descrizione, se necessario.
+   1. Seleziona i destinatari dal menu a discesa. Non è possibile selezionare utenti esterni all’organizzazione.
 
       ![](assets/tab_share_5.png)
 
-   1. Seleziona la data di inizio e la data di fine per configurare la validità dell’e-mail nel **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]** campi.
-   1. Scegli la frequenza con cui l’e-mail verrà inviata.
+   1. Seleziona la data di inizio e di fine per configurare la validità delle e-mail nel **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]** campi.
+   1. Scegli la frequenza con cui verrà inviata l’e-mail.
 
       ![](assets/tab_share_2.png)
 
-   1. Fai clic su **[!UICONTROL Send on schedule]**, i destinatari riceveranno l’e-mail ricorrente a seconda della frequenza scelta.
+   1. Clic **[!UICONTROL Send on schedule]**, i destinatari riceveranno l’e-mail ricorrente a seconda della frequenza scelta.
 
-* **[!UICONTROL Scheduled reports]**: Trova e configura tutti i rapporti pianificati.
+* **[!UICONTROL Scheduled reports]**: trova e configura tutti i rapporti pianificati.
 
-   1. In **[!UICONTROL Scheduled reports]** trova tutti i tuoi report inviati ricorrenti.
+   1. In **[!UICONTROL Scheduled reports]** trova tutti i rapporti inviati ricorrenti.
 
       ![](assets/tab_share_3.png)
 
-   1. Se devi eliminare uno dei rapporti pianificati, seleziona il rapporto pianificato da eliminare, quindi fai clic su **[!UICONTROL Delete the section]**.
+   1. Se devi eliminare uno dei rapporti pianificati, seleziona il rapporto che desideri eliminare e fai clic su **[!UICONTROL Delete the section]**.
    1. Per configurare o controllare i rapporti pianificati, fai clic direttamente sul rapporto da modificare.
-   1. La **[!UICONTROL Edit scheduled report]** viene visualizzata la finestra , puoi ora modificare i destinatari o la frequenza dell’e-mail, se necessario.
+   1. Il **[!UICONTROL Edit scheduled report]** viene visualizzata, ora puoi modificare i destinatari o la frequenza dell’e-mail, se necessario.
 
-Gli utenti di destinazione riceveranno quindi un’e-mail con il rapporto allegato direttamente nelle loro caselle in entrata. Gli utenti possono sempre decidere di interrompere la ricezione di e-mail ricorrenti utilizzando un collegamento di annullamento dell’abbonamento disponibile in ogni e-mail ricorrente.
+Gli utenti target riceveranno un’e-mail con il report allegato direttamente nelle loro caselle in entrata. Gli utenti possono sempre decidere di interrompere la ricezione di e-mail ricorrenti utilizzando un collegamento di annullamento all’abbonamento disponibile in ogni e-mail ricorrente.
 
 **Argomento correlato:**
 

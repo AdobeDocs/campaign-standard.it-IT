@@ -1,6 +1,6 @@
 ---
-title: Importazione di segnali esterni e dati
-description: L’esempio seguente illustra l’attività External signal utilizzata con l’importazione di dati.
+title: Importazione di segnali e dati esterni
+description: L’esempio seguente illustra l’attività External signal utilizzata con l’importazione dei dati.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 ---
 
-# Importazione di segnali esterni e dati {#external-signal-data-import}
+# Importazione di segnali e dati esterni {#external-signal-data-import}
 
 L’esempio seguente illustra l’attività **[!UICONTROL External signal]** in un caso d’uso tipico. Un’importazione dati viene eseguita in un flusso di lavoro sorgente. Dopo l’importazione dei dati e l’aggiornamento del database, viene attivato un secondo flusso di lavoro. Questo secondo flusso di lavoro viene utilizzato per aggiornare un aggregato sui dati importati.
 
@@ -44,7 +44,7 @@ Il flusso di lavoro sorgente viene presentato come segue:
 
 Il flusso di lavoro di destinazione viene presentato come segue:
 
-* Un [Segnale esterno](../../automating/using/external-signal.md) attende che il flusso di lavoro sorgente sia completato correttamente.
+* Un [Segnale esterno](../../automating/using/external-signal.md) l’attività attende il completamento del flusso di lavoro sorgente.
 * Un’attività [Query](../../automating/using/query.md#enriching-data) esegue il targeting dei profili e li arricchisce con una raccolta impostata per recuperare la data dell’ultimo acquisto.
 * Un’attività [Update data](../../automating/using/update-data.md) memorizza i dati aggiuntivi in un campo personalizzato dedicato. Nota che la risorsa profilo è stata estesa per aggiungere il campo **Last purchase date**.
 

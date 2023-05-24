@@ -17,15 +17,15 @@ ht-degree: 1%
 
 # Paginazione
 
-Per impostazione predefinita, in un elenco vengono caricate 25 risorse.
+Per impostazione predefinita, 25 risorse vengono caricate in un elenco.
 
-La **_lineCount** ti consente di limitare il numero di risorse elencate nella risposta.  È quindi possibile utilizzare la **next** per visualizzare i risultati successivi.
+Il **_lineCount** consente di limitare il numero di risorse elencate nella risposta.  È quindi possibile utilizzare **avanti** per visualizzare i risultati successivi.
 
 >[!NOTE]
 >
->Utilizza sempre il valore URL restituito nel **next** nodo per eseguire una richiesta di impaginazione.
+>Utilizza sempre il valore URL restituito in **avanti** per eseguire una richiesta di impaginazione.
 >
->La **_lineStart** La richiesta viene calcolata e deve sempre essere utilizzata all’interno dell’URL restituito nel **next** nodo.
+>Il **_lineStart** viene calcolata e deve essere sempre utilizzata all’interno dell’URL restituito nella **avanti** nodo.
 
 <br/>
 
@@ -41,7 +41,7 @@ Richiesta di GET di esempio per visualizzare 1 record della risorsa profilo.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Risposta alla richiesta, con il **next** nodo per eseguire l&#39;impaginazione.
+Risposta alla richiesta, con **avanti** per eseguire la paginazione.
 
 ```
 {
@@ -62,7 +62,7 @@ Risposta alla richiesta, con il **next** nodo per eseguire l&#39;impaginazione.
 }
 ```
 
-Per impostazione predefinita, la **next** nodo non disponibile quando si interagisce con tabelle con grandi quantità di dati. Per poter eseguire l’impaginazione, è necessario aggiungere la variabile **_forcePagination=true** all&#39;URL della chiamata.
+Per impostazione predefinita, il **avanti** Il nodo non è disponibile quando si interagisce con tabelle con grandi quantità di dati. Per poter eseguire l’impaginazione, devi aggiungere **_forcePagination=true** parametro per l’URL della chiamata.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ Per impostazione predefinita, la **next** nodo non disponibile quando si interag
 
 >[!NOTE]
 >
->In Campaign Standard è definito il numero di record al di sopra dei quali una tabella è considerata grande **XtkBigTableThreshold** opzione . Il valore predefinito è 100.000 record.
+>Il numero di record al di sopra dei quali una tabella viene considerata grande è definito in Campaign Standard **XtkBigTableThreshold** opzione. Il valore predefinito è 100.000 record.

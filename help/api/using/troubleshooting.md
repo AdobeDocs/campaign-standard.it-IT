@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # Risoluzione dei problemi API {#troubleshooting}
 
-* **Quando si accede alla console Adobe.io si verifica il seguente errore: &quot;La console Adobe I/O è disponibile solo per selezionare i membri degli account aziendali. Se ritieni di avere accesso, contatta l&#39;amministratore di sistema.&quot;**
+* **Quando si accede alla console Adobe.io viene visualizzato il seguente errore: &quot;La console Adobe I/O è disponibile solo per alcuni membri degli account enterprise. Se ritieni di dover accedere, contatta l’amministratore di sistema.&quot;**
 
-Puoi creare chiavi API solo per le organizzazioni di cui sei amministratore. Se viene visualizzato questo messaggio e desideri creare le chiavi API e chiedere a un amministratore dell’organizzazione.
+Puoi creare le chiavi API solo per le organizzazioni di cui sei amministratore. Se questo messaggio viene visualizzato e desideri creare le chiavi API e chiedere a uno degli amministratori dell’organizzazione.
 
-* **Quando effettui una richiesta ad Adobe.io ottieni {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**
+* **Quando effettui una richiesta a Adobe.io ottieni {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**
 
-Ciò significa che si è verificato un problema con il provisioning IMS del prodotto Campaign specifico: il team IMS deve correggerlo.
+Ciò significa che esiste un problema con il provisioning IMS del prodotto Campaign specifico: il team IMS deve risolverlo.
 
-Per ottenere ulteriori dettagli puoi chiamare l’API IMS con il token per vedere come si presenta il tuo profilo IMS: Devi avere un prodCtx in cui l&#39;id_organizzazione è lo stesso di quello inserito nell&#39;URL per Adobe.io per poter instradare la tua richiesta.
+Per ottenere ulteriori dettagli, puoi chiamare l’API IMS con il token per visualizzare l’aspetto del profilo IMS: per poter instradare la richiesta, è necessario disporre di un prodCtx in cui il valore organization_id sia uguale a quello inserito nell’URL, ad Adobe.io.
 Se manca, è necessario correggere il provisioning IMS.
 
 ```
@@ -39,7 +39,7 @@ Restituisce il seguente errore.
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
-Controlla il tuo profilo IMS con questa richiesta.
+Verifica il tuo profilo IMS con questa richiesta.
 
 ```
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
@@ -49,7 +49,7 @@ Controlla il tuo profilo IMS con questa richiesta.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Nella risposta, il valore ORGANIZATION_ID deve essere lo stesso nella prima richiesta di GET.
+Nella risposta, il valore ORGANIZATION_ID deve essere lo stesso nella prima richiesta GET.
 
 ```
 {
@@ -74,15 +74,15 @@ Nella risposta, il valore ORGANIZATION_ID deve essere lo stesso nella prima rich
 }
 ```
 
-* **Quando fai una richiesta ad Adobe.io ottieni {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Si è verificato un errore. Controlla l&#39;URI e riprova.&quot;}**
+* **Quando effettui una richiesta a Adobe.io ottieni {&quot;code&quot;:500, &quot;message&quot;:&quot;Oops. Si è verificato un errore. Controlla l’URI e riprova.&quot;}**
 
-Adobe.io dichiara l&#39;URI non valido: probabilmente l’URI richiesto non è valido. Su Adobe.io quando selezioni il servizio Campaign ottieni un selettore con un elenco di possibili id_organizzazione . Devi verificare che quello scelto sia quello inserito nell&#39;URL.
+Adobe.io dichiara l’URI non valido: probabilmente l’URI richiesto non è valido. Su Adobe.io, quando selezioni il servizio Campaign, ottieni un selettore con un elenco di possibili organization_ids. Devi verificare che quello scelto sia quello inserito nell’URL.
 
-* **Quando effettui una richiesta ad Adobe.io ottieni {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth token is not valid&quot;}**
+* **Quando effettui una richiesta a Adobe.io ottieni {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Token OAuth non valido&quot;}**
 
-Il token non è valido (chiamata IMS impropria utilizzata per generare un token) o il token è scaduto.
+Il token non è valido (per generare un token viene utilizzata una chiamata IMS non corretta) oppure il token è scaduto.
 
-* **Non vedo il mio profilo dopo la creazione**
+* **Non visualizzo il mio profilo dopo la creazione**
 
 A seconda della configurazione dell’istanza, il profilo creato deve essere associato a un **orgUnit**. Per informazioni su come aggiungere questo campo nella creazione, consulta [questa sezione](../../api/using/creating-profiles-api.md).
 

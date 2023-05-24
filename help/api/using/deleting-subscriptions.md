@@ -1,6 +1,6 @@
 ---
 title: Eliminazione di abbonamenti
-description: Scopri come eliminare gli abbonamenti con le API
+description: Scopri come eliminare gli abbonamenti con API
 feature: API
 role: Data Engineer
 level: Experienced
@@ -21,10 +21,10 @@ ht-degree: 0%
 Questa è una procedura in tre fasi.
 
 1. Recupera l’URL delle sottoscrizioni per il profilo desiderato.
-1. Esegui una richiesta di GET sull’URL delle sottoscrizioni.
-1. Esegui una richiesta DELETE sull’URL di servizio desiderato.
+1. Esegui una richiesta GET sull’URL degli abbonamenti.
+1. Esegui una richiesta DELETE sull’URL del servizio desiderato.
 
-Se la richiesta di cancellazione ha esito positivo, lo stato della risposta è 204 Nessun contenuto.
+Se la richiesta di eliminazione ha esito positivo, lo stato della risposta è 204 Nessun contenuto.
 
 <br/>
 
@@ -53,7 +53,7 @@ Restituisce l’URL delle sottoscrizioni per il profilo.
   }
 ```
 
-Esegui una richiesta di GET sull’URL delle sottoscrizioni.
+Esegui una richiesta GET sull’URL degli abbonamenti.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -63,7 +63,7 @@ Esegui una richiesta di GET sull’URL delle sottoscrizioni.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l’elenco delle sottoscrizioni per il profilo selezionato, con un URL per ogni servizio con sottoscrizione.
+Restituisce l’elenco degli abbonamenti per il profilo selezionato, con un URL per ciascun servizio a cui si è iscritti.
 
 ```
 ...
@@ -77,7 +77,7 @@ Restituisce l’elenco delle sottoscrizioni per il profilo selezionato, con un U
 ...
 ```
 
-Esegui una richiesta DELETE sull’URL di servizio desiderato.
+Esegui una richiesta DELETE sull’URL del servizio desiderato.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -94,10 +94,10 @@ Esegui una richiesta DELETE sull’URL di servizio desiderato.
 Questa è una procedura in tre fasi.
 
 1. Recupera il servizio desiderato e il relativo URL di abbonamento.
-1. Esegui una richiesta di GET sull’URL delle sottoscrizioni per recuperare tutte le sottoscrizioni di profili.
-1. Esegui una richiesta di DELETE sull’URL di sottoscrizione del profilo desiderato.
+1. Esegui una richiesta GET sull’URL delle sottoscrizioni per recuperare tutte le sottoscrizioni dei profili.
+1. Esegui una richiesta DELETE sull’URL di abbonamento del profilo desiderato.
 
-Se la richiesta di cancellazione ha esito positivo, lo stato della risposta è 204 Nessun contenuto.
+Se la richiesta di eliminazione ha esito positivo, lo stato della risposta è 204 Nessun contenuto.
 
 <br/>
 
@@ -113,7 +113,7 @@ Recupera il record del servizio.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l’URL delle sottoscrizioni per il servizio.
+Restituisce l’URL degli abbonamenti per il servizio.
 
 ```
 {
@@ -130,7 +130,7 @@ Restituisce l’URL delle sottoscrizioni per il servizio.
 },
 ```
 
-Esegui una richiesta di GET sull’URL delle sottoscrizioni.
+Esegui una richiesta GET sull’URL degli abbonamenti.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -140,7 +140,7 @@ Esegui una richiesta di GET sull’URL delle sottoscrizioni.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l’elenco delle sottoscrizioni per il servizio selezionato, con un URL (href) per ogni abbonamento al profilo.
+Restituisce l’elenco degli abbonamenti per il servizio selezionato, con un URL (href) per ogni abbonamento al profilo.
 
 ```
 {
@@ -157,7 +157,7 @@ Restituisce l’elenco delle sottoscrizioni per il servizio selezionato, con un 
 }
 ```
 
-Esegui una richiesta di DELETE sull’URL di sottoscrizione del profilo desiderato.
+Esegui una richiesta DELETE sull’URL di abbonamento del profilo desiderato.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

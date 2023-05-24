@@ -17,8 +17,8 @@ ht-degree: 10%
 
 # Aggiornamento dell’unità organizzativa di un profilo {#managing-organizational-units}
 
-1. Esegui una richiesta di GET sul **orgUnitBase** risorsa per recuperare l’unità organizzativa PKey
-1. Esegui una richiesta PATCH sul profilo PKey, con l’unità organizzativa desiderata PKey nel payload.
+1. Eseguire una richiesta GET su **orgUnitBase** risorsa per recuperare l&#39;unità organizzativa PKey
+1. Esegui una richiesta PATCH sul profilo PKey, con l’unità organizzativa PKey desiderata nel payload.
 
 <br/>
 
@@ -34,7 +34,7 @@ Recupera l’elenco delle unità organizzative.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce tutte le unità organizzative. Recupera il PKey dell’unità a cui desideri assegnare il profilo.
+Restituisce tutte le unità organizzative. Recuperate la chiave PK dell&#39;unità a cui desiderate assegnare il profilo.
 
 ```
 {
@@ -50,7 +50,7 @@ Restituisce tutte le unità organizzative. Recupera il PKey dell’unità a cui 
 },
 ```
 
-Esegui una richiesta di PATCH sul profilo con il PKey dell’unità organizzativa desiderata nel payload.
+Esegui una richiesta PATCH sul profilo, con la PKey dell’unità organizzativa desiderata nel payload.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

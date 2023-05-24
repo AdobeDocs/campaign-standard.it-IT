@@ -1,6 +1,6 @@
 ---
 title: Configurazione del canale SMS
-description: Scopri i passaggi di configurazione di SMS, inclusi routing, codifica, formati e proprietà avanzate
+description: Scopri i passaggi di configurazione SMS, tra cui indirizzamento, codifica, formati e proprietà avanzate
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -23,7 +23,7 @@ I passaggi per creare e modificare un account esterno sono descritti in dettagli
 
 >[!IMPORTANT]
 >
->L’utilizzo dello stesso account e della stessa password per più account SMS esterni può causare conflitti e sovrapposizioni tra gli account. Fai riferimento a [Pagina di risoluzione dei problemi SMS](troubleshooting-sms.md#external-account-conflict).
+>L’utilizzo dello stesso account e della stessa password per più account SMS esterni può causare conflitti e sovrapposizioni tra gli account. Consulta la sezione [Pagina Risoluzione dei problemi di SMS](troubleshooting-sms.md#external-account-conflict).
 
 L’account esterno **[!UICONTROL SMS routing via SMPP]** viene fornito per impostazione predefinita, ma può essere utile aggiungere altri account.
 
@@ -59,7 +59,7 @@ Se desideri utilizzare il protocollo SMPP, puoi anche creare un nuovo account es
 
    I valori di tutti i campi corrispondenti alle durate devono essere completati in secondi.
 
-1. Definisci i parametri specifici dell’SMS-C nel caso in cui sia necessario definire una mappatura di codifica specifica. Per ulteriori informazioni, consulta la sezione [Specifiche di SMSC](#smsc-specifics).
+1. Definisci i parametri specifici di SMS-C nel caso sia necessario definire una mappatura di codifica specifica. Per ulteriori informazioni, consulta la sezione [Specifiche di SMSC](#smsc-specifics).
 
    Abilita l’opzione **[!UICONTROL Send full phone number (send characters other than digits)]** se non desideri rispettare il protocollo SMPP e trasferire il prefisso **[!UICONTROL +]** al server del provider SMS (SMS-C).
 
@@ -317,7 +317,7 @@ La funzionalità **[!UICONTROL Define a specific mapping of encodings]** ti cons
 
 ### Risposta automatica inviata al MO {#automatic-reply-sent-to-the-mo}
 
-Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, puoi configurare messaggi che vengono loro automaticamente inviati di nuovo, nonché l’azione da eseguire.
+Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, puoi configurare i messaggi che vengono inviati automaticamente e l’azione da eseguire.
 
 Per ulteriori informazioni, consulta [questa sezione](../../channels/using/managing-incoming-sms.md).
 
@@ -329,15 +329,15 @@ I parametri specifici per l’invio di messaggi SMS sono raggruppati nelle sezio
 
 ![](assets/sms_options.png)
 
-Da **[!UICONTROL Advanced parameters]** sezione:
+Dalla sezione **[!UICONTROL Advanced parameters]** sezione:
 
-* La **[!UICONTROL Short code]** consente di aggiungere un codice breve specifico alla consegna. I destinatari che hanno rinunciato a questo codice breve specifico verranno automaticamente esclusi durante la preparazione dei messaggi. Per ulteriori informazioni su come configurare il codice breve, consulta [questa sezione](../../channels/using/managing-incoming-sms.md).
+* Il **[!UICONTROL Short code]** consente di aggiungere alla consegna un codice breve specifico. I destinatari che hanno rinunciato a questo specifico codice breve verranno automaticamente esclusi durante la preparazione del messaggio. Per ulteriori informazioni su come configurare il codice breve, consulta [questa sezione](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >Se la **[!UICONTROL Short code]** il campo viene lasciato vuoto, il valore del **[!UICONTROL Short code]** verrà utilizzato il campo impostato nell’account esterno.
+   >Se il **[!UICONTROL Short code]** viene lasciato vuoto, il valore della proprietà **[!UICONTROL Short code]** verrà utilizzato il campo impostato nell’account esterno.
 
-Da **[!UICONTROL Send]** sezione di un modello SMS:
+Dalla sezione **[!UICONTROL Send]** sezione di un modello SMS:
 
 * L’opzione **[!UICONTROL Maximum number of SMS per message]** ti consente di definire il numero di messaggi SMS da utilizzare per inviare un messaggio. Se questo numero viene superato, il messaggio non viene inviato.
 

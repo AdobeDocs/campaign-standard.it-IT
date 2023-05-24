@@ -32,5 +32,5 @@ Di seguito è riportato un esempio di flusso di lavoro che combina i canali di d
 
 **Argomenti correlati:**
 
-* [Attività di consegna direct mailing](../../automating/using/direct-mail-delivery.md)
+* [Attività di consegna direct mail](../../automating/using/direct-mail-delivery.md)
 * [Informazioni sul direct mailing](../../channels/using/about-direct-mail.md)

@@ -1,6 +1,6 @@
 ---
 title: Informazioni sulla configurazione dei canali
-description: Scopri come configurare i canali, inclusa la configurazione tecnica, le proprietà dei messaggi e i modelli
+description: Scopri come configurare i canali, inclusa la configurazione tecnica, le proprietà e i modelli dei messaggi
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 4%
 
 # Informazioni sulla configurazione dei canali{#about-channel-configuration}
 
-Tutti i canali di comunicazione in Adobe Campaign devono essere configurati correttamente per essere in grado di inviare messaggi in modo efficace.
+Tutti i canali di comunicazione in Adobe Campaign devono essere configurati correttamente per poter inviare messaggi in modo efficace.
 
 Le diverse configurazioni sono le seguenti:
 
-* Configurazione tecnica del canale, compresi ciclo di produzione, regole di elaborazione, parametri di consegna, ecc.
-* Modelli e proprietà dei messaggi. Tutti i messaggi sono basati su un modello. Adobe Campaign è dotato di un set di modelli predefiniti per tutti i canali attivati. Puoi duplicare e personalizzare questi modelli.
-* Proprietà del messaggio. Quando crei un nuovo messaggio, puoi perfezionare le proprietà in base alle tue esigenze.
-* Alcuni canali offrono configurazioni aggiuntive facoltative, ad esempio Ccn e-mail.
+* Configurazione tecnica del canale, inclusi routing, regole di elaborazione, parametri di recapito messaggi, ecc.
+* Modelli di messaggio e proprietà. Tutti i messaggi si basano su un modello. Adobe Campaign viene fornito con un set di modelli predefiniti per tutti i canali attivati. Puoi duplicare e personalizzare questi modelli.
+* Proprietà del messaggio. Quando crei un nuovo messaggio, puoi perfezionare le proprietà a seconda delle tue esigenze.
+* Alcuni canali offrono configurazioni aggiuntive facoltative, ad esempio E-mail con indirizzi Ccn.
 
-La **[!UICONTROL Channel]** il menu raggruppa i parametri tecnici collegati ai diversi canali dell’applicazione (E-mail, SMS), nonché la gestione della tipologia e della quarantena.
+Il **[!UICONTROL Channel]** Il menu raggruppa i parametri tecnici collegati ai diversi canali dell’applicazione (e-mail, SMS), nonché alla gestione della tipologia e della quarantena.
 
 Gli amministratori possono accedere a queste configurazioni nel **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.

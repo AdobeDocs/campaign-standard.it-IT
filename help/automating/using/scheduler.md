@@ -34,12 +34,12 @@ Durante la creazione del flusso di lavoro, utilizza una sola attività **[!UICON
 >
 >La **[!UICONTROL Repetition frequency]** dell’attività non può essere inferiore a 10 minuti. Ciò significa che non è possibile eseguire automaticamente un flusso di lavoro più di una volta ogni 10 minuti.
 
-Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga riprogrammato fino al termine. A questo scopo, devi configurare il flusso di lavoro per impedirne l’esecuzione se una o più attività di un’esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
+Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga ripianificato fino al suo completamento. A questo scopo, devi configurare il flusso di lavoro per impedirne l’esecuzione se una o più attività di un’esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Creazione di consegne nella data di creazione dei profili](../../automating/using/workflow-creation-date-query.md)
-* [Caso di utilizzo: Creazione di una consegna e-mail ogni martedì](../../automating/using/workflow-weekly-offer.md)
+* [Caso di utilizzo: creazione di consegne nella data di creazione dei profili](../../automating/using/workflow-creation-date-query.md)
+* [Caso di utilizzo: creazione di una consegna e-mail ogni martedì](../../automating/using/workflow-weekly-offer.md)
 
 ## Configurazione {#configuration}
 

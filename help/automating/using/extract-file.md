@@ -34,7 +34,7 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Esportazione di profili in un file esterno](../../automating/using/exporting-profiles-in-file.md)
+* [Caso di utilizzo: esportazione di profili in un file esterno](../../automating/using/exporting-profiles-in-file.md)
 
 ## Configurazione {#configuration}
 
@@ -43,7 +43,7 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
    ![](assets/wkf_data_export1.png)
 
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
-1. Immetti l’etichetta del **file di output**. L’etichetta del file viene automaticamente completata con la data e l’ora di creazione, in modo che sia univoca. Ad esempio: recipients_20150815_081532.txt per un file generato il 15 agosto 2015 alle 08:15:32.
+1. Immetti l’etichetta del **file di output**. L’etichetta del file viene automaticamente completata con la data e l’ora di creazione, in modo che sia univoca. Ad esempio: recipients_20150815_081532.txt per un file generato il 15 agosto 2015 alle 08:15:32
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
 
 1. Se lo desideri, puoi comprimere il file di output selezionando **[!UICONTROL Compression]** nel campo **[!UICONTROL Add a post-processing stage]**. Il file di output viene compresso in un file GZIP (.gz).
 
-   La **[!UICONTROL Add a post-processing stage]** consente inoltre di crittografare un file prima di estrarlo. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
+   Il **[!UICONTROL Add a post-processing stage]** consente inoltre di crittografare un file prima di estrarlo. Per ulteriori informazioni su come utilizzare i file crittografati, consulta [questa sezione](../../automating/using/managing-encrypted-data.md)
 
-1. Fai clic sul pulsante **[!UICONTROL Create element]** per aggiungere una colonna di output.
+1. Fai clic su **[!UICONTROL Create element]** per aggiungere una colonna di output.
 
    ![](assets/wkf_data_export2.png)
 
@@ -78,7 +78,7 @@ La modalità di estrazione dei dati viene definita durante la configurazione del
 
    >[!NOTE]
    >
-   >Se desideri estrarre i dati in un file CSV con una codifica specifica, seleziona prima il formato di output &quot;Testo&quot;. Scegli la codifica desiderata dall’elenco a discesa, quindi modifica il formato di output in &quot;CSV (Excel)&quot;.
+   >Se desideri estrarre i dati in un file CSV con una codifica specifica, seleziona innanzitutto il formato di output &quot;Testo&quot;. Scegli la codifica desiderata dall’elenco a discesa, quindi modifica il formato di output in &quot;CSV (Excel)&quot;.
 
 1. Nella scheda **[!UICONTROL Properties]**, seleziona l’opzione **[!UICONTROL Do not generate a file if the inbound transition is empty]** per evitare di creare e caricare file vuoti sui server SFTP se la transizione in entrata è vuota.
 1. Conferma la configurazione dell’attività e salva il flusso di lavoro.

@@ -14,7 +14,7 @@ ht-degree: 40%
 
 ---
 
-# Pubblico (nms:pubblico)
+# Pubblico (nms:audience)
 
 ## Descrizione oggetto
 
@@ -34,7 +34,7 @@ ht-degree: 40%
                <tr>
                   <td>aamMappingId</td>
                   <td>ID mappatura Audience Manager</td>
-                  <td>string (100)</td>
+                  <td>stringa (100)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -45,25 +45,25 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Anteprima gruppo selezionato</td>
+                  <td>Anteprima popolazione selezionata</td>
                   <td>raccolta </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
                   <td>Schema dati</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>Usa un numero di riga come ID</td>
+                  <td>Utilizza un numero di riga come ID</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -75,7 +75,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>Data conteggio</td>
+                  <td>Data di conteggio</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -100,7 +100,7 @@ ht-degree: 40%
                <tr>
                   <td>desc</td>
                   <td>Descrizione</td>
-                  <td>string (512)</td>
+                  <td>stringa (512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ht-degree: 40%
                <tr>
                   <td>label</td>
                   <td>Etichetta</td>
-                  <td>string (128)</td>
+                  <td>stringa (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,7 +172,7 @@ ht-degree: 40%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>stringa (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -182,7 +182,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>denyFilename</td>
+                  <td>rifiutaNomeFile</td>
                   <td>File di rifiuto</td>
                   <td>stringa </td>
                   <td> </td>
@@ -208,7 +208,7 @@ ht-degree: 40%
                <tr>
                   <td>title</td>
                   <td>Pubblico</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -217,10 +217,10 @@ ht-degree: 40%
                   <td>enumerazione (stringa) (100)</td>
                   <td>
                      <ul>
-                        <li>Query - query</li>
-                        <li>Elenco - elenco</li>
+                        <li>Query - query - query</li>
+                        <li>Elenco - elenco - elenco</li>
                         <li>File - file - file</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -240,7 +240,7 @@ ht-degree: 40%
 
 ## Filtri
 
-Filtrando la dimensione (perFilteringResource)
+Per dimensione filtro (byFilteringResource)
 
 <table>
     <tr>
@@ -248,7 +248,7 @@ Filtrando la dimensione (perFilteringResource)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>filterResource</td>
+    <td>filteringResource</td>
     <td>stringa</td>
     </tr>
 </table>

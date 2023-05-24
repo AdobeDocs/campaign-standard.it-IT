@@ -1,6 +1,6 @@
 ---
 title: Indicatori di tracciamento
-description: Con il rapporto preconfigurato degli indicatori di tracciamento , scopri il comportamento dei clienti quando ricevono i messaggi e-mail.
+description: Con il rapporto preconfigurato Indicatori di tracciamento, scopri il comportamento dei clienti quando ricevono messaggi e-mail.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,19 +18,19 @@ ht-degree: 2%
 
 # Indicatori di tracciamento{#tracking-indicators}
 
-La **[!UICONTROL Tracking indicators]** il rapporto contiene gli indicatori chiave per il tracciamento del comportamento dopo la ricezione dei messaggi e-mail.
+Il **[!UICONTROL Tracking indicators]** Il rapporto contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail.
 
 >[!NOTE]
 >
->Per accedere a questi dati, è necessario abilitare il tracciamento durante la preparazione di una consegna.
+>Per accedere a questi dati, il tracciamento deve essere abilitato durante la preparazione di una consegna.
 
 ![](assets/delivery_reports_2.png)
 
-La **[!UICONTROL Tracking indicators]** tabella e **5 consegne principali** Il grafico contiene i dati disponibili per il tracciamento delle e-mail, ad esempio:
+Il **[!UICONTROL Tracking indicators]** tabella e **Prime 5 consegne** Il grafico contiene i dati disponibili per il tracciamento e-mail, ad esempio:
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente. Vengono presi in considerazione gli errori generati (mancati recapiti). tuttavia, non si tiene conto delle denunce (dichiarazioni spam) e dei messaggi di allontanamento, quali &quot;fuori sede&quot;.
-* **Apri**: Il numero di volte in cui un messaggio è stato aperto in una consegna.
-* **Fai clic su**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
-* **Annulla sottoscrizione**: Il numero di clic sul collegamento di abbonamento.
+* **[!UICONTROL Delivered]**: numero di messaggi inviati correttamente. Gli errori generati (mancati recapiti) vengono presi in considerazione. tuttavia, i reclami (dichiarazioni spam) e i messaggi di allontanamento come &quot;fuori sede&quot; non vengono presi in considerazione.
+* **Apri**: numero di volte in cui un messaggio è stato aperto in una consegna.
+* **Clic**: il numero di volte in cui è stato fatto clic sul contenuto in una consegna.
+* **Annullamento iscrizione**: numero di clic sul collegamento di abbonamento.
 * **Spam:** Il numero di destinatari che hanno dichiarato un’e-mail come spam.
-* **Pagina speculare**: Il numero di clic sul collegamento della pagina speculare.
+* **Pagina mirror**: numero di clic sul collegamento della pagina speculare.

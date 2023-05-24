@@ -1,6 +1,6 @@
 ---
 title: Messaggi non recapitati e non trasferibili
-description: Con il rapporto Non-deliverable e bounce out-of-the-box , scopri gli errori che possono verificarsi alla consegna.
+description: Con il rapporto sui messaggi non recapitati e non recapitati pronto all’uso, scopri gli errori che possono verificarsi alla consegna.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Messaggi non recapitati e non trasferibili{#non-deliverables-and-bounces}
 
-La **[!UICONTROL Non-deliverables and bounces]** Il report fornisce dettagli su tutti gli errori rilevati durante una consegna.
+Il **[!UICONTROL Non-deliverables and bounces]** Il rapporto fornisce dettagli su tutti gli errori riscontrati durante una consegna.
 
 ![](assets/delivery_reports_7.png)
 
-La **[!UICONTROL Overview]** la tabella contiene i dati disponibili relativi ai possibili errori riscontrati per ogni consegna, ad esempio:
+Il **[!UICONTROL Overview]** la tabella contiene i dati disponibili sui possibili errori che possono essere riscontrati per ciascuna consegna, ad esempio:
 
-* **Elaborato/inviato**: Numero di e-mail inviate.
-* **Consegnato**: Il numero di e-mail consegnate.
-* **Rimbalzo morbido**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
-* **Rimbalzo duro**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
-* **Rimbalzi + errori**: Numero di messaggi che non è stato possibile recapitare.
+* **Elaborato/inviato**: numero di e-mail inviate.
+* **Consegnato**: numero di e-mail consegnate.
+* **Mancato recapito non permanente**: numero totale di errori temporanei, ad esempio una casella in entrata completa.
+* **Mancato recapito permanente**: numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
+* **Mancati recapiti + errori**: numero di messaggi che non è stato possibile recapitare.
 
-La **Suddivisione per dominio** nella tabella sono elencati i mancati recapiti per i domini dei destinatari.
+Il **Raggruppamento per dominio** nella tabella sono elencati i mancati recapiti per dominio dei destinatari.

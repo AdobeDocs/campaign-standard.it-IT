@@ -53,7 +53,7 @@ Nel contesto specifico di un test A/B:
 
       >[!NOTE]
       >
-      >Se la popolazione totale è inferiore a 50 k, ogni variante deve rappresentare almeno il 10% della popolazione totale.
+      >Se la popolazione totale è inferiore a 50k, ogni variante deve rappresentare almeno il 10% della popolazione totale.
 
    * **[!UICONTROL Winner sending method]**: scegli se desideri che la variante vincente sia inviata automaticamente una volta determinata o se desideri confermare manualmente l’invio alla popolazione rimanente.
    * **[!UICONTROL Test duration]**: specifica la durata del test. La variante vincente viene determinata automaticamente dopo tale durata. Puoi scegliere manualmente la variante vincente prima della fine del test dal dashboard e-mail.

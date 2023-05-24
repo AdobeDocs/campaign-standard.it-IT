@@ -15,7 +15,7 @@ ht-degree: 94%
 
 ---
 
-# Casi di utilizzo degli attivatori di abbandono{#abandonment-triggers-use-cases}
+# Casi di utilizzo dei trigger di abbandono{#abandonment-triggers-use-cases}
 
 Questa sezione presenta diversi casi d’uso che possono essere implementati utilizzando l’integrazione tra Adobe Campaign ed Experience Cloud Triggers. Sono disponibili due esempi di casi d’uso:
 
@@ -64,7 +64,7 @@ Ora che abbiamo creato un trigger Experience Cloud, lo utilizziamo all’interno
 
 In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in Experience Cloud.
 
-1. Per creare il trigger in Adobe Campaign, fai clic sul pulsante **Adobe** , nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Per creare il trigger in Adobe Campaign, fai clic sul pulsante **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in E
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Per visualizzare il modello di messaggio, fai clic sul pulsante **[!UICONTROL More]** in alto a destra, quindi fai clic su **[!UICONTROL Trigger Transactional Template]**.
+1. Per visualizzare il modello di messaggio, fai clic su **[!UICONTROL More]** in alto a destra, quindi fai clic su **[!UICONTROL Trigger Transactional Template]**.
 
 1. Personalizza il contenuto e i dettagli del mittente.
 
@@ -101,11 +101,11 @@ In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in E
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Il destinatario fa clic su un collegamento che lo porta al tuo sito web. In questo esempio, il banner conduce il destinatario alla pagina Home del tuo sito web di prenotazione di viaggi.
+1. Il destinatario fa clic su un collegamento che lo porta al sito web. In questo esempio, il banner conduce il destinatario alla pagina Home del tuo sito web di prenotazione di viaggi.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. Il destinatario va alla pagina &quot;Offerte&quot; ma improvvisamente interrompe la visita. Dopo 10 minuti, Adobe Campaign attiva l’invio del messaggio sulle transazioni.
+1. Il destinatario va alla pagina &quot;Offerte&quot;, ma improvvisamente interrompe la visita. Dopo 10 minuti, Adobe Campaign attiva l’invio del messaggio sulle transazioni.
 
    ![](assets/trigger_uc_browse_12.png)
 

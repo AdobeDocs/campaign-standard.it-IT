@@ -71,7 +71,7 @@ Per creare il nuovo campo **Interest** per i profili, devi innanzitutto estender
 
 1. Fai clic su **[!UICONTROL Add an element]** e aggiungi tutti i valori necessari aggiungendo un **[!UICONTROL Label]** e un **[!UICONTROL ID]** e facendo clic su **[!UICONTROL Add]**.
 
-   In questo esempio, crea i valori Books, Exhibitions, Movies e N/D affinché i profili possano scegliere tra queste opzioni.
+   In questo esempio, crea i valori Books, Exhibitions, Movies e N/A affinché i profili possano scegliere tra queste opzioni.
 
    ![](assets/schema_extension_uc11.png)
 

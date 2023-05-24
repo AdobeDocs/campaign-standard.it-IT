@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Attività SMS delivery{#sms-delivery}
+# Consegna SMS{#sms-delivery}
 
 ## Descrizione {#description}
 

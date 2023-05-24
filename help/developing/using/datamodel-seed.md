@@ -1,5 +1,5 @@
 ---
-title: Membro del set del modello dati
+title: Membro di seed DataModel
 description: Scopri il modello dati
 audience: developing
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 47%
 
 ---
 
-# Membro del seme (nms:seedMember)
+# Membro seed (nms:seedMember)
 
 ## Descrizione oggetto
 
@@ -52,13 +52,13 @@ ht-degree: 47%
                <tr>
                   <td>desc</td>
                   <td>Descrizione</td>
-                  <td>string (512)</td>
+                  <td>stringa (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>e-mail</td>
                   <td>E-mail</td>
-                  <td>string (128)</td>
+                  <td>stringa (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +70,7 @@ ht-degree: 47%
                <tr>
                   <td>fax</td>
                   <td>Fax</td>
-                  <td>string (32)</td>
+                  <td>stringa (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -99,8 +99,8 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>ID Marketing Cloud</td>
-                  <td>string (256)</td>
+                  <td>ID MARKETING CLOUD</td>
+                  <td>stringa (256)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,7 +112,7 @@ ht-degree: 47%
                <tr>
                   <td>mobilePhone</td>
                   <td>Mobile</td>
-                  <td>string (32)</td>
+                  <td>stringa (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -124,7 +124,7 @@ ht-degree: 47%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>stringa (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -148,11 +148,11 @@ ht-degree: 47%
                <tr>
                   <td>telefono</td>
                   <td>Telefono</td>
-                  <td>string (32)</td>
+                  <td>stringa (32)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>prova</td>
+                  <td>bozza</td>
                   <td>Bozza</td>
                   <td>booleano </td>
                   <td> </td>
@@ -160,13 +160,13 @@ ht-degree: 47%
                <tr>
                   <td>pushNotification</td>
                   <td>notifica push</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>registrationToken</td>
                   <td>Token di registrazione</td>
-                  <td>string (256)</td>
+                  <td>stringa (256)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,11 +178,11 @@ ht-degree: 47%
                <tr>
                   <td>sms</td>
                   <td>Mobile</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>stateLink (stato)</td>
+                  <td>stateLink (state)</td>
                   <td>Stato</td>
                   <td>link </td>
                   <td> </td>
@@ -196,13 +196,13 @@ ht-degree: 47%
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>Profilo di prova</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -241,7 +241,7 @@ Per nome o etichetta (byText)
         </tr>
     </table>
 
-Per utilizzo (perUtilizzo)
+Per utilizzo (byUsage)
 
 <table>
         <tr>
@@ -257,7 +257,7 @@ Per utilizzo (perUtilizzo)
         <td>booleano</td>
         </tr>
         <tr>
-        <td>prova</td>
+        <td>bozza</td>
         <td>booleano</td>
         </tr>
     </table>

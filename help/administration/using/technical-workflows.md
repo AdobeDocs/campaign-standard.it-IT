@@ -92,22 +92,22 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
    <tr> 
    <td> <span class="uicontrol">Sync with Launch</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Questo flusso di lavoro sincronizza le proprietà del tag mobile importato in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
+   <td> Questo flusso di lavoro sincronizza le proprietà dei tag mobili importate in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Ripristino dei registri di tracciamento</span> <br /> </td> 
+   <td> <span class="uicontrol">Tracciamento del recupero dei registri</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> Questo flusso di lavoro sincronizza le proprietà del tag mobile importato in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
+   <td> Questo flusso di lavoro sincronizza le proprietà dei tag mobili importate in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Recupera registri di tracciamento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Questo flusso di lavoro ripristina i registri di tracciamento persi. Tieni presente che questo flusso di lavoro tecnico viene utilizzato in contesti specifici e limitato solo all’uso interno di Adobe. <br> Per impostazione predefinita viene avviato ogni 10 minuti.<br /> </td> 
+   <td> Questo flusso di lavoro ripristina i registri di tracciamento persi. Tieni presente che questo flusso di lavoro tecnico viene utilizzato in contesti specifici e limitato al solo uso interno Adobe. <br> Per impostazione predefinita viene avviato ogni 10 minuti.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Update delivery execution</span> <br/> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
-   <td> Questo flusso di lavoro copia i registri di trasmissione e di tracciamento nel database locale. Per impostazione predefinita viene avviato ogni 10 minuti.<br/> </td> 
+   <td> Questo flusso di lavoro copia i registri di trasmissione e i registri di tracciamento nel database locale. Per impostazione predefinita viene avviato ogni 10 minuti.<br/> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Update delivery indicators</span> <br /> </td> 

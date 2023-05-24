@@ -1,6 +1,6 @@
 ---
 title: Esportare dati da Campaign ad Adobe Experience Platform
-description: Scopri come esportare dati da Campaign Standard a Adobe Experience Platform.
+description: Scopri come esportare i dati da Campaign Standard a Adobe Experience Platform.
 audience: integrating
 content-type: reference
 role: Data Architect
@@ -15,17 +15,17 @@ ht-degree: 6%
 
 # Esportare dati da Campaign ad Adobe Experience Platform {#sources}
 
-Per esportare i dati di Campaign Standard in Adobe Real-time Customer Data Platform (RTCDP), devi innanzitutto creare un flusso di lavoro in Campaign Standard per esportare nel servizio di archiviazione Amazon (S3) o nel percorso di archiviazione BLOB di Azure i dati che desideri condividere.
+Per esportare i dati di Campaign Standard in Adobe Real-time Customer Data Platform (RTCDP), devi innanzitutto creare un flusso di lavoro in Campaign Standard per esportare nel percorso di archiviazione di Amazon Storage Service (S3) o Azure Blob i dati che desideri condividere.
 
-Una volta configurato il flusso di lavoro e inviati i dati al percorso di archiviazione, è necessario collegare il percorso di archiviazione BLOB S3 o Azure come **Origine** in Adobe experience Platform.
+Una volta configurato il flusso di lavoro e inviati i dati al percorso di archiviazione, è necessario collegare il percorso di archiviazione BLOB di S3 o Azure come **Sorgente** in Adobe experience Platform.
 
 >[!NOTE]
 >
->È consigliabile esportare solo i dati generati da Campaign (ad esempio, invii, aperture, clic, ecc.) a Adobe Experience Platform. I dati acquisiti da un’origine di terze parti (come il CRM) devono essere importati direttamente in Adobe Experience Platform.
+>Si consiglia di esportare solo i dati generati da Campaign (ad esempio invii, aperture, clic ecc.) a Adobe Experience Platform. I dati acquisiti da un’origine di terze parti (come il CRM) devono essere importati direttamente in Adobe Experience Platform.
 
 ## Creare un flusso di lavoro di esportazione in Campaign Standard
 
-Per esportare i dati da Campaign Standard nel percorso di archiviazione S3 o Azure Blob, è necessario creare un flusso di lavoro per eseguire il targeting dei dati da esportare e inviarli al percorso di archiviazione.
+Per esportare i dati da Campaign Standard nel percorso di archiviazione S3 o BLOB di Azure, devi creare un flusso di lavoro per eseguire il targeting dei dati da esportare e inviarli al percorso di archiviazione.
 
 A questo scopo, aggiungi e configura:
 
@@ -37,11 +37,11 @@ A questo scopo, aggiungi e configura:
 
    ![](assets/rtcdp-transfer-file.png)
 
-Ad esempio, il flusso di lavoro seguente estrae regolarmente i registri in un file CSV, quindi li trasferisce in una posizione di archiviazione.
+Ad esempio, il flusso di lavoro seguente estrae i registri regolarmente in un file CSV, quindi trasferisce il file in un percorso di archiviazione.
 
 ![](assets/aep-export.png)
 
-Esempi di flussi di lavoro di gestione dei dati sono disponibili nel [casi di utilizzo dei flussi di lavoro](../../automating/using/about-workflow-use-cases.md#management) sezione .
+Esempi di flussi di lavoro per la gestione dei dati sono disponibili nella [casi di utilizzo dei flussi di lavoro](../../automating/using/about-workflow-use-cases.md#management) sezione.
 
 Argomenti correlati:
 
@@ -51,9 +51,9 @@ Argomenti correlati:
 
 ## Collegare la posizione di archiviazione come origine
 
-I passaggi principali per collegare il servizio di archiviazione Amazon (S3) o il percorso di archiviazione BLOB di Azure come **Origine** in Adobe experience Platform sono elencati di seguito. Informazioni dettagliate su ciascuno di questi passaggi sono disponibili nella sezione [Documentazione dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it).
+I passaggi principali per connettere il servizio di archiviazione Amazon (S3) o il percorso di archiviazione BLOB di Azure come **Sorgente** in Adobe experience Platform sono elencati di seguito. Informazioni dettagliate su ciascuna di queste fasi sono disponibili nella [Documentazione dei connettori di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it).
 
-1. In Adobe Experience Platform **[!UICONTROL Sources]** creare una connessione al percorso di archiviazione:
+1. In Adobe Experience Platform **[!UICONTROL Sources]** creare una connessione alla posizione di archiviazione:
 
    * [Creare una connessione sorgente Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
    * [Connettore BLOB di Azure](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
@@ -64,12 +64,12 @@ I passaggi principali per collegare il servizio di archiviazione Amazon (S3) o i
 
    ![](assets/rtcdp-connector.png)
 
-1. Configurare un flusso di dati per una connessione batch di archiviazione cloud. Un flusso di dati è un’attività pianificata che recupera e trasferisce i dati dal percorso di archiviazione a un set di dati Adobe Experience Platform. Questa procedura consente di configurare l’acquisizione dei dati dalla posizione di archiviazione, inclusa la selezione dei dati e la mappatura dei campi CSV su uno schema XDM.
+1. Configurare un flusso di dati per una connessione batch di archiviazione cloud. Un flusso di dati è un’attività pianificata che recupera e acquisisce i dati dal percorso di archiviazione a un set di dati Adobe Experience Platform. Questi passaggi ti consentono di configurare l’acquisizione dei dati dalla posizione di archiviazione, inclusa la selezione dei dati e la mappatura dei campi CSV su uno schema XDM.
 
-   Informazioni dettagliate sono disponibili in [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
+   Informazioni dettagliate sono disponibili su [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
 
    ![](assets/rtcdp-map-xdm.png)
 
-1. Dopo la configurazione dell’origine, Adobe Experience Platform importa il file dal percorso di archiviazione fornito.
+1. Dopo aver configurato l&#39;origine, Adobe Experience Platform importa il file dal percorso di archiviazione fornito.
 
-   Questa operazione può essere pianificata in base alle tue esigenze. Consigliamo di eseguire l’esportazione fino a 6 volte al giorno, a seconda del carico già presente nell’istanza.
+   Questa operazione può essere pianificata in base alle tue esigenze. È consigliabile eseguire l’esportazione fino a 6 volte al giorno, a seconda del carico già presente nell’istanza.

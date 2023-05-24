@@ -1,6 +1,6 @@
 ---
 title: URL e flussi di clic
-description: Con gli URL e il rapporto sui flussi di clic out-of-the-box, scopri il successo degli URL nelle consegne.
+description: Con gli URL e i flussi di clic per un rapporto predefinito, scopri come funzionano gli URL nelle consegne.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # URL e flussi di clic{#urls-and-click-streams}
 
-La **URL e flussi di clic** mostra gli URL più selezionati durante una consegna, o più consegne se sono collegati a una campagna o a un programma.
+Il **URL e flussi di clic** mostra gli URL sui quali è stato fatto clic di più durante una consegna, oppure più consegne se sono collegate a una campagna o a un programma.
 
 ![](assets/delivery_reports_8.png)
 
-Ogni tabella è rappresentata da numeri di riepilogo e grafici. Puoi modificare il modo in cui i dettagli vengono visualizzati nelle rispettive impostazioni di visualizzazione.
+Ogni tabella è rappresentata da numeri e grafici di riepilogo. Puoi modificare la modalità di visualizzazione dei dettagli nelle rispettive impostazioni di visualizzazione.
 
-La **Collegamenti più visitati** la tabella contiene i dati disponibili per il comportamento del destinatario per consegna, ad esempio:
+Il **Collegamenti più visitati** la tabella contiene i dati disponibili per il comportamento del destinatario per consegna, ad esempio:
 
-* **Fai clic su**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
-* **Clic univoco**: Il numero di destinatari che hanno fatto clic sul contenuto in una consegna.
+* **Clic**: il numero di volte in cui è stato fatto clic sul contenuto in una consegna.
+* **Clic univoci**: numero di destinatari che hanno fatto clic sul contenuto di una consegna.

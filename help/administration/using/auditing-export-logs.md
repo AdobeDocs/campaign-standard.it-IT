@@ -15,16 +15,16 @@ ht-degree: 5%
 
 # Controllo dei registri di esportazione{#auditing-export-logs}
 
-Da **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, gli amministratori possono visualizzare un elenco di tutte le seguenti esportazioni, inclusa la data e l’utente che ha eseguito l’esportazione:
+Da **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, gli amministratori possono visualizzare un elenco di tutte le seguenti esportazioni, inclusa la data e l’utente che le ha eseguite:
 
-* Caricamento di file da un **[!UICONTROL Transfer file]** in un flusso di lavoro.
-* Esportazione di elenchi da un elenco o da un sottoelenco.
+* Caricamento di file da un **[!UICONTROL Transfer file]** attività in un flusso di lavoro.
+* Esportazione elenco da un elenco o da un sottoelenco.
 * File scaricato dal dashboard di consegna di un messaggio di direct mailing.
 
 >[!NOTE]
 >
->Altre esportazioni non vengono tracciate. L’elenco delle esportazioni viene eliminato ogni 6 mesi per impostazione predefinita.
+>Altre esportazioni non vengono tracciate. Per impostazione predefinita, l’elenco delle esportazioni viene eliminato ogni 6 mesi.
 
-Dal riquadro a sinistra, puoi filtrare le esportazioni che desideri visualizzare in base alle tue esigenze.
+Dal riquadro a sinistra, puoi filtrare le esportazioni da visualizzare in base alle tue esigenze.
 
-È possibile esportare l’elenco come file separato, come descritto in [Esportazione di elenchi](../../automating/using/exporting-lists.md) sezione .
+È possibile esportare l&#39;elenco come file separato, come descritto nella [Esportazione di elenchi](../../automating/using/exporting-lists.md) sezione.

@@ -1,6 +1,6 @@
 ---
 title: Raggruppamento per domini
-description: Con il rapporto predefinito Suddivisione per domini , scopri i dati sulle prestazioni delle consegne a seconda del dominio di ciascun cliente.
+description: Con il rapporto predefinito Raggruppamento per domini, scopri i dati sulle prestazioni delle consegne in base a ciascun dominio del cliente.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,23 +18,23 @@ ht-degree: 3%
 
 # Raggruppamento per domini{#breakdown-by-domains}
 
-Questo rapporto contiene i dati sulle prestazioni per ogni dominio rappresentato nel pubblico per una consegna e-mail. Se si tratta di un rapporto di campagna o di programma, i dati sulle prestazioni sono disponibili per più tipi di pubblico. Questi dati ti consentono di analizzare il comportamento di ciascun dominio in risposta a eventi specifici. Ad esempio, visualizzazione del collegamento, URL al elenco Bloccati, ecc.
+Questo rapporto contiene i dati sulle prestazioni per ogni dominio rappresentato nel pubblico per una consegna e-mail. Se si tratta di un rapporto di una campagna o di un programma, i dati sulle prestazioni sono disponibili per più tipi di pubblico. Questi dati ti consentono di analizzare il comportamento di ciascun dominio in reazione a eventi specifici. Ad esempio, visualizzazione di collegamenti, URL sul inserisco nell&#39;elenco Bloccati del collegamento, ecc.
 
 ![](assets/delivery_reports_6.png)
 
-La tabella **Statistiche broadcast** contiene i dati disponibili per eventuali errori riscontrati in ciascun dominio, ad esempio:
+Tabella **Statistiche di trasmissione** contiene i dati disponibili per i possibili errori riscontrati con ciascun dominio, ad esempio:
 
-* **Elaborato/inviato**: Numero di e-mail inviate.
-* **Consegnato**: Il numero di e-mail consegnate.
-* **Rimbalzi + errori**: Numero di messaggi che non è stato possibile recapitare.
-* **Rimbalzo duro**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
-* **Rimbalzo morbido**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
+* **Elaborato/inviato**: numero di e-mail inviate.
+* **Consegnato**: numero di e-mail consegnate.
+* **Mancati recapiti + errori**: numero di messaggi che non è stato possibile recapitare.
+* **Mancato recapito permanente**: numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
+* **Mancato recapito non permanente**: numero totale di errori temporanei, ad esempio una casella in entrata completa.
 
-la seconda tabella, **Tracking delle statistiche**, contiene i dati disponibili per la reattività del destinatario alla consegna, ad esempio:
+La seconda tabella, **Statistiche di tracciamento**, contiene i dati disponibili per la reattività del destinatario alla consegna, ad esempio:
 
-* **Consegnato**: Il numero di e-mail consegnate
-* **Apri**: Il numero di volte in cui un messaggio è stato aperto in una consegna.
-* **Fai clic su**: Numero di volte in cui è stato fatto clic sul contenuto in una consegna.
-* **Annulla sottoscrizione**: Il numero di clic sul collegamento di abbonamento.
-* **Pagina speculare**: Il numero di clic sul collegamento della pagina speculare.
-* **A elenco Bloccati**: Il numero di destinatari che hanno dichiarato un’e-mail come spam o posta indesiderata. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Consegnato**: numero di e-mail consegnate
+* **Apri**: numero di volte in cui un messaggio è stato aperto in una consegna.
+* **Clic**: il numero di volte in cui è stato fatto clic sul contenuto in una consegna.
+* **Annullamento iscrizione**: numero di clic sul collegamento di abbonamento.
+* **Pagina mirror**: numero di clic sul collegamento della pagina speculare.
+* **Elenco Bloccati Il**: numero di destinatari che hanno dichiarato un’e-mail come spam o posta indesiderata. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

@@ -1,6 +1,6 @@
 ---
 title: Segmentazione in base ai gruppi di età
-description: Questa pagina presenta una segmentazione dei profili del database in base al gruppo di età. Lo scopo del flusso di lavoro è quello di inviare un messaggio e-mail specifico per ogni gruppo di età.
+description: Questa pagina presenta una segmentazione dei profili del database in base al loro gruppo di età. Lo scopo del flusso di lavoro è quello di inviare un messaggio e-mail specifico per ogni gruppo di età.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -40,4 +40,4 @@ Il flusso di lavoro è costituito dai seguenti elementi:
 
       ![](assets/wkf_segment_example_1.png)
 
-* Un [Email delivery](../../automating/using/email-delivery.md) attività per segmento.
+* Un [Consegna e-mail](../../automating/using/email-delivery.md) attività per segmento.

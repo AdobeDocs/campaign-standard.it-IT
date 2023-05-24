@@ -14,7 +14,7 @@ ht-degree: 36%
 
 ---
 
-# Programma (nms:program)
+# Programma (nms:programma)
 
 ## Descrizione oggetto
 
@@ -38,7 +38,7 @@ ht-degree: 36%
                   <td> </td>
                </tr>
                <tr>
-                  <td>incorporato</td>
+                  <td>predefinito</td>
                   <td>Oggetto applicazione incorporato</td>
                   <td>booleano </td>
                   <td> </td>
@@ -58,11 +58,11 @@ ht-degree: 36%
                <tr>
                   <td>desc</td>
                   <td>Descrizione</td>
-                  <td>string (512)</td>
+                  <td>stringa (512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>fine</td>
                   <td>Data di fine</td>
                   <td>date </td>
                   <td> </td>
@@ -88,7 +88,7 @@ ht-degree: 36%
                <tr>
                   <td>label</td>
                   <td>Etichetta</td>
-                  <td>string (128)</td>
+                  <td>stringa (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -104,11 +104,11 @@ ht-degree: 36%
                   <td>
                      <ul>
                         <li>In corso - avviato - avviato</li>
-                        <li>Editing - edizione</li>
-                        <li>Finito - finito - finito - finito</li>
-                        <li>Avviso - avviso</li>
-                        <li>Errore - Errore - Errore</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Editing - edition - edition</li>
+                        <li>Finito - finito - finito</li>
+                        <li>Avviso - avviso - avviso</li>
+                        <li>Errato - Errore - Errore</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -121,7 +121,7 @@ ht-degree: 36%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>stringa (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -143,7 +143,7 @@ ht-degree: 36%
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>inizio</td>
                   <td>Data di inizio</td>
                   <td>date </td>
                   <td> </td>
@@ -154,15 +154,15 @@ ht-degree: 36%
                   <td>enumerazione (byte) </td>
                   <td>
                      <ul>
-                        <li>Iniziato - 1</li>
-                        <li>Editing - edizione - 0</li>
+                        <li>Avviato - Avviato - 1</li>
+                        <li>Modifica - edizione - 0</li>
                         <li>Finito - finito - 2</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>template (programma)</td>
+                  <td>modello (programma)</td>
                   <td>Modello di programma</td>
                   <td>link </td>
                   <td> </td>
@@ -170,13 +170,13 @@ ht-degree: 36%
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>Programma</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
             </table>
@@ -226,7 +226,7 @@ Per periodo (perPeriodo)
     </tr>
 </table>
 
-Includi consegne continue da un elenco eterogeneo (con Continuous)
+Includi consegne continue da un elenco eterogeneo (conContinuo)
 
 <table>
     <tr>
@@ -239,7 +239,7 @@ Includi consegne continue da un elenco eterogeneo (con Continuous)
     </tr>
 </table>
 
-Includi sottoprogrammi (conParent)
+Includi sottoprogrammi (withParent)
 
 <table>
         <tr>
@@ -252,7 +252,7 @@ Includi sottoprogrammi (conParent)
         </tr>
     </table>
 
-Solo i genitori ammissibili (idoneiGenitori)
+Solo i genitori idonei (idoneeParents)
 
 <table>
     <tr>
@@ -265,7 +265,7 @@ Solo i genitori ammissibili (idoneiGenitori)
     </tr>
 </table>
 
-Previsto per il periodo specificato (per pianificazione)
+Pianificato per il periodo specificato (per pianificazione)
 
 <table>
     <tr>
@@ -282,7 +282,7 @@ Previsto per il periodo specificato (per pianificazione)
     </tr>
 </table>
 
-Presente durante un determinato periodo (byCalendar)
+Presente durante il periodo specificato (per calendario)
 
 <table>
     <tr>

@@ -24,7 +24,7 @@ La modifica di un’espressione comporta l’immissione manuale di condizioni pe
 
 Questa modalità ti consente di utilizzare funzioni avanzate. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, come la manipolazione di date, stringhe, campi numerici, ordinamento e così via.
 
-È inoltre possibile utilizzare le variabili degli eventi dei flussi di lavoro durante la modifica delle espressioni. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/customizing-workflow-external-parameters.md).
+È inoltre possibile utilizzare le variabili degli eventi dei flussi di lavoro durante la modifica dell’espressione. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/customizing-workflow-external-parameters.md).
 
 Puoi modificare le espressioni per:
 

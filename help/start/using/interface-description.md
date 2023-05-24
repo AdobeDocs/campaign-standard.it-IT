@@ -38,7 +38,7 @@ La pagina Home è composta da una serie di schede che ti offrono un accesso rapi
 * La scheda **[!UICONTROL Create an SMS]** ti porta all’assistente di creazione SMS. L’assistente ti consente di scegliere un tipo di SMS, selezionare i destinatari del messaggio e definirne il contenuto. Consulta la sezione [Creazione di un SMS](../../channels/using/creating-an-sms-message.md).
 * La scheda **[!UICONTROL Create a Direct mail]** ti porta all’assistente per la creazione di direct mailing. Consulta la sezione [Creazione della direct mailing](../../channels/using/creating-the-direct-mail.md).
 * La scheda **[!UICONTROL Create a push notification]** ti porta all’assistente per la creazione delle notifiche. L’assistente ti consente di scegliere un tipo di notifica push, di selezionare i destinatari del messaggio e di definirne il contenuto. Consulta la sezione [Creazione di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md).
-* La **[!UICONTROL Create an In-App message]** viene visualizzata l’assistente per la creazione in-app. L’assistente ti consente di selezionare il tipo di messaggio in-app da creare, definirne le proprietà, il pubblico e il contenuto. Fai riferimento a [Creazione di un messaggio in-app](../../channels/using/about-in-app-messaging.md) sezione .
+* Il **[!UICONTROL Create an In-App message]** ti porta all’assistente per la creazione in-app. L’assistente ti consente di selezionare il tipo di messaggio in-app da creare, definirne le proprietà, il pubblico e il contenuto. Consulta la sezione [Creazione di un messaggio in-app](../../channels/using/about-in-app-messaging.md) sezione.
 * La scheda **[!UICONTROL Marketing activities]** contiene l’elenco completo di tutte le attività, i programmi e le campagne, in particolare e-mail, SMS, flussi di lavoro e pagine di destinazione. Da qui puoi filtrare gli elementi ricercandoli per nome, data, stato o tipo di attività. Per ulteriori informazioni, consulta la sezione [Elenco delle attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * La scheda **[!UICONTROL Programs & campaigns]** ti consente di visualizzare l’elenco dei programmi in cui puoi creare e gestire le campagne. Consulta [Elenco programmi](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * La scheda **[!UICONTROL Timeline]** ti porta direttamente a una cronologia interattiva delle attività di marketing, nella quale puoi consultare i programmi in corso e i relativi contenuti. Consulta la [Timeline](../../start/using/timeline.md).
@@ -47,42 +47,42 @@ La pagina Home è composta da una serie di schede che ti offrono un accesso rapi
 
 ## Barra superiore {#top-bar}
 
-La barra superiore è visibile su ogni schermata e ti consente di navigare tra le funzionalità di Adobe Campaign, nonché di accedere al profilo di Adobe connesso, alle notifiche, alle soluzioni Adobe Experience Cloud e alla documentazione di Campaign.
+La barra superiore è visibile su ogni schermata e consente di navigare tra le funzionalità di Adobe Campaign, nonché di accedere al profilo di Adobe connesso, alle notifiche, alle soluzioni Adobe Experience Cloud e alla documentazione di Campaign.
 
 I principi di navigazione sono i seguenti:
 
-* La **Adobe** nell’angolo in alto a sinistra della pagina puoi accedere alle funzioni e alle configurazioni avanzate. I menu dipendono dal profilo e dalle autorizzazioni.
+* Il **Adobe** nell’angolo in alto a sinistra della pagina ti consente di accedere alle funzionalità e alle configurazioni avanzate. I menu dipendono dal profilo e dalle autorizzazioni.
 
    Il menu avanzato è presentato nella sezione [Menu avanzato](#advanced-menu).
 
 * Il collegamento **[!UICONTROL Home]** ti consente di visualizzare la pagina Home di Adobe Campaign.
 * I collegamenti **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** e **[!UICONTROL Reports]** ti consentono di accedere alle viste collegate a tali funzionalità.
-* La **Switcher di soluzione** consente di passare da un’organizzazione all’altra o a un’altra applicazione.
-* La **[!UICONTROL Help]** icona descritta [di seguito](#help).
+* Il **Commutatore della soluzione** consente di passare da un’organizzazione all’altra o a un’altra applicazione.
+* Il **[!UICONTROL Help]** viene descritta l’icona [sotto](#help).
 * L’icona **Notifications** visualizza gli avvisi o le informazioni più recenti.
-* L’icona **User** ti consente di visualizzare le informazioni collegate al profilo. Utilizza questa icona se devi **[!UICONTROL Sign out]**.
+* L’icona **User** ti consente di visualizzare le informazioni collegate al profilo. Usa questa icona se devi **[!UICONTROL Sign out]**.
 
 ### Elemento “help” {#help}
 
-Nell’angolo in alto a destra, il **Aiuto** l’icona porta Adobe Experience League nel prodotto .
+Nell&#39;angolo in alto a destra, il **Aiuto** porta Adobe Experience League nel prodotto.
 
 ![](assets/ux_help.png)
 
-Utilizza la **[!UICONTROL Search]** campo per trovare indicazioni. I risultati della ricerca includono la documentazione e gli articoli di aiuto, i risultati dei forum e dei contenuti video della community, per consentirti di accedere più facilmente a più contenuti per trarre il massimo dall’applicazione.
+Utilizza il **[!UICONTROL Search]** per trovare indicazioni. I risultati della ricerca includono documentazione e articoli di aiuto, risultati dai forum della community e contenuti video, che consentono di accedere più facilmente a più contenuti per trarre il massimo dall’applicazione.
 
-Tre schede consentono di trovare aiuto e assistenza:
+Tre schede ti aiutano a trovare aiuto e assistenza:
 
-1. La **[!UICONTROL Help]** la scheda contiene:
+1. Il **[!UICONTROL Help]** La scheda contiene:
    * accesso rapido alla documentazione di Adobe Campaign Standard con collegamenti contestuali.
-   * a **[!UICONTROL Learning]** collegamento che consente di accedere alla libreria dei corsi di Adobe Campaign.
-   * a **[!UICONTROL Community]** per accedere al forum dedicato alle tue domande su Campaign.
-   * un accesso diretto a: Centro assistenza, Assistenza clienti, stato del prodotto di Experience Cloud, Connessione sviluppatori, Note sulla versione, Pianificazione del rilascio e **[!UICONTROL About]** schermo.
-1. La **[!UICONTROL Support]** tab consente di aprire un caso di assistenza e di contattarci per telefono o Twitter.
-1. La **[!UICONTROL Feedback]**  Questa scheda semplifica la segnalazione dei problemi o la condivisione delle idee.
+   * a **[!UICONTROL Learning]** che ti consente di accedere alla libreria dei corsi di Adobe Campaign.
+   * a **[!UICONTROL Community]** link per accedere al forum dedicato alle tue domande su Campaign.
+   * un accesso diretto a: Centro assistenza, Assistenza clienti, Stato del prodotto di Experience Cloud, connessione per sviluppatori, Note sulla versione, Pianificazione della versione e **[!UICONTROL About]** schermo.
+1. Il **[!UICONTROL Support]** La scheda ti consente di aprire un caso di supporto e di contattarci telefonicamente o tramite Twitter.
+1. Il **[!UICONTROL Feedback]**  consente di segnalare i problemi o condividere le idee in modo più semplice.
 
 ## Menu avanzato {#advanced-menu}
 
-Il menu avanzato viene visualizzato facendo clic sul pulsante **Adobe Campaign** nell’angolo in alto a sinistra di ogni schermata. Il menu avanzato può variare a seconda del contratto e delle autorizzazioni dell’utente.
+Il menu avanzato viene visualizzato facendo clic sul pulsante **Adobe Campaign** nell’angolo in alto a sinistra di ciascuna schermata. Il menu avanzato può variare a seconda del contratto e delle autorizzazioni dell’utente.
 
 Questo menu ti consente di passare a specifiche funzionalità e impostazioni.
 

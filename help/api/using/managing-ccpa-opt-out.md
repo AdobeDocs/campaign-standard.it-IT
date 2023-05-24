@@ -1,6 +1,6 @@
 ---
 title: Gestione dell’opt-out CCPA
-description: Scopri come gestire la rinuncia CCPA con le API
+description: Scopri come gestire la rinuncia al CCPA con le API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Gestione dell’opt-out CCPA {#managing-ccpa-optout}
 
-Lo stato di rinuncia CCPA di un profilo può essere monitorato e gestito utilizzando **ccpaOptOut** attributo di profilo e valori &quot;true&quot; o &quot;false&quot;:
+Lo stato di rinuncia CCPA di un profilo può essere monitorato e gestito utilizzando **ccpaOptOut** l’attributo di profilo e i valori &quot;true&quot; o &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
@@ -54,7 +54,7 @@ Lo stato di rinuncia CCPA di un profilo può essere monitorato e gestito utilizz
    }
    ```
 
-* Esempio di richiesta POST per contrassegnare un profilo per la rinuncia a CCPA.
+* Richiesta di POST di esempio per contrassegnare un profilo per la rinuncia CCPA.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -84,7 +84,7 @@ Lo stato di rinuncia CCPA di un profilo può essere monitorato e gestito utilizz
    }
    ```
 
-* Esempio di richiesta PATCH per aggiornare un profilo per la rinuncia a CCPA.
+* Richiesta di PATCH di esempio per aggiornare un profilo per la rinuncia CCPA.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \

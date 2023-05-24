@@ -30,7 +30,7 @@ L’attività **Update data** può essere utilizzata dopo l’importazione di un
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Aggiornamento dei dati in base a un file](../../automating/using/update-database-file.md)
+* [Caso di utilizzo: aggiornamento dei dati in base a un file](../../automating/using/update-database-file.md)
 * [Aggiornamento dei dati in base a un download automatico del file](../../automating/using/update-data-automatic-download.md)
 
 ## Configurazione {#configuration}

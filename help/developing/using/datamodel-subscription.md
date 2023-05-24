@@ -1,5 +1,5 @@
 ---
-title: Evento sottoscrizione DataModel
+title: DataModel Subscription, evento
 description: Scopri il modello dati
 audience: developing
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 ---
 
-# Evento iscrizione (nms:rtEvent)
+# Evento abbonamento (nms:rtEvent)
 
 ## Descrizione oggetto
 
@@ -33,14 +33,14 @@ ht-degree: 31%
     </tr>
     <tr>
         <td>ctx</td>
-        <td>Contesto dell'evento</td>
+        <td>Contesto dell’evento</td>
         <td>elemento </td>
         <td> </td>
     </tr>
     <tr>
         <td>e-mail</td>
         <td>E-mail</td>
-        <td>string (128)</td>
+        <td>stringa (128)</td>
         <td> </td>
     </tr>
     <tr>
@@ -51,7 +51,7 @@ ht-degree: 31%
             <ul>
             <li>Testo - testo - 1</li>
             <li>HTML - html - 2</li>
-            <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+            <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
             <li>Sconosciuto - sconosciuto - 0</li>
             </ul>
         </td>
@@ -65,7 +65,7 @@ ht-degree: 31%
     <tr>
         <td>mobilePhone</td>
         <td>Numero di cellulare</td>
-        <td>string (32)</td>
+        <td>stringa (32)</td>
         <td> </td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@ ht-degree: 31%
 
 ## Filtri
 
-Per e-mail (per e-mail)
+Per e-mail (byEmail)
 
 <table>
     <tr>

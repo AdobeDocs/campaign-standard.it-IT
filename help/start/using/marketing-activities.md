@@ -81,14 +81,14 @@ I programmi e le campagne sono illustrati nella sezione [Programmi e campagne](.
 
 A seconda del contesto, è possibile:
 
-* Crea un messaggio e-mail - [Ulteriori informazioni](../../channels/using/creating-an-email.md)
+* Creare un messaggio e-mail - [Ulteriori informazioni](../../channels/using/creating-an-email.md)
 * Creare un SMS - [Ulteriori informazioni](../../channels/using/creating-an-sms-message.md)
 * Creare una notifica push - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Creare un messaggio in-app - [Ulteriori informazioni](../../channels/using/about-in-app-messaging.md)
 * Creare un flusso di lavoro - [Ulteriori informazioni](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * Creare una pagina di destinazione - [Ulteriori informazioni](../../channels/using/getting-started-with-landing-pages.md)
 * Creare una campagna - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* Crea un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Creare un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

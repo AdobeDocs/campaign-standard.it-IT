@@ -32,7 +32,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>incorporato</td>
+                  <td>predefinito</td>
                   <td>Oggetto applicazione incorporato</td>
                   <td>booleano </td>
                   <td> </td>
@@ -58,11 +58,11 @@ ht-degree: 40%
                <tr>
                   <td>desc</td>
                   <td>Descrizione</td>
-                  <td>string (512)</td>
+                  <td>stringa (512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>fine</td>
                   <td>Data di fine</td>
                   <td>date </td>
                   <td> </td>
@@ -74,7 +74,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>storia</td>
+                  <td>cronologia</td>
                   <td>Cronologia iscrizioni</td>
                   <td>raccolta </td>
                   <td> </td>
@@ -94,7 +94,7 @@ ht-degree: 40%
                <tr>
                   <td>label</td>
                   <td>Etichetta</td>
-                  <td>string (128)</td>
+                  <td>stringa (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -122,8 +122,8 @@ ht-degree: 40%
                   <td>
                      <ul>
                         <li>Mobile (SMS) - sms - 1</li>
-                        <li>E-mail - 0</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>E-mail - e-mail - 0</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -134,8 +134,8 @@ ht-degree: 40%
                   <td>
                      <ul>
                         <li>Virale - virale - 1</li>
-                        <li>Newsletter - Newsletter - 0</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Newsletter - newsletter - 0</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -148,7 +148,7 @@ ht-degree: 40%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>stringa (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -159,19 +159,19 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>publicLabel</td>
-                  <td>Etichetta del servizio</td>
-                  <td>string (128)</td>
+                  <td>Etichetta servizio</td>
+                  <td>stringa (128)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>inizio</td>
                   <td>Data di inizio</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>Pagina di destinazione dell’abbonamento</td>
+                  <td>Pagina di destinazione abbonamento</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -196,11 +196,11 @@ ht-degree: 40%
                <tr>
                   <td>targetResource</td>
                   <td>Dimensione targeting</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>template (servizio)</td>
+                  <td>modello (servizio)</td>
                   <td>Modello di servizio</td>
                   <td>link </td>
                   <td> </td>
@@ -208,18 +208,18 @@ ht-degree: 40%
                <tr>
                   <td>miniatura</td>
                   <td>Miniatura</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>Servizio</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>Pagina di destinazione dell’annullamento dell’abbonamento</td>
+                  <td>Pagina di destinazione per annullamento abbonamento</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -236,7 +236,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>validDuration</td>
+                  <td>validationDuration</td>
                   <td>Durata validità</td>
                   <td>numero </td>
                   <td> </td>
@@ -245,7 +245,7 @@ ht-degree: 40%
 
 ## Filtri
 
-Disponibile durante il periodo specificato (byPlanning)
+Disponibile durante il periodo specificato (per pianificazione)
 
 <table>
     <tr>
@@ -262,7 +262,7 @@ Disponibile durante il periodo specificato (byPlanning)
     </tr>
 </table>
 
-Per tipo di canale (byChannel)
+Per tipo di canale (perCanale)
 
 <table>
 <tr>
@@ -270,7 +270,7 @@ Per tipo di canale (byChannel)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>canale</td>
+<td>channel</td>
 <td>enumerazione</td>
 </tr>
 </table>
@@ -288,7 +288,7 @@ Per nome o etichetta (byText)
 </tr>
 </table>
 
-Tramite il targeting della risorsa (byTargetResource)
+Per risorsa targeting (byTargetResource)
 
 <table>
 <tr>

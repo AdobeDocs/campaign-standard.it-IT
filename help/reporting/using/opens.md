@@ -1,6 +1,6 @@
 ---
-title: Messaggi aperti
-description: Con il rapporto Aperture , scopri quale consegna è stata più visualizzata in base a vari criteri.
+title: Aperture
+description: Con il rapporto Opens (Aperture), scopri quale consegna è stata più visualizzata in base a vari criteri.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -16,7 +16,7 @@ ht-degree: 48%
 
 ---
 
-# Messaggi aperti{#opens}
+# Aperture{#opens}
 
 Il rapporto **[!UICONTROL Opens]** individua le consegne con più visualizzazioni da parte dei destinatari.
 

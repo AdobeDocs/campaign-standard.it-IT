@@ -22,22 +22,22 @@ Per ogni contatto del database è disponibile un Integrated customer profile. Qu
 
 Per accedere all’Integrated customer profile, effettua le seguenti operazioni:
 
-1. Dalla home page di Adobe Campaign, fai clic sul pulsante **[!UICONTROL Customer profiles]** la carta o **Profili** per visualizzare l’elenco dei profili.
+1. Dalla pagina Home di Adobe Campaign, fai clic su **[!UICONTROL Customer profiles]** scheda o **Profili** per visualizzare l&#39;elenco dei profili.
 
-1. Per cercare un profilo basato su un campo specifico, apri il riquadro di ricerca, quindi seleziona il campo in cui desideri eseguire la ricerca.
+1. Per cercare un profilo in base a un campo specifico, apri il riquadro di ricerca, quindi seleziona il campo in cui desideri eseguire la ricerca.
 
 
    ![](assets/profile-search.png)
 
-1. Specificare il valore da cercare, quindi premere Invio.
+1. Specifica il valore da cercare, quindi premi Invio.
 
    >[!NOTE]
    >
-   >Puoi eseguire le ricerche in base ai campi e-mail, nome e cognome e ai campi personalizzati aggiunti al momento dell’estensione della risorsa.
+   >Tieni presente che le ricerche possono essere eseguite in base ai campi e-mail, nome e cognome, nonché ai campi personalizzati aggiunti durante l’estensione della risorsa.
    >
-   >Le ricerche sono sensibili all’uso di maiuscole e minuscole ed eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del cognome.
+   >Le ricerche fanno distinzione tra maiuscole e minuscole e vengono eseguite solo sui prefissi. Ad esempio, non potrai cercare un profilo utilizzando le ultime lettere del cognome.
 
-1. Seleziona un contatto per aprire il suo profilo.
+1. Seleziona un contatto per aprirne il profilo.
 
    ![](assets/mkt_hist_access.png)
 
@@ -45,7 +45,7 @@ Adesso potrai accedere allo **storico dei dati marketing** di questo contatto.
 
 In questa pagina sono raccolte le informazioni chiave sul profilo, oltre all’elenco degli eventi.
 
-Fai clic su un evento nell’elenco per aprirlo: puoi accedere ai messaggi inviati o ai servizi a cui il profilo si è iscritto.
+Fai clic su un evento nell’elenco per aprirlo: puoi accedere ai messaggi inviati o ai servizi a cui è abbonato il profilo.
 
 ![](assets/mkt_hist_view.png)
 

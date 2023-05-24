@@ -18,14 +18,14 @@ ht-degree: 76%
 
 # Utilizzo di risorse diverse dalle dimensioni di targeting {#using-resources-different-from-targeting-dimensions}
 
-In questi casi d’uso viene illustrato come utilizzare una risorsa diversa dalla dimensione di targeting, ad esempio per cercare un record specifico in una tabella lontana.
+In questi casi d’uso viene illustrato come utilizzare una risorsa diversa dalla dimensione di targeting, ad esempio, per cercare un record specifico in una tabella lontana.
 
 Per ulteriori informazioni sulle dimensioni di targeting e sulle risorse, consulta [questa sezione](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Esempio 1: identificazione dei profili target interessati dalla consegna con l’etichetta “Bentornato”**.
 
 * In questo caso, desideri eseguire il targeting dei profili. Imposta la dimensione di targeting su **[!UICONTROL Profiles (profile)]**.
-* Desideri filtrare i profili selezionati in base all’etichetta di consegna. Pertanto, imposta la risorsa su **[!UICONTROL Delivery logs]**. In questo modo, filtriamo direttamente nella tabella dei registri di consegna, che offrirà prestazioni migliori.
+* Desideri filtrare i profili selezionati in base all’etichetta di consegna. Pertanto, imposta la risorsa su **[!UICONTROL Delivery logs]**. In questo modo, filtra direttamente nella tabella dei registri di consegna, che offrirà prestazioni migliori.
 
 ![](assets/targeting_dimension6.png)
 

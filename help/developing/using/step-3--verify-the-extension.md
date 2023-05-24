@@ -27,4 +27,4 @@ ht-degree: 13%
 
    ![](assets/extendpandsapiview.png)
 
-   Il campo è ora disponibile per ulteriori sviluppi e integrazioni.
+   Il settore è ora disponibile per ulteriori sviluppi e integrazioni.

@@ -1,6 +1,6 @@
 ---
-title: Esecuzione di abbonamenti
-description: Scopri come eseguire abbonamenti con API
+title: Esecuzione di sottoscrizioni
+description: Scopri come eseguire gli abbonamenti con le API
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Esecuzione di abbonamenti con API{#performing-subscriptions}
 
-## Metodo 1: Iscrizione di un profilo a un servizio
+## Metodo 1: abbonamento di un profilo a un servizio
 
-Esegui una richiesta di GET per recuperare il profilo.
+Esegui una richiesta GET per recuperare il profilo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ Restituisce l’URL delle sottoscrizioni per il profilo.
   }
 ```
 
-Esegui una richiesta POST sull’URL delle sottoscrizioni con la chiave principale del servizio desiderata all’interno del payload.
+Esegui una richiesta POST sull’URL degli abbonamenti con la chiave primaria del servizio desiderata all’interno del payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -52,7 +52,7 @@ Esegui una richiesta POST sull’URL delle sottoscrizioni con la chiave principa
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-Restituisce il profilo aggiornato con il nodo del servizio completato.
+Restituisce il profilo aggiornato con il nodo di servizio completato.
 
 ```
 {
@@ -67,7 +67,7 @@ Restituisce il profilo aggiornato con il nodo del servizio completato.
 }
 ```
 
-## Metodo 2: Aggiunta di un profilo agli abbonati a un servizio
+## Metodo 2: aggiunta di un profilo agli abbonati a un servizio
 
 Esegui una richiesta GET per recuperare il servizio.
 
@@ -79,7 +79,7 @@ Esegui una richiesta GET per recuperare il servizio.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l’URL delle sottoscrizioni per il servizio.
+Restituisce l’URL degli abbonamenti per il servizio.
 
 ```
   {
@@ -93,7 +93,7 @@ Restituisce l’URL delle sottoscrizioni per il servizio.
   },
 ```
 
-Effettua una richiesta di POST sull’URL delle sottoscrizioni con il profilo Chiave principale desiderato all’interno del payload.
+Effettua una richiesta POST sull’URL degli abbonamenti con la chiave primaria del profilo desiderata all’interno del payload.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -105,7 +105,7 @@ Effettua una richiesta di POST sull’URL delle sottoscrizioni con il profilo Ch
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-Restituisce il servizio aggiornato con il nodo sottoscrittori completato.
+Restituisce il servizio aggiornato con il nodo degli abbonati completato.
 
 ```
 {

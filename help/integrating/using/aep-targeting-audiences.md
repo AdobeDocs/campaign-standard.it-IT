@@ -19,37 +19,37 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Il servizio Audience Destinations è attualmente in versione beta e potrebbe essere soggetto a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
+>Il servizio Audience Destinations è attualmente in versione beta, e potrebbe essere soggetto ad aggiornamenti frequenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Contatta l’Assistenza clienti di Adobe se desideri accedervi.
 
-Una volta creata una [Pubblico Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) utilizzando il Generatore di segmenti, puoi utilizzarlo nello stesso modo in cui faresti per un pubblico di Campaign all’interno dei flussi di lavoro per personalizzare e inviare messaggi.
+Dopo aver creato un’ [Pubblico Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) puoi utilizzare il Generatore di segmenti come se fosse un pubblico di Campaign all’interno dei flussi di lavoro, per personalizzare e inviare messaggi.
 
-Per attivare un pubblico Adobe Experience Platform nei flussi di lavoro, effettua le seguenti operazioni:
+Per attivare un pubblico di Adobe Experience Platform nei flussi di lavoro, effettua le seguenti operazioni:
 
-1. Aggiungi un **[!UICONTROL Read audience]** nel flusso di lavoro, quindi aprilo.
+1. Aggiungi un **[!UICONTROL Read audience]** attività nel flusso di lavoro, quindi aprirlo.
 
-1. Seleziona la **[!UICONTROL Adobe Experience Platform]** opzione sotto **[!UICONTROL Type of audience]**, quindi aggiungi il pubblico desiderato.
+1. Seleziona la **[!UICONTROL Adobe Experience Platform]** opzione in **[!UICONTROL Type of audience]**, quindi aggiungi il pubblico desiderato.
 
    ![](assets/aep_wkf_readaudience.png)
 
-1. (Facoltativo) Una volta selezionato il pubblico, puoi fare clic sul pulsante occhio per rivedere e/o modificare la definizione del segmento (assicurati di salvare nuovamente le modifiche).
+1. (Facoltativo) Una volta selezionato il pubblico, puoi fare clic sul pulsante con l’occhio per rivedere e/o modificare la definizione del segmento (assicurati di salvare di nuovo le modifiche).
 
-   Facendo clic sul pulsante con l’occhio ti indirizzerai semplicemente al Generatore di segmenti (in un’altra scheda) associato al pubblico selezionato all’interno di Campaign.
+   Facendo clic sul pulsante con l’icona a forma di occhio, accedi al Generatore di segmenti (in un’altra scheda) associato al pubblico selezionato all’interno di Campaign.
 
-1. Seleziona una **[!UICONTROL Platform data mapping]** per specificare la dimensione di targeting desiderata per il pubblico Adobe Experience Platform selezionato.
+1. Seleziona un **[!UICONTROL Platform data mapping]** per specificare la dimensione di targeting desiderata per il pubblico Adobe Experience Platform selezionato.
 
-   Per impostazione predefinita, la chiave primaria (ad esempio, iRecipientID per la tabella Profilo, iAppSubscriptionID per la tabella AppSubscription) utilizzata per la riconciliazione sarà automaticamente disponibile dall’elenco a discesa. Per eseguire il targeting al di fuori della chiave primaria, devi creare un **Namespace**.
+   Per impostazione predefinita, la chiave primaria (ad esempio, iRecipientID per la tabella Profilo, iAppSubscriptionID per la tabella AppSubscription) utilizzata per la riconciliazione sarà automaticamente disponibile dall’elenco a discesa. Per eseguire il targeting all&#39;esterno della chiave primaria, è necessario creare un **Namespace**.
 
    >[!NOTE]
    >
-   >Per le destinazioni al di fuori della chiave primaria, devi anche creare una mappatura Target personalizzata che corrisponda allo spazio dei nomi personalizzato. Per ulteriori informazioni sulla mappatura di Target, consulta [questa sezione](../../administration/using/target-mappings-in-campaign.md).
+   >Per le destinazioni che non rientrano nella chiave primaria, è inoltre necessario creare una mappatura di destinazione personalizzata corrispondente allo spazio dei nomi personalizzato. Per ulteriori informazioni sulla mappatura di Target, consulta [questa sezione](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Questo elenco contiene tutte le mappature Experience Data Model (XDM) configurate sull&#39;istanza. Per ulteriori informazioni su Connettore dati di Adobe Experience Platform, consulta [questo documento dedicato](../../integrating/using/aep-about-data-connector.md).
+   Questo elenco contiene tutte le mappature Experience Data Model (XDM) configurate nell’istanza. Per ulteriori informazioni su Connettore dati di Adobe Experience Platform, consulta [questo documento dedicato](../../integrating/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Una volta configurate correttamente le dimensioni di pubblico e targeting, fai clic sul pulsante **[!UICONTROL Confirm]** per salvare le modifiche.
+1. Una volta configurate correttamente le dimensioni di pubblico e di targeting, fai clic sul pulsante **[!UICONTROL Confirm]** per salvare le modifiche.
 
 Ora puoi configurare il flusso di lavoro con altre attività. Ad esempio, puoi collegare un **[!UICONTROL Email delivery]** per inviare un’e-mail al pubblico selezionato.
 
@@ -57,9 +57,9 @@ Ora puoi configurare il flusso di lavoro con altre attività. Ad esempio, puoi c
 
 >[!NOTE]
 >
->Campaign Standard consente di eseguire il targeting del pubblico Adobe Experience Platform all’interno di tutti i canali di consegna: E-mail, messaggi SMS, direct mailing, notifiche push e messaggi in-app.
+>Campaign Standard consente di rivolgerti al pubblico di Adobe Experience Platform all’interno di tutti i canali di consegna: e-mail, messaggi SMS, messaggi direct mail, notifiche push e messaggi in-app.
 >
->*Nota: Per tutti i messaggi push e in-app, Campaign Standard supporta solo le consegne per i soli profili noti.
+>*Nota: per tutti i messaggi push e in-app, Campaign Standard supporta solo le consegne per i profili noti.
 
 Per ulteriori informazioni su come utilizzare flussi di lavoro e consegne, consulta queste sezioni:
 

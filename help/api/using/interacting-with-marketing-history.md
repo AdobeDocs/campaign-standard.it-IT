@@ -14,12 +14,12 @@ ht-degree: 10%
 
 # Interazione con lo storico dei dati marketing{#interacting-with-marketing-history}
 
-La **storia** endpoint ti consente di interagire con la cronologia di marketing di un profilo.
+Il **cronologia** l’endpoint ti consente di interagire con la cronologia di marketing di un profilo.
 In questo modo, ad esempio, puoi recuperare facilmente la pagina speculare per una consegna inviata a un profilo. A tale scopo, segui la procedura indicata di seguito:
 
-1. Esegui una GET con **storia** e la chiave primaria del profilo.
-1. Esegui una richiesta di GET sul **events** href restituito.
-1. Restituisce l’elenco degli eventi per il profilo con collegamenti alle pagine mirror nel **mirrorPage** nodo.
+1. Eseguire una GET con **cronologia** e la chiave primaria del profilo.
+1. Eseguire una richiesta GET su **Eventi** href restituito.
+1. Restituisce l’elenco degli eventi per il profilo con collegamenti a pagine mirror nel **mirrorPage** nodo.
 
 <br/>
 
@@ -35,7 +35,7 @@ Recupera la cronologia di marketing del profilo con una richiesta GET.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Il nodo &quot;eventi&quot; restituisce l’URL che ti dà accesso agli eventi sul profilo.
+Il nodo &quot;events&quot; restituisce l’URL che ti consente di accedere agli eventi sul profilo.
 
 ```
 {
@@ -50,7 +50,7 @@ Il nodo &quot;eventi&quot; restituisce l’URL che ti dà accesso agli eventi su
 }
 ```
 
-Esegui una richiesta GET sul href degli eventi restituiti.
+Eseguire una richiesta GET sugli eventi href restituiti.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \
@@ -60,7 +60,7 @@ Esegui una richiesta GET sul href degli eventi restituiti.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Restituisce l&#39;elenco degli eventi per il profilo con i collegamenti alle pagine mirror nel nodo &quot;mirrorPage&quot;.
+Restituisce l’elenco degli eventi per il profilo con collegamenti alle pagine mirror nel nodo &quot;mirrorPage&quot;.
 
 ```
     {

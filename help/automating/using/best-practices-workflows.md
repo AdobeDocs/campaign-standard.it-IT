@@ -47,15 +47,15 @@ Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, pas
 
 ### Numero di flussi di lavoro
 
-Per impostazione predefinita, è consigliabile **non eseguire più di 20 esecuzioni di flussi di lavoro attivi simultaneamente** (questo non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata). Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influenzare le prestazioni.
+Per impostazione predefinita, consigliamo **non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente** (questo non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata). Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influenzare le prestazioni.
 
 In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di lavoro. In tal caso, devi consultare un esperto di Campaign e contattare anche l’Assistenza cliente Adobe per aumentare il limite.
 
 >[!IMPORTANT]
 >
->Anche se non raggiungi la soglia dei 20 flussi di lavoro, Adobe consiglia di: **distribuire l’esecuzione del flusso di lavoro nel tempo**. Lo scaglionamento dell’esecuzione dei flussi di lavoro garantirà prestazioni migliori dell’istanza.
+>Anche se non si raggiunge la soglia dei 20 flussi di lavoro, l’Adobe consiglia di: **distribuire l’esecuzione del flusso di lavoro nel tempo**. L’esecuzione scaglionata dei flussi di lavoro garantisce prestazioni migliori per l’istanza.
 
-Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verifica se la memoria fisica del sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, un messaggio ti informa che l’esecuzione del flusso di lavoro verrà ritardata fino a quando il caricamento sul server non si esaurisce e la memoria del sistema aumenta.
+Prima di avviare un flusso di lavoro [!DNL Campaign Standard] verifica se la memoria fisica di sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, viene visualizzato un messaggio per informare che l&#39;esecuzione del flusso di lavoro verrà posticipata fino al esaurimento del carico sul server e all&#39;aumento della memoria di sistema.
 
 ### Frequenza
 
@@ -84,7 +84,7 @@ Le proprietà del flusso di lavoro ti consentono di definire un fuso orario spec
 
 ### Progettazione flussi di lavoro
 
-Per garantire il corretto completamento del flusso di lavoro, evita di uscire dall’ultima transizione di un flusso di lavoro per conto proprio utilizzando un’ **[!UICONTROL End activity]**.
+Per garantire il corretto completamento del flusso di lavoro, evita di uscire dall’ultima transizione di un flusso di lavoro utilizzando una **[!UICONTROL End activity]**.
 
 Per accedere alla visualizzazione dettagliata delle transizioni, seleziona l’opzione **[!UICONTROL Keep interim results]** nella sezione Execution delle proprietà del flusso di lavoro.
 
@@ -113,11 +113,11 @@ Puoi visualizzare in anteprima le prossime dieci esecuzioni dei flussi di lavoro
 
 Per ulteriori informazioni, consulta [Attività di pianificazione](../../automating/using/scheduler.md).
 
-Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga riprogrammato fino al termine. A questo scopo, devi configurare il flusso di lavoro per impedirne l’esecuzione se una o più attività di un’esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
+Durante la progettazione di un flusso di lavoro pianificato che include più attività, è necessario assicurarsi che il flusso di lavoro non venga ripianificato fino al suo completamento. A questo scopo, devi configurare il flusso di lavoro per impedirne l’esecuzione se una o più attività di un’esecuzione precedente sono ancora in sospeso. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/scheduled-workflows-execution.md).
 
 ## Chiamata del flusso di lavoro con parametri{#workflow-with-parameters}
 
-Assicurati che il nome e il numero di parametri siano identici a quelli definiti durante la chiamata al flusso di lavoro (vedi [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
+Assicurati che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (vedi [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
 
 Verifica che tutti i parametri siano stati dichiarati nell’**[!UICONTROL External signal activity]**. In caso contrario, si verificherà un errore durante l’esecuzione dell’attività.
 

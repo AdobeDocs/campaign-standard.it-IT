@@ -1,6 +1,6 @@
 ---
 title: Creazione di un servizio con API
-description: Scopri come creare un servizio con le API
+description: Scopri come creare un servizio con API
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Creazione di un servizio con API{#creating-a-service-api}
 
-La creazione di servizi viene eseguita con un **POST** richiesta sulla risorsa del servizio.
+La creazione di servizi viene eseguita con **POST** richiesta sulla risorsa del servizio.
 
 Se desideri creare il servizio con attributi specifici, aggiungili al payload. In caso contrario, il nuovo servizio verrà creato con quelli predefiniti.
 

@@ -21,13 +21,13 @@ Dopo aver creato un’e-mail in Adobe Campaign, è necessario definirne il conte
 
 E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia a trascinamento. Partendo da una lavagna vuota o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail, che sia promozionale o transazionale.
 
-Progettato per fornire HTML ottimizzati per la progettazione reattiva, E-mail designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un’e-mail, a un modello o a un frammento direttamente tramite l’interfaccia utente. Puoi passare direttamente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
+Progettato per fornire HTML ottimizzati per la progettazione reattiva, E-mail designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un’e-mail, a un modello o a un frammento direttamente tramite l’interfaccia utente. Puoi passare facilmente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
 
 E-mail designer consente di creare contenuti e modelli di contenuto per le e-mail. È compatibile con e-mail semplici, e-mail transazionali, e-mail di test A/B, e-mail in più lingue ed e-mail ricorrenti.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Scopri E-mail Designer nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri E-mail designer nel video](#video)
 
 * Per informazioni su come creare contenuti e-mail, consulta la [Guida introduttiva a E-mail designer](../../designing/using/quick-start.md).
 * Per avere una panoramica su E-mail designer, consulta [Uso di E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -117,7 +117,7 @@ Per utilizzare in modo appropriato E-mail designer e creare le e-mail migliori n
 
    Visualizza l’anteprima dei messaggi prima di inviarli.  Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consulta [Rendering e-mail](../../sending/using/email-rendering.md).
 
-* Il tag meta referente non è supportato nella finestra di progettazione e-mail.
+* Il metatag del referente non è supportato in E-mail designer.
 
 Puoi trovare altre best practice generiche e specifiche sui messaggi nella guida passo-passo di Adobe Campaign che segue: [Best practice per le consegne con Adobe Campaign](../../sending/using/delivery-best-practices.md).
 
@@ -151,8 +151,8 @@ Per quanto riguarda i frammenti, tieni presente quanto segue:
 
 * Durante la modifica degli stili, sono disponibili solo i font per web ufficialmente supportati dalla maggior parte dei client e-mail.
 * Non è possibile salvare gli stili come tema da riutilizzare in futuro. Tuttavia, lo stile CSS può essere salvato in un modello di contenuto o in un messaggio e-mail. Per ulteriori informazioni sugli stili, consulta [questa sezione](../../designing/using/styles.md).
-* Il tag meta referente non è supportato nella finestra di progettazione e-mail.
-* Le coppie surrogate, i caratteri non inclusi nel piano multilingue di base del set di caratteri Unicode, non possono essere memorizzati in 2 byte (16 bit) e devono essere codificati in 2 caratteri UTF-16. Questi personaggi includono alcune ideografie CJK, la maggior parte delle emoticon e alcune lingue.<br>Questi caratteri possono causare alcuni problemi di incompatibilità nel testo dinamico. Prima di inviare i messaggi è necessario eseguire test rigorosi.
+* Il metatag del referente non è supportato in E-mail designer.
+* Le coppie surrogate, caratteri non inclusi nel piano multilingue di base del set di caratteri Unicode, non possono essere memorizzate in 2 byte (16 bit) e devono essere codificate in 2 caratteri UTF-16. Questi caratteri includono alcuni ideogrammi CJK, la maggior parte delle emoticon e alcune lingue.<br>Questi caratteri possono causare alcuni problemi di incompatibilità nel testo dinamico. Prima di inviare i messaggi, è necessario eseguire test avanzati.
 
 **Argomenti correlati**
 

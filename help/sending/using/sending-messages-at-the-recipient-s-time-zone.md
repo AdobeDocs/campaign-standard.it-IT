@@ -17,7 +17,7 @@ ht-degree: 88%
 
 # Invio di messaggi con il fuso orario del destinatario{#sending-messages-at-the-recipient-s-time-zone}
 
-Quando gestisci una campagna in cui la data e l’ora sono importanti, puoi pianificare una consegna che tenga conto dell’ora locale di ciascun destinatario: riceveranno e-mail, SMS o notifiche push al momento pianificato, nel proprio fuso orario.
+Quando gestisci una campagna in cui la data e l’ora sono importanti, puoi pianificare una consegna che tenga conto dell’ora locale di ciascun destinatario: e-mail, SMS o notifiche push verranno ricevuti all’ora pianificata, nel rispettivo fuso orario.
 
 >[!NOTE]
 >

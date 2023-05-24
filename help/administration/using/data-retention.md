@@ -15,18 +15,18 @@ ht-degree: 13%
 
 # Conservazione dei dati{#data-retention}
 
-Le tabelle di registro standard in Campaign presentano periodi di conservazione predefiniti che limitano la durata dell’archiviazione dei dati, per evitare di sovraccaricare il sistema.
+Le tabelle di registro standard in Campaign dispongono di periodi di conservazione preimpostati che limitano la durata di archiviazione dei dati, per evitare un sovraccarico del sistema.
 
-La configurazione di conservazione dei dati è impostata dagli amministratori tecnici di Adobe durante l’implementazione e i valori possono variare a seconda dei requisiti dei clienti.
+La configurazione della conservazione dei dati è impostata dagli amministratori tecnici Adobi durante l’implementazione e i valori possono variare per ogni implementazione, in base ai requisiti dei clienti.
 
-Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sui periodi di conservazione applicabili all’ambiente o per impostare periodi di conservazione personalizzati.
+Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sui periodi di conservazione applicabili al tuo ambiente o per impostare periodi di conservazione personalizzati.
 
-Utilizzando la funzionalità flusso di lavoro standard, è possibile impostare periodi di conservazione per qualsiasi tabella personalizzata.
+Tieni presente che utilizzando la funzionalità standard del flusso di lavoro, è possibile impostare periodi di conservazione per qualsiasi tabella personalizzata.
 
-Di seguito sono riportati i periodi di conservazione predefiniti per le tabelle standard. Quando possibile e a seconda dell’utilizzo dei dati, Adobe ti suggerisce di passare ai periodi di conservazione consigliati per migliorare le prestazioni dell’istanza Campaign.
+Di seguito sono riportati i periodi di conservazione predefiniti per le tabelle standard. Quando possibile, e a seconda dell’utilizzo dei dati, Adobe ti consiglia di passare ai periodi di conservazione consigliati per migliorare le prestazioni dell’istanza Campaign.
 
 * **Tracciamento consolidato**: 6 mesi (consigliato: 1 mese)
-* **Log di consegna**: 6 mesi (consigliato: 1 mese)
+* **Registri di consegna**: 6 mesi (consigliato: 1 mese)
 * **Registri di tracciamento**: 6 mesi (consigliato: 1 mese)
 * **Eventi**: 1 mese
 * **Statistiche sull’elaborazione degli eventi**: 6 mesi (consigliato: 1 mese)

@@ -19,18 +19,18 @@ ht-degree: 29%
 
 ## Informazioni sul tracciamento {#about-tracking}
 
-Grazie alle sue funzionalità di tracciamento, Adobe Campaign ti consente di tenere traccia del comportamento dei destinatari della consegna. A tal fine, Adobe Campaign utilizza cookie di sessione e cookie permanenti.
+Grazie alle sue funzionalità di tracciamento, Adobe Campaign ti consente di monitorare il comportamento dei destinatari della consegna. A tal fine, Adobe Campaign utilizza cookie di sessione e cookie permanenti.
 
-Puoi informare gli utenti che i tuoi siti sono dotati di strumenti di web tracking tramite una richiesta di autorizzazione (che viene visualizzata sopra la pagina, ad esempio) con una casella di controllo per autorizzare l’uso dei cookie, o aggiungere un banner nella parte superiore della prima pagina su cui accedono, ecc. Le finestre pop-up dovrebbero essere evitate in quanto spesso sono bloccate dai browser.
+Puoi informare gli utenti che i tuoi siti sono dotati di strumenti di tracciamento web tramite una richiesta di autorizzazione (che viene visualizzata sopra la pagina, ad esempio) con una casella di controllo per autorizzare l’uso dei cookie, oppure puoi aggiungere un banner nella parte superiore della prima pagina a cui accedono, ecc. Le finestre pop-up dovrebbero essere evitate in quanto spesso sono bloccate dai browser.
 
 Le informazioni di tracciamento sono disponibili per ogni contatto del database in **[!UICONTROL integrated customer profiles]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../audiences/using/integrated-customer-profile.md).
 
  Adobe Campaign utilizza due tipi di cookie:
 
-* Un cookie di sessione (nlid). Contiene l’identificatore dell’e-mail inviata al contatto (broadlogId) e l’identificatore del modello di messaggio (deliveryId). Viene aggiunto quando il contatto fa clic su un URL incluso in un’e-mail inviata da Adobe Campaign e ti consente di tracciarne il comportamento sul web. Questo cookie di sessione viene cancellato automaticamente alla chiusura del browser. Il contatto può configurare il browser per rifiutare i cookie.
-* Un cookie condiviso tra le soluzioni Adobe Experience Cloud. Questo ti consente di identificare gli utenti che interagiscono con le soluzioni Experience Cloud quando visitano un sito web. La descrizione di questo cookie è disponibile [qui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
+* Un cookie di sessione (nlid). Contiene l’identificatore dell’e-mail inviata al contatto (broadlogId) e l’identificatore del modello del messaggio (deliveryId). Viene aggiunto quando il contatto fa clic su un URL incluso in un’e-mail inviata da Adobe Campaign e ti consente di tracciarne il comportamento sul web. Questo cookie di sessione viene cancellato automaticamente alla chiusura del browser. Il contatto può configurare il browser per rifiutare i cookie.
+* Cookie condiviso tra soluzioni Adobe Experience Cloud. Questo ti consente di identificare gli utenti che interagiscono con le soluzioni Experience Cloud quando visitano un sito web. La descrizione di questo cookie è disponibile [qui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
-Il tracciamento con Adobe Campaign Standard consente di accedere alle seguenti funzionalità:
+Il tracciamento con Adobe Campaign Standard ti consente di accedere alle seguenti funzionalità:
 
 <table>
 <tr>
@@ -61,7 +61,7 @@ Il tracciamento con Adobe Campaign Standard consente di accedere alle seguenti f
 
 ## Registri di tracciamento {#tracking-logs}
 
-La **[!UICONTROL Tracking logs]** elenca la cronologia di tracciamento per la consegna. In questa scheda vengono visualizzate le informazioni di tracciamento per i messaggi inviati, ad esempio tutti gli URL tracciati da Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
+Il **[!UICONTROL Tracking logs]** Questa scheda elenca la cronologia di tracciamento per questa consegna. In questa scheda vengono visualizzate le informazioni di tracciamento per i messaggi inviati, ad esempio tutti gli URL tracciati da Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
 
 >[!NOTE]
 >
@@ -72,10 +72,10 @@ La **[!UICONTROL Tracking logs]** elenca la cronologia di tracciamento per la co
 Nell’esempio precedente, il destinatario:
 
 * Apertura del messaggio.
-* Sul collegamento della pagina speculare è stato fatto clic su .
+* Fai clic sul collegamento della pagina speculare.
 * Fai clic sul collegamento personalizzato &quot;ULTERIORI INFORMAZIONI&quot;.
 
-In **[!UICONTROL Type]** i valori possibili sono:
+In **[!UICONTROL Type]** , i valori possibili sono:
 
 * **[!UICONTROL Email click]**: i destinatari hanno fatto clic su un collegamento personalizzato.
 * **[!UICONTROL Mirror page]**: il destinatario ha fatto clic su un collegamento alla pagina speculare.
@@ -88,12 +88,12 @@ In **[!UICONTROL Type]** i valori possibili sono:
 
 Per ulteriori informazioni su come inserire collegamenti di tracciamento, consulta [questa pagina](../../designing/using/links.md#inserting-a-link).
 
-La **[!UICONTROL Tracking indicators]** il rapporto contiene gli indicatori chiave per il tracciamento del comportamento dopo la ricezione dei messaggi e-mail. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/tracking-indicators.md).
+Il **[!UICONTROL Tracking indicators]** Il rapporto contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/tracking-indicators.md).
 
 ## URL tracciati {#tracked-urls}
 
-La **[!UICONTROL Tracked URLs]** la scheda raggruppa gli URL contenuti nel messaggio inviato, tra cui il loro tipo di URL e l’URL di origine.
+Il **[!UICONTROL Tracked URLs]** La scheda raggruppa gli URL contenuti nel messaggio inviato, compresi il tipo di URL e l’URL di origine.
 
 ![](assets/sending_delivery6.png)
 
-Per ulteriori informazioni sui collegamenti di tracciamento, consulta [questa sezione](../../designing/using/links.md#about-tracked-urls).
+Per ulteriori informazioni sul tracciamento dei collegamenti, consulta [questa sezione](../../designing/using/links.md#about-tracked-urls).

@@ -62,17 +62,17 @@ Prima di inviare le notifiche push, devi:
 
 1. In Adobe Campaign, assicurati di poter accedere al canale **[!UICONTROL Push notification]**. Se non riesci ad accedere a questi canali, contatta il team dell’account.
 
-1. Verifica che l’utente disponga delle autorizzazioni necessarie in Adobe Campaign Standard e dei tag in Adobe Experience Platform.
+1. Verifica che l’utente disponga delle autorizzazioni necessarie in Adobe Campaign Standard e nei tag in Adobe Experience Platform.
 
-1. Nell’interfaccia utente di raccolta dati , crea una proprietà mobile . Per ulteriori informazioni, consulta [Configurare una proprietà mobile](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
+1. Nell’interfaccia utente di Data Collection , crea una proprietà mobile. Per ulteriori informazioni, consulta [Configurare una proprietà mobile](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
-1. Nell’ interfaccia utente di raccolta dati , installa il **[!UICONTROL Adobe Campaign Standard]** estensione.
+1. Nell’interfaccia utente di Data Collection , installa **[!UICONTROL Adobe Campaign Standard]** estensione.
 
-1. In Adobe Campaign Standard, configura la proprietà mobile creata nell’interfaccia utente Raccolta dati. Per ulteriori informazioni, consulta [Configurazione dell’applicazione tag in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. In Adobe Campaign Standard, configura la proprietà mobile creata nell’interfaccia utente di Data Collection. Per ulteriori informazioni, consulta [Configurazione dell’applicazione tag in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Aggiungi la configurazione specifica per il canale alla configurazione dell’app mobile. Per ulteriori informazioni, consulta [Configurazione dell’applicazione specifica per il canale in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Per supportare le implementazioni dei casi di utilizzo per dispositivi mobili, consulta le istruzioni dettagliate sulle estensioni, le regole dei tag e l’implementazione SDK in [Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard utilizzando gli SDK Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
+1. Per supportare le implementazioni dei casi di utilizzo per dispositivi mobili, consulta le istruzioni dettagliate su estensioni, regole di tag e implementazione SDK in [Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard utilizzando gli SDK di Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
 
 ## Domande frequenti sulle notifiche push {#push-faq}
 
@@ -87,76 +87,76 @@ Consulta le risorse seguenti:
 
 ### Cosa devo fare per acquisire un token push in Campaign? {#push-token-acquisition}
 
-Assicurati che il team di provisioning abbia completato il provisioning del canale push in Adobe Campaign Standard. Implementa l&#39;API setPushIdentifier dall&#39;SDK. Per ulteriori informazioni, consulta questa [pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
+Assicurati che il team di provisioning abbia completato il provisioning del canale push in Adobe Campaign Standard. Implementa l’API setPushIdentifier dall’SDK. Per ulteriori informazioni, consulta questa [pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
-### Una volta che ho il token push e l’ECID in Campaign, cos’altro devo inviare una notifica push? {#sending-push}
+### Una volta che dispongo di token push ed ECID in Campaign, cos’altro è necessario per inviare una notifica push? {#sending-push}
 
 Per inviare una notifica push, i clienti devono fornire un certificato push valido in formato .pem. Non è necessaria una password per questo certificato.
 
-### Cosa succede se dispongo di un certificato .p12 invece del certificato .pem? {#certificates}
+### Cosa succede se dispongo di un certificato .p12 invece di un certificato .pem? {#certificates}
 
-Puoi convertire un certificato .p12 in un certificato .pem eseguendo il comando sottostante nel terminale. Sono disponibili diverse risorse online per le istruzioni di conversione.
+Per convertire un certificato .p12 in un certificato .pem, esegui il comando seguente nel terminale. Sono disponibili diverse risorse online per le istruzioni di conversione.
 
 ```
 openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 ```
 
-### Come posso sapere se il caricamento del certificato ha esito positivo? {#certificate-upload}
+### Come posso sapere se il caricamento del certificato è riuscito? {#certificate-upload}
 
 Verrà visualizzato il seguente messaggio.
 
 ![](assets/faq_2.png)
 
-### Posso caricare sia i certificati di produzione che i certificati sandbox contemporaneamente per l’app iOS (N/D per Android)? {#prod-sandbox-certificate}
+### Posso caricare contemporaneamente i certificati di produzione e sandbox per l’app iOS (N/A per Android)? {#prod-sandbox-certificate}
 
-No, le app funzioneranno in sandbox o in modalità di produzione e non possono essere modificate nell&#39;altro (ad esempio sandbox all&#39;app di produzione) una volta impostate. È consigliabile testare prima l’app in modalità sandbox e quindi passare alla modalità di produzione.
+No, le app funzioneranno sia in modalità sandbox che in modalità di produzione e non possono essere modificate una volta configurate. È consigliabile testare l’app prima in modalità sandbox e quindi passare alla modalità di produzione.
 
 Per passare alla modalità di produzione, dovrai creare un’altra app. Inoltre, assicurati di non selezionare la casella di controllo sandbox e di caricare un certificato di produzione.
 
-### Posso caricare contemporaneamente sia le credenziali iOS che Android? {#ios-android-credentials}
+### Posso caricare contemporaneamente le credenziali sia di iOS che di Android? {#ios-android-credentials}
 
-Sì, Campaign supporta entrambe le piattaforme contemporaneamente e ti consente di caricare le credenziali per entrambe le piattaforme.
+Sì, Campaign supporta entrambe le piattaforme contemporaneamente e consente di caricare le credenziali per entrambe.
 
-### Ho caricato i certificati push con successo, ma non vengono inviati messaggi push. {#push-certificates-upload}
+### I certificati push sono stati caricati correttamente, ma non vengono inviati messaggi push. {#push-certificates-upload}
 
-Verifica che i certificati push siano validi verificandoli [qui](https://pushtry.com/).
+Verifica la validità dei certificati push effettuandone il test [qui](https://pushtry.com/).
 
-### Sono in grado di inviare le notifiche push con successo da pushtry.com ma non tramite Campaign. {#push-not-sending}
+### Sono in grado di inviare notifiche push correttamente da pushtry.com ma non tramite Campaign. {#push-not-sending}
 
-Assicurati di seguire le istruzioni sul payload push fornite [qui](../../administration/using/push-payload.md).
+Verifica di seguire le istruzioni di payload push fornite [qui](../../administration/using/push-payload.md).
 
-Per Android, Campaign supporta solo il payload di dati e non il payload di notifica
+Tieni presente che per Android, Campaign supporta solo il payload dei dati e non il payload di notifica
 
-### Ho configurato un’app nella sezione Amministrazione di Adobe Campaign Standard ma l’app mobile non è disponibile nelle proprietà Consegna . {#mobile-app-unavailable}
+### Ho configurato un’app nella sezione Amministrazione di Adobe Campaign Standard, ma l’app mobile non è disponibile nelle proprietà Consegna. {#mobile-app-unavailable}
 
-Per poter essere reso disponibile nelle proprietà di consegna, è necessario caricare anche un certificato push valido.
+Un’app deve avere anche un certificato push valido caricato prima che possa essere reso disponibile nelle proprietà di consegna.
 
-### Ho provato tutte le istruzioni su questa pagina e tuttavia non sono in grado di inviare push da Campaign. {#push-troubleshoot}
+### Ho provato tutte le istruzioni su questa pagina, ma non sono in grado di inviare messaggi push da Campaign. {#push-troubleshoot}
 
-Apri un ticket di assistenza clienti.
+Per favore, apri un ticket di assistenza clienti.
 
 ### Le notifiche push vengono inviate da Campaign, ma il file multimediale non viene visualizzato.{#media-file-unavailable}
 
-Gli sviluppatori di app mobili devono gestire il supporto per i file multimediali nell’app. A volte la larghezza di banda della rete può anche impedire il rendering di un file multimediale. Fai riferimento a questo [page](../../administration/using/image-push-notification.md) per puntatori aggiuntivi.
+Gli sviluppatori di app mobili devono gestire il supporto per i file multimediali nell’app. A volte la larghezza di banda di rete può anche impedire il rendering di un file multimediale. Fai riferimento a questo [pagina](../../administration/using/image-push-notification.md) per puntatori aggiuntivi.
 
-### Cosa devo fare per abilitare il reporting push in Campaign? {#push-reporting-enable}
+### Cosa devo fare per abilitare i rapporti push in Campaign? {#push-reporting-enable}
 
 Segui i passaggi seguenti:
 
-* Configura un postback di tracciamento push. Le istruzioni sono disponibili [qui](../../administration/using/configuring-a-mobile-application.md).
-* Implementa l&#39;API trackAction da Mobile Core. Fai riferimento a questo [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) per ulteriori informazioni.
+* Configura un postback di tracciamento push. Le istruzioni sono disponibili sul sito [qui](../../administration/using/configuring-a-mobile-application.md).
+* Implementa l’API trackAction da Mobile Core. Fai riferimento a questo [pagina](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) per ulteriori informazioni.
 
-Istruzioni più dettagliate sono disponibili in questo [page](../../administration/using/push-tracking.md).
+Per istruzioni più dettagliate, consulta [pagina](../../administration/using/push-tracking.md).
 
 ### Quali rapporti sono disponibili per il canale push? {#push-report-available}
 
-Un rapporto preconfigurato è disponibile in Adobe Campaign per il canale push. Fai riferimento a questo [documentazione](../../reporting/using/push-notification-report.md).
+In Adobe Campaign per il canale push è disponibile un rapporto pronto all’uso. Fai riferimento a questo [documentazione](../../reporting/using/push-notification-report.md).
 
-Vedi questo [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) per comprendere come vengono calcolate le metriche push.
+Vedi questo [pagina](../../reporting/using/indicator-calculation.md#push-notification-delivery) per comprendere come vengono calcolate le metriche push.
 
-### I collegamenti profondi sono supportati nei messaggi push e in-app? {#deeplink-push}
+### I deep link sono supportati nei messaggi push e in-app? {#deeplink-push}
 
-Sì, i collegamenti profondi sono supportati nei messaggi push. I collegamenti profondi dovrebbero includere:
+Sì, i deep link sono supportati nei messaggi push. I collegamenti diretti devono includere:
 
-* Lingua che indica che il tracciamento della consegna deve essere disabilitato affinché i collegamenti profondi funzionino.
-* Applicare un flyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull’integrazione di Branch e Adobe Campaign Standard, consulta questo [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Lingua che indica che il tracciamento della consegna deve essere disabilitato affinché i collegamenti diretti funzionino.
+* Appsflyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull’integrazione di Branch e Adobe Campaign Standard, consulta questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

@@ -74,7 +74,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>attacco</td>
+                  <td>allegato</td>
                   <td>File allegati</td>
                   <td>raccolta </td>
                   <td> </td>
@@ -86,13 +86,13 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>wideLogs</td>
+                  <td>broadLogs</td>
                   <td>Registri di consegna</td>
                   <td>raccolta </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>incorporato</td>
+                  <td>predefinito</td>
                   <td>Oggetto applicazione incorporato</td>
                   <td>booleano </td>
                   <td> </td>
@@ -116,7 +116,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>content</td>
+                  <td>contenuto</td>
                   <td>Contenuto</td>
                   <td>elemento </td>
                   <td> </td>
@@ -129,7 +129,7 @@ ht-degree: 31%
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
                         <li>Adobe Campaign - campagna - 0</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -157,10 +157,10 @@ ht-degree: 31%
                   <td>enumerazione (byte) </td>
                   <td>
                      <ul>
-                        <li>Consegna in blocco - bulk - 1</li>
-                        <li>mid-sourcing - midSourcing - 4</li>
-                        <li>Descrizione - descrittivo - 2</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Consegna in blocco - in blocco - 1</li>
+                        <li>Mid-sourcing - midSourcing - 4</li>
+                        <li>Descrizione - descrittiva - 2</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                         <li>Esterno - esterno - 0</li>
                      </ul>
                   </td>
@@ -174,7 +174,7 @@ ht-degree: 31%
                <tr>
                   <td>desc</td>
                   <td>Descrizione</td>
-                  <td>string (512)</td>
+                  <td>stringa (512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -202,20 +202,20 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>executeType</td>
+                  <td>executionType</td>
                   <td>Tipo di esecuzione</td>
                   <td>enumerazione (byte) </td>
                   <td>
                      <ul>
-                        <li>Univoco - una tantum - 0</li>
+                        <li>Univoco - oneTime - 0</li>
                         <li>Continuo - continuo - 1</li>
                         <li>Centro messaggi - messageCenter - 2</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>ForecLogs</td>
+                  <td>forecastLogs</td>
                   <td>ForecastLog</td>
                   <td>raccolta </td>
                   <td> </td>
@@ -238,18 +238,18 @@ ht-degree: 31%
                   <td>enumerazione (byte) </td>
                   <td>
                      <ul>
-                        <li>E-mail transazionale - emailLightning - 60</li>
-                        <li>Fax - fax - 4</li>
+                        <li>E-mail transazionale - e-mailLightning - 60</li>
+                        <li>Fax - Fax - 4</li>
                         <li>Mobile (SMS) - sms - 1</li>
                         <li>E-mail ricorrente - emailRefresh - 30</li>
-                        <li>Posta diretta - carta - 3</li>
-                        <li>Telefono - 2</li>
+                        <li>Direct mail - carta - 3</li>
+                        <li>Telefono - telefono - 2</li>
                         <li>Altro - altri - 120</li>
                         <li>SMS ricorrenti - smsRefresh - 31</li>
-                        <li>App mobile - pushNotification - 40</li>
+                        <li>Applicazione mobile - pushNotification - 40</li>
                         <li>SMS transazionali - smsLightning - 61</li>
-                        <li>E-mail - 0</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>E-mail - e-mail - 0</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -261,7 +261,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>isMaster</td>
-                  <td>Master</td>
+                  <td>Principale</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -278,7 +278,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>lavoro</td>
+                  <td>processo</td>
                   <td>Processo</td>
                   <td>raccolta </td>
                   <td> </td>
@@ -290,7 +290,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>kpis</td>
+                  <td>kpi</td>
                   <td>Indicatori</td>
                   <td>elemento </td>
                   <td> </td>
@@ -298,7 +298,7 @@ ht-degree: 31%
                <tr>
                   <td>label</td>
                   <td>Etichetta</td>
-                  <td>string (128)</td>
+                  <td>stringa (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -314,11 +314,11 @@ ht-degree: 31%
                   <td>
                      <ul>
                         <li>In corso - avviato - avviato</li>
-                        <li>Editing - edizione</li>
-                        <li>Finito - finito - finito - finito</li>
-                        <li>Avviso - avviso</li>
-                        <li>Errore - Errore - Errore</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Editing - edition - edition</li>
+                        <li>Finito - finito - finito</li>
+                        <li>Avviso - avviso - avviso</li>
+                        <li>Errato - Errore - Errore</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -335,20 +335,20 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>mapping (deliveryMapping)</td>
+                  <td>mappatura (deliveryMapping)</td>
                   <td>Mappatura del target</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>master (deliveryBase)</td>
+                  <td>principale (deliveryBase)</td>
                   <td>Istanza principale</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>masterKpis</td>
-                  <td>Indicatori master</td>
+                  <td>masterKpi</td>
+                  <td>Indicatori principali</td>
                   <td>elemento </td>
                   <td> </td>
                </tr>
@@ -358,14 +358,14 @@ ht-degree: 31%
                   <td>enumerazione (byte) </td>
                   <td>
                      <ul>
-                        <li>Fax - fax - 4</li>
+                        <li>Fax - Fax - 4</li>
                         <li>Mobile (SMS) - sms - 1</li>
-                        <li>E-mail - 0</li>
-                        <li>Telefono - 2</li>
-                        <li>Posta diretta - carta - 3</li>
-                        <li>App mobile - pushNotification - 40</li>
+                        <li>E-mail - e-mail - 0</li>
+                        <li>Telefono - telefono - 2</li>
+                        <li>Direct mail - carta - 3</li>
+                        <li>Applicazione mobile - pushNotification - 40</li>
                         <li>Altro - altri - 120</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -378,7 +378,7 @@ ht-degree: 31%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>string (64)</td>
+                  <td>stringa (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -394,7 +394,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>parent (deliveryBase)</td>
+                  <td>principale (deliveryBase)</td>
                   <td>Consegna principale</td>
                   <td>link </td>
                   <td> </td>
@@ -406,13 +406,13 @@ ht-degree: 31%
                   <td>
                      <ul>
                         <li>Alto - alto - 20</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                         <li>Normale - normale - 10</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>programma (programBase)</td>
+                  <td>program (programBase)</td>
                   <td>Programma</td>
                   <td>link </td>
                   <td> </td>
@@ -425,13 +425,13 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>pushNotificationPreview</td>
-                  <td>Anteprima notifiche push</td>
+                  <td>Anteprima notifica push</td>
                   <td>elemento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushnotificationParameters</td>
-                  <td>Parametri pushNotification</td>
+                  <td>Parametri PushNotification</td>
                   <td>elemento </td>
                   <td> </td>
                </tr>
@@ -444,12 +444,12 @@ ht-degree: 31%
                <tr>
                   <td>resourceVersion</td>
                   <td>Versione risorsa</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>ribbonMessage</td>
-                  <td>Messaggio a barre multifunzione</td>
+                  <td>Messaggio barra multifunzione</td>
                   <td>stringa </td>
                   <td> </td>
                </tr>
@@ -460,7 +460,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>programmazione</td>
+                  <td>pianificazione</td>
                   <td>Pianificazione della consegna</td>
                   <td>elemento </td>
                   <td> </td>
@@ -483,24 +483,24 @@ ht-degree: 31%
                   <td>enumerazione (byte) </td>
                   <td>
                      <ul>
-                        <li>Avvia in sospeso - startPending - 51</li>
+                        <li>Avvio in sospeso - startPending - 51</li>
                         <li>Pronto per la consegna - pronto - 45</li>
-                        <li>Riprova in sospeso - riprovaIn sospeso - 61</li>
-                        <li>Nuovo tentativo in corso - tryInProgress - 62</li>
+                        <li>Nuovo tentativo in sospeso - retryPending - 61</li>
+                        <li>Nuovo tentativo in corso - retryInProgress - 62</li>
                         <li>Non riuscito - non riuscito - 87</li>
                         <li>In corso - avviato - 55</li>
                         <li>Targeting in sospeso - targetPrepPending - 11</li>
                         <li>Personalizzazione in sospeso - messagePrepPending - 21</li>
                         <li>In pausa - in pausa - 75</li>
-                        <li>Editing - edizione - 0</li>
+                        <li>Modifica - edizione - 0</li>
                         <li>Finito - finito - 95</li>
                         <li>Conteggio in corso - targetSelection - 12</li>
                         <li>Messaggio finalizzato - messageReady - 25</li>
                         <li>Personalizzazione o conteggio non riuscito - preparationError - 37</li>
-                        <li>Arrestato - annullato - 85</li>
+                        <li>Interrotto - annullato - 85</li>
                         <li>Personalizzazione in corso - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                         <li>Arbitrato in corso - targetArbitrato - 13</li>
                      </ul>
                   </td>
@@ -519,14 +519,14 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>miniatura</td>
-                  <td>Miniatura di consegna</td>
-                  <td>string (255)</td>
+                  <td>Miniatura della consegna</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
                   <td>Consegna</td>
-                  <td>string (255)</td>
+                  <td>stringa (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -542,7 +542,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>trackingUrl</td>
+                  <td>trackingUrls</td>
                   <td>URL tracciati</td>
                   <td>raccolta </td>
                   <td> </td>
@@ -561,7 +561,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>workflow (workflowBase)</td>
-                  <td>Flusso di lavoro di targeting</td>
+                  <td>Flusso di lavoro di destinazione</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -572,11 +572,11 @@ ht-degree: 31%
                   <td>
                      <ul>
                         <li>In corso - avviato - avviato</li>
-                        <li>Editing - edizione</li>
-                        <li>Finito - finito - finito - finito</li>
-                        <li>Avviso - avviso</li>
-                        <li>Errore - Errore - Errore</li>
-                        <li>VALORE NON VALIDO - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Editing - edition - edition</li>
+                        <li>Finito - finito - finito</li>
+                        <li>Avviso - avviso - avviso</li>
+                        <li>Errato - Errore - Errore</li>
+                        <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                      </ul>
                   </td>
                </tr>
@@ -584,7 +584,7 @@ ht-degree: 31%
 
 ## Filtri
 
-Per tipo di canale (byChannel)
+Per tipo di canale (perCanale)
 
 <table>
     <tr>
@@ -592,7 +592,7 @@ Per tipo di canale (byChannel)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>canale</td>
+    <td>channel</td>
     <td>enumerazione</td>
     </tr>
 </table>
@@ -605,7 +605,7 @@ Per tipo di esecuzione (byExecutionType)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>executeType</td>
+    <td>executionType</td>
     <td>enumerazione</td>
     </tr>
 </table>
@@ -670,7 +670,7 @@ Per periodo (byStartPeriod)
     </tr>
 </table>
 
-Per stato di pubblicazione (byPublicationStatus)
+Per stato pubblicazione (byPublicationStatus)
 
 <table>
     <tr>
@@ -683,7 +683,7 @@ Per stato di pubblicazione (byPublicationStatus)
     </tr>
 </table>
 
-Per stato (perStato)
+Per stato (byState)
 
 <table>
     <tr>
@@ -709,7 +709,7 @@ Messaggi di follow-up (showFollowup)
     </tr>
 </table>
 
-Includere consegne avanzate (con Advanced)
+Includi consegne avanzate (conAvanzate)
 
 <table>
     <tr>
@@ -722,7 +722,7 @@ Includere consegne avanzate (con Advanced)
     </tr>
 </table>
 
-Includi consegne continue da un elenco eterogeneo (con Continuous)
+Includi consegne continue da un elenco eterogeneo (conContinuo)
 
 <table>
     <tr>
@@ -743,12 +743,12 @@ Includi bozze (con FCP)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>con FCP</td>
+    <td>conFCP</td>
     <td>booleano</td>
     </tr>
 </table>
 
-Pianificato durante il periodo specificato (daPlanning)
+Pianificato durante il periodo specificato (per Pianificazione)
 
 <table>
     <tr>
@@ -765,7 +765,7 @@ Pianificato durante il periodo specificato (daPlanning)
     </tr>
 </table>
 
-Presente durante un determinato periodo (byCalendar)
+Presente durante il periodo specificato (per calendario)
 
 <table>
     <tr>
@@ -790,7 +790,7 @@ Mostra preconfigurato (showOob)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>forca</td>
+    <td>oob</td>
     <td>booleano</td>
     </tr>
 </table>

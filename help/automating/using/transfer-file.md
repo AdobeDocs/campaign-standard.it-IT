@@ -32,7 +32,7 @@ Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: Aggiornamento dei dati in base a un download automatico del file](../../automating/using/update-data-automatic-download.md)
+* [Caso di utilizzo: aggiornamento dei dati in base a un download automatico del file](../../automating/using/update-data-automatic-download.md)
 
 ## Configurazione {#configuration}
 
@@ -58,13 +58,13 @@ Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati
 
    È possibile eseguire le seguenti operazioni:
 
-   * **[!UICONTROL Delete the source files after transfer]**: cancella i file sul server remoto. Se non selezioni questa opzione, assicurati di monitorare manualmente le dimensioni del contenuto archiviato nella directory SFTP.
+   * **[!UICONTROL Delete the source files after transfer]**: cancella i file sul server remoto. Se lasci questa opzione deselezionata, assicurati di monitorare manualmente le dimensioni del contenuto archiviato nella directory SFTP.
 
-   * **[!UICONTROL Sorting files]**: consente di ordinare i file in modo alfanumerico. Questa opzione è disabilitata per impostazione predefinita.
+   * **[!UICONTROL Sorting files]**: consente di ordinare i file in ordine alfanumerico. Questa opzione è disabilitata per impostazione predefinita.
 
       <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: questa opzione è disponibile quando selezioni **[!UICONTROL File listing]** nell&#39;azione **[!UICONTROL General]** scheda . Ti consente di indicizzare tutti i file presenti sul server nella variabile dell’evento **vars.filenames**, in cui i nomi dei file sono separati da **“n”** caratteri.
+   * **[!UICONTROL List all files]**: questa opzione è disponibile quando selezioni la **[!UICONTROL File listing]** azione in **[!UICONTROL General]** scheda. Ti consente di indicizzare tutti i file presenti sul server nella variabile dell’evento **vars.filenames**, in cui i nomi dei file sono separati da **“n”** caratteri.
 
 1. La sezione **[!UICONTROL If no files are found]** della scheda **[!UICONTROL Advanced options]** ti permette di configurare azioni specifiche in caso di errori o file inesistenti rilevati all’avvio dell’attività.
 
@@ -78,20 +78,20 @@ Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati
 
 Il protocollo HTTP ti consente di iniziare a scaricare un file da un account esterno o da un URL.
 
-Con questo protocollo, puoi scegliere di **[!UICONTROL Use connection parameters defined in an external account]** opzione . In questo caso, seleziona l’account desiderato e specifica il percorso del file da scaricare.
+Con questo protocollo, puoi scegliere di **[!UICONTROL Use connection parameters defined in an external account]** opzione. In questo caso, seleziona l’account desiderato e specifica il percorso del file da scaricare.
 
 ![](assets/wkf_file_transfer_03.png)
 
 Puoi anche scegliere l’opzione **[!UICONTROL Quick configuration]**. Devi solo inserire l’URL nel relativo campo.
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** e **[!UICONTROL Add received HTTP headers to the file]** sono le opzioni aggiuntive disponibili quando selezioni il protocollo HTTP.
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, e **[!UICONTROL Add received HTTP headers to the file]** sono le opzioni aggiuntive disponibili quando si seleziona il protocollo HTTP.
 
 ### Configurazione con SFTP {#SFTP-configuration-wf}
 
 Il protocollo SFTP ti consente di iniziare a scaricare un file da un URL o da un account esterno.
 
-Con questo protocollo, puoi scegliere di **[!UICONTROL Use connection parameters defined in an external account]** , quindi seleziona l’account desiderato e specifica il percorso del file da scaricare.
+Con questo protocollo, puoi scegliere di **[!UICONTROL Use connection parameters defined in an external account]** , quindi selezionare l&#39;account desiderato e specificare il percorso del file da scaricare.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -114,9 +114,9 @@ Il protocollo Amazon S3 ti consente di iniziare a scaricare un file da un URL o 
 
    >[!CAUTION]
    >
-   > I caratteri jolly non sono supportati con Amazon S3.
+   > I caratteri jolly non sono supportati in Amazon S3.
    >
-   > Per eseguire il targeting di più file, ad esempio `my_file_02` e `my _file_3433`, puoi utilizzare la sintassi seguente: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > Per eseguire il targeting di più file come `my_file_02` e `my _file_3433`, è possibile utilizzare la sintassi seguente: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Se desideri eliminare i file sorgente al termine del trasferimento, seleziona la casella **[!UICONTROL Delete the source files after transfer]**.
 
@@ -145,7 +145,7 @@ Il protocollo BLOB di Microsoft Azure ti consente di accedere a BLOB che si trov
 ### Configurazione con file presenti nel server di Adobe Campaign {#files-server-configuration-wf}
 
 Il protocollo **[!UICONTROL File(s) present on the Adobe Campaign server]** corrisponde all’archivio contenente i file da recuperare.
-Metacaratteri o caratteri jolly (ad esempio &#42; o ?) può essere utilizzato per filtrare i file.
+Metacaratteri o caratteri jolly (ad esempio &#42; o ?) per filtrare i file.
 
 Scegli se desideri **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**. L’opzione **[!UICONTROL Use a dynamic file path]** ti consente di utilizzare un’espressione standard e variabili di eventi per personalizzare il nome del file da trasferire. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/customizing-workflow-external-parameters.md).
 
@@ -179,9 +179,9 @@ Tutte le volte che l’attività viene eseguita, la cartella viene controllata c
 
 ## Variabili di output {#output-variables}
 
-La **[!UICONTROL Transfer file]** activity genera variabili evento come output, che è possibile sfruttare in altre attività, ad esempio per controllare il numero di file scaricati utilizzando un [Test](../../automating/using/test.md) attività.
+Il **[!UICONTROL Transfer file]** l’attività genera variabili evento come output, che puoi sfruttare in altre attività, ad esempio per verificare il numero di file scaricati utilizzando una [Test](../../automating/using/test.md) attività.
 
-Tieni presente che le variabili evento possono essere trasmesse anche a un altro flusso di lavoro utilizzando un segnale esterno (vedi [Personalizzazione di un flusso di lavoro con parametri esterni](../../automating/using/customizing-workflow-external-parameters.md)).
+Tieni presente che le variabili evento possono anche essere passate a un altro flusso di lavoro utilizzando un segnale esterno (vedi [Personalizzazione di un flusso di lavoro con parametri esterni](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Le variabili di output disponibili sono:
 

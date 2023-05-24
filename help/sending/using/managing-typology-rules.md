@@ -67,7 +67,7 @@ Nella modalità operativa standard, le regole vengono applicate nella sequenza s
 1. Regole di controllo, se applicate all’inizio del targeting.
 1. Regole di filtro:
 
-   * Regole di applicazione native per la qualifica degli indirizzi: indirizzo definito / indirizzo non verificato / indirizzo al elenco Bloccati / indirizzo messo in quarantena / qualità indirizzo.
+   * Regole di applicazione native per la qualifica dell&#39;indirizzo: indirizzo definito/indirizzo non verificato/indirizzo non verificato/inserito nell&#39;elenco Bloccati/indirizzo messo in quarantena/qualità indirizzo.
    * Regole di filtro definite dall’utente.
 
 1. Regole di controllo, se applicate alla fine del targeting.

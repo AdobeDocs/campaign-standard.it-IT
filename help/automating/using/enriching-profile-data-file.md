@@ -18,14 +18,14 @@ ht-degree: 75%
 
 # Arricchimento dei dati del profilo con i dati contenuti in un file {#enriching-profile-data-with-data-contained-in-a-file}
 
-Questo esempio mostra come arricchire i dati di profilo con i dati di acquisto contenuti in un file.In questo caso i dati di acquisto vengono memorizzati in un sistema di terze parti. Ciascun profilo può contenere vari acquisti memorizzati all’interno del file. L’obiettivo finale del flusso di lavoro è quello di inviare un’e-mail ai profili di destinazione che hanno acquistato almeno due elementi, in modo da ringraziarli della loro fedeltà.
+Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto contenuti in un file.In questo caso, i dati di acquisto vengono memorizzati in un sistema di terze parti. Ciascun profilo può contenere vari acquisti memorizzati all’interno del file. L’obiettivo finale del flusso di lavoro è quello di inviare un’e-mail ai profili di destinazione che hanno acquistato almeno due elementi, in modo da ringraziarli della loro fedeltà.
 
 Il flusso di lavoro è configurato come segue:
 
 ![](assets/enrichment_example_workflow.png)
 
 * A [Query](../../automating/using/query.md) attività che esegue il targeting dei profili che riceveranno il messaggio.
-* A [Load file](../../automating/using/load-file.md) attività che carica i dati di acquisto. Ad esempio:
+* A [Carica file](../../automating/using/load-file.md) attività che carica i dati di acquisto. Ad esempio:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ Il flusso di lavoro è configurato come segue:
 
    Con questo file di esempio, utilizza l’indirizzo e-mail per riconciliare i dati con i profili del database. Puoi anche eseguire l’abilitazione di ID univoci, come descritto nel [presente documento](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* Un [Arricchimento](../../automating/using/enrichment.md) attività che crea un collegamento tra i dati della transazione caricati dal file e i profili selezionati nella **[!UICONTROL Query]**. Il collegamento è definito nella scheda **[!UICONTROL Advanced relations]** dell’attività. Il collegamento è basato sulla transizione proveniente dall’attività **[!UICONTROL Load file]**. Come criteri di riconciliazione, utilizza il campo &quot;e-mail&quot; della risorsa profilo e la colonna &quot;cliente&quot; del file importato.
+* Un [Arricchimento](../../automating/using/enrichment.md) attività che crea un collegamento tra i dati della transazione caricati dal file e i profili selezionati nel **[!UICONTROL Query]**. Il collegamento è definito nella scheda **[!UICONTROL Advanced relations]** dell’attività. Il collegamento è basato sulla transizione proveniente dall’attività **[!UICONTROL Load file]**. Come criteri di riconciliazione, utilizza il campo &quot;e-mail&quot; della risorsa profilo e la colonna &quot;cliente&quot; del file importato.
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ Il flusso di lavoro è configurato come segue:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A [Segmentazione](../../automating/using/segmentation.md) attività con un solo segmento, che recupera i profili della destinazione iniziale con almeno due transazioni registrate. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene eseguita sull’aggregato definito in precedenza.
+* A [Segmentazione](../../automating/using/segmentation.md) attività con un solo segmento, che recupera i profili della destinazione iniziale contenenti almeno due transazioni registrate. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene eseguita sull’aggregato definito in precedenza.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* Un [Email delivery](../../automating/using/email-delivery.md) che utilizza i dati aggiuntivi definiti nella **[!UICONTROL Enrichment]** per recuperare in modo dinamico gli ultimi due acquisti effettuati dal profilo. Durante l’inserimento di un campo di personalizzazione, i dati aggiuntivi si trovano nel nodo **Dati aggiuntivi (TargetData)**.
+* Un [Consegna e-mail](../../automating/using/email-delivery.md) che utilizza i dati aggiuntivi definiti nella sezione **[!UICONTROL Enrichment]** per recuperare in modo dinamico gli ultimi due acquisti effettuati dal profilo. Durante l’inserimento di un campo di personalizzazione, i dati aggiuntivi si trovano nel nodo **Dati aggiuntivi (TargetData)**.
 
    ![](assets/enrichment_example_workflow10.png)
 

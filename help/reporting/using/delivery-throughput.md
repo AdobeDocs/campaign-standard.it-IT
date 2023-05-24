@@ -1,6 +1,6 @@
 ---
 title: Velocità effettiva di consegna
-description: Con il rapporto preconfigurato sulla consegna, scopri il successo della consegna.
+description: Con il rapporto preconfigurato Throughput di consegna, scopri il successo della consegna.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,13 +18,13 @@ ht-degree: 4%
 
 # Velocità effettiva di consegna{#delivery-throughput}
 
-Questo rapporto contiene dati relativi alla velocità effettiva di consegna di un’invio o di più invii. Fornisce:
+Questo rapporto contiene dati relativi alla velocità effettiva di consegna di un invio o di più invii. Esso prevede:
 
-* Numero di messaggi elaborati all’ora
-* La **[!UICONTROL Top 5 deliveries]** numeri di tabella e di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno nei nuovi tentativi.
+* Numero di messaggi elaborati all&#39;ora
+* Il **[!UICONTROL Top 5 deliveries]** tabella e numeri di riepilogo complementari che mostrano le cinque consegne con il miglior guadagno in termini di nuovi tentativi.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->La **[!UICONTROL Delivery throughput]** visualizza la velocità effettiva per il inoltro dei messaggi da Campaign all’MTA avanzato di Adobe Campaign (Message Transfer Agent).
+>Il **[!UICONTROL Delivery throughput]** Questa pagina mostra la velocità effettiva per l’inoltro dei messaggi da Campaign all’MTA avanzato di Adobe Campaign (Message Transfer Agent).

@@ -48,7 +48,7 @@ Questi modelli predefiniti sono di sola lettura e non sono visibili agli utenti 
 
 1. Vai alla scheda **[!UICONTROL Workflow]**. Da qui puoi arricchire il flusso di lavoro offerto per impostazione predefinita aggiungendovi nuove attività in base alle tue esigenze.
 
-   Per ulteriori informazioni su come configurare le attività del flusso di lavoro, fai riferimento al caso d’uso descritto in questa sezione: [Esempio: importare un modello di flusso di lavoro](../../automating/using/creating-import-workflow-templates.md). Questo caso d’uso ti aiuta a configurare un flusso di lavoro che può essere riutilizzato per importare i profili provenienti da un sistema di gestione delle relazioni con i clienti nel database Adobe Campaign.
+   Per ulteriori informazioni su come configurare le attività del flusso di lavoro, fai riferimento al caso d’uso descritto in questa sezione: [Esempio: importare un modello di flusso di lavoro](../../automating/using/creating-import-workflow-templates.md). Questo caso d’uso consente di configurare un flusso di lavoro che può essere riutilizzato per importare nel database di Adobe Campaign i profili provenienti da un sistema di gestione delle relazioni con i clienti.
 
 1. Salva il tuo modello in modo che la configurazione del flusso di lavoro venga presa in considerazione nel modo corretto.
 1. Carica un file di esempio dalla scheda **[!UICONTROL Properties]**. Il file caricato può contenere solo le colonne necessarie per le importazioni future o per i dati campione. I dati contenuti nel file di esempio consentono di verificare l’importazione semplificata, una volta definito il flusso di lavoro.

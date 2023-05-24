@@ -19,58 +19,58 @@ ht-degree: 1%
 
 ## Aggiunta di un pannello vuoto {#adding-a-blank-panel}
 
-Per avviare il rapporto, puoi aggiungere un set di pannelli a un rapporto predefinito o personalizzato. Ogni pannello contiene set di dati diversi ed è composto da tabelle a forma libera e visualizzazioni.
+Per avviare il rapporto, puoi aggiungere un set di pannelli a un rapporto predefinito o personalizzato. Ogni pannello contiene set di dati diversi ed è composto da tabelle e visualizzazioni a forma libera.
 
-Questo pannello consente di generare i rapporti in base alle esigenze. Puoi aggiungere tutti i pannelli desiderati nei rapporti per filtrare i dati in base a periodi di tempo diversi.
+Questo pannello consente di creare i rapporti in base alle esigenze. Puoi aggiungere nei rapporti tutti i pannelli desiderati per filtrare i dati in base a diversi periodi di tempo.
 
-1. Fai clic sul pulsante **Pannelli** icona. Puoi anche aggiungere un pannello facendo clic sul pulsante **Inserisci, scheda** e selezionando **Nuovo pannello vuoto**.
+1. Fai clic su **Pannelli** icona. Puoi anche aggiungere un pannello facendo clic sul pulsante **Scheda Inserisci** e selezione **Nuovo pannello vuoto**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Trascina e rilascia la **Pannello vuoto** nel dashboard.
+1. Trascina la **Pannello vuoto** nel dashboard.
 
    ![](assets/dynamic_report_panel.png)
 
-Ora puoi aggiungere una tabella a forma libera al pannello per avviare il targeting dei dati.
+Ora puoi aggiungere una tabella a forma libera al pannello per iniziare a eseguire il targeting dei dati.
 
 ## Aggiunta di una tabella a forma libera {#adding-a-freeform-table}
 
-Le tabelle a forma libera consentono di creare una tabella per analizzare i dati utilizzando le diverse metriche e dimensioni disponibili nel **Componente** tabella.
+Le tabelle a forma libera ti consentono di creare una tabella per analizzare i dati utilizzando le diverse metriche e dimensioni disponibili in **Componente** tabella.
 
-Ogni tabella e visualizzazione può essere ridimensionata e spostata per personalizzare meglio il rapporto.
+Ogni tabella e visualizzazione è ridimensionabile e può essere spostata per personalizzare meglio il rapporto.
 
-1. Fai clic sul pulsante **[!UICONTROL Panels]** icona.
+1. Fai clic su **[!UICONTROL Panels]** icona.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Trascina e rilascia la **[!UICONTROL Freeform]** nel dashboard.
+1. Trascina la **[!UICONTROL Freeform]** nel dashboard.
 
-   Puoi anche aggiungere una tabella facendo clic sul pulsante **[!UICONTROL Insert]** scheda e selezione **[!UICONTROL New Freeform]** o facendo clic su **[!UICONTROL Add a freeform table]** in un pannello vuoto.
+   È inoltre possibile aggiungere una tabella facendo clic sul pulsante **[!UICONTROL Insert]** e selezionando **[!UICONTROL New Freeform]** o facendo clic su **[!UICONTROL Add a freeform table]** in un pannello vuoto.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. In **[!UICONTROL Drop a segment here]** campo , aggiungi un **[!UICONTROL Segment]** dal **[!UICONTROL Components]** nella barra superiore.
+1. In **[!UICONTROL Drop a segment here]** , aggiungi un **[!UICONTROL Segment]** dal **[!UICONTROL Components]** nella barra superiore.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Trascina e rilascia gli elementi dal **[!UICONTROL Components]** nelle colonne e nelle righe per creare la tabella.
+1. Trascina e rilascia gli elementi da **[!UICONTROL Components]** nelle colonne e nelle righe per generare la tabella.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Settings]** per modificare la modalità di visualizzazione dei dati nelle colonne.
+1. Fai clic su **[!UICONTROL Settings]** per modificare la modalità di visualizzazione dei dati nelle colonne.
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   La **[!UICONTROL Column settings]** è composto da:
+   Il **[!UICONTROL Column settings]** è composto da:
 
-   * **[!UICONTROL Number]**: consente di visualizzare o nascondere i numeri di riepilogo nella colonna.
+   * **[!UICONTROL Number]**: ti consente di mostrare o nascondere i numeri di riepilogo nella colonna.
    * **[!UICONTROL Percent]**: consente di mostrare o nascondere la percentuale nella colonna.
-   * **[!UICONTROL Interpret zero as no value]**: consente di mostrare o nascondere quando il valore è uguale a zero.
+   * **[!UICONTROL Interpret zero as no value]**: ti consente di mostrare o nascondere quando il valore è uguale a zero.
    * **[!UICONTROL Background]**: consente di mostrare o nascondere la barra di avanzamento orizzontale nelle celle.
-   * **[!UICONTROL Include retries]**: consente di includere i nuovi tentativi nel risultato. Disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Include retries]**: consente di includere i nuovi tentativi nel risultato. Questa opzione è disponibile solo per **[!UICONTROL Sent]** e **[!UICONTROL Bounces + Errors]**.
 
-1. Seleziona una o più righe e fai clic sul pulsante **[!UICONTROL Visualize]** icona. Viene aggiunta una visualizzazione per riflettere le righe selezionate.
+1. Seleziona una o più righe e fai clic su **[!UICONTROL Visualize]** icona. Viene aggiunta una visualizzazione per riflettere le righe selezionate.
 
    ![](assets/dynamic_report_freeform_5.png)
 
-Ora puoi aggiungere tutti i componenti necessari e anche aggiungere visualizzazioni per fornire rappresentazioni grafiche dei tuoi dati.
+Ora puoi aggiungere tutti i componenti necessari e anche visualizzazioni per fornire rappresentazioni grafiche dei dati.

@@ -17,21 +17,21 @@ ht-degree: 4%
 
 # Interazione con risorse personalizzate {#interacting-with-custom-resources}
 
-La **/customResources** l’endpoint ti consente di esporre le risorse personalizzate Campaign in REST. In base a questa API, è disponibile un’integrazione tra entità personalizzate e endpoint esterni.
+Il **/customResources** L’endpoint consente di esporre le risorse personalizzate di Campaign in REST. In base a questa API, è disponibile un’integrazione tra entità personalizzate ed endpoint esterni.
 
-L&#39;endpoint /customResources ha esattamente lo stesso comportamento dell&#39;endpoint /profileAndServices .
+L’endpoint /customResources ha esattamente lo stesso comportamento dell’endpoint /profileAndServices.
 
-Le risorse personalizzate esposte in questa API sono:
+Le risorse personalizzate esposte all’interno di questa API sono:
 
-* tutte le entità che non sono esposte in /profileAndServicesExt
-* tutte le entità che non sono collegate al profilo e, per queste entità, i loro figli e nipoti.
-* per impostazione predefinita, tutte le entità che non sono collegate a nulla, e i loro figli e nipoti.
+* tutte le entità non esposte in /profileAndServicesExt
+* tutte le entità non collegate al profilo e, per tali entità, i figli e i nipoti.
+* per impostazione predefinita, tutte le entità non collegate a nulla, nonché i relativi figli e nipoti.
 
 >[!NOTE]
->Le risorse personalizzate disponibili in /profileAndServicesExt non sono esposte nell&#39;API /customResources.
+>Le risorse personalizzate disponibili in /profileAndServicesExt non sono esposte nell’API /customResources.
 
 
-Ecco un esempio per recuperare i metadati da una risorsa personalizzata:
+Di seguito è riportato un esempio per recuperare i metadati da una risorsa personalizzata:
 
 ```
 GET /customResources/resourceType/<customResourceName>
@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->L’endpoint e i flussi di lavoro API per la privacy (/privacy/privacyTool) non gestiscono le risorse personalizzate non collegate all’entità profilo.
->Sarà tua responsabilità gestire e ripulire eventuali PII per queste risorse personalizzate. Per ulteriori informazioni sullo strumento per la privacy, [fai clic qui](../../api/using/creating-a-privacy-request.md).
+>L’endpoint e i flussi di lavoro dell’API per la privacy (/privacy/privacyTool) non gestiscono le risorse personalizzate non collegate all’entità profilo.
+>Avrai la responsabilità di gestire e ripulire eventuali PII per queste risorse personalizzate. Per ulteriori informazioni sullo strumento per la privacy, [fai clic qui](../../api/using/creating-a-privacy-request.md).

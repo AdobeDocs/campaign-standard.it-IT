@@ -1,6 +1,6 @@
 ---
 title: Riepilogo del servizio
-description: Con il rapporto di riepilogo del servizio, scopri l’evoluzione degli abbonamenti e dei loro annullamenti.
+description: Con il rapporto preconfigurato Riepilogo del servizio, scopri l’evoluzione degli abbonamenti e del loro annullamento.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # Riepilogo del servizio{#service-summary}
 
-La **[!UICONTROL Service summary]** descrive l’evoluzione degli abbonamenti e degli annullamenti degli abbonamenti al servizio.
+Il **[!UICONTROL Service summary]** descrive l’evoluzione degli abbonamenti e del loro annullamento.
 Questo rapporto è accessibile solo dalla pagina Servizio tramite il menu avanzato **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Per ulteriori informazioni, consulta questa [pagina](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 
-La **[!UICONTROL Subscription evolution curves]** la visualizzazione specifica il numero di sottoscrizioni e di annullamenti di sottoscrizioni a seconda del **[!UICONTROL Period]** scelto nella barra a discesa.
+Il **[!UICONTROL Subscription evolution curves]** La visualizzazione mostra il numero di abbonamenti e loro annullamenti in base al **[!UICONTROL Period]** nella barra a discesa.
 
-La **[!UICONTROL Overall subscription evolution]** consente di visualizzare l’evoluzione degli abbonati in diversi periodi di tempo.
+Il **[!UICONTROL Overall subscription evolution]** ti consente di visualizzare l’evoluzione degli abbonati in diversi periodi di tempo.

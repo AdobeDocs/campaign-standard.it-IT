@@ -1,6 +1,6 @@
 ---
 title: Abbonamenti annullati
-description: Con il rapporto predefinito sugli annullamenti di abbonamenti , scopri quante volte i clienti hanno annullato l’abbonamento alle tue consegne.
+description: Con il rapporto preconfigurato Unsubscriptions (Annullamenti abbonamenti), scopri quante volte i clienti hanno annullato l’abbonamento alle consegne.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -22,4 +22,4 @@ Il rapporto **[!UICONTROL Unsubscriptions]** individua le consegne associate al 
 
 ![](assets/delivery_reports_unsub.png)
 
-La **[!UICONTROL TOP 5 deliveries]** tabella e grafico mostra le cinque consegne principali con il numero più alto di messaggi consegnati e il numero di destinatari che hanno annullato l’abbonamento. I dati qui elencati si basano sul numero di clic sul collegamento di annullamento dell’abbonamento del messaggio.
+Il **[!UICONTROL TOP 5 deliveries]** la tabella e il grafico mostrano le prime cinque consegne con il maggior numero di messaggi consegnati e il numero di destinatari che hanno annullato l’abbonamento. I dati elencati di seguito si basano sul numero di clic sul collegamento di annullamento dell’abbonamento del messaggio.

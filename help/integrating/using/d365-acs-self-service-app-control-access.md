@@ -1,6 +1,6 @@
 ---
-title: Accedere all’integrazione di Adobe Campaign Standard con l’app self-service Dynamics 365
-description: Integrazione di Adobe Campaign Standard con l’app self-service di Dynamics 365
+title: Accedere all’app self-service per l’integrazione di Adobe Campaign Standard con Dynamics 365
+description: Integrazione di Adobe Campaign Standard con l’app self-service Dynamics 365
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -16,53 +16,53 @@ ht-degree: 0%
 
 ---
 
-# Accedere all’integrazione di Adobe Campaign Standard con l’app self-service Microsoft Dynamics 365
+# Accedere all’app self-service per l’integrazione di Adobe Campaign Standard con Microsoft Dynamics 365
 
-Questa configurazione richiede l’utilizzo di un amministratore di Experience Cloud (EC) per l’organizzazione. Questi sono i passaggi iniziali necessari per consentire l’accesso all’interfaccia dell’applicazione di integrazione self-service. Una volta effettuato l’accesso allo strumento, configurerai le connessioni ai tuoi dati e il flusso di dati tra Adobe Campaign e Microsoft Dynamics 365.
+Per questa configurazione è necessario rivolgersi a un amministratore Experience Cloud (EC) dell’organizzazione. Questi sono i passaggi iniziali necessari per consentire l&#39;accesso all&#39;interfaccia dell&#39;applicazione di integrazione self-service. Dopo aver effettuato l’accesso allo strumento, puoi impostare connessioni ai dati e configurare il flusso di dati tra Adobe Campaign e Microsoft Dynamics 365.
 
 >[!NOTE]
 >
->Devi contattare il tuo rappresentante Adobe e fornire i nomi delle organizzazioni e delle istanze Adobe Campaign Standard. Verrà registrato un ticket per richiedere che l’app di integrazione sia abilitata per la tua organizzazione.
+>Devi contattare il tuo rappresentante Adobe e fornire i nomi delle organizzazioni e delle istanze di Adobe Campaign Standard. Verrà registrato un ticket per richiedere che l’app di integrazione sia abilitata per la tua organizzazione.
 
 ## Aggiungere un profilo di prodotto
 
-In questa sezione viene illustrato come concedere l’accesso all’integrazione Adobe Campaign Standard con l’app self-service Microsoft Dynamics 365. Gli utenti che hanno accesso alla tua organizzazione in Adobe Experience Cloud non avranno accesso all’app self-service di integrazione, a meno che tu non segua i passaggi seguenti per concedere loro l’accesso.
+In questa sezione imparerai a concedere l’accesso all’integrazione Adobe Campaign Standard con l’app self-service Microsoft Dynamics 365. Gli utenti che hanno accesso alla tua organizzazione in Adobe Experience Cloud non avranno accesso all’app self-service di integrazione, a meno che tu non segua i passaggi seguenti per concedere loro l’accesso.
 
 >[!IMPORTANT]
 >
 > Questi passaggi richiedono **Amministratore** nell’Experience Cloud per la tua organizzazione.
 
-1. Vai su https://experience.adobe.com/ e accedi a Adobe Experience Cloud.
-1. Accedere al **Admin Console**.
+1. Passa a https://experience.adobe.com/ e accedi a Adobe Experience Cloud.
+1. Accedere a **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Fai clic su **[!UICONTROL Products]** per accedere alle soluzioni Experience Cloud.
+1. Fai clic su **[!UICONTROL Products]** per accedere alle tue soluzioni di Experience Cloud.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
    >
-   >I passaggi rimanenti in questa sezione verranno eseguiti per ciascuna istanza di Campaign (sviluppo, testo, produzione).
+   >I passaggi rimanenti in questa sezione vengono eseguiti per ciascuna istanza di Campaign (sviluppo, testo, produzione).
 
 1. Fai clic sulla prima istanza da configurare.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
-   La pagina di istanza deve avere un aspetto simile al seguente:
+   La pagina dell’istanza deve avere un aspetto simile al seguente:
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. Fai clic sul pulsante **[!UICONTROL New Profile]** e aggiungi una nuova voce denominata: **Campaign Standard - integrazione D365/ACS - nome-istanza-prod**
+1. Fai clic su **[!UICONTROL New Profile]** e aggiungere una nuova voce denominata: **Campaign Standard - nome-istanza-prod - Integrazione D365/ACS**
 
-   * Se viene visualizzata questa voce nell&#39;elenco, non è necessario procedere. Fai clic su **Adobe Campaign Standard** nel menu a sinistra e controlla le altre istanze di Campaign.
+   * Se vedi questa voce nell’elenco, non è necessario procedere. Fai clic su **Adobe Campaign Standard** nel menu a sinistra e seleziona le altre istanze di Campaign.
 
-   * Assicurati di sostituire &quot;your-prod-instance-name&quot; con il nome effettivo dell&#39;istanza.
+   * Assicurati di sostituire &quot;your-prod-instance-name&quot; con il nome effettivo dell’istanza.
 
-1. Puoi lasciare il **[!UICONTROL Permission Group]** con il valore predefinito.
+1. È possibile lasciare **[!UICONTROL Permission Group]** con il valore predefinito.
 
-1. Se le voci sono simili alle seguenti, fai clic sul pulsante **[!UICONTROL Done]** pulsante .
+1. Se le voci sono simili a quelle riportate di seguito, fare clic sul pulsante **[!UICONTROL Done]** pulsante.
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
@@ -72,20 +72,20 @@ In questa sezione viene illustrato come concedere l’accesso all’integrazione
 
 ## Concedere l’accesso agli utenti {#add-users-to-profile}
 
-Da **[!UICONTROL Products]**  , seleziona l’istanza Campaign e segui i passaggi seguenti:
+Dalla sezione **[!UICONTROL Products]**  , seleziona la tua istanza di Campaign e segui i passaggi seguenti:
 
-1. Fai clic sul nuovo profilo creato in precedenza:  **Campaign Standard - integrazione D365/ACS - nome-istanza-prod**
+1. Fai clic sul nuovo profilo creato in precedenza:  **Campaign Standard - nome-istanza-prod - Integrazione D365/ACS**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Developers]** scheda .
+1. Fai clic sul pulsante **[!UICONTROL Developers]** scheda.
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Add Developer]** pulsante
 
-1. Immetti il nome o l’indirizzo e-mail dell’utente che desideri aggiungere.  Seleziona il risultato che corrisponde all’utente.
+1. Immettere il nome o l&#39;indirizzo di posta elettronica dell&#39;utente che si desidera aggiungere.  Seleziona il risultato che corrisponde all’utente.
 
-   Se questa è la prima volta che l’utente viene aggiunto all’organizzazione, immetti i dettagli.
+   Se si tratta della prima volta che l’utente viene aggiunto all’organizzazione, inserisci i dettagli.
 
 1. Fai clic su **[!UICONTROL Save]** per confermare.

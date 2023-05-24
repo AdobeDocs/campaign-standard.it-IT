@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# Aggiornamento dei profili con API{#updating-profiles-api}
+# Aggiornamento dei profili con le API{#updating-profiles-api}
 
-L’aggiornamento dei profili viene eseguito con un **PATCH** richiesta.
+L’aggiornamento dei profili viene eseguito con **PATCH** richiesta.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. Il primo passo è quello di **recuperare il profilo**.
+1. Il primo passo è: **recuperare il profilo**.
 
 1. In una seconda richiesta, esegui una **richiesta PATCH** sul profilo con le informazioni completate nel payload.
 
-1. Per verificare se la richiesta di PATCH ha aggiornato il profilo, possiamo eseguire una richiesta finale di GET.
+1. Per verificare se la richiesta PATCH ha aggiornato il profilo, possiamo eseguire una richiesta GET finale.
 
 <br/>
 
@@ -54,7 +54,7 @@ Risposta alla richiesta.
 }
 ```
 
-Richiesta di PATCH per aggiornare l’attributo &quot;phone&quot;.
+PATCH richiede di aggiornare l’attributo &quot;phone&quot;.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

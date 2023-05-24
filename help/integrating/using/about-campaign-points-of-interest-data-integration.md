@@ -1,6 +1,6 @@
 ---
 title: Informazioni sull’integrazione di Campaign con i dati Punti di interesse
-description: Raccogliendo i dati dei punti di interesse dagli abbonati all’app mobile, invia messaggi di marketing basati sulla posizione agli abbonati tramite l’integrazione in Adobe Campaign.
+description: Raccogliendo i dati dei punti di interesse dagli abbonati all’app mobile, puoi inviare messaggi di marketing basati sulla posizione agli abbonati tramite l’integrazione in Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
@@ -17,12 +17,12 @@ ht-degree: 6%
 
 # Informazioni sull’integrazione di Campaign con i dati Punti di interesse{#about-campaign-points-of-interest-data-integration}
 
-Oltre a tenere traccia della presenza online dei clienti, puoi anche sfruttare le loro posizioni fisiche. Grazie all’integrazione con Adobe Analytics per dispositivi mobili, puoi utilizzare Adobe Campaign per inviare messaggi di marketing basati sulla posizione agli abbonati all’app mobile.
+Oltre a monitorare la presenza online dei clienti, puoi sfruttare anche le loro posizioni fisiche. Grazie all’integrazione con Adobe Analytics per dispositivi mobili, puoi utilizzare Adobe Campaign per inviare messaggi di marketing basati sulla posizione agli abbonati alla tua app mobile.
 
-I punti di interesse sono costituiti da una latitudine, una longitudine e un raggio associati a un’etichetta. Sono definiti nella [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) interfaccia.
+I punti di interesse sono costituiti da una latitudine, una longitudine e un raggio associati a un’etichetta. Sono definite nella sezione [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) di rete.
 
-Quando un utente con sottoscrizione apre l’app mobile e la posizione corrisponde a un punto di interesse, Adobe Campaign acquisisce i dati tramite l’SDK di Experience Cloud Mobile. Puoi utilizzare queste informazioni per inviare messaggi personalizzati in base alla posizione dell’utente (ad esempio e-mail, notifiche push, messaggi SMS).
+Quando un abbonato apre la tua app mobile, se la posizione corrisponde a un punto di interesse, Adobe Campaign acquisisce i dati tramite l’SDK di Experience Cloud Mobile. Puoi utilizzare queste informazioni per inviare messaggi personalizzati in base alla posizione dell’utente (ad esempio e-mail, notifiche push, messaggi SMS).
 
-Ad esempio, puoi inviare un’offerta con uno sconto del 10% ai clienti che utilizzano la tua applicazione e hanno visitato uno dei tuoi negozi a Boston nelle ultime due settimane.
+Ad esempio, puoi inviare un’offerta di sconto del 10% ai clienti che utilizzano la tua applicazione e hanno visitato uno dei tuoi negozi a Boston nelle ultime due settimane.
 
-Viene presentato un caso d’uso nella variabile [Personalizzazione dei messaggi di Campaign con i dati dei punti di interesse](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) sezione .
+Un caso d’uso viene presentato nel [Personalizzazione dei messaggi di Campaign con i dati dei punti di interesse](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) sezione.
