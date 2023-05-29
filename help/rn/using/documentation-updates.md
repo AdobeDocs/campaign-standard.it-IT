@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7224'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -580,7 +580,7 @@ La sezione Archiviazione delle e-mail è stata rinominata e riorganizzata. [Ulte
 
 È stata aggiornata la sezione Creazione di un messaggio e-mail per riflettere le ultime modifiche apportate all’interfaccia. [Ulteriori informazioni](../../channels/using/creating-an-email.md)
 
-L’articolo del Knowledge Base relativo al [protocollo e alle impostazioni del connettore SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=it) è stato aggiornato con la nuova opzione aggiunta all’account esterno SMS per limitare il numero di istanze MTA consentite per la connessione al provider SMPP.
+L’articolo del Knowledge Base relativo al [protocollo e alle impostazioni del connettore SMS](https://helpx.adobe.com/it/campaign/kb/sms-connector-protocol-and-settings.html) è stato aggiornato con la nuova opzione aggiunta all’account esterno SMS per limitare il numero di istanze MTA consentite per la connessione al provider SMPP.
 
 La guida Introduzione è stata arricchita e riorganizzata. [Ulteriori informazioni](../../start/using/about-campaign-standard.md)
 
