@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,4 +126,4 @@ Nota che la lingua viene impostata durante l’installazione e non può essere m
 
 Consigliamo di utilizzare il [modulo di feedback sull’accessibilità di Adobe](https://www.adobe.com/accessibility/feedback.html) per inviare suggerimenti di miglioramento e segnalare i problemi di accessibilità incontrati.
 
-Per seguire gli ultimi miglioramenti e funzioni, puoi fare riferimento alle [note sulla versione di Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes).
+Per seguire gli ultimi miglioramenti e funzioni, puoi fare riferimento alle [note sulla versione di Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=it#release-notes).
