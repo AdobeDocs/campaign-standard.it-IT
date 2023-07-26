@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '900'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Per abilitare l’integrazione è necessario configurare più applicazioni. Tutt
 
 ## Prerequisiti
 
-Prima di eseguire la configurazione della pre-integrazione in questo documento, si presume che sia già stato eseguito il provisioning e che si disponga dell’accesso amministratore all’istanza Microsoft Dynamics 365 della tua organizzazione.  In caso contrario, dovrai contattare l’Assistenza clienti di Microsoft per completare il provisioning di Dynamics 365.
+Prima di eseguire la configurazione della preintegrazione in questo documento, si presume che sia già stato eseguito il provisioning e che si disponga dell’accesso amministratore all’istanza Microsoft Dynamics 365 della tua organizzazione.  In caso contrario, dovrai contattare l’Assistenza clienti di Microsoft per completare il provisioning di Dynamics 365.
 
 Se configuri l’integrazione sia per gli ambienti di staging che per quelli di produzione, dovrai eseguire i passaggi seguenti sia per le istanze di staging che per quelle di produzione Dynamics 365. Alcune istruzioni di seguito variano leggermente a seconda che si stia configurando un’istanza di Stage o Production Dynamics 365 (ad esempio, per l’istanza di produzione, seleziona &quot;prod&quot; per `<stage or prod>`)
 
@@ -119,9 +119,8 @@ Segui le istruzioni [in questa pagina](https://docs.microsoft.com/en-us/onedrive
 
 Per integrare l’app Dynamics 365 nell’ambiente Campaign Standard, effettua le seguenti operazioni:
 
-1. Passa al seguente collegamento: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) e cerca _Adobe Campaign per Dynamics 365_ nella barra di ricerca.
-In alternativa, puoi passare a questo [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
-{target="_blank"}.
+1. Sfoglia per [Applicazioni aziendali Microsoft](https://appsource.microsoft.com/en-us/marketplace/apps)e search for_Adobe Campaign Standard_ nella barra di ricerca.
+In alternativa, puoi passare a questo [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. Segui le istruzioni per installare l’app per l’istanza di Dynamics 365.
 1. Una volta installata, accedi all’istanza di Dynamics 365 e accedi come amministratore.
 1. Fai clic sull’icona dell’ingranaggio nell’angolo superiore destro e fai clic su **[!UICONTROL Advanced Settings]**. Nel banner superiore, fai clic sul menu a discesa accanto a **[!UICONTROL Settings]**, fai clic su **[!UICONTROL Processes]** in **[!UICONTROL Process Center]**.
