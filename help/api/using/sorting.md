@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 0c8710b3e1cc679fa907758a4bf5542d892c737c
+source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Ordinamento
 
-L’ordinamento è disponibile in ordine crescente o decrescente. A tale scopo, utilizza **%20desc** o **%20asc** parametro della richiesta.
+L’ordinamento è disponibile per impostazione predefinita in ordine crescente. Per ordinare in ordine decrescente, aggiungi **%20desc** al **_ordina** valore del parametro.
 
 Per sapere se un campo può essere ordinato, controlla il parametro &quot;sortable&quot; nei metadati della risorsa. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/metadata-mechanism.md).
 
@@ -28,7 +28,7 @@ Per sapere se un campo può essere ordinato, controlla il parametro &quot;sortab
 * Richiesta di GET di esempio per recuperare le e-mail nel database in ordine alfabetico.
 
   ```
-  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20asc \
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
