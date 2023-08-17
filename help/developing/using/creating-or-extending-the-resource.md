@@ -38,15 +38,15 @@ Per creare o estendere una risorsa:
 
    * **[!UICONTROL Create a new resource]**: immetti il **[!UICONTROL Label]** e **[!UICONTROL ID]** campi. Il campo **[!UICONTROL ID]** è obbligatorio. Se lasci vuoto il campo Etichetta, verrà automaticamente completato dall’ID.
 
-      ![](assets/schema_extension_2.png)
+     ![](assets/schema_extension_2.png)
 
-      >[!NOTE]
-      >
-      >Utilizza un massimo di 30 caratteri.
+     >[!NOTE]
+     >
+     >Utilizza un massimo di 30 caratteri.
 
    * **[!UICONTROL Extend an existing resource]**: seleziona la risorsa da estendere.
 
-      ![](assets/schema_extension_10.png)
+     ![](assets/schema_extension_10.png)
 
 1. Clic **[!UICONTROL Create]** per creare la risorsa, che assumerà quindi il **[!UICONTROL Draft]** stato in caso di nuova risorsa o **[!UICONTROL Editing]** in caso di estensione.
 

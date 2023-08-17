@@ -12,7 +12,7 @@ exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 3%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ Le azioni disponibili sono le seguenti:
 
 **Inizio**
 
-Il ![](assets/play_darkgrey-24px.png) inizia l’esecuzione di un flusso di lavoro, che quindi assume il **In corso** (blu). Se il flusso di lavoro è stato sospeso, viene ripreso, altrimenti viene avviato e le attività iniziali vengono quindi attivate.
+Il ![](assets/play_darkgrey-24px.png) inizia l’esecuzione di un flusso di lavoro, che quindi assume il **In corso** (blu). Se il flusso di lavoro è stato messo in pausa, viene ripristinato, altrimenti viene avviato e le attività iniziali vengono quindi attivate.
 
 >[!NOTE]
 >

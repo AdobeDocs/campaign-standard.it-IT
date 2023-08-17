@@ -96,7 +96,7 @@ Il parser JSON è progettato per accogliere tipi di pattern di struttura JSON st
 La definizione JSON campione deve avere le **seguenti caratteristiche**:
 
 * Gli **elementi array** devono contenere proprietà di primo livello (i livelli più profondi non sono supportati).
-   I **nomi delle proprietà** finiranno per diventare nomi di colonna per lo schema di output della tabella temporanea di output.
+  I **nomi delle proprietà** finiranno per diventare nomi di colonna per lo schema di output della tabella temporanea di output.
 * Gli **elementi JSON** da acquisire devono essere a 10 o meno livelli di nidificazione nella risposta JSON.
 * La definizione del **nome della colonna** si basa sul primo elemento dell’array &quot;dati&quot;.
 La definizione delle colonne (aggiungere/rimuovere) e il valore del tipo della proprietà possono essere modificati nella scheda **Column definition**.

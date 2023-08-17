@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## Informazioni sulla migrazione di SDK V4
 
-Adobe Campaign Standard elabora le applicazioni mobili utilizzando SDK V4 come applicazioni separate da quelle che utilizzano SDK di Adobe Experience Platform.
+Adobe Campaign Standard elabora le applicazioni mobili utilizzando SDK V4 come applicazioni separate da quelle che utilizzano l’SDK di Adobe Experience Platform.
 Dopo aver aggiornato la versione dell’SDK Adobe dalla versione v4 alla versione Adobe Experience Platform, le app mobili devono continuare a utilizzare le campagne e i dati degli abbonati all’applicazione esistenti: è quindi necessaria una migrazione.
 
 >[!NOTE]

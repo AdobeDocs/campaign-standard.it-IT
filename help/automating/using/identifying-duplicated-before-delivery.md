@@ -26,15 +26,15 @@ Il flusso di lavoro è costituito da:
 
 * A [Query](../../automating/using/query.md) che ti consente di definire il target dell’e-mail. In questo caso, il flusso di lavoro esegue il targeting di tutti i profili di età compresa tra i 18 e i 25 anni presenti nel database dei clienti da oltre un anno.
 
-   ![](assets/deduplication_example_query.png)
+  ![](assets/deduplication_example_query.png)
 
 * A [Deduplicazione](../../automating/using/deduplication.md) che ti consente di identificare i duplicati derivanti dalla query precedente. In questo esempio viene salvato un solo record per ogni duplicato. I duplicati vengono identificati utilizzando l’indirizzo e-mail. Ciò significa che la consegna e-mail può essere inviata solo una volta per ogni indirizzo e-mail presente nel targeting.
 
-   Il metodo di deduplicazione selezionato è **[!UICONTROL Non-empty value]**. Questo ti consente di garantire che tra i record conservati in caso di duplicati, sia data priorità a quelli in cui è stato fornito il **Nome**. Questo renderà più coerente l’utilizzo del nome nei campi di personalizzazione del contenuto dell’e-mail.
+  Il metodo di deduplicazione selezionato è **[!UICONTROL Non-empty value]**. Questo ti consente di garantire che tra i record conservati in caso di duplicati, sia data priorità a quelli in cui è stato fornito il **Nome**. Questo renderà più coerente l’utilizzo del nome nei campi di personalizzazione del contenuto dell’e-mail.
 
-   Inoltre, viene aggiunta una transizione aggiuntiva per conservare i duplicati e per poterli elencare.
+  Inoltre, viene aggiunta una transizione aggiuntiva per conservare i duplicati e per poterli elencare.
 
-   ![](assets/deduplication_example_dedup.png)
+  ![](assets/deduplication_example_dedup.png)
 
 * Un [Consegna e-mail](../../automating/using/email-delivery.md) posizionato dopo la transizione in uscita principale della deduplicazione.
 * A [Salva pubblico](../../automating/using/save-audience.md) attività situata dopo la transizione aggiuntiva della deduplicazione per salvare i duplicati in una **Duplicati** pubblico. Questo pubblico può essere riutilizzato per escludere direttamente i suoi membri da ogni consegna e-mail.

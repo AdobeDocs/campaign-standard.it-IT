@@ -73,7 +73,6 @@ Questo caso d’uso consente di creare un modello di E-mail designer utilizzando
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-
 1. Torna alla visualizzazione per dispositivi mobili per verificare che il contenuto sia visualizzato correttamente e salvare le modifiche.
 
 ## Caso d’uso

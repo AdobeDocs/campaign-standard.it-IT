@@ -50,7 +50,7 @@ Le regole di controllo possono essere applicate in diverse fasi del ciclo di vit
 
 * **Dopo il targeting**: l’esecuzione dopo il targeting ti consente di conoscere il volume del target per applicare la regola di controllo.
 
-   Ad esempio, il **Verifica dimensioni bozza** la regola di controllo si applica dopo la fase di targeting: questa regola impedisce la preparazione della personalizzazione dei messaggi se ci sono troppi destinatari bozza.
+  Ad esempio, il **Verifica dimensioni bozza** la regola di controllo si applica dopo la fase di targeting: questa regola impedisce la preparazione della personalizzazione dei messaggi se ci sono troppi destinatari bozza.
 
 * **All’inizio della personalizzazione**: si applica quando il controllo si riferisce all’approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
 

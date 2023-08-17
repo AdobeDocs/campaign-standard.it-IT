@@ -102,15 +102,15 @@ A tale scopo, segui la procedura indicata di seguito:
 
    * Seleziona un blocco e, dalla **[!UICONTROL Form data]** , scegliere **[!UICONTROL Checkbox]** come tipo di campo.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Se conosci HTML, puoi anche inserire manualmente una casella di controllo utilizzando **[!UICONTROL Show source]** pulsante.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      Questo consente di inserire la casella di controllo nella pagina dove necessario.
+     Questo consente di inserire la casella di controllo nella pagina dove necessario.
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
 1. Assicurati che la casella di controllo sia selezionata nel contenuto. Il **[!UICONTROL Type]** viene visualizzato nell&#39;elenco a discesa **[!UICONTROL Form data]** nella palette a sinistra. Seleziona **[!UICONTROL Service and subscription]** dall&#39;elenco.
 
@@ -150,13 +150,13 @@ Per inserire e configurare questa casella di controllo, effettuare le seguenti o
 
    * Seleziona un blocco e, dalla **[!UICONTROL Form data]** , scegliere **[!UICONTROL Checkbox]** come tipo di campo.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Se conosci HTML, puoi anche inserire manualmente una casella di controllo utilizzando **[!UICONTROL Show source]** pulsante.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 

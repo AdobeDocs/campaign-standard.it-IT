@@ -25,8 +25,8 @@ Puoi utilizzare Campaign per promuovere un servizio:
 
 * [Inserimento di un collegamento a una pagina di destinazione di abbonamento o del suo annullamento in un messaggio e-mail](../../designing/using/links.md). In questo caso, è necessario fare riferimento direttamente al servizio nelle proprietà delle pagine di destinazione correlate (consulta [Collegamento di una pagina di destinazione a un servizio](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)).
 
-   >[!NOTE]
-   >
-   >È inoltre importante dare agli abbonati la possibilità di annullare l’abbonamento. A tale scopo, inserire un servizio <b>Collegamento per annullare l’iscrizione</b> nell’e-mail di conferma (definita nelle proprietà del servizio) inviata automaticamente ai nuovi abbonati e nelle e-mail delle newsletter future.
+  >[!NOTE]
+  >
+  >È inoltre importante dare agli abbonati la possibilità di annullare l’abbonamento. A tale scopo, inserire un servizio <b>Collegamento per annullare l’iscrizione</b> nell’e-mail di conferma (definita nelle proprietà del servizio) inviata automaticamente ai nuovi abbonati e nelle e-mail delle newsletter future.
 
 * Rendere disponibile su un sito web una pagina di destinazione di abbonamento o del suo annullamento. Gli URL che ti consentono di accedere alla pagina di destinazione devono specificare parametri quali il servizio associato e l’ID profilo che vi accede. Questo ID può essere definito nei parametri della pagina di destinazione (vedi [Configurazione di una pagina di destinazione](../../channels/using/configuring-landing-page.md)).

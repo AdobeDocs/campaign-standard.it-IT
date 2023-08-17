@@ -18,7 +18,7 @@ ht-degree: 2%
 # Creazione di un rapporto basato sui segmenti del flusso di lavoro{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**può eseguire il targeting solo delle consegne e-mail e SMS.
+> **[!UICONTROL Segment code]** può eseguire il targeting solo delle consegne e-mail e SMS.
 
 Dopo aver creato un flusso di lavoro e aver filtrato la popolazione in base a un pubblico di destinazione diverso, puoi misurare l’efficienza delle campagne di marketing in base ai segmenti definiti in questo flusso di lavoro di destinazione.
 Per eseguire il targeting di questi segmenti nei rapporti:

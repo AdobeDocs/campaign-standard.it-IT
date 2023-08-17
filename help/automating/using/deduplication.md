@@ -67,15 +67,15 @@ Per configurare un’attività di deduplicazione, devi immettere un’etichetta,
    * **[!UICONTROL Choose for me]**: seleziona in modo casuale il record da escludere dai duplicati.
    * **[!UICONTROL Following a list of values]**: ti consente di definire un valore di priorità per uno o più campi. Per definire i valori, seleziona un campo o crea un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante **[!UICONTROL Add]** situato sopra l’elenco dei valori.
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Non-empty value]**: questo ti consente di conservare i record per i quali il valore dell’espressione selezionata non è vuoto come priorità.
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL Using an expression]**: questo ti consente di conservare i record in cui il valore dell’espressione immessa è il minore o il maggiore.
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. Se necessario, gestisci le [Transizioni](../../automating/using/activity-properties.md) dell’attività per accedere alle opzioni avanzate per la popolazione in uscita.
 1. Conferma la configurazione dell’attività e salva il flusso di lavoro.

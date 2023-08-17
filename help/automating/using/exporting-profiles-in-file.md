@@ -38,11 +38,11 @@ Lo scopo di questo flusso di lavoro è esportare un elenco di profili sotto form
 
    * Formato di output CSV
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * Formato data
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. Conferma l’attività.
 1. Trascina una [Trasferisci file](../../automating/using/transfer-file.md) attività dopo il **[!UICONTROL Extract file]** per recuperare il file di estrazione su un account esterno.

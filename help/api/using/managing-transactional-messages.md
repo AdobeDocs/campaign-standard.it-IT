@@ -40,11 +40,11 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalapi>**: gli endpoint dell’API per messaggi transazionali.
 
-   Il nome dell’endpoint API per messaggi transazionali dipende dalla configurazione dell’istanza. Corrisponde al valore &quot;mc&quot; seguito dal tuo ID organizzazione personale. Prendiamo l’esempio dell’azienda di Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
+  Il nome dell’endpoint API per messaggi transazionali dipende dalla configurazione dell’istanza. Corrisponde al valore &quot;mc&quot; seguito dal tuo ID organizzazione personale. Prendiamo l’esempio dell’azienda di Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
 
-   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
+  `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   Durante l’anteprima API è visibile anche l’endpoint API per messaggi transazionali.
+  Durante l’anteprima API è visibile anche l’endpoint API per messaggi transazionali.
 
 * **&lt;eventid>**: il tipo di evento che desideri inviare. Questo ID viene generato durante la creazione della configurazione dell’evento (consulta [questa sezione](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 

@@ -113,11 +113,11 @@ Esistono diversi modi per modificare un pubblico in base al suo tipo:
 
 * Per modificare una **Query** di pubblico, passa all’elenco dei tipi di pubblico tramite il menu **[!UICONTROL Audiences]** o la scheda **[!UICONTROL Audiences]** dalla pagina Home di Adobe Campaign.
 
-   Apri il pubblico interessato. Puoi modificare tutti gli elementi di un pubblico creato in precedenza.
+  Apri il pubblico interessato. Puoi modificare tutti gli elementi di un pubblico creato in precedenza.
 
-   >[!CAUTION]
-   >
-   >Se modifichi la **[!UICONTROL Filtering dimension]** nella query, le regole precedentemente definite non vengono salvate.
+  >[!CAUTION]
+  >
+  >Se modifichi la **[!UICONTROL Filtering dimension]** nella query, le regole precedentemente definite non vengono salvate.
 
 * Per modificare un pubblico di tipo **List** o **File**, modifica il flusso di lavoro d cui è stato creato e l’attività **[!UICONTROL Save audience]**. Avvia il flusso di lavoro per modificare il pubblico.
 * Per modificare un pubblico di **Experience Cloud**, consulta la sezione [Importazione/Esportazione di tipi di pubblico con il servizio core People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).

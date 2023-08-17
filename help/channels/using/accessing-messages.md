@@ -65,6 +65,6 @@ Lo stato di un messaggio è rappresentato da un colore specifico negli elenchi. 
 * **[!UICONTROL Finished]** (verde): l’invio è terminato senza errori.
 * **[!UICONTROL Erroneous]** (rosso): invio annullato o si è verificato un errore durante la preparazione o l’invio del messaggio.
 
-   >[!NOTE]
-   >
-   >Un banner di notifica giallo potrebbe apparire sopra la scheda quando è necessaria un’azione, ad esempio quando devi confermare l’invio di un messaggio.
+  >[!NOTE]
+  >
+  >Un banner di notifica giallo potrebbe apparire sopra la scheda quando è necessaria un’azione, ad esempio quando devi confermare l’invio di un messaggio.

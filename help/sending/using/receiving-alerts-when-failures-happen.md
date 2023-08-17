@@ -59,15 +59,15 @@ Per gestire i destinatari delle notifiche, definire i criteri di avviso e accede
 Dall’interfaccia di Adobe Campaign, puoi:
 
 * Crea e gestisci dashboard di avviso sulla consegna. Consulta [Creazione di un dashboard di avvisi sulla consegna](#creating-a-delivery-alerting-dashboard).
-* Definisci e gestisci i criteri di avviso sulla consegna per ogni dashboard. Ad esempio, puoi creare avvisi basati su consegne con preparazione non riuscita o consegne con una sola velocità effettiva ridotta. Consulta [Informazioni sui criteri di avviso](#about-alerting-criteria).
+* Definisci e gestisci i criteri di avviso di consegna per ogni dashboard. Ad esempio, puoi creare avvisi basati su consegne con preparazione non riuscita o consegne con una sola velocità effettiva ridotta. Consulta [Informazioni sui criteri di avviso](#about-alerting-criteria).
 * Modificate i parametri dei criteri per ciascun quadro comandi. Consulta [Parametri dei criteri](#criteria-parameters).
 * Definisci un gruppo di destinatari per ogni dashboard.
 
-   Ad esempio, desideri informare solo gli utenti con diritti di amministrazione delle consegne non riuscite. Tuttavia, desideri che gli utenti marketing ricevano informazioni sulle consegne con una percentuale di errori non validi di soft bounce. Pertanto, devi creare due dashboard diversi e definire i criteri desiderati per ciascun gruppo di destinatari.
+  Ad esempio, desideri informare solo gli utenti con diritti di amministrazione delle consegne non riuscite. Tuttavia, desideri che gli utenti marketing ricevano informazioni sulle consegne con una percentuale di errori non validi di soft bounce. Pertanto, devi creare due dashboard diversi e definire i criteri desiderati per ciascun gruppo di destinatari.
 
 * Accedi alla cronologia di tutti gli avvisi inviati per ogni dashboard.
 
-   Quando si seleziona un dashboard, per impostazione predefinita viene visualizzato l’ultimo avviso inviato per il dashboard. Tutti gli avvisi inviati sono elencati a sinistra dello schermo. Fai clic su un elemento in **[!UICONTROL History]** per accedere agli avvisi corrispondenti.
+  Quando si seleziona un dashboard, per impostazione predefinita viene visualizzato l’ultimo avviso inviato per il dashboard. Tutti gli avvisi inviati sono elencati a sinistra dello schermo. Fai clic su un elemento in **[!UICONTROL History]** per accedere agli avvisi corrispondenti.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -120,15 +120,15 @@ Per ciascun criterio, puoi definire le seguenti impostazioni:
 
 * **[!UICONTROL Indicators to add in alerts]**, ovvero le colonne che verranno visualizzate nel **[!UICONTROL Details]** sezione per le consegne corrispondenti al criterio selezionato.
 
-   ![](assets/delivery-alerting_notification_colums.png)
+  ![](assets/delivery-alerting_notification_colums.png)
 
 * **[!UICONTROL Alert type]**, ovvero l’etichetta e il colore che verranno visualizzati accanto al criterio di consegna nel riepilogo della notifica.
 
-   ![](assets/delivery-alerting_notification_labels.png)
+  ![](assets/delivery-alerting_notification_labels.png)
 
 * **[!UICONTROL Criteria frequency]**: se un criterio è soddisfatto per una consegna, viene ripetuto in ogni notifica inviata entro il periodo di monitoraggio. In caso contrario, verrà inviato un solo avviso al giorno (alla prima occorrenza) in base al criterio di avviso per una consegna.
 
-   Per impostazione predefinita, questa opzione è impostata su una volta al giorno per tutti i criteri.
+  Per impostazione predefinita, questa opzione è impostata su una volta al giorno per tutti i criteri.
 
 **Argomenti correlati:**
 
@@ -191,15 +191,15 @@ In **[!UICONTROL Criteria parameters]** scheda di una [dashboard degli avvisi di
 * **[!UICONTROL Delivery target minimum size]**: ad esempio, se immetti 100 in questo campo, una notifica viene inviata solo per le consegne con una destinazione uguale o superiore a 100 destinatari. Questo parametro si applica a tutti i criteri.
 * **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: numero di ore prima e dopo l’ora corrente. Vengono prese in considerazione solo le consegne con una data di contatto in questo intervallo di tempo. Questo parametro si applica a tutti i criteri. Per impostazione predefinita, il valore di questo campo è impostato su 24 ore.
 
-   Per ulteriori informazioni sulla data di contatto, consulta [Informazioni sulla pianificazione](../../sending/using/about-scheduling-messages.md).
+  Per ulteriori informazioni sulla data di contatto, consulta [Informazioni sulla pianificazione](../../sending/using/about-scheduling-messages.md).
 
 * **[!UICONTROL Maximum ratio of soft bounce errors]**: viene inviata una notifica per tutte le consegne con un rapporto di errore di mancato recapito non permanente maggiore del valore specificato. Per impostazione predefinita, il valore di questo campo è 0,05 (5%).
 
-   Per ulteriori informazioni sugli errori di mancato recapito non permanente, consulta [Qualificazione di mail non recapitate](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Elenco dei tipi di errori di consegna](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Per ulteriori informazioni sugli errori di mancato recapito non permanente, consulta [Qualificazione di mail non recapitate](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Elenco dei tipi di errori di consegna](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Maximum ratio of hard bounce errors]**: viene inviata una notifica per tutte le consegne con un rapporto di errore per mancati recapiti permanenti maggiore del valore specificato. Per impostazione predefinita, il valore di questo campo è 0,05 (5%).
 
-   Per ulteriori informazioni sugli errori permanenti di mancato recapito, consulta [Qualificazione di mail non recapitate](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Elenco dei tipi di errori di consegna](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Per ulteriori informazioni sugli errori permanenti di mancato recapito, consulta [Qualificazione di mail non recapitate](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) e [Elenco dei tipi di errori di consegna](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: viene inviata una notifica per tutte le consegne con una **[!UICONTROL Start pending]** stato per un periodo superiore alla durata specificata in questo campo, **[!UICONTROL Start pending]** stato, ovvero che i messaggi non sono ancora stati presi in considerazione dal sistema.
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: solo consegne avviate (con **[!UICONTROL In progress]** oltre la durata specificata vengono presi in considerazione per il **[!UICONTROL Deliveries with low throughput]** criterio.
@@ -236,7 +236,7 @@ Di seguito sono riportati alcuni possibili motivi per ricevere notifiche di avvi
    * Un problema di recapito messaggi
    * Un flusso di lavoro errato
 
-   Se la consegna viene attivata con un flusso di lavoro, verifica che il flusso di lavoro sia stato avviato correttamente. Per ulteriori informazioni, consulta [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md). In caso contrario, contatta il tuo amministratore Adobe Campaign per risolvere il problema.
+  Se la consegna viene attivata con un flusso di lavoro, verifica che il flusso di lavoro sia stato avviato correttamente. Per ulteriori informazioni, consulta [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md). In caso contrario, contatta il tuo amministratore Adobe Campaign per risolvere il problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: si può verificare un errore durante la preparazione della consegna nei seguenti casi:
 
@@ -245,35 +245,33 @@ Di seguito sono riportati alcuni possibili motivi per ricevere notifiche di avvi
    * Destinazione mancante.
    * La consegna supera il limite di dimensioni.
 
-   Per ulteriori informazioni, consulta [Preparazione dell’invio](../../sending/using/preparing-the-send.md). Tuttavia, questi errori vengono generalmente individuati durante l’analisi dei messaggi. Consulta [Regole di controllo](../../sending/using/control-rules.md).
+  Per ulteriori informazioni, consulta [Preparazione dell’invio](../../sending/using/preparing-the-send.md). Tuttavia, questi errori vengono generalmente individuati durante l’analisi dei messaggi. Consulta [Regole di controllo](../../sending/using/control-rules.md).
 
 * Le possibili cause di un **[!UICONTROL Delivery with bad error ratio for soft bounces]** l&#39;avviso può essere:
 
    * Il server del destinatario non è attivo.
    * La cassetta postale del destinatario è piena.
 
-   Per ulteriori informazioni, consulta **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** schede dei registri di consegna. Consulta [Exclusion logs](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  Per ulteriori informazioni, consulta **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** schede dei registri di consegna. Consulta [Exclusion logs](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   Le possibili cause di un **[!UICONTROL Delivery with bad error ratio for hard bounces]** l&#39;avviso può essere:
+  Le possibili cause di un **[!UICONTROL Delivery with bad error ratio for hard bounces]** l&#39;avviso può essere:
 
    * Il destinatario viene aggiunto al inserisco nell&#39;elenco Bloccati di, ovvero non desidera più essere contattato.
    * L’indirizzo e-mail del destinatario non esiste.
    * Il dominio del destinatario non esiste.
    * Il server del destinatario sta bloccando la consegna.
 
-   Per evitare errori di mancato recapito non permanenti e permanenti, segui le best practice riportate di seguito:
+  Per evitare errori di mancato recapito non permanenti e permanenti, segui le best practice riportate di seguito:
 
    * Genera regole di tipologia di filtro per escludere una parte del target del messaggio durante l’analisi della consegna, ad esempio i destinatari in quarantena. Consulta [Creazione di una regola di filtro](../../sending/using/filtering-rules.md).
    * Aggiorna regolarmente il database dei clienti per mantenere processi di gestione della quarantena ottimali. Consulta [Informazioni sulla quarantena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * In generale, migliora il più possibile il recapito messaggi. Consulta Adobe Campaign [Recapito messaggi](../../sending/using/about-deliverability.md) documentazione dettagliata e contatta l’amministratore di Adobe Campaign per assistenza.
 
-
-
 * **[!UICONTROL Deliveries with long start pending]**: di solito questo significa che si è verificato un problema a livello dell’MTA (Message Transfer Agent). Il processo di esecuzione è in attesa della disponibilità di alcune risorse. L’MTA potrebbe non essere stato avviato.
 
-   **[!UICONTROL Deliveries with low throughput]**: anche in questo caso, si tratta di un problema di recapito messaggi che significa che l’MTA è troppo lento.
+  **[!UICONTROL Deliveries with low throughput]**: anche in questo caso, si tratta di un problema di recapito messaggi che significa che l’MTA è troppo lento.
 
-   Per ulteriori informazioni su questi problemi, contatta il tuo amministratore Adobe Campaign.
+  Per ulteriori informazioni su questi problemi, contatta il tuo amministratore Adobe Campaign.
 
 **Argomenti correlati:**
 

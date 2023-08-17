@@ -51,16 +51,16 @@ Se specificata in un file tramite colonne dedicate, questa attività ti consente
    * **[!UICONTROL Select a specific service]**: seleziona manualmente un servizio.
    * **[!UICONTROL Select services from the inbound transition]**: il servizio è specificato nella transizione in entrata. Ad esempio, puoi importare un file che specifica il servizio da gestire per ogni riga. Se scegli questa opzione, accertati che in precedenza sia stato creato un collegamento tra i dati e la risorsa **Servizio**, come mostrato in [questo esempio](#example--updating-multiple-subscription-statuses-from-a-file).
 
-      Il servizio su cui eseguire l’operazione viene quindi selezionato in modo dinamico per ogni record.
+     Il servizio su cui eseguire l’operazione viene quindi selezionato in modo dinamico per ogni record.
 
 1. Seleziona il **[!UICONTROL Operation type]** da eseguire utilizzando una delle seguenti opzioni:
 
    * **[!UICONTROL Select a specific operation type]**: seleziona manualmente se desideri **[!UICONTROL Subscribe]** o **[!UICONTROL Unsubscribe]** di profili.
    * **[!UICONTROL Select an operation type from a path of inbound transition]**: seleziona la colonna dei dati in entrata che specifica l’operazione da eseguire per ogni record.
 
-      In questa colonna, l’operazione deve essere specificata come un valore booleano o un numero intero. Utilizza **0** per annullare l’abbonamento di un record e **1** per effettuare l’abbonamento.
+     In questa colonna, l’operazione deve essere specificata come un valore booleano o un numero intero. Utilizza **0** per annullare l’abbonamento di un record e **1** per effettuare l’abbonamento.
 
-      Se i valori contenuti in un file importato non corrispondono ai requisiti di cui sopra, puoi comunque utilizzare l’opzione [Nuova mappatura dei valori](../../automating/using/load-file.md#column-format) disponibile nell’attività **[!UICONTROL Load file]**.
+     Se i valori contenuti in un file importato non corrispondono ai requisiti di cui sopra, puoi comunque utilizzare l’opzione [Nuova mappatura dei valori](../../automating/using/load-file.md#column-format) disponibile nell’attività **[!UICONTROL Load file]**.
 
 1. Se i dati in entrata contengono una colonna corrispondente alla data di abbonamento del profilo al servizio, selezionala. Puoi lasciarla vuota ma non viene impostata alcuna data di abbonamento durante l’esecuzione del flusso di lavoro.
 1. Definisci l’origine dell’abbonamento. Puoi impostarla su uno dei campi dei dati in entrata o su un valore costante desiderato selezionando l’opzione **[!UICONTROL Set a constant as origin]**. Puoi lasciarla vuota ma non viene impostata alcuna origine durante l’esecuzione del flusso di lavoro.
@@ -79,34 +79,34 @@ Il flusso di lavoro viene presentato come segue:
 
 * Un’attività **[!UICONTROL Load file]** carica il file dei profili e definisce la struttura delle colonne importate.
 
-   Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
+  Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
 
-   ```
-   lastname;firstname;email;birthdate;subdate
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
-   phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
-   weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
-   reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
-   ```
+  ```
+  lastname;firstname;email;birthdate;subdate
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
+  phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
+  weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
+  reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
+  ```
 
-   ![](assets/subscription_activity_example2.png)
+  ![](assets/subscription_activity_example2.png)
 
 * Un’attività **[!UICONTROL Reconciliation]** identifica i dati del file come appartenenti alla dimensione di profilo del database di Adobe Campaign. Solo la scheda **[!UICONTROL Identification]** è configurata. Essa identifica i dati del file in base agli indirizzi e-mail dei profili.
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
 * Una **[!UICONTROL Deduplication]** basata sul campo **e-mail** della risorsa temporanea (derivante dalla riconciliazione) identifica eventuali duplicati. Se i dati importati dal file contengono duplicati, l’abbonamento a un servizio non riuscirà per tutti i dati.
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * Un’attività **[!UICONTROL Subscription Services]** ti consente di selezionare il servizio al quale i profili devono effettuare l’abbonamento, il campo corrispondente alla data di abbonamento e l’origine dell’abbonamento.
 
-   ![](assets/subscription_activity_example4.png)
+  ![](assets/subscription_activity_example4.png)
 
 ## Esempio: aggiornamento di più stati di abbonamento da un file {#example--updating-multiple-subscription-statuses-from-a-file}
 
@@ -118,43 +118,43 @@ Il flusso di lavoro viene presentato come segue:
 
 * Un’attività **[!UICONTROL Load file]** carica il file dei profili e definisce la struttura delle colonne importate.
 
-   Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
+  Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
 
-   ```
-   lastname;firstname;email;birthdate;service;operation
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
-   phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
-   weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
-   reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
-   ```
+  ```
+  lastname;firstname;email;birthdate;service;operation
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
+  phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
+  weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
+  reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
+  ```
 
-   ![](assets/subscription_example_load_file.png)
+  ![](assets/subscription_example_load_file.png)
 
-   Come avrai notato, l’operazione è specificata nel file come &quot;sub&quot; o &quot;non sub&quot;. Il sistema richiede un **valore booleano** o un **numero intero** per riconoscere l’operazione da eseguire: &quot;0&quot; per annullare l’abbonamento e &quot;1&quot; per effettuare l’abbonamento. Per soddisfare questo requisito, viene eseguito una nuova mappatura dei valori nel dettaglio della colonna &quot;operazione&quot;.
+  Come avrai notato, l’operazione è specificata nel file come &quot;sub&quot; o &quot;non sub&quot;. Il sistema richiede un **valore booleano** o un **numero intero** per riconoscere l’operazione da eseguire: &quot;0&quot; per annullare l’abbonamento e &quot;1&quot; per effettuare l’abbonamento. Per soddisfare questo requisito, viene eseguito una nuova mappatura dei valori nel dettaglio della colonna &quot;operazione&quot;.
 
-   ![](assets/subscription_example_remapping.png)
+  ![](assets/subscription_example_remapping.png)
 
-   Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l’operazione, non devi ripetere la mappatura di tali valori. Assicurati solo che la colonna sia elaborata come un **valore booleano** o un **numero intero** nella scheda **[!UICONTROL Column definition]**.
+  Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l’operazione, non devi ripetere la mappatura di tali valori. Assicurati solo che la colonna sia elaborata come un **valore booleano** o un **numero intero** nella scheda **[!UICONTROL Column definition]**.
 
 * Un’attività **[!UICONTROL Reconciliation]** identifica i dati del file come appartenenti alla dimensione di profilo del database di Adobe Campaign. Tramite la scheda **[!UICONTROL Identification]**, il campo **e-mail** del file viene fatto corrisponde al campo **e-mail** della risorsa del profilo.
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
-   Nella scheda **[!UICONTROL Relations]**, viene creato un collegamento con la risorsa del servizio per consentire il riconoscimento del campo **service** del file. In questo esempio, i valori corrispondono al campo **name** della risorsa del servizio.
+  Nella scheda **[!UICONTROL Relations]**, viene creato un collegamento con la risorsa del servizio per consentire il riconoscimento del campo **service** del file. In questo esempio, i valori corrispondono al campo **name** della risorsa del servizio.
 
-   ![](assets/subscription_example_service_relation.png)
+  ![](assets/subscription_example_service_relation.png)
 
 * Una **[!UICONTROL Deduplication]** basata sul campo **email** della risorsa temporanea (derivante dalla riconciliazione) identifica i duplicati. È importante eliminare i duplicati poiché l’abbonamento a un servizio non riuscirà per tutti i dati in caso di duplicati.
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * Un’attività **[!UICONTROL Subscription Services]** identifica i servizi da aggiornare come provenienti dalla transizione, attraverso il collegamento creato nell’attività **[!UICONTROL Reconciliation]**.
 
-   Il **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l’operazione da eseguire non viene visualizzata nell’elenco, accertati di aver impostato correttamente il formato della colonna nell’attività **[!UICONTROL Load file]**, come spiegato in precedenza in questo esempio.
+  Il **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l’operazione da eseguire non viene visualizzata nell’elenco, accertati di aver impostato correttamente il formato della colonna nell’attività **[!UICONTROL Load file]**, come spiegato in precedenza in questo esempio.
 
-   ![](assets/subscription_activity_example_from_file.png)
+  ![](assets/subscription_activity_example_from_file.png)

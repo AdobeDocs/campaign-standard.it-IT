@@ -49,7 +49,7 @@ I passaggi per l’esportazione del pacchetto sono descritti nella sezione [Espo
 * Il pacchetto **[!UICONTROL Platform]** raggruppa tutte le risorse aggiunte durante la configurazione tecnica: risorse personalizzate, set di risorse personalizzate, trigger e opzioni dell’applicazione con il tipo **[!UICONTROL System]**.
 * Il pacchetto **[!UICONTROL Administration]** raggruppa tutti gli oggetti aggiunti durante la configurazione aziendale, ad esempio: modelli di campagna, di contenuto, di consegna, della pagina di destinazione, del programma e del flusso di lavoro.
 
-   Include inoltre i seguenti oggetti: blocchi di contenuto, mappature del target, account esterni, unità organizzative, opzioni di applicazione con il tipo **[!UICONTROL User]**, ruoli, tipologie, regole di tipologia e utenti.
+  Include inoltre i seguenti oggetti: blocchi di contenuto, mappature del target, account esterni, unità organizzative, opzioni di applicazione con il tipo **[!UICONTROL User]**, ruoli, tipologie, regole di tipologia e utenti.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ Al termine dell’operazione vengono visualizzate diverse sezioni:
 
 * **[!UICONTROL Export status]**: questa sezione mostra se l’operazione è stata eseguita correttamente.
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * Puoi consultare i diversi passaggi dell’esportazione tramite la scheda **[!UICONTROL Log]**. Questa contiene gli stati di tutte le esportazioni precedenti.
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Al termine dell’operazione vengono visualizzate diverse sezioni:
 * **[!UICONTROL Import status]**: questa sezione mostra se l’operazione è stata eseguita correttamente.
 * Puoi consultare i diversi passaggi dell’importazione tramite la scheda **[!UICONTROL Execution logs]**. Ciò è particolarmente importante per visualizzare errori.
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 Al termine dell’importazione di un pacchetto non puoi importarlo nuovamente dallo stesso elemento. Puoi modificarne solo l’etichetta e l’ID.
 

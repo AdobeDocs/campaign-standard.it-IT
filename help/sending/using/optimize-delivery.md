@@ -30,7 +30,7 @@ Diversi fattori possono influire direttamente sulle prestazioni del server e ral
 
 * Caricamento del server: quando Campaign gestisce più attività diverse contemporaneamente, può rallentare le prestazioni. Il server deve coordinare tutti i dati in entrata e in uscita per tutte le consegne per garantire che i dati siano corretti e puntuali.
 
-   **SUGGERIMENTO** - Per evitare questo problema, coordina la pianificazione delle consegne con gli altri membri del tuo team per garantire le migliori prestazioni.
+  **SUGGERIMENTO** - Per evitare questo problema, coordina la pianificazione delle consegne con gli altri membri del tuo team per garantire le migliori prestazioni.
 
 * Il [esecuzione del flusso di lavoro](../../automating/using/about-workflow-execution.md): il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Segui le linee guida elencate [in questa pagina](../../automating/using/monitoring-workflow-execution.md). Per ulteriori informazioni, consulta [best practice per i flussi di lavoro](../../automating/using/best-practices-workflows.md) sezione.
 

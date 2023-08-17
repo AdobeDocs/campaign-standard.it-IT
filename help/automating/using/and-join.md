@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Attività AND-join{#and-join}
+# Unione AND{#and-join}
 
 ## Descrizione {#description}
 

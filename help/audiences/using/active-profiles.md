@@ -41,3 +41,4 @@ Nella parte inferiore della pagina, sono elencate le dimensioni di targeting con
 >[!NOTE]
 >
 >In qualità di utente amministratore, puoi anche monitorare il numero di profili attivi utilizzati sulle istanze direttamente dal Pannello di controllo Campaign. Per ulteriori informazioni, consulta [Documentazione del Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>

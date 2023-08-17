@@ -83,11 +83,11 @@ Puoi selezionare questa opzione nella schermata della pubblicazione.
 
 * Se l’API non è ancora stata pubblicata, dunque non hai mai esteso la risorsa o se non hai ancora selezionato questa opzione per la risorsa in questione o per un’altra, puoi scegliere se crearla o meno.
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * Se l’API è già stata pubblicata, dunque hai già esteso la risorsa e hai già selezionato una volta questa opzione, viene forzato l’aggiornamento dell’API.
 
-   Infatti, una volta creata, l’API viene automaticamente aggiornata a ogni nuova pubblicazione. In questo modo, si evita di interrompere la risorsa del profilo o del servizio di questa API, con conseguente danneggiamento dell’istanza.
+  Infatti, una volta creata, l’API viene automaticamente aggiornata a ogni nuova pubblicazione. In questo modo, si evita di interrompere la risorsa del profilo o del servizio di questa API, con conseguente danneggiamento dell’istanza.
 
 Per impostazione predefinita, la risorsa personalizzata è integrata. Tuttavia, per un comportamento specifico, se non desideri pubblicare la risorsa, puoi selezionare l’opzione **[!UICONTROL Hide this resource from APIs]** disponibile nelle **[!UICONTROL Resource Properties]**.
 

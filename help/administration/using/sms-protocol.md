@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8664'
+source-wordcount: '8650'
 ht-degree: 1%
 
 ---
@@ -446,7 +446,7 @@ La traslitterazione è il processo di ricerca di caratteri equivalenti a quelli 
 
 Se questa casella non è selezionata, la codifica del testo avrà esito negativo se non è in grado di codificare la stringa esattamente come è.
 
-Se questa casella è selezionata, la codifica del testo tenterà di convertire la stringa in una versione approssimativa, senza errori. Se alcuni caratteri non hanno un equivalente nella codifica di destinazione, la codifica del testo avrà esito negativo.
+Se questa casella è selezionata, la codifica del testo tenterà di convertire la stringa in una versione approssimativa anziché non riuscire. Se alcuni caratteri non hanno un equivalente nella codifica di destinazione, la codifica del testo avrà esito negativo.
 
 Consulta la [Definire una mappatura specifica delle impostazioni di codifica](../../administration/using/sms-protocol.md#SMSC-specifics) per una spiegazione più generale del processo di codifica.
 
@@ -831,17 +831,16 @@ Anche se non riesci a controllare i registri autonomamente, l’Assistenza ti sa
 ### Verifica l’SMS {#test}
 
 * **Inviare SMS con tutti i tipi di caratteri**
-Se devi inviare un SMS con caratteri non GSM o non ASCII, prova a inviare alcuni messaggi con il maggior numero possibile di caratteri diversi. Se imposti una tabella di mappatura caratteri personalizzata, invia almeno un SMS per tutti i possibili 
-`data_coding` values.
+Se devi inviare un SMS con caratteri non GSM o non ASCII, prova a inviare alcuni messaggi con il maggior numero possibile di caratteri diversi. Se imposti una tabella di mappatura caratteri personalizzata, invia almeno un SMS per tutti i possibili `data_coding` valori.
 
 * **Verifica che gli SR siano elaborati correttamente**
-L’SMS deve essere contrassegnato come ricevuto nel registro di consegna. Il registro di consegna deve avere esito positivo e avere un aspetto simile al seguente: Verifica di aver modificato il nome del provider di consegna. Il registro di consegna non deve mai contenere    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+L’SMS deve essere contrassegnato come ricevuto nel registro di consegna. Il registro di consegna deve avere esito positivo e avere un aspetto simile al seguente:
+  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Verifica di aver modificato il nome del provider di consegna. Il registro di consegna non deve mai contenere **SR generico** negli ambienti di produzione.
 
 * **Verifica che i messaggi MO siano elaborati**
 Se devi elaborare messaggi MO (risposte automatiche, memorizzazione di messaggi MO nel database, ecc.) prova a fare alcuni test. Invia alcuni SMS per tutte le parole chiave di risposta automatica e controlla se la risposta è abbastanza veloce, non più di qualche secondo.
-Archivia il registro che Adobe Campaign risponde con un 
-`DELIVER_SM_RESP` (command_status=0).
+Archivia il registro che Adobe Campaign risponde con un `DELIVER_SM_RESP` (command_status=0).
 
 ### Controllare le PDU {#check-pdus}
 

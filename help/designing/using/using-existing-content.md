@@ -87,9 +87,9 @@ Prima di importare contenuti da un URL, accertati che siano soddisfatti i seguen
 * Per motivi di sicurezza, solo gli URL che iniziano con **[!UICONTROL https]** sono consentiti.
 * Assicurati che tutte le risorse (immagini, CSS) siano impostate nei collegamenti assoluti e in HTTPS. In caso contrario, dopo l’invio dell’e-mail, la pagina speculare verrebbe visualizzata senza le relative risorse. Di seguito è riportato un esempio di definizione di collegamento assoluto:
 
-   ```
-   <a href="https://www.mywebsite.com/images/myimage.png">
-   ```
+  ```
+  <a href="https://www.mywebsite.com/images/myimage.png">
+  ```
 
 >[!NOTE]
 >
@@ -249,6 +249,5 @@ Dopo aver identificato tutti i blocchi, in E-mail Designer, ripeti la seguente p
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. Torna alla visualizzazione per dispositivi mobili per verificare che il contenuto sia visualizzato correttamente e salvare le modifiche.

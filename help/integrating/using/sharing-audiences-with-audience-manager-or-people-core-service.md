@@ -49,7 +49,7 @@ Il pubblico viene ora importato nel database di Adobe Campaign. La sincronizzazi
 
 ## Esportazione di un pubblico {#exporting-an-audience}
 
-Un pubblico può essere esportato da Adobe Campaign a Audience Manager o al servizio core People tramite un flusso di lavoro e il **[!UICONTROL Save audience]** attività.
+Un pubblico può essere esportato da Adobe Campaign a Audienci Manager o al servizio core People tramite un flusso di lavoro e il **[!UICONTROL Save audience]** attività.
 
 Può essere eseguito in un nuovo flusso di lavoro e solo dagli utenti connessi tramite IMS (autenticazione tramite Adobe ID).
 

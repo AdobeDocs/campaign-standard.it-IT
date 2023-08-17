@@ -29,7 +29,7 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un’attività [Query](../../automating/using/query.md) .
 1. Fai doppio clic sull’attività.
 1. In entrata **[!UICONTROL Shortcuts]**, trascinare e rilasciare **[!UICONTROL Profiles]** e seleziona **[!UICONTROL email]** con l’operatore **[!UICONTROL is not empty]**.
-1. In entrata **[!UICONTROL Shortcuts]**, trascinare e rilasciare **[!UICONTROL Profiles]** e seleziona **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no ]**.
+1. In entrata **[!UICONTROL Shortcuts]**, trascinare e rilasciare **[!UICONTROL Profiles]** e seleziona **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.
 1. Fai clic su **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)

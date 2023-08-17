@@ -111,6 +111,7 @@ Una volta corretta la configurazione, fai clic su **[!UICONTROL Play]** accanto 
 >[!IMPORTANT]
 >
 >Noi **fortemente** consigliamo di eseguirlo negli ambienti di staging o sviluppo prima di eseguirlo in produzione. Verifica che l’istanza stage/dev sia selezionata nell’intestazione.
+>
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 

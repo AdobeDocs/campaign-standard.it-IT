@@ -42,7 +42,7 @@ Per creare il flusso di lavoro, effettua le seguenti operazioni:
    * Trascina la **Registri di consegna (registri)** nell&#39;area di lavoro e selezionare **Esiste** per eseguire il targeting per tutti i clienti che hanno ricevuto l’e-mail.
    * Trascina la **Registri di tracciamento (tracciamento)** nell&#39;area di lavoro e selezionare **Non esiste** per eseguire il targeting per tutti i clienti che non hanno aperto l’e-mail.
 
-      ![](assets/wkf_push_example_2.png)
+     ![](assets/wkf_push_example_2.png)
 
 1. Il [Consegna notifiche push](../../automating/using/push-notification-delivery.md) attività ti consente di inserire il contenuto del messaggio e di selezionare i campi di personalizzazione che desideri utilizzare:
 
@@ -51,7 +51,7 @@ Per creare il flusso di lavoro, effettua le seguenti operazioni:
    * In **[!UICONTROL Schedule]** blocco, seleziona **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. In questo caso, abbiamo scelto **[!UICONTROL Time zone of the contact date]** Pacifico come nel flusso di lavoro **[!UICONTROL Scheduler]**.
    * Nel campo **[!UICONTROL Optimize the sending time per recipient]** seleziona **[!UICONTROL Send at the recipient's time zone]**.
 
-      ![](assets/wkf_push_example_4.png)
+     ![](assets/wkf_push_example_4.png)
 
 1. Fai clic su **[!UICONTROL Start]** per avviare il flusso di lavoro ricorrente.
 

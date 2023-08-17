@@ -66,34 +66,34 @@ Puoi utilizzare l’editor delle query per definire un pubblico o un profilo di 
 
    * Per una stringa o un **campo** numerico, specifica l’operatore di confronto e il valore.
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * Per un **campo** data o data e ora, puoi scegliere di definire una data specifica, un intervallo tra due date o un periodo relativo alla data di esecuzione della query.
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * Per un **campo** booleano, seleziona le caselle collegate ai possibili valori del campo.
    * Per un campo di **raggruppamento**, seleziona il campo di raggruppamento desiderato per creare la regola, quindi definisci la condizione nello stesso modo degli altri campi.
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * Per un collegamento **1-1** con un’altra risorsa di database, seleziona un valore direttamente dalla tabella di destinazione.
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * Per un collegamento **1-N** con un’altra risorsa del database, puoi definire una sottoquery sui campi di questa seconda risorsa.
 
-      Non devi specificare una sottocondizione.
+     Non devi specificare una sottocondizione.
 
-      Ad esempio, puoi selezionare l’operatore **[!UICONTROL Exists]** solo nei log di tracciamento del profilo e approvare la regola. La regola restituisce tutti i profili per i quali esistono dei log di tracciamento.
+     Ad esempio, puoi selezionare l’operatore **[!UICONTROL Exists]** solo nei log di tracciamento del profilo e approvare la regola. La regola restituisce tutti i profili per i quali esistono dei log di tracciamento.
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * Per un **filtro predefinito**, inserisci o seleziona gli elementi desiderati in base ai criteri offerti.
 
-      Gli amministratori possono creare filtri per facilitare query complesse e ripetitive. Vengono visualizzate nell’editor delle query sotto forma di regole preconfigurate e limitano il numero di passaggi necessari per l’utente.
+     Gli amministratori possono creare filtri per facilitare query complesse e ripetitive. Vengono visualizzate nell’editor delle query sotto forma di regole preconfigurate e limitano il numero di passaggi necessari per l’utente.
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. Puoi specificare un nome per la regola. Viene quindi visualizzato come nome della regola nell’area di lavoro. Se alla regola non viene assegnato un nome, viene visualizzata una descrizione automatica delle condizioni.
 1. Per combinare gli elementi dell’area di lavoro, puoi unirli per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:

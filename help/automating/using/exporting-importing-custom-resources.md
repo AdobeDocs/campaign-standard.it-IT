@@ -25,7 +25,7 @@ Sussistono i seguenti prerequisiti:
 
 * **Una o più risorse personalizzate** disponibili e pubblicate.
 
-   Inoltre, devi aver definito una chiave univoca per queste risorse poiché le chiavi primarie automatiche non vengono esportate nei pacchetti. La risorsa può quindi avere una chiave primaria e una chiave univoca aggiuntiva per garantire l’univocità dei record.
+  Inoltre, devi aver definito una chiave univoca per queste risorse poiché le chiavi primarie automatiche non vengono esportate nei pacchetti. La risorsa può quindi avere una chiave primaria e una chiave univoca aggiuntiva per garantire l’univocità dei record.
 * **I diritti necessari** per creare ed esportare un pacchetto.
 
 Risorse aggiuntive:

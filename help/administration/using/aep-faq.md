@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Domande frequenti sull’integrazione di Experience Platform SDK {#aep-faq}
 
-Per inviare notifiche push e messaggi in-app con l’applicazione SDK Experience Platform, è necessario configurare un’app mobile nell’SDK di Adobe Experience Platform e configurarla in Adobe Campaign.
+Per inviare notifiche push e messaggi in-app con l’applicazione SDK Experienci Platform, è necessario configurare un’app mobile nell’SDK di Adobe Experience Platform e configurarla in Adobe Campaign.
 
 Nella sezione seguente sono elencate le domande più frequenti sulla sincronizzazione.
 
@@ -96,9 +96,9 @@ Si tratta di un problema noto e si verifica a causa della scadenza del token. Pr
 
 Consulta le risorse seguenti:
 
-* SDK EXPERIENCE PLATFORM [documentazione](https://developer.adobe.com/client-sdks/documentation/)
-* Guida introduttiva all’SDK di Launch e Experience Platform [documentazione](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Aggiornamento ad Experience Platform SDK [documentazione](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* SDK EXPERIENCI PLATFORM [documentazione](https://developer.adobe.com/client-sdks/documentation/)
+* Guida introduttiva all’SDK di Launch e Experienci Platform [documentazione](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* Aggiornamento ad Experienci Platform SDK [documentazione](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
 * SDK per Experience Platform Github [documentazione](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Viene visualizzato l’errore &quot;Non disponi dell’accesso in scrittura alla consegna&quot; durante la creazione di una consegna di notifica push. {#write-access-error}

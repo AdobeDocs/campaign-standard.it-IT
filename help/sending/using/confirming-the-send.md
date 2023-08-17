@@ -59,9 +59,9 @@ Dopo l’invio del messaggio ai contatti, l’area **[!UICONTROL Deployment]** m
 * La percentuale dei messaggi aperti
 * La percentuale di clic nei messaggi (per e-mail)
 
-   >[!NOTE]
-   >
-   >L’**[!UICONTROL Open rate]** e il **[!UICONTROL Click-through rate]** vengono aggiornati ogni ora.
+  >[!NOTE]
+  >
+  >L’**[!UICONTROL Open rate]** e il **[!UICONTROL Click-through rate]** vengono aggiornati ogni ora.
 
 ![](assets/sending_delivery.png)
 
@@ -139,17 +139,17 @@ Le tabelle seguenti mostrano le modifiche nei KPI e negli stati dei registri di 
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
 | Il messaggio è stato inoltrato correttamente da Campaign all’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** la percentuale inizia allo 0%</li><li>**[!UICONTROL Bounces + errors]** la percentuale inizia allo 0%</li></ul> | In sospeso |
-| I messaggi non recapitabili vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Operazione non riuscita |
-| I messaggi in soft-bouncing vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Operazione non riuscita |
+| I messaggi non recapitabili vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
+| I messaggi in soft-bouncing vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
 | Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | <ul><li>**[!UICONTROL Delivered]** la percentuale viene aumentata di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale è diminuita di conseguenza</li></ul> | Inviato |
-| Nuovi tentativi di messaggi con mancati recapiti non riusciti | <ul><li> Nessuna modifica in **[!UICONTROL Delivered]** percentuale </li><li> Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale </li></ul> | Operazione non riuscita |
+| Nuovi tentativi di messaggi con mancati recapiti non riusciti | <ul><li> Nessuna modifica in **[!UICONTROL Delivered]** percentuale </li><li> Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale </li></ul> | Non riuscito |
 
 **Senza servizio di feedback delle e-mail**
 
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
 | Il messaggio è stato inoltrato correttamente da Campaign all’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** la percentuale inizia al 100%</li><li>**[!UICONTROL Bounces + errors]** la percentuale inizia allo 0%</li></ul> | Inviato |
-| I messaggi non recapitabili vengono segnalati dall’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Operazione non riuscita |
+| I messaggi non recapitabili vengono segnalati dall’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
 | I messaggi in soft-bouncing vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale</li></ul> | Inviato |
 | Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale</li></ul> | Inviato |
-| Nuovi tentativi di messaggi con mancati recapiti non riusciti | <ul><li>**[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Operazione non riuscita |
+| Nuovi tentativi di messaggi con mancati recapiti non riusciti | <ul><li>**[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |

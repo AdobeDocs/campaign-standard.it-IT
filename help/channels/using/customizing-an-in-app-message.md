@@ -45,23 +45,23 @@ Il menu a discesa **[!UICONTROL Layout]** offre quattro opzioni diverse tra cui 
 
 * **[!UICONTROL Full page]**: questo tipo di layout copre l’intero schermo dei dispositivi per il pubblico.
 
-   Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
+  Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
 
 * **[!UICONTROL Large modal]**: questo layout viene visualizzato in una grande finestra in stile avviso. L’applicazione rimane visibile in background.
 
-   Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
+  Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
 
 * **[!UICONTROL Small modal]**: questo layout viene visualizzato come una piccola finestra di avviso, l’applicazione rimane visibile in background.
 
-   Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
+  Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
 
 * **[!UICONTROL Alert]**: questo tipo di layout viene visualizzato come messaggio di avviso del sistema operativo nativo.
 
-   Può supportare solo componenti di testo e pulsanti.
+  Può supportare solo componenti di testo e pulsanti.
 
 * **[!UICONTROL Local notification]**: questo tipo di layout viene visualizzato come messaggio del banner.
 
-   Può supportare solo audio, testo e destinazione. Per ulteriori informazioni sulla notifica locale, consulta [Personalizzazione di un tipo di messaggio di notifica locale](#customizing-a-local-notification-message-type).
+  Può supportare solo audio, testo e destinazione. Per ulteriori informazioni sulla notifica locale, consulta [Personalizzazione di un tipo di messaggio di notifica locale](#customizing-a-local-notification-message-type).
 
 Ogni tipo di layout può essere visualizzato in anteprima su diversi dispositivi quali telefono, tablet, piattaforma, ad esempio Android o iOS e anche secondo l’orientamento, come orizzontale o verticale nella finestra di destra dell’editor di contenuti.
 

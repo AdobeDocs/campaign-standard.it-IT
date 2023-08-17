@@ -31,6 +31,7 @@ In questa sezione imparerai a concedere l’accesso all’integrazione Adobe Cam
 >[!IMPORTANT]
 >
 > Questi passaggi richiedono **Amministratore** nell’Experience Cloud per la tua organizzazione.
+>
 
 1. Passa a https://experience.adobe.com/ e accedi a Adobe Experience Cloud.
 1. Accedere a **Admin Console**.
@@ -45,6 +46,7 @@ In questa sezione imparerai a concedere l’accesso all’integrazione Adobe Cam
    >[!IMPORTANT]
    >
    >I passaggi rimanenti in questa sezione vengono eseguiti per ciascuna istanza di Campaign (sviluppo, testo, produzione).
+   >
 
 1. Fai clic sulla prima istanza da configurare.
 

@@ -42,7 +42,7 @@ L’attività **Update data** può essere utilizzata dopo l’importazione di un
    * **[!UICONTROL Insert or update]**: inserire dati o aggiornarli, se i record sono già presenti nel database.
    * **[!UICONTROL Insert only]**: inserire solo i dati. I record già esistenti non vengono aggiornati. Se vengono definiti i criteri di riconciliazione, verranno aggiunti solo i record non riconciliati.
 
-      Se i dati importati contengono alcuni record già presenti nel database, seleziona la casella **[!UICONTROL Generate an outbound transition for rejects]** per evitare potenziali errori.
+     Se i dati importati contengono alcuni record già presenti nel database, seleziona la casella **[!UICONTROL Generate an outbound transition for rejects]** per evitare potenziali errori.
 
    * **[!UICONTROL Update]**: aggiorna i dati dei record che sono già presenti solo nel database.
    * **[!UICONTROL Delete]**: elimina i dati.

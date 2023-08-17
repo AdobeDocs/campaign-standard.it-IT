@@ -26,9 +26,9 @@ Questo esempio mostra come preimpostare un flusso di lavoro che può essere riut
 
    * **[!UICONTROL Load file]**: definisci la struttura prevista del file contenente i dati da importare.
 
-      >[!NOTE]
-      >
-      >È possibile importare dati solo da un singolo file. Se il flusso di lavoro ha più **[!UICONTROL Load file]** attività, verrà utilizzato ogni volta lo stesso file.
+     >[!NOTE]
+     >
+     >È possibile importare dati solo da un singolo file. Se il flusso di lavoro ha più **[!UICONTROL Load file]** attività, verrà utilizzato ogni volta lo stesso file.
 
    * **[!UICONTROL Reconciliation]**: riconciliare i dati importati con i dati del database.
    * **[!UICONTROL Segmentation]**: crea filtri per elaborare i record in modo diverso a seconda che possano essere riconciliati o meno.
@@ -41,18 +41,18 @@ Questo esempio mostra come preimpostare un flusso di lavoro che può essere riut
 
    * Definisci la struttura prevista caricando un file di esempio. Il file di esempio deve contenere solo poche righe, ma tutte le colonne necessarie per l’importazione. Controlla e modifica il formato del file per assicurarti che il tipo di ciascuna colonna sia impostato correttamente: testo, data, numero intero, ecc. Ad esempio:
 
-      ```
-      lastname;firstname;birthdate;email;crmID
-      Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
-      ```
+     ```
+     lastname;firstname;birthdate;email;crmID
+     Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
+     ```
 
    * In **[!UICONTROL File to load]** sezione, seleziona **[!UICONTROL Upload a new file from the local machine]** e lasciare vuoto il campo. Ogni volta che viene creato un nuovo flusso di lavoro da questo modello, è possibile specificare il file desiderato, purché corrisponda alla struttura definita.
 
-      Puoi utilizzare una qualsiasi delle opzioni, ma devi modificare il modello di conseguenza. Ad esempio, se selezioni **[!UICONTROL Use the file specified in the inbound transition]**, è possibile aggiungere una **[!UICONTROL Transfer file]** prima di recuperare il file da importare da un server FTP/SFTP.
+     Puoi utilizzare una qualsiasi delle opzioni, ma devi modificare il modello di conseguenza. Ad esempio, se selezioni **[!UICONTROL Use the file specified in the inbound transition]**, è possibile aggiungere una **[!UICONTROL Transfer file]** prima di recuperare il file da importare da un server FTP/SFTP.
 
-      Se desideri che gli utenti possano scaricare un file contenente errori verificatisi durante un’importazione, seleziona la **[!UICONTROL Keep the rejects in a file]** e specificare **[!UICONTROL File name]**.
+     Se desideri che gli utenti possano scaricare un file contenente errori verificatisi durante un’importazione, seleziona la **[!UICONTROL Keep the rejects in a file]** e specificare **[!UICONTROL File name]**.
 
-      ![](assets/import_template_example1.png)
+     ![](assets/import_template_example1.png)
 
 1. Configurare **[!UICONTROL Reconciliation]** attività. Lo scopo di questa attività in questo contesto è identificare i dati in arrivo.
 
@@ -68,14 +68,14 @@ Questo esempio mostra come preimpostare un flusso di lavoro che può essere riut
    I destinatari che non possono essere riconciliati e che non dispongono di un numero sufficiente di dati vengono selezionati in una transizione in uscita complementare e possono essere esportati in un file separato o semplicemente ignorati.
 
    * In **[!UICONTROL General]** dell’attività, imposta la scheda **[!UICONTROL Resource type]** a **[!UICONTROL Temporary resource]** e seleziona **[!UICONTROL Reconciliation]** come set di destinazione.
-   * In **[!UICONTROL Advanced options]** , selezionare la scheda **[!UICONTROL Generate complement]** per verificare se un record non può essere inserito nel database. Se necessario, puoi applicare ulteriori elaborazioni ai dati complementari: esportazione di file, aggiornamento di elenchi, ecc.
+   * In **[!UICONTROL Advanced options]** , selezionare la scheda **[!UICONTROL Generate complement]** per verificare se non è possibile inserire un record nel database. Se necessario, puoi applicare ulteriori elaborazioni ai dati complementari: esportazione di file, aggiornamento di elenchi, ecc.
    * Nel primo segmento del **[!UICONTROL Segments]** , aggiungi una condizione di filtro sul gruppo in entrata per selezionare solo i record per i quali l’ID CRM del profilo non è uguale a 0. In questo modo, i dati del file riconciliati con i profili del database vengono selezionati in tale sottoinsieme.
 
-      ![](assets/import_template_example3.png)
+     ![](assets/import_template_example3.png)
 
    * Aggiungere un secondo segmento per selezionare record non riconciliati con un numero di dati sufficiente per essere inseriti nel database. Ad esempio: indirizzo e-mail, nome e cognome. Il valore ID CRM dei record non riconciliati è uguale a 0.
 
-      ![](assets/import_template_example3_2.png)
+     ![](assets/import_template_example3_2.png)
 
    * Tutti i record non selezionati nei primi due sottoinsiemi vengono selezionati nel **[!UICONTROL Complement]**.
 
@@ -84,21 +84,21 @@ Questo esempio mostra come preimpostare un flusso di lavoro che può essere riut
    * Seleziona **[!UICONTROL Update]** as **[!UICONTROL Operation type]** poiché la transizione in entrata contiene solo i destinatari già presenti nel database.
    * In **[!UICONTROL Identification]** , seleziona **[!UICONTROL Using reconciliation criteria]** e definisci una chiave tra **[!UICONTROL Dimension to update]** - Profili in questo caso - e il collegamento creato in **[!UICONTROL Reconciliation]** attività. In questo esempio, la proprietà **ID CRM** viene utilizzato un campo personalizzato.
 
-      ![](assets/import_template_example6.png)
+     ![](assets/import_template_example6.png)
 
    * In **[!UICONTROL Fields to update]** , indica i campi della dimensione Profili da aggiornare con il valore della colonna corrispondente del file. Se i nomi delle colonne dei file sono identici o quasi identici ai nomi dei campi dimensione dei destinatari, puoi utilizzare il pulsante bacchetta magica per far corrispondere automaticamente i diversi campi.
 
-      ![](assets/import_template_example6_2.png)
+     ![](assets/import_template_example6_2.png)
 
-      >[!NOTE]
-      >
-      >Se prevedi di inviare direct mailing a questi profili, assicurati di includere un indirizzo postale, in quanto queste informazioni sono essenziali per il provider di direct mailing. Assicurati inoltre che il **[!UICONTROL Address specified]** nelle informazioni dei profili è selezionata. Per aggiornare questa opzione da un flusso di lavoro, è sufficiente aggiungere un elemento ai campi da aggiornare e specificare **1** as **[!UICONTROL Source]** e seleziona la `postalAddress/@addrDefined` campo come **[!UICONTROL Destination]**. Per ulteriori informazioni sulla direct mailing e sull&#39;utilizzo del **[!UICONTROL Address specified]** , vedere [questo documento](../../channels/using/about-direct-mail.md#recommendations).
+     >[!NOTE]
+     >
+     >Se prevedi di inviare direct mailing a questi profili, assicurati di includere un indirizzo postale, in quanto queste informazioni sono essenziali per il provider di direct mailing. Assicurati inoltre che il **[!UICONTROL Address specified]** nelle informazioni dei profili è selezionata. Per aggiornare questa opzione da un flusso di lavoro, è sufficiente aggiungere un elemento ai campi da aggiornare e specificare **1** as **[!UICONTROL Source]** e seleziona la `postalAddress/@addrDefined` campo come **[!UICONTROL Destination]**. Per ulteriori informazioni sulla direct mailing e sull&#39;utilizzo del **[!UICONTROL Address specified]** , vedere [questo documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configurare **[!UICONTROL Deduplication]** attività che si trova dopo la transizione contenente profili non riconciliati:
 
    * In **[!UICONTROL Properties]** , impostare **[!UICONTROL Resource type]** alla risorsa temporanea generata da **[!UICONTROL Reconciliation]** attività del flusso di lavoro.
 
-      ![](assets/import_template_example4.png)
+     ![](assets/import_template_example4.png)
 
    * In questo esempio, il campo e-mail viene utilizzato per trovare profili univoci. Puoi utilizzare qualsiasi campo che sei sicuro di avere compilato e che fa parte di una combinazione univoca.
    * Scegli un **[!UICONTROL Deduplication method]**. In questo caso, l’applicazione decide automaticamente quali record vengono conservati in caso di duplicati.
@@ -110,15 +110,15 @@ Questo esempio mostra come preimpostare un flusso di lavoro che può essere riut
    * Seleziona **[!UICONTROL Insert only]** as **[!UICONTROL Operation type]** poiché la transizione in entrata contiene solo profili non presenti nel database.
    * In **[!UICONTROL Identification]** , seleziona **[!UICONTROL Using reconciliation criteria]** e definisci una chiave tra **[!UICONTROL Dimension to update]** - Profili in questo caso - e il collegamento creato in **[!UICONTROL Reconciliation]** attività. In questo esempio, la proprietà **ID CRM** viene utilizzato un campo personalizzato.
 
-      ![](assets/import_template_example6.png)
+     ![](assets/import_template_example6.png)
 
    * In **[!UICONTROL Fields to update]** , indica i campi della dimensione Profili da aggiornare con il valore della colonna corrispondente del file. Se i nomi delle colonne dei file sono identici o quasi identici ai nomi dei campi dimensione dei destinatari, puoi utilizzare il pulsante bacchetta magica per far corrispondere automaticamente i diversi campi.
 
-      ![](assets/import_template_example6_2.png)
+     ![](assets/import_template_example6_2.png)
 
-      >[!NOTE]
-      >
-      >Se prevedi di inviare direct mailing a questi profili, assicurati di includere un indirizzo postale, in quanto queste informazioni sono essenziali per il provider di direct mailing. Assicurati inoltre che il **[!UICONTROL Address specified]** nelle informazioni dei profili è selezionata. Per aggiornare questa opzione da un flusso di lavoro, è sufficiente aggiungere un elemento ai campi da aggiornare e specificare **1** as **[!UICONTROL Source]** e seleziona la **[postalAddress/@addrDefined]** campo come **[!UICONTROL Destination]**. Per ulteriori informazioni sulla direct mailing e sull&#39;utilizzo del **[!UICONTROL Address specified]** , vedere [questo documento](../../channels/using/about-direct-mail.md#recommendations).
+     >[!NOTE]
+     >
+     >Se prevedi di inviare direct mailing a questi profili, assicurati di includere un indirizzo postale, in quanto queste informazioni sono essenziali per il provider di direct mailing. Assicurati inoltre che il **[!UICONTROL Address specified]** nelle informazioni dei profili è selezionata. Per aggiornare questa opzione da un flusso di lavoro, è sufficiente aggiungere un elemento ai campi da aggiornare e specificare **1** as **[!UICONTROL Source]** e seleziona la **[postalAddress/@addrDefined]** campo come **[!UICONTROL Destination]**. Per ulteriori informazioni sulla direct mailing e sull&#39;utilizzo del **[!UICONTROL Address specified]** , vedere [questo documento](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Dopo la terza transizione del **[!UICONTROL Segmentation]** attività, aggiungi un **[!UICONTROL Extract file]** attività e un **[!UICONTROL Transfer file]** se desideri tenere traccia dei dati non inseriti nel database. Configura queste attività per esportare la colonna necessaria e trasferire il file su un server FTP o SFTP dove puoi recuperarlo.
 1. Aggiungi un **[!UICONTROL End]** e salva il modello di workflow.

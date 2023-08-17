@@ -25,7 +25,7 @@ Il **[!UICONTROL Audit trail]** consente di accedere alla cronologia completa de
 
 * **Audit trail delle risorse personalizzate**: controlla l’attività e l’ultima modifica apportata alle risorse personalizzate.
 
-   Per ulteriori informazioni su **[!UICONTROL Custom resources]**, fai riferimento a questo [pagina](../../developing/using/key-steps-to-add-a-resource.md).
+  Per ulteriori informazioni su **[!UICONTROL Custom resources]**, fai riferimento a questo [pagina](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **Audit trail del flusso di lavoro**: controlla l’attività e l’ultima modifica apportata ai flussi di lavoro e, inoltre, lo stato dei flussi di lavoro, ad esempio:
 
@@ -43,11 +43,11 @@ Il **[!UICONTROL Audit trail]** consente di accedere alla cronologia completa de
    * Riavvio del flusso di lavoro con lo stesso utente
    * Comando Riavvio flusso di lavoro sconosciuto
 
-   Per ulteriori informazioni su **[!UICONTROL Workflows]**, fai riferimento a questo [pagina](../../automating/using/get-started-workflows.md).
+  Per ulteriori informazioni su **[!UICONTROL Workflows]**, fai riferimento a questo [pagina](../../automating/using/get-started-workflows.md).
 
 * **Option Audit trail**: controlla l’attività e l’ultima modifica apportata alle opzioni.
 
-   Per ulteriori informazioni su **[!UICONTROL Options]**, fai riferimento a questo [pagina](../../administration/using/about-campaign-standard-settings.md).
+  Per ulteriori informazioni su **[!UICONTROL Options]**, fai riferimento a questo [pagina](../../administration/using/about-campaign-standard-settings.md).
 
 Per impostazione predefinita, il periodo di conservazione è di 30 giorni.
 
@@ -105,9 +105,10 @@ Per eseguire questa operazione:
    * **[!UICONTROL XtkAudit_CusResource]** per gestire Audit trail per le risorse personalizzate.
    * **[!UICONTROL XtkAudit_Enable_All]** per gestire Audit trail per ogni entità.
 
-      >[!NOTE]
-      >
-      >Se il **[!UICONTROL XtkAudit_Enable_All]** è impostato su 0, il **[!UICONTROL Audit trail]** La funzione verrà completamente disabilitata, indipendentemente dagli altri valori delle singole opzioni.
+     >[!NOTE]
+     >
+     >Se il **[!UICONTROL XtkAudit_Enable_All]** è impostato su 0, il **[!UICONTROL Audit trail]** La funzione verrà completamente disabilitata, indipendentemente dagli altri valori delle singole opzioni.
+
    ![](assets/audit-trail_5.png)
 
 1. Dal tuo **[!UICONTROL Options]** pagina, imposta **[!UICONTROL Value (integer)]** a 0 se si desidera disabilitare **[!UICONTROL Audit trail]** o a 1 per abilitarlo.

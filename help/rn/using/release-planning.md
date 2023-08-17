@@ -27,7 +27,7 @@ Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolar
 
 ## Versione 23.1 - Rilascio in primavera/estate 2023 {#release-23-1-release}
 
-Gli aggiornamenti degli ambienti avvengono gradualmente, nei tempi indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
+Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
 Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](release-notes.md).
 

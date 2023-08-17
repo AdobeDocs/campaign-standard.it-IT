@@ -34,32 +34,32 @@ Il flusso di lavoro è costituito dalle seguenti attività:
    * Indirizzo e-mail del cliente
    * Codice del prodotto acquistato
 
-   ```
-   date;client;product
-   2015-05-19 09:00:00;mail1@email.com;ZZ1
-   2015-05-19 09:01:00;mail2@email.com;ZZ2
-   2015-05-19 09:01:01;mail3@email.com;ZZ2
-   2015-05-19 09:01:02;mail4@email.com;ZZ2
-   2015-05-19 09:02:00;mail5@email.com;ZZ3
-   2015-05-19 09:03:00;mail6@email.com;ZZ4
-   2015-05-19 09:04:00;mail7@email.com;ZZ5
-   2015-05-19 09:05:00;mail8@email.com;ZZ7
-   2015-05-19 09:06:00;mail9@email.com;ZZ6
-   ```
+  ```
+  date;client;product
+  2015-05-19 09:00:00;mail1@email.com;ZZ1
+  2015-05-19 09:01:00;mail2@email.com;ZZ2
+  2015-05-19 09:01:01;mail3@email.com;ZZ2
+  2015-05-19 09:01:02;mail4@email.com;ZZ2
+  2015-05-19 09:02:00;mail5@email.com;ZZ3
+  2015-05-19 09:03:00;mail6@email.com;ZZ4
+  2015-05-19 09:04:00;mail7@email.com;ZZ5
+  2015-05-19 09:05:00;mail8@email.com;ZZ7
+  2015-05-19 09:06:00;mail9@email.com;ZZ6
+  ```
 
 * A [Reconciliation](../../automating/using/reconciliation.md) attività per associare i dati di acquisto a profili di database e prodotti. È pertanto necessario definire una relazione tra dati del file e la tabella del profilo, nonché con la tabella del prodotto. Questa configurazione viene eseguita nella scheda **[!UICONTROL Relations]** dell’attività:
 
    * Relazione con **Profiles**: la colonna **client** del file è collegata al campo **e-mail** della dimensione **Profiles**.
    * Relazione con **Products**: la colonna **product** del file è collegata al campo **productCode** della dimensione **Profiles**.
 
-   Le colonne vengono aggiunte ai dati in entrata per rimandare alle chiavi esterne delle dimensioni collegate.
+  Le colonne vengono aggiunte ai dati in entrata per rimandare alle chiavi esterne delle dimensioni collegate.
 
-   ![](assets/reconciliation_example3.png)
+  ![](assets/reconciliation_example3.png)
 
 * Un [Aggiorna dati](../../automating/using/update-data.md) attività ti consente di definire i campi del database da aggiornare utilizzando i dati importati. Poiché i dati erano già stati identificati come appartenenti alla dimensione **Transactions** nell’attività precedente, in questo caso puoi utilizzare l’opzione di identificazione **[!UICONTROL Directly using the targeting dimension]**.
 
-   Utilizzando l’opzione che rileva automaticamente i campi da aggiornare, i collegamenti configurati nell’attività precedente (a profili e prodotti) vengono aggiunti all’elenco di **[!UICONTROL Fields to update]**. Inoltre devi assicurarti che il campo corrispondente alla data della transazione sia correttamente aggiunto a questo elenco.
+  Utilizzando l’opzione che rileva automaticamente i campi da aggiornare, i collegamenti configurati nell’attività precedente (a profili e prodotti) vengono aggiunti all’elenco di **[!UICONTROL Fields to update]**. Inoltre devi assicurarti che il campo corrispondente alla data della transazione sia correttamente aggiunto a questo elenco.
 
-   ![](assets/reconciliation_example5.png)
+  ![](assets/reconciliation_example5.png)
 
-   ![](assets/reconciliation_example4.png)
+  ![](assets/reconciliation_example4.png)

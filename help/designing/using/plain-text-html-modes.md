@@ -47,13 +47,13 @@ Puoi modificare la versione HTML dell’e-mail in due modi:
 
 * Seleziona **[!UICONTROL Edit]** > **[!UICONTROL HTML]** per aprire la versione HTML dell’intero messaggio e-mail.
 
-   ![](assets/email_designer_html1.png)
+  ![](assets/email_designer_html1.png)
 
 * Dall’interfaccia WYSIWYG, seleziona un elemento e fai clic sul pulsante **[!UICONTROL Source code]** icona.
 
-   Viene visualizzata solo l’origine dell’elemento selezionato. Puoi modificare il codice sorgente se l’elemento selezionato è un **[!UICONTROL HTML]** componente contenuto. Gli altri componenti sono in modalità di sola lettura, ma possono ancora essere modificati nella versione completa HTML dell’e-mail.
+  Viene visualizzata solo l’origine dell’elemento selezionato. Puoi modificare il codice sorgente se l’elemento selezionato è un **[!UICONTROL HTML]** componente contenuto. Gli altri componenti sono in modalità di sola lettura, ma possono ancora essere modificati nella versione completa HTML dell’e-mail.
 
-   ![](assets/email_designer_html2.png)
+  ![](assets/email_designer_html2.png)
 
 Se modifichi il codice HTML, la reattività dell’e-mail potrebbe essere interrotta. Assicurati di testarlo utilizzando **[!UICONTROL Preview]** pulsante. Consulta [Anteprima dei messaggi](../../sending/using/previewing-messages.md).
 
@@ -114,7 +114,7 @@ Tutte le opzioni di stile sono disponibili nella vista per dispositivi mobili. L
 
    ![](assets/email_designer_mobile_view_background_mobile.png)
 
-1. Passare alla visualizzazione desktop e applicare uno sfondo grigio allo stesso pulsante.
+1. Passare alla vista desktop e applicare uno sfondo grigio allo stesso pulsante.
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 

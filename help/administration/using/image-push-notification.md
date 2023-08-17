@@ -23,7 +23,7 @@ In questo documento, scopri come visualizzare un’immagine da una notifica push
 
 ## Passaggio 1: configurare la notifica push {#set-up-push}
 
-La notifica push è supportata dagli SDK Experience Platform.
+La notifica push è supportata dagli SDK Experienci Platform.
 
 Le app mobili che ricevono notifiche push devono essere configurate da un amministratore nell’interfaccia di Adobe Campaign.
 

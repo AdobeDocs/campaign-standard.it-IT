@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Creazione di un’e-mail multilingue con l’integrazione Adobe Experience Manager {#creating-multilingual-email-aem}
 
-Questo documento illustra come creare un’e-mail multilingue utilizzando copie in lingua e contenuto di Adobe Experience Manager.
+Questo documento illustra come creare un messaggio e-mail multilingue utilizzando copie in lingua e contenuto di Adobe Experience Manager.
 
 Sussistono i seguenti prerequisiti:
 
@@ -97,7 +97,7 @@ Ora che sono state create le copie per lingua, puoi modificare il contenuto in b
 
 1. Compila il **[!UICONTROL Properties]** e **[!UICONTROL Audience]** dell’e-mail e fai clic su **[!UICONTROL Create]**.
 
-1. In **[!UICONTROL Edit properties]**, assicurati che il tuo account Adobe Experience Manager sia impostato correttamente in **[!UICONTROL Content]** a discesa.
+1. In **[!UICONTROL Edit properties]**, assicurati che l’account Adobe Experience Manager sia impostato correttamente in **[!UICONTROL Content]** a discesa.
 
    ![](assets/aem_acs_20.png)
 

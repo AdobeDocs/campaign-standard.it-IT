@@ -44,9 +44,9 @@ Per verificare se una o più attività di una precedente esecuzione del flusso d
 
    * La prima regola filtra l&#39;attività corrente (query2) e la successiva attività di pianificazione (schedule2) appartenenti al flusso di lavoro corrente.
 
-      >[!NOTE]
-      >
-      >Quando un **[!UICONTROL Scheduler]** all&#39;avvio dell&#39;attività, aggiunge immediatamente un&#39;altra attività di pianificazione da eseguire all&#39;ora pianificata successiva e avvia il flusso di lavoro. Pertanto, è importante filtrare sia la query che le attività pianificate quando si cercano le attività in sospeso di un’esecuzione precedente.
+     >[!NOTE]
+     >
+     >Quando un **[!UICONTROL Scheduler]** all&#39;avvio dell&#39;attività, aggiunge immediatamente un&#39;altra attività di pianificazione da eseguire all&#39;ora pianificata successiva e avvia il flusso di lavoro. Pertanto, è importante filtrare sia la query che le attività pianificate quando si cercano le attività in sospeso di un’esecuzione precedente.
 
    * La seconda regola determina se le attività di una precedente esecuzione del flusso di lavoro sono ancora attive (in sospeso), che corrisponde allo stato di esecuzione 0.
 

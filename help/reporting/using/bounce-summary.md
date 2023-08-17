@@ -35,9 +35,9 @@ Il **Motivi di mancato recapito** La tabella contiene i dati disponibili per i t
 * **[!UICONTROL Mailbox full]**: tipo di errore generato quando la casella in entrata del destinatario è piena. Ci sono cinque tentativi di recapitare il messaggio prima che questo errore venga generato.
 * **[!UICONTROL Not connected]**: tipo di errore generato quando il telefono cellulare del destinatario è spento o non è connesso a una rete al momento dell’invio del messaggio.
 
-   >[!NOTE]
-   >
-   >Questo tipo di errore riguarda solo le consegne sui canali mobili.
+  >[!NOTE]
+  >
+  >Questo tipo di errore riguarda solo le consegne sui canali mobili.
 
 * **[!UICONTROL Refused]**: tipo di errore generato quando un indirizzo viene rifiutato dal provider di servizi Internet (ISP). Ad esempio, quando una regola di sicurezza è stata applicata da un software antispam.
 

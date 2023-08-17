@@ -71,19 +71,19 @@ La configurazione dell’attività prevede due passaggi. Innanzitutto, devi defi
    * La scelta dell’opzione **[!UICONTROL Detect structure from a new file]** ti consente di utilizzare la struttura di un altro file.
    * Puoi modificare i parametri di rilevamento predefiniti in modo da adattarli al file. Il campo **[!UICONTROL File type]** ti consente di specificare se il file da importare è costituito da colonne dalla lunghezza fissa. In tal caso, devi inoltre specificare il numero massimo di caratteri per ciascuna colonna della scheda **[!UICONTROL Column definition]**.
 
-      Tutte le opzioni di rilevamento necessarie per il corretto recupero dei dati dal file sono raggruppate in **[!UICONTROL File format]**. Tenendo presenti queste nuove impostazioni, puoi apportarvi modifiche per poi rilevare nuovamente la struttura dell’ultimo file caricato nell’attività. Per eseguire questa operazione, utilizza il pulsante **[!UICONTROL Apply configuration]**. Ad esempio, puoi specificare un separatore di colonna diverso.
+     Tutte le opzioni di rilevamento necessarie per il corretto recupero dei dati dal file sono raggruppate in **[!UICONTROL File format]**. Tenendo presenti queste nuove impostazioni, puoi apportarvi modifiche per poi rilevare nuovamente la struttura dell’ultimo file caricato nell’attività. Per eseguire questa operazione, utilizza il pulsante **[!UICONTROL Apply configuration]**. Ad esempio, puoi specificare un separatore di colonna diverso.
 
-      >[!NOTE]
-      >
-      >Questa operazione prende in considerazione l’ultimo file caricato nell’attività. Se il file rilevato è di grandi dimensioni, l’anteprima dati mostrerà solo le prime 30 righe.
+     >[!NOTE]
+     >
+     >Questa operazione prende in considerazione l’ultimo file caricato nell’attività. Se il file rilevato è di grandi dimensioni, l’anteprima dati mostrerà solo le prime 30 righe.
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      Nella sezione **[!UICONTROL File format]**, l’opzione **[!UICONTROL Check columns from file against column definitions]** ti consente di verificare che le colonne del file che stai caricando corrispondano alla definizione della colonna.
+     Nella sezione **[!UICONTROL File format]**, l’opzione **[!UICONTROL Check columns from file against column definitions]** ti consente di verificare che le colonne del file che stai caricando corrispondano alla definizione della colonna.
 
-      Se il numero e/o il nome delle colonne non corrisponde alla definizione della colonna, verrà visualizzato un messaggio di errore durante l’esecuzione del flusso di lavoro. Se l’opzione non è attivata, verranno visualizzati degli avvisi nel file di registro.
+     Se il numero e/o il nome delle colonne non corrisponde alla definizione della colonna, verrà visualizzato un messaggio di errore durante l’esecuzione del flusso di lavoro. Se l’opzione non è attivata, verranno visualizzati degli avvisi nel file di registro.
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. Se necessario, vai alla scheda **[!UICONTROL Column definition]** per controllare il formato dei dati di ogni colonna e per regolare i parametri.
 
@@ -101,7 +101,7 @@ La configurazione dell’attività prevede due passaggi. Innanzitutto, devi defi
    * È il file caricato durante il passaggio precedente.
    * È un nuovo file da caricare dal computer locale. Se il caricamento di un primo file era già stato definito nel flusso di lavoro, viene visualizzata l’opzione **[!UICONTROL Upload a new file from local machine]**. Ciò ti consente di effettuare il caricamento di un altro file da elaborare, qualora il file corrente non soddisfi le tue esigenze.
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. Se il file da cui vuoi caricare i dati è compresso in un file GZIP (.gz), seleziona l’opzione **[!UICONTROL Decompression]** nel campo **[!UICONTROL Add a pre-processing stage]**. In tal modo, potrai decomprimere il file prima di caricare i dati. Questa opzione è disponibile solo se il file proviene dalla transizione in entrata dell’attività.
 
@@ -137,7 +137,7 @@ La formattazione della colonna ti consente di definire il valore di elaborazione
 
    * **[!UICONTROL Maximum number of characters]**: indica il numero massimo di caratteri per le colonne del tipo di stringa.
 
-      Questo campo deve essere compilato durante il caricamento di file composti da colonne dalla lunghezza fissa.
+     Questo campo deve essere compilato durante il caricamento di file composti da colonne dalla lunghezza fissa.
 
    * **[!UICONTROL Letter case management]**: definisce se è necessario applicare un processo relativo alle maiuscole/minuscole dei caratteri per i dati di tipo **Testo**.
    * **[!UICONTROL White space management]**: specifica se alcuni spazi devono essere ignorati in una stringa per i dati di tipo **Testo**.
@@ -154,9 +154,9 @@ La formattazione della colonna ti consente di definire il valore di elaborazione
    * **[!UICONTROL Use a default value in case the value is not remapped]**: sostituisce il valore che causava l’errore con un valore predefinito, definito nel campo **[!UICONTROL Default value]**, a meno che non sia stata definita una mappatura per il valore errato (vedi l’opzione precedente **[!UICONTROL Remapping of values]**).
    * **[!UICONTROL Reject the line when there is no remapping value]**: l’intera linea viene elaborata solo se è stata definita una mappatura per il valore errato (vedi l’opzione **[!UICONTROL Remapping of values]** precedente).
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Error processing]** riguarda gli errori relativi ai valori presenti nel file importato. Ad esempio, è stato rilevato un tipo di dati errato (&quot;quattro&quot; scritto in lettere per una colonna &quot;Numero intero&quot;), una stringa contenente più caratteri del numero massimo autorizzato, una data con separatori errati e così via. Tuttavia, questa opzione non riguarda gli errori generati dalla gestione dei valori vuoti.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Error processing]** riguarda gli errori relativi ai valori presenti nel file importato. Ad esempio, è stato rilevato un tipo di dati errato (&quot;quattro&quot; scritto in lettere per una colonna &quot;Numero intero&quot;), una stringa contenente più caratteri del numero massimo autorizzato, una data con separatori errati e così via. Tuttavia, questa opzione non riguarda gli errori generati dalla gestione dei valori vuoti.
 
 * **[!UICONTROL Default value]**: specifica il valore predefinito in base all’elaborazione dell’errore selezionata.
 * **[!UICONTROL Empty value management]**: indica come gestire i valori vuoti durante il caricamento dei dati.

@@ -44,7 +44,7 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 * Una **Identity**, che definisce e personalizza il brand. Questa sezione contiene i seguenti campi:
 
-   ![](assets/branding_01.png)
+  ![](assets/branding_01.png)
 
    * **Label**, visibile nell’interfaccia
    * **Brand name**
@@ -53,7 +53,7 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 * **[!UICONTROL Header parameters of sent emails]**, che personalizza i contenuti visualizzati dai destinatari delle campagne. Questa sezione contiene i seguenti campi:
 
-   ![](assets/branding_04_header.png)
+  ![](assets/branding_04_header.png)
 
    * **Sender (email address)**, che contiene l’indirizzo e-mail del brand.
    * **Sender (name)**, che contiene il nome del brand.
@@ -61,27 +61,27 @@ Un **Brand** è definito dalle seguenti caratteristiche:
    * **Reply to (name)**, che contiene il nome del brand.
    * **Error (email address)**, che contiene l’indirizzo e-mail da utilizzare in caso di errore.
 
-   >[!IMPORTANT]
-   >
-   >Dopo aver aggiornato i parametri di intestazione delle e-mail, se il nome e l’indirizzo e-mail del mittente non sono cambiati nell’e-mail creata dal modello, controlla le impostazioni avanzate del modello.
+  >[!IMPORTANT]
+  >
+  >Dopo aver aggiornato i parametri di intestazione delle e-mail, se il nome e l’indirizzo e-mail del mittente non sono cambiati nell’e-mail creata dal modello, controlla le impostazioni avanzate del modello.
 
 * **Server(s) exposed on the internet** definisce i server utilizzati per il tracciamento ma anche per l’accesso alle pagine di destinazione. Questa sezione contiene i seguenti campi:
 
-   ![](assets/configure_branding_04.png)
+  ![](assets/configure_branding_04.png)
 
    * **External URL of the application server**, utilizzato per l’hosting e per l’accesso alle diverse pagine di destinazione create.
    * **External URL of the tracking server**, utilizzato come URL tracciato durante le consegne.
    * **External URL of the mirror page server**, utilizzato come pagina speculare predefinita nelle consegne.
 
-   >[!NOTE]
-   >
-   >Per visualizzare l’anteprima della pagina di destinazione e il rendering della pagina speculare nell’interfaccia utente di Campaign, è necessario che gli URL del server dell’applicazione e del server della pagina speculare siano sicuri. In tal caso, per configurare questi URL utilizza https:// anziché http://.
+  >[!NOTE]
+  >
+  >Per visualizzare l’anteprima della pagina di destinazione e il rendering della pagina speculare nell’interfaccia utente di Campaign, è necessario che gli URL del server dell’applicazione e del server della pagina speculare siano sicuri. In tal caso, per configurare questi URL utilizza https:// anziché http://.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, che definisce la configurazione del tracciamento degli URL per il brand.
 
-   Qui sono definiti i parametri aggiuntivi che consentono il tracciamento dei collegamenti su sistemi esterni quali strumenti di analisi web come Adobe Analytics o Google Analytics.
+  Qui sono definiti i parametri aggiuntivi che consentono il tracciamento dei collegamenti su sistemi esterni quali strumenti di analisi web come Adobe Analytics o Google Analytics.
 
-   ![](assets/branding_05.png)
+  ![](assets/branding_05.png)
 
 ## Creazione di un nuovo brand {#creating-a-brand}
 

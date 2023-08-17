@@ -99,9 +99,9 @@ Sono disponibili i seguenti canali:
 * direct mailing
 * App mobile: questo canale ti consente di inviare notifiche push ai profili o agli abbonati all’app. Se scegli di inviare notifiche ai profili, saranno compatibili con le regole di affaticamento multicanale.
 
-   >[!IMPORTANT]
-   >
-   >Le regole di affaticamento non sono compatibili con le notifiche push inviate agli abbonati all’app. Se invii messaggi agli abbonati all’app, le regole di affaticamento non saranno applicabili.
+  >[!IMPORTANT]
+  >
+  >Le regole di affaticamento non sono compatibili con le notifiche push inviate agli abbonati all’app. Se invii messaggi agli abbonati all’app, le regole di affaticamento non saranno applicabili.
 
 * Tutti i canali: questa opzione ti consente di applicare la regola a tutti i canali. Ad esempio, puoi decidere di inviare un massimo di 3 messaggi al mese su qualsiasi canale. Se la scorsa settimana hai inviato 2 e-mail a un profilo e oggi provi a inviare una notifica push, quello stesso profilo verrà escluso.
 
@@ -135,11 +135,11 @@ Hai quindi a disposizione due opzioni:
 
 * selezionare un campo del profilo: la soglia varia per ciascun profilo in base al campo selezionato. Ad esempio, se hai esteso la risorsa dei profili con un campo “Frequenza di comunicazione”, fai clic sul pulsante a destra del campo **[!UICONTROL Threshold computation formula]** e seleziona il campo. Per ciascun profilo, la soglia assume il valore del campo “Frequenza di comunicazione”.
 
-   ![](assets/fatigue21.png)
+  ![](assets/fatigue21.png)
 
 * definire una formula: fai clic sul secondo pulsante a destra del campo **[!UICONTROL Threshold computation formula]** per definire una formula di calcolo della soglia avanzata. Ad esempio, puoi indicizzare il numero di messaggi autorizzati in base al segmento al quale il profilo appartiene. Ciò significa che un profilo appartenente al segmento “Web” potrebbe ricevere più messaggi rispetto ad altri profili. Una formula di tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autorizza la consegna di 5 messaggi ai profili del segmento Web e di 3 per altri segmenti.
 
-   ![](assets/fatigue14.png)
+  ![](assets/fatigue14.png)
 
 **Ottimizzazione della soglia per profili e consegne**
 
@@ -176,15 +176,15 @@ Sono disponibili tre schede che ti mostrano i dettagli dei risultati dell’esec
 
 * Log di consegna:
 
-   ![](assets/fatigue17.png)
+  ![](assets/fatigue17.png)
 
 * Log di esclusione:
 
-   ![](assets/fatigue18.png)
+  ![](assets/fatigue18.png)
 
 * Cause di esclusione:
 
-   ![](assets/fatigue19.png)
+  ![](assets/fatigue19.png)
 
 ## Visualizzazione del report di riepilogo della regola di affaticamento {#viewing-the-fatigue-rule-summary-report}
 
@@ -221,33 +221,33 @@ Vi sono molte possibilità in termini di implementazione della gestione dell’a
 
 * Creare una regola di affaticamento utilizzando una **soglia costante** applicabile a **tutti i canali**:
 
-   Supponiamo che tu crei una regola multicanale con una soglia costante di 3 su un periodo scorrevole di 7 giorni.
+  Supponiamo che tu crei una regola multicanale con una soglia costante di 3 su un periodo scorrevole di 7 giorni.
 
-   La settimana scorsa, i profili premium hanno ricevuto un’e-mail promozionale e un’e-mail di remarketing transazionale. Hai inoltre pianificato un SMS che verrà inviato la prossima settimana. Oggi decidi di inviare una notifica push destinata a tutti i profili. I profili premium saranno esclusi dalla notifica push di oggi poiché è già stato raggiunto il numero massimo di messaggi in un periodo di 2 settimane.
+  La settimana scorsa, i profili premium hanno ricevuto un’e-mail promozionale e un’e-mail di remarketing transazionale. Hai inoltre pianificato un SMS che verrà inviato la prossima settimana. Oggi decidi di inviare una notifica push destinata a tutti i profili. I profili premium saranno esclusi dalla notifica push di oggi poiché è già stato raggiunto il numero massimo di messaggi in un periodo di 2 settimane.
 
-   ![](assets/fatigue23.png)
+  ![](assets/fatigue23.png)
 
 * Creare una regola di affaticamento utilizzando una **soglia variabile** basata su un **campo del profilo**:
 
-   Hai esteso la risorsa dei profili con un campo “Limite di comunicazione”, per definire una soglia diversa per ciascun profilo. Nella regola di affaticamento, definisci una soglia variabile in base a questo campo e selezioni un periodo scorrevole di 2 giorni. Prendiamo due esempi di profili: John ha un limite di comunicazione di 1 e David ha una soglia di 2. Entrambi hanno già ricevuto ieri un’e-mail della newsletter. Oggi decidi di inviare loro un’altra e-mail. Solo David la riceverà, perché John è stato escluso dal target.
+  Hai esteso la risorsa dei profili con un campo “Limite di comunicazione”, per definire una soglia diversa per ciascun profilo. Nella regola di affaticamento, definisci una soglia variabile in base a questo campo e selezioni un periodo scorrevole di 2 giorni. Prendiamo due esempi di profili: John ha un limite di comunicazione di 1 e David ha una soglia di 2. Entrambi hanno già ricevuto ieri un’e-mail della newsletter. Oggi decidi di inviare loro un’altra e-mail. Solo David la riceverà, perché John è stato escluso dal target.
 
-   ![](assets/fatigue24.png)
+  ![](assets/fatigue24.png)
 
 * Creare una regola di affaticamento utilizzando una **formula di calcolo della soglia**:
 
-   Desideri modificare la soglia in base all’età dei profili. Desideri definire un limite di 4 se un profilo ha un’età minore di 40 anni e un limite di 2 per i profili con età maggiore. Invece di definire questa soglia per ciascun profilo con un campo esteso, puoi creare una formula direttamente nella regola di affaticamento per calcolare la soglia in base all’età dei profili. Nel nostro esempio, la formula sarebbe **[!UICONTROL Iif (@age<40, 4, 2)]**.
+  Desideri modificare la soglia in base all’età dei profili. Desideri definire un limite di 4 se un profilo ha un’età minore di 40 anni e un limite di 2 per i profili con età maggiore. Invece di definire questa soglia per ciascun profilo con un campo esteso, puoi creare una formula direttamente nella regola di affaticamento per calcolare la soglia in base all’età dei profili. Nel nostro esempio, la formula sarebbe **[!UICONTROL Iif (@age<40, 4, 2)]**.
 
-   ![](assets/fatigue25.png)
+  ![](assets/fatigue25.png)
 
-   >[!NOTE]
-   >
-   >Questa sezione include anche un esempio guidato di una regola di affaticamento che utilizza una formula di calcolo della soglia.
+  >[!NOTE]
+  >
+  >Questa sezione include anche un esempio guidato di una regola di affaticamento che utilizza una formula di calcolo della soglia.
 
 * Creare una regola di affaticamento che **ottimizza la soglia** per profili e consegne:
 
-   Hai esteso la risorsa dei profili con un campo “Punteggio” e inoltre hai esteso la risorsa delle consegne con un campo “Tipo”. Desideri definire una soglia costante di 3 ma vuoi escludere dal conteggio tutte le consegne del tipo “Avviso” o “Black Friday” e tutti i profili con un punteggio superiore a 10. Quando la regola verrà eseguita, essa conteggerà, tra le consegne passate e pianificate, tutte le consegne che non sono del tipo “Avviso” o “Black Friday” inviate a profili con punteggio inferiore a 10.
+  Hai esteso la risorsa dei profili con un campo “Punteggio” e inoltre hai esteso la risorsa delle consegne con un campo “Tipo”. Desideri definire una soglia costante di 3 ma vuoi escludere dal conteggio tutte le consegne del tipo “Avviso” o “Black Friday” e tutti i profili con un punteggio superiore a 10. Quando la regola verrà eseguita, essa conteggerà, tra le consegne passate e pianificate, tutte le consegne che non sono del tipo “Avviso” o “Black Friday” inviate a profili con punteggio inferiore a 10.
 
-   ![](assets/fatigue26.png)
+  ![](assets/fatigue26.png)
 
 Di seguito è riportato un esempio guidato di una regola di affaticamento che utilizza una formula di calcolo della soglia.
 

@@ -85,9 +85,10 @@ L’attività **[!UICONTROL Segmentation]** viene generalmente inserita dopo le 
    * **[!UICONTROL By data grouping]**: puoi limitare il gruppo del segmento in base ai valori di un campo specifico del gruppo in entrata. Seleziona il campo da raggruppare, quindi specifica i valori da utilizzare.
    * **[!UICONTROL By data grouping (as a %)]**: puoi limitare il gruppo del segmento in base ai valori di un campo specifico del gruppo in entrata utilizzando una percentuale. Seleziona il campo da applicare al raggruppamento, quindi specifica i valori da utilizzare.
 
-      >[!NOTE]
-      >
-      >È possibile utilizzare limitazioni diverse per ciascun valore. Ad esempio, puoi specificare un raggruppamento per il campo **[!UICONTROL Gender]** e limitare il gruppo con iscritti **[!UICONTROL Male]** a 10 e il gruppo con iscritti **[!UICONTROL Female]** a 30. Se utilizzi più campi di raggruppamento di dati, devono avere tutti la stessa dimensione.
+     >[!NOTE]
+     >
+     >È possibile utilizzare limitazioni diverse per ciascun valore. Ad esempio, puoi specificare un raggruppamento per il campo **[!UICONTROL Gender]** e limitare il gruppo con iscritti **[!UICONTROL Male]** a 10 e il gruppo con iscritti **[!UICONTROL Female]** a 30. Se utilizzi più campi di raggruppamento di dati, devono avere tutti la stessa dimensione.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Conferma la configurazione del segmento.

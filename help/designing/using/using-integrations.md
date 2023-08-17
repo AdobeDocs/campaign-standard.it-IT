@@ -25,15 +25,15 @@ L’integrazione di Adobe Campaign Standard con Dreamweaver consente di modifica
 
 * **Sincronizzazione bidirezionale**
 
-   Ogni volta che si effettua una modifica in un prodotto, questo viene aggiornato in tempo reale nell&#39;altro. Se desideri modificare il colore del testo in Dreamweaver, non appena apporti tale modifica, il colore del testo è live in Campaign. Inoltre, quando selezioni il codice in Dreamweaver o Campaign, poiché i numeri di riga sono identici, la selezione rimane tra i due prodotti, il che è molto utile quando cerchi qualcosa di specifico nel codice.
+  Ogni volta che si effettua una modifica in un prodotto, questo viene aggiornato in tempo reale nell&#39;altro. Se desideri modificare il colore del testo in Dreamweaver, non appena apporti tale modifica, il colore del testo è live in Campaign. Inoltre, quando selezioni il codice in Dreamweaver o Campaign, poiché i numeri di riga sono identici, la selezione rimane tra i due prodotti, il che è molto utile quando cerchi qualcosa di specifico nel codice.
 
 * **Caricare immagini locali su Adobe Campaign tramite Dreamweaver**
 
-   Durante la creazione o la modifica di un’e-mail all’interno di Dreamweaver, è sufficiente selezionare un’immagine dal desktop o dal computer locale. Anche se Dreamweaver ti ha sempre permesso di farlo, quando Dreamweaver e Campaign sono connessi, il file locale viene caricato immediatamente sul server Adobe Campaign: non è necessario caricare manualmente le immagini quando il contenuto cambia. Inoltre, le immagini più recenti saranno sempre live in Campaign.
+  Durante la creazione o la modifica di un’e-mail all’interno di Dreamweaver, è sufficiente selezionare un’immagine dal desktop o dal computer locale. Anche se Dreamweaver ti ha sempre permesso di farlo, quando Dreamweaver e Campaign sono connesse, il file locale viene caricato immediatamente sul server Adobe Campaign: non è necessario caricare manualmente le immagini quando il contenuto cambia. Inoltre, le immagini più recenti saranno sempre live in Campaign.
 
 * **Aggiungere la personalizzazione di Campaign in Dreamweaver**
 
-   Per lo sviluppatore di e-mail non è più necessario aggiungere testo come `[[FIRSTNAME_PLACEHOLDER]]` né per cercare la sintassi delle tabelle del modello di dati. La barra degli strumenti di Campaign in Dreamweaver si connette direttamente al modello dati dell’istanza Campaign. Ciò significa che puoi inserire tutti i dati che desideri per la personalizzazione, da un nome all’indirizzo. Se hai creato blocchi di contenuto all’interno di Campaign, puoi anche richiamarli direttamente in Dreamweaver.
+  Per lo sviluppatore di e-mail non è più necessario aggiungere testo come `[[FIRSTNAME_PLACEHOLDER]]` né per cercare la sintassi delle tabelle del modello di dati. La barra degli strumenti di Campaign in Dreamweaver si connette direttamente al modello dati dell’istanza Campaign. Ciò significa che puoi inserire tutti i dati che desideri per la personalizzazione, da un nome all’indirizzo. Se hai creato blocchi di contenuto all’interno di Campaign, puoi anche richiamarli direttamente in Dreamweaver.
 
 Questa funzionalità è descritta nella documentazione di Dreamweaver accessibile [qui](https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 

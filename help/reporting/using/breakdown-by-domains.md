@@ -37,4 +37,4 @@ La seconda tabella, **Statistiche di tracciamento**, contiene i dati disponibili
 * **Clic**: il numero di volte in cui è stato fatto clic sul contenuto in una consegna.
 * **Annullamento iscrizione**: numero di clic sul collegamento di abbonamento.
 * **Pagina mirror**: numero di clic sul collegamento della pagina speculare.
-* **Elenco Bloccati Il**: numero di destinatari che hanno dichiarato un’e-mail come spam o posta indesiderata. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Inserire nell&#39;elenco Bloccati Il**: numero di destinatari che hanno dichiarato un’e-mail come spam o posta indesiderata. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

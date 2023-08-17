@@ -23,7 +23,7 @@ ht-degree: 3%
 
 Tieni presente che le notifiche push e le implementazioni in-app devono essere eseguite da utenti esperti. Per assistenza, contatta il tuo responsabile dell’account Adobe o un partner di servizi professionali.
 
-Per inviare notifiche push e messaggi in-app con l’applicazione SDK Experience Platform, è necessario configurare un’app mobile nell’interfaccia utente di Data Collection e configurarla in Adobe Campaign.
+Per inviare notifiche push e messaggi in-app con l’applicazione SDK Experienci Platform, è necessario configurare un’app mobile nell’interfaccia utente di Data Collection e configurarla in Adobe Campaign.
 
 Una volta configurata un’app mobile, puoi recuperare i dati PII raccolti per creare o aggiornare i profili dal database. Per ulteriori informazioni, consulta questa sezione: [Creazione e aggiornamento delle informazioni sul profilo in base ai dati delle app mobili](../../channels/using/updating-profile-with-mobile-app-data.md).
 
@@ -39,7 +39,7 @@ La procedura seguente illustra come completare la configurazione:
    In caso contrario, contatta il team del tuo account.
 
 1. Verifica che l’utente disponga delle autorizzazioni necessarie in Adobe Campaign Standard e nei tag in Adobe Experience Platform.
-   * In Adobe Campaign Standard, accertati che l’utente IMS faccia parte dei profili di prodotto Utente standard e Amministratore. Questo passaggio consente all’utente di accedere ad Adobe Campaign Standard, passare alla pagina dell’app mobile SDK di Experience Platform e visualizzare le proprietà dell’app mobile create nell’interfaccia utente di Data Collection.
+   * In Adobe Campaign Standard, accertati che l’utente IMS faccia parte dei profili di prodotto Utente standard e Amministratore. Questo passaggio consente all’utente di accedere ad Adobe Campaign Standard, passare alla pagina dell’app mobile SDK di Experienci Platform e visualizzare le proprietà dell’app mobile create nell’interfaccia utente di Data Collection.
 
    * Nell’interfaccia utente di Data Collection, accertati che l’utente IMS faccia parte di un profilo di prodotto Experience Platform Launch.
 Questo passaggio consente all’utente di accedere all’interfaccia utente di Data Collection per creare e visualizzare le proprietà. Per ulteriori informazioni sui profili di prodotto nell’interfaccia utente di Data Collection, consulta [Creare il profilo di prodotto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). Nel profilo prodotto non dovrebbero essere impostate autorizzazioni per l’azienda o le proprietà, ma l’utente dovrebbe essere comunque in grado di accedere.

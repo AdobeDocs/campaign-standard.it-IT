@@ -62,7 +62,7 @@ Durante la progettazione di un flusso di lavoro pianificato che include più att
 
 1. Specifica quando scade l’esecuzione:
 
-   * **[!UICONTROL Never]**: il flusso di lavoro viene eseguito, in base alla frequenza specificata, senza alcun limite all’intervallo di tempo o al numero di iterazioni.
+   * **[!UICONTROL Never]**: il flusso di lavoro viene eseguito, in base alla frequenza specificata, senza alcun limite all’arco temporale o al numero di iterazioni.
    * **[!UICONTROL After a certain number of iterations]**: il flusso di lavoro viene eseguito in base alla frequenza specificata, fino al raggiungimento del limite di **X**. Occorre pertanto specificare il **[!UICONTROL Number of iterations]**.
    * **[!UICONTROL On a specific date]**: il flusso di lavoro viene eseguito in base alla frequenza specificata, fino a una data specifica. Occorre pertanto precisare il termine per l’esecuzione.
 

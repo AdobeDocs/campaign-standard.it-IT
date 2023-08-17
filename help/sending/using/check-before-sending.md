@@ -12,7 +12,7 @@ exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 15%
+ht-degree: 19%
 
 ---
 
@@ -42,13 +42,13 @@ Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende
 
 * Le funzionalità di rendering di e-mail sono fondamentali per identificare se le campagne e-mail sono riuscite a superare i filtri dei principali ISP (provider di servizi Internet) e servizi di posta sul web. Tali strumenti inviano una copia pre-volo di un’e-mail a una rete di caselle in entrata di prova, in modo da poter vedere come verrà visualizzato il messaggio o come verrà eseguito il rendering tra questi servizi. Possono inoltre includere rapporti e opzioni di correzione del codice che consentono di identificare rapidamente e apportare correzioni che migliorano il recapito messaggi.
 
-Ulteriori informazioni [in questa sezione](../../sending/using/email-rendering.md).
+Per ulteriori informazioni, consulta [questa sezione](../../sending/using/email-rendering.md).
 
 ## Messaggi di bozza {#proof-messages}
 
 L’invio di bozze ti consente di controllare il collegamento di rinuncia, la pagina speculare e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. Puoi anche controllare la progettazione e il rendering su dispositivi diversi.
 
-Ulteriori informazioni [in questa sezione](../../sending/using/sending-proofs.md).
+Per ulteriori informazioni, consulta [questa sezione](../../sending/using/sending-proofs.md).
 
 ## Configurare le consegne dei test A/B {#a-b-testing-deliveries}
 
@@ -60,4 +60,4 @@ Se disponi di diversi contenuti per una consegna e-mail, puoi utilizzare il test
 
 * Seleziona quello con il tasso di successo più alto e invialo al resto della destinazione
 
-Ulteriori informazioni [in questa sezione](../../channels/using/designing-an-a-b-test-email.md).
+Per ulteriori informazioni, consulta [questa sezione](../../channels/using/designing-an-a-b-test-email.md).

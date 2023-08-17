@@ -31,11 +31,11 @@ A questo scopo, aggiungi e configura:
 
 * A **[!UICONTROL Extract file]** per estrarre i dati di destinazione in un file CSV. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/extract-file.md).
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * A **[!UICONTROL Transfer file]** per trasferire il file CSV nel percorso di archiviazione. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
 
-   ![](assets/rtcdp-transfer-file.png)
+  ![](assets/rtcdp-transfer-file.png)
 
 Ad esempio, il flusso di lavoro seguente estrae i registri regolarmente in un file CSV, quindi trasferisce il file in un percorso di archiviazione.
 

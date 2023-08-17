@@ -87,15 +87,15 @@ Per entrambi **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, fai clic sull�
 
 * **Allineamento testo**: posiziona il cursore del mouse su un testo e utilizza la barra degli strumenti contestuale per allinearlo.
 
-   ![](assets/des_text_alignment.png)
+  ![](assets/des_text_alignment.png)
 
 * **Allineamento orizzontale** può essere applicata a testo, immagini e pulsanti, attualmente non al **[!UICONTROL Divider]** e **[!UICONTROL Social]** componenti.
 
-   ![](assets/des_horizontal_alignment.png)
+  ![](assets/des_horizontal_alignment.png)
 
 * Per impostare **allineamento verticale**, seleziona una colonna all’interno di un componente struttura e scegli un’opzione dal riquadro Impostazioni.
 
-   ![](assets/des_set_vertical_alignment.png)
+  ![](assets/des_set_vertical_alignment.png)
 
 ## Impostazione degli sfondi {#about-backgrounds}
 
@@ -114,35 +114,35 @@ Di seguito sono riportate le impostazioni di sfondo disponibili.
 
 * Imposta un **[!UICONTROL Background color]** per l’intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
 
-   ![](assets/des_background_body.png)
+  ![](assets/des_background_body.png)
 
 * Impostare lo stesso colore di sfondo per tutti i componenti della struttura selezionando **[!UICONTROL Viewport background color]**. Questa opzione consente di selezionare un’impostazione diversa dal colore di sfondo.
 
-   ![](assets/des_background_viewport.png)
+  ![](assets/des_background_viewport.png)
 
 * Imposta un colore di sfondo diverso per ciascun componente della struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla tavolozza a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
 
-   ![](assets/des_background_structure.png)
+  ![](assets/des_background_structure.png)
 
-   Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione, in quanto questo potrebbe nascondere i colori di sfondo della struttura.
+  Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione, in quanto questo potrebbe nascondere i colori di sfondo della struttura.
 
 * Imposta un **[!UICONTROL Background image]** per il contenuto di un componente struttura.
 
-   ![](assets/des_background_image.png)
+  ![](assets/des_background_image.png)
 
-   >[!NOTE]
-   >
-   >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
+  >[!NOTE]
+  >
+  >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
 
 * Imposta un colore di sfondo a livello di colonna.
 
-   ![](assets/des_background_column.png)
+  ![](assets/des_background_column.png)
 
-   >[!NOTE]
-   >
-   >Questo è il caso d’uso più comune. Adobe consiglia di impostare i colori di sfondo a livello di colonna, in quanto ciò consente una maggiore flessibilità nella modifica dell’intero contenuto dell’e-mail.
+  >[!NOTE]
+  >
+  >Questo è il caso d’uso più comune. Adobe consiglia di impostare i colori di sfondo a livello di colonna, in quanto ciò consente una maggiore flessibilità nella modifica dell’intero contenuto dell’e-mail.
 
-   Puoi anche impostare un’immagine di sfondo a livello di colonna, ma questa viene utilizzata raramente.
+  Puoi anche impostare un’immagine di sfondo a livello di colonna, ma questa viene utilizzata raramente.
 
 ### Esempio: regolazione dell’allineamento verticale e della spaziatura {#example--adjusting-vertical-alignment-and-padding}
 

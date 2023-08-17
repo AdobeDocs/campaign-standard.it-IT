@@ -26,17 +26,17 @@ Esistono due tipi di destinatari della bozza:
 
 * I **profili di test** ti consentono di eseguire il targeting di altri destinatari che non soddisfano i criteri di targeting definiti.
 
-   Possono essere aggiunti al pubblico di un messaggio per rilevare qualsiasi uso fraudolento del tuo database di destinatari o per assicurarti che le e-mail arrivino nelle caselle in entrata. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
+  Possono essere aggiunti al pubblico di un messaggio per rilevare qualsiasi uso fraudolento del tuo database di destinatari o per assicurarti che le e-mail arrivino nelle caselle in entrata. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >Per inviare una bozza, i profili di test devono essere inclusi nel pubblico del messaggio.
+  >[!NOTE]
+  >
+  >Per inviare una bozza, i profili di test devono essere inclusi nel pubblico del messaggio.
 
 * I **profili di sostituzione** ti consentono di collocarti nella posizione di uno dei profili target e di ottenere una rappresentazione esatta del messaggio che il profilo riceverà. Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
 
-   >[!NOTE]
-   >
-   >Questa funzione è disponibile solo per il canale e-mail.
+  >[!NOTE]
+  >
+  >Questa funzione è disponibile solo per il canale e-mail.
 
 ## Invio di una prova {#sending-a-proof}
 

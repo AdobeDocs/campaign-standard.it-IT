@@ -12,7 +12,7 @@ exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -101,7 +101,7 @@ L’Adobe consiglia di mantenere il valore predefinito per la dimensione massima
 Per impostazione predefinita, il numero di caratteri in un SMS soddisfa gli standard GSM (Global System for Mobile Communications). I messaggi SMS che utilizzano la codifica GSM sono limitati a 160 caratteri o 153 caratteri per SMS per messaggi inviati in più parti.
 
 La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando quel carattere non è preso in considerazione dallo standard GSM. L’inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Puoi autorizzare la traslitterazione di caratteri selezionando la casella corrispondente nella scheda delle impostazioni del canale SMPP della **[!UICONTROL External account]**.
-Ulteriori informazioni [in questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+Per ulteriori informazioni, consulta [questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Suggerimenti**:
 
@@ -109,7 +109,7 @@ Ulteriori informazioni [in questa sezione](../../administration/using/configurin
 
 * Tuttavia, se i messaggi SMS contengono molti caratteri che non sono presi in considerazione dallo standard GSM, abilita la traslitterazione per limitare i costi di invio dei messaggi.
 
-Ulteriori informazioni [in questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+Per ulteriori informazioni, consulta [questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 ### Progettazione reattiva delle e-mail
 

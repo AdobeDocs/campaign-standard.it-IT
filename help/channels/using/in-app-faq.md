@@ -48,7 +48,7 @@ In Adobe Campaign è disponibile un rapporto pronto all’uso per il canale in-a
 
 Vedi questo [pagina](../../reporting/using/indicator-calculation.md#in-app-delivery) per comprendere come vengono calcolate tutte le metriche in-app.
 
-## Supporti varianti di contenuto multilingue per In-App simili a Push? {#multilingual-inapp}
+## Supporti varianti di contenuto multilingue per contenuti in-app simili a Push? {#multilingual-inapp}
 
 Non sono attualmente disponibili modelli multilingue per la messaggistica in-app.
 

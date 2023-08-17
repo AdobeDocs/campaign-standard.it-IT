@@ -29,6 +29,7 @@ Questa integrazione richiede le seguenti versioni software:
 >[!CAUTION]
 >
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. La sua implementazione richiede l’intervento della Consulenza Adobe. Per maggiori informazioni, contatta un rappresentante Adobe di fiducia.
+>
 
 ## Principi
 
@@ -56,6 +57,7 @@ I principali vantaggi sono:
 >[!CAUTION]
 >
 >Questa integrazione considera Dynamics 365 come l’origine di riferimento per la sincronizzazione di contatti ed entità personalizzate.  Eventuali modifiche agli attributi sincronizzati devono essere eseguite in Dynamics 365 e non in Adobe Campaign Standard.  Se vengono apportate modifiche in Campaign, queste possono eventualmente essere sovrascritte durante la sincronizzazione.
+>
 
 ## Passaggi chiave per implementare l’integrazione di Microsoft Dynamics 365{#request-and-implement-this-integration}
 
@@ -73,9 +75,9 @@ Dettagli del diagramma di flusso (mappa ai passaggi precedenti):
 * **Passaggio 4** : il team di onboarding di Adobe ti fornirà l’accesso all’interfaccia utente dell’applicazione di integrazione.
 * **Passaggio 5** : potrai configurare mappature di dati, sostituzioni, filtri e così via. e verifica l’integrazione dall’interfaccia utente dell’applicazione di integrazione.
 
-   >[!IMPORTANT]
-   >
-   > Se hai bisogno della configurazione di rinuncia bidirezionale o da Campaign a Dynamics 365, dovrai richiedere al tuo contatto tecnico Adobe di impostare i flussi di lavoro di rinuncia nell’istanza Campaign. [Ulteriori informazioni](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+  >[!IMPORTANT]
+  >
+  > Se hai bisogno della configurazione di rinuncia bidirezionale o da Campaign a Dynamics 365, dovrai richiedere al tuo contatto tecnico Adobe di impostare i flussi di lavoro di rinuncia nell’istanza Campaign. [Ulteriori informazioni](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Configura questa integrazione {#configure-this-integration}
 
@@ -89,7 +91,8 @@ Per questa integrazione è necessario eseguire il provisioning e la configurazio
 >
 >Per ogni sistema, questi passaggi devono essere eseguiti da un **amministratore**.
 >
->I passaggi descritti in questa documentazione ti guideranno attraverso la creazione di integrazioni/registrazioni che richiedono l’assegnazione di autorizzazioni e/o accesso amministratore.  È tua responsabilità accertarti che questi passaggi siano conformi alle politiche aziendali prima di eseguire e di eseguirli con attenzione.
+>I passaggi descritti in questa documentazione ti guideranno attraverso la creazione di integrazioni/registrazioni che richiedono l’assegnazione di autorizzazioni e/o l’accesso come amministratore.  È tua responsabilità accertarti che questi passaggi siano conformi alle politiche aziendali prima di eseguire e di eseguirli con attenzione.
+>
 
 ### Richiedi supporto
 

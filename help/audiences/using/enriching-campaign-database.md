@@ -31,11 +31,11 @@ Inoltre, puoi impostare modelli per l’importazione di dati. L’utilizzo dei m
 
 * **Modelli di flusso di lavoro**: si tratta di flussi di lavoro preconfigurati che possono essere impostati una sola volta in base alle tue esigenze e riutilizzati ogni volta che desideri importare dati e aggiornare il database.
 
-   Un esempio di modello di flusso di lavoro per importare i dati è descritto in [questa sezione](../../automating/using/creating-import-workflow-templates.md).
+  Un esempio di modello di flusso di lavoro per importare i dati è descritto in [questa sezione](../../automating/using/creating-import-workflow-templates.md).
 
 * **Importare modelli di dati**: come i modelli di flusso di lavoro, si tratta di modelli basati sui flussi di lavoro, impostati per caricare i file per aggiornare il database. Una volta configurate, queste vengono rese disponibili agli utenti con una vista semplificata sotto **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
 
-   Per ulteriori informazioni sui modelli di dati di importazione, consulta [documentazione dedicata](../../automating/using/importing-data-with-import-templates.md).
+  Per ulteriori informazioni sui modelli di dati di importazione, consulta [documentazione dedicata](../../automating/using/importing-data-with-import-templates.md).
 
 ## Raccolta di dati dalle pagine di destinazione {#collecting-data-from-landing-pages}
 

@@ -51,14 +51,15 @@ Nel contesto specifico di un test A/B:
    * **[!UICONTROL Winning strategy]**: seleziona il criterio da utilizzare per determinare la variante vincente.
    * **[!UICONTROL Target breakdown]**: scegli quale percentuale del target riceverà ogni variante. La percentuale rimanente riceverà la variante vincente una volta determinata. I profili di destinazione vengono selezionati in modo casuale.
 
-      >[!NOTE]
-      >
-      >Se la popolazione totale è inferiore a 50k, ogni variante deve rappresentare almeno il 10% della popolazione totale.
+     >[!NOTE]
+     >
+     >Se la popolazione totale è inferiore a 50k, ogni variante deve rappresentare almeno il 10% della popolazione totale.
 
    * **[!UICONTROL Winner sending method]**: scegli se desideri che la variante vincente sia inviata automaticamente una volta determinata o se desideri confermare manualmente l’invio alla popolazione rimanente.
    * **[!UICONTROL Test duration]**: specifica la durata del test. La variante vincente viene determinata automaticamente dopo tale durata. Puoi scegliere manualmente la variante vincente prima della fine del test dal dashboard e-mail.
 
-      Il test deve essere di almeno un’ora affinché tutti i dati di tracciamento siano raccolti e presi in considerazione correttamente per selezionare la variante vincente.
+     Il test deve essere di almeno un’ora affinché tutti i dati di tracciamento siano raccolti e presi in considerazione correttamente per selezionare la variante vincente.
+
    ![](assets/ab_parameters.png)
 
 1. Una volta definiti i parametri del test A/B, passa al passaggio successivo nella procedura guidata e definisci il contenuto dell’e-mail. A seconda del modello scelto, puoi definire diversi oggetti, diversi nomi di mittenti o diversi contenuti differenti. Utilizza il carosello per navigare tra le diverse varianti dell’elemento. Per ulteriori informazioni, consulta la sezione [editor di contenuti](../../designing/using/designing-content-in-adobe-campaign.md).

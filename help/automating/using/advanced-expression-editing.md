@@ -30,7 +30,7 @@ Puoi modificare le espressioni per:
 
 * Definire una query tramite l’opzione **[!UICONTROL Advanced mode]** disponibile quando viene aggiunta una regola.
 
-   ![](assets/expression_editor_2.png)
+  ![](assets/expression_editor_2.png)
 
 * Modificare un’espressione in un flusso di lavoro. Ad esempio, per aggiungere dati aggiuntivi a un’attività.
 * Modificare una condizione di visibilità per definire la modalità di visualizzazione di un blocco nell’editor di contenuti HTML. In questo caso, l’espressione viene modificata in formato JavaScript e non offre l’utilizzo di funzioni avanzate come standard.
@@ -76,9 +76,9 @@ Le espressioni standard sono composte da una o più condizioni che rispettano i 
    * **&lt;operatore di confronto>** è uno degli operatori elencati nella sezione [Operatori di confronto](../../automating/using/advanced-expression-editing.md#comparison-operators). Questo operatore definisce il metodo di confronto tra **&lt;valore1>** e **&lt;valore2>**.
    * **&lt;valore2>** è un campo, una funzione o un valore immesso manualmente.
 
-   >[!NOTE]
-   >
-   >I dati del tipo **&lt;valore1>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;valore1>** è una data, anche **&lt;valore2>** deve essere una data.
+  >[!NOTE]
+  >
+  >I dati del tipo **&lt;valore1>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;valore1>** è una data, anche **&lt;valore2>** deve essere una data.
 
 * Se desideri utilizzare diverse condizioni, puoi combinarle utilizzando operatori logici.
 
@@ -105,8 +105,9 @@ Le espressioni JavaScript sono composte da una o più condizioni e utilizzano i 
    * **&lt;operatore di confronto>** è uno degli operatori elencati nella sezione [Operatori di confronto](../../automating/using/advanced-expression-editing.md#comparison-operators). Questo operatore definisce il metodo di confronto tra **&lt;contesto>** e **&lt;valore2>**.
    * **&lt;valore2>** è un campo, una funzione o un valore immesso manualmente.
 
-   >[!NOTE]
-   I dati del tipo **&lt;contesto>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;contesto>** è una data, anche **&lt;valore2>** deve essere una data.
+  >[!NOTE]
+  >
+  I dati del tipo **&lt;contesto>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;contesto>** è una data, anche **&lt;valore2>** deve essere una data.
 
 * Se desideri utilizzare diverse condizioni, puoi combinarle utilizzando operatori logici.
 

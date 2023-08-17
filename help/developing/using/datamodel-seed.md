@@ -159,7 +159,7 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>pushNotification</td>
-                  <td>notifica push</td>
+                  <td>Notifica push</td>
                   <td>stringa (255)</td>
                   <td> </td>
                </tr>

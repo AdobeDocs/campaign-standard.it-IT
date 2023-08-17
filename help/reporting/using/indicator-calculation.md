@@ -42,7 +42,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Elenco Bloccati Il<br /> </td> 
+   <td> Inserire nell'elenco Bloccati Il<br /> </td> 
    <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
@@ -257,7 +257,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
   </tr> 
   <tr> 
    <td> Apri<br /> </td> 
-   <td> @aperture<br /> </td> 
+   <td> @opens<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 

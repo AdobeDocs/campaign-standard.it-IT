@@ -74,7 +74,7 @@ Per ulteriori informazioni sulle best practice per la raccolta di dati dai clien
 
 ### Gestione della quarantena
 
-Adobe Campaign gestisce un elenco che raccoglie i reclami e i mancati recapiti non permanenti, nonché i mancati recapiti non permanenti che si verificano in modo coerente.
+Adobe Campaign gestisce un elenco che raccoglie i reclami e i mancati recapiti non recapitati di posta indesiderata, i mancati recapiti permanenti e i mancati recapiti non permanenti che si verificano in modo coerente.
 
 Per proteggere il recapito messaggi, i destinatari i cui indirizzi sono in tale elenco sono esclusi per impostazione predefinita da tutte le consegne future, perché l’invio a questi contatti potrebbe danneggiare la reputazione del mittente.
 
@@ -95,8 +95,7 @@ Adobe Campaign consente di controllare le prestazioni delle consegne tramite una
 Per ulteriori informazioni, consulta le sezioni seguenti:
 
 * [Monitoraggio del recapito messaggi](../../sending/using/monitor-deliverability.md)
-
-   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+  <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Ricezione degli avvisi in caso di errori](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapporti dinamici](../../reporting/using/about-dynamic-reports.md)
 

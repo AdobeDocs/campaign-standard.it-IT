@@ -51,17 +51,17 @@ Per tenere traccia dei clic, è necessario implementare due scenari:
 
 * L’utente visualizza la notifica ma la cancella.
 
-   Per tenere traccia dei clic in caso di scenario di chiusura, aggiungi il destinatario della trasmissione `NotificationDismissalHandler` nel file AndroidManifest del modulo applicativo.
+  Per tenere traccia dei clic in caso di scenario di chiusura, aggiungi il destinatario della trasmissione `NotificationDismissalHandler` nel file AndroidManifest del modulo applicativo.
 
-   ```
-   <receiver
-   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
-   </receiver>
-   ```
+  ```
+  <receiver
+  android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+  </receiver>
+  ```
 
 * L’utente visualizza la notifica e fa clic su di essa; si apre il tracciamento.
 
-   Questo scenario dovrebbe produrre un clic e un messaggio aperto. Il tracciamento di questo clic farà parte dell’implementazione necessaria per tracciare l’apertura. Consulta [Implementazione del tracciamento aperto](#implement-open-tracking).
+  Questo scenario dovrebbe produrre un clic e un messaggio aperto. Il tracciamento di questo clic farà parte dell’implementazione necessaria per tracciare l’apertura. Consulta [Implementazione del tracciamento aperto](#implement-open-tracking).
 
 ### Per iOS {#implement-click-tracking-ios}
 

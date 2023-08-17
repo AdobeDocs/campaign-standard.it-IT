@@ -12,7 +12,7 @@ exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -42,7 +42,7 @@ Puoi consegnare a destinatari memorizzati in un file esterno anziché salvati ne
 
 ## Invia ai tuoi abbonati {#send-to-subscribers}
 
-Per inviare messaggi agli abbonati di una newsletter, puoi indirizzare direttamente questi ultimi al servizio di informazioni corrispondente. Ulteriori informazioni [in questa sezione](../../audiences/using/about-subscriptions.md).
+Per inviare messaggi agli abbonati di una newsletter, puoi indirizzare direttamente questi ultimi al servizio di informazioni corrispondente. Per ulteriori informazioni, consulta [questa sezione](../../audiences/using/about-subscriptions.md).
 
 **Suggerimento** : puoi creare un pubblico di tipo List che rivolge gli abbonati alla newsletter utilizzando un flusso di lavoro. Puoi quindi selezionare questo pubblico in una consegna. Per ulteriori informazioni, consulta [Creazione di tipi di pubblico di tipo list](../../audiences/using/creating-audiences.md#creating-list-audiences).
 

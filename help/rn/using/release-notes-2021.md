@@ -346,7 +346,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * La data di validità dei messaggi SMS transazionali ora può essere definita dal valore impostato per il parametro di scadenza nell’API per messaggi transazionali. (CAMP-36600)
 
-* Nella funzione di reporting dinamico, il rapporto integrato **Delivery summary** mostrava dati non corretti per la metrica del tasso di disiscrizione. Per risolvere il problema è stata aggiunta la nuova metrica **Unique unsubscription**. (CAMP-46445)
+* Nella funzione di reporting dinamico, il rapporto integrato **Riepilogo della consegna** mostrava dati non corretti per la metrica del tasso di annullamento dell’iscrizione. Per risolvere il problema è stata aggiunta la nuova metrica **Unique unsubscription**. (CAMP-46445)
 
 **Patch**
 
@@ -358,9 +358,9 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * È stato risolto un problema che causava un errore nell’analisi della consegna durante l’invio di un messaggio push transazionale con targeting di profilo, introducendo una nuova [mappatura del target](../../administration/using/target-mappings-in-campaign.md): **Profilo - Evento real-time per push** (*mapRtEventAppSubRcp*). I registri di consegna, esclusione e tracciamento per le [notifiche push transazionali con targeting di profilo](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) verranno ora memorizzati nelle tabelle *broadLogAppSubRcp*, *excludeLogAppSubRcp* e *trackingLogAppSubRcp*.
 
-   >[!IMPORTANT]
-   >
-   >A causa di questa modifica, se utilizzi una notifica push transazionale basata su profilo esistente (creata prima dell’aggiornamento ad Adobe Campaign 21.1), ti consigliamo di aggiornare la mappatura di destinazione a quella nuova e pubblicare nuovamente il messaggio. Consulta i [passaggi dettagliati](../../channels/using/transactional-push-notifications.md#change-target-mapping). L’utilizzo della mappatura di destinazione precedente **Profilo - Evento in tempo reale** (*mapRtEventRcp*) può comportare tempi di preparazione più lunghi e deterioramento delle prestazioni.
+  >[!IMPORTANT]
+  >
+  >A causa di questa modifica, se utilizzi una notifica push transazionale basata su profilo esistente (creata prima dell’aggiornamento ad Adobe Campaign 21.1), ti consigliamo di aggiornare la mappatura di destinazione a quella nuova e pubblicare nuovamente il messaggio. Consulta i [passaggi dettagliati](../../channels/using/transactional-push-notifications.md#change-target-mapping). L’utilizzo della mappatura di destinazione precedente **Profilo - Evento in tempo reale** (*mapRtEventRcp*) può comportare tempi di preparazione più lunghi e deterioramento delle prestazioni.
 
 * È stato risolto un problema che impediva l’esecuzione dei rapporti di consegna quando venivano visualizzate 5000 righe.
 * È stato risolto un problema relativo al test A/B che impediva l’aggiornamento del contenuto della variante B dopo una modifica del modello di consegna. (CAMP-45235)

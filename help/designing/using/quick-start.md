@@ -78,7 +78,7 @@ Puoi aggiungere diversi componenti di contenuto all’e-mail, ad esempio immagin
    1. Clic **Sfoglia**.
    1. Selezionare il file di immagine dal computer.
 
-   ![](assets/browse-image-quick-start.png)
+  ![](assets/browse-image-quick-start.png)
 
 * **Testo con personalizzazione**
 
@@ -87,7 +87,7 @@ Puoi aggiungere diversi componenti di contenuto all’e-mail, ad esempio immagin
    1. Per aggiungere un campo di personalizzazione, fai clic su **Inserisci campo di personalizzazione** nella barra degli strumenti.
    1. Selezionare il campo desiderato, ad esempio Nome.
 
-   ![](assets/edit-text-quick-start.png)
+  ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
@@ -96,11 +96,11 @@ Puoi aggiungere diversi componenti di contenuto all’e-mail, ad esempio immagin
    1. Inserisci il contenuto di HTML.
    1. Fai clic su **Salva**.
 
-   ![](assets/html-component-source-code.png)
+  ![](assets/html-component-source-code.png)
 
-   Se si ha familiarità con HTML, è possibile copiare e incollare il codice HTML dal piè di pagina originale utilizzando **[!UICONTROL Html]** componente contenuto. Per ulteriori informazioni, consulta [Informazioni sui componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
+  Se si ha familiarità con HTML, è possibile copiare e incollare il codice HTML dal piè di pagina originale utilizzando **[!UICONTROL Html]** componente contenuto. Per ulteriori informazioni, consulta [Informazioni sui componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
 
-   ![](assets/des_loading_compatible_fragment_9.png)
+  ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Personalizzazione dello stile del componente e-mail
 

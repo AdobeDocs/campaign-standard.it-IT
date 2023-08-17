@@ -35,16 +35,16 @@ Puoi inserire un collegamento in qualsiasi elemento della pagina: immagine, paro
 
    * **Collegamento esterno**: inserisci un collegamento a un URL esterno.
 
-      Puoi definire la personalizzazione per i tuoi URL. Consulta [Personalizzazione degli URL](personalization.md#personalizing-urls).
+     Puoi definire la personalizzazione per i tuoi URL. Consulta [Personalizzazione degli URL](personalization.md#personalizing-urls).
 
    * **Pagina di destinazione**: consente di accedere a una pagina di destinazione di Adobe Campaign.
    * **Collegamento di abbonamento**: inserisci un collegamento per abbonarti a un servizio Adobe Campaign.
    * **Collegamento per annullare l’iscrizione**: inserisci un collegamento per annullare l’abbonamento a un servizio Adobe Campaign.
    * **Collegamento che definisce un’azione**: definisci un’azione quando si fa clic su un elemento nella pagina di destinazione.
 
-      >[!NOTE]
-      >
-      >Questo tipo di collegamento è disponibile solo per le pagine di destinazione.
+     >[!NOTE]
+     >
+     >Questo tipo di collegamento è disponibile solo per le pagine di destinazione.
 
 1. Puoi modificare il testo visualizzato al destinatario.
 1. Puoi impostare il comportamento del browser quando l’utente fa clic sul collegamento (ad esempio, per aprire una nuova finestra).

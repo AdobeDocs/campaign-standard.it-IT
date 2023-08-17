@@ -42,11 +42,12 @@ Il flusso di lavoro viene presentato come segue:
    * Due aggregati basati sulla raccolta delle transazioni: il numero dei prodotti acquistati e l’importo totale speso. Puoi aggiungerli dalla scheda **[!UICONTROL Data]** della finestra di configurazione dell’aggregato utilizzando gli aggregati **Count** e **Sum**. Consulta la sezione [Aggiunta di un aggregato](../../automating/using/query.md#adding-an-aggregate).
    * Una raccolta che restituisce l’importo speso, la data e il prodotto dell’ultima transazione effettuata.
 
-      A questo scopo, devi aggiungere i diversi campi da visualizzare dalla scheda **[!UICONTROL Data]** della finestra di configurazione della raccolta.
+     A questo scopo, devi aggiungere i diversi campi da visualizzare dalla scheda **[!UICONTROL Data]** della finestra di configurazione della raccolta.
 
-      Per restituire solo la transazione più recente, devi immettere &quot;1&quot; per il **[!UICONTROL Number of lines to return]** e dalla scheda **[!UICONTROL Sort]** applicare un ordinamento decrescente nel campo **Date** della raccolta.
+     Per restituire solo la transazione più recente, devi immettere &quot;1&quot; per il **[!UICONTROL Number of lines to return]** e dalla scheda **[!UICONTROL Sort]** applicare un ordinamento decrescente nel campo **Date** della raccolta.
 
-      Consulta le sezioni [Aggiunta di una raccolta](../../automating/using/query.md#adding-a-collection) e [Ordinamento dei dati aggiuntivi](../../automating/using/query.md#sorting-additional-data).
+     Consulta le sezioni [Aggiunta di una raccolta](../../automating/using/query.md#adding-a-collection) e [Ordinamento dei dati aggiuntivi](../../automating/using/query.md#sorting-additional-data).
+
    ![](assets/enrichment_example4.png)
 
 1. Se desideri verificare che i dati siano correttamente trasferiti dalla transizione in uscita dell’attività, avvia il flusso di lavoro per la prima volta (senza l’attività **[!UICONTROL Email delivery]**) e apri la transizione in uscita della query.

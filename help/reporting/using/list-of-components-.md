@@ -11,7 +11,7 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -132,7 +132,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
  </tbody> 
 </table>
 
-## Parametri {#metrics}
+## Metriche {#metrics}
 
 Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti e le relative definizioni a seconda del tipo di consegna.
 
@@ -147,7 +147,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </thead> 
  <tbody> 
   <tr> 
-   <td> Elenco Bloccati Il<br /> </td> 
+   <td> Inserire nell'elenco Bloccati Il<br /> </td> 
    <td> Numero di destinatari che hanno dichiarato un’e-mail come spam o posta indesiderata.<br /> </td> 
   </tr> 
   <tr> 
@@ -156,7 +156,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Mancati recapiti + errori<br /> </td> 
-   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br /> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mancato recapito + Frequenza errori<br /> </td> 

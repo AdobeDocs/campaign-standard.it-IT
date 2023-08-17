@@ -102,7 +102,7 @@ La tabella seguente descrive tali identificatori e il loro scopo.
 
 ### Chiavi di identificazione {#keys}
 
-Ogni risorsa creata in Adobe Campaign deve avere almeno una univoca [chiave di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+Ogni risorsa creata in Adobe Campaign deve avere almeno una [chiave di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 

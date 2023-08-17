@@ -105,17 +105,17 @@ Per utilizzare in modo appropriato E-mail designer e creare le e-mail migliori n
 
 * Utilizza lo stile in linea anziché CSS e CSS separati nella sezione &lt;head> dell’HTML. Utilizzando lo stile in linea, è possibile ottimizzare il salvataggio e il riutilizzo dei frammenti di contenuto.
 
-   Consulta [Aggiunta di attributi di stile in linea](../../designing/using/styles.md#adding-inline-styling-attributes).
+  Consulta [Aggiunta di attributi di stile in linea](../../designing/using/styles.md#adding-inline-styling-attributes).
 
 * Se importi dei file ZIP contenenti contenuto HTML, utilizza i normali CSS. I fogli di stile SCSS non sono supportati.
 
 * Puoi impostare facilmente il tuo marchio creando e riutilizzando frammenti di contenuto per mantenere la coerenza tra le campagne di marketing.
 
-   Consulta [Creazione di un frammento di contenuto](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+  Consulta [Creazione di un frammento di contenuto](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
 * Durante la modifica del **contenuto e-mail**:
 
-   Visualizza l’anteprima dei messaggi prima di inviarli.  Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consulta [Rendering e-mail](../../sending/using/email-rendering.md).
+  Visualizza l’anteprima dei messaggi prima di inviarli.  Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consulta [Rendering e-mail](../../sending/using/email-rendering.md).
 
 * Il metatag del referente non è supportato in E-mail designer.
 

@@ -1,5 +1,5 @@
 ---
-title: Abbonamenti annullati
+title: Iscrizioni annullate
 description: Con il rapporto preconfigurato Unsubscriptions (Annullamenti abbonamenti), scopri quante volte i clienti hanno annullato l’abbonamento alle consegne.
 audience: reporting
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 ---
 
-# Abbonamenti annullati{#unsubscriptions}
+# Iscrizioni annullate{#unsubscriptions}
 
 Il rapporto **[!UICONTROL Unsubscriptions]** individua le consegne associate al maggior numero di annullamenti di abbonamenti.
 

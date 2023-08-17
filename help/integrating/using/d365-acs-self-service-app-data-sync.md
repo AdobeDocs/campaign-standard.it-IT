@@ -22,6 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >È necessario interrompere/avviare il **[!UICONTROL Microsoft Dynamics 365 to Campaign]** affinché le modifiche vengano prese in considerazione. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>
 
 ## Mappare le tabelle da Microsoft Dynamics 365 a Campaign
 
@@ -43,19 +44,19 @@ Segue una descrizione di ciascuna delle colonne della tabella:
 
    * Fai clic su **[!UICONTROL Replay Data]** per risincronizzare tutti i dati nella tabella Microsoft Dynamics 365. Normalmente l’applicazione di integrazione sincronizzerà solo i dati in Microsoft Dynamics 365 che sono stati modificati di recente.  Tuttavia, in alcuni casi (ad esempio, se hai apportato una modifica o commesso un errore) potresti voler risincronizzare tutti i dati.  In questi casi, fare clic su questo pulsante e, la volta successiva che si arresta/avvia il **[!UICONTROL Microsoft Dynamics 365 to Campaign]** flusso di lavoro, i dati inizierebbero a essere sincronizzati.
 
-      Se si fa clic sul pulsante **[!UICONTROL Replay Data]** e i controlli hanno esito positivo, l’icona si disabilita: indica che i dati per questa coppia di mappatura tabella saranno risincronizzati con l’esecuzione successiva della **[!UICONTROL Microsoft Dynamics 365 to Campaign]** flusso di lavoro.
+     Se si fa clic sul pulsante **[!UICONTROL Replay Data]** e i controlli hanno esito positivo, l’icona si disabilita: indica che i dati per questa coppia di mappatura tabella saranno risincronizzati con l’esecuzione successiva della **[!UICONTROL Microsoft Dynamics 365 to Campaign]** flusso di lavoro.
 
-      Non è possibile scegliere di riprodurre nuovamente i dati quando si verificano le condizioni seguenti:
+     Non è possibile scegliere di riprodurre nuovamente i dati quando si verificano le condizioni seguenti:
 
       * Se la metrica Backlog è associata a 2.000.000 (o più) elementi, **[!UICONTROL Microsoft Dynamics 365 to Campaign]** flusso di lavoro (visualizzato nella **[!UICONTROL Workflows]** page)
       * Se nella tabella Microsoft Dynamics 365 sono presenti almeno 2.000.000 record
 
-      Il numero di record da risincronizzare varia. Se il numero di record è elevato, il completamento del processo di sincronizzazione potrebbe richiedere del tempo. Consulta la sezione **[!UICONTROL Backlog]** metrica in **[!UICONTROL Workflows]** come l’applicazione di integrazione lavora per completare il processo di sincronizzazione.
+     Il numero di record da risincronizzare varia. Se il numero di record è elevato, il completamento del processo di sincronizzazione potrebbe richiedere del tempo. Consulta la sezione **[!UICONTROL Backlog]** metrica in **[!UICONTROL Workflows]** come l’applicazione di integrazione lavora per completare il processo di sincronizzazione.
 
-      >[!IMPORTANT]
-      >
-      > Si consiglia vivamente di arrestare il flusso di lavoro di integrazione quando si pubblicano modifiche su Adobe Campaign Standard o Microsoft Dynamics 365. Le modifiche applicabili includono: aggiornamenti a risorse/entità (e ai relativi campi associati), collegamenti, colonne di identificatori e così via. attualmente in uso dall’integrazione.
-
+     >[!IMPORTANT]
+     >
+     > Si consiglia vivamente di arrestare il flusso di lavoro di integrazione quando si pubblicano modifiche su Adobe Campaign Standard o Microsoft Dynamics 365. Le modifiche applicabili includono: aggiornamenti a risorse/entità (e ai relativi campi associati), collegamenti, colonne di identificatori e così via. attualmente in uso dall’integrazione.
+     >
 
 ## Crea una nuova mappatura {#add-a-new-mapping}
 
@@ -137,6 +138,7 @@ Il **[!UICONTROL Apply updates]** Il selettore consente di controllare se gli ag
 >[!NOTE]
 >
 >Fai clic sul pulsante **[!UICONTROL Apply updates]** intestazione di colonna da aggiornare **tutto** degli interruttori su on o off.
+>
 
 Quando si selezionano i valori dei campi, sotto i menu a discesa viene visualizzato il tipo di dati.   È un aspetto da tenere presente quando si mappano i valori da un campo all’altro.
 
@@ -175,6 +177,7 @@ Opzione **[!UICONTROL Do you want to delete records in Adobe Campaign Standard t
 >[!NOTE]
 >
 > Se non vengono aggiunti filtri, tutti i record modificati verranno propagati ad Adobe Campaign.
+>
 
 ### Impostazioni avanzate {#advanced-settings}
 

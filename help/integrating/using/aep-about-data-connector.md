@@ -41,7 +41,6 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 >* [Abilitare un set di dati per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [Configurare un set di dati per Real-time Customer Profile e Identity Service tramite API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
-
 ## Concetti chiave {#key-concepts}
 
 * La mappatura out-of-the-box è disponibile solo per i campi forniti in Campaign Standard per impostazione predefinita. Per acquisire tutti i campi e le risorse personalizzati, ogni cliente deve definire la propria mappatura.
@@ -60,11 +59,11 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 
 * Experience Cloud ID Service (ECID) è un identificatore di dispositivo che viene inviato per impostazione predefinita con Experience Events.
 
-   Si tratta di un ID univoco e permanente assegnato a un visitatore, che può essere utilizzato dal servizio Platform Identity per identificare lo stesso visitatore e i relativi dati in diverse soluzioni di Experience Cloud. Per ulteriori informazioni, consulta [Guida del servizio Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+  Si tratta di un ID univoco e permanente assegnato a un visitatore, che può essere utilizzato dal servizio Platform Identity per identificare lo stesso visitatore e i relativi dati in diverse soluzioni di Experience Cloud. Per ulteriori informazioni, consulta [Guida del servizio Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
-   >[!NOTE]
-   >
-   >Tieni presente che, se due o più profili condividono lo stesso dispositivo, l’ECID sarebbe lo stesso per questi due profili nel servizio Unified Identity.
+  >[!NOTE]
+  >
+  >Tieni presente che, se due o più profili condividono lo stesso dispositivo, l’ECID sarebbe lo stesso per questi due profili nel servizio Unified Identity.
 
 ## Limitazioni {#limitations}
 

@@ -41,9 +41,9 @@ Per definire il nome del mittente che verrà visualizzato nell’intestazione de
 
 * Il **[!UICONTROL From: name]** consente di immettere il nome del mittente. Per impostazione predefinita, il valore predefinito **Nome mittente** viene immesso automaticamente nel campo. L’indirizzo e-mail del mittente predefinito e il nome del mittente sono definiti in **[!UICONTROL Brands]** accessibile tramite il logo Adobe Campaign nel menu avanzato **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   Puoi modificare il nome del mittente facendo clic sul pulsante **Nome mittente** blocco. Il campo diventa quindi modificabile e puoi immettere il nome che desideri utilizzare.
+  Puoi modificare il nome del mittente facendo clic sul pulsante **Nome mittente** blocco. Il campo diventa quindi modificabile e puoi immettere il nome che desideri utilizzare.
 
-   Questo campo può essere personalizzato. A questo scopo, puoi aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici facendo clic sulle icone sotto il nome del mittente. Per ulteriori informazioni, consulta [Personalizzazione](../../designing/using/personalization.md).
+  Questo campo può essere personalizzato. A questo scopo, puoi aggiungere campi di personalizzazione, blocchi di contenuto e contenuti dinamici facendo clic sulle icone sotto il nome del mittente. Per ulteriori informazioni, consulta [Personalizzazione](../../designing/using/personalization.md).
 
 * Il **[!UICONTROL From: email address]** non può essere modificato da questa sezione. Puoi modificarlo modificando le proprietà dell’e-mail dal dashboard. Per ulteriori informazioni, consulta [Elenco dei parametri avanzati delle e-mail](../../administration/using/configuring-email-channel.md#advanced-parameters).
 

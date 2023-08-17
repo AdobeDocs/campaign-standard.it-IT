@@ -33,117 +33,117 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 * Richiesta di GET di esempio per la raccolta di profili.
 
 
-   ```
-   $curl  
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  $curl  
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Restituisce un array di profili.
+  Restituisce un array di profili.
 
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "Olivia",
-               "lastName": "Varney",
-               "birthDate": "1977-09-°4",
-               "email": "o.varney@mail.com",
-           },
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName": "Doe",
-               "birthDate": "1985-08-17",
-               "email": "johndoe@mail.com",
-           }
-       ],
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "Olivia",
+              "lastName": "Varney",
+              "birthDate": "1977-09-°4",
+              "email": "o.varney@mail.com",
+          },
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName": "Doe",
+              "birthDate": "1985-08-17",
+              "email": "johndoe@mail.com",
+          }
+      ],
+  }
+  ```
 
 * Richiesta di GET di esempio per un profilo specifico.
 
 
-   ```
-   $curl  
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  $curl  
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Restituisce il profilo richiesto.
+  Restituisce il profilo richiesto.
 
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "firstName": "John",
-       "lastName": "Doe",
-       "birthDate": "1985-08-17",
-       "email": "johndoe@mail.com",
-       ...
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1985-08-17",
+      "email": "johndoe@mail.com",
+      ...
+  }
+  ```
 
 * Richiesta POST di esempio per la creazione di un profilo.
 
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -d '{"lastName":"Doe"}'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -d '{"lastName":"Doe"}'
+  ```
 
-   Restituisce il profilo con i campi predefiniti.
+  Restituisce il profilo con i campi predefiniti.
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "firstName": "John",
-       "lastName": "Doe",
-       "birthDate": "1985-08-17",
-       "email": "johndoe@mail.com",
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1985-08-17",
+      "email": "johndoe@mail.com",
+  }
+  ```
 
 * Richiesta di esempio di PATCH per aggiornare un profilo.
 
-   ```
-   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -d '{"firstName":"Mark"',"lastName":"Smith"}'
-   ```
+  ```
+  -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -d '{"firstName":"Mark"',"lastName":"Smith"}'
+  ```
 
-   Restituisce la PKEY e l’URL per recuperare il profilo aggiornato.
+  Restituisce la PKEY e l’URL per recuperare il profilo aggiornato.
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
+  }
+  ```
 
 * Richiesta di esempio di DELETE per eliminare un profilo.
 
-   ```
-   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   La richiesta restituisce una risposta 200, che conferma l’eliminazione del profilo.
+  La richiesta restituisce una risposta 200, che conferma l’eliminazione del profilo.

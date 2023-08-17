@@ -26,43 +26,43 @@ Il flusso di lavoro viene presentato come segue:
 
 * A [Carica file](../../automating/using/load-file.md) l’attività carica il file dei profili e definisce la struttura delle colonne importate.
 
-   Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
+  Per questo esempio, il file caricato è in formato .csv e contiene i seguenti dati:
 
-   ```
-   lastname;firstname;email;birthdate;service;operation
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
-   phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
-   weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
-   reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
-   ```
+  ```
+  lastname;firstname;email;birthdate;service;operation
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
+  phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
+  weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
+  reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
+  ```
 
-   ![](assets/subscription_example_load_file.png)
+  ![](assets/subscription_example_load_file.png)
 
-   Come avrai notato, l’operazione è specificata nel file come &quot;sub&quot; o &quot;non sub&quot;. Il sistema richiede un **valore booleano** o un **numero intero** per riconoscere l’operazione da eseguire: &quot;0&quot; per annullare l’abbonamento e &quot;1&quot; per effettuare l’abbonamento. Per soddisfare questo requisito, viene eseguito una nuova mappatura dei valori nel dettaglio della colonna &quot;operazione&quot;.
+  Come avrai notato, l’operazione è specificata nel file come &quot;sub&quot; o &quot;non sub&quot;. Il sistema richiede un **valore booleano** o un **numero intero** per riconoscere l’operazione da eseguire: &quot;0&quot; per annullare l’abbonamento e &quot;1&quot; per effettuare l’abbonamento. Per soddisfare questo requisito, viene eseguito una nuova mappatura dei valori nel dettaglio della colonna &quot;operazione&quot;.
 
-   ![](assets/subscription_example_remapping.png)
+  ![](assets/subscription_example_remapping.png)
 
-   Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l’operazione, non devi ripetere la mappatura di tali valori. Assicurati solo che la colonna sia elaborata come un **valore booleano** o un **numero intero** nella scheda **[!UICONTROL Column definition]**.
+  Se il file utilizza già &quot;0&quot; e &quot;1&quot; per identificare l’operazione, non devi ripetere la mappatura di tali valori. Assicurati solo che la colonna sia elaborata come un **valore booleano** o un **numero intero** nella scheda **[!UICONTROL Column definition]**.
 
 * A [Reconciliation](../../automating/using/reconciliation.md) l’attività identifica i dati del file come appartenenti alla dimensione di profilo del database di Adobe Campaign. Tramite la scheda **[!UICONTROL Identification]**, il campo **e-mail** del file viene fatto corrisponde al campo **e-mail** della risorsa del profilo.
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
-   Nella scheda **[!UICONTROL Relations]**, viene creato un collegamento con la risorsa del servizio per consentire il riconoscimento del campo **service** del file. In questo esempio, i valori corrispondono al campo **name** della risorsa del servizio.
+  Nella scheda **[!UICONTROL Relations]**, viene creato un collegamento con la risorsa del servizio per consentire il riconoscimento del campo **service** del file. In questo esempio, i valori corrispondono al campo **name** della risorsa del servizio.
 
-   ![](assets/subscription_example_service_relation.png)
+  ![](assets/subscription_example_service_relation.png)
 
 * A [Deduplicazione](../../automating/using/deduplication.md) in base al **email** campo della risorsa temporanea (derivante dalla riconciliazione) identifica i duplicati. È importante eliminare i duplicati poiché l’abbonamento a un servizio non riuscirà per tutti i dati in caso di duplicati.
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * A [Subscription Services](../../automating/using/subscription-services.md) L’attività identifica i servizi da aggiornare come provenienti dalla transizione, attraverso il collegamento creato in **[!UICONTROL Reconciliation]** attività.
 
-   Il **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l’operazione da eseguire non viene visualizzata nell’elenco, accertati di aver impostato correttamente il formato della colonna nell’attività **[!UICONTROL Load file]**, come spiegato in precedenza in questo esempio.
+  Il **[!UICONTROL Operation type]** viene identificato come proveniente dal campo **operation** del file. Qui è possibile selezionare solo campi con un valore booleano o un numero intero. Se la colonna del file che contiene l’operazione da eseguire non viene visualizzata nell’elenco, accertati di aver impostato correttamente il formato della colonna nell’attività **[!UICONTROL Load file]**, come spiegato in precedenza in questo esempio.
 
-   ![](assets/subscription_activity_example_from_file.png)
+  ![](assets/subscription_activity_example_from_file.png)

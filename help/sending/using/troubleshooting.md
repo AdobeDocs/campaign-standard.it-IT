@@ -38,13 +38,14 @@ Se il problema persiste, contatta il servizio commerciale, il servizio di conseg
    * Stato **[!UICONTROL On denylist]** è il risultato di un [ciclo di feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (quando una persona segnala un messaggio come spam).
 
    * Stato **[!UICONTROL Quarantined]** è il risultato di un mancato recapito morbido o permanente.
-   Per ulteriori informazioni, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
+
+  Per ulteriori informazioni, consulta questa [sezione](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **Cosa significano i diversi motivi di errore di quarantena?**
 
-   Ecco 10 possibili motivi: non definito, utente sconosciuto, dominio non valido, indirizzo in fase di inserisco nell&#39;elenco Bloccati, rifiutato, errore ignorato, non raggiungibile, account disabilitato, cassetta postale piena, non connesso.
+  Ecco 10 possibili motivi: non definito, utente sconosciuto, dominio non valido, indirizzo in fase di inserisco nell&#39;elenco Bloccati, rifiutato, errore ignorato, non raggiungibile, account disabilitato, cassetta postale piena, non connesso.
 
-   Per ulteriori informazioni, consulta [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md).
+  Per ulteriori informazioni, consulta [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md).
 
 ## Rimozione dal inserisco nell&#39;elenco Bloccati {#removing-from-denylist}
 
@@ -56,16 +57,16 @@ Se il problema persiste, contatta il servizio commerciale, il servizio di conseg
 
 * **Come posso scoprire se uno dei miei IP è in inserito nell&#39;elenco Bloccati di? Come posso rimuovere gli IP da un inserisco nell&#39;elenco Bloccati di?**
 
-   Per verificare se l’indirizzo IP è in inserito nell&#39;elenco Bloccati, puoi utilizzare vari siti web, ad esempio:
+  Per verificare se l’indirizzo IP è in inserito nell&#39;elenco Bloccati, puoi utilizzare vari siti web, ad esempio:
    * [Casella degli strumenti MX](https://mxtoolbox.com/)
    * [Qual è il mio indirizzo IP](https://whatismyipaddress.com)
 
-   In genere, il risultato della verifica dell’indirizzo IP restituirà un elenco contenente i dettagli del inserisco nell&#39;elenco Bloccati di e anche il nome del sito web che ha bloccato l’indirizzo IP.
+  In genere, il risultato della verifica dell’indirizzo IP restituirà un elenco contenente i dettagli del inserisco nell&#39;elenco Bloccati di e anche il nome del sito web che ha bloccato l’indirizzo IP.
 
-   Facendo clic sul collegamento corrispondente, è possibile accedere ai dettagli del sito Web.
+  Facendo clic sul collegamento corrispondente, è possibile accedere ai dettagli del sito Web.
 
-   Quindi puoi richiedere che il tuo sito web venga cancellato dal sito web che ha aggiunto l’indirizzo IP al suo inserisco nell&#39;elenco Bloccati di.
+  Quindi puoi richiedere che il tuo sito web venga cancellato dal sito web che ha aggiunto l’indirizzo IP al suo inserisco nell&#39;elenco Bloccati di.
 
-   >[!NOTE]
-   >
-   >Il processo di cancellazione dall’elenco può variare a seconda del sito web. Alcuni siti richiedono la creazione di un account, mentre altri richiedono solo che tu fornisca l’indirizzo IP.
+  >[!NOTE]
+  >
+  >Il processo di cancellazione dall’elenco può variare a seconda del sito web. Alcuni siti richiedono la creazione di un account, mentre altri richiedono solo che tu fornisca l’indirizzo IP.

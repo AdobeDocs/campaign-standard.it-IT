@@ -46,6 +46,7 @@ Questa applicazione di integrazione legge prima i dati e quindi li scrive nella 
 
 >[!NOTE]
 >Se i record di Microsoft Dynamics 365 e/o Campaign non vengono aggiornati, è innanzitutto necessario verificare se è presente un numero elevato di record in attesa di essere scritti nella destinazione.
+>
 
 ## Stato del flusso di lavoro {#workflow-status}
 
@@ -64,7 +65,7 @@ Le azioni possibili sono elencate di seguito.
 
 * **Inizio**: un pulsante Start richiede l’avvio di un flusso di lavoro interrotto. Questo pulsante viene visualizzato solo quando i processi associati al flusso di lavoro sono attualmente interrotti. I processi passeranno prima a &quot;START&quot; (AVVIO) e poi a &quot;RUNNING&quot; (ESECUZIONE). I dati associati al flusso di lavoro non iniziano la sincronizzazione finché il flusso di lavoro non si trova nello stato &quot;IN ESECUZIONE&quot;.
 
-   Il pulsante di avvio è un interruttore. Se i processi del flusso di lavoro sono già stati avviati, il pulsante diventa **Interrompi** pulsante.
+  Il pulsante di avvio è un interruttore. Se i processi del flusso di lavoro sono già stati avviati, il pulsante diventa **Interrompi** pulsante.
 
 * **Interrompi**: A **Interrompi** richiede l&#39;interruzione di un flusso di lavoro in esecuzione. Questo pulsante viene visualizzato solo quando i processi associati al flusso di lavoro sono attualmente in esecuzione.
 

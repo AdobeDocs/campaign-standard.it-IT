@@ -57,13 +57,13 @@ Una consegna di esecuzione è un messaggio tecnico non actionable e non funziona
 
 * Ogni volta che viene eseguita o aggiornata una consegna ricorrente.
 
-   Ad esempio, se il flusso di lavoro che gestisce questa consegna viene eseguito una volta al mese, ci sarà una consegna di esecuzione al mese. Inoltre, ogni volta che il contenuto della consegna viene aggiornato, viene creata un’ulteriore consegna di esecuzione.
+  Ad esempio, se il flusso di lavoro che gestisce questa consegna viene eseguito una volta al mese, ci sarà una consegna di esecuzione al mese. Inoltre, ogni volta che il contenuto della consegna viene aggiornato, viene creata un’ulteriore consegna di esecuzione.
 
-   Per ulteriori informazioni sulle consegne ricorrenti di e-mail, consulta [Consegna e-mail](../../automating/using/email-delivery.md).
+  Per ulteriori informazioni sulle consegne ricorrenti di e-mail, consulta [Consegna e-mail](../../automating/using/email-delivery.md).
 
 * Per impostazione predefinita, una volta al mese per i messaggi transazionali e ogni volta che un messaggio transazionale viene modificato e pubblicato di nuovo.
 
-   Per ulteriori informazioni sui messaggi transazionali, consulta [Guida introduttiva alla messaggistica transazionale](../../channels/using/getting-started-with-transactional-msg.md).
+  Per ulteriori informazioni sui messaggi transazionali, consulta [Guida introduttiva alla messaggistica transazionale](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

@@ -30,14 +30,14 @@ Il flusso di lavoro è costituito dai seguenti elementi:
 * A [Query](../../automating/using/query.md) attività per eseguire il targeting dei profili di persone che hanno inserito il compleanno e l’indirizzo e-mail.
 * A [Segmentazione](../../automating/using/segmentation.md) attività per creare 3 segmenti divisi in diverse transizioni in uscita: 18-25 anni, 26-32 anni e profili che hanno più di 32 anni. I segmenti sono definiti in base ai seguenti parametri:
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * Un filtro sulla pagina per definire il gruppo di età del segmento
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * Un limite **[!UICONTROL Random sampling]** del tipo collegato a un **[!UICONTROL Maximum size]** di 100
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
 * Un [Consegna e-mail](../../automating/using/email-delivery.md) attività per segmento.

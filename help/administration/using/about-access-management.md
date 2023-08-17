@@ -20,7 +20,7 @@ Con Adobe Campaign puoi definire e gestire le autorizzazioni assegnate a utenti 
 * **Unità organizzative**: ti permettono di definire una gerarchia di autorizzazioni sui diversi oggetti della piattaforma (e-mail, flussi di lavoro, modelli, utenti, profili, ecc.). Consulta la sezione [Unità organizzative](../../administration/using/organizational-units.md).
 * **Ruoli**: un insieme di diritti unitari che ti consentono di definire le autorizzazioni assegnate a utenti e gruppi di utenti. Consulta la sezione [Elenco di ruoli](../../administration/using/list-of-roles.md).
 
-   Insieme alle unità organizzative, i ruoli forniscono agli utenti una visualizzazione filtrata dell’interfaccia e ne definiscono l’accesso alle diverse funzioni. Per ulteriori informazioni, consulta la [tabella Autorizzazioni](../../administration/using/list-of-roles.md).
+  Insieme alle unità organizzative, i ruoli forniscono agli utenti una visualizzazione filtrata dell’interfaccia e ne definiscono l’accesso alle diverse funzioni. Per ulteriori informazioni, consulta la [tabella Autorizzazioni](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >

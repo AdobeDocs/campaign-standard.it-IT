@@ -29,17 +29,17 @@ Le proprietà **[!UICONTROL Schedule]** ti permettono di impostare le opzioni di
 
 * **[!UICONTROL Messages to be sent once confirmed]**: i messaggi vengono inviati dopo la conferma dell’invio. Consulta [Conferma dell’invio](../../sending/using/confirming-the-send.md).
 
-   ![](assets/delivery_planning_1.png)
+  ![](assets/delivery_planning_1.png)
 
 * **[!UICONTROL Messages to be sent automatically on the date specified below]**: i messaggi vengono inviati in una data e in un’ora successive. Specifica la **data di contatto** nel campo **Start sending from**.
 
-   Puoi preparare e confermare l’invio, ma i messaggi vengono inviati solo a partire dalla data e ora selezionate. La preparazione e la conferma dell’invio sono presentate nelle sezioni [Preparazione dell’invio](../../sending/using/preparing-the-send.md) e [Conferma dell’invio](../../sending/using/confirming-the-send.md).
+  Puoi preparare e confermare l’invio, ma i messaggi vengono inviati solo a partire dalla data e ora selezionate. La preparazione e la conferma dell’invio sono presentate nelle sezioni [Preparazione dell’invio](../../sending/using/preparing-the-send.md) e [Conferma dell’invio](../../sending/using/confirming-the-send.md).
 
-   L’elenco a discesa **[!UICONTROL Time zone of the contact date]** ti consente di modificare il fuso orario da considerare per l’ora di invio. Ad esempio, se immetti le 9 nel campo **[!UICONTROL Start sending from]** e se selezioni Bruxelles, Copenaghen, Madrid, Parigi (GMT+1) nell’elenco a discesa **[!UICONTROL Time zone of the contact date]**, tutti i destinatari ricevono il messaggio alle 9 (ora di Parigi). Pertanto, un destinatario residente a Mosca (GMT+3) riceve il messaggio alle 11 ora di Mosca.
+  L’elenco a discesa **[!UICONTROL Time zone of the contact date]** ti consente di modificare il fuso orario da considerare per l’ora di invio. Ad esempio, se immetti le 9 nel campo **[!UICONTROL Start sending from]** e se selezioni Bruxelles, Copenaghen, Madrid, Parigi (GMT+1) nell’elenco a discesa **[!UICONTROL Time zone of the contact date]**, tutti i destinatari ricevono il messaggio alle 9 (ora di Parigi). Pertanto, un destinatario residente a Mosca (GMT+3) riceve il messaggio alle 11 ora di Mosca.
 
-   Se desideri confermare manualmente l’invio, seleziona l’opzione **[!UICONTROL Request confirmation before sending messages]**. Questa opzione è attivata per impostazione predefinita.
+  Se desideri confermare manualmente l’invio, seleziona l’opzione **[!UICONTROL Request confirmation before sending messages]**. Questa opzione è attivata per impostazione predefinita.
 
-   ![](assets/delivery_planning.png)
+  ![](assets/delivery_planning.png)
 
 >[!IMPORTANT]
 >

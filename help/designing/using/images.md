@@ -24,17 +24,17 @@ Puoi inserire immagini nelle e-mail e nelle pagine di destinazione.
 A seconda della configurazione, sono disponibili i seguenti tipi di immagini:
 
 * Immagini locali
-* Immagini condivise da Adobe Experience Cloud. Fare riferimento a [Utilizzo di Campaign e Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
-* Immagini dinamiche da Adobe Target. Fai riferimento a [Utilizzo di Campaign e Target](../../integrating/using/about-campaign-target-integration.md)
+* Immagini condivise da Adobe Experience Cloud - fare riferimento a [Utilizzo di Campaign con il servizio core Assets](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
+* Immagini dinamiche da Adobe Target - fare riferimento a [Utilizzo di Campaign e Target](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->Se scegli di aggiungere un&#39;immagine direttamente modificando la versione HTML dell&#39;e-mail, non devi richiamare **file esterni in un tag &lt;script>** della pagina HTML. Questi file non verranno importati sul server Adobe Campaign.
+>Se scegli di aggiungere direttamente un’immagine modificando la versione HTML dell’e-mail, non devi richiamare **file esterni in una &lt;script> tag** della pagina HTML. Questi file non verranno importati sul server Adobe Campaign.
 
 ### Inserimento di immagini in un messaggio e-mail {#inserting-images-in-an-email}
 
 1. Aggiungi un componente struttura. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. All&#39;interno di questo componente struttura, aggiungere un componente di contenuto **[!UICONTROL Image]**.
+1. All’interno di questo componente struttura, aggiungi un **[!UICONTROL Image]** componente contenuto.
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,13 +51,13 @@ A seconda della configurazione, sono disponibili i seguenti tipi di immagini:
 
 Quando selezioni un blocco che contiene un’immagine, nella palette vengono offerte le seguenti proprietà:
 
-* **Abilita personalizzazione** consente di personalizzare l&#39;origine dell&#39;immagine. Consulta [Personalizzazione di un&#39;origine immagine](../../designing/using/personalization.md#personalizing-an-image-source).
-* **Titolo immagine** consente di definire un titolo per l&#39;immagine.
-* **Testo alt** (e-mail) o **Didascalia** (pagina di destinazione) consente di definire la didascalia collegata all&#39;immagine (corrisponde all&#39;attributo HTML **alt**).
-* Durante la modifica di un&#39;e-mail, **Style** consente di specificare la dimensione dell&#39;immagine, lo sfondo e il bordo.
-* Quando modifichi una pagina di destinazione, **Dimension** ti consente di specificare la dimensione dell&#39;immagine in pixel.
+* **Abilita personalizzazione** consente di personalizzare l&#39;origine immagine. Consulta [Personalizzazione di un’origine immagine](../../designing/using/personalization.md#personalizing-an-image-source).
+* **Titolo immagine** consente di definire un titolo per l’immagine.
+* **Testo alternativo** (e-mail) oppure **Didascalia** (pagina di destinazione) consente di definire la didascalia collegata all’immagine (corrisponde al **Alt** HTML).
+* Durante la modifica di un’e-mail, **Stile** consente di specificare la dimensione dell&#39;immagine, lo sfondo e il bordo.
+* Durante la modifica di una pagina di destinazione, **Dimension** consente di specificare la dimensione dell’immagine in pixel.
 
-L&#39;editor consente di utilizzare **tutti i tipi di immagini** i cui formati sono compatibili con i browser. Per la compatibilità con l’editor, **Animazioni di tipo &quot;Flash&quot;** devono essere inserite in una pagina HTML come segue:
+L’editor ti consente di lavorare con **tutti i tipi di immagine** i cui formati sono compatibili con i browser. Per la compatibilità con l’editor, **Animazioni di tipo &quot;Flash&quot;** devono essere inserite in una pagina HTML come segue:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

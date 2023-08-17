@@ -11,7 +11,7 @@ exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '2583'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -169,7 +169,7 @@ La dimensione di targeting ti consente di definire in quale tipo di messaggio pu
 
 In effetti, quando modifichi un messaggio, puoi selezionare solo blocchi di contenuto con una dimensione di targeting compatibile con la dimensione di targeting del messaggio.
 
-Ad esempio, il **[!UICONTROL Unsubscription link]** la dimensione di targeting del blocco è **[!UICONTROL Profiles]** perché contiene campi di personalizzazione specifici per **[!UICONTROL Profiles]** risorsa. Pertanto, non è possibile utilizzare un’ **[!UICONTROL Unsubscription link]** blocco in un [messaggio transazionale di evento](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), perché la dimensione di targeting di quel tipo di messaggio è **[!UICONTROL Real-time events]**. Tuttavia, è possibile utilizzare **Collegamento per annullare l’iscrizione** blocco in un [messaggio transazionale di profilo](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), perché la dimensione di targeting di quel tipo di messaggio è **Profili**. Infine, la **[!UICONTROL Link to mirror page]** il blocco non ha una dimensione di targeting, pertanto puoi utilizzarlo in qualsiasi messaggio.
+Ad esempio, il **[!UICONTROL Unsubscription link]** la dimensione di targeting del blocco è **[!UICONTROL Profiles]** perché contiene campi di personalizzazione specifici del **[!UICONTROL Profiles]** risorsa. Pertanto, non è possibile utilizzare un’ **[!UICONTROL Unsubscription link]** blocco in un [messaggio transazionale di evento](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), perché la dimensione di targeting di quel tipo di messaggio è **[!UICONTROL Real-time events]**. Tuttavia, è possibile utilizzare **Collegamento per annullare l’iscrizione** blocco in un [messaggio transazionale di profilo](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), perché la dimensione di targeting di quel tipo di messaggio è **Profili**. Infine, la **[!UICONTROL Link to mirror page]** il blocco non ha una dimensione di targeting, pertanto puoi utilizzarlo in qualsiasi messaggio.
 
 Se lasci vuoto questo campo, il blocco di contenuto sarà compatibile con tutti i messaggi, indipendentemente dalla dimensione di targeting. Se imposti una dimensione di targeting, tale blocco sarà compatibile solo con i messaggi che hanno la stessa dimensione di targeting.
 
@@ -320,15 +320,15 @@ L’e-mail viene creata come segue:
 
 * I contenuti dinamici vengono applicati all’immagine e questi contenuti dinamici sono configurati in base all’intervallo di età.
 
-   ![](assets/delivery_content_43.png)
+  ![](assets/delivery_content_43.png)
 
-   L’aggiunta e la configurazione di contenuti dinamici è descritta in [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email) sezione.
+  L’aggiunta e la configurazione di contenuti dinamici è descritta in [Definizione del contenuto dinamico in un messaggio e-mail](#defining-dynamic-content-in-an-email) sezione.
 
 * Al testo vengono applicati i campi di personalizzazione e il contenuto dinamico. A seconda dell’intervallo di età del profilo, l’e-mail inizia con il nome del profilo o con il titolo e il cognome del profilo.
 
-   ![](assets/delivery_content_44.png)
+  ![](assets/delivery_content_44.png)
 
-   L’aggiunta e la configurazione dei campi di personalizzazione è descritta in [Inserimento di un campo di personalizzazione](#inserting-a-personalization-field) sezione.
+  L’aggiunta e la configurazione dei campi di personalizzazione è descritta in [Inserimento di un campo di personalizzazione](#inserting-a-personalization-field) sezione.
 
 ### Configurazione delle immagini {#configuring-images}
 

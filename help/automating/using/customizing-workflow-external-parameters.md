@@ -44,28 +44,28 @@ Quando si utilizza una variabile in un’attività, l’interfaccia fornisce ass
 
 * ![](assets/extsignal_picker.png): seleziona la variabile degli eventi tra tutte le variabili disponibili nel flusso di lavoro.
 
-   ![](assets/wkf_test_activity_variables.png)
+  ![](assets/wkf_test_activity_variables.png)
 
 * ![](assets/extsignal_expression_editor.png): modifica le espressioni con una combinazione di variabili e funzioni (consulta [questa pagina](../../automating/using/advanced-expression-editing.md)).
 
-   ![](assets/wkf_test_activity_variables_expression.png)
+  ![](assets/wkf_test_activity_variables_expression.png)
 
-   Questo elenco fornisce funzioni che ti consentono di eseguire filtri complessi. Queste funzioni sono descritte in dettaglio [questa sezione](../../automating/using/list-of-functions.md).
+  Questo elenco fornisce funzioni che ti consentono di eseguire filtri complessi. Queste funzioni sono descritte in dettaglio [questa sezione](../../automating/using/list-of-functions.md).
 
-   Inoltre, puoi utilizzare le funzioni seguenti, disponibili in tutte le attività che ti consentono di utilizzare variabili di eventi dopo aver chiamato un flusso di lavoro con parametri esterni (consulta [questa sezione](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+  Inoltre, puoi utilizzare le funzioni seguenti, disponibili in tutte le attività che ti consentono di utilizzare variabili di eventi dopo aver chiamato un flusso di lavoro con parametri esterni (consulta [questa sezione](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-   | Nome | Descrizione | Sintassi |
-   | ---------|----------|---------|
-   | EndWith | Indica se una stringa (primo parametro) termina con una stringa specifica (secondo parametro). | EndWith(&lt;string>,&lt;string>) |
-   | startWith | Indica se una stringa (primo parametro) inizia con una stringa specifica (secondo parametro). | startWith(&lt;string>,&lt;string>) |
-   | Extract | Restituisce i primi caratteri di una stringa utilizzando un separatore. | Extract(&lt;string>,&lt;separator>) |
-   | ExtractRight | Restituisce gli ultimi caratteri di una stringa utilizzando un separatore. | ExtractRight(&lt;string>,&lt;separator>) |
-   | DateFormat | Formatta una data utilizzando il formato specificato nel secondo parametro (ad esempio: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;date>,&lt;format>) |
-   | NomeFile | Restituisce il nome di un percorso di file. | NomeFile(&lt;string>) |
-   | FileExt | Restituisce l&#39;estensione di un percorso di file. | FileExt(&lt;string>) |
-   | GetOption | Restituisce il valore della funzione specificata. | GetOption(&lt;optionname>) |
-   | IsNull | Indica se una stringa o una data è null. | IsNull(&lt;string date=&quot;&quot;>) |
-   | UrlUtf8Encode | Codifica un URL in UTF8. | UrlUtf8Encode(&lt;string>) |
+  | Nome | Descrizione | Sintassi |
+  | ---------|----------|---------|
+  | EndWith | Indica se una stringa (primo parametro) termina con una stringa specifica (secondo parametro). | EndWith(&lt;string>,&lt;string>) |
+  | startWith | Indica se una stringa (primo parametro) inizia con una stringa specifica (secondo parametro). | startWith(&lt;string>,&lt;string>) |
+  | Extract | Restituisce i primi caratteri di una stringa utilizzando un separatore. | Extract(&lt;string>,&lt;separator>) |
+  | ExtractRight | Restituisce gli ultimi caratteri di una stringa utilizzando un separatore. | ExtractRight(&lt;string>,&lt;separator>) |
+  | DateFormat | Formatta una data utilizzando il formato specificato nel secondo parametro (ad esempio: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;date>,&lt;format>) |
+  | NomeFile | Restituisce il nome di un percorso di file. | NomeFile(&lt;string>) |
+  | FileExt | Restituisce l&#39;estensione di un percorso di file. | FileExt(&lt;string>) |
+  | GetOption | Restituisce il valore della funzione specificata. | GetOption(&lt;optionname>) |
+  | IsNull | Indica se una stringa o una data è null. | IsNull(&lt;string date=&quot;&quot;>) |
+  | UrlUtf8Encode | Codifica un URL in UTF8. | UrlUtf8Encode(&lt;string>) |
 
 ## Personalizzazione di attività con variabili di eventi {#customizing-activities-with-events-variables}
 
@@ -112,17 +112,17 @@ Le variabili degli eventi dichiarati sono ora disponibili dall’elenco dei camp
 
 * Definisci il nome del modello da utilizzare per la consegna.
 
-   >[!NOTE]
-   >
-   >Questa azione è disponibile **ricorrente** solo consegne.
+  >[!NOTE]
+  >
+  >Questa azione è disponibile **ricorrente** solo consegne.
 
-   ![](assets/extsignal_activities_template.png)
+  ![](assets/extsignal_activities_template.png)
 
 * Personalizzare la consegna: quando si seleziona un campo di personalizzazione per configurare una consegna, le variabili degli eventi sono disponibili nel **[!UICONTROL Workflow parameters]** elemento. Puoi utilizzarli come qualsiasi campo di personalizzazione, ad esempio per definire l’oggetto della consegna, il mittente e così via.
 
-   La personalizzazione della consegna è descritta in [questa sezione](../../designing/using/personalization.md).
+  La personalizzazione della consegna è descritta in [questa sezione](../../designing/using/personalization.md).
 
-   ![](assets/extsignal_activities_perso.png)
+  ![](assets/extsignal_activities_perso.png)
 
 **Codici segmento**: definisci il codice del segmento in base alle variabili degli eventi.
 

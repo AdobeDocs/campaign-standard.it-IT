@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Attività Wait{#wait}
+# Attendi{#wait}
 
 ## Descrizione {#description}
 
@@ -26,7 +26,7 @@ L’attività **[!UICONTROL Wait]** sospende momentaneamente l’esecuzione di u
 
 ## Contesto di utilizzo {#context-of-use}
 
-L’attività **[!UICONTROL Wait]** viene utilizzata per consentire il trascorrere di un certo periodo di tempo tra due attività eseguite. Ad esempio, per attendere diversi giorni dopo un’attività di consegna e-mail, quindi per analizzare le aperture e i clic generati durante questo periodo prima di eseguire eventuali operazioni di follow-up (promemoria e-mail, creazione di un pubblico, ecc.).
+L’attività **[!UICONTROL Wait]** viene utilizzata per consentire il trascorrere di un certo periodo di tempo tra due attività eseguite. Ad esempio, per attendere diversi giorni dopo un’attività di consegna e-mail, quindi analizzare le aperture e i clic generati durante questo periodo prima di eseguire eventuali operazioni di follow-up (e-mail di promemoria, creazione di un pubblico, ecc.).
 
 ## Configurazione {#configuration}
 

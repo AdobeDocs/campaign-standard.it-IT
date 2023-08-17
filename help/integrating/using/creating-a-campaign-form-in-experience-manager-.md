@@ -1,6 +1,6 @@
 ---
 title: Creazione di un modulo Campaign in Experience Manager
-description: Con l’integrazione di Adobe Experience Manager, puoi creare moduli direttamente nell’AEM per creare e aggiornare profili o gestire gli abbonamenti.
+description: Con l’integrazione di Adobe Experience Manager, puoi creare moduli direttamente nell’AEM per creare e aggiornare profili o gestire abbonamenti.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager

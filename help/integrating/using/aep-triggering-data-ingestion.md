@@ -32,7 +32,7 @@ Prima di utilizzare le API, la mappatura dei dati deve essere stata configurata 
 * [Definizione mappature](../../integrating/using/aep-mapping-definition.md)
 * [Attivazione delle mappature](../../integrating/using/aep-mapping-activation.md)
 
-Una volta creata la mappatura dati, devi interromperne l’esecuzione in modo da poterla attivare dalle API in qualsiasi momento. Per farlo, esegui questi passaggi:
+Una volta creata la mappatura dati, devi interromperne l’esecuzione in modo da poterla attivare dalle API in qualsiasi momento. Per farlo, segui questi passaggi:
 
 1. In Campaign Standard, vai a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
@@ -54,11 +54,11 @@ L’acquisizione immediata di una mappatura XDM in Adobe Experience Platform vie
 >
 >Per eseguire la chiamata API di ingest POST, l’utente deve disporre di un’ **Esecuzione funzione SQL** ruolo, che può essere fornito da un amministratore Campaign Standard eseguendo il comando seguente JS Script:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
+>
 
 L’operazione POST restituisce informazioni relative allo stato della richiesta creata:
 
@@ -119,60 +119,60 @@ Le possibili risposte all’operazione di GET sono:
 
 * Richiesta di acquisizione riuscita:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ",
-   "numRecords": 15,
-   "requestId": 3520,
-   "status": "Success"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ",
+  "numRecords": 15,
+  "requestId": 3520,
+  "status": "Success"
+  }
+  ```
 
 * Richiesta di acquisizione non riuscita con 0 record acquisito:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
-   "numRecords": 0,
-   "requestId": 3520,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+  "numRecords": 0,
+  "requestId": 3520,
+  "status": "Failed"
+  }
+  ```
 
 * Richiesta di acquisizione non riuscita, con alcuni record caricati in un batch:
 
-   ```
-   {
-   "batchId": "<value>",
-   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "<value>",
+  "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Failed"
+  }
+  ```
 
 * Richiesta di acquisizione interrotta dopo l’acquisizione di alcuni record (ciò può verificarsi in scenari di arresto anomalo):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Aborted"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Aborted"
+  }
+  ```
 
 * Acquisizione richiesta in corso (quando la richiesta ha caricato i dati in un batch o quando il batch viene preparato per la richiesta):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "In Progress"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "In Progress"
+  }
+  ```

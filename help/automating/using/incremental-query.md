@@ -40,7 +40,7 @@ L’attività **[!UICONTROL Incremental query]** può avere vari tipi di utilizz
 
 * Esportazione dei dati.
 
-   Puoi utilizzare un’attività **[!UICONTROL Incremental query]** per esportare regolarmente i nuovi registri in file. Può essere utile, ad esempio, se desideri utilizzare i dati di registro in strumenti di reporting o BI esterni. Un esempio completo è disponibile nella sezione [Esportazione dei registri](../../automating/using/exporting-logs.md).
+  Puoi utilizzare un’attività **[!UICONTROL Incremental query]** per esportare regolarmente i nuovi registri in file. Può essere utile, ad esempio, se desideri utilizzare i dati di registro in strumenti di reporting o BI esterni. Un esempio completo è disponibile nella sezione [Esportazione dei registri](../../automating/using/exporting-logs.md).
 
 **Argomenti correlati**
 
@@ -60,7 +60,8 @@ L’attività **[!UICONTROL Incremental query]** può avere vari tipi di utilizz
    * **[!UICONTROL Use the exclusion of the results of previous executions]**: i risultati delle esecuzioni precedenti per ciascuna nuova esecuzione sono esclusi.
    * **[!UICONTROL Use a date field]**: le esecuzioni successive tengono conto solo dei risultati con il campo data selezionato maggiore o uguale all’ultima data di esecuzione dell’attività **[!UICONTROL Incremental query]**. Puoi selezionare qualsiasi campo data relativo alla risorsa selezionata nella scheda **[!UICONTROL Properties]**. Questa modalità offre prestazioni migliori quando viene eseguita una query su risorse di grandi dimensioni quali i dati di registro.
 
-      Dopo la prima esecuzione del flusso di lavoro, in questa scheda puoi vedere l’ultima data di esecuzione che verrà utilizzata per l’esecuzione successiva. Viene aggiornata automaticamente ogni volta che il flusso di lavoro viene eseguito. Puoi comunque ignorare questo valore immettendone manualmente uno nuovo in modo tale che sia adatto alle tue esigenze.
+     Dopo la prima esecuzione del flusso di lavoro, in questa scheda puoi vedere l’ultima data di esecuzione che verrà utilizzata per l’esecuzione successiva. Viene aggiornata automaticamente ogni volta che il flusso di lavoro viene eseguito. Puoi comunque ignorare questo valore immettendone manualmente uno nuovo in modo tale che sia adatto alle tue esigenze.
+
    >[!NOTE]
    >
    >La modalità **[!UICONTROL Use a date field]** consente una maggiore flessibilità a seconda del campo data selezionato. Ad esempio, se il campo selezionato corrisponde a una data di modifica, la modalità campo data ti consente di recuperare i dati che sono stati aggiornati di recente, mentre l’altra modalità esclude semplicemente le registrazioni che erano già state oggetto di targeting in un’esecuzione precedente, anche se sono state modificate dopo l’ultima esecuzione del flusso di lavoro.

@@ -280,7 +280,7 @@ CR: Carriage Return (ritorno a capo)
 
 **Caratteri avanzati (contati due volte)**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### Specifiche di SMSC {#smsc-specifics}
 
@@ -305,15 +305,15 @@ La funzionalità **[!UICONTROL Define a specific mapping of encodings]** ti cons
    * Prova a utilizzare la codifica GSM a cui assegna il valore **data_coding = 0**.
    * Se non è possibile usare la codifica GSM, utilizza la codifica **UCS2** assegnandole il valore **data_coding = 8**.
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * Quando la funzionalità **[!UICONTROL Define a specific mapping of encodings]** è selezionata, puoi definire sia le codifiche desiderate che i valori dei campi **[!UICONTROL data_coding]** collegati. Adobe Campaign cerca di utilizzare la prima codifica nell’elenco, quindi la seguente, se la prima codifica risulta impossibile.
 
-   L’ordine di dichiarazione è importante: ti consigliamo di inserire l’elenco in ordine crescente **di costo** per favorire le codifiche che ti consentono di contenere il maggior numero possibile di caratteri in ogni messaggio SMS.
+  L’ordine di dichiarazione è importante: ti consigliamo di inserire l’elenco in ordine crescente **di costo** per favorire le codifiche che ti consentono di contenere il maggior numero possibile di caratteri in ogni messaggio SMS.
 
-   Dichiara solo le codifiche che desideri utilizzare. Se alcune delle codifiche fornite dall’SMS-C non dovessero corrispondere allo scopo di utilizzo, non dichiararle nell’elenco.
+  Dichiara solo le codifiche che desideri utilizzare. Se alcune delle codifiche fornite dall’SMS-C non dovessero corrispondere allo scopo di utilizzo, non dichiararle nell’elenco.
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### Risposta automatica inviata al MO {#automatic-reply-sent-to-the-mo}
 
@@ -333,19 +333,19 @@ Dalla sezione **[!UICONTROL Advanced parameters]** sezione:
 
 * Il **[!UICONTROL Short code]** consente di aggiungere alla consegna un codice breve specifico. I destinatari che hanno rinunciato a questo specifico codice breve verranno automaticamente esclusi durante la preparazione del messaggio. Per ulteriori informazioni su come configurare il codice breve, consulta [questa sezione](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >Se il **[!UICONTROL Short code]** viene lasciato vuoto, il valore della proprietà **[!UICONTROL Short code]** verrà utilizzato il campo impostato nell’account esterno.
+  >[!NOTE]
+  >
+  >Se il **[!UICONTROL Short code]** viene lasciato vuoto, il valore della proprietà **[!UICONTROL Short code]** verrà utilizzato il campo impostato nell’account esterno.
 
 Dalla sezione **[!UICONTROL Send]** sezione di un modello SMS:
 
 * L’opzione **[!UICONTROL Maximum number of SMS per message]** ti consente di definire il numero di messaggi SMS da utilizzare per inviare un messaggio. Se questo numero viene superato, il messaggio non viene inviato.
 
-   >[!IMPORTANT]
-   >
-   >Se hai inserito campi di personalizzazione o testo condizionale nel contenuto del tuo messaggio SMS, la lunghezza del messaggio e, di conseguenza, il numero di messaggi SMS da inviare possono variare da un destinatario all’altro. Per ulteriori informazioni, consulta la sezione [Personalizzazione di messaggi SMS](../../channels/using/personalizing-sms-messages.md).
+  >[!IMPORTANT]
+  >
+  >Se hai inserito campi di personalizzazione o testo condizionale nel contenuto del tuo messaggio SMS, la lunghezza del messaggio e, di conseguenza, il numero di messaggi SMS da inviare possono variare da un destinatario all’altro. Per ulteriori informazioni, consulta la sezione [Personalizzazione di messaggi SMS](../../channels/using/personalizing-sms-messages.md).
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * Il campo **[!UICONTROL Transmission mode]** ti consente di determinare il metodo di consegna di messaggi SMS:
 

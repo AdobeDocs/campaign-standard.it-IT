@@ -45,25 +45,27 @@ L’attività **[!UICONTROL Save audience]** è essenzialmente utilizzata per ma
 
       * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Save audience.
       * **[!UICONTROL Complete audience with new data]**: i vecchi dati del pubblico vengono conservati e i dati della transizione in entrata dell’attività Save audience vengono aggiunti a essi.
+
    * **[!UICONTROL Create then update an audience]**: immetti il nome del pubblico e seleziona il tipo di aggiornamento. Se il pubblico non esiste già, viene quindi creato. Se esiste già, viene aggiornato in base alla modalità selezionata:
 
       * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Save audience.
 
-         Attenzione: questa opzione elimina il tipo di pubblico e la dimensione di targeting del pubblico aggiornato.
+        Attenzione: questa opzione elimina il tipo di pubblico e la dimensione di targeting del pubblico aggiornato.
 
       * **[!UICONTROL Complete audience with new data]**: i vecchi dati del pubblico vengono conservati e i dati della transizione in entrata dell’attività Save audience vengono aggiunti a essi.
 
-         Attenzione: questa opzione genera un errore se il tipo di pubblico o la dimensione di targeting del pubblico aggiornato non sono compatibili con la configurazione corrente del flusso di lavoro. Ad esempio, non puoi completare un pubblico di tipo file con profili provenienti da una query.
+        Attenzione: questa opzione genera un errore se il tipo di pubblico o la dimensione di targeting del pubblico aggiornato non sono compatibili con la configurazione corrente del flusso di lavoro. Ad esempio, non puoi completare un pubblico di tipo file con profili provenienti da una query.
+
    * **[!UICONTROL Create a new audience]**: immetti il nome del pubblico da creare. L’ora e la data della creazione del pubblico vengono automaticamente aggiunte al nome del pubblico. In questo modo il pubblico risulta unico ogni volta che viene eseguito il flusso di lavoro.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: se hai eseguito il targeting dei profili e desideri esportare il pubblico in Adobe Experience Cloud, seleziona questa opzione, quindi seleziona un pubblico condiviso esistente o creane uno nuovo.
 
-      Seleziona anche un elemento **[!UICONTROL Shared Data source]** che corrisponda alla risorsa dei dati contenuti nel pubblico in modo che vengano correttamente riconciliati in Adobe Experience Cloud.
+     Seleziona anche un elemento **[!UICONTROL Shared Data source]** che corrisponda alla risorsa dei dati contenuti nel pubblico in modo che vengano correttamente riconciliati in Adobe Experience Cloud.
 
-      Utilizzando questa opzione, il pubblico condiviso non viene aggiunto all’elenco dei tipi di pubblico di Adobe Campaign disponibili tramite il menu **[!UICONTROL Audiences]**.
+     Utilizzando questa opzione, il pubblico condiviso non viene aggiunto all’elenco dei tipi di pubblico di Adobe Campaign disponibili tramite il menu **[!UICONTROL Audiences]**.
 
-      >[!NOTE]
-      >
-      >Questa opzione è disponibile solo se l’amministratore ha configurato la funzionalità dei tipi di pubblico condivisi con Adobe Experience Cloud. Per ulteriori informazioni, consulta [Utilizzo di Campaign e del servizio core People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+     >[!NOTE]
+     >
+     >Questa opzione è disponibile solo se l’amministratore ha configurato la funzionalità dei tipi di pubblico condivisi con Adobe Experience Cloud. Per ulteriori informazioni, consulta [Utilizzo di Campaign e del servizio core People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
    I tipi di pubblico salvati o disponibili durante un aggiornamento dipende dalle attività inserite a monte nel flusso di lavoro.
 

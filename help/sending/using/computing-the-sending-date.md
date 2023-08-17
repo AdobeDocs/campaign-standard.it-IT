@@ -41,23 +41,23 @@ Puoi pianificarlo utilizzando un flusso di lavoro.
 
    * Compila il **[!UICONTROL Segment code]** campo: inserisci manualmente la data e l’ora desiderate per l’invio del messaggio.
 
-      Ad esempio, desideri inviare il primo batch il 1° giugno alle 10:00 GMT+1. Utilizza il seguente formato: **DD/MM/YYYY hh:mm:ss+tz**.
+     Ad esempio, desideri inviare il primo batch il 1° giugno alle 10:00 GMT+1. Utilizza il seguente formato: **DD/MM/YYYY hh:mm:ss+tz**.
 
-      ![](assets/send-time_opt_segment_configuration.png)
+     ![](assets/send-time_opt_segment_configuration.png)
 
-      Per inviare il batch successivo il giorno successivo, inserire **02/06/2017 10:00:00+01** per il secondo segmento.
+     Per inviare il batch successivo il giorno successivo, inserire **02/06/2017 10:00:00+01** per il secondo segmento.
 
-      Per i segmenti rimanenti, definisci i batch successivi come segue:
+     Per i segmenti rimanenti, definisci i batch successivi come segue:
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
+
    * Assicurati di selezionare **[!UICONTROL Limit the population of this segment]** opzione.
 
-      In **[!UICONTROL Limitation]** , seleziona **[!UICONTROL Random sampling]** e inserisci la percentuale desiderata per ciascun segmento: 10 per il primo batch, 15 per il secondo e così via.
+     In **[!UICONTROL Limitation]** , seleziona **[!UICONTROL Random sampling]** e inserisci la percentuale desiderata per ciascun segmento: 10 per il primo batch, 15 per il secondo e così via.
 
-      ![](assets/send-time_opt_segment_limitation.png)
-
+     ![](assets/send-time_opt_segment_limitation.png)
 
 1. Una volta definiti tutti i segmenti, seleziona **[!UICONTROL Generate all segments in the same transition]** e fai clic su **[!UICONTROL Confirm]**.
 
@@ -99,7 +99,7 @@ La consegna verrà inviata progressivamente a tutti i destinatari interessati ne
 >
 >Al momento della conferma dell’invio, assicurati che tutte le date siano nel futuro. In caso contrario, il messaggio verrà inviato non appena l’invio viene confermato.
 
-## Utilizzo di un&#39;espressione {#using-an-expression}
+## Uso di un’espressione {#using-an-expression}
 
 L’ottimizzazione del tempo di invio è utile anche per le campagne che coinvolgono un call center. Puoi assicurarti che non tutti i messaggi vengano ricevuti contemporaneamente. Questo consente all’organizzazione di elaborare il numero di chiamate in base alla sua capacità.
 
@@ -122,13 +122,12 @@ Puoi pianificarlo utilizzando un flusso di lavoro.
       * 14:00 - 16:00: **6**. Il call center verrà chiuso tra le 12:00 e le 14:00; il messaggio verrà inviato al terzo trimestre della popolazione target alle 14:00 (data di contatto + 6 ore).
       * 16:00 - 18:00: **8**. Il messaggio sarà inviato all’ultimo trimestre della popolazione target alle 16:00 (data di contatto + 8 ore).
 
-      >[!NOTE]
-      >
-      >La data di contatto verrà definita nell’attività Email delivery più avanti nel flusso di lavoro.
+     >[!NOTE]
+     >
+     >La data di contatto verrà definita nell’attività Email delivery più avanti nel flusso di lavoro.
 
    * Assicurati di selezionare **[!UICONTROL Limit the population of this segment]** opzione.
    * In **[!UICONTROL Limitation]** , seleziona **[!UICONTROL Random sampling]** e inserisci la percentuale desiderata per ciascun segmento: **25**.
-
 
 1. Una volta definiti tutti i segmenti, seleziona **[!UICONTROL Generate all segments in the same transition]** e fai clic su **[!UICONTROL Confirm]**.
 

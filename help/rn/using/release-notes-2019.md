@@ -191,7 +191,7 @@ ht-degree: 8%
 * È stato risolto un problema che impediva la selezione di una struttura di colonne n:n una volta rilasciata nell’area di lavoro.
 * È stato risolto un problema a causa del quale la miniatura del messaggio risultava sfocata nel dashboard e-mail.
 * È stato risolto un problema che impediva la corretta visualizzazione dello sfondo per le e-mail ricevute in Outlook.
-* Sono stati risolti alcuni problemi di ordinamento nella home page di E-mail Designer.
+* Sono stati risolti alcuni problemi di ordinamento nella pagina Home di E-mail Designer.
 * È stato risolto un problema che si verificava durante la duplicazione di varianti quando si utilizzava contenuto dinamico.
 * Alcuni campi indesiderati sono stati rimossi dal riquadro Impostazioni di E-mail Designer.
 
@@ -355,7 +355,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 
 **Altre modifiche**
 
-* È stata aggiunta una nuova opzione all’account esterno SMS. Consente di limitare il numero massimo di processi MTA che inviano SMS per controllare meglio il numero di connessioni parallele. Per ulteriori informazioni, consulta [Protocollo e impostazioni del connettore SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=it) nota tecnica.
+* È stata aggiunta una nuova opzione all’account esterno SMS. Consente di limitare il numero massimo di processi MTA che inviano SMS per controllare meglio il numero di connessioni parallele. Per ulteriori informazioni, consulta [Protocollo e impostazioni del connettore SMS](https://helpx.adobe.com/it/campaign/kb/sms-connector-protocol-and-settings.html) nota tecnica.
 * Quando si pubblica una risorsa con estensione API, se l’API è già stata pubblicata, ora viene aggiornata automaticamente a ogni nuova pubblicazione. In precedenza, questa azione era manuale e il mancato aggiornamento dell’API poteva interrompere il profilo o la risorsa del servizio di questa API. Per ulteriori informazioni, consulta [documentazione dettagliata](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * La dimensione Codice postale è stata rimossa da Reporting dinamico. È invece consigliabile utilizzare le dimensioni Città, Paese e Stato.
 * Il trigger dell’evento del ciclo di vita &quot;Primo avvio&quot; per i messaggi in-app è stato rimosso.
@@ -448,19 +448,19 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 
 * È ora disponibile un set di quattro modelli di e-mail reattive all’avanguardia progettati da artisti di Behance.
 
-   Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/using-reusable-content.md#content-templates).
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/using-reusable-content.md#content-templates).
 
 * La nostra nuova esperienza di onboarding ti aiuta ad avviare più rapidamente la creazione di e-mail e a fornire un accesso più semplice alla documentazione e ai tutorial.
 
-   Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Ora puoi configurare il numero di colonne e la larghezza in base alle tue esigenze.
 
-   Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * Quando esegui la modifica in visualizzazione mobile, puoi nascondere alcuni componenti solo in visualizzazione mobile per un utilizzo efficace dello spazio.
 
-   Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * Ora puoi aggiungere canali social personalizzati al modello e-mail oltre a quelli già disponibili.
 * È stato risolto un problema che impediva lo scorrimento verso il basso del menu struttura quando si utilizzavano più di 18 strutture. (CAMP-31173)
@@ -480,7 +480,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * L’elenco a discesa Fuso orario nella schermata di creazione del profilo è stato spostato dalla sezione Indirizzo alla sezione superiore dell’interfaccia.
 * È ora possibile aggiungere separatori durante la configurazione delle schermate delle risorse personalizzate, consentendo di organizzare i campi in categorie.
 
-   Per ulteriori informazioni, consulta la [documentazione dettagliata](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
 **Altre modifiche**
 

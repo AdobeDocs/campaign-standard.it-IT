@@ -31,7 +31,7 @@ Un profilo di test contiene informazioni di contatto fittizie, o informazioni di
 * Per l’invio di **bozze**: la bozza è un messaggio specifico utilizzato per verificare il messaggio prima di inviare la consegna finalizzata ai destinatari. Un profilo di test di bozza è incaricato di verificare la consegna per quanto riguarda il contenuto e il formato. Consulta [Invio di bozze](../../sending/using/sending-proofs.md).
 * Per il **rendering di e-mail**: il profilo di test per il rendering di e-mail viene utilizzato per verificare il modo in cui un messaggio viene visualizzato in base alla casella in entrata del messaggio che lo riceve. Ad esempio, posta sul web, servizio messaggi, dispositivi mobili, ecc. Consulta [Rendering di e-mail](../../sending/using/email-rendering.md).
 
-   L’utilizzo del **rendering di e-mail** è di sola lettura. I profili di test con questo utilizzo sono disponibili solo preconfigurati in Adobe Campaign.
+  L’utilizzo del **rendering di e-mail** è di sola lettura. I profili di test con questo utilizzo sono disponibili solo preconfigurati in Adobe Campaign.
 
 * Come una **trappola**: il messaggio viene inviato al profilo di test esattamente come viene inviato al target principale. Consulta [Utilizzo delle “trappole”](../../sending/using/using-traps.md).
 * Per **visualizzare in anteprima** i messaggi: quando visualizzi l’anteprima di un messaggio per testare gli elementi di personalizzazione, puoi selezionare un profilo di test. Consulta [Anteprima dei messaggi](/help/sending/using/previewing-messages.md).

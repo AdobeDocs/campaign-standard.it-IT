@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -84,7 +84,7 @@ Campagna **[!UICONTROL metrics]** trovati in Analytics sono elencati di seguito:
   </tr> 
   <tr> 
    <td> Rimbalzi totali<br /> </td> 
-   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br /> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Apertura univoca<br /> </td> 

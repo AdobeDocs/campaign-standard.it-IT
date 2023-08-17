@@ -179,7 +179,7 @@ ht-degree: 98%
 * È stato risolto un problema che poteva impedire la pubblicazione di risorse personalizzate dopo la creazione di un nuovo filtro tramite un’aggregato.
 * È stato risolto un problema che, a causa del proxy immagine Gmail, rendeva errato il tasso di apertura del tracciamento.
 * È stato risolto un problema che causava errori di memoria insufficiente in caso di importazione di un pacchetto.
-* È stato risolto un problema che causava un errore dopo il tentativo di scollegare Experience Manager quando il suo contenuto includeva un percorso con un carattere &quot;%20&quot;.
+* È stato risolto un problema che causava un errore nell’azione di scollegamento di Experience Manager quando il suo contenuto includeva un percorso contenente un carattere “%20”.
 * È stato corretto un errore sulle etichette durante la duplicazione delle attività del flusso di lavoro.
 * È stato risolto un problema con il selettore di messaggi transazionali in una pagina di destinazione nel caso in cui fosse selezionata l’opzione **Avvia l’invio di messaggi**.
 * È stato risolto un problema relativo ai messaggi transazionali o alle consegne ricorrenti che impediva l’inizializzazione dello stato di consegna con il valore predefinito corretto. Sono stati migliorati anche i registri di errore.
@@ -243,7 +243,7 @@ ht-degree: 98%
 * Il numero massimo degli eventi in tempo reale pubblicabili su un’istanza è stato aumentato da 350 a 2000. (CAMP-41608)
 * La sincronizzazione tra Adobe Launch e Campaign Standard è stata migliorata mediante il flusso di lavoro tecnico syncWithLaunch. Questo flusso di lavoro abilita l’importazione automatica di tutte le proprietà mobili di Adobe Launch in Adobe Campaign Standard. Per ulteriori informazioni, consulta [questa pagina](../../administration/using/technical-workflows.md).
 
-   Devi inviare un ticket all’Assistenza cliente di Adobe (direttamente o tramite il contatto di Adobe) per far sì che il flusso di lavoro tecnico syncWithLaunch sia abilitato nell’istanza Campaign. (CAMP-40082)
+  Devi inviare un ticket all’Assistenza cliente di Adobe (direttamente o tramite il contatto di Adobe) per far sì che il flusso di lavoro tecnico syncWithLaunch sia abilitato nell’istanza Campaign. (CAMP-40082)
 
 **Miglioramenti di E-mail Designer**
 

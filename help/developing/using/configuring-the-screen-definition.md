@@ -96,9 +96,9 @@ Queste impostazioni consentono di visualizzare una barra di controllo nella sche
 
 * **[!UICONTROL Authorize creating]**: questa opzione consente di attivare la creazione di elementi della risorsa. L’utente può quindi aggiungere altri record.
 
-   >[!NOTE]
-   >
-   >Per rendere disponibile questa opzione, devi innanzitutto attivare la schermata di dettaglio collegata alla risorsa.
+  >[!NOTE]
+  >
+  >Per rendere disponibile questa opzione, devi innanzitutto attivare la schermata di dettaglio collegata alla risorsa.
 
 * **[!UICONTROL Authorize duplicating]**: questa opzione consente di attivare la duplicazione dei record collegati alla risorsa personalizzata.
 * **[!UICONTROL Authorize deleting]**: questa opzione consente di attivare l’eliminazione dei record collegati alla risorsa personalizzata.

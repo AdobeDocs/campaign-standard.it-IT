@@ -29,7 +29,7 @@ Questa integrazione è progettata per trasferire i dati degli utenti finali tra 
 
 Questa integrazione è progettata per trasferire i dati dell’utente finale (incluse, a titolo esemplificativo e non esaustivo, le informazioni personali, se contenute nei dati dell’utente finale) tra Microsoft Dynamics 365 e Adobe Campaign Standard. In qualità di titolare del trattamento, la tua azienda è responsabile del rispetto di tutte le leggi e le normative sulla privacy applicabili alla raccolta e all’utilizzo dei dati personali.
 
-L’integrazione non genera alcun problema di privacy dell’interessato (ad es., RGPD) per quanto riguarda l’eliminazione o la gestione di altre richieste di privacy (ad eccezione della rinuncia). Quando si elaborano le richieste di accesso a dati personali, è necessario farlo in Microsoft Dynamics 365 e Campaign (tramite Adobe Experience Platform Privacy Service) in modo indipendente.
+L’integrazione non genera alcun problema di privacy dell’interessato (ad es., RGPD) per quanto riguarda l’eliminazione o la gestione di altre richieste di privacy (ad eccezione della rinuncia). Quando si elaborano le richieste di accesso a dati personali, è necessario eseguire questa operazione in Microsoft Dynamics 365 e Campaign (tramite Adobe Experience Platform Privacy Service) in modo indipendente.
 
 Se hai configurato l’integrazione in modo da emettere regolari chiamate di eliminazione profilo a Campaign quando un contatto viene eliminato in Dynamics 365, è necessario seguire i passaggi seguenti. Verificare che non vengano apportati aggiornamenti al record in questione durante questo processo.
 
@@ -154,15 +154,15 @@ Quando si pianifica l’utilizzo di questa integrazione, è necessario tenere co
 
 * Sarà necessario concedere in licenza il pacchetto Campaign appropriato per supportare il volume di chiamate al motore generato dall’integrazione. Il superamento del volume di chiamate al motore concesso in licenza potrebbe causare un deterioramento delle prestazioni di Campaign.
 
-   Utilizza quanto segue per aiutare a stimare il volume di chiamate del motore dall’integrazione:
+  Utilizza quanto segue per aiutare a stimare il volume di chiamate del motore dall’integrazione:
 
    * Inserimenti di record (ad esempio, nuovo record): 1 chiamata del motore
    * Eliminazioni record: 1 chiamata motore
    * Aggiornamenti dei record: 2 chiamate al motore (solo 1 chiamata se il record di destinazione è identico al record di origine, ovvero se non viene apportata alcuna modifica al record Campaign)
 
-   Quando si calcola il volume complessivo delle chiamate al motore di Campaign, è importante tenere conto di altre origini di chiamate al motore, tra cui pagine di destinazione, WebApps, JSSP, API, registrazioni di app mobili e così via.
+  Quando si calcola il volume complessivo delle chiamate al motore di Campaign, è importante tenere conto di altre origini di chiamate al motore, tra cui pagine di destinazione, WebApps, JSSP, API, registrazioni di app mobili e così via.
 
-   Visualizza le informazioni sul pacchetto Adobe Campaign Standard qui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)
+  Visualizza le informazioni sul pacchetto Adobe Campaign Standard qui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)
 
 * L’integrazione supporta un massimo di 15 milioni di record totali per la sincronizzazione iniziale con le risorse in Campaign. La sincronizzazione incrementale è limitata dal pacchetto Adobe Campaign Standard.
 
@@ -188,7 +188,7 @@ Quando si pianifica l’utilizzo di questa integrazione, è necessario tenere co
 
 L’integrazione è stata progettata per risolvere il caso d’uso generale dello spostamento di dati comune tra Microsoft Dynamics 365 e Campaign, ma non è destinata a risolvere ogni caso d’uso specifico di ciascun cliente:
 
-* L’integrazione non genera alcun problema di eliminazione di dati personali (ad es., GDPR). La responsabilità di soddisfare le richieste sulla privacy degli utenti finali spetta al cliente; tali richieste devono essere effettuate in Campaign (tramite Adobe Experience Platform Privacy Service) e Dynamics 365 in modo indipendente. Se necessario, l’integrazione può eseguire eliminazioni regolari per facilitare la sincronizzazione dei dati.   Revisione [la sezione Privacy](#manage-privacy-requests) per ulteriori informazioni.
+* L’integrazione non genera alcun problema di eliminazione di dati personali (ad es., GDPR). La responsabilità di soddisfare le richieste di privacy degli utenti finali spetta al cliente; tali richieste devono essere effettuate in Campaign (tramite Adobe Experience Platform Privacy Service) e Dynamics 365 in modo indipendente. Se necessario, l’integrazione può eseguire eliminazioni regolari per facilitare la sincronizzazione dei dati.   Revisione [la sezione Privacy](#manage-privacy-requests) per ulteriori informazioni.
 
 * Da Campaign a Dynamics 365 non verranno sincronizzati dati di profilo o di entità personalizzate, ad eccezione delle informazioni di rinuncia (se configurate dal cliente).
 

@@ -147,9 +147,9 @@ Tuttavia, l’eliminazione di un messaggio sulle transazioni può essere eseguit
 
 * **Messaggi sulle transazioni**: a meno che un altro messaggio sulle transazioni non sia collegato all’evento corrispondente, se il messaggio sulle transazioni non viene pubblicato, anche la configurazione dell’evento deve essere annullata onde consentire una corretta eliminazione del messaggio sulle transazioni. Per ulteriori informazioni, consulta [Annullamento della pubblicazione di un evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
-   >[!IMPORTANT]
-   >
-   >Se elimini un messaggio sulle transazioni che ha già inviato delle notifiche, verranno cancellati anche i registri di invio e di tracciamento.
+  >[!IMPORTANT]
+  >
+  >Se elimini un messaggio sulle transazioni che ha già inviato delle notifiche, verranno cancellati anche i registri di invio e di tracciamento.
 
 * **Messaggi sulle transazioni da un modello di evento predefinito (messaggi sulle transazioni interni)**: se un messaggio sulle transazioni interno è l’unico associato all’evento corrispondente, non è possibile eseguirne l’eliminazione. Devi innanzitutto creare un altro messaggio sulle transazioni effettuandone la duplicazione o utilizzando il menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
 

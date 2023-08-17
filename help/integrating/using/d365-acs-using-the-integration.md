@@ -11,7 +11,7 @@ exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -119,7 +119,8 @@ L’integrazione supporta sia tabelle collegate che non collegate. Il collegamen
 
 >[!IMPORTANT]
 >
->Se un record di risorse personalizzato di Campaign contiene informazioni personali, vengono applicate raccomandazioni specifiche. Ulteriori informazioni [in questa sezione](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>Se un record di risorse personalizzato di Campaign contiene informazioni personali, vengono applicate raccomandazioni specifiche. Per ulteriori informazioni, consulta [questa sezione](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>
 
 Durante la configurazione dei flussi di dati di entità personalizzate, è importante tenere presente quanto segue:
 
@@ -169,6 +170,7 @@ In alternativa, se disponi di un processo separato per gestire la sincronizzazio
 >Nell’interfaccia utente dell’applicazione di integrazione, il **Unidirezionale (da Microsoft Dynamics 365 a Campaign)** e **Bidirezionale** i casi di utilizzo di rinuncia sono configurati in un flusso di lavoro di rinuncia separato. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >Il **Unidirezionale (da Campaign a Microsoft Dynamics 365)** il caso di utilizzo della rinuncia è un’eccezione; è configurato all’interno del flusso di lavoro in ingresso (Contatto con profilo).
+>
 
 La mappatura del flusso di rinuncia deve essere specificata dal cliente, in quanto i requisiti di business possono variare tra le aziende. Sul lato Campaign, per la mappatura della rinuncia è possibile utilizzare solo gli attributi di rinuncia inclusi:
 

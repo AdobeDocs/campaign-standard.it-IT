@@ -30,17 +30,17 @@ L’attività **[!UICONTROL Reconciliation]** viene essenzialmente utilizzata a 
 
 * Aggiunta di relazioni: una scheda **[!UICONTROL Links]** ti consente di aggiungere collegamenti tra dati in entrata e diverse altre dimensioni del database di Adobe Campaign.
 
-   Ad esempio, un file contenente dati di acquisto può contenere anche informazioni per identificare prodotti acquistati e acquirenti. Due dimensioni aggiuntive (oltre a quella di **Purchases**) sono pertanto interessate dai dati del file: le dimensioni **Products** e **Profiles**. È necessario quindi creare relazioni tra queste e la dimensione **Purchases** (consulta l’esempio seguente).
+  Ad esempio, un file contenente dati di acquisto può contenere anche informazioni per identificare prodotti acquistati e acquirenti. Due dimensioni aggiuntive (oltre a quella di **Purchases**) sono pertanto interessate dai dati del file: le dimensioni **Products** e **Profiles**. È necessario quindi creare relazioni tra queste e la dimensione **Purchases** (consulta l’esempio seguente).
 
-   Quando viene definita una relazione, ai dati in entrata viene aggiunta una colonna per rimandare alla chiave esterna della dimensione collegata.
+  Quando viene definita una relazione, ai dati in entrata viene aggiunta una colonna per rimandare alla chiave esterna della dimensione collegata.
 
-   >[!NOTE]
-   >
-   >Questa operazione implica che i dati delle dimensioni collegate siano già presenti nel database. Ad esempio, se importi un file di acquisti che mostra quale prodotto è stato acquistato in un determinato momento da uno specifico cliente, ecc., il prodotto e il cliente devono già esistere nel database.
+  >[!NOTE]
+  >
+  >Questa operazione implica che i dati delle dimensioni collegate siano già presenti nel database. Ad esempio, se importi un file di acquisti che mostra quale prodotto è stato acquistato in un determinato momento da uno specifico cliente, ecc., il prodotto e il cliente devono già esistere nel database.
 
 * Identificazione di dati: una scheda **[!UICONTROL Identification]** ti consente di collegare semplicemente i dati in entrata alle colonne di una dimensione esistente nel database di Adobe Campaign. Dopo l’attività, i dati sono identificati come appartenenti alla dimensione definita.
 
-   Ad esempio, puoi eseguire un salvataggio di pubblico, un aggiornamento del database, ecc.
+  Ad esempio, puoi eseguire un salvataggio di pubblico, un aggiornamento del database, ecc.
 
 Ad esempio, il **[!UICONTROL Reconciliation]** L’attività può essere inserita dopo un caricamento di dati per importare dati non standard nel database.
 

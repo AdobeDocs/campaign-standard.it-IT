@@ -36,3 +36,4 @@ Al termine dell’aggiornamento, tutti i collegamenti torneranno a funzionare co
 >[!NOTE]
 >
 >Per qualsiasi domanda su queste modifiche, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>

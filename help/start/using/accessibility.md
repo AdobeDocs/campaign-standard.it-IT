@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ L’interfaccia utente di Adobe Campaign Standard cerca di fornire un contrasto 
 
 * Testo e intestazioni di grandi dimensioni sono stati migliorati per ottenere un rapporto di contrasto 3:1.
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * Il contenuto della guida e il corpo del testo dell’applicazione sono stati aggiornati per ottenere un rapporto di contrasto di 4,5:1.
 
 * Le icone di pausa e annullamento dei flussi di lavoro sono state aggiornate per migliorare il contrasto tra i colori dello sfondo e del primo piano.
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * Colore, forma e posizione non sono gli unici metodi utilizzati per comunicare informazioni o gerarchia nell’applicazione.
 
@@ -47,11 +47,11 @@ L’interfaccia utente di Adobe Campaign Standard semplifica l’interazione deg
 
 * Quando l’utente lascia vuoto un campo ID richiesto, un elemento grafico indica visivamente il campo in errore con il testo del messaggio di errore e le stesse informazioni vengono trasmesse programmaticamente agli utenti con tecnologie assistive come le utilità per la lettura dello schermo.
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * Il contenuto visualizzato al passaggio del mouse o sull’elemento attivo può essere ignorato dall’utente e non oscura altri contenuti.
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * Sono stati aggiunti testi alternativi per le immagini e nomi accessibili per i pulsanti, che possono essere letti ad alta voce con tecnologia assistiva, consentendo di non affidarsi esclusivamente ai segnali visivi per identificare gli elementi.
 

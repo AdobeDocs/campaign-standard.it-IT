@@ -1,5 +1,5 @@
 ---
-title: Messaggi non recapitati e non trasferibili
+title: Messaggi non recapitabili e mancati recapiti
 description: Con il rapporto sui messaggi non recapitati e non recapitati pronto all’uso, scopri gli errori che possono verificarsi alla consegna.
 audience: reporting
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 ---
 
-# Messaggi non recapitati e non trasferibili{#non-deliverables-and-bounces}
+# Messaggi non recapitabili e mancati recapiti{#non-deliverables-and-bounces}
 
 Il **[!UICONTROL Non-deliverables and bounces]** Il rapporto fornisce dettagli su tutti gli errori riscontrati durante una consegna.
 

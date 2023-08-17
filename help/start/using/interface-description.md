@@ -53,7 +53,7 @@ I principi di navigazione sono i seguenti:
 
 * Il **Adobe** nell’angolo in alto a sinistra della pagina ti consente di accedere alle funzionalità e alle configurazioni avanzate. I menu dipendono dal profilo e dalle autorizzazioni.
 
-   Il menu avanzato è presentato nella sezione [Menu avanzato](#advanced-menu).
+  Il menu avanzato è presentato nella sezione [Menu avanzato](#advanced-menu).
 
 * Il collegamento **[!UICONTROL Home]** ti consente di visualizzare la pagina Home di Adobe Campaign.
 * I collegamenti **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** e **[!UICONTROL Reports]** ti consentono di accedere alle viste collegate a tali funzionalità.
@@ -77,7 +77,7 @@ Tre schede ti aiutano a trovare aiuto e assistenza:
    * a **[!UICONTROL Learning]** che ti consente di accedere alla libreria dei corsi di Adobe Campaign.
    * a **[!UICONTROL Community]** link per accedere al forum dedicato alle tue domande su Campaign.
    * un accesso diretto a: Centro assistenza, Assistenza clienti, Stato del prodotto di Experience Cloud, connessione per sviluppatori, Note sulla versione, Pianificazione della versione e **[!UICONTROL About]** schermo.
-1. Il **[!UICONTROL Support]** La scheda ti consente di aprire un caso di supporto e di contattarci telefonicamente o tramite Twitter.
+1. Il **[!UICONTROL Support]** La scheda ti consente di aprire un caso di supporto e di contattarci per telefono o Twitter.
 1. Il **[!UICONTROL Feedback]**  consente di segnalare i problemi o condividere le idee in modo più semplice.
 
 ## Menu avanzato {#advanced-menu}
@@ -126,23 +126,23 @@ Il contenuto e il formato di visualizzazione della zona centrale possono variare
 
 * Un **elenco** che presenta vari elementi quali programmi, campagne, profili e così via. Questi elementi possono essere visualizzati in modalità **[!UICONTROL Card]** o **[!UICONTROL List]**. Utilizza il pulsante di modifica modalità per passare da una all’altra. Ogni elemento visualizza degli indicatori.
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   Un contatore consente di conoscere il numero degli elementi. Se questo numero supera i 30, è necessario fare clic su questo contatore per ottenere il numero totale.
+  Un contatore consente di conoscere il numero degli elementi. Se questo numero supera i 30, è necessario fare clic su questo contatore per ottenere il numero totale.
 
 * Un **dashboard** che presenta una panoramica di tutti i parametri collegati a un’attività. Questa schermata include aree interattive che ti consentono di separare e configurare i diversi concetti in modo indipendente.
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * Se durante la creazione di un elemento sono possibili diverse offerte, una **schermata di selezione** ti consente di scegliere il tipo di elemento da aggiungere (campagne, consegne). Questa schermata di selezione è disponibile anche per accedere ai report.
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * Per i flussi di lavoro e per l’editor delle query, è disponibile un’**area di lavoro** con una palette per la progettazione dell’oggetto.
 
-   Puoi trascinare e rilasciare gli elementi dalla palette nell’area di lavoro e configurare così l’elemento in questione.
+  Puoi trascinare e rilasciare gli elementi dalla palette nell’area di lavoro e configurare così l’elemento in questione.
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
 ## Barra delle azioni {#action-bar}
 

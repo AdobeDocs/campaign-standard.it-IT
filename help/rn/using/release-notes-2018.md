@@ -47,15 +47,15 @@ ht-degree: 6%
 * Nei broadlog esiste ora una distinzione tra il numero massimo di connessioni e il numero massimo di messaggi all&#39;ora. Una volta raggiunti i limiti, è possibile comprendere perché il throughput è limitato. In precedenza, lo stesso messaggio (&quot;quota soddisfatta&quot;) si applicava a entrambi i casi.
 * Durante la configurazione di un’app mobile in Campaign, l’utente ora può sapere se il certificato iOS e la chiave del server Android sono stati caricati correttamente e la loro data di scadenza.
 
-   Per ulteriori informazioni, consulta la documentazione dettagliata su come configurare un’app mobile utilizzando [SDK V4](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) e [SDK V5](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
+  Per ulteriori informazioni, consulta la documentazione dettagliata su come configurare un’app mobile utilizzando [SDK V4](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) e [SDK V5](https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html).
 
 * Puoi indirizzare l’attività agli utenti di una specifica app mobile selezionando un’app mobile durante la definizione delle proprietà della campagna. Questa funzione è valida sia per i canali di messaggistica push che in-app.
 
-   Per ulteriori informazioni, consulta la [documentazione dettagliata](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
+  Per ulteriori informazioni, consulta la [documentazione dettagliata](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
 * Quando si seleziona un blocco di contenuto tramite l’interfaccia di Creative Designer, ora vengono caricati e visualizzati tutti i blocchi di contenuto dell’elenco. (CAMP-27311)
 
-   Per ulteriori informazioni, consulta [documentazione dettagliata](../../designing/using/personalization.md#adding-a-content-block).
+  Per ulteriori informazioni, consulta [documentazione dettagliata](../../designing/using/personalization.md#adding-a-content-block).
 
 **Patch**
 
@@ -224,7 +224,7 @@ ht-degree: 6%
 
 * L’attività del flusso di lavoro Read Audience può ora leggere tipi di pubblico di Experienci Cloud. In precedenza, questa attività poteva leggere solo i tipi di pubblico Query ed List. Consulta la sezione [documentazione dettagliata](../../automating/using/read-audience.md). (CAMP-23623)
 * L&#39;identificatore dell&#39;origine dati condivisa predefinita è ora in modalità di sola lettura e non può più essere modificato. La modifica di questo identificatore potrebbe causare alcuni problemi durante la condivisione di tipi di pubblico con l’Experience Cloud.
-* L’importazione di tipi di pubblico da Audience Manager ora funziona con file suddivisi. In precedenza, solo l’ultimo file del segmento veniva importato dal flusso di lavoro tecnico importSharedAudience.
+* L’importazione di tipi di pubblico da Audienci Manager ora funziona con file suddivisi. In precedenza, solo l’ultimo file del segmento veniva importato dal flusso di lavoro tecnico importSharedAudience.
 * Gli account esterni AWS S3 ora supportano le aree geografiche e il meccanismo di autenticazione versione 4. Consulta la sezione [documentazione dettagliata](../../administration/using/external-accounts.md).
 * La finestra di selezione delle risorse ora si carica più rapidamente e consente di selezionare una risorsa e quindi di uscire dalla finestra senza alcun problema.
 * Le proprietà e la struttura dei flussi di lavoro tecnici possono ora essere modificati da utenti con diritti di amministrazione e appartenenti alle unità organizzative e geografiche &quot;All&quot;.
@@ -269,7 +269,7 @@ _Flussi di lavoro_
 
 * Gestione della memoria migliorata e prestazioni ottimizzate nei flussi di lavoro.
 
-_Reportistica_
+_Generazione rapporti_
 
 * Il flusso di lavoro di condivisione dei KPI ora recupera i valori di consegna per gli ultimi 2 mesi invece degli ultimi 6 mesi. È stato risolto un problema a causa del quale l’account esterno di condivisione KPI mostrava date troncate.
 * È stato risolto un problema che poteva causare la mancata considerazione di alcuni messaggi in **Inviato**, **Consegnato** e **Mancato recapito** metriche.

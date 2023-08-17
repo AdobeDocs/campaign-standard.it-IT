@@ -69,7 +69,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 Ottieni l’attenzione dei clienti e migliora il tasso di risposta utilizzando contenuti e intestazioni personalizzati in base ai loro profili, alle loro preferenze e alla loro attività. Tutte le informazioni sui clienti sono centralizzate in Adobe Campaign e puoi offrire messaggi contenenti contenuti adattati tramite diversi canali.
 
-I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, offrire esperienze personalizzate e aumentare i tassi di apertura e conversione. I messaggi cross-channel consegnati da Adobe Campaign possono essere personalizzati in diversi modi. Questi modi possono essere combinati con criteri che dipendono dai profili. È possibile eseguire le seguenti operazioni:
+I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, offrire esperienze personalizzate e aumentare i tassi di apertura e conversione. I messaggi cross-channel consegnati da Adobe Campaign possono essere personalizzati in diversi modi. Questi modi possono essere combinati con criteri che dipendono dai profili. Puoi:
 
 * Inserisci [campi di personalizzazione dinamici](../../designing/using/personalization.md#inserting-a-personalization-field) nei messaggi
 * Inserisci [blocchi di personalizzazione predefiniti](../../designing/using/personalization.md#adding-a-content-block)

@@ -249,7 +249,7 @@ Quando modifichi un’e-mail con E-mail Designer, puoi salvarne direttamente una
 
 * Non puoi salvare come frammento una struttura contenente campi di personalizzazione, contenuto dinamico o un altro frammento.
 * È possibile selezionare solo strutture adiacenti.
-   <!-- - You cannot select an empty structure.-->
+  <!-- - You cannot select an empty structure.-->
 
 1. Durante la modifica di un’e-mail in E-mail Designer, seleziona **[!UICONTROL Save as fragment]** dalla barra degli strumenti principale.
 

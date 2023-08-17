@@ -84,7 +84,7 @@ Le proprietà del flusso di lavoro ti consentono di definire un fuso orario spec
 
 ### Progettazione flussi di lavoro
 
-Per garantire il corretto completamento del flusso di lavoro, evita di uscire dall’ultima transizione di un flusso di lavoro utilizzando una **[!UICONTROL End activity]**.
+Per garantire il corretto completamento del flusso di lavoro, evita di uscire dall’ultima transizione di un flusso di lavoro utilizzando un’ **[!UICONTROL End activity]**.
 
 Per accedere alla visualizzazione dettagliata delle transizioni, seleziona l’opzione **[!UICONTROL Keep interim results]** nella sezione Execution delle proprietà del flusso di lavoro.
 

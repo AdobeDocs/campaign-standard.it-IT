@@ -56,7 +56,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
    * **[!UICONTROL Single notification]**: la notifica push viene inviata una sola volta. Puoi specificare qui se desideri aggiungere o meno una transizione in uscita all’attività. I diversi tipi di transizione sono descritti nel passaggio 7 di questa procedura.
    * **[!UICONTROL Recurring notification]**: la notifica push viene inviata diverse volte, in base alla frequenza definita in una **[!UICONTROL Scheduler]** attività. Seleziona il periodo di aggregazione degli invii. Ciò ti consente di raggruppare tutti gli invii che avvengono durante il periodo definito in un’unica notifica push, denominata **esecuzione ricorrente** e sono accessibili dall’elenco delle attività di marketing dell’applicazione.
 
-      Ad esempio, per una notifica di compleanno ricorrente, inviata ogni giorno, puoi scegliere di aggregare gli invii al mese. Questo ti consente di ricevere report sulla consegna su base mensile, anche se la notifica viene inviata ogni giorno.
+     Ad esempio, per una notifica di compleanno ricorrente, inviata ogni giorno, puoi scegliere di aggregare gli invii al mese. Questo ti consente di ricevere report sulla consegna su base mensile, anche se la notifica viene inviata ogni giorno.
 
 1. Seleziona un tipo di notifica. Questi tipi provengono dai modelli di notifiche push definiti nella **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** menu.
 1. Immetti le proprietà generali per la notifica push. Puoi anche allegarlo a una campagna esistente. L’etichetta dell’attività di consegna del flusso di lavoro viene aggiornata con l’etichetta della notifica push.

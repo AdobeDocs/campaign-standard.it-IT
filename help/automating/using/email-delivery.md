@@ -62,7 +62,8 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
    * **[!UICONTROL Email]**: l’e-mail viene inviata una sola volta. Puoi specificare qui se desideri aggiungere o meno una transizione in uscita all’attività. I diversi tipi di transizione sono descritti nel passaggio 7 di questa procedura.
    * **[!UICONTROL Recurring email]**: l’e-mail viene inviata diverse volte, in base alla frequenza definita in un’attività **[!UICONTROL Scheduler]**. Seleziona il periodo di aggregazione degli invii. Ciò ti consente di raggruppare tutti gli invii che avvengono durante il periodo definito in un’unica e-mail, denominata anche **Esecuzione ricorrente**, e a cui è possibile accedere dall’elenco delle attività di marketing dell’applicazione.
 
-      Ad esempio, per un’e-mail di compleanno ricorrente, inviata ogni giorno, puoi scegliere di aggregare gli invii al mese. Ciò ti consente di ricevere report sulla consegna su base mensile, anche se l’e-mail viene inviata ogni giorno.
+     Ad esempio, per un’e-mail di compleanno ricorrente, inviata ogni giorno, puoi scegliere di aggregare gli invii al mese. Ciò ti consente di ricevere report sulla consegna su base mensile, anche se l’e-mail viene inviata ogni giorno.
+
    >[!NOTE]
    >
    >Le consegne ricorrenti vengono preparate in base al **periodo di aggregazione**. Ad esempio, se il periodo di aggregazione è &quot;per giorno&quot;, la consegna verrà ripreparata solo una volta al giorno. Se prevedi di chiamare questo flusso di lavoro più volte al giorno, utilizza [!UICONTROL No aggregation].

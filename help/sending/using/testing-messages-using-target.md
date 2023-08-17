@@ -43,7 +43,7 @@ Le fasi principali sono le seguenti:
 
 ## Selezione di profili e indirizzi di sostituzione {#selecting-profiles}
 
-Per utilizzare i profili target per il test, devi innanzitutto selezionarli e quindi definire gli indirizzi di sostituzione che riceveranno le bozze. A tale scopo, puoi effettuare le seguenti operazioni: [seleziona profili specifici](#selecting-individual-profiles) tra i profili target, oppure [importare profili da un pubblico esistente](#importing-from-audience).
+Per utilizzare i profili target per il test, devi innanzitutto selezionarli e quindi definire gli indirizzi di sostituzione che riceveranno le bozze. A questo scopo, puoi effettuare le seguenti operazioni: [seleziona profili specifici](#selecting-individual-profiles) tra i profili target, oppure [importare profili da un pubblico esistente](#importing-from-audience).
 
 >[!NOTE]
 >
@@ -183,7 +183,7 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 
 1. Prepara il file da importare per creare il pubblico. Nel nostro caso, dovrebbe contenere l’indirizzo di sostituzione da utilizzare per la bozza e un prefisso da aggiungere nella riga dell’oggetto della bozza.
 
-   In questo esempio, l’indirizzo e-mail &quot;oliver.vaughan@internal.com&quot; riceverà una bozza del messaggio destinato al profilo con l’indirizzo e-mail &quot;john.doe@mail.com&quot;. Il prefisso &quot;JD&quot; verrà aggiunto alla riga dell’oggetto della bozza.
+   In questo esempio, l’indirizzo e-mail &quot;oliver.vaughan@internal.com&quot; riceverà una prova del messaggio indirizzato al profilo con l’indirizzo e-mail &quot;john.doe@mail.com&quot;. Il prefisso &quot;JD&quot; verrà aggiunto alla riga dell’oggetto della bozza.
 
    ![](assets/substitution_uc1.png)
 

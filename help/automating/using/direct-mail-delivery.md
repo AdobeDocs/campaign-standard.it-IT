@@ -58,11 +58,11 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
    * **[!UICONTROL Direct mail]**: la direct mailing viene inviata una sola volta. Puoi specificare qui se desideri aggiungere o meno una transizione in uscita all’attività. I diversi tipi di transizione sono descritti nel passaggio 7 di questa procedura.
    * **[!UICONTROL Recurring direct mail]**: la direct mailing viene inviata diverse volte, in base alla frequenza definita in un’attività **[!UICONTROL Scheduler]**. Seleziona il periodo di aggregazione degli invii. Ciò ti consente di raggruppare tutti gli invii che avvengono durante il periodo definito in un’unica direct mailing, denominata anche **Esecuzione ricorrente**, e a cui è possibile accedere dall’elenco delle attività di marketing dell’applicazione.
 
-      Ad esempio, per una mail di compleanno ricorrente, elaborata ogni giorno, puoi scegliere di aggregare gli invii al mese. Ciò ti consente di ricevere report sulla consegna su base mensile, anche se la mail viene elaborata ogni giorno.
+     Ad esempio, per una mail di compleanno ricorrente, elaborata ogni giorno, puoi scegliere di aggregare gli invii al mese. Ciò ti consente di ricevere report sulla consegna su base mensile, anche se la mail viene elaborata ogni giorno.
 
-      >[!NOTE]
-      >
-      >Per le direct mailing ricorrenti, viene generato un nuovo file a ogni esecuzione del flusso di lavoro. Il periodo di aggregazione selezionato non ha alcun impatto su questo comportamento.
+     >[!NOTE]
+     >
+     >Per le direct mailing ricorrenti, viene generato un nuovo file a ogni esecuzione del flusso di lavoro. Il periodo di aggregazione selezionato non ha alcun impatto su questo comportamento.
 
 1. Seleziona un tipo di direct mailing. I tipi di direct mailing provengono dai modelli definiti nel menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Immetti le proprietà generali per la direct mailing. Puoi anche allegarla a una campagna esistente. L’etichetta dell’attività di consegna del flusso di lavoro viene aggiornata con l’etichetta direct mailing.

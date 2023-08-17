@@ -41,12 +41,12 @@ Termini utilizzati nelle sezioni seguenti:
 
 * **Profilo**: profilo è un modello dati standard di Experience Platform utilizzato per definire gli attributi dei consumatori. Un profilo può anche essere un aggregato di dati evento e attributi relativi a una persona e/o a un dispositivo.
 
-   Esempio: &quot;John Doe è un uomo di 55 anni.&quot;
+  Esempio: &quot;John Doe è un uomo di 55 anni.&quot;
 
 * **Segmento**: un set di regole che definisce un sottoinsieme di profili dal database, utilizzando sia gli attributi che i dati evento.
 
-   Esempio: &quot;Maschi > 50 anni&quot;.
+  Esempio: &quot;Maschi > 50 anni&quot;.
 
 * **Pubblico**: raccolta di profili che soddisfano le regole dei segmenti.
 
-   Esempio: elenco dei profili corrispondenti a tutti i maschi di età > 50 anni presenti nel database.
+  Esempio: elenco dei profili corrispondenti a tutti i maschi di età > 50 anni presenti nel database.

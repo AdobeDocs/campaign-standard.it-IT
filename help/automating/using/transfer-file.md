@@ -56,13 +56,13 @@ Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati
 
 1. La sezione **[!UICONTROL Additional options]**, disponibile a seconda del protocollo selezionato, ti consente di aggiungere parametri al protocollo.
 
-   È possibile eseguire le seguenti operazioni:
+   Puoi:
 
    * **[!UICONTROL Delete the source files after transfer]**: cancella i file sul server remoto. Se lasci questa opzione deselezionata, assicurati di monitorare manualmente le dimensioni del contenuto archiviato nella directory SFTP.
 
    * **[!UICONTROL Sorting files]**: consente di ordinare i file in ordine alfanumerico. Questa opzione è disabilitata per impostazione predefinita.
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
    * **[!UICONTROL List all files]**: questa opzione è disponibile quando selezioni la **[!UICONTROL File listing]** azione in **[!UICONTROL General]** scheda. Ti consente di indicizzare tutti i file presenti sul server nella variabile dell’evento **vars.filenames**, in cui i nomi dei file sono separati da **“n”** caratteri.
 

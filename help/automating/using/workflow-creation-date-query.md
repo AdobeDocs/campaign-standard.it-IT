@@ -47,7 +47,7 @@ Puoi inviare un’offerta tramite e-mail nell’anniversario della creazione del
 
 ### Recupero dei profili creati lo stesso giorno dell’esecuzione {#retrieving-profiles-created-on-the-same-day}
 
-1. In entrata **[!UICONTROL Profile]**, trascina e rilascia **[!UICONTROL Created]** campo. e fai clic su **[!UICONTROL Advanced Mode]**.
+1. In entrata **[!UICONTROL Profile]**, trascina e rilascia la **[!UICONTROL Created]** campo. e fai clic su **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
 1. In **[!UICONTROL list of functions]**, doppio clic **[!UICONTROL Day]** dal **[!UICONTROL Date]** nodo.
 1. Quindi, inserisci il campo **[!UICONTROL Created]** come argomento.

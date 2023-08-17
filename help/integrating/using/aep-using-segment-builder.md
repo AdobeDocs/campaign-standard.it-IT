@@ -70,11 +70,11 @@ I campi sono organizzati in schede:
 
 * **[!UICONTROL Attributes]**: attributi di profili esistenti che possono provenire dal database Adobe Campaign e/o Adobe Experience Platform. Si riferiscono a informazioni statiche allegate a un profilo (ad esempio indirizzo e-mail, paese di residenza, stato del programma fedeltà, ecc.).
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
 * **[!UICONTROL Events]**: attività che identificano i consumatori che hanno avuto qualche interazione con i punti di contatto dei clienti della tua azienda, ad esempio &quot;chiunque abbia ordinato due volte in due settimane&quot;. Può essere inviato in streaming da Adobe Analytics o acquisito direttamente in Adobe Experience Platform utilizzando strumenti ETL di terze parti.
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Una volta collegate, le due regole formano un contenitore.
 
 Il Generatore di segmenti consente di confrontare due campi per definire una regola. Ad esempio, le donne il cui indirizzo principale si trova in un codice postale diverso dall’indirizzo di lavoro.
 
-Per farlo, esegui questi passaggi:
+Per farlo, segui questi passaggi:
 
 1. Trascinare il primo campo che si desidera confrontare, ad esempio il CAP dell&#39;indirizzo dell&#39;abitazione, nell&#39;area di lavoro centrale.
 

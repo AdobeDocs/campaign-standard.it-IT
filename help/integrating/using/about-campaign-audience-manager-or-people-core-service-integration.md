@@ -1,6 +1,6 @@
 ---
 title: Informazioni sull’integrazione di Campaign con Audience Manager o il servizio core People
-description: Con l’integrazione del servizio di base Audience Manager/People, puoi condividere audience o segmenti all’interno delle diverse soluzioni Adobe Experience Cloud.
+description: Con l’integrazione del servizio di base Audienci Manager/People, puoi condividere audience o segmenti all’interno delle diverse soluzioni Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
@@ -29,25 +29,25 @@ Adobe Campaign consente di scambiare e condividere tipi di pubblico/segmenti con
 L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
 * **ID visitatore**: questo tipo di ID ti consente di riconciliare i visitatori di Adobe Experience Cloud con i profili Adobe Campaign. Non appena viene abilitata una connessione tramite Adobe IMS, viene attivato il servizio ID visitatore del Marketing Cloud, che sostituisce il cookie permanente utilizzato da Adobe Campaign. Questo consente di identificare un visitatore e quindi collegarlo a un profilo.
-   <br>Un ID visitatore viene collegato a un profilo non appena quest’ultimo fa clic in un’e-mail inviata tramite Adobe Campaign:
+  <br>Un ID visitatore viene collegato a un profilo non appena quest’ultimo fa clic in un’e-mail inviata tramite Adobe Campaign:
    * Se il profilo dispone già di un ID visitatore, i dati del browser del profilo consentono ad Adobe Campaign di recuperare e collegare automaticamente il profilo all’ID visitatore.
    * Se non viene trovato alcun ID visitatore, viene creato un nuovo ID. Questo ID visitatore viene memorizzato nei registri di tracciamento del profilo.
 
-   L’ID verrà quindi riconosciuto dalle altre applicazioni Adobe Marketing Cloud con lo stesso CNAME.
+  L’ID verrà quindi riconosciuto dalle altre applicazioni Adobe Marketing Cloud con lo stesso CNAME.
 
 * **ID dichiarato**: questo tipo di ID ti consente di riconciliare qualsiasi tipo di dati con gli elementi del database di Adobe Campaign. In Adobe Campaign è rappresentato come chiave di riconciliazione predefinita. Quando si scambiano dati, agli identificatori del database di Adobe Campaign viene applicato l’hash. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o esportazione.
-   <br>Questa integrazione supporta ID dichiarati regolari, ID dichiarati con hash e ID dichiarati crittografati.
+  <br>Questa integrazione supporta ID dichiarati regolari, ID dichiarati con hash e ID dichiarati crittografati.
 
-   >[!NOTE]
-   >
-   >L’origine dati ID dichiarato ora piò essere utilizzata anche con l’integrazione del servizio core People.
-   >
-   >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
+  >[!NOTE]
+  >
+  >L’origine dati ID dichiarato ora piò essere utilizzata anche con l’integrazione del servizio core People.
+  >
+  >Se utilizzi l’integrazione con il servizio core People e desideri aggiungere l’integrazione con Audience Manager, ti servirà l’aiuto di un consulente Adobe Audience Manager per evitare di perdere tutte le sincronizzazioni ID raccolte durante la transizione all’utilizzo dell’origine dati ID dichiarato in un contesto Adobe Audience Manager.
 
 
-   La crittografia consente di condividere dati crittografati in origini dati (ad esempio PII) utilizzando l’ID dichiarato specificando l’algoritmo di crittografia.
+  La crittografia consente di condividere dati crittografati in origini dati (ad esempio PII) utilizzando l’ID dichiarato specificando l’algoritmo di crittografia.
 
-   Ad esempio, con la possibilità di decrittografare indirizzi e-mail o numeri SMS crittografati, puoi anche inviare messaggi attivati ai tuoi utenti anche se il loro profilo non esiste nel database di Adobe Campaign.
+  Ad esempio, con la possibilità di decrittografare indirizzi e-mail o numeri SMS crittografati, puoi anche inviare messaggi attivati ai tuoi utenti anche se il loro profilo non esiste nel database di Adobe Campaign.
 
 Il diagramma seguente illustra il funzionamento di questa integrazione. Qui AAM sta per Adobe Audience Manager e ACS per Adobe Campaign Standard.
 

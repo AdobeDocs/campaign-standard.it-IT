@@ -179,7 +179,7 @@ Il valore **N/D** possono a volte essere visualizzate nei rapporti dinamici. Que
 * Quando si trascina **[!UICONTROL Transactional Delivery]** ai rapporti, il valore **N/D** potrebbe apparire come risultato. Questo accade perché il rapporto dinamico recupera ogni consegna anche se non è transazionale. Ciò può verificarsi anche quando si trascina **[!UICONTROL Delivery]** nel rapporto, ma in questo caso, il **N/D** Il valore rappresenta le consegne transazionali.
 * Quando una dimensione viene utilizzata con una metrica non correlata alla dimensione. Nell’esempio seguente, viene aggiunta una suddivisione con il **[!UICONTROL Tracking URL]** anche se il **[!UICONTROL Click]** il conteggio è impostato su 0 in questa consegna.
 
-   ![](assets/troubleshooting_4.png)
+  ![](assets/troubleshooting_4.png)
 
 ## I rapporti delle consegne mostrano dati incompleti quando si utilizza la mappatura Target personalizzata
 

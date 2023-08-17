@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>publicLabel</td>
-                  <td>Etichetta servizio</td>
+                  <td>Etichetta del servizio</td>
                   <td>stringa (128)</td>
                   <td> </td>
                </tr>

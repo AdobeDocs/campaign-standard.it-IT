@@ -48,23 +48,23 @@ Nella sezione **[!UICONTROL Target extraction]**, seleziona una delle opzioni se
 
 * **[!UICONTROL Random sampling]**: durante la preparazione della consegna, Adobe Campaign estrarrà in modo casuale un numero di profili corrispondente alla percentuale o al numero massimo che verrà impostato come [limite di dimensioni](#size-limit).
 
-   Ad esempio, se in seguito scegli di impostare su 10 la soglia nella sezione **[!UICONTROL Limits]**, il gruppo di controllo sarà composto da un 10% selezionato in modo casuale dalla popolazione target.<!--Change screenshot to match example)-->
+  Ad esempio, se in seguito scegli di impostare su 10 la soglia nella sezione **[!UICONTROL Limits]**, il gruppo di controllo sarà composto da un 10% selezionato in modo casuale dalla popolazione target.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Keep only the first records after sorting]**: questa opzione consente di definire un limite basato su uno o più criteri di ordinamento.
 
-   Ad esempio:
+  Ad esempio:
 
    * Seleziona il **[!UICONTROL Age]** campo come criterio di ordinamento.
    * Inserisci 100 come soglia nella sezione **[!UICONTROL Limits]** (vedi [Limite di dimensioni](#size-limit)).
    * Lascia selezionata l’opzione **[!UICONTROL Descending sort]**.
 
-   In questo modo il gruppo di controllo sarà composto dai 100 destinatari più anziani.<!--Change screenshot to match example)-->
+  In questo modo il gruppo di controllo sarà composto dai 100 destinatari più anziani.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   Può essere interessante definire un gruppo di controllo che includa profili che effettuino acquisti limitati o frequenti e confrontare il loro comportamento con quello dei destinatari contattati.
+  Può essere interessante definire un gruppo di controllo che includa profili che effettuino acquisti limitati o frequenti e confrontare il loro comportamento con quello dei destinatari contattati.
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ Selezionando sia **[!UICONTROL Random sampling]** che **[!UICONTROL Keep only th
 
 * Seleziona **[!UICONTROL Size (as a % of the initial population)]** e riempi il fotogramma corrispondente.
 
-   Ad esempio, impostando 10, a seconda dell’opzione selezionata in precedenza, Adobe Campaign:
+  Ad esempio, impostando 10, a seconda dell’opzione selezionata in precedenza, Adobe Campaign:
    * Estrae casualmente il 10% della popolazione target.
    * Selezionando il campo **[!UICONTROL Age]** come criterio di ordinamento, estrae dalla popolazione target il 10% dei profili più anziani.
 
-   >[!NOTE]
-   >
-   >Deselezionando l’opzione **[!UICONTROL Descending sort]**, estrae il 10% dei profili più giovani.
+  >[!NOTE]
+  >
+  >Deselezionando l’opzione **[!UICONTROL Descending sort]**, estrae il 10% dei profili più giovani.
 
 * Seleziona **[!UICONTROL Maximum size]** e riempi il fotogramma corrispondente.
 
-   Ad esempio, impostando 100, Adobe Campaign:
+  Ad esempio, impostando 100, Adobe Campaign:
    * Estrae casualmente 100 profili dalla popolazione target.
    * Selezionando il campo **[!UICONTROL Age]** come criterio di ordinamento, estrae dalla popolazione target i 100 profili più anziani.
 
-   >[!NOTE]
-   >
-   >Deselezionando l’opzione **[!UICONTROL Descending sort]**, estrae i 100 profili più giovani.
+  >[!NOTE]
+  >
+  >Deselezionando l’opzione **[!UICONTROL Descending sort]**, estrae i 100 profili più giovani.
 
 ## Esclusione di una popolazione specifica {#excluding-specific-population}
 
@@ -163,11 +163,11 @@ Per vedere quali profili sono stati rimossi dal target dopo l’invio del messag
 
 * Nella scheda **[!UICONTROL Sending logs]** puoi visualizzare i profili estratti ed esclusi. Possiedono lo status **[!UICONTROL Ignored]** e **[!UICONTROL Control group]** come causa dell’esclusione.
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * È inoltre possibile controllare la scheda **[!UICONTROL Exclusion causes]** per visualizzare il numero di profili non inclusi nella consegna.
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### Utilizzo dei registri dei gruppi di controllo {#using-logs}
 

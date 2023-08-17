@@ -53,7 +53,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
    * **[!UICONTROL SMS]**: l’SMS viene inviato una sola volta. Puoi specificare qui se desideri aggiungere o meno una transizione in uscita all’attività. I diversi tipi di transizione sono descritti nel passaggio 7 di questa procedura.
    * **[!UICONTROL Recurring SMS]**: l’SMS viene inviato diverse volte, in base alla frequenza definita in un’attività **[!UICONTROL Scheduler]**. Seleziona il periodo di aggregazione degli invii. Ciò consente di raggruppare tutti gli invii che avvengono durante il periodo definito in un’unica vista, denominata anche **Esecuzione ricorrente**, a cui è possibile accedere dall’elenco delle attività di marketing dell’applicazione.
 
-      Ad esempio, per un SMS di compleanno ricorrente, inviato ogni giorno, puoi scegliere di aggregare gli invii al mese. Ciò consente di ricevere report sulla consegna su base mensile, anche se l’SMS viene inviato ogni giorno.
+     Ad esempio, per un SMS di compleanno ricorrente, inviato ogni giorno, puoi scegliere di aggregare gli invii al mese. Ciò consente di ricevere report sulla consegna su base mensile, anche se l’SMS viene inviato ogni giorno.
 
 1. Seleziona un tipo di SMS. I tipi di SMS provengono dai modelli SMS definiti nel menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Inserisci le proprietà generali dell’SMS. Puoi anche allegarlo a una campagna esistente. L’etichetta dell’attività di consegna del flusso di lavoro viene aggiornata con l’etichetta SMS.

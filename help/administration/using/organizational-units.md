@@ -80,7 +80,7 @@ Utenti assegnati al **Utente standard** e **Abbigliamento Geometrixx** I gruppi 
 
 ![](assets/manage_units_7.png)
 
-Poiché l&#39;unità Geometrixx Clothes è un&#39;unità figlio di Geometrixx, quando si tenta di modificare il modello di Geometrixx viene visualizzato il seguente messaggio:
+Poiché l&#39;unità Geometrixx Clothes è un&#39;unità figlio di Geometrixx Geometrixx, quando gli utenti tentano di modificare il modello viene visualizzato il seguente messaggio:
 
 ![](assets/manage_units_8.png)
 

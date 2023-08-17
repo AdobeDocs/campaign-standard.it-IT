@@ -54,7 +54,7 @@ Il tracciamento con Adobe Campaign Standard ti consente di accedere alle seguent
 <td>Tracciamento e-mail</td>
 <td>Tracciamento push</td>
 <td>URL tracciati</td>
-<td>Registri di tracciamento</td>
+<td>Tracciamento registri</td>
 <td>Rapporto di tracciamento</td>
 </tr>
 </table>

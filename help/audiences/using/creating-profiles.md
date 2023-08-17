@@ -51,8 +51,8 @@ Ad esempio, per creare un nuovo profilo direttamente dall’interfaccia utente, 
    * Il **[!UICONTROL Time zone]** del profilo viene utilizzato per inviare consegne secondo il relativo fuso orario. Per ulteriori informazioni, consulta questa [sezione](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * La categoria **[!UICONTROL Channels]**, che contiene l’indirizzo e-mail, il numero di telefono cellulare, le informazioni di rinuncia (opt-out), ti informa su quale canale puoi raggiungere il profilo.
 
-      >[!NOTE]
-      > I numeri di telefono cellulare devono essere sempre in formato internazionale (`+<country><number>`) nella tabella dei profili.
+     >[!NOTE]
+     > I numeri di telefono cellulare devono essere sempre in formato internazionale (`+<country><number>`) nella tabella dei profili.
 
    * La categoria **[!UICONTROL No longer contact]** viene aggiornata dopo che il profilo ha annullato l’abbonamento a un canale.
    * La categoria **[!UICONTROL Address]** contiene l’indirizzo postale che deve essere compilato insieme all’opzione **[!UICONTROL Address specified]** per inviare [direct mailing](../../channels/using/about-direct-mail.md) a questo profilo. Se l’opzione **[!UICONTROL Address specified]** non è selezionata, questo profilo viene escluso da tutte le consegne di direct mailing.

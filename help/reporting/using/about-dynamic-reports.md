@@ -29,11 +29,11 @@ I report sono accessibili:
 
 * Dalla home page selezionando **[!UICONTROL Reports]** nella barra superiore o nella **[!UICONTROL Reports]** per accedere ai rapporti per tutte le consegne.
 
-   ![](assets/campaign_reports_access.png)
+  ![](assets/campaign_reports_access.png)
 
 * In ogni programma, campagna e messaggio, da **Rapporti** facendo clic **Rapporti dinamici** per visualizzare solo i rapporti specifici per la consegna.
 
-   ![](assets/campaign_reports_description.png)
+  ![](assets/campaign_reports_description.png)
 
 Alcuni rapporti non possono essere disponibili immediatamente dopo una consegna, a seconda del tempo necessario per raccogliere ed elaborare le informazioni.
 

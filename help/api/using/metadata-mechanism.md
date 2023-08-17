@@ -31,7 +31,7 @@ La risposta restituisce i metadati principali dalla risorsa (tutti gli altri cam
    * &quot;category&quot;: fornisce la categoria del campo nell’editor delle query.
    * &quot;resType&quot;: il tipo tecnico.
 
-      Se &quot;type&quot; viene completato con il valore &quot;link&quot; o &quot;collection&quot;, il valore resTarget corrisponde al nome della risorsa di destinazione del collegamento.
+     Se &quot;type&quot; viene completato con il valore &quot;link&quot; o &quot;collection&quot;, il valore resTarget corrisponde al nome della risorsa di destinazione del collegamento.
 Se &quot;type&quot; è completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è descritto in **valori** nodo.
 
 * Il **Filtri** node restituisce l’URL per recuperare i filtri associati. Per ulteriori informazioni sui filtri, consulta [questa sezione](../../api/using/filtering.md) sezione.

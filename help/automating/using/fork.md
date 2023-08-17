@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Attività Fork{#fork}
+# Fork{#fork}
 
 ## Descrizione {#description}
 

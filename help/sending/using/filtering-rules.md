@@ -28,7 +28,7 @@ La tabella seguente fornisce informazioni sulle regole di filtro predefinite e s
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione target senza indirizzo specificato (e-mail, indirizzo postale, ecc.) in base al canale selezionato). |
 | **[!UICONTROL Address on denylist]** | Tutto | Esclude gli indirizzi che si trovano nel inserisco nell&#39;elenco Bloccati di. |
 | **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base alla popolazione target **[!UICONTROL Address]** campo. |
-| **[!UICONTROL Exclude mobile applications]** | Applicazione mobile | Sono escluse le sottoscrizioni di app che non corrispondono all’app mobile definita nel messaggio. |
+| **[!UICONTROL Exclude mobile applications]** | Applicazione mobile | Sono escluse le sottoscrizioni di app che non corrispondono a quelle dell’app mobile definita nel messaggio. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In-app | Sono escluse le sottoscrizioni di app che non corrispondono a quelle definite nel messaggio per app mobili (modello in-app). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In-app | Esclude gli abbonamenti alle app che non corrispondono a quelli dell’app mobile definita nel messaggio (modello di trasmissione in-app) |
 | **[!UICONTROL Exclude mobile applications for Push]** | Applicazione mobile | Esclude gli abbonamenti alle app che non corrispondono a quelli dell’app mobile definita nel messaggio (per push) |

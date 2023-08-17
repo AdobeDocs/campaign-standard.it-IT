@@ -31,7 +31,7 @@ I componenti consentono di personalizzare i rapporti con dimensioni, metriche e 
    * **Metriche**: ottiene dettagli sullo stato di un messaggio. Ad esempio, se un messaggio è stato recapitato e l’utente lo ha aperto.
    * **[!UICONTROL Segments]**: filtra i dati in base all’intervallo di età del destinatario. **[!UICONTROL Segments]** può essere trascinata e rilasciata direttamente in una tabella a forma libera o nella barra superiore del pannello.
 
-      Questa categoria è disponibile solo dopo che l’amministratore ha approvato i termini e le condizioni del Dynamic Reporting Usage Agreement che verranno visualizzati sullo schermo. Se l’amministratore rifiuta l’accordo, i segmenti non saranno visibili nel **[!UICONTROL Components]** e i dati non verranno raccolti.
+     Questa categoria è disponibile solo dopo che l’amministratore ha approvato i termini e le condizioni del Dynamic Reporting Usage Agreement che verranno visualizzati sullo schermo. Se l’amministratore rifiuta l’accordo, i segmenti non saranno visibili nel **[!UICONTROL Components]** e i dati non verranno raccolti.
 
    * **Ora**: imposta un periodo di tempo per la tabella.
 

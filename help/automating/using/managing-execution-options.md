@@ -28,23 +28,23 @@ Le opzioni possibili sono:
 
 * **[!UICONTROL History in days]**: specifica il numero di giorni dopo i quali la cronologia deve essere eliminata. La cronologia contiene elementi relativi al flusso di lavoro: registri, attività, eventi (oggetti tecnici collegati all’operazione del flusso di lavoro), nonché file scaricati da **[!UICONTROL Transfer file]** attività. Per i modelli di flusso di lavoro preconfigurati, il valore predefinito è 30 giorni.
 
-   L’eliminazione della cronologia viene eseguita dal flusso di lavoro tecnico per la pulizia del database, che viene eseguito quotidianamente per impostazione predefinita (vedere [Elenco dei flussi di lavoro tecnici](../../administration/using/technical-workflows.md).)
+  L’eliminazione della cronologia viene eseguita dal flusso di lavoro tecnico per la pulizia del database, che viene eseguito quotidianamente per impostazione predefinita (vedere [Elenco dei flussi di lavoro tecnici](../../administration/using/technical-workflows.md).)
 
-   >[!IMPORTANT]
-   >
-   >Se il **[!UICONTROL History in days]** Se questo campo viene lasciato vuoto, il suo valore verrà considerato come &quot;1&quot;, il che significa che la cronologia verrà eliminata dopo 1 giorno.
+  >[!IMPORTANT]
+  >
+  >Se il **[!UICONTROL History in days]** Se questo campo viene lasciato vuoto, il suo valore verrà considerato come &quot;1&quot;, il che significa che la cronologia verrà eliminata dopo 1 giorno.
 
 * **[!UICONTROL Save SQL queries in the log]**: consente di salvare le query SQL dal flusso di lavoro nei registri.
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: seleziona questa opzione se desideri che venga registrato l’intero piano di esecuzione. Per impostazione predefinita, è disabilitata.
 
-   Per ulteriori informazioni su questa opzione, consulta [sezione](#diagnostic-mode).
+  Per ulteriori informazioni su questa opzione, consulta [sezione](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: seleziona questa opzione se desideri visualizzare i dettagli delle transizioni.
 
-   >[!CAUTION]
-   >
-   >Questa opzione consuma molto spazio su disco ed è progettata per consentire la creazione di un flusso di lavoro, garantendone la corretta configurazione e il giusto comportamento. Lascia deselezionata questa opzione nelle istanze di produzione.
+  >[!CAUTION]
+  >
+  >Questa opzione consuma molto spazio su disco ed è progettata per consentire la creazione di un flusso di lavoro, garantendone la corretta configurazione e il giusto comportamento. Lascia deselezionata questa opzione nelle istanze di produzione.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: consente di eseguire il flusso di lavoro a livello locale, a scopo di test dell’ambiente di sviluppo.
 
@@ -84,8 +84,8 @@ Puoi gestire l’opzione dal menu avanzato selezionando **[!UICONTROL Administra
 
 * **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: da **[!UICONTROL Value]** , è possibile impostare una nuova ora per l’esecuzione della query. Se l’esecuzione della query supera questo valore, il piano di esecuzione verrà registrato.
 
-   ![](assets/wkf_diagnostic_2.png)
+  ![](assets/wkf_diagnostic_2.png)
 
 * **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: da **[!UICONTROL Value]** , è possibile modificare la percentuale di tempo di query richiesta dall&#39;analisi della sequenza per generare il consiglio.
 
-   ![](assets/wkf_diagnostic_3.png)
+  ![](assets/wkf_diagnostic_3.png)

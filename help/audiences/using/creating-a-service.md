@@ -45,9 +45,9 @@ Per configurare un servizio:
    * **[!UICONTROL No message]**: con questa modalità puoi creare un servizio senza un messaggio di conferma.
    * **[!UICONTROL Default message]**: con questa modalità utilizzi il messaggio transazionale predefinito di conferma dell’abbonamento o del suo annullamento. I messaggi di conferma predefiniti sono generici e valgono per tutti i servizi che utilizzano la modalità predefinita.
 
-      >[!NOTE]
-      >
-      >Puoi modificare un messaggio predefinito con un clic sulla relativa etichetta nella sezione **[!UICONTROL Service properties]** o selezionandolo dall’elenco dei messaggi transazionali di Adobe Campaign, dopo aver selezionato la casella **[!UICONTROL Show internal transactional messages]**.
+     >[!NOTE]
+     >
+     >Puoi modificare un messaggio predefinito con un clic sulla relativa etichetta nella sezione **[!UICONTROL Service properties]** o selezionandolo dall’elenco dei messaggi transazionali di Adobe Campaign, dopo aver selezionato la casella **[!UICONTROL Show internal transactional messages]**.
 
    * **[!UICONTROL Custom message]**: con questa modalità puoi gestire messaggi di conferma personalizzati, specifici per ogni servizio. Quindi seleziona **[!UICONTROL Custom subscription event configuration]** , associato a un modello di [messaggio transazionale](../../channels/using/getting-started-with-transactional-msg.md) specifico. Per ulteriori informazioni, consulta [Conferma dell&#39;abbonamento a un servizio](../../audiences/using/confirming-subscription-to-a-service.md).
 

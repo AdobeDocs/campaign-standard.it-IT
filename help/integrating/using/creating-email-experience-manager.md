@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# Importazione di un contenuto Adobe Experience Manager in un messaggio e-mail Adobe Campaign {#creating-email-aem}
+# Importazione di un contenuto Adobe Experience Manager in un messaggio e-mail di Adobe Campaign {#creating-email-aem}
 
 Questo documento illustra come creare e gestire i contenuti delle e-mail in Adobe Experience Manager, per poi utilizzarli per le campagne di marketing importandoli nelle e-mail in Adobe Campaign Standard.
 
@@ -27,7 +27,7 @@ Sussistono i seguenti prerequisiti:
 
 ## Accesso alle e-mail in Adobe Experience Manager {#email-content-aem}
 
-Accedi all’istanza di authoring di Adobe Experience Manager e sfoglia il tuo sito per accedere alla cartella contenente i contenuti delle e-mail.
+Accedi all’istanza di authoring di Adobe Experience Manager e sfoglia il tuo sito per accedere alla cartella che contiene i contenuti dell’e-mail.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29996)
 
