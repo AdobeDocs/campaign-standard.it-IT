@@ -1,0 +1,73 @@
+---
+title: Gestione dei tipi di pubblico di Adobe Experience Platform
+description: Scopri come gestire Adobe Experience Platform in Campaign Standard.
+audience: audiences
+content-type: reference
+topic-tags: managing-audiences
+context-tags: audience,wizard;audience,overview;delivery,audience,back
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
+exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
+hide: true
+hidefromtoc: true
+source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 3%
+
+---
+
+# Gestione dei tipi di pubblico di Adobe Experience Platform {#about-audiences}
+
+>[!IMPORTANT]
+>
+>Il servizio Audience Destinations è attualmente in versione beta, e potrebbe essere soggetto ad aggiornamenti frequenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Contatta l’Assistenza clienti di Adobe se desideri accedervi.
+
+## Accesso al pubblico di Adobe Experience Platform
+
+Per accedere al generatore di segmenti di Adobe Experience Platform, passa alla **[!UICONTROL Audiences]** nella home page di Campaign Standard (o nella **[!UICONTROL Audiences]** nell&#39;intestazione), quindi selezionare il **[!UICONTROL Adobe Experience Platform]** ambiente.
+
+![](assets/aep_audiences_access.png)
+
+Verrai innanzitutto indirizzato alla pagina dell’elenco dei segmenti di Adobe Experience Platform, dove è possibile accedere ai segmenti Adobe Experience Platform esistenti per ulteriori modifiche.
+
+Sono disponibili una barra di ricerca e un filtro per individuare il segmento di Adobe Experience Platform desiderato.
+
+![](assets/aep_audiences_list.png)
+
+## Creazione di tipi di pubblico di Adobe Experience Platform
+
+Per creare un pubblico di Adobe Experience Platform direttamente in Campaign Standard, segui questi passaggi:
+
+1. Dalla pagina dell’elenco dei segmenti di Adobe Experience Platform, fai clic su **[!UICONTROL New audience]** nell&#39;angolo destro.
+
+   ![](assets/aep_audiences_creation_create.png)
+
+1. Ora il Generatore di segmenti dovrebbe essere visualizzato nell’area di lavoro. Consente di creare un segmento utilizzando i dati di Adobe Experience Platform che verranno utilizzati per creare il pubblico.
+
+1. Assegna un nome al segmento nel riquadro a destra e immetti una descrizione (facoltativa).
+
+   ![](assets/aep_audiences_creation_edit_name.png)
+
+1. Per creare correttamente un segmento, devi selezionare una **criterio di unione** che corrisponde al tuo scopo di marketing per questo segmento.
+
+   Nel riquadro delle impostazioni viene selezionato un criterio di unione predefinito di Platform. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata dalla sezione [Guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+   ![](assets/aep_audiences_mergepolicy.png)
+
+1. Definisci le regole che identificheranno i profili da recuperare nel pubblico.
+
+   A questo scopo, trascina gli attributi e/o gli eventi desiderati dal riquadro di sinistra all’interno dell’area di lavoro, definisci le regole corrispondenti e fai clic su **[!UICONTROL Create segment]** per salvare il segmento (consulta [Utilizzo del Generatore di segmenti](../../integrating/using/aep-using-segment-builder.md)).
+
+   ![](assets/aep_audiences_creation_query.png)
+
+Il pubblico è ora pronto per essere attivato, puoi utilizzarlo come destinazione per le campagne (consulta [Targeting del pubblico di Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
+
+## Modifica di tipi di pubblico
+
+Per modificare un pubblico, aprilo e modifica le regole in base alle esigenze nell’interfaccia del Generatore di segmenti (vedi [Utilizzo del Generatore di segmenti](../../integrating/using/aep-using-segment-builder.md)).
+
+Una volta completate le modifiche, fai clic su **[!UICONTROL Save segment]** per aggiornare il pubblico.
+
+![](assets/aep_audiences_editing.png)
