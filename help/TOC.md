@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
-source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
-source-wordcount: '1818'
+source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
+workflow-type: ht
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---
@@ -271,22 +271,21 @@ ht-degree: 100%
          + [Mappare i dati tra Microsoft Dynamics 365 e Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Utilizzare l’integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign e Adobe Experience Platform {#adobe-experience-platform}
-      + Origini e destinazioni Adobe Experience Platform {#aep-sources-destinations}
-         + [Guida introduttiva a origini e destinazioni](integrating/using/get-started-sources-destinations.md)
-         + [Inserire il pubblico di Adobe Experience Platform in Campaign](integrating/using/ingest-aep-data.md)
-         + [Esportare dati da Campaign ad Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + Servizio Destinazioni pubblico (beta) {#audience-destinations}
-         + [Informazioni sul servizio Destinazioni pubblico](integrating/using/aep-about-audience-destinations-service.md)
-         + [Gestione dei tipi di pubblico di Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
-         + [Utilizzo del Generatore di segmenti](integrating/using/aep-using-segment-builder.md)
-         + [Targeting dei tipi di pubblico di Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
-         + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
-      + Connettore dati Adobe Experience Platform (beta) {#data-connector}
-         + [Informazioni sul Connettore dati di Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
-         + [Panoramica del modello dati di Experience Platform](integrating/using/aep-data-model-overview.md)
-         + [Definizione mappature](integrating/using/aep-mapping-definition.md)
-         + [Attivazione delle mappature](integrating/using/aep-mapping-activation.md)
-         + [Attivazione dell’acquisizione dati tramite API](integrating/using/aep-triggering-data-ingestion.md)
+      + [Guida introduttiva a origini e destinazioni](integrating/using/get-started-sources-destinations.md)
+      + [Inserire il pubblico di Adobe Experience Platform in Campaign](integrating/using/ingest-aep-data.md)
+      + [Esportare dati da Campaign ad Adobe Experience Platform](integrating/using/export-campaign-data.md)
+         + Servizio Destinazioni pubblico (beta) {#audience-destinations}
+            + [Informazioni sul servizio Destinazioni pubblico](integrating/using/aep-about-audience-destinations-service.md)
+            + [Gestione dei tipi di pubblico di Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
+            + [Utilizzo del Generatore di segmenti](integrating/using/aep-using-segment-builder.md)
+            + [Targeting dei tipi di pubblico di Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
+            + [Personalizzazione di campagne tramite gli attributi di Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
+         + Connettore dati Adobe Experience Platform (beta) {#data-connector}
+            + [Informazioni sul Connettore dati di Adobe Experience Platform](integrating/using/aep-about-data-connector.md)
+            + [Panoramica del modello dati di Experience Platform](integrating/using/aep-data-model-overview.md)
+            + [Definizione mappature](integrating/using/aep-mapping-definition.md)
+            + [Attivazione delle mappature](integrating/using/aep-mapping-activation.md)
+            + [Attivazione dell’acquisizione dati tramite API](integrating/using/aep-triggering-data-ingestion.md)
 + Gestione di processi e dati {#managing-processes-and-data}
    + [Introduzione alla gestione di dati e processi](automating/using/get-started-workflows.md)
    + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
