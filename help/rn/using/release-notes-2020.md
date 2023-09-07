@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '5267'
-ht-degree: 98%
+source-wordcount: '5211'
+ht-degree: 99%
 
 ---
 
@@ -266,7 +266,7 @@ ht-degree: 98%
 
 **Integrazioni con Experience Platform**
 
-* L’attivazione di Adobe [Experience Platform Audiences](../../integrating/using/aep-targeting-audiences.md)dall’attività **Read audience** è stata migliorata per fornire prestazioni e stabilità migliori. Inoltre, i log del flusso di lavoro sono stati resi più chiari e dettagliati per quanto riguarda i processi di attivazione, consentendo un monitoraggio e una risoluzione dei problemi più semplice durante la lettura dei tipi di pubblico in Adobe Experience Platform.
+* L’attivazione di Adobe Experience Platform Audiencesdall’attività **Read audience** è stata migliorata per fornire prestazioni e stabilità migliori. Inoltre, i log del flusso di lavoro sono stati resi più chiari e dettagliati per quanto riguarda i processi di attivazione, consentendo un monitoraggio e una risoluzione dei problemi più semplice durante la lettura dei tipi di pubblico in Adobe Experience Platform.
 
 **Patch**
 
@@ -359,7 +359,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Le funzionalità di Adobe Experience Platform in Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette ad aggiornamenti frequenti senza preavviso. Consulta la documentazione dettagliata: [Connettore dati di Experience Platform](../../integrating/using/aep-about-data-connector.md), [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md)
+>Le funzionalità di Adobe Experience Platform in Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette ad aggiornamenti frequenti senza preavviso. Consulta la documentazione dettagliata: Connettore dati di Experience Platform, Audience Destinations
 
 * Nei registri del flusso di lavoro, Campaign ora visualizza ogni 10 minuti il numero di record già elaborati dal processo attualmente in esecuzione.
 * È stato risolto un problema che poteva verificarsi durante l’importazione di un profilo Adobe Experience Platform eliminato dal database.
@@ -406,7 +406,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td> <p>Il Connettore dati di Adobe Experience Platform è ora integrato con Adobe Campaign Standard. Puoi rendere disponibili i dati di Campaign su Adobe Experience Platform mappando i dati XTK (dati acquisiti in Campaign) su Adobe Experience Platform Data Model (XDM). </p>
-    <p>Questa funzionalità è disponibile solo per i clienti in hosting su Azure. Per ulteriori informazioni su questa funzionalità e sulle relative condizioni di attivazione, consulta la <a href="../../integrating/using/aep-about-data-connector.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video di istruzioni</a>.</p>
+    <p>Questa funzionalità è disponibile solo per i clienti in hosting su Azure.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +421,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations ti consente di condividere segmenti da Adobe Experience Platform ad Adobe Campaign.</p>
-    <p>Questa funzionalità è disponibile solo per i clienti in hosting su Azure. Per ulteriori informazioni su questa funzionalità e sulle relative condizioni di attivazione, consulta la <a href="../../integrating/using/aep-about-audience-destinations-service.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">video di istruzioni</a>. </p>
+    <p>Questa funzionalità è disponibile solo per i clienti in hosting su Azure.</p>
    </td> 
   </tr> 
  </tbody> 
