@@ -14,9 +14,9 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Le [normative principali](#privacy-regulations) si riferiscono alle diverse enti
 
 Pertanto, in quanto azienda che raccoglie e condivide dati personali, ricopri il ruolo di titolare del trattamento, i tuoi clienti costituiscono gli interessati e Adobe Campaign agisce come responsabile del trattamento quando tratta i loro dati personali secondo le istruzioni da te fornite. In quanto titolare del trattamento, sei responsabile della gestione del rapporto con gli interessati, ad esempio durante la gestione delle [richieste di accesso a dati personali](#privacy-requests).
 
-Durante l’integrazione di Campaign con altre soluzioni Experience Cloud in cui i tipi di pubblico possono essere trasferiti da un sistema all’altro, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audienci Manager o il servizio core People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), o con altre soluzioni quali [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), devi prestare maggiore attenzione alla protezione dei dati personali.
+È necessario prestare maggiore attenzione alla protezione dei dati personali durante l’integrazione di Campaign con altre soluzioni Experience Cloud, come [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager o Servizio core People](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) o con altre soluzioni quali [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), in cui i tipi di pubblico possono essere trasferiti da un sistema all’altro.
 
 ## Acquisizione dei dati {#data-acquisition}
 
