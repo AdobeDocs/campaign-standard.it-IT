@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
+source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 24%
+source-wordcount: '254'
+ht-degree: 19%
 
 ---
 
@@ -41,3 +41,10 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 
   Ulteriori informazioni su Adobe Campaign e Experience Cloud Triggers su [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 
+* **Localizzazione** - Le traduzioni del termine &quot;pubblico&quot; quando si fa riferimento a un gruppo di profili target per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per le seguenti lingue:
+
+   * Tedesco: Zielgruppe
+   * Portoghese brasiliano: público-alvo
+   * Spagnolo: público
+
+  Queste modifiche verranno implementate gradualmente con le prossime versioni dell’interfaccia utente e della documentazione.
