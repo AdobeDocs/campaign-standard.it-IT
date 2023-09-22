@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,15 @@ Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di
 
 Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
 
-## Versione 23.1 - Rilascio in primavera/estate 2023 {#release-23-1-release}
+## Versione 23.2 - Autunno/inverno 2023 {#release-23-2-release}
 
 Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](release-notes.md).
+>[!AVAILABILITY]
+>
+>Questa versione è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+
+<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
 
 <table>
  <thead>
@@ -41,11 +45,11 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
  <tbody>
   <tr>
    <td>Fase </td>
-   <td>11 aprile 2023 - luglio 2023 </td>
+   <td>3-9 ottobre 2023 </td>
   </tr>
   <tr>
    <td>Produzione </td>
-   <td>18 aprile 2023 - luglio 2023 </td>
+   <td>12-18 ottobre 2023 </td>
   </tr>
  </tbody>
 </table>

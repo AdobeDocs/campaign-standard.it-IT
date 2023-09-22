@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 24%
 
 ---
 
@@ -18,30 +18,26 @@ ht-degree: 100%
 # Note preliminari sulla versione {#e-new-release}
 
 Questa pagina descrive miglioramenti e correzioni inclusi nella prossima versione di Campaign Standard.
+
 >[!CAUTION]
 >
 > Questo contenuto è soggetto a modifiche senza preavviso fino alla data di aggiornamento degli ambienti di stage. Ulteriori informazioni sono disponibili nella [pagina di pianificazione del rilascio](../../rn/using/release-planning.md).
 
-## Versione 23.1 - Rilascio in primavera/estate 2023 {#apr-23}
+## Versione 23.2 - Autunno/inverno 2023 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>Questa versione è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
 
 ### Miglioramenti {#e-rn-improvements}
 
-* Il servizio di messaggistica push è stato modernizzato per ottimizzare il supporto. (CAMP-47959)
-* Il servizio di messaggistica SMS è stato migliorato per garantire una maggiore stabilità. (CAMP-52217)
-* Adobe ha apportato diverse correzioni di accessibilità per migliorare la facilità d’uso complessiva dell’applicazione. Di seguito sono riportati alcuni esempi di miglioramenti dell’accessibilità:
-   * L’accessibilità da tastiera dell’interfaccia è stata ottimizzata in molte schermate.
-   * L’applicazione è stata perfezionata per gli utenti touch screen.
-   * Il colore di diversi elementi nell’interfaccia è stato modificato per migliorare la visibilità.
+* **Integrazione con Adobe Experience Manager**. Durante la creazione di un modello di consegna per i messaggi transazionali in Adobe Experience Manager, ora puoi personalizzare il messaggio selezionando e utilizzando i campi di personalizzazione definiti in Campaign Standard. In Adobe Experience Manager è disponibile un nuovo elenco a discesa.
 
-### Altre modifiche {#e-rn-changes}
+* **Scadenza cookie** - La scadenza predefinita dei cookie è ora impostata su 6 mesi, in allineamento con la normativa francese.
 
-* Il **Flusso di lavoro per la creazione di arricchimenti di reportistica** preconfigurato è stato aggiunto. Dopo aver importato una mappatura target da un’istanza all’altra, esegui semplicemente il flusso di lavoro per importare le voci di arricchimento di reportistica corrispondenti. (CAMP-52452)
+* **Miglioramento della ricerca nel profilo** - La ricerca del profilo è stata ottimizzata per ridurre gli scenari di timeout
 
-### Problemi risolti{#e-rn-patches}
+* **Integrazione con Adobe Experience Cloud Triggers** - La nuova interfaccia utente di Experience Cloud Triggers offre un’esperienza intuitiva per gestire i comportamenti dei consumatori e personalizzare le esperienze degli utenti. La nuova interfaccia utente di Adobe Experience Cloud Triggers viene gradualmente implementata per tutti i clienti.
 
-* È stato risolto un problema che poteva causare un errore di timeout durante la visualizzazione del rapporto sugli **Hot click**. (CAMP-51582)
-* È stato risolto un problema che poteva impedire l’utilizzo dell’integrazione con il servizio **Luoghi**. (CAMP-51923)
-* È stato risolto un problema che poteva impedire il corretto funzionamento del modulo di pianificazione del flusso di lavoro. (CAMP-52003)
-* È stato risolto un problema che impediva la visualizzazione dei dettagli di raggruppamento nella versione PDF di un rapporto dinamico personalizzato con un volume elevato di dati. (CAMP-52178)
-* È stato risolto un problema che poteva mostrare un errore durante l’accesso ai rapporti. (CAMP-52500)
-* È stato risolto un problema che applicava erroneamente a tutti i canali il parametro **Limita le istanze MTA per questo account** del connettore SMS invece di applicarlo solo a SMS. (CAMP-52640)
+  Ulteriori informazioni su Adobe Campaign e Experience Cloud Triggers su [questa pagina](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
