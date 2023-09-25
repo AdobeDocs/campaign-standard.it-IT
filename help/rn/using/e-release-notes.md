@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 19%
 
 ---
@@ -31,9 +31,9 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 
 ### Miglioramenti {#e-rn-improvements}
 
-* **Integrazione con Adobe Experience Manager**. Durante la creazione di un modello di consegna per i messaggi transazionali in Adobe Experience Manager, ora puoi personalizzare il messaggio selezionando e utilizzando i campi di personalizzazione definiti in Campaign Standard. In Adobe Experience Manager è disponibile un nuovo elenco a discesa.
+* **Integrazione con Adobe Experience Manager**. Durante la creazione di un modello di consegna personalizzato per i messaggi transazionali in Adobe Experience Manager, ora puoi selezionare e utilizzare i campi di personalizzazione definiti in Campaign Standard in un elenco a discesa.
 
-* **Scadenza cookie** - La scadenza predefinita dei cookie è ora impostata su 6 mesi, in allineamento con la normativa francese.
+* **Scadenza cookie** - La scadenza predefinita dei cookie è ora impostata su 6 mesi, in linea con le raccomandazioni dell’Agenzia francese per la protezione dei dati (CNIL).
 
 * **Miglioramento della ricerca nel profilo** - La ricerca del profilo è stata ottimizzata per ridurre gli scenari di timeout
 
