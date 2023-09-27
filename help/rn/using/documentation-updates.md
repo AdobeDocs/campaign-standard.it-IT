@@ -5,16 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '7214'
-ht-degree: 100%
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+workflow-type: tm+mt
+source-wordcount: '7263'
+ht-degree: 98%
 
 ---
 
 # Aggiornamenti alla documentazione{#documentation-updates}
 
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti nella documentazione di Adobe Campaign Standard.
+
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## Settembre 2023 {#doc-updates-sept-2023}
+
+* È ora disponibile la nuova interfaccia utente per Experience Cloud Triggers. Offre un’esperienza intuitiva per gestire i comportamenti dei consumatori e personalizzare le esperienze degli utenti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+## Versione 23.1 - Primavera/Estate 2023 {#release-23-1}
+
+Sono state pubblicate le note sulla versione di Campaign Standard 23.1 Spring/Summer 2023. [Ulteriori informazioni](release-notes.md)
+
 
 ## Novembre 2022 {#doc-updates-november-2022}
 
@@ -24,7 +37,7 @@ Sono state aggiunte informazioni nella sezione pagina delle attività del flusso
 
 ## Versione 22.3 - Autunno/inverno 2022 {#release-22-3}
 
-Sono state pubblicate le note sulla versione autunno/inverno di Campaign Standard 22.3. [Maggiori informazioni](release-notes.md)
+Sono state pubblicate le note sulla versione di Campaign Standard 22.3 autunno/inverno 2022. [Maggiori informazioni](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -226,7 +239,7 @@ La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/u
 
 È stata aggiornata la sezione Guardrail e limitazioni per API esterne. [Leggi tutto](../../automating/using/external-api.md#guardrails)
 
-La Panoramica sulla Gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La pagina Panoramica sulla gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con relativa documentazione tecnica. [Leggi tutto](../../administration/using/push-tracking.md)
 
@@ -396,7 +409,7 @@ La guida introduttiva sulla modalità di esportazione/importazione delle risorse
 
 È stato aggiunto un nuovo caso d’uso che descrive come creare un gruppo di controllo utilizzando un flusso di lavoro all’interno di Campaign Standard.
 
-Le informazioni relative alle proprietà delle pagine di destinazione sono state spostate in una sezione dedicata. [Ulteriori informazioni](../../channels/using/configuring-landing-page.md)
+Le informazioni relative alle proprietà delle pagine di destinazione sono state spostate in una sezione dedicata. [Leggi tutto](../../channels/using/configuring-landing-page.md)
 
 La documentazione del Pannello di controllo è stata integrata nel nuovo set di documentazione collaborativa. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
 
@@ -484,7 +497,7 @@ Report sul segmento del flusso di lavoro - [Ulteriori informazioni](../../report
 
 È stata aggiunta una nota nella sezione [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md) che riguarda la preparazione della consegna e il relativo periodo di aggregazione.
 
-Sono state aggiunte informazioni sulle modalità di personalizzazione dell’etichetta di una consegna con le variabili evento dichiarate nell’attività del segnale esterno del flusso di lavoro. [Ulteriori informazioni](../../automating/using/external-signal.md)
+Sono state aggiunte informazioni su come personalizzare l’etichetta di una consegna con le variabili evento dichiarate nell’attività del segnale esterno del flusso di lavoro. [Ulteriori informazioni](../../automating/using/external-signal.md)
 
 È stata aggiunta una nuova sezione che descrive in dettaglio come creare un utente all’interno di Adobe Campaign Standard. [Ulteriori informazioni](../../administration/using/users-management.md)
 
@@ -770,7 +783,7 @@ Sono state aggiunte informazioni sui tipi di registro di tracciamento. [Ulterior
 
 La sezione attività di query è stata aggiornata con esempi di query. [Ulteriori informazioni](../../automating/using/query.md#query-samples)
 
-La sezione dedicata all’elenco Bloccati è stata rinominata “Informazioni sui processi di consenso e rinuncia”. La sezione è stata aggiornata con le informazioni relative alle modalità di gestione del consenso a canali specifici e di impostazione delle pagine di destinazione per la gestione del consenso e della rinuncia. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La sezione dedicata ai inserisce nell&#39;elenco Bloccati di è stata rinominata &quot;Informazioni sui processi di consenso e rinuncia&quot;. La sezione è stata aggiornata con le informazioni relative alle modalità di gestione del consenso a canali specifici e di impostazione delle pagine di destinazione per la gestione del consenso e della rinuncia. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Scopri le best practice per l’utilizzo dei server SFTP ospitati da Adobe. [Ulteriori informazioni](../../administration/using/external-accounts.md#sftp-external-account)
 
