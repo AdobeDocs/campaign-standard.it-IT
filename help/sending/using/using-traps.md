@@ -9,9 +9,9 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,6 @@ Puoi utilizzare le &quot;trappole&quot; per inviare messaggi transazionali. In q
 
 >[!NOTE]
 >
->Quando si utilizza un profilo di test come trappola, per tutti i campi arricchiti in un messaggio, i dati aggiuntivi corrispondenti vengono scelti in modo casuale da un profilo di destinazione reale e assegnati al profilo di test della trappola. Per ulteriori informazioni sull’arricchimento, consulta [questo esempio](../../automating/using/enriching-profile-data-file.md).
+>Quando si utilizza un profilo di test come trappola, i campi arricchiti all’interno di un messaggio vengono selezionati in modo casuale dai profili di destinazione effettivi e assegnati al profilo di test della trappola. Tuttavia, tieni presente che se il profilo di destinazione reale viene escluso a causa delle regole di tipologia applicate durante la preparazione del primo messaggio, la preparazione della consegna avrà esito negativo. Questo errore si verifica perché i valori dei campi arricchiti non possono essere sostituiti dal profilo di trap. Di conseguenza, le regole di tipologia di esclusione potrebbero non essere applicate correttamente ai destinatari effettivi.
+>
+>Per evitare questa situazione, evita di utilizzare i profili di test di trappole contemporaneamente alle regole di filtro o di affaticamento nella tipologia transazionale. Ulteriori informazioni sull’arricchimento. Per ulteriori informazioni sull’arricchimento, consulta [questo esempio](../../automating/using/enriching-profile-data-file.md).
