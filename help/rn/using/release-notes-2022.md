@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '1201'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Accessibilità**: Adobe ha apportato diverse correzioni di accessibilità per migliorare la facilità d’uso complessiva dell’applicazione. Queste funzionalità sono attualmente abilitate solo per un gruppo iniziale di utenti e verranno estese a tutti i clienti nelle prossime versioni. I miglioramenti dell’accessibilità includono, ad esempio:
+* **Accessibilità** - Adobe ha apportato diverse correzioni di accessibilità per migliorare la facilità d’uso complessiva dell’applicazione. Queste funzionalità sono attualmente abilitate solo per un gruppo iniziale di utenti e verranno estese a tutti i clienti nelle prossime versioni. I miglioramenti dell’accessibilità includono, ad esempio:
 
    * Indicatore visibile di attivazione per gli elementi attivabili su ogni schermata
    * Punti di riferimento nella pagina per una navigazione più semplice
@@ -111,7 +111,7 @@ Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat
 * Per risolvere vari problemi, il meccanismo di Riprova è stato migliorato per le consegne che includono contenuto importato da un URL. [Ulteriori informazioni](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * È stato risolto un problema che si verificava dopo la creazione di un nuovo filtro in una risorsa personalizzata e il suo utilizzo come chiave di riconciliazione in una pagina di destinazione. Se la risorsa personalizzata veniva pubblicata nuovamente, il filtro veniva rimosso dall’elenco delle chiavi di riconciliazione disponibili per la pagina di destinazione. (CAMP-49516)
 * È stato risolto un problema nelle pagine di destinazione che si verificava quando si utilizzavano condizioni dinamiche con le caselle di controllo. (CAMP-48604)
-* È stato risolto un problema che si verificava in un’attività di **Query** se si utilizzava la condizione di filtro “entro il mese di ottobre”. Lavorando da un’istanza impostata su un fuso orario europeo, il mese selezionato per il filtro mostrava settembre anziché ottobre, a causa di un problema di conversione del fuso orario. (CAMP-48602)
+* È stato risolto un problema che si verificava in una **Query** quando si utilizza la condizione di filtro &quot;entro ottobre&quot;. Lavorando da un’istanza impostata su un fuso orario europeo, il mese selezionato per il filtro mostrava settembre anziché ottobre, a causa di un problema di conversione del fuso orario. (CAMP-48602)
 * Per ottimizzare il recapito messaggi, ora Adobe Campaign invia le e-mail utilizzando la codifica a 7 bit anziché a 8 bit. Questo impedisce ai relè intermedi di annullare la validità della firma DKIM che potrebbe influire sull’autenticità dei messaggi. (CAMP-49016)
 * Sono state migliorate le prestazioni durante la duplicazione dei tipi di pubblico al fine di evitare problemi quando si lavora con tipi di pubblico di grandi dimensioni. (CAMP-49639)
 * È stato risolto un problema che poteva impedire a un filtro personalizzato di mostrare i risultati corretti se utilizzato in un’attività di **Query**. (CAMP-49417)

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
+source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 59%
 
 ---
 
@@ -16,6 +16,40 @@ ht-degree: 100%
 # Ultima versione{#latest-release}
 
 ![Pannello di controllo](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it){target="_blank"}.
+
+
+
+## Versione 23.2 - Autunno/inverno 2023 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>Questa versione è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+
+### Miglioramenti {#fall-23-rn-improvements}
+
+* **Integrazione con Adobe Experience Manager**. Durante la creazione di un modello di consegna personalizzato per i messaggi transazionali in Adobe Experience Manager, ora puoi selezionare e utilizzare i campi di personalizzazione definiti in Campaign Standard in un elenco a discesa. [Ulteriori informazioni](../../integrating/using/creating-email-experience-manager.md)
+
+* **Scadenza cookie** - La scadenza predefinita dei cookie è ora impostata su 6 mesi, in linea con le raccomandazioni dell’Agenzia francese per la protezione dei dati (CNIL).
+
+* **Miglioramento della ricerca nel profilo** - La ricerca del profilo è stata ottimizzata per ridurre gli scenari di timeout
+
+* **Localizzazione** - Le traduzioni del termine &quot;pubblico&quot; quando si fa riferimento a un gruppo di profili target per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per le seguenti lingue:
+
+   * Tedesco: Zielgruppe
+   * Portoghese brasiliano: público-alvo
+   * Spagnolo: público
+
+  Queste modifiche verranno implementate gradualmente con le prossime versioni dell’interfaccia utente e della documentazione.
+
+
+### Altre modifiche {#fall-23-rn-other-changes}
+
+* La messaggistica transazionale ora supporta l’utilizzo di più affinità separate da virgole.
+
+### Correzioni {#fall-23-rn-fixes}
+
+* È stata risolta una regressione che poteva causare problemi di prestazioni quando si utilizzavano flussi di lavoro di grandi dimensioni. (CAMP-53369)
+* È stato risolto un problema che impediva il funzionamento del collegamento e-mail in un avviso o in una notifica del flusso di lavoro. (CAMP-51874)
 
 ## Versione 23.1 - Rilascio in primavera/estate 2023 {#apr-23}
 

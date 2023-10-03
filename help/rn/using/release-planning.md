@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
+source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 92%
+source-wordcount: '437'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali i
 >
 >Questa versione è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
 
-Informazioni dettagliate su questa versione sono disponibili nella [Note preliminari sulla versione](e-release-notes.md).
+Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](release-notes.md).
 
 <table>
  <thead>

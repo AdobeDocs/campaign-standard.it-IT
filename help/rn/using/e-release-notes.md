@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 25%
+source-wordcount: '235'
+ht-degree: 22%
 
 ---
 
@@ -45,3 +45,11 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 
   Queste modifiche verranno implementate gradualmente con le prossime versioni dell’interfaccia utente e della documentazione.
 
+### Altre modifiche {#e-rn-other-changes}
+
+* La messaggistica transazionale ora supporta l’utilizzo di più affinità separate da virgole.
+
+### Correzioni {#e-rn-fixes}
+
+* È stata risolta una regressione che poteva causare problemi di prestazioni quando si utilizzavano flussi di lavoro di grandi dimensioni. (CAMP-53369)
+* È stato risolto un problema che impediva il funzionamento del collegamento e-mail in un avviso o in una notifica del flusso di lavoro. (CAMP-51874)
