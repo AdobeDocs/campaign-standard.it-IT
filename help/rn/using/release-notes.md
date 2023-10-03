@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### Altre modifiche {#fall-23-rn-other-changes}
 
-* La messaggistica transazionale ora supporta l’utilizzo di più affinità separate da virgole.
+* La messaggistica transazionale ora supporta l’utilizzo di più affinità separate da virgole. [Ulteriori informazioni](../../sending/using/managing-typologies.md)
 
 ### Correzioni {#fall-23-rn-fixes}
 
 * È stata risolta una regressione che poteva causare problemi di prestazioni quando si utilizzavano flussi di lavoro di grandi dimensioni. (CAMP-53369)
-* È stato risolto un problema che impediva il funzionamento del collegamento e-mail in un avviso o in una notifica del flusso di lavoro. (CAMP-51874)
+* È stato risolto un problema che impediva il funzionamento del collegamento in un avviso e-mail o in una notifica del flusso di lavoro. (CAMP-51874)
 
 ## Versione 23.1 - Rilascio in primavera/estate 2023 {#apr-23}
 
