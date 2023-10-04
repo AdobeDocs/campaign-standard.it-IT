@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 22%
+ht-degree: 83%
 
 ---
 
@@ -27,21 +27,21 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 
 >[!AVAILABILITY]
 >
->Questa versione è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+>Questa versione è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 ### Miglioramenti {#e-rn-improvements}
 
 * **Integrazione con Adobe Experience Manager**. Durante la creazione di un modello di consegna personalizzato per i messaggi transazionali in Adobe Experience Manager, ora puoi selezionare e utilizzare i campi di personalizzazione definiti in Campaign Standard in un elenco a discesa.
 
-* **Scadenza cookie** - La scadenza predefinita dei cookie è ora impostata su 6 mesi, in linea con le raccomandazioni dell’Agenzia francese per la protezione dei dati (CNIL).
+* **Scadenza cookie**: la scadenza predefinita dei cookie è ora impostata su 6 mesi, in linea con le raccomandazioni dell’Agenzia francese per la protezione dei dati (CNIL).
 
-* **Miglioramento della ricerca nel profilo** - La ricerca del profilo è stata ottimizzata per ridurre gli scenari di timeout
+* **Miglioramento della ricerca nel profilo**: la ricerca nel profilo è stata ottimizzata per ridurne gli scenari di timeout
 
-* **Localizzazione** - Le traduzioni del termine &quot;pubblico&quot; quando si fa riferimento a un gruppo di profili target per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per le seguenti lingue:
+* **Localizzazione**: le traduzioni del termine “pubblico” quando si fa riferimento a un gruppo di profili definiti per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per le seguenti lingue:
 
    * Tedesco: Zielgruppe
    * Portoghese brasiliano: público-alvo
-   * Spagnolo: público
+   * Spagnolo: público destinatario
 
   Queste modifiche verranno implementate gradualmente con le prossime versioni dell’interfaccia utente e della documentazione.
 

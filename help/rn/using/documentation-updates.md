@@ -8,7 +8,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
 workflow-type: tm+mt
 source-wordcount: '7299'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,13 +22,13 @@ Sono state pubblicate le note sulla versione di Campaign Standard 23.2 autunno/i
 
 ## Ottobre 2023 {#doc-updates-oct-2023}
 
-* È ora disponibile la nuova interfaccia utente per Experience Cloud Triggers. Offre un’esperienza intuitiva per gestire i comportamenti dei consumatori e personalizzare le esperienze degli utenti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+* È ora disponibile la nuova interfaccia utente Triggers di Experience Cloud. Offre un’esperienza intuitiva per gestire i comportamenti dei consumatori e personalizzare l’esperienza utente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=it){target="_blank"}.
 
 * È stata aggiunta una nota sull’utilizzo dei profili di test delle trappole combinati con regole di filtraggio o di affaticamento. [Ulteriori informazioni](../../sending/using/using-traps.md)
 
-## Versione 23.1 - Primavera/Estate 2023 {#release-23-1}
+## Versione 23.1 - Primavera/estate 2023 {#release-23-1}
 
-Sono state pubblicate le note sulla versione di Campaign Standard 23.1 Spring/Summer 2023. [Ulteriori informazioni](release-notes.md)
+Sono state pubblicate le note sulla versione di Campaign Standard 23.1, primavera/estate 2023. [Ulteriori informazioni](release-notes.md)
 
 
 ## Novembre 2022 {#doc-updates-november-2022}
@@ -241,7 +241,7 @@ La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/u
 
 È stata aggiornata la sezione Guardrail e limitazioni per API esterne. [Leggi tutto](../../automating/using/external-api.md#guardrails)
 
-La pagina Panoramica sulla gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La pagina di panoramica sulla Gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con relativa documentazione tecnica. [Leggi tutto](../../administration/using/push-tracking.md)
 
@@ -499,7 +499,7 @@ Report sul segmento del flusso di lavoro - [Ulteriori informazioni](../../report
 
 È stata aggiunta una nota nella sezione [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md) che riguarda la preparazione della consegna e il relativo periodo di aggregazione.
 
-Sono state aggiunte informazioni su come personalizzare l’etichetta di una consegna con le variabili evento dichiarate nell’attività del segnale esterno del flusso di lavoro. [Ulteriori informazioni](../../automating/using/external-signal.md)
+Sono state aggiunte informazioni sulle modalità di personalizzazione dell’etichetta di una consegna con le variabili evento dichiarate nell’attività del segnale esterno del flusso di lavoro. [Ulteriori informazioni](../../automating/using/external-signal.md)
 
 È stata aggiunta una nuova sezione che descrive in dettaglio come creare un utente all’interno di Adobe Campaign Standard. [Ulteriori informazioni](../../administration/using/users-management.md)
 
@@ -785,7 +785,7 @@ Sono state aggiunte informazioni sui tipi di registro di tracciamento. [Ulterior
 
 La sezione attività di query è stata aggiornata con esempi di query. [Ulteriori informazioni](../../automating/using/query.md#query-samples)
 
-La sezione dedicata ai inserisce nell&#39;elenco Bloccati di è stata rinominata &quot;Informazioni sui processi di consenso e rinuncia&quot;. La sezione è stata aggiornata con le informazioni relative alle modalità di gestione del consenso a canali specifici e di impostazione delle pagine di destinazione per la gestione del consenso e della rinuncia. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La sezione dedicata all’elenco Bloccati è stata rinominata “Informazioni sui processi di consenso e rinuncia”. La sezione è stata aggiornata con le informazioni relative alle modalità di gestione del consenso a canali specifici e di impostazione delle pagine di destinazione per la gestione del consenso e della rinuncia. [Ulteriori informazioni](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Scopri le best practice per l’utilizzo dei server SFTP ospitati da Adobe. [Ulteriori informazioni](../../administration/using/external-accounts.md#sftp-external-account)
 
