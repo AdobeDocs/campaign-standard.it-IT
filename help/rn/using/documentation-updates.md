@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 ## Versione 23.2 - Autunno/inverno 2023 {#release-23-2}
 
-Sono state pubblicate le note sulla versione di Campaign Standard 23.2 autunno/inverno 2023. [Ulteriori informazioni](release-notes.md)
+Sono state pubblicate le note sulla versione di Campaign Standard 23.2 autunno/inverno 2023. [Ulteriori informazioni](release-notes.md)
 
 ## Ottobre 2023 {#doc-updates-oct-2023}
 
-* È ora disponibile la nuova interfaccia utente Triggers di Experience Cloud. Offre un’esperienza intuitiva per gestire i comportamenti dei consumatori e personalizzare l’esperienza utente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=it){target="_blank"}.
+* È ora disponibile la nuova interfaccia utente Trigger di Experience Cloud. Offre un’esperienza intuitiva per gestire i comportamenti dei consumatori e personalizzare l’esperienza utente. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=it){target="_blank"}.
 
-* È stata aggiunta una nota sull’utilizzo dei profili di test delle trappole combinati con regole di filtraggio o di affaticamento. [Ulteriori informazioni](../../sending/using/using-traps.md)
+* È stata aggiunta una nota sull’utilizzo dei profili di test di trappola combinati con regole di filtraggio o di eccesso. [Ulteriori informazioni](../../sending/using/using-traps.md)
 
 ## Versione 23.1 - Primavera/estate 2023 {#release-23-1}
 
