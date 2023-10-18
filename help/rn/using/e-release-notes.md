@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -51,5 +51,5 @@ Questa pagina descrive miglioramenti e correzioni inclusi nella prossima version
 
 ### Correzioni {#e-rn-fixes}
 
-* È stata risolta una regressione che poteva causare problemi di prestazioni quando si utilizzavano flussi di lavoro di grandi dimensioni. (CAMP-53369)
-* È stato risolto un problema che impediva il funzionamento del collegamento e-mail in un avviso o in una notifica del flusso di lavoro. (CAMP-51874)
+* È stata risolta una regressione che poteva causare problemi di prestazioni se si utilizzavano flussi di lavoro di grandi dimensioni. (CAMP-53369)
+* È stato risolto un problema che impediva il funzionamento del collegamento e-mail in un avviso o in una notifica di un flusso di lavoro. (CAMP-51874)
