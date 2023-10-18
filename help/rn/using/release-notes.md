@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,21 +23,21 @@ ht-degree: 60%
 
 >[!AVAILABILITY]
 >
->Questa versione è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+>Questa versione è disponibile solo per alcune organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 ### Miglioramenti {#fall-23-rn-improvements}
 
 * **Integrazione con Adobe Experience Manager**. Durante la creazione di un modello di consegna personalizzato per i messaggi transazionali in Adobe Experience Manager, ora puoi selezionare e utilizzare i campi di personalizzazione definiti in Campaign Standard in un elenco a discesa. [Ulteriori informazioni](../../integrating/using/creating-email-experience-manager.md)
 
-* **Scadenza cookie** - La scadenza predefinita dei cookie è ora impostata su 6 mesi, in linea con le raccomandazioni dell’Agenzia francese per la protezione dei dati (CNIL).
+* **Scadenza cookie**: la scadenza predefinita dei cookie è ora impostata su 6 mesi, in linea con le raccomandazioni dell’Agenzia francese per la protezione dei dati (CNIL).
 
-* **Miglioramento della ricerca nel profilo** - La ricerca del profilo è stata ottimizzata per ridurre gli scenari di timeout
+* **Miglioramento della ricerca nel profilo**: la ricerca nel profilo è stata ottimizzata per ridurne gli scenari di timeout
 
-* **Localizzazione** - Le traduzioni del termine &quot;pubblico&quot; quando si fa riferimento a un gruppo di profili target per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per le seguenti lingue:
+* **Localizzazione**: le traduzioni del termine “pubblico” quando si fa riferimento a un gruppo di profili definiti per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per le seguenti lingue:
 
    * Tedesco: Zielgruppe
    * Portoghese brasiliano: público-alvo
-   * Spagnolo: público
+   * Spagnolo: público destinatario
 
   Queste modifiche verranno implementate gradualmente con le prossime versioni dell’interfaccia utente e della documentazione.
 
@@ -48,8 +48,8 @@ ht-degree: 60%
 
 ### Correzioni {#fall-23-rn-fixes}
 
-* È stata risolta una regressione che poteva causare problemi di prestazioni quando si utilizzavano flussi di lavoro di grandi dimensioni. (CAMP-53369)
-* È stato risolto un problema che impediva il funzionamento del collegamento in un avviso e-mail o in una notifica del flusso di lavoro. (CAMP-51874)
+* È stata risolta una regressione che poteva causare problemi di prestazioni se si utilizzavano flussi di lavoro di grandi dimensioni. (CAMP-53369)
+* È stato risolto un problema che impediva il funzionamento del collegamento in un avviso e-mail o in una notifica di un flusso di lavoro. (CAMP-51874)
 
 ## Versione 23.1 - Rilascio in primavera/estate 2023 {#apr-23}
 
