@@ -100,7 +100,7 @@ Puoi aggiungere una **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic cont
 >
 >La preintestazione non è compatibile con tutti i programmi e-mail. Quando non è supportata, non viene visualizzata.
 
-## Utilizzo dei componenti di contenuto {#about-content-components}
+## Utilizzo dei componenti per contenuti {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
