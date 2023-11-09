@@ -7,22 +7,22 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 6d1a5cb1d467d7d74fe41e66125fe0fcbf2e3d9b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # Modifiche imminenti del canale di notifica push {#push-upgrade}
 
-Questa pagina descrive le modifiche imminenti al canale di notifica push Android e iOS in Adobe Campaign Standard.
-
 Esistono aggiornamenti importanti relativi alle imminenti modifiche al canale di notifica push su dispositivi Android e iOS che possono influire sull’implementazione di Adobe Campaign Standard.
 
 ## Android {#push-android}
 
-Come parte degli sforzi continui di Google per migliorare i suoi servizi, Google sta apportando modifiche al suo protocollo HTTP Firebase Cloud Messaging. Di conseguenza, le &quot;API legacy HTTP&quot; di Firebase Cloud Messaging che sono state dichiarate obsolete il 20 giugno 2023 saranno sostituite da &quot;API HTTP v1&quot; a giugno del 2024. (https://firebase.google.com/docs/cloud-messaging/http-server-ref) Attualmente Adobe Campaign Standard utilizza API HTTP legacy per inviare messaggi di notifica push Android e apporterà modifiche nei prossimi mesi per effettuare l’aggiornamento alle API HTTP v1. Ulteriori informazioni su queste modifiche verranno fornite durante il lavoro di Adobe su questi aggiornamenti.
+Nell&#39;ambito del continuo impegno di Google per migliorare i propri servizi, Google sta apportando alcune modifiche [Protocollo HTTP Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/http-server-ref). Di conseguenza, le &quot;API legacy HTTP&quot; di Firebase Cloud Messaging che sono state dichiarate obsolete il 20 giugno 2023 saranno sostituite da &quot;API HTTP v1&quot; a giugno del 2024.
+
+Attualmente Adobe Campaign Standard utilizza API HTTP legacy per inviare messaggi di notifica push Android e apporterà modifiche nei prossimi mesi per effettuare l’aggiornamento alle API HTTP v1. Ulteriori informazioni su queste modifiche verranno fornite durante il lavoro di Adobe su questi aggiornamenti.
 
 ## iOS {#push-ios}
 
