@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 68%
+source-wordcount: '755'
+ht-degree: 67%
 
 ---
 
@@ -41,7 +41,7 @@ Durante la configurazione e la pubblicazione degli eventi transazionali, non è 
 
 ## Numero di messaggi transazionali {#transactional-message-number}
 
-Il numero di messaggi transazionali pubblicati può avere un impatto significativo sulla piattaforma. Per prestazioni ottimali, il numero di messaggi transazionali pubblicati deve rimanere inferiore a 100. Per questo motivo, annulla o elimina la pubblicazione dei messaggi transazionali non utilizzati. Consulta [Annullamento della pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) e [Eliminazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+Il numero di messaggi transazionali pubblicati può avere un impatto significativo sulla piattaforma. Per prestazioni ottimali, il numero di messaggi transazionali pubblicati deve rimanere inferiore a 100, altrimenti si può verificare un deterioramento delle prestazioni. Per questo motivo, annulla la pubblicazione o elimina eventuali messaggi transazionali non utilizzati per rispettare il guardrail di cui sopra. Consulta [Annullamento della pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) e [Eliminazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 Per ottenere prestazioni ottimali, puoi anche annullare o eliminare la pubblicazione degli eventi non utilizzati. In effetti, l’annullamento della pubblicazione o l’eliminazione di un evento annullerà o eliminerà anche i messaggi transazionali corrispondenti e i relativi registri di invio e di tracciamento, se presenti. Consulta [Annullamento della pubblicazione di un evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) e [Eliminazione di un evento](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
