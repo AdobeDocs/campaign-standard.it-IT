@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 4%
+source-wordcount: '670'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ Le credenziali di Microsoft Dynamics 365 consentono all’applicazione di integr
 
 Le credenziali di Adobe Campaign vengono generate utilizzando [Adobe I/O](https://www.adobe.io/). Dovrai visitare lo schermo [Configura Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) e seguire le istruzioni qui prima di essere in grado di compilare gli input in questa sezione.
 
-L&#39;immagine seguente illustra in dettaglio la mappatura tra gli Adobi I/O e gli ingressi della schermata delle impostazioni.
+* Seleziona Tipo di autenticazione come OAuth poiché l’autenticazione basata su JWT è obsoleta.
+* L&#39;immagine seguente illustra in dettaglio la mappatura tra gli Adobi I/O e gli ingressi della schermata delle impostazioni.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *Chiave privata*: il processo di definizione inizia facendo clic sul pulsante &quot;Genera coppia di chiavi pubblica/privata&quot;. Verrà creato un file zip da scaricare. Una volta scaricato, decomprimi il file che risulterà in due file denominati certificate_pub.crt e private.key. Assicurati di collocare private.key in un luogo sicuro e non condividerlo. Apri il file private.key in un editor di testo. Copiare l&#39;intero valore nell&#39;editor di testo (Ctrl-A, quindi Ctrl-C su un PC o Comando-A e infine Comando-C su un Mac). Questo dovrebbe includere le righe con &quot;BEGIN PRIVATE KEY&quot; (INIZIA CHIAVE PRIVATA) e &quot;END PRIVATE KEY&quot; (TERMINA CHIAVE PRIVATA) nella loro interezza. Incollare l&#39;intero testo su più righe nell&#39;input &quot;Chiave privata&quot; nella schermata Impostazioni.
 
 * *URL*: questo valore si adatta al pattern https\://mc.adobe.io/&lt;campaign-instance-name>. L’intestazione dell’app di integrazione include sia &quot;Org&quot; che &quot;Instance&quot;. La porzione &quot;campaign-instance-name&quot; dell’URL sarebbe semplicemente il nome trovato in questo valore di istanza.
 

@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -59,21 +59,13 @@ A questo scopo, segui la procedura indicata di seguito:
 
    ![](assets/adobeIO2.png)
 
-1. Seleziona l’API di Adobe Campaign (potrebbe essere necessario scorrere verso il basso) e fai clic su **[!UICONTROL Next]**.
+1. Seleziona Adobe Campaign e fai clic su **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. Nella schermata successiva avrai la possibilità di caricare la tua chiave pubblica o di consentire ad Adobe Developer di generare la coppia di chiavi. Queste istruzioni seguiranno quest&#39;ultima opzione. Se decidi di consentire ad Adobe Developer di generare la coppia di chiavi, fai clic sull’opzione 1, quindi fai clic sul pulsante **[!UICONTROL Generate keypair]** pulsante.
+1. Nella schermata successiva è disponibile l’opzione per scegliere il tipo di autenticazione. È possibile scegliere OAuth Server-to-Server o Account di servizio (JWT). Tieni presente che le credenziali dell’account di servizio (JWT) non sono più consigliate per i nuovi progetti e sono state dichiarate obsolete a favore delle nuove credenziali server-to-server OAuth. Le istruzioni fornite in questa guida si applicano solo all’autenticazione server-to-server di OAuth.
 
    ![](assets/adobeIO4.png)
-
-1. Nella schermata successiva verrà richiesto di assegnare un nome e selezionare il percorso di download del file zip della coppia di chiavi.
-
-Una volta scaricato, puoi decomprimere il file per visualizzare le chiavi pubbliche e private. Adobe Developer ha già applicato la chiave pubblica al tuo progetto Adobe Developer. La chiave privata dovrà essere conservata per un momento successivo; verrà utilizzata durante la configurazione di pre-integrazione dello strumento di integrazione.
-
-1. Clic **[!UICONTROL Next]** per continuare
-
-   ![](assets/adobeIO5.png)
 
 1. Nella schermata successiva seleziona i profili di prodotto da associare a questo progetto. Seleziona il profilo di prodotto che contiene nel titolo: ID tenant dell’istanza Campaign - [!UICONTROL Administrators]
 
@@ -81,11 +73,11 @@ Una volta scaricato, puoi decomprimere il file per visualizzare le chiavi pubbli
 
 1. Fai clic su **[!UICONTROL Save configured API]**.
 
-   ![](assets/adobeIO6.png)
+   ![](assets/adobeIO5.png)
 
 1. Nella schermata successiva vengono visualizzati i dettagli del nuovo progetto Adobe Developer. Clic **[!UICONTROL Add to Project]** in alto a sinistra sullo schermo e seleziona **API** dal menu a discesa.
 
-   ![](assets/adobeIO7.png)
+   ![](assets/adobeIO6.png)
 
 1. Nella schermata successiva è necessario selezionare l’API I/O Events API, quindi fare clic su **[!UICONTROL Next]**.
 
@@ -103,8 +95,7 @@ L’impostazione di pre-integrazione in Campaign è ora completa.
 
 * [Configurare l’integrazione di Adobe Developer per Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) è il passaggio successivo nella configurazione dell’integrazione
 * [Panoramica dell&#39;applicazione self-service di integrazione](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contiene l’elenco completo dei passaggi necessari per rendere operativa l’integrazione.
-
-
 * [Adobe Developer - Integrazione dell’account del servizio](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - Configurazione dell’accesso API](../../api/using/setting-up-api-access.md)
 * [Integrazione Campaign Standard - Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
+* [Migrazione delle credenziali da JWT a OAuth Server-to-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contiene i passaggi per migrare le credenziali da JWT a OAuth Server-to-Server.
