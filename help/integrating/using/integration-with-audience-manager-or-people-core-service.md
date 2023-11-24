@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '769'
+ht-degree: 9%
 
 ---
 
@@ -124,10 +124,16 @@ Per creare **[!UICONTROL Declared ID]** origine dati:
 
 Per la configurazione dell’integrazione con il servizio core People o Audience Manager, è necessario configurare anche il server di tracciamento di Campaign.
 
-In questo caso, devi assicurarti che il server di tracciamento di Campaign sia registrato nel dominio (CNAME). Per ulteriori informazioni sulla configurazione del nome di dominio, consulta [questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
+Per consentire ai tipi di pubblico condivisi di funzionare con l’ID visitatore, il dominio del server di tracciamento deve essere un sottodominio dell’URL su cui è stato fatto clic o del sito web principale.
+
+>[!IMPORTANT]
+>
+> Assicurati che il server di tracciamento di Campaign sia registrato nel dominio (CNAME). Per ulteriori informazioni sulla configurazione del nome di dominio, consulta [questo articolo](https://helpx.adobe.com/it/campaign/kb/domain-name-delegation.html).
 
 ### Passaggio 4: configurare il servizio ID visitatori {#step-4--configure-the-visitor-id-service}
 
 Nel caso in cui il servizio ID visitatore non sia mai stato configurato nelle tue proprietà web o sui tuoi siti web, consulta quanto segue [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) per informazioni su come configurare il servizio o sui seguenti [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
+
+Sincronizzare gli identificatori dei clienti con l’ID dichiarato utilizzando `setCustomerID` funzione nel servizio ID Experience Cloud con il codice di integrazione: `AdobeCampaignID`. Il `AdobeCampaignID` deve corrispondere al valore della chiave di riconciliazione impostata nell’origine dati del destinatario configurata in [Passaggio 2: configurare le origini dati](#step-2--configure-the-data-sources).
 
 La configurazione e il provisioning sono finalizzati, l’integrazione ora può essere utilizzata per importare ed esportare tipi di pubblico o segmenti.
