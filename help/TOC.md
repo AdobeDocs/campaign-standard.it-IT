@@ -5,9 +5,9 @@ user-guide-description: Centro assistenza per le principali funzioni, attività,
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
 source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -269,7 +269,7 @@ ht-degree: 99%
          + [Collegare i sistemi con l’applicazione di integrazione](integrating/using/d365-acs-self-service-app-settings.md)
          + [Gestire i flussi di lavoro di sincronizzazione](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappare i dati tra Microsoft Dynamics 365 e Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
-         + [Migrazione delle credenziali da JWT a OAuth Server-to-Server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
+         + [Migrazione delle credenziali da JWT a OAuth server-to-server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Utilizzare l’integrazione con Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign e Adobe Experience Platform {#adobe-experience-platform}
       + [Guida introduttiva a origini e destinazioni](integrating/using/get-started-sources-destinations.md)
@@ -447,7 +447,7 @@ ht-degree: 99%
       + [Configurazione delle regole di tag per supportare casi d’uso di Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migrazione dell’app mobile da SDK v4 ad Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [Modifiche imminenti del canale di notifica push](administration/using/push-technote.md)
+      + [Prossime modifiche del canale di notifica push](administration/using/push-technote.md)
    + Configurazione del canale SMS {#configuring-sms}
       + [Implementazione del canale SMS](administration/using/configuring-sms-channel.md)
       + [Protocollo e impostazioni del connettore SMS](administration/using/sms-protocol.md)
