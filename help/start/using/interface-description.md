@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 77%
 
 ---
@@ -77,7 +77,7 @@ Tre schede ti aiutano a trovare aiuto e assistenza:
    * a **[!UICONTROL Learning]** che ti consente di accedere alla libreria dei corsi di Adobe Campaign.
    * a **[!UICONTROL Community]** link per accedere al forum dedicato alle tue domande su Campaign.
    * un accesso diretto a: Centro assistenza, Assistenza clienti, Stato del prodotto di Experience Cloud, connessione per sviluppatori, Note sulla versione, Pianificazione della versione e **[!UICONTROL About]** schermo.
-1. Il **[!UICONTROL Support]** La scheda ti consente di aprire un caso di supporto e di contattarci per telefono o Twitter.
+1. Il **[!UICONTROL Support]** La scheda ti consente di aprire un caso di supporto e di contattarci telefonicamente o tramite X (precedentemente noto come Twitter).
 1. Il **[!UICONTROL Feedback]**  consente di segnalare i problemi o condividere le idee in modo più semplice.
 
 ## Menu avanzato {#advanced-menu}
