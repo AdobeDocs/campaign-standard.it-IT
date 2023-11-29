@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -43,6 +43,7 @@ Per impostazione predefinita, due modelli predefiniti consentono di creare conte
 1. In Adobe Experience Manager, crea un nuovo **[!UICONTROL Page]**.
 
 1. Seleziona la **[!UICONTROL Adobe Campaign Email]** modello. Per i passaggi dettagliati, guarda il video seguente.
+
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Apri il nuovo contenuto e-mail.
@@ -64,12 +65,42 @@ Per creare un contenuto e-mail in Adobe Experience Manager:
 1. Aggiungi **[!UICONTROL Personalization fields]** tramite **[!UICONTROL Text & Personalization]** componente. Ogni componente corrisponde a un utilizzo specifico: inserimento di immagini, aggiunta di personalizzazione, ecc.
 
    Per ulteriori informazioni, guarda il seguente video:
+
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
 1. Dalla sezione **[!UICONTROL Workflow]** , seleziona la scheda **[!UICONTROL Approve for Adobe Campaign]** workflow di convalida. Non potrai inviare un’e-mail in Adobe Campaign se utilizza un contenuto non approvato.
 
-1. Una volta definiti il contenuto e i parametri di invio, puoi procedere all’approvazione, alla preparazione e all’invio dell’e-mail in Adobe Campaign Standard.
+Per inviare il messaggio e-mail in Adobe Campaign Standard:
 
-   Per ulteriori informazioni, guarda il seguente video:
+1. Una volta definiti il contenuto e i parametri di invio, crea un’e-mail basata su un modello e-mail specifico per l’AEM in Adobe Campaign Standard.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/23721)
++++ Ulteriori informazioni sul modello specifico per AEM.
+
+   1. Dal menu avanzato, accedere a **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**.
+
+      ![](assets/aem_templates_1.png)
+
+   1. Duplica o seleziona uno dei modelli di consegna.
+
+   1. Dalla sezione **[!UICONTROL Properties]** del modello, nella sezione **[!UICONTROL Content]** a discesa, seleziona **[!UICONTROL Adobe Experience Manager as Content mode]** quindi il tuo account Adobe Experience Manager.
+
+      ![](assets/aem_templates_2.png)
+
++++
+
+   ![](assets/aem_send_1.png)
+
+1. Inserisci le proprietà dell’e-mail e fai clic su **[!UICONTROL Create]** per poter selezionare il contenuto dell’AEM.
+
+1. Accedere a **[!UICONTROL Content]** blocco.
+
+   ![](assets/aem_send_2.png)
+
+1. Dalla sezione **[!UICONTROL Use Adobe Experience Manager content]** menu, fai clic su **[!UICONTROL Link AEM content]**.
+
+   Quindi, seleziona il contenuto da utilizzare nell’e-mail.
+
+   ![](assets/aem_send_3.png)
+
+1. Personalizza ulteriormente l’e-mail specificando parametri aggiuntivi, ad esempio il pubblico target e la pianificazione dell’esecuzione, tramite la dashboard. Una volta configurata, ora puoi inviare la consegna e-mail. [Ulteriori informazioni](../../sending/using/confirming-the-send.md)
+
