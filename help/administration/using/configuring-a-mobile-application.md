@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 3%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,7 @@ Questo passaggio consente all’utente di accedere all’interfaccia utente di D
 
 1. Nell’interfaccia utente di Data Collection, fai clic su **[!UICONTROL Extensions]** , vai a **[!UICONTROL Catalog]**, e cercare **[!UICONTROL Adobe Campaign Standard]** estensione. Per ulteriori informazioni, consulta [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Per supportare i casi di utilizzo della posizione in Campaign Standard, installa **[!UICONTROL Places]** nell’interfaccia utente di Data Collection. Fai riferimento a questo [pagina](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. Per supportare i casi di utilizzo della posizione in Campaign Standard, installa **[!UICONTROL Places]** nell’interfaccia utente di Data Collection. Fai riferimento a questo [pagina](https://developer.adobe.com/client-sdks/solution/places).
 
 1. In Adobe Campaign Standard, configura la proprietà mobile creata nell’interfaccia utente di Data Collection. Fai riferimento a [Configurazione dell’applicazione Adobe Experience Platform Launch in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 

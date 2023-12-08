@@ -6,14 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '856'
 ht-degree: 2%
 
 ---
 
-# Domande frequenti sull’integrazione di Experience Platform SDK {#aep-faq}
+# Domande frequenti sull’integrazione di Experienci Platform SDK {#aep-faq}
 
 Per inviare notifiche push e messaggi in-app con l’applicazione SDK Experienci Platform, è necessario configurare un’app mobile nell’SDK di Adobe Experience Platform e configurarla in Adobe Campaign.
 
@@ -36,7 +36,7 @@ Consulta le risorse seguenti per ulteriori informazioni sull’SDK per Adobe Exp
 
 Sì, [!DNL Adobe Experience Platform SDK] L’integrazione è disponibile sia per Adobe Campaign Standard che per Adobe Campaign Classic. È necessario installare il **[!UICONTROL Extension]** tramite [!DNL Data Collection UI] per abilitare l’integrazione.
 
-Per ulteriori informazioni, consulta questa [pagina]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+Per ulteriori informazioni, consulta questa [pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Quali funzionalità facilita l’integrazione di Adobe Experience Platform SDK in Adobe Campaign? {#aep-capabilities}
 
@@ -98,7 +98,7 @@ Consulta le risorse seguenti:
 
 * SDK EXPERIENCI PLATFORM [documentazione](https://developer.adobe.com/client-sdks/documentation/)
 * Guida introduttiva all’SDK di Launch e Experienci Platform [documentazione](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Aggiornamento ad Experienci Platform SDK [documentazione](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* Aggiornamento ad Experienci Platform SDK [documentazione](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * SDK per Experience Platform Github [documentazione](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Viene visualizzato l’errore &quot;Non disponi dell’accesso in scrittura alla consegna&quot; durante la creazione di una consegna di notifica push. {#write-access-error}

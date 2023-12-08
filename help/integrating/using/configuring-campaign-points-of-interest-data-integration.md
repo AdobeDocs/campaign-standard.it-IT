@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 2%
+source-wordcount: '1252'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Le app mobili utilizzate per raccogliere i dati sulla posizione devono essere co
 
 Per poter utilizzare Adobe Experience Platform Location Services con le app mobili configurate con Adobe Experience Platform SDK, è necessario:
 
-1. Aggiungi il **[!UICONTROL Places]** estensione alla configurazione dell’app mobile nell’interfaccia utente di Data Collection. Configura l’app mobile in Adobe Campaign. Consulta [Installare l’estensione Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. Aggiungi il **[!UICONTROL Places]** estensione alla configurazione dell’app mobile nell’interfaccia utente di Data Collection. Configura l’app mobile in Adobe Campaign. Consulta [Installare l’estensione Places](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Una volta configurate le estensioni, crea elementi dati nell’interfaccia utente di Data Collection per recuperare dati da queste estensioni. Fai riferimento a questo [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) per creare gli elementi dati.
 

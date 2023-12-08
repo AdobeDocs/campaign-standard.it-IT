@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 83%
+source-wordcount: '1224'
+ht-degree: 80%
 
 ---
 
@@ -58,7 +58,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Immetti le proprietà del messaggio in-app e seleziona la tua app mobile nel campo **[!UICONTROL Associate a Mobile App to a delivery]**. 
+1. Immetti le proprietà del messaggio in-app e seleziona la tua app mobile in **[!UICONTROL Associate a Mobile App to a delivery]** campo.
 
    Se nell’elenco a discesa non è presente alcuna applicazione, assicurati che le tue applicazioni mobili si trovino in una **Configurato** stato. Applicazioni in un **Pronto per la configurazione** non verrà visualizzato nell&#39;elenco. Per ulteriori informazioni sulla configurazione dell’app mobile, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
@@ -100,7 +100,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
 1. Se utilizzi un trigger **[!UICONTROL Places]**, Dati contestuali di Places, Metadati personalizzati di Places o Tipo di evento Places verranno compilati automaticamente in base a tutte le librerie e ai relativi punti di interesse creati in Adobe Places.
 
-   Tieni presente che questo trigger verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell’estensione Places nell’interfaccia utente di Data Collection. Per ulteriori informazioni sull’estensione Places e su come installarla, consulta questa [documentazione](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   Tieni presente che questo trigger verrà applicato sul dispositivo solo per i punti di interesse dalle librerie selezionate nell’estensione Places nell’interfaccia utente di Data Collection. Per ulteriori informazioni sull’estensione Places e su come installarla, consulta questa [documentazione](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Nella scheda **[!UICONTROL Frequency & duration]**, scegli la frequenza del trigger, la data di inizio e di fine, il giorno della settimana e l’ora del giorno in cui il messaggio in-app sarà attivo.
 
@@ -118,7 +118,7 @@ Il messaggio in-app ora è pronto per essere inviato al pubblico di destinazione
 
 * [Personalizzazione di un messaggio in-app](../../channels/using/customizing-an-in-app-message.md)
 * [Rapporto in-app](../../reporting/using/in-app-report.md)
-* [Invio di un messaggio in-app all’interno di un flusso di lavoro](../../automating/using/in-app-delivery.md)
+* [Invio di un messaggio in-app in un flusso di lavoro](../../automating/using/in-app-delivery.md)
 
 ## Anteprima del messaggio in-app {#previewing-the-in-app-message}
 
@@ -133,7 +133,7 @@ Prima di inviare il messaggio in-app, puoi eseguirne la verifica tramite i profi
 
    ![](assets/inapp_sending_3.png)
 
-1. Ora puoi inviare il messaggio e misurarne l’impatto tramite i rapporti di consegna.
+1. Ora puoi inviare il messaggio e misurarne l’impatto con i rapporti di consegna.
 
 ## Invio del messaggio in-app {#sending-your-in-app-message}
 
@@ -176,4 +176,4 @@ Una volta completata la preparazione della consegna ed eseguiti i passaggi di ap
 **Argomenti correlati:**
 
 * [Rapporto in-app](../../reporting/using/in-app-report.md)
-* [Invio di un messaggio in-app all’interno di un flusso di lavoro](../../automating/using/in-app-delivery.md)
+* [Invio di un messaggio in-app in un flusso di lavoro](../../automating/using/in-app-delivery.md)

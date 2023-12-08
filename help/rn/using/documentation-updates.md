@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7336'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7211'
+ht-degree: 99%
 
 ---
 
@@ -115,7 +115,7 @@ La sezione **Dimensione e-mail** è stata aggiornata con informazioni sulle dime
 
 **Altri aggiornamenti alla documentazione in arrivo con la versione**
 
-Sono state aggiunte informazioni su come modificare la mappatura di destinazione in una notifica push transazionale. [Leggi tutto](../../channels/using/transactional-push-notifications.md#change-target-mapping)
+Sono state aggiunte informazioni su come modificare la mappatura di destinazione in una notifica push transazionale. [Ulteriori informazioni](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## Maggio 2021 {#doc-updates-may-2021}
 
@@ -232,7 +232,7 @@ Nel rapporto Profili attivi sono state aggiunte informazioni sulle origini anoni
 
 È disponibile una nuova sezione aggiornata nella guida introduttiva sull’utilizzo dei messaggi transazionali. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
 
-La sezione **Limitazioni della messaggistica transazionale** è stata spostata [qui](../../channels/using/transactional-messaging-limitations.md).
+Il **Limitazioni della messaggistica transazionale** sezione spostata [qui](../../channels/using/transactional-messaging-limitations.md).
 
 La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/using/preparing-the-send.md).
 
@@ -240,9 +240,9 @@ La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/u
 
 È stata aggiunta una nuova sezione con le linee guida relative al monitoraggio di Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
 
-È stata aggiornata la sezione Guardrail e limitazioni per API esterne. [Leggi tutto](../../automating/using/external-api.md#guardrails)
+È stata aggiornata la sezione Guardrail e limitazioni per API esterne. [Ulteriori informazioni](../../automating/using/external-api.md#guardrails)
 
-La pagina di panoramica sulla Gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La pagina di panoramica sulla Gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con relativa documentazione tecnica. [Leggi tutto](../../administration/using/push-tracking.md)
 
@@ -346,7 +346,7 @@ Nella documentazione di base sono state aggiunte informazioni più dettagliate s
 
 La sezione dedicata all’archiviazione di e-mail con indirizzi Ccn è stata spostata e aggiornata. [Ulteriori informazioni](../../sending/using/archiving.md)
 
-È stato eseguito l’aggiornamento della documentazione sulla configurazione di un’app mobile, unitamente alle pagine correlate, in modo da riflettere l’ammortamento di SDK V4. [Ulteriori informazioni](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+È stato eseguito l’aggiornamento della documentazione sulla configurazione di un’app mobile, unitamente alle pagine correlate, in modo da riflettere l’ammortamento di SDK V4. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 È stata aggiornata e migliorata la documentazione relativa all’integrazione di Adobe Campaign Standard/Adobe Experience Manager. [Ulteriori informazioni](../../integrating/using/configure-experience-manager.md)
 
