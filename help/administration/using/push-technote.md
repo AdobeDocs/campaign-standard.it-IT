@@ -1,20 +1,19 @@
 ---
-title: Modifiche imminenti del canale di notifica push
-description: Modifiche imminenti del canale di notifica push
+title: Prossime modifiche del canale di notifica push
+description: Prossime modifiche del canale di notifica push
 audience: channels
 feature: Push
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-source-git-commit: 9b7b127d92628169249c64ce85147d530b32a2cc
+exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 5%
 
 ---
 
-# Modifiche imminenti del canale di notifica push {#push-upgrade}
+# Prossime modifiche del canale di notifica push {#push-upgrade}
 
 Puoi utilizzare Campaign per inviare notifiche push su dispositivi Android e iOS. Per eseguire questa operazione, Campaign si basa su servizi di abbonamento specifici. Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate nel 2024 e influiranno sull’implementazione di Adobe Campaign. Inoltre, per le app iOS, Adobe sta modificando il modo in cui gli amministratori possono configurare i certificati.
 
@@ -30,7 +29,7 @@ Attualmente Adobe Campaign Standard utilizza API HTTP legacy per inviare messagg
 
 Adobe sarà anche l’aggiornamento di Adobe Campaign Standard per il canale di notifica push di iOS e la modifica del modo in cui consentiamo agli amministratori di configurare i certificati per le loro applicazioni iOS. Ora gli amministratori devono caricare i certificati di iOS tramite l’interfaccia utente di Adobe Campaign Standard.
 
-## Sei interessato da questo problema? {#push-impact}
+## Sei interessato? {#push-impact}
 
 In qualità di utente Campaign Standard, sei interessato dai messaggi di notifica push inviati ai tuoi tipi di pubblico.
 

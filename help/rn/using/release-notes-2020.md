@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>Siamo entusiasti di annunciare Journey AI per tutti i clienti Adobe Campaign Standard.</p>
-  <p>Journey AI utilizza l’apprendimento automatico avanzato (ML) per consentire alle aziende di ottimizzare la progettazione e la consegna dei percorsi dei clienti prevedendo le preferenze di coinvolgimento di ognuno.</p>
+  <p>IA per l’analisi dei percorsi utilizza l’apprendimento automatico avanzato (ML) per consentire alle aziende di ottimizzare la progettazione e la consegna di percorsi di clienti prevedendo le preferenze di coinvolgimento di ogni individuo.</p>
   <P>Journey AI è costituito da due caratteristiche ML:</p>
 <ul> 
      <li> <strong>Valutazione predittiva del coinvolgimento</strong>: identifica in modo intelligente il livello di coinvolgimento preferito dai clienti per eseguire meglio il targeting e personalizzare i messaggi, al fine di aumentare le conversioni e la fidelizzazione. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">video-tutorial</a>.</li> 
@@ -235,7 +236,7 @@ ht-degree: 99%
 **Funzionalità aggiuntive** (a partire dal 13 luglio)
 
 * **Ottimizzazione dei tempi di invio e valutazione del profilo con tecnologia AI**: ora puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ogni individuo. Basato sull’intelligenza artificiale Journey AI, Adobe Campaign può analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base alle metriche di coinvolgimento storiche. [Ulteriori informazioni](../../sending/using/predictive.md)
-* **Brasile: nuova normativa sulla privacy**: oltre alle funzionalità per la privacy già disponibili in Campaign, Adobe facilita la tua preparazione al Lei Geral de Proteçao de Datos (LGPD) del Brasile. Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento LGPD è stato aggiunto al servizio core Privacy di Adobe. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html)
+* **Brasile: nuova normativa sulla privacy** - Oltre alle funzionalità per la privacy già disponibili in Campaign, Adobe facilita la tua preparazione al Lei Geral de Proteçao de Datos (LGPD) del Brasile. Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento LGPD è stato aggiunto al servizio core Privacy di Adobe. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html)
 
 **Miglioramenti**
 
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **Integrazioni con Experience Platform**
 
-* L’attivazione di Adobe Experience Platform Audiencesdall’attività **Read audience** è stata migliorata per fornire prestazioni e stabilità migliori. Inoltre, i log del flusso di lavoro sono stati resi più chiari e dettagliati per quanto riguarda i processi di attivazione, consentendo un monitoraggio e una risoluzione dei problemi più semplice durante la lettura dei tipi di pubblico in Adobe Experience Platform.
+* Attivazione di tipi di pubblico di Adobe Experience Platform dalla **Read audience** L&#39;attività è stata migliorata per fornire prestazioni e stabilità migliori. Inoltre, i log del flusso di lavoro sono stati resi più chiari e dettagliati per quanto riguarda i processi di attivazione, consentendo un monitoraggio e una risoluzione dei problemi più semplice durante la lettura dei tipi di pubblico in Adobe Experience Platform.
 
 **Patch**
 
@@ -359,7 +360,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Le funzionalità di Adobe Experience Platform in Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette ad aggiornamenti frequenti senza preavviso. Consulta la documentazione dettagliata: Connettore dati di Experience Platform, Audience Destinations
+>Le funzionalità di Adobe Experience Platform in Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette ad aggiornamenti frequenti senza preavviso. Consulta la documentazione dettagliata: Connettore dati Experienci Platform, Audience Destinations
 
 * Nei registri del flusso di lavoro, Campaign ora visualizza ogni 10 minuti il numero di record già elaborati dal processo attualmente in esecuzione.
 * È stato risolto un problema che poteva verificarsi durante l’importazione di un profilo Adobe Experience Platform eliminato dal database.

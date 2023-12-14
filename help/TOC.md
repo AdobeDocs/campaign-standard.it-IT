@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Adobe Campaign Standard
-source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: ht
-source-wordcount: '1768'
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '1772'
 ht-degree: 100%
 
 ---
@@ -329,7 +329,7 @@ ht-degree: 100%
       + [Attività Update data](automating/using/update-data.md)
       + [Attività Load file](automating/using/load-file.md)
       + [Attività Transfer file](automating/using/transfer-file.md)
-      + [Attività Reconciliation](automating/using/reconciliation.md)
+      + [Riconciliazione](automating/using/reconciliation.md)
       + [Attività Extract file](automating/using/extract-file.md)
       + [Attività Subscription services](automating/using/subscription-services.md)
       + [Attività External API](automating/using/external-api.md)
@@ -447,7 +447,6 @@ ht-degree: 100%
       + [Configurazione delle regole di tag per supportare casi d’uso di Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migrazione dell’app mobile da SDK v4 ad Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [Prossime modifiche del canale di notifica push](administration/using/push-technote.md)
    + Configurazione del canale SMS {#configuring-sms}
       + [Implementazione del canale SMS](administration/using/configuring-sms-channel.md)
       + [Protocollo e impostazioni del connettore SMS](administration/using/sms-protocol.md)
