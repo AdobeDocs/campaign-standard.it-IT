@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 88%
 
 ---
 
@@ -23,11 +23,34 @@ Tutte le istanze di Adobe Campaign Standard vengono aggiornate con ogni nuova ve
 
 Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di Stage vengono aggiornate per consentire ai clienti di testare le nuove funzionalità e adattare la propria configurazione, se necessario. Vengono quindi aggiornate le istanze di produzione.
 
-Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti.
+Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-## Versione 23.2 - Autunno/inverno 2023 {#release-23-2-release}
+## Versione 24.1 - Versione Invernale 2024 {#release-24-1-release}
 
-Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
+Informazioni dettagliate su questa versione sono disponibili nel [Note sulla versione](release-notes.md) una settimana prima dell’avvio degli aggiornamenti dell’ambiente stage.
+
+<table>
+ <thead>
+  <tr>
+   <th> Ambienti </th>
+   <th> Date </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Fase </td>
+   <td>16 gennaio - 13 febbraio 2024 </td>
+  </tr>
+  <tr>
+   <td>Produzione </td>
+   <td>23 gennaio - 20 febbraio 2024 </td>
+  </tr>
+ </tbody>
+</table>
+
+
+## Versione 23.2 - Versione limitata autunno 2023 {#release-23-2-release}
+
 
 >[!AVAILABILITY]
 >
