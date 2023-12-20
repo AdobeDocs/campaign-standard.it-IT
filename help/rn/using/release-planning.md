@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di
 
 Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-## Versione 24.1 - Versione Invernale 2024 {#release-24-1-release}
+## Versione 24.1 - Inverno 2024 {#release-24-1-release}
 
-Informazioni dettagliate su questa versione sono disponibili nel [Note sulla versione](release-notes.md) una settimana prima dell’avvio degli aggiornamenti dell’ambiente stage.
+Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](release-notes.md) una settimana prima dell’avvio degli aggiornamenti dell’ambiente di staging.
 
 <table>
  <thead>
