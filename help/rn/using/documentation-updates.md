@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7240'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 ## Dicembre 2023 {#doc-updates-dec-2023}
 
-Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate nel 2024 e influiranno sull’implementazione di Adobe Campaign. Ulteriori informazioni in [questa nota tecnica](../../administration/using/push-technote.md).
+Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) verranno rilasciate nel 2024 e influenzeranno la tua implementazione di Adobe Campaign. Per ulteriori informazioni, consulta [questa nota tecnica](../../administration/using/push-technote.md).
 
 ## Versione 23.2 - Autunno 2023 {#release-23-2}
 
@@ -208,7 +208,7 @@ Gruppi di controllo. [Leggi tutto](../../sending/using/control-group.md)
 
 API esterna (supporto OAuth). [Leggi tutto](../../automating/using/external-api.md)
 
-Integrazione di Journey AI. [Leggi tutto](../../sending/using/predictive.md)
+Integrazione di Journey IA per la gestione dei percorsi cliente.[Leggi tutto](../../sending/using/predictive.md)
 
 **Altri aggiornamenti alla documentazione in arrivo con la versione**
 
@@ -236,7 +236,7 @@ Nel rapporto Profili attivi sono state aggiunte informazioni sulle origini anoni
 
 È disponibile una nuova sezione aggiornata nella guida introduttiva sull’utilizzo dei messaggi transazionali. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
 
-Il **Limitazioni della messaggistica transazionale** sezione spostata [qui](../../channels/using/transactional-messaging-limitations.md).
+La sezione **Limitazioni della messaggistica transazionale** è stata spostata [qui](../../channels/using/transactional-messaging-limitations.md).
 
 La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/using/preparing-the-send.md).
 
@@ -350,11 +350,11 @@ Nella documentazione di base sono state aggiunte informazioni più dettagliate s
 
 La sezione dedicata all’archiviazione di e-mail con indirizzi Ccn è stata spostata e aggiornata. [Ulteriori informazioni](../../sending/using/archiving.md)
 
-È stato eseguito l’aggiornamento della documentazione sulla configurazione di un’app mobile, unitamente alle pagine correlate, in modo da riflettere l’ammortamento di SDK V4. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+È stato eseguito l’aggiornamento della documentazione sulla configurazione di un’app mobile, unitamente alle pagine correlate, in modo da riflettere l’ammortamento di SDK V4. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=it)
 
 È stata aggiornata e migliorata la documentazione relativa all’integrazione di Adobe Campaign Standard/Adobe Experience Manager. [Ulteriori informazioni](../../integrating/using/configure-experience-manager.md)
 
-La documentazione di Email Designer di Campaign e le pagine relative sono state aggiornate e ora riportano l’obsolescenza di [!DNL Adobe Creative SDK]. [Ulteriori informazioni](../../rn/using/deprecated-features.md)
+La documentazione di E-mail designer di Campaign e le pagine relative sono state aggiornate e ora riportano l’obsolescenza di [!DNL Adobe Creative SDK]. [Ulteriori informazioni](../../rn/using/deprecated-features.md)
 
 È ora disponibile una nuova sezione dedicata alle best practice per il modello di dati Campaign Standard. [Ulteriori informazioni](../../developing/using/data-model-best-practices.md)
 
