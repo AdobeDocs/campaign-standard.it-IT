@@ -14,9 +14,9 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Per ulteriori dettagli sulla privacy di Adobe Experience Cloud, consulta [questa
 
 Nella gestione della privacy è importante definire quali dati devono essere gestiti con cura e chi si occupa della gestione.
 * **I dati personali** sono informazioni che possono identificare direttamente o indirettamente un individuo.
-* **Dati personali sensibili** sono informazioni relative alla razza, alle opinioni politiche, alle credenze religiose, ai precedenti penali, alle informazioni genetiche, ai dati sulla salute, alle preferenze sessuali e alle informazioni biometriche di un individuo, nonché alla sua appartenenza a un sindacato.
+* **I dati personali riservati** sono informazioni relative a etnia, opinioni politiche, credenze religiose, precedenti penali, informazioni genetiche, dati sanitari, orientamento sessuale e informazioni biometriche di un individuo, nonché ad appartenenze a sindacati.
 
 Le [normative principali](#privacy-regulations) si riferiscono alle diverse entità che gestiscono i dati come segue:
 * Il **titolare del trattamento** è l’autorità che determina i mezzi e lo scopo della raccolta, dell’utilizzo e della condivisione dei dati personali.
