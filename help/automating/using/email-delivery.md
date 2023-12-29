@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 94%
+source-wordcount: '858'
+ht-degree: 90%
 
 ---
 
@@ -42,7 +42,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 
 **Argomenti correlati:**
 
-* [Caso di utilizzo: creare una consegna e-mail settimanale](../../automating/using/workflow-weekly-offer.md)
+* [Caso d’uso: creare una consegna e-mail settimanale](../../automating/using/workflow-weekly-offer.md)
 * [Caso di utilizzo: creazione di una consegna segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
 * [Caso di utilizzo: creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Caso di utilizzo: invio di una nuova consegna a non-opener tramite un flusso di lavoro di retargeting](../../automating/using/workflow-cross-channel-retargeting.md)

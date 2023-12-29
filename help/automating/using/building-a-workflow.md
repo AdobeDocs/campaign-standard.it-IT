@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Questa sezione descrive i principi fondamentali e le best practice per la creazione di un nuovo flusso di lavoro.
 
-## Principi di funzionamento di un flusso di lavoro{#workflow-operating-principles}
+## Principi operativi del flusso di lavoro{#workflow-operating-principles}
 
 Un flusso di lavoro è una **sequenza di attività configurabili**. Ciascuna attività ha un ruolo specifico nel processo. Il risultato di ciascuna attività viene inoltrato all’attività seguente da una **transizione**, rappresentata da una freccia.
 
@@ -68,7 +68,7 @@ La creazione di un’attività di marketing è descritta nella sezione [Creazion
 
 1. Conferma la creazione dell’attività per visualizzarne il dashboard. Per ulteriori informazioni, consulta la sezione [Interfaccia dei flussi di lavoro](../../automating/using/workflow-interface.md).
 
-1. Quando il flusso di lavoro è pronto per essere configurato, puoi accedere alle opzioni aggiuntive facendo clic sul pulsante **[!UICONTROL Edit properties]**. 
+1. Quando il flusso di lavoro è pronto per essere configurato, puoi accedere alle opzioni aggiuntive facendo clic sul pulsante **[!UICONTROL Edit properties]** pulsante.
 
    Ad esempio, puoi definire un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 
@@ -115,7 +115,7 @@ Inoltre, le attività **[!UICONTROL Targeting]** e **[!UICONTROL Data management
 
 **Casi di utilizzo del flusso di lavoro:**
 
-* [Caso di utilizzo: creare una consegna e-mail settimanale](../../automating/using/workflow-weekly-offer.md)
+* [Caso d’uso: creare una consegna e-mail settimanale](../../automating/using/workflow-weekly-offer.md)
 * [Caso di utilizzo: creazione di una consegna segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
 * [Caso di utilizzo: creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Caso di utilizzo: invio di una nuova consegna a non-opener tramite un flusso di lavoro di retargeting](../../automating/using/workflow-cross-channel-retargeting.md)

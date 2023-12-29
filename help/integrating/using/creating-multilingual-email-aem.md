@@ -1,5 +1,5 @@
 ---
-title: Creazione di un’e-mail multilingue con l’integrazione Adobe Experience Manager.
+title: Creazione di un messaggio e-mail multilingue con l’integrazione Adobe Experience Manager.
 description: Con l’integrazione di Adobe Experience Manager, puoi creare contenuti direttamente nell’AEM e utilizzarli successivamente in Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ Sussistono i seguenti prerequisiti:
 
 1. Clic **[!UICONTROL Complete]** allora **[!UICONTROL Newsletter review]** dal **[!UICONTROL Complete work item]** finestra.
 
-1. Fai clic su **[!UICONTROL Complete]**, quindi su **[!UICONTROL Newsletter approval]**. Una volta definiti il contenuto e i parametri di invio, puoi procedere all’approvazione, alla preparazione e all’invio dell’e-mail in Adobe Campaign Standard.
+1. Clic **[!UICONTROL Complete]** allora **[!UICONTROL Newsletter approval]**. Una volta definiti il contenuto e i parametri di invio, puoi procedere all’approvazione, alla preparazione e all’invio dell’e-mail in Adobe Campaign Standard.
 
    ![](assets/aem_acs_8.png)
 

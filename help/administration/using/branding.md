@@ -1,6 +1,6 @@
 ---
 title: Branding
-description: Scopri tutti gli strumenti disponibili per gestire le tue brand identity
+description: Scopri tutti gli strumenti disponibili per gestire le tue identità di branding
 audience: administration
 context-tags: branding,overview;branding,main
 feature: Instance Settings
@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 76%
+source-wordcount: '1259'
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ Gli amministratori tecnici possono definire uno o più brand per immettere in mo
 
 Il principio fondamentale della configurazione e dell’utilizzo dei brand è:
 
-1. Crea e configura il brand: questa operazione richiede autorizzazioni specifiche e viene eseguita dall’amministratore tecnico di Adobe Campaign. Scopri come ottenere un nuovo brand in Campaign [in questa sezione](#creating-a-brand).
+1. Creazione e configurazione del brand: questa operazione richiede autorizzazioni specifiche e viene eseguita dall’amministratore tecnico di Adobe Campaign. Scopri come ottenere un nuovo brand in Campaign [in questa sezione](#creating-a-brand).
 1. Crea uno o più modelli di consegna e pagine di destinazione per questo brand. Fai riferimento alla sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md).
 1. Crea messaggi e pagine di destinazione in base a questo modello. Consulta le sezioni [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md) e [Creazione di una pagina di destinazione](../../channels/using/designing-a-landing-page.md).
 
@@ -85,7 +85,7 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 ## Creazione di un nuovo brand {#creating-a-brand}
 
-In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un nuovo tipo di e-mail da inviare in un sottodominio diverso. Per farlo, segui la procedura indicata di seguito:
+In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un nuovo tipo di e-mail da inviare in un sottodominio diverso. A tale scopo, segui i passaggi indicati di seguito:
 
 1. **Configurare un nuovo sottodominio** : per utilizzare un nuovo sottodominio come Adobe, il primo passaggio consiste nella sua configurazione. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o contatta il tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione dei sottodomini [in questo articolo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 

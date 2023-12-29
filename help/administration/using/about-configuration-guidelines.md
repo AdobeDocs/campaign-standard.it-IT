@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 13%
+source-wordcount: '119'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ Elenco dei browser compatibili con Adobe Campaign Standard:
 * iOS (versione 7 e successive)
 * Android (versione 4.4 e successive)
 
-## Endpoint di rete per Campaign Standard {#campaign-standard-network-endpoints}
+## Endpoint di rete Campaign Standard {#campaign-standard-network-endpoints}
 
 Di seguito sono riportati i diversi endpoint utilizzati in Campaign Standard.
 

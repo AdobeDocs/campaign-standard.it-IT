@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4562'
-ht-degree: 8%
+source-wordcount: '4572'
+ht-degree: 3%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Gestione dell’eccesso<br /> </td> 
-   <td> La gestione dell’affaticamento consente di creare regole di affaticamento per gestire la comunicazione eccessiva con i profili. Le regole di affaticamento sono facilmente costruibili, ma sono estremamente flessibili con funzionalità quali il conteggio dei messaggi tra più canali (inclusi i messaggi transazionali), il conteggio solo di consegne specifiche o l’applicazione di regole a profili specifici.<br /> Per ulteriori informazioni, consulta la <a href="../../sending/using/fatigue-rules.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> La gestione dell’affaticamento consente di creare regole di affaticamento per gestire la comunicazione eccessiva con i profili. Le regole di affaticamento sono facilmente costruibili, ma sono estremamente flessibili con funzionalità quali il conteggio dei messaggi tra più canali (inclusi i messaggi transazionali), il conteggio solo di consegne specifiche o l’applicazione di regole a profili specifici.<br /> Per ulteriori informazioni, consulta <a href="../../sending/using/fatigue-rules.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creazione di contenuti: importazione da un URL<br /> </td> 
-   <td> L’importazione da un URL consente di recuperare rapidamente il contenuto creativo da un sito web per creare e-mail per qualsiasi consegna. Inoltre, puoi semplificare il processo creativo consentendo a terze parti di condividere i contenuti direttamente tramite un URL. Il contenuto importato può essere utilizzato in modo flessibile come parte di una singola consegna o a livello di modello, garantendo la coerenza del brand per tutte le campagne correlate, siano esse messaggi basati su flusso di lavoro o messaggi transazionali, e includendo test A/B o multivariati. L’importazione da un URL converte e tiene traccia automaticamente di tutti i collegamenti per monitorare le prestazioni delle e-mail tramite Reporting dinamico.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/using-existing-content.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’importazione da un URL consente di recuperare rapidamente il contenuto creativo da un sito web per creare e-mail per qualsiasi consegna. Inoltre, puoi semplificare il processo creativo consentendo a terze parti di condividere i contenuti direttamente tramite un URL. Il contenuto importato può essere utilizzato in modo flessibile come parte di una singola consegna o a livello di modello, garantendo la coerenza del brand per tutte le campagne correlate, siano esse messaggi basati su flusso di lavoro o messaggi transazionali, e includendo test A/B o multivariati. L’importazione da un URL converte e tiene traccia automaticamente di tutti i collegamenti per monitorare le prestazioni delle e-mail tramite Reporting dinamico.<br /> Per ulteriori informazioni, consulta <a href="../../designing/using/using-existing-content.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,15 +108,15 @@ _Risorse personalizzate_
  <tbody> 
   <tr> 
    <td> Libreria di modelli e-mail<br /> </td> 
-   <td> Presentazione di diciotto nuovi modelli reattivi progettati in due splendidi temi: Astro e Feather. Questi modelli personalizzabili sono indipendenti dal settore e pronti per essere utilizzati immediatamente. I modelli includono contenuti per una varietà di casi d’uso, per progettare e distribuire le campagne di e-mail marketing in modo più rapido, efficiente e bello che mai.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/using-reusable-content.md#content-templates">documentazione dettagliata</a>.<br /> </td> 
+   <td> Presentazione di diciotto nuovi modelli reattivi progettati in due splendidi temi: Astro e Feather. Questi modelli personalizzabili sono indipendenti dal settore e pronti per essere utilizzati immediatamente. I modelli includono contenuti per una varietà di casi d’uso, per progettare e distribuire le campagne di e-mail marketing in modo più rapido, efficiente e bello che mai.<br /> Per ulteriori informazioni, consulta <a href="../../designing/using/using-reusable-content.md#content-templates">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Reporting dinamico con i dati profilo<br /> </td> 
-   <td> Reporting dinamico fornisce report aziendali completamente personalizzabili e in tempo reale. Con questa versione, un potente miglioramento al Reporting dinamico aggiunge l’accesso ai dati del profilo, consentendo l’analisi demografica per dimensioni di profilo come genere, città, codice postale ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Con la stessa interfaccia di trascinamento facile da usare, determinare le prestazioni della campagna e-mail rispetto ai segmenti di clienti più importanti è più semplice che mai.<br /> Per ulteriori informazioni, consulta la <a href="../../reporting/using/about-dynamic-reports.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Reporting dinamico fornisce report aziendali completamente personalizzabili e in tempo reale. Con questa versione, un potente miglioramento al Reporting dinamico aggiunge l’accesso ai dati del profilo, consentendo l’analisi demografica per dimensioni di profilo come genere, città, codice postale ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. Con la stessa interfaccia di trascinamento facile da usare, determinare le prestazioni della campagna e-mail rispetto ai segmenti di clienti più importanti è più semplice che mai.<br /> Per ulteriori informazioni, consulta <a href="../../reporting/using/about-dynamic-reports.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Abbonamento di massa con origine e data<br /> </td> 
-   <td> Con questo miglioramento di massa degli abbonamenti, ora puoi memorizzare le informazioni sull’abbonamento (origine e data) direttamente nel database di Adobe Campaign Standard tramite l’attività Subscription Services in un flusso di lavoro.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/subscription-services.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Con questo miglioramento di massa degli abbonamenti, ora puoi memorizzare le informazioni sull’abbonamento (origine e data) direttamente nel database di Adobe Campaign Standard tramite l’attività Subscription Services in un flusso di lavoro.<br /> Per ulteriori informazioni, consulta <a href="../../automating/using/subscription-services.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -180,27 +180,27 @@ _Profili e pubblico_
  <tbody> 
   <tr> 
    <td> Consegne e-mail e SMS multilingue<br /> </td> 
-   <td> Definisci ed esegui consegne e-mail e SMS multilingue tramite un’unica consegna basata sulla lingua preferita dei clienti segmentati automaticamente. Rapporto sulle prestazioni di ogni consegna fino al livello della lingua e dei singoli livelli.<br /> Sono sempre più numerose le aziende che devono affrontare la sfida di distribuire contenuti in più lingue man mano che crescono in patria e all'estero. Di conseguenza, la semplificazione della consegna dei messaggi localizzati è un elemento chiave di un'efficace strategia di comunicazione con i clienti per le aziende multinazionali, le aziende in paesi con più lingue e le aziende che desiderano personalizzare ulteriormente i propri contenuti a livello linguistico indipendentemente dal luogo in cui risiedono i clienti. Per ulteriori informazioni, consulta la <a href="../../channels/using/creating-a-multilingual-email.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Definisci ed esegui consegne e-mail e SMS multilingue tramite un’unica consegna basata sulla lingua preferita dei clienti segmentati automaticamente. Rapporto sulle prestazioni di ogni consegna fino al livello della lingua e dei singoli livelli.<br /> Sono sempre più numerose le aziende che devono affrontare la sfida di distribuire contenuti in più lingue man mano che crescono in patria e all'estero. Di conseguenza, la semplificazione della consegna dei messaggi localizzati è un elemento chiave di un'efficace strategia di comunicazione con i clienti per le aziende multinazionali, le aziende in paesi con più lingue e le aziende che desiderano personalizzare ulteriormente i propri contenuti a livello linguistico indipendentemente dal luogo in cui risiedono i clienti. Per ulteriori informazioni, consulta <a href="../../channels/using/creating-a-multilingual-email.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notifiche di Adobe Campaign<br /> </td> 
-   <td> Ricevi notifiche su importanti attività di sistema direttamente in Adobe Campaign Standard. Ad esempio, riceverai una notifica sull’avanzamento delle consegne in corso o quando un flusso di lavoro è in errore.<br /> Le notifiche in tempo reale tengono informate le parti interessate e forniscono agli utenti la possibilità di agire immediatamente e direttamente sulle notifiche di attività dall’interno dell’applicazione. Il risultato per i team è l’agilità avanzata, l’efficienza e l’esecuzione più fluida delle campagne. Per ulteriori informazioni, consulta la <a href="../../administration/using/sending-internal-notifications.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Ricevi notifiche su importanti attività di sistema direttamente in Adobe Campaign Standard. Ad esempio, riceverai una notifica sull’avanzamento delle consegne in corso o quando un flusso di lavoro è in errore.<br /> Le notifiche in tempo reale tengono informate le parti interessate e forniscono agli utenti la possibilità di agire immediatamente e direttamente sulle notifiche di attività dall’interno dell’applicazione. Il risultato per i team è l’agilità avanzata, l’efficienza e l’esecuzione più fluida delle campagne. Per ulteriori informazioni, consulta <a href="../../administration/using/sending-internal-notifications.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Avvisi sulla consegna<br /> </td> 
-   <td> Oltre a visualizzare le notifiche direttamente in Adobe Campaign Standard, Adobe Campaign ora fornisce anche un sistema di avvisi e-mail per attivare gli avvisi e-mail per gli utenti o le parti interessate esterne di importanti attività del sistema. Crea, gestisci e ricevi avvisi e dashboard personalizzabili per tenere traccia dei successi o degli errori di consegna.<br /> Avvisi sulla consegna di Adobe Campaign migliora l’efficienza mantenendo tutti gli utenti Adobe Campaign coinvolti in un’azienda automaticamente informati sullo stato di esecuzione della consegna tramite e-mail e dashboard. Per ulteriori informazioni, consulta la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Oltre a visualizzare le notifiche direttamente in Adobe Campaign Standard, Adobe Campaign ora fornisce anche un sistema di avvisi e-mail per attivare gli avvisi e-mail per gli utenti o le parti interessate esterne di importanti attività del sistema. Crea, gestisci e ricevi avvisi e dashboard personalizzabili per tenere traccia dei successi o degli errori di consegna.<br /> Avvisi sulla consegna di Adobe Campaign migliora l’efficienza mantenendo tutti gli utenti Adobe Campaign coinvolti in un’azienda automaticamente informati sullo stato di esecuzione della consegna tramite e-mail e dashboard. Per ulteriori informazioni, consulta <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Crittografia dell’ID dichiarato nelle origini dati<br /> </td> 
-   <td> Invia trigger e-mail e SMS senza la necessità di un profilo esistente in Campaign utilizzando informazioni di contatto crittografate (indirizzo e-mail o numero di telefono) come ID dichiarato. Poiché gli ID dichiarati crittografati possono essere decodificati da Adobe Campaign Standard, Campaign può ora creare nuovi profili commerciabili quando riceve tipi di pubblico da altre soluzioni Experience Cloud contenenti contatti precedentemente sconosciuti.<br /> Puoi indirizzare l’attività a clienti potenziali e sconosciuti in tempo reale tramite e-mail e SMS per migliorare la fedeltà alla base di clienti esistente e acquisire nuovi clienti, rispettivamente. Sfrutta al meglio i dati dei cookie di prime parti (da Adobe Audience Manager*) una volta che i potenziali clienti si autenticano e sfruttano tali informazioni in Adobe Campaign. <br /> *È richiesto Adobe Audience Manager. Per ulteriori informazioni, consulta la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Invia trigger e-mail e SMS senza la necessità di un profilo esistente in Campaign utilizzando informazioni di contatto crittografate (indirizzo e-mail o numero di telefono) come ID dichiarato. Poiché gli ID dichiarati crittografati possono essere decodificati da Adobe Campaign Standard, Campaign può ora creare nuovi profili commerciabili quando riceve tipi di pubblico da altre soluzioni Experience Cloud contenenti contatti precedentemente sconosciuti.<br /> Puoi indirizzare l’attività a clienti potenziali e sconosciuti in tempo reale tramite e-mail e SMS per migliorare la fedeltà alla base di clienti esistente e acquisire nuovi clienti, rispettivamente. Sfrutta al meglio i dati dei cookie di prime parti (da Adobe Audience Manager*) una volta che i potenziali clienti si autenticano e sfruttano tali informazioni in Adobe Campaign. <br /> *È richiesto Adobe Audience Manager. Per ulteriori informazioni, consulta <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Condivisione di KPI (Key Performance Indicator) da Campaign ad Analytics<br /> </td> 
-   <td> Condividi i dati della campagna con Adobe Analytics per misurare le metriche di e-mail marketing da Campaign insieme ad altre attività di marketing e pubblicitarie attraverso la conversione, unificando il comportamento prima e dopo il clic.<br /> Monitora direttamente le prestazioni complessive e scopri le sinergie con i programmi esterni in Analytics. Applica alle tue campagne il tuo apprendimento da questa visualizzazione consolidata; in ultima analisi, migliora i tassi di apertura, click-through e conversione, aumentando i ricavi e le prestazioni complessive della campagna. <br /> Adobe Analytics è obbligatorio. Per ulteriori informazioni, consulta la <a href="../../integrating/using/about-campaign-analytics-integration.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Condividi i dati della campagna con Adobe Analytics per misurare le metriche di e-mail marketing da Campaign insieme ad altre attività di marketing e pubblicitarie attraverso la conversione, unificando il comportamento prima e dopo il clic.<br /> Monitora direttamente le prestazioni complessive e scopri le sinergie con i programmi esterni in Analytics. Applica alle tue campagne il tuo apprendimento da questa visualizzazione consolidata; in ultima analisi, migliora i tassi di apertura, click-through e conversione, aumentando i ricavi e le prestazioni complessive della campagna. <br /> Adobe Analytics è obbligatorio. Per ulteriori informazioni, consulta <a href="../../integrating/using/about-campaign-analytics-integration.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Canale direct mailing - Rendi al mittente<br /> </td> 
-   <td> Sono ora supportati gli scambi di file Flat con i provider Direct Mail che incorporano le informazioni Return to Sender. Questo miglioramento al canale Direct Mail consente di escludere gli indirizzi postali corrispondenti da comunicazioni future.<br /> Ciò consente agli addetti al marketing di ricevere notifiche su indirizzi non corretti e di interagire con il cliente attraverso altri canali o di incoraggiarli ad aggiornare il proprio indirizzo postale. Questo riduce anche il numero di dollari di marketing sprecati, in quanto gli esperti di marketing evitano di inviare e-mail a indirizzi errati. <br /> Direct mailing è disponibile come canale aggiuntivo. Per ulteriori informazioni, consulta la <a href="../../channels/using/return-to-sender.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Sono ora supportati gli scambi di file Flat con i provider Direct Mail che incorporano le informazioni Return to Sender. Questo miglioramento al canale Direct Mail consente di escludere gli indirizzi postali corrispondenti da comunicazioni future.<br /> Ciò consente agli addetti al marketing di ricevere notifiche su indirizzi non corretti e di interagire con il cliente attraverso altri canali o di incoraggiarli ad aggiornare il proprio indirizzo postale. Questo riduce anche il numero di dollari di marketing sprecati, in quanto gli esperti di marketing evitano di inviare e-mail a indirizzi errati. <br /> Direct mailing è disponibile come canale aggiuntivo. Per ulteriori informazioni, consulta <a href="../../channels/using/return-to-sender.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,12 +255,12 @@ _Flussi di lavoro_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Direct mailing<br /> </td> 
-   <td> Infrangi la barriera digitale e collegati al mondo fisico con il primo canale offline di Adobe Campaign Standard, Direct Mail. Questa funzione ti consente di personalizzare e generare il file richiesto dai provider di direct mailing come parte delle campagne cross-channel. Utilizza Direct Mail per coinvolgere nuovamente i clienti o per migliorare l’esperienza del cliente con un punto di contatto tattile convincente che spinge i clienti a visitare la tua app, il tuo sito web o il tuo store.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/about-direct-mail.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Direct mail<br /> </td> 
+   <td> Infrangi la barriera digitale e collegati al mondo fisico con il primo canale offline di Adobe Campaign Standard, Direct Mail. Questa funzione ti consente di personalizzare e generare il file richiesto dai provider di direct mailing come parte delle campagne cross-channel. Utilizza Direct Mail per coinvolgere nuovamente i clienti o per migliorare l’esperienza del cliente con un punto di contatto tattile convincente che spinge i clienti a visitare la tua app, il tuo sito web o il tuo store.<br /> Per ulteriori informazioni, consulta <a href="../../channels/using/about-direct-mail.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Invia e-mail in Ccn<br /> </td> 
-   <td> Ccn e-mail consente di salvare messaggi e-mail univoci inviati a singoli destinatari, consentendo in tal modo al brand di archiviarli. Aggiungendo un indirizzo e-mail Ccn a tutte le e-mail, i clienti di Adobe Campaign Standard possono conservare una copia esatta di ogni e-mail con questa funzione. Si tratta di un requisito legale comune per il settore dei servizi finanziari ed è utile per assistere i centri di assistenza clienti nella risoluzione dei conflitti in tempo reale.<br /> Per ulteriori informazioni, consulta la <a href="../../sending/using/archiving.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> CCN e-mail<br /> </td> 
+   <td> Ccn e-mail consente di salvare messaggi e-mail univoci inviati a singoli destinatari, consentendo in tal modo al brand di archiviarli. Aggiungendo un indirizzo e-mail Ccn a tutte le e-mail, i clienti di Adobe Campaign Standard possono conservare una copia esatta di ogni e-mail con questa funzione. Si tratta di un requisito legale comune per il settore dei servizi finanziari ed è utile per assistere i centri di assistenza clienti nella risoluzione dei conflitti in tempo reale.<br /> Per ulteriori informazioni, consulta <a href="../../sending/using/archiving.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -303,19 +303,19 @@ _Notifiche push_
  <tbody> 
   <tr> 
    <td> Funzionalità di editing immagine migliorate con Creative SDK<br /> </td> 
-   <td> Ora puoi accedere a un set completo di funzioni basate su Creative SDK per migliorare le immagini direttamente nell’editor dei contenuti durante la modifica delle e-mail o delle pagine di destinazione.<br /> Questa funzione non richiede l'acquisizione di soluzioni Creative Cloud aggiuntive.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentazione dettagliata</a>.<br /> </td> 
+   <td> Ora puoi accedere a un set completo di funzioni basate su Creative SDK per migliorare le immagini direttamente nell’editor dei contenuti durante la modifica delle e-mail o delle pagine di destinazione.<br /> Questa funzione non richiede l'acquisizione di soluzioni Creative Cloud aggiuntive.<br /> Per ulteriori informazioni, consulta <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notifiche push transazionali<br /> </td> 
-   <td> Il canale dell’applicazione mobile è stato aggiunto alle funzionalità di messaggistica transazionale di Adobe Campaign. Sono ora supportati tre canali per i messaggi transazionali: e-mail, SMS e notifiche push.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/transactional-push-notifications.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Il canale dell’applicazione mobile è stato aggiunto alle funzionalità di messaggistica transazionale di Adobe Campaign. Sono ora supportati tre canali per i messaggi transazionali: e-mail, SMS e notifiche push.<br /> Per ulteriori informazioni, consulta <a href="../../channels/using/transactional-push-notifications.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notifiche push ricorrenti<br /> </td> 
-   <td> Ora puoi configurare le notifiche push ricorrenti in un flusso di lavoro. Puoi utilizzare notifiche push ricorrenti in situazioni in cui i clienti si aspettano aggiornamenti periodici, come promemoria settimanali per estrarre nuovi contenuti o promozioni.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/push-notification-delivery.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Ora puoi configurare le notifiche push ricorrenti in un flusso di lavoro. Puoi utilizzare notifiche push ricorrenti in situazioni in cui i clienti si aspettano aggiornamenti periodici, come promemoria settimanali per estrarre nuovi contenuti o promozioni.<br /> Per ulteriori informazioni, consulta <a href="../../automating/using/push-notification-delivery.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Connettore Amazon Simple Storage Service (S3)<br /> </td> 
-   <td> Il connettore Amazon Simple Storage Service (S3) può ora essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. La configurazione viene eseguita in un account esterno.<br /> Per ulteriori informazioni, consulta la <a href="../../administration/using/external-accounts.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Il connettore Amazon Simple Storage Service (S3) può ora essere utilizzato per importare o esportare dati in Adobe Campaign. Può essere impostato in un’attività del flusso di lavoro. La configurazione viene eseguita in un account esterno.<br /> Per ulteriori informazioni, consulta <a href="../../administration/using/external-accounts.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integrazione live di Dreamweaver<br /> </td> 
@@ -388,7 +388,7 @@ _Notifiche push_
  <tbody> 
   <tr> 
    <td> Reporting dinamico<br /> </td> 
-   <td> Il reporting dinamico fornisce una nuova generazione di rapporti aziendali completamente personalizzabili e in tempo reale. Basata su tabelle pivot dinamiche visive e grafici, questa funzione consente di trascinare e rilasciare variabili e dimensioni per analizzare l’efficienza e l’efficacia delle campagne di marketing. La generazione di rapporti dinamici consente inoltre di creare rapporti aziendali personalizzati da zero e di salvarli per un utilizzo successivo.<br /> Per ulteriori informazioni, consulta la <a href="../../reporting/using/about-dynamic-reports.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Il reporting dinamico fornisce una nuova generazione di rapporti aziendali completamente personalizzabili e in tempo reale. Basata su tabelle pivot dinamiche visive e grafici, questa funzione consente di trascinare e rilasciare variabili e dimensioni per analizzare l’efficienza e l’efficacia delle campagne di marketing. La generazione di rapporti dinamici consente inoltre di creare rapporti aziendali personalizzati da zero e di salvarli per un utilizzo successivo.<br /> Per ulteriori informazioni, consulta <a href="../../reporting/using/about-dynamic-reports.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integrazione Dreamweaver (Labs)<br /> </td> 
@@ -400,7 +400,7 @@ _Notifiche push_
     <ul> 
      <li> Tutti i destinatari ricevono il messaggio tenendo conto del loro fuso orario. </li> 
      <li> Ogni destinatario riceve il messaggio in una data e un’ora calcolate definite da una formula. </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="../../sending/using/optimizing-the-sending-time.md">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta <a href="../../sending/using/optimizing-the-sending-time.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notifiche push Nuove funzionalità<br /> </td> 
@@ -411,7 +411,7 @@ _Notifiche push_
      <li> Push interattivo </li> 
      <li> Supporto di contenuti avanzati </li> 
      <li> Calcolatore dimensioni payload </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="../../channels/using/about-push-notifications.md">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta <a href="../../channels/using/about-push-notifications.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Flussi di lavoro: nuova attività segnale<br /> </td> 
@@ -419,19 +419,19 @@ _Notifiche push_
     <ul> 
      <li> <span class="uicontrol">Fine</span> attività: una nuova scheda ti consente di specificare un flusso di lavoro da attivare dopo l’esecuzione dell’attività. </li> 
      <li> <span class="uicontrol">Aggiorna dati</span> attività: utilizza la nuova transizione in uscita vuota per aggiungere una <strong>Fine</strong> attività che attiva un altro flusso di lavoro. Le transizioni vuote in uscita non contengono dati e non occupano spazio inutile sul sistema </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="../../automating/using/external-signal.md">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta <a href="../../automating/using/external-signal.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Flussi di lavoro: nuova attività Read audience<br /> </td> 
-   <td> Avvia il processo di targeting con un pubblico esistente che puoi facilmente selezionare e perfezionare in un’attività.<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/read-audience.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Avvia il processo di targeting con un pubblico esistente che puoi facilmente selezionare e perfezionare in un’attività.<br /> Per ulteriori informazioni, consulta <a href="../../automating/using/read-audience.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dati dei punti di interesse<br /> </td> 
-   <td> I dati dei punti di interesse integrano Adobe Campaign con Adobe Analytics per dispositivi mobili. Un brand può raccogliere dati dalle posizioni mobili degli utenti, chiamate <strong>Punti di interesse</strong> - quando gli utenti aprono l’app del brand. Questo consente al brand di sfruttare i flussi di lavoro di Adobe Campaign per inviare messaggi personalizzati in base alla posizione degli utenti. Questo canale sfrutta l’SDK del servizio core Mobile.<br /> Tieni presente che l’utilizzo di questa funzione richiede Analytics per Mobile, che è una soluzione a pagamento.<br /> Per ulteriori informazioni, consulta la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> I dati dei punti di interesse integrano Adobe Campaign con Adobe Analytics per dispositivi mobili. Un brand può raccogliere dati dalle posizioni mobili degli utenti, chiamate <strong>Punti di interesse</strong> - quando gli utenti aprono l’app del brand. Questo consente al brand di sfruttare i flussi di lavoro di Adobe Campaign per inviare messaggi personalizzati in base alla posizione degli utenti. Questo canale sfrutta l’SDK del servizio core Mobile.<br /> Tieni presente che l’utilizzo di questa funzione richiede Analytics per Mobile, che è una soluzione a pagamento.<br /> Per ulteriori informazioni, consulta <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API REST<br /> </td> 
-   <td> Le risorse collegate a qualsiasi livello alle risorse dei profili o dei servizi sono ora disponibili nell’API.<br /> Per ulteriori informazioni, consulta la <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">documentazione dettagliata</a>.<br /> </td> 
+   <td> Le risorse collegate a qualsiasi livello alle risorse dei profili o dei servizi sono ora disponibili nell’API.<br /> Per ulteriori informazioni, consulta <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -485,7 +485,7 @@ _Flussi di lavoro_
      <li> Includere il collegamento di annullamento all’abbonamento nei messaggi; </li> 
      <li> Aggiungere messaggi transazionali al reporting globale sulla distribuzione; </li> 
      <li> Utilizzare messaggi transazionali nel customer journey. </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API di messaggistica transazionale<br /> </td> 

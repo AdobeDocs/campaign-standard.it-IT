@@ -10,8 +10,8 @@ level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 77%
+source-wordcount: '1261'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ Tutte le schermate di Adobe Campaign sono composte dai seguenti elementi:
 
 ![](assets/ux_interface_01.png)
 
-## Pagina Home {#home-page}
+## Home page {#home-page}
 
 La pagina Home è composta da una serie di schede che ti offrono un accesso rapido alle funzionalità principali di Adobe Campaign. L’elenco delle capacità che puoi visualizzare nella pagina Home di Campaign dipende dalle autorizzazioni in tuo possesso e dalle opzioni configurate per la tua organizzazione.
 
@@ -95,7 +95,7 @@ L’icona **[!UICONTROL Marketing plans]** ti permette di accedere alle seguenti
 * **[!UICONTROL Timeline]**. Per ulteriori informazioni, fai riferimento alla sezione [Timeline](../../start/using/timeline.md).
 * **[!UICONTROL Transactional messages]**, che contiene i sottomenu **[!UICONTROL Deliveries]** e **[!UICONTROL Event configuration]**. Per ulteriori informazioni, consulta la sezione [Messaggistica transazionale](../../channels/using/getting-started-with-transactional-msg.md).
 
-### Profiles &amp; audiences {#profiles-e-audiences}
+### Profili e pubblico {#profiles-e-audiences}
 
 L’icona **[!UICONTROL Profiles & audiences]** ti permette di accedere alle seguenti funzionalità:
 
@@ -104,7 +104,7 @@ L’icona **[!UICONTROL Profiles & audiences]** ti permette di accedere alle seg
 * **[!UICONTROL Audiences]**. Per ulteriori informazioni, consulta la sezione [Gestione dei tipi di pubblico](../../audiences/using/about-audiences.md).
 * **[!UICONTROL Services]**. Per ulteriori informazioni, consulta la sezione [Creazione di un servizio](../../audiences/using/creating-a-service.md).
 
-### Resources {#resources}
+### Risorse {#resources}
 
 L’icona **[!UICONTROL Resources]** ti permette di accedere alle seguenti funzionalità:
 

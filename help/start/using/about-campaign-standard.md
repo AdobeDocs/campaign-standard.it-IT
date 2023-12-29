@@ -10,12 +10,12 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 96%
 
 ---
 
-# Guida introduttiva a Campaign Standard {#about-campaign-standard}
+# Introduzione a Campaign Standard {#about-campaign-standard}
 
  Adobe Campaign Standard è un potente strumento di gestione delle campagne cross-channel che consente di allineare le strategie online e offline per creare esperienze cliente personalizzate.
 
@@ -35,7 +35,7 @@ I **Campaign Integrated Customer Profile** consentono di monitorare ogni interaz
 
 [Guida introduttiva a profili e tipi di pubblico](../../audiences/using/get-started-profiles-and-audiences.md)
 
-## Organizzazione di campagne di marketing multicanale {#orchestrate-campaigns}
+## Organizzazione di campagne di marketing cross-channel {#orchestrate-campaigns}
 
 <img width="60px" alt="condizioni" src="assets/icon_workflows.svg"/>
 
@@ -57,7 +57,7 @@ Progetta e invia messaggi su canali di comunicazione online e offline, oltre a o
 
 **Analizza e controlla il contenuto dei messaggi** prima dell’invio, testando più funzionalità come anteprima, bozze, test dell’oggetto dell’e-mail, rendering dell’e-mail e così via. Assicurati che i messaggi vengano recapitati al momento giusto ottimizzando il tempo di invio (pianificazione, gestione del fuso orario). [Guida introduttiva alla verifica e all’invio](../../sending/using/get-started-sending-messages.md)
 
-## Monitora l’impatto delle campagne {#track-impact-campaigns}
+## Monitorare l’impatto delle campagne {#track-impact-campaigns}
 
 <img width="60px" alt="condizioni" src="assets/icon_report.svg"/>
 

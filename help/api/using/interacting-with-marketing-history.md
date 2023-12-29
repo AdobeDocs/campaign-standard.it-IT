@@ -8,14 +8,14 @@ exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
 # Interazione con lo storico dei dati marketing{#interacting-with-marketing-history}
 
 Il **cronologia** l’endpoint ti consente di interagire con la cronologia di marketing di un profilo.
-In questo modo, ad esempio, puoi recuperare facilmente la pagina speculare per una consegna inviata a un profilo. A tale scopo, segui la procedura indicata di seguito:
+In questo modo, ad esempio, puoi recuperare facilmente la pagina speculare per una consegna inviata a un profilo. A questo scopo, segui la procedura indicata di seguito:
 
 1. Eseguire una GET con **cronologia** e la chiave primaria del profilo.
 1. Eseguire una richiesta GET su **Eventi** href restituito.

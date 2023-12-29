@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 9%
+source-wordcount: '1039'
+ht-degree: 5%
 
 ---
 
@@ -52,7 +52,7 @@ Durante la creazione delle e-mail, tieni presenti le best practice generali ripo
 
 Lavorare su [oggetto](../../designing/using/subject-line.md) per migliorare i tassi di apertura:
 
-* Evitare soggetti troppo lunghi. Utilizza un massimo di 50 caratteri
+* Evitare soggetti troppo lunghi. Usa massimo 50 caratteri
 
 * Evita di usare parole ripetitive come &quot;gratuito&quot; o &quot;offerta&quot;, che potrebbero essere considerate spam
 
@@ -62,7 +62,7 @@ Lavorare su [oggetto](../../designing/using/subject-line.md) per migliorare i ta
 
 Includi sempre un collegamento a una pagina speculare. La posizione preferita è nella parte superiore dell’e-mail. [Ulteriori informazioni](../../designing/using/personalization.md#adding-a-content-block)
 
-### Collegamento di annullamento dell’abbonamento
+### Collegamento Annulla iscrizione
 
 Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Scopri le linee guida per i collegamenti di annullamento dell’abbonamento [in questa sezione](../../designing/using/personalization.md#about-targeting-dimension).
 
@@ -100,7 +100,7 @@ L’Adobe consiglia di mantenere il valore predefinito per la dimensione massima
 
 Per impostazione predefinita, il numero di caratteri in un SMS soddisfa gli standard GSM (Global System for Mobile Communications). I messaggi SMS che utilizzano la codifica GSM sono limitati a 160 caratteri o 153 caratteri per SMS per messaggi inviati in più parti.
 
-La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando quel carattere non è preso in considerazione dallo standard GSM. L’inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Puoi autorizzare la traslitterazione di caratteri selezionando la casella corrispondente nella scheda delle impostazioni del canale SMPP della **[!UICONTROL External account]**.
+La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando tale carattere non è preso in considerazione dallo standard GSM. L’inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Puoi autorizzare la traslitterazione di caratteri selezionando la casella corrispondente nella scheda delle impostazioni del canale SMPP della **[!UICONTROL External account]**.
 Per ulteriori informazioni, consulta [questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Suggerimenti**:

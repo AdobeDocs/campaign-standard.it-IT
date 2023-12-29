@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 47%
+source-wordcount: '183'
+ht-degree: 40%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 47%
                <tr>
                   <td>creato</td>
                   <td>Creato</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 47%
                <tr>
                   <td>lastModified</td>
                   <td>Ultima modifica</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -200,7 +200,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>titolo</td>
                   <td>Profilo di prova</td>
                   <td>stringa (255)</td>
                   <td> </td>

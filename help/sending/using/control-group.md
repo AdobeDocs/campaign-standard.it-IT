@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
@@ -72,7 +72,7 @@ Nella sezione **[!UICONTROL Target extraction]**, seleziona una delle opzioni se
 
 <!--![](assets/control-group-no-extraction.png)-->
 
-### Limite di dimensioni {#size-limit}
+### Limite dimensione {#size-limit}
 
 Selezionando sia **[!UICONTROL Random sampling]** che **[!UICONTROL Keep only the first records after sorting]**, è necessario impostare il modo in cui limitare il numero di profili estratti dal target principale. Effettua una delle seguenti operazioni:
 
@@ -157,7 +157,7 @@ Una volta inviata la consegna, cosa puoi fare con il gruppo di controllo?
 >
 >Per accedere ai registri di consegna, è necessario disporre di [Ruolo di amministratore](../../administration/using/users-management.md#functional-administrators) e di far parte del **[!UICONTROL All]** [unità organizzativa](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
-### Controllo dei registri di consegna {#checking-logs}
+### Verifica dei registri di consegna {#checking-logs}
 
 Per vedere quali profili sono stati rimossi dal target dopo l’invio del messaggio, controlla **[!UICONTROL Delivery logs]**. Per ulteriori informazioni sui registri di consegna e su come accedervi, consulta [questa sezione](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 

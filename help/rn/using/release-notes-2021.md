@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4695'
 ht-degree: 100%
 
 ---
@@ -407,8 +407,8 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 ```
 
 * È stato risolto un problema a causa del quale il completamento della funzione **Push notification preparation** impiegava troppo tempo. Questo era causato da un indice mancante nelle tabelle di lavoro transitorie.
-* È stato risolto un errore che si verificava durante l’utilizzo dell’opzione **Dimension to reconciliate** in un’attività **Reconciliation** in un flusso di lavoro, se era già stata definita una relazione tra una risorsa personalizzata e una risorsa profilo.
-* È stato risolto un problema che si verificava durante l’aggiunta di collegamenti tramite un’attività **Reconciliation** o **Enrichment**. I collegamenti selezionati non venivano visualizzati nella transizione di output.
+* È stato risolto un errore che si verificava durante l’utilizzo dell’opzione **Dimensione da riconciliare** in un’attività **Riconciliazione** in un flusso di lavoro, se era già stata definita una relazione tra una risorsa personalizzata e una risorsa profilo.
+* È stato risolto un problema che si verificava durante l’aggiunta di collegamenti tramite un’attività **Riconciliazione** o **Arricchimento**. I collegamenti selezionati non venivano visualizzati nella transizione di output.
 * È stato risolto un problema che si verificava durante l’utilizzo di un’attività **Segmentation** con consegne ricorrenti in un flusso di lavoro, causando l’invio della consegna a un pubblico errato. (CAMP-46275, CAMP-46470)
 * È stato corretto un errore a causa del quale la pubblicazione di risorse personalizzate non riusciva se si tentava di estendere la risorsa del profilo per creare dimensioni di profilo personalizzate per la generazione di rapporti dinamici. (CAMP-46266)
 * È stato corretto un errore che si verificava durante l’aggiunta di un collegamento a una tabella File import. Dopo l’aggiunta di un’attività **Enrichment** all’attività **File import**, il collegamento configurato in precedenza scompariva. (CAMP-46557)

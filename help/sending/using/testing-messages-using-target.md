@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ Le fasi principali sono le seguenti:
    >
    >Le bozze vengono elaborate da [!DNL Campaign Standard] come consegne standard. Di conseguenza, l’invio di bozze utilizzando la sostituzione dei profili aggiungerà dei record ai registri di consegna e di tracciamento dei profili selezionati.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 ## Selezione di profili e indirizzi di sostituzione {#selecting-profiles}
 
@@ -177,7 +177,7 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 1. Crea un flusso di lavoro per eseguire il targeting dei profili e inviare la newsletter.
 1. Configura le sostituzioni del profilo del messaggio.
 1. Visualizza l’anteprima del messaggio utilizzando i profili di destinazione.
-1. Invia bozze.
+1. Inviare bozze.
 
 ### Passaggio 1: creare il pubblico da utilizzare per il test
 

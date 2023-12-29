@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 80%
+source-wordcount: '1720'
+ht-degree: 77%
 
 ---
 
@@ -62,7 +62,7 @@ Per un account esterno SFTP, fornisci i seguenti dettagli:
 * Numero della porta. Ad esempio, **22**.
 * Credenziali del server SFTP: nome account e password utilizzati per connettersi al server.
 
-### Raccomandazioni per server SFTP in hosting su Adobe {#adobe-hosted-sftp-server-recommendations}
+### Adobe di consigli per server SFTP in hosting {#adobe-hosted-sftp-server-recommendations}
 
 Quando gestisci file e dati per un processo di ETL, questi file vengono memorizzati in un server SFTP in hosting fornito da Adobe. Questo SFTP è progettato per essere uno spazio di archiviazione temporaneo su cui puoi controllare la conservazione e l’eliminazione dei file.
 
@@ -124,7 +124,7 @@ Specifica la **[!UICONTROL AWS Region]** associata all’endpoint. Puoi consulta
 >
 >Il **[!UICONTROL Receiver server]** deve essere immesso senza l’area geografica AWS, che in seguito verrà aggiunta automaticamente all’URL.
 
-### Raccomandazioni per un account Amazon S3 {#amazon-s3-account-recommendations}
+### Raccomandazioni per l’account Amazon S3 {#amazon-s3-account-recommendations}
 
 Per facilitare l’impostazione dell’account Amazon S3, si consiglia di seguire le seguenti raccomandazioni:
 

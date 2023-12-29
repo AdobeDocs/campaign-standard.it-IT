@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 94%
+source-wordcount: '433'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 Per poter gestire gli abbonamenti, devi innanzitutto creare un servizio e configurarlo. La configurazione di un nuovo servizio ti permette di specificare le conferme e-mail che i profili ricevono al momento dell’abbonamento al servizio o del suo annullamento. Puoi inoltre definire le pagine di destinazione per l’abbonamento e il suo annullamento collegate al servizio. Ad esempio, un collegamento di abbonamento a un servizio inserito in un messaggio e-mail indirizza automaticamente il profilo alla pagina di destinazione di abbonamento specificata nel servizio.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 Per configurare un servizio:
 

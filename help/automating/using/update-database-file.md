@@ -12,13 +12,13 @@ exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 33%
+ht-degree: 11%
 
 ---
 
 # Aggiornamento del database con dati esterni {#update-database-file}
 
-L’esempio seguente mostra la configurazione di un’ **[!UICONTROL Update data]** attività successiva a un **[!UICONTROL Load file]** attività. Lo scopo del presente flusso di lavoro è quello di aggiungere o aggiornare i profili del database Adobe Campaign sulla base dei dati recuperati dal file.
+L’esempio seguente mostra la configurazione di un’ **[!UICONTROL Update data]** attività successiva a un **[!UICONTROL Load file]** attività. Lo scopo di questo flusso di lavoro è quello di aggiungere o aggiornare i profili al database di Adobe Campaign con i dati recuperati dal file.
 
 In questo esempio, la chiave di riconciliazione utilizzata è **indirizzo e-mail**. Il file caricato in [Carica file](../../automating/using/load-file.md) l&#39;attività è un **.txt** file di formato contenente i seguenti dati di esempio:
 

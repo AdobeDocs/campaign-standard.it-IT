@@ -11,12 +11,12 @@ level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 4%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
-# Tracciare e monitorare {#track-and-monitor}
+# Tracciamento e monitoraggio {#track-and-monitor}
 
 Hai fatto clic sul pulsante Invia? Vediamo cosa succede. Una volta inviata la consegna, Adobe Campaign ti consente di tenere traccia dei messaggi inviati e scoprire come i destinatari reagiscono alla consegna. Questo ti consente di migliorare l’invio futuro e di ottimizzare le campagne successive.
 

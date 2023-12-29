@@ -1,6 +1,6 @@
 ---
 title: Elenco di ruoli
-description: Scopri l’elenco dei ruoli che puoi assegnare agli utenti
+description: Scopri l’elenco dei ruoli che puoi assegnare ai tuoi utenti
 audience: administration
 feature: Access Management
 role: Admin
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 80%
+source-wordcount: '223'
+ht-degree: 73%
 
 ---
 

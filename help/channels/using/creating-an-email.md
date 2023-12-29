@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 18%
+source-wordcount: '567'
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 18%
 
 Puoi creare un messaggio e-mail da un [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity), da Adobe Campaign [home page](../../start/using/interface-description.md#home-page), o nella [elenco delle attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities). Puoi anche creare e-mail a invio singolo e ricorrenti da un flusso di lavoro.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 1. Dopo aver iniziato a creare un’attività di e-mail marketing, seleziona il modello da utilizzare.
 

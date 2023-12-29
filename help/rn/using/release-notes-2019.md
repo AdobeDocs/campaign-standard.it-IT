@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 8%
 
 ---
@@ -360,14 +360,14 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * La dimensione Codice postale è stata rimossa da Reporting dinamico. È invece consigliabile utilizzare le dimensioni Città, Paese e Stato.
 * Il trigger dell’evento del ciclo di vita &quot;Primo avvio&quot; per i messaggi in-app è stato rimosso.
 * Durante l’esportazione di un pacchetto con gruppi di sicurezza, ora questo contiene i ruoli assegnati a ciascun gruppo. (CAMP-32960)
-* Nell’attività Load file, una nuova opzione ti consente di verificare che le colonne del file che stai caricando corrispondano alla definizione della colonna. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../automating/using/load-file.md). (CAMP-32229)
-* Ora è possibile avviare i flussi di lavoro con un payload, che consente di utilizzare e condividere parametri esterni tra le attività all’interno del flusso di lavoro. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 E CAMP-29413)
+* Nell’attività Load file, una nuova opzione ti consente di verificare che le colonne del file che stai caricando corrispondano alla definizione della colonna. Per ulteriori informazioni, consulta [documentazione dettagliata](../../automating/using/load-file.md). (CAMP-32229)
+* Ora è possibile avviare i flussi di lavoro con un payload, che consente di utilizzare e condividere parametri esterni tra le attività all’interno del flusso di lavoro. Per ulteriori informazioni, consulta [documentazione dettagliata](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 E CAMP-29413)
 * Le API di Campaign Standard ora consentono di aggiornare le unità geografiche e organizzative dei profili utilizzando un payload. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../api/using/get-started-apis.md).
 * I messaggi di errore quando un oggetto del database non è accessibile sono stati resi più chiari.
 * Nell’attività Extract file, le funzionalità JavaScript sono state aggiornate durante la definizione del nome di un file da esportare. Solo la funzione formatDate è ora disponibile per l&#39;utilizzo nel campo Output. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../automating/using/extract-file.md).
 * La generazione automatica dell’ID di sequenza è stata migliorata per le risorse personalizzate. Le chiavi primarie per le nuove risorse personalizzate ora sono in 64 bit per impostazione predefinita.
 * È stata migliorata la modalità di test per la pubblicazione delle risorse personalizzate. Se l’ultima pubblicazione delle risorse personalizzate non è riuscita e non è stata corretta, ora viene visualizzato un messaggio di avviso per gli utenti. Dopo un errore di pubblicazione di una risorsa personalizzata, puoi eseguire il rollback all’ultima versione di lavoro. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-* È stata aggiunta una nuova opzione nell’attività Trasferisci file. Ti consente di ordinare i file quando utilizzi l’azione Scarica file, in modalità SFTP. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../automating/using/transfer-file.md). (CAMP-33109)
+* È stata aggiunta una nuova opzione nell’attività Trasferisci file. Ti consente di ordinare i file quando utilizzi l’azione Scarica file, in modalità SFTP. Per ulteriori informazioni, consulta [documentazione dettagliata](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **Patch**
 
@@ -390,7 +390,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * È stato risolto un problema che causava la disattivazione del flusso di lavoro Deliverability in caso di mancato completamento.
 * È stato risolto un problema che poteva impedire agli utenti di salvare o pianificare i rapporti. (CAMP-31133)
 
-## Versione 19.1.3 - Marzo 2019 {#release-19-1-3---march-2019}
+## Versione 19.1.3 - marzo 2019 {#release-19-1-3---march-2019}
 
 **Miglioramenti di E-mail Designer**
 
@@ -432,7 +432,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
    <td> Miglioramenti al flusso di lavoro<br /> </td> 
    <td> <p>Sono state aggiunte le seguenti funzionalità del flusso di lavoro:</p> 
     <ul> 
-     <li> Ora puoi copiare e incollare le attività all’interno di un flusso di lavoro o di un altro flusso di lavoro dalla stessa istanza di Campaign. In questo modo, puoi duplicare facilmente un intero flusso di lavoro o attività specifiche e mantenere le impostazioni inizialmente definite. Per ulteriori informazioni, consulta la <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">documentazione dettagliata</a>. (CAMP-20014) </li> 
+     <li> Ora puoi copiare e incollare le attività all’interno di un flusso di lavoro o di un altro flusso di lavoro dalla stessa istanza di Campaign. In questo modo, puoi duplicare facilmente un intero flusso di lavoro o attività specifiche e mantenere le impostazioni inizialmente definite. Per ulteriori informazioni, consulta <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">documentazione dettagliata</a>. (CAMP-20014) </li> 
      <li> Quando si utilizza <strong>Carica file</strong> attività, è ora possibile aggiungere una marca temporale al nome del file contenente i record rifiutati. Per ulteriori informazioni, consulta la <a href="../../automating/using/load-file.md#configuration">documentazione dettagliata</a>. </li> 
      <li> <strong>Query</strong> e <strong>Segmentazione</strong> Le attività ora consentono di abilitare una transizione in uscita se non recuperano dati. </li> 
     </ul> </td> 
@@ -531,7 +531,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
      <li> La capacità di <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperare automaticamente il contenuto da un URL al momento della preparazione</a> </li> 
      <li> Completamente conforme <a href="../../designing/using/using-reusable-content.md#content-templates">modelli di contenuto predefiniti</a>. </li> 
     </ul> 
-    <p>Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">video tutorial</a>. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l’editor di contenuti e-mail legacy è ora obsoleto. Per ulteriori informazioni, consulta questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.</p> </td> 
+    <p>Per ulteriori informazioni, consulta <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">video tutorial</a>. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l’editor di contenuti e-mail legacy è ora obsoleto. Per ulteriori informazioni, consulta questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Elenco prodotti nei messaggi e-mail sulle transazioni<br /> </td> 

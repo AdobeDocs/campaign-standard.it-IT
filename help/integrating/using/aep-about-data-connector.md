@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 4%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Connettore dati Adobe Experience Platform è ora obsoleto. Le funzionalità obsolete sono ancora disponibili, ma non vengono ulteriormente migliorate né supportate. Per ulteriori informazioni, consulta [questa pagina](../../rn/using/deprecated-features.md)
+>Connettore dati Adobe Experience Platform è ora obsoleto. Le funzionalità obsolete sono ancora disponibili, ma non vengono ulteriormente migliorate né supportate. Ulteriori informazioni [in questa pagina](../../rn/using/deprecated-features.md)
 
 Il connettore dati di Adobe Experience Platform aiuta i clienti esistenti a rendere i propri dati disponibili su Adobe Experience Platform mappando i dati XTK (dati acquisiti in Campaign) su Experience Data Model (XDM) in Adobe Experience Platform.
 
@@ -31,7 +31,7 @@ Connettore dati Adobe Experience Platform è destinato a **data engineer** che c
 
 Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei dati tra Campaign Standard e Adobe Experience Platform. Ciò inizia con la creazione di uno schema XDM e un set di dati.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 >[!NOTE]
 >Dopo aver configurato il connettore dati di Adobe Experience Platform e aver acquisito correttamente i dati in Adobe Experience Platform, devi abilitare il set di dati in modo che vengano inclusi nel profilo cliente in tempo reale.

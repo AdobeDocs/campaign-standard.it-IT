@@ -11,7 +11,7 @@ exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -114,7 +114,7 @@ Il pacchetto generato è disponibile nella cartella Download. Il nome del file z
 
    ![](assets/cusresources_import3.png)
 
-### Pubblicare {#publish-structure}
+### Pubblica {#publish-structure}
 
 1. Passa al menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
 1. Fai clic su **[!UICONTROL Prepare publication]** e poi su **[!UICONTROL Publish]** per aggiornare l’istanza con i dati delle nuove risorse personalizzate.
@@ -137,7 +137,7 @@ Allo stesso modo del passaggio precedente, l’operazione è divisa in due parti
 
    ![](assets/cusresources_importdata.png)
 
-### Pubblicare {#publish-data}
+### Pubblica {#publish-data}
 
 1. Passa al menu **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]**.
 1. Fai clic su **[!UICONTROL Prepare publication]** e poi su **[!UICONTROL Publish]** per aggiornare l’istanza con i dati delle risorse personalizzate.

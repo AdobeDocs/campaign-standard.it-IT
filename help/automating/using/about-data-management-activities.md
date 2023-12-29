@@ -28,7 +28,7 @@ La sezione **[!UICONTROL Data management (ETL)]** include le seguenti attività:
 * [Attività Update data](../../automating/using/update-data.md)
 * [Attività Load file](../../automating/using/load-file.md)
 * [Attività Transfer file](../../automating/using/transfer-file.md)
-* [Attività Reconciliation](../../automating/using/reconciliation.md)
+* [Riconciliazione](../../automating/using/reconciliation.md)
 * [Attività Extract file](../../automating/using/extract-file.md)
 * [Attività Subscription services](../../automating/using/subscription-services.md)
 

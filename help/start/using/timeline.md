@@ -12,7 +12,7 @@ exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -47,12 +47,12 @@ Quando viene visualizzato il contenuto di un programma o di una campagna, la cas
 
 Ciascun elemento ha un’icona che corrisponde al relativo tipo:
 
-* ![](assets/timeline_program_icon.png) programma
-* ![](assets/timeline_campaign_icon.png) campagna
-* ![](assets/timeline_lp_icon.png) pagina di destinazione
-* ![](assets/timeline_email_icon.png) e-mail
+* ![](assets/timeline_program_icon.png) Programma
+* ![](assets/timeline_campaign_icon.png) Campagna
+* ![](assets/timeline_lp_icon.png) Pagina di destinazione
+* ![](assets/timeline_email_icon.png) E-mail
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) notifica push
+* ![](assets/timeline_push_icon.png) Notifica push
 
 La linea colorata sul bordo sinistro di ciascuna casella indica lo stato dell’elemento interessato.
 

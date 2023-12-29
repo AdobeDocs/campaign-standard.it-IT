@@ -11,7 +11,7 @@ exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 Per modificare un profilo esistente e consultare i dati ad esso associati o modificarlo, effettuare le seguenti operazioni:
 
-1. Dalla pagina Home di Adobe Campaign, fai clic sulla scheda **[!UICONTROL Customer profiles]** o sulla scheda **[!UICONTROL Profiles]**.
+1. Dalla pagina Home di Adobe Campaign, fai clic su **[!UICONTROL Customer profiles]** scheda o **[!UICONTROL Profiles]** scheda.
 1. Seleziona un contatto.
 1. Fai clic su **[!UICONTROL Edit profile properties]** per accedere alle informazioni dettagliate del profilo.
 

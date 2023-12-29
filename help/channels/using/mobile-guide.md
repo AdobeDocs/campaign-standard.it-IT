@@ -1,5 +1,5 @@
 ---
-title: Guida a Campaign Standard per dispositivi mobili
+title: Guida di Campaign Standard Mobile
 description: Scopri le linee guida generali per le consegne su dispositivi mobili in Adobe Campaign Standard, ad esempio come configurare le app mobili o creare notifiche push e messaggi in-app.
 audience: channels
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
@@ -140,7 +140,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
   </td>
   <td>
     <div>
-    <p><strong>Visualizzazione di un’immagine da una notifica push di Adobe Campaign Standard</strong></p>
+    <p><strong>Visualizzare un’immagine da una notifica push di Adobe Campaign Standard</strong></p>
     </div>
     <p><a href="../../administration/using/image-push-notification.md"><strong>Scopri qui</strong></a> come visualizzare un’immagine da una notifica push di Adobe Campaign su un dispositivo iOS.</p>
     <br>
@@ -201,7 +201,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
     <p><strong>Personalizzazione di un messaggio SMS
 </strong></p>
     </div>
-    <p>Per ottimizzare la consegna, Adobe Campaign ti consente di accedere a una serie di opzioni avanzate durante la progettazione di un messaggio SMS.Per ulteriori informazioni, </br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>fai clic qui.</p>
+    <p>Per ottimizzare la consegna, Adobe Campaign ti consente di accedere a una serie di opzioni avanzate durante la progettazione di un messaggio SMS.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Fai clic qui per ulteriori informazioni.</p>
     <br>
   </td>
 </tr>

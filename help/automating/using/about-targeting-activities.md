@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 54%
+ht-degree: 35%
 
 ---
 
@@ -48,12 +48,12 @@ Puoi selezionare i dati utilizzando le seguenti attività:
 
 ## Segmentazione dei dati {#segmenting-data}
 
-Adobe Campaign consente di elaborare i set sui dati in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più target.
+Adobe Campaign consente di elaborare i set sui dati in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni.
 
-* L’attività **[!UICONTROL Union]** ti consente di raggruppare il risultato di più attività in un unico target. Consulta la sezione [Unione](../../automating/using/union.md).
-* L’attività **[!UICONTROL Intersection]** ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività. Consulta la sezione [Intersezione](../../automating/using/intersection.md).
-* L’attività **[!UICONTROL Exclusion]** consente di escludere elementi da una popolazione in base a determinati criteri. Consulta la [Esclusione](../../automating/using/exclusion.md) sezione.
-* L’attività **[!UICONTROL Segmentation]** ti consente di creare uno o più segmenti da un gruppo calcolato dalle attività inserite in precedenza nel flusso di lavoro. Al termine dell’attività, puoi elaborarli in un’unica transizione o in diverse transizioni. Consulta la [Segmentazione](../../automating/using/segmentation.md) sezione.
+* Il **[!UICONTROL Union]** attività consente di raggruppare il risultato di più attività in un unico target. Consulta la sezione [Unione](../../automating/using/union.md).
+* Il **[!UICONTROL Intersection]** attività ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell’attività. Consulta la sezione [Intersezione](../../automating/using/intersection.md).
+* Il **[!UICONTROL Exclusion]** attività ti consente di escludere elementi da una popolazione in base a determinati criteri. Consulta la [Esclusione](../../automating/using/exclusion.md) sezione.
+* L’attività **[!UICONTROL Segmentation]** ti consente di creare uno o più segmenti da un gruppo calcolato dalle attività inserite in precedenza nel flusso di lavoro. Al termine dell’attività, possono essere elaborati in un’unica transizione o in diverse transizioni. Consulta la [Segmentazione](../../automating/using/segmentation.md) sezione.
 
 ## Arricchimento dei dati {#enriching-data}
 

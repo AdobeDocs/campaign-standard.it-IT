@@ -12,7 +12,7 @@ exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -75,7 +75,7 @@ Tutti i dettagli dei log di invio sono di sola lettura. Puoi inoltre visualizzar
 >
 >Per visualizzare il rendering della pagina speculare nell’interfaccia utente di Campaign, l’URL del server della pagina speculare deve essere sicuro. In questo caso, utilizza https:// anziché http:// per impostare questo URL al momento della [configurazione del brand](../../administration/using/branding.md#configuring-and-using-brands).
 
-### Log di esclusione {#exclusion-logs}
+### Registri di esclusione {#exclusion-logs}
 
 La scheda **[!UICONTROL Exclusion logs]** elenca tutti i messaggi che sono stati esclusi dal target inviato e specifica il motivo dell’errore di invio.
 

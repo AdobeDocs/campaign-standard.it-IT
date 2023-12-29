@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva ai processi e alla gestione dei dati
+title: Introduzione ai processi e alla gestione dei dati
 description: Automatizza i processi con i flussi di lavoro, gestisci dati e tipi di pubblico, invia messaggi e altro ancora.
 audience: automating
 content-type: reference
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 38%
+source-wordcount: '548'
+ht-degree: 32%
 
 ---
 
-# Guida introduttiva ai processi e alla gestione dei dati {#get-started-processes-data-management}
+# Introduzione ai processi e alla gestione dei dati {#get-started-processes-data-management}
 
 <table>
 <tr>
@@ -50,7 +50,7 @@ Con [Attività di esecuzione](../../automating/using/about-execution-activities.
 
 Infine, [Attività di gestione dati](../../automating/using/about-data-management-activities.md) consente di manipolare i dati dal database.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Creazione di un flusso di lavoro](../../automating/using/building-a-workflow.md)
 * [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md)
@@ -64,7 +64,7 @@ Sfruttare **editor di query** per filtrare i dati dal database e creare una popo
 
 L’editor delle query viene fornito con **filtri e regole predefiniti** per un filtraggio rapido e semplice. Tuttavia, puoi anche utilizzare **modifica avanzata delle espressioni** funzionalità. Ciò ti consente di inserire manualmente le condizioni e utilizzare le funzioni, al fine di creare regole personalizzate.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Modifica delle query](../../automating/using/editing-queries.md)
 * [Modifica avanzata delle espressioni](../../automating/using/advanced-expression-editing.md)
@@ -86,7 +86,7 @@ Sfruttare [Pacchetti](../../automating/using/managing-packages.md) per scambiare
 
 Infine, [Esportazione di elenchi](../../automating/using/exporting-lists.md) consente di esportare qualsiasi elenco da Campaign Standard, ad esempio l’elenco dei profili di test, l’elenco degli indirizzi e-mail della quarantena e così via.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Importazione ed esportazione di dati](../../automating/using/about-data-import-and-export.md)
 * [Caso di utilizzo: esportazione/importazione di risorse personalizzate](../../automating/using/exporting-importing-custom-resources.md)

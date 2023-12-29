@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 8%
+source-wordcount: '787'
+ht-degree: 6%
 
 ---
 
@@ -51,7 +51,7 @@ Per ulteriori informazioni, consulta [Definizione del mittente dell’e-mail di 
 
 Per migliorare l’esperienza dei destinatari e farli aprire l’e-mail, Adobe Campaign consente di personalizzare i messaggi. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/personalization.md).
 
-Per aumentare il tasso di apertura dei messaggi, puoi anche definire manualmente un orario di invio per destinatario. Laddove possibile, ogni profilo riceverà il messaggio alla data e all’orario specificati. Per ulteriori informazioni, consulta [Ottimizzazione del tempo di invio](../../sending/using/optimizing-the-sending-time.md).
+Per aumentare il tasso di apertura dei messaggi, puoi anche definire manualmente un orario di invio per destinatario. Ogni volta che è possibile, ciascun profilo riceverà il messaggio alla data e all’ora specificate. Per ulteriori informazioni, consulta [Ottimizzazione del tempo di invio](../../sending/using/optimizing-the-sending-time.md).
 
 ## Collegamento e modulo per la rinuncia {#opt-out}
 

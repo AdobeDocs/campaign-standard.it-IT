@@ -11,7 +11,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ Per iniziare a inviare messaggi in-app sulle app mobili che utilizzano l’SDK d
 
 * [Rapporto in-app](../../reporting/using/in-app-report.md)
 * [Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
-* [Guida a Campaign Standard per dispositivi mobili](../../channels/using/get-started-communication-channels.md)
+* [Guida di Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Gestione dei campi del profilo mobile con dati personali e sensibili {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

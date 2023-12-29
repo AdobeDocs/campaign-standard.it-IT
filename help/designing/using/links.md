@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ Una volta creato il collegamento, puoi comunque modificarlo dal riquadro Imposta
 
 ![](assets/des_link_edit.png)
 
-Durante la modifica di un’e-mail con [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md), puoi accedere facilmente ai collegamenti creati dalla tabella in cui sono elencati tutti gli URL inclusi nell’e-mail e modificarli. Questo elenco consente di avere una visualizzazione centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consulta [Informazioni sugli URL tracciati](#about-tracked-urls).
+Durante la modifica di un’e-mail con [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md), puoi accedere facilmente ai collegamenti creati dalla tabella in cui sono elencati tutti gli URL inclusi nell’e-mail e modificarli. Questo elenco ti consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consulta [Informazioni sugli URL tracciati](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 

@@ -7,7 +7,7 @@ topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 21%
+ht-degree: 8%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 21%
     </td>
 </tr>
 <tr>
-<td>Modello dati di Campaign</td>
+<td>Modello dati della campagna</td>
 <td>Utilizzare le API REST</td>
 <td>Gestione utenti</td>
 <td>Configurare e monitorare l’istanza</td>
 </tr>
 </table>
 
-## Modello dati di Campaign
+## Modello dati della campagna
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 

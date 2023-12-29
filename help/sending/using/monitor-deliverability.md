@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 10%
+source-wordcount: '308'
+ht-degree: 9%
 
 ---
 
@@ -26,7 +26,7 @@ Di seguito sono riportati i dettagli sulla **[!UICONTROL Delivery throughput]** 
 * Verifica che il numero di errori e le nuove quarantene siano coerenti con le altre consegne.
 * Consulta attentamente i registri di consegna in dettaglio per verificare il tipo di errori evidenziati (inserisce nell&#39;elenco Bloccati, problemi DNS, regole anti-spam, ecc.).
 
-## Velocità effettiva di consegna {#delivery-throughput}
+## Velocità di consegna {#delivery-throughput}
 
 Questo rapporto contiene informazioni sulla velocità effettiva di consegna dell’intera piattaforma per un determinato periodo di tempo, al fine di misurare la velocità a cui vengono consegnati i messaggi.
 

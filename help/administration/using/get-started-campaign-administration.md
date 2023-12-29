@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 15%
+source-wordcount: '631'
+ht-degree: 12%
 
 ---
 
@@ -55,7 +55,7 @@ Invita gli utenti ad accedere all’applicazione e a gestire **gruppi di sicurez
 
 Campaign standard consente inoltre di monitorare le informazioni relative alla sicurezza. È possibile recuperare informazioni relative alle esportazioni di dati eseguite dagli utenti tramite **[!UICONTROL Export audits]** e sfrutta **[!UICONTROL Licenses]** Questa schermata consente di monitorare tutte le licenze di Campaign installate all’interno dell’organizzazione, nonché diverse informazioni quali il numero di build, la versione e i termini dell’accordo.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Gestione utenti](../../administration/using/users-management.md)
 * [Unità organizzative](../../administration/using/organizational-units.md)
@@ -74,7 +74,7 @@ Configurare vari **email** parametri: regole di elaborazione per mancati recapit
 
 Configurazione **applicazioni mobili** per poter inviare messaggi in-app e notifiche push tramite gli SDK di Adobe Experience Platform.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Informazioni sulla configurazione dei canali](../../administration/using/about-channel-configuration.md)
 * [Configurazione del canale e-mail](../../administration/using/configuring-email-channel.md)
@@ -91,7 +91,7 @@ Configurazione **account esterni**, utilizzati per collegare Adobe Campaign a se
 
 Definisci uno o più **marchi** per la tua organizzazione e configurare l’invio di **notifiche in tempo reale** all’interno dell’applicazione in caso di attività di sistema importanti.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Informazioni sulle impostazioni di Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Account esterni](../../administration/using/external-accounts.md)

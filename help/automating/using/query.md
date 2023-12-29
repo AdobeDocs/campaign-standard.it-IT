@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -99,7 +99,7 @@ Esempio di filtri disponibili per la risorsa **[!UICONTROL Deliveries (delivery)
 
 ![](assets/targeting_dimension5.png)
 
-Per impostazione predefinita, la dimensione di targeting e la risorsa sono impostati per eseguire il targeting dei profili. Tuttavia, se desideri cercare un record specifico in una tabella lontana, potrebbe risultare utile usare una risorsa diversa dalla dimensione di targeting.
+Per impostazione predefinita, la dimensione di targeting e la risorsa sono impostate per eseguire il targeting dei profili. Tuttavia, se desideri cercare un record specifico in una tabella lontana, potrebbe risultare utile usare una risorsa diversa dalla dimensione di targeting.
 
 Per ulteriori informazioni, consulta questo caso d’uso: [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
@@ -201,7 +201,7 @@ Se devi applicare l’ordinamento all’aggregato, dovresti filtrare valori zero
 1. Consulta la sezione [Ordinamento dei dati aggiuntivi](#sorting-additional-data).
 1. Seleziona **[!UICONTROL Confirm]** per aggiungere la raccolta.
 
-### Filtro dei dati aggiunti {#filtering-added-data}
+### Filtraggio dei dati aggiunti {#filtering-added-data}
 
 Quando aggiungi un aggregato o una raccolta, puoi specificare un filtro aggiuntivo per limitare i dati da visualizzare.
 
@@ -217,7 +217,7 @@ Ad esempio, se desideri salvare solo la transazione eseguita più di recente da 
 
 ![](assets/enrichment_sort_data.png)
 
-### Filtri dei dati target in base ai dati aggiuntivi {#filtering-the-targeted-data-according-to-additional-data}
+### Filtrare i dati target in base ai dati aggiuntivi {#filtering-the-targeted-data-according-to-additional-data}
 
 Dopo l’aggiunta dei dati aggiuntivi, nella **[!UICONTROL Query]** viene visualizzata una nuova scheda **[!UICONTROL Output filtering]**. Questa scheda ti consente di applicare un filtro aggiuntivo ai dati inizialmente inclusi nella scheda **[!UICONTROL Target]** tenendo conto dei dati aggiunti.
 

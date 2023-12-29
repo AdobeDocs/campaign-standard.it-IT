@@ -1,6 +1,6 @@
 ---
 title: Arricchimento dei dati del profilo con i dati contenuti in un file
-description: Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto presenti in un file.
+description: Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto contenuti in un file.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 75%
+source-wordcount: '521'
+ht-degree: 72%
 
 ---
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 43%
+source-wordcount: '693'
+ht-degree: 39%
 
 ---
 
@@ -44,7 +44,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 
    >[!NOTE]
    >
-   >Puoi accedere alle proprietà generali e alle opzioni avanzate dell’attività (e non della consegna stessa) tramite il pulsante ![](assets/dlv_activity_params-24px.png) dalle azioni rapide dell’attività.
+   >Puoi accedere alle proprietà generali e alle opzioni avanzate dell’attività (e non della consegna stessa) tramite ![](assets/dlv_activity_params-24px.png) dalle azioni rapide dell’attività.
 
    ![](assets/wkf_in_app_3.png)
 

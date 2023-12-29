@@ -1,6 +1,6 @@
 ---
-title: Reconciliation
-description: L’attività Reconciliation ti consente di collegare dati non identificati a risorse esistenti.
+title: Riconciliazione
+description: L’attività Riconciliazione consente di collegare dati non identificati a risorse esistenti.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 ---
 
-# Attività Reconciliation{#reconciliation}
+# Riconciliazione{#reconciliation}
 
 ## Descrizione {#description}
 

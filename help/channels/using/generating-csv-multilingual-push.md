@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 1%
+source-wordcount: '1016'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Il caricamento di un file CSV per generare contenuti da distribuire è una funzi
 
 Il push multilingue richiede 14 colonne nel file CSV:
 
-1. title
+1. titolo
 1. messageBody
 1. suono
 1. adge
@@ -35,7 +35,7 @@ Il push multilingue richiede 14 colonne nel file CSV:
 1. isMutableContent
 1. customFields
 1. lingua
-1. language
+1. lingua
 1. silentPush
 
 Controlla il file CSV campione facendo clic sul pulsante **[!UICONTROL Download a sample file]** nel **[!UICONTROL Manage Content Variants]** finestra. Per ulteriori informazioni, consulta questa [sezione](../../channels/using/creating-a-multilingual-push-notification.md).
@@ -98,7 +98,7 @@ Nell’estensione sono presenti due attributi obbligatori:
 
 Sono supportate le seguenti lingue:
 
-| lingua | language |
+| lingua | lingua |
 |:-:|:-:|
 | af_za | Afrikaans - Sudafrica |
 | sq_al | Albanese - Albania |

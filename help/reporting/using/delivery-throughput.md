@@ -1,5 +1,5 @@
 ---
-title: Velocità effettiva di consegna
+title: Velocità di consegna
 description: Con il rapporto preconfigurato Throughput di consegna, scopri il successo della consegna.
 audience: reporting
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# Velocità effettiva di consegna{#delivery-throughput}
+# Velocità di consegna{#delivery-throughput}
 
 Questo rapporto contiene dati relativi alla velocità effettiva di consegna di un invio o di più invii. Esso prevede:
 

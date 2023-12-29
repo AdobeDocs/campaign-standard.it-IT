@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '512'
+ht-degree: 79%
 
 ---
 
@@ -64,7 +64,7 @@ Viene visualizzato il report dedicato di rendering di e-mail. Consulta [Descrizi
 
 * [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
 * [Invio di bozze](../../sending/using/sending-proofs.md)
-* [Editor delle query](../../automating/using/editing-queries.md#about-query-editor)
+* [Editor query](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Rapporto di rendering di e-mail {#email-rendering-report-description}
 
@@ -72,7 +72,7 @@ Questo report presenta i rendering delle e-mail così come sono visualizzati al 
 
 ### Token di rendering di e-mail
 
-Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con il **Rendering di e-mail** abilitato diminuisce di un’unità i rendering disponibili, denominati token.
+Il numero di rendering disponibili è elencato nel contratto di licenza. Ogni consegna con **Rendering di e-mail** se è attivato, i rendering disponibili (noti come token) diminuiscono di un’unità.
 
 I token rappresentano ogni singolo rendering e non l’intero report di rendering di e-mail, il che significa che:
 

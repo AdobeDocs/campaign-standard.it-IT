@@ -12,13 +12,13 @@ exl-id: 654957b0-98b5-43f2-8699-4531859ef76e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 48%
+ht-degree: 9%
 
 ---
 
 # Aperture{#opens}
 
-Il rapporto **[!UICONTROL Opens]** individua le consegne con più visualizzazioni da parte dei destinatari.
+Il **[!UICONTROL Opens]** Il rapporto identifica le consegne con più visualizzazioni da parte dei destinatari.
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ Quattro tabelle e grafici suddividono il numero totale di destinatari che hanno 
 * Piattaforma
 * Dominio
 
-La tabella e il grafico **[!UICONTROL TOP 5]** visualizzano le consegne associate al maggior numero di messaggi consegnati.
+Il **[!UICONTROL TOP 5]** la tabella e il grafico visualizzano le consegne associate al maggior numero di messaggi consegnati.

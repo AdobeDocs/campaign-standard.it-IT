@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 7%
+source-wordcount: '738'
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Fai clic su<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> count(@trackingUrlType=1 o 10 o 11)<br /> </td> 
    <td> </td> 
@@ -78,7 +78,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Il denominatore per il calcolo del tasso si basa solo su Consegnato.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Consegnati<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
@@ -90,7 +90,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (consegnati + non recapitati).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mancati recapiti permanenti<br /> </td> 
+   <td> Mancato recapito permanente<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 E @failureReason=8)<br /> </td> 
    <td> </td> 
@@ -126,7 +126,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Non connessi<br /> </td> 
+   <td> Non connesso<br /> </td> 
    <td> @notConnected<br /> </td> 
    <td> count(@failureReason=6)<br /> </td> 
    <td> </td> 
@@ -241,7 +241,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> @count(status=inviato)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Consegnati<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(stato=consegnato)<br /> </td> 
   </tr> 
@@ -281,7 +281,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Fai clic su<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> @count(status=interact)<br /> </td> 
   </tr> 
@@ -317,7 +317,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> sent=delivery<br /> </td> 
   </tr> 
   <tr> 
-   <td> Consegnati<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(stato=consegnato)<br /> </td> 
    <td> delivered=sent<br /> </td> 

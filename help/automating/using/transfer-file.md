@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 82%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
@@ -52,11 +52,11 @@ Puoi utilizzare questa attività per recuperare dati che sono quindi strutturati
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
    * [Archiviazione BLOB di Microsoft Azure](#azure-blob-configuration-wf)
-   * [File presenti sul server di Adobe Campaign](#files-server-configuration-wf)
+   * [File presenti sul server Adobe Campaign](#files-server-configuration-wf)
 
-1. La sezione **[!UICONTROL Additional options]**, disponibile a seconda del protocollo selezionato, ti consente di aggiungere parametri al protocollo.
+1. Il **[!UICONTROL Additional options]** disponibile a seconda del protocollo selezionato, ti consente di aggiungere parametri al protocollo.
 
-   Puoi:
+   Puoi eseguire le seguenti azioni:
 
    * **[!UICONTROL Delete the source files after transfer]**: cancella i file sul server remoto. Se lasci questa opzione deselezionata, assicurati di monitorare manualmente le dimensioni del contenuto archiviato nella directory SFTP.
 
@@ -120,7 +120,7 @@ Il protocollo Amazon S3 ti consente di iniziare a scaricare un file da un URL o 
 
 4. Se desideri eliminare i file sorgente al termine del trasferimento, seleziona la casella **[!UICONTROL Delete the source files after transfer]**.
 
-### Configurazione con l’archivio BLOB di Microsoft Azure {#azure-blob-configuration-wf}
+### Configurazione con l’archiviazione BLOB di Microsoft Azure {#azure-blob-configuration-wf}
 
 Il protocollo BLOB di Microsoft Azure ti consente di accedere a BLOB che si trovano in un account di archiviazione BLOB di Microsoft Azure.
 
@@ -142,14 +142,14 @@ Il protocollo BLOB di Microsoft Azure ti consente di accedere a BLOB che si trov
    * **&quot;campaign/new-&quot;**: rileva tutti i BLOB con un nome di file che inizia con &quot;new-&quot; e si trova nella cartella Campaign.
    * **&quot;&quot;**: l’aggiunta di un percorso vuoto ti consente di far coincidere tutti i BLOB disponibili nel contenitore.
 
-### Configurazione con file presenti nel server di Adobe Campaign {#files-server-configuration-wf}
+### Configurazione con file presenti sul server Adobe Campaign {#files-server-configuration-wf}
 
 Il protocollo **[!UICONTROL File(s) present on the Adobe Campaign server]** corrisponde all’archivio contenente i file da recuperare.
-Metacaratteri o caratteri jolly (ad esempio &#42; o ?) per filtrare i file.
+Metacaratteri o caratteri jolly (ad esempio &#42; o ?) può essere utilizzato per filtrare i file.
 
 Scegli se desideri **[!UICONTROL Define a file path]** o **[!UICONTROL Use a dynamic file path]**. L’opzione **[!UICONTROL Use a dynamic file path]** ti consente di utilizzare un’espressione standard e variabili di eventi per personalizzare il nome del file da trasferire. Per ulteriori informazioni, consulta [questa pagina](../../automating/using/customizing-workflow-external-parameters.md).
 
-Il percorso deve essere relativo alla directory dello spazio di archiviazione del server di Adobe Campaign. I file si trovano nella directory **sftp&lt;nomeistanza>/**. Inoltre non puoi sfogliare le directory al di sopra dello spazio di archiviazione.
+Il percorso deve essere relativo alla directory dello spazio di archiviazione del server di Adobe Campaign. I file si trovano nella directory **sftp&lt;nomeistanza>/**. Inoltre, non è possibile sfogliare le directory al di sopra dello spazio di archiviazione.
 
 Ad esempio:
 
@@ -159,7 +159,7 @@ Ad esempio:
 
 `//myserver/hello/myrecipients.csv` non è corretto.
 
-## Historization settings {#historization-settings}
+## Impostazioni di storicizzazione {#historization-settings}
 
 Tutte le volte che esegui un’attività **[!UICONTROL Transfer file]**, memorizzi i file caricati o scaricati in una cartella dedicata. Viene creata una cartella per ogni attività **[!UICONTROL Transfer file]** di un flusso di lavoro. Pertanto, è importante poter limitare le dimensioni di questa cartella per preservare lo spazio fisico sul server.
 

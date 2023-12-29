@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ In qualità di utente esperto, per configurare le app mobili in Adobe Campaign, 
 * [Rapporto notifiche push](../../reporting/using/push-notification-report.md)
 * [Invio di una notifica push all’interno di un flusso di lavoro](../../automating/using/push-notification-delivery.md)
 
-## Riprodurre un suono {#play-a-sound}
+## Riproduci un suono {#play-a-sound}
 
 La funzione **[!UICONTROL Play a sound]** consente all’applicazione di riprodurre suoni sul dispositivo con la consegna di una notifica push, quando l’app non è in esecuzione.
 
@@ -48,7 +48,7 @@ Un suono avvisa gli utenti di una notifica push, conferendogli maggiore visibili
 
 L’utente riceverà quindi la notifica push e l’audio solo se il telefono non è disattivato.
 
-## Aggiornare il valore del badge {#refresh-the-badge-value}
+## Aggiorna il valore del badge {#refresh-the-badge-value}
 
 Un badge viene utilizzato per visualizzare direttamente sull’icona dell’applicazione il numero di nuove informazioni non lette. Il valore del badge scompare non appena l’utente apre o legge il nuovo contenuto dall’applicazione.
 

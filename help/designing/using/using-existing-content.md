@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 5%
+source-wordcount: '1277'
+ht-degree: 3%
 
 ---
 
@@ -128,7 +128,7 @@ Per recuperare il contenuto al momento della preparazione, effettua le seguenti 
 
 1. Per visualizzare in anteprima il contenuto dell’URL recuperato, apri il messaggio dopo la creazione e fai clic su **[!UICONTROL Preview]** pulsante.
 
-È possibile personalizzare l’URL remoto da cui verrà recuperato il contenuto. A tale scopo, segui la procedura indicata di seguito:
+È possibile personalizzare l’URL remoto da cui verrà recuperato il contenuto. A questo scopo, segui la procedura indicata di seguito:
 
 1. Fai clic sull’etichetta dell’e-mail nella parte superiore dello schermo per accedere a E-mail Designer **[!UICONTROL Properties]** scheda.
 1. Trova il **[!UICONTROL Remote URL]** campo.
@@ -223,7 +223,7 @@ Dopo aver identificato tutti i blocchi, in E-mail Designer, ripeti la seguente p
 1. Aggiungi un componente struttura. Per ulteriori informazioni, consulta [Modifica della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Aggiungi un componente HTML. Per ulteriori informazioni, consulta [Aggiunta di frammenti e componenti](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copia e incolla il HTML in quel componente.
-1. Passa alla vista per dispositivi mobili. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Passa alla visualizzazione per dispositivi mobili. Per ulteriori informazioni, consulta [questa sezione](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    La visualizzazione reattiva è interrotta perché manca il file CSS.
 

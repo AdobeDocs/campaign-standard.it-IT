@@ -11,7 +11,7 @@ exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Inoltre puoi generare la miniatura della pagina di destinazione da questa scherm
 >
 >Per visualizzare l’anteprima della pagina di destinazione nell’interfaccia utente di Campaign, l’URL del server dell’applicazione deve essere sicuro. In questo caso, utilizza https:// anziché http:// per impostare questo URL al momento della [configurazione del brand](../../administration/using/branding.md#configuring-and-using-brands).
 
-## Impostazione di parametri di validità {#setting-up-validity-parameters}
+## Impostazione dei parametri di validità {#setting-up-validity-parameters}
 
 Prima della pubblicazione, per motivi di sicurezza e legati alle prestazioni della piattaforma, ti consigliamo vivamente di impostare una data di scadenza nelle proprietà della pagina di destinazione. Alla data selezionata, la pubblicazione della pagina di destinazione viene automaticamente annullata. Per eseguire questa operazione:
 

@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8650'
+source-wordcount: '8640'
 ht-degree: 1%
 
 ---
@@ -353,7 +353,7 @@ La dimensione massima di un messaggio dipende dalla relativa codifica. Questa ta
 
 | Codifica | Data_coding abituale | Dimensione del messaggio (caratteri) | Dimensione parte per SMS in più parti | Caratteri disponibili |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM 7 | 0 | 160 | 152 | Set di caratteri di base GSM7 + estensione (i caratteri estesi contengono 2 caratteri) |
+| GSM7 | 0 | 160 | 152 | Set di caratteri di base GSM7 + estensione (i caratteri estesi contengono 2 caratteri) |
 | Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (varia da telefono a telefono) |
 

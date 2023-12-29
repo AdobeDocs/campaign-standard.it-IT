@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 8%
 
 ---
@@ -75,7 +75,7 @@ Questo caso d’uso consente di creare un modello di E-mail designer utilizzando
 
 1. Torna alla visualizzazione per dispositivi mobili per verificare che il contenuto sia visualizzato correttamente e salvare le modifiche.
 
-## Caso d’uso
+## Esempio di utilizzo
 
 Proviamo a convertire questa e-mail, creata nell’editor legacy, in un **[!UICONTROL Email Designer]** modello.
 

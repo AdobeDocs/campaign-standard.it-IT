@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 96%
+source-wordcount: '787'
+ht-degree: 95%
 
 ---
 
@@ -80,5 +80,5 @@ Il modello di importazione è ora disponibile per gli utenti e può essere utili
 
 * [Flussi di lavoro](../../automating/using/get-started-workflows.md)
 * [Importazione ed esportazione di dati](../../automating/using/about-data-import-and-export.md)
-* [Esempio: importare un modello di flusso di lavoro](../../automating/using/creating-import-workflow-templates.md)
+* [Esempio: importare un modello di workflow](../../automating/using/creating-import-workflow-templates.md)
 

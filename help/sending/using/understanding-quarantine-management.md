@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 24%
+source-wordcount: '1442'
+ht-degree: 22%
 
 ---
 
@@ -59,7 +59,7 @@ Gli indirizzi in quarantena possono essere visualizzati per una consegna specifi
 If you need to remove an address from quarantine, contact your technical administrator.
 -->
 
-### Identificazione di indirizzi messi in quarantena per una consegna {#identifying-quarantined-addresses-for-a-delivery}
+### Identificazione degli indirizzi messi in quarantena per una consegna {#identifying-quarantined-addresses-for-a-delivery}
 
 Gli indirizzi in quarantena per una consegna specifica vengono elencati durante la fase di preparazione della consegna, nella scheda **[!UICONTROL Exclusion logs]** del dashboard di consegna (vedi [questa sezione](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Per ulteriori informazioni sulla preparazione della consegna, consulta [questa sezione](../../sending/using/preparing-the-send.md).
 

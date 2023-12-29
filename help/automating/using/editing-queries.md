@@ -11,8 +11,8 @@ level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 94%
 
 ---
 
@@ -114,7 +114,7 @@ Le query vengono ora create e definite, in modo da generare una popolazione in g
 
 * [Funzioni avanzate](../../automating/using/advanced-expression-editing.md)
 * [Definizione dei filtri](../../developing/using/configuring-filter-definition.md)
-* [Caso di utilizzo: creare una consegna e-mail settimanale](../../automating/using/workflow-weekly-offer.md)
+* [Caso d’uso: creare una consegna e-mail settimanale](../../automating/using/workflow-weekly-offer.md)
 * [Caso di utilizzo: creazione di una consegna segmentata sulla posizione](../../automating/using/workflow-segmentation-location.md)
 * [Caso di utilizzo: creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Caso di utilizzo: invio di una nuova consegna a non-opener tramite un flusso di lavoro di retargeting](../../automating/using/workflow-cross-channel-retargeting.md)

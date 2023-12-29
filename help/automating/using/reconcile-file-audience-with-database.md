@@ -51,5 +51,5 @@ Il flusso di lavoro di riconciliazione è progettato come segue:
 ![](assets/readaudience_activity_example2.png)
 
 * A [Read audience](../../automating/using/read-audience.md) L’attività carica il pubblico di tipo File creato nel flusso di lavoro di importazione. I dati sul pubblico non sono ancora stati riconciliati con il database di Adobe Campaign.
-* L’attività [Reconciliation](../../automating/using/reconciliation.md) identifica i dati in arrivo come profili attraverso la relativa scheda **[!UICONTROL Identification]**. Ad esempio utilizzando il campo **e-mail** come criterio di riconciliazione.
+* L’attività [Riconciliazione](../../automating/using/reconciliation.md) identifica i dati in arrivo come profili attraverso la relativa scheda **[!UICONTROL Identification]**. Ad esempio utilizzando il campo **e-mail** come criterio di riconciliazione.
 * L’attività [Update data](../../automating/using/update-data.md) inserisce e aggiorna la risorsa dei profili del database con i dati in arrivo. Poiché i dati sono già stati identificati come profili, puoi selezionare l’opzione **[!UICONTROL Directly using the targeting dimension]** e successivamente **[!UICONTROL Profiles]** nella scheda **[!UICONTROL Identification]** dell’attività. Quindi, ti basta semplicemente aggiungere l’elenco dei campi che devono essere aggiornati nella scheda corrispondente.

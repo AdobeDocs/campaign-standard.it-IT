@@ -1,6 +1,6 @@
 ---
 title: Aggiornamento dei dati in base a un download automatico del file
-description: L’esempio seguente mostra il risultato di un’attività di caricamento file scaricata automaticamente tramite un’attività di trasferimento file, seguita da un’attività di aggiornamento dei dati.
+description: L’esempio seguente mostra il risultato di un’attività di caricamento file scaricata automaticamente tramite un’attività di trasferimento file, seguita da un’attività di aggiornamento dati.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 79%
+ht-degree: 70%
 
 ---
 

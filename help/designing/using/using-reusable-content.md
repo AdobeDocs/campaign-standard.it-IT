@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 2%
+source-wordcount: '1812'
+ht-degree: 1%
 
 ---
 
@@ -301,7 +301,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 Con E-mail Designer, crea un frammento per ogni sezione riutilizzabile. In questo esempio verranno creati due frammenti: uno per l’intestazione e uno per il piè di pagina. Puoi quindi copiare le parti rilevanti dal contenuto esistente in questi frammenti.
 
-A tale scopo, segui la procedura indicata di seguito:
+A questo scopo, segui la procedura indicata di seguito:
 
 1. In Adobe Campaign, vai a **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** e crea un frammento per l’intestazione. Per ulteriori informazioni, consulta [Creazione di un frammento di contenuto](#creating-a-content-fragment).
 1. Aggiungi al frammento tutti i componenti struttura necessari.

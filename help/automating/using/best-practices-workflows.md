@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 80%
+source-wordcount: '1212'
+ht-degree: 77%
 
 ---
 
@@ -47,7 +47,7 @@ Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, pas
 
 ### Numero di flussi di lavoro
 
-Per impostazione predefinita, consigliamo **non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente** (questo non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata). Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influenzare le prestazioni.
+Per impostazione predefinita, consigliamo **non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente** (questo non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata). Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influire sulle prestazioni.
 
 In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di lavoro. In tal caso, devi consultare un esperto di Campaign e contattare anche l’Assistenza cliente Adobe per aumentare il limite.
 
@@ -103,7 +103,7 @@ Durante lo sviluppo del flusso di lavoro, viene generato un nome per ogni attivi
 
 Per duplicare le attività esistenti, puoi utilizzare la funzione di copia e incolla. In questo modo, puoi mantenere le impostazioni definite in origine. Per ulteriori informazioni, consulta [Duplicazione delle attività del flusso di lavoro](../../automating/using/workflow-interface.md).
 
-### Attività Scheduler{#acheduler-activity}
+### Attività del Modulo di pianificazione{#acheduler-activity}
 
 Durante la creazione del flusso di lavoro, usa solo un’**[!UICONTROL Scheduler activity]** per ramo. Se lo stesso ramo di un flusso di lavoro include più pianificatori (collegati tra loro), il numero di attività da eseguire verrà moltiplicato in modo esponenziale, il che sovraccaricherebbe notevolmente il database.
 
@@ -143,7 +143,7 @@ Puoi accedere ai registri del flusso di lavoro per monitorare l’esecuzione del
 Nella scheda Attività viene illustrata la sequenza di esecuzione delle attività. Per ottenere ulteriori informazioni su un’attività, fai clic su di essa.
 Per ulteriori informazioni, consulta [Monitoraggio dell’esecuzione del flusso di lavoro](../../automating/using/monitoring-workflow-execution.md).
 
-#### Risoluzione dei problemi delle attività di gestione dei dati{#troubleshooting-data-management-activities}
+#### Risoluzione dei problemi delle attività di gestione dati{#troubleshooting-data-management-activities}
 
 Puoi analizzare le query SQL nella scheda Registro.
 

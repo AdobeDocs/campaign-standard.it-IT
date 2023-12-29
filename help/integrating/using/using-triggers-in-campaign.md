@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 78%
+source-wordcount: '736'
+ht-degree: 74%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 78%
 >
 >Per creare Triggers, è necessario **[!UICONTROL Administration]** ruolo o essere nel **[!UICONTROL Administrators]** gruppo di sicurezza. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/list-of-roles.md).
 
-Devi accertarti di definire in anticipo i comportamenti da monitorare all’interno di Adobe Experience Cloud (servizio core **[!UICONTROL Triggers]**). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
+Devi accertarti di definire in anticipo i comportamenti da monitorare all’interno di Adobe Experience Cloud (**[!UICONTROL Triggers]** core). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
 
 Ora devi creare un evento trigger in Adobe Campaign basato su un trigger esistente di Adobe Experience Cloud.
 
@@ -75,7 +75,7 @@ Dopo aver creato un evento trigger in Adobe Campaign basato su un trigger Adobe 
 
 Una volta pubblicato l’evento, viene automaticamente creato un modello transazionale collegato al nuovo evento. Dovrai quindi modificare e pubblicare il modello appena creato. Per ulteriori informazioni, consulta la sezione [Modifica del modello](../../start/using/marketing-activity-templates.md) .
 
-## Modifica del modello di messaggio sulle transazioni {#editing-the-transactional-message-template}
+## Modifica del modello di messaggio transazionale {#editing-the-transactional-message-template}
 
 Dopo aver creato e pubblicato l’evento trigger, viene creato il modello transazionale corrispondente. Per ulteriori informazioni, consulta la sezione [Creazione di un trigger mappato in Campaign](#creating-a-mapped-trigger-in-campaign).
 
@@ -89,7 +89,7 @@ Durante la modifica del contenuto, puoi aggiungere un campo di personalizzazione
 
 ![](assets/remarketing_8.png)
 
-## Accesso ai report {#accessing-the-reports}
+## Accesso ai rapporti {#accessing-the-reports}
 
 Per visualizzare il report del trigger dedicato all’interno di Adobe Campaign, apri l’evento trigger creato in precedenza e fai clic su **[!UICONTROL Show trigger report]**.
 

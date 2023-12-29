@@ -11,8 +11,8 @@ level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 23%
+source-wordcount: '266'
+ht-degree: 19%
 
 ---
 
@@ -40,7 +40,7 @@ Per inviare messaggi SMS a un telefono cellulare è necessario:
 * [Gestione dei modelli](../../start/using/marketing-activity-templates.md)
 * [Configurazione SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Rapporto SMS](../../reporting/using/sms-report.md)
-* [Guida a Campaign Standard per dispositivi mobili](../../channels/using/get-started-communication-channels.md)
+* [Guida di Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Modello di consegna SMS {#sms-delivery-template}
 

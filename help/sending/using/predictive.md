@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 56%
+source-wordcount: '1103'
+ht-degree: 47%
 
 ---
 
@@ -35,9 +35,9 @@ L’ottimizzazione predittiva del tempo di invio prevede qual è il tempo di inv
 
 Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due modelli secondari:
 
-* **Il tempo di invio predittivo per l’apertura è il momento migliore per inviare una comunicazione al cliente in modo da massimizzare l’apertura dei messaggi**
+* **Tempo di invio predittivo per l’apertura** è il momento migliore per inviare una comunicazione al cliente in modo da massimizzare le aperture
 
-* **Il tempo di invio predittivo per il clic è il momento migliore per inviare una comunicazione al cliente per massimizzare i clic**
+* **Tempo di invio predittivo per il clic** è il momento migliore per inviare una comunicazione al cliente per massimizzare i clic
 
 **Modello entrata**: registri di consegna, registri di tracciamento e attributi di profilo (non PII)
 
@@ -136,6 +136,6 @@ Per accedere a tali metriche, è necessario:
 
 1. Fare clic sulla scheda **Punteggi di coinvolgimento per canale e-mail**.
 
-Utilizzando un’attività di query in un flusso di lavoro, puoi utilizzare i punteggi per ottimizzare il pubblico. Ad esempio, con i criteri del **livello di mantenimento**:
+Utilizzando un’attività di query in un flusso di lavoro, puoi utilizzare il punteggio per ottimizzare il pubblico. Ad esempio, con i criteri del **livello di mantenimento**:
 
 ![](assets/do-not-localize/predictive_score_query.png)

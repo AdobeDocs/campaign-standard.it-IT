@@ -11,8 +11,8 @@ level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 100%
+source-wordcount: '1663'
+ht-degree: 98%
 
 ---
 
@@ -256,7 +256,7 @@ Per ulteriori informazioni sul Reporting dinamico, consulta l’[Elenco dei comp
 >
 >Il numero di campi inviati a Reporting dinamico è limitato a 20.
 
-## Modifica delle proprietà di una risorsa {#editing-resource-properties}
+## Modifica delle proprietà delle risorse {#editing-resource-properties}
 
 Nella schermata delle risorse personalizzate, il riquadro **[!UICONTROL Summary]** indica lo stato della risorsa appena creata. Puoi gestirne l’accesso e le proprietà generali.
 

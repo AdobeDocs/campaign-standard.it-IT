@@ -12,7 +12,7 @@ exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -36,11 +36,11 @@ Il ![](assets/play_darkgrey-24px.png) inizia l’esecuzione di un flusso di lavo
 
 Il ![](assets/pause_darkgrey-24px.png) sospende l’esecuzione. Il flusso di lavoro assume **Avvertenza** (giallo). Non verranno attivate nuove attività finché non viene ripresa, ma le operazioni in corso non vengono sospese.
 
-**Interruzione**
+**Interrompi**
 
 Il ![](assets/stop_darkgrey-24px.png) arresta un flusso di lavoro in esecuzione, che assume il **Completato** (verde). Le operazioni in corso vengono interrotte, se possibile, e le importazioni o le query SQL in corso vengono immediatamente annullate. Non è possibile riprendere dal flusso di lavoro dalla stessa posizione in cui è stato interrotto.
 
-**Riavvio**
+**Riavvia**
 
 Il ![](assets/pauseplay_darkgrey-24px.png) comporta l’arresto e il riavvio di un flusso di lavoro. Nella maggior parte dei casi, questo consente di riavviare il sistema più rapidamente. Può inoltre essere utile automatizzare il riavvio quando l&#39;arresto richiede un certo periodo di tempo, perché ![](assets/play_darkgrey-24px.png) è disponibile solo quando l&#39;interruzione è effettiva.
 

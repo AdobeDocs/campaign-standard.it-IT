@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 6%
+source-wordcount: '1308'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensione<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definizione<br /> </th> 
   </tr> 
  </thead> 
@@ -38,7 +38,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
    <td> Browser da cui è stato aperto o selezionato il messaggio.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br /> </td> 
+   <td> Campagna<br /> </td> 
    <td> Etichetta e ID della campagna.<br /> </td> 
   </tr> 
   <tr> 
@@ -156,14 +156,14 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Mancati recapiti + errori<br /> </td> 
-   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.<br /> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mancato recapito + Frequenza errori<br /> </td> 
    <td> Percentuale di messaggi e-mail non recapitati rispetto a quelli inviati.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Fai clic su<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> Numero di volte in cui è stato fatto clic su un contenuto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Percentuale di clic in una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Consegnati<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
@@ -280,7 +280,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Percentuale di notifiche push non recapitate rispetto alle notifiche push inviate.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Fai clic su<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> Numero di volte in cui una notifica push è stata recapitata al dispositivo e su cui l’utente ha fatto clic. L’utente desidera visualizzare la notifica, che verrà quindi spostata nel tracciamento push aperto, oppure ignorarla.<br /> </td> 
   </tr> 
   <tr> 
@@ -288,7 +288,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Percentuale di utenti che hanno interagito con la notifica push.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Consegnati<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> Numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.<br /> </td> 
   </tr> 
   <tr> 
@@ -337,7 +337,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </thead> 
  <tbody> 
   <tr> 
-   <td> Consegnati<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> Numero totale di messaggi in-app consegnati al dispositivo dal provider di servizi.<br /> </td> 
   </tr> 
   <tr> 

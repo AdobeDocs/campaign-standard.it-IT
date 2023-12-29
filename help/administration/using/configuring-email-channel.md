@@ -1,6 +1,6 @@
 ---
 title: Configurazione del canale e-mail in Adobe Campaign Standard
-description: Scopri come configurare il canale e-mail all’interno di Adobe Campaign Standard
+description: Scopri come configurare il canale e-mail in Adobe Campaign Standard
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 62%
+source-wordcount: '2683'
+ht-degree: 59%
 
 ---
 
@@ -120,7 +120,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-## Elenco delle proprietà delle e-mail {#list-of-email-properties}
+## Elenco delle proprietà e-mail {#list-of-email-properties}
 
 In questa sezione viene illustrato l’elenco dei parametri disponibili nella schermata delle proprietà di un e-mail o di un modello e-mail.
 
@@ -275,11 +275,11 @@ La preparazione dei messaggi è spiegata nel dettaglio nella sezione [Approvazio
 
 * **[!UICONTROL Save SQL queries in the log]**: utilizza questa opzione per aggiungere i registri di query SQL nel giornale di registrazione durante la fase di preparazione.
 
-#### Impostazioni di bozza {#proof-settings}
+#### Impostazioni bozza {#proof-settings}
 
 In questa sezione puoi configurare il prefisso predefinito da utilizzare nella riga dell’oggetto dei messaggi della bozza. Ulteriori informazioni sulle bozze in [questa sezione](../../sending/using/sending-proofs.md).
 
-### Elenco dei parametri SMTP dell’e-mail {#list-of-email-smtp-parameters}
+### Elenco parametri SMTP e-mail {#list-of-email-smtp-parameters}
 
 La sezione **[!UICONTROL SMTP]** contiene i seguenti parametri:
 

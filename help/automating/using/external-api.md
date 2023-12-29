@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2208'
 ht-degree: 93%
 
 ---
@@ -46,7 +46,7 @@ Durante la sostituzione delle attività External API, aggiungi la nuova attivit�
 >
 >Non potrai copiare i valori di intestazione per attività specifiche poiché sono nascosti all’interno dell’attività.
 
-### Limitazioni e guardrail {#guardrails}
+### Limitazioni e protezioni {#guardrails}
 
 Questa attività è soggetta ai seguenti guardrail:
 

@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva al reporting dinamico
+title: Introduzione al reporting dinamico
 description: Analizza il successo delle campagne in report dinamici integrati o personalizzati.
 audience: reporting
 content-type: reference
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 19%
+source-wordcount: '365'
+ht-degree: 14%
 
 ---
 
-# Guida introduttiva al reporting dinamico {#get-started-reporting}
+# Introduzione al reporting dinamico {#get-started-reporting}
 
 <table>
 <tr>
@@ -36,7 +36,7 @@ Con reporting dinamico **interfaccia di trascinamento selezione**, puoi esplorar
 
 **Gestire i rapporti dinamici** grazie a varie funzionalità: aggiorna i dati in tempo reale, stampa i rapporti o esportali come file CSV. Puoi anche condividere i rapporti con gli utenti di Campaign Standard tramite e-mail singole o ricorrenti.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Informazioni sui report dinamici](../../reporting/using/about-dynamic-reports.md)
 * [Interfaccia di generazione rapporti](../../reporting/using/reporting-interface.md)
@@ -49,7 +49,7 @@ Campaign Standard viene fornito con un set di **report dinamici pronti all’uso
 
 **Combinare diversi componenti** (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o personalizzare rapporti predefiniti.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Elenco dei componenti](../../reporting/using/list-of-components-.md)
 * [Calcolo indicatore](../../reporting/using/indicator-calculation.md)
@@ -65,7 +65,7 @@ Trascina **elementi di visualizzazione** aggiungere rappresentazioni grafiche de
 
 Creare rapporti in base a **dati di profilo personalizzati** create durante l’estensione della risorsa Profilo, e **rapporti basati su segmenti** definiti nei flussi di lavoro di targeting.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Aggiunta di pannelli](../../reporting/using/adding-panels.md)
 * [Aggiunta di visualizzazioni](../../reporting/using/adding-visualizations.md)

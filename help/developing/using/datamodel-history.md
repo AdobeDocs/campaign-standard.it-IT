@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 12%
+source-wordcount: '1347'
+ht-degree: 9%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 12%
                <tr>
                   <td>bornDate</td>
                   <td>Data di nascita</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackList</td>
-                  <td>Non desidera più essere contattato (tramite nessun canale)</td>
+                  <td>Non contattare più (tramite nessun canale)</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -63,7 +63,7 @@ ht-degree: 12%
                </tr>
                <tr>
                   <td>blackListMobile</td>
-                  <td>Non contattare più via SMS</td>
+                  <td>Non contattare più tramite SMS</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>
@@ -112,7 +112,7 @@ ht-degree: 12%
                <tr>
                   <td>creato</td>
                   <td>Creato</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,7 +130,7 @@ ht-degree: 12%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>Data ultima transazione</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -191,7 +191,7 @@ ht-degree: 12%
                <tr>
                   <td>lastModified</td>
                   <td>Ultima modifica</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,13 +215,13 @@ ht-degree: 12%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>minSubHistoEvents</td>
                   <td>MinSubHistoEvents</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -385,7 +385,7 @@ ht-degree: 12%
                   </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>titolo</td>
                   <td>Profilo</td>
                   <td>stringa (255)</td>
                   <td> </td>
@@ -415,7 +415,7 @@ Compleanno (compleanno)
 </tr>
 <tr>
 <td>endDay</td>
-<td>date</td>
+<td>data</td>
 </tr>
 <tr>
 <td>precisione</td>
@@ -427,7 +427,7 @@ Compleanno (compleanno)
 </tr>
 <tr>
 <td>mese</td>
-<td>date</td>
+<td>data</td>
 </tr>
 <tr>
 <td>operatore</td>
@@ -439,7 +439,7 @@ Compleanno (compleanno)
 </tr>
 <tr>
 <td>endMonth</td>
-<td>date</td>
+<td>data</td>
 </tr>
 <tr>
 <td>tipo</td>
@@ -447,7 +447,7 @@ Compleanno (compleanno)
 </tr>
 <tr>
 <td>giorno</td>
-<td>date</td>
+<td>data</td>
 </tr>
 </table>
 

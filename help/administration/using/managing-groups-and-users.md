@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 73%
+source-wordcount: '921'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 
 I gruppi di sicurezza sono insiemi di utenti che condividono gli stessi ruoli e diritti all’interno di un’organizzazione.
 
-Gli utenti devono sempre essere collegati a un gruppo di sicurezza. In questo modo, puoi assegnare loro ruoli e unità organizzative specifici. Per limitare l’accesso di un utente, non aggiungere l’utente alla campagna **[!UICONTROL Standard Users]** gruppo collegato a **[!UICONTROL All]** unità organizzativa.
+Gli utenti devono sempre essere collegati a un gruppo di sicurezza. Questo ti consentirà di assegnare loro ruoli e unità organizzative specifici. Per limitare l’accesso di un utente, non aggiungere l’utente alla campagna **[!UICONTROL Standard Users]** gruppo collegato a **[!UICONTROL All]** unità organizzativa.
 
 Per ulteriori informazioni sui ruoli, la tabella nella pagina seguente presenta le operazioni possibili disponibili in base ai ruoli di un utente: [Autorizzazioni Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 23%
+source-wordcount: '1232'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ Di seguito sono riportati i passaggi principali per creare e progettare un conte
 1. Aggiungi le immagini e modifica il testo dell’e-mail. Consulta [Inserimento di immagini](../../designing/using/images.md#inserting-images).
 1. Personalizza la tua e-mail aggiungendo campi di personalizzazione, collegamenti e così via. Consulta [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link) e [Definizione del contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Definisci l’oggetto dell’e-mail. Consulta [Personalizzazione dell’oggetto di un’e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Visualizzare l’anteprima del messaggio e-mail.
+1. Visualizza l’anteprima del messaggio e-mail.
 1. Salva il contenuto e continua con il messaggio dopo esserti assicurato di aver definito un pubblico e pianificato correttamente l’invio.
 
 Puoi anche dare un&#39;occhiata a questo [video introduttivo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).

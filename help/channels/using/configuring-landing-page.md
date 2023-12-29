@@ -12,7 +12,7 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -115,4 +115,4 @@ La pagina di destinazione è ora configurata con Google reCAPTCHA, il cui logo s
 
 ![](assets/lp_parameters_google2.png)
 
-Google reCAPTCHA restituirà quindi un punteggio basato sulle interazioni degli utenti con la tua pagina. Per verificare il tuo punteggio, collegati alla Console di amministrazione di Google.
+Google reCAPTCHA restituirà quindi un punteggio basato sulle interazioni degli utenti con la tua pagina. Per verificare il tuo punteggio, connettiti all’Admin Console di Google.

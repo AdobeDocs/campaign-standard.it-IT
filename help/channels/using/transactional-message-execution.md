@@ -12,7 +12,7 @@ exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -39,7 +39,7 @@ Quando un messaggio sulle transazioni non viene inviato, vi sono due sistemi di 
 * A livello di messaggistica sulle transazioni, un messaggio di questo tipo può avere esito negativo prima che l’evento venga assegnato a una consegna di esecuzione, che si trova tra la ricezione dell’evento e la preparazione della consegna. Consulta [Procedura per l’esecuzione di un nuovo tentativo di elaborazione degli eventi](#event-processing-retry-process).
 * A livello del processo di invio, una volta che l’evento è stato assegnato a una consegna di esecuzione, il messaggio sulle transazioni potrebbe avere esito negativo a causa di un errore temporaneo. Consulta [Procedura per l’esecuzione di un nuovo tentativo invio del messaggio](#message-sending-retry-process).
 
-### Procedura per l’esecuzione di un nuovo tentativo di elaborazione degli eventi {#event-processing-retry-process}
+### Processo di esecuzione di un nuovo tentativo di elaborazione degli eventi {#event-processing-retry-process}
 
 Quando un evento viene attivato, viene assegnato a una consegna di esecuzione. Se l’evento non può essere assegnato a una consegna di esecuzione, l’elaborazione dell’evento viene posticipata. I tentativi vengono quindi eseguiti fino a quando l’evento non viene assegnato a una nuova consegna di esecuzione.
 
@@ -49,7 +49,7 @@ Quando un evento viene attivato, viene assegnato a una consegna di esecuzione. S
 
 Ad esempio, non è stato possibile assegnare l’evento a una consegna di esecuzione perché il relativo contenuto non era corretto, si è verificato un problema con i diritti di accesso o con il marchio, è stato rilevato un errore durante l’applicazione delle regole di tipologia e così via. In questo caso, puoi sospendere il messaggio, modificarlo per risolvere il problema e infine pubblicarlo nuovamente. Il sistema di esecuzione di un nuovo tentativo lo assegnerà a una nuova consegna di esecuzione.
 
-### Procedura per l’esecuzione di un nuovo tentativo di invio del messaggio {#message-sending-retry-process}
+### Processo per riprovare l’invio del messaggio {#message-sending-retry-process}
 
 Una volta che l’evento è stato assegnato a una consegna di esecuzione, il messaggio sulle transazioni può non riuscire a causa di un errore temporaneo, ad esempio se la cassetta postale del destinatario è piena. Per ulteriori informazioni, consulta [Tentativi dopo un errore temporaneo di consegna](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 2%
+source-wordcount: '2038'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ Se desideri inviare notifiche in base a criteri specifici a diversi gruppi di ut
 
 1. Seleziona il gruppo di destinatari a cui desideri inviare la notifica da **[!UICONTROL Alert group]** elenco a discesa. Per modificare o creare un gruppo, vedere [Creazione di un gruppo di sicurezza e assegnazione di utenti](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Dalla sezione **[!UICONTROL Delivery alerting criteria]** , fare clic su **[!UICONTROL Create element]** per aggiungere criteri. Consulta [Informazioni sui criteri di avviso](#about-alerting-criteria).
-1. Fai clic sul pulsante **[!UICONTROL Edit properties]**. In **[!UICONTROL Criteria parameters]** , definisci come verranno applicati i criteri. Consulta [Parametri dei criteri](#criteria-parameters).
+1. Seleziona la **[!UICONTROL Edit properties]** pulsante. In **[!UICONTROL Criteria parameters]** , definisci come verranno applicati i criteri. Consulta [Parametri dei criteri](#criteria-parameters).
 1. Clic **[!UICONTROL Create]** per salvare la dashboard.
 
 Ora, ogni volta che una consegna soddisfa i criteri definiti in questa dashboard, viene inviata una notifica di avviso al gruppo di utenti specificato.

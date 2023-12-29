@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 66%
+source-wordcount: '204'
+ht-degree: 51%
 
 ---
 
 # Segmentazione in base ai gruppi di età {#segmentation-age-groups}
 
-L’esempio seguente mostra una segmentazione dei profili del database in base al gruppo di età.
+L’esempio seguente mostra una segmentazione dei profili del database in base al loro gruppo di età.
 
 Lo scopo del flusso di lavoro è quello di inviare un messaggio e-mail specifico per ogni gruppo di età. Dato che questo flusso di lavoro fa parte di una campagna di test, ogni segmento può contenere solo un massimo di 100 profili selezionati in modo casuale così da utilizzare tipi di pubblico allo stesso tempo limitati e rappresentativi.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 9%
+source-wordcount: '759'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Il provisioning e la configurazione del core Audienci Manager e People in Adobe Campaign prevedono due passaggi: [Invio di una richiesta all’Adobe](#submitting-request-to-adobe) allora [Configurazione dell’integrazione in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
-## Invio di una richiesta ad Adobe {#submitting-request-to-adobe}
+## Invio di una richiesta all’Adobe {#submitting-request-to-adobe}
 
 L’integrazione di Audienci Manager (AAM) o del servizio core People consente di importare ed esportare tipi di pubblico o segmenti in Adobe Campaign.
 

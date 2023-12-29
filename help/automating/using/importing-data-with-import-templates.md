@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 99%
 
 ---
@@ -109,4 +109,4 @@ Il modello di importazione è ora disponibile per gli utenti e può essere utili
 **Argomenti correlati:**
 
 * [Flussi di lavoro](../../automating/using/get-started-workflows.md)
-* [Esempio: importare un modello di flusso di lavoro](../../automating/using/creating-import-workflow-templates.md)
+* [Esempio: importare un modello di workflow](../../automating/using/creating-import-workflow-templates.md)

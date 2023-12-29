@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 7%
+source-wordcount: '841'
+ht-degree: 3%
 
 ---
 
@@ -93,7 +93,7 @@ Le notifiche push possono essere inviate a un pubblico selezionato in Adobe Camp
 
    ![](assets/push_send_1.png)
 
-1. Una volta completata correttamente la preparazione, la **[!UICONTROL Deployment]** La finestra presenta i KPI seguenti: **[!UICONTROL Target]** e **[!UICONTROL To deliver]**. Tieni presente che il conteggio **[!UICONTROL To deliver]** è inferiore a quello di **[!UICONTROL Targeted]** a causa di esclusioni che possono essere visualizzate facendo clic sul pulsante ![](assets/lp_link_properties.png) nella parte inferiore della finestra **[!UICONTROL Deployment]**.
+1. Una volta completata correttamente la preparazione, la **[!UICONTROL Deployment]** La finestra presenta i KPI seguenti: **[!UICONTROL Target]** e **[!UICONTROL To deliver]**. Tieni presente che **[!UICONTROL To deliver]** il conteggio è inferiore al valore **[!UICONTROL Targeted]** uno a causa di esclusioni che possono essere visualizzate facendo clic su ![](assets/lp_link_properties.png) nella parte inferiore della sezione **[!UICONTROL Deployment]** finestra.
 
    ![](assets/push_send_2.png)
 

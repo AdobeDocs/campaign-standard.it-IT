@@ -11,7 +11,7 @@ exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
   L’ID verrà quindi riconosciuto dalle altre applicazioni Adobe Marketing Cloud con lo stesso CNAME.
 
-* **ID dichiarato**: questo tipo di ID ti consente di riconciliare qualsiasi tipo di dati con gli elementi del database di Adobe Campaign. In Adobe Campaign è rappresentato come chiave di riconciliazione predefinita. Quando si scambiano dati, agli identificatori del database di Adobe Campaign viene applicato l’hash. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o esportazione.
+* **ID dichiarato**: questo tipo di ID ti consente di riconciliare qualsiasi tipo di dati con gli elementi del database di Adobe Campaign. In Adobe Campaign è rappresentato come chiave di riconciliazione predefinita. Quando si scambiano dati, agli identificatori del database di Adobe Campaign viene applicato l’hash. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o esportazione.
   <br>Questa integrazione supporta ID dichiarati regolari, ID dichiarati con hash e ID dichiarati crittografati.
 
   >[!NOTE]

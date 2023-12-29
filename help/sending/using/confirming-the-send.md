@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 18%
+source-wordcount: '947'
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ Se utilizzi una consegna ricorrente senza periodo di aggregazione, puoi richiede
 
 ## Informazioni sugli indicatori dei messaggi {#message-indicators}
 
-Dopo l’invio del messaggio ai contatti, l’area **[!UICONTROL Deployment]** mostra i dati KPI (Key Performance Indicator), inclusi:
+Una volta inviato il messaggio ai contatti, il **[!UICONTROL Deployment]** La zona mostra i dati dei KPI (Key Performance Indicator, indicatore di prestazioni chiave), tra cui:
 
 * Il numero dei messaggi da inviare
 * Il numero dei messaggi inviati

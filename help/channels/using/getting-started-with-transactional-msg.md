@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 10%
+source-wordcount: '992'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ Un messaggio transazionale è una comunicazione singola e univoca, inviata in te
 
 * **Perché è importante?** In genere, un messaggio sulle transazioni ha tassi di apertura elevati. Dovrebbe quindi essere concepita con attenzione, in quanto può avere un forte impatto sul comportamento dei clienti in quanto definisce la relazione con essi.
 
-* **Ad esempio?** Potrebbe trattarsi di un messaggio di benvenuto dopo la creazione di un account, di una conferma della spedizione di un ordine, di una fattura, di un messaggio di conferma di una modifica della password o di una notifica dopo che un cliente ha visitato il tuo sito web, ecc.
+* **Per esempio?** Potrebbe trattarsi di un messaggio di benvenuto dopo la creazione di un account, di una conferma della spedizione di un ordine, di una fattura, di un messaggio di conferma di una modifica della password o di una notifica dopo che un cliente ha visitato il tuo sito web, ecc.
 
 Adobe Campaign consente di integrare questa funzionalità con un sistema di informazioni che invia eventi da trasformare in messaggi transazionali personalizzati.
 

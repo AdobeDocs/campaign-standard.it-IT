@@ -8,7 +8,7 @@ level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1088'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Per comprendere gli aspetti di un payload android, consulta [Concetti e opzioni 
 | Configurazione della campagna | Attributo interessato in iOS | Attributo interessato in Android | Descrizione |
 |:-:|:-:|:-:|:-:|
 | Titolo messaggio <br>Corpo del messaggio | titolo → avviso <br> corpo del → di avviso | titolo <br>corpo | Questi dati contengono le specifiche del messaggio di avviso.<br>Le chiavi del titolo e del corpo forniscono il contenuto dell’avviso. |
-| Riprodurre un suono | suono | suono | Suono personalizzato da riprodurre con l&#39;avviso. |
+| Riproduci un suono | suono | suono | Suono personalizzato da riprodurre con l&#39;avviso. |
 | Valore del badge | badge | badge | Valore intero da utilizzare per il badge dell’icona dell’app. |
 | Aggiungere un deep link | uri | NA | Un deep link ti consente di portare gli utenti direttamente al contenuto presente all’interno dell’applicazione (anziché aprire una pagina del browser web). |
 | Categoria | categoria | categoria | Per visualizzare azioni personalizzate con una notifica remota. <br>Il tasto di categoria consente al sistema di visualizzare le azioni per tale categoria come pulsanti nell&#39;interfaccia di avviso. |

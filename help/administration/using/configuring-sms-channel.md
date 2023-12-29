@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1596'
+ht-degree: 87%
 
 ---
 
@@ -321,7 +321,7 @@ Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, puoi con
 
 Per ulteriori informazioni, consulta [questa sezione](../../channels/using/managing-incoming-sms.md).
 
-## Configurazione delle proprietà di SMS {#configuring-sms-properties}
+## Configurazione delle proprietà SMS {#configuring-sms-properties}
 
 Questa sezione descrive l’elenco di parametri unici dell’SMS nella schermata delle proprietà di una consegna SMS o di un modello SMS.
 

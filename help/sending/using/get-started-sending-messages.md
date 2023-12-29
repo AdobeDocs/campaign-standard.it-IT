@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 11%
 
 ---
 
@@ -43,7 +43,7 @@ Sfrutta le funzionalità di pianificazione di Campaign per definire quando verra
 
 Utilizzare **tipologie** per verificare durante la preparazione se il messaggio è valido e soddisfa i criteri di qualità tramite regole di affaticamento, controllo e targeting. Ad esempio, per verificare che le e-mail contengano sempre un oggetto o per escludere gli utenti non abbonati dai destinatari del messaggio.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
 * [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
@@ -62,7 +62,7 @@ Quando il messaggio è pronto, puoi confermare i registri di invio e di accesso 
 
 Infine, puoi configurare Adobe Campaign per **conserva una copia delle e-mail** inviato dalla piattaforma tramite e-mail in Ccn. In particolare, se la tua organizzazione deve archiviare tutti i messaggi e-mail in uscita per motivi di conformità, puoi abilitare questa funzionalità.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Conferma dell’invio](../../sending/using/confirming-the-send.md)
 * [Tracciamento dei messaggi](../../sending/using/tracking-messages.md)
@@ -79,7 +79,7 @@ Il recapito messaggi consente di misurare il successo delle campagne che raggiun
 
 Campaign Standard offre diversi **strumenti di consegna messaggi** per aiutarti a migliorare il numero di messaggi consegnati correttamente: rapporti sulla velocità effettiva di consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering di e-mail, gestione della quarantena, ecc.
 
-Maggiori informazioni:
+Ulteriori informazioni:
 
 * [Informazioni sul recapito messaggi](../../sending/using/about-deliverability.md)
 * [Monitoraggio del recapito messaggi](../../sending/using/monitor-deliverability.md)

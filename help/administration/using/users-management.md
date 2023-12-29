@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 82%
+source-wordcount: '1171'
+ht-degree: 81%
 
 ---
 
@@ -23,7 +23,7 @@ I ruoli specifici e le autorizzazioni corrispondenti sono descritti nelle sezion
 
 Gli amministratori possono gestire gli utenti dall’Admin Console. Gli utenti vengono quindi sincronizzati automaticamente con Adobe Campaign. Per ulteriori informazioni, consulta [Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html) documentazione.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 Per visualizzare gli utenti in Adobe Campaign, fai clic sul pulsante **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Users & Security > Users]**.
 
@@ -87,7 +87,7 @@ Di seguito sono elencate le attività principali che possono eseguire:
 * [Esecuzione della modifica avanzata di espressioni](../../automating/using/editing-queries.md#about-query-editor): utilizza funzioni avanzate per manipolare i valori utilizzati per eseguire query specifiche come date, stringhe, campi numerici, ordinamenti, ecc.
 * [Esportazione di elenchi](../../automating/using/exporting-lists.md) e [importazione di dati utilizzando modelli già esistenti](../../automating/using/importing-data-with-import-templates.md).
 
-### Utenti base {#basic-users}
+### Utenti di base {#basic-users}
 
 Grazie all’amministratore funzionale e agli utenti avanzati, gli esperti marketing possono personalizzare, distribuire e monitorare campagne senza dover preoccuparsi della configurazione tecnica. A questo scopo, devono essere assegnati, ad esempio, i ruoli predefiniti **[!UICONTROL Prepare deliveries]**, **[!UICONTROL Workflow]** e **[!UICONTROL Start deliveries]**. Questi ruoli vengono combinati nel gruppo di sicurezza predefinito **[!UICONTROL Standard Users]**. Per ulteriori informazioni, consulta questa [sezione](../../administration/using/list-of-roles.md).
 

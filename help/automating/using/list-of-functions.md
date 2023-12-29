@@ -10,7 +10,7 @@ level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '2011'
 ht-degree: 95%
 
 ---
@@ -300,7 +300,7 @@ Le funzioni di geomarketing vengono utilizzate per manipolare i valori geografic
  </tbody> 
 </table>
 
-## Numeriche {#numerical}
+## Numerico {#numerical}
 
 Le funzioni relative al valore numerico vengono utilizzate per convertire il testo in numeri.
 
@@ -384,7 +384,7 @@ Le funzioni relative al valore numerico vengono utilizzate per convertire il tes
  </tbody> 
 </table>
 
-## Altro {#others}
+## Altri {#others}
 
 Questa tabella contiene le altre funzioni disponibili.
 

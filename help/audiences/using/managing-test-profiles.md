@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 95%
+source-wordcount: '442'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 I profili di test ti consentono di eseguire il targeting di destinatari aggiuntivi che non soddisfano i criteri di targeting definiti. Vengono aggiunti al pubblico di un messaggio per rilevare eventuali utilizzi fraudolenti del database dei destinatari o per assicurarsi che le e-mail arrivino nelle caselle in entrata.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 Puoi gestire i profili di test dal menu avanzato **[!UICONTROL Profiles & audiences > Test profiles]**.
 
@@ -38,7 +38,7 @@ Un profilo di test contiene informazioni di contatto fittizie, o informazioni di
 
 ![](assets/test_profile.png)
 
-## Creazione dei profili di test {#creating-test-profiles}
+## Creazione di profili di test {#creating-test-profiles}
 
 1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **Profiles &amp; audiences > Test profiles** per accedere all’elenco dei profili di test.
 

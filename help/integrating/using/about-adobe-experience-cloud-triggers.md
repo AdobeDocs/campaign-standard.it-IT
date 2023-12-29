@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 90%
+source-wordcount: '466'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Il diagramma seguente illustra il funzionamento di questa integrazione.
 * Guarda il video [Trigger dei messaggi di remarketing basati sull’attività del sito](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
 * Scopri i nostri due [casi di utilizzo di attivatori di abbandono](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Il processo utente dei trigger {#triggers-user-process}
+## Attiva il processo utente {#triggers-user-process}
 
 >[!CAUTION]
 >

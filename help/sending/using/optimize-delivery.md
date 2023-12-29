@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 8%
+source-wordcount: '727'
+ht-degree: 4%
 
 ---
 
@@ -64,7 +64,7 @@ Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenc
 
 **Suggerimenti**
 
-* I destinatari i cui indirizzi sono in quarantena sono esclusi per impostazione predefinita durante l’analisi della consegna: non sono oggetto di targeting. In questo modo le consegne sono più rapide, poiché il tasso di errore ha un effetto significativo sulla velocità di consegna. Un indirizzo e-mail può essere messo in quarantena, ad esempio quando la casella in entrata è piena o se l’indirizzo non esiste. [Ulteriori informazioni](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* I destinatari i cui indirizzi sono in quarantena sono esclusi per impostazione predefinita durante l’analisi della consegna: non sono oggetto di targeting. In questo modo le consegne saranno più rapide, poiché il tasso di errore ha un effetto significativo sulla velocità di consegna. Un indirizzo e-mail può essere messo in quarantena, ad esempio quando la casella in entrata è piena o se l’indirizzo non esiste. [Ulteriori informazioni](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign gestisce gli indirizzi errati in base al tipo di errore restituito. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/understanding-quarantine-management.md).
 

@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -41,9 +41,9 @@ Un esempio di modello di flusso di lavoro generico progettato per l’importazio
 **Argomenti correlati:**
 
 * [Attività di caricamento file](../../automating/using/load-file.md)
-* [Attività Reconciliation](../../automating/using/reconciliation.md)
-* [Attività Segmentation](../../automating/using/segmentation.md)
-* [Attività di deduplicazione](../../automating/using/deduplication.md)
+* [Attività di riconciliazione](../../automating/using/reconciliation.md)
+* [Attività di segmentazione](../../automating/using/segmentation.md)
+* [Attività Deduplica](../../automating/using/deduplication.md)
 * [Aggiornare l’attività dati](../../automating/using/update-data.md)
 
 ## Utilizzo dei formati di file flat {#using-flat-file-formats}

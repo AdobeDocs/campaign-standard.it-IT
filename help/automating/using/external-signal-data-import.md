@@ -36,7 +36,7 @@ Il flusso di lavoro sorgente viene presentato come segue:
   aze128;04/03/2016;clara.smith@example.com;A8;149
   ```
 
-* Un’attività [Reconciliation](../../automating/using/reconciliation.md) crea i collegamenti tra i dati importati e il database in modo tale che i dati delle transazioni siano collegati correttamente a profili e prodotti.
+* Un’attività [Riconciliazione](../../automating/using/reconciliation.md) crea i collegamenti tra i dati importati e il database in modo tale che i dati delle transazioni siano collegati correttamente a profili e prodotti.
 * Un’attività [Update data](../../automating/using/update-data.md) inserisce e aggiorna la risorsa Transazioni del database con i dati in entrata.
 * Un [Fine](../../automating/using/start-and-end.md) l’attività attiva il flusso di lavoro di destinazione, utilizzato per aggiornare gli aggregati.
 

@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -221,12 +221,12 @@ I passaggi per creare, modificare e personalizzare un messaggio transazionale di
 
 Le differenze sono elencate di seguito.
 
-1. [Passa al messaggio transazionale creato per modificarlo.](#accessing-transactional-messages)
+1. [Vai al messaggio transazionale](#accessing-transactional-messages) creato per modificarlo.
 1. Nel messaggio transazionale, fai clic sulla sezione **[!UICONTROL Content]**. Oltre ai modelli e-mail transazionali, puoi anche scegliere qualsiasi modello e-mail destinato a **[!UICONTROL Profile]** risorsa.
 
    ![](assets/message-center_marketing_templates.png)
 
-1. Seleziona il modello di e-mail predefinito. Simile a tutte le e-mail di marketing, include una **collegamento per annullare l’abbonamento**.
+1. Seleziona il modello e-mail predefinito. Simile a tutte le e-mail di marketing, include una **collegamento per annullare l’abbonamento**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 

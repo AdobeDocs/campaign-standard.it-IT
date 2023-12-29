@@ -11,8 +11,8 @@ level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 8%
+source-wordcount: '1817'
+ht-degree: 7%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 8%
       <tr>
          <td>creato</td>
          <td>Creato</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
@@ -234,7 +234,7 @@ ht-degree: 8%
       <tr>
          <td>fine</td>
          <td>Data di scadenza</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
@@ -298,7 +298,7 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>label</td>
+         <td>etichetta</td>
          <td>Etichetta</td>
          <td>stringa (128)</td>
          <td> </td>
@@ -306,7 +306,7 @@ ht-degree: 8%
       <tr>
          <td>lastModified</td>
          <td>Ultima modifica</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
@@ -387,7 +387,7 @@ ht-degree: 8%
       <tr>
          <td>publicationDate</td>
          <td>Data pubblicazione</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
@@ -437,7 +437,7 @@ ht-degree: 8%
       <tr>
          <td>inizio</td>
          <td>Data di distribuzione</td>
-         <td>date </td>
+         <td>data </td>
          <td> </td>
       </tr>
       <tr>
@@ -468,7 +468,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>testUrl</td>
-         <td>URL di prova</td>
+         <td>URL del test</td>
          <td>stringa </td>
          <td> </td>
       </tr>
@@ -606,8 +606,8 @@ ht-degree: 8%
          </td>
       </tr>
       <tr>
-         <td>title</td>
-         <td>pagina di destinazione</td>
+         <td>titolo</td>
+         <td>Pagina di destinazione</td>
          <td>stringa (255)</td>
          <td> </td>
       </tr>
@@ -741,11 +741,11 @@ Presente durante il periodo specificato (per calendario)
         </tr>
         <tr>
         <td>startDate</td>
-        <td>date</td>
+        <td>data</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>date</td>
+        <td>data</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ Pubblicato durante il periodo specificato (daPlanning)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>

@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -45,7 +45,7 @@ Puoi anche definire contenuti dinamici variabili a seconda di ciascun profilo. C
 
 Ottimizza i tuoi messaggi e le pagine di destinazione con collegamenti e immagini. Consulta [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link) e [Inserimento di immagini](../../designing/using/images.md#inserting-images).
 
-## Interfaccia di E-mail designer {#email-designer-interface}
+## Interfaccia di E-mail Designer {#email-designer-interface}
 
 E-mail designer offre diverse opzioni che consentono di creare, modificare e personalizzare ogni aspetto del contenuto.
 
@@ -65,7 +65,7 @@ Accedi alle opzioni e alle impostazioni generali dalla **barra degli strumenti**
 
 La **barra degli strumenti contestuale** dell’interfaccia dell’editor offre diverse funzionalità a seconda della zona selezionata. Contiene i pulsanti di azione e i pulsanti che ti consentono di modificare lo stile del testo. Le modifiche effettuate si applicano sempre alla zona selezionata.
 
-### Pagina Home di E-mail designer {#email-designer-home-page}
+### Pagina Home di E-mail Designer {#email-designer-home-page}
 
 Durante la [creazione di un messaggio e-mail](../../channels/using/creating-an-email.md), la pagina Home viene visualizzata automaticamente selezionando il contenuto dell’e-mail **[!UICONTROL Email Designer]** .
 
@@ -159,7 +159,7 @@ Per quanto riguarda i frammenti, tieni presente quanto segue:
 * [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md)
 * [Progettazione di una pagina di destinazione](../../channels/using/designing-a-landing-page.md)
 * [Creazione di un messaggio SMS](../../channels/using/creating-an-sms-message.md)
-* [Preparazione e invio di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Creazione e invio di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
 
 ## Video tutorial {#video}
 
@@ -167,4 +167,4 @@ Questo video offre una panoramica di E-mail Designer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Per iniziare a utilizzare e-mail designer, guarda questi [video](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generiche di e-mail designer e mostrano come progettare un’e-mail da zero o utilizzando i modelli
+Per iniziare a utilizzare E-mail designer, guarda [set di video](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generali di E-mail Designer e la progettazione di un messaggio e-mail da zero o utilizzando i modelli

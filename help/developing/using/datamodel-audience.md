@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 40%
+source-wordcount: '214'
+ht-degree: 35%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 40%
                <tr>
                   <td>countDate</td>
                   <td>Data di conteggio</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 40%
                <tr>
                   <td>creato</td>
                   <td>Creato</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +118,7 @@ ht-degree: 40%
                <tr>
                   <td>expirationDate</td>
                   <td>Scade il</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -152,7 +152,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etichetta</td>
                   <td>Etichetta</td>
                   <td>stringa (128)</td>
                   <td> </td>
@@ -160,7 +160,7 @@ ht-degree: 40%
                <tr>
                   <td>lastModified</td>
                   <td>Ultima modifica</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -206,7 +206,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>titolo</td>
                   <td>Pubblico</td>
                   <td>stringa (255)</td>
                   <td> </td>

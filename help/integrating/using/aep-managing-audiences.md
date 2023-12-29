@@ -13,8 +13,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '381'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Per creare un pubblico di Adobe Experience Platform direttamente in Campaign Sta
 
 Il pubblico è ora pronto per essere attivato, puoi utilizzarlo come destinazione per le campagne (consulta [Targeting del pubblico di Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
 
-## Modifica di tipi di pubblico
+## Modifica dei tipi di pubblico
 
 Per modificare un pubblico, aprilo e modifica le regole in base alle esigenze nell’interfaccia del Generatore di segmenti (vedi [Utilizzo del Generatore di segmenti](../../integrating/using/aep-using-segment-builder.md)).
 

@@ -11,8 +11,8 @@ level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 12%
+source-wordcount: '525'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ Le opzioni possibili sono:
 
 * **[!UICONTROL History in days]**: specifica il numero di giorni dopo i quali la cronologia deve essere eliminata. La cronologia contiene elementi relativi al flusso di lavoro: registri, attività, eventi (oggetti tecnici collegati all’operazione del flusso di lavoro), nonché file scaricati da **[!UICONTROL Transfer file]** attività. Per i modelli di flusso di lavoro preconfigurati, il valore predefinito è 30 giorni.
 
-  L’eliminazione della cronologia viene eseguita dal flusso di lavoro tecnico per la pulizia del database, che viene eseguito quotidianamente per impostazione predefinita (vedere [Elenco dei flussi di lavoro tecnici](../../administration/using/technical-workflows.md).)
+  La rimozione della cronologia viene eseguita dal flusso di lavoro tecnico Database cleanup, che viene eseguito quotidianamente per impostazione predefinita (vedere [Elenco dei flussi di lavoro tecnici](../../administration/using/technical-workflows.md).)
 
   >[!IMPORTANT]
   >

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 31%
+source-wordcount: '725'
+ht-degree: 26%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 31%
                <tr>
                   <td>creato</td>
                   <td>Creato</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -185,7 +185,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>excludeLogs</td>
-                  <td>Log di esclusione</td>
+                  <td>Registri di esclusione</td>
                   <td>raccolta </td>
                   <td> </td>
                </tr>
@@ -296,7 +296,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>etichetta</td>
                   <td>Etichetta</td>
                   <td>stringa (128)</td>
                   <td> </td>
@@ -304,7 +304,7 @@ ht-degree: 31%
                <tr>
                   <td>lastModified</td>
                   <td>Ultima modifica</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -331,7 +331,7 @@ ht-degree: 31%
                <tr>
                   <td>mainDate</td>
                   <td>Data</td>
-                  <td>date </td>
+                  <td>data </td>
                   <td> </td>
                </tr>
                <tr>
@@ -524,7 +524,7 @@ ht-degree: 31%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>titolo</td>
                   <td>Consegna</td>
                   <td>stringa (255)</td>
                   <td> </td>
@@ -662,7 +662,7 @@ Per periodo (byStartPeriod)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -757,11 +757,11 @@ Pianificato durante il periodo specificato (per Pianificazione)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 
@@ -774,11 +774,11 @@ Presente durante il periodo specificato (per calendario)
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>data</td>
     </tr>
 </table>
 

@@ -1,5 +1,5 @@
 ---
-title: Riepilogo delle consegne
+title: Riepilogo della consegna
 description: Con il rapporto predefinito Delivery summary (Riepilogo delle consegne), scopri le statistiche sulle consegne, ad esempio il numero di invii, mancati recapiti e aperture.
 audience: reporting
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ---
 
-# Riepilogo delle consegne{#delivery-summary}
+# Riepilogo della consegna{#delivery-summary}
 
 Il **[!UICONTROL Delivery summary]** il rapporto fornisce informazioni dettagliate sulle informazioni principali relative a un’e-mail o a più e-mail.
 

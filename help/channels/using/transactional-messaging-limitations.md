@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 67%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,7 @@ La modalità di personalizzazione del contenuto di un messaggio dipende dal tipo
 * Le informazioni sulla personalizzazione provengono dai dati contenuti nell’evento. Consulta [Configurazione dei messaggi transazionali basati su eventi](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * Tu **non può** utilizzare **[!UICONTROL Unsubscription link]** blocchi di contenuto in un messaggio transazionale di evento.
 * La messaggistica transazionale basata su eventi dovrebbe utilizzare solo i dati presenti nell’evento inviato per definire il destinatario e la personalizzazione del contenuto del messaggio. Tuttavia, puoi arricchire il contenuto del messaggio transazionale utilizzando le informazioni contenute nel database di Adobe Campaign. Consulta [Arricchimento di un evento](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) e [Personalizzazione di un messaggio sulle transazioni](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* Poiché i messaggi transazionali di evento non contengono informazioni sul profilo, non sono compatibili con le regole di affaticamento, nemmeno nel caso di un arricchimento tramite profili.
+* Poiché i messaggi transazionali di evento non contengono informazioni sul profilo, non sono compatibili con le regole di affaticamento, anche nel caso di un arricchimento con profili.
 
 ### Messaggi transazionali basati su profili
 
@@ -80,7 +80,7 @@ Tuttavia, se il brand selezionato nelle proprietà del messaggio è collegato a 
 
 Pertanto, se desideri utilizzare il multi-branding nel contesto dei messaggi transazionali, dovresti collegare tutti i brand all’unità organizzativa **[!UICONTROL Message Center]** o all’unità organizzativa **[!UICONTROL All]**.
 
-## Esportazione e importazione dei messaggi transazionali {#exporting-and-importing-transactional-messages}
+## Esportazione e importazione di messaggi transazionali {#exporting-and-importing-transactional-messages}
 
 * Per esportare un messaggio transazionale, devi includere la configurazione dell’evento corrispondente durante la [creazione dell’esportazione del pacchetto](../../automating/using/managing-packages.md#creating-a-package).
 * Dopo che il messaggio transazionale viene [importato tramite un pacchetto](../../automating/using/managing-packages.md#importing-a-package), non viene visualizzato nel relativo elenco. Devi [pubblicare](../../channels/using/publishing-transactional-event.md) la configurazione dell’evento per rendere disponibile il messaggio transazionale associato.

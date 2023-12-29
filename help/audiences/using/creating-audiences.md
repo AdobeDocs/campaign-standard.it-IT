@@ -12,7 +12,7 @@ exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,7 @@ Per creare un pubblico di tipo **File**, segui questi passaggi:
 
    ![](assets/audience_files_3.png)
 
-## Creazione di tipi di pubblico con Experience Cloud {#creating-experience-cloud-audiences}
+## Creazione di tipi di pubblico Experience Cloud {#creating-experience-cloud-audiences}
 
 Adobe Campaign ti consente di condividere e scambiare tipi di pubblico con Adobe Experience Cloud. Un pubblico di tipo **Experience Cloud** viene importato direttamente dal servizio core People in Adobe Campaign con il flusso di lavoro tecnico **[!UICONTROL Import shared audience]**.
 
@@ -107,7 +107,7 @@ Per il corretto funzionamento di questa integrazione, devi innanzitutto configur
 
 ![](assets/audience_peoplecore.png)
 
-## Modifica di tipi di pubblico {#editing-audiences}
+## Modifica dei tipi di pubblico {#editing-audiences}
 
 Esistono diversi modi per modificare un pubblico in base al suo tipo:
 

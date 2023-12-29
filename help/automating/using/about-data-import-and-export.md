@@ -11,7 +11,7 @@ exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 24%
+ht-degree: 12%
 
 ---
 
@@ -24,7 +24,7 @@ A seconda delle esigenze aziendali, puoi importare ed esportare dati in diversi 
 * **Flussi di lavoro**: importa dati da file e utilizzali per aggiornare il database o inviare e-mail. È inoltre possibile selezionare i dati da esportare in file. I flussi di lavoro sono il modo migliore per automatizzare gli aggiornamenti regolari, come le importazioni di profili.
 
    * L’attività **[!UICONTROL Load file]** ti consente di importare i dati all’interno di un modulo strutturato, in modo da poterli utilizzare in Adobe Campaign. I dati vengono importati temporaneamente e occorre un’altra attività per integrarli definitivamente nel database di Adobe Campaign. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/load-file.md).
-   * L’attività **[!UICONTROL Transfer file]** ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign. Puoi utilizzare questa attività prima di un **[!UICONTROL Load file]** nel caso in cui sia necessario recuperare il file da un’origine esterna. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
+   * Il **[!UICONTROL Transfer file]** l’attività ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign. Puoi utilizzare questa attività prima di un **[!UICONTROL Load file]** nel caso in cui sia necessario recuperare il file da un’origine esterna. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
 
 Durante la progettazione dei processi di importazione, è consigliabile utilizzare modelli di flusso di lavoro che possano essere adattati in base alle proprie esigenze. Per ulteriori informazioni su come impostare un modello di flusso di lavoro per l’importazione di dati, consulta [questo caso d’uso](../../automating/using/creating-import-workflow-templates.md).
 

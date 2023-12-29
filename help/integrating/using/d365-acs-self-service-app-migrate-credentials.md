@@ -7,14 +7,15 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-source-git-commit: 736e8b7e863409779c153567f6e5fc577ac3c519
+exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
+source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# Migrazione delle credenziali da JWT a OAuth Server-to-Server
+# Migrazione delle credenziali da JWT a OAuth server-to-server
 
 Le credenziali dell’account di servizio (JWT) sono diventate obsolete e hanno sostituito le nuove credenziali server-to-server OAuth. Le nuove credenziali semplificano la gestione delle applicazioni Adobe. Elimina inoltre la necessità di ruotare periodicamente i certificati e funziona come strumento preconfigurato utilizzando le librerie OAuth2 standard.
 

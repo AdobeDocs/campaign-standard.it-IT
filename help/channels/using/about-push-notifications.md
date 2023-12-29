@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 40%
+source-wordcount: '1206'
+ht-degree: 39%
 
 ---
 
@@ -49,7 +49,7 @@ Puoi configurare alcune configurazioni specifiche per definire il comportamento 
 * [Preparazione e invio di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Creazione di una notifica push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Rapporto notifiche push](../../reporting/using/push-notification-report.md)
-* [Guida a Campaign Standard per dispositivi mobili](../../channels/using/get-started-communication-channels.md)
+* [Guida di Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Prerequisiti {#prerequisites}
 
@@ -80,7 +80,7 @@ Prima di inviare le notifiche push, devi:
 
 Consulta le risorse seguenti:
 
-* [Tutorial video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentazione del prodotto](../../channels/using/about-push-notifications.md)
 * Configurare utilizzando l’SDK di AEP [documentazione](../../administration/using/configuring-a-mobile-application.md)
 * [Pagina community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

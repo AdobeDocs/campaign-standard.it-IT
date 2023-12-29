@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 8%
+source-wordcount: '706'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ L’integrazione di Adobe Campaign Standard con Dreamweaver consente di modifica
 
   Ogni volta che si effettua una modifica in un prodotto, questo viene aggiornato in tempo reale nell&#39;altro. Se desideri modificare il colore del testo in Dreamweaver, non appena apporti tale modifica, il colore del testo è live in Campaign. Inoltre, quando selezioni il codice in Dreamweaver o Campaign, poiché i numeri di riga sono identici, la selezione rimane tra i due prodotti, il che è molto utile quando cerchi qualcosa di specifico nel codice.
 
-* **Caricare immagini locali su Adobe Campaign tramite Dreamweaver**
+* **Caricare immagini locali in Adobe Campaign tramite Dreamweaver**
 
   Durante la creazione o la modifica di un’e-mail all’interno di Dreamweaver, è sufficiente selezionare un’immagine dal desktop o dal computer locale. Anche se Dreamweaver ti ha sempre permesso di farlo, quando Dreamweaver e Campaign sono connesse, il file locale viene caricato immediatamente sul server Adobe Campaign: non è necessario caricare manualmente le immagini quando il contenuto cambia. Inoltre, le immagini più recenti saranno sempre live in Campaign.
 
@@ -37,7 +37,7 @@ L’integrazione di Adobe Campaign Standard con Dreamweaver consente di modifica
 
 Questa funzionalità è descritta nella documentazione di Dreamweaver accessibile [qui](https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 ## Modifica del contenuto in Experience Manager {#editing-content-in-experience-manager}
 

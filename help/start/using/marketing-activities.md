@@ -12,7 +12,7 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
@@ -42,13 +42,13 @@ Il pulsante **[!UICONTROL Create]** può essere utilizzato per creare una nuova 
 
 Nella zona principale, ogni tipo di attività nell’elenco è dotata di un’icona:
 
-* ![](assets/marketing_program_icon.png) programma
-* ![](assets/marketing_campaign_icon.png) campagna
-* ![](assets/marketing_email_icon.png) e-mail
+* ![](assets/marketing_program_icon.png) Programma
+* ![](assets/marketing_campaign_icon.png) Campagna
+* ![](assets/marketing_email_icon.png) E-mail
 * ![](assets/marketing_sms_icon.png) SMS
-* ![](assets/marketing_push_icon.png) notifica push
+* ![](assets/marketing_push_icon.png) Notifica push
 * ![](assets/marketing_lp_icon.png) Messaggio in-app
-* ![](assets/marketing_lp_icon.png) pagina di destinazione
+* ![](assets/marketing_lp_icon.png) Pagina di destinazione
 * ![](assets/marketing_workflow_icon.png) Flusso di lavoro
 
 A seconda del periodo di validità e dello stato, il colore associato a questa icona indica lo stato di esecuzione dell’attività corrispondente.

@@ -12,7 +12,7 @@ exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ All’interno di Adobe Campaign, la procedura utente è la seguente:
 
 ## Raccomandazioni {#recommendations}
 
-### Provider di direct mailing {#direct-mail-providers}
+### Provider di direct mail {#direct-mail-providers}
 
 Prima di tutto, devi contattare il tuo provider di direct mailing e raccogliere le sue raccomandazioni. Per personalizzare la comunicazione, identifica le informazioni di profilo da includere nel file di estrazione, quindi invialo al pubblico. Ad esempio, il nome e il cognome, l’indirizzo postale, un codice promozionale e così via. Tali campi sono quelli che verranno aggiunti nella scheda [Definizione dell’estrazione](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) del contenuto della direct mailing.
 

@@ -12,7 +12,7 @@ exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ Al termine dell’operazione vengono visualizzate diverse sezioni:
 >
 >Durante la selezione di un elemento dall’elenco del contenuto del pacchetto che è già stato esportato, le schede **[!UICONTROL Log]** e **[!UICONTROL Last export]** sono ancora disponibili.
 
-## Importazioni dei pacchetti {#package-imports}
+## Importazioni di pacchetti {#package-imports}
 
 ### Aggiornamenti di sistema {#system-updates}
 

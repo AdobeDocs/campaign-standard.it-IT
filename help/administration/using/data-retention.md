@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 13%
+source-wordcount: '194'
+ht-degree: 10%
 
 ---
 
@@ -34,4 +34,4 @@ Di seguito sono riportati i periodi di conservazione predefiniti per le tabelle 
 * **Entità temporanee**: 7 giorni
 * **Eventi pipeline ignorati**: 1 mese
 * **Avvisi di consegna**: 1 mese
-* **Controllo delle esportazioni**: 6 mesi (consigliato: 1 mese)
+* **Esporta controllo**: 6 mesi (consigliato: 1 mese)

@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 14%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Campagna **[!UICONTROL dimensions]** trovati in Analytics sono elencati di segui
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensione<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definizione<br /> </th> 
   </tr> 
  </thead> 
@@ -42,7 +42,7 @@ Campagna **[!UICONTROL dimensions]** trovati in Analytics sono elencati di segui
    <td> Nome interno della consegna, come visualizzato in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente programmata per inviare consegne secondarie ogni settimana. DM2, DM3 e DM4 vengono inviati per le prime tre settimane. La dimensione ID consegna visualizzerà quindi i risultati per ogni consegna, ovvero da DM1 a DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Etichetta consegna<br /> </td> 
+   <td> Etichetta di consegna<br /> </td> 
    <td> Etichetta della consegna come visualizzata in Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -67,11 +67,11 @@ Campagna **[!UICONTROL metrics]** trovati in Analytics sono elencati di seguito:
  </thead> 
  <tbody> 
   <tr> 
-   <td> Cliccato<br /> </td> 
+   <td> Clic effettuato<br /> </td> 
    <td> Numero di volte in cui è stato fatto clic su un contenuto in una consegna.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Consegnati<br /> </td> 
+   <td> Consegnato<br /> </td> 
    <td> Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Campagna **[!UICONTROL metrics]** trovati in Analytics sono elencati di seguito:
   </tr> 
   <tr> 
    <td> Rimbalzi totali<br /> </td> 
-   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.<br /> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br /> </td> 
   </tr> 
   <tr> 
    <td> Apertura univoca<br /> </td> 

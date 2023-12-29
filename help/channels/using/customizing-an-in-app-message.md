@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Per ottimizzare il tuo messaggio in-app, Adobe Campaign ti consente di accedere 
 
 L’editor del contenuto in-app ti consente di scegliere tra due modalità di messaggio in-app:
 
-* [Modello di messaggio](#customizing-with-a-message-template): ti permette di personalizzare completamente l’app tramite immagini o video e pulsanti di azione.
+* [Modello di messaggio](#customizing-with-a-message-template): ti permette di personalizzare completamente i messaggi in-app con immagini o video e pulsanti di azione.
 * [Messaggio personalizzato](#customizing-with-a-custom-html-message): questo modello ti consente di importare codice HTML personalizzato.
 
 ![](assets/inapp_customize_1.png)
@@ -116,7 +116,7 @@ Puoi aggiungere fino a due pulsanti al messaggio in-app.
    ![](assets/inapp_customize_12.png)
 
 1. Scegli quale tra le due azioni **[!UICONTROL Dismiss]** e **[!UICONTROL Redirect]** sarà assegnata al pulsante principale.
-1. Nella categoria **[!UICONTROL Secondary]**, aggiungi un secondo pulsante all’app, se necessario, immettendo il testo.
+1. Nella categoria **[!UICONTROL Secondary]**, aggiungi un secondo pulsante al messaggio in-app, se necessario, immettendo il testo.
 1. Seleziona l’azione associata al secondo pulsante.
 1. Se hai scelto l’azione **[!UICONTROL Redirect]**, immetti l’URL web o il collegamento diretto nel campo **[!UICONTROL Destination URL]**.
 
@@ -168,7 +168,7 @@ Per personalizzare una notifica locale:
 
 1. Nella categoria **[!UICONTROL Apple options]**, compila i campi **[!UICONTROL Category]** per aggiungere un’ID categoria per le azioni personalizzate, se disponibile nella tua app mobile Apple.
 
-## Personalizzazione tramite messaggio HTML personalizzato {#customizing-with-a-custom-html-message}
+## Personalizzazione tramite un messaggio HTML personalizzato {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >

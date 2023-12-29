@@ -12,7 +12,7 @@ exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -56,7 +56,7 @@ La scheda **File structure** ti consente di configurare i formati di output, dat
 >
 >Le opzioni disponibili sono descritte dettagliatamente nelle sezioni dell’attività del flusso di lavoro [Extract file](../../automating/using/extract-file.md).
 
-## Definizione dell’header e del footer {#defining-the-header-and-footer}
+## Definizione di intestazione e piè di pagina {#defining-the-header-and-footer}
 
 A volte potresti aver bisogno di aggiungere informazioni all’inizio o alla fine del file di estrazione. A questo scopo, utilizza le schede **[!UICONTROL Header]** e **[!UICONTROL Footer]** della schermata di configurazione **[!UICONTROL Content]**.
 

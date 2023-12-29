@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 4%
+source-wordcount: '889'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,7 @@ Una volta elaborata la richiesta, i comandi di crittografia/decrittografia saran
 
 In questo caso d’uso, crea un flusso di lavoro per importare dati che sono stati crittografati in un sistema esterno, utilizzando una chiave generata nel Pannello di controllo Campaign.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 I passaggi per eseguire questo caso d’uso sono i seguenti:
 
@@ -89,7 +89,7 @@ I passaggi per eseguire questo caso d’uso sono i seguenti:
 
 In questo caso d’uso, crea un flusso di lavoro per crittografare ed esportare i dati utilizzando una chiave installata sul Pannello di controllo Campaign.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
 
 I passaggi per eseguire questo caso d’uso sono i seguenti:
 

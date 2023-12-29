@@ -12,7 +12,7 @@ exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ Puoi definirne e gestirne la mappatura tramite il **[!UICONTROL Form data]** nel
 
 Per aggiornare il database di Campaign in base alle tue esigenze, collega i campi del database rilevanti ai blocchi di zona di input, pulsante di scelta o tipo di casella di controllo della pagina di destinazione.
 
-A tale scopo, segui la procedura indicata di seguito:
+A questo scopo, segui la procedura indicata di seguito:
 
 1. Seleziona un blocco nel contenuto della pagina di destinazione.
 
@@ -96,7 +96,7 @@ Per eseguire questa operazione:
 
 Puoi utilizzare diverse caselle di controllo in una singola pagina di destinazione per consentire agli utenti di abbonarsi o annullare l’abbonamento a più servizi.
 
-A tale scopo, segui la procedura indicata di seguito:
+A questo scopo, segui la procedura indicata di seguito:
 
 1. Durante la progettazione della pagina di destinazione:
 

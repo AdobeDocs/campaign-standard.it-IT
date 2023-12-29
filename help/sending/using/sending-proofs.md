@@ -12,7 +12,7 @@ exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Esistono due tipi di destinatari della bozza:
   >
   >Questa funzione è disponibile solo per il canale e-mail.
 
-## Invio di una prova {#sending-a-proof}
+## Invio di una bozza {#sending-a-proof}
 
 Per inviare le bozze, effettua le seguenti operazioni:
 
@@ -80,7 +80,7 @@ A seconda dei commenti delle persone che ricevono la bozza, ti potrebbe venir ri
 
 Devi inviare tutte le bozze necessarie fino a quando non avrai finalizzato il contenuto della consegna. Al termine della procedura, potrai inviare la consegna al target principale e chiudere così il ciclo di approvazione.
 
-## Configurazione della riga dell’oggetto delle bozze {#configuring-proofs-subject-line}
+## Configurazione della riga oggetto delle bozze {#configuring-proofs-subject-line}
 
 Quando viene inviata una bozza, per impostazione predefinita la sua riga oggetto è configurata con il prefisso **&quot;Proof&quot;**, cui viene aggiunto un contatore che ne indica il numero.
 
