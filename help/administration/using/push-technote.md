@@ -6,16 +6,16 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 12%
+source-wordcount: '338'
+ht-degree: 5%
 
 ---
 
 # Prossime modifiche del canale di notifica push {#push-upgrade}
 
-Puoi utilizzare Campaign per inviare notifiche push su dispositivi Android e iOS. Per eseguire questa operazione, Campaign si basa su servizi di abbonamento specifici. Alcune importanti modifiche al servizio Android Firebase Cloud Messaging (FCM) verranno rilasciate nel 2024 e influenzeranno la tua implementazione di Adobe Campaign. Inoltre, per le app iOS, Adobe sta modificando il modo in cui gli amministratori possono configurare i certificati.
+Puoi utilizzare Campaign per inviare notifiche push su dispositivi Android e iOS. Per eseguire questa operazione, Campaign si basa su servizi di abbonamento specifici. Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate a partire dalla versione invernale 2024.1 e avranno un impatto sulla tua implementazione di Adobe Campaign. Inoltre, per le app iOS, Adobe sta modificando il modo in cui gli amministratori possono configurare i certificati.
 
 ## Cosa è cambiato? {#push-changes}
 
@@ -27,7 +27,7 @@ Attualmente Adobe Campaign Standard utilizza API HTTP legacy per inviare messagg
 
 ### iOS {#push-ios}
 
-Adobe sarà anche l’aggiornamento di Adobe Campaign Standard per il canale di notifica push di iOS e la modifica del modo in cui consentiamo agli amministratori di configurare i certificati per le loro applicazioni iOS. Ora gli amministratori devono caricare i certificati di iOS tramite l’interfaccia utente di Adobe Campaign Standard.
+Adobe sarà anche l’aggiornamento di Adobe Campaign Standard per il canale di notifica push di iOS e la modifica del modo in cui consentiamo agli amministratori di configurare i certificati per le loro applicazioni iOS. A partire dalla versione invernale del 24.2 2024, gli amministratori devono caricare i certificati iOS tramite l’interfaccia utente di Adobe Campaign Standard, nelle proprietà dell’app mobile.
 
 ## Sei interessato? {#push-impact}
 
@@ -35,7 +35,7 @@ In qualità di utente Campaign Standard, sei interessato dai messaggi di notific
 
 ## Come effettuare la migrazione? {#push-migration}
 
-Questi aggiornamenti richiedono un aggiornamento della build Campaign Standard, in quanto influiscono sulla configurazione del canale mobile e sulla gestione delle autorizzazioni.
+Questi aggiornamenti richiedono un aggiornamento della build Campaign Standard alla versione invernale 24.1 2024, in quanto influiscono sulla configurazione del canale mobile e sulla gestione delle autorizzazioni.
 
 Presto saranno fornite istruzioni dettagliate per facilitare un processo di transizione senza intoppi.
 
