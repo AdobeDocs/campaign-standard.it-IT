@@ -1,18 +1,18 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: Centro assistenza per le principali funzioni, attività, impostazioni e altre risorse necessarie per utilizzare Campaign Standard.
+user-guide-description: Documentazione del prodotto per Adobe Campaign Standard.
 title: Guida di Campaign Standard
-breadcrumb-title: Documentazione di Adobe Campaign Standard
-source-git-commit: 54910a648abfcf479562d7b66792976ae0aa37cc
+breadcrumb-title: Documentazione di Campaign Standard
+source-git-commit: 604ca02130bdc92d26cebdff32617fa6b3495a1a
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 100%
+source-wordcount: '1766'
+ht-degree: 99%
 
 ---
 
 
-# Guida di Adobe Campaign Standard {#using}
+# Documentazione di Adobe Campaign Standard {#using}
 
 + [Documentazione di Campaign Standard](campaign-standard-home.md)
 + [Ultimi aggiornamenti](rn/using/documentation-updates.md)
