@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Per garantire che la notifica push sia stata completamente sviluppata, è necess
 
 Il tracciamento push è diviso in tre tipi:
 
-* **Impression push** - Quando una notifica push è stata consegnata al dispositivo e si trova nel centro notifiche ma non è stata toccata per niente.  Questa è considerata un&#39;impressione.  Nella maggior parte dei casi i numeri di impression devono essere simili, se non identici, al numero consegnato. In questo modo, il dispositivo riceve il messaggio e inoltra le informazioni al server.
+* **Impression push** : quando una notifica push viene consegnata correttamente al dispositivo, che risiede nel centro notifiche senza alcuna interazione da parte dell’utente.
 
 * **Clic push** - Quando una notifica push è stata consegnata al dispositivo e l’utente ha fatto clic sul dispositivo.  L’utente desidera visualizzare la notifica (che a sua volta passerà al tracciamento delle aperture push) o ignorare la notifica.
 
-* **Apri push** - Quando una notifica push è stata recapitata al dispositivo e l’utente ha fatto clic sulla notifica causando l’apertura dell’app.  È simile al Clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica viene chiusa.
+* **Apri push** - Quando una notifica push è stata recapitata al dispositivo e l’utente ha fatto clic sulla notifica causando l’apertura dell’app. È simile al Clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica viene chiusa.
 
 Per implementare il tracciamento per Campaign Standard, l’app mobile deve includere gli SDK di Adobe Experience Platform. Questi SDK sono disponibili nel [Documentazione di Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
