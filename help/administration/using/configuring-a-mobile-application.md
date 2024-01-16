@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
+source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -153,7 +153,7 @@ L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche 
      Immettere i dettagli dell&#39;applicazione riportati di seguito.
 
       * **ID app (ID bundle iOS)**: fai riferimento a [Documentazione di Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) per ulteriori informazioni sull’ID bundle.
-      * **File certificato iOS (P8)**: trascina e rilascia il tasto di autenticazione .p8.
+      * **File certificato iOS (P8)**: trascina e rilascia il tasto di autenticazione .p8. Per istruzioni su come generare il file di autenticazione .p8, consulta [account sviluppatore Apple](https://developer.apple.com/account/ios/authkey/create).
       * **ID chiave**: fai riferimento a [Documentazione di Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) per ulteriori informazioni sull&#39;ID chiave.
       * **ID team iOS**: fai riferimento a [Documentazione di Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) per ulteriori informazioni su iOS Team ID.
 
@@ -165,7 +165,7 @@ L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche 
      Immettere i dettagli dell&#39;applicazione riportati di seguito.
 
       * **ID app (nome pacchetto Android)**: fai riferimento a [Documentazione Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) per ulteriori informazioni sul nome del pacchetto.
-      * **File Chiave Android (Json)**: trascina e rilascia il file della chiave privata .json.
+      * **File Chiave Android (Json)**: trascina e rilascia il file della chiave privata .json. Per istruzioni su come generare il file della chiave privata .json, consulta [Documentazione per gli sviluppatori di Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
 
         ![](assets/mobile_app_android_config.png)
 +++
