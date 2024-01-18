@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7258'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campa
 
 ## Versione 24.1 - Inverno 2024 {#release-24-1}
 
-Sono state pubblicate le note sulla versione di Campaign Standard 24.1 Winter 2024. [Ulteriori informazioni](release-notes.md)
+Sono state pubblicate le note sulla versione di Campaign Standard 24.1 inverno 2024. [Ulteriori informazioni](release-notes.md)
 
 ## Dicembre 2023 {#doc-updates-dec-2023}
 
