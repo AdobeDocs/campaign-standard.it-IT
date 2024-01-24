@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: 31f62227736daf4f215fcbe1cf7b0a0a8574cda3
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 32%
+source-wordcount: '506'
+ht-degree: 26%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 32%
 </table>
 
 Adobe Campaign offre un ambiente grafico completo che ti consente di progettare processi complessi, tra cui segmentazione, esecuzione di campagne, elaborazione di file, eccetera. Ad esempio, puoi utilizzare un flusso di lavoro per scaricare un file da un server, decomprimerlo e quindi importare i record nel database di Adobe Campaign.
-
-Un flusso di lavoro può coinvolgere anche gli utenti, assegnando loro attività o facendogli approvare le attività eseguite. Ciò significa che puoi assegnare un’attività a uno o più utenti affinché lavorino sul contenuto oppure specificare destinazioni e approvare le bozze prima di inviare il messaggio.
 
 I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
