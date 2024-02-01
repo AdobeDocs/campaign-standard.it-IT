@@ -6,16 +6,18 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
+source-git-commit: f6190139e474800a88ece6fa7d4c6aa3e296e492
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '352'
+ht-degree: 4%
 
 ---
 
 # Prossime modifiche del canale di notifica push {#push-upgrade}
 
 Puoi utilizzare Campaign per inviare notifiche push su dispositivi Android e iOS. Per eseguire questa operazione, Campaign si basa su servizi di abbonamento specifici. Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) saranno rilasciate a partire dalla versione invernale 2024.1 e avranno un impatto sulla tua implementazione di Adobe Campaign. Inoltre, per le app iOS, Adobe sta modificando il modo in cui gli amministratori possono configurare i certificati.
+
+[Scopri come configurare i certificati per app mobili in Adobe Campaign Standard.](configuring-a-mobile-application.md#channel-specific-config)
 
 ## Cosa è cambiato? {#push-changes}
 
