@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -62,8 +62,8 @@ Nella tabella seguente viene illustrato ciò che accade dopo l&#39;accettazione 
 
 |  | Reporting dinamico | Connettore Microsoft Dynamics 365 |
 |---|---|---|
-| Americhe e APAC (Asia Pacifico) | **Funzione disponibile**. <br>Tutte le informazioni pronte all’uso (ad esempio, città, paese, stato, genere e segmenti in base all’età) e i profili personalizzati sono stati inviati al centro di reporting degli Stati Uniti. Per ulteriori informazioni sulle dimensioni del profilo, consulta questa [pagina](../../reporting/using/list-of-components-.md) | **Funzione disponibile**. <br>Tutti i campi predefiniti e personalizzati dei profili e i campi dell’evento Adobe Campaign Standard vengono elaborati nel centro dati degli Stati Uniti. |
-| EMEA (Europa, Medio Oriente e Africa) | **Funzione disponibile**. <br>Tutte le informazioni pronte all’uso (ad esempio, città, paese, stato, genere e segmenti in base all’età) e i profili personalizzati inviati al centro rapporti dell’EMEA. Per ulteriori informazioni sulle dimensioni del profilo, consulta questa [pagina](../../reporting/using/list-of-components-.md) | **Funzione disponibile.** <br>Tutti i campi predefiniti e personalizzati dei profili e i campi dell’evento Adobe Campaign Standard vengono elaborati nel data center dell’EMEA. <br>**[!UICONTROL Control data]**che contiene Adobi I/O di dati di registrazione e ID degli eventi degli utenti finali dei clienti inviati e memorizzati nel data center statunitense. |
+| Americhe e APAC (Asia Pacifico) | **Funzione disponibile**. <br>Tutte le informazioni pronte all’uso (ad esempio, città, paese, stato, genere e segmenti in base all’età) e i profili personalizzati sono stati inviati al centro di reporting degli Stati Uniti. Per ulteriori informazioni sulle dimensioni del profilo, consulta questa [pagina](../../reporting/using/list-of-components.md) | **Funzione disponibile**. <br>Tutti i campi predefiniti e personalizzati dei profili e i campi dell’evento Adobe Campaign Standard vengono elaborati nel centro dati degli Stati Uniti. |
+| EMEA (Europa, Medio Oriente e Africa) | **Funzione disponibile**. <br>Tutte le informazioni pronte all’uso (ad esempio, città, paese, stato, genere e segmenti in base all’età) e i profili personalizzati inviati al centro rapporti dell’EMEA. Per ulteriori informazioni sulle dimensioni del profilo, consulta questa [pagina](../../reporting/using/list-of-components.md) | **Funzione disponibile.** <br>Tutti i campi predefiniti e personalizzati dei profili e i campi dell’evento Adobe Campaign Standard vengono elaborati nel data center dell’EMEA. <br>**[!UICONTROL Control data]**che contiene Adobi I/O di dati di registrazione e ID degli eventi degli utenti finali dei clienti inviati e memorizzati nel data center statunitense. |
 
 La tabella seguente mostra cosa accade dopo aver rifiutato il contratto, a seconda della regione. Anche se si rifiuta questo contratto, il reporting sulle consegne e sull’integrazione di Microsoft Dynamics 365 sarà ancora disponibile.
 

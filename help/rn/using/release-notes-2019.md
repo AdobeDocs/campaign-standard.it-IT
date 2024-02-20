@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 8%
@@ -61,7 +61,7 @@ ht-degree: 8%
 * La finestra a comparsa relativa al consenso per il reporting dinamico è stata aggiornata per includere l’integrazione con Adobe Campaign Standard e Microsoft Dynamics 365. Accettando i termini, i dati del profilo verranno inclusi quando si utilizzano l’integrazione Adobe Campaign Standard/Microsoft Dynamics 365 e il reporting dinamico. [Ulteriori informazioni](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * È stato risolto un problema che causava la visualizzazione di date di contatto errate durante la ricezione di avvisi di consegna.
 * Quando un evento di messaggio transazionale viene inviato con un parametro di contesto sconosciuto, Campaign ora restituisce un messaggio di errore &quot;400&quot; invece di &quot;500&quot;. (CAMP-28632)
-* Una nuova **Escludi bozza** Il segmento è stato aggiunto nel reporting dinamico. Questo segmento ora è selezionato per impostazione predefinita per filtrare i rapporti. [Ulteriori informazioni](../../reporting/using/list-of-components-.md#segments)
+* Una nuova **Escludi bozza** Il segmento è stato aggiunto nel reporting dinamico. Questo segmento ora è selezionato per impostazione predefinita per filtrare i rapporti. [Ulteriori informazioni](../../reporting/using/list-of-components.md#segments)
 * Il **Scadenza messaggio** l&#39;opzione è stata aggiunta alla notifica push. Consente di specificare una data di scadenza in cui il messaggio non verrà più inviato da Apple (APNS) o Android (FCM). [Ulteriori informazioni](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Sono stati apportati miglioramenti alla **Carica file** attività: i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all’errore che si verifica quando un file non viene caricato. La transizione in uscita generata durante l’attivazione di **Mantieni i rifiuti in un file** l&#39;opzione è stata rinominata **Rifiuti**. [Ulteriori informazioni](../../automating/using/load-file.md)
 * Sono stati aggiunti registri multilingue correlati ai registri di invio per comprendere meglio gli errori di invio dovuti alla mancanza di lingue nei file CSV caricati.

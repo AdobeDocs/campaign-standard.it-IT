@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Ecco l’anteprima API per questo esempio:
 
 Puoi arricchire il contenuto dei messaggi transazionali con le informazioni provenienti dal database di Adobe Campaign per personalizzare i messaggi. Dal cognome o dall’ID del sistema di gestione delle relazioni con i clienti di ciascuno dei destinatari, ad esempio, puoi recuperare dati quali l’indirizzo o la data di nascita o qualsiasi altro campo personalizzato aggiunto nella tabella Profilo, al fine di personalizzare le informazioni inviate.
 
-È possibile arricchire il contenuto dei messaggi transazionali con informazioni provenienti da **[!UICONTROL Profile and services Ext API]**. Per ulteriori informazioni, consulta [Estensione dell’API: pubblicazione dell’estensione](../../developing/using/step-2--publish-the-extension.md)
+È possibile arricchire il contenuto dei messaggi transazionali con informazioni provenienti da **[!UICONTROL Profile and services Ext API]**. Per ulteriori informazioni, consulta [Estensione dell’API: pubblicazione dell’estensione](../../developing/using/step-2-publish-the-extension.md)
 
 Queste informazioni possono anche essere memorizzate in nuove risorse. In tal caso, la risorsa deve essere collegata al **[!UICONTROL Profile]** o **[!UICONTROL Service]** risorse direttamente o tramite un’altra tabella. Ad esempio, nella configurazione seguente, è possibile arricchire il contenuto dei messaggi transazionali con le informazioni provenienti da **[!UICONTROL Product]** come la categoria o l’ID del prodotto, se il **[!UICONTROL Product]** la risorsa è collegata al **[!UICONTROL Profile]** risorsa.
 

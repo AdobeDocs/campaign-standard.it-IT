@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentazione del prodotto per Adobe Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Campaign Standard
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ ht-degree: 100%
    + Informazioni sulla generazione rapporti {#about-reporting}
       + [Informazioni sui report dinamici](reporting/using/about-dynamic-reports.md)
       + [Interfaccia di generazione rapporti](reporting/using/reporting-interface.md)
-      + [Elenco dei componenti](reporting/using/list-of-components-.md)
+      + [Elenco dei componenti](reporting/using/list-of-components.md)
       + [Calcolo indicatore](reporting/using/indicator-calculation.md)
       + [Risoluzione dei problemi](reporting/using/troubleshooting.md)
    + Elenco dei rapporti {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Informazioni sull’integrazione di Campaign ed Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configurazione dell’integrazione di Campaign ed Experience Manager](integrating/using/configure-experience-manager.md)
       + [Creazione di contenuti e-mail in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
-      + [Creazione di un modulo Campaign in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Creazione di un modulo Campaign in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Creazione di un’e-mail multilingue con l’integrazione Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign e Target {#working-with-campaign-and-target}
       + [Informazioni sull’integrazione di Campaign e Target](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [Aggiornamento della struttura del database](developing/using/updating-the-database-structure.md)
       + [Eliminazione di una risorsa](developing/using/deleting-a-resource.md)
       + [Chiamata di una risorsa tramite una chiave di identificazione composita](developing/using/uc-calling-resource-id-key.md)
-   + Caso di utilizzo: estensione dell’API {#use-case--extending-the-api}
+   + Caso di utilizzo: estensione dell’API {#use-case-extending-the-api}
       + [Informazioni sull’estensione dell’API](developing/using/about-extending-the-api.md)
-      + [Passaggio 1: aggiungere campi di estensione alla risorsa del profilo](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [Passaggio 2: pubblicare l’estensione](developing/using/step-2--publish-the-extension.md)
-      + [Passaggio 3: verificare l’estensione](developing/using/step-3--verify-the-extension.md)
+      + [Passaggio 1: aggiungere campi di estensione alla risorsa del profilo](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [Passaggio 2: pubblicare l’estensione](developing/using/step-2-publish-the-extension.md)
+      + [Passaggio 3: verificare l’estensione](developing/using/step-3-verify-the-extension.md)
    + Casi di utilizzo: estensione delle risorse {#use-cases--extending-resources}
       + [Estensione della risorsa profilo con un nuovo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Estensione degli abbonamenti a una risorsa dell’applicazione](developing/using/extending-the-subscriptions-to-an-application-resource.md)

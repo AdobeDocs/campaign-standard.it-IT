@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7258'
 ht-degree: 100%
 
@@ -390,7 +390,7 @@ Nella guida Utilizzo delle API sono state aggiunte le informazioni sul nuovo par
 
 È ora disponibile la documentazione di MTA avanzato di Adobe Campaign, che descrive l’infrastruttura di invio aggiornata, la quale offre miglioramenti in termini di consegna messaggi, velocità effettiva e gestione dei messaggi non recapitati. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-enhanced-mta.html)
 
-Sono state aggiunte le note per indicare che è necessaria la sicurezza degli URL del server dell’applicazione e del server della pagina speculare, affinché le anteprime della pagina di destinazione e della pagina speculare vengano visualizzate dall’interfaccia utente di Campaign. [Ulteriori informazioni](../../administration/using/branding.md#configuring-and-using-brands)
+Sono state aggiunte le note per indicare che gli URL del server dell’applicazione e del server della pagina mirror devono essere URL sicuri, affinché le anteprime della pagina di destinazione e della pagina mirror vengano visualizzate dall’interfaccia utente di Campaign. [Ulteriori informazioni](../../administration/using/branding.md#configuring-and-using-brands)
 
 La sezione Esportazione dei registri è stata aggiornata per riflettere la disponibilità dell’ID del registro di consegna all’interno delle risorse dei registri di consegna e di tracciamento, consentendo un’esportazione di un identificatore univoco per ciascun registro. [Ulteriori informazioni](../../automating/using/exporting-logs.md)
 
@@ -752,7 +752,7 @@ A partire dalla versione 18.7, la guida Utenti e sicurezza è stata aggiornata p
 
 **Nuove funzionalità incluse nella versione**
 
-La documentazione API è stata aggiornata con le informazioni sulla **cronologia** delle API. È stato aggiunto un caso d’uso sulla modalità di recupero della pagina speculare per una consegna inviata a un profilo. [Ulteriori informazioni](../../api/using/interacting-with-marketing-history.md)
+La documentazione API è stata aggiornata con le informazioni sulla **cronologia** delle API. È stato aggiunto un caso d’uso sulla modalità di recupero della pagina mirror per una consegna inviata a un profilo. [Ulteriori informazioni](../../api/using/interacting-with-marketing-history.md)
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
@@ -898,7 +898,7 @@ Attivazione attività segnale API - [Ulteriori informazioni](../../api/using/tri
 
 Sono stati aggiunti i casi d’uso per una migliore comprensione dei gruppi e delle unità di sicurezza. [Ulteriori informazioni](../../administration/using/organizational-units.md)
 
-Sono state migliorate le definizioni e i calcoli di dimensioni, metriche e segmenti all’interno dei report dinamici. [Ulteriori informazioni](../../reporting/using/list-of-components-.md)
+Sono state migliorate le definizioni e i calcoli di dimensioni, metriche e segmenti all’interno dei report dinamici. [Ulteriori informazioni](../../reporting/using/list-of-components.md)
 
 Sono state aggiunte le informazioni relative al recupero dei messaggi SMS in arrivo tramite il flusso di lavoro. [Ulteriori informazioni](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ Miglioramento dell’abbonamento di massa - [Ulteriori informazioni](../../autom
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-Elenco dettagliato di tutti i componenti disponibili in Report dinamici e alcune modifiche nelle formule. [Ulteriori informazioni](../../reporting/using/list-of-components-.md)
+Elenco dettagliato di tutti i componenti disponibili in Report dinamici e alcune modifiche nelle formule. [Ulteriori informazioni](../../reporting/using/list-of-components.md)
 
 Elenco dettagliato di KPI (Key Performance Indicator) condivisi con Adobe Analytics. [Ulteriori informazioni](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ Le guide introduttive e i video sulle procedure sono stati raggruppati in una se
 
 È stata aggiornata la tabella di calcolo dell’indicatore del report. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
-La documentazione sul reporting è stata aggiornata con quattro nuove metriche. [Ulteriori informazioni](../../reporting/using/list-of-components-.md)
+La documentazione sul reporting è stata aggiornata con quattro nuove metriche. [Ulteriori informazioni](../../reporting/using/list-of-components.md)
 
 È stata aggiunta la documentazione sulla generazione di ID univoci per i profili. [Ulteriori informazioni](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
