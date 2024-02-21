@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2683'
-ht-degree: 59%
+source-wordcount: '2714'
+ht-degree: 58%
 
 ---
 
@@ -25,11 +25,15 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
 * **Campi delle maschere autorizzate**
 
-  La sezione **[!UICONTROL Header parameters of sent emails]** elenca gli indirizzi e-mail autorizzati che puoi utilizzare per spedire e-mail ai destinatari (indirizzo del mittente) e per consentir loro di inviare risposte automatizzate, quali messaggi non recapitati asincroni, risposte fuori sede e così via (indirizzo di errore). Durante la fase di preparazione dei messaggi, Adobe Campaign verifica che gli indirizzi immessi siano validi. Questa modalità operativa assicura che non vengano utilizzati indirizzi che possono causare problemi di consegna.
+  La sezione **[!UICONTROL Header parameters of sent emails]** elenca gli indirizzi e-mail autorizzati che puoi utilizzare per spedire e-mail ai destinatari (indirizzo del mittente) e per consentir loro di inviare risposte automatizzate, quali messaggi non recapitati asincroni, risposte fuori sede e così via (indirizzo di errore).
+
+  Durante la fase di preparazione dei messaggi, Adobe Campaign verifica che gli indirizzi immessi siano validi. Questa modalità operativa assicura che non vengano utilizzati indirizzi che possono causare problemi di consegna.
+
    * Sia l’indirizzo del mittente che l’indirizzo di errore sono impostati da Adobe. Questi campi non possono essere vuoti.
    * Non è possibile modificarli. Per aggiornare un indirizzo, contatta il team di Assistenza cliente Adobe.
    * Per aggiungere un altro indirizzo, puoi utilizzare [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it) per impostare un nuovo sottodominio o contatta il team di assistenza clienti Adobe. Se vengono utilizzate più maschere, vengono separate da virgole.
-   * È buona norma impostare gli indirizzi utilizzando un asterisco, ad esempio *@tuodominio.com: ti consente di usare qualsiasi indirizzo che termina con il nome del sottodominio.
+   * È buona norma impostare gli indirizzi utilizzando una stella come **@yourdomain.com**: ti consente di utilizzare qualsiasi indirizzo che termina con il nome del sottodominio.
+   * Campaign supporta, come standard, Google e Yahoo **Annulla iscrizione mailing list con un solo clic** funzionalità. Tieni presente che la modifica del valore dell’intestazione nei modelli personalizzati potrebbe compromettere la conformità con Google/Yahoo **Annulla iscrizione mailing list con un solo clic**.
 
 * **Consegna**
 
@@ -46,7 +50,7 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
   >
   >**Questo parametro adesso viene utilizzato in Campaign solo se è impostato su 3,5 giorni o meno.** Se definisci un valore superiore a 3,5 giorni, questo non verrà preso in considerazione.
 
-  Il campo **[!UICONTROL Online resources validity duration]** viene utilizzato per le risorse caricate, principalmente per la pagina speculare e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
+  Il campo **[!UICONTROL Online resources validity duration]** viene utilizzato per le risorse caricate, principalmente per la pagina mirror e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
 
 * **Nuovi tentativi**
 
@@ -173,7 +177,7 @@ Puoi configurare il formato delle e-mail da inviare. Sono disponibili tre opzion
   >
   >Questa opzione include entrambe le versioni del messaggio. Di conseguenza, influisce sulla velocità effettiva di consegna, poiché la dimensione del messaggio è maggiore.
 
-* **Send all messages in text format**: il messaggio viene inviato in formato testo. Il formato HTML non verrà inviato, ma sarà utilizzato per la pagina speculare solo quando il destinatario farà clic sul collegamento nel messaggio.
+* **Send all messages in text format**: il messaggio viene inviato in formato testo. Il formato HTML non verrà inviato, ma sarà utilizzato per la pagina mirror solo quando il destinatario farà clic sul collegamento nel messaggio.
 
 #### Modalità di prova SMTP {#smtp-test-mode}
 
@@ -212,13 +216,13 @@ La sezione **[!UICONTROL Validity period]** contiene i seguenti parametri:
   >
   >Il parametro **[!UICONTROL Delivery duration]** non si applica ai messaggi sulle transazioni. Per ulteriori informazioni sulla messaggistica transazionale, consulta [questa sezione](../../channels/using/getting-started-with-transactional-msg.md).
 
-* **[!UICONTROL Resource validity duration]**/**[!UICONTROL Validity limit date for resources]**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina speculare e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
-* **[!UICONTROL Mirror page management]**: la pagina speculare è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail. Per impostazione predefinita, la pagina speculare viene generata se il collegamento viene inserito nel contenuto della posta. Utilizza questo campo per modificare la modalità di generazione della pagina:
+* **[!UICONTROL Resource validity duration]**/**[!UICONTROL Validity limit date for resources]**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
+* **[!UICONTROL Mirror page management]**: la pagina mirror è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail. Per impostazione predefinita, la pagina mirror viene generata se il collegamento viene inserito nel contenuto dell’e-mail. Utilizza questo campo per modificare la modalità di generazione della pagina:
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modalità predefinita): la pagina speculare viene generata se il collegamento viene inserito nel contenuto della posta.
-   * **Force the generation of the mirror page**: anche se nei messaggi non viene inserito alcun collegamento alla pagina speculare, la pagina verrà creata ugualmente.
-   * **Do not generate the mirror page**: non viene creata alcuna pagina speculare, anche se il collegamento è presente nei messaggi.
-   * **Generate a mirror page accessible using only the message ID**: questa opzione consente di accedere al contenuto della pagina speculare, con le informazioni sulla personalizzazione riportate nella finestra del registro di consegna.
+   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modalità predefinita): la pagina mirror viene generata se il collegamento viene inserito nel contenuto dell’e-mail.
+   * **Forza la generazione della pagina mirror**: anche se nei messaggi non viene inserito alcun collegamento alla pagina mirror, la pagina verrà creata ugualmente.
+   * **Non generare la pagina mirror**: non viene creata alcuna pagina mirror, anche se il collegamento è presente nei messaggi.
+   * **Genera una pagina mirror accessibile utilizzando solo l’identificatore del messaggio**: questa opzione consente di accedere al contenuto della pagina mirror, con i dati di personalizzazione, nella finestra del registro di consegna.
 
   >[!IMPORTANT]
   >
