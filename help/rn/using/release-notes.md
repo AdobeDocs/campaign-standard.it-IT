@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 6cf259751c39e3f9391641d192d018239f8399d4
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 86%
+source-wordcount: '128'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Standard 24.1 utilizza le API HTTP v1 per inviare messaggi di not
 
 Adobe Campaign Standard 24.1 ora supporta i certificati di autenticazione p8 per le notifiche push di iOS. Per attivare queste modifiche, è necessario adattare l’implementazione. Per ulteriori informazioni, consulta [questa nota tecnica](../../administration/using/push-technote.md).
 
-A partire dal 19 febbraio 2024, Supporto di Campaign, preconfigurato, Google e Yahoo **Annulla iscrizione mailing list con un solo clic** funzionalità. Ulteriori informazioni in [pagina](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+A partire dal 19 febbraio 2024, Supporto di Campaign, preconfigurato, Google e Yahoo **Annulla iscrizione mailing list con un solo clic** funzionalità. Per ulteriori informazioni, consulta [questa pagina](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
 
 ### Correzioni {#e-rn-fixes}
