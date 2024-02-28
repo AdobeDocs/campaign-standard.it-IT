@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentazione del prodotto per Adobe Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Campaign Standard
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
 workflow-type: ht
 source-wordcount: '1769'
 ht-degree: 100%
@@ -402,7 +402,7 @@ ht-degree: 100%
       + [Passaggio 1: aggiungere campi di estensione alla risorsa del profilo](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [Passaggio 2: pubblicare l’estensione](developing/using/step-2-publish-the-extension.md)
       + [Passaggio 3: verificare l’estensione](developing/using/step-3-verify-the-extension.md)
-   + Casi di utilizzo: estensione delle risorse {#use-cases--extending-resources}
+   + Casi di utilizzo: estensione delle risorse {#use-cases-extending-resources}
       + [Estensione della risorsa profilo con un nuovo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Estensione degli abbonamenti a una risorsa dell’applicazione](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modello dati {#datamodel}
