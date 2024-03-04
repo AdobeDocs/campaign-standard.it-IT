@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
 workflow-type: tm+mt
-source-wordcount: '2714'
-ht-degree: 58%
+source-wordcount: '2737'
+ht-degree: 57%
 
 ---
 
@@ -33,7 +33,6 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
    * Non è possibile modificarli. Per aggiornare un indirizzo, contatta il team di Assistenza cliente Adobe.
    * Per aggiungere un altro indirizzo, puoi utilizzare [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it) per impostare un nuovo sottodominio o contatta il team di assistenza clienti Adobe. Se vengono utilizzate più maschere, vengono separate da virgole.
    * È buona norma impostare gli indirizzi utilizzando una stella come **@yourdomain.com**: ti consente di utilizzare qualsiasi indirizzo che termina con il nome del sottodominio.
-   * Campaign supporta, come standard, Google e Yahoo **Annulla iscrizione mailing list con un solo clic** funzionalità. Tieni presente che la modifica del valore dell’intestazione nei modelli personalizzati potrebbe compromettere la conformità con Google/Yahoo **Annulla iscrizione mailing list con un solo clic**.
 
 * **Consegna**
 
@@ -279,7 +278,7 @@ La preparazione dei messaggi è spiegata nel dettaglio nella sezione [Approvazio
 
 * **[!UICONTROL Save SQL queries in the log]**: utilizza questa opzione per aggiungere i registri di query SQL nel giornale di registrazione durante la fase di preparazione.
 
-#### Impostazioni bozza {#proof-settings}
+#### Impostazioni di bozza {#proof-settings}
 
 In questa sezione puoi configurare il prefisso predefinito da utilizzare nella riga dell’oggetto dei messaggi della bozza. Ulteriori informazioni sulle bozze in [questa sezione](../../sending/using/sending-proofs.md).
 
@@ -294,6 +293,14 @@ La sezione **[!UICONTROL SMTP]** contiene i seguenti parametri:
   >[!IMPORTANT]
   >
   >L’aggiunta di uno script per l’inserimento di intestazioni SMTP aggiuntive è un’operazione riservata agli utenti avanzati. La sintassi di questo script deve essere conforme ai requisiti di questo tipo di contenuto: nessuno spazio inutilizzato, nessuna linea vuota e così via.
+
+  A partire dal 1° giugno 2024, Google e Yahoo! richiederà ai mittenti di conformarsi **Annulla iscrizione mailing list con un solo clic**. Campaign supporta questa funzionalità pronta all’uso. [Ulteriori informazioni su questa modifica](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+
+  >[!CAUTION]
+  >
+  >Se modifichi il valore dell’intestazione in **[!UICONTROL Additional SMTP headers]** dei modelli e-mail, potrebbe compromettere la conformità con il **Annulla iscrizione mailing list con un solo clic** requisiti di Google e Yahoo!.
+
+  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Elenco dei parametri di autorizzazione di accesso {#list-of-access-authorization-parameters}
 
