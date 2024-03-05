@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2729'
 ht-degree: 57%
 
 ---
@@ -294,13 +294,11 @@ La sezione **[!UICONTROL SMTP]** contiene i seguenti parametri:
   >
   >L’aggiunta di uno script per l’inserimento di intestazioni SMTP aggiuntive è un’operazione riservata agli utenti avanzati. La sintassi di questo script deve essere conforme ai requisiti di questo tipo di contenuto: nessuno spazio inutilizzato, nessuna linea vuota e così via.
 
-  A partire dal 1° giugno 2024, Google e Yahoo! richiederà ai mittenti di conformarsi **Annulla iscrizione mailing list con un solo clic**. Campaign supporta questa funzionalità pronta all’uso. [Ulteriori informazioni su questa modifica](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  A partire dal 1° giugno 2024, Google e Yahoo! richiederà ai mittenti di conformarsi **Annulla iscrizione mailing list con un solo clic**. Campaign supporta questa funzionalità come funzione standard.
 
   >[!CAUTION]
   >
   >Se modifichi il valore dell’intestazione in **[!UICONTROL Additional SMTP headers]** dei modelli e-mail, potrebbe compromettere la conformità con il **Annulla iscrizione mailing list con un solo clic** requisiti di Google e Yahoo!.
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Elenco dei parametri di autorizzazione di accesso {#list-of-access-authorization-parameters}
 
