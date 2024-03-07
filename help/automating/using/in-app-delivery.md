@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -37,7 +37,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 
    * La dimensione di targeting deve essere impostata su **[!UICONTROL mobileApp (mobileAppV5)]** per **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** modello.
    * La dimensione di targeting deve essere impostata su **[!UICONTROL profile (profile)]** per **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** modello.
-   * La dimensione di targeting deve essere impostata su **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** per **[!UICONTROL Target users based on their Mobile profile (inApp)]** modello.
+   * La dimensione di targeting deve essere impostata su **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** per **[!UICONTROL Target users based on their Mobile profile (inApp)]** modello.
 
 1. Trascina e rilascia un’attività **[!UICONTROL In-App delivery]** nel flusso di lavoro.
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
