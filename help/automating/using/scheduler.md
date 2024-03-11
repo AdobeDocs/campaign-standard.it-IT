@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 88%
+source-wordcount: '877'
+ht-degree: 52%
 
 ---
 
@@ -48,17 +48,45 @@ Durante la progettazione di un flusso di lavoro pianificato che include più att
 1. Specifica la **[!UICONTROL Execution frequency]**:
 
    * **[!UICONTROL Once]**: il flusso di lavoro viene eseguito una sola volta.
-   * **[!UICONTROL Several times a day]**: il flusso di lavoro viene eseguito regolarmente più volte al giorno. Puoi impostare esecuzioni in orari specifici o periodicamente.
+   * **[!UICONTROL Several times a day]**: il flusso di lavoro viene eseguito regolarmente diverse volte al giorno.
    * **[!UICONTROL Daily]**: il flusso di lavoro viene eseguito una volta al giorno a un’ora specifica.
    * **[!UICONTROL Weekly]**: il flusso di lavoro viene eseguito in un determinato momento, una o più volte alla settimana.
    * **[!UICONTROL Monthly]**: il flusso di lavoro viene eseguito in un determinato momento, una o più volte al mese. Puoi selezionare i mesi, quando devi eseguire il flusso di lavoro. Puoi anche impostare le esecuzioni in un giorno feriale specifico del mese, ad esempio il secondo martedì del mese.
    * **[!UICONTROL Yearly]**: il flusso di lavoro viene eseguito in un determinato momento, una o più volte all’anno.
 
-1. Definisci i dettagli di esecuzione in base alla frequenza selezionata. I campi dettagliati possono variare a seconda della frequenza utilizzata (tempo, frequenza di ripetizione, giorni specificati, ecc.).
+1. Configura le impostazioni di esecuzione in base alle tue esigenze. Le opzioni disponibili possono variare a seconda della frequenza di esecuzione selezionata (tempo o giorni di esecuzione, frequenza di ripetizione, ecc.).
 
    >[!NOTE]
    >
-   >Il campo **[!UICONTROL Repetition frequency]** ti consente di intervallare i momenti in cui viene attivato il flusso di lavoro. Ad esempio, se selezioni un periodo di esecuzione giornaliero e la frequenza di ripetizione è impostata su **2** (giorni), il flusso di lavoro viene attivato ogni due giorni. Non può essere inferiore a 10 minuti. Se la frequenza di ripetizione è impostata su **0** (che è anche il valore predefinito), questa opzione non viene considerata e il flusso di lavoro viene eseguito in base alla frequenza di esecuzione specificata.
+   >Il **[!UICONTROL Repetition frequency]** disponibile per le frequenze di esecuzione Giornaliera e Mensile consente di intervallare i momenti in cui viene attivato il flusso di lavoro. Ad esempio, se selezioni un periodo di esecuzione giornaliero e la frequenza di ripetizione è impostata su **2** (giorni), il flusso di lavoro viene attivato ogni due giorni. Non può essere inferiore a 10 minuti. Se la frequenza di ripetizione è impostata su **0** (anche il valore predefinito), questa opzione non viene considerata e il flusso di lavoro viene eseguito in base alla frequenza di esecuzione specificata.
+
+   Quando si imposta la frequenza di esecuzione su **[!UICONTROL Several times a day]**, puoi scegliere se eseguire il flusso di lavoro in momenti specifici della giornata o periodicamente durante la giornata.
+
++++ Scopri come configurare una **[!UICONTROL "Several times a day"]** frequenza di esecuzione
+
+   * Per eseguire il flusso di lavoro più volte in momenti specifici della giornata, attiva **[!UICONTROL Specific times]** quindi fai clic su **[!UICONTROL Add an element]** per specificare il tempo di esecuzione desiderato. Aggiungi il numero di volte necessario per allinearlo ai requisiti.
+
+   * Per eseguire periodicamente il flusso di lavoro nel corso della giornata, attiva **[!UICONTROL Periodic]** quindi configura la periodicità di esecuzione:
+
+      1. In **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** , specifica l’intervallo di esecuzione del flusso di lavoro (ad esempio ogni 30 minuti, ogni 2 ore).
+
+         >[!NOTE]
+         >
+         >Questa opzione consente anche di effettuare frequenze di ripetizione giornaliere, mensili o annuali. In questo caso, il flusso di lavoro non verrà eseguito più volte al giorno, ma in base alla frequenza specificata in questo campo.
+         >
+         > Se il flusso di lavoro non richiede più esecuzioni in un giorno, ma deve essere eseguito su base giornaliera, mensile o annuale, è consigliabile utilizzare **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** opzioni disponibili in **[!UICONTROL Execution frequency]** elenco a discesa.
+
+      1. In **[!UICONTROL Start]**/**[!UICONTROL End]** , definiscono l’ora in cui deve iniziare e terminare l’esecuzione del flusso di lavoro.
+
+         Se non viene specificato un orario di fine, l’esecuzione termina alla mezzanotte 00:00:00 ore e l’esecuzione successiva viene avviata il giorno successivo all’ora di inizio specificata.
+
+      1. In **[!UICONTROL Start]** data, seleziona la data in cui deve iniziare la prima esecuzione.
+
+   Nell’esempio seguente, l’attività è configurata per eseguire il flusso di lavoro ogni 2 ore tra le 8 e le 17, a partire dal 1° marzo.
+
+   ![](assets/wkf_scheduler_day.png)
+
++++
 
 1. Specifica quando scade l’esecuzione:
 
