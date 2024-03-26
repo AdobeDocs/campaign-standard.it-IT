@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Per garantire la continuità del servizio, è necessario aggiornare le applicazi
 
 Come parte del continuo sforzo di Google per migliorare i suoi servizi, le API FCM legacy saranno interrotte il **20 giugno 2024**. Ulteriori informazioni sul protocollo HTTP Firebase Cloud Messaging in [Documentazione di Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-A partire dalla versione 24.2, Adobe Campaign Standard supporta le API HTTP v1 per l’invio di messaggi di notifica push Android.
+Avvio [Versione 24.1](../../rn/using/release-notes.md), Adobe Campaign Standard supporta le API HTTP v1 per l’invio di messaggi di notifica push Android.
 
 ### Sei interessato? {#fcm-impact}
 
@@ -49,7 +49,7 @@ Per evitare distrazioni di servizio, è necessario passare alle API più recenti
 
 #### Prerequisiti {#fcm-transition-prerequisites}
 
-* Il supporto di **AP HTTP v1** è stata aggiunta nella versione 24.1. Se l’ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l’ambiente a [ultima versione di Campaign Standard](../../rn/using/release-notes.md).
+* Il supporto di **API HTTP v1** è stata aggiunta nella versione 24.1. Se l’ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l’ambiente a [ultima versione di Campaign Standard](../../rn/using/release-notes.md).
 
 * Il file JSON dell&#39;account del servizio Admin SDK per Android Firebase è necessario per spostare l&#39;app mobile su HTTP v1. Scopri come ottenere questo file in [Documentazione di Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -118,7 +118,7 @@ L’implementazione corrente è interessata se si basa su richieste basate su ce
 
 #### Prerequisiti {#ios-transition-prerequisites}
 
-* Il supporto di **Autenticazione basata su token** è stata aggiunta nella versione 24.1. Se l’ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l’ambiente a [ultima versione di Campaign Standard](../../rn/using/release-notes.md).
+* Il supporto di **Autenticazione basata su token** è stato aggiunto in [Versione 24.1](../../rn/using/release-notes.md). Se l’ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l’ambiente a [ultima versione di Campaign Standard](../../rn/using/release-notes.md).
 
 * Per generare i token utilizzati dal server è necessaria una chiave di firma del token di autenticazione APNs. Richiedi questa chiave al tuo account sviluppatore Apple, come spiegato in [Documentazione per gli sviluppatori di Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
