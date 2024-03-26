@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
 source-wordcount: '4695'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -336,7 +336,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * Il formato di registro SMPP è stato migliorato.
 
-* Sono stati aggiunti parametri opzionali per le funzioni JS cryptString e decryptString corrispondenti alle API di Adobe Campaign Classic.
+* Sono stati aggiunti parametri opzionali per le funzioni JS cryptString e decryptString corrispondenti alle API di Adobe Campaign Standard.
 
 * Sono stati migliorati i messaggi di avvertenza o di errore nei registri di preparazione della consegna.
 
