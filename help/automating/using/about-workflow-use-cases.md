@@ -10,7 +10,7 @@ exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -47,7 +47,7 @@ Consentono di scoprire i diversi contesti in cui è possibile utilizzare i fluss
 * [Segmentazione in base ai gruppi di età](../../automating/using/segmentation-age-groups.md)
 * [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Gestione dei dati {#management}
+## Gestione dati {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

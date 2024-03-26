@@ -32,7 +32,7 @@ Il gruppo di controllo può essere estratto in modo casuale dal target principal
 * **Estrarre** un certo numero di profili dal target principale.
 * **Escludere** alcuni profili in base ai criteri definiti in una query.
 
-È possibile ricorrere a entrambi i metodi.
+Quando si definisce un gruppo di controllo è possibile utilizzare entrambi questi metodi.
 
 Tutti i profili che fanno parte del gruppo di controllo nella fase di preparazione della consegna verranno rimossi dal target principale, quindi non riceveranno il messaggio inviato.
 

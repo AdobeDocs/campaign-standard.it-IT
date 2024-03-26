@@ -112,7 +112,7 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
   <tr> 
    <td> <span class="uicontrol">Update delivery indicators</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
-   <td> Questo flusso di lavoro aggiorna i KPI (Key Performance Indicator) della consegna. Per impostazione predefinita viene avviato ogni ora.<br /> </td> 
+   <td> Questo flusso di lavoro aggiorna i KPI (indicatori chiave di prestazioni) della consegna. Per impostazione predefinita viene avviato ogni ora.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Update event status</span> <br /> </td> 

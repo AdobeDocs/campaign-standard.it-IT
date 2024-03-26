@@ -33,7 +33,7 @@ I **Campaign Integrated Customer Profile** consentono di monitorare ogni interaz
 
 **Arricchisci il database** utilizzando più funzionalità: flussi di lavoro, pagine di destinazione, API o Microsoft Dynamics 365.
 
-[Guida introduttiva a profili e tipi di pubblico](../../audiences/using/get-started-profiles-and-audiences.md)
+[Guida introduttiva ai profili e ai tipi di pubblico](../../audiences/using/get-started-profiles-and-audiences.md)
 
 ## Organizzazione di campagne di marketing cross-channel {#orchestrate-campaigns}
 

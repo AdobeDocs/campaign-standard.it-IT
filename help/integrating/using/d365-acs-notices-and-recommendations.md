@@ -11,7 +11,7 @@ exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '2523'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -98,7 +98,7 @@ L’archiviazione SFTP di Campaign dovrà essere utilizzata dall’integrazione 
 >
 >Sei responsabile delle informazioni a cui accedi e che scarichi dalle cartelle SFTP. Se le informazioni contengono dati personali, sei responsabile del rispetto di tutte le leggi e le normative sulla privacy applicabili. [Ulteriori informazioni](#acs-msdyn-manage-privacy).
 
-## Gestione dei dati
+## Gestione dati
 
 ### Dati campagna esistenti
 

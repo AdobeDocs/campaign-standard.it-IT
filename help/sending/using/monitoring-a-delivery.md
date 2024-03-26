@@ -67,13 +67,13 @@ Per accedere ai dettagli di un log di invio specifico, fai clic sull’icona del
 
 ![](assets/sending_access-sending-log.png)
 
-Tutti i dettagli dei log di invio sono di sola lettura. Puoi inoltre visualizzare un’anteprima della pagina speculare.
+Tutti i dettagli dei log di invio sono di sola lettura. Puoi inoltre visualizzare un’anteprima della pagina mirror.
 
 ![](assets/sending_sending-log.png)
 
 >[!NOTE]
 >
->Per visualizzare il rendering della pagina speculare nell’interfaccia utente di Campaign, l’URL del server della pagina speculare deve essere sicuro. In questo caso, utilizza https:// anziché http:// per impostare questo URL al momento della [configurazione del brand](../../administration/using/branding.md#configuring-and-using-brands).
+>Per visualizzare il rendering della pagina mirror nell’interfaccia utente di Campaign, l’URL del server della pagina mirror deve essere sicuro. In questo caso, utilizza https:// anziché http:// per impostare questo URL al momento della [configurazione del brand](../../administration/using/branding.md#configuring-and-using-brands).
 
 ### Registri di esclusione {#exclusion-logs}
 

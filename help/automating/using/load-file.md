@@ -16,7 +16,7 @@ ht-degree: 93%
 
 ---
 
-# Attività Load file {#load-file}
+# Carica file {#load-file}
 
 ## Descrizione {#description}
 

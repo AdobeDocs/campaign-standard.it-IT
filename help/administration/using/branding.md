@@ -71,11 +71,11 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
    * **External URL of the application server**, utilizzato per l’hosting e per l’accesso alle diverse pagine di destinazione create.
    * **External URL of the tracking server**, utilizzato come URL tracciato durante le consegne.
-   * **External URL of the mirror page server**, utilizzato come pagina speculare predefinita nelle consegne.
+   * **URL esterno del server della pagina mirror**, utilizzato come pagina mirror predefinita nelle consegne.
 
   >[!NOTE]
   >
-  >Per visualizzare l’anteprima della pagina di destinazione e il rendering della pagina speculare nell’interfaccia utente di Campaign, è necessario che gli URL del server dell’applicazione e del server della pagina speculare siano sicuri. In tal caso, per configurare questi URL utilizza https:// anziché http://.
+  >Per visualizzare l’anteprima della pagina di destinazione e il rendering della pagina mirror nell’interfaccia utente di Campaign, gli URL del server dell’applicazione e del server della pagina mirror devono essere sicuri. In tal caso, per configurare questi URL utilizza https:// anziché http://.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**, che definisce la configurazione del tracciamento degli URL per il brand.
 

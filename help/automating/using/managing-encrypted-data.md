@@ -38,7 +38,7 @@ Una volta elaborata la richiesta, i comandi di crittografia/decrittografia saran
 
 **Argomenti correlati:**
 
-* [Attività Load file](../../automating/using/load-file.md)
+* [Carica file](../../automating/using/load-file.md)
 * [Attività Extract file](../../automating/using/extract-file.md)
 
 ## Caso di utilizzo: importazione di dati crittografati utilizzando una chiave generata dal Pannello di controllo Campaign {#use-case-gpg-decrypt}

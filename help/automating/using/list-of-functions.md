@@ -427,7 +427,7 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr>
   <tr> 
    <td> <strong>GetMirrorURL</strong><br /> </td> 
-   <td> Recupera l’URL del server della pagina speculare<br /> </td> 
+   <td> Recupera l’URL del server della pagina mirror<br /> </td> 
    <td> GetMirrorURL(&lt;valore&gt;)<br /> </td> 
   </tr> 
   <tr> 

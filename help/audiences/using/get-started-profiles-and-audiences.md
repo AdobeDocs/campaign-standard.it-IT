@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva a profili e tipi di pubblico
+title: Guida introduttiva ai profili e ai tipi di pubblico
 description: Definisci le popolazioni mirate, seleziona i tipi di pubblico, filtra i destinatari, raccogli i dati e aggiorna i profili.
 audience: audiences
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 ---
 
-# Guida introduttiva a profili e tipi di pubblico{#about-profiles-and-audiences}
+# Guida introduttiva ai profili e ai tipi di pubblico{#about-profiles-and-audiences}
 
 <table>
 <tr>

@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva a E-mail Designer
+title: Introduzione a E-mail Designer
 description: Inizia a creare contenuti e-mail con E-mail Designer.
 audience: designing
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 ---
 
-# Guida introduttiva a E-mail Designer {#quick-start}
+# Introduzione a E-mail Designer {#quick-start}
 
 E-mail designer offre quattro modi per creare le e-mail.
 
