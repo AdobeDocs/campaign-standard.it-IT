@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 8625a26686570d555d7f5614b38536c248ee16a3
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
@@ -190,3 +190,25 @@ Per risolvere il problema:
 * Dopo aver importato la mappatura di Target da un XML, dovrai importare anche l’arricchimento per reporting.
 
 * Invece di importare la mappatura di Target, puoi crearla direttamente in Adobe Campaign Standard, creando automaticamente l’arricchimento per i rapporti.
+
+## Discrepanza tra il numero di intestazione della colonna e la somma delle righe
+
+È prevista una discrepanza tra il numero di intestazione della colonna e la somma di tutte le righe nei seguenti casi:
+
+* **Metriche univoche**: l’utilizzo di metriche univoche può modificare il conteggio totale visualizzato nell’intestazione, in quanto si basa sugli ID dei destinatari invece di una semplice somma dei conteggi delle righe. Di conseguenza, un singolo profilo potrebbe attivare numerosi eventi tra diverse dimensioni, portando a più righe nel set di dati. Tuttavia, nell’intestazione di, ogni profilo viene conteggiato una sola volta.
+
+  Ad esempio:
+
+   * Se un profilo A apre un’e-mail in tre giorni diversi, la suddivisione per giorno mostrerà A in tre righe, ma nell’intestazione, A conterà come 1.
+
+   * Se il profilo A fa clic su tre diversi collegamenti in un’e-mail nello stesso giorno, la suddivisione per URL di tracciamento mostrerà A in tre righe, ma nell’intestazione, A conta come 1. Lo stesso vale per i raggruppamenti per dispositivo e browser.
+
+* **Apri metriche**: il conteggio di Opens è determinato aggregando il totale di eventi Open effettivi e di eventi Click univoci (per ID destinatario), esclusi i casi in cui non si è verificato un evento Open poiché non è possibile fare clic su un collegamento e-mail senza un evento Open.
+
+  Ad esempio:
+
+   * Quando il profilo A apre un’e-mail tracciata (con URL U1), si registra come evento aperto con l’URL indicato come nullo. Se si fa clic su U1 in un secondo momento, viene generato un evento clic. Anche se il clic di A su U1 viene conteggiato come evento aperto, non esiste un evento aperto specifico per U1. Quindi, A viene conteggiato una sola volta nel conteggio unico di apertura.
+
+   * Un profilo R apre un’e-mail il giorno 1, registra un evento aperto e fa clic su un collegamento. Nei due giorni successivi, R riapre l’e-mail e fa di nuovo clic sul collegamento, generando ogni giorno un evento di clic. Mentre il coinvolgimento di R viene tracciato ogni giorno nel numero aperto, R viene conteggiato solo una volta nell’intestazione della colonna, concentrandosi su impegni univoci.
+
+* **Evento negato**: nei rapporti, per evento negato si intendono i tentativi di consegna inizialmente contrassegnati come riusciti, ma che alla fine non sono riusciti dopo nuovi tentativi. Questi sono indicati da un conteggio di -1. Per evitare confusione, questi conteggi negativi vengono esclusi dai numeri della metrica di consegna visualizzati. Di conseguenza, il totale di tutte le righe per la metrica di consegna potrebbe non corrispondere al numero di intestazione della colonna.
