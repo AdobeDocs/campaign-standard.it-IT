@@ -416,7 +416,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>service (serviceBase)</td>
-         <td>Servizio di abbonamento</td>
+         <td>Servizio in abbonamento</td>
          <td>link </td>
          <td> </td>
       </tr>

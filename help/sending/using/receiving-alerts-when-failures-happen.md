@@ -11,7 +11,7 @@ exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '2038'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -46,7 +46,7 @@ Le notifiche inviate contengono:
 
 ![](assets/delivery-alerting_notification.png)
 
-## Dashboard degli avvisi sulla consegna {#delivery-alerting-dashboards}
+## Dashboard di avvisi sulla consegna {#delivery-alerting-dashboards}
 
 ### Informazioni sulle dashboard degli avvisi di consegna {#about-delivery-alerting-dashboards}
 
@@ -90,7 +90,7 @@ Se desideri inviare notifiche in base a criteri specifici a diversi gruppi di ut
 
 Ora, ogni volta che una consegna soddisfa i criteri definiti in questa dashboard, viene inviata una notifica di avviso al gruppo di utenti specificato.
 
-## Criteri di avviso sulla consegna {#delivery-alerting-criteria}
+## Criteri per gli avvisi di consegna {#delivery-alerting-criteria}
 
 ### Informazioni sui criteri di avviso {#about-alerting-criteria}
 
