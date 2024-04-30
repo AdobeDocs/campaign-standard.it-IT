@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 10%
+source-wordcount: '442'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,12 @@ L’accesso alle API di Adobe Campaign Standard è configurato attraverso i pass
 1. **Creare una nuova integrazione con il servizio Adobe Campaign** in [Adobe Developer](https://developer.adobe.com/) e configurarlo. Verranno quindi generate le credenziali (chiave API, segreto client...).
 1. **Creare un token web JSON (JWT)** dalle credenziali generate in precedenza e firmalo con la tua chiave privata. Il JWT codifica tutte le informazioni di identità e sicurezza necessarie ad Adobe per verificare la tua identità e concederti l’accesso all’API.
 
-   >[!AVAILABILITY]
+   >[!IMPORTANT]
    >
-   >Il codice JWT (JSON Web Tokens) è attualmente in fase di ammortamento e viene sostituito con OAuth. La transizione viene eseguita progressivamente nelle prossime versioni di Campaign e la documentazione verrà aggiornata per riflettere tali aggiornamenti.
+   >Il codice JWT (JSON Web Tokens) è attualmente in fase di ammortamento e viene sostituito con OAuth. La transizione viene eseguita progressivamente nelle prossime versioni di Campaign. Le credenziali dell’account di servizio (JWT) sono state contrassegnate come obsolete e continueranno a funzionare fino al 27 gennaio 2025. Pertanto, è necessario migrare l’applicazione o l’integrazione per utilizzare le nuove credenziali server-to-server OAuth prima del 27 gennaio 2025. È preferibile l’autenticazione OAuth. Troverai tutti gli elementi per migrare dall’autenticazione JWT all’autenticazione OAuth in queste pagine:
+   >* [Migrazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
+   >* [Implementazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+   >* [Domande frequenti su JWT obsolete](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 1. **Scambia il tuo JWT con un token di accesso** tramite una richiesta POST. Questo token di accesso dovrà essere utilizzato in ogni intestazione delle richieste API.
 
