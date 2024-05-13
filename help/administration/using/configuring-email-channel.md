@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '2729'
-ht-degree: 58%
+source-wordcount: '2749'
+ht-degree: 57%
 
 ---
 
@@ -294,7 +294,9 @@ La sezione **[!UICONTROL SMTP]** contiene i seguenti parametri:
   >
   >L’aggiunta di uno script per l’inserimento di intestazioni SMTP aggiuntive è un’operazione riservata agli utenti avanzati. La sintassi di questo script deve essere conforme ai requisiti di questo tipo di contenuto: nessuno spazio inutilizzato, nessuna linea vuota e così via.
 
-  A partire dal 1° giugno 2024, Google e Yahoo! richiederà ai mittenti di conformarsi **Annulla iscrizione mailing list con un solo clic**. Campaign supporta questa funzionalità come funzione standard.
+  A partire dal 1° giugno 2024, Google e Yahoo! richiederà ai mittenti di conformarsi **Annulla iscrizione mailing list con un solo clic**. Campaign supporta questa funzionalità pronta all’uso per i modelli di consegna.
+
+  Da applicare **Annulla iscrizione mailing list con un solo clic** a tutte le consegne e-mail non basate su modelli, è necessario eseguire il comando **[!UICONTROL Copy headers from delivery templates]** flusso di lavoro tecnico. [Ulteriori informazioni](technical-workflows.md)
 
   >[!CAUTION]
   >
@@ -332,7 +334,7 @@ Utilizza il **[!UICONTROL Delivery duration]** o **[!UICONTROL Validity limit fo
 
 ### Regole di elaborazione e-mail {#legacy-email-processing-rules}
 
-Il **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UICONTROL Domain management]** le regole possono essere accessibili e modificate dagli amministratori tramite **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu. [Ulteriori informazioni](#email-processing-rules).
+Il **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** e **[!UICONTROL Domain management]** le regole possono essere accessibili e modificate dagli amministratori tramite **[!UICONTROL Administration > Channels > Email > Email processing rules]** menu. [Ulteriori informazioni](#email-processing-rules)
 
 ### Qualificazione di mail non recapitate {#legacy-bounce-mail-qualification}
 

@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 88%
+source-wordcount: '820'
+ht-degree: 75%
 
 ---
 
@@ -47,6 +47,12 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
    <td> <span class="uicontrol">Billing</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
    <td> Questo flusso di lavoro invia il rapporto sull’attività del sistema all’utente di “fatturazione” tramite e-mail. Per impostazione predefinita viene avviato automaticamente ogni giorno all’1.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">Copiare le intestazioni dai modelli di consegna</span> <br /> </td> 
+   <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
+   <td> Questo flusso di lavoro copia le intestazioni SMTP impostate per i modelli di consegna e-mail nelle consegne secondarie non basate su modelli corrispondenti. Solo le consegne di e-mail marketing vengono selezionate da questo flusso di lavoro. Le intestazioni SMTP non vengono copiate nelle consegne transazionali e nelle consegne di bozze. <br> Questo flusso di lavoro non viene eseguito periodicamente. Deve essere avviato dall’utente in base all’utilizzo. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Se nell’istanza è presente un volume elevato di consegne, è possibile aggiornare l’opzione NmsCleanup_DeliveryPurgeDelay in <strong>Impostazioni applicazione</strong>. Se apporti una modifica nelle intestazioni SMTP di qualsiasi modello, devi eseguire nuovamente il flusso di lavoro dopo la modifica in modo che le intestazioni corrette vengano copiate nelle consegne non basate su modelli.<a href="data-retention.md#deliveries">Ulteriori informazioni</a>
+   <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
