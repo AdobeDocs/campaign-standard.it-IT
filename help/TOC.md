@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentazione del prodotto per Adobe Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Campaign Standard
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 99%
+source-wordcount: '1754'
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 99%
    + [Ultima versione](rn/using/release-notes.md)
    + [Note preliminari sulla versione](rn/using/e-release-notes.md)
    + Versioni precedenti {#previous-releases}
-      + [Note sulla versione 2023](rn/using/release-notes-2023.md)
-      + [Note sulle versioni 2022](rn/using/release-notes-2022.md)
-      + [Note sulla versione 2021](rn/using/release-notes-2021.md)
-      + [Note sulla versione 2020](rn/using/release-notes-2020.md)
-      + [Note sulla versione 2019](rn/using/release-notes-2019.md)
-      + [Note sulla versione 2018](rn/using/release-notes-2018.md)
-      + [Note sulla versione 2017](rn/using/release-notes-2017.md)
+      + [2023](rn/using/release-notes-2023.md)
+      + [2022](rn/using/release-notes-2022.md)
+      + [2021](rn/using/release-notes-2021.md)
+      + [2020](rn/using/release-notes-2020.md)
+      + [2019](rn/using/release-notes-2019.md)
+      + [2018](rn/using/release-notes-2018.md)
+      + [2017](rn/using/release-notes-2017.md)
    + [Pianificazione del rilascio](rn/using/release-planning.md)
    + [Funzioni obsolete](rn/using/deprecated-features.md)
    + [Problema relativo alla firma degli URL tracciati](rn/using/tracked-urls.md)
@@ -448,7 +448,7 @@ ht-degree: 99%
       + [Configurazione delle regole di tag per supportare casi d’uso di Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Casi d’uso per dispositivi mobili supportati in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Migrazione dell’app mobile da SDK v4 ad Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [Modifiche al canale di notifica push](administration/using/push-technote.md)
+      + [Modifiche del canale di notifica push](administration/using/push-technote.md)
    + Configurazione del canale SMS {#configuring-sms}
       + [Implementazione del canale SMS](administration/using/configuring-sms-channel.md)
       + [Protocollo e impostazioni del connettore SMS](administration/using/sms-protocol.md)
