@@ -5,7 +5,7 @@ user-guide-description: Documentazione del prodotto per Adobe Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Campaign Standard
 source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1754'
 ht-degree: 100%
 
@@ -332,7 +332,7 @@ ht-degree: 100%
       + [Attività Transfer file](automating/using/transfer-file.md)
       + [Riconciliazione](automating/using/reconciliation.md)
       + [Attività Extract file](automating/using/extract-file.md)
-      + [Attività Subscription services](automating/using/subscription-services.md)
+      + [Servizi di iscrizione](automating/using/subscription-services.md)
       + [Attività External API](automating/using/external-api.md)
    + Filtrare dati {#filtering-data}
       + [Modifica delle query](automating/using/editing-queries.md)
