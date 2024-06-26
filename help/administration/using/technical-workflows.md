@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 75%
+source-wordcount: '839'
+ht-degree: 72%
 
 ---
 
@@ -62,7 +62,8 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
   <tr> 
    <td> <span class="uicontrol">Forecasting</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> Questo flusso di lavoro esegue l’analisi delle consegne archiviate nelle previsioni provvisorie (creazione dei log provvisori). Per impostazione predefinita viene avviato ogni giorno all’1. <br /> </td> 
+   <td> Questo flusso di lavoro esegue l’analisi delle consegne archiviate nelle previsioni provvisorie (creazione dei log provvisori). Per impostazione predefinita viene avviato ogni giorno all’1. <br />
+   Il flusso di lavoro di previsione è un flusso di lavoro legacy che ora è stato interrotto in Campaign Standard e non è più operativo.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Import a shared audience</span> <br /> </td> 
