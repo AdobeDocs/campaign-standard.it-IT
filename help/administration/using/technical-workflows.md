@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '791'
+ht-degree: 74%
 
 ---
 
@@ -49,22 +49,16 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
    <td> Questo flusso di lavoro invia il rapporto sull’attività del sistema all’utente di “fatturazione” tramite e-mail. Per impostazione predefinita viene avviato automaticamente ogni giorno all’1.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Copiare le intestazioni dai modelli di consegna</span> <br /> </td> 
+   <td> <span class="uicontrol">Copia intestazioni dai modelli di consegna</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Questo flusso di lavoro copia le intestazioni SMTP impostate per i modelli di consegna e-mail nelle consegne secondarie non basate su modelli corrispondenti. Solo le consegne di e-mail marketing vengono selezionate da questo flusso di lavoro. Le intestazioni SMTP non vengono copiate nelle consegne transazionali e nelle consegne di bozze. <br> Questo flusso di lavoro non viene eseguito periodicamente. Deve essere avviato dall’utente in base all’utilizzo. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Se nell’istanza è presente un volume elevato di consegne, è possibile aggiornare l’opzione NmsCleanup_DeliveryPurgeDelay in <strong>Impostazioni applicazione</strong>. Se apporti una modifica nelle intestazioni SMTP di qualsiasi modello, devi eseguire nuovamente il flusso di lavoro dopo la modifica in modo che le intestazioni corrette vengano copiate nelle consegne non basate su modelli.<a href="data-retention.md#deliveries">Ulteriori informazioni</a>
+   <td> Questo flusso di lavoro copia le intestazioni SMTP impostate per i modelli di consegna e-mail nelle consegne secondarie non basate su modelli corrispondenti. Solo le consegne di e-mail marketing vengono selezionate da questo flusso di lavoro. Le intestazioni SMTP non vengono copiate nelle consegne transazionali e nelle consegne di bozze. <br> Questo flusso di lavoro non viene eseguito periodicamente. Deve essere avviato dall’utente in base all’utilizzo. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Se nell'istanza è presente un numero elevato di consegne, è possibile aggiornare l'opzione NmsCleanup_DeliveryPurgeDelay nelle <strong>Impostazioni applicazione</strong>. Se apporti una modifica nelle intestazioni SMTP di qualsiasi modello, devi eseguire nuovamente il flusso di lavoro dopo la modifica in modo che le intestazioni corrette vengano copiate nelle consegne non basate su modelli.<a href="data-retention.md#deliveries">Ulteriori informazioni</a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> Questo flusso di lavoro riguarda la manutenzione del database: esegue statistiche e processi diversi ed elimina dati obsoleti dal database in base alla configurazione definita. Per impostazione predefinita viene avviato automaticamente ogni giorno alle 4.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Forecasting</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> Questo flusso di lavoro esegue l’analisi delle consegne archiviate nelle previsioni provvisorie (creazione dei log provvisori). Per impostazione predefinita viene avviato ogni giorno all’1. <br />
-   Il flusso di lavoro di previsione è un flusso di lavoro legacy che ora è stato interrotto in Campaign Standard e non è più operativo.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Import a shared audience</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
@@ -102,7 +96,7 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
    <td> Questo flusso di lavoro sincronizza le proprietà dei tag mobili importate in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Tracciamento del recupero dei registri</span> <br /> </td> 
+   <td> <span class="uicontrol">Registrazione del ripristino dei registri</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
    <td> Questo flusso di lavoro sincronizza le proprietà dei tag mobili importate in Adobe Campaign Standard. Viene avviato ogni 15 minuti.<br /> </td> 
   </tr>

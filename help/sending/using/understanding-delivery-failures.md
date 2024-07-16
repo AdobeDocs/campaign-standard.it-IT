@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 63%
+ht-degree: 59%
 
 ---
 
@@ -35,7 +35,7 @@ I messaggi possono essere esclusi anche durante la preparazione della consegna s
 
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Mancati recapiti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [Rimbalzi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificazione degli errori di consegna per un messaggio {#identifying-delivery-failures-for-a-message}
 
@@ -66,7 +66,7 @@ I possibili motivi di un errore di consegna sono:
 | **[!UICONTROL Duplicate]** | Ignorato | Indirizzo già rilevato nella segmentazione. |
 | **[!UICONTROL Not defined]** | Morbido | l’indirizzo è in qualificazione perché gli errori non sono stati incrementati. | ancora. Questo tipo di errore si verifica quando un nuovo messaggio di errore viene inviato dal server: può essere un errore isolato, ma se si verifica di nuovo, il contatore degli errori aumenta, avvisando i team tecnici. |
 | **[!UICONTROL Error ignored]** | Ignorato | L’indirizzo è in inserita nell&#39;elenco Consentiti di accesso e un messaggio e-mail vi verrà inviato in ogni caso. |
-| **[!UICONTROL Address on denylist]** | Rigido | L’indirizzo è stato aggiunto al inserisco nell&#39;elenco Bloccati di invio della. |
+| **[!UICONTROL Address on denylist]** | Rigido | L’indirizzo è stato aggiunto al inserisco nell&#39;elenco Bloccati di invio dell’. |
 | **[!UICONTROL Account disabled]** | Morbido/rigido | Quando il fornitore di accesso a Internet (IAP) rileva un periodo prolungato di inattività, può chiudere l’account dell’utente: le consegne all’indirizzo dell’utente saranno quindi impossibili. Il tipo morbido o rigido dipende dal tipo di errore ricevuto: se l’account è temporaneamente disattivato a causa di sei mesi di inattività e può ancora essere attivato, verrà assegnato lo stato **[!UICONTROL Erroneous]** e la consegna verrà ritentata. Se l’errore ricevuto segnala che l’account è disattivato in modo permanente, verrà posto direttamente in quarantena. |
 | **[!UICONTROL Not connected]** | Ignorato | Il telefono cellulare del profilo è spento o non è connesso alla rete quando il messaggio viene inviato. |
 | **[!UICONTROL Invalid domain]** | Morbido | Il dominio dell’indirizzo e-mail non è corretto o non esiste più. Questo profilo sarà nuovamente oggetto di targeting fino a raggiungere 5 errori. Successivamente, il record verrà impostato sullo stato di quarantena e non verrà eseguito alcun nuovo tentativo. |
@@ -75,7 +75,7 @@ I possibili motivi di un errore di consegna sono:
 
 
 **Argomenti correlati:**
-* [Mancato recapito permanente](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Rimbalzi permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
 * [Mancati recapiti non permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Tentativi dopo un errore temporaneo di consegna {#retries-after-a-delivery-temporary-failure}
@@ -96,7 +96,7 @@ Ad esempio, se desideri che i nuovi tentativi per una consegna si interrompano d
 
 >[!NOTE]
 >
->Una volta che un messaggio è rimasto nella coda dei tentativi per un massimo di 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato<!--from **[!UICONTROL Sent]**--> a **[!UICONTROL Failed]** nel [registri di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Una volta che un messaggio è rimasto nella coda dei tentativi per un massimo di 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato<!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Failed]** nei [registri di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ Per i messaggi di errore di mancata consegna sincroni, l’MTA avanzato di Adobe
 >
 >Le qualifiche di mancato recapito nella tabella **[!UICONTROL Message qualification]** di Campaign non vengono più utilizzate.
 
-Le mancate consegne asincrone vengono comunque qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per accedere a queste regole, fai clic su **Adobe** in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, vedi [questa sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Le mancate consegne asincrone vengono comunque qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per accedere a queste regole, fai clic sul logo **Adobe**, in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, consulta [questa sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Per ulteriori informazioni sui mancati recapiti e sui diversi tipi di mancato recapito, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Per ulteriori informazioni sui mancati recapiti e sui diversi tipi di mancati recapiti, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
@@ -136,6 +136,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 Il doppio meccanismo di consenso è una best practice per l’invio di e-mail. Esso protegge la piattaforma da indirizzi e-mail errati o non validi, da spambot e impedisce possibili reclami di spam.
 
-Il principio consiste nell’inviare un’e-mail per confermare il consenso del visitatore prima di memorizzarlo tra i “profili” nel database di Campaign: il visitatore compila una pagina di destinazione online, quindi riceve un messaggio e-mail e deve fare clic sul collegamento di conferma per finalizzare l’abbonamento.
+Il principio consiste nell’inviare un’e-mail per confermare il consenso del visitatore prima di memorizzarlo come &quot;profilo&quot; nel database di Campaign: il visitatore compila una pagina di destinazione online, quindi riceve un’e-mail e deve fare clic sul collegamento di conferma per finalizzare l’abbonamento.
 
 Per ulteriori informazioni, consulta [questa sezione](../../channels/using/setting-up-a-double-opt-in-process.md).
