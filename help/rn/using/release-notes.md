@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 79%
 
 ## Note preliminari sulla versione {#e-new-release}
 
-In questa sezione sono elencati i miglioramenti e le modifiche inclusi nella prossima versione di Campaign Standard.
+Questa sezione elenca i miglioramenti e le modifiche inclusi nella prossima versione di Campaign Standard.
 
 >[!CAUTION]
 >
->Questo contenuto è soggetto a modifiche senza preavviso fino alla data di aggiornamento degli ambienti di stage. Ulteriori informazioni nella [pagina di pianificazione del rilascio](../../rn/using/release-planning.md).
+>Questo contenuto è soggetto a modifiche senza preavviso fino alla data di aggiornamento degli ambienti di staging. Ulteriori informazioni sono disponibili nella [pagina di pianificazione del rilascio](../../rn/using/release-planning.md).
 
-**Versione 24.2 - Versione estiva 2024**
+**Versione 24.2 - Estate 2024**
 
 * **Data di rilascio**: agosto 2024 (disponibilità limitata) - [Ulteriori informazioni](../../rn/using/release-planning.md).
 
-* **Migrazione alle credenziali server-to-server OAuth**
+* **Migrazione alle credenziali OAuth server-to-server**
 
   A partire da questa versione, poiché le credenziali dell’account di servizio (JWT) sono state dichiarate obsolete da Adobe, le integrazioni in uscita di Campaign con le soluzioni e le app Adobe ora si basano sulle credenziali OAuth server-to-server. Adobe eseguirà la migrazione da JWT a OAuth per le integrazioni in uscita, ad esempio l’integrazione Campaign-Analytics o l’integrazione dei trigger di Experience Cloud.
 
-  Se hai implementato integrazioni in entrata con Campaign e utilizzi [API Campaign](../../api/using/get-started-apis.md), devi migrare l&#39;account tecnico come descritto in [questa documentazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Le credenziali dell’account di servizio (JWT) esistenti cesseranno di funzionare il **27 gennaio 2025**.
+  Se hai implementato integrazioni in entrata con Campaign e utilizzi l’[API Campaign](../../api/using/get-started-apis.md), devi eseguire la migrazione dell’account tecnico come descritto in [questa documentazione](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Le credenziali dell’account di servizio (JWT) esistenti cesseranno di funzionare il **27 gennaio 2025**.
 
 
 ## Versione 24.1 - Inverno 2024 {#winter-24}
