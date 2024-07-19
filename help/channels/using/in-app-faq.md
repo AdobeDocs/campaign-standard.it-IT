@@ -34,19 +34,19 @@ Poiché i messaggi in-app vengono estratti dall’SDK da Campaign, vogliamo forn
 * I messaggi generati utilizzando il modello di profilo possono essere trasmessi solo dopo che l’utente ha effettuato l’accesso all’app.
 * Per facilitare questo handshake sicuro, gli sviluppatori di app mobili devono trasmettere ulteriori dettagli di autenticazione utilizzando l’API setLinkageField. Tieni presente che il campo di collegamento è quello identificato come collegamento tra Profilo mobile e Profilo CRM durante l’estensione della tabella appSubscriberRcp.
 * Devono effettuare il flushing dei messaggi in-app memorizzati sul dispositivo e resetLinkageField quando l’utente si disconnette dall’app utilizzando resetLinkageField. In questo modo, se un utente diverso accede all’app, non vede i messaggi destinati all’utente precedente.
-* Fai riferimento a [API SDK per dispositivi mobili](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) per implementare questo meccanismo di sicurezza lato client.
+* Consulta [API SDK per dispositivi mobili](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) per implementare questo meccanismo di sicurezza lato client.
 
 ## Cosa devo fare per abilitare il reporting in-app in Campaign? {#enable-inapp-reporting}
 
-Devi configurare il postback del tracciamento in-app. Le istruzioni sono disponibili sul sito [qui](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+Devi configurare il postback del tracciamento in-app. Le istruzioni sono disponibili [qui](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
-Per implementare il tracciamento delle notifiche locali, fai riferimento a questo [pagina](../../administration/using/local-tracking.md).
+Per implementare il tracciamento delle notifiche locali, consulta questa [pagina](../../administration/using/local-tracking.md).
 
 ## Quali rapporti sono disponibili per il canale in-app? {#report-inapp}
 
-In Adobe Campaign è disponibile un rapporto pronto all’uso per il canale in-app. Fai riferimento a questo [documentazione](../../reporting/using/in-app-report.md).
+In Adobe Campaign è disponibile un rapporto pronto all’uso per il canale in-app. Consulta questa [documentazione](../../reporting/using/in-app-report.md).
 
-Vedi questo [pagina](../../reporting/using/indicator-calculation.md#in-app-delivery) per comprendere come vengono calcolate tutte le metriche in-app.
+Consulta questa [pagina](../../reporting/using/indicator-calculation.md#in-app-delivery) per informazioni sul calcolo di ciascuna metrica in-app.
 
 ## Supporti varianti di contenuto multilingue per contenuti in-app simili a Push? {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ Per l&#39;audio personalizzato su iOS, è necessario specificare un nome di file
 Sì, i collegamenti diretti sono supportati nei messaggi in-app. I collegamenti diretti devono includere:
 
 * linguaggio che indica che il tracciamento della consegna deve essere disabilitato affinché i collegamenti diretti funzionino.
-* Appsflyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull’integrazione di Branch e Adobe Campaign Standard, consulta questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer con Branch come partner in grado di eseguire il tracciamento del deep link. Per ulteriori informazioni sull&#39;integrazione di Branch e Adobe Campaign Standard, consulta questa [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ## È possibile attivare un messaggio in-app quando l’utente avvia l’app da una notifica push? {#inapp-push-trigger}
 

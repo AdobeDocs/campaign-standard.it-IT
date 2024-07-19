@@ -60,7 +60,7 @@ La creazione di una consegna direct mailing è molto simile alla creazione di un
 
 1. Se hai aggiunto dei profili di test (consulta [Aggiunta di profili di test e di trappola](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), puoi testare la consegna prima di preparare il file finale. Ciò ti consente di creare un file campione contenente solo i profili di test selezionati.
 
-   Fai clic su **[!UICONTROL Test]** per generare il file campione. Fai clic su **[!UICONTROL Summary]**, nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Proofs]**. Nella parte sinistra della schermata, seleziona la bozza e fai clic su **[!UICONTROL Download file]**.
+   Fai clic su **[!UICONTROL Test]** per generare il file campione. Fai clic su **[!UICONTROL Summary]**, nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Proofs]**. Nella parte sinistra della schermata, seleziona la bozza e fai clic su **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >
@@ -103,4 +103,4 @@ Ora puoi inviare il file di estrazione al provider della direct mailing. A tal f
 * Inviarla tramite e-mail regolare, con il file allegato
 * Inviarla tramite Campaign: esegui la direct mailing in un [flusso di lavoro](../../automating/using/direct-mail-delivery.md) della campagna e aggiungi un **[!UICONTROL Transfer file]** per inviare il file, ad esempio tramite FTP. Consulta [Trasferire file](../../automating/using/transfer-file.md).
 
-Il provider recupera l’elenco degli indirizzi errati e invia queste informazioni ad Adobe Campaign, che a sua volta inserisce nell&#39;elenco Bloccati automaticamente gli indirizzi errati. Consulta [Rendi al mittente](../../channels/using/return-to-sender.md).
+Il provider recupera l’elenco degli indirizzi errati e invia queste informazioni ad Adobe Campaign, che li inserisce nell&#39;elenco Bloccati automaticamente in base all’. Consulta [Rendi al mittente](../../channels/using/return-to-sender.md).

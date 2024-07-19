@@ -29,9 +29,9 @@ Amplia il modello dati Campaign Standard con campi e risorse personalizzate e mo
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in una **modello dati predefinito**. Il modello dati visualizza una struttura SQL predefinita per un set di risorse correlate al marketing: consegna, pubblico, pagine di destinazione, profilo e così via. A ogni risorsa sono associati dei filtri che ti consentono di navigare tra le diverse risorse.
+I dati utilizzati da Campaign sono definiti tramite risorse diverse definite in un **modello dati predefinito**. Il modello dati visualizza una struttura SQL predefinita per un set di risorse correlate al marketing: consegna, pubblico, pagine di destinazione, profilo e così via. A ogni risorsa sono associati dei filtri che ti consentono di navigare tra le diverse risorse.
 
-Il **Diagnosi** Il menu ti consente di elencare gli oggetti tecnici generati da Campaign Standard: schemi di dati, pagine web, filtri, ecc., consentendoti di monitorare il modello di dati e qualsiasi modifica apportata allo stesso.
+Il menu **Diagnosi** ti consente di elencare gli oggetti tecnici generati da Campaign Standard: schemi di dati, pagine Web, filtri, ecc., consentendo di monitorare il modello di dati e qualsiasi modifica apportata allo stesso.
 
 Ulteriori informazioni:
 
@@ -44,9 +44,9 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard consente di: **Arricchire il modello dati predefinito** per creare risorse proprie (ad esempio per aggiungere tabelle Acquisto o Prodotto) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate di Campaign per ottimizzare la navigazione attraverso le nuove risorse e i nuovi campi creati.
+Campaign Standard ti consente di **Arricchire il modello dati predefinito** per creare risorse proprie (ad esempio per aggiungere tabelle Acquisti o Prodotti) o per estendere le risorse esistenti con nuovi campi. Puoi anche configurare le schermate di Campaign per ottimizzare la navigazione attraverso le nuove risorse e i nuovi campi creati.
 
-Inoltre, è possibile **estendere le API REST di Campaign Standard** per esporre nei campi estesi delle API i profili delle risorse personalizzate. Ciò ti consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
+Inoltre, puoi **estendere le API REST di Campaign Standard** per esporre nei campi estesi delle API i profili delle risorse personalizzate. Ciò ti consente, ad esempio, di aggiornare il profilo di un cliente con un codice promozionale generato da un sistema di fatturazione.
 
 Ulteriori informazioni:
 

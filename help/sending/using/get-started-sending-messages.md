@@ -29,19 +29,19 @@ Dopo aver eseguito le campagne di marketing e inviato i diversi messaggi, monito
 
 Infine, sfrutta le linee guida e gli strumenti disponibili in Campaign Standard per il recapito dei messaggi al fine di migliorare il numero di messaggi consegnati e garantire il successo delle campagne di marketing.
 
-![](assets/do-not-localize/how-to-video.png) [Scopri come inviare un’e-mail di test, preparare e inviare una consegna e-mail in un video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri come inviare un&#39;e-mail di test, preparare e inviare una consegna e-mail in un video](#video)
 
 ## Preparare e testare {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Campaign Standard **preparazione dei messaggi** analizza il target, la personalizzazione e la validità del messaggio. Gli errori rilevati durante questo passaggio devono essere corretti prima di poter procedere ulteriormente.
+La **preparazione dei messaggi** di Campaign Standard analizza il target, la personalizzazione e la validità del messaggio. Gli errori rilevati durante questo passaggio devono essere corretti prima di poter procedere ulteriormente.
 
-**Anteprima e test** i messaggi utilizzando varie funzionalità: invia bozze per testare profili o profili mirati, verifica l’oggetto delle e-mail e controlla il rendering dei messaggi per assicurarti che vengano visualizzati in modo ottimale su una varietà di client web, web mail e dispositivi.
+**Anteprima e verifica** i messaggi utilizzando varie funzionalità: invia bozze a profili di test o di destinazione, verifica l&#39;oggetto delle e-mail e controlla il rendering dei messaggi per assicurarti che vengano visualizzati in modo ottimale su diversi client web, web mail e dispositivi.
 
 Sfrutta le funzionalità di pianificazione di Campaign per definire quando verranno inviati i messaggi. Ad esempio, puoi adattare l’invio al fuso orario del destinatario, ottimizzare l’ora di invio o calcolare la data di invio.
 
-Utilizzare **tipologie** per verificare durante la preparazione se il messaggio è valido e soddisfa i criteri di qualità tramite regole di affaticamento, controllo e targeting. Ad esempio, per verificare che le e-mail contengano sempre un oggetto o per escludere gli utenti non abbonati dai destinatari del messaggio.
+Utilizza **tipologie** per verificare durante la preparazione se il messaggio è valido e soddisfa i criteri di qualità tramite regole di affaticamento, controllo e targeting. Ad esempio, per verificare che le e-mail contengano sempre un oggetto o per escludere gli utenti non abbonati dai destinatari del messaggio.
 
 Ulteriori informazioni:
 
@@ -58,9 +58,9 @@ Ulteriori informazioni:
 
 Quando il messaggio è pronto, puoi confermare i registri di invio e di accesso e i rapporti per **monitorare la consegna** e misurare il successo della campagna. Adobe Campaign fornisce anche un sistema di avvisi e-mail per tenere traccia dei successi o degli errori di consegna, nonché funzionalità di gestione della quarantena.
 
-**Tracciare il comportamento** dei destinatari dei messaggi utilizzando la sessione e i cookie permanenti per recuperare le informazioni di tracciamento (URL su cui è stato fatto clic, pagine mirror, messaggi aperti...).
+**Monitora il comportamento** dei destinatari del messaggio utilizzando cookie di sessione e permanenti per recuperare le informazioni di tracciamento (URL su cui è stato fatto clic, pagine mirror, messaggi aperti...).
 
-Infine, puoi configurare Adobe Campaign per **conserva una copia delle e-mail** inviato dalla piattaforma tramite e-mail in Ccn. In particolare, se la tua organizzazione deve archiviare tutti i messaggi e-mail in uscita per motivi di conformità, puoi abilitare questa funzionalità.
+Infine, puoi configurare Adobe Campaign per **conservare una copia delle e-mail** inviate dalla piattaforma tramite E-mail in Ccn. In particolare, se la tua organizzazione deve archiviare tutti i messaggi e-mail in uscita per motivi di conformità, puoi abilitare questa funzionalità.
 
 Ulteriori informazioni:
 
@@ -77,7 +77,7 @@ Ulteriori informazioni:
 
 Il recapito messaggi consente di misurare il successo delle campagne che raggiungono la casella in entrata dei destinatari senza che questi vengano recapitati o contrassegnati come spam.
 
-Campaign Standard offre diversi **strumenti di consegna messaggi** per aiutarti a migliorare il numero di messaggi consegnati correttamente: rapporti sulla velocità effettiva di consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering di e-mail, gestione della quarantena, ecc.
+Campaign Standard fornisce diversi **strumenti di recapito messaggi** per aiutarti a migliorare il numero di messaggi recapitati correttamente: rapporti sulla velocità effettiva di consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
 
 Ulteriori informazioni:
 
@@ -99,4 +99,4 @@ Questo video mostra come inviare un’e-mail di test, preparare e quindi inviare
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

@@ -25,7 +25,7 @@ Le regole di controllo ti consentono di verificare la validità e la qualità de
 
 ## Regole di controllo predefinite {#default-control-rules}
 
-Un insieme di regole predefinite garantisce i controlli standard. La tabella seguente fornisce informazioni su queste regole, nonché sui relativi canali e [fasi di esecuzione](#control-rules-execution-phases).
+Un insieme di regole predefinite garantisce i controlli standard. La tabella seguente fornisce informazioni su queste regole, nonché sul relativo canale e sulle [fasi di esecuzione](#control-rules-execution-phases).
 
 | Etichetta | Canale | Fase di esecuzione | Descrizione |
 |---------|----------|---------|---------|
@@ -46,12 +46,12 @@ Un insieme di regole predefinite garantisce i controlli standard. La tabella seg
 
 Le regole di controllo possono essere applicate in diverse fasi del ciclo di vita della consegna:
 
-* **All’inizio del targeting**: in questa fase è possibile applicare la regola di controllo in modo che il passaggio di personalizzazione non venga eseguito in caso di errore.
+* **All&#39;inizio del targeting**: è possibile applicare la regola di controllo in questa fase in modo che il passaggio di personalizzazione non venga eseguito in caso di errore.
 
-* **Dopo il targeting**: l’esecuzione dopo il targeting ti consente di conoscere il volume del target per applicare la regola di controllo.
+* **Dopo il targeting**: l&#39;esecuzione dopo il targeting consente di conoscere il volume della destinazione per applicare la regola di controllo.
 
-  Ad esempio, il **Verifica dimensioni bozza** la regola di controllo si applica dopo la fase di targeting: questa regola impedisce la preparazione della personalizzazione dei messaggi se ci sono troppi destinatari bozza.
+  Ad esempio, la regola di controllo **Verifica dimensione bozza** si applica dopo la fase di targeting: questa regola impedisce la preparazione della personalizzazione dei messaggi se sono presenti troppi destinatari bozza.
 
-* **All’inizio della personalizzazione**: si applica quando il controllo si riferisce all’approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
+* **All&#39;inizio della personalizzazione**: si applica quando il controllo si riferisce all&#39;approvazione della personalizzazione dei messaggi. La personalizzazione dei messaggi viene eseguita durante la fase di analisi.
 
-* **Alla fine dell’analisi**: quando un controllo richiede il completamento della personalizzazione dei messaggi.
+* **Al termine dell&#39;analisi**: quando un controllo richiede il completamento della personalizzazione dei messaggi.

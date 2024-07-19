@@ -19,7 +19,8 @@ ht-degree: 84%
 
 Dopo aver creato un’e-mail in Adobe Campaign, è necessario definirne il contenuto.
 
-E-mail Designer consente di creare e-mail accattivanti e personalizzate tramite un’interfaccia a trascinamento. Partendo da una lavagna vuota o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail, che sia promozionale o transazionale.
+E-mail Designer ti consente di creare e-mail accattivanti e personalizzate tramite trascinamento
+di rete. Partendo da una lavagna vuota o sfruttando frammenti di contenuto o modelli esistenti, puoi progettare e perfezionare tutti i contenuti per ogni e-mail, che sia promozionale o transazionale.
 
 Progettato per fornire HTML ottimizzati per la progettazione reattiva, E-mail designer consente di definire e applicare facilmente condizioni di visibilità e contenuto dinamico a un’e-mail, a un modello o a un frammento direttamente tramite l’interfaccia utente. Puoi passare facilmente dall’interfaccia di trascinamento al codice HTML facendo clic su un pulsante.
 
@@ -27,7 +28,7 @@ E-mail designer consente di creare contenuti e modelli di contenuto per le e-mai
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Scopri E-mail designer nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri il Designer delle e-mail nel video](#video)
 
 * Per informazioni su come creare contenuti e-mail, consulta la [Guida introduttiva a E-mail designer](../../designing/using/quick-start.md).
 * Per avere una panoramica su E-mail designer, consulta [Uso di E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -45,7 +46,7 @@ Puoi anche definire contenuti dinamici variabili a seconda di ciascun profilo. C
 
 Ottimizza i tuoi messaggi e le pagine di destinazione con collegamenti e immagini. Consulta [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link) e [Inserimento di immagini](../../designing/using/images.md#inserting-images).
 
-## Interfaccia di E-mail Designer {#email-designer-interface}
+## Interfaccia e-mail Designer {#email-designer-interface}
 
 E-mail designer offre diverse opzioni che consentono di creare, modificare e personalizzare ogni aspetto del contenuto.
 
@@ -143,7 +144,7 @@ Per quanto riguarda i frammenti, tieni presente quanto segue:
 
 * L’aggiornamento dei frammenti utilizzati nelle e-mail già preparate non ha alcun impatto su tali e-mail.
 
-## Limiti di E-mail Designer {#email-designer-limitations}
+## Limitazioni di E-mail Designer {#email-designer-limitations}
 
 * Non è possibile utilizzare campi di personalizzazione in un frammento. Per ulteriori informazioni sui frammenti, consulta [questa sezione](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -167,4 +168,4 @@ Questo video offre una panoramica di E-mail Designer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Per iniziare a utilizzare E-mail designer, guarda [set di video](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generali di E-mail Designer e la progettazione di un messaggio e-mail da zero o utilizzando i modelli
+Per iniziare a utilizzare E-mail Designer, guarda questo [set di video](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) che illustrano le funzionalità generali di E-mail Designer e spiegano come progettare un&#39;e-mail da zero o utilizzando i modelli

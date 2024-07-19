@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Utilizzo dell’integrazione con Microsoft Dynamics 365
 
-L’integrazione di Adobe Campaign Standard con Microsoft Dynamics 365 esegue diversi flussi di dati. Questi flussi sono descritti in dettaglio in [questa pagina](../../integrating/using/d365-acs-self-service-app-workflows.md).
+L’integrazione di Adobe Campaign Standard con Microsoft Dynamics 365 esegue diversi flussi di dati. Questi flussi sono descritti in [questa pagina](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-Ulteriori dettagli sui flussi di dati sono disponibili più in basso in questo documento, nella sezione [Flussi di dati](#data-flows)  sezione.
+Ulteriori dettagli sui flussi di dati sono disponibili più in basso in questo documento nella sezione [Flussi di dati](#data-flows).
 
 ## Esperienza utente di Adobe Campaign Standard
 
@@ -27,7 +27,7 @@ Quando un contatto viene creato, modificato o eliminato (se l’eliminazione è 
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Quando un attributo di rinuncia viene modificato in Campaign, questo si rifletterà in Dynamics 365 se hai selezionato il **Unidirezionale (da Campaign a Microsoft Dynamics 365)** o **Bidirezionale** la configurazione di rinuncia e se quel particolare attributo è mappato correttamente.
+Quando un attributo di rinuncia viene modificato in Campaign, questo si rifletterà in Dynamics 365 se hai selezionato la configurazione di rinuncia **Unidirezionale (Campaign to Microsoft Dynamics 365)** o **Bidirezionale** e se tale attributo è stato mappato correttamente.
 
 ## Esperienza utente di Microsoft Dynamics 365
 
@@ -45,7 +45,7 @@ Per visualizzare la sequenza temporale di un contatto, passa all’elenco dei co
 
 >[!NOTE]
 >
->Il **Adobe Campaign per Microsoft Dynamics 365** per poter visualizzare questi eventi, l’app in AppSource dovrà essere installata nell’istanza di Microsoft Dynamics 365. [Ulteriori informazioni](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
+>Per visualizzare questi eventi, è necessario installare l&#39;app **Adobe Campaign per Microsoft Dynamics 365** in AppSource nell&#39;istanza di Microsoft Dynamics 365. [Ulteriori informazioni](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
 
 Di seguito è riportata un&#39;istantanea della schermata Contatto per &quot;Dynamics User&quot;. Nella vista Timeline, noterai che all’utente di Dynamics è stata inviata un’e-mail associata al nome della campagna &quot;2019LoyaltyCamp&quot; e al nome della consegna &quot;DM190&quot;. Dynamics User ha aperto l’e-mail e ha fatto clic su un URL nell’e-mail; entrambe queste azioni hanno creato eventi che vengono visualizzati anche di seguito. Nell’angolo a destra viene visualizzata la scheda Relationship Assistant (RA), che attualmente contiene un’attività per il follow-up dell’URL su cui è stato fatto clic.
 
@@ -69,25 +69,25 @@ Il modulo per gli eventi di clic sugli URL e-mail aggiunge un attributo aggiunti
 
 Di seguito è riportato un elenco degli attributi e una descrizione:
 
-* **Oggetto**: oggetto dell’evento; composto dall’ID campagna e dall’ID consegna della consegna e-mail
+* **Oggetto**: oggetto dell&#39;evento; composto dall&#39;ID campagna e dall&#39;ID consegna della consegna e-mail
 
-* **Proprietario**: utente dell’applicazione creato nei passaggi successivi al provisioning
+* **Proprietario**: l&#39;utente dell&#39;applicazione creato nei passaggi successivi al provisioning
 
-* **Riguardo**: nome del contatto
+* **Riguardo**: il nome del contatto
 
-* **Nome campagna**: l’ID campagna in Campaign Standard
+* **Nome campagna**: l&#39;ID campagna in Campaign Standard
 
-* **Nome consegna**: l’ID di consegna in Campaign Standard
+* **Nome consegna**: l&#39;ID consegna in Campaign Standard
 
-* **Data invio/apertura/clic/rifiuto**: data/ora di creazione dell’evento
+* **Data di invio/apertura/clic/mancato recapito**: data/ora di creazione dell&#39;evento
 
 * **URL di tracciamento**: URL su cui è stato fatto clic
 
-* **URL pagina mirror**: URL della pagina speculare dell’e-mail inviata/aperta/su cui è stato fatto clic/non recapitata. Il periodo di scadenza della pagina mirror e-mail può essere modificato nella schermata di configurazione dell’attività del canale e-mail di Campaign corrispondente. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+* **URL pagina mirror**: URL della pagina mirror dell&#39;e-mail inviata/aperta/su cui è stato fatto clic/non recapitata. Il periodo di scadenza della pagina mirror e-mail può essere modificato nella schermata di configurazione dell’attività del canale e-mail di Campaign corrispondente. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
->Per la rinuncia, quando un attributo di rinuncia viene modificato in Microsoft Dynamics 365, verrà riflesso in Campaign se hai selezionato la **Unidirezionale (da Campaign a Microsoft Dynamics 365)** o **Bidirezionale** la configurazione di rinuncia e se quel particolare attributo è mappato correttamente.
+>Per la rinuncia, quando un attributo di rinuncia viene modificato in Microsoft Dynamics 365, questo si rifletterà in Campaign se hai selezionato la configurazione di rinuncia **Unidirezionale (Campaign to Microsoft Dynamics 365)** o **Bidirezionale** e se tale attributo è stato mappato correttamente.
 
 ## Flussi di dati {#data-flows}
 
@@ -111,7 +111,7 @@ L’attributo externalId della tabella di profilo di Campaign deve essere compil
 
 #### Entità personalizzate
 
-Il [Integrazione con Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) supporta le entità personalizzate, consentendo la sincronizzazione di entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
+L&#39;integrazione [Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) supporta entità personalizzate, consentendo la sincronizzazione delle entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
 
 I nuovi dati nelle risorse personalizzate possono essere utilizzati per diversi scopi, tra cui segmentazione e personalizzazione.
 
@@ -128,13 +128,13 @@ Durante la configurazione dei flussi di dati di entità personalizzate, è impor
 * Per i flussi di dati di entità personalizzate, il rilevamento delle modifiche deve essere abilitato in Dynamics 365 per le entità personalizzate sincronizzate.
 * Se un record padre e un record figlio collegato vengono creati quasi contemporaneamente in Dynamics 365, a causa dell’elaborazione parallela dell’integrazione, esiste una leggera possibilità che un nuovo record figlio possa essere scritto in Campaign prima del relativo record padre.
 
-* Se l&#39;elemento padre e l&#39;elemento figlio sono collegati sul lato campagna utilizzando **Collegamento semplice con cardinalità 1** , il record secondario rimarrà nascosto e inaccessibile (tramite l’interfaccia utente o l’API) fino a quando il record principale non arriva in Campaign.
+* Se l&#39;elemento padre e l&#39;elemento figlio sono collegati sul lato Campaign utilizzando l&#39;opzione **1 cardinality simple link**, il record figlio rimarrà nascosto e inaccessibile (tramite interfaccia utente o API) fino a quando non arriva in Campaign.
 
-* (supponendo che **Collegamento semplice con cardinalità 1** in Campaign) Se il record secondario viene aggiornato o eliminato in Dynamics 365 e tale modifica viene scritta in Campaign prima che il record principale venga visualizzato in Campaign (probabilmente, ma è una possibilità remota), tale aggiornamento o eliminazione non verrà elaborato in Campaign e verrà generato un errore. In caso di aggiornamento, il record in questione dovrà essere aggiornato nuovamente in Dynamics 365 per sincronizzare il record aggiornato. In caso di eliminazione, il record in questione dovrà essere gestito separatamente dal lato Campaign, in quanto non esiste più un record in Dynamics 365 da eliminare o aggiornare.
+* (Presupponendo il collegamento semplice con cardinalità **1** in Campaign) Se il record figlio viene aggiornato o eliminato in Dynamics 365 e la modifica viene scritta in Campaign prima che il record padre venga visualizzato in Campaign (probabilmente, ma è una possibilità remota), tale aggiornamento o eliminazione non verrà elaborato in Campaign e verrà generato un errore. In caso di aggiornamento, il record in questione dovrà essere aggiornato nuovamente in Dynamics 365 per sincronizzare il record aggiornato. In caso di eliminazione, il record in questione dovrà essere gestito separatamente dal lato Campaign, in quanto non esiste più un record in Dynamics 365 da eliminare o aggiornare.
 
-* Se ci si imbatte in una situazione in cui si ritiene di disporre di record secondari nascosti e non è possibile accedervi, è possibile modificare temporaneamente il tipo di collegamento cardinalità in **Collegamento semplice con cardinalità 0 o 1** per accedere a tali documenti.
+* Se ci si imbatte in una situazione in cui si ritiene di disporre di record secondari nascosti e non è possibile accedervi, è possibile modificare temporaneamente il tipo di collegamento di cardinalità in **0 o 1 collegamento semplice di cardinalità** per accedere a tali record.
 
-È disponibile una panoramica più completa delle risorse personalizzate di Campaign [in questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
+Una panoramica più completa delle risorse personalizzate di Campaign è disponibile [in questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
 
 ### Flusso degli eventi di e-mail marketing{#email-marketing-event-flow}
 
@@ -157,24 +157,24 @@ In Dynamics 365 vengono visualizzati i seguenti attributi di evento:
 
 ### Flusso di rinuncia {#opt-out-flow}
 
-I valori di rinuncia (ad es., inserisce nell&#39;elenco Bloccati di) sono sincronizzati tra i sistemi; puoi scegliere tra le seguenti opzioni durante l’onboarding:
+I valori di rinuncia (ad esempio, inserisce nell&#39;elenco Bloccati di) sono sincronizzati tra i sistemi; puoi scegliere tra le seguenti opzioni durante l’onboarding:
 
 * **Unidirezionale (da Microsoft Dynamics 365 a Campaign)**: Dynamics 365 è la fonte di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Dynamics 365 a Campaign Standard&quot;
-* **Unidirezionale (da Campaign a Microsoft Dynamics 365)**: Campaign Standard è la fonte di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Campaign Standard a Dynamics 365
-* **Bidirezionale**: Dynamics 365 E Campaign Standard sono entrambe fonti di verità. Gli attributi di rinuncia verranno sincronizzati bidirezionalmente tra Campaign Standard e Dynamics 365
+* **Unidirezionale (campagna a Microsoft Dynamics 365)**: Campaign Standard è l&#39;origine di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Campaign Standard a Dynamics 365
+* **Bidirezionale**: Dynamics 365 AND Campaign Standard sono entrambe origini di verità. Gli attributi di rinuncia verranno sincronizzati bidirezionalmente tra Campaign Standard e Dynamics 365
 
 In alternativa, se disponi di un processo separato per gestire la sincronizzazione delle rinunce tra i sistemi, il flusso di dati di rinuncia dell’integrazione può essere disabilitato.
 
 >[!NOTE]
 >
->Nell’interfaccia utente dell’applicazione di integrazione, il **Unidirezionale (da Microsoft Dynamics 365 a Campaign)** e **Bidirezionale** i casi di utilizzo di rinuncia sono configurati in un flusso di lavoro di rinuncia separato. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+>Nell&#39;interfaccia utente dell&#39;applicazione di integrazione, i casi d&#39;uso **Unidirezionale (da Microsoft Dynamics 365 a Campaign)** e **Bidirezionale** di rinuncia sono configurati in un flusso di lavoro di rinuncia separato. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
->Il **Unidirezionale (da Campaign a Microsoft Dynamics 365)** il caso di utilizzo della rinuncia è un’eccezione; è configurato all’interno del flusso di lavoro in ingresso (Contatto con profilo).
+>Il caso di utilizzo della rinuncia **unidirezionale (da Campaign a Microsoft Dynamics 365)** è un&#39;eccezione ed è configurato nel flusso di lavoro Invio (Contatto al profilo).
 >
 
 La mappatura del flusso di rinuncia deve essere specificata dal cliente, in quanto i requisiti di business possono variare tra le aziende. Sul lato Campaign, per la mappatura della rinuncia è possibile utilizzare solo gli attributi di rinuncia inclusi:
 
-* inserisco nell&#39;elenco Bloccati
+* INSERISCO NELL&#39;ELENCO BLOCCATI DI
 * denyListEmail
 * denyListFax
 * denyListMobile

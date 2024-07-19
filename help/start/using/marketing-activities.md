@@ -42,14 +42,14 @@ Il pulsante **[!UICONTROL Create]** può essere utilizzato per creare una nuova 
 
 Nella zona principale, ogni tipo di attività nell’elenco è dotata di un’icona:
 
-* ![](assets/marketing_program_icon.png) Programma
-* ![](assets/marketing_campaign_icon.png) Campagna
-* ![](assets/marketing_email_icon.png) E-mail
+* Programma ![](assets/marketing_program_icon.png)
+* ![](assets/marketing_campaign_icon.png) campagna
+* E-mail ![](assets/marketing_email_icon.png)
 * ![](assets/marketing_sms_icon.png) SMS
-* ![](assets/marketing_push_icon.png) Notifica push
-* ![](assets/marketing_lp_icon.png) Messaggio in-app
-* ![](assets/marketing_lp_icon.png) Pagina di destinazione
-* ![](assets/marketing_workflow_icon.png) Flusso di lavoro
+* ![](assets/marketing_push_icon.png) notifica push
+* ![](assets/marketing_lp_icon.png) messaggio in-app
+* Pagina di destinazione ![](assets/marketing_lp_icon.png)
+* Flusso di lavoro ![](assets/marketing_workflow_icon.png)
 
 A seconda del periodo di validità e dello stato, il colore associato a questa icona indica lo stato di esecuzione dell’attività corrispondente.
 
@@ -81,14 +81,14 @@ I programmi e le campagne sono illustrati nella sezione [Programmi e campagne](.
 
 A seconda del contesto, è possibile:
 
-* Creare un messaggio e-mail - [Ulteriori informazioni](../../channels/using/creating-an-email.md)
-* Creare un SMS - [Ulteriori informazioni](../../channels/using/creating-an-sms-message.md)
-* Creare una notifica push - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md)
-* Creare un messaggio in-app - [Ulteriori informazioni](../../channels/using/about-in-app-messaging.md)
-* Creare un flusso di lavoro - [Ulteriori informazioni](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* Creare una pagina di destinazione - [Ulteriori informazioni](../../channels/using/getting-started-with-landing-pages.md)
-* Creare una campagna - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* Creare un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Crea un&#39;e-mail - [Ulteriori informazioni](../../channels/using/creating-an-email.md)
+* Crea un SMS - [Ulteriori informazioni](../../channels/using/creating-an-sms-message.md)
+* Crea una notifica push - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Crea un messaggio in-app - [Ulteriori informazioni](../../channels/using/about-in-app-messaging.md)
+* Crea un flusso di lavoro - [Ulteriori informazioni](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Crea una pagina di destinazione - [Ulteriori informazioni](../../channels/using/getting-started-with-landing-pages.md)
+* Crea una campagna - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Crea un programma - [Ulteriori informazioni](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

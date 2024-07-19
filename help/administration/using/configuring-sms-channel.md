@@ -23,7 +23,7 @@ I passaggi per creare e modificare un account esterno sono descritti in dettagli
 
 >[!IMPORTANT]
 >
->L’utilizzo dello stesso account e della stessa password per più account SMS esterni può causare conflitti e sovrapposizioni tra gli account. Consulta la sezione [Pagina Risoluzione dei problemi di SMS](troubleshooting-sms.md#external-account-conflict).
+>L’utilizzo dello stesso account e della stessa password per più account SMS esterni può causare conflitti e sovrapposizioni tra gli account. Consulta la [pagina per la risoluzione dei problemi SMS](troubleshooting-sms.md#external-account-conflict).
 
 L’account esterno **[!UICONTROL SMS routing via SMPP]** viene fornito per impostazione predefinita, ma può essere utile aggiungere altri account.
 
@@ -329,15 +329,15 @@ I parametri specifici per l’invio di messaggi SMS sono raggruppati nelle sezio
 
 ![](assets/sms_options.png)
 
-Dalla sezione **[!UICONTROL Advanced parameters]** sezione:
+Dalla sezione **[!UICONTROL Advanced parameters]**:
 
-* Il **[!UICONTROL Short code]** consente di aggiungere alla consegna un codice breve specifico. I destinatari che hanno rinunciato a questo specifico codice breve verranno automaticamente esclusi durante la preparazione del messaggio. Per ulteriori informazioni su come configurare il codice breve, consulta [questa sezione](../../channels/using/managing-incoming-sms.md).
+* **[!UICONTROL Short code]** ti consente di aggiungere un codice breve specifico alla consegna. I destinatari che hanno rinunciato a questo specifico codice breve verranno automaticamente esclusi durante la preparazione del messaggio. Per ulteriori informazioni su come configurare il codice breve, consulta [questa sezione](../../channels/using/managing-incoming-sms.md).
 
   >[!NOTE]
   >
-  >Se il **[!UICONTROL Short code]** viene lasciato vuoto, il valore della proprietà **[!UICONTROL Short code]** verrà utilizzato il campo impostato nell’account esterno.
+  >Se il campo **[!UICONTROL Short code]** viene lasciato vuoto, verrà utilizzato il valore del campo **[!UICONTROL Short code]** impostato nell&#39;account esterno.
 
-Dalla sezione **[!UICONTROL Send]** sezione di un modello SMS:
+Dalla sezione **[!UICONTROL Send]** di un modello SMS:
 
 * L’opzione **[!UICONTROL Maximum number of SMS per message]** ti consente di definire il numero di messaggi SMS da utilizzare per inviare un messaggio. Se questo numero viene superato, il messaggio non viene inviato.
 

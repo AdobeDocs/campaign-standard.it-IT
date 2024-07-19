@@ -28,7 +28,7 @@ Prima di inviare una consegna, è necessario assicurarsi che i destinatari ricev
 
 Questo passaggio ti consente di rilevare eventuali errori e correggerli prima di consegnarli al target principale.
 
-Vengono presentati i passaggi per la convalida di una consegna [in questa sezione](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+I passaggi per la convalida di una consegna sono descritti [in questa sezione](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## Rendering di e-mail {#email-rendering}
 
@@ -36,7 +36,7 @@ Prima di premere il pulsante **[!UICONTROL Send]**, accertati che il messaggio v
 
 Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende disponibile in un report dedicato. Ciò ti permette di visualizzare in anteprima il messaggio inviato nei vari contesti in cui potrebbe essere ricevuto.
 
-**Suggerimenti**:
+**suggerimenti**:
 
 * Puoi visualizzare il messaggio inviato nei diversi contesti in cui può essere ricevuto: posta sul web, servizio messaggi, dispositivi mobili, ecc.
 
@@ -54,7 +54,7 @@ Per ulteriori informazioni, consulta [questa sezione](../../sending/using/sendin
 
 Se disponi di diversi contenuti per una consegna e-mail, puoi utilizzare il test A/B per individuare la versione che avrà l’impatto maggiore sulla popolazione target.
 
-**Suggerimenti**:
+**suggerimenti**:
 
 * Inviare le diverse versioni ad alcuni destinatari
 

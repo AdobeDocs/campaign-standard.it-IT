@@ -23,7 +23,7 @@ In Adobe Campaign, utilizzi profili per impostazione predefinita per definire la
 >
 >Puoi creare profili anche tramite l’API di Adobe Campaign Standard. Per ulteriori informazioni, consulta la [documentazione dedicata](../../api/using/creating-profiles-api.md).
 
-![](assets/do-not-localize/how-to-video.png) [Scopri come importare profili utilizzando un flusso di lavoro nel video](#video)
+![](assets/do-not-localize/how-to-video.png) [Scopri come importare i profili utilizzando un flusso di lavoro nel video](#video)
 
 Per creare o aggiornare un profilo in Campaign, puoi:
 
@@ -56,7 +56,7 @@ Ad esempio, per creare un nuovo profilo direttamente dall’interfaccia utente, 
 
    * La categoria **[!UICONTROL No longer contact]** viene aggiornata dopo che il profilo ha annullato l’abbonamento a un canale.
    * La categoria **[!UICONTROL Address]** contiene l’indirizzo postale che deve essere compilato insieme all’opzione **[!UICONTROL Address specified]** per inviare [direct mailing](../../channels/using/about-direct-mail.md) a questo profilo. Se l’opzione **[!UICONTROL Address specified]** non è selezionata, questo profilo viene escluso da tutte le consegne di direct mailing.
-   * Il **[!UICONTROL Access authorization]** categoria indica le unità organizzative del profilo a cui [gestire le autorizzazioni](../../administration/using/about-access-management.md). Per aggiungere i campi organizzativi ai profili, consulta la sezione [Profili di partizione](../../administration/using/organizational-units.md#partitioning-profiles).
+   * La categoria **[!UICONTROL Access authorization]** indica le unità organizzative del profilo per [gestire le autorizzazioni](../../administration/using/about-access-management.md). Per aggiungere i campi organizzativi ai profili, consulta la sezione [Profili di partizione](../../administration/using/organizational-units.md#partitioning-profiles).
    * La categoria **[!UICONTROL Traceability]** viene aggiornata automaticamente con le informazioni relative all’utente che ha creato o modificato il profilo.
 
 1. Fai clic su **[!UICONTROL Create]** per salvare il profilo.
@@ -72,4 +72,4 @@ Questo video mostra come importare i profili con un flusso di lavoro.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

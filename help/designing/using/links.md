@@ -25,22 +25,22 @@ Puoi inserire un collegamento in qualsiasi elemento della pagina: immagine, paro
 
 >[!NOTE]
 >
->Le immagini seguenti mostrano come inserire un collegamento utilizzando [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md) in un messaggio e-mail.
+>Nelle immagini seguenti viene illustrato come inserire un collegamento utilizzando [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md) in un messaggio e-mail.
 
-1. Seleziona un elemento e fai clic su **[!UICONTROL Insert link]** dalla barra degli strumenti contestuale.
+1. Selezionare un elemento e fare clic su **[!UICONTROL Insert link]** nella barra degli strumenti contestuale.
 
    ![](assets/des_insert_link.png)
 
 1. Scegli il tipo di collegamento da creare:
 
-   * **Collegamento esterno**: inserisci un collegamento a un URL esterno.
+   * **Collegamento esterno**: inserire un collegamento a un URL esterno.
 
      Puoi definire la personalizzazione per i tuoi URL. Consulta [Personalizzazione degli URL](personalization.md#personalizing-urls).
 
    * **Pagina di destinazione**: consente di accedere a una pagina di destinazione di Adobe Campaign.
-   * **Collegamento di abbonamento**: inserisci un collegamento per abbonarti a un servizio Adobe Campaign.
-   * **Collegamento per annullare l’iscrizione**: inserisci un collegamento per annullare l’abbonamento a un servizio Adobe Campaign.
-   * **Collegamento che definisce un’azione**: definisci un’azione quando si fa clic su un elemento nella pagina di destinazione.
+   * **Collegamento di abbonamento**: inserisci un collegamento per effettuare l&#39;abbonamento a un servizio Adobe Campaign.
+   * **Collegamento per annullare l&#39;abbonamento**: inserisci un collegamento per annullare l&#39;abbonamento a un servizio Adobe Campaign.
+   * **Collegamento che definisce un&#39;azione**: definisce un&#39;azione quando si fa clic su un elemento nella pagina di destinazione.
 
      >[!NOTE]
      >
@@ -59,13 +59,13 @@ Una volta creato il collegamento, puoi comunque modificarlo dal riquadro Imposta
 
 ![](assets/des_link_edit.png)
 
-Durante la modifica di un’e-mail con [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md), puoi accedere facilmente ai collegamenti creati dalla tabella in cui sono elencati tutti gli URL inclusi nell’e-mail e modificarli. Questo elenco ti consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, consulta [Informazioni sugli URL tracciati](#about-tracked-urls).
+Quando modifichi un&#39;e-mail con [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md), puoi facilmente accedere e modificare i collegamenti creati dalla tabella in cui sono elencati tutti gli URL inclusi nell&#39;e-mail. Questo elenco ti consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail. Per accedervi, vedi [Informazioni sugli URL tracciati](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->URL personalizzati come **URL pagina mirror** o **Annullamento iscrizione** non può essere modificato da questo elenco. Tutti gli altri collegamenti sono modificabili.
+>Gli URL personalizzati come **URL pagina mirror** o **collegamento per annullare l&#39;abbonamento** non possono essere modificati da questo elenco. Tutti gli altri collegamenti sono modificabili.
 
 **Argomenti correlati**:
 
@@ -77,7 +77,7 @@ Durante la modifica di un’e-mail con [E-mail Designer](../../designing/using/d
 
 Adobe Campaign consente di tenere traccia del comportamento dei destinatari che fanno clic su un URL incluso in un’e-mail. Per ulteriori informazioni sul tracciamento, consulta [questa sezione](../../sending/using/tracking-messages.md#about-tracking).
 
-Il **[!UICONTROL Links]** nella barra delle azioni visualizza automaticamente l’elenco di tutti gli URL del contenuto che verranno tracciati.
+L&#39;icona **[!UICONTROL Links]** nella barra delle azioni visualizza automaticamente l&#39;elenco di tutti gli URL del contenuto che verranno tracciati.
 
 ![](assets/des_links.png)
 
@@ -92,9 +92,9 @@ L’URL, la categoria, l’etichetta e il tipo di tracciamento di ciascun colleg
 Per ogni URL tracciato, puoi impostare la modalità di tracciamento su uno dei seguenti valori:
 
 * **Tracciato**: attiva il tracciamento su questo URL.
-* **Pagina mirror**: considera questo URL come un URL della pagina speculare.
+* **Pagina mirror**: considera questo URL come un URL di pagina mirror.
 * **Mai**: non attiva mai il tracciamento di questo URL. Queste informazioni vengono salvate: se l’URL viene nuovamente visualizzato in un messaggio futuro, il suo tracciamento viene disattivato automaticamente.
-* **Rinuncia**: considera questo URL come URL di rinuncia o di annullamento dell’abbonamento.
+* **Rinuncia**: considera questo URL come URL di rinuncia o di annullamento dell&#39;abbonamento.
 
 ![](assets/des_link_tracking_type.png)
 
@@ -102,14 +102,14 @@ Puoi anche disattivare o attivare il tracciamento per ogni URL.
 
 >[!NOTE]
 >
->Per impostazione predefinita, in Adobe Campaign, tutti gli URL di contenuto vengono tracciati ad eccezione di **URL pagina mirror** e **Annullamento iscrizione** collegamento.
+>Per impostazione predefinita, in Adobe Campaign, tutti gli URL di contenuto vengono tracciati tranne **URL pagina mirror** e **collegamento di annullamento sottoscrizione**.
 
-Puoi raggruppare gli URL modificando il file **[!UICONTROL Category]** a seconda degli URL utilizzati nel messaggio. Queste categorie possono essere visualizzate nei rapporti, ad esempio in [URL e flussi di clic](../../reporting/using/urls-and-click-streams.md).
+È possibile raggruppare gli URL modificando il campo **[!UICONTROL Category]**, a seconda degli URL utilizzati nel messaggio. Queste categorie possono essere visualizzate nei rapporti, ad esempio in [URL e flussi di clic](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Durante la creazione di un rapporto, da **[!UICONTROL Components]** , seleziona **[!UICONTROL Dimension]** e scorri verso il basso nell’elenco per accedere ai componenti di tracciamento. Ad esempio, trascina **[!UICONTROL Tracking URL Category]** nell’area di lavoro per visualizzare i risultati in base alla categoria di tracciamento di ciascun URL su cui è stato fatto clic.
+Durante la creazione di un report, dalla scheda **[!UICONTROL Components]**, selezionare **[!UICONTROL Dimension]** e scorrere l&#39;elenco per accedere ai componenti di tracciamento. Ad esempio, trascina **[!UICONTROL Tracking URL Category]** nell&#39;area di lavoro per visualizzare i risultati in base alla categoria di tracciamento di ciascun URL su cui hai fatto clic.
 
 ![](assets/des_link_tracking_report.png)
 
-Per ulteriori informazioni sulla creazione di rapporti personalizzati, consulta [questa sezione](../../reporting/using/about-dynamic-reports.md).
+Per ulteriori informazioni sulla creazione di report personalizzati, consulta [questa sezione](../../reporting/using/about-dynamic-reports.md).

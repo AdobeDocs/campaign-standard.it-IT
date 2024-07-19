@@ -17,11 +17,11 @@ ht-degree: 6%
 
 # Gestione dell’opt-out CCPA {#managing-ccpa-optout}
 
-Lo stato di rinuncia CCPA di un profilo può essere monitorato e gestito utilizzando **ccpaOptOut** l’attributo di profilo e i valori &quot;true&quot; o &quot;false&quot;:
+Lo stato di rinuncia CCPA di un profilo può essere monitorato e gestito utilizzando l&#39;attributo di profilo **ccpaOptOut** e i valori &quot;true&quot; o &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
-* **true**: vieta la vendita di informazioni personali.
+* **true**: impedisce la vendita di informazioni personali.
 * **false**: autorizza la vendita di informazioni personali.
 
 <!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.

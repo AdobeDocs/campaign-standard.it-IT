@@ -34,26 +34,26 @@ Gli utenti Admin possono inoltre sfruttare il Pannello di controllo Campaign Cam
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-Le diverse operazioni di amministrazione di Adobe Campaign vengono eseguite tramite **[!UICONTROL Administration]** menu accessibile facendo clic sul logo Adobe Campaign nell’angolo in alto a sinistra. Questa parte dell’interfaccia è accessibile solo dagli amministratori funzionali della piattaforma.
+Le diverse operazioni di amministrazione di Adobe Campaign vengono eseguite tramite il menu **[!UICONTROL Administration]** accessibile facendo clic sul logo Adobe Campaign nell&#39;angolo in alto a sinistra. Questa parte dell’interfaccia è accessibile solo dagli amministratori funzionali della piattaforma.
 
 I diversi menu disponibili sono:
 
-* [Utenti e sicurezza](../../administration/using/about-access-management.md): questo menu ti consente di gestire l’accesso alla piattaforma (utenti, ruoli, gruppi di sicurezza, unità).
-* [Canali](../../administration/using/about-channel-configuration.md): questo menu raggruppa i parametri tecnici collegati ai diversi canali della piattaforma (e-mail, dispositivi mobili), nonché la gestione della tipologia e della quarantena.
-* [Impostazioni applicazione](../../administration/using/external-accounts.md): questo menu consente di configurare diversi elementi dell’applicazione (account esterni, opzioni, flussi di lavoro tecnici).
-* [Sviluppo](../../developing/using/data-model-concepts.md): questo menu ti consente di gestire le risorse personalizzate e di accedere agli strumenti diagnostici.
-* [Impostazioni delle istanze](../../administration/using/branding.md): in questo menu puoi definire i vari brand e configurarne le impostazioni (logo, gestione del tracciamento, URL del per accedere alle pagine di destinazione, ecc.).
+* [Utenti e sicurezza](../../administration/using/about-access-management.md): questo menu ti consente di gestire l&#39;accesso alla piattaforma (utenti, ruoli, gruppi di sicurezza, unità).
+* [Canali](../../administration/using/about-channel-configuration.md): questo menu raggruppa i parametri tecnici collegati ai diversi canali della piattaforma (e-mail, dispositivi mobili), nonché alla gestione della tipologia e della quarantena.
+* [Impostazioni applicazione](../../administration/using/external-accounts.md): questo menu consente di configurare diversi elementi dell&#39;applicazione (account esterni, opzioni, flussi di lavoro tecnici).
+* [Sviluppo](../../developing/using/data-model-concepts.md): questo menu ti consente di gestire le risorse personalizzate e di accedere agli strumenti di diagnostica.
+* [Impostazioni istanza](../../administration/using/branding.md): in questo menu puoi definire i diversi brand e configurarne le impostazioni (logo, gestione del tracciamento, URL di accesso alle pagine di destinazione, ecc.).
 * [Distribuzione](../../automating/using/managing-packages.md): questo menu raggruppa le opzioni di importazione ed esportazione del pacchetto.
 * [Metriche cliente](../../audiences/using/active-profiles.md): Adobe Campaign fornisce un rapporto che mostra il numero di profili attivi. Questo report è solo informativo, non ha un impatto diretto sulla fatturazione.
-* [Strumenti per la privacy](../../start/using/privacy-management.md): questo menu consente di creare le richieste di accesso e di cancellazione del RGPD e di tracciarne l’evoluzione.
+* [Strumenti per la privacy](../../start/using/privacy-management.md): questo menu ti consente di creare l&#39;accesso RGPD e di eliminare le richieste e di tenere traccia della loro evoluzione.
 
 ## Utenti e sicurezza {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Invita gli utenti ad accedere all’applicazione e a gestire **gruppi di sicurezza**: set di utenti che condividono gli stessi ruoli e diritti all’interno dell’organizzazione. Per impostazione predefinita, Adobe Campaign offre una serie di **ruoli** che ti consente di definire autorizzazioni unitarie assegnate a utenti e gruppi di utenti. Combinato con **unità organizzative**, i ruoli forniscono agli utenti una visualizzazione filtrata dell’interfaccia e ne definiscono l’accesso alle diverse funzioni.
+Invita gli utenti ad accedere all&#39;applicazione e a gestire **gruppi di sicurezza**, ovvero insiemi di utenti che condividono gli stessi ruoli e diritti all&#39;interno dell&#39;organizzazione. Per impostazione predefinita, Adobe Campaign offre un set di **ruoli** che ti consente di definire autorizzazioni unitarie assegnate a utenti e gruppi di utenti. In combinazione con **unità organizzative**, i ruoli forniscono agli utenti una visualizzazione filtrata dell&#39;interfaccia e ne definiscono l&#39;accesso alle diverse funzionalità.
 
-Campaign standard consente inoltre di monitorare le informazioni relative alla sicurezza. È possibile recuperare informazioni relative alle esportazioni di dati eseguite dagli utenti tramite **[!UICONTROL Export audits]** e sfrutta **[!UICONTROL Licenses]** Questa schermata consente di monitorare tutte le licenze di Campaign installate all’interno dell’organizzazione, nonché diverse informazioni quali il numero di build, la versione e i termini dell’accordo.
+Campaign standard consente inoltre di monitorare le informazioni relative alla sicurezza. È possibile recuperare le informazioni relative alle esportazioni di dati eseguite dagli utenti tramite la schermata **[!UICONTROL Export audits]** e utilizzare la schermata **[!UICONTROL Licenses]** per monitorare tutte le licenze di Campaign installate all&#39;interno dell&#39;organizzazione, nonché informazioni diverse come il numero di build, la versione del rilascio e i termini del contratto.
 
 Ulteriori informazioni:
 
@@ -68,11 +68,11 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Tutti i canali di comunicazione in Adobe Campaign devono essere configurati correttamente per poter inviare messaggi in modo efficace.,La **[!UICONTROL Channel]**  consente di gestire i parametri tecnici collegati ai diversi canali.
+Tutti i canali di comunicazione in Adobe Campaign devono essere configurati correttamente per poter inviare messaggi in modo efficace. Il menu **[!UICONTROL Channel]** ti consente di gestire i parametri tecnici collegati ai diversi canali.
 
-Configurare vari **email** parametri: regole di elaborazione per mancati recapiti, quarantene, proprietà e-mail e parametri di indirizzamento, regole di tipo. Definire le configurazioni e le proprietà di indirizzamento per **SMS** , nonché la codifica e i formati di SMS.
+Configura vari parametri **email**: regole di elaborazione per mancati recapiti, quarantene, proprietà e parametri di indirizzamento e regole di tipo. Definisci le configurazioni e le proprietà di indirizzamento per il canale **SMS**, nonché la codifica e i formati di SMS.
 
-Configurazione **applicazioni mobili** per poter inviare messaggi in-app e notifiche push tramite gli SDK di Adobe Experience Platform.
+Configura **applicazioni mobili** per poter inviare messaggi in-app e notifiche push tramite gli SDK di Adobe Experience Platform.
 
 Ulteriori informazioni:
 
@@ -87,9 +87,9 @@ Ulteriori informazioni:
 
 Campaign Standard viene fornito con diversi elementi dell’applicazione che possono essere configurati in base alle tue esigenze.
 
-Configurazione **account esterni**, utilizzati per collegare Adobe Campaign a server esterni. Accedi alle mappature di Campaign Standard Target e monitora la tua piattaforma utilizzando **flussi di lavoro tecnici**.
+Configura **account esterni**, utilizzati per connettere Adobe Campaign a server esterni. Accedi alle mappature di destinazione di Campaign Standard e monitora la tua piattaforma utilizzando **flussi di lavoro tecnici**.
 
-Definisci uno o più **marchi** per la tua organizzazione e configurare l’invio di **notifiche in tempo reale** all’interno dell’applicazione in caso di attività di sistema importanti.
+Definisci uno o più **marchi** per la tua organizzazione e configura l&#39;invio di **notifiche in tempo reale** all&#39;interno dell&#39;applicazione in caso di attività importanti del sistema.
 
 Ulteriori informazioni:
 

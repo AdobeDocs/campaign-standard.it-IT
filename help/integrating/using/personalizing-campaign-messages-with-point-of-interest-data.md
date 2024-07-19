@@ -19,31 +19,31 @@ ht-degree: 9%
 
 In Adobe Campaign, puoi utilizzare i dati dei punti di interesse raccolti dagli abbonati all’app mobile per inviare loro messaggi di marketing personalizzati, ad esempio un’e-mail.
 
-Puoi reagire solo ai dati dei punti di interesse con le consegne standard. [Messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md) non può utilizzare i dati relativi alla posizione.
+Puoi reagire solo ai dati dei punti di interesse con le consegne standard. [I messaggi transazionali](../../channels/using/getting-started-with-transactional-msg.md) non possono utilizzare i dati relativi alla posizione.
 
 La prima reazione che puoi fare è di circa 10 minuti.
 
 In questo caso, decidi di inviare un’e-mail a tutti gli abbonati che hanno visitato il tuo store di Boston nelle ultime due settimane.
 
 1. Creare un’attività di e-mail marketing.
-1. Quando definisci il pubblico della consegna, trascina e rilascia la **[!UICONTROL Subscriptions to an application]** nel workspace.
+1. Durante la definizione del pubblico della consegna, trascina e rilascia l&#39;elemento **[!UICONTROL Subscriptions to an application]** nell&#39;area di lavoro.
 
    ![](assets/poi_subscriptions_app.png)
 
-   La gestione dei tipi di pubblico è descritta in [Definizione dei tipi di pubblico](../../audiences/using/creating-audiences.md) sezione.
+   La gestione dei tipi di pubblico è descritta nella sezione [Definizione dei tipi di pubblico](../../audiences/using/creating-audiences.md).
 
-1. In **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** , trascina e rilascia la **[!UICONTROL POI Location Subscription]** nel workspace.
+1. Nella finestra **[!UICONTROL Add a rule - Profile/Subscriptions to an application]**, trascinare e rilasciare l&#39;elemento **[!UICONTROL POI Location Subscription]** nell&#39;area di lavoro.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. In **[!UICONTROL Add a rule - POI Location Subscription]** immettere l&#39;etichetta del punto di interesse che si desidera utilizzare.
+1. Nella finestra **[!UICONTROL Add a rule - POI Location Subscription]** immettere l&#39;etichetta del punto di interesse che si desidera utilizzare.
 
    ![](assets/poi_location_subscription.png)
 
 1. Nel campo **[!UICONTROL Filter type]** seleziona **[!UICONTROL Relative]**.
-1. Controlla la **[!UICONTROL Preceding days]** e immettere **[!UICONTROL 15]** nel campo corrispondente.
+1. Selezionare l&#39;opzione **[!UICONTROL Preceding days]** e immettere **[!UICONTROL 15]** nel campo corrispondente.
 1. Definisci il numero di volte in cui l’utente deve aver visitato il punto di interesse.
-1. Clic **[!UICONTROL Confirm]** per salvare il pubblico.
+1. Fai clic su **[!UICONTROL Confirm]** per salvare il pubblico.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 

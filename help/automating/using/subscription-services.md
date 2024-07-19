@@ -1,5 +1,5 @@
 ---
-title: Subscription Services
+title: Servizi di iscrizione
 description: L’attività Subscription Services ti consente di prendere profili in massa e abbonarli a un servizio o annullarne l’abbonamento.
 audience: automating
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ---
 
-# Attività Subscription services {#subscription-services}
+# Servizi di iscrizione {#subscription-services}
 
 ## Descrizione {#description}
 

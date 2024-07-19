@@ -36,9 +36,9 @@ Prima di utilizzare le API, la mappatura dei dati deve essere stata configurata 
 
 Una volta creata la mappatura dati, devi interromperne l’esecuzione in modo da poterla attivare dalle API in qualsiasi momento. Per farlo, segui questi passaggi:
 
-1. In Campaign Standard, vai a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+1. In Campaign Standard, vai al menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**.
 
-1. Fai doppio clic sulla mappatura dei dati per aprirla, quindi fai clic sul pulsante **[!UICONTROL Stop]** pulsante.
+1. Fare doppio clic sul mapping dei dati per aprirlo, quindi fare clic sul pulsante **[!UICONTROL Stop]**.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -54,7 +54,7 @@ L’acquisizione immediata di una mappatura XDM in Adobe Experience Platform vie
 
 >[!NOTE]
 >
->Per eseguire la chiamata API di ingest POST, l’utente deve disporre di un’ **Esecuzione funzione SQL** ruolo, che può essere fornito da un amministratore Campaign Standard eseguendo il comando seguente JS Script:
+>Per eseguire la chiamata API di ingest POST, l&#39;utente deve avere un ruolo **Esecuzione funzione SQL**, che può essere fornito da un amministratore Campaign Standard eseguendo lo script JS seguente:
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -108,13 +108,13 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Informazioni dettagliate sullo stato della richiesta di mappatura XDM e dei relativi processi sono disponibili nell’interfaccia di Campaign Standard, nel **[!UICONTROL Status of data export to platform]** menu (vedere [Attivazione mappatura](../../integrating/using/aep-mapping-activation.md)).
+>Informazioni dettagliate sullo stato della richiesta di mappatura XDM e dei relativi processi sono disponibili nell&#39;interfaccia Campaign Standard, nel menu **[!UICONTROL Status of data export to platform]** (vedi [Attivazione mappatura](../../integrating/using/aep-mapping-activation.md)).
 
 L&#39;operazione di GET restituisce le informazioni seguenti:
 
-* **batchId**: questo campo viene compilato solo se si è verificato un errore dopo la preparazione e il caricamento del batch,
+* **batchId**: questo campo viene popolato solo se si è verificato un errore dopo la preparazione e il caricamento del batch,
 * **info**: ID mappatura XDM,
-* **numRecord**: numero di record che sono stati acquisiti (solo stato di successo),
+* **numRecords**: il numero di record che sono stati acquisiti (solo stato di completamento),
 * **stato**: stato della richiesta di acquisizione (riuscita/non riuscita/in corso)
 
 Le possibili risposte all’operazione di GET sono:

@@ -53,7 +53,7 @@ Devi anche disporre di un sito web funzionante.
 >
 >La configurazione del sottodominio è un elemento chiave del recapito messaggi. Assicurati che le e-mail di Adobe Campaign siano inviate dallo stesso dominio utilizzato dal sito web.
 
-Devi configurare [Servizio core Experience Cloud DTM](#configuring-experience-cloud-dtm-core-service), [Servizio core Persone Experience Cloud](#configuring-experience-cloud-people-core-service) e [Campagna](#configuring-triggers-and-aliases-in-campaign) per eseguire questi casi d’uso.
+Devi configurare [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) e [Campaign](#configuring-triggers-and-aliases-in-campaign) per eseguire questi casi d&#39;uso.
 
 ### Configurazione del servizio core Experience Cloud DTM {#configuring-experience-cloud-dtm-core-service}
 
@@ -77,17 +77,17 @@ L’alias a cui si fa riferimento in precedenza in DTM deve essere creato nel se
 
 ### Configurazione di trigger e alias in Campaign {#configuring-triggers-and-aliases-in-campaign}
 
-1. Assicurati di avere **[!UICONTROL Experience Cloud triggers]** visibile nell’istanza di Adobe Campaign Standard. In caso contrario, contatta gli amministratori di Adobe Campaign.
+1. Verifica che **[!UICONTROL Experience Cloud triggers]** sia visibile nell&#39;istanza Adobe Campaign Standard. In caso contrario, contatta gli amministratori di Adobe Campaign.
 
    ![](assets/remarketing_1.png)
 
-1. Gli alias consentono di riconciliare un contatto in Analytics con un profilo in Campaign. Devi far corrispondere gli alias definiti nel servizio ID Experience Cloud con un’origine dati condivisa in Campaign. È necessario configurare la risoluzione degli alias in Adobe Campaign tramite un’origine dati ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Assicurati di scegliere l’origine dati corretta nella sezione **[!UICONTROL Data Source/Alias]** menu a discesa, mappato con la stessa origine dati Attributi del cliente creata nel passaggio precedente.
+1. Gli alias consentono di riconciliare un contatto in Analytics con un profilo in Campaign. Devi far corrispondere gli alias definiti nel servizio ID Experience Cloud con un Source di dati condivisi in Campaign. È necessario configurare la risoluzione degli alias in Adobe Campaign tramite un&#39;origine dati ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Accertarsi di scegliere l&#39;origine dati corretta nel menu a discesa **[!UICONTROL Data Source/Alias]**, mappato con la stessa origine dati Attributi del cliente creata nel passaggio precedente.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >Puoi riconciliare i trigger per gli utenti anonimi e per quelli connessi. Per gli utenti anonimi, il profilo deve esistere in Adobe Campaign e un’e-mail è stata inviata prima all’utente. Per questo, è sufficiente la configurazione dell’ID visitatore. Tuttavia, se desideri riconciliare i trigger per gli utenti connessi, devi impostare Origine dati ID dichiarato. Per ulteriori informazioni, consulta [Configurazione origine dati](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Puoi riconciliare i trigger per gli utenti anonimi e per quelli connessi. Per gli utenti anonimi, il profilo deve esistere in Adobe Campaign e un’e-mail è stata inviata prima all’utente. Per questo, è sufficiente la configurazione dell’ID visitatore. Tuttavia, se desideri riconciliare i trigger per gli utenti connessi, devi impostare Declared ID Data Source. Per ulteriori informazioni, consulta [Configurazione di Data Source](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Creazione di un trigger nell’interfaccia Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ L’alias a cui si fa riferimento in precedenza in DTM deve essere creato nel se
 
 Crea un nuovo trigger in Experience Cloud e accertati di selezionare la suite di rapporti utilizzata sul tuo sito web. Assicurati di scegliere la dimensione giusta in modo che il trigger si attivi.
 
-Consulta la sezione [Documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+Consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## Best practice e limitazioni relative agli attivatori {#triggers-best-practices-and-limitations}
 

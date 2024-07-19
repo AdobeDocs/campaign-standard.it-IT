@@ -36,13 +36,13 @@ Gestisci le autorizzazioni e il consenso dei clienti utilizzando i servizi e le 
 
 Quando crei campagne o messaggi, puoi specificare la destinazione delle consegne selezionando i contatti dal database di Campaign, utilizzando criteri semplici o avanzati, oppure selezionando i tipi di pubblico.
 
-Identificare i clienti in modo più efficace su tutti i canali utilizzando **Integrated customer profiles**, **segmenti personalizzati** e **gruppi di controllo**. Quando conosci i tuoi clienti, i tuoi interessi, i dati demografici e le preferenze di canale, è più semplice creare esperienze personalizzate che vengono notate.
+Identifica i clienti in modo più efficace su tutti i tuoi canali utilizzando **profili cliente integrati**, **segmenti personalizzati** e **gruppi di controllo**. Quando conosci i tuoi clienti, i tuoi interessi, i dati demografici e le preferenze di canale, è più semplice creare esperienze personalizzate che vengono notate.
 
 Adobe Campaign crea profili cliente avanzati in tempo reale, consentendoti di fornire offerte più pertinenti e personalizzate in base alle modifiche apportate alle preferenze del cliente. Inoltre, Adobe Campaign integra funzionalità avanzate di analisi, gestione dei dati e targeting per creare tipi di pubblico.
 
-**Profili** sono singoli contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie per eseguire il targeting, la qualificazione e la tracciabilità individuale di quel profilo: Adobe Campaign può tracciare ogni interazione da canali online e offline e unirla in un unico profilo.
+**I profili** sono singoli contatti memorizzati nel database. Ogni profilo corrisponde a una voce nel database che contiene le informazioni necessarie per eseguire il targeting, la qualificazione e la tracciabilità individuale di quel profilo: Adobe Campaign può tracciare ogni interazione da canali online e offline e unirla in un unico profilo.
 
-**Tipi di pubblico** sono elenchi di profili basati su un criterio specifico o su un insieme di criteri. Utilizzando i flussi di lavoro e l’editor delle query, puoi creare tipi di pubblico target delle campagne di marketing, in base alle informazioni a disposizione, alle attività e alla cronologia di marketing. Questo ti consente di filtrare i profili abbonati, campionare o creare tipi di pubblico target in base a un numero illimitato di criteri.
+**I tipi di pubblico** sono elenchi di profili basati su un criterio o un insieme di criteri specifici. Utilizzando i flussi di lavoro e l’editor delle query, puoi creare tipi di pubblico target delle campagne di marketing, in base alle informazioni a disposizione, alle attività e alla cronologia di marketing. Questo ti consente di filtrare i profili abbonati, campionare o creare tipi di pubblico target in base a un numero illimitato di criteri.
 
 Ulteriori informazioni:
 
@@ -60,13 +60,13 @@ Ulteriori informazioni:
 
 Prima di iniziare a inviare messaggi a un contatto, è necessario assicurarsi di ottenere le relative autorizzazioni. In caso contrario, le e-mail potrebbero essere contrassegnate come spam e questo influirà sul recapito messaggi della piattaforma. Per assicurarti di creare un database dei profili integro, devi prima proteggere questa autorizzazione.
 
-Con Campaign, ti consigliamo di utilizzare **meccanismi di consenso e rinuncia facili** da a [servizi](../../audiences/using/creating-a-service.md), e [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md) per aggiornare le informazioni di contatto e ampliare il database.
+Con Campaign, ti consigliamo di utilizzare **semplici meccanismi di consenso e rinuncia** tramite [servizi](../../audiences/using/creating-a-service.md) e [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md) per aggiornare le informazioni di contatto e ampliare il database.
 
-Fornitura **collegamenti di annullamento abbonamento** nei messaggi consentirà l’aggiunta di Profili al inserisco nell&#39;elenco Bloccati di, quando necessario, e quindi di migliorare il recapito messaggi nella piattaforma. Per ulteriori informazioni sulla gestione del inserisco nell&#39;elenco Bloccati di lavoro, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fornendo **collegamenti per l&#39;annullamento dell&#39;abbonamento** nei messaggi sarà possibile aggiungere profili al inserisco nell&#39;elenco Bloccati di aggiornamento, quando necessario, e quindi migliorare il recapito messaggi della piattaforma. Per ulteriori informazioni sulla gestione dei inserisce nell&#39;elenco Bloccati di, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->È necessario rispettare le [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>È necessario rispettare i [criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 Ulteriori informazioni:
 
@@ -77,9 +77,9 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign offre una serie di strumenti per aiutarti con le tue **Conformità in materia di privacy** per GDPR, CCPA e altre leggi sulla privacy.
+Adobe Campaign offre una serie di strumenti per aiutarti con la **Conformità in materia di privacy** per GDPR, CCPA e altre leggi sulla privacy.
 
-Ulteriori informazioni [questo articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla gestione della privacy e sulle funzioni fornite per gestire il diritto di accesso, il diritto all’oblio, il consenso, la conservazione dei dati e i ruoli degli utenti.
+Ulteriori informazioni in questo [articolo](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html) sulla gestione della privacy e sulle funzionalità fornite per gestire il diritto di accesso, il diritto all&#39;oblio, il consenso, la conservazione dei dati e i ruoli degli utenti.
 
 La privacy e il consenso in Campaign e come gestirli sono presentati in [questa sezione](../../start/using/privacy.md). Troverai anche le best practice, per aiutarti con la conformità in materia di privacy quando utilizzi il nostro servizio.
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Creazione di un servizio con API{#creating-a-service-api}
 
-La creazione di servizi viene eseguita con **POST** richiesta sulla risorsa del servizio.
+Creazione di servizi eseguita con una richiesta **POST** nella risorsa del servizio.
 
 Se desideri creare il servizio con attributi specifici, aggiungili al payload. In caso contrario, il nuovo servizio verrà creato con quelli predefiniti.
 

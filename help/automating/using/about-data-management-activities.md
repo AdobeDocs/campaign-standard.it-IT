@@ -30,6 +30,6 @@ La sezione **[!UICONTROL Data management (ETL)]** include le seguenti attività:
 * [Attività Transfer file](../../automating/using/transfer-file.md)
 * [Riconciliazione](../../automating/using/reconciliation.md)
 * [Attività Extract file](../../automating/using/extract-file.md)
-* [Attività Subscription services](../../automating/using/subscription-services.md)
+* [Servizi di iscrizione](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** attività ti consente di definire **codici di segmento** per le loro transizioni in uscita. Puoi quindi creare report basati su questi codici di segmento per misurare l’efficienza delle campagne di marketing. Per ulteriori informazioni, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).
+Le attività **[!UICONTROL Data management (ETL)]** ti consentono di definire **codici di segmento** per le loro transizioni in uscita. Puoi quindi creare report basati su questi codici di segmento per misurare l’efficienza delle campagne di marketing. Per ulteriori informazioni, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).

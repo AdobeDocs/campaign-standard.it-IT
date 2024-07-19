@@ -15,25 +15,26 @@ ht-degree: 1%
 
 # Domande frequenti sulla sincronizzazione dei tag in Adobe Experience Platform {#syncwithlaunch-faq}
 
-Puoi importare le proprietà dei tag mobili in Adobe Campaign Standard tramite **[!UICONTROL Sync with Launch]** flusso di lavoro tecnico dedicato. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/technical-workflows.md)
+Puoi importare le proprietà mobili dei tag in Adobe Campaign Standard tramite il flusso di lavoro tecnico dedicato **[!UICONTROL Sync with Launch]**. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/technical-workflows.md)
 
 Nella sezione seguente sono elencate le domande più frequenti sulla sincronizzazione.
 
 ## Ho creato una proprietà tag (che non è un amministratore di ALL per l’unità organizzativa). La mia applicazione si trova nello stato Pronto per la configurazione in Adobe Campaign, ma non sono in grado di aprirla/configurarla. {#configuring-property}
 
-Solo l’amministratore dell’unità organizzativa ALL può configurare le applicazioni mobili in Adobe Campaign Standard. Una volta configurata, solo gli utenti dell’unità organizzativa assegnata possono modificare l’applicazione. Per ulteriori informazioni sull’unità organizzativa, consulta questa [pagina](../../administration/using/organizational-units.md).
+Solo l’amministratore dell’unità organizzativa ALL può configurare le applicazioni mobili in Adobe Campaign Standard. Una volta configurata, solo gli utenti dell’unità organizzativa assegnata possono modificare
+applicazione. Per ulteriori informazioni sull&#39;unità organizzativa, consulta questa [pagina](../../administration/using/organizational-units.md).
 
 ## Non sono in grado di modificare un’app mobile configurata in Adobe Campaign Standard e le app mobili sono solo in modalità di lettura. {#read-mode-mobile-app}
 
-Controlla l’unità organizzativa dell’app mobile in **[!UICONTROL Access Authorization]** sezione. Solo gli utenti dell’unità organizzativa assegnata possono modificare l’app mobile.
+Controllare l&#39;unità organizzativa dell&#39;app mobile nella sezione **[!UICONTROL Access Authorization]**. Solo gli utenti dell’unità organizzativa assegnata possono modificare l’app mobile.
 
-Per ulteriori informazioni sull’unità organizzativa, consulta questa [pagina](../../administration/using/organizational-units.md).
+Per ulteriori informazioni sull&#39;unità organizzativa, consulta questa [pagina](../../administration/using/organizational-units.md).
 
 ## Sono un amministratore con unità organizzativa ALL in Adobe Campaign Standard, ma non posso configurare l’app mobile. {#org-unit-mobile}
 
 Un amministratore con l’unità organizzativa impostata su ALL deve disporre dei diritti per tutte le proprietà mobili dei tag per configurare l’app mobile.
 
-Per ulteriori informazioni sull’unità organizzativa, consulta questa [pagina](../../administration/using/organizational-units.md).
+Per ulteriori informazioni sull&#39;unità organizzativa, consulta questa [pagina](../../administration/using/organizational-units.md).
 
 ## Ho creato una proprietà mobile di tag, ma la mia proprietà non è visibile in Adobe Campaign Standard. {#visibility-mobile-property}
 
@@ -43,13 +44,13 @@ Per ulteriori informazioni sull’unità organizzativa, consulta questa [pagina]
 
 1. Verifica che &quot;Launch_URL_Campaign&quot; o &quot;NmsServer_URL&quot; siano corretti.
 
-1. Quindi, verifica che la sincronizzazione sia completata con **[!UICONTROL syncWithLaunch]** flusso di lavoro tecnico.
+1. Verificare quindi che la sincronizzazione sia stata completata con il flusso di lavoro tecnico **[!UICONTROL syncWithLaunch]**.
 
 ## Come verificare se la sincronizzazione tra Adobe Campaign e i tag in Adobe Experience Platform è stata completata? {#sync-campaign-launch}
 
-1. In Adobe Campaign Standard, dal menu avanzato, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. In Adobe Campaign Standard, dal menu avanzato, selezionare **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
-1. Apri **[!UICONTROL syncWithLaunch]** flusso di lavoro.
+1. Apri il flusso di lavoro **[!UICONTROL syncWithLaunch]**.
 
 1. Controlla se il flusso di lavoro è terminato senza errori.
 
@@ -69,14 +70,14 @@ Per ulteriori informazioni sull’unità organizzativa, consulta questa [pagina]
 
 1. Salva e riesegui la sincronizzazione del flusso di lavoro.
 
-1. Solo allora la proprietà apparirà in **[!UICONTROL Ready to Configure]** in Adobe Campaign e ora può essere configurato.
+1. Solo in questo caso la proprietà verrà visualizzata nello stato **[!UICONTROL Ready to Configure]** in Adobe Campaign e può essere configurata.
 
 ## Desidero configurare una proprietà mobile in Adobe Campaign. Dovrò attendere che il flusso di lavoro tecnico venga sincronizzato tra i tag in Adobe Experience Platform e Adobe Campaign?
 
 Puoi eseguire l’esecuzione immediata del flusso di lavoro:
 
-1. In Adobe Campaign Standard, dal menu avanzato, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. In Adobe Campaign Standard, dal menu avanzato, selezionare **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 
-1. Apri **[!UICONTROL syncWithLaunch]** flusso di lavoro.
+1. Apri il flusso di lavoro **[!UICONTROL syncWithLaunch]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Scheduler]** attività e selezione **[!UICONTROL Immediate execution]**.
+1. Fai clic sull&#39;attività **[!UICONTROL Scheduler]** e seleziona **[!UICONTROL Immediate execution]**.

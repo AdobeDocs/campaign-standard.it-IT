@@ -26,23 +26,23 @@ Attualmente, in Adobe Campaign Standard, gli utenti senza il gruppo di sicurezza
 
 Abbiamo implementato i seguenti miglioramenti al controllo dell’accesso alla messaggistica transazionale:
 
-* Una nuova **[!UICONTROL Role]**, chiamato **Utente MC**, è stato aggiunto per consentire agli utenti non amministratori di gestire la configurazione degli eventi transazionali. Il **Utente MC** Questo ruolo consente a questi utenti di accedere a eventi e messaggi transazionali, crearli, pubblicarli e annullarne la pubblicazione.
+* È stato aggiunto un nuovo **[!UICONTROL Role]**, denominato **utente MC**, per consentire agli utenti non amministratori di gestire la configurazione degli eventi transazionali. Il ruolo **utente MC** consente a questi utenti di accedere, creare, pubblicare e annullare la pubblicazione di eventi e messaggi transazionali.
 
-* Le consegne di esecuzione (ovvero i messaggi tecnici creati ogni volta che un messaggio sulle transazioni viene modificato e pubblicato nuovamente o una volta al mese per impostazione predefinita) ora sono impostate su **[!UICONTROL Organizational unit]** del gruppo di sicurezza a cui appartiene l’utente che crea l’evento, anziché essere limitato al **[!UICONTROL Organizational unit]** del **Agente del Centro messaggi (mcExec)** gruppo di sicurezza.
+* Le consegne di esecuzione (ovvero i messaggi tecnici creati ogni volta che un messaggio transazionale viene modificato e pubblicato di nuovo o una volta al mese per impostazione predefinita) sono ora impostate sul **[!UICONTROL Organizational unit]** del gruppo di sicurezza a cui appartiene l&#39;utente che crea l&#39;evento, anziché essere limitate al **[!UICONTROL Organizational unit]** del gruppo di sicurezza **agente del Centro messaggi (mcExec)**.
 
-* **Amministratori** ora è possibile duplicare gli eventi transazionali pubblicati, oltre che gli utenti con **Utente MC** ruolo, a condizione che si trovino nello stesso **Unità organizzativa** hierarchy come utente che ha creato l&#39;evento.
+* **Gli amministratori** possono ora duplicare gli eventi transazionali pubblicati, così come gli utenti con il ruolo **utente MC** a condizione che si trovino nella stessa gerarchia di **unità organizzativa** dell&#39;utente che ha creato l&#39;evento.
 
 ## Assegnare il ruolo utente MC {#assign-role}
 
-Per assegnare **Utente MC** ruolo al gruppo di sicurezza:
+Per assegnare il ruolo **utente MC** al gruppo di sicurezza:
 
-1. Crea un nuovo **[!UICONTROL Security group]** o aggiornarne uno esistente. [Ulteriori informazioni](../../administration/using/managing-groups-and-users.md).
+1. Crea un nuovo **[!UICONTROL Security group]** o aggiornane uno esistente. [Ulteriori informazioni](../../administration/using/managing-groups-and-users.md).
 
-1. Clic **[!UICONTROL Create element]** per assegnare ruoli al gruppo di sicurezza.
+1. Fai clic su **[!UICONTROL Create element]** per assegnare ruoli al gruppo di sicurezza.
 
    ![](assets/event_access_1.png)
 
-1. Selezionare l&#39;utente MC **[!UICONTROL Role]** e fai clic su **[!UICONTROL Confirm]**.
+1. Selezionare l&#39;utente MC **[!UICONTROL Role]** e fare clic su **[!UICONTROL Confirm]**.
 
    >[!IMPORTANT]
    >
@@ -50,29 +50,29 @@ Per assegnare **Utente MC** ruolo al gruppo di sicurezza:
 
    ![](assets/event_access_2.png)
 
-1. Una volta configurata, fai clic su **[!UICONTROL Save]**.
+1. Una volta configurata, fare clic su **[!UICONTROL Save]**.
 
-Utenti collegati a questo **[!UICONTROL Security group]** ora può accedere, creare e pubblicare eventi e messaggi transazionali.
+Gli utenti collegati a **[!UICONTROL Security group]** ora possono accedere, creare e pubblicare eventi e messaggi transazionali.
 
 ## Assegnare il gruppo di protezione utente MC {#assign-group}
 
-1. Nell’Admin Console, seleziona la **Prodotti** scheda.
+1. Nell&#39;Admin Console, seleziona la scheda **Prodotti**.
 
-1. Seleziona **Adobe Campaign Standard** quindi scegli l’istanza.
+1. Seleziona **Adobe Campaign Standard**, quindi scegli l&#39;istanza.
 
-1. Dalla sezione **Profili di prodotto** , seleziona la **Utente MC** gruppo.
+1. Dall&#39;elenco dei **profili di prodotto**, selezionare il gruppo **utente MC**.
 
-1. Clic **Aggiungi utente** e inserisci il nome, il gruppo di utenti o l’indirizzo e-mail del profilo che desideri aggiungere a questo profilo di prodotto.
+1. Fai clic su **Aggiungi utente** e immetti il nome, il gruppo di utenti o l&#39;indirizzo e-mail del profilo che desideri aggiungere a questo profilo di prodotto.
 
 1. Una volta aggiunto, fai clic su **Salva**.
 
-Utenti aggiunti a questo **[!UICONTROL Security group]** ora può accedere, creare e pubblicare eventi e messaggi transazionali.
+Gli utenti aggiunti a **[!UICONTROL Security group]** ora possono accedere, creare e pubblicare eventi e messaggi transazionali.
 
 ## Eventi transazionali duplicati {#duplicate-transactional-events}
 
-Un utente con **Amministratore** gruppo di sicurezza<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> può ora duplicare una configurazione di evento se l’evento è stato **pubblicato**.
+Un utente con il gruppo di sicurezza **Amministratore**<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> può ora duplicare una configurazione di evento se l&#39;evento è stato **pubblicato**.
 
-Inoltre, gli utenti non amministratori con **Utente MC** role può ora accedere alle configurazioni degli eventi, ma la loro autorizzazione per la duplicazione è determinata dal **Unità organizzativa** appartengono a. Se l’utente corrente e l’utente che ha creato l’evento appartengono alla stessa gerarchia di unità organizzative, è consentita la duplicazione.
+Inoltre, gli utenti non amministratori con il ruolo **utente MC** possono ora accedere alle configurazioni degli eventi, ma la loro autorizzazione per la duplicazione è determinata dalla **unità organizzativa** a cui appartengono. Se l’utente corrente e l’utente che ha creato l’evento appartengono alla stessa gerarchia di unità organizzative, è consentita la duplicazione.
 
 Ad esempio, se un utente appartenente all’unità organizzativa &quot;France Sales&quot; crea una configurazione evento:
 
@@ -82,9 +82,9 @@ Ad esempio, se un utente appartenente all’unità organizzativa &quot;France Sa
 
 Per duplicare una configurazione di evento, segui la procedura riportata di seguito.
 
-1. Fai clic su **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 
-1. Passa il mouse sulla configurazione dell’evento pubblicato desiderata e seleziona l’opzione **[!UICONTROL Duplicate element]** pulsante.
+1. Passa il mouse sulla configurazione dell&#39;evento pubblicato desiderata e seleziona il pulsante **[!UICONTROL Duplicate element]**.
 
    ![](assets/message-center_duplicate-button.png)
 
@@ -92,15 +92,15 @@ Per duplicare una configurazione di evento, segui la procedura riportata di segu
    >
    >Non puoi duplicare una configurazione di evento che non è pubblicata. [Ulteriori informazioni](publishing-transactional-event.md)
 
-1. Viene visualizzato automaticamente l’evento duplicato. Contiene la stessa configurazione definita per l’evento originale, ma presenta **[!UICONTROL Draft]** stato.
+1. Viene visualizzato automaticamente l’evento duplicato. Contiene la stessa configurazione definita per l&#39;evento originale, ma ha lo stato **[!UICONTROL Draft]**.
 
    ![](assets/message-center_duplicated-draft-event.png)
 
-1. Il messaggio transazionale corrispondente viene creato automaticamente. Per accedervi, vai a **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Il messaggio transazionale corrispondente viene creato automaticamente. Per accedervi, passa a **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_duplicated-message.png)
 
-1. Apri il messaggio appena duplicato. Contiene la stessa struttura definita per il messaggio originale, ma presenta **[!UICONTROL Draft]** anche se il messaggio sulle transazioni originale è stato pubblicato.
+1. Apri il messaggio appena duplicato. Contiene la stessa struttura definita per il messaggio originale, ma ha lo stato **[!UICONTROL Draft]**, anche se il messaggio transazionale originale è stato pubblicato.
 
    ![](assets/message-center_duplicated-draft-message.png)
 
@@ -112,10 +112,10 @@ La tabella seguente illustra l&#39;impatto di questi miglioramenti:
 
 | Oggetti | Prima di questa modifica | Dopo questa modifica |
 |:-: | :--: | :-:|
-| Eventi transazionali | Solo gli utenti all’interno di **Amministratore** il gruppo di sicurezza può creare e pubblicare eventi. | Il **Utente MC** Il ruolo consente agli utenti di creare e pubblicare eventi. |
-| Messaggi transazionali | I messaggi transazionali sono impostati su **Unità organizzativa** del **Agente del Centro messaggi (mcExec)** gruppo di sicurezza. | I messaggi transazionali sono impostati su **Unità organizzativa** del gruppo di sicurezza a cui appartiene l’utente che crea l’evento/messaggio transazionale. |
-| Consegne di esecuzione | Le consegne di esecuzione sono impostate su **Unità organizzativa** del **Agente del Centro messaggi (mcExec)** gruppo di sicurezza. | Le consegne di esecuzione sono impostate su **Unità organizzativa** del gruppo di sicurezza a cui appartiene l’utente che crea l’evento/messaggio transazionale. |
-| Eventi transazionali pubblicati | La duplicazione non è possibile per nessun utente. | <ul><li>Utenti con **Amministratore** il gruppo di sicurezza può duplicare gli eventi pubblicati.</li> <li>Utenti con **Utente MC** Il ruolo può duplicare gli eventi pubblicati a condizione che si trovino nello stesso **Unità organizzativa** hierarchy come utente che ha creato l&#39;evento.</li></ul> |
+| Eventi transazionali | Solo gli utenti del gruppo di sicurezza **Amministratore** possono creare e pubblicare eventi. | Il ruolo **utente MC** consente agli utenti di creare e pubblicare eventi. |
+| Messaggi transazionali | I messaggi transazionali sono impostati sull&#39;**unità organizzativa** del gruppo di sicurezza **agente del Centro messaggi (mcExec)**. | I messaggi transazionali sono impostati sull&#39;**unità organizzativa** del gruppo di sicurezza a cui appartiene l&#39;utente che crea l&#39;evento/messaggio transazionale. |
+| Consegne di esecuzione | Le consegne di esecuzione sono impostate sull&#39;**unità organizzativa** del gruppo di sicurezza **agente del Centro messaggi (mcExec)**. | Le consegne di esecuzione sono impostate sull&#39;**unità organizzativa** del gruppo di sicurezza a cui appartiene l&#39;utente che crea l&#39;evento/messaggio transazionale. |
+| Eventi transazionali pubblicati | La duplicazione non è possibile per nessun utente. | <ul><li>Gli utenti con il gruppo di sicurezza **Amministratore** possono duplicare gli eventi pubblicati.</li> <li>Gli utenti con il ruolo **utente MC** possono duplicare gli eventi pubblicati purché si trovino nella stessa gerarchia di **unità organizzativa** dell&#39;utente che ha creato l&#39;evento.</li></ul> |
 
 
 <!--Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.-->

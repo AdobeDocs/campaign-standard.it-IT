@@ -120,7 +120,7 @@ Se sei soddisfatto del funzionamento della pagina di destinazione, puoi pubblica
 
 Per ulteriori informazioni su come verificare una pagina di destinazione, consulta [questa sezione](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Passaggio 5: pubblicare la pagina di destinazione {#publish-the-landing-page}
+## Passaggio 5: Publish della pagina di destinazione {#publish-the-landing-page}
 
 Se i test hanno avuto esito positivo, puoi pubblicare la pagina di destinazione utilizzando il pulsante **[!UICONTROL Publish]** presente nella barra delle azioni del dashboard. Un blocco di monitoraggio mostra l’avanzamento e lo stato della pubblicazione.
 
@@ -138,4 +138,4 @@ Questo video mostra come creare e modificare una pagina di destinazione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

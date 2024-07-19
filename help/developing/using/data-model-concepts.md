@@ -42,4 +42,4 @@ Puoi **esportare e importare** risorse personalizzate, ad esempio da un ambiente
 
 >[!CAUTION]
 >
->Solo funzionale [amministratori](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** ruolo e accesso a **Tutti** Le unità possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente che non è amministratore può eseguire il targeting di questi registri ma a partire da una tabella collegata (profili, consegna).
+>Solo gli [amministratori](../../administration/using/users-management.md#functional-administrators) funzionali, con ruolo **[!UICONTROL Administration]** e accesso a **Tutte** le unità possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente che non è amministratore può eseguire il targeting di questi registri ma a partire da una tabella collegata (profili, consegna).

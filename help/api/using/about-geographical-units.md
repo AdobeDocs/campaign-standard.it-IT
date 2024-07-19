@@ -20,8 +20,8 @@ ht-degree: 0%
 >
 >Di conseguenza, a partire dalla versione 18.7 di non sarà possibile implementare questa funzionalità né per le nuove istanze di Campaign Standard né per quelle esistenti senza unità geografiche create.
 >
->Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">Funzioni obsolete</a> pagina.
+>Per ulteriori informazioni, consulta la pagina <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">Funzioni obsolete</a>.
 
-Il **geoUnitBase** L’endpoint consente di interagire con le unità geografiche, ad esempio per aggiornarne gli attributi o l’unità di un profilo.
+L&#39;endpoint **geoUnitBase** consente di interagire con le unità geografiche, ad esempio per aggiornare gli attributi o l&#39;unità di un profilo.
 
-Il **Unità geografica** viene aggiunto a un profilo quando si estende la risorsa del profilo. Di conseguenza, ricorda di utilizzare sempre il **profileAndServicesExt** endpoint per interagire con le unità geografiche. Per ulteriori informazioni sull’estensione della risorsa del profilo, consulta [Documentazione di Campaign](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+Il campo **Unità geografica** viene aggiunto a un profilo durante l&#39;estensione della risorsa profilo. Di conseguenza, ricorda di utilizzare sempre l&#39;endpoint **profileAndServicesExt** per interagire con le unità geografiche. Per ulteriori informazioni sull&#39;estensione della risorsa del profilo, consulta la [documentazione di Campaign](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

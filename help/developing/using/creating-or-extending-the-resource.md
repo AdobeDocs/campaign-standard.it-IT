@@ -33,10 +33,10 @@ Se hai bisogno di lavorare su dati che non fanno parte del modello dati integrat
 
 Per creare o estendere una risorsa:
 
-1. Da **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, fare clic su **[!UICONTROL Create]** pulsante.
+1. Da **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**, fare clic sul pulsante **[!UICONTROL Create]**.
 1. Scegliere l&#39;azione da eseguire:
 
-   * **[!UICONTROL Create a new resource]**: immetti il **[!UICONTROL Label]** e **[!UICONTROL ID]** campi. Il campo **[!UICONTROL ID]** è obbligatorio. Se lasci vuoto il campo Etichetta, verrà automaticamente completato dall’ID.
+   * **[!UICONTROL Create a new resource]**: immettere i campi **[!UICONTROL Label]** e **[!UICONTROL ID]**. Il campo **[!UICONTROL ID]** è obbligatorio. Se lasci vuoto il campo Etichetta, verrà automaticamente completato dall’ID.
 
      ![](assets/schema_extension_2.png)
 
@@ -44,10 +44,10 @@ Per creare o estendere una risorsa:
      >
      >Utilizza un massimo di 30 caratteri.
 
-   * **[!UICONTROL Extend an existing resource]**: seleziona la risorsa da estendere.
+   * **[!UICONTROL Extend an existing resource]**: selezionare la risorsa che si desidera estendere.
 
      ![](assets/schema_extension_10.png)
 
-1. Clic **[!UICONTROL Create]** per creare la risorsa, che assumerà quindi il **[!UICONTROL Draft]** stato in caso di nuova risorsa o **[!UICONTROL Editing]** in caso di estensione.
+1. Fare clic su **[!UICONTROL Create]** per creare la risorsa, che assumerà quindi lo stato **[!UICONTROL Draft]** in caso di nuova risorsa o lo stato **[!UICONTROL Editing]** in caso di estensione.
 
-La nuova risorsa viene creata e ora può essere configurata. Per ulteriori informazioni sulla configurazione delle risorse, consulta [Configurazione della struttura dati della risorsa](../../developing/using/configuring-the-resource-s-data-structure.md).
+La nuova risorsa viene creata e ora può essere configurata. Per ulteriori informazioni sulla configurazione della risorsa, consulta [Configurazione della struttura dati della risorsa](../../developing/using/configuring-the-resource-s-data-structure.md).

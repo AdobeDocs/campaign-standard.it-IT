@@ -19,8 +19,8 @@ ht-degree: 22%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Scopri come configurare l’app mobile per le notifiche push </br><a href="#configuration-push">Fai clic qui</a></p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Scopri come configurare l’app mobile per i messaggi in-app </br><a href="#configuring-mobile-app">Fai clic qui</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Scopri come configurare la tua app mobile per le notifiche push </br><a href="#configuration-push">Fai clic qui</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Scopri come configurare la tua app mobile per i messaggi in-app </br><a href="#configuring-mobile-app">Fai clic qui</a></p></td>
 </tr>
 <tr>
 <td><img src="assets/do-not-localize/push2.png" width="60px"><p>Ulteriori informazioni su come creare notifiche push </br><a href="#create-push">Fai clic qui</a></p></td>
@@ -98,7 +98,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
     <div>
     <p><strong>Configurazione delle regole di tag per supportare casi d’uso di Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Fai clic qui</strong></a> per iniziare a creare elementi dati e regole nell’interfaccia utente di Data Collection per inviare dati PII e altri dati dalle app mobili ad Adobe Campaign Standard.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Fai clic qui</strong></a> per iniziare a creare elementi di dati e regole nell'interfaccia utente di Data Collection per inviare dati PII e altri dati da applicazioni mobili ad Adobe Campaign Standard.</p>
     <br>
   </td>
   <td>
@@ -119,7 +119,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
     <div>
     <p><strong>Preparazione e invio di una notifica push</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Scopri qui</strong></a> come preparare la notifica push e quindi come inviarla al pubblico di destinazione.</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Scopri</strong></a> come preparare la notifica push e inviarla al pubblico di destinazione.</p>
     <br>
   </td>
   <td>
@@ -142,7 +142,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
     <div>
     <p><strong>Visualizzare un’immagine da una notifica push di Adobe Campaign Standard</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>Scopri qui</strong></a> come visualizzare un’immagine da una notifica push di Adobe Campaign su un dispositivo iOS.</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>Scopri qui</strong></a> come visualizzare un'immagine da una notifica push di Adobe Campaign su un dispositivo iOS.</p>
     <br>
   </td>
 </tr>
@@ -156,7 +156,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
     <div>
     <p><strong>Preparazione e invio di un messaggio in-app</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Scopri qui</strong></a> come preparare i messaggi in-app e inviarli al pubblico di destinazione.</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Scopri</strong></a> come preparare i messaggi in-app e inviarli al pubblico di destinazione.</p>
     <br>
   </td>
   <td>
@@ -193,7 +193,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
     <div>
     <p><strong>Creazione di un messaggio SMS</strong></p>
     </div>
-    <p>Creare una consegna di SMS è una procedura molto simile a quella per una normale e-mail. </br>I passaggi <a href="../../channels/using/creating-an-sms-message.md"><strong>qui dettagliato</strong></a> descrivi la configurazione specifica di questo canale.</p>
+    <p>Creare una consegna di SMS è una procedura molto simile a quella per una normale e-mail. </br>I passaggi <a href="../../channels/using/creating-an-sms-message.md"><strong>qui dettagliati</strong></a> descrivono la configurazione specifica di questo canale.</p>
     <br>
   </td>
   <td>
@@ -201,7 +201,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
     <p><strong>Personalizzazione di un messaggio SMS
 </strong></p>
     </div>
-    <p>Per ottimizzare la consegna, Adobe Campaign ti consente di accedere a una serie di opzioni avanzate durante la progettazione di un messaggio SMS.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Fai clic qui per ulteriori informazioni.</p>
+    <p>Per ottimizzare la consegna, Adobe Campaign ti consente di accedere a una serie di opzioni avanzate durante la progettazione di un messaggio SMS.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Fare clic qui per ulteriori informazioni.</p>
     <br>
   </td>
 </tr>
@@ -210,7 +210,7 @@ Con Adobe Campaign Standard, puoi inviare consegne su dispositivi mobili tramite
     <div>
     <p><strong>Gestione degli SMS in arrivo</strong></p>
     </div>
-    <p>Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, puoi configurare i messaggi che vengono inviati automaticamente e l’azione da eseguire.Personalizzazione di un tipo di messaggio di notifica locale</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Fai clic qui per ulteriori informazioni.</p>
+    <p>Quando un profilo risponde a un messaggio SMS inviato tramite Campaign, è possibile configurare i messaggi che vengono automaticamente inviati e l'azione da eseguire.Personalizzazione di un tipo di messaggio di notifica locale</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Fare clic qui per ulteriori informazioni.</p>
     <br>
   </td>
   <td>

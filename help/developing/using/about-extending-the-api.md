@@ -21,12 +21,12 @@ Questo caso d’uso descrive la visualizzazione dei campi estesi per i profili d
 
 >[!NOTE]
 >
->Per pubblicare l’API, assicurati di disporre dei **[!UICONTROL Datamodel]** ruolo.
+>Per pubblicare l&#39;API, assicurati di avere il ruolo **[!UICONTROL Datamodel]**.
 
 I passaggi per esporre i campi estesi nell’API pubblica sono i seguenti:
 
 1. [Aggiungere i campi dell’estensione alla risorsa Profilo](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
-1. [Pubblicare l’estensione](../../developing/using/step-2-publish-the-extension.md)
+1. [Publish l’estensione](../../developing/using/step-2-publish-the-extension.md)
 1. [Verifica che i nuovi campi estesi siano disponibili nell’API](../../developing/using/step-3-verify-the-extension.md)
 
 **Argomenti correlati:**

@@ -28,11 +28,11 @@ Con Adobe Campaign puoi definire e gestire le autorizzazioni assegnate a utenti 
 
 Nel menu **[!UICONTROL Administration > Users & Security]**, l’amministratore funzionale della piattaforma può gestire ruoli, gruppi e unità organizzative.
 
-![Menu Gestione utente](assets/user_management_1.png)
+![Menu Gestione utenti](assets/user_management_1.png)
 
-Gli utenti vengono gestiti nell’Admin Console. Per ulteriori informazioni, consulta [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md) e nella sezione [Documentazione di Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html).
+Gli utenti vengono gestiti nell’Admin Console. Ulteriori informazioni sono disponibili nella sezione [Gestione di gruppi e utenti](../../administration/using/managing-groups-and-users.md) e nella [documentazione di Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html).
 
-![Accedere ai profili di prodotto](assets/user_management_6.png)
+![Accedi ai profili di prodotto](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

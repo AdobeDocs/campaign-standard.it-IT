@@ -69,7 +69,7 @@ Nel caso dei visitatori identificati, puoi precaricare i loro dati nella pagina 
 
    ![](assets/lp_parameters_3_temp.png)
 
-Puoi anche autorizzare qualsiasi visitatore ad accedere alla pagina di destinazione utilizzando **[!UICONTROL Authorize unidentified visitors]** opzione.
+È inoltre possibile autorizzare qualsiasi visitatore ad accedere alla pagina di destinazione utilizzando l&#39;opzione **[!UICONTROL Authorize unidentified visitors]**.
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

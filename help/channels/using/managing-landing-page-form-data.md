@@ -22,7 +22,7 @@ Nel contenuto della pagina di destinazione, i campi di input vengono utilizzati 
 
 A questo scopo, questi campi devono essere mappati ai campi del database.
 
-Puoi definirne e gestirne la mappatura tramite il **[!UICONTROL Form data]** nella palette a sinistra.
+Puoi definirne e gestirne la mappatura tramite la sezione **[!UICONTROL Form data]** nella palette a sinistra.
 
 ![](assets/lp_form-data.png)
 
@@ -38,29 +38,29 @@ A questo scopo, segui la procedura indicata di seguito:
    >
    >I campi predefiniti delle pagine di destinazione incorporate sono preconfigurati. Puoi modificarli, se necessario.
 
-1. Accedere a **[!UICONTROL Form data]** nella palette a sinistra.
+1. Accedi alla sezione **[!UICONTROL Form data]** nella palette a sinistra.
 
-1. Per modificare il tipo di campo, selezionare un valore dal campo **[!UICONTROL HTML type of the field]** elenco a discesa.
+1. Per modificare il tipo di campo, selezionare un valore dall&#39;elenco a discesa **[!UICONTROL HTML type of the field]**.
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni sull’utilizzo del tipo di casella di controllo in una pagina di destinazione, consulta [Aggiornare più abbonamenti ai servizi](#multiple-subscriptions) e [Casella di controllo Contratto](#agreement-checkbox) sezioni.
+   >Per ulteriori informazioni sull&#39;utilizzo del tipo di casella di controllo in una pagina di destinazione, vedere le sezioni [Aggiorna più sottoscrizioni di servizi](#multiple-subscriptions) e [Casella di controllo Contratto](#agreement-checkbox).
 
-1. Se si seleziona un tipo di campo non compatibile con il campo del database attualmente selezionato nel **[!UICONTROL Field]** viene visualizzato un messaggio di avvertenza. Per una mappatura ottimale, seleziona un valore appropriato.
+1. Se si seleziona un tipo di campo non compatibile con il campo del database attualmente selezionato nell&#39;area **[!UICONTROL Field]**, verrà visualizzato un messaggio di avviso. Per una mappatura ottimale, seleziona un valore appropriato.
 
    ![](assets/lp_field-type-warning.png)
 
-1. Utilizza il **[!UICONTROL Field]** per selezionare un campo del database che verrà collegato al campo del modulo.
+1. Utilizzare l&#39;area **[!UICONTROL Field]** per selezionare un campo di database che verrà collegato al campo modulo.
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >Le pagine di destinazione possono essere mappate solo con **[!UICONTROL Profiles]** o **[!UICONTROL Service]** risorse.
+   >Le pagine di destinazione possono essere mappate solo con le risorse **[!UICONTROL Profiles]** o **[!UICONTROL Service]**.
 
-   In questo esempio, mappa il **Nome** della pagina di destinazione al **[!UICONTROL Last name]** campo del **[!UICONTROL Profiles]** risorsa.
+   In questo esempio, mappa il campo **Name** della pagina di destinazione con il campo **[!UICONTROL Last name]** della risorsa **[!UICONTROL Profiles]**.
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,7 +70,7 @@ A questo scopo, segui la procedura indicata di seguito:
 
    Se non viene compilato un campo obbligatorio, quando l’utente invia la pagina viene visualizzato un messaggio di errore.
 
-1. Clic **[!UICONTROL Confirm]** per salvare le modifiche.
+1. Fai clic su **[!UICONTROL Confirm]** per salvare le modifiche.
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -84,11 +84,11 @@ Per eseguire questa operazione:
 
    ![](assets/lp_parameters_job.png)
 
-1. Seleziona la **[!UICONTROL Reconciliation key]**: questo campo del database viene utilizzato per determinare se il visitatore dispone di un profilo già noto nel database di Adobe Campaign. Può essere ad esempio e-mail, nome, cognome. La chiave di riconciliazione ti consente di aggiornare o creare un profilo, in base al **[!UICONTROL Update strategy]** parametro definito di seguito.
+1. Seleziona **[!UICONTROL Reconciliation key]**: questo campo del database viene utilizzato per determinare se il visitatore ha un profilo già noto nel database di Adobe Campaign. Può essere ad esempio e-mail, nome, cognome. La chiave di riconciliazione ti consente di aggiornare o creare un profilo, in base al parametro **[!UICONTROL Update strategy]** definito di seguito.
 
 1. Definisci la **[!UICONTROL Form parameter mapping]**: in questa sezione puoi mappare i parametri dei campi della pagina di destinazione e quelli utilizzati nella chiave di riconciliazione.
 
-1. Seleziona la **[!UICONTROL Update strategy]**: se la chiave di riconciliazione recupera un profilo di database esistente, puoi scegliere di aggiornarlo con i dati immessi nel modulo oppure impedirne l’aggiornamento.
+1. Seleziona **[!UICONTROL Update strategy]**: se la chiave di riconciliazione recupera un profilo di database esistente, puoi scegliere di aggiornarlo con i dati immessi nel modulo oppure impedirne l&#39;aggiornamento.
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -100,11 +100,11 @@ A questo scopo, segui la procedura indicata di seguito:
 
 1. Durante la progettazione della pagina di destinazione:
 
-   * Seleziona un blocco e, dalla **[!UICONTROL Form data]** , scegliere **[!UICONTROL Checkbox]** come tipo di campo.
+   * Selezionare un blocco e nella sezione **[!UICONTROL Form data]** scegliere **[!UICONTROL Checkbox]** come tipo di campo.
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Se conosci HTML, puoi anche inserire manualmente una casella di controllo utilizzando **[!UICONTROL Show source]** pulsante.
+   * Se si ha familiarità con HTML, è anche possibile inserire manualmente una casella di controllo utilizzando il pulsante **[!UICONTROL Show source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -112,19 +112,19 @@ A questo scopo, segui la procedura indicata di seguito:
 
      ![](assets/lp_manual-checkbox.png)
 
-1. Assicurati che la casella di controllo sia selezionata nel contenuto. Il **[!UICONTROL Type]** viene visualizzato nell&#39;elenco a discesa **[!UICONTROL Form data]** nella palette a sinistra. Seleziona **[!UICONTROL Service and subscription]** dall&#39;elenco.
+1. Assicurati che la casella di controllo sia selezionata nel contenuto. L&#39;elenco a discesa **[!UICONTROL Type]** viene visualizzato nella sezione **[!UICONTROL Form data]** della tavolozza a sinistra. Selezionare **[!UICONTROL Service and subscription]** dall&#39;elenco.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. Scegli un&#39;opzione dalla **[!UICONTROL Behavior]** elenco a discesa.
+1. Scegliere un&#39;opzione dall&#39;elenco a discesa **[!UICONTROL Behavior]**.
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. Seleziona un [servizio](../../audiences/using/creating-a-service.md) dall’elenco corrispondente.
+1. Selezionare un [servizio](../../audiences/using/creating-a-service.md) dall&#39;elenco corrispondente.
 
    ![](assets/lp_checkbox-service.png)
 
-1. Assicurati che le **[!UICONTROL Mandatory]** è deselezionata. In caso contrario, gli utenti non avranno scelta.
+1. Verificare che l&#39;opzione **[!UICONTROL Mandatory]** sia deselezionata. In caso contrario, gli utenti non avranno scelta.
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -148,11 +148,11 @@ Per inserire e configurare questa casella di controllo, effettuare le seguenti o
 
 1. Durante la progettazione della pagina di destinazione:
 
-   * Seleziona un blocco e, dalla **[!UICONTROL Form data]** , scegliere **[!UICONTROL Checkbox]** come tipo di campo.
+   * Selezionare un blocco e nella sezione **[!UICONTROL Form data]** scegliere **[!UICONTROL Checkbox]** come tipo di campo.
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Se conosci HTML, puoi anche inserire manualmente una casella di controllo utilizzando **[!UICONTROL Show source]** pulsante.
+   * Se si ha familiarità con HTML, è anche possibile inserire manualmente una casella di controllo utilizzando il pulsante **[!UICONTROL Show source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -164,15 +164,15 @@ Per inserire e configurare questa casella di controllo, effettuare le seguenti o
 
    ![](assets/lp_select_checkbox.png)
 
-1. Il **[!UICONTROL Type]** viene visualizzato nell&#39;elenco a discesa **[!UICONTROL Form data]** nella palette a sinistra. Seleziona **[!UICONTROL Agreement]** dall&#39;elenco.
+1. L&#39;elenco a discesa **[!UICONTROL Type]** viene visualizzato nella sezione **[!UICONTROL Form data]** della tavolozza a sinistra. Selezionare **[!UICONTROL Agreement]** dall&#39;elenco.
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Agreement]** non è mappato a un campo del database Campaign.
+   >L&#39;elemento **[!UICONTROL Agreement]** non è mappato a un campo del database Campaign.
 
-1. Fai clic su ![](assets/lp-properties-icon.png) icona accanto a **[!UICONTROL Form data]** per accedere alla casella di controllo proprietà avanzate.
+1. Fare clic sull&#39;icona ![](assets/lp-properties-icon.png) accanto a **[!UICONTROL Form data]** per accedere alle proprietà avanzate della casella di controllo.
 
 1. Se necessario, puoi modificare il messaggio.
 

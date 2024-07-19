@@ -26,7 +26,7 @@ Puoi inviare un’e-mail ogni martedì a tutti i clienti per informare sulle off
 
 ## Creazione di un’attività Scheduler{#creating-a-scheduler-activity}
 
-1. In entrata **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, trascina e rilascia una [Scheduler](../../automating/using/scheduler.md) attività.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, trascinare e rilasciare un&#39;attività [Scheduler](../../automating/using/scheduler.md).
 1. Fai doppio clic sull’attività.
 1. Configura l’esecuzione della consegna.
 1. In **[!UICONTROL Execution frequency]**, seleziona **[!UICONTROL Weekly]**.
@@ -43,7 +43,7 @@ Puoi inviare un’e-mail ogni martedì a tutti i clienti per informare sulle off
 
 ## Creazione di un’attività Query{#creating-a-query-activity}
 
-1. In entrata **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, per selezionare i destinatari, trascina e rilascia una [Query](../../automating/using/query.md) e fare doppio clic su di esso.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, per selezionare i destinatari, trascina e rilascia un&#39;attività [Query](../../automating/using/query.md) e fai doppio clic su di essa.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, trascina e rilascia **[!UICONTROL Email]**.
 1. Seleziona **[!UICONTROL is not empty]** come operatore.
 1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**, aggiungi profili e seleziona **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL No]**.
@@ -53,7 +53,7 @@ Puoi inviare un’e-mail ogni martedì a tutti i clienti per informare sulle off
 
 ## Creazione di una consegna e-mail{#creating-an-email-delivery}
 
-1. In entrata **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, trascina e rilascia una [Consegna e-mail](../../automating/using/email-delivery.md) attività.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, trascina e rilascia un&#39;attività [Email delivery](../../automating/using/email-delivery.md).
 1. Fai clic sull’attività e seleziona ![](assets/edit_darkgrey-24px.png) per modificarla.
 1. Seleziona **[!UICONTROL Recurring email]** e fai clic su **[!UICONTROL Next]**.
 1. Seleziona un modello di e-mail e fai clic su **[!UICONTROL Next]**.

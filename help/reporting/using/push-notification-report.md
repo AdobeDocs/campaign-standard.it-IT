@@ -19,17 +19,17 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Tieni presente che devi trascinare la **[!UICONTROL Message type]** metriche alle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso le consegne di notifiche push.
+>Tieni presente che devi trascinare e rilasciare le metriche **[!UICONTROL Message type]** nelle tabelle per suddividere i dati in base ai tipi di consegna, in questo caso le consegne di notifiche push.
 
-Il **Notifica push** Il rapporto fornisce dettagli sulle prestazioni di marketing delle notifiche push in Adobe Campaign. Questo rapporto predefinito consente di comprendere come gli utenti interagiscono con le notifiche push, le app mobili e le consegne.
+Il report **Notifica push** fornisce dettagli sulle prestazioni di marketing delle notifiche push in Adobe Campaign. Questo rapporto predefinito consente di comprendere come gli utenti interagiscono con le notifiche push, le app mobili e le consegne.
 
-Per implementare il tracciamento push è necessaria una certa configurazione nell’app mobile. Fai riferimento a questo [pagina](../../administration/using/push-tracking.md) per i passaggi dettagliati.
+Per implementare il tracciamento push è necessaria una certa configurazione nell&#39;app mobile. Per i passaggi dettagliati, consulta questa [pagina](../../administration/using/push-tracking.md).
 
 ![](assets/dynamic_report_push.png)
 
 Ogni tabella è rappresentata da numeri e grafici di riepilogo. Puoi modificare la modalità di visualizzazione dei dettagli nelle rispettive impostazioni di visualizzazione.
 
-Prima tabella **Riepilogo coinvolgimento notifiche push** è suddiviso in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
+La prima tabella **Riepilogo coinvolgimento notifiche push** è suddivisa in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per la reattività del destinatario alla consegna:
 
 * **[!UICONTROL Processed/sent]**: numero totale di notifiche push inviate.
 * **[!UICONTROL Delivered]**: numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.
@@ -40,11 +40,11 @@ Prima tabella **Riepilogo coinvolgimento notifiche push** è suddiviso in tre ca
 
 ![](assets/dynamic_report_push_2.png)
 
-La seconda tabella **Notifica push Clic e aperture** è suddiviso in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
+La seconda tabella **Clic e aperture per notifiche push** è suddivisa in tre categorie: per giorno, per app mobile e per consegna. Contiene i dati disponibili per il comportamento del destinatario per consegna:
 
 * **[!UICONTROL Impressions]**: totale delle notifiche push visualizzate dai destinatari.
 * **[!UICONTROL Unique impressions]**: numero di impression per destinatario.
-* **[!UICONTROL Click]**: numero di volte in cui una notifica push è stata recapitata al dispositivo e su cui l’utente ha fatto clic. L’utente desidera visualizzare la notifica, che verrà quindi spostata nel tracciamento push aperto, oppure ignorarla.
+* **[!UICONTROL Click]**: numero di volte in cui una notifica push è stata recapitata al dispositivo e cliccata dall&#39;utente. L’utente desidera visualizzare la notifica, che verrà quindi spostata nel tracciamento push aperto, oppure ignorarla.
 * **[!UICONTROL Unique clicks]**: numero di volte in cui un utente univoco interagisce con la notifica push, ad esempio facendo clic sulla notifica o sul pulsante.
-* **[!UICONTROL Open]**: numero totale di notifiche push inviate al dispositivo e su cui gli utenti hanno fatto clic, con conseguente apertura dell’app. È simile al Clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica viene chiusa.
+* **[!UICONTROL Open]**: numero totale di notifiche push recapitate al dispositivo e su cui gli utenti hanno fatto clic, aprendo in tal modo l&#39;app. È simile al Clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica viene chiusa.
 * **[!UICONTROL Unique Opens]**: numero di destinatari che hanno aperto la consegna.

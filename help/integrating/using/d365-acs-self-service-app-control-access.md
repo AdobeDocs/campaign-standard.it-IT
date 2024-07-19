@@ -30,11 +30,11 @@ In questa sezione imparerai a concedere l’accesso all’integrazione Adobe Cam
 
 >[!IMPORTANT]
 >
-> Questi passaggi richiedono **Amministratore** nell’Experience Cloud per la tua organizzazione.
+> Questi passaggi richiedono il ruolo **Amministratore** nell&#39;Experience Cloud per la tua organizzazione.
 >
 
 1. Passa a https://experience.adobe.com/ e accedi a Adobe Experience Cloud.
-1. Accedere a **Admin Console**.
+1. Accedi all&#39;**Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
@@ -56,15 +56,15 @@ In questa sezione imparerai a concedere l’accesso all’integrazione Adobe Cam
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. Fai clic su **[!UICONTROL New Profile]** e aggiungere una nuova voce denominata: **Campaign Standard - nome-istanza-prod - Integrazione D365/ACS**
+1. Fai clic sul pulsante **[!UICONTROL New Profile]** e aggiungi una nuova voce denominata: **Campaign Standard - nome-istanza-prod - Integrazione D365/ACS**
 
-   * Se vedi questa voce nell’elenco, non è necessario procedere. Fai clic su **Adobe Campaign Standard** nel menu a sinistra e seleziona le altre istanze di Campaign.
+   * Se vedi questa voce nell’elenco, non è necessario procedere. Fai clic su **Adobe Campaign Standard** nel menu a sinistra e controlla le altre istanze di Campaign.
 
    * Assicurati di sostituire &quot;your-prod-instance-name&quot; con il nome effettivo dell’istanza.
 
-1. È possibile lasciare **[!UICONTROL Permission Group]** con il valore predefinito.
+1. È possibile lasciare il menu a discesa **[!UICONTROL Permission Group]** con il valore predefinito.
 
-1. Se le voci sono simili a quelle riportate di seguito, fare clic sul pulsante **[!UICONTROL Done]** pulsante.
+1. Se le voci sono simili alle seguenti, fare clic sul pulsante **[!UICONTROL Done]**.
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
@@ -74,17 +74,17 @@ In questa sezione imparerai a concedere l’accesso all’integrazione Adobe Cam
 
 ## Concedere l’accesso agli utenti {#add-users-to-profile}
 
-Dalla sezione **[!UICONTROL Products]**  , seleziona la tua istanza di Campaign e segui i passaggi seguenti:
+Dalla pagina **[!UICONTROL Products]**, seleziona l’istanza Campaign e segui i passaggi seguenti:
 
-1. Fai clic sul nuovo profilo creato in precedenza:  **Campaign Standard - nome-istanza-prod - Integrazione D365/ACS**
+1. Fai clic sul nuovo profilo creato in precedenza: **Campaign Standard - nome-istanza-prod - Integrazione D365/ACS**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Developers]** scheda.
+1. Fare clic sulla scheda **[!UICONTROL Developers]**.
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Add Developer]** pulsante
+1. Fare clic sul pulsante **[!UICONTROL Add Developer]**
 
 1. Immettere il nome o l&#39;indirizzo di posta elettronica dell&#39;utente che si desidera aggiungere.  Seleziona il risultato che corrisponde all’utente.
 

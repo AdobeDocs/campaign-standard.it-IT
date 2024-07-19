@@ -22,7 +22,7 @@ L’esempio seguente illustra un flusso di lavoro che crea un pubblico di profil
 
 ![](assets/identification_example2.png)
 
-* A [Carica file](../../automating/using/load-file.md) che carica e rileva i dati del file da importare. Il file importato contiene i dati seguenti:
+* Un&#39;attività [Load file](../../automating/using/load-file.md) che carica e rileva i dati del file da importare. Il file importato contiene i dati seguenti:
 
   ```
   lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ L’esempio seguente illustra un flusso di lavoro che crea un pubblico di profil
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) che collega ciascuna colonna del file caricato a una colonna della dimensione del profilo. I record di file che non è possibile identificare (dati mancanti, tipo di dati incompatibile, ecc.) vengono ignorati per preservare l’integrità dei dati di pubblico finali.
+* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md), che collega ogni colonna del file caricato a una colonna della dimensione del profilo. I record di file che non è possibile identificare (dati mancanti, tipo di dati incompatibile, ecc.) vengono ignorati per preservare l’integrità dei dati di pubblico finali.
 
   ![](assets/identification_example1.png)
 
-* A [Salva pubblico](../../automating/using/save-audience.md) che consente di salvare il pubblico di profili.
+* Un&#39;attività [Save audience](../../automating/using/save-audience.md), che consente di salvare il pubblico di profili.
 
   ![](assets/identification_example3.png)

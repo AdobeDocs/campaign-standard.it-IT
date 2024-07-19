@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Il rapporto Hot click presenta esclusivamente la versione HTML dell’e-mail e non supporta la versione Testo.
 
-È possibile accedere a questo report da **[!UICONTROL Reports]** in ogni consegna o messaggio transazionale.
+È possibile accedere a questo report dal pulsante **[!UICONTROL Reports]** in ogni consegna o messaggio transazionale.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -30,7 +30,7 @@ Presenta il contenuto del messaggio con la percentuale di clic su ciascun colleg
 
 ![](assets/delivery_reports_10.png)
 
-Se hai creato contenuto dinamico per la consegna, puoi visualizzare le percentuali per ogni condizione definita. Per ulteriori informazioni sull’inserimento di contenuto condizionale in una consegna, consulta [Definizione del contenuto dinamico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Se hai creato contenuto dinamico per la consegna, puoi visualizzare le percentuali per ogni condizione definita. Per ulteriori informazioni sull&#39;inserimento di contenuto condizionale in una consegna, vedere [Definizione del contenuto dinamico](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Ad esempio, immagina di aver creato una consegna con le seguenti condizioni:
 
@@ -47,9 +47,9 @@ Per visualizzare i clic per le donne, fare clic sul pulsante **[!UICONTROL Chang
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Per visualizzare i clic per i destinatari con più di 25 anni, fai clic sul pulsante **[!UICONTROL Change profile]** e seleziona un profilo di test la cui data di nascita corrisponde a questa condizione.
+Per visualizzare i clic per i destinatari con più di 25 anni, fare clic sul pulsante **[!UICONTROL Change profile]** e selezionare un profilo di test la cui data di nascita corrisponde a questa condizione.
 
-Per ulteriori informazioni sui profili di test, consulta [Informazioni sui profili di test](../../audiences/using/managing-test-profiles.md).
+Per ulteriori informazioni sui profili di test, vedere [Informazioni sui profili di test](../../audiences/using/managing-test-profiles.md).
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Una consegna di esecuzione è un messaggio tecnico non actionable e non funziona
 
   Ad esempio, se il flusso di lavoro che gestisce questa consegna viene eseguito una volta al mese, ci sarà una consegna di esecuzione al mese. Inoltre, ogni volta che il contenuto della consegna viene aggiornato, viene creata un’ulteriore consegna di esecuzione.
 
-  Per ulteriori informazioni sulle consegne ricorrenti di e-mail, consulta [Consegna e-mail](../../automating/using/email-delivery.md).
+  Per ulteriori informazioni sulle consegne e-mail ricorrenti, vedi [Consegna e-mail](../../automating/using/email-delivery.md).
 
 * Per impostazione predefinita, una volta al mese per i messaggi transazionali e ogni volta che un messaggio transazionale viene modificato e pubblicato di nuovo.
 
@@ -75,7 +75,7 @@ Una consegna di esecuzione è un messaggio tecnico non actionable e non funziona
 
 Una volta inviato il messaggio, seleziona **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** dal dashboard di consegna.
 
-Per impostazione predefinita, è selezionata l’ultima consegna di esecuzione. Fai clic su **[!UICONTROL Change execution delivery]** per selezionarne un altro.
+Per impostazione predefinita, è selezionata l’ultima consegna di esecuzione. Fare clic sul pulsante **[!UICONTROL Change execution delivery]** per selezionarne un altro.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 

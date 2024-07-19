@@ -9,13 +9,13 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Modifiche al canale di notifica push {#push-upgrade}
+# Modifiche del canale di notifica push {#push-upgrade}
 
-Puoi utilizzare Campaign per inviare notifiche push su dispositivi Android e iOS. Per eseguire questa operazione, Campaign si basa su servizi di abbonamento specifici. Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) sono state rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push Android.
+Puoi utilizzare Campaign per inviare notifiche push su dispositivi Android e iOS. Per eseguire questa operazione, Campaign si basa su servizi di abbonamento specifici. Alcune modifiche importanti al servizio Android Firebase Cloud Messaging (FCM) sono state rilasciate nel 2024 e potrebbero influire sull’implementazione di Adobe Campaign. Per supportare questa modifica, potrebbe essere necessario aggiornare la configurazione dei servizi di abbonamento per i messaggi push di Android.
 
 Inoltre, Adobe consiglia vivamente di passare alla connessione basata su token ai numeri APN anziché a una connessione basata su certificati, che è più sicura e scalabile.
 
@@ -29,9 +29,9 @@ Per garantire la continuità del servizio, è necessario aggiornare le applicazi
 
 ### Cosa è cambiato? {#fcm-changes}
 
-Come parte del continuo sforzo di Google per migliorare i suoi servizi, le API FCM legacy saranno interrotte il **20 giugno 2024**. Ulteriori informazioni sul protocollo HTTP Firebase Cloud Messaging in [Documentazione di Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Nell&#39;ambito del continuo impegno di Google per migliorare i propri servizi, le API FCM legacy cesseranno il **20 giugno 2024**. Ulteriori informazioni sul protocollo HTTP Firebase Cloud Messaging sono disponibili nella [documentazione di Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Avvio [Versione 24.1](../../rn/using/release-notes.md), Adobe Campaign Standard supporta le API HTTP v1 per l’invio di messaggi di notifica push Android.
+A partire dalla versione [24.1](../../rn/using/release-notes.md), Adobe Campaign Standard supporta le API HTTP v1 per l&#39;invio dei messaggi di notifica push di Android.
 
 ### Sei interessato? {#fcm-impact}
 
@@ -49,36 +49,36 @@ Per evitare distrazioni di servizio, è necessario passare alle API più recenti
 
 #### Prerequisiti {#fcm-transition-prerequisites}
 
-* Il supporto di **API HTTP v1** è stata aggiunta nella versione 24.1. Se l’ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l’ambiente a [ultima versione di Campaign Standard](../../rn/using/release-notes.md).
+* Il supporto della modalità **API HTTP v1** è stato aggiunto nella versione 24.1. Se l&#39;ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l&#39;ambiente alla [versione più recente di Campaign Standard](../../rn/using/release-notes.md).
 
-* Il file JSON dell&#39;account del servizio Admin SDK per Android Firebase è necessario per spostare l&#39;app mobile su HTTP v1. Scopri come ottenere questo file in [Documentazione di Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* Il file JSON dell&#39;account del servizio Android Firebase Admin SDK è necessario per spostare l&#39;app mobile su HTTP v1. Scopri come ottenere questo file nella [documentazione di Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Se utilizzi ancora questa versione legacy dell’SDK, devi aggiornare l’implementazione con l’SDK di Adobe Experience Platform. Scopri come migrare ad Adobe Experience Platform SDK in [questo articolo](sdkv4-migration.md).
+* Se utilizzi ancora questa versione legacy dell’SDK, devi aggiornare l’implementazione con l’SDK di Adobe Experience Platform. Scopri come migrare all’SDK di Adobe Experience Platform in [questo articolo](sdkv4-migration.md).
 
-* Assicurati di avere **Configurazione app mobile** prima di eseguire i passaggi seguenti, è necessario disporre dell’autorizzazione in Adobe Experience Platform Data Collection Mobile. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Prima di eseguire i passaggi seguenti, assicurati di disporre dell&#39;autorizzazione **Configurazione app mobile** in Adobe Experience Platform Data Collection Mobile. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procedura di transizione {#fcm-transition-steps}
 
 Per spostare l’ambiente in HTTP v1, effettua le seguenti operazioni:
 
-1. Sfoglia per **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Passa a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/push_technote_1.png)
 
 1. Seleziona l’app mobile specifica che richiede l’aggiornamento del certificato.
 
-1. Controlla la **[!UICONTROL Update app credentials]** casella di controllo.
+1. Selezionare la casella di controllo **[!UICONTROL Update app credentials]**.
 
    ![](assets/push_technote_5.png)
 
-1. Specifica l&#39;App ID (nome del pacchetto Android) dal file del progetto Android. `build.gradle` file. Ad esempio: `com.android.test.testApp`. Assicurati di utilizzare ID diversi per gli ambienti di staging e produzione.
+1. Specifica l&#39;ID app (nome pacchetto Android) dal file `build.gradle` del progetto Android. Ad esempio, `com.android.test.testApp`. Assicurati di utilizzare ID diversi per gli ambienti di staging e produzione.
 
-1. Carica il file della chiave privata JSON Android.
+1. Carica il file della chiave privata JSON di Android.
 
    ![](assets/push_technote_3.png)
 
-1. Fai clic su **Salva** pulsante.
+1. Fai clic sul pulsante **Salva**.
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ L’autenticazione basata su token offre un modo senza stato di comunicare con i
 
 * Puoi utilizzare un token per distribuire le notifiche per tutte le app della tua azienda.
 
-Ulteriori informazioni sulle connessioni basate su token ai numeri APN in [Documentazione per gli sviluppatori di Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Per ulteriori informazioni sulle connessioni basate su token ai numeri APN, consulta la [documentazione per gli sviluppatori di Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 Adobe Campaign Standard supporta sia le connessioni basate su token che quelle basate su certificati. Se l’implementazione si basa su una connessione basata su certificato, Adobe consiglia vivamente di aggiornarla a una connessione basata su token.
 
@@ -118,30 +118,30 @@ L’implementazione corrente è interessata se si basa su richieste basate su ce
 
 #### Prerequisiti {#ios-transition-prerequisites}
 
-* Il supporto di **Autenticazione basata su token** è stato aggiunto in [Versione 24.1](../../rn/using/release-notes.md). Se l’ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l’ambiente a [ultima versione di Campaign Standard](../../rn/using/release-notes.md).
+* Il supporto della modalità di autenticazione **basata su token** è stato aggiunto nella versione [24.1](../../rn/using/release-notes.md). Se l&#39;ambiente è in esecuzione su una versione precedente, un prerequisito per questa modifica è aggiornare l&#39;ambiente alla [versione più recente di Campaign Standard](../../rn/using/release-notes.md).
 
-* Per generare i token utilizzati dal server è necessaria una chiave di firma del token di autenticazione APNs. Richiedi questa chiave al tuo account sviluppatore Apple, come spiegato in [Documentazione per gli sviluppatori di Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* Per generare i token utilizzati dal server è necessaria una chiave di firma del token di autenticazione APNs. Richiedi questa chiave al tuo account sviluppatore Apple, come descritto nella [documentazione per sviluppatori Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 
 #### Procedura di transizione {#ios-transition-steps}
 
 Per spostare le app mobili iOS nella modalità di autenticazione basata su token, effettua le seguenti operazioni:
 
-1. Sfoglia per **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Passa a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/push_technote_1.png)
 
 1. Seleziona l’app mobile specifica che richiede l’aggiornamento del certificato.
 
-1. Controlla la **[!UICONTROL Update app credentials]** casella di controllo.
+1. Selezionare la casella di controllo **[!UICONTROL Update app credentials]**.
 
    ![](assets/push_technote_2.png)
 
-1. Fornisci **ID app** (ID bundle iOS). Puoi trovare l’ID bundle di iOS (ID app) nella destinazione principale dell’app in Xcode.
+1. Specifica l&#39;**ID app** (ID bundle iOS). Puoi trovare l’ID bundle di iOS (ID app) nella destinazione principale dell’app in Xcode.
 
-1. Carica il **File di certificato iOS p8**.
+1. Carica il file del certificato **iOS p8**.
 
-1. Inserisci le impostazioni di connessione APNs **[!UICONTROL Key Id]** e **[!UICONTROL iOS Team Id]**.
+1. Specificare le impostazioni di connessione APNs **[!UICONTROL Key Id]** e **[!UICONTROL iOS Team Id]**.
 
    ![](assets/push_technote_4.png)
 
@@ -153,12 +153,12 @@ L’applicazione iOS viene ora spostata nella modalità di autenticazione basata
 
 +++Possiamo mantenere lo stesso appID sull’istanza di stage e produzione?
 
-Per le app mobili iOS, puoi utilizzare lo stesso ID app, che è l’ID del bundle dell’app iOS, sia per gli ambienti di staging che per quelli di produzione. Tuttavia, su Android, l’ID app deve essere univoco per ogni ambiente. Pertanto, il nostro suggerimento è quello di aggiungere &quot;stage&quot; all’App ID creato nell’ambiente di staging
+Per le app mobili iOS, puoi utilizzare lo stesso ID app, che è l’ID del bundle dell’app iOS, sia per gli ambienti di staging che per quelli di produzione. Tuttavia, in Android, l’ID app deve essere univoco per ogni ambiente. Pertanto, il nostro suggerimento è quello di aggiungere &quot;stage&quot; all’App ID creato nell’ambiente di staging
 
 +++
 
 
-+++Possiamo semplicemente migrare solo l&#39;app Android?
++++È possibile eseguire la migrazione solo dell’app Android?
 
 No, è necessario eseguire la migrazione delle app Android e iOS in base ai passaggi descritti in precedenza.
 
@@ -190,7 +190,7 @@ No, dopo questa migrazione non è necessario aggiornare il certificato iOS ogni 
 
 +++Cosa succede se la migrazione non viene eseguita?
 
-Il messaggio push Android inizierà a non riuscire dopo il 20 giugno 2024, come da notifica di Google. [Ulteriori informazioni](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
+Il messaggio push di Android inizierà a non riuscire dopo il 20 giugno 2024, come da notifica di Google. [Ulteriori informazioni](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 +++
 

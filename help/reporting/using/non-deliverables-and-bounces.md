@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Messaggi non recapitabili e mancati recapiti{#non-deliverables-and-bounces}
 
-Il **[!UICONTROL Non-deliverables and bounces]** Il rapporto fornisce dettagli su tutti gli errori riscontrati durante una consegna.
+Il report **[!UICONTROL Non-deliverables and bounces]** fornisce dettagli su tutti gli errori riscontrati durante una consegna.
 
 ![](assets/delivery_reports_7.png)
 
-Il **[!UICONTROL Overview]** la tabella contiene i dati disponibili sui possibili errori che possono essere riscontrati per ciascuna consegna, ad esempio:
+La tabella **[!UICONTROL Overview]** contiene i dati disponibili relativi ai possibili errori che possono essere riscontrati per ogni consegna, ad esempio:
 
-* **Elaborato/inviato**: numero di e-mail inviate.
-* **Consegnato**: numero di e-mail consegnate.
+* **Elaborati/inviati**: numero di messaggi di posta elettronica inviati.
+* **Recapitato**: numero di e-mail consegnate.
 * **Mancato recapito non permanente**: numero totale di errori temporanei, ad esempio una casella in entrata completa.
-* **Mancato recapito permanente**: numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
-* **Mancati recapiti + errori**: numero di messaggi che non è stato possibile recapitare.
+* **Notifica di mancato recapito**: numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.
+* **Messaggi non recapitati + Errori**: numero di messaggi che non è stato possibile recapitare.
 
-Il **Raggruppamento per dominio** nella tabella sono elencati i mancati recapiti per dominio dei destinatari.
+Nella tabella **Raggruppamento per dominio** sono elencati i mancati recapiti per i domini dei destinatari.

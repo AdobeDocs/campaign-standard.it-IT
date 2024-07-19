@@ -23,8 +23,8 @@ Le API Campaign Standard forniscono funzioni che consentono il processo automati
 * Recuperare un file di dati sulla privacy
 * Gestire lo stato di rinuncia CCPA di un profilo.
 
-L’endpoint API per la privacy è **/privacy/privacyTool**. La descrizione della risorsa PrivacyTool e i filtri associati sono disponibili nei metadati della risorsa. Consulta [Meccanismo metadati](../../api/using/metadata-mechanism.md).
+L&#39;endpoint API per la privacy è **/privacy/privacyTool**. La descrizione della risorsa PrivacyTool e i filtri associati sono disponibili nei metadati della risorsa. Consulta [Meccanismo metadati](../../api/using/metadata-mechanism.md).
 
-L’opt-out CCPA viene gestito utilizzando **ccpaOptOut** attributo di profilo.
+La rinuncia CCPA viene gestita utilizzando l&#39;attributo di profilo **ccpaOptOut**.
 
-Per ulteriori informazioni su Adobe Campaign Standard e sulla conformità in materia di privacy, consulta [documentazione dedicata](../../start/using/privacy-requests.md).
+Per ulteriori informazioni su Adobe Campaign Standard e sulla conformità in materia di privacy, consulta la [documentazione dedicata](../../start/using/privacy-requests.md).

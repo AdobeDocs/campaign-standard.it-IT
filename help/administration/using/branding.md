@@ -26,7 +26,7 @@ Gli amministratori tecnici possono definire uno o più brand per immettere in mo
 
 Il principio fondamentale della configurazione e dell’utilizzo dei brand è:
 
-1. Creazione e configurazione del brand: questa operazione richiede autorizzazioni specifiche e viene eseguita dall’amministratore tecnico di Adobe Campaign. Scopri come ottenere un nuovo brand in Campaign [in questa sezione](#creating-a-brand).
+1. Creazione e configurazione del brand: questa operazione richiede autorizzazioni specifiche e viene eseguita dall’amministratore tecnico di Adobe Campaign. I passaggi per ottenere un nuovo brand in Campaign sono descritti in dettaglio [in questa sezione](#creating-a-brand).
 1. Crea uno o più modelli di consegna e pagine di destinazione per questo brand. Fai riferimento alla sezione [Creazione di un modello](../../start/using/marketing-activity-templates.md).
 1. Crea messaggi e pagine di destinazione in base a questo modello. Consulta le sezioni [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md) e [Creazione di una pagina di destinazione](../../channels/using/designing-a-landing-page.md).
 
@@ -87,13 +87,13 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un nuovo tipo di e-mail da inviare in un sottodominio diverso. A tale scopo, segui i passaggi indicati di seguito:
 
-1. **Configurare un nuovo sottodominio** : per utilizzare un nuovo sottodominio come Adobe, il primo passaggio consiste nella sua configurazione. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o contatta il tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione dei sottodomini [in questo articolo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **Configura un nuovo sottodominio**. Ad Adobe, per qualsiasi nuovo sottodominio da utilizzare, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
    >Il Pannello di controllo è accessibile a tutti gli utenti amministratori. I passaggi per concedere a un utente l’accesso come amministratore sono descritti in[questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=it#discover-control-panel).
 
-1. **Creare un ticket** - Una volta configurato il sottodominio, Adobe lo configurerà nell’ambiente di produzione. Per richiederlo, [crea un ticket per l’Assistenza clienti](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
+1. **Crea un ticket** - Una volta configurato il sottodominio, Adobe lo configurerà nell&#39;ambiente di produzione. Per richiedere questo, [crea un ticket all&#39;Assistenza clienti](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) con le seguenti informazioni:
 
    * Oggetto: Nuovo marchio ACS creato
 
@@ -103,9 +103,9 @@ In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un n
 
    * URL di produzione: XXX.campaign.adobe.com
 
-1. **Creare un modello di consegna** - Una volta che il nuovo brand è disponibile, la best practice prevede di creare almeno un nuovo modello di consegna vuoto che faccia riferimento a questo nuovo brand. [Ulteriori informazioni](#linking-a-brand-to-a-template).
+1. **Crea un modello di consegna** - Una volta che il nuovo brand è disponibile, è consigliabile creare almeno un nuovo modello di consegna vuoto che faccia riferimento a questo nuovo brand. [Ulteriori informazioni](#linking-a-brand-to-a-template).
 
-1. **Verifica le linee guida per il recapito messaggi** - Prima di iniziare a utilizzare il nuovo dominio, la strategia deve essere discussa con il team Deliverability di Adobe. Aiuteranno a definire le best practice, ad esempio se è necessario creare una nuova affinità per suddividere gli IP tra domini e/o se è necessario definire un piano di aumento graduale. Ulteriori informazioni sulle best practice per la consegna dei messaggi [in questa sezione](../../sending/using/about-deliverability.md).
+1. **Verifica le linee guida per il recapito messaggi** - Prima di iniziare a utilizzare il nuovo dominio, la strategia deve essere discussa con il team di recapito messaggi di Adobe. Aiuteranno a definire le best practice, ad esempio se è necessario creare una nuova affinità per suddividere gli IP tra domini e/o se è necessario definire un piano di aumento graduale. Ulteriori informazioni sulle best practice per il recapito messaggi [in questa sezione](../../sending/using/about-deliverability.md).
 
 ## Assegnazione di un brand a un’e-mail {#assigning-a-brand-to-an-email}
 
@@ -149,7 +149,7 @@ In questo esempio, creeremo un nuovo brand connesso ai viaggi e lo utilizzeremo 
 >
 >La configurazione del brand è gestita solo da Adobe in quanto richiede autorizzazioni specifiche e impostazioni tecniche.
 
-1. L’amministratore di Adobe Campaign crea prima il brand dal **[!UICONTROL Administration > Instance settings > Brand configuration]** e aggiunge **Vacanze nei Tropici** e configura l&#39;elemento **[!UICONTROL ID]** e **[!UICONTROL Header parameters of sent emails]** del marchio.
+1. L&#39;amministratore di Adobe Campaign crea innanzitutto il brand dal menu **[!UICONTROL Administration > Instance settings > Brand configuration]**, aggiunge l&#39;elemento **Vacations in the Tropics** e configura **[!UICONTROL ID]** e **[!UICONTROL Header parameters of sent emails]** del brand.
 
    ![](assets/branding_07.png)
 

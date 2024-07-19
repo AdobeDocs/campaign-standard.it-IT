@@ -31,13 +31,13 @@ ht-degree: 0%
 
 ## Rappresentazione delle risorse
 
-Tutte le risorse API sono disponibili in **JSON** con un’estensione URL o all’interno di un’intestazione HTTP Accept:
+Tutte le risorse API sono disponibili in **JSON** con un&#39;estensione URL o all&#39;interno di un&#39;intestazione HTTP Accept:
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->Senza estensione nell&#39;URL, il **il formato json è quello predefinito** per il tipo di contenuto.
+>Senza estensione nell&#39;URL, il formato **json è quello predefinito** per il tipo di contenuto.
 
 <br/>
 
@@ -67,7 +67,7 @@ Se la risorsa profilo è stata estesa con un campo chiave personalizzato, puoi u
 
 Le chiavi personalizzate non possono essere modificate con un’operazione PATCH se il valore della chiave è diverso dalla chiave di origine o se si utilizza come URI la propria chiave aziendale invece di quella fornita da Adobe.
 
-Utilizza una chiave personalizzata per **risorse di profilo di livello superiore** solo. Gli URL vengono restituiti dall’API e non devono mai essere generati da soli.
+Utilizza una chiave personalizzata solo per **risorse di profilo di primo livello**. Gli URL vengono restituiti dall’API e non devono mai essere generati da soli.
 
 <br/>
 

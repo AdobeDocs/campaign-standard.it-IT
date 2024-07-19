@@ -42,9 +42,9 @@ L’attività **[!UICONTROL Reconciliation]** viene essenzialmente utilizzata a 
 
   Ad esempio, puoi eseguire un salvataggio di pubblico, un aggiornamento del database, ecc.
 
-Ad esempio, il **[!UICONTROL Reconciliation]** L’attività può essere inserita dopo un caricamento di dati per importare dati non standard nel database.
+Ad esempio, l&#39;attività **[!UICONTROL Reconciliation]** può essere inserita dopo un caricamento di dati per importare dati non standard nel database.
 
-Mentre il **Arricchimento** attività ti consente di definire i dati aggiuntivi da elaborare nel flusso di lavoro (utilizza un’ **Arricchimento** attività (per combinare dati provenienti da più set o per creare collegamenti a una risorsa temporanea), **Reconciliation** L’attività ti consente di collegare dati non identificati a risorse esistenti. L&#39;operazione Reconciliation implica che i dati delle dimensioni collegate siano già presenti nel database. I casi di utilizzo sono disponibili in [questa sezione](#use-cases-reconciliation).
+Mentre l&#39;attività **Enrichment** ti consente di definire i dati aggiuntivi da elaborare nel flusso di lavoro (utilizza un&#39;attività **Enrichment** per combinare i dati provenienti da più set o per creare collegamenti a una risorsa temporanea), l&#39;attività **Reconciliation** ti consente di collegare dati non identificati a risorse esistenti. L&#39;operazione Reconciliation implica che i dati delle dimensioni collegate siano già presenti nel database. I casi d&#39;uso sono disponibili in [questa sezione](#use-cases-reconciliation).
 
 
 ## Configurazione {#configuration}

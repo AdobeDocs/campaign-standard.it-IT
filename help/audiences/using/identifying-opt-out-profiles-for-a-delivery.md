@@ -17,11 +17,11 @@ ht-degree: 29%
 
 # Identificazione dei profili di rinuncia per una consegna{#identifying-opt-out-profiles-for-a-delivery}
 
-I profili di rinuncia per una consegna specifica sono elencati dopo la fase di preparazione, nella sezione **[!UICONTROL Exclusion logs]** del dashboard di consegna.
+I profili di rinuncia per una consegna specifica sono elencati dopo la fase di preparazione, nella scheda **[!UICONTROL Exclusion logs]** del dashboard di consegna.
 
 ![](assets/exclusion_blocklisting.png)
 
 **Argomenti correlati:**
 
-* [Monitoraggio di una consegna](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
+* [Controllo di una consegna](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+* [Preparazione dell&#39;invio](../../sending/using/preparing-the-send.md).

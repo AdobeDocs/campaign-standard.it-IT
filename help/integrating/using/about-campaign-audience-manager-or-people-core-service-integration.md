@@ -1,6 +1,6 @@
 ---
 title: Informazioni sull’integrazione di Campaign con Audience Manager o il servizio core People
-description: Con l’integrazione del servizio di base Audienci Manager/People, puoi condividere audience o segmenti all’interno delle diverse soluzioni Adobe Experience Cloud.
+description: Con l’integrazione del servizio di base Audience Manager/People, puoi condividere audience o segmenti all’interno delle diverse soluzioni Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
@@ -21,22 +21,22 @@ ht-degree: 18%
 >
 >A seconda dei dati scambiati, l’importazione di tipi di pubblico in Adobe Campaign può essere soggetta a restrizioni legali.
 
-Adobe Campaign consente di scambiare e condividere tipi di pubblico/segmenti con diverse applicazioni Adobe Experience Cloud. Integrazione **Adobe Campaign** con **Servizio core People** (noto anche come **Servizio core Profili e pubblico**) o Adobe Audience Manager consente di:
+Adobe Campaign consente di scambiare e condividere tipi di pubblico/segmenti con diverse applicazioni Adobe Experience Cloud. L&#39;integrazione di **Adobe Campaign** con il servizio core **People** (noto anche come servizio core **Profiles &amp; Audiences**) o Adobe Audience Manager consente di:
 
-* Importa tipi di pubblico/segmenti da diverse soluzioni Adobe Experience Cloud in Adobe Campaign. I tipi di pubblico possono essere importati da **[!UICONTROL Audiences]** in Adobe Campaign.
-* Esporta i tipi di pubblico come tipi di pubblico/segmenti condivisi. Questi tipi di pubblico possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi. I tipi di pubblico possono essere esportati dopo le attività di targeting in un flusso di lavoro, utilizzando **[!UICONTROL Save audience]** attività.
+* Importa tipi di pubblico/segmenti da diverse soluzioni Adobe Experience Cloud in Adobe Campaign. I tipi di pubblico possono essere importati dal menu **[!UICONTROL Audiences]** in Adobe Campaign.
+* Esporta i tipi di pubblico come tipi di pubblico/segmenti condivisi. Questi tipi di pubblico possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi. I tipi di pubblico possono essere esportati dopo le attività di targeting in un flusso di lavoro, utilizzando l&#39;attività **[!UICONTROL Save audience]**.
 
 L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
-* **ID visitatore**: questo tipo di ID ti consente di riconciliare i visitatori di Adobe Experience Cloud con i profili Adobe Campaign. Non appena viene abilitata una connessione tramite Adobe IMS, viene attivato il servizio ID visitatore del Marketing Cloud, che sostituisce il cookie permanente utilizzato da Adobe Campaign. Questo consente di identificare un visitatore e quindi collegarlo a un profilo.
-  <br>Un ID visitatore viene collegato a un profilo non appena quest’ultimo fa clic in un’e-mail inviata tramite Adobe Campaign:
+* **ID visitatore**: questo tipo di ID consente di riconciliare i visitatori di Adobe Experience Cloud con i profili Adobe Campaign. Non appena viene abilitata una connessione tramite Adobe IMS, viene attivato il servizio ID visitatore del Marketing Cloud, che sostituisce il cookie permanente utilizzato da Adobe Campaign. Questo consente di identificare un visitatore e quindi collegarlo a un profilo.
+  <br>Un ID visitatore viene collegato a un profilo non appena quest&#39;ultimo fa clic in un&#39;e-mail inviata tramite Adobe Campaign:
    * Se il profilo dispone già di un ID visitatore, i dati del browser del profilo consentono ad Adobe Campaign di recuperare e collegare automaticamente il profilo all’ID visitatore.
    * Se non viene trovato alcun ID visitatore, viene creato un nuovo ID. Questo ID visitatore viene memorizzato nei registri di tracciamento del profilo.
 
   L’ID verrà quindi riconosciuto dalle altre applicazioni Adobe Marketing Cloud con lo stesso CNAME.
 
-* **ID dichiarato**: questo tipo di ID ti consente di riconciliare qualsiasi tipo di dati con gli elementi del database di Adobe Campaign. In Adobe Campaign è rappresentato come chiave di riconciliazione predefinita. Quando si scambiano dati, agli identificatori del database di Adobe Campaign viene applicato l’hash. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o esportazione.
-  <br>Questa integrazione supporta ID dichiarati regolari, ID dichiarati con hash e ID dichiarati crittografati.
+* **ID dichiarato**: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con gli elementi del database di Adobe Campaign. In Adobe Campaign è rappresentato come chiave di riconciliazione predefinita. Quando si scambiano dati, agli identificatori del database di Adobe Campaign viene applicato l’hash. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o esportazione.
+  <br>Questa integrazione supporta gli ID dichiarati regolari, gli ID dichiarati con hash e gli ID dichiarati crittografati.
 
   >[!NOTE]
   >

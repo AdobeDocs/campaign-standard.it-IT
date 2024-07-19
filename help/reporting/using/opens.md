@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # Aperture{#opens}
 
-Il **[!UICONTROL Opens]** Il rapporto identifica le consegne con più visualizzazioni da parte dei destinatari.
+Il rapporto **[!UICONTROL Opens]** identifica le consegne con più visualizzazioni da parte dei destinatari.
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ Quattro tabelle e grafici suddividono il numero totale di destinatari che hanno 
 * Piattaforma
 * Dominio
 
-Il **[!UICONTROL TOP 5]** la tabella e il grafico visualizzano le consegne associate al maggior numero di messaggi consegnati.
+La tabella e il grafico **[!UICONTROL TOP 5]** visualizzano le consegne associate al maggior numero di messaggi consegnati.

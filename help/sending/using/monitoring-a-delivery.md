@@ -22,7 +22,7 @@ Esistono diversi modi per monitorare una consegna e misurarne l’impatto. In qu
 
 >[!IMPORTANT]
 >
->Solo funzionale [amministratori](../../administration/using/users-management.md#functional-administrators), con **[!UICONTROL Administration]** ruolo e accesso a **Tutti** Le unità possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente che non è amministratore può eseguire il targeting di questi registri ma a partire da una tabella collegata (profili, consegna).
+>Solo gli [amministratori](../../administration/using/users-management.md#functional-administrators) funzionali, con ruolo **[!UICONTROL Administration]** e accesso a **Tutte** le unità possono accedere ai registri di invio, ai registri dei messaggi, ai registri di tracciamento, ai registri di esclusione o di abbonamento. Un utente che non è amministratore può eseguire il targeting di questi registri ma a partire da una tabella collegata (profili, consegna).
 
 * **Log dei messaggi**: questi log sono accessibili direttamente dal dashboard dei messaggi. Mostrano i dettagli dell’invio, quale target è stato escluso e perché, nonché le informazioni di tracciamento come aperture e clic.
 
@@ -38,9 +38,9 @@ Esistono diversi modi per monitorare una consegna e misurarne l’impatto. In qu
 
   ![](assets/sending_delivery2.png)
 
-* **Registri processi**: è possibile accedere a un elenco dei processi batch attivati dalla consegna dal dashboard dei messaggi selezionando **[!UICONTROL Job history]** dal **[!UICONTROL Summary]** elenco a discesa.
+* **Registri processi**: è possibile accedere a un elenco dei processi batch attivati dalla consegna dal dashboard dei messaggi selezionando **[!UICONTROL Job history]** dall&#39;elenco a discesa **[!UICONTROL Summary]**.
 
-  Selezionare un processo dall&#39;elenco per visualizzare i dettagli del processo selezionato **[!UICONTROL Batch job]**.
+  Selezionare un processo dall&#39;elenco per visualizzare i dettagli di **[!UICONTROL Batch job]** selezionato.
 
   ![](assets/sending_delivery8.png)
 

@@ -22,7 +22,7 @@ ht-degree: 1%
 
 In Campaign Standard, il motore del flusso di lavoro garantisce che un’istanza del flusso di lavoro venga eseguita da un solo processo. Il blocco di attività quali importazioni, query con tempi di esecuzione lunghi o scritture nel database impedisce l&#39;esecuzione di qualsiasi altra attività durante l&#39;esecuzione.
 
-Le attività non di blocco non bloccano invece l&#39;esecuzione di altre attività, in genere quelle in attesa di un evento come **[!UICONTROL Scheduler]** attività).
+Le attività non di blocco non bloccano invece l&#39;esecuzione di altre attività, in genere quelle in attesa di un evento come l&#39;attività **[!UICONTROL Scheduler]**.
 
 Questo può portare a uno scenario in cui un flusso di lavoro basato su pianificazione può iniziare l’esecuzione anche quando la precedente esecuzione dello stesso flusso di lavoro non è ancora stata completata, con possibili problemi di dati imprevisti.
 
@@ -30,11 +30,11 @@ Pertanto, durante la progettazione di un flusso di lavoro pianificato che includ
 
 ## Configurazione del flusso di lavoro
 
-Per verificare se una o più attività di una precedente esecuzione del flusso di lavoro sono ancora in sospeso, è necessario utilizzare un&#39; **[!UICONTROL Query]** e un **[!UICONTROL Test]** attività.
+Per verificare se una o più attività di una precedente esecuzione del flusso di lavoro sono ancora in sospeso, è necessario utilizzare un&#39;attività **[!UICONTROL Query]** e un&#39;attività **[!UICONTROL Test]**.
 
-1. Aggiungi un **[!UICONTROL Query]** attività dopo il **[!UICONTROL Scheduler]** , quindi configurala come segue.
+1. Aggiungi un&#39;attività **[!UICONTROL Query]** dopo l&#39;attività **[!UICONTROL Scheduler]**, quindi configurala come segue.
 
-1. Modifica la risorsa dell’attività in **[!UICONTROL WorkflowTaskDetail]**, ovvero eseguirà il targeting delle attività correnti del flusso di lavoro.
+1. Modifica la risorsa dell&#39;attività in **[!UICONTROL WorkflowTaskDetail]**, il che significa che eseguirà il targeting delle attività correnti del flusso di lavoro.
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +46,11 @@ Per verificare se una o più attività di una precedente esecuzione del flusso d
 
      >[!NOTE]
      >
-     >Quando un **[!UICONTROL Scheduler]** all&#39;avvio dell&#39;attività, aggiunge immediatamente un&#39;altra attività di pianificazione da eseguire all&#39;ora pianificata successiva e avvia il flusso di lavoro. Pertanto, è importante filtrare sia la query che le attività pianificate quando si cercano le attività in sospeso di un’esecuzione precedente.
+     >All&#39;avvio di un&#39;attività **[!UICONTROL Scheduler]**, viene aggiunta immediatamente un&#39;altra attività di pianificazione da eseguire all&#39;ora pianificata successiva e avviare il flusso di lavoro. Pertanto, è importante filtrare sia la query che le attività pianificate quando si cercano le attività in sospeso di un’esecuzione precedente.
 
    * La seconda regola determina se le attività di una precedente esecuzione del flusso di lavoro sono ancora attive (in sospeso), che corrisponde allo stato di esecuzione 0.
 
-1. Aggiungi un **[!UICONTROL Test]** per verificare il numero di attività in sospeso restituite dall&#39;attività **[!UICONTROL Query]** attività. A questo scopo, configura due transizioni in uscita.
+1. Aggiungere un&#39;attività **[!UICONTROL Test]** per verificare il numero di attività in sospeso restituite dall&#39;attività **[!UICONTROL Query]**. A questo scopo, configura due transizioni in uscita.
 
    ![](assets/scheduled-wkf-test.png)
 

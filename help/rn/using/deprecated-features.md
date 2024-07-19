@@ -45,9 +45,9 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Il supporto per gli SDK Adobe Experience Platform Mobile versione 4 è terminato il 31 agosto 2021. Se utilizzi ancora questa versione legacy dell’SDK in Adobe Campaign Standard, devi aggiornare la tua implementazione con Adobe Experience Platform SDK <strong>prima della fine di giugno 2024</strong>. </p></br>
-   <p>Leggete <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">questo articolo</a> per scoprire come adattare la tua implementazione e passare all’SDK di Experience Platform più recente.</p></br>
-   <p><strong>Attenzione</strong>: l’SDK V4 non sarà più supportato in Campaign Standard a partire dalla fine di giugno 2024.</p>
+   <td> <p>Il supporto per gli SDK Adobe Experience Platform Mobile versione 4 è terminato il 31 agosto 2021. Se utilizzi ancora questa versione legacy dell'SDK in Adobe Campaign Standard, devi aggiornare l'implementazione con Adobe Experience Platform SDK <strong>prima della fine di giugno 2024</strong>. </p></br>
+   <p>Consulta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">questo articolo</a> per scoprire come adattare la tua implementazione e passare all'SDK di Experience Platform più recente.</p></br>
+   <p><strong>Attenzione</strong>: SDK V4 non sarà più supportato in Campaign Standard a partire dalla fine di giugno 2024.</p>
   </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione di Campaign 19.0, l’editor e-mail legacy diventa obsoleto. Utilizzare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">E-mail Designer di Campaign</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
+   <td> <p>A partire dalla versione di Campaign 19.0, l’editor e-mail legacy diventa obsoleto. Utilizza <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">E-mail campagna Designer</a> per creare e personalizzare il contenuto delle e-mail. </p></br>
    <p>Leggi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">questa sezione</a> per scoprire come adattare i modelli e-mail per il nuovo editor.</p></br>
   </td> 
   </tr> 
@@ -128,9 +128,9 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  <tbody> 
   <tr> 
    <td> <p> A partire dalla versione 20.1 di Campaign, SDK v4 è diventato obsoleto. Ora è stato rimosso. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=it">Ulteriori informazioni</a>.</p><br/>
-   <p>Il <a href="https://developer.adobe.com/client-sdks/documentation/">SDK di Adobe Experience Platform Mobile</a> (in precedenza denominato v5) ora supporta esclusivamente le nuove funzioni e funzionalità di Adobe Experience Cloud.</p>
+   <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (in precedenza denominato v5) ora supporta esclusivamente le nuove funzionalità di Adobe Experience Cloud.</p>
    <p>Dopo il 31 agosto 2021 i clienti potranno continuare a scaricare e utilizzare gli SDK versione 4, ma non saranno più disponibili né il supporto dell’Assistenza clienti né l’accesso ai forum.</p>
-   <p>Scopri come migrare dall’SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in questa pagina</a>.</p></br>
+   <p>Scopri come migrare da SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">in questa pagina</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -144,7 +144,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>A partire dalla versione 21.2 di Campaign, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventerà obsoleto. L’eliminazione del profilo in due fasi non è più disponibile. Utilizzare <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Servizio core per la privacy Adobe</a>.</p></br>
+   <td> <p>A partire dalla versione 21.2 di Campaign, l’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione diventerà obsoleto. L’eliminazione del profilo in due fasi non è più disponibile. Utilizza <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a>.</p></br>
    <p>Consulta anche <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Gestione delle richieste di accesso a dati personali</a>.</p>
   </td> 
   </tr> 
@@ -189,7 +189,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] è stato disattivato. Di conseguenza, l’edizione dell’immagine è basata su [!DNL Creative SDK] nelle e-mail Campaign Standard non è più disponibile a partire dalla versione 20.2 di Campaign.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] è stato disattivato. Di conseguenza, l’edizione dell’immagine fornita da [!DNL Creative SDK] nelle e-mail Campaign Standard non è più disponibile a partire dalla versione 20.2 di Campaign.</p></br>
    </td> 
   </tr> 
  </tbody> 

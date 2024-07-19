@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # Eliminazione di una risorsa{#deleting-a-resource}
 
-Per eliminare una risorsa, la risorsa in questione deve essere una **[!UICONTROL Draft]**. La risorsa è in **[!UICONTROL Draft]** stato se:
+Per eliminare una risorsa, la risorsa in questione deve essere un **[!UICONTROL Draft]**. La risorsa è nello stato **[!UICONTROL Draft]** se:
 
 * È stato appena creato e non è ancora stato pubblicato.
 * Se è già stata pubblicata, la risorsa deve essere riscritta.
@@ -43,13 +43,13 @@ Per rielaborare ed eliminare una risorsa pubblicata:
 
    >[!NOTE]
    >
-   >Se ridisegna un’estensione del predefinito **Profili (profilo)** risorsa, devi anche riprogettare qualsiasi **Profilo di test (seedMember)** estensione definita. Per ulteriori informazioni sull’estensione della risorsa profilo, consulta [questa sezione](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >Se si reprogetta un&#39;estensione della risorsa predefinita **Profili (profilo)**, è necessario riprogettare anche qualsiasi estensione **Profilo di test (seedMember)** definita. Per ulteriori informazioni sull&#39;estensione della risorsa profilo, consulta [questa sezione](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Pubblica la risorsa. Per i passaggi più dettagliati, consulta [Pubblicazione di una risorsa personalizzata](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Publish la risorsa. Per i passaggi più dettagliati, consulta [Pubblicazione di una risorsa personalizzata](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   La risorsa viene quindi inserita in **Bozza** e il suo stato di attivazione è **[!UICONTROL Inactive]**.
+   La risorsa passa quindi alla modalità **Bozza** e il suo stato di attivazione è **[!UICONTROL Inactive]**.
 
-1. In entrata **[!UICONTROL List]** , seleziona la risorsa da eliminare e fai clic sul pulsante ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** icona.
+1. In modalità **[!UICONTROL List]**, controllare la risorsa da eliminare, quindi fare clic sull&#39;icona ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**.
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,4 +57,4 @@ La risorsa viene eliminata dal modello dati.
 
 >[!NOTE]
 >
->Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. Consulta [Annullamento della pubblicazione di un evento transazionale](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Se viene modificato o eliminato un campo di una risorsa personalizzata utilizzata all’interno di un evento, l’evento corrispondente viene automaticamente annullato. Vedi [Annullamento della pubblicazione di un evento transazionale](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

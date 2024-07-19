@@ -46,23 +46,23 @@ Il Pannello di controllo Campaign ti consente di gestire diverse impostazioni de
 
 **Oggetti tecnici**
 
-Il **[!UICONTROL Diagnosis]** Il menu è uno strumento chiave per monitorare e analizzare i diversi oggetti tecnici generati dall’applicazione: schemi di dati, pagine web, processi batch, ecc. [Ulteriori informazioni](../../developing/using/monitoring-data-model-changes.md)
+Il menu **[!UICONTROL Diagnosis]** è uno strumento chiave per monitorare e analizzare i diversi oggetti tecnici generati dall&#39;applicazione: schemi di dati, pagine Web, processi batch, ecc. [Ulteriori informazioni](../../developing/using/monitoring-data-model-changes.md)
 
-**Controlli sulle esportazioni**
+**Esporta controlli**
 
 I controlli di esportazione ti consentono di monitorare le esportazioni eseguite sulle istanze: file caricati dai flussi di lavoro, esportazioni di elenchi e file scaricati dai messaggi di direct mailing.
 [Ulteriori informazioni](../../administration/using/auditing-export-logs.md)
 
 **Licenze**
 
-Con il **[!UICONTROL Licenses]** monitora le informazioni sulle istanze: licenze installate, versioni della build e termini accettati dall’accordo.
+Con il menu **[!UICONTROL Licenses]**, monitora le informazioni sulle istanze: licenze installate, versioni di build e termini accettati dall&#39;accordo.
 [Ulteriori informazioni](../../administration/using/licenses.md)
 
 ## Monitoraggio dei flussi di lavoro {#monitoring-workflows}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**Best practice e risoluzione dei problemi**
+**Procedure consigliate e risoluzione dei problemi**
 
 Seguire le best practice e le linee guida per la risoluzione dei problemi durante l’utilizzo dei flussi di lavoro può contribuire a migliorare le prestazioni.
 [Ulteriori informazioni](../../automating/using/best-practices-workflows.md)
@@ -91,7 +91,7 @@ Campaign Standard fornisce diversi strumenti di recapito messaggi per aiutarti a
 Una volta inviati i messaggi, i registri dettagliati ti consentono di monitorare le consegne e misurare il successo della campagna, nonché di tenere traccia del comportamento dei destinatari dei messaggi.
 [Ulteriori informazioni](../../sending/using/monitoring-a-delivery.md)
 
-**Avvisi sulla consegna**
+**Avvisi di consegna**
 
 Con la funzione di avviso sulla consegna, puoi impostare avvisi che verranno inviati automaticamente a un gruppo di utenti per quanto riguarda l’esecuzione delle consegne: invio o preparazione non riusciti, rapporto mancati recapiti non riusciti, throughput basso, ecc.
 [Ulteriori informazioni](../../sending/using/receiving-alerts-when-failures-happen.md)

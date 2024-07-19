@@ -68,7 +68,7 @@ La creazione di un’attività di marketing è descritta nella sezione [Creazion
 
 1. Conferma la creazione dell’attività per visualizzarne il dashboard. Per ulteriori informazioni, consulta la sezione [Interfaccia dei flussi di lavoro](../../automating/using/workflow-interface.md).
 
-1. Quando il flusso di lavoro è pronto per essere configurato, puoi accedere alle opzioni aggiuntive facendo clic sul pulsante **[!UICONTROL Edit properties]** pulsante.
+1. Quando il flusso di lavoro è pronto per essere configurato, è possibile accedere alle opzioni aggiuntive facendo clic sul pulsante **[!UICONTROL Edit properties]**.
 
    Ad esempio, puoi definire un fuso orario specifico da utilizzare per impostazione predefinita in tutte le attività del flusso di lavoro. Per impostazione predefinita, il fuso orario del flusso di lavoro è quello definito per l’operatore corrente di Campaign.
 
@@ -137,4 +137,4 @@ Questo video mostra come creare un flusso di lavoro.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

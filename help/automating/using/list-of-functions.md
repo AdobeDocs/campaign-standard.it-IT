@@ -35,7 +35,7 @@ Sono disponibili diversi tipi di funzioni, a seconda dei risultati desiderati e 
 
 >[!NOTE]
 >
->Sono disponibili funzioni aggiuntive in tutte le attività che consentono di utilizzare variabili di eventi dopo la chiamata di un flusso di lavoro con parametri esterni. Sono descritte in dettaglio [questa sezione](../../automating/using/customizing-workflow-external-parameters.md).
+>Sono disponibili funzioni aggiuntive in tutte le attività che consentono di utilizzare variabili di eventi dopo la chiamata di un flusso di lavoro con parametri esterni. Sono descritti in [questa sezione](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Date {#dates}
 
@@ -657,7 +657,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Effettua la cifratura di una stringa di caratteri (primo parametro) utilizzando l’algoritmo AES (modalità blocco CBC) con una chiave (secondo parametro) e un vettore di inizializzazione (terzo parametro). La chiave e il vettore di inizializzazione devono essere forniti in una rappresentazione esadecimale (a partire da <strong>\x</strong>). Il risultato sarà esadecimale senza <strong>\x</strong>.<br /> Tieni presente che le dimensioni della chiave possono essere 128 bit, 192 bit, 256 bit (16, 24, 32 caratteri esadecimali), ma si consiglia di utilizzare 256 bit e un IV randomizzato della stessa lunghezza della chiave.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Ad esempio: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;Stringa&gt;, &lt;Stringa&gt;, &lt;Stringa&gt;)<br /> Ad esempio: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -708,7 +708,7 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
   <tr>
    <td> <strong>StringaAgg</strong>, Valore aggregato stringa<br /> </td>
    <td> Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento (il separatore predefinito è la virgola).<br /> </td>
-   <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
+   <td> StringAgg(&lt;valori stringa&gt;,&lt;separatore&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 

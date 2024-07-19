@@ -32,15 +32,15 @@ Diversi fattori possono influire direttamente sulle prestazioni del server e ral
 
   **SUGGERIMENTO** - Per evitare questo problema, coordina la pianificazione delle consegne con gli altri membri del tuo team per garantire le migliori prestazioni.
 
-* Il [esecuzione del flusso di lavoro](../../automating/using/about-workflow-execution.md): il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Segui le linee guida elencate [in questa pagina](../../automating/using/monitoring-workflow-execution.md). Per ulteriori informazioni, consulta [best practice per i flussi di lavoro](../../automating/using/best-practices-workflows.md) sezione.
+* [esecuzione del flusso di lavoro](../../automating/using/about-workflow-execution.md): il monitoraggio dei flussi di lavoro è essenziale per evitare problemi di prestazioni della piattaforma. Segui le linee guida elencate [in questa pagina](../../automating/using/monitoring-workflow-execution.md). Ulteriori informazioni sono disponibili nella sezione [best practice per i flussi di lavoro](../../automating/using/best-practices-workflows.md).
 
-* Puoi sfruttare [Funzionalità di Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it) per monitorare la piattaforma, utilizzare [monitoraggio delle prestazioni](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it) funzionalità.
+* Puoi sfruttare le [funzionalità di Pannello di controllo Campaign di Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it) per monitorare la piattaforma, utilizzando le [funzionalità di monitoraggio delle prestazioni](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=it).
 
 ## Verifica della configurazione di rete {#network-config}
 
 Per ottimizzare la consegna quando gestisci le e-mail in grandi volumi ed evitare di essere scambiato per uno spammer, assicurati di disporre di una configurazione di rete legittima che non tenti di nascondere l’identità del server.
 
-**Suggerimento**: utilizza un indirizzo mittente trasparente corrispondente al sito web del tuo marchio. Ad esempio, la società TravelAgency gestisce la catena alberghiera Valentino. È il proprietario del dominio valentino.com per il suo sito web. Per promuovere l&#39;hotel Valentino a Parigi, utilizza il sottodominio paris.valentino.com. Pertanto, un indirizzo del mittente pertinente può essere hotel@paris.valentino.com.
+**Suggerimento**: utilizza un indirizzo mittente trasparente corrispondente al sito Web del tuo marchio. Ad esempio, la società TravelAgency gestisce la catena alberghiera Valentino. È il proprietario del dominio valentino.com per il suo sito web. Per promuovere l&#39;hotel Valentino a Parigi, utilizza il sottodominio paris.valentino.com. Pertanto, un indirizzo del mittente pertinente può essere hotel@paris.valentino.com.
 
 ## Gestione del recapito messaggi {#deliverability-management}
 
@@ -50,9 +50,9 @@ Per raggiungere la casella in entrata dei destinatari senza che vengano generati
 
    * Si riferisce ai fattori di un’e-mail che determinano la sua capacità di essere accettata dal server di un destinatario. Gli ISP (Internet Service Provider) filtrano le e-mail che identificano come SPAM, oppure bloccano il download delle immagini. Se determinano che un determinato dominio sta inviando troppe e-mail, imposteranno un limite al numero di e-mail che accetteranno da quel mittente.
 
-   * Durante il controllo della consegna delle e-mail, desideri concentrarti su quattro categorie principali: qualità dei dati, messaggio e contenuto, infrastruttura di invio e reputazione. Per informazioni più approfondite su questo argomento, consulta [questa sezione](../../sending/using/about-deliverability.md).
+   * Durante il controllo della consegna delle e-mail, desideri concentrarti su quattro categorie principali: qualità dei dati, messaggio e contenuto, infrastruttura di invio e reputazione. Per ulteriori informazioni su questo argomento, consulta [questa sezione](../../sending/using/about-deliverability.md).
 
-* Quando avvii una nuova piattaforma, applica i consigli descritti in dettaglio in [questa pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* All&#39;avvio di una nuova piattaforma, applica i consigli dettagliati in [questa pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Contatta il rappresentante del tuo Adobe per assistenza.
 
@@ -60,7 +60,7 @@ Per raggiungere la casella in entrata dei destinatari senza che vengano generati
 
 È nel tuo interesse mantenere processi di gestione della quarantena efficaci.
 
-Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenco di indirizzi non completamente qualificati. Se invii a indirizzi non validi o a indirizzi honeypot (cassette postali create solo per ingannare gli spammer), questo comincerà a ridurre la reputazione della tua piattaforma. Una buona gestione della quarantena aiuta a: mantenere la qualità degli indirizzi, evitare il inserisco nell&#39;elenco Bloccati di accesso a Internet da parte dei provider e ridurre il tasso di errore, velocizzando le consegne e la velocità effettiva.
+Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenco di indirizzi non completamente qualificati. Se invii a indirizzi non validi o a indirizzi honeypot (cassette postali create solo per ingannare gli spammer), questo comincerà a ridurre la reputazione della tua piattaforma. Una buona gestione della quarantena aiuta a: mantenere la qualità dell’indirizzo, evitare l’inserisco nell&#39;elenco Bloccati da parte dei provider di accesso a Internet e ridurre il tasso di errore, velocizzando le consegne e la velocità effettiva.
 
 **Suggerimenti**
 
@@ -68,7 +68,7 @@ Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenc
 
 * Adobe Campaign gestisce gli indirizzi errati in base al tipo di errore restituito. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/understanding-quarantine-management.md).
 
-* Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se il tasso di indirizzi non validi è troppo alto. La quarantena consente quindi di evitare di essere aggiunti al elenco Bloccati da parte di questi provider.
+* Alcuni provider di accesso a Internet considerano automaticamente le e-mail come spam se il tasso di indirizzi non validi è troppo alto. La quarantena consente quindi di evitare che questi provider aggiungano altri elementi al elenco Bloccati del sistema di protezione.
 
 * La gestione delle quarantene contribuirà inoltre a ridurre i costi di invio degli SMS escludendo numeri di telefono errati dalle consegne.
 
@@ -76,6 +76,6 @@ Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenc
 
 Per evitare l’invio di messaggi a indirizzi non validi, limitare le comunicazioni improprie e migliorare la reputazione del mittente, l’Adobe consiglia di implementare un doppio meccanismo di consenso per la conferma dopo l’abbonamento. Questo aiuta a garantire che un destinatario si sia iscritto intenzionalmente.
 
-I dettagli relativi all’attuazione di questo meccanismo sono descritti in [questa sezione](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+I dettagli relativi all&#39;implementazione di questo meccanismo sono descritti in [questa sezione](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Ulteriori informazioni in [Guida introduttiva a profili e tipi di pubblico](../../audiences/using/get-started-profiles-and-audiences.md).
+Ulteriori informazioni in [Introduzione a profili e tipi di pubblico](../../audiences/using/get-started-profiles-and-audiences.md).

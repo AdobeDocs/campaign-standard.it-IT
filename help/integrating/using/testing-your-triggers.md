@@ -21,13 +21,13 @@ I seguenti suggerimenti per la risoluzione dei problemi consentono di risolvere 
 
 **La funzionalità è attivata?**
 
-Per verificare se l’integrazione Triggers - Campaign è attivata, fai clic sul logo Adobe Campaign, nell’angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti visualizzare **[!UICONTROL Experience Cloud Triggers]** elemento.
+Per verificare se l&#39;integrazione Triggers - Campaign è attivata, fai clic sul logo Adobe Campaign, nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Dovresti visualizzare l&#39;elemento **[!UICONTROL Experience Cloud Triggers]**.
 
 Se lo vedi, passa al passaggio successivo.
 
-In caso contrario, contatta il responsabile del tuo account Adobe o il partner di servizi professionali. Consulta [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+In caso contrario, contatta il responsabile del tuo account Adobe o il partner di servizi professionali. Vedere [Attivazione della funzionalità](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
-**Prova a creare un trigger**
+**Crea un trigger**
 
 Segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) per creare un trigger.
 
@@ -53,7 +53,7 @@ Se il trigger viene ricevuto da Analytics, passa al passaggio successivo. In cas
 * Il sito web utilizzato MCID e Analytics è abilitato in DTM
 * Durante la creazione di trigger viene utilizzata la suite di rapporti di Analytics corretta
 
-**Il trigger viene ricevuto da Campaign?**
+**Il trigger è ricevuto da Campaign?**
 
 In caso contrario, controlla se il trigger viene ricevuto dalla pipeline.
 
@@ -67,16 +67,16 @@ In caso affermativo, attieniti alle seguenti linee guida:
 * Chiedi ad Adobe di riavviare l’istanza di Campaign dopo la configurazione dell’origine dati.
 * Controlla i problemi di analisi del trigger nel report del trigger.
 
-**Il trigger è nello stato In sospeso?**
+**Il trigger si trova nello stato in sospeso?**
 
 In caso contrario, passare al passaggio successivo. In caso affermativo, attieniti alle seguenti linee guida:
 
 * Verifica che il modello transazionale sia pubblicato.
-* Verificare che il profilo non sia in fase di inserisco nell&#39;elenco Bloccati di.
+* Verifica che il profilo non sia in fase di inserisco nell&#39;elenco Bloccati di.
 * Controlla l’applicazione delle regole di tipologia.
 * Controlla i registri del messaggio transazionale.
 
-**Messaggio valido?**
+**Il messaggio è valido?**
 
 Se il messaggio non è valido, verificare quanto segue:
 

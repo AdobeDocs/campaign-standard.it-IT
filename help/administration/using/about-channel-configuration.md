@@ -24,6 +24,6 @@ Le diverse configurazioni sono le seguenti:
 * Proprietà del messaggio. Quando crei un nuovo messaggio, puoi perfezionare le proprietà a seconda delle tue esigenze.
 * Alcuni canali offrono configurazioni aggiuntive facoltative, ad esempio E-mail con indirizzi Ccn.
 
-Il **[!UICONTROL Channel]** Il menu raggruppa i parametri tecnici collegati ai diversi canali dell’applicazione (e-mail, SMS), nonché alla gestione della tipologia e della quarantena.
+Il menu **[!UICONTROL Channel]** raggruppa i parametri tecnici collegati ai diversi canali dell&#39;applicazione (e-mail, SMS), nonché alla gestione della tipologia e della quarantena.
 
-Gli amministratori possono accedere a queste configurazioni nel **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
+Gli amministratori possono accedere a queste configurazioni nel menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]**.

@@ -23,11 +23,11 @@ Utilizzando Campaign, puoi ottimizzare la progettazione e la consegna dei percor
 >
 >Questa funzionalità non è disponibile come funzione predefinita del prodotto. La sua implementazione richiede l’intervento della Consulenza Adobe. Per maggiori informazioni, contatta un rappresentante Adobe di fiducia.
 
-Adobe Campaign offre due nuovi modelli di apprendimento automatico: **Ottimizzazione del tempo di invio predittivo** e **Punteggio di coinvolgimento predittivo**. Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
+Adobe Campaign offre due nuovi modelli di apprendimento automatico: **Ottimizzazione predittiva del tempo di invio** e **Punteggio predittivo di coinvolgimento**. Questi due modelli sono modelli di apprendimento automatico specifici per la progettazione e la fornitura di percorsi di clienti migliori.
 
-* **Ottimizzazione predittiva del tempo di invio** prevede qual è il tempo di invio migliore per ciascun profilo destinatario per quanto riguarda l’apertura di e-mail o clic e l’apertura di messaggi push. Per ciascun profilo destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e in quale giorno feriale si possono ottenere risultati ottimali.
+* **L&#39;ottimizzazione predittiva del tempo di invio** prevede quale sia il tempo di invio migliore per ciascun profilo destinatario per quanto riguarda l&#39;apertura di e-mail o clic e l&#39;apertura di messaggi push. Per ciascun profilo destinatario, i punteggi indicano il tempo di invio migliore per ogni giorno feriale e in quale giorno feriale si possono ottenere risultati ottimali.
 
-* **Punteggio predittivo di coinvolgimento**: prevede la probabilità che un destinatario sia interessato a un messaggio e la probabilità che lo rifiuti (cancellando la sottoscrizione) entro i 7 giorni successivi al prossimo invio dell’e-mail. Le probabilità sono ulteriormente suddivise in contenitori in base al livello di coinvolgimento previsto con il contenuto: alto, medio o basso. Questi modelli forniscono anche il livello percentile di rischio di annullamento dell’abbonamento affinché i clienti possano capire qual è il livello di un determinato cliente in relazione agli altri.
+* **Punteggio di coinvolgimento predittivo**: prevede la probabilità che un destinatario sia interessato a un messaggio e la probabilità che lo rifiuti (annullando l&#39;abbonamento) entro i successivi 7 giorni dall&#39;invio dell&#39;e-mail. Le probabilità sono ulteriormente suddivise in contenitori in base al livello di coinvolgimento previsto con il contenuto: alto, medio o basso. Questi modelli forniscono anche il livello percentile di rischio di annullamento dell’abbonamento affinché i clienti possano capire qual è il livello di un determinato cliente in relazione agli altri.
 
 ## Ottimizzazione del tempo di invio predittivo{#predictive-send-time}
 
@@ -35,9 +35,9 @@ L’ottimizzazione predittiva del tempo di invio prevede qual è il tempo di inv
 
 Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due modelli secondari:
 
-* **Tempo di invio predittivo per l’apertura** è il momento migliore per inviare una comunicazione al cliente in modo da massimizzare le aperture
+* **Il tempo di invio predittivo per l&#39;apertura** è il momento migliore per inviare una comunicazione al cliente per massimizzare l&#39;apertura
 
-* **Tempo di invio predittivo per il clic** è il momento migliore per inviare una comunicazione al cliente per massimizzare i clic
+* **Il tempo di invio predittivo per il clic** è il momento migliore per inviare una comunicazione al cliente per massimizzare i clic
 
 **Modello entrata**: registri di consegna, registri di tracciamento e attributi di profilo (non PII)
 
@@ -80,7 +80,7 @@ Per impostazione predefinita, i punteggi dei profili danno l’orario migliore d
 
 ### Invia messaggi al momento migliore{#use-predictive-send-time}
 
-Affinché le e-mail possano essere inviate al momento ottimale per ogni profilo, la consegna deve essere pianificata utilizzando l’opzione **[!UICONTROL Send at a custom date defined by a formula]**.
+Affinché le e-mail possano essere inviate al momento ottimale per ogni profilo, la consegna deve essere pianificata utilizzando l&#39;opzione **[!UICONTROL Send at a custom date defined by a formula]**.
 
 Scopri come calcolare la data di invio [in questa sezione](../../sending/using/computing-the-sending-date.md).
 
@@ -109,9 +109,9 @@ Le probabilità sono ulteriormente suddivise in contenitori in base al livello d
 
 Il punteggio di coinvolgimento predittivo consente di:
 
-* **Selezionare un pubblico**: utilizzando l’attività di query, puoi selezionare il pubblico con cui interagire con un messaggio specifico
-* **Escludere un pubblico**: utilizzando l’attività di query, puoi rimuovere il pubblico a cui è più probabile annullare l’abbonamento
-* **Personalizzazione**: personalizza i messaggi in base al livello di coinvolgimento (gli utenti altamente coinvolti riceveranno un messaggio diverso da quelli non coinvolti)
+* **Seleziona un pubblico**: utilizzando l&#39;attività di query, puoi selezionare il pubblico con cui interagire con un messaggio specifico
+* **Escludere un pubblico**: utilizzando l&#39;attività di query, è possibile rimuovere il pubblico a cui è più probabile annullare l&#39;abbonamento
+* **Personalizza**: personalizza i messaggi in base al livello di coinvolgimento (gli utenti altamente coinvolti riceveranno un messaggio diverso da quelli non coinvolti)
 
 Questo modello utilizza più punteggi per indicare:
 

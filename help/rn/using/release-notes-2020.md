@@ -236,7 +236,7 @@ ht-degree: 97%
 **Funzionalità aggiuntive** (a partire dal 13 luglio)
 
 * **Ottimizzazione dei tempi di invio e valutazione del profilo con tecnologia AI**: ora puoi ottimizzare la progettazione e la consegna dei percorsi dei clienti per prevedere le preferenze di coinvolgimento di ogni individuo. Basato sull’intelligenza artificiale Journey AI, Adobe Campaign può analizzare e prevedere i tassi di apertura, i tempi di invio ottimali e la probabilità di abbandono in base alle metriche di coinvolgimento storiche. [Ulteriori informazioni](../../sending/using/predictive.md)
-* **Brasile: nuova normativa sulla privacy** - Oltre alle funzionalità per la privacy già disponibili in Campaign, Adobe facilita la tua preparazione al Lei Geral de Proteçao de Datos (LGPD) del Brasile. Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento LGPD è stato aggiunto al servizio core Privacy di Adobe. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html)
+* **Brasile: nuova normativa sulla privacy**: oltre alle funzionalità per la privacy già disponibili in Campaign, Adobe facilita la tua preparazione al Lei Geral de Proteçao de Datos (LGPD) del Brasile. Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento LGPD è stato aggiunto al servizio core Privacy di Adobe. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html)
 
 **Miglioramenti**
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 **Integrazioni con Experience Platform**
 
-* Attivazione di tipi di pubblico di Adobe Experience Platform dalla **Read audience** L&#39;attività è stata migliorata per fornire prestazioni e stabilità migliori. Inoltre, i log del flusso di lavoro sono stati resi più chiari e dettagliati per quanto riguarda i processi di attivazione, consentendo un monitoraggio e una risoluzione dei problemi più semplice durante la lettura dei tipi di pubblico in Adobe Experience Platform.
+* L&#39;attivazione di Adobe Experience Platform Audiences dall&#39;attività **Read audience** è stata migliorata per fornire prestazioni e stabilità migliori. Inoltre, i log del flusso di lavoro sono stati resi più chiari e dettagliati per quanto riguarda i processi di attivazione, consentendo un monitoraggio e una risoluzione dei problemi più semplice durante la lettura dei tipi di pubblico in Adobe Experience Platform.
 
 **Patch**
 
@@ -360,7 +360,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Le funzionalità di Adobe Experience Platform in Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette ad aggiornamenti frequenti senza preavviso. Consulta la documentazione dettagliata: Connettore dati Experienci Platform, Audience Destinations
+>Le funzionalità di Adobe Experience Platform in Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette ad aggiornamenti frequenti senza preavviso. Consulta la documentazione dettagliata: Connettore dati Experience Platform, Audience Destinations
 
 * Nei registri del flusso di lavoro, Campaign ora visualizza ogni 10 minuti il numero di record già elaborati dal processo attualmente in esecuzione.
 * È stato risolto un problema che poteva verificarsi durante l’importazione di un profilo Adobe Experience Platform eliminato dal database.

@@ -36,13 +36,13 @@ Per creare il flusso di lavoro, effettua le seguenti operazioni:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Conferma l’attività.
-1. Trascina una [Carica file](../../automating/using/load-file.md) attività nel flusso di lavoro e inseriscila dopo **[!UICONTROL Transfer file]** attività.
+1. Trascina e rilascia un&#39;attività [Load file](../../automating/using/load-file.md) nel flusso di lavoro e inseriscila dopo l&#39;attività **[!UICONTROL Transfer file]**.
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
 1. Nella sezione **[!UICONTROL File to load]** della scheda **[!UICONTROL Execution]**, seleziona l’opzione **[!UICONTROL Use the file specified in the inbound transition]**.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Configura l’attività come specificato in precedenza.
-1. Trascina e rilascia una [Aggiorna dati](../../automating/using/update-data.md) attività nel flusso di lavoro e inseriscila dopo **[!UICONTROL Load file]** attività, quindi configurala.
+1. Trascina e rilascia un&#39;attività [Update data](../../automating/using/update-data.md) nel flusso di lavoro e inseriscila dopo l&#39;attività **[!UICONTROL Load file]**, quindi configurala.
 
 Una volta avviato il flusso di lavoro, i dati del file caricato vengono estratti e quindi utilizzati per arricchire il database di Adobe Campaign.

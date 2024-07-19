@@ -79,7 +79,7 @@ Per evitare tali problemi, Adobe consiglia di seguire le best practice riportate
 * Di tanto in tanto, effettua l’accesso a SFTP per verificare direttamente ciò che vi si trova.
 * Ricorda che la gestione del disco SFTP è principalmente una tua responsabilità.
 
-Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti al inserisco nell&#39;elenco Consentiti di sull’istanza Campaign. L’aggiunta di indirizzi IP al inserisco nell&#39;elenco Consentiti di può essere richiesta tramite un’ [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), oltre a fornire la chiave pubblica da utilizzare per l&#39;autenticazione.
+Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti al inserisco nell&#39;elenco Consentiti di sull’istanza Campaign. È possibile richiedere l&#39;aggiunta di indirizzi IP al inserisco nell&#39;elenco Consentiti di tramite un [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) e fornire la chiave pubblica da utilizzare per l&#39;autenticazione.
 
 I server SFTP possono essere gestiti dal Pannello di controllo. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -91,12 +91,12 @@ I server SFTP possono essere gestiti dal Pannello di controllo. Per ulteriori in
 
 Per un account esterno OAuth 2.0, fornisci i seguenti dettagli:
 
-* A **Tipo di concessione**: solo **credenziali client** è supportato.
-* A **URL API protetto**: immetti l’endpoint di autorizzazione.
-* **Credenziali sensibili OAuth 2.0**: questa sezione è destinata alle credenziali che per loro natura sono sensibili. I valori delle credenziali vengono nascosti sullo schermo dopo che sono stati aggiunti; a questo punto, non saranno leggibili né modificabili. Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo del POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
-* **Credenziali non sensibili di OAuth 2.0**: questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo che sono stati aggiunti; saranno anche modificabili.  Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo del POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
+* Tipo di concessione **1}: sono supportate solo** credenziali client **.**
+* Un **URL API protetto**: immettere l&#39;endpoint di autorizzazione.
+* **Credenziali sensibili OAuth 2.0**: questa sezione è destinata alle credenziali sensibili per natura. I valori delle credenziali vengono nascosti sullo schermo dopo che sono stati aggiunti; a questo punto, non saranno leggibili né modificabili. Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo del POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
+* **Credenziali non riservate OAuth 2.0**: questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo che sono stati aggiunti; saranno anche modificabili.  Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo del POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
 
-Dopo aver inserito le informazioni sull’account, fai clic su **Verifica connessione** per verificare che l’account esterno sia stato configurato correttamente.
+Dopo aver immesso le informazioni sull&#39;account, fare clic su **Verifica connessione** per verificare che l&#39;account esterno sia stato configurato correttamente.
 
 ![](assets/external_accounts_OAuth.png)
 

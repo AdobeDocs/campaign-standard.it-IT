@@ -21,19 +21,19 @@ Puoi creare &quot;moduli&quot; sui siti AEM e mappare i campi di un modulo ai ca
 
 Per creare un modulo Adobe Campaign sul sito AEM:
 
-1. Nel sito AEM, crea una nuova pagina basata sul **Profilo Adobe Campaign** modello.
+1. Nel tuo sito AEM, crea una nuova pagina basata sul modello **Adobe Campaign Profile**.
 
    ![](assets/aem_content_forms.png)
 
-1. Nelle proprietà della pagina, seleziona la **[!UICONTROL Cloud Service]** corrisponde all’istanza di Adobe Campaign.
+1. Nelle proprietà della pagina, seleziona **[!UICONTROL Cloud Service]** corrispondente alla tua istanza di Adobe Campaign.
 
    ![](assets/aem_content_forms_2.png)
 
-1. Seleziona il tipo di modulo da **[!UICONTROL Form Start]** componente:
+1. Selezionare il tipo di modulo dal componente **[!UICONTROL Form Start]**:
 
    * **Adobe Campaign: Salva profilo**
-   * **Adobe Campaign: abbonati ai servizi**
-   * **Adobe Campaign: Annulla iscrizione a servizi**
+   * **Adobe Campaign: abbonati a servizi**
+   * **Adobe Campaign: Annulla abbonamento a servizi**
 
 1. Modifica il contenuto del modulo aggiungendo diversi campi e componenti che puoi mappare ai campi del database di Adobe Campaign.
 1. Testare e pubblicare il modulo per renderlo accessibile sul sito AEM.

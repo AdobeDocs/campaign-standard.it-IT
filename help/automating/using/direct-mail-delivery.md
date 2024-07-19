@@ -26,8 +26,8 @@ ht-degree: 93%
 
 L’attività **[!UICONTROL Direct mail delivery]** ti consente di configurare e preparare un file contenente i dati di profilo che desideri utilizzare per una campagna di direct mailing. Può trattarsi di una direct mailing utilizzata una sola volta, o di una direct mailing ricorrente.
 
-* **Standard** le direct mailing vengono inviate una volta.
-* **Ricorrente** Le e-mail ti consentono di inviare la stessa direct mailing più volte a destinazioni diverse in un determinato periodo di tempo. Puoi aggregare le consegne per periodo in modo da ottenere report che corrispondano alle tue esigenze.
+* **Le direct mailing standard** vengono inviate una volta.
+* Le **e-mail ricorrenti** ti consentono di inviare la stessa direct mailing più volte a destinazioni diverse in un determinato periodo di tempo. Puoi aggregare le consegne per periodo in modo da ottenere report che corrispondano alle tue esigenze.
 
 ## Contesto di utilizzo {#context-of-use}
 

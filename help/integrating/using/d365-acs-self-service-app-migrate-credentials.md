@@ -19,20 +19,20 @@ ht-degree: 1%
 
 Le credenziali dell’account di servizio (JWT) sono diventate obsolete e hanno sostituito le nuove credenziali server-to-server OAuth. Le nuove credenziali semplificano la gestione delle applicazioni Adobe. Elimina inoltre la necessità di ruotare periodicamente i certificati e funziona come strumento preconfigurato utilizzando le librerie OAuth2 standard.
 
-Le credenziali dell’account di servizio (JWT) sono state contrassegnate come obsolete, ma continueranno a funzionare fino al 1° gennaio 2025. Pertanto, è necessario migrare l’integrazione per utilizzare le nuove credenziali server-to-server OAuth prima del 1° gennaio 2025. Verifica [timeline obsoleti](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines) per ulteriori informazioni
+Le credenziali dell’account di servizio (JWT) sono state contrassegnate come obsolete, ma continueranno a funzionare fino al 1° gennaio 2025. Pertanto, è necessario migrare l’integrazione per utilizzare le nuove credenziali server-to-server OAuth prima del 1° gennaio 2025. Controlla le [timeline obsolete](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines) per ulteriori informazioni
 
 ## Passaggi per migrare le credenziali da JWT a OAuth Server-to-Server
 
 La migrazione alle credenziali server-to-server OAuth è un processo semplice che consente una migrazione senza tempi di inattività per l’applicazione. Puoi seguire i passaggi riportati di seguito per eseguire la migrazione delle credenziali.
 
-1. Accedi a [Console Adobe Developer](https://developer.adobe.com/console)
+1. Accedi a [Adobe Developer Console](https://developer.adobe.com/console)
 2. Dal menu di filtraggio sul lato sinistro, seleziona l’opzione Con credenziali dell’account di servizio (JWT). In questo modo vengono visualizzati tutti i progetti con credenziali dell’account di servizio (JWT). Dall’elenco dei progetti, fai clic sul progetto di cui intendi eseguire la migrazione.
 
    ![](assets/JwtToOAuthMigration1.png)
 
-3. Apri la scheda delle credenziali dell’account di servizio (JWT) dal menu di navigazione a sinistra e visualizza la scheda di migrazione. Sulla scheda di migrazione, fai clic sul pulsante **Aggiungi nuove credenziali** per aggiungere credenziali server-to-server OAuth equivalenti. L&#39;aggiunta di una credenziale da server a server OAuth al progetto avvierà la migrazione.
+3. Apri la scheda delle credenziali dell’account di servizio (JWT) dal menu di navigazione a sinistra e visualizza la scheda di migrazione. Sulla scheda di migrazione fare clic sul pulsante **Aggiungi nuove credenziali** per aggiungere credenziali server-to-server OAuth equivalenti. L&#39;aggiunta di una credenziale da server a server OAuth al progetto avvierà la migrazione.
    ![](assets/JwtToOAuthMigration2.png)
-4. Le nuove credenziali **OAuth Server-to-Server** verrà aggiunta alla barra di navigazione a sinistra.
+4. Le nuove credenziali **OAuth Server-to-Server** verranno aggiunte al pannello di navigazione a sinistra.
    * Per annullare la migrazione, fai clic su Annulla migrazione.
    * Non fare clic sul pulsante Review and Delete (Rivedi ed elimina) fino a quando non si verifica se la nuova credenziale OAuth Server-to-Server funziona.
      ![](assets/JwtToOAuthMigration3.png)
@@ -41,7 +41,7 @@ La migrazione alle credenziali server-to-server OAuth è un processo semplice ch
    * Accedi all’app di integrazione e passa alla pagina Impostazioni.
    * Selezionate OAuth come tipo di autenticazione.
    * Poiché la nuova credenziale da server a server OAuth utilizza le stesse credenziali della precedente credenziale dell’account di servizio (JWT), la maggior parte dei campi sarà già compilata.
-   * Immetti l’ID client e il segreto client. Questi si trovano nel progetto nella console Adobe Developer.
+   * Immetti l’ID client e il segreto client. Questi si trovano nel progetto in Adobe Developer Console.
    * Fai clic su Salva per salvare le impostazioni.
      ![](assets/JwtToOAuthMigration4.png)
 
@@ -52,12 +52,12 @@ La migrazione alle credenziali server-to-server OAuth è un processo semplice ch
    * Monitora i flussi di lavoro per alcuni minuti per assicurarti che funzionino correttamente. Puoi anche controllare i dati in Adobe Campaign Standard e Microsoft Dynamics 365 per verificare che vengano sincronizzati correttamente.
 
 7. Elimina le credenziali JWT per completare la migrazione
-   * Accedi a [Console Adobe Developer](https://developer.adobe.com/console)
+   * Accedi a [Adobe Developer Console](https://developer.adobe.com/console)
    * Fai clic sui progetti e seleziona il progetto di cui hai eseguito la migrazione.
    * Dalla navigazione a sinistra, fai clic sulla scheda delle credenziali dell’account di servizio (JWT).
    * Fai clic sul pulsante Review and Delete (Rivedi ed elimina).
      ![](assets/JwtToOAuthMigration5.png)
    * Controlla la marca temporale dell’ultimo accesso o menu utilizzato per verificare se l’app di integrazione genera token di accesso utilizzando la nuova credenziale OAuth o ancora utilizzando la vecchia credenziale JWT.
      ![](assets/JwtToOAuthMigration6.png)
-   * Una volta verificato che l’app di integrazione utilizza la nuova credenziale OAuth e non utilizza più la credenziale JWT, procedi all’eliminazione della vecchia credenziale facendo clic sul pulsante **Conferma e continua** per completare la migrazione.
+   * Una volta verificato che l&#39;applicazione di integrazione sta utilizzando la nuova credenziale OAuth e non utilizza più la credenziale JWT, procedi all&#39;eliminazione della vecchia credenziale facendo clic sul pulsante **Conferma e continua**, completando in tal modo la migrazione.
      ![](assets/JwtToOAuthMigration7.png)

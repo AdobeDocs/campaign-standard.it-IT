@@ -15,19 +15,19 @@ ht-degree: 3%
 
 # Audit trail {#audit}
 
-Il **[!UICONTROL Audit trail]** consente di accedere alla cronologia completa delle modifiche apportate all’interno dell’istanza.
+**[!UICONTROL Audit trail]** consente di accedere alla cronologia completa delle modifiche apportate all&#39;interno dell&#39;istanza.
 
-**[!UICONTROL Audit trail]** acquisisce in tempo reale un elenco completo delle azioni e degli eventi che si verificano all’interno dell’istanza di Adobe Campaign Standard. Include una modalità autonoma di accedere alla cronologia dei dati per poter rispondere a domande quali: cosa è successo ai flussi di lavoro, risorse personalizzate e opzioni, chi li ha aggiornati per ultimo o cosa hanno fatto i tuoi utenti nell’istanza.
+**[!UICONTROL Audit trail]** acquisisce in tempo reale un elenco completo delle azioni e degli eventi che si verificano nell&#39;istanza Adobe Campaign Standard. Include una modalità autonoma di accedere alla cronologia dei dati per poter rispondere a domande quali: cosa è successo ai flussi di lavoro, risorse personalizzate e opzioni, chi li ha aggiornati per ultimo o cosa hanno fatto i tuoi utenti nell’istanza.
 
 ![](assets/audit-trail.png)
 
 **[!UICONTROL Audit trail]** è costituito da tre componenti:
 
-* **Audit trail delle risorse personalizzate**: controlla l’attività e l’ultima modifica apportata alle risorse personalizzate.
+* **Audit trail delle risorse personalizzate**: controlla l&#39;attività e l&#39;ultima modifica apportata alle risorse personalizzate.
 
-  Per ulteriori informazioni su **[!UICONTROL Custom resources]**, fai riferimento a questo [pagina](../../developing/using/key-steps-to-add-a-resource.md).
+  Per ulteriori informazioni su **[!UICONTROL Custom resources]**, fare riferimento a questa [pagina](../../developing/using/key-steps-to-add-a-resource.md).
 
-* **Audit trail del flusso di lavoro**: controlla l’attività e l’ultima modifica apportata ai flussi di lavoro e, inoltre, lo stato dei flussi di lavoro, ad esempio:
+* **Audit trail flusso di lavoro**: controlla l&#39;attività e l&#39;ultima modifica apportata ai flussi di lavoro e, inoltre, lo stato dei flussi di lavoro, ad esempio:
 
    * Creato
    * Modificato
@@ -43,11 +43,11 @@ Il **[!UICONTROL Audit trail]** consente di accedere alla cronologia completa de
    * Riavvio del flusso di lavoro con lo stesso utente
    * Comando Riavvio flusso di lavoro sconosciuto
 
-  Per ulteriori informazioni su **[!UICONTROL Workflows]**, fai riferimento a questo [pagina](../../automating/using/get-started-workflows.md).
+  Per ulteriori informazioni su **[!UICONTROL Workflows]**, fare riferimento a questa [pagina](../../automating/using/get-started-workflows.md).
 
-* **Option Audit trail**: controlla l’attività e l’ultima modifica apportata alle opzioni.
+* **Option Audit trail**: controlla l&#39;attività e l&#39;ultima modifica apportata alle opzioni.
 
-  Per ulteriori informazioni su **[!UICONTROL Options]**, fai riferimento a questo [pagina](../../administration/using/about-campaign-standard-settings.md).
+  Per ulteriori informazioni su **[!UICONTROL Options]**, fare riferimento a questa [pagina](../../administration/using/about-campaign-standard-settings.md).
 
 Per impostazione predefinita, il periodo di conservazione è di 30 giorni.
 
@@ -55,17 +55,17 @@ Per impostazione predefinita, il periodo di conservazione è di 30 giorni.
 
 Per accedere all’Audit trail dell’istanza:
 
-1. In Adobe Campaign Standard, dal menu avanzato, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**.
+1. In Adobe Campaign Standard, dal menu avanzato, selezionare **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**.
 
    ![](assets/audit-trail.png)
 
-1. Il **[!UICONTROL Audit trail]** viene visualizzata la finestra con l&#39;elenco delle entità. Adobe Campaign Standard controllerà le azioni di creazione, modifica ed eliminazione per flussi di lavoro, opzioni e risorse personalizzate.
+1. Viene visualizzata la finestra **[!UICONTROL Audit trail]** con l&#39;elenco delle entità. Adobe Campaign Standard controllerà le azioni di creazione, modifica ed eliminazione per flussi di lavoro, opzioni e risorse personalizzate.
 
-   Dalla sezione **[!UICONTROL Search]** puoi filtrare l’entità in base a:
+   Dal menu **[!UICONTROL Search]**, puoi filtrare l&#39;entità in base a:
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
-   * **[!UICONTROL Type]**: tipo di entità tra Tutti, Flusso di lavoro, Risorsa personalizzata e Opzione.
+   * **[!UICONTROL Type]**: tipo di entità tra tutti, flusso di lavoro, risorsa personalizzata e opzione.
    * **[!UICONTROL Entity name]**: ID del flusso di lavoro, opzione o risorsa personalizzata
 
    ![](assets/audit-trail_2.png)
@@ -76,9 +76,9 @@ Per accedere all’Audit trail dell’istanza:
 
    * **[!UICONTROL Entity]**: ID del flusso di lavoro, opzione o risorsa personalizzata.
    * **[!UICONTROL Action]**: ultima azione eseguita su questa entità.
-   * **[!UICONTROL Changed by]**: nome utente dell’ultima persona che ha modificato questa entità.
-   * **[!UICONTROL Changed date]**: data dell’ultima azione eseguita su questa entità.
-   * **[!UICONTROL Content]**: blocco di codice che fornisce ulteriori informazioni su ciò che è stato modificato esattamente nell’entità.
+   * **[!UICONTROL Changed by]**: nome utente dell&#39;ultima persona che ha modificato l&#39;entità.
+   * **[!UICONTROL Changed date]**: data dell&#39;ultima azione eseguita su questa entità.
+   * **[!UICONTROL Content]**: blocco di codice che fornisce ulteriori informazioni su ciò che è stato modificato esattamente nell&#39;entità.
 
    In questo esempio, possiamo vedere che il flusso di lavoro WKF110 è stato avviato il 26 agosto dall’amministratore Business di questa istanza.
 
@@ -94,24 +94,24 @@ Audit trail può essere facilmente attivato o disattivato per un’attività spe
 
 Per eseguire questa operazione:
 
-1. In Adobe Campaign Standard, dal menu avanzato, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. In Adobe Campaign Standard, dal menu avanzato, selezionare **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
    ![](assets/audit-trail_4.png)
 
 1. Selezionate una delle seguenti opzioni a seconda dell&#39;entità da disattivare:
 
-   * **[!UICONTROL XtkAudit_Workflows]** per gestire Audit trail per i flussi di lavoro.
-   * **[!UICONTROL XtkAudit_Option]** per gestire Audit trail per le opzioni.
-   * **[!UICONTROL XtkAudit_CusResource]** per gestire Audit trail per le risorse personalizzate.
-   * **[!UICONTROL XtkAudit_Enable_All]** per gestire Audit trail per ogni entità.
+   * Opzione **[!UICONTROL XtkAudit_Workflows]** per gestire l&#39;Audit trail per i flussi di lavoro.
+   * Opzione **[!UICONTROL XtkAudit_Option]** per gestire l&#39;audit trail per le opzioni.
+   * Opzione **[!UICONTROL XtkAudit_CusResource]** per gestire l&#39;audit trail per le risorse personalizzate.
+   * Opzione **[!UICONTROL XtkAudit_Enable_All]** per gestire l&#39;audit trail per ogni entità.
 
      >[!NOTE]
      >
-     >Se il **[!UICONTROL XtkAudit_Enable_All]** è impostato su 0, il **[!UICONTROL Audit trail]** La funzione verrà completamente disabilitata, indipendentemente dagli altri valori delle singole opzioni.
+     >Se l&#39;opzione **[!UICONTROL XtkAudit_Enable_All]** è impostata su 0, la funzionalità **[!UICONTROL Audit trail]** verrà completamente disabilitata, indipendentemente dagli altri valori delle singole opzioni.
 
    ![](assets/audit-trail_5.png)
 
-1. Dal tuo **[!UICONTROL Options]** pagina, imposta **[!UICONTROL Value (integer)]** a 0 se si desidera disabilitare **[!UICONTROL Audit trail]** o a 1 per abilitarlo.
+1. Dalla pagina **[!UICONTROL Options]**, impostare **[!UICONTROL Value (integer)]** su 0 se si desidera disabilitare **[!UICONTROL Audit trail]** o su 1 per abilitarlo.
 
    ![](assets/audit-trail_6.png)
 

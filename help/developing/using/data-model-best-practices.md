@@ -23,7 +23,7 @@ Questo documento illustra i consigli chiave durante la progettazione del modello
 
 >[!NOTE]
 >
->Per creare e modificare le risorse al fine di estendere il modello dati predefinito di Adobe Campaign, consulta [questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
+>Per creare e modificare le risorse per estendere il modello dati predefinito di Adobe Campaign, consulta [questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
 >
 >Puoi trovare una rappresentazione del modello dati delle risorse incorporate in [questa pagina](../../developing/using/datamodel-introduction.md).
 
@@ -41,11 +41,11 @@ Adobe Campaign Standard è un potente sistema di gestione delle campagne cross-c
 
 Mentre la maggior parte dei provider di servizi e-mail comunica con i clienti tramite un approccio incentrato sugli elenchi, Adobe Campaign si basa su un database relazionale per sfruttare una visione più ampia dei clienti e dei loro attributi.
 
-Questo approccio incentrato sul cliente è illustrato nel grafico seguente. Il **Profilo** la risorsa in grigio rappresenta la tabella principale del cliente intorno alla quale viene creato tutto:
+Questo approccio incentrato sul cliente è illustrato nel grafico seguente. La risorsa **Profile** in grigio rappresenta la tabella principale del cliente intorno alla quale viene creato tutto:
 
 ![](assets/customer-centric-data-model.png)
 
-Il modello dati predefinito di Adobe Campaign è presentato in questo [sezione](../../developing/using/datamodel-introduction.md).
+Il modello dati predefinito di Adobe Campaign è presentato in questa [sezione](../../developing/using/datamodel-introduction.md).
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -67,9 +67,9 @@ Quali dati devono essere inviati ad Adobe Campaign? È fondamentale determinare 
 
 Per decidere se un attributo sia necessario o meno in Adobe Campaign, determina se rientra in una delle seguenti categorie:
 * Attributo utilizzato per **segmentazione**
-* Attributo utilizzato per **processi di gestione dei dati** (ad esempio, calcolo aggregato).
-* Attributo utilizzato per **personalizzazione**
-* Attributo utilizzato per **reportistica** (i rapporti possono essere creati in base a dati di profilo personalizzati)
+* Attributo utilizzato per **processi di gestione dati** (ad esempio, calcolo aggregato)
+* Attributo utilizzato per **personalization**
+* Attributo utilizzato per il **reporting** (i report possono essere creati in base ai dati di profilo personalizzati)
 
 Se non rientra in nessuno di questi, molto probabilmente non avrai bisogno di questo attributo in Adobe Campaign.
 
@@ -81,7 +81,7 @@ Per garantire una buona architettura e prestazioni del sistema, segui le best pr
 
 ## Configurazione della struttura dati {#configuring-data-structure}
 
-Questa sezione descrive le best practice da seguire quando [configurazione della struttura dati di una risorsa](../../developing/using/configuring-the-resource-s-data-structure.md).
+Questa sezione descrive le best practice per [configurare la struttura dati di una risorsa](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 ### Identificatori {#identifiers}
 
@@ -95,14 +95,14 @@ La tabella seguente descrive tali identificatori e il loro scopo.
 
 | Nome visualizzato | Nome tecnico | Descrizione | Best practice |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey è la chiave primaria fisica di una tabella Adobe Campaign.</li><li>Questo identificatore è in genere univoco per una specifica istanza di Adobe Campaign.</li><li>In Adobe Campaign Standard, questo valore non è visibile all’utente finale (tranne negli URL).</li></ul> | <ul><li>Attraverso il [Sistema API](../../api/using/get-started-apis.md), è possibile recuperare un valore PKey (che è un valore generato/con hash, non la chiave fisica).</li><li>Si consiglia di non utilizzarlo per scopi diversi dal recupero, aggiornamento o eliminazione di record tramite API.</li></ul> |
+|  | PKey | <ul><li>PKey è la chiave primaria fisica di una tabella Adobe Campaign.</li><li>Questo identificatore è in genere univoco per una specifica istanza di Adobe Campaign.</li><li>In Adobe Campaign Standard, questo valore non è visibile all’utente finale (tranne negli URL).</li></ul> | <ul><li>Tramite il sistema [API](../../api/using/get-started-apis.md), è possibile recuperare un valore PKey (che è un valore generato/con hash, non la chiave fisica).</li><li>Si consiglia di non utilizzarlo per scopi diversi dal recupero, aggiornamento o eliminazione di record tramite API.</li></ul> |
 | ID | nome o internalName | <ul><li>Queste informazioni sono un identificatore univoco di un record in una tabella. Questo valore può essere aggiornato manualmente.</li><li>Questo identificatore mantiene il suo valore quando distribuito in un’istanza diversa di Adobe Campaign. Deve avere un nome diverso rispetto al valore generato per essere esportabile tramite un pacchetto.</li><li>Questa non è la chiave primaria effettiva della tabella.</li></ul> | <ul><li>Non utilizzare caratteri speciali come lo spazio &quot;&quot;, la semiconna &quot;:&quot; o il trattino &quot;-&quot;.</li><li>Tutti questi caratteri verrebbero sostituiti da un carattere di sottolineatura &quot;_&quot; (carattere consentito). Ad esempio, &quot;abc-def&quot; e &quot;abc:def&quot; verrebbero memorizzati come &quot;abc_def&quot; e si sovrascriverebbero a vicenda.</li></ul> |
 | Etichetta | etichetta | <ul><li>L’etichetta è l’identificatore aziendale di un oggetto o di un record in Adobe Campaign.</li><li>Questo oggetto consente spazi e caratteri speciali.</li><li>Non garantisce l&#39;univocità di un record.</li></ul> | <ul><li>Si consiglia di determinare una struttura per le etichette degli oggetti.</li><li>Questa è la soluzione più semplice da usare per identificare un record o un oggetto per un utente di Adobe Campaign.</li></ul> |
 | ID ACS | acsId | <ul><li>È possibile generare un identificatore aggiuntivo: [ID ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Poiché PKey non può essere utilizzato nell’interfaccia utente di Adobe Campaign, si tratta di una soluzione per ottenere un valore univoco generato durante l’inserimento di un record di profilo.</li><li>Il valore può essere generato automaticamente solo se l’opzione è abilitata nella risorsa prima che un record venga inserito in Adobe Campaign.</li></ul> | <ul><li>Questo UUID può essere utilizzato come chiave di riconciliazione.</li><li>Un ID ACS generato automaticamente non può essere utilizzato come riferimento in un flusso di lavoro o in una definizione di pacchetto.</li><li>Questo valore è specifico di un’istanza Adobe Campaign.</li></ul> |
 
 ### Chiavi di identificazione {#keys}
 
-Ogni risorsa creata in Adobe Campaign deve avere almeno una [chiave di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+Ogni risorsa creata in Adobe Campaign deve avere almeno una [chiave di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) univoca.
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -121,7 +121,7 @@ Le chiavi di identificazione non devono essere utilizzate come riferimento nei f
 
 ### Indici {#indexes}
 
-Adobe Campaign aggiunge automaticamente un [index](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) a tutte le chiavi primarie e interne definite in una risorsa.
+Adobe Campaign aggiunge automaticamente un [indice](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) a tutte le chiavi primarie e interne definite in una risorsa.
 
 * L’Adobe consiglia di definire indici aggiuntivi in quanto possono migliorare le prestazioni.
 * Tuttavia, non aggiungere troppi indici in quanto utilizzano spazio nel database. Anche numerosi indici possono avere un impatto negativo sulle prestazioni.

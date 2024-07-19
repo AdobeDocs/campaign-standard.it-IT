@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Ordinamento
 
-L’ordinamento è disponibile per impostazione predefinita in ordine crescente. Per ordinare in ordine decrescente, aggiungi **%20desc** al **_ordina** valore del parametro.
+L’ordinamento è disponibile per impostazione predefinita in ordine crescente. Per ordinare in ordine decrescente, aggiungere **%20desc** al valore del parametro **_order**.
 
 Per sapere se un campo può essere ordinato, controlla il parametro &quot;sortable&quot; nei metadati della risorsa. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../api/using/metadata-mechanism.md).
 

@@ -29,31 +29,31 @@ Di seguito sono riportati i periodi di conservazione predefiniti per le tabelle 
 * **Registri di consegna**: 6 mesi (consigliato: 1 mese)
 * **Registri di tracciamento**: 6 mesi (consigliato: 1 mese)
 * **Eventi**: 1 mese
-* **Statistiche sull’elaborazione degli eventi**: 6 mesi (consigliato: 1 mese)
+* **Statistiche sull&#39;elaborazione dell&#39;evento**: 6 mesi (consigliato: 1 mese)
 * **Eventi archiviati**: 6 mesi (consigliato: 1 mese)
 * **Entità temporanee**: 7 giorni
 * **Eventi pipeline ignorati**: 1 mese
 * **Avvisi di consegna**: 1 mese
-* **Esporta controllo**: 6 mesi (consigliato: 1 mese)
+* **Controllo delle esportazioni**: 6 mesi (consigliato: 1 mese)
 
 ## Periodo di conservazione per le consegne {#deliveries}
 
 Per impostazione predefinita, il periodo di conservazione per le consegne è illimitato.
 
-Tuttavia, se il volume di consegne nell’istanza è elevato, puoi aggiornare **NmsCleanup_DeliveryPurgeDelay** opzione disponibile dal **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
+Tuttavia, se nell&#39;istanza è presente un numero elevato di consegne, è possibile aggiornare l&#39;opzione **NmsCleanup_DeliveryPurgeDelay** disponibile nel menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]**.
 
-Ogni volta che **[!UICONTROL Database cleanup]** viene eseguito il flusso di lavoro, le consegne che soddisfano le condizioni impostate per questa opzione verranno eliminate.
+Ogni volta che si esegue il flusso di lavoro **[!UICONTROL Database cleanup]**, le consegne che soddisfano le condizioni impostate per questa opzione verranno eliminate.
 
-Questa azione può contribuire ad accelerare processi quali **[!UICONTROL Copy headers from delivery templates]** flusso di lavoro.
+Questa azione può contribuire a velocizzare processi come il flusso di lavoro **[!UICONTROL Copy headers from delivery templates]**.
 
 >[!NOTE]
 >
 >Ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](technical-workflows.md).
 
 
-Il valore predefinito per **NmsCleanup_DeliveryPurgeDelay** l&#39;opzione è `-1`. In questo caso, non viene eliminata alcuna consegna.
+Il valore predefinito per l&#39;opzione **NmsCleanup_DeliveryPurgeDelay** è `-1`. In questo caso, non viene eliminata alcuna consegna.
 
-Ad esempio, se lo imposti su `180`, tutte le consegne non basate su modello che non sono state aggiornate negli ultimi 180 giorni verranno eliminate quando **[!UICONTROL Database cleanup]** flusso di lavoro eseguito.
+Ad esempio, se lo imposti su `180`, tutte le consegne non basate su modello che non sono state aggiornate negli ultimi 180 giorni verranno eliminate quando viene eseguito il flusso di lavoro **[!UICONTROL Database cleanup]**.
 
 >[!NOTE]
 >
@@ -61,5 +61,5 @@ Ad esempio, se lo imposti su `180`, tutte le consegne non basate su modello che 
 >
 >* Per le consegne ricorrenti, le consegne secondarie con periodo di aggregazione impostato come mese o anno non verranno eliminate.
 
-Quando si aggiorna **NmsCleanup_DeliveryPurgeDelay** opzione, si consiglia di procedere gradualmente con più iterazioni. Ad esempio, puoi impostare il valore su 300 giorni, poi su 180 giorni, quindi su 120 giorni e così via, assicurandoti che le iterazioni siano a distanza di almeno 2 giorni. In caso contrario, **[!UICONTROL Database cleanup]** il flusso di lavoro potrebbe richiedere molto più tempo a causa del numero elevato di consegne da eliminare.
+Quando si aggiorna l&#39;opzione **NmsCleanup_DeliveryPurgeDelay**, si consiglia di procedere gradualmente con più iterazioni. Ad esempio, puoi impostare il valore su 300 giorni, poi su 180 giorni, quindi su 120 giorni e così via, assicurandoti che le iterazioni siano a distanza di almeno 2 giorni. In caso contrario, il flusso di lavoro **[!UICONTROL Database cleanup]** potrebbe richiedere molto più tempo a causa del numero elevato di consegne da eliminare.
 

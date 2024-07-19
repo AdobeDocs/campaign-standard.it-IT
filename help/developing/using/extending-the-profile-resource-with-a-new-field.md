@@ -27,7 +27,7 @@ A questo scopo, segui i passaggi riportati qui sotto:
 
 * [Passaggio 1: estendere la risorsa profilo](#step-1--extend-the-profile-resource)
 * [Passaggio 2: estendere il profilo di test](#step-2--extend-the-test-profile)
-* [Passaggio 3: pubblicare la risorsa personalizzata](#step-3--publish-your-custom-resource)
+* [Passaggio 3: Publish della risorsa personalizzata](#step-3--publish-your-custom-resource)
 * [Passaggio 4: aggiornare ed eseguire il targeting dei profili con un flusso di lavoro](#step-4--update-and-target-profiles-with-a-workflow)
 
 Il seguente campo viene aggiunto ai profili e ne viene eseguito il targeting in una consegna:
@@ -119,7 +119,7 @@ Puoi verificare se il nuovo campo creato è configurato correttamente inviando l
 
 Ora il nuovo campo è disponibile sia per i profili sia per i profili di test. Per configurarlo correttamente, devi pubblicare la risorsa personalizzata.
 
-## Passaggio 3: pubblicare la risorsa personalizzata {#step-3--publish-your-custom-resource}
+## Passaggio 3: Publish della risorsa personalizzata {#step-3--publish-your-custom-resource}
 
 Per applicare le modifiche apportate alle risorse e utilizzarle, devi eseguire un aggiornamento del database.
 

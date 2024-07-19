@@ -32,9 +32,9 @@ Il reporting dinamico fornisce rapporti completamente personalizzabili e in temp
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Con reporting dinamico **interfaccia di trascinamento selezione**, puoi esplorare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurarne l’impatto sui destinatari da un’unica posizione.
+Con l&#39;**interfaccia di trascinamento della selezione** per la generazione di rapporti dinamici, puoi esplorare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurarne l&#39;impatto sui destinatari da un&#39;unica posizione.
 
-**Gestire i rapporti dinamici** grazie a varie funzionalità: aggiorna i dati in tempo reale, stampa i rapporti o esportali come file CSV. Puoi anche condividere i rapporti con gli utenti di Campaign Standard tramite e-mail singole o ricorrenti.
+**Gestisci i tuoi report dinamici** grazie a varie funzionalità: aggiorna i dati in tempo reale, stampa i tuoi report o esportali come file CSV. Puoi anche condividere i rapporti con gli utenti di Campaign Standard tramite e-mail singole o ricorrenti.
 
 Ulteriori informazioni:
 
@@ -45,9 +45,9 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard viene fornito con un set di **report dinamici pronti all’uso** consente di misurare più aspetti delle campagne di marketing: mancati recapiti, consegne dichiarate più come spam o posta indesiderata, la maggior parte delle consegne visualizzate dai destinatari, rapporti relativi ai canali, velocità effettiva di consegna e rapporti di tracciamento...
+Campaign Standard include un set di **report dinamici pronti all&#39;uso** che ti consente di misurare più aspetti delle campagne di marketing: mancati recapiti, consegne dichiarate più come spam o posta indesiderata, la maggior parte delle consegne visualizzate dai destinatari, report relativi ai canali, velocità effettiva di consegna e report di tracciamento...
 
-**Combinare diversi componenti** (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o personalizzare rapporti predefiniti.
+**Combina diversi componenti** (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o personalizzare rapporti predefiniti.
 
 Ulteriori informazioni:
 
@@ -59,11 +59,11 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personalizzare i rapporti** sfruttando le funzionalità di progettazione del reporting dinamico: aggiungi tutti i componenti necessari (pannelli e tabelle a forma libera) per analizzare i dati utilizzando le metriche e le dimensioni disponibili.
+**Personalizza i tuoi report** sfruttando le funzionalità di progettazione del reporting dinamico: aggiungi tutti i componenti necessari (pannelli e tabelle a forma libera) per analizzare i dati utilizzando le metriche e le dimensioni disponibili.
 
-Trascina **elementi di visualizzazione** aggiungere rappresentazioni grafiche dei dati nei rapporti e configurarle in base alle tue esigenze.
+Trascina e rilascia **elementi di visualizzazione** per aggiungere rappresentazioni grafiche dei dati nei rapporti e configurarli in base alle tue esigenze.
 
-Creare rapporti in base a **dati di profilo personalizzati** create durante l’estensione della risorsa Profilo, e **rapporti basati su segmenti** definiti nei flussi di lavoro di targeting.
+Crea rapporti in base a **dati di profilo personalizzati** creati durante l&#39;estensione della risorsa profilo e **rapporti in base ai segmenti** definiti nei flussi di lavoro di targeting.
 
 Ulteriori informazioni:
 
@@ -84,4 +84,4 @@ Questo video fornisce una panoramica delle funzionalità di reporting di Adobe C
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

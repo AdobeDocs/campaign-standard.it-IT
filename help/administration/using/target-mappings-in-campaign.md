@@ -19,6 +19,6 @@ ht-degree: 19%
 
 Le mappature di Target sono oggetti tecnici utilizzati da Campaign per inviare messaggi. Contengono tutte le impostazioni tecniche necessarie per inviare le consegne (indirizzi, numeri di telefono, indicatori di consenso, identificatori aggiuntivi...).
 
-Gli amministratori possono accedere alle mappature di destinazione in **[!UICONTROL Administration > Application settings > Target mappings]** menu.
+Gli amministratori possono accedere alle mappature di destinazione nel menu **[!UICONTROL Administration > Application settings > Target mappings]**.
 
-La creazione o la modifica della mappatura del target è possibile per soddisfare esigenze specifiche. In ogni caso, la loro dimensione di targeting deve sempre corrispondere ai profili ( **[!UICONTROL nms:recipient]** tabella). Per ulteriori informazioni sulle dimensioni di targeting, consulta [questa pagina](../../automating/using/query.md#targeting-dimensions-and-resources).
+La creazione o la modifica della mappatura del target è possibile per soddisfare esigenze specifiche. In ogni caso, la dimensione di targeting deve corrispondere sempre ai profili (tabella **[!UICONTROL nms:recipient]**). Per ulteriori informazioni sulle dimensioni di targeting, consulta [questa pagina](../../automating/using/query.md#targeting-dimensions-and-resources).

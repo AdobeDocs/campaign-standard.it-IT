@@ -490,15 +490,15 @@ ht-degree: 27%
                         <li>Non riuscito - non riuscito - 87</li>
                         <li>In corso - avviato - 55</li>
                         <li>Targeting in sospeso - targetPrepPending - 11</li>
-                        <li>Personalizzazione in sospeso - messagePrepPending - 21</li>
+                        <li>Personalization in sospeso - messagePrepPending - 21</li>
                         <li>In pausa - in pausa - 75</li>
                         <li>Modifica - edizione - 0</li>
                         <li>Finito - finito - 95</li>
                         <li>Conteggio in corso - targetSelection - 12</li>
                         <li>Messaggio finalizzato - messageReady - 25</li>
-                        <li>Personalizzazione o conteggio non riuscito - preparationError - 37</li>
+                        <li>Personalization o conteggio non riuscito - preparationError - 37</li>
                         <li>Interrotto - annullato - 85</li>
-                        <li>Personalizzazione in corso - messagePreparation - 22</li>
+                        <li>Personalization in corso - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
                         <li>VALORE NON VALIDO - __Valore_non valido__ - __Valore_non valido__</li>
                         <li>Arbitrato in corso - targetArbitrato - 13</li>

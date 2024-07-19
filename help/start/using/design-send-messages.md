@@ -73,16 +73,16 @@ I messaggi personalizzati sono fondamentali per inviare contenuti rilevanti, off
 
 * Inserisci [campi di personalizzazione dinamici](../../designing/using/personalization.md#inserting-a-personalization-field) nei messaggi
 * Inserisci [blocchi di personalizzazione predefiniti](../../designing/using/personalization.md#adding-a-content-block)
-* [Personalizzare il mittente](../../designing/using/subject-line.md) di un messaggio e-mail o di un SMS
-* [Personalizzare l’oggetto](../../designing/using/subject-line.md) di un messaggio e-mail
-* Crea [contenuto condizionale in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Inserisci [Testo dinamico](../../channels/using/defining-dynamic-text.md) in un messaggio SMS o una notifica push
+* [Personalizzare il mittente](../../designing/using/subject-line.md) di un&#39;e-mail o di un SMS
+* [Personalizzare l&#39;oggetto](../../designing/using/subject-line.md) di un&#39;e-mail
+* Crea [contenuto condizionale in un&#39;e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) o [in una pagina di destinazione](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Inserisci [Testo dinamico](../../channels/using/defining-dynamic-text.md) in un messaggio SMS o in una notifica push
 
 ![](assets/delivery_content_43.png)
 
 **Ulteriori informazioni**
 
-* Scopri la personalizzazione delle e-mail tramite una [esempio end-to-end](../../designing/using/personalization.md#example-email-personalization)
+* Scopri la personalizzazione delle e-mail tramite un [esempio end-to-end](../../designing/using/personalization.md#example-email-personalization)
 * [Personalizzazione degli URL](../../designing/using/personalization.md#personalizing-urls)
 * [Impostazione della personalizzazione di un’immagine](../../designing/using/personalization.md#personalizing-an-image-source)
 

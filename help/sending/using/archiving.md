@@ -21,7 +21,7 @@ Puoi configurare Adobe Campaign in modo da conservare una copia delle e-mail inv
 
 In particolare, se la tua organizzazione deve archiviare tutti i messaggi e-mail in uscita per motivi di conformità, puoi abilitare questa funzionalità. Ti consente di inviare una copia nascosta esatta dei messaggi inviati corrispondenti a un indirizzo e-mail Ccn (invisibile ai destinatari della consegna) che devi specificare.
 
-Una volta abilitata, devi attivare E-mail Ccn da **[!UICONTROL Archive emails]** nel modello di consegna e-mail.
+Una volta abilitata, devi attivare Ccn e-mail dall&#39;opzione **[!UICONTROL Archive emails]** nel modello di consegna e-mail.
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ Una volta abilitata, devi attivare E-mail Ccn da **[!UICONTROL Archive emails]**
 
 ## Attivazione dell’archiviazione delle e-mail {#activating-email-archiving}
 
-Una volta attivato, il campo Ccn e-mail viene attivato nel [modello e-mail](../../start/using/marketing-activity-templates.md), tramite un’opzione dedicata:
+Una volta attivato, il Ccn e-mail viene attivato nel [modello e-mail](../../start/using/marketing-activity-templates.md) tramite un&#39;opzione dedicata:
 
 1. Vai a **Risorse** > **Modelli** > **Modelli di consegna**.
-1. Duplicare la soluzione preconfigurata **[!UICONTROL Send via email]** modello.
+1. Duplica il modello predefinito **[!UICONTROL Send via email]**.
 1. Seleziona il modello duplicato.
-1. Fai clic su **[!UICONTROL Edit properties]** per modificare le proprietà del modello.
-1. Espandi **[!UICONTROL Send]** sezione.
-1. Controlla la **[!UICONTROL Archive emails]** per conservare una copia di tutti i messaggi inviati per ogni consegna basata su questo modello.
+1. Fare clic sul pulsante **[!UICONTROL Edit properties]** per modificare le proprietà del modello.
+1. Espandere la sezione **[!UICONTROL Send]**.
+1. Selezionare la casella **[!UICONTROL Archive emails]** per conservare una copia di tutti i messaggi inviati per ogni consegna basata su questo modello.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Se le e-mail inviate all’indirizzo Ccn vengono aperte e cliccate attraverso, questo verrà preso in considerazione nel **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dall’analisi di invio, che potrebbe causare alcuni errori di calcolo.
+>Se le e-mail inviate all&#39;indirizzo Ccn vengono aperte e cliccate tramite, questo verrà preso in considerazione nelle **[!UICONTROL Total opens]** e **[!UICONTROL Clicks]** dell&#39;analisi di invio, il che potrebbe causare alcuni errori di calcolo.

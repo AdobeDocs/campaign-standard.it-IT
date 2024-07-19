@@ -32,9 +32,9 @@ Armonizzare tutti i canali di marketing non è un compito impossibile. Con l’a
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Sfruttare il dashboard dei messaggi di Campaign** per configurare e inviare messaggi da un&#39;unica posizione, nonché per accedere a varie funzionalità come pianificazione, messaggistica multilingue...
+**Sfrutta il dashboard dei messaggi di Campaign** per configurare e inviare i messaggi da un&#39;unica posizione, nonché per accedere a varie funzionalità come pianificazione e messaggistica multilingue...
 
-**Gestire i modelli** per configurare le proprietà dei messaggi e guadagnare tempo e coerenza nella strategia di messaggistica. Ad esempio, per le e-mail, l’amministratore funzionale responsabile della configurazione dei modelli può definire i parametri standard di un’e-mail, come il pubblico, la pianificazione o il contenuto, i parametri avanzati relativi a invio, validità, tracciamento, ecc., o i parametri di preconfigurazione relativi al targeting e alla personalizzazione (contesto di targeting).
+**Gestisci i modelli** per configurare le proprietà dei messaggi e consentirti di guadagnare tempo e coerenza nella tua strategia di messaggistica. Ad esempio, per le e-mail, l’amministratore funzionale responsabile della configurazione dei modelli può definire i parametri standard di un’e-mail, come il pubblico, la pianificazione o il contenuto, i parametri avanzati relativi a invio, validità, tracciamento, ecc., o i parametri di preconfigurazione relativi al targeting e alla personalizzazione (contesto di targeting).
 
 Ulteriori informazioni:
 
@@ -48,11 +48,11 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinque canali di comunicazione** sono disponibili in Adobe Campaign: e-mail, messaggio SMS, notifica push, messaggio in-app e consegna direct mail.
+**In Adobe Campaign sono disponibili cinque canali di comunicazione**: e-mail, messaggio SMS, notifica push, messaggio in-app e consegna direct mail.
 
 Per ogni canale sono disponibili funzionalità specifiche. Ad esempio, il canale e-mail consente di eseguire test A/B per testare fino a 3 versioni di un messaggio e-mail. Con il canale SMS, gestisci i messaggi STOP SMS e archivia nel database gli SMS in arrivo dai destinatari.
 
-Inoltre, utilizza Campaign Standard **funzionalità di personalizzazione e contenuti dinamici** per catturare l’interesse del pubblico.
+Inoltre, sfrutta le **funzionalità di personalizzazione e contenuti dinamici di Campaign Standard** per acquisire l&#39;interesse del pubblico.
 
 Ulteriori informazioni:
 
@@ -66,9 +66,9 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Inviare messaggi singoli e univoci** ai tuoi clienti in tempo reale: messaggi di benvenuto, conferme di spedizione dell’ordine, modifica della password, ecc.
+**Inviare messaggi singoli e univoci** ai clienti in tempo reale: messaggi di benvenuto, conferme di spedizione dell&#39;ordine, modifica della password, ecc.
 
-I messaggi transazionali sono disponibili per i canali e-mail, SMS e di notifica push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi transazionali di evento** il targeting di eventi senza informazioni sul profilo, e **messaggi transazionali di profilo** eseguire il targeting dei profili dal database.
+I messaggi transazionali sono disponibili per i canali e-mail, SMS e di notifica push, a seconda delle opzioni. Esistono due tipi di messaggi: **messaggi transazionali evento** con targeting di eventi senza informazioni sul profilo e **messaggi transazionali profilo** con targeting di profili dal database.
 
 Ulteriori informazioni:
 
@@ -84,9 +84,9 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign viene fornito con pagine di destinazione che sono moduli web utilizzabili per **acquisire informazioni sul pubblico**, offrire abbonamenti a un servizio, visualizzare dati e ampliare il database.
+Campaign viene fornito con pagine di destinazione che sono moduli web che possono essere utilizzati per **acquisire informazioni sui tipi di pubblico**, offrire abbonamenti a un servizio, visualizzare dati e ampliare il database.
 
-Le pagine di destinazione possono essere utilizzate anche per **acquisizione o aggiornamento di profili esistenti**, e di impostare un doppio meccanismo di consenso che consenta di proteggere la piattaforma da indirizzi e-mail errati o non validi o da spambots.
+Le pagine di destinazione possono essere utilizzate anche per **acquisire o aggiornare profili esistenti** e per impostare un doppio meccanismo di consenso, che consente di proteggere la piattaforma da indirizzi e-mail errati o non validi o da spambots.
 
 Ulteriori informazioni:
 

@@ -23,7 +23,7 @@ Grazie alle sue funzionalità di tracciamento, Adobe Campaign ti consente di mon
 
 Puoi informare gli utenti che i tuoi siti sono dotati di strumenti di tracciamento web tramite una richiesta di autorizzazione (che viene visualizzata sopra la pagina, ad esempio) con una casella di controllo per autorizzare l’uso dei cookie, oppure puoi aggiungere un banner nella parte superiore della prima pagina a cui accedono, ecc. Le finestre pop-up dovrebbero essere evitate in quanto spesso sono bloccate dai browser.
 
-Le informazioni di tracciamento sono disponibili per ogni contatto del database in **[!UICONTROL integrated customer profiles]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../audiences/using/integrated-customer-profile.md).
+Le informazioni di rilevamento sono disponibili per ogni contatto del database in **[!UICONTROL integrated customer profiles]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../audiences/using/integrated-customer-profile.md).
 
  Adobe Campaign utilizza due tipi di cookie:
 
@@ -61,11 +61,11 @@ Il tracciamento con Adobe Campaign Standard ti consente di accedere alle seguent
 
 ## Registri di tracciamento {#tracking-logs}
 
-Il **[!UICONTROL Tracking logs]** Questa scheda elenca la cronologia di tracciamento per questa consegna. In questa scheda vengono visualizzate le informazioni di tracciamento per i messaggi inviati, ad esempio tutti gli URL tracciati da Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
+La scheda **[!UICONTROL Tracking logs]** elenca la cronologia di tracciamento per questa consegna. In questa scheda vengono visualizzate le informazioni di tracciamento per i messaggi inviati, ad esempio tutti gli URL tracciati da Adobe Campaign. Le informazioni di tracciamento in questa scheda vengono aggiornate ogni 10 minuti.
 
 >[!NOTE]
 >
->Se il tracciamento non è abilitato per una consegna, questa scheda non viene visualizzata. I registri di tracciamento sono disponibili per **email** e **notifica push** solo canali.
+>Se il tracciamento non è abilitato per una consegna, questa scheda non viene visualizzata. I registri di tracciamento sono disponibili solo per i canali **email** e **push notification**.
 
 ![](assets/tracking_logs.png)
 
@@ -75,24 +75,24 @@ Nell’esempio precedente, il destinatario:
 * Fai clic sul collegamento della pagina speculare.
 * Fai clic sul collegamento personalizzato &quot;ULTERIORI INFORMAZIONI&quot;.
 
-In **[!UICONTROL Type]** , i valori possibili sono:
+Nella colonna **[!UICONTROL Type]** i valori possibili sono:
 
 * **[!UICONTROL Email click]**: i destinatari hanno fatto clic su un collegamento personalizzato.
-* **[!UICONTROL Mirror page]**: il destinatario ha fatto clic su un collegamento alla pagina speculare.
-* **[!UICONTROL Open]**: il destinatario ha aperto l’e-mail.
-* **[!UICONTROL Opt-out]**: il destinatario ha fatto clic su un collegamento di annullamento dell’abbonamento.
+* **[!UICONTROL Mirror page]**: il destinatario ha fatto clic su un collegamento alla pagina mirror.
+* **[!UICONTROL Open]**: il destinatario ha aperto l&#39;e-mail.
+* **[!UICONTROL Opt-out]**: il destinatario ha fatto clic su un collegamento di annullamento dell&#39;abbonamento.
 
 >[!NOTE]
 >
->Per **notifica push** canale, vengono tracciati solo i clic sulle notifiche mobili. In tal caso, il valore sarà **[!UICONTROL Click on mobile notification]**.
+>Per il canale **notifica push**, vengono tracciati solo i clic sulle notifiche mobili. In tal caso, il valore sarà **[!UICONTROL Click on mobile notification]**.
 
 Per ulteriori informazioni su come inserire collegamenti di tracciamento, consulta [questa pagina](../../designing/using/links.md#inserting-a-link).
 
-Il **[!UICONTROL Tracking indicators]** Il rapporto contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/tracking-indicators.md).
+Il report **[!UICONTROL Tracking indicators]** contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail. Per ulteriori informazioni, consulta questa [pagina](../../reporting/using/tracking-indicators.md).
 
 ## URL tracciati {#tracked-urls}
 
-Il **[!UICONTROL Tracked URLs]** La scheda raggruppa gli URL contenuti nel messaggio inviato, compresi il tipo di URL e l’URL di origine.
+La scheda **[!UICONTROL Tracked URLs]** raggruppa gli URL contenuti nel messaggio inviato, inclusi il tipo di URL e l&#39;URL di origine.
 
 ![](assets/sending_delivery6.png)
 

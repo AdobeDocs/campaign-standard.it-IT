@@ -1,6 +1,6 @@
 ---
-title: Domande frequenti su E-mail Designer
-description: Domande frequenti su E-mail Designer.
+title: Domande frequenti su Designer e-mail
+description: Domande frequenti su Email Designer.
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Domande frequenti su E-mail Designer
+# Domande frequenti su Designer e-mail
 
 ## Qual è la differenza tra blocchi di contenuto e frammenti di contenuto?
 
@@ -23,7 +23,7 @@ I blocchi di contenuto e i frammenti di contenuto sono parti di contenuto riutil
 
 * I blocchi di contenuto sono puramente HTML in cui il codice HTML viene inserito manualmente (interfaccia utente non intuitiva, è un codice sorgente diretto). Anche se è realmente orientato alle persone con conoscenze HTML, consente un livello di personalizzazione non disponibile nei frammenti di contenuto.
 
-* I frammenti di contenuto sono parti visive di contenuto create tramite E-mail Designer, utilizzando la relativa interfaccia utente intuitiva. Tuttavia, non è possibile personalizzare il contenuto. Se è richiesta la personalizzazione, questa può essere eseguita solo tramite blocchi di contenuto.
+* I frammenti di contenuto sono contenuti visivi creati tramite E-mail Designer, utilizzando la relativa interfaccia utente intuitiva. Tuttavia, non è possibile personalizzare il contenuto. Se è richiesta la personalizzazione, questa può essere eseguita solo tramite blocchi di contenuto.
 
 ## Come si aggiunge la spaziatura a un elemento dalla struttura HTML?
 
@@ -37,24 +37,24 @@ Puoi aggiungere la spaziatura interna utilizzando le breadcrumb HTML.
 1. Fai clic sul tag principale nel breadcrumb HTML.
 Ora puoi aggiungere una spaziatura a questo elemento.
 
-## Posso importare contenuti HTML in E-mail designer?
+## Posso importare contenuti HTML in E-mail Designer?
 
-Puoi caricare i contenuti di HTML in E-mail Designer. Se non è stato creato tramite E-mail Designer, verrà caricato in modalità di compatibilità progettata per mantenere il HTML originale, ma limita alcune funzionalità di modifica tramite l’interfaccia utente.
+Puoi caricare i contenuti di HTML nel Designer delle e-mail. Se non è stato creato tramite E-mail Designer, verrà caricato in modalità di compatibilità, progettata per mantenere il HTML originale, ma limita alcune funzionalità di modifica tramite l’interfaccia utente.
 
-Per ulteriori informazioni, consulta [Modalità di compatibilità](../../designing/using/using-existing-content.md#compatibility-mode)
+Per ulteriori informazioni, vedere [Modalità di compatibilità](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## Come si crea il primo contenuto e-mail?
 
 Innanzitutto, crea un’e-mail dalla pagina Home.
 Quindi, per aggiungere contenuto a un’e-mail, devi aggiungere un componente struttura e inserirvi un componente contenuto.
 
-Per ulteriori informazioni, consulta [Creazione di un messaggio e-mail da zero](../../designing/using/quick-start.md#from-scratch-email)
+Per ulteriori informazioni, consultare [Creazione di un&#39;e-mail da zero](../../designing/using/quick-start.md#from-scratch-email)
 
 ## Perché è necessario aggiornare i frammenti?
 
 E-mail Designer è in continuo miglioramento. Se hai creato un contenuto e-mail da zero, da un modello preconfigurato o se hai creato frammenti, potrebbe essere necessario aggiornare il contenuto alla versione più recente per evitare problemi come problemi di collisione CSS.
 
-Per ulteriori informazioni, consulta [Aggiornamento dei frammenti](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+Per ulteriori informazioni, consultare [Aggiornamento dei frammenti](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## È possibile salvare uno stile in un tema?
 

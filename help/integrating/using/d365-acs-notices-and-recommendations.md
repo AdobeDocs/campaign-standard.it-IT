@@ -19,9 +19,9 @@ ht-degree: 1%
 
 ## Gestire i dati {#acs-msdyn-manage-data}
 
-Per la sincronizzazione di contatti ed entità personalizzate, questa integrazione tratta **Microsoft Dynamics 365 come fonte di verità**.  Eventuali modifiche agli attributi sincronizzati devono essere eseguite in Dynamics 365 e non in Adobe Campaign Standard).  Se vengono apportate modifiche in Campaign, queste possono eventualmente essere sovrascritte in Campaign durante la sincronizzazione, in quanto la sincronizzazione si trova in una direzione.
+Per la sincronizzazione dei contatti e delle entità personalizzate, questa integrazione considera **Microsoft Dynamics 365 come origine di verità**.  Eventuali modifiche agli attributi sincronizzati devono essere eseguite in Dynamics 365 e non in Adobe Campaign Standard).  Se vengono apportate modifiche in Campaign, queste possono eventualmente essere sovrascritte in Campaign durante la sincronizzazione, in quanto la sincronizzazione si trova in una direzione.
 
-L’integrazione può essere configurata facoltativamente per emettere chiamate di eliminazione profilo a Campaign quando un contatto viene eliminato in Dynamics 365 per mantenere l’integrità dei dati. Tuttavia, l’eliminazione di un profilo è diversa dall’eliminazione di una privacy. Se si elimina la privacy in Campaign, verranno rimossi il record del profilo Campaign e le voci di registro associate; se invece si elimina un profilo regolarmente, verrà eliminato solo il record del profilo Campaign, lasciando i residui nei registri di Campaign. Se la funzione di eliminazione del profilo è abilitata nell’integrazione, dovranno essere seguiti ulteriori passaggi per elaborare correttamente le richieste di privacy dell’interessato. Consulta i passaggi della sezione [Sezione Privacy di seguito](#manage-privacy-requests).
+L’integrazione può essere configurata facoltativamente per emettere chiamate di eliminazione profilo a Campaign quando un contatto viene eliminato in Dynamics 365 per mantenere l’integrità dei dati. Tuttavia, l’eliminazione di un profilo è diversa dall’eliminazione di una privacy. Se si elimina la privacy in Campaign, verranno rimossi il record del profilo Campaign e le voci di registro associate; se invece si elimina un profilo regolarmente, verrà eliminato solo il record del profilo Campaign, lasciando i residui nei registri di Campaign. Se la funzione di eliminazione del profilo è abilitata nell’integrazione, dovranno essere seguiti ulteriori passaggi per elaborare correttamente le richieste di privacy dell’interessato. Consulta i passaggi nella sezione [Privacy di seguito](#manage-privacy-requests).
 
 ## Privacy{#acs-msdyn-manage-privacy}
 
@@ -58,31 +58,31 @@ Tieni presente che solo i seguenti elementi possono essere utilizzati nelle mapp
 
 * l’attributo specifico per il CCPA
 
-Ulteriori informazioni sui campi dell’entità profilo sono disponibili [qui](../../developing/using/datamodel-profile.md).
+Ulteriori informazioni sui campi dell&#39;entità profilo sono disponibili [qui](../../developing/using/datamodel-profile.md).
 
 In Dynamics 365, la maggior parte dei campi di rinuncia hanno il prefisso &quot;donot&quot;, tuttavia, puoi utilizzare anche altri attributi a scopo di rinuncia se i tipi di dati sono compatibili.
 
 Durante il provisioning dell’integrazione, potrai specificare la configurazione di rinuncia necessaria per la tua azienda:
 
 * **Unidirezionale (da Microsoft Dynamics 365 a Campaign)**: Dynamics 365 è la fonte di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Dynamics 365 a Campaign Standard
-* **Unidirezionale (da Campaign a Microsoft Dynamics 365)**: Campaign Standard è la fonte di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Campaign Standard a Dynamics 365
-* **Bidirezionale**: Dynamics 365 E Campaign Standard sono entrambe fonti di verità. Gli attributi di rinuncia verranno sincronizzati bidirezionalmente tra Campaign Standard e Dynamics 365
+* **Unidirezionale (campagna a Microsoft Dynamics 365)**: Campaign Standard è l&#39;origine di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Campaign Standard a Dynamics 365
+* **Bidirezionale**: Dynamics 365 AND Campaign Standard sono entrambe origini di verità. Gli attributi di rinuncia verranno sincronizzati bidirezionalmente tra Campaign Standard e Dynamics 365
 
 In alternativa, se disponi di un processo separato per gestire la sincronizzazione delle rinunce tra i sistemi, il flusso di dati di rinuncia dell’integrazione può essere disabilitato.
 
 La configurazione della rinuncia bidirezionale utilizza la logica per determinare quale valore scrivere in entrambi i sistemi. La logica confronta le marche temporali tra i due sistemi (modifica a livello di record in Dynamics 365, modifica a livello di attributo in Campaign) per determinare quale sistema prevale. Se Campaign contiene la marca temporale più recente, prevale il valore Campaign. Se Dynamics 365 contiene la marca temporale più recente o se sono uguali, allora opt-out=TRUE avrà esito positivo (supponendo che uno dei valori sia TRUE).
 
-Scopri come selezionare le opzioni di consenso/diniego in [questa sezione](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+Scopri come selezionare le opzioni di consenso/rinuncia in [questa sezione](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!NOTE]
 >
 >Rivedi e, se appropriato, aggiorna le regole di tipologia predefinite e specifiche in Adobe Campaign prima di apportare modifiche qui per garantire che tali modifiche siano applicate correttamente a tutte le comunicazioni in uscita. Ad esempio, assicurati che eventuali mappature alle preferenze di rinuncia riflettano accuratamente le scelte di intento/comunicazione del destinatario e non interrompano inavvertitamente la consegna di messaggi di relazione o transazionali come le conferme degli ordini dei clienti.
 
-Se hai selezionato **Bidirezionale** o **Unidirezionale (da Campaign a Microsoft Dynamics 365)** configurazione di rinuncia, i dati di rinuncia di Campaign verranno esportati periodicamente tramite il flusso di lavoro nell’area di archiviazione SFTP di Campaign (consulta &quot;Utilizzo di Campaign SFTP di seguito&quot;). Nel caso in cui il flusso di lavoro di rinuncia di Campaign si interrompa, dovrai riavviare manualmente il prima possibile per ridurre la possibilità di sincronizzazioni di rinuncia perse.
+Se hai selezionato la configurazione di rinuncia **Bidirezionale** o **Unidirezionale (da Campaign a Microsoft Dynamics 365)**, i dati di rinuncia di Campaign verranno esportati periodicamente tramite il flusso di lavoro nell’area di archiviazione SFTP di Campaign (consulta &quot;Utilizzo di Campaign SFTP di seguito&quot;). Nel caso in cui il flusso di lavoro di rinuncia di Campaign si interrompa, dovrai riavviare manualmente il prima possibile per ridurre la possibilità di sincronizzazioni di rinuncia perse.
 
 >[!IMPORTANT]
 >
->Se hai bisogno di **Bidirezionale** o **Unidirezionale (da Campaign a Microsoft Dynamics 365)** configurazione della rinuncia, dovrai effettuare la richiesta al contatto tecnico del tuo Adobe per la configurazione dei flussi di lavoro di rinuncia nell’istanza Campaign
+>Se hai bisogno della configurazione di rinuncia **Bidirezionale** o **Unidirezionale (da Campaign a Microsoft Dynamics 365)**, devi effettuare la richiesta al contatto tecnico del tuo Adobe affinché i flussi di lavoro di rinuncia siano configurati nell&#39;istanza di Campaign
 
 ## Utilizzo SFTP della campagna
 
@@ -104,7 +104,7 @@ L’archiviazione SFTP di Campaign dovrà essere utilizzata dall’integrazione 
 
 Questa integrazione sincronizzerà i contatti e le entità personalizzate da Microsoft Dynamics 365 a Campaign. I record di Campaign creati al di fuori dell’integrazione (ovvero non creati dal processo di sincronizzazione) non verranno modificati dall’integrazione, compresi i record di Campaign esistenti al momento della configurazione dell’integrazione.
 
-Poiché questa integrazione utilizza **[!UICONTROL externalId]** in Campaign per sincronizzare i record del profilo di Campaign con i record dei contatti di Dynamics 365, questo campo Campaign (**[!UICONTROL externalId]** ) deve essere compilato con Microsoft Dynamics 365 **[!UICONTROL contactId]** per i record da sincronizzare da Microsoft Dynamics 365.  Le entità personalizzate vengono sincronizzate anche utilizzando un ID univoco di Microsoft Dynamics 365. L’entità personalizzata Campaign dovrà includere questo attributo ID come colonna di tabella. La colonna externalId può essere utilizzata per memorizzare questo valore di attributo, ma non è necessaria per le entità personalizzate di Campaign.
+Poiché questa integrazione utilizza il campo **[!UICONTROL externalId]** in Campaign per sincronizzare i record del profilo di Campaign con i record dei contatti di Dynamics 365, il campo di Campaign (**[!UICONTROL externalId]** ) deve essere compilato con Microsoft Dynamics 365 **[!UICONTROL contactId]** per i record che si desidera sincronizzare da Microsoft Dynamics 365.  Le entità personalizzate vengono sincronizzate anche utilizzando un ID univoco di Microsoft Dynamics 365. L’entità personalizzata Campaign dovrà includere questo attributo ID come colonna di tabella. La colonna externalId può essere utilizzata per memorizzare questo valore di attributo, ma non è necessaria per le entità personalizzate di Campaign.
 
 Tieni presente che Microsoft Dynamics 365 è ancora la fonte di verità e che i dati del profilo Campaign possono essere sovrascritti man mano che l’integrazione rileva aggiornamenti sul lato Dynamics 365.  Potrebbero essere necessari altri passaggi per abilitare l’integrazione, a seconda della distribuzione esistente; pertanto, si consiglia di lavorare a stretto contatto con il contatto tecnico Adobe.
 
@@ -130,7 +130,7 @@ Se ti trovi in aree EMEA o APAC, alcuni dei tuoi dati verranno elaborati negli S
 
 ### Entità personalizzate
 
-Il [Integrazione con Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) supporta le entità personalizzate, consentendo la sincronizzazione di entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
+L&#39;integrazione [Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) supporta entità personalizzate, consentendo la sincronizzazione delle entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
 
 L’integrazione supporta sia tabelle collegate che non collegate.
 
@@ -140,13 +140,13 @@ Durante la configurazione dei flussi di dati di entità personalizzate, è impor
 * Per i flussi di dati di entità personalizzate, il rilevamento delle modifiche deve essere abilitato in Dynamics 365 per le entità personalizzate sincronizzate.
 * Se un record padre e un record figlio collegato vengono creati quasi contemporaneamente in Dynamics 365, a causa dell’elaborazione parallela dell’integrazione, esiste una leggera possibilità che un nuovo record figlio possa essere scritto in Campaign prima del relativo record padre.
 
-* Se l&#39;elemento padre e l&#39;elemento figlio sono collegati sul lato campagna utilizzando **Collegamento semplice con cardinalità 1** , il record secondario rimarrà nascosto e inaccessibile (tramite l’interfaccia utente o l’API) fino a quando il record principale non arriva in Campaign.
+* Se l&#39;elemento padre e l&#39;elemento figlio sono collegati sul lato Campaign utilizzando l&#39;opzione **1 cardinality simple link**, il record figlio rimarrà nascosto e inaccessibile (tramite interfaccia utente o API) fino a quando non arriva in Campaign.
 
-* (supponendo che **Collegamento semplice con cardinalità 1** in Campaign) Se il record secondario viene aggiornato o eliminato in Dynamics 365 e tale modifica viene scritta in Campaign prima che il record principale venga visualizzato in Campaign (probabilmente, ma è una possibilità remota), tale aggiornamento o eliminazione non verrà elaborato in Campaign e verrà generato un errore. In caso di aggiornamento, il record in questione dovrà essere aggiornato nuovamente in Dynamics 365 per sincronizzare il record aggiornato. In caso di eliminazione, il record in questione dovrà essere gestito separatamente dal lato Campaign, in quanto non esiste più un record in Dynamics 365 da eliminare o aggiornare.
+* (Presupponendo il collegamento semplice con cardinalità **1** in Campaign) Se il record figlio viene aggiornato o eliminato in Dynamics 365 e la modifica viene scritta in Campaign prima che il record padre venga visualizzato in Campaign (probabilmente, ma è una possibilità remota), tale aggiornamento o eliminazione non verrà elaborato in Campaign e verrà generato un errore. In caso di aggiornamento, il record in questione dovrà essere aggiornato nuovamente in Dynamics 365 per sincronizzare il record aggiornato. In caso di eliminazione, il record in questione dovrà essere gestito separatamente dal lato Campaign, in quanto non esiste più un record in Dynamics 365 da eliminare o aggiornare.
 
-* Se ci si imbatte in una situazione in cui si ritiene di disporre di record secondari nascosti e non è possibile accedervi, è possibile modificare temporaneamente il tipo di collegamento cardinalità in **Collegamento semplice con cardinalità 0 o 1** per accedere a tali documenti.
+* Se ci si imbatte in una situazione in cui si ritiene di disporre di record secondari nascosti e non è possibile accedervi, è possibile modificare temporaneamente il tipo di collegamento di cardinalità in **0 o 1 collegamento semplice di cardinalità** per accedere a tali record.
 
-È disponibile una panoramica più completa delle risorse personalizzate di Campaign [in questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
+Una panoramica più completa delle risorse personalizzate di Campaign è disponibile [in questa sezione](../../developing/using/key-steps-to-add-a-resource.md).
 
 ### Guardrail di integrazione
 
@@ -172,7 +172,7 @@ Quando si pianifica l’utilizzo di questa integrazione, è necessario tenere co
 
 * La profondità massima della tabella quando si collegano le tabelle è due (ad esempio, tabella1->tabella2->tabella3)
 
-* L’integrazione supporta fino a 5 colonne collegate per risorsa personalizzata. Il collegamento di più colonne tra risorse personalizzate può avere un notevole impatto sulle prestazioni. **Collegamento semplice con cardinalità 0 o 1** è da preferirsi rispetto a **Collegamento semplice con cardinalità 1**.
+* L’integrazione supporta fino a 5 colonne collegate per risorsa personalizzata. Il collegamento di più colonne tra risorse personalizzate può avere un notevole impatto sulle prestazioni. **0 o 1 collegamento semplice con cardinalità** è preferito rispetto a **1 collegamento semplice con cardinalità**.
 
 * L’integrazione supporta la trasformazione tra tipi di dati primitivi di Microsoft Dynamics 365 (booleano, intero, decimale, doppio, stringa, data e ora, data) e tipi di dati di Adobe Campaign Standard (intero, booleano, float, doppio, data, datetime, stringa). I tipi di dati più avanzati vengono interpretati come stringhe e sincronizzati così come sono.
 
@@ -180,7 +180,7 @@ Quando si pianifica l’utilizzo di questa integrazione, è necessario tenere co
 
 * Tieni presente che aumenti significativi o &quot;picchi&quot; nell’utilizzo dell’integrazione (ad esempio, un forte aumento di record nuovi o aggiornati) possono causare rallentamenti nella sincronizzazione dei dati.
 
-* Come parte dell’integrazione, è previsto il completamento dei passaggi di configurazione di pre-integrazione in Microsoft Azure e Dynamics 365. Consulta i passaggi di configurazione [in questa pagina](../../integrating/using/d365-acs-configure-d365.md)
+* Come parte dell’integrazione, è previsto il completamento dei passaggi di configurazione di pre-integrazione in Microsoft Azure e Dynamics 365. Visualizza i passaggi di configurazione [in questa pagina](../../integrating/using/d365-acs-configure-d365.md)
 
 * È previsto che inserirai i modelli dati di Dynamics 365 e Campaign nell’integrazione e che li manterrai.
 
@@ -188,7 +188,7 @@ Quando si pianifica l’utilizzo di questa integrazione, è necessario tenere co
 
 L’integrazione è stata progettata per risolvere il caso d’uso generale dello spostamento di dati comune tra Microsoft Dynamics 365 e Campaign, ma non è destinata a risolvere ogni caso d’uso specifico di ciascun cliente:
 
-* L’integrazione non genera alcun problema di eliminazione di dati personali (ad es., GDPR). La responsabilità di soddisfare le richieste di privacy degli utenti finali spetta al cliente; tali richieste devono essere effettuate in Campaign (tramite Adobe Experience Platform Privacy Service) e Dynamics 365 in modo indipendente. Se necessario, l’integrazione può eseguire eliminazioni regolari per facilitare la sincronizzazione dei dati.   Revisione [la sezione Privacy](#manage-privacy-requests) per ulteriori informazioni.
+* L’integrazione non genera alcun problema di eliminazione di dati personali (ad es., GDPR). La responsabilità di soddisfare le richieste di privacy degli utenti finali spetta al cliente; tali richieste devono essere effettuate in Campaign (tramite Adobe Experience Platform Privacy Service) e Dynamics 365 in modo indipendente. Se necessario, l’integrazione può eseguire eliminazioni regolari per facilitare la sincronizzazione dei dati.   Rivedi [la sezione Privacy](#manage-privacy-requests) per ulteriori informazioni.
 
 * Da Campaign a Dynamics 365 non verranno sincronizzati dati di profilo o di entità personalizzate, ad eccezione delle informazioni di rinuncia (se configurate dal cliente).
 
@@ -196,4 +196,4 @@ L’integrazione è stata progettata per risolvere il caso d’uso generale dell
 
 * La composizione e l’attivazione di campagne e-mail di Campaign da Dynamics 365 non sono supportate.
 
-* L’integrazione **non** supporta il rimodellamento dei dati tra i modelli dati di Dynamics 365 e Campaign Standard. È previsto che l’integrazione sincronizzi una tabella Dynamics 365 in una tabella Campaign.
+* L&#39;integrazione **not** supporta il rimodellamento dei dati tra i modelli di dati di Dynamics 365 e Campaign Standard. È previsto che l’integrazione sincronizzi una tabella Dynamics 365 in una tabella Campaign.

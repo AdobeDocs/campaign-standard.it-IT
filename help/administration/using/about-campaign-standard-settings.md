@@ -16,15 +16,15 @@ ht-degree: 5%
 
 # Informazioni sulle impostazioni di Campaign Standard{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standard viene fornito con diversi elementi dell’applicazione che possono essere configurati in base alle tue esigenze. Ad esempio, è possibile:
+[!DNL Campaign] Standard viene fornito con diversi elementi dell&#39;applicazione che possono essere configurati in base alle tue esigenze. Ad esempio, è possibile:
 
 * Configurare account esterni,
 * Configurare le mappature di destinazione per gestire le impostazioni tecniche necessarie per l’invio delle consegne.
 * Imposta le notifiche interne all’interno dell’applicazione, ecc.
 
-Queste impostazioni sono disponibili nella **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** menu.
+Queste impostazioni sono disponibili nel menu **[!UICONTROL Administration]** / **[!UICONTROL Application settings]**.
 
-Inoltre, sono disponibili opzioni tecniche nel **[!UICONTROL Options]** che consente di configurare l&#39;applicazione in modo più specifico. Alcuni sono incorporati durante l’installazione di Campaign, altri possono essere aggiunti manualmente quando necessario (le opzioni disponibili variano a seconda dei pacchetti installati con la tua istanza).
+Inoltre, nel menu **[!UICONTROL Options]** sono disponibili opzioni tecniche che consentono di configurare l&#39;applicazione in modo più specifico. Alcuni sono incorporati durante l’installazione di Campaign, altri possono essere aggiunti manualmente quando necessario (le opzioni disponibili variano a seconda dei pacchetti installati con la tua istanza).
 
 >[!IMPORTANT]
 >

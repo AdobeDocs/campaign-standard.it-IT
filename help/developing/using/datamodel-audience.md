@@ -105,7 +105,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>Non storicizzare questo processo</td>
+                  <td>Non creare cronologia per questo processo</td>
                   <td>booleano </td>
                   <td> </td>
                </tr>

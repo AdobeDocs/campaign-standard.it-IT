@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ---
 
-# Attività External signal{#external-signal}
+# Segnale esterno{#external-signal}
 
 ## Descrizione {#description}
 
@@ -40,7 +40,7 @@ Tieni presente che un’attività **[!UICONTROL External signal]** può essere a
 
 **Argomenti correlati**
 
-* [Caso di utilizzo: attività del segnale esterno e importazione dei dati](../../automating/using/external-signal-data-import.md).
+* [Caso d&#39;uso: attività del segnale esterno e importazione dei dati](../../automating/using/external-signal-data-import.md).
 * [Caso d’uso: chiamata di un flusso di lavoro per creare un pubblico da un file utilizzando parametri esterni](../../automating/using/use-case-calling-workflow.md)
 
 ## Configurazione {#configuration}

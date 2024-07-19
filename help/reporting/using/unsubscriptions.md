@@ -18,8 +18,8 @@ ht-degree: 3%
 
 # Annullamenti dell’iscrizione{#unsubscriptions}
 
-Il **[!UICONTROL Unsubscriptions]** Il rapporto identifica le consegne associate al maggior numero di annullamenti di abbonamenti.
+Il report **[!UICONTROL Unsubscriptions]** identifica le consegne con il maggior numero di annullamenti di abbonamenti.
 
 ![](assets/delivery_reports_unsub.png)
 
-Il **[!UICONTROL TOP 5 deliveries]** la tabella e il grafico mostrano le prime cinque consegne con il maggior numero di messaggi consegnati e il numero di destinatari che hanno annullato l’abbonamento. I dati elencati di seguito si basano sul numero di clic sul collegamento di annullamento dell’abbonamento del messaggio.
+La tabella e il grafico **[!UICONTROL TOP 5 deliveries]** visualizzano le prime cinque consegne con il maggior numero di messaggi consegnati e il numero di destinatari che hanno annullato l&#39;abbonamento. I dati elencati di seguito si basano sul numero di clic sul collegamento di annullamento dell’abbonamento del messaggio.

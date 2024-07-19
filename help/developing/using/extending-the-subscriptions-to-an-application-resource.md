@@ -17,17 +17,17 @@ ht-degree: 10%
 
 # Estensione degli abbonamenti a una risorsa dell’applicazione{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign, i dati degli attributi del profilo mobile inviati da dispositivi mobili sono memorizzati in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** che ti consente di definire i dati da raccogliere dagli abbonati alle tue applicazioni. Per ulteriori informazioni sulle risorse personalizzate, consulta [questa pagina](../../developing/using/key-steps-to-add-a-resource.md).
+In Adobe Campaign, i dati degli attributi del profilo mobile inviati da dispositivi mobili sono memorizzati nella risorsa **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** che ti consente di definire i dati da raccogliere dagli abbonati alle tue applicazioni. Per ulteriori informazioni sulle risorse personalizzate, fare riferimento a [questa pagina](../../developing/using/key-steps-to-add-a-resource.md).
 
 Questa risorsa può essere estesa per raccogliere i dati che intendi inviare dal dispositivo mobile ad Adobe Campaign.
 
 1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Development]**, quindi **[!UICONTROL Custom resources]**.
-1. Clic **[!UICONTROL Create]** e scegli la **[!UICONTROL Extend an existing resource]** opzione.
-1. Seleziona la **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** risorsa e fai clic su **[!UICONTROL Create]**.
+1. Fare clic su **[!UICONTROL Create]** e scegliere l&#39;opzione **[!UICONTROL Extend an existing resource]**.
+1. Selezionare la risorsa **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** e fare clic su **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
-1. In **[!UICONTROL Fields]** categoria del **[!UICONTROL Data structure]** , definisci i dati cliente da recuperare dall&#39;app mobile facendo clic sul pulsante **[!UICONTROL Add field]** pulsante.
+1. Nella categoria **[!UICONTROL Fields]** della scheda **[!UICONTROL Data structure]**, definire i dati cliente che si desidera recuperare dall&#39;app mobile facendo clic sul pulsante **[!UICONTROL Add field]**.
 
    >[!NOTE]
    >
@@ -35,11 +35,11 @@ Questa risorsa può essere estesa per raccogliere i dati che intendi inviare dal
 
    ![](assets/in_app_personal_data.png)
 
-1. Aggiungi un **[!UICONTROL Label]** e un **[!UICONTROL ID]** nel nuovo campo. Seleziona il campo **[!UICONTROL Type]**.
+1. Aggiungi **[!UICONTROL Label]** e **[!UICONTROL ID]** al nuovo campo. Seleziona il **[!UICONTROL Type]** del tuo campo.
 
    ![](assets/schema_extension_uc9.png)
 
-1. In **[!UICONTROL Link to profiles]** , configura la chiave di riconciliazione utilizzata per collegare i profili dal database di Adobe Campaign agli abbonati alle applicazioni, ad esempio l’e-mail.
+1. Nella categoria **[!UICONTROL Link to profiles]** configura la chiave di riconciliazione utilizzata per collegare i profili dal database di Adobe Campaign agli abbonati alle tue applicazioni, ad esempio l’e-mail.
 
    Tieni presente che per i messaggi in-app puoi definire una sola chiave di riconciliazione per tutte le app mobili.
 

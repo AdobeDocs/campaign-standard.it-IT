@@ -21,22 +21,22 @@ La barra degli strumenti superiore consente, ad esempio, di modificare, salvare 
 
 ![](assets/dynamic_report_toolbar.png)
 
-Utilizza il **Progetto** scheda per:
+Utilizza la scheda **Progetto** per:
 
 * **Apri...**: apre un report o un modello creato in precedenza.
-* **Salva con nome...**: Duplica i modelli per poterli modificare.
-* **Aggiorna progetto**: aggiorna il rapporto in base ai nuovi dati e alle modifiche apportate ai filtri.
+* **Salva con nome...**: i modelli duplicati possono essere modificati.
+* **Aggiorna progetto**: aggiorna il report in base ai nuovi dati e alle modifiche apportate ai filtri.
 * **Scarica CSV**: esporta i rapporti in un file CSV.
 
-Il **Modifica** La scheda ti consente di:
+La scheda **Modifica** consente di:
 
-* **Annulla**: annulla l’ultima azione sul dashboard.
-* **Cancella tutto**: elimina tutti i pannelli del dashboard.
+* **Annulla**: annulla l&#39;ultima azione eseguita nel dashboard.
+* **Cancella tutto**: elimina tutti i pannelli nel dashboard.
 
-Il **Inserisci** la tabella consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+La tabella **Inserisci** consente di personalizzare i report aggiungendo grafici e tabelle al dashboard:
 
 * **Nuovo pannello vuoto**: aggiunge un nuovo pannello vuoto al dashboard.
-* **Nuova forma libera**: aggiunge una nuova tabella a forma libera al dashboard.
+* **Nuova forma libera**: aggiunge una nuova tabella a forma libera alla dashboard.
 * **Nuova riga**: aggiunge un nuovo grafico a linee al dashboard.
 * **Nuova barra**: aggiunge un nuovo grafico a barre al dashboard.
 
@@ -45,7 +45,7 @@ Il **Inserisci** la tabella consente di personalizzare i rapporti aggiungendo gr
 * [Aggiunta di pannelli](../../reporting/using/adding-panels.md)
 * [Aggiunta di visualizzazioni](../../reporting/using/adding-visualizations.md)
 * [Aggiunta di componenti](../../reporting/using/adding-components.md)
-* [Condivisione automatica dei rapporti con le parti interessate tramite e-mail](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Condivisione automatica dei report con le parti interessate tramite e-mail](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Schede {#tabs}
 
@@ -55,9 +55,9 @@ Le schede a sinistra ti consentono di creare il rapporto e filtrare i dati in ba
 
 Queste schede consentono di accedere ai seguenti elementi:
 
-* **[!UICONTROL Panels]**: aggiungi un pannello vuoto o una figura a mano libera al rapporto per iniziare a filtrare i dati. Per ulteriori informazioni, consulta la sezione Aggiunta di pannelli
-* **[!UICONTROL Visualizations]**: trascina e rilascia una selezione di elementi di visualizzazione per conferire al rapporto una dimensione grafica. Per ulteriori informazioni, consulta la sezione Aggiunta di visualizzazioni.
-* **[!UICONTROL Components]**: personalizza i rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi.
+* **[!UICONTROL Panels]**: aggiungi un pannello vuoto o una figura a mano libera al report per iniziare a filtrare i dati. Per ulteriori informazioni, consulta la sezione Aggiunta di pannelli
+* **[!UICONTROL Visualizations]**: trascina una selezione di elementi di visualizzazione per conferire al rapporto una dimensione grafica. Per ulteriori informazioni, consulta la sezione Aggiunta di visualizzazioni.
+* **[!UICONTROL Components]**: personalizza i tuoi rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi.
 
 ## Barra degli strumenti {#toolbar}
 
@@ -75,11 +75,11 @@ La barra degli strumenti si trova sopra l’area di lavoro. Composto da schede d
 
 ![](assets/tab_project.png)
 
-Utilizza il **Progetto** scheda per:
+Utilizza la scheda **Progetto** per:
 
 * **Apri...**: apre un report o un modello creato in precedenza.
-* **Salva con nome...**: Duplica i modelli per poterli modificare.
-* **Aggiorna progetto**: aggiorna il rapporto in base ai nuovi dati e alle modifiche apportate ai filtri.
+* **Salva con nome...**: i modelli duplicati possono essere modificati.
+* **Aggiorna progetto**: aggiorna il report in base ai nuovi dati e alle modifiche apportate ai filtri.
 * **Scarica CSV**: esporta i rapporti in un file CSV.
 * **[!UICONTROL Print]**: stampa il report.
 
@@ -87,19 +87,19 @@ Utilizza il **Progetto** scheda per:
 
 ![](assets/tab_edit.png)
 
-Il **Modifica** La scheda ti consente di:
+La scheda **Modifica** consente di:
 
-* **Annulla**: annulla l’ultima azione sul dashboard.
-* **Cancella tutto**: elimina tutti i pannelli del dashboard.
+* **Annulla**: annulla l&#39;ultima azione eseguita nel dashboard.
+* **Cancella tutto**: elimina tutti i pannelli nel dashboard.
 
 ### Scheda Inserisci {#insert-tab}
 
 ![](assets/tab_insert.png)
 
-Il **Inserisci** Questa scheda consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+La scheda **Inserisci** ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
 
 * **Nuovo pannello vuoto**: aggiunge un nuovo pannello vuoto al dashboard.
-* **Nuova forma libera**: aggiunge una nuova tabella a forma libera al dashboard.
+* **Nuova forma libera**: aggiunge una nuova tabella a forma libera alla dashboard.
 * **Nuova riga**: aggiunge un nuovo grafico a linee al dashboard.
 * **Nuova barra**: aggiunge un nuovo grafico a barre al dashboard.
 
@@ -107,44 +107,44 @@ Il **Inserisci** Questa scheda consente di personalizzare i rapporti aggiungendo
 
 ![](assets/tab_share_1.png)
 
-Il **[!UICONTROL Share]** Questa scheda ti consente di inviare i rapporti con gli utenti di Adobe Campaign tramite e-mail singole o ricorrenti. Gli utenti target riceveranno un’e-mail con il report allegato.
+La scheda **[!UICONTROL Share]** ti consente di inviare i rapporti con gli utenti di Adobe Campaign tramite e-mail singole o ricorrenti. Gli utenti target riceveranno un’e-mail con il report allegato.
 
-* **[!UICONTROL Send report now]**: invia il rapporto a un elenco di destinatari selezionati tramite un’e-mail di un’unica soluzione.
+* **[!UICONTROL Send report now]**: invia il report a un elenco di destinatari selezionati tramite un&#39;e-mail di un&#39;unica soluzione.
 
-   1. In **[!UICONTROL Send report]** , aggiungere una descrizione, se necessario.
+   1. Nella finestra **[!UICONTROL Send report]**, aggiungere una descrizione, se necessario.
 
       ![](assets/tab_share_4.png)
 
    1. Seleziona i destinatari dal menu a discesa. Non è possibile selezionare utenti esterni all’organizzazione.
-   1. Verifica **[!UICONTROL Show scheduling options]** se desideri inviare e-mail ricorrenti. Questa operazione può essere eseguita anche selezionando **[!UICONTROL Send Report on schedule]** nel **[!UICONTROL Share]** scheda.
+   1. Selezionare **[!UICONTROL Show scheduling options]** se si desidera inviare e-mail ricorrenti. È inoltre possibile selezionare **[!UICONTROL Send Report on schedule]** nella scheda **[!UICONTROL Share]**.
    1. Fai clic su **[!UICONTROL Send now]**. I destinatari riceveranno un’e-mail con il report allegato.
 
-* **[!UICONTROL Send report on schedule]**: pianifica il rapporto e invia e-mail ricorrenti ai destinatari.
+* **[!UICONTROL Send report on schedule]**: Pianifica il report e invia e-mail ricorrenti ai destinatari.
 
-   1. In **[!UICONTROL Send report]** , aggiungere una descrizione, se necessario.
+   1. Nella finestra **[!UICONTROL Send report]**, aggiungere una descrizione, se necessario.
    1. Seleziona i destinatari dal menu a discesa. Non è possibile selezionare utenti esterni all’organizzazione.
 
       ![](assets/tab_share_5.png)
 
-   1. Seleziona la data di inizio e di fine per configurare la validità delle e-mail nel **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]** campi.
+   1. Selezionare la data di inizio e di fine per configurare la validità delle e-mail nei campi **[!UICONTROL Starting on]** e **[!UICONTROL Ending on]**.
    1. Scegli la frequenza con cui verrà inviata l’e-mail.
 
       ![](assets/tab_share_2.png)
 
-   1. Clic **[!UICONTROL Send on schedule]**, i destinatari riceveranno l’e-mail ricorrente a seconda della frequenza scelta.
+   1. Fai clic su **[!UICONTROL Send on schedule]**. I destinatari riceveranno l&#39;e-mail ricorrente a seconda della frequenza scelta.
 
-* **[!UICONTROL Scheduled reports]**: trova e configura tutti i rapporti pianificati.
+* **[!UICONTROL Scheduled reports]**: trova e configura tutto il tuo report pianificato.
 
-   1. In **[!UICONTROL Scheduled reports]** trova tutti i rapporti inviati ricorrenti.
+   1. Nella finestra **[!UICONTROL Scheduled reports]**, individua tutti i rapporti inviati ricorrenti.
 
       ![](assets/tab_share_3.png)
 
-   1. Se devi eliminare uno dei rapporti pianificati, seleziona il rapporto che desideri eliminare e fai clic su **[!UICONTROL Delete the section]**.
+   1. Se devi eliminare uno dei tuoi report pianificati, seleziona il report pianificato da eliminare e fai clic su **[!UICONTROL Delete the section]**.
    1. Per configurare o controllare i rapporti pianificati, fai clic direttamente sul rapporto da modificare.
-   1. Il **[!UICONTROL Edit scheduled report]** viene visualizzata, ora puoi modificare i destinatari o la frequenza dell’e-mail, se necessario.
+   1. Viene visualizzata la finestra **[!UICONTROL Edit scheduled report]**. Se necessario, puoi modificare i destinatari o la frequenza dell&#39;e-mail.
 
 Gli utenti target riceveranno un’e-mail con il report allegato direttamente nelle loro caselle in entrata. Gli utenti possono sempre decidere di interrompere la ricezione di e-mail ricorrenti utilizzando un collegamento di annullamento all’abbonamento disponibile in ogni e-mail ricorrente.
 
 **Argomento correlato:**
 
-* [Condivisione automatica dei rapporti con le parti interessate tramite e-mail](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Condivisione automatica dei report con le parti interessate tramite e-mail](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

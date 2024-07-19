@@ -58,9 +58,9 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Immetti le proprietà del messaggio in-app e seleziona la tua app mobile in **[!UICONTROL Associate a Mobile App to a delivery]** campo.
+1. Immetti le proprietà del messaggio in-app e seleziona la tua app mobile nel campo **[!UICONTROL Associate a Mobile App to a delivery]**.
 
-   Se nell’elenco a discesa non è presente alcuna applicazione, assicurati che le tue applicazioni mobili si trovino in una **Configurato** stato. Applicazioni in un **Pronto per la configurazione** non verrà visualizzato nell&#39;elenco. Per ulteriori informazioni sulla configurazione dell’app mobile, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   Se nell&#39;elenco a discesa non è presente alcuna applicazione, verificare che le applicazioni mobili siano in stato **Configurato**. Le applicazioni in stato **Pronto per la configurazione** non verranno visualizzate nell&#39;elenco. Per ulteriori informazioni sulla configurazione dell’app mobile, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -92,7 +92,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
    ![](assets/inapp_creating_4.png)
 
-1. Se usa un’ **[!UICONTROL Analytics Events]** Gli eventi, Adobe Analytics e Stato di visualizzazione verranno compilati automaticamente in base alle suite di rapporti configurate nell’estensione Analytics nell’interfaccia utente di Data Collection, mentre gli eventi Dati contestuali devono essere aggiunti manualmente.
+1. Se utilizzi un **[!UICONTROL Analytics Events]**, gli eventi Adobe Analytics e Stato di visualizzazione verranno compilati automaticamente in base alle suite di rapporti configurate nell&#39;estensione Analytics nell&#39;interfaccia utente di Data Collection, mentre gli eventi Dati contestuali devono essere aggiunti manualmente.
 
    Tieni presente che tali eventi sono disponibili solo se disponi di una licenza Adobe Analytics.
 
@@ -163,7 +163,7 @@ Una volta completata la preparazione della consegna ed eseguiti i passaggi di ap
 
 1. Dopo aver inviato i messaggi in-app, puoi scegliere di disattivare la consegna. Questa funzione può essere utile, ad esempio, se desideri interrompere una consegna particolare o se desideri eseguirne una nuova con lo stesso trigger.
 
-   Clic **[!UICONTROL Deactivate]** allora **[!UICONTROL Ok]** per avviare la richiesta di disattivazione.
+   Fare clic su **[!UICONTROL Deactivate]** e quindi su **[!UICONTROL Ok]** per avviare la richiesta di disattivazione.
 
    ![](assets/inapp_sending_8.png)
 

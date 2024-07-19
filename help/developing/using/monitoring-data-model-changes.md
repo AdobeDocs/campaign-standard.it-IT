@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Monitoraggio delle modifiche al modello dati{#monitoring-data-model-changes}
 
-Dalla sezione **[!UICONTROL Diagnosis]** è possibile visualizzare gli oggetti tecnici generati dall&#39;applicazione per analizzarli.
+Dal menu **[!UICONTROL Diagnosis]** è possibile visualizzare gli oggetti tecnici generati dall&#39;applicazione per analizzarli.
 
 >[!NOTE]
 >

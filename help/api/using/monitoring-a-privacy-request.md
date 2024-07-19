@@ -17,9 +17,9 @@ ht-degree: 16%
 
 # Monitoraggio di una richiesta di accesso a dati personali {#monitoring-a-privacy-request}
 
-Puoi monitorare le informazioni relative a una richiesta di accesso a dati personali creata utilizzando una **GET** richiesta.
+È possibile monitorare le informazioni relative a una richiesta di accesso a dati personali creata utilizzando una richiesta di **GET**.
 
-La descrizione dell’elenco di stato è disponibile nella sezione [Documentazione sulla gestione della privacy](../../start/using/privacy-requests.md).
+La descrizione dell&#39;elenco di stato è disponibile nella [documentazione sulla gestione della privacy](../../start/using/privacy-requests.md).
 
 <br/>
 

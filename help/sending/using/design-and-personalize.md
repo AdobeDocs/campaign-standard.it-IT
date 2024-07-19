@@ -18,21 +18,21 @@ ht-degree: 5%
 
 # Creare contenuti personalizzati {#build-personalized-content}
 
-Durante la progettazione del contenuto del messaggio, cerca di evitare problemi comuni che potrebbero impedirti di eseguire la consegna. Nella maggior parte dei casi, i possibili errori sono correlati a [personalizzazione](../../designing/using/personalization.md), formattazione quando [utilizzo di un contenuto esistente](../../designing/using/using-existing-content.md) - e [conversione di un contenuto HTML](../../designing/using/using-existing-content.md#converting-an-html-content) - e [immagini](../../designing/using/images.md).
+Durante la progettazione del contenuto del messaggio, cerca di evitare problemi comuni che potrebbero impedirti di eseguire la consegna. Nella maggior parte dei casi, i possibili errori sono correlati alla [personalizzazione](../../designing/using/personalization.md), alla formattazione quando [si utilizza un contenuto esistente](../../designing/using/using-existing-content.md) e alla [conversione di un contenuto HTML](../../designing/using/using-existing-content.md#converting-an-html-content) e alle [immagini](../../designing/using/images.md).
 
 ## Ottimizzare la personalizzazione {#optimize-personalization}
 
 Per evitare problemi comuni che potrebbero impedire l’esecuzione della consegna e migliorare l’esperienza dei destinatari, Adobe Campaign consente di personalizzare i messaggi.
 
 Puoi utilizzare i dati dei destinatari memorizzati nel database di Adobe Campaign o raccolti tramite tracciamento, pagine di destinazione, abbonamenti, ecc.
-Le nozioni di base sulla personalizzazione sono presentate in [questa sezione](../../designing/using/personalization.md).
+Le nozioni di base su Personalization sono presentate in [questa sezione](../../designing/using/personalization.md).
 
 Assicurati che il contenuto del messaggio sia progettato correttamente per evitare errori, che sono generalmente correlati alla personalizzazione.
 
 Il contenuto dinamico può essere aggiunto manualmente per visualizzare contenuti diversi ai destinatari in base alle condizioni definite nell’editor di espressioni. Quando aggiungi contenuto dinamico, devi sempre lasciare una variante predefinita per i destinatari che non soddisfano le condizioni selezionate.
 Per ulteriori informazioni sul contenuto dinamico, consulta [questa sezione](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**Suggerimenti** - Visualizzare l’anteprima del messaggio e-mail con diversi profili di test per verificare che il contenuto dinamico sia stato configurato correttamente.
+**Suggerimenti** - Visualizza in anteprima il messaggio e-mail con diversi profili di test per verificare che il contenuto dinamico sia stato configurato correttamente.
 
 ## Creare contenuti ottimizzati {#optimize-content}
 
@@ -50,7 +50,7 @@ Durante la creazione delle e-mail, tieni presenti le best practice generali ripo
 
 ### Oggetto
 
-Lavorare su [oggetto](../../designing/using/subject-line.md) per migliorare i tassi di apertura:
+Lavora sulla [riga dell&#39;oggetto](../../designing/using/subject-line.md) per migliorare i tassi di apertura:
 
 * Evitare soggetti troppo lunghi. Usa massimo 50 caratteri
 
@@ -62,35 +62,35 @@ Lavorare su [oggetto](../../designing/using/subject-line.md) per migliorare i ta
 
 Includi sempre un collegamento a una pagina speculare. La posizione preferita è nella parte superiore dell’e-mail. [Ulteriori informazioni](../../designing/using/personalization.md#adding-a-content-block)
 
-### Collegamento Annulla iscrizione
+### Collegamento annullamento abbonamento
 
-Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Scopri le linee guida per i collegamenti di annullamento dell’abbonamento [in questa sezione](../../designing/using/personalization.md#about-targeting-dimension).
+Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Scopri le linee guida per l’annullamento dell’abbonamento [in questa sezione](../../designing/using/personalization.md#about-targeting-dimension).
 
-Per impostazione predefinita, quando il messaggio viene analizzato, un controllo [regola di tipologia](../../sending/using/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
+Per impostazione predefinita, quando il messaggio viene analizzato, una regola di tipo [controllo](../../sending/using/control-rules.md) controlla se è stato incluso un collegamento di rinuncia e, in caso contrario, genera un avviso.
 
-**Suggerimento**: poiché gli errori umani sono sempre possibili, controlla che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, quando invii la bozza, accertati che il collegamento sia valido, che il modulo sia in linea e che il campo Non contattare più questo destinatario sia impostato su Sì.
+**Suggerimento**: poiché l&#39;errore umano è sempre possibile, verificare che il collegamento di rinuncia funzioni correttamente prima di ogni invio. Ad esempio, quando invii la bozza, accertati che il collegamento sia valido, che il modulo sia in linea e che il campo Non contattare più questo destinatario sia impostato su Sì.
 
 Scopri come inserire un collegamento di rinuncia [in questa sezione](../../designing/using/personalization.md#adding-a-content-block).
 
 ### Dimensione e-mail {#email-size}
 
-Per evitare problemi di prestazioni o recapito messaggi, la dimensione massima consigliata per un’e-mail è circa **35 KB**.
+Per evitare problemi di prestazioni o recapito messaggi, la dimensione massima consigliata per un&#39;e-mail è di circa **35KB**.
 
 Per mantenere l’e-mail entro il limite, considera quanto segue:
 
 * Rimuovi stili ridondanti o inutilizzati
 
-* Spostare parte del contenuto dell’e-mail in una [pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md)
+* Sposta parte del contenuto dell&#39;e-mail in una [pagina di destinazione](../../channels/using/getting-started-with-landing-pages.md)
 
 * Minimizzare il codice
 
 Assicurati di verificare eventuali modifiche prima dell’invio finale.
 
-In Adobe Campaign, la dimensione massima predefinita di un’e-mail è impostata su **100 MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+In Adobe Campaign, la dimensione massima predefinita di un&#39;e-mail è impostata su **100 MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
 Se viene raggiunto il limite, il messaggio che supera il limite non riuscirà e nei registri di consegna verrà visualizzato un messaggio di errore. Gli altri messaggi della stessa consegna non saranno interessati. In tal caso, devi adattare la parte dinamica del modello e-mail o i frammenti di contenuto utilizzati dalla consegna. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-L’Adobe consiglia di mantenere il valore predefinito per la dimensione massima dei messaggi. Tuttavia, questo valore può essere modificato nel **[!UICONTROL Maximum message size]** , tramite **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu, per [amministratori funzionali](../../administration/using/users-management.md#functional-administrators) solo.
+L’Adobe consiglia di mantenere il valore predefinito per la dimensione massima dei messaggi. Tuttavia, questo valore può essere modificato solo dall&#39;opzione **[!UICONTROL Maximum message size]** tramite il menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** da [amministratori funzionali](../../administration/using/users-management.md#functional-administrators).
 
 >[!IMPORTANT]
 >
@@ -100,10 +100,10 @@ L’Adobe consiglia di mantenere il valore predefinito per la dimensione massima
 
 Per impostazione predefinita, il numero di caratteri in un SMS soddisfa gli standard GSM (Global System for Mobile Communications). I messaggi SMS che utilizzano la codifica GSM sono limitati a 160 caratteri o 153 caratteri per SMS per messaggi inviati in più parti.
 
-La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando tale carattere non è preso in considerazione dallo standard GSM. L’inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Puoi autorizzare la traslitterazione di caratteri selezionando la casella corrispondente nella scheda delle impostazioni del canale SMPP della **[!UICONTROL External account]**.
+La traslitterazione consiste nel sostituire un carattere di un SMS con un altro quando tale carattere non è preso in considerazione dallo standard GSM. L’inserimento di campi di personalizzazione nel contenuto del messaggio SMS potrebbe introdurre caratteri che non vengono presi in considerazione dalla codifica GSM. Puoi autorizzare la traslitterazione di caratteri selezionando la casella corrispondente nella scheda Impostazioni canale SMPP del **[!UICONTROL External account]** corrispondente.
 Per ulteriori informazioni, consulta [questa sezione](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
-**Suggerimenti**:
+**suggerimenti**:
 
 * Per mantenere invariati tutti i caratteri nei messaggi SMS, ad esempio per non modificare i nomi propri, non abilitare la traslitterazione.
 
@@ -117,7 +117,7 @@ Il design reattivo assicura che un’e-mail venga riprodotta in modo ottimale pe
 
 * Utilizza e-mail HTML responsive anziché web HTML
 
-* Utilizza la modalità anteprima e invia bozze per testare il rendering su quanti più dispositivi possibile. Scopri come [messaggio di anteprima](../../sending/using/previewing-messages.md) prima dell’invio.
+* Utilizza la modalità anteprima e invia bozze per testare il rendering su quanti più dispositivi possibile. Scopri come [visualizzare in anteprima il messaggio](../../sending/using/previewing-messages.md) prima di inviarlo.
 
 * Campaign E-mail Designer viene fornito con modelli formattati per la progettazione reattiva per dispositivi mobili. Per ulteriori informazioni, consulta [questa pagina](../../designing/using/using-reusable-content.md#content-templates).
 
@@ -147,4 +147,4 @@ Per essere accessibili dall’esterno, le immagini utilizzate nelle e-mail e nel
 
 L’Adobe consiglia di visualizzare l’anteprima del messaggio per controllarne la personalizzazione e per vedere come i destinatari visualizzeranno la consegna.
 
-In E-mail designer, il **[!UICONTROL Preview]** consente di visualizzare il rendering di ciascun contenuto per un destinatario. I campi di personalizzazione e gli elementi condizionali del contenuto vengono sostituiti con le informazioni corrispondenti per il profilo selezionato. [Ulteriori informazioni](../../sending/using/previewing-messages.md)
+In E-mail designer, il pulsante **[!UICONTROL Preview]** consente di visualizzare il rendering di ogni contenuto per un destinatario. I campi di personalizzazione e gli elementi condizionali del contenuto vengono sostituiti con le informazioni corrispondenti per il profilo selezionato. [Ulteriori informazioni](../../sending/using/previewing-messages.md)

@@ -21,7 +21,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 * `GET`: recupera un elemento o una raccolta di elementi
 * `POST`: crea una risorsa con parametri.
-* `PATCH`: aggiorna una risorsa con i parametri.
+* `PATCH`: aggiorna una risorsa con parametri.
 * `DELETE`: elimina una risorsa.
 
 <!-- ajouter codes retour -->

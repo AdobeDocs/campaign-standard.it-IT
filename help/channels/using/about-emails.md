@@ -12,7 +12,7 @@ exl-id: fd03c6b8-34ed-4b7e-9980-3fc06a2ed726
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -27,4 +27,4 @@ Puoi inviare diversi tipi di e-mail:
 * E-mail per test A/B: verifica fino a 3 versioni di un’e-mail.
 * E-mail transazionali: e-mail unitarie che vengono attivate in base al comportamento dei clienti.
 
-Per informazioni sulle best practice per la creazione e l’invio di e-mail, consulta la [Best practice per la consegna](../../sending/using/delivery-best-practices.md) sezione.
+Per informazioni sulle best practice per la creazione e l&#39;invio di e-mail, consulta la sezione [Best practice per la consegna](../../sending/using/delivery-best-practices.md).

@@ -33,7 +33,7 @@ La linea verticale blu è un indicatore cronologico per evidenziare la data corr
 Utilizza le icone per:
 
 * ![](assets/timeline_zoom_in.png) ridurre il perimetro o aumentare il livello di dettaglio per un periodo più limitato, fino alla visualizzazione dei giorni
-* ![](assets/timeline_zoom_out.png) aumentare il perimetro o visualizzare un arco temporale più ampio
+* ![](assets/timeline_zoom_out.png) aumentare il perimetro o visualizzare un intervallo temporale più ampio
 
 Fai clic sulla freccia a destra del nome di ciascun programma per visualizzare il contenuto corrispondente. Un programma può contenere programmi secondari, campagne e pagine di destinazione. Una campagna viene distribuita allo stesso modo di un programma e può contenere e-mail, SMS e pagine di destinazione.
 
@@ -47,12 +47,12 @@ Quando viene visualizzato il contenuto di un programma o di una campagna, la cas
 
 Ciascun elemento ha un’icona che corrisponde al relativo tipo:
 
-* ![](assets/timeline_program_icon.png) Programma
-* ![](assets/timeline_campaign_icon.png) Campagna
-* ![](assets/timeline_lp_icon.png) Pagina di destinazione
-* ![](assets/timeline_email_icon.png) E-mail
+* Programma ![](assets/timeline_program_icon.png)
+* ![](assets/timeline_campaign_icon.png) campagna
+* Pagina di destinazione ![](assets/timeline_lp_icon.png)
+* E-mail ![](assets/timeline_email_icon.png)
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) Notifica push
+* ![](assets/timeline_push_icon.png) notifica push
 
 La linea colorata sul bordo sinistro di ciascuna casella indica lo stato dell’elemento interessato.
 

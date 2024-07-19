@@ -41,7 +41,7 @@ Di seguito sono riportati i diversi endpoint utilizzati in Campaign Standard.
 
 | Contesto | URL |
 |--- |--- |
-| Istanze di Campaign | `https://*.experiencecloud.adobe.com` (ID tenant * + dominio client)<br>`https://*.campaign.adobe.com` (Tenant istanza campagna) |
+| Istanze di Campaign | `https://*.experiencecloud.adobe.com` (ID tenant * + dominio client)<br>`https://*.campaign.adobe.com` (tenant istanza campagna) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | Tracciamento | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |

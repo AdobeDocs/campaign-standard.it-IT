@@ -34,13 +34,13 @@ Il ciclo di vita di un flusso di lavoro include tre passaggi principali e ogni p
 
 Una volta avviato, un flusso di lavoro può avere anche altri due stati:
 
-* **Avvertenza** (giallo)
+* **Avviso** (giallo)
 
-  Il flusso di lavoro non è stato completato o è stato messo in pausa utilizzando ![](assets/pause_darkgrey-24px.png) o ![](assets/check_pause_darkgrey-24px.png) pulsanti.
+  Impossibile completare o sospendere il flusso di lavoro utilizzando i pulsanti ![](assets/pause_darkgrey-24px.png) o ![](assets/check_pause_darkgrey-24px.png).
 
 * **Errato** (rosso)
 
-  Si è verificato un errore durante l’esecuzione di un flusso di lavoro. Il flusso di lavoro è stato interrotto e l’utente deve eseguire un’azione. Per ulteriori informazioni su questo errore, utilizzare ![](assets/printpreview_darkgrey-24px.png) per accedere al registro del flusso di lavoro (consultare [Monitorare](../../automating/using/monitoring-workflow-execution.md)).
+  Si è verificato un errore durante l’esecuzione di un flusso di lavoro. Il flusso di lavoro è stato interrotto e l’utente deve eseguire un’azione. Per ulteriori informazioni sull&#39;errore, utilizzare il pulsante ![](assets/printpreview_darkgrey-24px.png) per accedere al registro del flusso di lavoro (consultare [Monitoraggio](../../automating/using/monitoring-workflow-execution.md)).
 
 L’elenco delle attività di marketing ti consente di visualizzare tutti i flussi di lavoro e i relativi stati. Per ulteriori informazioni, consulta [Gestione delle attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 

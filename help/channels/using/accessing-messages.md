@@ -30,17 +30,17 @@ Puoi accedere a una serie di funzionalità avanzate, dal targeting, alla creazio
 
 Per accedere all’elenco delle attività di marketing di una campagna:
 
-1. Vai a **[!UICONTROL Marketing activities]** dalla barra di navigazione superiore.
+1. Passa a **[!UICONTROL Marketing activities]** dalla barra di navigazione superiore.
 1. Seleziona **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
-   Puoi anche fare clic direttamente sul pulsante **[!UICONTROL Programs & Campaigns]** dalla home page. Per ulteriori informazioni sulle campagne, consulta [Programmi e campagne](../../start/using/programs-and-campaigns.md) sezione.
+   È inoltre possibile fare clic direttamente sulla scheda **[!UICONTROL Programs & Campaigns]** dalla home page. Per ulteriori informazioni sulle campagne, consulta la sezione [Programmi e campagne](../../start/using/programs-and-campaigns.md).
 
 1. Seleziona un programma, quindi una campagna.
 
    ![](assets/delivery_list_1.png)
 
-1. Fai clic su **[!UICONTROL Summary]** elenco a discesa.
-1. Clic **[!UICONTROL Search]** per filtrare la modalità di visualizzazione dei messaggi (per nome, data o stato).
+1. Fare clic sull&#39;elenco a discesa **[!UICONTROL Summary]**.
+1. Fare clic su **[!UICONTROL Search]** per filtrare la modalità di visualizzazione dei messaggi (per nome, data o stato).
 
    Per filtrare i messaggi ricorrenti, seleziona la casella corrispondente.
 
@@ -48,11 +48,11 @@ Per accedere all’elenco delle attività di marketing di una campagna:
 
 Per accedere all’elenco completo delle attività di marketing da tutte le campagne combinate:
 
-1. Seleziona **[!UICONTROL Marketing activities]** dalla barra di navigazione superiore.
+1. Selezionare **[!UICONTROL Marketing activities]** dalla barra di navigazione superiore.
 
-   È inoltre possibile accedervi dal **[!UICONTROL Marketing activities]** nella home page. Per ulteriori informazioni sull’elenco delle attività di marketing, consulta [Gestione delle attività di marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) sezione.
+   È inoltre possibile accedervi dalla scheda **[!UICONTROL Marketing activities]** nella home page. Per ulteriori informazioni sull&#39;elenco delle attività di marketing, consulta la sezione [Gestione delle attività di marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
-1. Per filtrare le attività di marketing (per nome, data, stato o tipo di attività), utilizza **[!UICONTROL Search]** campi a sinistra dell’elenco delle attività di marketing.
+1. Per filtrare le attività di marketing (per nome, data, stato o tipo di attività), utilizzare i campi **[!UICONTROL Search]** a sinistra dell&#39;elenco delle attività di marketing.
 
 ![](assets/delivery_list_2.png)
 
@@ -60,10 +60,10 @@ Per accedere all’elenco completo delle attività di marketing da tutte le camp
 
 Lo stato di un messaggio è rappresentato da un colore specifico negli elenchi. I possibili stati sono:
 
-* **[!UICONTROL Editing]** (grigio): il messaggio è in fase di modifica.
-* **[!UICONTROL In progress]** (blu): il messaggio viene inviato.
-* **[!UICONTROL Finished]** (verde): l’invio è terminato senza errori.
-* **[!UICONTROL Erroneous]** (rosso): invio annullato o si è verificato un errore durante la preparazione o l’invio del messaggio.
+* **[!UICONTROL Editing]** (grigio): modifica del messaggio in corso.
+* **[!UICONTROL In progress]** (blu): invio del messaggio.
+* **[!UICONTROL Finished]** (verde): l&#39;invio è terminato senza errori.
+* **[!UICONTROL Erroneous]** (rosso): l&#39;invio è stato annullato o si è verificato un errore durante la preparazione o l&#39;invio del messaggio.
 
   >[!NOTE]
   >

@@ -77,40 +77,40 @@ Verifica che le selezioni &quot;ORG&quot; e &quot;INSTANCE&quot; siano quelle ch
 
 >[!IMPORTANT]
 >
-> Se stai configurando il connettore per la prima volta e/o hai poca esperienza con questo processo, **fortemente** invitare a selezionare l&#39;istanza &quot;stage&quot; o &quot;dev&quot;. Assicurati di verificare che la configurazione funzioni correttamente prima di tentare l’installazione in produzione.
+> Se stai configurando il connettore per la prima volta e/o hai poca esperienza con questo processo, **ti invitiamo fortemente** a selezionare l&#39;istanza &quot;stage&quot; o &quot;dev&quot;. Assicurati di verificare che la configurazione funzioni correttamente prima di tentare l’installazione in produzione.
 
-Se disponi dell’organizzazione e dell’istanza corrette, fai clic sul menu &quot;hamburger&quot; per esporre un menu a discesa. Quindi fai clic su **[!UICONTROL Settings...]** nel menu a discesa per visitare la pagina in cui si immettono le credenziali per Microsoft Dynamics 365 e Campaign (vedere di seguito).
+Se disponi dell’organizzazione e dell’istanza corrette, fai clic sul menu &quot;hamburger&quot; per esporre un menu a discesa. Fare quindi clic su **[!UICONTROL Settings...]** nel menu a discesa per visitare la pagina in cui si immettono le credenziali per Microsoft Dynamics 365 e Campaign (vedere di seguito).
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
-In **[!UICONTROL Settings]** , compilare le sezioni seguenti:
+Nella pagina **[!UICONTROL Settings]**, compilare le sezioni seguenti:
 
 * Credenziali di Microsoft Dynamics 365
 * Credenziali Adobe
 
-Vai [qui](../../integrating/using/d365-acs-self-service-app-settings.md) per informazioni più dettagliate su dove trovare le informazioni per ogni input. Al termine, fai clic su **[!UICONTROL Save]** nella parte inferiore.
+Vai [qui](../../integrating/using/d365-acs-self-service-app-settings.md) per trovare informazioni più dettagliate su dove trovare le informazioni per ogni input. Al termine, fare clic sul pulsante **[!UICONTROL Save]** in basso.
 
 ## Verifica la configurazione iniziale {#self-service-app-initial-config}
 
-Supponendo di aver completato i prerequisiti e di aver aggiunto correttamente tutte le credenziali, passiamo ora alla sezione **[!UICONTROL Workflows]** pagina. Ulteriori informazioni sui flussi di lavoro dell’app di integrazione in [questa pagina](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Se i prerequisiti indicati sono stati completati e le credenziali sono state aggiunte correttamente, passare alla pagina **[!UICONTROL Workflows]**. Ulteriori informazioni sui flussi di lavoro dell&#39;applicazione di integrazione in [questa pagina](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-In  **[!UICONTROL Workflows]** , fare clic sull&#39;icona della matita associata alla **[!UICONTROL Microsoft Dynamics 365 to Campaign]** per modificarne la configurazione.
+Nella pagina **[!UICONTROL Workflows]** fare clic sull&#39;icona della matita associata al flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]** per modificarne la configurazione.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-In **[!UICONTROL Microsoft Dynamics 365 to Campaign]** , è possibile accedere all&#39;elenco dei mapping di tabella configurati.  Per impostazione predefinita, viene impostata una mappatura di contatto/profilo predefinita. Tutte le altre entità personalizzate dovranno essere configurate separatamente.
+Nella pagina **[!UICONTROL Microsoft Dynamics 365 to Campaign]** è possibile accedere all&#39;elenco dei mapping di tabella configurati.  Per impostazione predefinita, viene impostata una mappatura di contatto/profilo predefinita. Tutte le altre entità personalizzate dovranno essere configurate separatamente.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-In **[!UICONTROL Edit Table Mapping]** , controlla la **[!UICONTROL Mappings]** per garantire che i campi di Microsoft Dynamics 365 vengano mappati sul campo corretto in Campaign. Se devi aggiungere altre mappature, fallo ora, così come eventuali sostituzioni o filtri. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+Nella pagina **[!UICONTROL Edit Table Mapping]**, controlla la sezione **[!UICONTROL Mappings]** per assicurarti che i campi di Microsoft Dynamics 365 siano mappati al campo corretto in Campaign. Se devi aggiungere altre mappature, fallo ora, così come eventuali sostituzioni o filtri. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
-Se desideri aggiungere nuove mappature, fai riferimento a [questa sezione](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) per ulteriori informazioni.
+Se desideri aggiungere nuovi mapping, consulta [questa sezione](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) per ulteriori informazioni.
 
-Una volta corretta la configurazione, fai clic su **[!UICONTROL Play]** accanto al pulsante **[!UICONTROL Microsoft Dynamics 365 to Campaign]** per avviare l’integrazione e il flusso di dati.
+Una volta corretta la configurazione, fai clic sul pulsante **[!UICONTROL Play]** accanto al flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]** per avviare l&#39;integrazione e il flusso di dati.
 
 >[!IMPORTANT]
 >
->Noi **fortemente** consigliamo di eseguirlo negli ambienti di staging o sviluppo prima di eseguirlo in produzione. Verifica che l’istanza stage/dev sia selezionata nell’intestazione.
+>**fortemente** ti consigliamo di eseguire questa operazione negli ambienti di staging o sviluppo prima di eseguirla in produzione. Verifica che l’istanza stage/dev sia selezionata nell’intestazione.
 >
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
@@ -124,21 +124,21 @@ Una volta in esecuzione, dovresti essere in grado di eseguire il test aggiungend
 
 L’intestazione all’interno dell’app self-service ti consente di definire l’organizzazione e l’istanza attualmente visualizzate e/o configurate.
 
-Seleziona la **ORG** e **ISTANZA** desideri visualizzare/modificare. Questi campi appaiono di sola lettura, tuttavia diventano modificabili quando si posiziona il cursore del mouse su di essi.
+Selezionare la **ORG** e la **ISTANZA** che si desidera visualizzare/modificare. Questi campi appaiono di sola lettura, tuttavia diventano modificabili quando si posiziona il cursore del mouse su di essi.
 
-Quando fai clic sul pulsante con le tre linee orizzontali viene visualizzato un menu a discesa ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) sul lato destro dell’intestazione.
+Facendo clic sul pulsante, verrà visualizzato un menu a discesa con le tre linee orizzontali ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) sul lato destro dell&#39;intestazione.
 
 Le voci del menu a discesa sono:
 
-* **Impostazioni**: selezionando questa opzione, viene visualizzata una schermata che consente di specificare le credenziali API per Microsoft Dynamics 365 e Adobe Campaign, nonché altre impostazioni generali per l’applicazione.
+* **Impostazioni**: se si seleziona questa opzione, verrà visualizzata una schermata che consente di specificare le credenziali API per Microsoft Dynamics 365 e Adobe Campaign, nonché altre impostazioni generali per l&#39;applicazione.
 
-* **Documentazione**: questa opzione è un collegamento alla documentazione di Adobe Campaign specifica per questa integrazione
+* **Documentazione**: questa opzione è un collegamento alla documentazione di Adobe Campaign specifica di questa integrazione
 
-* **Assistenza clienti**: collegamento alla documentazione di Experience Cloud relativa all’apertura di un ticket dell’Assistenza clienti
+* **Assistenza clienti**: questo è un collegamento alla documentazione di Experience Cloud relativa all&#39;apertura di un ticket dell&#39;Assistenza clienti
 
-* **Esci**: ti disconnetterà dall’applicazione e ti consentirà di accedere nuovamente come altro utente.
+* **Disconnetti**: l&#39;utente verrà disconnesso dall&#39;applicazione e potrà accedere nuovamente come altro utente.
 
-* **Informazioni su**: questa mostra una finestra di dialogo che contiene informazioni sull’applicazione, comprese le informazioni sul copyright.
+* **Informazioni su**: viene visualizzata una finestra di dialogo contenente informazioni sull&#39;applicazione, incluse le informazioni sul copyright.
 
 ### Breadcrumb {#app-breadcrumbs}
 
@@ -146,7 +146,7 @@ Le breadcrumb vengono visualizzate nella parte superiore di alcune schermate dur
 
 **Esempio:**
 
-Di seguito è riportato un esempio **[!UICONTROL Edit Table Mapping]** schermata che mostra le breadcrumb e il titolo della pagina. In questo caso, puoi fare clic sul pulsante **[!UICONTROL Workflows]** o **[!UICONTROL Microsoft Dynamics 365 to Campaign]** testo per passare a una delle schermate precedenti. **[!UICONTROL Edit Table Mapping]** in questo caso, non è possibile fare clic su nella breadcrumb perché si tratta della schermata corrente.
+Di seguito è riportato un esempio dalla schermata **[!UICONTROL Edit Table Mapping]** che mostra le breadcrumb e il titolo della pagina. In questo caso, è possibile fare clic sul testo **[!UICONTROL Workflows]** o **[!UICONTROL Microsoft Dynamics 365 to Campaign]** per passare a una delle schermate precedenti. In questo caso, non è possibile fare clic su **[!UICONTROL Edit Table Mapping]** nelle breadcrumb perché si tratta della schermata corrente.
 
 ![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
@@ -158,4 +158,4 @@ Le icone seguenti vengono utilizzate in più pagine nell’app self-service.
 
 ![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Modificare un elemento già esistente
 
-![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Eliminare un elemento da un elenco di elementi
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Elimina un elemento da un elenco di elementi

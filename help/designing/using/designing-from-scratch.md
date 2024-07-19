@@ -17,20 +17,20 @@ ht-degree: 22%
 
 # Progettazione di e-mail da zero {#designing-an-email-content-from-scratch}
 
-Scopri come padroneggiare l’edizione dei contenuti delle e-mail. Con E-mail Designer, puoi creare e-mail e modelli a partire da con o senza i contenuti predefiniti.
+Scopri come padroneggiare l’edizione dei contenuti delle e-mail. Con E-mail Designer puoi creare e-mail e modelli a partire da con o senza i contenuti predefiniti.
 
 Di seguito sono riportati i passaggi principali per creare e progettare un contenuto e-mail da zero utilizzando E-mail Designer:
 
 1. Crea un messaggio e-mail e apri il relativo contenuto.
 1. Aggiungi componenti struttura per modellare l’e-mail. Consulta [Modifica della struttura delle e-mail](#defining-the-email-structure).
 1. Inserire componenti di contenuto e frammenti nei componenti della struttura. Consulta [Aggiunta di frammenti e componenti di contenuto](#defining-the-email-structure).
-1. Aggiungi le immagini e modifica il testo dell’e-mail. Consulta [Inserimento di immagini](../../designing/using/images.md#inserting-images).
+1. Aggiungi le immagini e modifica il testo dell’e-mail. Vedere [Inserimento di immagini](../../designing/using/images.md#inserting-images).
 1. Personalizza la tua e-mail aggiungendo campi di personalizzazione, collegamenti e così via. Consulta [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field), [Inserimento di un collegamento](../../designing/using/links.md#inserting-a-link) e [Definizione del contenuto dinamico in un messaggio e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. Definisci l’oggetto dell’e-mail. Consulta [Personalizzazione dell’oggetto di un’e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. Definisci l’oggetto dell’e-mail. Consulta [Personalizzazione dell&#39;oggetto di un&#39;e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Visualizza l’anteprima del messaggio e-mail.
 1. Salva il contenuto e continua con il messaggio dopo esserti assicurato di aver definito un pubblico e pianificato correttamente l’invio.
 
-Puoi anche dare un&#39;occhiata a questo [video introduttivo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+Puoi anche guardare questo [video introduttivo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ E-mail Designer consente di definire facilmente la struttura delle e-mail. Aggiu
 Per modificare la struttura di un messaggio e-mail:
 
 1. Apri un contenuto esistente o creane uno nuovo.
-1. Accedere a **[!UICONTROL Structure components]** selezionando la **+** a sinistra.
+1. Accedi a **[!UICONTROL Structure components]** selezionando l&#39;icona **+** a sinistra.
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ Per modificare la struttura di un messaggio e-mail:
 
 1. Sono disponibili diversi componenti di struttura composti da una o più colonne.
 
-   Seleziona la **[!UICONTROL n:n column]** per definire il numero di colonne desiderato (tra 3 e 10). Per definire la larghezza di ogni colonna, sposta le frecce nella parte inferiore di ciascuna colonna.
+   Seleziona il componente **[!UICONTROL n:n column]** per definire il numero di colonne desiderato (tra 3 e 10). Per definire la larghezza di ogni colonna, sposta le frecce nella parte inferiore di ciascuna colonna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -90,11 +90,11 @@ Una volta definita la struttura, puoi aggiungere frammenti di contenuto e compon
 
 Un preheader è un breve testo di riepilogo che segue la riga dell’oggetto quando si visualizza un messaggio e-mail dalla casella in entrata. Il preheader fornisce un tasso di apertura più alto.
 
-Seleziona la **[!UICONTROL Preheader]** e completare il contenuto.
+Selezionare la casella di modifica **[!UICONTROL Preheader]** e completare il contenuto.
 
 ![](assets/email_designer_preheader.png)
 
-Puoi aggiungere una **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** o un **[!UICONTROL Personalization fields]** nel contenuto della preintestazione.
+È possibile aggiungere **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** o **[!UICONTROL Personalization fields]** nel contenuto del preheader.
 
 >[!NOTE]
 >
@@ -115,15 +115,15 @@ Elenco dei componenti disponibili in E-mail Designer:
 
 ### **[!UICONTROL Button]**
 
-Se è necessario utilizzare più pulsanti, anziché modificare ogni pulsante da zero, è possibile duplicare **[!UICONTROL Button]** mediante la barra degli strumenti contestuale.
+Se è necessario utilizzare più pulsanti, anziché modificare ogni pulsante da zero, è possibile duplicare il componente **[!UICONTROL Button]** utilizzando la barra degli strumenti contestuale.
 
-Puoi anche salvare i pulsanti in frammenti che possono essere riutilizzati. Per ulteriori informazioni, consulta [Creazione di un frammento di contenuto](../../designing/using/using-reusable-content.md#creating-a-content-fragment) e [Salvataggio di contenuto come frammento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+Puoi anche salvare i pulsanti in frammenti che possono essere riutilizzati. Per ulteriori informazioni, vedere [Creazione di un frammento di contenuto](../../designing/using/using-reusable-content.md#creating-a-content-fragment) e [Salvataggio del contenuto come frammento](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-Seleziona **[!UICONTROL Fallback view]** per visualizzare l’immagine di fallback in E-mail Designer.
+Selezionare **[!UICONTROL Fallback view]** per visualizzare l&#39;immagine di fallback in E-mail Designer.
 
 ### **[!UICONTROL Text]**
 
-Utilizza questo componente per inserire testo nell’e-mail. È possibile regolare il colore, lo stile e le dimensioni del testo in **[!UICONTROL Component Settings]**.
+Utilizza questo componente per inserire testo nell’e-mail. È possibile regolare il colore, lo stile e la dimensione del testo in **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL Divider]**
 
@@ -135,11 +135,11 @@ Utilizza questo componente per copiare e incollare le diverse parti del HTML esi
 
 >[!NOTE]
 >
->Un componente HTML gratuito è modificabile con opzioni limitate. Se tutti gli stili non sono allineati, assicurati di aggiungere il CSS appropriato nel **testa** del codice HTML, altrimenti l’e-mail non risponderà. Utilizza il **[!UICONTROL Preview]** per verificare la reattività del contenuto (consulta [Anteprima dei messaggi](../../sending/using/previewing-messages.md)).
+>Un componente HTML gratuito è modificabile con opzioni limitate. Se tutti gli stili non sono allineati, assicurati di aggiungere il CSS corretto nella sezione **head** del codice HTML, altrimenti l&#39;e-mail non sarà reattiva. Utilizza il pulsante **[!UICONTROL Preview]** per verificare la reattività del contenuto (vedi [Anteprima dei messaggi](../../sending/using/previewing-messages.md)).
 
-Per rendere un contenuto esterno semplicemente conforme a E-mail Designer, l’Adobe consiglia di creare un messaggio da zero e copiare il contenuto dall’e-mail esistente in frammenti e componenti.
+Per rendere semplicemente un contenuto esterno conforme a E-mail Designer, l’Adobe consiglia di creare un messaggio da zero e copiare il contenuto dall’e-mail esistente in frammenti e componenti.
 
-Se il contenuto non può essere ricreato, puoi copiare e incollare il codice HTML dall’e-mail originale utilizzando **[!UICONTROL Html]** componente contenuto. Prima di procedere, assicurati di avere familiarità con HTML.
+Se il contenuto non può essere ricreato, è possibile copiare e incollare il codice HTML dall&#39;e-mail originale utilizzando il componente di contenuto **[!UICONTROL Html]**. Prima di procedere, assicurati di avere familiarità con HTML.
 
 >[!NOTE]
 >
@@ -159,7 +159,7 @@ Se il contenuto non può essere ricreato, puoi copiare e incollare il codice HTM
 >abstract="Utilizza questo componente per inserire un video nell’e-mail. Tieni presente che i video non funzionano su tutti i client e-mail. È consigliabile impostare un’immagine di fallback."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Ulteriori informazioni"
 
-Inserisci il componente video in un componente struttura del messaggio e-mail e inserisci il collegamento video nel **[!UICONTROL Component Settings]**.
+Inserire il componente video in un componente struttura del messaggio e-mail e immettere il collegamento video in **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ Inserisci il componente immagine in un componente struttura e fai clic su Sfogli
 
 ### **[!UICONTROL Social]**
 
-Utilizza questo componente per inserire collegamenti a pagine di social media nel messaggio e-mail. Puoi selezionare i collegamenti da visualizzare e le dimensioni della relativa icona in **[!UICONTROL Component Settings]**.
+Utilizza questo componente per inserire collegamenti a pagine di social media nel messaggio e-mail. È possibile selezionare i collegamenti da visualizzare e le dimensioni della relativa icona in **[!UICONTROL Component Settings]**.
 
 ### Carosello {#carousel-settings}
 
@@ -182,12 +182,12 @@ Utilizza questo componente per inserire collegamenti a pagine di social media ne
 >title="Impostazioni carosello"
 >abstract="Scopri come inserire e configurare un carosello nel contenuto. Tieni presente che il carosello non funziona su tutti i client e-mail e, nel caso in cui non sia supportato, sarà visualizzata un’immagine di fallback."
 
-1. Trascina la **[!UICONTROL Carousel]** all’interno di un componente struttura.
+1. Trascina e rilascia il componente **[!UICONTROL Carousel]** all&#39;interno di un componente struttura.
 1. Sfoglia per selezionare le immagini dal computer.
 
    ![](assets/des_carousel_browse.png)
 
-1. Dalla sezione **[!UICONTROL Settings]** , impostare il numero di miniature da inserire nel carosello.
+1. Nel riquadro **[!UICONTROL Settings]** impostare il numero di miniature desiderate nel carosello.
 1. Seleziona un’immagine di fallback dal computer.
 
    ![](assets/des_carousel_fallback.png)

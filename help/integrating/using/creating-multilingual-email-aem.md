@@ -27,17 +27,17 @@ Sussistono i seguenti prerequisiti:
 
 ## Creazione di nuovi contenuti e-mail in Adobe Experience Manager {#creating-email-content-aem}
 
-1. Dalla home page di Adobe Experience Manager, seleziona **[!UICONTROL Site]**.
+1. Dalla home page di Adobe Experience Manager, selezionare **[!UICONTROL Site]**.
 
    ![](assets/aem_acs_1.png)
 
-1. Seleziona la cartella in cui desideri creare la pagina e fai clic su **[!UICONTROL Create]** allora **[!UICONTROL Page]**. In questo caso, la pagina viene creata nella cartella en_us che sarà la lingua predefinita.
+1. Selezionare la cartella in cui creare la pagina e fare clic su **[!UICONTROL Create]** e quindi su **[!UICONTROL Page]**. In questo caso, la pagina viene creata nella cartella en_us che sarà la lingua predefinita.
 
    ![](assets/aem_acs_2.png)
 
-1. Seleziona la **[!UICONTROL Adobe Campaign Email (ACS)]** modello.
+1. Selezionare il modello **[!UICONTROL Adobe Campaign Email (ACS)]**.
 
-1. Inserisci le proprietà dell’e-mail e fai clic su **[!UICONTROL Create]**.
+1. Compila le proprietà dell&#39;e-mail e fai clic su **[!UICONTROL Create]**.
 
    ![](assets/aem_acs_3.png)
 
@@ -45,13 +45,13 @@ Sussistono i seguenti prerequisiti:
 
    ![](assets/aem_acs_4.png)
 
-1. Dalla sezione **[!UICONTROL Workflow]** , seleziona la scheda **[!UICONTROL Approve for Adobe Campaign]** workflow di convalida. Non potrai inviare un’e-mail in Adobe Campaign se utilizza un contenuto non approvato.
+1. Dalla scheda **[!UICONTROL Workflow]**, selezionare il flusso di lavoro di convalida **[!UICONTROL Approve for Adobe Campaign]**. Non potrai inviare un’e-mail in Adobe Campaign se utilizza un contenuto non approvato.
 
    ![](assets/aem_acs_7.png)
 
-1. Clic **[!UICONTROL Complete]** allora **[!UICONTROL Newsletter review]** dal **[!UICONTROL Complete work item]** finestra.
+1. Fare clic su **[!UICONTROL Complete]** e quindi su **[!UICONTROL Newsletter review]** nella finestra **[!UICONTROL Complete work item]**.
 
-1. Clic **[!UICONTROL Complete]** allora **[!UICONTROL Newsletter approval]**. Una volta definiti il contenuto e i parametri di invio, puoi procedere all’approvazione, alla preparazione e all’invio dell’e-mail in Adobe Campaign Standard.
+1. Fare clic su **[!UICONTROL Complete]** e quindi su **[!UICONTROL Newsletter approval]**. Una volta definiti il contenuto e i parametri di invio, puoi procedere all’approvazione, alla preparazione e all’invio dell’e-mail in Adobe Campaign Standard.
 
    ![](assets/aem_acs_8.png)
 
@@ -59,15 +59,15 @@ Sussistono i seguenti prerequisiti:
 
 Dopo aver progettato il contenuto delle e-mail, ora è necessario creare le copie per lingua che verranno sincronizzate con Adobe Campaign Standard come varianti.
 
-1. Seleziona la pagina creata in precedenza e fai clic su **[!UICONTROL Create]** allora **[!UICONTROL Language Copy]**.
+1. Seleziona la pagina creata in precedenza, fai clic su **[!UICONTROL Create]** e quindi su **[!UICONTROL Language Copy]**.
 
    ![](assets/aem_acs_5.png)
 
-1. Seleziona il contenuto dell’e-mail creato in precedenza che verrà tradotto nelle lingue scelte, quindi fai clic su **[!UICONTROL Next]**.
+1. Seleziona il contenuto dell&#39;e-mail creato in precedenza che verrà tradotto nelle lingue scelte, quindi fai clic su **[!UICONTROL Next]**.
 
    ![](assets/aem_acs_6.png)
 
-1. In **[!UICONTROL Target language(s)]** , seleziona la lingua in cui verrà tradotto il contenuto e fai clic su **[!UICONTROL Next]**.
+1. Nel menu a discesa **[!UICONTROL Target language(s)]**, seleziona la lingua in cui tradurre il contenuto, quindi fai clic su **[!UICONTROL Next]**.
 
    ![](assets/aem_acs_9.png)
 
@@ -77,13 +77,13 @@ Ora che sono state create le copie per lingua, puoi modificare il contenuto in b
 
 >[!CAUTION]
 >
->Ogni copia in lingua deve essere approvata tramite **[!UICONTROL Approve for Adobe Campaign]** workflow di convalida. Non potrai inviare un’e-mail in Adobe Campaign se utilizza un contenuto non approvato.
+>Ogni copia in lingua deve essere approvata tramite il flusso di lavoro di convalida **[!UICONTROL Approve for Adobe Campaign]**. Non potrai inviare un’e-mail in Adobe Campaign se utilizza un contenuto non approvato.
 
 ![](assets/aem_acs_11.png)
 
 ## Creazione di contenuti multilingue in Adobe Campaign Standard {#multilingual-acs}
 
-1. Dalla home page di Adobe Campaign Standard, fai clic su **[!UICONTROL Create an email]**.
+1. Dalla home page di Adobe Campaign Standard, fare clic su **[!UICONTROL Create an email]**.
 
    ![](assets/aem_acs_12.png)
 
@@ -91,13 +91,13 @@ Ora che sono state create le copie per lingua, puoi modificare il contenuto in b
 
    >[!NOTE]
    >
-   >In questo caso, dovrai duplicare il modello incorporato **[!UICONTROL Multilingual email (mailMultiLang)]** per poter inviare un’e-mail multilingue.
+   >In questo caso, per poter inviare l&#39;e-mail multilingue, è necessario duplicare il modello predefinito **[!UICONTROL Multilingual email (mailMultiLang)]**.
 
    ![](assets/aem_acs_13.png)
 
-1. Compila il **[!UICONTROL Properties]** e **[!UICONTROL Audience]** dell’e-mail e fai clic su **[!UICONTROL Create]**.
+1. Compila **[!UICONTROL Properties]** e **[!UICONTROL Audience]** dell&#39;e-mail e fai clic su **[!UICONTROL Create]**.
 
-1. In **[!UICONTROL Edit properties]**, assicurati che l’account Adobe Experience Manager sia impostato correttamente in **[!UICONTROL Content]** a discesa.
+1. In **[!UICONTROL Edit properties]**, assicurati che l&#39;account Adobe Experience Manager sia impostato correttamente nel menu a discesa **[!UICONTROL Content]**.
 
    ![](assets/aem_acs_20.png)
 
@@ -105,23 +105,23 @@ Ora che sono state create le copie per lingua, puoi modificare il contenuto in b
 
    ![](assets/aem_acs_16.png)
 
-1. Seleziona il contenuto Adobe Experience Manager creato in precedenza e fai clic su **[!UICONTROL Confirm]**. I contenuti di Adobe Experience Manager visualizzati qui sono solo contenuti convalidati e possono essere filtrati in base **[!UICONTROL Label]** e **[!UICONTROL Path]**.
+1. Selezionare il contenuto Adobe Experience Manager creato in precedenza e fare clic su **[!UICONTROL Confirm]**. I contenuti di Adobe Experience Manager visualizzati qui sono solo contenuti convalidati e possono essere filtrati sui loro **[!UICONTROL Label]** e **[!UICONTROL Path]**.
 
    >[!NOTE]
    >
-   >La copia per lingua selezionata verrà impostata come predefinita e in seguito potrai modificarla in **[!UICONTROL Content variant]** blocco.
+   >La copia per lingua selezionata verrà impostata come predefinita. Sarà possibile modificarla in seguito nel blocco **[!UICONTROL Content variant]**.
 
    ![](assets/aem_acs_17.png)
 
-1. Clic **[!UICONTROL Create variants]** per collegare contenuti multilingue. Adobe Campaign Standard collegherà quindi automaticamente le copie per altre lingue a questo contenuto. Le varianti create avranno la stessa etichetta e lo stesso linguaggio di codice di quelle scelte in Adobe Experience Manager.
+1. Fai clic su **[!UICONTROL Create variants]** per collegare il tuo contenuto multilingue. Adobe Campaign Standard collegherà quindi automaticamente le copie per altre lingue a questo contenuto. Le varianti create avranno la stessa etichetta e lo stesso linguaggio di codice di quelle scelte in Adobe Experience Manager.
 
    ![](assets/aem_acs_18.png)
 
-1. Fai clic su **[!UICONTROL Content variant]** blocca per modificare la variante predefinita se necessario e fai clic su **[!UICONTROL Confirm]**.
+1. Fai clic sul blocco **[!UICONTROL Content variant]** per modificare la variante predefinita, se necessario, e fai clic su **[!UICONTROL Confirm]**.
 
    ![](assets/aem_acs_19.png)
 
-1. Se il contenuto o le varianti vengono aggiornati in Adobe Experience Manager, puoi sincronizzarli direttamente in Adobe Campaign Standard con **[!UICONTROL Refresh AEM contents]** pulsante.
+1. Se il contenuto o le varianti vengono aggiornati in Adobe Experience Manager, puoi sincronizzarli direttamente in Adobe Campaign Standard con il pulsante **[!UICONTROL Refresh AEM contents]**.
 
 1. L’e-mail è ora pronta per essere inviata. Per ulteriori informazioni, consulta questa [pagina](../../sending/using/get-started-sending-messages.md).
 
@@ -129,4 +129,4 @@ Ora che sono state create le copie per lingua, puoi modificare il contenuto in b
    >
    >Non potrai inviare un’e-mail in Adobe Campaign se utilizza un contenuto AEM che non è stato approvato.
 
-Il pubblico riceverà l’e-mail a seconda della **[!UICONTROL Preferred languages]** impostato nel loro **[!UICONTROL Profiles]**. Per ulteriori informazioni su come modificare i profili e le lingue preferite, consulta questa [pagina](../../audiences/using/editing-profiles.md).
+Il pubblico riceverà l&#39;e-mail a seconda di **[!UICONTROL Preferred languages]** impostati in **[!UICONTROL Profiles]**. Per ulteriori informazioni su come modificare profili e lingue preferite, consulta questa [pagina](../../audiences/using/editing-profiles.md).

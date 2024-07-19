@@ -27,7 +27,7 @@ Il connettore dati di Adobe Experience Platform aiuta i clienti esistenti a rend
 
 Il connettore è **unidirezionale** e invia i dati da Adobe Campaign Standard a Adobe Experience Platform. I dati non vengono mai inviati da Adobe Experience Platform ad Adobe Campaign Standard.
 
-Connettore dati Adobe Experience Platform è destinato a **data engineer** che conoscono le risorse personalizzate di Adobe Campaign Standard e sanno come lo schema generale dei dati del cliente deve trovarsi all’interno di Adobe Experience Platform.
+Connettore dati Adobe Experience Platform è destinato a **data engineer** che conoscono le risorse personalizzate di Adobe Campaign Standard e conoscono lo schema generale dei dati del cliente all&#39;interno di Adobe Experience Platform.
 
 Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei dati tra Campaign Standard e Adobe Experience Platform. Ciò inizia con la creazione di uno schema XDM e un set di dati.
 
@@ -39,13 +39,13 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 >Questa operazione può essere eseguita tramite le API o l’interfaccia di Adobe Experience Platform. Per ulteriori informazioni, consulta la documentazioni dedicata:
 >
 >* [Abilitare un set di dati per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [Configurare un set di dati per Real-time Customer Profile e Identity Service tramite API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [Configura un set di dati per Real-time Customer Profile e Identity Service tramite API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 ## Concetti chiave {#key-concepts}
 
 * La mappatura out-of-the-box è disponibile solo per i campi forniti in Campaign Standard per impostazione predefinita. Per acquisire tutti i campi e le risorse personalizzati, ogni cliente deve definire la propria mappatura.
 
-* Adobe Experience Platform Data Connector invia i dati del profilo tramite la piattaforma a intervalli regolari. &#x200B; La durata dell’intervallo è di 15 minuti. Questo valore può essere modificato tramite [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector invia i dati del profilo tramite la piattaforma a intervalli regolari. &#x200B; La durata dell’intervallo è di 15 minuti. Questo valore può essere modificato utilizzando [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * L’ingegnere dati può pubblicare, modificare e mettere in pausa la mappatura da Campaign a Adobe Experience Platform.
 
@@ -59,7 +59,7 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 
 * Experience Cloud ID Service (ECID) è un identificatore di dispositivo che viene inviato per impostazione predefinita con Experience Events.
 
-  Si tratta di un ID univoco e permanente assegnato a un visitatore, che può essere utilizzato dal servizio Platform Identity per identificare lo stesso visitatore e i relativi dati in diverse soluzioni di Experience Cloud. Per ulteriori informazioni, consulta [Guida del servizio Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+  Si tratta di un ID univoco e permanente assegnato a un visitatore, che può essere utilizzato dal servizio Platform Identity per identificare lo stesso visitatore e i relativi dati in diverse soluzioni di Experience Cloud. Per ulteriori informazioni, consulta la [Guida di Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
   >[!NOTE]
   >
@@ -69,7 +69,7 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 
 * Il trasferimento predefinito degli eventi di abbonamento non è supportato. Per trasferire gli eventi di abbonamento, puoi creare l’XDM e il set di dati corrispondenti in Adobe Experience Platform, quindi configurare una mappatura dei dati personalizzata per tali dati.
 
-* Per quanto riguarda le richieste di privacy (sia le azioni di accesso che quelle di eliminazione), i clienti devono effettuare richieste separate tramite [Servizio core per la privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): uno per Campaign e uno per Adobe Experience Platform. Per ulteriori informazioni, consulta [Informazioni sulle richieste di accesso a dati personali](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=it#getting-started) e [Gestione delle richieste di accesso a dati personali](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
+* Per quanto riguarda le richieste di accesso a dati personali (azioni di accesso ed eliminazione), i clienti devono inviare richieste separate tramite il [servizio core per la privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): uno per Campaign e uno per Adobe Experience Platform. Per ulteriori informazioni, consulta [Informazioni sulle richieste di accesso a dati personali](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=it#getting-started) e [Gestione delle richieste di accesso a dati personali](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
 
 * Per ogni campo XDM, l’etichettatura DULE deve essere eseguita in Adobe Experience Platform. È responsabilità del cliente applicare le etichette DULE.
 
@@ -83,4 +83,4 @@ Questo video offre una panoramica del connettore dati di Adobe Experience Platfo
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Sono disponibili altri video relativi al Connettore dati di Adobe Experience Platform [qui](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
+Ulteriori video relativi al Connettore dati di Adobe Experience Platform sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).

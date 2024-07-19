@@ -28,20 +28,20 @@ Puoi inviare un’e-mail ai clienti: una per i clienti creati meno di un anno fa
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un’attività [Query](../../automating/using/query.md) .
 1. Fai doppio clic sull’attività.
-1. In entrata **[!UICONTROL Shortcuts]**, trascinare e rilasciare **[!UICONTROL Profiles]** e seleziona **[!UICONTROL email]** con l’operatore **[!UICONTROL is not empty]**.
-1. In entrata **[!UICONTROL Shortcuts]**, trascinare e rilasciare **[!UICONTROL Profiles]** e seleziona **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.
+1. In **[!UICONTROL Shortcuts]**, trascinare **[!UICONTROL Profiles]** e selezionare **[!UICONTROL email]** con l&#39;operatore **[!UICONTROL is not empty]**.
+1. In **[!UICONTROL Shortcuts]**, trascinare **[!UICONTROL Profiles]** e selezionare **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.
 1. Fai clic su **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
 ## Creare un’attività di segmentazione {#create-a-segmentation-activity}
 
-1. In entrata **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia una [Segmentazione](../../automating/using/segmentation.md) e fare doppio clic su di esso.
-1. Passa il puntatore sul segmento, quindi fai clic su ![](assets/edit_darkgrey-24px.png) ai clienti target aggiunti quest’anno nel database.
-1. Trascina **[!UICONTROL Profiles]** e seleziona **[!UICONTROL Created]** con il tipo di filtro **[!UICONTROL Relative]**.
-1. Modificare il **[!UICONTROL Level of precision]** a **[!UICONTROL Year]** e seleziona **[!UICONTROL This year]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un&#39;attività [Segmentation](../../automating/using/segmentation.md) e fai doppio clic su di essa.
+1. Passa il puntatore del mouse sul segmento, quindi fai clic su ![](assets/edit_darkgrey-24px.png) per eseguire il targeting dei clienti aggiunti quest&#39;anno nel database.
+1. Trascinare e rilasciare **[!UICONTROL Profiles]** e selezionare **[!UICONTROL Created]** con il tipo di filtro **[!UICONTROL Relative]**.
+1. Cambia **[!UICONTROL Level of precision]** in **[!UICONTROL Year]** e seleziona **[!UICONTROL This year]**.
 1. Fai due volte clic su **[!UICONTROL Confirm]**.
-1. In entrata **[!UICONTROL Advanced Options]**, spunta **[!UICONTROL Generate complement]** per creare un segmento destinato ai destinatari rimanenti.
+1. In **[!UICONTROL Advanced Options]**, selezionare **[!UICONTROL Generate complement]** per creare un segmento destinato ai destinatari rimanenti.
 1. Fai clic su **[!UICONTROL Confirm]**.
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -53,7 +53,7 @@ Puoi inviare un’e-mail ai clienti: una per i clienti creati meno di un anno fa
 
 ## Creazione di una consegna e-mail {#create-an-email-delivery}
 
-1. In entrata **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, trascina e rilascia una [Consegna e-mail](../../automating/using/email-delivery.md) attività dopo ogni segmento.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, trascina e rilascia un&#39;attività [Email delivery](../../automating/using/email-delivery.md) dopo ogni segmento.
 1. Fai clic sull’attività e seleziona ![](assets/edit_darkgrey-24px.png) per modificarla.
 1. Seleziona **[!UICONTROL Single send email]** e fai clic su **[!UICONTROL Next]**.
 1. Seleziona un modello di e-mail e fai clic su **[!UICONTROL Next]**.

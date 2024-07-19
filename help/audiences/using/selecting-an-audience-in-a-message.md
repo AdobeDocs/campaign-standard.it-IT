@@ -39,7 +39,7 @@ Se il messaggio è già stato creato, puoi definire i tipi di pubblico al moment
 
 1. Definisci il **[!UICONTROL Target]** principale del messaggio e-mail. Si tratta del pubblico target regolare del messaggio e-mail.
 
-   Il target è definito nel **[!UICONTROL Target]** ed è costituito dai profili identificati nel database. Puoi stabilire il target principale utilizzando le funzionalità dell’[editor delle query](../../automating/using/editing-queries.md#creating-queries).
+   La destinazione è definita nella scheda **[!UICONTROL Target]** ed è composta da profili identificati nel database. Puoi stabilire il target principale utilizzando le funzionalità dell’[editor delle query](../../automating/using/editing-queries.md#creating-queries).
 
    In questa scheda, la palette **[!UICONTROL Shortcuts]** contiene solo filtri preimpostati e i tipi di pubblico definiti nei profili identificati. La scheda **[!UICONTROL Explorer]** ti consente di accedere a configurazioni aggiuntive.
 
@@ -47,13 +47,13 @@ Se il messaggio è già stato creato, puoi definire i tipi di pubblico al moment
 
    >[!NOTE]
    >
-   >Quando esegui il targeting di un pubblico, tieni presente che non viene fatto riferimento alla definizione del pubblico, ma **copiato** nella query. Se apporti modifiche al pubblico dopo che è stato impostato il targeting in una query, assicurati di configurare nuovamente la query per tenere conto della nuova definizione.
+   >Quando esegui il targeting di un pubblico, tieni presente che alla definizione del pubblico non viene fatto riferimento, ma **copiata** nella query. Se apporti modifiche al pubblico dopo che è stato impostato il targeting in una query, assicurati di configurare nuovamente la query per tenere conto della nuova definizione.
 
 1. Definisci i **[!UICONTROL Test profiles]** da utilizzare per le e-mail. I profili di test ricevono le bozze, che puoi inviare preliminarmente per verificare l’e-mail prima di inviarla al target principale.
 
    Per ulteriori informazioni sulla configurazione di profili di test, consulta la sezione [Profili di test](../../audiences/using/managing-test-profiles.md).
 
-1. Se necessario, è possibile definire un gruppo di controllo utilizzando la scheda corrispondente. Questo ti consentirà di ritirare alcuni profili dal target in modo che non ricevano il messaggio. Per ulteriori informazioni, consulta [Aggiunta di un gruppo di controllo](../../sending/using/control-group.md).
+1. Se necessario, è possibile definire un gruppo di controllo utilizzando la scheda corrispondente. Questo ti consentirà di ritirare alcuni profili dal target in modo che non ricevano il messaggio. Per ulteriori informazioni, vedere [Aggiunta di un gruppo di controllo](../../sending/using/control-group.md).
 
 1. Puoi inoltre utilizzare indirizzi di sostituzione per ottenere una rappresentazione esatta del messaggio che verrà ricevuto dal profilo.  Per ulteriori informazioni, consulta [Verifica dei messaggi e-mail tramite profili target](../../sending/using/testing-messages-using-target.md).
 

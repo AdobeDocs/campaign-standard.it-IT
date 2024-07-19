@@ -53,7 +53,7 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
 
    >[!NOTE]
    >
-   >Quando esegui il targeting di un pubblico, tieni presente che non viene fatto riferimento alla definizione del pubblico, ma **copiato** nella query. Se apporti modifiche al pubblico dopo che è stato impostato il targeting in una query, assicurati di configurare nuovamente la query per tenere conto della nuova definizione.
+   >Quando esegui il targeting di un pubblico, tieni presente che alla definizione del pubblico non viene fatto riferimento, ma **copiata** nella query. Se apporti modifiche al pubblico dopo che è stato impostato il targeting in una query, assicurati di configurare nuovamente la query per tenere conto della nuova definizione.
 
 1. Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle del database di Adobe Campaign collegate alla dimensione di targeting della query. Consulta la sezione [Arricchimento dei dati](#enriching-data).
 
@@ -63,7 +63,7 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
 
 1. Nella scheda **[!UICONTROL Transition]**, l’opzione **[!UICONTROL Enable an outbound transition]** ti consente di aggiungere una transizione in uscita dopo l’attività Query, anche se non recupera dati.
 
-   Il codice del segmento della transizione in uscita può essere personalizzato utilizzando un’espressione standard e variabili di eventi (consulta [questa pagina](../../automating/using/customizing-workflow-external-parameters.md)).
+   Il codice del segmento della transizione in uscita può essere personalizzato utilizzando un&#39;espressione standard e variabili di eventi (consulta [questa pagina](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
 
@@ -71,7 +71,7 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
 
 Le dimensioni di targeting e le risorse ti consentono di definire su quali elementi basare una query per determinare il target di una consegna.
 
-Sono configurati in [mappature target](../../administration/using/target-mappings-in-campaign.md), e vengono definiti durante la creazione di un flusso di lavoro, nel **[!UICONTROL Properties]** di un’attività Query.
+Sono configurate in [mappature di destinazione](../../administration/using/target-mappings-in-campaign.md) e sono definite durante la creazione di un flusso di lavoro, nella scheda **[!UICONTROL Properties]** di un&#39;attività Query.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Esempio di filtri disponibili per la risorsa **[!UICONTROL Deliveries (delivery)
 
 Per impostazione predefinita, la dimensione di targeting e la risorsa sono impostate per eseguire il targeting dei profili. Tuttavia, se desideri cercare un record specifico in una tabella lontana, potrebbe risultare utile usare una risorsa diversa dalla dimensione di targeting.
 
-Per ulteriori informazioni, consulta questo caso d’uso: [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Per ulteriori informazioni, consulta questo caso d&#39;uso: [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Arricchimento dei dati {#enriching-data}
 
@@ -123,7 +123,7 @@ Dopo l’aggiunta di eventuali dati aggiuntivi, puoi applicare un livello di fil
 >
 >Per impostazione predefinita, l’opzione **[!UICONTROL Remove duplicate rows (DISTINCT)]** è selezionata nelle **[!UICONTROL Advanced options]** della scheda **[!UICONTROL Additional data]** della query. Se l’attività **[!UICONTROL Query]** contiene molti (a partire da 100) dati aggiuntivi definiti, è consigliabile deselezionare questa opzione per motivi di prestazioni. Attenzione: se deselezioni questa opzione puoi ottenere duplicati, a seconda dei dati interrogati.
 
-Un caso di utilizzo su come personalizzare un’e-mail con dati aggiuntivi è presentato in [questa sezione](../../automating/using/personalizing-email-with-additional-data.md).
+Un caso d&#39;uso su come personalizzare un&#39;e-mail con dati aggiuntivi è presentato in [questa sezione](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Aggiunta di un campo semplice {#adding-a-simple-field}
 

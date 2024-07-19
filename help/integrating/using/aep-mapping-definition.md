@@ -30,7 +30,7 @@ Per eseguire questa attività, i prerequisiti sono:
 * una definizione dello schema XDM tramite l’interfaccia o utilizzando l’API REST associata a XDM
 * una creazione di set di dati basata sulla definizione dello schema XDM
 
-1. Vai a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** e scegli la **[!UICONTROL Data mappings]** voce.
+1. Vai a **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** e scegli la voce **[!UICONTROL Data mappings]**.
 
 1. Fai clic su **[!UICONTROL Create]** per avviare una nuova mappatura XDM.
 
@@ -38,20 +38,20 @@ Per eseguire questa attività, i prerequisiti sono:
 
 1. Compila i campi obbligatori e seleziona:
 
-   * a **dimensione di targeting**: schema Campaign Standard da mappare
-   * a **set di dati**: questo è il pacchetto di dati associato a uno schema XDM in Adobe Experience Platform.
+   * una **dimensione di targeting**: questo è lo schema Campaign Standard da mappare
+   * un **set di dati**: questo è il pacchetto di dati associato a uno schema XDM in Adobe Experience Platform.
 
 >[!NOTE]
 >
->Per acquisire un batch in Real-time Customer Profile o Identity Service, il set di dati deve essere [abilitato per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>Affinché un batch possa essere acquisito in Real-time Customer Profile o Identity Service, il set di dati deve essere [abilitato per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Se il set di dati selezionato è già utilizzato in una mappatura dati esistente, viene visualizzato un avviso per informare che i dati potrebbero essere sovrascritti in Adobe Experience Platform. Ciò può verificarsi quando sono presenti alcuni destinatari comuni nei mapping dei dati che utilizzano lo stesso set di dati.
 
-La schermata seguente presenta **[!UICONTROL Field mappings]** sezione in cui puoi creare una nuova mappatura per ciascun campo nello schema di Campaign Standard.
+La schermata seguente presenta la sezione **[!UICONTROL Field mappings]** in cui è possibile creare una nuova mappatura per ogni campo nello schema Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
-Il **[!UICONTROL Create new field mapping]** consente di selezionare il campo Campaign Standard e l’espressione del percorso del campo corrispondente nello schema XDM.
+Il pulsante **[!UICONTROL Create new field mapping]** consente di selezionare il campo Campaign Standard e l&#39;espressione del percorso del campo corrispondente nello schema XDM.
 
 Se non riesci a trovare un campo Adobe Campaign Standard, puoi utilizzarlo per cercare il campo. Attualmente, la ricerca funziona solo per i campi aperti nella gerarchia.
 
@@ -63,13 +63,13 @@ Le risorse estese definite in Campaign Standard vengono mappate come tutti i cam
 
 Puoi personalizzare l’estensione XDM tramite l’API e definire una tua estensione che ti consenta di controllare meglio la mappatura.
 
-Consulta [Esercitazione sull’API del registro di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) per ulteriori dettagli sull’API XDM.
+Per ulteriori dettagli sull&#39;API XDM, consulta l&#39;[esercitazione sull&#39;API del Registro di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 Per mappare un campo di enumerazione, è necessario utilizzare l’editor di espressioni per definire ogni valore di enumerazione corrispondente al valore XDM. Ad esempio, il campo postaladdressfield deve essere definito come:
 
 ![](assets/aep_enummapping.png)
 
-Se il valore XDM è definito come enumerazione nello schema XDM, puoi utilizzare la funzione EXDM nativa che sostituirà automaticamente **vita** sintassi.
+Se il valore XDM è definito come enumerazione nello schema XDM, puoi utilizzare la funzione EXDM nativa che sostituirà automaticamente la sintassi **lif**.
 
 ![](assets/aep_enummappingexdm.png)
 
@@ -79,4 +79,4 @@ Per modificare una mappatura XDM, aprila, modifica le informazioni desiderate, q
 
 >[!IMPORTANT]
 >
->Per il momento, se modifichi un valore in **[!UICONTROL Field mappings]** , quindi fai clic all&#39;esterno del campo. La modifica verrà visualizzata nell&#39;interfaccia solo dopo aver fatto clic sul pulsante **[!UICONTROL Save]** pulsante. Questo comportamento si verifica una sola volta, quando la modifica **[!UICONTROL Field Mappings]** è la prima modifica sulla pagina.
+>Per il momento, se modifichi un valore nella sezione **[!UICONTROL Field mappings]** e fai clic all&#39;esterno del campo, la modifica non viene visualizzata nell&#39;interfaccia finché non fai clic sul pulsante **[!UICONTROL Save]**. Questo comportamento si verifica una sola volta, quando la modifica su **[!UICONTROL Field Mappings]** è la prima modifica sulla pagina.

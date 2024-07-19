@@ -21,18 +21,18 @@ Utilizza l’interfaccia di Adobe Campaign per tenere traccia degli abbonati e m
 
 Sono disponibili diverse opzioni per monitorare gli abbonamenti e i loro annullamenti:
 
-* Visualizza l’elenco degli abbonati al servizio dal dashboard del servizio. Consulta [Dashboard del servizio](#service-dashboard).
-* Consulta la cronologia degli abbonamenti e dei loro annullamenti da **Cronologia abbonamenti** nel dashboard del servizio. Consulta [Cronologia abbonamenti](#subscription-history).
-* Visualizzare un rapporto che descrive l’evoluzione degli abbonamenti e del loro annullamento nel servizio **Rapporti**. Consulta [Rapporti sui servizi](#service-reports).
-* Trova l’elenco dei servizi a cui una persona si è abbonata dal suo **Profilo**. Consulta [Cronologia degli eventi collegati a un profilo](#history-of-events-linked-to-a-profile).
+* Visualizza l’elenco degli abbonati al servizio dal dashboard del servizio. Vedi [Dashboard del servizio](#service-dashboard).
+* Consulta la cronologia degli abbonamenti e dei loro annullamenti dalla scheda **Cronologia abbonamenti** nel dashboard del servizio. Vedi [Cronologia abbonamenti](#subscription-history).
+* Visualizza un report che descrive l&#39;evoluzione degli abbonamenti e dei loro annullamenti nel servizio **Report**. Consulta [Report servizio](#service-reports).
+* Trova l&#39;elenco dei servizi a cui una persona ha effettuato l&#39;abbonamento dal suo **profilo**. Vedi [Cronologia degli eventi collegati a un profilo](#history-of-events-linked-to-a-profile).
 
 ## Dashboard del servizio {#service-dashboard}
 
 Per visualizzare l’elenco degli abbonati a un servizio:
 
-1. Passa all’elenco dei servizi tramite il menu avanzato **Profili e pubblico** > **Servizi**, accessibile dal logo Adobe Campaign.
+1. Passa all&#39;elenco dei servizi tramite il menu avanzato **Profili e pubblico** > **Servizi**, accessibile dal logo di Adobe Campaign.
 1. Seleziona il servizio desiderato per visualizzare la dashboard corrispondente.
-1. L’elenco degli abbonati al servizio si trova nella sezione **Iscrizioni** scheda.
+1. L&#39;elenco degli abbonati al servizio si trova nella scheda **Abbonamenti**.
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
@@ -40,9 +40,9 @@ Per visualizzare l’elenco degli abbonati a un servizio:
 
 Per consultare la cronologia degli abbonamenti e del loro annullamento:
 
-1. Passa all’elenco dei servizi tramite il menu avanzato **Profili e pubblico** > **Servizi**, accessibile dal logo Adobe Campaign.
+1. Passa all&#39;elenco dei servizi tramite il menu avanzato **Profili e pubblico** > **Servizi**, accessibile dal logo di Adobe Campaign.
 1. Seleziona il servizio desiderato per visualizzare la dashboard corrispondente.
-1. Seleziona la **Cronologia abbonamenti** per visualizzare le date di abbonamento e annullamento dell’abbonamento di ogni persona.
+1. Selezionare la scheda **Cronologia abbonamenti** per visualizzare le date di sottoscrizione e annullamento dell&#39;abbonamento di ogni utente.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
@@ -50,18 +50,18 @@ Per consultare la cronologia degli abbonamenti e del loro annullamento:
 
 Per visualizzare un rapporto che descrive l’evoluzione degli abbonamenti e dei loro annullamenti:
 
-1. Passa all’elenco dei servizi tramite il menu avanzato **Profili e pubblico** > **Servizi**, accessibile dal logo Adobe Campaign.
+1. Passa all&#39;elenco dei servizi tramite il menu avanzato **Profili e pubblico** > **Servizi**, accessibile dal logo di Adobe Campaign.
 1. Seleziona il servizio desiderato per visualizzare la dashboard corrispondente.
-1. Fai clic su **Rapporti** nella barra delle azioni, quindi **Monitoraggio degli abbonamenti** nella schermata di selezione.
+1. Fai clic sul pulsante **Rapporti** nella barra delle azioni, quindi **Monitoraggio abbonamento** nella schermata di selezione.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. Il **Riepilogo del servizio** Il rapporto presenta il numero di abbonamenti, l’evoluzione complessiva degli abbonamenti e una curva che mostra l’avanzamento nel tempo.
+1. Il report **Riepilogo servizio** presenta il numero di abbonamenti, l&#39;evoluzione complessiva degli abbonamenti e una curva che mostra l&#39;avanzamento nel tempo.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
 ## Cronologia degli eventi collegati a un profilo {#history-of-events-linked-to-a-profile}
 
-Per consultare l&#39;elenco dei servizi a cui un contatto si è iscritto, è possibile consultare la cronologia di marketing. Per ulteriori informazioni, consulta [Profilo cliente integrato](../../audiences/using/integrated-customer-profile.md) sezione.
+Per consultare l&#39;elenco dei servizi a cui un contatto si è iscritto, è possibile consultare la cronologia di marketing. Per ulteriori informazioni, consulta la sezione [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)

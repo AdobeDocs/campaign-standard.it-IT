@@ -26,8 +26,8 @@ La tabella seguente fornisce informazioni sulle regole di filtro predefinite e s
 | Etichetta | Canale | Descrizione |
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione target senza indirizzo specificato (e-mail, indirizzo postale, ecc.) in base al canale selezionato). |
-| **[!UICONTROL Address on denylist]** | Tutto | Esclude gli indirizzi che si trovano nel inserisco nell&#39;elenco Bloccati di. |
-| **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base alla popolazione target **[!UICONTROL Address]** campo. |
+| **[!UICONTROL Address on denylist]** | Tutto | Esclude gli indirizzi presenti nel inserisco nell&#39;elenco Bloccati di. |
+| **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al campo della popolazione di destinazione **[!UICONTROL Address]**. |
 | **[!UICONTROL Exclude mobile applications]** | Applicazione mobile | Sono escluse le sottoscrizioni di app che non corrispondono a quelle dell’app mobile definita nel messaggio. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In-app | Sono escluse le sottoscrizioni di app che non corrispondono a quelle definite nel messaggio per app mobili (modello in-app). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In-app | Esclude gli abbonamenti alle app che non corrispondono a quelli dell’app mobile definita nel messaggio (modello di trasmissione in-app) |
@@ -42,7 +42,7 @@ Oltre a queste regole di filtro predefinite, sono disponibili due regole di escl
 
 Durante l’analisi e-mail, queste regole confrontano gli indirizzi e-mail dei destinatari con gli indirizzi o i nomi di dominio non consentiti contenuti in un elenco di soppressione globale crittografato gestito nell’istanza di recapito messaggi. In caso di corrispondenza, il messaggio non viene inviato al destinatario.
 
-In questo modo si evita di essere aggiunti al elenco Bloccati a causa di attività dannose, in particolare l’uso di una spamtrap. Ad esempio, se utilizzi uno Spamtrap per abbonarti tramite uno dei tuoi moduli web, un’e-mail di conferma viene inviata automaticamente a quello Spamtrap, e il tuo indirizzo viene aggiunto automaticamente al inserisco nell&#39;elenco Bloccati di.
+Questo per evitare di essere aggiunti al inserisco nell&#39;elenco Bloccati di a causa di attività dannose, in particolare l’utilizzo di uno Spamtrap. Ad esempio, se utilizzi uno Spamtrap per abbonarti tramite uno dei tuoi moduli web, un’e-mail di conferma viene inviata automaticamente a quello Spamtrap, e il tuo indirizzo viene aggiunto automaticamente al inserisco nell&#39;elenco Bloccati di.
 
 >[!NOTE]
 >
@@ -54,23 +54,23 @@ Puoi creare regole di filtro personalizzate in base alle tue esigenze. Ad esempi
 
 Per creare una regola di tipologia di filtro, effettua le seguenti operazioni:
 
-1. Crea una nuova regola di tipologia. I passaggi principali per creare le regole di tipologia sono descritti in [questa sezione](../../sending/using/managing-typology-rules.md).
+1. Crea una nuova regola di tipologia. I passaggi principali per la creazione di regole di tipologia sono descritti in [questa sezione](../../sending/using/managing-typology-rules.md).
 
-1. Seleziona la **[!UICONTROL Filtering]** tipo di regola, quindi specifica il canale desiderato.
+1. Selezionare il tipo di regola **[!UICONTROL Filtering]**, quindi specificare il canale desiderato.
 
-1. In **[!UICONTROL Filtering criteria]** , selezionare le sottoscrizioni nella scheda **[!UICONTROL Subscription]** categoria.
+1. Nella scheda **[!UICONTROL Filtering criteria]** selezionare le sottoscrizioni nella categoria **[!UICONTROL Subscription]**.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. In **[!UICONTROL Explorer]** dell’editor delle query, trascina e rilascia la scheda **[!UICONTROL Subscriber]** nella parte principale della schermata.
+1. Nella scheda **[!UICONTROL Explorer]** dell&#39;editor delle query, trascina e rilascia il nodo **[!UICONTROL Subscriber]** nella parte principale della schermata.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Seleziona la **[!UICONTROL Age]** e definiscono le condizioni di filtro in modo che l’età degli abbonati sia inferiore a 18 anni.
+1. Selezionare il campo **[!UICONTROL Age]** e definire le condizioni di filtro in modo che l&#39;età degli abbonati sia inferiore a 18 anni.
 
    ![](assets/typology_create-rule-age.png)
 
-1. In **[!UICONTROL Typologies]** , collega questa regola a una tipologia.
+1. Nella scheda **[!UICONTROL Typologies]**, collega questa regola a una tipologia.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,11 +82,11 @@ Ogni volta che questa regola viene utilizzata in un messaggio, gli abbonati cons
 
 ## Configurazione del contesto di targeting delle regole di filtro {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard consente di configurare  **Targeting** e **Filtraggio** dimensioni da utilizzare a seconda dei dati di cui desideri eseguire il targeting.
+Campaign Standard consente di configurare le dimensioni **Targeting** e **Filtro** da utilizzare in base ai dati di destinazione.
 
-A questo scopo, apri le proprietà della regola di tipologia, quindi accedi a **[!UICONTROL Advanced information]** sezione.
+A questo scopo, apri le proprietà della regola di tipologia, quindi accedi alla sezione **[!UICONTROL Advanced information]**.
 
-Per impostazione predefinita, il filtro viene eseguito sul **[!UICONTROL Profiles]**. Ad esempio, se la regola è destinata a un’app mobile, il **[!UICONTROL Filtering dimension]** può essere modificato in **[!UICONTROL Subscriptions to an application]**.
+Per impostazione predefinita, il filtro viene eseguito su **[!UICONTROL Profiles]**. Ad esempio, se la regola è destinata a un&#39;app mobile, **[!UICONTROL Filtering dimension]** può essere modificato in **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
@@ -94,7 +94,7 @@ Per impostazione predefinita, il filtro viene eseguito sul **[!UICONTROL Profile
 
 Puoi limitare l’applicabilità di una regola di filtro in base al messaggio da inviare.
 
-1. Nel campo della regola di tipologia **[!UICONTROL Application criteria]** , deseleziona la scheda **[!UICONTROL Apply the rule on all deliveries]** , attivata per impostazione predefinita.
+1. Nella scheda **[!UICONTROL Application criteria]** della regola di tipologia, deseleziona l&#39;opzione **[!UICONTROL Apply the rule on all deliveries]**, che è abilitata per impostazione predefinita.
 
    ![](assets/typology_limit.png)
 

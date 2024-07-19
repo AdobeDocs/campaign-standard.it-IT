@@ -15,17 +15,17 @@ ht-degree: 1%
 
 # Licenze{#licenses}
 
-Il **[!UICONTROL Licenses]** consente di visualizzare le licenze installate nell’istanza e diverse informazioni su di essa, ad esempio il numero di build, la versione di rilascio o se i termini dell’accordo sono stati accettati e da chi.
+La finestra **[!UICONTROL Licenses]** consente di visualizzare le licenze installate nell&#39;istanza e diverse informazioni su di essa, ad esempio il numero di build, la versione o se i termini del contratto sono stati accettati e da chi.
 
 ![](assets/license_1.png)
 
 Con una nuova build o una nuova funzione, le condizioni di licenza possono cambiare e devono essere accettate da un amministratore funzionale dell’istanza.
 
-La seguente finestra viene visualizzata per gli utenti standard dopo l’accesso; non è richiesta alcuna azione da parte loro. Possono comunque lavorare su Adobe Campaign facendo clic sul pulsante **[!UICONTROL OK]** pulsante.
+La seguente finestra viene visualizzata per gli utenti standard dopo l’accesso; non è richiesta alcuna azione da parte loro. Possono comunque lavorare su Adobe Campaign facendo clic sul pulsante **[!UICONTROL OK]**.
 
 ![](assets/license_2.png)
 
-Un amministratore deve leggere e confermare i nuovi termini del contratto nei successivi 30 giorni dell’installazione della build controllando **[!UICONTROL I accept the terms from the license agreement]** e clic **[!UICONTROL Confirm]**.
+Un amministratore deve leggere e confermare i nuovi termini del contratto nei successivi 30 giorni dell&#39;installazione della build selezionando **[!UICONTROL I accept the terms from the license agreement]** e facendo clic su **[!UICONTROL Confirm]**.
 
 ![](assets/license_3.png)
 

@@ -66,7 +66,7 @@ La preparazione dei messaggi viene attivata in base ai parametri di esecuzione d
 
    >[!NOTE]
    >
-   >Le consegne ricorrenti vengono preparate in base al **periodo di aggregazione**. Ad esempio, se il periodo di aggregazione è &quot;per giorno&quot;, la consegna verrà ripreparata solo una volta al giorno. Se prevedi di chiamare questo flusso di lavoro più volte al giorno, utilizza [!UICONTROL No aggregation].
+   >Le consegne ricorrenti vengono preparate in base al **periodo di aggregazione**. Ad esempio, se il periodo di aggregazione è &quot;per giorno&quot;, la consegna verrà ripreparata solo una volta al giorno. Se si prevede di chiamare questo flusso di lavoro più volte al giorno, utilizzare [!UICONTROL No aggregation].
 
 1. Seleziona un tipo di e-mail. I tipi di e-mail provengono dai modelli e-mail definiti nel menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Immetti le proprietà generali per l’e-mail. Puoi anche allegarla a una campagna esistente. L’etichetta dell’attività di consegna del flusso di lavoro viene aggiornata con l’etichetta e-mail.

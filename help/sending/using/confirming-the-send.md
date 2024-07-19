@@ -20,7 +20,7 @@ ht-degree: 16%
 
 Dopo che hai completato la preparazione dei messaggi e hai eseguito i passaggi di approvazione, puoi inviarli. Per ulteriori informazioni sulla preparazione dei messaggi, consulta [Preparazione dell’invio](../../sending/using/preparing-the-send.md).
 
-Solo gli utenti con **[!UICONTROL Start deliveries]** Il ruolo può confermare l’invio. Per ulteriori informazioni, consulta la sezione [Elenco di ruoli](../../administration/using/list-of-roles.md).
+Solo gli utenti con il ruolo **[!UICONTROL Start deliveries]** possono confermare l&#39;invio. Per ulteriori informazioni, consulta la sezione [Elenco di ruoli](../../administration/using/list-of-roles.md).
 
 <!--Users without this role will see the following message: 
 
@@ -30,11 +30,11 @@ Solo gli utenti con **[!UICONTROL Start deliveries]** Il ruolo può confermare l
 
 Una volta completata la preparazione, segui i passaggi indicati di seguito per inviare il messaggio.
 
-1. Fai clic su **[!UICONTROL Confirm send]** nella barra delle azioni del messaggio.
+1. Fare clic sul pulsante **[!UICONTROL Confirm send]** presente nella barra delle azioni del messaggio.
 
    ![](assets/confirm_delivery.png)
 
-1. Completa l’invio facendo clic su **[!UICONTROL OK]** pulsante.
+1. Completare l&#39;invio facendo clic sul pulsante **[!UICONTROL OK]**.
 
    ![](assets/confirm_delivery1.png)
 
@@ -44,13 +44,13 @@ Una volta completata la preparazione, segui i passaggi indicati di seguito per i
 >
 >Se il messaggio è pianificato, viene inviato quando viene raggiunto l’orario di invio. Per ulteriori informazioni sulla pianificazione dei messaggi, consulta [questa sezione](../../sending/using/about-scheduling-messages.md).
 
-Se utilizzi una consegna ricorrente senza periodo di aggregazione, puoi richiedere conferma prima di inviarla. Durante la configurazione del messaggio, apri la **[!UICONTROL Schedule]** blocco del dashboard di consegna e attivazione dell’opzione dedicata.
+Se utilizzi una consegna ricorrente senza periodo di aggregazione, puoi richiedere conferma prima di inviarla. Durante la configurazione del messaggio, apri il blocco **[!UICONTROL Schedule]** del dashboard di consegna e attiva l&#39;opzione dedicata.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
 ## Informazioni sugli indicatori dei messaggi {#message-indicators}
 
-Una volta inviato il messaggio ai contatti, il **[!UICONTROL Deployment]** La zona mostra i dati dei KPI (Key Performance Indicator, indicatore di prestazioni chiave), tra cui:
+Dopo l&#39;invio del messaggio ai contatti, nell&#39;area **[!UICONTROL Deployment]** vengono visualizzati i dati KPI (Key Performance Indicator), inclusi:
 
 * Il numero dei messaggi da inviare
 * Il numero dei messaggi inviati
@@ -65,7 +65,7 @@ Una volta inviato il messaggio ai contatti, il **[!UICONTROL Deployment]** La zo
 
 ![](assets/sending_delivery.png)
 
-Se l’aggiornamento dei KPI richiede troppo tempo o non riflette i risultati dei registri di invio, fai clic sul pulsante **[!UICONTROL Compute stats]** pulsante in **[!UICONTROL Deployment]** finestra.
+Se l&#39;aggiornamento dei KPI richiede troppo tempo o non riflette i risultati dei log di invio, fare clic sul pulsante **[!UICONTROL Compute stats]** nella finestra **[!UICONTROL Deployment]**.
 
 ![](assets/sending_delivery7.png)
 
@@ -82,19 +82,19 @@ Dopo l’invio del messaggio, puoi tenere traccia del comportamento dei destinat
 >
 >Questa sezione si applica solo al canale e-mail.
 
-In **[!UICONTROL Summary]** visualizzazione di ogni e-mail, il **[!UICONTROL Delivered]** la percentuale inizia al 100% e poi diminuisce progressivamente durante la consegna [periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters), quando vengono segnalati i mancati recapiti morbidi e permanenti<!--from the Enhanced MTA to Campaign-->.
+Nella visualizzazione **[!UICONTROL Summary]** di ogni e-mail, la percentuale di **[!UICONTROL Delivered]** inizia al 100% e poi si abbassa progressivamente durante il [periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters) della consegna, man mano che vengono segnalati i mancati recapiti non permanenti e permanenti<!--from the Enhanced MTA to Campaign-->.
 
-In effetti, tutti i messaggi vengono visualizzati come **[!UICONTROL Sent]** nel [log di invio](../../sending/using/monitoring-a-delivery.md#sending-logs) non appena sono stati inoltrati correttamente da Campaign all’MTA avanzato (Message Transfer Agent). Rimangono in tale stato a meno che o fino a quando un [rimbalzo](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) per tale messaggio viene ritrasmesso dall’MTA avanzato a Campaign.
+In effetti, tutti i messaggi vengono visualizzati come **[!UICONTROL Sent]** nei [registri di invio](../../sending/using/monitoring-a-delivery.md#sending-logs) non appena vengono inoltrati correttamente da Campaign all’MTA avanzato (agente di trasferimento messaggi). Rimangono in tale stato a meno che o fino a quando un [mancato recapito](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) per quel messaggio non viene comunicato dall&#39;MTA avanzato a Campaign.
 
-Quando i messaggi non recapitabili vengono segnalati dall’MTA avanzato, il loro stato cambia da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** e **[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza.
+Quando i messaggi non recapitabili vengono segnalati dall&#39;MTA avanzato, il loro stato cambia da **[!UICONTROL Sent]** a **[!UICONTROL Failed]** e la percentuale di **[!UICONTROL Delivered]** viene diminuita di conseguenza.
 
-Quando i messaggi con mancati recapiti non permanenti vengono segnalati dall’MTA avanzato, vengono comunque visualizzati come **[!UICONTROL Sent]** e **[!UICONTROL Delivered]** percentuale non ancora aggiornata. I messaggi di mancato recapito sono quindi [nuovo tentativo](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante il periodo di validità della consegna:
+Quando i messaggi con mancati recapiti non permanenti vengono segnalati dall’MTA avanzato, vengono comunque visualizzati come **[!UICONTROL Sent]** e la percentuale **[!UICONTROL Delivered]** non è ancora aggiornata. I messaggi con mancati recapiti non permanenti vengono quindi [ritentati](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) per tutto il periodo di validità della consegna:
 
-* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio rimane invariato **[!UICONTROL Sent]** e **[!UICONTROL Delivered]** La percentuale rimane invariata.
+* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio rimane **[!UICONTROL Sent]** e la percentuale di **[!UICONTROL Delivered]** rimane invariata.
 
-* In caso contrario, lo stato cambia in **[!UICONTROL Failed]** e **[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza.
+* In caso contrario, lo stato diventa **[!UICONTROL Failed]** e la percentuale di **[!UICONTROL Delivered]** viene diminuita di conseguenza.
 
-Pertanto, devi attendere fino alla fine del periodo di validità per visualizzare il **[!UICONTROL Delivered]** percentuale e il numero finale di **[!UICONTROL Sent]** e **[!UICONTROL Failed]** messaggi.
+Pertanto, è necessario attendere fino alla fine del periodo di validità per visualizzare la percentuale finale di **[!UICONTROL Delivered]** e il numero finale di **[!UICONTROL Sent]** e **[!UICONTROL Failed]** messaggi.
 
 ### Servizio di feedback delle e-mail (beta) {#email-feedback-service}
 
@@ -104,29 +104,29 @@ Con la funzionalità Email Feedback Service (EFS), lo stato di ogni e-mail viene
 >
 >Il servizio di feedback delle e-mail è attualmente disponibile come funzionalità beta.
 
-Una volta iniziata la consegna, non vi è alcuna modifica nel **[!UICONTROL Delivered]** percentuale di inoltro del messaggio da Campaign all’MTA avanzato.
+Una volta avviata la consegna, non vi è alcuna modifica nella percentuale di **[!UICONTROL Delivered]** quando il messaggio viene inoltrato correttamente da Campaign all’MTA avanzato.
 
 ![](assets/efs-sending.png)
 
-I registri di consegna mostrano **[!UICONTROL Pending]** stato per ogni indirizzo di destinazione.
+I registri di consegna mostrano lo stato **[!UICONTROL Pending]** per ogni indirizzo di destinazione.
 
 ![](assets/efs-pending.png)
 
-Quando la consegna dei messaggi ai profili di destinazione viene segnalata in tempo reale dall’MTA avanzato, i registri di consegna mostrano **[!UICONTROL Sent]** stato di ogni indirizzo che ha ricevuto correttamente il messaggio. Il **[!UICONTROL Delivered]** la percentuale viene aumentata di conseguenza con ogni consegna riuscita.
+Quando la consegna dei messaggi ai profili di destinazione viene segnalata in tempo reale dall’MTA avanzato, i registri di consegna mostrano lo stato **[!UICONTROL Sent]** per ogni indirizzo che ha ricevuto correttamente il messaggio. La percentuale di **[!UICONTROL Delivered]** viene aumentata di conseguenza a ogni consegna riuscita.
 
-Quando i messaggi non recapitabili vengono segnalati dall’MTA avanzato, lo stato del registro cambia da **[!UICONTROL Pending]** a **[!UICONTROL Failed]** e **[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza.
+Quando i messaggi non recapitabili vengono segnalati dall&#39;MTA avanzato, lo stato del registro cambia da **[!UICONTROL Pending]** a **[!UICONTROL Failed]** e la percentuale di **[!UICONTROL Bounces + errors]** viene aumentata di conseguenza.
 
-Quando i messaggi con mancati recapiti non permanenti vengono segnalati dall’MTA avanzato, anche lo stato del registro cambia da **[!UICONTROL Pending]** a **[!UICONTROL Failed]** e **[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza. Il **[!UICONTROL Delivered]** La percentuale rimane invariata. I messaggi in mancati recapiti non permanenti vengono quindi ritentati durante la consegna [periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters):
+Quando vengono segnalati i messaggi in soft-bouncing dall&#39;MTA avanzato, anche lo stato del registro cambia da **[!UICONTROL Pending]** a **[!UICONTROL Failed]** e la percentuale di **[!UICONTROL Bounces + errors]** viene aumentata di conseguenza. La percentuale **[!UICONTROL Delivered]** rimane invariata. I messaggi non recapitabili vengono quindi ritentati per tutto il [periodo di validità](../../administration/using/configuring-email-channel.md#validity-period-parameters) della consegna:
 
-* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio cambia in **[!UICONTROL Sent]** e **[!UICONTROL Delivered]** la percentuale viene aumentata di conseguenza.
+* Se un nuovo tentativo ha esito positivo prima della fine del periodo di validità, lo stato del messaggio cambia in **[!UICONTROL Sent]** e la percentuale di **[!UICONTROL Delivered]** viene aumentata di conseguenza.
 
-* In caso contrario, lo stato rimane invariato **[!UICONTROL Failed]**. Il **[!UICONTROL Delivered]** e **[!UICONTROL Bounces + errors]** Le percentuali rimangono invariate.
+* In caso contrario, lo stato rimane **[!UICONTROL Failed]**. Le percentuali **[!UICONTROL Delivered]** e **[!UICONTROL Bounces + errors]** rimangono invariate.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui mancati recapiti non permanenti, consulta [questa sezione](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Per ulteriori informazioni sui mancati recapiti permanenti e non permanenti, consulta [questa sezione](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Per ulteriori informazioni sui nuovi tentativi dopo un errore temporaneo di consegna, consulta [questa sezione](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>Per ulteriori informazioni sui nuovi tentativi dopo un errore temporaneo di consegna, vedere [questa sezione](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 
@@ -134,22 +134,22 @@ Quando i messaggi con mancati recapiti non permanenti vengono segnalati dall’M
 
 Le tabelle seguenti mostrano le modifiche nei KPI e negli stati dei registri di invio introdotte dalla funzionalità EFS.
 
-**Con servizio di feedback delle e-mail**
+**Con Servizio Di Feedback E-Mail**
 
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
-| Il messaggio è stato inoltrato correttamente da Campaign all’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** la percentuale inizia allo 0%</li><li>**[!UICONTROL Bounces + errors]** la percentuale inizia allo 0%</li></ul> | In sospeso |
-| I messaggi non recapitabili vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
-| I messaggi in soft-bouncing vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
-| Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | <ul><li>**[!UICONTROL Delivered]** la percentuale viene aumentata di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale è diminuita di conseguenza</li></ul> | Inviato |
-| Nuovi tentativi di messaggi con mancati recapiti non riusciti | <ul><li> Nessuna modifica in **[!UICONTROL Delivered]** percentuale </li><li> Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale </li></ul> | Non riuscito |
+| Il messaggio è stato inoltrato correttamente da Campaign all’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** percentuale inizia a 0%</li><li>**[!UICONTROL Bounces + errors]** percentuale inizia a 0%</li></ul> | In sospeso |
+| I messaggi non recapitabili vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica nella percentuale **[!UICONTROL Delivered]**</li><li>La percentuale di **[!UICONTROL Bounces + errors]** viene aumentata di conseguenza</li></ul> | Non riuscito |
+| I messaggi in soft-bouncing vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica nella percentuale **[!UICONTROL Delivered]**</li><li>La percentuale di **[!UICONTROL Bounces + errors]** viene aumentata di conseguenza</li></ul> | Non riuscito |
+| Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | <ul><li>La percentuale di **[!UICONTROL Delivered]** viene aumentata di conseguenza</li><li>**[!UICONTROL Bounces + errors]** percentuale diminuita di conseguenza</li></ul> | Inviato |
+| Nuovi tentativi di messaggi con mancati recapiti non riusciti | <ul><li> Nessuna modifica nella percentuale **[!UICONTROL Delivered]** </li><li> Nessuna modifica nella percentuale **[!UICONTROL Bounces + errors]** </li></ul> | Non riuscito |
 
-**Senza servizio di feedback delle e-mail**
+**Senza Servizio Di Feedback E-Mail**
 
 | Passaggio nel processo di invio | Riepilogo KPI | Stato dei registri di invio |
 |--- |--- |--- |
-| Il messaggio è stato inoltrato correttamente da Campaign all’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** la percentuale inizia al 100%</li><li>**[!UICONTROL Bounces + errors]** la percentuale inizia allo 0%</li></ul> | Inviato |
-| I messaggi non recapitabili vengono segnalati dall’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
-| I messaggi in soft-bouncing vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale</li></ul> | Inviato |
-| Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | <ul><li>Nessuna modifica in **[!UICONTROL Delivered]** percentuale</li><li>Nessuna modifica in **[!UICONTROL Bounces + errors]** percentuale</li></ul> | Inviato |
-| Nuovi tentativi di messaggi con mancati recapiti non riusciti | <ul><li>**[!UICONTROL Delivered]** la percentuale è diminuita di conseguenza</li><li>**[!UICONTROL Bounces + errors]** la percentuale viene aumentata di conseguenza</li></ul> | Non riuscito |
+| Il messaggio è stato inoltrato correttamente da Campaign all’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** percentuale inizia al 100%</li><li>**[!UICONTROL Bounces + errors]** percentuale inizia a 0%</li></ul> | Inviato |
+| I messaggi non recapitabili vengono segnalati dall’MTA avanzato | <ul><li>**[!UICONTROL Delivered]** percentuale diminuita di conseguenza</li><li>La percentuale di **[!UICONTROL Bounces + errors]** viene aumentata di conseguenza</li></ul> | Non riuscito |
+| I messaggi in soft-bouncing vengono segnalati dall’MTA avanzato | <ul><li>Nessuna modifica nella percentuale **[!UICONTROL Delivered]**</li><li>Nessuna modifica nella percentuale **[!UICONTROL Bounces + errors]**</li></ul> | Inviato |
+| Nuovi tentativi di messaggi con mancati recapiti non permanenti riusciti | <ul><li>Nessuna modifica nella percentuale **[!UICONTROL Delivered]**</li><li>Nessuna modifica nella percentuale **[!UICONTROL Bounces + errors]**</li></ul> | Inviato |
+| Nuovi tentativi di messaggi con mancati recapiti non riusciti | <ul><li>**[!UICONTROL Delivered]** percentuale diminuita di conseguenza</li><li>La percentuale di **[!UICONTROL Bounces + errors]** viene aumentata di conseguenza</li></ul> | Non riuscito |

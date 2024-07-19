@@ -18,10 +18,10 @@ ht-degree: 2%
 
 # Reclami{#complaints}
 
-Il **[!UICONTROL Complaints]** Il rapporto identifica le consegne che hanno ricevuto il maggior numero di segnalazioni come spam.
+Il report **[!UICONTROL Complaints]** identifica le consegne che hanno ricevuto il maggior numero di segnalazioni come spam.
 
 ![](assets/delivery_reports_complaints.png)
 
-Il **Flop** in tabella, ordinata per dominio destinatario, viene visualizzato il numero di destinatari che hanno dichiarato un messaggio e-mail o posta indesiderata. I risultati della tabella sono disponibili anche in un grafico e in numeri di riepilogo.
+Nella tabella **Flop**, ordinata per dominio del destinatario, viene visualizzato il numero di destinatari che hanno dichiarato un messaggio e-mail o posta indesiderata. I risultati della tabella sono disponibili anche in un grafico e in numeri di riepilogo.
 
-Il **Consegnato e al momento della consegna al momento del Inserisco nell&#39;elenco Bloccati di consegna** nella tabella è indicato il numero di destinatari che hanno dichiarato un messaggio e-mail come posta indesiderata o indesiderata. La tabella è ordinata per consegna.
+Nella tabella **Consegne e Al momento dell&#39;Inserisco nell&#39;elenco Bloccati** è elencato il numero di destinatari che hanno dichiarato un&#39;e-mail come spam o posta indesiderata. La tabella è ordinata per consegna.

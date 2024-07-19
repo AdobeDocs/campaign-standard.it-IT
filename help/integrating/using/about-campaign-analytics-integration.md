@@ -28,10 +28,10 @@ Questo funzionerà innanzitutto creando un account esterno collegato ad Adobe An
 
 Questa integrazione è disponibile solo per le consegne e-mail.
 
-Integrazione tra i servizi di base di Adobe Analytics **Triggers** e Adobe Campaign. Consente di inviare e-mail personalizzate ai clienti come reazione a comportamenti specifici tracciati sul sito web da Adobe Analytics (entro 15 minuti).
+È inoltre disponibile un&#39;integrazione tra il servizio core di Adobe Analytics **Triggers** e Adobe Campaign. Consente di inviare e-mail personalizzate ai clienti come reazione a comportamenti specifici tracciati sul sito web da Adobe Analytics (entro 15 minuti).
 
 **Argomenti correlati:**
 
-* [Panoramica dell’integrazione tra Campaign Standard e Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Configurare l’integrazione di Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Panoramica dell&#39;integrazione tra Campaign Standard e Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Configurare l&#39;integrazione di Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensioni e metriche di Campaign in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

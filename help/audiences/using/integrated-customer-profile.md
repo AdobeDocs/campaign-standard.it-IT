@@ -22,7 +22,7 @@ Per ogni contatto del database è disponibile un Integrated customer profile. Qu
 
 Per accedere all’Integrated customer profile, effettua le seguenti operazioni:
 
-1. Dalla pagina Home di Adobe Campaign, fai clic su **[!UICONTROL Customer profiles]** scheda o **Profili** per visualizzare l&#39;elenco dei profili.
+1. Dalla home page di Adobe Campaign, fare clic sulla scheda **[!UICONTROL Customer profiles]** o sulla scheda **Profili** per visualizzare l&#39;elenco dei profili.
 
 1. Per cercare un profilo in base a un campo specifico, apri il riquadro di ricerca, quindi seleziona il campo in cui desideri eseguire la ricerca.
 

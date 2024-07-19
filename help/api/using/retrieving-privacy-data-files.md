@@ -19,15 +19,15 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->Il [Servizio core per la privacy](https://developer.adobe.com/experience-platform-apis/references/privacy-service) L’integrazione è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>L&#39;integrazione del [servizio core per la privacy](https://developer.adobe.com/experience-platform-apis/references/privacy-service) è il metodo da utilizzare per tutte le richieste di accesso ed eliminazione. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Per recuperare il file che contiene tutte le informazioni associate a un valore di riconciliazione, segui questa procedura in tre passaggi:
 
-1. Eseguire una **POST** richiesta di creazione di una nuova richiesta con l’attributo **type=&quot;access&quot;**, vedi [Creazione di una nuova richiesta di accesso a dati personali](../../api/using/creating-a-privacy-request.md).
+1. Esegui una richiesta **POST** per creare una nuova richiesta con l&#39;attributo **type=&quot;access&quot;**. Vedi [Creazione di una nuova richiesta di privacy](../../api/using/creating-a-privacy-request.md).
 
-1. Eseguire una **GET** per recuperare informazioni sulla richiesta.
+1. Esegui una richiesta **GET** per recuperare informazioni sulla richiesta.
 
-1. Recuperare il file di dati eseguendo una **POST** richiesta sul restituito **privacyRequestData** URL, con il nome interno della richiesta di accesso a dati personali all’interno del payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupera il file di dati eseguendo una richiesta di **POST** sull&#39;URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy nel payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Inserire il pubblico di Adobe Experience Platform in Campaign {#destinations}
 
-Per acquisire il pubblico di Adobe Experience Platform in Campaign e utilizzarlo nei flussi di lavoro, devi innanzitutto collegare Adobe Campaign as a Adobe Experience Platform **Destinazione** e configuralo con il segmento da esportare.
+Per acquisire i tipi di pubblico di Adobe Experience Platform in Campaign e utilizzarli nei flussi di lavoro, devi innanzitutto collegare Adobe Campaign as a una **destinazione** di Adobe Experience Platform e configurarla con il segmento da esportare.
 
 Una volta configurata la destinazione, i dati verranno esportati nella posizione di archiviazione e sarà necessario creare un flusso di lavoro dedicato in Campaign Standard per acquisirli.
 
@@ -23,7 +23,7 @@ Una volta configurata la destinazione, i dati verranno esportati nella posizione
 
 In Adobe Experience Platform, configura una connessione con Adobe Campaign selezionando una posizione di archiviazione per i segmenti esportati. Questi passaggi ti consentono anche di selezionare i segmenti da esportare e specificare campi XDM aggiuntivi da includere.
 
-Per ulteriori informazioni, consulta [Documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+Per ulteriori informazioni, consulta la [documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
 Dopo aver configurato la destinazione, Adobe Experience Platform crea un file .txt o .csv delimitato da tabulazioni nel percorso di archiviazione fornito. Questa operazione è pianificata ed eseguita una volta ogni 24 ore.
 
@@ -33,7 +33,7 @@ Ora puoi configurare un flusso di lavoro Campaign Standard per acquisire il segm
 
 Una volta che Campaign Standard è stato configurato come Destinazione, devi creare un flusso di lavoro dedicato per importare il file esportato da Adobe Experience Platform.
 
-A questo scopo, devi aggiungere e configurare una **[!UICONTROL Transfer file]** attività. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
+A tale scopo, è necessario aggiungere e configurare un&#39;attività **[!UICONTROL Transfer file]**. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
 
 ![](assets/rtcdp-transfer-file.png)
 
@@ -43,7 +43,7 @@ Ad esempio, il flusso di lavoro seguente scarica il file dalla posizione di arch
 
 ![](assets/rtcdp-workflow.png)
 
-Esempi di flussi di lavoro per la gestione dei dati sono disponibili nella [casi di utilizzo dei flussi di lavoro](../../automating/using/about-workflow-use-cases.md#management) sezione.
+Esempi di flussi di lavoro per la gestione dei dati sono disponibili nella sezione [casi di utilizzo dei flussi di lavoro](../../automating/using/about-workflow-use-cases.md#management).
 
 Argomenti correlati:
 

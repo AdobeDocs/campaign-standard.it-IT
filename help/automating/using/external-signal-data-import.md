@@ -38,13 +38,13 @@ Il flusso di lavoro sorgente viene presentato come segue:
 
 * Un’attività [Riconciliazione](../../automating/using/reconciliation.md) crea i collegamenti tra i dati importati e il database in modo tale che i dati delle transazioni siano collegati correttamente a profili e prodotti.
 * Un’attività [Update data](../../automating/using/update-data.md) inserisce e aggiorna la risorsa Transazioni del database con i dati in entrata.
-* Un [Fine](../../automating/using/start-and-end.md) l’attività attiva il flusso di lavoro di destinazione, utilizzato per aggiornare gli aggregati.
+* Un&#39;attività [End](../../automating/using/start-and-end.md) attiva il flusso di lavoro di destinazione, utilizzato per aggiornare gli aggregati.
 
 ![](assets/signal_example_source1.png)
 
 Il flusso di lavoro di destinazione viene presentato come segue:
 
-* Un [Segnale esterno](../../automating/using/external-signal.md) l’attività attende il completamento del flusso di lavoro sorgente.
+* Un&#39;attività [External signal](../../automating/using/external-signal.md) attende il completamento del flusso di lavoro di origine.
 * Un’attività [Query](../../automating/using/query.md#enriching-data) esegue il targeting dei profili e li arricchisce con una raccolta impostata per recuperare la data dell’ultimo acquisto.
 * Un’attività [Update data](../../automating/using/update-data.md) memorizza i dati aggiuntivi in un campo personalizzato dedicato. Nota che la risorsa profilo è stata estesa per aggiungere il campo **Last purchase date**.
 

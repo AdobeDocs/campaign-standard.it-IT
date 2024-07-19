@@ -17,26 +17,26 @@ ht-degree: 1%
 
 # Aggiunta di visualizzazioni{#adding-visualizations}
 
-Il **Visualizzare** La scheda ti consente di trascinare e rilasciare gli elementi di visualizzazione, ad esempio area, anello e grafico. Le visualizzazioni forniscono rappresentazioni grafiche dei dati.
+La scheda **Visualizzazioni** consente di trascinare gli elementi di visualizzazione, ad esempio area, anello e grafico. Le visualizzazioni forniscono rappresentazioni grafiche dei dati.
 
-1. In **[!UICONTROL Visualizations]** , trascina e rilascia un elemento di visualizzazione in un pannello.
+1. Nella scheda **[!UICONTROL Visualizations]**, trascina e rilascia un elemento di visualizzazione in un pannello.
 
    ![](assets/dynamic_report_visualization_1.png)
 
 1. Dopo aver aggiunto una visualizzazione al pannello, i rapporti dinamici rilevano automaticamente i dati nella tabella a forma libera. Seleziona le impostazioni per la visualizzazione.
-1. Se disponi di più tabelle a forma libera, scegli l’origine dati disponibile da aggiungere al grafico nel **Impostazioni origine dati** finestra. Questa finestra è disponibile anche facendo clic sul punto colorato accanto al titolo della visualizzazione.
+1. Se disponi di più tabelle a forma libera, scegli l&#39;origine dati disponibile da aggiungere al grafico nella finestra **Impostazioni Source dati**. Questa finestra è disponibile anche facendo clic sul punto colorato accanto al titolo della visualizzazione.
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Fai clic su **[!UICONTROL Visualization]** per modificare direttamente il tipo di grafico o gli elementi visualizzati, ad esempio:
+1. Fare clic sul pulsante Impostazioni **[!UICONTROL Visualization]** per modificare direttamente il tipo di grafico o il contenuto visualizzato, ad esempio:
 
    * **Percentuali**: visualizza i valori in percentuale.
-   * **Ancoraggio asse Y su zero**: forza l’azzeramento dell’asse y anche se i valori sono superiori a zero.
+   * **Ancoraggio asse Y su zero**: forza l&#39;azzeramento dell&#39;asse Y anche se i valori sono superiori a zero.
    * **Legenda visibile**: consente di nascondere la legenda.
    * **Normalizzazione**: forza la corrispondenza dei valori.
    * **Visualizza asse doppio**: aggiunge un altro asse al grafico.
    * **Limita max. elementi**: limita il numero di grafici visualizzati.
-   * **Soglia**: ti consente di impostare una soglia per il grafico. Viene visualizzata come una linea punteggiata nera.
+   * **Soglia**: consenti di impostare una soglia nel grafico. Viene visualizzata come una linea punteggiata nera.
 
    ![](assets/dynamic_report_visualization_3.png)
 

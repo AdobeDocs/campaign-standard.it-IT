@@ -64,7 +64,7 @@ Ora che abbiamo creato un trigger Experience Cloud, lo utilizziamo all’interno
 
 In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in Experience Cloud.
 
-1. Per creare il trigger in Adobe Campaign, fai clic sul pulsante **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Per creare il trigger in Adobe Campaign, fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ In Adobe Campaign, devi creare un trigger collegato a quello che hai creato in E
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Per visualizzare il modello di messaggio, fai clic su **[!UICONTROL More]** in alto a destra, quindi fai clic su **[!UICONTROL Trigger Transactional Template]**.
+1. Per visualizzare il modello di messaggio, fare clic sul pulsante **[!UICONTROL More]** in alto a destra, quindi su **[!UICONTROL Trigger Transactional Template]**.
 
 1. Personalizza il contenuto e i dettagli del mittente.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 100%
+source-wordcount: '1526'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,7 @@ Per scoprire come creare richieste di accesso a dati personali dal servizio core
 
 >[!IMPORTANT]
 >
->Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, crea la richiesta utilizzando il [metodo JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"}.
+>Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta il metodo [JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} e aggiungi namespaceId alla richiesta, oppure utilizza la [chiamata API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"} per effettuare la richiesta.
 >
 >Per inviare richieste utilizzando il tipo di spazio dei nomi standard, utilizza solo l’[interfaccia utente Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"}.
 

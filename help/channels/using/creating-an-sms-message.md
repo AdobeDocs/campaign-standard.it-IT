@@ -91,4 +91,4 @@ Questo video mostra come creare una consegna SMS.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-Sono disponibili altri video dimostrativi sui Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

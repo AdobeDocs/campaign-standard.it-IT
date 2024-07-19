@@ -18,25 +18,25 @@ ht-degree: 6%
 
 # Pubblicazione di un evento transazionale {#publishing-transactional-event}
 
-Una volta [configurazione](../../channels/using/configuring-transactional-event.md) al termine, l’evento è pronto per la pubblicazione. Di seguito sono descritti i passaggi per visualizzare in anteprima, pubblicare, annullare la pubblicazione ed eliminare un evento.
+Al termine della [configurazione](../../channels/using/configuring-transactional-event.md), l&#39;evento è pronto per la pubblicazione. Di seguito sono descritti i passaggi per visualizzare in anteprima, pubblicare, annullare la pubblicazione ed eliminare un evento.
 
 >[!IMPORTANT]
 >
->Solo [Amministratori funzionali](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->disporre dei diritti appropriati per pubblicare le configurazioni degli eventi.
+>Solo [Amministratori funzionali](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->dispongono dei diritti appropriati per pubblicare le configurazioni degli eventi.
 
-Un grafico che illustra l’intero processo di pubblicazione dei messaggi transazionali, incluse le configurazioni degli eventi di pubblicazione e annullamento della pubblicazione, è disponibile in [questa sezione](../../channels/using/publishing-transactional-message.md).
+In [questa sezione](../../channels/using/publishing-transactional-message.md) è disponibile un grafico che illustra l&#39;intero processo di pubblicazione dei messaggi transazionali, incluse le configurazioni degli eventi di pubblicazione e annullamento della pubblicazione.
 
 Al termine della pubblicazione:
 * Il messaggio transazionale corrispondente viene creato automaticamente. Consulta [Modifica dei messaggi transazionali](../../channels/using/editing-transactional-message.md).
-* L’API che verrà utilizzata dallo sviluppatore del sito web viene distribuita e ora è possibile inviare gli eventi transazionali. Consulta [Integrare l’attivazione dell’evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+* L’API che verrà utilizzata dallo sviluppatore del sito web viene distribuita e ora è possibile inviare gli eventi transazionali. Vedi [Integrare l&#39;attivazione dell&#39;evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
 ## Anteprima e pubblicazione di un evento {#previewing-and-publishing-the-event}
 
 Prima di poter utilizzare l’evento, devi visualizzarlo in anteprima e pubblicarlo.
 
-1. Fai clic su **[!UICONTROL API preview]** per visualizzare una simulazione dell’API REST che verrà utilizzata dallo sviluppatore del sito web prima che venga pubblicata.
+1. Fare clic sul pulsante **[!UICONTROL API preview]** per visualizzare una simulazione dell&#39;API REST che verrà utilizzata dallo sviluppatore del sito Web prima della pubblicazione.
 
-   Una volta pubblicato l’evento, questo pulsante consente anche di visualizzare un’anteprima dell’API in produzione. Consulta [Integrare l’attivazione dell’evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+   Una volta pubblicato l’evento, questo pulsante consente anche di visualizzare un’anteprima dell’API in produzione. Vedi [Integrare l&#39;attivazione dell&#39;evento](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
    ![](assets/message-center_api_preview.png)
 
@@ -44,7 +44,7 @@ Prima di poter utilizzare l’evento, devi visualizzarlo in anteprima e pubblica
    >
    >L’API REST varia in base al canale selezionato e alla dimensione di targeting selezionata. Per ulteriori dettagli sulle varie configurazioni, consulta [questa sezione](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
-1. Clic **[!UICONTROL Publish]** per avviare la pubblicazione.
+1. Fare clic su **[!UICONTROL Publish]** per avviare la pubblicazione.
 
    ![](assets/message-center_pub.png)
 
@@ -56,9 +56,9 @@ Prima di poter utilizzare l’evento, devi visualizzarlo in anteprima e pubblica
 
    >[!IMPORTANT]
    >
-   >Ogni volta che modifichi l’evento, fai clic su **[!UICONTROL Publish]** ancora per generare l’API REST aggiornata che verrà utilizzata dallo sviluppatore del sito web.
+   >Ogni volta che modifichi l&#39;evento, devi fare di nuovo clic su **[!UICONTROL Publish]** per generare l&#39;API REST aggiornata che verrà utilizzata dallo sviluppatore del tuo sito Web.
 
-   Dopo la pubblicazione dell’evento, viene visualizzata una [messaggio transazionale](../../channels/using/editing-transactional-message.md) collegato al nuovo evento viene creato automaticamente.
+   Dopo la pubblicazione dell&#39;evento, viene creato automaticamente un [messaggio transazionale](../../channels/using/editing-transactional-message.md) collegato al nuovo evento.
 
 1. Puoi accedere direttamente a questo messaggio sulle transazioni tramite il collegamento che si trova nell’area a sinistra.
 
@@ -66,9 +66,9 @@ Prima di poter utilizzare l’evento, devi visualizzarlo in anteprima e pubblica
 
    >[!NOTE]
    >
-   >Affinché l’evento attivi l’invio di un messaggio sulle transazioni, devi modificare e pubblicare il messaggio appena creato. Consulta [Modifica](../../channels/using/editing-transactional-message.md) e [Pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md) sezioni. È inoltre necessario [integra questo evento trigger](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) sul sito web.
+   >Affinché l’evento attivi l’invio di un messaggio sulle transazioni, devi modificare e pubblicare il messaggio appena creato. Consulta le sezioni [Modifica](../../channels/using/editing-transactional-message.md) e [Pubblicazione di un messaggio transazionale](../../channels/using/publishing-transactional-message.md). Devi anche [integrare questo evento trigger](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) nel sito Web.
 
-1. Una volta che Adobe Campaign inizia a ricevere gli eventi relativi a questa configurazione dell’evento, puoi fare clic sul pulsante **[!UICONTROL Latest transactional events]** collegamento sotto **[!UICONTROL History]** per accedere agli eventi più recenti inviati dal servizio di terze parti ed elaborati da Adobe Campaign.
+1. Una volta che Adobe Campaign inizia a ricevere gli eventi relativi a questa configurazione dell&#39;evento, puoi fare clic sul collegamento **[!UICONTROL Latest transactional events]** nella sezione **[!UICONTROL History]** per accedere agli eventi più recenti inviati dal servizio di terze parti ed elaborati da Adobe Campaign.
 
 ![](assets/message-center_latest-events.png)
 
@@ -76,7 +76,7 @@ Gli eventi (in formato JSON) sono elencati dal più recente al meno recente. Que
 
 ## Annullamento della pubblicazione di un evento {#unpublishing-an-event}
 
-Il **[!UICONTROL Unpublish]** Questo pulsante consente di annullare la pubblicazione dell’evento, che elimina dall’API REST la risorsa corrispondente all’evento creato in precedenza.
+Il pulsante **[!UICONTROL Unpublish]** consente di annullare la pubblicazione dell&#39;evento, che elimina dall&#39;API REST la risorsa corrispondente all&#39;evento creato in precedenza.
 
 Adesso, anche se l’evento viene attivato nel sito web, i messaggi corrispondenti non saranno più inviati e pertanto non verranno memorizzati nel database.
 
@@ -86,7 +86,7 @@ Adesso, anche se l’evento viene attivato nel sito web, i messaggi corrisponden
 >
 >Se hai già pubblicato il messaggio sulle transazioni corrispondente, viene annullata anche la pubblicazione del messaggio sulle transazioni. Consulta [Annullamento della pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message).
 
-Fai clic su **[!UICONTROL Publish]** per generare una nuova API REST.
+Fare clic sul pulsante **[!UICONTROL Publish]** per generare una nuova API REST.
 
 <!--## Transactional messaging publication process {#transactional-messaging-pub-process}
 
@@ -100,14 +100,14 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 Se un evento è stato annullato o non è ancora stato pubblicato, puoi eliminarlo dall’elenco di configurazione dell’evento. Per eseguire questa operazione:
 
-1. Fai clic su **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
-1. Passa il mouse sulla configurazione dell’evento scelta e seleziona l’opzione **[!UICONTROL Delete element]** pulsante.
+1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Passa il mouse sulla configurazione dell&#39;evento scelta e seleziona il pulsante **[!UICONTROL Delete element]**.
 
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
    >
-   >Assicurati che la configurazione dell’evento disponga del **[!UICONTROL Draft]** stato, altrimenti non potrai eliminarlo. Il **[!UICONTROL Draft]** Lo stato si applica a un evento non ancora pubblicato o che è stato [non pubblicato](#unpublishing-an-event).
+   >Assicurarsi che la configurazione dell&#39;evento sia nello stato **[!UICONTROL Draft]**, altrimenti non sarà possibile eliminarla. Lo stato **[!UICONTROL Draft]** si applica a un evento non ancora pubblicato o che è stato [non pubblicato](#unpublishing-an-event).
 
 1. Fai clic sul pulsante **[!UICONTROL Confirm]**.
 

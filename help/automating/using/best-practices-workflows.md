@@ -47,15 +47,15 @@ Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, pas
 
 ### Numero di flussi di lavoro
 
-Per impostazione predefinita, consigliamo **non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente** (questo non si applica ai flussi di lavoro in attesa di un’esecuzione pianificata). Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influire sulle prestazioni.
+Per impostazione predefinita, è consigliabile che **non esegua più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente** (questo non si applica ai flussi di lavoro in attesa di un&#39;esecuzione pianificata). Una volta raggiunto tale limite, i flussi di lavoro verranno messi in coda per non influire sulle prestazioni.
 
 In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di lavoro. In tal caso, devi consultare un esperto di Campaign e contattare anche l’Assistenza cliente Adobe per aumentare il limite.
 
 >[!IMPORTANT]
 >
->Anche se non si raggiunge la soglia dei 20 flussi di lavoro, l’Adobe consiglia di: **distribuire l’esecuzione del flusso di lavoro nel tempo**. L’esecuzione scaglionata dei flussi di lavoro garantisce prestazioni migliori per l’istanza.
+>Anche se non si raggiunge la soglia dei 20 flussi di lavoro, l&#39;Adobe consiglia di **distribuire l&#39;esecuzione del flusso di lavoro nel tempo**. L’esecuzione scaglionata dei flussi di lavoro garantisce prestazioni migliori per l’istanza.
 
-Prima di avviare un flusso di lavoro [!DNL Campaign Standard] verifica se la memoria fisica di sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, viene visualizzato un messaggio per informare che l&#39;esecuzione del flusso di lavoro verrà posticipata fino al esaurimento del carico sul server e all&#39;aumento della memoria di sistema.
+Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verificherà se la memoria fisica di sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, viene visualizzato un messaggio per informare che l&#39;esecuzione del flusso di lavoro verrà posticipata fino al esaurimento del carico sul server e all&#39;aumento della memoria di sistema.
 
 ### Frequenza
 
@@ -84,7 +84,7 @@ Le proprietà del flusso di lavoro ti consentono di definire un fuso orario spec
 
 ### Progettazione flussi di lavoro
 
-Per garantire il corretto completamento del flusso di lavoro, evita di uscire dall’ultima transizione di un flusso di lavoro utilizzando un’ **[!UICONTROL End activity]**.
+Per garantire il corretto completamento del flusso di lavoro, evitare di uscire dall&#39;ultima transizione di un flusso di lavoro utilizzando **[!UICONTROL End activity]**.
 
 Per accedere alla visualizzazione dettagliata delle transizioni, seleziona l’opzione **[!UICONTROL Keep interim results]** nella sezione Execution delle proprietà del flusso di lavoro.
 
@@ -117,7 +117,7 @@ Durante la progettazione di un flusso di lavoro pianificato che include più att
 
 ## Chiamata del flusso di lavoro con parametri{#workflow-with-parameters}
 
-Assicurati che il nome e il numero di parametri siano identici a quelli definiti per la chiamata al flusso di lavoro (vedi [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
+Verificare che il nome e il numero di parametri siano identici a quelli definiti durante la chiamata al flusso di lavoro (vedere [questa pagina](../../automating/using/defining-parameters-calling-workflow.md). Anche i tipi di parametri devono essere coerenti con i valori previsti.
 
 Verifica che tutti i parametri siano stati dichiarati nell’**[!UICONTROL External signal activity]**. In caso contrario, si verificherà un errore durante l’esecuzione dell’attività.
 

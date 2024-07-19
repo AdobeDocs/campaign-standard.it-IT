@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # Recupero dell’unità organizzativa di un profilo {#retrieving-organizational-units}
 
-1. Esegui una richiesta GET sulla chiave PKey del profilo per recuperare **orgUnit** URL.
+1. Esegui una richiesta GET sul PKey del profilo per recuperare l&#39;URL **orgUnit**.
 1. Esegui una richiesta GET sull’URL per recuperare ulteriori dettagli sull’unità organizzativa.
 
 <br/>

@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Indicatori di tracciamento{#tracking-indicators}
 
-Il **[!UICONTROL Tracking indicators]** Il rapporto contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail.
+Il report **[!UICONTROL Tracking indicators]** contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail.
 
 >[!NOTE]
 >
@@ -26,11 +26,11 @@ Il **[!UICONTROL Tracking indicators]** Il rapporto contiene gli indicatori chia
 
 ![](assets/delivery_reports_2.png)
 
-Il **[!UICONTROL Tracking indicators]** tabella e **Prime 5 consegne** Il grafico contiene i dati disponibili per il tracciamento e-mail, ad esempio:
+La tabella **[!UICONTROL Tracking indicators]** e il grafico **Prime 5 consegne** contengono i dati disponibili per il tracciamento delle e-mail, ad esempio:
 
 * **[!UICONTROL Delivered]**: numero di messaggi inviati correttamente. Gli errori generati (mancati recapiti) vengono presi in considerazione. tuttavia, i reclami (dichiarazioni spam) e i messaggi di allontanamento come &quot;fuori sede&quot; non vengono presi in considerazione.
-* **Apri**: numero di volte in cui un messaggio è stato aperto in una consegna.
+* **Apri**: il numero di volte in cui un messaggio è stato aperto in una consegna.
 * **Clic**: il numero di volte in cui è stato fatto clic sul contenuto in una consegna.
-* **Annullamento iscrizione**: numero di clic sul collegamento di abbonamento.
-* **Spam:** Il numero di destinatari che hanno dichiarato un’e-mail come spam.
-* **Pagina mirror**: numero di clic sul collegamento della pagina speculare.
+* **Annullamento dell&#39;abbonamento**: numero di clic sul collegamento dell&#39;abbonamento.
+* **Spam:** il numero di destinatari che hanno dichiarato un&#39;e-mail come spam.
+* **Pagina mirror**: numero di clic sul collegamento della pagina mirror.
