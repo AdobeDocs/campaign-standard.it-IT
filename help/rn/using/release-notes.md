@@ -8,7 +8,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Se hai implementato integrazioni in entrata con Campaign e utilizzi l’[API Cam
 
 * È stato risolto un problema che causava l’avvio del modulo di pianificazione del flusso di lavoro prima dell’ora pianificata. (CAMP-55412)
 * È stato risolto un problema che causava un errore durante la duplicazione di campi personalizzati nelle notifiche push transazionali. (CAMP-54459)
-* Sono stati risolti i problemi che influivano sull’usabilità dello scheduler di data e ora per la messaggistica in-app. (CAMP-54495)
+* Sono stati risolti i problemi che influivano sull’usabilità del modulo di pianificazione di data e ora per la messaggistica in-app. (CAMP-54495)
 * È stato risolto un problema che impediva il funzionamento del tracciamento quando si utilizzava la funzione di alias di tracciamento personalizzato e l’intero collegamento era dinamico. (CAMP-56044)
 * È stato risolto un problema che causava la visualizzazione di un numero limitato di modelli quando si utilizzava la ricerca per trovare modelli specifici. (CAMP-55273)
 * Sono state aggiunte le seguenti lingue all’elenco a discesa delle lingue preferite: en_kz (Inglese - Kazakistan) e en_ua (Inglese - Ucraina). (CAMP-55336)
