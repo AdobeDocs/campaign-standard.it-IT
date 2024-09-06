@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 31f62227736daf4f215fcbe1cf7b0a0a8574cda3
+source-git-commit: 47f47a624b8a1d941d1ab4b49e67f0260ac68cf1
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 26%
@@ -38,7 +38,7 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
 ## Attività del flussi di lavoro {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
 
 Sono disponibili varie attività per aiutarti a progettare i flussi di lavoro.
 
