@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,8 @@ La schermata di modifica del flusso di lavoro è composta dai seguenti elementi:
 * Le [Azioni rapide](#quick-actions), visualizzate intorno a un&#39;attività selezionata, consentono di interagire con essa.
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [Scopri come creare un flusso di lavoro nel video](#video)
 
 ## Palette {#palette}
 
@@ -154,3 +156,11 @@ Per duplicare un’attività, effettua le seguenti operazioni:
 A questo scopo, seleziona le attività disegnando una zona intorno a esse. quindi fare clic sul pulsante **[!UICONTROL Copy selection]** nella barra delle azioni (oppure premere **Ctrl + C**). Puoi quindi incollarli nella posizione desiderata.
 
 ![](assets/wkf_copypaste3.png)
+
+## Video tutorial {#video}
+
+Questo video mostra come creare un flusso di lavoro.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
