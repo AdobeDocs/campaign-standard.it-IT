@@ -9,16 +9,16 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 72%
+source-wordcount: '522'
+ht-degree: 77%
 
 ---
 
 # Arricchimento dei dati del profilo con i dati contenuti in un file {#enriching-profile-data-with-data-contained-in-a-file}
 
-Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto contenuti in un file.In questo caso, i dati di acquisto vengono memorizzati in un sistema di terze parti. Ciascun profilo può contenere vari acquisti memorizzati all’interno del file. L’obiettivo finale del flusso di lavoro è quello di inviare un’e-mail ai profili di destinazione che hanno acquistato almeno due elementi, in modo da ringraziarli della loro fedeltà.
+Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto presenti in un file. In questo caso, presupponiamo che i dati di acquisto vengono memorizzati in un sistema di terze parti. Ciascun profilo può contenere vari acquisti memorizzati all’interno del file. L’obiettivo finale del flusso di lavoro è quello di inviare un’e-mail ai profili di destinazione che hanno acquistato almeno due elementi, in modo da ringraziarli della loro fedeltà.
 
 Il flusso di lavoro è configurato come segue:
 
