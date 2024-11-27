@@ -9,9 +9,9 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '982'
 ht-degree: 16%
 
 ---
@@ -49,6 +49,10 @@ Se utilizzi una consegna ricorrente senza periodo di aggregazione, puoi richiede
 ![](assets/confirmation_recurring_deliveries.png)
 
 ## Informazioni sugli indicatori dei messaggi {#message-indicators}
+
+>[!NOTE]
+>
+> Il **dashboard di distribuzione** fornisce dati per riferimento rapido, che potrebbe non corrispondere ai numeri nei report dinamici. Per informazioni accurate e affidabili, consigliamo di utilizzare il reporting dinamico come fonte di verità. [Ulteriori informazioni](../../reporting/using/get-started-reporting.md)
 
 Dopo l&#39;invio del messaggio ai contatti, nell&#39;area **[!UICONTROL Deployment]** vengono visualizzati i dati KPI (Key Performance Indicator), inclusi:
 
