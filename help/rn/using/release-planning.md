@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
+source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di
 
 Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-## Versione 24.2 - Estate 2024 {#release-24-2-release}
+## Versione 25.1 - Inverno 2025 {#release-25-1-release}
 
 Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](release-notes.md) all’avvio degli aggiornamenti dell’ambiente di staging.
 
@@ -33,20 +33,20 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
  <thead>
   <tr>
    <th> Ambienti </th>
-   <th> Disponibilità limitata </th>
-   <th> Disponibilità generale </th>
+   <th> Date</th>
+   <!--th> General Availability </th-->
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Fase </td>
-   <td>6 - 13 agosto 2024 </td>
-   <td>2025 - Date da confermare</td>
+   <td>7 gennaio - 4 febbraio 2025 </td>
+   <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Produzione </td>
-   <td>20 - 27 agosto 2024 </td>
-   <td>2025 - Date da confermare</td>
+   <td>13 gennaio - 25 febbraio 2025 </td>
+   <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
 </table>
