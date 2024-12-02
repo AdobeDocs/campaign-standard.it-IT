@@ -1,6 +1,6 @@
 ---
 title: Personalizzazione degli elenchi
-description: "Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in Adobe Campaign Standard:ordinare, filtrare, eliminare o duplicare gli elementi. Nelle schermate dell’elenco vengono visualizzati gli elementi di una o più risorse specificate."
+description: Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in Adobe Campaign Standard:ordinare, filtrare, eliminare o duplicare gli elementi. Nelle schermate dell’elenco vengono visualizzati gli elementi di una o più risorse specificate.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -81,7 +81,7 @@ Per ulteriori informazioni sulle pagine di destinazione, consulta la [documentaz
 
 ### Sincronizzazione dei profili da Microsoft Dynamics 365
 
-L’integrazione di Campaign Standard con Microsoft Dynamics 365 ti consente di trasmettere i dati di contatto da Microsoft Dynamics 365 al database di Campaign.
+L’integrazione di Campaign Standard con Microsoft Dynamics 365 consente di trasmettere i dati di contatto da Microsoft Dynamics 365 al database di Campaign.
 Questi contatti sono quindi visibili nell’elenco Profili e possono essere oggetto di targeting nelle campagne di marketing. Per ulteriori informazioni su questa integrazione, consulta la [documentazione dedicata](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]

@@ -1,6 +1,6 @@
 ---
-title: Integrated customer profile
-description: "Monitora ogni interazione con il cliente da un’unica visualizzazione: l’Integrated customer profile di Adobe Campaign viene aggiornato per l’intero ciclo di vita del cliente."
+title: Integrated Customer Profile
+description: 'Monitora ogni interazione con il cliente da un’unica schermata: il profilo cliente integrato di Adobe Campaign viene aggiornato per l’intero ciclo di vita del cliente.'
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -12,7 +12,7 @@ exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 48%
+ht-degree: 41%
 
 ---
 

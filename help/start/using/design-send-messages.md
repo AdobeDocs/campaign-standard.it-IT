@@ -1,6 +1,6 @@
 ---
 title: Personalizzazione degli elenchi
-description: "Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in Adobe Campaign Standard:ordinare, filtrare, eliminare o duplicare gli elementi. Nelle schermate dell’elenco vengono visualizzati gli elementi di una o più risorse specificate."
+description: Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in Adobe Campaign Standard:ordinare, filtrare, eliminare o duplicare gli elementi. Nelle schermate dell’elenco vengono visualizzati gli elementi di una o più risorse specificate.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface

@@ -1,13 +1,13 @@
 ---
 title: Personalizzazione degli elenchi
-description: "Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in Adobe Campaign Standard:ordinare, filtrare, eliminare o duplicare gli elementi. Nelle schermate dell’elenco vengono visualizzati gli elementi di una o più risorse specificate."
+description: Scopri come personalizzare la visualizzazione e agire sulle schermate elenco in Adobe Campaign Standard:ordinare, filtrare, eliminare o duplicare gli elementi. Nelle schermate dell’elenco vengono visualizzati gli elementi di una o più risorse specificate.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 8%
     </td>
 </tr>
 <tr>
-<td>Modello dati della campagna</td>
+<td>Modello dati di Campaign</td>
 <td>Utilizzare le API REST</td>
 <td>Gestione utenti</td>
 <td>Configurare e monitorare l’istanza</td>
 </tr>
 </table>
 
-## Modello dati della campagna
+## Modello dati di Campaign
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 

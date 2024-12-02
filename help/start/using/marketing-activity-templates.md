@@ -1,6 +1,6 @@
 ---
 title: Informazioni sui modelli
-description: '"I modelli di Adobe Campaign ti consentono di preconfigurare i parametri in base alle esigenze: i modelli possono contenere una configurazione completa o parziale dell’attività di marketing, per semplificare l’utilizzo di Adobe Campaign per gli utenti finali non tecnici".'
+description: 'I modelli di Adobe Campaign ti consentono di preconfigurare i parametri in base alle esigenze: i modelli possono contenere una configurazione completa o parziale dell’attività di marketing, per semplificare l’utilizzo di Adobe Campaign per gli utenti finali non tecnici.'
 audience: start
 content-type: reference
 topic-tags: managing-templates
@@ -11,7 +11,7 @@ exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 

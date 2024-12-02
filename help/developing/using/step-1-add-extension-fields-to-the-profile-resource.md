@@ -1,5 +1,5 @@
 ---
-title: "Passaggio 1: aggiungere campi di estensione alla risorsa del profilo"
+title: 'Passaggio 1: aggiungere campi di estensione alla risorsa del profilo'
 description: Scopri come estendere la risorsa profilo.
 audience: developing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 42%
+ht-degree: 57%
 
 ---
 

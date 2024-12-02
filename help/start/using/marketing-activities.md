@@ -1,6 +1,6 @@
 ---
 title: Attività di marketing
-description: '"Scopri come creare e gestire le tue attività di marketing: campagne, e-mail, SMS e notifiche push, pagine di destinazione e flussi di lavoro. Puoi progettare facilmente una nuova attività, modificarne una esistente e consultarne lo stato e la validità".'
+description: 'Scopri come creare e gestire le tue attività di marketing: campagne, e-mail, SMS e notifiche push, pagine di destinazione e flussi di lavoro. Puoi progettare facilmente una nuova attività, modificarne una esistente e consultarne lo stato e la validità.'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -12,7 +12,7 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 79%
+ht-degree: 71%
 
 ---
 

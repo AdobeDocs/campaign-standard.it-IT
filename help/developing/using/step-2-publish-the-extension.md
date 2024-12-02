@@ -1,5 +1,5 @@
 ---
-title: "Passaggio 2: Publish dell’estensione"
+title: 'Passaggio 2: pubblicare l’estensione'
 description: Scopri come pubblicare l’estensione in Campaign Standard. Parte 2 di una serie.
 audience: developing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 20%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **[!UICONTROL Administration]** > **[!UICONTROL Development]**, quindi **[!UICONTROL Publication]**.
 1. Fai clic sul pulsante **[!UICONTROL Prepare Publication]**.
-1. Selezionare l&#39;opzione **[!UICONTROL Create the Profiles & Services Ext API]**.
+1. Seleziona l’opzione **[!UICONTROL Create the Profiles & Services Ext API]**.
 
    ![](assets/create-profile-and-services-api.png)
 

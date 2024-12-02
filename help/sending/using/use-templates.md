@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "I modelli di consegna consentono una maggiore efficienza, fornendo scenari pronti per i tipi di attività più comuni."
+description: I modelli di consegna consentono una maggiore efficienza, fornendo scenari pronti per i tipi più comuni di attività.
 feature: Deliverability
 role: User
 level: Intermediate
@@ -40,7 +40,7 @@ Quando gestisci più marchi in Adobe Campaign, Adobe consiglia di avere un sotto
 
 * L’indirizzo deve identificare esplicitamente il mittente. Il dominio deve essere di proprietà del mittente e deve essere registrato nel mittente.
 
-* L’Adobe consiglia di creare account e-mail corrispondenti agli indirizzi specificati per le consegne e le risposte. Rivolgiti all’amministratore del sistema di messaggistica.
+* Adobe consiglia di creare account e-mail corrispondenti agli indirizzi specificati per le consegne e le risposte. Rivolgiti all’amministratore del sistema di messaggistica.
 
 Nella sezione **[!UICONTROL Advanced parameters]** delle proprietà di un modello e-mail, il campo **[!UICONTROL From (email address)]** corrisponde all&#39;indirizzo del mittente.
 
@@ -50,7 +50,7 @@ Il dominio dell’indirizzo deve essere lo stesso del sottodominio configurato.
 
 I campi **[!UICONTROL Reply to]** corrispondono all&#39;indirizzo e-mail e al nome utilizzati per le risposte.
 
-**Suggerimento**: l&#39;Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l&#39;assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
+**Suggerimento**: Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l&#39;assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
 
 Per modificare il nome del mittente che verrà visualizzato nell&#39;intestazione dei messaggi inviati, passare alla scheda **[!UICONTROL Properties]** della home page di E-mail Designer (accessibile tramite l&#39;icona home) e fare clic sul blocco **[!UICONTROL Default sender name]**.
 

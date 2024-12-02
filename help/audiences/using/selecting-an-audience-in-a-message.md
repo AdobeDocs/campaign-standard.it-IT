@@ -1,6 +1,6 @@
 ---
 title: Selezione di un pubblico in un messaggio
-description: '"Procedura dettagliata per scegliere i tipi di pubblico di un messaggio e-mail: gruppo target principale e profili di test".'
+description: 'Procedura dettagliata per scegliere i tipi di pubblico di un’e-mail: popolazione target principale e profili di test.'
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 70%
+ht-degree: 66%
 
 ---
 

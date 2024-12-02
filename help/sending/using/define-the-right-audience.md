@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "Quando il contenuto sarà pronto, scopri come definire con attenzione chi riceverà il messaggio."
+description: Quando il contenuto sarà pronto, scopri come definire con attenzione chi riceverà il messaggio.
 feature: Deliverability
 role: User
 level: Intermediate

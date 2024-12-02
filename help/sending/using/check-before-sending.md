@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "Quando il messaggio è pronto, scopri come eseguire tutti i controlli prima di inviarlo"
+description: Quando il messaggio è pronto, scopri come eseguire tutti i controlli prima di inviarlo
 feature: Deliverability
 role: User
 level: Intermediate
@@ -12,7 +12,7 @@ exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 19%
+ht-degree: 29%
 
 ---
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni, consulta [questa sezione](../../sending/using/email-
 
 ## Messaggi di bozza {#proof-messages}
 
-L’invio di bozze ti consente di controllare il collegamento di rinuncia, la pagina speculare e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. Puoi anche controllare la progettazione e il rendering su dispositivi diversi.
+L’invio di bozze consente di controllare il collegamento di rinuncia, la mirror page e tutti gli altri collegamenti, convalidare il messaggio, verificare che siano visualizzate le immagini, rilevare eventuali errori, ecc. È possibile anche controllare la progettazione e il rendering su dispositivi diversi.
 
 Per ulteriori informazioni, consulta [questa sezione](../../sending/using/sending-proofs.md).
 
