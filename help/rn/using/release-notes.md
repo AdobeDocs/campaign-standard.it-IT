@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Altre correzioni {#winter-25-fixes}
 
 
-* È stato corretto l’URL &quot;Schema dati&quot; nella schermata di riepilogo dell’abbonamento (CAMP-56168, CAMP-56296)
-* È stato risolto un problema per ignorare le regole di affaticamento quando si utilizza l&#39;opzione **Messaggio da inviare immediatamente** (CAMP-56866, CAMP-57033)
+* È stato corretto l’URL “Schema dati” nella schermata di riepilogo dell’abbonamento (CAMP-56168, CAMP-56296)
+* È stato risolto un problema per ignorare le regole di affaticamento quando viene utilizzata l’opzione **Messaggio da inviare immediatamente** (CAMP-56866, CAMP-57033)
 * È stato risolto un problema di duplicazione nei modelli (CAMP-56340)
 * È stata corretta una regressione di tracciamento quando gli URL dinamici venivano utilizzati nei modelli di Adobe Experience Manager (CAMP-51932)
 * È stato risolto un problema di prestazioni sul processo di fatturazione (CAMP-56796)
