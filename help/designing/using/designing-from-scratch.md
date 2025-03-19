@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1229'
 ht-degree: 22%
 
 ---
@@ -137,9 +137,9 @@ Utilizza questo componente per copiare e incollare le diverse parti del HTML esi
 >
 >Un componente HTML gratuito è modificabile con opzioni limitate. Se tutti gli stili non sono allineati, assicurati di aggiungere il CSS corretto nella sezione **head** del codice HTML, altrimenti l&#39;e-mail non sarà reattiva. Utilizza il pulsante **[!UICONTROL Preview]** per verificare la reattività del contenuto (vedi [Anteprima dei messaggi](../../sending/using/previewing-messages.md)).
 
-Per rendere semplicemente un contenuto esterno conforme a E-mail Designer, l’Adobe consiglia di creare un messaggio da zero e copiare il contenuto dall’e-mail esistente in frammenti e componenti.
+Per rendere semplicemente un contenuto esterno conforme a E-mail Designer, Adobe consiglia di creare un messaggio da zero e copiare il contenuto dall’e-mail esistente in frammenti e componenti.
 
-Se il contenuto non può essere ricreato, è possibile copiare e incollare il codice HTML dall&#39;e-mail originale utilizzando il componente di contenuto **[!UICONTROL Html]**. Prima di procedere, assicurati di avere familiarità con HTML.
+Se il contenuto non può essere ricreato, è possibile copiare e incollare il codice HTML dall&#39;e-mail originale utilizzando il componente di contenuto **[!UICONTROL Html]**. Prima di procedere, accertarsi di avere familiarità con HTML.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Se il contenuto non può essere ricreato, è possibile copiare e incollare il co
 
 1. Nell’e-mail originale, identifica le sezioni riutilizzabili dalle sezioni che saranno univoche per ogni e-mail che invierai.
 1. Salva tutte le immagini e le risorse che desideri utilizzare.
-1. Se hai familiarità con HTML, divide il contenuto originale di HTML in parti diverse.
+1. Se hai familiarità con HTML, suddividi il contenuto originale di HTML in parti diverse.
 
 ### Video {#video-settings}
 
@@ -157,7 +157,6 @@ Se il contenuto non può essere ricreato, è possibile copiare e incollare il co
 >id="ac_edition_video"
 >title="Impostazioni video"
 >abstract="Utilizza questo componente per inserire un video nell’e-mail. Tieni presente che i video non funzionano su tutti i client e-mail. È consigliabile impostare un’immagine di fallback."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Ulteriori informazioni"
 
 Inserire il componente video in un componente struttura del messaggio e-mail e immettere il collegamento video in **[!UICONTROL Component Settings]**.
 

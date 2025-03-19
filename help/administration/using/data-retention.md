@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 4%
+source-wordcount: '353'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 Le tabelle di registro standard in Campaign dispongono di periodi di conservazione preimpostati che limitano la durata di archiviazione dei dati, per evitare un sovraccarico del sistema.
 
-La configurazione della conservazione dei dati è impostata dagli amministratori tecnici Adobi durante l’implementazione e i valori possono variare per ogni implementazione, in base ai requisiti dei clienti.
+La configurazione della conservazione dei dati viene impostata dagli amministratori tecnici di Adobe durante l’implementazione e i valori possono variare per ogni implementazione, in base ai requisiti dei clienti.
 
 Rivolgiti ai consulenti o agli amministratori tecnici di Adobe per ulteriori informazioni sui periodi di conservazione applicabili al tuo ambiente o per impostare periodi di conservazione personalizzati.
 
@@ -39,31 +39,40 @@ Di seguito sono riportati i periodi di conservazione predefiniti per le tabelle 
 * **Eventi pipeline ignorati**: 1 mese
 * **Avvisi di consegna**: 1 mese
 * **Controllo delle esportazioni**: 6 mesi (consigliato: 1 mese)
+* **Consegne**: 2 anni
 
 ## Periodo di conservazione per le consegne {#deliveries}
 
-Per impostazione predefinita, il periodo di conservazione per le consegne è illimitato.
+<!-- By default, the retention period for deliveries is unlimited.-->
 
-Tuttavia, se nell&#39;istanza è presente un numero elevato di consegne, è possibile aggiornare l&#39;opzione **NmsCleanup_DeliveryPurgeDelay** disponibile nel menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]**.
+A decorrere dal 1° giugno 2025, solo le consegne degli ultimi due anni rimarranno disponibili nel sistema. Di seguito sono riportati ulteriori dettagli:
 
-Ogni volta che si esegue il flusso di lavoro **[!UICONTROL Database cleanup]**, le consegne che soddisfano le condizioni impostate per questa opzione verranno eliminate.
+* Tutte le consegne più vecchie di due anni verranno rimosse definitivamente e non saranno più accessibili.
+* Questa pulizia include solo le consegne inviate e non riuscite; le consegne ricorrenti, le bozze e i modelli non saranno interessati.
+* Dopo la rimozione di una consegna, verranno eliminate in modo permanente anche tutte le informazioni di tracciamento o invio collegate.
+* I modelli di consegna transazionale o di marketing non verranno eliminati.
+* Per le consegne ricorrenti, le consegne secondarie con periodo di aggregazione impostato come mese o anno non verranno eliminate.
 
-Questa azione può contribuire a velocizzare processi come il flusso di lavoro **[!UICONTROL Copy headers from delivery templates]**.
+Se desideri velocizzare processi come il flusso di lavoro **[!UICONTROL Copy headers from delivery templates]**, il periodo di conservazione della consegna può essere ridotto. Per farlo, contatta il tuo rappresentante Adobe.
 
->[!NOTE]
->
->Ulteriori informazioni sui flussi di lavoro tecnici in [questa sezione](technical-workflows.md).
+<!--
 
+However, if there is a high volume of deliveries on your instance, you can update the **NmsCleanup_DeliveryPurgeDelay** option available from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
 
-Il valore predefinito per l&#39;opzione **NmsCleanup_DeliveryPurgeDelay** è `-1`. In questo caso, non viene eliminata alcuna consegna.
+Each time the **[!UICONTROL Database cleanup]** workflow is run, the deliveries meeting the conditions set for this option will be deleted.
 
-Ad esempio, se lo imposti su `180`, tutte le consegne non basate su modello che non sono state aggiornate negli ultimi 180 giorni verranno eliminate quando viene eseguito il flusso di lavoro **[!UICONTROL Database cleanup]**.
+-->
 
->[!NOTE]
->
->* I modelli di consegna transazionale o di marketing non verranno eliminati.
->
->* Per le consegne ricorrenti, le consegne secondarie con periodo di aggregazione impostato come mese o anno non verranno eliminate.
+<!--
 
-Quando si aggiorna l&#39;opzione **NmsCleanup_DeliveryPurgeDelay**, si consiglia di procedere gradualmente con più iterazioni. Ad esempio, puoi impostare il valore su 300 giorni, poi su 180 giorni, quindi su 120 giorni e così via, assicurandoti che le iterazioni siano a distanza di almeno 2 giorni. In caso contrario, il flusso di lavoro **[!UICONTROL Database cleanup]** potrebbe richiedere molto più tempo a causa del numero elevato di consegne da eliminare.
+When updating the **NmsCleanup_DeliveryPurgeDelay** option, it is recommended to proceed gradually with multiple iterations. For example, you can start by setting the value to 300 days, then 180 days, then 120 days, and so on - making sure iterations are at least 2 days apart. Otherwise, the **[!UICONTROL Database cleanup]** workflow may take much longer because of a large number of deliveries to delete.
+
+This action can help speeding up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow. Learn more on technical workflows in [this section](technical-workflows.md).
+
+The default value for the **NmsCleanup_DeliveryPurgeDelay** option is `-1`. In this case, no delivery is deleted.
+
+For example, if you set it to `180`, any non-template deliveries that have not been updated in the last 180 days will be deleted when the **[!UICONTROL Database cleanup]** workflow is run.
+
+-->
+
 
