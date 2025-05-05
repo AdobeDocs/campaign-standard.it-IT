@@ -149,7 +149,7 @@ L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche 
 
 1. Nella sezione **[!UICONTROL Device-specific settings]** del dashboard di un&#39;app mobile, specifica i dettagli dell&#39;applicazione per ciascun dispositivo.
 
-   * +++ Per iOS
+   +++*  Per iOS
 
      Immettere i dettagli dell&#39;applicazione riportati di seguito.
 
@@ -159,9 +159,9 @@ L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche 
       * **ID team iOS**: per ulteriori informazioni sull&#39;ID team iOS, consulta la [documentazione Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}.
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ Per Android
+   +++*  Per Android
 
      Immettere i dettagli dell&#39;applicazione riportati di seguito.
 
@@ -169,7 +169,7 @@ L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche 
       * **File chiave Android (Json)**: trascina e rilascia il file della chiave privata .json. Per istruzioni su come generare il file della chiave privata .json, consulta la [documentazione per gli sviluppatori di Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. Dopo il caricamento del certificato, un messaggio notifica che il caricamento è riuscito e visualizza la data di scadenza del certificato.
 

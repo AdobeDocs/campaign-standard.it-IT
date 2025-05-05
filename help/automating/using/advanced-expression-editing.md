@@ -107,7 +107,7 @@ Le espressioni JavaScript sono composte da una o più condizioni e utilizzano i 
 
   >[!NOTE]
   >
-  I dati del tipo **&lt;contesto>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;contesto>** è una data, anche **&lt;valore2>** deve essere una data.
+  >I dati del tipo **&lt;contesto>** e **&lt;valore2>** devono essere identici. Ad esempio, se **&lt;contesto>** è una data, anche **&lt;valore2>** deve essere una data.
 
 * Se desideri utilizzare diverse condizioni, puoi combinarle utilizzando operatori logici.
 

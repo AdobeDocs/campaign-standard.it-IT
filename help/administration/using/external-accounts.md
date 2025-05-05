@@ -91,7 +91,7 @@ I server SFTP possono essere gestiti dal Pannello di controllo. Per ulteriori in
 
 Per un account esterno OAuth 2.0, fornisci i seguenti dettagli:
 
-* Tipo di concessione **1}: sono supportate solo** credenziali client **.**
+* Tipo di concessione **1&rbrace;: sono supportate solo** credenziali client **.**
 * Un **URL API protetto**: immettere l&#39;endpoint di autorizzazione.
 * **Credenziali sensibili OAuth 2.0**: questa sezione è destinata alle credenziali sensibili per natura. I valori delle credenziali vengono nascosti sullo schermo dopo che sono stati aggiunti; a questo punto, non saranno leggibili né modificabili. Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo del POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
 * **Credenziali non riservate OAuth 2.0**: questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo che sono stati aggiunti; saranno anche modificabili.  Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo del POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.

@@ -35,6 +35,7 @@ La migrazione alle credenziali server-to-server OAuth è un processo semplice ch
 4. Le nuove credenziali **OAuth Server-to-Server** verranno aggiunte al pannello di navigazione a sinistra.
    * Per annullare la migrazione, fai clic su Annulla migrazione.
    * Non fare clic sul pulsante Review and Delete (Rivedi ed elimina) fino a quando non si verifica se la nuova credenziale OAuth Server-to-Server funziona.
+
      ![](assets/JwtToOAuthMigration3.png)
 
 5. Aggiornare le credenziali in Microsoft Dynamics 365 all’app Adobe Campaign Standard
@@ -43,6 +44,7 @@ La migrazione alle credenziali server-to-server OAuth è un processo semplice ch
    * Poiché la nuova credenziale da server a server OAuth utilizza le stesse credenziali della precedente credenziale dell’account di servizio (JWT), la maggior parte dei campi sarà già compilata.
    * Immetti l’ID client e il segreto client. Questi si trovano nel progetto in Adobe Developer Console.
    * Fai clic su Salva per salvare le impostazioni.
+
      ![](assets/JwtToOAuthMigration4.png)
 
 6. Verifica se le nuove credenziali funzionano
@@ -56,8 +58,11 @@ La migrazione alle credenziali server-to-server OAuth è un processo semplice ch
    * Fai clic sui progetti e seleziona il progetto di cui hai eseguito la migrazione.
    * Dalla navigazione a sinistra, fai clic sulla scheda delle credenziali dell’account di servizio (JWT).
    * Fai clic sul pulsante Review and Delete (Rivedi ed elimina).
+
      ![](assets/JwtToOAuthMigration5.png)
    * Controlla la marca temporale dell’ultimo accesso o menu utilizzato per verificare se l’app di integrazione genera token di accesso utilizzando la nuova credenziale OAuth o ancora utilizzando la vecchia credenziale JWT.
+
      ![](assets/JwtToOAuthMigration6.png)
    * Una volta verificato che l&#39;applicazione di integrazione sta utilizzando la nuova credenziale OAuth e non utilizza più la credenziale JWT, procedi all&#39;eliminazione della vecchia credenziale facendo clic sul pulsante **Conferma e continua**, completando in tal modo la migrazione.
+
      ![](assets/JwtToOAuthMigration7.png)
