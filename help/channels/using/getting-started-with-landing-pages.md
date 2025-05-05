@@ -136,6 +136,6 @@ Per ulteriori informazioni sulla pubblicazione di una pagina di destinazione, co
 
 Questo video mostra come creare e modificare una pagina di destinazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39282?quality=12&captions=ita)
 
 Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

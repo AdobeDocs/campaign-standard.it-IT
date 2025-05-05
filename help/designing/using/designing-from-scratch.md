@@ -30,7 +30,7 @@ Di seguito sono riportati i passaggi principali per creare e progettare un conte
 1. Visualizza l’anteprima del messaggio e-mail.
 1. Salva il contenuto e continua con il messaggio dopo esserti assicurato di aver definito un pubblico e pianificato correttamente l’invio.
 
-Puoi anche guardare questo [video introduttivo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+Puoi anche guardare questo [video introduttivo](https://video.tv.adobe.com/v/330107/?autoplay=true&hidetitle=true&captions=ita).
 
 >[!NOTE]
 >

@@ -70,6 +70,6 @@ Il profilo viene ora visualizzato nell’elenco.
 
 Questo video mostra come importare i profili con un flusso di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329676?quality=12&captions=ita)
 
 Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

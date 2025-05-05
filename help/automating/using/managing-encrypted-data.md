@@ -127,10 +127,10 @@ I passaggi per eseguire questo caso d’uso sono i seguenti:
 
 Questo video mostra come utilizzare una chiave GPG per decrittografare i dati.
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41165?quality=12&captions=ita)
 
 Questo video mostra come utilizzare una chiave GPG per crittografare i dati.
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41163?quality=12&captions=ita)
 
 Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

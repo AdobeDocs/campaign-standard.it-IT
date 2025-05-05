@@ -82,6 +82,6 @@ Per modificare un profilo di test e consultare i dati ad esso collegati, oppure 
 
 Questo video mostra come creare un profilo di test.
 
->[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329657?quality=12&captions=ita)
 
 Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

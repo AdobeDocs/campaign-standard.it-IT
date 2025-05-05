@@ -161,6 +161,6 @@ A questo scopo, seleziona le attività disegnando una zona intorno a esse. quind
 
 Questo video mostra come creare un flusso di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329905?quality=12&captions=ita)
 
 Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
