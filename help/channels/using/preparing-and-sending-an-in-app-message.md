@@ -80,7 +80,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
    * **[!UICONTROL Life Cycle events]**: eventi del ciclo di vita preconfigurati supportati dall’SDK mobile di Adobe.
 
-     Per ulteriori informazioni sugli eventi del ciclo di vita, consulta questa [pagina](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
+     Per ulteriori informazioni sugli eventi del ciclo di vita, consulta questa [pagina](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=it).
 
    * **[!UICONTROL Analytics Events]**: le tre categorie seguenti sono supportate a seconda degli strumenti utilizzati nella tua app mobile: Adobe Analytics, Dati contestuali o Stato di visualizzazione.
 
@@ -88,7 +88,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
    * **[!UICONTROL Places]**: le tre categorie seguenti sfruttano i dati sulla posizione in tempo reale per fornire esperienze mobili contestualmente rilevanti: Dati contestuali di Places, Metadati personalizzati di Places o Tipo di evento Places.
 
-     Per ulteriori informazioni su Adobe Places, consulta la [documentazione su Places](https://experienceleague.adobe.com/docs/places/using/home.html).
+     Per ulteriori informazioni su Adobe Places, consulta la [documentazione su Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=it).
 
    ![](assets/inapp_creating_4.png)
 

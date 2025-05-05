@@ -28,7 +28,7 @@ Le informazioni di rilevamento sono disponibili per ogni contatto del database i
  Adobe Campaign utilizza due tipi di cookie:
 
 * Un cookie di sessione (nlid). Contiene l’identificatore dell’e-mail inviata al contatto (broadlogId) e l’identificatore del modello del messaggio (deliveryId). Viene aggiunto quando il contatto fa clic su un URL incluso in un’e-mail inviata da Adobe Campaign e ti consente di tracciarne il comportamento sul web. Questo cookie di sessione viene cancellato automaticamente alla chiusura del browser. Il contatto può configurare il browser per rifiutare i cookie.
-* Cookie condiviso tra soluzioni Adobe Experience Cloud. Questo consente di identificare gli utenti che interagiscono con le soluzioni di Experience Cloud quando visitano un sito web. La descrizione di questo cookie è disponibile [qui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
+* Cookie condiviso tra soluzioni Adobe Experience Cloud. Questo consente di identificare gli utenti che interagiscono con le soluzioni di Experience Cloud quando visitano un sito web. La descrizione di questo cookie è disponibile [qui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=it).
 
 Il tracciamento con Adobe Campaign Standard ti consente di accedere alle seguenti funzionalità:
 

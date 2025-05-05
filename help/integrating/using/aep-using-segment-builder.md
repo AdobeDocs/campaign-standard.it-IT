@@ -24,9 +24,9 @@ ht-degree: 3%
 >
 >Il servizio Audience Destinations è attualmente in versione beta, e potrebbe essere soggetto ad aggiornamenti frequenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Contatta l’Assistenza clienti di Adobe se desideri accedervi.
 
-Il Generatore di segmenti consente di creare tipi di pubblico definendo regole basate sui dati provenienti dal [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Il Generatore di segmenti consente di creare tipi di pubblico definendo regole basate sui dati provenienti dal [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it).
 
-Questa sezione presenta i concetti globali durante la creazione di un segmento. Per informazioni dettagliate sul Generatore di segmenti stesso, consulta la [guida utente del Generatore di segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Questa sezione presenta i concetti globali durante la creazione di un segmento. Per informazioni dettagliate sul Generatore di segmenti stesso, consulta la [guida utente del Generatore di segmenti](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
 
 L’interfaccia del Generatore di segmenti è composta come segue:
 
@@ -48,7 +48,7 @@ Ora il Generatore di segmenti dovrebbe essere visualizzato nell’area di lavoro
 
 1. Assicurati che il criterio di unione desiderato sia selezionato nel riquadro delle impostazioni.
 
-   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della [guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della [guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ Ora il Generatore di segmenti dovrebbe essere visualizzato nell’area di lavoro
 
 Nel riquadro a sinistra sono elencati tutti gli attributi, gli eventi e i tipi di pubblico disponibili per la creazione di regole.
 
-I campi elencati sono attributi acquisiti dalla società e sono stati resi disponibili tramite il [sistema Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+I campi elencati sono attributi acquisiti dalla società e sono stati resi disponibili tramite il [sistema Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
 
 I campi sono organizzati in schede:
 
@@ -82,7 +82,7 @@ I campi sono organizzati in schede:
 >
 >**Segmentazione con più entità** consente di estendere i dati del profilo con dati aggiuntivi basati su prodotti, archivi o altre classi non di profilo. Una volta effettuata la connessione, i dati provenienti da classi aggiuntive diventano disponibili come se fossero nativi per lo schema Profilo.
 >
->Per ulteriori informazioni, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
+>Per ulteriori informazioni, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=it).
 
 Per impostazione predefinita, il Generatore di segmenti visualizza i campi in cui i dati sono già presenti. Per visualizzare lo schema completo, inclusi i campi per i quali non sono presenti dati, abilitare l&#39;opzione **[!UICONTROL Show full XDM schema]** dalle impostazioni.
 
@@ -96,7 +96,7 @@ Il simbolo alla fine di ogni campo fornisce informazioni aggiuntive sull&#39;att
 
 >[!NOTE]
 >
->La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la [guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>La sezione seguente fornisce informazioni globali sulla definizione delle regole. Per ulteriori informazioni, consulta la [guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
 
 Per creare una regola, effettua le seguenti operazioni:
 

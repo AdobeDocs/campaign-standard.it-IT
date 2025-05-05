@@ -117,7 +117,7 @@ ht-degree: 3%
 
 **Miglioramenti**
 
-* L&#39;integrazione di Adobe Campaign e Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) di Target. Quando includi un’immagine dinamica da Adobe Target in un messaggio e-mail, ora puoi specificare una proprietà Target (codice at_property).
+* L&#39;integrazione di Adobe Campaign e Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=it) di Target. Quando includi un’immagine dinamica da Adobe Target in un messaggio e-mail, ora puoi specificare una proprietà Target (codice at_property).
 * Le risorse personalizzate con un collegamento di copia verso la risorsa dei profili ora vengono prese in considerazione dalle richieste di accesso/cancellazione della privacy GDPR. Per i collegamenti semplici a 1 cardinalità e i collegamenti di raccolta con cardinalità N, è necessario selezionare nella risorsa personalizzata &quot;L’eliminazione o la duplicazione del record di destinazione implica l’eliminazione o la duplicazione dei record a cui fa riferimento il collegamento&quot;. Per i collegamenti semplici con cardinalità 0 o 1, seleziona &quot;L’eliminazione o la duplicazione del record implica l’eliminazione o la duplicazione del record di destinazione a cui fa riferimento il collegamento&quot;.
 
 **Altre modifiche**
@@ -195,7 +195,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> RGPD: integrazione dei servizi core<br /> </td> 
-   <td> L’integrazione del servizio core per la privacy consente di automatizzare le richieste RGPD in un contesto multisoluzione tramite una singola chiamata API JSON. <br /> richieste RGPD inviate dal servizio core per la privacy a tutte le soluzioni Experience Cloud vengono ora gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’integrazione del servizio core per la privacy consente di automatizzare le richieste RGPD in un contesto multisoluzione tramite una singola chiamata API JSON. <br /> richieste RGPD inviate dal servizio core per la privacy a tutte le soluzioni Experience Cloud vengono ora gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti push - feedback dettagliato sulla consegna<br /> </td> 
@@ -297,7 +297,7 @@ _Risorse personalizzate_
     <ul> 
      <li> Diritto di accesso: consente all’interessato di ricevere una copia dei suoi dati personali acquisiti dai titolari del trattamento, inclusi potenzialmente i dati memorizzati in Adobe Campaign. </li> 
      <li> Diritto di cancellazione: autorizza l’interessato a richiedere la cancellazione dei suoi dati personali acquisiti dai titolari del trattamento, inclusi potenzialmente i dati memorizzati in Adobe Campaign. </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
@@ -461,7 +461,7 @@ Potrebbero verificarsi alcuni problemi quando si utilizzano collegamenti di aiut
      <li> scaricare immagini o altri file multimediali e aggiungerli come allegati a una notifica </li> 
      <li> modificare il testo del corpo o del titolo di una notifica </li> 
      <li> aggiungere un identificatore di thread a una notifica </li> 
-    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consulta la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentazione dettagliata</a>.<br /> <strong>Avviso:</strong> questi aggiornamenti sulle notifiche push richiedono l'aggiornamento delle applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">questa nota tecnica</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consulta la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentazione dettagliata</a>.<br /> <strong>Avviso:</strong> questi aggiornamenti sulle notifiche push richiedono l'aggiornamento delle applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=it">questa nota tecnica</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegne ottimizzate in base al fuso orario<br /> </td> 

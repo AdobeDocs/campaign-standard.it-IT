@@ -32,6 +32,6 @@ Questa integrazione è disponibile solo per le consegne e-mail.
 
 **Argomenti correlati:**
 
-* [Panoramica dell&#39;integrazione tra Campaign Standard e Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Configurare l&#39;integrazione di Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Panoramica dell&#39;integrazione tra Campaign Standard e Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=it)
+* [Configurare l&#39;integrazione di Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=it)
 * [Dimensioni e metriche di Campaign in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

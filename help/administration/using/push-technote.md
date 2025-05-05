@@ -55,7 +55,7 @@ Per evitare distrazioni di servizio, è necessario passare alle API più recenti
 
 * Se utilizzi ancora questa versione legacy dell’SDK, devi aggiornare l’implementazione con l’SDK di Adobe Experience Platform. Scopri come migrare all’SDK di Adobe Experience Platform in [questo articolo](sdkv4-migration.md).
 
-* Prima di eseguire i passaggi seguenti, assicurati di disporre dell&#39;autorizzazione **Configurazione app mobile** in Adobe Experience Platform Data Collection Mobile. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Prima di eseguire i passaggi seguenti, assicurati di disporre dell&#39;autorizzazione **Configurazione app mobile** in Adobe Experience Platform Data Collection Mobile. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=it#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procedura di transizione {#fcm-transition-steps}

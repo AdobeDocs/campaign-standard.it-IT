@@ -80,7 +80,7 @@ Prima di inviare le notifiche push, devi:
 
 Consulta le risorse seguenti:
 
-* [Tutorials video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=it)
 * [Documentazione del prodotto](../../channels/using/about-push-notifications.md)
 * Configurare utilizzando la [documentazione](../../administration/using/configuring-a-mobile-application.md) dell&#39;SDK AEP
 * [Pagina community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

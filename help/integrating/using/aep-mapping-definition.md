@@ -43,7 +43,7 @@ Per eseguire questa attività, i prerequisiti sono:
 
 >[!NOTE]
 >
->Affinché un batch possa essere acquisito in Real-time Customer Profile o Identity Service, il set di dati deve essere [abilitato per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>Affinché un batch possa essere acquisito in Real-time Customer Profile o Identity Service, il set di dati deve essere [abilitato per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=it).
 >
 >Se il set di dati selezionato è già utilizzato in una mappatura dati esistente, viene visualizzato un avviso per informare che i dati potrebbero essere sovrascritti in Adobe Experience Platform. Ciò può verificarsi quando sono presenti alcuni destinatari comuni nei mapping dei dati che utilizzano lo stesso set di dati.
 
@@ -63,7 +63,7 @@ Le risorse estese definite in Campaign Standard vengono mappate come tutti i cam
 
 Puoi personalizzare l’estensione XDM tramite l’API e definire una tua estensione che ti consenta di controllare meglio la mappatura.
 
-Per ulteriori dettagli sull&#39;API XDM, consulta l&#39;[esercitazione sull&#39;API del Registro di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Per ulteriori dettagli sull&#39;API XDM, consulta l&#39;[esercitazione sull&#39;API del Registro di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
 
 Per mappare un campo di enumerazione, è necessario utilizzare l’editor di espressioni per definire ogni valore di enumerazione corrispondente al valore XDM. Ad esempio, il campo postaladdressfield deve essere definito come:
 

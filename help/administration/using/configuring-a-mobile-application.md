@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch è stato ridefinito come suite di tecnologie di raccolta dati in Adobe Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta il [documento seguente](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} per un riferimento consolidato delle modifiche terminologiche.
+> Adobe Experience Platform Launch è stato ridefinito come suite di tecnologie di raccolta dati in Adobe Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta il [documento seguente](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=it){target="_blank"} per un riferimento consolidato delle modifiche terminologiche.
 
 Tieni presente che le notifiche push e le implementazioni in-app devono essere eseguite da utenti esperti. Per assistenza, contatta il tuo responsabile dell’account Adobe o un partner di servizi professionali.
 
@@ -43,7 +43,7 @@ La procedura seguente illustra come completare la configurazione:
    * In Adobe Campaign Standard, accertati che l’utente IMS faccia parte dei profili di prodotto Utente standard e Amministratore. Questo passaggio consente all’utente di accedere ad Adobe Campaign Standard, passare alla pagina dell’app mobile SDK di Experience Platform e visualizzare le proprietà dell’app mobile create nell’interfaccia utente di Data Collection.
 
    * Nell’interfaccia utente di Data Collection, accertati che l’utente IMS faccia parte di un profilo di prodotto Experience Platform Launch.
-Questo passaggio consente all’utente di accedere all’interfaccia utente di Data Collection per creare e visualizzare le proprietà. Per ulteriori informazioni sui profili di prodotto nell&#39;interfaccia utente di Data Collection, vedi [Creare il tuo profilo di prodotto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). Nel profilo prodotto non dovrebbero essere impostate autorizzazioni per l’azienda o le proprietà, ma l’utente dovrebbe essere comunque in grado di accedere.
+Questo passaggio consente all’utente di accedere all’interfaccia utente di Data Collection per creare e visualizzare le proprietà. Per ulteriori informazioni sui profili di prodotto nell&#39;interfaccia utente di Data Collection, vedi [Creare il tuo profilo di prodotto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=it#gain-admin-rights-for-a-tags-product-profile). Nel profilo prodotto non dovrebbero essere impostate autorizzazioni per l’azienda o le proprietà, ma l’utente dovrebbe essere comunque in grado di accedere.
 
    Per completare attività aggiuntive come l’installazione di un’estensione, la pubblicazione di un’app, la configurazione di ambienti e così via, è necessario impostare le autorizzazioni nel profilo di prodotto.
 

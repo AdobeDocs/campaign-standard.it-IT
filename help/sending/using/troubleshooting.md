@@ -36,7 +36,7 @@ Se il problema persiste, contatta il servizio commerciale, il servizio di conseg
 
 * **Qual è la differenza tra un indirizzo e-mail nel inserisco nell&#39;elenco Bloccati di e un indirizzo e-mail in quarantena?**
 
-   * Lo stato **[!UICONTROL On denylist]** è il risultato di un [ciclo di feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (quando una persona segnala un messaggio come spam).
+   * Lo stato **[!UICONTROL On denylist]** è il risultato di un [ciclo di feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#feedback-loops) (quando una persona segnala un messaggio come spam).
 
    * Lo stato **[!UICONTROL Quarantined]** è il risultato di un mancato recapito non permanente o permanente.
 

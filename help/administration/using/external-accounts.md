@@ -81,7 +81,7 @@ Per evitare tali problemi, Adobe consiglia di seguire le best practice riportate
 
 Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti al inserisco nell&#39;elenco Consentiti di sull’istanza Campaign. È possibile richiedere l&#39;aggiunta di indirizzi IP al inserisco nell&#39;elenco Consentiti di tramite un [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) e fornire la chiave pubblica da utilizzare per l&#39;autenticazione.
 
-I server SFTP possono essere gestiti dal Pannello di controllo. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html).
+I server SFTP possono essere gestiti dal Pannello di controllo. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it).
 
 >[!NOTE]
 >

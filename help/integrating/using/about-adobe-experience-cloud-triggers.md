@@ -30,7 +30,7 @@ Il diagramma seguente illustra il funzionamento di questa integrazione.
 
 **Argomenti correlati:**
 
-* Scopri i diversi tipi di trigger: [Documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html).
+* Scopri i diversi tipi di trigger: [Documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=it).
 * Guarda il video [Trigger dei messaggi di remarketing basati sull’attività del sito](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
 * Scopri i nostri due [casi di utilizzo di attivatori di abbandono](../../integrating/using/abandonment-triggers-use-cases.md).
 

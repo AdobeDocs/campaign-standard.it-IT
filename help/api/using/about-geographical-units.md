@@ -24,4 +24,4 @@ ht-degree: 0%
 
 L&#39;endpoint **geoUnitBase** consente di interagire con le unità geografiche, ad esempio per aggiornare gli attributi o l&#39;unità di un profilo.
 
-Il campo **Unità geografica** viene aggiunto a un profilo durante l&#39;estensione della risorsa profilo. Di conseguenza, ricorda di utilizzare sempre l&#39;endpoint **profileAndServicesExt** per interagire con le unità geografiche. Per ulteriori informazioni sull&#39;estensione della risorsa del profilo, consulta la [documentazione di Campaign](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+Il campo **Unità geografica** viene aggiunto a un profilo durante l&#39;estensione della risorsa profilo. Di conseguenza, ricorda di utilizzare sempre l&#39;endpoint **profileAndServicesExt** per interagire con le unità geografiche. Per ulteriori informazioni sull&#39;estensione della risorsa del profilo, consulta la [documentazione di Campaign](https://helpx.adobe.com/it/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

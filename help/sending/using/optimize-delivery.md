@@ -52,7 +52,7 @@ Per raggiungere la casella in entrata dei destinatari senza che vengano generati
 
    * Durante il controllo della consegna delle e-mail, desideri concentrarti su quattro categorie principali: qualità dei dati, messaggio e contenuto, infrastruttura di invio e reputazione. Per ulteriori informazioni su questo argomento, consulta [questa sezione](../../sending/using/about-deliverability.md).
 
-* All&#39;avvio di una nuova piattaforma, applica i consigli dettagliati in [questa pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* All&#39;avvio di una nuova piattaforma, applica i consigli dettagliati in [questa pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=it#transition-process).
 
 * Contatta il rappresentante del tuo Adobe per assistenza.
 

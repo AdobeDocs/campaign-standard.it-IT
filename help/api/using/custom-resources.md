@@ -76,4 +76,4 @@ Per ulteriori informazioni sull’estensione del modello dati, consulta la docum
 
 * [Concetti del modello dati](../../developing/using/data-model-concepts.md)
 * [Estensione dell’API](../../developing/using/about-extending-the-api.md)
-* [Definizione di collegamenti con altre risorse](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [Definizione di collegamenti con altre risorse](https://helpx.adobe.com/it/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
