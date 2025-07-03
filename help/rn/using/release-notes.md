@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
+source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 79%
 
 ---
 
@@ -26,6 +26,18 @@ This section lists improvements and changes included in the next Campaign Standa
 >This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 
 -->
+
+## Versione 25.1.2 {#25.1.2}
+
+### Correzioni di sicurezza {#25.1.2-security}
+
+* In questa versione sono state apportate correzioni di sicurezza.
+* Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat è stato aggiornato alla versione v10.1.36.
+
+### Altre correzioni {#25.1.2-fixes}
+
+* È stato risolto un problema di analisi del token che poteva impedire agli utenti di accedere tramite IMS. (CAMP-57337)
+* Il meccanismo di generazione automatica della sequenza ID è stato migliorato per migliorare l&#39;affidabilità del sistema. (CAMP-57281)
 
 ## Versione 25.1 - Inverno 2025 {#winter-25}
 
