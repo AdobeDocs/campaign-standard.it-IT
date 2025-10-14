@@ -307,7 +307,7 @@ _Risorse personalizzate_
      <li> Crea e salva un modello di contenuto e-mail e sfrutta i modelli salvati per ridimensionare la creazione di e-mail </li> 
      <li> Creare e salvare frammenti di contenuto (come intestazione, piè di pagina, articolo, ecc.) per semplificare la creazione di contenuti e garantire la coerenza del brand </li> 
      <li> Passa facilmente dalla creazione nell’interfaccia di trascinamento alla modifica diretta di HTML di un’e-mail con un clic </li> 
-    </ul> Creative Designer for Email è disponibile solo in inglese.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e guarda questo <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
+    </ul> Creative Designer for Email è disponibile solo in inglese.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e guarda questo <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegne push multilingue<br /> </td> 

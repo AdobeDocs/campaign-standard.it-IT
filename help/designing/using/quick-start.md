@@ -25,7 +25,7 @@ Puoi creare un messaggio e-mail [da poco nel Designer e-mail](#without-existing-
 
 1. Puoi **creare un&#39;e-mail da un modello predefinito** selezionando un modello e creando il nuovo contenuto dell&#39;e-mail da qui. [Ulteriori informazioni](#building-content-from-an-out-of-the-box-template)
 
-Puoi anche creare un&#39;e-mail [ con contenuto esistente](#with-existing-content):
+Puoi anche creare un&#39;e-mail [&#x200B; con contenuto esistente](#with-existing-content):
 
 1. È possibile **convertire un contenuto HTML esistente** (creato esternamente o nell&#39;editor legacy). [Ulteriori informazioni](#converting-an-html-content)
 1. Puoi **importare immediatamente un contenuto HTML esistente** in modalità di compatibilità. [Ulteriori informazioni](#compatibility-mode)
