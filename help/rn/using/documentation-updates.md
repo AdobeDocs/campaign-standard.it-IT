@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a2a524eb3d90bbe41064bdcb078f69d483f90dac
-workflow-type: ht
-source-wordcount: '7258'
-ht-degree: 100%
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
+workflow-type: tm+mt
+source-wordcount: '7259'
+ht-degree: 99%
 
 ---
 
@@ -189,11 +189,11 @@ La sezione **Privacy** è stata spostata [qui](../../start/using/privacy.md).
 
 È disponibile una nuova pagina **Accessibilità**, con informazioni sul supporto dell’accessibilità nell’area di lavoro Adobe Campaign Standard. [Leggi tutto](../../start/using/accessibility.md)
 
-È stato aggiunto un avviso che segnala che, al fine di ottenere prestazioni ottimali, il numero di messaggi sulle transazioni pubblicati deve essere inferiore a 100. [Leggi tutto](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+È stato aggiunto un avviso che segnala che, al fine di ottenere prestazioni ottimali, il numero di messaggi transazionali pubblicati deve essere inferiore a 100. [Leggi tutto](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 La pagina del protocollo e delle impostazioni del connettore SMS è stata spostata [qui](../../administration/using/sms-protocol.md).
 
-La sezione **Utilizzo degli elenchi di prodotti in un messaggio sulle transazioni** è stata spostata [qui](../../designing/using/using-product-listings.md).
+La sezione **Utilizzo degli elenchi di prodotti in un messaggio transazionale** è stata spostata [qui](../../designing/using/using-product-listings.md).
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
@@ -311,13 +311,13 @@ Le informazioni sul Servizio Experience Cloud ID (ECID) sono state inserite nell
 
 La sezione Messaggistica transazionale è stata arricchita con informazioni sulle modalità di accesso agli eventi transazionali più recenti e alle schermate aggiornate. [Ulteriori informazioni](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
-La documentazione sulle tipologie e sulle regole relative è stata migliorata e aggiornata con informazioni aggiuntive sulle regole di tipologia integrate. [Ulteriori informazioni](../../sending/using/about-typology-rules.md)
+La documentazione sulle tipologie e sulle regole relative è stata migliorata e aggiornata con informazioni aggiuntive sulle regole di tipologia incorporate. [Ulteriori informazioni](../../sending/using/about-typology-rules.md)
 
 Sono state inserite informazioni sull’azione **[!UICONTROL Transfer file]** dell’attività **[!UICONTROL File listing]**. [Ulteriori informazioni](../../automating/using/transfer-file.md)
 
 La documentazione sui nuovi tentativi eseguiti dopo un errore temporaneo di consegna è stata aggiornata con ulteriori dettagli sulla modalità di gestione dei nuovi tentativi dopo aver effettuato l’aggiornamento a MTA avanzato. [Ulteriori informazioni](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-La sezione Eliminazione di un messaggio sulle transazioni è stata migliorata e chiarita. [Ulteriori informazioni](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
+La sezione Eliminazione di un messaggio transazionale è stata migliorata e chiarita. [Ulteriori informazioni](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
 La sezione **Anteprima delle consegne** è stata aggiornata con gli esempi di consegne specifici dei dispositivi mobili. [Ulteriori informazioni](../../sending/using/previewing-messages.md)
 
@@ -353,7 +353,7 @@ Sono state aggiornate le informazioni relative ai guardrail per attività API es
 
 ## Marzo 2020 {#doc-updates-march-2020}
 
-Nella documentazione di base sono state aggiunte informazioni più dettagliate sull’MTA avanzato, in particolare per quanto riguarda le regole di elaborazione delle e-mail e la qualifica della posta non recapitata. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Nella documentazione di base sono state aggiunte informazioni più dettagliate sull’MTA avanzato, in particolare per quanto riguarda le regole di elaborazione delle e-mail e la qualificazione delle e-mail non recapitate. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 La sezione dedicata all’archiviazione di e-mail con indirizzi Ccn è stata spostata e aggiornata. [Ulteriori informazioni](../../sending/using/archiving.md)
 
@@ -365,7 +365,7 @@ La documentazione di E-mail designer di Campaign e le pagine relative sono state
 
 È ora disponibile una nuova sezione dedicata alle best practice per il modello di dati Campaign Standard. [Ulteriori informazioni](../../developing/using/data-model-best-practices.md)
 
-Sono state aggiunte informazioni sul diritto integrato del **[!UICONTROL Workflow]**. [Ulteriori informazioni](../../administration/using/list-of-roles.md)
+Sono state aggiunte informazioni sul diritto incorporato del **[!UICONTROL Workflow]**. [Ulteriori informazioni](../../administration/using/list-of-roles.md)
 
 Sono state aggiunte informazioni sulle proprietà di **[!UICONTROL History in days field]** disponibili all’interno dei flussi di lavoro. [Ulteriori informazioni](../../automating/using/about-workflow-execution.md)
 
@@ -589,7 +589,7 @@ La guida Automazione è stata aggiornata con i collegamenti alle relative attivi
 
 È stata aggiornata la sezione Calcolo indicatore per i report dinamici. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
-È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=it)
+È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 È stato aggiornato l’elenco delle funzioni per i flussi di lavoro. [Ulteriori informazioni](../../automating/using/list-of-functions.md)
 
@@ -599,7 +599,7 @@ Il capitolo Progettazione del contenuto è stato riorganizzato e migliorato con 
 
 La sezione Gestione dei collegamenti è stata aggiornata con le informazioni aggiuntive su come gestire gli URL tracciati con E-mail Designer. [Ulteriori informazioni](../../designing/using/links.md#inserting-a-link)
 
-È stata aggiunta una nuova sezione per descrivere il processo specifico di esecuzione di nuovi tentativi dei messaggi sulle transazioni. [Ulteriori informazioni](../../channels/using/transactional-message-execution.md#transactional-message-retry-process)
+È stata aggiunta una nuova sezione per descrivere il processo specifico di esecuzione di nuovi tentativi di invio dei messaggi transazionali. [Ulteriori informazioni](../../channels/using/transactional-message-execution.md#transactional-message-retry-process)
 
 La sezione Pubblicazione di una risorsa con estensione API è stata chiarita e aggiornata con le ultime modifiche dell’interfaccia utente. [Ulteriori informazioni](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -635,7 +635,7 @@ Nel capitolo Modifica del contenuto dell’e-mail è stata aggiunta la nuova esp
 
 È stata aggiunta una nuova sezione che confronta le diverse opzioni di creazione delle e-mail all’interno di Adobe Campaign. [Ulteriori informazioni](../../designing/using/using-integrations.md#email-design-options-comparison)
 
-La sezione Creazione di blocchi di contenuto personalizzati è stata migliorata con i dettagli sulle dimensioni di targeting. [Ulteriori informazioni](../../designing/using/personalization.md#creating-custom-content-blocks)
+La sezione Creazione di blocchi di contenuto personalizzati è stata migliorata con i dettagli sulle dimensioni targeting. [Ulteriori informazioni](../../designing/using/personalization.md#creating-custom-content-blocks)
 
 È stato aggiunto un avviso che indica che E-mail Designer non supporta Internet Explorer 11. [Ulteriori informazioni](../../administration/using/about-configuration-guidelines.md)
 
@@ -677,7 +677,7 @@ Nella sezione dell’attività Estrarre file, sono state aggiunte informazioni r
 
 Disponibilità generale di E-mail Designer - [Ulteriori informazioni](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Elenco prodotti nei messaggi e-mail sulle transazioni - [Ulteriori informazioni](../../designing/using/using-product-listings.md)
+Elenco prodotti nei messaggi e-mail transazionali - [Ulteriori informazioni](../../designing/using/using-product-listings.md)
 
 Visualizzazione mobile di E-mail Designer - [Ulteriori informazioni](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -725,7 +725,7 @@ Aggiornamento della guida alle notifiche push con modifiche all’interfaccia. [
 
 Sono state aggiunte informazioni sulle modalità di eliminazione di un pubblico. [Ulteriori informazioni](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-Aggiornamento della sezione integrata del report della notifica push. [Ulteriori informazioni](../../reporting/using/push-notification-report.md)
+Aggiornamento della sezione dei rapporti incorporati per le notifiche push. [Ulteriori informazioni](../../reporting/using/push-notification-report.md)
 
 ## Versione 18.7 - Luglio 2018 {#release-18-7---july-2018}
 
@@ -775,7 +775,7 @@ Nella documentazione API è stata aggiunta una sezione relativa ai **filtri pers
 
 **Nuove funzionalità incluse nella versione**
 
-RGPD: integrazione dei servizi core - [Ulteriori informazioni](../../start/using/privacy-management.md)
+GDPR: integrazione dei servizi core - [Ulteriori informazioni](../../start/using/privacy-management.md)
 
 Miglioramenti push - feedback dettagliato sulla consegna - [Ulteriori informazioni](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -785,7 +785,7 @@ Reporting dinamico con dati di profilo personalizzati - [Ulteriori informazioni]
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-È stato aggiunto l’elenco delle metriche Campaign presenti all’interno di Analytics. [Ulteriori informazioni](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+È stato aggiunto l’elenco delle metriche Campaign presenti in Analytics. [Ulteriori informazioni](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
 Sono state aggiunte informazioni all’opzione Licenses del menu Administration. [Ulteriori informazioni](../../administration/using/licenses.md)
 
@@ -809,7 +809,7 @@ Sono state unite alcune pagine della documentazione dell’editor dei contenuti,
 
 **Nuove funzionalità incluse nella versione**
 
-Regolamento generale sulla protezione dei dati UE (RGPD) - [Ulteriori informazioni](../../start/using/privacy.md)
+Regolamento generale sulla protezione dei dati UE (GDPR) - [Ulteriori informazioni](../../start/using/privacy.md)
 
 Creative Designer per e-mail - [Ulteriori informazioni](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -819,7 +819,7 @@ Utilizzo delle risorse personalizzate nella messaggistica transazionale - [Ulter
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-Le funzionalità dei gruppi API RGPD consentono l’elaborazione automatica delle richieste RGPD. [Ulteriori informazioni](../../api/using/creating-a-privacy-request.md)
+Le funzionalità dei gruppi API GDPR consentono l’elaborazione automatica delle richieste GDPR. [Ulteriori informazioni](../../api/using/creating-a-privacy-request.md)
 
 Sono state aggiunte informazioni sulla modalità di impostazione delle pagine di destinazione, al fine di consentire l’inserimento dei destinatari nell’elenco Bloccati. [Ulteriori informazioni](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -849,7 +849,7 @@ Attività Enrichment: arricchisci i dati in base alle transizioni precedenti - [
 
 È stata modificata la maggior parte degli URL per le integrazioni di soluzioni Campaign e Adobe. Controlla i tuoi segnalibri. [Ulteriori informazioni](../../integrating/using/get-started-campaign-integrations.md)
 
-Il modello dati v1 è ora disponibile con la struttura SQL per le risorse integrate - [Ulteriori informazioni](../../developing/using/datamodel-introduction.md)
+Il modello dati v1 è ora disponibile con la struttura SQL per le risorse incorporate - [Ulteriori informazioni](../../developing/using/datamodel-introduction.md)
 
 Sono state aggiunte informazioni sulle modalità di preparazione di un messaggio in una consegna [Ulteriori informazioni](../../sending/using/preparing-the-send.md)
 
@@ -867,7 +867,7 @@ L’attività **[!UICONTROL Subscription Services]** è stata aggiornata per sup
 
 È stato aggiunto un caso d’uso dettagliato sulla modalità di preparazione di una consegna. [Ulteriori informazioni](../../sending/using/preparing-the-send.md)
 
-È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it) (PDF).
+È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 È stato aggiunto un caso d’uso dettagliato sulle modalità d’utilizzo della risposta automatica SMS. [Ulteriori informazioni](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -879,7 +879,7 @@ Nuova sezione dedicata alla gestione dell’elenco Bloccati. [Ulteriori informaz
 
 Sono state aggiornate le informazioni sugli errori di consegna e quarantena. [Ulteriori informazioni](../../sending/using/monitoring-a-delivery.md)
 
-Nuove sezioni dedicate alle [mappature di destinazione](../../administration/using/target-mappings-in-campaign.md) e a [dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+Nuove sezioni dedicate alle [mappature di destinazione](../../administration/using/target-mappings-in-campaign.md) e a [dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 ## Versione 18.1 - Gennaio 2018 {#release-18-1---january-2018}
 
@@ -925,7 +925,7 @@ Nuova nota tecnica sulla modalità di creazione o aggiornamento dei dati del pro
 
 È stata aggiunta una sezione sulle nuove funzionalità di tracciamento delle esportazioni. [Ulteriori informazioni](../../administration/using/auditing-export-logs.md)
 
-Sono state aggiunte delle precisazioni sull’esportazione di pacchetti integrati. [Ulteriori informazioni](../../automating/using/managing-packages.md)
+Sono state aggiunte delle precisazioni sull’esportazione di pacchetti incorporati. [Ulteriori informazioni](../../automating/using/managing-packages.md)
 
 È stato eseguito l’aggiornamento della definizione degli account esterni e dei relativi esempi. [Ulteriori informazioni](../../administration/using/external-accounts.md)
 
@@ -983,7 +983,7 @@ La documentazione relativa ai messaggi di follow-up è stata aggiornata con un c
 
 È stata aggiunta la documentazione relativa all’ID ACS. [Ulteriori informazioni](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
-Sono state aggiunte nuove funzioni di cifratura e hashing con esempi. [Ulteriori informazioni](../../automating/using/list-of-functions.md)
+Sono state aggiunte nuove funzioni di crittografia e hashing con esempi. [Ulteriori informazioni](../../automating/using/list-of-functions.md)
 
 È stata aggiornata la sezione sull’attività del flusso di lavoro di Trasferire file. [Ulteriori informazioni](../../automating/using/transfer-file.md)
 
@@ -1009,7 +1009,7 @@ Canale direct mailing - Rendi al mittente, [Ulteriori informazioni](../../channe
 
 Le guide introduttive e i video sulle procedure sono stati raggruppati in una sezione dedicata.
 
-È stata aggiornata la documentazione relativa al rendering di e-mail. [Ulteriori informazioni](../../sending/using/email-rendering.md)
+È stata aggiornata la documentazione relativa alla funzione Rendering e-mail. [Ulteriori informazioni](../../sending/using/email-rendering.md)
 
 È stata aggiornata la tabella di calcolo dell’indicatore del report. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
@@ -1039,7 +1039,7 @@ Numerose schermate sono state aggiornate per riflettere le modifiche all’inter
 
 Sono state aggiunte le istruzioni per configurare il servizio core People o l’integrazione Audience Manager con Adobe Campaign. [Leggi tutto](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it)
+È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Sono stati aggiornati i collegamenti di aiuto contestuali disponibili direttamente all’interno di Adobe Campaign.
 
@@ -1087,7 +1087,7 @@ Notifiche push: miglioramenti - [Ulteriori informazioni](../../channels/using/ab
 
 Flussi di lavoro: nuova attività del segnale - [Ulteriori informazioni](../../automating/using/external-signal.md)
 
-Flussi di lavoro: nuova attività Read audience - [Ulteriori informazioni](../../automating/using/read-audience.md)
+Flussi di lavoro: nuova attività Leggi pubblico - [Ulteriori informazioni](../../automating/using/read-audience.md)
 
 Dati dei punti di interesse - [Ulteriori informazioni](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -1099,7 +1099,7 @@ Integrazione Triggers: sono stati aggiunti due casi d’uso. [Ulteriori informaz
 
 Per migliorare la user experience, abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice. [Ulteriori informazioni](../../api/using/get-started-apis.md)
 
-Scopri alcuni esempi delle nuove attività del flusso di lavoro [Read audience](../../automating/using/read-audience.md) e [External signal](../../automating/using/external-signal.md).
+Scopri alcuni esempi delle nuove attività del flusso di lavoro [Leggi pubblico](../../automating/using/read-audience.md) e [Segnale esterno](../../automating/using/external-signal.md).
 
 ## Versione 17.1 - Gennaio 2017 {#release-17-1---january-2017}
 
