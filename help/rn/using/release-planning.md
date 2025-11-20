@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Adobe migliora continuamente le proprie soluzioni aggiungendo nuove funzionalit�
 
 Tutte le istanze di Adobe Campaign Standard vengono aggiornate con ogni nuova versione. Per effettuare l’aggiornamento non è richiesta alcuna azione.
 
-Gli aggiornamenti vengono distribuiti in due fasi. In primo luogo, le istanze di Stage vengono aggiornate per consentire ai clienti di testare le nuove funzionalità e adattare la propria configurazione, se necessario. Vengono quindi aggiornate le istanze di produzione.
+Gli aggiornamenti vengono implementati in due fasi. In primo luogo, le istanze nell’ambiente di staging vengono aggiornate per consentire ai clienti di testare le nuove funzionalità e adattare la propria configurazione, se necessario. Vengono quindi aggiornate le istanze di produzione.
 
 Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
@@ -55,7 +55,7 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
 
 **D: Che impatto hanno gli aggiornamenti?**
 
-R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release-notes.md), compresi i collegamenti alla relativa documentazione. Adobe consiglia inoltre di consultare la [pagina Funzioni obsolete e rimosse](../../rn/using/deprecated-features.md). Queste pagine sono disponibili per la nuova versione nella data di aggiornamento dell’ambiente di stage.
+R: Le modifiche sono elencate nelle [Note sulla versione](../../rn/using/release-notes.md), compresi i collegamenti alla relativa documentazione. Adobe consiglia inoltre di consultare la [pagina Funzioni obsolete e rimosse](../../rn/using/deprecated-features.md). Queste pagine sono disponibili per la nuova versione nella data di aggiornamento dell’ambiente di staging.
 
 **D: Qual è il processo di convalida?**
 
@@ -71,7 +71,7 @@ R: No. I messaggi non verranno inviati per qualche minuto. Al termine dell’agg
 
 **D: I flussi di lavoro continueranno a essere eseguiti e a inviare le consegne?**
 
-R: No. Durante l’aggiornamento della build, il server del flusso di lavoro e l’MTA vengono entrambi interrotti. Ciò significa che i flussi di lavoro non verranno eseguiti e le consegne non verranno inviate per qualche minuto. Nessuna azione è richiesta: i flussi di lavoro verranno avviati nuovamente non appena l’istanza è aggiornata.
+R: No. Durante l’aggiornamento della build, il server del flusso di lavoro e l’MTA vengono entrambi interrotti. Ciò significa che i flussi di lavoro non verranno eseguiti e le consegne non verranno inviate per qualche minuto. Non è richiesta alcuna azione: i flussi di lavoro verranno avviati nuovamente non appena l’istanza sarà stata aggiornata.
 
 **D: I collegamenti di tracciamento nei messaggi continueranno a funzionare durante l’aggiornamento?**
 

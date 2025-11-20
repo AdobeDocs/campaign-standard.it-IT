@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Correzioni di sicurezza {#summer-25-security}
 
 * In questa versione sono state apportate correzioni di sicurezza.
-* Questa versione include il seguente aggiornamento della sicurezza: PostgreSQL 14.18, la migrazione da CentOS a Rocky per le istanze di Azure.
+* Questa versione include il seguente aggiornamento di sicurezza: PostgreSQL 14.18, la migrazione da CentOS a Rocky per le istanze di Azure.
 
 ### Altre correzioni {#summer-25-fixes}
 
@@ -59,7 +59,7 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Correzioni di sicurezza {#winter-25-security}
 
 * In questa versione sono state apportate correzioni di sicurezza.
-* Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat è stato aggiornato a v10.1.33.
+* Questa versione include il seguente aggiornamento di sicurezza: Apache Tomcat è stato aggiornato a v10.1.33.
 
 ### Altre correzioni {#winter-25-fixes}
 
