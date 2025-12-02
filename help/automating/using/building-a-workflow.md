@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 90%
@@ -66,7 +67,7 @@ La creazione di un’attività di marketing è descritta nella sezione [Creazion
 
    Poiché ciò ne semplifica la ricerca e la risoluzione dei problemi se non stanno ottenendo le prestazioni previste, Adobe consiglia di assegnare ai flussi di lavoro nomi ed etichette corretti: compila il campo di descrizione del flusso di lavoro per riepilogare il processo da eseguire in modo tale che l’operatore possa comprenderlo facilmente.
 
-1. Conferma la creazione dell’attività per visualizzarne il dashboard. Per ulteriori informazioni, consulta la sezione [Interfaccia dei flussi di lavoro](../../automating/using/workflow-interface.md).
+1. Conferma la creazione dell’attività per visualizzarne il dashboard. Per ulteriori informazioni, consulta la sezione [Interfaccia per flussi di lavoro](../../automating/using/workflow-interface.md).
 
 1. Quando il flusso di lavoro è pronto per essere configurato, è possibile accedere alle opzioni aggiuntive facendo clic sul pulsante **[!UICONTROL Edit properties]**.
 
@@ -135,6 +136,6 @@ Per impostazione predefinita, le attività non sono impostate e non elaborano co
 
 Questo video mostra come creare un flusso di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/329905?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

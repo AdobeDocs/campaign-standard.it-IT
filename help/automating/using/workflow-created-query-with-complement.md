@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 39%
@@ -61,7 +62,7 @@ Puoi inviare un’e-mail ai clienti: una per i clienti creati meno di un anno fa
 1. Per creare il layout dell’e-mail, fai clic su **[!UICONTROL Email Designer]**.
 1. Inserisci elementi o seleziona un modello esistente.
 1. Personalizza il tuo indirizzo e-mail con offerte specifiche per ogni consegna.
-1. Seleziona **[!UICONTROL Preview]** per controllare il layout.
+1. Fai clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 
 Per ulteriori informazioni, consulta [Progettazione di un’e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).

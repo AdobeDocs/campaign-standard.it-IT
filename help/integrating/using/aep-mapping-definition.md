@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Contatta l’Assistenza clienti di Adobe se desideri accedervi.
+>Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
 
 In questa sezione scoprirai come mappare un campo Campaign Standard con un campo Experience Data Model (XDM).
 
@@ -43,11 +44,11 @@ Per eseguire questa attività, i prerequisiti sono:
 
 >[!NOTE]
 >
->Affinché un batch possa essere acquisito in Real-time Customer Profile o Identity Service, il set di dati deve essere [abilitato per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=it).
+>Affinché un batch possa essere acquisito in Real-time Customer Profile o Identity Service, il set di dati deve essere [abilitato per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Se il set di dati selezionato è già utilizzato in una mappatura dati esistente, viene visualizzato un avviso per informare che i dati potrebbero essere sovrascritti in Adobe Experience Platform. Ciò può verificarsi quando sono presenti alcuni destinatari comuni nei mapping dei dati che utilizzano lo stesso set di dati.
 
-La schermata seguente presenta la sezione **[!UICONTROL Field mappings]** in cui è possibile creare una nuova mappatura per ogni campo nello schema Campaign Standard.
+La schermata seguente presenta la sezione **[!UICONTROL Field mappings]** in cui è possibile creare una nuova mappatura per ogni campo nello schema di Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
@@ -63,7 +64,7 @@ Le risorse estese definite in Campaign Standard vengono mappate come tutti i cam
 
 Puoi personalizzare l’estensione XDM tramite l’API e definire una tua estensione che ti consenta di controllare meglio la mappatura.
 
-Per ulteriori dettagli sull&#39;API XDM, consulta l&#39;[esercitazione sull&#39;API del Registro di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
+Per ulteriori dettagli sull&#39;API XDM, consulta l&#39;[esercitazione sull&#39;API del Registro di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 Per mappare un campo di enumerazione, è necessario utilizzare l’editor di espressioni per definire ogni valore di enumerazione corrispondente al valore XDM. Ad esempio, il campo postaladdressfield deve essere definito come:
 

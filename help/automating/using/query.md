@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 90%
@@ -24,7 +25,7 @@ ht-degree: 90%
 
 L’attività **[!UICONTROL Query]** ti consente di filtrare ed estrarre una popolazione di elementi dal database di Adobe Campaign. Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso.
 
-L’attività utilizza lo strumento editor delle query. Questo strumento è descritto in una [sezione dedicata](../../automating/using/editing-queries.md#about-query-editor).
+L’attività utilizza lo strumento Editor di query. Questo strumento è descritto in una [sezione dedicata](../../automating/using/editing-queries.md#about-query-editor).
 
 **Argomenti correlati:**
 
@@ -47,7 +48,7 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
 
    La **[!UICONTROL Resource]** ti consente di perfezionare i filtri visualizzati nella palette, mentre la **[!UICONTROL Targeting dimension]**, contestuale rispetto alla risorsa selezionata, corrisponde al tipo di popolazione che desideri ottenere (profili identificati, consegne, dati collegati alla risorsa selezionata, ecc.).
 
-   Per ulteriori informazioni, consulta [Dimensioni di targeting e risorse](#targeting-dimensions-and-resources).
+   Per ulteriori informazioni, consulta [Dimensioni targeting e risorse](#targeting-dimensions-and-resources).
 
 1. Nella scheda **[!UICONTROL Target]**, esegui la query definendo e combinando regole.
 
@@ -55,7 +56,7 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
    >
    >Quando esegui il targeting di un pubblico, tieni presente che alla definizione del pubblico non viene fatto riferimento, ma **copiata** nella query. Se apporti modifiche al pubblico dopo che è stato impostato il targeting in una query, assicurati di configurare nuovamente la query per tenere conto della nuova definizione.
 
-1. Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle del database di Adobe Campaign collegate alla dimensione di targeting della query. Consulta la sezione [Arricchimento dei dati](#enriching-data).
+1. Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle del database di Adobe Campaign collegate alla dimensione targeting della query. Consulta la sezione [Arricchimento dei dati](#enriching-data).
 
    >[!NOTE]
    >
@@ -69,27 +70,27 @@ L’attività **[!UICONTROL Query]** può avere vari tipi di utilizzi:
 
 ## Dimensioni di targeting e risorse {#targeting-dimensions-and-resources}
 
-Le dimensioni di targeting e le risorse ti consentono di definire su quali elementi basare una query per determinare il target di una consegna.
+Le dimensioni targeting e le risorse ti consentono di definire su quali elementi basare una query per determinare il target di una consegna.
 
 Sono configurate in [mappature di destinazione](../../administration/using/target-mappings-in-campaign.md) e sono definite durante la creazione di un flusso di lavoro, nella scheda **[!UICONTROL Properties]** di un&#39;attività Query.
 
 >[!NOTE]
 >
->Puoi anche definire la dimensione di targeting durante la creazione di un pubblico (vedi [questa sezione](../../audiences/using/creating-audiences.md)).
+>Puoi anche definire la dimensione targeting durante la creazione di un pubblico (vedi [questa sezione](../../audiences/using/creating-audiences.md)).
 
 ![](assets/targeting_dimension1.png)
 
-Le dimensioni di targeting e le risorse sono collegate. Le dimensioni di targeting disponibili dipendono quindi dalla risorsa selezionata.
+Le dimensioni targeting e le risorse sono collegate. Le dimensioni targeting disponibili dipendono quindi dalla risorsa selezionata.
 
-Ad esempio, per la risorsa **[!UICONTROL Profiles (profile)]**, sono disponibili le seguenti dimensioni di targeting:
+Ad esempio, per la risorsa **[!UICONTROL Profiles (profile)]**, sono disponibili le seguenti dimensioni targeting:
 
 ![](assets/targeting_dimension2.png)
 
-Mentre per **[!UICONTROL Deliveries (delivery)]**, l’elenco contiene le seguenti dimensioni di targeting:
+Mentre per **[!UICONTROL Deliveries (delivery)]**, l’elenco contiene le seguenti dimensioni targeting:
 
 ![](assets/targeting_dimension3.png)
 
-Dopo la specificazione della dimensione di targeting e della risorsa, nella query sono disponibili filtri diversi.
+Dopo la specificazione della dimensione targeting e della risorsa, nella query sono disponibili filtri diversi.
 
 Esempio di filtri disponibili per la risorsa **[!UICONTROL Profiles (profile)]**:
 
@@ -99,7 +100,7 @@ Esempio di filtri disponibili per la risorsa **[!UICONTROL Deliveries (delivery)
 
 ![](assets/targeting_dimension5.png)
 
-Per impostazione predefinita, la dimensione di targeting e la risorsa sono impostate per eseguire il targeting dei profili. Tuttavia, se desideri cercare un record specifico in una tabella lontana, potrebbe risultare utile usare una risorsa diversa dalla dimensione di targeting.
+Per impostazione predefinita, la dimensione di targeting e la risorsa sono impostate per eseguire il targeting dei profili. Tuttavia, se desideri cercare un record specifico in una tabella lontana, potrebbe risultare utile usare una risorsa diversa dalla dimensione targeting.
 
 Per ulteriori informazioni, consulta questo caso d&#39;uso: [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
@@ -130,7 +131,7 @@ Un caso d&#39;uso su come personalizzare un&#39;e-mail con dati aggiuntivi è pr
 Aggiungendo un campo semplice come dati aggiuntivi, quel campo diventa direttamente visibile nella transizione in uscita dell’attività. In questo modo l’utente può verificare, ad esempio, che i dati della query corrispondano ai dati desiderati.
 
 1. Aggiungi un nuovo elemento dalla scheda **[!UICONTROL Additional data]**.
-1. Nella finestra visualizzata, nel campo **[!UICONTROL Expression]**, seleziona uno dei campi disponibili direttamente dalla dimensione di targeting o in una dimensione collegata. Puoi modificare espressioni e utilizzare funzioni o calcoli semplici (ad eccezione di aggregati) dai campi della dimensione.
+1. Nella finestra visualizzata, nel campo **[!UICONTROL Expression]**, seleziona uno dei campi disponibili direttamente dalla dimensione targeting o in una dimensione collegata. Puoi modificare espressioni e utilizzare funzioni o calcoli semplici (ad eccezione di aggregati) dai campi della dimensione.
 
    Se modifichi un’espressione che non è un semplice percorso XPATH, viene creato automaticamente un **[!UICONTROL Alias]** (ad esempio: &quot;Year(&lt;@datadinascita>)&quot;). Se lo desideri, puoi modificarlo. Se selezioni un solo campo (ad esempio: &quot;@età&quot;), non devi definire un **[!UICONTROL Alias]**.
 
@@ -140,7 +141,7 @@ Aggiungendo un campo semplice come dati aggiuntivi, quel campo diventa direttame
 
 ### Aggiunta di un aggregato {#adding-an-aggregate}
 
-Gli aggregati consentono di calcolare valori dai campi della dimensione di targeting o dai campi delle dimensioni a essa collegati. Ad esempio: l’importo medio acquistato da un profilo.
+Gli aggregati consentono di calcolare valori dai campi della dimensione targeting o dai campi delle dimensioni a essa collegati. Ad esempio: l’importo medio acquistato da un profilo.
 Quando utilizzi l’aggregato con la query, la sua funzione può tornare a zero, venendo quindi considerata NULL. Utilizza la scheda **[!UICONTROL Output filtering]** della query per filtrare il valore aggregato:
 
 * se desideri valori zero, imposta il filtro su **[!UICONTROL is null]**.

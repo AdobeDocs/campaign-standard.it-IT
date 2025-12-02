@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Risoluzione dei problemi{#troubleshooting}
 
-È possibile che si verifichino errori durante l’utilizzo dell’integrazione con il servizio di base Audience Manager o People.
+È possibile che si verifichino errori durante l’utilizzo dell’integrazione con Audience Manager o il servizio core People.
 
 In questo caso, assicurati che i seguenti elementi siano configurati correttamente:
 

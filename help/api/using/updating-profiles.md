@@ -2,10 +2,11 @@
 title: Aggiornamento dei profili
 description: Scopri come aggiornare i profili con le API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -20,7 +21,7 @@ Aggiornamento dei profili eseguito con una richiesta **PATCH**.
 
 1. Il primo passaggio consiste nel **recuperare il profilo**.
 
-1. In una seconda richiesta, esegui una **richiesta PATCH** sul profilo con le informazioni completate nel payload.
+1. In una seconda richiesta eseguire una **richiesta PATCH** sul profilo con le informazioni completate nel payload.
 
 1. Per verificare se la richiesta PATCH ha aggiornato il profilo, possiamo eseguire una richiesta GET finale.
 
@@ -28,7 +29,7 @@ Aggiornamento dei profili eseguito con una richiesta **PATCH**.
 
 ***Richiesta di esempio***
 
-Richiesta di GET di esempio per recuperare un profilo.
+Richiesta GET di esempio per recuperare un profilo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\

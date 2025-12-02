@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 94%
@@ -26,7 +27,7 @@ L’attività **[!UICONTROL Incremental query]** ti consente di filtrare ed estr
 
 Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso.
 
-L’attività utilizza lo strumento editor delle query. Questo strumento è descritto in una [sezione dedicata](../../automating/using/editing-queries.md#about-query-editor).
+L’attività utilizza lo strumento Editor di query. Questo strumento è descritto in una [sezione dedicata](../../automating/using/editing-queries.md#about-query-editor).
 
 ## Contesto di utilizzo {#context-of-use}
 
@@ -68,7 +69,7 @@ L’attività **[!UICONTROL Incremental query]** può avere vari tipi di utilizz
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle del database di Adobe Campaign collegate alla dimensione di targeting della query. Consulta la sezione [Arricchimento dei dati](../../automating/using/query.md#enriching-data).
+1. Puoi definire **[!UICONTROL Additional data]** per la popolazione target tramite una scheda dedicata. Questi dati vengono memorizzati in colonne aggiuntive e possono essere utilizzati solo per il flusso di lavoro in corso. In particolare, puoi aggiungere dati dalle tabelle del database di Adobe Campaign collegate alla dimensione targeting della query. Consulta la sezione [Arricchimento dei dati](../../automating/using/query.md#enriching-data).
 1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
 
 ## Arricchimento dei dati {#enriching-data}

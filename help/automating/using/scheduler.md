@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -62,7 +63,7 @@ Durante la progettazione di un flusso di lavoro pianificato che include più att
 
    Quando si imposta la frequenza di esecuzione su **[!UICONTROL Several times a day]**, è possibile scegliere se eseguire il flusso di lavoro in orari specifici del giorno o periodicamente durante il giorno.
 
-+++ Scopri come configurare una frequenza di esecuzione di **[!UICONTROL "Several times a day"]**
+   +++ Scopri come configurare una frequenza di esecuzione di **[!UICONTROL "Several times a day"]**
 
    * Per eseguire il flusso di lavoro più volte in orari specifici durante il giorno, attivare l&#39;opzione **[!UICONTROL Specific times]**, quindi fare clic su **[!UICONTROL Add an element]** per specificare il tempo di esecuzione desiderato. Aggiungi il numero di volte necessario per allinearlo ai requisiti.
 
@@ -86,7 +87,7 @@ Durante la progettazione di un flusso di lavoro pianificato che include più att
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. Specifica quando scade l’esecuzione:
 

@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 4%
@@ -17,11 +18,11 @@ ht-degree: 4%
 
 # Provisioning e configurazione dell’integrazione con Audience Manager o il servizio core People{#integration-with-audience-manager-or-people-core-service}
 
-Il provisioning e la configurazione del core Audience Manager e People in Adobe Campaign richiedono due passaggi: [Invio della richiesta a Adobe](#submitting-request-to-adobe), [Configurazione dell&#39;integrazione in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+Il provisioning e la configurazione di Audience Manager e del core People in Adobe Campaign richiedono due passaggi: [Invio della richiesta ad Adobe](#submitting-request-to-adobe) e [Configurazione dell&#39;integrazione in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
-## Invio di una richiesta all’Adobe {#submitting-request-to-adobe}
+## Invio di una richiesta ad Adobe {#submitting-request-to-adobe}
 
-L’integrazione di Audience Manager (AAM) o del servizio core People consente di importare ed esportare tipi di pubblico o segmenti in Adobe Campaign.
+L’integrazione del servizio di base Audience Manager (AAM) o Persone consente di importare ed esportare tipi di pubblico o segmenti in Adobe Campaign.
 
 Questa integrazione deve prima essere configurata. Per richiedere il provisioning di questa integrazione, contatta il supporto Adobe con le seguenti informazioni:
 
@@ -29,7 +30,7 @@ Questa integrazione deve prima essere configurata. Per richiedere il provisionin
  <tbody> 
   <tr> 
    <td> <strong>Tipo di richiesta:</strong><br /> </td> 
-   <td> Configurare l’integrazione tra il servizio core AAM/People e Campaign </td> 
+   <td> Configurare l’integrazione servizio core AAM/People-Campaign </td> 
   </tr> 
   <tr> 
    <td> <strong>Nome organizzazione:</strong><br /> </td> 
@@ -45,7 +46,7 @@ Questa integrazione deve prima essere configurata. Per richiedere il provisionin
   </tr> 
   <tr> 
    <td> <strong>AAM o il servizio People</strong><br /> </td> 
-   <td> Esempio: Adobe Audience Manager. Assicurati di segnalare al team di provisioning se possiedi o meno la licenza Audience Manager.</td> 
+   <td> Esempio: Adobe Audience Manager. Indica al team di provisioning se possiedi o meno la licenza Audience Manager.</td> 
   </tr> 
   <tr> 
    <td> <strong>ID dichiarato o ID visitatore</strong><br /> </td> 
@@ -69,7 +70,7 @@ Dopo aver inviato questa richiesta, Adobe procederà al provisioning dell’inte
 
 ### Passaggio 1: configurare o controllare gli account esterni in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-Innanzitutto, devi configurare o controllare gli account esterni in Adobe Campaign. Questi account avrebbero dovuto essere configurati da Adobe e le informazioni necessarie avrebbero dovuto essere comunicate all&#39;utente.
+Innanzitutto, devi configurare o controllare gli account esterni in Adobe Campaign. Questi account avrebbero dovuto essere configurati da Adobe e le informazioni necessarie dovevano essere comunicate all’utente.
 
 Per eseguire questa operazione:
 
@@ -100,7 +101,7 @@ Per configurare l&#39;origine dati **[!UICONTROL Recipient - Visitor ID (Default
    ![](assets/integration_aam_2.png)
 
 1. Scegliere **[!UICONTROL Adobe Campaign]** nel menu a discesa **[!UICONTROL Data Source/ Alias]**.
-1. Immetti **[!UICONTROL AAM Destination ID]** fornito dall&#39;Adobe.
+1. Immetti **[!UICONTROL AAM Destination ID]** fornito da Adobe.
 
    ![](assets/integration_aam_3.png)
 
@@ -111,8 +112,8 @@ Per creare l&#39;origine dati **[!UICONTROL Declared ID]**:
 
 1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, fare clic sul pulsante **[!UICONTROL Create]**.
 1. Modifica **[!UICONTROL Label]** dell&#39;origine dati.
-1. Nell&#39;elenco a discesa **[!UICONTROL Data Source/ Alias]**, scegliere il Data Source corrispondente all&#39;origine dati **[!UICONTROL DeclaredID]** da Audience Manager.
-1. Configurare l&#39;origine dati immettendo **[!UICONTROL Data Source / Alias]** e **[!UICONTROL AAM Destination ID]** forniti da Adobe.
+1. Nel menu a discesa **[!UICONTROL Data Source/ Alias]**, scegliere il Data Source corrispondente all&#39;origine dati **[!UICONTROL DeclaredID]** da Audience Manager.
+1. Configura l&#39;origine dati immettendo **[!UICONTROL Data Source / Alias]** e **[!UICONTROL AAM Destination ID]** forniti da Adobe.
 1. Imposta **[!UICONTROL Reconciliation process]** come necessario.
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -132,8 +133,8 @@ Per consentire ai tipi di pubblico condivisi di funzionare con l’ID visitatore
 
 ### Passaggio 4: configurare il servizio ID visitatori {#step-4--configure-the-visitor-id-service}
 
-Nel caso in cui il servizio ID visitatore non sia mai stato configurato nelle proprietà o nei siti Web, consulta il seguente [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=it) per scoprire come configurare il servizio o il seguente [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
+Nel caso in cui il servizio ID visitatore non sia mai stato configurato nelle proprietà o nei siti Web, consulta il seguente [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) per scoprire come configurare il servizio o il seguente [video](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html#step-two).
 
-Sincronizza gli identificatori cliente con ID dichiarato utilizzando la funzione `setCustomerID` nel servizio ID Experience Cloud con il codice di integrazione: `AdobeCampaignID`. `AdobeCampaignID` deve corrispondere al valore della chiave di riconciliazione impostata nel Source dati del destinatario configurato in [Passaggio 2: configurare le origini dati](#step-2--configure-the-data-sources).
+Sincronizza gli identificatori cliente con ID dichiarato utilizzando la funzione `setCustomerID` nel servizio Experience Cloud ID con il codice di integrazione: `AdobeCampaignID`. `AdobeCampaignID` deve corrispondere al valore della chiave di riconciliazione impostata nel Source dati del destinatario configurato in [Passaggio 2: configurare le origini dati](#step-2--configure-the-data-sources).
 
 La configurazione e il provisioning sono finalizzati, l’integrazione ora può essere utilizzata per importare ed esportare tipi di pubblico o segmenti.

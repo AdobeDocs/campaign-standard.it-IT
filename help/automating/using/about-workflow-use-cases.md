@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 70%
@@ -27,7 +28,7 @@ Consentono di scoprire i diversi contesti in cui è possibile utilizzare i fluss
 * [Creazione di consegne con un complemento](../../automating/using/workflow-created-query-with-complement.md)
 * [Creazione di consegne nella data di creazione dei profili](../../automating/using/workflow-creation-date-query.md)
 * [Creazione di una consegna settimanale](../../automating/using/workflow-weekly-offer.md)
-* [Creazione di consegna messaggi cross-channel](../../automating/using/workflow-cross-channel-delivery.md)
+* [Creazione di una consegna cross-channel](../../automating/using/workflow-cross-channel-delivery.md)
 * [Identificazione di duplicati prima di una consegna](../../automating/using/identifying-duplicated-before-delivery.md)
 * [Consegna compleanno](../../automating/using/birthday-delivery.md)
 * [Abbinamento delle consegne di e-mail e direct mailing](../../automating/using/coupling-email-direct-mail.md)
@@ -45,7 +46,7 @@ Consentono di scoprire i diversi contesti in cui è possibile utilizzare i fluss
 * [Retargeting di non-aperti](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Query incrementale per gli abbonati a un servizio](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentazione in base ai gruppi di età](../../automating/using/segmentation-age-groups.md)
-* [Utilizzo di risorse diverse dalle dimensioni di targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+* [Utilizzo di risorse diverse dalle dimensioni targeting](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Gestione dati {#management}
 

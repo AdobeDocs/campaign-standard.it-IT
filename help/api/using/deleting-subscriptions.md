@@ -2,10 +2,11 @@
 title: Eliminazione di abbonamenti
 description: Scopri come eliminare gli abbonamenti con API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -94,7 +95,7 @@ Esegui una richiesta DELETE sull’URL del servizio desiderato.
 Questa è una procedura in tre fasi.
 
 1. Recupera il servizio desiderato e il relativo URL di abbonamento.
-1. Esegui una richiesta GET sull’URL delle sottoscrizioni per recuperare tutte le sottoscrizioni dei profili.
+1. Esegui una richiesta GET sull’URL degli abbonamenti per recuperare tutti gli abbonamenti dei profili.
 1. Esegui una richiesta DELETE sull’URL di abbonamento del profilo desiderato.
 
 Se la richiesta di eliminazione ha esito positivo, lo stato della risposta è 204 Nessun contenuto.

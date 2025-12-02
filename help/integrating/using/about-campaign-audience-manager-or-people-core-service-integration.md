@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 18%
@@ -28,7 +29,7 @@ Adobe Campaign consente di scambiare e condividere tipi di pubblico/segmenti con
 
 L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
-* **ID visitatore**: questo tipo di ID consente di riconciliare i visitatori di Adobe Experience Cloud con i profili Adobe Campaign. Non appena viene abilitata una connessione tramite Adobe IMS, viene attivato il servizio ID visitatore del Marketing Cloud, che sostituisce il cookie permanente utilizzato da Adobe Campaign. Questo consente di identificare un visitatore e quindi collegarlo a un profilo.
+* **ID visitatore**: questo tipo di ID consente di riconciliare i visitatori di Adobe Experience Cloud con i profili Adobe Campaign. Non appena viene abilitata una connessione tramite Adobe IMS, viene attivato il servizio ID visitatore di Marketing Cloud, che sostituisce il cookie permanente utilizzato da Adobe Campaign. Questo consente di identificare un visitatore e quindi collegarlo a un profilo.
   <br>Un ID visitatore viene collegato a un profilo non appena quest&#39;ultimo fa clic in un&#39;e-mail inviata tramite Adobe Campaign:
    * Se il profilo dispone già di un ID visitatore, i dati del browser del profilo consentono ad Adobe Campaign di recuperare e collegare automaticamente il profilo all’ID visitatore.
    * Se non viene trovato alcun ID visitatore, viene creato un nuovo ID. Questo ID visitatore viene memorizzato nei registri di tracciamento del profilo.
@@ -49,6 +50,6 @@ L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
   Ad esempio, con la possibilità di decrittografare indirizzi e-mail o numeri SMS crittografati, puoi anche inviare messaggi attivati ai tuoi utenti anche se il loro profilo non esiste nel database di Adobe Campaign.
 
-Il diagramma seguente illustra il funzionamento di questa integrazione. Qui AAM sta per Adobe Audience Manager e ACS per Adobe Campaign Standard.
+Il diagramma seguente illustra il funzionamento di questa integrazione. In questo caso, AAM sta per Adobe Audience Manager e ACS per Adobe Campaign Standard.
 
 ![](assets/aam_diagram.png)

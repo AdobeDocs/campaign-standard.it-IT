@@ -1,14 +1,15 @@
 ---
 title: Creazione di contenuti e-mail in Adobe Experience Manager.
-description: Con l’integrazione di Adobe Experience Manager, puoi creare contenuti direttamente nell’AEM e utilizzarli successivamente in Adobe Campaign.
+description: Con l’integrazione di Adobe Experience Manager, puoi creare contenuti direttamente in AEM e utilizzarli successivamente in Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Questo documento illustra come creare e gestire i contenuti delle e-mail in Adob
 
 Sussistono i seguenti prerequisiti:
 
-* Accesso a un’istanza AEM configurata per l’integrazione.
+* Accesso a un’istanza di AEM configurata per l’integrazione.
 * Accesso a un’istanza di Adobe Campaign configurata per l’integrazione.
 * Un modello e-mail Adobe Campaign configurato per ricevere contenuti AEM.
 
@@ -72,9 +73,9 @@ Per creare un contenuto e-mail in Adobe Experience Manager:
 
 Per inviare il messaggio e-mail in Adobe Campaign Standard:
 
-1. Una volta definiti il contenuto e i parametri di invio, crea un’e-mail basata su un modello e-mail specifico per l’AEM in Adobe Campaign Standard.
+1. Una volta definiti il contenuto e i parametri di invio, crea un’e-mail basata su un modello e-mail specifico di AEM in Adobe Campaign Standard.
 
-+++ Ulteriori informazioni sul modello specifico per AEM.
+   +++ Ulteriori informazioni sul modello specifico di AEM.
 
    1. Dal menu avanzato, accedere a **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**.
 
@@ -86,11 +87,11 @@ Per inviare il messaggio e-mail in Adobe Campaign Standard:
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 
-1. Inserisci le proprietà dell&#39;e-mail e fai clic su **[!UICONTROL Create]** per selezionare il contenuto dell&#39;AEM.
+1. Inserisci le proprietà dell&#39;e-mail e fai clic su **[!UICONTROL Create]** per selezionare il contenuto di AEM.
 
 1. Accedi al blocco **[!UICONTROL Content]**.
 

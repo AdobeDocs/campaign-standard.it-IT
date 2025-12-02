@@ -2,10 +2,11 @@
 title: Recupero dei profili
 description: Scopri come recuperare i profili con le API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%
@@ -24,7 +25,7 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
 
 ***Richieste di esempio***
 
-* Esempio di richiesta GET per recuperare tutti i profili.
+* Richiesta GET di esempio per recuperare tutti i profili.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -50,7 +51,7 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
   }
   ```
 
-* Richiesta di GET di esempio per recuperare i primi 10 valori e-mail.
+* Richiesta GET di esempio per recuperare i primi 10 valori e-mail.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \

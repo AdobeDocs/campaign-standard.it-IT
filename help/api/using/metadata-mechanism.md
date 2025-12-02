@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
@@ -45,7 +46,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***Richiesta di esempio***
 
-Esegui una richiesta di GET per la risorsa.
+Esegui una richiesta GET sulla risorsa.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

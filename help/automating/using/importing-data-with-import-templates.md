@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 99%
@@ -61,7 +62,7 @@ Sono disponibili tre modelli predefiniti di sola lettura:
 * **[!UICONTROL Import list]**: questo modello può fungere da base per permettere alle nuove importazioni di creare un pubblico di tipo **Elenco** dai dati contenuti all’interno di un file. Il flusso di lavoro di questo modello contiene le attività seguenti:
 
    * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
-   * **[!UICONTROL Reconciliation]**: questa attività ti consente di collegare ai dati importati una dimensione di targeting. A sua volta, ciò ti permette di creare un pubblico di tipo **Elenco**. Se la dimensione di targeting dei dati importati non è nota, il pubblico sarà del tipo **File**. Consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * **[!UICONTROL Reconciliation]**: questa attività consente di collegare ai dati importati una dimensione targeting. A sua volta, ciò ti permette di creare un pubblico di tipo **Elenco**. Se la dimensione targeting dei dati importati non è nota, il pubblico sarà del tipo **File**. Consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
    * **[!UICONTROL Save audience]**: questa attività ti permette di salvare i dati importati sotto forma di pubblico di tipo **Elenco**. Il nome del pubblico salvato corrisponde al nome del file importato dall’utente, cui verrà aggiunto un suffisso che indica la data e l’ora dell’importazione. Ad esempio: “profiles_20150406_151448”.
 
 Questi modelli predefiniti sono di sola lettura e non sono visibili agli utenti standard. Per creare un modello che sarà disponibile agli utenti, effettua le seguenti operazioni:
@@ -81,7 +82,7 @@ Questi modelli predefiniti sono di sola lettura e non sono visibili agli utenti 
    Per ulteriori informazioni su come configurare le attività del flusso di lavoro, fai riferimento al caso d’uso descritto in questa sezione: [Esempio: importare un modello di flusso di lavoro](../../automating/using/creating-import-workflow-templates.md). Questo caso d’uso ti aiuterà a configurare un flusso di lavoro che può essere riutilizzato per importare nel database Adobe Campaign i profili provenienti da un sistema di gestione delle relazioni con i clienti.
 
 1. Salva il tuo modello in modo che la configurazione del flusso di lavoro venga presa in considerazione nel modo corretto.
-1. Carica un file di esempio dalla scheda **[!UICONTROL Properties]**. Il file caricato può contenere solo le colonne necessarie per le importazioni future o per i dati campione. I dati contenuti nel file di esempio consentono di verificare l’importazione semplificata, una volta definito il flusso di lavoro.
+1. Carica un file di esempio dalla scheda **[!UICONTROL Properties]**. Il file caricato può contenere solo le colonne necessarie per le importazioni future o per i dati di esempio. I dati contenuti nel file di esempio consentono di verificare l’importazione semplificata, una volta definito il flusso di lavoro.
 
    ![](assets/import_template_sample.png)
 

@@ -5,21 +5,22 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Condivisione dei tipi di pubblico con Audience Manager o il servizio core People{#sharing-audiences-with-audience-manager-or-people-core-service}
 
-## Importazione di un pubblico {#importing-an-audience}
+## Importare un pubblico {#importing-an-audience}
 
-L’integrazione del servizio core People consente di importare direttamente un pubblico in Adobe Campaign tramite un flusso di lavoro tecnico per arricchire il database. Per ulteriori informazioni sulla condivisione del pubblico nel servizio core People, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=it).
+L’integrazione del servizio core People consente di importare direttamente un pubblico in Adobe Campaign tramite un flusso di lavoro tecnico per arricchire il database. Per ulteriori informazioni sulla condivisione del pubblico nel servizio core People, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 L&#39;importazione di tipi di pubblico/segmenti dal servizio core People in Adobe Campaign può essere eseguita dal menu **[!UICONTROL Audiences]** solo dagli utenti connessi tramite IMS (autenticazione tramite Adobe ID).
 
@@ -41,15 +42,15 @@ L&#39;importazione di tipi di pubblico/segmenti dal servizio core People in Adob
 
    Il pubblico viene quindi importato tramite un flusso di lavoro tecnico. È composto da record di cui è stato possibile riconciliare l’ID (&quot;ID visitatore&quot; o &quot;ID dichiarato&quot;) con la dimensione del profilo. Gli ID dei segmenti del servizio core People che non sono riconosciuti da Adobe Campaign non vengono importati.
 
-Il pubblico viene ora importato nel database di Adobe Campaign. La sincronizzazione del processo di importazione richiede 24-36 ore, quando i segmenti vengono importati direttamente dal servizio core People o dall’Audience Manager. Dopo questo periodo, potrai trovare e utilizzare il nuovo pubblico in Adobe Campaign.
+Il pubblico viene ora importato nel database di Adobe Campaign. La sincronizzazione del processo di importazione richiede 24-36 ore, quando i segmenti vengono importati direttamente dal servizio core People o da Audience Manager. Dopo questo periodo, potrai trovare e utilizzare il nuovo pubblico in Adobe Campaign.
 
 >[!NOTE]
 >
->Se importi tipi di pubblico da Adobe Analytics ad Adobe Campaign, questi devono prima essere condivisi nel servizio core People o nell’Audience Manager. Questo processo richiede 12-24 ore, che devono essere aggiunte alla sincronizzazione di 24-36 ore con Campaign. In questo caso specifico, l’arco temporale di condivisione del pubblico può essere fino a 60 ore. Per ulteriori informazioni sulla condivisione del pubblico Adobe Analytics nel servizio core People e in Audience Manager, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=it).
+>Se importi tipi di pubblico da Adobe Analytics ad Adobe Campaign, questi devono prima essere condivisi nel servizio core People o in Audience Manager. Questo processo richiede 12-24 ore, che devono essere aggiunte alla sincronizzazione di 24-36 ore con Campaign. In questo caso specifico, l’arco temporale di condivisione del pubblico può essere fino a 60 ore. Per ulteriori informazioni sulla condivisione del pubblico Adobe Analytics nel servizio core People e in Audience Manager, consulta questa [documentazione](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Esportazione di un pubblico {#exporting-an-audience}
 
-Un pubblico può essere esportato da Adobe Campaign al servizio core Audience Manager o People tramite un flusso di lavoro e l&#39;attività **[!UICONTROL Save audience]**.
+Un pubblico può essere esportato da Adobe Campaign ad Audience Manager o al servizio core People tramite un flusso di lavoro e l&#39;attività **[!UICONTROL Save audience]**.
 
 Può essere eseguito in un nuovo flusso di lavoro e solo dagli utenti connessi tramite IMS (autenticazione tramite Adobe ID).
 
@@ -75,7 +76,7 @@ Può essere eseguito in un nuovo flusso di lavoro e solo dagli utenti connessi t
 1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
 1. Avvia il flusso di lavoro per esportare il pubblico. La sincronizzazione tra Adobe Campaign e il servizio core People può richiedere diverse ore
 
-La sincronizzazione tra Adobe Campaign e il servizio core People richiede 24-36 ore. Dopo questo periodo, potrai trovare il nuovo pubblico nel servizio core People e riutilizzarlo in altre soluzioni Adobe Experience Cloud. Per ulteriori informazioni sull&#39;utilizzo di un pubblico condiviso di Adobe Campaign nel servizio core Persone di Adobe, consulta questa [documentazione](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=it).
+La sincronizzazione tra Adobe Campaign e il servizio core People richiede 24-36 ore. Dopo questo periodo, potrai trovare il nuovo pubblico nel servizio core People e riutilizzarlo in altre soluzioni Adobe Experience Cloud. Per ulteriori informazioni sull&#39;utilizzo di un pubblico condiviso di Adobe Campaign nel servizio core People di Adobe, consulta questa [documentazione](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
 
 **Argomenti correlati:**
 

@@ -1,15 +1,16 @@
 ---
-title: Save audience
+title: Salva pubblico
 description: L’attività Save audience ti consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in un flusso di lavoro.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 99%
@@ -43,18 +44,18 @@ L’attività **[!UICONTROL Save audience]** è essenzialmente utilizzata per ma
 
    * **[!UICONTROL Update an existing audience]**: seleziona un pubblico esistente e scegli il tipo di aggiornamento:
 
-      * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Save audience.
+      * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Salva pubblico.
       * **[!UICONTROL Complete audience with new data]**: i vecchi dati del pubblico vengono conservati e i dati della transizione in entrata dell’attività Save audience vengono aggiunti a essi.
 
    * **[!UICONTROL Create then update an audience]**: immetti il nome del pubblico e seleziona il tipo di aggiornamento. Se il pubblico non esiste già, viene quindi creato. Se esiste già, viene aggiornato in base alla modalità selezionata:
 
-      * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Save audience.
+      * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Salva pubblico.
 
-        Attenzione: questa opzione elimina il tipo di pubblico e la dimensione di targeting del pubblico aggiornato.
+        Attenzione: questa opzione elimina il tipo di pubblico e la dimensione targeting del pubblico aggiornato.
 
       * **[!UICONTROL Complete audience with new data]**: i vecchi dati del pubblico vengono conservati e i dati della transizione in entrata dell’attività Save audience vengono aggiunti a essi.
 
-        Attenzione: questa opzione genera un errore se il tipo di pubblico o la dimensione di targeting del pubblico aggiornato non sono compatibili con la configurazione corrente del flusso di lavoro. Ad esempio, non puoi completare un pubblico di tipo file con profili provenienti da una query.
+        Attenzione: questa opzione genera un errore se il tipo di pubblico o la dimensione targeting del pubblico aggiornato non sono compatibili con la configurazione corrente del flusso di lavoro. Ad esempio, non puoi completare un pubblico di tipo file con profili provenienti da una query.
 
    * **[!UICONTROL Create a new audience]**: immetti il nome del pubblico da creare. L’ora e la data della creazione del pubblico vengono automaticamente aggiunte al nome del pubblico. In questo modo il pubblico risulta unico ogni volta che viene eseguito il flusso di lavoro.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: se hai eseguito il targeting dei profili e desideri esportare il pubblico in Adobe Experience Cloud, seleziona questa opzione, quindi seleziona un pubblico condiviso esistente o creane uno nuovo.
@@ -69,11 +70,11 @@ L’attività **[!UICONTROL Save audience]** è essenzialmente utilizzata per ma
 
    I tipi di pubblico salvati o disponibili durante un aggiornamento dipende dalle attività inserite a monte nel flusso di lavoro.
 
-   Se la dimensione di targeting del pubblico è sconosciuta al momento del salvataggio (ad esempio se proviene da un file importato), il pubblico viene creato o aggiornato come un pubblico di tipo **[!UICONTROL File]**.
+   Se la dimensione targeting del pubblico è sconosciuta al momento del salvataggio (ad esempio se proviene da un file importato), il pubblico viene creato o aggiornato come un pubblico di tipo **[!UICONTROL File]**.
 
-   Se la dimensione di targeting del pubblico salvato è già definita durante il salvataggio (ad esempio se proviene da un targeting, in base a una query, ecc.), il pubblico viene salvato o aggiornato come pubblico di tipo **[!UICONTROL List]**.
+   Se la dimensione targeting del pubblico salvato è già definita durante il salvataggio (ad esempio se proviene da un targeting, in base a una query, ecc.), il pubblico viene salvato o aggiornato come pubblico di tipo **[!UICONTROL List]**.
 
-   Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dal menu **[!UICONTROL Audiences]**. Le colonne disponibili in questa visualizzazione corrispondono alle colonne della transizione in entrata dell’attività Save audience del flusso di lavoro. Ad esempio: le colonne del file importato, i dati aggiuntivi aggiunti da una query.
+   Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dal menu **[!UICONTROL Audiences]**. Le colonne disponibili in questa visualizzazione corrispondono alle colonne della transizione in entrata dell’attività Salva pubblico del flusso di lavoro. Ad esempio: le colonne del file importato, i dati aggiuntivi aggiunti da una query.
 
 1. Conferma la configurazione dell’attività e salva il flusso di lavoro.
 

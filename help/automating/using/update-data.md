@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 97%
@@ -53,8 +54,8 @@ L’attività **Update data** può essere utilizzata dopo l’importazione di un
 
 1. Nella scheda **[!UICONTROL Identification]**, specifica come identificare i record nel database:
 
-   * **[!UICONTROL Using the targeting dimension]**: seleziona la **[!UICONTROL Dimension to update]**, quindi specifica le **[!UICONTROL Keys for finding records]**. Per ulteriori informazioni, consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * Se i dati immessi corrispondono a una dimensione di targeting esistente, seleziona l’opzione **[!UICONTROL Using one or more links]**. Quindi scegli la **[!UICONTROL Dimension to update]**.
+   * **[!UICONTROL Using the targeting dimension]**: seleziona la **[!UICONTROL Dimension to update]**, quindi specifica le **[!UICONTROL Keys for finding records]**. Per ulteriori informazioni, consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * Se i dati immessi corrispondono a una dimensione targeting esistente, seleziona l’opzione **[!UICONTROL Using one or more links]**. Quindi scegli la **[!UICONTROL Dimension to update]**.
 
    Se il tipo di operazione selezionato richiede un aggiornamento, devi utilizzare le chiavi di riconciliazione.
 

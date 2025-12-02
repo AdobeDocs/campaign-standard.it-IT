@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 35%
@@ -53,7 +54,7 @@ Adobe Campaign consente di elaborare i set sui dati in entrata. Puoi quindi comb
 * L&#39;attività **[!UICONTROL Union]** consente di raggruppare il risultato di più attività in un&#39;unica destinazione. Consulta la sezione [Unione](../../automating/using/union.md).
 * L&#39;attività **[!UICONTROL Intersection]** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all&#39;interno dell&#39;attività. Consulta la sezione [Intersezione](../../automating/using/intersection.md).
 * L&#39;attività **[!UICONTROL Exclusion]** ti consente di escludere elementi da una popolazione in base a determinati criteri. Consulta la sezione [Esclusione](../../automating/using/exclusion.md).
-* L’attività **[!UICONTROL Segmentation]** ti consente di creare uno o più segmenti da un gruppo calcolato dalle attività inserite in precedenza nel flusso di lavoro. Al termine dell’attività, possono essere elaborati in un’unica transizione o in diverse transizioni. Consulta la sezione [Segmentazione](../../automating/using/segmentation.md).
+* L’attività **[!UICONTROL Segmentation]** ti consente di creare uno o più segmenti da una popolazione calcolata dalle attività inserite in precedenza nel flusso di lavoro. Al termine dell’attività, possono essere elaborati in un’unica transizione o in diverse transizioni. Consulta la sezione [Segmentazione](../../automating/using/segmentation.md).
 
 ## Arricchimento dei dati {#enriching-data}
 

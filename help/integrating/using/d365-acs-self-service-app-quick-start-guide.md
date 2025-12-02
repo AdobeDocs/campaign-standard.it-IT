@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 # Introduzione all’applicazione di integrazione self-service {#gs-self-service-app}
 
-L’applicazione di integrazione self-service di Adobe Campaign Standard con Microsoft Dynamics 365 consente di configurare i flussi di dati, controllare se sono in esecuzione o meno e in quale ambiente. È tuttavia necessario completare alcuni prerequisiti prima di iniziare a utilizzare l&#39;applicazione di integrazione self-service.
+L’applicazione di integrazione self-service Adobe Campaign Standard con Microsoft Dynamics 365 consente di configurare i flussi di dati, controllare se sono in esecuzione o meno e in quale ambiente. È tuttavia necessario completare alcuni prerequisiti prima di iniziare a utilizzare l&#39;applicazione di integrazione self-service.
 
 ## Concetti e restrizioni {#concepts-and-restrictions}
 
@@ -26,19 +27,19 @@ Prima di iniziare a utilizzare lo strumento di integrazione, è necessario compr
 
 Per ulteriori informazioni, consulta le sezioni seguenti:
 
-* [Guida introduttiva all’integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
+* [Introduzione all’integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Best practice e limitazioni dell’integrazione](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Scopri i passaggi chiave per implementare questa integrazione](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [Utilizzare l’integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## Prerequisiti {#self-service-app-prerequisites}
 
-Devi configurare Microsoft Dynamics 365 e Adobe Campaign Standard in modo che l’app di integrazione possa accedere ai tuoi dati. La configurazione in Dynamics 365, Adobe Campaign Standard e Adobe I/O richiederà un po’ di tempo; tuttavia, una volta configurati, potrai controllare l’integrazione tramite l’interfaccia utente dell’applicazione di integrazione self-service.
+Devi configurare Microsoft Dynamics 365 e Adobe Campaign Standard in modo che l’app di integrazione possa accedere ai tuoi dati. La configurazione in Dynamics 365, Adobe Campaign Standard e Adobe I/O richiederà del tempo; tuttavia, una volta configurati, potrai controllare l’integrazione tramite l’interfaccia utente dell’applicazione di integrazione self-service.
 
 Per ulteriori informazioni, consulta le sezioni seguenti:
 
 * [Configurare Microsoft Dynamics 365 per l’integrazione con Campaign](../../integrating/using/d365-acs-configure-d365.md)
-* [Configura Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [Configurare Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Mappatura delle risorse personalizzate di Campaign ed entità personalizzate di Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## Passaggi chiave per configurare l’app di integrazione self-service {#self-service-app-configuration-steps}
@@ -60,7 +61,7 @@ Apri un browser e individua il connettore associato alla tua regione:
 
 ## Conferma della richiesta di accesso a dati personali {#self-service-app-acknowledgement}
 
-Quando visiti per la prima volta l’interfaccia utente self-service, riceverai la conferma della privacy. Prima di poter continuare, è necessario essere consapevoli del proprio ruolo nell’esecuzione delle richieste di accesso a dati personali in Campaign e in Microsoft Dynamics 365 separatamente.
+Quando visiti per la prima volta l’interfaccia utente self-service, riceverai la conferma della privacy. Prima di continuare, è necessario essere consapevoli del proprio ruolo nell’esecuzione delle richieste di accesso a dati personali in Campaign e in Microsoft Dynamics 365 separatamente.
 Ulteriori informazioni sulle tue responsabilità in materia di privacy e su come gestire le richieste di accesso a dati personali in [questa sezione](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## Impostazione delle credenziali in corso {#self-service-app-credentials}
@@ -71,7 +72,7 @@ Quando esplori l’interfaccia utente per la prima volta, dovresti vedere una pa
 
 >[!NOTE]
 >
-> È normale ricevere avvisi che indicano che è &quot;impossibile connettersi&quot; a Adobe Campaign Standard o Microsoft Dynamics 365 se le impostazioni dell’app non sono ancora state configurate.
+> È normale ricevere avvisi che indicano che non è &quot;possibile connettersi&quot; a Adobe Campaign Standard o Microsoft Dynamics 365 se le impostazioni dell’app non sono ancora state configurate.
 
 Verifica che le selezioni &quot;ORG&quot; e &quot;INSTANCE&quot; siano quelle che intendi configurare.  In caso contrario, fai clic sull’elenco a discesa e seleziona l’organizzazione e l’istanza corrette.
 
@@ -79,13 +80,13 @@ Verifica che le selezioni &quot;ORG&quot; e &quot;INSTANCE&quot; siano quelle ch
 >
 > Se stai configurando il connettore per la prima volta e/o hai poca esperienza con questo processo, **ti invitiamo fortemente** a selezionare l&#39;istanza &quot;stage&quot; o &quot;dev&quot;. Assicurati di verificare che la configurazione funzioni correttamente prima di tentare l’installazione in produzione.
 
-Se disponi dell’organizzazione e dell’istanza corrette, fai clic sul menu &quot;hamburger&quot; per esporre un menu a discesa. Fare quindi clic su **[!UICONTROL Settings...]** nel menu a discesa per visitare la pagina in cui si immettono le credenziali per Microsoft Dynamics 365 e Campaign (vedere di seguito).
+Se disponi dell’organizzazione e dell’istanza corrette, fai clic sul menu &quot;hamburger&quot; per esporre un menu a discesa. Quindi fai clic su **[!UICONTROL Settings...]** nel menu a discesa per visitare la pagina in cui immetti le credenziali per Microsoft Dynamics 365 e Campaign (vedi sotto).
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 Nella pagina **[!UICONTROL Settings]**, compilare le sezioni seguenti:
 
-* Credenziali di Microsoft Dynamics 365
+* Credenziali Microsoft Dynamics 365
 * Credenziali Adobe
 
 Vai [qui](../../integrating/using/d365-acs-self-service-app-settings.md) per trovare informazioni più dettagliate su dove trovare le informazioni per ogni input. Al termine, fare clic sul pulsante **[!UICONTROL Save]** in basso.
@@ -134,7 +135,7 @@ Le voci del menu a discesa sono:
 
 * **Documentazione**: questa opzione è un collegamento alla documentazione di Adobe Campaign specifica di questa integrazione
 
-* **Assistenza clienti**: questo è un collegamento alla documentazione di Experience Cloud relativa all&#39;apertura di un ticket dell&#39;Assistenza clienti
+* **Assistenza clienti**: questo è un collegamento alla documentazione di Experience Cloud relativa all&#39;apertura di un ticket di assistenza clienti
 
 * **Disconnetti**: l&#39;utente verrà disconnesso dall&#39;applicazione e potrà accedere nuovamente come altro utente.
 

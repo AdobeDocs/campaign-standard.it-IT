@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -107,7 +108,7 @@ La casella di controllo Flatten (impostazione predefinita: deselezionata) viene 
 
 * Quando la **casella di controllo è disattivata** (deselezionata), il JSON campione viene analizzato per cercare un oggetto array. L’utente dovrà fornire una versione ridotta del formato JSON campione della risposta API in modo tale che Adobe Campaign possa determinare esattamente quale array gli utenti sono interessati a utilizzare. Al momento dell’authoring del flusso di lavoro, il percorso dell’oggetto array nidificato verrà determinato e registrato, in modo tale che possa essere utilizzato al momento dell’esecuzione per accedere all’oggetto array dal corpo della risposta JSON ricevuto dalla chiamata API.
 
-* Quando la **casella di controllo è attivata** (selezionata), il JSON campione verrà appiattito e tutte le proprietà specificate nel JSON campione fornito verranno utilizzate per creare colonne della tabella temporanea di output e visualizzate nella scheda Column definitions. Tieni presente che se nel JSON campione sono presenti oggetti array, anche tutti gli elementi di tali oggetti array verranno appiattiti.
+* Quando la **casella di controllo è abilitata** (selezionata), il JSON campione verrà appiattito e tutte le proprietà specificate nel JSON campione fornito verranno utilizzate per creare colonne della tabella temporanea di output e visualizzate nella scheda Column definitions. Tieni presente che se nel JSON campione sono presenti oggetti array, anche tutti gli elementi di tali oggetti array verranno appiattiti.
 
 
 Se l’**analisi viene convalidata**, viene visualizzato un messaggio che ti invita a personalizzare la mappatura dei dati nella scheda &quot;Column definition&quot;. In altri casi, viene visualizzato un messaggio di errore.

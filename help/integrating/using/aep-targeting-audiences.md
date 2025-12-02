@@ -5,12 +5,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -21,7 +22,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Il servizio Audience Destinations è attualmente in versione beta, e potrebbe essere soggetto ad aggiornamenti frequenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Contatta l’Assistenza clienti di Adobe se desideri accedervi.
+>Il servizio Audience Destinations è attualmente in versione beta, e potrebbe essere soggetto ad aggiornamenti frequenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
 
 Dopo aver creato un pubblico di [Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) utilizzando il Generatore di segmenti, puoi utilizzarlo nello stesso modo in cui lo utilizzeresti per un pubblico di Campaign all&#39;interno dei flussi di lavoro per personalizzare e inviare messaggi.
 
@@ -59,9 +60,9 @@ Ora puoi configurare il flusso di lavoro con altre attività. È possibile, ad e
 
 >[!NOTE]
 >
->Campaign Standard consente di rivolgerti al pubblico di Adobe Experience Platform all’interno di tutti i canali di consegna: e-mail, messaggi SMS, messaggi direct mail, notifiche push e messaggi in-app.
+>Campaign Standard consente di indirizzare il pubblico Adobe Experience Platform a tutti i canali di consegna: e-mail, messaggi SMS, messaggi direct mail, notifiche push e messaggi in-app.
 >
->*Nota: per tutti i messaggi push e in-app, Campaign Standard supporta solo le consegne per i profili noti.
+>*Nota: per tutti i messaggi push e in-app, Campaign Standard supporta le consegne solo per i profili noti.
 
 Per ulteriori informazioni su come utilizzare flussi di lavoro e consegne, consulta queste sezioni:
 

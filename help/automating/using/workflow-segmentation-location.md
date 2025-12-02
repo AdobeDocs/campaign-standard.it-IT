@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 79%
@@ -26,7 +27,7 @@ Puoi inviare un’e-mail di targeting ai clienti contenente le offerte sui loro 
 
 ## Selezione dei destinatari contattabili tramite e-mail{#selecting-recipients-contactable-via-email}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un&#39;attività ![](assets/query.png) [Query](../../automating/using/query.md).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un&#39;attività [ ](../../automating/using/query.md)Query![](assets/query.png).
 1. Fai doppio clic sull’attività.
 1. In **[!UICONTROL Shortcuts]**, trascina e rilascia **[!UICONTROL Profiles]** e seleziona il campo **[!UICONTROL email]** con l’operatore **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]**, trascina e rilascia **[!UICONTROL Profiles]** e seleziona il campo **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.
@@ -37,7 +38,7 @@ Puoi inviare un’e-mail di targeting ai clienti contenente le offerte sui loro 
 ## Creazione di un’attività di segmentazione{#creating-a-segmentation-activity}
 
 1. Trascina e rilascia un&#39;attività [Segmentation](../../automating/using/segmentation.md) e fai doppio clic su di essa.
-1. Per eseguire il targeting delle persone nella prima città, seleziona il segmento e quindi apri la transizione. In questo caso si tratta di Boston.
+1. Per eseguire il targeting delle persone nella prima città, fai clic sul segmento e quindi apri la transizione. In questo caso si tratta di Boston.
 1. Trascina e rilascia **[!UICONTROL Location]** e seleziona **[!UICONTROL City]** con l’operatore **[!UICONTROL equals to]** e il valore **[!UICONTROL Boston]**.
 Nota: per raggiungere tutte le persone che sono entrate a Boston, senza far distinzione tra maiuscole e minuscole, deseleziona l’opzione che effettua tale distinzione.
 1. Fai clic su **[!UICONTROL Confirm]**.
@@ -59,7 +60,7 @@ Nota: per raggiungere tutte le persone che sono entrate a Boston, senza far dist
 
    Per ulteriori informazioni, consulta [progettazione di un’e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Seleziona **[!UICONTROL Preview]** per controllare il layout.
+1. Fai clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)

@@ -6,23 +6,24 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Accedere all’app self-service per l’integrazione di Adobe Campaign Standard con Microsoft Dynamics 365
+# Accedere all’integrazione di Adobe Campaign Standard con l’app self-service Microsoft Dynamics 365
 
-Per questa configurazione è necessario rivolgersi a un amministratore Experience Cloud (EC) dell’organizzazione. Questi sono i passaggi iniziali necessari per consentire l&#39;accesso all&#39;interfaccia dell&#39;applicazione di integrazione self-service. Dopo aver effettuato l’accesso allo strumento, puoi impostare connessioni ai dati e configurare il flusso di dati tra Adobe Campaign e Microsoft Dynamics 365.
+Per questa configurazione è necessario rivolgersi a un amministratore Experience Cloud (EC) dell’organizzazione. Questi sono i passaggi iniziali necessari per consentire l&#39;accesso all&#39;interfaccia dell&#39;applicazione di integrazione self-service. Una volta che hai accesso allo strumento, configurerai le connessioni ai tuoi dati e configurerai il flusso di dati tra Adobe Campaign e Microsoft Dynamics 365.
 
 >[!NOTE]
 >
->Devi contattare il tuo rappresentante Adobe e fornire i nomi delle organizzazioni e delle istanze di Adobe Campaign Standard. Verrà registrato un ticket per richiedere che l’app di integrazione sia abilitata per la tua organizzazione.
+>Devi contattare il tuo rappresentante Adobe e fornire i nomi delle organizzazioni e delle istanze Adobe Campaign Standard. Verrà registrato un ticket per richiedere che l’app di integrazione sia abilitata per la tua organizzazione.
 
 ## Aggiungere un profilo di prodotto
 
@@ -30,15 +31,15 @@ In questa sezione imparerai a concedere l’accesso all’integrazione Adobe Cam
 
 >[!IMPORTANT]
 >
-> Questi passaggi richiedono il ruolo **Amministratore** nell&#39;Experience Cloud per la tua organizzazione.
+> Questi passaggi richiedono il ruolo di **Amministratore** in Experience Cloud per la tua organizzazione.
 >
 
 1. Passa a https://experience.adobe.com/ e accedi a Adobe Experience Cloud.
-1. Accedi all&#39;**Admin Console**.
+1. Accedi a **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Fai clic su **[!UICONTROL Products]** per accedere alle tue soluzioni di Experience Cloud.
+1. Fai clic su **[!UICONTROL Products]** per accedere alle tue soluzioni Experience Cloud.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -56,7 +57,7 @@ In questa sezione imparerai a concedere l’accesso all’integrazione Adobe Cam
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. Fai clic sul pulsante **[!UICONTROL New Profile]** e aggiungi una nuova voce denominata: **Campaign Standard - nome-istanza-prod - Integrazione D365/ACS**
+1. Fai clic sul pulsante **[!UICONTROL New Profile]** e aggiungi una nuova voce denominata: **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
    * Se vedi questa voce nell’elenco, non è necessario procedere. Fai clic su **Adobe Campaign Standard** nel menu a sinistra e controlla le altre istanze di Campaign.
 

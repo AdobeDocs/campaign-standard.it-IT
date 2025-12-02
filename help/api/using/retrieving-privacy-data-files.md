@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -23,11 +24,11 @@ ht-degree: 4%
 
 Per recuperare il file che contiene tutte le informazioni associate a un valore di riconciliazione, segui questa procedura in tre passaggi:
 
-1. Esegui una richiesta **POST** per creare una nuova richiesta con l&#39;attributo **type=&quot;access&quot;**. Vedi [Creazione di una nuova richiesta di privacy](../../api/using/creating-a-privacy-request.md).
+1. Esegui una richiesta **POST** per creare una nuova richiesta con attributo **type=&quot;access&quot;**. Vedi [Creazione di una nuova richiesta di privacy](../../api/using/creating-a-privacy-request.md).
 
 1. Esegui una richiesta **GET** per recuperare informazioni sulla richiesta.
 
-1. Recupera il file di dati eseguendo una richiesta di **POST** sull&#39;URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy nel payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Recupera il file di dati eseguendo una richiesta **POST** sull&#39;URL **privacyRequestData** restituito, con il nome interno della richiesta di privacy nel payload. Ad esempio: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 

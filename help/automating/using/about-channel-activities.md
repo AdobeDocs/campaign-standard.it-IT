@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 67d56f3d-5e73-4541-8f1c-af2ef23ce5d5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
@@ -28,5 +29,5 @@ La sezione **[!UICONTROL Channels]** include le seguenti attività:
 * [Consegna e-mail](../../automating/using/email-delivery.md)
 * [Consegna SMS](../../automating/using/sms-delivery.md)
 * [Consegna notifica push](../../automating/using/push-notification-delivery.md)
-* [Consegna posta diretta](../../automating/using/direct-mail-delivery.md)
+* [Consegna Direct mail](../../automating/using/direct-mail-delivery.md)
 * [Consegna in-app](../../automating/using/in-app-delivery.md)

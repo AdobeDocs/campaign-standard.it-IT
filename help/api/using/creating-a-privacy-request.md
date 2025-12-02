@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 4%
@@ -28,7 +29,7 @@ Prima di creare le richieste, devi definire lo spazio dei nomi che userai. Per u
 Il payload deve contenere i seguenti parametri:
 
 * **name**: nome interno univoco
-* **namespace**: il nome dello spazio dei nomi configurato nell&#39;interfaccia Campaign Standard
+* **namespace**: il nome dello spazio dei nomi configurato nell&#39;interfaccia di Campaign Standard
 * **conciliationValue**: il valore di riconciliazione basato sulla chiave di riconciliazione definita nello spazio dei nomi
 * **label**: l&#39;etichetta della richiesta
 * **type**: il tipo di richiesta. I valori accettati sono &quot;access&quot; o &quot;delete&quot;.
@@ -38,7 +39,7 @@ Il payload deve contenere i seguenti parametri:
 
 ***Richiesta di esempio***
 
-Questa richiesta POST crea una richiesta di accesso a dati personali basata su una chiave di riconciliazione e-mail definita nello spazio dei nomi AMCDS2:
+Questa richiesta POST crea una richiesta di privacy basata su una chiave di riconciliazione e-mail definita nello spazio dei nomi AMCDS2:
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

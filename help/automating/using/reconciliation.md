@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 78%
@@ -49,7 +50,7 @@ Mentre l&#39;attività **Enrichment** ti consente di definire i dati aggiuntivi 
 
 ## Configurazione {#configuration}
 
-1. Trascina e rilascia l’attività **[!UICONTROL Reconciliation]** nel flusso di lavoro, facendo seguire una transizione contenente un gruppo con il targeting di una dimensione che non proviene direttamente da Adobe Campaign. Per ulteriori informazioni, consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Trascina e rilascia l’attività **[!UICONTROL Reconciliation]** nel flusso di lavoro, dopo una transizione contenente una popolazione la cui dimensione targeting non proviene direttamente da Adobe Campaign. Per ulteriori informazioni, consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Seleziona l’attività, quindi aprila utilizzando il pulsante ![](assets/edit_darkgrey-24px.png) delle azioni rapide visualizzate.
 1. Se desideri definire collegamenti tra dati in entrata e altre dimensioni del database, passa alla scheda **[!UICONTROL Links]**.
 
@@ -57,9 +58,9 @@ Mentre l&#39;attività **Enrichment** ti consente di definire i dati aggiuntivi 
 
 1. Se desideri semplicemente identificare i dati in entrata, passa alla scheda **[!UICONTROL Identification]** e seleziona la casella **[!UICONTROL Identify the document from the working data]**.
 
-   Seleziona la dimensione di targeting desiderata per riconciliare i dati in entrata.
+   Seleziona la dimensione targeting desiderata per riconciliare i dati in entrata.
 
-   Aggiungi criteri di riconciliazione per collegare un record di transizione in entrata alla dimensione di targeting selezionata. Se specifichi più criteri, devi verificarli per consentire il funzionamento del collegamento tra tutti i dati.
+   Aggiungi criteri di riconciliazione per collegare un record di transizione in entrata alla dimensione targeting selezionata. Se specifichi più criteri, devi verificarli per consentire il funzionamento del collegamento tra tutti i dati.
 
    Scegli la modalità **[!UICONTROL Processing unidentified source lines]**:
 

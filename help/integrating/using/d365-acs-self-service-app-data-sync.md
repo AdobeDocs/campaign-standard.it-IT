@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # Sincronizzare i dati
 
-È possibile sincronizzare le tabelle da Microsoft Dynamics 365 alle metriche di marketing di Campaign e Campaign a Microsoft Dynamics 365. La sincronizzazione viene eseguita tramite tre flussi di lavoro tecnici dedicati: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Fai riferimento a questa sezione per [ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Puoi sincronizzare le tabelle da Microsoft Dynamics 365 alle metriche di marketing di Campaign e Campaign a Microsoft Dynamics 365. La sincronizzazione viene eseguita tramite tre flussi di lavoro tecnici dedicati: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Fai riferimento a questa sezione per [ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 >[!IMPORTANT]
 >È necessario arrestare/avviare il flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]** per tenere conto delle modifiche. [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -42,7 +43,7 @@ Segue una descrizione di ciascuna delle colonne della tabella:
 
    * Utilizzare l&#39;icona **[!UICONTROL Delete]** per eliminare un mapping di tabella.
 
-   * Fare clic sull&#39;icona **[!UICONTROL Replay Data]** per risincronizzare tutti i dati nella tabella di Microsoft Dynamics 365. Normalmente l’applicazione di integrazione sincronizzerà solo i dati in Microsoft Dynamics 365 che sono stati modificati di recente.  Tuttavia, in alcuni casi (ad esempio, se hai apportato una modifica o commesso un errore) potresti voler risincronizzare tutti i dati.  In questi casi, fare clic su questo pulsante e, alla successiva interruzione o avvio del flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, i dati inizieranno a essere sincronizzati.
+   * Fare clic sull&#39;icona **[!UICONTROL Replay Data]** per risincronizzare tutti i dati nella tabella di Microsoft Dynamics 365. Normalmente l’applicazione di integrazione sincronizza solo i dati in Microsoft Dynamics 365 che sono stati modificati di recente.  Tuttavia, in alcuni casi (ad esempio, se hai apportato una modifica o commesso un errore) potresti voler risincronizzare tutti i dati.  In questi casi, fare clic su questo pulsante e, alla successiva interruzione o avvio del flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, i dati inizieranno a essere sincronizzati.
 
      Se si fa clic sul pulsante **[!UICONTROL Replay Data]** e i controlli hanno esito positivo, l&#39;icona verrà disabilitata: ciò indica che i dati per questa coppia di mapping della tabella verranno risincronizzati con la successiva esecuzione del flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**.
 
@@ -55,7 +56,7 @@ Segue una descrizione di ciascuna delle colonne della tabella:
 
      >[!IMPORTANT]
      >
-     > Si consiglia vivamente di arrestare il flusso di lavoro di integrazione quando si pubblicano modifiche su Adobe Campaign Standard o Microsoft Dynamics 365. Le modifiche applicabili includono: aggiornamenti a risorse/entità (e ai relativi campi associati), collegamenti, colonne di identificatori e così via. attualmente in uso dall’integrazione.
+     > Si consiglia vivamente di arrestare il flusso di lavoro di integrazione quando si pubblicano modifiche a Adobe Campaign Standard o Microsoft Dynamics 365. Le modifiche applicabili includono: aggiornamenti a risorse/entità (e ai relativi campi associati), collegamenti, colonne di identificatori e così via. attualmente in uso dall’integrazione.
      >
 
 ## Crea una nuova mappatura {#add-a-new-mapping}
@@ -64,7 +65,7 @@ Per creare una nuova mappatura, effettua le seguenti operazioni:
 
 1. nella pagina **[!UICONTROL Microsoft Dynamics 365 to Campaign]** fare clic sul pulsante **[!UICONTROL Add New Mapping]**.
 
-1. Utilizza gli elenchi a discesa per selezionare le tabelle di Microsoft Dynamics 365 e Campaign da mappare.
+1. Utilizza gli elenchi a discesa per selezionare le tabelle Microsoft Dynamics 365 e Campaign da mappare.
 La maggior parte degli altri input nella pagina dipenderà dalle tabelle scelte.
 
    ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
@@ -94,7 +95,7 @@ In questa sezione verrà illustrato come configurare una mappatura **singola** d
 
 Puoi definire le seguenti impostazioni:
 
-* **[!UICONTROL Tables]**: questa sezione elenca il nome della tabella di Microsoft Dynamics 365 e della tabella di Campaign a cui verrà mappata.
+* **[!UICONTROL Tables]**: questa sezione elenca il nome della tabella Microsoft Dynamics 365 e della tabella Campaign a cui verrà mappata.
 * **[!UICONTROL Field Mappings]**: ulteriori informazioni in [questa sezione](#field-mappings)
 * **[!UICONTROL Field Replacements]**: ulteriori informazioni in [questa sezione](#field-replacements)
 * **[!UICONTROL Filters]**: ulteriori informazioni in [questa sezione](#filters)
@@ -104,7 +105,7 @@ Puoi definire le seguenti impostazioni:
 
 #### Chiavi primarie
 
-Quando aggiungi una nuova mappatura di tabella Microsoft Dynamics 365 a Campaign, devi identificare il campo ID.
+Quando aggiungi un nuovo Microsoft Dynamics 365 alla mappatura della tabella di Campaign, devi identificare il campo ID.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
@@ -154,8 +155,8 @@ Utilizza il pulsante **[!UICONTROL Add New Field Replacement]** per definire una
 
 Le sostituzioni dei campi consentono di identificare:
 
-* un nome di campo di Microsoft Dynamics 365 (aggiunto in precedenza nella sezione mappature campi),
-* un valore esistente (esistente in Microsoft Dynamics 365) e
+* un nome di campo Microsoft Dynamics 365 (aggiunto in precedenza nella sezione mappature campi),
+* un valore esistente (esistente in Microsoft Dynamics 365), e
 * un nuovo valore da scrivere in Adobe Campaign
 
 Verrà fornito un elenco a discesa per i valori di elenco a discesa, enumerazione e booleano. Verrà utilizzata una casella di testo per altri tipi di stringa e numerici.
@@ -184,13 +185,13 @@ L&#39;opzione **[!UICONTROL Do you want to delete records in Adobe Campaign Stan
 
 Durante la configurazione di una mappatura, puoi impostare le seguenti opzioni aggiuntive:
 
-* Impostare l&#39;opzione **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** su **Sì** se si desidera propagare le eliminazioni che si verificano in Microsoft Dynamics 365 al campo corrispondente in Adobe Campaign (in base al mapping dei nomi di campo). Selezionare **No** per ignorare le eliminazioni in Microsoft Dynamics 365.
+* Impostare l&#39;opzione **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** su **Sì** se si desidera propagare le eliminazioni che si verificano in Microsoft Dynamics 365 al campo corrispondente in Adobe Campaign (in base alla mappatura del nome del campo). Selezionare **No** per ignorare le eliminazioni in Microsoft Dynamics 365.
 
-* Impostare l&#39;opzione **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** su **No** se si desidera propagare a Campaign il valore visualizzato associato a un elenco di selezione di Microsoft Dynamics 365. Selezionare **Sì** per propagare il valore tecnico.
+* Impostare l&#39;opzione **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** su **No** se si desidera propagare a Campaign il valore di visualizzazione associato a un elenco di selezione di Microsoft Dynamics 365. Selezionare **Sì** per propagare il valore tecnico.
 
 ## Sincronizzare gli eventi di marketing di Campaign con Microsoft Dynamics 365
 
-La pagina **[!UICONTROL Campaign to Microsoft Dynamics 365]** consente di identificare gli eventi di e-mail marketing che verranno mappati da Adobe Campaign a Microsoft Dynamics 365.
+La pagina **[!UICONTROL Campaign to Microsoft Dynamics 365]** consente di identificare gli eventi di e-mail marketing da mappare da Adobe Campaign a Microsoft Dynamics 365.
 
 Le quattro metriche che puoi controllare sono: **Invii**, **Clic**, **Aperture** e **Rimbalzi**.
 
@@ -202,11 +203,11 @@ Fai clic [qui](../../integrating/using/d365-acs-self-service-app-workflows.md) p
 
 ## Flusso di lavoro di consenso/rinuncia {#opt-in-out-wf}
 
-Il flusso di lavoro **Consenso/Rinuncia** consente di identificare il flusso di informazioni di consenso/rinuncia tra Microsoft Dynamics 365 e Adobe Campaign. Ciò presuppone che i dati siano associati al &quot;contatto&quot; dell’entità Microsoft Dynamics 365 e alla risorsa Adobe Campaign &quot;profilo&quot;.
+Il flusso di lavoro **Opt-in/Out** ti consente di identificare il flusso di informazioni di consenso/diniego tra Microsoft Dynamics 365 e Adobe Campaign. Ciò presuppone che i dati siano associati al &quot;contatto&quot; dell’entità Microsoft Dynamics 365 e alla risorsa Adobe Campaign &quot;profilo&quot;.
 
 Ulteriori informazioni sulla gestione delle rinunce in [questa sezione](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
-Ricorda che devi fare clic su &quot;Salva&quot; per salvare le selezioni. Ricorda inoltre che è necessario arrestare il flusso di lavoro **Campaign to Microsoft Dynamics 365** e quindi fare clic su Riproduci per l&#39;integrazione per incorporare le modifiche.
+Ricorda che devi fare clic su &quot;Salva&quot; per salvare le selezioni. Ricorda inoltre che devi arrestare il flusso di lavoro **Campaign to Microsoft Dynamics 365** e quindi fare clic su Riproduci per l&#39;integrazione per incorporare le modifiche.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
@@ -216,16 +217,16 @@ Di seguito è riportato l’elenco delle opzioni disponibili per la sincronizzaz
 
 * **[!UICONTROL Disabled]**: quando questa opzione è selezionata, nessuna informazione di consenso/rinuncia verrà spostata tra Adobe Campaign e Microsoft Dynamics 365.
 
-* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: questa opzione viene utilizzata solo per il flusso di consenso/rinuncia da Microsoft Dynamics 365 ad Adobe Campaign. L&#39;applicazione di integrazione non consente di configurare il flusso in questa schermata. Fare clic su **[!UICONTROL Save button]** e passare al flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**. In questo flusso di lavoro, puoi modificare la mappatura della tabella contatti/profilo per identificare come mappare i campi di consenso/rinuncia.
+* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: questa opzione viene utilizzata per eseguire il flusso di consenso/rinuncia da Microsoft Dynamics 365 solo ad Adobe Campaign. L&#39;applicazione di integrazione non consente di configurare il flusso in questa schermata. Fare clic su **[!UICONTROL Save button]** e passare al flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**. In questo flusso di lavoro, puoi modificare la mappatura della tabella contatti/profilo per identificare come mappare i campi di consenso/rinuncia.
 
-* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: questa opzione renderà visibile la sezione **Mappature**. Questi input ti consentono di definire quali campi di Adobe Campaign mapperanno i dati in base a quali campi in Microsoft Dynamics 365. Ciò significa che se si aggiorna manualmente un valore in Microsoft Dynamics 365, il relativo valore, in caso di modifica, verrebbe sovrascritto dal valore di Adobe Campaign.
+* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: questa opzione renderà visibile la sezione **Mappature**. Questi input ti consentiranno di definire quali campi di Adobe Campaign mapperanno i dati in quali campi in Microsoft Dynamics 365. Ciò significa che se si aggiorna manualmente un valore in Microsoft Dynamics 365, il suo valore, in caso di modifica, verrebbe sovrascritto dal valore di Adobe Campaign.
 
 * **[!UICONTROL Bidirectional]**: questa opzione renderà visibile la sezione **Mappature**. Queste coppie identificheranno quali campi in Microsoft Dynamics 365 e Adobe Campaign verranno mappati tra loro. [Ulteriori informazioni](../../integrating/using/d365-acs-notices-and-recommendations.md).
 
 ### Mappature
 
-Questa sezione si applica solo quando il campo Direzione di sincronizzazione Opt-in/Out è impostato su **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** o **[!UICONTROL Bidirectional]**. È possibile definire quali campi in Microsoft Dynamics 365 vengono mappati a quali input in Adobe Campaign.
+Questa sezione si applica solo quando il campo Direzione di sincronizzazione Opt-in/Out è impostato su **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** o **[!UICONTROL Bidirectional]**. Puoi definire quali campi in Microsoft Dynamics 365 mappano agli input in Adobe Campaign.
 
-I nomi di campo di Microsoft Dynamics 365 includono tutti quelli di tipo **booleano**.
+I nomi dei campi di Microsoft Dynamics 365 includono tutti quelli di tipo **booleano**.
 
 I nomi dei campi di Adobe Campaign sono un set fisso di valori specifici per il consenso/la rinuncia. I nomi dei campi di Adobe Campaign sono un set fisso di valori specifici per il consenso/la rinuncia. **Impossibile modificare il set di valori in questo elenco**.

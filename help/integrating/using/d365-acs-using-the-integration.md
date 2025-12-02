@@ -1,14 +1,15 @@
 ---
 title: Utilizzare l’integrazione con Microsoft Dynamics 365
-description: Scopri come utilizzare Microsoft Dynamics 365 con l’integrazione di Campaign Standard
+description: Scopri come utilizzare Microsoft Dynamics 365 con l’integrazione Campaign Standard
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Quando un contatto viene creato, modificato o eliminato (se l’eliminazione è 
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Quando un attributo di rinuncia viene modificato in Campaign, questo si rifletterà in Dynamics 365 se hai selezionato la configurazione di rinuncia **Unidirezionale (Campaign to Microsoft Dynamics 365)** o **Bidirezionale** e se tale attributo è stato mappato correttamente.
+Quando un attributo di rinuncia viene modificato in Campaign, questo si rifletterà in Dynamics 365 se hai selezionato la configurazione di rinuncia **Unidirezionale (da Campaign a Microsoft Dynamics 365)** o **Bidirezionale** e se tale attributo è stato mappato correttamente.
 
 ## Esperienza utente di Microsoft Dynamics 365
 
@@ -55,7 +56,7 @@ Di seguito è riportata una descrizione della vista Timeline per l’utente di D
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-Di seguito è riportata una breve descrizione della scheda Relationship Assistant (RA). L’app AppSource contiene un flusso di lavoro che verifica la presenza di un evento Clic su URL e-mail di Adobe. Quando si verifica questo evento, viene creata un&#39;attività e viene impostata una data di scadenza. Questo consente all’attività di essere visualizzata nella scheda RA, dandogli ulteriore visibilità. Esiste un flusso di lavoro simile, ad Adobe per gli eventi di mancato recapito e-mail, con l’aggiunta di un’attività per riconciliare l’indirizzo e-mail non valido. Questi flussi di lavoro possono essere disattivati nella soluzione.
+Di seguito è riportata una breve descrizione della scheda Relationship Assistant (RA). L’app AppSource contiene un flusso di lavoro che verifica la presenza di un evento Clic su URL e-mail di Adobe. Quando si verifica questo evento, viene creata un&#39;attività e viene impostata una data di scadenza. Questo consente all’attività di essere visualizzata nella scheda RA, dandogli ulteriore visibilità. Esiste un flusso di lavoro simile per gli eventi di mancato recapito e-mail di Adobe, con l’aggiunta di un’attività per riconciliare l’indirizzo e-mail non valido. Questi flussi di lavoro possono essere disattivati nella soluzione.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
@@ -87,7 +88,7 @@ Di seguito è riportato un elenco degli attributi e una descrizione:
 
 >[!NOTE]
 >
->Per la rinuncia, quando un attributo di rinuncia viene modificato in Microsoft Dynamics 365, questo si rifletterà in Campaign se hai selezionato la configurazione di rinuncia **Unidirezionale (Campaign to Microsoft Dynamics 365)** o **Bidirezionale** e se tale attributo è stato mappato correttamente.
+>Per la rinuncia, quando un attributo di rinuncia viene modificato in Microsoft Dynamics 365, questo si rifletterà in Campaign se hai selezionato la configurazione di rinuncia **Unidirezionale (Campaign a Microsoft Dynamics 365)** o **Bidirezionale** e se quel particolare attributo è stato mappato correttamente.
 
 ## Flussi di dati {#data-flows}
 
@@ -111,7 +112,7 @@ L’attributo externalId della tabella di profilo di Campaign deve essere compil
 
 #### Entità personalizzate
 
-L&#39;integrazione [Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) supporta entità personalizzate, consentendo la sincronizzazione delle entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
+L&#39;integrazione di [Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) supporta le entità personalizzate, consentendo la sincronizzazione delle entità personalizzate in Dynamics 365 con le risorse personalizzate corrispondenti in Campaign.
 
 I nuovi dati nelle risorse personalizzate possono essere utilizzati per diversi scopi, tra cui segmentazione e personalizzazione.
 
@@ -138,7 +139,7 @@ Una panoramica più completa delle risorse personalizzate di Campaign è disponi
 
 ### Flusso degli eventi di e-mail marketing{#email-marketing-event-flow}
 
-Gli eventi di marketing e-mail vengono inviati da Campaign a Microsoft Dynamics 365 per essere visualizzati nella visualizzazione Timeline.
+Gli eventi di marketing e-mail vengono inviati da Campaign a Microsoft Dynamics 365 per essere visualizzati nella vista Timeline.
 
 Tipi di eventi di marketing supportati:
 * Invia: e-mail inviata al destinatario
@@ -149,7 +150,7 @@ Tipi di eventi di marketing supportati:
 In Dynamics 365 vengono visualizzati i seguenti attributi di evento:
 * Nome della campagna di marketing
 * Nome consegna e-mail
-* Timestamp
+* Marca temporale
 * URL pagina mirror e-mail
 * URL su cui è stato fatto clic (solo eventi clic)
 
@@ -160,8 +161,8 @@ In Dynamics 365 vengono visualizzati i seguenti attributi di evento:
 I valori di rinuncia (ad esempio, inserisce nell&#39;elenco Bloccati di) sono sincronizzati tra i sistemi; puoi scegliere tra le seguenti opzioni durante l’onboarding:
 
 * **Unidirezionale (da Microsoft Dynamics 365 a Campaign)**: Dynamics 365 è la fonte di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Dynamics 365 a Campaign Standard&quot;
-* **Unidirezionale (campagna a Microsoft Dynamics 365)**: Campaign Standard è l&#39;origine di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Campaign Standard a Dynamics 365
-* **Bidirezionale**: Dynamics 365 AND Campaign Standard sono entrambe origini di verità. Gli attributi di rinuncia verranno sincronizzati bidirezionalmente tra Campaign Standard e Dynamics 365
+* **Unidirezionale (campagna a Microsoft Dynamics 365)**: Campaign Standard è la fonte di verità per le rinunce. Gli attributi di rinuncia verranno sincronizzati in una direzione da Campaign Standard a Dynamics 365
+* **Bidirezionale**: Dynamics 365 E Campaign Standard sono entrambe origini di verità. Gli attributi di rinuncia verranno sincronizzati bidirezionalmente tra Campaign Standard e Dynamics 365
 
 In alternativa, se disponi di un processo separato per gestire la sincronizzazione delle rinunce tra i sistemi, il flusso di dati di rinuncia dell’integrazione può essere disabilitato.
 

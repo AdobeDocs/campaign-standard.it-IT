@@ -1,15 +1,16 @@
 ---
 title: Test
-description: L’attività Test attiva una transizione basata su un suo risultato.
+description: L’attività Test abilita una transizione basata su un suo risultato.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 77%
@@ -22,7 +23,7 @@ ht-degree: 77%
 
 ![](assets/test.png)
 
-L’ attività **[!UICONTROL Test]** attiva una transizione basata su un suo risultato.
+L’attività **[!UICONTROL Test]** abilita una transizione basata su un suo risultato.
 
 ## Contesto di utilizzo {#context-of-use}
 

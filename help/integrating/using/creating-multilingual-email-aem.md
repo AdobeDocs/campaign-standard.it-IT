@@ -1,14 +1,15 @@
 ---
 title: Creazione di un messaggio e-mail multilingue con l’integrazione Adobe Experience Manager.
-description: Con l’integrazione di Adobe Experience Manager, puoi creare contenuti direttamente nell’AEM e utilizzarli successivamente in Adobe Campaign.
+description: Con l’integrazione di Adobe Experience Manager, puoi creare contenuti direttamente in AEM e utilizzarli successivamente in Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 3%
@@ -21,7 +22,7 @@ Questo documento illustra come creare un messaggio e-mail multilingue utilizzand
 
 Sussistono i seguenti prerequisiti:
 
-* Accesso a un’istanza AEM configurata per l’integrazione.
+* Accesso a un’istanza di AEM configurata per l’integrazione.
 * Accesso a un’istanza di Adobe Campaign configurata per l’integrazione.
 * Modello e-mail multilingue Adobe Campaign configurato per ricevere contenuti AEM.
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 77%
@@ -39,7 +40,7 @@ Ad esempio:
 
 ## Duplicazione dei flussi di lavoro{#duplicating-workflows}
 
-Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, passa il mouse sul flusso di lavoro e fai clic su **[!UICONTROL Duplicate element]**. Una volta eseguita la duplicazione, le modifiche del flusso di lavoro non vengono riportate nella copia del flusso di lavoro. È possibile modificare la copia del flusso di lavoro.
+Puoi duplicare i flussi di lavoro. In **[!UICONTROL Marketing Activities]**, passa il puntatore sul flusso di lavoro e fai clic su **[!UICONTROL Duplicate element]**. Una volta eseguita la duplicazione, le modifiche del flusso di lavoro non vengono riportate nella copia del flusso di lavoro. È possibile modificare la copia del flusso di lavoro.
 
 ![](assets/duplicating_workflow.png)
 
@@ -53,7 +54,7 @@ In contesti specifici, potrebbe essere necessario eseguire più di 20 flussi di 
 
 >[!IMPORTANT]
 >
->Anche se non si raggiunge la soglia dei 20 flussi di lavoro, l&#39;Adobe consiglia di **distribuire l&#39;esecuzione del flusso di lavoro nel tempo**. L’esecuzione scaglionata dei flussi di lavoro garantisce prestazioni migliori per l’istanza.
+>Anche se non si raggiunge la soglia dei 20 flussi di lavoro, Adobe consiglia di **distribuire l&#39;esecuzione del flusso di lavoro nel tempo**. L’esecuzione scaglionata dei flussi di lavoro garantisce prestazioni migliori per l’istanza.
 
 Prima di avviare un flusso di lavoro, [!DNL Campaign Standard] verificherà se la memoria fisica di sistema è sufficiente per eseguire il flusso di lavoro. Se la memoria disponibile non è sufficiente, viene visualizzato un messaggio per informare che l&#39;esecuzione del flusso di lavoro verrà posticipata fino al esaurimento del carico sul server e all&#39;aumento della memoria di sistema.
 
@@ -130,7 +131,7 @@ Per ulteriori informazioni, consulta [Gestione dei pacchetti](../../automating/u
 
 ## Esportazione di elenchi{#exporting-lists}
 
-L’opzione esportazione di elenchi ti consente di esportare un massimo di 100.000 righe per impostazione predefinita ed è definita dall’opzione **&#x200B;**&#x200B;Nms_ExportListLimit. Questa opzione può essere gestita dall’amministratore funzionale in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+L’opzione esportazione di elenchi ti consente di esportare un massimo di 100.000 righe per impostazione predefinita ed è definita dall’opzione **** Nms_ExportListLimit. Questa opzione può essere gestita dall’amministratore funzionale in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 Per ulteriori informazioni, consulta [Esportazione di elenchi](../../automating/using/exporting-lists.md).
 
 ## Risoluzione dei problemi{#workflow-troubleshooting}

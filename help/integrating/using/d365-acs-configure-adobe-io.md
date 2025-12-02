@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -23,19 +24,19 @@ Questo articolo illustra come configurare Adobe Campaign Standard e Adobe I/O pe
 
 ### Estensioni profilo
 
-Abilita le &quot;estensioni del profilo&quot; in Adobe Campaign Standard.   Questo è necessario per sincronizzare i campi personalizzati nella risorsa Profilo da Microsoft Dynamics 365.   I passaggi per abilitarli sono i seguenti:
+Abilita le &quot;estensioni del profilo&quot; in Adobe Campaign Standard.   Ciò è necessario per sincronizzare i campi personalizzati nella risorsa Profilo da Microsoft Dynamics 365.   I passaggi per abilitarli sono i seguenti:
 
 1. Vai a Impostazioni -> Amministrazione -> Sviluppo -> Pubblicazione.
 1. Fai clic su &quot;Prepara pubblicazione&quot; per preparare una pubblicazione.
-1. Al termine della preparazione, seleziona &quot;Create the Profiles &amp; Services Ext API&quot; (Crea l’API esterna di profili e servizi) e fai clic su &quot;Publish&quot; (Crea).
+1. Al termine della preparazione, seleziona &quot;Create the Profiles &amp; Services Ext API&quot; (Crea l’API esterna di Profili e servizi) e fai clic su &quot;Publish&quot; (Pubblica).
 
-## Configura Adobe I/O {#adobe-io}
+## Configurare Adobe I/O {#adobe-io}
 
 Adobe I/O consente di abilitare l’accesso API ad Adobe Campaign Standard e ad altri prodotti Adobe.   Questo articolo illustra come configurare Adobe I/O per consentire all’integrazione Adobe Campaign Standard con Microsoft Dynamics 365 di accedere per sincronizzare i dati.
 
 ### Panoramica
 
-Prima di eseguire la configurazione della pre-integrazione in questo articolo, si presume che sia già stato eseguito il provisioning e che tu abbia accesso come amministratore all’istanza Campaign Standard della tua organizzazione.  Se questo non si è verificato, dovrai contattare l’Assistenza clienti Adobe per completare il provisioning di Campaign.
+Prima di eseguire la configurazione della pre-integrazione in questo articolo, si presume che sia già stato eseguito il provisioning e che tu abbia accesso come amministratore all’istanza Campaign Standard della tua organizzazione.  Se questo non si è verificato, dovrai contattare l’Assistenza clienti di Adobe per completare il provisioning di Campaign.
 
 >[!CAUTION]
 >
@@ -93,9 +94,9 @@ L’impostazione di pre-integrazione in Campaign è ora completa.
 
 **Argomenti correlati**
 
-* [Configurare Adobe Developer per l&#39;integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) è il passaggio successivo per la configurazione dell&#39;integrazione
+* [Configurare l&#39;integrazione di Adobe Developer per Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) è il passaggio successivo per configurare l&#39;integrazione
 * [Panoramica dell&#39;applicazione self-service di integrazione](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contiene l&#39;elenco completo dei passaggi necessari per rendere operativa l&#39;integrazione.
 * [Adobe Developer - Integrazione account di servizio](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard - Configurazione dell’accesso API](../../api/using/setting-up-api-access.md)
+* [Campaign Standard - Configurazione accesso API](../../api/using/setting-up-api-access.md)
 * [Integrazione Campaign Standard - Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
 * [Migra credenziali da JWT a OAuth Server-to-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contiene i passaggi per migrare le credenziali da JWT a OAuth Server-to-Server.

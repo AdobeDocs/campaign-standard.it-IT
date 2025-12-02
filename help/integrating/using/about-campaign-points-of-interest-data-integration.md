@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 6%
@@ -19,9 +20,9 @@ ht-degree: 6%
 
 Oltre a monitorare la presenza online dei clienti, puoi sfruttare anche le loro posizioni fisiche. Grazie all’integrazione con Adobe Analytics per dispositivi mobili, puoi utilizzare Adobe Campaign per inviare messaggi di marketing basati sulla posizione agli abbonati alla tua app mobile.
 
-I punti di interesse sono costituiti da una latitudine, una longitudine e un raggio associati a un’etichetta. Sono definiti nell&#39;interfaccia [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=it).
+I punti di interesse sono costituiti da una latitudine, una longitudine e un raggio associati a un’etichetta. Sono definiti nell&#39;interfaccia [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
 
-Quando un abbonato apre la tua app mobile, se la posizione corrisponde a un punto di interesse, Adobe Campaign acquisisce i dati tramite l’SDK di Experience Cloud Mobile. Puoi utilizzare queste informazioni per inviare messaggi personalizzati in base alla posizione dell’utente (ad esempio e-mail, notifiche push, messaggi SMS).
+Quando un abbonato apre la tua app mobile, se la posizione corrisponde a un punto di interesse, Adobe Campaign acquisisce i dati tramite Experience Cloud Mobile SDK. Puoi utilizzare queste informazioni per inviare messaggi personalizzati in base alla posizione dell’utente (ad esempio e-mail, notifiche push, messaggi SMS).
 
 Ad esempio, puoi inviare un’offerta di sconto del 10% ai clienti che utilizzano la tua applicazione e hanno visitato uno dei tuoi negozi a Boston nelle ultime due settimane.
 

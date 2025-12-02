@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -40,7 +41,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>**: endpoint API per messaggi transazionali.
 
-  Il nome dell’endpoint API per messaggi transazionali dipende dalla configurazione dell’istanza. Corrisponde al valore &quot;mc&quot; seguito dal tuo ID organizzazione personale. Prendiamo l’esempio dell’azienda di Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
+  Il nome dell’endpoint API per messaggi transazionali dipende dalla configurazione dell’istanza. Corrisponde al valore &quot;mc&quot; seguito dal tuo ID organizzazione personale. Prendiamo l’esempio dell’azienda Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
@@ -48,7 +49,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;eventID>**: tipo di evento da inviare. Questo ID viene generato durante la creazione della configurazione dell&#39;evento (consulta [questa sezione](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
-### Intestazione richiesta POST
+### Intestazione della richiesta POST
 
 La richiesta deve contenere un’intestazione &quot;Content-Type: application/json&quot;.
 
@@ -78,7 +79,7 @@ Per gestire l’invio di messaggi transazionali collegati all’evento, è possi
 
 ### Risposta alla richiesta POST
 
-La risposta di POST restituisce lo stato dell’evento transazionale al momento della creazione. Per recuperare lo stato corrente (dati evento, stato evento...), utilizza la chiave primaria restituita dalla risposta del POST in una richiesta GET:
+La risposta POST restituisce lo stato dell’evento transazionale al momento della creazione. Per recuperare lo stato corrente (dati evento, stato evento...), utilizza la chiave primaria restituita dalla risposta POST in una richiesta GET:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -86,7 +87,7 @@ La risposta di POST restituisce lo stato dell’evento transazionale al momento 
 
 ***Richiesta di esempio***
 
-POST richiede di inviare l’evento.
+richiesta POST per inviare l’evento.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \

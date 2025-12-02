@@ -1,14 +1,15 @@
 ---
 title: Verbi GET / POST / PATCH / DELETE
-description: Ulteriori informazioni sui verbi utilizzati nelle API Campaign Standard.
+description: Ulteriori informazioni sui verbi utilizzati nelle API di Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -30,7 +31,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 ***Richieste di esempio***
 
-* Richiesta di GET di esempio per la raccolta di profili.
+* Richiesta GET di esempio sulla raccolta di profili.
 
 
   ```
@@ -66,7 +67,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   }
   ```
 
-* Richiesta di GET di esempio per un profilo specifico.
+* Richiesta GET di esempio per un profilo specifico.
 
 
   ```
@@ -92,7 +93,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   }
   ```
 
-* Richiesta POST di esempio per la creazione di un profilo.
+* Richiesta POST di esempio per creare un profilo.
 
 
   ```
@@ -116,7 +117,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   }
   ```
 
-* Richiesta di esempio di PATCH per aggiornare un profilo.
+* Richiesta PATCH di esempio per aggiornare un profilo.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +137,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   }
   ```
 
-* Richiesta di esempio di DELETE per eliminare un profilo.
+* Richiesta DELETE di esempio per eliminare un profilo.
 
   ```
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

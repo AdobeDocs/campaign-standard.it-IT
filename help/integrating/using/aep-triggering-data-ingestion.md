@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -21,7 +22,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Contatta l’Assistenza clienti di Adobe se desideri accedervi.
+>Adobe Experience Platform Data Connector è attualmente in versione beta, che potrebbe essere soggetta a frequenti aggiornamenti senza preavviso. Per accedere a queste funzionalità, i clienti devono essere ospitati su Azure (attualmente in versione beta solo per il Nord America). Per accedere, contatta l’Assistenza clienti di Adobe.
 
 Adobe Campaign Standard ti consente di attivare l’acquisizione immediata delle mappature dati tramite API e di recuperare lo stato delle richieste di acquisizione.
 
@@ -54,7 +55,7 @@ L’acquisizione immediata di una mappatura XDM in Adobe Experience Platform vie
 
 >[!NOTE]
 >
->Per eseguire la chiamata API di ingest POST, l&#39;utente deve avere un ruolo **Esecuzione funzione SQL**, che può essere fornito da un amministratore Campaign Standard eseguendo lo script JS seguente:
+>Per eseguire la chiamata API di acquisizione POST, l&#39;utente deve avere un ruolo **Esecuzione funzione SQL**, che può essere fornito da un amministratore di Campaign Standard eseguendo lo script JS seguente:
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -62,7 +63,7 @@ L’acquisizione immediata di una mappatura XDM in Adobe Experience Platform vie
 >```
 >
 
-L’operazione POST restituisce informazioni relative allo stato della richiesta creata:
+L&#39;operazione POST restituisce informazioni relative allo stato della richiesta creata:
 
 * Richiesta inviata correttamente per il mapping XDM:
 
@@ -99,7 +100,7 @@ L’operazione POST restituisce informazioni relative allo stato della richiesta
 
 ## Recupero dello stato di una richiesta di acquisizione {#retrieving-status}
 
-Lo stato di una richiesta di acquisizione può essere recuperato con un’operazione di GET e l’ID richiesta desiderato nei parametri:
+Lo stato di una richiesta di acquisizione può essere recuperato con un’operazione GET e l’ID richiesta desiderato nei parametri:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -108,16 +109,16 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Informazioni dettagliate sullo stato della richiesta di mappatura XDM e dei relativi processi sono disponibili nell&#39;interfaccia Campaign Standard, nel menu **[!UICONTROL Status of data export to platform]** (vedi [Attivazione mappatura](../../integrating/using/aep-mapping-activation.md)).
+>Informazioni dettagliate sullo stato della richiesta di mappatura XDM e dei relativi processi sono disponibili nell&#39;interfaccia di Campaign Standard, nel menu **[!UICONTROL Status of data export to platform]** (vedi [Attivazione mappatura](../../integrating/using/aep-mapping-activation.md)).
 
-L&#39;operazione di GET restituisce le informazioni seguenti:
+L’operazione GET restituisce le informazioni seguenti:
 
 * **batchId**: questo campo viene popolato solo se si è verificato un errore dopo la preparazione e il caricamento del batch,
 * **info**: ID mappatura XDM,
 * **numRecords**: il numero di record che sono stati acquisiti (solo stato di completamento),
 * **stato**: stato della richiesta di acquisizione (riuscita/non riuscita/in corso)
 
-Le possibili risposte all’operazione di GET sono:
+Le possibili risposte all’operazione GET sono:
 
 * Richiesta di acquisizione riuscita:
 

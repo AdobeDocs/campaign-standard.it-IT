@@ -3,10 +3,11 @@ title: Inserire il pubblico di Adobe Experience Platform in Campaign
 description: Scopri come acquisire il pubblico di Adobe Experience Platform in Campaign Standard.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 7%
@@ -23,7 +24,7 @@ Una volta configurata la destinazione, i dati verranno esportati nella posizione
 
 In Adobe Experience Platform, configura una connessione con Adobe Campaign selezionando una posizione di archiviazione per i segmenti esportati. Questi passaggi ti consentono anche di selezionare i segmenti da esportare e specificare campi XDM aggiuntivi da includere.
 
-Per ulteriori informazioni, consulta la [documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=it).
+Per ulteriori informazioni, consulta la [documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
 Dopo aver configurato la destinazione, Adobe Experience Platform crea un file .txt o .csv delimitato da tabulazioni nel percorso di archiviazione fornito. Questa operazione è pianificata ed eseguita una volta ogni 24 ore.
 
@@ -31,7 +32,7 @@ Ora puoi configurare un flusso di lavoro Campaign Standard per acquisire il segm
 
 ## Creare un flusso di lavoro di importazione in Campaign Standard
 
-Una volta che Campaign Standard è stato configurato come Destinazione, devi creare un flusso di lavoro dedicato per importare il file esportato da Adobe Experience Platform.
+Una volta che Campaign Standard è stato configurato come destinazione, devi creare un flusso di lavoro dedicato per importare il file esportato da Adobe Experience Platform.
 
 A tale scopo, è necessario aggiungere e configurare un&#39;attività **[!UICONTROL Transfer file]**. Per ulteriori informazioni su come configurare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
 

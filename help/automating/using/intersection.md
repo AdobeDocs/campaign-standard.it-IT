@@ -1,14 +1,15 @@
 ---
-title: Intersection
-description: L’attività Intersection ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività.
+title: Intersezione
+description: L’attività Intersezione consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 98%
@@ -35,7 +36,7 @@ L’attività **[!UICONTROL Intersection]** è generalmente utilizzata per effet
 1. Seleziona **[!UICONTROL Reconciliation type]**:
 
    * **[!UICONTROL Keys only]**: modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave.
-   * **[!UICONTROL All shared columns]**: i dati vengono riconciliati in base alle colonne che hanno in comune con le transizioni in entrata. Pertanto, devi selezionare il set principale che fungerà da base per il confronto. È possibile utilizzare questa opzione se le dimensioni di targeting della popolazione in entrata sono diverse.
+   * **[!UICONTROL All shared columns]**: i dati vengono riconciliati in base alle colonne che hanno in comune con le transizioni in entrata. Pertanto, devi selezionare il set principale che fungerà da base per il confronto. È possibile utilizzare questa opzione se le dimensioni targeting della popolazione in entrata sono diverse.
    * **[!UICONTROL A selection of columns]**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Devi innanzitutto selezionare il set principale, quello contenente i dati di origine, quindi specificare i campi da utilizzare per l’unione.
 
 1. Seleziona la casella **[!UICONTROL Use common additional data only]** se desideri conservare solo i dati aggiuntivi presenti in tutte le transizioni in entrata.

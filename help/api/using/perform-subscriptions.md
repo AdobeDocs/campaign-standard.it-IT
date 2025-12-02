@@ -2,10 +2,11 @@
 title: Esecuzione di sottoscrizioni
 description: Scopri come eseguire gli abbonamenti con le API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

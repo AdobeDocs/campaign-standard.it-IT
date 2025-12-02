@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 37048884-bd03-46ea-8e2e-a73ad568153b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 12%
@@ -17,7 +18,7 @@ ht-degree: 12%
 
 # Recupero dell’unità organizzativa di un profilo {#retrieving-organizational-units}
 
-1. Esegui una richiesta GET sul PKey del profilo per recuperare l&#39;URL **orgUnit**.
+1. Esegui una richiesta GET nel PKey del profilo per recuperare l&#39;URL **orgUnit**.
 1. Esegui una richiesta GET sull’URL per recuperare ulteriori dettagli sull’unità organizzativa.
 
 <br/>

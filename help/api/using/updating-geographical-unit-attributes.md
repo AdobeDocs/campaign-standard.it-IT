@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Aggiornamento degli attributi di un’unità geografica {#managing-geographical-units}
 
-1. Eseguire una richiesta di GET sulla risorsa **geoUnitBase** per recuperare l&#39;unità geografica PKey.
+1. Eseguire una richiesta GET sulla risorsa **geoUnitBase** per recuperare l&#39;unità geografica PKey.
 1. Esegui una richiesta PATCH sull’unità geografica, con gli attributi da aggiornare nel payload.
 
 <br/>

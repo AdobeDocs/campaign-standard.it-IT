@@ -2,10 +2,11 @@
 title: Creazione di un servizio con API
 description: Scopri come creare un servizio con API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 02f1ef1f960cf98b5277b2db960e61ae20e22209
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Se desideri creare il servizio con attributi specifici, aggiungili al payload. I
 
 ***Richiesta di esempio***
 
-Esempio di richiesta POST per creare un servizio con attributi specifici.
+Richiesta POST di esempio per creare un servizio con attributi specifici.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \

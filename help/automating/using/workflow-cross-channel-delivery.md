@@ -6,19 +6,20 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 84%
 
 ---
 
-# Creazione di consegna messaggi cross-channel{#cross-channel-delivery}
+# Creazione di una consegna cross-channel{#cross-channel-delivery}
 
-Il presente documento ti consente di scoprire le seguenti funzionalità di Adobe Campaign tramite un caso d’uso standard: la creazione di un flusso di lavoro di consegna cross-channel.
+Il presente documento ti consente di scoprire le seguenti funzionalità di Adobe Campaign tramite un caso d’uso standard: la creazione di un flusso di lavoro per consegne cross-channel.
 
 L’obiettivo è selezionare un pubblico dai destinatari del database, quindi segmentarlo in due diversi gruppi allo scopo di inviare un’e-mail al primo gruppo e un messaggio SMS al secondo.
 
@@ -127,7 +128,7 @@ Per creare un’attività Email delivery:
 
    ![](assets/wkf_segment_deliveries2.png)
 
-   La transizione in uscita ti permetterà di recuperare la popolazione e i registri di tracciamento. In tal modo potrai, ad esempio, inviare una seconda e-mail alle persone che non hanno selezionato la prima e-mail.
+   La transizione in uscita ti permetterà di recuperare la popolazione e i registri di tracciamento. In tal modo potrai, ad esempio, inviare una seconda e-mail alle persone che non hanno fatto clic nella prima e-mail.
 
 1. Seleziona un modello di e-mail e fai clic su **[!UICONTROL Next]**.
 1. Immetti le proprietà dell’e-mail e fai clic su **[!UICONTROL Next]**.
@@ -141,7 +142,7 @@ Per creare una consegna di SMS:
 1. Fai doppio clic sull’attività per modificarla.
 1. Seleziona **[!UICONTROL SMS]** e fai clic su **[!UICONTROL Next]**.
 1. Seleziona un modello SMS e fai clic su **[!UICONTROL Next]**.
-1. Immetti le proprietà SMS e seleziona **[!UICONTROL Next]**.
+1. Immetti le proprietà SMS e fai clic su **[!UICONTROL Next]**.
 1. Modifica e salva il contenuto.
 
 Una volta create e modificate le consegne, il flusso di lavoro è pronto per essere avviato.
@@ -154,4 +155,4 @@ Una volta avviato il flusso di lavoro, la popolazione di destinazione dell&#39;a
 
 Per eseguire il flusso di lavoro, fai clic sul pulsante **[!UICONTROL Start]** nella barra delle azioni.
 
-Puoi accedere alle tue consegne dal menu avanzato **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** facendo clic sul logo Adobe Campaign. Fai clic sulla consegna e quindi sul pulsante **[!UICONTROL Reports]** per accedere ai [rapporti di consegna](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), ad esempio il riepilogo della consegna, il tasso di apertura o il rendering dell’e-mail in base alla casella in entrata dei destinatari.
+Puoi accedere alle tue consegne dal menu avanzato **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** facendo clic sul logo Adobe Campaign. Fai clic sulla consegna e quindi sul pulsante **[!UICONTROL Reports]** per accedere ai [rapporti di consegna](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), ad esempio il riepilogo della consegna, il tasso di apertura o il rendering e-mail in base alla casella in entrata dei destinatari.

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 94%
@@ -20,9 +21,9 @@ ht-degree: 94%
 
 ## Informazioni sull’editor delle query {#about-query-editor}
 
-L’editor delle query è una procedura guidata che ti consente di filtrare i dati contenuti nel database di Adobe Campaign.
+L’editor di query è una procedura guidata che consente di filtrare i dati contenuti nel database di Adobe Campaign.
 
-Questa funzione ti consente di generare una popolazione con obiettivi migliori per i destinatari grazie ai filtri e alle regole preimpostati.
+Questa funzione consente di generare una popolazione più mirata per i tuoi destinatari target, grazie ai filtri e alle regole preimpostati.
 
 Diverse funzionalità dell’applicazione la utilizzano per:
 
@@ -32,7 +33,7 @@ Diverse funzionalità dell’applicazione la utilizzano per:
 
 ## Interfaccia dell’editor delle query {#query-editor-interface}
 
-L’editor delle query è composto da una **palette** e da un’**area di lavoro**.
+L’editor di query è composto da una **palette** e da un’**area di lavoro**.
 
 ![](assets/query_editor_overview.png)
 
@@ -43,7 +44,7 @@ La palette, situata a sinistra dell’editor, è divisa in due schede, che conte
 * Le **Shortcuts**, disponibili per impostazione predefinita o create dall’amministratore dell’istanza. Qui trovi campi, nodi, raggruppamenti, collegamenti 1-1, collegamenti 1-N e altri filtri preimpostati.
 * L’**Explorer**, che ti consente di accedere a tutti i campi disponibili nella risorsa target: nodi, elementi di raggruppamento, collegamenti (1-1 e 1-N).
 
-È necessario spostare nell’area di lavoro gli elementi contenuti nelle schede per configurarli e prenderli in considerazione per la query. A seconda della dimensione di targeting selezionata (consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources)), puoi:
+È necessario spostare nell’area di lavoro gli elementi contenuti nelle schede per configurarli e prenderli in considerazione per la query. A seconda della dimensione targeting selezionata (consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources)), puoi:
 
 * Selezionare tipi di pubblico o profili uno per uno;
 * Usare filtri preimpostati
@@ -58,7 +59,7 @@ Quando si sposta un elemento dalla palette nell’area di lavoro, viene visualiz
 
 ## Creazione di query {#creating-queries}
 
-Puoi utilizzare l’editor delle query per definire un pubblico o un profilo di test in un messaggio, una popolazione in un flusso di lavoro e per creare un pubblico di tipo query.
+Puoi utilizzare l’editor di query per definire un pubblico o un profilo di test in un messaggio, una popolazione in un flusso di lavoro e per creare un pubblico di tipo query.
 
 È possibile definire le query nella finestra **[!UICONTROL Audience]** durante la creazione di una consegna o in un’attività **Query** durante la creazione di un flusso di lavoro.
 
@@ -91,7 +92,7 @@ Puoi utilizzare l’editor delle query per definire un pubblico o un profilo di 
 
    * Per un **filtro predefinito**, inserisci o seleziona gli elementi desiderati in base ai criteri offerti.
 
-     Gli amministratori possono creare filtri per facilitare query complesse e ripetitive. Vengono visualizzate nell’editor delle query sotto forma di regole preconfigurate e limitano il numero di passaggi necessari per l’utente.
+     Gli amministratori possono creare filtri per facilitare query complesse e ripetitive. Vengono visualizzate nell’editor di query sotto forma di regole preconfigurate e limitano il numero di passaggi necessari per l’utente.
 
      ![](assets/query-editor_filter_email-audience_filter.png)
 

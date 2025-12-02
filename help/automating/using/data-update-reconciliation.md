@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 
@@ -37,7 +38,7 @@ L’esempio seguente illustra un flusso di lavoro che crea un pubblico di profil
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md), che collega ogni colonna del file caricato a una colonna della dimensione del profilo. I record di file che non è possibile identificare (dati mancanti, tipo di dati incompatibile, ecc.) vengono ignorati per preservare l’integrità dei dati di pubblico finali.
+* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md), che collega ogni colonna del file caricato a una colonna della dimensione del profilo. I record di file che non possono essere identificati (dati mancanti, tipo di dati incompatibile, ecc.) vengono ignorati per preservare l’integrità dei dati di pubblico finali.
 
   ![](assets/identification_example1.png)
 

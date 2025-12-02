@@ -5,12 +5,13 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -33,11 +34,11 @@ Se configuri l’integrazione sia per gli ambienti di staging che per quelli di 
 
 ## Configurazione dell’applicazione e delle autorizzazioni
 
-Un token di accesso OAuth consente allo strumento di integrazione di eseguire l’autenticazione con l’istanza di Microsoft Dynamics 365 tramite API web per pubblicare gli eventi di esperienza di Campaign Standard nella visualizzazione timeline dell’interfaccia di Microsoft Dynamics 365.
+Un token di accesso OAuth consente allo strumento di integrazione di eseguire l’autenticazione con l’istanza di Microsoft Dynamics 365 tramite API web per pubblicare gli eventi di esperienza Campaign Standard sulla vista timeline dell’interfaccia Microsoft Dynamics 365.
 
 I passaggi principali sono descritti nel seguente video:
 
->[!VIDEO](https://video.tv.adobe.com/v/328146?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Per generare il token di accesso OAuth, segui i passaggi descritti di seguito.
 
@@ -91,7 +92,7 @@ Questo nuovo utente è generico. Verrà utilizzato dall’applicazione: qualsias
 
 1. Fare clic sul menu a discesa per passare a **[!UICONTROL Application Users]**. Fai clic su **[!UICONTROL New]**.
 
-1. Assicurarsi che il menu a discesa accanto all&#39;icona utente indichi **[!UICONTROL USER:APPLICATION USER]**.
+1. Assicurarsi che il menu a discesa accanto all&#39;icona dell&#39;utente indichi l&#39;utente **[!UICONTROL USER:APPLICATION]**.
 
    Compila la schermata per il nuovo utente.  Suggerimenti sui parametri:
 
@@ -135,5 +136,5 @@ In alternativa, puoi passare a questo [collegamento](https://appsource.microsoft
 
 **Argomenti correlati**
 
-* [Configurare Adobe Developer per l&#39;integrazione con Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) è il passaggio successivo per la configurazione dell&#39;integrazione
+* [Configurare l&#39;integrazione di Adobe Developer per Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) è il passaggio successivo per configurare l&#39;integrazione
 * [Introduzione all&#39;applicazione di integrazione self-service](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) contiene l&#39;elenco completo dei passaggi necessari per rendere operativa l&#39;integrazione.

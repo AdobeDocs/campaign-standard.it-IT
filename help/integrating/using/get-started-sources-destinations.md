@@ -3,10 +3,11 @@ title: Guida introduttiva a origini e destinazioni
 description: Ulteriori informazioni su origini e destinazioni di Adobe Experience Platform.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 13%
@@ -17,17 +18,17 @@ ht-degree: 13%
 
 ## Informazioni su origini e destinazioni
 
-Con Adobe Experience Platform, puoi condividere i dati tra Campaign Standard e Adobe Real-time Customer Data Platform (RTCDP). Questo ti consente di indirizzare l’attività ai tipi di pubblico di Adobe Experience Platform nei flussi di lavoro di Campaign e di inviarli nuovamente ad Adobe Real-time Customer Data Platform, con dati relativi a tali tipi di pubblico, ad esempio invii, aperture e clic.
+Con Adobe Experience Platform puoi condividere i dati tra Campaign Standard e Adobe Real-time Customer Data Platform (RTCDP). Questo consente di indirizzare l’attività ai tipi di pubblico di Adobe Experience Platform nei flussi di lavoro di Campaign e quindi di inviare ad Adobe Real-time Customer Data Platform i dati relativi a tali tipi di pubblico, ad esempio invii, aperture e clic.
 
-* Con **Destinazioni**, acquisisci i tipi di pubblico da Adobe Experience Platform in Campaign Standard. Questo ti consente di attivare i dati noti e sconosciuti per le campagne di marketing.
-* Con **Sorgenti**, esporta i dati di Campaign Standard (ad esempio invii, aperture, clic) in Adobe Experience Platform. Questo consente di centralizzare i dati raccolti da origini diverse in un’unica posizione e di utilizzare le informazioni acquisite per fare di più.
+* Con **Destinazioni**, acquisisci il pubblico da Adobe Experience Platform in Campaign Standard. Questo ti consente di attivare i dati noti e sconosciuti per le campagne di marketing.
+* Con **Origini**, esporta i dati di Campaign Standard (ad esempio invii, aperture, clic) in Adobe Experience Platform. Questo consente di centralizzare i dati raccolti da origini diverse in un’unica posizione e di utilizzare le informazioni acquisite per fare di più.
 
 
 >[!IMPORTANT]
 >
 >Tieni presenti i limiti di archiviazione SFTP, i limiti di archiviazione del database e i limiti del profilo attivo in base al tuo contratto Adobe Campaign durante l’esecuzione di questa integrazione.
 
-Per una panoramica più dettagliata di Adobe Real-time Customer Data Platform, Destinazioni e Origini, consulta queste pagine:
+Per una panoramica più dettagliata di Adobe Real-time Customer Data Platform, Destinations and Sources, consulta queste pagine:
 
 * [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it)
 * [Documentazione sulle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it)

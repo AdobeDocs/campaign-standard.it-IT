@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 1%
@@ -35,7 +36,7 @@ Prima di configurare i flussi di lavoro, è necessario creare i flussi di lavoro
 
 ## Passaggio 1: configurazione della chiamata API {#step-1--configuring-the-api-call}
 
-Effettua una chiamata API per attivare il flusso di lavoro 1 con parametri. Per ulteriori informazioni sulla sintassi della chiamata API, consulta la [documentazione API REST di Campaign Standard](../../api/using/triggering-a-signal-activity.md).
+Effettua una chiamata API per attivare il flusso di lavoro 1 con parametri. Per ulteriori informazioni sulla sintassi della chiamata API, consulta la [documentazione sulle API REST di Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
 Nel nostro caso, vogliamo chiamare il flusso di lavoro con i parametri seguenti:
 

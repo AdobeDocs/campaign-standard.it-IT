@@ -1,15 +1,16 @@
 ---
-title: Union
-description: L’attività Union ti consente di raggruppare il risultato di più attività in un unico target.
+title: Unione
+description: L’attività Unione consente di raggruppare il risultato di più attività in un unico target.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: union,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 97%
@@ -44,7 +45,7 @@ L’attività **[!UICONTROL Union]** viene utilizzata per combinare le popolazio
 1. Seleziona l’opzione **[!UICONTROL Reconciliation type]** per definire la modalità di gestione dei duplicati dal confronto tra le popolazioni in ingresso:
 
    * **[!UICONTROL Keys only]**: è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
-   * **[!UICONTROL All shared columns]**: i dati vengono riconciliati in base a tutte le colonne in comune con le transizioni in entrata. Pertanto, devi selezionare il set principale da mantenere in caso di un duplicato. È possibile utilizzare questa opzione se le dimensioni di targeting della popolazione in entrata sono diverse.
+   * **[!UICONTROL All shared columns]**: i dati vengono riconciliati in base a tutte le colonne in comune con le transizioni in entrata. Pertanto, devi selezionare il set principale da mantenere in caso di un duplicato. È possibile utilizzare questa opzione se le dimensioni targeting della popolazione in entrata sono diverse.
    * **[!UICONTROL A selection of columns]**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Devi innanzitutto selezionare il set principale (quello contenente i dati di origine), quindi le colonne da utilizzare per il join.
 
 1. Seleziona la casella **[!UICONTROL Use common additional data only]** se desideri conservare solo i dati aggiuntivi presenti in tutte le transizioni in entrata.

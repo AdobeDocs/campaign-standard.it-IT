@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 37%
@@ -45,7 +46,7 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 1. Per creare il layout dell’e-mail, fai clic su **[!UICONTROL Using the Email Designer]**.
 1. Inserisci elementi o seleziona un modello esistente.
 1. Personalizza l&#39;e-mail con le offerte specifiche per ogni posizione.Per ulteriori informazioni, consulta [progettazione di un&#39;e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Seleziona **[!UICONTROL Preview]** per controllare il layout.
+1. Fai clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 
 ## Targeting di non-opener in un’attività di query{#targeting-non-openers-in-a-query-activity}
@@ -71,7 +72,7 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 1. Inserisci elementi o seleziona un modello esistente.
 1. Personalizza l’sms con offerte specifiche per ogni posizione.
 Per ulteriori informazioni, consulta la sezione [Progettazione di un sms](../../channels/using/creating-an-sms-message.md).
-1. Seleziona **[!UICONTROL Preview]** per controllare il layout.
+1. Fai clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 
 ![](assets/wf-retargeting-non-openers.png)

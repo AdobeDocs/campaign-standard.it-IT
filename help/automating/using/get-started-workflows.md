@@ -5,13 +5,14 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -34,7 +35,7 @@ I flussi di lavoro possono essere utilizzati in contesti diversi, ad esempio:
 
 >[!IMPORTANT]
 >
-> L’Adobe consiglia ai clienti di non eseguire più di 20 esecuzioni di flussi di lavoro attivi contemporaneamente e di assegnare le priorità e distribuire l’esecuzione del flusso di lavoro nel tempo. Per ulteriori informazioni, consulta le best practice fornite in [questa pagina](../../automating/using/best-practices-workflows.md).
+> Adobe consiglia ai clienti di non eseguire più di 20 esecuzioni di flussi di lavoro attivi in contemporanea, nonché di assegnare priorità e distribuire l’esecuzione dei flussi di lavoro nel tempo. Per ulteriori informazioni, consulta le best practice fornite in [questa pagina](../../automating/using/best-practices-workflows.md).
 
 ## Attività del flussi di lavoro {#workflow-activities}
 
@@ -42,7 +43,7 @@ Sono disponibili varie attività per aiutarti a progettare i flussi di lavoro.
 
 [Le attività di targeting](../../automating/using/about-targeting-activities.md) ti consentono di creare una o più destinazioni definendo i set e suddividendoli o combinandoli tramite operazioni di intersezione, unione o esclusione.
 
-Con [Attività di esecuzione](../../automating/using/about-execution-activities.md), coordina il flusso di lavoro e le relative attività, mentre [Attività canale](../../automating/using/about-channel-activities.md) ti consente di combinare i canali di comunicazione Campaign Standard per creare flussi di lavoro cross-channel.
+Con [Attività di esecuzione](../../automating/using/about-execution-activities.md), coordina il flusso di lavoro e le relative attività, mentre [Attività canale](../../automating/using/about-channel-activities.md) ti consente di combinare i canali di comunicazione di Campaign Standard per creare flussi di lavoro cross-channel.
 
 Infine, le [attività di gestione dati](../../automating/using/about-data-management-activities.md) ti consentono di manipolare i dati dal database.
 
@@ -76,7 +77,7 @@ Con [Modelli di importazione](../../automating/using/importing-data-with-import-
 
 Sfrutta [Pacchetti](../../automating/using/managing-packages.md) per scambiare risorse tra diverse istanze di Campaign, ad esempio per replicare la configurazione di un&#39;istanza o per trasferire dati da un server a un altro, incluse risorse personalizzate.
 
-Infine, [Esportazione di elenchi](../../automating/using/exporting-lists.md) consente di esportare qualsiasi elenco da Campaign Standard, ad esempio l&#39;elenco dei profili di test, l&#39;elenco degli indirizzi e-mail di quarantena e così via.
+Infine, [Esportazione di elenchi](../../automating/using/exporting-lists.md) ti consente di esportare qualsiasi elenco da Campaign Standard, ad esempio l&#39;elenco dei profili di test, l&#39;elenco degli indirizzi e-mail di quarantena e così via.
 
 Ulteriori informazioni:
 

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 1%
@@ -40,7 +41,7 @@ Sono costruiti con gli elementi seguenti:
 
    ![testo alternativo](assets/apis_uc2.png)
 
-1. Un profilo può modificare i propri dettagli dopo aver fatto clic sul collegamento &quot;Aggiorna dettagli&quot; nell’e-mail. Questo porta il profilo alla pagina &quot;Aggiorna il profilo e i dettagli delle preferenze&quot;. Per eseguire l’operazione, i dettagli del profilo (Pkey) vengono passati al server Campaign e il profilo viene recuperato e rappresentato. Una volta che il profilo fa clic sul pulsante &quot;Aggiorna&quot;, le informazioni vengono aggiornate nel sistema (tramite un comando PATCH).
+1. Un profilo può modificare i propri dettagli dopo aver fatto clic sul collegamento &quot;Aggiorna dettagli&quot; nell’e-mail. Questo porta il profilo alla pagina &quot;Aggiorna il profilo e i dettagli delle preferenze&quot;. Per eseguire l’operazione, i dettagli del profilo (Pkey) vengono passati al server Campaign e il profilo viene recuperato e rappresentato. Quando il profilo fa clic sul pulsante &quot;Aggiorna&quot;, le informazioni vengono aggiornate nel sistema (tramite un comando PATCH).
 
    ![testo alternativo](assets/apis_uc3.png)
 
@@ -72,6 +73,6 @@ I passaggi seguenti descrivono un caso d’uso dettagliato per importare e utili
 
    ![testo alternativo](assets/postman_uc3.png)
 
-1. Apri l’istanza di Campaign Standard, quindi verifica che il profilo sia stato creato, con tutte le informazioni del payload.
+1. Apri l’istanza di Campaign Standard, quindi controlla che sia stato creato il profilo, con tutte le informazioni del payload.
 
    ![testo alternativo](assets/postman_uc4.png)

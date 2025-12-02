@@ -5,17 +5,18 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Flussi di lavoro di integrazione di Campaign - Microsoft Dynamics 365
+# Campaign - Flussi di lavoro per l’integrazione di Microsoft Dynamics 365
 
 Nella pagina **[!UICONTROL Workflows]** sono elencati i flussi di lavoro tecnici e il relativo stato.
 
@@ -34,18 +35,18 @@ L’applicazione di integrazione è dotata di tre flussi di lavoro:
 
 **Consenso/Rinuncia**
 
-Gli stati di rinuncia (ad esempio, inserisco nell&#39;elenco Bloccati di rinuncia a un’opzione) possono essere sincronizzati da Microsoft Dynamics 365 a Adobe Campaign o da Adobe Campaign a Microsoft Dynamics 365. I dati possono anche essere sincronizzati bidirezionalmente (ossia flussi di dati in entrambe le direzioni). [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+Gli stati di rinuncia (ad esempio, inserisce nell&#39;elenco Bloccati di) possono essere sincronizzati da Microsoft Dynamics 365 a Adobe Campaign o da Adobe Campaign a Microsoft Dynamics 365. I dati possono anche essere sincronizzati bidirezionalmente (ossia flussi di dati in entrambe le direzioni). [Ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!IMPORTANT]
 >
->È consigliabile interrompere il flusso di lavoro **da Microsoft Dynamics 365 a Campaign** prima di pubblicare le modifiche apportate a Adobe Campaign Standard o Microsoft Dynamics 365. Queste modifiche includono aggiornamenti a risorse/entità (e ai relativi campi associati), collegamenti, colonne di identificatori e così via, attualmente in uso dall’integrazione. In caso contrario, si potrebbe verificare una perdita di dati e/o l’arresto imprevisto del flusso di lavoro.
+>Si consiglia vivamente di arrestare il flusso di lavoro **da Microsoft Dynamics 365 a Campaign** prima di pubblicare le modifiche a Adobe Campaign Standard o Microsoft Dynamics 365. Queste modifiche includono aggiornamenti a risorse/entità (e ai relativi campi associati), collegamenti, colonne di identificatori e così via, attualmente in uso dall’integrazione. In caso contrario, si potrebbe verificare una perdita di dati e/o l’arresto imprevisto del flusso di lavoro.
 
 ## Backlog del flusso di lavoro
 
 Questa applicazione di integrazione legge prima i dati e quindi li scrive nella destinazione. La colonna **[!UICONTROL Backlog]** indica il numero di record che sono stati messi in coda e sono in attesa di scrittura. Questo valore dovrebbe aumentare quando si dispone di una grande quantità di dati da elaborare (ad esempio, si esegue l’integrazione per la prima volta, si riproducono i dati, ecc.).
 
 >[!NOTE]
->Se i record di Microsoft Dynamics 365 e/o Campaign non vengono aggiornati, è innanzitutto necessario verificare se è presente un numero elevato di record in attesa di essere scritti nella destinazione.
+>Se i record di Microsoft Dynamics 365 e/o Campaign non vengono aggiornati, è necessario innanzitutto verificare se è presente un numero elevato di record in attesa di essere scritti nella destinazione.
 >
 
 ## Stato del flusso di lavoro {#workflow-status}

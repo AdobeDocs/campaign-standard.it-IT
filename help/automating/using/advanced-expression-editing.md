@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -44,7 +45,7 @@ La modifica delle espressioni può essere utilizzata nella finestra Tipi di pubb
 1. Puoi accedere alla finestra di modifica delle espressioni utilizzando uno dei metodi descritti nella sezione [Informazioni sulla modifica avanzata delle espressioni](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Comprende i seguenti elementi:
 
    * Un campo di input in cui è definita l’espressione.
-   * L’elenco dei campi disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione di targeting della query (consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources)).
+   * L’elenco dei campi disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione targeting della query (consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * L’elenco delle funzioni disponibili, ordinate per categoria.
 
    ![](assets/expression_editor_1.png)
@@ -55,7 +56,7 @@ La modifica delle espressioni può essere utilizzata nella finestra Tipi di pubb
 
    È possibile utilizzare le variabili degli eventi dei flussi di lavoro per generare un’espressione. Per ulteriori informazioni, consulta la sezione [Personalizzazione di attività con variabili di eventi](../../automating/using/customizing-workflow-external-parameters.md).
 
-1. Se necessario, assegna alla regola un nome specifico. Il nome immesso verrà visualizzato come nome della regola nell’area di lavoro dell’editor delle query.
+1. Se necessario, assegna alla regola un nome specifico. Il nome immesso verrà visualizzato come nome della regola nell’area di lavoro dell’editor di query.
 
 La modifica di un’espressione ti consente di personalizzare l’espressione Tipi di pubblico in modo tale da eseguire il targeting della popolazione in base alle necessità.
 
@@ -124,7 +125,7 @@ In questo esempio, i profili di età superiore a 21 anni il cui nome è stato fo
 
 ## Operatori di confronto {#comparison-operators}
 
-Per alcune regole, l’editor delle query ti consente di scegliere un valore per definire la condizione.
+Per alcune regole, l’editor di query consente di scegliere un valore per definire la condizione.
 
 Le condizioni devono essere collegate ai valori utilizzando uno dei seguenti operatori.
 
@@ -200,7 +201,7 @@ Le condizioni devono essere collegate ai valori utilizzando uno dei seguenti ope
    <td> NOT<br /> </td> 
    <td> N/D<br /> </td> 
    <td> È simile a <span class="uicontrol">Simile</span>. Ti consente di non recuperare il valore immesso. Anche in questo caso, il valore immesso deve contenere il carattere jolly <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. In questo caso, i destinatari corrispondono al nome “Smi%h” (quindi Smith, ecc.) non vengono restituiti come risultato.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. In questo caso, i destinatari corrispondono al nome 'Smi%h' (quindi Smith, ecc.) non vengono restituiti di conseguenza.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">È vuoto</span> <br /> </td> 

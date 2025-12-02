@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -89,7 +90,7 @@ La configurazione dell’attività prevede due passaggi. Innanzitutto, devi defi
 
    La scheda **[!UICONTROL Column definition]** ti consente di specificare con precisione la struttura dati di ciascuna colonna al fine di importare dati privi di errori (ad esempio, utilizzando la gestione null) e di farli corrispondere ai tipi già presenti nel database di Adobe Campaign, in modo che siano disponibili per le operazioni future.
 
-   Ad esempio, puoi modificare l’etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) o anche specificare l’elaborazione degli errori.
+   Ad esempio, puoi modificare l’etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data e così via) o persino specificare l’elaborazione dell’errore.
 
    Per ulteriori informazioni, consulta la sezione [Formato colonna](#column-format).
 

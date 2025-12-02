@@ -2,13 +2,14 @@
 title: Invio di una notifica push ricorrente con un flusso di lavoro
 description: In questo esempio, viene inviata una notifica push personalizzata ogni primo giorno del mese alle 20 agli abbonati della tua app mobile in base al loro fuso orario
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -36,7 +37,7 @@ Per creare il flusso di lavoro, effettua le seguenti operazioni:
 
 1. L&#39;attività [Query](../../automating/using/query.md) ti consente di eseguire il targeting dei clienti VIP di età compresa tra i 20 e i 30 anni che si sono abbonati alla tua app mobile e che non hanno aperto l&#39;e-mail inviata:
 
-   * Seleziona un pubblico (i clienti VIP) e applica un filtro in base alla loro età.
+   * Seleziona un pubblico (i tuoi clienti VIP) e filtra in base alla loro età.
    * Trascina e rilascia l&#39;elemento **Subscriptions to an application** nell&#39;area di lavoro. Seleziona **Esiste** e seleziona l&#39;app mobile che desideri utilizzare.
    * Seleziona l’e-mail inviata ai clienti.
    * Trascina e rilascia l&#39;elemento **Log di consegna (log)** nell&#39;area di lavoro e seleziona **Exists** per eseguire il targeting per tutti i clienti che hanno ricevuto l&#39;e-mail.
@@ -46,7 +47,7 @@ Per creare il flusso di lavoro, effettua le seguenti operazioni:
 
 1. L&#39;attività [Invio notifica push](../../automating/using/push-notification-delivery.md) ti consente di inserire il contenuto del messaggio e di selezionare i campi di personalizzazione che desideri utilizzare:
 
-   * Selezionare l&#39;opzione **[!UICONTROL Recurring notification]**.
+   * Seleziona l’opzione **[!UICONTROL Recurring notification]**.
    * Definisci il contenuto della notifica push. Per ulteriori informazioni sul contenuto delle notifiche push, consulta questa [sezione](../../channels/using/preparing-and-sending-a-push-notification.md).
    * Nel blocco **[!UICONTROL Schedule]**, selezionare **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. In questo caso, abbiamo scelto **[!UICONTROL Time zone of the contact date]** Pacifico come nel flusso di lavoro **[!UICONTROL Scheduler]**.
    * Nel campo **[!UICONTROL Optimize the sending time per recipient]** seleziona **[!UICONTROL Send at the recipient's time zone]**.

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -19,15 +20,15 @@ ht-degree: 0%
 
 ## Recupero metadati filtri
 
-I filtri sono disponibili per ogni risorsa. Per identificare i filtri associati a una risorsa, devi eseguire una richiesta di GET sui metadati della risorsa. Questa richiesta restituisce l’URL in cui sono definiti tutti i filtri per una determinata risorsa. Per ulteriori informazioni sui metadati, consulta [questa sezione](../../api/using/metadata-mechanism.md).
+I filtri sono disponibili per ogni risorsa. Per identificare i filtri associati a una risorsa, devi eseguire una richiesta GET sui metadati della risorsa. Questa richiesta restituisce l’URL in cui sono definiti tutti i filtri per una determinata risorsa. Per ulteriori informazioni sui metadati, consulta [questa sezione](../../api/using/metadata-mechanism.md).
 
-Per identificare i metadati di un filtro e determinare come utilizzarlo, è necessario eseguire una richiesta di GET sull’URL restituito in precedenza.
+Per identificare i metadati di un filtro e determinare come utilizzarlo, è necessario eseguire una richiesta GET sull’URL restituito in precedenza.
 
 <br/>
 
 ***Richiesta di esempio***
 
-I payload di esempio seguenti mostrano come recuperare i metadati del filtro &quot;byText&quot; per la risorsa &quot;profile&quot;. Esegui prima una richiesta di GET sulla metada della risorsa &quot;profile&quot;.
+I payload di esempio seguenti mostrano come recuperare i metadati del filtro &quot;byText&quot; per la risorsa &quot;profile&quot;. Esegui prima una richiesta GET sulla metada della risorsa &quot;profile&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -101,7 +102,7 @@ Il filtro viene eseguito con la seguente richiesta:
 
 ***Richieste di esempio***
 
-* Richiesta di GET di esempio per recuperare le risorse &quot;service&quot; con tipo &quot;e-mail&quot;.
+* Richiesta GET di esempio per recuperare le risorse &quot;service&quot; con tipo &quot;e-mail&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -133,7 +134,7 @@ Il filtro viene eseguito con la seguente richiesta:
   }
   ```
 
-* Richiesta di GET di esempio per recuperare le risorse &quot;profile&quot; contenenti &quot;Doe&quot; in
+* Richiesta GET di esempio per recuperare le risorse &quot;profile&quot; contenenti &quot;Doe&quot; in
 i campi e-mail o cognome (il filtro byText esegue la ricerca sia nei campi e-mail che nel campo cognome).
 
   ```
@@ -162,7 +163,7 @@ i campi e-mail o cognome (il filtro byText esegue la ricerca sia nei campi e-mai
   }
   ```
 
-* Richiesta di GET di esempio per recuperare le risorse dei servizi con il tipo &quot;e-mail&quot; e l’etichetta &quot;sport&quot;.
+* Richiesta GET di esempio per recuperare le risorse dei servizi con il tipo &quot;e-mail&quot; e l’etichetta &quot;sport&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -202,14 +203,14 @@ Se desideri utilizzare un filtro personalizzato, devi crearlo e personalizzarlo 
 
 Per ulteriori informazioni, consulta la documentazione di Campaign Standard:
 
-* [Configurazione della definizione del filtro](https://helpx.adobe.com/it/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=it).
+* [Configurazione della definizione del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
 ***Richiesta di esempio***
 
-Richiesta di GET di esempio per recuperare le risorse &quot;profile&quot; con importi di transazione pari o superiori a 100$. Il filtro &quot;byAmount&quot; è stato definito per la prima volta nell’interfaccia di Adobe Campaign Standard ed è collegato alla tabella personalizzata &quot;Transaction&quot;.
+Richiesta GET di esempio per recuperare le risorse &quot;profile&quot; con importi di transazione pari o superiori a 100$. Il filtro &quot;byAmount&quot; è stato definito per la prima volta nell’interfaccia di Adobe Campaign Standard ed è collegato alla tabella personalizzata &quot;Transaction&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

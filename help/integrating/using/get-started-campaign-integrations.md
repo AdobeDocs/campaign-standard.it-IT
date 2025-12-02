@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 77%
@@ -27,7 +28,7 @@ Le diverse integrazioni indicate di seguito permettono di combinare le funzional
 
 A seconda dell’ambiente, è possibile collegare ad Adobe Experience Cloud altre soluzioni come Organizzazioni (o Tenant).
 
-Un’organizzazione è un’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come una log-in company che abbraccia tutti i prodotti e le soluzioni di Experience Cloud. Nella maggior parte dei casi l’organizzazione corrisponde al nome aziendale, ma una stessa azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è illustrata nel dettaglio nella [Guida di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=it).
+Un’organizzazione è un’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come una log-in company che abbraccia tutti i prodotti e le soluzioni di Experience Cloud. Nella maggior parte dei casi l’organizzazione corrisponde al nome aziendale, ma una stessa azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è illustrata nel dettaglio nella [Guida di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
 
 Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, consulta la [documentazione sulle API](../../api/using/get-started-apis.md).
 
@@ -49,14 +50,14 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> Adobe Experience Manager<br /> </td> 
    <td> Consente di creare contenuti e-mail o forms mappati al database Adobe Campaign direttamente in Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Utilizza Campaign e Experience Manager</a>, <a href="https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integra Experience Manager e Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=it">Crea un messaggio e-mail con Experience Manager e Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Utilizzo di Campaign e Experience Manager</a>, <a href="https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrazione di Experience Manager e Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Creazione di un messaggio e-mail con Experience Manager e Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Consente di inserire immagini calcolate dinamicamente da Adobe Target quando viene aperto un messaggio e-mail creato e inviato da Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=it">Integrazione di Campaign e Target</a>, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Video Personalizzazione immagini e-mail in tempo reale</a> (passaggio 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrazione di Campaign e Target</a>, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Video Personalizzazione immagini e-mail in tempo reale</a> (passaggio 3)
     </td> 
   </tr> 
   <tr> 
@@ -68,16 +69,16 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
   </tr> 
   <tr> 
    <td> Servizio core Adobe Audience Manager e People (Profili e Audiences)<br /> </td> 
-   <td> Consente di scambiare audiences con le diverse applicazioni Adobe Experience Cloud utilizzate.<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servizio core People (Profili e Audiences)</a><br /> </td> 
+   <td> Consente di scambiare i tipi di pubblico con le diverse applicazioni Adobe Experience Cloud utilizzate.<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Servizio core People (Profiles &amp; Audiences)</a><br /> </td> 
   </tr> 
    <tr> 
    <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
-   <td> L’integrazione tra Adobe Campaign e Adobe Real-time Customer Data Platform (RTCDP) consente di condividere i dati dei segmenti e importare i tipi di pubblico in Adobe Campaign.</td>
+   <td> L’integrazione tra Adobe Campaign e Adobe Real-time Customer Data Platform (RTCDP) consente di condividere i dati dei segmenti e importare tipi di pubblico in Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Guida introduttiva a origini e destinazioni</a></td>
   </tr> 
   <tr> 
-   <td> Adobe Asset Core Service e Assets On Demand<br /> </td> 
+   <td> Servizio core Asset di Adobe e Assets On Demand<br /> </td> 
    <td> Consente di inserire gli assets dalla libreria di Adobe Experience Cloud nelle e-mail e nelle pagine di destinazione create in Adobe Campaign.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Servizio core Assets</a> o Assets on-demand<br /> </td> 
   </tr> 
@@ -87,16 +88,16 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Inviare messaggi di marketing basati sulla posizione con i dati di Campaing e punti di interesse</a> (Analytics per dispositivi mobili)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud Triggers<br /> </td> 
+   <td> Trigger di Adobe Experience Cloud<br /> </td> 
    <td> Consente di inviare e-mail personalizzate ai clienti in Adobe Campaign come reazione a comportamenti specifici tracciati sul sito web da Adobe Analytics.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utilizzo dei Trigger di Experience Cloud in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Casi di utilizzo degli attivatori di abbandono</a>, video <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Trigger dei messaggi di remarketing basati sull’attività del sito</a> (passaggio 2)
     </td> 
   </tr> 
     <tr> 
-   <td> Journey Orchestration Adobe<br /> </td> 
-   <td> Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign Standard nel contesto di un Journey Orchestration di Adobe, tramite un'azione preconfigurata.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=it">Utilizzo di Adobe Journey Orchestration e Adobe Campaign Standard</a><br /> </td> 
+   <td> Adobe Journey Orchestration<br /> </td> 
+   <td> Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign Standard nel contesto di Adobe Journey Orchestration, tramite un'azione preconfigurata.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Utilizzo di Adobe Journey Orchestration e Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
