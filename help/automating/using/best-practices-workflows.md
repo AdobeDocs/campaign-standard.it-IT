@@ -131,7 +131,7 @@ Per ulteriori informazioni, consulta [Gestione dei pacchetti](../../automating/u
 
 ## Esportazione di elenchi{#exporting-lists}
 
-L’opzione esportazione di elenchi ti consente di esportare un massimo di 100.000 righe per impostazione predefinita ed è definita dall’opzione **** Nms_ExportListLimit. Questa opzione può essere gestita dall’amministratore funzionale in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+L’opzione esportazione di elenchi ti consente di esportare un massimo di 100.000 righe per impostazione predefinita ed è definita dall’opzione **&#x200B;**&#x200B;Nms_ExportListLimit. Questa opzione può essere gestita dall’amministratore funzionale in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 Per ulteriori informazioni, consulta [Esportazione di elenchi](../../automating/using/exporting-lists.md).
 
 ## Risoluzione dei problemi{#workflow-troubleshooting}

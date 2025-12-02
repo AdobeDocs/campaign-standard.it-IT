@@ -27,7 +27,7 @@ Puoi inviare un’e-mail di targeting ai clienti contenente le offerte sui loro 
 
 ## Selezione dei destinatari contattabili tramite e-mail{#selecting-recipients-contactable-via-email}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un&#39;attività [ ](../../automating/using/query.md)Query![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un&#39;attività [&#x200B; &#x200B;](../../automating/using/query.md)Query![](assets/query.png).
 1. Fai doppio clic sull’attività.
 1. In **[!UICONTROL Shortcuts]**, trascina e rilascia **[!UICONTROL Profiles]** e seleziona il campo **[!UICONTROL email]** con l’operatore **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]**, trascina e rilascia **[!UICONTROL Profiles]** e seleziona il campo **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.
