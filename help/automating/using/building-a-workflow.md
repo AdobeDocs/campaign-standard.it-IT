@@ -136,6 +136,6 @@ Per impostazione predefinita, le attività non sono impostate e non elaborano co
 
 Questo video mostra come creare un flusso di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329905?captions=ita&quality=12)
 
 Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

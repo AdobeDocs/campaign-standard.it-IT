@@ -38,7 +38,7 @@ Un token di accesso OAuth consente allo strumento di integrazione di eseguire lâ
 
 I passaggi principali sono descritti nel seguente video:
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/328146?captions=ita)
 
 Per generare il token di accesso OAuth, segui i passaggi descritti di seguito.
 
