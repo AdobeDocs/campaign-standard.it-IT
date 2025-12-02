@@ -53,7 +53,7 @@ Per creare un pubblico di Adobe Experience Platform direttamente in Campaign Sta
 
 1. Per creare correttamente un segmento, devi selezionare un **criterio di unione** che corrisponda allo scopo di marketing per questo segmento.
 
-   Nel riquadro delle impostazioni viene selezionato un criterio di unione predefinito di Platform. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della [guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Nel riquadro delle impostazioni viene selezionato un criterio di unione predefinito di Platform. Per ulteriori informazioni sui criteri di unione, consulta la sezione dedicata della [guida utente di Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
 
    ![](assets/aep_audiences_mergepolicy.png)
 

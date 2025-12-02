@@ -36,5 +36,5 @@ L’immagine viene quindi inserita. Ora la consegna può essere personalizzata i
 
 **Argomenti correlati:**
 
-* [Assets e condivisione](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets e condivisione](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=it)
 * [Editor di contenuti](../../designing/using/personalization.md#example-email-personalization)

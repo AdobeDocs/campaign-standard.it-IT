@@ -39,14 +39,14 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 >
 >Questa operazione può essere eseguita tramite le API o l’interfaccia di Adobe Experience Platform. Per ulteriori informazioni, consulta la documentazioni dedicata:
 >
->* [Abilitare un set di dati per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [Configura un set di dati per Real-time Customer Profile e Identity Service tramite API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [Abilitare un set di dati per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=it)
+>* [Configura un set di dati per Real-time Customer Profile e Identity Service tramite API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=it)
 
 ## Concetti chiave {#key-concepts}
 
 * La mappatura predefinita è disponibile solo per i campi che vengono forniti in Campaign Standard per impostazione predefinita. Per acquisire tutti i campi e le risorse personalizzati, ogni cliente deve definire la propria mappatura.
 
-* Adobe Experience Platform Data Connector invia i dati del profilo tramite la piattaforma a intervalli regolari. &#x200B; La durata dell’intervallo è di 15 minuti. Questo valore può essere modificato utilizzando [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector invia i dati del profilo tramite la piattaforma a intervalli regolari. &#x200B; La durata dell’intervallo è di 15 minuti. Questo valore può essere modificato utilizzando [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it).
 
 * L’ingegnere dati può pubblicare, modificare e mettere in pausa la mappatura da Campaign a Adobe Experience Platform.
 
@@ -60,7 +60,7 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 
 * Il servizio Experience Cloud ID (ECID) è un identificatore di dispositivo che viene inviato per impostazione predefinita con Experience Events.
 
-  Si tratta di un ID univoco e permanente assegnato a un visitatore, che può essere utilizzato dal servizio Platform Identity per identificare lo stesso visitatore e i relativi dati nelle diverse soluzioni Experience Cloud. Per ulteriori informazioni, consulta la [Guida del servizio Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+  Si tratta di un ID univoco e permanente assegnato a un visitatore, che può essere utilizzato dal servizio Platform Identity per identificare lo stesso visitatore e i relativi dati nelle diverse soluzioni Experience Cloud. Per ulteriori informazioni, consulta la [Guida del servizio Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
   >[!NOTE]
   >
@@ -70,7 +70,7 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 
 * Il trasferimento predefinito degli eventi di abbonamento non è supportato. Per trasferire gli eventi di abbonamento, puoi creare l’XDM e il set di dati corrispondenti in Adobe Experience Platform, quindi configurare una mappatura dei dati personalizzata per tali dati.
 
-* Per quanto riguarda le richieste di accesso a dati personali (azioni di accesso ed eliminazione), i clienti devono inviare richieste separate tramite il [servizio core per la privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): uno per Campaign e uno per Adobe Experience Platform. Per ulteriori informazioni, consulta [Informazioni sulle richieste di accesso a dati personali](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=it#getting-started) e [Gestione delle richieste di accesso a dati personali](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
+* Per quanto riguarda le richieste di accesso a dati personali (azioni di accesso ed eliminazione), i clienti devono inviare richieste separate tramite il [servizio core per la privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it#how-to-use-privacy-service-to-manage-privacy-job-requests): uno per Campaign e uno per Adobe Experience Platform. Per ulteriori informazioni, consulta [Informazioni sulle richieste di accesso a dati personali](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=it#getting-started) e [Gestione delle richieste di accesso a dati personali](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
 
 * Per ogni campo XDM, l’etichettatura DULE deve essere eseguita in Adobe Experience Platform. È responsabilità del cliente applicare le etichette DULE.
 
@@ -84,4 +84,4 @@ Questo video offre una panoramica del connettore dati di Adobe Experience Platfo
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Ulteriori video relativi al Connettore dati di Adobe Experience Platform sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
+Ulteriori video relativi al Connettore dati di Adobe Experience Platform sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=it).

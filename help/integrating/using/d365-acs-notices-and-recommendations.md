@@ -163,7 +163,7 @@ Quando si pianifica l’utilizzo di questa integrazione, è necessario tenere co
 
   Quando si calcola il volume complessivo delle chiamate al motore di Campaign, è importante tenere conto di altre origini di chiamate al motore, tra cui pagine di destinazione, WebApps, JSSP, API, registrazioni di app mobili e così via.
 
-  Visualizza le informazioni sul pacchetto Adobe Campaign Standard qui: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)
+  Visualizza le informazioni sul pacchetto Adobe Campaign Standard qui: [https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html)
 
 * L’integrazione supporta un massimo di 15 milioni di record totali per la sincronizzazione iniziale con le risorse in Campaign. La sincronizzazione incrementale è limitata dal pacchetto Adobe Campaign Standard.
 

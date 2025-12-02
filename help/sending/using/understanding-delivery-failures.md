@@ -35,7 +35,7 @@ I messaggi possono essere esclusi anche durante la preparazione della consegna s
 
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Rimbalzi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [Rimbalzi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it#metrics-for-deliverability)
 
 ## Identificazione degli errori di consegna per un messaggio {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +75,8 @@ I possibili motivi di un errore di consegna sono:
 
 
 **Argomenti correlati:**
-* [Rimbalzi permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [Mancati recapiti non permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [Rimbalzi permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it#hard-bounces)
+* [Mancati recapiti non permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it#soft-bounces)
 
 ## Tentativi dopo un errore temporaneo di consegna {#retries-after-a-delivery-temporary-failure}
 
@@ -118,7 +118,7 @@ Per i messaggi di errore di mancata consegna sincroni, l’MTA avanzato di Adobe
 
 Le mancate consegne asincrone vengono comunque qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per accedere a queste regole, fai clic sul logo **Adobe**, in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, consulta [questa sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Per ulteriori informazioni sui mancati recapiti e sui diversi tipi di mancati recapiti, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Per ulteriori informazioni sui mancati recapiti e sui diversi tipi di mancati recapiti, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

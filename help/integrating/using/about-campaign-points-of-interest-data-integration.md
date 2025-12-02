@@ -20,7 +20,7 @@ ht-degree: 6%
 
 Oltre a monitorare la presenza online dei clienti, puoi sfruttare anche le loro posizioni fisiche. Grazie all’integrazione con Adobe Analytics per dispositivi mobili, puoi utilizzare Adobe Campaign per inviare messaggi di marketing basati sulla posizione agli abbonati alla tua app mobile.
 
-I punti di interesse sono costituiti da una latitudine, una longitudine e un raggio associati a un’etichetta. Sono definiti nell&#39;interfaccia [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html).
+I punti di interesse sono costituiti da una latitudine, una longitudine e un raggio associati a un’etichetta. Sono definiti nell&#39;interfaccia [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=it).
 
 Quando un abbonato apre la tua app mobile, se la posizione corrisponde a un punto di interesse, Adobe Campaign acquisisce i dati tramite Experience Cloud Mobile SDK. Puoi utilizzare queste informazioni per inviare messaggi personalizzati in base alla posizione dell’utente (ad esempio e-mail, notifiche push, messaggi SMS).
 

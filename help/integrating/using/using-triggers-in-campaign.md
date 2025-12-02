@@ -24,7 +24,7 @@ ht-degree: 74%
 >
 >Per creare Triggers, è necessario il ruolo **[!UICONTROL Administration]** o appartenere al gruppo di sicurezza **[!UICONTROL Administrators]**. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/list-of-roles.md).
 
-È necessario assicurarsi di definire in anticipo i comportamenti che si desidera monitorare in Adobe Experience Cloud (**[!UICONTROL Triggers]** servizio core). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
+È necessario assicurarsi di definire in anticipo i comportamenti che si desidera monitorare in Adobe Experience Cloud (**[!UICONTROL Triggers]** servizio core). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=it). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
 
 Ora devi creare un evento trigger in Adobe Campaign basato su un trigger esistente di Adobe Experience Cloud.
 

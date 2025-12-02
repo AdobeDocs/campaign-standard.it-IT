@@ -96,7 +96,7 @@ L’alias a cui si fa riferimento in precedenza in DTM deve essere creato nel se
 
 Crea un nuovo trigger in Experience Cloud e accertati di selezionare la suite di rapporti utilizzata sul tuo sito web. Assicurati di scegliere la dimensione giusta in modo che il trigger si attivi.
 
-Consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+Consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=it).
 
 ## Best practice e limitazioni relative agli attivatori {#triggers-best-practices-and-limitations}
 
