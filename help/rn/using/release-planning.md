@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
+source-git-commit: a9137d1230bd4d975593cfcc3f9c5e2e985f603d
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Gli aggiornamenti vengono implementati in due fasi. In primo luogo, le istanze n
 
 Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
-## Versione 25.2 - Estate 2025 {#release-25-2-release}
+## Versione 26.1 {#release-26.1}
 
 Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](release-notes.md) all’avvio degli aggiornamenti dell’ambiente di staging.
 
@@ -40,12 +40,12 @@ Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla v
  <tbody>
   <tr>
    <td>Fase </td>
-   <td>Agosto </td>
+   <td>Marzo </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Produzione </td>
-   <td>Settembre </td>
+   <td>Aprile </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
