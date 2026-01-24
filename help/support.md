@@ -119,7 +119,7 @@ Il nuovo sistema di ticket è stato introdotto tramite [Adobe Admin Console](htt
 
 ### Chiedi agli esperti
 
-Iscriviti alla community di Campaign: cerca le risposte già fornite alle domande esistenti o fai la tua domanda alla community. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Iscriviti alla community di Campaign: cerca le risposte già fornite alle domande esistenti o fai la tua domanda alla community. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=it)
 
 ### Crea un ticket o avvia una chat
 
