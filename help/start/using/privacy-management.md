@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ It also contains information on important features to manage Privacy ([consent, 
    * https://www.adobe.com/it/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/it/marketing-cloud/campaign/general-data-protection-regulation.html
 
-* **Il CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) fornisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California.
+* **Il CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=)) fornisce ai residenti della California nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California.
 * **Il PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) è la nuova legge sulla privacy che armonizza e modernizza i requisiti di protezione dei dati in Thailandia.
 * **La LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) entrerà in vigore all’inizio del 2021 per tutte le aziende che raccolgono o elaborano dati personali in Brasile.
 
@@ -94,11 +94,11 @@ Le funzioni per gestire alcuni aspetti del consenso sono da sempre funzioni core
 
 Per ulteriori informazioni sulla gestione del consenso, consulta [Informazioni sugli abbonamenti](../../audiences/using/about-subscriptions.md) e [Introduzione alle pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md).
 
-Oltre a utilizzare gli strumenti di gestione del consenso forniti da Adobe Campaign, puoi verificare se un consumatore ha rinunciato alla vendita di informazioni personali. Vedi [questa sezione](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+Oltre a utilizzare gli strumenti di gestione del consenso forniti da Adobe Campaign, puoi verificare se un consumatore ha negato il consenso alla vendita dei suoi dati personali. Vedi [questa sezione](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Rights Management {#rights-management}
 
- Adobe Campaign consente di gestire i diritti assegnati ai vari operatori Campaign tramite diversi ruoli predefiniti o personalizzati.
+ Adobe Campaign consente di gestire i diritti assegnati ai vari operatori di Campaign tramite diversi ruoli predefiniti o personalizzati.
 
 Uno dei vantaggi offerti è la possibilità di gestire chi può accedere a diversi tipi di dati all’interno dell’azienda. Ad esempio, puoi fare in modo che diversi esperti di marketing che coprono aree geografiche diverse accedano solo ai dati della propria area geografica.
 

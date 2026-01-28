@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 # Privacy e consenso{#privacy-and-consent}
 
-## Raccomandazioni generali {#general-recommendations}
+## Consigli generali {#general-recommendations}
 
 Adobe Campaign è uno strumento utile per la raccolta e l’elaborazione di grandi quantità di dati, compresi informazioni personali e dati riservati. Ecco perché è fondamentale gestire attentamente la privacy.
 
@@ -37,7 +37,7 @@ Per gestire correttamente la privacy e i dati personali, attieniti alle normativ
 * [DPA](https://www.gov.uk/data-protection) (implementazione del GDPR nel Regno Unito)
 * [Direttiva europea relativa alla vita privata e alle comunicazioni elettroniche](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) (legge statunitense che definisce le regole e i requisiti per le e-mail commerciali)
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
+* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (legge sulla protezione dei dati personali in Thailandia)
 
 >[!NOTE]
@@ -78,7 +78,7 @@ Per ulteriori dettagli sulla privacy di Adobe Experience Cloud, consulta [questa
 
 Nella gestione della privacy è importante definire quali dati devono essere gestiti con cura e chi si occupa della gestione.
 * **I dati personali** sono informazioni che possono identificare direttamente o indirettamente un individuo.
-* **I dati personali riservati** sono informazioni relative a etnia, opinioni politiche, credenze religiose, precedenti penali, informazioni genetiche, dati sanitari, orientamento sessuale e informazioni biometriche di un individuo, nonché ad appartenenze a sindacati.
+* **I dati personali riservati** sono informazioni relative a etnia, opinioni politiche, credenze religiose, precedenti penali, informazioni genetiche, dati sanitari, orientamento sessuale e informazioni biometriche di un individuo, nonché iscrizioni a sindacati.
 
 Le [normative principali](#privacy-regulations) si riferiscono alle diverse entità che gestiscono i dati come segue:
 * Il **titolare del trattamento** è l’autorità che determina i mezzi e lo scopo della raccolta, dell’utilizzo e della condivisione dei dati personali.
@@ -115,8 +115,8 @@ In [questa sezione](#personal-data) sono illustrate le principali funzionalità 
 Adobe Campaign offre da sempre funzioni importanti necessarie per la privacy:
 
 * **Gestione del consenso**: attraverso il processo di gestione degli abbonamenti, puoi gestire le preferenze dei destinatari e tenere traccia dei destinatari che hanno acconsentito all’abbonamento e di che tipo di abbonamento si tratta. Per ulteriori informazioni, consulta [Abbonamenti](../../audiences/using/about-subscriptions.md) e [Pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md).
-* **Conservazione dei dati**: tutte le tabelle di registro standard integrate dispongono di periodi di conservazione preimpostati, che in genere limitano l’archiviazione dei dati a un massimo di 6 mesi. Puoi impostare ulteriori periodi di conservazione con i flussi di lavoro. Per maggiori informazioni, rivolgiti ai consulenti o agli amministratori tecnici di Adobe.
-* **Gestione dei diritti**: Adobe Campaign consente di gestire i diritti assegnati ai vari operatori Campaign tramite diversi ruoli predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Per ulteriori informazioni, consulta [Informazioni sulla gestione degli accessi](../../administration/using/about-access-management.md).
+* **Conservazione dei dati**: tutte le tabelle di registro standard incorporate dispongono di periodi di conservazione preimpostati, che in genere limitano l’archiviazione dei dati a un massimo di 6 mesi. Puoi impostare ulteriori periodi di conservazione con i flussi di lavoro. Per maggiori informazioni, rivolgiti ai consulenti o agli amministratori tecnici di Adobe.
+* **Gestione dei diritti**: Adobe Campaign consente di gestire i diritti assegnati ai vari operatori di Campaign tramite diversi ruoli predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Per ulteriori informazioni, consulta [Informazioni sulla gestione degli accessi](../../administration/using/about-access-management.md).
 
 Per ulteriori informazioni su queste funzioni e su come gestirle in Adobe Campaign, consulta [questa pagina](../../start/using/privacy-management.md#consent-retention-roles).
 
@@ -142,4 +142,4 @@ Grazie alle funzionalità di tracciamento, Adobe Campaign consente di monitorare
 >
 >Normative quali il Regolamento generale sulla protezione dei dati (GDPR) affermano che le aziende necessitano del consenso degli utenti del sito web per installare i cookie. È necessario informare gli utenti che i siti sono dotati di strumenti di monitoraggio web tramite una richiesta di autorizzazione.
 
-Puoi anche aggiungere [collegamenti tracciati](../../designing/using/links.md#about-tracked-urls) nei messaggi per misurare l’impatto della consegna e il comportamento dei destinatari nel rapporto integrato sugli [indicatori di tracciamento](../../reporting/using/tracking-indicators.md) o creare [rapporti dedicati](../../reporting/using/about-dynamic-reports.md).
+Puoi anche aggiungere [collegamenti tracciati](../../designing/using/links.md#about-tracked-urls) nei messaggi per misurare l’impatto della consegna e il comportamento dei destinatari nel rapporto incorporato sugli [indicatori di tracciamento](../../reporting/using/tracking-indicators.md) o creare [rapporti dedicati](../../reporting/using/about-dynamic-reports.md).

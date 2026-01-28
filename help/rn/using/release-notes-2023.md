@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
 source-git-commit: 30e96494dd7fa3313601e48deeec8ef98dcdce85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **Integrazione con Adobe Experience Manager**. Durante la creazione di un modello di consegna personalizzato per i messaggi transazionali in Adobe Experience Manager, ora puoi selezionare e utilizzare i campi di personalizzazione definiti in Campaign Standard in un elenco a discesa. [Ulteriori informazioni](../../integrating/using/creating-email-experience-manager.md)
 
-* **Scadenza cookie**: la scadenza predefinita dei cookie è ora impostata su 6 mesi, in linea con le raccomandazioni dell’Agenzia francese per la protezione dei dati (CNIL).
+* **Scadenza cookie**: la scadenza predefinita dei cookie è ora impostata su 6 mesi, in linea con i consigli dell’Agenzia francese per la protezione dei dati (CNIL).
 
 * **Miglioramento della ricerca nel profilo**: la ricerca nel profilo è stata ottimizzata per ridurne gli scenari di timeout
 

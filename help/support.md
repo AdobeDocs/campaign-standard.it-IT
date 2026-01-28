@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
     </td>
     <td valign="top">
         <ul>
-        <li><a href="rn/using/release-planning.md">Passare a una nuova versione</a></li>
+        <li><a href="rn/using/release-planning.md">Effettuare l’aggiornamento a una nuova versione</a></li>
         <li><a href="sending/using/monitoring-a-delivery.md">Monitorare una consegna</a></li>
         <li><a href="sending/using/understanding-quarantine-management.md">Gestione della quarantena</a></li>
         <li><a href="start/using/privacy-management.md">Privacy e gestione del consenso</a></li>
@@ -119,7 +119,7 @@ Il nuovo sistema di ticket è stato introdotto tramite [Adobe Admin Console](htt
 
 ### Chiedi agli esperti
 
-Iscriviti alla community di Campaign: cerca le risposte già fornite alle domande esistenti o fai la tua domanda alla community. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=it)
+Iscriviti alla community di Campaign: cerca le risposte già fornite alle domande esistenti o fai la tua domanda alla community. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Crea un ticket o avvia una chat
 

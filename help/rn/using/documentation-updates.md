@@ -45,13 +45,13 @@ Sono state pubblicate le note sulla versione di Campaign Standard 23.1, primaver
 
 ## Novembre 2022 {#doc-updates-november-2022}
 
-È stata aggiunta una nota per consigliare di evitare spazi vuoti nel campo ID delle consegne. [Maggiori informazioni](../../channels/using/creating-an-email.md)
+È stata aggiunta una nota per consigliare di evitare spazi vuoti nel campo ID delle consegne. [Ulteriori informazioni](../../channels/using/creating-an-email.md)
 
-Sono state aggiunte informazioni nella sezione pagina delle attività del flusso di lavoro **[!UICONTROL Extract file]** per estrarre i dati in un file CSV con una codifica specifica. [Maggiori informazioni](../../automating/using/extract-file.md)
+Sono state aggiunte informazioni nella sezione pagina delle attività del flusso di lavoro **[!UICONTROL Extract file]** per estrarre i dati in un file CSV con una codifica specifica. [Ulteriori informazioni](../../automating/using/extract-file.md)
 
 ## Versione 22.3 - Autunno/inverno 2022 {#release-22-3}
 
-Sono state pubblicate le note sulla versione di Campaign Standard 22.3 autunno/inverno 2022. [Maggiori informazioni](release-notes.md)
+Sono state pubblicate le note sulla versione di Campaign Standard 22.3 autunno/inverno 2022. [Ulteriori informazioni](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -76,23 +76,23 @@ Sono state aggiunte informazioni sulla modalità di prova SMTP. [Ulteriori infor
 
 **Miglioramenti inclusi nella versione**
 
-È stato migliorato il meccanismo di esecuzione di nuovi tentativi per le consegne che comprendono contenuti importati da un URL. [Maggiori informazioni](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+È stato migliorato il meccanismo di esecuzione di nuovi tentativi per le consegne che comprendono contenuti importati da un URL. [Ulteriori informazioni](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-È stato aggiornato il livello di accesso delle opzioni che controllano Audit: le opzioni precedenti per abilitare/disabilitare [Audit trail](../../administration/using/audit.md) non erano accessibili agli [amministratori funzionali](../../administration/using/users-management.md#functional-administrators). Con questa modifica al livello di accesso, gli amministratori funzionali possono accedere ai controlli dell’audit. [Maggiori informazioni](../../administration/using/audit.md#enable-disable-audit)
+È stato aggiornato il livello di accesso delle opzioni che controllano Audit: le opzioni precedenti per abilitare/disabilitare [Audit trail](../../administration/using/audit.md) non erano accessibili agli [amministratori funzionali](../../administration/using/users-management.md#functional-administrators). Con questa modifica al livello di accesso, gli amministratori funzionali possono accedere ai controlli dell’audit. [Ulteriori informazioni](../../administration/using/audit.md#enable-disable-audit)
 
 È stato aggiunto il nuovo elenco a discesa **Job historyi** (Storico dei process) alla dashboard dei messaggi. [Leggi tutto](../../sending/using/monitoring-a-delivery.md)
 
 **Altre modifiche**
 
-È stata aggiunta una nota di avvertenza sulle parole chiave che attivano le risposte SMS automatiche: possono contenere solo caratteri alfanumerici. [Maggiori informazioni](../../channels/using/managing-incoming-sms.md)
+È stata aggiunta una nota di avvertenza sulle parole chiave che attivano le risposte SMS automatiche: possono contenere solo caratteri alfanumerici. [Ulteriori informazioni](../../channels/using/managing-incoming-sms.md)
 
-È stata aggiunta una nota alla sezione sulle e-mail per test A/B: se la popolazione totale è inferiore a 50k, ogni variante deve rappresentare almeno il 10% della popolazione totale. In caso contrario, i registri presenteranno un’avvertenza. [Maggiori informazioni](../../channels/using/designing-an-a-b-test-email.md)
+È stata aggiunta una nota alla sezione sulle e-mail per test A/B: se la popolazione totale è inferiore a 50k, ogni variante deve rappresentare almeno il 10% della popolazione totale. In caso contrario, i registri presenteranno un’avvertenza. [Ulteriori informazioni](../../channels/using/designing-an-a-b-test-email.md)
 
-È stata aggiornata la descrizione dell’opzione **[!UICONTROL Delete the source files after transfer]** nell’attività **Transfer file** (Trasferimento file), per ricordare all’utente di monitorare manualmente le dimensioni dei contenuti archiviati nella directory SFTP se l’opzione non è selezionata. [Maggiori informazioni](../../automating/using/transfer-file.md)
+È stata aggiornata la descrizione dell’opzione **[!UICONTROL Delete the source files after transfer]** nell’attività **Transfer file** (Trasferimento file), per ricordare all’utente di monitorare manualmente le dimensioni dei contenuti archiviati nella directory SFTP se l’opzione non è selezionata. [Ulteriori informazioni](../../automating/using/transfer-file.md)
 
-Sono stati aggiornati tutti i collegamenti obsoleti nelle sezioni **Privacy**. [Maggiori informazioni](../../start/using/privacy.md)
+Sono stati aggiornati tutti i collegamenti obsoleti nelle sezioni **Privacy**. [Ulteriori informazioni](../../start/using/privacy.md)
 
-Nell’indice dei contenuti della documentazione di Campaign Standard è stato aggiunto un collegamento diretto alla documentazione del Pannello di controllo Campaign.
+Nel sommario della documentazione di Campaign Standard è stato aggiunto un collegamento diretto alla documentazione del Pannello di controllo.
 
 ## Versione 21.3 - Settembre 2021 {#release-21-3---september-2021}
 
@@ -106,23 +106,23 @@ Modalità diagnostica per flussi di lavoro: [leggi tutto](../../automating/using
 
 **Altri aggiornamenti alla documentazione per questa versione**
 
-È stata aggiunta una nuova sezione su come rimuovere un indirizzo dall’elenco di quarantena. [Leggi tutto](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+È stata aggiunta una nuova sezione su come rimuovere un indirizzo dall’elenco di quarantena. [Ulteriori informazioni](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-La sezione **Quarantena rispetto a elenco Bloccati** è stata resa più chiara. [Leggi tutto](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+La sezione **Quarantena rispetto a elenco Bloccati** è stata resa più chiara. [Ulteriori informazioni](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ## Luglio 2021 {#doc-updates-july-2021}
 
-È stata aggiunta una nuova sezione per descrivere come consentire agli utenti di abbonarsi o annullare l’abbonamento a più servizi da una singola pagina di destinazione. [Leggi tutto](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+È stata aggiunta una nuova sezione per descrivere come consentire agli utenti di abbonarsi o annullare l’abbonamento a più servizi da una singola pagina di destinazione. [Ulteriori informazioni](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
 
-La sezione **Gestione dei dati del modulo della pagina di destinazione** è stata aggiornata e chiarita. [Leggi tutto](../../channels/using/managing-landing-page-form-data.md)
+La sezione **Gestione dei dati del modulo della pagina di destinazione** è stata aggiornata e chiarita. [Ulteriori informazioni](../../channels/using/managing-landing-page-form-data.md)
 
 ## Versione 21.2 - Giugno 2021 {#release-21-2---june-2021}
 
 **Nuove funzionalità incluse nella versione**
 
-Convalida delle pagine di destinazione: ora puoi aggiungere alle pagine di destinazione un’opzione di accettazione obbligatoria. [Leggi tutto](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Convalida delle pagine di destinazione: ora puoi aggiungere alle pagine di destinazione un’opzione di accettazione obbligatoria. [Ulteriori informazioni](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-La sezione **Dimensione e-mail** è stata aggiornata con informazioni sulle dimensioni massime di un messaggio e-mail, che ora sono di 100 MB per impostazione predefinita. [Leggi tutto](../../sending/using/design-and-personalize.md#email-size)
+La sezione **Dimensione e-mail** è stata aggiornata con informazioni sulle dimensioni massime di un messaggio e-mail, che ora sono di 100 MB per impostazione predefinita. [Ulteriori informazioni](../../sending/using/design-and-personalize.md#email-size)
 
 **Altri aggiornamenti alla documentazione in arrivo con la versione**
 
@@ -130,28 +130,28 @@ Sono state aggiunte informazioni su come modificare la mappatura di destinazione
 
 ## Maggio 2021 {#doc-updates-may-2021}
 
-La sezione del rapporto **Profili attivi** è stata aggiornata. [Leggi tutto](../../audiences/using/active-profiles.md)
+La sezione del rapporto **Profili attivi** è stata aggiornata. [Ulteriori informazioni](../../audiences/using/active-profiles.md)
 
-La pagina **Pianificazione del rilascio** è stata aggiornata con nuove date. [Leggi tutto](../../rn/using/release-planning.md)
+La pagina **Pianificazione del rilascio** è stata aggiornata con nuove date. [Ulteriori informazioni](../../rn/using/release-planning.md)
 
 
 ## Aprile 2021 {#doc-updates-april-2021}
 
-È stata aggiunta una nuova sezione su come lavorare con le origini e le destinazioni di Adobe Experience Platform per condividere i dati tra Campaign Standard e Adobe Real-time Customer Data Platform (RTCDP). [Leggi tutto](../../integrating/using/get-started-sources-destinations.md)
+È stata aggiunta una nuova sezione su come lavorare con le origini e le destinazioni di Adobe Experience Platform per condividere i dati tra Campaign Standard e Adobe Real-time Customer Data Platform (RTCDP). [Ulteriori informazioni](../../integrating/using/get-started-sources-destinations.md)
 
 ## Marzo 2021 {#doc-updates-march-2021}
 
-Nuova pagina **Opzioni di assistenza e supporto**. [Leggi tutto](../../support.md)
+Nuova pagina **Opzioni di assistenza e supporto**. [Ulteriori informazioni](../../support.md)
 
-La sezione in cui sono elencati i passaggi chiave per l’invio di un messaggio è stata migliorata con informazioni e riferimenti aggiuntivi. [Leggi tutto](../../channels/using/key-steps-to-send-a-message.md)
+La sezione in cui sono elencati i passaggi chiave per l’invio di un messaggio è stata migliorata con informazioni e riferimenti aggiuntivi. [Ulteriori informazioni](../../channels/using/key-steps-to-send-a-message.md)
 
-Sono state aggiunte informazioni per specificare che, quando si seleziona un pubblico in una query, la relativa definizione viene copiata e non inserita come riferimento. [Leggi tutto](../../audiences/using/selecting-an-audience-in-a-message.md)
+Sono state aggiunte informazioni per specificare che, quando si seleziona un pubblico in una query, la relativa definizione viene copiata e non inserita come riferimento. [Ulteriori informazioni](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 Le informazioni relative al servizio Audience Destinations e al connettore dati Adobe Experience Platform sono state raggruppate in una nuova sezione.
 
-L’origine dati **Declared ID** (ID dichiarato) può ora essere utilizzata anche con l’integrazione del servizio core People. Sono state aggiunte informazioni nella documentazione relativa all’integrazione del servizio core Campaign-Audience Manager o People. [Leggi tutto](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+L’origine dati **Declared ID** (ID dichiarato) può ora essere utilizzata anche con l’integrazione del servizio core People. Sono state aggiunte informazioni nella documentazione relativa all’integrazione del servizio core Campaign-Audience Manager o People. [Ulteriori informazioni](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Sono state aggiunte informazioni su come implementare il tracciamento locale per le app mobili. [Leggi tutto](../../administration/using/local-tracking.md)
+Sono state aggiunte informazioni su come implementare il tracciamento locale per le app mobili. [Ulteriori informazioni](../../administration/using/local-tracking.md)
 
 La sezione [Recapito messaggi](../../sending/using/about-deliverability.md) è stata aggiornata e ora include i collegamenti alla nuova [guida Adobe alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it). Tutte le informazioni generiche relative al recapito dei messaggi valide per varie soluzioni Adobe sono state spostate nell’[Appendice alla Guida alle best practice](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=it#additional-resources).
 
@@ -167,29 +167,29 @@ Interfaccia unificata Experience Cloud - [Leggi tutto](../../start/using/interfa
 
 **Altri aggiornamenti alla documentazione in arrivo con la versione**
 
-Sono state aggiunte informazioni su come cercare un profilo in base all’e-mail, al nome, al cognome o a qualsiasi campo personalizzato. [Leggi tutto](../../audiences/using/integrated-customer-profile.md)
+Sono state aggiunte informazioni su come cercare un profilo in base all’e-mail, al nome, al cognome o a qualsiasi campo personalizzato. [Ulteriori informazioni](../../audiences/using/integrated-customer-profile.md)
 
-Sono state aggiunte informazioni sulla nuova funzione GetOption, che consente di restituire il valore di una funzione specificata quando viene richiamato un flusso di lavoro con parametri esterni. [Leggi tutto](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+Sono state aggiunte informazioni sulla nuova funzione GetOption, che consente di restituire il valore di una funzione specificata quando viene richiamato un flusso di lavoro con parametri esterni. [Ulteriori informazioni](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-Sono state aggiunte informazioni sulla nuova variabile di output **[!UICONTROL filesCount]** disponibile dopo l’utilizzo di un’attività **[!UICONTROL Transfer file]**. [Leggi tutto](../../automating/using/transfer-file.md#output-variables)
+Sono state aggiunte informazioni sulla nuova variabile di output **[!UICONTROL filesCount]** disponibile dopo l’utilizzo di un’attività **[!UICONTROL Transfer file]**. [Ulteriori informazioni](../../automating/using/transfer-file.md#output-variables)
 
-La sezione per la **configurazione del canale e-mail** è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. In fondo alla pagina sono elencati alcuni parametri legacy ancora in uso per alcuni clienti. [Leggi tutto](../../administration/using/configuring-email-channel.md)
+La sezione per la **configurazione del canale e-mail** è stata aggiornata per chiarire quali sono le impostazioni e-mail più recenti applicabili. In fondo alla pagina sono elencati alcuni parametri legacy ancora in uso per alcuni clienti. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md)
 
-Sono state aggiunte informazioni su come evitare che un flusso di lavoro pianificato possa essere riprianificato se sono ancora in sospeso una o più attività di un’esecuzione precedente. [Leggi tutto](../../automating/using/scheduled-workflows-execution.md)
+Sono state aggiunte informazioni su come evitare che un flusso di lavoro pianificato possa essere riprianificato se sono ancora in sospeso una o più attività di un’esecuzione precedente. [Ulteriori informazioni](../../automating/using/scheduled-workflows-execution.md)
 
 ## Dicembre 2020 {#doc-updates-december-2020}
 
-La funzionalità **Oggetto predittivo** è ora obsoleta. [Leggi tutto](../../rn/using/deprecated-features.md)
+La funzionalità **Oggetto predittivo** è ora obsoleta. [Ulteriori informazioni](../../rn/using/deprecated-features.md)
 
 La sezione **Guida introduttiva alla messaggistica transazionale** ora include [schemi ottimizzati](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) per una migliore comprensione del processo.
 
-È ora disponibile un caso d’uso end-to-end che illustra il processo di implementazione della messaggistica transazionale. [Leggi tutto](../../channels/using/transactional-messaging-use-case.md)
+È ora disponibile un caso d’uso end-to-end che illustra il processo di implementazione della messaggistica transazionale. [Ulteriori informazioni](../../channels/using/transactional-messaging-use-case.md)
 
 La sezione **Privacy** è stata spostata [qui](../../start/using/privacy.md).
 
-È disponibile una nuova pagina **Accessibilità**, con informazioni sul supporto dell’accessibilità nell’area di lavoro Adobe Campaign Standard. [Leggi tutto](../../start/using/accessibility.md)
+È disponibile una nuova pagina **Accessibilità**, con informazioni sul supporto dell’accessibilità nell’area di lavoro Adobe Campaign Standard. [Ulteriori informazioni](../../start/using/accessibility.md)
 
-È stato aggiunto un avviso che segnala che, al fine di ottenere prestazioni ottimali, il numero di messaggi transazionali pubblicati deve essere inferiore a 100. [Leggi tutto](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+È stato aggiunto un avviso che segnala che, al fine di ottenere prestazioni ottimali, il numero di messaggi transazionali pubblicati deve essere inferiore a 100. [Ulteriori informazioni](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 La pagina del protocollo e delle impostazioni del connettore SMS è stata spostata [qui](../../administration/using/sms-protocol.md).
 
@@ -197,13 +197,13 @@ La sezione **Utilizzo degli elenchi di prodotti in un messaggio transazionale** 
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
-La sezione **Dati personali e persone** è stata aggiornata con uno scenario di utilizzo che illustra l’interazione delle diverse persone in materia di dati personali. [Leggi tutto](../../start/using/privacy.md#use-case-scenario)
+La sezione **Dati personali e persone** è stata aggiornata con uno scenario di utilizzo che illustra l’interazione delle diverse persone in materia di dati personali. [Ulteriori informazioni](../../start/using/privacy.md#use-case-scenario)
 
-È stata aggiunta una nuova sezione in cui sono elencate le domande frequenti sulla privacy. [Leggi tutto](../../start/using/privacy-faq.md)
+È stata aggiunta una nuova sezione in cui sono elencate le domande frequenti sulla privacy. [Ulteriori informazioni](../../start/using/privacy-faq.md)
 
 La sezione **Privacy** è stata spostata e arricchita con due nuove pagine: [Gestione della privacy](../../start/using/privacy-management.md) e [Gestione delle richieste di accesso a dati personali](../../start/using/privacy-requests.md).
 
-La sezione **Messaggistica transazionale** è stata riorganizzata e raccolta in un’unica posizione per migliorare la navigazione. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
+La sezione **Messaggistica transazionale** è stata riorganizzata e raccolta in un’unica posizione per migliorare la navigazione. [Ulteriori informazioni](../../channels/using/getting-started-with-transactional-msg.md)
 
 Nella sezione Connettore dati di Adobe Experience Platform sono state aggiunte informazioni sull’errore di convalida della mappatura dati relativo alla gestione della privacy e su come risolverlo.
 
@@ -219,29 +219,29 @@ Integrazione di Journey IA per la gestione dei percorsi cliente.[Leggi tutto](..
 
 **Altri aggiornamenti alla documentazione in arrivo con la versione**
 
-La sezione sulla chiamata di un flusso di lavoro con parametri esterni è stata arricchita con le nuove funzioni disponibili nell’editor espressioni. [Leggi tutto](../../automating/using/customizing-workflow-external-parameters.md)
+La sezione sulla chiamata di un flusso di lavoro con parametri esterni è stata arricchita con le nuove funzioni disponibili nell’editor espressioni. [Ulteriori informazioni](../../automating/using/customizing-workflow-external-parameters.md)
 
-Alle procedure consigliate per i flussi di lavoro è stato aggiunto un consiglio relativo al numero di attività da utilizzare per ogni flusso di lavoro. [Leggi tutto](../../automating/using/best-practices-workflows.md#number-activities)
+Alle procedure consigliate per i flussi di lavoro è stato aggiunto un consiglio relativo al numero di attività da utilizzare per ogni flusso di lavoro. [Ulteriori informazioni](../../automating/using/best-practices-workflows.md#number-activities)
 
-È stata aggiunta una nuova sezione sulle best practice per le consegne. [Leggi tutto](../../sending/using/delivery-best-practices.md)
+È stata aggiunta una nuova sezione sulle best practice per le consegne. [Ulteriori informazioni](../../sending/using/delivery-best-practices.md)
 
-È stata aggiunta una sezione per descrivere i nuovi filtri che consentono di eseguire ricerche nelle configurazioni dell’evento in base al loro stato e alla data di ricezione dell’ultimo evento. [Leggi tutto](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
+È stata aggiunta una sezione per descrivere i nuovi filtri che consentono di eseguire ricerche nelle configurazioni dell’evento in base al loro stato e alla data di ricezione dell’ultimo evento. [Ulteriori informazioni](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
 ## Settembre 2020 {#doc-updates-september-2020}
 
-La sezione **Messaggi transazionali sull’evento** è stata riorganizzata e chiarita. [Leggi tutto](../../channels/using/editing-transactional-message.md)
+La sezione **Messaggi transazionali sull’evento** è stata riorganizzata e chiarita. [Ulteriori informazioni](../../channels/using/editing-transactional-message.md)
 
-È stata aggiunta una nota di avviso per informare gli utenti della limitazione delle autorizzazioni relativa all’accesso al registro. [Leggi tutto](../../administration/using/users-management.md)
+È stata aggiunta una nota di avviso per informare gli utenti della limitazione delle autorizzazioni relativa all’accesso al registro. [Ulteriori informazioni](../../administration/using/users-management.md)
 
-È stata aggiunta una nuova sezione per descrivere nel dettaglio il processo di creazione di un nuovo marchio. [Leggi tutto](../../administration/using/branding.md#creating-a-brand)
+È stata aggiunta una nuova sezione per descrivere nel dettaglio il processo di creazione di un nuovo marchio. [Ulteriori informazioni](../../administration/using/branding.md#creating-a-brand)
 
-È ora disponibile la nuova integrazione Campaign Standard - Microsoft Dynamics 365. [Leggi tutto](../../integrating/using/d365-acs-get-started.md)
+È ora disponibile la nuova integrazione Campaign Standard - Microsoft Dynamics 365. [Ulteriori informazioni](../../integrating/using/d365-acs-get-started.md)
 
-Nel rapporto Profili attivi sono state aggiunte informazioni sulle origini anonime. [Leggi tutto](../../audiences/using/active-profiles.md)
+Nel rapporto Profili attivi sono state aggiunte informazioni sulle origini anonime. [Ulteriori informazioni](../../audiences/using/active-profiles.md)
 
 ## Agosto 2020 {#doc-updates-august-2020}
 
-È disponibile una nuova sezione aggiornata nella guida introduttiva sull’utilizzo dei messaggi transazionali. [Leggi tutto](../../channels/using/getting-started-with-transactional-msg.md)
+È disponibile una nuova sezione aggiornata nella guida introduttiva sull’utilizzo dei messaggi transazionali. [Ulteriori informazioni](../../channels/using/getting-started-with-transactional-msg.md)
 
 La sezione **Limitazioni della messaggistica transazionale** è stata spostata [qui](../../channels/using/transactional-messaging-limitations.md).
 
@@ -249,29 +249,29 @@ La sezione **Preparazione dell’invio** è stata spostata [qui](../../sending/u
 
 ## Luglio 2020 {#doc-updates-july-2020}
 
-È stata aggiunta una nuova sezione con le linee guida relative al monitoraggio di Campaign Standard. [Leggi tutto](../../administration/using/monitoring-guidelines.md)
+È stata aggiunta una nuova sezione con le linee guida relative al monitoraggio di Campaign Standard. [Ulteriori informazioni](../../administration/using/monitoring-guidelines.md)
 
 È stata aggiornata la sezione Guardrail e limitazioni per API esterne. [Ulteriori informazioni](../../automating/using/external-api.md#guardrails)
 
 La pagina di panoramica sulla Gestione della privacy è stata aggiornata con informazioni sulla Legge tailandese sulla protezione dei dati personali (PDPA) e sulla Lei Geral de Proteção de Dados (LGPD) brasiliana. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con relativa documentazione tecnica. [Leggi tutto](../../administration/using/push-tracking.md)
+La guida per i canali mobili è stata riorganizzata e migliorata. È stata aggiunta una nuova guida alla configurazione dei canali mobili con relativa documentazione tecnica. [Ulteriori informazioni](../../administration/using/push-tracking.md)
 
-La pagina Gestione della privacy in Campaign Standard è stata aggiornata con informazioni su come gestire le richieste di accesso a dati personali tramite l’integrazione del servizio core Privacy. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+La pagina Gestione della privacy in Campaign Standard è stata aggiornata con informazioni su come gestire le richieste di accesso a dati personali tramite l’integrazione del servizio core Privacy. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-Nuove funzionalità di e-mail basate sull’intelligenza artificiale: ottimizzazione del tempo di invio e valutazione del profilo. [Leggi tutto](../../sending/using/predictive.md)
+Nuove funzionalità di e-mail basate sull’intelligenza artificiale: ottimizzazione del tempo di invio e valutazione del profilo. [Ulteriori informazioni](../../sending/using/predictive.md)
 
 ## Giugno 2020 {#doc-updates-june-2020}
 
-I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in sezioni tematiche. [Leggi tutto](../../automating/using/about-workflow-use-cases.md)
+I casi di utilizzo dei flussi di lavoro sono stati aggiornati e riorganizzati in sezioni tematiche. [Ulteriori informazioni](../../automating/using/about-workflow-use-cases.md)
 
 Sono stati aggiunti casi di utilizzo su come [crittografare](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) e [decrittografare](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) dati tramite il Pannello di controllo e i flussi di lavoro di Campaign.
 
 I riferimenti al sito web di Supporto legacy sono stati sostituiti dal nuovo URL. [Ulteriori informazioni](../../support.md)
 
-La configurazione personalizzata dell’account Litmus è stata rimossa dalla funzionalità di rendering in entrata. [Leggi tutto](../../sending/using/email-rendering.md)
+La configurazione personalizzata dell’account Litmus è stata rimossa dalla funzionalità di rendering in entrata. [Ulteriori informazioni](../../sending/using/email-rendering.md)
 
-L’integrazione Campaign Standard - Microsoft Dynamics 365 non è al momento disponibile. È in fase di sviluppo un nuovo connettore, che sarà disponibile in futuro. Le relative pagine di aiuto sono state rimosse. [Leggi tutto](../../integrating/using/d365-acs-get-started.md)
+L’integrazione Campaign Standard - Microsoft Dynamics 365 non è al momento disponibile. È in fase di sviluppo un nuovo connettore, che sarà disponibile in futuro. Le relative pagine di aiuto sono state rimosse. [Ulteriori informazioni](../../integrating/using/d365-acs-get-started.md)
 
 ## Maggio 2020 {#doc-updates-may-2020}
 
@@ -279,7 +279,7 @@ La pagina di panoramica di Campaign Standard è stata arricchita e riorganizzata
 
 La sezione Parametri del canale e-mail è stata integrata con maggiori informazioni relative ai campi delle maschere autorizzate e all’ID dei rapporti di consegna. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md)
 
-La configurazione di un’app mobile mediante gli SDK di Adobe Experience Platform è ora disponibile nella documentazione di base, con ulteriori informazioni relative al flusso di lavoro tecnico Sync Mobile app AEPSDK from Launch. [Leggi tutto](../../administration/using/configuring-a-mobile-application.md)
+La configurazione di un’app mobile mediante gli SDK di Adobe Experience Platform è ora disponibile nella documentazione di base, con ulteriori informazioni relative al flusso di lavoro tecnico Sync Mobile app AEPSDK from Launch. [Ulteriori informazioni](../../administration/using/configuring-a-mobile-application.md)
 
 ## Versione 20.3 - Maggio 2020 {#release-20-3---may-2020}
 
@@ -299,7 +299,7 @@ All’interno della documentazione di base è stata aggiunta una nuova sezione s
 
 È stato inserito un caso d’uso per consentire la conversione delle e-mail dell’editor legacy all’interno di E-mail Designer. [Ulteriori informazioni](../../designing/using/converting-emails-from-legacy-editor.md)
 
-È stata aggiunta una sezione per le domande frequenti su E-mail Designer. [Leggi tutto](../../designing/using/faq-email-designer.md)
+È stata aggiunta una sezione per le domande frequenti su E-mail Designer. [Ulteriori informazioni](../../designing/using/faq-email-designer.md)
 
 ## Aprile 2020 {#doc-updates-april-2020}
 
@@ -325,7 +325,7 @@ Sono state aggiunte le best practice relative alla messaggistica transazionale e
 
 La sezione Configurazione del canale e-mail è stata aggiornata con chiarimenti su tutte le impostazioni e-mail che adesso sono gestite da MTA avanzato di Adobe Campaign. [Ulteriori informazioni](../../administration/using/configuring-email-channel.md)
 
-La sezione Messaggistica transazionale è stata aggiornata con ulteriori informazioni sui diritti necessari per la modifica delle configurazioni degli eventi e sulle modalità di arricchimento delle raccolte nei messaggi transazionali. [Leggi tutto](../../channels/using/configuring-transactional-event.md).
+La sezione Messaggistica transazionale è stata aggiornata con ulteriori informazioni sui diritti necessari per la modifica delle configurazioni degli eventi e sulle modalità di arricchimento delle raccolte nei messaggi transazionali. [Ulteriori informazioni](../../channels/using/configuring-transactional-event.md).
 
 ## Versione 20.2 - Aprile 2020 {#release-20-2---april-2020}
 
@@ -423,7 +423,7 @@ La guida introduttiva sulla modalità di esportazione/importazione delle risorse
 
 È stato aggiunto un nuovo caso d’uso che descrive come creare un gruppo di controllo utilizzando un flusso di lavoro all’interno di Campaign Standard.
 
-Le informazioni relative alle proprietà delle pagine di destinazione sono state spostate in una sezione dedicata. [Leggi tutto](../../channels/using/configuring-landing-page.md)
+Le informazioni relative alle proprietà delle pagine di destinazione sono state spostate in una sezione dedicata. [Ulteriori informazioni](../../channels/using/configuring-landing-page.md)
 
 La documentazione del Pannello di controllo è stata integrata nel nuovo set di documentazione collaborativa. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it)
 
@@ -431,7 +431,7 @@ La documentazione del Pannello di controllo è stata integrata nel nuovo set di 
 
 Il set di documenti API è stato integrato nella documentazione di Campaign Standard.[Ulteriori informazioni](../../api/using/get-started-apis.md)
 
-È stata spostata e aggiornata la sezione di introduzione alla creazione di un messaggio e-mail personalizzato. [Leggi tutto](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
+È stata spostata e aggiornata la sezione di introduzione alla creazione di un messaggio e-mail personalizzato. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-get-started-with-emails.html)
 
 La guida introduttiva sulle best practice per le consegne è stata aggiornata. [Ulteriori informazioni](../../sending/using/delivery-best-practices.md)
 
@@ -449,7 +449,7 @@ Integrazione con Microsoft Dynamics 365 (GA) - [Ulteriori informazioni](../../in
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-L’elenco dei messaggi di errore per Adobe Campaign è stato aggiornato. [Leggi tutto](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
+L’elenco dei messaggi di errore per Adobe Campaign è stato aggiornato. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
 
 La guida introduttiva al GDPR è stata migliorata e arricchita. È ora diventata una documentazione sulla gestione della privacy che include GDPR e CCPA. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)
 
@@ -521,7 +521,7 @@ Sono state aggiunte informazioni sulle modalità di personalizzazione dell’eti
 
 È stato aggiunto un diagramma che illustra la gestione delle informazioni personali da parte dei vari modelli in-app. [Ulteriori informazioni](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-È stata aggiunta una sezione sulla modalità di salvataggio del contenuto delle e-mail come frammento all’interno di E-mail Designer. [Ulteriori informazioni](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
+È stata aggiornata la sezione su come salvare il contenuto delle e-mail come frammento all’interno di E-mail designer. [Ulteriori informazioni](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
 È stato aggiunto un avviso relativo al modo in cui gli spazi vuoti aggiuntivi possono influenzare il layout del contenuto dell’e-mail. [Ulteriori informazioni](../../designing/using/personalization.md#creating-custom-content-blocks)
 
@@ -589,7 +589,7 @@ La guida Automazione è stata aggiornata con i collegamenti alle relative attivi
 
 È stata aggiornata la sezione Calcolo indicatore per i report dinamici. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
-È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=it)
+È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 È stato aggiornato l’elenco delle funzioni per i flussi di lavoro. [Ulteriori informazioni](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ L’attività **[!UICONTROL Subscription Services]** è stata aggiornata per sup
 
 È stato aggiunto un caso d’uso dettagliato sulla modalità di preparazione di una consegna. [Ulteriori informazioni](../../sending/using/preparing-the-send.md)
 
-È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it) (PDF).
+È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 È stato aggiunto un caso d’uso dettagliato sulle modalità d’utilizzo della risposta automatica SMS. [Ulteriori informazioni](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -967,7 +967,7 @@ Elenco dettagliato di KPI (Key Performance Indicator) condivisi con Adobe Analyt
 
 Nuovo video sui report dinamici.
 
-Sono state aggiunte le raccomandazioni per l’account S3. [Ulteriori informazioni](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
+Sono stati aggiunti i consigli per l’account S3. [Ulteriori informazioni](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
 È stata aggiornata la sezione sui vari tipi di utenti. [Ulteriori informazioni](../../administration/using/users-management.md)
 
@@ -1037,9 +1037,9 @@ Numerose schermate sono state aggiornate per riflettere le modifiche all’inter
 
 È ora disponibile una nuova nota tecnica: &quot;Integrazione dell’SDK di Adobe Mobile con la tua app mobile&quot;. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/integrate-mobile-sdk.html)
 
-Sono state aggiunte le istruzioni per configurare il servizio core People o l’integrazione Audience Manager con Adobe Campaign. [Leggi tutto](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
+Sono state aggiunte le istruzioni per configurare il servizio core People o l’integrazione Audience Manager con Adobe Campaign. [Ulteriori informazioni](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it)
+È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Sono stati aggiornati i collegamenti di aiuto contestuali disponibili direttamente all’interno di Adobe Campaign.
 

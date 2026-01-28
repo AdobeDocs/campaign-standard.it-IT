@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Invece di considerare tali requisiti di consenso avanzati come un rischio per l�
 
  Adobe Campaign offre già funzionalità per gestire il consenso a più livelli rispetto a quanto sfruttato dalla maggior parte degli esperti di marketing tramite campi dati personalizzati o attraverso uno o più servizi.
 
-Gli esperti di marketing devono consultare il proprio reparto legale per informazioni su come procedere e sfruttare le funzionalità già integrate in Adobe Campaign.
+Gli esperti di marketing devono consultare il proprio reparto legale per informazioni su come procedere e sfruttare le funzionalità già incorporate in Adobe Campaign.
 
 Ad esempio, estendere il modello dati in Adobe Campaign per monitorare non solo i consensi ricevuti, ma anche la marca temporale del consenso, e un tipo di indicatore che acquisisce l’ambito preciso del consenso.
 

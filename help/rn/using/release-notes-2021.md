@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4695'
 ht-degree: 100%
 
@@ -117,7 +117,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 * È stato corretto un errore (-69) causato dalla fine della sessione, quando si accede a un URL contrassegnato con segnalibro o si aggiorna una pagina dal browser. (CAMP-49003, CAMP-48930, CAMP-48894)
 * È stato risolto un problema che si verificava durante la sincronizzazione delle regole dal server di recapito messaggi precedente al nuovo server di recapito messaggi. (CAMP-48923)
 * È stato risolto un problema che si verificava durante il caricamento di un modello e-mail con tag HTML in Email Designer. (CAMP-48243)
-* È stato corretto un errore a causa del quale il contenuto di Adobe Experience Manager non veniva caricato durante la creazione di messaggi transazionali con Email Designer. (CAMP-49075)
+* È stato corretto un errore a causa del quale il contenuto di Adobe Experience Manager non veniva caricato durante la creazione di messaggi transazionali con E-mail designer. (CAMP-49075)
 * È stato risolto un problema nell’interfaccia a causa del quale veniva aggiunta troppa spaziatura tra la barra superiore e il contenuto.
 * È stato risolto un problema relativo ai messaggi transazionali che poteva causare un errore di pubblicazione durante l’utilizzo dei blocchi di contenuto Campaign in contenuti Adobe Experience Manager. (CAMP-49233)
 * È stato risolto un problema che poteva causare un messaggio di errore in caso di autenticazione non riuscita. L’utente viene ora reindirizzato alla pagina di accesso.
@@ -156,7 +156,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * Il meccanismo di firma URL per i collegamenti di tracciamento è stato disattivato per evitare un problema che causava il blocco errato di alcuni collegamenti di tracciamento validi e firmati dopo la modifica da parte di strumenti di sicurezza di terze parti.
 
-* Nelle consegne con più varianti, gli utenti non possono più creare copie per lingua se la variante predefinita è stata eliminata. Durante la creazione della copia in lingua viene ora visualizzato un messaggio. (CAMP-48235)
+* Nelle consegne con più varianti, gli utenti non possono più creare copie per lingua se la variante predefinita è stata eliminata. Durante la creazione della copia per lingua viene ora visualizzato un messaggio. (CAMP-48235)
 
 * Il processo di eliminazione del profilo in due fasi (obsoleto a partire da Campaign 19.4) ora è disattivato per impostazione predefinita. In precedenza era necessario disattivarlo manualmente dall’interfaccia di Campaign prima di utilizzare il servizio core Privacy. In caso contrario, lo stato delle richieste di cancellazione rimane in sospeso senza arrivare al termine.
 
@@ -188,7 +188,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * È stato risolto un problema che impediva l’accesso ai registri di consegna in seguito alla preparazione non riuscita. (CAMP-48296)
 
-* È stato risolto un problema a causa del quale poteva comparire un messaggio di errore durante il tentativo di modificare, eliminare o inviare un rapporto personalizzato. (CAMP-47789, CAMP-47798)
+* È stato risolto un problema a causa del quale poteva essere visualizzato un messaggio di errore durante il tentativo di modificare, eliminare o inviare un rapporto personalizzato. (CAMP-47789, CAMP-47798)
 
 * È stato risolto un problema che causava il mancato funzionamento delle chiamate API durante la creazione di una nuova risorsa personalizzata e l’abilitazione dell’opzione **Do not synchronize**. (CAMP-48014)
 
@@ -206,7 +206,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * È stato risolto un problema a causa del quale un’attività **Incremental query** veniva ripristinata in seguito alla modifica del nome interno del flusso di lavoro. Ciò si verificava quando un campo data veniva utilizzato come modalità incrementale. (CAMP-47674)
 
-* È stato risolto un problema che impediva la visualizzazione della miniatura di anteprima nel riepilogo della consegna durante la creazione di un messaggio e-mail multilingue con l’integrazione di Adobe Experience Manager. Questo problema si verificava quando si utilizzava il pulsante per la **creazione copia in lingua** per creare le varianti dell’e-mail. (CAMP-47810)
+* È stato risolto un problema che impediva la visualizzazione della miniatura di anteprima nel riepilogo della consegna durante la creazione di un messaggio e-mail multilingue con l’integrazione di Adobe Experience Manager. Questo problema si verificava quando si utilizzava il pulsante **Crea copia per lingua** per creare le varianti dell’e-mail. (CAMP-47810)
 
 * È stato risolto un problema che impediva agli utenti di accedere alla consegna principale dalla consegna secondaria e-mail o SMS. (CAMP-47986)
 
@@ -330,7 +330,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * Gli utenti con il ruolo DATAMODEL ora possono pubblicare estensioni del registro di consegna. (CAMP-46604)
 
-* Per maggiore chiarezza, è stato riformulato il messaggio di errore visualizzato durante il tentativo di pubblicare una risorsa che ha come target una risorsa personalizzata non più esistente. (CAMP-46893)
+* Per maggiore chiarezza, è stato riformulato il messaggio di errore visualizzato durante il tentativo di pubblicare una risorsa il cui targeting è una risorsa personalizzata non più esistente. (CAMP-46893)
 
 * Nell’elenco **Preferred language** sono state aggiunte le seguenti lingue: indonesiano - Indonesia (in-id), inglese - Svezia (en-se), inglese - Asia pacifica (en-ap), inglese - Giappone (en-jp), spagnolo - America latina (es-la). (CAMP-46351)
 
@@ -348,7 +348,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 
 * La data di validità dei messaggi SMS transazionali ora può essere definita dal valore impostato per il parametro di scadenza nell’API per messaggi transazionali. (CAMP-36600)
 
-* Nella funzione di reporting dinamico, il rapporto integrato **Riepilogo della consegna** mostrava dati non corretti per la metrica del tasso di annullamento dell’iscrizione. Per risolvere il problema è stata aggiunta la nuova metrica **Unique unsubscription**. (CAMP-46445)
+* Nella funzione di reporting dinamico, il rapporto incorporato **Riepilogo della consegna** mostrava dati non corretti per la metrica del tasso di annullamento dell’iscrizione. Per risolvere il problema è stata aggiunta la nuova metrica **Unique unsubscription**. (CAMP-46445)
 
 **Patch**
 
@@ -371,9 +371,9 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 * È stato risolto un problema che impediva la visualizzazione di tutti i modelli disponibili di contenuto di Experience Manager durante la creazione di una consegna. (CAMP-45990)
 * È stato risolto un problema nei flussi di lavoro che poteva impedire la visualizzazione dei messaggi di errore nei registri di consegna dopo l’aggiunta della colonna **Reason** alla scheda dei dati aggiuntivi. (CAMP-45139)
 * È stato risolto un problema che poteva verificarsi quando due chiamate di abbonamento all’applicazione avevano lo stesso ID Marketing Cloud (errore “duplicate key value violates unique constraint”).
-* È stato risolto un problema che poteva causare problemi di lentezza durante il trascinamento di attività in un flusso di lavoro contenente una grande quantità di attività **Query** e **Read audience**. (CAMP-44511)
+* È stato risolto un problema che poteva causare problemi di lentezza durante il trascinamento di attività in un flusso di lavoro contenente una grande quantità di attività **Query** e **Leggi pubblico**. (CAMP-44511)
 * È stato corretto un errore che poteva verificarsi al termine della preparazione dei messaggi transazionali e che impediva il caricamento delle informazioni di reindirizzamento sui server di tracciamento.
-* È stato risolto un problema a causa del quale potevano comparire messaggi di errore se si tentava di aprire modelli di importazione o processi di importazione precedenti dopo aver personalizzato la risorsa del flusso di lavoro. (CAMP-46183)
+* È stato risolto un problema a causa del quale potevano essere visualizzati messaggi di errore se si tentava di aprire modelli di importazione o processi di importazione precedenti dopo aver personalizzato la risorsa del flusso di lavoro. (CAMP-46183)
 * È stato risolto un problema che poteva impedire l’esecuzione di un’attività **Read audience** se configurata con un nome di pubblico dinamico. (CAMP-46047)
 * È stato risolto un problema che impediva la visualizzazione del pulsante **Export list**.
 * È stato risolto un problema che poteva causare un errore nel flusso di lavoro **Reporting aggregates**. (CAMP-45979)
@@ -428,7 +428,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 * È stato risolto un problema di generazione delle miniature che poteva verificarsi in Azure nelle varianti e-mail contenenti caratteri cinesi. (CAMP-47152)
 * È stata corretta una regressione introdotta in Campaign 20.4 che poteva causare tassi di apertura errati per Gmail a causa del filtraggio degli eventi di tracciamento ricevuti dagli account Gmail. (CAMP-46504)
 * È stato risolto un problema che poteva impedire l’importazione di contenuto HTML nel modello di un messaggio transazionale. (CAMP-47318)
-* È stato risolto un problema che poteva rallentare la visualizzazione dei rendering nel **report di rendering delle e-mail**. (CAMP-46226)
+* È stato risolto un problema che poteva rallentare la visualizzazione dei rendering nel **rapporto Rendering e-mail**. (CAMP-46226)
 * È stato risolto un problema che poteva impedire la pubblicazione di risorse personalizzate configurate con un elemento di tipo List nella definizione dello schermo. (CAMP-47217)
 * È stato risolto un problema in E-mail Designer che impediva il corretto rendering dei divisori di riga in **Microsoft Outlook** quando questi si trovavano nella parte superiore del contenuto dell’e-mail. (CAMP-46294)
 * È stato risolto un problema che causava il blocco della riconciliazione dei KPI con il flusso di lavoro tecnico di **Adobe Analytics**. (CAMP-46576)
