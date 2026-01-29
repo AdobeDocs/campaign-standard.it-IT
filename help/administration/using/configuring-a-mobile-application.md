@@ -158,7 +158,7 @@ L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche 
    * **ID chiave**: per ulteriori informazioni sull&#39;ID chiave, consulta la [documentazione di Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}.
    * **ID team iOS**: per ulteriori informazioni sull&#39;ID team di iOS, consulta la [documentazione di Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}.
 
-         .[](assets/mobile_app_ios_config.png)
+         .[&#128279;](assets/mobile_app_ios_config.png)
      +++
 
    +++ Per Android
