@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentazione del prodotto per Adobe Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Campaign Standard
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 89%
+source-wordcount: '1754'
+ht-degree: 90%
 
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 89%
 + Note sulla versione {#release-notes}
    + [Ultima versione](rn/using/release-notes.md)
    + Versioni precedenti {#previous-releases}
+      + [2025](rn/using/release-notes-2025.md)
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -196,7 +197,7 @@ ht-degree: 89%
       + [Regole di filtro](sending/using/filtering-rules.md)
       + [Regole di eccesso](sending/using/fatigue-rules.md)
       + [Regole di controllo](sending/using/control-rules.md)
-+ Reporting {#reporting}
++ Generazione rapporti {#reporting}
    + [Introduzione ai rapporti dinamici](reporting/using/get-started-reporting.md)
    + Informazioni sul reporting {#about-reporting}
       + [Informazioni sui report dinamici](reporting/using/about-dynamic-reports.md)
@@ -209,8 +210,8 @@ ht-degree: 89%
       + [Riepilogo messaggi non recapitati](reporting/using/bounce-summary.md)
       + [Raggruppamento per domini](reporting/using/breakdown-by-domains.md)
       + [Reclami](reporting/using/complaints.md)
-      + [Riepilogo consegne](reporting/using/delivery-summary.md)
-      + [Velocità effettiva di consegna](reporting/using/delivery-throughput.md)
+      + [Riepilogo della consegna](reporting/using/delivery-summary.md)
+      + [Velocità di consegna](reporting/using/delivery-throughput.md)
       + [Rapporto in-app](reporting/using/in-app-report.md)
       + [Messaggi non recapitati e non consegnabili](reporting/using/non-deliverables-and-bounces.md)
       + [Messaggi aperti](reporting/using/opens.md)
@@ -302,7 +303,7 @@ ht-degree: 89%
       + [Query](automating/using/query.md)
       + [Query incrementale](automating/using/incremental-query.md)
       + [Unione](automating/using/union.md)
-      + [Intersezione](automating/using/intersection.md)
+      + [Intersezione ](automating/using/intersection.md)
       + [Esclusione](automating/using/exclusion.md)
       + [Segmentazione](automating/using/segmentation.md)
       + [Leggere tipi di pubblico](automating/using/read-audience.md)
@@ -312,12 +313,12 @@ ht-degree: 89%
    + Attività di esecuzione {#execution-activities}
       + [Informazioni sulle attività di esecuzione](automating/using/about-execution-activities.md)
       + [Attività Start e End](automating/using/start-and-end.md)
-      + [Attività Fork](automating/using/fork.md)
-      + [Attività AND-join](automating/using/and-join.md)
-      + [Attività Scheduler](automating/using/scheduler.md)
-      + [Attività Wait](automating/using/wait.md)
-      + [Attività External signal](automating/using/external-signal.md)
-      + [Attività Test](automating/using/test.md)
+      + [Fork](automating/using/fork.md)
+      + [AND-join](automating/using/and-join.md)
+      + [Modulo di pianificazione](automating/using/scheduler.md)
+      + [Attendere](automating/using/wait.md)
+      + [Segnale esterno](automating/using/external-signal.md)
+      + [Test](automating/using/test.md)
    + Attività di canale {#channel-activities}
       + [Informazioni sulle attività del canale](automating/using/about-channel-activities.md)
       + [Consegna e-mail](automating/using/email-delivery.md)
@@ -327,7 +328,7 @@ ht-degree: 89%
       + [Consegna in-app](automating/using/in-app-delivery.md)
    + Attività di gestione dati {#data-management-activities}
       + [Informazioni sulle attività di gestione dati](automating/using/about-data-management-activities.md)
-      + [Attività Update data](automating/using/update-data.md)
+      + [Aggiornare i dati](automating/using/update-data.md)
       + [Attività Load file](automating/using/load-file.md)
       + [Attività Transfer file](automating/using/transfer-file.md)
       + [Riconciliazione](automating/using/reconciliation.md)
