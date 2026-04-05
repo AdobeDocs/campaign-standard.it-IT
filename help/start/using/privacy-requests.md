@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1526'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ In qualità di titolare del trattamento, avrai pertanto la responsabilità di co
 >
 >Per ulteriori informazioni sui dati personali e sulle diverse entità che gestiscono i dati (titolare del trattamento, responsabile del trattamento e interessato), consulta [Dati personali e utenti tipo](../../start/using/privacy.md#personal-data).
 
-### Namespace {#namesspaces}
+### Spazi dei nomi {#namesspaces}
 
 Prima di creare le richieste di accesso a dati personali, è necessario definire lo spazio dei nomi da utilizzare. Lo spazio dei nomi è la chiave che verrà utilizzata per identificare l’interessato nel database di Adobe Campaign. Due spazi dei nomi sono disponibili da subito: e-mail e telefono cellulare. Se hai bisogno di uno spazio dei nomi diverso (ad esempio un campo personalizzato del profilo), svolgi i passaggi seguenti.
 
@@ -71,7 +71,7 @@ Fai inoltre riferimento a questo [tutorial](https://experienceleague.adobe.com/d
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Per ulteriori informazioni sugli spazi dei nomi di identità, consulta la documentazione di [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it).
+   Per ulteriori informazioni sugli spazi dei nomi delle identità, consulta la documentazione di [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it).
 
 1. Uno spazio dei nomi in Identity Service è mappato a uno spazio dei nomi in Campaign. Devi specificare in che modo lo spazio dei nomi viene riconciliato in Campaign.
 
@@ -97,9 +97,9 @@ Per scoprire come creare richieste di accesso a dati personali dal servizio core
 >
 >Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta il metodo [JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} e aggiungi namespaceId alla richiesta, oppure utilizza la [chiamata API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"} per effettuare la richiesta.
 >
->Per inviare richieste utilizzando il tipo di spazio dei nomi standard, utilizza solo l’[interfaccia utente Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"}.
+>Utilizza solo l&#39;interfaccia utente [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"} per inviare richieste utilizzando il tipo di spazio dei nomi standard.
 
-Ciascun processo del servizio core per la privacy è suddiviso in più richieste di accesso a dati personali in Campaign in base al numero di spazi dei nomi utilizzati. A ogni richiesta corrisponde uno spazio dei nomi. È inoltre possibile eseguire un processo su più istanze. In questo caso vengono creati più file per un processo. Ad esempio, se una richiesta ha due spazi di nomi ed è in esecuzione in tre istanze, vengono inviati in totale sei file. Un file per ogni spazio dei nomi e istanza.
+Ciascun processo del servizio core per la privacy è suddiviso in più richieste di accesso a dati personali in Campaign in base al numero di spazi dei nomi utilizzati. A ogni richiesta corrisponde uno spazio dei nomi. È inoltre possibile eseguire un processo su più istanze. In questo caso vengono creati più file per un processo. Ad esempio, se una richiesta ha due spazi dei nomi ed è in esecuzione in tre istanze, vengono inviati in totale sei file. Un file per ogni spazio dei nomi e istanza.
 
 Il modello per il nome di un file è: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
@@ -153,7 +153,8 @@ Di seguito sono riportati i diversi stati delle richieste di accesso a dati pers
 * **[!UICONTROL Complete]**: l’elaborazione della richiesta è andata a buon fine.
 * **[!UICONTROL Error]**: il flusso di lavoro ha rilevato un errore. Il motivo viene visualizzato nell’elenco delle richieste di accesso a dati personali nella colonna **[!UICONTROL Request status]**. Ad esempio, **[!UICONTROL Error data not found]** significa che nel database non è stato trovato nessun dato del destinatario corrispondente al **[!UICONTROL Reconciliation value]** dell’interessato.
 
-<!--### Disabling the 2-step process {#disabling-two-step-process}
+<!--
+### Disabling the 2-step process {#disabling-two-step-process}
 
 The Core Privacy Service does not support the 2-step process.
 
@@ -167,7 +168,8 @@ By default, the 2-step process is activated.
 
 To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)-->
+![](assets/privacy-disable-2-step-process.png)
+-->
 
 ## Rinuncia alla vendita di informazioni personali (CCPA) {#sale-of-personal-information-ccpa}
 

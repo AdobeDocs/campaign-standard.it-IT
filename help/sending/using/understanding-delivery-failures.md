@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 59%
@@ -35,7 +35,7 @@ I messaggi possono essere esclusi anche durante la preparazione della consegna s
 
 * [Informazioni sulla gestione della quarantena](../../sending/using/understanding-quarantine-management.md)
 * [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Rimbalzi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it#metrics-for-deliverability)
+* [Rimbalzi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identificazione degli errori di consegna per un messaggio {#identifying-delivery-failures-for-a-message}
 
@@ -43,7 +43,7 @@ Una volta inviata la consegna, la scheda **[!UICONTROL Sending logs]** (consulta
 
 ![](assets/sending_logs.png)
 
-È inoltre disponibile un report preconfigurato. Questo report descrive gli errori rigidi e morbidi riscontrati durante le consegne nonché l’elaborazione automatica dei mancati recapiti. Per ulteriori informazioni, consulta [questa sezione](../../reporting/using/bounce-summary.md).
+È inoltre disponibile un report preconfigurato. Questo report descrive gli errori rigidi e morbidi riscontrati durante le consegne nonché l’elaborazione automatica dei mancati recapiti. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../reporting/using/bounce-summary.md).
 
 ## Tipi e motivi di errori di consegna {#delivery-failure-types-and-reasons}
 
@@ -75,8 +75,8 @@ I possibili motivi di un errore di consegna sono:
 
 
 **Argomenti correlati:**
-* [Rimbalzi permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it#hard-bounces)
-* [Mancati recapiti non permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it#soft-bounces)
+* [Rimbalzi permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Mancati recapiti non permanenti](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Tentativi dopo un errore temporaneo di consegna {#retries-after-a-delivery-temporary-failure}
 
@@ -90,7 +90,7 @@ Per modificare la durata di una consegna, passa ai parametri avanzati della cons
 
 >[!IMPORTANT]
 >
->**Il parametro &#x200B;** [!UICONTROL Delivery duration]&#x200B;**nelle consegne di Campaign viene ora utilizzato soltanto se impostato su 3,5 giorni o meno.** Se definisci un valore superiore a 3,5 giorni, questo non verrà preso in considerazione.
+>**Il parametro **[!UICONTROL Delivery duration]**nelle consegne di Campaign viene ora utilizzato soltanto se impostato su 3,5 giorni o meno.** Se definisci un valore superiore a 3,5 giorni, questo non verrà preso in considerazione.
 
 Ad esempio, se desideri che i nuovi tentativi per una consegna si interrompano dopo un giorno, puoi impostare la durata della consegna su **1d** e i messaggi nella coda dei nuovi tentativi verranno rimossi dopo un giorno.
 
@@ -98,8 +98,10 @@ Ad esempio, se desideri che i nuovi tentativi per una consegna si interrompano d
 >
 >Una volta che un messaggio è rimasto nella coda dei tentativi per un massimo di 3,5 giorni e la consegna non è riuscita, si verificherà un timeout e il suo stato verrà aggiornato<!--from **[!UICONTROL Sent]**--> in **[!UICONTROL Failed]** nei [registri di consegna](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
-The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--
+MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
+-->
 
 ## Errori sincroni e asincroni {#synchronous-and-asynchronous-errors}
 
@@ -118,9 +120,10 @@ Per i messaggi di errore di mancata consegna sincroni, l’MTA avanzato di Adobe
 
 Le mancate consegne asincrone vengono comunque qualificate dal processo inMail attraverso le regole **[!UICONTROL Inbound email]**. Per accedere a queste regole, fai clic sul logo **Adobe**, in alto a sinistra, quindi seleziona **[!UICONTROL Administration > Channels > Email > Email processing rules]** e seleziona **[!UICONTROL Bounce mails]**. Per ulteriori informazioni su questa regola, consulta [questa sezione](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Per ulteriori informazioni sui mancati recapiti e sui diversi tipi di mancati recapiti, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=it#metrics-for-deliverability).
+Per ulteriori informazioni sui mancati recapiti e sui diversi tipi di mancati recapiti, consulta [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
-<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+<!--
+MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
 Bounces can have the following qualification statuses:
 
@@ -130,7 +133,8 @@ Bounces can have the following qualification statuses:
 
 To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top-left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
-![](assets/qualification.png)-->
+![](assets/qualification.png)
+-->
 
 ## Ottimizzazione della consegna delle e-mail con il doppio meccanismo di consenso {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 

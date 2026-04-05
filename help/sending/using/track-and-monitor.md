@@ -3,13 +3,13 @@ title: Tracciare e monitorare i messaggi
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Scopri come Adobe Campaign ti consente di tenere traccia dei messaggi inviati e scoprire come i destinatari reagiscono alla consegna
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 3%
@@ -44,7 +44,7 @@ Per ulteriori informazioni, consulta la sezione [Messaggi di tracciamento](../..
 
 ## Rapporti dinamici {#dyn-reports}
 
-I rapporti dinamici ti consentono di creare rapporti completamente personalizzabili e in tempo reale per monitorare le campagne. Dimension, metriche e visualizzazioni ti consentono di misurare l’impatto e il successo delle campagne sui destinatari.
+I rapporti dinamici ti consentono di creare rapporti completamente personalizzabili e in tempo reale per monitorare le campagne. Dimensioni, metriche e visualizzazioni consentono di misurare l’impatto e il successo delle campagne sui destinatari.
 
 **Suggerimento**: sono disponibili report integrati per monitorare le campagne, ma è anche possibile personalizzarli trascinando nel report eventuali metriche o dimensioni.
 

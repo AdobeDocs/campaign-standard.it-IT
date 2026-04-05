@@ -9,7 +9,7 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 16%
@@ -22,9 +22,11 @@ Dopo che hai completato la preparazione dei messaggi e hai eseguito i passaggi d
 
 Solo gli utenti con il ruolo **[!UICONTROL Start deliveries]** possono confermare l&#39;invio. Per ulteriori informazioni, consulta la sezione [Elenco di ruoli](../../administration/using/list-of-roles.md).
 
-<!--Users without this role will see the following message: 
+<!--
+Users without this role will see the following message:
 
-![](assets/confirm_delivery_2.png)-->
+![](assets/confirm_delivery_2.png)
+-->
 
 ## Invio del messaggio {#sending-message}
 

@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 27%
@@ -89,7 +89,8 @@ Ad esempio, desideri inviare una notifica agli utenti del tuo sito web che hanno
 
    Puoi verificare che i campi di personalizzazione corrispondano alle informazioni inserite nel profilo di test. Per ulteriori informazioni, vedere [Definizione di un profilo di test specifico](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
-<!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
+<!--
+## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
 When editing the content of a transactional email, you can create product listings referencing one or more data collections. For example, in a cart abandonment email, you can include a list of all products that were in the users' carts when they left your website, with an image, the price, and a link to each product.
 
@@ -99,7 +100,7 @@ When editing the content of a transactional email, you can create product listin
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=it#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >
@@ -207,7 +208,8 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
+   For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+-->
 
 ## Specificità dei messaggi transazionali basati su profili {#profile-transactional-message-specificities}
 
@@ -234,9 +236,10 @@ Le differenze sono elencate di seguito.
 
 1. Inoltre, a differenza delle configurazioni basate su eventi in tempo reale, hai **accesso diretto a tutte le informazioni del profilo** per personalizzare il messaggio. Puoi aggiungere [campi di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field) come faresti per qualsiasi altra e-mail di marketing standard.
 
-1. Salva le modifiche prima di pubblicare il messaggio. Per ulteriori informazioni, consulta [Pubblicazione di un messaggio sulle transazioni](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Salva le modifiche prima di pubblicare il messaggio. Per ulteriori informazioni, consulta [Pubblicazione di un messaggio transazionale](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+<!--
+### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -271,4 +274,5 @@ This rule is part of a specific typology that applies to all transactional messa
 **Related topics**:
 
 * [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
-* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+-->

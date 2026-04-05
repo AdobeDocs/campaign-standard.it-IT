@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch è stato ridefinito come suite di tecnologie di raccolta dati in Adobe Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta il [documento seguente](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=it){target="_blank"} per un riferimento consolidato delle modifiche terminologiche.
+> Adobe Experience Platform Launch è stato ridefinito come suite di tecnologie di raccolta dati in Adobe Experience Platform. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. Consulta il [documento seguente](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} per un riferimento consolidato delle modifiche terminologiche.
 
 Tieni presente che le notifiche push e le implementazioni in-app devono essere eseguite da utenti esperti. Per assistenza, contatta il responsabile dell’account Adobe o un partner di servizi professionali.
 
@@ -43,7 +43,7 @@ La procedura seguente illustra come completare la configurazione:
    * In Adobe Campaign Standard, accertati che l’utente IMS faccia parte dei profili di prodotto Utente standard e Amministratore. Questo passaggio consente all’utente di accedere ad Adobe Campaign Standard, passare alla pagina dell’app mobile Experience Platform SDK e visualizzare le proprietà dell’app mobile create nell’interfaccia utente di Data Collection.
 
    * Nell’interfaccia utente di Data Collection, accertati che l’utente IMS faccia parte di un profilo di prodotto Experience Platform Launch.
-Questo passaggio consente all’utente di accedere all’interfaccia utente di Data Collection per creare e visualizzare le proprietà. Per ulteriori informazioni sui profili di prodotto nell&#39;interfaccia utente di Data Collection, vedi [Creare il tuo profilo di prodotto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=it#gain-admin-rights-for-a-tags-product-profile). Nel profilo prodotto non dovrebbero essere impostate autorizzazioni per l’azienda o le proprietà, ma l’utente dovrebbe essere comunque in grado di accedere.
+Questo passaggio consente all’utente di accedere all’interfaccia utente di Data Collection per creare e visualizzare le proprietà. Per ulteriori informazioni sui profili di prodotto nell&#39;interfaccia utente di Data Collection, vedi [Creare il tuo profilo di prodotto](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). Nel profilo prodotto non dovrebbero essere impostate autorizzazioni per l’azienda o le proprietà, ma l’utente dovrebbe essere comunque in grado di accedere.
 
    Per completare attività aggiuntive come l’installazione di un’estensione, la pubblicazione di un’app, la configurazione di ambienti e così via, è necessario impostare le autorizzazioni nel profilo di prodotto.
 
@@ -158,8 +158,8 @@ L’app mobile è ora pronta per essere utilizzata in Campaign per le notifiche 
    * **ID chiave**: per ulteriori informazioni sull&#39;ID chiave, consulta la [documentazione di Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}.
    * **ID team iOS**: per ulteriori informazioni sull&#39;ID team di iOS, consulta la [documentazione di Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}.
 
-         .[&#128279;](assets/mobile_app_ios_config.png)
-     +++
+     ![](assets/mobile_app_ios_config.png)
+   +++
 
    +++ Per Android
 

@@ -9,9 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,15 @@ Il modello dati predefinito di Adobe Campaign è presentato in questa [sezione](
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
-<!--### What is a customer? {#customer-definition}
+<!--
+### What is a customer? {#customer-definition}
 
 If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.
+-->
 
 ### Dati per Adobe Campaign {#data-for-campaign}
 
@@ -76,7 +78,7 @@ Se non rientra in nessuno di questi, molto probabilmente non avrai bisogno di qu
 ### Tipi di dati {#data-types}
 
 Per garantire una buona architettura e prestazioni del sistema, segui le best practice riportate di seguito per configurare i dati in Adobe Campaign:
-* La lunghezza di un campo stringa deve sempre essere definita con la colonna. Per impostazione predefinita, la lunghezza massima in Adobe Campaign è di 255 caratteri, ma l’Adobe consiglia di mantenere il campo più breve se sai già che la dimensione non supererà una lunghezza più breve.
+* La lunghezza di un campo stringa deve sempre essere definita con la colonna. Per impostazione predefinita, la lunghezza massima in Adobe Campaign è di 255 caratteri, ma Adobe consiglia di mantenere il campo più breve se si è già certi che la dimensione non supererà una lunghezza più breve.
 * È accettabile avere un campo più breve in Adobe Campaign rispetto a quello presente nel sistema di origine se si è certi che la dimensione nel sistema di origine è stata sovrastimata e non sarebbe raggiunta. Questo potrebbe significare una stringa più breve o un numero intero più piccolo in Adobe Campaign.
 
 ## Configurazione della struttura dati {#configuring-data-structure}
@@ -104,11 +106,13 @@ La tabella seguente descrive tali identificatori e il loro scopo.
 
 Ogni risorsa creata in Adobe Campaign deve avere almeno una [chiave di identificazione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) univoca.
 
-<!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
+<!--
+Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
 This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.-->
+When an out-of-the-box resource has both an internal auto-generated and an internal custom key, the internal key will be set as a unique index in the physical database table.
+-->
 
 Quando crei una risorsa personalizzata, puoi scegliere tra due opzioni:
 
@@ -123,19 +127,21 @@ Le chiavi di identificazione non devono essere utilizzate come riferimento nei f
 
 Adobe Campaign aggiunge automaticamente un [indice](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) a tutte le chiavi primarie e interne definite in una risorsa.
 
-* L’Adobe consiglia di definire indici aggiuntivi in quanto possono migliorare le prestazioni.
+* Adobe consiglia di definire indici aggiuntivi in quanto possono migliorare le prestazioni.
 * Tuttavia, non aggiungere troppi indici in quanto utilizzano spazio nel database. Anche numerosi indici possono avere un impatto negativo sulle prestazioni.
 * Seleziona con attenzione gli indici da definire.
 
-<!--For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
+<!--
+For more on defining indexes, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes).
 
-When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).-->
+When you are performing an initial import with very high volumes of data insert in Adobe Campaign database, it is recommended to run that import without custom indexes at first. It will allow to accelerate the insertion process. Once you’ve completed this important import, it is possible to enable the index(es).
+-->
 
 ### Collegamenti {#links}
 
 La definizione dei collegamenti con altre risorse è presentata in [questa sezione](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
-* Anche se è possibile unire qualsiasi tabella in un flusso di lavoro, l’Adobe consiglia di definire collegamenti comuni tra le risorse direttamente nella definizione della struttura dati.
+* Anche se è possibile unire qualsiasi tabella in un flusso di lavoro, Adobe consiglia di definire collegamenti comuni tra le risorse direttamente nella definizione della struttura dati.
 * Il collegamento deve essere definito in allineamento con i dati effettivi nelle tabelle. Una definizione errata potrebbe influire sui dati recuperati tramite collegamenti, ad esempio duplicando in modo imprevisto i record.
 * Assegna al collegamento un nome coerente con il nome della risorsa: il nome del collegamento dovrebbe aiutare a comprendere cosa è la tabella lontana.
 * Non denominare un collegamento con &quot;id&quot; come suffisso. Ad esempio, denominalo &quot;transaction&quot; invece di &quot;transactionId&quot;.
@@ -146,7 +152,7 @@ La definizione dei collegamenti con altre risorse è presentata in [questa sezio
 
 Per garantire prestazioni migliori in qualsiasi momento, segui le best practice riportate di seguito.
 
-### Raccomandazioni generali {#general-recommendations}
+### Consigli generali {#general-recommendations}
 
 * Evita di utilizzare operazioni come &quot;CONTAINS&quot; nelle query. Se sai cosa è previsto e desideri filtrare, applica la stessa condizione con un &quot;UGUALE A&quot; o altri operatori di filtro specifici.
 * Evita l’unione di con campi non indicizzati durante la creazione di dati nei flussi di lavoro.

@@ -3,13 +3,13 @@ title: Creare contenuti personalizzati
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Scopri come progettare il contenuto del messaggio e come evitare problemi comuni che potrebbero impedire l’esecuzione della consegna. 
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 5%
@@ -62,7 +62,7 @@ Lavora sulla [riga dell&#39;oggetto](../../designing/using/subject-line.md) per 
 
 Includi sempre un collegamento a una pagina speculare. La posizione preferita è nella parte superiore dell’e-mail. [Ulteriori informazioni](../../designing/using/personalization.md#adding-a-content-block)
 
-### Collegamento annullamento abbonamento
+### Collegamento per annullamento iscrizione
 
 Il collegamento di annullamento dell’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale. Scopri le linee guida per l’annullamento dell’abbonamento [in questa sezione](../../designing/using/personalization.md#about-targeting-dimension).
 
@@ -90,7 +90,7 @@ In Adobe Campaign, la dimensione massima predefinita di un&#39;e-mail è imposta
 
 Se viene raggiunto il limite, il messaggio che supera il limite non riuscirà e nei registri di consegna verrà visualizzato un messaggio di errore. Gli altri messaggi della stessa consegna non saranno interessati. In tal caso, devi adattare la parte dinamica del modello e-mail o i frammenti di contenuto utilizzati dalla consegna. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-L’Adobe consiglia di mantenere il valore predefinito per la dimensione massima dei messaggi. Tuttavia, questo valore può essere modificato solo dall&#39;opzione **[!UICONTROL Maximum message size]** tramite il menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** da [amministratori funzionali](../../administration/using/users-management.md#functional-administrators).
+Adobe consiglia di mantenere il valore predefinito per la dimensione massima dei messaggi. Tuttavia, questo valore può essere modificato solo dall&#39;opzione **[!UICONTROL Maximum message size]** tramite il menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** da [amministratori funzionali](../../administration/using/users-management.md#functional-administrators).
 
 >[!IMPORTANT]
 >
@@ -115,7 +115,7 @@ Per ulteriori informazioni, consulta [questa sezione](../../administration/using
 
 Il design reattivo assicura che un’e-mail venga riprodotta in modo ottimale per il dispositivo su cui viene aperta.
 
-* Utilizza e-mail HTML responsive anziché web HTML
+* Utilizza e-mail responsive HTML anziché web HTML
 
 * Utilizza la modalità anteprima e invia bozze per testare il rendering su quanti più dispositivi possibile. Scopri come [visualizzare in anteprima il messaggio](../../sending/using/previewing-messages.md) prima di inviarlo.
 
@@ -145,6 +145,6 @@ Per essere accessibili dall’esterno, le immagini utilizzate nelle e-mail e nel
 
 ## Anteprima del messaggio {#preview-msg}
 
-L’Adobe consiglia di visualizzare l’anteprima del messaggio per controllarne la personalizzazione e per vedere come i destinatari visualizzeranno la consegna.
+Adobe consiglia di visualizzare l’anteprima del messaggio per controllarne la personalizzazione e vedere come i destinatari vedranno la consegna.
 
 In E-mail designer, il pulsante **[!UICONTROL Preview]** consente di visualizzare il rendering di ogni contenuto per un destinatario. I campi di personalizzazione e gli elementi condizionali del contenuto vengono sostituiti con le informazioni corrispondenti per il profilo selezionato. [Ulteriori informazioni](../../sending/using/previewing-messages.md)

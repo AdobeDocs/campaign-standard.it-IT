@@ -3,13 +3,13 @@ title: Utilizzare i modelli di consegna
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: I modelli di consegna consentono una maggiore efficienza, fornendo scenari pronti per i tipi più comuni di attività.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 12%
@@ -50,7 +50,7 @@ Il dominio dell’indirizzo deve essere lo stesso del sottodominio configurato.
 
 I campi **[!UICONTROL Reply to]** corrispondono all&#39;indirizzo e-mail e al nome utilizzati per le risposte.
 
-**Suggerimento**: Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l&#39;assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
+**Suggerimento** - Adobe consiglia di utilizzare un indirizzo reale esistente, ad esempio l&#39;assistenza clienti del tuo marchio. In questo caso, se un destinatario invia una risposta, l’assistenza clienti sarà in grado di gestirla.
 
 Per modificare il nome del mittente che verrà visualizzato nell&#39;intestazione dei messaggi inviati, passare alla scheda **[!UICONTROL Properties]** della home page di E-mail Designer (accessibile tramite l&#39;icona home) e fare clic sul blocco **[!UICONTROL Default sender name]**.
 
@@ -66,7 +66,7 @@ Per ulteriori informazioni sulla personalizzazione del nome del mittente, vedere
 
 Nella sezione **Parametri avanzati** delle proprietà di un modello SMS, l&#39;opzione **Da** consente di personalizzare il nome del mittente del messaggio SMS utilizzando una stringa di caratteri. Questo è il nome visualizzato come mittente del messaggio SMS sul telefono cellulare del destinatario.
 
-Se questo campo è vuoto, viene quindi utilizzato il numero di origine fornito nell’account esterno. Se non viene fornito alcun numero di origine, viene utilizzato il codice breve. Per ulteriori informazioni, consulta la sezione [Configurazione degli SMS](../../administration/using/configuring-sms-channel.md).
+Se questo campo è vuoto, viene quindi utilizzato il numero di origine fornito nell’account esterno. Se non viene fornito alcun numero di origine, viene utilizzato il codice breve. Per ulteriori informazioni, consulta la sezione [Configurazione SMS](../../administration/using/configuring-sms-channel.md).
 
 **Suggerimento** - Controlla la legislazione del tuo paese relativa alla modifica dell&#39;indirizzo del mittente. Dovresti anche verificare con il provider di servizi SMS se offre questa funzionalità.
 

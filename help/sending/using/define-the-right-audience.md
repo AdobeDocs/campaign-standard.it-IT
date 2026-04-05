@@ -3,13 +3,13 @@ title: Definire il pubblico adatto
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Quando il contenuto sarà pronto, scopri come definire con attenzione chi riceverà il messaggio.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 12%
@@ -28,7 +28,7 @@ Quando il contenuto è pronto, è necessario definire con attenzione chi ricever
 
 Per garantire la corretta consegna, desideri inviare i contenuti personalizzati più rilevanti ai destinatari giusti. Adobe Campaign ti consente di creare il target più preciso: puoi selezionare i destinatari in base all’età, alla localizzazione, a cosa hanno acquistato, se hanno fatto clic su un collegamento in una consegna precedente, ecc. Con Adobe Campaign, puoi anche definire profili di test, gruppi di controllo e indirizzi di seed per assicurarti che il target sia corretto.
 
-## Mappature di destinazione {#target-mappings}
+## Mappature target {#target-mappings}
 
 Per impostazione predefinita, i modelli di consegna sono destinati a **Profili**. Adobe Campaign offre altre mappature di destinazione per le consegne, che puoi modificare in base alle tue esigenze.
 

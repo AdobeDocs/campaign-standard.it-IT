@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 22%
+source-wordcount: '1366'
+ht-degree: 23%
 
 ---
 
@@ -43,13 +43,13 @@ La quarantena e il elenco Bloccati di non si applicano allo stesso oggetto:
 
 * Se invece si trova nel **inserisco nell&#39;elenco Bloccati di**, il **profilo** non sarà più oggetto della consegna, ad esempio dopo l&#39;annullamento dell&#39;abbonamento (opt-out) per un determinato canale. Ad esempio, se un profilo nell’elenco Bloccati di per il canale e-mail ha due indirizzi e-mail, entrambi gli indirizzi verranno esclusi dalla consegna. Per ulteriori informazioni sul processo di inserisco nell&#39;elenco Bloccati di, consulta [Informazioni su consenso e rinuncia in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-  È possibile verificare se un profilo si trova nel elenco Bloccati di accesso a uno o più canali nella sezione **[!UICONTROL No longer contact (on denylist)]** della scheda **[!UICONTROL General]** del profilo. Consulta [questa sezione](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+  È possibile verificare se un profilo si trova nel elenco Bloccati di accesso a uno o più canali nella sezione **[!UICONTROL No longer contact (on denylist)]** della scheda **[!UICONTROL General]** del profilo. Vedi [questa sezione](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
->Inserire nell&#39;elenco Bloccati La quarantena include uno stato **Su**, applicabile quando i destinatari segnalano il messaggio come spam o rispondono a un messaggio SMS con una parola chiave come &quot;STOP&quot;. In tal caso, l&#39;indirizzo o il numero di telefono del profilo viene messo in quarantena con lo stato **[!UICONTROL On denylist]**. Per ulteriori informazioni sulla gestione dei messaggi STOP SMS, consulta [questa sezione](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>La quarantena include uno stato **Su**, applicabile quando i destinatari segnalano il messaggio come spam o rispondono a un messaggio SMS con una parola chiave come &quot;STOP&quot;. In tal caso, l&#39;indirizzo o il numero di telefono del profilo viene messo in quarantena con lo stato **[!UICONTROL On denylist]**. Per ulteriori informazioni sulla gestione dei messaggi STOP SMS, consulta [questa sezione](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-&lt;!: quando un utente risponde a un messaggio SMS con una parola chiave come STOP per rifiutare le consegne SMS, il suo profilo non viene aggiunto al inserisco nell&#39;elenco Bloccati di, come nel processo di rinuncia alle e-mail. Il numero di telefono del profilo viene messo in quarantena con lo stato **[!UICONTROL On denylist]**. Questo stato si riferisce solo al numero di telefono, il che significa che il profilo continuerà a ricevere messaggi e-mail.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages. Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identificazione degli indirizzi messi in quarantena {#identifying-quarantined-addresses}
 
@@ -93,7 +93,7 @@ Per aggiungere manualmente una nuova voce, utilizzare il pulsante **[!UICONTROL 
 
 ![](assets/quarantines-create-button.png)
 
-Definisci l’indirizzo (o il numero di telefono, ecc.) e tipo di canale. È possibile impostare uno stato per l&#39;inserimento nell&#39;elenco di quarantena e un motivo di errore. È inoltre possibile indicare la data in cui si è verificato l&#39;errore, il numero di errori e immettere il testo dell&#39;errore. Se necessario, seleziona dall’elenco a discesa l’ultima consegna inviata all’indirizzo.
+Definisci l’indirizzo (o il numero di telefono, ecc.) e il tipo di canale. È possibile impostare uno stato per l&#39;inserimento nell&#39;elenco di quarantena e un motivo di errore. È inoltre possibile indicare la data in cui si è verificato l&#39;errore, il numero di errori e immettere il testo dell&#39;errore. Se necessario, seleziona dall’elenco a discesa l’ultima consegna inviata all’indirizzo.
 
 ![](assets/quarantines-create-last-delivery.png)
 
@@ -151,7 +151,7 @@ Una volta ottenuto l&#39;elenco dei destinatari interessati, aggiungere un&#39;a
 
 ## Condizioni per la messa in quarantena di un indirizzo {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e al motivo assegnato durante la qualifica dei messaggi di errore (consulta [Tipi di consegna non riuscita e motivi](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) e [Qualifica delle e-mail non recapitate](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
+Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e al motivo assegnato durante la qualifica dei messaggi di errore (consulta [Tipi di consegna non riuscita e motivi](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) e [Qualificazione delle e-mail non recapitate](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 
 * **Errore ignorato**: gli errori ignorati non mettono un indirizzo in quarantena.
 * **Errore rigido**: l’indirizzo e-mail corrispondente viene messo immediatamente in quarantena.
@@ -162,7 +162,7 @@ Adobe Campaign gestisce la quarantena in base al tipo di consegna non riuscita e
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
   -->
 
-Se un utente qualifica un&#39;e-mail come spam ([ciclo di feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=it#feedback-loops)), il messaggio viene automaticamente reindirizzato a una cassetta postale tecnica gestita dall&#39;Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL On denylist]**. Questo stato si riferisce solo all’indirizzo, il profilo non è nel inserisco nell&#39;elenco Bloccati di, in modo che l’utente continui a ricevere messaggi SMS e notifiche push.
+Se un utente qualifica un&#39;e-mail come spam ([ciclo di feedback](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)), il messaggio viene automaticamente reindirizzato verso una casella di posta tecnica gestita da Adobe. L’indirizzo e-mail dell’utente viene quindi messo automaticamente in quarantena con lo stato **[!UICONTROL On denylist]**. Questo stato si riferisce solo all’indirizzo, il profilo non è nel inserisco nell&#39;elenco Bloccati di, in modo che l’utente continui a ricevere messaggi SMS e notifiche push.
 
 >[!NOTE]
 >
@@ -178,7 +178,9 @@ Al contrario degli errori rigidi, gli errori morbidi non mettono immediatamente 
 
 I tentativi verranno eseguiti durante la [durata della consegna](../../administration/using/configuring-email-channel.md#validity-period-parameters). Quando il contatore di errori raggiunge la soglia limite, l’indirizzo viene messo in quarantena. Per ulteriori informazioni, consulta [Tentativi dopo un errore temporaneo di consegna](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-<!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-The error counter threshold can be modified.-->
+<!--
+In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
+The error counter threshold can be modified.
+-->
 
 Il contatore degli errori viene reinizializzato se l&#39;ultimo errore significativo si è verificato più di 10 giorni fa. Lo stato dell&#39;indirizzo cambia quindi in **Valido** e viene eliminato dall&#39;elenco delle quarantene dal flusso di lavoro **Database cleanup**. Per ulteriori informazioni sui flussi di lavoro tecnici, consulta [questa sezione](../../administration/using/technical-workflows.md#list-of-technical-workflows).

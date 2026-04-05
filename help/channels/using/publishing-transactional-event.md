@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 6%
@@ -88,13 +88,15 @@ Adesso, anche se l’evento viene attivato nel sito web, i messaggi corrisponden
 
 Fare clic sul pulsante **[!UICONTROL Publish]** per generare una nuova API REST.
 
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--
+## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).
+-->
 
 ## Eliminazione di un evento {#deleting-an-event}
 

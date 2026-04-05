@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 1%
@@ -85,9 +85,11 @@ Questo modello può ora essere utilizzato in qualsiasi e-mail creata con E-mail 
 
 Quando modifichi un’e-mail con E-mail Designer, puoi salvarne direttamente il contenuto come modello.
 
-<!--[!CAUTION]
+<!--
+[!CAUTION]
 >
->You cannot save as template a structure containing personalization fields or dynamic content.-->
+>You cannot save as template a structure containing personalization fields or dynamic content.
+-->
 
 1. Selezionare **[!UICONTROL Save as template]** dalla barra degli strumenti principale di E-mail Designer.
 
@@ -145,9 +147,9 @@ Per utilizzarlo, crea un messaggio e-mail e seleziona il modello di contenuto ap
 
 In questi video viene illustrato come creare un modello personalizzato.
 
->[!VIDEO](https://video.tv.adobe.com/v/41715?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
 
 ## Informazioni sui frammenti {#about-fragments}
 
@@ -281,7 +283,8 @@ Quando modifichi un’e-mail con E-mail Designer, puoi salvarne direttamente una
 >[!NOTE]
 >La [visualizzazione per dispositivi mobili](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) non è disponibile nei frammenti. Se desideri modificare una visualizzazione per dispositivi mobili e-mail, esegui questa operazione prima di salvare il contenuto come frammento.
 
-<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
+<!--
+You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
@@ -295,7 +298,8 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
 1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
 1. Paste the HTML that you copied where appropriate.
-1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.
+-->
 
 ## Creazione di intestazioni e piè di pagina riutilizzabili tramite frammenti {#header-footer-fragments}
 

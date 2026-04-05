@@ -3,13 +3,13 @@ title: Ottimizzare la consegna dei messaggi
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Scopri come proteggere e ottimizzare il processo di invio a monte.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 4%
@@ -42,7 +42,7 @@ Per ottimizzare la consegna quando gestisci le e-mail in grandi volumi ed evitar
 
 **Suggerimento**: utilizza un indirizzo mittente trasparente corrispondente al sito Web del tuo marchio. Ad esempio, la società TravelAgency gestisce la catena alberghiera Valentino. È il proprietario del dominio valentino.com per il suo sito web. Per promuovere l&#39;hotel Valentino a Parigi, utilizza il sottodominio paris.valentino.com. Pertanto, un indirizzo del mittente pertinente può essere hotel@paris.valentino.com.
 
-## Gestione del recapito messaggi {#deliverability-management}
+## Gestione della recapitabilità {#deliverability-management}
 
 Per raggiungere la casella in entrata dei destinatari senza che vengano generati o contrassegnati come spam, devi migliorare il tasso di recapito dei messaggi.
 
@@ -52,9 +52,9 @@ Per raggiungere la casella in entrata dei destinatari senza che vengano generati
 
    * Durante il controllo della consegna delle e-mail, desideri concentrarti su quattro categorie principali: qualità dei dati, messaggio e contenuto, infrastruttura di invio e reputazione. Per ulteriori informazioni su questo argomento, consulta [questa sezione](../../sending/using/about-deliverability.md).
 
-* All&#39;avvio di una nuova piattaforma, applica i consigli dettagliati in [questa pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=it#transition-process).
+* All&#39;avvio di una nuova piattaforma, applica i consigli dettagliati in [questa pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
-* Contatta il rappresentante del tuo Adobe per assistenza.
+* Contatta il rappresentante Adobe per assistenza.
 
 ## Gestione della quarantena {#quarantine-management}
 
@@ -74,7 +74,7 @@ Quando inizi a inviare e-mail su una nuova piattaforma, puoi utilizzare un elenc
 
 ## Doppio meccanismo di consenso {#double-opt-in}
 
-Per evitare l’invio di messaggi a indirizzi non validi, limitare le comunicazioni improprie e migliorare la reputazione del mittente, l’Adobe consiglia di implementare un doppio meccanismo di consenso per la conferma dopo l’abbonamento. Questo aiuta a garantire che un destinatario si sia iscritto intenzionalmente.
+Per evitare l’invio di messaggi a indirizzi non validi, limitare le comunicazioni improprie e migliorare la reputazione del mittente, Adobe consiglia di implementare un doppio meccanismo di consenso per la conferma dopo l’abbonamento. Questo aiuta a garantire che un destinatario si sia iscritto intenzionalmente.
 
 I dettagli relativi all&#39;implementazione di questo meccanismo sono descritti in [questa sezione](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 

@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 70%
@@ -38,7 +38,8 @@ Il grafico seguente illustra l’intero processo di pubblicazione della messaggi
 * [Annullamento della pubblicazione di un messaggio sulle transazioni](#unpublishing-a-transactional-message)
 * [Pubblicazione di un evento](../../channels/using/publishing-transactional-event.md)
 
-<!--## Testing a transactional message {#testing-a-transactional-message}
+<!--
+## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
 
@@ -84,7 +85,8 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
+-->
 
 ## Pubblicazione di un messaggio sulle transazioni {#publishing-a-transactional-message}
 
@@ -94,7 +96,7 @@ Dopo aver modificato e testato il messaggio sulle transazioni, puoi pubblicarlo.
 
 Ora, non appena si attiva l’evento &quot;Abbandono carrello&quot;, viene visualizzato automaticamente un messaggio contenente il titolo e il cognome del destinatario, l’URL del carrello, l’ultimo prodotto visionato o un elenco di prodotti, se definito, e l’importo totale del carrello da inviare.
 
-Per accedere ai rapporti relativi al messaggio sulle transazioni, usa il pulsante **[!UICONTROL Reports]**. Consulta [Rapporti dinamici](../../reporting/using/about-dynamic-reports.md).
+Per accedere ai rapporti relativi al messaggio transazionale, usa il pulsante **[!UICONTROL Reports]**. Consulta [Rapporti dinamici](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
@@ -105,7 +107,7 @@ Per accedere ai rapporti relativi al messaggio sulle transazioni, usa il pulsant
 
 ## Sospensione di una pubblicazione di un messaggio sulle transazioni {#suspending-a-transactional-message-publication}
 
-Puoi sospendere la pubblicazione del messaggio sulle transazioni utilizzando, ad esempio, il pulsante **[!UICONTROL Pause]** per la modifica dei dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database di Adobe Campaign.
+Puoi sospendere la pubblicazione del messaggio transazionale utilizzando, ad esempio, il pulsante **[!UICONTROL Pause]** per la modifica dei dati contenuti nel messaggio. Pertanto, gli eventi non vengono più elaborati, ma rimangono in coda nel database di Adobe Campaign.
 
 Gli eventi in coda vengono conservati durante un periodo di tempo definito nell&#39;API REST (vedi la [documentazione API REST](../../api/using/managing-transactional-messages.md)) o nell&#39;evento trigger se utilizzi il servizio core Triggers (vedi [Informazioni su Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
@@ -115,7 +117,7 @@ Durante la selezione di **[!UICONTROL Resume]**, vengono elaborati tutti gli eve
 
 ## Annullamento della pubblicazione di un messaggio sulle transazioni {#unpublishing-a-transactional-message}
 
-Facendo clic su **[!UICONTROL Unpublish]** puoi annullare la pubblicazione dei messaggi sulle transazioni, ma anche la pubblicazione dell’evento corrispondente, che elimina dall’API REST la risorsa corrispondente all’evento creato in precedenza.
+Facendo clic su **[!UICONTROL Unpublish]** puoi annullare la pubblicazione dei messaggi transazionali, ma anche la pubblicazione dell’evento corrispondente, che elimina dall’API REST la risorsa corrispondente all’evento creato in precedenza.
 
 ![](assets/message-center_unpublish-template.png)
 
@@ -125,35 +127,36 @@ Adesso, anche se l’evento viene attivato nel sito web, i messaggi corrisponden
 >
 >Per pubblicare nuovamente il messaggio, devi tornare alla configurazione dell&#39;evento corrispondente, [pubblicare l&#39;evento](../../channels/using/publishing-transactional-event.md), quindi [pubblicare il messaggio](#publishing-a-transactional-message).
 
-Se annulli la pubblicazione di un messaggio sulle transazioni in sospensione, potresti dover attendere fino a 24 ore prima di poterlo pubblicare nuovamente. In questo modo, il flusso di lavoro **[!UICONTROL Database cleanup]** eliminerà tutti gli eventi inviati alla coda.
+Se annulli la pubblicazione di un messaggio transazionale in pausa, potresti dover attendere fino a 24 ore prima di poterlo pubblicare nuovamente. In questo modo, il flusso di lavoro **[!UICONTROL Database cleanup]** eliminerà tutti gli eventi inviati alla coda.
 
-La procedura per la sospensione di un messaggio è spiegata nei dettagli nella sezione [Sospensione della pubblicazione di un messaggio sulle transazioni](#suspending-a-transactional-message-publication).
+La procedura per mettere in pausa un messaggio è spiegata nei dettagli nella sezione [Sospensione della pubblicazione di un messaggio transazionale](#suspending-a-transactional-message-publication).
 
 Il flusso di lavoro **[!UICONTROL Database cleanup]**, che viene eseguito ogni giorno alle 4.00, è accessibile tramite **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
 ## Eliminazione di un messaggio sulle transazioni {#deleting-a-transactional-message}
 
-Dopo aver annullato la pubblicazione di un messaggio sulle transazioni o se tale messaggio non è ancora stato pubblicato, puoi eseguirne l’eliminazione dall’elenco dei messaggi sulle transazioni. Per eseguire questa operazione:
+Dopo aver annullato la pubblicazione di un messaggio transazionale o se tale messaggio non è ancora stato pubblicato, puoi eliminarlo dall’elenco dei messaggi transazionali. Per eseguire questa operazione:
 
 1. Fai clic sul logo **Adobe** nell&#39;angolo in alto a sinistra, quindi seleziona **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
-1. Passa il mouse sopra il messaggio desiderato.
+1. Passa il puntatore sul messaggio desiderato.
 1. Fai clic sul pulsante **[!UICONTROL Delete element]**.
 
 ![](assets/message-center_delete-template.png)
 
-Tuttavia, l’eliminazione di un messaggio sulle transazioni può essere eseguita solo in presenza di determinate condizioni:
+Tuttavia, l’eliminazione di un messaggio transazionale può essere eseguita solo in presenza di determinate condizioni:
 
-* Assicurati che il messaggio sulle transazioni presenti lo stato **[!UICONTROL Draft]**, altrimenti non potrai eliminarlo. Lo stato **[!UICONTROL Draft]** si applica a un messaggio che non è ancora stato pubblicato o che è stato [annullato](#unpublishing-a-transactional-message) (e non è stato [sospeso](#suspending-a-transactional-message-publication)).
+* Assicurati che il messaggio transazionale presenti lo stato **[!UICONTROL Draft]**, altrimenti non potrai eliminarlo. Lo stato **[!UICONTROL Draft]** si applica a un messaggio che non è ancora stato pubblicato o che è stato [annullato](#unpublishing-a-transactional-message) (e non è stato [sospeso](#suspending-a-transactional-message-publication)).
 
-* **Messaggi sulle transazioni**: a meno che un altro messaggio sulle transazioni non sia collegato all’evento corrispondente, se il messaggio sulle transazioni non viene pubblicato, anche la configurazione dell’evento deve essere annullata onde consentire una corretta eliminazione del messaggio sulle transazioni. Per ulteriori informazioni, consulta [Annullamento della pubblicazione di un evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+* **Messaggi transazionali**: a meno che un altro messaggio transazionale non sia collegato all’evento corrispondente, se il messaggio transazionale non viene pubblicato, anche la configurazione dell’evento deve essere annullata onde consentire la corretta eliminazione del messaggio transazionale. Per ulteriori informazioni, consulta [Annullamento della pubblicazione di un evento](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
   >[!IMPORTANT]
   >
-  >Se elimini un messaggio sulle transazioni che ha già inviato delle notifiche, verranno cancellati anche i registri di invio e di tracciamento.
+  >Se elimini un messaggio transazionale che ha già inviato delle notifiche, verranno cancellati anche i registri di invio e di tracciamento.
 
-* **Messaggi sulle transazioni da un modello di evento predefinito (messaggi sulle transazioni interni)**: se un messaggio sulle transazioni interno è l’unico associato all’evento corrispondente, non è possibile eseguirne l’eliminazione. Devi innanzitutto creare un altro messaggio sulle transazioni effettuandone la duplicazione o utilizzando il menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
+* **Messaggi transazionali da un modello di evento predefinito (messaggi transazionali interni)**: se un messaggio transazionale interno è l’unico associato all’evento corrispondente, non è possibile eliminarlo. Devi innanzitutto creare un altro messaggio transazionale mediante duplicazione o utilizzando il menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
 
-<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
+<!--
+## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -245,4 +248,5 @@ In the retry process, the sending logs of the new execution delivery are not imm
 
 You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.
+-->

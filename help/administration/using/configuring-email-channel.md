@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2748'
 ht-degree: 57%
 
 ---
@@ -31,10 +31,10 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
    * Sia l’indirizzo del mittente che l’indirizzo di errore sono impostati da Adobe. Questi campi non possono essere vuoti.
    * Non è possibile modificarli. Per aggiornare un indirizzo, contatta il team di Assistenza cliente Adobe.
-   * Per aggiungere un altro indirizzo, puoi utilizzare [Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it) per impostare un nuovo sottodominio o contattare il team di assistenza clienti Adobe. Se vengono utilizzate più maschere, vengono separate da virgole.
+   * Per aggiungere un altro indirizzo, puoi utilizzare [Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it) per impostare un nuovo sottodominio o contattare il team di assistenza clienti di Adobe. Se vengono utilizzate più maschere, vengono separate da virgole.
    * È buona norma impostare gli indirizzi utilizzando un asterisco, ad esempio **@yourdomain.com**: ti consente di utilizzare qualsiasi indirizzo che termina con il nome del sottodominio.
 
-* **Consegna**
+* **Deliverability**
 
   L’**[!UICONTROL Delivery reports ID]** è fornito dal team di Assistenza cliente Adobe. Identifica ogni istanza con un ID di consegna che viene utilizzato nei report tecnici di consegna.
   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
@@ -93,11 +93,13 @@ Il tipo di account deve essere sempre impostato su **[!UICONTROL Routing]**, il 
 * La firma di autenticazione dell&#39;e-mail **DKIM (DomainKeys Identified Mail)** viene eseguita per tutti i messaggi di tutti i domini. Non esegue la firma con **ID mittente**, **DomainKeys** o **S/MIME**.
 * Le regole MX personalizzano automaticamente la velocità effettiva per dominio in base alla reputazione cronologica dell’e-mail e al feedback in tempo reale proveniente dai domini in cui invii le e-mail.
 
-<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+<!--
+Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
-* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
-### Messaggi non recapitati {#bounce-mails}
+### E-mail non recapitate {#bounce-mails}
 
 I messaggi non recapitati asincroni sono ancora qualificati dal processo Campaign inMail attraverso le regole **[!UICONTROL Bounce mails]**.
 
@@ -107,9 +109,10 @@ Tali regole contengono l’elenco di stringhe di caratteri che possono essere re
 >
 >I messaggi di errore di consegna sincrona sono ora qualificati dall’MTA avanzato di Adobe Campaign, che determina il tipo di e la qualifica di mancato recapito e invia nuovamente tali informazioni a Campaign.
 
-Per ulteriori informazioni sulla qualifica della posta non recapitata, consulta questa [sezione](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+Per ulteriori informazioni sulla qualificazione delle e-mail non recapitate, consulta questa [sezione](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+<!--
+Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Management of email domains {#managing-email-domains}
 
@@ -121,7 +124,8 @@ The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe 
 
 The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ## Elenco delle proprietà e-mail {#list-of-email-properties}
 
@@ -186,7 +190,7 @@ Utilizza l&#39;opzione **[!UICONTROL Enable SMTP test mode]** per verificare l&#
 
 Questa opzione è disponibile per le e-mail e per i modelli e-mail.
 
-Se abiliti l’opzione della modalità di prova SMTP per un modello e-mail, questa opzione sarà attivata per tutti i messaggi e-mail creati da questo modello.
+Se abiliti l’opzione della modalità di prova SMTP per un modello e-mail, questa opzione sarà abilitata per tutti i messaggi e-mail creati da questo modello.
 
 >[!IMPORTANT]
 >
@@ -213,7 +217,7 @@ La sezione **[!UICONTROL Validity period]** contiene i seguenti parametri:
   >
   >**È necessario definire un valore fino a 3,5 giorni.** Se imposti un valore superiore a 3,5 giorni, non verrà preso in considerazione.
   >
-  >Il parametro **[!UICONTROL Delivery duration]** non si applica ai messaggi sulle transazioni. Per ulteriori informazioni sulla messaggistica transazionale, consulta [questa sezione](../../channels/using/getting-started-with-transactional-msg.md).
+  >Il parametro **[!UICONTROL Delivery duration]** non si applica ai messaggi transazionali. Per ulteriori informazioni sulla messaggistica transazionale, consulta [questa sezione](../../channels/using/getting-started-with-transactional-msg.md).
 
 * **[!UICONTROL Resource validity duration]**/**[!UICONTROL Validity limit date for resources]**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
 * **[!UICONTROL Mirror page management]**: la pagina mirror è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail. Per impostazione predefinita, la pagina mirror viene generata se il collegamento viene inserito nel contenuto dell’e-mail. Utilizza questo campo per modificare la modalità di generazione della pagina:
@@ -252,7 +256,7 @@ L’inserimento e l’utilizzo del contenuto di personalizzazione sono descritti
 
 #### Contesto del target {#target-context}
 
-Utilizza il contesto di targeting per definire un set di tabelle da utilizzare per il targeting delle e-mail (nella schermata di definizione del pubblico) e la personalizzazione (definizione dei campi di personalizzazione nell’editor di contenuti di HTML).
+Utilizza il contesto di targeting per definire un set di tabelle da utilizzare per il targeting delle e-mail (nella schermata di definizione del pubblico) e la personalizzazione (definizione dei campi di personalizzazione nell’editor di contenuti HTML).
 
 #### Indirizzamento {#routing}
 
@@ -274,7 +278,7 @@ La preparazione dei messaggi è spiegata nel dettaglio nella sezione [Approvazio
 
 * **[!UICONTROL Compute the label during delivery preparation]**: utilizza questa opzione per calcolare il valore dell&#39;etichetta dell&#39;e-mail durante la fase di preparazione dei messaggi tramite campi di personalizzazione, blocchi di contenuto e testo dinamico.
 
-  È inoltre possibile personalizzare l’etichetta di consegna con le variabili evento dichiarate nell’attività del segnale esterno del flusso di lavoro. Per ulteriori informazioni, consulta [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md).
+  È inoltre possibile personalizzare l’etichetta di consegna con le variabili evento dichiarate nell’attività del segnale esterno del flusso di lavoro. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: utilizzare questa opzione per aggiungere i registri query SQL nel giornale di registrazione durante la fase di preparazione.
 
@@ -288,7 +292,7 @@ La sezione **[!UICONTROL SMTP]** contiene i seguenti parametri:
 
 * **[!UICONTROL Character encoding]**: seleziona la casella **[!UICONTROL Force encoding]** per forzare la codifica dei messaggi, quindi scegli la codifica da utilizzare.
 * **[!UICONTROL Bounce mails]**: per impostazione predefinita, i messaggi non recapitati vengono ricevuti nella casella in entrata degli errori della piattaforma (definita nella schermata **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]**). Per impostare un indirizzo di errore specifico per un’e-mail, inseriscilo nel campo **[!UICONTROL Error address]**.
-* **[!UICONTROL Additional SMTP headers]**: questa opzione ti consente di aggiungere ai messaggi le intestazioni SMTP aggiuntive. Lo script immesso nel campo **[!UICONTROL Headers]** deve fare riferimento a un’intestazione per riga, nella forma di **nome:valore**. Se necessario, i valori vengono codificati automaticamente.
+* **[!UICONTROL Additional SMTP headers]**: questa opzione ti consente di aggiungere ai messaggi le intestazioni SMTP aggiuntive. Lo script immesso nel campo **[!UICONTROL Headers]** deve fare riferimento a un&#39;intestazione per riga, sotto forma di **nome:value**. Se necessario, i valori vengono codificati automaticamente.
 
   >[!IMPORTANT]
   >
@@ -322,7 +326,7 @@ Se **NOT** esegui la versione più recente di Campaign, i parametri e le sezioni
 
 Le impostazioni **[!UICONTROL Retries]** nel [menu Configurazione](#email-channel-parameters) e nei [parametri di invio](#retries-parameters) delle proprietà e-mail indicano il numero di tentativi da eseguire il giorno successivo all&#39;avvio dell&#39;invio (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) e il ritardo minimo tra i tentativi (**[!UICONTROL Retry period]**).
 
-Il numero di tentativi può essere modificato a livello globale (contatta l’amministratore tecnico Adobe) o per ogni modello di consegna o consegna.
+Il numero di tentativi può essere modificato a livello globale (contatta l’amministratore tecnico di Adobe) o per ogni modello di consegna o consegna.
 
 Per impostazione predefinita, per il primo giorno sono pianificati cinque nuovi tentativi con un intervallo minimo di un’ora, suddivisi nelle 24 ore del giorno. Un nuovo tentativo al giorno è programmato dopo e fino alla scadenza della consegna, che è definita globalmente nella sezione **[!UICONTROL Delivery parameters]** del menu **[!UICONTROL Configuration]** o nella sezione **[!UICONTROL Validity period]** a livello di consegna (vedi la sezione [Durata della consegna](#legacy-delivery-duration) di seguito).
 

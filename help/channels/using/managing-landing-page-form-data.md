@@ -9,7 +9,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 12%
@@ -156,9 +156,11 @@ Per inserire e configurare questa casella di controllo, effettuare le seguenti o
 
      ![](assets/lp_show_source.png)
 
-     <!--Manually insert a checkbox, such as in the example below:
+     <!--
+      Manually insert a checkbox, such as in the example below:
 
-      <!--Click **[!UICONTROL Hide source]**.-->
+      Click **[!UICONTROL Hide source]**.
+      -->
 
 1. Assicurati che la casella di controllo sia selezionata.
 
