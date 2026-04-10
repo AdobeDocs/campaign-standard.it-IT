@@ -4,11 +4,10 @@ description: In questa pagina sono elencate tutte le versioni di Adobe Campaign 
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '7674'
+source-wordcount: '7673'
 ht-degree: 8%
 
 ---
@@ -34,7 +33,7 @@ ht-degree: 8%
     <li><p>Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento (RGPD o CCPA) è stato aggiunto al servizio core per la privacy. Dovresti utilizzare questo metodo per tutte le richieste di accesso ed eliminazione. L’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto. Consulta l’articolo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">Funzioni obsolete e rimosse</a>.</p></li>
     <li>Alla risorsa Profili è stato aggiunto il campo <strong>Rinuncia CCPA</strong> per consentire agli utenti di Adobe Campaign di verificare se un consumatore ha rinunciato alla vendita di Informazioni personali. <a href="https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ccpa">Ulteriori informazioni</a>.</li>
   </ul>
-    <p>Consulta il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=it">video tutorial</a>.</p>
+    <p>Consulta il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">video tutorial</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -43,7 +42,7 @@ ht-degree: 8%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Integrazione con Microsoft Dynamics 365 (GA)</strong><br /> </th> 
+   <th> <strong>Integrazione Microsoft Dynamics 365 (GA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -58,7 +57,7 @@ ht-degree: 8%
 
 **Miglioramenti**
 
-* La finestra a comparsa relativa al consenso per il reporting dinamico è stata aggiornata per includere l’integrazione con Adobe Campaign Standard e Microsoft Dynamics 365. Accettando i termini, i dati del profilo verranno inclusi quando si utilizzano l’integrazione Adobe Campaign Standard/Microsoft Dynamics 365 e il reporting dinamico. [Ulteriori informazioni](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* La finestra a comparsa relativa al consenso per il reporting dinamico è stata aggiornata per includere l’integrazione di Adobe Campaign Standard e Microsoft Dynamics 365. Accettando i termini, i dati del profilo verranno inclusi quando si utilizza l’integrazione Adobe Campaign Standard/Microsoft Dynamics 365 e il reporting dinamico. [Ulteriori informazioni](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * È stato risolto un problema che causava la visualizzazione di date di contatto errate durante la ricezione di avvisi di consegna.
 * Quando un evento di messaggio transazionale viene inviato con un parametro di contesto sconosciuto, Campaign ora restituisce un messaggio di errore &quot;400&quot; invece di &quot;500&quot;. (CAMP-28632)
 * Un nuovo segmento **Exclude proof** è stato aggiunto nel reporting dinamico. Questo segmento ora è selezionato per impostazione predefinita per filtrare i rapporti. [Ulteriori informazioni](../../reporting/using/list-of-components.md#segments)
@@ -66,11 +65,11 @@ ht-degree: 8%
 * Sono stati apportati miglioramenti all&#39;attività **Load file**: i registri del flusso di lavoro sono stati resi più chiari e dettagliati in merito all&#39;errore che si verifica quando un file non viene caricato. La transizione in uscita generata durante l&#39;attivazione dell&#39;opzione **Mantieni i rifiuti in un file** è stata rinominata **Rifiuti**. [Ulteriori informazioni](../../automating/using/load-file.md)
 * Sono stati aggiunti registri multilingue correlati ai registri di invio per comprendere meglio gli errori di invio dovuti alla mancanza di lingue nei file CSV caricati.
 
-**Miglioramenti di sicurezza**
+**Miglioramenti della sicurezza**
 
 * È stato risolto un problema che si verificava durante l’eliminazione di informazioni di un profilo in quarantena tramite una richiesta di privacy, causando la rimozione di tutti i dati eccetto l’indirizzo e-mail nell’elenco di quarantena.
 * È stata migliorata la sicurezza per la protezione contro iniezioni nelle intestazioni delle e-mail.
-* È stata migliorata la sicurezza per la protezione contro gli attacchi SSRF in cui è possibile utilizzare espressioni xtk (e-mail HTML, contenuto di testo e oggetto, SMS e contenuti di notifiche push).
+* È stata migliorata la sicurezza per la protezione contro gli attacchi SSRF in cui è possibile utilizzare espressioni xtk (e-mail HTML, contenuto di testo e oggetto, SMS e contenuto di notifiche push).
 
 **Miglioramenti di E-mail Designer**
 
@@ -84,12 +83,12 @@ ht-degree: 8%
 * È stato risolto un problema che si verificava durante il salvataggio delle modifiche sul mittente dell&#39;e-mail nel campo **From: Name** (Da: Nome). (CAMP-36606)
 * L’avviso di compatibilità del componente carosello è stato modificato per riflettere i client e-mail supportati.
 * È stato risolto un problema di visualizzazione su dispositivi mobili. L’attributo height è ora sempre impostato su &quot;height: auto&quot; (altezza: automatica) quando si aggiunge o si carica una nuova immagine in un messaggio e-mail. (CAMP-35497)
-* È stato risolto un problema che causava la perdita di tag di stile e metadati nel HTML durante l’eliminazione di un frammento da un componente struttura. (CAMP-35390)
+* È stato risolto un problema a causa del quale lo stile e i metatag venivano lasciati in HTML durante l’eliminazione di un frammento da un componente struttura. (CAMP-35390)
 * È stato risolto un problema relativo ai frammenti durante l’aggiornamento del contenuto riutilizzabile. (CAMP-35186)
 * È stato risolto un problema che si verificava durante la visualizzazione del contenuto condizionale solo per dispositivi mobili nelle e-mail. (CAMP-35155)
 * È stato risolto un problema che causava la visualizzazione casuale di spazi unificatori di larghezza zero. (CAMP-35116)
 * È stato risolto un problema relativo alla posizione dei pulsanti nella finestra di dialogo **Salva come frammento**.
-* È stato risolto un problema di anteprima che si verificava con l’aggiunta di un tag HTML in un titolo immagine e in un testo alternativo.
+* È stato risolto un problema di anteprima che si verificava quando si aggiungeva un tag HTML al titolo di un’immagine e a un testo alternativo.
 * È stato risolto un problema che si verificava durante la modifica, nella finestra di E-mail designer, dei collegamenti creati nelle e-mail dall’editor legacy.
 * È stato risolto un problema che lasciava tag di stile duplicati nel contenuto.
 * È stato risolto un problema relativo al formato della data che si verificava durante l’inserimento di un campo di personalizzazione in un messaggio e-mail.
@@ -111,7 +110,7 @@ ht-degree: 8%
 * Ora viene visualizzato un messaggio di errore durante l&#39;esecuzione dell&#39;attività **Scheduler** di un flusso di lavoro connessa a se stessa, direttamente o tramite più attività, poiché ciò potrebbe causare il blocco del server del flusso di lavoro dell&#39;istanza.
 * Sono stati apportati miglioramenti per facilitare la risoluzione dei problemi dei messaggi transazionali: il collegamento &quot;Dati&quot; è stato rinominato &quot;Ultimi eventi transazionali&quot; nella schermata di configurazione dell’evento, ora elenca gli eventi ricevuti ordinati in ordine decrescente. Inoltre, è stato creato un nuovo stato di evento transazionale: &quot;targetingFailed&quot;. Quando il modulo di messaggistica transazionale non riesce ad arricchire un collegamento utilizzato per il targeting dei messaggi, l’evento transazionale ora si trova in questo nuovo stato (invece dello stato &quot;routingFailed&quot;).
 * Sono stati apportati miglioramenti all’interfaccia per limitare l’accesso alle pagine di destinazione a specifiche unità geografiche o organizzative. Lo scopo è quello di avvisare che la pagina di destinazione può essere soggetta a condizioni di visibilità: la selezione di un’unità geografica e organizzativa durante la creazione di una pagina di destinazione è ora obbligatoria. Una volta selezionata un&#39;unità, ora viene visualizzato un banner con le relative informazioni. Il messaggio di errore visualizzato durante il test della pagina di destinazione è stato reso più chiaro.
-* Nelle API Campaign Standard, le chiavi personalizzate non possono essere modificate utilizzando un’operazione PATCH se il valore della chiave è diverso dalla chiave di origine o se si utilizza come URI la propria chiave aziendale invece di quella fornita da Adobe.
+* Nelle API di Campaign Standard, le chiavi personalizzate non possono essere modificate utilizzando un’operazione PATCH se il valore della chiave è diverso dalla chiave di origine o se si utilizza come URI la propria chiave aziendale invece di quella fornita da Adobe.
 * La lingua &quot;albanese - Macedonia&quot; è stata aggiunta all’elenco a discesa delle lingue preferite. (CAMP-35396)
 
 **Patch**
@@ -119,7 +118,7 @@ ht-degree: 8%
 * È stato risolto un problema che impediva l’ordinamento o la ricerca dei rapporti pianificati.
 * È stato risolto un problema relativo alle regole Triggers che causava la confusione tra le regole AND e OR.
 * È stato risolto un problema a causa del quale la proprietà Mobile veniva visualizzata come Eliminata in Launch. (CAMP-35382)
-* È stato risolto un problema che impediva la sincronizzazione delle proprietà dei dispositivi mobili Adobe Launch in Adobe Campaign. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
+* È stato risolto un problema che impediva la sincronizzazione delle proprietà mobili di Adobe Launch in Adobe Campaign. (CAMP-35411, CAMP-35089, CAMP-35014, CAMP-35487)
 * È stato risolto un problema a causa del quale i messaggi push transazionali non riuscivano quando gli eventi venivano arricchiti con i dati di profilo. (CAMP-34385)
 * È stato risolto un problema che impediva la sincronizzazione delle proprietà mobili in più ambienti. (CAMP-37060)
 * È stato risolto un problema che si verificava selezionando, in una notifica push, un modello utilizzando una formula di data di contatto. (CAMP-35300)
@@ -155,22 +154,22 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Attività API esterna (Beta pubblico)<br /> </td> 
-   <td> <p>Per una personalizzazione più approfondita, l’attività API esterna consente di inserire dati da sistemi esterni in un flusso di lavoro tramite una chiamata API REST. Gli endpoint REST possono essere un sistema di gestione clienti, un endpoint REST Adobe I/O Runtime o Adobe Experience Cloud (ad esempio Data Platform, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=it">video tutorial</a>.</p></td> 
+   <td> <p>Per una personalizzazione più approfondita, l’attività API esterna consente di inserire dati da sistemi esterni in un flusso di lavoro tramite una chiamata API REST. Gli endpoint REST possono essere un sistema di gestione clienti, un endpoint REST Adobe I/O Runtime o Adobe Experience Cloud (ad esempio Data Platform, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">video tutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report sul segmento del flusso di lavoro<br /> </td> 
-   <td> <p>Questa funzione consente agli addetti al marketing di suddividere le prestazioni di consegna per codice di segmento. Quando crei un flusso di lavoro e utilizzi un’attività di segmentazione per assegnare segmenti al pubblico a cui verrà consegnata l’attività, questi segmenti possono ora essere inseriti nella stessa consegna. Questo consente di visualizzare le statistiche di apertura e clic basate su più segmenti all’interno di una singola consegna.</p><p>Per ulteriori informazioni, consulta la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=it">video tutorial</a>.</p></td>
+   <td> <p>Questa funzione consente agli addetti al marketing di suddividere le prestazioni di consegna per codice di segmento. Quando crei un flusso di lavoro e utilizzi un’attività di segmentazione per assegnare segmenti al pubblico a cui verrà consegnata l’attività, questi segmenti possono ora essere inseriti nella stessa consegna. Questo consente di visualizzare le statistiche di apertura e clic basate su più segmenti all’interno di una singola consegna.</p><p>Per ulteriori informazioni, consulta la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">video tutorial</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
 
-**Miglioramenti di sicurezza**
+**Miglioramenti della sicurezza**
 
 * È stato risolto un problema di sicurezza per impedire attacchi Denial of Service (DoS) su richieste non valide per ottenere immagini. (CAMP-33454)
 
 **Miglioramenti di E-mail Designer**
 
-* È stato risolto un problema che aggiungeva tag di stile HTML aggiuntivi a un modello HTML ogni volta che veniva aggiunto un componente, il che poteva aumentare notevolmente le dimensioni del modello. (CAMP-34694)
+* È stato risolto un problema che aggiungeva tag di stile HTML aggiuntivi a un modello di HTML ogni volta che veniva aggiunto un componente, il che poteva aumentare notevolmente le dimensioni del modello. (CAMP-34694)
 * È stato risolto un problema che poteva impedire la disponibilità di alcune opzioni di menu della barra degli strumenti superiore destra. (CAMP-34577)
 * È stato risolto un problema che si verificava quando il blocco di contenuto URL della pagina mirror veniva inserito in un contenuto e-mail. (CAMP-34779)
 * È stato risolto un problema che si verificava durante l’utilizzo del codice JSPP in un’e-mail, rendendo difficile la modifica del contenuto. (CAMP-34574)
@@ -181,14 +180,14 @@ ht-degree: 8%
 * È stato risolto un problema che poteva impedire la visualizzazione del campo Collegamento nel riquadro Impostazioni Designer e-mail (CAMP-33749).
 * È stato risolto un problema relativo all’icona YouTube di dimensioni eccessive nelle e-mail inviate. (CAMP-33726)
 * È stato risolto un problema di sicurezza che rendeva modificabile il contenuto della pagina speculare. (CAMP-33691)
-* È stato risolto un problema che causava l’interruzione dell’output HTML quando si utilizzava il simbolo maggiore di nel contenuto dinamico. (CAMP-33688)
+* È stato risolto un problema che causava l’interruzione dell’output di HTML quando si utilizzava il simbolo maggiore di nel contenuto dinamico. (CAMP-33688)
 * È stato risolto un problema che si verificava durante l’utilizzo dell’opzione Annulla durante la modifica del testo nel Designer e-mail. (CAMP-32565)
 * È stato risolto un problema che causava la creazione di tag aggiuntivi durante l’annullamento degli stili invece di rimuoverli. (CAMP-32359)
 * Ora puoi definire se ogni componente utilizzato in un’e-mail verrà visualizzato solo sui dispositivi desktop o solo sui dispositivi mobili.
 * Ora puoi impostare la larghezza e l’altezza di un componente di contenuto Social.
 * È stato risolto un problema che impediva la rimozione del vecchio codice sorgente del contenuto dinamico dopo l’eliminazione di tale contenuto dinamico.
 * È stato risolto un problema che poteva impedire l’aggiornamento dell’oggetto di un’e-mail dopo la sua modifica.
-* È stato risolto un problema che impediva la selezione di una struttura di colonne n:n una volta rilasciata nell’area di lavoro.
+* È stato risolto un problema che impediva la selezione di una struttura di colonne n:n una volta rilasciata nell&#39;area di lavoro.
 * È stato risolto un problema a causa del quale la miniatura del messaggio risultava sfocata nel dashboard e-mail.
 * È stato risolto un problema che impediva la corretta visualizzazione dello sfondo per le e-mail ricevute in Outlook.
 * Sono stati risolti alcuni problemi di ordinamento nella home page di E-mail Designer.
@@ -197,7 +196,7 @@ ht-degree: 8%
 
 **Altri miglioramenti**
 
-* Grazie all’integrazione con Adobe Experience Platform Location Services, Adobe Campaign è ora compatibile per inviare messaggi di marketing basati sulla posizione agli abbonati alla tua app mobile tramite l’SDK di Experience Platform. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* Grazie all’integrazione con Adobe Experience Platform Location Services, Adobe Campaign è ora compatibile per inviare messaggi di marketing basati sulla posizione agli abbonati alla tua app mobile tramite Experience Platform SDK. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * La funzione di reporting è stata migliorata per offrire un’esperienza migliore. Per utilizzare questa funzione, devi accettare il contratto di utilizzo per Reporting dinamico. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * Nei flussi di lavoro è stata aggiunta una nuova opzione per visualizzare in anteprima le prossime dieci esecuzioni di un flusso di lavoro. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../automating/using/scheduler.md).
 * Nell’attività Scheduler, una nuova opzione consente di selezionare un giorno specifico di una settimana specifica per le consegne mensili. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../automating/using/scheduler.md).
@@ -265,7 +264,7 @@ ht-degree: 8%
 
 **E-mail Designer**
 
-* È stato risolto un problema che impediva agli utenti di modificare frammenti quando nel HTML venivano utilizzati tag di stile vuoti. Questa è una correzione di follow-up per CAMP-33778 nella versione 19.2.3.
+* È stato risolto un problema che impediva agli utenti di modificare frammenti quando in HTML venivano utilizzati tag di stile vuoti. Questa è una correzione di follow-up per CAMP-33778 nella versione 19.2.3.
 
 ## Versione 19.2.3 - Giugno 2019 {#release-19-2-3---june-2019}
 
@@ -274,14 +273,14 @@ ht-degree: 8%
 Nella versione 19.2 è stata introdotta una serie di miglioramenti e correzioni per ottimizzare i frammenti. I nuovi frammenti creati funzioneranno senza problemi. I frammenti creati in precedenza sono stati disattivati e devono essere migrati al nuovo formato. A questo scopo, fai clic su ciascun frammento e ne convalida la migrazione al nuovo formato. È consigliabile eseguire il test di alcuni frammenti prima di eseguirne la migrazione di tutti.
 
 * È stato risolto un problema che impediva agli utenti di modificare un frammento dopo averlo sbloccato. Questo influenzava i frammenti esistenti durante l’aggiornamento alla versione 19.2. (CAMP-33778)
-* È stato risolto un problema che si verificava con l’utilizzo di contenuto dinamico. Nel HTML sono stati aggiunti degli spazi aggiuntivi.
+* È stato risolto un problema che si verificava con l’utilizzo di contenuto dinamico. In HTML sono stati aggiunti spazi aggiuntivi.
 
 **Altri miglioramenti**
 
 * È stato risolto un problema che poteva impedire la ripresa dell’invio SMS dopo una disconnessione del connettore SMS.
 * È stato risolto un problema che poteva chiudere le connessioni SMPP quando TLS era abilitato.
 * È stato risolto un problema che poteva chiudere le connessioni SMPP quando TLS era abilitato.
-* L’opzione &quot;Launch_URL_Campaign&quot; è stata aggiunta in Campaign per gestire le proprietà delle applicazioni mobili create con l’SDK di Adobe Experience Platform Mobile.
+* L’opzione &quot;Launch_URL_Campaign&quot; è stata aggiunta in Campaign per gestire le proprietà delle app mobili create con Adobe Experience Platform Mobile SDK.
 * È stato corretto un errore a causa del quale l’opzione dell’ambiente Sandbox veniva deselezionata dopo il caricamento del certificato di una proprietà mobile appena creata e l’uscita dalla pagina delle proprietà dell’app mobile.
 * È stato risolto un problema che impediva l’arricchimento del contenuto di un messaggio transazionale con le informazioni provenienti dalla risorsa Servizio. (CAMP-33707)
 * È stato risolto un problema nell’inserire nell&#39;elenco Bloccati le pagine di destinazione che si verificava quando si tentava di annullare l’abbonamento di profili da un servizio.
@@ -308,7 +307,7 @@ Nella versione 19.2 è stata introdotta una serie di miglioramenti e correzioni 
   </tr> 
   <tr> 
    <td> Miglioramento del flusso di lavoro - Aggiunta di un payload all'attività del segnale esterno<br /> </td> 
-   <td> <p>Avvia un flusso di lavoro con un payload quando le condizioni definite vengono soddisfatte correttamente da un altro flusso di lavoro o una chiamata API REST per l’integrazione con i sistemi esterni. Ciò include anche una nuova attività <strong>test</strong> in cui è possibile eseguire test su questa funzionalità.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=it">video tutorial</a>.</p></td> 
+   <td> <p>Avvia un flusso di lavoro con un payload quando le condizioni definite vengono soddisfatte correttamente da un altro flusso di lavoro o una chiamata API REST per l’integrazione con i sistemi esterni. Ciò include anche una nuova attività <strong>test</strong> in cui è possibile eseguire test su questa funzionalità.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">video tutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Miglioramento delle pagine di destinazione - Google reCAPTCHA<br /> </td> 
@@ -317,7 +316,7 @@ Nella versione 19.2 è stata introdotta una serie di miglioramenti e correzioni 
  </tbody> 
 </table>
 
-**Miglioramenti di sicurezza**
+**Miglioramenti della sicurezza**
 
 * È stato risolto un potenziale problema di sicurezza relativo al clickjacking nell’area di lavoro di reporting.
 
@@ -326,7 +325,7 @@ Nella versione 19.2 è stata introdotta una serie di miglioramenti e correzioni 
 * È stato risolto un problema che si verificava durante la duplicazione di frammenti e il tentativo di utilizzarli in E-mail Designer. (CAMP-33193)
 * È stato risolto un problema che causava la creazione di spazi indesiderati durante l’utilizzo di elementi in linea nell’interfaccia E-mail Designer. (CAMP-32163)
 * È stato risolto un problema che eliminava alcuni attributi di tag HTML aggiuntivi aggiunti dall’utente dopo il salvataggio del contenuto dell’e-mail nel Designer e-mail. (CAMP-32162)
-* È stato risolto un problema che causava la visualizzazione di un tag di Microsoft Office in modalità HTML di E-mail Designer anche dopo la sua rimozione. (CAMP-32141)
+* È stato risolto un problema che causava la visualizzazione di un tag di Microsoft Office nella modalità E-mail Designer HTML anche dopo la sua rimozione. (CAMP-32141)
 * Se hai creato un messaggio e-mail utilizzando una versione precedente di E-mail Designer, all’apertura di questo contenuto viene visualizzata una finestra a comparsa in cui viene richiesto all’utente di eseguire l’aggiornamento alla versione più recente. (CAMP-31529)
 * È stato risolto un problema che poteva distorcere le immagini inviate da un’e-mail creata con E-mail Designer quando distribuita ad alcuni client di messaggistica. (CAMP-31407)
 * È stato risolto un problema che impediva la corretta visualizzazione di alcuni elementi come elenchi o pulsanti in modalità testo normale durante la creazione in modalità HTML. (CAMP-32582, CAMP-32542)
@@ -338,7 +337,7 @@ Nella versione 19.2 è stata introdotta una serie di miglioramenti e correzioni 
 * È stato risolto un problema che impediva il caricamento dei frammenti nella palette a sinistra di E-mail Designer.
 * È stato risolto un problema che impediva la visualizzazione dei frammenti creati durante l’edizione del contenuto e-mail nella palette a sinistra di E-mail Designer durante l’aggiornamento dell’elenco di frammenti.
 * Sono stati risolti diversi problemi che si verificavano durante l’utilizzo di contenuto dinamico in un’e-mail.
-* È stato risolto un problema che si verificava con il selettore colore durante il tentativo di definire un colore utilizzando i valori RGB.
+* È stato risolto un problema che si verificava con il selettore colore durante il tentativo di definire un colore utilizzando i valori di RGB.
 * È stato risolto un problema che impediva alla pagina speculare di essere reattiva durante la ricezione dell’e-mail su un dispositivo mobile.
 
 **Miglioramenti alla messaggistica transazionale**
@@ -426,7 +425,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
   </tr> 
   <tr> 
    <td> Messaggistica In-App Mobile<br /> </td> 
-   <td> <p>Questa versione contiene la versione GA del canale in-app in Campaign. Dal punto di vista funzionale, le aggiunte più importanti alla versione di Beta sono i rapporti dinamici per il canale in-app e l’handshake sicuro tra Mobile SDK e MCIAS (Marketing Cloud In-App Messaging Service che funge da criterio in-app per l’SDK). Secure Handshake garantisce che i dati PII degli utenti non cadano in mani maligne e consente di mantenere la privacy degli utenti su un dispositivo condiviso cancellando la cache dei messaggi ogni volta che l’utente si disconnette.</p><p>Per ulteriori informazioni, consulta la <a href="../../channels/using/about-in-app-messaging.md">documentazione dettagliata</a> e l'esercitazione in-app <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=it">dedicata</a>.</p> </td> 
+   <td> <p>Questa versione contiene la versione GA del canale in-app in Campaign. Dal punto di vista funzionale, le aggiunte più importanti alla versione di Beta sono i rapporti dinamici per il canale in-app e l’handshake sicuro tra Mobile SDK e MCIAS (Marketing Cloud In-App Messaging Service, che fornisce le regole in-app al SDK). Secure Handshake garantisce che i dati PII degli utenti non cadano in mani maligne e consente di mantenere la privacy degli utenti su un dispositivo condiviso cancellando la cache dei messaggi ogni volta che l’utente si disconnette.</p><p>Per ulteriori informazioni, consulta la <a href="../../channels/using/about-in-app-messaging.md">documentazione dettagliata</a> e l'esercitazione in-app <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">dedicata</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti al flusso di lavoro<br /> </td> 
@@ -440,7 +439,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
  </tbody> 
 </table>
 
-**Miglioramenti di sicurezza**
+**Miglioramenti della sicurezza**
 
 * Il codice HTML della pagina di destinazione generata è stato aggiornato per impedire l’indicizzazione del motore di ricerca.
 
@@ -473,7 +472,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 
 **Altri miglioramenti**
 
-* Adobe Campaign è ora completamente conforme a FCM sia per le app SDK V4 che per quelle SDK AEP.
+* Adobe Campaign è ora completamente conforme a FCM sia per le app SDK V4 che per le app AEP SDK.
 * Adobe Campaign supporta le notifiche push sul sistema operativo Wear di Android e watchOS di Apple.
 * I messaggi di avviso e di errore che possono apparire durante la navigazione nell’interfaccia sono stati resi più chiari e comprensibili.
 * Ora puoi aggiungere all’elenco dei profili colonne relative ai campi di consenso e rinuncia (&quot;Non contattare più ...&quot;).
@@ -484,7 +483,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 
 **Altre modifiche**
 
-* Adobe Campaign e Adobe Experience Cloud abbandoneranno il supporto per Microsoft Internet Explorer 11 a partire dalla primavera 2019 e dalla versione Campaign Standard 19.2. Passa a Microsoft Edge o a un altro browser supportato. Consulta la pagina [Funzioni obsolete e rimosse](../../rn/using/deprecated-features.md).
+* Adobe Campaign e Adobe Experience Cloud abbandoneranno il supporto per Microsoft Internet Explorer 11 a partire dalla primavera 2019 e dalla versione 19.2 di Campaign Standard. Passa a Microsoft Edge o a un altro browser supportato. Consulta la pagina [Funzioni obsolete e rimosse](../../rn/using/deprecated-features.md).
 * Il campo **Codice paese** della risorsa Profilo è stato rinominato in **Codice paese**.
 
 **Patch**
@@ -531,11 +530,11 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
      <li> Possibilità di <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperare automaticamente il contenuto da un URL al momento della preparazione</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">modelli di contenuto preconfigurati</a> completamente conformi. </li> 
     </ul> 
-    <p>Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=it">video</a>. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l’editor di contenuti e-mail legacy è ora obsoleto. Per ulteriori informazioni, consulta questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.</p> </td> 
+    <p>Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">video</a>. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l’editor di contenuti e-mail legacy è ora obsoleto. Per ulteriori informazioni, consulta questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Elenco prodotti nei messaggi e-mail sulle transazioni<br /> </td> 
-   <td> <p>Ora puoi fare riferimento a una o più raccolte di prodotti in un messaggio e-mail transazionale. Ad esempio, puoi inviare automaticamente un’e-mail di abbandono carrello elencando tutti i prodotti presenti nel carrello dell’utente con un’immagine, un prezzo e un collegamento a ciascun prodotto.</p><p>Per ulteriori informazioni, consulta la <a href="../../designing/using/using-product-listings.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=it">video tutorial</a>.</p> </td> 
+   <td> <p>Ora puoi fare riferimento a una o più raccolte di prodotti in un messaggio e-mail transazionale. Ad esempio, puoi inviare automaticamente un’e-mail di abbandono carrello elencando tutti i prodotti presenti nel carrello dell’utente con un’immagine, un prezzo e un collegamento a ciascun prodotto.</p><p>Per ulteriori informazioni, consulta la <a href="../../designing/using/using-product-listings.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">video tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Visualizzazione mobile in E-mail Designer<br /> </td> 
@@ -573,7 +572,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * È stato risolto un problema che distorceva il rendering in Microsoft Outlook delle impostazioni di stile applicate ai pulsanti con E-mail Designer.
 * È stato risolto un problema in E-mail Designer che rendeva modificabile un URL da un frammento di contenuto utilizzato in un messaggio e-mail. Ciò non era previsto in quanto il frammento è bloccato per impostazione predefinita.
 * È stato risolto un problema che impediva la visualizzazione del componente divisore E-mail Designer in Microsoft Office.
-* È stato risolto un problema che causava il blocco della pagina in alcuni browser Internet durante la visualizzazione di un contenuto sincronizzato dall’AEM utilizzando l’editor di contenuti e-mail legacy. (CAMP-29068)
+* È stato risolto un problema che causava il blocco della pagina in alcuni browser Internet durante la visualizzazione di un contenuto sincronizzato da AEM utilizzando l’editor di contenuti e-mail legacy. (CAMP-29068)
 * È stato corretto un errore che si verificava facendo clic su un’immagine in un messaggio e-mail quando si utilizzava l’editor di contenuti e-mail legacy. (CAMP-30424)
 * È stato risolto un problema che impediva la visualizzazione dei nuovi frammenti creati durante la modifica di un’e-mail con E-mail Designer. (CAMP-29928)
 * È stato risolto un problema che impediva la corretta visualizzazione del testo del pulsante nelle e-mail create con E-mail Designer e ricevute utilizzando il client Outlook WebMail.

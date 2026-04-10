@@ -4,9 +4,8 @@ description: In questa pagina sono elencate tutte le versioni di Adobe Campaign 
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '4572'
 ht-degree: 3%
@@ -43,8 +42,8 @@ ht-degree: 3%
 _Piattaforma_
 
 * È stato risolto un problema che poteva impedire la corretta decompressione dei file compressi di grandi dimensioni.
-* È stata migliorata la sicurezza nella gestione del brand. La modifica del nome e dell’indirizzo del mittente di un brand è ora riservata agli amministratori tecnici Adobi.
-* Per migliorare la sicurezza, contenuti generati dall’utente (immagini, pagine mirror, pagine di destinazione, ecc.) non può più essere gestito dal dominio adobe.com. È ora obbligatorio utilizzare il proprio dominio per gestire queste risorse tramite l’utilizzo del branding.
+* È stata migliorata la sicurezza nella gestione del brand. La modifica del nome e dell’indirizzo del mittente di un brand è ora riservata agli amministratori tecnici di Adobe.
+* Per migliorare la sicurezza, i contenuti generati dagli utenti (immagini, pagine mirror, pagine di destinazione, ecc.) non possono più essere serviti dal dominio adobe.com. È ora obbligatorio utilizzare il proprio dominio per gestire queste risorse tramite l’utilizzo del branding.
 * È stato risolto un problema di interfaccia che si verificava durante la visualizzazione e il filtraggio delle attività di marketing.
 * È stato risolto un problema che impediva l’aggiornamento dei campi della data di abbonamento con una chiamata API POST Rest.
 
@@ -303,7 +302,7 @@ _Notifiche push_
  <tbody> 
   <tr> 
    <td> Funzionalità di editing immagine migliorate con Creative SDK<br /> </td> 
-   <td> Ora puoi accedere a un set completo di funzioni basate su Creative SDK per migliorare le immagini direttamente nell’editor dei contenuti durante la modifica delle e-mail o delle pagine di destinazione.<br /> Questa funzionalità non richiede l'acquisizione di altre soluzioni Creative Cloud.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentazione dettagliata</a>.<br /> </td> 
+   <td> Ora puoi accedere a un set completo di funzioni basate su Creative SDK per migliorare le immagini direttamente nell’editor dei contenuti durante la modifica di e-mail o pagine di destinazione.<br /> Questa funzionalità non richiede l'acquisizione di altre soluzioni Creative Cloud.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Notifiche push transazionali<br /> </td> 
@@ -427,7 +426,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Dati dei punti di interesse<br /> </td> 
-   <td> I dati dei punti di interesse integrano Adobe Campaign con Adobe Analytics per dispositivi mobili. Quando gli utenti aprono l'app del brand, un brand può raccogliere dati dalle posizioni mobili degli utenti, denominate <strong>Punti di interesse</strong>. Questo consente al brand di sfruttare i flussi di lavoro di Adobe Campaign per inviare messaggi personalizzati in base alla posizione degli utenti. Questo canale sfrutta l’SDK del servizio core Mobile.<br /> Tieni presente che l'utilizzo di questa funzione richiede Analytics for Mobile, che è una soluzione a pagamento.<br /> Per ulteriori informazioni, consulta la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> I dati dei punti di interesse integrano Adobe Campaign con Adobe Analytics per dispositivi mobili. Quando gli utenti aprono l'app del brand, un brand può raccogliere dati dalle posizioni mobili degli utenti, denominate <strong>Punti di interesse</strong>. Questo consente al brand di sfruttare i flussi di lavoro di Adobe Campaign per inviare messaggi personalizzati in base alla posizione degli utenti. Questo canale sfrutta il SDK del servizio core Mobile.<br /> Tieni presente che l'utilizzo di questa funzione richiede Analytics for Mobile, che è una soluzione a pagamento.<br /> Per ulteriori informazioni, consulta la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API REST<br /> </td> 
@@ -510,7 +509,7 @@ _Generale_
 
 _E-mail e messaggi SMS_
 
-* È stato risolto un problema relativo ai modelli di consegna con contenuto HTML che conteneva un
+* È stato risolto un problema relativo ai modelli di consegna con contenuti HTML che contenevano un
 
 _Notifiche push_
 
@@ -530,5 +529,5 @@ _Flussi di lavoro_
 _Integrazioni_
 
 * È stato risolto un problema che poteva causare un errore durante la distribuzione di un trigger di evento in Adobe Campaign. Questo errore si verificava quando i metadati &quot;Probabilità di tornare tra 30 giorni&quot; erano stati aggiunti al trigger di abbandono in Adobe Marketing Cloud.
-* È stato risolto un problema che poteva causare la cancellazione del campo Dimension Target da parte del flusso di lavoro tecnico durante l’importazione di tipi di pubblico dal servizio core People. Con le query successive non è stato possibile recuperare i tipi di pubblico importati.
+* È stato risolto un problema che poteva causare la cancellazione del campo Dimension di Target da parte del flusso di lavoro tecnico durante l’importazione di tipi di pubblico dal servizio core People. Con le query successive non è stato possibile recuperare i tipi di pubblico importati.
 * È stato risolto un problema che poteva causare un errore nell&#39;attività **[!UICONTROL Save audience]** di un flusso di lavoro quando l&#39;opzione **[!UICONTROL Share in Adobe Marketing Cloud]** era selezionata.

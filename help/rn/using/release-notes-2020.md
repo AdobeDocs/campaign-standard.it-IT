@@ -7,9 +7,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '5267'
 ht-degree: 97%
@@ -24,7 +23,7 @@ ht-degree: 97%
 
 ## Versione 20.4 - Ottobre 2020 {#release-20-4---october-2020}
 
-**Novità?**
+**Novità**
 
 <table> 
 <thead> 
@@ -34,9 +33,9 @@ ht-degree: 97%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Ora è possibile utilizzare i <strong>Gruppi di controllo</strong> per misurare l’impatto delle campagne escludendo parte delle relative audience. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
+  <td> <p>Ora è possibile utilizzare i <strong>Gruppi di controllo</strong> per misurare l’impatto delle campagne escludendo parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
 </p>
-<p>Per ulteriori informazioni consulta la <a href="../../sending/using/control-group.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=it">video tutorial</a>.
+<p>Per ulteriori informazioni consulta la <a href="../../sending/using/control-group.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">video tutorial</a>.
 </p>
 </td> 
 </tr> 
@@ -72,8 +71,8 @@ ht-degree: 97%
   <p>IA per l’analisi dei percorsi utilizza l’apprendimento automatico avanzato (ML) per consentire alle aziende di ottimizzare la progettazione e la consegna di percorsi di clienti prevedendo le preferenze di coinvolgimento di ogni individuo.</p>
   <P>Journey AI è costituito da due caratteristiche ML:</p>
 <ul> 
-     <li> <strong>Valutazione predittiva del coinvolgimento</strong>: identifica in modo intelligente il livello di coinvolgimento preferito dai clienti per eseguire meglio il targeting e personalizzare i messaggi, al fine di aumentare le conversioni e la fidelizzazione. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=it">video-tutorial</a>.</li> 
-     <li> <strong>Ottimizzazione predittiva del momento di invio</strong>: prevede il momento migliore per inviare e-mail ai clienti in una campagna, in modo da massimizzare i tassi di coinvolgimento e migliorare il ROI delle campagne e-mail. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=it">video-tutorial</a>.</li>
+     <li> <strong>Valutazione predittiva del coinvolgimento</strong>: identifica in modo intelligente il livello di coinvolgimento preferito dai clienti per eseguire meglio il targeting e personalizzare i messaggi, al fine di aumentare le conversioni e la fidelizzazione. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">video-tutorial</a>.</li> 
+     <li> <strong>Ottimizzazione predittiva del momento di invio</strong>: prevede il momento migliore per inviare e-mail ai clienti in una campagna, in modo da massimizzare i tassi di coinvolgimento e migliorare il ROI delle campagne e-mail. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">video-tutorial</a>.</li>
     </ul>
   <p>Per informazioni su come iniziare a utilizzare Journey AI, consulta la <a href="../../sending/using/predictive.md">documentazione dettagliata</a> e rivolgiti al tuo Account Executive. Journey AI è disponibile gratuitamente per chi è già cliente di Campaign, tuttavia è previsto un costo di implementazione di circa 50 ore.</p>
     </td> 
@@ -108,7 +107,7 @@ ht-degree: 97%
 
 **Altre modifiche**
 
-* Sono stati aggiunti meccanismi di esecuzione di nuovi tentativi in caso di errore durante il tentativo di importare un’audience di Experience Platform utilizzando un’attività **Read audience**. (CAMP-43947, CAMP-43366)
+* Sono stati aggiunti meccanismi di esecuzione di nuovi tentativi in caso di errore durante il tentativo di importare un pubblico di Experience Platform utilizzando un’attività **Leggi pubblico**. (CAMP-43947, CAMP-43366)
 * Ora le unità organizzative vengono impostate automaticamente in modo che corrispondano all’unità organizzativa dell’utente che crea il profilo o l’entità. Le unità organizzative non possono più essere rimosse e lasciate vuote.
 * Quando si pubblica una risorsa personalizzata, dopo la preparazione viene ora visualizzata una finestra di conferma a comparsa.
 * Per una maggiore chiarezza, è stato migliorato il messaggio a comparsa visualizzato in caso di errore di una risorsa personalizzata.
@@ -116,7 +115,7 @@ ht-degree: 97%
 * Sono stati aggiunti [nuovi filtri](../../channels/using/configuring-transactional-event.md#searching-transactional-events) all’elenco degli eventi transazionali. Questi consentono di filtrare le configurazioni dell’evento in base al loro stato, come pure in base all’ultima volta che è stato ricevuto un evento.
 * I file di registro visualizzati durante l’esportazione dei pacchetti sono stati resi più specifici e dettagliati per quanto riguarda gli eventuali errori riscontrati.
 * Dopo aver inviato un messaggio, ora puoi cercare, filtrare ed esportare l’elenco degli [URL tracciati](../../sending/using/tracking-messages.md).
-* La [sincronizzazione automatica tra Launch e Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ora è in versione GA ed è attivata per impostazione predefinita.
+* La [sincronizzazione automatica tra Launch e Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) ora è in versione GA ed è abilitata per impostazione predefinita.
 * La dimensione dei pacchetti di esportazione del flusso di lavoro è stata ottimizzata rimuovendo l’esportazione della prova di invio.
 * È stato aggiunto un nuovo messaggio per visualizzare le dimensioni del file scaricato nell’attività di **trasferimento dei file**.
 * Sono stati migliorati i messaggi di errore per token di sessione non validi.
@@ -124,7 +123,7 @@ ht-degree: 97%
 * È stato aggiunto un nuovo messaggio di avviso per facilitare il debug delle attività di gestione dei dati connesse a un’attività di consegna.
 * Sono state migliorate le etichette nell’area di lavoro di reporting.
 * È stato aggiunto un nuovo passaggio di convalida per impedire l’eliminazione di oggetti tecnici nei messaggi transazionali.
-* Nella scheda **Lista di esecuzione** dei messaggi transazionali è stato aggiunto un nuovo filtro per lo stato di consegna in modo da migliorare la risoluzione dei problemi.
+* Nella scheda **Elenco di esecuzione** dei messaggi transazionali è stato aggiunto un nuovo filtro per lo stato di consegna in modo da migliorare la risoluzione dei problemi.
 * Per migliorare le prestazioni e ottimizzare i tempi di esecuzione, gli indici non utilizzati sono stati rimossi, in base agli stati di utilizzo delle tabelle identificati nelle analisi preliminari per più di 350 clienti. Le tabelle interessate sono: nmsaddressStatus, nmscam, nmsdelivery, nmsslandingpage, nmsprogram, nmsrecipients, nmsseedmember, nmsservice, nmssubstorcp, nmsaudience, xtkworkflow
 
 **Patch**
@@ -134,7 +133,7 @@ ht-degree: 97%
 * È stato risolto un problema che poteva impedire l’assegnazione di marchi a un’e-mail transazionale. Durante il passaggio della pubblicazione potrebbero essere visualizzati diversi messaggi di errore. (CAMP-44988)
 * È stato risolto un problema nell’interfaccia utente del flusso di lavoro che poteva impedire il salvataggio delle informazioni nei campi che richiedevano valori numerici. (CAMP-44025)
 * È stato risolto un problema per cui poteva essere visualizzato un messaggio di errore in caso di utilizzo di un’attività di **test** in un flusso di lavoro dei modelli di importazione. (CAMP-42910)
-* È stato risolto un problema che si verificava durante l’utilizzo di un’attività **Read audience** contenente un campo di enumerazione e connessa alle attività **Unione** o **Arricchimento**. (CAMP-42795)
+* È stato risolto un problema che si verificava durante l’utilizzo di un’attività **Leggi pubblico** contenente un campo di enumerazione e connessa alle attività **Unione** o **Arricchimento**. (CAMP-42795)
 * È stato risolto un problema nei report dinamici che si verificava con l’utilizzo di segmenti preconfigurati per filtrare i dati nei report. (CAMP-42627)
 * È stato risolto un problema che impediva di impostare un’attività **Pianificazione** alle ore 00:00. (CAMP-42674)
 * È stato risolto un problema che poteva interrompere l’invio di messaggi SMS quando la connessione SMPP era instabile. (CAMP-42789)
@@ -142,7 +141,7 @@ ht-degree: 97%
 * È stato risolto un problema che impediva la visualizzazione delle percentuali dei rapporti sugli hot click durante l’importazione di contenuto da un URL. (CAMP-44468)
 * È stato risolto un problema che, nel contesto di una sostituzione del profilo, poteva far visualizzare un errore di timeout in caso di selezione di un profilo da utilizzare. (CAMP-44746)
 * È stato risolto un problema che poteva impedire il funzionamento delle istanze dopo la distribuzione di risorse personalizzate contenenti definizioni di collegamenti non corrette. (CAMP-44406)
-* È stato risolto un problema che creava entità collegate vuote (tipologie, marchi, ecc.) dopo aver copiato e incollato una consegna in un modello della campagna. (CAMP-44765)
+* È stato risolto un problema che creava entità collegate vuote (tipologie, marchi, ecc.) dopo aver copiato e incollato una consegna in un modello di campagna. (CAMP-44765)
 * È stato risolto un problema che impediva l’invio delle bozze a causa di una gestione non corretta delle tabelle di preparazione delle consegne in caso di arresto anomalo del database o di un semplice riavvio del database in Azure.
 * È stato risolto un problema che poteva impedire l’eliminazione di collegamenti con contenuto Experience Manager in una consegna configurata con contenuto multilingue. (CAMP-44029)
 * È stato risolto un problema nei report dinamici che poteva far visualizzare un messaggio di errore durante il tentativo di filtrare le dimensioni. (CAMP-43097)
@@ -161,7 +160,7 @@ ht-degree: 97%
 * È stato risolto un errore che si verificava con la sostituzione di un profilo con la personalizzazione targetData. (CAMP-44996)
 * È stato risolto un problema che causava un errore nell’anteprima della consegna in caso di esportazione in un pacchetto di un modello di consegna. (CAMP-44084)
 * È stato risolto un problema che impediva l’invio delle bozze ai profili di test in caso di utilizzo di mappature di destinazione personalizzate. (CAMP-43701)
-* È stato corretto un errore che si verificava nei flussi di lavoro in caso di utilizzo dell’attività **Read audience** e di targeting di un’audience con una dimensione di targeting diversa da **Profilo**. (CAMP-41885)
+* È stato corretto un errore che si verificava nei flussi di lavoro in caso di utilizzo dell’attività **Leggi pubblico** e targeting di un pubblico con una dimensione targeting diversa da **Profilo**. (CAMP-41885)
 * È stato risolto un problema che causava errori quando il flusso di lavoro tecnico **updateEventsStatus** impiegava troppo tempo per recuperare la cronologia degli eventi (quando il flusso di lavoro veniva interrotto). Per risolvere il problema, il campo aggregato &quot;sumQueueTime&quot; inutilizzato è stato rimosso dal flusso di lavoro. (CAMP-43920)
 * È stato risolto un problema di memoria che avveniva durante la distribuzione di risorse personalizzate. (CAMP-42909)
 * È stato risolto un problema nei messaggi transazionali quando nelle raccolte mancavano attributi. Ora tutti gli attributi mancanti sono definiti con un valore predefinito e inclusi nel payload. (CAMP-42882)
@@ -170,7 +169,7 @@ ht-degree: 97%
 * È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante il test di connessione a un account esterno prima che questo fosse creato. Il pulsante **Verifica connessione** ora viene visualizzato solo dopo la creazione dell’account esterno.
 * È stato risolto un problema che causava la mancata visualizzazione dei messaggi in sospeso dopo il riavvio dell’MTA avanzata nelle istanze configurate con la condivisione.
 * È stato risolto un problema che poteva causare una mancata corrispondenza tra il conteggio dei profili attivi con il numero effettivo di consegne inviate.
-* È stato risolto un problema che poteva causare latenza durante la ricerca di risorse nell’editor delle query in un flusso di lavoro.
+* È stato risolto un problema che poteva causare latenza durante la ricerca di risorse nell’editor di query in un flusso di lavoro.
 * È stato risolto un problema che si verificava selezionando l’opzione **Specifica i campi da tenere in considerazione nell’opzione di ricerca** in una risorsa personalizzata. Se l’elenco dei campi veniva lasciato vuoto, si verificava un errore nella pubblicazione delle risorse personalizzate.
 * È stato risolto un problema di prestazioni durante la visualizzazione della panoramica delle risorse personalizzate con un grande volume di dati.
 * È stato risolto un problema che impediva l’importazione di una consegna ricorrendo alla sostituzione di un profilo.
@@ -190,7 +189,7 @@ ht-degree: 97%
 
 ## Versione 20.3 - Maggio 2020 {#release-20-3---may-2020}
 
-**Quali sono le novità?**
+**Novità**
 
 <table> 
 <thead> 
@@ -203,10 +202,10 @@ ht-degree: 97%
 <td> <p>La legge tailandese sulla protezione dei dati personali (PDPA) è la nuova legge sulla privacy che armonizza e aggiorna i requisiti di protezione dei dati in Thailandia. Questo regolamento si applica ai clienti di Adobe Campaign che detengono i relativi dati dei soggetti residenti in questo paese.</p>
 <p>Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (compresa la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), sono state incluse funzionalità aggiuntive per facilitare la tuo preparazione al PDPA:</p>
 <ul>
-<li>Diritto di accesso e Diritto di eliminazione: sono state sfruttate le funzionalità aggiunte del RGPD e del CCPA. <a href="https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#righttoaccess">Ulteriori informazioni</a> </li>
+<li>Diritto di accesso e Diritto di eliminazione: sono state sfruttate le funzionalità aggiunte del GDPR e del CCPA. <a href="https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#righttoaccess">Ulteriori informazioni</a> </li>
 <li><p>Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento PDPA è stato aggiunto al servizio core Privacy. Dovresti utilizzare questo metodo per tutte le richieste di accesso ed eliminazione. L’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto. Consulta l’articolo <a href="../../rn/using/deprecated-features.md">Funzioni obsolete e rimosse</a>.</p></li>
 </ul>
-<p>Consulta il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=it">video tutorial</a>.</p>
+<p>Consulta il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">video tutorial</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -226,8 +225,8 @@ ht-degree: 97%
 <li>analizzare le proprietà selezionate come nodi foglia da un JSON e uniformarle in una singola riga di tabella;</li>
 <li>selezionare e utilizzare un oggetto array da un JSON senza dover denominare l’oggetto "data" o posizionarlo sul livello superiore.</li>
 </ul>
-<p><strong>Attenzione:</strong> i clienti devono <strong>sostituire tutte le attività API esterne in versione beta</strong> con attività API esterne GA nei relativi flussi di lavoro. I flussi di lavoro che utilizzano la versione beta dell’API esterna non funzionano più in 20.3.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=it">video tutorial</a>.</p>
+<p><strong>Attenzione:</strong> i clienti devono <strong>sostituire tutte le attività API esterne in versione beta</strong> con attività API esterne GA nei relativi flussi di lavoro. I flussi di lavoro che utilizzano la versione Beta dell’API esterna non funzionano più in 20.3.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">video tutorial</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -240,7 +239,7 @@ ht-degree: 97%
 
 **Miglioramenti**
 
-* Il numero dei caratteri utilizzabili nel campo **Prefix** per [verificare messaggi tramite i profili target](../../sending/using/testing-messages-using-target.md) è stato aumentato da 32 a 500 caratteri.
+* Il numero dei caratteri utilizzabili nel campo **Prefisso** per [verificare messaggi tramite i profili target](../../sending/using/testing-messages-using-target.md) è stato aumentato da 32 a 500 caratteri.
 * Il numero massimo degli eventi in tempo reale pubblicabili su un’istanza è stato aumentato da 350 a 2000. (CAMP-41608)
 * La sincronizzazione tra Adobe Launch e Campaign Standard è stata migliorata mediante il flusso di lavoro tecnico syncWithLaunch. Questo flusso di lavoro abilita l’importazione automatica di tutte le proprietà mobili di Adobe Launch in Adobe Campaign Standard. Per ulteriori informazioni, consulta [questa pagina](../../administration/using/technical-workflows.md).
 
@@ -294,7 +293,7 @@ ht-degree: 97%
 
 ## Versione 20.2 - Aprile 2020 {#release-20-2---april-2020}
 
-**Quali sono le novità?**
+**Novità**
 
 <table> 
  <thead> 
@@ -320,7 +319,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>Oltre ai profili di test, ora puoi testare le e-mail su profili di destinazione reali. Ciò ti consente di ottenere una rappresentazione esatta del messaggio ricevuto dal profilo: campi personalizzati, informazioni dinamiche e personalizzate, compresi dati aggiuntivi dei flussi di lavoro, ecc. </p>
-    <p>Per ulteriori informazioni, consulta la <a href="../../sending/using/testing-messages-using-target.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=it">video tutorial</a>. </p>
+    <p>Per ulteriori informazioni, consulta la <a href="../../sending/using/testing-messages-using-target.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">video tutorial</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -347,9 +346,9 @@ ht-degree: 97%
 * È stato risolto un problema che causava la visualizzazione di tag HTML nell’e-mail dopo il passaggio dal contenuto HTML al testo normale. (CAMP-41138)
 * È stato risolto un problema che impediva il rendering dei pulsanti con un solo bordo definito.
 * È stato risolto un problema nel rientro HTML che causava lo spostamento a sinistra del piè di pagina delle e-mail in Microsoft Outlook. (CAMP-40987)
-* È stato risolto un problema che causava la copia dei campi di personalizzazione per un attributo di raccolta definito in HTML nel contenuto di testo normale quando si passava alla modalità di testo normale. (CAMP-40365)
+* È stato risolto un problema a causa del quale i campi di personalizzazione per un attributo di raccolta definito in HTML venivano copiati nel contenuto di testo semplice quando si passava alla modalità di testo semplice. (CAMP-40365)
 * È stato risolto un problema che impediva l’inserimento di collegamenti in un segmento di testo selezionato. (CAMP-41406)
-* È stato risolto un problema che causava la modifica della data durante la selezione di un fuso orario nell’editor delle query. (CAMP-38277)
+* È stato risolto un problema che causava la modifica della data durante la selezione di un fuso orario nell’editor di query. (CAMP-38277)
 
 **Altre modifiche**
 
@@ -360,7 +359,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Le funzionalità di Adobe Experience Platform in Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette ad aggiornamenti frequenti senza preavviso. Consulta la documentazione dettagliata: Connettore dati Experience Platform, Audience Destinations
+>Le funzionalità di Adobe Experience Platform in Campaign Standard sono attualmente in versione beta, e potrebbero essere soggette ad aggiornamenti frequenti senza preavviso. Consulta la documentazione dettagliata: Connettore dati di Experience Platform, Audience Destinations
 
 * Nei registri del flusso di lavoro, Campaign ora visualizza ogni 10 minuti il numero di record già elaborati dal processo attualmente in esecuzione.
 * È stato risolto un problema che poteva verificarsi durante l’importazione di un profilo Adobe Experience Platform eliminato dal database.
@@ -379,7 +378,7 @@ ht-degree: 97%
 
 ## Versione 20.1.4 - Febbraio 2020 {#release-20-1-4---february-2020}
 
-* È stato risolto un problema che si verificava all’apertura di un’attività **Read Audience** sui flussi di lavoro esistenti. (CAMP-41002)
+* È stato risolto un problema che si verificava all’apertura di un’attività **Leggi pubblico** sui flussi di lavoro esistenti. (CAMP-41002)
 
 ## Versione 20.1.3 - Febbraio 2020 {#release-20-1-3---february-2020}
 
@@ -395,7 +394,7 @@ ht-degree: 97%
 
 ## Versione 20.1 - Febbraio 2020 {#release-20-1---february-2020}
 
-**Quali sono le novità?**
+**Novità**
 
 
 <table> 
@@ -436,7 +435,7 @@ ht-degree: 97%
 
 * Le API di Campaign Standard ti consentono ora di eseguire l’impaginazione quando utilizzi tabelle di grandi dimensioni, aggiungendo il parametro `_forcePagination=true` all’URL della chiamata. [Ulteriori informazioni](../../api/using/pagination.md)
 
-* L’ID del registro di consegna (un identificatore univoco per ciascun registro) è ora disponibile nelle risorse Registri di consegna e Registri di tracciamento per tutte le dimensioni di targeting. Ciò consente ad esempio di identificare i registri di invio o di tracciamento durante l’esportazione. [Ulteriori informazioni](../../automating/using/exporting-logs.md)
+* L’ID del registro di consegna (un identificatore univoco per ciascun registro) è ora disponibile nelle risorse Registri di consegna e Registri di tracciamento per tutte le dimensioni targeting. Ciò consente ad esempio di identificare i registri di invio o di tracciamento durante l’esportazione. [Ulteriori informazioni](../../automating/using/exporting-logs.md)
 
 **Miglioramenti di E-mail Designer**
 
@@ -467,7 +466,7 @@ ht-degree: 97%
 * È stato risolto un problema che causava problemi di accessibilità durante il ridimensionamento del testo in un elemento contenitore.
 * È stato risolto un problema che impediva agli utenti di chiudere il pop-up Calendario visualizzato al passaggio del mouse nelle attività di marketing.
 * È stato risolto un problema nell’attività **[!UICONTROL External API]** che visualizzava il pulsante **[!UICONTROL Confirm]** anche quando non venivano modificati dati.
-* È stato risolto un problema che si verificava durante l’utilizzo di un’attività **[!UICONTROL Union]** su query con dimensioni di destinazione diverse. I dati di transizione mostravano solo record della dimensione di targeting del set principale. (CAMP-36831)
+* È stato risolto un problema che si verificava durante l’utilizzo di un’attività **[!UICONTROL Union]** su query con dimensioni di destinazione diverse. I dati di transizione mostravano solo record della dimensione targeting del set principale. (CAMP-36831)
 * È stato risolto un problema che poteva causare un errore durante l’utilizzo di un’attività **[!UICONTROL Reconciliation]** in contesti specifici, ad esempio con due attività in entrata, una delle quali era un’attività di esclusione. (CAMP-37490)
 * Sono stati risolti dei problemi di prestazioni che potevano verificarsi durante la selezione e l’aggiornamento dei profili di test. (CAMP-37976)
 * È stato risolto un problema che poteva provocare la visualizzazione di pagine di errore durante l’abbonamento o l’annullamento dell’abbonamento tramite pagine di destinazione. (CAMP-37771)
