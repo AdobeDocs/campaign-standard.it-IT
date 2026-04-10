@@ -4,11 +4,10 @@ description: In questa pagina sono elencate tutte le versioni di Adobe Campaign 
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '5386'
+source-wordcount: '5384'
 ht-degree: 3%
 
 ---
@@ -33,7 +32,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> Integrazione di Adobe Launch per le app mobili (beta)<br /> </td> 
-   <td> L’integrazione di Adobe Launch con Adobe Campaign semplifica e automatizza ora il processo di attivazione delle proprietà di app mobili in Campaign, utilizzando l’SDK Mobile v5.<br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’integrazione di Adobe Launch con Adobe Campaign semplifica e automatizza il processo di attivazione delle proprietà di app mobili in Campaign, utilizzando Mobile SDK V5.<br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +52,7 @@ ht-degree: 3%
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
-* Quando selezioni un blocco di contenuto utilizzando l’interfaccia di Creative Designer, ora vengono caricati e visualizzati tutti i blocchi di contenuto dell’elenco. (CAMP-27311)
+* Quando selezioni un blocco di contenuto utilizzando l’interfaccia Designer di Creative, ora vengono caricati e visualizzati tutti i blocchi di contenuto dell’elenco. (CAMP-27311)
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/personalization.md#adding-a-content-block).
 
@@ -72,7 +71,7 @@ ht-degree: 3%
 * È stato risolto un problema che poteva impedire a un utente con accesso limitato di accedere. (CAMP-27381)
 * È stato risolto un problema che poteva impedire la visualizzazione dell’elenco dei contenuti di Adobe Experience Manager durante la modifica di un’e-mail tramite Creative Designer. (CAMP-27181)
 * È stato risolto un problema che poteva impedire l’apertura di Creative Designer, causando un errore. (CAMP-27304)
-* È stato risolto un problema che impediva il corretto funzionamento del trascinamento della selezione in Creative Designer durante l’utilizzo di Internet Explorer 11.
+* È stato risolto un problema che impediva il corretto funzionamento del trascinamento nella Designer di Creative quando si utilizzava Internet Explorer 11.
 * È stato risolto un problema a causa del quale le immagini caricate da una fotocamera e riprese in modalità ritratto venivano visualizzate in una posizione ruotata indesiderata.
 * È stato risolto un problema che causava la visualizzazione di informazioni poco chiare sulla selezione quando si utilizzava l’interfaccia dell’editor delle query in Creative Designer.
 * È stato risolto un problema che impediva la corretta duplicazione di un elemento quando si utilizzava l’interfaccia dell’editor delle query in Creative Designer.
@@ -102,7 +101,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> Importazione automatizzata di contenuti da un URL durante la preparazione dei messaggi<br /> </td> 
-   <td> È ora possibile importare contenuti e-mail da un URL durante la fase di preparazione. Per le consegne e-mail ricorrenti, viene recuperato il contenuto più recente di HTML ogni volta che il messaggio viene preparato, garantendo che il contenuto sia sempre aggiornato al momento dell’invio dell’e-mail. Questa funzione consente inoltre di creare una consegna pianificata con contenuto da un URL anche se il contenuto non è ancora pronto.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentazione dettagliata</a>.<br /> </td> 
+   <td> È ora possibile importare contenuti e-mail da un URL durante la fase di preparazione. Per le consegne e-mail ricorrenti, viene recuperato il contenuto HTML più recente ogni volta che il messaggio viene preparato, garantendo che il contenuto sia sempre aggiornato al momento dell’invio dell’e-mail. Questa funzione consente inoltre di creare una consegna pianificata con contenuto da un URL anche se il contenuto non è ancora pronto.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Messaggio di notifica del rilascio della campagna<br /> </td> 
@@ -110,7 +109,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> Gestione utenti<br /> </td> 
-   <td> A partire dalla versione 18.7, la funzionalità di unità geografica non è più disponibile per le nuove istanze di Campaign Standard, né per le istanze esistenti prive di unità geografiche.<br /> Per ulteriori informazioni, fare riferimento a questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.<br /> </td> 
+   <td> A partire dalla versione 18.7, la funzionalità per unità geografiche non è più disponibile per le nuove istanze di Campaign Standard, né per le istanze esistenti prive di unità geografiche.<br /> Per ulteriori informazioni, fare riferimento a questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,8 +122,8 @@ ht-degree: 3%
 **Altre modifiche**
 
 * Il timeout di condivisione del rapporto è stato aumentato da uno a quattro minuti per evitare errori di timeout.
-* Quando si modifica il contenuto di un’e-mail, per impostazione predefinita viene aperto il nuovo Creative Designer. Se lo desideri, puoi comunque tornare all’editor di contenuti predefinito in qualsiasi momento dopo aver salvato le modifiche. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-content-in-adobe-campaign.md).
-* In Creative Designer, ora è possibile aggiungere un nuovo componente di contenuto a un’e-mail: il carosello. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-from-scratch.md#about-content-components).
+* Quando si modifica il contenuto di un’e-mail, per impostazione predefinita viene aperto il nuovo Designer di Creative. Se lo desideri, puoi comunque tornare all’editor di contenuti predefinito in qualsiasi momento dopo aver salvato le modifiche. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-content-in-adobe-campaign.md).
+* Nel Designer di Creative, ora è possibile aggiungere un nuovo componente di contenuto a un’e-mail: il carosello. Per ulteriori informazioni, consulta la [documentazione dettagliata](../../designing/using/designing-from-scratch.md#about-content-components).
 * In un report sugli hot click dei messaggi transazionali, quando si fa clic sul pulsante **Modifica profilo**, ora vengono elencati solo i profili di test collegati all&#39;evento definito per il messaggio transazionale.
 
 **Patch**
@@ -147,7 +146,7 @@ ht-degree: 3%
 
 **Miglioramenti**
 
-* L&#39;API **[!UICONTROL History]** è stata aggiunta a Adobe.IO. Ti consente di accedere a informazioni relative alla cronologia di marketing di un profilo: numero di punti di contatto, consegne inviate, URL della pagina speculare, ecc. Per ulteriori informazioni, consulta [caso d&#39;uso dedicato](../../api/using/interacting-with-marketing-history.md) .
+* L&#39;API **[!UICONTROL History]** è stata aggiunta ad Adobe.IO. Ti consente di accedere a informazioni relative alla cronologia di marketing di un profilo: numero di punti di contatto, consegne inviate, URL della pagina speculare, ecc. Per ulteriori informazioni, consulta [caso d&#39;uso dedicato](../../api/using/interacting-with-marketing-history.md) .
 * Il flusso di lavoro tecnico **[!UICONTROL Database cleanup]** è stato ottimizzato per garantire prestazioni migliori per il backup del database.
 * Creative Designer for Email è ora disponibile anche in francese e tedesco.
 
@@ -156,7 +155,7 @@ ht-degree: 3%
 * Un pulsante **[!UICONTROL Compute stats]** è stato aggiunto nella finestra **[!UICONTROL Deployment]** delle consegne inviate. Consente di recuperare i KPI più recenti, ad esempio se i risultati dell’invio richiedono troppo tempo o non sono stati presi in considerazione. Per ulteriori informazioni, consulta questa [sezione](../../sending/using/confirming-the-send.md).
 * Nel flusso di lavoro tecnico predefinito **Aggiorna per il recapito messaggi**, gli amministratori funzionali possono ora definire il numero di errori consecutivi da ignorare nell&#39;attività JavaScript **Aggiorna regole**. Per impostazione predefinita, il valore del campo è impostato su 0, il che significa che tutti gli errori verranno ignorati.
 * L&#39;istruzione SQL generata durante la gestione delle condizioni di restrizione di accesso all&#39;unità è stata ottimizzata.
-* L&#39;attività **[!UICONTROL Update]** ora consente di aggiungere, aggiornare o eliminare i dati relativi alle sottoscrizioni (tabella nms:appSubscriptionRcp).
+* L&#39;attività **[!UICONTROL Update]** consente ora di aggiungere, aggiornare o eliminare i dati relativi alle sottoscrizioni (tabella nms:appSubscriptionRcp).
 * Il flusso di lavoro tecnico **[!UICONTROL Update delivery execution]** è stato diviso in due flussi di lavoro per ottimizzare le prestazioni: - **[!UICONTROL Update delivery execution]**: aggiorna il tracciamento della consegna. Viene avviato ogni 10 minuti per impostazione predefinita. **[!UICONTROL Update delivery indicators]**: aggiorna i KPI della consegna, viene avviato ogni ora per impostazione predefinita. Per ulteriori informazioni sui flussi di lavoro tecnici, consulta questa [sezione](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * Quando una consegna invia messaggi, lo stato nella sezione **[!UICONTROL Deployment]** può ora avere due valori: **[!UICONTROL Sending]**: i messaggi vengono inviati. **[!UICONTROL Sending (retry)]**: è in corso un nuovo tentativo.
 * Gli utenti con il ruolo **[!UICONTROL Delivery preparation]** ora possono inviare bozze. (CAMP-24313)
@@ -168,7 +167,7 @@ ht-degree: 3%
 * È stato risolto un problema relativo ai flussi di lavoro tecnici **[!UICONTROL Privacy Access/Delete Request]** che non veniva completato se una delle richieste non riusciva.
 * È stato risolto un problema che impediva al servizio core Privacy di ricevere gli aggiornamenti sullo stato delle richieste da Campaign.
 * È stato risolto un problema che poteva impedire il corretto funzionamento del flusso di lavoro tecnico **[!UICONTROL Import shared audience]** (CAMP-25465).
-* È stato risolto un problema che impediva a Campaign di contrassegnare le richieste di privacy come completate in Core Privacy Service.
+* È stato risolto un problema che impediva la contrassegnazione delle richieste di privacy di Campaign come completate nel Privacy Service core.
 * È stato risolto un problema che poteva impedire ad alcuni utenti di accedere a Campaign Standard tramite autenticazione IMS quando l’Adobe ID era troppo lungo. (CAMP-24095)
 * È stato risolto un problema in Creative Designer che poteva verificarsi durante la rimozione di moduli di contenuto. (CAMP-25242)
 * È stato risolto un problema che si verificava durante l’utilizzo delle regole di affaticamento delle notifiche push per gli abbonati che non disponevano di alcun profilo nel database. (CAMP-25344)
@@ -218,12 +217,12 @@ ht-degree: 3%
 
 **Miglioramenti**
 
-* È stato migliorato l’utilizzo complessivo della memoria e della CPU dell’applicazione
+* È stato migliorato l’utilizzo complessivo di memoria e CPU dell’applicazione
 
 **Altre modifiche**
 
-* L’attività del flusso di lavoro Read Audience può ora leggere tipi di pubblico di Experienci Cloud. In precedenza, questa attività poteva leggere solo i tipi di pubblico Query ed List. Consulta la [documentazione dettagliata](../../automating/using/read-audience.md). (CAMP-23623)
-* L&#39;identificatore dell&#39;origine dati condivisa predefinita è ora in modalità di sola lettura e non può più essere modificato. La modifica di questo identificatore potrebbe causare alcuni problemi durante la condivisione di tipi di pubblico con l’Experience Cloud.
+* L’attività del flusso di lavoro Read Audience può ora leggere i tipi di pubblico di Experience Cloud. In precedenza, questa attività poteva leggere solo i tipi di pubblico Query ed List. Consulta la [documentazione dettagliata](../../automating/using/read-audience.md). (CAMP-23623)
+* L&#39;identificatore dell&#39;origine dati condivisa predefinita è ora in modalità di sola lettura e non può più essere modificato. La modifica di questo identificatore potrebbe causare alcuni problemi durante la condivisione di tipi di pubblico con Experience Cloud.
 * L’importazione di tipi di pubblico da Audience Manager ora funziona con file suddivisi. In precedenza, solo l’ultimo file del segmento veniva importato dal flusso di lavoro tecnico importSharedAudience.
 * Gli account esterni AWS S3 ora supportano le aree geografiche e il meccanismo di autenticazione versione 4. Consulta la [documentazione dettagliata](../../administration/using/external-accounts.md).
 * La finestra di selezione delle risorse ora si carica più rapidamente e consente di selezionare una risorsa e quindi di uscire dalla finestra senza alcun problema.
@@ -301,12 +300,12 @@ _Risorse personalizzate_
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
-   <td> Il nuovo Creative Designer di Adobe Campaign offre un’esperienza di creazione completamente integrata in Campaign, che consente di creare visivamente in modo rapido e semplice e-mail accattivanti e personalizzate in modo individuale, senza la necessità di scrivere una singola riga di codice. Grazie alla potente interfaccia di trascinamento, Creative Designer consente di ridimensionare la creazione delle e-mail sia che gli utenti partano da una lavagna vuota, sia che sfruttino frammenti di contenuto o modelli esistenti. Le funzionalità chiave di <br /> includono:<br /> 
+   <td> Il nuovo Creative Designer di Adobe Campaign offre un’esperienza di creazione completamente integrata in Campaign, che consente di creare visivamente in modo rapido e semplice e-mail accattivanti e personalizzate in modo individuale, senza la necessità di scrivere una singola riga di codice. Grazie alla potente interfaccia di trascinamento, Creative Designer consente di ridimensionare la creazione delle e-mail sia che gli utenti inizino da una lavagna vuota, sia che sfruttino frammenti di contenuto o modelli esistenti. Le funzionalità chiave di <br /> includono:<br /> 
     <ul> 
-     <li> Progetta visivamente e crea e-mail completamente personalizzate e reattive tramite un’interfaccia a trascinamento, migliorata dalle integrazioni Creative Cloud native </li> 
+     <li> Progetta visivamente e crea e-mail completamente personalizzate e reattive tramite un’interfaccia a trascinamento, migliorata dalle integrazioni native di Creative Cloud </li> 
      <li> Crea e salva un modello di contenuto e-mail e sfrutta i modelli salvati per ridimensionare la creazione di e-mail </li> 
-     <li> Creare e salvare frammenti di contenuto (come intestazione, piè di pagina, articolo, ecc.) per semplificare la creazione di contenuti e garantire la coerenza del brand </li> 
-     <li> Passa facilmente dalla creazione nell’interfaccia di trascinamento alla modifica diretta di HTML di un’e-mail con un clic </li> 
+     <li> Crea e salva frammenti di contenuto (come intestazione, piè di pagina, articolo, ecc.) per semplificare la creazione di contenuti e garantire la coerenza del brand </li> 
+     <li> Passa facilmente dalla creazione nell’interfaccia di trascinamento alla modifica diretta del HTML di un’e-mail con un clic </li> 
     </ul> Creative Designer for Email è disponibile solo in inglese.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e guarda questo <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -359,7 +358,7 @@ _Flussi di lavoro_
 _Integrazioni_
 
 * È stato risolto un problema che impediva ai caratteri internazionali di essere inviati correttamente ad Adobe Analytics.
-* Ora Assets dovrebbe essere caricato più rapidamente quando tenti di inserire un’immagine dalla libreria di risorse Experienci Cloud in un messaggio.
+* Ora Assets dovrebbe essere caricato più rapidamente quando tenti di inserire in un messaggio un’immagine dalla libreria di risorse Experience Cloud.
 * È stato risolto un problema che poteva impedire, in alcuni casi, la chiusura della finestra di selezione cespite.
 * Da un dettaglio dell’origine dati, ora puoi accedere direttamente al flusso di lavoro correlato per verificarne lo stato.
 * Ora puoi aggiornare direttamente lo schema Triggers quando definisci o modifichi un evento trigger. Con questa modifica, non è più necessario annullare la pubblicazione del trigger e crearne un altro.
@@ -447,7 +446,7 @@ Potrebbero verificarsi alcuni problemi quando si utilizzano collegamenti di aiut
  <tbody> 
   <tr> 
    <td> Generazione di rapporti per la gestione dell'affaticamento<br /> </td> 
-   <td> Il reporting per la gestione dell’affaticamento è un rapporto dedicato e configurabile che mostra l’impatto delle regole di affaticamento sulle consegne nei canali e-mail, push, SMS e direct mailing all’interno di un intervallo di date specificato prima dell’invio. Con la possibilità di visualizzare rapidamente tutte le campagne in conflitto in un’unica schermata, gli esperti di marketing sono in grado di pianificare le campagne di marketing in base a regole di affaticamento impostate in modo più efficace e di assegnare priorità alle comunicazioni.<br /> Per ulteriori informazioni, consulta la <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentazione dettagliata</a>.<br /> </td> 
+   <td> Il reporting per la gestione dell’affaticamento è un rapporto dedicato e configurabile che mostra l’impatto delle regole di affaticamento sulle consegne nei canali e-mail, push, SMS e direct mailing all’interno di un intervallo di date specificato prima dell’invio. Con l’aggiunta di insight, che consente di visualizzare rapidamente tutte le campagne in conflitto in un’unica schermata, gli esperti di marketing sono in grado di pianificare le campagne di marketing in base a regole di affaticamento più efficaci e di assegnare priorità alle comunicazioni.<br /> Per ulteriori informazioni, consulta la <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Condivisione report<br /> </td> 

@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 3%
@@ -32,7 +31,7 @@ Connettore dati Adobe Experience Platform è destinato a **data engineer** che c
 
 Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei dati tra Campaign Standard e Adobe Experience Platform. Ciò inizia con la creazione di uno schema XDM e un set di dati.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#video)
 
 >[!NOTE]
 >Dopo aver configurato il connettore dati di Adobe Experience Platform e aver acquisito correttamente i dati in Adobe Experience Platform, devi abilitare il set di dati in modo che vengano inclusi nel profilo cliente in tempo reale.

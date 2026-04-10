@@ -1,17 +1,16 @@
 ---
-title: Aggiornare la qualifica di mancato recapito dopo un’interruzione del servizio ISP
+title: Aggiornare la qualificazione di mancato recapito dopo un’interruzione del servizio ISP
 description: Scopri come aggiornare la qualifica di mancato recapito dopo un’interruzione del servizio dell’ISP.
 audience: delivery
-hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 2%
+source-wordcount: '434'
+ht-degree: 3%
 
 ---
 
-# Aggiornare la qualifica di mancato recapito dopo un&#39;interruzione del servizio ISP {#update-bounce-qualification.md}
+# Aggiornare la qualificazione di mancato recapito dopo un’interruzione del servizio ISP {#update-bounce-qualification.md}
 
 ## Contesto
 
@@ -19,11 +18,11 @@ In caso di interruzione di un ISP, le e-mail inviate tramite Campaign non posson
 
 Nel dicembre 2020, un problema globale in Gmail ha causato la mancata disponibilità di alcuni messaggi di posta elettronica inviati a indirizzi di posta elettronica Gmail validi, erroneamente bloccati come indirizzi di posta elettronica non validi dai server Gmail con la seguente risposta di mancato recapito: *&quot;550-5.1.1 L&#39;account di posta elettronica che si è tentato di raggiungere non esiste.&quot;*
 
-Google ha dichiarato che le interruzioni e i disagi di Gmail che hanno causato questo problema sono iniziati il 14 dicembre alle 06:55 e si sono conclusi alle 18:09 EST del 15 dicembre. L’analisi dei nostri dati ha anche mostrato un picco molto breve nei mancati recapiti Gmail alle 02:06 EST del 16 dicembre, la maggior parte dei quali si è verificata il 15 dicembre tra le 14:00 EST e le 18:30 EST.
+Google ha dichiarato che le interruzioni e le interruzioni di Gmail che hanno causato il problema sono iniziate il 14 dicembre alle 6:55AM e si sono concluse alle 6:09PM EST del 15 dicembre. L&#39;analisi dei dati ha inoltre mostrato un picco molto breve nei mancati recapiti Gmail alle 2:06AM EST del 16 dicembre, la maggior parte dei quali si è verificata il 15 dicembre tra le 2:00 PM EST e le 6:30 PM EST.
 
 >[!NOTE]
 >
->Puoi controllare il dashboard di stato di Google Workspace in [questa pagina](https://www.google.com/appsstatus#hl=en&amp;v=status).
+>Puoi controllare il dashboard di stato di Google Workspace in [questa pagina](https://www.google.com/appsstatus#hl=en&v=status).
 
 
 In base alla logica standard di gestione dei mancati recapiti, Adobe Campaign ha aggiunto automaticamente questi destinatari all&#39;elenco di quarantena con un&#39;impostazione **[!UICONTROL Status]** di **[!UICONTROL Quarantine]**. Per risolvere questo problema, devi aggiornare la tabella di quarantena in Campaign trovando e rimuovendo questi destinatari o modificando i loro **[!UICONTROL Status]** in **[!UICONTROL Valid]** in modo che il flusso di lavoro di pulizia notturna li rimuova.
