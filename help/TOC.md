@@ -303,7 +303,7 @@ ht-degree: 88%
       + [Query](automating/using/query.md)
       + [Query incrementale](automating/using/incremental-query.md)
       + [Unione](automating/using/union.md)
-      + [Intersezione ](automating/using/intersection.md)
+      + [Intersezione &#x200B;](automating/using/intersection.md)
       + [Esclusione](automating/using/exclusion.md)
       + [Segmentazione](automating/using/segmentation.md)
       + [Leggere tipi di pubblico](automating/using/read-audience.md)
