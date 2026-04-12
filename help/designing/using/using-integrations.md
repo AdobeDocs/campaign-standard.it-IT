@@ -37,9 +37,9 @@ L’integrazione di Adobe Campaign Standard con Dreamweaver consente di modifica
 
 Questa funzionalità è descritta nella documentazione di Dreamweaver accessibile [qui](https://helpx.adobe.com/it/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#video)
 
-## Modifica del contenuto in Experience Manager {#editing-content-in-experience-manager}
+## Modifica di contenuti in Experience Manager {#editing-content-in-experience-manager}
 
 Il contenuto delle e-mail può essere modificato in Experience Manager e quindi utilizzato per uno o più messaggi e-mail in Adobe Campaign Standard. Consulta [questo documento](../../integrating/using/integrating-with-experience-manager.md).
 
@@ -99,7 +99,7 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
   <tr> 
    <td> <strong>Bozza/Anteprima</strong><br /> </td> 
    <td> Supportato<br /> </td> 
-   <td> Anteprima nella bozza AEM<br /> in Campaign<br /> </td> 
+   <td> Anteprima in AEM<br /> Proof in Campaign<br /> </td> 
    <td> Anteprima e bozza in Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
   </td> 
    <td> 
      <p>- Riutilizzo delle risorse dal sito web nelle e-mail</p>
-     <p>- Sfruttare la potenza degli Experienci Manager nei contenuti delle e-mail</p>
+     <p>- Sfruttare la potenza di Experience Manager nei contenuti delle e-mail</p>
     </td> 
    <td> 
     <p>- Possibilità per uno sviluppatore di codificare direttamente un messaggio e-mail</p>
@@ -140,8 +140,8 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
   </tr> 
   <tr> 
    <td> <strong>Pubblico</strong><br /> </td> 
-   <td> Esperti di marketing che desiderano mantenere la flessibilità di utilizzare i componenti HTML in combinazione con le funzioni di trascinamento della selezione<br /> </td> 
-   <td> Gli addetti al marketing che già utilizzano Experience Manager che desiderano utilizzare modelli e-mail standard con poca personalizzazione<br /> </td> 
+   <td> Esperti di marketing che desiderano mantenere la flessibilità di utilizzare i componenti di HTML in combinazione con le funzioni di trascinamento della selezione<br /> </td> 
+   <td> Esperti di marketing che utilizzano già Experience Manager e che desiderano utilizzare modelli e-mail standard con poca personalizzazione<br /> </td> 
    <td> Sviluppatori che desiderano codificare i contenuti e-mail e integrarli direttamente con Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
@@ -157,6 +157,6 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
 
 Questo video mostra come creare e modificare i contenuti per Adobe Campaign Standard utilizzando Dreamweaver.
 
->[!VIDEO](https://video.tv.adobe.com/v/41713?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

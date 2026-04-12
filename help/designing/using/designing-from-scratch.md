@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 22%
 
 ---
@@ -30,7 +30,7 @@ Di seguito sono riportati i passaggi principali per creare e progettare un conte
 1. Visualizza l’anteprima del messaggio e-mail.
 1. Salva il contenuto e continua con il messaggio dopo esserti assicurato di aver definito un pubblico e pianificato correttamente l’invio.
 
-Puoi anche guardare questo [video introduttivo](https://video.tv.adobe.com/v/330107/?autoplay=true&hidetitle=true&captions=ita).
+Puoi anche guardare questo [video introduttivo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Per modificare la struttura di un messaggio e-mail:
 
 1. Sono disponibili diversi componenti di struttura composti da una o più colonne.
 
-   Seleziona il componente **[!UICONTROL n:n column]** per definire il numero di colonne desiderato (tra 3 e 10). Per definire la larghezza di ogni colonna, sposta le frecce nella parte inferiore di ciascuna colonna.
+   Selezionare il componente **[!UICONTROL n:ncolumn]** per definire il numero di colonne desiderato (tra 3 e 10). Per definire la larghezza di ogni colonna, sposta le frecce nella parte inferiore di ciascuna colonna.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -81,12 +81,12 @@ Per modificare la struttura di un messaggio e-mail:
 
 Una volta definita la struttura, puoi aggiungere frammenti di contenuto e componenti all’e-mail.
 
-## Utilizzo di una pre-intestazione {#preheader}
+## Utilizzo di una preintestazione {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Utilizzo di una pre-intestazione"
->abstract="La pre-intestazione consente di configurare un breve testo di riepilogo che fornirà un tasso di apertura più alto dell’e-mail."
+>title="Utilizzo di una preintestazione"
+>abstract="La preintestazione consente di configurare un breve testo di riepilogo che fornirà un tasso di apertura più alto dell’e-mail."
 
 Un preheader è un breve testo di riepilogo che segue la riga dell’oggetto quando si visualizza un messaggio e-mail dalla casella in entrata. Il preheader fornisce un tasso di apertura più alto.
 
@@ -203,4 +203,4 @@ Il componente Carosello non è compatibile con tutti i programmi e-mail. Carica 
 - [Selezione di un pubblico in un messaggio](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md)
 - [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
-- [Rendering di e-mail](../../sending/using/email-rendering.md)
+- [Rendering e-mail](../../sending/using/email-rendering.md)
