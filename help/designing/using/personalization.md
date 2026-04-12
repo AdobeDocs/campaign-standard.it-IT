@@ -151,7 +151,7 @@ Per creare un blocco di contenuto, effettua le seguenti operazioni:
 
    ![](assets/content_bloc_04.png)
 
-1. È possibile selezionare l&#39;opzione **[!UICONTROL Depends on format]** per definire due blocchi diversi: uno per le e-mail HTML e uno per le e-mail in formato testo. Nell’editor (HTML e Testo) verranno quindi visualizzate due schede per definire il contenuto corrispondente.
+1. È possibile selezionare l&#39;opzione **[!UICONTROL Depends on format]** per definire due blocchi diversi: uno per le e-mail di HTML e uno per le e-mail in formato testo. Nell’editor (HTML e Testo) verranno quindi visualizzate due schede per definire il contenuto corrispondente.
 
    ![](assets/content_bloc_03.png)
 
@@ -173,7 +173,7 @@ Ad esempio, la dimensione di targeting del blocco **[!UICONTROL Unsubscription l
 
 Se lasci vuoto questo campo, il blocco di contenuto sarà compatibile con tutti i messaggi, indipendentemente dalla dimensione di targeting. Se imposti una dimensione di targeting, tale blocco sarà compatibile solo con i messaggi che hanno la stessa dimensione di targeting.
 
-Per ulteriori informazioni, consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+Per ulteriori informazioni, consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 **Argomenti correlati:**
 
