@@ -10,8 +10,8 @@ level: Beginner
 hide: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '4695'
+workflow-type: ht
+source-wordcount: '4728'
 ht-degree: 100%
 
 ---
@@ -131,7 +131,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 * È stato corretto un errore che si verificava in modo casuale durante il tentativo di salvare un flusso di lavoro dopo averlo modificato. (CAMP-48695)
 * È stato risolto un problema che impediva la pubblicazione di risorse personalizzate a causa della persistenza di uno schema di dati del trigger anche dopo l’eliminazione di quest’ultimo. (CAMP-48523)
 * È stato risolto un problema che impediva il rispetto delle richieste del ciclo di feedback, perché il processo InMail non era in grado di recuperare i registri di consegna da aggiornare. (CAMP-48705)
-* È stato risolto un problema che impediva la corretta definizione delle opzioni di esclusione nell’attività del flusso di lavoro **Esclusione**.(CAMP-48355)
+* È stato risolto un problema che impediva la corretta definizione delle opzioni di esclusione nell’attività del flusso di lavoro **Esclusione**. (CAMP-48355)
 * È stato risolto un problema che si verificava quando le attività di arricchimento nei flussi di lavoro includevano abbonamenti o annullamenti di abbonamenti da un servizio. Questo problema causava l’arresto dell’applicazione.
 * È stato risolto un problema che poteva impedire l’esecuzione dei flussi di lavoro.
 * È stato risolto un problema che poteva impedire agli utenti di rinominare o eliminare i gruppi di sicurezza predefiniti dall’interfaccia utente.
@@ -262,7 +262,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 <tbody> 
 <tr> 
 <td>
-<p>L’integrazione di Campaign con Adobe Experience Manager è stata migliorata: ora puoi importare contenuti multilingue più facilmente da Adobe Experience Manager. <p>
+<p>L’integrazione di Campaign con Adobe Experience Manager è stata migliorata: ora è possibile importare contenuti multilingua da Adobe Experience Manager più facilmente.<p>
 <p>Adobe Campaign Standard ora rileva automaticamente le varianti di lingua dai contenuti Adobe Experience Manager e consente di importare e creare varianti in blocco, semplificando in modo significativo il numero di passaggi necessari per consentire ai professionisti di creare una campagna multilingue basata su contenuti Adobe Experience Manager.</p>
 <p>Per ulteriori informazioni consulta la <a href="../../integrating/using/creating-multilingual-email-aem.md">documentazione dettagliata</a>.
 </p>

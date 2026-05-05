@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: f06902aaa2fd6b5efbf15ad535a9794bb56775d4
-workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 42%
+workflow-type: ht
+source-wordcount: '232'
+ht-degree: 100%
 
 ---
 
@@ -36,14 +36,14 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ### Altre correzioni {#26-2-fixes}
 
-* Reporting dinamico migliorato per una maggiore solidità e una minore mancata corrispondenza dei dati. (CAMP-58964)
-* Migliore meccanismo di accesso IMS per una maggiore affidabilità. (CAMP-59418)
-* È stata migliorata l’integrazione dei contenuti AEM con una migliore gestione degli URL per le richieste impaginate. (CAMP-59540)
-* È stato aggiunto il supporto per l’input del tipo di password nella schermata Opzioni con hashing automatico. (CAMP-60206)
-* È stato risolto un problema a causa del quale i flussi di lavoro temporanei utilizzavano ID di sequenza errati. (CAMP-59824)
-* È stato risolto un problema che poteva causare errori durante il recupero del contenuto di AEM Campaign. (CAMP-59926)
+* È stato migliorato il reporting dinamico per una maggiore solidità e una riduzione di mancate corrispondenze dei dati.(CAMP-58964)
+* È stato migliorato il meccanismo di accesso IMS per una maggiore affidabilità.(CAMP-59418)
+* È stata migliorata l’integrazione dei contenuti AEM con una gestione più efficiente degli URL per le richieste con paginazione.(CAMP-59540)
+* È stato aggiunto il supporto per input di tipo password nella schermata Opzioni con hashing automatico.(CAMP-60206)
+* È stato risolto un problema a causa del quale i flussi di lavoro temporanei utilizzavano ID di sequenza errati.(CAMP-59824)
+* È stato risolto un problema che poteva causare errori durante il recupero del contenuto delle campagne di AEM.(CAMP-59926)
 
-## Versione 26.1 (LA) {#26.1}
+## Versione 26.1 (disponibilità limitata) {#26.1}
 
 >[!AVAILABILITY]
 >
@@ -56,9 +56,9 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ### Altre correzioni {#26-1-fixes}
 
-* Reporting dinamico migliorato per una maggiore solidità e una minore mancata corrispondenza dei dati. (CAMP-58964)
-* Migliore meccanismo di accesso IMS per una maggiore affidabilità. (CAMP-59418)
-* È stata migliorata l’integrazione dei contenuti AEM con una migliore gestione degli URL per le richieste impaginate. (CAMP-59540)
-* È stato aggiunto il supporto per l’input del tipo di password nella schermata Opzioni con hashing automatico. (CAMP-60206)
-* È stato risolto un problema a causa del quale i flussi di lavoro temporanei utilizzavano ID di sequenza errati. (CAMP-59824)
-* È stato risolto un problema che poteva causare errori durante il recupero del contenuto di AEM Campaign. (CAMP-59926)
+* È stato migliorato il reporting dinamico per una maggiore solidità e una riduzione di mancate corrispondenze dei dati.(CAMP-58964)
+* È stato migliorato il meccanismo di accesso IMS per una maggiore affidabilità.(CAMP-59418)
+* È stata migliorata l’integrazione dei contenuti AEM con una gestione più efficiente degli URL per le richieste con paginazione.(CAMP-59540)
+* È stato aggiunto il supporto per input di tipo password nella schermata Opzioni con hashing automatico.(CAMP-60206)
+* È stato risolto un problema a causa del quale i flussi di lavoro temporanei utilizzavano ID di sequenza errati.(CAMP-59824)
+* È stato risolto un problema che poteva causare errori durante il recupero del contenuto delle campagne di AEM.(CAMP-59926)

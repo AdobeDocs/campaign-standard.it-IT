@@ -7,8 +7,8 @@ level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '7259'
+workflow-type: ht
+source-wordcount: '7629'
 ht-degree: 100%
 
 ---
@@ -506,7 +506,7 @@ Report sul segmento del flusso di lavoro - [Ulteriori informazioni](../../report
 
 È attiva la Guida all’implementazione di Campaign Standard.[Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-standard-implementation-guide.html)
 
-È stato creato un set di nuovi articoli della guida relativi all’implementazione e all’utilizzo del connettore Microsoft Dynamics 365. Al momento questa funzione presenta solo una disponibilità limitata.[Ulteriori informazioni](../../integrating/using/d365-acs-get-started.md)
+È stato creato un set di nuovi articoli della guida relativi all’implementazione e all’utilizzo del connettore Microsoft Dynamics 365. Al momento questa funzione è solo in disponibilità limitata.[Ulteriori informazioni](../../integrating/using/d365-acs-get-started.md)
 
 È stata aggiunta una nota nella sezione [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md) che riguarda la preparazione della consegna e il relativo periodo di aggregazione.
 

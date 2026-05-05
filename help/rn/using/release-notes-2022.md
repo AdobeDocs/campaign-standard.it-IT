@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
-source-wordcount: '1248'
+workflow-type: ht
+source-wordcount: '1254'
 ht-degree: 100%
 
 ---
@@ -18,18 +18,18 @@ ht-degree: 100%
 
 ### Aggiornamento della sicurezza{#rn-security2}
 
-Questa versione include il seguente aggiornamento della sicurezza: Debian è stato aggiornato a v11.0.
+Questa versione include il seguente aggiornamento di sicurezza: Debian è stato aggiornato a v11.0.
 
 ## Versione 22.3 - Autunno/inverno 2022 {#sept-22}
 
 ### Aggiornamento della sicurezza{#rn-security}
 
-Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat è stato aggiornato da v7.0 a v8.0.
+Questa versione include il seguente aggiornamento di sicurezza: Apache Tomcat è stato aggiornato da v7.0 a v8.0.
 
 ### Correzioni{#rn-fixes}
 
 * È stato risolto un problema relativo ai rapporti pianificati, che venivano attivati un’ora prima del tempo programmato. (CAMP-51502)
-* È stato risolto un problema sugli indicatori di consegna nella dashboard delle consegne che non corrispondevano ai registri di invio (nms:broadLogRcp). (CAMP-51127)
+* È stato risolto un problema relativo agli indicatori di consegna nella dashboard di consegna che non corrispondevano ai registri di invio (nms:broadLogRcp).(CAMP-51127)
 * È stato risolto un problema che impediva l’estensione delle risorse personalizzate con il connettore ACS (offerta Prime). (CAMP-51033)
 * È stato migliorato il processo di pubblicazione delle risposte alle richieste di accesso a dati personali per evitare ritardi. (CAMP-50613)
 
@@ -56,7 +56,7 @@ Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat
 * È stato risolto un problema sul flusso di lavoro tecnico Billing (Fatturazione) dovuto a un errore di chiave duplicata. (CAMP-51029)
 * Nei report di tracciamento è stata aggiunta la categoria mancante del browser Microsoft Edge. In precedenza le aperture venivano categorizzate come aperture in Microsoft Chrome. (CAMP-51165)
 * È stato risolto un problema relativo alle richieste GDPR a causa del quale i dati non venivano eliminati dalle tabelle secondarie. (CAMP-48276)
-* È stato risolto un problema in E-mail Designer che impediva il salvataggio della condizione di visibilità di un frammento in un modello per messaggi transazionali. (CAMP-50338)
+* È stato risolto un problema in E-mail designer che impediva il salvataggio della condizione di visibilità di un frammento in un modello per messaggi transazionali. (CAMP-50338)
 * È stato risolto un problema nei rapporti di Campaign a causa del quale l’intervallo di date non veniva preso in considerazione. (CAMP-50991)
 * È stato corretto un errore che causava il mancato funzionamento delle e-mail pianificate: l’analisi della consegna non veniva avviata perché la consegna risultava ancora nello stato “Nuovo tentativo in sospeso”. (CAMP-50302)
 * È stato risolto un problema in E-mail Designer durante l’anteprima di un’e-mail con una sostituzione di profilo. (CAMP-49312)
@@ -76,7 +76,7 @@ Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat
 <tbody> 
 <tr> 
 <td>
-<p>Apache log4j ha risolto le vulnerabilità riportate nella versione di Apache log4j v2.17.1. Adobe Campaign Standard utilizza Apache log4j e questa versione include il più recente Apache log4j v2.17.1 </p>
+<p>Apache log4j ha risolto le vulnerabilità riportate nella versione di Apache log4j v2.17.1.Adobe Campaign Standard utilizza Apache log4j e questa versione include il più recente Apache log4j v2.17.1 </p>
 </td> 
 </tr> 
 </tbody> 
@@ -91,7 +91,7 @@ Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat
 * È stata migliorata l’elaborazione dei dati di reporting per evitare il sovraccarico del sistema. (CAMP-47578)
 * Dopo aver inviato i messaggi in-app, ora puoi scegliere di disattivare la consegna. Ciò consente di eliminare la consegna senza perdere dati di reporting. (CAMP-48469)
 * Per evitare problemi, per una colonna di tabella personalizzata gli utenti non possono più utilizzare lo stesso nome utilizzato per la chiave primaria automatica nel database, `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Ora puoi monitorare la consegna e tenere traccia dei registri di processo con la nuova funzione a discesa **Job history** (Storico dei processi) nella dashboard dei messaggi. [Ulteriori informazioni](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
+* Ora puoi monitorare la consegna e tenere traccia dei registri dei processi con la nuova funzione a discesa **Cronologia processi** nella dashboard dei messaggi. [Ulteriori informazioni](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Sono state migliorate la stabilità e l‘integrità del database, riducendo le tuple morte, quando nel tempo vengono inviati un gran numero di messaggi in tutti i canali. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Sono stati implementati miglioramenti in Campaign Mail Transfer Agent (MTA), per garantire l’aggiornamento automatico delle connessioni in caso di arresto anomalo o riavvio del database. (CAMP-48063)
 * Una nuova opzione di tracciamento, **Use Tracking pixel at the top of the email** (Utilizza pixel di tracciamento nella parte superiore dell’e-mail), è stata aggiunta alle proprietà e-mail per spostare il pixel di tracciamento nella parte superiore dell’e-mail invece che nella parte inferiore. (CAMP-49672)
@@ -99,7 +99,7 @@ Questa versione include il seguente aggiornamento della sicurezza: Apache Tomcat
 **Patch**
 
 * È stato risolto un problema relativo all’opzione **Send report now** (Invia rapporto ora) nei rapporti dinamici: i processi di generazione di PDF non riuscivano in presenza di consegne con più varianti. (CAMP-49120)
-* È stato risolto un problema che impediva agli utenti di aggiornare o scollegare il contenuto di Adobe Experience Manager (AEM) dalle consegne di Adobe Campaign Standard quando un contenuto duplicato in AEM condivideva la stessa chiave (cq:uuid). (CAMP-49161)
+* È stato risolto un problema che impediva agli utenti di aggiornare o scollegare il contenuto Adobe Experience Manager (AEM) dalle consegne Adobe Campaign Standard quando un contenuto duplicato in AEM condivideva la stessa chiave (cq:uuid).(CAMP-49161)
 * È stato corretto un errore che si verificava durante l’accesso a un’istanza in cui le pagine non venivano caricate oppure non era possibile aprire le consegne o salvare eventuali modifiche in sospeso. (CAMP-50195)
 * È stato risolto un problema che impediva l’apertura dei criteri di avviso di consegna se non veniva compilato il campo **Delivery filter** (Filtro di consegna) applicato da questo criterio. (CAMP-49093)
 * È stato risolto un problema che si verificava durante la modifica del pulsante **Secondary** (Secondario) nelle consegne in-app, impedendo di tenere conto delle modifiche. (CAMP-50250)

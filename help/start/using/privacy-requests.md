@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1619'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Per eseguire tali richieste, è necessario utilizzare l’integrazione del **ser
 
 ### Prerequisiti {#prerequesites}
 
- Adobe Campaign offre ai titolari del trattamento strumenti per creare ed elaborare richieste di accesso a dati personali per i dati memorizzati in Adobe Campaign. La gestione del rapporto con l’interessato (tramite e-mail, assistenza clienti o un portale web) rimane tuttavia responsabilità del titolare del trattamento.
+Adobe Campaign offre ai titolari del trattamento strumenti per creare ed elaborare richieste di accesso a dati personali per i dati memorizzati in Adobe Campaign. La gestione del rapporto con l’interessato (tramite e-mail, assistenza clienti o un portale web) rimane tuttavia responsabilità del titolare del trattamento.
 
 In qualità di titolare del trattamento, avrai pertanto la responsabilità di confermare l’identità dell’interessato che presenta la richiesta e confermare che i dati restituiti al richiedente riguardano l’interessato.
 
@@ -95,9 +95,9 @@ Per scoprire come creare richieste di accesso a dati personali dal servizio core
 
 >[!IMPORTANT]
 >
->Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta il metodo [JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} e aggiungi namespaceId alla richiesta, oppure utilizza la [chiamata API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"} per effettuare la richiesta.
+>Per inviare una richiesta utilizzando il tipo di spazio dei nomi personalizzato, sfrutta il metodo [JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#json){target="_blank"} e aggiungi l’ID dello spazio dei nomi alla richiesta, oppure utilizza la [chiamata API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=it#access-delete){target="_blank"} per effettuare la richiesta.
 >
->Utilizza solo l&#39;interfaccia utente [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"} per inviare richieste utilizzando il tipo di spazio dei nomi standard.
+>Utilizza solo l’[interfaccia utente Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder){target="_blank"} per l’invio di richieste tramite il tipo di spazio dei nomi standard.
 
 Ciascun processo del servizio core per la privacy è suddiviso in più richieste di accesso a dati personali in Campaign in base al numero di spazi dei nomi utilizzati. A ogni richiesta corrisponde uno spazio dei nomi. È inoltre possibile eseguire un processo su più istanze. In questo caso vengono creati più file per un processo. Ad esempio, se una richiesta ha due spazi dei nomi ed è in esecuzione in tre istanze, vengono inviati in totale sei file. Un file per ogni spazio dei nomi e istanza.
 
@@ -209,7 +209,7 @@ Per informazioni dettagliate su come estendere la risorsa profilo, consulta [que
 
    ![](assets/privacy-ccpa-extend-field.png)
 
-1. Nella scheda **[!UICONTROL Screen definition]**, aggiungi il campo in **[!UICONTROL Detail screen configuration]** e seleziona **[!UICONTROL Input field]**. Questo renderà il campo disponibile nell’elenco e nei dettagli dei profili. Per ulteriori informazioni sulla configurazione della definizione dello schermo, consulta [questa sezione](../../developing/using/configuring-the-screen-definition.md).
+1. Nella scheda **[!UICONTROL Screen definition]**, aggiungi il campo in **[!UICONTROL Detail screen configuration]** e seleziona **[!UICONTROL Input field]**. Questo renderà il campo disponibile nell’elenco e nei dettagli dei profili.  Per ulteriori informazioni sulla configurazione della definizione dello schermo, consulta [questa sezione](../../developing/using/configuring-the-screen-definition.md).
 
    ![](assets/privacy-ccpa-extend-screen.png)
 
