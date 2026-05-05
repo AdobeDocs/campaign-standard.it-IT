@@ -7,8 +7,8 @@ level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '7259'
+workflow-type: ht
+source-wordcount: '7629'
 ht-degree: 100%
 
 ---
@@ -506,7 +506,7 @@ Report sul segmento del flusso di lavoro - [Ulteriori informazioni](../../report
 
 È attiva la Guida all’implementazione di Campaign Standard.[Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-standard-implementation-guide.html)
 
-È stato creato un set di nuovi articoli della guida relativi all’implementazione e all’utilizzo del connettore Microsoft Dynamics 365. Al momento questa funzione presenta solo una disponibilità limitata.[Ulteriori informazioni](../../integrating/using/d365-acs-get-started.md)
+È stato creato un set di nuovi articoli della guida relativi all’implementazione e all’utilizzo del connettore Microsoft Dynamics 365. Al momento questa funzione è solo in disponibilità limitata.[Ulteriori informazioni](../../integrating/using/d365-acs-get-started.md)
 
 È stata aggiunta una nota nella sezione [Chiamata di un flusso di lavoro con parametri](../../automating/using/calling-a-workflow-with-external-parameters.md) che riguarda la preparazione della consegna e il relativo periodo di aggregazione.
 
@@ -588,7 +588,7 @@ La guida Automazione è stata aggiornata con i collegamenti alle relative attivi
 
 È stata aggiornata la sezione Calcolo indicatore per i report dinamici. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
-È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=it)
+È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 È stato aggiornato l’elenco delle funzioni per i flussi di lavoro. [Ulteriori informazioni](../../automating/using/list-of-functions.md)
 
@@ -866,7 +866,7 @@ L’attività **[!UICONTROL Subscription Services]** è stata aggiornata per sup
 
 È stato aggiunto un caso d’uso dettagliato sulla modalità di preparazione di una consegna. [Ulteriori informazioni](../../sending/using/preparing-the-send.md)
 
-È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it) (PDF).
+È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 È stato aggiunto un caso d’uso dettagliato sulle modalità d’utilizzo della risposta automatica SMS. [Ulteriori informazioni](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1038,7 +1038,7 @@ Numerose schermate sono state aggiornate per riflettere le modifiche all’inter
 
 Sono state aggiunte le istruzioni per configurare il servizio core People o l’integrazione Audience Manager con Adobe Campaign. [Ulteriori informazioni](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it)
+È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Sono stati aggiornati i collegamenti di aiuto contestuali disponibili direttamente all’interno di Adobe Campaign.
 

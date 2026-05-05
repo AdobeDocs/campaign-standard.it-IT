@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '648'
+workflow-type: ht
+source-wordcount: '661'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Informazioni sul supporto dell’accessibilità nell’area di lavoro di Adobe C
 
 L’accessibilità consiste nel rendere i prodotti utilizzabili da persone con disabilità visive, uditive, cognitive, motorie e di altro tipo. Esempi di funzioni di accessibilità per i prodotti software includono contenuti semanticamente strutturati, supporto per utilità per la lettura dello schermo, equivalenti testuali per gli elementi grafici, scelte rapide da tastiera e così via.
 
- Adobe Campaign Standard offre funzioni che ne rendono più accessibile l’utilizzo tramite contrasto, etichette, contenuto strutturato, navigazione da tastiera e aiuto contestuale.
+Adobe Campaign Standard offre funzioni che ne rendono più accessibile l’utilizzo tramite contrasto, etichette, contenuti strutturati, navigazione da tastiera e aiuto contestuale.
 
 ## Funzioni di accessibilità {#accessibility-features}
 
@@ -29,11 +29,11 @@ L’accessibilità consiste nel rendere i prodotti utilizzabili da persone con d
 
 L’interfaccia utente di Adobe Campaign Standard cerca di fornire un contrasto sufficiente nell’applicazione per garantire un’esperienza di visualizzazione accessibile agli utenti ipovedenti o con deficienze cromatiche.
 
-* Testo e intestazioni di grandi dimensioni sono stati migliorati per ottenere un rapporto di contrasto 3:1.
+* Testo e titoli di grandi dimensioni sono stati ottimizzati per garantire un rapporto di contrasto di 3:1.
 
   ![](assets/accessibility_2.png)
 
-* Il contenuto della guida e il corpo del testo dell’applicazione sono stati aggiornati per ottenere un rapporto di contrasto di 4,5:1.
+* Il contenuto della Guida e il corpo del testo nell’applicazione sono stati aggiornati per soddisfare un rapporto di contrasto di 4,5:1.
 
 * Le icone di pausa e annullamento dei flussi di lavoro sono state aggiornate per migliorare il contrasto tra i colori dello sfondo e del primo piano.
 
@@ -122,7 +122,7 @@ Nota che la lingua viene impostata durante l’installazione e non può essere m
 
 ## Letture di approfondimento {#further-reading}
 
- Adobe Campaign Standard si impegna a fornire un livello di accessibilità sempre maggiore, rendendo il prodotto più facile da utilizzare per tutti gli utenti.
+Adobe Campaign Standard si impegna a fornire un livello di accessibilità sempre maggiore, rendendo il prodotto più facile da utilizzare per tutti gli utenti.
 
 Consigliamo di utilizzare il [modulo di feedback sull’accessibilità di Adobe](https://www.adobe.com/accessibility/feedback.html) per inviare suggerimenti di miglioramento e segnalare i problemi di accessibilità incontrati.
 

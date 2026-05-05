@@ -8,8 +8,8 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '492'
+workflow-type: ht
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
     <tr>
         <td><img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Problemi comuni e best practice</a></p></td>
         <td><img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Pannello di controllo Campaign</a></p></td>
-        <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Richiesta di aiuto</a></p></td>
+        <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Richiesta di assistenza</a></p></td>
     </tr>
 </table>
 
@@ -110,7 +110,7 @@ Puoi monitorare i sottodomini e i relativi certificati. Ulteriori informazioni:
 * [Configurare un nuovo sottodominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it#subdomains-and-certificates)
 * [Monitorare i certificati SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=it#subdomains-and-certificates)
 
-## Richiesta di aiuto
+## Richiesta di assistenza
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
@@ -118,7 +118,7 @@ Il nuovo sistema di ticket è stato introdotto tramite [Adobe Admin Console](htt
 
 ### Chiedi agli esperti
 
-Iscriviti alla community di Campaign: cerca le risposte già fornite alle domande esistenti o fai la tua domanda alla community. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=it)
+Iscriviti alla community di Campaign: cerca le risposte già fornite alle domande esistenti o fai la tua domanda alla community. [Partecipa alla conversazione](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Crea un ticket o avvia una chat
 

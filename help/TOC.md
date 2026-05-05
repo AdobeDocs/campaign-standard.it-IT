@@ -5,9 +5,9 @@ user-guide-description: Documentazione del prodotto per Adobe Campaign Standard.
 title: Guida di Campaign Standard
 breadcrumb-title: Documentazione di Campaign Standard
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '1796'
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 88%
       + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [Pianificazione del rilascio](rn/using/release-planning.md)
    + [Funzioni obsolete](rn/using/deprecated-features.md)
-   + {hide-from-toc}[Problema relativo alla firma degli URL tracciati](rn/using/tracked-urls.md)
+   + {hide-from-toc}[Problema relativo alle firme degli URL tracciati](rn/using/tracked-urls.md)
    + {hide-from-toc}[Ultimi aggiornamenti della documentazione](rn/using/documentation-updates.md)
-+ Introduzione {#getting-started}
++ Guida introduttiva {#getting-started}
    + [Informazioni su Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Descrizione dell’interfaccia {#discovering-the-interface}
       + [Informazioni sull’interfaccia](start/using/about-the-interface.md)
@@ -63,7 +63,7 @@ ht-degree: 88%
       + [Informazioni sui tipi di pubblico](audiences/using/about-audiences.md)
       + [Creazione di tipi di pubblico](audiences/using/creating-audiences.md)
       + [Selezione di un pubblico in un messaggio](audiences/using/selecting-an-audience-in-a-message.md)
-   + Gestione delle sottoscrizioni {#managing-subscriptions}
+   + Gestione degli abbonamenti {#managing-subscriptions}
       + [Informazioni sugli abbonamenti](audiences/using/about-subscriptions.md)
       + [Creazione di un servizio](audiences/using/creating-a-service.md)
       + [Promozione di un servizio](audiences/using/promoting-a-service.md)
@@ -160,9 +160,9 @@ ht-degree: 88%
    + [Gestione dei collegamenti](designing/using/links.md)
    + [Gestione delle immagini](designing/using/images.md)
    + [Domande frequenti](designing/using/faq-email-designer.md)
-+ Verifica e invio {#testing-and-sending}
++ Test e invio {#testing-and-sending}
    + [Introduzione alla verifica e all’invio](sending/using/get-started-sending-messages.md)
-   + Preparazione e verifica dei messaggi {#preparing-and-testing-messages}
+   + Preparazione e test dei messaggi {#preparing-and-testing-messages}
       + [Anteprima delle consegne](sending/using/previewing-messages.md)
       + [Invio di bozze](sending/using/sending-proofs.md)
       + [Verifica dei messaggi e-mail tramite profili di destinazione](sending/using/testing-messages-using-target.md)
@@ -185,7 +185,7 @@ ht-degree: 88%
       + [Ricezione degli avvisi in caso di errori](sending/using/receiving-alerts-when-failures-happen.md)
       + [Informazioni sugli errori di consegna](sending/using/understanding-delivery-failures.md)
       + [Informazioni sulla gestione della quarantena](sending/using/understanding-quarantine-management.md)
-   + Gestione del recapito messaggi {#managing-deliverability}
+   + Gestione della recapitabilità {#managing-deliverability}
       + [Informazioni sul recapito messaggi](sending/using/about-deliverability.md)
       + [Controllo dei contenuti dell’e-mail](sending/using/control-email-content.md)
       + [Monitoraggio del recapito messaggi](sending/using/monitor-deliverability.md)
@@ -244,7 +244,7 @@ ht-degree: 88%
       + [Informazioni sull’integrazione di Campaign e Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configurare l’integrazione di Campaign e Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensioni e metriche di Campaign in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign e Audience Manager o il servizio core People {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign e Audience Manager o servizio core People {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Informazioni sull’integrazione di Campaign con Audience Manager o il servizio core People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Provisioning e configurazione dell’integrazione con Audience Manager o il servizio core People](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Risoluzione dei problemi](integrating/using/troubleshooting.md)
@@ -279,7 +279,7 @@ ht-degree: 88%
       + [Esportare dati da Campaign ad Adobe Experience Platform](integrating/using/export-campaign-data.md)
 + Gestione di processi e dati {#managing-processes-and-data}
    + [Introduzione alla gestione di dati e processi](automating/using/get-started-workflows.md)
-   + Funzionamento generale del flusso di lavoro {#workflow-general-operation}
+   + Operazione generale del flusso di lavoro {#workflow-general-operation}
       + [Interfaccia per flussi di lavoro](automating/using/workflow-interface.md)
       + [Creazione di un flusso di lavoro](automating/using/building-a-workflow.md)
       + [Best practice per i flussi di lavoro](automating/using/best-practices-workflows.md)
@@ -303,7 +303,7 @@ ht-degree: 88%
       + [Query](automating/using/query.md)
       + [Query incrementale](automating/using/incremental-query.md)
       + [Unione](automating/using/union.md)
-      + [Intersezione &#x200B;](automating/using/intersection.md)
+      + [Intersezione](automating/using/intersection.md)
       + [Esclusione](automating/using/exclusion.md)
       + [Segmentazione](automating/using/segmentation.md)
       + [Leggere tipi di pubblico](automating/using/read-audience.md)
@@ -398,12 +398,12 @@ ht-degree: 88%
       + [Aggiornamento della struttura del database](developing/using/updating-the-database-structure.md)
       + [Eliminazione di una risorsa](developing/using/deleting-a-resource.md)
       + [Chiamata di una risorsa tramite una chiave di identificazione composita](developing/using/uc-calling-resource-id-key.md)
-   + Caso di utilizzo: estensione dell’API {#use-case-extending-the-api}
+   + Caso d’uso: estensione dell’API {#use-case-extending-the-api}
       + [Informazioni sull’estensione dell’API](developing/using/about-extending-the-api.md)
       + [Passaggio 1: aggiungere campi di estensione alla risorsa del profilo](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [Passaggio 2: pubblicare l’estensione](developing/using/step-2-publish-the-extension.md)
       + [Passaggio 3: verificare l’estensione](developing/using/step-3-verify-the-extension.md)
-   + Casi di utilizzo: estensione delle risorse {#use-cases-extending-resources}
+   + Casi d’uso: estensione delle risorse {#use-cases-extending-resources}
       + [Estensione della risorsa profilo con un nuovo campo](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Estensione degli abbonamenti a una risorsa dell’applicazione](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Modello dati {#datamodel}
@@ -437,7 +437,7 @@ ht-degree: 88%
    + Configurazione dei canali {#configuring-channels}
       + [Informazioni sulla configurazione dei canali](administration/using/about-channel-configuration.md)
       + [Configurazione del canale e-mail](administration/using/configuring-email-channel.md)
-      + {hide-from-toc}[Aggiorna la qualifica di mancato recapito dopo un&#39;interruzione del servizio dell&#39;ISP](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[Aggiornare la qualificazione del mancato recapito dopo un’interruzione del servizio ISP](administration/using/update-bounce-qualification.md)
       + [Configurazione di un’app per dispositivi mobili](administration/using/configuring-a-mobile-application.md)
    + Configurazione dei canali mobili {#configuring-mobile}
       + [Implementazione del tracciamento push](administration/using/push-tracking.md)
