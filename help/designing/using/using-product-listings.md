@@ -37,7 +37,7 @@ Quando modifichi il contenuto di un’e-mail transazionale, puoi creare elenchi 
 
 Per aggiungere un elenco di prodotti abbandonati in un messaggio transazionale, segui i passaggi indicati di seguito.
 
-Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) che illustra i passaggi necessari per configurare gli elenchi di prodotti in un messaggio e-mail transazionale.
+Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=it#configure-product-listings-in-transactional-emails) che illustra i passaggi necessari per configurare gli elenchi di prodotti in un messaggio e-mail transazionale.
 
 >[!NOTE]
 >
