@@ -6,10 +6,24 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/V4W1ZeT4iyA7SJXdVH-MQJLiJQN9WYGu-aghFFpj32c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 77%
+source-wordcount: 1820
+ht-degree: 78%
 
 ---
 
@@ -21,17 +35,17 @@ Questi account esterni possono essere utilizzati nei flussi di lavoro di Campaig
 
 Puoi impostare i seguenti tipi di account esterni:
 
-* SFTP. Per ulteriori informazioni, consulta [questa sezione](#sftp-external-account).
-* Amazon Storage Service (S3). Per ulteriori informazioni, consulta [questa sezione](#amazon-s3-external-account).
-* Adobe Experience Manager. Per ulteriori informazioni, consulta [questa sezione](#adobe-experience-manager-external-account).
-* Adobe Analytics. Per ulteriori informazioni, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. Per ulteriori informazioni, consulta [questa sezione](#google-recaptcha-external-account).
-* Archiviazione BLOB di Microsoft Azure. Per ulteriori informazioni, consulta [questa sezione](#microsoft-azure-external-account).
-* OAuth 2.0 Per ulteriori informazioni, consulta [questa sezione](#oauth-account).
+* SFTP. Per ulteriori informazioni al riguardo, consulta [questa sezione](#sftp-external-account).
+* Amazon Storage Service (S3). Per ulteriori informazioni al riguardo, consulta [questa sezione](#amazon-s3-external-account).
+* Adobe Experience Manager. Per ulteriori informazioni al riguardo, consulta [questa sezione](#adobe-experience-manager-external-account).
+* Adobe Analytics. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../integrating/using/configure-campaign-analytics-integration.md).
+* Google reCAPTCHA. Per ulteriori informazioni al riguardo, consulta [questa sezione](#google-recaptcha-external-account).
+* Archiviazione BLOB di Microsoft Azure. Per ulteriori informazioni al riguardo, consulta [questa sezione](#microsoft-azure-external-account).
+* OAuth 2.0 Per ulteriori informazioni al riguardo, consulta [questa sezione](#oauth-account).
 
 >[!NOTE]
 >
->Altri tipi di account esterni vengono utilizzati da Adobe durante il processo di provisioning dei prodotti. A partire dalla versione 17.9 di Campaign Standard, gli account esterni FTP possono ancora essere definiti ma non sono più utilizzabili nelle nuove attività del flusso di lavoro. Se avevi già configurato una connessione, essa rimane attivata.
+>Altri tipi di account esterni vengono utilizzati da Adobe durante il processo di provisioning dei prodotti. A partire dalla versione 17.9 di Campaign Standard, gli account esterni FTP possono ancora essere definiti ma non sono più utilizzabili nelle nuove attività del flusso di lavoro. Se avevi già configurato una connessione, questa rimane abilitata.
 
 Gli account esterni possono essere configurati dagli amministratori nel menu **[!UICONTROL Administration > Application settings > External accounts]**.
 
@@ -62,7 +76,7 @@ Per un account esterno SFTP, fornisci i seguenti dettagli:
 * Numero della porta. Ad esempio, **22**.
 * Credenziali del server SFTP: nome account e password utilizzati per connettersi al server.
 
-### Adobe di consigli per server SFTP in hosting {#adobe-hosted-sftp-server-recommendations}
+### Raccomandazioni per server SFTP in hosting su Adobe {#adobe-hosted-sftp-server-recommendations}
 
 Quando gestisci file e dati per un processo di ETL, questi file vengono memorizzati in un server SFTP in hosting fornito da Adobe. Questo SFTP è progettato per essere uno spazio di archiviazione temporaneo su cui puoi controllare la conservazione e l’eliminazione dei file.
 
@@ -79,7 +93,7 @@ Per evitare tali problemi, Adobe consiglia di seguire le best practice riportate
 * Di tanto in tanto, effettua l’accesso a SFTP per verificare direttamente ciò che vi si trova.
 * Ricorda che la gestione del disco SFTP è principalmente una tua responsabilità.
 
-Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti al inserisco nell&#39;elenco Consentiti di sull’istanza Campaign. È possibile richiedere l&#39;aggiunta di indirizzi IP al inserisco nell&#39;elenco Consentiti di tramite un [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html) e fornire la chiave pubblica da utilizzare per l&#39;autenticazione.
+Inoltre, tieni presente che gli IP pubblici da cui stai tentando di avviare la connessione SFTP devono essere aggiunti al inserisco nell&#39;elenco Consentiti di sull’istanza Campaign. L&#39;aggiunta di indirizzi IP al inserisco nell&#39;elenco Consentiti di autenticazione può essere richiesta tramite un [ticket di supporto](https://helpx.adobe.com/it/enterprise/using/support-for-experience-cloud.html), fornendo al contempo la chiave pubblica da utilizzare per l&#39;autenticazione.
 
 I server SFTP possono essere gestiti dal Pannello di controllo. Per ulteriori informazioni, consulta la [documentazione del Pannello di controllo](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=it).
 
@@ -93,8 +107,8 @@ Per un account esterno OAuth 2.0, fornisci i seguenti dettagli:
 
 * Tipo di concessione **1&rbrace;: sono supportate solo** credenziali client **.**
 * Un **URL API protetto**: immettere l&#39;endpoint di autorizzazione.
-* **Credenziali sensibili OAuth 2.0**: questa sezione è destinata alle credenziali sensibili per natura. I valori delle credenziali vengono nascosti sullo schermo dopo che sono stati aggiunti; a questo punto, non saranno leggibili né modificabili. Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo del POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
-* **Credenziali non riservate OAuth 2.0**: questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo che sono stati aggiunti; saranno anche modificabili.  Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo del POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
+* **Credenziali sensibili OAuth 2.0**: questa sezione è destinata alle credenziali sensibili per natura. I valori delle credenziali vengono nascosti sullo schermo dopo che sono stati aggiunti; a questo punto, non saranno leggibili né modificabili. Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
+* **Credenziali non riservate OAuth 2.0**: questa sezione è destinata alle credenziali di natura non sensibile. I valori delle credenziali saranno visibili sullo schermo dopo che sono stati aggiunti; saranno anche modificabili.  Se l&#39;endpoint di autorizzazione richiede l&#39;inserimento di una determinata credenziale nell&#39;intestazione dell&#39;autorizzazione HTTP anziché nel parametro del corpo POST, è possibile selezionare l&#39;opzione Includi nell&#39;intestazione della credenziale.
 
 Dopo aver immesso le informazioni sull&#39;account, fare clic su **Verifica connessione** per verificare che l&#39;account esterno sia stato configurato correttamente.
 

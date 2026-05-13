@@ -8,10 +8,27 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
+TQID: https://experienceleague.adobe.com/D3wg-eUkV7-ci9tbK2QK-uNaZBSj8e481WYc-XZr7KA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 75%
+source-wordcount: 1270
+ht-degree: 73%
 
 ---
 
@@ -30,7 +47,7 @@ Tutte le schermate di Adobe Campaign sono composte dai seguenti elementi:
 
 ## Home page {#home-page}
 
-La pagina Home è composta da una serie di schede che ti offrono un accesso rapido alle funzionalità principali di Adobe Campaign. L’elenco delle capacità che puoi visualizzare nella pagina Home di Campaign dipende dalle autorizzazioni in tuo possesso e dalle opzioni configurate per la tua organizzazione.
+La pagina Home è composta da una serie di schede che offrono un accesso rapido alle funzionalità principali di Adobe Campaign. L’elenco delle capacità che puoi visualizzare nella pagina Home di Campaign dipende dalle autorizzazioni in tuo possesso e dalle opzioni configurate per la tua organizzazione.
 
 ![](assets/overview_home_page.png)
 
@@ -41,7 +58,7 @@ La pagina Home è composta da una serie di schede che ti offrono un accesso rapi
 * La scheda **[!UICONTROL Create an In-App message]** ti porta all&#39;assistente per la creazione in-app. L’assistente ti consente di selezionare il tipo di messaggio in-app da creare, definirne le proprietà, il pubblico e il contenuto. Consulta la sezione [Creazione di un messaggio in-app](../../channels/using/about-in-app-messaging.md).
 * La scheda **[!UICONTROL Marketing activities]** contiene l’elenco completo di tutte le attività, i programmi e le campagne, in particolare e-mail, SMS, flussi di lavoro e pagine di destinazione. Da qui puoi filtrare gli elementi ricercandoli per nome, data, stato o tipo di attività. Per ulteriori informazioni, consulta la sezione [Elenco delle attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * La scheda **[!UICONTROL Programs & campaigns]** ti consente di visualizzare l’elenco dei programmi in cui puoi creare e gestire le campagne. Consulta [Elenco programmi](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* La scheda **[!UICONTROL Timeline]** ti porta direttamente a una cronologia interattiva delle attività di marketing, nella quale puoi consultare i programmi in corso e i relativi contenuti. Consulta la [Timeline](../../start/using/timeline.md).
+* La scheda **[!UICONTROL Timeline]** ti porta direttamente a una timeline interattiva delle attività di marketing, nella quale puoi consultare i programmi in corso e i relativi contenuti. Consulta la [Timeline](../../start/using/timeline.md).
 * La scheda **[!UICONTROL Customer profiles]** ti porta direttamente all’elenco dei profili. Da qui puoi consultare gli eventi relativi a ciascuno dei profili presenti nel tuo elenco. Consulta [Gestione dei profili](../../audiences/using/about-profiles.md).
 * La scheda **[!UICONTROL Audiences]** ti porta direttamente all’elenco dei tipi di pubblico. Da qui puoi accedere ai tipi di pubblico esistenti e crearne di nuovi. Consulta [Gestione dei tipi di pubblico](../../audiences/using/about-audiences.md).
 
@@ -76,7 +93,7 @@ Tre schede ti aiutano a trovare aiuto e assistenza:
    * accesso rapido alla documentazione di Adobe Campaign Standard con collegamenti contestuali.
    * un collegamento **[!UICONTROL Learning]** che ti consente di accedere alla libreria dei corsi di Adobe Campaign.
    * un collegamento **[!UICONTROL Community]** per accedere al forum dedicato alle tue domande su Campaign.
-   * accesso diretto a: Centro assistenza, Assistenza clienti, stato del prodotto di Experience Cloud, connessione per sviluppatori, note sulla versione, pianificazione della versione e schermata **[!UICONTROL About]**.
+   * accesso diretto a: Centro assistenza, Assistenza clienti, stato dei prodotti Experience Cloud, connessione per sviluppatori, note sulla versione, pianificazione della versione e schermata **[!UICONTROL About]**.
 1. La scheda **[!UICONTROL Support]** ti consente di aprire un caso di supporto e di contattarci per telefono o X (precedentemente noto come Twitter).
 1. La scheda **[!UICONTROL Feedback]** semplifica la segnalazione dei problemi o la condivisione delle idee.
 
@@ -124,7 +141,7 @@ La zona centrale dell’interfaccia utente è una zona dinamica che contiene, ad
 
 Il contenuto e il formato di visualizzazione della zona centrale possono variare:
 
-* Un **elenco** che presenta vari elementi quali programmi, campagne, profili e così via. Questi elementi possono essere visualizzati in modalità **[!UICONTROL Card]** o **[!UICONTROL List]**. Utilizza il pulsante di modifica modalità per passare da una all’altra. Ogni elemento visualizza degli indicatori.
+* Un **elenco** che presenta vari elementi come programmi, campagne, profili e così via. Questi elementi possono essere visualizzati in modalità **[!UICONTROL Card]** o **[!UICONTROL List]**. Utilizza il pulsante di modifica modalità per passare da una all’altra. Ogni elemento visualizza degli indicatori.
 
   ![](assets/ux_liste.png)
 
@@ -138,7 +155,7 @@ Il contenuto e il formato di visualizzazione della zona centrale possono variare
 
   ![](assets/ux_activityselection.png)
 
-* Per i flussi di lavoro e per l’editor delle query, è disponibile un’**area di lavoro** con una palette per la progettazione dell’oggetto.
+* Per i flussi di lavoro e per l’editor di query, è disponibile un’**area di lavoro** con una palette per la progettazione dell’oggetto.
 
   Puoi trascinare e rilasciare gli elementi dalla palette nell’area di lavoro e configurare così l’elemento in questione.
 

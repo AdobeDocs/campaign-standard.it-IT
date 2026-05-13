@@ -8,9 +8,18 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/0nQFLX-FzzajBKqGZO-MCnpS9zP5-tRNllV366m8hbs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: 635
 ht-degree: 14%
 
 ---
@@ -53,7 +62,7 @@ Per visualizzare in anteprima un messaggio utilizzando i profili di test, effett
 
 ## Anteprima dei messaggi SMS {#previewing-sms}
 
-Per i messaggi **SMS**, Campaign Standard consente di visualizzare l&#39;anteprima dei messaggi utilizzando i profili di test. Questo consente di ottenere una rappresentazione esatta del messaggio che verrà ricevuto da un profilo specifico. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
+Per i messaggi **SMS**, Campaign Standard consente di visualizzare in anteprima i messaggi utilizzando i profili di test. Questo consente di ottenere una rappresentazione esatta del messaggio che verrà ricevuto da un profilo specifico. Per ulteriori informazioni, consulta [Gestione dei profili di test](../../audiences/using/managing-test-profiles.md).
 
 Per visualizzare in anteprima un messaggio SMS utilizzando i profili di test, effettua le seguenti operazioni:
 

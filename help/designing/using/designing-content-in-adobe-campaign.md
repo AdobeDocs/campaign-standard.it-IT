@@ -8,10 +8,23 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 84%
+source-wordcount: 1263
+ht-degree: 83%
 
 ---
 
@@ -116,7 +129,7 @@ Per utilizzare in modo appropriato E-mail designer e creare le e-mail migliori n
 
 * Durante la modifica del **contenuto e-mail**:
 
-  Visualizza l’anteprima dei messaggi prima di inviarli.  Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consulta [Rendering e-mail](../../sending/using/email-rendering.md).
+  Visualizza l’anteprima dei messaggi prima di inviarli. Adobe Campaign offre un modo per testare il rendering delle e-mail tramite Litmus. Per ulteriori informazioni, consulta [Rendering e-mail](../../sending/using/email-rendering.md).
 
 * Il metatag del referente non è supportato in E-mail designer.
 
@@ -128,7 +141,7 @@ E-mail Designer è in continuo miglioramento. Se hai creato un contenuto e-mail 
 
 ![](assets/email_designer_fragment_patch_message.png)
 
- Adobe consiglia di aggiornare il contenuto alla versione più recente per evitare problemi, come problemi di collisione CSS. Fai clic su **[!UICONTROL Update now]**.
+Adobe consiglia di aggiornare il contenuto alla versione più recente per evitare problemi, come problemi di collisione CSS. Fai clic su **[!UICONTROL Update now]**.
 
 Se si verifica un errore durante l’aggiornamento del contenuto, controlla il codice HTML e correggilo prima di eseguire di nuovo l’aggiornamento.
 
@@ -166,6 +179,6 @@ Per quanto riguarda i frammenti, tieni presente quanto segue:
 
 Questo video offre una panoramica di E-mail Designer.
 
->[!VIDEO](https://video.tv.adobe.com/v/330107?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/330107?captions=ita&quality=12)
 
 Per iniziare a utilizzare E-mail Designer, guarda questo [set di video](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=it#GettingStarted) che illustrano le funzionalità generali di E-mail Designer e spiegano come progettare un&#39;e-mail da zero o utilizzando i modelli

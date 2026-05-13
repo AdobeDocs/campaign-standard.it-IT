@@ -9,9 +9,22 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: 2582
 ht-degree: 1%
 
 ---
@@ -20,7 +33,7 @@ ht-degree: 1%
 
 ## Gestire i dati {#acs-msdyn-manage-data}
 
-Per la sincronizzazione dei contatti e delle entità personalizzate, questa integrazione tratta **Microsoft Dynamics 365 come origine di verità**.  Eventuali modifiche agli attributi sincronizzati devono essere eseguite in Dynamics 365 e non in Adobe Campaign Standard).  Se vengono apportate modifiche in Campaign, queste possono eventualmente essere sovrascritte in Campaign durante la sincronizzazione, in quanto la sincronizzazione si trova in una direzione.
+Per la sincronizzazione dei contatti e delle entità personalizzate, questa integrazione tratta **Microsoft Dynamics 365 come origine di verità**. Qualsiasi modifica agli attributi sincronizzati deve essere eseguita in Dynamics 365 e non in Adobe Campaign Standard). Se vengono apportate modifiche in Campaign, queste possono eventualmente essere sovrascritte in Campaign durante la sincronizzazione, poiché la sincronizzazione si trova in una direzione.
 
 L’integrazione può essere configurata facoltativamente per emettere chiamate di eliminazione profilo a Campaign quando un contatto viene eliminato in Dynamics 365 per mantenere l’integrità dei dati. Tuttavia, l’eliminazione di un profilo è diversa dall’eliminazione di una privacy. Se si elimina la privacy in Campaign, verranno rimossi il record del profilo Campaign e le voci di registro associate; se invece si elimina un profilo regolarmente, verrà eliminato solo il record del profilo Campaign, lasciando i residui nei registri di Campaign. Se la funzione di eliminazione del profilo è abilitata nell’integrazione, dovranno essere seguiti ulteriori passaggi per elaborare correttamente le richieste di privacy dell’interessato. Consulta i passaggi nella sezione [Privacy di seguito](#manage-privacy-requests).
 
@@ -51,7 +64,7 @@ Se hai configurato l’integrazione in modo da emettere regolari chiamate di eli
 
 ## Rinuncia {#opt-out}
 
-A causa delle differenze negli attributi di rinuncia tra Microsoft Dynamics 365 e Campaign e delle differenze nei requisiti di business di ciascun cliente, la mappatura della rinuncia è stata lasciata come un esercizio da completare per il cliente.  È importante garantire che le rinunce siano correttamente mappate tra i sistemi in modo che le preferenze di rinuncia dell’utente finale siano mantenute e che non riceva una comunicazione tramite un canale da cui ha rinunciato.
+A causa delle differenze negli attributi di rinuncia tra Microsoft Dynamics 365 e Campaign e delle differenze nei requisiti aziendali di ciascun cliente, la mappatura della rinuncia è stata lasciata come un esercizio per il cliente da completare. È importante garantire che le rinunce siano correttamente mappate tra i sistemi in modo che le preferenze di rinuncia dell’utente finale siano mantenute e che non riceva una comunicazione tramite un canale da cui ha rinunciato.
 
 Tieni presente che solo i seguenti elementi possono essere utilizzati nelle mappature di rinuncia:
 
@@ -127,7 +140,7 @@ Se ti trovi in aree EMEA o APAC, alcuni dei tuoi dati verranno elaborati negli S
 
 >[!IMPORTANT]
 >
->Alcune azioni da parte tua (ad esempio, l’acquisizione iniziale dei record, la riproduzione dei dati dei record, ecc.) potrebbero comportare l’acquisizione di un numero elevato di record da Microsoft Dynamics 365 all’istanza di Adobe Campaign. Per ridurre il rischio di problemi di prestazioni, ti consigliamo di arrestare tutti i processi di Campaign (ad esempio, nessuna attività di marketing, nessuna esecuzione di flussi di lavoro, ecc.) fino a dopo che il grande carico di record è stato acquisito in Campaign.
+>Alcune azioni da parte tua (ad esempio, acquisizione iniziale dei record, riproduzione dei dati dei record, ecc.) potrebbe comportare l’acquisizione di un carico elevato di record da Microsoft Dynamics 365 all’istanza Adobe Campaign. Per ridurre il rischio di problemi di prestazioni, si consiglia di arrestare tutti i processi di Campaign (ad esempio, nessuna attività di marketing, nessuna esecuzione di flussi di lavoro, ecc.) fino a dopo l’acquisizione del grande carico di record in Campaign.
 
 ### Entità personalizzate
 

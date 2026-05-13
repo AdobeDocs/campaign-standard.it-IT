@@ -8,10 +8,26 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 2%
+source-wordcount: 2045
+ht-degree: 3%
 
 ---
 
@@ -85,7 +101,7 @@ Se desideri inviare notifiche in base a criteri specifici a diversi gruppi di ut
 
 1. Selezionare il gruppo di destinatari a cui si desidera inviare la notifica dall&#39;elenco a discesa **[!UICONTROL Alert group]**. Per modificare o creare un gruppo, vedere [Creazione di un gruppo di sicurezza e assegnazione di utenti](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Dalla sezione **[!UICONTROL Delivery alerting criteria]**, fai clic su **[!UICONTROL Create element]** per aggiungere criteri. Consulta [Informazioni sui criteri di avviso](#about-alerting-criteria).
-1. Selezionare il pulsante **[!UICONTROL Edit properties]**. Nella scheda **[!UICONTROL Criteria parameters]**, definisci come verranno applicati i criteri. Vedi [Parametri dei criteri](#criteria-parameters).
+1. Fai clic sul pulsante **[!UICONTROL Edit properties]**. Nella scheda **[!UICONTROL Criteria parameters]**, definisci come verranno applicati i criteri. Vedi [Parametri dei criteri](#criteria-parameters).
 1. Fare clic su **[!UICONTROL Create]** per salvare il dashboard.
 
 Ora, ogni volta che una consegna soddisfa i criteri definiti in questa dashboard, viene inviata una notifica di avviso al gruppo di utenti specificato.

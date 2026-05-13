@@ -9,10 +9,19 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 93%
+source-wordcount: 1684
+ht-degree: 90%
 
 ---
 
@@ -51,7 +60,7 @@ L’editor dei contenuti è organizzato in tre sezioni distinte. Tali sezioni ti
 
 ![](assets/des_lp_content_8.png)
 
-1. La **palette** a sinistra dello schermo ti consente di modificare le opzioni generali collegate a un blocco selezionato. Le opzioni che è possibile modificare sono le seguenti: colore di sfondo, bordo, allineamento del testo, condizione di visibilità e così via. Consulta [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. La **palette** a sinistra dello schermo ti consente di modificare le opzioni generali collegate a un blocco selezionato. Le opzioni modificabili sono: colore di sfondo, bordo, allineamento del testo, condizione di visibilità e così via. Vedi [Inserimento di un campo di personalizzazione](../../designing/using/personalization.md#inserting-a-personalization-field).
 1. La **barra delle azioni** contiene le opzioni generali della pagina. Puoi selezionare un modello e modificare la modalità di visualizzazione.
 1. La **zona di modifica** principale ti consente di interagire direttamente con il contenuto tramite la barra degli strumenti contestuale: puoi inserire un collegamento in un’immagine, modificare il font, eliminare un campo e così via.
 
@@ -190,7 +199,7 @@ La **barra degli strumenti** è un elemento contestuale dell’interfaccia dell�
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Grassetto</span> <br /> </td> 
    <td> Elemento di testo<br /> </td> 
-   <td> Aggiunge lo stile grassetto al testo selezionato (applica al testo i tag <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong>).<br /> </td> 
+   <td> Aggiunge lo stile grassetto al testo selezionato (applica al testo i tag <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt;).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
@@ -247,17 +256,17 @@ I diversi elementi di contenuto HTML vengono visualizzati nella pagina di destin
 
 Se è stato selezionato un blocco, gli oggetti principali dell’elemento HTML corrispondente verranno visualizzati in una breadcrumb situata nella parte inferiore dell’area di modifica.
 
-Al passaggio del mouse passa sopra uno degli elementi della breadcrumb, viene evidenziato l’elemento interessato. Puoi quindi spostarti facilmente tra i diversi blocchi e selezionare con precisione l’elemento HTML che desideri modificare.
+Al passaggio del puntatore su uno degli elementi della breadcrumb, viene evidenziato l’elemento interessato. Puoi quindi spostarti facilmente tra i diversi blocchi e selezionare con precisione l’elemento HTML che desideri modificare.
 
 ![](assets/des_lp_content_2.png)
 
 Per modificare, eliminare o duplicare il blocco, utilizza le opzioni della palette e della barra degli strumenti contestuale.
 
-Per i blocchi contenenti testo, fai di nuovo clic sul blocco per attivare la modalità di modifica del testo. La cornice intorno al blocco diventa verde. A quel punto, potrai selezionare o immettere il testo. Per aggiungere un collegamento o modificare la formattazione del testo, utilizza le opzioni della palette e della barra degli strumenti contestuale.
+Per i blocchi contenenti testo, fai di nuovo clic sul blocco per abilitare la modalità di modifica del testo. La cornice intorno al blocco diventa verde. A quel punto, potrai selezionare o immettere il testo. Per aggiungere un collegamento o modificare la formattazione del testo, utilizza le opzioni della palette e della barra degli strumenti contestuale.
 
 ![](assets/des_lp_content_3.png)
 
-I parametri definiti per un elemento in un blocco, quali collegamenti, campi di personalizzazione, blocchi di contenuto e così via, possono essere modificati dalla palette in qualsiasi momento.
+I parametri definiti per un elemento in un blocco (collegamenti, campi di personalizzazione, blocchi di contenuto, ecc.) possono essere modificati in qualsiasi momento dalla palette.
 
 ![](assets/des_lp_content_4.png)
 

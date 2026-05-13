@@ -8,10 +8,21 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: 725
+ht-degree: 2%
 
 ---
 
@@ -21,20 +32,20 @@ ht-degree: 0%
 
 Consulta le risorse seguenti:
 
-* [Tutorials video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=it)
+* [Tutorial video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=it)
 * [Post di blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Pagina community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=it)
 
 ## Qual è lo scopo delle API di estensione di Campaign setLinkageField e resetLinkageField? {#extensions-apis}
 
-Poiché i messaggi in-app vengono estratti dall’SDK da Campaign, vogliamo fornire un meccanismo sicuro per garantire che i messaggi in-app contenenti dati PII non cadano in mani maligne. Di conseguenza, è stato implementato il seguente meccanismo per garantire la consegna sicura dei messaggi al dispositivo:
+Poiché i messaggi in-app vengono estratti da SDK da Campaign, vogliamo fornire un meccanismo sicuro per garantire che i messaggi in-app contenenti dati PII non cadano in mani dannose. Di conseguenza, è stato implementato il seguente meccanismo per garantire la consegna sicura dei messaggi al dispositivo:
 
 * I clienti contrassegnano i campi del profilo mobile (tabella appSubscriberRcp) come Personali e riservati se desiderano assicurarsi che queste informazioni particolari vengano consegnate in modo sicuro.
 * I campi contrassegnati come tali possono essere utilizzati solo nel modello Profilo (non nel modello AppSubscriber o Broadcast) in cui è incorporato un meccanismo di sicurezza aggiuntivo.
 * I messaggi generati utilizzando il modello di profilo possono essere trasmessi solo dopo che l’utente ha effettuato l’accesso all’app.
 * Per facilitare questo handshake sicuro, gli sviluppatori di app mobili devono trasmettere ulteriori dettagli di autenticazione utilizzando l’API setLinkageField. Tieni presente che il campo di collegamento è quello identificato come collegamento tra Profilo mobile e Profilo CRM durante l’estensione della tabella appSubscriberRcp.
 * Devono effettuare il flushing dei messaggi in-app memorizzati sul dispositivo e resetLinkageField quando l’utente si disconnette dall’app utilizzando resetLinkageField. In questo modo, se un utente diverso accede all’app, non vede i messaggi destinati all’utente precedente.
-* Consulta [API SDK per dispositivi mobili](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) per implementare questo meccanismo di sicurezza lato client.
+* Consulta [API di Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) per implementare questo meccanismo di sicurezza lato client.
 
 ## Cosa devo fare per abilitare il reporting in-app in Campaign? {#enable-inapp-reporting}
 
@@ -56,7 +67,7 @@ Tuttavia, se l’obiettivo è inviare un messaggio in-app in una lingua diversa 
 
 ![](assets/faq_inapp.png)
 
-## È possibile aggiungere i campi di personalizzazione di Campaign a Custom HTML? {#custom-html-inapp}
+## È possibile aggiungere i campi di personalizzazione di Campaign a HTML personalizzato? {#custom-html-inapp}
 
 No, non ancora supportato.
 

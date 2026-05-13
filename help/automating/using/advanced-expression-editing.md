@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 96%
+source-wordcount: 1103
+ht-degree: 93%
 
 ---
 
@@ -102,7 +107,7 @@ Le espressioni JavaScript sono composte da una o più condizioni e utilizzano i 
 
 * Ciascuna condizione assume la forma di **&lt;contesto> &lt;operatore di confronto> &lt;valore2>** in cui:
 
-   * **&lt;contesto>** è un campo o una funzione che consente di specificare il contesto. Ad esempio **context.profile.@email** per l’indirizzo e-mail di un profilo o **context.profile.firstName.length()** per il numero di caratteri del nome di un profilo.
+   * **&lt;contesto>** è un campo o una funzione che consente di specificare il contesto. Ad esempio **context.profile.@email** per l&#39;indirizzo e-mail di un profilo o **context.profile.firstName.length()** per il numero di caratteri del nome di un profilo.
    * **&lt;operatore di confronto>** è uno degli operatori elencati nella sezione [Operatori di confronto](../../automating/using/advanced-expression-editing.md#comparison-operators). Questo operatore definisce il metodo di confronto tra **&lt;contesto>** e **&lt;valore2>**.
    * **&lt;valore2>** è un campo, una funzione o un valore immesso manualmente.
 
@@ -201,7 +206,7 @@ Le condizioni devono essere collegate ai valori utilizzando uno dei seguenti ope
    <td> NOT<br /> </td> 
    <td> N/D<br /> </td> 
    <td> È simile a <span class="uicontrol">Simile</span>. Ti consente di non recuperare il valore immesso. Anche in questo caso, il valore immesso deve contenere il carattere jolly <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. In questo caso, i destinatari corrispondono al nome 'Smi%h' (quindi Smith, ecc.) non vengono restituiti di conseguenza.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. In questo caso, i destinatari corrispondono al nome "Smi%h" (quindi Smith, ecc.) non vengono restituiti come risultato.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">È vuoto</span> <br /> </td> 

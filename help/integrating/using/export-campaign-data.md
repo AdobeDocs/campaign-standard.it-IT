@@ -7,10 +7,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/wevJB72xRacTndQ1-VOyKHOtRak0UKJT2V-pzUd6d-Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: b70f632b-2cfd-43d0-9266-284281100d70
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 5%
+source-wordcount: 537
+ht-degree: 6%
 
 ---
 
@@ -22,11 +36,11 @@ Dopo aver configurato il flusso di lavoro e aver inviato i dati al percorso di a
 
 >[!NOTE]
 >
->Si consiglia di esportare solo i dati generati da Campaign (ad esempio invii, aperture, clic ecc.) in Adobe Experience Platform. I dati acquisiti da un’origine di terze parti (come il CRM) devono essere importati direttamente in Adobe Experience Platform.
+>Si consiglia di esportare solo i dati generati da Campaign (ad esempio invii, aperture, clic ecc.) a Adobe Experience Platform. I dati acquisiti da un’origine di terze parti (come il CRM) devono essere importati direttamente in Adobe Experience Platform.
 
 ## Creare un flusso di lavoro di esportazione in Campaign Standard
 
-Per esportare i dati da Campaign Standard nel percorso di archiviazione S3 o BLOB di Azure, devi creare un flusso di lavoro per eseguire il targeting dei dati da esportare e inviarli al percorso di archiviazione.
+Per esportare i dati da Campaign Standard al percorso di archiviazione S3 o Azure Blob, devi creare un flusso di lavoro per eseguire il targeting dei dati da esportare e inviarli al percorso di archiviazione.
 
 A questo scopo, aggiungi e configura:
 
@@ -52,16 +66,16 @@ Argomenti correlati:
 
 ## Collegare la posizione di archiviazione come Source
 
-Di seguito sono elencati i passaggi principali per connettere il servizio di archiviazione Amazon (S3) o il percorso di archiviazione BLOB di Azure come **Source** in Adobe Experience Platform. Informazioni dettagliate su ciascuno di questi passaggi sono disponibili nella [documentazione dei connettori Source](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it).
+Di seguito sono elencati i passaggi principali per collegare il percorso di archiviazione Amazon Storage Service (S3) o Azure Blob come **Source** in Adobe Experience Platform. Informazioni dettagliate su ciascuno di questi passaggi sono disponibili nella [documentazione dei connettori Source](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it).
 
 1. Nel menu di Adobe Experience Platform **[!UICONTROL Sources]**, crea una connessione al percorso di archiviazione:
 
-   * [Creare una connessione di origine Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=it)
+   * [Creare una connessione sorgente Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=it)
    * [Connettore BLOB di Azure](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=it)
 
    >[!NOTE]
    >
-   >Il percorso di archiviazione può essere Amazon S3, SFTP con password, SFTP con chiave SSH o connessioni BLOB di Azure. Il metodo preferito per inviare dati ad Adobe Campaign è tramite Amazon S3 o Azure Blob:
+   >La posizione di archiviazione può essere Amazon S3, SFTP con password, SFTP con chiave SSH o connessioni BLOB Azure. Il metodo preferito per inviare dati ad Adobe Campaign è tramite Amazon S3 o Azure Blob:
 
    ![](assets/rtcdp-connector.png)
 

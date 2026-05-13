@@ -8,16 +8,43 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/EGdix7-9vHr9y-RyJFS8eqFRWZSVgvHReEhSmYOk3-8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: a658c786-869b-4194-a780-2594d663adda
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 96%
+source-wordcount: 789
+ht-degree: 88%
 
 ---
 
 # Introduzione a Campaign Standard {#about-campaign-standard}
 
- Adobe Campaign Standard è un potente strumento di gestione delle campagne cross-channel che consente di allineare le strategie online e offline per creare esperienze cliente personalizzate.
+Adobe Campaign Standard è un potente strumento di gestione delle campagne cross-channel che consente di allineare le strategie online e offline per creare esperienze cliente personalizzate.
 
 Controlla l’intero processo di creazione, esecuzione e tracciamento delle campagne multicanale, nonché l’invio di messaggi personalizzati in base al profilo, al comportamento, alle preferenze e alle esigenze dei clienti. Puoi orchestrare, modellare e automatizzare facilmente l’intero processo di marketing e integrarlo con altre soluzioni Adobe.
 
@@ -27,7 +54,7 @@ Controlla l’intero processo di creazione, esecuzione e tracciamento delle camp
 
 I **Campaign Integrated Customer Profile** consentono di monitorare ogni interazione con i clienti su tutti i canali in un’unica schermata, consentendo di inviare messaggi pertinenti e personalizzati ai clienti.
 
-**Segmenta il database in audience** per ottimizzare il target delle campagne di marketing.
+**Segmenta il database in tipi di pubblico** per ottimizzare il target delle campagne di marketing.
 
 **Gestisci le autorizzazioni e il consenso** dei clienti utilizzando i servizi e le pagine di destinazione per impostare semplici meccanismi di consenso e rinuncia.
 
@@ -55,7 +82,7 @@ Progetta e invia messaggi su canali di comunicazione online e offline, oltre a o
 
 **Utilizza Campaign E-mail Designer** per creare messaggi e-mail accattivanti e personalizzati. Parti da zero o utilizza frammenti di contenuto o modelli incorporati per progettare e-mail utilizzando il formato HTML ottimizzato per la progettazione reattiva. [Guida introduttiva alla progettazione del contenuto delle e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 
-**Analizza e controlla il contenuto dei messaggi** prima dell’invio, testando più funzionalità come anteprima, bozze, test dell’oggetto dell’e-mail, rendering dell’e-mail e così via. Assicurati che i messaggi vengano recapitati al momento giusto ottimizzando il tempo di invio (pianificazione, gestione del fuso orario). [Guida introduttiva alla verifica e all’invio](../../sending/using/get-started-sending-messages.md)
+**Analizza e controlla il contenuto dei messaggi** prima di inviarli, utilizzando più funzionalità di test come anteprima, bozze, test dell&#39;oggetto dell&#39;e-mail, rendering dell&#39;e-mail e così via. Assicurati che i messaggi vengano recapitati al momento giusto ottimizzando il tempo di invio (pianificazione, gestione del fuso orario). [Guida introduttiva alla verifica e all’invio](../../sending/using/get-started-sending-messages.md)
 
 ## Monitorare l’impatto delle campagne {#track-impact-campaigns}
 
@@ -63,10 +90,10 @@ Progetta e invia messaggi su canali di comunicazione online e offline, oltre a o
 
 Una volta che le campagne di marketing sono state avviate e i diversi messaggi sono stati inviati, Campaign Standard consente di monitorare il loro impatto e il comportamento dei destinatari.
 
-**Monitora le consegne** una volta inviate. Consulta ed esporta registri dettagliati sulle tue consegne. Ottieni informazioni sul loro stato in base a ogni destinatario, ai messaggi esclusi dalla consegna e molte altre metriche.
+**Monitora le consegne** una volta inviate. Consulta ed esporta registri dettagliati sulle tue consegne. Recupera informazioni sul loro stato in base a ogni destinatario, ai messaggi esclusi dal target e molte altre metriche.
 Sfrutta la funzione di avviso sulla distribuzione per tenere traccia della riuscita o degli errori di consegna attraverso le notifiche e-mail. Vuoi saperne di più? [Guida introduttiva al monitoraggio dei messaggi](../../sending/using/monitoring-a-delivery.md)
 
-**Monitora il comportamento dei destinatari della consegna**. Sfrutta la sessione e i cookie permanenti per recuperare le informazioni di tracciamento per ogni contatto del database. Monitora le informazioni di tracciamento sulle consegne (URL su cui è stato fatto clic, pagine mirror, messaggi aperti, ecc.) attraverso registri e rapporti dedicati. [Guida introduttiva al tracciamento dei messaggi](../../sending/using/tracking-messages.md)
+**Monitora il comportamento dei destinatari della consegna**. Sfrutta la sessione e i cookie permanenti per recuperare le informazioni di tracciamento per ogni contatto del database. Monitora le informazioni di tracciamento sulle consegne (URL su cui è stato fatto clic, pagine mirror, messaggi aperti, ecc.) tramite registri e rapporti dedicati. [Guida introduttiva al tracciamento dei messaggi](../../sending/using/tracking-messages.md)
 
 **Utilizza i report dinamici** per delineare metriche specifiche correlate al messaggio o alla campagna. Il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale che permettono anche di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic. L’interfaccia di trascinamento consente di esaminare i dati, determinare le prestazioni delle campagne e-mail rispetto ai segmenti di clienti più importanti e misurare il loro impatto sui destinatari. [Guida introduttiva al reporting dinamico](../../reporting/using/about-dynamic-reports.md)
 

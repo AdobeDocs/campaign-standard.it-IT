@@ -6,9 +6,17 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
+TQID: https://experienceleague.adobe.com/tSPkfU35NbnvlF8s39rDKPbyrLFm8uKx7jvU4ZyB1hw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: 939
 ht-degree: 0%
 
 ---
@@ -260,7 +268,7 @@ Per far sì che il monitoraggio di **[!UICONTROL Impression]** continui a funzio
 
 >[!CAUTION]
 >
-> Se un’app viene chiusa, Apple non la chiamerà finché l’app non viene riavviata. Ciò significa che non potrai sapere quando è stata ricevuta la notifica su iOS. </br> Per questo motivo, il tracciamento delle impression di iOS potrebbe non essere accurato e non dovrebbe essere considerato affidabile.
+> Se un’app viene chiusa, Apple non la chiamerà finché l’app non viene riavviata. Ciò significa che non potrai sapere quando la notifica è stata ricevuta su iOS. </br> Per questo motivo, il tracciamento delle impression di iOS potrebbe non essere accurato e non dovrebbe essere considerato affidabile.
 
 Per le consegne create prima della versione 21.1 o per le consegne con modello personalizzato, fai riferimento a questa [sezione](../../administration/using/push-tracking.md#about-push-tracking).
 

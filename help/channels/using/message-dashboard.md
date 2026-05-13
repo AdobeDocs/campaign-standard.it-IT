@@ -9,9 +9,18 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/lPW7QI7jtfKL-78I3E8l6W2c9xJQml9JFXpw-5NX0aA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 594
 ht-degree: 4%
 
 ---
@@ -82,7 +91,7 @@ Di seguito è riportato un elenco dei messaggi che è possibile visualizzare:
 
 * *&quot;Impossibile inviare i messaggi perché l&#39;affinità IP corrente non è gestita da alcun processo di invio.&quot;*
 
-  Se visualizzi questo messaggio, si verifica un problema a livello di definizione di affinità IP o a livello di processo di invio. Contatta l’amministratore Adobe.
+  Se visualizzi questo messaggio, si verifica un problema a livello di definizione di affinità IP o a livello di processo di invio. Contatta il tuo amministratore Adobe.
 
 * *&quot;Questo è un modello di messaggio transazionale predefinito. Se desideri modificarlo, devi duplicarlo e lavorare sulla tua copia.&quot;*
 

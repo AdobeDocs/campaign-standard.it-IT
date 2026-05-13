@@ -6,9 +6,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '8640'
+source-wordcount: 8714
 ht-degree: 1%
 
 ---
@@ -17,7 +28,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Il protocollo e le impostazioni del connettore **SMS** per Adobe Campaign Classic sono disponibili in questa [pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=it).
+>Il protocollo e le impostazioni del connettore **SMS** per Adobe Campaign Classic sono disponibili in questa [pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >In questo documento, tutti i riferimenti ai dettagli del protocollo, dei nomi dei campi e dei valori fanno riferimento alla [specifica SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -132,7 +143,7 @@ Questa PDU viene utilizzata per avviare una connessione a SMSC. Le modalità **T
 |:-:|:-:|
 | Trasmettitore | MT |
 | Ricevitore | MO + SR |
-| Ricevitore | MT + MO + SR |
+| Ricetrasmettitore | MT + MO + SR |
 
 Campi rilevanti in un `BIND_* PDU`:
 
@@ -373,7 +384,7 @@ Se imposti un valore superiore al numero di MTA in esecuzione, tutti gli MTA ver
 
 Se devi controllare con precisione il numero di connessioni, ad esempio il requisito del provider, è consigliabile impostare sempre questa opzione anche se la distribuzione corrente dispone del numero corretto di MTA in esecuzione. Se in seguito vengono aggiunti altri MTA, il limite di connessione verrà comunque rispettato.
 
-### Impostazioni di connessione {#connection-settings}
+### Impostazioni della connessione {#connection-settings}
 
 #### Modalità di connessione SMPP {#smpp-connection-mode}
 
@@ -438,7 +449,7 @@ Quando la casella è selezionata, le impostazioni della sezione **Impostazioni d
 
 Queste impostazioni si applicano al ricevitore in modalità **trasmettitore+ricevitore**. Funzionano come la parte del trasmettitore, vedi sopra per maggiori dettagli.
 
-### Impostazioni del canale SMPP {#smpp-channel-settings}
+### Impostazioni canale SMPP {#smpp-channel-settings}
 
 #### Consenti traslitterazione caratteri {#allow-character-transliteration}
 
@@ -460,7 +471,7 @@ Quando questa opzione è abilitata, i KPI vengono aggiornati in tempo reale sull
 
 L&#39;inconveniente può essere rappresentato da prestazioni insufficienti a causa del conflitto di database generato. Se disabilitata, le statistiche vengono aggiornate dal flusso di lavoro **syncfromexec**, in esecuzione ogni 20 minuti.
 
-#### Numero sorgente {#source-number}
+#### Numero di origine {#source-number}
 
 Definisce l&#39;indirizzo di origine predefinito per i messaggi. Questa impostazione si applica solo se il numero di origine è stato lasciato vuoto nella consegna.
 
@@ -529,7 +540,7 @@ Quando la connessione TCP viene persa, il connettore attenderà questo numero di
 
 Timeout tra `SUBMIT_SM` e `SUBMIT_SM_RESP` corrispondente. Se `RESP` non viene ricevuto in tempo, il messaggio verrà considerato come non riuscito e verranno applicati i criteri globali per i nuovi tentativi dell&#39;MTA.
 
-#### Associa timeout {#bind-timeout}
+#### Timeout di associazione {#bind-timeout}
 
 Timeout tra il tentativo di connessione TCP e la risposta `BIND_*_RESP`. Quando si verifica un timeout, la connessione viene chiusa dal connettore Adobe Campaign e si attende il tempo necessario per riconnettersi prima di riprovare.
 
@@ -720,7 +731,7 @@ Tutte le voci della tabella vengono elaborate nell&#39;ordine specificato, fino 
 
 ### Parametri facoltativi di risposta automatica (TLV) {#automatic-reply-tlv}
 
-A partire dalla versione 21.1, è possibile aggiungere parametri opzionali al messaggio MT di risposta automatico. Vengono aggiunti come parametri TLV facoltativi al `SUBMIT_SM PDU` della risposta, come descritto nella sezione 5.3 della [specifica SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(pagina 131).
+A partire dalla versione 21.1, è possibile aggiungere parametri opzionali al messaggio MT di risposta automatico. Vengono aggiunti come parametri TLV facoltativi al `SUBMIT_SM PDU` della risposta, come descritto nella sezione 5.3 della [specifica SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)&#x200B;(pagina 131).
 
 Per ulteriori informazioni sui parametri facoltativi, fare riferimento a questa [sezione](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
@@ -766,7 +777,7 @@ Il periodo di validità viene trasmesso nel campo `validity_period` di `SUBMIT_S
 
 #### Parametri facoltativi SMPP (TLV) {#smpp-optional-parameters}
 
-A partire dalla versione 21.1, puoi aggiungere più parametri opzionali a ogni messaggio MT inviato per questa consegna. Questi parametri facoltativi vengono aggiunti al `SUBMIT_SM PDU` della risposta, come descritto nella sezione 5.3 della [specifica SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(pagina 131).
+A partire dalla versione 21.1, puoi aggiungere più parametri opzionali a ogni messaggio MT inviato per questa consegna. Questi parametri facoltativi vengono aggiunti al `SUBMIT_SM PDU` della risposta, come descritto nella sezione 5.3 della [specifica SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)&#x200B;(pagina 131).
 
 Ogni riga della tabella rappresenta un parametro facoltativo:
 
@@ -838,7 +849,7 @@ L’SMS deve essere contrassegnato come ricevuto nel registro di consegna. Il re
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Verifica di aver modificato il nome del provider di consegna. Il registro di consegna non deve mai contenere **SR Generic** negli ambienti di produzione.
 
-* **Verifica che MO siano elaborati**
+* **Verifica che MO sia elaborato**
 Se devi elaborare messaggi MO (risposte automatiche, memorizzazione di messaggi MO nel database, ecc.) prova a fare alcuni test. Invia alcuni SMS per tutte le parole chiave di risposta automatica e controlla se la risposta è abbastanza veloce, non più di qualche secondo.
 Archivia il registro che Adobe Campaign risponde con un `DELIVER_SM_RESP` (command_status=0) riuscito.
 

@@ -8,10 +8,19 @@ feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/kZTyOD8tL-C3HzPpUhVohvr7dM0WZ-EdNNQA1S1iB6k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 90%
+source-wordcount: 417
+ht-degree: 78%
 
 ---
 
@@ -23,7 +32,7 @@ Quando crei una nuova attività di marketing, nella prima schermata della proced
 
 L’utente finale ha un’interfaccia semplificata. Quando crei una nuova attività di marketing, devi solo selezionare il modello che desideri utilizzare. Non c’è bisogno di preoccuparsi di configurazioni tecniche. L’amministratore funzionale ha già preconfigurato tutto nel modello.
 
-Ad esempio, nel caso di un modello di e-mail, puoi precompilare il contenuto HTML, il pubblico e qualsiasi altro parametro per la consegna: pianificazione, profili di test, proprietà generali della consegna, parametri avanzati, ecc. In questo modo puoi risparmiare tempo durante la creazione di una nuova attività.
+Ad esempio, nel caso di un modello di e-mail, puoi precompilare il contenuto di HTML, il pubblico e qualsiasi altro parametro della consegna: pianificazione, profili di test, proprietà generali della consegna, parametri avanzati, ecc. Questo ti consente di risparmiare tempo durante la creazione di una nuova attività.
 
 ![](assets/template_1.png)
 
@@ -50,7 +59,7 @@ Nel menu **[!UICONTROL Resources > Templates]**, l’amministratore funzionale p
 
    ![](assets/template_2.png)
 
-1. Passa il puntatore del mouse su di esso, quindi seleziona l’opzione **[!UICONTROL Duplicate element]**.
+1. Passa il puntatore su di esso, quindi seleziona l’opzione **[!UICONTROL Duplicate element]**.
 
    ![](assets/template_3.png)
 

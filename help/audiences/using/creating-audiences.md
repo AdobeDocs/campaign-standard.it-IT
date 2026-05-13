@@ -9,9 +9,16 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/ezjnDdGh2ZoRmrZN088QgZQh1NAtsequFpjK9VH6alk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: 969
 ht-degree: 98%
 
 ---
@@ -37,7 +44,7 @@ Dall’elenco del pubblico, puoi creare tipi di pubblico eseguendo query sui pro
 
    ![](assets/audience_type_selection.png)
 
-1. Quindi seleziona la **[!UICONTROL Targeting dimension]** che desideri utilizzare per filtrare i clienti. Ogni pubblico è costituito da una singola dimensione di targeting. Ad esempio, non puoi creare un pubblico composto da profili, profili di test e abbonati. Per ulteriori informazioni sulle dimensioni di targeting, consulta [questa pagina](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Quindi seleziona la **[!UICONTROL Targeting dimension]** che desideri utilizzare per filtrare i clienti. Ogni pubblico è costituito da una singola dimensione targeting. Ad esempio, non puoi creare un pubblico composto da profili, profili di test e abbonati. Per ulteriori informazioni sulle dimensioni targeting, consulta [questa pagina](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Crea la query per definire la popolaione del pubblico. Consulta la sezione sulla [modifica di query](../../automating/using/editing-queries.md).
 1. Fai clic sul pulsante **[!UICONTROL Create]** per salvare il pubblico.
 
@@ -55,7 +62,7 @@ Per creare un pubblico di tipo **List**, segui questi passaggi:
 
    ![](assets/audiences_list_1.png)
 
-1. Trascina e rilascia, quindi configura le attività di targeting che ti consentono di selezionare un gruppo con una dimensione **nota**. L’elenco delle attività disponibili e la relativa configurazione sono descritti in dettaglio nella sezione [Attività di targeting](../../automating/using/about-targeting-activities.md).
+1. Trascina e rilascia, quindi configura le attività di targeting che ti consentono di selezionare una popolazione con una dimensione **nota**. L’elenco delle attività disponibili e la relativa configurazione sono descritti in dettaglio nella sezione [Attività di targeting](../../automating/using/about-targeting-activities.md).
 
    Puoi utilizzare un’attività **[!UICONTROL Query]** o importare dati tramite un **[!UICONTROL Load file]** prima di ricorrere a una **[!UICONTROL Reconciliation]** per identificare la dimensione di dati importati. In questo caso, vogliamo eseguire il targeting dei destinatari che si sono iscritti alla newsletter Sport con un’attività **[!UICONTROL Query]**.
 
@@ -63,7 +70,7 @@ Per creare un pubblico di tipo **List**, segui questi passaggi:
 
 1. Dopo il targeting, trascina e rilascia un’attività **[!UICONTROL Save audience]** nel flusso di lavoro. Ad esempio, puoi scegliere di **[!UICONTROL Create or update an audience]** per creare e aggiornare quindi automaticamente il pubblico con i nuovi dati. In questo caso, aggiungi un’attività **[!UICONTROL Scheduler]** all’inizio del flusso di lavoro.
 
-   Per ulteriori informazioni sulla configurazione di questa attività, consulta la sezione [Save audience](../../automating/using/save-audience.md).
+   Per ulteriori informazioni sulla configurazione di questa attività, consulta la sezione [Salva pubblico](../../automating/using/save-audience.md).
 
    ![](assets/audiences_list_3.png)
 
@@ -86,7 +93,7 @@ Per creare un pubblico di tipo **File**, segui questi passaggi:
 
    ![](assets/audience_files_1.png)
 
-1. Trascina e rilascia un’attività **[!UICONTROL Save audience]** dopo un’attività **[!UICONTROL Load file]**. Per ulteriori informazioni sulla configurazione di questa attività, consulta la sezione [Save audience](../../automating/using/save-audience.md).
+1. Trascina e rilascia un’attività **[!UICONTROL Save audience]** dopo un’attività **[!UICONTROL Load file]**. Per ulteriori informazioni sulla configurazione di questa attività, consulta la sezione [Salva pubblico](../../automating/using/save-audience.md).
 1. Salva e avvia il flusso di lavoro.
 
    ![](assets/audience_files_2.png)
@@ -97,7 +104,7 @@ Per creare un pubblico di tipo **File**, segui questi passaggi:
 
    ![](assets/audience_files_3.png)
 
-## Creazione di tipi di pubblico Experience Cloud {#creating-experience-cloud-audiences}
+## Creazione di tipi di pubblico di Experience Cloud {#creating-experience-cloud-audiences}
 
 Adobe Campaign ti consente di condividere e scambiare tipi di pubblico con Adobe Experience Cloud. Un pubblico di tipo **Experience Cloud** viene importato direttamente dal servizio core People in Adobe Campaign con il flusso di lavoro tecnico **[!UICONTROL Import shared audience]**.
 

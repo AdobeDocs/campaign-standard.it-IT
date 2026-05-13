@@ -8,10 +8,22 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
+TQID: https://experienceleague.adobe.com/fDzmrslmo3YdV0vVeGlC2SOWdATbYlUyGD6C-kLbSMY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 47%
+source-wordcount: 1117
+ht-degree: 45%
 
 ---
 
@@ -45,7 +57,7 @@ Nel modello Ottimizzazione predittiva del tempo di invio sono presenti due model
 
 Dettagli di uscita
 
-* Calcola l’ora del giorno migliore per inviare un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad esempio: 9:00, 10:00, 11:00)
+* Calcola l’ora del giorno migliore per inviare un’e-mail nei 7 giorni della settimana con intervalli di 1 ora (ad esempio: 9:00 am, 10:00 am, 11:00 am)
 * Il modello indica il giorno migliore della settimana e l’ora migliore di quel determinato giorno
 * Ogni tempo ottimale viene calcolato due volte: una volta per massimizzare il tasso di apertura e una per massimizzare il click rate
 * Sono forniti 16 campi (14 per ogni giorno della settimana e 2 per l’intera settimana):
@@ -118,7 +130,7 @@ Questo modello utilizza più punteggi per indicare:
 * **Punteggio di coinvolgimento per apertura/Punteggio di coinvolgimento per clic**: questo valore corrisponde alla probabilità che un utente iscritto sia interessato a un messaggio specifico (apertura o clic). I valori sono compresi tra 0,0 e 1,0.
 * **Probabilità di annullamento abbonamento**: questo valore corrisponde alla probabilità che il destinatario annulli l’iscrizione al canale e-mail a causa di un messaggio e-mail aperto. I valori sono compresi tra 0,0 e 1,0.
 * **Livello di mantenimento**: questo valore classifica gli utenti in tre livelli: basso, medio e alto. Con un valore alto, è molto probabile che il cliente sia interessato al marchio, mentre un valore basso implica la possibilità che annulli l’abbonamento.
-* **Grado percentuale di mantenimento**: classificazione del profilo in termini di probabilità di annullamento della sottoscrizione. I valori sono compresi tra 0,0 e 1,0. Ad esempio, se la percentuale di mantenimento è 0,953, il destinatario ha più probabilità di restare con il marchio e meno probabilità di annullare l’iscrizione rispetto al 95,3% di tutti i destinatari.
+* **Grado percentile di mantenimento**: classificazione del profilo in termini di probabilità di annullamento dell’iscrizione. I valori sono compresi tra 0,0 e 1,0. Ad esempio, se il livello di fidelizzazione è 0,953, è più probabile che il destinatario rimanga con il marchio e meno probabile che annulli l’abbonamento rispetto al 95,3% di tutti i destinatari.
 
 >[!NOTE]
 >

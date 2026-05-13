@@ -8,10 +8,22 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/4rmq12hEkuVgomFFRr9u1qZhr3AlTmPvFXnAFMbZBos
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 14%
+source-wordcount: 386
+ht-degree: 23%
 
 ---
 
@@ -24,7 +36,7 @@ ht-degree: 14%
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personalizzare i rapporti</a></p></td></tr>
 </table>
 
-Il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Aggiunge l’accesso ai dati del profilo, consentendo l’analisi demografica per dimensioni di profilo come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic.
+Il reporting dinamico fornisce rapporti completamente personalizzabili e in tempo reale per misurare l’impatto delle attività di marketing. Consente di accedere ai dati del profilo, abilitando l’analisi demografica per dimensioni di profilo, come genere, città ed età, oltre ai dati funzionali delle campagne e-mail come aperture e clic.
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri il reporting dinamico nel video](#video)
 
@@ -45,7 +57,7 @@ Ulteriori informazioni:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard include un set di **report dinamici pronti all&#39;uso** che ti consente di misurare più aspetti delle campagne di marketing: mancati recapiti, consegne dichiarate più come spam o posta indesiderata, la maggior parte delle consegne visualizzate dai destinatari, report relativi ai canali, velocità effettiva di consegna e report di tracciamento...
+Campaign Standard viene fornito con un set di **report dinamici pronti all&#39;uso** che ti consente di misurare più aspetti delle campagne di marketing: mancati recapiti, consegne dichiarate più come spam o posta indesiderata, la maggior parte delle consegne visualizzate dai destinatari, report relativi ai canali, velocità effettiva di consegna e report di tracciamento...
 
 **Combina diversi componenti** (dimensioni, metriche e segmenti, periodi di tempo) per creare rapporti personalizzati o personalizzare rapporti predefiniti.
 
@@ -84,4 +96,4 @@ Questo video fornisce una panoramica delle funzionalità di reporting di Adobe C
 
 >[!VIDEO](https://video.tv.adobe.com/v/38325?quality=12&captions=ita)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

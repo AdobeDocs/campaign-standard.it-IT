@@ -8,10 +8,22 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/yzZqni5CgzXiOBFYrKXbUjfSbpMRdxKAMeSuZL2hiuk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2374'
-ht-degree: 98%
+source-wordcount: 2398
+ht-degree: 97%
 
 ---
 
@@ -96,7 +108,7 @@ Sono disponibili i seguenti canali:
 
 * E-mail
 * Dispositivo mobile (SMS)
-* direct mailing
+* Direct mail
 * App mobile: questo canale ti consente di inviare notifiche push ai profili o agli abbonati all’app. Se scegli di inviare notifiche ai profili, saranno compatibili con le regole di affaticamento multicanale.
 
   >[!IMPORTANT]
@@ -107,9 +119,9 @@ Sono disponibili i seguenti canali:
 
 **Tipi di consegna**
 
-Le regole di affaticamento sono compatibili con tutti i tipi di consegna: invii una tantum, consegne ricorrenti, consegne di flussi di lavoro e messaggi transazionali.
+Le regole di gestione dell’eccesso (fatigue) sono compatibili con tutti i tipi di consegna: invii una tantum, consegne ricorrenti, consegne di flussi di lavoro e messaggi transazionali.
 
-La **messaggistica transazionale** può essere utilizzata per inviare messaggi di servizio destinati a un evento (rtEvent) e messaggi di marketing (destinati a profili), ad esempio un messaggio di remarketing. Le regole di affaticamento sono compatibili solo con i messaggi di marketing (destinati a profili). I messaggi transazionali relativi agli eventi non contengono informazioni sui profili, pertanto non sono compatibili con le regole di affaticamento (anche nel caso di un arricchimento con profili). Grazie al supporto dei messaggi di marketing nella messaggistica transazionale, puoi **applicare una regola di affaticamento a tutti i canali, compresi i messaggi di marketing transazionali**.
+La **messaggistica transazionale** può essere utilizzata per inviare messaggi di servizio il cui targeting è un evento (rtEvent) e messaggi di marketing (il cui targeting sono profili), ad esempio un messaggio di remarketing. Le regole di affaticamento sono compatibili solo con i messaggi di marketing (il cui targeting sono profili). I messaggi transazionali per eventi non contengono informazioni sui profili, pertanto non sono compatibili con le regole di gestione dell’eccesso (anche nel caso di un arricchimento con profili). Grazie al supporto dei messaggi di marketing nella messaggistica transazionale, puoi **applicare una regola di affaticamento a tutti i canali, compresi i messaggi di marketing transazionali**.
 
 ## Definizione della soglia {#defining-the-threshold}
 
@@ -223,7 +235,7 @@ Vi sono molte possibilità in termini di implementazione della gestione dell’a
 
   Supponiamo che tu crei una regola multicanale con una soglia costante di 3 su un periodo scorrevole di 7 giorni.
 
-  La settimana scorsa, i profili premium hanno ricevuto un’e-mail promozionale e un’e-mail di remarketing transazionale. Hai inoltre pianificato un SMS che verrà inviato la prossima settimana. Oggi decidi di inviare una notifica push destinata a tutti i profili. I profili premium saranno esclusi dalla notifica push di oggi poiché è già stato raggiunto il numero massimo di messaggi in un periodo di 2 settimane.
+  La settimana scorsa, i profili premium hanno ricevuto un’e-mail promozionale e un’e-mail di remarketing transazionale. Hai inoltre pianificato un SMS che verrà inviato la prossima settimana. Oggi decidi di inviare una notifica push il cui targeting sono tutti i profili. I profili premium saranno esclusi dalla notifica push di oggi poiché è già stato raggiunto il numero massimo di messaggi in un periodo di 2 settimane.
 
   ![](assets/fatigue23.png)
 

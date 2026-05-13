@@ -8,9 +8,17 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/HRFz5Z-KxO7lUO-gXexQ3CHvb9JtCfJWSJY0ocZW-r8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1039
 ht-degree: 92%
 
 ---
@@ -27,7 +35,7 @@ A questo scopo, segui i passaggi riportati qui sotto:
 
 * [Passaggio 1: estendere la risorsa profilo](#step-1--extend-the-profile-resource)
 * [Passaggio 2: estendere il profilo di test](#step-2--extend-the-test-profile)
-* [Passaggio 3: Publish della risorsa personalizzata](#step-3--publish-your-custom-resource)
+* [Passaggio 3: pubblicare la risorsa personalizzata](#step-3--publish-your-custom-resource)
 * [Passaggio 4: aggiornare ed eseguire il targeting dei profili con un flusso di lavoro](#step-4--update-and-target-profiles-with-a-workflow)
 
 Il seguente campo viene aggiunto ai profili e ne viene eseguito il targeting in una consegna:
@@ -119,7 +127,7 @@ Puoi verificare se il nuovo campo creato è configurato correttamente inviando l
 
 Ora il nuovo campo è disponibile sia per i profili sia per i profili di test. Per configurarlo correttamente, devi pubblicare la risorsa personalizzata.
 
-## Passaggio 3: Publish della risorsa personalizzata {#step-3--publish-your-custom-resource}
+## Passaggio 3: pubblicare la risorsa personalizzata {#step-3--publish-your-custom-resource}
 
 Per applicare le modifiche apportate alle risorse e utilizzarle, devi eseguire un aggiornamento del database.
 

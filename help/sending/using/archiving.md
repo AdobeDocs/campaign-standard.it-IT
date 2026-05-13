@@ -8,9 +8,18 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/azrQgfcyinGmbmazAdX8-9zBVYqew1j3DS4sb2FaU-4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 365
 ht-degree: 5%
 
 ---
@@ -27,10 +36,10 @@ Una volta abilitata, devi attivare Ccn e-mail dall&#39;opzione **[!UICONTROL Arc
 >
 >Adobe Campaign stessa non gestisce i file archiviati. Consente di inviare i messaggi scelti a un indirizzo dedicato, da cui possono essere elaborati e archiviati utilizzando un sistema esterno.
 
-## Recommendations e limitazioni {#recommendations-and-limitations}
+## Raccomandazioni e limitazioni {#recommendations-and-limitations}
 
 * Questa funzione è facoltativa. Controlla il contratto di licenza e contatta il responsabile dell’account per attivarla.
-* L&#39;indirizzo Ccn scelto deve essere fornito al team di Adobi che lo configurerà automaticamente.
+* L’indirizzo Ccn scelto deve essere fornito al team di Adobe che lo configurerà per te.
 * È possibile utilizzare un solo indirizzo e-mail Ccn.
 * Vengono presi in considerazione solo i messaggi e-mail inviati correttamente. I mancati recapiti non lo sono.
 * Per motivi di privacy, le e-mail in formato Ccn devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII) protette.

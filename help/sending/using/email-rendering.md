@@ -1,6 +1,6 @@
 ---
-title: Rendering di e-mail
-description: Scopri la funzione di rendering di e-mail.
+title: Rendering e-mail
+description: Scopri la funzione Rendering e-mail.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
@@ -8,30 +8,39 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LTrGN21kDYUVuUOAY55S1cITYYhCVE9O-wJm0ubrtzI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 516
 ht-degree: 79%
 
 ---
 
-# Rendering di e-mail{#email-rendering}
+# Rendering e-mail{#email-rendering}
 
 Prima di premere il pulsante **[!UICONTROL Send]**, accertati che il messaggio venga visualizzato in modo ottimale in vari client web, servizi di posta sul web e dispositivi.
 
-Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende disponibile in un report dedicato. Ciò ti permette di visualizzare in anteprima il messaggio inviato nei vari contesti in cui potrebbe essere ricevuto.
+Per ottenere questo risultato, Adobe Campaign acquisisce il rendering e lo rende disponibile in un report dedicato. Questo ti permette di visualizzare in anteprima il messaggio inviato nei vari contesti in cui potrebbe essere ricevuto.
 
-I client per dispositivi mobili, di messaggistica e di posta sul web disponibili per il **rendering di e-mail** all’interno di Adobe Campaign sono elencati nel [sito web](https://litmus.com/email-testing) di Litmus (fai clic su **View all email clients**).
+I client per dispositivi mobili, messaggistica e webmail disponibili per **Rendering e-mail** all’interno di Adobe Campaign sono elencati nel [sito web](https://litmus.com/email-testing) di Litmus (fai clic su **View all email clients**).
 
 ## Generazione del rendering di e-mail {#checking-the-email-rendering-report}
 
 Dopo aver creato la consegna e-mail e averne definito il contenuto e la popolazione target, effettua le seguenti operazioni.
 
-1. Fai clic su **Audience** per accedere alla scheda **[!UICONTROL Test profiles]**.
+1. Fai clic su **Pubblico** per accedere alla scheda **[!UICONTROL Test profiles]**.
 
    ![](assets/email_rendering_05.png)
 
-1. Utilizza l’editor delle query per definire i profili di test che desideri utilizzare, inclusi quelli per il **rendering di e-mail**. Consulta [Informazioni sui profili di test](../../audiences/using/managing-test-profiles.md).
+1. Utilizza l’editor di query per definire i profili di test che desideri utilizzare, inclusi quelli per **Rendering e-mail**. Consulta [Informazioni sui profili di test](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_rendering_06.png)
 
@@ -46,7 +55,7 @@ Dopo aver creato la consegna e-mail e averne definito il contenuto e la popolazi
 
    >[!NOTE]
    >
-   >L’opzione **[!UICONTROL Proof + Email rendering]** ti consente di inviare una bozza e utilizzare contemporaneamente la funzione di rendering di e-mail. Puoi far approvare il messaggio dai destinatari della bozza e al contempo verificare la modalità in cui verrà ricevuto a seconda delle caselle in entrata a cui è destinato. In questo caso, è necessario selezionare anche i profili di test di bozza. Consulta [Informazioni sui profili di test](../../audiences/using/managing-test-profiles.md).
+   >L’opzione **[!UICONTROL Proof + Email rendering]** consente di inviare una bozza e utilizzare contemporaneamente la funzione di rendering delle e-mail. Puoi far approvare il messaggio dai destinatari della bozza e al contempo verificare la modalità in cui verrà ricevuto a seconda delle caselle in entrata a cui è destinato. In questo caso, è necessario selezionare anche i profili di test di bozza. Consulta [Informazioni sui profili di test](../../audiences/using/managing-test-profiles.md).
 
    Viene inviata la consegna del test.
 
@@ -58,7 +67,7 @@ Dopo aver creato la consegna e-mail e averne definito il contenuto e la popolazi
 
    ![](assets/email_rendering_04.png)
 
-Viene visualizzato il report dedicato di rendering di e-mail. Consulta [Descrizione del report di rendering di e-mail](#email-rendering-report-description).
+Viene visualizzato il rapporto specifico Rendering e-mail. Consulta [Descrizione del rapporto Rendering e-mail](#email-rendering-report-description).
 
 **Argomenti correlati**:
 
@@ -68,7 +77,7 @@ Viene visualizzato il report dedicato di rendering di e-mail. Consulta [Descrizi
 
 ## Rapporto di rendering di e-mail {#email-rendering-report-description}
 
-Questo report presenta i rendering delle e-mail così come sono visualizzati al destinatario. I rendering di e-mail possono variare a seconda della modalità con cui il destinatario apre la consegna e-mail: in un browser, su un dispositivo mobile o tramite un’applicazione e-mail.
+Questo rapporto presenta i rendering delle e-mail così come sono visualizzate al destinatario. I rendering delle e-mail possono variare a seconda della modalità con cui il destinatario apre la consegna e-mail: in un browser, su un dispositivo mobile o tramite un’applicazione e-mail.
 
 ### Token di rendering di e-mail
 

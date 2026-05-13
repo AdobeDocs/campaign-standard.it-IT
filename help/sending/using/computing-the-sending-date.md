@@ -8,10 +8,21 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+TQID: https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 1%
+source-wordcount: 1051
+ht-degree: 2%
 
 ---
 
@@ -41,7 +52,7 @@ Puoi pianificarlo utilizzando un flusso di lavoro.
 
    * Compila il campo **[!UICONTROL Segment code]**: immetti manualmente la data e l&#39;ora desiderate per l&#39;invio del messaggio.
 
-     Ad esempio, desideri inviare il primo batch il 1° giugno alle 10:00 GMT+1. Utilizza il seguente formato: **`YYYY-MM-DD hh:mm:ss+tz`**.
+     Ad esempio, vuoi inviare il primo batch il 1° giugno alle 10:00 GMT+1. Utilizza il seguente formato: **`YYYY-MM-DD hh:mm:ss+tz`**.
 
      ![](assets/send-time_opt_segment_configuration.png)
 
@@ -117,10 +128,10 @@ Puoi pianificarlo utilizzando un flusso di lavoro.
 
    * Definisci i codici di segmento come segue:
 
-      * 8:00 - 10:00: **0**. Il messaggio sarà inviato al primo trimestre della popolazione target alle 8.00 (data di contatto).
-      * 10:00 - 12:00: **2**. Il messaggio sarà inviato al secondo trimestre della popolazione target alle ore 00:00 (data di contatto + 2 ore).
-      * 14:00 - 16:00: **6**. Il call center verrà chiuso tra le 12:00 e le 14:00; il messaggio verrà inviato al terzo trimestre della popolazione target alle 14:00 (data di contatto + 6 ore).
-      * 16:00 - 18:00: **8**. Il messaggio sarà inviato all’ultimo trimestre della popolazione target alle 16:00 (data di contatto + 8 ore).
+      * 8:00 - 10:00 AM: **0**. Il messaggio verrà inviato al primo trimestre della popolazione target alle 8:00 (data di contatto).
+      * 10:00 - 12:00 PM: **2**. Il messaggio verrà inviato al secondo trimestre della popolazione target alle ore 00:00 (data di contatto + 2 ore).:00
+      * 2:00 PM - 4:00 PM: **6**. Il call center verrà chiuso tra le 12:00 e le 14:00. Il messaggio verrà inviato al terzo trimestre della popolazione target alle 14:00 (data di contatto + 6 ore).:00:00:00
+      * 4:00 PM - 6:00 PM: **8**. Il messaggio verrà inviato all&#39;ultimo trimestre della popolazione target alle 16:00 (data di contatto + 8 ore).:00
 
      >[!NOTE]
      >
@@ -138,7 +149,7 @@ Puoi pianificarlo utilizzando un flusso di lavoro.
 1. Seleziona **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. Nel campo **[!UICONTROL Start sending from]**, definire una data di contatto.
 
-   In questo esempio, seleziona 25 maggio alle 08:00.
+   In questo esempio, seleziona 25 maggio alle 8:00.
 
 1. Dal menu a discesa di ottimizzazione dell&#39;ora di invio, scegliere **[!UICONTROL Send at a custom date defined by a formula]** e fare clic sul pulsante **[!UICONTROL Edit an expression]**.
 
@@ -170,7 +181,7 @@ Puoi pianificarlo utilizzando un flusso di lavoro.
 
 1. Conferma il salvataggio dell’espressione. Conferma la pianificazione, salva la consegna ed esegui il flusso di lavoro.
 
-* Il primo segmento riceverà il messaggio nella data di contatto (25 maggio alle 08:00).
+* Il primo segmento riceverà il messaggio nella data di contatto (25 maggio alle 8.0&rbrace;).:00
 * Il secondo segmento riceverà il messaggio due ore dopo (25 maggio alle 00:00).
-* Il terzo segmento riceverà il messaggio sei ore dopo (25 maggio alle 14:00).
-* Il quarto segmento riceverà il messaggio otto ore dopo (25 maggio alle 16:00).
+* Il terzo segmento riceverà il messaggio sei ore dopo (25 maggio alle 14:00).:00
+* Il quarto segmento riceverà il messaggio otto ore dopo (25 maggio alle 16:00).:00

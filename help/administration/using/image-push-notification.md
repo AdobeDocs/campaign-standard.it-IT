@@ -6,10 +6,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 12%
+source-wordcount: 434
+ht-degree: 15%
 
 ---
 
@@ -23,13 +33,13 @@ In questo documento, scopri come visualizzare un’immagine da una notifica push
 
 ## Passaggio 1: configurare la notifica push {#set-up-push}
 
-La notifica push è supportata dagli SDK Experience Platform.
+La notifica push è supportata dagli SDK di Experience Platform.
 
 Le app mobili che ricevono notifiche push devono essere configurate da un amministratore nell’interfaccia di Adobe Campaign.
 
 Configurando sia Adobe Campaign che Adobe Mobile Services, potrai utilizzare i dati dell’app mobile per le tue campagne. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md).
 
-Per inviare notifiche push con un’applicazione SDK Experience Cloud, è necessario configurare un’app mobile nell’interfaccia utente di Data Collection e configurarla all’interno di Adobe Campaign. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+Per inviare notifiche push con un’applicazione Experience Cloud SDK, è necessario configurare un’app mobile nell’interfaccia utente di Data Collection e configurarla in Adobe Campaign. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Passaggio 2: personalizzare la notifica push in Adobe Campaign {#customize-push}
 

@@ -1,6 +1,6 @@
 ---
 title: Elenco dei componenti
-description: Qui trovi l’elenco di tutti i componenti disponibili in     Rapporti dinamici e relative definizioni.
+description: Qui puoi trovare l’elenco di tutti i componenti disponibili nei rapporti dinamici e le relative definizioni.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -8,10 +8,19 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/NWtd6wo3BgCFapPO6lVQAcVk8KUud-ioDf1-6MzXfw0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 0%
+source-wordcount: 1333
+ht-degree: 1%
 
 ---
 
@@ -83,7 +92,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Profilo<br /> </td> 
-   <td> I campi di profilo predefiniti e personalizzati creati durante l'estensione della risorsa profilo sono raggruppati. Per ulteriori informazioni, consulta questa <a href="../../developing/using/key-steps-to-add-a-resource.md">pagina</a> o questo <a href="../../reporting/using/creating-a-custom-profile-dimension.md">esempio</a>.<br /> Si noti che i dati per questa dimensione vengono recuperati non appena viene pubblicata la risorsa personalizzata collegata al campo del profilo.<br /> </td> 
+   <td> I campi di profilo predefiniti e personalizzati creati durante l'estensione della risorsa profilo sono raggruppati. Per ulteriori informazioni, consulta questa <a href="../../developing/using/key-steps-to-add-a-resource.md">pagina</a> o questo <a href="../../reporting/using/creating-a-custom-profile-dimension.md">esempio</a>.<br /> I dati per questa dimensione vengono recuperati non appena viene pubblicata la risorsa personalizzata collegata al campo del profilo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Piattaforma push<br /> </td> 
@@ -147,7 +156,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </thead> 
  <tbody> 
   <tr> 
-   <td> Inserire nell'elenco Bloccati All'<br /> </td> 
+   <td> All'<br /> </td> 
    <td> Numero di destinatari che hanno dichiarato un'e-mail come posta indesiderata o posta indesiderata.<br /> </td> 
   </tr> 
   <tr> 

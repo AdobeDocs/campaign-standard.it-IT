@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 91%
+source-wordcount: 1368
+ht-degree: 90%
 
 ---
 
@@ -33,7 +40,7 @@ L’attività **[!UICONTROL Load file]** ti consente di importare i dati all’i
 
 La modalità di estrazione dei dati viene definita durante la configurazione dell’attività. Il file da caricare può rappresentare un elenco di contatti, ad esempio.
 
-Puoi:
+Puoi eseguire le seguenti azioni:
 
 * Utilizzare la struttura del file per applicarla ai dati di un altro file (recuperati utilizzando l’attività **[!UICONTROL Transfer file]**) oppure
 * Usare la struttura e i dati del file per poi importarlo all’interno di Adobe Campaign.
@@ -90,7 +97,7 @@ La configurazione dell’attività prevede due passaggi. Innanzitutto, devi defi
 
    La scheda **[!UICONTROL Column definition]** ti consente di specificare con precisione la struttura dati di ciascuna colonna al fine di importare dati privi di errori (ad esempio, utilizzando la gestione null) e di farli corrispondere ai tipi già presenti nel database di Adobe Campaign, in modo che siano disponibili per le operazioni future.
 
-   Ad esempio, puoi modificare l’etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data e così via) o persino specificare l’elaborazione dell’errore.
+   Ad esempio, puoi modificare l’etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) o anche specificare l’elaborazione degli errori.
 
    Per ulteriori informazioni, consulta la sezione [Formato colonna](#column-format).
 
@@ -157,7 +164,7 @@ La formattazione della colonna ti consente di definire il valore di elaborazione
 
   >[!NOTE]
   >
-  >**[!UICONTROL Error processing]** riguarda gli errori relativi ai valori presenti nel file importato. Ad esempio, è stato rilevato un tipo di dati errato (&quot;quattro&quot; scritto in lettere per una colonna &quot;Numero intero&quot;), una stringa contenente più caratteri del numero massimo autorizzato, una data con separatori errati e così via. Tuttavia, questa opzione non riguarda gli errori generati dalla gestione dei valori vuoti.
+  >**[!UICONTROL Error processing]** riguarda gli errori relativi ai valori presenti nel file importato. Ad esempio, è stato rilevato un tipo di dati errato (&quot;quattro&quot; in lettere per una colonna &quot;Numero intero&quot;), una stringa contenente più caratteri del numero massimo autorizzato, una data con separatori errati e così via. Tuttavia, questa opzione non riguarda gli errori generati dalla gestione dei valori vuoti.
 
 * **[!UICONTROL Default value]**: specifica il valore predefinito in base all’elaborazione dell’errore selezionata.
 * **[!UICONTROL Empty value management]**: indica come gestire i valori vuoti durante il caricamento dei dati.

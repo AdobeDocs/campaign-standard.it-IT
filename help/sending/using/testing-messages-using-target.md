@@ -9,9 +9,19 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/52Xrj9jJWTlTtIrIqTt-Fhc4V-lRNfjfGDRiHv5dgUs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: 1544
 ht-degree: 4%
 
 ---
@@ -39,7 +49,7 @@ Le fasi principali sono le seguenti:
    >
    >Le bozze vengono elaborate da [!DNL Campaign Standard] come consegne standard. Di conseguenza, l’invio di bozze utilizzando la sostituzione dei profili aggiungerà dei record ai registri di consegna e di tracciamento dei profili selezionati.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#video)
 
 ## Selezione di profili e indirizzi di sostituzione {#selecting-profiles}
 
@@ -271,6 +281,6 @@ I passaggi principali per questo caso d’uso sono i seguenti:
 
 Questo video mostra come verificare i messaggi e-mail utilizzando la sostituzione del profilo.
 
->[!VIDEO](https://video.tv.adobe.com/v/36500?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/36500?captions=ita&quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

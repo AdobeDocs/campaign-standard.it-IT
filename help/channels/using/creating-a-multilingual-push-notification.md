@@ -8,9 +8,19 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+TQID: https://experienceleague.adobe.com/OM-y0enczhi0WBeNrYFx-BQnlJXOymyzdpud4D8T-J4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: 913
 ht-degree: 1%
 
 ---
@@ -46,7 +56,7 @@ Prima di personalizzare la notifica push multilingue, è necessario caricare le 
 
 1. Immetti le proprietà della notifica push e seleziona la tua app mobile nel campo **[!UICONTROL Associate a Mobile App to a delivery]**.
 
-   Tieni presente che nel menu a discesa verranno visualizzate le applicazioni SDK V4 e Adobe Experience Platform SDK.
+   Tieni presente che nel menu a discesa verranno visualizzate entrambe le applicazioni SDK V4 e Adobe Experience Platform SDK.
 
 1. Nelle finestre **[!UICONTROL Audiences]**, trascina e rilascia le query per ottimizzare il pubblico.
 

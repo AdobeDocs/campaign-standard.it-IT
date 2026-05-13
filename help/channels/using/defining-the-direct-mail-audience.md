@@ -9,9 +9,16 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/iYqxhsfsz95pTh8V-sP-xwGSSQ39YyIov9OHHyfepDI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: 278
 ht-degree: 96%
 
 ---
@@ -30,7 +37,7 @@ Per ciascun profilo target, viene aggiunta una nuova riga nel file di estrazione
 
 >[!IMPORTANT]
 >
->Accertati che i profili includano un indirizzo postale, poiché queste informazioni sono essenziali per il provider di direct mailing. Inoltre, assicurati di aver selezionato la casella **[!UICONTROL Address specified]** nelle informazioni del profilo. Consulta [Raccomandazioni](../../channels/using/about-direct-mail.md#recommendations).
+>Accertati che i profili includano un indirizzo postale, poiché queste informazioni sono essenziali per il provider di direct mailing. Inoltre, assicurati di aver selezionato la casella **[!UICONTROL Address specified]** nelle informazioni del profilo. Consulta [Consigli](../../channels/using/about-direct-mail.md#recommendations).
 
 ## Aggiunta di profili di test e di trappole {#adding-test-and-trap-profiles}
 

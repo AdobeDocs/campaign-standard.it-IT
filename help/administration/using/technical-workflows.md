@@ -6,10 +6,23 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
+TQID: https://experienceleague.adobe.com/imU-lsjNUEb2VZ-hLLAobuJ0UFlFqygQD-KE80hRpG0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 74%
+source-wordcount: 799
+ht-degree: 63%
 
 ---
 
@@ -103,7 +116,7 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
   <tr> 
    <td> <span class="uicontrol">Recupera registri di tracciamento</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Questo flusso di lavoro ripristina i registri di tracciamento persi. Tieni presente che questo flusso di lavoro tecnico viene utilizzato in contesti specifici e limitato al solo uso interno Adobe. <br> Per impostazione predefinita viene avviato ogni 10 minuti.<br /> </td> 
+   <td> Questo flusso di lavoro ripristina i registri di tracciamento persi. Tieni presente che questo flusso di lavoro tecnico viene utilizzato in contesti specifici e limitato solo all’uso interno di Adobe. <br> Per impostazione predefinita viene avviato ogni 10 minuti.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Update delivery execution</span> <br/> </td> 
@@ -118,12 +131,12 @@ I flussi di lavoro tecnici vengono utilizzati per gestire processi tecnici e di 
   <tr> 
    <td> <span class="uicontrol">Update event status</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> Questo flusso di lavoro ti consente di attribuire uno stato a un evento. Sono disponibili i seguenti stati dell’evento:<br /> <strong>Pending</strong>: l’evento è in coda. Non è ancora stato assegnato alcun modello di messaggio.<br /> <span class="uicontrol">Pending delivery</span>: l’evento è in coda, gli è stato assegnato un modello di messaggio e viene elaborato dalla consegna.<br /> <strong>Sent</strong>: questo stato viene copiato dai log di consegna. Significa che la consegna è stata inviata.<br /> <strong>Ignored by the delivery</strong>: questo stato viene copiato dai log di consegna. Significa che la consegna è stata ignorata.<br /> <strong>Delivery failed</strong>: questo stato viene copiato dai log di consegna. Significa che la consegna è non è andata a buon fine.<br /> <span class="uicontrol">Event not taken into account</span>: impossibile collegare l’evento a un modello di messaggio. L’evento non viene elaborato.<br /> </td> 
+   <td> Questo flusso di lavoro ti consente di attribuire uno stato a un evento. Sono disponibili i seguenti stati dell’evento:<br /> <strong>Pending</strong>: l’evento è in coda. Non è stato ancora assegnato alcun modello di messaggio.<br /> <span class="uicontrol">Consegna in sospeso</span>: l'evento è in coda, gli è stato assegnato un modello di messaggio e viene elaborato dalla consegna.<br /> <strong>Inviato</strong>: questo stato viene copiato dai registri di consegna. Significa che la consegna è stata inviata.<br /> <strong>Ignorato dalla consegna</strong>: questo stato viene copiato dai log di consegna. Significa che la consegna è stata ignorata.<br /> <strong>Consegna non riuscita</strong>: questo stato viene copiato dai log di consegna. Significa che la consegna non è riuscita.<br /> <span class="uicontrol">Evento non preso in considerazione</span>: impossibile collegare l'evento a un modello di messaggio. L’evento non viene elaborato.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Update for deliverability</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td> Questo flusso di lavoro ti consente di creare l’elenco delle regole di qualifica dei messaggi non recapitati, nonché l’elenco di domini e record MX nella piattaforma. Questo flusso di lavoro funziona solo se è aperto l’HTTPS. Per impostazione predefinita viene avviato automaticamente alle 2.<br /> </td> 
+   <td> Questo flusso di lavoro consente di creare l’elenco delle regole di qualificazione dei messaggi non recapitati, nonché l’elenco di domini e record MX nella piattaforma. Questo flusso di lavoro funziona solo se è aperto l’HTTPS. Per impostazione predefinita viene avviato automaticamente alle 2.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

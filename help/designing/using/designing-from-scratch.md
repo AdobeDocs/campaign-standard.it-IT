@@ -8,10 +8,19 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
+TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 22%
+source-wordcount: 1238
+ht-degree: 15%
 
 ---
 
@@ -65,7 +74,7 @@ Per modificare la struttura di un messaggio e-mail:
 
    >[!NOTE]
    >
-   >La pila di colonne non è compatibile con tutti i programmi e-mail. Quando non è supportata, le colonne non vengono impilate.
+   >La pila di colonne non è compatibile con tutti i programmi e-mail. Quando non è supportato, le colonne non vengono impilate.
    >
    >Una volta inseriti nell’e-mail, non puoi spostare o rimuovere i componenti a meno che non sia già presente un componente di contenuto o un frammento al suo interno.
 
@@ -98,7 +107,7 @@ Selezionare la casella di modifica **[!UICONTROL Preheader]** e completare il co
 
 >[!NOTE]
 >
->La preintestazione non è compatibile con tutti i programmi e-mail. Quando non è supportata, non viene visualizzata.
+>Il preheader non è compatibile con tutti i programmi e-mail. Se non è supportato, il preheader non viene visualizzato.
 
 ## Utilizzo dei componenti per contenuti {#about-content-components}
 
@@ -162,7 +171,7 @@ Inserire il componente video in un componente struttura del messaggio e-mail e i
 
 >[!NOTE]
 >
->Il video non è compatibile con tutti i programmi e-mail. Quando non è supportato, viene visualizzato il fallback.
+>Il video non è compatibile con tutti i programmi e-mail. Se non è supportato, viene visualizzato il fallback.
 
 ### Immagine
 
@@ -179,7 +188,7 @@ Utilizza questo componente per inserire collegamenti a pagine di social media ne
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Impostazioni carosello"
->abstract="Scopri come inserire e configurare un carosello nel contenuto. Tieni presente che il carosello non funziona su tutti i client e-mail e, nel caso in cui non sia supportato, sarà visualizzata un’immagine di fallback."
+>abstract="Scopri come inserire e configurare un carosello nel contenuto.Tieni presente che il carosello non funziona su tutti i client e-mail e che, se non è supportato, verrà visualizzata un’immagine di fallback."
 
 1. Trascina e rilascia il componente **[!UICONTROL Carousel]** all&#39;interno di un componente struttura.
 1. Sfoglia per selezionare le immagini dal computer.

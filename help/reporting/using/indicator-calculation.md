@@ -8,9 +8,21 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QgkQth22239fJIEoh5DWlTkx9ptFo7DpziHH0hLRt-U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: 786
 ht-degree: 1%
 
 ---
@@ -42,7 +54,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Inserire nell'elenco Bloccati All'<br /> </td> 
+   <td> All'<br /> </td> 
    <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
@@ -332,7 +344,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Impression univoche<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> Per <span class="uicontrol">utenti Target in base al modello del profilo Campaign (inAppProfile)</span>, user = Recipient Id.<br /> Per <span class="uicontrol">Eseguire il targeting di tutti gli utenti di un'app mobile (inAppBroadcast)</span> e <span class="uicontrol">Eseguire il targeting degli utenti in base ai modelli del loro profilo mobile (inApp)</span>, user = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per <span class="uicontrol">utenti Target in base al modello del profilo Campaign (inAppProfile)</span>, utente = ID destinatario.<br /> Per <span class="uicontrol">Eseguire il targeting di tutti gli utenti di un'app mobile (inAppBroadcast)</span> e <span class="uicontrol">Eseguire il targeting degli utenti in base ai modelli del loro profilo mobile (inApp)</span>, user = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clic in-app <br /> </td> 
@@ -344,7 +356,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Clic univoci in-app<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (stato=clic))<br /> </td> 
-   <td> Per <span class="uicontrol">utenti Target in base al modello del profilo Campaign (inAppProfile)</span>, user = Recipient Id.<br /> Per <span class="uicontrol">Eseguire il targeting di tutti gli utenti di un'app mobile (inAppBroadcast)</span> e <span class="uicontrol">Eseguire il targeting degli utenti in base ai modelli del loro profilo mobile (inApp)</span>, user = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per <span class="uicontrol">utenti Target in base al modello del profilo Campaign (inAppProfile)</span>, utente = ID destinatario.<br /> Per <span class="uicontrol">Eseguire il targeting di tutti gli utenti di un'app mobile (inAppBroadcast)</span> e <span class="uicontrol">Eseguire il targeting degli utenti in base ai modelli del loro profilo mobile (inApp)</span>, user = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Percentuale di click-through in-app<br /> </td> 
@@ -362,7 +374,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Annullamenti in-app univoci<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (stato=chiusura))<br /> </td> 
-   <td> Per <span class="uicontrol">utenti Target in base al modello del profilo Campaign (inAppProfile)</span>, user = Recipient Id.<br /> Per <span class="uicontrol">Eseguire il targeting di tutti gli utenti di un'app mobile (inAppBroadcast)</span> e <span class="uicontrol">Eseguire il targeting degli utenti in base ai modelli del loro profilo mobile (inApp)</span>, user = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
+   <td> Per <span class="uicontrol">utenti Target in base al modello del profilo Campaign (inAppProfile)</span>, utente = ID destinatario.<br /> Per <span class="uicontrol">Eseguire il targeting di tutti gli utenti di un'app mobile (inAppBroadcast)</span> e <span class="uicontrol">Eseguire il targeting degli utenti in base ai modelli del loro profilo mobile (inApp)</span>, user = MC Id o equivalente che rappresenta una combinazione univoca di utente, app mobile e dispositivo.<br /> </td> 
   </tr> 
   <tr> 
    <td> Percentuale di licenziamento in-app<br /> </td> 

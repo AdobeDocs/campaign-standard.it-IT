@@ -9,9 +9,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/bbNySA5tCj7hDs3YG9AlPGgOUS42r3or0j-QhwIzXEw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: 461
 ht-degree: 1%
 
 ---
@@ -35,7 +45,7 @@ Segui i passaggi descritti in [Creazione di un trigger mappato in Campaign](../.
 Se il trigger viene creato, passare al passaggio successivo. In caso contrario, significa che la connessione del punto finale del trigger non è riuscita. Controlla se è stato eseguito il provisioning di Triggers in Experience Cloud (Activation services). In caso contrario, contatta il responsabile dell’account Adobe o il partner di servizi professionali. Sono richieste le seguenti informazioni:
 
 * Nome società Marketing Cloud
-* ID organizzazione 
+* ID organizzazione
 * Società di accesso ad Analytics (può essere la stessa del nome della società Marketing Cloud)
 
 **Prova a pubblicare il trigger**

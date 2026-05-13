@@ -9,10 +9,29 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/xwmywhEboE06iVgZJo2DTSqg2f1F1XHEAHGKjkKoqC4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 39%
+source-wordcount: 1276
+ht-degree: 36%
 
 ---
 
@@ -38,7 +57,7 @@ In Adobe Campaign sono disponibili due tipi di notifica push:
 
 * Le notifiche di tipo **[!UICONTROL Silent push]** vengono utilizzate per inviare all’applicazione una notifica silenziosa senza alcun messaggio o contenuto per l’utente finale. Un caso di utilizzo tipico per questo tipo di messaggio consiste nel comunicare all’applicazione che sul server è disponibile del contenuto da scaricare.
 
-Puoi configurare alcune configurazioni specifiche per definire il comportamento delle notifiche. Per ulteriori informazioni, consulta [questa sezione](../../channels/using/customizing-a-push-notification.md).
+Puoi configurare alcune configurazioni specifiche per definire il comportamento delle notifiche. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../channels/using/customizing-a-push-notification.md).
 
 >[!NOTE]
 >
@@ -72,7 +91,7 @@ Prima di inviare le notifiche push, devi:
 
 1. Aggiungi la configurazione specifica per il canale alla configurazione dell’app mobile. Per ulteriori informazioni, consulta [Configurazione dell’applicazione specifica per il canale in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Per supportare le implementazioni dei casi d&#39;uso per dispositivi mobili, consulta le istruzioni dettagliate su estensioni, regole di tag e implementazione SDK in [casi d&#39;uso per dispositivi mobili supportati in Adobe Campaign Standard utilizzando gli SDK di Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
+1. Per supportare le implementazioni dei casi di utilizzo per dispositivi mobili, consulta le istruzioni dettagliate su estensioni, regole di tag e implementazione SDK in [casi di utilizzo per dispositivi mobili supportati in Adobe Campaign Standard utilizzando gli SDK di Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
 
 ## Domande frequenti sulle notifiche push {#push-faq}
 
@@ -80,14 +99,14 @@ Prima di inviare le notifiche push, devi:
 
 Consulta le risorse seguenti:
 
-* [Tutorials video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=it)
+* [Tutorial video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=it)
 * [Documentazione del prodotto](../../channels/using/about-push-notifications.md)
-* Configurare utilizzando la [documentazione](../../administration/using/configuring-a-mobile-application.md) dell&#39;SDK AEP
+* Configurare utilizzando la [documentazione](../../administration/using/configuring-a-mobile-application.md) di AEP SDK
 * [Pagina community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=it)
 
 ### Cosa devo fare per acquisire un token push in Campaign? {#push-token-acquisition}
 
-Assicurati che il team di provisioning abbia completato il provisioning del canale push in Adobe Campaign Standard. Implementa l’API setPushIdentifier dall’SDK. Per ulteriori informazioni, consulta questa [pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
+Assicurati che il team di provisioning abbia completato il provisioning del canale push in Adobe Campaign Standard. Implementa l’API setPushIdentifier da SDK. Per ulteriori informazioni, consulta questa [pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
 ### Una volta che dispongo di token push ed ECID in Campaign, cos’altro è necessario per inviare una notifica push? {#sending-push}
 

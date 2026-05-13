@@ -8,9 +8,26 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QRxTBg-V-7ingt25U37UEKIQOrbjOOM4MY0jdEpM-OA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: 433
 ht-degree: 4%
 
 ---
@@ -36,4 +53,4 @@ I passaggi chiave per creare e orchestrare una campagna di marketing con Adobe C
 * **Creazione di messaggi e contenuti** - Questa fase comporta la selezione del [canale di comunicazione](../../channels/using/get-started-communication-channels.md). Puoi anche progettare [pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md) per acquisire o aggiornare profili e ampliare il database. Consulta [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md), [Creazione di un messaggio SMS](../../channels/using/creating-an-sms-message.md), [Creazione di una notifica push](../../channels/using/preparing-and-sending-a-push-notification.md), [Creazione di un messaggio in-app](../../channels/using/about-in-app-messaging.md), [Creazione di una consegna direct mailing](../../channels/using/creating-the-direct-mail.md).
 * **Verifica e invio** - La fase di esecuzione consente all&#39;utente di eseguire i vari passaggi di convalida (contenuto, destinazione) in particolare tramite le schermate di anteprima e inviando una bozza agli approvatori, prima dell&#39;invio. Vedi [Verifica e invio](../../sending/using/get-started-sending-messages.md).
 * **Monitoraggio e reporting** - Una volta che la campagna è stata eseguita e i diversi messaggi sono stati inviati, questa fase consente all&#39;utente di raccogliere i diversi stati degli invii e le informazioni di tracciamento e monitoraggio. I rapporti sulla campagna e sulla consegna vengono generati per tenere traccia dell’impatto della campagna e delle attività dei destinatari. Consulta [Strumenti di reporting](../../reporting/using/about-dynamic-reports.md).
-* **Automazione** - Durante questa fase, fattori aggiuntivi come i metodi di implementazione del meccanismo di importazione/esportazione, le modalità di gestione e aggiornamento dei dati, l&#39;identificazione dei dati di personalizzazione, ecc. sono definiti. Consulta [Flussi di lavoro e gestione dei dati](../../automating/using/get-started-workflows.md).
+* **Automazione** - In questa fase vengono definiti ulteriori fattori quali i metodi di implementazione del meccanismo di importazione/esportazione, le modalità di aggiornamento e gestione dei dati, l&#39;identificazione dei dati di personalizzazione e così via. Consulta [Flussi di lavoro e gestione dei dati](../../automating/using/get-started-workflows.md).

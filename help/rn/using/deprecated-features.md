@@ -5,10 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+TQID: https://experienceleague.adobe.com/S430SyqHAam2JE4LQppJUy3xuEdS6lw1qGQE9viVCS8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 58%
+source-wordcount: 1045
+ht-degree: 50%
 
 ---
 
@@ -19,7 +38,7 @@ Adobe valuta costantemente le funzionalità dei prodotti per identificare le fun
 Per comunicare l’imminente rimozione/sostituzione delle funzionalità di Campaign Standard, si applicano le seguenti regole:
 
 * Per prima cosa viene annunciato che una data funzione diventerà obsoleta. Le funzionalità obsolete rimarranno disponibili per gli utenti esistenti, ma non saranno ulteriormente migliorate né documentate.
-* La rimozione delle funzionalità obsolete viene effettuata non prima della versione successiva. La data effettiva di rimozione viene annunciata su questa pagina.
+* La rimozione delle funzionalità obsolete viene effettuata non prima della versione successiva. La data prevista di rimozione viene annunciata su questa pagina.
 
 Questo processo offre ai clienti almeno un ciclo di pubblicazione per adattare la loro implementazione a una nuova versione o alla funzionalità che sostituirà quella obsoleta, prima della rimozione effettiva.
 
@@ -33,7 +52,7 @@ In questa sezione sono elencate le funzioni e funzionalità contrassegnate come 
 
 In genere, le funzioni che si prevede di rimuovere in una versione futura vengono inizialmente catalogate come obsolete e ne viene fornita un’alternativa. Queste funzioni e funzionalità non sono più disponibili per i nuovi clienti di Campaign Standard o non devono essere utilizzate nelle nuove implementazioni. Vengono inoltre rimosse dalla documentazione del prodotto.
 
-I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nella distribuzione corrente e a pianificare la modifica della loro implementazione in modo da utilizzare l’alternativa fornita. Consulta la versione effettiva di rimozione per pianificare di conseguenza gli aggiornamenti di ambiente e progetto.
+I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nella distribuzione corrente e a pianificare la modifica della loro implementazione in modo da utilizzare l’alternativa fornita. Fai riferimento alla versione effettiva in cui avverrà la rimozione per pianificare di conseguenza gli aggiornamenti di ambiente e progetto.
 
 
 
@@ -45,8 +64,8 @@ I clienti sono invitati a verificare se utilizzano la funzione/funzionalità nel
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Il supporto per gli SDK Adobe Experience Platform Mobile versione 4 è terminato il 31 agosto 2021. Se utilizzi ancora questa versione legacy dell'SDK in Adobe Campaign Standard, devi aggiornare l'implementazione con Adobe Experience Platform SDK <strong>prima della fine di giugno 2024</strong>. </p></br>
-   <p>Consulta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=it">questo articolo</a> per scoprire come adattare la tua implementazione e passare all'SDK di Experience Platform più recente.</p></br>
+   <td> <p>Il supporto per gli SDK Adobe Experience Platform Mobile versione 4 è terminato il 31 agosto 2021. Se utilizzi ancora questa versione legacy di SDK in Adobe Campaign Standard, devi aggiornare l'implementazione con Adobe Experience Platform SDK <strong>prima della fine di giugno 2024</strong>. </p></br>
+   <p>Consulta <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=it">questo articolo</a> per scoprire come adattare la tua implementazione e passare alla versione più recente di Experience Platform SDK.</p></br>
    <p><strong>Attenzione</strong>: SDK V4 non sarà più supportato in Campaign Standard a partire dalla fine di giugno 2024.</p>
   </td> 
   </tr> 
@@ -97,7 +116,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partire dalla versione di Campaign Standard 21.3, l’integrazione con il servizio Audience Destinations è diventata obsoleta.  Ora è stato rimosso.</p>
+   <td> <p> A partire dalla versione 21.3 di Campaign Standard, l’integrazione con il servizio Audience Destinations è diventata obsoleta.  Ora è stato rimosso.</p>
    <p>Per la nuova implementazione, non è più possibile integrare il servizio Audience Destinations con Adobe Campaign Standard. Tuttavia, puoi integrare Campaign e Adobe Experience Platform tramite Origini e Destinazioni. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=it">Ulteriori informazioni</a>.</p>
      </td> 
   </tr> 
@@ -112,7 +131,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> A partire dalla versione di Campaign Standard 21.3, l’integrazione con Adobe Experience Platform Data Connector è diventata obsoleta.  Ora è stato rimosso.</p>
+   <td> <p> A partire dalla versione 21.3 di Campaign Standard, l’integrazione con il connettore dati di Adobe Experience Platform è diventata obsoleta.  Ora è stato rimosso.</p>
    <p>Per la nuova implementazione, non è più possibile integrare Connettore dati di Adobe Experience Platform con Adobe Campaign Standard. Tuttavia, puoi integrare Campaign e Adobe Experience Platform tramite Origini e Destinazioni. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=it">Ulteriori informazioni</a>.</p>
      </td> 
   </tr> 
@@ -130,7 +149,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
    <td> <p> A partire dalla versione 20.1 di Campaign, SDK v4 è diventato obsoleto. Ora è stato rimosso. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=it">Ulteriori informazioni</a>.</p><br/>
    <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (in precedenza denominato v5) ora supporta esclusivamente le nuove funzionalità di Adobe Experience Cloud.</p>
    <p>Dopo il 31 agosto 2021 i clienti potranno continuare a scaricare e utilizzare gli SDK versione 4, ma non saranno più disponibili né il supporto dell’Assistenza clienti né l’accesso ai forum.</p>
-   <p>Scopri come migrare da SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=it">in questa pagina</a>.</p></br>
+   <p>Scopri come effettuare la migrazione da SDK v4 a Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=it">in questa pagina</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -189,7 +208,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] è stato disattivato. Di conseguenza, l’edizione dell’immagine fornita da [!DNL Creative SDK] nelle e-mail Campaign Standard non è più disponibile a partire dalla versione 20.2 di Campaign.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] è stato disattivato. Di conseguenza, l’edizione dell’immagine fornita da [!DNL Creative SDK] nelle e-mail di Campaign Standard non è più disponibile a partire dalla versione 20.2 di Campaign.</p></br>
    </td> 
   </tr> 
  </tbody> 
@@ -205,7 +224,7 @@ In questa sezione sono elencate le funzionalità rimosse da Campaign Standard.
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Adobe Campaign e Adobe Experience Cloud non supportano più Microsoft Internet Explorer 11 a partire dalla primavera 2019 e dalla versione 19.2 di Campaign. Passa a Microsoft Edge o a un altro browser supportato. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html?lang=it">Ulteriori informazioni</a>.</p>
+   <td> <p>Adobe Campaign e Adobe Experience Cloud non supportano più Microsoft Internet Explorer 11 a partire dalla primavera 2019 e dalla versione 19.2 di Campaign. Passa a Microsoft Edge o a un altro browser supportato. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html?lang=it">Ulteriori informazioni</a>.</p>
    </td> 
   </tr> 
  </tbody> 

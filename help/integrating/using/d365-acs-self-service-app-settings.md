@@ -9,10 +9,19 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PRwXxoE4v-Nn8gLT-7-2hbEe3IOiXT2dXTylTwHcmGs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 2%
+source-wordcount: 724
+ht-degree: 7%
 
 ---
 
@@ -72,7 +81,7 @@ Per definire le impostazioni SFTP di Campaign per l’integrazione con Microsoft
 
 * Gli **intervalli IP** dovranno essere inclusi nella configurazione SFTP Adobe Campaign. Questi dovranno essere inseriti nell&#39;elenco Consentiti affinché l’integrazione possa utilizzare l’endpoint SFTP.
 
-* **Esportare i registri nel tuo SFTP Adobe Campaign?** consente di determinare se l&#39;integrazione invierà le informazioni di registrazione all&#39;endpoint SFTP. Può essere utilizzato per facilitare il debug se Adobe Campaign o Microsoft Dynamics 365 non visualizza le informazioni previste.
+* **Esportare i registri nel tuo SFTP Adobe Campaign?** consente di determinare se l’integrazione invierà le informazioni di registrazione all’endpoint SFTP. Può essere utilizzato per facilitare il debug se Adobe Campaign o Microsoft Dynamics 365 non visualizza le informazioni previste.
 
 ## Configurazione SFTP in Adobe Campaign {#ac-control-panel-settings}
 
@@ -82,11 +91,11 @@ Scopri la gestione SFTP con [Pannello di controllo Campaign di campagne](https:/
 
 * [Gestione dell’archiviazione SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=it#installing-ssh-key)
 
-* [Aggiungi intervalli IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=it#sftp-management)
+* [Aggiungere intervalli IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=it#sftp-management)
 
 * [Gestione chiavi](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=it#sftp-management)
 
-* [Accedi al server SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=it#sftp-management)
+* [Accesso al server SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=it#sftp-management)
 
 Al termine della configurazione, accedi al server SFTP con la chiave privata e crea la directory &quot;d365_loads/exports&quot;.
 
