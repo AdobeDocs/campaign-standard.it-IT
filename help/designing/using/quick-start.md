@@ -9,11 +9,16 @@ role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 942
@@ -31,7 +36,7 @@ Puoi creare un messaggio e-mail [da poco nel Designer e-mail](#without-existing-
 
 1. Puoi **creare un&#39;e-mail da un modello predefinito** selezionando un modello e creando il nuovo contenuto dell&#39;e-mail da qui. [Ulteriori informazioni](#building-content-from-an-out-of-the-box-template)
 
-Puoi anche creare un&#39;e-mail [ con contenuto esistente](#with-existing-content):
+Puoi anche creare un&#39;e-mail [&#x200B; con contenuto esistente](#with-existing-content):
 
 1. È possibile **convertire un contenuto HTML esistente** (creato esternamente o nell&#39;editor legacy). [Ulteriori informazioni](#converting-an-html-content)
 1. Puoi **importare immediatamente un contenuto HTML esistente** in modalità di compatibilità. [Ulteriori informazioni](#compatibility-mode)
