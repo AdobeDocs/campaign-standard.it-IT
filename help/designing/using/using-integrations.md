@@ -169,6 +169,6 @@ Adobe Campaign offre diverse opzioni di authoring delle e-mail. La tabella segue
 
 Questo video mostra come creare e modificare i contenuti per Adobe Campaign Standard utilizzando Dreamweaver.
 
->[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/41713?quality=12&captions=ita)
 
 Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

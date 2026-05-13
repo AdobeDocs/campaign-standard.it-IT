@@ -72,6 +72,6 @@ Dopo aver creato il servizio, puoi iniziare a promuoverlo.
 
 Questo video mostra come creare un servizio e gestirne gli abbonamenti.
 
->[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329659?captions=ita&quality=12)
 
 Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

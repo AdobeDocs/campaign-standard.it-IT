@@ -110,6 +110,6 @@ Ulteriori informazioni:
 
 Questo video mostra come inviare un’e-mail di test, preparare e quindi inviare una consegna e-mail in Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/329658?captions=ita)
 
 Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

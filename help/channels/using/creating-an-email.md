@@ -119,6 +119,6 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
 Questo video mostra come creare un messaggio e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329904?captions=ita&quality=12)
 
 Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

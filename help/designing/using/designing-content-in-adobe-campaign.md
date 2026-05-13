@@ -179,6 +179,6 @@ Per quanto riguarda i frammenti, tieni presente quanto segue:
 
 Questo video offre una panoramica di E-mail Designer.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/330107?captions=ita&quality=12)
 
 Per iniziare a utilizzare E-mail Designer, guarda questo [set di video](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=it#GettingStarted) che illustrano le funzionalità generali di E-mail Designer e spiegano come progettare un&#39;e-mail da zero o utilizzando i modelli
