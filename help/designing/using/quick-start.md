@@ -1,5 +1,5 @@
 ---
-title: Introduzione a E-mail Designer
+title: Guida introduttiva a E-mail Designer
 description: Inizia a creare contenuti e-mail con E-mail Designer.
 audience: designing
 content-type: reference
@@ -8,14 +8,20 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 942
 ht-degree: 5%
 
 ---
 
-# Introduzione a E-mail Designer {#quick-start}
+# Guida introduttiva a E-mail Designer {#quick-start}
 
 E-mail Designer offre quattro modi per creare le e-mail.
 
@@ -25,7 +31,7 @@ Puoi creare un messaggio e-mail [da poco nel Designer e-mail](#without-existing-
 
 1. Puoi **creare un&#39;e-mail da un modello predefinito** selezionando un modello e creando il nuovo contenuto dell&#39;e-mail da qui. [Ulteriori informazioni](#building-content-from-an-out-of-the-box-template)
 
-Puoi anche creare un&#39;e-mail [&#x200B; con contenuto esistente](#with-existing-content):
+Puoi anche creare un&#39;e-mail [ con contenuto esistente](#with-existing-content):
 
 1. È possibile **convertire un contenuto HTML esistente** (creato esternamente o nell&#39;editor legacy). [Ulteriori informazioni](#converting-an-html-content)
 1. Puoi **importare immediatamente un contenuto HTML esistente** in modalità di compatibilità. [Ulteriori informazioni](#compatibility-mode)
@@ -123,7 +129,7 @@ Puoi creare un’e-mail da modelli predefiniti, come messaggi di benvenuto dei c
 1. Crea un messaggio e-mail e apri il relativo contenuto. Per ulteriori informazioni, consulta [Creazione di un messaggio e-mail](../../channels/using/creating-an-email.md).
 1. Fare clic sull&#39;icona Home per accedere alla home page di **[!UICONTROL Email Designer]**.
 1. Fare clic sulla scheda **[!UICONTROL Templates]**.
-1. Scegli un modello di HTML preconfigurato.
+1. Scegli un modello di HTML pronto all’uso.
 I diversi modelli presentano varie combinazioni di diversi tipi di elementi. Ad esempio, i modelli &quot;Sfumatura&quot; presentano dei margini, mentre i modelli &quot;Astro&quot; non ne hanno. Per ulteriori informazioni, consulta [Modelli di contenuto](../../designing/using/using-reusable-content.md#content-templates).
 1. Passa alla scheda **[!UICONTROL Properties]** della home page di E-mail Designer (accessibile tramite l&#39;icona Home ) e compila la sezione **[!UICONTROL Subject]**.
 1. Puoi combinare questi elementi per creare una serie di varianti di e-mail. Ad esempio, puoi duplicare una sezione e-mail selezionando un componente struttura e facendo clic su **[!UICONTROL Duplicate]** nella barra degli strumenti contestuale.
@@ -146,10 +152,10 @@ Questo caso d’uso offre un modo rapido per convertire i messaggi e-mail di HTM
 
 >[!NOTE]
 >
->Analogamente alla modalità di compatibilità, un componente HTML può essere modificato con opzioni limitate: è possibile eseguire solo l’edizione sul posto.
+>Come la modalità di compatibilità, un componente HTML è modificabile con opzioni limitate: è possibile eseguire solo l’edizione sul posto.
 
 
-### Importazione e modifica di un’e-mail HTML {#compatibility-mode}
+### Importazione e modifica di un messaggio e-mail di HTML {#compatibility-mode}
 
 Quando carichi un contenuto, questo deve contenere tag specifici affinché sia completamente conforme e modificabile con l’editor WYSIWYG di E-mail Designer.
 

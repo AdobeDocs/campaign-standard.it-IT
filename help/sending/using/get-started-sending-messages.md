@@ -7,10 +7,16 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/0dYFLX0zAqDIz27Y-ekkp9a9rHE9zdjOjioh5gBwaAA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 11%
+source-wordcount: 595
+ht-degree: 14%
 
 ---
 
@@ -27,7 +33,7 @@ Dopo aver definito il target e creato il contenuto di un messaggio, devi prepara
 
 Dopo aver eseguito le campagne di marketing e inviato i diversi messaggi, monitorali utilizzando i registri per verificare il successo della campagna e recuperare le informazioni di tracciamento sui destinatari.
 
-Infine, sfrutta le linee guida e gli strumenti disponibili in Campaign Standard per il recapito dei messaggi al fine di migliorare il numero di messaggi consegnati e garantire il successo delle campagne di marketing.
+Infine, utilizza le linee guida e gli strumenti per il recapito dei messaggi disponibili in Campaign Standard per migliorare il numero di messaggi consegnati e garantire campagne di marketing di successo.
 
 ![](assets/do-not-localize/how-to-video.png) [Scopri come inviare un&#39;e-mail di test, preparare e inviare una consegna e-mail in un video](#video)
 
@@ -35,7 +41,7 @@ Infine, sfrutta le linee guida e gli strumenti disponibili in Campaign Standard 
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-La **preparazione dei messaggi** di Campaign Standard analizza il target, la personalizzazione e la validità del messaggio. Gli errori rilevati durante questo passaggio devono essere corretti prima di poter procedere ulteriormente.
+La preparazione dei messaggi **di Campaign Standard** analizza il target, la personalizzazione e la validità del messaggio. Gli errori rilevati durante questo passaggio devono essere corretti prima di poter procedere ulteriormente.
 
 **Anteprima e verifica** i messaggi utilizzando varie funzionalità: invia bozze a profili di test o di destinazione, verifica l&#39;oggetto delle e-mail e controlla il rendering dei messaggi per assicurarti che vengano visualizzati in modo ottimale su diversi client web, web mail e dispositivi.
 
@@ -48,7 +54,7 @@ Ulteriori informazioni:
 * [Preparazione dell’invio](../../sending/using/preparing-the-send.md)
 * [Anteprima dei messaggi](../../sending/using/previewing-messages.md)
 * [Invio di bozze](../../sending/using/sending-proofs.md)
-* [Rendering di e-mail](../../sending/using/email-rendering.md)
+* [Rendering e-mail](../../sending/using/email-rendering.md)
 * [Pianificazione dei messaggi](../../sending/using/about-scheduling-messages.md)
 * [Informazioni su tipologie e regole di tipologia](../../sending/using/about-typology-rules.md)
 
@@ -97,6 +103,6 @@ Ulteriori informazioni:
 
 Questo video mostra come inviare un’e-mail di test, preparare e quindi inviare una consegna e-mail in Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/329658?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

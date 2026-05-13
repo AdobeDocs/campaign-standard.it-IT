@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/Ol-6IkRGAr7OGkXQgHhMSYhPfjmg-DY7s2dr6wxFenU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: 1666
 ht-degree: 98%
 
 ---
@@ -160,7 +165,7 @@ Un collegamento descrive l’associazione di una tabella con altre tabelle.
    >
    >Non è possibile rinominare un collegamento dopo la creazione. Per rinominare un collegamento, devi eliminarlo e crearlo di nuovo.
 
-1. L’elenco **[!UICONTROL Category for the audience and targeting]** ti consente di assegnare il collegamento a una categoria per renderlo più visibile nello strumento editor delle query.
+1. L’elenco **[!UICONTROL Category for the audience and targeting]** consente di assegnare il collegamento a una categoria per renderlo più visibile nello strumento editor di query.
 1. Se necessario, la sezione **[!UICONTROL Reverse link definition]** ti consente di visualizzare l’etichetta e l’ID della risorsa nella risorsa di destinazione.
 1. Definisci il comportamento dei record a cui fa riferimento il collegamento nella sezione **[!UICONTROL Behavior if deleted/duplicated]**.
 

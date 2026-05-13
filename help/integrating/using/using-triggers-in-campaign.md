@@ -9,10 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/JS2nl6HlwWPj9JFhWgNPeWV2cNNiAjvCdczoYH5AhtE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 74%
+source-wordcount: 743
+ht-degree: 73%
 
 ---
 
@@ -24,7 +29,7 @@ ht-degree: 74%
 >
 >Per creare Triggers, è necessario il ruolo **[!UICONTROL Administration]** o appartenere al gruppo di sicurezza **[!UICONTROL Administrators]**. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/list-of-roles.md).
 
-È necessario assicurarsi di definire in anticipo i comportamenti che si desidera monitorare in Adobe Experience Cloud (**[!UICONTROL Triggers]** servizio core). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=it). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
+È necessario assicurarsi di definire in anticipo i comportamenti che si desidera monitorare in Adobe Experience Cloud (**[!UICONTROL Triggers]** servizio core). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
 
 Ora devi creare un evento trigger in Adobe Campaign basato su un trigger esistente di Adobe Experience Cloud.
 

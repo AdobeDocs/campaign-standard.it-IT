@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LZNc1yJEI9GGnxAs-eLhrDoX91RtZKXRMhqQxkiSN-g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 542
 ht-degree: 95%
 
 ---
@@ -24,7 +29,7 @@ Questo passaggio non è obbligatorio in quanto puoi comunque popolare la risorsa
 
 ![](assets/custom_resource_filter-definition.png)
 
-Questi filtri vengono utilizzati nell’editor delle query sotto forma di regole preconfigurate. Ti consentono di limitare il numero di passaggi necessari per ottenere la configurazione desiderata, particolarmente utile per segmentazioni ripetitive.
+Questi filtri vengono utilizzati nell’editor di query sotto forma di regole preconfigurate. Ti consentono di limitare il numero di passaggi necessari per ottenere la configurazione desiderata, particolarmente utile per segmentazioni ripetitive.
 
 Ad esempio, puoi creare un filtro che consenta di selezionare tutte le transazioni superiori a un determinato importo negli ultimi tre mesi.
 
@@ -63,7 +68,7 @@ A tal fine, devi estendere la risorsa **[!UICONTROL Profiles]** e definire un fi
 
    ![](assets/custom_resource_filter-definition_category.png)
 
-1. Nella scheda **[!UICONTROL Parameters]** della schermata di definizione del filtro, modifica la descrizione e l’etichetta per indicare chiaramente agli utenti l’oggetto del filtro. Queste informazioni vengono visualizzate nell’editor delle query.
+1. Nella scheda **[!UICONTROL Parameters]** della schermata di definizione del filtro, modifica la descrizione e l’etichetta per indicare chiaramente agli utenti l’oggetto del filtro. Queste informazioni vengono visualizzate nell’editor di query.
 
    ![](assets/custom_resource_filter-definition_parameters.png)
 
@@ -71,7 +76,7 @@ A tal fine, devi estendere la risorsa **[!UICONTROL Profiles]** e definire un fi
 
 1. Salva le modifiche e pubblica le risorse. Per ulteriori informazioni, consulta la sezione [Aggiornamento della struttura del database](../../developing/using/updating-the-database-structure.md).
 
-Dopo la pubblicazione dell’estensione della risorsa **[!UICONTROL Profiles]**, gli utenti visualizzano questo filtro nella scheda dei tasti di scelta rapida nell’interfaccia dell’[editor delle query](../../automating/using/editing-queries.md).
+Dopo la pubblicazione dell’estensione della risorsa **[!UICONTROL Profiles]**, gli utenti visualizzano questo filtro nella scheda dei tasti di scelta rapida nell’interfaccia dell’[editor di query](../../automating/using/editing-queries.md).
 
 In questo modo, l’utente può definire facilmente il pubblico durante la creazione di un’e-mail da inviare a tutti i clienti che hanno speso più di un certo importo negli ultimi tre mesi.
 
@@ -81,7 +86,7 @@ Anziché configurarlo personalmente, deve semplicemente immettere la quantità d
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-Una volta configurato, un filtro può essere utilizzato dalle API Campaign Standard utilizzando la seguente sintassi:
+Una volta configurato, un filtro può essere utilizzato dalle API di Campaign Standard con la seguente sintassi:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 

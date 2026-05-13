@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 12%
+source-wordcount: 324
+ht-degree: 24%
 
 ---
 
@@ -25,7 +28,7 @@ A seconda delle esigenze aziendali, puoi importare ed esportare dati in diversi 
 * **Flussi di lavoro**: importa dati da file e utilizzali per aggiornare il database o inviare e-mail. È inoltre possibile selezionare i dati da esportare in file. I flussi di lavoro sono il modo migliore per automatizzare gli aggiornamenti regolari, come le importazioni di profili.
 
    * L’attività **[!UICONTROL Load file]** ti consente di importare i dati all’interno di un modulo strutturato, in modo da poterli utilizzare in Adobe Campaign. I dati vengono importati temporaneamente e occorre un’altra attività per integrarli definitivamente nel database di Adobe Campaign. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/load-file.md).
-   * L&#39;attività **[!UICONTROL Transfer file]** ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign. È possibile utilizzare questa attività prima di un **[!UICONTROL Load file]** nel caso sia necessario recuperare il file da un&#39;origine esterna. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
+   * L’attività **[!UICONTROL Transfer file]** ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign. È possibile utilizzare questa attività prima di un **[!UICONTROL Load file]** nel caso sia necessario recuperare il file da un&#39;origine esterna. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
 
 Durante la progettazione dei processi di importazione, è consigliabile utilizzare modelli di flusso di lavoro che possano essere adattati in base alle proprie esigenze. Per ulteriori informazioni su come impostare un modello di flusso di lavoro per l&#39;importazione di dati, consulta [questo caso d&#39;uso](../../automating/using/creating-import-workflow-templates.md).
 

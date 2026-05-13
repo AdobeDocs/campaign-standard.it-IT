@@ -6,9 +6,13 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/KSJ-umygCpPr5pjkpiAcbHh-zb1HjK-vZJJLCXz3c5A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: 1150
 ht-degree: 3%
 
 ---
@@ -31,7 +35,7 @@ Questo documento descrive la struttura del payload ricevuto in un’app mobile q
 
 Questa sezione descrive la struttura di un payload di esempio per varie piattaforme mobili e descrive i principali attributi in essa contenuti. Struttura del payload ricevuto nel codice dell’app mobile nel gestore eventi che indica la ricezione di una notifica push.
 
-Gli attributi del payload e i relativi valori variano in base alle configurazioni fornite nelle opzioni avanzate per le notifiche push. Questa sezione fornisce anche una mappatura tra queste configurazioni nell’interfaccia utente di Campaign Standard e gli attributi nel payload, al fine di chiarire come cambierà il payload al momento della configurazione di un’opzione in Campaign Standard.
+Gli attributi del payload e i relativi valori variano in base alle configurazioni fornite nelle opzioni avanzate per le notifiche push. Questa sezione fornisce anche una mappatura tra queste configurazioni nell’interfaccia utente di Campaign Standard e gli attributi nel payload, al fine di chiarire come cambierà il payload durante la configurazione di un’opzione in Campaign Standard.
 
 ### Per l’app mobile di iOS {#payload-structure-ios}
 
@@ -209,7 +213,7 @@ Per informazioni sugli aspetti di un payload Android, consulta [Concetti e opzio
 | Aggiungere un deep link | uri | NA | Un deep link ti consente di portare gli utenti direttamente al contenuto presente all’interno dell’applicazione (anziché aprire una pagina del browser web). |
 | Categoria | categoria | categoria | Per visualizzare azioni personalizzate con una notifica remota. <br>La chiave di categoria consente al sistema di visualizzare le azioni per tale categoria come pulsanti nell&#39;interfaccia di avviso. |
 | Campi personalizzati | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Eventuali dati personalizzati che desideri inviare all’app. |
-| URL contenuti rich media (file immagine, gif, audio e video)<br>(applicabile solo per iOS 10 o versioni successive) | media-attachment-url | NA | URL dei file multimediali per aggiungere contenuti avanzati alla notifica. <br>Se fornisci un valore per questo URL, il flag di contenuto mutabile viene inviato automaticamente nel payload. <br> (applicabile solo per iOS 10 o versione successiva) |
+| URL contenuti rich media (file immagine, gif, audio e video)<br>(applicabile solo per iOS 10 o versioni successive) | media-attachment-url | NA | URL dei file multimediali per aggiungere contenuti avanzati alla notifica. <br>Se fornisci un valore per questo URL, il flag di contenuto mutabile viene inviato automaticamente nel payload. <br> (Applicabile solo per iOS 10 o versione successiva) |
 | Contenuto variabile <br> (applicabile solo per iOS 10 o versione successiva) | contenuto mutabile | NA | L’estensione del servizio di notifica nell’app &quot;intercetta&quot; tutte le notifiche remote con la chiave di contenuto mutabile e ti consente di gestire/manipolare il contenuto del payload della richiesta, che può quindi essere utilizzato per personalizzare la notifica. I casi di utilizzo di questa funzione includono il download e la visualizzazione di più file multimediali e la decrittografia di eventuali dati crittografati presenti nel payload push. Ulteriori informazioni sono disponibili in [Modificare il payload di una notifica remota](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(applicabile solo per iOS 10 o versione successiva) |
 | Contenuto disponibile | disponibile per il contenuto | NA | Selezionando questa opzione si abilita la riattivazione di un’app iOS mentre si trova in stato di background/sospensione. La riattivazione implica che l’app viene eseguita in background e che il gestore eventi appropriato responsabile della ricezione del payload dei dati della notifica push ottiene un controllo e può utilizzare i dati per eseguire qualsiasi calcolo, incluso ma non limitato alla creazione di notifiche push personalizzate e alla visualizzazione delle stesse. Ulteriori informazioni sono disponibili in [App di riattivazione con consegna notifiche](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL contenuti rich media (file immagine)<br>(applicabile solo per Android) | NA | media-attachment-url | URL dei file immagine per aggiungere contenuto avanzato alla notifica. |

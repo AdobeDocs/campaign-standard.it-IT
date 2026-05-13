@@ -7,14 +7,17 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/zo3wFxqwI6LIHn4Uolv9oipkW17maikqcO4zExmYQxM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 32%
+source-wordcount: 228
+ht-degree: 37%
 
 ---
 
-# Programma (nms:programma)
+# Programma (nms:program)
 
 ## Descrizione oggetto
 
@@ -44,7 +47,7 @@ ht-degree: 32%
                   <td> </td>
                </tr>
                <tr>
-                  <td>creato</td>
+                  <td>creata</td>
                   <td>Creato</td>
                   <td>data </td>
                   <td> </td>
@@ -52,7 +55,7 @@ ht-degree: 32%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +73,7 @@ ht-degree: 32%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -115,7 +118,7 @@ ht-degree: 32%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -127,13 +130,13 @@ ht-degree: 32%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (programBase)</td>
                   <td>Programma principale</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -164,7 +167,7 @@ ht-degree: 32%
                <tr>
                   <td>modello (programma)</td>
                   <td>Modello di programma</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -204,7 +207,7 @@ Per nome o etichetta (byText)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>testo</td>
     <td>stringa</td>
     </tr>
 </table>
@@ -261,7 +264,7 @@ Solo i genitori idonei (idoneeParents)
     </tr>
     <tr>
     <td>programma</td>
-    <td>link</td>
+    <td>collegamento</td>
     </tr>
 </table>
 

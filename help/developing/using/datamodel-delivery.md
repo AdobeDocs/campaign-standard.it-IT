@@ -7,10 +7,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/zFUpmYKXJPF3cW-KGjKpdG1rbt3lv-5hsCjVugdSLA0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 27%
+source-wordcount: 730
+ht-degree: 30%
 
 ---
 
@@ -82,7 +86,7 @@ ht-degree: 27%
                <tr>
                   <td>branding (brandingBase)</td>
                   <td>Brand</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,13 +104,13 @@ ht-degree: 27%
                <tr>
                   <td>campaign (campaignBase)</td>
                   <td>Campaign</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cmsAccount (extAccountAEMBase)</td>
                   <td>Account Adobe Experience Manager</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -140,7 +144,7 @@ ht-degree: 27%
                   <td> </td>
                </tr>
                <tr>
-                  <td>creato</td>
+                  <td>creata</td>
                   <td>Creato</td>
                   <td>data </td>
                   <td> </td>
@@ -148,7 +152,7 @@ ht-degree: 27%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -168,7 +172,7 @@ ht-degree: 27%
                <tr>
                   <td>deliveryProvider (extAccountBase)</td>
                   <td>Indirizzamento</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -223,7 +227,7 @@ ht-degree: 27%
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>Unità geografica</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -337,13 +341,13 @@ ht-degree: 27%
                <tr>
                   <td>mappatura (deliveryMapping)</td>
                   <td>Mappatura del target</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>principale (deliveryBase)</td>
                   <td>Istanza principale</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -372,7 +376,7 @@ ht-degree: 27%
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -390,13 +394,13 @@ ht-degree: 27%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>Unità organizzativa</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>principale (deliveryBase)</td>
                   <td>Consegna principale</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -414,7 +418,7 @@ ht-degree: 27%
                <tr>
                   <td>program (programBase)</td>
                   <td>Programma</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -514,7 +518,7 @@ ht-degree: 27%
                <tr>
                   <td>template (deliveryTemplateSummary)</td>
                   <td>Modello di consegna</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -556,13 +560,13 @@ ht-degree: 27%
                <tr>
                   <td>tipologia (typologyBase)</td>
                   <td>Tipologia</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflow (workflowBase)</td>
                   <td>Flusso di lavoro di destinazione</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -592,7 +596,7 @@ Per tipo di canale (perCanale)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>channel</td>
+    <td>canale</td>
     <td>enumerazione</td>
     </tr>
 </table>
@@ -631,7 +635,7 @@ Per nome o etichetta (byText)
     <th>Tipo</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>testo</td>
     <td>stringa</td>
     </tr>
     <tr>

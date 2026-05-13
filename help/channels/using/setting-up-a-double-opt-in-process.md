@@ -8,9 +8,15 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+TQID: https://experienceleague.adobe.com/uEAfmHvm5tpDoCp9nEQeveyH0oBvmP24IvkUy73QPSw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: 1172
 ht-degree: 86%
 
 ---
@@ -31,7 +37,7 @@ Per configurare questa impostazione devi effettuare le seguenti operazioni:
 1. Crea e invia automaticamente l’e-mail di consenso, con un collegamento di conferma. Questa e-mail eseguirà il targeting della popolazione che ha inviato la pagina di destinazione. Sarà basata su un modello e-mail che consente di eseguire il targeting dei profili di rinuncia.
 1. Reindirizza a una pagina di destinazione di conferma. Questa pagina di destinazione finale proporrà un pulsante di conferma: i visitatori devono fare clic su di esso. Puoi progettare un’e-mail di benvenuto da inviare al termine della conferma e, ad esempio, aggiungere un’offerta speciale nell’e-mail per i nuovi destinatari.
 
-Questi passaggi devono essere configurati in Adobe Campaign in un ordine specifico affinché tutti i parametri siano attivati correttamente.
+Questi passaggi devono essere configurati in Adobe Campaign in un ordine specifico affinché tutti i parametri siano abilitati correttamente.
 
 ## Passaggio 1: creare la pagina di destinazione di conferma {#step-1--create-the-confirmation-landing-page}
 
@@ -78,7 +84,7 @@ I passaggi per creare questi elementi sono descritti di seguito. Devi seguirli p
 L’e-mail di conferma è un [messaggio transazionale](../../channels/using/getting-started-with-transactional-msg.md) poiché risponde a un evento: la convalida del modulo. Devi innanzitutto creare l’evento e poi creare il modello del messaggio transazionale.
 
 1. Crea un evento dal menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, accessibile dal logo Adobe Campaign, e immetti l’etichetta “**CONFIRM**”.
-1. Seleziona la dimensione di targeting **[!UICONTROL Profile]** e fai clic su **[!UICONTROL Create]**.
+1. Seleziona la dimensione targeting **[!UICONTROL Profile]** e fai clic su **[!UICONTROL Create]**.
 
    ![](assets/optin_eventcreate.png)
 

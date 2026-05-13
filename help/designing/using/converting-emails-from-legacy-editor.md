@@ -8,22 +8,27 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cfyUEkc2uP7VKNu2Kzd-9EERkuzfwiFFbJ9-QHgWWX4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 8%
+source-wordcount: 444
+ht-degree: 6%
 
 ---
 
 # Conversione di contenuti e-mail da editor legacy {#converting-an-html-content}
 
-Inizia a utilizzare E-mail Designer e crea modelli e frammenti riutilizzabili dal tuo HTML e-mail creato nell’Editor legacy.
+Inizia a utilizzare E-mail Designer e crea modelli e frammenti riutilizzabili dal HTML e-mail creato nell’editor legacy.
 
 Questo caso d’uso consente di creare un modello di E-mail Designer utilizzando un’e-mail di HTML e suddividendola in componenti HTML in E-mail Designer.
 
 >[!NOTE]
 >
->Analogamente alla modalità di compatibilità, un componente HTML può essere modificato con opzioni limitate: è possibile eseguire solo l’edizione sul posto.
+>Come la modalità di compatibilità, un componente HTML è modificabile con opzioni limitate: è possibile eseguire solo l’edizione sul posto.
 
 >[!IMPORTANT]
 >
@@ -31,9 +36,9 @@ Questo caso d’uso consente di creare un modello di E-mail Designer utilizzando
 
 ## Preparazione del contenuto dell’e-mail
 
-1. Seleziona un messaggio e-mail di HTML.
+1. Seleziona un indirizzo e-mail HTML.
 1. Identifica le sezioni per dividere l’e-mail di HTML.
-1. Taglia i diversi blocchi dal tuo HTML.
+1. Tagliare i diversi blocchi dal HTML.
 
 ## Creare la struttura delle e-mail
 
@@ -109,7 +114,7 @@ Per visualizzare la versione HTML dell&#39;e-mail, fare clic su **[!UICONTROL Sh
 
    ![](assets/show-source-code.png)
 
-1. Inserisce la sezione HTML.
+1. Inserire la sezione HTML.
 
 1. Fai clic su **[!UICONTROL Save]**.
 

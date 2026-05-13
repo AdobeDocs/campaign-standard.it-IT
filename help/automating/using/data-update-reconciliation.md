@@ -1,6 +1,6 @@
 ---
 title: Aggiornamento dei dati tramite riconciliazione
-description: L’esempio seguente illustra un flusso di lavoro che crea un pubblico di profili direttamente da un file importato contenente nuovi client.
+description: L’esempio seguente illustra un flusso di lavoro che crea un pubblico di profili direttamente da un file importato contenente nuovi clienti.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/cEXfESw1LZcrQVlLsgrlDB8J2aGz4zCoSUrIAshECo0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 33%
+source-wordcount: 128
+ht-degree: 49%
 
 ---
 
@@ -38,7 +42,7 @@ L’esempio seguente illustra un flusso di lavoro che crea un pubblico di profil
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md), che collega ogni colonna del file caricato a una colonna della dimensione del profilo. I record di file che non possono essere identificati (dati mancanti, tipo di dati incompatibile, ecc.) vengono ignorati per preservare l’integrità dei dati di pubblico finali.
+* Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md), che collega ogni colonna del file caricato a una colonna della dimensione del profilo. Record di file che non è possibile identificare (dati mancanti, tipo di dati incompatibile, ecc.) vengono ignorati per preservare l’integrità dei dati di pubblico finali.
 
   ![](assets/identification_example1.png)
 

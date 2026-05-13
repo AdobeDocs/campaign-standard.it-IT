@@ -8,10 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: 445
+ht-degree: 7%
 
 ---
 
@@ -21,25 +26,25 @@ ht-degree: 3%
 
 I blocchi di contenuto e i frammenti di contenuto sono parti di contenuto riutilizzabile comuni tra più e-mail. Vengono utilizzati per garantire la coerenza tra le e-mail e anche per ottimizzare/standardizzare la creazione di e-mail. Le differenze tra blocchi di contenuto e frammenti di contenuto sono il livello di personalizzazione possibile.
 
-* I blocchi di contenuto sono puramente HTML in cui il codice HTML viene inserito manualmente (interfaccia utente non intuitiva, è un codice sorgente diretto). Anche se è realmente orientato alle persone con conoscenze HTML, consente un livello di personalizzazione non disponibile nei frammenti di contenuto.
+* I blocchi di contenuto sono puramente HTML in cui il codice HTML viene inserito manualmente (interfaccia utente non intuitiva, è un codice sorgente diretto). Anche se è orientato alle persone con conoscenze di HTML, consente un livello di personalizzazione non disponibile nei frammenti di contenuto.
 
 * I frammenti di contenuto sono contenuti visivi creati tramite E-mail Designer, utilizzando la relativa interfaccia utente intuitiva. Tuttavia, non è possibile personalizzare il contenuto. Se è richiesta la personalizzazione, questa può essere eseguita solo tramite blocchi di contenuto.
 
 ## Come si aggiunge la spaziatura a un elemento dalla struttura HTML?
 
-Puoi aggiungere la spaziatura interna utilizzando le breadcrumb HTML.
+Puoi aggiungere la spaziatura interna utilizzando la breadcrumb di HTML.
 
-1. Nella parte inferiore sinistra della schermata, fai clic sul breadcrumb HTML.
+1. Nella parte inferiore sinistra della schermata, fai clic sulla breadcrumb di HTML.
 
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Fai clic sull’elemento a cui desideri aggiungere una spaziatura.
-1. Fai clic sul tag principale nel breadcrumb HTML.
+1. Fai clic sul tag principale nel breadcrumb di HTML.
 Ora puoi aggiungere una spaziatura a questo elemento.
 
 ## Posso importare contenuti HTML in E-mail Designer?
 
-Puoi caricare i contenuti di HTML nel Designer delle e-mail. Se non è stato creato tramite E-mail Designer, verrà caricato in modalità di compatibilità, progettata per mantenere il HTML originale, ma limita alcune funzionalità di modifica tramite l’interfaccia utente.
+Puoi caricare i contenuti HTML nel Designer e-mail. Se non è stato creato tramite E-mail Designer, verrà caricato in modalità di compatibilità, progettata per mantenere il HTML originale ma limita alcune funzionalità di modifica tramite l’interfaccia utente.
 
 Per ulteriori informazioni, vedere [Modalità di compatibilità](../../designing/using/using-existing-content.md#compatibility-mode)
 

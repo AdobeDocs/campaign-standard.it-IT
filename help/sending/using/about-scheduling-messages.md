@@ -8,10 +8,14 @@ context-tags: delivery,schedule,back
 feature: Send Time Optimization
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/N0t5qvKiceoZEekhToXAk1PfNe1HE22vAaobLr32oME
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 100%
+source-wordcount: 276
+ht-degree: 80%
 
 ---
 
@@ -35,9 +39,9 @@ Le proprietà **[!UICONTROL Schedule]** ti permettono di impostare le opzioni di
 
   Puoi preparare e confermare l’invio, ma i messaggi vengono inviati solo a partire dalla data e ora selezionate. La preparazione e la conferma dell’invio sono presentate nelle sezioni [Preparazione dell’invio](../../sending/using/preparing-the-send.md) e [Conferma dell’invio](../../sending/using/confirming-the-send.md).
 
-  L’elenco a discesa **[!UICONTROL Time zone of the contact date]** ti consente di modificare il fuso orario da considerare per l’ora di invio. Ad esempio, se immetti le 9 nel campo **[!UICONTROL Start sending from]** e se selezioni Bruxelles, Copenaghen, Madrid, Parigi (GMT+1) nell’elenco a discesa **[!UICONTROL Time zone of the contact date]**, tutti i destinatari ricevono il messaggio alle 9 (ora di Parigi). Pertanto, un destinatario residente a Mosca (GMT+3) riceve il messaggio alle 11 ora di Mosca.
+  L’elenco a discesa **[!UICONTROL Time zone of the contact date]** ti consente di modificare il fuso orario da considerare per l’ora di invio. Ad esempio, se immetti le 9:00 nel campo **[!UICONTROL Start sending from]** e se selezioni Bruxelles, Copenaghen, Madrid, Parigi (GMT+1) nell’elenco a discesa **[!UICONTROL Time zone of the contact date]**, tutti i destinatari riceveranno il messaggio alle 9:00 ora di Parigi. Pertanto, un destinatario che si trova a Mosca (GMT+3) riceverà il messaggio alle 11:00 ora di Mosca.
 
-  Se desideri confermare manualmente l’invio, seleziona l’opzione **[!UICONTROL Request confirmation before sending messages]**. Questa opzione è attivata per impostazione predefinita.
+  Se desideri confermare manualmente l’invio, seleziona l’opzione **[!UICONTROL Request confirmation before sending messages]**. Questa opzione è abilitata per impostazione predefinita.
 
   ![](assets/delivery_planning.png)
 

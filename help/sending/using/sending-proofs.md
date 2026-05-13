@@ -9,9 +9,13 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/L2Rj-JoGUPKPQnEUZY-l-fh4FMI-vMm7D4OX8S2Vnd0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: 585
 ht-degree: 98%
 
 ---
@@ -52,7 +56,7 @@ Per inviare le bozze, effettua le seguenti operazioni:
 
 1. Seleziona il tipo di bozza da utilizzare:
 
-   * **[!UICONTROL Email rendering]**: scegli questa opzione per verificare la modalità di ricezione di un messaggio in base alle caselle in entrata target. Per ulteriori informazioni, consulta [Rendering di e-mail](../../sending/using/email-rendering.md).
+   * **[!UICONTROL Email rendering]**: scegli questa opzione per verificare la modalità di ricezione di un messaggio in base alle caselle in entrata target. Per ulteriori informazioni, consulta [Rendering delle e-mail](../../sending/using/email-rendering.md).
    * **[!UICONTROL Proof]**: seleziona questa opzione per eseguire il test del messaggio prima di inviarlo al target principale. I destinatari della bozza hanno il compito di approvare la consegna tramite la verifica di contenuto e formato.
    * **[!UICONTROL Proof + Email rendering]**: questa opzione combina le due opzioni precedenti.
 
@@ -60,7 +64,7 @@ Per inviare le bozze, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il rendering di e-mail è disponibile solo con i profili di test. Se non sono stati aggiunti profili di test al messaggio, potrà essere selezionata solo l’opzione **[!UICONTROL Proof]**.
+   >Rendering e-mail è disponibile solo con i profili di test. Se non sono stati aggiunti profili di test al messaggio, potrà essere selezionata solo l’opzione **[!UICONTROL Proof]**.
 
 1. Conferma la tua scelta.
 
@@ -72,7 +76,7 @@ Per inviare le bozze, effettua le seguenti operazioni:
 
    ![](assets/bat_view.png)
 
-1. Seleziona una bozza per accedere al relativo riepilogo. Per un’e-mail, se hai selezionato l’opzione **Rendering di e-mail** come tipo di bozza, l’icona **[!UICONTROL Access email rendering]** viene visualizzata a destra dell’etichetta della bozza. Consulta [Rendering di e-mail](../../sending/using/email-rendering.md).
+1. Seleziona una bozza per accedere al relativo riepilogo. Per un’e-mail, se hai selezionato l’opzione **Rendering e-mail** come tipo di bozza, l’icona **[!UICONTROL Access email rendering]** viene visualizzata a destra dell’etichetta della bozza. Consulta [Rendering delle e-mail](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 

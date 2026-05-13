@@ -9,10 +9,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 77%
+source-wordcount: 868
+ht-degree: 74%
 
 ---
 
@@ -24,9 +29,9 @@ ht-degree: 77%
 
 Quando modifichi il contenuto di un’e-mail transazionale, puoi creare elenchi di prodotti che fanno riferimento a una o più raccolte di dati. Ad esempio, in un messaggio e-mail di abbandono carrello, puoi includere un elenco di tutti i prodotti presenti nei carrelli degli utenti al momento dell’uscita dal sito web, con un’immagine, il prezzo e un collegamento a ciascun prodotto.
 
-Per aggiungere un elenco di prodotti abbandonati in un messaggio sulle transazioni, segui i passaggi indicati di seguito.
+Per aggiungere un elenco di prodotti abbandonati in un messaggio transazionale, segui i passaggi indicati di seguito.
 
-Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=it#configure-product-listings-in-transactional-emails) che illustra i passaggi necessari per configurare gli elenchi di prodotti in un messaggio e-mail transazionale.
+Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) che illustra i passaggi necessari per configurare gli elenchi di prodotti in un messaggio e-mail transazionale.
 
 >[!NOTE]
 >
@@ -34,9 +39,9 @@ Puoi anche guardare [questo set di video](https://experienceleague.adobe.com/doc
 
 ## Definizione di un elenco di prodotti {#defining-a-product-listing}
 
-Prima di poter utilizzare un elenco di prodotti in un messaggio sulle transazioni, è necessario definire a livello di evento l’elenco dei prodotti e i campi per ciascun prodotto da visualizzare. Per ulteriori informazioni, consulta [Definizione delle raccolte di dati](../../channels/using/configuring-transactional-event.md#defining-data-collections).
+Prima di poter utilizzare un elenco di prodotti in un messaggio transazionale, è necessario definire a livello di evento l’elenco dei prodotti e i campi per ciascun prodotto da visualizzare. Per ulteriori informazioni, consulta [Definizione delle raccolte di dati](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
-1. Nel messaggio sulle transazioni, fai clic sul blocco **[!UICONTROL Content]** per modificare il contenuto dell’e-mail.
+1. Nel messaggio transazionale, fai clic sul blocco **[!UICONTROL Content]** per modificare il contenuto dell’e-mail.
 1. Trascina e rilascia un componente struttura all’interno dell’area di lavoro. Per ulteriori informazioni, consulta [Definizione della struttura delle e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
    Ad esempio, seleziona un componente struttura a una colonna e aggiungi un componente testo, un componente immagine e un componente pulsante. Per ulteriori informazioni, vedere [Utilizzo dei componenti di contenuto](../../designing/using/designing-from-scratch.md#about-content-components).
@@ -56,9 +61,9 @@ Prima di poter utilizzare un elenco di prodotti in un messaggio sulle transazion
 
    >[!NOTE]
    >
-   >L’opzione **[!UICONTROL Column]** è disponibile solo quando è in uso un componente struttura a più colonne ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** e **[!UICONTROL 4:4 column]** ). Quando modifichi l’elenco dei prodotti, compila solo la prima colonna: le altre non saranno prese in considerazione. Per ulteriori informazioni sulla selezione dei componenti struttura, vedere [Definizione della struttura e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >L&#39;opzione **[!UICONTROL Column]** è disponibile solo quando si utilizza un componente struttura a più colonne ( **[!UICONTROL 2:2colonna]**, **[!UICONTROL 3:3colonna]** e **[!UICONTROL 4:4colonna]** ). Quando modifichi l’elenco dei prodotti, compila solo la prima colonna: le altre non saranno prese in considerazione. Per ulteriori informazioni sulla selezione dei componenti struttura, vedere [Definizione della struttura e-mail](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. Seleziona la raccolta dati creata durante la configurazione dell’evento correlato al messaggio sulle transazioni, disponibile nel nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Seleziona la raccolta dati creata durante la configurazione dell’evento correlato al messaggio transazionale, disponibile nel nodo **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_loop_selection.png)
 
@@ -76,7 +81,7 @@ Prima di poter utilizzare un elenco di prodotti in un messaggio sulle transazion
 
 ## Popolamento dell’elenco dei prodotti {#populating-the-product-listing}
 
-Per visualizzare un elenco dei prodotti provenienti dall’evento collegato al messaggio e-mail sulle transazioni, attieniti alla procedura seguente.
+Per visualizzare un elenco dei prodotti provenienti dall’evento collegato al messaggio e-mail transazionale, segui la procedura seguente.
 
 Per ulteriori informazioni sulla creazione di una raccolta e dei campi correlati durante la configurazione dell’evento, consulta [Definizione delle raccolte di dati](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
@@ -134,4 +139,4 @@ Per ulteriori informazioni sulla creazione di una raccolta e dei campi correlati
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Per approfondimenti sulla definizione di un profilo di test in un messaggio sulle transazioni, consulta [questa sezione](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   Per approfondimenti sulla definizione di un profilo di test in un messaggio transazionale, consulta [questa sezione](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).

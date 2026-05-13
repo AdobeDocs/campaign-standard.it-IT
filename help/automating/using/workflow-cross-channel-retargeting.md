@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 37%
+source-wordcount: 315
+ht-degree: 42%
 
 ---
 
@@ -45,7 +49,7 @@ Puoi inviare un’e-mail ai clienti e quindi un sms a coloro che non hanno apert
 1. Immetti le proprietà dell’e-mail e fai clic su **[!UICONTROL Next]**.
 1. Per creare il layout dell’e-mail, fai clic su **[!UICONTROL Using the Email Designer]**.
 1. Inserisci elementi o seleziona un modello esistente.
-1. Personalizza l&#39;e-mail con le offerte specifiche per ogni posizione.Per ulteriori informazioni, consulta [progettazione di un&#39;e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personalizza l’e-mail con le offerte specifiche per ogni posizione.Per ulteriori informazioni, consulta [progettazione di un’e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Fai clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 

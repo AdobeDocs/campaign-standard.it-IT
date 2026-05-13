@@ -6,9 +6,13 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: 2724
 ht-degree: 0%
 
 ---
@@ -43,9 +47,9 @@ Una volta verificato ogni singolo account, esistono due possibili scenari:
 Contattare il provider per diagnosticare potenziali conflitti.
 
    * Alcuni degli account esterni condividono la stessa combinazione di login/password.
-Il provider non ha modo di dire da quale account esterno proviene il `BIND PDU` mittente, quindi tratta tutte le connessioni da più account come una sola. Potrebbero aver instradato MO e SR in modo casuale sui due account, causando problemi.
-Se il provider supporta più codici brevi per la stessa combinazione login/password, dovrai chiedere loro dove inserire quel `BIND PDU`codice breve in . Si noti che questa informazione deve essere inserita all&#39;interno `BIND PDU`di , e non in `SUBMIT_SM`, poiché è l&#39;unico `BIND PDU` posto che consentirà di instradare correttamente i MO.
-Vedere la [sezione Informazioni in ogni tipo di PDU](../../administration/using/sms-protocol.md#information-pdu) sopra per sapere quale campo è disponibile nel `BIND PDU`, di solito si aggiunge il codice breve in `address_range`, ma ciò richiede un supporto speciale da parte del provider. Contattali per sapere come prevedono di instradare più codici brevi in modo indipendente.
+Il provider non è in grado di individuare l&#39;account esterno da cui proviene `BIND PDU`, pertanto tutte le connessioni da più account vengono trattate come un unico account. Potrebbero aver indirizzato MO e SR in modo casuale sui due account, causando problemi.
+Se il provider supporta più codici brevi per la stessa combinazione di login/password, sarà necessario chiedere loro dove inserire il codice breve in `BIND PDU`. Tieni presente che questa informazione deve essere inserita in `BIND PDU` e non in `SUBMIT_SM`, poiché `BIND PDU` è l&#39;unico luogo che consentirà il routing corretto dei MO.
+Vedere la sezione [Informazioni in ogni tipo di PDU](../../administration/using/sms-protocol.md#information-pdu) per sapere quale campo è disponibile in `BIND PDU`. In genere si aggiunge il codice breve in `address_range`, ma ciò richiede un supporto speciale da parte del provider. Contattali per sapere in che modo si aspettano di instradare più codici brevi in modo indipendente.
 Adobe Campaign supporta la gestione di più codici brevi sullo stesso account esterno.
 
 ## Problema con l’account esterno in generale {#external-account-issues}
@@ -65,13 +69,13 @@ Adobe Campaign supporta la gestione di più codici brevi sullo stesso account es
   ```
 
 * Verificare (nella directory /postupgrade) se il sistema è stato aggiornato e quando
-* Controlla se i pacchetti che interessano gli SMS potrebbero essere stati aggiornati di recente (/var/log/dpkg.log).
+* Verifica se eventuali pacchetti che influiscono sugli SMS potrebbero essere stati aggiornati di recente (/var/log/dpkg.log).
 
 ## Problema durante la connessione al provider {#issue-provider}
 
-* Se restituisce `BIND PDU` un codice diverso da zero `command_status` , chiedere ulteriori informazioni al provider.
+* Se `BIND PDU` restituisce un codice `command_status` diverso da zero, chiedere ulteriori informazioni al provider.
 
-* Verificare che la rete sia configurata correttamente in modo che la connessione TCP possa essere effettuata al provider.
+* Verificare che la rete sia configurata correttamente in modo da consentire la connessione TCP al provider.
 
 * Chiedi al provider di verificare che gli IP siano stati aggiunti correttamente al inserisco nell&#39;elenco Consentiti dell’istanza di Adobe Campaign.
 
@@ -145,9 +149,9 @@ Riduzione della quantità di duplicati in caso di un nuovo tentativo:
 
 * Verificare che `DELIVER_SM PDU` provenga dal provider e che sia ben formato.
 
-* Verifica che Adobe Campaign risposte con successo `DELIVER_SM_RESP PDU` in modo tempestivo. Su Adobe Campaign Standard, questo garantisce che l&#39;intera logica di elaborazione è stata applicata, in caso contrario è garantito avere un messaggio di errore nei registri che spiega perché l&#39;elaborazione non è riuscita.
+* Controlla che Adobe Campaign risponda con `DELIVER_SM_RESP PDU` riuscito in modo tempestivo. Su Adobe Campaign Standard, questo garantisce che sia stata applicata l’intera logica di elaborazione. In caso contrario, viene visualizzato un messaggio di errore nei registri che indica il motivo per cui l’elaborazione non è riuscita.
 
-Se il `DELIVER_SM PDU` riconoscimento non viene riconosciuto correttamente, è necessario verificare quanto segue:
+Se `DELIVER_SM PDU` non è riconosciuto correttamente, verificare quanto segue:
 
 * Controlla il codice regex relativo all&#39;estrazione degli ID e all&#39;elaborazione degli errori in **Account esterno**. Potrebbe essere necessario convalidarli in base al contenuto di `DELIVER_SM PDU`.
 
@@ -155,13 +159,13 @@ Se il `DELIVER_SM PDU` riconoscimento non viene riconosciuto correttamente, è n
 
 * Per Adobe Campaign Standard, verificare che `broadLog` e `broadLogExec` tabelle siano sincronizzate correttamente.
 
-Se hai risolto il problema ma alcuni non valido SR sono ancora nei buffer del provider, puoi ignorarli utilizzando l&#39;opzione **Conteggio** di riconoscimenti ID non valido. Questo deve essere usato con cautela e reimpostato su 0 il più rapidamente possibile dopo che i buffer sono puliti.
+Se sono stati corretti tutti gli errori ma alcuni SR non validi sono ancora presenti nei buffer del provider, puoi saltarli utilizzando l&#39;opzione **Numero di conferme ID non valido**. Questo deve essere usato con cautela e azzerato a 0 il più rapidamente possibile dopo la pulizia dei buffer.
 
-## Problema durante l&#39;elaborazione di MO (e denylist/risposta automatica){#issue-process-MO}
+## Problema durante l’elaborazione del MO (e della risposta automatica di elenco Bloccati/){#issue-process-MO}
 
-* Abilitare le tracce SMPP durante i test. Se non si abilita TLS, è necessario eseguire un&#39;acquisizione di rete durante la risoluzione dei problemi relativi a MO per verificare che le PDU contengano le informazioni corrette e siano formattate correttamente.
+* Abilita le tracce SMPP durante i test. Se non si abilita TLS, è necessario eseguire un&#39;acquisizione di rete durante la risoluzione dei problemi di MO per verificare che le PDU contengano le informazioni corrette e siano formattate correttamente.
 
-* Quando si acquisiscono traffico di rete o si analizzano le tracce SMPP, assicurarsi di acquisire l&#39;intera conversazione con il MO e la sua risposta MT se una risposta è configurata.
+* Quando acquisisci il traffico di rete o analizzi le tracce SMPP, assicurati di acquisire l’intera conversazione con il MO e il relativo messaggio MT di risposta se è configurata una risposta.
 
 * Se il messaggio MO (`DELIVER_SM PDU`) non viene visualizzato nelle tracce, il problema è sul lato del provider. Dovranno risolvere i problemi sulla loro piattaforma.
 
@@ -239,7 +243,7 @@ L’acquisizione di rete non è sempre necessaria, in genere è sufficiente disp
 
 * Disconnessioni inspiegabili senza messaggio di errore, il comportamento abituale del connettore quando rileva un errore di protocollo di basso livello.
 
-* Il provider si lamenta del processo di separazione/disconnessione.
+* Il provider si lamenta del processo di annullamento/disconnessione.
 
 * Problemi di codifica nei campi TLV facoltativi.
 
@@ -247,9 +251,9 @@ L’acquisizione di rete non è sempre necessaria, in genere è sufficiente disp
 
 In tutte le altre situazioni, prova ad analizzare prima i messaggi SMPP dettagliati e a richiedere un’acquisizione di rete solo se è chiaro che mancano informazioni nei registri dettagliati.
 
-In alcuni casi, non è necessario acquisire il traffico di rete. Ecco le situazioni più comuni:
+In alcuni casi, non è necessario acquisire il traffico di rete. Di seguito sono elencate le situazioni più comuni:
 
-* TLS abilitato: per definizione, il traffico TLS è crittografato, quindi non può essere acquisito.
+* TLS abilitato: per definizione, il traffico TLS è crittografato e non può essere acquisito.
 
 * Problemi di prestazioni: i registri contengono tutte le informazioni necessarie per tracciare i problemi di prestazioni.
 

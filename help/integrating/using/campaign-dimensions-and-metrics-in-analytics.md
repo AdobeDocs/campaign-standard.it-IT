@@ -9,9 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PSAzSStMFWofMteBu3jMSizD2kj1M9F7-0iO3dcugjY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: 320
 ht-degree: 3%
 
 ---
@@ -40,7 +44,7 @@ La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di segu
   </tr> 
   <tr> 
    <td> ID consegna<br /> </td> 
-   <td> Nome interno della consegna, come visualizzato in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente programmata per inviare consegne secondarie ogni settimana. DM2, DM3 e DM4 vengono inviati per le prime tre settimane. La dimensione ID consegna visualizzerà quindi i risultati per ogni consegna, ovvero da DM1 a DM4. <br /> </td> 
+   <td> Nome interno della consegna visualizzato in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente programmata per inviare consegne secondarie ogni settimana. DM2, DM3 e DM4 vengono inviati per le prime tre settimane. La dimensione ID consegna visualizzerà quindi i risultati per ogni consegna, ovvero da DM1 a DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Etichetta di consegna<br /> </td> 
@@ -48,7 +52,7 @@ La campagna **[!UICONTROL dimensions]** trovata in Analytics è elencata di segu
   </tr> 
   <tr> 
    <td> ID consegna eseguita<br /> </td> 
-   <td> Nome interno della consegna, come visualizzato in Campaign. Questo riguarda solo la consegna in esecuzione in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente programmata per inviare consegne secondarie ogni settimana. DM2, DM3 e DM4 vengono inviati per le prime tre settimane. La dimensione ID consegna eseguita visualizzerà quindi i risultati per le consegne eseguite, ovvero le consegne figlie DM2, DM3 e DM4. <br /> </td> 
+   <td> Nome interno della consegna, come visualizzato in Campaign. Ciò riguarda solo la consegna in esecuzione in Campaign.<br /> Ad esempio, DM1 è una consegna ricorrente programmata per inviare consegne secondarie ogni settimana. DM2, DM3 e DM4 vengono inviati per le prime tre settimane. La dimensione ID consegna eseguita visualizzerà quindi i risultati per le consegne eseguite, ovvero le consegne figlie DM2, DM3 e DM4. <br /> </td> 
   </tr> 
   <tr> 
    <td> Etichetta di consegna eseguita<br /> </td> 

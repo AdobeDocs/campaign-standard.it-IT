@@ -8,9 +8,14 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/XYTeliw80GkBHk3-1DFWD-CE-85irbDAAjcuOSbQvLI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 303
 ht-degree: 3%
 
 ---
@@ -29,7 +34,7 @@ A seconda della configurazione, sono disponibili i seguenti tipi di immagini:
 
 >[!CAUTION]
 >
->Se scegli di aggiungere un&#39;immagine direttamente modificando la versione HTML dell&#39;e-mail, non devi richiamare **file esterni in un tag &lt;script>** della pagina HTML. Questi file non verranno importati sul server Adobe Campaign.
+>Se scegli di aggiungere un&#39;immagine direttamente modificando la versione HTML dell&#39;e-mail, non devi chiamare **file esterni in un tag &lt;script>** della pagina HTML. Questi file non verranno importati sul server Adobe Campaign.
 
 ### Inserimento di immagini in un messaggio e-mail {#inserting-images-in-an-email}
 
@@ -55,7 +60,7 @@ Quando selezioni un blocco che contiene un’immagine, nella palette vengono off
 * **Titolo immagine** consente di definire un titolo per l&#39;immagine.
 * **Testo alt** (e-mail) o **Didascalia** (pagina di destinazione) consente di definire la didascalia collegata all&#39;immagine (corrisponde all&#39;attributo HTML **alt**).
 * Durante la modifica di un&#39;e-mail, **Style** ti consente di specificare la dimensione dell&#39;immagine, lo sfondo e il bordo.
-* Quando modifichi una pagina di destinazione, **Dimension** ti consente di specificare la dimensione dell&#39;immagine in pixel.
+* Durante la modifica di una pagina di destinazione, **Dimensions** ti consente di specificare la dimensione dell&#39;immagine in pixel.
 
 L&#39;editor consente di utilizzare **tutti i tipi di immagine** i cui formati sono compatibili con i browser. Per la compatibilità con l&#39;editor, le animazioni di tipo **&quot;Flash&quot;** devono essere inserite in una pagina HTML nel modo seguente:
 

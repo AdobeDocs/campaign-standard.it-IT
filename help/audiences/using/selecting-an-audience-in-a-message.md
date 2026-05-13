@@ -9,9 +9,13 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Ev0HCh32pGzPlVPe8SrCwBOFdEh-iXSGI6XYt9WMmLc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: 414
 ht-degree: 66%
 
 ---
@@ -39,7 +43,7 @@ Se il messaggio è già stato creato, puoi definire i tipi di pubblico al moment
 
 1. Definisci il **[!UICONTROL Target]** principale del messaggio e-mail. Si tratta del pubblico target regolare del messaggio e-mail.
 
-   La destinazione è definita nella scheda **[!UICONTROL Target]** ed è composta da profili identificati nel database. Puoi stabilire il target principale utilizzando le funzionalità dell’[editor delle query](../../automating/using/editing-queries.md#creating-queries).
+   La destinazione è definita nella scheda **[!UICONTROL Target]** ed è composta da profili identificati nel database. Puoi stabilire il target principale utilizzando le funzionalità dell’[editor di query](../../automating/using/editing-queries.md#creating-queries).
 
    In questa scheda, la palette **[!UICONTROL Shortcuts]** contiene solo filtri preimpostati e i tipi di pubblico definiti nei profili identificati. La scheda **[!UICONTROL Explorer]** ti consente di accedere a configurazioni aggiuntive.
 

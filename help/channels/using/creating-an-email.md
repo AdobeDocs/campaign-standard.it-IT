@@ -8,10 +8,17 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/iqQ7Cbo3tVTu348U1mHHoi7skHMjZF3D4Qw3zvHbLVk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 15%
+source-wordcount: 584
+ht-degree: 16%
 
 ---
 
@@ -19,7 +26,7 @@ ht-degree: 15%
 
 Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activities.md#creating-a-marketing-activity), dalla [home page](../../start/using/interface-description.md#home-page) di Adobe Campaign o dal [elenco attività di marketing](../../start/using/marketing-activities.md#about-marketing-activities). Puoi anche creare e-mail a invio singolo e ricorrenti da un flusso di lavoro.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#video)
 
 1. Dopo aver iniziato a creare un’attività di e-mail marketing, seleziona il modello da utilizzare.
 
@@ -104,6 +111,6 @@ Puoi creare un&#39;e-mail da una [campagna](../../start/using/marketing-activiti
 
 Questo video mostra come creare un messaggio e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/329904?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

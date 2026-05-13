@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/H-WFy-faNPufQFw5A-zN8c-G7rqwUuXTQ8iGN1CDk00
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 778
 ht-degree: 1%
 
 ---
@@ -23,13 +29,13 @@ E-mail Designer consente di modificare diversi rendering delle e-mail. Puoi gene
 
 Per impostazione predefinita, la versione **[!UICONTROL Plain text]** dell&#39;e-mail viene generata automaticamente e sincronizzata con la versione **[!UICONTROL Edit]**.
 
-I campi di personalizzazione e i blocchi di contenuto aggiunti alla versione di HTML vengono sincronizzati anche con la versione di testo normale.
+I campi di personalizzazione e i blocchi di contenuto aggiunti alla versione HTML vengono sincronizzati anche con la versione di testo normale.
 
 >[!NOTE]
 >
 >Per utilizzare i blocchi di contenuto nella versione in testo normale, assicurati che non contengano codice HTML.
 
-Per avere una versione di testo normale diversa da quella di HTML, è possibile disabilitare questa sincronizzazione facendo clic sull&#39;opzione **[!UICONTROL Sync with HTML]** nella visualizzazione **[!UICONTROL Plain text]** dell&#39;e-mail.
+Per avere una versione di testo normale diversa da quella di HTML, è possibile disabilitare la sincronizzazione facendo clic sull&#39;opzione **[!UICONTROL Sync with HTML]** nella visualizzazione **[!UICONTROL Plain text]** dell&#39;e-mail.
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,7 +43,7 @@ Puoi quindi modificare la versione di testo normale come desiderato.
 
 >[!NOTE]
 >
->Se si modifica la versione **[!UICONTROL Plain text]** mentre la sincronizzazione è disabilitata, alla successiva attivazione dell&#39;opzione **[!UICONTROL Sync with HTML]** tutte le modifiche apportate nella versione in testo normale verranno sostituite con la versione HTML. Le modifiche apportate nella visualizzazione **[!UICONTROL Plain text]** non possono essere applicate alla visualizzazione **[!UICONTROL HTML]**.
+>Se si modifica la versione di **[!UICONTROL Plain text]** mentre la sincronizzazione è disabilitata, alla successiva attivazione dell&#39;opzione **[!UICONTROL Sync with HTML]**, tutte le modifiche apportate nella versione in testo normale verranno sostituite con la versione di HTML. Le modifiche apportate nella visualizzazione **[!UICONTROL Plain text]** non possono essere applicate alla visualizzazione **[!UICONTROL HTML]**.
 
 ## Modifica di un’origine di contenuto e-mail in HTML {#editing-an-email-content-source-in-html}
 
@@ -49,9 +55,9 @@ Puoi modificare la versione HTML dell’e-mail in due modi:
 
   ![](assets/email_designer_html1.png)
 
-* Dall&#39;interfaccia WYSIWYG, selezionare un elemento e fare clic sull&#39;icona **[!UICONTROL Source code]**.
+* Dall&#39;interfaccia di WYSIWYG, selezionare un elemento e fare clic sull&#39;icona **[!UICONTROL Source code]**.
 
-  Viene visualizzata solo l’origine dell’elemento selezionato. È possibile modificare il codice sorgente se l&#39;elemento selezionato è un componente di contenuto **[!UICONTROL HTML]**. Gli altri componenti sono in modalità di sola lettura, ma possono ancora essere modificati nella versione completa HTML dell’e-mail.
+  Viene visualizzata solo l’origine dell’elemento selezionato. È possibile modificare il codice sorgente se l&#39;elemento selezionato è un componente di contenuto **[!UICONTROL HTML]**. Altri componenti sono in modalità di sola lettura, ma possono ancora essere modificati nella versione HTML completa dell’e-mail.
 
   ![](assets/email_designer_html2.png)
 
@@ -98,7 +104,7 @@ Tutte le opzioni di stile sono disponibili nella vista per dispositivi mobili. L
    >
    >L&#39;unica eccezione è rappresentata dalle impostazioni **[!UICONTROL Style inline]**. Qualsiasi modifica all&#39;impostazione in linea dello stile viene applicata anche alla visualizzazione standard del desktop.
 
-1. Qualsiasi altra modifica alla struttura o al contenuto dell’e-mail, ad esempio modifiche di testo, caricamento di una nuova immagine, aggiunta di un nuovo componente e così via. viene applicato anche alla visualizzazione standard.
+1. Qualsiasi altra modifica alla struttura o al contenuto dell’e-mail, ad esempio modifiche di testo, caricamento di una nuova immagine, aggiunta di un nuovo componente e così via, viene applicata anche alla vista standard.
 
    Ad esempio, torna alla visualizzazione per dispositivi mobili, modifica del testo e sostituisci un’immagine.
 

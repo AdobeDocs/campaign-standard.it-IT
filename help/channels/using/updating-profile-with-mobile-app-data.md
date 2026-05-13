@@ -9,9 +9,13 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: 1006
 ht-degree: 2%
 
 ---
@@ -32,7 +36,7 @@ L’obiettivo di questo caso d’uso è quello di creare o aggiornare un profilo
 Esistono diversi passaggi di configurazione da seguire per abilitare le notifiche push in Campaign Standard, prima che i profili possano essere creati o aggiornati in base ai dati di abbonamento all’app mobile:
 
 1. [Creare un’applicazione mobile](../../administration/using/configuring-a-mobile-application.md)
-1. [Integra l&#39;SDK di Adobe Mobile con la tua app mobile](../../administration/using/supported-mobile-use-cases.md).
+1. [Integra Adobe Mobile SDK con la tua app mobile](../../administration/using/supported-mobile-use-cases.md).
 1. [Configura Adobe Campaign per inviare notifiche push](../../administration/using/configuring-a-mobile-application.md).
 
 ## Passaggio 1: estendere la risorsa profilo per le notifiche push/sottoscrizioni
@@ -114,7 +118,7 @@ Nella scheda **[!UICONTROL General]**, impostare **[!UICONTROL Execution frequen
 
 1. Nella scheda **[!UICONTROL Fields to update]** fare clic sul pulsante **[!UICONTROL Create element]**, quindi mappare i campi provenienti dalla tabella appSubscriptionRcp (campo **[!UICONTROL Source]**) con i campi che si desidera aggiornare nella tabella dei profili (campo **[!UICONTROL Destination]**).
 
-1. Nel campo **[!UICONTROL Enabled if]**, aggiungere un&#39;espressione per garantire che il campo corrispondente nella tabella Profile venga aggiornato solo se il campo di origine contiene un valore. A questo scopo, seleziona il campo dall’elenco, quindi aggiungi &quot;!Espressione =&#39;&#39;&quot; (se il campo Source è `[target/@cusEmail]` nell&#39;editor espressioni, assicurati di digitare `[target/@cusEmail] != ''"`).
+1. Nel campo **[!UICONTROL Enabled if]**, aggiungere un&#39;espressione per garantire che il campo corrispondente nella tabella Profile venga aggiornato solo se il campo di origine contiene un valore. A questo scopo, seleziona il campo dall’elenco, quindi aggiungi l’espressione &quot;!=&quot; (se il campo Source è `[target/@cusEmail]` nell’editor espressioni, assicurati di digitare `[target/@cusEmail] != ''"`).
 
    ![](assets/update_profile8.png)
 

@@ -8,10 +8,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/ThX9BHPlbOlav6-5z8P1ruwSc2-phnvnkqjLaSZO3Fs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 3%
+source-wordcount: 662
+ht-degree: 4%
 
 ---
 
@@ -25,15 +30,15 @@ La tabella seguente fornisce informazioni sulle regole di filtro predefinite e s
 
 | Etichetta | Canale | Descrizione |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | Tutto | Esclude la popolazione target senza indirizzo specificato (e-mail, indirizzo postale, ecc.) in base al canale selezionato). |
-| **[!UICONTROL Address on denylist]** | Tutto | Esclude gli indirizzi presenti nel inserisco nell&#39;elenco Bloccati di. |
-| **[!UICONTROL Duplicate]** | Tutto | Esclude i duplicati in base al campo della popolazione di destinazione **[!UICONTROL Address]**. |
-| **[!UICONTROL Exclude mobile applications]** | Applicazione mobile | Sono escluse le sottoscrizioni di app che non corrispondono a quelle dell’app mobile definita nel messaggio. |
+| **[!UICONTROL Address not specified]** | Tutti | Esclude la popolazione target senza indirizzo specificato (e-mail, indirizzo postale, ecc. in base al canale selezionato). |
+| **[!UICONTROL Address on denylist]** | Tutti | Esclude gli indirizzi presenti nel inserisco nell&#39;elenco Bloccati di. |
+| **[!UICONTROL Duplicate]** | Tutti | Esclude i duplicati in base al campo della popolazione di destinazione **[!UICONTROL Address]**. |
+| **[!UICONTROL Exclude mobile applications]** | App mobile | Sono escluse le sottoscrizioni di app che non corrispondono a quelle dell’app mobile definita nel messaggio. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In-app | Sono escluse le sottoscrizioni di app che non corrispondono a quelle definite nel messaggio per app mobili (modello in-app). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In-app | Esclude gli abbonamenti alle app che non corrispondono a quelli dell’app mobile definita nel messaggio (modello di trasmissione in-app) |
-| **[!UICONTROL Exclude mobile applications for Push]** | Applicazione mobile | Esclude gli abbonamenti alle app che non corrispondono a quelli dell’app mobile definita nel messaggio (per push) |
-| **[!UICONTROL Quarantined address]** | Tutto | Esclude gli indirizzi messi in quarantena. |
-| **[!UICONTROL Target limited in size]** | Tutto | Controlla se è stata raggiunta la dimensione massima di consegna per la destinazione. Si applica alle consegne di direct mailing con l’opzione &quot;delivery limit&quot; attivata. |
+| **[!UICONTROL Exclude mobile applications for Push]** | App mobile | Esclude gli abbonamenti alle app che non corrispondono a quelli dell’app mobile definita nel messaggio (per push) |
+| **[!UICONTROL Quarantined address]** | Tutti | Esclude gli indirizzi messi in quarantena. |
+| **[!UICONTROL Target limited in size]** | Tutti | Controlla se è stata raggiunta la dimensione massima di consegna per la destinazione. Si applica alle consegne di direct mailing con l’opzione &quot;delivery limit&quot; attivata. |
 
 Oltre a queste regole di filtro predefinite, sono disponibili due regole di esclusione:
 

@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/JWuP-ztPWX--nU-tPpPYUrwL-FsEKTJqdWX1KByF-80
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 79%
+source-wordcount: 270
+ht-degree: 78%
 
 ---
 
@@ -27,7 +31,7 @@ Puoi inviare un’e-mail di targeting ai clienti contenente le offerte sui loro 
 
 ## Selezione dei destinatari contattabili tramite e-mail{#selecting-recipients-contactable-via-email}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un&#39;attività [&#x200B; &#x200B;](../../automating/using/query.md)Query![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, trascina e rilascia un&#39;attività ![](assets/query.png) [Query](../../automating/using/query.md).
 1. Fai doppio clic sull’attività.
 1. In **[!UICONTROL Shortcuts]**, trascina e rilascia **[!UICONTROL Profiles]** e seleziona il campo **[!UICONTROL email]** con l’operatore **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]**, trascina e rilascia **[!UICONTROL Profiles]** e seleziona il campo **[!UICONTROL no longer contact by email]** con il valore **[!UICONTROL no]**.

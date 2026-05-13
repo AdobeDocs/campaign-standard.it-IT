@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: 961
 ht-degree: 0%
 
 ---
@@ -38,7 +43,7 @@ Un token di accesso OAuth consente allo strumento di integrazione di eseguire l�
 
 I passaggi principali sono descritti nel seguente video:
 
->[!VIDEO](https://video.tv.adobe.com/v/328146?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Per generare il token di accesso OAuth, segui i passaggi descritti di seguito.
 
@@ -59,7 +64,7 @@ Per ulteriori informazioni sulla creazione di una nuova applicazione, consultare
 
 >[!NOTE]
 >
->La directory di Microsoft Azure assegna un ID applicazione (client) univoco all&#39;app. Questo ID sarà necessario successivamente nella configurazione di Dynamics 365, nonché quando esegui la configurazione dello strumento di integrazione.
+>Microsoft Azure Directory assegna un ID applicazione (client) univoco all’app. Questo ID sarà necessario successivamente nella configurazione di Dynamics 365, nonché quando esegui la configurazione dello strumento di integrazione.
 
 ### Genera segreto client {#generate-a-client-secret}
 

@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 845
 ht-degree: 6%
 
 ---
@@ -25,7 +30,7 @@ La funzionalità deve essere attivata in Adobe Campaign da Adobe. Contatta il re
 Per attivare i trigger, il team di Adobe avrà bisogno delle seguenti informazioni:
 
 * Nome società Marketing Cloud
-* ID organizzazione 
+* ID organizzazione
 * Società di accesso ad Analytics (può essere la stessa del nome della società Marketing Cloud)
 
 ## Configurazione di soluzioni e servizi {#configuring-solutions-and-services}
@@ -96,7 +101,7 @@ L’alias a cui si fa riferimento in precedenza in DTM deve essere creato nel se
 
 Crea un nuovo trigger in Experience Cloud e accertati di selezionare la suite di rapporti utilizzata sul tuo sito web. Assicurati di scegliere la dimensione giusta in modo che il trigger si attivi.
 
-Consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=it).
+Consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## Best practice e limitazioni relative agli attivatori {#triggers-best-practices-and-limitations}
 

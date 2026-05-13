@@ -9,9 +9,16 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
+TQID: https://experienceleague.adobe.com/vveKWyxi6u44BmNqzEVeMwPvtvP8uWhAI-4UMD2CnVU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: d3b34fea-a110-482f-adb2-aae8d686bac8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 996
 ht-degree: 8%
 
 ---
@@ -20,11 +27,11 @@ ht-degree: 8%
 
 Un messaggio transazionale è una comunicazione singola e univoca, inviata in tempo reale da un provider, ad esempio un sito web. È particolarmente atteso, perché contiene informazioni importanti che il destinatario desidera controllare o confermare.
 
-* **Quando scade?** Poiché questo messaggio contiene informazioni importanti, l&#39;utente si aspetta che vengano inviate in tempo reale. Di conseguenza, il ritardo tra l’attivazione dell’evento e l’arrivo del messaggio deve essere molto breve.
+* **Quando scade?** Poiché questo messaggio contiene informazioni importanti, l’utente si aspetta che vengano inviate in tempo reale. Di conseguenza, il ritardo tra l’attivazione dell’evento e l’arrivo del messaggio deve essere molto breve.
 
 * **Perché è importante?** In genere, un messaggio sulle transazioni ha tassi di apertura elevati. Dovrebbe quindi essere concepita con attenzione, in quanto può avere un forte impatto sul comportamento dei clienti in quanto definisce la relazione con essi.
 
-* **Ad esempio?** Potrebbe trattarsi di un messaggio di benvenuto dopo la creazione di un account, di una conferma della spedizione di un ordine, di una fattura, di un messaggio di conferma di una modifica della password o di una notifica dopo che un cliente ha visitato il tuo sito Web, ecc.
+* **Ad esempio?** Potrebbe trattarsi di un messaggio di benvenuto dopo la creazione di un account, di una conferma della spedizione di un ordine, di una fattura, di un messaggio di conferma di una modifica della password o di una notifica dopo che un cliente ha visitato il tuo sito web, ecc.
 
 Adobe Campaign consente di integrare questa funzionalità con un sistema di informazioni che invia eventi da trasformare in messaggi transazionali personalizzati.
 
@@ -109,7 +116,7 @@ Per ulteriori informazioni sulla modifica e la pubblicazione di un messaggio sul
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-Dopo aver creato un evento, devi integrarne l’attivazione nel sito web.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Per eseguire questa operazione, lo sviluppatore Web del sito Web deve utilizzare l&#39;**API REST di Adobe Campaign Standard**.
+Dopo aver creato un evento, è necessario integrare l&#39;attivazione di questo evento nel sito Web.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> A tale scopo, lo sviluppatore Web del sito Web deve utilizzare l&#39;**API REST di Adobe Campaign Standard**.
 
 | Implementare il trigger | Utente | Azione | Risultato |
 | --- |--- |--- |--- |

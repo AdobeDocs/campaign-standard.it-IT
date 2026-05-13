@@ -6,10 +6,15 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/4hy5-pubF9F2FDQGaC7GF-BfMHqMDykC4mtypRc-zsk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 12%
+source-wordcount: 512
+ht-degree: 18%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 12%
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitoraggio delle consegne</a></p></td></tr>
 </table>
 
-Campaign Standard offre diversi modi per monitorare le istanze per garantire che il sistema sia integro e, infine, per risolvere eventuali problemi che possono verificarsi durante la configurazione di flussi di lavoro, l’invio di consegne, ecc.
+Campaign Standard offre diversi modi per monitorare le istanze per garantire che il sistema sia integro e, infine, risolvere i problemi che possono verificarsi durante la configurazione dei flussi di lavoro, l’invio di consegne, ecc.
 
 ## Monitoraggio del sistema {#monitoring-system}
 
@@ -29,7 +34,7 @@ Campaign Standard offre diversi modi per monitorare le istanze per garantire che
 
 **Notifiche di sistema**
 
-L’interfaccia di Campaign Standard fornisce un riquadro di notifica che consente di essere tenuti informati su ciò che accade nel sistema: stati degli eventi, aggiornamenti del sistema, azioni necessarie, ecc. [Ulteriori informazioni](../../start/using/interface-description.md#top-bar)
+L&#39;interfaccia di Campaign Standard fornisce un riquadro di notifica che consente di essere tenuti informati su ciò che accade nel sistema: stati degli eventi, aggiornamenti del sistema, azione richiesta, ecc. [Ulteriori informazioni](../../start/using/interface-description.md#top-bar)
 
 
 **Flussi di lavoro tecnici**
@@ -83,7 +88,7 @@ Campaign Standard ti consente di inviare notifiche ai supervisori per monitorare
 
 **Deliverability**
 
-Campaign Standard fornisce diversi strumenti di recapito messaggi per aiutarti a migliorare il numero di messaggi consegnati correttamente: rapporti sulla velocità effettiva di consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
+Campaign Standard fornisce diversi strumenti di recapito dei messaggi per aiutarti a migliorare il numero di messaggi consegnati correttamente: rapporti sulla velocità effettiva di consegna, ottimizzazione del tempo di invio, anteprima dei messaggi, rendering delle e-mail, gestione della quarantena, ecc.
 [Ulteriori informazioni](../../sending/using/about-deliverability.md)
 
 **Consegne**

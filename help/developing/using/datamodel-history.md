@@ -7,10 +7,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/HW5N4zs81-HaJcpbxLVFOnvoGHGnq3h10lmkQQcplw4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 9%
+source-wordcount: 1348
+ht-degree: 10%
 
 ---
 
@@ -100,7 +103,7 @@ ht-degree: 9%
                <tr>
                   <td>paese (paesi)</td>
                   <td>Paese</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -110,7 +113,7 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>creato</td>
+                  <td>creata</td>
                   <td>Creato</td>
                   <td>data </td>
                   <td> </td>
@@ -118,13 +121,13 @@ ht-degree: 9%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>Creato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cusHobbieslink (cusHobbies)</td>
                   <td>CusHobbieslink</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -226,14 +229,14 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>mobilePhone</td>
-                  <td>Mobile</td>
+                  <td>Dispositivi mobili</td>
                   <td>stringa (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>Modificato da</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -251,7 +254,7 @@ ht-degree: 9%
                <tr>
                   <td>stateLink (state)</td>
                   <td>Stato</td>
-                  <td>link </td>
+                  <td>collegamento </td>
                   <td> </td>
                </tr>
                <tr>
@@ -485,7 +488,7 @@ Per nome o e-mail (byText)
 <th>Tipo</th>
 </tr>
 <tr>
-<td>text</td>
+<td>testo</td>
 <td>stringa</td>
 </tr>
 </table>
@@ -499,7 +502,7 @@ Per pubblico statico (byStaticAudience)
 </tr>
 <tr>
 <td>pubblico</td>
-<td>link</td>
+<td>collegamento</td>
 </tr>
 </table>
 
@@ -512,7 +515,7 @@ Clic effettuato (hasClickedDelivery)
 </tr>
 <tr>
 <td>consegna</td>
-<td>link</td>
+<td>collegamento</td>
 </tr>
 </table>
 
@@ -525,7 +528,7 @@ Aperto (hasOpenedDelivery)
 </tr>
 <tr>
 <td>consegna</td>
-<td>link</td>
+<td>collegamento</td>
 </tr>
 </table>
 
@@ -538,7 +541,7 @@ Profilo (profilo)
 </tr>
 <tr>
 <td>profilo</td>
-<td>link</td>
+<td>collegamento</td>
 </tr>
 </table>
 
@@ -551,7 +554,7 @@ Received (hasReceivedDelivery)
 </tr>
 <tr>
 <td>consegna</td>
-<td>link</td>
+<td>collegamento</td>
 </tr>
 </table>
 
@@ -564,6 +567,6 @@ Abbonati (subscribers)
 </tr>
 <tr>
 <td>servizio</td>
-<td>link</td>
+<td>collegamento</td>
 </tr>
 </table>

@@ -9,10 +9,15 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/csDw0anKGvAW22BcB5p0Rb1bHYA2NvdWpLVIWtZrC98
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 94%
+source-wordcount: 454
+ht-degree: 91%
 
 ---
 
@@ -22,16 +27,16 @@ ht-degree: 94%
 
 I profili di test ti consentono di eseguire il targeting di destinatari aggiuntivi che non soddisfano i criteri di targeting definiti. Vengono aggiunti al pubblico di un messaggio per rilevare eventuali utilizzi fraudolenti del database dei destinatari o per assicurarsi che le e-mail arrivino nelle caselle in entrata.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#video)
 
 Puoi gestire i profili di test dal menu avanzato **[!UICONTROL Profiles & audiences > Test profiles]**.
 
 Un profilo di test contiene informazioni di contatto fittizie, o informazioni di contatto controllate dal mittente, che possono essere utilizzate in un messaggio nei seguenti contesti:
 
 * Per l’invio di **bozze**: la bozza è un messaggio specifico utilizzato per verificare il messaggio prima di inviare la consegna finalizzata ai destinatari. Un profilo di test di bozza è incaricato di verificare la consegna per quanto riguarda il contenuto e il formato. Consulta [Invio di bozze](../../sending/using/sending-proofs.md).
-* Per il **rendering di e-mail**: il profilo di test per il rendering di e-mail viene utilizzato per verificare il modo in cui un messaggio viene visualizzato in base alla casella in entrata del messaggio che lo riceve. Ad esempio, posta sul web, servizio messaggi, dispositivi mobili, ecc. Consulta [Rendering di e-mail](../../sending/using/email-rendering.md).
+* Per **Rendering e-mail**: il profilo di test Rendering e-mail viene utilizzato per verificare il modo in cui un messaggio viene visualizzato in base alla casella in entrata del messaggio che lo riceve. Ad esempio, posta sul web, servizio messaggi, dispositivi mobili, ecc. Vedi [Rendering di e-mail](../../sending/using/email-rendering.md).
 
-  L’utilizzo del **rendering di e-mail** è di sola lettura. I profili di test con questo utilizzo sono disponibili solo preconfigurati in Adobe Campaign.
+  L’utilizzo di **Rendering e-mail** è di sola lettura. I profili di test con questo utilizzo sono disponibili solo preconfigurati in Adobe Campaign.
 
 * Come una **trappola**: il messaggio viene inviato al profilo di test esattamente come viene inviato al target principale. Consulta [Utilizzo delle “trappole”](../../sending/using/using-traps.md).
 * Per **visualizzare in anteprima** i messaggi: quando visualizzi l’anteprima di un messaggio per testare gli elementi di personalizzazione, puoi selezionare un profilo di test. Consulta [Anteprima dei messaggi](/help/sending/using/previewing-messages.md).
@@ -40,7 +45,7 @@ Un profilo di test contiene informazioni di contatto fittizie, o informazioni di
 
 ## Creazione di profili di test {#creating-test-profiles}
 
-1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **Profiles &amp; audiences > Test profiles** per accedere all’elenco dei profili di test.
+1. Dal menu avanzato, tramite il logo Adobe Campaign, seleziona **Profiles &amp; Audiences > Profili di test** per accedere all’elenco dei profili di test.
 
    ![](assets/test_profile_creation_1.png)
 
@@ -82,6 +87,6 @@ Per modificare un profilo di test e consultare i dati ad esso collegati, oppure 
 
 Questo video mostra come creare un profilo di test.
 
->[!VIDEO](https://video.tv.adobe.com/v/329657?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

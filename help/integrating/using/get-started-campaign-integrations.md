@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/ertIWjv9n88c9As-BDvGXtzsod8Bce4yTYEVpmeZeEo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 77%
+source-wordcount: 760
+ht-degree: 75%
 
 ---
 
@@ -28,13 +35,13 @@ Le diverse integrazioni indicate di seguito permettono di combinare le funzional
 
 A seconda dell’ambiente, è possibile collegare ad Adobe Experience Cloud altre soluzioni come Organizzazioni (o Tenant).
 
-Un’organizzazione è un’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come una log-in company che abbraccia tutti i prodotti e le soluzioni di Experience Cloud. Nella maggior parte dei casi l’organizzazione corrisponde al nome aziendale, ma una stessa azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è illustrata nel dettaglio nella [Guida di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=it).
+Un’organizzazione è un’entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L’organizzazione funziona come una log-in company che abbraccia tutti i prodotti e le soluzioni di Experience Cloud. Nella maggior parte dei casi l’organizzazione corrisponde al nome aziendale, ma una stessa azienda può avere molte organizzazioni. La gestione di utenti e organizzazioni è illustrata nel dettaglio nella [Guida di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
 
 Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, consulta la [documentazione sulle API](../../api/using/get-started-apis.md).
 
 >[!NOTE]
 >
-> Adobe Campaign Standard può connettersi anche a Microsoft Dynamics 365: questa integrazione consente la sincronizzazione di tutti i dati di contatto disponibili nel sistema di gestione delle relazioni con i clienti, rendendo disponibili tutti quelli pertinenti alle attività della campagna. Per ulteriori informazioni su questa integrazione, consulta [Utilizzo di Campaign e Dynamics 365](../../integrating/using/d365-acs-get-started.md).
+>Adobe Campaign Standard può connettersi anche a Microsoft Dynamics 365: questa integrazione consente la sincronizzazione di tutti i dati di contatto disponibili nel sistema di gestione delle relazioni con i clienti, rendendo disponibili tutti quelli pertinenti alle attività della campagna. Per ulteriori informazioni su questa integrazione, consulta [Utilizzo di Campaign e Dynamics 365](../../integrating/using/d365-acs-get-started.md).
 
 
 <table> 
@@ -50,14 +57,14 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
    <td> Adobe Experience Manager<br /> </td> 
    <td> Consente di creare contenuti e-mail o forms mappati al database Adobe Campaign direttamente in Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Utilizzo di Campaign e Experience Manager</a>, <a href="https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrazione di Experience Manager e Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=it">Creazione di un messaggio e-mail con Experience Manager e Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Utilizzo di Campaign e Experience Manager</a>, <a href="https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integrazione di Experience Manager e Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Creazione di un messaggio e-mail con Experience Manager e Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Consente di inserire immagini calcolate dinamicamente da Adobe Target quando viene aperto un messaggio e-mail creato e inviato da Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=it">Integrazione di Campaign e Target</a>, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Video Personalizzazione immagini e-mail in tempo reale</a> (passaggio 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Utilizzo di Campaign e Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Integrazione di Campaign e Target</a>, <a href="https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html">Video Personalizzazione immagini e-mail in tempo reale</a> (passaggio 3)
     </td> 
   </tr> 
   <tr> 
@@ -97,7 +104,7 @@ Se desideri integrare i flussi di dati da altri sistemi con Adobe Campaign, cons
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign Standard nel contesto di Adobe Journey Orchestration, tramite un'azione preconfigurata.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=it">Utilizzo di Adobe Journey Orchestration e Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Utilizzo di Adobe Journey Orchestration e Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

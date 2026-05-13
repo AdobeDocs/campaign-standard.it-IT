@@ -8,10 +8,14 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 93%
+source-wordcount: 1037
+ht-degree: 89%
 
 ---
 
@@ -72,7 +76,7 @@ In questo caso è stato aggiornato solo il primo profilo, perché si trattava de
 Prima di impostare una pagina di destinazione, il primo passaggio consiste nel configurare un modello di pagina di destinazione che corrisponda alle tue esigenze. Al termine della preparazione del modello, tutte le pagine di destinazione basate su di esso vengono preconfigurate con i parametri desiderati.
 
 1. Seleziona **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]** dal menu avanzato, tramite il logo di Adobe Campaign, quindi duplica il modello da utilizzare.
-1. Nelle proprietà del modello, specifica tutti i parametri comuni alle pagine di destinazione. Ad esempio: la dimensione di targeting, i parametri di accesso alla pagina per visitatori identificati o non identificati, le azioni specifiche per la convalida del modulo da parte di un visitatore, il brand/logo da utilizzare nel contenuto, ecc. Per ulteriori informazioni sulle proprietà delle pagine di destinazione, consulta [questa sezione](../../channels/using/configuring-landing-page.md).
+1. Nelle proprietà del modello, specifica tutti i parametri comuni alle pagine di destinazione. Ad esempio: la dimensione di targeting, i parametri di accesso alla pagina per visitatori identificati o non identificati, le azioni specifiche per la convalida del modulo da parte di un visitatore, il brand/logo da utilizzare nel contenuto, ecc. Per ulteriori informazioni sulle proprietà delle pagine di destinazione, consulta [questa sezione](../../channels/using/configuring-landing-page.md)
 1. Salva le modifiche.
 
 Per ulteriori informazioni sui modelli delle pagine di destinazione, consulta [questa sezione](../../channels/using/getting-started-with-landing-pages.md).
@@ -120,7 +124,7 @@ Se sei soddisfatto del funzionamento della pagina di destinazione, puoi pubblica
 
 Per ulteriori informazioni su come verificare una pagina di destinazione, consulta [questa sezione](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-).
 
-## Passaggio 5: Publish della pagina di destinazione {#publish-the-landing-page}
+## Passaggio 5: pubblicare la pagina di destinazione {#publish-the-landing-page}
 
 Se i test hanno avuto esito positivo, puoi pubblicare la pagina di destinazione utilizzando il pulsante **[!UICONTROL Publish]** presente nella barra delle azioni del dashboard. Un blocco di monitoraggio mostra l’avanzamento e lo stato della pubblicazione.
 
@@ -136,6 +140,6 @@ Per ulteriori informazioni sulla pubblicazione di una pagina di destinazione, co
 
 Questo video mostra come creare e modificare una pagina di destinazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/39282?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

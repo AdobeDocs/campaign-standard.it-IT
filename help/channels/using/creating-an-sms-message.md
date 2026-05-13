@@ -9,9 +9,15 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/Y9oiKbi65Zl6pRoi10SHvEecQ5zeWbpK0rBLAhsPliE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: 568
 ht-degree: 87%
 
 ---
@@ -22,7 +28,7 @@ Creare una consegna di SMS è una procedura molto simile a quella per una normal
 
 I parametri SMS avanzati sono descritti in dettaglio nella sezione relativa alla [configurazione di SMS](../../administration/using/configuring-sms-channel.md).
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#video)
 
 Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
@@ -78,7 +84,7 @@ Per creare e inviare messaggi SMS a un cellulare, è necessario:
 
 Il messaggio viene inviato. Puoi controllarne la consegna tramite il dashboard e i registri dei messaggi.
 
-Al termine dell’invio, puoi iniziare a misurare l’impatto del messaggio con i rapporti di consegna predefiniti o personalizzati.
+Al termine dell’invio, puoi iniziare a misurare l’impatto del messaggio con i rapporti di consegna incorporati o personalizzati.
 
 **Argomenti correlati:**
 
@@ -89,6 +95,6 @@ Al termine dell’invio, puoi iniziare a misurare l’impatto del messaggio con 
 
 Questo video mostra come creare una consegna SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/329662/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

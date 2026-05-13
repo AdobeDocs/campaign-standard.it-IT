@@ -10,10 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 93%
+source-wordcount: 2262
+ht-degree: 92%
 
 ---
 
@@ -125,7 +131,7 @@ Se necessario per l’endpoint, sono disponibili due tipi di metodi di autentica
 
 ![](assets/externalAPI-execution.png)
 
-### Properties
+### Proprietà
 
 Questa scheda ti consente di controllare le **proprietà generali** dell’attività External API, come l’etichetta visualizzata nell’interfaccia utente. L’ID interno non è personalizzabile.
 
@@ -141,7 +147,7 @@ La scheda **Column definition** ti consente di specificare con precisione la str
 
 ![](assets/externalAPI-column.png)
 
-Ad esempio, puoi modificare l’etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data, ecc.) o anche specificare l’elaborazione degli errori.
+Ad esempio, puoi modificare l’etichetta di una colonna, selezionarne il tipo (stringa, numero intero, data e così via) o persino specificare l’elaborazione dell’errore.
 
 Per ulteriori informazioni, consulta la sezione [Load file](../../automating/using/load-file.md).
 
@@ -290,7 +296,7 @@ Questi messaggi di log vengono utilizzati per registrare informazioni su condizi
   </tr>
   <tr> 
    <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
-   <td> <p>Impossibile trovare l’account esterno dell’ID 'EXT25'. Nota: questo errore indica che l’attività è configurata per utilizzare un account esterno che non è più possibile trovare. È molto probabile che ciò avvenga quando l’account è stato cancellato dal DB, e per questo motivo non dovrebbe accadere in normali circostanze operative.</p></td>
+   <td> <p>Impossibile trovare l’account esterno dell’ID 'EXT25'.  Nota: questo errore indica che l’attività è configurata per utilizzare un account esterno che non è più possibile trovare. È molto probabile che ciò avvenga quando l’account è stato cancellato dal DB, e per questo motivo non dovrebbe accadere in normali circostanze operative.</p></td>
   </tr>
   <tr> 
    <td> WKF-560281 - External account of '%s' ID is disabled.</td> 

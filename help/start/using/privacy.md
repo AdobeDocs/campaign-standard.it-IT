@@ -13,9 +13,14 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: ht
-source-wordcount: '1377'
+TQID: https://experienceleague.adobe.com/o0pn-BQ8WMtzQLWcjINMhhGqdpQOJ5dYL02EXNeUZos
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1468
 ht-degree: 100%
 
 ---
@@ -63,7 +68,7 @@ Adobe Campaign fa parte delle soluzioni Adobe Experience Cloud. Il modo in cui v
 
 * **Scelte degli utenti in materia di privacy relative all’utilizzo di Adobe Experience Cloud**
 
-   Adobe richiede che tu fornisca ai clienti le informative sulla privacy che descrivono:
+  Adobe richiede che tu fornisca ai clienti le informative sulla privacy che descrivono:
 
    * Le tue prassi in materia di privacy in relazione ad Adobe Experience Cloud
    * In che modo gli utenti possono impostare le proprie preferenze per la raccolta o l’utilizzo delle proprie informazioni in relazione ad Adobe Experience Cloud
@@ -91,7 +96,7 @@ Pertanto, in quanto azienda che raccoglie e condivide dati personali, ricopri il
 
 ## Acquisizione dei dati {#data-acquisition}
 
- Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
+Adobe Campaign ti consente di raccogliere dati, incluse informazioni personali e riservate. È pertanto essenziale ricevere e monitorare il consenso dei destinatari.
 
 * Assicurati che i destinatari ricevano le comunicazioni solo se lo desiderano. Per farlo, accetta al più presto le richieste di rifiuto e verifica il consenso mediante un processo di doppio consenso. Per ulteriori informazioni, consulta [Gestione del consenso e del rifiuto in Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) e [Impostazione di un processo di doppio consenso](../../channels/using/setting-up-a-double-opt-in-process.md).
 * Non importare elenchi fraudolenti e utilizza “trappole” per verificare che il file client non venga utilizzato in modo fraudolento. Per ulteriori informazioni, consulta [Utilizzo delle “trappole”](../../sending/using/using-traps.md).
@@ -102,7 +107,7 @@ Pertanto, in quanto azienda che raccoglie e condivide dati personali, ricopri il
 
 La gestione della privacy si riferisce a tutti i processi e agli strumenti che possono aiutarti a rispettare le normative sulla privacy (GDPR, CCPA, ecc.). Per una panoramica sulla gestione della privacy, visita [questa pagina](../../start/using/privacy-management.md#privacy-management-regulations).
 
- Adobe Campaign offre varie serie di funzioni dedicate alla gestione della privacy:
+Adobe Campaign offre varie serie di funzioni dedicate alla gestione della privacy:
 * Gestione del consenso, conservazione dei dati e ruoli degli utenti. Vedi [questa sezione](#consent).
 * Richieste di accesso a dati personali (diritto di accesso e diritto all’oblio). Vedi [questa sezione](#privacy-requests).
 * Rinuncia alla vendita di informazioni personali (relativa al CCPA). Vedi [questa sezione](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
@@ -122,7 +127,7 @@ Per ulteriori informazioni su queste funzioni e su come gestirle in Adobe Campai
 
 ### Richieste di accesso a dati personali {#privacy-requests}
 
- Adobe Campaign offre funzionalità aggiuntive per consentirti di attenerti a determinate richieste di accesso a dati personali in qualità di titolare del trattamento:
+Adobe Campaign offre funzionalità aggiuntive per consentirti di attenerti a determinate richieste di accesso a dati personali in qualità di titolare del trattamento:
 
 * Il **diritto di accesso** è il diritto dell’interessato di ottenere conferma da parte del titolare del trattamento sul fatto che i dati personali che lo riguardano siano trattati o meno, su dove avvenga il trattamento e sullo scopo del trattamento.
 

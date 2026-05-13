@@ -8,10 +8,15 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+TQID: https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 80%
+source-wordcount: 1289
+ht-degree: 79%
 
 ---
 
@@ -48,7 +53,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
    ![](assets/inapp_creating.png)
 
-1. Seleziona un modello appropriato in base alle tue esigenze di definizione del pubblico di destinazione.
+1. Seleziona un modello appropriato in base alle tue esigenze di targeting del pubblico.
 
    ![](assets/inapp_creating_2.png)
 
@@ -80,7 +85,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
    * **[!UICONTROL Life Cycle events]**: eventi del ciclo di vita preconfigurati supportati dall’SDK mobile di Adobe.
 
-     Per ulteriori informazioni sugli eventi del ciclo di vita, consulta questa [pagina](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=it).
+     Per ulteriori informazioni sugli eventi del ciclo di vita, consulta questa [pagina](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Analytics Events]**: le tre categorie seguenti sono supportate a seconda degli strumenti utilizzati nella tua app mobile: Adobe Analytics, Dati contestuali o Stato di visualizzazione.
 
@@ -88,7 +93,7 @@ I passaggi per la creazione di un messaggio in-app autonomo con Adobe Campaign s
 
    * **[!UICONTROL Places]**: le tre categorie seguenti sfruttano i dati sulla posizione in tempo reale per fornire esperienze mobili contestualmente rilevanti: Dati contestuali di Places, Metadati personalizzati di Places o Tipo di evento Places.
 
-     Per ulteriori informazioni su Adobe Places, consulta la [documentazione su Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=it).
+     Per ulteriori informazioni su Adobe Places, consulta la [documentazione su Places](https://experienceleague.adobe.com/docs/places/using/home.html).
 
    ![](assets/inapp_creating_4.png)
 

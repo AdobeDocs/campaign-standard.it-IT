@@ -8,10 +8,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/lpPFofV3IPl7zmbaR4TOuyCcVqgjwI3maxr-jKzkd0Q
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 14%
+source-wordcount: 449
+ht-degree: 15%
 
 ---
 
@@ -30,15 +35,15 @@ Un insieme di regole predefinite garantisce i controlli standard. La tabella seg
 | Etichetta | Canale | Fase di esecuzione | Descrizione |
 |---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | E-mail | All’inizio della personalizzazione | Estrae la popolazione di test per una consegna con un test A/B. |
-| **[!UICONTROL Check delivery size]** | Tutto | Dopo il targeting | Controlla la dimensione dei messaggi. |
+| **[!UICONTROL Check delivery size]** | Tutti | Dopo il targeting | Controlla la dimensione dei messaggi. |
 | **[!UICONTROL Check email content is not empty]** | E-mail | Dopo il targeting | Genera un errore se il contenuto del messaggio è vuoto. |
 | **[!UICONTROL Check In-App content for broadcast template]** | In-app | All’inizio della personalizzazione | Controlla che il contenuto in-app e i trigger non siano vuoti per il modello di trasmissione. |
 | **[!UICONTROL Check In-App content for profile template]** | In-app | All’inizio della personalizzazione | Controlla che il contenuto in-app e i trigger non siano vuoti per il modello di profilo. |
 | **[!UICONTROL Check In-App content for subscriber template]** | In-app | All’inizio della personalizzazione | Controlla che il contenuto in-app e i trigger non siano vuoti per il modello di abbonato. |
-| **[!UICONTROL Check proof size]** | Tutto | Dopo il targeting | Genera un messaggio di errore se la popolazione target della bozza supera i 100 destinatari. |
+| **[!UICONTROL Check proof size]** | Tutti | Dopo il targeting | Genera un messaggio di errore se la popolazione target della bozza supera i 100 destinatari. |
 | **[!UICONTROL Check social network sharing link]** | E-mail | All’inizio della personalizzazione | Controlla la presenza di un collegamento a una pagina speculare quando si include nel contenuto un collegamento di condivisione social network (ViralLinks). |
 | **[!UICONTROL Check subject]** | E-mail | All’inizio della personalizzazione | Verifica che l&#39;oggetto e l&#39;indirizzo del mittente non contengano caratteri speciali che potrebbero causare problemi a determinati agenti di trasferimento della posta e verifica che l&#39;oggetto del messaggio sia stato completato. |
-| **[!UICONTROL Check unsubscription link]** | E-mail | All’inizio della personalizzazione | Verifica la presenza di almeno un URL di annullamento dell’abbonamento (rinuncia) in ogni contenuto (HTML e Text). |
+| **[!UICONTROL Check unsubscription link]** | E-mail | All’inizio della personalizzazione | Verifica la presenza di almeno un URL di annullamento dell’abbonamento (rinuncia) in ogni contenuto (HTML e Testo). |
 | **[!UICONTROL Check URL labels]** | E-mail | All’inizio della personalizzazione | Controlla che ogni URL di tracciamento abbia un’etichetta. |
 | **[!UICONTROL Check URLs]** | E-mail | All’inizio della personalizzazione | Controlla gli URL di tracciamento (presenza del carattere &quot;&amp;&quot;). |
 

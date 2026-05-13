@@ -6,9 +6,14 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/OjO9gSlb5OKrPgK2vNQsmEjJ3ykPPULZR5KOb5BenlU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: 844
 ht-degree: 4%
 
 ---
@@ -43,9 +48,9 @@ Le unità organizzative ti consentono di filtrare l’istanza a seconda dell’o
 
 In precedenza sono stati creati gruppi di sicurezza con ruoli diversi per due utenti: a un utente sono assegnati i gruppi di sicurezza Administrators e Geometrixx, all&#39;altro utente appartiene ai gruppi di sicurezza Standard user e Geometrixx Clothes Vedere [Creazione di un gruppo di sicurezza e assegnazione di utenti](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) per l&#39;esempio completo.
 
-Ora dobbiamo creare le unità organizzative per i gruppi di sicurezza Geometrixx Clothes e Geometrixx:
+Ora è necessario creare le unità organizzative per i gruppi di sicurezza Geometrixx Clothes e Geometrixx:
 
-1. Dal menu avanzato della campagna di Adobe, selezionare **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
+1. Dal menu avanzato di Adobe Campaign, selezionare **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
 1. Fai clic su **[!UICONTROL Create]** per iniziare a configurare l&#39;unità organizzativa.
 
    ![](assets/manage_units_1.png)
@@ -56,11 +61,11 @@ Ora dobbiamo creare le unità organizzative per i gruppi di sicurezza Geometrixx
    ![](assets/manage_units_2.png)
 
 1. Infine, fai clic su **[!UICONTROL Create]** per iniziare ad assegnare la nuova unità organizzativa al gruppo di sicurezza.
-1. Seguire la stessa procedura per l&#39;unità Geometrixx Clothes, tranne per il fatto che l&#39;unità padre deve essere l&#39;unità creata in precedenza, Geometrixx.
+1. Seguire la stessa procedura per l&#39;unità Geometrixx Clothes, tranne per il fatto che l&#39;unità principale deve essere l&#39;unità creata in precedenza, Geometrixx.
 
    ![](assets/manage_units_3.png)
 
-Per verificare l’impatto dell’assegnazione di diverse unità a gruppi di sicurezza diversi, l’utente assegnato all’amministratore e ai Geometrixx creerà due modelli e-mail per verificare a cosa possono o non possono accedere gli altri utenti assegnati a utenti standard e Geometrixx Clothes.
+Per verificare l’impatto dell’assegnazione di diverse unità a gruppi di sicurezza diversi, l’utente assegnato ai gruppi Amministratore e Geometrixx creerà due modelli e-mail per verificare a cosa possono o non possono accedere gli altri utenti assegnati a Utente standard e Geometrixx Clothes.
 
 1. Dal menu avanzato, selezionare **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
 1. Duplica un modello esistente e personalizzalo in base alle esigenze. Per ulteriori informazioni, consulta la sezione [Informazioni sui modelli](../../start/using/marketing-activity-templates.md).
@@ -70,21 +75,21 @@ Per verificare l’impatto dell’assegnazione di diverse unità a gruppi di sic
 
 1. Nel menu a discesa **[!UICONTROL Access authorization]**, seleziona l&#39;unità organizzativa.
 
-   Stiamo per creare un modello con il Geometrixx di unità organizzativa creato in precedenza.
+   Stiamo per creare un modello con l’unità organizzativa Geometrixx creata in precedenza.
 
    ![](assets/manage_units_5.png)
 
 1. Segui le stesse procedure per creare il secondo modello assegnato all’unità organizzativa Geometrixx Clothes creata in precedenza.
 
-Gli utenti assegnati ai gruppi **Utente standard** e **Abbigliamento Geometrixx** potranno visualizzare entrambi i modelli. A causa della struttura gerarchica delle unità organizzative, queste disporranno dell’accesso in lettura e scrittura al modello collegato all’unità Geometrixx Clothes e dell’accesso in sola lettura al modello collegato all’unità Geometrixx.
+Gli utenti assegnati ai gruppi **Utente standard** e **Geometrixx Clothes** potranno visualizzare entrambi i modelli. A causa della struttura gerarchica delle unità organizzative, queste disporranno dell’accesso in lettura e scrittura al modello collegato all’unità Geometrixx Clothes e dell’accesso in sola lettura al modello collegato all’unità Geometrixx.
 
 ![](assets/manage_units_7.png)
 
-Poiché l&#39;unità Geometrixx Clothes è un&#39;unità figlio di Geometrixx Geometrixx, quando gli utenti tentano di modificare il modello viene visualizzato il seguente messaggio:
+Poiché l&#39;unità Geometrixx Clothes è un&#39;unità figlio di Geometrixx, quando gli utenti tentano di modificare il modello Geometrixx viene visualizzato il seguente messaggio:
 
 ![](assets/manage_units_8.png)
 
-Le unità organizzative possono limitare l’accesso a diverse funzioni, ad esempio i profili. Se ad esempio gli utenti di Geometrixx Clothes accedono alla scheda **[!UICONTROL Profiles]**, potranno accedere e modificare completamente i profili con l&#39;unità organizzativa Geometrixx Clothes.
+Le unità organizzative possono limitare l’accesso a diverse funzioni, ad esempio i profili. Ad esempio, se gli utenti di Geometrixx Clothes accedono alla scheda **[!UICONTROL Profiles]**, potranno accedere e modificare completamente i profili con l&#39;unità organizzativa Geometrixx Clothes.
 
 Mentre i profili con l&#39;unità organizzativa Geometrixx saranno di sola lettura, se gli utenti tentano di modificare un profilo verrà visualizzato il seguente errore: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 

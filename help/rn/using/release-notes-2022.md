@@ -5,9 +5,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1254'
+TQID: https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1254
 ht-degree: 100%
 
 ---
@@ -29,7 +34,7 @@ Questa versione include il seguente aggiornamento di sicurezza: Apache Tomcat è
 ### Correzioni{#rn-fixes}
 
 * È stato risolto un problema relativo ai rapporti pianificati, che venivano attivati un’ora prima del tempo programmato. (CAMP-51502)
-* È stato risolto un problema relativo agli indicatori di consegna nella dashboard di consegna che non corrispondevano ai registri di invio (nms:broadLogRcp).(CAMP-51127)
+* È stato risolto un problema relativo agli indicatori di consegna nella dashboard di consegna che non corrispondevano ai registri di invio (nms:broadLogRcp). (CAMP-51127)
 * È stato risolto un problema che impediva l’estensione delle risorse personalizzate con il connettore ACS (offerta Prime). (CAMP-51033)
 * È stato migliorato il processo di pubblicazione delle risposte alle richieste di accesso a dati personali per evitare ritardi. (CAMP-50613)
 
@@ -76,7 +81,7 @@ Questa versione include il seguente aggiornamento di sicurezza: Apache Tomcat è
 <tbody> 
 <tr> 
 <td>
-<p>Apache log4j ha risolto le vulnerabilità riportate nella versione di Apache log4j v2.17.1.Adobe Campaign Standard utilizza Apache log4j e questa versione include il più recente Apache log4j v2.17.1 </p>
+<p>Apache log4j ha risolto le vulnerabilità riportate nella versione di Apache log4j v2.17.1. Adobe Campaign Standard utilizza Apache log4j e questa versione include il più recente Apache log4j v2.17.1 </p>
 </td> 
 </tr> 
 </tbody> 
@@ -99,7 +104,7 @@ Questa versione include il seguente aggiornamento di sicurezza: Apache Tomcat è
 **Patch**
 
 * È stato risolto un problema relativo all’opzione **Send report now** (Invia rapporto ora) nei rapporti dinamici: i processi di generazione di PDF non riuscivano in presenza di consegne con più varianti. (CAMP-49120)
-* È stato risolto un problema che impediva agli utenti di aggiornare o scollegare il contenuto Adobe Experience Manager (AEM) dalle consegne Adobe Campaign Standard quando un contenuto duplicato in AEM condivideva la stessa chiave (cq:uuid).(CAMP-49161)
+* È stato risolto un problema che impediva agli utenti di aggiornare o scollegare il contenuto Adobe Experience Manager (AEM) dalle consegne Adobe Campaign Standard quando un contenuto duplicato in AEM condivideva la stessa chiave (cq:uuid). (CAMP-49161)
 * È stato corretto un errore che si verificava durante l’accesso a un’istanza in cui le pagine non venivano caricate oppure non era possibile aprire le consegne o salvare eventuali modifiche in sospeso. (CAMP-50195)
 * È stato risolto un problema che impediva l’apertura dei criteri di avviso di consegna se non veniva compilato il campo **Delivery filter** (Filtro di consegna) applicato da questo criterio. (CAMP-49093)
 * È stato risolto un problema che si verificava durante la modifica del pulsante **Secondary** (Secondario) nelle consegne in-app, impedendo di tenere conto delle modifiche. (CAMP-50250)

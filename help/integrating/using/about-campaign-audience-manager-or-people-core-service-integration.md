@@ -9,10 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 18%
+source-wordcount: 520
+ht-degree: 22%
 
 ---
 
@@ -36,7 +40,7 @@ L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
 
   L’ID verrà quindi riconosciuto dalle altre applicazioni Adobe Marketing Cloud con lo stesso CNAME.
 
-* **ID dichiarato**: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con gli elementi del database di Adobe Campaign. In Adobe Campaign è rappresentato come chiave di riconciliazione predefinita. Quando si scambiano dati, agli identificatori del database di Adobe Campaign viene applicato l’hash. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o esportazione.
+* **ID dichiarato**: questo tipo di ID consente di riconciliare qualsiasi tipo di dati con gli elementi del database di Adobe Campaign. In Adobe Campaign è rappresentato come chiave di riconciliazione predefinita. Quando si scambiano dati, agli identificatori del database di Adobe Campaign viene applicato l’hash. Questi ID con hash vengono quindi confrontati con gli ID con hash del pubblico Adobe Marketing Cloud coinvolto nell’importazione o esportazione.
   <br>Questa integrazione supporta gli ID dichiarati regolari, gli ID dichiarati con hash e gli ID dichiarati crittografati.
 
   >[!NOTE]

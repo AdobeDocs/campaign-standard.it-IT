@@ -5,9 +5,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '5384'
+source-wordcount: 5477
 ht-degree: 3%
 
 ---
@@ -28,11 +35,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> Messaggistica in-app (versione beta)<br /> </td> 
-   <td> La messaggistica in-app consente di coinvolgere in modo più efficace gli utenti di app mobili tramite interazione contestuale e la possibilità di raggiungere gli utenti che hanno disattivato le notifiche push. Utilizza la messaggistica in-app insieme alle notifiche push per creare un’esperienza altamente personalizzata e rilevante. Questo porta a una migliore conversione e conservazione degli utenti dell’app.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/about-in-app-messaging.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> La messaggistica in-app consente di coinvolgere in modo più efficace gli utenti di app mobili tramite interazione contestuale e la possibilità di raggiungere gli utenti che hanno disattivato le notifiche push. Utilizza la messaggistica in-app insieme alle notifiche push per creare un’esperienza altamente personalizzata e rilevante. Ciò consente di migliorare la conversione e la conservazione degli utenti dell'app.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/about-in-app-messaging.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integrazione di Adobe Launch per le app mobili (beta)<br /> </td> 
-   <td> L’integrazione di Adobe Launch con Adobe Campaign semplifica e automatizza il processo di attivazione delle proprietà di app mobili in Campaign, utilizzando Mobile SDK V5.<br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’integrazione di Adobe Launch con Adobe Campaign semplifica e automatizza ora il processo di attivazione delle proprietà di app mobili in Campaign, utilizzando Mobile SDK V5.<br /> Per ulteriori informazioni, consulta la <a href="https://docs.adobe.com/content/help/it-IT/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,14 +116,14 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> Gestione utenti<br /> </td> 
-   <td> A partire dalla versione 18.7, la funzionalità per unità geografiche non è più disponibile per le nuove istanze di Campaign Standard, né per le istanze esistenti prive di unità geografiche.<br /> Per ulteriori informazioni, fare riferimento a questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.<br /> </td> 
+   <td> A partire dalla versione 18.7, la funzionalità dell'unità geografica non è più disponibile per le nuove istanze di Campaign Standard, né per le istanze esistenti senza unità geografiche create.<br /> Per ulteriori informazioni, fare riferimento a questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Miglioramenti**
 
-* L&#39;integrazione di Adobe Campaign e Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=it) di Target. Quando includi un’immagine dinamica da Adobe Target in un messaggio e-mail, ora puoi specificare una proprietà Target (codice at_property).
+* L&#39;integrazione di Adobe Campaign e Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) di Target. Quando includi un’immagine dinamica da Adobe Target in un messaggio e-mail, ora puoi specificare una proprietà Target (codice at_property).
 * Le risorse personalizzate con un collegamento di copia verso la risorsa dei profili ora vengono prese in considerazione dalle richieste di accesso/cancellazione della privacy GDPR. Per i collegamenti semplici a 1 cardinalità e i collegamenti di raccolta con cardinalità N, è necessario selezionare nella risorsa personalizzata &quot;L’eliminazione o la duplicazione del record di destinazione implica l’eliminazione o la duplicazione dei record a cui fa riferimento il collegamento&quot;. Per i collegamenti semplici con cardinalità 0 o 1, seleziona &quot;L’eliminazione o la duplicazione del record implica l’eliminazione o la duplicazione del record di destinazione a cui fa riferimento il collegamento&quot;.
 
 **Altre modifiche**
@@ -194,15 +201,15 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> RGPD: integrazione dei servizi core<br /> </td> 
-   <td> L’integrazione del servizio core per la privacy consente di automatizzare le richieste RGPD in un contesto multisoluzione tramite una singola chiamata API JSON. <br /> richieste RGPD inviate dal servizio core per la privacy a tutte le soluzioni Experience Cloud vengono ora gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’integrazione del servizio core per la privacy consente di automatizzare le richieste RGPD in un contesto multisoluzione tramite una singola chiamata API JSON. <br /> Le richieste RGPD inviate dal servizio core per la privacy a tutte le soluzioni Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti push - feedback dettagliato sulla consegna<br /> </td> 
-   <td> Adobe Campaign ora consente di ricevere feedback dettagliati (registri di invio e registri di esclusione) sui messaggi push dai provider (APNS/GCM) tramite MCPNS.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentazione dettagliata</a>.<br /> </td> 
+   <td> Adobe Campaign ora consente di ricevere feedback dettagliati (log di invio e log di esclusione) sui messaggi push dai provider (APNS/GCM) tramite MCPNS.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Estensione dei registri di consegna<br /> </td> 
-   <td> L’estensione dei registri di consegna ti consente di estendere l’invio dei registri con i dati di profilo e il codice del segmento provenienti dai flussi di lavoro. Queste informazioni possono quindi essere utilizzate nei report dinamici e consentono di conservare un’istantanea di alcune informazioni al momento dell’invio di una consegna.<br /> Altri 2 casi d'uso:<br /> 
+   <td> L’estensione dei registri di consegna ti consente di estendere l’invio dei registri con i dati di profilo e il codice del segmento provenienti dai flussi di lavoro. Queste informazioni possono quindi essere utilizzate nei report dinamici e consentono di conservare un'istantanea di alcune informazioni al momento dell'invio di una consegna.<br /> Altri 2 casi d'uso:<br /> 
     <ul> 
      <li> Esportare broadlog estesi con dati "congelati": in qualità di addetto al marketing, vorrei esportare tutti i profili in cui il codice segmento è uguale a "A" (proveniente dal motore del flusso di lavoro). </li> 
      <li> Segmentazione sui dati "congelati": in qualità di addetto marketing, desidero <strong>reindirizzare</strong> tutti i profili che hanno ottenuto 1000 punti fedeltà dall'ultimo invio o in cui il codice segmento era uguale a "A". </li> 
@@ -292,29 +299,29 @@ _Risorse personalizzate_
  <tbody> 
   <tr> 
    <td> Regolamento generale sulla protezione dei dati UE (RGPD)<br /> </td> 
-   <td> Il RGPD è la nuova legge sulla privacy dell’Unione europea (UE) che armonizza e modernizza i requisiti in materia di protezione dei dati, in vigore dal 25 maggio 2018. Il GDPR si applica ai clienti di Adobe Campaign che conservano dati per soggetti che risiedono nell’Unione europea.<br /> Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (tra cui la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), in qualità di responsabile del trattamento dei dati stiamo sfruttando questa opportunità per includere funzionalità aggiuntive, al fine di aiutarti ad essere pronto a determinate richieste RGPD in qualità di titolare del trattamento dei dati:<br /> 
+   <td> Il RGPD è la nuova legge sulla privacy dell’Unione europea (UE) che armonizza e modernizza i requisiti in materia di protezione dei dati, in vigore dal 25 maggio 2018. Il RGPD si applica ai clienti di Adobe Campaign che detengono dati per soggetti residenti nell'UE.<br /> Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (tra cui la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), in qualità di responsabile del trattamento dei dati stiamo sfruttando l'opportunità di includere funzionalità aggiuntive per aiutarti ad essere pronto a determinate richieste RGPD in qualità di titolare del trattamento dei dati:<br /> 
     <ul> 
      <li> Diritto di accesso: consente all’interessato di ricevere una copia dei suoi dati personali acquisiti dai titolari del trattamento, inclusi potenzialmente i dati memorizzati in Adobe Campaign. </li> 
      <li> Diritto di cancellazione: autorizza l’interessato a richiedere la cancellazione dei suoi dati personali acquisiti dai titolari del trattamento, inclusi potenzialmente i dati memorizzati in Adobe Campaign. </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
-   <td> Il nuovo Creative Designer di Adobe Campaign offre un’esperienza di creazione completamente integrata in Campaign, che consente di creare visivamente in modo rapido e semplice e-mail accattivanti e personalizzate in modo individuale, senza la necessità di scrivere una singola riga di codice. Grazie alla potente interfaccia di trascinamento, Creative Designer consente di ridimensionare la creazione delle e-mail sia che gli utenti inizino da una lavagna vuota, sia che sfruttino frammenti di contenuto o modelli esistenti. Le funzionalità chiave di <br /> includono:<br /> 
+   <td> Il nuovo Creative Designer di Adobe Campaign offre un’esperienza di creazione completamente integrata in Campaign, che consente di creare visivamente in modo rapido e semplice e-mail accattivanti e personalizzate in modo individuale, senza la necessità di scrivere una singola riga di codice. Grazie alla potente interfaccia di trascinamento, Creative Designer consente di ridimensionare la creazione delle e-mail sia che gli utenti inizino da una lavagna vuota, sia che sfruttino frammenti di contenuto o modelli esistenti. <br /> Le funzionalità principali includono:<br /> 
     <ul> 
      <li> Progetta visivamente e crea e-mail completamente personalizzate e reattive tramite un’interfaccia a trascinamento, migliorata dalle integrazioni native di Creative Cloud </li> 
      <li> Crea e salva un modello di contenuto e-mail e sfrutta i modelli salvati per ridimensionare la creazione di e-mail </li> 
-     <li> Crea e salva frammenti di contenuto (come intestazione, piè di pagina, articolo, ecc.) per semplificare la creazione di contenuti e garantire la coerenza del brand </li> 
+     <li> Creare e salvare frammenti di contenuto (come intestazione, piè di pagina, articolo, ecc.) per semplificare la creazione di contenuti e garantire la coerenza del brand </li> 
      <li> Passa facilmente dalla creazione nell’interfaccia di trascinamento alla modifica diretta del HTML di un’e-mail con un clic </li> 
-    </ul> Creative Designer for Email è disponibile solo in inglese.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e guarda questo <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">video</a>.<br /> </td> 
+    </ul> Creative Designer for Email è disponibile solo in inglese.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e guarda questo <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegne push multilingue<br /> </td> 
-   <td> La stessa semplice interfaccia multilingue, già esistente sui canali E-mail e SMS, è stata aggiunta al canale push per coinvolgere i clienti indipendentemente dalla lingua preferita.<br /> Questa funzionalità offre una soluzione scalabile e automatica per i clienti che gestiscono campagne push in più aree geografiche e desiderano indirizzare gli utenti nella lingua preferita. Consente di caricare tutte le varianti linguistiche tramite un foglio di calcolo basato su modelli in un’unica consegna push, con un solo clic. Adobe Campaign esegue quindi una segmentazione automatica in base alle preferenze della lingua dell’utente, contribuendo a ridurre le ridondanze semplificando i flussi di lavoro e il reporting.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/creating-a-multilingual-push-notification.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Al canale push è stata aggiunta la stessa semplice interfaccia multilingue, già esistente nei canali e-mail e SMS, che consente di coinvolgere i clienti indipendentemente dalla lingua preferita.<br /> Questa funzionalità offre una soluzione scalabile e automatica per i clienti che gestiscono campagne push in più aree geografiche e desiderano eseguire il targeting degli utenti nella lingua preferita. Consente di caricare tutte le varianti linguistiche tramite un foglio di calcolo basato su modelli in un’unica consegna push, con un solo clic. Adobe Campaign esegue quindi una segmentazione automatica in base alle preferenze di lingua degli utenti, contribuendo a ridurre le ridondanze semplificando i flussi di lavoro e il reporting.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/creating-a-multilingual-push-notification.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Utilizzo di risorse personalizzate nella messaggistica transazionale<br /> </td> 
-   <td> Oltre ai campi predefiniti, la messaggistica transazionale ora consente di utilizzare risorse personalizzate per arricchire il contenuto dei messaggi.<br /> Ad esempio:<br /> 
+   <td> Oltre ai campi predefiniti, la messaggistica transazionale ora consente di utilizzare risorse personalizzate per arricchire il contenuto dei messaggi.<br /> Esempio:<br /> 
     <ul> 
      <li> Sfruttare i campi personalizzati come criteri di riconciliazione per far corrispondere un messaggio transazionale a un profilo </li> 
      <li> Sfruttare profili completi, servizi e dati collegati per personalizzare ulteriormente i messaggi transazionali </li> 
@@ -386,7 +393,7 @@ _Messaggi transazionali_
   </tr> 
   <tr> 
    <td> Attività Enrichment: arricchisci i dati in base alle transizioni precedenti<br /> </td> 
-   <td> La nuova attività del flusso di lavoro <span class="uicontrol">Arricchimento</span> ti consente di sfruttare le transizioni in entrata e completare la transizione in uscita con ulteriori dati. Se esegui il targeting dei profili, l’attività di arricchimento ti consente di arricchire le informazioni sui profili con dati aggiuntivi non memorizzati nel database (provenienti, ad esempio, da un file importato).<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/enrichment.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> La nuova attività del flusso di lavoro <span class="uicontrol">Arricchimento</span> ti consente di sfruttare le transizioni in entrata e completare la transizione in uscita con ulteriori dati. Se si esegue il targeting dei profili, l'attività di arricchimento consente di arricchire le informazioni sui profili con dati aggiuntivi non memorizzati nel database (provenienti ad esempio da un file importato).<br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/enrichment.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,21 +453,21 @@ Potrebbero verificarsi alcuni problemi quando si utilizzano collegamenti di aiut
  <tbody> 
   <tr> 
    <td> Generazione di rapporti per la gestione dell'affaticamento<br /> </td> 
-   <td> Il reporting per la gestione dell’affaticamento è un rapporto dedicato e configurabile che mostra l’impatto delle regole di affaticamento sulle consegne nei canali e-mail, push, SMS e direct mailing all’interno di un intervallo di date specificato prima dell’invio. Con l’aggiunta di insight, che consente di visualizzare rapidamente tutte le campagne in conflitto in un’unica schermata, gli esperti di marketing sono in grado di pianificare le campagne di marketing in base a regole di affaticamento più efficaci e di assegnare priorità alle comunicazioni.<br /> Per ulteriori informazioni, consulta la <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentazione dettagliata</a>.<br /> </td> 
+   <td> Il reporting per la gestione dell’affaticamento è un rapporto dedicato e configurabile che mostra l’impatto delle regole di affaticamento sulle consegne nei canali e-mail, push, SMS e direct mailing all’interno di un intervallo di date specificato prima dell’invio. Aggiungendo insight, che consente di visualizzare rapidamente tutte le campagne in conflitto in un'unica schermata, gli esperti di marketing possono pianificare le campagne di marketing in base a regole di affaticamento impostate in modo più efficace e assegnare priorità alle comunicazioni.<br /> Per ulteriori informazioni, consulta la <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Condivisione report<br /> </td> 
-   <td> La condivisione dei rapporti ti consente di condividerli con gli utenti di Adobe Campaign sotto forma di allegato e-mail, anche su base periodica e automatizzata. Gli utenti che ricevono report ricorrenti possono annullare l’abbonamento a queste comunicazioni tramite un collegamento dedicato in ogni e-mail.<br /> Per ulteriori informazioni, consulta la <a href="../../reporting/using/reporting-interface.md#share-tab">documentazione dettagliata</a>.<br /> </td> 
+   <td> La condivisione dei rapporti ti consente di condividerli con gli utenti di Adobe Campaign sotto forma di allegato e-mail, anche su base periodica e automatizzata. Gli utenti che ricevono report ricorrenti possono annullare l'iscrizione a queste comunicazioni tramite un collegamento dedicato in ogni e-mail.<br /> Per ulteriori informazioni, consulta la <a href="../../reporting/using/reporting-interface.md#share-tab">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Pubblica nuove funzionalità<br /> </td> 
-   <td> Anteprima messaggi push - Anteprima di notifiche push su dispositivi iOS e Android dall’editor contenuti notifiche push per visualizzare esattamente ciò che i destinatari vedranno prima di testare o eseguire la consegna.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentazione dettagliata</a>.Contenuto <br /> disponibile - Quando non si aprono le app per periodi di tempo prolungati, i loro dati possono non essere più aggiornati. Questo comporta la necessità di aggiornare o sostituire i dati nel momento in cui un utente apre finalmente l’app, il che può causare ritardi nell’utilizzo dell’app. Con il supporto aggiunto di Contenuto disponibile, gli utenti di Adobe Campaign possono riattivare la loro app per aggiornare i dati in background durante la distribuzione di una notifica push, consentendo una maggiore coerenza e un maggiore controllo sull’esperienza in-app di un utente.<br /> Contenuto variabile - Con il supporto aggiunto di Contenuto variabile, gli utenti Adobe Campaign possono ora sfruttare le estensioni della loro app mobile per modificare ulteriormente il contenuto o la presentazione delle notifiche push in arrivo inviate da Adobe Campaign. Ad esempio, gli utenti possono sfruttare Contenuto variabile per: <br /> 
+   <td> Anteprima messaggi push - Anteprima di notifiche push su dispositivi iOS e Android dall'editor contenuti notifiche push per visualizzare esattamente ciò che i destinatari vedranno prima di testare o eseguire la consegna.<br /> Per ulteriori informazioni, consulta la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentazione dettagliata</a>.<br /> Contenuto disponibile - Quando non si aprono le app per periodi di tempo prolungati, i loro dati possono non essere più aggiornati. Questo comporta la necessità di aggiornare o sostituire i dati nel momento in cui un utente apre finalmente l’app, il che può causare ritardi nell’utilizzo dell’app. Con il supporto aggiunto di Contenuto disponibile, gli utenti di Adobe Campaign possono riattivare la loro app per aggiornare i dati in background durante la distribuzione di una notifica push, consentendo una maggiore coerenza e un maggiore controllo sull'esperienza in-app di un utente.<br /> Contenuto variabile - Con il supporto aggiunto di Contenuto variabile, gli utenti Adobe Campaign possono ora sfruttare le estensioni della loro app mobile per modificare ulteriormente il contenuto o la presentazione delle notifiche push in arrivo inviate da Adobe Campaign. Ad esempio, gli utenti possono sfruttare Contenuto variabile per: <br /> 
     <ul> 
      <li> decrittografare i dati consegnati in un formato crittografato </li> 
      <li> scaricare immagini o altri file multimediali e aggiungerli come allegati a una notifica </li> 
      <li> modificare il testo del corpo o del titolo di una notifica </li> 
      <li> aggiungere un identificatore di thread a una notifica </li> 
-    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consulta la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentazione dettagliata</a>.<br /> <strong>Avviso:</strong> questi aggiornamenti sulle notifiche push richiedono l'aggiornamento delle applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=it">questa nota tecnica</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consulta la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentazione dettagliata</a>.<br /> <strong>Avviso:</strong> questi aggiornamenti sulle notifiche push richiedono l'aggiornamento delle applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">questa nota tecnica</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegne ottimizzate in base al fuso orario<br /> </td> 
@@ -468,7 +475,7 @@ Potrebbero verificarsi alcuni problemi quando si utilizzano collegamenti di aiut
   </tr> 
   <tr> 
    <td> Attivazione attività segnale API<br /> </td> 
-   <td> Ora è possibile attivare un’attività di segnale per i flussi di lavoro direttamente dall’API di Adobe Campaign Standard.<br /> Per ulteriori informazioni, consulta la <a href="/help/api/using/triggering-a-signal-activity.md">documentazione dettagliata</a> .<br /> </td> 
+   <td> È ora possibile attivare un'attività di segnale per i flussi di lavoro direttamente dall'API Adobe Campaign Standard.<br /> Per ulteriori informazioni, consulta la <a href="/help/api/using/triggering-a-signal-activity.md">documentazione dettagliata</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>

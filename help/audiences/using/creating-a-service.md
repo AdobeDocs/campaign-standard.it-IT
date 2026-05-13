@@ -9,9 +9,13 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/uSoAvkY4kGrVnzSmHbgj1gd4YKPFFzSBC-4maW-9VEw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 442
 ht-degree: 92%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 92%
 
 Per poter gestire gli abbonamenti, devi innanzitutto creare un servizio e configurarlo. La configurazione di un nuovo servizio ti permette di specificare le conferme e-mail che i profili ricevono al momento dell’abbonamento al servizio o del suo annullamento. Puoi inoltre definire le pagine di destinazione per l’abbonamento e il suo annullamento collegate al servizio. Ad esempio, un collegamento di abbonamento a un servizio inserito in un messaggio e-mail indirizza automaticamente il profilo alla pagina di destinazione di abbonamento specificata nel servizio.
 
-![](assets/do-not-localize/how-to-video.png) [Guarda il video su questa funzione](#video)
+![](assets/do-not-localize/how-to-video.png) [Guarda un video su questa funzione](#video)
 
 Per configurare un servizio:
 
@@ -65,6 +69,6 @@ Dopo aver creato il servizio, puoi iniziare a promuoverlo.
 
 Questo video mostra come creare un servizio e gestirne gli abbonamenti.
 
->[!VIDEO](https://video.tv.adobe.com/v/329659?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

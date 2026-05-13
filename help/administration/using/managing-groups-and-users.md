@@ -6,10 +6,15 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
+TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 65%
+source-wordcount: 990
+ht-degree: 66%
 
 ---
 
@@ -25,7 +30,7 @@ I gruppi di sicurezza sono insiemi di utenti che condividono gli stessi ruoli e 
 
 Gli utenti devono sempre essere collegati a un gruppo di sicurezza. Questo ti consentirà di assegnare loro ruoli e unità organizzative specifici. Per limitare l&#39;accesso di un utente, non aggiungere l&#39;utente al gruppo Campaign **[!UICONTROL Standard Users]** poiché è collegato all&#39;unità organizzativa **[!UICONTROL All]**.
 
-Per ulteriori informazioni sui ruoli, la tabella nella pagina seguente presenta le operazioni possibili disponibili in base ai ruoli di un utente: [autorizzazioni Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it).
+Per ulteriori informazioni sui ruoli, la tabella nella pagina seguente presenta le operazioni possibili disponibili in base ai ruoli di un utente: [autorizzazioni Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 I gruppi di sicurezza predefiniti sono:
 

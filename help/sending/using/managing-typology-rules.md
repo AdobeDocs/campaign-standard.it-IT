@@ -9,10 +9,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/EAQzeoYku9S-ZThn-x3IBpLetTHqO2zNeY1ZsWQKVPE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 95%
+source-wordcount: 560
+ht-degree: 88%
 
 ---
 
@@ -20,13 +25,13 @@ ht-degree: 95%
 
 ## Informazioni sulle regole di tipologia {#about-typology-rules}
 
-Le regole di tipologia sono regole aziendali che ti consentono di eseguire controlli e filtrare il messaggio prima di inviarlo. I tipi disponibili di regole di tipologia sono:
+Le regole di tipologia sono regole di business che consentono di eseguire controlli e filtrare il messaggio prima di inviarlo. I tipi disponibili di regole di tipologia sono:
 
-* **Regole di filtro**: questo tipo di regola ti consente di escludere una parte del target del messaggio in base ai criteri definiti in una query, ad esempio profili in quarantena o profili che hanno ricevuto già un certo numero di e-mail. Per ulteriori informazioni, consulta [questa sezione](../../sending/using/filtering-rules.md).
+* **Regole di filtro**: questo tipo di regola ti consente di escludere una parte del target del messaggio in base ai criteri definiti in una query, ad esempio profili in quarantena o profili che hanno ricevuto già un certo numero di e-mail. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/filtering-rules.md).
 
-* **Regole di affaticamento**: questo tipo di regole ti permette di definire un numero massimo di messaggi per profilo, in modo da evitare di richiederli in eccesso. Per ulteriori informazioni, consulta [questa sezione](../../sending/using/fatigue-rules.md).
+* **Regole di affaticamento**: questo tipo di regole ti permette di definire un numero massimo di messaggi per profilo, in modo da evitare di richiederli in eccesso. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../sending/using/fatigue-rules.md).
 
-* **Regole di controllo**: questo tipo di regole consente all’utente di verificare la validità e la qualità dei messaggi prima che siano inviati, come la visualizzazione del carattere, la dimensione del messaggio SMS, il formato dell’indirizzo e così via. Per ulteriori informazioni, consulta [questa sezione](../../sending/using/control-rules.md).
+* **Regole di controllo**: questo tipo di regole consente all&#39;utente di verificare la validità e la qualità dei messaggi prima che vengano inviati, ad esempio la visualizzazione del carattere, la dimensione del messaggio SMS, il formato dell&#39;indirizzo e così via. Per ulteriori informazioni, consulta [questa sezione](../../sending/using/control-rules.md).
 
 Le regole di tipologia sono disponibili nel menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 

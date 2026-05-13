@@ -8,9 +8,14 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/QDye5eM-hWU3DB-OqrxDLIYPDw9YlokgF0XIjvzHfgI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: 1293
 ht-degree: 3%
 
 ---
@@ -47,7 +52,7 @@ Quando crei un’e-mail o una pagina di destinazione, puoi scegliere di caricare
 
    >[!NOTE]
    >
-   >[E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md) utilizza tag specifici. I contenuti standard di HTML caricati in Campaign devono corrispondere ai tag previsti per essere completamente compatibili e modificabili da E-mail Designer. Se non corrisponde, il contenuto viene caricato in [modalità di compatibilità](#compatibility-mode). Per rendere compatibili i contenuti esistenti, vedere [questa sezione](#editing-existing-contents-with-the-email-designer).
+   >[E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md) utilizza tag specifici. I contenuti HTML standard caricati in Campaign devono corrispondere ai tag previsti per essere completamente compatibili e modificabili da E-mail Designer. Se non corrisponde, il contenuto viene caricato in [modalità di compatibilità](#compatibility-mode). Per rendere compatibili i contenuti esistenti, vedere [questa sezione](#editing-existing-contents-with-the-email-designer).
 
 **Argomenti correlati:**
 
@@ -56,9 +61,9 @@ Quando crei un’e-mail o una pagina di destinazione, puoi scegliere di caricare
 
 ## Modifica dei contenuti esistenti con E-mail Designer{#editing-existing-contents-with-the-email-designer}
 
-Per sfruttare appieno le possibilità di modifica di [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md), il HTML caricato deve contenere tag specifici che lo rendano conforme all&#39;editor WYSIWYG.
+Per sfruttare appieno le possibilità di modifica di [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md), il HTML caricato deve contenere tag specifici che lo rendano conforme all&#39;editor di WYSIWYG.
 
-Se questo tag non è presente in tutto o in parte nel HTML, il contenuto verrà caricato in &#39; [modalità di compatibilità](#compatibility-mode)&#39;.
+Se il tag non è presente in tutto o in parte in HTML, il contenuto verrà caricato in &#39; [modalità di compatibilità](#compatibility-mode)&#39;.
 
 Per rendere completamente modificabile un contenuto esterno esistente all&#39;interno di E-mail Designer, consulta la sezione [Progettazione di un messaggio e-mail con contenuti esistenti](../../designing/using/using-existing-content.md).
 
@@ -77,7 +82,7 @@ Sono supportati i seguenti formati per l’importazione:
 
 >[!NOTE]
 >
->Per il contenuto delle e-mail, si consiglia di importare file HTML singoli con un foglio di stile incorporato.
+>Per il contenuto delle e-mail, si consiglia di importare singoli file HTML con un foglio di stile incorporato.
 
 #### Importazione di contenuto da un URL {#importing-content-from-a-url}
 
@@ -108,15 +113,15 @@ Scopri questa funzione nel video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-Sono disponibili altri video dimostrativi di Campaign Standard [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
+Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
 
 ### Recupero automatico del contenuto da un URL in fase di preparazione {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
-L’importazione di contenuto da un URL durante la preparazione del messaggio consente di recuperare il contenuto HTML più recente ogni volta che l’e-mail viene preparata. In questo modo, il contenuto delle e-mail ricorrenti è sempre aggiornato al momento dell’invio. Questa funzione consente inoltre di creare un messaggio pianificato in una data specifica, anche se il contenuto non è ancora pronto.
+L’importazione di contenuto da un URL durante la preparazione dei messaggi consente di recuperare il contenuto HTML più recente ogni volta che l’e-mail viene preparata. In questo modo, il contenuto delle e-mail ricorrenti è sempre aggiornato al momento dell’invio. Questa funzione consente inoltre di creare un messaggio pianificato in una data specifica, anche se il contenuto non è ancora pronto.
 
 Per recuperare il contenuto al momento della preparazione, effettua le seguenti operazioni:
 
-1. Selezionare l&#39;opzione **[!UICONTROL Content imported during preparation]**.
+1. Seleziona l’opzione **[!UICONTROL Content imported during preparation]**.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -157,13 +162,13 @@ Questi nuovi tentativi sono utili in questi casi:
 
 Quando carichi un contenuto, questo deve contenere tag specifici affinché sia completamente conforme e modificabile con l’editor WYSIWYG di E-mail Designer.
 
-Se il HTML caricato non è conforme, in tutto o in parte, all’assegnazione tag prevista, il contenuto viene quindi caricato in &quot;modalità di compatibilità&quot;, che limita le possibilità di modifica tramite l’interfaccia utente.
+Se tutto o parte del HTML caricato non è conforme all’assegnazione tag prevista, il contenuto viene quindi caricato in &quot;modalità di compatibilità&quot;, che limita le possibilità di modifica tramite l’interfaccia utente.
 
 Quando un contenuto viene caricato in modalità di compatibilità, è comunque possibile eseguire le seguenti modifiche tramite l’interfaccia (le azioni non disponibili sono nascoste):
 
 * Modifica del testo o dell&#39;immagine
 * Inserimento di collegamenti e campi di personalizzazione
-* Modifica alcune opzioni di stile sul blocco HTML selezionato
+* Modifica alcune opzioni di stile nel blocco HTML selezionato
 * Definizione del contenuto condizionale
 
 ![](assets/email_designer_compatibility.png)
@@ -190,11 +195,11 @@ Questo caso d’uso offre un modo rapido per convertire i messaggi e-mail di HTM
 
 >[!NOTE]
 >
->Analogamente alla modalità di compatibilità, un componente HTML può essere modificato con opzioni limitate: è possibile eseguire solo l’edizione sul posto.
+>Come la modalità di compatibilità, un componente HTML è modificabile con opzioni limitate: è possibile eseguire solo l’edizione sul posto.
 
-Al di fuori di E-mail Designer, accertati che il HTML originale sia diviso in sezioni riutilizzabili.
+Al di fuori di E-mail Designer, accertati che il HTML originale sia suddiviso in sezioni riutilizzabili.
 
-In caso contrario, ritaglia i diversi blocchi dal tuo HTML. Ad esempio:
+In caso contrario, ritaglia i diversi blocchi dal HTML. Ad esempio:
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->

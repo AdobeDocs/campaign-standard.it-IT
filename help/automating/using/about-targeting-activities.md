@@ -9,10 +9,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PPDlvoeHKNpeLfYe4qYFq7mzQUb3oR7XkrMK-jQFpmY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 35%
+source-wordcount: 437
+ht-degree: 54%
 
 ---
 
@@ -37,7 +43,7 @@ La sezione **[!UICONTROL Targeting]** include le seguenti attività:
 * [Deduplica](../../automating/using/deduplication.md)
 * [Arricchimento](../../automating/using/enrichment.md)
 
-Le attività **[!UICONTROL Targeting]** ti consentono di definire **codici di segmento** per le loro transizioni in uscita. Puoi quindi creare report basati su questi codici di segmento per misurare l’efficienza delle campagne di marketing. Per ulteriori informazioni, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).
+Le attività **[!UICONTROL Targeting]** ti consentono di definire **codici di segmento** per le loro transizioni in uscita. Puoi quindi creare report basati su questi codici di segmento per misurare l’efficienza delle campagne di marketing. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Selezione dei dati {#selecting-data}
 
@@ -45,16 +51,16 @@ Puoi selezionare i dati utilizzando le seguenti attività:
 
 * L’attività **[!UICONTROL Query]** ti consente di filtrare ed estrarre una popolazione di elementi dal database di Adobe Campaign. Consulta la sezione [Query](../../automating/using/query.md).
 * L’attività **[!UICONTROL Incremental query]** ti consente di filtrare ed estrarre una popolazione di elementi dal database di Adobe Campaign. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Questo consente di eseguire il targeting solo dei nuovi elementi. Vedi. [Sezione Incremental query](../../automating/using/incremental-query.md).
-* L&#39;attività **[!UICONTROL Read audience]** ti consente di recuperare un pubblico esistente e di perfezionarlo applicando condizioni di filtro aggiuntive.Consulta la sezione [Read audience](../../automating/using/read-audience.md).
+* L’attività **[!UICONTROL Read audience]** ti consente di recuperare un pubblico esistente e di perfezionarlo applicando condizioni di filtro aggiuntive.Consulta la sezione [Read audience](../../automating/using/read-audience.md).
 
 ## Segmentazione dei dati {#segmenting-data}
 
 Adobe Campaign consente di elaborare i set sui dati in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni.
 
-* L&#39;attività **[!UICONTROL Union]** consente di raggruppare il risultato di più attività in un&#39;unica destinazione. Consulta la sezione [Unione](../../automating/using/union.md).
-* L&#39;attività **[!UICONTROL Intersection]** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all&#39;interno dell&#39;attività. Consulta la sezione [Intersezione](../../automating/using/intersection.md).
-* L&#39;attività **[!UICONTROL Exclusion]** ti consente di escludere elementi da una popolazione in base a determinati criteri. Consulta la sezione [Esclusione](../../automating/using/exclusion.md).
-* L’attività **[!UICONTROL Segmentation]** ti consente di creare uno o più segmenti da una popolazione calcolata dalle attività inserite in precedenza nel flusso di lavoro. Al termine dell’attività, possono essere elaborati in un’unica transizione o in diverse transizioni. Consulta la sezione [Segmentazione](../../automating/using/segmentation.md).
+* L’attività **[!UICONTROL Union]** ti consente di raggruppare il risultato di più attività in un unico target. Consulta la sezione [Unione](../../automating/using/union.md).
+* L’attività **[!UICONTROL Intersection]** ti consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività. Consulta la sezione [Intersezione](../../automating/using/intersection.md).
+* L’attività **[!UICONTROL Exclusion]** consente di escludere elementi da una popolazione in base a determinati criteri. Consulta la sezione [Esclusione](../../automating/using/exclusion.md).
+* L’attività **[!UICONTROL Segmentation]** ti consente di creare uno o più segmenti da una popolazione calcolata dalle attività inserite in precedenza nel flusso di lavoro. Al termine dell’attività, puoi elaborarli in un’unica transizione o in diverse transizioni. Consulta la sezione [Segmentazione](../../automating/using/segmentation.md).
 
 ## Arricchimento dei dati {#enriching-data}
 

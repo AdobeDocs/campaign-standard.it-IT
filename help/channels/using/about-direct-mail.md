@@ -9,10 +9,16 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/8VXdc-QOidRcDvgr5vMn-5bxHKYO6TnZS80FDsuA-GU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 97%
+source-wordcount: 456
+ht-degree: 84%
 
 ---
 
@@ -24,7 +30,7 @@ La direct mailing è un canale offline che ti consente di personalizzare e gener
 >
 >Questa funzione è facoltativa. Controlla il contratto di licenza. Il ruolo **[!UICONTROL Export]** è obbligatorio per l’utilizzo della direct mailing. Contatta l’amministratore.
 
-I canali online ti consentono di creare i messaggi (e-mail, SMS, consegna su app mobili e così via) e di inviarli al tuo pubblico direttamente da Adobe Campaign. Con i canali offline, la situazione è diversa. Quando prepari una consegna di direct mailing, Adobe Campaign genera un file contenente tutti i profili target e le informazioni del contatto selezionato, ad esempio l’indirizzo postale. Potrai quindi inviare questo file al provider di direct mailing, che si occuperà dell’invio effettivo.
+I canali online ti consentono di creare i messaggi (e-mail, SMS, consegna in app mobile, ecc.) e inviali al tuo pubblico direttamente da Adobe Campaign. Con i canali offline, la situazione è diversa. Quando prepari una consegna di direct mailing, Adobe Campaign genera un file contenente tutti i profili target e le informazioni del contatto selezionato, ad esempio l’indirizzo postale. Potrai quindi inviare questo file al provider di direct mailing, che si occuperà dell’invio effettivo.
 
 Nella sezione seguente viene illustrato come creare e generare un’unica consegna direct mailing. Puoi inoltre includere un’attività di direct mailing all’interno di flusso di lavoro per orchestrare campagne che combinano canali online e offline. Per ulteriori informazioni, consulta la guida [Flussi di lavoro](../../automating/using/get-started-workflows.md).
 
@@ -40,11 +46,11 @@ All’interno di Adobe Campaign, la procedura utente è la seguente:
 
 * [Caso d’uso: abbinamento delle consegne di e-mail e direct mail](../../automating/using/coupling-email-direct-mail.md)
 
-## Raccomandazioni {#recommendations}
+## Consigli {#recommendations}
 
 ### Provider di direct mail {#direct-mail-providers}
 
-Prima di tutto, devi contattare il tuo provider di direct mailing e raccogliere le sue raccomandazioni. Per personalizzare la comunicazione, identifica le informazioni di profilo da includere nel file di estrazione, quindi invialo al pubblico. Ad esempio, il nome e il cognome, l’indirizzo postale, un codice promozionale e così via. Tali campi sono quelli che verranno aggiunti nella scheda [Definizione dell’estrazione](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) del contenuto della direct mailing.
+Prima di tutto, devi contattare il tuo provider di direct mailing e raccogliere le sue raccomandazioni. Per personalizzare la comunicazione, identifica le informazioni di profilo da includere nel file di estrazione, quindi invialo al pubblico. Ad esempio, nome e cognome, indirizzo postale, codice promozionale e così via. Questi campi sono quelli che verranno aggiunti nella scheda [Definizione dell&#39;estrazione](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) del contenuto della direct mailing.
 
 Accertati di aver selezionato la casella **[!UICONTROL Address specified]** nelle informazioni del profilo. Se questa opzione è attivata, il profilo verrà aggiunto al target. Se non lo è, il profilo sarà escluso da una regola di tipologia durante la fase di preparazione (consulta [Creazione della direct mailing](../../channels/using/creating-the-direct-mail.md)). Durante l’importazione del profilo, non dimenticarti di aggiornare questo campo.
 

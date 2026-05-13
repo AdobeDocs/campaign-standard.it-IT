@@ -8,10 +8,15 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/0ZBuZihQqaowNG6y5gzkh5Vpz86e6pjmTRd5bNDPGxg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 88%
+source-wordcount: 381
+ht-degree: 69%
 
 ---
 
@@ -25,7 +30,7 @@ Quando gestisci una campagna in cui la data e l’ora sono importanti, puoi pian
 
 Per inviare una consegna al fuso orario del destinatario, puoi utilizzare anche l’attività **[!UICONTROL Scheduler]** in un flusso di lavoro. Per ulteriori informazioni, consulta questa [pagina](../../automating/using/scheduler.md).
 
-Nell’esempio seguente, si desidera inviare un codice promozionale valido solo per il giorno di San Valentino a tutti i clienti in tutto il mondo. Per avere il tempo sufficiente per utilizzarlo durante il giorno, tutti i clienti devono ricevere il messaggio il 14 febbraio alle 8 in base al proprio fuso orario.
+Nell’esempio seguente, si desidera inviare un codice promozionale valido solo per il giorno di San Valentino a tutti i clienti in tutto il mondo. Per avere il tempo sufficiente per utilizzarlo durante il giorno, tutti i clienti devono ricevere il messaggio il 14 febbraio alle 8:00 a seconda del proprio fuso orario.
 
 1. Nella scheda **[!UICONTROL Marketing activities]**, inizia a creare la consegna, nel nostro caso un’e-mail. Per ulteriori informazioni sulla creazione di una consegna, consulta questa [sezione](../../channels/using/creating-an-email.md).
 1. Dopo aver progettato l’e-mail di San Valentino, fai clic su **[!UICONTROL Create]** per accedere al dashboard di consegna. Per ulteriori informazioni sulla progettazione delle e-mail, consulta questa [pagina](../../designing/using/personalization.md#example-email-personalization).
@@ -36,7 +41,7 @@ Nell’esempio seguente, si desidera inviare un codice promozionale valido solo 
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. Seleziona l’opzione **[!UICONTROL Messages to be sent automatically on the date]** specificata di seguito. Quindi nel campo **[!UICONTROL Start sending from]**, imposta la data di contatto, nel nostro caso il 14 febbraio alle 8 in modo tale che ogni destinatario lo riceva il giorno di San Valentino.
+1. Seleziona l’opzione **[!UICONTROL Messages to be sent automatically on the date]** specificata di seguito. Quindi nel campo **[!UICONTROL Start sending from]**, imposta la data di contatto, nel nostro caso il 14 febbraio alle 8:00 in modo che ogni destinatario lo riceva il giorno di San Valentino.
 
    ![](assets/send-time_opt_valentine.png)
 
@@ -54,4 +59,4 @@ Nell’esempio seguente, si desidera inviare un codice promozionale valido solo 
 
    ![](assets/send-time_opt_valentine_4.png)
 
-Indipendentemente dal luogo in cui si trovano, tutti i destinatari riceveranno il messaggio il 14 febbraio alle 8 ora locale.
+Indipendentemente dal luogo in cui si trovano, tutti i destinatari riceveranno il messaggio il 14 febbraio alle 8.0} ora locale.:00
