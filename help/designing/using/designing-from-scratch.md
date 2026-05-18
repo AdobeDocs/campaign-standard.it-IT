@@ -9,18 +9,14 @@ role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1238
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -39,7 +35,7 @@ Di seguito sono riportati i passaggi principali per creare e progettare un conte
 1. Visualizza l’anteprima del messaggio e-mail.
 1. Salva il contenuto e continua con il messaggio dopo esserti assicurato di aver definito un pubblico e pianificato correttamente l’invio.
 
-Puoi anche guardare questo [video introduttivo](https://video.tv.adobe.com/v/330107/?captions=ita&autoplay=true&hidetitle=true).
+Puoi anche guardare questo [video introduttivo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -188,7 +184,7 @@ Utilizza questo componente per inserire collegamenti a pagine di social media ne
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Impostazioni carosello"
->abstract="Scopri come inserire e configurare un carosello nel contenuto.Tieni presente che il carosello non funziona su tutti i client e-mail e che, se non è supportato, verrà visualizzata un’immagine di fallback."
+>abstract="Scopri come inserire e configurare un carosello all’interno dei contenuti.Tieni presente che il carosello non funziona su tutti i client e-mail e, nel caso in cui non sia supportato, sarà visualizzata un’immagine di fallback."
 
 1. Trascina e rilascia il componente **[!UICONTROL Carousel]** all&#39;interno di un componente struttura.
 1. Sfoglia per selezionare le immagini dal computer.
