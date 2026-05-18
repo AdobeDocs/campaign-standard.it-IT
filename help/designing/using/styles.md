@@ -18,7 +18,7 @@ level_v2:
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1040
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -109,7 +109,7 @@ Per **[!UICONTROL Padding]** e **[!UICONTROL Margin]**, fare clic sull&#39;icona
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Impostazioni dello sfondo"
->abstract="E-mail Designer consente di personalizzare il colore o l’immagine di sfondo del contenuto.Ricorda che l’immagine di sfondo non è supportata da tutti i client e-mail."
+>abstract="L’E-mail Designer consente di personalizzare il colore o l’immagine di sfondo per i contenuti.Ricorda che l’immagine di sfondo non è supportata da tutti i client e-mail."
 
 Per impostare lo sfondo con E-mail Designer, Adobe consiglia quanto segue:
 

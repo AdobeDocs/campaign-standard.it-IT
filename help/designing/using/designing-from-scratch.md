@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1238
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -188,7 +188,7 @@ Utilizza questo componente per inserire collegamenti a pagine di social media ne
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Impostazioni carosello"
->abstract="Scopri come inserire e configurare un carosello nel contenuto.Tieni presente che il carosello non funziona su tutti i client e-mail e che, se non è supportato, verrà visualizzata un’immagine di fallback."
+>abstract="Scopri come inserire e configurare un carosello all’interno dei contenuti.Tieni presente che il carosello non funziona su tutti i client e-mail e, nel caso in cui non sia supportato, sarà visualizzata un’immagine di fallback."
 
 1. Trascina e rilascia il componente **[!UICONTROL Carousel]** all&#39;interno di un componente struttura.
 1. Sfoglia per selezionare le immagini dal computer.
