@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
-source-wordcount: 357
-ht-degree: 35%
+source-wordcount: 346
+ht-degree: 32%
 
 ---
 
@@ -55,7 +55,7 @@ Puoi inviare un’offerta tramite e-mail nell’anniversario della creazione del
 
 ### Recupero dei profili creati lo stesso giorno dell’esecuzione {#retrieving-profiles-created-on-the-same-day}
 
-1. In **[!UICONTROL Profile]**, trascinare e rilasciare il campo **[!UICONTROL Created]**. e fare clic su **[!UICONTROL Advanced Mode]**.
+1. In **[!UICONTROL Profile]** trascinare e rilasciare il campo **[!UICONTROL Created]** e fare clic su **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
 1. In **[!UICONTROL list of functions]**, fare doppio clic su **[!UICONTROL Day]** dal nodo **[!UICONTROL Date]**.
 1. Inserire quindi il campo **[!UICONTROL Created]** come argomento.
@@ -67,7 +67,7 @@ Hai recuperato i profili il cui giorno di creazione è uguale al giorno corrente
 
 Dovresti finire con:
 
-```Day(@created) = Day(GetDate())```
+`Day(@created) = Day(GetDate())`
 
 ![](assets/day_creation_query.png)
 
@@ -84,11 +84,11 @@ Fai clic su **[!UICONTROL Confirm]**.
 
 Dovresti finire con questo:
 
-``` Month(@created) = Month(GetDate()) ```
+`Month(@created) = Month(GetDate())`
 
 Viene visualizzata la query finale:
 
-```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
+`Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())`
 
 ![](assets/expression_editor_1.png)
 
@@ -102,7 +102,7 @@ Viene visualizzata la query finale:
 1. Per creare il layout dell’e-mail, fai clic su **[!UICONTROL Email Designer]**.
 1. Inserisci elementi o seleziona un modello esistente.
 1. Personalizza il messaggio e-mail utilizzando campi e collegamenti.
-Per ulteriori informazioni, consulta [progettazione di un’e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Per ulteriori informazioni, vedere [progettazione di un&#39;e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Fai clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 
