@@ -28,7 +28,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -281,7 +281,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 <tbody> 
 <tr> 
 <td>
-<p>L’integrazione di Campaign con Adobe Experience Manager è stata migliorata: ora è possibile importare contenuti multilingua da Adobe Experience Manager più facilmente. <p>
+<p>L’integrazione di Campaign con Adobe Experience Manager è stata migliorata: ora puoi importare contenuti multilingue più facilmente da Adobe Experience Manager. <p>
 <p>Adobe Campaign Standard ora rileva automaticamente le varianti di lingua dai contenuti Adobe Experience Manager e consente di importare e creare varianti in blocco, semplificando in modo significativo il numero di passaggi necessari per consentire ai professionisti di creare una campagna multilingue basata su contenuti Adobe Experience Manager.</p>
 <p>Per ulteriori informazioni consulta la <a href="../../integrating/using/creating-multilingual-email-aem.md">documentazione dettagliata</a>.
 </p>
@@ -457,3 +457,4 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 * È stato risolto un problema che impediva l’aggiornamento dell’elenco dei profili di test durante la ricerca dei profili nell’anteprima di **E-mail Designer**. (CAMP-45265)
 * È stato risolto un problema che impediva la visualizzazione dei profili di test personalizzati nell’elenco durante la ricerca dei profili nell’anteprima di **E-mail Designer**. (CAMP-45589)
 * È stato risolto un problema che causava la visualizzazione di date sbagliate durante la generazione dei grafici della tendenza dal **report di riepilogo delle consegne**. (CAMP-45521)
+

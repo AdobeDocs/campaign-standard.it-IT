@@ -39,10 +39,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 5439
-ht-degree: 95%
+source-wordcount: 5380
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Ora è possibile utilizzare i <strong>Gruppi di controllo</strong> per misurare l’impatto delle campagne escludendo parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
+  <td> <p>È ora possibile utilizzare <strong>Gruppi di controllo</strong> per misurare l'impatto delle campagne escludendo parte delle relative audience. Potrai quindi confrontare il comportamento della popolazione target che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
 </p>
 <p>Per ulteriori informazioni consulta la <a href="../../sending/using/control-group.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=it">video tutorial</a>.
 </p>
@@ -81,7 +81,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign ora supporta OAuth per l’Authentication nell’attività del flusso di lavoro dell’<strong>API esterna</strong>. Questa nuova funzionalità consente a questa attività di comunicare con i sistemi che richiedono il supporto OAuth.
+  <td> <p>Adobe Campaign ora supporta OAuth per l'autenticazione nell'attività del flusso di lavoro <strong>External API</strong>. Questa nuova funzionalità consente a questa attività di comunicare con i sistemi che richiedono il supporto OAuth.
 </p>
 <p>Per ulteriori informazioni consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a>.
 </p>
@@ -515,3 +515,4 @@ ht-degree: 95%
 * È stato risolto un problema che impediva la visualizzazione degli indirizzi nella schermata dei registri di invio durante l’invio di messaggi in-app.
 * È stato risolto un problema che impediva l’aggiornamento dei registri di invio SMS con il numero corretto di mancate consegne. (CAMP-38395)
 * Risolta una scappatoia che consentiva alle chiamate successive all’abbonamento a un’applicazione di aggiornare i token di notifica push. (CAMP-39273)
+

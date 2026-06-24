@@ -19,10 +19,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 100%
+source-wordcount: 624
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
     <tr>
         <td><img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Problemi comuni e best practice</a></p></td>
         <td><img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Pannello di controllo Campaign</a></p></td>
-        <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Richiesta di assistenza</a></p></td>
+        <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Richiesta di aiuto</a></p></td>
     </tr>
 </table>
 
@@ -95,8 +95,8 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
 
 ### Che cos’è il Pannello di controllo?
 
-Il Pannello di controllo ti aiuta ad amministrare Campaign Standard in modo più efficiente, consentendoti di gestire le impostazioni e tenere traccia dell’utilizzo di ciascuna istanza.
-Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it#discover-control-panel).
+Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard in modo più efficiente, consentendoti di gestire le impostazioni e tenere traccia dell’utilizzo di ciascuna istanza.
+[Fare clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it#discover-control-panel) per ulteriori informazioni.
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Il Pannello di controllo è disponibile direttamente da Adobe Experience Cloud. 
 
 ### Domande frequenti sul Pannello di controllo
 
-[Fai clic qui ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it) per accedere alle domande frequenti sul Pannello di controllo Campaign.
+[Fai clic qui &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=it) per accedere alle domande frequenti sul Pannello di controllo Campaign.
 
 ### Gestione SFTP
 
@@ -139,3 +139,4 @@ La creazione di un caso consente di contattare il team Assistenza clienti di Ado
 Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+

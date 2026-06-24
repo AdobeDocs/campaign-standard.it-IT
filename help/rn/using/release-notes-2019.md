@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -174,7 +174,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> Attività API esterna (Beta pubblico)<br /> </td> 
-   <td> <p>Per una personalizzazione più approfondita, l’attività API esterna consente di inserire dati da sistemi esterni in un flusso di lavoro tramite una chiamata API REST. Gli endpoint REST possono essere un sistema di gestione clienti, un endpoint REST Adobe I/O Runtime o Adobe Experience Cloud (ad esempio Data Platform, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=it">video tutorial</a>.</p></td> 
+   <td> <p>Per una personalizzazione più approfondita, l’attività API esterna consente di inserire dati da sistemi esterni in un flusso di lavoro tramite una chiamata API REST. Gli endpoint REST possono essere un sistema di gestione clienti, un endpoint REST di Adobe I/O Runtime o Adobe Experience Cloud (ad esempio Data Platform, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=it">video tutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report sul segmento del flusso di lavoro<br /> </td> 
@@ -633,3 +633,4 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * La velocità effettiva di invio è stata migliorata e stabilizzata per i messaggi SMS.
 * È stato risolto un problema che impediva l’utilizzo del carattere &quot;~&quot; in un messaggio SMS. (CAMP-29172)
 * È stato risolto un problema nelle consegne con l’opzione di ottimizzazione dell’ora di invio. (CAMP-29231)
+
