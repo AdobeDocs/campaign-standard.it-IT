@@ -6,36 +6,15 @@ role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 4623
+source-wordcount: 4540
 ht-degree: 3%
 
 ---
@@ -442,7 +421,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Flussi di lavoro: nuova attività segnale<br /> </td> 
-   <td> Attiva un flusso di lavoro da un altro flusso di lavoro utilizzando la nuova attività <span class="uicontrol">Segnale</span>.<br /> Grazie alla possibilità di avviare un flusso di lavoro a partire da un altro, è ora possibile supportare percorsi di clienti più complessi. È possibile monitorare meglio i percorsi di clienti e reagire in caso di problemi.<br /> Sono state aggiornate diverse attività del flusso di lavoro:<br /> 
+   <td> Attiva un flusso di lavoro da un altro flusso di lavoro utilizzando la nuova attività <span class="uicontrol">Segnale</span>.<br /> Con la possibilità di avviare un flusso di lavoro da un altro, ora puoi supportare percorsi di clienti più complessi. Puoi monitorare meglio i percorsi dei clienti e reagire in caso di problemi.<br /> Sono state aggiornate diverse attività del flusso di lavoro:<br /> 
     <ul> 
      <li> Attività <span class="uicontrol">Fine</span>: una nuova scheda consente di specificare un flusso di lavoro da attivare dopo l'esecuzione dell'attività. </li> 
      <li> <span class="uicontrol">Aggiorna dati</span> attività: utilizza la nuova transizione in uscita vuota per aggiungere un'attività <strong>End</strong> che attiva un altro flusso di lavoro. Le transizioni vuote in uscita non contengono dati e non occupano spazio inutile sul sistema </li> 
@@ -498,7 +477,7 @@ _Flussi di lavoro_
  <tbody> 
   <tr> 
    <td> Esportazione registro per reporting esterno<br /> </td> 
-   <td> Esporta registri come i registri di consegna e di tracciamento per elaborarli negli strumenti di reporting o BI preferiti. È possibile utilizzare flussi di lavoro semplici con query incrementali per automatizzare le esportazioni regolari di nuovi registri.<br /> Oltre alla disponibilità delle risorse di registro dal selettore delle risorse, sono stati apportati miglioramenti alle attività <a href="../../automating/using/incremental-query.md">Incremental query</a> e <a href="../../automating/using/extract-file.md">Extract file</a>:<br /> 
+   <td> Esporta registri come i registri di consegna e di tracciamento per elaborarli negli strumenti di reporting o BI preferiti. Puoi utilizzare flussi di lavoro semplici con query incrementali per automatizzare le esportazioni regolari di nuovi registri.<br /> Oltre alla disponibilità delle risorse di registro dal selettore risorse, sono stati apportati miglioramenti alle attività <a href="../../automating/using/incremental-query.md">Incremental query</a> e <a href="../../automating/using/extract-file.md">Extract file</a>:<br /> 
     <ul> 
      <li> <span class="uicontrol">Query incrementale</span> ora consente di utilizzare un campo data per recuperare dati nuovi o aggiornati. In precedenza, tutti i risultati di esecuzioni precedenti venivano automaticamente esclusi, anche se venivano aggiornati dopo l’ultima esecuzione. </li> 
      <li> <span class="uicontrol">Il file di estrazione</span> ora può esportare le etichette per i valori di enumerazione invece degli ID. </li> 
@@ -559,3 +538,4 @@ _Integrazioni_
 * È stato risolto un problema che poteva causare un errore durante la distribuzione di un trigger di evento in Adobe Campaign. Questo errore si verificava quando i metadati &quot;Probabilità di tornare tra 30 giorni&quot; erano stati aggiunti al trigger di abbandono in Adobe Marketing Cloud.
 * È stato risolto un problema che poteva causare la cancellazione del campo Dimension di Target da parte del flusso di lavoro tecnico durante l’importazione di tipi di pubblico dal servizio core People. Con le query successive non è stato possibile recuperare i tipi di pubblico importati.
 * È stato risolto un problema che poteva causare un errore nell&#39;attività **[!UICONTROL Save audience]** di un flusso di lavoro quando l&#39;opzione **[!UICONTROL Share in Adobe Marketing Cloud]** era selezionata.
+
