@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 # Note sulla versione 2019{#release-notes-2019}
 
-## Versione 19.4 - dicembre 2019 {#release-19-4---october-2019}
+## Versione 19.4 - dicembre 2019 {#release-19-4-october-2019}
 
 **Novità**
 
@@ -160,7 +160,7 @@ ht-degree: 10%
 * È stato risolto un problema che poteva lasciare lo stato di una consegna come &quot;Inizio in sospeso&quot; anche se la consegna era terminata. (CAMP-35355)
 * È stato risolto un problema che impediva la visualizzazione dei registri del flusso di lavoro dopo l’abilitazione di, quindi la disabilitazione dei registri SQL.
 
-## Versione 19.3 - Luglio 2019 {#release-19-3---july-2019}
+## Versione 19.3 - Luglio 2019 {#release-19-3-july-2019}
 
 **Novità**
 
@@ -271,7 +271,7 @@ ht-degree: 10%
 * È stato risolto un problema di sicurezza che causava l’interruzione del contenuto dell’e-mail se l’oggetto conteneva più righe.
 
 
-## Versione 19.2.7 - Luglio 2019 {#release-19-2-7---july-2019}
+## Versione 19.2.7 - Luglio 2019 {#release-19-2-7-july-2019}
 
 **Miglioramenti**
 
@@ -280,13 +280,13 @@ ht-degree: 10%
 * È stato risolto un problema che poteva impedire agli utenti non amministratori di salvare o pianificare i rapporti. (CAMP-31133)
 * È stato risolto un problema che si verificava con l’utilizzo di &quot;|&quot; come separatore di data nell’attività del flusso di lavoro Load file. (CAMP-34706)
 
-## Versione 19.2.4 - Giugno 2019 {#release-19-2-4---june-2019}
+## Versione 19.2.4 - Giugno 2019 {#release-19-2-4-june-2019}
 
 **E-mail Designer**
 
 * È stato risolto un problema che impediva agli utenti di modificare frammenti quando in HTML venivano utilizzati tag di stile vuoti. Questa è una correzione di follow-up per CAMP-33778 nella versione 19.2.3.
 
-## Versione 19.2.3 - Giugno 2019 {#release-19-2-3---june-2019}
+## Versione 19.2.3 - Giugno 2019 {#release-19-2-3-june-2019}
 
 **E-mail Designer**
 
@@ -305,7 +305,7 @@ Nella versione 19.2 è stata introdotta una serie di miglioramenti e correzioni 
 * È stato risolto un problema che impediva l’arricchimento del contenuto di un messaggio transazionale con le informazioni provenienti dalla risorsa Servizio. (CAMP-33707)
 * È stato risolto un problema nell’inserire nell&#39;elenco Bloccati le pagine di destinazione che si verificava quando si tentava di annullare l’abbonamento di profili da un servizio.
 
-## Versione 19.2 - Maggio 2019 {#release-19-2---may-2019}
+## Versione 19.2 - Maggio 2019 {#release-19-2-may-2019}
 
 **Novità**
 
@@ -409,7 +409,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * È stato risolto un problema che causava la disattivazione del flusso di lavoro Deliverability in caso di mancato completamento.
 * È stato risolto un problema che poteva impedire agli utenti di salvare o pianificare i rapporti. (CAMP-31133)
 
-## Versione 19.1.3 - marzo 2019 {#release-19-1-3---march-2019}
+## Versione 19.1.3 - marzo 2019 {#release-19-1-3-march-2019}
 
 **Miglioramenti di E-mail Designer**
 
@@ -423,7 +423,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * È stato risolto un problema che impediva la modifica delle regole di tipologia. (CAMP-31750)
 * È stato risolto un problema con il processo inMail che poteva interrompersi in modo imprevisto. (CAMP-31238)
 
-## Versione 19.1 - Febbraio 2019 {#release-19-1---february-2019}
+## Versione 19.1 - Febbraio 2019 {#release-19-1-february-2019}
 
 **Novità**
 
@@ -529,7 +529,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * È stato risolto un problema che causava discrepanze tra i profili target durante la creazione di una consegna in-app e quelli visualizzati nel dashboard di consegna. (CAMP-28722)
 * È stato risolto un problema relativo all’integrazione di Campaign e del servizio core Assets che poteva impedire la selezione di una risorsa condivisa in un messaggio e-mail.
 
-## Versione 19.0 - Gennaio 2019 {#release-19-0---january-2019}
+## Versione 19.0 - Gennaio 2019 {#release-19-0-january-2019}
 
 **Novità**
 

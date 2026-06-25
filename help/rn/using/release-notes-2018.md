@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5217
 ht-degree: 4%
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 # Note sulla versione 2018{#release-notes}
 
-## Versione 18.9 - Settembre 2018 {#release-18-9---september-2018}
+## Versione 18.9 - Settembre 2018 {#release-18-9-september-2018}
 
 **Novità**
 
@@ -107,7 +107,7 @@ ht-degree: 4%
 * È stato risolto un problema che impediva la visualizzazione degli errori che causavano un errore nel flusso di lavoro **Database Cleanup**. (CAMP-26876)
 * È stato risolto un problema che poteva impedire l’eliminazione di campi personalizzati in una definizione di notifica push. (CAMP-25588)
 
-## Versione 18.7 - Luglio 2018 {#release-18-7---july-2018}
+## Versione 18.7 - Luglio 2018 {#release-18-7-july-2018}
 
 **Novità**
 
@@ -170,7 +170,7 @@ ht-degree: 4%
 * È stato risolto un problema in Creative Designer che causava caratteri e formattazione di colore indesiderati durante la modifica di testo con stile integrato in un collegamento o durante la modifica di tale collegamento. (CAMP-26001)
 * È stato risolto un problema che impediva al rapporto sugli hot click di visualizzare le percentuali di ciascuna condizione nelle consegne contenenti contenuto dinamico. In precedenza venivano visualizzati solo i clic sulla variante predefinita.
 
-## Versione 18.6 - Giugno 2018 {#release-18-6---june-2018}
+## Versione 18.6 - Giugno 2018 {#release-18-6-june-2018}
 
 **Miglioramenti**
 
@@ -208,7 +208,7 @@ ht-degree: 4%
 * È stato risolto un problema relativo alla visualizzazione di dati internazionali per i livelli Account nei report dinamici.
 * È ora possibile creare un servizio senza un messaggio di conferma dell’abbonamento o del suo annullamento.
 
-## Versione 18.5 - Maggio 2018 {#release-18-5---may-2018}
+## Versione 18.5 - Maggio 2018 {#release-18-5-may-2018}
 
 **Novità**
 
@@ -280,7 +280,7 @@ ht-degree: 4%
 * È stato risolto un problema che poteva impedire il caricamento di Creative Designer. (CAMP-24573)
 * È stato risolto un problema che rimuoveva i caratteri aggiunti dopo i campi di personalizzazione nell’oggetto e-mail. (CAMP-24113)
 
-## Versione 18.4 - Aprile 2018 {#release-18-4---april-2018}
+## Versione 18.4 - Aprile 2018 {#release-18-4-april-2018}
 
 **Patch**
 
@@ -306,7 +306,7 @@ _Risorse personalizzate_
 
 * È stato corretto un errore che impediva la preparazione delle risorse personalizzate.
 
-## Versione 18.3 - Marzo 2018 {#release-18-3---march-2018}
+## Versione 18.3 - Marzo 2018 {#release-18-3-march-2018}
 
 **Nuove funzionalità**
 
@@ -396,7 +396,7 @@ _Messaggi transazionali_
 * È stato risolto un errore relativo al modello di messaggio transazionale che si verificava quando la risorsa di consegna veniva estesa.
 * È ora possibile eliminare i messaggi transazionali.
 
-## Versione 18.2 - Febbraio 2018 {#release-18-2---february-2018}
+## Versione 18.2 - Febbraio 2018 {#release-18-2-february-2018}
 
 **Nuove funzionalità**
 
@@ -460,7 +460,7 @@ _Problemi noti_
 
 Potrebbero verificarsi alcuni problemi quando si utilizzano collegamenti di aiuto contestuali dall’interfaccia di Campaign. Saranno corretti in 18.3.
 
-## Versione 18.1 - Gennaio 2018 {#release-18-1---january-2018}
+## Versione 18.1 - Gennaio 2018 {#release-18-1-january-2018}
 
 **Nuove funzionalità**
 

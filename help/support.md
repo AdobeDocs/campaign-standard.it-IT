@@ -19,10 +19,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 95%
+source-wordcount: 636
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
 
 ## Problemi comuni e best practice
 
-<img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
+![icona FAQ](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>Argomenti per domande e risposte</strong></td><td><strong>Problemi comuni</strong></td><td><strong>Best practice</strong></td><td><strong>Procedure</strong></td></tr>
@@ -91,12 +91,13 @@ Ottieni supporto tramite domande frequenti, best practice, risorse online e port
 
 ## Pannello di controllo Campaign
 
-<img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
+![icona pannello di controllo](start/using/assets/do-not-localize/icon-control-panel.svg){width="60px"}
 
 ### Che cos’è il Pannello di controllo?
 
-Il Pannello di controllo Campaign ti aiuta ad amministrare Campaign Standard in modo più efficiente, consentendoti di gestire le impostazioni e tenere traccia dell’utilizzo di ciascuna istanza.
-[Fare clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it#discover-control-panel) per ulteriori informazioni.
+Il Pannello di controllo ti aiuta ad amministrare Campaign Standard in modo più efficiente, consentendoti di gestire le impostazioni e tenere traccia dell’utilizzo di ciascuna istanza.
+
+Per ulteriori informazioni, [fai clic qui](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=it#discover-control-panel).
 
 >[!NOTE]
 >
@@ -124,7 +125,7 @@ Puoi monitorare i sottodomini e i relativi certificati. Ulteriori informazioni:
 
 ## Richiesta di assistenza
 
-<img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
+![icona supporto](start/using/assets/do-not-localize/icon-support.svg){width="60px"}
 
 Il nuovo sistema di ticket è stato introdotto tramite [Adobe Admin Console](https://adminconsole.adobe.com/overview). Il nuovo sistema richiede nuovi account individuali per ogni utente, con le autorizzazioni corrette. Se non riesci ad accedere con il tuo Adobe ID, richiedi l’accesso tramite Experience League e il team di Assistenza clienti completerà la configurazione il prima possibile. [Ulteriori informazioni](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
@@ -139,4 +140,3 @@ La creazione di un caso consente di contattare il team Assistenza clienti di Ado
 Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-
