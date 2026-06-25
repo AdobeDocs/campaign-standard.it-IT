@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 87%
 
 ---
 
@@ -55,7 +55,7 @@ Se desideri utilizzare il protocollo SMPP, puoi anche creare un nuovo account es
 
 1. Definisci i parametri **[!UICONTROL Throughput and timeouts]**.
 
-   Puoi specificare il throughput massimo dei messaggi in uscita (&quot;MT&quot;, Mobile Terminated) in MT al secondo. Se inserisci &quot;0&quot; nel campo corrispondente, il throughput effettivo sarà illimitato.
+   Puoi specificare il throughput massimo dei messaggi in uscita (“MT”, Mobile Terminated) in MT al secondo. Se inserisci &quot;0&quot; nel campo corrispondente, il throughput effettivo sarà illimitato.
 
    I valori di tutti i campi corrispondenti alle durate devono essere completati in secondi.
 
@@ -65,7 +65,7 @@ Se desideri utilizzare il protocollo SMPP, puoi anche creare un nuovo account es
 
    Tuttavia, dato che alcuni provider richiedono l’uso del prefisso **[!UICONTROL +]**, ti consigliamo di verificare con il provider se è necessario abilitare questa opzione.
 
-1. Se necessario, definisci le risposte automatiche per attivare le azioni in base al contenuto di una risposta. Per ulteriori informazioni, consulta [questa sezione](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+1. Se necessario, definisci le risposte automatiche per attivare le azioni in base al contenuto di una risposta. Per ulteriori informazioni al riguardo, consulta [questa sezione](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 1. Salva la configurazione dell’account esterno di indirizzamento SMS.
 
 Ora puoi utilizzare il nuovo indirizzamento per inviare messaggi SMS con Adobe Campaign.
@@ -80,7 +80,7 @@ I messaggi SMS che utilizzano la codifica GSM sono limitati a 160 caratteri o 15
 
 >[!NOTE]
 >
->Alcuni caratteri contano come due (parentesi graffe e quadre, il simbolo dell’euro, ecc.). L’elenco dei caratteri GSM disponibili è presentato nella sezione [Tabella di caratteri - GSM Standard](#table-of-characters---gsm-standard).
+>Alcuni caratteri contano come due (parentesi graffe e quadre, il simbolo dell’euro, ecc.). L’elenco dei caratteri GSM disponibili è presentato nella sezione [Tabella di caratteri - GSM Standard](#table-of-characters-gsm-standard).
 
 Se lo desideri, puoi autorizzare la traslitterazione di caratteri selezionando la casella corrispondente.
 
@@ -99,7 +99,7 @@ Per impostazione predefinita, la traslitterazione di caratteri è disabilitata. 
 
 Tuttavia, se i messaggi SMS contengono molti caratteri che generano messaggi Unicode, puoi abilitare questa opzione per limitare i costi di invio dei messaggi.
 
-### Tabella di caratteri - GSM Standard {#table-of-characters---gsm-standard}
+### Tabella di caratteri - GSM Standard {#table-of-characters-gsm-standard}
 
 Questa sezione presenta i caratteri presi in considerazione dallo standard GSM. Tutti i caratteri inseriti nel corpo del messaggio, diversi da quelli indicati di seguito, convertono l’intero messaggio in formato binario (Unicode) e quindi lo limitano a 70 caratteri. Per ulteriori informazioni, consulta la sezione [Codifica, lunghezza e traslitterazione di SMS](#sms-encoding--length-and-transliteration).
 
@@ -280,7 +280,7 @@ CR: Carriage Return (ritorno a capo)
 
 **Caratteri avanzati (contati due volte)**
 
-^ { } [~] | €
+^ { } [~] | EUR
 
 ### Specifiche di SMSC {#smsc-specifics}
 
