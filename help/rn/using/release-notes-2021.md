@@ -28,8 +28,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
 
@@ -275,7 +275,7 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 <table> 
 <thead> 
 <tr> 
-<th><strong>Miglioramenti per l’integrazione con Adobe Experience Manager</strong><br /> </th> 
+<th> <strong>Miglioramenti per l’integrazione con Adobe Experience Manager</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -457,4 +457,5 @@ Di seguito sono elencati le nuove funzioni, i miglioramenti e le correzioni incl
 * È stato risolto un problema che impediva l’aggiornamento dell’elenco dei profili di test durante la ricerca dei profili nell’anteprima di **E-mail Designer**. (CAMP-45265)
 * È stato risolto un problema che impediva la visualizzazione dei profili di test personalizzati nell’elenco durante la ricerca dei profili nell’anteprima di **E-mail Designer**. (CAMP-45589)
 * È stato risolto un problema che causava la visualizzazione di date sbagliate durante la generazione dei grafici della tendenza dal **report di riepilogo delle consegne**. (CAMP-45521)
+
 

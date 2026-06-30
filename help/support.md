@@ -19,8 +19,8 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
 source-wordcount: 636
 ht-degree: 100%
 
@@ -140,3 +140,4 @@ La creazione di un caso consente di contattare il team Assistenza clienti di Ado
 Per segnalare un problema o avviare una sessione di chat nel nuovo sistema, connettiti ad [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Segui la procedura dettagliata descritta in [questa pagina](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+

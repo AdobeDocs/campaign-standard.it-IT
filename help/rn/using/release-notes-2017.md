@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 4540
+source-wordcount: 4623
 ht-degree: 3%
 
 ---
@@ -423,8 +423,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Ottimizzazione manuale del tempo di invio<br /> </td> 
-   <td> Ora puoi definire manualmente un orario di invio personalizzato per destinatario, a livello di consegna o utilizzando un flusso di lavoro. <br /> Sono disponibili due nuove opzioni: <br /> 
-    <ul> 
+   <td> Ora puoi definire manualmente un orario di invio personalizzato per destinatario, a livello di consegna o utilizzando un flusso di lavoro. <br /> Sono disponibili due nuove opzioni: <br /> <ul> 
      <li> Tutti i destinatari ricevono il messaggio tenendo conto del loro fuso orario. </li> 
      <li> Ogni destinatario riceve il messaggio in una data e un’ora calcolate definite da una formula. </li> 
     </ul> Per ulteriori informazioni, consulta la <a href="../../sending/using/optimizing-the-sending-time.md">documentazione dettagliata</a>.<br /> </td> 
@@ -442,8 +441,7 @@ _Notifiche push_
   </tr> 
   <tr> 
    <td> Flussi di lavoro: nuova attività segnale<br /> </td> 
-   <td> Attiva un flusso di lavoro da un altro flusso di lavoro utilizzando la nuova attività <span class="uicontrol">Segnale</span>.<br /> Con la possibilità di avviare un flusso di lavoro da un altro, ora puoi supportare percorsi di clienti più complessi. Puoi monitorare meglio i percorsi dei clienti e reagire in caso di problemi.<br /> Sono state aggiornate diverse attività del flusso di lavoro:<br /> 
-    <ul> 
+   <td> Attiva un flusso di lavoro da un altro flusso di lavoro utilizzando la nuova attività <span class="uicontrol">Segnale</span>.<br /> Grazie alla possibilità di avviare un flusso di lavoro a partire da un altro, è ora possibile supportare percorsi di clienti più complessi. È possibile monitorare meglio i percorsi di clienti e reagire in caso di problemi.<br /> Sono state aggiornate diverse attività del flusso di lavoro:<br /> <ul> 
      <li> Attività <span class="uicontrol">Fine</span>: una nuova scheda consente di specificare un flusso di lavoro da attivare dopo l'esecuzione dell'attività. </li> 
      <li> <span class="uicontrol">Aggiorna dati</span> attività: utilizza la nuova transizione in uscita vuota per aggiungere un'attività <strong>End</strong> che attiva un altro flusso di lavoro. Le transizioni vuote in uscita non contengono dati e non occupano spazio inutile sul sistema </li> 
     </ul> Per ulteriori informazioni, consulta la <a href="../../automating/using/external-signal.md">documentazione dettagliata</a>.<br /> </td> 
@@ -498,16 +496,14 @@ _Flussi di lavoro_
  <tbody> 
   <tr> 
    <td> Esportazione registro per reporting esterno<br /> </td> 
-   <td> Esporta registri come i registri di consegna e di tracciamento per elaborarli negli strumenti di reporting o BI preferiti. Puoi utilizzare flussi di lavoro semplici con query incrementali per automatizzare le esportazioni regolari di nuovi registri.<br /> Oltre alla disponibilità delle risorse di registro dal selettore risorse, sono stati apportati miglioramenti alle attività <a href="../../automating/using/incremental-query.md">Incremental query</a> e <a href="../../automating/using/extract-file.md">Extract file</a>:<br /> 
-    <ul> 
+   <td> Esporta registri come i registri di consegna e di tracciamento per elaborarli negli strumenti di reporting o BI preferiti. È possibile utilizzare flussi di lavoro semplici con query incrementali per automatizzare le esportazioni regolari di nuovi registri.<br /> Oltre alla disponibilità delle risorse di registro dal selettore delle risorse, sono stati apportati miglioramenti alle attività <a href="../../automating/using/incremental-query.md">Incremental query</a> e <a href="../../automating/using/extract-file.md">Extract file</a>:<br /> <ul> 
      <li> <span class="uicontrol">Query incrementale</span> ora consente di utilizzare un campo data per recuperare dati nuovi o aggiornati. In precedenza, tutti i risultati di esecuzioni precedenti venivano automaticamente esclusi, anche se venivano aggiornati dopo l’ultima esecuzione. </li> 
      <li> <span class="uicontrol">Il file di estrazione</span> ora può esportare le etichette per i valori di enumerazione invece degli ID. </li> 
     </ul> Queste attività sono disponibili per gli amministratori con accesso a tutte le unità geografiche e organizzative.<br /> Per ulteriori informazioni sull'esportazione dei registri, consulta la <a href="../../automating/using/exporting-logs.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Funzionalità di marketing per i messaggi transazionali<br /> </td> 
-   <td> Gli addetti al marketing possono ora inviare messaggi transazionali basati sui profili di marketing dei clienti. Ciò consente loro di:<br /> 
-    <ul> 
+   <td> Gli addetti al marketing possono ora inviare messaggi transazionali basati sui profili di marketing dei clienti. Ciò consente loro di:<br /> <ul> 
      <li> Applicare le regole di tipologia di marketing, ad esempio <span class="uicontrol">Indirizzo sul inserisco nell'elenco Bloccati di</span>. </li> 
      <li> Includere il collegamento di annullamento all’abbonamento nei messaggi; </li> 
      <li> Aggiungere messaggi transazionali al reporting globale sulla distribuzione; </li> 
@@ -559,4 +555,5 @@ _Integrazioni_
 * È stato risolto un problema che poteva causare un errore durante la distribuzione di un trigger di evento in Adobe Campaign. Questo errore si verificava quando i metadati &quot;Probabilità di tornare tra 30 giorni&quot; erano stati aggiunti al trigger di abbandono in Adobe Marketing Cloud.
 * È stato risolto un problema che poteva causare la cancellazione del campo Dimension di Target da parte del flusso di lavoro tecnico durante l’importazione di tipi di pubblico dal servizio core People. Con le query successive non è stato possibile recuperare i tipi di pubblico importati.
 * È stato risolto un problema che poteva causare un errore nell&#39;attività **[!UICONTROL Save audience]** di un flusso di lavoro quando l&#39;opzione **[!UICONTROL Share in Adobe Marketing Cloud]** era selezionata.
+
 
