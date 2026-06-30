@@ -21,9 +21,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: add46d6ff37deb4309146447f5a9026842368cf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 238
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Scopri come condividere i dati tra Campaign e Real-time Customer Data Platform (
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Pagine utili</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it" target="_blank">Esercitazioni</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html" target="_blank">Descrizione del prodotto</a> - <a href="rn/using/deprecated-features.md">Funzioni obsolete e rimosse</a> - <a href="rn/using/release-planning.md">Pianificazione della versione</a> - <a href="https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">Pixel di tracciamento e-mail e linee guida CNIL</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html" target="_blank">Descrizione del prodotto</a> - <a href="rn/using/deprecated-features.md">Funzionalità obsolete e rimosse</a> - <a href="rn/using/release-planning.md">Pianificazione della versione</a> - <a href="https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">Pixel di tracciamento e-mail e indicazioni CNIL</a>
 </td>
 <td><strong>Risorse tecniche</strong><br/>
 <a href="integrating/using/about-adobe-experience-cloud-triggers.md">Trigger di Experience Cloud</a> - <a href="api/using/get-started-apis.md">API di Campaign</a> - <a href="https://helpx.adobe.com/it/campaign/kb/acs-article-list.html" target="blank">Note tecniche</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it" target="_blank">Documentazione del Pannello di controllo</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it">Elenco dei messaggi di errore</a>
