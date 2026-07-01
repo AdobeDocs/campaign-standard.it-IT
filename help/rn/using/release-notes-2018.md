@@ -6,34 +6,13 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 5477
 ht-degree: 3%
@@ -144,7 +123,7 @@ ht-degree: 3%
 
 **Miglioramenti**
 
-* L&#39;integrazione di Adobe Campaign e Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=it) di Target. Quando includi un’immagine dinamica da Adobe Target in un messaggio e-mail, ora puoi specificare una proprietà Target (codice at_property).
+* L&#39;integrazione di Adobe Campaign e Adobe Target ora consente di sfruttare la funzione [Autorizzazioni](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) di Target. Quando includi un’immagine dinamica da Adobe Target in un messaggio e-mail, ora puoi specificare una proprietà Target (codice at_property).
 * Le risorse personalizzate con un collegamento di copia verso la risorsa dei profili ora vengono prese in considerazione dalle richieste di accesso/cancellazione della privacy GDPR. Per i collegamenti semplici a 1 cardinalità e i collegamenti di raccolta con cardinalità N, è necessario selezionare nella risorsa personalizzata &quot;L’eliminazione o la duplicazione del record di destinazione implica l’eliminazione o la duplicazione dei record a cui fa riferimento il collegamento&quot;. Per i collegamenti semplici con cardinalità 0 o 1, seleziona &quot;L’eliminazione o la duplicazione del record implica l’eliminazione o la duplicazione del record di destinazione a cui fa riferimento il collegamento&quot;.
 
 **Altre modifiche**
@@ -222,7 +201,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> RGPD: integrazione dei servizi core<br /> </td> 
-   <td> L’integrazione del servizio core per la privacy consente di automatizzare le richieste RGPD in un contesto multisoluzione tramite una singola chiamata API JSON. <br /> Le richieste RGPD inviate dal servizio core per la privacy a tutte le soluzioni Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
+   <td> L’integrazione del servizio core per la privacy consente di automatizzare le richieste RGPD in un contesto multisoluzione tramite una singola chiamata API JSON. <br /> Le richieste RGPD inviate dal servizio core per la privacy a tutte le soluzioni Experience Cloud ora vengono gestite automaticamente da Campaign. <br /> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti push - feedback dettagliato sulla consegna<br /> </td> 
@@ -285,7 +264,7 @@ ht-degree: 3%
 
 _Piattaforma_
 
-* È stato corretto un errore che poteva impedire la corretta elaborazione delle richieste di accesso o cancellazione RGPD. Questo comportamento è stato osservato in alcuni rari casi in cui i dati estratti contenevano uno dei seguenti caratteri: &amp; &lt; > &quot; &quot;.
+* È stato corretto un errore che poteva impedire la corretta elaborazione delle richieste di accesso o cancellazione RGPD. Questo comportamento è stato osservato in alcuni rari casi in cui i dati estratti contenevano uno dei seguenti caratteri: `& < > " '`.
 
 _E-mail, messaggi SMS e direct mail_
 
@@ -319,10 +298,10 @@ _Risorse personalizzate_
  <tbody> 
   <tr> 
    <td> Regolamento generale sulla protezione dei dati UE (RGPD)<br /> </td> 
-   <td> Il RGPD è la nuova legge sulla privacy dell’Unione europea (UE) che armonizza e modernizza i requisiti in materia di protezione dei dati, in vigore dal 25 maggio 2018. Il RGPD si applica ai clienti di Adobe Campaign che detengono dati per soggetti residenti nell'UE.<br /> Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (tra cui la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), in qualità di responsabile del trattamento dei dati stiamo sfruttando l'opportunità di includere funzionalità aggiuntive per aiutarti ad essere pronto a determinate richieste RGPD in qualità di titolare del trattamento dei dati:<br /> <ul> 
+   <td> Il RGPD è la nuova legge sulla privacy dell’Unione Europea (UE) che armonizza e modernizza i requisiti di protezione dei dati, in vigore dal 25 maggio 2018. Il RGPD si applica ai clienti di Adobe Campaign che detengono dati per soggetti residenti nell'UE.<br /> Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (tra cui la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), in qualità di responsabile del trattamento dei dati stiamo sfruttando l'opportunità di includere funzionalità aggiuntive per aiutarti ad essere pronto a determinate richieste RGPD in qualità di titolare del trattamento dei dati:<br /> <ul> 
      <li> Diritto di accesso: consente all’interessato di ricevere una copia dei suoi dati personali acquisiti dai titolari del trattamento, inclusi potenzialmente i dati memorizzati in Adobe Campaign. </li> 
      <li> Diritto di cancellazione: autorizza l’interessato a richiedere la cancellazione dei suoi dati personali acquisiti dai titolari del trattamento, inclusi potenzialmente i dati memorizzati in Adobe Campaign. </li> 
-    </ul> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email (Beta)<br /> </td> 
@@ -331,7 +310,7 @@ _Risorse personalizzate_
      <li> Crea e salva un modello di contenuto e-mail e sfrutta i modelli salvati per ridimensionare la creazione di e-mail </li> 
      <li> Creare e salvare frammenti di contenuto (come intestazione, piè di pagina, articolo, ecc.) per semplificare la creazione di contenuti e garantire la coerenza del brand </li> 
      <li> Passa facilmente dalla creazione nell’interfaccia di trascinamento alla modifica diretta del HTML di un’e-mail con un clic </li> 
-    </ul> Creative Designer for Email è disponibile solo in inglese.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e guarda questo <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">video</a>.<br /> </td> 
+    </ul> Creative Designer for Email è disponibile solo in inglese.<br /> Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e guarda questo <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegne push multilingue<br /> </td> 
@@ -483,11 +462,11 @@ Potrebbero verificarsi alcuni problemi quando si utilizzano collegamenti di aiut
      <li> scaricare immagini o altri file multimediali e aggiungerli come allegati a una notifica </li> 
      <li> modificare il testo del corpo o del titolo di una notifica </li> 
      <li> aggiungere un identificatore di thread a una notifica </li> 
-    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consulta la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentazione dettagliata</a>.<br /> <strong>Avviso:</strong> questi aggiornamenti sulle notifiche push richiedono l'aggiornamento delle applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=it">questa nota tecnica</a>.<br /> </td> 
+    </ul> Per ulteriori informazioni su Contenuto disponibile e Contenuto variabile, consulta la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentazione dettagliata</a>.<br /> <strong>Avviso:</strong> questi aggiornamenti sulle notifiche push richiedono l'aggiornamento delle applicazioni mobili. Per ulteriori informazioni, consultare <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">questa nota tecnica</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Consegne ottimizzate in base al fuso orario<br /> </td> 
-   <td> Pianifica l’invio di notifiche e-mail, SMS e push ricorrenti in un giorno o in un’ora specifica nel fuso orario di ogni destinatario, per garantire che i messaggi vengano consegnati all’ora giusta senza configurare più consegne. <br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/scheduler.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Pianifica l’invio di notifiche e-mail, SMS e push ricorrenti in un giorno o in un’ora specifica del fuso orario di ogni destinatario, per garantire che i messaggi vengano consegnati all’ora giusta senza configurare più consegne. <br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/scheduler.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Attivazione attività segnale API<br /> </td> 
@@ -537,5 +516,3 @@ _Profili e pubblico_
 * È stata aggiunta una descrizione comando che mostra il numero esatto di risultati dopo il conteggio della popolazione di una query.
 * È stato risolto un problema che poteva impedire a un utente di selezionare un pubblico o di chiudere la finestra del selettore del pubblico.
 * L’elenco delle funzioni disponibili nell’editor espressioni è stato aggiornato. Le funzioni **FormatCurrency** e **ConvertCurrency** sono state rimosse.
-
-
