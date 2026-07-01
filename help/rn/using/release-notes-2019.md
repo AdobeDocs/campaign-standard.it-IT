@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -633,5 +633,3 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
 * La velocità effettiva di invio è stata migliorata e stabilizzata per i messaggi SMS.
 * È stato risolto un problema che impediva l’utilizzo del carattere &quot;~&quot; in un messaggio SMS. (CAMP-29172)
 * È stato risolto un problema nelle consegne con l’opzione di ottimizzazione dell’ora di invio. (CAMP-29231)
-
-

@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 5477
 ht-degree: 3%
@@ -285,7 +285,7 @@ ht-degree: 3%
 
 _Piattaforma_
 
-* È stato corretto un errore che poteva impedire la corretta elaborazione delle richieste di accesso o cancellazione RGPD. Questo comportamento è stato osservato in alcuni rari casi in cui i dati estratti contenevano uno dei seguenti caratteri: &amp; &lt; > &quot; &quot;.
+* È stato corretto un errore che poteva impedire la corretta elaborazione delle richieste di accesso o cancellazione RGPD. Questo comportamento è stato osservato in alcuni rari casi in cui i dati estratti contenevano uno dei seguenti caratteri: `& < > " '`.
 
 _E-mail, messaggi SMS e direct mail_
 
@@ -319,7 +319,7 @@ _Risorse personalizzate_
  <tbody> 
   <tr> 
    <td> Regolamento generale sulla protezione dei dati UE (RGPD)<br /> </td> 
-   <td> Il RGPD è la nuova legge sulla privacy dell’Unione europea (UE) che armonizza e modernizza i requisiti in materia di protezione dei dati, in vigore dal 25 maggio 2018. Il RGPD si applica ai clienti di Adobe Campaign che detengono dati per soggetti residenti nell'UE.<br /> Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (tra cui la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), in qualità di responsabile del trattamento dei dati stiamo sfruttando l'opportunità di includere funzionalità aggiuntive per aiutarti ad essere pronto a determinate richieste RGPD in qualità di titolare del trattamento dei dati:<br /> <ul> 
+   <td> Il RGPD è la nuova legge sulla privacy dell’Unione Europea (UE) che armonizza e modernizza i requisiti di protezione dei dati, in vigore dal 25 maggio 2018. Il RGPD si applica ai clienti di Adobe Campaign che detengono dati per soggetti residenti nell'UE.<br /> Oltre alle funzionalità per la privacy già disponibili in Adobe Campaign (tra cui la gestione del consenso, le impostazioni di conservazione dei dati e i ruoli utente), in qualità di responsabile del trattamento dei dati stiamo sfruttando l'opportunità di includere funzionalità aggiuntive per aiutarti ad essere pronto a determinate richieste RGPD in qualità di titolare del trattamento dei dati:<br /> <ul> 
      <li> Diritto di accesso: consente all’interessato di ricevere una copia dei suoi dati personali acquisiti dai titolari del trattamento, inclusi potenzialmente i dati memorizzati in Adobe Campaign. </li> 
      <li> Diritto di cancellazione: autorizza l’interessato a richiedere la cancellazione dei suoi dati personali acquisiti dai titolari del trattamento, inclusi potenzialmente i dati memorizzati in Adobe Campaign. </li> 
     </ul> Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=it">documentazione dettagliata</a>.<br /> </td> 
@@ -487,7 +487,7 @@ Potrebbero verificarsi alcuni problemi quando si utilizzano collegamenti di aiut
   </tr> 
   <tr> 
    <td> Consegne ottimizzate in base al fuso orario<br /> </td> 
-   <td> Pianifica l’invio di notifiche e-mail, SMS e push ricorrenti in un giorno o in un’ora specifica nel fuso orario di ogni destinatario, per garantire che i messaggi vengano consegnati all’ora giusta senza configurare più consegne. <br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/scheduler.md">documentazione dettagliata</a>.<br /> </td> 
+   <td> Pianifica l’invio di notifiche e-mail, SMS e push ricorrenti in un giorno o in un’ora specifica del fuso orario di ogni destinatario, per garantire che i messaggi vengano consegnati all’ora giusta senza configurare più consegne. <br /> Per ulteriori informazioni, consulta la <a href="../../automating/using/scheduler.md">documentazione dettagliata</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Attivazione attività segnale API<br /> </td> 
@@ -537,5 +537,3 @@ _Profili e pubblico_
 * È stata aggiunta una descrizione comando che mostra il numero esatto di risultati dopo il conteggio della popolazione di una query.
 * È stato risolto un problema che poteva impedire a un utente di selezionare un pubblico o di chiudere la finestra del selettore del pubblico.
 * L’elenco delle funzioni disponibili nell’editor espressioni è stato aggiornato. Le funzioni **FormatCurrency** e **ConvertCurrency** sono state rimosse.
-
-
