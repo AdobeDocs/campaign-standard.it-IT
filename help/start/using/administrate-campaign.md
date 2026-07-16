@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 10%
+source-wordcount: '294'
+ht-degree: 23%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 <tr>
 <td>Modello dati di Campaign</td>
 <td>Utilizzare le API REST</td>
-<td>Gestione utenti</td>
+<td>Gestisci utenti</td>
 <td>Configurare e monitorare l’istanza</td>
 </tr>
 </table>
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 * xxxx
 * xxxx
 
-## Gestione utenti
+## Gestisci utenti
 
 <img width="60px" alt="condizioni" src="assets/icon_profile.svg"/>
 
