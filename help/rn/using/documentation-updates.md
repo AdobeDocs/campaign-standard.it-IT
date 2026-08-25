@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: ht
-source-wordcount: '7650'
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: '7568'
 ht-degree: 100%
 
 ---
@@ -452,8 +452,6 @@ Integrazione con Microsoft Dynamics 365 (GA) - [Ulteriori informazioni](../../in
 
 **Altri aggiornamenti alla documentazione inclusi nella versione**
 
-L’elenco dei messaggi di errore per Adobe Campaign è stato aggiornato. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
-
 La guida introduttiva al GDPR è stata migliorata e arricchita. È ora diventata una documentazione sulla gestione della privacy che include GDPR e CCPA. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/campaign-privacy.html)
 
 È stato aggiunto un nuovo grafico che presenta il processo di pubblicazione della messaggistica transazionale. [Ulteriori informazioni](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
@@ -534,8 +532,6 @@ Sono state aggiunte informazioni sulle modalità di personalizzazione dell’eti
 
 È stata aggiunta una nuova sezione sulle best practice per i flussi di lavoro. [Ulteriori informazioni](../../automating/using/best-practices-workflows.md)
 
-È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
-
 È stato aggiunto un avviso nella documentazione delle risorse personalizzate. È consigliabile utilizzare un massimo di 30 caratteri per gli ID di risorse personalizzati. Questo vale anche per campi di risorse personalizzati, chiavi, indici e collegamenti. [Ulteriori informazioni](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Giugno - luglio 2019 {#doc-updates-2019}
@@ -545,8 +541,6 @@ Sono state aggiunte informazioni sulle modalità di personalizzazione dell’eti
 È stato aggiunto un caso d’uso su come chiamare un profilo utilizzando una chiave di identificazione composita. [Ulteriori informazioni](../../developing/using/uc-calling-resource-id-key.md)
 
 Durante la chiamata di un flusso di lavoro con parametri, è stato aggiunto un consiglio relativo all’utilizzo di consegne ricorrenti senza periodo di aggregazione. [Ulteriori informazioni](../../automating/using/calling-a-workflow-with-external-parameters.md)
-
-È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
 
 È stato aggiunto un avviso nella documentazione delle risorse personalizzate. È consigliabile utilizzare un massimo di 30 caratteri per gli ID di risorse personalizzati. Questo vale anche per campi di risorse personalizzati, chiavi, indici e collegamenti. [Ulteriori informazioni](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -653,8 +647,6 @@ Sono state aggiunte informazioni sulle modalità di collegamento delle risorse p
 È stata aggiunta una nuova nota tecnica su come visualizzare un’immagine da una notifica push di Adobe Campaign Standard. [Ulteriori informazioni](../../administration/using/image-push-notification.md)
 
 È stata aggiunta una nuova nota tecnica sull’implementazione del tracciamento push. [Ulteriori informazioni](../../administration/using/push-tracking.md)
-
-È stato aggiornato l’elenco dei messaggi di errore per Campaign Standard e Classic. [Ulteriori informazioni](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=it)
 
 È stata aggiornata la documentazione sull’integrazione Triggers - Campaign. [Ulteriori informazioni](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
