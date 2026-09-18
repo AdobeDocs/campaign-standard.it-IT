@@ -4,14 +4,12 @@ description: In questa pagina sono elencate tutte le versioni del 2025 di Adobe 
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+exl-id: 9046db34-f610-4721-b6eb-92334149366d
+source-git-commit: 4e39100c19fa7bd943b16e3ed87b8c2d82bdf814
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
-
+ht-degree: 94%
 ---
-
 # Note sulla versione 2025 {#release-notes-2025}
 
 ## Versione 25.2 - Estate 2025 {#summer-25}
@@ -58,4 +56,3 @@ ht-degree: 100%
 * È stato risolto un problema di prestazioni sul processo di fatturazione (CAMP-56796)
 * È stato risolto un problema di codifica HTML con il carattere `>` nelle pagine web JSSP (CAMP-56497)
 * È stato risolto un problema in Dynamic Reporting che si verificava con l’utilizzo dell’opzione **Visualizza nelle righe selezionate** (CAMP-55895)
-
