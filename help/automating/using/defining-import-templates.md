@@ -6,11 +6,10 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 95%
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
-
 
 # Definizione dei modelli di importazione{#defining-import-templates}
 
@@ -25,14 +24,14 @@ Sono disponibili tre modelli predefiniti di sola lettura:
 * **[!UICONTROL Update Direct mail quarantines and delivery logs]**: questo modello può fungere da base per le nuove importazioni e consente di aggiornare le quarantene e i registri di consegna per la direct mailing. Il flusso di lavoro del modello contiene le attività seguenti:
 * **[!UICONTROL Import data]**: questo modello può servire da base per consentire alle nuove importazioni di inserire i dati da un file al database. Il flusso di lavoro di questo modello contiene le attività seguenti:
 
-   * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
-   * **[!UICONTROL Update data]**: questa attività ti consente di inserire i dati dal file al database.
+  * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
+  * **[!UICONTROL Update data]**: questa attività ti consente di inserire i dati dal file al database.
 
 * **[!UICONTROL Import list]**: questo modello può fungere da base per permettere alle nuove importazioni di creare un pubblico di tipo **Elenco** dai dati contenuti all’interno di un file. Il flusso di lavoro di questo modello contiene le attività seguenti:
 
-   * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
-   * **[!UICONTROL Reconciliation]**: questa attività ti consente di collegare ai dati importati una dimensione di targeting. A sua volta, ciò ti permette di creare un pubblico di tipo **Elenco**. Se la dimensione di targeting dei dati importati non è nota, il pubblico sarà del tipo **File**. Consulta [Dimensioni di targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Save audience]**: questa attività ti permette di salvare i dati importati sotto forma di pubblico di tipo **Elenco**. Il nome del pubblico salvato corrisponde al nome del file importato dall’utente, cui verrà aggiunto un suffisso che indica la data e l’ora dell’importazione. Ad esempio: “profiles_20150406_151448”.
+  * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
+  * **[!UICONTROL Reconciliation]**: questa attività consente di collegare ai dati importati una dimensione targeting. A sua volta, ciò ti permette di creare un pubblico di tipo **Elenco**. Se la dimensione targeting dei dati importati non è nota, il pubblico sarà del tipo **File**. Consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+  * **[!UICONTROL Save audience]**: questa attività ti permette di salvare i dati importati sotto forma di pubblico di tipo **Elenco**. Il nome del pubblico salvato corrisponde al nome del file importato dall’utente, cui verrà aggiunto un suffisso che indica la data e l’ora dell’importazione. Ad esempio: “profiles_20150406_151448”.
 
 Questi modelli predefiniti sono di sola lettura e non sono visibili agli utenti standard. Per creare un modello che sarà disponibile agli utenti, effettua le seguenti operazioni:
 
@@ -51,7 +50,7 @@ Questi modelli predefiniti sono di sola lettura e non sono visibili agli utenti 
    Per ulteriori informazioni su come configurare le attività del flusso di lavoro, fai riferimento al caso d’uso descritto in questa sezione: [Esempio: importare un modello di flusso di lavoro](../../automating/using/creating-import-workflow-templates.md). Questo caso d’uso consente di configurare un flusso di lavoro che può essere riutilizzato per importare nel database di Adobe Campaign i profili provenienti da un sistema di gestione delle relazioni con i clienti.
 
 1. Salva il tuo modello in modo che la configurazione del flusso di lavoro venga presa in considerazione nel modo corretto.
-1. Carica un file di esempio dalla scheda **[!UICONTROL Properties]**. Il file caricato può contenere solo le colonne necessarie per le importazioni future o per i dati campione. I dati contenuti nel file di esempio consentono di verificare l’importazione semplificata, una volta definito il flusso di lavoro.
+1. Carica un file di esempio dalla scheda **[!UICONTROL Properties]**. Il file caricato può contenere solo le colonne necessarie per le importazioni future o per i dati di esempio. I dati contenuti nel file di esempio consentono di verificare l’importazione semplificata, una volta definito il flusso di lavoro.
 
    ![](assets/import_template_sample.png)
 
