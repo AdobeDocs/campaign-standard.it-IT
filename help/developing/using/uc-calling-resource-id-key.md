@@ -8,21 +8,24 @@ exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '593'
 ht-degree: 6%
-
 ---
-
 # Chiamata di una risorsa tramite una chiave di identificazione composita{#calling-a-resource-using-a-composite-identification-key}
 
 In alcuni casi, potrebbe essere necessario definire per una risorsa una chiave di identificazione composta da due campi. Una volta configurata la chiave di identificazione, devi configurare una definizione di filtro per poter chiamare la risorsa con questa chiave di identificazione, dall’interfaccia di Campaign Standard o dalle API.
