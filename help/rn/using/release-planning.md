@@ -11,17 +11,18 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 TQID: https://experienceleague.adobe.com/J9pNnea7LEzzIOs3B8lLWG7DhVI-iytVfpArC3Xdy94
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Beginner
+source-git-commit: 85ffa7d709dc970ab5315fb76577c457380b40f8
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 100%
-
+source-wordcount: '417'
+ht-degree: 94%
 ---
-
 # Pianificazione del rilascio {#release-planning}
 
 Adobe migliora continuamente le proprie soluzioni aggiungendo nuove funzionalità, miglioramenti e correzioni.
@@ -30,39 +31,13 @@ Tutte le istanze di Adobe Campaign Standard vengono aggiornate con ogni nuova ve
 
 Gli aggiornamenti vengono implementati in due fasi. In primo luogo, le istanze nell’ambiente di staging vengono aggiornate per consentire ai clienti di testare le nuove funzionalità e adattare la propria configurazione, se necessario. Vengono quindi aggiornate le istanze di produzione.
 
-Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti degli ambienti avvengono gradualmente, negli archi temporali indicati di seguito. Le date esatte vengono comunicate per e-mail a ciascun cliente.
+Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti dell’ambiente avvengono gradualmente. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
 ## Versione 26.3 {#release-26-3-release}
 
 Informazioni dettagliate su questa versione sono disponibili nelle [Note sulla versione](release-notes.md) all’avvio degli aggiornamenti dell’ambiente di staging.
 
-<table>
- <thead>
-  <tr>
-   <th> Ambienti </th>
-   <th> Date</th>
-   <!--
-   <th> General Availability </th>
-   -->
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Fase </td>
-   <td>Agosto </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
-  <tr>
-   <td>Produzione </td>
-   <td>Settembre </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
- </tbody>
-</table>
+Le date di aggiornamento per la versione 26.3 non sono ancora disponibili. Visita regolarmente questa pagina per verificare la disponibilità di aggiornamenti.
 
 ## Domande e risposte {#questions-and-answers}
 

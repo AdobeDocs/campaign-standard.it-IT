@@ -9,25 +9,32 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 TQID: https://experienceleague.adobe.com/veKfBzSOBLDuuVmwQjSQoa3cb-fY4jUigBdGTCUL8pM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: '2782'
 ht-degree: 53%
-
 ---
-
 # Configurazione del canale e-mail{#configuring-email-channel}
 
 In qualità di [amministratore](../../administration/using/users-management.md#functional-administrators) di Campaign, puoi effettuare la configurazione delle impostazioni del canale e-mail. Tali impostazioni avanzate includono i parametri generali del canale e-mail, account di indirizzamento e-mail, regole di elaborazione e-mail e proprietà e-mail. In questa pagina, scopri come modificare i valori predefiniti per l’e-mail generale e i parametri di invio.
@@ -44,10 +51,10 @@ La schermata di configurazione e-mail consente di definire i parametri per il ca
 
   Durante la fase di preparazione dei messaggi, Adobe Campaign verifica che gli indirizzi immessi siano validi. Questa modalità operativa assicura che non vengano utilizzati indirizzi che possono causare problemi di consegna.
 
-   * Sia l’indirizzo del mittente che l’indirizzo di errore sono impostati da Adobe. Questi campi non possono essere vuoti.
-   * Non è possibile modificarli. Per aggiornare un indirizzo, contatta il team di Assistenza cliente Adobe.
-   * Per aggiungere un altro indirizzo, puoi utilizzare [Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it) per impostare un nuovo sottodominio o contattare il team di assistenza clienti di Adobe. Se vengono utilizzate più maschere, vengono separate da virgole.
-   * È buona norma impostare gli indirizzi utilizzando un asterisco, ad esempio **@yourdomain.com**: ti consente di utilizzare qualsiasi indirizzo che termina con il nome del sottodominio.
+  * Sia l’indirizzo del mittente che l’indirizzo di errore sono impostati da Adobe. Questi campi non possono essere vuoti.
+  * Non è possibile modificarli. Per aggiornare un indirizzo, contatta il team di Assistenza cliente Adobe.
+  * Per aggiungere un altro indirizzo, puoi utilizzare [Pannello di controllo Campaign di campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=it) per impostare un nuovo sottodominio o contattare il team di assistenza clienti di Adobe. Se vengono utilizzate più maschere, vengono separate da virgole.
+  * È buona norma impostare gli indirizzi utilizzando un asterisco, ad esempio **@yourdomain.com**: ti consente di utilizzare qualsiasi indirizzo che termina con il nome del sottodominio.
 
 * **Deliverability**
 
@@ -237,10 +244,10 @@ La sezione **[!UICONTROL Validity period]** contiene i seguenti parametri:
 * **[!UICONTROL Resource validity duration]**/**[!UICONTROL Validity limit date for resources]**: questo campo viene utilizzato per le risorse caricate, principalmente per la pagina mirror e per le immagini. Le risorse presenti in questa pagina sono valide per un periodo di tempo limitato (per risparmiare spazio su disco).
 * **[!UICONTROL Mirror page management]**: la pagina mirror è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail. Per impostazione predefinita, la pagina mirror viene generata se il collegamento viene inserito nel contenuto dell’e-mail. Utilizza questo campo per modificare la modalità di generazione della pagina:
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modalità predefinita): la pagina mirror viene generata se il collegamento viene inserito nel contenuto dell’e-mail.
-   * **Forza la generazione della pagina mirror**: anche se nei messaggi non viene inserito alcun collegamento alla pagina mirror, la pagina verrà creata ugualmente.
-   * **Non generare la pagina mirror**: non viene creata alcuna pagina mirror, anche se il collegamento è presente nei messaggi.
-   * **Genera una pagina mirror accessibile utilizzando solo l’identificatore del messaggio**: questa opzione consente di accedere al contenuto della pagina mirror, con i dati di personalizzazione, nella finestra del registro di consegna.
+  * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (modalità predefinita): la pagina mirror viene generata se il collegamento viene inserito nel contenuto dell’e-mail.
+  * **Forza la generazione della pagina mirror**: anche se nei messaggi non viene inserito alcun collegamento alla pagina mirror, la pagina verrà creata ugualmente.
+  * **Non generare la pagina mirror**: non viene creata alcuna pagina mirror, anche se il collegamento è presente nei messaggi.
+  * **Genera una pagina mirror accessibile utilizzando solo l’identificatore del messaggio**: questa opzione consente di accedere al contenuto della pagina mirror, con i dati di personalizzazione, nella finestra del registro di consegna.
 
   >[!IMPORTANT]
   >
