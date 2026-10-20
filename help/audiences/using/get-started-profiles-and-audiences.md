@@ -87,7 +87,7 @@ Fornendo **collegamenti per l&#39;annullamento dell&#39;abbonamento** nei messag
 
 >[!IMPORTANT]
 >
->È necessario rispettare i [criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>È necessario rispettare i [criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/it/legal/terms/aup.html).
 
 Ulteriori informazioni:
 
