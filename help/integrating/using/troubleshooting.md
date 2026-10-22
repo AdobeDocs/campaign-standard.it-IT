@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+TQID: 'https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 0%
-
 ---
-
 # Risoluzione dei problemi{#troubleshooting}
 
 È possibile che si verifichino errori durante l’utilizzo dell’integrazione con Audience Manager o il servizio core People.
@@ -37,8 +49,8 @@ In questo caso, assicurati che i seguenti elementi siano configurati correttamen
 
   In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**, assicurati che i seguenti account S3 esterni siano configurati correttamente. I server S3 menzionati avrebbero dovuto essere configurati durante il provisioning.
 
-   * **[!UICONTROL importSharedAudience]**: account S3 dedicato all&#39;importazione di tipi di pubblico.
-   * **[!UICONTROL exportSharedAudience]**: account S3 dedicato all&#39;esportazione dei tipi di pubblico.
+  * **[!UICONTROL importSharedAudience]**: account S3 dedicato all&#39;importazione di tipi di pubblico.
+  * **[!UICONTROL exportSharedAudience]**: account S3 dedicato all&#39;esportazione dei tipi di pubblico.
 
 * **Origini dati condivise**
 
@@ -54,9 +66,9 @@ In questo caso, assicurati che i seguenti elementi siano configurati correttamen
 
   Se è selezionato l&#39;algoritmo di crittografia AES, è necessario impostare correttamente i campi aggiuntivi seguenti:
 
-   * **Chiave di crittografia** per AES
-   * **Crittografia IV** (vettore di inizializzazione) per AES
-   * **Canale** (e-mail/SMS/altro): questo campo consente di decrittografare direttamente gli indirizzi e-mail e i numeri SMS. Verificare che la chiave di riconciliazione corrisponda all&#39;impostazione del campo **Canale**. Se selezioni &quot;Altro&quot;, questa decrittografia specifica non verrà eseguita e la chiave di riconciliazione verrà utilizzata per riconciliare i dati.
+  * **Chiave di crittografia** per AES
+  * **Crittografia IV** (vettore di inizializzazione) per AES
+  * **Canale** (e-mail/SMS/altro): questo campo consente di decrittografare direttamente gli indirizzi e-mail e i numeri SMS. Verificare che la chiave di riconciliazione corrisponda all&#39;impostazione del campo **Canale**. Se selezioni &quot;Altro&quot;, questa decrittografia specifica non verrà eseguita e la chiave di riconciliazione verrà utilizzata per riconciliare i dati.
 
   I tipi di pubblico di Experience Cloud potrebbero non essere condivisi perché il flusso di lavoro tecnico è stato interrotto o sospeso. Accedere al flusso di lavoro **[!UICONTROL Import shared audience]** facendo clic direttamente sull&#39;opzione **[!UICONTROL Show ImportShared Audience workflow]** nell&#39;origine dati.
 

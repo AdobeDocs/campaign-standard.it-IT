@@ -5,10 +5,12 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
+TQID: 'https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -16,9 +18,13 @@ feature_v2:
     internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
     internal-label: Dynamic reporting
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
     internal-label: REST API
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -38,7 +44,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '7892'
 ht-degree: 10%
@@ -64,7 +70,7 @@ ht-degree: 10%
     <li><p>Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento (RGPD o CCPA) è stato aggiunto al servizio core per la privacy. Dovresti utilizzare questo metodo per tutte le richieste di accesso ed eliminazione. L’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto.  Consulta l’articolo <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">Funzioni obsolete e rimosse</a>.</p></li>
     <li>Alla risorsa Profili è stato aggiunto il campo <strong>Rinuncia CCPA</strong> per consentire agli utenti di Adobe Campaign di verificare se un consumatore ha rinunciato alla vendita di Informazioni personali. <a href="https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ccpa">Ulteriori informazioni</a>.</li>
   </ul>
-    <p>Consulta il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=it">video tutorial</a>.</p>
+    <p>Consulta il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">video tutorial</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -185,11 +191,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> Attività API esterna (Beta pubblico)<br /> </td> 
-   <td> <p>Per una personalizzazione più approfondita, l’attività API esterna consente di inserire dati da sistemi esterni in un flusso di lavoro tramite una chiamata API REST. Gli endpoint REST possono essere un sistema di gestione clienti, un endpoint REST di Adobe I/O Runtime o Adobe Experience Cloud (ad esempio Data Platform, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=it">video tutorial</a>.</p></td> 
+   <td> <p>Per una personalizzazione più approfondita, l’attività API esterna consente di inserire dati da sistemi esterni in un flusso di lavoro tramite una chiamata API REST. Gli endpoint REST possono essere un sistema di gestione clienti, un endpoint REST di Adobe I/O Runtime o Adobe Experience Cloud (ad esempio Data Platform, Target, Analytics, Campaign).</p><p>Questa funzionalità è attualmente in versione beta pubblica.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">video tutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report sul segmento del flusso di lavoro<br /> </td> 
-   <td> <p>Questa funzione consente agli addetti al marketing di suddividere le prestazioni di consegna per codice di segmento. Quando crei un flusso di lavoro e utilizzi un’attività di segmentazione per assegnare segmenti al pubblico a cui verrà consegnata l’attività, questi segmenti possono ora essere inseriti nella stessa consegna. Questo consente di visualizzare le statistiche di apertura e clic basate su più segmenti all’interno di una singola consegna.</p><p>Per ulteriori informazioni, consulta la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=it">video tutorial</a>.</p></td>
+   <td> <p>Questa funzione consente agli addetti al marketing di suddividere le prestazioni di consegna per codice di segmento. Quando crei un flusso di lavoro e utilizzi un’attività di segmentazione per assegnare segmenti al pubblico a cui verrà consegnata l’attività, questi segmenti possono ora essere inseriti nella stessa consegna. Questo consente di visualizzare le statistiche di apertura e clic basate su più segmenti all’interno di una singola consegna.</p><p>Per ulteriori informazioni, consulta la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">video tutorial</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -338,7 +344,7 @@ Nella versione 19.2 è stata introdotta una serie di miglioramenti e correzioni 
   </tr> 
   <tr> 
    <td> Miglioramento del flusso di lavoro - Aggiunta di un payload all'attività del segnale esterno<br /> </td> 
-   <td> <p>Avvia un flusso di lavoro con un payload quando le condizioni definite vengono soddisfatte correttamente da un altro flusso di lavoro o una chiamata API REST per l’integrazione con i sistemi esterni. Ciò include anche una nuova attività <strong>test</strong> in cui è possibile eseguire test su questa funzionalità.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=it">video tutorial</a>.</p></td> 
+   <td> <p>Avvia un flusso di lavoro con un payload quando le condizioni definite vengono soddisfatte correttamente da un altro flusso di lavoro o una chiamata API REST per l’integrazione con i sistemi esterni. Ciò include anche una nuova attività <strong>test</strong> in cui è possibile eseguire test su questa funzionalità.</p><p>Per ulteriori informazioni, consulta la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">video tutorial</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Miglioramento delle pagine di destinazione - Google reCAPTCHA<br /> </td> 
@@ -456,7 +462,7 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
   </tr> 
   <tr> 
    <td> Messaggistica In-App Mobile<br /> </td> 
-   <td> <p>Questa versione contiene la versione GA del canale in-app in Campaign. Dal punto di vista funzionale, le aggiunte più importanti alla versione di Beta sono i rapporti dinamici per il canale in-app e l’handshake sicuro tra Mobile SDK e MCIAS (Marketing Cloud In-App Messaging Service, che fornisce le regole in-app al SDK). Secure Handshake garantisce che i dati PII degli utenti non cadano in mani maligne e consente di mantenere la privacy degli utenti su un dispositivo condiviso cancellando la cache dei messaggi ogni volta che l’utente si disconnette.</p><p>Per ulteriori informazioni, consulta la <a href="../../channels/using/about-in-app-messaging.md">documentazione dettagliata</a> e l'esercitazione in-app <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=it">dedicata</a>.</p> </td> 
+   <td> <p>Questa versione contiene la versione GA del canale in-app in Campaign. Dal punto di vista funzionale, le aggiunte più importanti alla versione di Beta sono i rapporti dinamici per il canale in-app e l’handshake sicuro tra Mobile SDK e MCIAS (Marketing Cloud In-App Messaging Service, che fornisce le regole in-app al SDK). Secure Handshake garantisce che i dati PII degli utenti non cadano in mani maligne e consente di mantenere la privacy degli utenti su un dispositivo condiviso cancellando la cache dei messaggi ogni volta che l’utente si disconnette.</p><p>Per ulteriori informazioni, consulta la <a href="../../channels/using/about-in-app-messaging.md">documentazione dettagliata</a> e l'esercitazione in-app <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">dedicata</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Miglioramenti al flusso di lavoro<br /> </td> 
@@ -561,11 +567,11 @@ Sono stati aggiunti diversi miglioramenti al canale di messaggistica transaziona
      <li> Possibilità di <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">recuperare automaticamente il contenuto da un URL al momento della preparazione</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">modelli di contenuto preconfigurati</a> completamente conformi. </li> 
     </ul> 
-    <p>Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=it">video tutorial</a>. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l’editor di contenuti e-mail legacy è ora obsoleto. Per ulteriori informazioni, consulta questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.</p> </td> 
+    <p>Per ulteriori informazioni, consulta la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">video tutorial</a>. Miglioramenti e correzioni sono elencati di seguito.</p><p>Di conseguenza, l’editor di contenuti e-mail legacy è ora obsoleto. Per ulteriori informazioni, consulta questa <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=it#">pagina</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Elenco prodotti nei messaggi e-mail sulle transazioni<br /> </td> 
-   <td> <p>Ora puoi fare riferimento a una o più raccolte di prodotti in un messaggio e-mail transazionale. Ad esempio, puoi inviare automaticamente un’e-mail di abbandono carrello elencando tutti i prodotti presenti nel carrello dell’utente con un’immagine, un prezzo e un collegamento a ciascun prodotto.</p><p>Per ulteriori informazioni, consulta la <a href="../../designing/using/using-product-listings.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=it">video tutorial</a>.</p> </td> 
+   <td> <p>Ora puoi fare riferimento a una o più raccolte di prodotti in un messaggio e-mail transazionale. Ad esempio, puoi inviare automaticamente un’e-mail di abbandono carrello elencando tutti i prodotti presenti nel carrello dell’utente con un’immagine, un prezzo e un collegamento a ciascun prodotto.</p><p>Per ulteriori informazioni, consulta la <a href="../../designing/using/using-product-listings.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">video tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Visualizzazione mobile in E-mail Designer<br /> </td> 

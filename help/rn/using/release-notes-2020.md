@@ -8,44 +8,72 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
+TQID: 'https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+    internal-label: Data retention
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Experience Platform integration
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 5439
+source-wordcount: '5439'
 ht-degree: 95%
-
 ---
-
 # Note sulla versione 2020{#release-notes-2020}
 
 ![](assets/do-not-localize/cp-icon.png) **Nuova versione del Pannello di controllo di giugno** con monitoraggio dei profili attivi, audit del recapito messaggi del sottodominio e gestione delle chiavi GPG. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=it).
@@ -64,8 +92,9 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Ora è possibile utilizzare i <strong>Gruppi di controllo</strong> per misurare l’impatto delle campagne escludendo parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.</p>
-<p>Per ulteriori informazioni consulta la <a href="../../sending/using/control-group.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=it">video tutorial</a>.
+  <td> <p>Ora è possibile utilizzare i <strong>Gruppi di controllo</strong> per misurare l’impatto delle campagne escludendo parte del pubblico. Puoi quindi confrontare il comportamento della popolazione di destinazione che ha ricevuto il messaggio con il comportamento dei contatti non mirati. In base ai registri di invio, puoi anche eseguire il targeting di un gruppo di controllo in campagne future.
+</p>
+<p>Per ulteriori informazioni consulta la <a href="../../sending/using/control-group.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">video tutorial</a>.
 </p>
 </td> 
 </tr> 
@@ -80,7 +109,8 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign ora supporta OAuth per l’Authentication nell’attività del flusso di lavoro dell’<strong>API esterna</strong>. Questa nuova funzionalità consente a questa attività di comunicare con i sistemi che richiedono il supporto OAuth.</p>
+  <td> <p>Adobe Campaign ora supporta OAuth per l’Authentication nell’attività del flusso di lavoro dell’<strong>API esterna</strong>. Questa nuova funzionalità consente a questa attività di comunicare con i sistemi che richiedono il supporto OAuth.
+</p>
 <p>Per ulteriori informazioni consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a>.
 </p>
 </td> 
@@ -100,8 +130,8 @@ ht-degree: 95%
   <p>IA per l’analisi dei percorsi utilizza l’apprendimento automatico avanzato (ML) per consentire alle aziende di ottimizzare la progettazione e la consegna di percorsi di clienti prevedendo le preferenze di coinvolgimento di ogni individuo.</p>
   <P>Journey AI è costituito da due caratteristiche ML:</p>
 <ul> 
-     <li> <strong>Valutazione predittiva del coinvolgimento</strong>: identifica in modo intelligente il livello di coinvolgimento preferito dai clienti per eseguire meglio il targeting e personalizzare i messaggi, al fine di aumentare le conversioni e la fidelizzazione. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=it">video-tutorial</a>.</li> 
-     <li> <strong>Ottimizzazione predittiva del momento di invio</strong>: prevede il momento migliore per inviare e-mail ai clienti in una campagna, in modo da massimizzare i tassi di coinvolgimento e migliorare il ROI delle campagne e-mail. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=it">video-tutorial</a>.</li>
+     <li> <strong>Valutazione predittiva del coinvolgimento</strong>: identifica in modo intelligente il livello di coinvolgimento preferito dai clienti per eseguire meglio il targeting e personalizzare i messaggi, al fine di aumentare le conversioni e la fidelizzazione. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">video-tutorial</a>.</li> 
+     <li> <strong>Ottimizzazione predittiva del momento di invio</strong>: prevede il momento migliore per inviare e-mail ai clienti in una campagna, in modo da massimizzare i tassi di coinvolgimento e migliorare il ROI delle campagne e-mail. Guarda il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">video-tutorial</a>.</li>
     </ul>
   <p>Per informazioni su come iniziare a utilizzare Journey AI, consulta la <a href="../../sending/using/predictive.md">documentazione dettagliata</a> e rivolgiti al tuo Account Executive. Journey AI è disponibile gratuitamente per chi è già cliente di Campaign, tuttavia è previsto un costo di implementazione di circa 50 ore.</p>
     </td> 
@@ -111,7 +141,7 @@ ht-degree: 95%
 
 **Miglioramenti**
 
-* **Gestione della privacy**: il campo **Rinuncia CCPA**, disponibile tramite l’interfaccia Campaign e l’API, ora è supportato anche tramite il servizio core Privacy. Questo campo consente agli utenti di Adobe Campaign di verificare se un cliente ha rinunciato alla vendita di Dati Personali. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ccpa)
+* **Gestione della privacy**: il campo **Rinuncia CCPA**, disponibile tramite l’interfaccia Campaign e l’API, ora è supportato anche tramite il servizio core Privacy. Questo campo consente agli utenti di Adobe Campaign di verificare se un consumatore ha rinunciato alla vendita di dati personali. [Ulteriori informazioni](https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#ccpa)
 * **Miglioramenti dell’esecuzione del flusso di lavoro** (versione beta): nel contesto di un’iniziativa globale sui flussi di lavoro, sono stati sviluppati alcuni miglioramenti importanti per stabilizzare la gestione della memoria, ridurre la latenza e ottimizzare la memoria utilizzata dai flussi di lavoro durante l’esecuzione. Questi miglioramenti sono attualmente in versione beta e sono disponibili solo per alcuni clienti. La disponibilità generale è prevista per l’inizio del 2021.
 * Per migliorare la sicurezza, ora Campaign utilizza un **meccanismo di firma** per tracciare i collegamenti nelle e-mail.
 * La configurazione dell’app mobile è stata migliorata con **messaggi di errore più chiari** durante il caricamento di certificati iOS o di chiavi Android.
@@ -234,7 +264,7 @@ ht-degree: 95%
 <li>Diritto di accesso e Diritto di eliminazione: sono state sfruttate le funzionalità aggiunte del GDPR e del CCPA. <a href="https://helpx.adobe.com/it/campaign/kb/acs-privacy.html#righttoaccess">Ulteriori informazioni</a> </li>
 <li><p>Durante la creazione di una richiesta di accesso a dati personali, il tipo di regolamento PDPA è stato aggiunto al servizio core Privacy. Dovresti utilizzare questo metodo per tutte le richieste di accesso ed eliminazione. L’utilizzo dell’API e dell’interfaccia di Campaign per le richieste di accesso ed eliminazione è obsoleto.  Consulta l’articolo <a href="../../rn/using/deprecated-features.md">Funzioni obsolete e rimosse</a>.</p></li>
 </ul>
-<p>Consulta il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=it">video tutorial</a>.</p>
+<p>Consulta il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">video tutorial</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -255,7 +285,7 @@ ht-degree: 95%
 <li>selezionare e utilizzare un oggetto array da un JSON senza dover denominare l’oggetto "data" o posizionarlo sul livello superiore.</li>
 </ul>
 <p><strong>Attenzione:</strong> i clienti devono <strong>sostituire tutte le attività API esterne in versione beta</strong> con attività API esterne GA nei relativi flussi di lavoro.  I flussi di lavoro che utilizzano la versione Beta dell’API esterna non funzionano più in 20.3.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=it">video tutorial</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../../automating/using/external-api.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">video tutorial</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -348,7 +378,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td> <p>Oltre ai profili di test, ora puoi testare le e-mail su profili di destinazione reali. Ciò ti consente di ottenere una rappresentazione esatta del messaggio ricevuto dal profilo: campi personalizzati, informazioni dinamiche e personalizzate, compresi dati aggiuntivi dei flussi di lavoro, ecc. </p>
-    <p>Per ulteriori informazioni, consulta la <a href="../../sending/using/testing-messages-using-target.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=it">video tutorial</a>. </p>
+    <p>Per ulteriori informazioni, consulta la <a href="../../sending/using/testing-messages-using-target.md">documentazione dettagliata</a> e il <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">video tutorial</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -360,7 +390,7 @@ ht-degree: 95%
 
 **Miglioramenti**
 
-* La user experience dei messaggi transazionali e la coerenza dell’interfaccia sono state migliorate. [Ulteriori informazioni](../../channels/using/getting-started-with-transactional-msg.md)
+* L’esperienza utente dei messaggi transazionali e la coerenza dell’interfaccia sono state migliorate. [Ulteriori informazioni](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard ora ti consente di inviare bozze ai profili di test utilizzando dati aggiuntivi dei flussi di lavoro.
 * I guardrail per l’attività External API sono stati aggiornati. [Ulteriori informazioni](../../automating/using/external-api.md)
 

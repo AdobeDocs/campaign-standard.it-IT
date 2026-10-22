@@ -9,20 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-TQID: https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak
+TQID: 'https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 99%
-
 ---
-
 # Importazione di dati con modelli di importazione{#importing-data-with-import-templates}
 
 L’importazione di dati ti consente di raccogliere dati per alimentare il database di Campaign.
@@ -63,14 +75,14 @@ Sono disponibili tre modelli predefiniti di sola lettura:
 * **[!UICONTROL Update Direct mail quarantines and delivery logs]**: questo modello può fungere da base per le nuove importazioni e consente di aggiornare le quarantene e i registri di consegna per la direct mailing. Il flusso di lavoro del modello contiene le attività seguenti:
 * **[!UICONTROL Import data]**: questo modello può servire da base per consentire alle nuove importazioni di inserire i dati da un file al database. Il flusso di lavoro di questo modello contiene le attività seguenti:
 
-   * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
-   * **[!UICONTROL Update data]**: questa attività ti consente di inserire i dati dal file al database.
+  * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
+  * **[!UICONTROL Update data]**: questa attività ti consente di inserire i dati dal file al database.
 
 * **[!UICONTROL Import list]**: questo modello può fungere da base per permettere alle nuove importazioni di creare un pubblico di tipo **Elenco** dai dati contenuti all’interno di un file. Il flusso di lavoro di questo modello contiene le attività seguenti:
 
-   * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
-   * **[!UICONTROL Reconciliation]**: questa attività consente di collegare ai dati importati una dimensione targeting. A sua volta, ciò ti permette di creare un pubblico di tipo **Elenco**. Se la dimensione targeting dei dati importati non è nota, il pubblico sarà del tipo **File**. Consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Save audience]**: questa attività ti permette di salvare i dati importati sotto forma di pubblico di tipo **Elenco**. Il nome del pubblico salvato corrisponde al nome del file importato dall’utente, cui verrà aggiunto un suffisso che indica la data e l’ora dell’importazione. Ad esempio: “profiles_20150406_151448”.
+  * **[!UICONTROL Load file]**: questa attività ti permette di caricare un file sul server Adobe Campaign.
+  * **[!UICONTROL Reconciliation]**: questa attività consente di collegare ai dati importati una dimensione targeting. A sua volta, ciò ti permette di creare un pubblico di tipo **Elenco**. Se la dimensione targeting dei dati importati non è nota, il pubblico sarà del tipo **File**. Consulta [Dimensioni targeting e risorse](../../automating/using/query.md#targeting-dimensions-and-resources).
+  * **[!UICONTROL Save audience]**: questa attività ti permette di salvare i dati importati sotto forma di pubblico di tipo **Elenco**. Il nome del pubblico salvato corrisponde al nome del file importato dall’utente, cui verrà aggiunto un suffisso che indica la data e l’ora dell’importazione. Ad esempio: “profiles_20150406_151448”.
 
 Questi modelli predefiniti sono di sola lettura e non sono visibili agli utenti standard. Per creare un modello che sarà disponibile agli utenti, effettua le seguenti operazioni:
 

@@ -10,23 +10,34 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-TQID: https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4
+TQID: 'https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: '531'
 ht-degree: 79%
-
 ---
-
 # Arricchimento dei dati del profilo con i dati contenuti in un file {#enriching-profile-data-with-data-contained-in-a-file}
 
 Questo esempio mostra come arricchire i dati del profilo con i dati di acquisto presenti in un file. In questo caso, presupponiamo che i dati di acquisto vengono memorizzati in un sistema di terze parti. Ciascun profilo può contenere vari acquisti memorizzati all’interno del file. L’obiettivo finale del flusso di lavoro è quello di inviare un’e-mail ai profili di destinazione che hanno acquistato almeno due elementi, in modo da ringraziarli della loro fedeltà.
@@ -56,37 +67,37 @@ Il flusso di lavoro è configurato come segue:
 
   Una volta creato il collegamento, vengono aggiunti due set di **[!UICONTROL Additional data]**:
 
-   * Una raccolta di due righe corrispondenti alle ultime due transazioni di ciascun profilo. Per questa raccolta, il nome del prodotto, la data della transazione e il prezzo del prodotto vengono inseriti come dati aggiuntivi. Ai dati viene applicato un ordinamento decrescente. Per creare la raccolta, dalla scheda **[!UICONTROL Additional data]**:
+  * Una raccolta di due righe corrispondenti alle ultime due transazioni di ciascun profilo. Per questa raccolta, il nome del prodotto, la data della transazione e il prezzo del prodotto vengono inseriti come dati aggiuntivi. Ai dati viene applicato un ordinamento decrescente. Per creare la raccolta, dalla scheda **[!UICONTROL Additional data]**:
 
-     Scegli il collegamento precedentemente definito nella scheda **[!UICONTROL Advanced relations]** dell’attività.
+    Scegli il collegamento precedentemente definito nella scheda **[!UICONTROL Advanced relations]** dell’attività.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     Seleziona **[!UICONTROL Collection]** e specifica il numero di righe da recuperare, in questo esempio sono 2. In questa schermata, puoi personalizzare **[!UICONTROL Alias]** e **[!UICONTROL Label]** della raccolta. Questi valori saranno visibili nelle seguenti attività del flusso di lavoro, ogni volta che si farà riferimento a questa raccolta.
+    Seleziona **[!UICONTROL Collection]** e specifica il numero di righe da recuperare, in questo esempio sono 2. In questa schermata, puoi personalizzare **[!UICONTROL Alias]** e **[!UICONTROL Label]** della raccolta. Questi valori saranno visibili nelle seguenti attività del flusso di lavoro, ogni volta che si farà riferimento a questa raccolta.
 
-     ![](assets/enrichment_example_workflow4.png)
+    ![](assets/enrichment_example_workflow4.png)
 
-     Come **[!UICONTROL Data]** da mantenere per la raccolta, seleziona le colonne che verranno utilizzate per la consegna finale.
+    Come **[!UICONTROL Data]** da mantenere per la raccolta, seleziona le colonne che verranno utilizzate per la consegna finale.
 
-     ![](assets/enrichment_example_workflow6.png)
+    ![](assets/enrichment_example_workflow6.png)
 
-     Per avere la certezza di recuperare le transazioni più recenti, applica un ordinamento decrescente alla data della transazione.
+    Per avere la certezza di recuperare le transazioni più recenti, applica un ordinamento decrescente alla data della transazione.
 
-     ![](assets/enrichment_example_workflow7.png)
+    ![](assets/enrichment_example_workflow7.png)
 
-   * Un aggregato che conta il numero totale di transazioni per ciascun profilo. Tale aggregato verrà utilizzato successivamente per filtrare i profili in cui sono registrate almeno due transazioni. Per creare l’aggregato, dalla scheda **[!UICONTROL Additional data]**:
+  * Un aggregato che conta il numero totale di transazioni per ciascun profilo. Tale aggregato verrà utilizzato successivamente per filtrare i profili in cui sono registrate almeno due transazioni. Per creare l’aggregato, dalla scheda **[!UICONTROL Additional data]**:
 
-     Scegli il collegamento precedentemente definito nella scheda **[!UICONTROL Advanced relations]** dell’attività.
+    Scegli il collegamento precedentemente definito nella scheda **[!UICONTROL Advanced relations]** dell’attività.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     Seleziona **[!UICONTROL Aggregate]**.
+    Seleziona **[!UICONTROL Aggregate]**.
 
-     ![](assets/enrichment_example_workflow8.png)
+    ![](assets/enrichment_example_workflow8.png)
 
-     Come **[!UICONTROL Data]** da mantenere, definisci un aggregato **Conta tutto**. Se necessario, specifica un alias personalizzato per individuarlo più rapidamente nelle seguenti attività.
+    Come **[!UICONTROL Data]** da mantenere, definisci un aggregato **Conta tutto**. Se necessario, specifica un alias personalizzato per individuarlo più rapidamente nelle seguenti attività.
 
-     ![](assets/enrichment_example_workflow9.png)
+    ![](assets/enrichment_example_workflow9.png)
 
 * Un&#39;attività [Segmentation](../../automating/using/segmentation.md) con un solo segmento, che recupera i profili della destinazione iniziale contenenti almeno due transazioni registrate. Sono esclusi i profili con una sola transazione. A tal fine, la query della segmentazione viene eseguita sull’aggregato definito in precedenza.
 

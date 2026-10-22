@@ -3,18 +3,20 @@ title: Aggiornare la qualificazione di mancato recapito dopo un’interruzione d
 description: Scopri come aggiornare la qualifica di mancato recapito dopo un’interruzione del servizio dell’ISP.
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
+TQID: 'https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '446'
 ht-degree: 3%
-
 ---
-
 # Aggiornare la qualificazione di mancato recapito dopo un’interruzione del servizio ISP {#update-bounce-qualification.md}
 
 ## Contesto
@@ -23,7 +25,7 @@ In caso di interruzione di un ISP, le e-mail inviate tramite Campaign non posson
 
 Nel dicembre 2020, un problema globale in Gmail ha causato la mancata disponibilità di alcuni messaggi di posta elettronica inviati a indirizzi di posta elettronica Gmail validi, erroneamente bloccati come indirizzi di posta elettronica non validi dai server Gmail con la seguente risposta di mancato recapito: *&quot;550-5.1.1 L&#39;account di posta elettronica che si è tentato di raggiungere non esiste.&quot;*
 
-Google ha dichiarato che le interruzioni e le interruzioni di Gmail che hanno causato il problema sono iniziate il 14 dicembre alle 6:55AM e si sono concluse alle 6:09PM EST del 15 dicembre. L&#39;analisi dei dati ha inoltre mostrato un picco molto breve nei mancati recapiti Gmail alle 2:06AM EST del 16 dicembre, la maggior parte dei quali si è verificata il 15 dicembre tra le 2:00 PM EST e le 6:30 PM EST.
+Google ha dichiarato che le interruzioni e i disagi di Gmail che hanno causato questo problema sono iniziati il 14 dicembre alle 06:55 e si sono conclusi alle 18:09 EST del 15 dicembre. L’analisi dei nostri dati ha anche mostrato un picco molto breve nei mancati recapiti Gmail alle 02:06 EST del 16 dicembre, la maggior parte dei quali si è verificata il 15 dicembre tra le 14:00 EST e le 18:30 EST.
 
 >[!NOTE]
 >

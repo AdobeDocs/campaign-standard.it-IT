@@ -9,37 +9,46 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-TQID: https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc
+TQID: 'https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: '520'
 ht-degree: 22%
-
 ---
-
 # Informazioni sull’integrazione di Campaign con Audience Manager o il servizio core People{#about-campaign-audience-manager-or-people-core-service-integration}
 
 >[!CAUTION]
 >
 >A seconda dei dati scambiati, l’importazione di tipi di pubblico in Adobe Campaign può essere soggetta a restrizioni legali.
 
-Adobe Campaign consente di scambiare e condividere tipi di pubblico/segmenti con diverse applicazioni Adobe Experience Cloud. L&#39;integrazione di **Adobe Campaign** con il servizio core **People** (noto anche come servizio core **Profiles &amp; Audiences**) o Adobe Audience Manager consente di:
+Adobe Campaign consente di scambiare e condividere tipi di pubblico/segmenti con le diverse applicazioni Adobe Experience Cloud. L&#39;integrazione di **Adobe Campaign** con il servizio core **People** (noto anche come servizio core **Profiles &amp; Audiences**) o Adobe Audience Manager consente di:
 
 * Importa tipi di pubblico/segmenti da diverse soluzioni Adobe Experience Cloud in Adobe Campaign. I tipi di pubblico possono essere importati dal menu **[!UICONTROL Audiences]** in Adobe Campaign.
 * Esporta i tipi di pubblico come tipi di pubblico/segmenti condivisi. Questi tipi di pubblico possono essere utilizzati nelle diverse soluzioni Adobe Experience Cloud che utilizzi. I tipi di pubblico possono essere esportati dopo le attività di targeting in un flusso di lavoro, utilizzando l&#39;attività **[!UICONTROL Save audience]**.
 
-L&#39;integrazione supporta due tipi di ID Adobe Experience Cloud:
+L’integrazione supporta due tipi di ID di Adobe Experience Cloud:
 
-* **ID visitatore**: questo tipo di ID consente di riconciliare i visitatori di Adobe Experience Cloud con i profili Adobe Campaign. Non appena viene abilitata una connessione tramite Adobe IMS, viene attivato il servizio ID visitatore di Marketing Cloud, che sostituisce il cookie permanente utilizzato da Adobe Campaign. Questo consente di identificare un visitatore e quindi collegarlo a un profilo.
+* **ID visitatore**: questo tipo di ID consente di riconciliare i visitatori di Adobe Experience Cloud con i profili di Adobe Campaign. Non appena viene abilitata una connessione tramite Adobe IMS, viene attivato il servizio ID visitatore di Marketing Cloud, che sostituisce il cookie permanente utilizzato da Adobe Campaign. Questo consente di identificare un visitatore e quindi collegarlo a un profilo.
   <br>Un ID visitatore viene collegato a un profilo non appena quest&#39;ultimo fa clic in un&#39;e-mail inviata tramite Adobe Campaign:
-   * Se il profilo dispone già di un ID visitatore, i dati del browser del profilo consentono ad Adobe Campaign di recuperare e collegare automaticamente il profilo all’ID visitatore.
-   * Se non viene trovato alcun ID visitatore, viene creato un nuovo ID. Questo ID visitatore viene memorizzato nei registri di tracciamento del profilo.
+  * Se il profilo dispone già di un ID visitatore, i dati del browser del profilo consentono ad Adobe Campaign di recuperare e collegare automaticamente il profilo all’ID visitatore.
+  * Se non viene trovato alcun ID visitatore, viene creato un nuovo ID. Questo ID visitatore viene memorizzato nei registri di tracciamento del profilo.
 
   L’ID verrà quindi riconosciuto dalle altre applicazioni Adobe Marketing Cloud con lo stesso CNAME.
 

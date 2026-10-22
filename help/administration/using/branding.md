@@ -7,26 +7,38 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-TQID: https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek
+TQID: 'https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1310
+source-wordcount: '1310'
 ht-degree: 73%
-
 ---
-
 # Branding{#branding}
 
 ## Informazioni sulla brand identity {#about-brand-identity}
@@ -59,20 +71,20 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
   ![](assets/branding_01.png)
 
-   * **Label**, visibile nell’interfaccia
-   * **Brand name**
-   * **Website URL** e **Website label** del brand
-   * **Logo del brand**
+  * **Label**, visibile nell’interfaccia
+  * **Brand name**
+  * **Website URL** e **Website label** del brand
+  * **Logo del brand**
 
 * **[!UICONTROL Header parameters of sent emails]**, che personalizza i contenuti visualizzati dai destinatari delle campagne. Questa sezione contiene i seguenti campi:
 
   ![](assets/branding_04_header.png)
 
-   * **Sender (email address)**, che contiene l’indirizzo e-mail del brand.
-   * **Sender (name)**, che contiene il nome del brand.
-   * **Reply to (email address)**, che contiene l’indirizzo e-mail a cui il cliente può rispondere.
-   * **Reply to (name)**, che contiene il nome del brand.
-   * **Error (email address)**, che contiene l’indirizzo e-mail da utilizzare in caso di errore.
+  * **Sender (email address)**, che contiene l’indirizzo e-mail del brand.
+  * **Sender (name)**, che contiene il nome del brand.
+  * **Reply to (email address)**, che contiene l’indirizzo e-mail a cui il cliente può rispondere.
+  * **Reply to (name)**, che contiene il nome del brand.
+  * **Error (email address)**, che contiene l’indirizzo e-mail da utilizzare in caso di errore.
 
   >[!IMPORTANT]
   >
@@ -82,9 +94,9 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
   ![](assets/configure_branding_04.png)
 
-   * **URL esterno del server dell’applicazione**, utilizzato per l’hosting e per l’accesso alle diverse pagine di destinazione create.
-   * **External URL of the tracking server**, utilizzato come URL tracciato durante le consegne.
-   * **URL esterno del server della pagina mirror**, utilizzato come pagina mirror predefinita nelle consegne.
+  * **URL esterno del server dell’applicazione**, utilizzato per l’hosting e per l’accesso alle diverse pagine di destinazione create.
+  * **External URL of the tracking server**, utilizzato come URL tracciato durante le consegne.
+  * **URL esterno del server della pagina mirror**, utilizzato come pagina mirror predefinita nelle consegne.
 
   >[!NOTE]
   >
@@ -100,7 +112,7 @@ Un **Brand** è definito dalle seguenti caratteristiche:
 
 In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un nuovo tipo di e-mail da inviare in un sottodominio diverso. A tale scopo, segui i passaggi indicati di seguito:
 
-1. **Configura un nuovo sottodominio**. Per utilizzare un nuovo sottodominio da parte di Adobe, devi innanzitutto configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=it).
+1. **Configura un nuovo sottodominio**. Per utilizzare un nuovo sottodominio da parte di Adobe, devi innanzitutto configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questo articolo](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >

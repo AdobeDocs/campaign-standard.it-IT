@@ -9,18 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
-TQID: https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI
+TQID: 'https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '324'
 ht-degree: 24%
-
 ---
-
 # Informazioni sull’importazione e l’esportazione di dati{#about-data-import-and-export}
 
 A seconda delle esigenze aziendali, puoi importare ed esportare dati in diversi modi con Adobe Campaign:
@@ -29,8 +40,8 @@ A seconda delle esigenze aziendali, puoi importare ed esportare dati in diversi 
 * **Elenchi**: è possibile configurare tutte le schermate dell&#39;elenco ed esportare i dati visualizzati in un file separato.
 * **Flussi di lavoro**: importa dati da file e utilizzali per aggiornare il database o inviare e-mail. È inoltre possibile selezionare i dati da esportare in file. I flussi di lavoro sono il modo migliore per automatizzare gli aggiornamenti regolari, come le importazioni di profili.
 
-   * L’attività **[!UICONTROL Load file]** ti consente di importare i dati all’interno di un modulo strutturato, in modo da poterli utilizzare in Adobe Campaign. I dati vengono importati temporaneamente e occorre un’altra attività per integrarli definitivamente nel database di Adobe Campaign. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/load-file.md).
-   * L’attività **[!UICONTROL Transfer file]** ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign. È possibile utilizzare questa attività prima di un **[!UICONTROL Load file]** nel caso sia necessario recuperare il file da un&#39;origine esterna. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
+  * L’attività **[!UICONTROL Load file]** ti consente di importare i dati all’interno di un modulo strutturato, in modo da poterli utilizzare in Adobe Campaign. I dati vengono importati temporaneamente e occorre un’altra attività per integrarli definitivamente nel database di Adobe Campaign. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/load-file.md).
+  * L’attività **[!UICONTROL Transfer file]** ti consente di ricevere o inviare file, verificare se sono presenti o elencarli in Adobe Campaign. È possibile utilizzare questa attività prima di un **[!UICONTROL Load file]** nel caso sia necessario recuperare il file da un&#39;origine esterna. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../../automating/using/transfer-file.md).
 
 Durante la progettazione dei processi di importazione, è consigliabile utilizzare modelli di flusso di lavoro che possano essere adattati in base alle proprie esigenze. Per ulteriori informazioni su come impostare un modello di flusso di lavoro per l&#39;importazione di dati, consulta [questo caso d&#39;uso](../../automating/using/creating-import-workflow-templates.md).
 

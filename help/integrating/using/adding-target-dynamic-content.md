@@ -9,20 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-TQID: https://experienceleague.adobe.com/51wbz72EYAf6-7RvC0QhOCm1Jmw9o7W04fs9iN0viNw
+TQID: 'https://experienceleague.adobe.com/51wbz72EYAf6-7RvC0QhOCm1Jmw9o7W04fs9iN0viNw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: '457'
 ht-degree: 4%
-
 ---
-
 # Aggiunta di contenuto dinamico Target{#adding-target-dynamic-content}
 
 Con l’integrazione di Adobe Target, è possibile aggiungere immagini dinamiche a una consegna per personalizzare il contenuto in base alle esperienze.
@@ -31,9 +40,9 @@ Durante la modifica di un’e-mail, puoi inserire da Adobe Target un’immagine 
 
 Prima di accedere all’immagine in Adobe Campaign, è necessario eseguire le seguenti attività in Adobe Target:
 
-* Crea una o più [offerte di reindirizzamento](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=it), in cui devi specificare l&#39;URL dell&#39;immagine che userai.
-* Crea uno o più [tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=it) per definire la destinazione dell&#39;attività.
-* Crea un&#39;attività [Compositore esperienza basato su moduli](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=it), in cui devi selezionare una rawbox e specificare diverse esperienze, a seconda del numero di offerte di reindirizzamento create. Per ogni esperienza, devi selezionare una delle offerte di reindirizzamento create.
+* Crea una o più [offerte di reindirizzamento](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html), in cui devi specificare l&#39;URL dell&#39;immagine che userai.
+* Crea uno o più [tipi di pubblico](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) per definire la destinazione dell&#39;attività.
+* Crea un&#39;attività [Compositore esperienza basato su moduli](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html), in cui devi selezionare una rawbox e specificare diverse esperienze, a seconda del numero di offerte di reindirizzamento create. Per ogni esperienza, devi selezionare una delle offerte di reindirizzamento create.
 * Crea segmenti utilizzando le informazioni di Adobe Campaign per specificare le esperienze. Per utilizzare i dati di Adobe Campaign nelle regole di selezione dell’offerta, è necessario specificare i dati nella rawbox in Adobe Target.
 
 1. Creare una consegna e-mail.
@@ -46,7 +55,7 @@ Prima di accedere all’immagine in Adobe Campaign, è necessario eseguire le se
    L’integrazione supporta solo immagini statiche. Il resto del contenuto non è personalizzabile.
 
 1. Immetti il nome della rawbox specificata in Adobe Target.
-1. Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Ulteriori informazioni sulle autorizzazioni di Target Enterprise in [questa pagina](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=it). Questo campo è facoltativo e non obbligatorio se non utilizzi le autorizzazioni Enterprise in Target.
+1. Se utilizzi le autorizzazioni Enterprise nelle impostazioni di Adobe Target, aggiungi la proprietà corrispondente in questo campo. Ulteriori informazioni sulle autorizzazioni di Target Enterprise in [questa pagina](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). Questo campo è facoltativo e non obbligatorio se non utilizzi le autorizzazioni Enterprise in Target.
 1. In **[!UICONTROL Additional decision parameters]**, specifica il mapping tra i campi definiti nei segmenti di Adobe Target e i campi di Adobe Campaign.
 
    I campi Adobe Campaign utilizzati devono essere stati specificati nella rawbox. In questo esempio, definisci esperienze diverse a seconda del sesso del destinatario.
@@ -59,6 +68,6 @@ Prima di accedere all’immagine in Adobe Campaign, è necessario eseguire le se
 
 **Argomenti correlati:**
 
-* [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=it)
+* [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
 * [Informazioni sulla progettazione di contenuti e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Personalizzazione delle immagini e-mail in video in tempo reale](https://helpx.adobe.com/it/marketing-cloud/how-to/email-marketing.html)

@@ -6,42 +6,63 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-TQID: https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA
+TQID: 'https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1227
+source-wordcount: '1227'
 ht-degree: 81%
-
 ---
-
 # Gestione utenti{#users-management}
 
 ## Informazioni sugli utenti {#about-users}
 
 Adobe Campaign ti consente di assegnare un set di ruoli agli utenti per definire a quale parte dell’interfaccia possono accedere.
 
-I ruoli specifici e le autorizzazioni corrispondenti sono descritti nelle sezioni seguenti: [Elenco di ruoli](../../administration/using/list-of-roles.md) e di [autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it).
+I ruoli specifici e le autorizzazioni corrispondenti sono descritti nelle sezioni seguenti: [Elenco di ruoli](../../administration/using/list-of-roles.md) e di [autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Gli amministratori possono gestire gli utenti da Admin Console. Gli utenti vengono quindi sincronizzati automaticamente con Adobe Campaign. Per ulteriori informazioni, consulta la documentazione di [Admin Console](https://helpx.adobe.com/it/enterprise/using/users.html).
 
@@ -55,9 +76,9 @@ Per accedere all’interfaccia di gestione degli utenti da Adobe Campaign, fai c
 
 **Argomenti correlati:**
 
-* Video sulla [gestione di autorizzazioni utente](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=it)
+* Video sulla [gestione di autorizzazioni utente](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Elenco di ruoli](../../administration/using/list-of-roles.md)
-* [Elenco delle autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it)
+* [Elenco delle autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## Tipo di utenti {#type-of-users}
 
@@ -120,7 +141,7 @@ Di seguito sono elencate le attività principali che possono eseguire:
 * [Creazione e invio di messaggi](../../sending/using/confirming-the-send.md): crea il messaggio, seleziona il pubblico, definisci il contenuto del messaggio e i relativi elementi di personalizzazione, invia bozze e successivamente il messaggio finale al pubblico.
 * [Creazione e pubblicazione di pagine di destinazione](../../channels/using/getting-started-with-landing-pages.md): crea e gestisci un insieme di servizi che desideri offrire ai clienti, ad esempio moduli di abbonamento o del suo annullamento.
 * [Creazione ed esecuzione di flussi di lavoro per campagne](../../automating/using/building-a-workflow.md): automatizza i processi delle campagne utilizzando i flussi di lavoro.
-* Controlla le attività di marketing attraverso i [rapporti disponibili](../../reporting/using/defining-the-report-period.md).
+* Monitora le attività di marketing attraverso i [rapporti disponibili](../../reporting/using/defining-the-report-period.md).
 
 ## Creazione di un utente {#creating-a-user}
 
@@ -178,6 +199,6 @@ L’utente è ora pronto per utilizzare Adobe Campaign Standard.
 
 Questo video mostra come gestire i diritti di accesso degli utenti.
 
->[!VIDEO](https://video.tv.adobe.com/v/36165?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
 Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).

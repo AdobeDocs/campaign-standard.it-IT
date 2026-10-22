@@ -8,29 +8,42 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+TQID: 'https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2045
+source-wordcount: '2045'
 ht-degree: 3%
-
 ---
-
 # Ricezione degli avvisi in caso di errori{#receiving-alerts-when-failures-happen}
 
 ## Informazioni sugli avvisi sulla consegna {#about-delivery-alerting}
@@ -247,41 +260,41 @@ Di seguito sono riportati alcuni possibili motivi per ricevere notifiche di avvi
 
 * **[!UICONTROL Deliveries failed]**: questo criterio fornisce informazioni su tutte le consegne con uno stato errato. Può essere dovuto a:
 
-   * Un problema con il server di consegna (MTA, agente di trasferimento messaggi)
-   * Timeout di connessione tra il server di consegna Adobe Campaign e il server ricevente
-   * Un problema di recapito messaggi
-   * Un flusso di lavoro errato
+  * Un problema con il server di consegna (MTA, agente di trasferimento messaggi)
+  * Timeout di connessione tra il server di consegna Adobe Campaign e il server ricevente
+  * Un problema di recapito messaggi
+  * Un flusso di lavoro errato
 
   Se la consegna viene attivata con un flusso di lavoro, verifica che il flusso di lavoro sia stato avviato correttamente. Per ulteriori informazioni, vedere [Esecuzione di un flusso di lavoro](../../automating/using/about-workflow-execution.md). In caso contrario, contatta il tuo amministratore Adobe Campaign per risolvere il problema.
 
 * **[!UICONTROL Deliveries with preparation failed]**: è possibile che si verifichi un errore durante la preparazione della consegna nei seguenti casi:
 
-   * Oggetto mancante nella consegna.
-   * Nei campi di personalizzazione è presente una sintassi errata.
-   * Destinazione mancante.
-   * La consegna supera il limite di dimensioni.
+  * Oggetto mancante nella consegna.
+  * Nei campi di personalizzazione è presente una sintassi errata.
+  * Destinazione mancante.
+  * La consegna supera il limite di dimensioni.
 
   Per ulteriori informazioni, vedere [Preparazione dell&#39;invio](../../sending/using/preparing-the-send.md). Tuttavia, questi errori vengono generalmente individuati durante l’analisi dei messaggi. Vedi [Regole di controllo](../../sending/using/control-rules.md).
 
 * Le possibili cause di un avviso **[!UICONTROL Delivery with bad error ratio for soft bounces]** possono essere:
 
-   * Il server del destinatario non è attivo.
-   * La cassetta postale del destinatario è piena.
+  * Il server del destinatario non è attivo.
+  * La cassetta postale del destinatario è piena.
 
   Per ulteriori informazioni, controlla le schede **[!UICONTROL Exclusion logs]** e **[!UICONTROL Exclusion causes]** dei registri di consegna. Consulta [Registri di esclusione](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
   Le possibili cause di un avviso **[!UICONTROL Delivery with bad error ratio for hard bounces]** possono essere:
 
-   * Il destinatario viene aggiunto al inserisco nell&#39;elenco Bloccati di, il che significa che non desidera più essere contattato.
-   * L’indirizzo e-mail del destinatario non esiste.
-   * Il dominio del destinatario non esiste.
-   * Il server del destinatario sta bloccando la consegna.
+  * Il destinatario viene aggiunto al inserisco nell&#39;elenco Bloccati di, il che significa che non desidera più essere contattato.
+  * L’indirizzo e-mail del destinatario non esiste.
+  * Il dominio del destinatario non esiste.
+  * Il server del destinatario sta bloccando la consegna.
 
   Per evitare errori di mancato recapito non permanenti e permanenti, segui le best practice riportate di seguito:
 
-   * Genera regole di tipologia di filtro per escludere una parte del target del messaggio durante l’analisi della consegna, ad esempio i destinatari in quarantena. Vedere [Creazione di una regola di filtro](../../sending/using/filtering-rules.md).
-   * Aggiorna regolarmente il database dei clienti per mantenere processi di gestione della quarantena ottimali. Consulta [Informazioni sulla quarantena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * In generale, migliora il più possibile il recapito messaggi. Consulta la documentazione dettagliata di Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) e contatta il tuo amministratore di Adobe Campaign per assistenza.
+  * Genera regole di tipologia di filtro per escludere una parte del target del messaggio durante l’analisi della consegna, ad esempio i destinatari in quarantena. Vedere [Creazione di una regola di filtro](../../sending/using/filtering-rules.md).
+  * Aggiorna regolarmente il database dei clienti per mantenere processi di gestione della quarantena ottimali. Consulta [Informazioni sulla quarantena](../../sending/using/understanding-quarantine-management.md#about-quarantines).
+  * In generale, migliora il più possibile il recapito messaggi. Consulta la documentazione dettagliata di Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) e contatta il tuo amministratore di Adobe Campaign per assistenza.
 
 * **[!UICONTROL Deliveries with long start pending]**: in genere questo significa che si è verificato un problema a livello dell&#39;MTA (Message Transfer Agent). Il processo di esecuzione è in attesa della disponibilità di alcune risorse. L’MTA potrebbe non essere stato avviato.
 
