@@ -76,7 +76,7 @@ Per accedere all’interfaccia di gestione degli utenti da Adobe Campaign, fai c
 
 **Argomenti correlati:**
 
-* Video sulla [gestione di autorizzazioni utente](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
+* Video sulla [gestione di autorizzazioni utente](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=it)
 * [Elenco di ruoli](../../administration/using/list-of-roles.md)
 * [Elenco delle autorizzazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
