@@ -83,7 +83,7 @@ Ulteriori informazioni:
 
 Per ogni canale sono disponibili funzionalità specifiche. Ad esempio, il canale e-mail consente di eseguire test A/B per testare fino a 3 versioni di un messaggio e-mail. Con il canale SMS, gestisci i messaggi STOP SMS e archivia nel database gli SMS in arrivo dai destinatari.
 
-Inoltre, sfrutta le funzionalità di personalizzazione e contenuti dinamici di Campaign Standard **1} per acquisire l&#39;interesse del pubblico.**
+Inoltre, sfrutta le funzionalità di personalizzazione e contenuti dinamici di Campaign Standard **1&rbrace; per acquisire l&#39;interesse del pubblico.**
 
 Ulteriori informazioni:
 
