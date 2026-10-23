@@ -8,22 +8,32 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
+TQID: 'https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 7%
-
 ---
-
 # Domande frequenti su Designer e-mail
 
 ## Qual è la differenza tra blocchi di contenuto e frammenti di contenuto?
@@ -43,7 +53,8 @@ Puoi aggiungere la spaziatura interna utilizzando la breadcrumb di HTML.
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Fai clic sull’elemento a cui desideri aggiungere una spaziatura.
-1. Fai clic sul tag principale nel breadcrumb di HTML.Ora puoi aggiungere una spaziatura a questo elemento.
+1. Fai clic sul tag principale nel breadcrumb di HTML.
+Ora puoi aggiungere una spaziatura a questo elemento.
 
 ## Posso importare contenuti HTML in E-mail Designer?
 
@@ -53,7 +64,8 @@ Per ulteriori informazioni, vedere [Modalità di compatibilità](../../designing
 
 ## Come si crea il primo contenuto e-mail?
 
-Innanzitutto, crea un’e-mail dalla pagina Home.Quindi, per aggiungere contenuto a un’e-mail, devi aggiungere un componente struttura e inserirvi un componente contenuto.
+Innanzitutto, crea un’e-mail dalla pagina Home.
+Quindi, per aggiungere contenuto a un’e-mail, devi aggiungere un componente struttura e inserirvi un componente contenuto.
 
 Per ulteriori informazioni, consultare [Creazione di un&#39;e-mail da zero](../../designing/using/quick-start.md#from-scratch-email)
 

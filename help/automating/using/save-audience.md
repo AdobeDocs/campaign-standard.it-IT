@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+TQID: 'https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: '803'
 ht-degree: 99%
-
 ---
-
 # Salvare il pubblico{#save-audience}
 
 ## Descrizione {#description}
@@ -51,18 +60,18 @@ L’attività **[!UICONTROL Save audience]** è essenzialmente utilizzata per ma
 
    * **[!UICONTROL Update an existing audience]**: seleziona un pubblico esistente e scegli il tipo di aggiornamento:
 
-      * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Salva pubblico.
-      * **[!UICONTROL Complete audience with new data]**: i vecchi dati del pubblico vengono conservati e i dati della transizione in entrata dell’attività Save audience vengono aggiunti a essi.
+     * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Salva pubblico.
+     * **[!UICONTROL Complete audience with new data]**: i vecchi dati del pubblico vengono conservati e i dati della transizione in entrata dell’attività Save audience vengono aggiunti a essi.
 
    * **[!UICONTROL Create then update an audience]**: immetti il nome del pubblico e seleziona il tipo di aggiornamento. Se il pubblico non esiste già, viene quindi creato. Se esiste già, viene aggiornato in base alla modalità selezionata:
 
-      * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Salva pubblico.
+     * **[!UICONTROL Replace audience content with new data]**: viene sostituito l’intero contenuto del pubblico. I vecchi dati sono persi. Vengono conservati solo i dati della transizione in entrata dell’attività Salva pubblico.
 
-        Attenzione: questa opzione elimina il tipo di pubblico e la dimensione targeting del pubblico aggiornato.
+       Attenzione: questa opzione elimina il tipo di pubblico e la dimensione targeting del pubblico aggiornato.
 
-      * **[!UICONTROL Complete audience with new data]**: i vecchi dati del pubblico vengono conservati e i dati della transizione in entrata dell’attività Save audience vengono aggiunti a essi.
+     * **[!UICONTROL Complete audience with new data]**: i vecchi dati del pubblico vengono conservati e i dati della transizione in entrata dell’attività Save audience vengono aggiunti a essi.
 
-        Attenzione: questa opzione genera un errore se il tipo di pubblico o la dimensione targeting del pubblico aggiornato non sono compatibili con la configurazione corrente del flusso di lavoro. Ad esempio, non puoi completare un pubblico di tipo file con profili provenienti da una query.
+       Attenzione: questa opzione genera un errore se il tipo di pubblico o la dimensione targeting del pubblico aggiornato non sono compatibili con la configurazione corrente del flusso di lavoro. Ad esempio, non puoi completare un pubblico di tipo file con profili provenienti da una query.
 
    * **[!UICONTROL Create a new audience]**: immetti il nome del pubblico da creare. L’ora e la data della creazione del pubblico vengono automaticamente aggiunte al nome del pubblico. In questo modo il pubblico risulta unico ogni volta che viene eseguito il flusso di lavoro.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: se hai eseguito il targeting dei profili e desideri esportare il pubblico in Adobe Experience Cloud, seleziona questa opzione, quindi seleziona un pubblico condiviso esistente o creane uno nuovo.

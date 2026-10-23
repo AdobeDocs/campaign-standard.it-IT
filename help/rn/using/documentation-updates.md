@@ -6,13 +6,28 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '7568'
 ht-degree: 100%
-
 ---
-
 # Aggiornamenti alla documentazione{#documentation-updates}
 
 Oltre alle [Note sulla versione](../../rn/using/release-notes.md) di Adobe Campaign, questa pagina elenca tutti i nuovi aggiornamenti presenti nella documentazione di Adobe Campaign Standard.
@@ -586,7 +601,7 @@ La guida Automazione è stata aggiornata con i collegamenti alle relative attivi
 
 È stata aggiornata la sezione Calcolo indicatore per i report dinamici. [Ulteriori informazioni](../../reporting/using/indicator-calculation.md)
 
-È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=it)
+È stata aggiunta una tabella di compatibilità per il reporting dinamico per una migliore comprensione della compatibilità tra dimensioni e metriche. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 È stato aggiornato l’elenco delle funzioni per i flussi di lavoro. [Ulteriori informazioni](../../automating/using/list-of-functions.md)
 
@@ -862,7 +877,7 @@ L’attività **[!UICONTROL Subscription Services]** è stata aggiornata per sup
 
 È stato aggiunto un caso d’uso dettagliato sulla modalità di preparazione di una consegna. [Ulteriori informazioni](../../sending/using/preparing-the-send.md)
 
-È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it) (PDF).
+È stata rimossa la sezione che include l’elenco delle autorizzazioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 È stato aggiunto un caso d’uso dettagliato sulle modalità d’utilizzo della risposta automatica SMS. [Ulteriori informazioni](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1034,7 +1049,7 @@ Numerose schermate sono state aggiornate per riflettere le modifiche all’inter
 
 Sono state aggiunte le istruzioni per configurare il servizio core People o l’integrazione Audience Manager con Adobe Campaign. [Ulteriori informazioni](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=it)
+È stata eseguita la revisione della tabella Autorizzazioni per rendere più chiara la funzione di alcuni ruoli. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Sono stati aggiornati i collegamenti di aiuto contestuali disponibili direttamente all’interno di Adobe Campaign.
 
@@ -1092,7 +1107,7 @@ Risorse collegate nelle API REST - [Ulteriori informazioni](../../developing/usi
 
 Integrazione Triggers: sono stati aggiunti due casi d’uso. [Ulteriori informazioni](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Per migliorare la user experience, abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice. [Ulteriori informazioni](../../api/using/get-started-apis.md)
+Per migliorare l’esperienza utente, abbiamo riprogettato la documentazione API per sviluppatori con nuove informazioni e snippet di codice. [Ulteriori informazioni](../../api/using/get-started-apis.md)
 
 Scopri alcuni esempi delle nuove attività del flusso di lavoro [Leggi pubblico](../../automating/using/read-audience.md) e [Segnale esterno](../../automating/using/external-signal.md).
 

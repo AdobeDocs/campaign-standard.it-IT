@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-TQID: https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4
+TQID: 'https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '877'
 ht-degree: 52%
-
 ---
-
 # Modulo di pianificazione{#scheduler}
 
 ## Descrizione {#description}
@@ -76,19 +85,19 @@ Durante la progettazione di un flusso di lavoro pianificato che include più att
 
    * Per eseguire periodicamente il flusso di lavoro nel corso della giornata, attiva l&#39;opzione **[!UICONTROL Periodic]** e configura la periodicità di esecuzione:
 
-      1. Nel campo **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** specificare l&#39;intervallo di esecuzione del flusso di lavoro (ad esempio ogni 30 minuti, ogni 2 ore).
+     1. Nel campo **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** specificare l&#39;intervallo di esecuzione del flusso di lavoro (ad esempio ogni 30 minuti, ogni 2 ore).
 
-         >[!NOTE]
-         >
-         >Questa opzione consente anche di effettuare frequenze di ripetizione giornaliere, mensili o annuali. In questo caso, il flusso di lavoro non verrà eseguito più volte al giorno, ma in base alla frequenza specificata in questo campo.
-         >
-         > Se il flusso di lavoro non richiede più esecuzioni in un giorno ma deve essere eseguito su base giornaliera, mensile o annuale, è consigliabile utilizzare le opzioni **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** disponibili nell&#39;elenco a discesa **[!UICONTROL Execution frequency]**.
+        >[!NOTE]
+        >
+        >Questa opzione consente anche di effettuare frequenze di ripetizione giornaliere, mensili o annuali. In questo caso, il flusso di lavoro non verrà eseguito più volte al giorno, ma in base alla frequenza specificata in questo campo.
+        >
+        > Se il flusso di lavoro non richiede più esecuzioni in un giorno ma deve essere eseguito su base giornaliera, mensile o annuale, è consigliabile utilizzare le opzioni **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** o **[!UICONTROL Yearly]** disponibili nell&#39;elenco a discesa **[!UICONTROL Execution frequency]**.
 
-      1. Definire l&#39;ora di inizio e di fine dell&#39;esecuzione del flusso di lavoro nei campi di ora **[!UICONTROL Start]**/**[!UICONTROL End]**.
+     1. Definire l&#39;ora di inizio e di fine dell&#39;esecuzione del flusso di lavoro nei campi di ora **[!UICONTROL Start]**/**[!UICONTROL End]**.
 
-         Se non viene specificato un orario di fine, l&#39;esecuzione termina alla mezzanotte 00:00:00 ore e l&#39;esecuzione successiva inizia il giorno successivo all&#39;orario di inizio specificato.
+        Se non viene specificato un orario di fine, l&#39;esecuzione termina alla mezzanotte 00:00:00 ore e l&#39;esecuzione successiva inizia il giorno successivo all&#39;orario di inizio specificato.
 
-      1. Nel campo data **[!UICONTROL Start]**, selezionare la data in cui deve iniziare la prima esecuzione.
+     1. Nel campo data **[!UICONTROL Start]**, selezionare la data in cui deve iniziare la prima esecuzione.
 
    Nell’esempio seguente, l’attività è configurata per eseguire il flusso di lavoro ogni 2 ore tra le 8 e le 17, a partire dal 1° marzo.
 

@@ -8,26 +8,36 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+TQID: 'https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: '1263'
 ht-degree: 83%
-
 ---
-
 # E-mail Designer di Campaign{#designing-content-in-adobe-campaign}
 
 Dopo aver creato un’e-mail in Adobe Campaign, è necessario definirne il contenuto.
@@ -46,9 +56,9 @@ E-mail designer consente di creare contenuti e modelli di contenuto per le e-mai
 * Per informazioni su come creare contenuti e-mail, consulta la [Guida introduttiva a E-mail designer](../../designing/using/quick-start.md).
 * Per avere una panoramica su E-mail designer, consulta [Uso di E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 * Per ulteriori informazioni sulla creazione di contenuto:
-   * Da zero, consulta [Progettazione di e-mail da zero](../../designing/using/designing-from-scratch.md).
-   * Utilizzando il contenuto esistente, consulta [Progettazione con contenuto esistente](../../designing/using/using-existing-content.md).
-   * Utilizzando le integrazioni di Creative Cloud, consulta [Progettazione di e-mail con più soluzioni](../../designing/using/using-integrations.md).
+  * Da zero, consulta [Progettazione di e-mail da zero](../../designing/using/designing-from-scratch.md).
+  * Utilizzando il contenuto esistente, consulta [Progettazione con contenuto esistente](../../designing/using/using-existing-content.md).
+  * Utilizzando le integrazioni di Creative Cloud, consulta [Progettazione di e-mail con più soluzioni](../../designing/using/using-integrations.md).
 * Per ulteriori informazioni sulla personalizzazione, consulta [Personalizzazione](../../designing/using/personalization.md).
 
 Durante la creazione di un messaggio e-mail, puoi scegliere di utilizzare un modello predefinito o di caricare un contenuto esistente da un’altra sorgente. Consulta [Selezione di un contenuto esistente](../../designing/using/using-existing-content.md#selecting-an-existing-content).

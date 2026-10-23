@@ -9,26 +9,42 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+TQID: 'https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2582
+source-wordcount: '2582'
 ht-degree: 1%
-
 ---
-
 # Best practice e limitazioni {#acs-msdyn-best-practices}
 
 ## Gestire i dati {#acs-msdyn-manage-data}
@@ -170,9 +186,9 @@ Quando si pianifica l’utilizzo di questa integrazione, è necessario tenere co
 
   Utilizza quanto segue per aiutare a stimare il volume di chiamate del motore dall’integrazione:
 
-   * Inserimenti di record (ad esempio, nuovo record): 1 chiamata del motore
-   * Eliminazioni record: 1 chiamata motore
-   * Aggiornamenti dei record: 2 chiamate al motore (solo 1 chiamata se il record di destinazione è identico al record di origine, ovvero se non viene apportata alcuna modifica al record Campaign)
+  * Inserimenti di record (ad esempio, nuovo record): 1 chiamata del motore
+  * Eliminazioni record: 1 chiamata motore
+  * Aggiornamenti dei record: 2 chiamate al motore (solo 1 chiamata se il record di destinazione è identico al record di origine, ovvero se non viene apportata alcuna modifica al record Campaign)
 
   Quando si calcola il volume complessivo delle chiamate al motore di Campaign, è importante tenere conto di altre origini di chiamate al motore, tra cui pagine di destinazione, WebApps, JSSP, API, registrazioni di app mobili e così via.
 

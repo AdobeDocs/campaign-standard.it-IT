@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 3%
-
+source-wordcount: '792'
+ht-degree: 4%
 ---
-
 # Informazioni sul Connettore dati di Adobe Experience Platform {#about-aep-data-connector}
 
 >[!IMPORTANT]
@@ -45,7 +60,7 @@ Le sezioni seguenti descrivono i passaggi chiave per eseguire una mappatura dei 
 
 * La mappatura predefinita è disponibile solo per i campi che vengono forniti in Campaign Standard per impostazione predefinita. Per acquisire tutti i campi e le risorse personalizzati, ogni cliente deve definire la propria mappatura.
 
-* Adobe Experience Platform Data Connector invia i dati del profilo tramite la piattaforma a intervalli regolari. &#x200B; La durata dell’intervallo è di 15 minuti. Questo valore può essere modificato utilizzando [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it).
+* Il connettore dati di Adobe Experience Platform invierà i dati del profilo attraverso la piattaforma a intervalli regolari. &#x200B; La durata dell’intervallo è di 15 minuti. Questo valore può essere modificato utilizzando [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it).
 
 * L’ingegnere dati può pubblicare, modificare e mettere in pausa la mappatura da Campaign a Adobe Experience Platform.
 

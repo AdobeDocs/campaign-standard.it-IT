@@ -8,22 +8,32 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-TQID: https://experienceleague.adobe.com/0ZBuZihQqaowNG6y5gzkh5Vpz86e6pjmTRd5bNDPGxg
+TQID: 'https://experienceleague.adobe.com/0ZBuZihQqaowNG6y5gzkh5Vpz86e6pjmTRd5bNDPGxg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+subfeature_v2:
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: '384'
 ht-degree: 69%
-
 ---
-
 # Invio di messaggi con il fuso orario del destinatario{#sending-messages-at-the-recipient-s-time-zone}
 
 Quando gestisci una campagna in cui la data e l’ora sono importanti, puoi pianificare una consegna che tenga conto dell’ora locale di ciascun destinatario: e-mail, SMS o notifiche push verranno ricevuti all’ora pianificata, nel rispettivo fuso orario.
@@ -34,7 +44,7 @@ Quando gestisci una campagna in cui la data e l’ora sono importanti, puoi pian
 
 Per inviare una consegna al fuso orario del destinatario, puoi utilizzare anche l’attività **[!UICONTROL Scheduler]** in un flusso di lavoro. Per ulteriori informazioni, consulta questa [pagina](../../automating/using/scheduler.md).
 
-Nell’esempio seguente, si desidera inviare un codice promozionale valido solo per il giorno di San Valentino a tutti i clienti in tutto il mondo. Per avere il tempo sufficiente per utilizzarlo durante il giorno, tutti i clienti devono ricevere il messaggio il 14 febbraio alle 8:00 a seconda del proprio fuso orario.
+Nell’esempio seguente, si desidera inviare un codice promozionale valido solo per il giorno di San Valentino a tutti i clienti in tutto il mondo. Per avere il tempo sufficiente per utilizzarlo durante il giorno, tutti i clienti devono ricevere il messaggio il 14 febbraio alle 8 in base al proprio fuso orario.
 
 1. Nella scheda **[!UICONTROL Marketing activities]**, inizia a creare la consegna, nel nostro caso un’e-mail. Per ulteriori informazioni sulla creazione di una consegna, consulta questa [sezione](../../channels/using/creating-an-email.md).
 1. Dopo aver progettato l’e-mail di San Valentino, fai clic su **[!UICONTROL Create]** per accedere al dashboard di consegna. Per ulteriori informazioni sulla progettazione delle e-mail, consulta questa [pagina](../../designing/using/personalization.md#example-email-personalization).
@@ -45,7 +55,7 @@ Nell’esempio seguente, si desidera inviare un codice promozionale valido solo 
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. Seleziona l’opzione **[!UICONTROL Messages to be sent automatically on the date]** specificata di seguito. Quindi nel campo **[!UICONTROL Start sending from]**, imposta la data di contatto, nel nostro caso il 14 febbraio alle 8:00 in modo che ogni destinatario lo riceva il giorno di San Valentino.
+1. Seleziona l’opzione **[!UICONTROL Messages to be sent automatically on the date]** specificata di seguito. Quindi nel campo **[!UICONTROL Start sending from]**, imposta la data di contatto, nel nostro caso il 14 febbraio alle 8 in modo che ogni destinatario lo riceva il giorno di San Valentino.
 
    ![](assets/send-time_opt_valentine.png)
 
@@ -63,4 +73,4 @@ Nell’esempio seguente, si desidera inviare un codice promozionale valido solo 
 
    ![](assets/send-time_opt_valentine_4.png)
 
-Indipendentemente dal luogo in cui si trovano, tutti i destinatari riceveranno il messaggio il 14 febbraio alle 8.0&rbrace; ora locale.:00
+Indipendentemente dal luogo in cui si trovano, tutti i destinatari riceveranno il messaggio il 14 febbraio alle 8 ora locale.

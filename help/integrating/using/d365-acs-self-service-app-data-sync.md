@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+TQID: 'https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Email marketing
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1854'
 ht-degree: 0%
-
 ---
-
 # Sincronizzare i dati
 
 Puoi sincronizzare le tabelle da Microsoft Dynamics 365 alle metriche di marketing di Campaign e Campaign a Microsoft Dynamics 365. La sincronizzazione viene eseguita tramite tre flussi di lavoro tecnici dedicati: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Fai riferimento a questa sezione per [ulteriori informazioni](../../integrating/using/d365-acs-self-service-app-workflows.md).
@@ -48,25 +58,25 @@ Segue una descrizione di ciascuna delle colonne della tabella:
 
 * **[!UICONTROL ACTIONS]**: le azioni possibili sono elencate di seguito:
 
-   * Fare clic sull&#39;icona **[!UICONTROL Edit]** per modificare la mappatura.
+  * Fare clic sull&#39;icona **[!UICONTROL Edit]** per modificare la mappatura.
 
-   * Utilizzare l&#39;icona **[!UICONTROL Delete]** per eliminare un mapping di tabella.
+  * Utilizzare l&#39;icona **[!UICONTROL Delete]** per eliminare un mapping di tabella.
 
-   * Fare clic sull&#39;icona **[!UICONTROL Replay Data]** per risincronizzare tutti i dati nella tabella di Microsoft Dynamics 365. Normalmente l’applicazione di integrazione sincronizza solo i dati in Microsoft Dynamics 365 che sono stati modificati di recente.  Tuttavia, in alcuni casi (ad esempio, se hai apportato una modifica o commesso un errore) potresti voler risincronizzare tutti i dati.  In questi casi, fare clic su questo pulsante e, alla successiva interruzione o avvio del flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, i dati inizieranno a essere sincronizzati.
+  * Fare clic sull&#39;icona **[!UICONTROL Replay Data]** per risincronizzare tutti i dati nella tabella di Microsoft Dynamics 365. Normalmente l’applicazione di integrazione sincronizza solo i dati in Microsoft Dynamics 365 che sono stati modificati di recente.  Tuttavia, in alcuni casi (ad esempio, se hai apportato una modifica o commesso un errore) potresti voler risincronizzare tutti i dati.  In questi casi, fare clic su questo pulsante e, alla successiva interruzione o avvio del flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, i dati inizieranno a essere sincronizzati.
 
-     Se si fa clic sul pulsante **[!UICONTROL Replay Data]** e i controlli hanno esito positivo, l&#39;icona verrà disabilitata: ciò indica che i dati per questa coppia di mapping della tabella verranno risincronizzati con la successiva esecuzione del flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**.
+    Se si fa clic sul pulsante **[!UICONTROL Replay Data]** e i controlli hanno esito positivo, l&#39;icona verrà disabilitata: ciò indica che i dati per questa coppia di mapping della tabella verranno risincronizzati con la successiva esecuzione del flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]**.
 
-     Non è possibile scegliere di riprodurre nuovamente i dati quando si verificano le condizioni seguenti:
+    Non è possibile scegliere di riprodurre nuovamente i dati quando si verificano le condizioni seguenti:
 
-      * Se sono presenti 2.000.000 (o più) elementi nella metrica Backlog associata al flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]** (visualizzata nella pagina **[!UICONTROL Workflows]**)
-      * Se nella tabella Microsoft Dynamics 365 sono presenti almeno 2.000.000 record
+    * Se sono presenti 2.000.000 (o più) elementi nella metrica Backlog associata al flusso di lavoro **[!UICONTROL Microsoft Dynamics 365 to Campaign]** (visualizzata nella pagina **[!UICONTROL Workflows]**)
+    * Se nella tabella Microsoft Dynamics 365 sono presenti almeno 2.000.000 record
 
-     Il numero di record da risincronizzare varia. Se il numero di record è elevato, il completamento del processo di sincronizzazione potrebbe richiedere del tempo. Fare riferimento alla metrica **[!UICONTROL Backlog]** nella pagina **[!UICONTROL Workflows]** poiché l&#39;applicazione di integrazione lavora per completare il processo di sincronizzazione.
+    Il numero di record da risincronizzare varia. Se il numero di record è elevato, il completamento del processo di sincronizzazione potrebbe richiedere del tempo. Fare riferimento alla metrica **[!UICONTROL Backlog]** nella pagina **[!UICONTROL Workflows]** poiché l&#39;applicazione di integrazione lavora per completare il processo di sincronizzazione.
 
-     >[!IMPORTANT]
-     >
-     > Si consiglia vivamente di arrestare il flusso di lavoro di integrazione quando si pubblicano modifiche a Adobe Campaign Standard o Microsoft Dynamics 365. Le modifiche applicabili includono: aggiornamenti alle risorse/entità (e ai relativi campi associati), collegamenti, colonne di identificatori e così via attualmente in uso nell’integrazione.
-     >
+    >[!IMPORTANT]
+    >
+    > Si consiglia vivamente di arrestare il flusso di lavoro di integrazione quando si pubblicano modifiche a Adobe Campaign Standard o Microsoft Dynamics 365. Le modifiche applicabili includono: aggiornamenti alle risorse/entità (e ai relativi campi associati), collegamenti, colonne di identificatori e così via attualmente in uso nell’integrazione.
+    >
 
 ## Crea una nuova mappatura {#add-a-new-mapping}
 
@@ -110,7 +120,7 @@ Puoi definire le seguenti impostazioni:
 * **[!UICONTROL Filters]**: ulteriori informazioni in [questa sezione](#filters)
 * **[!UICONTROL Advanced Settings]**: ulteriori informazioni in [questa sezione](#advanced-settings)
 
-### Mappature campi {#field-mappings}
+### Mappature dei campi {#field-mappings}
 
 #### Chiavi primarie
 

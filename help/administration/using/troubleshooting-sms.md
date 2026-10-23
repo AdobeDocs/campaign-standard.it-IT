@@ -6,22 +6,33 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
+TQID: 'https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2724
+source-wordcount: '2741'
 ht-degree: 0%
-
 ---
-
 # Risoluzione dei problemi relativi agli SMS {#sms-troubleshooting}
 
 ## Conflitto tra diversi account esterni {#external-account-conflict}
@@ -48,14 +59,14 @@ Una volta verificato ogni singolo account, esistono due possibili scenari:
 
   Si è verificato un conflitto tra gli account. Come accennato in precedenza, Adobe Campaign tratta gli account singolarmente, ma il provider può trattarli come un singolo account.
 
-   * Stai utilizzando combinazioni di login/password diverse tra tutti i tuoi account.
-Contattare il provider per diagnosticare potenziali conflitti.
+  * Stai utilizzando combinazioni di login/password diverse tra tutti i tuoi account.
+    Contattare il provider per diagnosticare potenziali conflitti.
 
-   * Alcuni degli account esterni condividono la stessa combinazione di login/password.
-Il provider non è in grado di individuare l&#39;account esterno da cui proviene `BIND PDU`, pertanto tutte le connessioni da più account vengono trattate come un unico account. Potrebbero aver indirizzato MO e SR in modo casuale sui due account, causando problemi.
-Se il provider supporta più codici brevi per la stessa combinazione di login/password, sarà necessario chiedere loro dove inserire il codice breve in `BIND PDU`. Tieni presente che questa informazione deve essere inserita in `BIND PDU` e non in `SUBMIT_SM`, poiché `BIND PDU` è l&#39;unico luogo che consentirà il routing corretto dei MO.
-Vedere la sezione [Informazioni in ogni tipo di PDU](../../administration/using/sms-protocol.md#information-pdu) per sapere quale campo è disponibile in `BIND PDU`. In genere si aggiunge il codice breve in `address_range`, ma ciò richiede un supporto speciale da parte del provider. Contattali per sapere in che modo si aspettano di instradare più codici brevi in modo indipendente.
-Adobe Campaign supporta la gestione di più codici brevi sullo stesso account esterno.
+  * Alcuni degli account esterni condividono la stessa combinazione di login/password.
+    Il provider non è in grado di individuare l&#39;account esterno da cui proviene `BIND PDU`, pertanto tutte le connessioni da più account vengono trattate come un unico account. Potrebbero aver indirizzato MO e SR in modo casuale sui due account, causando problemi.
+    Se il provider supporta più codici brevi per la stessa combinazione di login/password, sarà necessario chiedere loro dove inserire il codice breve in `BIND PDU`. Tieni presente che questa informazione deve essere inserita in `BIND PDU` e non in `SUBMIT_SM`, poiché `BIND PDU` è l&#39;unico luogo che consentirà il routing corretto dei MO.
+    Vedere la sezione [Informazioni in ogni tipo di PDU](../../administration/using/sms-protocol.md#information-pdu) per sapere quale campo è disponibile in `BIND PDU`. In genere si aggiunge il codice breve in `address_range`, ma ciò richiede un supporto speciale da parte del provider. Contattali per sapere in che modo si aspettano di instradare più codici brevi in modo indipendente.
+    Adobe Campaign supporta la gestione di più codici brevi sullo stesso account esterno.
 
 ## Problema con l’account esterno in generale {#external-account-issues}
 
@@ -82,7 +93,7 @@ Adobe Campaign supporta la gestione di più codici brevi sullo stesso account es
 
 * Verificare che la rete sia configurata correttamente in modo da consentire la connessione TCP al provider.
 
-* Chiedi al provider di verificare che gli IP siano stati aggiunti correttamente al inserisco nell&#39;elenco Consentiti dell’istanza di Adobe Campaign.
+* Chiedi al provider di verificare che gli IP siano stati aggiunti correttamente al inserisco nell&#39;elenco Consentiti di dell’istanza di Adobe Campaign.
 
 * Controlla le impostazioni dell&#39;**account esterno**. Chiedi al provider il valore dei campi.
 

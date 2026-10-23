@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-TQID: https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik
+TQID: 'https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '338'
 ht-degree: 86%
-
 ---
-
 # Riconciliazione dei dati tramite relazioni {#reconciliation-relations}
 
 L’esempio seguente illustra un flusso di lavoro che aggiorna il database utilizzando i dati di acquisto in un file. I dati di acquisto contengono dati che si riferiscono a elementi di altre dimensioni, come e-mail del cliente e codici prodotto.
@@ -38,9 +47,9 @@ Il flusso di lavoro è costituito dalle seguenti attività:
 
 * Un&#39;attività [Load file](../../automating/using/load-file.md) che carica e rileva i dati del file da importare. Il file importato contiene i dati seguenti:
 
-   * Data della transazione
-   * Indirizzo e-mail del cliente
-   * Codice del prodotto acquistato
+  * Data della transazione
+  * Indirizzo e-mail del cliente
+  * Codice del prodotto acquistato
 
   ```
   date;client;product
@@ -57,8 +66,8 @@ Il flusso di lavoro è costituito dalle seguenti attività:
 
 * Un&#39;attività [Reconciliation](../../automating/using/reconciliation.md) per associare i dati di acquisto ai profili di database e ai prodotti. È pertanto necessario definire una relazione tra dati del file e la tabella del profilo, nonché con la tabella del prodotto. Questa configurazione viene eseguita nella scheda **[!UICONTROL Relations]** dell’attività:
 
-   * Relazione con **Profiles**: la colonna **client** del file è collegata al campo **e-mail** della dimensione **Profiles**.
-   * Relazione con **Products**: la colonna **product** del file è collegata al campo **productCode** della dimensione **Profiles**.
+  * Relazione con **Profiles**: la colonna **client** del file è collegata al campo **e-mail** della dimensione **Profiles**.
+  * Relazione con **Products**: la colonna **product** del file è collegata al campo **productCode** della dimensione **Profiles**.
 
   Le colonne vengono aggiunte ai dati in entrata per rimandare alle chiavi esterne delle dimensioni collegate.
 

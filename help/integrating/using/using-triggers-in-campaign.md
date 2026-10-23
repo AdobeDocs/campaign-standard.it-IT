@@ -1,6 +1,6 @@
 ---
 title: Utilizzo di Triggers in Campaign
-description: Crea un evento trigger in Adobe Campaign basato su un trigger Adobe Experience Cloud esistente.
+description: Crea un evento trigger in Adobe Campaign in base a un trigger esistente in Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-TQID: https://experienceleague.adobe.com/JS2nl6HlwWPj9JFhWgNPeWV2cNNiAjvCdczoYH5AhtE
+TQID: 'https://experienceleague.adobe.com/JS2nl6HlwWPj9JFhWgNPeWV2cNNiAjvCdczoYH5AhtE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 743
+source-wordcount: '743'
 ht-degree: 73%
-
 ---
-
 # Utilizzo di Triggers in Campaign{#using-triggers-in-campaign}
 
 ## Creazione di un trigger mappato in Campaign {#creating-a-mapped-trigger-in-campaign}
@@ -35,7 +47,7 @@ ht-degree: 73%
 >
 >Per creare Triggers, è necessario il ruolo **[!UICONTROL Administration]** o appartenere al gruppo di sicurezza **[!UICONTROL Administrators]**. Per ulteriori informazioni, consulta questa [pagina](../../administration/using/list-of-roles.md).
 
-È necessario assicurarsi di definire in anticipo i comportamenti che si desidera monitorare in Adobe Experience Cloud (**[!UICONTROL Triggers]** servizio core). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=it). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
+Devi accertarti di definire in anticipo i comportamenti da monitorare all&#39;interno di Adobe Experience Cloud (**[!UICONTROL Triggers]** servizio core). Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=it). Quando definisci il trigger, devi abilitare gli alias. Per ogni comportamento (navigazione/abbandono moduli, aggiunta/eliminazione di prodotti, sessione scaduta e così via), è necessario aggiungere un nuovo trigger all’interno di Adobe Experience Cloud.
 
 Ora devi creare un evento trigger in Adobe Campaign basato su un trigger esistente di Adobe Experience Cloud.
 
@@ -63,7 +75,7 @@ I passaggi per implementare ciò sono i seguenti:
 
 ## Pubblicazione di un trigger in Campaign {#publishing-trigger-in-campaign}
 
-Dopo aver creato un evento trigger in Adobe Campaign basato su un trigger Adobe Experience Cloud esistente, ora devi pubblicarlo.
+Dopo aver creato un evento trigger in Adobe Campaign basato su un trigger esistente in Adobe Experience Cloud, ora devi pubblicarlo.
 
 1. Dal trigger creato in precedenza, fare clic sul pulsante **[!UICONTROL Publish]** per avviare la pubblicazione dell&#39;evento trigger.
 

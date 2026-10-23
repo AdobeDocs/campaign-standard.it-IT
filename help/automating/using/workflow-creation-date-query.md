@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
+TQID: 'https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 32%
-
+source-wordcount: '368'
+ht-degree: 37%
 ---
-
 # Creazione di consegne nella data di creazione dei profili {#creation-date-query}
 
 Puoi inviare un’offerta tramite e-mail nell’anniversario della creazione del profilo del cliente.
@@ -55,7 +64,7 @@ Puoi inviare un’offerta tramite e-mail nell’anniversario della creazione del
 
 ### Recupero dei profili creati lo stesso giorno dell’esecuzione {#retrieving-profiles-created-on-the-same-day}
 
-1. In **[!UICONTROL Profile]** trascinare e rilasciare il campo **[!UICONTROL Created]** e fare clic su **[!UICONTROL Advanced Mode]**.
+1. In **[!UICONTROL Profile]**, trascinare e rilasciare il campo **[!UICONTROL Created]**. e fare clic su **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
 1. In **[!UICONTROL list of functions]**, fare doppio clic su **[!UICONTROL Day]** dal nodo **[!UICONTROL Date]**.
 1. Inserire quindi il campo **[!UICONTROL Created]** come argomento.
@@ -102,7 +111,7 @@ Viene visualizzata la query finale:
 1. Per creare il layout dell’e-mail, fai clic su **[!UICONTROL Email Designer]**.
 1. Inserisci elementi o seleziona un modello esistente.
 1. Personalizza il messaggio e-mail utilizzando campi e collegamenti.
-Per ulteriori informazioni, vedere [progettazione di un&#39;e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Per ulteriori informazioni, consulta [progettazione di un’e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Fai clic su **[!UICONTROL Preview]** per controllare il layout.
 1. Fai clic su **[!UICONTROL Save]**.
 
