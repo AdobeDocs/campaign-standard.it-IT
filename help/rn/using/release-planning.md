@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Pianificazione del rilascio {#release-planning}
 
@@ -39,7 +39,7 @@ Tutte le istanze di Adobe Campaign Standard vengono aggiornate con ogni nuova ve
 
 Gli aggiornamenti vengono implementati in due fasi. In primo luogo, le istanze nell’ambiente di staging vengono aggiornate per consentire ai clienti di testare le nuove funzionalità e adattare la propria configurazione, se necessario. Vengono quindi aggiornate le istanze di produzione.
 
-Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti dell’ambiente avvengono gradualmente. Le date esatte vengono comunicate per e-mail a ciascun cliente.
+Tutte le date di rilascio sono soggette a modifica: visita questa pagina regolarmente per verificare la disponibilità di aggiornamenti. Gli aggiornamenti dell’ambiente avvengono a scaglioni. Le date esatte vengono comunicate per e-mail a ciascun cliente.
 
 ## Versione 26.3 {#release-26-3-release}
 
