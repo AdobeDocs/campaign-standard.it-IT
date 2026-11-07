@@ -127,7 +127,7 @@ Per recuperare il contenuto esistente da un URL, effettua le seguenti operazioni
 
 Scopri questa funzione nel video.
 
->[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507640?captions=ita&quality=12)
 
 Ulteriori video dimostrativi di Campaign Standard sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=it).
 
